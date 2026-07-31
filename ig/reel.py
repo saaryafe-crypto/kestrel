@@ -12,7 +12,7 @@ Usage: .venv/bin/python reel.py [video-url] [--dry]
 import html, json, os, re, shutil, subprocess, sys, time
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
 import bundle
 import reelscout
@@ -236,12 +236,16 @@ def cline(i, c):
     return line
 
 
-def build_prompt(cands):
+def build_prompt(cands, recent=()):
     lines = [cline(i, c) for i, c in enumerate(cands)]
-    return f"""You run @yaffeai, an AI/tech Instagram page modeled on @technology (8.7M followers). Below are the most viral recent AI/tech clips found across Reddit breakouts, Instagram, TikTok and YouTube — real view counts and velocities, the crowd already voted. Pick ONE to repost as a branded reel, exactly in their register.
+    recent_block = ""
+    if recent:
+        recent_block = ("\n\nALREADY POSTED (last 7 days — reels we published):\n"
+                        + "\n".join(f"- {t}" for t in recent) + "\n")
+    return f"""You run @yaffeai, an AI/tech Instagram page modeled on @technology (8.7M followers). Below are the most viral AI/tech clips found across Reddit breakouts, Instagram, TikTok and YouTube — real view counts, the crowd already voted. Pick ONE to repost as a branded reel, exactly in their register.
 
 CANDIDATES:
-{chr(10).join(lines)}
+{chr(10).join(lines)}{recent_block}
 
 Their reel formula (copy the FORM, never the text): a one-line curiosity title over the video — "In case you've ever wondered how a spring was made", "The efficiency of a robot vacuum cleaner". Understated, curious, zero hype words. The caption is a calm 2-3 short-paragraph explainer of what you're seeing and why it matters, then a follow line, then credits.
 {principles()}
@@ -255,7 +259,8 @@ The Credits name is a PLAIN name — never an @ handle, # hashtag, or u/ prefix 
 RULES
 - TOPIC IS A HARD GATE: only pick a clip about AI, robots, or futuristic tech. If NO candidate qualifies, return exactly {{"pick": -1}} and nothing else — skipping the slot beats posting off-topic.
 - ENTERTAINMENT IS A HARD GATE (the newspaper test): picture a 19-year-old who does not care about tech news, scrolling with the SOUND OFF. Would they stop for the video itself? Corporate product demos, keynote/press-conference clips, talking heads, screen recordings, slideshows, news-segment energy = FAIL no matter how big the numbers. Pick a MOMENT someone caught on camera — a machine doing something absurd or unbelievable, a spectacular failure, scale that makes you say "wait, WHAT?". The clip must trigger ONE clear emotion in 3 seconds: awe, fear, or laughter. If every candidate fails this test, return {{"pick": -1}} — the ladder has more sources.
-- VIRALITY IS THE PRIMARY SIGNAL: candidates are listed by real view/upvote velocity (best first) and everything shown already cleared a hard virality floor. Only skip a stronger candidate if it fails the topic gate or the entertainment gate.
+- VIRALITY IS THE PRIMARY SIGNAL: candidates are listed by real total views (best first) and everything shown already cleared a hard virality floor. A clip's age does NOT matter — a monster clip from three weeks ago we never posted beats a modest clip from today. Only skip a stronger candidate if it fails the topic gate, the entertainment gate, or the story-dedupe gate.
+- STORY DEDUPE IS A HARD GATE (owner rule Aug 1): if a candidate shows the same event, stunt, or story as ANYTHING in the ALREADY POSTED list — even a different angle, a different channel's copy, or a re-edit — treat it as already posted and skip it. Same robot doing the same demo, same launch, same fail = same story. If every candidate is a dupe, return {{"pick": -1}} — the ladder has more sources.
 - Where a "crowd:" line appears, those are the top-voted comments on the source post — thousands of real people voting on which EMOTION the moment triggers. Aim your title at that emotion. NEVER quote or copy a comment.
 - FIRST 3 SECONDS ARE A HARD GATE: start_s must land ON the most impressive moment — no build-up, no intro, no logo. If the wow moment is at 0:42, start there.
 - COMPLETION over length: prefer clip_s 15-30. Cut BEFORE the clip gets boring; a fully-watched 18s reel outranks a half-watched 50s one.
@@ -401,10 +406,10 @@ def clip_ok(src, dur, channel):
                 os.remove(fp)
 
 
-def pick(cands):
+def pick(cands, recent=()):
     """Claude pick + QA loop. Returns the validated response, or None when no
     candidate passes the topic gate / QA — caller widens the ladder."""
-    prompt = build_prompt(cands)
+    prompt = build_prompt(cands, recent)
     for attempt in range(3):
         r = call_claude(prompt)
         if r.get("pick") == -1:
@@ -414,7 +419,7 @@ def pick(cands):
         if not errs:
             return r
         print(f"QA gate failed (attempt {attempt+1}): " + "; ".join(errs), file=sys.stderr)
-        prompt = build_prompt(cands) + "\n\nYOUR PREVIOUS ATTEMPT FAILED — fix:\n- " + "\n- ".join(errs)
+        prompt = build_prompt(cands, recent) + "\n\nYOUR PREVIOUS ATTEMPT FAILED — fix:\n- " + "\n- ".join(errs)
     return None
 
 
@@ -429,13 +434,18 @@ def main():
     # counts) -> today's viral Reddit clips -> this week's -> fill the slot
     # with an extra carousel instead.
     used_ids = {u["id"] for u in used}
+    # owner rule Aug 1: never repost a story we ran in the last 7 days, even a
+    # different angle/re-edit of the same event — the judge gets these titles
+    week_ago = str(date.today() - timedelta(days=7))
+    recent = [u["title"] for u in used
+              if u.get("title") and u.get("date", "") >= week_ago]
     r = cands = None
     if urls:
         d = json.loads(yt("-J", "--no-download", urls[0]))
         cands = [{"id": d["id"], "url": urls[0], "title": d["title"],
                   "channel": d.get("uploader") or d.get("channel", ""),
                   "duration": int(d.get("duration") or 0)}]
-        r = pick(cands)
+        r = pick(cands, recent)
     else:
         for rung, fn in (("radar", lambda: radar_candidates(used_ids)),
                          ("scout", lambda: reelscout.scout(used_ids)),
@@ -447,7 +457,7 @@ def main():
                 print(f"{rung} sourcing failed ({e})", file=sys.stderr)
                 cands = []
             if cands:
-                r = pick(cands)
+                r = pick(cands, recent)
             if r:
                 break
             print(f"no publishable reel from {rung}", file=sys.stderr)
@@ -485,7 +495,7 @@ def main():
         print(f"clip rejected ({'download failed' if not os.path.exists(src) else 'frame QA'}):"
               f" {c['channel']} {c['id']} — re-picking", file=sys.stderr)
         cands = cands[:r["pick"]] + cands[r["pick"] + 1:]
-        r = pick(cands) if cands else None
+        r = pick(cands, recent) if cands else None
     else:
         r = None
 

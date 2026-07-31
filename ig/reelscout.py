@@ -11,8 +11,9 @@ Three scouts, one normalized candidate shape:
   free, no search anti-bot fight).
 - youtube:   official-channel watchlist via yt-dlp — pristine source files.
 
-Ranking = views per hour since upload (fresh virality, not lifetime fame),
-after per-platform viral floors. Quality gate: short side >= 720px (probed).
+Ranking = TOTAL views (owner rule Aug 1: the most viral clip we never posted
+wins — it does not need to be new; the 90-day cap keeps out ancient shelf
+clips), after per-platform viral floors. Quality gate: short side >= 720px.
 Every scout fails soft: one dead handle or blocked platform never kills the
 run. Watchlist lives in watchlist.json — add/remove handles, no code change.
 """
@@ -169,14 +170,14 @@ def scout_youtube(queries, used):
     virality are enforced later by _probe (MAX_AGE_H + floor + vph rank)."""
     out, seen = [], set()
     for q in queries:
-        # results URL with sp=EgIIAw%3D%3D ("upload date: this week" filter —
+        # results URL with sp=EgIIBA%3D%3D ("upload date: this month" filter —
         # the ytsearchdate: scheme is broken in yt-dlp 2026.07.04, and the
         # CAI%3D upload-date SORT still let years-old shelf videos through).
-        # Week filter matches our 14-day window; the merged pool is then
-        # sorted by views so probes hit fresh AND viral.
+        # Month filter (owner Aug 1: clips don't need to be new) widens the
+        # pool; the merged pool is then sorted by views so probes hit viral.
         try:
             entries = _yt_flat("https://www.youtube.com/results?search_query="
-                               + re.sub(r"\s+", "+", q.strip()) + "&sp=EgIIAw%3D%3D", 15)
+                               + re.sub(r"\s+", "+", q.strip()) + "&sp=EgIIBA%3D%3D", 15)
         except Exception as e:
             print(f"  youtube search '{q}' failed ({e})", file=sys.stderr)
             continue
@@ -225,7 +226,9 @@ def scout(used):
             probed += 1
             if got:
                 cands.append(got)
-    cands.sort(key=lambda c: -c["vph"])
+    # owner rule Aug 1: rank by TOTAL views, not views/hour — the most viral
+    # clip we never posted wins even if it is weeks old (MAX_AGE_H still caps)
+    cands.sort(key=lambda c: -c["views"])
     for i, c in enumerate(cands):
         print(f"  cand [{i}] {c['platform']} @{c['channel']} {c['views']:,}v "
               f"{c['age_h']/24:.1f}d {c['res']}p {c['duration']}s "
