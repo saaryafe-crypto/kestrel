@@ -371,7 +371,19 @@ def _rank(fresh, recent=()):
                  + "\nA candidate that is the SAME underlying story as any of these — even "
                  "worded completely differently — is DISQUALIFIED. Never pick it.\n\n"
                  if recent else "")
-    prompt = f"""{published}{scoreboard_block()}Pick the ONE story below that our audience would care most about. The page's paying audience is US small-business OWNERS — the goal is that an owner reads the post and books a meeting. Ranking rules, in order:
+    # money-proof slot (slot mix Aug 1): the 20:00 UTC slot prefers a case
+    # study — a real business used AI and got a measurable result. Preference,
+    # not a hard filter: if no candidate qualifies, normal ranking decides
+    # (the always-post ladder stays intact).
+    pref = ""
+    if os.environ.get("STORY_PREF") == "money":
+        pref = ("PRIORITY OVERRIDE for this slot: STRONGLY prefer a MONEY-PROOF "
+                "case study — a real, named business (or named person running "
+                "one) that used AI and got a measurable result (money made or "
+                "saved, hours cut, customers won). Only if NO candidate has a "
+                "business-result-with-a-number do the normal rules below "
+                "decide.\n\n")
+    prompt = f"""{published}{scoreboard_block()}{pref}Pick the ONE story below that our audience would care most about. The page's paying audience is US small-business OWNERS — the goal is that an owner reads the post and books a meeting. Ranking rules, in order:
 1. Gives a business owner real value: a result, tool, or number they could use in their own business (AI that saved a company money, replaced hours of work, brought customers — a case study with numbers is gold)
 2. Touches the reader's own life: their money, their phone, their job, apps everyone uses
 3. Names everyone knows (Apple, Tesla, Musk, ChatGPT, Netflix...) beat unknown startups and GitHub projects
@@ -571,6 +583,7 @@ RETENTION DOCTRINE (research-backed, 2026 carousel studies — high swipe-throug
 - THE TWIST: one mid-carousel slide (around slide 4) is a pattern interrupt — the most contrarian or absurd TRUE fact in the story, the "wait, WHAT?" moment that re-hooks tired swipers.
 - OPEN LOOP AT EVERY BOUNDARY: each body's final line creates the exact itch the next headline scratches ("Then the numbers came in"). No slide ends settled except the last.
 - SHARE TRIGGER (name it before writing): every post must fire at least one — awe, outrage, amusement, usefulness ("save this"), or identity ("people like me send this"). A merely-informative post gets zero shares; pick the angle that fires the trigger hardest.
+- THE STANCE (owner directive Aug 1 — we don't report, we ARGUE): the payoff slide's final sentence is a TAKE, one blunt sentence saying what this MEANS ("This is the first time AI cost someone $45 billion in a week", "Your accountant should be nervous"). It must be sharp enough that a reader could comment "wrong" — a post that ends on a neutral fact is a news wire, not a page people follow. The take is built from the story's true facts, never invented.
 - SENTENCE RHYTHM: short-short-long. Two punches, then one sentence that builds and lands on a 3-5 word hammer. Bodies target 25 words or less; every sentence's only job is to get the next one read.
 KEEP/CUT — what belongs in the story (owner directive Jul 31: "people want the story itself", the retellings drowned in names and quotes):
 KEEP: what physically happened, in order; the money and the numbers; the one consequence that touches the reader; names ONLY if a random 16-year-old already knows them (Musk, Apple, OpenAI) or the story is literally about that person becoming known.

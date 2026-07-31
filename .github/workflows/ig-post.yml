@@ -68,22 +68,30 @@ jobs:
           set -o pipefail
           cd ig
           python scout.py   # fetch.py harvest + HN crowd data + Claude interest judge -> stories.json
-          # Tue/Thu/Sat/Sun 17:00 (1pm ET) = ai_education save-magnet
-          # (audit Jul 29: saves are Explore fuel); rest = single stories.
-          # The "24 HOURS" recap is DEAD (owner directive Jul 31: stop the
-          # what-happened-in-24h post entirely) — every slot is one story.
+          # SLOT MIX (owner strategy pivot Aug 1 — business-owner content mix,
+          # ~40% guides / 20% money-proof / 20% news / rest quote+builder):
+          #   13:00 + 17:00 UTC = guide (ai_education save-magnet, daily x2)
+          #   20:00 UTC        = money-proof (case-study preference in pick)
+          #   15:00 + 23:00 UTC = news story (23:00 becomes quote-moment later)
+          # The "24 HOURS" recap is DEAD (owner directive Jul 31) — never re-add.
           KIND="${{ github.event.inputs.kind }}"
           if [ -z "$KIND" ] || [ "$KIND" = "auto" ]; then
-            H=$(date -u +%H); D=$(date -u +%u)
-            if [ "$H" = "17" ] && { [ "$D" = "2" ] || [ "$D" = "4" ] || [ "$D" = "6" ] || [ "$D" = "7" ]; }; then KIND=edu
-            else KIND=story; fi
+            H=$(date -u +%H)
+            case "$H" in
+              13|17) KIND=edu ;;
+              20)    KIND=money ;;
+              *)     KIND=story ;;
+            esac
           fi
           # Every branch ends in a fallback rung (owner rule: 7/day is a MUST,
           # a slot is never skipped). edu.py is the evergreen last resort — it
           # doesn't depend on the news pool, so "no usable story" (all dupes,
-          # issue #7) can't kill a slot.
+          # issue #7) can't kill a slot. money = story flow with a case-study
+          # preference (STORY_PREF), same fallback ladder as story.
           if [ "$KIND" = "edu" ]; then
             python edu.py | tee /tmp/write.log || python write.py | tee /tmp/write.log
+          elif [ "$KIND" = "money" ]; then
+            STORY_PREF=money python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           else
             python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           fi

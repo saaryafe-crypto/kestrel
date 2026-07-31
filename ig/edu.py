@@ -81,7 +81,7 @@ SCHEMA = {
 }
 
 
-def build_prompt(used_topics, tips=""):
+def build_prompt(used_topics, tips="", headlines=""):
     spec = json.load(open(os.path.join(HERE, "containers.json")))
     used = "\n".join(f"- {t}" for t in used_topics) or "(none yet)"
     vol = len(used_topics) + 1  # franchise volume number (audit Jul 29)
@@ -89,13 +89,18 @@ def build_prompt(used_topics, tips=""):
 PROVEN DEMAND — this week's top threads in AI-tips communities (top-of-week = thousands of upvotes = people are hungry for exactly this right now). Use them to pick which skills/angles people want TODAY. NEVER copy their text or trust their claims blindly — verify against what the tools actually do, or frame as a capability demo:
 {tips}
 """ if tips else "")
+    tips_block += (f"""
+TODAY'S NEWS — optional anchors: a guide that piggybacks a live story rides its wave ("GPT-5 dropped yesterday — 5 things it already does for your business"). Use one ONLY if you can build genuine utility on it; never force it:
+{headlines}
+""" if headlines else "")
     return f"""You write Instagram carousels for @yaffeai — an AI-news page in the style of @technology, funneling followers to an AI-consulting business. Today's post is the **ai_education** container: an educational save-magnet carousel. No news story — you pick the topic.
 
 CONTAINER SPEC (ai_education): {json.dumps(spec['containers']['ai_education'])}
 CAPTION BLOCKS: {json.dumps(spec['caption_blocks'])}
 QA GATE: {json.dumps(spec['qa_gate'])}
 
-TOPIC — pick ONE fresh angle from these pillars (NOT one already used, listed below):
+TOPIC — pick ONE fresh angle from these pillars (NOT one already used, listed below). The reader to serve FIRST is a business owner / entrepreneur (the page's funnel audience): weight topics toward what saves a business money or hours, or makes it money — consumer angles are allowed but the business angle should win ties.
+WHY-NOW RULE (owner doctrine Aug 1 — even a guide must be current or viral, never evergreen filler): every topic must have a nameable reason to exist TODAY — a tool/feature released or meaningfully updated in the last ~60 days, a live news story (see TODAY'S NEWS below when present), or this week's proven community demand (see PROVEN DEMAND). Novelty is measured against the AUDIENCE: a 3-week-old tool most people haven't heard of still counts as new; a generic tip list that could have run unchanged in 2023 ("10 ChatGPT productivity tips") is BANNED no matter how useful. State the why-now inside the "topic" label.
 - Claude Code: the tool where you type plain English and it builds/fixes/automates entire things. Its wildest real abilities, explained like magic tricks anyone can try.
 - Free AI powers: things ChatGPT/Claude/AI tools can do TODAY that most people have no idea about — for their money, their work, their business.
 - True builder stories: real, widely-reported people (or a roundup of them) who couldn't code and still shipped real apps/businesses with AI.
@@ -137,7 +142,13 @@ Return ONLY the JSON object, no markdown fences, no commentary."""
 def main():
     used = json.load(open(USED)) if os.path.exists(USED) else []
     tips = reddit_tips()
-    prompt = build_prompt(used, tips)
+    headlines = ""
+    try:  # fresh stories.json exists when the workflow ran scout first
+        stories = json.load(open(os.path.join(HERE, "stories.json")))
+        headlines = "\n".join(f"- {s['title']}" for s in stories[:10])
+    except Exception:
+        pass
+    prompt = build_prompt(used, tips, headlines)
     for attempt in range(3):
         post = call_claude(prompt, schema=SCHEMA)
         errs = qa(post)
@@ -150,7 +161,7 @@ def main():
             break
         print(f"QA gate failed (attempt {attempt+1}):\n  " + "\n  ".join(errs),
               file=sys.stderr)
-        prompt = (build_prompt(used, tips)
+        prompt = (build_prompt(used, tips, headlines)
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
     else:

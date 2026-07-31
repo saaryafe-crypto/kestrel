@@ -70,6 +70,8 @@ GNEWS = ["Anthropic", "OpenAI", "ChatGPT", "Nvidia AI", "Meta AI", "AI agents",
          # business/investing pillar: named actor + giant number
          "billionaire net worth", "acquisition billion", "stock surge",
          "Warren Buffett", "Nvidia stock", "IPO",
+         # money-drama arc (Aug 1): the person, not the market
+         "AI hedge fund", "ex-OpenAI", "lost billions",
          # money pillar: salaries, wealth shocks, everyday money
          "salary tech workers", "millionaire", "housing market", "layoffs",
          # inventors pillar: students/entrepreneurs building cool real things
@@ -133,6 +135,14 @@ WEIGHTS = {
     "buys": 6, "bought": 6, "stock": 5, "ipo": 6, "warren buffett": 8,
     "millionaire": 8, "wealth": 6, "crypto": 5, "bitcoin": 6,
     "housing": 6, "interest rate": 5, "stake": 5,
+    # money-DRAMA: the genius-loses-everything / bet-the-farm arc (owner rule
+    # Aug 1 after we missed the Aschenbrenner $45B fire-sale to Citadel —
+    # market REPORTS stay penalized, but a named person winning/losing a
+    # fortune is core viral material and scored like a wire story before this)
+    "hedge fund": 6, "fire sale": 9, "lost everything": 10, "blew up": 8,
+    "collapse": 8, "meltdown": 7, "wiped out": 8, "margin call": 8,
+    "forced to sell": 8, "bailed out": 7, "bankrupt": 8,
+    "ex-openai": 10, "former openai": 10, "ex-google": 8,
     # inventors pillar — students/entrepreneurs building cool real things
     "invented": 9, "invention": 8, "college student": 10, "teenager": 9,
     "high school": 8, "student built": 12, "prototype": 5, "patented": 6,
