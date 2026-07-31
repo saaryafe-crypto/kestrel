@@ -185,6 +185,8 @@ SLIDES (index, final headline, the writer's rough concept):
 
 THE JOB: the image DRAMATIZES the exact claim of that slide's headline — the peak moment, the consequence, or the stakes — so the image raises the question and the headline answers it. A stranger seeing image + headline together gets the claim in one second. Never the topic in general, never a metaphor, never stock wallpaper.
 
+ROLE-CAST (owner's gold standard, Aug 1): when the claim is about what a product or company CAN DO, cast the story's famous face IN THE ROLE the claim describes, mid-performance with that role's real props. Reference: "Claude has an unlimited personal tutor mode" → Anthropic's CEO AS the tutor — leaning over a desk in a warm home library, pen in hand, teaching a student whose shoulder frames the foreground. The person doesn't react to the claim, they ACT IT OUT; the scene props (pen, notebook, bookshelves) and the story-world background make the metaphor literal. Prefer this over a reaction face whenever the story has a doer + a capability.
+
 FORMAT — every prompt contains these five parts in order (20-45 words total):
 1. HERO: ONE focal subject, concretely named (the real device/brand/person from the headline), frozen at the peak of the exact moment — mid-fall, mid-launch, mid-signature. One subject only; it is the brightest, sharpest thing in frame.
 2. EMOTION — when the story involves a person or a reaction, the hero IS a human face at 40%+ of frame height, eyes to camera or locked on the story's object, radiating ONE nameable exaggerated emotion (shock, awe, dread, triumph). Name the emotion in the prompt. Famous person in the story = that person's recognizable likeness.
