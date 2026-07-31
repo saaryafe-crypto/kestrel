@@ -48,6 +48,33 @@ is Hebrew. Injected into the he.py localization prompt.
   a global story with an Israeli angle) SAY IT and lead with it — local
   relevance is the strongest hook this page has that the English page lacks.
 
+## Hook craft (covers + reel titles) — owner order Aug 1: "must improve significantly"
+
+The kill test: read the line OUT LOUD. If a native Israeli would stumble, or
+it sounds like English wearing Hebrew words, it is disqualified — no matter
+how good the content is. Grammar errors (mismatched gender/number, singular
+verb on a plural subject) are instant kills.
+
+Write from the STORY, never from the English words. The English hook is
+raw material for facts only; the Hebrew line is born in Hebrew.
+
+Patterns that sound native (use these shapes):
+- Front the punch with "מה ש...": "מה שלקח לך שנים ללמוד, הרובוט הזה עושה אחרי דקות"
+- The moment-before: "שנייה לפני שכיסו אותו בבד, הרובוט עשה משהו מוזר"
+- Second person, direct: "הצ'אטים הפרטיים שלך עם AI הגיעו לגוגל"
+- Contrast in one breath: "עלה $20, נמכר ב-$317,000"
+- The dry understatement Israelis love: state the insane fact flat, zero
+  exclamation, let the fact scream.
+
+Translationese failures (real ones we shipped — never again):
+- "הרובוט הזה לומד תנועות שלקח לך שנים ללמוד, תוך דקות" — agreement broken
+  (שלקחו), clause chain is English syntax. Native: "מה שלקח לך שנים ללמוד,
+  הרובוט הזה למד תוך דקות"
+- "עשה היסטוריה", "לקח החלטה", "הרשת השוותה" — English idioms in Hebrew
+  words. Israelis say: "שבר שיא", "החליט", "כולם צחקו על".
+- Chained relative clauses ("ה-X ש-Y ש-Z") — break into two short punches
+  with a comma.
+
 ## RTL mechanics
 
 - Text flows right-to-left; punctuation sits naturally (the renderer handles

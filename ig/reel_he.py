@@ -116,6 +116,53 @@ caption:
 Return ONLY the JSON object."""
 
 
+TITLES_SCHEMA = {"type": "object",
+                 "properties": {"titles": {"type": "array",
+                                           "items": {"type": "string"}}},
+                 "required": ["titles"]}
+
+
+def native_titles(r):
+    """Dedicated NATIVE Hebrew title generation (owner order Aug 1: the HE
+    reel hook must improve significantly). The localizer's side-task
+    candidates were flat translated lines with grammar slips; this call is
+    born-in-Hebrew, steered by the hook craft doctrine, and its output
+    competes in the same judge. Fails open (empty list)."""
+    facts = r["caption"].split("Credits:")[0].strip()[:1200]
+    prompt = f"""אתה כותב הכותרות של @ainews.israel, עמוד רילס ויראלי בעברית על AI.
+על הסרטון יושבת שורת טקסט אחת. היא מחליטה אם צופה עוצר או ממשיך לגלול.
+
+הסרטון (העובדות, אל תמציא כלום):
+כותרת באנגלית: {r["title"]}
+תיאור: {facts}
+
+{he.doctrine()}
+
+כתוב 6 כותרות עבריות שנולדו בעברית, לא תרגום. כל אחת התקפה שונה באמת:
+1. מובילה עם הפרט הכי מטורף והכי קונקרטי בסרטון (מספר מדויק, הדבר עצמו)
+2. פער סקרנות טהור: מה אני רואה פה בכלל
+3. פנייה ישירה לצופה (אתה/שלך)
+4. פתיחה ב"מה ש..." שמקדימה את הפאנץ'
+5. הרגע-שלפני או הניסוח היבש שנותן לעובדה לצרוח לבד
+6. חופשית, הכי טובה שלך
+
+חוקים קשיחים:
+- עד 70 תווים. עברית מדוברת של ישראלי צעיר וחכם. אפס מילות באזז, אפס אימוג'ים.
+- מבחן הקול: תקרא בקול רם. שגיאת דקדוק או משפט שנשמע מתורגם = פסול.
+- שמות מותגים נשארים באנגלית. בלי מקף מכל סוג.
+
+החזר JSON בלבד: {{"titles": ["...", "...", "...", "...", "...", "..."]}}"""
+    try:
+        out = write.call_claude(prompt, schema=TITLES_SCHEMA)
+        return [write.no_dashes(t.replace("\u05be", "-").strip())
+                for t in out.get("titles", [])
+                if isinstance(t, str) and he.HEB.search(t) and len(t) <= 75]
+    except Exception as e:
+        print(f"native HE titles failed ({e}) — localized candidates only",
+              file=sys.stderr)
+        return []
+
+
 def scrub(out, en_caption):
     """Deterministic gates — never trust the prompt alone."""
     def clean(t):
@@ -221,12 +268,14 @@ def localize(post_dir, dry):
         errs = qa(out)
         if errs:
             raise SystemExit("Hebrew reel QA failed twice: " + "; ".join(errs))
-    # viral agent: native Hebrew candidates compete against the localized
-    # title; the QA'd localization stays the fallback if the judge fails or
-    # the winner breaks a hard limit.
+    # viral agent: born-in-Hebrew candidates (dedicated craft call) + the
+    # localizer's side candidates compete against the localized title; the
+    # QA'd localization stays the fallback if the judge fails or the winner
+    # breaks a hard limit.
     import viral
-    cands = [t for t in out.get("title_candidates", [])
-             if isinstance(t, str) and he.HEB.search(t)] + [out["title"]]
+    cands = native_titles(r) \
+        + [t for t in out.get("title_candidates", [])
+           if isinstance(t, str) and he.HEB.search(t)] + [out["title"]]
     win, why = viral.reel_title_judge(cands, lang="he")
     if win and he.HEB.search(win) and len(win) <= 75:
         out["title"] = write.no_dashes(win.replace("\u05be", "-"))

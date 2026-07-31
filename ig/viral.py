@@ -425,8 +425,13 @@ def reel_title_judge(cands, lang="en"):
         return (cands[0] if cands else None), None
     random.shuffle(cands)
     listing = "\n".join(f"[{i}] {t}" for i, t in enumerate(cands))
-    lang_line = ("The titles are Hebrew; judge them as an Israeli 16-year-old "
-                 "hears them." if lang == "he" else "")
+    lang_line = ("The titles are Hebrew. You read Hebrew natively; judge them "
+                 "as an Israeli 16-year-old hears them. KILL RULE: a title "
+                 "with a grammar error (mismatched gender/number, singular "
+                 "verb on plural subject) or that sounds translated from "
+                 "English (a native would stumble reading it aloud) must "
+                 "NEVER win, no matter how strong its content."
+                 if lang == "he" else "")
     prompt = f"""You are a stranger scrolling Instagram Reels at 2am. Below are candidate one-line titles overlaid on the SAME video — you can't see the video, exactly like the split second before a viewer decides to keep watching. {lang_line}
 
 Pick the ONE you'd stop for:
