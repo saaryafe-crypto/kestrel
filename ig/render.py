@@ -194,8 +194,20 @@ function fitLines(h){
 function fitOne(el){
   el.style.whiteSpace='nowrap';
   var target=el.parentElement.clientWidth*.86; // reference substrip stays centered, off the edges
-  var w=el.getBoundingClientRect().width;
-  if(w>target)el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*target/w)+'px';
+  // measure TEXT width with a hidden span — the subline div is block-level,
+  // so its own rect always equals the container width and long sublines
+  // sailed off the canvas (caught Aug 1: "...GO THIS F" clipped on a cover)
+  var cs=getComputedStyle(el);
+  var meas=document.createElement('span');
+  meas.style.cssText='position:absolute;visibility:hidden;white-space:nowrap';
+  meas.style.font=cs.font;
+  meas.style.letterSpacing=cs.letterSpacing;
+  meas.style.textTransform=cs.textTransform;
+  meas.textContent=el.textContent;
+  el.parentElement.appendChild(meas);
+  var w=meas.getBoundingClientRect().width;
+  meas.remove();
+  if(w>target)el.style.fontSize=(parseFloat(cs.fontSize)*target/w)+'px';
 }
 /* scrim(): after text layout, pull the photo DOWN to the caption block and
    anchor the dark gradient to the text top — photo fades exactly into the
