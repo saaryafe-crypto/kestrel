@@ -1,90 +1,138 @@
 [
  {
-  "title": "OpenAI's rogue agent went on a hacking spree that lasted days, Reuters says",
-  "link": "https://www.engadget.com/2223141/openai-rogue-agent-days-hacking-spree-reuters/",
-  "date": "Sat, 25 Jul 2026 11:15:05 +0000",
-  "src": "https://www.engadget.com/rss.xml",
-  "score": 49.25335964189815,
-  "image": "https://www.engadget.com/img/gallery/openais-rogue-agent-went-on-a-hacking-spree-that-lasted-days-reuters-says/l-intro-1784977962.jpg"
- },
- {
-  "title": "Elon Musk\u2019s Boring Company reportedly raising funding at a $20 billion valuation",
-  "link": "https://techcrunch.com/2026/07/25/elon-musks-boring-company-reportedly-raising-funding-at-a-20-billion-valuation/",
-  "date": "Sat, 25 Jul 2026 19:23:32 +0000",
-  "src": "https://techcrunch.com/feed/",
-  "score": 47.61024088837963,
-  "image": "https://techcrunch.com/wp-content/uploads/2025/07/TBC16.jpg?resize=1200,857"
- },
- {
   "title": "\u2018I thought, I\u2019ve tried everything else, why not give AI a shot?\u2019: the long-lost family reunited by ChatGPT",
   "link": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/jul/25/long-lost-family-reunited-chatgpt-artificial-intelligence-ai",
   "date": "Sat, 25 Jul 2026 05:00:35 GMT",
   "src": "https://www.theguardian.com/technology/rss",
-  "score": 46.21302784986111,
+  "score": 48.866297280092596,
   "image": "https://i.guim.co.uk/img/media/8eb4ce904cc3b480269aa6bbf8a1c555dcac2468/0_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=832165b8c52b83ae3ec1df85a5d00d4b"
- },
- {
-  "title": "OpenAI launched ChatGPT Health and quietly moved your medical records outside HIPAA - Startup Fortune",
-  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWlMyanI2emxnWlFjelQxR3RwNVJoRURSc3Z0azRJVHAyVlAxQkttY2o4Ml9PLVhPQkdDc1paNnVSQ3U3Y09NSWRuMDBodjN3dnNLcERWZEtOZ295VklualpydXQwTVpwSWhqdF8wd0oxZmwwVzBqUHB6TFlRdWFfV1VydTBXd01EZEJLc1lWZ1MwX3pBTXVOQUNWb0c1c3Vya1BTbnl3b3c0SF9mR2RxUg?oc=5",
-  "date": "Sat, 25 Jul 2026 14:06:20 GMT",
-  "src": "https://news.google.com/rss/search?q=OpenAI%20when:1d&hl=en-US&gl=US&ceid=US:en",
-  "score": 42.728923056574075,
-  "image": null
- },
- {
-  "title": "SpaceX launches new V3 Starlink satellites but suffers another booster failure",
-  "link": "https://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure/",
-  "date": "Fri, 24 Jul 2026 23:25:47 +0000",
-  "src": "https://techcrunch.com/feed/",
-  "score": 41.283157546574074,
-  "image": "https://techcrunch.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-7.12.08-PM.png?resize=1200,1021"
- },
- {
-  "title": "The OpenAI Models That Hacked Hugging Face Were \u2018Active on the Internet\u2019 for Days",
-  "link": "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/",
-  "date": "Sat, 25 Jul 2026 10:30:00 +0000",
-  "src": "https://www.wired.com/feed/tag/ai/latest/rss",
-  "score": 41.12812535523148,
-  "image": "https://media.wired.com/photos/6a639d3adc5893971a3d0afd/191:100/w_1280,c_limit/GettyImages-2278950606.jpg"
- },
- {
-  "title": "Microsoft, Nvidia, Meta and 22 others defended open weights. Anthropic and OpenAI didn't sign. - The New Stack",
-  "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0cEhGd2U3XzhCSTBJQTRodk1GMl9XRGM5YkRYaVhPZHZ1aEJ5LXp0QXE3ZE5UdGNEcmpoZDh6a2xHVlhIYk1HX20yY0lJQUNRTUkwQ3VkYjQ0X0tuZGRQVEkxdVRsWUtKczBPZGtndw?oc=5",
-  "date": "Sat, 25 Jul 2026 10:30:36 GMT",
-  "src": "https://news.google.com/rss/search?q=Anthropic%20when:1d&hl=en-US&gl=US&ceid=US:en",
-  "score": 40.12970188055556,
-  "image": null
- },
- {
-  "title": "I tried out OpenAI\u2019s new AI keypad \u2014 which will be fun for some coders and slightly mystifying to everyone else",
-  "link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
-  "date": "Sat, 25 Jul 2026 00:23:11 +0000",
-  "src": "https://techcrunch.com/category/artificial-intelligence/feed/",
-  "score": 39.44261479037037,
-  "image": "https://techcrunch.com/wp-content/uploads/2026/07/Micro.webp?resize=1200,800"
  },
  {
   "title": "It's like ChatGPT with a body: Watch creepy demo of OpenAI-powered robot 'Figure 01' - Mashable",
   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56c0p4SlVGbGRMY1FsYkZlbnIzQWIzdlN6M3R4LUtkSGwwUkFWR2c0V2E4TmlacEoyUVFsM3hnZ2ZkYWdFdmZfbmc3TTYzcEdVeEw3Wk5tWXFKUQ?oc=5",
   "date": "Sat, 25 Jul 2026 14:43:19 GMT",
   "src": "https://news.google.com/rss/search?q=OpenAI%20when:1d&hl=en-US&gl=US&ceid=US:en",
-  "score": 38.83165456625,
+  "score": 44.484935710416664,
   "image": null
+ },
+ {
+  "title": "OpenAI's rogue agent went on a hacking spree that lasted days, Reuters says",
+  "link": "https://www.engadget.com/2223141/openai-rogue-agent-days-hacking-spree-reuters/",
+  "date": "Sat, 25 Jul 2026 11:15:05 +0000",
+  "src": "https://www.engadget.com/rss.xml",
+  "score": 43.906627728796295,
+  "image": "https://www.engadget.com/img/gallery/openais-rogue-agent-went-on-a-hacking-spree-that-lasted-days-reuters-says/l-intro-1784977962.jpg"
+ },
+ {
+  "title": "Monday.com is the latest tech company to blame AI for layoffs \u2014 here are 20 others",
+  "link": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+  "date": "Sun, 26 Jul 2026 01:30:00 +0000",
+  "src": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "score": 42.281489748703706,
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/robot-at-desk.png?resize=1200,800"
+ },
+ {
+  "title": "What is happening to jobs? Separating AI hype from reality",
+  "link": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+  "date": "Sat, 25 Jul 2026 22:51:10 +0000",
+  "src": "https://hnrss.org/frontpage",
+  "score": 41.840208851296296,
+  "image": null
+ },
+ {
+  "title": "The AI jobs apocalypse probably isn\u2019t coming anytime soon",
+  "link": "https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor",
+  "date": "Sat, 25 Jul 2026 13:00:43 GMT",
+  "src": "https://www.theguardian.com/technology/rss",
+  "score": 40.200000976342594,
+  "image": "https://i.guim.co.uk/img/media/e9dc22d7de9bd5d0f413d80dd7b363bb0c6517cc/688_0_6880_5504/master/6880.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=b4774108bb4ef4e3b836d5fcd4c71fdd"
+ },
+ {
+  "title": "An OpenAI model left notes about how to evade containment; we need more details",
+  "link": "https://www.lesswrong.com/posts/jMEAG5c5HiDfdAGpa/an-openai-model-left-notes-about-how-to-evade-containment-we",
+  "date": "Sun, 26 Jul 2026 11:00:54 +0000",
+  "src": "https://hnrss.org/frontpage",
+  "score": 39.86724591388889,
+  "image": null
+ },
+ {
+  "title": "Librarians are hosting viral \u2018Avoiding AI\u2019 workshops for people who are fed up with Big Tech",
+  "link": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+  "date": "Sat, 25 Jul 2026 16:00:00 +0000",
+  "src": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "score": 39.698156412222225,
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1609818039.jpg?resize=1200,814"
+ },
+ {
+  "title": "I tried out OpenAI\u2019s new AI keypad \u2014 which will be fun for some coders and slightly mystifying to everyone else",
+  "link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+  "date": "Sat, 25 Jul 2026 00:23:11 +0000",
+  "src": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "score": 39.09588789013889,
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/Micro.webp?resize=1200,800"
  },
  {
   "title": "The new rules of context engineering for Claude 5 generation models",
   "link": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
   "date": "Sat, 25 Jul 2026 20:42:35 +0000",
   "src": "https://hnrss.org/frontpage",
-  "score": 38.82976244287037,
+  "score": 38.48303292106482,
   "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a639c6b2e881afef80764c6_og_the-new-rules-of-context-engineering-for-claude-5-generation-models.jpg"
  },
  {
-  "title": "NVIDIA $NVIDIA (NVDA.US)$ CEO JENSEN HUANG SAYS OPENAI AND ANTHROPIC COULD BECOME THE MOST SUCCESSFUL IPOS IN HISTORY - Moomoo",
-  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDYwSkdXQzVsNldlTzIwbS0wOG43MkF1OW9hMUFEZjVQdkEzcFZPZUNKSnRBajM2Zkp5XzlSTGVHOVBMYXRPWDlkNDFZdWU0REowRUZLYll1b0U2MWZjcXJhbFBXMFl6NTEwSDduLTdJMEdZSExEaVFnUHZqVUZaQWxiVzNFVl9KSVBxMjRBOU9IRWJKemY2QjZyMWs4Y3FtWkl3cW1RRXh0b2Fs?oc=5",
-  "date": "Sun, 26 Jul 2026 04:03:39 GMT",
+  "title": "Chinese open-weight AI models challenge ChatGPT and Claude, sparking debate - NewsBytes",
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQTdyUGNwbm12UHpCS1IxX3N0SnFkZGdjYklWX3VsZW1Od1k0U3YxY3o3SENTcnB4VFRnM2luRmlXZG4tcXIzNDNSNVdmUTRJaUpkOG1FZDZ4ZmszZGY0ZTdKYTlWQXpIS2RnSDNOTlFOc0NMRHdRTTZ4Qy1WQ09zX3J4NUEzODdxTklQV0UwenlVcnNzLVRwcm5ESWpzUzUwZ2pKVmh1Vlc0NHdWT1VILWk0ZTY1Y0xPeEVGREdB?oc=5",
+  "date": "Sun, 26 Jul 2026 07:17:38 GMT",
+  "src": "https://news.google.com/rss/search?q=ChatGPT%20when:1d&hl=en-US&gl=US&ceid=US:en",
+  "score": 38.24688776986111,
+  "image": null
+ },
+ {
+  "title": "OpenAI sued after ChatGPT allegedly told user not to seek medical treatment - The Daily Star",
+  "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbW5jdHdSam5ycUlRUHFLRlNLMFFsQ25JeTV0a2lFTmt4VjBwdFI2RkIyN29obEpBZ3NmTGU0Tktpc3RWU1hjYzQ2RVgxM18xTHZSY25FVUZqUHUwZkowM09nb3I4WnJZZ0c5Z1JCcFJHcVA2LWs1VU1ob24takNKeXRJazV0VEltc0syYWRIa2l2bEpIV1RYc0lfa0lhYWlDSFM5VElkVTB2MWVvbW5OY2puVl80VnQ4clNCdjZvLWx4TkN5OF9KMkpIQnU?oc=5",
+  "date": "Sun, 26 Jul 2026 05:48:31 GMT",
   "src": "https://news.google.com/rss/search?q=OpenAI%20when:1d&hl=en-US&gl=US&ceid=US:en",
-  "score": 37.05480274324074,
+  "score": 37.99938017726852,
+  "image": null
+ },
+ {
+  "title": "Use ChatGPT, Claude, Gemini, and More in One Tab With a Single $58 Purchase - PCMag",
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWVZ6eXhGRXFJUnlkRHpnUlVpMUVla3VKVzZjVHFZTzNPZXZJRGlCOEY4ZDdkQi1mYzZDZzlyUXdlVlFHZlRjT3N0b3pYcDJuT0JSc3B6V1Jpa19yT2NHVGRIOXlkcFBnMWlJMXJnejhwQXBJZnQ4ZmRXN01KM0xfVkdkVUd1bkxiYXltam9sU1pTbkVOcDFXVUNNbjc0TE1C?oc=5",
+  "date": "Sat, 25 Jul 2026 17:12:38 GMT",
+  "src": "https://news.google.com/rss/search?q=ChatGPT%20when:1d&hl=en-US&gl=US&ceid=US:en",
+  "score": 37.89966569148148,
+  "image": null
+ },
+ {
+  "title": "TDOC, AMWL Stocks Retreat After OpenAI Lets Users Link Medical Records To ChatGPT - Stocktwits",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbkNCdTEtYU9nNmJMQ0thNGk3bnFfV2JaWVczRk9NYy02UnpoS3JrTzAtMDZpWlZyQUtfZWZGQnpOQ2hEMmNoMUJwT212SzJLaDBmeW9NcjZ2MGJoYmxVdWxhVlpiVlh0bUtmTWx1Y1ZNTmN3WmpzOGFwUU52VnpFZmk0dmdKd3phbmFnQ0hfTkRhSk54Wi1peUJpdnNXbzRoX1FWdFNydWhFZWpJQ2U4OVUyM2RNcnMxYmNmbWkyUEFfVlptTUxucGVVRVM1aVdrR0E4Tl8zMFFhNnJaNHhn?oc=5",
+  "date": "Sun, 26 Jul 2026 08:14:57 GMT",
+  "src": "https://news.google.com/rss/search?q=OpenAI%20when:1d&hl=en-US&gl=US&ceid=US:en",
+  "score": 36.40613952421296,
+  "image": null
+ },
+ {
+  "title": "The OpenAI Models That Hacked Hugging Face Were \u2018Active on the Internet\u2019 for Days",
+  "link": "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/",
+  "date": "Sat, 25 Jul 2026 10:30:00 +0000",
+  "src": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "score": 35.78139079486111,
+  "image": "https://media.wired.com/photos/6a639d3adc5893971a3d0afd/191:100/w_1280,c_limit/GettyImages-2278950606.jpg"
+ },
+ {
+  "title": "\ud83d\udea8 ChatGPT Reads Your Health Data: AI Risks & Claude Opus 5! \ud83e\udd2f - t.co",
+  "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9GbnR2V3ZkdGtsanRCWWpUY1lRVTF0RHZWVGRtWTVSaGU3T2tVWWRQN09DSGNib3J2eThr?oc=5",
+  "date": "Sat, 25 Jul 2026 14:12:43 GMT",
+  "src": "https://news.google.com/rss/search?q=ChatGPT%20when:1d&hl=en-US&gl=US&ceid=US:en",
+  "score": 35.39989703236111,
+  "image": null
+ },
+ {
+  "title": "ChatGPT Medical Advice Lawsuit\u2014What The Research Says About AI Diagnosis - Forbes",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM3Zydjc5WTc0TzllcnRjc2ItTzBTQy1LNGhBZ1JaTUpUX3k5XzRvZHI0ajlKSEhOMm9Vbm51T2hDUHV1SVd5Y0VZcVp1ZHpmdElDcTVSYkg4M0NUdHdvVWFfSHgzN2NuZFBnQWR3bTRTTzlYU1pSbWQyX3FjWVpsV1drSVlFY2ZVWEtxUlhwLXktQ0ZGdHZ3M2pzWGdfbVRuQnVSZXBvbGpuLU91RWh4UUdqV3lZczJjNUVzcw?oc=5",
+  "date": "Sun, 26 Jul 2026 11:00:00 GMT",
+  "src": "https://news.google.com/rss/search?q=ChatGPT%20when:1d&hl=en-US&gl=US&ceid=US:en",
+  "score": 34.86457312638889,
   "image": null
  },
  {
@@ -92,111 +140,63 @@
   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vQXB5TVgxODN0dUJYbkFodktHdFZFZ1ZLNjVKSXBDbEZkSEQtUFlqQVl6bUpEdFAzWnJjdmNWTTlVUXp6Ny1uYUo0T1BobER0cGhhZ2UtTW0wR2ZVaHp5SDRTRW10X3c3N2RLeVZBNk0?oc=5",
   "date": "Sat, 25 Jul 2026 14:43:19 GMT",
   "src": "https://news.google.com/rss/search?q=OpenAI%20when:1d&hl=en-US&gl=US&ceid=US:en",
-  "score": 36.83165460935185,
+  "score": 34.48493578175926,
   "image": null
  },
  {
-  "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
-  "link": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
-  "date": "Sat, 25 Jul 2026 17:47:22 +0000",
-  "src": "https://feeds.arstechnica.com/arstechnica/index",
-  "score": 36.34308175476852,
-  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/starshipflt13_1-1152x648.jpg"
+  "title": "The AI tracker: From ChatGPT-powered car buying to AI classroom robots and Hollywood de-ageing - financialexpress.com",
+  "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeFNiWHlNSnBFZWF5TWpBUk4zSFByY1Z5RksxN29idUVXbGdpbW5JaFotUTY0QkttaTlHZFlRcmQwU3J5R05mOF9LdVFaaWtOTzhYVUJxQy1DNExSWFQyNk1VY3ZKZG1MZDJEQms1RU10STBGZER3WmYxT2w3bjhmT2MwTHJzVWQ0cm4zenRCUWgzUEhJaXl0RFJlRWhEZ0p2TUZBYlN1c2dNbmVyd0Zyd2NRT0EwN05pRWVZV2VGMmVYMDFDUDBfVVdybTlJY285a0g5Y0RpZFFhSWtZR3V5Y3c1NUtVUdIB7AFBVV95cUxNdDhIUEZhRWRheTlEcnRHMndpMkVrcGRvSnFJanMxZFRjc2hHNWw3a2s5dUFaYW81QXUyMVdJRWpZRlJEOGxEeHdMUTgtN3NNVTRmS19HUTJoMTZYbkZZOFRqeFJ6RFpxMUl2Sk5SODdYc0E2Umd3ckF3cE5IQ2F2T2ZFZkJfSldSazFiSjdDUTRiVE1QTkJYSndqZ1hxTXlFTkdjZkVncHlYQ084Z2M3MkZVd0JmczhXejIzVVR1eUxGWFN0bzU4Nmh6eGZwR1pZdXVscG5jM0FsUUJESWJDMXN6Ni1OMHEtWlY5YQ?oc=5",
+  "date": "Sat, 25 Jul 2026 12:37:07 GMT",
+  "src": "https://news.google.com/rss/search?q=ChatGPT%20when:1d&hl=en-US&gl=US&ceid=US:en",
+  "score": 34.134341435925926,
+  "image": null
  },
  {
-  "title": "SpaceX's 13th Starship flight test launches with Starlink's next-gen satellites",
-  "link": "https://www.engadget.com/2222979/spacex-13th-starship-flight-test-launches-with-starlink-s-next-gen-satellites/",
-  "date": "Fri, 24 Jul 2026 22:54:01 +0000",
-  "src": "https://www.engadget.com/rss.xml",
-  "score": 36.194841116712965,
-  "image": "https://www.engadget.com/img/gallery/spacex-13th-starship-flight-test-launches-with-starlink-s-next-gen-satellites/l-intro-1784957743.jpg"
+  "title": "Cloudflare's new AI traffic options for customers",
+  "link": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+  "date": "Sat, 25 Jul 2026 22:50:49 +0000",
+  "src": "https://hnrss.org/frontpage",
+  "score": 33.83923662768518,
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01KWW2Q1J78MZF5QRDGYXQN4VN.png"
  },
  {
   "title": "Florida becomes first state to sue OpenAI over ChatGPT's alleged links to violence - Mashable",
   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQTQyV1ZpQ2Y1T3RoVThUTkxod1VaU25yTmF0QnVaZjJqaG5HMzRxQnBfWXA2V1lGZ291QmNOdHFVZERJX0FZQUhQU0gwODBOamI4Tm5hWkpySHA2bXQwNWxUdHZsLUZMdmJuejFqdFBRbUNQZmlOVjdNaEY5bklHNDRJbnhkZXBiMGRQLUpFSWQ3aUd5U0RRNG1rVC12QQ?oc=5",
   "date": "Sat, 25 Jul 2026 14:43:19 GMT",
   "src": "https://news.google.com/rss/search?q=OpenAI%20when:1d&hl=en-US&gl=US&ceid=US:en",
-  "score": 35.83165460597222,
+  "score": 33.48493577791667,
   "image": null
  },
  {
-  "title": "TDOC, AMWL Stocks Retreat After OpenAI Lets Users Link Medical Records To ChatGPT - Stocktwits",
-  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbkNCdTEtYU9nNmJMQ0thNGk3bnFfV2JaWVczRk9NYy02UnpoS3JrTzAtMDZpWlZyQUtfZWZGQnpOQ2hEMmNoMUJwT212SzJLaDBmeW9NcjZ2MGJoYmxVdWxhVlpiVlh0bUtmTWx1Y1ZNTmN3WmpzOGFwUU52VnpFZmk0dmdKd3phbmFnQ0hfTkRhSk54Wi1peUJpdnNXbzRoX1FWdFNydWhFZWpJQ2U4OVUyM2RNcnMxYmNmbWkyUEFfVlptTUxucGVVRVM1aVdrR0E4Tl8zMFFhNnJaNHhn?oc=5",
-  "date": "Sat, 25 Jul 2026 13:58:05 GMT",
+  "title": "OpenAI launched ChatGPT Health and quietly moved your medical records outside HIPAA - Startup Fortune",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWlMyanI2emxnWlFjelQxR3RwNVJoRURSc3Z0azRJVHAyVlAxQkttY2o4Ml9PLVhPQkdDc1paNnVSQ3U3Y09NSWRuMDBodjN3dnNLcERWZEtOZ295VklualpydXQwTVpwSWhqdF8wd0oxZmwwVzBqUHB6TFlRdWFfV1VydTBXd01EZEJLc1lWZ1MwX3pBTXVOQUNWb0c1c3Vya1BTbnl3b3c0SF9mR2RxUg?oc=5",
+  "date": "Sat, 25 Jul 2026 14:06:20 GMT",
   "src": "https://news.google.com/rss/search?q=OpenAI%20when:1d&hl=en-US&gl=US&ceid=US:en",
-  "score": 35.70600640736111,
+  "score": 33.38220418458333,
   "image": null
  },
  {
-  "title": "GrapheneOS protections against data extraction from locked devices",
-  "link": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
-  "date": "Sun, 26 Jul 2026 05:57:22 +0000",
-  "src": "https://hnrss.org/frontpage",
-  "score": 35.37082727287037,
-  "image": "https://discuss.grapheneos.org/opengraph.png"
- },
- {
-  "title": "Microsoft, Meta, Nvidia, OpenAI, and Palantir have a message for Washington - Business Insider",
-  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRU9HcDZxSU13THpkYncxR0VweGg0dUEwYjk5OUZYd1RDWXp6UV9IYXcyc1liSk54WTdRWm5TNWNpVEhaX1Q5Smx6cW9VREs0TzlyN3VoTVp0MDNGdFlVekVXQ2JKVExhQ1VrblhZaXlOWWJYVGE4dE44bnlzMm9zb0VpRElOWlQxUTU4bTd2V0RKb3hPWXBGT0FTNXVrMEYxVG9wLU9zZw?oc=5",
-  "date": "Sat, 25 Jul 2026 15:34:00 GMT",
-  "src": "https://news.google.com/rss/search?q=OpenAI%20when:1d&hl=en-US&gl=US&ceid=US:en",
-  "score": 34.97244163046296,
+  "title": "New Claude Opus 5 vs ChatGPT 5.6 Sol: Benchmarks, Pricing and Token Cost Compared - Geeky Gadgets",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZcmREYURKa3UtWmdVWFZXZkMtYmZ5RHRkM0xxZXJ4d3JzV2tRWkVNdTZITVdrLWZ3S3EzMV9kakJhODlRZ2V6ZkMtNXBNcVdDdmJrekFsZ3dvZzQ2WlRMVTJxNHNjUGdlc1lUeg?oc=5",
+  "date": "Sun, 26 Jul 2026 08:03:08 GMT",
+  "src": "https://news.google.com/rss/search?q=Anthropic%20when:1d&hl=en-US&gl=US&ceid=US:en",
+  "score": 33.37335457689815,
   "image": null
  },
  {
-  "title": "Monday.com is the latest tech company to blame AI for layoffs \u2014 here are 20 others",
-  "link": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
-  "date": "Sun, 26 Jul 2026 01:30:00 +0000",
-  "src": "https://techcrunch.com/category/artificial-intelligence/feed/",
-  "score": 34.62821665013889,
-  "image": "https://techcrunch.com/wp-content/uploads/2026/07/robot-at-desk.png?resize=1200,800"
- },
- {
-  "title": "OpenAI sued after ChatGPT allegedly told user not to seek medical treatment - The Daily Star",
-  "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbW5jdHdSam5ycUlRUHFLRlNLMFFsQ25JeTV0a2lFTmt4VjBwdFI2RkIyN29obEpBZ3NmTGU0Tktpc3RWU1hjYzQ2RVgxM18xTHZSY25FVUZqUHUwZkowM09nb3I4WnJZZ0c5Z1JCcFJHcVA2LWs1VU1ob24takNKeXRJazV0VEltc0syYWRIa2l2bEpIV1RYc0lfa0lhYWlDSFM5VElkVTB2MWVvbW5OY2puVl80VnQ4clNCdjZvLWx4TkN5OF9KMkpIQnU?oc=5",
-  "date": "Sun, 26 Jul 2026 05:48:31 GMT",
-  "src": "https://news.google.com/rss/search?q=OpenAI%20when:1d&hl=en-US&gl=US&ceid=US:en",
-  "score": 34.346099019305555,
+  "title": "Court in India Sides with OpenAI in Copyright Dispute Over ChatGPT Training - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdDdGb2FITGxGVzFhOEhCZXZ0ZEpHOXdvOWZoUUtXaHpadDduVnJ5MUtiQUVYODdLSl83enZBNVdtTDdnSHlhanpCVVFKTHluX0hBLWFkZ2p4N0JvaTRVdDhDMlY5S1Y2NlhUY2hoUlVfZ0hKSDNRa0FVQzdCNEhZMktfTk1BZzBnLTlmeV82WFpVVmdFOHB1cHBudmVJczROVktvQzhLa3pwSEpyRGJvNzNOTml5eHc?oc=5",
+  "date": "Sun, 26 Jul 2026 11:31:00 GMT",
+  "src": "https://news.google.com/rss/search?q=ChatGPT%20when:1d&hl=en-US&gl=US&ceid=US:en",
+  "score": 32.95068418962963,
   "image": null
  },
  {
-  "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-  "link": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-  "date": "Sat, 25 Jul 2026 23:32:50 +0000",
-  "src": "https://hnrss.org/frontpage",
-  "score": 34.302679114861114,
-  "image": null
- },
- {
-  "title": "Meta walks back limits for its smart glasses' Conversation Focus feature, for now",
-  "link": "https://www.engadget.com/2223212/meta-walks-back-rate-limits-for-smart-glasses-conversation-focus/",
-  "date": "Sat, 25 Jul 2026 17:08:31 +0000",
-  "src": "https://www.engadget.com/rss.xml",
-  "score": 34.235118909722225,
-  "image": "https://www.engadget.com/img/gallery/meta-walks-back-limits-for-its-smart-glasses-conversation-focus-feature-for-now/l-intro-1784998548.jpg"
- },
- {
-  "title": "OpenAI wants ChatGPT on smart glasses and wearables, says Greg Brockman - Storyboard18",
-  "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWUVuVGRYblBVRXBHcEJiWjZFWXBaSmpMZjdHYUh3cjVoTVJiOVA2MWplZ2JNTDVkZy1NdW9TWGZkR2VyZ04xYUNqbFRTY0d0NUNtSmwtd3oyM2RsZUhqZ0s2ZHZRcWVocmM2Tnc2TVJubmxtSlA5T0dxeG9NNXlvX3FqTnRjN3Z1Y1I0bkVwR3NzUFUxdXZFM2NDTVptbzBndXp2Tk1RNVp1LXNqREtvYXRWMkJjRzcwZjFVNkNTSXLSAcYBQVVfeXFMTzVLMTNrSEhTbTdYS1BmTzQtWTNtekpncVROU2tMdG1TRlRCLUxyNU1QbTlnQks4TjM0VVNlcjhPbUpSeGJrdENEbGF3bHBhY2ZxSm1Pd0VWaEdDRDM5ZTdqTWtEUzctN0U2aXFrR0k1ZDZFR1ltNEM0OEVfSjl0WWY0a0h1RFY2QU03YXdkQU5KZjRTOGxYWmVtLXk0UV9HZWlneWZlWXBFUUppNElaczQwVkVWcmJfRDRUSlY3bExqWkJ5c2x3?oc=5",
-  "date": "Sun, 26 Jul 2026 05:06:01 GMT",
-  "src": "https://news.google.com/rss/search?q=OpenAI%20when:1d&hl=en-US&gl=US&ceid=US:en",
-  "score": 34.22804346666667,
-  "image": null
- },
- {
-  "title": "Clinical failure rates over the decades: yikes",
-  "link": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
-  "date": "Sat, 25 Jul 2026 22:57:17 +0000",
-  "src": "https://hnrss.org/frontpage",
-  "score": 34.20392911393519,
-  "image": "https://www.science.org/pb-assets/images/blogs/pipeline/default-image-1644619966880.png"
- },
- {
-  "title": "What is happening to jobs? Separating AI hype from reality",
-  "link": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
-  "date": "Sat, 25 Jul 2026 22:51:10 +0000",
-  "src": "https://hnrss.org/frontpage",
-  "score": 34.18693837217592,
+  "title": "OpenAI's New Project: ChatGPT to Become Like Jarvis from Iron Man - Zamin.uz",
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaTFyeWhpM2R1YUFlRlo4VmM5VmZpVUVGNnVpQ3RLZjJiT1ROSmhLTXVCV1VYdDg0SU1ZeGQzUFNSdjlDLTZtODQwTnhWQWU3SDZSSnhTdlktZEg1SjV2UjJjZ2ZuX1d5ZFR2ZmF5WUFOaFYxcFBoM2hsdVNRZndUS2dqVEwwek15RFowOHNGZ1VnZEsxRjhwRGFkNmRvYU9LQlNIOFZLbnJoRjA?oc=5",
+  "date": "Sun, 26 Jul 2026 10:53:30 GMT",
+  "src": "https://news.google.com/rss/search?q=ChatGPT%20when:1d&hl=en-US&gl=US&ceid=US:en",
+  "score": 32.846517381296295,
   "image": null
  }
 ]
