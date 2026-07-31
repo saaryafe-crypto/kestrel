@@ -879,6 +879,29 @@ def main(stories_path):
                   "(budget/API) and the article had no images; shipping a "
                   "type cover (flagged for the daily report)", file=sys.stderr)
 
+    # every slide pictured, zero-budget version (owner Aug 1: "every post,
+    # carousel or page should have a picture" — but caps stay at $9/mo until
+    # the page grows): leftover REAL article photos fill still-bare content
+    # slides, gated by the same vision QA so junk never ships. A real photo
+    # beats the blurred-cover texture the renderer falls back to.
+    assigned = {s.get("media") for s in post["slides"] if s.get("media")}
+    leftovers = [m for m in media_files
+                 if os.path.relpath(m, HERE) not in assigned]
+    for s in post["slides"]:
+        if s["type"] != "content" or s.get("media") or not leftovers:
+            continue
+        for m in list(leftovers):
+            try:
+                ok, score, flaw = image_score(m, s["headline"])
+            except Exception:
+                break  # vision QA down — keep the texture fallback
+            if ok:
+                s["media"] = os.path.relpath(m, HERE)
+                leftovers.remove(m)
+                print(f"bare slide filled with article image "
+                      f"{os.path.basename(m)} ({score}/10)", file=sys.stderr)
+                break
+
     cover = post["slides"][0]
     style = post.pop("cover_style", "photo" if cover.get("media") else "type")
     if style != "photo":
