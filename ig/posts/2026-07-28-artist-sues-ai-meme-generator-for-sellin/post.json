@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ONE ARTIST FROM THE PHILIPPINES JUST <em>TOOK ON AN ENTIRE AI MEME COMPANY</em>",
+   "hsize": 70,
+   "media": "posts/2026-07-28-artist-sues-ai-meme-generator-for-sellin/cand-1.jpg",
+   "subline": "HIS COMIC WENT VIRAL IN 2017"
+  },
+  {
+   "type": "content",
+   "headline": "AN AI APP <em>SELLS HIS MEME AS PAID ADS</em>",
+   "body": "The <b>'Running Away Balloon'</b> meme by Filipino artist <b>Superelmer</b> went viral in <b>2017</b>. A company called <b>Memes Apps</b> now charges businesses for an AI tool that copies his comic into ad templates. Nobody asked <b>Saflor</b>. Nobody paid him",
+   "hsize": 100,
+   "media": "posts/2026-07-28-artist-sues-ai-meme-generator-for-sellin/cand-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "A COURT RULED <em>MEMES CAN'T GO IN ADS</em>",
+   "body": "In <b>2024</b>, a judge ruled in the <b>'SuccessKid' meme case</b> that using a meme in a campaign ad without the creator's ok is not fair use. Internet law expert <b>Eric Goldman</b> says Saflor started 'on the right foot' and is telling 'the right story for the judge'",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "HE SUED <em>THE APP, NOT THE ADVERTISERS</em>",
+   "body": "Internet law expert <b>Eric Goldman</b> called this move 'gutsy' and a legal first. <b>Saflor</b> went straight for the tool selling his work, not the companies buying it. <b>Goldman</b> warns the court will 'check more cautiously' because a ruling here touches every meme app online",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "YOUR <em>MEME ADS</em> JUST PUT YOU AT RISK",
+   "body": "After the <b>2024 SuccessKid ruling</b>, using a meme in your ads without the artist's ok is officially not fair use. That case was about <b>one campaign ad</b>, and the artist still won. <b>One AI-powered content audit</b> scans your entire library in minutes, no legal team needed",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>DAILY AI NEWS</em> YOU'LL ACTUALLY WANT TO READ",
+   "body": "We break down the biggest AI stories every day so you never miss what changes your world",
+   "hsize": 105,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see why the artist behind one of the internet's biggest memes just sued an AI company for selling his work \ud83d\udc46\n\nThe 'Running Away Balloon' meme by Filipino artist Superelmer went viral in 2017, a company called Memes Apps now charges businesses for an AI tool that copies his comic into ad templates, Saflor sued them this month after nobody asked or paid him, a 2024 'SuccessKid' ruling already said memes can't go in ads without permission, internet law expert Eric Goldman called the legal strategy 'gutsy' and said the artist is telling 'the right story for the judge,' but warned a win could change the rules for every meme app on the internet\n\nAI tools are quietly grabbing art people made and selling it to businesses. This lawsuit could set the rules for all of them. If the court sides with the artist, every company using memes without permission gets a problem.\nRunning a business? DM us \"AI\" and we'll make sure your content stays clean\n\nSources: Ars Technica\n\n#AINews #Copyright #Memes #DigitalArt #TechLaw",
+ "hook_tournament": {
+  "candidates": [
+   "A COURT ALREADY SAID <em>MEMES CAN'T GO IN ADS WITHOUT PERMISSION</em>",
+   "The creator of the <em>Running Away Balloon</em> meme just sued an AI company for selling it as ads",
+   "THE BALLOON MEME GUY JUST <em>SUED AN AI APP FOR SELLING HIS COMIC</em>",
+   "That viral meme <em>you've shared</em> since 2017 was just sold as an ad template by an AI company",
+   "AN AI APP JUST GOT CAUGHT <em>SELLING ONE OF THE INTERNET'S BIGGEST MEMES</em>",
+   "AN AI COMPANY IS <em>SELLING SOMEONE'S VIRAL MEME AS PAID AD TEMPLATES</em>",
+   "This AI meme generator just made a <em>legal mistake</em> that could change how all meme AI works",
+   "An AI company just <em>sold</em> a deeply personal comic as ad templates without ever paying the artist",
+   "ONE ARTIST FROM THE PHILIPPINES JUST <em>TOOK ON AN ENTIRE AI MEME COMPANY</em>",
+   "A comic artist just <em>sued</em> one of the biggest AI meme generators for selling his work as ads"
+  ],
+  "scores": [
+   3,
+   5,
+   6,
+   7,
+   5,
+   2,
+   4,
+   5,
+   8,
+   6
+  ],
+  "winner": 8
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Artist sues AI meme generator for selling deeply personal comic as ad template",
+  "link": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/"
+ }
+}

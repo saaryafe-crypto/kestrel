@@ -1,0 +1,53 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "VISA JUST BET <em>EVERYTHING</em>",
+   "hsize": 72,
+   "media": "posts/2026-07-29-visa-bet-everything/gen-0.jpg",
+   "subline": "SWIPE TO SEE WHAT THEY'RE DOING"
+  },
+  {
+   "type": "content",
+   "headline": "VISA JUST LAID OFF <em>2,600 EMPLOYEES</em>",
+   "hsize": 95,
+   "body": "Visa had about <b>34,100 employees</b> last year. Now <b>7%</b> of them are out, mostly from <b>tech and product teams</b>. <b>Bloomberg</b> broke the story, <b>CNBC</b> confirmed the CEO's memo",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE CEO WROTE THAT <em>AI RESHAPED WORK AT VISA</em>",
+   "hsize": 86,
+   "body": "<b>Ryan McInerney</b> wrote to employees that AI is \"helping to accelerate this evolution and shape the way work gets done at Visa.\" He said the company must \"continue evolving how we work.\" <b>AI</b> was a big factor, not the only one",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE MONEY GOES TO A TECH <em>MOST BANKS WON'T TOUCH</em>",
+   "hsize": 80,
+   "body": "Visa listed its new priorities: <b>rich customers, international payments, business payments, stablecoins</b>, and expanding into <b>new countries</b>. McInerney called it \"a new era in commerce with real momentum.\" Visa drops its <b>earnings report after market close today</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "HERE'S WHAT VISA KNOWS <em>THAT YOU DON'T</em>",
+   "hsize": 88,
+   "body": "A company with <b>34,100 people</b> just cut <b>7%</b> because AI changed how work gets done. If Visa's own tech team wasn't safe, nobody is. The businesses adding AI right now aren't firing, they're handling more work with <b>the same team</b>",
+   "media": "posts/2026-07-29-visa-bet-everything/gen-4.jpg"
+  },
+  {
+   "type": "cta",
+   "headline": "FOLLOW <em>@YAFFEAI</em>",
+   "hsize": 120,
+   "body": "Daily AI and tech news before everyone else catches on",
+   "media": null
+  }
+ ],
+ "caption": "Visa just bet everything. Swipe to see what they're doing \ud83d\udc40\n\nVisa cutting 7% of its workforce, 2,600 positions mostly from tech and product, CEO Ryan McInerney's memo blaming AI for reshaping how work gets done, the five growth areas Visa is betting on instead including stablecoins and wealthy customers, quarterly earnings dropping today\n\nThe first major payment company to put AI in a layoff memo. This is the template: cut the roles AI handles, redirect the savings into whatever's growing next. It won't stop at Visa.\n\nRunning a business? DM us \"AI\" and we'll show you how to stay on the right side of this\n\nSources: CNBC, Bloomberg\n\n#ai #visa #layoffs #technology #business",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Visa is cutting 7% of employees in efficiency push as AI reshapes work",
+  "link": "https://www.cnbc.com/2026/07/28/visa-is-cutting-7percent-of-employees-in-efficiency-push-as-ai-reshapes-work.html"
+ }
+}

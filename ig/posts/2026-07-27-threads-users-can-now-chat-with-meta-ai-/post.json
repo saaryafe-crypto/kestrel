@@ -1,0 +1,76 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A new contact just appeared in your <em>Threads DMs</em> \u2014 and it's <em>not human</em>",
+   "hsize": 60,
+   "media": "posts/2026-07-27-threads-users-can-now-chat-with-meta-ai-/cand-1.jpg",
+   "logos": [
+    "meta"
+   ],
+   "subline": "CHECK YOUR DMS RIGHT NOW"
+  },
+  {
+   "type": "content",
+   "headline": "AN <em>AI CHATBOT</em> JUST <em>MOVED INTO</em> YOUR <em>THREADS INBOX</em>",
+   "hsize": 96,
+   "body": "Users can send any <b>Threads post</b>, <b>image</b>, <b>link</b>, or <b>video</b> straight to <b>Meta AI</b> in a private chat. It answers questions about whatever you share and handles <b>follow-up conversations</b>. The feature rolls out to <b>every country</b> starting <b>Monday</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "META <em>BURIED</em> AI IN <em>FOUR APPS</em> SO YOU NEVER <em>LEAVE</em>",
+   "hsize": 96,
+   "body": "<b>Meta AI</b> already sits inside DMs on <b>Facebook</b>, <b>Instagram</b>, and <b>WhatsApp</b>. <b>Threads</b> was the last major Meta app without it. The goal: stop users from ever opening <b>ChatGPT</b> or <b>Google Gemini</b> for quick answers",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>FOUR META APPS</em> NOW <em>ANSWER</em> YOUR <em>CUSTOMERS</em> BEFORE <em>YOU</em> CAN",
+   "hsize": 92,
+   "body": "When <b>Facebook</b>, <b>Instagram</b>, <b>WhatsApp</b>, and <b>Threads</b> all reply with AI in seconds, nobody waits for a human. Customers get answers from <b>Meta AI</b> before your team even sees the message. The businesses adding their own AI answer every question <b>24/7</b> \u2014 without hiring anyone",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "DAILY <em>AI NEWS</em> YOU WON'T HAVE TO <em>DECODE</em>",
+   "hsize": 96,
+   "body": "Follow for updates on every major move in AI \u2014 explained so anyone can understand",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how Meta just slid an AI chatbot into your private messages \u2014 and who they're really trying to beat \ud83d\udc40\n\nMeta AI chatbot now inside Threads DMs, what it can read and answer in private chats, the four-app AI strategy across Facebook Instagram WhatsApp and Threads, why ChatGPT and Google Gemini are the real competition, and what this means for businesses whose customers now get instant AI answers before they can reply.\n\nMeta is quietly turning every app on your phone into an AI assistant. The race isn't to build the best chatbot \u2014 it's to make sure you never leave their apps for answers.\nRunning a business? DM us \"AI\" and we'll show you how to keep your customers talking to you \u2014 not a chatbot.\n\nSources: TechCrunch\n\n#artificialintelligence #threads #metaai #chatbot #technews",
+ "hook_tournament": {
+  "candidates": [
+   "EVERY <em>THREADS</em> USER JUST GOT AN <em>AI</em> DROPPED INTO THEIR <em>PRIVATE MESSAGES</em>",
+   "Meta just launched <em>AI</em> inside <em>Threads DMs</em> \u2014 and ChatGPT is the <em>real target</em>",
+   "META JUST <em>SLID</em> AN <em>AI CHATBOT</em> INTO <em>THREADS</em>' <em>PRIVATE MESSAGES</em> SO YOU NEVER <em>LEAVE THE APP</em>",
+   "META JUST <em>PLANTED</em> AN <em>AI CHATBOT</em> INSIDE EVERY <em>THREADS</em> USER'S <em>PRIVATE MESSAGES</em>",
+   "Meta just finished putting <em>AI</em> in <em>every single app</em> it owns \u2014 Threads was the last one",
+   "META JUST <em>WIRED</em> AN <em>AI ASSISTANT</em> INTO <em>THREADS DMS</em> ACROSS <em>EVERY COUNTRY</em> ON EARTH",
+   "META QUIETLY <em>DROPPED</em> AN <em>AI</em> INTO YOUR <em>THREADS DMS</em> STARTING <em>TODAY WORLDWIDE</em>",
+   "Meta just dropped an <em>AI chatbot</em> into every <em>Threads DM</em> on the planet starting today",
+   "<em>Zuckerberg</em> just sent <em>Meta AI</em> into every Threads user's private messages worldwide",
+   "A new contact just appeared in your <em>Threads DMs</em> \u2014 and it's <em>not human</em>"
+  ],
+  "scores": [
+   4,
+   4,
+   5,
+   6,
+   3,
+   3,
+   5,
+   5,
+   6,
+   6
+  ],
+  "winner": 9
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Threads users can now chat with Meta AI in their DMs",
+  "link": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/"
+ }
+}

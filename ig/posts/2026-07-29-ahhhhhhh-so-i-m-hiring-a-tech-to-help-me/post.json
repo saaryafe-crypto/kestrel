@@ -1,0 +1,90 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "INVISIBLE TEXT IS <em>HACKING</em> YOUR AI",
+   "hsize": 80,
+   "media": "posts/2026-07-29-ahhhhhhh-so-i-m-hiring-a-tech-to-help-me/gen-0.jpg",
+   "subline": "THEY JUST FOUND THE BACKDOOR"
+  },
+  {
+   "type": "content",
+   "headline": "SHE FOUND <em>INVISIBLE TEXT</em> HIDDEN IN RESUMES",
+   "hsize": 90,
+   "body": "<b>Ya'el Courtney, PhD</b> posted she was hiring a lab tech and screening applications. She caught applicants hiding white text at <b>2.25 points</b> inside their resumes, invisible to any human reader but picked up by every AI tool",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE TEXT <em>HIJACKS THE AI</em>",
+   "hsize": 115,
+   "body": "It's called <b>prompt injection</b>: hidden instructions that tell AI screening tools to rank the applicant higher or skip over gaps in experience. <b>Human recruiters</b> can't see the text, but every AI tool reads it and follows what it says",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2.3 MILLION PEOPLE</em> SAW HER POST",
+   "hsize": 95,
+   "body": "Her post on <b>X</b> hit <b>668K reposts</b> and <b>33K replies</b> in a single day. One commenter called the applicants' move a <b>'good sign'</b> of intellect and problem-solving. <b>Mark Graham</b> asked if she's using AI to screen and wrote <b>'shame on you'</b> if so",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THEY CALLED IT <em>COMPLETELY FAIR</em>",
+   "hsize": 110,
+   "body": "The verdict from <b>33,000 replies</b>: if you use AI to screen people out, they deserve the job for outsmarting it. <b>Steve Brintsmore</b> called it <b>'100% fair play'</b> if AI is doing the screening. They didn't hack a server, they just spoke <b>the machine's own language</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "YOUR AI TOOLS <em>HAVE THE SAME WEAK SPOT</em>",
+   "hsize": 80,
+   "body": "This exploit works on <b>any AI tool</b> that reads text it didn't write. If your business uses AI to screen, sort, or decide anything, <b>the same trick</b> could override it. <b>One conversation</b> about how your AI actually works is all it takes to close the gap",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "APPLICANTS WON'T <em>STOP HERE</em>",
+   "hsize": 118,
+   "body": "Follow to catch the next exploit before it goes viral. Send this to the friend who still trusts every AI tool they use",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see what job applicants are hiding inside their resumes to hack AI screening tools \ud83d\udc40\n\nYa'el Courtney, a PhD scientist hiring a lab tech, posted on X that she caught applicants hiding 2.25 point white text in their resumes to trick AI screening tools using prompt injection, her post hit 2.3 million views, 668K reposts, and 33K replies, commenters overwhelmingly sided with the applicants calling it fair play if AI is doing the screening, Mark Graham asked if she was using AI to filter and said shame on you, Steve Brintsmore called it 100% fair play\n\nCompanies started using AI to filter job applicants. Now applicants figured out how to talk directly to those AIs. This workaround just went viral, and it will not be the last one.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: @ScienceYael on X\n\n#AI #Hiring #Resume #Technology #PromptInjection",
+ "pinned_comment": "Real question: if a company uses a robot to read your resume, is tricking the robot actually cheating?",
+ "hook_tournament": {
+  "candidates": [
+   "THEY'RE <em>HACKING</em> JOB APPLICATIONS",
+   "JOB APPLICANTS FOUND <em>A CHEAT CODE</em>",
+   "A SCIENTIST JUST <em>EXPOSED</em> JOB APPLICANTS",
+   "YOU'RE <em>LOSING</em> JOBS TO THIS TRICK",
+   "SHE CAUGHT THEM <em>CHEATING</em>",
+   "APPLICANTS HID <em>SECRET MESSAGES</em> IN RESUMES",
+   "R\u00c9SUM\u00c9S NOW HAVE <em>INVISIBLE</em> TEXT",
+   "APPLICANTS JUST <em>HACKED</em> HER HIRING AI",
+   "AI HIRING JUST <em>FAILED</em> ITS FIRST TEST",
+   "THIS PhD <em>CAUGHT</em> WHAT NO ONE SAW"
+  ],
+  "scores": [
+   6,
+   6,
+   8,
+   7,
+   6,
+   5,
+   4,
+   6,
+   7,
+   4
+  ],
+  "winner": 2
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "ahhhhhhh so I'm hiring a tech to help me out in lab and screening applications now and THE KIDS ARE USING PROMPT INJECTION!!!!!! 2.25 pt white text, here's what I've found so far",
+  "link": "https://x.com/ScienceYael/status/2082175224007848019",
+  "judge_interest": 8,
+  "scout_score": 165.0
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI JUST CAME FOR <em>YOUR HOUSE</em>",
+   "hsize": 74,
+   "media": "posts/2026-07-29-us-residents-furious-at-plan-to-seize-an/cand-1.webp",
+   "subline": "30 FAMILIES CAN'T STOP IT"
+  },
+  {
+   "type": "content",
+   "headline": "30 HOMES MARKED <em>FOR DEMOLITION</em>",
+   "body": "Georgia Power, a for-profit utility, plans to tear down roughly <b>30 homes</b> and seize <b>330 parcels of land</b> across the state. All to build a <b>1,000-mile transmission line</b> feeding a new power plant producing nearly <b>10,000 megawatts</b>",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "80% GOES STRAIGHT TO <em>DATA CENTERS</em>",
+   "body": "The <b>Georgia Public Service Commission</b> confirmed that nearly <b>80%</b> of the new plant's output is earmarked for data centers. Regular families and businesses split whatever's left. The homes are being torn down to power servers, not neighborhoods",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE HOMEOWNERS <em>CAN'T SAY NO</em>",
+   "body": "If a homeowner refuses to sell, Georgia Power can legally force them out using <b>eminent domain</b>, the government's power to take your property whether you agree or not. One resident told <b>Fortune</b>: \"We don't have a choice in this\"",
+   "hsize": 114,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "BUSINESSES HANDED AI <em>THEIR WORST TASKS</em>",
+   "body": "They're building a <b>10,000 megawatt</b> power plant just to run AI. Businesses that already use AI save <b>hours every day</b> on work that used to need a full team. No power plant required",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "GEORGIA <em>WON'T BE THE LAST</em>",
+   "body": "Follow: the next one could be closer to home. Send this to someone who has no idea AI needs this much power",
+   "hsize": 112,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see why 30 homes in Georgia are being torn down for AI data centers \ud83d\udc40\n\nGeorgia Power plans to demolish roughly 30 homes and seize 330 parcels of land for a 1,000-mile transmission line, a new power plant producing nearly 10,000 megawatts with 80% reserved for data centers, homeowners facing eminent domain with no real choice, and the business opportunity hiding inside all of it\n\nWhen a utility tears down homes to power AI servers, the cost stops being a tech problem. This is one state and one power line. AI's electricity demand is just getting started.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Fortune, Georgia Public Service Commission\n\n#ai #datacenters #eminentdomain #technology #energy",
+ "pinned_comment": "Honest question: they show up at your door with a check and say take it or we take your house anyway. What are you doing?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "30 HOMES <em>DEMOLISHED FOR AI</em>",
+   "AI JUST CAME FOR <em>YOUR HOUSE</em>",
+   "THEY'RE KNOCKING DOWN <em>HOMES FOR AI</em>",
+   "A COMPANY PICKED <em>30 HOMES TO DESTROY</em>",
+   "YOUR HOME CAN BE <em>SEIZED</em> FOR AI NOW",
+   "\"WE DON'T HAVE <em>A CHOICE</em>\"",
+   "SELL YOUR HOME OR <em>LOSE IT</em> TO AI",
+   "THEY CHOSE <em>AI</em> OVER YOUR HOME",
+   "AI GETS <em>80%</em> OF THE POWER \u2014 YOU DON'T",
+   "THEY'RE <em>DEMOLISHING</em> HOMES TO POWER AI"
+  ],
+  "scores": [
+   7,
+   8,
+   7,
+   8,
+   7,
+   4,
+   8,
+   8,
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "\"AI just came for your house\" fuses maximum personal stake (YOUR house) with one menacing actor doing one visceral action \u2014 the \"first they came for\" echo is instant at scroll speed. Runner-up [6] also uses \"your home\" but the sell-or-lose fork splits attention and costs a beat of clarity that kills the gut punch."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Georgia Power",
+  "actor_known": false,
+  "anchor": "your home",
+  "specifics": [
+   "~30 homes being demolished to build power lines for AI data centers",
+   "80% of the power goes to data centers, not regular people",
+   "1,000-mile transmission line across Georgia",
+   "Homeowners face eminent domain \u2014 \"We don't have a choice in this\"",
+   "Nearly 10,000 megawatts from a new power plant"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "US residents furious at plan to seize and destroy their homes for AI data centers",
+  "link": "https://www.yahoo.com/news/us/articles/residents-furious-plan-seize-destroy-125418836.html",
+  "judge_interest": 8,
+  "scout_score": 165.0
+ }
+}

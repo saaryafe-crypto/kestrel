@@ -1,0 +1,98 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AMAZON <em>BLEW $1.8 MILLION</em> ON A MENIAL TASK",
+   "hsize": 68,
+   "media": "posts/2026-07-30-amazon-accidentally-spent-1-8-million-us/cand-5.jpg",
+   "subline": "HOW THEY FOUND OUT IS EVEN WORSE"
+  },
+  {
+   "type": "content",
+   "headline": "AMAZON'S AI WENT <em>860% OVER BUDGET</em>",
+   "hsize": 96,
+   "body": "Amazon asked an AI called <b>Claude</b> to handle a single coding job. The final bill: <b>$1.8 million</b>. That's <b>860%</b> more than they planned to spend",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THEY CALLED <em>THE TASK 'MENIAL'</em>",
+   "hsize": 114,
+   "body": "<b>Amazon's</b> own team described the coding job as <b>'menial'</b>, meaning basic everyday work. They later called the bill <b>'catastrophically expensive'</b> in their internal reports",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>NOBODY NOTICED</em> UNTIL THEY CHECKED",
+   "hsize": 112,
+   "body": "The <b>$1.8 million</b> wasn't caught by a person or an alert system. <b>Amazon</b> only discovered it when someone pulled up their internal AI spending numbers, and by then the money was already gone",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MOST BUSINESSES <em>NEVER CHECK</em> THEIR AI BILLS",
+   "hsize": 82,
+   "body": "If <b>Amazon</b>, one of the biggest companies on earth, burned <b>$1.8 million</b> on AI without catching it, smaller businesses don't stand a chance. A single audit of your AI spending catches the waste in <b>under an hour</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>THIS WON'T BE</em> THE LAST TIME",
+   "hsize": 96,
+   "body": "Every company is rushing to use AI, and most have <b>zero guardrails</b> on what it costs. Follow, you'll want to see who's next. Send this to the friend whose company just started throwing AI at everything",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how Amazon accidentally burned $1.8 million on one AI coding task \ud83d\udcb8\n\nAmazon used Claude, an AI coding tool, to handle one task and it cost $1.8 million, 860% over budget. Their own team called the work 'menial.' Amazon's internal report described the bill as 'catastrophically expensive.' Nobody caught it until someone checked the AI usage numbers.\n\nCompanies are throwing AI at everything but almost nobody tracks what it costs. If Amazon missed a $1.8 million mistake, most businesses don't stand a chance.\nRunning a business? DM us \"AI\" and we'll show you how to catch this before it hits you\n\nSources: Tom's Hardware\n\n#AI #Amazon #Technology #ArtificialIntelligence #Business",
+ "pinned_comment": "The wildest part: nobody even noticed until they dug into the numbers. How many companies are bleeding money on AI right now and have no clue?",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "AMAZON CALLED THEIR OWN AI BILL <em>'CATASTROPHIC'</em>",
+   "AN AI <em>DRAINED $1.8 MILLION</em> FROM AMAZON",
+   "AMAZON WENT <em>860% OVER BUDGET</em> ON ONE TASK",
+   "AMAZON CALLED THEIR OWN AI <em>CATASTROPHICALLY EXPENSIVE</em>",
+   "ONE CODING TASK COST AMAZON <em>$1.8 MILLION</em>",
+   "AMAZON'S AI WENT <em>860% OVER BUDGET</em>",
+   "AMAZON HAD <em>NO IDEA</em> WHAT THEIR AI WAS SPENDING",
+   "AMAZON <em>BLEW $1.8 MILLION</em> ON A MENIAL TASK",
+   "ONE CODING TASK COST AMAZON <em>$1.8 MILLION</em>",
+   "AMAZON BURNED <em>$1.8 MILLION</em> ON ONE CODING TASK"
+  ],
+  "scores": [
+   7,
+   8.5,
+   7.5,
+   5.5,
+   8,
+   7.5,
+   6.5,
+   9,
+   7,
+   7.5
+  ],
+  "winner": 7,
+  "why": "It stacks three gut-punches in sequence \u2014 the number, the humiliation of 'menial,' then a second hook that makes you swipe just to find out how they got caught. The runner-up [1] is cleaner but one-dimensional; 'NOBODY CAUGHT IT' tells you the twist upfront, while 'HOW THEY FOUND OUT IS EVEN WORSE' makes you do the work."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Amazon",
+  "actor_known": true,
+  "anchor": "Amazon",
+  "specifics": [
+   "$1.8 million spent on a single coding task",
+   "860% over budget",
+   "task described as 'menial'",
+   "'catastrophically expensive' \u2014 their own words",
+   "only discovered when someone checked internal metrics"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Amazon accidentally spent $1.8 million using Claude for menial coding task, went 860% over budget \u2014'catastrophically expensive' coding blunders discovered in internal Amazon AI usage metrics",
+  "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-accidentally-spent-usd1-8-million-using-claude-for-menial-coding-task-went-860-percent-over-budget-catastrophically-expensive-coding-blunders-discovered-in-internal-amazon-ai-usage-metrics",
+  "judge_interest": 9,
+  "scout_score": 102.3
+ }
+}

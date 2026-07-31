@@ -1,0 +1,140 @@
+name: IG autopost
+# 5x daily: fetch news -> write post (Claude) -> render slides -> push slides
+# to the public media repo -> publish carousel via Meta Graph API.
+#
+# Required repo secrets:
+#   CLAUDE_CODE_OAUTH_TOKEN - from `claude setup-token` (uses Claude subscription)
+#   MAKE_WEBHOOK_URL   - Make.com scenario webhook (publishes carousel to IG)
+#   MAKE_API_KEY       - Make.com webhook API key
+#   MEDIA_REPO_TOKEN   - GitHub PAT with push access to the public media repo
+#   REPLICATE_API_TOKEN - optional; enables Seedream-4 slide images ($9/mo cap in genimg.py)
+# Required: public repo saaryafe-crypto/kestrel-media (hosts slide JPEGs
+# so Meta's servers can fetch them).
+
+on:
+  schedule:
+    # US prime time (audit Jul 29: old 7:00 UTC anchor = 3am New York while the
+    # funnel is USA-only; 3 of 5 slots fired before America woke up).
+    # 13,15,17,20,23 UTC = 9am/11am/1pm/4pm/7pm ET.
+    - cron: "0 13,15,17,20,23 * * *"
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "auto | story | edu"
+        default: "auto"
+      repost:
+        description: "existing posts/<name> to re-publish as-is (skips generation)"
+        default: ""
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      # exact-hour posting forever is a mild bot fingerprint (audit Jul 29);
+      # scheduled runs only — manual/recovery runs stay instant
+      - name: Jitter (0-8 min)
+        if: github.event_name == 'schedule'
+        run: sleep $((RANDOM % 480))
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Repost an existing post (skip generation)
+        if: github.event.inputs.repost != ''
+        run: |
+          echo "POST_DIR=ig/posts/${{ github.event.inputs.repost }}" >> "$GITHUB_ENV"
+          echo "POST_NAME=${{ github.event.inputs.repost }}" >> "$GITHUB_ENV"
+          test -f "ig/posts/${{ github.event.inputs.repost }}/slide-1.jpg"
+
+      - name: Install Claude Code CLI + Pillow
+        if: github.event.inputs.repost == ''
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          pip install pillow
+
+      - name: Fetch news and write post
+        if: github.event.inputs.repost == ''
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          CHROME: google-chrome
+        run: |
+          set -o pipefail
+          cd ig
+          python scout.py   # fetch.py harvest + HN crowd data + Claude interest judge -> stories.json
+          # Tue/Thu/Sat/Sun 17:00 (1pm ET) = ai_education save-magnet
+          # (audit Jul 29: saves are Explore fuel); rest = single stories.
+          # The "24 HOURS" recap is DEAD (owner directive Jul 31: stop the
+          # what-happened-in-24h post entirely) — every slot is one story.
+          KIND="${{ github.event.inputs.kind }}"
+          if [ -z "$KIND" ] || [ "$KIND" = "auto" ]; then
+            H=$(date -u +%H); D=$(date -u +%u)
+            if [ "$H" = "17" ] && { [ "$D" = "2" ] || [ "$D" = "4" ] || [ "$D" = "6" ] || [ "$D" = "7" ]; }; then KIND=edu
+            else KIND=story; fi
+          fi
+          # Every branch ends in a fallback rung (owner rule: 7/day is a MUST,
+          # a slot is never skipped). edu.py is the evergreen last resort — it
+          # doesn't depend on the news pool, so "no usable story" (all dupes,
+          # issue #7) can't kill a slot.
+          if [ "$KIND" = "edu" ]; then
+            python edu.py | tee /tmp/write.log || python write.py | tee /tmp/write.log
+          else
+            python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+          fi
+          POST_DIR=$(sed -n 's/^post ready: //p' /tmp/write.log)
+          test -n "$POST_DIR"  # fail loudly if the writer produced nothing
+          echo "POST_DIR=$POST_DIR" >> "$GITHUB_ENV"
+          echo "POST_NAME=$(basename "$POST_DIR")" >> "$GITHUB_ENV"
+
+      - name: Save post to this repo (dedupe history)
+        if: github.event.inputs.repost == ''
+        run: |
+          git config user.name "ig-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add ig/posts
+          git add ig/edu-used.json 2>/dev/null || true
+          git add ig/genimg-used.json 2>/dev/null || true  # image-gen budget ledger must persist across runs
+          git commit -m "IG post: $POST_NAME" || { echo "nothing to commit"; exit 0; }
+          git pull --rebase --autostash   # autostash: fetch.py leaves stories.json dirty; don't let it kill the run
+          git push
+
+      - name: Push slides to public media repo
+        # runs for reposts too — IG fetches slides from this repo, so publishing
+        # without pushing them 404s at Meta ("Only photo or video...", err 9004)
+        env:
+          TOKEN: ${{ secrets.MEDIA_REPO_TOKEN }}
+        run: |
+          git clone --depth 1 "https://x-access-token:$TOKEN@github.com/saaryafe-crypto/kestrel-media.git" /tmp/media
+          mkdir -p "/tmp/media/$POST_NAME"
+          cp "$POST_DIR"/slide-*.jpg "/tmp/media/$POST_NAME/"
+          cp "$POST_DIR"/video-*.mp4 "/tmp/media/$POST_NAME/" 2>/dev/null || true
+          cd /tmp/media
+          git config user.name "ig-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "$POST_NAME" || echo "slides already in media repo"
+          git pull --rebase || true   # another workflow may have pushed first
+          git push
+
+      - name: Publish carousel to Instagram
+        env:
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
+        run: |
+          python ig/post.py "$POST_DIR" \
+            "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/$POST_NAME"
+
+      - name: Alert on failure (opens a GitHub issue -> email notification)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "IG autopost FAILED $(date -u '+%Y-%m-%d %H:%M UTC')" \
+            --body "Something broke — no post went out for this slot. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

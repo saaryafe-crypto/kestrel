@@ -1,0 +1,6 @@
+.igprofile/
+reference/
+.venv/
+posts/*/reel.mp4
+posts/*/src.mp4
+posts/*/overlay.html

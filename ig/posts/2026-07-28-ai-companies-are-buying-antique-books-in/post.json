@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AFTER PAYING <em>$1.5 BILLION</em> FOR PIRATING BOOKS, AI COMPANIES JUST STARTED <em>SHREDDING</em> THE <em>PHYSICAL COPIES</em> INSTEAD",
+   "hsize": 58,
+   "media": "posts/2026-07-28-ai-companies-are-buying-antique-books-in/gen-0.jpg",
+   "subline": "A JUDGE CALLED IT LEGAL"
+  },
+  {
+   "type": "content",
+   "headline": "AN AI COMPANY <em>SLICED OPEN THOUSANDS OF BOOKS</em> WITH A <em>HYDRAULIC CUTTER</em>",
+   "hsize": 80,
+   "body": "<b>Anthropic</b> \u2014 the company behind the AI chatbot <b>Claude</b> \u2014 bought <b>countless used books</b> from resellers. They used a <b>hydraulic cutting machine</b> to neatly remove every page, then scanned them all with <b>industrial-grade imaging equipment</b>",
+   "media": "posts/2026-07-28-ai-companies-are-buying-antique-books-in/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "A JUDGE <em>RULED</em> IT <em>COMPLETELY LEGAL</em>",
+   "hsize": 112,
+   "body": "Anthropic already paid a <b>$1.5 billion settlement</b> for pirating digital books from authors. So the industry switched to buying physical copies instead. A legal rule called <b>first-sale doctrine</b> says once you buy something, you can do whatever you want with it \u2014 and a judge called scanning the pages <b>\"transformative\"</b> and protected under <b>fair use</b>",
+   "media": "posts/2026-07-28-ai-companies-are-buying-antique-books-in/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "ONE BOOK SELLER QUIETLY <em>HANDED</em> AI COMPANIES <em>UP TO A MILLION BOOKS</em> PER ORDER",
+   "hsize": 78,
+   "body": "A book database called <b>ISBNdb</b> used to help libraries and bookshops find titles. Now it helps AI companies <b>bulk-buy 1,000 to 1 million books</b> at a time. It promises to <b>keep every buyer's name secret</b> \u2014 and pitches books printed <b>before 2022</b> as guaranteed free of AI-written junk that already pollutes the internet",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THESE COMPANIES <em>SPENT MILLIONS</em> HUNTING <em>CLEAN TEXT</em> YOUR BUSINESS <em>ALREADY HAS</em>",
+   "hsize": 78,
+   "body": "They're buying and destroying physical books because they need <b>real human writing</b> that AI hasn't touched. Your business already sits on <b>years</b> of it \u2014 <b>emails, notes, procedures, customer calls</b>. Most owners don't realize their own records could power an AI that handles <b>half their daily busywork</b> without hiring anyone",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "WE BREAK DOWN <em>AI NEWS</em> EVERY <em>SINGLE DAY</em>",
+   "hsize": 104,
+   "body": "Stories like this one, explained simply so you always know what AI is doing to the world before everyone else",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how AI companies are destroying rare books with hydraulic cutters to train their AI \u2014 and why a judge said it's legal \ud83d\udcda\n\nAI companies are ripping pages out of used books with hydraulic cutters, scanning them with industrial equipment, and throwing away the originals. Anthropic paid $1.5 billion to settle author lawsuits over pirated e-books, so the industry switched to physical copies. A judge ruled it fair use under first-sale doctrine. A book database called ISBNdb now sells AI companies up to one million books per order and keeps every buyer's name secret. Pre-2022 books are prized because they're free of AI-written text that already pollutes the internet.\n\nThe companies building AI that writes are now destroying the books humans wrote first. Pre-AI text has become one of tech's most valuable resources \u2014 and it's vanishing fast.\nRunning a business? DM us \"AI\" and we'll show you what your own data could do\n\nSources: Futurism, 404 Media\n\n#ArtificialIntelligence #AINews #RareBooks #Technology #TechNews",
+ "handle": "@yaffeai",
+ "story": {
+  "title": "AI Companies Are Buying Antique Books, Ingesting Their Contents to Train Models, and Then Destroying Them at Incredible Scale, Even If Almost No Copies Remain",
+  "link": "https://futurism.com/artificial-intelligence/ai-companies-destroying-rare-books"
+ },
+ "hook_tournament": {
+  "candidates": [
+   "AI Companies Just <em>Destroyed</em> Rare Antique Books After Scanning Them \u2014 Even When <em>No Other Copies</em> Exist",
+   "A BOOK COMPANY JUST QUIETLY OFFERED AI FIRMS <em>UP TO ONE MILLION BOOKS</em> PER ORDER",
+   "AI Companies Just <em>Bought</em> the Rarest Books Left on Earth \u2014 Not to <em>Read</em> Them",
+   "AI COMPANIES JUST <em>DESTROYED THOUSANDS</em> OF <em>RARE BOOKS</em> TO TRAIN THEIR AI \u2014 SOME WITH <em>ALMOST NO COPIES LEFT</em> ON EARTH",
+   "Anthropic Just <em>Bought</em> Rare Books Knowing They'd Be <em>Destroyed</em> After a Single Scan",
+   "AI Companies Just <em>Bought</em> Antique Books at <em>Incredible Scale</em> \u2014 Even When Almost No Copies Remain",
+   "AI COMPANIES JUST STARTED <em>MASS-BUYING</em> EVERY BOOK PRINTED <em>BEFORE 2022</em> BECAUSE THE INTERNET HAS TOO MUCH <em>AI GARBAGE</em> TO TRUST",
+   "AFTER PAYING <em>$1.5 BILLION</em> FOR PIRATING BOOKS, AI COMPANIES JUST STARTED <em>SHREDDING</em> THE <em>PHYSICAL COPIES</em> INSTEAD",
+   "Anthropic Just Paid <em>$1.5 Billion</em> for Pirating Books \u2014 Now They're Coming for the <em>Physical</em> Ones",
+   "ANTHROPIC JUST <em>RIPPED PAGES</em> OUT OF <em>THOUSANDS OF BOOKS</em> WITH A <em>HYDRAULIC CUTTER</em> TO TRAIN ITS AI"
+  ],
+  "scores": [
+   5,
+   6,
+   5,
+   6,
+   4,
+   4,
+   6,
+   7,
+   6,
+   6
+  ],
+  "winner": 7
+ },
+ "container": "daily_item"
+}

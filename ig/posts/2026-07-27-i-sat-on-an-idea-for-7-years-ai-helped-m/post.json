@@ -1,0 +1,87 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A dad just opened a drawer he hadn't touched in <em>7 years</em> \u2014 inside was an <em>unpatented invention</em>.",
+   "hsize": 58,
+   "media": null,
+   "subline": "WHAT HE DID NEXT TOOK 14 DAYS"
+  },
+  {
+   "type": "content",
+   "headline": "THE <em>DOG HARNESS WORKED</em> \u2014 <em>PATENT PAPERWORK</em> KILLED IT",
+   "body": "He sat at a bar <b>7 years ago</b> and watched a woman's dog wrap itself in its own leash. His fix: a small <b>3D-printed</b> sliding piece that rides along a cable, so the leash moves with the dog instead of knotting. He tested it on a <b>life-sized stuffed dog</b> \u2014 and it worked",
+   "hsize": 96,
+   "media": "posts/2026-07-27-i-sat-on-an-idea-for-7-years-ai-helped-m/cand-2.png"
+  },
+  {
+   "type": "content",
+   "headline": "<em>EVERY GUIDE</em> HE READ MADE IT SOUND <em>IMPOSSIBLE</em>",
+   "body": "He needed to search existing patents to check if his idea was new, produce <b>technical drawings</b> a manufacturer would accept, and write a legal specification in the exact format the <b>US Patent Office</b> expects. For <b>7 years</b> he'd start, get intimidated, and shelve it",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>AI WROTE</em> THE ENTIRE <em>PATENT FILING</em> IN <em>2 WEEKS</em>",
+   "body": "He handed <b>AI</b> his old sketches. It searched existing patents, judged whether the idea was truly new, produced the required technical drawings, and drafted the full legal specification in the exact language the <b>US Patent Office</b> expects. Total filing cost: about <b>$65</b>",
+   "hsize": 94,
+   "media": "posts/2026-07-27-i-sat-on-an-idea-for-7-years-ai-helped-m/cand-1.png"
+  },
+  {
+   "type": "content",
+   "headline": "<em>HE FILED</em> THIS MONTH <em>WITHOUT</em> EVER CALLING A <em>LAWYER</em>",
+   "body": "The provisional patent landed at the <b>US Patent Office</b> this month. He does <b>AI engineering</b> for a living but had <b>zero patent experience</b>. He's now building the whole product and company with <b>AI</b> \u2014 documenting every step publicly",
+   "hsize": 94,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "A <em>TOTAL BEGINNER</em> FILED A <em>REAL PATENT</em> IN <em>2 WEEKS</em>",
+   "body": "Every business has work stuck behind an <b>expertise wall</b> \u2014 legal filings, technical specs, compliance paperwork. He had <b>zero patent experience</b> and AI carried the whole process to a <b>filed patent</b> in <b>2 weeks</b> for <b>$65</b>, without a lawyer or a consultant",
+   "hsize": 94,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>DAILY AI NEWS</em> THAT CHANGES HOW YOU <em>BUILD</em>",
+   "body": "Follow @yaffeai for stories like this \u2014 the builders, the breakthroughs, the tools that matter",
+   "hsize": 96,
+   "media": null
+  }
+ ],
+ "caption": "He sat on an invention for 7 years \u2014 then AI filed the patent in 2 weeks for $65. Swipe for the full story \ud83d\udc46\n\nA man sketched a better dog harness at a bar 7 years ago after watching a dog tangle in its own leash, 3D-printed a sliding piece that lets the leash move with the dog instead of knotting, tested it on a stuffed animal, shelved it because patent paperwork killed his motivation every time he tried, then this month handed his old sketches to AI which searched existing patents, judged novelty, produced technical drawings, and drafted the full legal specification for the US Patent Office \u2014 filed for about $65 in 2 weeks with zero patent experience and no lawyer.\n\nIdeas don't die in drawers because nobody wants to build them. They die because the next step needs a specialist. AI just proved it can do that expert work in weeks for pocket change.\n\nRunning a business with an idea gathering dust? DM us 'AI' \u2014 we'll show you what two weeks could do\n\nSources: Pablo Oliva, pablooliva.de\n\n#AI #patent #invention #solofounder #buildinpublic",
+ "hook_tournament": {
+  "candidates": [
+   "A MAN JUST <em>FILED A PATENT</em> HE GAVE UP ON FOR <em>7 YEARS</em> AFTER HANDING THE WHOLE THING TO <em>AI</em> FOR <em>$65</em>",
+   "HE <em>QUIT HIS INVENTION</em> EVERY TIME HE PICKED IT UP BECAUSE <em>PATENT PAPERWORK</em> SCARED HIM OFF FOR <em>7 YEARS</em>",
+   "A MAN WITH <em>ZERO PATENT EXPERIENCE</em> JUST FILED ONE BY HANDING <em>AI</em> HIS <em>7-YEAR-OLD SKETCHES</em> AND <em>$65</em>",
+   "ONE MAN JUST <em>REPLACED A PATENT LAWYER</em> WITH <em>AI</em> AND FILED A <em>REAL PATENT</em> FOR <em>$65</em> IN 2 WEEKS",
+   "A dad just filed for a <em>patent</em> on something he sketched at a <em>bar 7 years ago</em>.",
+   "A dad just gave an <em>AI agent</em> a <em>two-week deadline</em> to patent his 7-year-old invention.",
+   "A dad just submitted to the <em>U.S. Patent Office</em> a filing an <em>AI agent</em> wrote for him.",
+   "A dad just opened a drawer he hadn't touched in <em>7 years</em> \u2014 inside was an <em>unpatented invention</em>.",
+   "A dad just spent <em>$65</em> to do what most people pay a <em>patent lawyer</em> thousands for.",
+   "A <em>3D-PRINTED INVENTION</em> SAT IN A <em>CARDBOARD BOX</em> FOR <em>7 YEARS</em> UNTIL <em>AI</em> FILED ITS PATENT FOR <em>$65</em>"
+  ],
+  "scores": [
+   4,
+   7,
+   5,
+   4,
+   6,
+   6,
+   5,
+   7,
+   6,
+   5
+  ],
+  "winner": 7
+ },
+ "handle": "@yaffeai",
+ "container": "builder_story",
+ "story": {
+  "title": "I Sat on an Idea for 7 Years. AI Helped Me File for a Patent in 2 Weeks.",
+  "link": "https://pablooliva.de/the-closing-window/i-sat-on-an-idea-for-7-years/?ref=reddit"
+ }
+}

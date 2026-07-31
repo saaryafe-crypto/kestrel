@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE CEO OF OPENAI JUST <em>KILLED</em> THE 4-DAY WORKWEEK",
+   "hsize": 72,
+   "media": null,
+   "logos": [
+    "openai"
+   ],
+   "subline": "AND HIS REASON WILL INFURIATE YOU"
+  },
+  {
+   "type": "content",
+   "headline": "SAM ALTMAN SAID <em>FORGET THE 4-DAY WEEK</em>",
+   "hsize": 92,
+   "body": "On <b>July 28</b>, <b>Altman</b> told <b>Ti Morse</b> on the <b>Relentless</b> podcast that the shorter workweek will never happen at mass scale. His exact words: \"I don't expect AI to change that.\" He argues every time humans get better tools, they just raise their expectations to match",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "HE CALLED YOU <em>SECRETLY HAPPY</em>",
+   "hsize": 110,
+   "body": "<b>Altman</b> said people are \"very focused on how they're doing relative to other people.\" His prediction: even after AI gets smarter than all of us, \"we're still going to complain about it, but <b>secretly we're going to be happy</b>.\" He claims we already have <b>more free time</b> and a better quality of life than any other point in history",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "BERNIE SANDERS <em>FIRED BACK</em>",
+   "hsize": 118,
+   "body": "On the <b>Joe Rogan Experience</b>, <b>Sanders</b> said time saved by AI should go back to workers, not get filled with extra tasks. The <b>UK, France, Japan, and Germany</b> are already testing <b>four-day workweeks</b>. Meanwhile, the people already replaced by AI \"now work <b>no hours</b> each week\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>4 COUNTRIES</em> ALREADY TESTED SHORTER WEEKS",
+   "hsize": 100,
+   "body": "You're paying your team for <b>40 hours</b> but half goes to tasks AI handles in <b>minutes</b>. The <b>UK, France, Japan, and Germany</b> already tested shorter weeks without losing output. Your business can do the same without a government program or a single new hire",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "THIS FIGHT <em>IS JUST STARTING</em>",
+   "hsize": 112,
+   "body": "Altman won't be the last CEO to tell you to keep grinding. Follow @yaffeai so you see who says it next. Send this to the friend who hates their 9-to-5 but hasn't done anything about it",
+   "media": null
+  }
+ ],
+ "caption": "Sam Altman says you secretly love your 40-hour week and AI won't change that. Swipe to hear his argument and who fired back \ud83d\udd25\n\nSam Altman on the Relentless podcast, his exact quotes about the four-day workweek, why he thinks humans always raise expectations, his 'secretly happy' claim, Bernie Sanders on the Joe Rogan Experience pushing back, four countries already testing shorter workweeks, and the people AI already left working zero hours\n\nThe people building AI are telling you not to expect less work. The real question is whether you believe them, or use it yourself before anyone gives you permission.\nRunning a business? DM us \"AI\" and we'll show you where your team is losing hours every week\n\nSources: TechSpot\n\n#AI #SamAltman #OpenAI #FutureOfWork #Technology",
+ "pinned_comment": "He builds the AI replacing people's jobs, then tells them they secretly love working. Is that honesty or audacity?",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "OPENAI'S CEO SAID YOU <em>SECRETLY LOVE WORKING</em>",
+   "THE CEO OF OPENAI SAYS AI MAKES US <em>BUSIER</em>",
+   "THE CEO OF OPENAI SAYS YOU <em>SECRETLY</em> LOVE WORKING",
+   "BERNIE SANDERS <em>FIRED BACK</em> AT THE CEO OF OPENAI",
+   "OPENAI'S CEO CALLED <em>THE 4-DAY WEEK A LIE</em>",
+   "AI WON'T SAVE <em>YOUR WEEKENDS</em>",
+   "THE GUY BUILDING AI SAYS <em>YOU'LL WORK MORE</em>",
+   "THE CEO OF OPENAI JUST <em>KILLED</em> THE 4-DAY WORKWEEK",
+   "THE CEO OF OPENAI CALLED OUT WHY YOU <em>OVERWORK</em>",
+   "OPENAI'S CEO ADMITTED <em>YOU'LL NEVER REST</em>"
+  ],
+  "scores": [
+   7,
+   5,
+   6,
+   6,
+   0,
+   5,
+   8,
+   9,
+   8,
+   7
+  ],
+  "winner": 7,
+  "why": "KILLED + INFURIATE YOU is a double emotional gut-punch \u2014 'killed' makes it feel like something was taken from me, and 'infuriate' tells me my anger is the correct response before I've even read it. [6] is close but 'the guy building AI says you'll work more' spreads its energy across two ideas; [7] lands one clean blow and the subline amplifies it instead of restating it."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Sam Altman",
+  "actor_known": false,
+  "anchor": "the CEO of OpenAI",
+  "specifics": [
+   "Said people will be 'secretly happy' being busy even after superintelligence arrives",
+   "Declared AI won't deliver the four-day workweek: 'I don't expect AI to change that'",
+   "Said humans are 'very focused on how they're doing relative to other people'",
+   "Bernie Sanders fired back that time saved by AI should go to workers, not extra tasks",
+   "Article notes people laid off because of AI 'now work no hours each week'"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Sam Altman says AI won't shorten the workweek because humans secretly enjoy being busy",
+  "link": "https://www.techspot.com/news/113264-sam-altman-ai-wont-shorten-workweek-because-humans.html",
+  "judge_interest": 7,
+  "scout_score": 99.7
+ }
+}

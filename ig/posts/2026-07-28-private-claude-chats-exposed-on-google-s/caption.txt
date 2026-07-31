@@ -1,0 +1,10 @@
+Swipe to see what private Claude AI chats just leaked onto Google — crypto keys, medical records, and worse 👀
+
+Private Claude conversations found searchable on Google, cryptocurrency wallet keys and API keys exposed, medical records and patient data leaked, children's contact information surfaced, Anthropic blamed users for the exposure, same leak hit ChatGPT last year, Dropbox and Google Drive had the same flaw years ago.
+
+This is the second time in a year that private AI chats leaked onto search engines. If your team uses AI daily, the question isn't whether they're sharing sensitive data — it's whether anyone can Google it.
+Running a business? DM us "AI" and we'll make sure your team's AI conversations stay private.
+
+Sources: TechCrunch, LinkedIn News, Futurism, Reddit
+
+#ArtificialIntelligence #DataPrivacy #CyberSecurity #TechNews #AITools

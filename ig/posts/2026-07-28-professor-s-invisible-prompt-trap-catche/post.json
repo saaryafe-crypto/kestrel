@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A PROFESSOR JUST <em>TRAPPED 32 STUDENTS WITH INVISIBLE TEXT</em> IN THEIR MIDTERM",
+   "hsize": 72,
+   "media": null,
+   "subline": "THEIR ESSAYS TALKED ABOUT MADAGASCAR"
+  },
+  {
+   "type": "content",
+   "headline": "<em>HE BURIED SECRET INSTRUCTIONS</em> IN INVISIBLE WHITE TEXT",
+   "hsize": 92,
+   "body": "<b>Dr. Jason Gibson</b> at <b>Alcorn State University</b> typed hidden instructions into his Industrial Revolution midterm using white font on a white background. Students couldn't see the text, but when they pasted the question into <b>ChatGPT</b>, the AI read every word. The instructions told the AI to weave in random nonsense about <b>Madagascar</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE ESSAYS CAME BACK <em>RAMBLING ABOUT MADAGASCAR</em>",
+   "hsize": 96,
+   "body": "Students turned in Industrial Revolution papers containing lines like <b>\"Madagascar floats sideways through the afternoon\"</b> and <b>\"Madagascar purple bicycle whispers to the ceiling\"</b> buried between real paragraphs. <b>32 out of 35</b> students across two classes had the exact same gibberish scattered through their essays",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>ALL 32 FAILED</em> AND ONLY 2 FOUGHT BACK",
+   "hsize": 96,
+   "body": "Every student caught with Madagascar references <b>failed that portion of the midterm</b> on the spot. <b>Dr. Gibson</b> posted the results on <b>TikTok</b> where the video went viral. When confronted face to face, only <b>2 out of 32</b> students even tried to contest their grade",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THESE STUDENTS <em>COPIED AI THE WAY MOST WORKERS DO</em>",
+   "hsize": 88,
+   "body": "A <b>Brown University</b> professor watched midterm averages jump from <b>65%</b> to <b>96%</b> once students could take exams home with AI. Nobody learned more, they just copied without reading. If your team pastes client work into ChatGPT the same way, you're one weird sentence away from sending nonsense to a paying customer",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "DAILY AI NEWS <em>THAT ACTUALLY MATTERS</em>",
+   "hsize": 110,
+   "body": "Follow @yaffeai so you never miss a story like this",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how one professor caught almost his entire class cheating with ChatGPT using one invisible trick \ud83d\udc40\n\nDr. Jason Gibson hid white text instructions inside his Industrial Revolution midterm, the hidden words told ChatGPT to include nonsense about Madagascar, 32 out of 35 students turned in essays with lines like 'Madagascar purple bicycle whispers to the ceiling,' all 32 failed that portion of the test, only 2 students even contested their grade, Gibson posted it all on TikTok where it went viral\n\nAI cheating has been a problem since 2024, and professors are getting creative. If students can't read what AI writes for them, imagine what's happening with client work at real businesses right now.\nRunning a business? DM us \"AI\" and we'll show you how to use AI without the purple bicycles\n\nSources: TechSpot, Rob Thubron\n\n#AIcheating #ChatGPT #education #artificialintelligence #college",
+ "hook_tournament": {
+  "candidates": [
+   "A professor just <em>hid an invisible trap</em> inside his midterm and <em>32 students</em> never saw it coming.",
+   "Students just <em>submitted essays</em> about <em>Madagascar purple bicycles</em> on a history midterm and didn't question it.",
+   "<em>32 STUDENTS JUST FAILED</em> BECAUSE CHATGPT STARTED RAMBLING ABOUT MADAGASCAR",
+   "A PROFESSOR <em>SECRETLY TOLD CHATGPT TO EXPOSE</em> HIS CHEATING STUDENTS",
+   "One professor just <em>proved 32 of his 35 students</em> never read the assignment he gave them.",
+   "A PROFESSOR JUST <em>TRAPPED 32 STUDENTS WITH INVISIBLE TEXT</em> IN THEIR MIDTERM",
+   "This university just <em>caught 32 out of 35 students</em> cheating with AI using one <em>white-font trick</em>.",
+   "A PROFESSOR PLANTED <em>AN INVISIBLE TRAP</em> IN HIS OWN MIDTERM EXAM",
+   "A PROFESSOR <em>HID INSTRUCTIONS IN A MIDTERM</em> THAT ONLY AI COULD SEE",
+   "A history professor just <em>embedded a secret AI instruction</em> in his midterm that <em>exposed almost every student</em>."
+  ],
+  "scores": [
+   8,
+   3,
+   5,
+   6,
+   7,
+   8,
+   6,
+   7,
+   7,
+   5
+  ],
+  "winner": 5
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Professor's invisible prompt trap catches 32/35 students cheating with AI",
+  "link": "https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html"
+ }
+}

@@ -1,0 +1,101 @@
+name: IG health check
+# Runs every morning BEFORE the first posting slot: counts yesterday's
+# published post folders against the 7/day plan (5 carousel slots + 2 reels).
+# Shortfall -> triggers recovery carousel runs (7/day is a must) and opens
+# ONE issue naming exactly what was missed. Catches what per-run alerts
+# can't: hung Mac jobs that never exit, launchd slots skipped while the Mac
+# was asleep, and any alert that fired but went unread.
+
+on:
+  schedule:
+    - cron: "30 5 * * *" # UTC, 90 min before the 07:00 slot
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # insights.json history gets committed daily
+      issues: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Budget watch, all paid APIs (owner rule Jul 28 - never pass silently)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'EOF' > /tmp/budget.txt
+          import json, os, sys
+          from datetime import date
+          sys.path.insert(0, "ig")
+          from genimg import MONTH_BUDGET      # caps live in their modules
+          from radar_x import CAP_READS_MONTH  # (single source of truth)
+          m = str(date.today())[:7]
+          over = []
+          used = json.load(open("ig/genimg-used.json")) if os.path.exists("ig/genimg-used.json") else []
+          img = sum(u["cost"] for u in used if u["date"][:7] == m)
+          print(f"Replicate image-gen: ${img:.2f} of ${MONTH_BUDGET:.2f} cap")
+          if img > MONTH_BUDGET: over.append("image-gen")
+          led = json.load(open("ig/x-used.json")) if os.path.exists("ig/x-used.json") else {}
+          xr = led.get("reads", 0) if led.get("month") == m else 0
+          xcap = CAP_READS_MONTH * 0.15 / 1000
+          print(f"twitterapi.io X radar: ${xr * 0.15 / 1000:.2f} of ${xcap:.2f} cap ({xr:,} reads)")
+          if xr > CAP_READS_MONTH: over.append("x-radar")
+          bu = json.load(open("ig/bundle-used.json")) if os.path.exists("ig/bundle-used.json") else []
+          bn = sum(1 for e in bu if e.get("date", "")[:7] == m)
+          print(f"bundle.social free tier: {bn} of 20 posts")
+          if bn > 20: over.append("bundle")
+          print("OVER: " + ", ".join(over) if over else "ok")
+          EOF
+          cat /tmp/budget.txt
+          if grep -q OVER /tmp/budget.txt; then
+            gh issue create \
+              --title "IG paid-API budget PASSED: $(grep OVER /tmp/budget.txt)" \
+              --body "$(cat /tmp/budget.txt)
+
+          A monthly budget cap is exceeded. Owner rule: passing by \$1-2 is tolerated but he must ALWAYS be told. Check the provider billing page."
+          fi
+
+      - name: Truth Loop, pull real IG numbers (bundle.social analytics)
+        # account snapshots (followers/impressions, refreshed daily by bundle)
+        # + per-reel saves/shares. History accumulates in ig/insights.json so
+        # learn.py can join predictions against reality.
+        env:
+          BUNDLE_API_KEY: ${{ secrets.BUNDLE_API_KEY }}
+        run: |
+          if [ -z "$BUNDLE_API_KEY" ]; then echo "BUNDLE_API_KEY secret not set — skipped"; exit 0; fi
+          cd ig
+          python3 insights.py
+          git config user.name "ig-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add insights.json
+          if git commit -m "insights: daily IG truth-loop numbers"; then
+            git pull --rebase --autostash
+            git push
+          else
+            echo "no new insight data"
+          fi
+
+      - name: Count yesterday's posts vs plan
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          Y=$(date -u -d yesterday +%F)
+          total=$(ls -d ig/posts/$Y-* 2>/dev/null | wc -l)
+          reels=$(ls -d ig/posts/$Y-reel-* 2>/dev/null | wc -l)
+          echo "$Y: $total total ($reels reels, $((total-reels)) carousels) — plan is 7 (2 reels + 5 carousels)"
+          missing=$((7 - total))
+          if [ "$missing" -le 0 ]; then echo "plan met"; exit 0; fi
+          # recovery: fill the gap with extra carousels today (cap 2/day so a
+          # broken counter can never flood the page)
+          fill=$(( missing > 2 ? 2 : missing ))
+          for i in $(seq 1 $fill); do
+            gh workflow run ig-post.yml -f kind=auto
+            sleep 5
+          done
+          gh issue create \
+            --title "IG health: only $total/7 posts on $Y" \
+            --body "Yesterday $Y published $total posts ($reels of 2 reels, $((total-reels)) of 5 carousels).
+          Triggered $fill recovery carousel run(s) just now.
+          If reels were missed: check /tmp/ig-reel.log on the Mac (launchd skips slots while asleep; a hung yt-dlp never exits and never alerts)."

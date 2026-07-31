@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "PERPLEXITY JUST DROPPED A <em>$200/MONTH AI WORKER</em> ON YOUR PC",
+   "hsize": 72,
+   "media": "posts/2026-07-28-perplexity-s-personal-computer-turns-win/cand-3.jpg",
+   "subline": "IT READS EVERYTHING ON YOUR MACHINE"
+  },
+  {
+   "type": "content",
+   "headline": "PERPLEXITY <em>DROPPED AN AI WORKER INSIDE YOUR PC</em>",
+   "body": "The tool is called <b>Personal Computer</b> and it works like a digital employee sitting at your desk. You type what you need in plain words and it opens your files, writes <b>documents</b>, updates <b>spreadsheets</b>, and sends <b>emails</b>. It hit <b>Mac in April</b> and just expanded to <b>Windows</b>",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "IT WARNS YOU <em>BEFORE TOUCHING YOUR EMAILS</em>",
+   "body": "<b>Perplexity</b> says the AI notifies you before anything sensitive, like <b>sending an email</b> or <b>deleting a file</b>. The company promises it <b>never trains on your data</b>. It also plugs into <b>Microsoft 365</b> and <b>Teams</b>, so it works across your local files and cloud apps in one place",
+   "hsize": 98,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>$200 A MONTH</em> PRICED OUT EVERYONE BUT YOUR BOSS",
+   "body": "Only <b>Max</b> and <b>Enterprise Max</b> subscribers get access, starting at <b>$200 per month</b>. That price means it's built for companies to give their employees, not for regular people. Perplexity calls it a <b>'general-purpose digital worker'</b> built for messy everyday office tasks",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>AI ALREADY TOOK OVER</em> THE BUSIEST DESK IN YOUR OFFICE",
+   "body": "<b>Documents, emails, and spreadsheets</b> eat most of an office day. AI tools already handle all of it <b>without hiring anyone new</b>. Most businesses haven't set this up yet, and the ones that move first get an edge <b>before everyone else catches on</b>",
+   "hsize": 82,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "DAILY AI NEWS <em>THAT ACTUALLY MATTERS</em>",
+   "body": "Save this. Send it to someone who lives in spreadsheets all day",
+   "hsize": 110,
+   "media": null
+  }
+ ],
+ "caption": "Perplexity just gave AI full control of your Windows PC. Swipe to see what it does and what it costs \ud83d\udcbb\n\nPerplexity's Personal Computer tool hits Windows, an AI that opens your files, writes documents, updates spreadsheets, sends emails, and plugs into Microsoft 365 and Teams, all controlled by plain words. Only available to paying subscribers at $200 per month, with built-in warnings before sensitive actions like sending emails or deleting files.\n\nAI tools that control your entire desktop are here. The $200 price tag means your company decides if you get one, but the same idea already works for any business with the right setup.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: The Verge\n\n#AI #Perplexity #Windows #Automation #TechNews",
+ "hook_tournament": {
+  "candidates": [
+   "Perplexity just called its newest AI <em>Personal Computer</em> \u2014 and the name <em>isn't</em> a joke.",
+   "Perplexity just <em>shipped</em> the Windows AI tool Microsoft has been <em>promising</em> for years.",
+   "YOUR WINDOWS PC JUST GOT <em>AN AI THAT SENDS YOUR EMAILS</em>",
+   "Perplexity just made it possible to <em>run</em> your entire Windows PC with a single <em>sentence</em>.",
+   "<em>AN AI JUST TOOK OVER</em> THE WINDOWS DESKTOP",
+   "PERPLEXITY JUST DROPPED A <em>$200/MONTH AI WORKER</em> ON YOUR PC",
+   "Perplexity just gave AI <em>full access</em> to every file on your Windows PC.",
+   "PEOPLE ARE PAYING <em>$200 A MONTH</em> TO LET AI RUN THEIR PC",
+   "Perplexity just built something <em>no one</em> has ever shipped \u2014 an AI that <em>operates</em> your entire PC.",
+   "PERPLEXITY JUST HANDED AI <em>FULL CONTROL OF YOUR WINDOWS PC</em>"
+  ],
+  "scores": [
+   3,
+   5,
+   2,
+   5,
+   6,
+   8,
+   6,
+   5,
+   4,
+   6
+  ],
+  "winner": 5
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Perplexity\u2019s Personal Computer turns Windows PCs into AI agents",
+  "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents"
+ }
+}

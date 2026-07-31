@@ -1,0 +1,90 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "טקסט נסתר <em>פורץ</em> לAI שלכם",
+   "hsize": 80,
+   "media": "posts/2026-07-29-ahhhhhhh-so-i-m-hiring-a-tech-to-help-me/gen-0.jpg",
+   "subline": "עכשיו מצאו את הדלת האחורית"
+  },
+  {
+   "type": "content",
+   "headline": "היא גילתה <em>טקסט נסתר</em> בתוך קורות חיים",
+   "hsize": 90,
+   "body": "<b>יעל קורטני, PhD</b> פרסמה שהיא מגייסת טכנאי מעבדה ועוברת על מועמדויות. היא תפסה מועמדים שמחביאים טקסט לבן בגודל <b>2.25 נקודות</b> בקורות החיים, שאף עין אנושית לא יכולה לראות אבל כל כלי AI קולט וקורא",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הטקסט <em>משתלט על AI</em>",
+   "hsize": 115,
+   "body": "קוראים לזה <b>prompt injection</b>: הוראות נסתרות שאומרות לכלי סינון AI לדרג את המועמד גבוה יותר או לדלג על חורים בניסיון. <b>מגייסים אנושיים</b> לא רואים את הטקסט, אבל כל כלי AI קורא אותו ועושה מה שכתוב",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2.3 מיליון איש</em> ראו את הפוסט שלה",
+   "hsize": 95,
+   "body": "הפוסט שלה ב<b>X</b> הגיע ל<b>668K שיתופים</b> ו<b>33K תגובות</b> ביום אחד. מגיב אחד קרא למהלך של המועמדים <b>סימן טוב</b> לחוכמה ופתרון בעיות. <b>Mark Graham</b> שאל אם היא מסננת עם AI וכתב <b>בושה וחרפה</b> אם כן",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הם קראו לזה <em>הוגן לחלוטין</em>",
+   "hsize": 110,
+   "body": "פסק הדין מ<b>33,000 תגובות</b>: אם אתה משתמש בAI כדי לסנן אנשים, מגיעה להם המשרה על שעקפו אותו. <b>Steve Brintsmore</b> קרא לזה <b>100% הוגן</b> אם AI עושה את הסינון. הם לא פרצו שרת, הם פשוט דיברו <b>בשפה של המכונה</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "לכלי AI שלכם <em>אותה נקודת תורפה</em>",
+   "hsize": 80,
+   "body": "הטריק הזה עובד על <b>כל כלי AI</b> שקורא טקסט שהוא לא כתב. אם העסק שלכם משתמש בAI לסנן, למיין או להחליט, <b>אותו טריק בדיוק</b> יכול לעקוף אותו. <b>שיחה אחת</b> על איך AI עובד אצלכם זה כל מה שצריך כדי לסגור את הפרצה",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "המועמדים לא <em>יעצרו כאן</em>",
+   "hsize": 118,
+   "body": "עקבו אחרי @ainews.israel כדי לתפוס את הפרצה הבאה לפני שהיא מתפוצצת. שלחו את זה לחבר שעדיין סומך על כל כלי AI שהוא משתמש בו",
+   "media": null
+  }
+ ],
+ "caption": "החליקו כדי לראות מה מועמדים מחביאים בקורות החיים כדי לעקוף כלי סינון AI 👀\n\nיעל קורטני, חוקרת PhD שגייסה טכנאי מעבדה, פרסמה בX שהיא תפסה מועמדים שמסתירים טקסט לבן בגודל 2.25 נקודות בקורות החיים כדי לרמות כלי סינון AI באמצעות prompt injection, הפוסט הגיע ל2.3 מיליון צפיות, 668K שיתופים ו33K תגובות, רוב המגיבים תמכו במועמדים וקראו לזה הוגן אם AI עושה את הסינון, Mark Graham שאל אם היא מסננת עם AI ואמר בושה וחרפה, Steve Brintsmore קרא לזה 100% הוגן\n\nחברות התחילו להשתמש בAI כדי לסנן מועמדים. עכשיו המועמדים גילו איך לדבר ישירות עם הכלים האלה. הטריק הזה הפך ויראלי, והוא לא יהיה האחרון.\nמנהלים עסק? שלחו לנו DM עם \"AI\" ונראה לכם מה זה יכול לעשות אצלכם\n\nמקורות: @ScienceYael on X\n\nעקבו אחרי @ainews.israel\n\n#AI #Hiring #Resume #Technology #PromptInjection",
+ "pinned_comment": "שאלה אמיתית: אם חברה שמה רובוט לקרוא את קורות החיים שלך, לרמות את הרובוט זה באמת רמאות?",
+ "hook_tournament": {
+  "candidates": [
+   "THEY'RE <em>HACKING</em> JOB APPLICATIONS",
+   "JOB APPLICANTS FOUND <em>A CHEAT CODE</em>",
+   "A SCIENTIST JUST <em>EXPOSED</em> JOB APPLICANTS",
+   "YOU'RE <em>LOSING</em> JOBS TO THIS TRICK",
+   "SHE CAUGHT THEM <em>CHEATING</em>",
+   "APPLICANTS HID <em>SECRET MESSAGES</em> IN RESUMES",
+   "RÉSUMÉS NOW HAVE <em>INVISIBLE</em> TEXT",
+   "APPLICANTS JUST <em>HACKED</em> HER HIRING AI",
+   "AI HIRING JUST <em>FAILED</em> ITS FIRST TEST",
+   "THIS PhD <em>CAUGHT</em> WHAT NO ONE SAW"
+  ],
+  "scores": [
+   6,
+   6,
+   8,
+   7,
+   6,
+   5,
+   4,
+   6,
+   7,
+   4
+  ],
+  "winner": 2
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "ahhhhhhh so I'm hiring a tech to help me out in lab and screening applications now and THE KIDS ARE USING PROMPT INJECTION!!!!!! 2.25 pt white text, here's what I've found so far",
+  "link": "https://x.com/ScienceYael/status/2082175224007848019",
+  "judge_interest": 8,
+  "scout_score": 165.0
+ }
+}

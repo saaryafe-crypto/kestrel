@@ -1,0 +1,9 @@
+Swipe → 5 things AI does for free that most people are still paying someone to do 🤖
+
+1) photograph anything with the free ChatGPT app and get an expert-level explanation in 10 seconds, 2) upload any contract or lease to Claude and get every risky clause flagged in plain English, 3) switch ChatGPT into voice mode and have a full two-way spoken conversation with it like a phone call with someone who knows everything, 4) describe the website you want to Claude and get real working code in under a minute, 5) export your bank statement as a CSV and ask AI where your money went — it reads every transaction and answers in seconds
+
+Most people still think of AI as a fancier search engine. These five things are closer to a personal lawyer, developer, and financial analyst in your pocket — all free. Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: Anthropic (Claude), OpenAI (ChatGPT), Netlify
+
+#artificialintelligence #chatgpt #claude #aitools #smallbusiness

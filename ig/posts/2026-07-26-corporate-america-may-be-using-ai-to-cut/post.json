@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE <em>AI JOB APOCALYPSE</em> JUST GOT <em>DEBUNKED</em> \u2014 SMALL BUSINESSES ARE USING IT TO KEEP WORKERS, NOT CUT THEM",
+   "hsize": 58,
+   "media": "posts/2026-07-26-corporate-america-may-be-using-ai-to-cut/media.jpg",
+   "subline": "THE PLOT TWIST BIG TECH IGNORED"
+  },
+  {
+   "type": "content",
+   "headline": "THE <em>REAL</em> AI JOBS STORY",
+   "body": "A new <b>Guardian</b> investigation finds that reports of wide-scale AI job replacement are overblown. <b>Large corporations</b> are using AI to trim headcount \u2014 but <b>small businesses</b> are doing the opposite, deploying it to extend what their workers can do and keep their teams intact",
+   "hsize": 112,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "WHAT THIS MEANS FOR <em>YOUR</em> BUSINESS",
+   "body": "If you run a small business, AI is not a layoff tool \u2014 it's a force multiplier. One person doing the work of three isn't a cost cut, it's a competitive edge. The businesses winning right now aren't replacing people \u2014 they're replacing limitations. That's the consulting opportunity most owners are still sleeping on",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "FOLLOW FOR DAILY <em>AI NEWS</em>",
+   "body": "Daily AI news that actually matters for your business \u2014 follow @yaffeai so you never miss the signal in the noise",
+   "hsize": 112,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see who's actually winning with AI right now \ud83d\udc47\n\nThe Guardian's new findings that mass AI job replacement fears are overblown, how corporate America compares to small businesses, the force-multiplier approach small teams are taking, and what it means for your bottom line\n\nThe AI jobs story most people are missing: big corps dominate the headlines with layoffs, but small businesses are quietly using AI to amplify their teams, not shrink them. The real divide isn't human vs. AI \u2014 it's big corp vs. small business strategy.\n\nSources: The Guardian\n\n#AINews #SmallBusiness #FutureOfWork #ArtificialIntelligence #AIJobs",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Corporate America may be using AI to cut jobs, but small businesses are using it to keep them",
+  "link": "https://www.theguardian.com/business/2026/jul/26/small-businesses-ai"
+ }
+}

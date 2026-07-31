@@ -1,0 +1,98 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A $600 MILLION MAN SAID <em>YOU DON'T NEED SAVINGS</em>",
+   "hsize": 76,
+   "subline": "HE RUNS YOUR COUNTRY'S MONEY",
+   "media": "posts/2026-07-31-treasury-secretary-scott-bessent-ripped-/cand-1.png"
+  },
+  {
+   "type": "content",
+   "headline": "THE TREASURY SECRETARY SAID <em>STOP SAVING</em>",
+   "hsize": 92,
+   "body": "<b>Scott Bessent</b> went on national TV and said Americans will soon be able to skip retirement savings entirely. His argument: <b>AI</b> will grow the economy so fast that nobody will need a safety net. He's the man in charge of <b>America's money</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "HE BLAMED <em>EVERYTHING ON AI</em>",
+   "hsize": 115,
+   "body": "<b>Bessent</b> claims AI will generate so much new wealth that the entire concept of saving for old age becomes outdated. No timeline given. No safety net for the <b>millions</b> of Americans who can't afford to wait for a technology that <b>hasn't delivered yet</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE INTERNET <em>DESTROYED HIM</em>",
+   "hsize": 120,
+   "body": "People pointed out <b>Bessent's</b> estimated net worth: around <b>$600 million</b>. One viral reply: \"He, his children, and their children will be just fine.\" Critics say telling people to stop saving is easy when <b>you'll never run out</b>",
+   "media": "posts/2026-07-31-treasury-secretary-scott-bessent-ripped-/cand-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "OWNERS ALREADY <em>CUT 20 HOURS A WEEK</em>",
+   "hsize": 92,
+   "body": "<b>Bessent</b> promises AI will save everyone someday. Smart owners already use <b>AI</b> to handle emails, scheduling, and reports that eat <b>20+ hours a week</b>. No government program, no new hires, no waiting for <b>Washington</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "HE WON'T BE <em>THE LAST</em>",
+   "hsize": 115,
+   "body": "More politicians will use AI as an excuse to cut what you count on. Follow @yaffeai so you see it the day it happens. Send this to the friend who thinks their retirement plan is untouchable",
+   "media": null
+  }
+ ],
+ "caption": "Treasury Secretary Scott Bessent said Americans won't need retirement savings because of AI. Swipe to see what happened next \ud83d\udd25\n\nScott Bessent's claim that AI will make retirement savings pointless, his argument for why the economy won't need safety nets, the $600 million net worth detail that made the backlash explode, the viral comment everyone shared, and what businesses are actually doing with AI right now instead of waiting on politicians\n\nGovernment officials are pointing at AI as a reason to pull back safety nets. The businesses winning aren't waiting on Washington, they're using AI to save hours every week.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Comic Sands\n\n#AI #RetirementSavings #ScottBessent #Technology #TechNews",
+ "pinned_comment": "A guy worth $600 million telling regular people they won't need savings. Would you take diet advice from someone who's never been hungry?",
+ "handle": "@yaffeai",
+ "story": {
+  "title": "Treasury Secretary Scott Bessent Ripped After Claiming Americans Soon Won't Need Retirement Savings Thanks To AI",
+  "link": "https://www.comicsands.com/bessent-musk-ai-retirement-savings",
+  "judge_interest": 8,
+  "scout_score": 111.0
+ },
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "YOUR 401K JUST GOT <em>CALLED POINTLESS</em>",
+   "THE TREASURY SECRETARY SAID <em>STOP SAVING</em>",
+   "WASHINGTON JUST CALLED <em>YOUR RETIREMENT USELESS</em>",
+   "YOUR RETIREMENT SAVINGS WERE JUST CALLED <em>UNNECESSARY</em>",
+   "THE GOVERNMENT JUST BET YOUR RETIREMENT ON <em>AI</em>",
+   "YOUR RETIREMENT JUST GOT <em>CANCELLED</em>",
+   "THE TREASURY JUST <em>GAVE UP</em> ON YOUR RETIREMENT",
+   "AI JUST <em>REPLACED</em> YOUR RETIREMENT PLAN",
+   "HE SAID YOU DON'T <em>NEED</em> RETIREMENT ANYMORE",
+   "A $600 MILLION MAN SAID <em>YOU DON'T NEED SAVINGS</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   8,
+   7,
+   6,
+   8,
+   5,
+   7,
+   7,
+   9
+  ],
+  "winner": 9,
+  "why": "The class betrayal is baked into the headline itself \u2014 a $600M man telling you savings are unnecessary is the whole story in one punch, no swipe needed. Runner-up [5] lands the same irony but 'CANCELLED' slightly overstates what happened, while [9] just quotes the outrage directly and lets the math do the work."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Scott Bessent",
+  "actor_known": false,
+  "anchor": "your retirement savings",
+  "specifics": [
+   "The US Treasury Secretary said Americans soon won't need retirement savings thanks to AI",
+   "Scott Bessent is the sitting Treasury Secretary making this claim",
+   "He got massively ripped online for the statement",
+   "The claim implies government policy may deprioritize retirement safety nets",
+   "He attributed the reasoning entirely to AI-driven economic gains"
+  ]
+ },
+ "container": "daily_item"
+}

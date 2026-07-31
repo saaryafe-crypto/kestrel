@@ -1,0 +1,9 @@
+Swipe to see the open-source OS that could make datacenters optional for frontier AI 🖥️
+
+What's inside: the full HART OS story starting with hertz-ai's core claim that frontier AI never needs a datacenter, then the 9 open-source modules making up the stack, how the local agent ledger and memory system replace cloud APIs, the 9-person team that just launched on Hacker News, what it means if AI infrastructure leaves the cloud entirely, and what businesses with sensitive data or high-volume AI workloads should be doing right now.
+
+The cloud AI infrastructure market is built on one assumption: frontier models need someone else's hardware. HART OS is the first open-source bet against that assumption. Whether it scales or not, the architecture signals a coming shift every AI-heavy business should plan for.
+
+Sources: Hacker News, GitHub (hertz-ai/HARTOS)
+
+#artificialintelligence #opensource #AIinfrastructure #machinelearning #AItools

@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "CHATGPT <em>JUST REUNITED A LONG-LOST FAMILY</em> AFTER ONE MESSAGE ASKED IT TO <em>FIND THE MOTHER THEY NEVER KNEW</em>",
+   "hsize": 58,
+   "media": "posts/2026-07-26-i-thought-i-ve-tried-everything-else-why/media.jpg",
+   "subline": "EVERYTHING ELSE HAD ALREADY FAILED"
+  },
+  {
+   "type": "content",
+   "headline": "<em>'Why not give AI a shot?'</em>",
+   "hsize": 92,
+   "body": "After trying everything else, one family member typed a single question into <b>ChatGPT</b>: can you find the mother I never knew. The search worked \u2014 <b>The Guardian</b> reports the long-lost family is now reunited",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AI finds what <em>humans gave up on</em>",
+   "hsize": 90,
+   "body": "The same models that cracked a search a family had abandoned can dig through your records, contracts and customer data in minutes. Businesses handing <b>AI</b> their impossible problems are getting answers everyone else quit on",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "Follow for daily <em>AI news</em>",
+   "hsize": 110,
+   "body": "Daily AI stories, tools and real-world wins \u2014 see them before your competitors do",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how one message to ChatGPT ended a lifelong search \u2014 and what that same power does for a business \ud83e\uddf5\n\nThe prompt 'Can you find the mother I never knew?', the family that had already tried everything else before giving AI a shot, how the ChatGPT-assisted search led to a real reunion after every traditional route failed, and the business takeaway: AI can now crack the searches and data problems humans have given up on.\n\nAI just crossed from novelty chatbot to solving problems people had abandoned for good. When a consumer tool reunites a family that professionals and databases couldn't, the same capability pointed at business data stops being optional.\n\nSources: The Guardian\n\n#ai #chatgpt #artificialintelligence #technology #tech",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "\u2018I thought, I\u2019ve tried everything else, why not give AI a shot?\u2019: the long-lost family reunited by ChatGPT",
+  "link": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/jul/25/long-lost-family-reunited-chatgpt-artificial-intelligence-ai"
+ }
+}

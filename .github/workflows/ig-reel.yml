@@ -1,0 +1,40 @@
+name: IG reel publish
+# Publishes an already-built reel (video in the media repo, reel.json in
+# ig/posts/<post>) to Instagram via the Make webhook's reel route.
+# Triggered by reel.py after it pushes the video, or manually.
+
+on:
+  workflow_dispatch:
+    inputs:
+      post:
+        description: "post dir name, e.g. 2026-07-26-reel-XXXXXXXX"
+        required: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish reel to Instagram
+        env:
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
+          BUNDLE_API_KEY: ${{ secrets.BUNDLE_API_KEY }}
+        run: |
+          POST="${{ github.event.inputs.post }}"
+          test -f "ig/posts/$POST/reel.json"
+          python3 ig/post.py "ig/posts/$POST" \
+            "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/$POST"
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "IG reel publish FAILED $(date -u '+%Y-%m-%d %H:%M UTC')" \
+            --body "Post: ${{ github.event.inputs.post }} — logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

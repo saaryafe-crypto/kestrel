@@ -1,0 +1,119 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שר אוצר <em>עם $600M</em> אומר לוותר על פנסיה",
+   "hsize": 76,
+   "subline": "הסיבה שלו? AI. ברצינות",
+   "media": "posts/2026-07-31-treasury-secretary-scott-bessent-ripped-/cand-1.png"
+  },
+  {
+   "type": "content",
+   "headline": "שר האוצר האמריקאי אמר <em>תפסיקו לחסוך</em>",
+   "hsize": 92,
+   "body": "<b>Scott Bessent</b> עלה לטלוויזיה הלאומית ואמר שאמריקאים יוכלו בקרוב לוותר לגמרי על חיסכון לפנסיה. הטיעון שלו: <b>AI</b> יצמיח את הכלכלה כל כך מהר שאף אחד לא יצטרך רשת ביטחון. הוא האיש שאחראי על <b>הכסף של אמריקה</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הוא הטיל את <em>הכל על AI</em>",
+   "hsize": 115,
+   "body": "<b>Bessent</b> טוען ש-AI ייצר כל כך הרבה עושר חדש שכל הקונספט של לחסוך לזקנה יהפוך למיושן. בלי לוח זמנים. בלי רשת ביטחון ל<b>מיליוני</b> אמריקאים שלא יכולים להרשות לעצמם לחכות לטכנולוגיה ש<b>עדיין לא סיפקה את הסחורה</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "האינטרנט <em>קרע אותו</em>",
+   "hsize": 120,
+   "body": "אנשים הזכירו שההון של <b>Bessent</b> מוערך בסביבות <b>$600 מיליון</b>. תגובה אחת שהתפוצצה ברשת: \"הוא, הילדים שלו, והנכדים שלו יסתדרו מעולה.\" מבקרים אומרים שקל להגיד תפסיקו לחסוך כש<b>לך לעולם לא ייגמר הכסף</b>",
+   "media": "posts/2026-07-31-treasury-secretary-scott-bessent-ripped-/cand-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "בעלי עסקים כבר <em>חוסכים 20 שעות בשבוע</em>",
+   "hsize": 92,
+   "body": "<b>Bessent</b> מבטיח ש-AI יציל את כולם יום אחד. בעלי עסקים חכמים כבר משתמשים ב-<b>AI</b> לטפל במיילים, תיאום פגישות ודוחות שבולעים <b>20+ שעות בשבוע</b>. בלי תוכנית ממשלתית, בלי עובדים חדשים, בלי לחכות ל<b>וושינגטון</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "הוא לא יהיה <em>האחרון</em>",
+   "hsize": 115,
+   "body": "עוד פוליטיקאים ישתמשו ב-AI כתירוץ לחתוך דברים שאתם סומכים עליהם. עקבו אחרי @ainews.israel כדי לדעת על זה ביום שזה קורה. תשלחו את זה לחבר שחושב שהפנסיה שלו בטוחה",
+   "media": null
+  }
+ ],
+ "caption": "שר האוצר האמריקאי Scott Bessent אמר שאמריקאים לא יצטרכו חיסכון לפנסיה בגלל AI. סוויפו כדי לראות מה קרה אחר כך 🔥\n\nהטענה של Bessent ש-AI יהפוך חיסכון לפנסיה למיותר, הטיעון שלו למה הכלכלה לא תצטרך רשתות ביטחון, הפרט על ההון של $600 מיליון שגרם לתגובות להתפוצץ, התגובה הויראלית שכולם שיתפו, ומה עסקים עושים עם AI עכשיו במקום לחכות לפוליטיקאים\n\nאנשי ממשל מצביעים על AI כסיבה לצמצם רשתות ביטחון. העסקים שמנצחים לא מחכים לוושינגטון, הם משתמשים ב-AI כדי לחסוך שעות כל שבוע.\nמנהלים עסק? שלחו לנו \"AI\" בהודעה ונראה לכם מה זה יכול לעשות בשבילכם\n\nמקורות: Comic Sands\n\nעקבו 👉 @ainews.israel\n\n#AI #RetirementSavings #ScottBessent #Technology #TechNews",
+ "pinned_comment": "בן אדם עם $600 מיליון אומר לאנשים רגילים שהם לא יצטרכו חסכונות. הייתם לוקחים עצות דיאטה ממישהו שמעולם לא היה רעב?",
+ "handle": "@ainews.israel",
+ "story": {
+  "title": "Treasury Secretary Scott Bessent Ripped After Claiming Americans Soon Won't Need Retirement Savings Thanks To AI",
+  "link": "https://www.comicsands.com/bessent-musk-ai-retirement-savings",
+  "judge_interest": 8,
+  "scout_score": 111.0
+ },
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "YOUR 401K JUST GOT <em>CALLED POINTLESS</em>",
+   "THE TREASURY SECRETARY SAID <em>STOP SAVING</em>",
+   "WASHINGTON JUST CALLED <em>YOUR RETIREMENT USELESS</em>",
+   "YOUR RETIREMENT SAVINGS WERE JUST CALLED <em>UNNECESSARY</em>",
+   "THE GOVERNMENT JUST BET YOUR RETIREMENT ON <em>AI</em>",
+   "YOUR RETIREMENT JUST GOT <em>CANCELLED</em>",
+   "THE TREASURY JUST <em>GAVE UP</em> ON YOUR RETIREMENT",
+   "AI JUST <em>REPLACED</em> YOUR RETIREMENT PLAN",
+   "HE SAID YOU DON'T <em>NEED</em> RETIREMENT ANYMORE",
+   "A $600 MILLION MAN SAID <em>YOU DON'T NEED SAVINGS</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   8,
+   7,
+   6,
+   8,
+   5,
+   7,
+   7,
+   9
+  ],
+  "winner": 9,
+  "why": "The class betrayal is baked into the headline itself — a $600M man telling you savings are unnecessary is the whole story in one punch, no swipe needed. Runner-up [5] lands the same irony but 'CANCELLED' slightly overstates what happened, while [9] just quotes the outrage directly and lets the math do the work."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Scott Bessent",
+  "actor_known": false,
+  "anchor": "your retirement savings",
+  "specifics": [
+   "The US Treasury Secretary said Americans soon won't need retirement savings thanks to AI",
+   "Scott Bessent is the sitting Treasury Secretary making this claim",
+   "He got massively ripped online for the statement",
+   "The claim implies government policy may deprioritize retirement safety nets",
+   "He attributed the reasoning entirely to AI-driven economic gains"
+  ]
+ },
+ "container": "daily_item",
+ "hook_tournament_he": {
+  "story_type": "threat",
+  "candidates": [
+   "שר האוצר האמריקאי: <em>לא תצטרכו פנסיה</em> בגלל AI",
+   "AI הולך <em>למחוק</em> את הפנסיה שלכם, לפי וושינגטון",
+   "אמריקה חושבת ש<em>הפנסיה שלכם מיותרת</em> בגלל AI",
+   "שר אוצר <em>עם $600M</em> אומר לוותר על פנסיה",
+   "בן אדם עם $600 מיליון אמר <em>שלא צריך חסכונות</em>",
+   "<em>הפנסיה שלכם</em> על הכוונת, הפעם בגלל AI"
+  ],
+  "scores": [
+   8,
+   7,
+   4,
+   9,
+   8,
+   7
+  ],
+  "winner": 3,
+  "why": "הציניות מגיעה בשורה הראשונה — שר אוצר עם 600 מיליון אומר לך לוותר על פנסיה, ואתה כבר מבין למה זה מגוחך לפני שקראת עוד מילה. ה'ברצינות' בסאבליין הוא אנושי ומפתיע — זה בדיוק מה שחבר שלך היה שולח לך בוואטסאפ, לא כותרת שיווקית."
+ }
+}

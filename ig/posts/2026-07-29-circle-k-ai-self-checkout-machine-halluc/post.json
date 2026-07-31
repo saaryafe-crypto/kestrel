@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AN AI <em>CHARGED</em> SOMEONE $8.5 BILLION",
+   "hsize": 76,
+   "media": "posts/2026-07-29-circle-k-ai-self-checkout-machine-halluc/gen-0-r.jpg",
+   "subline": "IT WAS GOING TO THE RED CROSS"
+  },
+  {
+   "type": "content",
+   "headline": "A CIRCLE K CHECKOUT <em>SNAPPED</em>",
+   "hsize": 115,
+   "body": "A Reddit user says a <b>Circle K</b> self-checkout AI tried to process a charge worth <b>billions</b> that nobody asked for. The post hit <b>nearly 20,000 upvotes</b> in under <b>9 hours</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "IT PICKED <em>THE RED CROSS</em>",
+   "hsize": 115,
+   "body": "The post says the AI decided the customer owed <b>$8.5 billion</b> to the <b>Red Cross</b>. The machine picked the charity, picked the amount, and created the entire donation in <b>one made-up transaction</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "CHECKOUT NEVER <em>NEEDED AI</em>",
+   "hsize": 120,
+   "body": "<b>Thousands</b> of comments asked: why put AI in a checkout? It scans items, adds prices, and takes your card. That's it. <b>Zero</b> thinking required",
+   "media": "posts/2026-07-29-circle-k-ai-self-checkout-machine-halluc/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "AI BROKE <em>WHAT ALREADY WORKED</em>",
+   "hsize": 110,
+   "body": "The businesses winning with AI aren't putting it at checkout. They put it where <b>humans waste hours every week</b> on emails, scheduling, and reports. That's where AI turns from a <b>headline embarrassment</b> to a real edge",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "THIS MACHINE IS <em>STILL RUNNING</em>",
+   "hsize": 110,
+   "body": "Companies are shoving AI into everything that already works. Follow @yaffeai, you'll want to see who's next. Send this to anyone who uses self-checkout",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see what happened when a self-checkout AI decided to think for itself \ud83e\udd16\n\nA Reddit user says a Circle K self-checkout machine with AI tried to process a payment of over $8.5 billion to the Red Cross, a transaction the customer never requested, and the post blew up to nearly 20,000 upvotes in 9 hours with thousands asking why AI is being shoved into a process that already works.\n\nCompanies are racing to add AI to everything, but the ones making real money put it where humans waste hours, not where a scanner already does the job.\nRunning a business? DM us \"AI\" and we'll show you where it actually belongs in yours.\n\nSources: Reddit r/mildlyinfuriating\n\n#AI #Technology #SelfCheckout #ArtificialIntelligence #TechNews",
+ "hook_tournament": {
+  "candidates": [
+   "CIRCLE K JUST <em>TERRIFIED</em> EVERY SHOPPER",
+   "A CHECKOUT TRIED TO <em>TAKE BILLIONS</em>",
+   "AN AI CHARGED SOMEONE <em>$8.5 BILLION</em>",
+   "CIRCLE K'S AI JUST <em>SNAPPED</em>",
+   "A SELF-CHECKOUT JUST <em>WENT ROGUE</em>",
+   "A MACHINE JUST <em>GAVE AWAY BILLIONS</em>",
+   "CIRCLE K JUST <em>BILLED</em> ONE CUSTOMER <em>BILLIONS</em>",
+   "AN AI JUST <em>HALLUCINATED</em> A CUSTOMER'S BILL",
+   "<em>AI</em> CHECKOUT JUST <em>TURNED</em> ON ITS OWN CUSTOMER",
+   "A <em>SELF-CHECKOUT</em> JUST TRIED TO <em>BANKRUPT</em> A SHOPPER"
+  ],
+  "scores": [
+   6,
+   7,
+   6,
+   7,
+   6,
+   5,
+   6,
+   5,
+   8,
+   7
+  ],
+  "winner": 8
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Circle K \u201cAI\u201d self-checkout machine \u201challucinated\u201d that I wanted to pay over $8.5 Billion to the Red Cross\u2026",
+  "link": "https://old.reddit.com/r/mildlyinfuriating/comments/1v9ko2q/circle_k_ai_selfcheckout_machine_hallucinated/"
+ }
+}

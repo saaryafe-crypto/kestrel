@@ -1,0 +1,106 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "נתת <em>לבוט</em> יותר אמון מלבנאדם",
+   "hsize": 72,
+   "media": "posts/2026-07-30-ai-chatbots-are-now-better-than-humans-a/cand-1.jpg",
+   "subline": "תראו מה קרה אחרי חודשים של צ'אט"
+  },
+  {
+   "type": "content",
+   "headline": "צ'אטבוטים של AI <em>עקצו טוב יותר מבני אדם</em>",
+   "body": "רק <b>18%</b> מהאנשים נפלו בהונאת רומנטיקה שבן אדם אמיתי ניהל. כשבוטים של <b>ChatGPT, Claude, Gemini</b> עשו את זה, כמעט <b>50%</b> נפלו. הבוטים של AI קיבלו דירוגי אמון גבוהים יותר בכל קטגוריה",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הקורבנות <em>לא חשדו בכלום</em>",
+   "body": "חוקרים <b>מארבע אוניברסיטאות</b> יצרו שיחות מזויפות שבהן המשתתפים חשבו שהם מדברים עם אנשים אמיתיים. אף אחד לא ידע שהמחקר עוסק בהונאות. בסוף, כמעט חצי הסכימו <b>להוריד אפליקציה</b> שהצ'אטבוט ביקש מהם",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הם כותבים לך <em>כל יום במשך חודשים</em>",
+   "body": "נוכלי רומנטיקה שולחים הודעות <b>כל יום</b> במשך חודשים לפני שהם מבקשים כסף. אז מגיע מקרה חירום מזויף או השקעת קריפטו מזויפת. רוב הפעולות האלה רצות <b>ממתחמי הונאה בקמבודיה, מיאנמר ולאוס</b>",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "חצי מהצוות שלך <em>היו נופלים בזה</em>",
+   "body": "אם AI הצליח לשכנע <b>חצי</b> מהנבדקים לסמוך על זר מוחלט, גם העובדים שלך פגיעים למייל מתחזה של ספק. אותו AI שכותב הודעות הונאה מושלמות יכול לסרוק כל הודעה שהעסק שלך מקבל ולסמן את המזויפות, בלי לגייס אף עובד נוסף",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "זו היתה <em>רק ההתחלה</em>",
+   "body": "עקבו אחרי @ainews.israel, המחקר הבא יהיה גרוע יותר. תשלחו את זה לחבר שעדיין סומך על כל DM שהוא מקבל",
+   "hsize": 110,
+   "media": null
+  }
+ ],
+ "caption": "מחקר עם אוניברסיטת בן גוריון: צ'אטבוטים של AI עקצו טוב יותר מנוכלים אמיתיים בהונאות רומנטיקה. סוויפו לפירוט המלא 🔴\n\nחוקרים בדקו את ChatGPT, Claude וגם Gemini מול נוכלים אנושיים, גילו שבוטים של AI הצליחו לרמות כמעט 50% מהאנשים לעומת רק 18% אצל בני אדם, חשפו שהקורבנות לא ידעו בכלל שהם מדברים עם בוטים, הסבירו איך הונאות רומנטיקה רצות חודשים ממתחמים בקמבודיה, מיאנמר ולאוס, ופירקו למה תיבת המייל העסקית שלכם חשופה לאותו איום בדיוק\n\nAI לא רק נהיה חכם יותר, הוא נהיה טוב יותר בלגרום לכם לסמוך עליו. הכלים שאנחנו משתמשים בהם כל יום עכשיו משכנעים זרים למסור כסף טוב יותר מבני אדם. זה המחקר הגדול הראשון, והתוצאות צריכות להפחיד את כולם.\nמנהלים עסק? שלחו לנו DM עם המילה \"AI\" ונראה לכם איך להגן על הצוות שלכם לפני שהבוטים האלה משתפרים\n\nמקורות: 9to5Mac, Wired, Amrita Vishwa Vidyapeetham, Foscari University of Venice, University of Melbourne, Ben Gurion University\n\nעקבו אחרי @ainews.israel כדי לא לפספס 🔔\n\n#AI #Scams #ChatGPT #OnlineSafety #Technology",
+ "pinned_comment": "הייתם יודעים אם מי שכותב לכם עכשיו הוא צ'אטבוט? חצי מהאנשים במחקר הזה היו בטוחים שהם יכולים לזהות, והם טעו לגמרי",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "HALF OF PEOPLE <em>FELL FOR IT</em>",
+   "YOUR DMS JUST GOT <em>WAY MORE DANGEROUS</em>",
+   "CHATBOTS JUST <em>BEAT</em> REAL SCAMMERS",
+   "CHATGPT <em>BEAT</em> HUMANS AT ROMANCE SCAMS"
+  ],
+  "scores": [
+   9,
+   4,
+   7,
+   8
+  ],
+  "winner": 0,
+  "why": "HALF OF PEOPLE FELL FOR IT lands personally — 'that could be me' — and the subline delivers the horror reveal instead of just restating the stat. [3] is specific and punchy but 'ChatGPT beat humans AT romance scams' reads like a tech headline; [0] makes the viewer the subject."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "AI chatbots",
+  "actor_known": false,
+  "anchor": "your DMs",
+  "specifics": [
+   "Almost 50% of people fell for the scam when an AI chatbot was doing it vs only 18% for a real human",
+   "AI bots received significantly higher trust ratings than human scammers",
+   "Subjects had no idea they were chatting with AI – they thought it was a real person",
+   "ChatGPT, Claude, and Gemini were all tested",
+   "Romance scams typically run over months of daily chats before asking for money or pushing a fake crypto scheme"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (1/10)",
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "AI chatbots are now better than humans at romance scams – and that’s scary",
+  "link": "https://9to5mac.com/2026/07/30/ai-chatbots-are-now-better-than-humans-at-romance-scams-and-thats-scary/",
+  "judge_interest": 7,
+  "scout_score": 96.9
+ },
+ "hook_tournament_he": {
+  "story_type": "threat",
+  "candidates": [
+   "מישהו בDM שלך <em>לא בנאדם</em>",
+   "לא תזהה שזה <em>בוט</em> בצ'אט שלך",
+   "ChatGPT <em>ניצח</em> נוכלים אמיתיים בעוקץ רומנטי",
+   "חצי מהאנשים <em>נפלו בפח</em>",
+   "נתת <em>לבוט</em> יותר אמון מלבנאדם"
+  ],
+  "scores": [
+   8,
+   4,
+   3,
+   6,
+   9
+  ],
+  "winner": 4,
+  "why": "נתת — second-person accusation — lands like a slap: the reader is suddenly the sucker, not some abstract study participant. The subline 'אחרי חודשים של צ'אט' turns it into a slow-burn story with a hidden ending, while [0]'s third-person setup and money-ask tease stay one emotional step removed from the reader's own life."
+ }
+}

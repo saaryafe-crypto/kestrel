@@ -1,0 +1,19 @@
+{
+ "pick": 0,
+ "title": "The way this robot moves shouldn't be possible",
+ "title_candidates": [
+  "The way this robot moves shouldn't be possible",
+  "A Chinese company quietly built the most athletic robot alive",
+  "This robot was built to move faster than any human",
+  "Engineers designed a robot that never gets tired",
+  "What a humanoid robot looks like when it's built for pure speed"
+ ],
+ "caption": "Unitree just showed off a humanoid robot that runs, jumps, and recovers like a trained athlete.\n\nThe AS2-W moves with a speed and smoothness that no other humanoid robot has matched. Every motion looks natural, almost human, except this one never gets tired and never makes the same mistake twice.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: Unitree Robotics. DM for credit or removal\n\n#ai #robot #unitree #technology #robotics",
+ "start_s": 3,
+ "clip_s": 25,
+ "source": "https://www.youtube.com/watch?v=Xha2TJ_1C6Q",
+ "channel": "Unitree Robotics",
+ "publish": "make",
+ "audio_id": null,
+ "audio_title": null
+}

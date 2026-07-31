@@ -1,0 +1,63 @@
+{
+  "_doc": "Container registry. The system fills these on a schedule — it never invents formats. Accent rule everywhere: <em> marks the minimum set of words that communicates the claim standalone; connectives stay white.",
+  "handle": "@yaffeai",
+  "containers": {
+    "daily_recap": {
+      "role": "anchor",
+      "cadence": "daily (one of the 5 daily slots, same time every day)",
+      "slides": "cover (FIXED, identical every day) + 5-9 payload (one story each) + cta — 10-slide carousels measurably outperform short ones",
+      "cover_headline": "WHAT JUST HAPPENED IN <em>AI</em> IN THE LAST <em>24 HOURS?</em>",
+      "cover_subline": "TRENDING IN AI & TECH",
+      "cover_rule": "Cover NEVER changes except the photo collage (2-3 press images side by side). The repetition is the point — @technology runs this identical cover 4+ times a week; followers learn the habit.",
+      "payload_rule": "One story per slide, strongest first: headline = the story's wild claim (JUST-formula, compressed), body = 2 sentences with bold facts. Media card when the press image passes. ALWAYS include one builder/inspiration item when any story qualifies (someone built something with AI/Claude Code and the viewer thinks 'wow, I want to do the same') — it gets the 'WHILE YOU SCROLLED, SOMEONE BUILT...' register.",
+      "why": "The anchor habit format — followers return for it daily; builder slot feeds both funnels (businesses wanting AI + people wanting to build)"
+    },
+    "daily_item": {
+      "role": "volume",
+      "cadence": "4-5x daily",
+      "slides": "cover(story hook) + question-chain payload + pivot + cta (4-10 total — the chain decides, never pad)",
+      "cover_rule": "Single story: hook headline; if source video exists it is slide 2 as native video and cover swipe reads FULL VIDEO NEXT. One CTA only.",
+      "payload_rule": "QUESTION CHAIN: the cover plants a question; every next slide answers exactly that question (big statement headline + precise-details body) and plants the next one. Slide 2 doubles as SECOND COVER (IG re-serves skipped carousels with slide 2 as cover — must hook standalone). Bodies: every sentence a bold fact, ranks/records, famous anchors. Then the VALUE slide ($100M Offers rules: owner's pain first, then the escape with a concrete number, minimal-effort framing, never price) — the consulting funnel lives here."
+    },
+    "builder_story": {
+      "role": "inspiration",
+      "cadence": "2-3x weekly (takes a daily_item slot when a strong story exists)",
+      "slides": "cover + proof + how + engagement cta (4-5 total — measured from the @technology reference example; a tight 4-slide chain, never padded to 7)",
+      "cover_rule": "Hook = PERSON + outrageous concrete outcome with a number + effortless-or-forbidden twist ('A GUY MADE AN APP THAT TEXTED 800 GIRLS ON INSTAGRAM WHILE HE SLEPT'). Photo of the builder or product if available — here a face IS allowed because the story IS the person.",
+      "payload_rule": "Slide 2: PROOF — the product actually existing, doubles as SECOND COVER. Set product_shot: true on this slide when the story names the product's own website (the pipeline screenshots the real page); else the best article image. Headline answers the cover's 'wait, really?'. Slide 3: HOW — the AI stack/leverage + the numbers/timeline, in plain words a 16-year-old gets ('he typed what he wanted in plain English'). Each slide standalone mini-story, bold facts, rank/record framing.",
+      "cta_rule": "ENGAGEMENT CTA, not a follow pill — the reference example ends 'COMMENT \"APP\" AND WE'LL SEND YOU THE LINK'. Ours: invite the reader to comment/DM the exact word AI to get the tool/story link + what AI could do for their business. One concrete promise, no hype.",
+      "audience": "two funnels at once: businesses that want AI implemented, and people who want to build an AI business",
+      "examples": "Medvi (run by one person), solo founders at $1M+ ARR, tiny teams shipping what used to take 50 people"
+    },
+    "ai_education": {
+      "role": "save-magnet",
+      "cadence": "4x weekly (Tue/Thu/Sat/Sun, takes the 17:00 UTC slot)",
+      "slides": "cover (N-promise hook) + 4-7 payload (one skill/story each) + cta (6-9 total)",
+      "cover_rule": "Cover promises a countable payoff with a number: 'N THINGS <TOOL> CAN DO...' or 'A GUY WHO CAN'T CODE BUILT...'. Scarcity subjects and everyday words only — 'a tool where you type plain English and it builds the whole app', never 'CLI' or 'agentic'.",
+      "payload_rule": "Two flavors, per @technology's measured how-to anatomy: (a) SKILL slide — 'N) IMPERATIVE VERB + the thing' headline, one caps sentence on WHY it matters, body = HOW TO in numbered steps 1-3 a total beginner can follow tonight; (b) BUILT-IT slide — a TRUE widely-reported story of a real person who built something (headline DNA: physical past-tense verb + number). NEVER invent people, numbers, or stories — if unsure it happened, use a capability demo instead. CTA = 'SAVE THIS' utility framing (saves are the ER engine for this container).",
+      "audience": "builders funnel + business owners seeing what's possible; the caption owner-CTA still closes with the DM 'AI' line",
+      "topics": "Claude Code powers, free AI powers anyone can use today, zero-coders who shipped real apps, one-sentence builds, AI doing a whole job overnight"
+    }
+  },
+  "media_rule": {
+    "principle": "The media is the visual argument for the headline — it must make the claim before the text is read. Select by the headline's emotional register, not its nouns.",
+    "fallback": "No image that passes -> big-type dark slide. A bad or generic image is worse than none.",
+    "reject": "stock-looking, watermarked, below 1000px wide, caption chips baked in, emotionally flat"
+  },
+  "caption_blocks": [
+    {"block": "hook", "spec": "Swipe instruction + one sentence naming the range of what's inside, exactly one emoji", "max_chars": 160},
+    {"block": "index", "spec": "Dense paragraph, every item named in sequence, comma separated, no line breaks", "max_chars": 600},
+    {"block": "trend", "spec": "Zoom-out paragraph: what it means collectively", "max_chars": 300},
+    {"block": "sources", "spec": "'Sources:' + named organizations, comma separated. Mandatory.", "max_chars": 160},
+    {"block": "hashtags", "spec": "Exactly five broad hashtags", "max_chars": 120}
+  ],
+  "qa_gate": [
+    "Cover hook opens an information gap the reader must swipe to close: specific, true, and incomplete on purpose (names the stakes, withholds the resolution). Zero neutral news phrasing.",
+    "Cover promises a format (or a hook for daily_item), with exactly one CTA instruction",
+    "Accent (<em>) words read as the full claim standalone",
+    "Media matches the claim emotionally; no media that fails the reject list",
+    "Sources line populated",
+    "Critical type inside middle 80% vertically (reshare-safe)",
+    "Caption has all five blocks within ceilings"
+  ]
+}

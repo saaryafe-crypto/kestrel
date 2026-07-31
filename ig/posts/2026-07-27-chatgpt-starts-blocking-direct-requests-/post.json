@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "OpenAI just <em>blocked</em> the one ChatGPT trick you probably used <em>this week</em>.",
+   "hsize": 60,
+   "media": null,
+   "logos": [
+    "openai"
+   ],
+   "subline": "GO TRY IT RIGHT NOW"
+  },
+  {
+   "type": "content",
+   "headline": "<em>CHATGPT</em> REFUSED TO COPY <em>STEPHEN KING'S</em> 'EXACT STYLE'",
+   "hsize": 90,
+   "body": "When <b>Ars Technica</b> asked ChatGPT for a story intro in <b>Stephen King's</b> style, it said it \"can't write in Stephen King's exact style\" but offered text that \"captures a similar feeling.\" It gave the same refusal for <b>J.K. Rowling</b> and <b>Amy Tan</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>DEAD AUTHORS</em> ARE STILL <em>FAIR GAME</em>",
+   "hsize": 100,
+   "body": "An analysis by <b>No Latency</b> found ChatGPT blocked style requests for <b>living authors</b> but still complied for <b>dead ones</b> like <b>Dickens</b> and <b>Hemingway</b>. <b>Ars Technica's</b> own tests got refusals for both \u2014 the behavior appears to still be shifting",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>AUTHORS SUED OPENAI</em> OVER ITS <em>'UNCANNY' COPYING</em> ABILITY",
+   "hsize": 90,
+   "body": "Multiple book authors have sued <b>OpenAI</b>, with one case citing ChatGPT's \"uncanny ability\" to match <b>copyrighted work</b>. A <b>George Washington University</b> law professor told <b>Bloomberg Law</b> that no technology has ever copied personal style this well or this cheaply",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>OPENAI</em> PULLED A <em>CHATGPT FEATURE</em> AND <em>NOBODY GOT WARNED</em>",
+   "hsize": 82,
+   "body": "If your business writes emails or social posts with <b>ChatGPT</b>, <b>OpenAI</b> just proved they can change what it does without asking. The businesses that won't feel this run AI built around <b>their own voice</b> \u2014 set up once, works the same way every day, no one else controls the switch",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>AI NEWS</em> EXPLAINED FOR <em>NORMAL PEOPLE</em>",
+   "hsize": 100,
+   "body": "We break down the biggest AI stories every day \u2014 follow <b>@yaffeai</b> so you never miss what matters",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see what ChatGPT says now when you ask it to write like a famous author \u2014 and the loophole for dead writers \ud83d\udc40\n\nChatGPT's new refusal message for Stephen King, J.K. Rowling, and Amy Tan style requests, the exact wording it uses instead, the No Latency analysis showing dead authors like Dickens and Hemingway may still be fair game, the copyright lawsuits from book authors citing ChatGPT's 'uncanny ability' to replicate their work, and what it means for anyone using AI to create content.\n\nAI companies are quietly redrawing what their tools will do \u2014 and not telling anyone first. Every surprise restriction is a reminder for businesses: tools you don't own can change overnight.\nRunning a business? DM us \"AI\" and we'll build AI content tools that actually stay yours.\n\nSources: Ars Technica, No Latency, Bloomberg Law, Authors Guild\n\n#AI #ChatGPT #OpenAI #Copyright #AINews",
+ "hook_tournament": {
+  "candidates": [
+   "ASK <em>CHATGPT</em> TO <em>WRITE LIKE YOUR FAVORITE AUTHOR</em> AND IT WILL NOW <em>FLAT-OUT REFUSE</em>",
+   "OpenAI just <em>blocked</em> the one ChatGPT trick you probably used <em>this week</em>.",
+   "ChatGPT just <em>killed</em> the writing shortcut <em>freelancers</em> used to meet every deadline.",
+   "<em>OPENAI</em> JUST <em>BLOCKED CHATGPT</em> FROM <em>COPYING</em> ANY <em>LIVING AUTHOR'S</em> WRITING STYLE",
+   "OpenAI just <em>removed</em> a ChatGPT feature <em>millions</em> of writers depended on for work.",
+   "<em>OPENAI</em> QUIETLY <em>BANNED</em> CHATGPT FROM <em>IMITATING FAMOUS WRITERS</em> MID-LAWSUIT",
+   "OpenAI just made ChatGPT the <em>first</em> AI to <em>protect</em> a living author's voice.",
+   "<em>STEPHEN KING</em>, <em>J.K. ROWLING</em>, AND <em>HEMINGWAY</em> ALL GOT THE <em>SAME MESSAGE</em> FROM <em>CHATGPT</em>",
+   "ChatGPT just <em>refused</em> to write like <em>Stephen King</em> when a user asked directly.",
+   "<em>CHATGPT</em> JUST TOLD USERS IT <em>CAN'T WRITE</em> IN <em>STEPHEN KING'S EXACT STYLE</em> ANYMORE"
+  ],
+  "scores": [
+   3,
+   7,
+   6,
+   5,
+   6,
+   6,
+   3,
+   3,
+   5,
+   5
+  ],
+  "winner": 1
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "ChatGPT starts blocking direct requests to copy an author's style",
+  "link": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/"
+ }
+}

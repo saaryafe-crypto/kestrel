@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR <em>PRIVATE AI CHATS</em> JUST <em>LEAKED ON GOOGLE</em> FOR THE <em>SECOND TIME IN A YEAR</em>",
+   "hsize": 60,
+   "media": "posts/2026-07-28-private-claude-chats-exposed-on-google-s/cand-1.jpg",
+   "subline": "MEDICAL RECORDS AND CRYPTO KEYS EXPOSED"
+  },
+  {
+   "type": "content",
+   "headline": "<em>CRYPTO KEYS</em> AND <em>MEDICAL RECORDS</em> SURFACED ON <em>GOOGLE</em>",
+   "body": "Reddit users discovered <b>cryptocurrency wallet keys</b>, <b>API keys</b>, and <b>login credentials</b> sitting in public search results. Some conversations held <b>clinical trial data</b> and <b>internal company documents</b>. Others exposed <b>contact information for primary school students</b>",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ANTHROPIC <em>BLAMED</em> ITS OWN <em>USERS</em> FOR THE <em>LEAK</em>",
+   "body": "Anthropic told <b>TechCrunch</b> that users misused Claude's <b>\"share chat\" button</b>, which creates a public link anyone can open without logging in. The company said shared links <b>\"are not discoverable unless people share them themselves\"</b>. But once a link lands anywhere public, <b>Google's crawlers</b> index it automatically",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE <em>SAME LEAK</em> HIT <em>CHATGPT</em> LAST YEAR",
+   "body": "<b>ChatGPT</b> had the same leak in <b>2025</b> \u2014 the <b>second time in 12 months</b> private AI conversations showed up on Google. Security experts say the real flaw is old: <b>Dropbox</b>, <b>Google Drive</b>, and <b>Pastebin</b> all hit the same wall years ago. An unguessable link is not the same as a <b>protected</b> one",
+   "hsize": 98,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>ONE BUTTON</em> LEAKED <em>EMPLOYEE REVIEWS</em> AND <em>CLIENT DATA</em>",
+   "body": "Companies pasted <b>internal documents</b>, <b>employee reviews</b>, and <b>client records</b> into Claude \u2014 then <b>one click</b> made them searchable by anyone on Google. The right AI setup keeps every conversation <b>locked inside your company</b>, with no shared links and no data leaving your walls \u2014 without adding a single step for your team",
+   "hsize": 98,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "WE BREAK DOWN <em>AI NEWS</em> <em>EVERY DAY</em>",
+   "body": "The biggest stories in AI, explained simply so you always know what's changing next",
+   "hsize": 114,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see what private Claude AI chats just leaked onto Google \u2014 crypto keys, medical records, and worse \ud83d\udc40\n\nPrivate Claude conversations found searchable on Google, cryptocurrency wallet keys and API keys exposed, medical records and patient data leaked, children's contact information surfaced, Anthropic blamed users for the exposure, same leak hit ChatGPT last year, Dropbox and Google Drive had the same flaw years ago.\n\nThis is the second time in a year that private AI chats leaked onto search engines. If your team uses AI daily, the question isn't whether they're sharing sensitive data \u2014 it's whether anyone can Google it.\nRunning a business? DM us \"AI\" and we'll make sure your team's AI conversations stay private.\n\nSources: TechCrunch, LinkedIn News, Futurism, Reddit\n\n#ArtificialIntelligence #DataPrivacy #CyberSecurity #TechNews #AITools",
+ "hook_tournament": {
+  "candidates": [
+   "PRIVATE <em>CLAUDE CHATS</em> JUST <em>SPILLED ONTO GOOGLE</em> WITH <em>CRYPTO KEYS</em> AND <em>MEDICAL RECORDS</em> INSIDE",
+   "Google <em>just indexed</em> private conversations that contained <em>API keys and legal documents</em> from Claude",
+   "Google <em>just exposed</em> thousands of private Claude AI chats with your <em>medical records</em> inside",
+   "Anthropic <em>just blamed users</em> after private crypto wallet keys appeared in <em>Google search results</em>",
+   "A single design flaw <em>just turned</em> every shared Claude chat into a <em>publicly searchable</em> webpage",
+   "One share button <em>just leaked</em> login credentials from <em>private AI chats</em> to the entire internet",
+   "YOUR <em>PRIVATE AI CHATS</em> JUST <em>LEAKED ON GOOGLE</em> FOR THE <em>SECOND TIME IN A YEAR</em>",
+   "<em>ANTHROPIC</em> JUST <em>BLAMED ITS USERS</em> AFTER <em>PRIVATE CLAUDE CHATS</em> LEAKED ONTO <em>GOOGLE SEARCH</em>",
+   "<em>CHILDREN'S DATA</em> AND <em>MEDICAL RECORDS</em> JUST <em>SURFACED ON GOOGLE</em> FROM <em>PRIVATE AI CHATS</em>",
+   "<em>ONE SHARE BUTTON</em> JUST <em>DUMPED PRIVATE CLAUDE CHATS</em> ONTO <em>GOOGLE</em>"
+  ],
+  "scores": [
+   4,
+   2,
+   5,
+   1,
+   3,
+   7,
+   7,
+   3,
+   6,
+   7
+  ],
+  "winner": 6
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Private Claude chats exposed on Google search results",
+  "link": "https://www.linkedin.com/news/story/private-claude-chats-exposed-on-google-search-results-9083650/?utm_source=share&utm_campaign=reddit&utm_content=storyline&utm_term=artificial"
+ }
+}

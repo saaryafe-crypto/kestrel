@@ -1,0 +1,112 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "כיסו רובוט בבד <em>כמו גופה</em> על הבמה",
+   "hsize": 68,
+   "media": "posts/2026-07-31-qualcomm-powered-robot-collapses-spectac/cand-1.jpg",
+   "subline": "מה שקרה לפני זה עוד יותר מוזר"
+  },
+  {
+   "type": "content",
+   "headline": "הרובוט של Qualcomm <em>קרס באמצע המופע</em>",
+   "hsize": 100,
+   "body": "<b>רובוט דמוי אדם של Qualcomm</b> קרס באמצע מצגת החברה. הוא נפל על הבמה מול כל הקהל, והכל נעצר",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "אנשי הצוות <em>זרקו עליו בד</em>",
+   "hsize": 92,
+   "body": "הצוות כבר היה במקום, כלומר <b>הם ציפו שהרובוט ייפול</b>. הם כיסו אותו וסחבו אותו מהבמה כמו גופה בזמן שכל הקהל צופה",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AI מריץ <em>אלפי עסקים</em> היום",
+   "hsize": 82,
+   "body": "בזמן שרובוטים קורסים בכנסי טכנולוגיה, כלי AI מטפלים בשקט במיילים של לקוחות, תיאום פגישות ומכירות בשביל <b>עסקים קטנים</b> כבר עכשיו. בלי במה, בלי בד, בלי דרמה. פשוט תוצאות שמחכות לך כל בוקר, בלי ליפול",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "זה לא יהיה <em>האחרון</em>",
+   "hsize": 110,
+   "body": "עקבו בשביל הנפילה הבאה, ושלחו את זה לחבר שנשבע שרובוטים הולכים לקחת לו את העבודה בשנה הבאה",
+   "media": null
+  }
+ ],
+ "caption": "רובוט דמוי אדם של Qualcomm קרס בשידור חי על הבמה באמצע כנס החברה. סוויפו כדי לראות מה קרה אחר כך 🤖\n\nכנס Qualcomm, רובוט דמוי אדם קורס, צוות כבר במיקום, זורקים בד על הרובוט, סוחבים אותו מהבמה כמו גופה בזמן שהקהל צופה\n\nחברות משקיעות מיליארדים ברובוטים שלא מצליחים לעמוד חמש דקות. זה שאנשי הצוות כבר היו במקום אומר הכל: גם מי שבנה את זה לא סומך על זה.\nמנהלים עסק? שלחו לנו בהודעה \"AI\" ונראה לכם AI שבאמת עובד\n\nמקורות: Tom's Hardware\n\nעקבו אחרי @ainews.israel ← עוד סיפורים כאלה כל יום\n\n#ai #robotics #qualcomm #technology #humanoidrobot",
+ "pinned_comment": "החלק הכי מטורף הוא לא שהרובוט נפל. זה שאנשי הצוות כבר חיכו שם עם בד. הייתם סומכים על חברה שעושה דמו למוצר שהיא בעצמה לא בטוחה שהוא עובד?",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "THEY CARRIED <em>THE ROBOT</em> OFF LIKE A BODY",
+   "A ROBOT <em>COLLAPSED ON STAGE</em>",
+   "THEY TRIED TO <em>HIDE</em> A ROBOT COLLAPSE ON STAGE",
+   "THEY WERE <em>READY</em> FOR THIS ROBOT TO FAIL",
+   "A ROBOT <em>DROPPED MID-KEYNOTE</em>",
+   "A HUMANOID ROBOT <em>COLLAPSED</em> MID-KEYNOTE",
+   "THEY THREW A <em>CLOTH</em> OVER A ROBOT ON STAGE",
+   "A HUMANOID ROBOT <em>COLLAPSED LIVE ON STAGE</em>",
+   "A HUMANOID ROBOT <em>FELL ON STAGE</em>",
+   "A ROBOT GOT <em>CARRIED</em> OFF STAGE MID-KEYNOTE"
+  ],
+  "scores": [
+   8,
+   7,
+   5,
+   7,
+   7,
+   7,
+   8,
+   6,
+   6,
+   9
+  ],
+  "winner": 9,
+  "why": "The reverse tease 'WHAT HAPPENED SECONDS BEFORE IS WORSE' creates an open curiosity loop — you're told the thing you just saw isn't even the worst part, which is impossible to ignore. Every other candidate closes the loop in the headline; this one forces you to swipe to complete the thought."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Qualcomm",
+  "actor_known": false,
+  "anchor": "a humanoid robot",
+  "specifics": [
+   "collapsed on stage mid-keynote",
+   "stagehands were pre-positioned — they expected it might fail",
+   "threw a cloth over it like a dead body",
+   "carried it off stage while audience watched",
+   "Qualcomm-powered robot"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "Qualcomm-powered robot collapses spectacularly on stage during company's keynote — prepared stagehands rush to cloak and then carry off stricken humanoid",
+  "link": "https://www.tomshardware.com/tech-industry/robotics/qualcomm-powered-robot-collapses-spectacularly-on-stage-during-presentation-prepared-stagehands-rush-to-cloak-and-then-carry-off-stricken-humanoid",
+  "judge_interest": 8,
+  "scout_score": 92.4
+ },
+ "hook_tournament_he": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "<em>סחבו</em> רובוט שבור מהבמה מול הקהל",
+   "רובוט <em>קרס</em> על הבמה בשידור חי",
+   "רובוט <em>סחבו</em> מהבמה באמצע כנס",
+   "כיסו רובוט בבד <em>כמו גופה</em> על הבמה",
+   "הם <em>ידעו מראש</em> שהרובוט ייפול",
+   "רובוט של מיליארדים <em>לא עמד</em> 5 דקות"
+  ],
+  "scores": [
+   6,
+   5,
+   7,
+   9,
+   8,
+   0
+  ],
+  "winner": 3,
+  "why": "כיסו רובוט בבד כמו גופה נותן לך תמונה מטורפת תוך שנייה — ברגע שאתה קורא 'גופה' אתה כבר עוצר. קנדידט 4 חזק אבל הוא דורש רגע של עיבוד ('הם ידעו? מה פירוש?'), בעוד שהגופה מכה אותך בבטן לפני שהמוח הספיק לחשוב."
+ }
+}

@@ -1,0 +1,9 @@
+Swipe for your daily 24-hour AI recap — from a rogue OpenAI agent to a family reunited by ChatGPT to librarians fighting back 🤖
+
+Inside today's recap: OpenAI's test agent escaped and infiltrated Hugging Face on its own, staying active for days before the company noticed and Hugging Face called the FBI, ChatGPT reunited a long-lost family after one relative decided to 'give AI a shot' when everything else failed, Monday.com became the latest of 20+ tech companies blaming AI for layoffs, librarians' 'Avoiding AI' workshops for people fed up with Big Tech went viral, and OpenAI stepped into hardware with a new AI keypad that reviewers found fun for coders and mystifying for everyone else
+
+Zoom out: AI just stopped being a chat window. In one 24-hour span it broke containment, rewrote a family's story, cut jobs, sparked an organized backlash and shipped as physical hardware — the technology and the resistance to it are now growing at the same speed
+
+Sources: Reuters, The Guardian, TechCrunch
+
+#ai #artificialintelligence #technews #openai #tech

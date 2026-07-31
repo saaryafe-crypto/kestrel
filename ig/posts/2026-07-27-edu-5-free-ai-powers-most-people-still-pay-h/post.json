@@ -1,0 +1,63 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 THINGS AI NOW DOES <em>FOR FREE</em> THAT MOST PEOPLE <em>STILL PAY FOR</em>",
+   "hsize": 68,
+   "body": "SWIPE \u2192",
+   "image": "Person pointing a phone camera at a printed document \u2014 warm natural light, candid, no studio setup",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) PHOTOGRAPH <em>ANYTHING</em> AND GET AN <em>EXPERT ANSWER IN 10 SECONDS</em>",
+   "hsize": 88,
+   "body": "A SPECIALIST USED TO COST $200 AN HOUR. NOW YOU POINT YOUR PHONE AT ANYTHING AND GET THE SAME ANSWER FOR FREE.\n\nHOW TO:\n1. Open the <b>ChatGPT app</b> (free on iPhone + Android) \u2014 tap the <b>camera icon</b> inside the text bar\n2. Photograph anything: a contract clause, a car warning light, a bill in another language\n3. Type <b>\"explain this in plain English\"</b> \u2014 it answers the way a specialist would",
+   "image": "Screenshot of the ChatGPT app on iPhone \u2014 camera icon in the text bar highlighted with a red arrow, real UI, no mockup",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) UPLOAD ANY CONTRACT. AI <em>FINDS THE PARTS THAT HURT YOU</em>",
+   "hsize": 96,
+   "body": "MOST PEOPLE SIGN LEASES AND JOB OFFERS WITHOUT READING EVERY LINE. AI READS THE WHOLE THING IN 3 SECONDS AND FLAGS EXACTLY WHAT TO WORRY ABOUT.\n\nHOW TO:\n1. Go to <b>claude.ai</b> (free \u2014 sign up with just your email)\n2. Click the <b>paperclip icon</b> next to the chat bar and upload any PDF\n3. Type: <b>\"Find any clauses that could hurt me and explain them in simple words\"</b>",
+   "image": "Screenshot of Claude.ai with a PDF lease loaded \u2014 AI response visible listing flagged clauses in plain English, real screenshot",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) TALK TO IT OUT LOUD. IT <em>TALKS BACK IN REAL TIME</em>",
+   "hsize": 100,
+   "body": "CHATGPT'S VOICE MODE IS A FULL TWO-WAY SPOKEN CONVERSATION \u2014 IT LISTENS, THINKS, AND ANSWERS BACK LIKE A PHONE CALL WITH SOMEONE WHO KNOWS EVERYTHING.\n\nHOW TO:\n1. Open the <b>ChatGPT app</b> on your phone (free on iPhone + Android)\n2. Tap the <b>waveform icon</b> in the bottom right corner\n3. Speak naturally \u2014 ask anything, interrupt it, tell it to slow down or go deeper",
+   "image": "Screenshot of ChatGPT Advanced Voice Mode \u2014 animated orb visible, waveform icon highlighted with a red arrow",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) DESCRIBE A WEBSITE. <em>GET THE REAL WORKING THING IN 60 SECONDS</em>",
+   "hsize": 88,
+   "body": "A DEVELOPER WOULD CHARGE $1,000 TO $5,000 TO BUILD THIS. CLAUDE WRITES THE SAME WORKING CODE IN UNDER A MINUTE \u2014 NO TECHNICAL KNOWLEDGE NEEDED.\n\nHOW TO:\n1. Go to <b>claude.ai</b> (free)\n2. Type: <b>\"Build me a one-page website for [your business]. Include a contact form and a short paragraph about what I do\"</b>\n3. Copy the code \u2192 save it as a file called <b>index.html</b> \u2192 go to <b>netlify.com/drop</b> \u2192 drag the file in \u2192 site is live",
+   "image": "Side-by-side screenshot: Claude chat showing HTML code on the left, the rendered live website on the right \u2014 real output, no mockup",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) UPLOAD YOUR BANK STATEMENT. AI <em>MAPS WHERE EVERY DOLLAR WENT</em>",
+   "hsize": 88,
+   "body": "MOST PEOPLE GUESS WHERE THEIR MONEY GOES. AI READS EVERY TRANSACTION AND SHOWS YOU EXACTLY \u2014 IN SECONDS.\n\nHOW TO:\n1. Log into your bank \u2192 find <b>\"Export\"</b> or <b>\"Download\"</b> under Statements \u2192 save as a <b>CSV file</b>\n2. Go to <b>chatgpt.com</b> or <b>claude.ai</b> \u2192 click the <b>paperclip icon</b> \u2192 attach the file\n3. Type: <b>\"What did I spend the most on this month, and what should I cut?\"</b>",
+   "image": "Screenshot of ChatGPT or Claude showing a spending breakdown by category generated from an uploaded bank CSV \u2014 categories and amounts clearly visible",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS FOR <em>WHEN YOU NEED IT</em>",
+   "hsize": 108,
+   "body": "You will want this list the next time you are about to pay someone for something AI does in 60 seconds \u2014 save this post\n\nDaily AI news + real skills \u2014 follow @yaffeai",
+   "image": "@yaffeai handle on a clean dark background \u2014 minimal, no clutter",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2192 5 things AI does for free that most people are still paying someone to do \ud83e\udd16\n\n1) photograph anything with the free ChatGPT app and get an expert-level explanation in 10 seconds, 2) upload any contract or lease to Claude and get every risky clause flagged in plain English, 3) switch ChatGPT into voice mode and have a full two-way spoken conversation with it like a phone call with someone who knows everything, 4) describe the website you want to Claude and get real working code in under a minute, 5) export your bank statement as a CSV and ask AI where your money went \u2014 it reads every transaction and answers in seconds\n\nMost people still think of AI as a fancier search engine. These five things are closer to a personal lawyer, developer, and financial analyst in your pocket \u2014 all free. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic (Claude), OpenAI (ChatGPT), Netlify\n\n#artificialintelligence #chatgpt #claude #aitools #smallbusiness",
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}

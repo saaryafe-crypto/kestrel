@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Zuckerberg just <em>dropped</em> Meta AI into your <em>private</em> Threads messages <em>globally</em>.",
+   "hsize": 60,
+   "media": null,
+   "logos": [
+    "meta"
+   ],
+   "subline": "WHAT IT CAN SEE IS WILD"
+  },
+  {
+   "type": "content",
+   "headline": "THE AI <em>READS</em> EVERY <em>POST, PHOTO, AND VIDEO</em> YOU SEND IT",
+   "body": "Starting today, <b>Meta</b> is rolling out <b>Meta AI</b> to <b>Threads</b> DMs in every country. Users can forward any post, image, link, or video directly to the AI and ask follow-up questions in a <b>one-on-one private chat</b>. <b>Meta</b> says users wanted more \"context\" without sharing conversations publicly",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "META ALREADY <em>BURIED</em> THE SAME AI IN <em>THREE OTHER APPS</em>",
+   "body": "The same <b>Meta AI</b> chatbot already lives inside <b>Facebook Messenger</b>, <b>Instagram DMs</b>, and <b>WhatsApp</b>. <b>Threads</b> is the fourth app to get it. In <b>5 countries</b> \u2014 <b>Argentina</b>, <b>Malaysia</b>, <b>Mexico</b>, <b>Saudi Arabia</b>, and <b>Singapore</b> \u2014 the AI also writes its own posts in the public feed",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "META <em>HANDED</em> USERS A <em>MUTE BUTTON</em> INSTEAD OF A <em>BLOCK</em>",
+   "body": "In the <b>5 test countries</b> where <b>Meta AI</b> posts publicly, users can click \"not interested\" or mute its replies \u2014 but <b>cannot block the account</b>. <b>Meta</b> has not said when or if a block option will arrive",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "META <em>ROLLED</em> ONE AI ACROSS <em>FOUR APPS</em> WITH <em>ZERO NEW HIRES</em>",
+   "body": "Most business owners still spend hours every day answering the same customer questions by hand. <b>Meta</b> just put <b>one AI</b> in DMs across <b>Threads</b>, <b>Facebook</b>, <b>Instagram</b>, and <b>WhatsApp</b> \u2014 no new staff, no extra tools. The same kind of setup can answer your customers in <b>seconds</b>, done for you, without touching any tech",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "DAILY AI NEWS THAT <em>ACTUALLY MATTERS</em>",
+   "body": "We break down the biggest AI stories every day so you never miss what's changing \u2014 follow <b>@yaffeai</b> to stay ahead",
+   "hsize": 110,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how Meta just pushed its AI into every Threads inbox on the planet \u2014 and why you can't block it \ud83d\udc40\n\nMeta AI just rolled out to Threads DMs worldwide, letting users send posts, photos, links, and videos to the AI in private one-on-one chats, the same chatbot already embedded in Facebook Messenger, Instagram DMs, and WhatsApp, making Threads the fourth app to get it, while in five countries the AI also writes its own posts in the public feed, and users still cannot block the Meta AI account \u2014 only mute or click \"not interested\"\n\nMeta is weaving AI into every corner it controls \u2014 four apps, private DMs, public feeds. AI that talks to your customers is becoming the default, not the exception.\nRunning a business? DM us \"AI\" and we'll show you what this could do for your inbox\n\nSources: Engadget\n\n#artificialintelligence #metaai #threads #socialmedia #technews",
+ "hook_tournament": {
+  "candidates": [
+   "META JUST <em>PLANTED</em> ITS AI INSIDE <em>THREADS DMS WORLDWIDE</em> AND USERS <em>STILL CAN'T BLOCK</em> THE ACCOUNT",
+   "Meta <em>just pushed</em> an AI into <em>every</em> Threads user's DMs <em>without asking</em>.",
+   "3 billion users just got an <em>AI chatbot</em> they <em>never requested</em> inside their DMs.",
+   "META JUST QUIETLY <em>SLID</em> ITS AI INTO <em>EVERY THREADS DM BOX</em> ON THE <em>PLANET</em>",
+   "Threads just became the <em>first</em> major social app to put <em>AI directly</em> in every user's inbox.",
+   "Zuckerberg just <em>dropped</em> Meta AI into your <em>private</em> Threads messages <em>globally</em>.",
+   "YOUR <em>THREADS INBOX</em> JUST GOT A NEW AI CONTACT FROM META THAT YOU <em>CANNOT BLOCK</em> OR <em>REMOVE</em>",
+   "META JUST GAVE ITS AI <em>ACCESS</em> TO A <em>FOURTH APP'S DMS</em> AND <em>STILL HASN'T</em> ADDED A <em>BLOCK BUTTON</em>",
+   "Meta just gave its AI <em>full access</em> to your Threads posts, images, and <em>private links</em>.",
+   "META JUST <em>OPENED</em> EVERY <em>THREADS USER'S DMS</em> TO ITS AI AND <em>NOBODY CAN BLOCK</em> THE ACCOUNT"
+  ],
+  "scores": [
+   4,
+   6,
+   6,
+   6,
+   5,
+   7,
+   3,
+   3,
+   5,
+   4
+  ],
+  "winner": 5
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "All Threads users can now DM Meta AI",
+  "link": "https://www.engadget.com/2223799/all-threads-users-can-now-dm-meta-ai/"
+ }
+}

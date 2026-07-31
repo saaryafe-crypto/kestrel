@@ -1,0 +1,17 @@
+{
+ "pick": 0,
+ "title": "No one programmed this robot to walk, it taught itself",
+ "title_candidates": [
+  "What it looks like when a robot thinks with its entire body",
+  "Google put its most powerful AI inside a humanoid robot",
+  "A robot that doesn't need to be told how to move",
+  "No one programmed this robot to walk, it taught itself",
+  "How close we are to robots that move like people"
+ ],
+ "caption": "Google just dropped its AI into a robot and let it figure out how to move its entire body on its own.\n\nGemini Robotics 2 works with Apptronik to give robots whole body control. Instead of programming each step and grab by hand, the AI reacts to what it sees and feels, coordinating every part of the body at once.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: Google DeepMind and Apptronik. DM for credit or removal\n\n#ai #robots #humanoidrobot #robotics #deepmind",
+ "start_s": 15,
+ "clip_s": 25,
+ "source": "https://www.youtube.com/watch?v=4lSQnrMC6nY",
+ "channel": "Google DeepMind and Apptronik",
+ "publish": "bundle"
+}

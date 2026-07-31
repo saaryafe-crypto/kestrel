@@ -1,0 +1,112 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "הרשת השוותה קעקוע של כדורגלן <em>לקריקטורה של $10</em>",
+   "hsize": 66,
+   "media": "posts/2026-07-30-this-guy-got-ai-art-style-tatted-on-him/cand-1.jpg",
+   "subline": "חצי מיליון צפיות תוך 28 שעות"
+  },
+  {
+   "type": "content",
+   "headline": "זה נראה כאילו <em>רובוט צייר את זה</em>",
+   "hsize": 92,
+   "body": "ציוץ ויראלי של <b>@VladitoByke</b> כינה את הקעקוע <b>\"סגנון AI art\"</b>: המראה החלק והמבריק מדי שתוכנות AI מייצרות, חרוט על העור לתמיד. הפוסט הגיע ל<b>564,690 צפיות</b> תוך <b>28 שעות</b>. <b>Cucurella</b> בעצמו העלה את הקעקוע לאינסטגרם ב<b>28 ביולי</b> עם הכיתוב <b>\"מילאתי הבטחה\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הם השוו את זה ל<em>ציורי רחוב ב$10</em>",
+   "hsize": 88,
+   "body": "תגובה אחת כתבה שהקעקוע נראה כמו הציורים המהירים שאמני רחוב מוכרים על המדרכה ב<b>$10</b>. אחר כתב שכדורגלנים מקצועיים <b>\"סתם מוזרים כשזה מגיע לקעקועים\"</b>. <b>@MadridXtra</b> שיתף את הפוסט והפיץ את זה עוד יותר",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>ללקוחות שלכם</em> יש את אותה עין בדיוק",
+   "hsize": 96,
+   "body": "<b>564K אנשים</b> זיהו סגנון AI על עור תוך <b>28 שעות</b>. אותה עין בדיוק שופטת את האתר שלכם, הפרסומות שלכם, המיילים שלכם. העסקים שמנצחים עובדים עם AI מאחורי הקלעים, לא מציגים אותו כמוצר הסופי",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "הקעקוע <em>לא יורד</em>",
+   "hsize": 112,
+   "body": "אבל השריפה ממשיכה. תעקבו ותראו איך זה מתפתח. תשלחו את זה לחבר שהיה בטוח עושה את הקעקוע הזה",
+   "media": null
+  }
+ ],
+ "caption": "החליקו לראות את הקעקוע ש564K אנשים שורפים על שנראה כאילו AI יצר אותו 💀\n\nכדורגלן מקצועי העלה את הקעקוע החדש שלו לאינסטגרם, ציוץ ויראלי כינה את זה \"סגנון AI art\", הפוסט הגיע ל564K צפיות תוך 28 שעות, תגובות השוו את זה לציורי רחוב ב$10, אחרים כתבו שכדורגלנים מקצועיים \"סתם מוזרים\" בנושא קעקועים, ו@MadridXtra הפיץ את זה הלאה\n\nאמנות AI כל כך מוכרת היום, ש\"נראה כמו AI\" הפך לעלבון ברירת המחדל על כל דבר חלק ומלוטש מדי. חצי מיליון אנשים הוכיחו את זה תוך 28 שעות.\nיש לכם עסק? תשלחו לנו הודעה עם המילה \"AI\" ונוודא שהתוכן שלכם לא נראה כאילו רובוט הכין אותו\n\nמקורות: @VladitoByke on X, @MadridXtra\n\nעקבו אחרי @ainews.israel לעוד חדשות AI 🤖\n\n#AIArt #Tattoo #Football #Viral #ArtificialIntelligence",
+ "pinned_comment": "מישהו פשוט כתב: כאילו AI יוצר סגנון בכלל. וזה הדיון האמיתי פה",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "THIS FOOTBALLER'S TATTOO <em>LOOKS AI GENERATED</em>",
+   "A PRO FOOTBALLER GOT <em>AI ART TATTOOED</em> ON HIM",
+   "A FOOTBALLER PERMANENTLY INKED <em>AI ART</em> ON HIS BODY",
+   "<em>591K people</em> roasted this footballer's new tattoo",
+   "A pro footballer got <em>AI art</em> tattooed on him",
+   "<em>AI ART</em> IS NOW A TATTOO STYLE",
+   "He called this tattoo a <em>promise fulfilled</em>",
+   "This footballer's tattoo looks like a <em>$10 caricature</em>",
+   "HE TATTOOED <em>AI ART</em> ON HIMSELF",
+   "A pro footballer is <em>proud</em> of this tattoo"
+  ],
+  "scores": [
+   0,
+   6,
+   4,
+   8,
+   7,
+   0,
+   7,
+   7,
+   7,
+   6
+  ],
+  "winner": 3,
+  "why": "591K is a real, staggering number that does the proof-of-concept work instantly, then 'Promise fulfilled' lands as the punchline — the gap between his pride and half a million people laughing tells the whole story in two lines. The runner-ups ([4], [6], [7], [8]) all rely on you imagining the absurdity; [3] proves it already happened at scale before you even swipe."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Cucurella",
+  "actor_known": false,
+  "anchor": "a pro footballer",
+  "specifics": [
+   "tattoo literally looks like AI-generated art — that smooth shiny Midjourney style",
+   "591.2K views on the tweet roasting it",
+   "compared to caricatures street artists sell for $10",
+   "Cucurella captioned it 'Promise fulfilled'",
+   "reply said pro footballers are 'so weird when it comes to tattoos'"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "This guy got AI art style tatted on him",
+  "link": "https://x.com/VladitoByke/status/2082120646675337295",
+  "judge_interest": 7,
+  "scout_score": 100.8
+ },
+ "hook_tournament_he": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "<em>591K אנשים</em> שרפו את הקעקוע החדש של הכדורגלן הזה",
+   "הרשת השוותה קעקוע של כדורגלן <em>לקריקטורה של $10</em>",
+   "<em>נראה כמו AI</em> הפך לעלבון הכי גדול ברשת",
+   "<em>564K</em> אנשים שורפים כדורגלן בגלל קעקוע",
+   "כדורגלנים פשוט <em>לא יודעים</em> לבחור קעקועים",
+   "כדורגלן עשה קעקוע שנראה <em>בדיוק כמו AI</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   6,
+   0,
+   0,
+   0
+  ],
+  "winner": 1,
+  "why": "קריקטורה של $10 זו תמונה ספציפית ואכזרית שגורמת לך לדמיין בדיוק כמה זה מביך — הספציפיות עושה את כל העבודה ומיד רוצים לראות את הקעקוע. [0] יש לו את המתח החכם עם 'מילאתי הבטחה' אבל הכותרת עצמה יותר גנרית ולא נועצת ציפורניים כמו ההשוואה ל-$10."
+ }
+}

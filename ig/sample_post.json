@@ -1,0 +1,41 @@
+{
+  "handle": "@yaffeai",
+  "container": "weekly_roundup",
+  "slides": [
+    {
+      "type": "cover",
+      "media": null,
+      "hsize": 116,
+      "headline": "THE <em>BIGGEST AI NEWS</em> OF THE <em>LAST 7 DAYS</em>"
+    },
+    {
+      "type": "content",
+      "media": "sample_media.jpg",
+      "hsize": 88,
+      "headline": "SOUTH KOREA ORDAINED THE <em>WORLD'S FIRST ROBOT MONK</em>",
+      "body": "<b>Gabi</b> became the <b>world's first robot monk</b> at Seoul's <b>Jogye Temple</b>. The <b>130cm Unitree G1</b> humanoid wore robes, received a <b>108-bead rosary,</b> and pledged to respect all life"
+    },
+    {
+      "type": "content",
+      "media": null,
+      "hsize": 100,
+      "headline": "THIS ISN'T A GIMMICK. <em>IT'S A PATTERN.</em>",
+      "body": "Robots and AI keep showing up in places nobody predicted — <b>temples, courtrooms, clinics, kitchens.</b> Every \"first\" like this one starts as a headline and ends as an <b>industry standard.</b> The gap between the two is getting <b>shorter every year</b>"
+    },
+    {
+      "type": "content",
+      "media": null,
+      "hsize": 92,
+      "headline": "AI IS ALREADY <em>CHEAP ENOUGH</em> FOR <em>NORMAL BUSINESSES</em>",
+      "body": "The same AI that runs a robot monk <b>answers your emails, sorts your invoices, and writes your reports.</b> The winners aren't the ones who know about AI — they're the ones who <b>put it to work first</b>"
+    },
+    {
+      "type": "cta",
+      "media": null,
+      "hsize": 96,
+      "headline": "THE NEXT AI SHIFT <em>WON'T WAIT</em> FOR YOU",
+      "body": "Daily AI news, tools, and <b>how to actually use them in your business.</b> Follow so you never fall behind"
+    }
+  ],
+  "caption": "Swipe 📲 for the biggest AI stories of the last 7 days — from the world's first robot monk to the AI tools quietly landing inside normal businesses.\n\nSouth Korea ordained Gabi, a 130cm Unitree G1 humanoid, as the world's first robot monk at Seoul's Jogye Temple, robots and AI kept showing up in temples, courtrooms, clinics and kitchens, and the same tech behind the headlines became cheap enough for everyday businesses to put to work on emails, invoices and reports.\n\nEvery AI \"first\" starts as a headline and ends as an industry standard — and the gap between the two gets shorter every year. The winners aren't the ones who know about AI, they're the ones who put it to work first.\n\nSources: Reuters, Yonhap, Jogye Order, Unitree\n\n#ai #technology #robotics #artificialintelligence #future"
+}

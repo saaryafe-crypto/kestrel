@@ -1,0 +1,98 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "LINKEDIN JUST <em>DECLARED WAR ON AI</em>",
+   "hsize": 76,
+   "media": "posts/2026-07-31-linkedin-adds-a-button-to-report-ai-gene/cand-1.jpg",
+   "subline": "THEY BUILT THE PROBLEM THEMSELVES"
+  },
+  {
+   "type": "content",
+   "headline": "LINKEDIN PULLED <em>ITS AI WRITER</em>",
+   "hsize": 110,
+   "body": "The platform removed its <b>\"enhance your post\"</b> feature, which let AI write entire posts for you. It's being replaced by a basic <b>proofreading tool</b> that only checks your grammar. Even <b>LinkedIn</b> admitted their own tool helped create the slop problem",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "YOU CAN NOW <em>REPORT AI POSTS</em>",
+   "hsize": 110,
+   "body": "LinkedIn is rolling out a <b>\"seems like AI slop\"</b> button on every post so anyone can flag AI-written content. The company says fighting slop is <b>\"a top priority.\"</b> They block <b>hundreds of thousands</b> of automated comments <b>every single day</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "YOUR ACCOUNT GETS <em>SECRETLY FLAGGED</em>",
+   "hsize": 105,
+   "body": "If your content looks fake, <b>LinkedIn</b> will quietly put a warning on your account without telling you why. New AI tools will scan posts before they reach your feed. <b>Substack</b> added its own AI detection tool <b>last week</b> through a deal with <b>Pangram</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "HALF THE INTERNET <em>ISN'T EVEN HUMAN</em>",
+   "hsize": 95,
+   "body": "<b>Cloudflare</b> says bot traffic now exceeds real human traffic across the entire web, and <b>Digg</b> shut down its Reddit competitor in <b>March</b> because bots took over. If your business pastes AI writing into every post, you're next. The companies winning use AI to run their operations behind the scenes, not to fake their voice",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "LINKEDIN <em>WON'T BE THE LAST</em>",
+   "hsize": 110,
+   "body": "Every major platform is watching what happens here. Follow so you see who cracks down on AI content next. Send this to the person who pastes ChatGPT into every LinkedIn post",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see what LinkedIn just did about all the AI slop on the platform \ud83e\udd16\n\nLinkedIn's new 'seems like AI slop' report button, the 'enhance your post' AI writing feature they pulled, hundreds of thousands of automated comments blocked daily, secret account flagging for fake content, new AI scanning tools, Cloudflare's bot traffic exceeding human traffic, Digg shutting down from bots, Substack adding AI detection through Pangram, and expanded verification tools.\n\nThe fake content problem just hit a breaking point. When a platform kills its own AI feature, you know it's serious. Every other platform is watching what LinkedIn does next.\nRunning a business? DM us \"AI\" and we'll show you how to use AI without getting flagged\n\nSources: TechCrunch, Cloudflare\n\n#linkedin #aislop #artificialintelligence #socialmedia #technology",
+ "pinned_comment": "Would you actually report a friend's LinkedIn post if it was obviously AI-written? That button exists now, and we both know you're thinking of someone specific",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "LINKEDIN IS <em>SECRETLY</em> FLAGGING YOUR POSTS",
+   "LINKEDIN JUST <em>DECLARED WAR ON AI</em>",
+   "LINKEDIN JUST <em>KILLED</em> THEIR OWN AI",
+   "LINKEDIN IS <em>SECRETLY FLAGGING ACCOUNTS</em>",
+   "LINKEDIN <em>ADMITTED A HUGE MISTAKE</em>",
+   "LINKEDIN JUST <em>KILLED ITS OWN FEATURE</em>",
+   "LINKEDIN JUST ADDED A <em>SNITCH</em> BUTTON",
+   "YOUR LINKEDIN POSTS <em>CAN NOW GET REPORTED</em>",
+   "LINKEDIN JUST <em>EXPOSED</em> ITS BIGGEST PROBLEM",
+   "LINKEDIN JUST <em>TURNED</em> AGAINST AI"
+  ],
+  "scores": [
+   7,
+   8,
+   7,
+   0,
+   6,
+   6,
+   7,
+   4,
+   6,
+   7.5
+  ],
+  "winner": 1,
+  "why": "THEY BUILT THE PROBLEM THEMSELVES is a genuine self-incrimination twist \u2014 it reframes the whole story in five words and makes you instantly need to know how. [9] is clever but the Microsoft callout is just context; [1]'s subline is an actual plot reveal."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "LinkedIn",
+  "actor_known": true,
+  "anchor": "LinkedIn",
+  "specifics": [
+   "Adding a literal 'seems like AI slop' report button",
+   "Pulling their own 'enhance your post' AI writing feature because they realized they were part of the problem",
+   "Blocks hundreds of thousands of automated comment attempts daily",
+   "Will privately flag your dashboard when your content looks inauthentic",
+   "Cloudflare says bot traffic now exceeds human traffic on the web"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "LinkedIn adds a button to report AI-generated \u2018slop\u2019",
+  "link": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+  "judge_interest": 7,
+  "scout_score": 143.6
+ }
+}

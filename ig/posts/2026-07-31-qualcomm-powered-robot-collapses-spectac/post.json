@@ -1,0 +1,91 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A ROBOT GOT <em>CARRIED</em> OFF STAGE MID-KEYNOTE",
+   "hsize": 68,
+   "media": "posts/2026-07-31-qualcomm-powered-robot-collapses-spectac/cand-1.jpg",
+   "subline": "WHAT HAPPENED SECONDS BEFORE IS WORSE"
+  },
+  {
+   "type": "content",
+   "headline": "QUALCOMM'S ROBOT <em>WENT DOWN MID-SHOW</em>",
+   "hsize": 100,
+   "body": "A <b>Qualcomm-powered humanoid robot</b> collapsed in the middle of the company's keynote presentation. It went down on stage in front of the entire audience and the show stopped cold",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "STAGEHANDS <em>THREW A CLOTH OVER IT</em>",
+   "hsize": 92,
+   "body": "The crew was already in position, which means <b>they expected the robot might fail</b>. They cloaked the fallen robot and carried it off stage like a body while the entire audience watched",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AI RUNS <em>THOUSANDS OF BUSINESSES</em> TODAY",
+   "hsize": 82,
+   "body": "While robots collapse at tech keynotes, AI tools quietly handle customer emails, scheduling, and sales for <b>small businesses</b> right now. No stage, no cloth, no drama. Just results that show up every morning without falling over",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "THIS WON'T BE <em>THE LAST ONE</em>",
+   "hsize": 110,
+   "body": "Follow for the next robot fail, and send this to the friend who swears humanoid robots are taking their job next year",
+   "media": null
+  }
+ ],
+ "caption": "A Qualcomm-powered humanoid robot collapsed live on stage during the company's keynote. Swipe to see what happened next \ud83e\udd16\n\nQualcomm keynote, humanoid robot collapse, stagehands already in position, cloth thrown over the robot, carried off stage like a body while the audience watched\n\nCompanies are spending billions on robots that can't stand up for five minutes. The stagehands being pre-positioned tells you everything: even the builders don't trust it yet.\nRunning a business? DM us \"AI\" and we'll show you AI that actually works\n\nSources: Tom's Hardware\n\n#ai #robotics #qualcomm #technology #humanoidrobot",
+ "pinned_comment": "The craziest part isn't that the robot fell. It's that stagehands were already waiting with a cloth. Would you trust a company that demos a product they're not even sure works?",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "THEY CARRIED <em>THE ROBOT</em> OFF LIKE A BODY",
+   "A ROBOT <em>COLLAPSED ON STAGE</em>",
+   "THEY TRIED TO <em>HIDE</em> A ROBOT COLLAPSE ON STAGE",
+   "THEY WERE <em>READY</em> FOR THIS ROBOT TO FAIL",
+   "A ROBOT <em>DROPPED MID-KEYNOTE</em>",
+   "A HUMANOID ROBOT <em>COLLAPSED</em> MID-KEYNOTE",
+   "THEY THREW A <em>CLOTH</em> OVER A ROBOT ON STAGE",
+   "A HUMANOID ROBOT <em>COLLAPSED LIVE ON STAGE</em>",
+   "A HUMANOID ROBOT <em>FELL ON STAGE</em>",
+   "A ROBOT GOT <em>CARRIED</em> OFF STAGE MID-KEYNOTE"
+  ],
+  "scores": [
+   8,
+   7,
+   5,
+   7,
+   7,
+   7,
+   8,
+   6,
+   6,
+   9
+  ],
+  "winner": 9,
+  "why": "The reverse tease 'WHAT HAPPENED SECONDS BEFORE IS WORSE' creates an open curiosity loop \u2014 you're told the thing you just saw isn't even the worst part, which is impossible to ignore. Every other candidate closes the loop in the headline; this one forces you to swipe to complete the thought."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Qualcomm",
+  "actor_known": false,
+  "anchor": "a humanoid robot",
+  "specifics": [
+   "collapsed on stage mid-keynote",
+   "stagehands were pre-positioned \u2014 they expected it might fail",
+   "threw a cloth over it like a dead body",
+   "carried it off stage while audience watched",
+   "Qualcomm-powered robot"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Qualcomm-powered robot collapses spectacularly on stage during company's keynote \u2014 prepared stagehands rush to cloak and then carry off stricken humanoid",
+  "link": "https://www.tomshardware.com/tech-industry/robotics/qualcomm-powered-robot-collapses-spectacularly-on-stage-during-presentation-prepared-stagehands-rush-to-cloak-and-then-carry-off-stricken-humanoid",
+  "judge_interest": 8,
+  "scout_score": 92.4
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ONE GUY USED <em>FREE AI TO CUT A $1,200 BILL</em> TO $180",
+   "subline": "EVERY PROMPT WRITTEN OUT INSIDE",
+   "hsize": 72,
+   "media": "posts/2026-07-28-edu-6-expensive-services-ai-replaces-for-fre/gen-cover.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIGHT YOUR MEDICAL BILLS</em>",
+   "body": "One Reddit user pasted a <b>$1,200</b> hospital bill into Claude. It found the inflated charges and wrote a dispute letter. <b>His bill dropped to $180</b>\n\n\"Here is my medical bill. Find every inflated charge, explain why it's overpriced, and write a dispute letter I can send to billing today\"",
+   "hsize": 112,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>RUN MOCK JOB INTERVIEWS</em>",
+   "body": "A Reddit user gave Claude a <b>job posting</b> and ran mock rounds. It caught their weak spots. The real interview <b>felt like a rerun</b>. They got the job\n\n\"Here is the job description and my background. Run a mock interview one question at a time. After each answer, tell me exactly what was weak. After 5 rounds, give a brutally honest scorecard with exactly what to fix\"",
+   "hsize": 112,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>DRAFT A LEGAL DEMAND LETTER</em>",
+   "body": "A demand letter from a lawyer costs <b>$300 to $1,000</b>. AI writes one in <b>30 seconds</b> that cites the right laws and sounds like a lawyer wrote it\n\n\"Here is what happened to me. Write a formal demand letter citing the relevant consumer protection laws for my state. Include a response deadline and what I'll do next if they ignore it\"",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>REVIEW ANY CONTRACT</em> BEFORE YOU SIGN",
+   "body": "A contract lawyer charges <b>$200 to $500 per hour</b>. AI reads the whole thing in seconds and flags every clause that could quietly cost you money\n\n\"Here is a contract I'm about to sign. Flag anything that gives the other side unusual power or could cost me money I don't expect. Explain each red flag in plain English\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>FIND TAX DEDUCTIONS</em> YOU'RE MISSING",
+   "body": "A basic CPA session costs <b>$200 to $500</b>. AI reviews your whole financial year and finds deductions most people miss, in <b>minutes</b>\n\n\"Here is my income, job type, major purchases, and life changes this year. Find every tax deduction and credit I qualify for and estimate how much each one saves\"",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>BUILD A RESUME THAT GETS CALLS</em>",
+   "body": "Professional resume writers charge <b>$300 to $600</b>. AI tailors yours to a specific job and rewrites every line so it proves you're the hire\n\n\"Here is my resume and the job posting. Rewrite every bullet so it proves I can do this specific job. Cut anything irrelevant. Write a cover letter that sounds like a real person\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS POST</em>",
+   "body": "You'll want these prompts the next time you get a surprise bill, a contract to review, or a job you want\n\nFollow <b>@yaffeai</b> for daily AI news and real skills nobody teaches you",
+   "hsize": 115,
+   "media": null
+  }
+ ],
+ "caption": "Swipe through 6 services that cost $200/hr that AI now does for free, with every prompt written out \ud83d\udd25\n\nMedical bill negotiation that saved someone over a thousand dollars, mock job interviews that actually got someone hired, legal demand letters, contract review that catches clauses that could cost you money, tax deductions most people miss, and resume rewriting tailored to specific job postings.\n\nA year ago these all required a professional. Now anyone with a phone and a free AI account can do them tonight. The gap between people who know this and people who don't is getting wider every week.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Reddit, Anthropic, OpenAI\n\n#AI #SaveMoney #Productivity #ChatGPT #Technology",
+ "hook_tournament": {
+  "candidates": [
+   "6 $200/HR SERVICES <em>AI NOW DOES FOR FREE</em>",
+   "PEOPLE ARE <em>QUIETLY REPLACING THEIR LAWYERS</em> WITH AI",
+   "6 PROFESSIONALS <em>YOU NEVER HAVE TO PAY AGAIN</em>",
+   "YOU'RE <em>WASTING THOUSANDS</em> ON THINGS AI DOES FREE",
+   "ONE GUY USED <em>FREE AI TO CUT A $1,200 BILL</em> TO $180"
+  ],
+  "scores": [
+   5,
+   4,
+   6,
+   5,
+   7
+  ],
+  "winner": 4
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}

@@ -1,0 +1,69 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A massive OpenAI study <em>just exposed</em> the one workplace rule <em>nobody follows</em> anymore because of AI",
+   "hsize": 58,
+   "media": null,
+   "logos": [
+    "openai"
+   ],
+   "subline": "HR DEPARTMENTS ARE NOT READY"
+  },
+  {
+   "type": "content",
+   "headline": "<em>WORKERS</em> USED <em>CHATGPT</em> TO DO <em>SOMEONE ELSE'S JOB</em>",
+   "body": "<b>OpenAI</b> published research showing that <b>ChatGPT</b> users at work aren't just speeding up their own tasks \u2014 they're reaching into work that belongs to <b>completely different roles</b>. Workers crossed job boundaries <b>on their own</b>, without being told to",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>YOUR TEAM</em> IS ALREADY <em>DOING MORE</em> THAN YOU <em>HIRED THEM FOR</em>",
+   "body": "If you're running a business and still bringing on a <b>new person</b> for every new kind of task, this is a signal. <b>OpenAI's</b> data shows workers with <b>AI</b> are already crossing into other roles <b>without being asked</b> \u2014 imagine what happens when a business sets this up <b>on purpose</b>",
+   "hsize": 85,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "DAILY <em>AI NEWS</em> FOR <em>YOUR BUSINESS</em>",
+   "body": "We share updates every day on <b>AI stories</b> that change how you work, hire, and compete \u2014 follow <b>@yaffeai</b> so you don't miss them",
+   "hsize": 105,
+   "media": null
+  }
+ ],
+ "caption": "Swipe through \ud83d\udc49 OpenAI's own research just showed workers are quietly doing jobs they were never hired for\n\nOpenAI's research on ChatGPT at work, how workers are crossing into tasks outside their job description, what this shift means for specialists and hiring, and why businesses that adapt first will pull ahead.\n\nThe line between \"your job\" and \"someone else's job\" is disappearing faster than companies can keep up. AI didn't replace workers \u2014 it made every worker able to do more than their title says. The businesses that set this up on purpose will outrun the ones still hiring by role.\n\nRunning a business? DM us \"AI\" and we'll show you how fewer people can cover more ground.\n\nSources: Axios, OpenAI\n\n#AI #ChatGPT #FutureOfWork #ArtificialIntelligence #Business",
+ "hook_tournament": {
+  "candidates": [
+   "OpenAI <em>just published</em> research showing AI lets workers <em>quietly replace</em> people in jobs they were never hired for",
+   "OpenAI researchers <em>just caught</em> employees <em>stealing</em> entire job roles from coworkers using one tool",
+   "The first major AI study on workers <em>just proved</em> your job description is <em>already obsolete</em>",
+   "<em>OPENAI</em> JUST <em>PROVED</em> YOUR <em>COWORKER</em> IS ALREADY DOING <em>YOUR JOB</em> WITH <em>CHATGPT</em>",
+   "<em>CHATGPT USERS</em> AT WORK JUST <em>CROSSED INTO JOBS</em> THAT AREN'T THEIRS, <em>OPENAI'S OWN DATA</em> CONFIRMS",
+   "WORKERS <em>QUIETLY</em> STARTED DOING <em>JOBS THEY WERE NEVER HIRED FOR</em> USING <em>CHATGPT</em>, <em>OPENAI'S OWN RESEARCH</em> SHOWS",
+   "YOUR <em>JOB TITLE</em> JUST STOPPED <em>PROTECTING YOU</em> FROM THE PERSON IN THE NEXT DESK WITH <em>CHATGPT</em>",
+   "OpenAI <em>just revealed</em> what millions of workers are <em>secretly doing</em> with AI behind their bosses' backs",
+   "A massive OpenAI study <em>just exposed</em> the one workplace rule <em>nobody follows</em> anymore because of AI",
+   "<em>OPENAI</em> JUST <em>PUBLISHED PROOF</em> THAT <em>CHATGPT</em> IS <em>ERASING THE LINE</em> BETWEEN YOUR JOB AND EVERYONE ELSE'S"
+  ],
+  "scores": [
+   2,
+   4,
+   4,
+   4,
+   4,
+   3,
+   6,
+   5,
+   8,
+   4
+  ],
+  "winner": 8
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Workers are crossing job boundaries with AI, OpenAI research shows",
+  "link": "https://www.axios.com/2026/07/27/openai-chatgpt-work-specialists"
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI <em>חייב</em> מישהו 8.5 מיליארד דולר",
+   "hsize": 76,
+   "media": "posts/2026-07-29-circle-k-ai-self-checkout-machine-halluc/gen-0-r.jpg",
+   "subline": "הכסף היה אמור ללכת לצלב האדום"
+  },
+  {
+   "type": "content",
+   "headline": "קופה של CIRCLE K <em>השתגעה</em>",
+   "hsize": 115,
+   "body": "משתמש Reddit מספר שקופה אוטומטית עם AI בחנות <b>Circle K</b> ניסתה לבצע חיוב של <b>מיליארדים</b> שאף אחד לא ביקש. הפוסט הגיע ל<b>כמעט 20,000 הצבעות</b> תוך פחות מ<b>9 שעות</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הוא בחר את <em>הצלב האדום</em>",
+   "hsize": 115,
+   "body": "לפי הפוסט, ה-AI החליט שהלקוח חייב <b>$8.5 מיליארד דולר</b> ל<b>צלב האדום</b>. המכונה בחרה את הארגון, בחרה את הסכום, ויצרה תרומה שלמה ב<b>עסקה שהמציאה מאפס</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "קופה אף פעם לא <em>צריכה AI</em>",
+   "hsize": 120,
+   "body": "<b>אלפי</b> תגובות שאלו: למה לשים AI בקופה? היא סורקת מוצרים, מחברת מחירים ומעבירה כרטיס. זהו. <b>אפס</b> חשיבה נדרשת",
+   "media": "posts/2026-07-29-circle-k-ai-self-checkout-machine-halluc/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "AI שבר <em>משהו שכבר עבד</em>",
+   "hsize": 110,
+   "body": "העסקים שמרוויחים מ-AI לא שמים אותו בקופה. הם שמים אותו איפה ש<b>בני אדם מבזבזים שעות כל שבוע</b> על מיילים, תיאום פגישות ודוחות. שם AI הופך מ<b>כותרת מביכה</b> ליתרון אמיתי",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "המכונה הזאת <em>עדיין עובדת</em>",
+   "hsize": 110,
+   "body": "חברות דוחפות AI לכל דבר שכבר עובד. עקבו אחרי @ainews.israel, תרצו לראות מי הבא בתור. שלחו את זה לכל מי שמשתמש בקופה אוטומטית",
+   "media": null
+  }
+ ],
+ "caption": "החליקו כדי לראות מה קרה כש-AI בקופה אוטומטית החליט לחשוב בעצמו 🤖\n\nמשתמש Reddit מספר שקופה אוטומטית של Circle K עם AI ניסתה לבצע חיוב של מעל $8.5 מיליארד דולר לצלב האדום, עסקה שהלקוח אף פעם לא ביקש, והפוסט התפוצץ לכמעט 20,000 הצבעות תוך 9 שעות עם אלפי תגובות ששואלות למה בכלל דוחפים AI לתהליך שכבר עובד.\n\nחברות רצות להוסיף AI לכל דבר, אבל אלה שבאמת מרוויחות שמות אותו איפה שבני אדם מבזבזים שעות, לא איפה שסורק כבר עושה את העבודה.\nמנהלים עסק? שלחו לנו \"AI\" בהודעה ונראה לכם איפה הוא באמת שייך אצלכם.\n\nמקורות: Reddit r/mildlyinfuriating\n\nעקבו 👉 @ainews.israel\n\n#AI #Technology #SelfCheckout #ArtificialIntelligence #TechNews",
+ "hook_tournament": {
+  "candidates": [
+   "CIRCLE K JUST <em>TERRIFIED</em> EVERY SHOPPER",
+   "A CHECKOUT TRIED TO <em>TAKE BILLIONS</em>",
+   "AN AI CHARGED SOMEONE <em>$8.5 BILLION</em>",
+   "CIRCLE K'S AI JUST <em>SNAPPED</em>",
+   "A SELF-CHECKOUT JUST <em>WENT ROGUE</em>",
+   "A MACHINE JUST <em>GAVE AWAY BILLIONS</em>",
+   "CIRCLE K JUST <em>BILLED</em> ONE CUSTOMER <em>BILLIONS</em>",
+   "AN AI JUST <em>HALLUCINATED</em> A CUSTOMER'S BILL",
+   "<em>AI</em> CHECKOUT JUST <em>TURNED</em> ON ITS OWN CUSTOMER",
+   "A <em>SELF-CHECKOUT</em> JUST TRIED TO <em>BANKRUPT</em> A SHOPPER"
+  ],
+  "scores": [
+   6,
+   7,
+   6,
+   7,
+   6,
+   5,
+   6,
+   5,
+   8,
+   7
+  ],
+  "winner": 8
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "Circle K “AI” self-checkout machine “hallucinated” that I wanted to pay over $8.5 Billion to the Red Cross…",
+  "link": "https://old.reddit.com/r/mildlyinfuriating/comments/1v9ko2q/circle_k_ai_selfcheckout_machine_hallucinated/"
+ }
+}

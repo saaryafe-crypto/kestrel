@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Visa just <em>laid off</em> 2,600 workers to invest in a technology most banks refuse to <em>touch</em>",
+   "hsize": 72,
+   "media": "posts/2026-07-29-visa-is-cutting-7-of-employees-in-effici/gen-0.jpg",
+   "subline": "THE NEW BET CHANGES EVERYTHING"
+  },
+  {
+   "type": "content",
+   "headline": "VISA TOLD <em>2,600 TECH WORKERS</em> THEY'RE OUT",
+   "hsize": 95,
+   "body": "Visa had about <b>34,100 employees</b> last year. Now <b>7%</b> of them are out, mostly from <b>tech and product teams</b>. <b>Bloomberg</b> broke the story, <b>CNBC</b> confirmed the CEO's memo",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE CEO WROTE THAT <em>AI RESHAPED WORK AT VISA</em>",
+   "hsize": 86,
+   "body": "<b>Ryan McInerney</b> wrote to employees that AI is \"helping to accelerate this evolution and shape the way work gets done at Visa.\" He said the company must \"continue evolving how we work.\" <b>AI</b> was a big factor, not the only one",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "VISA TRADED 2,600 JOBS FOR <em>STABLECOINS AND RICH CLIENTS</em>",
+   "hsize": 80,
+   "body": "Visa listed its new priorities: <b>rich customers, international payments, business payments, stablecoins</b>, and expanding into <b>new countries</b>. McInerney called it \"a new era in commerce with real momentum.\" Visa drops its <b>earnings report after market close today</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "VISA PROVED <em>NO JOB IS SAFE</em> FROM AI CUTS",
+   "hsize": 88,
+   "body": "A company with <b>34,100 people</b> just cut <b>7%</b> because AI changed how work gets done. If Visa's own tech team wasn't safe, nobody is. The businesses adding AI right now aren't firing, they're handling more work with <b>the same team</b>",
+   "media": "posts/2026-07-29-visa-is-cutting-7-of-employees-in-effici/gen-4.jpg"
+  },
+  {
+   "type": "cta",
+   "headline": "FOLLOW <em>@YAFFEAI</em>",
+   "hsize": 120,
+   "body": "Daily AI and tech news before everyone else catches on",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see why Visa just fired 2,600 people and what the CEO's memo said about AI \ud83d\udc40\n\nVisa cutting 7% of its workforce, 2,600 positions mostly from tech and product, CEO Ryan McInerney's memo blaming AI for reshaping how work gets done, the five growth areas Visa is betting on instead including stablecoins and wealthy customers, quarterly earnings dropping today\n\nThe first major payment company to put AI in a layoff memo. This is the template: cut the roles AI handles, redirect the savings into whatever's growing next. It won't stop at Visa.\n\nRunning a business? DM us \"AI\" and we'll show you how to stay on the right side of this\n\nSources: CNBC, Bloomberg\n\n#ai #visa #layoffs #technology #business",
+ "hook_tournament": {
+  "candidates": [
+   "VISA'S CEO TOLD STAFF <em>AI CHANGED HOW THEY WORK</em>",
+   "VISA JUST FIRED 2,600 PEOPLE <em>AND BLAMED AI</em>",
+   "Visa's CEO just sent one <em>memo</em> that wiped out 2,600 positions over a single three-letter <em>word</em>",
+   "The world's <em>largest</em> payment network just cut one in every <em>13</em> employees after testing what AI could handle",
+   "<em>YOUR CREDIT CARD COMPANY</em> JUST CUT 2,600 JOBS OVER AI",
+   "VISA JUST CUT <em>7% OF ITS WORKERS</em> AND CALLED IT EVOLUTION",
+   "Visa just showed every <em>tech worker</em> what happens when a company decides AI does your job <em>cheaper</em>",
+   "Visa just <em>laid off</em> 2,600 workers to invest in a technology most banks refuse to <em>touch</em>",
+   "<em>2,600 VISA WORKERS</em> JUST LOST THEIR JOBS OVER AI",
+   "Visa just <em>fired</em> 2,600 employees in its tech division after <em>AI</em> made their roles unnecessary"
+  ],
+  "scores": [
+   4,
+   6,
+   6,
+   6,
+   6,
+   6,
+   4,
+   8,
+   4,
+   5
+  ],
+  "winner": 7
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Visa is cutting 7% of employees in efficiency push as AI reshapes work",
+  "link": "https://www.cnbc.com/2026/07/28/visa-is-cutting-7percent-of-employees-in-efficiency-push-as-ai-reshapes-work.html"
+ }
+}

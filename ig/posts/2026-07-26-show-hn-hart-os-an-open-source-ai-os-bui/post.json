@@ -1,0 +1,67 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>HERTZ-AI</em> JUST OPEN-SOURCED AN <em>AI OPERATING SYSTEM</em> DESIGNED SO FRONTIER MODELS <em>NEVER NEED A DATACENTER</em> AGAIN",
+   "hsize": 64,
+   "media": "posts/2026-07-26-show-hn-hart-os-an-open-source-ai-os-bui/media.jpg",
+   "subline": "BIG TECH BUILT THE CLOUD TO STOP THIS"
+  },
+  {
+   "type": "content",
+   "headline": "THE <em>OS</em> RUNNING <em>FRONTIER AI</em> ON <em>LOCAL HARDWARE</em>",
+   "hsize": 88,
+   "body": "HART OS\u2014full name <b>Hevolve Hive Agentic Runtime OS</b>\u2014is an open-source operating system built ground-up to run frontier AI models without cloud dependency. The <b>hertz-ai</b> team architected every layer: a local <b>agent ledger</b>, a persistent <b>memory module</b>, a <b>voice interface</b>, and a security layer called <b>Hevolve Armor</b>. The entire stack runs on <b>NixOS</b> with a developer <b>SDK</b> already shipped",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>9 MODULES</em> THAT REPLACE THE CLOUD",
+   "hsize": 110,
+   "body": "HART OS ships with <b>9 open-source modules</b>: a core runtime, a native <b>agent ledger</b> for action tracking, a <b>compositor</b> for UI, a <b>memory</b> system, <b>speech and audio</b> support, <b>Hevolve Armor</b> security, an integrations layer, a developer <b>SDK</b>, and full <b>NixOS</b> configuration. The <b>hart_sdk</b> and <b>demo</b> modules are already live, letting any developer build on the stack today. Every component is open-source on <b>GitHub</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "HOW IT <em>KILLS</em> THE <em>DATACENTER BILL</em>",
+   "hsize": 105,
+   "body": "Instead of routing agent actions to a cloud API, HART OS runs AI orchestration at the <b>OS level</b>\u2014every decision stays on local hardware. The <b>agent ledger</b> logs actions locally; the <b>memory module</b> holds persistent context without remote storage; the <b>compositor</b> handles display without a server call. The result: a full agentic runtime with <b>zero API fees</b> and no data leaving the device",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE <em>9 CONTRIBUTORS</em> BETTING THE <em>CLOUD ERA</em> IS OVER",
+   "hsize": 88,
+   "body": "<b>Hertz-ai</b> launched HART OS publicly on <b>Hacker News</b> with just <b>9 contributors</b>, <b>15 GitHub stars</b>, and <b>2 forks</b>\u2014the kind of early signal that precedes category-defining projects. The team's thesis, encoded in the name \"<b>Hevolve Hive</b>\", is that AI agents belong in a local hive of hardware, not rented cloud nodes. They shipped a working <b>demo</b>, a full <b>SDK</b>, and complete documentation at launch",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "WHAT HAPPENS WHEN <em>AI LEAVES</em> THE <em>CLOUD</em>",
+   "hsize": 100,
+   "body": "Every major AI lab today relies on cloud infrastructure\u2014the assumption powering the entire industry is that frontier models need someone else's hardware. HART OS is the first open-source OS to directly challenge that assumption, putting the full agentic runtime on local machines. If the architecture scales, the <b>cloud AI infrastructure layer</b>\u2014today's fastest-growing enterprise cost center\u2014becomes optional, not mandatory",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>WHAT THIS MEANS</em> FOR <em>YOUR BUSINESS</em>",
+   "hsize": 110,
+   "body": "Cloud AI costs are the fastest-growing line item for businesses running AI at scale\u2014and local AI OS infrastructure like HART OS points to a future where your stack runs on hardware you own, with <b>zero API fees</b> and no data leaving your network. Companies in <b>legal, medical, and finance</b> with strict data-residency rules stand to benefit first. The question isn't whether local AI infrastructure arrives\u2014it's whether your business is ready when it does",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>DAILY AI NEWS</em> FOR <em>BUILDERS</em>",
+   "hsize": 110,
+   "body": "We track every AI infrastructure shift\u2014from open-source OS projects to enterprise moves\u2014every single day. Save this and follow for tomorrow's update",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see the open-source OS that could make datacenters optional for frontier AI \ud83d\udda5\ufe0f\n\nWhat's inside: the full HART OS story starting with hertz-ai's core claim that frontier AI never needs a datacenter, then the 9 open-source modules making up the stack, how the local agent ledger and memory system replace cloud APIs, the 9-person team that just launched on Hacker News, what it means if AI infrastructure leaves the cloud entirely, and what businesses with sensitive data or high-volume AI workloads should be doing right now.\n\nThe cloud AI infrastructure market is built on one assumption: frontier models need someone else's hardware. HART OS is the first open-source bet against that assumption. Whether it scales or not, the architecture signals a coming shift every AI-heavy business should plan for.\n\nSources: Hacker News, GitHub (hertz-ai/HARTOS)\n\n#artificialintelligence #opensource #AIinfrastructure #machinelearning #AItools",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Show HN: HART OS \u2013 an open-source AI OS built so frontier AI needs no datacenter",
+  "link": "https://github.com/hertz-ai/HARTOS"
+ }
+}

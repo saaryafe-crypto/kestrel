@@ -1,0 +1,91 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>591K people</em> roasted this footballer's new tattoo",
+   "hsize": 66,
+   "media": "posts/2026-07-30-this-guy-got-ai-art-style-tatted-on-him/cand-1.jpg",
+   "subline": "HE CAPTIONED IT 'PROMISE FULFILLED'"
+  },
+  {
+   "type": "content",
+   "headline": "IT LOOKS LIKE <em>A ROBOT DREW IT</em>",
+   "hsize": 92,
+   "body": "A viral tweet by <b>@VladitoByke</b> called the tattoo <b>\"AI art style\"</b>: that hyper-smooth, shiny look AI image generators produce, permanently on skin. The post hit <b>564,690 views</b> in <b>28 hours</b>. <b>Cucurella</b> posted the tattoo himself on Instagram on <b>July 28</b>: <b>\"Promise fulfilled\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THEY COMPARED IT TO <em>$10 STREET CARICATURES</em>",
+   "hsize": 88,
+   "body": "One reply said the tattoo looks like those quick drawings street artists sell on city sidewalks for <b>$10</b>. Another said pro footballers are <b>\"so weird when it comes to tattoos.\"</b> <b>@MadridXtra</b> shared the post and spread it even further",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>YOUR CUSTOMERS</em> HAVE THE SAME EYE",
+   "hsize": 96,
+   "body": "<b>564K people</b> spotted AI style on skin in <b>28 hours</b>. That same eye judges your website, your ads, your emails. The businesses winning use AI to work faster behind the scenes, not as the finished product",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "THE TATTOO <em>ISN'T COMING OFF</em>",
+   "hsize": 112,
+   "body": "But the roasting keeps going. Follow and watch it play out. Send this to the friend who would 100% get this tattoo",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see the tattoo 564K people are roasting for looking AI-generated \ud83d\udc80\n\nA pro footballer posted his new tattoo on Instagram, a viral tweet called it 'AI art style,' it hit 564K views in 28 hours, replies compared it to $10 street caricatures, others said pro footballers are 'so weird' about tattoos, and @MadridXtra spread it further\n\nAI-generated art is now so recognizable that 'looking like AI' has become the go-to insult for anything too smooth and polished. Half a million people proved it in 28 hours.\nRunning a business? DM us \"AI\" and we'll make sure your content doesn't look like a robot made it\n\nSources: @VladitoByke on X, @MadridXtra\n\n#AIArt #Tattoo #Football #Viral #ArtificialIntelligence",
+ "pinned_comment": "One reply straight up said 'as if AI creates any kind of style.' That's the real debate here",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "THIS FOOTBALLER'S TATTOO <em>LOOKS AI GENERATED</em>",
+   "A PRO FOOTBALLER GOT <em>AI ART TATTOOED</em> ON HIM",
+   "A FOOTBALLER PERMANENTLY INKED <em>AI ART</em> ON HIS BODY",
+   "<em>591K people</em> roasted this footballer's new tattoo",
+   "A pro footballer got <em>AI art</em> tattooed on him",
+   "<em>AI ART</em> IS NOW A TATTOO STYLE",
+   "He called this tattoo a <em>promise fulfilled</em>",
+   "This footballer's tattoo looks like a <em>$10 caricature</em>",
+   "HE TATTOOED <em>AI ART</em> ON HIMSELF",
+   "A pro footballer is <em>proud</em> of this tattoo"
+  ],
+  "scores": [
+   0,
+   6,
+   4,
+   8,
+   7,
+   0,
+   7,
+   7,
+   7,
+   6
+  ],
+  "winner": 3,
+  "why": "591K is a real, staggering number that does the proof-of-concept work instantly, then 'Promise fulfilled' lands as the punchline \u2014 the gap between his pride and half a million people laughing tells the whole story in two lines. The runner-ups ([4], [6], [7], [8]) all rely on you imagining the absurdity; [3] proves it already happened at scale before you even swipe."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Cucurella",
+  "actor_known": false,
+  "anchor": "a pro footballer",
+  "specifics": [
+   "tattoo literally looks like AI-generated art \u2014 that smooth shiny Midjourney style",
+   "591.2K views on the tweet roasting it",
+   "compared to caricatures street artists sell for $10",
+   "Cucurella captioned it 'Promise fulfilled'",
+   "reply said pro footballers are 'so weird when it comes to tattoos'"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "This guy got AI art style tatted on him",
+  "link": "https://x.com/VladitoByke/status/2082120646675337295",
+  "judge_interest": 7,
+  "scout_score": 100.8
+ }
+}

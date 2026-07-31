@@ -1,0 +1,53 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI COMPANIES GOT CAUGHT <em>PIRATING</em> BOOKS. NOW THEY BUY THEM \u2014 AND FEED THEM TO A <em>BLADE</em>",
+   "hsize": 60,
+   "media": "posts/2026-07-28-book-destruction-v2/gen-0.jpg",
+   "subline": "A JUDGE SAYS THEY CAN"
+  },
+  {
+   "type": "content",
+   "headline": "ANTHROPIC RAN <em>MILLIONS OF BOOKS</em> THROUGH A <em>HYDRAULIC BLADE</em>",
+   "hsize": 86,
+   "body": "The company behind <b>Claude</b> bought used books by the truckload, <b>chopped the spines off</b> with a hydraulic cutter, scanned every page \u2014 then <b>threw the pages away</b>. It's faster and cheaper than scanning a book without destroying it. And they did it <b>on purpose, at industrial scale</b>",
+   "media": "posts/2026-07-28-book-destruction-v2/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "SOUNDS ILLEGAL. A JUDGE SAID IT'S <em>NOT</em>",
+   "hsize": 100,
+   "body": "Once you <b>buy</b> a book, it's yours \u2014 an old rule called <b>first-sale doctrine</b>. A judge ruled scanning your own books is <b>fair use</b>. The <b>$1.5 billion</b> Anthropic just paid authors? That was for <b>pirating e-books</b>. So the industry switched: buy the real thing, <b>destroy it legally</b>",
+   "media": "posts/2026-07-28-book-destruction-v2/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "ONE SELLER SHIPS <em>UP TO 1,000,000 BOOKS</em> PER ORDER \u2014 AND <em>HIDES</em> WHO'S BUYING",
+   "hsize": 76,
+   "body": "A quiet book database called <b>ISBNdb</b> now bulk-sells AI companies <b>1,000 to 1 million books</b> at a time \u2014 and promises to <b>keep every buyer's name secret</b>. The hottest items: books printed <b>before 2022</b>. They're the last writing on Earth <b>guaranteed to be human</b>, made before AI junk flooded the internet",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THEY'RE SPENDING <em>MILLIONS</em> ON SOMETHING <em>YOUR BUSINESS</em> ALREADY OWNS",
+   "hsize": 78,
+   "body": "All of this is a hunt for one thing: <b>real human writing</b> AI hasn't touched. Your business is sitting on <b>years of it</b> \u2014 emails, customer calls, notes, the way you actually do things. That's exactly the fuel an AI needs to take over <b>half your daily busywork</b> \u2014 no new hires, no blade required",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "WE BREAK DOWN <em>AI NEWS</em> EVERY <em>SINGLE DAY</em>",
+   "hsize": 104,
+   "body": "Stories like this one, explained simply so you always know what AI is doing to the world before everyone else",
+   "media": null
+  }
+ ],
+ "caption": "A judge just ruled AI companies can legally destroy books \u2014 even ones with almost no copies left on Earth \ud83d\udcda\n\nAnthropic got caught pirating e-books and paid authors $1.5 billion. So the industry found a loophole: buy real books, slice them open with hydraulic cutters, scan every page, and throw the originals away. A judge called it fair use \u2014 once you buy a book, it's yours to destroy. A database called ISBNdb now ships AI companies up to one million books per order and keeps every buyer's name secret. Books printed before 2022 are the prize: the last writing on Earth guaranteed to be human.\n\nThe companies teaching AI to write are destroying the books humans wrote first \u2014 and pre-AI text is vanishing fast.\nRunning a business? DM us \"AI\" and we'll show you what your own data could do\n\nSources: Futurism, 404 Media\n\n#ArtificialIntelligence #AINews #RareBooks #Technology #TechNews",
+ "handle": "@yaffeai",
+ "story": {
+  "title": "AI Companies Are Buying Antique Books, Ingesting Their Contents to Train Models, and Then Destroying Them at Incredible Scale, Even If Almost No Copies Remain",
+  "link": "https://futurism.com/artificial-intelligence/ai-companies-destroying-rare-books"
+ },
+ "container": "daily_item"
+}

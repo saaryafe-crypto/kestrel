@@ -1,0 +1,10 @@
+Swipe to see how Amazon accidentally burned $1.8 million on one AI coding task 💸
+
+Amazon used Claude, an AI coding tool, to handle one task and it cost $1.8 million, 860% over budget. Their own team called the work 'menial.' Amazon's internal report described the bill as 'catastrophically expensive.' Nobody caught it until someone checked the AI usage numbers.
+
+Companies are throwing AI at everything but almost nobody tracks what it costs. If Amazon missed a $1.8 million mistake, most businesses don't stand a chance.
+Running a business? DM us "AI" and we'll show you how to catch this before it hits you
+
+Sources: Tom's Hardware
+
+#AI #Amazon #Technology #ArtificialIntelligence #Business
