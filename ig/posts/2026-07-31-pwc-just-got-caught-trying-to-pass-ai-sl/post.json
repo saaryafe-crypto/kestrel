@@ -1,0 +1,105 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>THEY LEFT 'CHATGPT.COM'</em> IN THEIR OWN REPORT",
+   "hsize": 70,
+   "media": "posts/2026-07-31-pwc-just-got-caught-trying-to-pass-ai-sl/gen-0.jpg",
+   "subline": "AND THAT'S NOT THE WORST PART"
+  },
+  {
+   "type": "content",
+   "headline": "<em>FOUR FAKE REPORTS</em> FROM A BILLION-DOLLAR FIRM",
+   "body": "<b>PwC</b> is one of the <b>four biggest</b> consulting firms on earth. They put out <b>four reports</b> between <b>2024</b> and <b>2026</b>, all full of AI lies and fake sources",
+   "hsize": 82,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THEY CITED <em>A TEENAGER WITH 280 FOLLOWERS</em>",
+   "body": "One report cited a teenager's <b>Medium blog</b> with <b>280 followers</b> as proof for a <b>JPMorgan</b> AI story. The kid was their source for one of the world's <b>biggest banks</b>",
+   "hsize": 86,
+   "media": "posts/2026-07-31-pwc-just-got-caught-trying-to-pass-ai-sl/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "THE STORY HAPPENED <em>BEFORE CHATGPT EXISTED</em>",
+   "body": "The <b>JPMorgan</b> project was real, from <b>2017</b>. <b>ChatGPT</b> didn't exist until <b>2022</b>. The AI made up a source for a story from <b>5 years</b> before it existed",
+   "hsize": 95,
+   "media": "posts/2026-07-31-pwc-just-got-caught-trying-to-pass-ai-sl/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "NOBODY <em>READ A SINGLE PAGE</em>",
+   "body": "One report repeated the same fact <b>three times</b> in <b>two pages</b>, each with a <b>different source</b>. Other links in the reports led to <b>broken pages</b> or studies that don't exist",
+   "hsize": 115,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5 MINUTES <em>WOULD HAVE CAUGHT IT ALL</em>",
+   "body": "If a <b>billion-dollar firm</b> missed this, imagine what's slipping past your business. A single <b>5-minute check</b> would have caught every error in all <b>four reports</b>",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "TWO MORE FIRMS <em>ALREADY GOT CAUGHT</em>",
+   "body": "<b>EY</b> and <b>KPMG</b> already pulled reports for the same thing. Follow, you'll want to see <b>who's next</b>. Send this to whoever lets <b>ChatGPT</b> write everything for them",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how PwC got caught with ChatGPT links still in their own research reports \ud83d\udc40\n\nPwC published at least four AI-written research reports between 2024 and 2026, one had a chatgpt.com tracking link in the footnotes, another cited a teenager's Medium blog with 280 followers as the sole source for a JPMorgan story, that JPMorgan project actually happened in 2017 before ChatGPT existed, one report repeated the same statistic three times in two pages with three different sources, other links led to broken pages or studies that don't exist in any journal, EY and KPMG also pulled papers for the same reason\n\nThe biggest consulting firms on earth are the ones cutting corners with AI the hardest. They charge millions to be the smartest people in the room and can't even read their own work before publishing.\nRunning a business? DM us \"AI\" and we'll show you how to catch this before it's your problem\n\nSources: TechSpot, Financial Times, GPTZero\n\n#AI #consulting #ChatGPT #technology #business",
+ "pinned_comment": "Serious question: if you found out a report you paid millions for was secretly written by ChatGPT, would you ask for your money back or just be impressed they got away with it this long?",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "A CONSULTING FIRM LEFT <em>'CHATGPT.COM'</em> IN THEIR REPORT",
+   "THE FIRM <em>ADVISING</em> YOU ON AI CAN'T <em>USE</em> AI",
+   "THEY CHARGE MILLIONS FOR <em>EXPERT RESEARCH</em>",
+   "A CONSULTING FIRM GOT <em>CAUGHT</em> FAKING <em>FOUR</em> REPORTS",
+   "<em>THEY LEFT 'CHATGPT.COM'</em> IN THEIR OWN REPORT",
+   "A FIRM THAT TEACHES <em>RESPONSIBLE AI</em> GOT EXPOSED",
+   "<em>FOUR FAKE REPORTS</em> FROM A BILLION-DOLLAR FIRM",
+   "A CONSULTING FIRM CITED A TEENAGER WITH <em>280 FOLLOWERS</em>",
+   "A CONSULTING FIRM CITED <em>A TEENAGER'S BLOG</em> AS RESEARCH",
+   "A CONSULTING FIRM <em>FAKED</em> AN AI STORY FROM <em>2017</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   0,
+   5,
+   9,
+   6,
+   0,
+   7,
+   8,
+   7
+  ],
+  "winner": 4,
+  "why": "The literal URL 'chatgpt.com' sitting inside a professional report is so specific and verifiable it triggers instant 'no way' disbelief \u2014 zero interpretive work required. 'AND THAT'S NOT THE WORST PART' then makes you swipe to find out what could possibly top that, where [8]'s 280-followers punchline lands in one beat and lets you scroll away satisfied."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "PwC",
+  "actor_known": false,
+  "anchor": "one of the world's biggest consulting firms",
+  "specifics": [
+   "Report literally had 'chatgpt.com' in a tracking link, proving it was copy-pasted from ChatGPT",
+   "Cited a Medium blog post by a teenager with 280 followers as sole source for a JPMorgan AI story",
+   "The JPMorgan project they cited actually happened in 2017 \u2014 years before ChatGPT even existed",
+   "At least four reports contained AI hallucinations, fabricated citations, and fake footnotes",
+   "These are 'Thought Leadership' reports from a firm that advises other companies on responsible AI use"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "PwC just got caught trying to pass AI slop as authentic research",
+  "link": "https://www.techspot.com/news/113303-pwc-got-caught-trying-pass-ai-slop-authentic.html",
+  "judge_interest": 7,
+  "scout_score": 94.5
+ }
+}

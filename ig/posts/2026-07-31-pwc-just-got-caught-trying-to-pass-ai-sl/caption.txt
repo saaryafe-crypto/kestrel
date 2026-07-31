@@ -1,0 +1,10 @@
+Swipe to see how PwC got caught with ChatGPT links still in their own research reports 👀
+
+PwC published at least four AI-written research reports between 2024 and 2026, one had a chatgpt.com tracking link in the footnotes, another cited a teenager's Medium blog with 280 followers as the sole source for a JPMorgan story, that JPMorgan project actually happened in 2017 before ChatGPT existed, one report repeated the same statistic three times in two pages with three different sources, other links led to broken pages or studies that don't exist in any journal, EY and KPMG also pulled papers for the same reason
+
+The biggest consulting firms on earth are the ones cutting corners with AI the hardest. They charge millions to be the smartest people in the room and can't even read their own work before publishing.
+Running a business? DM us "AI" and we'll show you how to catch this before it's your problem
+
+Sources: TechSpot, Financial Times, GPTZero
+
+#AI #consulting #ChatGPT #technology #business
