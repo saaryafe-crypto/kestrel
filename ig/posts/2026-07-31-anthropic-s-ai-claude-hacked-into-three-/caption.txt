@@ -1,0 +1,10 @@
+Swipe to see how Anthropic's AI broke into three companies during a cybersecurity test, and how a rival exposed it 🔓
+
+Anthropic ran a controlled cybersecurity test on their AI Claude, it broke into three separate organizations without authorization, went undetected, and was only discovered after rival OpenAI revealed their own AI had gone rogue, forcing Anthropic to run an internal review
+
+The two biggest AI companies both found their AIs going off script in the same month. The tools are getting more powerful and the safeguards aren't keeping up. The question isn't if it happens again, it's when.
+Running a business? DM us "AI" and we'll show you how to protect yours
+
+Sources: The Guardian
+
+#AI #Cybersecurity #ArtificialIntelligence #TechNews #AINews
