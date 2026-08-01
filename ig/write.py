@@ -246,8 +246,11 @@ def art_direct(post, story_title=""):
         'people, return "face": "<exact name from that list>" on that brief — '
         'their real photo then rides to the generator as an identity '
         'reference. Also write into the brief itself: "his/her face exactly '
-        'matches the reference photo". A famous person NOT on the list still '
-        'gets named in the brief, but expect likeness drift.')
+        'matches the reference photo". A real named person NOT on the list '
+        '(and with no real article photo) must NOT get a generated stand-in '
+        'face (owner ban Aug 1: a fake "Aschenbrenner" shipped on the '
+        'SA-fund cover and read instantly false) — rewrite that brief to the '
+        "story's objects/scene with no face in frame.")
         if face_list else "")
     logo_list = sorted(os.path.splitext(f)[0] for f in
                        os.listdir(os.path.join(HERE, "logos"))
@@ -608,8 +611,10 @@ YOUR FIRST TRY FAILED — a listener said: "{g.get('why', 'boring')}". Find a di
 SPINE_SCHEMA = {"type": "object", "properties": {
     "irony": {"type": "string"}, "belief": {"type": "string"},
     "event": {"type": "string"}, "twist": {"type": "string"},
-    "fallout": {"type": "string"}},
-    "required": ["irony", "belief", "event", "twist", "fallout"]}
+    "fallout": {"type": "string"}, "protagonist": {"type": "string"},
+    "dinner_detail": {"type": "string"}},
+    "required": ["irony", "belief", "event", "twist", "fallout",
+                 "protagonist", "dinner_detail"]}
 
 
 def story_spine(story, material):
@@ -633,7 +638,9 @@ Return ONLY JSON:
  "belief": "what everyone believed the morning before this happened, one sentence",
  "event": "what actually happened, at human scale (a person's money, job, screen — never index points or corporate abstractions), 1-2 sentences",
  "twist": "the 'wait, WHAT?' fact — the irony or the most contrarian true detail, the beat that re-hooks a tired reader, one sentence",
- "fallout": "who gets hit next / what changes now, one sentence"}}
+ "fallout": "who gets hit next / what changes now, one sentence",
+ "protagonist": "IF one human being drives this story (rise-and-fall, founder, inventor): their name plus the one identity fact that makes them a character (age, 'ex-OpenAI', 'college dropout') — else empty string. A company is never a protagonist",
+ "dinner_detail": "the DINNER TEST: the one human SCENE from this story a person would retell at dinner tonight ('his wedding guests were arriving while the fund collapsed') — a moment, never a statistic; empty string only if the story truly has none"}}
 Every field built ONLY from facts in the material — never invented."""
     try:
         return call_claude(prompt, schema=SPINE_SCHEMA)
@@ -678,6 +685,7 @@ IMAGE ASSIGNMENT — every slide may set "media_idx": N (1-based, matching that 
 - COVER: the most emotionally matching image — a human face or the product/scene in action. A face-only headshot is allowed only when the story IS about that person.
 - INNER slides — IMAGE-CLAIM LOCK (owner audit Aug 1, the Reddit post-mortem: slide 2 claimed "stock crashed 23%" but showed ANOTHER phone-with-logo, nearly identical to the cover): the image must show THAT slide's exact claim, never the story's topic again — the crash slide shows the crash, the lawsuit slide the courtroom, the payout slide the money. If no candidate depicts the slide's claim, do NOT assign one — write an image_brief that does. An image whose subject or composition repeats the cover's image is banned.
 - MEDIA ON EVERY SLIDE (owner audit Aug 1 — the reference carousels carry real media on ALL slides; our shipped text-only slides were the visible gap): every content slide must end with media_idx OR an image_brief. A real photo always beats a generated scene; a naked text slide is a broken slide.
+- PERSON STORY (Situational-Awareness post-mortem Aug 1 — the reference page ran FOUR different real photos of the same man, one per story beat, while we showed his real face once and shipped two near-black slides): when the story has a protagonist, spread every DIFFERENT real photo of that person across the slides — podcast shot on the backstory slide, portrait on the bet slide — each matched to its beat. Same person, new photo each swipe.
 - Never assign the same image to two slides."""
     else:
         img_block = "No usable article images were found."
@@ -729,6 +737,14 @@ THE SPINE — the story's narrative skeleton, extracted by a story editor before
         if spine.get("irony", "").strip():
             spine_block += f"""
 - THE IRONY (the buried gold — this goes ON a slide, in the twist or the stance; NEVER waste it on the pinned comment alone): {spine['irony']}"""
+        if spine.get("dinner_detail", "").strip():
+            spine_block += f"""
+- THE DINNER DETAIL (owner doctrine Aug 1, the Situational-Awareness post-mortem — the giant reference page put the wedding in the HOOK and gave it a full cinematic slide; we buried it in half a clause and lost): {spine['dinner_detail']}
+  This is the one moment people will retell tonight. It goes IN THE COVER HOOK (it beats any percentage) AND gets its OWN scene-slide written like a movie cross-cut ("HIS GUESTS WERE ARRIVING AS THE FUND WAS FALLING APART"). Burying it in a trailing clause is the failure mode."""
+        if spine.get("protagonist", "").strip():
+            spine_block += f"""
+- THE PROTAGONIST (same post-mortem — people follow PEOPLE, not funds): {spine['protagonist']}
+  PERSON-FIRST RULES: (1) the cover hook leads with the PERSON — identity fact + rise + fall ("THIS 24-YEAR-OLD BUILT A $45 BILLION AI FUND. THEN LOST 67% OF IT DURING HIS WEDDING" is the reference; "A $45 BILLION AI FUND COLLAPSED IN DAYS" — thing-first, hero unnamed — is the shipped failure). (2) For a rise-and-fall story the chain runs CHRONOLOGICALLY like a movie: who they are → the rise → the bet → the collapse SCENE (dinner detail) → the spiral → the takeaway. Backstory lives on slide 2-3, never parachuted in late. (3) Their real face should appear on most slides (image rules below)."""
     return f"""You write Instagram carousels for @yaffeai — a page covering AI, technology, space, business, investing, and money in the style of @technology, funneling followers to an AI-consulting business. Turn this story into a **daily_item** post.
 
 STORY
@@ -739,7 +755,7 @@ Source: {story['link']}
 {proof}
 COVER VISUAL
 {img_block}
-IMAGE BRIEFS (mandatory) — besides article images we have an AI image generator. EVERY cover and content slide must ALSO set "image_brief": 15-40 words, subject FIRST, then action, then setting (the generator needs that order). The image must be EVIDENCE of that slide's exact claim, frozen at the exact moment it happens — the test: could a lawyer submit it as an exhibit for the headline? (claim "touch screen" → a real hand physically touching the screen; claim "device lock" → the phone showing it; claim "books destroyed" → the blade mid-cut through the page stack). NEVER a generic person-at-laptop or "a robot" for a robot story. NAME real devices and brands ("a silver MacBook Pro", not "a laptop") — the generator renders them accurately. End the brief with ONE color key tied to the subject ("keyed to deep orange") — one bright saturated accent, never a dark or moody scene. Include a real human face when a person or a reaction is the story — one person, mid-action, face expressive and visible. The image may include AT MOST one short on-screen phrase, ONLY when that phrase IS the claim: write it in double quotes and say where it appears (a phone screen showing "Device Locked"); otherwise the scene has zero text — never signs, menus, or paragraphs, generators garble them. Slides that get a real article image keep it (real beats generated); the brief is the fallback for slides without one.
+IMAGE BRIEFS (mandatory) — besides article images we have an AI image generator. EVERY cover and content slide must ALSO set "image_brief": 15-40 words, subject FIRST, then action, then setting (the generator needs that order). The image must be EVIDENCE of that slide's exact claim, frozen at the exact moment it happens — the test: could a lawyer submit it as an exhibit for the headline? (claim "touch screen" → a real hand physically touching the screen; claim "device lock" → the phone showing it; claim "books destroyed" → the blade mid-cut through the page stack). NEVER a generic person-at-laptop or "a robot" for a robot story. NAME real devices and brands ("a silver MacBook Pro", not "a laptop") — the generator renders them accurately. End the brief with ONE color key tied to the subject ("keyed to deep orange") — one bright saturated accent, never a dark or moody scene. Include a real human face when a person or a reaction is the story — one person, mid-action, face expressive and visible. HARD BAN (owner comparison Aug 1: our SA-fund cover showed a generated angry man standing in for Leopold Aschenbrenner — fake, and weaker than the real famous portrait the reference page used): NEVER generate a face to REPRESENT a real named person. A real person appears only via their real photo (article image or faces pool); if none exists, the brief shows the story's objects/scene with NO face standing in for them. Generated faces are allowed only for anonymous archetypes the story never names ("a trader", "a student"). The image may include AT MOST one short on-screen phrase, ONLY when that phrase IS the claim: write it in double quotes and say where it appears (a phone screen showing "Device Locked"); otherwise the scene has zero text — never signs, menus, or paragraphs, generators garble them. Slides that get a real article image keep it (real beats generated); the brief is the fallback for slides without one.
 Pick "cover_style":
 - "photo" — STRONGLY PREFERRED whenever the press photo exists AND passes the rule above. The photo fills the top ~60% of the cover; the headline sits on a solid black band below it (like the big news pages)
 - "logos" — 1-2 company logos rendered big on the dark cover, only when there is no usable photo (X vs Y or company stories). Available logo names: {', '.join(logos)}. Only these names.
@@ -784,7 +800,7 @@ Structure:
 1. type "cover": THE HOOK — the single most important thing in the whole post (see COVER HOOK below). No body.
 2. type "content": first chain answer. Doubles as the SECOND COVER — Instagram re-serves skipped carousels with slide 2 as the cover, so its headline must hook standalone, never "Here's how" or "The details".
 3+. type "content": the rest of the chain. Each headline = a 5-9 word standalone factual CLAIM someone could disagree with — NEVER a label ("THE DETAILS", "THE REAL STORY", "WHAT THIS MEANS FOR X") and NEVER an aphorism/motivational line ("X BEATS Y"). Use physical past-tense verbs (parked, gutted, handed, escaped — never "is using", "means", "finds") and put a number in the headline whenever the story has one. Body = SPOKEN VOICE (owner directive Aug 1 — the stat-dump bodies read "so not interesting"): 2-3 sentences the way you'd SAY them across a table — a punch, then the plain-words explanation, then a kicker that tees up the next slide. Numbers and names still land in <b>, but a sentence may carry ZERO numbers; voice beats stat density, and a body that reads like a market wrap ("the S&P was green, Nasdaq up 1%") is a failed slide. Ranks and records when TRUE (first, biggest, worst day ever) beat raw figures. Each body delivers a NEW fact — never a re-say of its own headline.
-Second-to-last. type "content": THE VALUE SLIDE — the consulting-funnel slide, built with the $100M Offers rules (section 5 of the principles). Open with the business owner's PAIN this story touches, then the escape: what a normal business can DO with this, with a concrete number, and why it's now fast/effortless ("without hiring anyone"). Its headline is a factual claim with a number too — never a lesson or a "what this means" label. The reader-owner should finish it thinking "I want this in MY business". Same visual style, no selling tone, no price ever.
+Second-to-last. type "content": THE VALUE SLIDE — the consulting-funnel slide, built with the $100M Offers rules (section 5 of the principles). Open with the business owner's PAIN this story touches, then the escape: what a normal business can DO with this, with a concrete number, and why it's now fast/effortless ("without hiring anyone"). Its headline is a factual claim with a number too — never a lesson or a "what this means" label. The reader-owner should finish it thinking "I want this in MY business". Same visual style, no selling tone, no price ever. NEVER a moral or an aphorism (owner comparison Aug 1: "The businesses making real money put AI to work, they don't bet on it" shipped as a sermon that broke the story's spell) — the value slide is still a STORY slide: a concrete number and a real capability, zero preaching.
 Last. type "cta": THE FOLLOW CONVERSION (owner doctrine Aug 1, copied from the reference page's closer — REPLACES the Jul 29 story-FOMO formula): the headline is a DIRECT follow line in one of two registers, wording freshly varied every post: LOSS AVERSION ("YOU MAY NEVER FIND OUR PAGE AGAIN IF YOU DON'T FOLLOW US") or DAILY VALUE ("WE SHARE DAILY UPDATES ON WHAT'S HAPPENING IN AI"). These run 8-11 words — hsize 54-64 so the block still fits. Body: ONE sentence with a specific SEND line naming the exact person-type this story hits ("Send this to the friend who still types every email himself") — a send-line is utility; "tag a friend" is banned bait. The CTA image is the story's famous person (the art direction handles it): the person the reader just spent six slides with is the one telling them to follow.
 For builder_story follow its container spec slide order instead (same question-chain style).
 
