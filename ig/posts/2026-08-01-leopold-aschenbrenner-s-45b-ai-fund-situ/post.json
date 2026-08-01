@@ -1,0 +1,105 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 68,
+   "headline": "A 24-YEAR-OLD WAS <em>FORCED</em> TO SELL HIS $45B FUND",
+   "media": "posts/2026-08-01-leopold-aschenbrenner-s-45b-ai-fund-situ/gen-0.jpg",
+   "subline": "GUESS WHO BOUGHT IT ALL AT A DISCOUNT"
+  },
+  {
+   "type": "content",
+   "hsize": 78,
+   "headline": "HE TURNED <em>$0 INTO $45 BILLION</em> IN ONE YEAR",
+   "body": "He left <b>OpenAI</b> at <b>23</b>, wrote a viral <b>165-page</b> AI essay, and launched a hedge fund. In <b>12 months</b> it hit <b>$45 billion</b>. Nobody could explain how",
+   "media": "posts/2026-08-01-leopold-aschenbrenner-s-45b-ai-fund-situ/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "HE BET <em>$4 FOR EVERY $1</em> HE HAD",
+   "body": "His fund used <b>400%</b> leverage: for every <b>$1</b>, he borrowed <b>$3</b> more and bet it all on AI stocks. Insiders said the blowup was <b>'not if, but when'</b>",
+   "media": "posts/2026-08-01-leopold-aschenbrenner-s-45b-ai-fund-situ/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 90,
+   "headline": "HE <em>FIRE-SOLD EVERYTHING</em> IN ONE WEEK",
+   "body": "His lenders demanded <b>billions</b> he didn't have. He dumped every position to <b>Ken Griffin's Citadel</b> at a steep discount. <b>$45 billion</b> crashed to <b>$10 billion</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "IT HAPPENED <em>THE WEEK OF HIS WEDDING</em>",
+   "body": "His fianc\u00e9e is chief of staff to <b>Anthropic's CEO</b>. He also held a <b>multibillion-dollar</b> stake in her company. The collapse and his wedding landed in the same <b>week</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 95,
+   "headline": "THE SAME MISTAKE <em>COST HIM $35 BILLION</em>",
+   "body": "He went all in with <b>no exit plan</b>. Most businesses do the same with AI. The ones winning got someone to build it right and prove it <b>pays for itself</b> first",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 100,
+   "headline": "THIS WON'T BE <em>THE LAST BLOWUP</em>",
+   "body": "More funds are making the same <b>400%</b> bets right now. Follow, you'll want to see who's next. Send this to the friend who thinks AI stocks only go up",
+   "media": null
+  }
+ ],
+ "caption": "Leopold Aschenbrenner's $45 billion AI fund collapsed to $10 billion in one week. Swipe to see how it happened \ud83d\udd25\n\nHe left OpenAI at 23, wrote a viral 165-page essay about AI, launched a hedge fund called Situational Awareness in July 2024, gained over 1,000% and peaked at $45 billion using 400% leverage on AI stocks, got margin-called when the market dipped, fire-sold everything to Ken Griffin's Citadel at a steep discount, and watched it crash to $10 billion the same week as his wedding to Anthropic CEO's chief of staff\n\nThe AI gold rush is creating and destroying fortunes faster than anything Wall Street has seen. When 400% leverage meets one bad week, billions vanish overnight. Save this as a reminder of what happens when hype outpaces the plan.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: CNBC, Wall Street Journal\n\n#AI #WallStreet #Investing #Technology #Money",
+ "pinned_comment": "The part we couldn't fit: before starting this fund, he worked for Sam Bankman-Fried in a Bahamas penthouse. His first boss and his own fund both blew up the same way",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "A 24-YEAR-OLD <em>LOST $35 BILLION IN ONE WEEK</em>",
+   "A 24-YEAR-OLD <em>LOST</em> $35 BILLION IN ONE WEEK",
+   "1,000% GAINS <em>WIPED OUT</em> IN A SINGLE WEEK",
+   "A $45B AI FUND <em>BLEW UP</em> DURING HIS WEDDING",
+   "A 24-YEAR-OLD WAS <em>FORCED</em> TO SELL HIS $45B FUND",
+   "A 24-YEAR-OLD <em>BORROWED $3 FOR EVERY $1</em> ON AI",
+   "HE MADE <em>$45 BILLION IN ONE YEAR</em>",
+   "A 24-YEAR-OLD <em>BLEW UP</em> THE BIGGEST AI FUND",
+   "A 24-YEAR-OLD RAN A $45B FUND ON <em>400% LEVERAGE</em>",
+   "<em>$45 BILLION GONE</em> IN 7 DAYS"
+  ],
+  "scores": [
+   8,
+   8,
+   5,
+   7,
+   9,
+   4,
+   6,
+   8,
+   6,
+   0
+  ],
+  "winner": 4,
+  "why": "The 'GUESS WHO BOUGHT IT ALL AT A DISCOUNT' subline creates an open-ended mystery that forces a swipe \u2014 you already felt the shock, now you physically cannot not find out. The runner-ups (0/1) deliver the drama but hand you the whole story on the cover, so there's nothing left to swipe for."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Leopold Aschenbrenner",
+  "actor_known": false,
+  "anchor": "a 24-year-old ex-OpenAI researcher",
+  "specifics": [
+   "$45 billion fund crashed to $10 billion in one week",
+   "400% leverage triggered margin call forcing fire sale to Citadel",
+   "fund had gained 1,000%+ since launching just one year earlier",
+   "collapse happened the same week as his wedding",
+   "his fianc\u00e9e is chief of staff to Anthropic's CEO"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Leopold Aschenbrenner's $45B AI fund Situational Awareness forced into fire sale to Ken Griffin's Citadel",
+  "link": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+  "judge_interest": 10,
+  "scout_score": 99
+ }
+}
