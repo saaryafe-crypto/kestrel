@@ -37,6 +37,14 @@ SCHEMA = {
                     "product_shot": {"type": "boolean"},
                     "image_brief": {"type": "string"},
                     "layout": {"type": "string", "enum": ["card"]},
+                    "discs": {
+                        "type": "array", "maxItems": 2,
+                        "items": {
+                            "type": "object",
+                            "properties": {"logo": {"type": "string"},
+                                           "text": {"type": "string"}},
+                        },
+                    },
                 },
                 "required": ["type", "hsize", "headline"],
             },
@@ -572,7 +580,7 @@ Pick "cover_style":
 - "photo" — STRONGLY PREFERRED whenever the press photo exists AND passes the rule above. The photo fills the top ~60% of the cover; the headline sits on a solid black band below it (like the big news pages)
 - "logos" — 1-2 company logos rendered big on the dark cover, only when there is no usable photo (X vs Y or company stories). Available logo names: {', '.join(logos)}. Only these names.
 - "type" — big-headline-only dark cover (last resort)
-"logos" array may ALSO be set together with "photo": the logo(s) are overlaid on top of the photo (one logo max in that case — pick the company the story is about). NEVER overlay a logo when the photo shows a person's face — it lands on top of them and looks amateur; leave logos empty
+"logos" array may ALSO be set together with "photo": the logo(s) are overlaid on top of the photo (one logo max in that case — pick the company the story is about). NEVER overlay a flat logo when the photo shows a person's face — it lands on top of them and looks amateur; for a famous person's photo use the COMPOSED COVER discs instead (below) and leave logos empty
 NO SUBLINE (owner rule Aug 1): under the cover headline the design shows only a small "SWIPE FOR MORE" strip — nothing else. Every word of the hook must live in the big headline itself.
 
 {principles()}
@@ -620,6 +628,8 @@ PROFILE CARD FORMAT (owner gold-standard example Aug 1 — the @techskills Merco
 - Slide order = a life arc: who he is → the early feat → the founding → what the thing does + the money number → the growth numbers → the record + the stance. Same open-loop rule at every boundary.
 - The COVER for this format is the exception to the 9-word cap: one 12-24 word record-sentence that tells the WHOLE claim, structured [record] + [how, in plain words] ("A 22 year old just became the youngest self made billionaire in history. He built an AI recruiting tool with 2 college friends"), hsize 54-58, <em> on the record phrase. The absurd true claim IS the hook; there is no hidden twist to protect.
 - If the story's company logo exists in our logo set, set top-level "badge_logo" to it and make sure the cover image puts the person RIGHT of center (the badge chip renders top-left).
+
+COMPOSED COVER (owner gold standard Aug 1 — the @getintoai anatomy; STRONGLY PREFERRED whenever eligible): when the cover's real article photo (media_idx) shows the story's FAMOUS person — one person, chest-up, face clear — set "discs" on the cover slide: 1-2 elements that complete the story equation beside the face. First disc = the story company's logo (only names from the logo list). Second disc = the exact product/object the headline claims, as SHORT typeset text, 12 characters max ("OPUS 5", "CODEX", "$45B MEMO") — or a second logo when the story pairs two brands. The pipeline cuts the person out of the photograph, blurs the photo's own world into the backdrop, floats the discs at head height and layers the person OVER them — face, logos and background all connected to the claim (reference: Sam Altman shushing between the OpenAI badge and a terminal icon; Anthropic's CEO between the Claude disc and an "Opus 5" disc). Rules: ONLY on a real press photo of a famous person — never on a generated image, never an unknown face; every disc must be RELATIONAL (the brand of the story + the thing the headline claims — a disc that could sit on any post is banned); skip discs when the photo has multiple people or the person is a tiny part of the frame. If the cutout fails, the pipeline falls back to the plain photo cover automatically.
 
 COVER HOOK — the #1 priority. The cover decides whether anyone swipes. OWNER DOCTRINE (Jul 29, restated verbatim after approving the Visa v2 cover — overrides everything older): "Your job is NOT to explain. Your job is to make someone incapable of not swiping." Built ONLY from true facts in the story.
 {steer}
@@ -949,6 +959,28 @@ def main(stories_path):
     if badge and cover.get("media") and os.path.exists(
             os.path.join(HERE, "logos", f"{badge}.svg")):
         cover["badge_logo"] = badge  # circular brand chip on the cover photo
+
+    # composed cover (owner gold standard Aug 1, @getintoai anatomy): cut the
+    # famous person out of the REAL press photo; renderer stacks backdrop <
+    # discs < person. Never on generated images (unfamiliar-faces rule) —
+    # every failure falls back to the plain photo cover, a slot never dies.
+    discs = [d for d in (cover.get("discs") or [])
+             if (d.get("logo") and os.path.exists(
+                     os.path.join(HERE, "logos", f'{d["logo"]}.svg')))
+             or (d.get("text") and len(d["text"]) <= 12)]
+    cover.pop("discs", None)
+    if discs and cover.get("media") and \
+            not os.path.basename(cover["media"]).startswith("gen"):
+        import composite
+        cut = composite.cutout(os.path.join(HERE, cover["media"]),
+                               os.path.join(post_dir, "cutout.png"))
+        if cut:
+            cover["cutout"] = os.path.relpath(cut, HERE)
+            cover["discs"] = discs
+            cover.pop("logos", None)  # discs replace the flat logo overlay
+            print("composed cover: cutout + "
+                  + ", ".join(d.get("logo") or f'"{d["text"]}"' for d in discs),
+                  file=sys.stderr)
     post.pop("subline", None)  # dead field (owner Aug 1): covers render headline + swipe strip only
     post.update(handle="@yaffeai",
                 container=post.pop("container", "daily_item"),

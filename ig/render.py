@@ -112,6 +112,28 @@ body.cover .bleed{-webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 160
 .shade{position:absolute;inset:0;z-index:1;
        background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,0) 14%,
        rgba(0,0,0,0) 46%,rgba(5,5,5,.6) 62%,rgba(5,5,5,.9) 72%,rgba(5,5,5,.94) 100%)}
+/* composed cover (owner gold standard Aug 1, @getintoai anatomy): blurred
+   story-world backdrop, 1-2 big logo/text discs at head height, the REAL
+   person CUT OUT on top overlapping the discs (background < discs < person),
+   feathered into the black band at the wordmark. The face is never generated;
+   disc text is typeset here so it can never garble. */
+.bgblur.lite{filter:blur(34px) brightness(.5) saturate(1.05)}
+.disc{position:absolute;top:110px;width:330px;height:330px;border-radius:50%;
+      z-index:1;display:flex;align-items:center;justify-content:center;
+      box-shadow:0 18px 60px rgba(0,0,0,.6)}
+.disc.left{left:52px}.disc.right{right:52px}
+.disc.dark{background:radial-gradient(circle at 35% 30%,#1a1a20 0%,#050507 80%);
+           box-shadow:0 18px 60px rgba(0,0,0,.6),inset 0 0 0 2px rgba(255,255,255,.09)}
+.disc.dark img{width:60%;filter:drop-shadow(0 6px 18px rgba(0,0,0,.6))}
+.disc.cream{background:#EFE6D5}
+.disc .dtxt{font-family:Anton;font-size:72px;color:#12100c;text-transform:uppercase;
+            letter-spacing:.01em;text-align:center;line-height:1.05;padding:0 28px}
+.cut{position:absolute;top:30px;left:0;right:0;height:900px;z-index:1;
+     display:flex;justify-content:center;align-items:flex-end;
+     -webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 90px),rgba(0,0,0,0) 100%);
+     mask-image:linear-gradient(180deg,#000 calc(100% - 90px),rgba(0,0,0,0) 100%)}
+.cut img{max-width:100%;max-height:100%;object-fit:contain;
+         filter:drop-shadow(0 24px 60px rgba(0,0,0,.55))}
 /* content: photo edge-to-edge top (~58%) feathered into black, text below —
    one connected composition (@technology inner-slide anatomy, owner spec Jul 28) */
 body.content .frame{position:relative;z-index:2;height:1350px;display:flex;
@@ -224,11 +246,13 @@ function fitLines(h){
    line, zero dead band, for any caption length. */
 function scrim(){
   var bleed=document.querySelector('.bleed'),shade=document.querySelector('.shade');
-  if(!bleed||!shade)return;
+  var cut=document.querySelector('.cut');
+  if(!(bleed||cut)||!shade)return;
   var mast=document.querySelector('body.cover .frame .masthead');
   if(mast){
     var edge=Math.max(420,Math.min(1350,Math.round(mast.getBoundingClientRect().top)+12));
-    bleed.style.height=(edge+50)+'px';
+    if(bleed)bleed.style.height=(edge+50)+'px';
+    if(cut)cut.style.height=(edge+24)+'px';
     shade.style.background='linear-gradient(180deg,rgba(0,0,0,.25) 0px,rgba(0,0,0,0) 140px,'
       +'rgba(0,0,0,0) '+(edge-190)+'px,rgba(5,5,5,.6) '+(edge-70)+'px,'
       +'#050505 '+edge+'px,#050505 1350px)';
@@ -290,6 +314,23 @@ def slide_html(s, handle, total, fallback_media=None):
             bg = (f'<div class="bgblur" style="background-image:url(\'{first}\')"></div>'
                   f'<div class="bleed collage">{cols}</div><div class="shade"></div>')
             cls = "cover"
+        elif s.get("cutout") and os.path.exists(os.path.join(HERE, s["cutout"])):
+            # composed cover (@getintoai anatomy): backdrop < discs < cutout
+            cut = os.path.join(HERE, s["cutout"])
+            discs = ""
+            for di, d in enumerate(s.get("discs", [])[:2]):
+                side = "left" if di == 0 else "right"
+                if d.get("logo") and os.path.exists(
+                        os.path.join(HERE, "logos", f'{d["logo"]}.svg')):
+                    discs += (f'<div class="disc {side} dark">'
+                              f'<img src="{HERE}/logos/{d["logo"]}.svg"></div>')
+                elif d.get("text"):
+                    discs += (f'<div class="disc {side} cream">'
+                              f'<span class="dtxt">{d["text"]}</span></div>')
+            back = (f'<div class="bgblur lite" style="background-image:url(\'{media}\')"></div>'
+                    if media else art_bg(s["headline"]))
+            bg = f'{back}{discs}<div class="cut"><img src="{cut}"></div><div class="shade"></div>'
+            cls = "cover composed"
         elif media:
             bg = (f'<div class="bgblur" style="background-image:url(\'{media}\')"></div>'
                   f'<div class="bleed" style="background-image:url(\'{media}\')"></div><div class="shade"></div>')
