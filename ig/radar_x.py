@@ -190,11 +190,40 @@ def _cached():
         return []
 
 
+def alert_dead(reason):
+    """Owner directive Aug 1 ('the x radar is the most important... it is dead
+    and we do not know about it'): a dead X lane is NEVER silent. One GitHub
+    issue fires the moment it dies (deduped against open issues so the 2h
+    radar cadence can't spam). Fails open — alerting must never break radar."""
+    import subprocess
+    title = "X radar DEAD — viral X lane offline"
+    try:
+        open_ = subprocess.run(
+            ["gh", "issue", "list", "-R", "saaryafe-crypto/kestrel",
+             "--state", "open", "--search", f'"{title}" in:title',
+             "--json", "title"],
+            capture_output=True, text=True, timeout=30).stdout
+        if title in (open_ or ""):
+            return
+        subprocess.run(
+            ["gh", "issue", "create", "-R", "saaryafe-crypto/kestrel",
+             "-t", title,
+             "-b", f"{reason}\n\nReels and radar stories are running on Reddit "
+                   "alone until this is fixed. First check: TWITTER_API_KEY in "
+                   "~/kestrel/.env (the Jul 31 repo move left keys behind in "
+                   "~/yaffeai/.env once already)."],
+            capture_output=True, timeout=30)
+    except Exception as e:
+        print(f"x radar: alert failed too ({e})", file=sys.stderr)
+
+
 def harvest():
     key = _key()
     if not key:
         print("x radar: no TWITTERAPI_KEY — skipping (reddit radar stands alone)",
               file=sys.stderr)
+        alert_dead("No TWITTER_API_KEY/TWITTERAPI_KEY found in the environment "
+                   "or ~/kestrel/.env — the X radar cannot poll.")
         return []
     try:
         led = json.load(open(LEDGER))

@@ -184,8 +184,14 @@ def radar_candidates(used):
         if "reddit" in m["permalink"]:
             # reddit: yt-dlp probes the permalink (also gives the uploader)
             try:
-                d = json.loads(yt("-J", "--no-download", m["permalink"]))
+                # yt-dlp prints "null" on a failed probe (e.g. reddit read
+                # timeout, seen Aug 1) — that parsed to None and the .get()
+                # below killed the ENTIRE radar rung. One bad probe now skips
+                # one candidate, never the batch.
+                d = json.loads(yt("-J", "--no-download", m["permalink"])) or {}
             except Exception:
+                continue
+            if not isinstance(d, dict):
                 continue
             dur = d.get("duration") or 0
             res = min(d.get("width") or 0, d.get("height") or 0)

@@ -1,16 +1,14 @@
 {
- "_comment": "X accounts the Demand Radar watches (radar_x.py), organized in lanes. Radar batches them into from:-OR searches with a min_faves floor, so we only pay for tweets that are ALREADY viral - adding accounts is nearly free. Edit freely, no code change needed.",
+ "_comment": "X accounts the Demand Radar watches (radar_x.py), organized in lanes. Radar batches them into from:-OR searches with a min_faves floor, so we only pay for tweets that are ALREADY viral - adding accounts is nearly free. Edit freely, no code change needed. OWNER DOCTRINE (Aug 1, permanent): the radar's job is (1) the most viral things happening in tech/AI/space and (2) the accounts that SUMMARIZE everything - not a CEO roll call. Keep the founders lane to the handful whose own tweets go viral; put the weight on summarizers and viral lanes.",
  "lanes": {
   "ai_labs_founders": [
-   "sama", "OpenAI", "AnthropicAI", "GoogleDeepMind", "GoogleAI", "xai",
-   "elonmusk", "karpathy", "ylecun", "demishassabis", "DrJimFan", "gdb",
-   "AndrewYNg", "sundarpichai", "satyanadella", "AravSrinivas",
-   "alexandr_wang", "emollick"
+   "sama", "elonmusk", "OpenAI", "AnthropicAI", "GoogleDeepMind", "karpathy"
   ],
-  "ai_news_clips": [
+  "ai_news_summarizers": [
    "tsarnick", "kimmonismus", "rowancheung", "AISafetyMemes", "bindureddy",
    "minchoi", "mckaywrigley", "LinusEkenstam", "slow_developer",
-   "ai_for_success", "venturetwins", "heyBarsee", "altryne", "javilopen"
+   "ai_for_success", "venturetwins", "heyBarsee", "altryne", "javilopen",
+   "AiBreakfast", "WesRothMoney", "dr_cintas"
   ],
   "robots": [
    "Tesla_Optimus", "Figure_robot", "UnitreeRobotics", "BostonDynamics",
@@ -23,7 +21,7 @@
   ],
   "tech_breaking": [
    "TheInsiderPaper", "unusual_whales", "WatcherGuru", "IntEngineering",
-   "engineers_feed"
+   "engineers_feed", "MarioNawfal"
   ],
   "wow_aggregators": [
    "Rainmaker1973", "konstructivizm", "AMAZlNGNATURE", "gunsnrosesgirl3",

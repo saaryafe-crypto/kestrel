@@ -193,6 +193,11 @@ def main():
                 moments.append(m)
     except Exception as e:
         print(f"x radar failed ({e}) — reddit lane stands alone", file=sys.stderr)
+        try:  # never-silent rule (Aug 1): the X lane is the primary source — raise the alarm
+            import radar_x
+            radar_x.alert_dead(f"radar.py X lane crashed: {e}")
+        except Exception:
+            pass
 
     moments.sort(key=lambda m: -m["vph"])  # raw velocity — honest from run #1
     moments = moments[:N_MOMENTS]
