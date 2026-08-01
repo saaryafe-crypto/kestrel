@@ -1,0 +1,105 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A $45 BILLION AI FUND <em>COLLAPSED</em> IN DAYS",
+   "hsize": 78,
+   "media": "posts/2026-08-01-how-leopold-aschenbrenner-built-a-45-bil/gen-0.jpg",
+   "subline": "HE USED 400% LEVERAGE"
+  },
+  {
+   "type": "content",
+   "headline": "HE BUILT <em>A $45 BILLION AI FUND</em> IN TWO YEARS",
+   "hsize": 78,
+   "body": "Leopold Aschenbrenner left OpenAI and bet everything on AI stocks. Launched <b>July 2024</b>. Two years later: <b>$45 billion</b>, returns over <b>1,000%</b>",
+   "media": "posts/2026-08-01-how-leopold-aschenbrenner-built-a-45-bil/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "HE BORROWED <em>$4 FOR EVERY $1</em> HE HAD",
+   "hsize": 82,
+   "body": "For every <b>$1</b> the fund had, it borrowed <b>$4</b> more. That's <b>400% leverage</b>. When stocks dropped, his losses hit <b>4x</b> as fast",
+   "media": "posts/2026-08-01-how-leopold-aschenbrenner-built-a-45-bil/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "THE FUND <em>CRASHED TO $10 BILLION</em> BY THURSDAY",
+   "hsize": 82,
+   "body": "Went from <b>$45 billion</b> to <b>$10 billion</b> by Thursday. Had to sell it all to <b>Citadel</b> at a steep discount. His wedding was that same week",
+   "media": "posts/2026-08-01-how-leopold-aschenbrenner-built-a-45-bil/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "HE WORKED FOR <em>SAM BANKMAN-FRIED</em>",
+   "hsize": 96,
+   "body": "Before the fund, he helped <b>Sam Bankman-Fried</b> run a charity from a <b>Bahamas penthouse</b>. Graduated high school at <b>15</b>, Columbia valedictorian at <b>19</b>. People close to him called this collapse <b>\"not if, but when\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "HE GAMBLED <em>$45 BILLION</em> ON THE WRONG PLAY",
+   "hsize": 82,
+   "body": "Bet <b>$45 billion</b> on AI stocks. Lost most of it in <b>days</b>. The businesses making real money put AI to work, they don't bet on it",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "THIS WON'T BE <em>THE LAST AI BLOWUP</em>",
+   "hsize": 96,
+   "body": "Follow so you see who bets it all next. Send this to the friend who thinks AI stocks only go up",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how a former OpenAI researcher built a $45 billion fund and lost most of it before his wedding \ud83d\udcb0\n\nLeopold Aschenbrenner, a former OpenAI researcher, started an AI hedge fund in July 2024, ran it up to $45 billion with over 1,000% gains, used 400% leverage on stocks like SK Hynix and CoreWeave, watched it crash to $10 billion in days, sold everything to Citadel at a discount, all the week of his wedding. Before the fund, he worked for Sam Bankman-Fried at FTX.\n\nAI is creating and destroying fortunes faster than anything before it. One bad week erased $35 billion. The people who win with AI won't be the ones gambling on stocks. They'll be the ones actually using it.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: CNBC, Wall Street Journal\n\n#AI #hedgefund #investing #wallstreet #trading",
+ "pinned_comment": "The part we couldn't fit: his fianc\u00e9e is chief of staff to Anthropic's CEO. The fund held a multibillion-dollar Anthropic stake. Nobody's talking about that",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "HE BORROWED <em>$4 FOR EVERY $1</em>",
+   "A GUY FROM FTX <em>JUST LOST $35 BILLION</em>",
+   "HE LOST $35 BILLION THE WEEK OF HIS <em>WEDDING</em>",
+   "A FORMER <em>FTX</em> EMPLOYEE JUST BLEW UP $45 BILLION",
+   "HE LOST <em>$35 BILLION</em> THE WEEK OF HIS WEDDING",
+   "HE HAD <em>$45 BILLION</em> AT 24",
+   "HE BET <em>400%</em> OF HIS FUND ON AI STOCKS",
+   "A 24-YEAR-OLD <em>LOST $35 BILLION</em>",
+   "A 24-YEAR-OLD JUST <em>LOST</em> $35 BILLION",
+   "A $45 BILLION AI FUND <em>COLLAPSED</em> IN DAYS"
+  ],
+  "scores": [
+   6,
+   7,
+   0,
+   0,
+   0,
+   0,
+   7,
+   0,
+   0,
+   8
+  ],
+  "winner": 9,
+  "why": "The $45B number lands the scale immediately, 'COLLAPSED IN DAYS' makes it feel like a disaster movie, and the 400% leverage subline is the 'wait HOW' that forces the swipe \u2014 three escalating gut punches in two lines. Runner-up [6] hits the absurd mechanic first but never tells you how much was on the table, so the stakes feel abstract."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Leopold Aschenbrenner",
+  "actor_known": false,
+  "anchor": "a 24-year-old ex-OpenAI researcher",
+  "specifics": [
+   "$45 billion fund collapsed to $10 billion in days",
+   "Was using 400% leverage on AI stocks",
+   "Had to fire-sale everything to Citadel at a discount",
+   "Meltdown happened right before his wedding that weekend",
+   "Previously worked for Sam Bankman-Fried at FTX"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund \u2014 and lost most of it in days",
+  "link": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+  "judge_interest": 9,
+  "scout_score": 129.6
+ }
+}
