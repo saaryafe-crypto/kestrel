@@ -47,9 +47,9 @@ def env_key(name):
     return None
 
 
-def send_email(subject, text):
-    """Owner rule Aug 1: this report lands in the Gmail inbox every day no
-    matter what. Needs a Google app password (Google Account -> Security ->
+def send_email(subject, text, html=None):
+    """Owner rule Aug 1: this report lands in the inbox every day no matter
+    what. Needs a Google app password (Google Account -> Security ->
     2-Step Verification -> App passwords) saved as GMAIL_APP_PASSWORD in
     ~/kestrel/.env. Returns False until the key exists — the gh-issue route
     still delivers, and the missing key is named loudly in the report."""
@@ -58,7 +58,13 @@ def send_email(subject, text):
         return False
     import smtplib
     from email.mime.text import MIMEText
-    msg = MIMEText(text)
+    from email.mime.multipart import MIMEMultipart
+    if html:  # colored report + plain-text twin (owner Aug 1: readable, 14yo)
+        msg = MIMEMultipart("alternative")
+        msg.attach(MIMEText(text))
+        msg.attach(MIMEText(html, "html"))
+    else:
+        msg = MIMEText(text)
     msg["Subject"], msg["From"] = subject, GMAIL
     msg["To"] = ", ".join(RECIPIENTS)
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
@@ -67,6 +73,72 @@ def send_email(subject, text):
         s.login(GMAIL, re.sub(r"\s+", "", pw))
         s.send_message(msg)
     return True
+
+
+# ---- colored HTML rendering (owner Aug 1: "easy to read and nice ... like i
+# am 14 yo and also with colors. dont miss information") — the HTML is built
+# FROM the exact same text lines, so nothing can be lost in the pretty view.
+BAD_RE = re.compile(r"NOT FOUND|NOT on Instagram|FAILED|MISSING|PROBLEM|"
+                    r"BARE COVER|DEAD|STALE|NOTHING went out|NOT SENT|"
+                    r"NOT flowing|UNKNOWN|NOT live")
+WARN_RE = re.compile(r"FALLBACK|possible|Account Status")
+GOOD_RE = re.compile(r"ALL GOOD|really (there|live)|real cover photo|"
+                     r"connected|ARE flowing|no problems")
+ICONS = {"@yaffeai": "🇺🇸", "@ainews.israel": "🇮🇱", "X (Twitter)": "📡",
+         "Money": "💰", "Problems": "🚨"}
+
+
+def tone(ln):
+    if BAD_RE.search(ln):
+        return "#d93025"   # red
+    if WARN_RE.search(ln):
+        return "#e37400"   # orange
+    if GOOD_RE.search(ln):
+        return "#1e8e3e"   # green
+    return "#333333"
+
+
+def render_html(day, lines):
+    ok = not any(tone(ln) == "#d93025" for ln in lines)
+    head = ("✅ ALL GOOD — everything checked out" if ok
+            else "❌ SOMETHING NEEDS YOUR ATTENTION")
+    out = [f'<div style="font-family:Arial,Helvetica,sans-serif;max-width:640px;'
+           f'margin:0 auto;background:#f5f5f5;padding:16px">'
+           f'<div style="background:{"#1e8e3e" if ok else "#d93025"};color:#fff;'
+           f'padding:18px 20px;border-radius:10px 10px 0 0;font-size:20px;'
+           f'font-weight:bold">{head}<div style="font-size:13px;font-weight:'
+           f'normal;margin-top:4px">Daily report for {day}</div></div>']
+    section_open = False
+    for ln in lines:
+        ln = ln.rstrip()
+        if not ln:
+            continue
+        if ln.startswith("## "):
+            if section_open:
+                out.append("</div>")
+            title = ln[3:]
+            icon = next((v for k, v in ICONS.items() if k in title), "📋")
+            out.append(f'<div style="background:#fff;margin-top:12px;padding:'
+                       f'14px 18px;border-radius:8px">'
+                       f'<div style="font-size:16px;font-weight:bold;'
+                       f'margin-bottom:8px">{icon} {title}</div>')
+            section_open = True
+            continue
+        c = tone(ln)
+        mark = ("❌" if c == "#d93025" else "⚠️" if c == "#e37400"
+                else "✅" if c == "#1e8e3e" else "•")
+        txt = ln[2:] if ln.startswith("- ") else ln
+        weight = ("bold" if c != "#333333" or txt.startswith(("ALL GOOD",
+                  "PROBLEM", "VERDICT")) else "normal")
+        out.append(f'<div style="color:{c};font-weight:{weight};font-size:14px;'
+                   f'line-height:1.6;margin:3px 0">{mark} {txt}</div>')
+    if section_open:
+        out.append("</div>")
+    out.append('<div style="color:#999;font-size:11px;padding:12px 4px">'
+               'Sent automatically every morning at 08:45 by the kestrel '
+               'system on your Mac. A copy lives in the GitHub issues as '
+               'backup.</div></div>')
+    return "\n".join(out)
 
 
 def commits_on(day, pattern):
@@ -180,17 +252,18 @@ def budget_lines():
     lines = []
     img = sum(u["cost"] for u in (ledger("genimg-used.json") or [])
               if u["date"][:7] == m)
-    lines.append(f"Replicate image-gen (Seedream): ${img:.2f} of "
-                 f"${MONTH_BUDGET:.2f}/mo cap")
+    lines.append(f"AI images we generated (Replicate): ${img:.2f} spent, "
+                 f"limit is ${MONTH_BUDGET:.2f} a month")
     led = ledger("x-used.json") or {}
     xr = led.get("reads", 0) if led.get("month") == m else 0
-    lines.append(f"twitterapi.io X radar: ${xr * 0.15 / 1000:.2f} of "
-                 f"${CAP_READS_MONTH * 0.15 / 1000:.2f}/mo cap ({xr:,} reads)")
+    lines.append(f"X (Twitter) data (twitterapi.io): "
+                 f"${xr * 0.15 / 1000:.2f} spent, limit is "
+                 f"${CAP_READS_MONTH * 0.15 / 1000:.2f} a month")
     bn = sum(1 for e in (ledger("bundle-used.json") or [])
              if e.get("date", "")[:7] == m)
-    lines.append(f"bundle.social free tier: {bn} of 20 posts/mo")
-    lines.append("Make.com (both scenarios), Claude subscription, GitHub "
-                 "Actions: flat/free tiers, no per-use meter")
+    lines.append(f"bundle.social (reel uploads): {bn} of 20 free posts used")
+    lines.append("Everything else (Make.com, Claude, GitHub): fixed price, "
+                 "cannot surprise us")
     return lines
 
 
@@ -217,15 +290,15 @@ def main():
         pats = COMMIT_PATTERNS[handle]
         car = commits_on(y, pats["carousels"])
         reels = commits_on(y, pats["reels"])
-        body.append(f"## @{handle}")
-        body.append(f"System ledger (git) for {y}: {len(car)} carousels of "
-                    f"{plan['carousels']}, {len(reels)} reels of {plan['reels']}"
-                    + (" published" if car or reels else " — NOTHING went out"))
+        body.append(f"## @{handle} ({'Hebrew' if he else 'English'} account)")
+        body.append(f"Posted yesterday: {len(car)} of {plan['carousels']} "
+                    f"carousels, {len(reels)} of {plan['reels']} reels"
+                    + ("" if car or reels else " — NOTHING went out"))
         try:
             counts, live, live_reels = scrape_channel(handle)
             if counts:
-                body.append(f"Profile now: {counts['followers']:,} followers, "
-                            f"{counts['posts']:,} posts total")
+                body.append(f"Followers right now: {counts['followers']:,} "
+                            f"({counts['posts']:,} posts on the page)")
             # truth check: each published carousel's caption must be findable
             # among the newest grid posts (caption match beats date-bucket
             # counting: no timezone wobble, names the exact missing post)
@@ -235,11 +308,11 @@ def main():
                 key = own_caption(name, he)
                 if not key or key not in descs:
                     missing.append(name)
-            body.append(f"Grid check (scraped just now, newest {len(live)} "
-                        f"posts): {len(car) - len(missing)} of {len(car)} "
-                        f"carousels found live by caption")
+            body.append(f"We just opened the Instagram page and checked: "
+                        f"{len(car) - len(missing)} of {len(car)} carousels "
+                        "are really there")
             for name in missing:
-                body.append(f"- NOT FOUND on the grid: {name}")
+                body.append(f"- This post is NOT on Instagram: {name}")
             # cover-photo check (owner Aug 1, Chrome-bugs post-mortem: every
             # carousel MUST ship a real cover photo; a bare one gets named)
             bare = []
@@ -256,8 +329,8 @@ def main():
                     bare.append(f"- COVER FALLBACK "
                                 f"({p['cover_fallback']}): {name}")
             if car:
-                body += bare or ["Cover photos: every carousel shipped "
-                                 "with a real cover image"]
+                body += bare or ["Cover photos: every carousel has a real "
+                                 "cover photo"]
             # reels truth check: the /reels/ tab is scraped live, same
             # caption-match as the grid (a webhook 200 or even an IG media
             # id is NOT proof — the Aug 1 handwriting reel vanished after
@@ -267,75 +340,77 @@ def main():
                 rmissing = [nm for nm in reels
                             if not own_caption(nm, he)
                             or own_caption(nm, he) not in rdescs]
-                body.append(f"Reels tab (scraped just now, newest "
-                            f"{len(live_reels)}): "
+                body.append(f"We checked the reels tab too: "
                             f"{len(reels) - len(rmissing)} of {len(reels)} "
-                            "published reels found live by caption")
+                            "reels are really there")
                 for nm in rmissing:
-                    body.append(f"- reel NOT FOUND on the reels tab: {nm} "
-                                "(possible IG removal — check app -> "
-                                "Account Status)")
+                    body.append(f"- This reel is NOT on Instagram: {nm} "
+                                "(maybe Instagram removed it — check the "
+                                "app -> Account Status)")
                 missing += rmissing
             liked = [e for e in live if e["likes"] > 0]
             if liked:
                 body.append("Top recent: " + " | ".join(
                     f'{e["likes"]:,} likes "{e["caption"][:50]}"'
                     for e in sorted(liked, key=lambda e: -e["likes"])[:3]))
-            body.append("VERDICT: OK — every published carousel and reel "
-                        "verified live."
+            body.append("ALL GOOD: everything we posted yesterday is really "
+                        "live on Instagram."
                         if not missing else
-                        f"VERDICT: MISMATCH — {len(missing)} published "
-                        "item(s) NOT live. Check the Make scenario "
-                        "history and the open alerts below.")
+                        f"PROBLEM: {len(missing)} thing(s) we posted are NOT "
+                        "on Instagram. Check the Make history and the "
+                        "problems section below.")
         except Exception as e:
-            body.append(f"LIVE VERIFICATION FAILED ({type(e).__name__}: {e}) "
-                        "— live state UNKNOWN, not assumed. Re-run: cd "
-                        "~/kestrel/ig && .venv/bin/python daily.py --dry")
+            body.append(f"PROBLEM: could not open Instagram to check "
+                        f"({type(e).__name__}: {e}) — so what is live today "
+                        "is UNKNOWN. Re-run: cd ~/kestrel/ig && "
+                        ".venv/bin/python daily.py --dry")
         body.append("")
 
-    body.append("## X radar (twitterapi.io) — token + data actually flowing")
+    body.append("## X (Twitter) data feed — where our stories come from")
     try:
         led = json.load(open(os.path.join(HERE, "x-used.json")))
         age_h = (time.time() - led.get("last_poll", 0)) / 3600
         r = json.load(open(os.path.join(HERE, "radar.json")))
         xm = [m for m in r.get("moments", []) if "on X" in m.get("where", "")]
         xv = [m for m in xm if m.get("video")]
-        body.append(f"- API key: "
+        body.append(f"- X account key: "
                     f"{'connected' if env_key('TWITTER_API_KEY') else 'MISSING from ~/kestrel/.env'}"
-                    f" | last successful poll {age_h:.0f}h ago"
-                    + (" — STALE, radar may be dead" if age_h > 26 else ""))
-        body.append(f"- radar.json: {len(xm)} of {len(r.get('moments', []))} "
-                    f"moments sourced from X ({len(xv)} with video for "
-                    f"reels), updated {r.get('updated', '?')[:16]}")
-        body.append("- VERDICT: X data IS feeding carousels + reels"
+                    f" | last check of X: {age_h:.0f} hours ago"
+                    + (" — STALE, too long ago, the feed may be dead"
+                       if age_h > 26 else ""))
+        body.append(f"- {len(xm)} of the {len(r.get('moments', []))} hot "
+                    f"stories on our radar came from X ({len(xv)} of them "
+                    "have video we can turn into reels)")
+        body.append("- ALL GOOD: viral X stories ARE flowing into our posts"
                     if xm and age_h <= 26 else
-                    "- VERDICT: X lane NOT feeding content — check open "
-                    "'X radar DEAD' issues")
+                    "- PROBLEM: no X stories are flowing in — check the "
+                    "'X radar DEAD' alerts")
     except Exception as e:
-        body.append(f"- X radar health read FAILED ({e}) — state UNKNOWN, "
-                    "not assumed")
+        body.append(f"- PROBLEM: could not read the X feed status ({e}) — "
+                    "state UNKNOWN")
     body.append("")
-    body.append("## Budgets (month to date)")
+    body.append("## Money spent this month (each tool vs its limit)")
     try:
         body += [f"- {ln}" for ln in budget_lines()]
     except Exception as e:
-        body.append(f"- budget read FAILED: {e}")
+        body.append(f"- PROBLEM: could not read the budgets: {e}")
     body.append("")
-    body.append("## Open failure alerts")
-    body += [f"- #{i['number']} {i['title']}" for i in open_alerts()] or ["- none"]
+    body.append("## Problems that need your attention")
+    body += ([f"- #{i['number']} {i['title']}" for i in open_alerts()]
+             or ["- no problems 🎉"])
 
     text = "\n".join(body)
     print(text)
     if dry:
         return
     title = f"IG daily report {date.today()}"
-    try:  # primary delivery (owner Aug 1): straight to the Gmail inbox
-        mailed = send_email(title, text)
-        note = (f"Emailed to {GMAIL}." if mailed else
+    try:  # primary delivery (owner Aug 1): straight to the inbox, in color
+        mailed = send_email(title, text, html=render_html(y, body))
+        note = (f"Emailed to {', '.join(RECIPIENTS)}." if mailed else
                 f"EMAIL NOT SENT — no GMAIL_APP_PASSWORD in ~/kestrel/.env. "
                 "Create a Google app password (Google Account -> Security -> "
                 "2-Step Verification -> App passwords) and add it there to "
-                f"get this report at {GMAIL} daily.")
+                f"get this report at {', '.join(RECIPIENTS)} daily.")
     except Exception as e:
         note = f"EMAIL FAILED ({type(e).__name__}: {e}) — issue is the backup."
     print(note, file=sys.stderr)
