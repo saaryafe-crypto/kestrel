@@ -1,0 +1,125 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>בוגר FTX</em> הפסיד <em>$35 מיליארד</em> במניות AI",
+   "hsize": 78,
+   "media": "posts/2026-08-01-how-leopold-aschenbrenner-built-a-45-bil/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הוא בנה <em>קרן AI של $45 מיליארד דולר</em> בשנתיים",
+   "hsize": 78,
+   "body": "Leopold Aschenbrenner עזב את OpenAI והימר הכל על מניות AI. פתח את הקרן ב<b>יולי 2024</b>. שנתיים אחר כך: <b>$45 מיליארד דולר</b>, תשואה מעל <b>1,000%</b>",
+   "media": "posts/2026-08-01-how-leopold-aschenbrenner-built-a-45-bil/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הוא לווה <em>$4 על כל $1</em> שהיה לו",
+   "hsize": 82,
+   "body": "על כל <b>$1</b> שהקרן החזיקה, הוא לווה עוד <b>$4</b>. זה <b>מינוף של 400%</b>. כשהמניות ירדו, ההפסדים שלו גדלו <b>פי 4</b> יותר מהר",
+   "media": "posts/2026-08-01-how-leopold-aschenbrenner-built-a-45-bil/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "עד יום חמישי <em>הקרן צנחה ל$10 מיליארד דולר</em>",
+   "hsize": 82,
+   "body": "מ<b>$45 מיליארד דולר</b> ל<b>$10 מיליארד דולר</b> עד יום חמישי. נאלץ למכור הכל לחברת <b>Citadel</b> בהנחה כואבת. באותו שבוע בדיוק הייתה לו החתונה",
+   "media": "posts/2026-08-01-how-leopold-aschenbrenner-built-a-45-bil/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הוא עבד אצל <em>Sam Bankman-Fried</em>",
+   "hsize": 96,
+   "body": "לפני הקרן, הוא עזר ל<b>Sam Bankman-Fried</b> לנהל עמותה מ<b>פנטהאוז בבהאמס</b>. סיים תיכון בגיל <b>15</b>, סיים ראשון בקולומביה בגיל <b>19</b>. אנשים קרובים אליו אמרו שהקריסה הזו <b>\"לא אם, אלא מתי\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הוא הימר <em>$45 מיליארד דולר</em> על הסוס הלא נכון",
+   "hsize": 82,
+   "body": "הימר <b>$45 מיליארד דולר</b> על מניות AI. הפסיד כמעט הכל תוך <b>ימים</b>. העסקים שבאמת מרוויחים לא מהמרים על AI, הם משתמשים בו",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "זה לא יהיה <em>הפיצוץ האחרון של AI</em>",
+   "hsize": 96,
+   "body": "עקבו כדי לדעת מי יהמר הכל בפעם הבאה. שלחו את זה לחבר שבטוח שמניות AI רק עולות",
+   "media": null
+  }
+ ],
+ "caption": "החליקו לראות איך חוקר לשעבר של OpenAI בנה קרן של $45 מיליארד דולר והפסיד כמעט הכל לפני החתונה שלו 💰\n\nLeopold Aschenbrenner, חוקר לשעבר ב OpenAI, פתח קרן גידור AI ביולי 2024, הגיע ל$45 מיליארד דולר עם תשואה של מעל 1,000%, השתמש במינוף של 400% על מניות כמו SK Hynix ו CoreWeave, ראה את הקרן קורסת ל$10 מיליארד דולר תוך ימים, מכר הכל לחברת Citadel בהנחה, הכל בשבוע של החתונה שלו. לפני הקרן, הוא עבד אצל Sam Bankman-Fried ב FTX.\n\nAI יוצר והורס הון מהר מכל דבר אחר. שבוע רע אחד מחק $35 מיליארד דולר. מי שינצחו עם AI לא יהיו המהמרים על מניות. אלה יהיו מי שבאמת משתמשים בו.\nמנהלים עסק? שלחו לנו \"AI\" בהודעה ונראה לכם מה זה יכול לעשות בשבילכם\n\nמקורות: CNBC, Wall Street Journal\n\nעקבו אחרי @ainews.israel בשביל עוד סיפורים כאלה\n\n#AI #hedgefund #investing #wallstreet #trading",
+ "pinned_comment": "הפרט שלא נכנס: הארוסה שלו היא היד הימנית של ראש Anthropic. לקרן היו מניות Anthropic בשווי מיליארדים. אף אחד לא מדבר על זה",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "HE BORROWED <em>$4 FOR EVERY $1</em>",
+   "A GUY FROM FTX <em>JUST LOST $35 BILLION</em>",
+   "HE LOST $35 BILLION THE WEEK OF HIS <em>WEDDING</em>",
+   "A FORMER <em>FTX</em> EMPLOYEE JUST BLEW UP $45 BILLION",
+   "HE LOST <em>$35 BILLION</em> THE WEEK OF HIS WEDDING",
+   "HE HAD <em>$45 BILLION</em> AT 24",
+   "HE BET <em>400%</em> OF HIS FUND ON AI STOCKS",
+   "A 24-YEAR-OLD <em>LOST $35 BILLION</em>",
+   "A 24-YEAR-OLD JUST <em>LOST</em> $35 BILLION",
+   "A $45 BILLION AI FUND <em>COLLAPSED</em> IN DAYS"
+  ],
+  "scores": [
+   6,
+   7,
+   0,
+   0,
+   0,
+   0,
+   7,
+   0,
+   0,
+   8
+  ],
+  "winner": 9,
+  "why": "The $45B number lands the scale immediately, 'COLLAPSED IN DAYS' makes it feel like a disaster movie, and the 400% leverage subline is the 'wait HOW' that forces the swipe — three escalating gut punches in two lines. Runner-up [6] hits the absurd mechanic first but never tells you how much was on the table, so the stakes feel abstract."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Leopold Aschenbrenner",
+  "actor_known": false,
+  "anchor": "a 24-year-old ex-OpenAI researcher",
+  "specifics": [
+   "$45 billion fund collapsed to $10 billion in days",
+   "Was using 400% leverage on AI stocks",
+   "Had to fire-sale everything to Citadel at a discount",
+   "Meltdown happened right before his wedding that weekend",
+   "Previously worked for Sam Bankman-Fried at FTX"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund — and lost most of it in days",
+  "link": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+  "judge_interest": 9,
+  "scout_score": 129.6
+ },
+ "hook_tournament_he": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "נאלץ <em>לזרוק</em> קרן AI של <em>$45 מיליארד</em>",
+   "קרן AI של $45 מיליארד דולר <em>קרסה</em> תוך ימים",
+   "קרן AI של <em>$45 מיליארד</em> קרסה תוך <em>ימים</em>",
+   "<em>מינוף של 400%</em> מחק לו <em>$35 מיליארד</em>",
+   "<em>בוגר FTX</em> הפסיד <em>$35 מיליארד</em> על מניות AI",
+   "בן 24 <em>הפסיד $35 מיליארד</em> בשבוע <em>החתונה</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   6,
+   7,
+   8,
+   0
+  ],
+  "winner": 4,
+  "why": "FTX is already burned into everyone's brain as THE crypto disaster — seeing it next to a fresh $35B AI loss triggers instant 'not AGAIN?!' recognition that no other hook achieves. [3] is shocking but 400% leverage is jargon that bounces off a 2am scroller; [4] lands for anyone, no financial literacy required."
+ }
+}
