@@ -1,0 +1,96 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A 13-YEAR-OLD CHROME BUG COULD READ <em>ALL YOUR FILES</em>",
+   "hsize": 80,
+   "media": null,
+   "logos": [
+    "google"
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "THE AI CAUGHT <em>TWO YEARS OF BUGS</em>",
+   "hsize": 96,
+   "body": "Google built it with <b>Gemini</b> in early <b>2026</b>. By <b>March</b>, it had more reports than all of <b>2025</b>. By <b>June</b>, it passed two full years",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ONE BUG HID FOR <em>13 YEARS</em>",
+   "hsize": 96,
+   "body": "It could've let hackers read files off your laptop: <b>photos</b>, <b>passwords</b>, everything. It survived in Chrome's code for <b>13 years</b> before the AI caught it",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE AI HUNTS <em>WITHOUT INTERNET</em>",
+   "hsize": 110,
+   "body": "It runs on <b>locked-down machines</b> with <b>zero internet</b>. It can only touch the code it's told to test, nothing else. A caged hunter",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EACH BUG COST <em>30 MINUTES OF HUMAN TIME</em>",
+   "hsize": 84,
+   "body": "Checking <b>one</b> bug report took a human <b>5 to 30+ minutes</b>. If <b>Google</b> needs AI to protect its own browser, nobody's code is safe without it",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "THIS AI GETS <em>SMARTER EVERY MONTH</em>",
+   "hsize": 96,
+   "body": "Follow and watch what it catches next. Send this to the friend who still thinks their passwords are safe",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how Google's AI exposed Chrome's worst security holes in a single month \ud83d\udd13\n\nGoogle's Gemini-powered AI bug hunter, two years of Chrome bugs caught in one month, a 13-year-old flaw that could've let hackers read your photos and passwords, locked-down machines with zero internet, 5 to 30 minute triage times replaced by AI, what this means for every business running software.\n\nGoogle just proved that AI catches what humans can't, and the gap is only growing. If the biggest tech company on Earth needs AI to protect its own browser, the rest of us are already behind.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Google Security Blog\n\n#ChromeSecurity #GoogleAI #Cybersecurity #TechNews #ArtificialIntelligence",
+ "pinned_comment": "Google got more bug reports by March than in all of 2025. Be honest: when was the last time you actually updated Chrome?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "GOOGLE BUILT AN AI THAT <em>HACKS</em> CHROME",
+   "GOOGLE JUST <em>EXPOSED CHROME</em>",
+   "YOUR CHROME HID <em>A 13-YEAR SECRET</em>",
+   "THIS BUG HID IN CHROME FOR <em>13 YEARS</em>",
+   "A 13-YEAR-OLD CHROME BUG COULD READ <em>ALL YOUR FILES</em>",
+   "GOOGLE JUST CAUGHT <em>TWO YEARS OF BUGS</em>",
+   "CHROME'S WORST BUG <em>WATCHED YOU FOR 13 YEARS</em>",
+   "GOOGLE QUIETLY <em>RIPPED CHROME APART</em>"
+  ],
+  "scores": [
+   7,
+   3,
+   7,
+   6,
+   9,
+   4,
+   7,
+   6
+  ],
+  "winner": 4,
+  "why": "It's personal ('your files'), terrifyingly specific (13 years), and the threat is concrete \u2014 I'm suddenly thinking about my own laptop. Candidate 6 has the same bones but 'watched you' sounds like active spying, which feels like an exaggeration my brain rejects mid-scroll."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Google",
+  "actor_known": true,
+  "anchor": "Google",
+  "specifics": [
+   "Fixed more Chrome bugs in June alone than in the past two whole years combined",
+   "One bug had been hiding in the code for 13 years and could've let hackers read your photos, passwords, everything on your laptop",
+   "By March 2026, Google received more bug reports than in the entirety of 2025",
+   "The AI agent runs on locked-down machines with no general internet access",
+   "Triaging a single security report historically took 5 to 30+ minutes"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+  "link": "https://blog.google/security/chrome-stronger-with-every-update/",
+  "judge_interest": 5,
+  "scout_score": 80.5
+ }
+}
