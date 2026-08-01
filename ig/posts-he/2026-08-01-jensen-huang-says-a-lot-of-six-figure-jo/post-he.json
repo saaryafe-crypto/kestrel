@@ -1,0 +1,116 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "המנכ\"ל של Nvidia אמר את זה ישר, שרברבים שבונים מרכזי AI ירוויחו <em>משכורות שש ספרות</em> ועובדי משרד כמוך נשארים בחוץ",
+   "hsize": 72,
+   "media": "posts/2026-08-01-jensen-huang-says-a-lot-of-six-figure-jo/cand-1.png"
+  },
+  {
+   "type": "content",
+   "headline": "המנכ\"ל של NVIDIA <em>הבטיח שש ספרות לשרברבים</em>",
+   "hsize": 92,
+   "body": "<b>ג'נסן הואנג</b> אמר ב<b>פורום הכלכלי העולמי</b> שהמון משרות עם <b>משכורות של שש ספרות</b> עומדות להיפתח באינסטלציה ובבנייה. הסיבה לא קשורה לבתים",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AI רץ על <em>צינורות וכבלים</em>",
+   "hsize": 96,
+   "body": "כל מערכת AI חיה בתוך <b>בניין ענק</b> עם שרתים, צינורות קירור וחיווט. <b>Nvidia</b> רוצה לבנות <b>אלפים</b> כאלה מאפס. מישהו מרוויח את העבודות האלה, אבל מישהו אחר הרגע איבד את שלו",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "אותו AI <em>מחסל עבודות משרדיות</em>",
+   "hsize": 96,
+   "body": "אותו AI שיוצר משרות פיזיות עם <b>שש ספרות</b> מוחק בשקט את המשרות מאחורי שולחן. הוא כותב קוד, עונה למיילים, מכין דוחות. השאלה עכשיו: מי מסתגל ראשון",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "בעלי עסקים חכמים <em>העבירו את עבודת המשרד ל-AI</em>",
+   "hsize": 82,
+   "body": "בזמן שכולם מתווכחים על משרות, עסקים קטנים משתמשים ב-AI כדי לענות לכל לקוח תוך <b>30 שניות</b> ולתאם <b>פגישות</b> בלי לגייס אף עובד חדש. מי שזז ראשון כבר רואה תוצאות",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שוק העבודה <em>נחלק לשניים</em>",
+   "hsize": 92,
+   "body": "חגורת כלים או שולחן. צד אחד מגייס עם שש ספרות, הצד השני מתכווץ. אנחנו עוקבים אחרי כל שינוי כזה. עקבו, ותשלחו את זה למי שעדיין חושב שתואר מבטיח משכורת",
+   "media": null
+  }
+ ],
+ "caption": "הסוויפו כדי לראות למה המנכ\"ל של Nvidia אומר ששרברבים ירוויחו שש ספרות בזכות AI, בזמן שהעבודה המשרדית שלכם בצד השני 🔧\n\nג'נסן הואנג אמר בפורום הכלכלי העולמי בדאבוס שהמון משרות עם משכורות של שש ספרות באינסטלציה ובבנייה עומדות להיפתח, הכל קשור לבניית מרכזי הנתונים העצומים של AI שהעולם דורש עכשיו, בזמן שאותו בום AI מאיים בשקט על משרות משרדיות בכל העולם.\n\nשוק העבודה נחלק: AI מחליף את השולחן, אבל הוא לא יכול להניח צינורות או למשוך כבלים. המקצועות הפיזיים הופכים למשרות האחרונות שמכונה לא יכולה לגנוב, ובום ה-AI משלם להם בהתאם.\n\nמנהלים עסק? שלחו לנו הודעה עם \"AI\" ונראה לכם מה זה אומר בשבילכם\n\nמקורות: Fortune\n\nעקבו אחרי @ainews.israel 🇮🇱\n\n#AIjobs #Nvidia #BlueCollar #DataCenters #CareerAdvice",
+ "pinned_comment": "שאלה כנה: הייתם עוזבים הכל היום ולוקחים מפתח צינורות אם זה אומר שש ספרות? רובכם לא, ובדיוק בגלל זה מי שכן ירוויח מטורף",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "NVIDIA'S CEO JUST <em>PICKED PLUMBERS OVER YOU</em>",
+   "SIX-FIGURE TRADE JOBS JUST GOT <em>UNLOCKED</em>",
+   "SIX-FIGURE JOBS JUST <em>MOVED</em> TO CONSTRUCTION SITES",
+   "PLUMBERS ARE ABOUT TO <em>OUT-EARN</em> YOU",
+   "AI JUST <em>FLIPPED</em> WHO MAKES SIX FIGURES",
+   "YOUR DEGREE JUST <em>LOST TO A TOOL BELT</em>",
+   "YOUR CS DEGREE JUST <em>LOST</em> TO A TOOL BELT",
+   "THE HIGHEST PAID AI JOB <em>NEEDS NO COMPUTER</em>",
+   "SIX-FIGURE JOBS JUST <em>MOVED TO THE GARAGE</em>",
+   "PLUMBERS ARE ABOUT TO <em>OUT-EARN PROGRAMMERS</em>"
+  ],
+  "scores": [
+   9,
+   5,
+   6,
+   6,
+   6,
+   8,
+   7,
+   7,
+   4,
+   7
+  ],
+  "winner": 0,
+  "why": "Nvidia and Jensen Huang are THE cultural moment right now — dropping that name makes it feel real and urgent, not just another hot take. 'Picked plumbers over YOU' lands like a personal insult from the most powerful guy in tech, which is more viscerally stopping than any degree-vs-tool-belt framing."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Jensen Huang",
+  "actor_known": false,
+  "anchor": "six-figure jobs",
+  "specifics": [
+   "six-figure salaries for plumbers and electricians",
+   "building AI data centers",
+   "Jensen Huang, CEO of Nvidia",
+   "blue-collar jobs rising while white-collar jobs threatened",
+   "World Economic Forum in Davos"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "Jensen Huang says ‘a lot’ of six-figure jobs in plumbing and construction will soon be unlocked because someone needs to build new AI centers",
+  "link": "https://fortune.com/article/jensen-huang-says-a-lot-of-six-figure-jobs-in-plumbing-and-construction-will-soon-be-unlocked-because-someone-needs-to-build-new-ai-centers/",
+  "judge_interest": 7,
+  "scout_score": 76.9
+ },
+ "hook_tournament_he": {
+  "story_type": "threat",
+  "candidates": [
+   "AI יודע לעשות את העבודה שלך אבל לא יודע להניח צנרת, ושרברבים ירוויחו <em>משכורת שש ספרות</em> מבניית מרכזי AI",
+   "AI לא צריך אותך, הוא צריך שרברבים שיבנו לו מרכזי נתונים, והם עומדים להרוויח <em>משכורות של שש ספרות</em>",
+   "העבודה שלך במשרד בסכנה בגלל AI, ושרברבים עומדים להרוויח <em>משכורות של שש ספרות</em> מבניית מרכזי נתונים",
+   "השקעת שנים בתואר ובעבודה משרדית, עכשיו שרברבים שבונים מרכזי AI ירוויחו <em>משכורת שש ספרות</em> והעבודה שלך בסכנה",
+   "המנכ\"ל של Nvidia אמר את זה ישר, שרברבים שבונים מרכזי AI ירוויחו <em>משכורות שש ספרות</em> ועובדי משרד כמוך נשארים בחוץ"
+  ],
+  "scores": [
+   7,
+   8,
+   6,
+   7,
+   9
+  ],
+  "winner": 4,
+  "why": "המנכ\"ל של Nvidia אמר את זה ישר turns the story from a rumor into a sourced fact — that alone makes you stop and think 'wait, he actually said this out loud?' The closer עובדי משרד כמוך נשארים בחוץ lands like a punch to the gut in a way that אי/1's opener can't match because it names you specifically and tells you exactly what you're losing."
+ }
+}
