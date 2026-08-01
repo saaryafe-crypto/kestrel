@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 UPLOADS THAT <em>CAUGHT THINGS HUMANS MISSED</em>",
+   "hsize": 74,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>PASTE YOUR MEDICAL BILL</em>",
+   "hsize": 118,
+   "body": "He pasted a <b>$1,200</b> hospital bill into Claude. It dropped to <b>$180</b>. \"Here is my medical bill. Find every overcharge and write me a dispute letter citing fair market rates\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>SNAP YOUR LIVING ROOM</em>",
+   "hsize": 120,
+   "body": "She uploaded one living room photo. ChatGPT returned a full <b>redesign and shopping list under $500</b>. \"Here is my living room. Redesign it modern minimalist, list everything to buy, all under $500\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>DROP IN THE JOB LISTING</em>",
+   "hsize": 112,
+   "body": "He gave Claude a job listing. It ran <b>mock interviews</b> with real critiques. <b>He got the job</b>. \"Here is the role and my resume. Interview me one question at a time, critique each answer\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>PHOTOGRAPH WHAT YOU WANT TO SELL</em>",
+   "hsize": 95,
+   "body": "She snapped photos of <b>things collecting dust</b>. ChatGPT priced, listed, and wrote <b>replies for lowball offers</b>. \"Here are items to sell. Price each, write a listing, and draft replies for lowball offers\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>HAND AI YOUR SLIDES</em>",
+   "hsize": 120,
+   "body": "She uploads her slides before every meeting. Claude <b>predicts the exact questions</b> her boss will ask. \"Here is my presentation. Act as my toughest boss, list every question you would ask, hardest first\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>SCAN YOUR NEXT CONTRACT</em>",
+   "hsize": 118,
+   "body": "A freelancer uploads every contract before signing. Claude <b>flags hidden fees and traps</b>. \"Here is a contract I'm about to sign. Flag anything that could cost me money or lock me in\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 80,
+   "body": "You'll want these prompts when you need them. Save this post. We share <b>daily AI skills</b> you can use tonight",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 things to upload to AI that save money, land jobs, and catch traps nobody reads \ud83d\udcf1\n\nA $1,200 medical bill fought down to $180 with one upload, a living room photo turned into a professional redesign with a shopping list under $500, a job listing that became mock interview practice and landed the job, photos of unused stuff turned into priced marketplace listings with negotiation scripts, slides that predicted every question the boss would ask, and a contract scanned for hidden fees before signing.\n\nMost people type words into AI. The ones saving real money are uploading their actual bills, photos, and contracts. Every prompt here works tonight, free, on ChatGPT or Claude.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Anthropic, OpenAI, Reddit\n\n#AI #ChatGPT #ArtificialIntelligence #Productivity #MoneyTips",
+ "pinned_comment": "Which one are you trying tonight? Slide 6 is the sleeper, most people never think to upload their slides before a meeting.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 UPLOADS THAT <em>SAVED PEOPLE THOUSANDS</em>",
+   "<em>NOBODY UPLOADS</em> THESE 6 THINGS TO AI",
+   "6 THINGS TO <em>UPLOAD TO AI</em> TONIGHT",
+   "<em>EVERYONE IS UPLOADING</em> THESE 6 THINGS TO AI",
+   "6 UPLOADS THAT <em>CAUGHT THINGS HUMANS MISSED</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   4,
+   5,
+   9
+  ],
+  "winner": 4,
+  "why": "\"Caught things humans missed\" implies a real discovery \u2014 AI found an error a person overlooked, which is visceral and slightly unsettling in a way that demands a swipe. [0] is solid but \"saved thousands\" is a tired financial-tip frame; \"caught things humans missed\" is a specific dramatic claim I haven't heard a hundred times."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "no-image"
+}
