@@ -30,7 +30,7 @@ COMMIT_PATTERNS = {  # git subjects are the system's own publish ledger
 FOLLOWERS_RE = re.compile(
     r"([\d.,KM]+)\s+Followers,\s*[\d.,KM]+\s+Following,\s*([\d.,KM]+)\s+Posts")
 GMAIL = "saaryafe@gmail.com"          # the SENDING account (smtp.gmail.com login)
-RECIPIENTS = [GMAIL, "saar@yaffeai.com"]  # owner Aug 1: the report lands in both
+RECIPIENTS = ["saar@yaffeai.com"]     # owner Aug 1: ONLY the yaffeai inbox
 
 
 def env_key(name):
