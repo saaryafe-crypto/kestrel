@@ -2,16 +2,20 @@
 """Daily owner report, BOTH channels (@yaffeai + @ainews.israel): every paid
 tool's spend against its cap, and yesterday's publishes VERIFIED against the
 live Instagram profiles (owner rule Jul 29: webhook "Accepted" is not posted —
-scrape reality, and if verification fails SAY SO, never assume). Delivered as
-a GitHub issue (-> owner email); older report issues get closed so only the
-newest stays open. Weekly deep-dive stays in report.py — this is the daily
-truth check.
+scrape reality, and if verification fails SAY SO, never assume). Owner spec
+Aug 1: emailed to saaryafe@gmail.com daily at the same time no matter what,
+and must cover (a) exactly what was posted, verified live — carousels AND the
+reels tab, (b) a cover photo present in every carousel, (c) Replicate budget,
+(d) X API token connected and data actually sourced from X. Delivery: Gmail
+SMTP (GMAIL_APP_PASSWORD in ~/kestrel/.env) + a GitHub issue as backup/history;
+older report issues get closed so only the newest stays open. Weekly deep-dive
+stays in report.py — this is the daily truth check.
 
 Runs on the Mac (IG scraping needs the residential IP + the .igprofile
 session spy.py already maintains). launchd: ai.yaffe.ig-daily, 08:45 local.
 
 Usage: .venv/bin/python daily.py [--dry]   (--dry: print only, no issue)"""
-import json, os, re, subprocess, sys
+import json, os, re, subprocess, sys, time
 from datetime import date, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -25,16 +29,58 @@ COMMIT_PATTERNS = {  # git subjects are the system's own publish ledger
     "ainews.israel": {"carousels": r"^IG post HE: ", "reels": r"^IG reel HE: "}}
 FOLLOWERS_RE = re.compile(
     r"([\d.,KM]+)\s+Followers,\s*[\d.,KM]+\s+Following,\s*([\d.,KM]+)\s+Posts")
+GMAIL = "saaryafe@gmail.com"
+
+
+def env_key(name):
+    """os.environ first, then ~/kestrel/.env (same file as the other paid
+    keys — never printed, never committed)."""
+    if os.environ.get(name):
+        return os.environ[name]
+    try:
+        for line in open(os.path.join(os.path.dirname(HERE), ".env")):
+            if line.startswith(name + "="):
+                return line.split("=", 1)[1].strip()
+    except OSError:
+        pass
+    return None
+
+
+def send_email(subject, text):
+    """Owner rule Aug 1: this report lands in the Gmail inbox every day no
+    matter what. Needs a Google app password (Google Account -> Security ->
+    2-Step Verification -> App passwords) saved as GMAIL_APP_PASSWORD in
+    ~/kestrel/.env. Returns False until the key exists — the gh-issue route
+    still delivers, and the missing key is named loudly in the report."""
+    pw = env_key("GMAIL_APP_PASSWORD")
+    if not pw:
+        return False
+    import smtplib
+    from email.mime.text import MIMEText
+    msg = MIMEText(text)
+    msg["Subject"], msg["From"], msg["To"] = subject, GMAIL, GMAIL
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
+        s.login(GMAIL, pw.replace(" ", ""))  # Google shows app pws with spaces
+        s.send_message(msg)
+    return True
 
 
 def commits_on(day, pattern):
     """Post NAMES the system published on `day` (git subjects are the
-    system's own ledger; commit time ≈ publish time)."""
+    system's own ledger; commit time ≈ publish time). Date filter happens
+    here in Python, NOT via git --since/--until: this history mixes CI-UTC
+    and local-tz commits out of order, and git's window traversal returned
+    only the init commit (found Aug 1 — the report claimed NOTHING went out
+    on a 10-post day)."""
     out = subprocess.run(
-        ["git", "log", "--since", f"{day} 00:00", "--until", f"{day} 23:59",
-         "--pretty=%s"], capture_output=True, text=True, cwd=HERE).stdout
-    return [re.sub(pattern, "", s) for s in out.splitlines()
-            if re.match(pattern, s)]
+        ["git", "log", "-500", "--date=format-local:%Y-%m-%d",
+         "--pretty=%cd %s"], capture_output=True, text=True, cwd=HERE).stdout
+    names = []
+    for line in out.splitlines():
+        d, _, s = line.partition(" ")
+        if d == str(day) and re.match(pattern, s):
+            names.append(re.sub(pattern, "", s))
+    return names
 
 
 def norm(t):
@@ -54,12 +100,14 @@ def own_caption(name, he):
     return norm(open(cp).read() if os.path.exists(cp) else "")[:40]
 
 
-def scrape_channel(handle, cap=12):
+def scrape_channel(handle, cap=12, reel_cap=8):
     """What is ACTUALLY on the profile right now: followers + total posts
     from the profile meta, then date/likes/caption from each of the newest
-    post pages. Raises on failure; the caller reports it, never papers over."""
+    post pages, PLUS the /reels/ tab (reels publish share_to_feed=off so the
+    grid never shows them — the tab is the only live truth for them, owner
+    Aug 1). Raises on failure; the caller reports it, never papers over."""
     from playwright.sync_api import sync_playwright
-    posts, counts = [], {}
+    posts, reels, counts = [], [], {}
     with sync_playwright() as p:
         ctx = p.chromium.launch_persistent_context(
             spy.PROFILE, headless=True, viewport={"width": 1280, "height": 900})
@@ -90,8 +138,30 @@ def scrape_channel(handle, cap=12):
                 e.update(likes=spy.n(pm.group(1)), date=pm.group(3),
                          caption=pm.group(4).strip())
             posts.append(e)
+        page.goto(f"https://www.instagram.com/{handle}/reels/",
+                  wait_until="domcontentloaded")
+        page.wait_for_timeout(4000)
+        rhrefs = []
+        for a in page.query_selector_all('a[href*="/reel/"]'):
+            h = a.get_attribute("href")
+            if h and h not in rhrefs:
+                rhrefs.append(h)
+            if len(rhrefs) >= reel_cap:
+                break
+        for href in rhrefs:
+            page.goto(f"https://www.instagram.com{href}",
+                      wait_until="domcontentloaded")
+            page.wait_for_timeout(2500)
+            d = (spy.meta(page, "og:description")
+                 or spy.meta(page, "description") or "")
+            e = {"date": "", "likes": -1, "caption": d, "desc": d}
+            pm = spy.DESC_RE.search(d)
+            if pm:
+                e.update(likes=spy.n(pm.group(1)), date=pm.group(3),
+                         caption=pm.group(4).strip())
+            reels.append(e)
         ctx.close()
-    return counts, posts
+    return counts, posts, reels
 
 
 def budget_lines():
@@ -135,6 +205,8 @@ def open_alerts():
 def main():
     dry = "--dry" in sys.argv
     y = date.today() - timedelta(days=1)
+    if "--day" in sys.argv:  # test a specific day: daily.py --dry --day 2026-08-01
+        y = date.fromisoformat(sys.argv[sys.argv.index("--day") + 1])
     body = []
     for handle, plan in CHANNELS.items():
         he = handle != "yaffeai"
@@ -146,7 +218,7 @@ def main():
                     f"{plan['carousels']}, {len(reels)} reels of {plan['reels']}"
                     + (" published" if car or reels else " — NOTHING went out"))
         try:
-            counts, live = scrape_channel(handle)
+            counts, live, live_reels = scrape_channel(handle)
             if counts:
                 body.append(f"Profile now: {counts['followers']:,} followers, "
                             f"{counts['posts']:,} posts total")
@@ -164,28 +236,52 @@ def main():
                         f"carousels found live by caption")
             for name in missing:
                 body.append(f"- NOT FOUND on the grid: {name}")
-            # cover ladder flag (owner rule: never again a silent plain
-            # cover): write.py marks post.json when every image rung failed
+            # cover-photo check (owner Aug 1, Chrome-bugs post-mortem: every
+            # carousel MUST ship a real cover photo; a bare one gets named)
+            bare = []
             for name in car:
-                pj = os.path.join(HERE, "posts", name, "post.json")
-                if os.path.exists(pj):
-                    flag = json.load(open(pj)).get("cover_fallback")
-                    if flag:
-                        body.append(f"- COVER FALLBACK ({flag}): {name}")
+                pj = os.path.join(HERE, "posts-he" if he else "posts",
+                                  name, "post.json")
+                if not os.path.exists(pj):
+                    continue
+                p = json.load(open(pj))
+                cov = (p.get("items") or p.get("slides") or [{}])[0]
+                if not cov.get("media"):
+                    bare.append(f"- BARE COVER (no photo at all): {name}")
+                elif p.get("cover_fallback"):
+                    bare.append(f"- COVER FALLBACK "
+                                f"({p['cover_fallback']}): {name}")
+            if car:
+                body += bare or ["Cover photos: every carousel shipped "
+                                 "with a real cover image"]
+            # reels truth check: the /reels/ tab is scraped live, same
+            # caption-match as the grid (a webhook 200 or even an IG media
+            # id is NOT proof — the Aug 1 handwriting reel vanished after
+            # publish)
             if reels:
-                body.append(f"Reels ({len(reels)}): published off-grid by "
-                            "design (share_to_feed=off) — grid scrape can't "
-                            "see them; spot-check the Reels tab or bundle "
-                            "analytics")
+                rdescs = " || ".join(norm(e["desc"]) for e in live_reels)
+                rmissing = [nm for nm in reels
+                            if not own_caption(nm, he)
+                            or own_caption(nm, he) not in rdescs]
+                body.append(f"Reels tab (scraped just now, newest "
+                            f"{len(live_reels)}): "
+                            f"{len(reels) - len(rmissing)} of {len(reels)} "
+                            "published reels found live by caption")
+                for nm in rmissing:
+                    body.append(f"- reel NOT FOUND on the reels tab: {nm} "
+                                "(possible IG removal — check app -> "
+                                "Account Status)")
+                missing += rmissing
             liked = [e for e in live if e["likes"] > 0]
             if liked:
                 body.append("Top recent: " + " | ".join(
                     f'{e["likes"]:,} likes "{e["caption"][:50]}"'
                     for e in sorted(liked, key=lambda e: -e["likes"])[:3]))
-            body.append("VERDICT: OK — every published carousel is live."
+            body.append("VERDICT: OK — every published carousel and reel "
+                        "verified live."
                         if not missing else
                         f"VERDICT: MISMATCH — {len(missing)} published "
-                        "carousel(s) NOT live. Check the Make scenario "
+                        "item(s) NOT live. Check the Make scenario "
                         "history and the open alerts below.")
         except Exception as e:
             body.append(f"LIVE VERIFICATION FAILED ({type(e).__name__}: {e}) "
@@ -193,6 +289,28 @@ def main():
                         "~/kestrel/ig && .venv/bin/python daily.py --dry")
         body.append("")
 
+    body.append("## X radar (twitterapi.io) — token + data actually flowing")
+    try:
+        led = json.load(open(os.path.join(HERE, "x-used.json")))
+        age_h = (time.time() - led.get("last_poll", 0)) / 3600
+        r = json.load(open(os.path.join(HERE, "radar.json")))
+        xm = [m for m in r.get("moments", []) if "on X" in m.get("where", "")]
+        xv = [m for m in xm if m.get("video")]
+        body.append(f"- API key: "
+                    f"{'connected' if env_key('TWITTER_API_KEY') else 'MISSING from ~/kestrel/.env'}"
+                    f" | last successful poll {age_h:.0f}h ago"
+                    + (" — STALE, radar may be dead" if age_h > 26 else ""))
+        body.append(f"- radar.json: {len(xm)} of {len(r.get('moments', []))} "
+                    f"moments sourced from X ({len(xv)} with video for "
+                    f"reels), updated {r.get('updated', '?')[:16]}")
+        body.append("- VERDICT: X data IS feeding carousels + reels"
+                    if xm and age_h <= 26 else
+                    "- VERDICT: X lane NOT feeding content — check open "
+                    "'X radar DEAD' issues")
+    except Exception as e:
+        body.append(f"- X radar health read FAILED ({e}) — state UNKNOWN, "
+                    "not assumed")
+    body.append("")
     body.append("## Budgets (month to date)")
     try:
         body += [f"- {ln}" for ln in budget_lines()]
@@ -207,8 +325,19 @@ def main():
     if dry:
         return
     title = f"IG daily report {date.today()}"
+    try:  # primary delivery (owner Aug 1): straight to the Gmail inbox
+        mailed = send_email(title, text)
+        note = (f"Emailed to {GMAIL}." if mailed else
+                f"EMAIL NOT SENT — no GMAIL_APP_PASSWORD in ~/kestrel/.env. "
+                "Create a Google app password (Google Account -> Security -> "
+                "2-Step Verification -> App passwords) and add it there to "
+                f"get this report at {GMAIL} daily.")
+    except Exception as e:
+        note = f"EMAIL FAILED ({type(e).__name__}: {e}) — issue is the backup."
+    print(note, file=sys.stderr)
+    # gh issue rides along as backup + history, and carries the email status
     subprocess.run(["gh", "issue", "create", "--title", title,
-                    "--body", text], check=True, cwd=HERE)
+                    "--body", note + "\n\n" + text], check=True, cwd=HERE)
     out = subprocess.run(  # keep exactly one report issue open
         ["gh", "issue", "list", "--state", "open", "--search",
          "IG daily report in:title", "--json", "number,title"],
