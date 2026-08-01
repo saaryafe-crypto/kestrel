@@ -60,7 +60,7 @@ def backlog():
 
 
 def build_prompt(post):
-    src = {"slides": [{k: s.get(k) for k in ("type", "headline", "body", "subline")
+    src = {"slides": [{k: s.get(k) for k in ("type", "headline", "body")
                        if s.get(k)} for s in post["slides"]],
            "caption": post["caption"],
            "pinned_comment": post.get("pinned_comment")}
@@ -77,7 +77,7 @@ translation sounds stiff, rewrite the sentence Israeli-style.
 
 STRUCTURE RULES (hard):
 - Return EXACTLY {len(post['slides'])} slides, same order. For each slide
-  localize only the text fields it has (headline / body / subline). Never add
+  localize only the text fields it has (headline / body). Never add
   or drop a slide.
 - Keep the <em>...</em> accent markup: wrap the minimum set of Hebrew words
   that still communicates the claim standalone (same craft as the English).
@@ -99,7 +99,7 @@ def merge(post, r):
     out = json.loads(json.dumps(post))  # deep copy
     out["handle"] = HANDLE
     for s, h in zip(out["slides"], r["slides"]):
-        for k in ("headline", "body", "subline"):
+        for k in ("headline", "body"):
             if s.get(k) and h.get(k):
                 s[k] = h[k]
     out["caption"] = r["caption"]
@@ -194,7 +194,7 @@ def polish(out):
     language, never content or style. Fails open: the localized text stands."""
     items = {}
     for i, s in enumerate(out["slides"]):
-        for k in ("headline", "body", "subline"):
+        for k in ("headline", "body"):
             if s.get(k):
                 items[f"s{i}.{k}"] = s[k]
     items["caption"] = out["caption"]
@@ -271,7 +271,10 @@ def localize(post_dir):
         # Hebrew from the classified story, competing against the localized
         # translation (older posts without a classification keep the
         # translation). Runs before qa() so the final cover is validated.
-        if post.get("viral") and post.get("story"):
+        if (post.get("viral") and post.get("story")
+                and not any(s.get("layout") == "card" for s in post["slides"])):
+            # profile posts keep their long record-sentence cover (translated,
+            # not re-hooked — the ≤9-word Hebrew candidates would destroy it)
             out = viral.hebrew_cover(out, post["story"], post["viral"],
                                      post.get("caption", ""))
         return polish(out)  # Agent 5: native line-editor pass, runs LAST

@@ -76,8 +76,16 @@ body.cover h1{line-height:.87;letter-spacing:0;
 .swipe{font-family:Poppins;font-weight:800;font-size:27px;letter-spacing:.18em;
        color:#FFF;text-transform:uppercase;text-indent:.18em}
 .swipe em{font-style:normal;color:#D97757}
-.subline{font-family:Poppins;font-weight:800;font-size:56px;letter-spacing:.03em;
-         text-indent:.03em;color:#FFF;text-transform:uppercase;margin-top:18px}
+/* badge: the story-brand's logo as a big circular chip on the cover photo
+   (owner example Aug 1, @techskills Mercor cover — the logo is a design
+   element beside the person, not a watermark). Opt-in via "badge_logo";
+   the image brief must keep the subject right-of-center. */
+.badge{position:absolute;top:96px;left:60px;width:310px;height:310px;
+       border-radius:50%;z-index:2;display:flex;align-items:center;
+       justify-content:center;
+       background:radial-gradient(circle at 35% 30%,#17171d 0%,#050507 78%);
+       box-shadow:0 16px 55px rgba(0,0,0,.75),inset 0 0 0 2px rgba(255,255,255,.09)}
+.badge img{width:60%;filter:drop-shadow(0 6px 18px rgba(0,0,0,.65))}
 .logorow{position:absolute;top:110px;left:0;right:0;z-index:2;
          display:flex;align-items:center;justify-content:center;gap:70px}
 .logorow img{height:170px;max-width:440px;object-fit:contain;
@@ -97,6 +105,10 @@ body.nophoto .logorow img{height:230px;max-width:480px}
        mask-image:linear-gradient(180deg,#000 calc(100% - 300px),rgba(0,0,0,0) 100%)}
 .bleed.collage{display:flex;gap:6px}
 .bleed.collage .col{flex:1;background-size:cover;background-position:center top}
+/* cover: tighter feather — the photo stays bright until just above the
+   wordmark seam (owner Aug 1: no dimmed leftovers between photo and logo) */
+body.cover .bleed{-webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 160px),rgba(0,0,0,0) 100%);
+                  mask-image:linear-gradient(180deg,#000 calc(100% - 160px),rgba(0,0,0,0) 100%)}
 .shade{position:absolute;inset:0;z-index:1;
        background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,0) 14%,
        rgba(0,0,0,0) 46%,rgba(5,5,5,.6) 62%,rgba(5,5,5,.9) 72%,rgba(5,5,5,.94) 100%)}
@@ -109,6 +121,18 @@ body.content .bleed{background-position:center}
 body.content h1{margin-bottom:28px;text-shadow:0 4px 14px rgba(0,0,0,.9)}
 body.content .body{text-shadow:0 3px 12px rgba(0,0,0,.85)}
 body.content.nomedia .frame{justify-content:center;padding-top:60px}
+/* profile-card content slide (owner example Aug 1, @techskills Mercor post):
+   dark brand backdrop, the story told on TOP in short paragraphs, the REAL
+   photo in a rounded card below — the photo is the proof artifact */
+body.card .frame{position:relative;z-index:2;height:1350px;display:flex;
+                 flex-direction:column;padding:170px 66px 78px;gap:48px}
+body.card .body{font-size:43px;line-height:1.52;font-weight:600}
+body.card .body em{font-style:normal;color:#D97757;font-weight:800}
+body.card .photocard{flex:1;min-height:0;border-radius:30px;
+                     background-size:cover;background-position:center top;
+                     border:2px solid rgba(217,119,87,.45);
+                     box-shadow:0 20px 60px rgba(0,0,0,.65)}
+body.card.nomedia .frame{justify-content:center;padding-top:120px}
 /* cta */
 body.cta .frame{position:relative;z-index:2;height:1350px;display:flex;
                 flex-direction:column;justify-content:center;text-align:center;
@@ -191,33 +215,26 @@ function fitLines(h){
     h.appendChild(d);
   });
 }
-function fitOne(el){
-  el.style.whiteSpace='nowrap';
-  var target=el.parentElement.clientWidth*.86; // reference substrip stays centered, off the edges
-  // measure TEXT width with a hidden span — the subline div is block-level,
-  // so its own rect always equals the container width and long sublines
-  // sailed off the canvas (caught Aug 1: "...GO THIS F" clipped on a cover)
-  var cs=getComputedStyle(el);
-  var meas=document.createElement('span');
-  meas.style.cssText='position:absolute;visibility:hidden;white-space:nowrap';
-  meas.style.font=cs.font;
-  meas.style.letterSpacing=cs.letterSpacing;
-  meas.style.textTransform=cs.textTransform;
-  meas.textContent=el.textContent;
-  el.parentElement.appendChild(meas);
-  var w=meas.getBoundingClientRect().width;
-  meas.remove();
-  if(w>target)el.style.fontSize=(parseFloat(cs.fontSize)*target/w)+'px';
-}
-/* scrim(): after text layout, pull the photo DOWN to the caption block and
-   anchor the dark gradient to the text top — photo fades exactly into the
-   first text line, zero dead band, for any caption length (owner spec Jul 31:
-   "black only behind the captions, stops exactly where captions start"). */
+/* scrim(): after text layout, size the photo band and anchor the dark
+   gradient to the text. COVER (owner spec Aug 1: "the black background starts
+   from the Yaffe AI logo", no dimmed leftovers): the photo stays bright until
+   ~190px above the wordmark, then ONE tight fade lands on solid black exactly
+   at the wordmark line — the logo sits on the seam like the reference covers.
+   CONTENT keeps the Jul 31 spec: photo fades exactly into the first text
+   line, zero dead band, for any caption length. */
 function scrim(){
   var bleed=document.querySelector('.bleed'),shade=document.querySelector('.shade');
   if(!bleed||!shade)return;
-  var anchor=document.querySelector('body.cover .frame .masthead')
-           ||document.querySelector('body.content .frame h1');
+  var mast=document.querySelector('body.cover .frame .masthead');
+  if(mast){
+    var edge=Math.max(420,Math.min(1350,Math.round(mast.getBoundingClientRect().top)+12));
+    bleed.style.height=(edge+50)+'px';
+    shade.style.background='linear-gradient(180deg,rgba(0,0,0,.25) 0px,rgba(0,0,0,0) 140px,'
+      +'rgba(0,0,0,0) '+(edge-190)+'px,rgba(5,5,5,.6) '+(edge-70)+'px,'
+      +'#050505 '+edge+'px,#050505 1350px)';
+    return;
+  }
+  var anchor=document.querySelector('body.content .frame h1');
   if(!anchor)return;
   var top=anchor.getBoundingClientRect().top;
   var edge=Math.max(420,Math.min(1350,Math.round(top)+120));
@@ -229,8 +246,6 @@ function scrim(){
 document.fonts.ready.then(function(){
   var h=document.querySelector('body.cover h1');
   if(h)fitLines(h);
-  var s=document.querySelector('.subline');
-  if(s)fitOne(s);
   scrim();
 });
 </script>"""
@@ -260,7 +275,11 @@ def slide_html(s, handle, total, fallback_media=None):
                           f"font-size:{int(s.get('hsize', 100) * 1.7)}px", 1)
         swipe = 'Full video next <em>→</em>' if s.get("video") else 'Swipe for more <em>→</em>'
         logos = ""
-        if s.get("logos"):
+        if s.get("badge_logo") and os.path.exists(
+                os.path.join(HERE, "logos", f'{s["badge_logo"]}.svg')):
+            logos = (f'<div class="badge">'
+                     f'<img src="{HERE}/logos/{s["badge_logo"]}.svg"></div>')
+        elif s.get("logos"):
             imgs = '<span class="vs">×</span>'.join(
                 f'<img src="{HERE}/logos/{l}.svg">' for l in s["logos"])
             logos = f'<div class="logorow">{imgs}</div>'
@@ -278,10 +297,11 @@ def slide_html(s, handle, total, fallback_media=None):
         else:
             bg = art_bg(s["headline"])
             cls = "cover nophoto"
-        subline = f'<div class="subline">{s["subline"]}</div>' if s.get("subline") else ""
+        # no subline (owner Aug 1): under the big words only the small swipe
+        # strip renders — all the hook lives in the headline
         return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="{cls}">{bg}{logos}
-<div class="frame">{MASTHEAD}<h1>{s["headline"]}</h1>{subline}</div>
+<div class="frame">{MASTHEAD}<h1>{s["headline"]}</h1></div>
 <div class="ctastrip"><div class="swipe">{swipe}</div></div>{FIT_JS}</body>'''
 
     if s["type"] == "cta":
@@ -292,6 +312,17 @@ def slide_html(s, handle, total, fallback_media=None):
 <div><span class="pill">Follow {handle}</span></div>
 <p class="cta-sub">{s["body"].replace(chr(10), "<br>")}</p>
 </div></body>'''
+
+    # profile-card content slide: story text on top, real photo in a rounded
+    # card below (@techskills anatomy, owner example Aug 1) — no headline
+    if s["type"] == "content" and s.get("layout") == "card":
+        card = (f'<div class="photocard" style="background-image:url(\'{media}\')"></div>'
+                if media else "")
+        return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
+<body class="card{"" if media else " nomedia"}">{art_bg(s.get("body", ""))}
+<div class="mast-top">{MASTHEAD}</div>
+<div class="frame">
+<p class="body">{s["body"].replace(chr(10), "<br>")}</p>{card}</div></body>'''
 
     # content
     nomedia = "" if media else " nomedia"

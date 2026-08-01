@@ -68,8 +68,13 @@ body.cover h1{line-height:.92;letter-spacing:0;
        color:#FFF;direction:ltr;display:flex;justify-content:center;
        align-items:center;gap:14px}
 .swipe em{font-style:normal;color:#D97757}
-.subline{font-family:HebBody;font-weight:800;font-size:56px;letter-spacing:.01em;
-         color:#FFF;margin-top:18px}
+/* badge: story-brand logo as a circular cover chip (owner example Aug 1) */
+.badge{position:absolute;top:96px;left:60px;width:310px;height:310px;
+       border-radius:50%;z-index:2;display:flex;align-items:center;
+       justify-content:center;
+       background:radial-gradient(circle at 35% 30%,#17171d 0%,#050507 78%);
+       box-shadow:0 16px 55px rgba(0,0,0,.75),inset 0 0 0 2px rgba(255,255,255,.09)}
+.badge img{width:60%;filter:drop-shadow(0 6px 18px rgba(0,0,0,.65))}
 .logorow{position:absolute;top:110px;left:0;right:0;z-index:2;
          display:flex;align-items:center;justify-content:center;gap:70px}
 .logorow img{height:170px;max-width:440px;object-fit:contain;
@@ -87,6 +92,10 @@ body.nophoto .logorow img{height:230px;max-width:480px}
        mask-image:linear-gradient(180deg,#000 calc(100% - 300px),rgba(0,0,0,0) 100%)}
 .bleed.collage{display:flex;gap:6px}
 .bleed.collage .col{flex:1;background-size:cover;background-position:center top}
+/* cover: tighter feather — the photo stays bright until just above the
+   wordmark seam (owner Aug 1: no dimmed leftovers between photo and logo) */
+body.cover .bleed{-webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 160px),rgba(0,0,0,0) 100%);
+                  mask-image:linear-gradient(180deg,#000 calc(100% - 160px),rgba(0,0,0,0) 100%)}
 .shade{position:absolute;inset:0;z-index:1;
        background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,0) 14%,
        rgba(0,0,0,0) 46%,rgba(5,5,5,.6) 62%,rgba(5,5,5,.9) 72%,rgba(5,5,5,.94) 100%)}
@@ -97,6 +106,16 @@ body.content .bleed{background-position:center}
 body.content h1{margin-bottom:28px;text-shadow:0 4px 14px rgba(0,0,0,.9)}
 body.content .body{text-shadow:0 3px 12px rgba(0,0,0,.85)}
 body.content.nomedia .frame{justify-content:center;padding-top:60px}
+/* profile-card content slide (@techskills anatomy, owner example Aug 1) */
+body.card .frame{position:relative;z-index:2;height:1350px;display:flex;
+                 flex-direction:column;padding:170px 66px 78px;gap:48px}
+body.card .body{font-size:43px;line-height:1.55;font-weight:600}
+body.card .body em{font-style:normal;color:#D97757;font-weight:800}
+body.card .photocard{flex:1;min-height:0;border-radius:30px;
+                     background-size:cover;background-position:center top;
+                     border:2px solid rgba(217,119,87,.45);
+                     box-shadow:0 20px 60px rgba(0,0,0,.65)}
+body.card.nomedia .frame{justify-content:center;padding-top:120px}
 body.cta .frame{position:relative;z-index:2;height:1350px;display:flex;
                 flex-direction:column;justify-content:center;text-align:center;
                 padding:0 44px}
@@ -179,19 +198,22 @@ function fitLines(h){
     h.appendChild(d);
   });
 }
-function fitOne(el){
-  el.style.whiteSpace='nowrap';
-  var target=el.parentElement.clientWidth*.86;
-  var w=el.getBoundingClientRect().width;
-  if(w>target)el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*target/w)+'px';
-}
-/* scrim(): photo fades exactly into the first text line — zero dead band,
-   any caption length (same engine as render.py) */
+/* scrim(): same engine as render.py. COVER (owner Aug 1): black band starts
+   AT the wordmark, one tight fade above it, no dimmed leftovers. CONTENT:
+   photo fades exactly into the first text line — zero dead band. */
 function scrim(){
   var bleed=document.querySelector('.bleed'),shade=document.querySelector('.shade');
   if(!bleed||!shade)return;
-  var anchor=document.querySelector('body.cover .frame .masthead')
-           ||document.querySelector('body.content .frame h1');
+  var mast=document.querySelector('body.cover .frame .masthead');
+  if(mast){
+    var edge=Math.max(420,Math.min(1350,Math.round(mast.getBoundingClientRect().top)+12));
+    bleed.style.height=(edge+50)+'px';
+    shade.style.background='linear-gradient(180deg,rgba(0,0,0,.25) 0px,rgba(0,0,0,0) 140px,'
+      +'rgba(0,0,0,0) '+(edge-190)+'px,rgba(5,5,5,.6) '+(edge-70)+'px,'
+      +'#050505 '+edge+'px,#050505 1350px)';
+    return;
+  }
+  var anchor=document.querySelector('body.content .frame h1');
   if(!anchor)return;
   var top=anchor.getBoundingClientRect().top;
   var edge=Math.max(420,Math.min(1350,Math.round(top)+120));
@@ -203,8 +225,6 @@ function scrim(){
 document.fonts.ready.then(function(){
   var h=document.querySelector('body.cover h1');
   if(h)fitLines(h);
-  var s=document.querySelector('.subline');
-  if(s)fitOne(s);
   scrim();
 });
 </script>"""
@@ -231,7 +251,11 @@ def slide_html(s, handle, total, fallback_media=None):
         swipe = ('<span>הסרטון המלא בתמונה הבאה</span><em>&#8594;</em>' if s.get("video")
                  else '<span>החליקו לעוד</span><em>&#8594;</em>')
         logos = ""
-        if s.get("logos"):
+        if s.get("badge_logo") and os.path.exists(
+                os.path.join(HERE, "logos", f'{s["badge_logo"]}.svg')):
+            logos = (f'<div class="badge">'
+                     f'<img src="{HERE}/logos/{s["badge_logo"]}.svg"></div>')
+        elif s.get("logos"):
             imgs = '<span class="vs">×</span>'.join(
                 f'<img src="{HERE}/logos/{l}.svg">' for l in s["logos"])
             logos = f'<div class="logorow">{imgs}</div>'
@@ -249,10 +273,10 @@ def slide_html(s, handle, total, fallback_media=None):
         else:
             bg = art_bg(s["headline"])
             cls = "cover nophoto"
-        subline = f'<div class="subline">{s["subline"]}</div>' if s.get("subline") else ""
+        # no subline (owner Aug 1): headline + swipe strip only
         return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="{cls}">{bg}{logos}
-<div class="frame">{masthead()}<h1>{s["headline"]}</h1>{subline}</div>
+<div class="frame">{masthead()}<h1>{s["headline"]}</h1></div>
 <div class="ctastrip"><div class="swipe">{swipe}</div></div>{FIT_JS}</body>'''
 
     if s["type"] == "cta":
@@ -263,6 +287,16 @@ def slide_html(s, handle, total, fallback_media=None):
 <div><span class="pill">עקבו אחרי <bdi>{handle}</bdi></span></div>
 <p class="cta-sub">{bidi(s["body"]).replace(chr(10), "<br>")}</p>
 </div></body>'''
+
+    # profile-card content slide (@techskills anatomy, owner example Aug 1)
+    if s["type"] == "content" and s.get("layout") == "card":
+        card = (f'<div class="photocard" style="background-image:url(\'{media}\')"></div>'
+                if media else "")
+        return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
+<body class="card{"" if media else " nomedia"}">{art_bg(s.get("body", ""))}
+<div class="mast-top">{masthead()}</div>
+<div class="frame">
+<p class="body">{bidi(s["body"]).replace(chr(10), "<br>")}</p>{card}</div></body>'''
 
     nomedia = "" if media else " nomedia"
     if media:

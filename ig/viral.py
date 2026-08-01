@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """The viral agent (owner request Jul 29, after the Circle K post-mortem):
-one place that owns PACKAGING — cover hooks, sublines, and reel titles — in
+one place that owns PACKAGING — cover hooks and reel titles — in
 both languages. Born from two measured failures the old one-rubric system
 caused:
 
@@ -205,8 +205,7 @@ CAND_SCHEMA = {
     "type": "object",
     "properties": {"hook_candidates": {"type": "array", "items": {
         "type": "object",
-        "properties": {"headline": {"type": "string"},
-                       "subline": {"type": "string"}},
+        "properties": {"headline": {"type": "string"}},
         "required": ["headline"]}}},
     "required": ["hook_candidates"],
 }
@@ -236,7 +235,7 @@ FACTS (never invent): {(material or '')[:2000]}
 {doctrine}
 RULES:
 {SHARED_RULES}
-Each candidate: {{"headline": "...", "subline": "curiosity tease, ≤40 chars, ALL CAPS{' Hebrew' if lang == 'he' else ''}, never a summary. It must tease what's INSIDE the carousel — never re-tease a fact the headline already shows (headline says $8.5B -> subline can't be 'wait until you see the amount')"}}
+Each candidate: {{"headline": "..."}} — the headline is the ENTIRE cover copy (no subline exists in the design); every word of the hook must live in it.
 
 Return ONLY JSON: {{"hook_candidates": [{n} objects]}}"""
     try:
@@ -288,22 +287,6 @@ def _pre_filter(cands):
         if dropped:
             print(f"viral: dropped {dropped} candidate(s) over 9 words",
                   file=sys.stderr)
-    # subline re-teasing: if the headline shows a number and the subline
-    # teases "the amount" / "the number" / "how much", it self-contradicts
-    def _subline_retease(c):
-        hl = re.sub(r"<[^>]+>", "", c.get("headline", ""))
-        sub = c.get("subline", "")
-        if not sub:
-            return False
-        has_number = bool(re.search(r"\$[\d.]+|\d{3,}", hl))
-        teases = bool(re.search(r"(?i)\b(the amount|the number|how much|"
-                                r"wait until you see)\b", sub))
-        return has_number and teases
-    no_retease = [c for c in kept if not _subline_retease(c)]
-    if no_retease and len(no_retease) < len(kept):
-        print(f"viral: dropped {len(kept) - len(no_retease)} candidate(s) "
-              "with self-contradicting sublines", file=sys.stderr)
-        kept = no_retease
     return kept
 
 
@@ -318,9 +301,7 @@ def judge(cands, ctx, lang="en"):
     order = list(range(len(cands)))
     random.shuffle(order)
     listing = "\n".join(
-        f"[{i}] {cands[j]['headline']}"
-        + (f"  (subline: {cands[j]['subline']})" if cands[j].get("subline") else "")
-        for i, j in enumerate(order))
+        f"[{i}] {cands[j]['headline']}" for i, j in enumerate(order))
     lang_line = ("You read Hebrew natively. A line that sounds broken when "
                  "read aloud (a noun used as a verb, an unnatural sentence "
                  "a native Israeli would never say) scores 0 TOTAL."
@@ -335,7 +316,6 @@ Score each candidate 0-10 on ONE thing: IMPACT — would you stop scrolling, rea
 
 KILL RULES (score 0 TOTAL, no matter how good it sounds):
 - TRUTH: states as DONE something the facts say was only tried/almost/blocked ("SENT" when it only TRIED to send), or invents a claim the facts don't support
-- CONTRADICTION: a subline that re-states what the headline already says (the headline shows the number, the subline teases "wait until you see the amount")
 
 CANDIDATES:
 {listing}
@@ -375,8 +355,6 @@ def tournament(post, story, ctx, material=""):
                                          "scores": [], "winner": 0,
                                          "story_type": ctx["story_type"]}
     post["slides"][0]["headline"] = _no_dashes(win["headline"])
-    if win.get("subline"):
-        post["subline"] = _no_dashes(win["subline"])
     return post
 
 
@@ -391,8 +369,6 @@ def hebrew_cover(out, story, ctx, material=""):
     # the localized translation competes too — sometimes it IS the best
     loc = {"headline": out["slides"][0].get("headline", "")}
     if out.get("slides") and loc["headline"]:
-        if out["slides"][0].get("subline"):
-            loc["subline"] = out["slides"][0]["subline"]
         cands.append(loc)
     win, record = judge(cands, ctx, lang="he")
     if not win:
@@ -401,8 +377,7 @@ def hebrew_cover(out, story, ctx, material=""):
     if "<em>" not in hl:  # accent is mandatory on covers
         hl = re.sub(r"^(\S+)", r"<em>\1</em>", hl)
     out["slides"][0]["headline"] = hl
-    if win.get("subline"):
-        out["slides"][0]["subline"] = _no_dashes(win["subline"])
+    out["slides"][0].pop("subline", None)  # dead field (owner Aug 1)
     if record:
         out["hook_tournament_he"] = record
     return out
