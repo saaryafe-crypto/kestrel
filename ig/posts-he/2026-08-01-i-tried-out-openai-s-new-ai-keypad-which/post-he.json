@@ -1,0 +1,117 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Apple תבעה את OpenAI על גניבת סודות, <em>ואז OpenAI השיקה מקלדת תמורת $230</em> באריזה שנראית בדיוק כמו של Apple",
+   "hsize": 74,
+   "media": "posts/2026-08-01-i-tried-out-openai-s-new-ai-keypad-which/gen-court3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "המכשיר הראשון של OpenAI: <em>שישה כפתורים</em>",
+   "hsize": 92,
+   "body": "קוראים לו <b>Micro</b>, פיתחו אותו עם חברת המקלדות <b>Work Louder</b>. <b>שישה מקשים</b> שמריצים פקודות ב-ChatGPT, כפתור קולי וגלגלת. ב-<b>Reddit</b> גילו את זה ראשונים",
+   "media": "posts/2026-08-01-i-tried-out-openai-s-new-ai-keypad-which/official-3.webp"
+  },
+  {
+   "type": "content",
+   "headline": "בביקורת כתבו: <em>'בנו את זה כדי לעצבן אותי אישית'</em>",
+   "hsize": 76,
+   "body": "<b>Aftermath</b> פרסמו ביקורת: אי אפשר להצדיק <b>$230</b> כשכבר יש כלים זולים יותר. ב-<b>Reddit</b> קברו את זה. אבל <b>OpenAI</b> לא בנו את זה כדי למכור מקלדות",
+   "media": "posts/2026-08-01-i-tried-out-openai-s-new-ai-keypad-which/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הקופסה? <em>העתק מדויק של Apple</em>",
+   "hsize": 105,
+   "body": "קופסה לבנה מושלמת, עיצוב נקי ומינימלי: הנוסחה של <b>Apple</b>, שורה בשורה. <b>Apple</b> תבעו אותם על גניבת סודות מסחריים שבועות לפני ההשקה. הצעד הבא של OpenAI: מכשיר סמארט הום, ומי בונה אותו? מהנדסים לשעבר של <b>Apple</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "$230 על <em>גאדג'ט שאף אחד לא צריך</em>",
+   "hsize": 88,
+   "body": "עסקים שורפים כסף על כלי AI מבריקים שחוסכים <b>אפס</b> שעות. ה-AI שבאמת משנה עונה לכל לקוח תוך <b>30 שניות</b> ועובד <b>24/7</b>. העסק שלך לא צריך מקלדת ב-<b>$230</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "OpenAI לא <em>ייעצרו במקלדת</em>",
+   "hsize": 100,
+   "body": "מכשיר סמארט הום בדרך. עקבו אחרי <b>@ainews.israel</b>: אנחנו מפרסמים כל פעם שחברת AI עושה מהלך גדול כזה. שלחו את זה לחבר שקונה כל גאדג'ט חדש",
+   "media": "posts/2026-08-01-i-tried-out-openai-s-new-ai-keypad-which/gen-cta.jpg"
+  }
+ ],
+ "caption": "סוויפו כדי לראות את המקלדת החדשה של OpenAI ב-$230 ולמה כולם שורפים אותם 🔥\n\nהמוצר הפיזי הראשון של OpenAI, ה-Micro, הוא מקלדת מיני ב-$230 בשיתוף עם Work Louder. שישה מקשי ChatGPT מותאמים אישית, שישה מקשי פקודה, כפתור קולי, Bluetooth ו-USB. Aftermath כתבו ביקורת ואמרו שאי אפשר להצדיק את המחיר. משתמשי Reddit רצחו את זה. האריזה נראית בדיוק כמו Apple, ו-Apple תבעו את OpenAI על גניבת סודות מסחריים שבועות לפני ההשקה. ל-OpenAI גם מכשיר סמארט הום בפיתוח, ומהנדסים לשעבר של Apple בונים אותו.\n\nOpenAI בונים חומרה במקביל למלחמה משפטית עם Apple. המקלדת נכשלה אצל המבקרים, אבל האסטרטגיה ברורה: הם רוצים לתפוס את המרחב הפיזי סביבכם, לא רק את המסך.\nיש לכם עסק? שלחו לנו \"AI\" בהודעה ונראה לכם AI שחוסך שעות אמיתיות\n\nמקורות: TechCrunch, Aftermath\n\nעקבו אחרי @ainews.israel 👈\n\n#OpenAI #ChatGPT #AIHardware #TechNews #AIKeyboard",
+ "pinned_comment": "מה שלא נכנס: על המקלדת כתוב 'You can just build things'. עם $230, אפשר לבנות הרבה דברים גם בלעדיה",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "OPENAI JUST CHARGED <em>$230 FOR THIS</em>",
+   "OPENAI MADE A KEYBOARD AND <em>REDDIT LOST IT</em>",
+   "THEY CALLED OPENAI'S NEW PRODUCT <em>A PRANK</em>",
+   "OPENAI JUST SHIPPED <em>ITS FIRST GADGET</em>",
+   "A <em>$230 KEYBOARD</em> THAT DOES ONE THING",
+   "OPENAI JUST SOLD A <em>$230</em> KEYBOARD",
+   "OPENAI'S FIRST PRODUCT <em>IS GETTING DESTROYED</em>",
+   "APPLE <em>SUED</em> OPENAI WEEKS BEFORE THIS LAUNCH",
+   "OPENAI'S FIRST PRODUCT IS A <em>6-BUTTON KEYBOARD</em>",
+   "OPENAI COPIED <em>THE COMPANY SUING THEM</em>"
+  ],
+  "scores": [
+   6,
+   6,
+   7,
+   4,
+   7,
+   4,
+   6,
+   8,
+   7,
+   9
+  ],
+  "winner": 9,
+  "why": "The irony is so infuriating it stops you cold — OpenAI literally copying the packaging of the company actively suing them for theft is a scandal with a built-in punchline. [7] is dramatic but reads like a news headline; [9] makes you feel the absurdity and demands you swipe to understand how this is real."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "OpenAI",
+  "actor_known": true,
+  "anchor": "OpenAI",
+  "specifics": [
+   "$230 for a 6-button keyboard that just talks to ChatGPT",
+   "Reddit user called it 'a prank and not a real product'",
+   "review titled 'engineered to piss me off specifically'",
+   "Apple sued OpenAI over trade theft weeks before launch",
+   "packaging described as 'Apple-coded' — immaculate white box"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+  "link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+  "judge_interest": null,
+  "scout_score": 39.09588789013889
+ },
+ "cover_style": "photo",
+ "hook_tournament_he": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "OpenAI השיקה מקלדת עם 6 כפתורים <em>תמורת $230</em>, וברדיט כבר <em>קראו לזה מתיחה</em> ולא מוצר אמיתי",
+   "OpenAI השיקה את המוצר הפיזי הראשון שלה, <em>מקלדת עם 6 כפתורים תמורת $230</em> שרק פותחת ChatGPT",
+   "OpenAI השיקה מקלדת עם 6 כפתורים <em>תמורת $230</em>, והביקורת אמרה שהיא <em>\"בנויה לעצבן אותי ספציפית\"</em>",
+   "OpenAI רוצה לשלוט לא רק במסך שלך אלא גם בשולחן, <em>והמוצר הראשון הוא מקלדת תמורת $230</em> שכולם שונאים",
+   "Apple תבעה את OpenAI על גניבת סודות, <em>ואז OpenAI השיקה מקלדת תמורת $230</em> באריזה שנראית בדיוק כמו של Apple"
+  ],
+  "scores": [
+   6,
+   7,
+   8,
+   5,
+   9
+  ],
+  "winner": 4,
+  "why": "The Apple irony arc — sued for stealing trade secrets, then released hardware in packaging that looks like Apple's — is a 'you can't make this up' story that creates instant tension and makes the swipe feel inevitable. Candidate [2]'s review quote lands hard but stays isolated; [4] connects two real facts into a single narrative that feels bigger than any one joke."
+ }
+}
