@@ -872,7 +872,16 @@ def call_claude(prompt, schema=None, images=None, model=None):
         cmd += ["--allowedTools", "Read"]
         for d in sorted({os.path.dirname(os.path.abspath(p)) for p in images}):
             cmd += ["--add-dir", d]
-    out = subprocess.run(cmd, capture_output=True, text=True, timeout=1200).stdout
+    # One retry on a hung CLI call (Aug 1 22:00 UTC slot died: the edu
+    # fallback — the ladder's LAST rung — sat 20 min on a single `claude -p`
+    # and TimeoutExpired killed the whole run. A fresh process almost always
+    # succeeds; the 7/day rule says the slot must not die on one hang.)
+    try:
+        out = subprocess.run(cmd, capture_output=True, text=True, timeout=1200).stdout
+    except subprocess.TimeoutExpired:
+        print("claude -p hung 20 min — retrying once with a fresh process",
+              file=sys.stderr)
+        out = subprocess.run(cmd, capture_output=True, text=True, timeout=1200).stdout
     m = re.search(r"\{.*\}", out, re.S)
     if not m:
         # RuntimeError, NOT SystemExit: callers with fail-open except-Exception
