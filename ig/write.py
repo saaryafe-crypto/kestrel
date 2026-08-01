@@ -1191,8 +1191,12 @@ def main(stories_path):
     # passed outright, the BEST-SCORING candidate ships — flagged in
     # post.json so the daily report names it for owner review. A bare type
     # cover is legal only when zero images exist at all.
+    # NO logos exemption (owner Aug 1, Chrome-bugs post: "terrible logo and
+    # without a cover photo" — a bare logo-on-dark cover is never acceptable):
+    # when generation starves, a logos cover falls back to a real article
+    # photo exactly like every other style.
     cover0 = post["slides"][0]
-    if not cover0.get("media") and post.get("cover_style") != "logos":
+    if not cover0.get("media"):
         for mi, m in enumerate(media_files, 1):
             if mi in used:
                 continue
