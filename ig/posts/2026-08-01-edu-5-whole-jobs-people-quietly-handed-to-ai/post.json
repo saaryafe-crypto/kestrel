@@ -1,0 +1,65 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 <em>WHOLE JOBS</em> PEOPLE QUIETLY HANDED TO AI THIS WEEK",
+   "hsize": 72,
+   "media": "posts/2026-08-01-edu-5-whole-jobs-people-quietly-handed-to-ai/gen-0-r.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIGHT YOUR MEDICAL BILL</em> FOR YOU",
+   "hsize": 110,
+   "body": "A <b>$1,200</b> hospital bill went in. A dispute letter came out. <b>Bill dropped to $180</b>\n\n'Here is my medical bill. Find every inflated charge and write a formal dispute letter'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>REDESIGN ANY ROOM</em> ON A REAL BUDGET",
+   "hsize": 100,
+   "body": "One living room photo went in. A complete redesign with a <b>$500 shopping list</b> came back\n\n'Redesign this room for under $500. List every item with the store name and price'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>SELL YOUR OLD STUFF</em> WITHOUT WRITING A WORD",
+   "hsize": 95,
+   "body": "People are selling their old stuff without typing a single listing or haggling with a single buyer\n\n'Price each item, write a marketplace listing, and draft firm but friendly replies to anyone who lowballs'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>NAIL YOUR JOB INTERVIEW</em> BEFORE IT HAPPENS",
+   "hsize": 100,
+   "body": "He fed Claude a job posting. It ran mock rounds and ripped apart his answers. <b>He got the job</b>\n\n'Run a mock interview for this role. One question at a time. Critique each answer'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>PREDICT EVERY QUESTION</em> YOUR BOSS WILL ASK",
+   "hsize": 100,
+   "body": "He runs this before every big meeting. The questions he can't answer <b>stopped showing up</b>\n\n'You are a skeptical executive reviewing my presentation. List every question you would challenge and every weak point'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 124,
+   "body": "You'll want these prompts when you need them. Save this post\n\nWE SHARE DAILY AI NEWS AND REAL SKILLS YOU CAN USE TONIGHT",
+   "media": null
+  }
+ ],
+ "caption": "AI CHEAT CODES VOL. 4: swipe for 5 whole jobs people quietly handed to AI this week, with every prompt you need \ud83d\udd25\n\nMedical bill negotiation that took a $1,200 charge down to $180, a complete room redesign with a shopping list under $500, marketplace selling where AI prices your stuff and handles the haggling, a mock interview so real the actual one felt like a rerun, and a pre-meeting prompt that predicts every hard question before you walk in.\n\nNone of these are demos. Every one came from a real person who posted the results this week. The people handing AI their real work are pulling ahead, and the gap gets wider every month.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Reddit r/ClaudeAI, Reddit r/PromptEngineering, Reddit r/ChatGPTPro\n\n#AI #AITools #Productivity #TechTips #SmallBusiness",
+ "pinned_comment": "Which one are you trying first? The medical bill prompt alone is worth the save.",
+ "hook_tournament": {
+  "candidates": [
+   "5 <em>WHOLE JOBS</em> PEOPLE QUIETLY HANDED TO AI THIS WEEK"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)"
+}
