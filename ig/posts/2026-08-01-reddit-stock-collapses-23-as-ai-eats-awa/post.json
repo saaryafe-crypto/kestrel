@@ -1,0 +1,97 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI JUST <em>KILLED REDDIT</em>",
+   "hsize": 80,
+   "media": "posts/2026-08-01-reddit-stock-collapses-23-as-ai-eats-awa/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "REDDIT'S STOCK <em>CRASHED 23%</em> IN ONE DAY",
+   "hsize": 80,
+   "body": "The market was green. <b>S&P 500</b> up <b>0.70%</b>, <b>Nasdaq</b> up <b>1%</b>. <b>RDDT</b> dropped <b>23%</b> and was the only thing bleeding",
+   "media": "posts/2026-08-01-reddit-stock-collapses-23-as-ai-eats-awa/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "GOOGLE'S AI <em>STOLE THEIR VISITORS</em>",
+   "hsize": 110,
+   "body": "<b>Google</b> now answers questions before anyone clicks. People stop visiting <b>Reddit</b>. Fewer visitors, fewer ads, and one of <b>Wall Street's</b> favorite AI bets just imploded",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "REDDIT WAS SUPPOSED TO <em>WIN FROM AI</em>",
+   "hsize": 80,
+   "body": "<b>AI goldmine</b>. That's what investors called <b>Reddit's</b> mountain of real human answers. <b>Google's AI</b> learned every one of them, then made visiting <b>Reddit</b> pointless",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AI ANSWERS YOUR CUSTOMERS <em>BEFORE THEY FIND YOU</em>",
+   "hsize": 76,
+   "body": "<b>Google's AI</b> answers customers before they reach your website. <b>Reddit</b> lost <b>23%</b> in a day because visitors stopped clicking. The businesses that survive this don't wait to be found",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "REDDIT WON'T BE <em>THE LAST</em>",
+   "hsize": 110,
+   "body": "Follow, you'll want to see who AI eats next. Send this to someone whose business still depends on Google sending them customers",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how Google's AI wiped 23% off Reddit's stock in a single day \ud83d\udcc9\n\nReddit's stock RDDT crashed 23% in a single trading session while the S&P 500 rose 0.70% and the Nasdaq climbed 1% the same day, Google's AI summaries now answer questions at the top of search before anyone clicks through to Reddit, investors had called Reddit an AI goldmine because it owns one of the biggest collections of real human conversations online, instead AI learned from all that data then replaced the need to visit Reddit at all\n\nThis is the first time AI search directly crashed a major stock in one session. Every website that depends on people clicking from Google is sitting on the same fault line Reddit just cracked.\nRunning a business? DM us \"AI\" and we'll show you how to stay ahead of this before it hits your traffic\n\nSources: Yahoo Finance\n\n#Reddit #AI #Google #StockMarket #Technology",
+ "pinned_comment": "Reddit helped train the AI that replaced it. Name another company feeding the machine that's about to make them pointless",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "AI JUST <em>KILLED REDDIT</em>",
+   "Reddit Stock Just <em>Collapsed</em>",
+   "REDDIT IS <em>BLEEDING OUT</em>",
+   "GOOGLE JUST <em>BROKE REDDIT</em>",
+   "AI Search Just <em>Gutted</em> Reddit",
+   "Reddit Lost <em>23%</em> in One Day",
+   "REDDIT LOST <em>23% IN ONE DAY</em>",
+   "Google AI Is <em>Killing</em> Reddit's Traffic",
+   "REDDIT JUST <em>COLLAPSED</em>",
+   "Your Reddit Data <em>Couldn't</em> Save It"
+  ],
+  "scores": [
+   9,
+   5,
+   7,
+   8,
+   7,
+   5,
+   7,
+   6,
+   8,
+   7
+  ],
+  "winner": 0,
+  "why": "KILLED hits harder than COLLAPSED because it sounds permanent and violent \u2014 collapse implies possible recovery, but killed means it's over. AI as the named killer is exactly the thing 2am scrollers are already anxious about, so the combination creates instant 'wait, WHAT' dread that the runner-up [8] doesn't quite land."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Reddit",
+  "actor_known": true,
+  "anchor": "Reddit",
+  "specifics": [
+   "Stock collapsed 23% in a single day",
+   "Google AI summaries answering questions before users ever click through to Reddit",
+   "AI search is cannibalizing traffic from sites that trained it",
+   "S&P 500 was up 0.70% the same day \u2014 broader market was fine",
+   "Reddit had been considered an AI-boom winner because it owns valuable user data"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Reddit Stock Collapses 23% as AI Eats Away at User Growth",
+  "link": "https://finance.yahoo.com/technology/ai/articles/reddit-stock-collapses-23-ai-200638599.html",
+  "judge_interest": 8,
+  "scout_score": 209.3
+ }
+}
