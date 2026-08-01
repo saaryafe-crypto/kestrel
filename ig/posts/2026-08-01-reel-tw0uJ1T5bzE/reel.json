@@ -1,0 +1,17 @@
+{
+ "pick": 3,
+ "title": "A robot that rows a boat the way a person would",
+ "title_candidates": [
+  "How a humanoid robot rows a Viking boat",
+  "A robot that rows a boat the way a person would",
+  "What it takes for a robot to balance while rowing",
+  "Boston Dynamics taught their humanoid robot to row",
+  "The full body coordination of a rowing robot"
+ ],
+ "caption": "Atlas takes on a Viking rowing challenge, coordinating its full body through every stroke.\n\nRowing is one of the hardest physical tasks to replicate in a machine. Each stroke requires the arms, torso, and legs to fire in perfect sequence while the body compensates for shifting momentum. Atlas pulls it off with a smoothness you wouldn't expect from a machine.\n\nBoston Dynamics keeps pushing Atlas into moves that would test most people. This is their latest.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: Boston Dynamics. DM for credit or removal\n\n#robotics #bostondynamics #atlas #humanoidrobot #ai",
+ "start_s": 0,
+ "clip_s": 30,
+ "source": "https://www.youtube.com/watch?v=tw0uJ1T5bzE",
+ "channel": "Boston Dynamics",
+ "publish": "bundle"
+}
