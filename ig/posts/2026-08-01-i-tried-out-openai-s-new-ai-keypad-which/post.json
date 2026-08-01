@@ -1,0 +1,98 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "OPENAI COPIED <em>THE COMPANY SUING THEM</em>",
+   "hsize": 74,
+   "media": "posts/2026-08-01-i-tried-out-openai-s-new-ai-keypad-which/gen-court3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "OPENAI'S FIRST GADGET HAS <em>SIX BUTTONS</em>",
+   "hsize": 92,
+   "body": "It's called <b>Micro</b>, built with keyboard company <b>Work Louder</b>. <b>Six keys</b> you set to run ChatGPT tasks, a voice button, and a dial. <b>Reddit</b> saw it first",
+   "media": "posts/2026-08-01-i-tried-out-openai-s-new-ai-keypad-which/official-3.webp"
+  },
+  {
+   "type": "content",
+   "headline": "A REVIEW CALLED IT <em>'ENGINEERED TO PISS ME OFF'</em>",
+   "hsize": 76,
+   "body": "<b>Aftermath</b> ran the review: <b>$230</b> is impossible to justify when cheaper tools already exist. <b>Reddit</b> piled on. But <b>OpenAI</b> didn't build this to sell keyboards",
+   "media": "posts/2026-08-01-i-tried-out-openai-s-new-ai-keypad-which/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "THE BOX COPIED <em>APPLE'S PLAYBOOK</em>",
+   "hsize": 105,
+   "body": "Immaculate white box, clean minimal design: <b>Apple</b>'s playbook, line for line. <b>Apple</b> sued them for trade theft weeks before this dropped. OpenAI's next move: a smart home device, built by ex-<b>Apple</b> engineers",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "$230 WASTED ON <em>A GADGET NOBODY NEEDS</em>",
+   "hsize": 88,
+   "body": "Businesses dump cash on shiny AI tools that save <b>zero</b> hours. The AI that matters answers every customer in <b>30 seconds</b> and runs <b>24/7</b>. Your business doesn't need a <b>$230</b> keyboard",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "OPENAI WON'T <em>STOP AT A KEYBOARD</em>",
+   "hsize": 100,
+   "body": "A smart home device is next. Follow <b>@yaffeai</b>: we post every time AI companies make a move this big. Send this to the friend who buys every new gadget",
+   "media": "posts/2026-08-01-i-tried-out-openai-s-new-ai-keypad-which/gen-cta.jpg"
+  }
+ ],
+ "caption": "Swipe to see OpenAI's new $230 AI keyboard and why the internet is roasting it 🔥\n\nOpenAI's first hardware product, the Micro, is a $230 mini keyboard built with Work Louder. Six customizable ChatGPT keys, six command keys, a voice button, Bluetooth and USB. Aftermath reviewed it and said the price is impossible to justify. Reddit users trashed it. The packaging mirrors Apple's clean white aesthetic, and Apple sued OpenAI for trade theft weeks before the launch. OpenAI also has a smart home product in development, built by former Apple engineers.\n\nOpenAI is building hardware while fighting Apple in court. The keyboard flopped with reviewers, but the playbook is clear: they want to own the physical space around you, not just the screen.\nRunning a business? DM us \"AI\" and we'll show you AI that saves real hours\n\nSources: TechCrunch, Aftermath\n\n#OpenAI #ChatGPT #AIHardware #TechNews #AIKeyboard",
+ "pinned_comment": "The part we couldn't fit: the keyboard has 'You can just build things' printed on the side. For $230, you could build quite a lot without it",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "OPENAI JUST CHARGED <em>$230 FOR THIS</em>",
+   "OPENAI MADE A KEYBOARD AND <em>REDDIT LOST IT</em>",
+   "THEY CALLED OPENAI'S NEW PRODUCT <em>A PRANK</em>",
+   "OPENAI JUST SHIPPED <em>ITS FIRST GADGET</em>",
+   "A <em>$230 KEYBOARD</em> THAT DOES ONE THING",
+   "OPENAI JUST SOLD A <em>$230</em> KEYBOARD",
+   "OPENAI'S FIRST PRODUCT <em>IS GETTING DESTROYED</em>",
+   "APPLE <em>SUED</em> OPENAI WEEKS BEFORE THIS LAUNCH",
+   "OPENAI'S FIRST PRODUCT IS A <em>6-BUTTON KEYBOARD</em>",
+   "OPENAI COPIED <em>THE COMPANY SUING THEM</em>"
+  ],
+  "scores": [
+   6,
+   6,
+   7,
+   4,
+   7,
+   4,
+   6,
+   8,
+   7,
+   9
+  ],
+  "winner": 9,
+  "why": "The irony is so infuriating it stops you cold — OpenAI literally copying the packaging of the company actively suing them for theft is a scandal with a built-in punchline. [7] is dramatic but reads like a news headline; [9] makes you feel the absurdity and demands you swipe to understand how this is real."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "OpenAI",
+  "actor_known": true,
+  "anchor": "OpenAI",
+  "specifics": [
+   "$230 for a 6-button keyboard that just talks to ChatGPT",
+   "Reddit user called it 'a prank and not a real product'",
+   "review titled 'engineered to piss me off specifically'",
+   "Apple sued OpenAI over trade theft weeks before launch",
+   "packaging described as 'Apple-coded' — immaculate white box"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+  "link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+  "judge_interest": null,
+  "scout_score": 39.09588789013889
+ },
+ "cover_style": "photo"
+}
