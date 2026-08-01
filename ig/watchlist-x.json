@@ -1,5 +1,5 @@
 {
- "_comment": "X accounts the Demand Radar watches (radar_x.py), organized in lanes. Radar batches them into from:-OR searches with a min_faves floor, so we only pay for tweets that are ALREADY viral - adding accounts is nearly free. Edit freely, no code change needed. OWNER DOCTRINE (Aug 1, permanent): the radar's job is (1) the most viral things happening in tech/AI/space and (2) the accounts that SUMMARIZE everything - not a CEO roll call. Keep the founders lane to the handful whose own tweets go viral; put the weight on summarizers and viral lanes.",
+ "_comment": "X accounts the Demand Radar watches (radar_x.py), organized in lanes. Radar batches them into from:-OR searches with a min_faves floor, so we only pay for tweets that are ALREADY viral - adding accounts is nearly free. Edit freely, no code change needed. OWNER DOCTRINE (Aug 1, permanent): follow accounts that SUMMARIZE each world (AI, robotics, space, markets, breaking tech) - not company/CEO roll calls. Company virals (SpaceX launches, robot demos) are caught by the wide-net topic+video searches in radar_x.py, so company accounts earn a slot only if their OWN tweets go viral (sama/elonmusk/OpenAI-class). Markets lane added Aug 1 (owner: investment world - Citadel/Situational Awareness, Buffett, Wall St drama).",
  "lanes": {
   "ai_labs_founders": [
    "sama", "elonmusk", "OpenAI", "AnthropicAI", "GoogleDeepMind", "karpathy"
@@ -10,18 +10,19 @@
    "ai_for_success", "venturetwins", "heyBarsee", "altryne", "javilopen",
    "AiBreakfast", "WesRothMoney", "dr_cintas"
   ],
-  "robots": [
-   "Tesla_Optimus", "Figure_robot", "UnitreeRobotics", "BostonDynamics",
-   "agilityrobotics", "apptronik", "MachinePix"
+  "robotics_summarizers": [
+   "TheHumanoidHub", "MachinePix", "IntEngineering", "engineers_feed"
   ],
-  "space": [
-   "SpaceX", "NASA", "NASAWebb", "esa", "blueorigin", "RocketLab",
-   "Erdayastronaut", "SciGuySpace", "ajamesmccarthy", "SawyerMerritt",
-   "planet4589", "cb_doge"
+  "space_summarizers": [
+   "NASASpaceflight", "Erdayastronaut", "ajamesmccarthy", "SawyerMerritt",
+   "cb_doge"
+  ],
+  "markets_summarizers": [
+   "unusual_whales", "WatcherGuru", "DeItaone", "KobeissiLetter",
+   "FirstSquawk", "Barchart"
   ],
   "tech_breaking": [
-   "TheInsiderPaper", "unusual_whales", "WatcherGuru", "IntEngineering",
-   "engineers_feed", "MarioNawfal"
+   "TheInsiderPaper", "MarioNawfal"
   ],
   "wow_aggregators": [
    "Rainmaker1973", "konstructivizm", "AMAZlNGNATURE", "gunsnrosesgirl3",

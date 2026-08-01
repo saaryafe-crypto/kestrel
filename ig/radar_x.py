@@ -36,7 +36,7 @@ from datetime import datetime
 # First funded poll proved the need: a Tommy Robinson culture-war video and a
 # football tweet rode min_faves floors into the radar — engagement floors
 # filter for VIRAL, not for ON-BRAND.
-from radar import POLITICS, TOPIC
+from radar import TOPIC, political
 
 # TOPIC covers the AI/robot doctrine; the wide-net TEXT lanes also search
 # quantum/fusion/space/science, so the X gate accepts those tokens too. The
@@ -45,7 +45,11 @@ from radar import POLITICS, TOPIC
 # keyword in the VISIBLE text we would publish.
 TOPIC_X = re.compile(
     r"\bquantum|\bsemiconductor|\bfusion\b|\bnasa\b|\brocket|\bbooster"
-    r"|\bspace|\bscience|\btech\b|\btechnolog|breakthrough|\bdiscover", re.I)
+    r"|\bspace|\bscience|\btech\b|\btechnolog|breakthrough|\bdiscover"
+    # markets lane (Aug 1): finance keeps must show their keyword in the
+    # publishable text, same rule as every other wide-net lane
+    r"|\bstocks?\b|\bnasdaq|\bwall st|\bhedge fund|\bearnings|\bbuffett"
+    r"|\bipo\b|\bmarket cap|\binvestor", re.I)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 WATCH = os.path.join(HERE, "watchlist-x.json")
@@ -81,6 +85,12 @@ SEARCHES_TEXT = [
     "(quantum OR semiconductor OR fusion OR breakthrough OR discovery) lang:en min_faves:10000",
     "AI lang:en min_faves:20000",
     "(tech OR technology OR science OR space) lang:en min_faves:30000",
+    # investment world (owner Aug 1: Wall St drama — Citadel/Situational
+    # Awareness class stories, Buffett): floor between the AI (10K) and
+    # catch-all (30K) lanes — finance X is loud, but we only want the
+    # stories everyone will be talking about tomorrow
+    "(stocks OR \"Wall Street\" OR \"hedge fund\" OR Buffett OR Nasdaq"
+    " OR earnings) lang:en min_faves:15000",
 ]
 SEARCHES = SEARCHES_VIDEO + SEARCHES_TEXT
 BATCH_FLOOR = FLOOR_LIKES  # watchlist batches: floor matches the keep filter
@@ -275,7 +285,7 @@ def harvest():
             if not m:
                 continue
             blob = f"{m['title']} {m.get('selftext') or ''}"
-            if POLITICS.search(blob) or (
+            if political(blob) or (
                     wide and not (TOPIC.search(blob) or TOPIC_X.search(blob))):
                 continue
             pool.append(m)

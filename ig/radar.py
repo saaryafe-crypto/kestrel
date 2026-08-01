@@ -73,6 +73,20 @@ POLITICS = re.compile(
     r"|\bracis|\bmigrant",
     re.I)
 
+# Politics×AI COLLISION exemption (owner Aug 1: "if something with politics
+# and ai collides we also need to share that" — governments disabling models,
+# AI regulation drama). A politics hit passes IF the text names AI explicitly.
+# Deliberately narrower than TOPIC: 'drone'/'data cent' tokens are how the
+# pepper-spray-drone politics story leaked in Jul 29 — those do NOT exempt.
+AI_CORE = re.compile(
+    r"\ba\.?i\b|artificial intel|chatgpt|openai|claude|anthropic|gemini"
+    r"|\bgrok\b|deepseek|\bllm\b|deepfake", re.I)
+
+
+def political(text):
+    """True = off-brand politics; AI-collision stories stay in."""
+    return bool(POLITICS.search(text)) and not AI_CORE.search(text)
+
 MAX_AGE_H = 30       # older = the wave already broke on IG too
 N_MOMENTS = 24       # radar.json cap (raised Jul 29: X sends up to 16
                      # high-vph moments; reddit breakouts keep >=8 slots)
@@ -116,7 +130,7 @@ def harvest_sub(sub, floor, gate):
         title = htmllib.unescape(ti.group(2)).strip()
         if score < floor:
             continue
-        if gate and (not TOPIC.search(title) or POLITICS.search(title)):
+        if gate and (not TOPIC.search(title) or political(title)):
             continue
         url = htmllib.unescape(ti.group(1))
         img = url if re.match(r"https?://i\.redd\.it/", url) else None
