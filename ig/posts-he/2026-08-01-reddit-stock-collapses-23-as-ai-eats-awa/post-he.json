@@ -1,0 +1,118 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Reddit הייתה אמורה להרוויח מ-AI, <em>קרסה 23%</em>",
+   "hsize": 80,
+   "media": "posts/2026-08-01-reddit-stock-collapses-23-as-ai-eats-awa/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "המניה של Reddit <em>צנחה 23%</em> ביום אחד",
+   "hsize": 80,
+   "body": "השוק היה ירוק. <b>S&P 500</b> עלה <b>0.70%</b>, <b>Nasdaq</b> עלה <b>1%</b>. <b>RDDT</b> צנחה <b>23%</b> והייתה היחידה שדיממה",
+   "media": "posts/2026-08-01-reddit-stock-collapses-23-as-ai-eats-awa/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "ה-AI של Google <em>גנב להם את הגולשים</em>",
+   "hsize": 110,
+   "body": "<b>Google</b> עכשיו עונה על שאלות לפני שמישהו לוחץ. אנשים הפסיקו להיכנס ל-<b>Reddit</b>. פחות גולשים, פחות פרסומות, ואחד ההימורים האהובים על <b>וול סטריט</b> פשוט התפוצץ",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "Reddit הייתה אמורה <em>להרוויח מ-AI</em>",
+   "hsize": 80,
+   "body": "<b>מכרה זהב של AI</b>. ככה משקיעים קראו להר של תשובות אנושיות אמיתיות של <b>Reddit</b>. ה-<b>AI של Google</b> למד כל תשובה, ואז הפך את הכניסה ל-<b>Reddit</b> למיותרת",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AI עונה ללקוחות שלך <em>לפני שהם מגיעים אליך</em>",
+   "hsize": 76,
+   "body": "ה-<b>AI של Google</b> עונה ללקוחות לפני שהם מגיעים לאתר שלך. <b>Reddit</b> איבדה <b>23%</b> ביום אחד כי גולשים הפסיקו ללחוץ. העסקים שישרדו את זה לא מחכים שימצאו אותם",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "Reddit לא תהיה <em>האחרונה</em>",
+   "hsize": 110,
+   "body": "עקבו, תרצו לראות מי ה-AI אוכל הבא. תשלחו את זה למישהו שהעסק שלו עדיין תלוי בזה שגוגל שולח לו לקוחות",
+   "media": null
+  }
+ ],
+ "caption": "סוואיפו כדי לראות איך ה-AI של Google מחק 23% מהמניה של Reddit ביום אחד 📉\n\nהמניה של Reddit צנחה 23% ביום מסחר אחד בזמן שה-S&P 500 עלה 0.70% וה-Nasdaq טיפס 1% באותו יום, הסיכומים של AI של Google עכשיו עונים על שאלות בראש תוצאות החיפוש לפני שמישהו לוחץ ל-Reddit, משקיעים קראו ל-Reddit מכרה זהב של AI כי היא מחזיקה אחד מהאוספים הכי גדולים בעולם של שיחות אנושיות אמיתיות, במקום זה ה-AI למד מכל המידע הזה ואז החליף את הצורך להיכנס ל-Reddit בכלל\n\nזאת הפעם הראשונה שחיפוש AI ישירות הפיל מניה גדולה בסשן מסחר אחד. כל אתר שתלוי בזה שאנשים לוחצים מגוגל יושב על אותו קו שבר ש-Reddit רגע שברה.\nמנהלים עסק? שלחו לנו DM עם \"AI\" ונראה לכם איך להישאר צעד לפני שזה פוגע בתנועה שלכם\n\nמקורות: Yahoo Finance\n\nעקבו אחרי @ainews.israel לעוד חדשות AI 🔥\n\n#Reddit #AI #Google #StockMarket #Technology",
+ "pinned_comment": "Reddit עזרה לאמן את ה-AI שהחליף אותה. תגידו עוד חברה שמאכילה את המכונה שעומדת להפוך אותה למיותרת",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "AI JUST <em>KILLED REDDIT</em>",
+   "Reddit Stock Just <em>Collapsed</em>",
+   "REDDIT IS <em>BLEEDING OUT</em>",
+   "GOOGLE JUST <em>BROKE REDDIT</em>",
+   "AI Search Just <em>Gutted</em> Reddit",
+   "Reddit Lost <em>23%</em> in One Day",
+   "REDDIT LOST <em>23% IN ONE DAY</em>",
+   "Google AI Is <em>Killing</em> Reddit's Traffic",
+   "REDDIT JUST <em>COLLAPSED</em>",
+   "Your Reddit Data <em>Couldn't</em> Save It"
+  ],
+  "scores": [
+   9,
+   5,
+   7,
+   8,
+   7,
+   5,
+   7,
+   6,
+   8,
+   7
+  ],
+  "winner": 0,
+  "why": "KILLED hits harder than COLLAPSED because it sounds permanent and violent — collapse implies possible recovery, but killed means it's over. AI as the named killer is exactly the thing 2am scrollers are already anxious about, so the combination creates instant 'wait, WHAT' dread that the runner-up [8] doesn't quite land."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Reddit",
+  "actor_known": true,
+  "anchor": "Reddit",
+  "specifics": [
+   "Stock collapsed 23% in a single day",
+   "Google AI summaries answering questions before users ever click through to Reddit",
+   "AI search is cannibalizing traffic from sites that trained it",
+   "S&P 500 was up 0.70% the same day — broader market was fine",
+   "Reddit had been considered an AI-boom winner because it owns valuable user data"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "Reddit Stock Collapses 23% as AI Eats Away at User Growth",
+  "link": "https://finance.yahoo.com/technology/ai/articles/reddit-stock-collapses-23-ai-200638599.html",
+  "judge_interest": 8,
+  "scout_score": 209.3
+ },
+ "hook_tournament_he": {
+  "story_type": "threat",
+  "candidates": [
+   "ה-AI שלמד מ-Reddit <em>הפיל אותו</em> 23%",
+   "AI פשוט <em>הרג את Reddit</em>",
+   "AI <em>מחק 23%</em> מהמניה של Reddit ביום אחד",
+   "Reddit היה אמור להרוויח מ-AI, <em>קרס 23%</em>",
+   "מה ש-AI עשה ל-Reddit <em>יקרה לאתר שלך</em>",
+   "Google AI הפך את Reddit <em>למיותר</em>"
+  ],
+  "scores": [
+   8,
+   5,
+   7,
+   9,
+   7,
+   7
+  ],
+  "winner": 3,
+  "why": "הניגוד 'היה אמור להרוויח / קרס' הוא מבנה סיפורי מושלם שמרגיש כמו אגרוף — המוח מייד רוצה לדעת איך זה קרה. [0] חכם אבל דורש שנייה של עיבוד; [3] מכה מיד."
+ }
+}
