@@ -103,7 +103,7 @@ IMG_QA_SCHEMA = {"type": "object",
                  "required": ["usable", "score"]}
 
 
-def image_score(path, headline):
+def image_score(path, headline, generated=False):
     """Vision judge for slide images. Returns (usable, score 0-10, flaw).
     usable = publish as-is; the score ranks sibling attempts (owner rule
     Jul 29: never generate forever — cap the spend and take the BEST of what
@@ -113,10 +113,14 @@ def image_score(path, headline):
     pixels while the post shipped with NO image — the rubric punished the
     best option). Fails closed: (False, 0, "")."""
     clean = re.sub(r"</?em>", "", headline)
+    face_gate = (
+        'FACE GATE (owner rule Aug 1, GENERATED images only — unfamiliar AI faces convert badly): if a human face is prominent, it must read as a RECOGNIZABLE famous person; a generic invented face nobody would recognize = usable:false, flaw "unfamiliar generated face". Faceless people (from behind, silhouette, hands) are fine. '
+        if generated else "")
     try:
         r = call_claude(
             f'An AI-generated image is attached (if not attached to this message, use your Read tool on {path} to look at it). It would fill the photo band of an Instagram news slide with this headline: "{clean}". Judge it AT PHONE FEED SIZE — a flaw a follower cannot see at that size does not count against it. '
             'SCORE against the scroll-stopper formula (each worth points): ONE dominant focal subject, brightest and sharpest thing in frame (no competing focal points); the image dramatizes THIS exact headline claim — moment, stakes or consequence visible in half a second (not generic topical art); bright saturated colors with one punchy accent (not murky, not pastel, not white-dominant); if a person is central, the face is large and radiates one clear strong emotion; looks like a real press photo (texture, grain, candid light), not plastic AI art. '
+            + face_gate +
             'Score 0-10: 10 = a professional photo editor would run it AND it nails the formula; 7 = publishable; 4 = clearly flawed but recognizable and on-claim; 0 = unusable garbage. usable:true means publish as-is — set false for flaws a scrolling follower would actually notice: garbled text large enough to read, warped hands/faces, obvious AI plastic look, watermark, no connection to the claim, or a dark/murky frame with no focal subject. flaw: the single biggest problem in 12 words or less (empty string if none). Return ONLY JSON: {{"usable": true/false, "score": 0-10, "flaw": "..."}}',
             schema=IMG_QA_SCHEMA, images=[path])
         return bool(r.get("usable")), int(r.get("score", 0)), r.get("flaw", "")
@@ -189,11 +193,11 @@ THE JOB: the image DRAMATIZES the exact claim of that slide's headline — the p
 
 ROLE-CAST (owner's gold standard, Aug 1): when the claim is about what a product or company CAN DO, cast the story's famous face IN THE ROLE the claim describes, mid-performance with that role's real props. Reference: "Claude has an unlimited personal tutor mode" → Anthropic's CEO AS the tutor — leaning over a desk in a warm home library, pen in hand, teaching a student whose shoulder frames the foreground. The person doesn't react to the claim, they ACT IT OUT; the scene props (pen, notebook, bookshelves) and the story-world background make the metaphor literal. Prefer this over a reaction face whenever the story has a doer + a capability.
 
-CLASH-CAST (owner's gold standard, Aug 1): when the story is a clash or a deal between TWO named famous people — a buyer and a seller, a winner and a loser, a hunter and the hunted — put BOTH recognizable likenesses in ONE composed scene that acts out the power dynamic: the winner looming calm and in command, the loser cornered mid-loss, faces large and close together, one clearly dominant. The story's world rages behind them (a trading floor of crashing red chart lines, a courtroom, a launchpad). Reference: the $45B fire-sale story → the young founder slumped at the deal table while the older billionaire stands over him signing, walls of red crashing charts behind. The pair reads as ONE unit; this beats a lone reaction face whenever the story has two famous sides. NAME both people explicitly in the prompt ("Ken Griffin", never "a silver-haired billionaire" — measured Aug 1: unnamed archetypes drift into the WRONG famous face); if a person is not famous enough for the model to know, describe them by age/build/role instead, and if NEITHER side is nameable-or-describable cleanly, drop to the single cornered-loser composition.
+CLASH-CAST (owner's gold standard, Aug 1): when the story is a clash or a deal between TWO named famous people — a buyer and a seller, a winner and a loser, a hunter and the hunted — put BOTH recognizable likenesses in ONE composed scene that acts out the power dynamic: the winner looming calm and in command, the loser cornered mid-loss, faces large and close together, one clearly dominant. The story's world rages behind them (a trading floor of crashing red chart lines, a courtroom, a launchpad). Reference: the $45B fire-sale story → the young founder slumped at the deal table while the older billionaire stands over him signing, walls of red crashing charts behind. The pair reads as ONE unit; this beats a lone reaction face whenever the story has two famous sides. NAME both people explicitly in the prompt ("Ken Griffin", never "a silver-haired billionaire" — measured Aug 1: unnamed archetypes drift into the WRONG famous face); if a side is not famous enough for the model to know, that person appears FACELESS (from behind, silhouette, or hands only — see the faces rule below), and if neither side is famous, drop CLASH-CAST entirely and dramatize with objects and stakes instead.
 
 FORMAT — every prompt contains these five parts in order (20-45 words total):
 1. HERO: ONE focal subject, concretely named (the real device/brand/person from the headline — or the CLASH-CAST pair as one unit), frozen at the peak of the exact moment — mid-fall, mid-launch, mid-signature. One focal point only; it is the brightest, sharpest thing in frame.
-2. EMOTION — when the story involves a person or a reaction, the hero IS a human face at 40%+ of frame height, eyes to camera or locked on the story's object, radiating ONE nameable exaggerated emotion (shock, awe, dread, triumph). Name the emotion in the prompt. Famous person in the story = that person's recognizable likeness.
+2. EMOTION — when the story's person is FAMOUS, the hero IS that person's recognizable likeness at 40%+ of frame height, named explicitly, eyes to camera or locked on the story's object, radiating ONE nameable exaggerated emotion (shock, awe, dread, triumph). Name the emotion in the prompt. FAMOUS FACES ONLY (owner rule Aug 1: generated unfamiliar faces = low conversion, no good outcome): if the story's person is not famous enough for a viewer to recognize, NEVER generate a face — show them from behind, as a silhouette, hands-and-props only, or cut them out of frame entirely and let the objects and stakes carry the drama.
 3. STAKES IN FRAME: make the money/scale/damage physically visible — the pile of cash, the wreckage, the crowd, the giant object beside a person for scale. Stakes a viewer can read in half a second.
 4. WORLD: the background is the story's real world (the factory floor, the launchpad, the brand's storefront) carrying context — softer, darker and simpler than the hero. Never an empty void, never white.
 5. ACCENT: end with ONE saturated accent color pulled from the subject, set against a darker complementary surround ("accent: signal red against deep blue dusk"). Warm saturated accents stop scrolls; whole-frame murk and pastels do not.
@@ -202,6 +206,7 @@ CRAFT (bake into every prompt):
 - Real press photograph, never digital art: include "documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain". This is the #1 lever that keeps generated images from looking like cheap AI.
 - ZERO readable words anywhere in frame (measured on our own runs: the model garbles every rendered sentence — 5 of 6 images died to this one flaw). Screens, signs and papers speak in SYMBOLS ONLY, named concretely: "a giant red $ symbol", "a warning triangle", "a crashing red chart line".
 - BANNED looks: purple-teal "AI glow", glowing holograms, circuit-board brains, waxy plastic skin, sci-fi concept art, moody dark murk, white backgrounds, two competing focal points, two emotions.
+- BANNED subjects: any invented/generic human face ("a young founder", "an office worker", "a scientist"). Every visible face must be a NAMED famous likeness; everyone else is faceless (behind / silhouette / hands) or absent.
 
 Return ONLY JSON: {{"briefs": [{{"idx": <slide index>, "brief": "..."}}]}}"""
     try:
@@ -421,8 +426,10 @@ def principles():
     p = os.path.join(HERE, "inspiration", "principles.md")
     if not os.path.exists(p):
         return ""
+    # cap raised Aug 1: the 16000 slice was silently cutting the last third of
+    # the file (incl. the whole $100M Offers funnel section) out of every prompt
     return ("\nVIRALITY PRINCIPLES — research-backed rules. When style imitation and a [STRONG] rule conflict, the rule wins:\n"
-            + open(p).read()[:16000] + "\n")
+            + open(p).read()[:32000] + "\n")
 
 
 def no_dashes(t):
@@ -856,7 +863,8 @@ def main(stories_path):
             if not path:  # budget out / API down — retrying can't help
                 break
             ok, score, flaw = image_score(path, s.get("headline")
-                                          or (s.get("body") or "")[:90])
+                                          or (s.get("body") or "")[:90],
+                                          generated=True)
             if ok:
                 s["media"] = os.path.relpath(path, HERE)
                 gen += 1

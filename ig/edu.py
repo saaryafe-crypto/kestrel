@@ -195,7 +195,7 @@ def main():
             path = genimg.generate(brief, os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg"))
             if not path:
                 break
-            ok, score, flaw = image_score(path, s["headline"])
+            ok, score, flaw = image_score(path, s["headline"], generated=True)
             if ok:
                 s["media"] = os.path.relpath(path, HERE)
                 gen += 1
