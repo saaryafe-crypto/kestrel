@@ -274,7 +274,7 @@ def localize(post_dir):
         if (post.get("viral") and post.get("story")
                 and not any(s.get("layout") == "card" for s in post["slides"])):
             # profile posts keep their long record-sentence cover (translated,
-            # not re-hooked — the ≤9-word Hebrew candidates would destroy it)
+            # not re-hooked — the rival candidates don't know the card format)
             out = viral.hebrew_cover(out, post["story"], post["viral"],
                                      post.get("caption", ""))
         return polish(out)  # Agent 5: native line-editor pass, runs LAST

@@ -97,11 +97,12 @@ Measured from the same 9 screenshots plus the @techskills money-post reference.
   and a reading order. Accent = ONE contiguous phrase, ideally a whole line,
   two groups absolute max. Blue scattered across four single words is
   confetti: four competing focal points = zero focal points.
-- **Cover word budget (owner doctrine Jul 29, tightened after the Visa
-  cover shipped as a 17-word wall of text):** hard cap 9 words, aim 4-8,
-  breaking edge-to-edge in 2-4 tight lines of huge type. The cover creates
-  an INFORMATION GAP — it sells curiosity, never delivers the article
-  ("VISA JUST BET EVERYTHING", not the whole story). Facts live on slide 2+.
+- **Cover word budget (owner flip Aug 1, reference-page audit — reverses
+  the Jul 29 gap cap):** 12-25 words, one complete summarizing sentence
+  breaking edge-to-edge into 4-6 tight condensed lines (hsize 58-70; the
+  renderer's 400px block cap keeps it from towering). The whole story with
+  its numbers goes ON the cover, @technology style; the slides deliver
+  the photos, depth and fallout.
 - **Brand color (FINAL owner call Jul 28 evening, reversing the same-day
   blue switch): white + orange #D97757 on black.** Accents are SOLID orange
   (no glyph texture); masthead is the real white wordmark (art/wordmark.png),
@@ -140,6 +141,39 @@ Measured from the same 9 screenshots plus the @techskills money-post reference.
   CLAUDE..." over an Anthropic-CEO hero shot). The face must belong to the
   company in the claim — a real, recognizable person, shot like a movie
   poster (low-key, rim light, dark canvas), never a generic stock human.
+
+## 4b. Attention science — researched Aug 1 2026 (primary sources)
+Sources: Netflix published artwork A/B research (82% of browse attention on
+imagery, ~1.8s/title), leaked MrBeast production doc, Paddy Galloway
+3-element rule, thumbnail CTR corpora. Operative copies live in write.py's
+art_direct prompt.
+
+- **One focal point per cover.** The eye must land in under 1 second; two
+  competing subjects = zero subjects. Max 3 elements total: subject,
+  secondary prop, headline block.
+- **Max 2 people in frame** (Netflix: engagement drops at 3+).
+- **Faces earn ~47% more clicks — but only expressive ones.** When a person
+  is the story their face fills 30-45% of cover width, emotion exaggerated
+  ONE notch past realistic (shock, glee, dread). Neutral reads as nothing at
+  feed size. Villain/polarizing framings over-index (Netflix).
+- **Gaze is an arrow.** Direct eye contact by default (first fixation for
+  ~65% of 18-34s); break it only to aim the subject's gaze AT the headline.
+- **Complementary contrast at thumbnail size:** subject lit warm (orange)
+  against cool/dark ground, ≥4.5:1 contrast — decisions happen
+  preconsciously in 100-150ms, single-source rim-light drama reads fastest.
+- **Three cover anatomies, rotated** (never the same twice in a row):
+  (a) person-holds-product — waist-up, product chest-high angled to camera;
+  (b) glowing-logo backdrop — real cutout centered, brand mark huge and
+  softly glowing behind the head; (c) absurd-object hero — the thing itself
+  at 50-60% of frame, slightly low-angle, no humans.
+- **Generation is iterative, never one-shot.** Famous faces/branded devices:
+  pass the REAL photo as reference (image_input) and demand identity match;
+  regenerate on mismatch. Likeness/logo failures kill credibility.
+- **Inner-slide variety sustains swipes:** alternate media types (real photo
+  → screenshot/receipt → generated scene), never two identical layouts
+  back-to-back; 70%+ slide-viewed rate earns 3-5x non-follower distribution.
+- **Slide 2 gets its own strong image** — Instagram re-serves the post
+  opening on slide 2, so it must work as a second cover, not a text slab.
 
 ## 5. Division of labor
 The writer's `image_brief` = subject + action + setting + one color key

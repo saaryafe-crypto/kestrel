@@ -47,21 +47,15 @@ def main(post_dir, base_url):
                 print("bundle post:", post.get("id"), "| audio:", r.get("audio_title"))
                 return
             except Exception as e:
-                # track rejected / bundle down — never lose the slot: fall
-                # through to Make (original clip audio, no music bed)
-                print(f"bundle publish failed ({e}) — falling back to Make",
-                      file=sys.stderr)
-        payload = {  # Make route: type=reel, music already embedded in the file
-            "type": "reel",
-            "caption": r["caption"],
-            "video_url": f"{base_url.rstrip('/')}/reel.mp4",
-            "thumb_offset": 0,
-            # owner rule Jul 29: reels stay off the main grid (carousels only).
-            # The Make scenario's IG "Create a Reel" module must map this field
-            # (or hardcode Share to Feed = No) — set once in the Make UI.
-            "share_to_feed": False,
-        }
-        return send(payload)
+                # HARD BLOCK Aug 1: the Make scenario ignores our share_to_feed
+                # field and posts reels to the MAIN GRID (owner rule: never).
+                # Fail loud (alert issue) instead of falling back to Make.
+                # Re-enable the Make fallback only after the owner sets
+                # Share to Feed = No in the Make IG module and confirms.
+                raise SystemExit(f"bundle publish failed ({e}) — Make fallback "
+                                 "disabled (posts reels to main grid)")
+        raise SystemExit("reel publish route is bundle-only until the Make "
+                         "scenario's Share to Feed is fixed (main-grid rule)")
     slides = sorted((f for f in os.listdir(post_dir)
                      if re.fullmatch(r"slide-\d+\.jpg", f)),
                     key=lambda f: int(re.search(r"\d+", f).group()))

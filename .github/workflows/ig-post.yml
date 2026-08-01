@@ -117,6 +117,7 @@ jobs:
           git add ig/posts
           git add ig/edu-used.json 2>/dev/null || true
           git add ig/genimg-used.json 2>/dev/null || true  # image-gen budget ledger must persist across runs
+          git add ig/faces-used.json 2>/dev/null || true   # face-photo rotation ledger (never repeat the same press photo back-to-back)
           git commit -m "IG post: $POST_NAME" || { echo "nothing to commit"; exit 0; }
           git pull --rebase --autostash   # autostash: fetch.py leaves stories.json dirty; don't let it kill the run
           git push

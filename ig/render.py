@@ -166,6 +166,8 @@ body.cta h1{margin-bottom:56px}
       padding:26px 70px;border-radius:999px}
 .cta-sub{font-size:38px;line-height:1.45;font-weight:600;max-width:24ch;margin:48px auto 0}
 .cta-sub b{font-weight:800}
+/* photo CTA (@technology closing slide): cover anatomy + follow pill */
+body.ctaphoto .ctarow{text-align:center;margin-top:38px}
 """
 
 # the real wordmark (owner logo Yaffeai.PNG, extracted white-on-transparent):
@@ -346,6 +348,17 @@ def slide_html(s, handle, total, fallback_media=None):
 <div class="ctastrip"><div class="swipe">{swipe}</div></div>{FIT_JS}</body>'''
 
     if s["type"] == "cta":
+        if media:
+            # photo CTA (@technology Codex Micro closing slide, owner Aug 1
+            # "the last cta is amazing it shows sam altman"): the generated
+            # CEO-with-product shot full-bleed, cover anatomy — photo bright to
+            # the masthead, black band below with headline + follow pill
+            bg = (f'<div class="bgblur" style="background-image:url(\'{media}\')"></div>'
+                  f'<div class="bleed" style="background-image:url(\'{media}\')"></div><div class="shade"></div>')
+            return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
+<body class="cover ctaphoto">{bg}
+<div class="frame">{MASTHEAD}<h1>{s["headline"]}</h1>
+<div class="ctarow"><span class="pill">Follow {handle}</span></div></div>{FIT_JS}</body>'''
         return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="cta">{art_bg(s["headline"], heavy=True)}
 <div class="frame">{MASTHEAD}

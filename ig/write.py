@@ -45,6 +45,7 @@ SCHEMA = {
                                            "text": {"type": "string"}},
                         },
                     },
+                    "face": {"type": "string"},
                 },
                 "required": ["type", "hsize", "headline"],
             },
@@ -102,6 +103,36 @@ def product_screenshot(url, post_dir):
     except Exception as e:
         print(f"product screenshot failed ({e})", file=sys.stderr)
     return None
+
+
+def logo_ref(slug):
+    """Real logo SVG -> raster reference for the generator (owner Aug 1
+    courtroom verdict: the model's from-memory 'pink OpenAI flower' reads
+    instantly fake — the EXACT mark must ride along as a reference image,
+    same doctrine as faces and products). White-on-black 1024px, cached."""
+    svg = os.path.join(HERE, "logos", f"{slug}.svg")
+    if not os.path.exists(svg):
+        return None
+    out = os.path.join(HERE, "logos", f"_ref-{slug}.png")
+    if os.path.exists(out):
+        return out
+    chrome = os.environ.get("CHROME",
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
+    html = os.path.join(HERE, "logos", f"_ref-{slug}.html")
+    open(html, "w").write(
+        '<body style="margin:0;background:#000;display:flex;align-items:center;'
+        'justify-content:center;width:1024px;height:1024px">'
+        f'<img src="{svg}" style="width:70%"></body>')
+    try:
+        subprocess.run([chrome, "--headless", "--disable-gpu", "--hide-scrollbars",
+                        "--window-size=1024,1024", f"--screenshot={out}",
+                        f"file://{html}"], capture_output=True, timeout=60, check=True)
+    except Exception as e:
+        print(f"logo ref raster failed ({e})", file=sys.stderr)
+        return None
+    finally:
+        os.unlink(html)
+    return out if os.path.exists(out) and os.path.getsize(out) > 5000 else None
 
 
 IMG_QA_SCHEMA = {"type": "object",
@@ -170,7 +201,9 @@ def simpler_brief(brief, headline, flaw=""):
 
 ART_SCHEMA = {"type": "object", "properties": {"briefs": {
     "type": "array", "items": {"type": "object", "properties": {
-        "idx": {"type": "integer"}, "brief": {"type": "string"}},
+        "idx": {"type": "integer"}, "brief": {"type": "string"},
+        "ref": {"type": "boolean"}, "face": {"type": "string"},
+        "logo": {"type": "string"}},
         "required": ["idx", "brief"]}}},
     "required": ["briefs"]}
 
@@ -187,10 +220,48 @@ def art_direct(post, story_title=""):
     items = [{"idx": i,
               "headline": re.sub(r"</?em>", "",
                                  s.get("headline") or (s.get("body") or "")[:90]),
-              "concept": s.get("image_brief", "")}
-             for i, s in enumerate(post["slides"]) if s.get("image_brief")]
+              "concept": s.get("image_brief", ""),
+              **({"slide_role": "cta"} if s["type"] == "cta" else {}),
+              **({"has_real_photo": True} if s.get("media") else {})}
+             for i, s in enumerate(post["slides"])
+             if s.get("image_brief") or s["type"] == "cta"]
     if not items:
         return
+    has_product_photo = any(s.get("media") for s in post["slides"])
+    ref_note = ('A real photo of the product is attached to the generator as a '
+                'visual reference — say "the exact device from the reference '
+                'image" in the brief and set "ref": true on it so the generated '
+                'device matches reality.' if has_product_photo else
+                "No real product photo exists — describe the product's exact "
+                "look from the story instead.")
+    cta_ref_note = ' and set "ref": true on it too' if has_product_photo else ""
+    import glob as _glob
+    face_list = sorted({re.sub(r"\d+$", "", os.path.splitext(os.path.basename(f))[0])
+                        for f in _glob.glob(os.path.join(HERE, "faces", "*.jpg"))})
+    face_note = ((
+        "\nFACE REFERENCES (researched Aug 1: generating a famous face from "
+        "scratch fails the likeness QA — reference-based generation is how "
+        "real pages keep the CEO recognizable): we hold REAL press photos of: "
+        + ", ".join(face_list) + '. Whenever a brief features one of these '
+        'people, return "face": "<exact name from that list>" on that brief — '
+        'their real photo then rides to the generator as an identity '
+        'reference. Also write into the brief itself: "his/her face exactly '
+        'matches the reference photo". A famous person NOT on the list still '
+        'gets named in the brief, but expect likeness drift.')
+        if face_list else "")
+    logo_list = sorted(os.path.splitext(f)[0] for f in
+                       os.listdir(os.path.join(HERE, "logos"))
+                       if f.endswith(".svg"))
+    logo_note = ((
+        "\nLOGO REFERENCES (owner Aug 1: the model's from-memory logos come "
+        "out wrong — a pink not-quite-OpenAI flower reads instantly fake): we "
+        "hold the REAL vector logos of: " + ", ".join(logo_list) + '. Whenever '
+        'a brief places one of these brands\' marks in the scene, return '
+        '"logo": "<exact name from that list>" on that brief — the real mark '
+        'rides to the generator as a reference — and write into the brief: '
+        '"the company logo exactly as in the reference image". Never let the '
+        'model draw a listed brand\'s logo from memory.')
+        if logo_list else "")
     prompt = f"""You are the cover-image director of a viral news Instagram page. You write the final image-generation prompts for the Seedream photo model. The doctrine below is distilled from published research on scroll-stopping feed imagery (thumbnail CTR studies: emotional faces +42%, image-headline synergy up to +154%; MrBeast-school single-focal analysis; 2026 anti-AI-slop guides) — follow it exactly. The image fills the top two-thirds of the frame above the headline and gets ~0.4 seconds at phone size.
 
 STORY: {story_title}
@@ -201,7 +272,16 @@ THE JOB: the image DRAMATIZES the exact claim of that slide's headline — the p
 
 ROLE-CAST (owner's gold standard, Aug 1): when the claim is about what a product or company CAN DO, cast the story's famous face IN THE ROLE the claim describes, mid-performance with that role's real props. Reference: "Claude has an unlimited personal tutor mode" → Anthropic's CEO AS the tutor — leaning over a desk in a warm home library, pen in hand, teaching a student whose shoulder frames the foreground. The person doesn't react to the claim, they ACT IT OUT; the scene props (pen, notebook, bookshelves) and the story-world background make the metaphor literal. Prefer this over a reaction face whenever the story has a doer + a capability.
 
+PRODUCT-HERO (owner's gold standard, Aug 1 — the @technology Codex Micro reference; MANDATORY for the COVER whenever the story is a famous company's physical product or gadget): the company's famous CEO, NAMED explicitly, HOLDS the product chest-high toward the camera with both hands, chest-up, eyes to camera, and the company's logo glows on the dark wall behind them as a large neon sign (describe the logo's shape: "the glowing OpenAI flower-knot logo in warm white neon"). {ref_note} The person presents, the logo brands, the device IS the story — all three connected. ALSO write a brief for the final CTA slide (marked slide_role "cta") in this case: the same named CEO with the same device, a clearly DIFFERENT pose and angle than the cover (e.g. holding it up in one hand, three-quarter view, a different room of the same story-world){cta_ref_note}.
+
+THE CTA CLOSER (owner doctrine Aug 1, the reference page's last slide: Tim Cook holding a phone after an Apple story — the story's OWN person is the one saying "follow us"): for EVERY story whose main actor is famous, write a brief for the cta slide — that person chest-up, relaxed and confident, eyes to camera, warm inviting energy (never tense, never mid-crisis — the drama is over, this is the goodbye), the story's world softened behind them, their company's logo glowing on the wall, a story prop in hand if one exists. Different pose and setting than every other slide. Return "face" (and "logo" when listed) on it. Only when the story has NO famous person return no cta brief.
+
 CLASH-CAST (owner's gold standard, Aug 1): when the story is a clash or a deal between TWO named famous people — a buyer and a seller, a winner and a loser, a hunter and the hunted — put BOTH recognizable likenesses in ONE composed scene that acts out the power dynamic: the winner looming calm and in command, the loser cornered mid-loss, faces large and close together, one clearly dominant. The story's world rages behind them (a trading floor of crashing red chart lines, a courtroom, a launchpad). Reference: the $45B fire-sale story → the young founder slumped at the deal table while the older billionaire stands over him signing, walls of red crashing charts behind. The pair reads as ONE unit; this beats a lone reaction face whenever the story has two famous sides. NAME both people explicitly in the prompt ("Ken Griffin", never "a silver-haired billionaire" — measured Aug 1: unnamed archetypes drift into the WRONG famous face); if a side is not famous enough for the model to know, that person appears FACELESS (from behind, silhouette, or hands only — see the faces rule below), and if neither side is famous, drop CLASH-CAST entirely and dramatize with objects and stakes instead.
+
+{face_note}
+{logo_note}
+
+THE CLAIM BEATS THE TEMPLATE (owner's verdict Aug 1, the courtroom cover): PRODUCT-HERO stages a presentation — but when the winning cover headline claims an EVENT (sued, banned, fired, crashed, copied, leaked, banned), the cover stages THAT EVENT as a literal scene instead, with the named famous person inside it and the product as a prop. Reference: "OPENAI COPIED THE COMPANY SUING THEM" → Sam Altman in a dark suit at the defendant's table of a US courtroom, tense, the white keypad and its white box on the table before him, the OpenAI logo on the courtroom evidence screen behind, American flag at the edge. Think like the viewer: the picture must make them say "that is exactly what the headline says" — person, event-world, product and brand all connected in one intuitive frame.
 
 FORMAT — every prompt contains these five parts in order (20-45 words total):
 1. HERO: ONE focal subject, concretely named (the real device/brand/person from the headline — or the CLASH-CAST pair as one unit), frozen at the peak of the exact moment — mid-fall, mid-launch, mid-signature. One focal point only; it is the brightest, sharpest thing in frame.
@@ -213,6 +293,10 @@ FORMAT — every prompt contains these five parts in order (20-45 words total):
 CRAFT (bake into every prompt):
 - Real press photograph, never digital art: include "documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain". This is the #1 lever that keeps generated images from looking like cheap AI.
 - ZERO readable words anywhere in frame (measured on our own runs: the model garbles every rendered sentence — 5 of 6 images died to this one flaw). Screens, signs and papers speak in SYMBOLS ONLY, named concretely: "a giant red $ symbol", "a warning triangle", "a crashing red chart line".
+- GAZE IS AN ARROW (Netflix artwork research + fixation studies): the hero's eyes go to camera by default, or lock onto the story's object so the viewer's eye follows. MAX 2 people visible in frame — engagement measurably drops at 3+.
+- THE BRAND LIVES IN THE SCENE: when the story's company matters to the frame, its real logo appears as a physical object — the default treatment (owner's reference, Aug 1): a LARGE GLOWING backlit mark on the dark wall behind the hero, soft warm-white halo, dimensional like a lit acrylic sign. Alternatives: the mark ON the device, a storefront sign, an illuminated screen with visible glow. NEVER a flat printed graphic, never drawn from memory — return "logo" so the real mark rides as a reference. The renderer will NOT stamp a flat logo overlay on generated covers, so if the brand isn't in the scene it isn't on the cover.
+- EVERY IMAGE UNIQUE + A CURIOSITY ENGINE (owner Aug 1): no two slides in the post may share a composition, angle, or setting — each image is its own scene. IMAGE-CLAIM LOCK (the Reddit post-mortem: slide 2 claimed a 23% stock crash yet showed the same phone-with-logo as the cover): each inner brief's HERO is that slide's OWN claim — the crash slide gets the collapsing red chart line, the payout slide the money, the fallout slide the next victim — never the story's mascot object repeated. And each image is built on viewer psychology: it shows a moment that RAISES a question only the headline (or the next slide) answers — an unresolved instant, a reaction to something just out of frame, stakes mid-collapse. If an image would feel complete without its headline, it's wallpaper — rewrite it.
+- KEEP THE HERO PRODUCT CLEAR OF THE BOTTOM THIRD: the headline band covers the bottom ~35% — a device held "chest-high" must sit in the MIDDLE of the frame (say "at chest height, centered in the middle of the frame"), or it gets cropped by the text.
 - BANNED looks: purple-teal "AI glow", glowing holograms, circuit-board brains, waxy plastic skin, sci-fi concept art, moody dark murk, white backgrounds, two competing focal points, two emotions.
 - BANNED subjects: any invented/generic human face ("a young founder", "an office worker", "a scientist"). Every visible face must be a NAMED famous likeness; everyone else is faceless (behind / silhouette / hands) or absent.
 
@@ -224,6 +308,12 @@ Return ONLY JSON: {{"briefs": [{{"idx": <slide index>, "brief": "..."}}]}}"""
             i = b.get("idx")
             if isinstance(i, int) and 0 <= i < len(post["slides"]) and b.get("brief", "").strip():
                 post["slides"][i]["image_brief"] = b["brief"].strip()
+                if b.get("ref"):  # product-hero: real product photo goes to the
+                    post["slides"][i]["gen_ref"] = True  # generator as reference
+                if b.get("face", "").strip():  # real press photo = identity ref
+                    post["slides"][i]["gen_face"] = b["face"].strip()
+                if b.get("logo", "").strip():  # real vector mark = logo ref
+                    post["slides"][i]["gen_logo"] = b["logo"].strip().lower()
                 n += 1
         print(f"art director rewrote {n} image brief(s)", file=sys.stderr)
     except Exception as e:
@@ -515,17 +605,79 @@ YOUR FIRST TRY FAILED — a listener said: "{g.get('why', 'boring')}". Find a di
         return None
 
 
-def build_prompt(story, body_text, media_files, retold=None, steer=""):
+SPINE_SCHEMA = {"type": "object", "properties": {
+    "irony": {"type": "string"}, "belief": {"type": "string"},
+    "event": {"type": "string"}, "twist": {"type": "string"},
+    "fallout": {"type": "string"}},
+    "required": ["irony", "belief", "event", "twist", "fallout"]}
+
+
+def story_spine(story, material):
+    """The arc-hunting step (owner directive Aug 1: 'the way we tell each post
+    story after the hook must be improved dramatically' — the Reddit-crash
+    post buried its own gold, that Reddit sold Google the data that trained
+    the AI now killing it, in the pinned comment). One call extracts the
+    narrative skeleton BEFORE writing, so slides are built on an arc instead
+    of a stat sequence. Source-agnostic by design (owner: 'all posts through
+    all sources'): it takes whatever material the story has — article text,
+    Reddit selftext, X post — including when the retell step failed. Fails
+    open: None -> the writer builds the chain unaided, exactly as before."""
+    prompt = f"""Here is a news story and its raw material.
+Title: {story['title']}
+Material: {(material or story['title'])[:6000]}
+
+You are a story editor for a viral page. Movies get structured before they get shot; this post gets the same. Extract the story's NARRATIVE SPINE. Hunt hardest for the IRONY — the one TRUE fact that makes the story poetic, absurd, or cruel (usually buried mid-article, almost never in the headline; e.g. "Reddit sold Google the data that trained the AI that is now killing Reddit").
+
+Return ONLY JSON:
+{{"irony": "the single most ironic/absurd TRUE line in the story, one sentence — empty string ONLY if the story truly has none",
+ "belief": "what everyone believed the morning before this happened, one sentence",
+ "event": "what actually happened, at human scale (a person's money, job, screen — never index points or corporate abstractions), 1-2 sentences",
+ "twist": "the 'wait, WHAT?' fact — the irony or the most contrarian true detail, the beat that re-hooks a tired reader, one sentence",
+ "fallout": "who gets hit next / what changes now, one sentence"}}
+Every field built ONLY from facts in the material — never invented."""
+    try:
+        return call_claude(prompt, schema=SPINE_SCHEMA)
+    except Exception as e:
+        print(f"spine failed ({e}) — writer builds the arc unaided", file=sys.stderr)
+        return None
+
+
+def pick_face(face):
+    """Faces pool with photo rotation (owner Aug 1: recurring people are fine,
+    the same PICTURE repeating is not). Each person has 1-3 stored press
+    photos (faces/<id>.jpg, <id>-2.jpg, ...); the least-recently-used one
+    wins, ledgered in faces-used.json so runs never repeat back-to-back."""
+    import glob
+    cands = sorted(glob.glob(os.path.join(HERE, "faces", f"{face}*.jpg")))
+    if not cands:
+        return None
+    ledger = os.path.join(HERE, "faces-used.json")
+    try:
+        used = json.load(open(ledger))
+    except Exception:
+        used = {}
+    pick = min(cands, key=lambda c: used.get(os.path.basename(c), ""))
+    used[os.path.basename(pick)] = date.today().isoformat()
+    json.dump(used, open(ledger, "w"), indent=1)
+    return os.path.relpath(pick, HERE)
+
+
+def build_prompt(story, body_text, media_files, retold=None, steer="", spine=None):
     spec = json.load(open(os.path.join(HERE, "containers.json")))
     logos = sorted(f[:-4] for f in os.listdir(os.path.join(HERE, "logos"))
                    if f.endswith(".svg"))
+    faces_dir = os.path.join(HERE, "faces")
+    face_list = ", ".join(sorted(
+        f[:-4] for f in os.listdir(faces_dir) if f.endswith(".jpg")
+    )) if os.path.isdir(faces_dir) else ""
     if media_files:
         names = ", ".join(os.path.basename(m) for m in media_files)
         img_block = f"""{len(media_files)} candidate images from the article are ATTACHED, in order (image 1 = {os.path.basename(media_files[0])}, ...): {names}. If no images are attached to this message, use your Read tool to look at these files in {os.path.dirname(media_files[0])} before writing.
 IMAGE ASSIGNMENT — every slide may set "media_idx": N (1-based, matching that order); omit it for no image:
 - LOOK at each candidate first. Reject any that is stock-looking, blurry, watermarked, a logo, or emotionally flat — a bad image is worse than none.
 - COVER: the most emotionally matching image — a human face or the product/scene in action. A face-only headshot is allowed only when the story IS about that person.
-- INNER slides: an image is a PROOF artifact for THAT slide's claim (screenshot, demo photo, video still). The reference page puts one on nearly every slide — assign whenever one genuinely fits the slide's specific claim.
+- INNER slides — IMAGE-CLAIM LOCK (owner audit Aug 1, the Reddit post-mortem: slide 2 claimed "stock crashed 23%" but showed ANOTHER phone-with-logo, nearly identical to the cover): the image must show THAT slide's exact claim, never the story's topic again — the crash slide shows the crash, the lawsuit slide the courtroom, the payout slide the money. If no candidate depicts the slide's claim, do NOT assign one — write an image_brief that does. An image whose subject or composition repeats the cover's image is banned.
+- MEDIA ON EVERY SLIDE (owner audit Aug 1 — the reference carousels carry real media on ALL slides; our shipped text-only slides were the visible gap): every content slide must end with media_idx OR an image_brief. A real photo always beats a generated scene; a naked text slide is a broken slide.
 - Never assign the same image to two slides."""
     else:
         img_block = "No usable article images were found."
@@ -566,12 +718,24 @@ RAW MATERIAL — verified facts from the article, the ONLY place you may pull na
 {facts}"""
     else:
         story_block = f"Article text (may be partial): {body_text or '(unavailable — write from the title only, no invented specifics)'}"
+    spine_block = ""
+    if spine:
+        spine_block = f"""
+THE SPINE — the story's narrative skeleton, extracted by a story editor before you write. BUILD THE SLIDE CHAIN ON THESE BEATS, IN THIS ORDER — this is the difference between telling a story and listing statistics (they slot straight into the RETENTION DOCTRINE arc below):
+- THE BELIEF (slide 2 territory — what everyone thought the morning before): {spine['belief']}
+- THE EVENT, at human scale: {spine['event']}
+- THE TWIST — gets its OWN slide, around slide 4, the "wait, WHAT?" beat: {spine['twist']}
+- THE FALLOUT (the payoff slide): {spine['fallout']}"""
+        if spine.get("irony", "").strip():
+            spine_block += f"""
+- THE IRONY (the buried gold — this goes ON a slide, in the twist or the stance; NEVER waste it on the pinned comment alone): {spine['irony']}"""
     return f"""You write Instagram carousels for @yaffeai — a page covering AI, technology, space, business, investing, and money in the style of @technology, funneling followers to an AI-consulting business. Turn this story into a **daily_item** post.
 
 STORY
 Title: {story['title']}
 Source: {story['link']}
 {story_block}
+{spine_block}
 {proof}
 COVER VISUAL
 {img_block}
@@ -592,6 +756,7 @@ QA GATE: {json.dumps(spec['qa_gate'])}
 
 Pick "container": "builder_story" ONLY if this story is about a tiny team / solo founder building something outsized with AI (follow its spec); otherwise "daily_item".
 For builder_story: if the article names the product's own website, set top-level "product_url" to it and set "product_shot": true on the PROOF slide — the pipeline will screenshot the real page and put it on that slide (the honest proof artifact). Only one slide may set it.
+For ANY story about a specific product or gadget (any container): set top-level "product_url" to the maker's official product page if the article names or links it — the pipeline pulls the OFFICIAL press photos from that page, and only the real product may ever be shown.
 
 OUTPUT — a single JSON object: {{"container": "...", "cover_style": "...", "logos": [...], "slides": [...], "caption": "...", "pinned_comment": "..."}}
 Slides for daily_item — THE QUESTION CHAIN. This is how the reference page tells stories, measured word-for-word from their posts:
@@ -607,45 +772,47 @@ RETENTION DOCTRINE (research-backed, 2026 carousel studies — high swipe-throug
 KEEP/CUT — what belongs in the story (owner directive Jul 31: "people want the story itself", the retellings drowned in names and quotes):
 KEEP: what physically happened, in order; the money and the numbers; the one consequence that touches the reader; names ONLY if a random 16-year-old already knows them (Musk, Apple, OpenAI) or the story is literally about that person becoming known.
 CUT: every other name (a researcher, a VP, a spokesperson — say "the engineers", "the company"); quotes from random internet users or commenters (NEVER quote a Reddit/X user on a slide); job titles; the outlet that reported it; how the news spread ("went viral", "the internet reacted"); anything a reader would skim. Every sentence must advance what HAPPENED — if it only adds who said it, cut it.
-The model to copy (owner-written, Jul 29 — the Visa story done right):
-  Cover: "VISA JUST BET <em>EVERYTHING</em>" → reader thinks: bet everything on WHAT?
-  Slide 2: "VISA LAID OFF <em>2,600 EMPLOYEES</em>" — the first concrete fact lands HERE, never on the cover → reader thinks: why?
-  Slide 3: "THE MONEY GOES INTO <em>AI</em>" — billions moved from salaries into one technology → reader thinks: isn't that risky?
+FELT SCALE (owner directive Aug 1 — "millions of users must understand and it must be fun to read"): every number gets translated into what a PERSON feels, never what an index did. The moves: absolute dollars ("$3 billion gone by lunch"), the reader's own stake ("$1,000 of Reddit stock on Monday was $770 by dinner"), a record ("its worst day ever"), a comparison a teenager knows ("more than a Superbowl ad every hour"). Finance-wire vocabulary is BANNED on slides — index names (S&P 500, Nasdaq, Dow), tickers (RDDT, $RDDT), "shares", "the market", "market cap", "trading session", "intraday", "closed up/down X%". A 16-year-old never says those words, so we never write them.
+The model to copy (updated Aug 1 for summarizing covers — the Visa story done right):
+  Cover: "VISA JUST LAID OFF 2,600 WORKERS <em>TO GO ALL IN ON A TECHNOLOGY MOST BANKS REFUSE TO TOUCH</em>" — the WHOLE story, reader swipes for the details
+  Slide 2: "THE <em>2,600 JOBS</em> WERE CUT IN ONE MORNING" — the human scale of the move → reader thinks: why so brutal?
+  Slide 3: "EVERY DOLLAR SAVED GOES INTO <em>AI</em>" — billions moved from salaries into one technology → reader thinks: isn't that risky?
   Slide 4: "MOST BANKS <em>REFUSE TO TOUCH IT</em>" — why the rest of the industry is scared → reader thinks: so what does Visa know?
   Slide 5: "HERE'S WHAT VISA KNOWS <em>THAT BANKS DON'T</em>" — the payoff
-Every slide answers one question while creating the next one. Before writing each slide, name the question the previous slide planted — if the slide doesn't answer it, rewrite the slide.
+The cover summarizes; the inner slides go DEEPER than the cover ever could — the how, the why, the fallout, the picture. Every inner slide answers one question while creating the next one. Before writing each slide, name the question the previous slide planted — if the slide doesn't answer it, rewrite the slide.
 Structure:
 1. type "cover": THE HOOK — the single most important thing in the whole post (see COVER HOOK below). No body.
 2. type "content": first chain answer. Doubles as the SECOND COVER — Instagram re-serves skipped carousels with slide 2 as the cover, so its headline must hook standalone, never "Here's how" or "The details".
-3+. type "content": the rest of the chain. Each headline = a 5-9 word standalone factual CLAIM someone could disagree with — NEVER a label ("THE DETAILS", "THE REAL STORY", "WHAT THIS MEANS FOR X") and NEVER an aphorism/motivational line ("X BEATS Y"). Use physical past-tense verbs (parked, gutted, handed, escaped — never "is using", "means", "finds") and put a number in the headline whenever the story has one. Body = 2-3 short sentences, EVERY sentence a concrete number/name/date in <b>; ranks/records when TRUE (first, biggest, Xth-largest ever); famous-name anchors.
+3+. type "content": the rest of the chain. Each headline = a 5-9 word standalone factual CLAIM someone could disagree with — NEVER a label ("THE DETAILS", "THE REAL STORY", "WHAT THIS MEANS FOR X") and NEVER an aphorism/motivational line ("X BEATS Y"). Use physical past-tense verbs (parked, gutted, handed, escaped — never "is using", "means", "finds") and put a number in the headline whenever the story has one. Body = SPOKEN VOICE (owner directive Aug 1 — the stat-dump bodies read "so not interesting"): 2-3 sentences the way you'd SAY them across a table — a punch, then the plain-words explanation, then a kicker that tees up the next slide. Numbers and names still land in <b>, but a sentence may carry ZERO numbers; voice beats stat density, and a body that reads like a market wrap ("the S&P was green, Nasdaq up 1%") is a failed slide. Ranks and records when TRUE (first, biggest, worst day ever) beat raw figures. Each body delivers a NEW fact — never a re-say of its own headline.
 Second-to-last. type "content": THE VALUE SLIDE — the consulting-funnel slide, built with the $100M Offers rules (section 5 of the principles). Open with the business owner's PAIN this story touches, then the escape: what a normal business can DO with this, with a concrete number, and why it's now fast/effortless ("without hiring anyone"). Its headline is a factual claim with a number too — never a lesson or a "what this means" label. The reader-owner should finish it thinking "I want this in MY business". Same visual style, no selling tone, no price ever.
-Last. type "cta": THE FOLLOW CONVERSION — must extend THIS story's open loop into the future, never a generic service pitch (audit Jul 29: story-specific FOMO converts several times better; "Daily AI news" register now FAILS QA). Formula: [this story's consequence continues] + the follow ("Visa won't be the last. Follow — you'll want to see who's next" / "This robot doubles in ability every year. Follow and watch it happen"). Body: ONE sentence containing a specific SEND line naming the exact person-type this story hits ("Send this to the friend who still types every email himself") — a send-line is utility; "tag a friend" is banned bait.
+Last. type "cta": THE FOLLOW CONVERSION (owner doctrine Aug 1, copied from the reference page's closer — REPLACES the Jul 29 story-FOMO formula): the headline is a DIRECT follow line in one of two registers, wording freshly varied every post: LOSS AVERSION ("YOU MAY NEVER FIND OUR PAGE AGAIN IF YOU DON'T FOLLOW US") or DAILY VALUE ("WE SHARE DAILY UPDATES ON WHAT'S HAPPENING IN AI"). These run 8-11 words — hsize 54-64 so the block still fits. Body: ONE sentence with a specific SEND line naming the exact person-type this story hits ("Send this to the friend who still types every email himself") — a send-line is utility; "tag a friend" is banned bait. The CTA image is the story's famous person (the art direction handles it): the person the reader just spent six slides with is the one telling them to follow.
 For builder_story follow its container spec slide order instead (same question-chain style).
 
 PROFILE CARD FORMAT (owner gold-standard example Aug 1 — the @techskills Mercor post; optional, use it ONLY when the story is ONE PERSON'S RISE — a founder/inventor profile with a record or a huge number — AND at least 3 real article photos exist; never for company/product news):
 - Every content slide sets "layout": "card" and "headline": "" — the story lives in the BODY: 2-3 tiny paragraphs (blank line between), each 1-2 micro-sentences, ONE fact per sentence. The register is a biography told in flashcards: "His name is Surya Midha.\n\nIndian-origin. Parents from Delhi.\n\nBorn in Mountain View. Raised in San Jose." Numbers/names in <b>; the ONE money/record phrase per slide in <em> (this is the only place <em> is allowed in a body).
 - Every card slide gets a REAL photo (media_idx) — childhood/early shots, the team, the product; the photo renders in a rounded card under the text and is the proof artifact. image_brief only as a last-resort fallback.
 - Slide order = a life arc: who he is → the early feat → the founding → what the thing does + the money number → the growth numbers → the record + the stance. Same open-loop rule at every boundary.
-- The COVER for this format is the exception to the 9-word cap: one 12-24 word record-sentence that tells the WHOLE claim, structured [record] + [how, in plain words] ("A 22 year old just became the youngest self made billionaire in history. He built an AI recruiting tool with 2 college friends"), hsize 54-58, <em> on the record phrase. The absurd true claim IS the hook; there is no hidden twist to protect.
+- The COVER for this format: one 12-24 word record-sentence that tells the WHOLE claim, structured [record] + [how, in plain words] ("A 22 year old just became the youngest self made billionaire in history. He built an AI recruiting tool with 2 college friends"), hsize 54-58, <em> on the record phrase. The absurd true claim IS the hook; there is no hidden twist to protect.
 - If the story's company logo exists in our logo set, set top-level "badge_logo" to it and make sure the cover image puts the person RIGHT of center (the badge chip renders top-left).
 
 COMPOSED COVER (owner gold standard Aug 1 — the @getintoai anatomy; STRONGLY PREFERRED whenever eligible): when the cover's real article photo (media_idx) shows the story's FAMOUS person — one person, chest-up, face clear — set "discs" on the cover slide: 1-2 elements that complete the story equation beside the face. First disc = the story company's logo (only names from the logo list). Second disc = the exact product/object the headline claims, as SHORT typeset text, 12 characters max ("OPUS 5", "CODEX", "$45B MEMO") — or a second logo when the story pairs two brands. The pipeline cuts the person out of the photograph, blurs the photo's own world into the backdrop, floats the discs at head height and layers the person OVER them — face, logos and background all connected to the claim (reference: Sam Altman shushing between the OpenAI badge and a terminal icon; Anthropic's CEO between the Claude disc and an "Opus 5" disc). Rules: ONLY on a real press photo of a famous person — never on a generated image, never an unknown face; every disc must be RELATIONAL (the brand of the story + the thing the headline claims — a disc that could sit on any post is banned); skip discs when the photo has multiple people or the person is a tiny part of the frame. If the cutout fails, the pipeline falls back to the plain photo cover automatically.
+FACES POOL — we keep real press photos on file for: {face_list}. If the story's main famous actor is on that list and NO article photo shows them, STILL do the composed cover: set "face" on the cover slide to that exact id (e.g. "sam-altman") together with "discs", and omit media_idx — the pipeline uses our stored press photo. A cover should NEVER ship as logo-on-artwork when the story's actor is in this pool; the face is what stops the scroll. Only use a face when the story is genuinely about that person or their company.
 
-COVER HOOK — the #1 priority. The cover decides whether anyone swipes. OWNER DOCTRINE (Jul 29, restated verbatim after approving the Visa v2 cover — overrides everything older): "Your job is NOT to explain. Your job is to make someone incapable of not swiping." Built ONLY from true facts in the story.
+COVER HOOK — the #1 priority. The cover decides whether anyone swipes. OWNER DOCTRINE (Aug 1, the reference-page audit — REVERSES the Jul 29 information-gap rule and overrides everything older): the cover TELLS THE WHOLE STORY with its wildest specifics. A cryptic tease only works for pages with authority; a growing page earns the swipe by delivering a complete wild claim the reader already believes — they swipe for the photos, the details and the fallout. Built ONLY from true facts in the story.
 {steer}
-General craft (the STORY TYPE formula above decides what leads; these rules shape it):
-- HARD CAP 9 words, aim for 4-8. Short = giant letters = stops the scroll. Anything the STORY TYPE formula doesn't put on the cover belongs on slide 2 instead.
-- Reference craft (a corporate_move story done right — for OTHER types the lead changes but the compression lesson holds): the winner was "VISA JUST BET <em>EVERYTHING</em>" (4 words, total gap); the failure was "VISA JUST LAID OFF 2,600 WORKERS TO INVEST IN A TECHNOLOGY MOST BANKS REFUSE TO TOUCH" — the whole story on slide 1, 17 words rendering as a wall of text.
+General craft (the STORY TYPE formula above decides which specific leads; these rules shape it):
+- LENGTH 12-25 words, aim 15-20: ONE complete sentence summarizing the story — actor, what happened, and the numbers/specifics that make it wild. NOTHING is withheld.
+- Reference craft (the pages we model — @technology): "OPENAI JUST LAUNCHED THEIR FIRST EVER HARDWARE PRODUCT, A $230 LIGHT UP KEYBOARD BUILT TO RUN YOUR AI CODING AGENTS" (19 words, full story + price + first-ever); "APPLE'S FIRST HIGH END MACBOOK REDESIGN IN FIVE YEARS IS REPORTEDLY BRINGING 12 NEW FEATURES". The old style — "VISA JUST BET EVERYTHING" (4 words, total gap) — is now the FAILURE model: a riddle from an unknown page gets scrolled past.
 - Charged verbs and power words when true: BET, FIRED, DECLARED WAR, ROGUE, SECRET, QUIETLY, BANNED, LEAKED, EXPOSED, ON PURPOSE. Threat/loss framing beats triumph framing when both are true. Second person ("YOUR") when the story touches the reader. Simple 8th-grade words only.
-- Banned on covers: neutral news-title phrasing, hedging (may/could/reportedly), company-PR framing, anything a newspaper would print unchanged, and any brand name a random 16-year-old wouldn't recognize (use the universal noun the STORY TYPE block names instead).
-- Self-test before finalizing (all must pass): (1) does the headline follow THIS story type's formula above? (2) Could the cover describe 100 different stories? If yes → too vague — anchor to ONE specific event. (3) Is the reader left with a burning question (what/why/how) the next slide must answer? If not → the cover closed the loop, rewrite it.
+- Banned on covers: neutral news-title phrasing, hedging (may/could/reportedly), company-PR framing, and any brand name a random 16-year-old wouldn't recognize (use the universal noun the STORY TYPE block names instead).
+- Self-test before finalizing (all must pass): (1) does the headline follow THIS story type's formula above? (2) Does a stranger get the FULL story — who, what, the wild number — from the cover alone? If any specific got held back for slide 2, put it on the cover. (3) Is the claim wild enough that they'd swipe for proof and details? If the summary reads like a neutral newspaper headline, the problem is the angle, not the length — find the wilder true framing.
 - HOOK TOURNAMENT (mandatory): write FIVE genuinely different cover candidates in "hook_candidates" — different angles (threat vs record vs money vs scarcity subject), not rewordings. Each: {{"headline": "... with <em> accents ..."}}. Put your best one on the cover slide AND include it among the five. A separate blind judge will pick the winner.
 
 RULES
 - LANGUAGE (hard requirement): write for a smart 16-year-old. Everyday words only, short sentences. No industry jargon anywhere — headlines, bodies, caption. Say what things DO ("runs powerful AI on your own computer"), not what they're called ("an agentic runtime"). If a technical term is unavoidable, explain it in plain words in the same sentence.
 - <em>...</em> in headlines marks the accent: ONE contiguous phrase, ideally a WHOLE LINE of the headline (two groups absolute max). Orange-on-entire-lines creates rhythm and a reading order; orange scattered across four single words is confetti — four competing focal points = zero focal points (owner verdict Jul 28). Connectives stay white. Every headline needs at least one <em>.
 - <b>...</b> in bodies marks facts (names, numbers). No <em> in bodies.
-- hsize: headline font px. Cover headlines (4-9 words) → 66-80 so the type is HUGE, breaking edge-to-edge in 2-4 tight lines like the reference page (the renderer caps total block height, so overly long covers just shrink — keep them short instead). Inner-slide headlines: short (≤5 words) → 110-124; medium → 90-105; long → 76-88.
+- hsize: headline font px. Cover headlines (12-25 words) → 58-70 so the sentence breaks edge-to-edge into 4-6 tight condensed lines like the reference page (the renderer caps total block height, so oversizing just shrinks it back). Inner-slide headlines: short (≤5 words) → 110-124; medium → 90-105; long → 76-88.
 - Bodies never end with a period (house style). No emojis in slides.
 - Caption: all five blocks in order, separated by blank lines. Sources line names the actual outlet(s). Exactly five hashtags (topic keywords for search — hashtags don't add reach). The FIRST sentence carries the payoff AND the search keywords — IG is a search engine in 2026 and the first line drives Explore/search reach: name the company and the topic noun in plain words ("Visa is replacing 2,600 jobs with AI" — searchable; "They just bet everything 👀" — invisible). Only ~125 chars show before "...more". CTA must be utility ("save this", "send this to..."), NEVER reaction-bait ("tag a friend", "comment YES") — Meta penalizes bait.
 - "pinned_comment" (mandatory): the first comment we plant under the post the second it publishes — hour-one comment velocity is distribution fuel. ONE of: a debatable fault line from the story people must answer ("Would you let it run your payroll? Half of you are lying") or the juiciest fact that didn't fit the slides ("The part we couldn't fit: ..."). 1-2 sentences, no hashtags, no links, never a summary of the post.
@@ -717,15 +884,20 @@ def qa(post):
             continue
         if "<em>" not in s["headline"]:
             errs.append(f"slide {i+1}: headline has no <em> accent")
-    # cover legibility + information gap (owner doctrine Jul 29: the cover
-    # sells curiosity in 4-9 giant words; the facts live on slide 2+).
-    # Profile covers instead tell the whole record-claim: up to 24 words.
-    cover_cap = 24 if profile else 9
+    # summarizing cover (owner flip Aug 1, reference-page audit — REVERSES
+    # the Jul 29 information-gap cap): the cover tells the whole story with
+    # its specifics in 12-25 words. Profile covers were already there (12-24).
+    cover_cap = 24 if profile else 26
     cover_words = len(re.sub(r"<[^>]+>", "", slides[0]["headline"]).split())
     if cover_words > cover_cap:
-        errs.append(f"cover headline is {cover_words} words (max {cover_cap})"
-                    + ("" if profile else " — the cover creates the information "
-                       "gap, the facts move to slide 2"))
+        errs.append(f"cover headline is {cover_words} words (max {cover_cap}) — "
+                    "one complete sentence, cut connective fat, keep the numbers")
+    # floor only for news-story posts (container key) — edu N-promise covers
+    # ("6 SERVICES AI REPLACES FOR FREE") are short by design
+    if post.get("container") and not profile and cover_words < 10:
+        errs.append(f"cover headline is only {cover_words} words — the cover "
+                    "SUMMARIZES the whole story (12-25 words: actor, what "
+                    "happened, and the wild numbers), it never withholds")
     if len(re.findall(r"<em>", slides[0]["headline"])) > 2:
         errs.append("cover has >2 <em> groups — accent ONE contiguous phrase or "
                     "whole line (two max), scattered single-word accents are "
@@ -742,25 +914,77 @@ def qa(post):
                      r"(user|commenter|redditor)\b|\bviral post (claims|says)|\busers? (say|said|claim)", text):
             errs.append(f"slide {i+1}: quotes/cites a random internet user — cut it, "
                         "people want the story, not who said it")
+        # felt-scale (owner directive Aug 1, the Reddit-crash post-mortem:
+        # "the market was green, S&P up 0.70%" is a Bloomberg wire, not a
+        # story) — finance jargon banned on slides, translate to human scale
+        if re.search(r"(?i)\b(S&P *500?|Nasdaq|Dow Jones|market cap|trading "
+                     r"session|premarket|after[- ]hours trading|intraday|the "
+                     r"market)\b|\$[A-Z]{2,5}\b|\bshares\b", text):
+            errs.append(f"slide {i+1}: finance-wire jargon (index names, tickers, "
+                        "'shares', 'the market') — translate to FELT SCALE: absolute "
+                        "dollars, the reader's $1,000 stake, or a record ('worst day ever')")
         body_cap = 60 if s.get("layout") == "card" else 34
         body_words = len(re.sub(r"<[^>]+>", "", s.get("body") or "").split())
         if body_words > body_cap:
             errs.append(f"slide {i+1}: body is {body_words} words (max {body_cap}) — "
                         "a slide is a beat, not a paragraph: keep the one detail that "
                         "answers the question, move or cut the rest")
+        # media on every slide (owner audit Aug 1: reference carousels never
+        # ship a naked text slide). image_brief counts — the gen ladder and
+        # its budget guard decide later; a slide may still RENDER text-only
+        # if generation fails, so the always-post rule is never at risk
+        if (s["type"] == "content" and not s.get("media_idx")
+                and not (s.get("image_brief") or "").strip()):
+            errs.append(f"slide {i+1}: no media_idx and no image_brief — every "
+                        "content slide needs a real photo or an image brief")
+    # new-fact-per-slide (owner audit Aug 1: the Reddit post's slides 3 and 4
+    # told the same fact, and slide 2's body restated its own headline): a
+    # meaty number (>12, not a year) lives on the cover plus AT MOST one
+    # content slide, and a body never repeats its own headline's number.
+    # Story flow only (container key); card layouts (biography format) exempt
+    if post.get("container"):
+        def _nums(t):
+            out = set()
+            for m in re.findall(r"\d[\d,.]*", re.sub(r"<[^>]+>", "", t or "")):
+                v = m.replace(",", "").rstrip(".")
+                try:
+                    f = float(v)
+                except ValueError:
+                    continue
+                if f > 12 and not (1900 <= f <= 2100 and "." not in v):
+                    out.add(v)
+            return out
+        seen_nums = {}
+        for i, s in enumerate(slides):
+            if s["type"] != "content" or s.get("layout") == "card":
+                continue
+            dup = _nums(s.get("headline")) & _nums(s.get("body"))
+            if dup:
+                errs.append(f"slide {i+1}: body repeats its own headline's number "
+                            f"({', '.join(sorted(dup))}) — the body ADDS new facts, "
+                            "it never re-says the headline")
+            for n in _nums(s.get("headline")) | _nums(s.get("body")):
+                if n in seen_nums:
+                    errs.append(f"slide {i+1}: repeats the number {n} from slide "
+                                f"{seen_nums[n] + 1} — one fact lives on ONE slide; "
+                                "go deeper with a NEW fact instead of repeating")
+                else:
+                    seen_nums[n] = i
     if "Sources:" not in caption:
         errs.append("caption missing Sources line")
     if len(re.findall(r"#\w+", caption)) != 5:
         errs.append("caption must have exactly 5 hashtags")
-    # story-specific follow CTA (audit Jul 29): the generic service pitch died.
+    # follow-conversion CTA (owner doctrine Aug 1, the reference page's closer:
+    # loss-aversion "you may never find our page again" / daily-value "we
+    # share daily updates" — reverses the Jul 29 story-FOMO rule, which the
+    # Aug 1 audit found converts worse than the direct follow ask).
     # container key only exists in the story flow — edu's save-CTA is exempt
     if post.get("container"):
-        cta = " ".join(filter(None, (slides[-1].get("headline", ""),
-                                     slides[-1].get("body", ""))))
-        if re.search(r"(?i)daily (ai |tech )?news", cta):
-            errs.append("cta slide is the generic 'daily AI news' pitch — it "
-                        "must extend THIS story's open loop into a reason to "
-                        "follow")
+        cta_head = re.sub(r"<[^>]+>", "", slides[-1].get("headline", ""))
+        if not re.search(r"(?i)\bfollow", cta_head):
+            errs.append("cta headline must be a DIRECT follow line (loss-"
+                        "aversion or daily-value register per the spec), not "
+                        "a story tease")
     if not post.get("pinned_comment", "").strip():
         errs.append("missing pinned_comment — one debatable question or "
                     "left-out fact to seed the comment thread")
@@ -805,8 +1029,14 @@ def main(stories_path):
           f"{'known' if ctx.get('actor_known') else 'UNKNOWN -> anchor: ' + str(ctx.get('anchor'))}",
           file=sys.stderr)
 
+    # the spine runs on the same material for EVERY source path — full
+    # article, Reddit selftext, X radar, or title-only when scraping failed
+    spine = story_spine(story, material)
+    if spine:
+        print(f"spine twist: {spine['twist'][:110]}", file=sys.stderr)
+
     steer = viral.hook_block(ctx)
-    prompt = build_prompt(story, body_text, media_files, retold, steer)
+    prompt = build_prompt(story, body_text, media_files, retold, steer, spine)
     for attempt in range(3):
         post = call_claude(prompt, images=media_files)
         errs = qa(post)
@@ -814,16 +1044,16 @@ def main(stories_path):
             break
         print(f"QA gate failed (attempt {attempt+1}):\n  " + "\n  ".join(errs),
               file=sys.stderr)
-        prompt = (build_prompt(story, body_text, media_files, retold, steer)
+        prompt = (build_prompt(story, body_text, media_files, retold, steer, spine)
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
     else:
         raise SystemExit("QA gate failed after 3 attempts")
 
     if any(s.get("layout") == "card" for s in post["slides"]):
-        # profile format: the long record-sentence cover IS the hook — the
-        # tournament's 9-word pre-filter would kill it and rivals would
-        # replace it with a short gap hook, destroying the format
+        # profile format: the record-sentence cover IS the hook — rival
+        # candidates don't know the card format and would replace it with
+        # a generic news hook, destroying the format
         print("profile format: hook tournament skipped", file=sys.stderr)
         post.pop("hook_candidates", None)
     else:
@@ -836,6 +1066,22 @@ def main(stories_path):
     if post.get("container") == "builder_story" and post.get("product_url", "").startswith("http"):
         shot = product_screenshot(post["product_url"], post_dir)
         print(f"product screenshot: {'ok' if shot else 'unusable'}", file=sys.stderr)
+
+    # official product photos (owner Aug 1: "we only can show the real product
+    # — you can source the official pictures online"): the maker's own page
+    # carries the true press shots. They join the candidate pool (leftovers can
+    # fill imageless slides) and become the PREFERRED generator reference.
+    official_files = []
+    if post.get("product_url", "").startswith("http"):
+        for u, data in article_images(post["product_url"], max_out=3):
+            ext = ("png" if data[:8] == b"\x89PNG\r\n\x1a\n"
+                   else "webp" if data[8:12] == b"WEBP" else "jpg")
+            p = os.path.join(post_dir, f"cand-{len(media_files) + 1}.{ext}")
+            open(p, "wb").write(data)
+            media_files.append(p)
+            official_files.append(p)
+        print(f"{len(official_files)} official product photo(s) sourced",
+              file=sys.stderr)
 
     used = set()
     for s in post["slides"]:
@@ -856,11 +1102,52 @@ def main(stories_path):
     # imagery is the floor.
     gen = 0
     pool = []  # every rejected COVER candidate as (score, path) — best-of floor
+    # product-hero reference (@technology Codex Micro anatomy, owner Aug 1):
+    # the real product photo rides along to Seedream so the generated device
+    # matches reality — the cover's assigned article photo, else the first one
+    ref_photo = None
+    if any(s.get("gen_ref") for s in post["slides"]):
+        cm = post["slides"][0].get("media")
+        ref_photo = (official_files[0] if official_files else
+                     os.path.join(HERE, cm) if cm and not
+                     os.path.basename(cm).startswith("gen") else
+                     (media_files[0] if media_files else None))
     for i, s in enumerate(post["slides"]):
         brief = s.pop("image_brief", "").strip()
-        if s["type"] == "cta" or not brief or gen >= 3:
+        want_ref = s.pop("gen_ref", False) and ref_photo
+        # identity reference (owner Aug 1, keypad post-mortem: Altman generated
+        # from scratch failed likeness QA): the named face's REAL press photo
+        # rides to Seedream alongside the product photo
+        face_ref = None
+        face_slug = s.pop("gen_face", None)
+        if face_slug:
+            fp = pick_face(face_slug.lower().replace(" ", "-"))
+            if fp:
+                face_ref = os.path.join(HERE, fp)
+        # brand reference (owner Aug 1, courtroom cover: from-memory logos come
+        # out wrong): the real SVG rasterized rides along as the third ref
+        brand_ref = None
+        logo_slug = s.pop("gen_logo", None)
+        if logo_slug:
+            brand_ref = logo_ref(logo_slug.replace(" ", ""))
+        # cta generates when it has a real anchor: the product photo (product-
+        # hero second pose) or the story person's face ref (owner Aug 1: the
+        # Tim Cook closer — the story's person says "follow us"). No anchor ->
+        # art bg, never a from-scratch face
+        if s["type"] == "cta" and not (want_ref or face_ref):
             continue
-        if s.get("media") and s["type"] != "cover":
+        if not brief or gen >= 4:
+            continue
+        if s.get("media") and s["type"] not in ("cover", "cta"):
+            continue
+        # COMPOSITE-FIRST (owner verdict Aug 1: "this isn't their actual
+        # product"): when the cover already holds a REAL article photo, a
+        # generated replica never replaces it — generation only competes if
+        # it is a TRUE product-hero with BOTH references (real product photo
+        # + the CEO's real face photo). Otherwise the real photo ships.
+        if (s["type"] == "cover" and s.get("media")
+                and not os.path.basename(s["media"]).startswith("gen")
+                and not (want_ref and face_ref)):
             continue
         # cover ladder (owner rules Jul 29: capped attempts — each image costs
         # money — the brief rewritten around the judge's named flaw between
@@ -869,7 +1156,10 @@ def main(stories_path):
         # budget guard caps total spend either way.
         tries = 3 if s["type"] == "cover" else 1
         for attempt in range(tries):
-            path = genimg.generate(brief, os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg"))
+            refs = [r for r in ((ref_photo if want_ref else None), face_ref,
+                                brand_ref) if r]
+            path = genimg.generate(brief, os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg"),
+                                   refs=refs or None)
             if not path:  # budget out / API down — retrying can't help
                 break
             ok, score, flaw = image_score(path, s.get("headline")
@@ -880,6 +1170,10 @@ def main(stories_path):
                 gen += 1
                 if s["type"] == "cover":
                     post["cover_style"] = "photo"  # a generated cover is a photo cover
+                    # owner Aug 1 ("why is that logo?"): a generated scene
+                    # brands ITSELF (neon logo, product mark) — the flat
+                    # overlay stamp on top reads as a cheap edit. Never both.
+                    s.pop("logos", None)
                 break
             print(f"slide {i+1} image rejected (attempt {attempt+1}/{tries}, "
                   f"score {score}/10): {flaw}", file=sys.stderr)
@@ -969,6 +1263,18 @@ def main(stories_path):
                      os.path.join(HERE, "logos", f'{d["logo"]}.svg')))
              or (d.get("text") and len(d["text"]) <= 12)]
     cover.pop("discs", None)
+    # faces pool (owner Aug 1: "cover picture is missing" — a cover must never
+    # ship faceless when the story's actor is famous): no usable article photo
+    # -> fall back to our stored real press photo of the person
+    face = cover.pop("face", None)
+    no_photo = not cover.get("media") or \
+        os.path.basename(cover.get("media", "")).startswith("gen")
+    if discs and face and no_photo:
+        fp = pick_face(face)
+        if fp:
+            cover["media"] = fp
+            print(f"faces pool: using stored press photo {os.path.basename(fp)}",
+                  file=sys.stderr)
     if discs and cover.get("media") and \
             not os.path.basename(cover["media"]).startswith("gen"):
         import composite

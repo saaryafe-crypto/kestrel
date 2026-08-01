@@ -265,6 +265,7 @@ RULES
 - FIRST 3 SECONDS ARE A HARD GATE: start_s must land ON the most impressive moment — no build-up, no intro, no logo. If the wow moment is at 0:42, start there.
 - COMPLETION over length: prefer clip_s 15-30. Cut BEFORE the clip gets boring; a fully-watched 18s reel outranks a half-watched 50s one.
 - The title opens an information gap (what you're seeing / why it works), it never resolves it. Simple words, no hype.
+- THE TITLE MUST EXPLAIN THE VIDEO (hard gate, Aug 1 Mad Max post-mortem): the viewer sees ONLY the footage + your line. If the clip is a MEME — a movie scene, game footage, or a skit standing in for a tech story — the line must carry the meme's framing so the metaphor lands (the source post's title usually holds the joke: "AI companies in 2028 after finding out that your grandma's diary is handwritten"). A factual news claim floating over footage it doesn't literally show is banned: "Your handwriting might be the last thing AI can't read" over a desert car chase reads as random chaos.
 - LANGUAGE (hard requirement): title and caption written for a smart 16-year-old. Everyday words, short sentences, zero industry jargon — say what the thing DOES, not what it's called.
 - The caption's FIRST sentence carries the payoff (~125 chars show before "...more"). Explainer commentary adds original context beyond the post title — this is also what makes the repost a transformation, not a raw repost.
 - start_s + clip_s must fit inside the clip's duration.
@@ -362,6 +363,57 @@ def title_tournament(r):
 
 CLIP_QA = {"type": "object", "properties": {"usable": {"type": "boolean"}},
            "required": ["usable"]}
+
+TITLE_FIT = {"type": "object",
+             "properties": {"fits": {"type": "boolean"},
+                            "better_title": {"type": "string"}},
+             "required": ["fits"]}
+
+
+def title_fits(src, dur, title, source_title):
+    """Coherence gate (owner Aug 1, the Mad Max reel post-mortem: a news claim
+    over meme footage reads as random chaos). Watches 2 frames WITH the title
+    and either approves it or rewrites it to carry the framing that makes the
+    video make sense. Fails open — the clip itself already passed clip_ok."""
+    frames = []
+    for frac in (0.15, 0.6):
+        fp = src.replace(".mp4", f"-tf{int(frac * 10)}.jpg")
+        try:
+            sh("ffmpeg", "-y", "-loglevel", "error", "-ss",
+               str(max(0, int(dur * frac))), "-i", src, "-frames:v", "1", fp)
+            frames.append(fp)
+        except Exception:
+            pass
+    if not frames:
+        return title
+    try:
+        r = call_claude(
+            "Two frames from a video are attached. It posts as an Instagram "
+            f'reel with this line above the video:\n"{title}"\n'
+            f'The original post was titled: "{source_title}"\n\n'
+            "A stranger sees ONLY the video + the line. fits:true only if the "
+            "line frames what the viewer is literally watching. If the video "
+            "is a MEME (a movie scene, game footage, or a skit standing in "
+            "for a tech story), the line must carry the meme's framing (like "
+            "'AI companies in 2028 when...') so the metaphor lands; a factual "
+            "claim floating over footage it doesn't show is fits:false. When "
+            "fits:false, write better_title: max 70 chars, sentence case, "
+            "simple words a 16-year-old gets, keeping the joke or framing "
+            "that connects the line to the footage, no invented facts, no "
+            'dashes. Return ONLY JSON: {"fits": true/false, "better_title": "..."}',
+            schema=TITLE_FIT, images=frames)
+        if not r.get("fits") and r.get("better_title", "").strip():
+            fixed = r["better_title"].strip()[:75]
+            print(f"title coherence gate rewrote: {fixed}", file=sys.stderr)
+            return fixed
+        return title
+    except Exception as e:
+        print(f"title coherence gate failed ({e}) — keeping title", file=sys.stderr)
+        return title
+    finally:
+        for fp in frames:
+            if os.path.exists(fp):
+                os.remove(fp)
 
 
 def clip_ok(src, dur, channel):
@@ -514,7 +566,19 @@ def main():
     # owner rule Jul 29: reels keep the clip's own sound, NEVER add music.
     # bundle.social stays the preferred publisher while budget lasts: its API
     # guarantees shareToFeed=false (reels off the main grid).
-    publish = "bundle" if not dry and bundle.budget_left() else "make"
+    # HARD BLOCK Aug 1: the Make scenario's IG module ignores our
+    # share_to_feed field and posts reels to the MAIN GRID (owner told us
+    # multiple times: never). Until the owner sets Share to Feed = No in the
+    # Make UI and confirms, a reel slot without bundle budget becomes an
+    # extra carousel — the slot still fills, the grid stays clean.
+    publish = "bundle"
+    if not dry and not bundle.budget_left():
+        sh("gh", "workflow", "run", "ig-post.yml", "-f", "kind=auto", cwd=HERE)
+        raise SystemExit("bundle budget out and Make posts reels to the main "
+                         "grid — slot filled with an extra carousel instead")
+
+    # coherence gate (Aug 1): the title must make the FOOTAGE make sense
+    r["title"] = title_fits(src, c["duration"], r["title"], c["title"])
 
     # owner rule: dashes never reach the overlay or the caption
     r["title"] = no_dashes(r["title"])

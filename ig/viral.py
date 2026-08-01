@@ -112,79 +112,84 @@ Return ONLY JSON with EXACTLY these keys:
 # story type. "lead" = what the headline leads with; "hook_rule" = the
 # double-weighted judge criterion for this type.
 PLAYBOOK = {
+    # Owner flip Aug 1 (reference-page audit): every type now SUMMARIZES —
+    # the full story with its specifics on the cover. What changes per type
+    # is WHICH specific leads, not whether it appears.
     "corporate_move": {
-        "lead": ('INFORMATION GAP. Formula: [ACTOR] JUST [charged verb] '
-                 '[withheld stake]. Name WHO, signal something big happened, '
-                 'withhold WHAT/WHY/HOW MUCH. Model: "VISA JUST BET '
-                 'EVERYTHING". A number only as bait ("FIRED 2,600 PEOPLE '
-                 'FOR THIS..."), never as resolution.'),
-        "hook_rule": ('GAP (0-2): sells curiosity WITHOUT delivering the '
-                      'story — you cannot tell what actually happened and you '
-                      'itch to know. A headline that summarizes the story '
-                      'scores 0; one so vague it fits 100 stories also scores 0.'),
+        "lead": ('THE FULL DECISION + ITS NUMBERS. Formula: [ACTOR] JUST '
+                 '[the move], [the number/stake that makes it wild]. Model: '
+                 '"VISA JUST LAID OFF 2,600 WORKERS TO GO ALL IN ON A '
+                 'TECHNOLOGY MOST BANKS REFUSE TO TOUCH". Say what they did '
+                 'AND what it cost — the decision\'s audacity is the hook.'),
+        "hook_rule": ('COMPLETE (0-2): tells the whole move with its real '
+                      'numbers — a stranger gets what happened and why it\'s '
+                      'wild from the cover alone. A withholding tease ("bet '
+                      'everything" on an unnamed thing) scores 0.'),
     },
     "absurd_moment": {
-        "lead": ('LEAD WITH THE ABSURD SPECIFIC. The single most insane TRUE '
-                 'detail (the exact number, the exact thing it did) goes IN '
-                 'the headline — it is the scroll-stopper, hiding it kills '
-                 'the post. The gap moves to HOW/WHY it happened. Model: "A '
-                 'SELF-CHECKOUT TRIED TO DONATE $8.5 BILLION" (measured '
-                 'failure: "WAIT UNTIL YOU SEE THE AMOUNT" teasing lost).'),
-        "hook_rule": ('ABSURD (0-2): leads with the most insane TRUE concrete '
-                      'specific from the story and still leaves a how/why '
-                      'itch. Vague teasing that hides the specific ("wait '
-                      'until you see...") scores 0. Delivering the specific '
-                      'WITH its full explanation also scores 0 — the how/why '
-                      'must stay open.'),
+        "lead": ('THE FULL ABSURD STORY. The most insane TRUE detail (the '
+                 'exact number, the exact thing it did) plus what it means, '
+                 'all in the headline. Model: "A SELF-CHECKOUT AI GLITCHED '
+                 'AND TRIED TO DONATE $8.5 BILLION OF ITS OWNER\'S MONEY TO '
+                 'THE RED CROSS". Never tease ("wait until you see the '
+                 'amount") — the specific IS the scroll-stopper.'),
+        "hook_rule": ('ABSURD (0-2): the insane TRUE specific and its '
+                      'context both on the cover. Vague teasing that hides '
+                      'the specific scores 0.'),
     },
     "threat": {
-        "lead": ('SECOND PERSON STAKE. The reader must feel personally '
-                 'exposed: YOUR money / YOUR chats / YOUR job. Formula: '
-                 '[the threat] JUST [reached your world]. Model: "YOUR '
-                 'PRIVATE AI CHATS JUST SHOWED UP ON GOOGLE". The gap is '
-                 '"am I affected, and what do I do".'),
+        "lead": ('SECOND PERSON STAKE, FULLY STATED. The reader must feel '
+                 'personally exposed AND know exactly what happened: [the '
+                 'threat] JUST [reached your world], [the concrete scope]. '
+                 'Model: "YOUR PRIVATE AI CHATS JUST SHOWED UP IN GOOGLE '
+                 'SEARCH RESULTS AND THOUSANDS ARE ALREADY READABLE".'),
         "hook_rule": ('STAKE (0-2): a stranger instantly feels THEIR OWN '
-                      'money/job/privacy is on the line. Abstract industry '
-                      'threats ("AI disrupts sector") score 0.'),
+                      'money/job/privacy is on the line and knows the real '
+                      'scope. Abstract industry threats score 0.'),
     },
     "money_win": {
-        "lead": ('ORDINARY PERSON + RESULT NUMBER. Formula: [relatable '
-                 'person] JUST [made/saved $X] [with AI]. The result number '
-                 'goes in the headline; HOW stays hidden. Model: "A '
-                 ' 19-YEAR-OLD\'S AI SIDE PROJECT JUST HIT $1M".'),
-        "hook_rule": ('PROOF (0-2): names a relatable person AND a true '
-                      'result number, leaving HOW open. No number or no '
-                      'person scores 0.'),
+        "lead": ('PERSON + RESULT + THE HOW, all on the cover. Formula: '
+                 '[relatable person] JUST [made/saved $X] [doing the '
+                 'concrete thing with AI]. Model: "A 19-YEAR-OLD JUST HIT '
+                 '$1M A YEAR WITH AN AI TOOL HE BUILT IN HIS DORM IN TWO '
+                 'WEEKS". The how makes it believable AND repeatable — '
+                 'that\'s the share.'),
+        "hook_rule": ('PROOF (0-2): a relatable person, a true result '
+                      'number, and what they actually did. Missing any of '
+                      'the three scores 0.'),
     },
     "record": {
-        "lead": ('THE SCALE CLAIM. Formula: [subject] JUST [did the '
-                 'physically unbelievable thing / broke the record]. The '
-                 'record itself goes in the headline when it is instantly '
-                 'graspable; the gap is what it looks like / what it means. '
-                 'Model: "A ROBOT JUST RAN A FULL MARATHON".'),
-        "hook_rule": ('SCALE (0-2): the claim is instantly graspable and '
-                      'sounds impossible-but-true. Insider metrics nobody '
-                      'can picture score 0.'),
+        "lead": ('THE SCALE CLAIM, FULLY SPECIFIED. Formula: [subject] JUST '
+                 '[broke the record / did the unbelievable thing], [the '
+                 'number that proves it]. Model: "A HUMANOID ROBOT JUST RAN '
+                 'A FULL 26-MILE MARATHON ON ONE BATTERY CHARGE, THE FIRST '
+                 'MACHINE EVER TO FINISH ONE".'),
+        "hook_rule": ('SCALE (0-2): the record and its number are instantly '
+                      'graspable and sound impossible-but-true. Insider '
+                      'metrics nobody can picture score 0.'),
     },
     "edu_value": {  # edu.py value posts (no news story behind them)
         "lead": ('COUNTABLE VALUE PROMISE. Formula: [N concrete things] '
                  '[the reader keeps: money saved / hours back] — the count '
-                 'and the value go in the headline, the list itself stays '
-                 'hidden. Model: "6 EXPENSIVE SERVICES AI REPLACES FOR FREE".'),
+                 'and the value go in the headline; the list itself is the '
+                 'carousel (an N-list cover can\'t hold N items — this is '
+                 'the one type where the payload stays inside). Model: "6 '
+                 'EXPENSIVE SERVICES AI NOW REPLACES FOR FREE".'),
         "hook_rule": ('VALUE (0-2): promises specific countable value the '
                       'reader personally keeps (a number of tools/prompts, '
-                      '$ saved), while the list stays hidden. Vague '
-                      '"AI tips" promises score 0.'),
+                      '$ saved). Vague "AI tips" promises score 0.'),
     },
 }
 
 ANCHOR_RULE = """ANCHOR RULE (hard): the hook may only anchor on a name a random 16-year-old instantly recognizes. This story's anchor: "{anchor}". Unknown brands are dead weight in the 4 words that decide the swipe — use the universal noun instead ("a self-checkout", "an AI", the famous counterparty)."""
 
-SHARED_RULES = """- HARD CAP 9 words, aim 4-8. Short = giant letters = stops the scroll.
-- ONE actor, ONE action. Never chain actions with "and".
+SHARED_RULES = """- LENGTH 12-25 words, aim 15-20: ONE complete sentence that SUMMARIZES the whole story with its wildest specifics ON the cover — the price, the count, the first-ever, the absurd detail. Model (owner Aug 1, the reference page): "OPENAI JUST LAUNCHED THEIR FIRST EVER HARDWARE PRODUCT, A $230 LIGHT UP KEYBOARD BUILT TO RUN YOUR AI CODING AGENTS".
+- WITHHOLD NOTHING (owner doctrine Aug 1, reverses the Jul 29 gap rule): a riddle only works for pages with authority; a growing page earns the follow by DELIVERING on the cover. The reader should get the full story from the cover alone — the swipe is for the photos, the details and the fallout, which the wild content makes them want automatically.
+- Structure: [ACTOR] JUST [charged verb + what happened], [the specific that makes it wild]. Front-load the actor and verb; the numbers ride in the second half.
 - Charged verbs when true: BET, FIRED, WENT ROGUE, BANNED, LEAKED, TRIED TO. Threat/loss framing beats triumph when both are true.
+- NO HEDGE WORDS: may, might, could, "reportedly" as the lead. State the verified fact hard; attribution lives in the credit line.
 - Simple words a 16-year-old gets instantly. Zero jargon, zero metaphors to decode. Only TRUE facts from the story.
-- Mark the minimum accent words with <em>...</em>."""
+- Mark accents with <em>...</em>: the 1-2 phrases carrying the numbers/wildest specifics (2 groups max)."""
 
 
 def hook_block(ctx):
@@ -210,7 +215,7 @@ CAND_SCHEMA = {
     "required": ["hook_candidates"],
 }
 
-HE_INTRO = """You write cover hooks for @ainews.israel — the Hebrew Instagram page for Israeli AI news. Write NATIVELY in Hebrew a smart Israeli 16-year-old would say out loud — never translate English phrasing. Keep brand/product names in their original Latin script (AI, ChatGPT, Visa). GRAMMAR (kill rule): every line must be correct spoken Hebrew — read it aloud; nouns are not verbs ("הזיה עסקה" is broken, "המציא עסקה" is right). A line a native speaker would stumble on is disqualified."""
+HE_INTRO = """You write cover hooks for @ainews.israel — the Hebrew Instagram page for Israeli AI news. Write NATIVELY in Hebrew a smart Israeli 16-year-old would say out loud — never translate English phrasing. Keep brand/product names in their original Latin script (AI, ChatGPT, Visa). Hebrew is denser than English: the LENGTH rule below relaxes to 8-20 words — but the summary must still be COMPLETE, nothing withheld. GRAMMAR (kill rule): every line must be correct spoken Hebrew — read it aloud; nouns are not verbs ("הזיה עסקה" is broken, "המציא עסקה" is right). A line a native speaker would stumble on is disqualified."""
 EN_INTRO = """You write cover hooks for @yaffeai — an AI/tech Instagram page in the style of @technology."""
 
 
@@ -273,21 +278,36 @@ def _drop_unknown_anchor(cands, ctx):
     return kept or cands
 
 
-def _pre_filter(cands):
+def _pre_filter(cands, ctx=None, lo=10):
     """Deterministic craft gates — rules that are yes/no checks, not taste.
     Run BEFORE the judge so it only sees candidates that already pass the
     craft floor. Falls open if it would empty the list."""
     def _words(c):
         return len(re.sub(r"<[^>]+>", "", c.get("headline", "")).split())
-    kept = [c for c in cands if _words(c) <= 9]
+    # summarizing-hook window (owner flip Aug 1: whole story on the cover —
+    # under the floor = old withholding style, over 26 = unreadable wall).
+    # edu N-promise hooks stay short by design ("6 SERVICES AI REPLACES FOR
+    # FREE"), so they skip the length gate.
+    if (ctx or {}).get("story_type") == "edu_value":
+        kept = cands
+    else:
+        kept = [c for c in cands if lo <= _words(c) <= 26]
     if not kept:
         kept = cands  # fall open
     else:
         dropped = len(cands) - len(kept)
         if dropped:
-            print(f"viral: dropped {dropped} candidate(s) over 9 words",
-                  file=sys.stderr)
-    return kept
+            print(f"viral: dropped {dropped} candidate(s) outside the "
+                  "10-26 word window", file=sys.stderr)
+    # hedge gate (researched Aug 1: hedge words collapse the curiosity gap;
+    # the fact goes hard on the cover, attribution lives in the credit line)
+    hedge = re.compile(r"(?i)\b(may|might|could|reportedly|allegedly)\b")
+    no_hedge = [c for c in kept
+                if not hedge.search(re.sub(r"<[^>]+>", "", c["headline"]))]
+    if no_hedge and len(no_hedge) < len(kept):
+        print(f"viral: dropped {len(kept) - len(no_hedge)} hedged candidate(s)",
+              file=sys.stderr)
+    return no_hedge or kept
 
 
 def judge(cands, ctx, lang="en"):
@@ -295,7 +315,9 @@ def judge(cands, ctx, lang="en"):
     judge's ONLY job is impact — would a stranger stop scrolling?). Returns
     (winner_dict, record) or (None, None)."""
     cands = _drop_unknown_anchor(cands, ctx)
-    cands = _pre_filter(cands)
+    # Hebrew packs prepositions/articles into words — a full summary can be
+    # shorter, so the floor relaxes
+    cands = _pre_filter(cands, ctx, lo=8 if lang == "he" else 10)
     if len(cands) < 2:
         return (cands[0] if cands else None), None
     order = list(range(len(cands)))
@@ -312,7 +334,7 @@ def judge(cands, ctx, lang="en"):
 TRUE FACTS (use ONLY for the truth kill rule below — you still react as a stranger):
 {facts or '- (none listed)'}
 
-Score each candidate 0-10 on ONE thing: IMPACT — would you stop scrolling, read it, and swipe? Trust your gut. A hook that makes you think "wait, WHAT?" beats one that sounds professionally crafted but doesn't make you feel anything.
+Score each candidate 0-10 on ONE thing: IMPACT — would you stop scrolling, read it, and swipe? Trust your gut. A hook that makes you think "wait, WHAT?" beats one that sounds professionally crafted but doesn't make you feel anything. You don't know this page, so a cover that TELLS you the full wild story with its real numbers beats a cryptic tease that hides what happened — you'd swipe for the photos and details of a story you already believe, not to solve a stranger's riddle.
 
 KILL RULES (score 0 TOTAL, no matter how good it sounds):
 - TRUTH: states as DONE something the facts say was only tried/almost/blocked ("SENT" when it only TRIED to send), or invents a claim the facts don't support

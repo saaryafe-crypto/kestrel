@@ -19,9 +19,9 @@ from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 USED = os.path.join(HERE, "genimg-used.json")
-# $0.35/day = ~7 covers + QA retries; the old $0.17 cap skipped the
-# Madagascar cover after a morning of debug regens
-MONTH_BUDGET, DAY_BUDGET = 9.00, 0.35
+# $0.50/day (raised from $0.35 Aug 1: the cap cut the keypad post's
+# product-hero cover + CTA mid-run; owner cap is the MONTH number)
+MONTH_BUDGET, DAY_BUDGET = 9.00, 0.50
 COST = 0.03  # flat per output image, any size
 URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 
@@ -56,11 +56,35 @@ def _get(url, key=None, timeout=60):
         return r.read()
 
 
-def _call(key, prompt):
+def _data_uri(path):
+    """Local image -> data URI for Replicate image_input. Downscaled to ~1024px
+    (Pillow when available) to keep the request body small; reference images
+    guide composition/product identity, they don't need full res."""
+    import base64
+    data = None
+    try:
+        from PIL import Image
+        import io
+        img = Image.open(path).convert("RGB")
+        img.thumbnail((1024, 1024))
+        buf = io.BytesIO()
+        img.save(buf, "JPEG", quality=85)
+        data = buf.getvalue()
+    except Exception:
+        data = open(path, "rb").read()
+    return "data:image/jpeg;base64," + base64.b64encode(data).decode()
+
+
+def _call(key, prompt, refs=None):
     # 2K, same flat price as 1K — the extra resolution is what keeps short
     # screen text crisp (1080-wide test garbled "Device Locked")
     body = {"input": {"prompt": prompt, "size": "custom",
                       "width": 2048, "height": 2560, "max_images": 1}}
+    if refs:
+        # product-hero covers (owner Aug 1, @technology Codex Micro anatomy):
+        # the REAL product photo rides along so the generated device matches
+        # reality instead of an invented gadget
+        body["input"]["image_input"] = [_data_uri(r) for r in refs[:3]]
     req = urllib.request.Request(URL, data=json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json",
                                           "Authorization": f"Bearer {key}",
@@ -80,7 +104,7 @@ def _call(key, prompt):
     return None
 
 
-def generate(brief, out_path):
+def generate(brief, out_path, refs=None):
     key = _key()
     if not key:
         return None
@@ -113,8 +137,18 @@ def generate(brief, out_path):
               "screens must never show readable text: any paperwork is blank, "
               "turned away, or defocused beyond reading. No watermarks, no "
               "captions, no logos beyond those on the real product.")
+    live_refs = [r for r in (refs or []) if os.path.exists(r)]
+    if live_refs:
+        # identity anchor (Aug 1, keypad post-mortem: from-scratch Altman and
+        # an invented purple keypad both failed QA): the refs are REAL photos —
+        # the model must copy them, not improvise variants
+        prompt += (" The attached reference images are real photographs: "
+                   "reproduce the device's exact industrial design, colors and "
+                   "proportions from them, and keep any person's facial "
+                   "identity exactly identical to their reference photo. "
+                   "Never invent a different-looking device or face.")
     try:
-        img = _call(key, prompt)
+        img = _call(key, prompt, refs=live_refs or None)
         if not img:
             return None
         open(out_path, "wb").write(img)
