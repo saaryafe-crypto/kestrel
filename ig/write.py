@@ -1159,7 +1159,8 @@ def main(stories_path):
             refs = [r for r in ((ref_photo if want_ref else None), face_ref,
                                 brand_ref) if r]
             path = genimg.generate(brief, os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg"),
-                                   refs=refs or None)
+                                   refs=refs or None,
+                                   cover=(s["type"] == "cover"))
             if not path:  # budget out / API down — retrying can't help
                 break
             ok, score, flaw = image_score(path, s.get("headline")

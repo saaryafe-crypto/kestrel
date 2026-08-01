@@ -144,6 +144,7 @@ jobs:
         env:
           MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
           MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
+          GH_TOKEN: ${{ github.token }}  # bare-cover alert issues (post.py)
         run: |
           python ig/post.py "$POST_DIR" \
             "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/$POST_NAME"

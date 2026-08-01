@@ -192,7 +192,8 @@ def main():
             continue
         tries = 3 if s["type"] == "cover" else 1
         for attempt in range(tries):
-            path = genimg.generate(brief, os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg"))
+            path = genimg.generate(brief, os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg"),
+                                   cover=(s["type"] == "cover"))
             if not path:
                 break
             ok, score, flaw = image_score(path, s["headline"], generated=True)

@@ -21,7 +21,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 USED = os.path.join(HERE, "genimg-used.json")
 # $0.50/day (raised from $0.35 Aug 1: the cap cut the keypad post's
 # product-hero cover + CTA mid-run; owner cap is the MONTH number)
-MONTH_BUDGET, DAY_BUDGET = 9.00, 0.50
+MONTH_BUDGET, DAY_BUDGET = 9.00, 0.25
+# Covers get their own, higher daily ceiling (cover-first doctrine, Aug 1):
+# inner-slide spend stops at DAY_BUDGET so there is always headroom left for
+# every remaining post's cover. 7 posts x 1 cover + retries fits well inside.
+COVER_DAY_BUDGET = 0.55
 COST = 0.03  # flat per output image, any size
 URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 
@@ -104,13 +108,21 @@ def _call(key, prompt, refs=None):
     return None
 
 
-def generate(brief, out_path, refs=None):
+def generate(brief, out_path, refs=None, cover=False):
     key = _key()
     if not key:
         return None
     month, day = _spend()
-    if month + COST > MONTH_BUDGET or day + COST > DAY_BUDGET:
-        print(f"genimg budget out (month ${month:.2f}, today ${day:.2f}) — skipping",
+    # COVER-FIRST (owner Aug 1, Chrome-bugs post-mortem: the daily cap ran out
+    # on inner slides of EARLIER posts, so a later post shipped a logo-on-dark
+    # cover — "terrible logo and without a cover photo"). The cover is the
+    # swipe decision: cover images ignore the daily cap and answer only to the
+    # monthly cap plus their own ceiling (10 covers/day > the posting schedule,
+    # so a cover is NEVER starved by inner-slide spend).
+    day_cap = COVER_DAY_BUDGET if cover else DAY_BUDGET
+    if month + COST > MONTH_BUDGET or day + COST > day_cap:
+        print(f"genimg budget out (month ${month:.2f}, today ${day:.2f}, "
+              f"{'cover' if cover else 'inner'} cap ${day_cap:.2f}) — skipping",
               file=sys.stderr)
         return None
     # Seedream-optimal 5-part structure (subject/action/setting come from the

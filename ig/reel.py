@@ -570,18 +570,14 @@ def main():
     print(f"picked {c['channel']}: {c['title']}\noverlay: {r['title']}", file=sys.stderr)
 
     # owner rule Jul 29: reels keep the clip's own sound, NEVER add music.
-    # bundle.social stays the preferred publisher while budget lasts: its API
-    # guarantees shareToFeed=false (reels off the main grid).
-    # HARD BLOCK Aug 1: the Make scenario's IG module ignores our
-    # share_to_feed field and posts reels to the MAIN GRID (owner told us
-    # multiple times: never). Until the owner sets Share to Feed = No in the
-    # Make UI and confirms, a reel slot without bundle budget becomes an
-    # extra carousel — the slot still fills, the grid stays clean.
-    publish = "bundle"
-    if not dry and not bundle.budget_left():
-        sh("gh", "workflow", "run", "ig-post.yml", "-f", "kind=auto", cwd=HERE)
-        raise SystemExit("bundle budget out and Make posts reels to the main "
-                         "grid — slot filled with an extra carousel instead")
+    # bundle.social stays the preferred publisher while budget lasts (free
+    # tier, native trending audio, shareToFeed=false via API). Aug 1: the
+    # Make route is UNBLOCKED — the scenario's CreateAReelPost module was
+    # patched via the Make API to share_to_feed=false (verified), so a
+    # budget-out slot now publishes through Make instead of sacrificing the
+    # reel to a carousel (owner: "we can use make.com like we always did";
+    # 4 reels/day is the target and 20 bundle posts/month can never carry it).
+    publish = "bundle" if dry or bundle.budget_left() else "make"
 
     # coherence gate (Aug 1): the title must make the FOOTAGE make sense
     r["title"] = title_fits(src, c["duration"], r["title"], c["title"])

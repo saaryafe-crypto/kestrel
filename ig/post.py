@@ -32,6 +32,35 @@ def urls_live(urls, min_bytes=15000):
             time.sleep(20)
 
 
+def alert_bare_cover(post_dir):
+    """Never-silent rule (owner Aug 1, Chrome-bugs post-mortem: 'i wasnt even
+    notifed'): a cover with no photo — bare type or logo-on-dark — still
+    publishes (7/day is a must) but ALWAYS opens a GitHub issue so the owner
+    can pull it and we can fix the starved rung. Fails open: an alert failure
+    never blocks the publish."""
+    try:
+        p = json.load(open(os.path.join(post_dir, "post.json")))
+        cover = (p.get("items") or p.get("slides") or [{}])[0]
+        problem = ("no cover image at all" if not cover.get("media") else
+                   f"cover fallback: {p['cover_fallback']}" if p.get("cover_fallback")
+                   else None)
+        if not problem:
+            return
+        import subprocess
+        name = os.path.basename(post_dir.rstrip("/"))
+        subprocess.run(
+            ["gh", "issue", "create", "-R", "saaryafe-crypto/kestrel",
+             "-t", f"IG post shipped with BARE COVER: {name}",
+             "-b", f"{problem}\n\nHeadline: {cover.get('headline')}\n"
+                   "The post published (7/day rule) but the cover has no real "
+                   "photo — likely genimg budget/API starvation or zero "
+                   "article images. Owner may want to delete it from the grid."],
+            timeout=60, check=False)
+        print(f"BARE COVER ALERT raised for {name}: {problem}", file=sys.stderr)
+    except Exception as e:
+        print(f"bare-cover alert failed ({e}) — publishing anyway", file=sys.stderr)
+
+
 def main(post_dir, base_url):
     reel = os.path.join(post_dir, "reel.json")
     if os.path.exists(reel):
@@ -47,20 +76,26 @@ def main(post_dir, base_url):
                 print("bundle post:", post.get("id"), "| audio:", r.get("audio_title"))
                 return
             except Exception as e:
-                # HARD BLOCK Aug 1: the Make scenario ignores our share_to_feed
-                # field and posts reels to the MAIN GRID (owner rule: never).
-                # Fail loud (alert issue) instead of falling back to Make.
-                # Re-enable the Make fallback only after the owner sets
-                # Share to Feed = No in the Make IG module and confirms.
-                raise SystemExit(f"bundle publish failed ({e}) — Make fallback "
-                                 "disabled (posts reels to main grid)")
-        raise SystemExit("reel publish route is bundle-only until the Make "
-                         "scenario's Share to Feed is fixed (main-grid rule)")
+                print(f"bundle publish failed ({e}) — falling back to Make",
+                      file=sys.stderr)
+        # Make reel route RESTORED Aug 1 (owner: "we can use make.com like we
+        # always did" — free, unlimited, feeds the 4/day cadence). Safe now:
+        # the scenario's CreateAReelPost module was patched via the Make API
+        # to share_to_feed=false and verified — reels stay OFF the main grid.
+        payload = {
+            "type": "reel",
+            "caption": r["caption"],
+            "video_url": f"{base_url.rstrip('/')}/reel.mp4",
+            "thumb_offset": 0,
+        }
+        send(payload)
+        return
     slides = sorted((f for f in os.listdir(post_dir)
                      if re.fullmatch(r"slide-\d+\.jpg", f)),
                     key=lambda f: int(re.search(r"\d+", f).group()))
     if len(slides) < 2:  # IG carousels need >=2 — a lone/missing slide is a broken render
         raise SystemExit(f"only {len(slides)} slide jpg(s) in {post_dir} — not publishing")
+    alert_bare_cover(post_dir)
     base = base_url.rstrip("/")
     # video-in-carousel (owner Jul 31): a video-N.mp4 in the post dir becomes
     # a VIDEO child right after slide N (that slide's swipe hint says "Full
