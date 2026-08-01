@@ -1,0 +1,81 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 <em>EXPENSIVE PROBLEMS</em> ONE AI PROMPT JUST FIXED",
+   "hsize": 72,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIGHT A MEDICAL BILL</em>",
+   "hsize": 110,
+   "body": "A <b>$1,200</b> hospital bill got cut to <b>$180</b> after one paste. 'Here is my medical bill. Find every <b>inflated charge</b> and draft a <b>dispute letter</b> with fair price comparisons'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>SELL YOUR STUFF</em> WITHOUT THE BACK AND FORTH",
+   "hsize": 80,
+   "body": "AI prices your items, writes every listing, and replies to lowball offers for you. 'Here are photos of <b>5 things</b> I want to sell. <b>Price each one</b>, write a listing, and <b>handle negotiations</b>'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>REHEARSE A JOB INTERVIEW</em> UNTIL YOU NAIL IT",
+   "hsize": 80,
+   "body": "He ran mock rounds with Claude. Got ripped for rambling. Fixed it. <b>Got the job</b>. 'Here's the <b>job posting</b> and my background. Run <b>interview rounds one question at a time</b> and critique each answer'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>REDESIGN A ROOM</em> FOR UNDER $500",
+   "hsize": 95,
+   "body": "One photo of your living room gets a <b>full redesign</b> plus a shopping list <b>under $500</b>. 'Redesign this room in <b>modern minimalist</b> style and give me a shopping list under $500 with store names'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>PREDICT EVERY QUESTION</em> YOUR BOSS WILL ASK",
+   "hsize": 88,
+   "body": "An analyst ran this before every meeting. The room <b>felt scripted</b>. 'You're a <b>skeptical boss</b> reading this summary. List the <b>5 hardest questions</b> you'd ask and what data would answer each'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>CATCH LIES</em> IN ANYTHING AI WROTE FOR YOU",
+   "hsize": 82,
+   "body": "A researcher stopped trusting AI summaries. This catches the gaps. 'Read this. <b>Flag every claim</b> with no proof, <b>rate how confident</b> you are of each, and list what's <b>missing</b>'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> POST",
+   "hsize": 110,
+   "body": "You'll want these prompts when the problem hits. Save it now. Daily AI news and real skills you can use tonight",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 prompts that solved real problems for real people this month, from a $1,200 bill to a job offer \ud83d\udd25\n\nFighting medical bills with AI dispute letters, selling old stuff where AI prices and haggles for you, rehearsing job interviews with brutal mock rounds, redesigning any room from one phone photo with a shopping list under $500, predicting every hardball question your boss will ask before a meeting, and catching weak claims in anything AI writes before your name goes on it\n\nPeople stopped asking AI to write essays and started handing it problems that used to cost real money. The prompts are short. The results are not.\nRunning a business? DM us \"AI\" and we'll show you what these could do for yours\n\nSources: Reddit, Anthropic, OpenAI\n\n#AI #ChatGPT #Claude #Productivity #AITools",
+ "pinned_comment": "Which one are you trying first? The interview one on slide 4 is the sleeper.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 <em>REAL PEOPLE.</em> 6 PROMPTS. EVERY ONE WORKED",
+   "6 <em>UGLY PROBLEMS</em> PEOPLE QUIETLY HANDED TO AI",
+   "6 PROBLEMS PEOPLE PASTED INTO AI AND <em>ACTUALLY SOLVED</em>",
+   "6 <em>EXPENSIVE PROBLEMS</em> ONE AI PROMPT JUST FIXED"
+  ],
+  "scores": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "winner": 3,
+  "why": "\"Expensive\" triggers a money-anxiety reflex that stops the scroll cold \u2014 you immediately think of something YOU paid for that sucked. Runner-up [2] is relatable but 'actually solved' is softer; 'expensive problems / one prompt' has a sharper before/after contrast that feels almost unbelievable enough to swipe."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "no-image"
+}
