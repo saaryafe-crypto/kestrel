@@ -52,11 +52,20 @@ jobs:
           echo "POST_NAME=${{ github.event.inputs.repost }}" >> "$GITHUB_ENV"
           test -f "ig/posts/${{ github.event.inputs.repost }}/slide-1.jpg"
 
-      - name: Install Claude Code CLI + Pillow
+      - name: Install Claude Code CLI + Pillow + rembg
         if: github.event.inputs.repost == ''
         run: |
           npm install -g @anthropic-ai/claude-code
-          pip install pillow
+          # rembg: composed-cover person cutouts (composite.py). If it ever
+          # fails to install, write.py falls back to plain photo covers.
+          pip install pillow rembg onnxruntime
+
+      - name: Cache rembg model
+        if: github.event.inputs.repost == ''
+        uses: actions/cache@v4
+        with:
+          path: ~/.u2net
+          key: rembg-u2net
 
       - name: Fetch news and write post
         if: github.event.inputs.repost == ''
