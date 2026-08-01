@@ -29,7 +29,8 @@ COMMIT_PATTERNS = {  # git subjects are the system's own publish ledger
     "ainews.israel": {"carousels": r"^IG post HE: ", "reels": r"^IG reel HE: "}}
 FOLLOWERS_RE = re.compile(
     r"([\d.,KM]+)\s+Followers,\s*[\d.,KM]+\s+Following,\s*([\d.,KM]+)\s+Posts")
-GMAIL = "saaryafe@gmail.com"
+GMAIL = "saaryafe@gmail.com"          # the SENDING account (smtp.gmail.com login)
+RECIPIENTS = [GMAIL, "saar@yaffeai.com"]  # owner Aug 1: the report lands in both
 
 
 def env_key(name):
@@ -58,7 +59,8 @@ def send_email(subject, text):
     import smtplib
     from email.mime.text import MIMEText
     msg = MIMEText(text)
-    msg["Subject"], msg["From"], msg["To"] = subject, GMAIL, GMAIL
+    msg["Subject"], msg["From"] = subject, GMAIL
+    msg["To"] = ", ".join(RECIPIENTS)
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
         s.login(GMAIL, pw.replace(" ", ""))  # Google shows app pws with spaces
         s.send_message(msg)
