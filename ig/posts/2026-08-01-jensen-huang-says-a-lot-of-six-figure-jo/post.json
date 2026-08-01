@@ -1,0 +1,97 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "NVIDIA'S CEO JUST <em>PICKED PLUMBERS OVER YOU</em>",
+   "hsize": 72,
+   "media": "posts/2026-08-01-jensen-huang-says-a-lot-of-six-figure-jo/cand-1.png"
+  },
+  {
+   "type": "content",
+   "headline": "NVIDIA'S CEO HANDED <em>SIX FIGURES TO PLUMBERS</em>",
+   "hsize": 92,
+   "body": "<b>Jensen Huang</b> told the <b>World Economic Forum</b> that 'a lot' of <b>six-figure</b> jobs are about to open in plumbing and construction. The reason has nothing to do with houses",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AI RUNS ON <em>PIPES AND WIRES</em>",
+   "hsize": 96,
+   "body": "Every AI system lives inside a <b>giant building</b> packed with servers, cooling pipes, and wiring. <b>Nvidia</b> wants <b>thousands</b> built from scratch. Someone wins those jobs, but someone else just lost theirs",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE SAME AI <em>GUTTED OFFICE JOBS</em>",
+   "hsize": 96,
+   "body": "The same AI creating <b>six-figure</b> trade jobs is quietly deleting the ones behind desks. It writes code, answers emails, files reports. The question now: who adapts first",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "SMART OWNERS <em>HANDED THE DESK WORK TO AI</em>",
+   "hsize": 82,
+   "body": "While everyone argues about jobs, small businesses are using AI to answer every customer in <b>30 seconds</b> and run <b>scheduling</b> without a single new hire. The ones who moved first are already ahead",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "THE JOB MARKET JUST <em>SPLIT IN TWO</em>",
+   "hsize": 92,
+   "body": "Tool belts or desks. One side is hiring at six figures, the other is shrinking. We track every shift like this. Follow, and send this to whoever still thinks a degree guarantees a paycheck",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see why Nvidia's CEO says plumbers will earn six figures from AI, while your desk job is on the other side \ud83d\udd27\n\nJensen Huang told the World Economic Forum in Davos that 'a lot' of six-figure jobs in plumbing and construction are about to open, all tied to building the massive AI data centers the world now demands, while the same AI boom quietly threatens white-collar office jobs across corporate America.\n\nThe job market is splitting: AI replaces the desk, but it can't lay pipe or pull wire. The trades are becoming the last jobs a machine can't steal, and the AI boom is paying them like it.\n\nRunning a business? DM us \"AI\" and we'll show you what this means for yours\n\nSources: Fortune\n\n#AIjobs #Nvidia #BlueCollar #DataCenters #CareerAdvice",
+ "pinned_comment": "Honest question: would you drop out today and pick up a wrench if it meant six figures? Most of you won't, and that's exactly why the ones who do will clean up",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "NVIDIA'S CEO JUST <em>PICKED PLUMBERS OVER YOU</em>",
+   "SIX-FIGURE TRADE JOBS JUST GOT <em>UNLOCKED</em>",
+   "SIX-FIGURE JOBS JUST <em>MOVED</em> TO CONSTRUCTION SITES",
+   "PLUMBERS ARE ABOUT TO <em>OUT-EARN</em> YOU",
+   "AI JUST <em>FLIPPED</em> WHO MAKES SIX FIGURES",
+   "YOUR DEGREE JUST <em>LOST TO A TOOL BELT</em>",
+   "YOUR CS DEGREE JUST <em>LOST</em> TO A TOOL BELT",
+   "THE HIGHEST PAID AI JOB <em>NEEDS NO COMPUTER</em>",
+   "SIX-FIGURE JOBS JUST <em>MOVED TO THE GARAGE</em>",
+   "PLUMBERS ARE ABOUT TO <em>OUT-EARN PROGRAMMERS</em>"
+  ],
+  "scores": [
+   9,
+   5,
+   6,
+   6,
+   6,
+   8,
+   7,
+   7,
+   4,
+   7
+  ],
+  "winner": 0,
+  "why": "Nvidia and Jensen Huang are THE cultural moment right now \u2014 dropping that name makes it feel real and urgent, not just another hot take. 'Picked plumbers over YOU' lands like a personal insult from the most powerful guy in tech, which is more viscerally stopping than any degree-vs-tool-belt framing."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Jensen Huang",
+  "actor_known": false,
+  "anchor": "six-figure jobs",
+  "specifics": [
+   "six-figure salaries for plumbers and electricians",
+   "building AI data centers",
+   "Jensen Huang, CEO of Nvidia",
+   "blue-collar jobs rising while white-collar jobs threatened",
+   "World Economic Forum in Davos"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Jensen Huang says \u2018a lot\u2019 of six-figure jobs in plumbing and construction will soon be unlocked because someone needs to build new AI centers",
+  "link": "https://fortune.com/article/jensen-huang-says-a-lot-of-six-figure-jobs-in-plumbing-and-construction-will-soon-be-unlocked-because-someone-needs-to-build-new-ai-centers/",
+  "judge_interest": 7,
+  "scout_score": 76.9
+ }
+}
