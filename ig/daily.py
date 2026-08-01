@@ -62,7 +62,9 @@ def send_email(subject, text):
     msg["Subject"], msg["From"] = subject, GMAIL
     msg["To"] = ", ".join(RECIPIENTS)
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
-        s.login(GMAIL, pw.replace(" ", ""))  # Google shows app pws with spaces
+        # Google's copy button pads app pws with regular AND non-breaking
+        # spaces (\xa0 — seen in the owner's first paste); strip all whitespace
+        s.login(GMAIL, re.sub(r"\s+", "", pw))
         s.send_message(msg)
     return True
 
