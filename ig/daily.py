@@ -29,8 +29,8 @@ COMMIT_PATTERNS = {  # git subjects are the system's own publish ledger
     "ainews.israel": {"carousels": r"^IG post HE: ", "reels": r"^IG reel HE: "}}
 FOLLOWERS_RE = re.compile(
     r"([\d.,KM]+)\s+Followers,\s*[\d.,KM]+\s+Following,\s*([\d.,KM]+)\s+Posts")
-GMAIL = "saaryafe@gmail.com"          # the SENDING account (smtp.gmail.com login)
-RECIPIENTS = ["saar@yaffeai.com"]     # owner Aug 1: ONLY the yaffeai inbox
+GMAIL = "saar@yaffeai.com"        # sender AND recipient (Google Workspace —
+RECIPIENTS = [GMAIL]              # yaffeai.com MX is smtp.google.com)
 
 
 def env_key(name):
