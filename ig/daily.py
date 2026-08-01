@@ -240,8 +240,8 @@ def main():
             # carousel MUST ship a real cover photo; a bare one gets named)
             bare = []
             for name in car:
-                pj = os.path.join(HERE, "posts-he" if he else "posts",
-                                  name, "post.json")
+                pj = os.path.join(HERE, "posts-he" if he else "posts", name,
+                                  "post-he.json" if he else "post.json")
                 if not os.path.exists(pj):
                     continue
                 p = json.load(open(pj))

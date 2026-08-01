@@ -39,7 +39,12 @@ def alert_bare_cover(post_dir):
     can pull it and we can fix the starved rung. Fails open: an alert failure
     never blocks the publish."""
     try:
-        p = json.load(open(os.path.join(post_dir, "post.json")))
+        # HE post dirs carry post-he.json (he.py output) — before this
+        # fallback the whole HE channel silently skipped the alarm.
+        pj = os.path.join(post_dir, "post.json")
+        if not os.path.exists(pj):
+            pj = os.path.join(post_dir, "post-he.json")
+        p = json.load(open(pj))
         cover = (p.get("items") or p.get("slides") or [{}])[0]
         problem = ("no cover image at all" if not cover.get("media") else
                    f"cover fallback: {p['cover_fallback']}" if p.get("cover_fallback")

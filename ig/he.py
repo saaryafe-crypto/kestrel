@@ -64,14 +64,32 @@ def build_prompt(post):
                        if s.get(k)} for s in post["slides"]],
            "caption": post["caption"],
            "pinned_comment": post.get("pinned_comment")}
-    return f"""You are the Hebrew editor of @ainews.israel, the Hebrew twin of a viral
+    # transcreation context (owner Aug 1: "it looks like a machine built it")
+    # — the story + validated facts let Hebrew be BORN in Hebrew instead of
+    # shadowing English sentences. Older posts without a classification just
+    # get an empty context; the method instructions still apply.
+    story, viral_c = post.get("story") or {}, post.get("viral") or {}
+    ctx = {"title": story.get("title"), "story_type": viral_c.get("story_type"),
+           "facts": viral_c.get("specifics")}
+    return f"""You are the Hebrew WRITER of @ainews.israel, the Hebrew twin of a viral
 English AI-news Instagram page. Below is a published English carousel that
-already won its hook tournament and QA. Localize it into Hebrew.
+already won its hook tournament and QA. Retell it in Hebrew.
 
-This is LOCALIZATION, not translation: carry the hook's tension, the
-information gap between slides, and the emotional register into Hebrew that a
-smart Israeli 16-year-old would actually say out loud. If a literal
-translation sounds stiff, rewrite the sentence Israeli-style.
+THE METHOD — transcreation, not translation (owner order Aug 1: the page must
+stop sounding machine-built):
+1. Read the story context and the English slides ONCE, to absorb the facts,
+   the numbers, and the tension arc (which question each slide plants and
+   which it answers).
+2. Then put the English SENTENCES out of your mind. For each slide, tell that
+   beat of the story in Hebrew the way you would tell it to a friend at the
+   table — out loud, in your own words, at the same length.
+3. The English text is your FACT SOURCE and STRUCTURE MAP only. Every number,
+   name, and claim must survive exactly. But if any Hebrew sentence of yours
+   maps word-for-word onto its English original's word order, it is
+   translationese — rewrite it from the story.
+
+STORY CONTEXT (the validated facts — your raw material):
+{json.dumps(ctx, ensure_ascii=False, indent=1)}
 
 {doctrine()}
 

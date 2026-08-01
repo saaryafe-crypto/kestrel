@@ -34,6 +34,35 @@ is Hebrew. Injected into the he.py localization prompt.
 - Credits and sources keep their English names ("מקורות: The Verge").
 - Never quotation-mark a whole sentence as a stylistic crutch.
 
+## Translationese detector (the "machine built it" killers)
+
+The tell of translated Hebrew is not wrong words, it is ENGLISH STRUCTURE
+wearing Hebrew words. Scan every line for these and rewrite:
+
+Calques (English idiom translated literally — always rewrite):
+- "עושה שכל" (makes sense) → "הגיוני"
+- "בסוף היום" (at the end of the day) → "בשורה התחתונה"
+- "לקח החלטה" (took a decision) → "החליט"
+- "עשה היסטוריה" (made history) → "שבר שיא" / state the record itself
+- "משנה משחק" (game changer) → say WHAT changed, concretely
+- "שם בחוץ" (out there) → "בעולם", or drop it
+- "הולך לעשות" as future (going to do) → plain future: "יעשה"
+- "אני מרגיש ש..." padding (I feel like) → just say the claim
+
+Newspaper words a teen never says (swap to the spoken form):
+- כאשר → כש..., על מנת → כדי, אשר → ש..., אולם → אבל
+- כעת → עכשיו, בנוסף → וגם / חוץ מזה, מספר אנשים → כמה אנשים
+- אנשים רבים → הרבה אנשים, ניתן ל... → אפשר, מהווה → זה
+- לרכוש → לקנות, לבצע → the concrete verb (לבדוק, לשלוח...)
+
+Structure smells (English syntax leaking through):
+- Possessive chains: "המודל של החברה של..." → smichut or split the sentence.
+- Passive with על ידי: "פותח על ידי OpenAI" → "OpenAI פיתחה".
+- A Hebrew line whose word order maps 1:1 onto the English original — the
+  hard test: if you can hear the English sentence underneath, rewrite from
+  the story, not from the words.
+- Chained relative clauses ("ה-X ש-Y ש-Z") → two short punches with a comma.
+
 ## Hooks in Hebrew (carry the English craft over)
 
 - The information gap survives translation only if the TENSION survives:
