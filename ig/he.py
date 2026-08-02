@@ -1,10 +1,22 @@
 #!/usr/bin/env python3
-"""Hebrew arm (@ainews.israel): localizes a FINISHED English post into proper
+"""Hebrew arm (@ainews.israel): retells a FINISHED English post natively in
 Hebrew and re-renders it RTL. Runs after the English publish — the input
 already survived the judge, the hook tournament, QA, and the dash scrub, so
-this stage translates craft, it never re-decides content (owner Jul 29: same
-design, same everything, only the language and direction change; the English
-system stays frozen — this arm only ADDS files).
+this stage re-tells the same validated story, it never re-decides content
+(owner Jul 29: same design, same everything, only the language changes).
+
+Aug 2 rebuild (owner: translated Hebrew is "very bad... we need a proper
+solution"): the old flow SHOWED the writer the English slides and asked it to
+"forget them" — impossible; it shipped calques ("לא קיבל את ההודעה" for
+"didn't get the memo") that the grammar-only polish pass can't see because
+they're grammatically fine. New flow is the proven born-in-Hebrew pattern
+(reel titles, feedback_hooks §4) extended to the whole carousel:
+  1. extract_facts(): English post -> DRY fact sheet (no idioms, no prose)
+  2. build_prompt(): Hebrew-language writer prompt, fact sheet only — the
+     writer never sees an English sentence, so it cannot calque
+  3. hebrew_cover() tournament + polish() editor, unchanged
+  4. qa(): + owner digits rule (counts one-to-ten as Hebrew words, LTR-island
+     cap on the cover — digits/Latin break the RTL reading flow)
 
 Usage: python3 he.py [posts/<dir>]     (default: newest un-localized post)
 Output: posts-he/<same name>/ with slide-*.jpg + caption.txt + post-he.json
@@ -60,58 +72,91 @@ def backlog():
     return sorted(dirs, key=os.path.basename, reverse=True)
 
 
-def build_prompt(post):
+FACTS_SCHEMA = {"type": "object", "properties": {
+    "slides": {"type": "array", "items": {"type": "object", "properties": {
+        "claim": {"type": "string"},
+        "facts": {"type": "array", "items": {"type": "string"}},
+        "opens": {"type": "string"}},
+        "required": ["claim"]}},
+    "protagonist": {"type": "string"},
+    "sources": {"type": "string"},
+    "cta": {"type": "string"}},
+    "required": ["slides"]}
+
+
+def extract_facts(post):
+    """Stage 1 — the calque firewall (owner Aug 2: translated Hebrew is 'very
+    bad'; every fix that let the writer SEE the English sentences still
+    shipped calques like 'לא קיבל את ההודעה' for 'didn't get the memo').
+    Turn the English post into a DRY fact sheet; the Hebrew writer gets only
+    this, never the English prose, so there is nothing to shadow."""
     src = {"slides": [{k: s.get(k) for k in ("type", "headline", "body", "kicker")
                        if s.get(k)} for s in post["slides"]],
            "caption": post["caption"],
-           "pinned_comment": post.get("pinned_comment")}
-    # transcreation context (owner Aug 1: "it looks like a machine built it")
-    # — the story + validated facts let Hebrew be BORN in Hebrew instead of
-    # shadowing English sentences. Older posts without a classification just
-    # get an empty context; the method instructions still apply.
-    story, viral_c = post.get("story") or {}, post.get("viral") or {}
-    ctx = {"title": story.get("title"), "story_type": viral_c.get("story_type"),
-           "facts": viral_c.get("specifics")}
-    return f"""You are the Hebrew WRITER of @ainews.israel, the Hebrew twin of a viral
-English AI-news Instagram page. Below is a published English carousel that
-already won its hook tournament and QA. Retell it in Hebrew.
+           "pinned_comment": post.get("pinned_comment"),
+           "validated_facts": (post.get("viral") or {}).get("specifics")}
+    prompt = f"""You are preparing a language-neutral FACT SHEET from a published English
+Instagram carousel, so a native Hebrew writer can retell the story WITHOUT
+ever seeing the English sentences (translated Hebrew keeps English idioms;
+this fact sheet is the firewall).
 
-THE METHOD — transcreation, not translation (owner order Aug 1: the page must
-stop sounding machine-built):
-1. Read the story context and the English slides ONCE, to absorb the facts,
-   the numbers, and the tension arc (which question each slide plants and
-   which it answers).
-2. Then put the English SENTENCES out of your mind. For each slide, tell that
-   beat of the story in Hebrew the way you would tell it to a friend at the
-   table — out loud, in your own words, at the same length.
-3. The English text is your FACT SOURCE and STRUCTURE MAP only. Every number,
-   name, and claim must survive exactly. But if any Hebrew sentence of yours
-   maps word-for-word onto its English original's word order, it is
-   translationese — rewrite it from the story.
+For each slide, in order:
+- claim: the point this slide must land, stated DRY and telegraphic. Plain
+  facts only — strip every idiom, pun, metaphor and stylistic choice. Write
+  like an engineer's changelog, never like a copywriter. If the slide quotes
+  an AI prompt, describe what the prompt asks the AI to do, don't copy its
+  sentences.
+- facts: the exact numbers, names, prices, URLs, button labels and quotes
+  that MUST survive verbatim (e.g. "$1,200 -> $180",
+  "myactivity.google.com/product/gemini", "Smart features and personalization").
+- opens: the question this slide leaves open for the next one ("" for the last).
 
-STORY CONTEXT (the validated facts — your raw material):
-{json.dumps(ctx, ensure_ascii=False, indent=1)}
-
-{doctrine()}
-
-STRUCTURE RULES (hard):
-- Return EXACTLY {len(post['slides'])} slides, same order. For each slide
-  localize only the text fields it has (headline / body / kicker). Never add
-  or drop a slide. A "kicker" is the tiny second-beat strip under the cover
-  headline — recreate it in punchy spoken Hebrew, 3-7 words, same fact.
-- Keep the <em>...</em> accent markup: wrap the minimum set of Hebrew words
-  that still communicates the claim standalone (same craft as the English).
-- Keep <b>...</b> bold markup in bodies where the English used it.
-- The caption keeps the same block structure (payoff first line with Hebrew
-  search words, story, sources, follow CTA, hashtags). Hashtags: copy the
-  English hashtags UNCHANGED. Sources keep their English names. Follow handle
-  is {HANDLE}.
-- pinned_comment: localize it too (if present).
+Also:
+- protagonist: who drives the story + their identity facts, or "".
+- sources: the source names from the caption, or "".
+- cta: what the last slide asks the reader to do, dry.
 
 THE ENGLISH POST:
 {json.dumps(src, ensure_ascii=False, indent=1)}
 
 Return ONLY the JSON object."""
+    return write.call_claude(prompt, schema=FACTS_SCHEMA)
+
+
+def build_prompt(post, facts):
+    """Stage 2 — the native writer. Prompt is IN Hebrew (the polish pass
+    proved that pushes the model into native mode) and contains zero English
+    prose: only the skeleton (which fields each slide has) + the fact sheet."""
+    skel = []
+    fslides = facts.get("slides") or []
+    for i, s in enumerate(post["slides"]):
+        f = fslides[i] if i < len(fslides) else {}
+        skel.append({"slide": i + 1, "type": s.get("type", "content"),
+                     "fields": [k for k in ("headline", "body", "kicker")
+                                if s.get(k)],
+                     "claim": f.get("claim"), "facts": f.get("facts"),
+                     "opens": f.get("opens")})
+    return f"""אתה הכותב הראשי של @ainews.israel, עמוד חדשות AI באינסטגרם לקהל ישראלי צעיר.
+
+לפניך דף עובדות של סיפור אמיתי. כתוב את הקרוסלה בעברית, מאפס. זו לא משימת תרגום: אין טקסט מקורי לחקות. יש עובדות, ואתה מספר אותן כמו שישראלי מספר סיפור מטורף לחבר ליד השולחן. כל מספר, שם ועובדה מדף העובדות חייבים לשרוד במדויק. כל השאר, הניסוח, הקצב, סדר המילים, נולד בעברית.
+
+הסגנון: כותרות בצורות של ynet ו-N12, אבל פשוטות יותר, לקהל צעיר. עברית מדוברת של ישראלי חכם בן 16. אפס עברית של עיתון.
+
+{doctrine()}
+
+חוקי מבנה (קשיחים):
+- בדיוק {len(post['slides'])} שקופיות, לפי השלד למטה, ובכל שקופית רק השדות שמופיעים ב-fields שלה. "kicker" הוא פס קטן מתחת לכותרת השער: 3-7 מילים, ביט שני של הסיפור.
+- שקופית 1 היא השער: כותרת שעוצרת גלילה, בצורה של כותרת ישראלית אמיתית. היא מפעילה את הרגש הכי חזק שיש בסיפור, פחד, כסף, איום עליך אישית, או וואו, ומספרת את הסיפור המלא עם הפרט הכי מטורף בפנים. לא חידה ולא קליקבייט: הקורא מקבל הכל כבר בשער, והחלקה פנימה נותנת את הפירוט. כל שקופית עונה על השאלה שהקודמת פתחה ופותחת את הבאה.
+- <em>...</em> סביב קבוצת המילים המינימלית שמעבירה את הטענה לבד (חובה בכותרת השער). <b>...</b> סביב אחת עד שלוש עובדות מפתח בכל body.
+- מספרים: אחת עד עשר תמיד במילים, בהתאמת מין נכונה לשם העצם (שש בעיות, חמישה כלים, שני מסוקים). כמה שפחות ספרות ומילים באנגלית בכל שורה. בכותרות: מקסימום אי LTR אחד (מספר אחד או שם מותג אחד).
+- caption: שורה ראשונה עם השורה התחתונה של הסיפור ומילים שישראלי היה מחפש, אחר כך הסיפור בקצרה, שורת מקורות ({facts.get('sources') or 'המקורות מדף העובדות'}), וקריאה לעקוב אחרי {HANDLE}. בלי האשטגים, הם מתווספים אוטומטית.
+- pinned_comment: כתוב תגובה נעוצה קצרה בעברית (אם השדה קיים בפוסט המקורי).
+
+השלד ודף העובדות:
+{json.dumps({"slides": skel, "protagonist": facts.get("protagonist"),
+             "cta": facts.get("cta")}, ensure_ascii=False, indent=1)}
+
+החזר JSON בלבד: {{"slides": [{{"headline": "...", "body": "...", "kicker": "..."}}], "caption": "...", "pinned_comment": "..."}} — בדיוק {len(post['slides'])} שקופיות, באותו הסדר."""
 
 
 def merge(post, r):
@@ -172,12 +217,13 @@ def polish_items(items):
     only ids that actually needed a fix. Fails open (empty dict). Shared by
     the carousel polish() below and reel_he.py captions (owner Jul 31: reels
     must get the same native line-edit, no inconsistency)."""
-    prompt = f"""אתה עורך לשון ישראלי בכיר של עמוד חדשות טכנולוגיה באינסטגרם. הטקסטים למטה תורגמו מאנגלית, ותרגום משאיר שגיאות. עבור על כל שדה ותקן אך ורק שגיאות שפה:
+    prompt = f"""אתה עורך לשון ישראלי בכיר של עמוד חדשות טכנולוגיה באינסטגרם. הטקסטים למטה נכתבו מהר, ולפעמים נשארות בהם שגיאות. קרא כל שדה בקול רם: אם ישראלי היה נתקע או מרים גבה, תקן. עבור על כל שדה ותקן אך ורק שגיאות שפה:
 
 מה לתקן:
 - שגיאות דקדוק: התאמת מין ומספר (זכר/נקבה, יחיד/רבים), סמיכות, אותיות שימוש
 - מילות יחס שגויות (הוכרז על, השתלט את...)
 - תרגומית: משפט שנשמע כמו אנגלית במילים עבריות ("עשה היסטוריה", "לקח החלטה") — נסח כמו שישראלי באמת אומר
+- מספרים מאחת עד עשר שנכתבו בספרות: החלף למילים בהתאמת מין נכונה ("6 בעיות" -> "שש בעיות", "5 כלים" -> "חמישה כלים")
 - מבנה משפט מסורבל או סביל מיותר — הפוך לפעיל וישיר
 - כתיב מלא תקני
 
@@ -233,10 +279,36 @@ def polish(out):
     return out
 
 
+# a "count digit" is 1-10 standing alone before a Hebrew word ("6 בעיות").
+# Exempt: $ amounts, percentages, decimals, dates (7/10), Latin product names
+# (GPT-5, Gemini 3 escapes via the Hebrew-follower requirement when suffixed)
+COUNT_DIGIT = re.compile(r"(?<![A-Za-z0-9$#.,:/%])(?<![A-Za-z]-)"
+                         r"(10|[1-9])(?=\s+[\u0590-\u05FF])")
+LTR_RUN = re.compile(r"[A-Za-z0-9$%][A-Za-z0-9$%.,'&/+-]*")
+
+
 def qa(out):
     errs = []
     if not HEB.search(out["slides"][0].get("headline", "")):
         errs.append("cover headline is not Hebrew")
+    # owner hard rule Aug 2: as few digits as possible — counts one-to-ten
+    # are Hebrew words; every digit/Latin run is an LTR island that breaks
+    # the RTL reading flow, so the cover headline gets an island cap
+    strip = lambda t: re.sub(r"</?(em|b)>", "", t or "")
+    bad = []
+    for i, s in enumerate(out["slides"]):
+        for k in ("headline", "body"):
+            t = re.sub(r"^\s*\d{1,2}\)", "", strip(s.get(k)))  # list markers OK
+            bad += [f"שקופית {i+1}: '{m.group(1)}'"
+                    for m in COUNT_DIGIT.finditer(t)]
+    if bad:
+        errs.append("מספרים מאחת עד עשר נכתבים במילים בהתאמת מין (שש בעיות, "
+                    "חמישה כלים), לא בספרות: " + "; ".join(bad[:5]))
+    islands = LTR_RUN.findall(strip(out["slides"][0].get("headline", "")))
+    if len(islands) > 2:
+        errs.append(f"כותרת השער מכילה {len(islands)} איי LTR "
+                    f"({', '.join(islands)}), המקסימום 2 ועדיף אחד: העבר "
+                    "מספרים או שמות לעברית או ל-body")
     if not HEB.search(out["caption"][:200]):
         errs.append("caption payoff line is not Hebrew")
     heb_fields = tot = 0
@@ -279,7 +351,8 @@ def localize(post_dir):
     post_dir = post_dir.rstrip("/")
     post = json.load(open(os.path.join(post_dir, "post.json")))
     name = os.path.basename(post_dir)
-    prompt = build_prompt(post)
+    facts = extract_facts(post)   # stage 1: the calque firewall
+    prompt = build_prompt(post, facts)
     r = write.call_claude(prompt, schema=HE_SCHEMA)
     if len(r.get("slides", [])) != len(post["slides"]):
         r = write.call_claude(prompt + f"\n\nYOUR LAST ATTEMPT returned "

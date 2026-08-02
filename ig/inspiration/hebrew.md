@@ -23,8 +23,24 @@ is Hebrew. Injected into the he.py localization prompt.
 - "AI" stays "AI" (Israelis say and type AI; "בינה מלאכותית" is allowed once
   for flavor, never as the repeated term).
 - ALL hashtags stay in English, copied from the English post unchanged.
-- Numbers stay digits, money stays in the original currency ($10M stays $10M).
 - The follow handle is @ainews.israel, always.
+
+## Numbers: as few digits as possible (owner hard rule, Aug 2)
+
+Every digit and every English word is an LTR island that breaks the
+right-to-left reading flow. Minimize islands. This is also how Ynet and N12
+actually write ("שני מסוקים התנגשו", "שניים נהרגו" — never "2 מסוקים"):
+
+- Counts from one to ten are ALWAYS Hebrew words with correct gender for the
+  noun: "שש בעיות", "חמישה פרומפטים", "שלושה כלים", "שני מסוקים". Never
+  "6 בעיות". (List slides may keep their leading "1) 2) 3)" markers — those
+  are navigation, not prose.)
+- Money keeps the Hebrew scale word: "120 מיליון דולר", "כמעט מיליארד דולר",
+  "חצי מיליון". Digits appear only when the precise figure IS the story
+  ("$1,200 ירד ל-$180").
+- Headlines: at most ONE LTR island (one number OR one brand name). If a
+  headline needs both a brand and a number, move one to the body or use the
+  Hebrew form of the name (אילון מאסק).
 
 ## Hard bans (same as English, plus the Hebrew ones)
 
@@ -68,8 +84,19 @@ Structure smells (English syntax leaking through):
 - The information gap survives translation only if the TENSION survives:
   the cover plants a question, each slide answers it and plants the next.
   Localize the gap, not the words.
-- Negativity and high arousal work in Hebrew exactly like English: fear,
-  money, jobs, "זה כבר קורה", "בלי שביקשו רשות".
+- THE SCIENCE IS IDENTICAL TO ENGLISH (owner order Aug 3: same effect, same
+  psychology). The levers, in Hebrew:
+  - Negativity + high arousal: fear, money, jobs — "זה כבר קורה",
+    "בלי שביקשו רשות". Fear of loss beats promise of gain.
+  - Self-reference: talk about the READER's Gmail, money, job — "קורא לך",
+    "שלך", "חשבת שכיבית? לא כיבית". A threat to *you* stops the scroll.
+  - One insane concrete detail beats three vague ones: "דפי בנק ודוחות מס"
+    beats "המידע הפרטי שלך".
+  - The collision: two true facts that can't both be fine, joined in one
+    breath — "שיא של כל הזמנים, והמניה עדיין נפלה".
+  - People stop for people: when one human drives the story, the hook leads
+    with the person — their identity fact, the rise, the fall, the scene
+    people retell at dinner.
 - The caption's first line carries the payoff (first ~125 chars show before
   "עוד"), with search words an Israeli would type.
 - The reader is an Israeli scrolling at night: prices in dollars are fine,
@@ -95,6 +122,21 @@ Patterns that sound native (use these shapes):
 - The dry understatement Israelis love: state the insane fact flat, zero
   exclamation, let the fact scream.
 
+The Ynet/N12 headline shapes (owner Aug 2: "their Hebrew, but simpler, for a
+younger audience" — studied from ~50 live headlines):
+- THE COLON: setup, colon, payoff. "לא בכוונה: טיל של SpaceX צפוי להתנגש
+  השבוע בירח", "האתר פורסם בטעות וחשף: סין עוקבת אחרי אזרחים זרים".
+  The single most native Israeli headline shape — use it often.
+- THE POINTER: tease with "זה / גם על זה / זו הסיבה" and deliver inside:
+  "מנכ"ל אפל רומז: בקרוב תצטרכו לשלם גם על זה", "זו הסיבה".
+- THE REVEAL VERB: "חשף / חושפים / התברר" carries news energy without hype:
+  "פיל קולינס חשף:", "הציטוטים המדאיגים חושפים:".
+- SECOND PERSON PLURAL, direct to the reader: "תצטרכו לשלם", "חייבים לדעת
+  לפני ש...".
+- Simpler than the news: keep the shapes, drop the newspaper words. Where
+  Ynet writes "צפוי להתנגש", the page writes "יתנגש". Shorter clauses,
+  everyday verbs, a 16-year-old reads it without slowing down.
+
 Translationese failures (real ones we shipped — never again):
 - "הרובוט הזה לומד תנועות שלקח לך שנים ללמוד, תוך דקות" — agreement broken
   (שלקחו), clause chain is English syntax. Native: "מה שלקח לך שנים ללמוד,
@@ -103,6 +145,16 @@ Translationese failures (real ones we shipped — never again):
   words. Israelis say: "שבר שיא", "החליט", "כולם צחקו על".
 - Chained relative clauses ("ה-X ש-Y ש-Z") — break into two short punches
   with a comma.
+- "הטלפון שלך לא קיבל את ההודעה" — "didn't get the memo" word for word;
+  in Hebrew it just means a phone missed a text. Say what happened:
+  "כיבית במחשב? בטלפון זה עדיין דלוק".
+- 'דוחו"ת רפואיים' — broken gershayim spelling (the plain word is דוחות);
+  and "תלושי מס" — an invented term (יש תלוש משכורת; מסמכי מס נקראים
+  דוחות מס). Never gershayim inside a plural, never invent a Hebrew term
+  for an English one — use the phrase Israelis actually use.
+- Pick ONE address form for the whole post — either singular (כיבית, שלך)
+  or plural (כיביתם, שלכם) — and keep it from cover to CTA. Mixing the two
+  is an instant machine tell.
 
 ## RTL mechanics
 

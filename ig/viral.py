@@ -412,6 +412,15 @@ def sharpen(win, ctx, material="", lang="en", news=True, payload=""):
     lever harder — the blind judge then re-runs winner vs rivals, so the
     original only loses to something that actually beats it. Fails open."""
     intro = HE_INTRO if lang == "he" else EN_INTRO
+    doctrine = ""
+    if lang == "he":
+        # same injection as rival_hooks (Aug 3: the specialist shipped
+        # 'דוחו"ת' + invented 'תלושי מס' because it never saw hebrew.md)
+        try:
+            import he
+            doctrine = he.doctrine()
+        except Exception:
+            pass
     rules = SHARED_RULES if news else (
         "- Keep the container's own length/format rules (an edu N-promise "
         "cover stays SHORT, 5-10 words, number first).")
@@ -425,7 +434,7 @@ STORY FACTS (never invent, never exaggerate beyond them):
 {(material or '')[:2000] or '- (use the hook ammunition below)'}
 {pay}
 {hook_block(ctx)}
-
+{doctrine}
 {PSYCH}
 
 THE JOB:
