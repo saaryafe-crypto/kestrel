@@ -360,6 +360,103 @@ Return ONLY JSON: {{"scores": [score per candidate in order], "winner": <index o
     return win, record
 
 
+# ------------------------------------------------------- hook specialist
+
+# Distilled from inspiration/principles.md (Nature Human Behaviour 105K
+# headline tests, Upworthy archive, Berger & Milkman, practitioner corpora) —
+# the levers the specialist attacks with. The writer prompt already carries
+# the full doctrine; this is the fighting weight for one focused pass.
+PSYCH = """HUMAN-PSYCHOLOGY LEVERS (each backed by large-scale headline studies):
+1. THE 1.7-SECOND TEST: a scroller gives ~1.7s of half-attention. The first 3-4 words must already carry the wildest element — actor or absurd specific first, never setup.
+2. NEGATIVITY WINS: each negative/threat/loss word adds ~+2.3% clicks; triumph framing loses to loss framing when both are true (FIRED > HIRED, LOST > MADE, BANNED > LAUNCHED).
+3. HIGH-AROUSAL EMOTION ONLY: awe, anger, anxiety, amusement drive shares; "impressive/interesting" is not an emotion. If the hook doesn't make YOU feel one nameable spike, it's dead.
+4. ONE-DETAIL CONCRETENESS: exactly ONE number + ONE name + ONE twist. A second number dilutes; zero numbers is wallpaper.
+5. MORAL-EMOTIONAL VERBS: banned, exposed, refused, stole, betrayed, admitted add +17-20% each — ONLY when literally true.
+6. SELF-REFERENCE: "your money / your job / your phone" lifts engagement massively, but only when the story genuinely touches the reader; fake relevance reads instantly.
+7. REPEAT-TO-A-FRIEND: the ultimate test — one plain sentence a 16-year-old would say out loud to a friend, verbatim. If it can't be repeated from memory after one read, it fails.
+8. PEOPLE STOP FOR PEOPLE: a named/relatable DOER ("a guy", "a 19-year-old", the famous CEO) beats an institution announcing, even when the institution's news is bigger.
+9. BELIEVED-WILD BEATS WILDER-DOUBTED: real odd numbers ($317K, 9 days, 800 girls) create belief; round numbers and superlatives create doubt.
+10. DIFFERENT DOORS: number-led, contrarian flip, before/after, authority-steal, admission, future-shock — rivals must walk through DIFFERENT doors, not reword the same one."""
+
+SHARPEN_SCHEMA = {
+    "type": "object",
+    "properties": {"weakness": {"type": "string"},
+                   "hook_candidates": {"type": "array", "items": {
+                       "type": "object",
+                       "properties": {"headline": {"type": "string"},
+                                      "lever": {"type": "string"}},
+                       "required": ["headline"]}}},
+    "required": ["weakness", "hook_candidates"],
+}
+
+
+def sharpen(win, ctx, material="", lang="en", news=True, payload=""):
+    """The hook specialist (owner Aug 2: "create a specialised agent that
+    creates an incredible hook, based on our research and human psychology").
+    One adversarial pass AFTER the tournament: name the winner's biggest
+    psychological weakness, then write rivals that each pull a different
+    lever harder — the blind judge then re-runs winner vs rivals, so the
+    original only loses to something that actually beats it. Fails open."""
+    intro = HE_INTRO if lang == "he" else EN_INTRO
+    rules = SHARED_RULES if news else (
+        "- Keep the container's own length/format rules (an edu N-promise "
+        "cover stays SHORT, 5-10 words, number first).")
+    pay = f"\nWHAT THE INSIDE SLIDES ACTUALLY DELIVER (the hook must promise exactly this, never more):\n{payload}" if payload else ""
+    prompt = f"""{intro}
+You are the page's HOOK SPECIALIST — the last editor before publish. Below is the current winning cover hook. Your job: beat it, or prove it can't be beaten.
+
+CURRENT WINNER: {win['headline']}
+
+STORY FACTS (never invent, never exaggerate beyond them):
+{(material or '')[:2000] or '- (use the hook ammunition below)'}
+{pay}
+{hook_block(ctx)}
+
+{PSYCH}
+
+THE JOB:
+1. "weakness": in one blunt sentence, name the current winner's single biggest failure against the levers above (which lever it leaves on the table).
+2. "hook_candidates": 3 rivals that each attack through a DIFFERENT lever (tag each with "lever"). Every rival: 100% true to the facts, every formatting rule below, and it must beat the current winner at the 1.7-second test — otherwise don't write it, fewer great rivals beat three weak ones.
+{rules}
+- Mark accents with <em>...</em> (1-2 phrases carrying the wildest specifics).
+
+Return ONLY JSON: {{"weakness": "...", "hook_candidates": [...]}}"""
+    try:
+        r = _claude(prompt, SHARPEN_SCHEMA)
+        rivals = [{"headline": c.get("headline") or c.get("hook")}
+                  for c in r.get("hook_candidates", [])
+                  if c.get("headline") or c.get("hook")][:4]  # model drifts
+        # between "headline"/"hook" keys despite the schema
+        if rivals:
+            print(f"hook specialist: weakness = {r.get('weakness', '')[:120]}",
+                  file=sys.stderr)
+        return rivals
+    except Exception as e:
+        print(f"hook specialist failed ({e}) — keeping tournament winner",
+              file=sys.stderr)
+        return []
+
+
+def sharpen_pass(post, win, ctx, material="", lang="en", news=True):
+    """Run the specialist + a second blind judging round. Returns the final
+    winner dict (the original unless a rival beat it blind)."""
+    payload = "\n".join(
+        f"- {re.sub('</?em>', '', s.get('headline') or '')}"
+        for s in post.get("slides", [])[1:] if s.get("headline"))[:800]
+    rivals = sharpen(win, ctx, material, lang=lang, news=news, payload=payload)
+    if not rivals:
+        return win
+    win2, rec2 = judge([win] + rivals, ctx, lang=lang)
+    if not win2 or "<em>" not in win2.get("headline", ""):
+        return win
+    if rec2:
+        post["hook_sharpen"] = rec2
+    if win2["headline"] != win["headline"]:
+        print(f"hook specialist WON: "
+              f"{re.sub('</?em>', '', win2['headline'])[:80]}", file=sys.stderr)
+    return win2
+
+
 def tournament(post, story, ctx, material=""):
     """English tournament: writer's candidates + an independent playbook batch
     -> anchor filter -> per-type judge -> winner becomes the cover. Same
@@ -377,6 +474,7 @@ def tournament(post, story, ctx, material=""):
     post["hook_tournament"] = record or {"candidates": [win["headline"]],
                                          "scores": [], "winner": 0,
                                          "story_type": ctx["story_type"]}
+    win = sharpen_pass(post, win, ctx, material, news=bool(story))
     post["slides"][0]["headline"] = _no_dashes(win["headline"])
     return post
 
@@ -396,6 +494,7 @@ def hebrew_cover(out, story, ctx, material=""):
     win, record = judge(cands, ctx, lang="he")
     if not win:
         return out
+    win = sharpen_pass(out, win, ctx, material, lang="he")
     hl = _no_dashes(win["headline"])
     if "<em>" not in hl:  # accent is mandatory on covers
         hl = re.sub(r"^(\S+)", r"<em>\1</em>", hl)

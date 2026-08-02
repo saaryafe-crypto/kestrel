@@ -105,6 +105,10 @@ def _call(key, prompt, refs=None):
         out = out[0] if out else None
     if isinstance(out, str) and out.startswith("http"):
         return _get(out)
+    # surface WHY (Aug 2 bare-cover post-mortem: the prediction's error was
+    # swallowed here, so the log only ever said "returned no image")
+    print(f"genimg: prediction {pred.get('status')!r} error={pred.get('error')!r}",
+          file=sys.stderr)
     return None
 
 
