@@ -32,6 +32,7 @@ SCHEMA = {
                     "type": {"type": "string", "enum": ["cover", "content", "cta"]},
                     "hsize": {"type": "integer", "minimum": 54, "maximum": 124},
                     "headline": {"type": "string"},
+                    "kicker": {"type": "string"},
                     "body": {"type": "string"},
                     "media_idx": {"type": "integer"},
                     "product_shot": {"type": "boolean"},
@@ -251,15 +252,24 @@ def art_direct(post, story_title=""):
         "instantly false) — show them from behind, silhouette, or rewrite to "
         "the story's objects/scene with no face in frame."
         '\nBREAK THE PATTERN (owner rule Aug 2 — "we must break the normal '
-        'thoughts when users see the images"): a famous-person scene must be '
-        "UNEXPECTED — a place, outfit or role the viewer has never seen that "
-        "person in, yet still literally connected to the story's claim. Gold "
-        "standard: three billionaires as 1970s gangsters leaning on a muscle "
-        "car at a neon gas station, an open briefcase of cash. A boardroom, "
-        "an office desk, a stage keynote or a suit-at-a-table is a FAILURE "
-        "unless the story's event literally happened there (a courtroom for "
-        "a lawsuit). Ask: has the viewer seen this person in this scene "
-        "before? If yes, find a stranger scene that still says the claim.")
+        'thoughts when users see the images... not necessarily gangsters, '
+        'but change the thinking pattern and make it unique"): the viewer '
+        "must see something they have never seen before, and the BEST source "
+        "is the story itself. Priority order: (1) THE STORY'S OWN ABSURD "
+        "VISUAL — the reference page's biggest covers photograph the story's "
+        "real weirdness straight (two phones taped together for a no-network "
+        "file transfer; a man watching a movie through a receipt printer; "
+        "wedding guests arriving mid-collapse). If the material holds a "
+        "scene like that, THAT is the image — never replace it with an "
+        "invented one. (2) Only when the story has no inherent visual: "
+        "invent an UNEXPECTED staging for the famous person — a place, "
+        "outfit or role the viewer has never seen them in, still literally "
+        "connected to the claim (three billionaires as 1970s gangsters "
+        "splitting a briefcase of cash worked because the story WAS their "
+        "money). Either way: a boardroom, an office desk, a stage keynote "
+        "or a suit-at-a-table is a FAILURE unless the story's event "
+        "literally happened there (a courtroom for a lawsuit). Ask: has the "
+        "viewer seen this exact scene before? If yes, dig deeper.")
     logo_list = sorted(os.path.splitext(f)[0] for f in
                        os.listdir(os.path.join(HERE, "logos"))
                        if f.endswith(".svg"))
@@ -280,6 +290,11 @@ SLIDES (index, final headline, the writer's rough concept):
 {json.dumps(items, ensure_ascii=False, indent=1)}
 
 THE JOB: the image DRAMATIZES the exact claim of that slide's headline — the peak moment, the consequence, or the stakes — so the image raises the question and the headline answers it. A stranger seeing image + headline together gets the claim in one second. Never the topic in general, never a metaphor, never stock wallpaper.
+
+THE HOOK-IMAGE CONTRACT (forensic audit of the reference pages, Aug 2 — the hook-image connection is their #1 craft; every rule below is measured from their covers):
+- DIVISION OF LABOR: the image shows what words cannot (what the thing or person actually LOOKS like — proof the noun is real); the headline says what the image cannot (the price, the count, the consequence). The image never restates the headline's numbers — it proves the headline's NOUN. Exception: when the number counts a small visible object (2 phones, 3 jets, a 4-phone color lineup), show exactly that count.
+- DEIXIS LOCK: when the headline points — "THIS GUY...", "THESE ARE THE...", "THIS IS HOW..." — the image IS the missing half of the sentence: it must show exactly the pointed-at person or thing, dominant in frame, or the cover reads broken.
+- HANDS DO THE VERB: the hero's hands and gesture perform the headline's verb — holding the launched product to camera, shushing for a secret, signing for a deal, taping the two phones together. A person merely standing near the topic is wallpaper.
 
 ROLE-CAST (owner's gold standard, Aug 1): when the claim is about what a product or company CAN DO, cast the story's famous face IN THE ROLE the claim describes, mid-performance with that role's real props. Reference: "Claude has an unlimited personal tutor mode" → Anthropic's CEO AS the tutor — leaning over a desk in a warm home library, pen in hand, teaching a student whose shoulder frames the foreground. The person doesn't react to the claim, they ACT IT OUT; the scene props (pen, notebook, bookshelves) and the story-world background make the metaphor literal. Prefer this over a reaction face whenever the story has a doer + a capability.
 
@@ -556,7 +571,7 @@ def scrub_dashes(post):
     """Applies no_dashes to every field that reaches the published slides or
     caption. Records (story title, tournament candidates) stay untouched."""
     for s in post.get("slides", []):
-        for k in ("headline", "body"):
+        for k in ("headline", "body", "kicker"):
             if s.get(k):
                 s[k] = no_dashes(s[k])
     if post.get("caption"):
@@ -820,7 +835,7 @@ Pick "cover_style":
 - "logos" — 1-2 company logos rendered big on the dark cover, only when there is no usable photo (X vs Y or company stories). Available logo names: {', '.join(logos)}. Only these names.
 - "type" — big-headline-only dark cover (last resort)
 "logos" array may ALSO be set together with "photo": the logo(s) are overlaid on top of the photo (one logo max in that case — pick the company the story is about). NEVER overlay a flat logo when the photo shows a person's face — it lands on top of them and looks amateur; for a famous person's photo use the COMPOSED COVER discs instead (below) and leave logos empty
-NO SUBLINE (owner rule Aug 1): under the cover headline the design shows only a small "SWIPE FOR MORE" strip — nothing else. Every word of the hook must live in the big headline itself.
+THE KICKER (forensic upgrade Aug 2 — the reference pages use the tiny strip under the headline for a SECOND hook beat, not a generic swipe prompt: "WITHOUT SONY LIFTING A FINGER", "HE DOES NOT WANT THEIR MONEY", "BUILT WITH CLAUDE CODE, OPEN SOURCE", "5 SETTINGS TO SWITCH OFF"): the cover slide MAY set "kicker": 3-7 words, TRUE facts only, carrying the story's twist, consequence or bonus promise that is NOT already worded in the headline. It renders tiny in the strip — the headline must still work with the kicker covered. If the story has no real second beat, OMIT it (the strip then says "Swipe for more") — a filler kicker is worse than none. There is NO other subline (owner rule Aug 1): every word of the main hook lives in the big headline itself.
 
 {principles()}
 {inspiration()}
@@ -1025,12 +1040,23 @@ def qa(post):
         errs.append("cover has >2 <em> groups — accent ONE contiguous phrase or "
                     "whole line (two max), scattered single-word accents are "
                     "confetti with zero focal point")
+    # kicker strip (forensic Aug 2): one tiny second beat, plain text only
+    kick = re.sub(r"<[^>]+>", "", slides[0].get("kicker") or "").strip()
+    if kick and not (3 <= len(kick.split()) <= 8):
+        errs.append(f"cover kicker is {len(kick.split())} words (want 3-8) — "
+                    "the strip fits one short second beat, or omit it")
     # storytelling gates (owner directive Jul 31: the story itself, not the
     # coverage — no newsreader hedges, no random-user quotes, no slide walls)
     for i, s in enumerate(slides):
         text = re.sub(r"<[^>]+>", "", " ".join(
             filter(None, (s.get("headline", ""), s.get("body", "")))))
-        if re.search(r"(?i)\b(reportedly|allegedly|according to|sources say|is said to)\b", text):
+        # "reportedly" is licensed on the COVER only, for leak/rumor claims
+        # (forensic Aug 2: the reference page runs "XBOX REPORTEDLY PLANNED",
+        # "FERRARI REPORTEDLY HIT" constantly) — inner slides still ban it
+        hedge_pat = (r"(?i)\b(allegedly|according to|sources say|is said to)\b"
+                     if i == 0 else
+                     r"(?i)\b(reportedly|allegedly|according to|sources say|is said to)\b")
+        if re.search(hedge_pat, text):
             errs.append(f"slide {i+1}: newsreader hedge (reportedly/according to...) — "
                         "state what happened or cut the claim; sources live in the caption")
         if re.search(r"(?i)\b(a|an|one|another) (reddit|x|twitter|instagram|internet)? ?"
@@ -1196,6 +1222,15 @@ def main(stories_path):
         post.pop("hook_candidates", None)
     else:
         post = viral.tournament(post, story, ctx, material)
+    # the tournament may swap in a headline that already says the kicker's
+    # fact — a duplicated strip reads broken, so drop it (forensic Aug 2)
+    _hl = re.sub(r"<[^>]+>", "", post["slides"][0].get("headline", "")).lower()
+    _kk = re.sub(r"<[^>]+>", "", post["slides"][0].get("kicker") or "").lower()
+    if _kk:
+        kw = [w for w in re.findall(r"[a-z0-9$%]+", _kk) if len(w) > 3]
+        if kw and sum(w in _hl for w in kw) / len(kw) > 0.6:
+            print("kicker overlaps final headline — dropped", file=sys.stderr)
+            post["slides"][0].pop("kicker", None)
     post["viral"] = ctx  # he.py re-creates the Hebrew hook from this
 
     art_direct(post, story["title"])  # optimal image prompts for the FINAL cover

@@ -14,7 +14,7 @@ Layout spec (from @technology system analysis):
   bold body below (connected, like the cover). No media -> big-type plain-black slide.
 - CTA slide: exactly one CTA (the FOLLOW pill).
 - Safe zone: critical type inside middle 80% vertically."""
-import json, os, subprocess, sys, tempfile
+import html, json, os, re, subprocess, sys, tempfile
 
 CHROME = os.environ.get("CHROME",
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
@@ -299,7 +299,16 @@ def slide_html(s, handle, total, fallback_media=None):
         # hsize 72 at 6.5% and hsize 80 at 7.3% — matching the range
         css = css.replace(f"font-size:{s.get('hsize', 100)}px",
                           f"font-size:{int(s.get('hsize', 100) * 1.7)}px", 1)
-        swipe = 'Full video next <em>→</em>' if s.get("video") else 'Swipe for more <em>→</em>'
+        # kicker (forensic Aug 2, the reference strip anatomy): the strip
+        # carries the story's second beat when the writer supplied one —
+        # "WITHOUT SONY LIFTING A FINGER" — else the generic swipe prompt
+        if s.get("video"):
+            swipe = 'Full video next <em>→</em>'
+        elif (s.get("kicker") or "").strip():
+            kick = html.escape(re.sub(r"<[^>]+>", "", s["kicker"]).strip().upper())
+            swipe = f'{kick} <em>→</em>'
+        else:
+            swipe = 'Swipe for more <em>→</em>'
         logos = ""
         if s.get("badge_logo") and os.path.exists(
                 os.path.join(HERE, "logos", f'{s["badge_logo"]}.svg')):

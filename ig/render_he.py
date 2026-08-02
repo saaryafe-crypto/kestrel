@@ -13,7 +13,7 @@ with hairline rules, photo-bleed anatomy) with the RTL deltas:
     masthead with an image one.
   - Swipe/CTA strings in Hebrew ("swipe left" — IG advances leftward).
 Usage: python3 render_he.py post-he.json out_dir/"""
-import json, os, subprocess, sys, tempfile
+import html, json, os, re, subprocess, sys, tempfile
 
 CHROME = os.environ.get("CHROME",
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
@@ -270,8 +270,15 @@ def slide_html(s, handle, total, fallback_media=None):
                           f"font-size:{int(s.get('hsize', 100) * 1.7)}px", 1)
         # arrow on the RIGHT side pointing right, same as the English covers
         # (owner Jul 31: the left-pointing arrow read as reversed)
-        swipe = ('<span>הסרטון המלא בתמונה הבאה</span><em>&#8594;</em>' if s.get("video")
-                 else '<span>החליקו לעוד</span><em>&#8594;</em>')
+        # kicker (forensic Aug 2): the strip carries the story's second beat
+        # when the writer supplied one, else the generic swipe prompt
+        if s.get("video"):
+            swipe = '<span>הסרטון המלא בתמונה הבאה</span><em>&#8594;</em>'
+        elif (s.get("kicker") or "").strip():
+            kick = html.escape(re.sub(r"<[^>]+>", "", s["kicker"]).strip())
+            swipe = f'<span>{kick}</span><em>&#8594;</em>'
+        else:
+            swipe = '<span>החליקו לעוד</span><em>&#8594;</em>'
         logos = ""
         if s.get("badge_logo") and os.path.exists(
                 os.path.join(HERE, "logos", f'{s["badge_logo"]}.svg')):

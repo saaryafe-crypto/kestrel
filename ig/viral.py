@@ -153,7 +153,11 @@ PLAYBOOK = {
                  'concrete thing with AI]. Model: "A 19-YEAR-OLD JUST HIT '
                  '$1M A YEAR WITH AN AI TOOL HE BUILT IN HIS DORM IN TWO '
                  'WEEKS". The how makes it believable AND repeatable — '
-                 'that\'s the share.'),
+                 'that\'s the share. When the cover photo will show the real '
+                 'person or the thing they built, "THIS GUY JUST..." beats '
+                 'the anonymous noun (reference: "THIS GUY JUST BUILT A 3D '
+                 'RACING GAME WITH AI. IT COST HIM $863 AND 1.2 BILLION '
+                 'TOKENS" — the photo completes the sentence).'),
         "hook_rule": ('PROOF (0-2): a relatable person, a true result '
                       'number, and what they actually did. Missing any of '
                       'the three scores 0.'),
@@ -174,7 +178,10 @@ PLAYBOOK = {
                  'and the value go in the headline; the list itself is the '
                  'carousel (an N-list cover can\'t hold N items — this is '
                  'the one type where the payload stays inside). Model: "6 '
-                 'EXPENSIVE SERVICES AI NOW REPLACES FOR FREE".'),
+                 'EXPENSIVE SERVICES AI NOW REPLACES FOR FREE". Add the '
+                 'ENEMY CONTRAST clause when true — what the reader beats '
+                 'by knowing it ("...THAN MOST PAID COURSES", "MOST PEOPLE '
+                 'OVERLOOK", "SO GOOD THEY FEEL ILLEGAL").'),
         "hook_rule": ('VALUE (0-2): promises specific countable value the '
                       'reader personally keeps (a number of tools/prompts, '
                       '$ saved). Vague "AI tips" promises score 0.'),
@@ -188,7 +195,9 @@ SHARED_RULES = """- LENGTH 12-25 words, aim 15-20: ONE complete sentence that SU
 - Structure: [ACTOR] JUST [charged verb + what happened], [the specific that makes it wild]. Front-load the actor and verb; the numbers ride in the second half.
 - PERSON-FIRST (owner post-mortem Aug 1, the Situational-Awareness fund story): when ONE human drives the story, the PERSON is the actor — identity fact + rise + fall + the human scene ("THIS 24-YEAR-OLD BUILT A $45 BILLION AI FUND. THEN LOST 67% OF IT DURING HIS WEDDING" — the reference page's winner). Leading with the thing ("A $45 BILLION AI FUND COLLAPSED IN DAYS") is the failure model: people stop for people. A retellable human scene (a wedding, a courtroom) on the cover outranks any percentage.
 - Charged verbs when true: BET, FIRED, WENT ROGUE, BANNED, LEAKED, TRIED TO. Threat/loss framing beats triumph when both are true.
-- NO HEDGE WORDS: may, might, could, "reportedly" as the lead. State the verified fact hard; attribution lives in the credit line.
+- THE COLLISION: when two true facts contradict each other, put BOTH in the sentence joined by AND/YET/THEN ("A RECORD QUARTER AND THE STOCK STILL FELL 8%") — the contradiction is the reference page's strongest scroll-stopper.
+- POINTING HOOKS (forensic Aug 2): for builder/absurd stories, "THIS GUY / THESE ARE / THIS IS HOW" openers weld the words to the cover photo — the image completes the sentence ("THIS GUY BUILT A WAY TO SEND FILES BETWEEN TWO PHONES WITH NO WI-FI, NO BLUETOOTH, AND NO NETWORK AT ALL"). Use only when the cover will show the exact pointed-at person or thing.
+- NO HEDGE WORDS: may, might, could — never. "Reportedly" is allowed ONCE, mid-sentence, ONLY for a leak/rumor/patent story that cannot honestly be stated as fact (the reference runs "XBOX REPORTEDLY PLANNED...", "FERRARI REPORTEDLY HIT..."); never as the first word. Everything verified is stated hard; attribution lives in the credit line.
 - Simple words a 16-year-old gets instantly. Zero jargon, zero metaphors to decode. Only TRUE facts from the story.
 - Mark accents with <em>...</em>: the 1-2 phrases carrying the numbers/wildest specifics (2 groups max)."""
 
@@ -241,7 +250,7 @@ FACTS (never invent): {(material or '')[:2000]}
 {doctrine}
 RULES:
 {SHARED_RULES}
-Each candidate: {{"headline": "..."}} — the headline is the ENTIRE cover copy (no subline exists in the design); every word of the hook must live in it.
+Each candidate: {{"headline": "..."}} — the headline is the big cover copy and must stand COMPLETELY alone (the only other cover text is a tiny pre-written kicker strip you don't control); every word of the hook must live in the headline itself.
 
 Return ONLY JSON: {{"hook_candidates": [{n} objects]}}"""
     try:
@@ -300,11 +309,15 @@ def _pre_filter(cands, ctx=None, lo=10):
         if dropped:
             print(f"viral: dropped {dropped} candidate(s) outside the "
                   "10-26 word window", file=sys.stderr)
-    # hedge gate (researched Aug 1: hedge words collapse the curiosity gap;
-    # the fact goes hard on the cover, attribution lives in the credit line)
-    hedge = re.compile(r"(?i)\b(may|might|could|reportedly|allegedly)\b")
-    no_hedge = [c for c in kept
-                if not hedge.search(re.sub(r"<[^>]+>", "", c["headline"]))]
+    # hedge gate (researched Aug 1; recalibrated Aug 2 to the reference page:
+    # may/might/could/allegedly always die, but "reportedly" mid-sentence is
+    # their standard license for leak/rumor stories — "XBOX REPORTEDLY
+    # PLANNED..." — so it only dies as the FIRST word)
+    hedge = re.compile(r"(?i)\b(may|might|could|allegedly)\b")
+    def _hedged(c):
+        t = re.sub(r"<[^>]+>", "", c["headline"]).strip()
+        return bool(hedge.search(t)) or t.lower().startswith("reportedly")
+    no_hedge = [c for c in kept if not _hedged(c)]
     if no_hedge and len(no_hedge) < len(kept):
         print(f"viral: dropped {len(kept) - len(no_hedge)} hedged candidate(s)",
               file=sys.stderr)
@@ -370,13 +383,14 @@ PSYCH = """HUMAN-PSYCHOLOGY LEVERS (each backed by large-scale headline studies)
 1. THE 1.7-SECOND TEST: a scroller gives ~1.7s of half-attention. The first 3-4 words must already carry the wildest element — actor or absurd specific first, never setup.
 2. NEGATIVITY WINS: each negative/threat/loss word adds ~+2.3% clicks; triumph framing loses to loss framing when both are true (FIRED > HIRED, LOST > MADE, BANNED > LAUNCHED).
 3. HIGH-AROUSAL EMOTION ONLY: awe, anger, anxiety, amusement drive shares; "impressive/interesting" is not an emotion. If the hook doesn't make YOU feel one nameable spike, it's dead.
-4. ONE-DETAIL CONCRETENESS: exactly ONE number + ONE name + ONE twist. A second number dilutes; zero numbers is wallpaper.
+4. CONCRETENESS THAT STACKS (recalibrated Aug 2, forensic count of ~90 reference hooks): every number must ADD absurdity — odd precise numbers ($863, 682 tonnes, 335,000 signatures) create belief. A second number earns its place ONLY when the PAIR is the story ("IT COST HIM $863 AND 1.2 BILLION TOKENS"); a number that merely adds context dilutes. Zero numbers is wallpaper.
 5. MORAL-EMOTIONAL VERBS: banned, exposed, refused, stole, betrayed, admitted add +17-20% each — ONLY when literally true.
 6. SELF-REFERENCE: "your money / your job / your phone" lifts engagement massively, but only when the story genuinely touches the reader; fake relevance reads instantly.
 7. REPEAT-TO-A-FRIEND: the ultimate test — one plain sentence a 16-year-old would say out loud to a friend, verbatim. If it can't be repeated from memory after one read, it fails.
 8. PEOPLE STOP FOR PEOPLE: a named/relatable DOER ("a guy", "a 19-year-old", the famous CEO) beats an institution announcing, even when the institution's news is bigger.
 9. BELIEVED-WILD BEATS WILDER-DOUBTED: real odd numbers ($317K, 9 days, 800 girls) create belief; round numbers and superlatives create doubt.
-10. DIFFERENT DOORS: number-led, contrarian flip, before/after, authority-steal, admission, future-shock — rivals must walk through DIFFERENT doors, not reword the same one."""
+10. DIFFERENT DOORS: number-led, contrarian flip, before/after, authority-steal, admission, future-shock — rivals must walk through DIFFERENT doors, not reword the same one.
+11. THE COLLISION (the reference page's most-used engine, forensic Aug 2): two TRUE facts that fight each other, welded into one sentence by AND / YET / THEN — "A RECORD $102.4 BILLION QUARTER AND THE STOCK STILL FELL 8%", "GROSS $1 BILLION AND STILL LOSE THE STUDIO MONEY", "SUING FOR JUST $1.50 — HE DOES NOT WANT THEIR MONEY". When the story holds a contradiction, the hook stating BOTH sides beats every single-fact hook."""
 
 SHARPEN_SCHEMA = {
     "type": "object",

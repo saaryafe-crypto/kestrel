@@ -24,6 +24,7 @@ HE_SCHEMA = {"type": "object", "properties": {
     "slides": {"type": "array", "items": {"type": "object", "properties": {
         "headline": {"type": "string"},
         "body": {"type": "string"},
+        "kicker": {"type": "string"},
         "subline": {"type": "string"}}}},
     "caption": {"type": "string"},
     "pinned_comment": {"type": "string"}},
@@ -60,7 +61,7 @@ def backlog():
 
 
 def build_prompt(post):
-    src = {"slides": [{k: s.get(k) for k in ("type", "headline", "body")
+    src = {"slides": [{k: s.get(k) for k in ("type", "headline", "body", "kicker")
                        if s.get(k)} for s in post["slides"]],
            "caption": post["caption"],
            "pinned_comment": post.get("pinned_comment")}
@@ -95,8 +96,9 @@ STORY CONTEXT (the validated facts — your raw material):
 
 STRUCTURE RULES (hard):
 - Return EXACTLY {len(post['slides'])} slides, same order. For each slide
-  localize only the text fields it has (headline / body). Never add
-  or drop a slide.
+  localize only the text fields it has (headline / body / kicker). Never add
+  or drop a slide. A "kicker" is the tiny second-beat strip under the cover
+  headline — recreate it in punchy spoken Hebrew, 3-7 words, same fact.
 - Keep the <em>...</em> accent markup: wrap the minimum set of Hebrew words
   that still communicates the claim standalone (same craft as the English).
 - Keep <b>...</b> bold markup in bodies where the English used it.
@@ -117,7 +119,7 @@ def merge(post, r):
     out = json.loads(json.dumps(post))  # deep copy
     out["handle"] = HANDLE
     for s, h in zip(out["slides"], r["slides"]):
-        for k in ("headline", "body"):
+        for k in ("headline", "body", "kicker"):
             if s.get(k) and h.get(k):
                 s[k] = h[k]
     out["caption"] = r["caption"]
@@ -142,7 +144,7 @@ def scrub(out, en_caption):
         t = re.sub(r"([\d.]+\s*מיליארד)(?!\s*דולר)", r"\1 דולר", t)
         return t
     for s in out["slides"]:
-        for k in ("headline", "body", "subline"):
+        for k in ("headline", "body", "kicker", "subline"):
             if s.get(k):
                 s[k] = clean(s[k])
     cap = clean(out["caption"])
