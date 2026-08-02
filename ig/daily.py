@@ -250,10 +250,15 @@ def budget_lines():
         return json.load(open(fp)) if os.path.exists(fp) else None
 
     lines = []
-    img = sum(u["cost"] for u in (ledger("genimg-used.json") or [])
-              if u["date"][:7] == m)
-    lines.append(f"AI images we generated (Replicate): ${img:.2f} spent, "
-                 f"limit is ${MONTH_BUDGET:.2f} a month")
+    gen = ledger("genimg-used.json") or []
+    img = sum(u["cost"] for u in gen if u["date"][:7] == m)
+    img_today = sum(u["cost"] for u in gen if u["date"] == str(date.today()))
+    # owner ask (Aug 2): the mail must show today's spend, the month's spend,
+    # and how much room is left. Replicate's API has no balance endpoint, so
+    # "left" = room under OUR monthly cap, not the account balance.
+    lines.append(f"AI images we generated (Replicate): ${img_today:.2f} today, "
+                 f"${img:.2f} this month, ${max(MONTH_BUDGET - img, 0):.2f} "
+                 f"left of the ${MONTH_BUDGET:.2f} monthly limit")
     led = ledger("x-used.json") or {}
     xr = led.get("reads", 0) if led.get("month") == m else 0
     lines.append(f"X (Twitter) data (twitterapi.io): "
