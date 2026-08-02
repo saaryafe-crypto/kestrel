@@ -890,6 +890,36 @@ def call_claude(prompt, schema=None, images=None, model=None):
     return json.loads(m.group(0))
 
 
+def qa_repair(post, errs):
+    """Copy-editor pass: fix ONLY the QA failures on an otherwise-passing
+    post (see the Aug 2 repair-pass note in main's QA loop). Fails open:
+    None -> the caller falls through to full regeneration as before."""
+    err_list = "\n- ".join(errs)
+    prompt = f"""You are the copy editor of a finished Instagram carousel. Below is the post JSON and the exact list of quality-gate failures. Fix ONLY the listed problems, changing the minimum text needed — every word not implicated by a failure stays EXACTLY as it is, and the JSON structure, field names, and slide order stay identical.
+
+How to fix the common failures:
+- body too long: cut to the best 2 sentences, 30 words max — keep the <b> tags and the concrete facts, drop the weakest sentence
+- body repeats its own headline's number: replace that sentence with a NEW true fact from the post's other text, or the plain-words consequence — never re-say the headline
+- number repeated across slides: keep it on the earlier slide, rewrite the later mention into a different true specific
+- cta headline register: replace with a DIRECT follow line, 8-11 words, loss-aversion ("YOU MAY NEVER FIND OUR PAGE AGAIN IF YOU DON'T FOLLOW") or daily-value ("WE SHARE DAILY UPDATES ON WHAT'S HAPPENING IN AI") register, freshly worded
+- missing image_brief: write one — 15-40 words, subject first then action then setting, evidence of THAT slide's exact claim, no readable text in scene, end with one color key
+- quotes/cites an internet user: delete the attribution, state the fact directly
+
+THE POST:
+{json.dumps(post, ensure_ascii=False)}
+
+FIX EXACTLY THESE:
+- {err_list}
+
+Return ONLY the complete corrected JSON object, same shape."""
+    try:
+        return call_claude(prompt)
+    except Exception as e:
+        print(f"qa_repair failed ({e}) — falling back to regeneration",
+              file=sys.stderr)
+        return None
+
+
 def qa(post):
     slides, caption = post["slides"], post["caption"]
     # profile-card format (@techskills anatomy, owner example Aug 1): card
@@ -1065,10 +1095,25 @@ def main(stories_path):
     for attempt in range(3):
         post = call_claude(prompt, images=media_files)
         errs = qa(post)
+        if errs:
+            print(f"QA gate failed (attempt {attempt+1}):\n  " + "\n  ".join(errs),
+                  file=sys.stderr)
+            # REPAIR PASS (Aug 2: two slots died in 24h to QA-exhaustion —
+            # each retry regenerated the WHOLE post, a fresh dice roll on 20+
+            # gates that fixed old errors while minting new ones. A surgical
+            # edit of only the flagged lines converges; regeneration doesn't.)
+            fixed = qa_repair(post, errs)
+            if fixed:
+                left = qa(fixed)
+                if not left:
+                    print("repair pass cleared QA — using repaired post",
+                          file=sys.stderr)
+                    post, errs = fixed, []
+                else:
+                    print("repair left errors:\n  " + "\n  ".join(left),
+                          file=sys.stderr)
         if not errs:
             break
-        print(f"QA gate failed (attempt {attempt+1}):\n  " + "\n  ".join(errs),
-              file=sys.stderr)
         prompt = (build_prompt(story, body_text, media_files, retold, steer, spine)
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
