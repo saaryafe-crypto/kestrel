@@ -26,6 +26,14 @@ on:
         description: "existing posts/<name> to re-publish as-is (skips generation)"
         default: ""
 
+# Serialize runs: on Aug 2 a reel-fallback carousel and a manual replacement
+# ran in parallel, picked the SAME story, and the loser died on a rebase
+# conflict at the dedupe commit (issue #17). Queued runs still fill every
+# slot — they just wait their turn instead of racing.
+concurrency:
+  group: ig-autopost
+  cancel-in-progress: false
+
 jobs:
   post:
     runs-on: ubuntu-latest
