@@ -1,0 +1,132 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ELON MUSK JUST LOST <em>$750 BILLION</em>, MORE THAN BEZOS, LARRY PAGE, AND SERGEY BRIN <em>ARE WORTH COMBINED</em>",
+   "hsize": 64,
+   "kicker": "MORE THAN THREE BILLIONAIRES COMBINED",
+   "media": "faces/elon-musk-2.jpg",
+   "cutout": "posts/2026-08-02-former-trillionaire-loses-750-billion-am/cutout.png",
+   "discs": [
+    {
+     "logo": "tesla"
+    },
+    {
+     "logo": "spacex"
+    }
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "SPACEX'S IPO <em>MADE HIM THE FIRST TRILLIONAIRE IN HISTORY</em>",
+   "hsize": 82,
+   "body": "SpaceX hit the stock market in June and made Musk worth over <b>$1 trillion</b>. First person ever to reach that number. The fortune looked permanent",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "TESLA AND SPACEX <em>CRASHED WITHIN WEEKS</em>",
+   "hsize": 100,
+   "body": "<b>$750 billion</b> gone by late July. The same SpaceX stock that crowned him dragged it all back down. That number only makes sense next to three other names",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ONE MONTH <em>ERASED MORE THAN THREE BILLIONAIRES EVER MADE</em>",
+   "hsize": 82,
+   "body": "What he lost in a single month tops what <b>Jeff Bezos</b>, <b>Larry Page</b>, and <b>Sergey Brin</b> are worth combined. One month destroyed what three tech legends built in their lifetimes. And he laughed",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MUSK TURNED <em>THE BIGGEST LOSS EVER INTO A BIT</em>",
+   "hsize": 88,
+   "body": "Tesla was still crashing. Musk coined <b>\"former trillionaire\"</b>. A club of one. If you can lose three fortunes and laugh, the money was never real to begin with",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AI ANSWERS <em>EVERY CUSTOMER IN UNDER A MINUTE</em>",
+   "hsize": 94,
+   "body": "Most businesses lose leads because nobody picked up fast enough. AI handles every message the instant it arrives. Set up once, no new hires, runs while you sleep",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "YOU MAY NEVER <em>FIND OUR PAGE AGAIN</em> IF YOU DON'T FOLLOW",
+   "hsize": 58,
+   "body": "Send this to the friend who thinks billionaires can't lose money",
+   "face": "elon-musk-2",
+   "media": null
+  }
+ ],
+ "caption": "Elon Musk lost $750 billion after Tesla and SpaceX crashed, more than Bezos, Page, and Brin are worth combined. Swipe for the full breakdown \ud83d\udcb8\n\nSpaceX's blockbuster June IPO pushed Musk past $1 trillion, both stocks crashed within weeks wiping $750 billion, his loss exceeds the combined fortunes of Jeff Bezos, Larry Page, and Sergey Brin, and he coined 'former trillionaire' like losing three fortunes was a bit.\n\nWhen one person can lose more wealth than three of the richest humans on Earth built in their lifetimes, and laugh about it, money at this scale stopped being real a long time ago.\nRunning a business? DM us \"AI\" and we'll show you what real revenue looks like.\n\nSources: Yahoo Finance\n\n#ElonMusk #Tesla #SpaceX #Billionaires #AIBusiness",
+ "pinned_comment": "The SpaceX stock that made him a trillionaire in June is the same one that unmade him by July. Would you laugh if you lost $750 billion?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "ELON MUSK JUST LOST MORE MONEY THAN <em>BEZOS, LARRY PAGE, AND SERGEY BRIN ARE WORTH COMBINED</em>, $750 BILLION GONE AFTER SPACEX AND TESLA CRASHED",
+   "ELON MUSK JUST LOST MORE MONEY <em>THAN BEZOS, PAGE, AND BRIN HAVE COMBINED</em>",
+   "ELON MUSK JUST LOST $750 BILLION AND <em>IS CALLING HIMSELF 'FORMER TRILLIONAIRE'</em>",
+   "ELON MUSK WENT FROM <em>THE WORLD'S FIRST TRILLIONAIRE TO LOSING $750 BILLION</em> IN WEEKS",
+   "SPACEX WENT PUBLIC AND MADE ELON MUSK A TRILLIONAIRE IN JUNE, THEN TESLA AND SPACEX CRASHED AND HE LOST <em>$750 BILLION</em> BY JULY",
+   "ELON MUSK JUST LOST <em>$750 BILLION</em> IN NET WORTH AFTER TESLA AND SPACEX CRASHED, MORE THAN BEZOS, LARRY PAGE, AND SERGEY BRIN ARE WORTH <em>COMBINED</em>",
+   "ONE MAN JUST LOST $750 BILLION <em>AND TREATED IT LIKE A PUNCHLINE</em>",
+   "THE SAME STOCK THAT MADE ELON MUSK A TRILLIONAIRE <em>JUST ERASED $750 BILLION OF HIS FORTUNE</em>",
+   "ELON MUSK JUST WENT FROM THE WORLD'S FIRST TRILLIONAIRE TO CALLING HIMSELF A <em>'FORMER TRILLIONAIRE'</em> AFTER LOSING <em>$750 BILLION</em> IN WEEKS",
+   "ELON MUSK HIT $1 TRILLION LAST MONTH AND JUST LOST <em>$750 BILLION OF IT</em>, THE LARGEST WEALTH DROP IN HUMAN HISTORY"
+  ],
+  "scores": [
+   8,
+   6,
+   8,
+   7,
+   7,
+   8,
+   5,
+   6,
+   9,
+   0
+  ],
+  "winner": 8,
+  "why": "It stacks every gut-punch in one sentence: the rise ('world's first trillionaire'), the fall ($750 billion, in weeks), AND his own punchline quote \u2014 you get the full wild arc without needing to swipe to understand why it matters. The runner-up [0] lands the Bezos comparison hard but front-loads the loss without the quote, so it reads like a headline instead of a story you have to see."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "ELON MUSK JUST WENT FROM THE WORLD'S FIRST TRILLIONAIRE TO CALLING HIMSELF A <em>'FORMER TRILLIONAIRE'</em> AFTER LOSING <em>$750 BILLION</em> IN WEEKS",
+   "ELON MUSK JUST LOST <em>$750 BILLION</em> \u2014 MORE THAN BEZOS, LARRY PAGE, AND SERGEY BRIN <em>ARE WORTH COMBINED</em>",
+   "ELON MUSK HIT <em>$1 TRILLION</em> AND THEN LOST MORE THAN BEZOS, LARRY PAGE, AND SERGEY BRIN <em>ARE WORTH COMBINED</em>",
+   "ELON MUSK JUST CALLED HIMSELF A <em>'FORMER TRILLIONAIRE'</em> AFTER LOSING <em>$750 BILLION</em> IN WEEKS"
+  ],
+  "scores": [
+   7,
+   9,
+   7,
+   8
+  ],
+  "winner": 1,
+  "why": "It leads with the raw number then immediately makes you feel it with a comparison to three names everyone knows \u2014 two gut-punches back to back. Candidate 3 has the funny self-own quote but without the Bezos comparison the $750B stays abstract, so the scale never lands."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Elon Musk",
+  "actor_known": true,
+  "anchor": "Elon Musk",
+  "specifics": [
+   "Lost $750 billion in net worth",
+   "Was worth over $1 trillion after SpaceX IPO in June",
+   "Loss exceeds combined net worth of Bezos, Larry Page, and Sergey Brin",
+   "Called himself 'former trillionaire'",
+   "Crash driven by Tesla and SpaceX stock collapse"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "\u2018Former trillionaire\u2019 loses $750 billion amid Tesla, SpaceX crash, more than combined net worth of Larry Page, Sergey Brin, and Jeff Bezos \u2014 Why the rich laugh at losses",
+  "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-calls-himself-former-105500385.html",
+  "judge_interest": 8,
+  "scout_score": 138.9
+ }
+}
