@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 <em>SCARY CONVERSATIONS</em> YOU CAN REHEARSE WITH AI TONIGHT",
+   "hsize": 72,
+   "media": "posts/2026-08-02-edu-6-conversations-to-rehearse-with-ai-ai-i/gen-0-r.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>REHEARSE YOUR JOB INTERVIEW</em>",
+   "hsize": 118,
+   "body": "Interview coaches charge <b>$200 an hour</b>. He used AI instead. It caught him rambling. <b>He got the job</b>. 'You're interviewing me for [role]. One question at a time. Grade my answer before the next'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>TEST YOUR SALES PITCH</em> ON THE HARDEST BUYER",
+   "hsize": 90,
+   "body": "A sales coach charges <b>$250 an hour</b> for mock calls. AI does it free, unlimited rounds. 'You're a CFO who hates spending. I'm pitching [product]. Push back on everything'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) NEGOTIATE <em>YOUR SALARY</em> BEFORE THE MEETING",
+   "hsize": 100,
+   "body": "Negotiation coaches charge <b>$150 an hour</b>. AI plays your boss and pokes every hole in your ask. 'I make [current salary] and want [target]. You're my manager. Say no. Make me convince you'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) FIRE SOMEONE <em>WITHOUT DESTROYING THEM</em>",
+   "hsize": 105,
+   "body": "An employment lawyer charges <b>$350 an hour</b> to script a firing. AI rehearses it with you free. 'I need to let someone go for [reason]. Play the employee. React realistically'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>PITCH INVESTORS</em> BEFORE THE REAL ROOM",
+   "hsize": 105,
+   "body": "One bad question tanks a <b>$500K deal</b>. AI plays a skeptical investor and grinds every weakness first. 'I'm raising money for [company]. You're an investor who's heard a thousand pitches. Grill me'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) PRACTICE THE <em>CONVERSATION YOU'RE AVOIDING</em>",
+   "hsize": 100,
+   "body": "Therapists charge <b>$175 a session</b> to rehearse hard talks. AI plays whoever you're afraid to face, unlimited rounds. 'Play my [person]. I need to tell them [thing]. React how they really would'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR WHEN THE MOMENT COMES",
+   "hsize": 95,
+   "body": "You'll want these prompts when the moment comes. Save this post. We share <b>daily AI news and real skills</b> at @yaffeai",
+   "media": null
+  }
+ ],
+ "caption": "AI CHEAT CODES VOL. 8: swipe for 6 conversations worth thousands that most people wing, with the exact prompts to rehearse each one with AI \ud83e\udde0\n\nJob interviews where one bad answer costs the whole offer, sales calls where a weak pitch kills a deal worth months, salary negotiations most people lose before they sit down, firing someone without saying the wrong thing, investor pitches that bomb over one question nobody prepared for, and the hard conversation you've been avoiding that AI can rehearse with you until you get it right.\n\nMost people rehearse important conversations in their head. The ones using AI walk in having heard every objection first.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Anthropic, OpenAI, Reddit\n\n#AI #Productivity #CareerTips #BusinessGrowth #Entrepreneurship",
+ "pinned_comment": "Which one are you rehearsing tonight? Slide 7 is the one that hits different at 2am.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 <em>CONVERSATIONS WORTH THOUSANDS</em> TO PRACTICE WITH AI",
+   "6 <em>CONVERSATIONS</em> AI PREPARES YOU FOR IN 10 MINUTES",
+   "6 <em>SCARY CONVERSATIONS</em> YOU CAN REHEARSE WITH AI TONIGHT",
+   "6 <em>TALKS THAT COST THOUSANDS</em> WHEN YOU WING THEM",
+   "6 <em>CONVERSATIONS MOST PEOPLE BOMB</em> THAT AI FIXES"
+  ],
+  "scores": [
+   5,
+   3,
+   8,
+   7,
+   6
+  ],
+  "winner": 2,
+  "why": "SCARY CONVERSATIONS hits an instant nerve \u2014 everyone has a talk they're dreading and the word 'scary' names that feeling before you can scroll past it. TONIGHT makes it feel immediately useful, while runner-up [3]'s 'cost thousands' is a strong fear hook but feels like an ad; SCARY feels like a friend warning you."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)"
+}
