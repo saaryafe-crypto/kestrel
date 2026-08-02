@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 DECISION TRICKS FROM MUSK, BUFFETT AND BEZOS, <em>TURNED INTO AI PROMPTS ANYONE CAN PASTE INTO CHATGPT TONIGHT</em>",
+   "hsize": 72,
+   "gen_face": "elon-musk",
+   "gen_logo": "tesla",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) CUT EVERY STEP <em>YOUR BUSINESS DOESN'T NEED</em>",
+   "hsize": 105,
+   "body": "Musk tests every <b>Tesla</b> production step this way. \"Here is my business process: [describe it]. Go through every step. If removing it changes nothing, delete it permanently\"",
+   "media": "posts/2026-08-02-edu-5-billionaire-decision-frameworks-as-cop/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "2) KILL YOUR <em>20 BIGGEST DISTRACTIONS</em>",
+   "hsize": 115,
+   "body": "Buffett told his pilot: list <b>25 goals</b>, never touch anything outside the top <b>5</b>. \"Here are my priorities: [list]. Pick the 5 worth keeping. Tell me why the others are traps\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) ASK YOUR <em>80-YEAR-OLD SELF</em> WHAT TO DO",
+   "hsize": 105,
+   "body": "Bezos quit a <b>Wall Street</b> job at <b>30</b> using this exact question. \"I'm deciding whether to [decision]. Imagine I'm 80 looking back. Which choice would I regret more and why?\"",
+   "media": "posts/2026-08-02-edu-5-billionaire-decision-frameworks-as-cop/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "4) FIND EVERY WAY <em>YOUR BUSINESS COULD DIE</em>",
+   "hsize": 100,
+   "body": "Munger built <b>Berkshire Hathaway</b> by always asking what could kill it first. \"Don't tell me how to grow. List every way my business fails in <b>12 months</b>, ranked. Flip each into a fix\"",
+   "media": "posts/2026-08-02-edu-5-billionaire-decision-frameworks-as-cop/gen-4.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "5) TURN YOUR <em>WORST MISTAKE INTO A RULE</em>",
+   "hsize": 105,
+   "body": "Dalio built <b>Bridgewater</b> into the world's biggest fund using one habit: a written rule for every mistake. \"I keep making this mistake: [describe]. Turn it into a clear if-then rule I follow every time\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THESE BEFORE <em>YOUR NEXT BIG DECISION</em>",
+   "hsize": 88,
+   "body": "You'll want these prompts when you need them most. Daily AI news and real skills at <b>@yaffeai</b>",
+   "gen_face": "elon-musk",
+   "gen_logo": "tesla",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 decision tricks from the world's richest people, each turned into one AI prompt you can steal tonight \ud83e\udde0\n\nElon Musk's waste-cutting algorithm that runs every Tesla factory, Warren Buffett's 25/5 rule that kills the 20 goals distracting you, Jeff Bezos's regret test that decided Amazon's entire existence, Charlie Munger's inversion trick that finds every way your business could die before it happens, and Ray Dalio's mistake-to-rule system that powers the world's largest hedge fund.\n\nThese aren't motivational quotes. They're decision systems billionaires use, and AI runs them on your business in seconds. The edge isn't information anymore, it's knowing which question to ask.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Walter Isaacson biography, Berkshire Hathaway shareholder letters, Jeff Bezos interviews, Bridgewater Associates\n\n#AI #BusinessStrategy #Productivity #Entrepreneurship #AIPrompts",
+ "pinned_comment": "Which one are you trying first? The Munger one on slide 5 is the sleeper, most people skip inversion and then get blindsided.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "BILLIONAIRES SPENT DECADES PERFECTING 5 DECISION TRICKS. <em>AI LETS YOU COPY ALL OF THEM IN 5 MINUTES</em>",
+   "MUSK, BUFFETT AND BEZOS MADE BILLIONS USING 5 THINKING TRICKS THAT <em>AI NOW TURNS INTO PROMPTS YOU COPY FOR FREE</em>",
+   "YOU'RE MAKING EVERY DECISION THE HARD WAY. <em>5 BILLIONAIRE THINKING TRICKS AI NOW RUNS FOR YOU IN SECONDS</em>",
+   "5 THINKING TRICKS THAT BUILT MUSK, BUFFETT AND BEZOS'S FORTUNES, <em>EACH ONE NOW A SINGLE AI PROMPT YOU STEAL TONIGHT</em>",
+   "5 DECISION TRICKS FROM MUSK, BUFFETT AND BEZOS, <em>TURNED INTO AI PROMPTS ANYONE CAN PASTE INTO CHATGPT TONIGHT</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   7,
+   8,
+   9
+  ],
+  "winner": 4,
+  "why": "Paste into ChatGPT tonight is surgically specific \u2014 I know exactly what I'm getting and I can do it in the next five minutes, which makes swiping feel worth it. Candidate 3 has great steal-it energy but 'single AI prompt' is fuzzier than naming the actual tool I already have open on my phone."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "no-image"
+}
