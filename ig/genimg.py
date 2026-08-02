@@ -53,17 +53,25 @@ def _key():
     return None
 
 
-def _spend(cost=None):
-    """Month/day totals; with cost, records a new entry."""
+def _spend(cost=None, cover=False):
+    """Month total + per-lane day totals; with cost, records a new entry.
+
+    Lanes matter (issue #18 post-mortem, Aug 2): the gate used to compare
+    TOTAL day spend against the INNER cap, so every cover generated early in
+    the day ate the inner allowance and afternoon posts shipped text-only
+    inner slides. Entries now carry a "cover" flag; legacy entries without
+    one are classified by price (gpt high covers book $0.17)."""
     used = json.load(open(USED)) if os.path.exists(USED) else []
     if cost is not None:
-        used.append({"date": str(date.today()), "cost": cost})
+        used.append({"date": str(date.today()), "cost": cost, "cover": cover})
         json.dump(used, open(USED, "w"))
         return
     today = str(date.today())
     month = today[:7]
+    is_cover = lambda u: u.get("cover", u["cost"] >= 0.17)
     return (sum(u["cost"] for u in used if u["date"][:7] == month),
-            sum(u["cost"] for u in used if u["date"] == today))
+            sum(u["cost"] for u in used if u["date"] == today and not is_cover(u)),
+            sum(u["cost"] for u in used if u["date"] == today and is_cover(u)))
 
 
 def _get(url, key=None, timeout=60):
@@ -155,13 +163,14 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
     key = _key()
     if not key:
         return None
-    month, day = _spend()
+    month, day_inner, day_cover = _spend()
     # COVER-FIRST (owner Aug 1, Chrome-bugs post-mortem: the daily cap ran out
     # on inner slides of EARLIER posts, so a later post shipped a logo-on-dark
-    # cover — "terrible logo and without a cover photo"). The cover is the
-    # swipe decision: cover images ignore the daily cap and answer only to the
-    # monthly cap plus their own ceiling (10 covers/day > the posting schedule,
-    # so a cover is NEVER starved by inner-slide spend).
+    # cover — "terrible logo and without a cover photo"). Each lane answers
+    # only to its OWN daily ceiling (+ the monthly cap): covers can never be
+    # starved by inner spend, and inner slides can never be starved by cover
+    # spend (issue #18: total-vs-inner-cap comparison broke afternoon posts).
+    day = day_cover if cover else day_inner
     day_cap = COVER_DAY_BUDGET if cover else DAY_BUDGET
     # person route (Aug 2): high quality on covers, medium inside — owner pick
     quality = "high" if cover else "medium"
@@ -214,7 +223,7 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
                   "— skipping", file=sys.stderr)
             return None
         open(out_path, "wb").write(img)
-        _spend(cost)
+        _spend(cost, cover=cover)
         return out_path
     except Exception as e:
         print(f"genimg failed ({e})", file=sys.stderr)
