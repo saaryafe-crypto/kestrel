@@ -1,0 +1,10 @@
+Swipe to see the two hidden switches that control whether Google's AI reads your Gmail 📧
+
+Google turned on AI email scanning across every Gmail account by default, reading bank statements, tax files, medical letters, every attachment. The main off switch is under Settings → Smart features and personalization, but a second hidden switch lives under Manage Workspace smart feature settings and both must be turned off. Phone settings don't sync with desktop so you have to turn it off separately in the Gmail app. Gemini chat history may be reviewed by actual humans at Google, delete it at myactivity.google.com/product/gemini. A class-action lawsuit is forming and users are migrating sensitive emails to Proton Mail.
+
+When a company hides the real privacy switch behind a decoy, it's not a design flaw. The 8.1 million people who saw this can't unsee it.
+Running a business? DM us "AI" and we'll show you how to keep your client data out of systems you don't control
+
+Sources: @Ayzacoder on X
+
+#Gmail #GoogleAI #Privacy #DataProtection #EmailSecurity

@@ -1,0 +1,107 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "IF YOU HAVE GMAIL, <em>GOOGLE'S AI IS SCANNING YOUR BANK STATEMENTS, TAX FILES, AND MEDICAL LETTERS</em> RIGHT NOW WITHOUT YOUR PERMISSION",
+   "hsize": 58,
+   "media": "posts/2026-08-02-if-you-have-a-gmail-account-you-need-to-/gen-0.jpg",
+   "logos": [
+    "google"
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "GOOGLE FLIPPED ON AI EMAIL SCANNING <em>ACROSS EVERY GMAIL ACCOUNT WITHOUT TELLING ANYONE</em>",
+   "hsize": 82,
+   "body": "Google turned on a feature that lets its AI read every email in your inbox. <b>Bank statements</b>, <b>medical letters</b>, <b>tax filings</b>, all scanned by default with no warning",
+   "media": "posts/2026-08-02-if-you-have-a-gmail-account-you-need-to-/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "GOOGLE BURIED <em>A SECOND OFF SWITCH</em> IN A DIFFERENT MENU",
+   "hsize": 96,
+   "body": "There's a visible switch called <b>Smart features and personalization</b> and a second one buried under <b>Manage Workspace smart feature settings</b>. You need both off or nothing changes",
+   "media": "posts/2026-08-02-if-you-have-a-gmail-account-you-need-to-/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "YOUR PHONE <em>DIDN'T GET THE MESSAGE</em>",
+   "hsize": 114,
+   "body": "You turned everything off on your laptop. Google's AI kept reading through the <b>Gmail app in your pocket</b> because phone settings don't sync with desktop",
+   "media": "posts/2026-08-02-if-you-have-a-gmail-account-you-need-to-/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "A CLASS ACTION LAWSUIT <em>IS ALREADY FORMING</em>",
+   "hsize": 100,
+   "body": "If you've used Google's <b>Gemini</b> chatbot, those conversations can be reviewed by actual humans at Google. Delete them at <b>myactivity.google.com/product/gemini</b> and move sensitive emails to <b>Proton Mail</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EVERY CLIENT EMAIL IN YOUR GMAIL <em>IS BEING READ BY GOOGLE'S AI RIGHT NOW</em>",
+   "hsize": 80,
+   "body": "Your contracts, your client conversations, your invoices, all sitting in an inbox that Google's AI reads by default. Most business owners have no idea this is happening to their clients' data",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "FOLLOW NOW OR <em>THIS PAGE DISAPPEARS FROM YOUR FEED FOREVER</em>",
+   "hsize": 58,
+   "body": "Send this to the friend who still thinks they turned Google's email scanning off",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see the two hidden switches that control whether Google's AI reads your Gmail \ud83d\udce7\n\nGoogle turned on AI email scanning across every Gmail account by default, reading bank statements, tax files, medical letters, every attachment. The main off switch is under Settings \u2192 Smart features and personalization, but a second hidden switch lives under Manage Workspace smart feature settings and both must be turned off. Phone settings don't sync with desktop so you have to turn it off separately in the Gmail app. Gemini chat history may be reviewed by actual humans at Google, delete it at myactivity.google.com/product/gemini. A class-action lawsuit is forming and users are migrating sensitive emails to Proton Mail.\n\nWhen a company hides the real privacy switch behind a decoy, it's not a design flaw. The 8.1 million people who saw this can't unsee it.\nRunning a business? DM us \"AI\" and we'll show you how to keep your client data out of systems you don't control\n\nSources: @Ayzacoder on X\n\n#Gmail #GoogleAI #Privacy #DataProtection #EmailSecurity",
+ "pinned_comment": "Be honest: if switching off Gmail meant losing 10 years of emails and your entire Google account, would you actually do it or just live with the scanning?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "YOU TURNED OFF GOOGLE'S AI EMAIL SCANNING AND THOUGHT YOU WERE SAFE. <em>THERE'S A SECOND HIDDEN SWITCH YOU NEVER SAW</em>",
+   "GOOGLE'S AI IS READING YOUR ENTIRE GMAIL RIGHT NOW AND EVEN IF YOU FIND THE OFF SWITCH <em>THERE'S A SECOND HIDDEN ONE</em>",
+   "GOOGLE'S AI IS READING YOUR BANK STATEMENTS AND MEDICAL LETTERS IN GMAIL, <em>THEY BUILT AN OFF SWITCH THEN HID A SECOND ONE BEHIND IT</em>",
+   "GOOGLE'S AI IS READING YOUR GMAIL RIGHT NOW INCLUDING YOUR BANK STATEMENTS AND <em>ACTUAL HUMANS CAN REVIEW YOUR GEMINI CHATS</em>",
+   "GOOGLE QUIETLY LET AI READ <em>EVERY EMAIL IN YOUR GMAIL</em> AND A CLASS ACTION LAWSUIT IS ALREADY FORMING",
+   "GOOGLE IS FACING A CLASS-ACTION LAWSUIT FOR LETTING AI SCAN <em>EVERY PRIVATE EMAIL IN YOUR GMAIL</em> WITHOUT YOUR PERMISSION",
+   "IF YOU HAVE GMAIL, <em>GOOGLE'S AI IS SCANNING YOUR BANK STATEMENTS, TAX FILES, AND MEDICAL LETTERS</em> RIGHT NOW WITHOUT YOUR PERMISSION",
+   "GOOGLE'S AI SCANS EVERY EMAIL IN YOUR GMAIL BY DEFAULT AND <em>TURNING IT OFF ON YOUR PHONE DOESN'T TURN IT OFF ON DESKTOP</em>",
+   "GOOGLE JUST TURNED ON AN AI THAT READS YOUR <em>BANK STATEMENTS, MEDICAL LETTERS, AND TAX FILES</em> IN GMAIL WITHOUT ASKING YOU",
+   "GOOGLE'S AI IS READING <em>EVERY EMAIL IN YOUR GMAIL</em> AND EVEN IF YOU TURNED IT OFF ON YOUR LAPTOP IT'S STILL RUNNING ON YOUR PHONE"
+  ],
+  "scores": [
+   8,
+   7,
+   8,
+   7,
+   6,
+   7,
+   9,
+   6,
+   8,
+   7
+  ],
+  "winner": 6,
+  "why": "\"IF YOU HAVE GMAIL\" hits you personally in the first three words, then lands all three specific private content types \u2014 bank statements, tax files, medical letters \u2014 before closing with RIGHT NOW WITHOUT YOUR PERMISSION, which makes it impossible to keep scrolling. Candidate 2 is clever with the 'built an off switch then hid a second one' deception frame, but it never names what they're actually reading, so the visceral gut-punch isn't there."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Google",
+  "actor_known": true,
+  "anchor": "Google",
+  "specifics": [
+   "Google's AI scans your bank statements, tax files, and medical letters in Gmail \u2014 turned on by default",
+   "There's a hidden second switch most people never find, so you think you turned it off but you didn't",
+   "Phone settings don't sync with desktop \u2014 you have to turn it off separately in the Gmail app",
+   "Gemini chat history may be reviewed by actual humans \u2014 delete at myactivity.google.com",
+   "8.1M views, class-action lawsuit filed"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "If you have a Gmail account, you need to read this. Google's AI now scans your emails and attachments, bank statements, tax files, medical letters, all of it. It turned on by default, and there's a class-action lawsuit o",
+  "link": "https://x.com/Ayzacoder/status/2083495849892712864",
+  "judge_interest": 8,
+  "scout_score": 165.0
+ }
+}
