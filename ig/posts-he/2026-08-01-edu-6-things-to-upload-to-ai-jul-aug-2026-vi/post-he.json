@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 דברים שהעלו ל-AI, <em>והוא תפס מה שהם לא</em>",
+   "hsize": 74,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>תדביקו את החשבון מבית חולים</em>",
+   "hsize": 118,
+   "body": "הוא הדביק חשבון של <b>$1,200</b> מבית חולים ל-Claude. החשבון ירד ל-<b>$180</b>. \"הנה החשבון הרפואי שלי. תמצא כל חיוב מוגזם ותכתוב לי מכתב ערעור לפי מחירי שוק הוגנים\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>תצלמו את הסלון</em>",
+   "hsize": 120,
+   "body": "היא העלתה תמונה אחת של הסלון. ChatGPT החזיר <b>עיצוב מלא מחדש ורשימת קניות מתחת ל-$500</b>. \"הנה הסלון שלי. תעצב אותו מחדש, מודרני מינימליסטי, תרשום מה לקנות, הכל מתחת ל-$500\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>תכניסו את מודעת הדרושים</em>",
+   "hsize": 112,
+   "body": "הוא נתן ל-Claude מודעת דרושים. Claude הריץ לו <b>ראיונות עבודה מדומים</b> עם ביקורות אמיתיות. <b>הוא קיבל את העבודה</b>. \"הנה המשרה וקורות החיים שלי. תראיין אותי שאלה אחרי שאלה, תבקר כל תשובה\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>תצלמו מה שרוצים למכור</em>",
+   "hsize": 95,
+   "body": "היא צילמה <b>דברים שאוספים אבק</b>. ChatGPT תמחר, כתב מודעות וניסח <b>תגובות להצעות מחיר נמוכות</b>. \"הנה דברים שאני רוצה למכור. תתמחר כל אחד, תכתוב מודעה ותנסח תגובות להצעות נמוכות\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>תנו ל-AI את המצגת</em>",
+   "hsize": 120,
+   "body": "היא מעלה את המצגת לפני כל פגישה. Claude <b>חוזה בדיוק את השאלות</b> שהבוס ישאל. \"הנה המצגת שלי. תהיה הבוס הכי קשוח שלי, תרשום כל שאלה שהיית שואל, הקשות קודם\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>תסרקו את החוזה הבא</em>",
+   "hsize": 118,
+   "body": "פרילנסר מעלה כל חוזה לפני שהוא חותם. Claude <b>מסמן עמלות נסתרות ומלכודות</b>. \"הנה חוזה שאני עומד לחתום עליו. תסמן כל דבר שעלול לעלות לי כסף או לנעול אותי\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה</em>",
+   "hsize": 80,
+   "body": "הפרומפטים האלה יחכו לכם כשתצטרכו. שמרו את הפוסט. אנחנו משתפים <b>טיפים יומיים על AI</b> שאפשר להשתמש בהם כבר הערב",
+   "media": null
+  }
+ ],
+ "caption": "6 דברים להעלות ל-AI שחוסכים כסף, משיגים עבודה ותופסים מלכודות שאף אחד לא קורא 📱\n\nחשבון בית חולים של $1,200 שירד ל-$180 בהעלאה אחת, תמונת סלון שהפכה לעיצוב מקצועי עם רשימת קניות מתחת ל-$500, מודעת דרושים שהפכה לאימון ראיון והוא קיבל את העבודה, צילומים של דברים שאוספים אבק שהפכו למודעות מתומחרות עם תגובות למתמקחים, מצגת שחזתה בדיוק מה הבוס ישאל, וחוזה שנסרק לעמלות נסתרות לפני חתימה.\n\nרוב האנשים מקלידים מילים ל-AI. אלה שבאמת חוסכים כסף מעלים חשבונות, תמונות וחוזים אמיתיים. כל פרומפט פה עובד הערב, בחינם, ב-ChatGPT או Claude.\nיש לכם עסק? שלחו לנו DM עם \"AI\" ונראה לכם מה זה יכול לעשות בשבילכם\n\nמקורות: Anthropic, OpenAI, Reddit\n\nעקבו אחרי @ainews.israel לטיפים יומיים על AI\n\n#AI #ChatGPT #ArtificialIntelligence #Productivity #MoneyTips",
+ "pinned_comment": "איזה מהם אתם מנסים הערב? סלייד 6 הוא ההפתעה, רוב האנשים אף פעם לא חושבים להעלות את המצגת לפני פגישה.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 UPLOADS THAT <em>SAVED PEOPLE THOUSANDS</em>",
+   "<em>NOBODY UPLOADS</em> THESE 6 THINGS TO AI",
+   "6 THINGS TO <em>UPLOAD TO AI</em> TONIGHT",
+   "<em>EVERYONE IS UPLOADING</em> THESE 6 THINGS TO AI",
+   "6 UPLOADS THAT <em>CAUGHT THINGS HUMANS MISSED</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   4,
+   5,
+   9
+  ],
+  "winner": 4,
+  "why": "\"Caught things humans missed\" implies a real discovery — AI found an error a person overlooked, which is visceral and slightly unsettling in a way that demands a swipe. [0] is solid but \"saved thousands\" is a tired financial-tip frame; \"caught things humans missed\" is a specific dramatic claim I haven't heard a hundred times."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "no-image"
+}
