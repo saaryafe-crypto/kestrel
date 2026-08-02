@@ -1,0 +1,128 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "כיבית את סריקת ה-AI של Google במחשב? <em>בטלפון היא עדיין דלוקה</em>, וה-AI ממשיך לקרוא דפי בנק ומסמכי מס ב-Gmail שלך",
+   "hsize": 58,
+   "media": "posts/2026-08-02-if-you-have-a-gmail-account-you-need-to-/gen-0.jpg",
+   "logos": [
+    "google"
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "גוגל הפעילה סריקת AI <em>על כל חשבון Gmail בלי להגיד לאף אחד</em>",
+   "hsize": 82,
+   "body": "גוגל הפעילה פיצ'ר שנותן ל-AI שלה לקרוא כל מייל בתיבה שלך. <b>דפי בנק</b>, <b>מכתבים רפואיים</b>, <b>דוחות מס</b>, הכל נסרק אוטומטית בלי שום אזהרה",
+   "media": "posts/2026-08-02-if-you-have-a-gmail-account-you-need-to-/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "גוגל קברה <em>כפתור כיבוי שני</em> בתפריט אחר",
+   "hsize": 96,
+   "body": "יש כפתור גלוי שנקרא <b>Smart features and personalization</b> ועוד אחד קבור תחת <b>Manage Workspace smart feature settings</b>. צריך לכבות את שניהם, אחרת שום דבר לא משתנה",
+   "media": "posts/2026-08-02-if-you-have-a-gmail-account-you-need-to-/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הטלפון שלך <em>לא קיבל את ההודעה</em>",
+   "hsize": 114,
+   "body": "כיבית הכל בלפטופ. ה-AI של גוגל המשיך לקרוא דרך <b>אפליקציית Gmail בכיס שלך</b> כי ההגדרות בטלפון לא מסתנכרנות עם המחשב",
+   "media": "posts/2026-08-02-if-you-have-a-gmail-account-you-need-to-/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "תביעה ייצוגית <em>כבר בדרך</em>",
+   "hsize": 100,
+   "body": "אם השתמשת ב-<b>Gemini</b> של גוגל, בני אדם אמיתיים בגוגל יכולים לקרוא את השיחות שלך. תמחק אותן ב-<b>myactivity.google.com/product/gemini</b> ותעביר מיילים רגישים ל-<b>Proton Mail</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ה-AI של גוגל <em>קורא עכשיו כל מייל של לקוח ב-Gmail שלך</em>",
+   "hsize": 80,
+   "body": "החוזים שלך, השיחות עם הלקוחות, החשבוניות, הכול יושב בתיבה שה-AI של גוגל קורא אוטומטית. רוב בעלי העסקים בכלל לא יודעים שזה קורה למידע של הלקוחות שלהם",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "תעקבו עכשיו או ש<em>העמוד הזה נעלם לכם מהפיד לתמיד</em>",
+   "hsize": 58,
+   "body": "תשלחו את זה לחבר שעדיין חושב שהוא כיבה את הסריקה של גוגל",
+   "media": null
+  }
+ ],
+ "caption": "החליקו כדי למצוא את שני הכפתורים המוסתרים שקובעים אם ה-AI של גוגל קורא לכם את ה-Gmail 📧\n\nגוגל הפעילה סריקת AI על כל חשבון Gmail אוטומטית. ה-AI קורא דפי בנק, דוחות מס, מכתבים רפואיים, כל קובץ מצורף. כפתור הכיבוי הראשי נמצא תחת Smart features and personalization בהגדרות, אבל יש כפתור מוסתר שני תחת Manage Workspace smart feature settings, וצריך לכבות את שניהם. ההגדרות בטלפון לא מסתנכרנות עם המחשב, אז צריך לכבות בנפרד באפליקציית Gmail. בני אדם אמיתיים בגוגל יכולים לקרוא שיחות Gemini שלכם, תמחקו אותן ב-myactivity.google.com/product/gemini. תביעה ייצוגית כבר בדרך, ומשתמשים מעבירים מיילים רגישים ל-Proton Mail.\n\nכשחברה מסתירה את כפתור הפרטיות האמיתי מאחורי כפתור מדומה, זו לא טעות עיצוב. 8.1 מיליון אנשים כבר ראו את זה. אי אפשר להתעלם.\nיש לכם עסק? שלחו לנו הודעה עם המילה \"AI\" ונראה לכם איך לשמור על המידע של הלקוחות שלכם מחוץ למערכות שאתם לא שולטים בהן\n\nמקורות: @Ayzacoder on X\n\nעקבו ← @ainews.israel\n\n#Gmail #GoogleAI #Privacy #DataProtection #EmailSecurity",
+ "pinned_comment": "תגידו ת'אמת: אם לעזוב את Gmail זה אומר לאבד 10 שנים של מיילים ואת כל חשבון הגוגל שלכם, הייתם באמת עוזבים או פשוט חיים עם הסריקה?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "YOU TURNED OFF GOOGLE'S AI EMAIL SCANNING AND THOUGHT YOU WERE SAFE. <em>THERE'S A SECOND HIDDEN SWITCH YOU NEVER SAW</em>",
+   "GOOGLE'S AI IS READING YOUR ENTIRE GMAIL RIGHT NOW AND EVEN IF YOU FIND THE OFF SWITCH <em>THERE'S A SECOND HIDDEN ONE</em>",
+   "GOOGLE'S AI IS READING YOUR BANK STATEMENTS AND MEDICAL LETTERS IN GMAIL, <em>THEY BUILT AN OFF SWITCH THEN HID A SECOND ONE BEHIND IT</em>",
+   "GOOGLE'S AI IS READING YOUR GMAIL RIGHT NOW INCLUDING YOUR BANK STATEMENTS AND <em>ACTUAL HUMANS CAN REVIEW YOUR GEMINI CHATS</em>",
+   "GOOGLE QUIETLY LET AI READ <em>EVERY EMAIL IN YOUR GMAIL</em> AND A CLASS ACTION LAWSUIT IS ALREADY FORMING",
+   "GOOGLE IS FACING A CLASS-ACTION LAWSUIT FOR LETTING AI SCAN <em>EVERY PRIVATE EMAIL IN YOUR GMAIL</em> WITHOUT YOUR PERMISSION",
+   "IF YOU HAVE GMAIL, <em>GOOGLE'S AI IS SCANNING YOUR BANK STATEMENTS, TAX FILES, AND MEDICAL LETTERS</em> RIGHT NOW WITHOUT YOUR PERMISSION",
+   "GOOGLE'S AI SCANS EVERY EMAIL IN YOUR GMAIL BY DEFAULT AND <em>TURNING IT OFF ON YOUR PHONE DOESN'T TURN IT OFF ON DESKTOP</em>",
+   "GOOGLE JUST TURNED ON AN AI THAT READS YOUR <em>BANK STATEMENTS, MEDICAL LETTERS, AND TAX FILES</em> IN GMAIL WITHOUT ASKING YOU",
+   "GOOGLE'S AI IS READING <em>EVERY EMAIL IN YOUR GMAIL</em> AND EVEN IF YOU TURNED IT OFF ON YOUR LAPTOP IT'S STILL RUNNING ON YOUR PHONE"
+  ],
+  "scores": [
+   8,
+   7,
+   8,
+   7,
+   6,
+   7,
+   9,
+   6,
+   8,
+   7
+  ],
+  "winner": 6,
+  "why": "\"IF YOU HAVE GMAIL\" hits you personally in the first three words, then lands all three specific private content types — bank statements, tax files, medical letters — before closing with RIGHT NOW WITHOUT YOUR PERMISSION, which makes it impossible to keep scrolling. Candidate 2 is clever with the 'built an off switch then hid a second one' deception frame, but it never names what they're actually reading, so the visceral gut-punch isn't there."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Google",
+  "actor_known": true,
+  "anchor": "Google",
+  "specifics": [
+   "Google's AI scans your bank statements, tax files, and medical letters in Gmail — turned on by default",
+   "There's a hidden second switch most people never find, so you think you turned it off but you didn't",
+   "Phone settings don't sync with desktop — you have to turn it off separately in the Gmail app",
+   "Gemini chat history may be reviewed by actual humans — delete at myactivity.google.com",
+   "8.1M views, class-action lawsuit filed"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "If you have a Gmail account, you need to read this. Google's AI now scans your emails and attachments, bank statements, tax files, medical letters, all of it. It turned on by default, and there's a class-action lawsuit o",
+  "link": "https://x.com/Ayzacoder/status/2083495849892712864",
+  "judge_interest": 8,
+  "scout_score": 165.0
+ },
+ "hook_tournament_he": {
+  "story_type": "threat",
+  "candidates": [
+   "יש כבר תביעה ייצוגית נגד Google כי ה-AI שלהם סורק את <em>דפי הבנק והמכתבים הרפואיים שלך</em> ב-Gmail, בלי שביקשו רשות",
+   "חשבת שכיבית את סריקת המיילים של Google, <em>אבל יש מתג שני נסתר</em>, ה-AI שלהם עדיין קורא את דפי הבנק שלך",
+   "ה-AI של Google סורק עכשיו את כל המיילים שלך ב-Gmail, <em>דפי בנק, מסמכי מס ומכתבים רפואיים</em>, נדלק לבד בלי לשאול",
+   "יש לך Gmail? <em>ה-AI של גוגל סורק עכשיו את דפי הבנק, דוחות המס והמכתבים הרפואיים שלך</em> בלי שביקשו ממך",
+   "כיבית את סריקת ה-AI של Google במחשב? <em>בטלפון היא עדיין דלוקה</em>, ה-AI ממשיך לקרוא דפי בנק ומסמכי מס ב-Gmail שלך",
+   "<em>עובדים אמיתיים ב-Google קוראים את הצ'אטים שלך עם Gemini</em>, וה-AI סורק את כל המיילים שלך ב-Gmail כולל דפי בנק"
+  ],
+  "scores": [
+   7,
+   8,
+   6,
+   7,
+   9,
+   7
+  ],
+  "winner": 4,
+  "why": "קנדידט 4 מכוון ישירות לאנשים שכבר ניסו להגן על עצמם — ה'עשית את הדבר הנכון ועדיין נחשפת' מייצר פאניקה מיידית שאי אפשר להתעלם ממנה. קנדידט 1 עם המתג הנסתר קרוב, אבל 4 ספציפי יותר (טלפון לעומת מחשב) ולכן מרגיש כמו חשיפה אמיתית ולא רמז מסתורי."
+ }
+}
