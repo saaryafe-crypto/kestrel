@@ -1,0 +1,122 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>1,000 PEOPLE</em> ASKED AI FOR MONEY ADVICE AND IT BEAT WHAT MOST OF THEM DO ALONE, THEN SOMEONE GOT FIRED AND <em>IT DIDN'T NOTICE</em>",
+   "hsize": 62,
+   "kicker": "TESTED FROM AGE 22 TO 89",
+   "media": "posts/2026-08-02-ai-financial-advice-is-surprisingly-good/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "<em>1,000 ADULTS ASKED A CHATBOT</em> FOR MONEY ADVICE AND MIT TRACKED EVERY DOLLAR",
+   "hsize": 82,
+   "body": "No scripts, no coaching. MIT tested <b>GPT-5.2</b>, <b>GPT-5.6</b>, and <b>Gemini 3 Flash</b> on real adults writing their own questions. Researchers simulated following that advice from <b>age 22 all the way to 89</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE AI <em>BUILT BIGGER SAVINGS</em> THAN MOST PEOPLE MANAGE ON THEIR OWN",
+   "hsize": 88,
+   "body": "For virtually everyone above <b>age 30</b>, the AI built real savings cushions. Same advice every time: save while you work, put money in <b>a broad mix of stocks</b>, pull back after <b>45</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THEN SOMEONE <em>LOST THEIR JOB</em> AND THE AI KEPT GOING LIKE NOTHING HAPPENED",
+   "hsize": 80,
+   "body": "Someone gets laid off and opens a chatbot at <b>midnight</b>. The AI tells them to <b>stay in stocks</b>, never moves a dollar to safety. The one moment you'd beg a robot for help",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "A CHATBOT NOW <em>DOES YOUR ADVISOR'S JOB FOR FREE</em>",
+   "hsize": 96,
+   "body": "A chatbot gives that exact advice for <b>free</b> and does it better. The best money advisor most people will ever talk to is a robot that <b>falls apart the second their life does</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>HALF YOUR CUSTOMERS ALREADY ASK AI</em> BEFORE THEY CALL YOU",
+   "hsize": 90,
+   "body": "They're not waiting for your callback. MIT just proved a chatbot handles routine questions <b>better than most humans</b> and answers in seconds. One setup, no hiring, runs while you sleep",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "FOLLOW NOW OR <em>YOU'LL NEVER FIND THIS PAGE AGAIN</em>",
+   "hsize": 58,
+   "body": "Send this to the friend who still pays someone to tell them to save more",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see what MIT found when they tested AI money advice on 1,000 real people over a full lifetime \ud83d\udcb0\n\nMIT researcher Taha Choukhmane tested GPT-5.2, GPT-5.6, and Gemini 3 Flash on 1,000 adults writing their own financial questions, simulated people following the advice from age 22 to 89, found AI built sizable savings buffers for virtually everyone above 30, consistently advised saving during working years and investing in a broad mix of stocks, reducing stock exposure after 45, but failed to adjust when someone lost their job and let investments drift without rebalancing even with structured prompts\n\nHalf of Americans already ask AI for money advice. The routine guidance advisors charge for is now free. The only edge left for humans is handling the crises a chatbot can't navigate.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: MIT Sloan School of Management\n\n#AI #Finance #MoneyAdvice #Technology #Investing",
+ "pinned_comment": "Would you trust a chatbot with your retirement? Half of you already do. And most of you are getting better advice than your cousin's financial advisor",
+ "hook_tournament": {
+  "story_type": "money_win",
+  "candidates": [
+   "AI JUST TOLD EVERYONE THE SAME THING: <em>SAVE HARD, BUY STOCKS, AND PULL BACK AFTER 45</em> \u2014 AND MIT SAYS IT'S RIGHT",
+   "YOUR FINANCIAL ADVISOR'S BEST ADVICE IS NOW FREE. <em>MIT JUST PROVED A CHATBOT DOES IT BETTER UNTIL YOUR LIFE FALLS APART</em>",
+   "MIT JUST PROVED <em>AI GIVES BETTER MONEY ADVICE THAN MOST HUMANS</em> BUT IT COMPLETELY CHOKES WHEN YOU LOSE YOUR JOB",
+   "AN MIT STUDY JUST FOUND AI BUILDS <em>BIGGER SAVINGS FOR VIRTUALLY EVERYONE OVER 30</em>, BUT IT PANICS WHEN YOU LOSE YOUR JOB",
+   "AI PASSED MIT'S MONEY ADVICE TEST ON 1,000 PEOPLE, <em>THEN TOLD A LAID OFF WORKER TO STAY IN STOCKS</em>",
+   "HALF OF AMERICANS ASK AI FOR MONEY ADVICE. <em>MIT JUST PROVED IT WORKS BETTER THAN MOST HUMANS UNTIL YOU LOSE YOUR JOB</em>",
+   "<em>1,000 PEOPLE ASKED AI FOR MONEY ADVICE</em> OVER A LIFETIME AND IT BEAT HUMANS UNTIL ONE GOT FIRED",
+   "MIT JUST TESTED AI FINANCIAL ADVICE ON <em>1,000 REAL PEOPLE AGES 22 TO 89</em> AND IT BEAT WHAT MOST OF THEM WOULD DO ON THEIR OWN",
+   "MIT TESTED GPT AND GEMINI AS FINANCIAL ADVISORS AND THEY GAVE <em>BETTER ADVICE THAN MOST AMERICANS FOLLOW</em> \u2014 UNTIL SOMETHING WENT WRONG",
+   "HALF OF AMERICANS ARE ALREADY ASKING AI FOR MONEY ADVICE, AND AN MIT STUDY JUST PROVED <em>IT ACTUALLY WORKS BETTER THAN GOING ALONE</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   8,
+   9,
+   0,
+   8,
+   5,
+   5,
+   6,
+   5
+  ],
+  "winner": 3,
+  "why": "'Virtually everyone over 30' makes the payoff personal and checkable \u2014 I immediately ask if I qualify \u2014 while 'panics when you lose your job' is visceral and specific enough to feel real. Runner-up [2] hits harder on the failure with 'completely chokes' but skips the concrete benefit that makes me care enough to swipe in the first place."
+ },
+ "hook_sharpen": {
+  "story_type": "money_win",
+  "candidates": [
+   "A CHATBOT JUST BEAT <em>1,000 PEOPLE AT MANAGING THEIR OWN MONEY</em> \u2014 MIT TRACKED EVERY DOLLAR AND <em>IT ONLY BROKE WHEN SOMEONE GOT FIRED</em>",
+   "<em>1,000 PEOPLE</em> ASKED AI FOR MONEY ADVICE AND IT BEAT WHAT MOST OF THEM DO ALONE \u2014 THEN SOMEONE GOT FIRED AND <em>IT DIDN'T NOTICE</em>",
+   "AN MIT STUDY JUST FOUND AI BUILDS <em>BIGGER SAVINGS FOR VIRTUALLY EVERYONE OVER 30</em>, BUT IT PANICS WHEN YOU LOSE YOUR JOB",
+   "HALF OF AMERICANS ALREADY ASK AI FOR MONEY ADVICE \u2014 <em>MIT JUST PROVED IT WORKS BETTER THAN YOU</em>, BUT IT CHOKES WHEN YOU GET FIRED"
+  ],
+  "scores": [
+   0,
+   7,
+   0,
+   0
+  ],
+  "winner": 1,
+  "why": "Candidates 0, 2, and 3 all claim 'MIT' ran or tracked this study \u2014 that's not in the facts, instant kill. Candidate 1 is the only one that survives: it delivers the whole story in two punches (AI beat 1,000 real people \u2192 then choked on a firing), and 'it didn't notice' lands like a twist that makes you want the full breakdown."
+ },
+ "viral": {
+  "story_type": "money_win",
+  "actor": "MIT",
+  "actor_known": true,
+  "anchor": "MIT",
+  "specifics": [
+   "Half of Americans already using AI for financial advice",
+   "AI advice creates sizable saving buffers for virtually all individuals above age 30",
+   "Tested GPT-5.2, GPT-5.6, and Gemini 3 Flash on 1,000 adults writing their own prompts, simulated ages 22 to 89",
+   "AI consistently advised: save during working years, invest in diversified stocks, reduce stock exposure after 45",
+   "AI failed at handling shocks like unemployment and let portfolios drift without rebalancing"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+  "link": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+  "judge_interest": 7,
+  "scout_score": 81.2
+ }
+}

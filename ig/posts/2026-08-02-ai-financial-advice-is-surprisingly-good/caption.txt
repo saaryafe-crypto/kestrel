@@ -1,0 +1,10 @@
+Swipe to see what MIT found when they tested AI money advice on 1,000 real people over a full lifetime 💰
+
+MIT researcher Taha Choukhmane tested GPT-5.2, GPT-5.6, and Gemini 3 Flash on 1,000 adults writing their own financial questions, simulated people following the advice from age 22 to 89, found AI built sizable savings buffers for virtually everyone above 30, consistently advised saving during working years and investing in a broad mix of stocks, reducing stock exposure after 45, but failed to adjust when someone lost their job and let investments drift without rebalancing even with structured prompts
+
+Half of Americans already ask AI for money advice. The routine guidance advisors charge for is now free. The only edge left for humans is handling the crises a chatbot can't navigate.
+Running a business? DM us "AI" and we'll show you what this could do for yours
+
+Sources: MIT Sloan School of Management
+
+#AI #Finance #MoneyAdvice #Technology #Investing
