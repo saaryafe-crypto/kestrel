@@ -1,0 +1,82 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 פרומפטים ל-AI <em>שהתפוצצו השבוע</em> אחרי שבחור הוריד <em>חשבון בית חולים מ-$1,200 ל-$180</em>",
+   "hsize": 68,
+   "media": "posts/2026-08-02-edu-6-ai-prompts-that-went-viral-this-week-b/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) תדביקו את החשבון <em>ותנו ל-AI להילחם</em>",
+   "body": "הוא הכניס חשבון בית חולים של <b>$1,200</b> ל-Claude. <b>ירד ל-$180</b>. 'הנה החשבון הרפואי שלי. תמצא כל חיוב מנופח, תציין את התעריפים הנכונים ותכתוב מכתב ערעור רשמי'",
+   "hsize": 108,
+   "media": "posts/2026-08-02-edu-6-ai-prompts-that-went-viral-this-week-b/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "2) תריצו ראיון אימון <em>שחוזה את האמיתי</em>",
+   "body": "הוא הזין ל-Claude את מודעת המשרה. <b>הראיון האמיתי הרגיש כמו שידור חוזר. הוא התקבל</b>. 'הנה תיאור המשרה והרקע שלי. תראיין אותי שאלה אחרי שאלה ואז תבקר את התשובות שלי'",
+   "hsize": 100,
+   "media": "posts/2026-08-02-edu-6-ai-prompts-that-went-viral-this-week-b/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>תמכרו את הדברים שלכם</em> בזמן שאתם ישנים",
+   "body": "תמחור, מודעה ומשא ומתן: <b>פרומפט אחד עושה את שלושתם</b>. 'הנה תמונות של דברים שאני רוצה למכור. תתמחר כל פריט בהוגנות, תכתוב מודעה לכל אחד ותנסח תשובות להצעות נמוכות'",
+   "hsize": 114,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>תחזו כל שאלה</em> שהבוס ישאל אתכם",
+   "body": "הוא הריץ את זה לפני כל פגישה. <b>הפגישה האמיתית הרגישה כאילו כתבו לה תסריט</b>. 'אתה VP סקפטי. הנה המצגת שלי. תפרט כל שאלה שהיית שואל ומה יהפוך כל תשובה לחלשה'",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) תעצבו מחדש <em>כל חדר מתמונה אחת</em>",
+   "body": "היא צילמה תמונה אחת. קיבלה <b>עיצוב מלא ורשימת קניות עד $500</b>. 'הנה החדר שלי. תעצב אותו מחדש כמו מעצב פנים ותיתן לי רשימת קניות, עד $500'",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>תבדקו את העבודה</em> לפני שמישהו אחר יספיק",
+   "body": "הוא הפריד בין החיפוש לשיפוט. <b>הוא תפס כל טענה חלשה לפני שהלקוחות ראו</b>. 'הנה הטיוטה שלי. תסמן כל טענה לא מבוססת ותפרט מה צריך לאמת לפני שאני מציג'",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>תשמרו את הפוסט</em> ליום שתצטרכו",
+   "body": "הפרומפטים האלה יחכו לכם בפעם הבאה שתקבלו חשבון, פגישה או מודעה לכתוב. אנחנו משתפים כאלה כל שבוע. <b>עקבו אחרי @ainews.israel</b> לחדשות AI יומיות וכלים אמיתיים",
+   "hsize": 105,
+   "media": null
+  }
+ ],
+ "caption": "סווייפו ל-6 פרומפטים ל-AI שהפכו ויראליים השבוע, כי אנשים באמת בדקו אותם והם עבדו 🔥\n\nפרומפט שהוריד חשבון בית חולים מ-$1,200 ל-$180, פרומפט ראיון אימון שגרם לאמיתי להרגיש כמו חזרה, פרומפט שמתמחר ומפרסם את הדברים שלכם ועונה למי שמציע נמוך, פרומפט הכנה לפגישות שחוזה בדיוק מה הבוס ישאל, פרומפט עיצוב שמשדרג כל חדר מתמונה אחת עם רשימת קניות עד $500, ופרומפט ביקורת שתופס כל טענה חלשה לפני שמישהו אחר קורא.\n\nאלה לא טריקים. אלה פרומפטים אמיתיים שאלפי אנשים בדקו השבוע. הכלים בחינם. הגרסה היקרה זה המומחה שעשה את אותה עבודה עד עכשיו.\nמנהלים עסק? שלחו לנו DM עם \"AI\" ונראה לכם מה זה יכול לעשות בשבילכם.\n\nמקורות: Anthropic, OpenAI, Reddit\n\nעקבו אחרי @ainews.israel לעוד תוכן כזה כל יום\n\n#AI #ArtificialIntelligence #Productivity #TechTips #SmallBusiness",
+ "pinned_comment": "איזה פרומפט אתם מנסים הערב? הפרומפט של החשבון בשקף 2 מביא את התוצאות הכי מטורפות, אבל שקף 5 זה ההפתעה למי שיש לו פגישות השבוע.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR DOCTOR, YOUR INTERVIEWER, AND YOUR REAL ESTATE AGENT <em>ALL LOST TO THE SAME 6 AI PROMPTS</em> THIS WEEK",
+   "<em>THOUSANDS OF PEOPLE TESTED THESE 6 AI PROMPTS</em> THIS WEEK AND <em>EVERY SINGLE ONE ACTUALLY WORKED</em>",
+   "6 AI PROMPTS <em>BLEW UP THIS WEEK</em> AFTER A GUY USED ONE TO CUT HIS <em>$1,200 HOSPITAL BILL TO $180</em>",
+   "6 PROMPTS ARE QUIETLY <em>SPREADING THROUGH AI COMMUNITIES</em> RIGHT NOW. EACH ONE DOES A <em>$200/HOUR JOB FOR FREE</em>",
+   "6 AI PROMPTS WENT VIRAL BECAUSE <em>NORMAL PEOPLE ACTUALLY TRIED THEM</em>. ONE SLASHED A <em>$1,200 BILL TO $180</em>"
+  ],
+  "scores": [
+   7,
+   4,
+   8,
+   6,
+   7
+  ],
+  "winner": 2,
+  "why": "The $1,200-to-$180 hospital bill is a complete micro-story with real numbers that makes you instantly believe it happened — you're swiping for the how, not to find out if. [0] is clever but 'lost to' is vague enough that your brain has to do work before it decides to care."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education"
+}
