@@ -196,7 +196,10 @@ def main():
             path = genimg.generate(brief, os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg"),
                                    cover=(s["type"] == "cover"))
             if not path:
-                break
+                # keep trying: one flaky prediction must not forfeit the cover
+                # (Aug 2 bare cover, issue #16); budget-out retries are free
+                # local no-ops so continue is safe either way
+                continue
             ok, score, flaw = image_score(path, s["headline"], generated=True)
             if ok:
                 s["media"] = os.path.relpath(path, HERE)

@@ -162,6 +162,9 @@ def generate(brief, out_path, refs=None, cover=False):
     try:
         img = _call(key, prompt, refs=live_refs or None)
         if not img:
+            # was silent — the Aug 2 bare-cover post-mortem couldn't see WHY
+            print("genimg: model returned no image (failed/flagged prediction) "
+                  "— skipping", file=sys.stderr)
             return None
         open(out_path, "wb").write(img)
         _spend(COST)
