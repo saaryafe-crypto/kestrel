@@ -10,24 +10,36 @@ devices PLUS a short readable screen phrase, Seedream's two strengths.
 Near-NB2 quality at $0.03/img (NB2 $0.067 rejected on price; FLUX.2 dev
 $0.015 loses the screen-text craft).
 
-Hard budget guard (owner cap: $9/month, raised from $5 on Jul 28 — "nine
-dollars is fine"): monthly AND daily spend tracked in genimg-used.json. No key,
-budget out, or API failure -> None and the caller falls back to article
-imagery — a posting slot is never blocked. Stdlib only."""
+Aug 2 addition: gpt-image-2 (person=True) for images featuring FAMOUS PEOPLE.
+Measured head-to-head (gangster gas-station test): Seedream rejects any prompt
+naming a real person (E005), FLUX 1.1 Pro renders generic lookalikes — gpt-image-2
+accepts names directly and nails all three billionaires' likenesses with zero
+reference photos. Owner: "i prefer a model that allows that immediately, it
+will be much less bugs." Quality: high for covers, medium inside (owner pick).
+
+Hard budget guard (owner cap: $15/month, raised from $9 on Aug 2 for the
+gpt-image-2 person covers): monthly AND daily spend tracked in genimg-used.json.
+No key, budget out, or API failure -> None and the caller falls back to the
+Seedream ref-photo route or article imagery — a posting slot is never blocked.
+Stdlib only."""
 import json, os, sys, time, urllib.request
 from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 USED = os.path.join(HERE, "genimg-used.json")
-# $0.50/day (raised from $0.35 Aug 1: the cap cut the keypad post's
-# product-hero cover + CTA mid-run; owner cap is the MONTH number)
-MONTH_BUDGET, DAY_BUDGET = 9.00, 0.25
+# owner cap is the MONTH number ($15 since Aug 2, gpt-image-2 person covers)
+MONTH_BUDGET, DAY_BUDGET = 15.00, 0.30
 # Covers get their own, higher daily ceiling (cover-first doctrine, Aug 1):
 # inner-slide spend stops at DAY_BUDGET so there is always headroom left for
-# every remaining post's cover. 7 posts x 1 cover + retries fits well inside.
-COVER_DAY_BUDGET = 0.55
-COST = 0.03  # flat per output image, any size
+# every remaining post's cover. Raised Aug 2: a high-quality person cover is
+# $0.17, so 3 person covers + Seedream retries must fit.
+COVER_DAY_BUDGET = 0.80
+COST = 0.03  # Seedream: flat per output image, any size
 URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
+# gpt-image-2 (person route): token-billed by OpenAI; measured ~$0.165/high and
+# ~$0.041/medium at 2:3 portrait — booked with headroom so the cap never lies low
+GPT_URL = "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions"
+GPT_COST = {"high": 0.17, "medium": 0.05}
 
 
 def _key():
@@ -112,7 +124,34 @@ def _call(key, prompt, refs=None):
     return None
 
 
-def generate(brief, out_path, refs=None, cover=False):
+def _call_gpt(key, prompt, quality):
+    """gpt-image-2: the names-allowed person model (Aug 2). No reference
+    photos — the model knows famous faces natively, which is the whole point."""
+    body = {"input": {"prompt": prompt, "quality": quality, "aspect_ratio": "2:3",
+                      "moderation": "low", "output_format": "jpeg",
+                      "number_of_images": 1}}
+    req = urllib.request.Request(GPT_URL, data=json.dumps(body).encode(),
+                                 headers={"Content-Type": "application/json",
+                                          "Authorization": f"Bearer {key}",
+                                          "Prefer": "wait"})
+    with urllib.request.urlopen(req, timeout=180) as r:
+        pred = json.loads(r.read())
+    for _ in range(40):  # high quality can take ~1-2 min when cold
+        if pred.get("status") in ("succeeded", "failed", "canceled"):
+            break
+        time.sleep(3)
+        pred = json.loads(_get(pred["urls"]["get"], key))
+    out = pred.get("output")
+    if isinstance(out, list):
+        out = out[0] if out else None
+    if isinstance(out, str) and out.startswith("http"):
+        return _get(out)
+    print(f"genimg(gpt): prediction {pred.get('status')!r} "
+          f"error={pred.get('error')!r}", file=sys.stderr)
+    return None
+
+
+def generate(brief, out_path, refs=None, cover=False, person=False):
     key = _key()
     if not key:
         return None
@@ -124,7 +163,10 @@ def generate(brief, out_path, refs=None, cover=False):
     # monthly cap plus their own ceiling (10 covers/day > the posting schedule,
     # so a cover is NEVER starved by inner-slide spend).
     day_cap = COVER_DAY_BUDGET if cover else DAY_BUDGET
-    if month + COST > MONTH_BUDGET or day + COST > day_cap:
+    # person route (Aug 2): high quality on covers, medium inside — owner pick
+    quality = "high" if cover else "medium"
+    cost = GPT_COST[quality] if person else COST
+    if month + cost > MONTH_BUDGET or day + cost > day_cap:
         print(f"genimg budget out (month ${month:.2f}, today ${day:.2f}, "
               f"{'cover' if cover else 'inner'} cap ${day_cap:.2f}) — skipping",
               file=sys.stderr)
@@ -164,14 +206,15 @@ def generate(brief, out_path, refs=None, cover=False):
                    "identity exactly identical to their reference photo. "
                    "Never invent a different-looking device or face.")
     try:
-        img = _call(key, prompt, refs=live_refs or None)
+        img = (_call_gpt(key, prompt, quality) if person
+               else _call(key, prompt, refs=live_refs or None))
         if not img:
             # was silent — the Aug 2 bare-cover post-mortem couldn't see WHY
             print("genimg: model returned no image (failed/flagged prediction) "
                   "— skipping", file=sys.stderr)
             return None
         open(out_path, "wb").write(img)
-        _spend(COST)
+        _spend(cost)
         return out_path
     except Exception as e:
         print(f"genimg failed ({e})", file=sys.stderr)

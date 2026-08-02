@@ -121,7 +121,7 @@ OUTPUT — a single JSON object: {{"topic": "...", "slides": [...], "caption": "
 Slide structure:
 Also "hook_candidates": FIVE genuinely different cover headlines (different angles — money saved, jobs replaced, scarcity subject, threat framing — not rewordings), each with <em> accents. Put your best on the cover slide AND among the five; a blind judge picks the winner.
 1. type "cover": the N-promise hook per the container spec — a NUMBER in the headline, scarcity subject when true, everyday words only ("a tool where you type plain English and it writes the whole app" — never "CLI", "agentic", "repo"). HARD CAP 10 words, aim 5-8 (owner doctrine Jul 29: the cover sells curiosity, short = giant letters; the renderer caps total block height so long covers just shrink). The N-promise IS the information gap — promise the N things, never list any of them on the cover ("if someone can understand the whole story from the cover, you failed"). But specific: if the cover could describe 100 different posts, it also failed — anchor to ONE concrete tool/outcome. The reader must think "What are they?" / "How?" — the moment that question disappears, rewrite. NO SUBLINE (owner rule Aug 1): under the headline the design shows only a small "SWIPE FOR MORE" strip — the whole hook lives in the big words (put the franchise "AI CHEAT CODES VOL. {vol}" tag in the caption's first block instead, it is still the series people subscribe to). hsize 66-80 — the type must be HUGE, 3-5 edge-to-edge lines. Cover self-test: would a stranger scrolling at 2am save this for later? Below 8/10 shock+utility → rewrite.
-COVER IMAGE (mandatory): the cover MUST set "image_brief" — an empty dark cover is dead in the feed; the image sells the promise before anyone reads. FAMOUS-PERSON FIRST (owner rule Aug 2, "this should be a rule"): when the topic ties to a famous company or famous person, the cover subject IS that recognizable person CAST IN THE PROMISE'S ROLE, mid-performance with the role's real props — Google tricks → Google's CEO as the teacher at a chalkboard; billionaire decision tricks → the billionaires themselves around a boardroom table; ChatGPT money prompts → OpenAI's CEO handing over a briefcase of cash. A recognizable face acting out the promise stands out harder than any object. Only when NO famous person fits the topic, fall back to objects: for N-thing posts the reference look is a CUT-OUT COLLAGE: 2-3 distinct large subjects layered and overlapping with depth (like three fighter jets stacked for "9 MOST EXPENSIVE AIRCRAFT"), filling the whole upper frame, mid-tone so white type pops against it. For a single-promise cover: one evidence subject large in frame (a fanned stack of hundred dollar bills, a stethoscope on a dark table). 15-40 words, subject FIRST, then action, then setting; NAME real devices/brands; end with ONE color key ("keyed to azure blue"). NEVER make a document, bill, letter, or chat screen the subject — Seedream fills them with garbled fake text and QA rejects the image; pick text-free objects (cash, devices, tools, faces). No text in the image except at most one short double-quoted phrase on a device screen when that phrase IS the claim.
+COVER IMAGE (mandatory): the cover MUST set "image_brief" — an empty dark cover is dead in the feed; the image sells the promise before anyone reads. FAMOUS-PERSON FIRST (owner rule Aug 2, "this should be a rule"): when the topic ties to a famous company or famous person, the cover subject IS that recognizable person CAST IN THE PROMISE'S ROLE, mid-performance with the role's real props — write their FULL NAME in the brief (up to 3 people) AND return "face" listing the same names (the brief then routes to a premium model that knows famous faces natively). BREAK THE PATTERN (owner Aug 2: "we must break the normal thoughts when users see the images"): the scene must be one the viewer has NEVER seen that person in — Google tricks → Sundar Pichai as a street-market vendor handing out tricks like fruit; billionaire decision tricks → Musk, Buffett and Bezos as 1970s gangsters at a neon gas station with an open briefcase of cash. A boardroom, desk or stage keynote is a FAILURE — the viewer scrolls past what they have seen before. A recognizable face in an impossible scene stands out harder than any object. Only when NO famous person fits the topic, fall back to objects: for N-thing posts the reference look is a CUT-OUT COLLAGE: 2-3 distinct large subjects layered and overlapping with depth (like three fighter jets stacked for "9 MOST EXPENSIVE AIRCRAFT"), filling the whole upper frame, mid-tone so white type pops against it. For a single-promise cover: one evidence subject large in frame (a fanned stack of hundred dollar bills, a stethoscope on a dark table). 15-40 words, subject FIRST, then action, then setting; NAME real devices/brands; end with ONE color key ("keyed to azure blue"). NEVER make a document, bill, letter, or chat screen the subject — Seedream fills them with garbled fake text and QA rejects the image; pick text-free objects (cash, devices, tools, faces). No text in the image except at most one short double-quoted phrase on a device screen when that phrase IS the claim.
 2-. type "content", 4-7 slides, one skill or story each, per the container payload_rule:
    - SKILL slide: headline "N) IMPERATIVE VERB + the thing" (e.g. "1) TURN A NAPKIN SKETCH INTO A WORKING APP"), then body: FIRST a concrete proof line — a real dollar amount, hour count, or before/after a person actually got ("He pasted a $1,200 hospital bill into Claude. It dropped to $180") — never a generic "most people don't know" opener, and NEVER platform attribution (owner rule Jul 28: no "One Reddit user...", "a Twitter thread says" — "people want purely the story"; tell it directly with "a guy / he / a 60-year-old", the platform belongs only in the caption's Sources line); then THE PROMPT itself, verbatim in quotes (owner rule Jul 28: NO numbered steps, NO "open ChatGPT", NO "paste/upload your bill" instructions — everyone knows how to use a chatbot; the prompt IS the payload). Make the prompt SELF-CONTAINED so context lives inside it ("Here is my medical bill. Find every charge that looks inflated and write a dispute letter") and short enough to retype from a screenshot. Proof line + prompt, nothing else. Write it like a secret being handed over, not a manual. Content slides MAY set "image_brief" (same rules as the cover) when a vivid evidence scene exists for the claim — the 1-2 most visual slides should have one.
    - BUILT-IT slide: headline DNA — physical past-tense verb + number ("A 60-YEAR-OLD WHO CAN'T CODE SHIPPED AN APP TO 1,000 USERS"). Body: 2-3 sentences, every sentence a concrete number/name in <b>.
@@ -191,23 +191,38 @@ def main():
     for i, s in enumerate(post["slides"]):
         brief = s.pop("image_brief", "").strip()
         s["media"] = None
-        # identity/brand references (Aug 2 bare billionaire-cover post-mortem:
-        # edu dropped the art director's gen_face/gen_logo on the floor, so
-        # the named-celebrity brief went to Seedream naked and died to the
-        # E005 sensitive-content flag on every attempt)
-        brief, face_refs = face_riders(brief, s.pop("gen_face", None))
+        # PERSON ROUTE (owner Aug 2): famous-people briefs go to gpt-image-2
+        # with the names IN the prompt — no refs, no E005. Seedream + ref
+        # photos (face_riders) survives as the fallback rung.
+        face_field = s.pop("gen_face", None)
+        person = bool(face_field)
+        face_refs = []
+        if not person:
+            # incidental names in a no-face brief still kill Seedream (E005)
+            brief, face_refs = face_riders(brief, None)
         brand = s.pop("gen_logo", None)
         brand_ref = logo_ref(brand.replace(" ", "")) if brand else None
-        refs = face_refs + ([brand_ref] if brand_ref else [])
-        if s["type"] == "cover" and face_refs:
-            cover_face = face_refs[0]
+        if s["type"] == "cover" and face_field:
+            # real press photo as the cover's last-resort floor
+            fp = face_riders("", face_field)[1]
+            cover_face = fp[0] if fp else None
         if s["type"] == "cta" or not brief or gen >= 3:
             continue
         tries = 3 if s["type"] == "cover" else 1
         for attempt in range(tries):
-            path = genimg.generate(brief, os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg"),
-                                   refs=refs or None,
-                                   cover=(s["type"] == "cover"))
+            out_jpg = os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg")
+            path = None
+            if person:
+                path = genimg.generate(brief, out_jpg,
+                                       cover=(s["type"] == "cover"), person=True)
+                if not path:
+                    # FALLBACK RUNG: Seedream + ref photos, names stripped (E005)
+                    person = False
+                    brief, face_refs = face_riders(brief, face_field)
+            if not path:
+                refs = face_refs + ([brand_ref] if brand_ref else [])
+                path = genimg.generate(brief, out_jpg, refs=refs or None,
+                                       cover=(s["type"] == "cover"))
             if not path:
                 # keep trying: one flaky prediction must not forfeit the cover
                 # (Aug 2 bare cover, issue #16); budget-out retries are free
@@ -224,9 +239,10 @@ def main():
                 pool.append((score, path))
             if attempt + 1 < tries:
                 brief = simpler_brief(brief, s["headline"], flaw) or brief
-                # the rewrite sees the headline, which may name real people —
-                # re-scrub or the retry dies to E005
-                brief = face_riders(brief, None)[0]
+                if not person:
+                    # the rewrite sees the headline, which may name real
+                    # people — re-scrub or the Seedream retry dies to E005
+                    brief = face_riders(brief, None)[0]
     # cover last rung: best-of-rejected so the edu cover never ships imageless
     cover0 = post["slides"][0]
     if not cover0.get("media") and pool:

@@ -235,33 +235,31 @@ def art_direct(post, story_title=""):
                 "No real product photo exists — describe the product's exact "
                 "look from the story instead.")
     cta_ref_note = ' and set "ref": true on it too' if has_product_photo else ""
-    import glob as _glob
-    face_list = sorted({re.sub(r"\d+$", "", os.path.splitext(os.path.basename(f))[0])
-                        for f in _glob.glob(os.path.join(HERE, "faces", "*.jpg"))})
-    face_note = ((
-        "\nFACE REFERENCES (researched Aug 1: generating a famous face from "
-        "scratch fails the likeness QA — reference-based generation is how "
-        "real pages keep the CEO recognizable): we hold REAL press photos of: "
-        + ", ".join(face_list) + '. Whenever a brief features one of these '
-        'people, return "face": "<exact name from that list>" on that brief '
-        '(several people = comma-separated, up to 3) — their real photos then '
-        'ride to the generator as identity references. CRITICAL, measured '
-        'Aug 2: the image model REJECTS any prompt that contains a real '
-        "person's name (safety flag E005, the whole image fails) — so the "
-        'brief TEXT must never name them. Call them "the person in the '
-        'reference photo" (or "person 1 / person 2 in the reference photos" '
-        'for groups, in the same order as your "face" list) and add "face '
-        'exactly matching the reference photo". For groups ALSO anchor each '
-        'person to an unmistakable physical descriptor ("the elderly '
-        'white-haired man with eyeglasses", "the bald man") and add "three '
-        'DIFFERENT men" — measured Aug 2: ordinals alone made the model '
-        'render the same face twice. The name goes ONLY in the '
-        '"face" field. A real named person NOT on the list (and with no real '
-        'article photo) must NOT get a generated stand-in face (owner ban '
-        'Aug 1: a fake "Aschenbrenner" shipped on the SA-fund cover and read '
-        "instantly false) — rewrite that brief to the story's objects/scene "
-        "with no face in frame.")
-        if face_list else "")
+    # (faces/ pool still feeds face_riders — the Seedream FALLBACK rung —
+    # but the art director now writes names directly; premium model Aug 2)
+    face_note = (
+        "\nFAMOUS PEOPLE (switched Aug 2 to a premium model that KNOWS famous "
+        "faces natively — measured: it nailed Musk, Buffett and Bezos in one "
+        "frame from names alone): whenever a brief features a famous person, "
+        "write their FULL NAME directly in the brief text (up to 3 people per "
+        'scene) AND return "face": "Name One, Name Two" listing the same '
+        "names — that field routes the brief to the person model. FAMOUS "
+        "means a random 16-year-old would recognize the face (Musk, Altman, "
+        "Zuckerberg, a sitting president); a researcher or VP nobody "
+        "recognizes must NOT get a generated stand-in face (owner ban Aug 1: "
+        'a fake "Aschenbrenner" shipped on the SA-fund cover and read '
+        "instantly false) — show them from behind, silhouette, or rewrite to "
+        "the story's objects/scene with no face in frame."
+        '\nBREAK THE PATTERN (owner rule Aug 2 — "we must break the normal '
+        'thoughts when users see the images"): a famous-person scene must be '
+        "UNEXPECTED — a place, outfit or role the viewer has never seen that "
+        "person in, yet still literally connected to the story's claim. Gold "
+        "standard: three billionaires as 1970s gangsters leaning on a muscle "
+        "car at a neon gas station, an open briefcase of cash. A boardroom, "
+        "an office desk, a stage keynote or a suit-at-a-table is a FAILURE "
+        "unless the story's event literally happened there (a courtroom for "
+        "a lawsuit). Ask: has the viewer seen this person in this scene "
+        "before? If yes, find a stranger scene that still says the claim.")
     logo_list = sorted(os.path.splitext(f)[0] for f in
                        os.listdir(os.path.join(HERE, "logos"))
                        if f.endswith(".svg"))
@@ -285,11 +283,11 @@ THE JOB: the image DRAMATIZES the exact claim of that slide's headline — the p
 
 ROLE-CAST (owner's gold standard, Aug 1): when the claim is about what a product or company CAN DO, cast the story's famous face IN THE ROLE the claim describes, mid-performance with that role's real props. Reference: "Claude has an unlimited personal tutor mode" → Anthropic's CEO AS the tutor — leaning over a desk in a warm home library, pen in hand, teaching a student whose shoulder frames the foreground. The person doesn't react to the claim, they ACT IT OUT; the scene props (pen, notebook, bookshelves) and the story-world background make the metaphor literal. Prefer this over a reaction face whenever the story has a doer + a capability.
 
-PRODUCT-HERO (owner's gold standard, Aug 1 — the @technology Codex Micro reference; MANDATORY for the COVER whenever the story is a famous company's physical product or gadget): the company's famous CEO (returned in "face"; called only "the person in the reference photo" in the brief text — see the faces rule) HOLDS the product chest-high toward the camera with both hands, chest-up, eyes to camera, and the company's logo glows on the dark wall behind them as a large neon sign (describe the logo's shape: "the glowing OpenAI flower-knot logo in warm white neon"). {ref_note} The person presents, the logo brands, the device IS the story — all three connected. ALSO write a brief for the final CTA slide (marked slide_role "cta") in this case: the same named CEO with the same device, a clearly DIFFERENT pose and angle than the cover (e.g. holding it up in one hand, three-quarter view, a different room of the same story-world){cta_ref_note}.
+PRODUCT-HERO (owner's gold standard, Aug 1 — the @technology Codex Micro reference; MANDATORY for the COVER whenever the story is a famous company's physical product or gadget): the company's famous CEO (full name in the brief text AND in "face" — see the famous-people rule) HOLDS the product chest-high toward the camera with both hands, chest-up, eyes to camera, and the company's logo glows on the dark wall behind them as a large neon sign (describe the logo's shape: "the glowing OpenAI flower-knot logo in warm white neon"). {ref_note} The person presents, the logo brands, the device IS the story — all three connected. ALSO write a brief for the final CTA slide (marked slide_role "cta") in this case: the same named CEO with the same device, a clearly DIFFERENT pose and angle than the cover (e.g. holding it up in one hand, three-quarter view, a different room of the same story-world){cta_ref_note}.
 
 THE CTA CLOSER (owner doctrine Aug 1, the reference page's last slide: Tim Cook holding a phone after an Apple story — the story's OWN person is the one saying "follow us"): for EVERY story whose main actor is famous, write a brief for the cta slide — that person chest-up, relaxed and confident, eyes to camera, warm inviting energy (never tense, never mid-crisis — the drama is over, this is the goodbye), the story's world softened behind them, their company's logo glowing on the wall, a story prop in hand if one exists. Different pose and setting than every other slide. Return "face" (and "logo" when listed) on it. Only when the story has NO famous person return no cta brief.
 
-CLASH-CAST (owner's gold standard, Aug 1): when the story is a clash or a deal between TWO named famous people — a buyer and a seller, a winner and a loser, a hunter and the hunted — put BOTH recognizable likenesses in ONE composed scene that acts out the power dynamic: the winner looming calm and in command, the loser cornered mid-loss, faces large and close together, one clearly dominant. The story's world rages behind them (a trading floor of crashing red chart lines, a courtroom, a launchpad). Reference: the $45B fire-sale story → the young founder slumped at the deal table while the older billionaire stands over him signing, walls of red crashing charts behind. The pair reads as ONE unit; this beats a lone reaction face whenever the story has two famous sides. Return BOTH names comma-separated in "face" so both real photos ride as references, and in the brief text call them "person 1 in the reference photos" / "person 2 in the reference photos" in that same order — NEVER their names (measured Aug 2: a real name in the prompt makes the model reject the whole image, E005; and measured Aug 1: unnamed archetypes with no reference drift into the WRONG famous face — the reference photo is what keeps identity). If a side has no photo on the faces list, that person appears FACELESS (from behind, silhouette, or hands only — see the faces rule below), and if neither side is famous, drop CLASH-CAST entirely and dramatize with objects and stakes instead.
+CLASH-CAST (owner's gold standard, Aug 1): when the story is a clash or a deal between TWO named famous people — a buyer and a seller, a winner and a loser, a hunter and the hunted — put BOTH recognizable likenesses in ONE composed scene that acts out the power dynamic: the winner looming calm and in command, the loser cornered mid-loss, faces large and close together, one clearly dominant. The story's world rages behind them (a trading floor of crashing red chart lines, a courtroom, a launchpad). Reference: the $45B fire-sale story → the young founder slumped at the deal table while the older billionaire stands over him signing, walls of red crashing charts behind. The pair reads as ONE unit; this beats a lone reaction face whenever the story has two famous sides. Write BOTH full names directly in the brief text AND return them comma-separated in "face" (that field routes to the person model — see the famous-people rule below). If a side is not famous enough to recognize, that person appears FACELESS (from behind, silhouette, or hands only), and if neither side is famous, drop CLASH-CAST entirely and dramatize with objects and stakes instead.
 
 {face_note}
 {logo_note}
@@ -1255,11 +1253,18 @@ def main(stories_path):
     for i, s in enumerate(post["slides"]):
         brief = s.pop("image_brief", "").strip()
         want_ref = s.pop("gen_ref", False) and ref_photo
-        # identity references (owner Aug 1, keypad post-mortem: Altman generated
-        # from scratch failed likeness QA): each named face's REAL press photo
-        # rides to Seedream, and the names leave the brief text (E005 doctrine
-        # in face_riders — Seedream rejects prompts naming real people)
-        brief, face_refs = face_riders(brief, s.pop("gen_face", None))
+        # PERSON ROUTE (owner Aug 2: "i prefer a model that allows that
+        # immediately, it will be much less bugs"): briefs featuring famous
+        # people go to gpt-image-2 with the names IN the prompt — no reference
+        # photos, no name-stripping, no E005. Measured head-to-head: it nailed
+        # all three billionaires' likenesses; FLUX rendered lookalikes. The old
+        # Seedream ref-photo route (face_riders) survives as the fallback rung.
+        face_field = s.pop("gen_face", None)
+        person = bool(face_field)
+        face_refs = []
+        if not person:
+            # incidental names in a no-face brief still kill Seedream (E005)
+            brief, face_refs = face_riders(brief, None)
         # brand reference (owner Aug 1, courtroom cover: from-memory logos come
         # out wrong): the real SVG rasterized rides along as the third ref
         brand_ref = None
@@ -1270,7 +1275,7 @@ def main(stories_path):
         # hero second pose) or the story person's face ref (owner Aug 1: the
         # Tim Cook closer — the story's person says "follow us"). No anchor ->
         # art bg, never a from-scratch face
-        if s["type"] == "cta" and not (want_ref or face_refs):
+        if s["type"] == "cta" and not (want_ref or face_refs or person):
             continue
         if not brief or gen >= 4:
             continue
@@ -1283,7 +1288,7 @@ def main(stories_path):
         # + the CEO's real face photo). Otherwise the real photo ships.
         if (s["type"] == "cover" and s.get("media")
                 and not os.path.basename(s["media"]).startswith("gen")
-                and not (want_ref and face_refs)):
+                and not (want_ref and (face_refs or person))):
             continue
         # cover ladder (owner rules Jul 29: capped attempts — each image costs
         # money — the brief rewritten around the judge's named flaw between
@@ -1292,11 +1297,21 @@ def main(stories_path):
         # budget guard caps total spend either way.
         tries = 3 if s["type"] == "cover" else 1
         for attempt in range(tries):
-            refs = [r for r in [ref_photo if want_ref else None]
-                    + face_refs + [brand_ref] if r]
-            path = genimg.generate(brief, os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg"),
-                                   refs=refs or None,
-                                   cover=(s["type"] == "cover"))
+            out_jpg = os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg")
+            path = None
+            if person:
+                path = genimg.generate(brief, out_jpg,
+                                       cover=(s["type"] == "cover"), person=True)
+                if not path:
+                    # FALLBACK RUNG (always-post ladder): gpt failed/budget-out
+                    # -> Seedream with ref photos, names stripped (E005)
+                    person = False
+                    brief, face_refs = face_riders(brief, face_field)
+            if not path:
+                refs = [r for r in [ref_photo if want_ref else None]
+                        + face_refs + [brand_ref] if r]
+                path = genimg.generate(brief, out_jpg, refs=refs or None,
+                                       cover=(s["type"] == "cover"))
             if not path:
                 # keep trying: one flaky prediction must not forfeit the cover
                 # (Aug 2 bare edu cover, issue #16); budget-out retries are
@@ -1322,9 +1337,11 @@ def main(stories_path):
             if attempt + 1 < tries:
                 brief = simpler_brief(brief, s.get("headline")
                                       or (s.get("body") or "")[:90], flaw) or brief
-                # the rewrite sees the headline, which may name real people —
-                # re-scrub or the retry dies to E005
-                brief = face_riders(brief, None)[0]
+                if not person:
+                    # the rewrite sees the headline, which may name real
+                    # people — re-scrub or the Seedream retry dies to E005
+                    # (the gpt person route KEEPS names, that's its point)
+                    brief = face_riders(brief, None)[0]
     if gen:
         print(f"{gen} Seedream image(s) generated", file=sys.stderr)
 
