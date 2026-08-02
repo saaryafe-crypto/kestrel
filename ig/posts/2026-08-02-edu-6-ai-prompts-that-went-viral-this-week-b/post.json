@@ -1,0 +1,82 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 AI PROMPTS <em>BLEW UP THIS WEEK</em> AFTER A GUY USED ONE TO CUT HIS <em>$1,200 HOSPITAL BILL TO $180</em>",
+   "hsize": 68,
+   "media": "posts/2026-08-02-edu-6-ai-prompts-that-went-viral-this-week-b/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) PASTE YOUR BILL AND <em>LET AI FIGHT IT</em>",
+   "body": "He pasted a <b>$1,200</b> hospital bill into Claude. <b>It dropped to $180</b>. 'Here is my medical bill. Find every inflated charge, cite the correct rates, and write a formal dispute letter'",
+   "hsize": 108,
+   "media": "posts/2026-08-02-edu-6-ai-prompts-that-went-viral-this-week-b/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "2) RUN MOCK INTERVIEWS THAT <em>PREDICT THE REAL THING</em>",
+   "body": "He fed Claude the job listing. <b>The interview felt like a rerun. He got hired</b>. 'Here is the job description and my background. Interview me one question at a time, then critique my answers'",
+   "hsize": 100,
+   "media": "posts/2026-08-02-edu-6-ai-prompts-that-went-viral-this-week-b/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>SELL YOUR STUFF</em> WHILE YOU SLEEP",
+   "body": "Pricing, listing, and haggling: <b>one prompt handles all three</b>. 'Here are photos of things I want to sell. Price each one fairly, write a marketplace listing for each, and draft replies to low offers'",
+   "hsize": 114,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>PREDICT EVERY QUESTION</em> YOUR BOSS WILL ASK",
+   "body": "He ran this before every review. <b>The real meeting felt scripted</b>. 'You are a skeptical VP. Here is my presentation. List every question you'd ask and what would make each answer weak'",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) REDESIGN <em>ANY ROOM FROM ONE PHOTO</em>",
+   "body": "She snapped one photo. Got a <b>full redesign and a $500 shopping list</b>. 'Here is my room. Redesign it like an interior designer and give me a shopping list to build it, under $500'",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>AUDIT YOUR WORK</em> BEFORE ANYONE ELSE DOES",
+   "body": "He split the finding from the judging. <b>Weak claims got caught before clients saw them</b>. 'Here is my draft. Flag every unsupported claim and list what I should verify before presenting'",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR WHEN YOU NEED THEM",
+   "body": "You'll want these prompts the next time you get a bill, a meeting, or a listing to write. We share these every week. <b>Follow @yaffeai</b> for daily AI news and real skills",
+   "hsize": 105,
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 AI prompts that went viral this week because people actually tested them and they worked \ud83d\udd25\n\nA bill-fighting prompt that cut $1,200 to $180, a mock interview prompt that made the real thing feel like a rerun, a marketplace prompt that prices and lists your stuff and handles the lowballers, a meeting prep prompt that predicts the exact questions your boss will ask, a room redesign prompt that rebuilds any space from one photo with a shopping list under $500, and a research audit prompt that catches every weak claim before anyone else reads it.\n\nThese aren't tricks. They're real prompts tested by thousands of people this week. The tools are free. The expensive version is the human expert who used to do the same job.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, OpenAI, Reddit\n\n#AI #ArtificialIntelligence #Productivity #TechTips #SmallBusiness",
+ "pinned_comment": "Which prompt are you trying tonight? The bill fighter on slide 2 gets the wildest results, but slide 5 is the sleeper for anyone with meetings this week.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR DOCTOR, YOUR INTERVIEWER, AND YOUR REAL ESTATE AGENT <em>ALL LOST TO THE SAME 6 AI PROMPTS</em> THIS WEEK",
+   "<em>THOUSANDS OF PEOPLE TESTED THESE 6 AI PROMPTS</em> THIS WEEK AND <em>EVERY SINGLE ONE ACTUALLY WORKED</em>",
+   "6 AI PROMPTS <em>BLEW UP THIS WEEK</em> AFTER A GUY USED ONE TO CUT HIS <em>$1,200 HOSPITAL BILL TO $180</em>",
+   "6 PROMPTS ARE QUIETLY <em>SPREADING THROUGH AI COMMUNITIES</em> RIGHT NOW. EACH ONE DOES A <em>$200/HOUR JOB FOR FREE</em>",
+   "6 AI PROMPTS WENT VIRAL BECAUSE <em>NORMAL PEOPLE ACTUALLY TRIED THEM</em>. ONE SLASHED A <em>$1,200 BILL TO $180</em>"
+  ],
+  "scores": [
+   7,
+   4,
+   8,
+   6,
+   7
+  ],
+  "winner": 2,
+  "why": "The $1,200-to-$180 hospital bill is a complete micro-story with real numbers that makes you instantly believe it happened \u2014 you're swiping for the how, not to find out if. [0] is clever but 'lost to' is vague enough that your brain has to do work before it decides to care."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}
