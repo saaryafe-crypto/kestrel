@@ -1,0 +1,81 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 <em>בעיות יקרות</em> שפרומפט AI אחד פתר",
+   "hsize": 72,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>להוריד חשבון רפואי</em>",
+   "hsize": 110,
+   "body": "חשבון בית חולים של <b>$1,200</b> ירד ל-<b>$180</b> אחרי פרומפט אחד. 'הנה החשבון הרפואי שלי. תמצא כל <b>חיוב מנופח</b> ותכתוב <b>מכתב ערעור</b> עם השוואת מחירים הוגנת'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>למכור דברים</em> בלי סחבת",
+   "hsize": 80,
+   "body": "AI מתמחר לך את הפריטים, כותב את המודעה, ועונה למציעים נמוך במקומך. 'הנה תמונות של <b>5 דברים</b> שאני רוצה למכור. <b>תתמחר כל אחד</b>, תכתוב מודעה, ו<b>תתמקח בשבילי</b>'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>לתרגל ראיון עבודה</em> עד שזה מושלם",
+   "hsize": 80,
+   "body": "הוא תרגל ראיונות עם Claude. נקרע על פטפוט. תיקן. <b>קיבל את העבודה</b>. 'הנה <b>המשרה</b> והרקע שלי. תריץ <b>סיבובי ראיון, שאלה אחת בכל פעם</b>, ותבקר כל תשובה'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>לעצב חדר מחדש</em> בפחות מ-$500",
+   "hsize": 95,
+   "body": "תמונה אחת של הסלון ואתה מקבל <b>עיצוב מלא מחדש</b> עם רשימת קניות <b>מתחת ל-$500</b>. 'תעצב מחדש את החדר הזה בסגנון <b>מינימליסטי מודרני</b> ותיתן לי רשימת קניות מתחת ל-$500 עם שמות חנויות'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>לחזות כל שאלה</em> שהבוס ישאל",
+   "hsize": 88,
+   "body": "אנליסט הריץ את זה לפני כל ישיבה. הכל <b>הרגיש כתוב מראש</b>. 'אתה <b>בוס סקפטי</b> שקורא את הסיכום הזה. תרשום את <b>5 השאלות הכי קשות</b> שהיית שואל ואיזה דאטה עונה על כל אחת'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>לתפוס שקרים</em> בכל מה ש-AI כתב לך",
+   "hsize": 82,
+   "body": "חוקר הפסיק לסמוך על סיכומי AI. הפרומפט הזה תופס את מה שחסר. 'תקרא את זה. <b>תסמן כל טענה</b> בלי הוכחה, <b>תדרג כמה אתה בטוח</b> בכל אחת, ותפרט מה <b>חסר</b>'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את הפוסט</em> הזה",
+   "hsize": 110,
+   "body": "הפרומפטים האלה יחכו לכם כשהבעיה תגיע. שמרו עכשיו. חדשות AI יומיות וטיפים שעובדים כבר הערב",
+   "media": null
+  }
+ ],
+ "caption": "סוויפו ל-6 פרומפטים שפתרו בעיות אמיתיות לאנשים אמיתיים החודש, מחשבון של $1,200 ועד הצעת עבודה 🔥\n\nלהתווכח על חשבון רפואי עם מכתב ערעור של AI, למכור דברים ישנים כש-AI מתמחר ומתמקח במקומכם, לתרגל ראיונות עבודה עם סיבובי תרגול אכזריים, לעצב כל חדר מתמונה אחת מהטלפון עם רשימת קניות מתחת ל-$500, לחזות כל שאלה קשה שהבוס ישאל לפני ישיבה, ולתפוס טענות רעועות בכל מה ש-AI כתב לפני שהשם שלכם עליו\n\nאנשים הפסיקו לבקש מ-AI לכתוב חיבורים והתחילו לזרוק עליו בעיות שפעם עלו כסף אמיתי. הפרומפטים קצרים. התוצאות לא.\nמנהלים עסק? שלחו לנו DM עם \"AI\" ונראה לכם מה הפרומפטים האלה יכולים לעשות בשבילכם\n\nמקורות: Reddit, Anthropic, OpenAI\nעקבו אחרינו @ainews.israel\n\n#AI #ChatGPT #Claude #Productivity #AITools",
+ "pinned_comment": "איזה מהם אתם מנסים ראשון? זה של הראיון בשקף 4 הוא הסוס השחור.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 <em>REAL PEOPLE.</em> 6 PROMPTS. EVERY ONE WORKED",
+   "6 <em>UGLY PROBLEMS</em> PEOPLE QUIETLY HANDED TO AI",
+   "6 PROBLEMS PEOPLE PASTED INTO AI AND <em>ACTUALLY SOLVED</em>",
+   "6 <em>EXPENSIVE PROBLEMS</em> ONE AI PROMPT JUST FIXED"
+  ],
+  "scores": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "winner": 3,
+  "why": "\"Expensive\" triggers a money-anxiety reflex that stops the scroll cold — you immediately think of something YOU paid for that sucked. Runner-up [2] is relatable but 'actually solved' is softer; 'expensive problems / one prompt' has a sharper before/after contrast that feels almost unbelievable enough to swipe."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "no-image"
+}
