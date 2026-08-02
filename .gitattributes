@@ -1,0 +1,6 @@
+# Shared JSON ledgers written by parallel workflow runs — text merge always
+# conflicts (lost slot, run 30759942650). Semantic driver: ig/merge_ledgers.py,
+# configured as merge.ledger.driver in the workflow save steps.
+ig/genimg-used.json merge=ledger
+ig/faces-used.json merge=ledger
+ig/edu-used.json merge=ledger

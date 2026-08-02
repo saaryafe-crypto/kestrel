@@ -68,16 +68,6 @@ jobs:
           test -f "posts-he/$POST_NAME/slide-1.jpg"
           echo "POST_NAME=$POST_NAME" >> "$GITHUB_ENV"
 
-      - name: Save Hebrew post to this repo
-        if: env.SKIP != 'true'
-        run: |
-          git config user.name "ig-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add ig/posts-he
-          git commit -m "IG post HE: $POST_NAME" || { echo "nothing to commit"; exit 0; }
-          git pull --rebase --autostash
-          git push
-
       - name: Push slides to public media repo
         if: env.SKIP != 'true'
         env:
@@ -103,6 +93,19 @@ jobs:
         run: |
           python ig/post.py "ig/posts-he/$POST_NAME" \
             "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/$POST_NAME-he"
+
+      - name: Save Hebrew post to this repo
+        # Runs LAST on purpose (Aug 2, EN run 30759942650 lost a slot to a git
+        # race in its save step): if this fails the post is already live.
+        if: env.SKIP != 'true'
+        run: |
+          git config user.name "ig-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git config merge.ledger.driver "python ig/merge_ledgers.py %O %A %B"
+          git add ig/posts-he
+          git commit -m "IG post HE: $POST_NAME" || { echo "nothing to commit"; exit 0; }
+          git pull --rebase --autostash
+          git push || { git pull --rebase --autostash && git push; }  # retry once if a sibling pushed in between
 
       - name: Alert on failure (opens a GitHub issue -> email notification)
         if: failure() && env.SKIP != 'true'

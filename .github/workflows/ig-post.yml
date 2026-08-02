@@ -117,19 +117,6 @@ jobs:
           echo "POST_DIR=$POST_DIR" >> "$GITHUB_ENV"
           echo "POST_NAME=$(basename "$POST_DIR")" >> "$GITHUB_ENV"
 
-      - name: Save post to this repo (dedupe history)
-        if: github.event.inputs.repost == ''
-        run: |
-          git config user.name "ig-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add ig/posts
-          git add ig/edu-used.json 2>/dev/null || true
-          git add ig/genimg-used.json 2>/dev/null || true  # image-gen budget ledger must persist across runs
-          git add ig/faces-used.json 2>/dev/null || true   # face-photo rotation ledger (never repeat the same press photo back-to-back)
-          git commit -m "IG post: $POST_NAME" || { echo "nothing to commit"; exit 0; }
-          git pull --rebase --autostash   # autostash: fetch.py leaves stories.json dirty; don't let it kill the run
-          git push
-
       - name: Push slides to public media repo
         # runs for reposts too — IG fetches slides from this repo, so publishing
         # without pushing them 404s at Meta ("Only photo or video...", err 9004)
@@ -156,6 +143,25 @@ jobs:
         run: |
           python ig/post.py "$POST_DIR" \
             "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/$POST_NAME"
+
+      - name: Save post to this repo (dedupe history)
+        # Runs LAST on purpose (run 30759942650 post-mortem, Aug 2): a git race
+        # here must never kill the publish — if this step fails the post is
+        # already live and only the history commit is lost (alert issue fires).
+        if: github.event.inputs.repost == ''
+        run: |
+          git config user.name "ig-bot"
+          git config user.email "bot@users.noreply.github.com"
+          # semantic merge for the shared ledgers (.gitattributes merge=ledger):
+          # parallel runs touching the same JSON always text-conflict otherwise
+          git config merge.ledger.driver "python ig/merge_ledgers.py %O %A %B"
+          git add ig/posts
+          git add ig/edu-used.json 2>/dev/null || true
+          git add ig/genimg-used.json 2>/dev/null || true  # image-gen budget ledger must persist across runs
+          git add ig/faces-used.json 2>/dev/null || true   # face-photo rotation ledger (never repeat the same press photo back-to-back)
+          git commit -m "IG post: $POST_NAME" || { echo "nothing to commit"; exit 0; }
+          git pull --rebase --autostash   # autostash: fetch.py leaves stories.json dirty; don't let it kill the run
+          git push || { git pull --rebase --autostash && git push; }  # retry once if a sibling pushed in between
 
       - name: Alert on failure (opens a GitHub issue -> email notification)
         if: failure()
