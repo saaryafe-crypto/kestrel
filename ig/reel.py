@@ -337,16 +337,23 @@ def push_media(post_dir, name):
 
     tmp = "/tmp/media-reel"
 
+    # Aug 2 post-mortem: a git clone with no timeout hung 6.5h and wedged the
+    # HE reel slot for a whole day (reelwatch kept skipping "job already
+    # running"). Two fixes: hard timeouts so a stall fails fast into the retry
+    # ladder, and a blobless sparse clone — the media repo is 160MB+ and grows
+    # daily; we only need to ADD one file, never download history.
     def clone():
         shutil.rmtree(tmp, ignore_errors=True)  # partial clone from a failed try
-        sh("git", "clone", "--depth", "1", MEDIA_REPO, tmp)
+        sh("git", "clone", "--depth", "1", "--filter=blob:none", "--sparse",
+           MEDIA_REPO, tmp, timeout=300)
+        sh("git", "sparse-checkout", "set", name, cwd=tmp, timeout=60)
     net(clone, "clone")
     os.makedirs(f"{tmp}/{name}", exist_ok=True)
     shutil.copy(os.path.join(post_dir, "reel.mp4"), f"{tmp}/{name}/reel.mp4")
     sh("git", "add", "-A", cwd=tmp)
     sh("git", "-c", "user.name=ig-bot", "-c", "user.email=bot@users.noreply.github.com",
        "commit", "-m", name, cwd=tmp)
-    net(lambda: sh("git", "push", cwd=tmp), "push")
+    net(lambda: sh("git", "push", cwd=tmp, timeout=300), "push")
 
 
 def title_tournament(r):
