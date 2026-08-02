@@ -1,0 +1,117 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ה-AI של Google גילה באג ב-Chrome <em>שהסתתר 13 שנה</em> וחשף את הסיסמאות והתמונות שלך להאקרים",
+   "hsize": 80,
+   "media": null,
+   "logos": [
+    "google"
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "ה-AI תפס <em>באגים של שנתיים</em>",
+   "hsize": 96,
+   "body": "Google בנתה אותו עם <b>Gemini</b> בתחילת <b>2026</b>. עד <b>מרץ</b>, יותר דיווחים מכל שנת <b>2025</b>. עד <b>יוני</b>, יותר ממה שמצאו בשנתיים שלמות",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "באג אחד התחבא <em>13 שנה</em>",
+   "hsize": 96,
+   "body": "האקרים יכלו לקרוא דרכו כל קובץ מהמחשב שלך: <b>תמונות</b>, <b>סיסמאות</b>, הכל. הוא ישב בקוד של Chrome <b>13 שנה</b> עד שה-AI תפס אותו",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ה-AI צד <em>בלי אינטרנט</em>",
+   "hsize": 110,
+   "body": "הוא רץ על <b>מחשבים נעולים</b> עם <b>אפס אינטרנט</b>. נוגע רק בקוד שאומרים לו לבדוק, שום דבר אחר. צייד בכלוב",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "כל באג שרף <em>30 דקות של בן אדם</em>",
+   "hsize": 84,
+   "body": "לבדוק דיווח באג <b>אחד</b> לקח <b>5 עד 30+ דקות</b>. אם <b>Google</b> צריכה AI כדי להגן על הדפדפן שלה, שום קוד לא בטוח בלי זה",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "ה-AI הזה <em>משתפר כל חודש</em>",
+   "hsize": 96,
+   "body": "תעקבו ותראו מה עוד הוא יתפוס. תשלחו את זה לחבר שעדיין חושב שהסיסמאות שלו בטוחות",
+   "media": null
+  }
+ ],
+ "caption": "AI של Google מצא בחודש אחד יותר באגים ב-Chrome מאשר בשנתיים שלמות 🔓\n\nצייד באגים של Google מבוסס על Gemini, באגים של שנתיים נתפסו בחודש, פרצה בת 13 שנה שיכלה לתת להאקרים גישה לתמונות ולסיסמאות שלכם, מחשבים נעולים בלי אינטרנט, AI במקום בדיקות ידניות של 5 עד 30 דקות, ומה זה אומר לכל עסק שמריץ תוכנה.\n\nGoogle הוכיחה שה-AI תופס מה שבני אדם לא מסוגלים, והפער רק גדל. אם חברת הטכנולוגיה הכי גדולה בעולם צריכה AI כדי להגן על הדפדפן שלה, כולנו כבר מאחור.\nמנהלים עסק? שלחו לנו הודעה עם \"AI\" ונראה לכם מה זה יכול לעשות בשבילכם.\n\nמקורות: Google Security Blog\n\nתעקבו אחרי @ainews.israel לעוד עדכוני AI\n\n#ChromeSecurity #GoogleAI #Cybersecurity #TechNews #ArtificialIntelligence",
+ "pinned_comment": "Google קיבלה עד מרץ יותר דיווחי באגים מכל שנת 2025. תגידו ת'אמת, מתי עדכנתם את Chrome בפעם האחרונה?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "GOOGLE BUILT AN AI THAT <em>HACKS</em> CHROME",
+   "GOOGLE JUST <em>EXPOSED CHROME</em>",
+   "YOUR CHROME HID <em>A 13-YEAR SECRET</em>",
+   "THIS BUG HID IN CHROME FOR <em>13 YEARS</em>",
+   "A 13-YEAR-OLD CHROME BUG COULD READ <em>ALL YOUR FILES</em>",
+   "GOOGLE JUST CAUGHT <em>TWO YEARS OF BUGS</em>",
+   "CHROME'S WORST BUG <em>WATCHED YOU FOR 13 YEARS</em>",
+   "GOOGLE QUIETLY <em>RIPPED CHROME APART</em>"
+  ],
+  "scores": [
+   7,
+   3,
+   7,
+   6,
+   9,
+   4,
+   7,
+   6
+  ],
+  "winner": 4,
+  "why": "It's personal ('your files'), terrifyingly specific (13 years), and the threat is concrete — I'm suddenly thinking about my own laptop. Candidate 6 has the same bones but 'watched you' sounds like active spying, which feels like an exaggeration my brain rejects mid-scroll."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Google",
+  "actor_known": true,
+  "anchor": "Google",
+  "specifics": [
+   "Fixed more Chrome bugs in June alone than in the past two whole years combined",
+   "One bug had been hiding in the code for 13 years and could've let hackers read your photos, passwords, everything on your laptop",
+   "By March 2026, Google received more bug reports than in the entirety of 2025",
+   "The AI agent runs on locked-down machines with no general internet access",
+   "Triaging a single security report historically took 5 to 30+ minutes"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+  "link": "https://blog.google/security/chrome-stronger-with-every-update/",
+  "judge_interest": 5,
+  "scout_score": 80.5
+ },
+ "hook_tournament_he": {
+  "story_type": "record",
+  "candidates": [
+   "ה-AI של Google גילה באג ב-Chrome <em>שהסתתר 13 שנה</em> וחשף את הסיסמאות והתמונות שלך להאקרים",
+   "Google בנתה AI שרץ על מחשבים <em>בלי אינטרנט</em> ומצא ב-Chrome יותר באגים <em>בחודש אחד מאשר בשנתיים</em>",
+   "ה-AI של Google מצא עד מרץ 2026 יותר באגים ב-Chrome <em>מכל שנת 2025</em>, וביוני שבר את כל השיאים",
+   "בני אדם פספסו באג קריטי ב-Chrome <em>13 שנה</em>, עד שה-AI של Google מצא אותו בחודש אחד",
+   "ה-AI של Google מצא בחודש אחד יותר באגי אבטחה ב-Chrome <em>ממה שמצאו בשנתיים האחרונות ביחד</em>",
+   "באג ב-Chrome התחבא 13 שנה והיה יכול לקרוא <em>את כל הקבצים שלך</em>"
+  ],
+  "scores": [
+   9,
+   6,
+   7,
+   7,
+   8,
+   7
+  ],
+  "winner": 0,
+  "why": "קאנדידט 0 מספר את כל הסיפור השלם במשפט אחד: AI, 13 שנה, Chrome, ושלך-אישית — סיסמאות, תמונות, האקרים. קאנדידט 4 נותן סטטיסטיקה מרשימה אבל לא עושה את זה אישי, אין את ה'רגע' של 'רגע, WHAT?!' שמגיע כש-13 שנה מתחברות לדברים הפרטיים שלך."
+ }
+}
