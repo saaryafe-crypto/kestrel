@@ -41,11 +41,53 @@ def built_today(root):
     return n
 
 
+MAX_JOB_MIN = 90  # a full reel build with every retry finishes well under 35
+
+
+def _age_min(pid):
+    out = subprocess.run(["ps", "-o", "etime=", "-p", str(pid)],
+                         capture_output=True, text=True).stdout.strip()
+    if not out:
+        return 0
+    days, rest = out.split("-") if "-" in out else ("0", out)
+    parts = [int(p) for p in rest.split(":")]
+    while len(parts) < 3:
+        parts.insert(0, 0)
+    return int(days) * 1440 + parts[0] * 60 + parts[1]
+
+
+def reap_or_defer():
+    """True = a HEALTHY job is running, skip this tick. Aug 2 post-mortem:
+    a git clone with no timeout hung a reel job for 11 hours and this
+    watchdog politely skipped every tick — the stuck job blocked its own
+    rescuer. Now a job older than MAX_JOB_MIN is killed (with a loud gh
+    issue) and the tick proceeds to refill the slot. Never-silent rule."""
+    pids = subprocess.run(["pgrep", "-f", r"reel(_he)?\.py"],
+                          capture_output=True, text=True).stdout.split()
+    stuck = [p for p in pids if _age_min(p) >= MAX_JOB_MIN]
+    if not stuck:
+        return bool(pids)
+    for p in stuck:
+        subprocess.run(["kill", "-9", p])
+    print(f"REAPED stuck reel job(s) {stuck} (ran > {MAX_JOB_MIN} min) — "
+          "refilling the slot this tick")
+    subprocess.run(["gh", "issue", "create", "-R", "saaryafe-crypto/kestrel",
+                    "-t", f"reelwatch reaped a stuck reel job "
+                          f"{datetime.now():%Y-%m-%d %H:%M}",
+                    "-b", f"A reel job ran past {MAX_JOB_MIN} minutes (a "
+                          "healthy build finishes under 35) and was killed so "
+                          "the watchdog could refill the slot. If this "
+                          "recurs, something new is hanging — check "
+                          "/tmp/ig-reel*.log for the last line before the "
+                          "freeze."], capture_output=True)
+    return False
+
+
 def main():
-    # never run alongside a live slot job (a reel takes minutes to build; a
-    # tick landing mid-run would see "not done yet" and start a duplicate)
-    if subprocess.run(["pgrep", "-f", r"reel(_he)?\.py"],
-                      capture_output=True).returncode == 0:
+    # never run alongside a live HEALTHY slot job (a reel takes minutes to
+    # build; a tick landing mid-run would see "not done yet" and start a
+    # duplicate) — but a stuck job gets reaped, never deferred to
+    if reap_or_defer():
         print("a reel job is already running — skipping this tick")
         return
     now = datetime.now()

@@ -235,8 +235,8 @@ def main():
     r = subprocess.run(["git", "commit", "-m", f"radar {now[:16]}"], cwd=HERE,
                        capture_output=True)
     if r.returncode == 0:
-        subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE)
-        subprocess.run(["git", "push"], cwd=HERE)
+        subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE, timeout=180)
+        subprocess.run(["git", "push"], cwd=HERE, timeout=180)
 
 
 if __name__ == "__main__":

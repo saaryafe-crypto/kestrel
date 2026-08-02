@@ -620,8 +620,8 @@ def main():
     sh("git", "add", "posts", os.path.basename(USED),
        *(["bundle-used.json"] if os.path.exists(bundle.USED) else []), cwd=HERE)
     subprocess.run(["git", "commit", "-m", f"IG reel: {name}"], cwd=HERE)
-    subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE)
-    subprocess.run(["git", "push"], cwd=HERE)
+    subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE, timeout=180)
+    subprocess.run(["git", "push"], cwd=HERE, timeout=180)
     # webhook key lives only in GitHub secrets -> publish via the ig-reel workflow
     sh("gh", "workflow", "run", "ig-reel.yml", "-f", f"post={name}", cwd=HERE)
     print("publish workflow triggered for", name)

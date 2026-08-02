@@ -176,8 +176,8 @@ def main():
                     "scoreboard.json"], cwd=HERE)
     r = subprocess.run(["git", "commit", "-m", "market: daily ground-truth refresh"], cwd=HERE)
     if r.returncode == 0:
-        subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE, check=True)
-        subprocess.run(["git", "push"], cwd=HERE, check=True)
+        subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE, check=True, timeout=180)
+        subprocess.run(["git", "push"], cwd=HERE, check=True, timeout=180)
         print("pushed — Scout uses this on the next slot", file=sys.stderr)
 
 

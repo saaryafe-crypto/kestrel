@@ -117,8 +117,8 @@ def main():
     subprocess.run(["git", "add", os.path.basename(HISTORY)], cwd=HERE)
     r = subprocess.run(["git", "commit", "-m", f"weekly report {entry['date']}"], cwd=HERE)
     if r.returncode == 0:
-        subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE)
-        subprocess.run(["git", "push"], cwd=HERE)
+        subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE, timeout=180)
+        subprocess.run(["git", "push"], cwd=HERE, timeout=180)
 
 
 if __name__ == "__main__":

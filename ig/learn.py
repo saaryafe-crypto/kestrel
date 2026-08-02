@@ -106,8 +106,8 @@ def main(handle=OWN):
     subprocess.run(["git", "add", os.path.relpath(LEARNED, HERE)], cwd=HERE)
     r = subprocess.run(["git", "commit", "-m", f"learn: refresh @{handle} performance data"], cwd=HERE)
     if r.returncode == 0:
-        subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE, check=True)
-        subprocess.run(["git", "push"], cwd=HERE, check=True)
+        subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE, check=True, timeout=180)
+        subprocess.run(["git", "push"], cwd=HERE, check=True, timeout=180)
         print("pushed — the cloud writer will use this data on the next post")
 
 

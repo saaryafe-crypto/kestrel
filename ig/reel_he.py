@@ -318,8 +318,8 @@ def localize(post_dir, dry):
     reel.push_media(out_dir, f"{name}-he")
     reel.sh("git", "add", "posts-he", cwd=HERE)
     subprocess.run(["git", "commit", "-m", f"IG reel HE: {name}"], cwd=HERE)
-    subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE)
-    subprocess.run(["git", "push"], cwd=HERE)
+    subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE, timeout=180)
+    subprocess.run(["git", "push"], cwd=HERE, timeout=180)
     # HE webhook key lives only in GitHub secrets -> publish via workflow
     reel.sh("gh", "workflow", "run", "ig-reel-he.yml", "-f", f"post={name}",
             cwd=HERE)
