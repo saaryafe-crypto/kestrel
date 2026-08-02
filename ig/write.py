@@ -884,6 +884,15 @@ def call_claude(prompt, schema=None, images=None, model=None):
         out = subprocess.run(cmd, capture_output=True, text=True, timeout=1200).stdout
     m = re.search(r"\{.*\}", out, re.S)
     if not m:
+        # Same transient family as the hang, different symptom: the CLI
+        # returns an error string instead of JSON ("API Error: Stream idle
+        # timeout - partial response received" killed the Aug 2 morning reel,
+        # issue #13). One fresh call, then give up.
+        print(f"claude -p returned no JSON ({out[:120]!r}) — retrying once",
+              file=sys.stderr)
+        out = subprocess.run(cmd, capture_output=True, text=True, timeout=1200).stdout
+        m = re.search(r"\{.*\}", out, re.S)
+    if not m:
         # RuntimeError, NOT SystemExit: callers with fail-open except-Exception
         # handlers (dupe judge, scout judge, vision QA) must be able to catch it
         raise RuntimeError(f"claude -p returned no JSON:\n{out[:500]}")
