@@ -10,6 +10,12 @@ on:
         description: "post dir name, e.g. 2026-07-26-reel-XXXXXXXX"
         required: true
 
+# Serialize runs (Aug 3 race audit): parallel runs of the same lane
+# race on shared state; queued runs still fill every slot.
+concurrency:
+  group: ig-reel
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest

@@ -105,12 +105,14 @@ jobs:
           # doesn't depend on the news pool, so "no usable story" (all dupes,
           # issue #7) can't kill a slot. money = story flow with a case-study
           # preference (STORY_PREF), same fallback ladder as story.
+          # THIRD RUNG (run 30752019189, Aug 2: both rungs failed QA 3x and the
+          # slot died): one more fresh edu.py roll — a new sample usually passes
           if [ "$KIND" = "edu" ]; then
-            python edu.py | tee /tmp/write.log || python write.py | tee /tmp/write.log
+            python edu.py | tee /tmp/write.log || python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           elif [ "$KIND" = "money" ]; then
-            STORY_PREF=money python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            STORY_PREF=money python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           else
-            python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           fi
           POST_DIR=$(sed -n 's/^post ready: //p' /tmp/write.log)
           test -n "$POST_DIR"  # fail loudly if the writer produced nothing
@@ -135,7 +137,20 @@ jobs:
           git pull --rebase || true   # another workflow may have pushed first
           git push
 
+      - name: Duplicate guard (a sibling run may have published while we rendered)
+        # Aug 3 (HE dup post-mortem): generation takes 20-50 min; if another
+        # run committed this exact post dir to main in that window, it is
+        # already live. Reposts skip this on purpose — republishing is their job.
+        if: github.event.inputs.repost == ''
+        run: |
+          git fetch origin main --quiet
+          if git cat-file -e "origin/main:$POST_DIR/post.json" 2>/dev/null; then
+            echo "$POST_DIR is already on main — a sibling run published it. Skipping."
+            echo "SKIP=true" >> "$GITHUB_ENV"
+          fi
+
       - name: Publish carousel to Instagram
+        if: env.SKIP != 'true'
         env:
           MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
           MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
@@ -148,7 +163,7 @@ jobs:
         # Runs LAST on purpose (run 30759942650 post-mortem, Aug 2): a git race
         # here must never kill the publish — if this step fails the post is
         # already live and only the history commit is lost (alert issue fires).
-        if: github.event.inputs.repost == ''
+        if: github.event.inputs.repost == '' && env.SKIP != 'true'
         run: |
           git config user.name "ig-bot"
           git config user.email "bot@users.noreply.github.com"

@@ -11,6 +11,12 @@ on:
     - cron: "30 5 * * *" # UTC, 90 min before the 07:00 slot
   workflow_dispatch:
 
+# Serialize runs (Aug 3 race audit): parallel runs of the same lane
+# race on shared state; queued runs still fill every slot.
+concurrency:
+  group: ig-health
+  cancel-in-progress: false
+
 jobs:
   check:
     runs-on: ubuntu-latest

@@ -22,6 +22,15 @@ on:
         description: "posts/<name> to localize (default: newest un-localized)"
         default: ""
 
+# Serialize runs (Aug 3 dup post-mortem, run 30810127648): a 35-min-late cron
+# raced a manual dispatch, both localized the SAME post and @ainews.israel got
+# it twice. The EN workflow got this fix Aug 2 (issue #17); this lane never
+# inherited it. Queued runs re-checkout fresh main, so they pick the NEXT
+# backlog post instead of duplicating.
+concurrency:
+  group: ig-autopost-he
+  cancel-in-progress: false
+
 jobs:
   post-he:
     runs-on: ubuntu-latest
@@ -84,6 +93,19 @@ jobs:
           git commit -m "$POST_NAME-he" || echo "slides already in media repo"
           git pull --rebase || true   # another workflow may have pushed first
           git push
+
+      - name: Duplicate guard (a sibling run may have published while we rendered)
+        # Aug 3: localization takes ~20 min; the pick happens at checkout. If
+        # another run committed this post-he dir to main in that window, it is
+        # already live — publishing again duplicates the feed. Defense in depth
+        # on top of the concurrency group.
+        if: env.SKIP != 'true'
+        run: |
+          git fetch origin main --quiet
+          if git cat-file -e "origin/main:ig/posts-he/$POST_NAME/post-he.json" 2>/dev/null; then
+            echo "posts-he/$POST_NAME is already on main — a sibling run published it. Skipping."
+            echo "SKIP=true" >> "$GITHUB_ENV"
+          fi
 
       - name: Publish carousel to Instagram (ainews.israel)
         if: env.SKIP != 'true'
