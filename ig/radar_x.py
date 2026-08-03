@@ -282,6 +282,22 @@ def harvest():
             pool.append(m)
     pool = _approved_only(pool, watch)  # belt over the server-side from:
 
+    if not pool:
+        # twitterapi.io soft-fail (seen Aug 3: "success" + zero tweets on
+        # EVERY query while account credits were fine). A degraded API must
+        # not nuke the cache or burn the 8h poll window: keep last_poll
+        # unchanged so the next run retries, serve the last good harvest,
+        # and raise the alarm only if that is empty too.
+        json.dump(led, open(LEDGER, "w"), indent=1)  # reads still count
+        cached = _cached()
+        print(f"x radar: 0 tweets from ALL batches — degraded API? serving "
+              f"cache ({len(cached)} moments), retrying next run", file=sys.stderr)
+        if not cached:
+            alert_dead("advanced_search returned 0 tweets for every watchlist "
+                       "batch and the cache is empty too — the X lane (the "
+                       "ONLY content source) is starving.")
+        return cached
+
     pool.sort(key=lambda m: -m["vph"])
     moments, taken, per_acct = [], set(), {}
 
