@@ -1,0 +1,135 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>ארבעים אלף לייקים</em> על פוסט אחד: ה-AI של אינסטגרם המליץ על <em>המלכה אליזבת כאמנית מוזיקה מרגיעה</em>",
+   "hsize": 62,
+   "kicker": "40 אלף לייקים. גם Hatsune Miku ברשימה.",
+   "media": "posts/2026-08-03-we-gotta-take-ai-away-from-instagram-use/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הפיצ'ר שהיה אמור <em>להרגיע אותך</em>",
+   "body": "אינסטגרם הוסיפה פיצ'ר AI שבונה לך רשימת אמנים מרגיעים. <b>משתמש אחד קיבל ברשימה את המלכה אליזבת.</b> לא זמרת, לא מוזיקאית. מלכת אנגליה.",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "זה <em>לא נגמר במלכה</em>",
+   "body": "משתמש אחר קיבל רשימה עם <b>סוניק הקיפוד</b>, דמות ממשחק וידאו, ליד <b>Hatsune Miku</b>, כוכבת פופ וירטואלית. שאר הרשימה? באותה רמה בדיוק.",
+   "hsize": 88,
+   "media": "posts/2026-08-03-we-gotta-take-ai-away-from-instagram-use/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "<em>הרשימה המלאה</em> שפוצצה את הרשת",
+   "body": "הנה מה שהמשתמש קיבל: <b>2slimey, KSI, Tom Macdonald, סוניק הקיפוד, Toby Fox, Hatsune Miku.</b> ביניהם ראפרים של דיסים, ראפר פוליטי, דמות ממשחק וידאו, ומלחין פסקולים. <b>ה-AI סימן את כולם כמוזיקה מרגיעה.</b>",
+   "hsize": 95,
+   "media": "posts/2026-08-03-we-gotta-take-ai-away-from-instagram-use/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הפיצ'ר <em>הפך לבדיחה</em>",
+   "body": "<b>אנשים התחילו לבדוק את הפיצ'ר בכוונה</b>, רק כדי לראות מה עוד ה-AI ימציא להם. אינסטגרם תכננה כלי לרוגע, והוא הפך בן לילה לבידור.",
+   "hsize": 100,
+   "media": "posts/2026-08-03-we-gotta-take-ai-away-from-instagram-use/gen-4.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "<em>40 אלף לייקים</em> על דרישה אחת",
+   "body": "פוסט שדרש להסיר AI מאינסטגרם <b>קיבל 40 אלף לייקים וכמעט 408 אלף צפיות ביום אחד.</b> אינסטגרם שחררה את הפיצ'ר בלי לבדוק מה הוא באמת מוציא.",
+   "hsize": 80,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "יש לך חבר <em>שמנסה כל פיצ'ר חדש</em>?",
+   "body": "שלח לו את הפוסט ועקוב אחרי @ainews.israel כדי לא לפספס.",
+   "hsize": 60,
+   "media": null
+  }
+ ],
+ "caption": "ה-AI של אינסטגרם המליץ על המלכה אליזבת כזמרת מרגיעה, ואנשים השתגעו.\n\nהפיצ'ר בונה רשימת אמנים שאמורים להרגיע אותך, אבל במקום מוזיקאים הוא הוציא את סוניק הקיפוד ואת Hatsune Miku. פוסט שדרש להסיר AI מאינסטגרם קיבל 40 אלף לייקים וכמעט 408 אלף צפיות ביום אחד.\n\nמקורות: @seiyaposting on X\n\nעוקבים אחרי @ainews.israel\n\n#AI #Instagram #ArtificialIntelligence #Technology #SocialMedia",
+ "pinned_comment": "ניסית את הפיצ'ר? מה קיבלת ברשימה?",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "SOMEONE ASKED INSTAGRAM'S AI FOR RELAXING ARTISTS <em>AND QUEEN ELIZABETH WAS ON THE LIST</em>",
+   "INSTAGRAM BUILT AN AI TO SUGGEST CALMING MUSIC AND IT RECOMMENDED <em>QUEEN ELIZABETH AND SONIC THE HEDGEHOG</em>",
+   "INSTAGRAM'S AI JUST SUGGESTED <em>QUEEN ELIZABETH</em> AS ONE OF SOMEONE'S CALMING ARTISTS TO LISTEN TO",
+   "INSTAGRAM'S AI TOLD SOMEONE TO LISTEN TO <em>SONIC THE HEDGEHOG AND HATSUNE MIKU</em> TO CALM DOWN",
+   "SOMEONE'S INSTAGRAM AI LISTED THEIR CALMING ARTISTS AS <em>SONIC THE HEDGEHOG, HATSUNE MIKU, AND KSI</em>",
+   "AN AI ON INSTAGRAM <em>LISTED QUEEN ELIZABETH AS A SOOTHING ARTIST</em> RIGHT NEXT TO SONIC THE HEDGEHOG",
+   "INSTAGRAM BUILT AN AI TO RECOMMEND CALMING MUSIC <em>AND IT CHOSE A DEAD QUEEN AND A VIDEO GAME CHARACTER</em>",
+   "INSTAGRAM'S AI <em>PICKED QUEEN ELIZABETH AND SONIC THE HEDGEHOG</em> AS THE ARTISTS THAT WOULD CALM YOU DOWN",
+   "INSTAGRAM'S AI SAID <em>QUEEN ELIZABETH, SONIC THE HEDGEHOG, AND HATSUNE MIKU</em> WOULD CALM YOU DOWN"
+  ],
+  "scores": [
+   7,
+   8,
+   6,
+   7,
+   6,
+   9,
+   7,
+   8,
+   9
+  ],
+  "winner": 8,
+  "why": "Three unmistakably absurd names land in a row — each one a fresh 'wait, WHAT?' — and 'WOULD CALM YOU DOWN' delivers the payoff without wasting a word. [5] is sharp but two names stay one beat short of the pile-up that makes you screenshot it."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "SOMEONE ASKED INSTAGRAM'S AI FOR CALMING MUSIC, IT SAID <em>QUEEN ELIZABETH</em>, AND <em>40K PEOPLE</em> LIKED THE SCREENSHOT",
+   "<em>400K PEOPLE</em> SAW INSTAGRAM'S AI CALL <em>QUEEN ELIZABETH</em> A CALMING MUSIC ARTIST IN ONE DAY",
+   "INSTAGRAM'S AI JUST CALLED <em>QUEEN ELIZABETH</em> A CALMING MUSIC ARTIST, AND THE SCREENSHOT HAS <em>40K LIKES</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "Candidate 2 front-loads the punchline — 'QUEEN ELIZABETH A CALMING MUSIC ARTIST' lands before your brain can scroll away — then the 40K likes seal it as real. Candidate 0 makes you wade through 'SOMEONE ASKED... IT SAID' before the funny part arrives, and at 1.7 seconds that setup is already killing momentum."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Instagram",
+  "actor_known": true,
+  "anchor": "Instagram",
+  "specifics": [
+   "AI suggested Queen Elizabeth as a calming artist",
+   "Sonic the Hedgehog and Hatsune Miku appeared on someone's AI-generated artist list",
+   "Tweet got 40K likes and 407.7K views",
+   "Reply asked 'How is gucci flipflops gonna calm you down??'",
+   "Full list included KSI, Tom Macdonald, and Toby Fox"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "We gotta take AI away from Instagram users",
+  "link": "https://x.com/seiyaposting/status/2083787083517432276",
+  "judge_interest": 4,
+  "scout_score": 105.0
+ },
+ "hook_tournament_he": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "<em>המלכה אליזבת, זמרת מרגיעה</em>: הפיצ'ר החדש של אינסטגרם השתגע",
+   "<em>ארבעים אלף לייקים</em> על פוסט אחד: ה-AI של אינסטגרם המליץ על <em>המלכה אליזבת כאמנית מוזיקה מרגיעה</em>",
+   "ביקשת מה-AI של אינסטגרם מוזיקה מרגיעה, <em>וקיבלת את סוניק הקיפוד ואת המלכה אליזבת</em>",
+   "אינסטגרם שחררו AI בלי שמישהו יבדוק, ועכשיו הוא ממליץ על <em>המלכה אליזבת כאמנית מוזיקה מרגיעה</em>"
+  ],
+  "scores": [
+   5,
+   8,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "קאנדידט 1 נותן לי את כל מה שאני צריך בשורה אחת: הוכחה חברתית (40 אלף לייקים) + הטירוף עצמו (המלכה אליזבת כאמנית מרגיעה) — אני כבר מאמין שזה אמיתי לפני שאני מחליק. קאנדידט 2 מצחיק עם סוניק+המלכה אליזבת אבל חסרים לו המספרים שמוכיחים שהאינטרנט התפוצץ על זה."
+ }
+}
