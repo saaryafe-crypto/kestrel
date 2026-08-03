@@ -1,0 +1,79 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמישה מיליארדרים חושפים: <em>איך הם מקבלים החלטות</em>",
+   "hsize": 72,
+   "gen_face": "elon-musk",
+   "gen_logo": "tesla",
+   "media": "posts/2026-08-02-edu-5-billionaire-decision-frameworks-as-cop/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "אילון מאסק: תמחק כל שלב מיותר",
+   "hsize": 105,
+   "body": "השיטה פשוטה: תעבור על כל שלב בתהליך, <b>תמחק אותו, ותבדוק אם משהו השתנה</b>. אם לא השתנה, השלב לא צריך להיות שם. ככה מאסק מנהל את הייצור של Tesla.\n\nהפרומפט: תתאר ל-ChatGPT תהליך שאתה עושה, תבקש ממנו לעבור שלב שלב ולמחוק כל שלב שאם מורידים אותו לא משתנה כלום.",
+   "media": "posts/2026-08-02-edu-5-billionaire-decision-frameworks-as-cop/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "וורן באפט: רשימת 25 שנהפכת לחמישה",
+   "hsize": 115,
+   "body": "באפט נתן את החוק הזה לטייס שלו: <b>תכתוב 25 יעדים, תבחר את חמשת החשובים, ואת ה-20 שנשארו? אל תיגע בהם לעולם</b>. הם לא רזרבה, הם מלכודת.\n\nהפרומפט: תתן ל-ChatGPT את רשימת היעדים שלך, תבקש ממנו לבחור את חמשת היעדים ששווה להישאר איתם ולהסביר למה כל השאר רק מפריעים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ג'ף בזוס: תחשוב על עצמך בגיל 80",
+   "hsize": 105,
+   "body": "לפני החלטה גדולה, בזוס מדמיין את עצמו בן 80 ושואל: <b>על מה אני אתחרט יותר?</b> ככה הוא עזב עבודה ב-Wall Street בגיל 30 והקים את Amazon.\n\nהפרומפט: תתאר ל-ChatGPT החלטה שאתה מתלבט בה, תבקש ממנו לבחון אותה מנקודת המבט שלך בגיל 80 ולהגיד על איזו בחירה תתחרט יותר ולמה.",
+   "media": "posts/2026-08-02-edu-5-billionaire-decision-frameworks-as-cop/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "צ'ארלי מאנגר: תתכנן את הכישלון",
+   "hsize": 100,
+   "body": "במקום לשאול איך לצמוח, <b>מאנגר שואל איך העסק יכול להיכשל</b>. תרשום כל דרך אפשרית לכישלון, תדרג לפי סיכוי, ותהפוך כל אחת לפעולת מנע. ככה הוא בנה את Berkshire Hathaway.\n\nהפרומפט: תבקש מ-ChatGPT לרשום כל דרך שבה העסק שלך יכול להיכשל תוך 12 חודשים, לדרג את הסיכונים, ולהפוך כל כישלון לתיקון.",
+   "media": "posts/2026-08-02-edu-5-billionaire-decision-frameworks-as-cop/gen-4.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "ריי דאליו: חוק לכל טעות",
+   "hsize": 105,
+   "body": "כל פעם שדאליו חוזר על אותה טעות, <b>הוא כותב חוק ברור: אם קורה X, עושים Y</b>. ככה הוא בנה את Bridgewater, קרן הגידור הגדולה בעולם.\n\nהפרומפט: תתאר ל-ChatGPT טעות שאתה חוזר עליה, תבקש ממנו להפוך אותה לחוק if-then ברור שאפשר לעקוב אחריו כל פעם.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "חמישה פרומפטים, החלטה אחת טובה יותר",
+   "hsize": 88,
+   "body": "תשמור את הפוסט הזה ותשתמש בפרומפטים בפעם הבאה שיש החלטה גדולה.\n\nעוקבים אחרי @ainews.israel לעוד כלים כאלה כל יום ←",
+   "gen_face": "elon-musk",
+   "gen_logo": "tesla",
+   "media": null
+  }
+ ],
+ "caption": "חמישה מיליארדרים, חמש שיטות לקבל החלטות, וחמישה פרומפטים שאפשר להעתיק עכשיו ל-ChatGPT.\n\nמאסק מוחק שלבים מיותרים. באפט משאיר רק חמישה יעדים מתוך 25. בזוס מדמיין את עצמו בן 80. מאנגר מתכנן כישלונות. דאליו כותב חוק לכל טעות.\n\nמקורות: Walter Isaacson biography, Berkshire Hathaway shareholder letters, Jeff Bezos interviews, Bridgewater Associates\n\nעוקבים אחרי @ainews.israel לחדשות AI ופרומפטים כל יום.\n\n#AI #BusinessStrategy #Productivity #Entrepreneurship #AIPrompts",
+ "pinned_comment": "איזו שיטה הכי דיברה אליכם? אצלי זה בזוס, הטריק של גיל 80 שינה לי את הראש",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "BILLIONAIRES SPENT DECADES PERFECTING 5 DECISION TRICKS. <em>AI LETS YOU COPY ALL OF THEM IN 5 MINUTES</em>",
+   "MUSK, BUFFETT AND BEZOS MADE BILLIONS USING 5 THINKING TRICKS THAT <em>AI NOW TURNS INTO PROMPTS YOU COPY FOR FREE</em>",
+   "YOU'RE MAKING EVERY DECISION THE HARD WAY. <em>5 BILLIONAIRE THINKING TRICKS AI NOW RUNS FOR YOU IN SECONDS</em>",
+   "5 THINKING TRICKS THAT BUILT MUSK, BUFFETT AND BEZOS'S FORTUNES, <em>EACH ONE NOW A SINGLE AI PROMPT YOU STEAL TONIGHT</em>",
+   "5 DECISION TRICKS FROM MUSK, BUFFETT AND BEZOS, <em>TURNED INTO AI PROMPTS ANYONE CAN PASTE INTO CHATGPT TONIGHT</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   7,
+   8,
+   9
+  ],
+  "winner": 4,
+  "why": "Paste into ChatGPT tonight is surgically specific — I know exactly what I'm getting and I can do it in the next five minutes, which makes swiping feel worth it. Candidate 3 has great steal-it energy but 'single AI prompt' is fuzzier than naming the actual tool I already have open on my phone."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education"
+}
