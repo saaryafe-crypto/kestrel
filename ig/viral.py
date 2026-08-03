@@ -190,7 +190,25 @@ PLAYBOOK = {
 
 ANCHOR_RULE = """ANCHOR RULE (hard): the hook may only anchor on a name a random 16-year-old instantly recognizes. This story's anchor: "{anchor}". Unknown brands are dead weight in the 4 words that decide the swipe — use the universal noun instead ("a self-checkout", "an AI", the famous counterparty)."""
 
-SHARED_RULES = """- LENGTH 12-25 words, aim 15-20: ONE complete sentence that SUMMARIZES the whole story with its wildest specifics ON the cover — the price, the count, the first-ever, the absurd detail. Model (owner Aug 1, the reference page): "OPENAI JUST LAUNCHED THEIR FIRST EVER HARDWARE PRODUCT, A $230 LIGHT UP KEYBOARD BUILT TO RUN YOUR AI CODING AGENTS".
+# Mined Aug 3 from ~35 reference covers (@technology-school pages) after the
+# owner killed a shipped hook as "hard to understand": every strong reference
+# hook fills ONE of these structures. Writers pick a shape and fill its slots
+# — they never freestyle a fact list.
+SHAPES = """HOOK SHAPES (every reference-page hook fills ONE of these — pick the shape that fits this story, fill its slots with this story's facts):
+1. PERSON-BUILT-ABSURD (builder/person): [A GUY / THIS GUY / A 24-YEAR-OLD] [BUILT/MADE] [thing] THAT [wild outcome + number], [twist as trailing phrase]. Ref: "A GUY MADE AN APP THAT TEXTED 800 GIRLS ON INSTAGRAM WHILE HE SLEPT".
+2. RISE-THEN-FALL (results, person drama): [ACTOR] [record/win + number], THEN / AND STILL [loss + number] [during human scene]. Ref: "APPLE POSTED A RECORD $102.5 BILLION QUARTER AND THE STOCK STILL FELL 8% AFTER HOURS".
+3. FIRST-EVER-THEN-REVEAL (launches, corporate moves): [COMPANY] JUST [verb] THEIR FIRST EVER [category], A [$price] [plain-words description of the weird thing]. Ref: "OPENAI JUST LAUNCHED THEIR FIRST EVER HARDWARE PRODUCT, A $230 LIGHT UP KEYBOARD BUILT TO RUN YOUR AI CODING AGENTS".
+4. HUGE-YET-CLUELESS N-PROMISE (list/value): [TOOL] HAS [huge stat], YET MOST PEOPLE STILL DON'T [skill]. COPY THESE [N] [items] AND [outcome]. Two sentences: the gap, then the promise.
+5. QUIET-THREAT (threat): [POWER] IS QUIETLY [verb]ING YOUR [phone/money/battery], AND [scope / N-fix]. Ref: "IOS 26 IS QUIETLY DRAINING YOUR IPHONE BATTERY, AND 10 SETTINGS CAN FIX IT TODAY".
+6. LEAKED-FORBIDDEN (drama/insider): SOMEONE LEAKED / A LAWSUIT SAYS [famous name]'S [secret artifact], AND IT [verdict]. Ref: "SOMEONE LEAKED ELON MUSK'S 2018 INTERNAL TESLA MEMO, AND IT REMAINS ONE OF THE HARSHEST PRODUCTIVITY PLAYBOOKS EVER WRITTEN".
+7. YOU'RE-LATE (trend already happening): IT'S BEEN UNDER [time] SINCE [event], AND PEOPLE ARE ALREADY [wild thing] / PEOPLE ARE QUIETLY [money verb] WITH [free tool].
+8. SUPERLATIVE-N-LIST (list/value, short): THE [N] MOST [superlative] [category] EVER [verb] / [N] [items] THAT [beat the paid alternative]. Ref: "17 YOUTUBE CHANNELS THAT WILL TEACH YOU MORE ABOUT AI THAN MOST PAID COURSES".
+(micro) GIANT-ACTS-PETTY: a giant doing something small/stubborn to a little guy. Ref: "ELON MUSK SAW THIS FAN'S DRAWING AND BLOCKED HIM ON X".
+
+THE GRAMMAR OF EVERY SHAPE (measured on the corpus, zero exceptions): ONE subject, ONE action, ONE twist. The twist rides as a TRAILING PHRASE ("while he slept", "during his wedding", "for free") or after ONE connective (AND / YET / THEN / STILL) — never as a third clause. Three facts stapled with commas is a LIST, not a hook — the reference pages never ship one (failure model, owner-killed Aug 3: "MUSK DELETES EVERY STEP HE DOESN'T NEED, BUFFETT KILLS 20 OF HIS 25 GOALS, 5 FRAMEWORKS AS FREE CHATGPT PROMPTS" — three subjects, no sentence). Max 2 commas total. Need more? Split into two short sentences ("...WITH AI. IT COST HIM $863 AND 1.2 BILLION TOKENS"). Read each sentence out loud in ONE BREATH — if you stumble, rewrite."""
+
+SHARED_RULES = """- ONE IDEA (owner kill Aug 3, "hard to understand"): the hook is ONE story tension a 16-year-old repeats to a friend after ONE read — never a summary that stacks separate facts. "Complete" means the ONE idea is fully told with its specifics; it never means listing everything the post contains.
+- LENGTH 12-25 words, aim 15-20: ONE complete sentence that SUMMARIZES the whole story with its wildest specifics ON the cover — the price, the count, the first-ever, the absurd detail. Model (owner Aug 1, the reference page): "OPENAI JUST LAUNCHED THEIR FIRST EVER HARDWARE PRODUCT, A $230 LIGHT UP KEYBOARD BUILT TO RUN YOUR AI CODING AGENTS".
 - WITHHOLD NOTHING (owner doctrine Aug 1, reverses the Jul 29 gap rule): a riddle only works for pages with authority; a growing page earns the follow by DELIVERING on the cover. The reader should get the full story from the cover alone — the swipe is for the photos, the details and the fallout, which the wild content makes them want automatically.
 - Structure: [ACTOR] JUST [charged verb + what happened], [the specific that makes it wild]. Front-load the actor and verb; the numbers ride in the second half.
 - PERSON-FIRST (owner post-mortem Aug 1, the Situational-Awareness fund story): when ONE human drives the story, the PERSON is the actor — identity fact + rise + fall + the human scene ("THIS 24-YEAR-OLD BUILT A $45 BILLION AI FUND. THEN LOST 67% OF IT DURING HIS WEDDING" — the reference page's winner). Leading with the thing ("A $45 BILLION AI FUND COLLAPSED IN DAYS") is the failure model: people stop for people. A retellable human scene (a wedding, a courtroom) on the cover outranks any percentage.
@@ -210,6 +228,7 @@ def hook_block(ctx):
     return f"""STORY TYPE: {ctx['story_type']} — hooks for this type follow this formula, it overrides any generic hook advice below:
 {pb['lead']}
 {ANCHOR_RULE.format(anchor=ctx.get('anchor') or ctx.get('actor') or 'the story subject')}
+{SHAPES}
 Hook ammunition (the most shareable TRUE specifics, best first):
 {spec or '- (use the story facts)'}"""
 
@@ -337,7 +356,77 @@ def _pre_filter(cands, ctx=None, lo=10):
     if no_hedge and len(no_hedge) < len(kept):
         print(f"viral: dropped {len(kept) - len(no_hedge)} hedged candidate(s)",
               file=sys.stderr)
-    return no_hedge or kept
+    kept = no_hedge or kept
+    # comma gate (shape mining Aug 3: max 2 commas across ~35 reference hooks
+    # — a third comma is the fact-list smell the owner killed as "hard to
+    # understand"). Deterministic, falls open.
+    flowing = [c for c in kept
+               if re.sub(r"<[^>]+>", "", c["headline"]).count(",") <= 2]
+    if flowing and len(flowing) < len(kept):
+        print(f"viral: dropped {len(kept) - len(flowing)} candidate(s) with "
+              "3+ commas (fact-list grammar)", file=sys.stderr)
+    return flowing or kept
+
+
+COMPREHEND_SCHEMA = {
+    "type": "object",
+    "properties": {"results": {"type": "array", "items": {
+        "type": "object",
+        "properties": {"restate": {"type": "string"},
+                       "clear": {"type": "integer"},
+                       "one_idea": {"type": "boolean"}},
+        "required": ["restate", "clear", "one_idea"]}}},
+    "required": ["results"],
+}
+
+
+def _comprehension(cands, lang="en"):
+    """THE MISSING GATE (owner kill Aug 3: a shipped hook was "hard to
+    understand" — every existing gate tested rules, none tested whether a
+    stranger UNDERSTANDS the line). A blind reader model sees only the hooks
+    and must repeat each one back: can't restate it simply on first read, or
+    it reads as a fact list instead of one idea -> the hook dies no matter
+    how good its specifics are. Falls open (never empties the list; one
+    retry per the Aug 3 plumbing audit)."""
+    if len(cands) < 2:
+        return cands
+    listing = "\n".join(
+        f"[{i}] {re.sub('</?em>', '', c['headline'])}"
+        for i, c in enumerate(cands))
+    restate_lang = ("Restate in HEBREW — you read Hebrew natively."
+                    if lang == "he" else "")
+    prompt = f"""You see Instagram cover headlines cold — no story, no context, exactly like a stranger scrolling. For each one, after ONE read:
+- "restate": what happened, in one plain spoken sentence a 16-year-old would say to a friend. {restate_lang}
+- "clear": 1-5 — how sure are you that you understood it on the FIRST read? 5 = instantly obvious, 4 = got it, 3 = had to re-read a part, 2 = had to re-read all of it, 1 = still not sure what it says.
+- "one_idea": true if the line tells ONE story (one subject doing one thing, possibly with a twist); false if it reads as separate facts stapled together (multiple subjects each doing their own thing, a list wearing a sentence's clothes).
+
+HEADLINES:
+{listing}
+
+Return ONLY JSON: {{"results": [one object per headline, same order]}}"""
+    for attempt in range(2):
+        try:
+            r = _judge_claude(prompt, COMPREHEND_SCHEMA)
+            res = r.get("results", [])
+            if len(res) != len(cands):
+                raise ValueError(f"{len(res)} results for {len(cands)} hooks")
+            kept, dead = [], []
+            for c, v in zip(cands, res):
+                if int(v.get("clear", 0)) >= 4 and v.get("one_idea"):
+                    kept.append(c)
+                else:
+                    dead.append((c, v))
+            for c, v in dead:
+                print(f"comprehension gate killed [{v.get('clear')}/5, "
+                      f"one_idea={v.get('one_idea')}]: "
+                      f"{re.sub('</?em>', '', c['headline'])[:70]}",
+                      file=sys.stderr)
+            return kept or cands  # fall open — always-post doctrine
+        except Exception as e:
+            print(f"comprehension gate failed ({e})"
+                  + (" — retrying once" if attempt == 0 else " — falling open"),
+                  file=sys.stderr)
+    return cands
 
 
 def judge(cands, ctx, lang="en"):
@@ -348,6 +437,7 @@ def judge(cands, ctx, lang="en"):
     # Hebrew packs prepositions/articles into words — a full summary can be
     # shorter, so the floor relaxes
     cands = _pre_filter(cands, ctx, lo=8 if lang == "he" else 10)
+    cands = _comprehension(cands, lang=lang)
     if len(cands) < 2:
         return (cands[0] if cands else None), None
     order = list(range(len(cands)))
@@ -364,7 +454,7 @@ def judge(cands, ctx, lang="en"):
 TRUE FACTS (use ONLY for the truth kill rule below — you still react as a stranger):
 {facts or '- (none listed)'}
 
-Score each candidate 0-10 on ONE thing: IMPACT — would you stop scrolling, read it, and swipe? Trust your gut. A hook that makes you think "wait, WHAT?" beats one that sounds professionally crafted but doesn't make you feel anything. You don't know this page, so a cover that TELLS you the full wild story with its real numbers beats a cryptic tease that hides what happened — you'd swipe for the photos and details of a story you already believe, not to solve a stranger's riddle.
+Score each candidate 0-10 on ONE thing: IMPACT — would you stop scrolling, read it, and swipe? Trust your gut. A hook that makes you think "wait, WHAT?" beats one that sounds professionally crafted but doesn't make you feel anything. You don't know this page, so a cover that TELLS you the full wild story with its real numbers beats a cryptic tease that hides what happened — you'd swipe for the photos and details of a story you already believe, not to solve a stranger's riddle. INSTANT rule: you give each line ~1.7 seconds — a hook you had to read twice to parse scores 3 at most, no matter how good its facts are.
 
 KILL RULES (score 0 TOTAL, no matter how good it sounds):
 - TRUTH: states as DONE something the facts say was only tried/almost/blocked ("SENT" when it only TRIED to send), or invents a claim the facts don't support
