@@ -307,7 +307,7 @@ THE CTA CLOSER (owner doctrine Aug 1, the reference page's last slide: Tim Cook 
 
 CLASH-CAST (owner's gold standard, Aug 1): when the story is a clash or a deal between TWO named famous people — a buyer and a seller, a winner and a loser, a hunter and the hunted — put BOTH recognizable likenesses in ONE composed scene that acts out the power dynamic: the winner looming calm and in command, the loser cornered mid-loss, faces large and close together, one clearly dominant. The story's world rages behind them (a trading floor of crashing red chart lines, a courtroom, a launchpad). Reference: the $45B fire-sale story → the young founder slumped at the deal table while the older billionaire stands over him signing, walls of red crashing charts behind. The pair reads as ONE unit; this beats a lone reaction face whenever the story has two famous sides. Write BOTH full names directly in the brief text AND return them comma-separated in "face" (that field routes to the person model — see the famous-people rule below). If a side is not famous enough to recognize, that person appears FACELESS (from behind, silhouette, or hands only), and if neither side is famous, drop CLASH-CAST entirely and dramatize with objects and stakes instead.
 
-THE SITUATION PORTRAIT (owner order Aug 3 — his exact formula, written after the $750B failure shipped a bare press-photo crop of Musk with two identical black logo discs on an empty blurred background; his verdict: "a picture of the SITUATION!!!!"): when the cover story is one famous person winning or losing something big, write the cover brief the way the owner writes it: "Elon Musk with a devastated look like he just lost $750 billion, red crashing stock charts covering the wall of screens behind him". Two halves, both mandatory: the FACE carries the story's emotion (devastated for a loss, triumphant for a win, 40%+ of frame), and the BACKGROUND makes the situation itself visible — crashing red charts for a wipeout, raining cash for a windfall, a cheering crowd for a victory. A neutral portrait, an empty background, or a blurred nothing behind the person is a FAILED cover, no matter how good the likeness is. The renderer may stamp small brand discs on top afterward — the scene itself must still tell the story without them.
+THE SITUATION PORTRAIT (owner order Aug 3 — his exact formula, written after the $750B failure shipped a bare press-photo crop of Musk with two identical black logo discs on an empty blurred background; his verdict: "a picture of the SITUATION!!!!"): when the cover story is one famous person winning or losing something big, write the cover brief the way the owner writes it: "Elon Musk with a devastated look like he just lost $750 billion, red crashing stock charts covering the wall of screens behind him". Two halves, both mandatory: the FACE carries the story's emotion (devastated for a loss, triumphant for a win, 40%+ of frame), and the BACKGROUND makes the situation itself visible — crashing red charts for a wipeout, raining cash for a windfall, a cheering crowd for a victory. LOUD AND COLORFUL (owner Aug 3, after the $750B cover shipped its charts as near-black murk: "we need to make the background a lot more colorful... more dramatic"): write the background as BRIGHT, saturated and glowing — "a floor-to-ceiling wall of glowing screens ablaze with crashing red stock charts", not "dark screens behind him" — it fills every pixel behind the person with vivid story imagery. A neutral portrait, an empty background, a blurred nothing, or a dim barely-there backdrop is a FAILED cover, no matter how good the likeness is. The renderer stamps brand discs in the upper corners afterward with the person layered OVER them, so keep the person's head centered and the corners clear — the scene itself must still tell the story without the discs.
 
 {face_note}
 {logo_note}
@@ -1489,10 +1489,21 @@ def main(stories_path):
         # owner formula Aug 3 ("a picture of the SITUATION!!!!... then you
         # also add the logos and it looks so much better"): the generated
         # scene already shows the person living the story — the brand discs
-        # ride ON TOP of the full-bleed image, no cutout, no blur.
+        # ride over the full-bleed image, no cutout, no blur.
+        # LAYERING (owner Aug 3, the $750B cover — the SpaceX disc clipped
+        # Musk's hair): the person from the SAME image re-draws on top of
+        # the discs, so logos sit BEHIND the person and the person wins any
+        # collision. rembg failure -> discs on top as before, never fatal.
+        import composite
+        pl = composite.person_layer(
+            os.path.join(HERE, cover["media"]),
+            os.path.join(post_dir, "person-layer.png"))
+        if pl:
+            cover["person_layer"] = os.path.relpath(pl, HERE)
         cover["discs"] = discs
         cover.pop("logos", None)
-        print("situation cover: discs over generated scene — "
+        print("situation cover: discs over generated scene"
+              + (" (person re-drawn on top)" if pl else "") + " — "
               + ", ".join(d.get("logo") or f'"{d["text"]}"' for d in discs),
               file=sys.stderr)
     elif discs and cover.get("media") and \

@@ -230,11 +230,15 @@ function fitLines(h){
 function scrim(){
   var bleed=document.querySelector('.bleed'),shade=document.querySelector('.shade');
   var cut=document.querySelector('.cut');
+  /* ALL bleeds get the same height: the person_layer overlay is a second
+     .bleed that must keep the exact crop+fade of the base scene */
+  var bleeds=document.querySelectorAll('.bleed');
+  function setH(h){bleeds.forEach(function(b){b.style.height=h+'px'})}
   if(!(bleed||cut)||!shade)return;
   var mast=document.querySelector('body.cover .frame .masthead');
   if(mast){
     var edge=Math.max(420,Math.min(1350,Math.round(mast.getBoundingClientRect().top)+12));
-    if(bleed)bleed.style.height=(edge+50)+'px';
+    if(bleed)setH(edge+50);
     if(cut)cut.style.height=(edge+24)+'px';
     shade.style.background='linear-gradient(180deg,rgba(0,0,0,.25) 0px,rgba(0,0,0,0) 140px,'
       +'rgba(0,0,0,0) '+(edge-190)+'px,rgba(5,5,5,.6) '+(edge-70)+'px,'
@@ -245,7 +249,7 @@ function scrim(){
   if(!anchor)return;
   var top=anchor.getBoundingClientRect().top;
   var edge=Math.max(420,Math.min(1350,Math.round(top)+120));
-  bleed.style.height=edge+'px';
+  setH(edge);
   shade.style.background='linear-gradient(180deg,rgba(0,0,0,.25) 0px,rgba(0,0,0,0) 140px,'
     +'rgba(0,0,0,0) '+Math.max(140,edge-330)+'px,rgba(5,5,5,.55) '+Math.max(200,edge-150)+'px,'
     +'rgba(5,5,5,.9) '+edge+'px,rgba(5,5,5,.94) 1350px)';
@@ -335,11 +339,19 @@ def slide_html(s, handle, total, fallback_media=None):
             cls = "cover composed"
         elif media:
             # situation cover (owner Aug 3): generated scene full-bleed,
-            # brand discs may ride on top
+            # brand discs may ride on top. person_layer (owner Aug 3, $750B
+            # cover: disc clipped the hair): person from the SAME image
+            # re-draws OVER the discs with identical .bleed CSS — logos sit
+            # behind the person, the person wins collisions.
             discs = discs_html(s)
+            person = ""
+            pl = s.get("person_layer")
+            if pl and os.path.exists(os.path.join(HERE, pl)):
+                person = (f'<div class="bleed" style="background-image:'
+                          f'url(\'{os.path.join(HERE, pl)}\')"></div>')
             bg = (f'<div class="bgblur" style="background-image:url(\'{media}\')"></div>'
                   f'<div class="bleed" style="background-image:url(\'{media}\')"></div>'
-                  f'{discs}<div class="shade"></div>')
+                  f'{discs}{person}<div class="shade"></div>')
             cls = "cover"
         else:
             bg = art_bg(s["headline"])

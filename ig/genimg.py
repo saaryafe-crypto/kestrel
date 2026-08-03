@@ -193,8 +193,14 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
               "uncluttered. Lighting: bright, high-contrast editorial lighting, "
               "colors vivid and saturated with ONE punchy accent color echoing "
               "the subject — energetic like a breaking-news press photo, never "
-              "murky, never moody-dark; background softer and darker than the "
-              "subject, never white. Realism: real documentary press photograph, "
+              "murky, never moody-dark. Background (owner order Aug 3, the $750B "
+              "cover shipped near-black murk behind the face): the background is "
+              "LOUD — it fills the frame edge to edge with saturated, glowing, "
+              "colorful imagery of the story's world (walls of bright screens, "
+              "vivid charts, rich environments), softly defocused so the subject "
+              "stays the sharpest thing in frame; a dark empty wall, a black "
+              "void, or a barely-visible backdrop is a failure. Never white. "
+              "Realism: real documentary press photograph, "
               "natural skin texture, slight film grain, ultra detailed — never "
               "concept art, never a sci-fi render, never waxy AI-smooth plastic "
               "skin, no purple-teal sci-fi glow. If the scene includes a "
@@ -204,6 +210,15 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
               "screens must never show readable text: any paperwork is blank, "
               "turned away, or defocused beyond reading. No watermarks, no "
               "captions, no logos beyond those on the real product.")
+    if person and cover:
+        # disc clearance (owner Aug 3, the $750B cover: the SpaceX disc
+        # clipped Musk's hair): the renderer stamps ~330px logo discs in the
+        # two upper corners — the head must never reach them. The person
+        # re-draws over the discs anyway (person_layer), but a clean frame
+        # beats a repaired one.
+        prompt += (" Framing: the person is centered with their head in the "
+                   "middle of the upper half; both upper corners of the frame "
+                   "stay clear of the person — only background there.")
     live_refs = [r for r in (refs or []) if os.path.exists(r)]
     if live_refs:
         # identity anchor (Aug 1, keypad post-mortem: from-scratch Altman and
