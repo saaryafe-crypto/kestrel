@@ -41,6 +41,19 @@ def _judge_claude(prompt, schema):
     return call_claude(prompt, schema=schema, model=JUDGE_MODEL)
 
 
+def law():
+    """THE LAW (ig/doctrine.md, owner order Aug 4): the shared definition of a
+    winning post, injected into every STAFF call — classify, hook candidates,
+    the sharpener. The blind-reader judges (tournament judge, comprehension
+    gate, reel-title judge) stay deliberately blind: they simulate the
+    AUDIENCE, and an audience member who has read the style guide is no
+    longer a stranger scrolling at 2am."""
+    try:
+        return open(os.path.join(HERE, "doctrine.md")).read() + "\n\n----\n\n"
+    except Exception:
+        return ""
+
+
 def _no_dashes(t):
     from write import no_dashes
     return no_dashes(t)
@@ -72,7 +85,7 @@ TYPES = """- corporate_move: a company/institution makes a strategic bet, layoff
 def classify(story, material=""):
     """One cheap call that decides which hook formula applies. Fails open to
     corporate_move + known actor (= exactly the old system's behavior)."""
-    prompt = f"""Classify this news story for Instagram packaging.
+    prompt = f"""{law()}Classify this news story for Instagram packaging.
 
 Title: {story['title']}
 Material: {(material or '')[:1500]}
@@ -275,7 +288,7 @@ def rival_hooks(story, ctx, material="", lang="en", n=5, img=""):
             doctrine = he.doctrine()
         except Exception:
             pass
-    prompt = f"""{intro}
+    prompt = f"""{law()}{intro}
 Write {n} cover headlines for this story — {n} genuinely DIFFERENT attacks, not rewordings.
 
 STORY: {story['title']}
@@ -544,7 +557,7 @@ def sharpen(win, ctx, material="", lang="en", news=True, payload="", img=""):
         "- Keep the container's own length/format rules (an edu N-promise "
         "cover stays SHORT, 5-10 words, number first).")
     pay = f"\nWHAT THE INSIDE SLIDES ACTUALLY DELIVER (the hook must promise exactly this, never more):\n{payload}" if payload else ""
-    prompt = f"""{intro}
+    prompt = f"""{law()}{intro}
 You are the page's HOOK SPECIALIST — the last editor before publish. Below is the current winning cover hook. Your job: beat it, or prove it can't be beaten.
 
 CURRENT WINNER: {win['headline']}

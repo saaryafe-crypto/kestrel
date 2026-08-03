@@ -11,9 +11,9 @@ from datetime import date
 
 import genimg
 import viral
-from write import (HERE, art_direct, call_claude, face_riders, image_score,
-                   logo_ref, principles, qa, scrub_dashes, simpler_brief,
-                   slugify)
+from write import (HERE, art_direct, call_claude, doctrine, face_riders,
+                   image_score, logo_ref, principles, qa, qa_repair,
+                   scrub_dashes, simpler_brief, slugify)
 
 USED = os.path.join(HERE, "edu-used.json")
 
@@ -55,7 +55,7 @@ def build_prompt(used_topics, headlines=""):
 TODAY'S NEWS — optional anchors: a guide that piggybacks a live story rides its wave ("GPT-5 dropped yesterday — 5 things it already does for your business"). Use one ONLY if you can build genuine utility on it; never force it:
 {headlines}
 """ if headlines else "")
-    return f"""You write Instagram carousels for @yaffeai — an AI-news page in the style of @technology, funneling followers to an AI-consulting business. Today's post is the **ai_education** container: an educational save-magnet carousel. No news story — you pick the topic.
+    return f"""{doctrine()}You write Instagram carousels for @yaffeai — an AI-news page in the style of @technology, funneling followers to an AI-consulting business. Today's post is the **ai_education** container: an educational save-magnet carousel. No news story — you pick the topic.
 
 CONTAINER SPEC (ai_education): {json.dumps(spec['containers']['ai_education'])}
 CAPTION BLOCKS: {json.dumps(spec['caption_blocks'])}
@@ -225,6 +225,33 @@ def main():
               "flagged for the daily report", file=sys.stderr)
     print(f"{gen} Seedream image(s) generated", file=sys.stderr)
     scrub_dashes(post)  # owner rule: dashes never reach a published slide
+
+    # GATE B — editor-in-chief final review (owner order Aug 4). edu.py is the
+    # workflow ladder's LAST rung, so unlike write.py it never exits nonzero
+    # on a final REJECT: it takes one surgical repair, and if the editor still
+    # objects it ships FLAGGED (editor_override) so the daily report screams —
+    # the 7/day rule beats the standard only at the very bottom of the ladder.
+    import editor
+    cm = post["slides"][0].get("media")
+    cover_path = os.path.join(HERE, cm) if cm else None
+    ok, reasons = editor.gate_b(post, cover_path)
+    if not ok:
+        fixed = qa_repair(post, ["editor reject: " + r for r in reasons])
+        if fixed and len(fixed.get("slides", [])) == len(post["slides"]):
+            for s_old, s_new in zip(post["slides"], fixed["slides"]):
+                for k in ("headline", "body", "kicker"):
+                    if s_new.get(k):
+                        s_old[k] = s_new[k]
+            if fixed.get("caption"):
+                post["caption"] = fixed["caption"]
+            scrub_dashes(post)
+            ok, reasons = editor.gate_b(post, cover_path)
+        if not ok:
+            post["editor_override"] = "; ".join(reasons)[:400]
+            print("EDITOR OVERRIDE: gate B still rejects after repair but this "
+                  "is the ladder's last rung — shipping flagged for the daily "
+                  "report: " + "; ".join(reasons), file=sys.stderr)
+
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)
     subprocess.run([sys.executable, os.path.join(HERE, "render.py"),
                     os.path.join(post_dir, "post.json"), post_dir], check=True)

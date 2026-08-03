@@ -17,7 +17,7 @@ import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
 import bundle
-from write import call_claude, no_dashes, principles
+from write import call_claude, doctrine, no_dashes, principles
 from render import CHROME
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -176,7 +176,7 @@ def build_prompt(cands, recent=()):
     if recent:
         recent_block = ("\n\nALREADY POSTED (last 7 days — reels we published):\n"
                         + "\n".join(f"- {t}" for t in recent) + "\n")
-    return f"""You run @yaffeai, an AI/tech Instagram page modeled on @technology (8.7M followers). Below are the most viral AI/tech clips tweeted by the X channels the owner personally approved — real engagement velocity, the crowd already voted. Pick ONE to repost as a branded reel, exactly in their register.
+    return f"""{doctrine()}You run @yaffeai, an AI/tech Instagram page modeled on @technology (8.7M followers). Below are the most viral AI/tech clips tweeted by the X channels the owner personally approved — real engagement velocity, the crowd already voted. Pick ONE to repost as a branded reel, exactly in their register.
 
 CANDIDATES:
 {chr(10).join(lines)}{recent_block}

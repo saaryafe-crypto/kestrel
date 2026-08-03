@@ -254,7 +254,14 @@ def judge(stories):
             ev.append(f'"{s["trend_term"]}" is a trending US Google search '
                       f"right now ({s['trend_traffic']:,}+ searches)")
         lines.append(f"[{i}] {s['title']}" + (f"  ({'; '.join(ev)})" if ev else ""))
-    prompt = f"""You are the content scout for an Instagram page covering AI, technology, space, business, investing, and money. Score EVERY story below 0-10 on INTEREST: would a 19-year-old scrolling Instagram stop for this?
+    # THE LAW rides on every judge call (owner order Aug 4): the scout scores
+    # against the same doctrine.md every other stage reads — ten private
+    # definitions of "good" is how the Queen/Mario disasters shipped.
+    try:
+        law = open(os.path.join(HERE, "doctrine.md")).read() + "\n\n----\n\n"
+    except Exception:
+        law = ""
+    prompt = f"""{law}You are the content scout for an Instagram page covering AI, technology, space, business, investing, and money. Score EVERY story below 0-10 on INTEREST: would a 19-year-old scrolling Instagram stop for this?
 
 Scoring doctrine:
 - 9-10: a PERSON did something outrageous and there's a concrete outcome with a number ("a student built an app that made $40K while he slept"). People DOING things beat companies announcing things. Top shapes in this tier: the MONEY ARC (tiny spend, built a real thing, short time, big money out: "spent $20 on Claude, built X in 9 days, sold it for $317K"); THE INVENTOR (a college kid, teenager, or scrappy entrepreneur BUILT or INVENTED a real cool thing — the underdog-builds story); "PEOPLE ARE LETTING AI DO X FOR THEM" (ordinary people quietly handing a real job like trading or selling to an AI, already happening, reader feels late); a named rich person BUYING or LOSING something huge ("Zuckerberg just bought X for $2B", "Musk lost $16B in one day"); and SPACE-AS-BUSINESS AWE (a Starship exploding on the pad, SpaceX/Starlink hitting a giant number, a space startup pulling off something crazy) — space belongs here ONLY as a technology/company/money story, never as astronomy.

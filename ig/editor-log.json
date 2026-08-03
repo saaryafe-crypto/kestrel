@@ -1,0 +1,23 @@
+[
+ {
+  "t": "2026-08-03T21:30:52Z",
+  "gate": "A",
+  "subject": "We gotta take AI away from Instagram users",
+  "verdict": "KILL",
+  "reason": "Textbook reaction-bait — the entire 'event' is screenshots of Instagram AI being silly and people laughing in replies, with zero real-world consequence; the Doctrine names the Queen Elizabeth playlist meme as the exact failure model this rule was written to prevent."
+ },
+ {
+  "t": "2026-08-03T21:31:00Z",
+  "gate": "A",
+  "subject": "Uhhhh, what a creepy video for Mario Lopez to create using AI and then post… Especially since the subject is his niece!",
+  "verdict": "KILL",
+  "reason": "Classic reaction-bait: the entire 'event' is that someone posted something online and people reacted — no real-world consequence (no lawsuit, no firing, no product pulled), just likes and replies piling on."
+ },
+ {
+  "t": "2026-08-03T21:32:56Z",
+  "gate": "B",
+  "subject": "THE PERSON MAYO CLINIC HIRED TO KEEP THEIR AI SAFE <em>IS NOW SUING THEM FOR HIDING ITS 67% ERROR RATE ON REAL PATIENTS<",
+  "verdict": "REJECT",
+  "reason": "ONE FACT, THREE SLIDES: The 67% error rate is restated three times — cover ('67% error rate'), slide 2 ('failed two out of three'), slide 4 ('33% accuracy / coin flip'). §4 requires a new fact per slide. The coin-flip comparison is a reframe, not a new fact. Cut slide 4 or replace its content with a genuinely new detail (which AI tool, what diagnoses, how many patients affected, what the lawsuit f"
+ }
+]

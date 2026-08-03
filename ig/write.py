@@ -286,7 +286,7 @@ def art_direct(post, story_title=""):
         '"the company logo exactly as in the reference image". Never let the '
         'model draw a listed brand\'s logo from memory.')
         if logo_list else "")
-    prompt = f"""You are the cover-image director of a viral news Instagram page. You write the final image-generation prompts for the Seedream photo model. The doctrine below is distilled from published research on scroll-stopping feed imagery (thumbnail CTR studies: emotional faces +42%, image-headline synergy up to +154%; MrBeast-school single-focal analysis; 2026 anti-AI-slop guides) — follow it exactly. The image fills the top two-thirds of the frame above the headline and gets ~0.4 seconds at phone size.
+    prompt = f"""{doctrine()}You are the cover-image director of a viral news Instagram page. You write the final image-generation prompts for the Seedream photo model. The doctrine below is distilled from published research on scroll-stopping feed imagery (thumbnail CTR studies: emotional faces +42%, image-headline synergy up to +154%; MrBeast-school single-focal analysis; 2026 anti-AI-slop guides) — follow it exactly. The image fills the top two-thirds of the frame above the headline and gets ~0.4 seconds at phone size.
 
 STORY: {story_title}
 SLIDES (index, final headline, the writer's rough concept):
@@ -472,10 +472,19 @@ def pick_story(stories):
     # were all dupes of that morning's posts while story #4 was fine)
     while fresh:
         s = _rank(fresh[:12], recent)  # rank in windows of 12 to keep the prompt tight
-        if not is_dupe(s["title"], recent):
+        if is_dupe(s["title"], recent):
+            print(f"semantic dupe of a published post — skipping: {s['title']}",
+                  file=sys.stderr)
+            fresh = [x for x in fresh if x is not s]
+            continue
+        # GATE A — editor-in-chief (owner order Aug 4, Queen/Mario post-mortem):
+        # the ranker only answers "best of this pool"; the editor owns "worth
+        # posting at ALL" against doctrine.md. KILL is binding — the next
+        # candidate competes, the slot never dies (always-post intact).
+        import editor
+        ok, _ = editor.gate_a(s, (s.get("radar") or {}).get("selftext", ""))
+        if ok:
             return s
-        print(f"semantic dupe of a published post — skipping: {s['title']}",
-              file=sys.stderr)
         fresh = [x for x in fresh if x is not s]
     return None
 
@@ -529,7 +538,7 @@ def _rank(fresh, recent=()):
                 "saved, hours cut, customers won). Only if NO candidate has a "
                 "business-result-with-a-number do the normal rules below "
                 "decide.\n\n")
-    prompt = f"""{published}{scoreboard_block()}{pref}Pick the ONE story below that our audience would care most about. The page's paying audience is US small-business OWNERS — the goal is that an owner reads the post and books a meeting. Ranking rules, in order:
+    prompt = f"""{doctrine()}{published}{scoreboard_block()}{pref}Pick the ONE story below that our audience would care most about. The page's paying audience is US small-business OWNERS — the goal is that an owner reads the post and books a meeting. Ranking rules, in order:
 1. Gives a business owner real value: a result, tool, or number they could use in their own business (AI that saved a company money, replaced hours of work, brought customers — a case study with numbers is gold)
 2. Touches the reader's own life: their money, their phone, their job, apps everyone uses
 3. Names everyone knows (Apple, Tesla, Musk, ChatGPT, Netflix...) beat unknown startups and GitHub projects
@@ -548,6 +557,19 @@ Return ONLY a JSON object: {{"pick": <index>}}"""
     except Exception as e:
         print(f"story pick failed ({e}) — falling back to first", file=sys.stderr)
         return fresh[0]
+
+
+def doctrine():
+    """THE LAW (ig/doctrine.md, owner order Aug 4): the single definition of a
+    winning post, injected into EVERY pipeline Claude call — judge, picker,
+    writer, tournament, art director, image judge, QA, editor. Rules scattered
+    across ten private prompts is how the Queen/Mario disasters shipped; one
+    file binding everyone is the fix. It self-declares that it outranks
+    everything else in any prompt it appears in."""
+    p = os.path.join(HERE, "doctrine.md")
+    if not os.path.exists(p):
+        return ""
+    return open(p).read() + "\n\n----\n\n"
 
 
 def inspiration():
@@ -851,6 +873,7 @@ Pick "cover_style":
 "logos" array may ALSO be set together with "photo": the logo(s) are overlaid on top of the photo (one logo max in that case — pick the company the story is about). NEVER overlay a flat logo when the photo shows a person's face — it lands on top of them and looks amateur; for a famous person's photo use the COMPOSED COVER discs instead (below) and leave logos empty
 THE KICKER (forensic upgrade Aug 2 — the reference pages use the tiny strip under the headline for a SECOND hook beat, not a generic swipe prompt: "WITHOUT SONY LIFTING A FINGER", "HE DOES NOT WANT THEIR MONEY", "BUILT WITH CLAUDE CODE, OPEN SOURCE", "5 SETTINGS TO SWITCH OFF"): the cover slide MAY set "kicker": 3-7 words, TRUE facts only, carrying the story's twist, consequence or bonus promise that is NOT already worded in the headline. It renders tiny in the strip — the headline must still work with the kicker covered. If the story has no real second beat, OMIT it (the strip then says "Swipe for more") — a filler kicker is worse than none. There is NO other subline (owner rule Aug 1): every word of the main hook lives in the big headline itself.
 
+{doctrine()}
 {principles()}
 {inspiration()}
 CONTAINER SPEC (daily_item): {json.dumps(spec['containers']['daily_item'])}
@@ -1576,6 +1599,31 @@ def main(stories_path):
                        "scout_score": story.get("score")})
 
     scrub_dashes(post)  # hard gate: no dash survives, whatever the model wrote
+
+    # GATE B — editor-in-chief final review (owner order Aug 4): the finished
+    # product (hook + slides + the ACTUAL cover image) judged against
+    # doctrine.md minutes before publish. REJECT drives one surgical text
+    # repair (structural fields never touched — only headline/body/kicker/
+    # caption merge back); a post that still fails exits nonzero and the
+    # workflow ladder's next rung fills the slot (always-post intact).
+    import editor
+    cm = post["slides"][0].get("media")
+    ok, reasons = editor.gate_b(post, os.path.join(HERE, cm) if cm else None)
+    if not ok:
+        fixed = qa_repair(post, ["editor reject: " + r for r in reasons])
+        if fixed and len(fixed.get("slides", [])) == len(post["slides"]):
+            for s_old, s_new in zip(post["slides"], fixed["slides"]):
+                for k in ("headline", "body", "kicker"):
+                    if s_new.get(k):
+                        s_old[k] = s_new[k]
+            if fixed.get("caption"):
+                post["caption"] = fixed["caption"]
+            scrub_dashes(post)
+            ok, reasons = editor.gate_b(post, os.path.join(HERE, cm) if cm else None)
+        if not ok:
+            raise SystemExit("editor gate B rejected the post after repair: "
+                             + "; ".join(reasons))
+
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)
     subprocess.run([sys.executable, os.path.join(HERE, "render.py"),
                     os.path.join(post_dir, "post.json"), post_dir], check=True)
