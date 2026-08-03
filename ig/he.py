@@ -368,8 +368,14 @@ def localize(post_dir):
                 and not any(s.get("layout") == "card" for s in post["slides"])):
             # profile posts keep their long record-sentence cover (translated,
             # not re-hooked — the rival candidates don't know the card format)
+            # img = the ENGLISH cover hook (audit Aug 3): the Hebrew post
+            # inherits the English cover PHOTO, and that photo was
+            # vision-validated against this exact claim — passing it keeps
+            # the new Hebrew hook welded to what the photo actually shows
+            en_hook = "" if not post["slides"][0].get("media") else \
+                post["slides"][0].get("headline", "")
             out = viral.hebrew_cover(out, post["story"], post["viral"],
-                                     post.get("caption", ""))
+                                     post.get("caption", ""), img=en_hook)
         return polish(out)  # Agent 5: native line-editor pass, runs LAST
 
     out = finalize(r)

@@ -229,7 +229,23 @@ HE_INTRO = """You write cover hooks for @ainews.israel — the Hebrew Instagram 
 EN_INTRO = """You write cover hooks for @yaffeai — an AI/tech Instagram page in the style of @technology."""
 
 
-def rival_hooks(story, ctx, material="", lang="en", n=5):
+def _img_line(img):
+    """Hook-image contract for hooks written AFTER the cover photo is locked
+    (audit Aug 3: the Hebrew lane inherits the English cover image but writes
+    a brand-new hook — nothing told the writer or judge what the photo shows,
+    so a pointing hook could point at nothing). The English cover hook was
+    vision-validated against the photo, so it doubles as a faithful
+    description of the scene."""
+    if not img:
+        return ""
+    return (f'\nTHE COVER PHOTO IS ALREADY LOCKED and cannot change. It was '
+            f'built to dramatize exactly this claim: "{re.sub("</?em>", "", img)}". '
+            'Your hook must match what that photo shows — never point at a '
+            'person or thing the photo does not hold, never claim a visual '
+            'scene it does not show.\n')
+
+
+def rival_hooks(story, ctx, material="", lang="en", n=5, img=""):
     """The independent second batch for the tournament — now steered by the
     story-type playbook instead of the generic gap formula."""
     intro = HE_INTRO if lang == "he" else EN_INTRO
@@ -245,7 +261,7 @@ Write {n} cover headlines for this story — {n} genuinely DIFFERENT attacks, no
 
 STORY: {story['title']}
 FACTS (never invent): {(material or '')[:2000]}
-
+{_img_line(img)}
 {hook_block(ctx)}
 {doctrine}
 RULES:
@@ -357,11 +373,18 @@ CANDIDATES:
 {listing}
 
 Return ONLY JSON: {{"scores": [score per candidate in order], "winner": <index of highest score>, "why": "2 blunt sentences: why the winner hits harder than the runner-up"}}"""
-    try:
-        r = _judge_claude(prompt, JUDGE_SCHEMA)
-        win = cands[order[r["winner"]]]
-    except Exception as e:
-        print(f"viral judge failed ({e}) — keeping first candidate", file=sys.stderr)
+    # one retry (audit Aug 3: a single transient API failure shipped the first
+    # candidate UNJUDGED — the doctrine only exists if the plumbing runs it)
+    for attempt in range(2):
+        try:
+            r = _judge_claude(prompt, JUDGE_SCHEMA)
+            win = cands[order[r["winner"]]]
+            break
+        except Exception as e:
+            print(f"viral judge failed ({e}) — "
+                  f"{'retrying once' if attempt == 0 else 'keeping first candidate'}",
+                  file=sys.stderr)
+    else:
         return cands[0], None
     record = {"story_type": ctx["story_type"],
               "candidates": [cands[j]["headline"] for j in order],
@@ -404,7 +427,7 @@ SHARPEN_SCHEMA = {
 }
 
 
-def sharpen(win, ctx, material="", lang="en", news=True, payload=""):
+def sharpen(win, ctx, material="", lang="en", news=True, payload="", img=""):
     """The hook specialist (owner Aug 2: "create a specialised agent that
     creates an incredible hook, based on our research and human psychology").
     One adversarial pass AFTER the tournament: name the winner's biggest
@@ -432,7 +455,7 @@ CURRENT WINNER: {win['headline']}
 
 STORY FACTS (never invent, never exaggerate beyond them):
 {(material or '')[:2000] or '- (use the hook ammunition below)'}
-{pay}
+{pay}{_img_line(img)}
 {hook_block(ctx)}
 {doctrine}
 {PSYCH}
@@ -460,13 +483,14 @@ Return ONLY JSON: {{"weakness": "...", "hook_candidates": [...]}}"""
         return []
 
 
-def sharpen_pass(post, win, ctx, material="", lang="en", news=True):
+def sharpen_pass(post, win, ctx, material="", lang="en", news=True, img=""):
     """Run the specialist + a second blind judging round. Returns the final
     winner dict (the original unless a rival beat it blind)."""
     payload = "\n".join(
         f"- {re.sub('</?em>', '', s.get('headline') or '')}"
         for s in post.get("slides", [])[1:] if s.get("headline"))[:800]
-    rivals = sharpen(win, ctx, material, lang=lang, news=news, payload=payload)
+    rivals = sharpen(win, ctx, material, lang=lang, news=news, payload=payload,
+                     img=img)
     if not rivals:
         return win
     win2, rec2 = judge([win] + rivals, ctx, lang=lang)
@@ -491,8 +515,9 @@ def tournament(post, story, ctx, material=""):
         cands += rival_hooks(story, ctx, material)
     win, record = judge(cands, ctx)
     if not win or "<em>" not in win["headline"]:
-        print("viral tournament: no valid winner — keeping writer's cover",
-              file=sys.stderr)
+        post["hook_fallback"] = "no-valid-winner"  # daily report flag (Aug 3)
+        print("viral tournament: no valid winner — keeping writer's cover "
+              "(flagged for the daily report)", file=sys.stderr)
         return post
     post["hook_tournament"] = record or {"candidates": [win["headline"]],
                                          "scores": [], "winner": 0,
@@ -504,12 +529,19 @@ def tournament(post, story, ctx, material=""):
 
 # ----------------------------------------------------------------- hebrew
 
-def hebrew_cover(out, story, ctx, material=""):
+def hebrew_cover(out, story, ctx, material="", img=""):
     """Replace the LOCALIZED cover hook with a NATIVELY-WRITTEN one: 5 Hebrew
     candidates from the classified story, judged in Hebrew. Localization keeps
     slides 2+ (they carry the facts); the hook is packaging and gets
-    re-created, not translated. Fails open: the localized hook stays."""
-    cands = rival_hooks(story, ctx, material, lang="he")
+    re-created, not translated. Fails open: the localized hook stays — but
+    only after one retry, and flagged on the post (audit Aug 3: a single
+    transient failure shipped a flat translation with zero native doctrine)."""
+    cands = rival_hooks(story, ctx, material, lang="he", img=img) or \
+        rival_hooks(story, ctx, material, lang="he", img=img)  # one retry
+    if not cands:
+        out["hook_fallback_he"] = "native-candidates-failed"
+        print("HEBREW COVER: native candidates failed twice — the localized "
+              "translation ships (flagged for the daily report)", file=sys.stderr)
     # the localized translation competes too — sometimes it IS the best
     loc = {"headline": out["slides"][0].get("headline", "")}
     if out.get("slides") and loc["headline"]:
@@ -517,7 +549,7 @@ def hebrew_cover(out, story, ctx, material=""):
     win, record = judge(cands, ctx, lang="he")
     if not win:
         return out
-    win = sharpen_pass(out, win, ctx, material, lang="he")
+    win = sharpen_pass(out, win, ctx, material, lang="he", img=img)
     hl = _no_dashes(win["headline"])
     if "<em>" not in hl:  # accent is mandatory on covers
         hl = re.sub(r"^(\S+)", r"<em>\1</em>", hl)
@@ -563,9 +595,11 @@ Pick the ONE you'd stop for:
 {listing}
 
 Return ONLY JSON: {{"winner": <index>, "why": "one blunt sentence"}}"""
-    try:
-        j = _judge_claude(prompt, REEL_JUDGE)
-        return cands[j["winner"]], j.get("why", "")
-    except Exception as e:
-        print(f"viral reel judge failed ({e})", file=sys.stderr)
-        return None, None
+    for attempt in range(2):  # one retry, same reason as judge() (Aug 3)
+        try:
+            j = _judge_claude(prompt, REEL_JUDGE)
+            return cands[j["winner"]], j.get("why", "")
+        except Exception as e:
+            print(f"viral reel judge failed ({e})"
+                  + (" — retrying once" if attempt == 0 else ""), file=sys.stderr)
+    return None, None
