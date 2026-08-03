@@ -2,8 +2,8 @@
  "slides": [
   {
    "type": "cover",
-   "headline": "MUSK DELETES EVERY STEP HE DOESN'T NEED, BUFFETT KILLS <em>20 OF HIS 25 GOALS</em>, <em>5 FRAMEWORKS</em> AS FREE CHATGPT PROMPTS",
-   "hsize": 66,
+   "headline": "5 PROMPTS THAT GIVE YOU <em>A BILLIONAIRE'S BRAIN</em> FOR FREE",
+   "hsize": 78,
    "gen_face": "elon-musk",
    "gen_logo": "tesla",
    "media": "posts/2026-08-02-edu-billionaire-frameworks-v2/gen-0d.jpg"
@@ -53,7 +53,7 @@
    "media": null
   }
  ],
- "caption": "Swipe for 5 decision tricks from the world's richest people, each turned into one AI prompt you can steal tonight \ud83e\udde0\n\nElon Musk's waste-cutting algorithm that runs every Tesla factory, Warren Buffett's 25/5 rule that kills the 20 goals distracting you, Jeff Bezos's regret test that decided Amazon's entire existence, Charlie Munger's inversion trick that finds every way your business could die before it happens, and Ray Dalio's mistake-to-rule system that powers the world's largest hedge fund.\n\nThese aren't motivational quotes. They're decision systems billionaires use, and AI runs them on your business in seconds. The edge isn't information anymore, it's knowing which question to ask.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Walter Isaacson biography, Berkshire Hathaway shareholder letters, Jeff Bezos interviews, Bridgewater Associates\n\n#AI #BusinessStrategy #Productivity #Entrepreneurship #AIPrompts",
+ "caption": "Swipe for 5 decision tricks from the world's richest people, each turned into one AI prompt you can steal tonight 🧠\n\nElon Musk's waste-cutting algorithm that runs every Tesla factory, Warren Buffett's 25/5 rule that kills the 20 goals distracting you, Jeff Bezos's regret test that decided Amazon's entire existence, Charlie Munger's inversion trick that finds every way your business could die before it happens, and Ray Dalio's mistake-to-rule system that powers the world's largest hedge fund.\n\nThese aren't motivational quotes. They're decision systems billionaires use, and AI runs them on your business in seconds. The edge isn't information anymore, it's knowing which question to ask.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Walter Isaacson biography, Berkshire Hathaway shareholder letters, Jeff Bezos interviews, Bridgewater Associates\n\n#AI #BusinessStrategy #Productivity #Entrepreneurship #AIPrompts",
  "pinned_comment": "Which one are you trying first? The Munger one on slide 5 is the sleeper, most people skip inversion and then get blindsided.",
  "hook_tournament": {
   "story_type": "edu_value",
@@ -70,7 +70,7 @@
    6
   ],
   "winner": 2,
-  "why": "Musk, Buffett, Bezos stops the scroll instantly \u2014 you know exactly whose framework you're stealing, not some mystery '3 men.' 'Copy-paste prompts better than most MBA courses' is a bold, testable claim that makes you go 'ok prove it' and swipe, while [0] has the big number but stays abstract about whose decisions and for what."
+  "why": "Musk, Buffett, Bezos stops the scroll instantly — you know exactly whose framework you're stealing, not some mystery '3 men.' 'Copy-paste prompts better than most MBA courses' is a bold, testable claim that makes you go 'ok prove it' and swipe, while [0] has the big number but stays abstract about whose decisions and for what."
  },
  "handle": "@yaffeai",
  "container": "ai_education",
@@ -89,6 +89,7 @@
    6
   ],
   "winner": 2,
-  "why": "Candidate 2 is the only one that tells me the full deal upfront \u2014 famous names I actually trust, a concrete deliverable I can use tomorrow, and a clear value claim. The others are vague 'save yourself' / 'MBA won't teach you' filler I've seen a hundred times; 2 gives me a reason to swipe before I even finish reading it."
- }
+  "why": "Candidate 2 is the only one that tells me the full deal upfront — famous names I actually trust, a concrete deliverable I can use tomorrow, and a clear value claim. The others are vague 'save yourself' / 'MBA won't teach you' filler I've seen a hundred times; 2 gives me a reason to swipe before I even finish reading it."
+ },
+ "hook_v3": "rebuilt 2026-08-03: comprehension-gate winner, old 3-clause hook killed"
 }

@@ -594,6 +594,22 @@ def sharpen_pass(post, win, ctx, material="", lang="en", news=True, img=""):
     return win2
 
 
+def drop_stale_kicker(post):
+    """The tournament/specialist may swap in a headline that already says the
+    kicker's fact — a duplicated strip reads broken (forensic Aug 2). Lives
+    HERE so every cover-replacing path inherits it (hole-close Aug 3: write.py
+    had this inline, edu.py and the HE lane had nothing). \\w matches Hebrew."""
+    s0 = (post.get("slides") or [{}])[0]
+    hl = re.sub(r"<[^>]+>", "", s0.get("headline", "")).lower()
+    kk = re.sub(r"<[^>]+>", "", s0.get("kicker") or "").lower()
+    if not kk:
+        return
+    kw = [w.rstrip("s") for w in re.findall(r"[\w$%]+", kk) if len(w) > 3]
+    if kw and sum(w in hl for w in kw) / len(kw) >= 0.5:
+        print("kicker overlaps final headline — dropped", file=sys.stderr)
+        s0.pop("kicker", None)
+
+
 def tournament(post, story, ctx, material=""):
     """English tournament: writer's candidates + an independent playbook batch
     -> anchor filter -> per-type judge -> winner becomes the cover. Same
@@ -608,12 +624,14 @@ def tournament(post, story, ctx, material=""):
         post["hook_fallback"] = "no-valid-winner"  # daily report flag (Aug 3)
         print("viral tournament: no valid winner — keeping writer's cover "
               "(flagged for the daily report)", file=sys.stderr)
+        drop_stale_kicker(post)
         return post
     post["hook_tournament"] = record or {"candidates": [win["headline"]],
                                          "scores": [], "winner": 0,
                                          "story_type": ctx["story_type"]}
     win = sharpen_pass(post, win, ctx, material, news=bool(story))
     post["slides"][0]["headline"] = _no_dashes(win["headline"])
+    drop_stale_kicker(post)
     return post
 
 
@@ -638,6 +656,7 @@ def hebrew_cover(out, story, ctx, material="", img=""):
         cands.append(loc)
     win, record = judge(cands, ctx, lang="he")
     if not win:
+        drop_stale_kicker(out)
         return out
     win = sharpen_pass(out, win, ctx, material, lang="he", img=img)
     hl = _no_dashes(win["headline"])
@@ -647,6 +666,7 @@ def hebrew_cover(out, story, ctx, material="", img=""):
     out["slides"][0].pop("subline", None)  # dead field (owner Aug 1)
     if record:
         out["hook_tournament_he"] = record
+    drop_stale_kicker(out)  # HE headline replaced — re-check the strip (Aug 3)
     return out
 
 
@@ -663,6 +683,11 @@ def reel_title_judge(cands, lang="en"):
     post-mortem rules: no unknown-brand anchors, and when the clip's wow IS a
     concrete specific, the title says it. Returns (title, why) or (None, None)."""
     cands = list(dict.fromkeys(t.strip() for t in cands if t and t.strip()))
+    # blind-reader gate (hole-close Aug 3: covers got the comprehension test,
+    # reel titles didn't — same artifact, same "hard to understand" risk).
+    # Falls open inside _comprehension; wrap/unwrap the plain strings.
+    gated = _comprehension([{"headline": t} for t in cands], lang=lang)
+    cands = [c["headline"] for c in gated]
     if len(cands) < 2:
         return (cands[0] if cands else None), None
     random.shuffle(cands)

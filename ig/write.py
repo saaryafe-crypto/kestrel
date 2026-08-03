@@ -1227,16 +1227,9 @@ def main(stories_path):
         post.pop("hook_candidates", None)
     else:
         post = viral.tournament(post, story, ctx, material)
-    # the tournament may swap in a headline that already says the kicker's
-    # fact — a duplicated strip reads broken, so drop it (forensic Aug 2)
-    _hl = re.sub(r"<[^>]+>", "", post["slides"][0].get("headline", "")).lower()
-    _kk = re.sub(r"<[^>]+>", "", post["slides"][0].get("kicker") or "").lower()
-    if _kk:
-        kw = [w.rstrip("s") for w in re.findall(r"[a-z0-9$%]+", _kk)
-              if len(w) > 3]
-        if kw and sum(w in _hl for w in kw) / len(kw) >= 0.5:
-            print("kicker overlaps final headline — dropped", file=sys.stderr)
-            post["slides"][0].pop("kicker", None)
+    # duplicated-strip check moved into viral.drop_stale_kicker (Aug 3) —
+    # tournament runs it itself; this call covers the card path that skips it
+    viral.drop_stale_kicker(post)
     post["viral"] = ctx  # he.py re-creates the Hebrew hook from this
 
     art_direct(post, story["title"])  # optimal image prompts for the FINAL cover
