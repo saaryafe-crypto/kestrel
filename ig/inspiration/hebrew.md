@@ -19,7 +19,9 @@ is Hebrew. Injected into the he.py localization prompt.
 
 - Company, product, and person brand names: OpenAI, ChatGPT, Claude, SpaceX,
   Elon Musk (מותר גם "אילון מאסק" if the Hebrew form is the common one in
-  Israeli media; use whichever an Israeli teen would type).
+  Israeli media; use whichever an Israeli teen would type). Hebrew name
+  spellings follow Israeli media exactly: אילון מאסק, ג'ף בזוס (never
+  "ביזוס" — shipped 3.8), סם אלטמן, מארק צוקרברג.
 - "AI" stays "AI" (Israelis say and type AI; "בינה מלאכותית" is allowed once
   for flavor, never as the repeated term).
 - ALL hashtags stay in English, copied from the English post unchanged.
@@ -64,6 +66,8 @@ Calques (English idiom translated literally — always rewrite):
 - "שם בחוץ" (out there) → "בעולם", or drop it
 - "הולך לעשות" as future (going to do) → plain future: "יעשה"
 - "אני מרגיש ש..." padding (I feel like) → just say the claim
+- "לא יותר" as a punch ending (not anymore) → "כבר לא" (shipped 3.8:
+  "הלקוחות שלכם מחכים? לא יותר" — native is "כבר לא")
 
 Newspaper words a teen never says (swap to the spoken form):
 - כאשר → כש..., על מנת → כדי, אשר → ש..., אולם → אבל
@@ -170,4 +174,7 @@ Translationese failures (real ones we shipped — never again):
   bidi, the writer just writes correct Hebrew).
 - The accent markup (<em>) works exactly as in English: mark the minimum set
   of words that still communicates the claim standalone.
-- Arrows in copy point LEFT (←) because that is where the next slide is.
+- Arrows in COPY (inside slide text) point LEFT (←) because that is where
+  the next slide is. EXCEPTION — the cover swipe STRIP: owner ruled Jul 31
+  that its arrow renders on the right pointing right (a left arrow "read as
+  reversed"); render_he.py handles it, writers never output strip arrows.
