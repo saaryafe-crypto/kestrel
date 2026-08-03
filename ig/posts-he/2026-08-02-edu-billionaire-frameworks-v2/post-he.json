@@ -1,0 +1,95 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמישה פרומפטים שגורמים ל-AI <em>לחשוב כמו מיליארדר</em>",
+   "hsize": 78,
+   "gen_face": "elon-musk",
+   "gen_logo": "tesla",
+   "media": "posts/2026-08-02-edu-billionaire-frameworks-v2/gen-0d.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "תמחקו כל שלב שלא משנה כלום",
+   "hsize": 105,
+   "body": "קחו תהליך עבודה שלכם ותעתיקו אותו ל-AI. תבקשו ממנו לבדוק כל שלב בנפרד. <b>אם אפשר למחוק שלב בלי שמשהו משתנה, תמחקו אותו.</b> זה מה ש<b>אילון מאסק עשה בייצור של Tesla.</b>",
+   "media": "posts/2026-08-02-edu-billionaire-frameworks-v2/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "25 מטרות, רק חמש שוות משהו",
+   "hsize": 115,
+   "body": "רשמו את כל המטרות שלכם ותנו ל-AI לבחור את <b>חמש המטרות שהכי שווה להשקיע בהן.</b> כל השאר? תבקשו ממנו להסביר למה הן מלכודות. <b>וורן באפט אמר לטייס שלו: תרשום 25 מטרות, ואם זה לא בחמש הראשונות, אל תיגע בזה.</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "בגיל 80, על מה תתחרטו?",
+   "hsize": 105,
+   "body": "תתארו ל-AI החלטה שאתם מתלבטים בה. תבקשו ממנו להסתכל עליה <b>מהעיניים של הגרסה שלכם בגיל 80.</b> איזו בחירה תכאב יותר? <b>ג'ף בזוס שאל את עצמו בדיוק את זה בגיל 30, ועזב עבודה ב-Wall Street.</b>",
+   "media": "posts/2026-08-02-edu-billionaire-frameworks-v2/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "תשאלו את ה-AI: מה יכול להרוס לכם את העסק?",
+   "hsize": 100,
+   "body": "תבקשו מ-AI לרשום <b>כל דרך שהעסק שלכם יכול להיכשל תוך 12 חודשים.</b> תבקשו לדרג לפי סיכוי ולהפוך כל כישלון לפעולת מנע. <b>צ'ארלי מאנגר בנה ככה את Berkshire Hathaway.</b> במקום לשאול מה יצליח, הוא שאל מה ייכשל.",
+   "media": "posts/2026-08-02-edu-billionaire-frameworks-v2/gen-4.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "תהפכו כל טעות לכלל שעובד לתמיד",
+   "hsize": 105,
+   "body": "תתארו ל-AI טעות שאתם עושים שוב ושוב. תבקשו ממנו להפוך אותה <b>לכלל ברור: אם קורה A, עושים B.</b> ריי דליו בנה ככה את Bridgewater, <b>קרן הגידור הכי גדולה בעולם.</b> על כל טעות הוא כתב כלל, ואף פעם לא חזר עליה.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את הפוסט הזה",
+   "hsize": 88,
+   "body": "<b>חמישה פרומפטים מחמישה מיליארדרים,</b> הכל במקום אחד. שמרו לפעם הבאה שתצטרכו לקבל החלטה, ועקבו אחרי <b>@ainews.israel</b> בשביל עוד תוכן AI כל יום.",
+   "gen_face": "elon-musk",
+   "gen_logo": "tesla",
+   "media": null
+  }
+ ],
+ "caption": "חמישה פרומפטים שנותנים ל-AI לחשוב כמו מאסק, באפט, בזוס, מאנגר ודליו. שיטות אמיתיות של מיליארדרים, עכשיו בפרומפט.\n\nאילון מאסק מוחק שלבים מיותרים מהייצור. וורן באפט לא נוגע במטרה שלא בחמש הראשונות. ג'ף בזוס בוחן כל החלטה מגיל 80. צ'ארלי מאנגר שואל מה ייכשל במקום מה יצליח. וריי דליו כותב כלל על כל טעות. חמישה פרומפטים שנותנים ל-AI לעשות את אותו הדבר בשבילכם.\n\nמקורות: Walter Isaacson biography, Berkshire Hathaway shareholder letters, Jeff Bezos interviews, Bridgewater Associates\n\nעקבו אחרי @ainews.israel\n\n#AI #BusinessStrategy #Productivity #Entrepreneurship #AIPrompts",
+ "pinned_comment": "איזה פרומפט הכי עזר לכם? כתבו בתגובות",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THE 5 QUESTIONS BEHIND <em>$700 BILLION OF DECISIONS</em>, TURNED INTO PROMPTS YOU CAN PASTE INTO CHATGPT TONIGHT",
+   "THESE 3 MEN MAKE <em>BILLION-DOLLAR CALLS</em> WITH 5 SIMPLE QUESTIONS. STEAL THEM AS CHATGPT PROMPTS TONIGHT",
+   "5 DECISION SYSTEMS MUSK, BUFFETT AND BEZOS ACTUALLY USE, AS <em>COPY-PASTE CHATGPT PROMPTS</em> BETTER THAN MOST MBA COURSES",
+   "THESE 3 MEN ARE WORTH <em>$700 BILLION COMBINED</em>. EVERY BIG DECISION THEY MAKE STARTS WITH THE SAME 5 QUESTIONS"
+  ],
+  "scores": [
+   7,
+   5,
+   8,
+   6
+  ],
+  "winner": 2,
+  "why": "Musk, Buffett, Bezos stops the scroll instantly — you know exactly whose framework you're stealing, not some mystery '3 men.' 'Copy-paste prompts better than most MBA courses' is a bold, testable claim that makes you go 'ok prove it' and swipe, while [0] has the big number but stays abstract about whose decisions and for what."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT <em>SAVE YOU FROM YOURSELF</em>",
+   "5 <em>DECISION PROMPTS</em> NO MBA WILL TEACH YOU",
+   "5 DECISION SYSTEMS MUSK, BUFFETT AND BEZOS ACTUALLY USE, AS <em>COPY-PASTE CHATGPT PROMPTS</em> BETTER THAN MOST MBA COURSES",
+   "5 PROMPTS THAT <em>KILL YOUR WORST DECISIONS</em>"
+  ],
+  "scores": [
+   4,
+   5,
+   9,
+   6
+  ],
+  "winner": 2,
+  "why": "Candidate 2 is the only one that tells me the full deal upfront — famous names I actually trust, a concrete deliverable I can use tomorrow, and a clear value claim. The others are vague 'save yourself' / 'MBA won't teach you' filler I've seen a hundred times; 2 gives me a reason to swipe before I even finish reading it."
+ },
+ "hook_v3": "rebuilt 2026-08-03: comprehension-gate winner, old 3-clause hook killed"
+}
