@@ -66,6 +66,13 @@ def backlog():
             continue
         if os.path.exists(os.path.join(HERE, "posts-he", d, "slide-1.jpg")):
             continue
+        # RETIRED marker (Aug 3, run 191d24e post-mortem): the billionaire
+        # post was rebuilt as -v2 after its cover failed, but the OLD folder
+        # stayed here and this picker localized it — @ainews.israel got the
+        # rejected waxy-Musk cover AND the same story twice in one day. A
+        # rebuild must now drop a "retired" file in the superseded folder.
+        if os.path.exists(os.path.join(full, "retired")):
+            continue
         dirs.append(full)
     # newest first BY NAME (dirs start with the date) — mtime is useless on a
     # fresh CI clone, where every file gets checkout time
