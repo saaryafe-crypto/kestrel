@@ -2,11 +2,10 @@
  "slides": [
   {
    "type": "cover",
-   "headline": "ELON MUSK JUST LOST <em>$750 BILLION</em>, MORE THAN BEZOS, LARRY PAGE, AND SERGEY BRIN <em>ARE WORTH COMBINED</em>",
+   "headline": "ELON MUSK HIT <em>$1 TRILLION</em> IN JUNE. BY AUGUST HE'D LOST <em>$750 BILLION</em> AND CALLED HIMSELF A <em>'FORMER TRILLIONAIRE'</em>",
    "hsize": 64,
-   "kicker": "MORE THAN THREE BILLIONAIRES COMBINED",
-   "media": "faces/elon-musk-2.jpg",
-   "cutout": "posts/2026-08-02-former-trillionaire-loses-750-billion-am/cutout.png",
+   "kicker": "MORE THAN BEZOS, PAGE AND BRIN COMBINED",
+   "media": "posts/2026-08-02-former-trillionaire-loses-750-billion-am/gen-situation.jpg",
    "discs": [
     {
      "logo": "tesla"
@@ -14,7 +13,8 @@
     {
      "logo": "spacex"
     }
-   ]
+   ],
+   "gen_person": true
   },
   {
    "type": "content",

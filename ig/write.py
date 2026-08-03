@@ -304,6 +304,8 @@ THE CTA CLOSER (owner doctrine Aug 1, the reference page's last slide: Tim Cook 
 
 CLASH-CAST (owner's gold standard, Aug 1): when the story is a clash or a deal between TWO named famous people — a buyer and a seller, a winner and a loser, a hunter and the hunted — put BOTH recognizable likenesses in ONE composed scene that acts out the power dynamic: the winner looming calm and in command, the loser cornered mid-loss, faces large and close together, one clearly dominant. The story's world rages behind them (a trading floor of crashing red chart lines, a courtroom, a launchpad). Reference: the $45B fire-sale story → the young founder slumped at the deal table while the older billionaire stands over him signing, walls of red crashing charts behind. The pair reads as ONE unit; this beats a lone reaction face whenever the story has two famous sides. Write BOTH full names directly in the brief text AND return them comma-separated in "face" (that field routes to the person model — see the famous-people rule below). If a side is not famous enough to recognize, that person appears FACELESS (from behind, silhouette, or hands only), and if neither side is famous, drop CLASH-CAST entirely and dramatize with objects and stakes instead.
 
+THE SITUATION PORTRAIT (owner order Aug 3 — his exact formula, written after the $750B failure shipped a bare press-photo crop of Musk with two identical black logo discs on an empty blurred background; his verdict: "a picture of the SITUATION!!!!"): when the cover story is one famous person winning or losing something big, write the cover brief the way the owner writes it: "Elon Musk with a devastated look like he just lost $750 billion, red crashing stock charts covering the wall of screens behind him". Two halves, both mandatory: the FACE carries the story's emotion (devastated for a loss, triumphant for a win, 40%+ of frame), and the BACKGROUND makes the situation itself visible — crashing red charts for a wipeout, raining cash for a windfall, a cheering crowd for a victory. A neutral portrait, an empty background, or a blurred nothing behind the person is a FAILED cover, no matter how good the likeness is. The renderer may stamp small brand discs on top afterward — the scene itself must still tell the story without them.
+
 {face_note}
 {logo_note}
 
@@ -1227,8 +1229,9 @@ def main(stories_path):
     _hl = re.sub(r"<[^>]+>", "", post["slides"][0].get("headline", "")).lower()
     _kk = re.sub(r"<[^>]+>", "", post["slides"][0].get("kicker") or "").lower()
     if _kk:
-        kw = [w for w in re.findall(r"[a-z0-9$%]+", _kk) if len(w) > 3]
-        if kw and sum(w in _hl for w in kw) / len(kw) > 0.6:
+        kw = [w.rstrip("s") for w in re.findall(r"[a-z0-9$%]+", _kk)
+              if len(w) > 3]
+        if kw and sum(w in _hl for w in kw) / len(kw) >= 0.5:
             print("kicker overlaps final headline — dropped", file=sys.stderr)
             post["slides"][0].pop("kicker", None)
     post["viral"] = ctx  # he.py re-creates the Hebrew hook from this
@@ -1364,6 +1367,11 @@ def main(stories_path):
                     # brands ITSELF (neon logo, product mark) — the flat
                     # overlay stamp on top reads as a cheap edit. Never both.
                     s.pop("logos", None)
+                    if person:
+                        # person-route cover: accurate famous likeness in the
+                        # story's SITUATION — the faces-pool composite must
+                        # never replace it (owner Aug 3, the $750B failure)
+                        s["gen_person"] = True
                 break
             print(f"slide {i+1} image rejected (attempt {attempt+1}/{tries}, "
                   f"score {score}/10): {flaw}", file=sys.stderr)
@@ -1457,7 +1465,9 @@ def main(stories_path):
     # famous person out of the REAL press photo; renderer stacks backdrop <
     # discs < person. Never on generated images (unfamiliar-faces rule) —
     # every failure falls back to the plain photo cover, a slot never dies.
-    discs = [d for d in (cover.get("discs") or [])
+    raw_discs = [d if isinstance(d, dict) else {"logo": d}
+                 for d in (cover.get("discs") or []) if d]
+    discs = [d for d in raw_discs
              if (d.get("logo") and os.path.exists(
                      os.path.join(HERE, "logos", f'{d["logo"]}.svg')))
              or (d.get("text") and len(d["text"]) <= 12)]
@@ -1466,15 +1476,30 @@ def main(stories_path):
     # ship faceless when the story's actor is famous): no usable article photo
     # -> fall back to our stored real press photo of the person
     face = cover.pop("face", None)
+    # a person-route generated cover (gen_person) counts as a REAL photo:
+    # it shows the accurate famous face inside the story's situation — the
+    # owner's preferred cover (Aug 3). Only faceless/Seedream gen images
+    # still yield to the stored press photo.
     no_photo = not cover.get("media") or \
-        os.path.basename(cover.get("media", "")).startswith("gen")
+        (os.path.basename(cover.get("media", "")).startswith("gen")
+         and not cover.get("gen_person"))
     if discs and face and no_photo:
         fp = pick_face(face)
         if fp:
             cover["media"] = fp
             print(f"faces pool: using stored press photo {os.path.basename(fp)}",
                   file=sys.stderr)
-    if discs and cover.get("media") and \
+    if discs and cover.get("gen_person"):
+        # owner formula Aug 3 ("a picture of the SITUATION!!!!... then you
+        # also add the logos and it looks so much better"): the generated
+        # scene already shows the person living the story — the brand discs
+        # ride ON TOP of the full-bleed image, no cutout, no blur.
+        cover["discs"] = discs
+        cover.pop("logos", None)
+        print("situation cover: discs over generated scene — "
+              + ", ".join(d.get("logo") or f'"{d["text"]}"' for d in discs),
+              file=sys.stderr)
+    elif discs and cover.get("media") and \
             not os.path.basename(cover["media"]).startswith("gen"):
         import composite
         cut = composite.cutout(os.path.join(HERE, cover["media"]),

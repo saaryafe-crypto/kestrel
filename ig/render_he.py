@@ -172,11 +172,17 @@ FIT_JS = """<script>
 function fitLines(h){
   var target=h.clientWidth, base=parseFloat(getComputedStyle(h).fontSize);
   var words=[];
+  function push(w,em){
+    // punctuation-only token (comma stranded after an </em> boundary) glues
+    // onto the previous word — a floating "," renders as " . " (Aug 3 bug)
+    if(/^[,.!?:;]+$/.test(w)&&words.length)words[words.length-1].t+=w;
+    else words.push({t:w,em:em});
+  }
   h.childNodes.forEach(function(n){
     if(n.nodeType===3)n.textContent.trim().split(/\\s+/).filter(Boolean)
-      .forEach(function(w){words.push({t:w,em:false})});
+      .forEach(function(w){push(w,false)});
     else if(n.tagName==='EM')n.textContent.trim().split(/\\s+/).filter(Boolean)
-      .forEach(function(w){words.push({t:w,em:true})});
+      .forEach(function(w){push(w,true)});
   });
   if(!words.length)return;
   var meas=document.createElement('span');
@@ -260,6 +266,29 @@ def art_bg(seed, heavy=False):
     return (f'<div class="artbg" style="background-image:url(\'{pick}\')"></div>'
             f'<div class="artdim{" heavy" if heavy else ""}"></div>')
 
+# brand-accurate disc colors (owner Aug 3: "Tesla is red... they both look
+# exactly the same and are boring") — mirrors render.py
+DISC_BG = {"tesla": "#E31937", "spacex": "#005288", "nvidia": "#76B900",
+           "meta": "#0064E0", "reddit": "#FF4500", "ycombinator": "#FB651E"}
+
+
+def discs_html(s):
+    """1-2 logo/text discs for a cover (composed OR full-bleed situation)."""
+    out = ""
+    for di, d in enumerate(s.get("discs", [])[:2]):
+        side = "left" if di == 0 else "right"
+        if d.get("logo") and os.path.exists(
+                os.path.join(HERE, "logos", f'{d["logo"]}.svg')):
+            tint = DISC_BG.get(d["logo"])
+            style = f' style="background:{tint}"' if tint else ""
+            out += (f'<div class="disc {side} dark"{style}>'
+                    f'<img src="{HERE}/logos/{d["logo"]}.svg"></div>')
+        elif d.get("text"):
+            out += (f'<div class="disc {side} cream">'
+                    f'<span class="dtxt">{d["text"]}</span></div>')
+    return out
+
+
 def slide_html(s, handle, total, fallback_media=None):
     css = (CSS.replace("FONTS", HERE + "/fonts")
               .replace("SIZE", str(s.get("hsize", 100))))
@@ -299,23 +328,18 @@ def slide_html(s, handle, total, fallback_media=None):
             # composed cover (@getintoai anatomy): backdrop < discs < cutout;
             # disc text stays as-authored (usually Latin product names)
             cut = os.path.join(HERE, s["cutout"])
-            discs = ""
-            for di, d in enumerate(s.get("discs", [])[:2]):
-                side = "left" if di == 0 else "right"
-                if d.get("logo") and os.path.exists(
-                        os.path.join(HERE, "logos", f'{d["logo"]}.svg')):
-                    discs += (f'<div class="disc {side} dark">'
-                              f'<img src="{HERE}/logos/{d["logo"]}.svg"></div>')
-                elif d.get("text"):
-                    discs += (f'<div class="disc {side} cream">'
-                              f'<span class="dtxt">{d["text"]}</span></div>')
+            discs = discs_html(s)
             back = (f'<div class="bgblur lite" style="background-image:url(\'{media}\')"></div>'
                     if media else art_bg(s["headline"]))
             bg = f'{back}{discs}<div class="cut"><img src="{cut}"></div><div class="shade"></div>'
             cls = "cover composed"
         elif media:
+            # situation cover (owner Aug 3): generated scene full-bleed,
+            # brand discs may ride on top
+            discs = discs_html(s)
             bg = (f'<div class="bgblur" style="background-image:url(\'{media}\')"></div>'
-                  f'<div class="bleed" style="background-image:url(\'{media}\')"></div><div class="shade"></div>')
+                  f'<div class="bleed" style="background-image:url(\'{media}\')"></div>'
+                  f'{discs}<div class="shade"></div>')
             cls = "cover"
         else:
             bg = art_bg(s["headline"])
