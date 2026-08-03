@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שש שיחות</em> שעולות מאות דולרים לשעה לתרגל",
+   "hsize": 72,
+   "media": "posts/2026-08-02-edu-6-conversations-to-rehearse-with-ai-ai-i/gen-0-r.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "ראיון עבודה",
+   "hsize": 118,
+   "body": "מאמן אנושי גובה <b>200 דולר לשעה</b>. תגידו ל-AI באיזה תפקיד מדובר ותבקשו שישחק את המראיין, ישאל שאלה אחת בכל פעם וידרג כל תשובה לפני שעובר הלאה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "פיץ' מכירות",
+   "hsize": 90,
+   "body": "מאמן מכירות גובה <b>250 דולר לשעה</b>. תגידו ל-AI לשחק סמנכ\"ל כספים קשוח, תציגו לו את המוצר שלכם, ותבקשו שיתקוף כל נקודה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "משא ומתן על משכורת",
+   "hsize": 100,
+   "body": "מאמן משא ומתן גובה <b>150 דולר לשעה</b>. תגידו ל-AI לשחק את המנהל שלכם ולדחות את הבקשה להעלאה, ותתרגלו לשכנע אותו שאתם שווים יותר.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "פיטורים",
+   "hsize": 105,
+   "body": "עורך דין לדיני עבודה גובה <b>350 דולר לשעה</b> רק כדי לכתוב לכם תסריט. תגידו ל-AI לשחק עובד שאתם מפטרים מסיבה ספציפית, ותבקשו שיגיב כאילו זה קורה באמת.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "פיץ' למשקיע",
+   "hsize": 105,
+   "body": "שאלה אחת שלא הכנתם לה תשובה יכולה להרוג עסקה של <b>חצי מיליון דולר</b>. תגידו ל-AI לשחק משקיע מנוסה וסקפטי ולתקוף את הפיץ' שלכם בלי רחמים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "שיחה אישית קשה",
+   "hsize": 100,
+   "body": "מטפל גובה <b>175 דולר לפגישה</b>. תגידו ל-AI לשחק מישהו ספציפי מהחיים שלכם ולהגיב כמו שהוא באמת היה מגיב, ותתרגלו להגיד את מה שדוחים כבר חודשים. כמה פעמים שצריך.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את הפוסט הזה",
+   "hsize": 95,
+   "body": "כל שיחה פה יכולה לחסוך לכם אלפי שקלים ושעות של מתח. עוקבים אחרי @ainews.israel בשביל חדשות AI יומיות וכלים שעובדים באמת.",
+   "media": null
+  }
+ ],
+ "caption": "שש שיחות שעולות מאות דולרים לשעה לתרגל, ו-AI עושה את זה בחינם.\n\nמראיון עבודה, דרך משא ומתן על משכורת, ועד פיטורים ופיץ' למשקיעים. בכל שקופית: כמה זה עולה עם בן אדם ומה בדיוק לכתוב ל-AI.\n\nעוקבים אחרי @ainews.israel לעוד כלים כאלה כל יום.\n\n#AI #Productivity #CareerTips #BusinessGrowth #Entrepreneurship",
+ "pinned_comment": "איזו שיחה מפה הכי מלחיצה אתכם? כתבו למטה",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 <em>CONVERSATIONS WORTH THOUSANDS</em> TO PRACTICE WITH AI",
+   "6 <em>CONVERSATIONS</em> AI PREPARES YOU FOR IN 10 MINUTES",
+   "6 <em>SCARY CONVERSATIONS</em> YOU CAN REHEARSE WITH AI TONIGHT",
+   "6 <em>TALKS THAT COST THOUSANDS</em> WHEN YOU WING THEM",
+   "6 <em>CONVERSATIONS MOST PEOPLE BOMB</em> THAT AI FIXES"
+  ],
+  "scores": [
+   5,
+   3,
+   8,
+   7,
+   6
+  ],
+  "winner": 2,
+  "why": "SCARY CONVERSATIONS hits an instant nerve — everyone has a talk they're dreading and the word 'scary' names that feeling before you can scroll past it. TONIGHT makes it feel immediately useful, while runner-up [3]'s 'cost thousands' is a strong fear hook but feels like an ad; SCARY feels like a friend warning you."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)"
+}
