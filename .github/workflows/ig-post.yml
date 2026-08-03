@@ -174,6 +174,7 @@ jobs:
           git add ig/edu-used.json 2>/dev/null || true
           git add ig/genimg-used.json 2>/dev/null || true  # image-gen budget ledger must persist across runs
           git add ig/faces-used.json 2>/dev/null || true   # face-photo rotation ledger (never repeat the same press photo back-to-back)
+          git add ig/editor-log.json 2>/dev/null || true   # editor-in-chief audit trail: every gate A/B verdict must survive the runner
           git commit -m "IG post: $POST_NAME" || { echo "nothing to commit"; exit 0; }
           git pull --rebase --autostash   # autostash: fetch.py leaves stories.json dirty; don't let it kill the run
           git push || { git pull --rebase --autostash && git push; }  # retry once if a sibling pushed in between

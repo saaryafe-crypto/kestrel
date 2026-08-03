@@ -62,11 +62,10 @@ INSTANT KILL — no other rule can save these:
   writer would have to pad, kill it.
 - ON-TOPIC BUT ROUTINE: being about AI/tech/space/markets earns NOTHING.
   Market wraps, stocks-rose-today, analyst targets, launch previews,
-  how-to-watch, live blogs, daily recaps — banned. (A once-a-WEEK roundup
-  is a separate, legal format: @technology's two biggest posts, 88K and 84K
-  likes vs their 36K median, are weekly roundups fronted by a famous movie
-  scene — it earns its slot only as a curated week-in-review event, never
-  as a daily filler.)
+  how-to-watch, live blogs, recap roundups — banned. (Data note Aug 4:
+  @technology's two biggest posts are weekly roundups, 88K and 84K likes vs
+  their 36K median — a proven format held in reserve, OFF until the owner
+  turns it on.)
 - UNKNOWN ACTOR AS THE STORY: if the story only works when you know an
   obscure brand/person, it fails. Famous names or universal nouns only.
 - PURE ASTRONOMY / non-tech wow content: off-brand. Space counts only through
