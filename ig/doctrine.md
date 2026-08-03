@@ -24,6 +24,10 @@ The editor's test for everything: **"Would the owner look at this and post it
 himself?"** If the honest answer is no, it dies, and the next candidate gets
 the slot (we ALWAYS fill every slot — kill the story, never the slot).
 
+"Send it to a friend" is not a metaphor: sends-per-reach is a top official
+ranking signal (Mosseri, Jan 2025). A post nobody would DM to a friend is a
+post the algorithm buries.
+
 ## 1. STORY LAW — what earns a slot
 
 A story qualifies ONLY if it is a viral-SPECIFIC event: something HAPPENED in
@@ -43,18 +47,26 @@ EARNS A SLOT (in order of strength):
   taught in full on the slides, never just claimed.
 
 INSTANT KILL — no other rule can save these:
-- REACTION-BAIT: the "event" is that someone posted something online and
-  people reacted (a viral tweet, meme, screenshot, or AI video measured in
-  likes/views/replies). No real-world consequence = not a story. It becomes a
-  story ONLY when reality moved: money lost, someone fired, product pulled,
-  lawsuit filed, account banned. (The Queen Elizabeth playlist meme and the
-  Mario Lopez pile-on both die here.)
+- REACTION-BAIT: the "event" is that people REACTED to something online — a
+  screenshot of replies, a pile-on, likes/views/comments as the substance.
+  No real-world consequence = not a story. It becomes a story ONLY when
+  reality moved: money lost, someone fired, product pulled, lawsuit filed,
+  account banned. (The Queen Elizabeth playlist meme and the Mario Lopez
+  pile-on both die here.) NOT reaction-bait: a spectacular AI-made ARTIFACT
+  where the work itself is the show — a fan-built AI film, a jaw-dropping
+  demo (@getintoai's best post, 4x their median, is a fan-made AI movie).
+  The artifact must be shown, with its maker and how it was made — never
+  covered through screenshots of the crowd.
 - NO SUBSTANCE: the entire source is one thin tweet with nothing behind it —
   no second fact, no numbers, no consequence to build slides from. If the
   writer would have to pad, kill it.
 - ON-TOPIC BUT ROUTINE: being about AI/tech/space/markets earns NOTHING.
   Market wraps, stocks-rose-today, analyst targets, launch previews,
-  how-to-watch, live blogs, recap roundups — banned.
+  how-to-watch, live blogs, daily recaps — banned. (A once-a-WEEK roundup
+  is a separate, legal format: @technology's two biggest posts, 88K and 84K
+  likes vs their 36K median, are weekly roundups fronted by a famous movie
+  scene — it earns its slot only as a curated week-in-review event, never
+  as a daily filler.)
 - UNKNOWN ACTOR AS THE STORY: if the story only works when you know an
   obscure brand/person, it fails. Famous names or universal nouns only.
 - PURE ASTRONOMY / non-tech wow content: off-brand. Space counts only through
@@ -77,11 +89,18 @@ INSTANT KILL — no other rule can save these:
   know; label/aphorism headlines; three stapled facts.
 - The hook must survive a blind reader: zero context, 1.7 seconds,
   understood instantly and repeatable to a friend.
+- PICK THE HIGH-AROUSAL TRUE ANGLE: negative and high-stakes wording earns
+  clicks (each negative word +2.3% CTR across 105K tested headlines);
+  anger (+34%) and awe (+30%) earn shares; flat-positive PR tone and pure
+  information earn neither. Never fake the angle — choose the truthful
+  frame with the most at stake.
 
 ## 3. IMAGE LAW — the cover and every slide
 
 - Every image is PROOF or a STAGED SCENE OF THE STORY — never decoration.
   The thumb test: seen once at feed size, a stranger guesses the story.
+  Faces earn attention (+38% likes across 1.1M photos) — default to a human
+  face when the story has one.
 - A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER. Screenshots may
   appear INSIDE as receipt evidence on a styled card, never as the face of
   the post. (The Queen meme-screenshot cover dies here.)
@@ -121,6 +140,10 @@ INSTANT KILL — no other rule can save these:
   deadline. Credits are plain names ("SpaceX", never "@SpaceX"). Sources:
   ONLY the owner-approved X watchlist (watchlist-x.json) — no other source
   exists.
+- Reposted material must be materially TRANSFORMED (our card, title, original
+  commentary): Instagram removes serial aggregators of untransformed reposts
+  from recommendations entirely (official policy, Apr 2024) — a raw repost
+  risks the whole page's reach, not just one post.
 
 ## 6. THE EDITOR'S GATES (how this law is enforced)
 
