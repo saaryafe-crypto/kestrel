@@ -67,12 +67,33 @@ def send_email(subject, text, html=None):
         msg = MIMEText(text)
     msg["Subject"], msg["From"] = subject, GMAIL
     msg["To"] = ", ".join(RECIPIENTS)
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
-        # Google's copy button pads app pws with regular AND non-breaking
-        # spaces (\xa0 — seen in the owner's first paste); strip all whitespace
-        s.login(GMAIL, re.sub(r"\s+", "", pw))
-        s.send_message(msg)
-    return True
+    # RETRY LADDER (Aug 3 audit: the email NEVER landed — Aug 2 gaierror,
+    # Aug 3 connection-reset, both at 08:45 while the Mac's Wi-Fi/DNS was
+    # still waking up; both ports tested fine minutes later). 5 attempts
+    # over ~8 minutes, alternating SSL:465 / STARTTLS:587, so one flaky
+    # wake-up moment can no longer cost the day's report.
+    last = None
+    for attempt in range(5):
+        if attempt:
+            time.sleep(120)
+        try:
+            if attempt % 2 == 0:
+                s = smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60)
+            else:
+                s = smtplib.SMTP("smtp.gmail.com", 587, timeout=60)
+                s.starttls()
+            with s:
+                # Google's copy button pads app pws with regular AND
+                # non-breaking spaces (\xa0 — seen in the owner's first
+                # paste); strip all whitespace
+                s.login(GMAIL, re.sub(r"\s+", "", pw))
+                s.send_message(msg)
+            return True
+        except Exception as e:
+            last = e
+            print(f"email attempt {attempt + 1}/5 failed "
+                  f"({type(e).__name__}: {e}) — retrying", file=sys.stderr)
+    raise last
 
 
 # ---- colored HTML rendering (owner Aug 1: "easy to read and nice ... like i
@@ -419,9 +440,20 @@ def main():
     except Exception as e:
         note = f"EMAIL FAILED ({type(e).__name__}: {e}) — issue is the backup."
     print(note, file=sys.stderr)
-    # gh issue rides along as backup + history, and carries the email status
-    subprocess.run(["gh", "issue", "create", "--title", title,
-                    "--body", note + "\n\n" + text], check=True, cwd=HERE)
+    # gh issue rides along as backup + history, and carries the email status.
+    # Retries too (Aug 3 audit: on Aug 2 the SAME wake-up network blip killed
+    # this create with check=True and the whole day's report was lost).
+    for attempt in range(3):
+        if attempt:
+            time.sleep(120)
+        r = subprocess.run(["gh", "issue", "create", "--title", title,
+                            "--body", note + "\n\n" + text], cwd=HERE)
+        if r.returncode == 0:
+            break
+        print(f"gh issue create attempt {attempt + 1}/3 failed — retrying",
+              file=sys.stderr)
+    else:
+        raise RuntimeError("gh issue create failed after 3 attempts")
     out = subprocess.run(  # keep exactly one report issue open
         ["gh", "issue", "list", "--state", "open", "--search",
          "IG daily report in:title", "--json", "number,title"],
