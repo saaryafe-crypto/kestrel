@@ -1,0 +1,11 @@
+Swipe to see how Mayo Clinic's AI failed patients worse than a coin flip, and who's suing them for hiding it 🔬
+
+Mayo Clinic ran an AI tool on real patients that was wrong 67% of the time, their own safety lead found the failure rate, the hospital buried the results and kept the tool running, the AI performed worse than a coin flip, the person hired to prevent AI risk is now the plaintiff suing the hospital, and most businesses using AI today have no one checking if it works.
+
+AI is spreading through hospitals and businesses faster than anyone can audit it. Mayo had a safety lead and still buried a 67% failure rate. Most companies have no one checking at all.
+
+Running a business? DM us "AI" and we'll show you how to audit your AI before it becomes a headline
+
+Sources: Futurism, @unusual_whales
+
+#AI #Healthcare #MayoClinic #ArtificialIntelligence #Technology

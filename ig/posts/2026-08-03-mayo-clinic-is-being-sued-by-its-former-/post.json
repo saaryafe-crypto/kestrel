@@ -1,0 +1,97 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE PERSON MAYO CLINIC HIRED TO KEEP THEIR AI SAFE <em>IS NOW SUING THEM FOR HIDING ITS 67% ERROR RATE ON REAL PATIENTS</em>",
+   "hsize": 58,
+   "kicker": "WORSE THAN A COIN FLIP",
+   "media": "posts/2026-08-03-mayo-clinic-is-being-sued-by-its-former-/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "THE AI <em>FAILED TWO OUT OF THREE PATIENTS</em>",
+   "hsize": 100,
+   "body": "This wasn't a test run. The tool was live on <b>real patients</b> at one of the most trusted hospitals on earth. The numbers were bad enough to end careers",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MAYO <em>BURIED THE NUMBERS AND LEFT THE AI RUNNING</em>",
+   "hsize": 95,
+   "body": "Instead of pulling the AI, <b>Mayo</b> concealed the failure rate and left it running on patients. The person who caught it was pushed aside. What they buried is worse than anyone thinks",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "A COIN FLIP <em>WOULD HAVE BEEN MORE ACCURATE</em>",
+   "hsize": 95,
+   "body": "A coin flip gets it right <b>50%</b> of the time. This AI got it right <b>33%</b>. Someone at <b>Mayo</b> was hired specifically to make sure this never happened",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MAYO HIRED THEM <em>TO PREVENT EXACTLY THIS</em>",
+   "hsize": 100,
+   "body": "<b>Mayo</b> hired one person to guard against bad AI. That person checked the tool, found it broken, and raised the alarm. The hospital buried it. Now the guard is the one suing",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MAYO HAD <em>ONE PERSON CHECKING</em>. MOST BUSINESSES HAVE ZERO",
+   "hsize": 90,
+   "body": "If your business uses <b>AI</b> on customers and nobody's checking accuracy, you have <b>Mayo's</b> blind spot. They found out from a lawsuit. You could find out from <b>one audit</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "FOLLOW NOW <em>BEFORE THE ALGORITHM HIDES THIS PAGE FROM YOU</em>",
+   "hsize": 58,
+   "body": "Send this to the friend who works in healthcare and hasn't asked how accurate their AI is",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how Mayo Clinic's AI failed patients worse than a coin flip, and who's suing them for hiding it \ud83d\udd2c\n\nMayo Clinic ran an AI tool on real patients that was wrong 67% of the time, their own safety lead found the failure rate, the hospital buried the results and kept the tool running, the AI performed worse than a coin flip, the person hired to prevent AI risk is now the plaintiff suing the hospital, and most businesses using AI today have no one checking if it works.\n\nAI is spreading through hospitals and businesses faster than anyone can audit it. Mayo had a safety lead and still buried a 67% failure rate. Most companies have no one checking at all.\n\nRunning a business? DM us \"AI\" and we'll show you how to audit your AI before it becomes a headline\n\nSources: Futurism, @unusual_whales\n\n#AI #Healthcare #MayoClinic #ArtificialIntelligence #Technology",
+ "pinned_comment": "Your doctor is probably using AI right now and you have no idea how accurate it is. Would you even think to ask?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "MAYO CLINIC'S OWN AI SAFETY LEAD <em>IS SUING THEM FOR RUNNING AN AI ON PATIENTS THAT WAS WRONG TWO OUT OF THREE TIMES</em>",
+   "MAYO CLINIC'S OWN AI COMPLIANCE LEAD IS SUING THEM FOR HIDING AN AI THAT WAS <em>WRONG 67% OF THE TIME ON PATIENTS</em>",
+   "A LAWSUIT SAYS MAYO CLINIC CONCEALED THEIR AI TOOL'S <em>67% ERROR RATE</em> AND KEPT USING IT <em>ON REAL PATIENTS</em>",
+   "THE PERSON MAYO CLINIC HIRED TO KEEP THEIR AI SAFE <em>IS NOW SUING THEM FOR HIDING ITS 67% ERROR RATE ON REAL PATIENTS</em>",
+   "MAYO CLINIC KEPT AN AI RUNNING ON REAL PATIENTS <em>THAT WAS WRONG 67% OF THE TIME, UNTIL THEIR OWN SAFETY LEAD SUED</em>",
+   "A LAWSUIT SAYS MAYO CLINIC BURIED <em>AN AI TOOL'S 67% ERROR RATE WHILE IT WAS STILL BEING USED ON REAL PATIENTS</em>"
+  ],
+  "scores": [
+   6,
+   9,
+   6,
+   10,
+   4,
+   7
+  ],
+  "winner": 3,
+  "why": "\"The person Mayo Clinic hired to keep their AI safe\" lands the irony instantly for any 2am scroller who'd never parse 'compliance lead' \u2014 you feel the betrayal before you even hit the 67% number. Candidate 1 has the same facts but 'compliance lead' costs a half-second of mental translation that bleeds the gut-punch at the 1.7-second mark."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Mayo Clinic",
+  "actor_known": true,
+  "anchor": "Mayo Clinic",
+  "specifics": [
+   "AI tool had a 67% error rate",
+   "Used on actual patients",
+   "Their own AI compliance lead is the one suing them",
+   "Alleges hospital knew and concealed the error rate",
+   "Source: Futurism"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Mayo Clinic is being sued by its former AI compliance lead, who alleges the hospital system concealed its AI tool's 67% error rate at the expense of patients, per Futurism.",
+  "link": "https://x.com/unusual_whales/status/2084262256003707027",
+  "judge_interest": 8,
+  "scout_score": 165.0
+ }
+}
