@@ -375,7 +375,9 @@ def title_tournament(r):
     return r
 
 
-CLIP_QA = {"type": "object", "properties": {"usable": {"type": "boolean"}},
+CLIP_QA = {"type": "object",
+           "properties": {"usable": {"type": "boolean"},
+                          "reason": {"type": "string"}},
            "required": ["usable"]}
 
 TITLE_FIT = {"type": "object",
@@ -434,7 +436,11 @@ def clip_ok(src, dur, channel):
     """Vision QA on 2 extracted frames — rejects clips with another page's
     handle / watermark / app logo baked into the video (owner Jul 28: "ig
     video can have a credit in it" — a repost-of-a-repost look kills the
-    premium feel). Fails closed, like image_ok."""
+    premium feel). Also the SUBJECT gate (owner Aug 3, the "AI could never"
+    r/funny reel: title-keyword gates upstream see only text, so a plain
+    comedy clip whose caption merely mentions AI sailed through — this is
+    the only gate that actually watches the video, on BOTH routes).
+    Fails closed, like image_ok."""
     frames = []
     for frac in (0.2, 0.7):
         fp = src.replace(".mp4", f"-qa{int(frac*10)}.jpg")
@@ -460,8 +466,18 @@ def clip_ok(src, dur, channel):
             "Dynamics video is credit, not a repost mark), and small natural "
             "in-scene text (street signs, product screens). "
             'Also usable:false if the footage is blurry or heavily compressed. '
-            'Return ONLY JSON: {"usable": true/false}',
+            "SUBJECT GATE: our page posts AI and technology news ONLY. "
+            "usable:false unless the frames literally SHOW technology as the "
+            "subject — a robot, an AI product or interface, a lab/factory/"
+            "rocket, a gadget, a tech figure. A meme caption ABOUT AI over "
+            "ordinary footage (people, animals, sports, comedy skits) does "
+            "NOT count: judge what is physically in frame, not the text. "
+            'Return ONLY JSON: {"usable": true/false, "reason": "one short '
+            'phrase when false"}',
             schema=CLIP_QA, images=frames)
+        if not r.get("usable"):
+            print(f"clip QA rejected: {r.get('reason', 'no reason given')}",
+                  file=sys.stderr)
         return bool(r.get("usable"))
     except Exception as e:
         print(f"clip QA failed ({e}) — rejecting clip", file=sys.stderr)

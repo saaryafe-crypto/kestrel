@@ -157,13 +157,14 @@ def image_score(path, headline, generated=False):
         'FACE GATE (owner rule Aug 1, GENERATED images only — unfamiliar AI faces convert badly): if a human face is prominent, it must read as a RECOGNIZABLE famous person; a generic invented face nobody would recognize = usable:false, flaw "unfamiliar generated face". Faceless people (from behind, silhouette, hands) are fine. '
         'CLICK GATE (owner order Aug 3, GENERATED images only — a retry is cheap, wallpaper is not): the image alone must make a scroller feel they NEED to know what is happening — a caught moment, visible tension, peak emotion. A calm, posed, or neutral scene that raises no question = usable:false, flaw "no pull, nothing happening". '
         'BACKGROUND THUMB TEST (owner Aug 3, GENERATED images only): mentally cover the main subject with a thumb — the background alone should still hint what the story is about (its world, its stakes). A background that is an empty void, generic decoration, or a world that belongs to a DIFFERENT story than the headline = subtract points and name it as the flaw. '
+        'REAL WORLD GATE (owner Aug 3, the Mario emoji-wall cover): the scene must be a plausible photographic world. A background built from floating emoji, cartoon icons, logos, or symbol wallpaper reads as cheap AI slop = usable:false, flaw "cartoon prop background". '
         if generated else "")
     try:
         r = call_claude(
             f'An AI-generated image is attached (if not attached to this message, use your Read tool on {path} to look at it). It would fill the photo band of an Instagram news slide with this headline: "{clean}". Judge it AT PHONE FEED SIZE — a flaw a follower cannot see at that size does not count against it. '
             'SCORE against the scroll-stopper formula (each worth points): ONE dominant focal subject, brightest and sharpest thing in frame (no competing focal points); the image dramatizes THIS exact headline claim — moment, stakes or consequence visible in half a second (not generic topical art); THE PULL — the image alone makes you need to know what is happening (a caught moment, visible tension, peak emotion beats any calm posed scene); bright saturated colors with one punchy accent (not murky, not pastel, not white-dominant); if a person is central, the face is large and radiates one clear strong emotion; looks like a real press photo (texture, grain, candid light), not plastic AI art. '
             + face_gate +
-            'Score 0-10: 10 = a professional photo editor would run it AND it nails the formula; 7 = publishable; 4 = clearly flawed but recognizable and on-claim; 0 = unusable garbage. usable:true means publish as-is — set false for flaws a scrolling follower would actually notice: garbled text large enough to read, warped hands/faces, obvious AI plastic look, watermark, no connection to the claim, or a dark/murky frame with no focal subject. flaw: the single biggest problem in 12 words or less (empty string if none). Return ONLY JSON: {{"usable": true/false, "score": 0-10, "flaw": "..."}}',
+            'Score 0-10: 10 = a professional photo editor would run it AND it nails the formula; 7 = publishable; 4 = clearly flawed but recognizable and on-claim; 0 = unusable garbage. usable:true means publish as-is — set false for flaws a scrolling follower would actually notice: garbled text large enough to read, warped hands/faces, obvious AI plastic look, watermark, no connection to the claim, a dark/murky frame with no focal subject, or a SCREENSHOT of an app or social-media post (baked-in meme captions, interface elements like hearts, like counts, usernames, buttons — a screenshot is someone else\'s content and never our cover). flaw: the single biggest problem in 12 words or less (empty string if none). Return ONLY JSON: {{"usable": true/false, "score": 0-10, "flaw": "..."}}',
             schema=IMG_QA_SCHEMA, images=[path])
         return bool(r.get("usable")), int(r.get("score", 0)), r.get("flaw", "")
     except Exception as e:
@@ -459,6 +460,12 @@ def pick_story(stories):
     stories (your money/phone/job) and famous names beat obscure tech every time."""
     direct = [s for s in stories if "news.google.com" not in s["link"]]
     fresh = [s for s in direct if not already_posted(slugify(s["title"]))]
+    # interest ladder (Aug 3 Queen post-mortem: the meme-screenshot story
+    # carried scout interest 4/10 yet won the slot — ranking is a tournament
+    # with no floor). Low-interest stories stay in the pool (always-post),
+    # but only get a turn after every interest>=5 candidate is exhausted.
+    fresh = ([s for s in fresh if s.get("interest", 5) >= 5]
+             + [s for s in fresh if s.get("interest", 5) < 5])
     recent = recent_posts()
     # exhaust EVERY candidate before declaring the slot dead (owner rule:
     # 7/day is a must — a 3-try cap killed the Jul 28 test run when the top 3
@@ -529,6 +536,7 @@ def _rank(fresh, recent=()):
 4. Jaw-drop factor for a YOUNG scroller (19, not a newspaper reader): would they say "wait, WHAT?" out loud. A PERSON doing something outrageous ("a 19-year-old built an app that...") beats an institutional announcement ("company released a feature that...") of similar weight — companies announce, people DO things.
 5. A press image is a small tiebreak bonus
 A technically impressive but obscure story LOSES to a smaller story the reader can feel or USE. A dry corporate announcement LOSES to a person-driven story with a concrete outcome.
+REACTION-BAIT LOSES TO EVERYTHING (owner rule Aug 3): a story whose only event is that someone posted something online and people reacted — a viral tweet, meme, or AI video measured in likes/views. Pick it ONLY if every other candidate is disqualified, or the story has a real-world consequence (money lost, someone fired, a product pulled, a lawsuit).
 
 STORIES:
 {lines}
@@ -1046,6 +1054,18 @@ def qa(post):
         errs.append("cover has >2 <em> groups — accent ONE contiguous phrase or "
                     "whole line (two max), scattered single-word accents are "
                     "confetti with zero focal point")
+    # reaction-metric ban (Aug 3 Queen/Mario post-mortem: both disasters
+    # closed the cover with ", AND 40K LIKES" / "69K LIKES" — a like count
+    # is coverage of a post, not a story; it also proves the story class is
+    # reaction-bait). Mirrors the tournament intake filter in viral.py.
+    cover_plain = re.sub(r"<[^>]+>", "", slides[0]["headline"])
+    if re.search(r"(?i)\b\d[\d.,]*\s*(?:K|M|MILLION|THOUSAND)?\s*"
+                 r"(?:LIKES?|REPLIES|RETWEETS?|REPOSTS?|UPVOTES?|SHARES|"
+                 r"VIEWS|COMMENTS)\b", cover_plain):
+        errs.append("cover headline cites a reaction metric (likes/views/"
+                    "replies) — that's coverage of a post, not the story; "
+                    "rewrite the beat with a real-world fact (money, scale, "
+                    "who did what)")
     # kicker strip (forensic Aug 2): one tiny second beat, plain text only
     kick = re.sub(r"<[^>]+>", "", slides[0].get("kicker") or "").strip()
     if kick and not (3 <= len(kick.split()) <= 8):
@@ -1275,6 +1295,7 @@ def main(stories_path):
     # imagery is the floor.
     gen = 0
     pool = []  # every rejected COVER candidate as (score, path) — best-of floor
+    cover_scored = False  # a candidate cover judged once is not judged again
     # product-hero reference (@technology Codex Micro anatomy, owner Aug 1):
     # the real product photo rides along to Seedream so the generated device
     # matches reality — the cover's assigned article photo, else the first one
@@ -1320,11 +1341,24 @@ def main(stories_path):
         # product"): when the cover already holds a REAL article photo, a
         # generated replica never replaces it — generation only competes if
         # it is a TRUE product-hero with BOTH references (real product photo
-        # + the CEO's real face photo). Otherwise the real photo ships.
+        # + the CEO's real face photo). Otherwise the real photo ships —
+        # but ONLY after the judge approves it (Aug 3 Queen Elizabeth
+        # post-mortem: this branch shipped a scraped X meme screenshot with
+        # baked-in caption and a 21K-heart UI as the cover, unscored — the
+        # judge only ever saw generated images). A failing candidate loses
+        # the slot and generation runs exactly like a coverless post.
         if (s["type"] == "cover" and s.get("media")
                 and not os.path.basename(s["media"]).startswith("gen")
                 and not (want_ref and (face_refs or person))):
-            continue
+            cand = os.path.join(HERE, s["media"])
+            ok, score, flaw = image_score(cand, s.get("headline", ""))
+            cover_scored = True
+            if ok:
+                continue
+            print(f"cover candidate rejected (score {score}/10): {flaw} "
+                  "— falling through to generation", file=sys.stderr)
+            pool.append((score, cand))
+            s["media"] = None
         # cover ladder (owner rules Jul 29: capped attempts — each image costs
         # money — the brief rewritten around the judge's named flaw between
         # attempts, and the post NEVER ships imageless: if nothing passes, the
@@ -1395,6 +1429,20 @@ def main(stories_path):
     # when generation starves, a logos cover falls back to a real article
     # photo exactly like every other style.
     cover0 = post["slides"][0]
+    # FINAL COVER AUDIT (Aug 3 Queen Elizabeth post-mortem, second hole): a
+    # cover whose candidate photo arrived WITHOUT an image_brief never enters
+    # the generation loop above, so the composite-first judging there never
+    # runs — this was the actual path that shipped the meme screenshot. Every
+    # non-generated cover is judged exactly once before it may ship.
+    if (cover0.get("media") and not cover_scored
+            and not os.path.basename(cover0["media"]).startswith("gen")):
+        ok, score, flaw = image_score(os.path.join(HERE, cover0["media"]),
+                                      cover0.get("headline", ""))
+        if not ok:
+            print(f"cover candidate rejected in final audit (score {score}/10):"
+                  f" {flaw}", file=sys.stderr)
+            pool.append((score, os.path.join(HERE, cover0["media"])))
+            cover0["media"] = None
     if not cover0.get("media"):
         for mi, m in enumerate(media_files, 1):
             if mi in used:

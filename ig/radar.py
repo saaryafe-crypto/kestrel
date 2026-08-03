@@ -87,6 +87,14 @@ def political(text):
     """True = off-brand politics; AI-collision stories stay in."""
     return bool(POLITICS.search(text)) and not AI_CORE.search(text)
 
+# Meme-caption leak plug (owner Aug 3: r/funny "AI could never part 3" — a
+# comedy clip whose TITLE jokes about AI passed the title-only TOPIC gate,
+# but the video showed no technology at all). These caption shapes mean the
+# title is a punchline, not a description; reel.py's frame-level subject
+# gate is the backstop, this saves the radar slot up front.
+MEME_FRAME = re.compile(
+    r"(?i)\b(could never|be like|pov:|part \d+\b|nobody:|caught in 4k)\b")
+
 MAX_AGE_H = 30       # older = the wave already broke on IG too
 N_MOMENTS = 24       # radar.json cap (raised Jul 29: X sends up to 16
                      # high-vph moments; reddit breakouts keep >=8 slots)
@@ -130,7 +138,8 @@ def harvest_sub(sub, floor, gate):
         title = htmllib.unescape(ti.group(2)).strip()
         if score < floor:
             continue
-        if gate and (not TOPIC.search(title) or political(title)):
+        if gate and (not TOPIC.search(title) or political(title)
+                     or MEME_FRAME.search(title)):
             continue
         url = htmllib.unescape(ti.group(1))
         img = url if re.match(r"https?://i\.redd\.it/", url) else None

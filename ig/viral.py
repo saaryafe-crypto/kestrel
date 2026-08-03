@@ -421,7 +421,13 @@ Return ONLY JSON: {{"results": [one object per headline, same order]}}"""
                       f"one_idea={v.get('one_idea')}]: "
                       f"{re.sub('</?em>', '', c['headline'])[:70]}",
                       file=sys.stderr)
-            return kept or cands  # fall open — always-post doctrine
+            # Graded fall-open (Aug 3 Queen/Mario post-mortem: the flat
+            # `kept or cands` let stapled multi-clause hooks win whenever
+            # EVERY candidate failed — the gate judged them and then shipped
+            # one anyway). Now: keepers first, then clear-but-stapled (a
+            # reader at least understood them), and only then the raw pool.
+            clear_only = [c for c, v in dead if int(v.get("clear", 0)) >= 4]
+            return kept or clear_only or cands
         except Exception as e:
             print(f"comprehension gate failed ({e})"
                   + (" — retrying once" if attempt == 0 else " — falling open"),
@@ -610,6 +616,12 @@ def drop_stale_kicker(post):
         s0.pop("kicker", None)
 
 
+REACTION_METRIC = re.compile(
+    r"\b\d[\d.,]*\s*(?:K|M|MILLION|THOUSAND)?\s*"
+    r"(?:LIKES?|REPLIES|RETWEETS?|REPOSTS?|UPVOTES?|SHARES|VIEWS|COMMENTS)\b",
+    re.I)
+
+
 def tournament(post, story, ctx, material=""):
     """English tournament: writer's candidates + an independent playbook batch
     -> anchor filter -> per-type judge -> winner becomes the cover. Same
@@ -619,6 +631,17 @@ def tournament(post, story, ctx, material=""):
     cands = [c for c in cands if c.get("headline")]
     if story:  # edu posts have no news story — writer's candidates only
         cands += rival_hooks(story, ctx, material)
+    # REACTION-METRIC BAN (owner Aug 3, Queen Elizabeth + Mario Lopez double
+    # post-mortem: both winners stapled "...AND THE SCREENSHOT HAS 40K LIKES"
+    # / "...AND ONE REPLY HIT 69K LIKES" — internet-reaction counts are not a
+    # story, they are engagement bait, and the judges keep rewarding them).
+    # Structural, deterministic, no fall-open: the writer's own cover already
+    # passed the same ban in qa(), so dropping every metric candidate is safe.
+    metric = [c for c in cands if REACTION_METRIC.search(c["headline"])]
+    for c in metric:
+        print("reaction-metric ban killed: "
+              f"{re.sub('</?em>', '', c['headline'])[:70]}", file=sys.stderr)
+    cands = [c for c in cands if c not in metric]
     win, record = judge(cands, ctx)
     if not win or "<em>" not in win["headline"]:
         post["hook_fallback"] = "no-valid-winner"  # daily report flag (Aug 3)
