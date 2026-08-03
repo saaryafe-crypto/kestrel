@@ -1,0 +1,151 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "אילון מאסק הפסיד 750 מיליארד דולר וקרא לעצמו <em>טריליונר לשעבר</em>",
+   "hsize": 64,
+   "kicker": "יותר מביזוס, פייג' וברין ביחד",
+   "media": "posts/2026-08-02-former-trillionaire-loses-750-billion-am/gen-situation.jpg",
+   "discs": [
+    {
+     "logo": "tesla"
+    },
+    {
+     "logo": "spacex"
+    }
+   ],
+   "gen_person": true
+  },
+  {
+   "type": "content",
+   "headline": "ככה הוא <em>הגיע לטריליון</em>",
+   "hsize": 82,
+   "body": "ביוני, SpaceX נכנסה לבורסה. <b>המניה זינקה</b>, ומאסק הפך <b>לאדם הראשון בהיסטוריה</b> עם הון של טריליון דולר.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ואז <em>הכל התרסק</em>",
+   "hsize": 100,
+   "body": "תוך שבועות, <b>המניות של Tesla ושל SpaceX צנחו</b>. עד סוף יולי, מאסק איבד <b>750 מיליארד דולר</b>. ודווקא SpaceX, המניה שדחפה אותו לטריליון, מחקה את רוב הכסף.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>כמה זה 750 מיליארד דולר</em>",
+   "hsize": 82,
+   "body": "קחו את <b>ג'ף ביזוס, לארי פייג' וסרגיי ברין</b>. שלושה מהאנשים הכי עשירים בעולם. כל מה שיש להם ביחד שווה פחות ממה שמאסק <b>הפסיד בחודש אחד</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>טריליונר לשעבר</em>",
+   "hsize": 88,
+   "body": "בזמן שמניית Tesla עדיין צונחת, מאסק לא נלחץ. הוא פשוט <b>קרא לעצמו טריליונר לשעבר</b>. ההפסד הכי גדול בהיסטוריה, והוא עושה מזה בדיחה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הלקוחות שלכם מחכים? <em>לא יותר</em>",
+   "hsize": 94,
+   "body": "כלי AI שעונה אוטומטית <b>לכל הודעה מלקוח, תוך פחות מדקה</b>. מגדירים פעם אחת, <b>בלי לגייס אף אחד חדש</b>. קישור בביו.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "עוקבים <em>ושולחים</em>",
+   "hsize": 58,
+   "body": "עקבו אחרי @ainews.israel כדי לא לפספס את הפוסט הבא. שלחו את זה <b>לחבר שחושב שמיליארדרים לא מפסידים כסף</b>.",
+   "face": "elon-musk-2",
+   "media": null
+  }
+ ],
+ "caption": "אילון מאסק הגיע לטריליון דולר, איבד 750 מיליארד דולר בחודש אחד, וקרא לעצמו טריליונר לשעבר.\n\nביוני, ההנפקה של SpaceX דחפה את ההון שלו לטריליון דולר, שיא בהיסטוריה. תוך שבועות המניות של Tesla ושל SpaceX צנחו, ועד סוף יולי הוא הפסיד 750 מיליארד דולר, יותר ממה ששווים ביזוס, פייג' וברין ביחד. התגובה שלו? קרא לעצמו טריליונר לשעבר.\n\nמקורות: Yahoo Finance\n\nעקבו אחרי @ainews.israel\n\n#ElonMusk #Tesla #SpaceX #Billionaires #AIBusiness",
+ "pinned_comment": "750 מיליארד דולר בחודש. מישהו פה שהיה שורד את זה?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "ELON MUSK JUST LOST MORE MONEY THAN <em>BEZOS, LARRY PAGE, AND SERGEY BRIN ARE WORTH COMBINED</em>, $750 BILLION GONE AFTER SPACEX AND TESLA CRASHED",
+   "ELON MUSK JUST LOST MORE MONEY <em>THAN BEZOS, PAGE, AND BRIN HAVE COMBINED</em>",
+   "ELON MUSK JUST LOST $750 BILLION AND <em>IS CALLING HIMSELF 'FORMER TRILLIONAIRE'</em>",
+   "ELON MUSK WENT FROM <em>THE WORLD'S FIRST TRILLIONAIRE TO LOSING $750 BILLION</em> IN WEEKS",
+   "SPACEX WENT PUBLIC AND MADE ELON MUSK A TRILLIONAIRE IN JUNE, THEN TESLA AND SPACEX CRASHED AND HE LOST <em>$750 BILLION</em> BY JULY",
+   "ELON MUSK JUST LOST <em>$750 BILLION</em> IN NET WORTH AFTER TESLA AND SPACEX CRASHED, MORE THAN BEZOS, LARRY PAGE, AND SERGEY BRIN ARE WORTH <em>COMBINED</em>",
+   "ONE MAN JUST LOST $750 BILLION <em>AND TREATED IT LIKE A PUNCHLINE</em>",
+   "THE SAME STOCK THAT MADE ELON MUSK A TRILLIONAIRE <em>JUST ERASED $750 BILLION OF HIS FORTUNE</em>",
+   "ELON MUSK JUST WENT FROM THE WORLD'S FIRST TRILLIONAIRE TO CALLING HIMSELF A <em>'FORMER TRILLIONAIRE'</em> AFTER LOSING <em>$750 BILLION</em> IN WEEKS",
+   "ELON MUSK HIT $1 TRILLION LAST MONTH AND JUST LOST <em>$750 BILLION OF IT</em>, THE LARGEST WEALTH DROP IN HUMAN HISTORY"
+  ],
+  "scores": [
+   8,
+   6,
+   8,
+   7,
+   7,
+   8,
+   5,
+   6,
+   9,
+   0
+  ],
+  "winner": 8,
+  "why": "It stacks every gut-punch in one sentence: the rise ('world's first trillionaire'), the fall ($750 billion, in weeks), AND his own punchline quote — you get the full wild arc without needing to swipe to understand why it matters. The runner-up [0] lands the Bezos comparison hard but front-loads the loss without the quote, so it reads like a headline instead of a story you have to see."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "אילון מאסק הפסיד 750 מיליארד דולר וקרא לעצמו <em>טריליונר לשעבר</em>",
+   "אילון מאסק <em>הפסיד 750 מיליארד דולר</em> תוך שבועות, אחרי ששבר את הטריליון ביוני",
+   "אילון מאסק הפסיד <em>750 מיליארד דולר</em>, יותר ממה ששלושה מהאנשים הכי עשירים בעולם שווים ביחד"
+  ],
+  "scores": [
+   9,
+   6,
+   8
+  ],
+  "winner": 0,
+  "why": "מס' 0 מכניס שתי עובדות מטורפות בשורה אחת — 750 מיליארד ו'טריליונר לשעבר' שהוא קרא לעצמו — כל אחת מהן מספיקה לעצור גלילה, ביחד הן מכריחות אותך לסווייפ. מס' 2 חזק אבל הדמיון (שלושה מהאנשים הכי עשירים ביחד) דורש שנייה של חישוב מנטלי שאין לי ב-2 בלילה."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Elon Musk",
+  "actor_known": true,
+  "anchor": "Elon Musk",
+  "specifics": [
+   "Lost $750 billion in net worth",
+   "Was worth over $1 trillion after SpaceX IPO in June",
+   "Loss exceeds combined net worth of Bezos, Larry Page, and Sergey Brin",
+   "Called himself 'former trillionaire'",
+   "Crash driven by Tesla and SpaceX stock collapse"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "‘Former trillionaire’ loses $750 billion amid Tesla, SpaceX crash, more than combined net worth of Larry Page, Sergey Brin, and Jeff Bezos — Why the rich laugh at losses",
+  "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-calls-himself-former-105500385.html",
+  "judge_interest": 8,
+  "scout_score": 138.9
+ },
+ "hook_tournament_he": {
+  "story_type": "record",
+  "candidates": [
+   "לאילון מאסק לקח שנים להגיע לטריליון, <em>ושבועות להפסיד 750 מיליארד</em>",
+   "אילון מאסק הפסיד 750 מיליארד דולר וקרא לעצמו <em>טריליונר לשעבר</em>",
+   "אילון מאסק <em>איבד 750 מיליארד דולר בחודש אחד</em>",
+   "אילון מאסק הפסיד <em>750 מיליארד דולר</em>, יותר ממה שבזוס ומייסדי גוגל שווים ביחד",
+   "אילון מאסק הגיע לטריליון דולר ביוני, ותוך שבועות <em>הפסיד 750 מיליארד</em>",
+   "טסלה וספייס אקס קרסו <em>ומחקו למאסק 750 מיליארד דולר</em> תוך שבועות"
+  ],
+  "scores": [
+   7,
+   9,
+   5,
+   8,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "הביטוי 'טריליונר לשעבר' הוא ציטוט שלו עצמו — אף מועמד אחר לא מביא את הפרט הזה, שעוצר את הגלילה לבד. הוא מגיע ביחד עם המספר הקשה, אז קיבלת שני רגעי 'רגע מה?' בשורה אחת שנקראת תוך שנייה."
+ }
+}
