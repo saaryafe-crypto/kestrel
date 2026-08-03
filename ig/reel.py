@@ -1,35 +1,26 @@
 #!/usr/bin/env python3
-"""Automated reel, @technology-style: find the day's most viral AI/tech clip
-on Reddit (upvotes = crowd-validated virality; viral TikTok/IG clips get
-reposted there, so Reddit is the open door to all of them), Claude picks the
-scroll-stopper and writes the overlay title + caption, ffmpeg brands it
-(9:16 blur-pad, profile card + title overlay, original audio), then it's
-pushed to the public media repo and published via the Make reel route.
+"""Automated reel, @technology-style — X WATCHLIST ONLY (owner order Aug 3:
+"i want to take the data ONLY from the channels i personally approved").
+The candidate pool is radar.json video moments — viral clips tweeted by the
+owner-approved channels in watchlist-x.json, nothing else. The old rungs
+(Reddit top-video RSS, the IG/TikTok/YouTube platform scout) are DELETED.
+Claude picks the scroll-stopper and writes the overlay title + caption,
+ffmpeg brands it (9:16 blur-pad, profile card + title overlay, original
+audio), then it's pushed to the public media repo and published via the
+Make reel route.
 
 Usage: .venv/bin/python reel.py [video-url] [--dry]
-  no url  -> auto-pick from SUBS (top video posts of the day)
+  no url  -> auto-pick from radar.json X video moments
   --dry   -> build posts/<name>/reel.mp4 but don't push or publish"""
 import html, json, os, re, shutil, subprocess, sys, time
 import urllib.request
-import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 
 import bundle
-import reelscout
-from fetch import get
 from write import call_claude, no_dashes, principles
 from render import CHROME
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SUBS = ["singularity", "robotics", "artificial", "ChatGPT", "ClaudeAI", "OpenAI",
-        "interestingasfuck", "nextfuckinglevel", "Damnthatsinteresting"]
-# Crowd-qualification floors, per sub size (owner verdict Jul 28: "a lot more
-# upvotes, not just a few hundred"). AI subs are small ponds — 500 is a real
-# hit there (today's best on-topic clip: 728). In the huge general subs only
-# mega-viral qualifies; the topic gate then decides if it's ours.
-AI_FLOOR, GENERAL_FLOOR = 500, 5000
-FLOOR = {s: AI_FLOOR for s in
-         ("singularity", "robotics", "artificial", "ChatGPT", "ClaudeAI", "OpenAI")}
 USED = os.path.join(HERE, "reels-used.json")
 MEDIA_REPO = "git@github.com:saaryafe-crypto/kestrel-media.git"
 RAW = "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main"
@@ -106,73 +97,27 @@ def probe_mp4(url):
         return 0, 0, 0
 
 
-def candidates(used, t="day"):
-    """Top VIDEO posts from viral subs over window t ("day"; "week" as the
-    wider fallback rung — 7 posts/day is a must, the ladder widens instead of
-    skipping). Viral TikTok/IG clips get reposted to Reddit; upvotes are the
-    crowd-validated virality signal."""
-    ns = {"a": "http://www.w3.org/2005/Atom"}
-    rows = []
-    for i, sub in enumerate(SUBS):
-        if i:
-            time.sleep(61)  # unauthenticated Reddit RSS: ~1 req/min or it 429s
-        try:
-            root = ET.fromstring(get(f"https://www.reddit.com/r/{sub}/top.rss?t={t}&limit=15"))
-        except Exception as e:
-            print(f"  r/{sub} rss failed ({e})", file=sys.stderr)
-            continue
-        for rank, e in enumerate(root.findall("a:entry", ns)):
-            # every entry has a [link] anchor; only video/link posts point it
-            # off-reddit — v.redd.it is the video host
-            m = re.search(r'href="([^"]+)">\[link\]', e.findtext("a:content", "", ns))
-            if not m or "v.redd.it" not in m.group(1):
-                continue
-            link = html.unescape(m.group(1))
-            vid = link.rstrip("/").rsplit("/", 1)[-1]
-            if vid in used:
-                continue
-            author = e.findtext("a:author/a:name", "", ns).lstrip("/")
-            rows.append({"id": vid, "url": link,
-                         "title": html.unescape(e.findtext("a:title", "", ns)),
-                         "channel": author or "unknown", "sub": sub, "rank": rank})
-    rows.sort(key=lambda c: c["rank"])  # probe best-ranked first
-    cands = []
-    for c in rows[:30]:  # probe budget; each yt-dlp -J call is a few seconds
-        if len(cands) >= 10:
-            break
-        try:
-            d = json.loads(yt("-J", "--no-download", c["url"]))
-        except Exception:
-            continue
-        dur, likes = d.get("duration") or 0, d.get("like_count") or 0
-        # resolution = SHORT side (a 480x854 portrait clip is tall, not sharp)
-        res = min(d.get("width") or 0, d.get("height") or 0)
-        if not (8 <= dur <= 300) or likes < FLOOR.get(c["sub"], GENERAL_FLOOR) or res < 720:
-            continue
-        c.update(duration=int(dur), likes=int(likes), res=int(res),
-                 comments=int(d.get("comment_count") or 0))
-        cands.append(c)
-    # crowd qualification: real upvotes across ALL subs, not rank inside one
-    cands.sort(key=lambda c: (-c["likes"], -c["res"]))
-    for i, c in enumerate(cands):
-        print(f"  cand [{i}] r/{c['sub']} {c['likes']:,}up {c['comments']}c "
-              f"{c['res']}p {c['duration']}s: {c['title'][:55]}", file=sys.stderr)
-    return cands
-
-
 def radar_candidates(used):
     """Video moments from radar.json (the Demand Radar on the Mac, every 2h):
-    Reddit breakouts caught in their FIRST HOURS — a video exploding right now
-    is the freshest reel source there is, and its top comments are the crowd's
-    vote on which emotion the moment triggers. Probes the reddit permalink
-    with yt-dlp (gives uploader + duration + res). Fails open: no/stale radar
-    -> [] and the ladder falls to the platform scout."""
+    viral clips tweeted by owner-approved watchlist channels, caught in their
+    FIRST HOURS — with the top replies as the crowd's vote on which emotion
+    the moment triggers. This is the ONLY reel source (owner order Aug 3).
+    Fails open: no/stale radar -> [] and the slot falls to an extra carousel."""
     try:
         r = json.load(open(os.path.join(HERE, "radar.json")))
         upd = datetime.fromisoformat(r["updated"])
         if (datetime.now(timezone.utc) - upd).total_seconds() > 24 * 3600:
             return []
     except Exception:
+        return []
+    # HARD ALLOWLIST (owner order Aug 3): only videos authored by a
+    # watchlist-x.json handle may become reels — an x.com permalink alone is
+    # not proof (the old wide net was full of x.com links from strangers).
+    try:
+        lanes = json.load(open(os.path.join(HERE, "watchlist-x.json")))["lanes"]
+        approved = {h.lower() for lane in lanes.values() for h in lane}
+    except Exception as e:
+        print(f"no watchlist-x.json ({e}) — no reel candidates", file=sys.stderr)
         return []
     cands = []
     for m in r.get("moments", []):
@@ -181,29 +126,16 @@ def radar_candidates(used):
         vid = m.get("id") or m["video"].split("?")[0].rstrip("/").rsplit("/", 1)[-1]
         if vid in used:
             continue
-        if "reddit" in m["permalink"]:
-            # reddit: yt-dlp probes the permalink (also gives the uploader)
-            try:
-                # yt-dlp prints "null" on a failed probe (e.g. reddit read
-                # timeout, seen Aug 1) — that parsed to None and the .get()
-                # below killed the ENTIRE radar rung. One bad probe now skips
-                # one candidate, never the batch.
-                d = json.loads(yt("-J", "--no-download", m["permalink"])) or {}
-            except Exception:
-                continue
-            if not isinstance(d, dict):
-                continue
-            dur = d.get("duration") or 0
-            res = min(d.get("width") or 0, d.get("height") or 0)
-            src_url, direct, channel = (m["permalink"], None,
-                                        d.get("uploader") or m["sub"])
-        else:
-            # X: the moment carries a direct mp4 — ffprobe it and download it
-            # directly (yt-dlp can't read bare mp4 metadata and its twitter
-            # route is flaky)
-            dur, w, h = probe_mp4(m["video"])
-            res = min(w, h)
-            src_url, direct, channel = m["video"], m["video"], m["sub"]
+        if "x.com" not in m["permalink"] or m.get("sub", "").lower() not in approved:
+            print(f"  DROPPED non-watchlist radar moment @{m.get('sub')}: "
+                  f"{m['permalink'][:60]}", file=sys.stderr)
+            continue
+        # X: the moment carries a direct mp4 — ffprobe it and download it
+        # directly (yt-dlp can't read bare mp4 metadata and its twitter
+        # route is flaky)
+        dur, w, h = probe_mp4(m["video"])
+        res = min(w, h)
+        src_url, direct, channel = m["video"], m["video"], m["sub"]
         if not (8 <= dur <= 300) or res < 720:
             continue
         cands.append({
@@ -224,17 +156,13 @@ def radar_candidates(used):
 
 
 def cline(i, c):
-    if c.get("platform"):  # reelscout candidate (ig/tiktok/youtube)
-        pop = (f"{c['platform']} @{c['channel']} | {c.get('views', 0):,} views"
-               f" in {(c.get('age_h') or 0) / 24:.1f} days")
-    elif c.get("vph"):     # radar breakout (hours old, exploding right now)
-        pop = (f"{c.get('where', 'r/' + str(c.get('sub', '?')))} | BREAKING OUT"
-               f" NOW: {c.get('likes', 0):,} {c.get('unit', 'upvotes')} in"
-               f" {c.get('age_h', 0):.0f}h ({c['vph']:,.0f}/hr),"
-               f" {c.get('comments', 0):,} comments")
-    else:                  # reddit fallback candidate
-        pop = (f"r/{c.get('sub', '?')} | {c.get('likes', 0):,} upvotes,"
-               f" {c.get('comments', 0):,} comments today | posted by {c['channel']}")
+    if c.get("vph"):  # radar breakout (hours old, exploding right now)
+        pop = (f"{c.get('where', '@' + str(c.get('sub', '?')) + ' on X')} | "
+               f"BREAKING OUT NOW: {c.get('likes', 0):,} "
+               f"{c.get('unit', 'likes')} in {c.get('age_h', 0):.0f}h "
+               f"({c['vph']:,.0f}/hr), {c.get('comments', 0):,} comments")
+    else:             # url-argument candidate (manual run)
+        pop = f"@{c['channel']} | {c.get('likes', 0):,} likes"
     line = f"[{i}] {pop} | {c.get('res', '?')}p | {c['duration']}s\n    {c['title']}"
     if c.get("top_comments"):
         quotes = " / ".join(f'"{t[:90]}"' for t in c["top_comments"][:2])
@@ -248,7 +176,7 @@ def build_prompt(cands, recent=()):
     if recent:
         recent_block = ("\n\nALREADY POSTED (last 7 days — reels we published):\n"
                         + "\n".join(f"- {t}" for t in recent) + "\n")
-    return f"""You run @yaffeai, an AI/tech Instagram page modeled on @technology (8.7M followers). Below are the most viral AI/tech clips found across Reddit breakouts, Instagram, TikTok and YouTube — real view counts, the crowd already voted. Pick ONE to repost as a branded reel, exactly in their register.
+    return f"""You run @yaffeai, an AI/tech Instagram page modeled on @technology (8.7M followers). Below are the most viral AI/tech clips tweeted by the X channels the owner personally approved — real engagement velocity, the crowd already voted. Pick ONE to repost as a branded reel, exactly in their register.
 
 CANDIDATES:
 {chr(10).join(lines)}{recent_block}
@@ -510,11 +438,11 @@ def main():
     urls = [a for a in sys.argv[1:] if a.startswith("http")]
     used = json.load(open(USED)) if os.path.exists(USED) else []
 
-    # The ladder (owner rule Jul 28: 7 posts/day is a MUST — a slot is never
-    # skipped, it falls back): radar breakouts (hours-old Reddit rockets with
-    # the crowd's emotional angle) -> platform scout (IG/TikTok/YouTube view
-    # counts) -> today's viral Reddit clips -> this week's -> fill the slot
-    # with an extra carousel instead.
+    # ONE source (owner order Aug 3): radar.json X video moments — viral
+    # clips tweeted by the approved watchlist channels. The old fallback
+    # rungs (platform scout, Reddit day/week) are deleted; when the X lane
+    # has no publishable clip the slot falls to an extra carousel instead
+    # (reelwatch handles the catch-up), and a dead X lane raises its alarm.
     used_ids = {u["id"] for u in used}
     # owner rule Aug 1: never repost a story we ran in the last 7 days, even a
     # different angle/re-edit of the same event — the judge gets these titles
@@ -529,20 +457,16 @@ def main():
                   "duration": int(d.get("duration") or 0)}]
         r = pick(cands, recent)
     else:
-        for rung, fn in (("radar", lambda: radar_candidates(used_ids)),
-                         ("scout", lambda: reelscout.scout(used_ids)),
-                         ("reddit day", lambda: candidates(used_ids, "day")),
-                         ("reddit week", lambda: candidates(used_ids, "week"))):
-            try:
-                cands = fn()
-            except Exception as e:
-                print(f"{rung} sourcing failed ({e})", file=sys.stderr)
-                cands = []
-            if cands:
-                r = pick(cands, recent)
-            if r:
-                break
-            print(f"no publishable reel from {rung}", file=sys.stderr)
+        try:
+            cands = radar_candidates(used_ids)
+        except Exception as e:
+            print(f"radar sourcing failed ({e})", file=sys.stderr)
+            cands = []
+        if cands:
+            r = pick(cands, recent)
+        if not r:
+            print("no publishable reel from the X watchlist radar",
+                  file=sys.stderr)
 
     # download + frame QA loop: a clip with another page's credit baked in
     # (owner Jul 28) or mushy footage gets dropped and the pick reruns on the
@@ -567,10 +491,8 @@ def main():
             except Exception as e:
                 print(f"direct mp4 download failed: {e}", file=sys.stderr)
         else:
-            dl = ["-f", "bv*[height<=1080]+ba/b",  # v.redd.it audio isn't m4a-tagged
+            dl = ["-f", "bv*[height<=1080]+ba/b",
                   "--merge-output-format", "mp4", "-o", src]
-            if c.get("platform") == "instagram" and os.path.exists(reelscout.COOKIES):
-                dl += ["--cookies", reelscout.COOKIES]
             yt(*dl, c["url"], timeout=600)
         if os.path.exists(src) and clip_ok(src, c["duration"], c["channel"]):
             break

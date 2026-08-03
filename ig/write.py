@@ -1175,7 +1175,7 @@ def main(stories_path):
 
     body_text = article_text(story["link"])
     if not body_text and (story.get("radar") or {}).get("selftext"):
-        body_text = story["radar"]["selftext"]  # reddit-native story: the post IS the article
+        body_text = story["radar"]["selftext"]  # X-native story: the tweet IS the article
     print(f"article text: {len(body_text)} chars", file=sys.stderr)
 
     post_dir = os.path.join(HERE, "posts", f"{date.today()}-{slugify(story['title'])}")

@@ -84,7 +84,7 @@ jobs:
         run: |
           set -o pipefail
           cd ig
-          python scout.py   # fetch.py harvest + HN crowd data + Claude interest judge -> stories.json
+          python scout.py   # X watchlist radar.json ONLY (owner order Aug 3) + Claude interest judge -> stories.json
           # SLOT MIX (owner strategy pivot Aug 1 — business-owner content mix,
           # ~40% guides / 20% money-proof / 20% news / rest quote+builder):
           #   13:00 + 17:00 UTC = guide (ai_education save-magnet, daily x2)

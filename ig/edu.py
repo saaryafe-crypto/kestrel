@@ -2,54 +2,20 @@
 """Educational save-magnet writer (ai_education container): Claude Code powers,
 AI skills anyone can use tonight, TRUE stories of what people built. No news
 dependency — Claude picks a fresh angle, deduped via edu-used.json.
+Owner order Aug 3 (X watchlist only): the reddit_tips() topic-demand miner is
+DELETED — no Reddit data anywhere. Topic anchors come only from stories.json,
+which is itself X-watchlist-only.
 Usage: python3 edu.py"""
-import json, os, re, subprocess, sys, time
-import xml.etree.ElementTree as ET
+import json, os, re, subprocess, sys
 from datetime import date
 
 import genimg
 import viral
-from fetch import get
 from write import (HERE, art_direct, call_claude, face_riders, image_score,
                    logo_ref, principles, qa, scrub_dashes, simpler_brief,
                    slugify)
 
 USED = os.path.join(HERE, "edu-used.json")
-TIP_SUBS = ["ClaudeAI", "ChatGPTPro", "PromptEngineering",
-            "ArtificialInteligence", "ChatGPTCoding", "ClaudeCode"]
-
-
-def reddit_tips():
-    """Top self-posts of the week from AI-tips subreddits — crowd-validated
-    demand ("9 things every Claude user must do", "I let Claude analyze my
-    company with Musk's principles"). Titles + snippets guide topic choice;
-    text is never copied. Any failure -> empty string, edu still runs."""
-    ns = {"a": "http://www.w3.org/2005/Atom"}
-    found = []
-    for i, sub in enumerate(TIP_SUBS):
-        if i:
-            time.sleep(61)  # unauthenticated RSS rate limit: ~1 request/min
-        try:
-            root = ET.fromstring(get(f"https://www.reddit.com/r/{sub}/top.rss?t=week&limit=10"))
-        except Exception as e:
-            print(f"  ! reddit r/{sub}: {e}", file=sys.stderr)
-            continue
-        for e in root.findall("a:entry", ns)[:10]:
-            title = (e.findtext("a:title", "", ns) or "").strip()
-            html = e.findtext("a:content", "", ns) or ""
-            # self posts only: their [link] href points back at reddit itself;
-            # external hrefs mean a news link post (edu wants tips, not news)
-            m = re.search(r'href="([^"]+)">\[link\]', html)
-            if not title or (m and not re.search(r"reddit\.com|redd\.it", m.group(1))):
-                continue
-            text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).strip()[:280]
-            found.append(f"- r/{sub} [{title}] {text}")
-    # receipts first: a tip with a real number ($ saved, hours, %) beats a
-    # generically cool tip (audit Jul 29 — proof-of-value ranking)
-    found.sort(key=lambda t: 0 if re.search(
-        r"\$\d|\d+ ?(hours?|hrs|%|days?|k\b)", t, re.I) else 1)
-    print(f"reddit tips: {len(found)} threads", file=sys.stderr)
-    return "\n".join(found)
 
 SCHEMA = {
     "type": "object",
@@ -81,15 +47,11 @@ SCHEMA = {
 }
 
 
-def build_prompt(used_topics, tips="", headlines=""):
+def build_prompt(used_topics, headlines=""):
     spec = json.load(open(os.path.join(HERE, "containers.json")))
     used = "\n".join(f"- {t}" for t in used_topics) or "(none yet)"
     vol = len(used_topics) + 1  # franchise volume number (audit Jul 29)
     tips_block = (f"""
-PROVEN DEMAND — this week's top threads in AI-tips communities (top-of-week = thousands of upvotes = people are hungry for exactly this right now). Use them to pick which skills/angles people want TODAY. NEVER copy their text or trust their claims blindly — verify against what the tools actually do, or frame as a capability demo:
-{tips}
-""" if tips else "")
-    tips_block += (f"""
 TODAY'S NEWS — optional anchors: a guide that piggybacks a live story rides its wave ("GPT-5 dropped yesterday — 5 things it already does for your business"). Use one ONLY if you can build genuine utility on it; never force it:
 {headlines}
 """ if headlines else "")
@@ -100,7 +62,7 @@ CAPTION BLOCKS: {json.dumps(spec['caption_blocks'])}
 QA GATE: {json.dumps(spec['qa_gate'])}
 
 TOPIC — pick ONE fresh angle from these pillars (NOT one already used, listed below). The reader to serve FIRST is a business owner / entrepreneur (the page's funnel audience): weight topics toward what saves a business money or hours, or makes it money — consumer angles are allowed but the business angle should win ties.
-WHY-NOW RULE (owner doctrine Aug 1 — even a guide must be current or viral, never evergreen filler): every topic must have a nameable reason to exist TODAY — a tool/feature released or meaningfully updated in the last ~60 days, a live news story (see TODAY'S NEWS below when present), or this week's proven community demand (see PROVEN DEMAND). Novelty is measured against the AUDIENCE: a 3-week-old tool most people haven't heard of still counts as new; a generic tip list that could have run unchanged in 2023 ("10 ChatGPT productivity tips") is BANNED no matter how useful. State the why-now inside the "topic" label.
+WHY-NOW RULE (owner doctrine Aug 1 — even a guide must be current or viral, never evergreen filler): every topic must have a nameable reason to exist TODAY — a tool/feature released or meaningfully updated in the last ~60 days, or a live news story (see TODAY'S NEWS below when present). Novelty is measured against the AUDIENCE: a 3-week-old tool most people haven't heard of still counts as new; a generic tip list that could have run unchanged in 2023 ("10 ChatGPT productivity tips") is BANNED no matter how useful. State the why-now inside the "topic" label.
 - Claude Code: the tool where you type plain English and it builds/fixes/automates entire things. Its wildest real abilities, explained like magic tricks anyone can try.
 - Free AI powers: things ChatGPT/Claude/AI tools can do TODAY that most people have no idea about — for their money, their work, their business.
 - True builder stories: real, widely-reported people (or a roundup of them) who couldn't code and still shipped real apps/businesses with AI.
@@ -142,14 +104,13 @@ Return ONLY the JSON object, no markdown fences, no commentary."""
 
 def main():
     used = json.load(open(USED)) if os.path.exists(USED) else []
-    tips = reddit_tips()
     headlines = ""
     try:  # fresh stories.json exists when the workflow ran scout first
         stories = json.load(open(os.path.join(HERE, "stories.json")))
         headlines = "\n".join(f"- {s['title']}" for s in stories[:10])
     except Exception:
         pass
-    prompt = build_prompt(used, tips, headlines)
+    prompt = build_prompt(used, headlines)
     for attempt in range(3):
         post = call_claude(prompt, schema=SCHEMA)
         errs = qa(post)
@@ -162,7 +123,7 @@ def main():
             break
         print(f"QA gate failed (attempt {attempt+1}):\n  " + "\n  ".join(errs),
               file=sys.stderr)
-        prompt = (build_prompt(used, tips, headlines)
+        prompt = (build_prompt(used, headlines)
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
     else:

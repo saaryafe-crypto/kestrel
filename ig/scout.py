@@ -2,24 +2,22 @@
 """Scout: content-intelligence layer for the IG pipeline.
 Usage: python3 scout.py [out.json]
 
-Everything fetch.py harvests (feeds, Google News, Reddit RSS crowd ranking)
-PLUS Hacker News via Algolia — the only source whose REAL vote counts are
-reachable from CI (reddit .json is blocked everywhere). On top of the
-mechanical score it adds:
-  1. crowd bonus: HN points (real numbers, not rank guesses)
-  2. corroboration bonus: the same story carried by 2+ independent sources
-     means it's spreading — velocity we can measure without any API key
-  3. Claude interest judge: every finalist scored 0-10 on "would a
+X-WATCHLIST ONLY (owner order Aug 3): the story pool is radar.json — viral
+tweets from the owner-approved channels in watchlist-x.json, nothing else.
+The old harvesting (RSS news feeds, Google News, Reddit RSS, Hacker News)
+is deleted. On top of the pool it adds:
+  1. crowd re-ranking: IG competitor scrape + Google Trends + saturation
+     memory (signals only — they can never ADD a story to the pool)
+  2. Claude interest judge: every finalist scored 0-10 on "would a
      19-year-old scrolling IG stop for this?" before final ranking
-Writes stories.json in the exact schema fetch.py writes, so write.py /
-recap.py / edu.py inherit it unchanged. Every stage fails open — a judge
-outage degrades to mechanical ranking, never an empty pool (7/day is a must).
-"""
+  3. a hard source gate: any story without an x: source is dropped
+Writes stories.json in the same schema as before, so write.py / recap.py /
+edu.py inherit it unchanged. Every stage fails open — a judge outage
+degrades to mechanical ranking."""
 import json, os, re, sys, time
 from datetime import date, datetime
 
-from fetch import (FEEDS, GNEWS, MIN_IMG_WIDTH, get, og_image, parse_feed,
-                   reddit_stories, score)
+from fetch import get  # shared HTTP helper (Google Trends booster only)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -44,40 +42,9 @@ JUDGE_SCHEMA = {
 }
 
 
-def hn_stories():
-    """Hacker News via Algolia: front page + high-point AI stories. Unlike
-    every other source, this returns REAL vote counts from CI — no auth."""
-    out = []
-    for url, src in [
-        ("https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30",
-         "hn:front"),
-        ("https://hn.algolia.com/api/v1/search_by_date?query=AI&tags=story"
-         "&numericFilters=points%3E80&hitsPerPage=20", "hn:ai"),
-    ]:
-        try:
-            hits = json.loads(get(url))["hits"]
-        except Exception as e:
-            print(f"  ! {src}: {e}", file=sys.stderr)
-            continue
-        for h in hits:
-            if not h.get("url") or not h.get("title"):  # Ask HN / self posts
-                continue
-            out.append({"title": h["title"], "link": h["url"],
-                        "date": h.get("created_at", ""), "src": src,
-                        "points": h.get("points") or 0,
-                        "comments": h.get("num_comments") or 0})
-    print(f"hn: {len(out)} stories with real point counts", file=sys.stderr)
-    return out
-
-
 def sig(title):
     return {w for w in re.findall(r"[a-z0-9']+", title.lower())
             if w not in STOP and len(w) > 2}
-
-
-def domain(story):
-    s = story["src"]
-    return s.split("/")[2] if s.startswith("http") else s.split(":")[0]
 
 
 def same(a, b):
@@ -85,17 +52,6 @@ def same(a, b):
     half the shorter title."""
     shared = len(a & b)
     return shared >= 3 and shared >= min(len(a), len(b)) / 2
-
-
-def corroborate(stories):
-    """Same story in N independent sources = it's spreading."""
-    sigs = [sig(s["title"]) for s in stories]
-    for i, s in enumerate(stories):
-        srcs = {domain(s)}
-        for j, o in enumerate(stories):
-            if i != j and domain(o) not in srcs and same(sigs[i], sigs[j]):
-                srcs.add(domain(o))
-        s["sources"] = len(srcs)
 
 
 def collapse(stories):
@@ -149,13 +105,12 @@ def market_boost(stories):
 
 
 def radar_boost(stories):
-    """Demand Radar (radar.py, Mac, every 2h): live Reddit breakout moments
-    with velocity math + top-comment mining. The strategy shift behind it:
-    harvest PROVEN demand instead of predicting it. A story already matched
-    in the harvest gets a velocity boost; a radar moment the press hasn't
-    written up yet (screenshot posts, demos, drama threads) joins the pool
-    as its own candidate — social-native stories used to be invisible here.
-    Fails open: missing or stale (>24h) radar.json = nothing changes."""
+    """Demand Radar (radar.py, Mac, every 2h): breakout moments from the
+    owner-approved X watchlist ONLY (owner order Aug 3), with velocity math
+    + top-reply mining. Every fresh moment joins the pool as a candidate —
+    with the news harvest deleted, this is the ONLY door into stories.json.
+    Fails open: missing or stale (>24h) radar.json = empty pool, the slot
+    starves loudly (radar_x raises the alarm) rather than filling with junk."""
     try:
         r = json.load(open(os.path.join(HERE, "radar.json")))
         age_h = (time.time() - datetime.fromisoformat(r["updated"]).timestamp()) / 3600
@@ -166,7 +121,24 @@ def radar_boost(stories):
     except Exception as e:
         print(f"no radar data ({e}) — ranking stands", file=sys.stderr)
         return
-    sigs = [(sig(m["title"]), m) for m in r.get("moments", [])]
+    # HARD ALLOWLIST (owner order Aug 3): even if radar.json is stale or
+    # contaminated (old wide-net/Reddit harvests), only moments authored by
+    # a watchlist-x.json handle may enter the pool. The x: label alone is
+    # not proof — the handle itself is checked against the approved list.
+    try:
+        lanes = json.load(open(os.path.join(HERE, "watchlist-x.json")))["lanes"]
+        approved = {h.lower() for lane in lanes.values() for h in lane}
+    except Exception as e:
+        print(f"no watchlist-x.json ({e}) — radar pool EMPTY", file=sys.stderr)
+        return
+    moments = []
+    for m in r.get("moments", []):
+        if m.get("sub", "").lower() in approved:
+            moments.append(m)
+        else:
+            print(f"radar boost: DROPPED unapproved @{m.get('sub')}: "
+                  f"{m.get('title', '')[:55]}", file=sys.stderr)
+    sigs = [(sig(m["title"]), m) for m in moments]
     matched = added = 0
     for s in stories:
         g = sig(s["title"])
@@ -179,8 +151,7 @@ def radar_boost(stories):
     for ms, m in sigs:
         if any(same(ms, k) for k in known):
             continue
-        src = (f"x:{m['sub']}" if m.get("unit") == "likes"
-               else f"reddit:r/{m['sub']}")
+        src = f"x:{m['sub']}"  # radar is X-watchlist-only (owner order Aug 3)
         stories.append({"title": m["title"],
                         "link": m.get("outlink") or m["permalink"],
                         "date": r["updated"], "src": src,
@@ -312,50 +283,28 @@ Return ONLY JSON: {{"scores": [{{"i": <index>, "interest": <0-10>}}, ...]}} — 
 
 
 def main(out_path="stories.json"):
-    urls = FEEDS + [f"https://news.google.com/rss/search?q={q.replace(' ', '%20')}%20when:1d&hl=en-US&gl=US&ceid=US:en" for q in GNEWS]
-    stories, seen = [], set()
-
-    def add(s):
-        key = re.sub(r"\W+", "", s["title"].lower())[:60]
-        if not s["title"] or key in seen:
-            return
-        seen.add(key)
-        s["score"] = score(s)
-        if s["score"] < 0:  # too old — points can't resurrect stale news
-            return
-        if s.get("points"):  # real crowd numbers beat keyword guesses
-            s["score"] += min(50, s["points"] / 10)
-        if s["score"] > 0:
-            stories.append(s)
-
-    # order matters: on a title collision the version with crowd data survives
-    for s in reddit_stories():
-        add(s)
-    for s in hn_stories():
-        add(s)
-    for u in urls:
-        print("fetching", u.split("/")[2], file=sys.stderr)
-        for s in parse_feed(u):
-            add(s)
-
-    corroborate(stories)
-    for s in stories:
-        s["score"] += min(36, 18 * (s.get("sources", 1) - 1))
-    market_boost(stories)  # ground truth from IG competitors + real reddit scores
-    radar_boost(stories)   # live Reddit breakouts: velocity + top-comment mining
-    trends_boost(stories)  # mainstream-America search wave (Google Trends RSS)
+    """X-WATCHLIST ONLY (owner order Aug 3): the entire story pool comes from
+    radar.json, and every moment in it is a viral tweet from an owner-approved
+    watchlist-x.json channel (radar_x enforces that twice: server-side from:
+    queries + a hard client-side allowlist filter). The old harvesting — RSS
+    news feeds, Google News, Reddit, Hacker News — is DELETED, not disabled.
+    The boosters below only RE-RANK the X stories with outside crowd signals
+    (IG competitor scrape, Google Trends, saturation memory); by construction
+    they can never add a story to the pool."""
+    stories = []
+    radar_boost(stories)   # empty pool in -> every fresh X moment joins as a candidate
+    # HARD source gate, the last line of defense: any story whose src is not
+    # an x: handle dies here — even if a booster or future code ever tries
+    # to inject one, it cannot reach stories.json.
+    before = len(stories)
+    stories = [s for s in stories if (s.get("src") or "").startswith("x:")]
+    if len(stories) != before:
+        print(f"source gate: dropped {before - len(stories)} non-X stories",
+              file=sys.stderr)
+    market_boost(stories)  # crowd signal: IG competitors + reddit scores (re-rank only)
+    trends_boost(stories)  # crowd signal: mainstream-America search wave (re-rank only)
     saturation(stories)    # dead inventory: IG audience saw it days ago
-    # Tier 5 doctrine: press is the SLOW LANE. A story with zero social proof
-    # (no crowd numbers anywhere, single outlet) hasn't earned the fast lane —
-    # "a newspaper reading newspapers" is the exact failure mode this demotes.
-    # Uniform 0.7 keeps press stories' relative order, so the 7/day fallback
-    # pool is untouched; social-proven stories simply outrank them.
-    for s in stories:
-        if not (s.get("radar") or s.get("ig_proof") or s.get("reddit_proof")
-                or s.get("trend_term") or s.get("points")
-                or "reddit_rank" in s or s.get("sources", 1) > 1):
-            s["score"] = round(s["score"] * 0.7, 1)
-    stories = collapse(stories)  # already sorted by -score
+    stories = collapse(stories)  # one version per story, best score survives
 
     finalists = stories[:30]
     judge(finalists)
@@ -371,18 +320,15 @@ def main(out_path="stories.json"):
 
     top = keep[:25]
     for s in top:
-        if s.get("image"):  # radar moments carry their own full-res preview
-            continue
-        if "news.google.com" in s["link"]:  # encrypted redirect; trend signal only
-            s["image"] = None
-            continue
-        img, w = og_image(s["link"])
-        s["image"] = img if img and w >= MIN_IMG_WIDTH else None
-        time.sleep(0.3)
+        # x.com is a login wall — a moment either carries its own media
+        # image from the tweet or ships imageless (the gen ladder covers it)
+        s.setdefault("image", None)
     json.dump(top, open(out_path, "w"), indent=1)
-    print(f"{len(stories)} harvested, {len(finalists)} judged, top {len(top)} -> {out_path}", file=sys.stderr)
+    print(f"{len(stories)} X-watchlist candidates, {len(finalists)} judged, "
+          f"top {len(top)} -> {out_path}", file=sys.stderr)
     for s in top[:10]:
-        print(f"  {s['score']:6.1f}  int:{s['interest']}  src:{s.get('sources', 1)}  {s['title'][:70]}", file=sys.stderr)
+        print(f"  {s['score']:6.1f}  int:{s['interest']}  {s.get('src', '?'):<20}"
+              f"  {s['title'][:70]}", file=sys.stderr)
 
 
 if __name__ == "__main__":

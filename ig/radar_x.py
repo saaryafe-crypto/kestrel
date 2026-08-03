@@ -7,49 +7,35 @@ Provider: twitterapi.io — $0.15 per 1K tweets, pay-as-you-go, no monthly
 minimum (verified Jul 29). Header X-API-Key. QPS scales with credit balance
 (unfunded = 1 req / 5s — the 6s pacing below).
 
-ONE MECHANISM, TWO NETS — everything is advanced_search with engagement
-floors, so the filter runs on X's servers and we only pay for tweets that are
-ALREADY viral (owner audit Jul 29: per-account polling paid to read ~95% junk
-and capped the watchlist at 26; batched from:-OR queries lift it to 70+):
-  1. WIDE NET — topic searches ("AI min_faves:5000 filter:videos", space,
-     tech/science lanes): viral moments from ANY account on X. Same move the
-     pros make (LADbible's in-house LAD RADAR, NewsWhip for newsrooms).
-  2. WATCHLIST NET — watchlist-x.json lanes (labs/founders, clip posters,
-     robots, space, breaking-news pages, wow-aggregators) chunked into
-     "(from:a OR from:b ...) min_faves:1000" batches: story-is-the-person
-     tweets + pre-harvested virality from X-native aggregator pages. No
-     lang:en here (curated accounts; keeps media-only tweets, lang=und).
+WATCHLIST NET ONLY (owner order Aug 3 — the Queen Elizabeth and Mario Lopez
+disasters both rode in through the old WIDE NET topic searches, from accounts
+the owner never approved: @seiyaposting, @yashar. Owner: "i want to take the
+data ONLY from the channels i personally approved and from nothing else").
+watchlist-x.json lanes chunked into "(from:a OR from:b ...) min_faves:1000"
+batches — the filter runs on X's servers and we only pay for tweets that are
+ALREADY viral. No lang:en (curated accounts; keeps media-only tweets,
+lang=und). A HARD allowlist filter re-checks every moment (fresh AND cached)
+against watchlist-x.json handles, so nothing outside the approved channels
+can reach radar.json even via an old cache or an API quirk.
 Junk gate (bare links, one-word takes) + per-account cap keep one loud voice
 from flooding the radar (first poll: Elon filled 10 of 12 slots). Ranking =
-raw likes/hour, same doctrine as Reddit.
+raw likes/hour.
 
 Spend is hard-capped by a monthly read ledger (x-used.json, ~$6/mo ceiling).
 Never scheduled itself: radar.py calls harvest() every run, but a fresh poll
 happens at most every POLL_EVERY_H hours — between polls the last harvest
 (x-moments.json) is re-served with ages advanced. Fails open everywhere: no
-key / over budget / network down -> cached or [] and Reddit stands alone."""
+key / over budget / network down -> cached or [] and the slot STARVES loudly
+(alert_dead GitHub issue) — with the wide net and Reddit gone, there is no
+other source to stand alone."""
 import json, os, re, sys, time, urllib.parse, urllib.request
 from datetime import datetime
 
-# One topic doctrine, one politics blocklist, both lanes (radar.py imports
-# this module lazily inside main(), so the reverse import is cycle-safe).
-# First funded poll proved the need: a Tommy Robinson culture-war video and a
-# football tweet rode min_faves floors into the radar — engagement floors
-# filter for VIRAL, not for ON-BRAND.
-from radar import TOPIC, political
-
-# TOPIC covers the AI/robot doctrine; the wide-net TEXT lanes also search
-# quantum/fusion/space/science, so the X gate accepts those tokens too. The
-# principle: X matches keywords inside quoted tweets and alt text (how a
-# football tweet rode the tech search), so a wide-net keep must show its
-# keyword in the VISIBLE text we would publish.
-TOPIC_X = re.compile(
-    r"\bquantum|\bsemiconductor|\bfusion\b|\bnasa\b|\brocket|\bbooster"
-    r"|\bspace|\bscience|\btech\b|\btechnolog|breakthrough|\bdiscover"
-    # markets lane (Aug 1): finance keeps must show their keyword in the
-    # publishable text, same rule as every other wide-net lane
-    r"|\bstocks?\b|\bnasdaq|\bwall st|\bhedge fund|\bearnings|\bbuffett"
-    r"|\bipo\b|\bmarket cap|\binvestor", re.I)
+# Politics blocklist (radar.py imports this module lazily inside main(), so
+# the reverse import is cycle-safe). First funded poll proved the need: a
+# Tommy Robinson culture-war video rode min_faves floors into the radar —
+# engagement floors filter for VIRAL, not for ON-BRAND.
+from radar import political
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 WATCH = os.path.join(HERE, "watchlist-x.json")
@@ -67,34 +53,37 @@ N_VIDEO = 6                # reserved video slots — text tweets out-vph clips
                            # 5-10x (audit Jul 29: 1 video in 12 moments), so
                            # videos get their own lane or reels starve
 N_REPLY_MINE = 3           # top video moments get their replies mined (the
-                           # crowd's emotional angle, parity with reddit lane)
+                           # crowd's emotional angle for captions/briefs)
 N_PER_ACCOUNT = 2          # one loud account never fills the radar
 
-# The wide net: viral moments from ANY account. VIDEO searches run at lower
-# floors (a 2K-like Unitree clip 2h old is reel gold; a 20K-like one-liner is
-# not) and feed the reserved video slots. Operators verified against
-# twitterapi.io docs (since_time: = unix seconds). lang:en because bare "AI"
-# matches pt/ja interjections ("ai gente") — first live poll proved it.
-SEARCHES_VIDEO = [
-    "AI lang:en min_faves:3000 filter:videos",
-    "(robot OR robotics OR humanoid OR drone) lang:en min_faves:2000 filter:videos",
-    "(SpaceX OR Starship OR NASA OR rocket OR booster) lang:en min_faves:3000 filter:videos",
-]
-SEARCHES_TEXT = [
-    "(ChatGPT OR OpenAI OR Claude OR Gemini OR Grok OR DeepSeek) lang:en min_faves:10000",
-    "(quantum OR semiconductor OR fusion OR breakthrough OR discovery) lang:en min_faves:10000",
-    "AI lang:en min_faves:20000",
-    "(tech OR technology OR science OR space) lang:en min_faves:30000",
-    # investment world (owner Aug 1: Wall St drama — Citadel/Situational
-    # Awareness class stories, Buffett): floor between the AI (10K) and
-    # catch-all (30K) lanes — finance X is loud, but we only want the
-    # stories everyone will be talking about tomorrow
-    "(stocks OR \"Wall Street\" OR \"hedge fund\" OR Buffett OR Nasdaq"
-    " OR earnings) lang:en min_faves:15000",
-]
-SEARCHES = SEARCHES_VIDEO + SEARCHES_TEXT
+# The wide net (topic searches over ALL of X) is GONE — owner order Aug 3.
+# Every query is a watchlist "(from:a OR from:b)" batch; nothing else runs.
 BATCH_FLOOR = FLOOR_LIKES  # watchlist batches: floor matches the keep filter
 BATCH_SIZE = 18            # from:-OR handles per query (stay under length cap)
+
+
+def _watch_handles():
+    """Approved channels, lowercased — the single source of truth for the
+    hard allowlist filter below."""
+    try:
+        lanes = json.load(open(WATCH))["lanes"]
+        return {h.lower() for lane in lanes.values() for h in lane}
+    except Exception as e:
+        print(f"x radar: no watchlist ({e})", file=sys.stderr)
+        return set()
+
+
+def _approved_only(moments, handles):
+    """HARD gate (owner order Aug 3): a moment survives ONLY if its author is
+    in watchlist-x.json. Applies to fresh polls AND the served cache, so a
+    pre-order cache or an API quirk can never leak an unapproved account."""
+    out, dropped = [], []
+    for m in moments:
+        (out if m.get("sub", "").lower() in handles else dropped).append(m)
+    for m in dropped:
+        print(f"x radar: DROPPED unapproved @{m.get('sub')}: "
+              f"{m.get('title', '')[:60]}", file=sys.stderr)
+    return out
 
 
 def _key():
@@ -185,7 +174,9 @@ def _moment(t, now):
 
 
 def _cached():
-    """Last harvest, ages advanced — stale entries drop out on their own."""
+    """Last harvest, ages advanced — stale entries drop out on their own.
+    Allowlist-filtered too: a cache written before the Aug 3 watchlist-only
+    order may still hold wide-net moments from unapproved accounts."""
     try:
         c = json.load(open(CACHE))
         elapsed_h = (time.time() - c["at"]) / 3600
@@ -195,7 +186,7 @@ def _cached():
             if age <= MAX_AGE_H:
                 out.append({**m, "age_h": age,
                             "vph": round(m["score"] / age, 1)})
-        return out
+        return _approved_only(out, _watch_handles())
     except Exception:
         return []
 
@@ -218,8 +209,9 @@ def alert_dead(reason):
         subprocess.run(
             ["gh", "issue", "create", "-R", "saaryafe-crypto/kestrel",
              "-t", title,
-             "-b", f"{reason}\n\nReels and radar stories are running on Reddit "
-                   "alone until this is fixed. First check: TWITTER_API_KEY in "
+             "-b", f"{reason}\n\nX is the ONLY content source (owner order "
+                   "Aug 3) — posts and reels are STARVING until this is fixed. "
+                   "First check: TWITTER_API_KEY in "
                    "~/kestrel/.env (the Jul 31 repo move left keys behind in "
                    "~/yaffeai/.env once already)."],
             capture_output=True, timeout=30)
@@ -230,7 +222,7 @@ def alert_dead(reason):
 def harvest():
     key = _key()
     if not key:
-        print("x radar: no TWITTERAPI_KEY — skipping (reddit radar stands alone)",
+        print("x radar: no TWITTERAPI_KEY — the ONLY source is offline",
               file=sys.stderr)
         alert_dead("No TWITTER_API_KEY/TWITTERAPI_KEY found in the environment "
                    "or ~/kestrel/.env — the X radar cannot poll.")
@@ -252,20 +244,21 @@ def harvest():
     now, pool, seen_ids = time.time(), [], set()
     since = int(now - MAX_AGE_H * 3600)
 
-    # net 2 queries: watchlist lanes -> "(from:a OR from:b) min_faves:N"
-    # batches — server-side floor means we only pay for already-viral tweets
-    try:
-        lanes = json.load(open(WATCH))["lanes"]
-        handles = [h for lane in lanes.values() for h in lane]
-    except Exception as e:
-        print(f"x radar: no watchlist ({e})", file=sys.stderr)
-        handles = []
+    # ONLY watchlist lanes -> "(from:a OR from:b) min_faves:N" batches —
+    # server-side floor means we only pay for already-viral tweets, and
+    # server-side from: means only owner-approved accounts are ever read
+    watch = _watch_handles()
+    handles = sorted(watch)
+    if not handles:
+        alert_dead("watchlist-x.json is missing or empty — the X radar has "
+                   "nothing to poll (watchlist-ONLY mode, owner order Aug 3).")
+        return []
     batches = [
         "(" + " OR ".join(f"from:{h}" for h in handles[i:i + BATCH_SIZE])
         + f") min_faves:{BATCH_FLOOR}"
         for i in range(0, len(handles), BATCH_SIZE)]
 
-    for i, q in enumerate(SEARCHES + batches):
+    for i, q in enumerate(batches):
         if i:
             time.sleep(6)  # unfunded-tier QPS: 1 req / 5s
         try:
@@ -276,19 +269,18 @@ def harvest():
             continue
         tweets = d.get("tweets") or []
         led["reads"] += max(len(tweets), 1)
-        wide = i < len(SEARCHES)  # watchlist handles are curated: politics
-        for t in tweets:          # gate yes, topic gate no (keeps media-only
-            if str(t.get("id")) in seen_ids:  # tweets from meme/wow pages)
-                continue
+        for t in tweets:  # watchlist handles are curated: politics gate yes,
+            if str(t.get("id")) in seen_ids:  # topic gate no (keeps media-
+                continue                      # only tweets from wow pages)
             seen_ids.add(str(t.get("id")))
             m = _moment(t, now)
             if not m:
                 continue
             blob = f"{m['title']} {m.get('selftext') or ''}"
-            if political(blob) or (
-                    wide and not (TOPIC.search(blob) or TOPIC_X.search(blob))):
+            if political(blob):
                 continue
             pool.append(m)
+    pool = _approved_only(pool, watch)  # belt over the server-side from:
 
     pool.sort(key=lambda m: -m["vph"])
     moments, taken, per_acct = [], set(), {}
