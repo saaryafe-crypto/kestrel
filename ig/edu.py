@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Educational save-magnet writer (ai_education container): Claude Code powers,
-AI skills anyone can use tonight, TRUE stories of what people built. No news
-dependency — Claude picks a fresh angle, deduped via edu-used.json.
+AI skills anyone can use tonight, TRUE stories of what people built.
+TOPIC SOURCE (owner order Aug 4, "find the viral guides on twitter"): the
+most viral guide/how-to threads from the approved X watchlist (radar_x flags
+them + mines the author's thread into radar.json) come FIRST — proven demand.
+No fresh guide on the radar -> Claude picks a pillar angle itself, so there
+is still no hard news dependency. Deduped via edu-used.json (topics + [x:ID]).
 Owner order Aug 3 (X watchlist only): the reddit_tips() topic-demand miner is
 DELETED — no Reddit data anywhere. Topic anchors come only from stories.json,
 which is itself X-watchlist-only.
@@ -47,10 +51,54 @@ SCHEMA = {
 }
 
 
-def build_prompt(used_topics, headlines=""):
+def viral_guides(used_topics):
+    """Owner order Aug 4 ("find the viral guides on twitter as well, it is
+    much better and more viral"): the PRIMARY topic source is now the most
+    viral guide/how-to tweets from the approved X watchlist. radar_x flags
+    them (GUIDE_RE) and mines the author's own thread so the full content
+    rides in radar.json (CI has no X key). Deduped via the [x:ID] tag the
+    writer copies into its topic label. Fails open to [] — the pillar
+    self-pick below keeps the slot alive when the radar has no fresh guide."""
+    try:
+        r = json.load(open(os.path.join(HERE, "radar.json")))
+    except Exception as e:
+        print(f"no radar.json for guides ({e})", file=sys.stderr)
+        return []
+    used_blob = " ".join(used_topics)
+    out = [m for m in r.get("moments", [])
+           if m.get("guide") and f"x:{m['id']}" not in used_blob]
+    out.sort(key=lambda m: -m.get("score", 0))
+    return out[:3]
+
+
+def build_prompt(used_topics, headlines="", guides=()):
     spec = json.load(open(os.path.join(HERE, "containers.json")))
     used = "\n".join(f"- {t}" for t in used_topics) or "(none yet)"
     vol = len(used_topics) + 1  # franchise volume number (audit Jul 29)
+    guide_block = ""
+    if guides:
+        cands = []
+        for g in guides:
+            body = g.get("selftext") or g.get("title", "")
+            if g.get("thread"):
+                body += "\n" + "\n".join(g["thread"])
+            cands.append(f"[x:{g['id']}] by {g['sub']} — {g.get('score', 0):,}"
+                         f" likes on X:\n{body}")
+        guide_block = ("\nVIRAL GUIDES ON X RIGHT NOW (owner priority Aug 4 — "
+                       "STRONGLY PREFER these over inventing a topic: a guide "
+                       "the crowd already made viral is PROVEN demand):\n"
+                       + "\n---\n".join(cands) + "\n"
+                       "Rules for using one: take its SUBSTANCE, not its "
+                       "words — our frame, our hook, our proof lines, fully "
+                       "transformed per the doctrine. Verify every claim "
+                       "against what the tools actually do (TRUTH RULE); drop "
+                       "anything you cannot stand behind. Credit the author "
+                       "as a plain name in the caption's Sources line. Append "
+                       "the [x:ID] tag of the guide you used to your \"topic\" "
+                       "label. IGNORE a candidate only if it is not genuinely "
+                       "teachable (a bare promise with no substance) or "
+                       "overlaps ALREADY USED — then the next candidate, and "
+                       "only if none works pick a pillar topic yourself.\n")
     tips_block = (f"""
 TODAY'S NEWS — optional anchors: a guide that piggybacks a live story rides its wave ("GPT-5 dropped yesterday — 5 things it already does for your business"). Use one ONLY if you can build genuine utility on it; never force it:
 {headlines}
@@ -60,8 +108,8 @@ TODAY'S NEWS — optional anchors: a guide that piggybacks a live story rides it
 CONTAINER SPEC (ai_education): {json.dumps(spec['containers']['ai_education'])}
 CAPTION BLOCKS: {json.dumps(spec['caption_blocks'])}
 QA GATE: {json.dumps(spec['qa_gate'])}
-
-TOPIC — pick ONE fresh angle from these pillars (NOT one already used, listed below). The reader to serve FIRST is a business owner / entrepreneur (the page's funnel audience): weight topics toward what saves a business money or hours, or makes it money — consumer angles are allowed but the business angle should win ties.
+{guide_block}
+TOPIC — when no viral guide above fits, pick ONE fresh angle from these pillars (NOT one already used, listed below). The reader to serve FIRST is a business owner / entrepreneur (the page's funnel audience): weight topics toward what saves a business money or hours, or makes it money — consumer angles are allowed but the business angle should win ties.
 WHY-NOW RULE (owner doctrine Aug 1 — even a guide must be current or viral, never evergreen filler): every topic must have a nameable reason to exist TODAY — a tool/feature released or meaningfully updated in the last ~60 days, or a live news story (see TODAY'S NEWS below when present). Novelty is measured against the AUDIENCE: a 3-week-old tool most people haven't heard of still counts as new; a generic tip list that could have run unchanged in 2023 ("10 ChatGPT productivity tips") is BANNED no matter how useful. State the why-now inside the "topic" label.
 - Claude Code: the tool where you type plain English and it builds/fixes/automates entire things. Its wildest real abilities, explained like magic tricks anyone can try.
 - Free AI powers: things ChatGPT/Claude/AI tools can do TODAY that most people have no idea about — for their money, their work, their business.
@@ -110,7 +158,12 @@ def main():
         headlines = "\n".join(f"- {s['title']}" for s in stories[:10])
     except Exception:
         pass
-    prompt = build_prompt(used, headlines)
+    guides = viral_guides(used)
+    if guides:
+        print(f"viral X guides on the radar: "
+              + ", ".join(f"@{g['sub']} ({g.get('score', 0):,} likes)"
+                          for g in guides), file=sys.stderr)
+    prompt = build_prompt(used, headlines, guides)
     for attempt in range(3):
         post = call_claude(prompt, schema=SCHEMA)
         errs = qa(post)
@@ -123,7 +176,7 @@ def main():
             break
         print(f"QA gate failed (attempt {attempt+1}):\n  " + "\n  ".join(errs),
               file=sys.stderr)
-        prompt = (build_prompt(used, headlines)
+        prompt = (build_prompt(used, headlines, guides)
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
     else:

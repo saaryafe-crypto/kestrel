@@ -55,6 +55,27 @@ N_VIDEO = 6                # reserved video slots — text tweets out-vph clips
 N_REPLY_MINE = 3           # top video moments get their replies mined (the
                            # crowd's emotional angle for captions/briefs)
 N_PER_ACCOUNT = 2          # one loud account never fills the radar
+N_GUIDE = 4                # reserved guide slots (owner order Aug 4: "find the
+                           # viral guides on twitter... it is much better and
+                           # more viral" — edu.py builds its carousel on the
+                           # most viral watchlist guide instead of inventing
+                           # a topic). Same watchlist-only net, no new sources.
+N_THREAD_MINE = 3          # top guide moments get the author's OWN thread
+                           # fetched (the head tweet is just the promise —
+                           # the self-reply chain holds the actual guide, and
+                           # edu.py runs in CI with no X key, so the content
+                           # must ride inside radar.json)
+
+# What counts as a guide: a teaching promise, not a news event. Numbered-list
+# promises ("10 insane ways...", "5 free tools..."), how-to framing, cheat
+# sheets, free courses. False positives are cheap — edu.py's writer is told
+# to ignore anything that isn't genuinely teachable.
+GUIDE_RE = re.compile(
+    r"(?i)\b\d+\s+(?:\w+[- ]){0,2}(ways|things|tools|apps|sites|websites"
+    r"|prompts|tips|tricks|use ?cases|examples|features|skills|hacks|secrets"
+    r"|lessons|courses)\b"
+    r"|\bhow to\b|\bhere'?s how\b|\bstep[- ]by[- ]step\b|\bcheat ?sheet\b"
+    r"|\bmasterclass\b|\btutorial\b|\bfree (?:\w+ )?(course|certification)")
 
 # The wide net (topic searches over ALL of X) is GONE — owner order Aug 3.
 # Every query is a watchlist "(from:a OR from:b)" batch; nothing else runs.
@@ -170,7 +191,8 @@ def _moment(t, now):
             "comments_n": int(t.get("replyCount") or 0),
             "views": int(t.get("viewCount") or 0),
             "age_h": round(age_h, 1), "vph": round(likes / age_h, 1),
-            "image": img, "video": vid}
+            "image": img, "video": vid,
+            "guide": bool(GUIDE_RE.search(bare or text))}
 
 
 def _cached():
@@ -314,6 +336,9 @@ def harvest():
             moments.append(m)
 
     _take(lambda m: m.get("video"), N_VIDEO)  # reserved video lane first
+    # reserved guide lane (owner Aug 4): news out-vphs guides most days, so
+    # without reserved slots the guide edu.py wants would get crowded out
+    _take(lambda m: m.get("guide"), len(moments) + N_GUIDE)
     _take(lambda m: True, N_MOMENTS)          # rest by raw vph, any kind
 
     # crowd-emotion mining, reddit-lane parity: top replies on the best video
@@ -342,6 +367,34 @@ def harvest():
                 break
         if tc:
             m["top_comments"] = tc
+
+    # guide-thread mining (owner order Aug 4): viral guides are usually
+    # threads — the head tweet promises "10 ways...", the author's own
+    # replies ARE the 10 ways. conversation_id search returns exactly the
+    # author's tweets inside that thread. ~20 reads per guide, ~$0.03/poll.
+    for m in sorted([m for m in moments if m.get("guide")],
+                    key=lambda m: -m["score"])[:N_THREAD_MINE]:
+        time.sleep(6)
+        try:
+            d = _get(key, "/twitter/tweet/advanced_search",
+                     query=f"from:{m['sub']} conversation_id:{m['id']}",
+                     queryType="Latest")
+        except Exception as e:
+            print(f"  ! x thread {m['id']}: {e}", file=sys.stderr)
+            continue
+        tweets = d.get("tweets") or []
+        led["reads"] += max(len(tweets), 1)
+        own = [t for t in tweets if str(t.get("id")) != m["id"]]
+        own.sort(key=lambda t: _ts(t.get("createdAt") or "") or 0)
+        parts = []
+        for t in own:
+            body = re.sub(r"https?://\S+", "", t.get("text") or "").strip()
+            if len(body) >= 15:
+                parts.append(" ".join(body.split())[:600])
+            if len(parts) >= 10:
+                break
+        if parts:
+            m["thread"] = parts
 
     led["last_poll"] = now
     json.dump(led, open(LEDGER, "w"), indent=1)
