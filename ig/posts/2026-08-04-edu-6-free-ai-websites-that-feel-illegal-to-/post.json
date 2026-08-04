@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A FREE AI WEBSITE TURNS <em>ONE SENTENCE INTO A $500 PITCH DECK</em>",
+   "kicker": "ALL OF THEM ARE COMPLETELY FREE",
+   "hsize": 72,
+   "face": [
+    "Sundar Pichai"
+   ],
+   "media": "posts/2026-08-04-edu-6-free-ai-websites-that-feel-illegal-to-/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) BUILD A FULL PITCH DECK <em>FROM ONE SENTENCE</em>",
+   "body": "A freelance designer charges <b>$500</b> per pitch deck. Type one sentence into <b>gamma.app</b>, pick a style, and it builds the whole presentation, designed and free",
+   "hsize": 82,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) TURN ANY DOCUMENT <em>INTO A PODCAST</em>",
+   "body": "Hiring a consultant to break down a <b>200-page</b> report runs <b>$1,500</b>. Upload it to <b>NotebookLM</b> by Google, it turns it into a full podcast discussion, free",
+   "hsize": 112,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) CREATE <em>A FULL SONG</em> FROM ONE SENTENCE",
+   "body": "A studio jingle costs <b>$3,000+</b>. Type one sentence into <b>suno.com</b> and it writes, sings, and fully produces a song in under a minute, free",
+   "hsize": 98,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>RESEARCH ANYTHING</em> WITH AI THAT CITES ITS SOURCES",
+   "body": "A research assistant costs <b>$25 an hour</b>. <b>Perplexity</b> reads the whole internet, answers your question in seconds, and shows exactly where every fact came from",
+   "hsize": 80,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) GENERATE IMAGES WITH <em>READABLE TEXT</em> IN THEM",
+   "body": "A custom marketing graphic costs <b>$200</b> from a designer. <b>Ideogram</b> generates images with <b>readable</b> text from any description, for ads, logos, and posts, free",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>TURN ANY TEXT</em> INTO A HUMAN VOICE",
+   "body": "A professional voiceover runs <b>$200+</b> per finished minute. Paste any text into <b>ElevenLabs</b>, pick a voice, and it reads it back sounding completely human, free tier included",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR WHEN YOU NEED THEM",
+   "body": "Every tool on this list is <b>free tonight</b>. Save this post so you have them ready. We post AI skills and news every day",
+   "hsize": 108,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see 6 free AI websites that replace thousands of dollars in software and services \ud83d\udd25\n\nGamma builds full pitch decks from one sentence, NotebookLM by Google turns documents into podcast discussions, Suno writes and sings complete songs from a description, Perplexity searches the internet and cites every source, Ideogram generates images with readable text, and ElevenLabs converts text into human-sounding voiceovers.\n\nA year ago most of these barely worked. Today they do professional-quality jobs that cost businesses thousands a month. The window where they're all still free won't last.\nRunning a business? DM us \"AI\" and we'll show you what these tools could save you.\n\nSources: Google, Gamma, Perplexity, Suno, ElevenLabs, Ideogram\n\n#AI #FreeTools #AITools #Productivity #Technology",
+ "pinned_comment": "Which one are you trying first? Most people don't believe slide 4 until they hear it for themselves.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 FREE AI WEBSITES THAT <em>FEEL ILLEGAL TO KNOW</em>",
+   "6 FREE AI WEBSITES THAT <em>REPLACE $10,000 IN WORK</em>",
+   "6 AI WEBSITES <em>MOST PEOPLE WILL NEVER FIND</em>",
+   "6 FREE AI WEBSITES <em>KILLING EXPENSIVE SOFTWARE</em>",
+   "6 FREE WEBSITES DOING JOBS THAT <em>COST THOUSANDS</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   5,
+   6,
+   5
+  ],
+  "winner": 0,
+  "why": "\"Feel illegal to know\" hits the brain like an alarm \u2014 illegal is a stop-word at 2am, no second read needed. The $10,000 hook is solid but it makes you do math; the illegal hook makes you feel something first."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI WEBSITES SO POWERFUL <em>THEY SHOULDN'T BE FREE</em>",
+   "6 FREE AI WEBSITES <em>REPLACING TOOLS YOU STILL PAY FOR</em>",
+   "6 FREE AI WEBSITES THAT <em>MAKE PAID SOFTWARE POINTLESS</em>",
+   "6 FREE AI WEBSITES THAT <em>FEEL ILLEGAL TO KNOW</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   7,
+   9
+  ],
+  "winner": 3,
+  "why": "'Feel illegal to know' triggers a primal 'I'm getting away with something' reflex \u2014 it's parsed in under a second and creates instant FOMO. The runner-up 'shouldn't be free' is solid but reads like ad copy; 'illegal' makes you feel like an insider, not a consumer."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "COVER IMAGE fails \u00a73 thumb test and story match: the image shows a generated Sundar Pichai on a dark rainy street with Google branding everywhere \u2014 a stranger at feed size guesses 'Google scandal,' not '6 free AI tools.' Google is only 1 of 6 tools in this post; centering Pichai and dual Google logos misrepresents the story as a Google story. The dark alley also violates the 'loud, colorful story-"
+}
