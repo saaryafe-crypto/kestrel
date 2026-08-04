@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "אתה משלם אלפים על דברים ש<em>שישה פרומפטים עושים בחינם</em>",
+   "kicker": "עורך דין, יועץ, מאמן",
+   "hsize": 72,
+   "media": "posts/2026-08-04-edu-6-ai-tricks-that-feel-like-cheating-opus/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) בודק חוזה בדקה, בלי עורך דין",
+   "body": "עורכי דין גובים <b>350 דולר לשעה</b> על בדיקת חוזים. תדביק את החוזה ל-AI, תבקש שיסמן כל סעיף שעולה לך כסף או מגביל אותך. <b>תוך דקה</b> תקבל רשימה ברורה, בלי שפה משפטית.",
+   "hsize": 94,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) לומד את הסגנון שלך מחמישה מיילים",
+   "body": "לשלם למישהו <b>100 דולר לשעה</b> שיכתוב בסגנון שלך? מיותר. תתן ל-AI <b>חמישה מיילים</b> שכתבת, תבקש שילמד את הטון ואת בחירת המילים שלך. מפה הוא כותב תשובות שנשמעות בדיוק כמוך.",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) מנתח מתחרים בפרומפט אחד",
+   "body": "יועצים גובים <b>10,000 דולר</b> על ניתוח כזה. תדביק את האתר של המתחרה, תבקש מ-AI לבדוק <b>מחירים, קהל יעד וחולשות</b>. תקבל גם תוכנית איך לנצח אותו.",
+   "hsize": 108,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) מנבא מתי הלקוח יחזור לקנות",
+   "body": "לשלם למישהו <b>80 דולר לשעה</b> שינתח לך מכירות? מיותר. תתן ל-AI את <b>50 ההזמנות האחרונות</b>, תבקש שימצא דפוסים. הוא יגיד לך מי עומד להזמין שוב ומתי כדאי לפנות אליו.",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) הצעה עסקית שנראית כמו עבודת צוות",
+   "body": "סוכנויות גובות <b>5,000 דולר</b> על הצעה כזאת. תגיד ל-AI מי הלקוח, ותקבל ניתוח שוק, <b>שלוש אפשרויות עם לוחות זמנים</b> ותחזית רווחים. נראה כאילו <b>עשרה אנשים</b> עבדו על זה.",
+   "hsize": 106,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) שלושה תסריטי משא ומתן מוכנים",
+   "body": "מאמן משא ומתן גובה <b>300 דולר לשעה</b>. תגיד ל-AI מה אתה רוצה לקנות ובאיזה מחיר, ותקבל <b>שלושה תסריטים</b>: אחד שפותח נמוך, אחד שמשתמש בשתיקה, ואחד שמאיים ללכת מהעסקה.",
+   "hsize": 112,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את הפוסט הזה",
+   "body": "בפעם הבאה שתחתום על חוזה, תכתוב הצעה או תנהל משא ומתן, <b>שישה פרומפטים</b> כבר מחכים לך פה. כל יום פוסט חדש על AI, כלים וטריקים מעשיים. תעקוב אחרי @ainews.israel.",
+   "hsize": 98,
+   "media": null
+  }
+ ],
+ "caption": "שישה פרומפטים שחוסכים לך עורך דין, יועץ ומאמן משא ומתן. הכל בחינם.\n\nהפרומפטים האלה מחליפים שירותים שעולים מאות ואלפי דולרים: בדיקת חוזים, כתיבה בסגנון שלך, ניתוח מתחרים, חיזוי הזמנות לקוחות, הצעות עסקיות ומשא ומתן.\n\nשמור את הפוסט לפעם הבאה שתצטרך.\n\nתעקוב אחרי @ainews.israel לחדשות AI וכלים פרקטיים כל יום.\n\n#AI #Productivity #Business #Entrepreneur #ChatGPT",
+ "pinned_comment": "איזה מהשישה הכי שימושי לך? תכתוב בתגובות",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 FREE AI TRICKS <em>YOUR COMPETITORS ALREADY USE</em>",
+   "<em>6 AI CHEAT CODES</em> FOR YOUR BUSINESS",
+   "6 AI TRICKS THAT <em>FEEL LIKE CHEATING</em>",
+   "6 AI PROMPTS THAT GIVE <em>AN UNFAIR ADVANTAGE</em>",
+   "6 THINGS AI DOES THAT <em>SHOULD BE ILLEGAL</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   5,
+   7,
+   8
+  ],
+  "winner": 4,
+  "why": "SHOULD BE ILLEGAL makes you stop cold — it's provocative enough that you genuinely want to know what they mean, and the stakes feel higher than a tips list. Runner-up [3] is clearer and more specific but 'unfair advantage' is a phrase I've scrolled past a hundred times; 'should be illegal' I haven't, and that novelty is the whole game at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 THINGS AI DOES THAT <em>SHOULD BE ILLEGAL</em>",
+   "6 EXPENSIVE SERVICES AI <em>REPLACES IN SECONDS</em>",
+   "6 AI ABILITIES SO UNFAIR <em>THEY FEEL LIKE CHEATING</em>",
+   "6 AI TRICKS THAT <em>REPLACE YOUR MOST EXPENSIVE HIRES</em>"
+  ],
+  "scores": [
+   8,
+   5,
+   7,
+   7
+  ],
+  "winner": 0,
+  "why": "\"Should be illegal\" triggers genuine alarm — my brain immediately starts guessing what AI is doing that's THAT bad, and I need to know. The runners-up ([2] and [3]) are interesting but vague on stakes; \"cheating\" and \"expensive hires\" don't hit with the same gut-punch urgency as something being flat-out illegal."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education"
+}
