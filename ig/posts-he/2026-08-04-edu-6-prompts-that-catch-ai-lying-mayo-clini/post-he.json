@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "סמך על AI בלי לבדוק: <em>עורך דין נקנס</em>",
+   "kicker": "שישה פרומפטים שתופסים שקרים",
+   "hsize": 72,
+   "media": "posts/2026-08-04-edu-6-prompts-that-catch-ai-lying-mayo-clini/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) תכריח אותו לטעון נגד עצמו",
+   "body": "אחרי שקיבלת תשובה, תגיד ל-AI: עכשיו תטען את ההיפך, ותסביר למה אתה עלול לטעות. ה-AI נוטה להיצמד לתשובה הראשונה שלו. <b>עכשיו תובעים את Mayo Clinic</b>: מנהל בכיר לשעבר חשף שכלי ה-AI של בית החולים <b>טעה ב-67% מהמקרים</b>.",
+   "hsize": 108,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) תבקש ציון ביטחון לכל טענה",
+   "body": "תגיד ל-AI: תדרג כל טענה מאחד עד עשר לפי כמה אתה בטוח בה. <b>כל מה שמתחת לשמונה, תכתוב מחדש.</b> עורך דין סמך על ChatGPT וציטט בבית משפט <b>שישה תיקים שלא קיימים</b>. הקנס: <b>5,000 דולר</b>.",
+   "hsize": 112,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) תבקש לראות כל שלב בחישוב",
+   "body": "תגיד ל-AI: <b>תראה לי כל שלב בחישוב, ואחר כך תבדוק כל שלב מחדש.</b> ChatGPT נותן מספרים בביטחון מלא, גם כשהם פשוט לא נכונים. <b>בלי לראות את השלבים, אין לך דרך לדעת איפה זה השתבש.</b>",
+   "hsize": 115,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) תשאל מה יכול להשתבש",
+   "body": "לפני החלטה גדולה, תגיד ל-AI: <b>מה התרחיש הכי סביר שבו זה נכשל? מה אני לא רואה?</b> ה-AI בנוי לרצות אותך. <b>הוא יגיד לך שהתוכנית מעולה גם כשהיא מלאה חורים.</b>",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) תדרוש מקורות אמיתיים",
+   "body": "תגיד ל-AI: <b>תפרט כל מקור מאחורי התשובה. אם אין לך מקור אמיתי, תגיד את זה ישירות.</b> ה-AI ממציא מקורות שנראים אמיתיים לגמרי. <b>שמות של מאמרים, כותבים ושנים. הכל בדוי.</b>",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) תבקש ביקורת של מומחה ספקן",
+   "body": "תגיד ל-AI: <b>תבדוק את התשובה מנקודת המבט של מומחה ספקן בתחום, ותסמן בעיות.</b> זווית אחת תמיד מפספסת משהו. <b>כשאתה מכריח אותו להסתכל מזווית שונה, הוא תופס דברים שפספס.</b>",
+   "hsize": 118,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "עורך הדין שילם 5,000 דולר <em>על שלא בדק</em>",
+   "body": "עכשיו יש לך <b>שישה פרומפטים</b> שלא היו לו. תשמור את הפוסט הזה.",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "שישה פרומפטים שתופסים AI כשהוא משקר, אחרי שעורך דין נקנס על שסמך עליו בלי לבדוק.\n\nעורך דין ציטט בבית משפט שישה תיקים שלא קיימים ש-ChatGPT המציא, ושילם קנס של 5,000 דולר. במקביל, תובעים את Mayo Clinic אחרי שמנהל בכיר לשעבר חשף שכלי ה-AI שלהם טעה ב-67% מהמקרים. בפוסט: שישה פרומפטים שעוזרים לבדוק כל תשובה של AI לפני שסומכים עליה.\n\nמקורות: Reuters, Futurism\n\nתעקוב אחרי @ainews.israel\n\n#AI #ChatGPT #AITips #Technology #ArtificialIntelligence",
+ "pinned_comment": "איזה מהשישה הכי עוזר לך? תכתוב בתגובות",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT <em>EXPOSE EVERY AI MISTAKE</em>",
+   "6 PROMPTS THAT CATCH <em>AI LYING TO YOU</em>",
+   "6 PROMPTS THAT <em>FORCE AI TO TELL THE TRUTH</em>",
+   "6 PROMPTS THAT <em>STOP AI FROM FOOLING YOU</em>",
+   "<em>6 WAYS TO TEST</em> IF AI IS WRONG"
+  ],
+  "scores": [
+   6,
+   8,
+   7,
+   5,
+   4
+  ],
+  "winner": 1,
+  "why": "\"LYING TO YOU\" lands like a gut punch — lying is a moral word, not a tech word, and the 'to YOU' makes it personal and urgent at 2am. [2] is close but 'force AI to tell the truth' requires a half-second more inference than just being told AI is straight-up lying to your face."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT <em>EXPOSE AI LYING</em> TO YOU",
+   "6 QUESTIONS THAT <em>FORCE AI TO STOP LYING</em> TO YOU",
+   "6 PROMPTS THAT CATCH <em>AI LYING TO YOU</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "FORCE is the killer word — it assumes the AI is already lying (validates your paranoia) AND tells you that you can make it stop (pure power). EXPOSE in [0] is close but passive; CATCH in [2] is the weakest verb, sounds like you're playing detective instead of winning."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "COVER IMAGE fails §3 — all three candidates show generic broken tech (cracked monitors, magnifying glass over a chip). The story has a HUMAN SUBJECT: a lawyer who got fined. §3 mandates 'default to a human face when the story has one' and 'the thumb test: seen once at feed size, a stranger guesses the story.' A stranger seeing any of these covers guesses 'tech is broken,' not 'lawyer got fined for"
+}
