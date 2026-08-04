@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "בלי קוד: <em>שישה משפטים ב-Claude החליפו כל תוכנה בתשלום</em> בעסק קטן",
+   "hsize": 72,
+   "kicker": "הכל באחר צהריים אחד",
+   "media": "posts/2026-08-04-edu-6-one-sentence-builds-that-replace-paid-/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הכלי הראשון: צ'אטבוט שירות לקוחות",
+   "hsize": 95,
+   "body": "משפט אחד ל-Claude, ויש לו צ'אטבוט באתר שעונה ללקוחות לפי מסמך עסקי שהעלה. <b>מנוי של $150 בחודש? מבוטל</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "דף נחיתה למאפייה, בלי פרילנסר",
+   "hsize": 95,
+   "body": "עוד משפט: דף נחיתה עם טופס הרשמה. כשמישהו נרשם, הבעלים מקבל מייל אוטומטי. <b>חסך $500 על פרילנסר ושבועות של המתנה</b>.",
+   "media": "posts/2026-08-04-edu-6-one-sentence-builds-that-replace-paid-/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "מעקב חשבוניות אוטומטי",
+   "hsize": 100,
+   "body": "הכלי הבא עוקב אחרי חשבוניות פתוחות ושולח תזכורת במייל <b>כל שבעה ימים</b>. הנהלת חשבונות של <b>$40 לשעה? מיותרת</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "דף הזמנת פגישות במקום Calendly",
+   "hsize": 98,
+   "body": "דף שבו לקוחות בוחרים שעה פנויה ומקבלים מייל אישור אוטומטי. <b>מנוי Calendly של $12 בחודש למשתמש? לא צריך</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "מענה ללקוחות בלי עוזר אישי",
+   "hsize": 95,
+   "body": "כלי פשוט: מדביקים שאלה של לקוח, מקבלים תשובה מקצועית מוכנה לשליחה. <b>בלי עוזר אישי של $25 לשעה</b>.",
+   "media": "posts/2026-08-04-edu-6-one-sentence-builds-that-replace-paid-/gen-5.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הכלי השישי: ניהול מלאי",
+   "hsize": 92,
+   "body": "אפליקציה שעוקבת אחרי מלאי ומתריעה כשמוצר עומד להיגמר. <b>חסכה $100 בחודש</b>. שישה כלים, אחר צהריים אחד, <b>אפס קוד</b>.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את הפוסט",
+   "hsize": 115,
+   "body": "ככה שישת המשפטים יחכו לכם כשתרצו לנסות. <b>כל יום פוסט חדש</b> על AI, כלים וטריקים מעשיים. שלחו לנו DM עם המילה AI ונעזור לכם אישית.",
+   "media": null
+  }
+ ],
+ "caption": "שישה משפטים ב-Claude, בלי קוד, החליפו כל תוכנה בתשלום בעסק קטן באחר צהריים אחד.\n\nצ'אטבוט, דף נחיתה, מעקב חשבוניות, הזמנת פגישות, מענה ללקוחות וניהול מלאי. בעל עסק בנה את כולם ב-Claude באחר צהריים, בלי שורת קוד.\n\nמקורות: Anthropic\n\nעוד חדשות AI כל יום: @ainews.israel\n\n#AI #NoCode #SmallBusiness #Automation #Tech",
+ "pinned_comment": "שלחו לנו DM עם המילה AI ונעזור לכם למצוא את הכלים הכי מתאימים לעסק שלכם",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 APPS AI BUILDS</em> FROM A SINGLE SENTENCE",
+   "PEOPLE ARE BUILDING <em>WHOLE APPS</em> WITH ONE SENTENCE",
+   "<em>6 APPS AI WRITES</em> WHILE YOU DESCRIBE THEM",
+   "ONE AI TOOL REPLACES <em>6 THINGS YOU'RE PAYING FOR</em>"
+  ],
+  "scores": [
+   6,
+   5,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "The money angle hits instantly — 'things YOU'RE PAYING FOR' makes it personal and urgent in a way 'apps AI builds' never does. The runner-up [0] is clean and specific but it's a cool trick, not a reason to feel something at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "STOP PAYING FOR <em>6 SERVICES AI DOES FREE</em>",
+   "ONE AI TOOL REPLACES <em>6 THINGS YOU'RE PAYING FOR</em>"
+  ],
+  "scores": [
+   7,
+   8
+  ],
+  "winner": 1,
+  "why": "Candidate 1 frames it as a single concrete swap — one tool kills six subscriptions — which is a cleaner, more believable promise than a command to stop paying. 'Replaces' lands harder than 'does free' because it implies real functionality, not a workaround."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education"
+}
