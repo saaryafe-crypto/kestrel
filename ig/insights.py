@@ -14,7 +14,7 @@ account-level numbers carry the trend meanwhile, and learn.py's spy
 scrape still covers per-carousel likes/comments.
 
 Run daily from ig-health.yml; history accumulates in insights.json."""
-import glob, json, os
+import glob, json, os, sys, time
 import bundle
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -26,9 +26,24 @@ KEEP = ("impressions", "impressionsUnique", "views", "likes", "comments",
 def main():
     data = json.load(open(OUT)) if os.path.exists(OUT) else {"account": [], "reels": {}}
 
-    # 1) account snapshots — append only the ones we haven't stored yet
-    acct = bundle.api(f"/analytics/social-account?teamId={bundle.TEAM_ID}"
-                      "&platformType=INSTAGRAM")
+    # 1) account snapshots — append only the ones we haven't stored yet.
+    # bundle.social outages (503 on Aug 4 killed the whole health check) must
+    # not fail the workflow: retry, then skip today's pull LOUDLY — history in
+    # insights.json stays intact and the remaining health steps still run.
+    acct = None
+    for attempt in range(3):
+        try:
+            acct = bundle.api(f"/analytics/social-account?teamId={bundle.TEAM_ID}"
+                              "&platformType=INSTAGRAM")
+            break
+        except Exception as e:
+            print(f"bundle.social attempt {attempt + 1}/3 failed: {e}",
+                  file=sys.stderr)
+            time.sleep(20 * (attempt + 1))
+    if acct is None:
+        print("TRUTH LOOP SKIPPED: bundle.social unreachable after 3 tries — "
+              "no snapshot today, history intact", file=sys.stderr)
+        return
     seen = {s["id"] for s in data["account"]}
     for i in acct.get("items", []):
         if i["id"] not in seen:
