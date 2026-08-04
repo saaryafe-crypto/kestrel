@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "WE PASTED 6 PROMPTS INTO CLAUDE AND <em>REPLACED OUR $5,000-A-MONTH MARKETING AGENCY OVERNIGHT</em>",
+   "kicker": "EACH ONE IS COPY-PASTE",
+   "hsize": 74,
+   "face": [
+    "Mark Zuckerberg"
+   ],
+   "media": "faces/mark-zuckerberg-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FILL A MONTH OF SOCIAL MEDIA</em> IN SECONDS",
+   "body": "A social media manager costs <b>$4,000 a month</b>. <b>'Create a 30-day content calendar for [business]. Mix teaching posts, behind-the-scenes, customer wins, and soft sells. One caption per day'</b>",
+   "hsize": 98,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) WRITE ADS <em>STRANGERS ACTUALLY CLICK</em>",
+   "body": "A copywriter charges <b>$150 per ad</b>. <b>'Write 5 ad variations for [product]. Each one: name a problem the buyer has, make it feel urgent, offer [product] as the fix. Under 30 words'</b>",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) WRITE <em>BLOG POSTS GOOGLE ACTUALLY RANKS</em>",
+   "body": "SEO writers charge <b>$500 a post</b>. <b>'Write a 1,500-word blog targeting [keyword]. Start with a hook, use 5 subheadings that answer real questions people search, end with a call to action'</b>",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>BUILD A 7-DAY EMAIL SEQUENCE</em> THAT SELLS",
+   "body": "Agencies charge <b>$2,000</b> for this. Email returns <b>$36 per $1</b>. <b>'Write a 7-email sequence for [product]. Start with pain, build trust, end with a deadline. 150 words each'</b>",
+   "hsize": 98,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) SEND <em>COLD EMAILS PEOPLE ANSWER</em>",
+   "body": "Outreach agencies charge <b>$3,000 a month</b>. <b>'Write a 3-email cold sequence for [product]. First email: compliment something specific about their company, connect it to a problem you solve. Under 80 words'</b>",
+   "hsize": 108,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>BUILD YOUR ENTIRE BRAND VOICE</em> FROM SCRATCH",
+   "body": "Brand consultants charge <b>$10,000</b> for this. <b>'Create a brand voice guide for [business]. Include a one-line pitch, 3 brand values with example sentences, and 5 sample posts showing the voice'</b>",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR WHEN YOU NEED IT",
+   "body": "Every prompt works tonight. Paste it into ChatGPT or Claude, swap the brackets for your details. <b>Daily AI skills you can actually use</b>",
+   "hsize": 110,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to steal them. Six prompts that handle your ads, emails, blog posts, social media, outreach, and brand voice for $0 \ud83d\udd25\n\nA 30-day social media calendar in one message, Facebook ad copy that follows problem-agitate-solve, SEO blog posts with real keyword targeting, a 7-email sales sequence with built-in deadlines, cold outreach emails written to get replies not silence, and a full brand voice guide with your elevator pitch and sample posts included.\n\nThe latest AI models write marketing copy that genuinely competes with agency work. A year ago these prompts gave you filler. Now they give you campaigns you would have paid thousands for.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Anthropic, OpenAI, Data & Marketing Association\n\n#AIMarketing #SmallBusiness #MarketingTips #ArtificialIntelligence #Entrepreneur",
+ "pinned_comment": "Which one are you trying first? The email sequence is the sleeper: $36 back for every $1 spent is the best return in marketing and one prompt builds the whole thing",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>MAKE YOUR AGENCY USELESS</em>",
+   "6 PROMPTS THAT <em>TURN AI INTO YOUR MARKETING TEAM</em>",
+   "6 AI PROMPTS THAT <em>SAVE YOU $5,000 A MONTH</em>",
+   "6 AI PROMPTS THAT <em>DO YOUR MARKETING FOR FREE</em>",
+   "6 PROMPTS THAT <em>REPLACE A $5,000 MARKETING AGENCY</em>"
+  ],
+  "scores": [
+   5,
+   4,
+   7,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "\"Replace a $5,000 marketing agency\" names the exact thing being eliminated \u2014 I instantly picture the invoice I'm paying and feel the relief of firing it. Candidate 2 promises savings but leaves the mechanism vague; candidate 4 tells me the whole story in one line so I swipe for the how, not the what."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT MAKE <em>$5,000 MARKETING AGENCIES OBSOLETE</em>",
+   "6 AI PROMPTS <em>BETTER THAN MOST PAID MARKETING AGENCIES</em>",
+   "6 PROMPTS THAT <em>DO YOUR ENTIRE MARKETING FOR FREE</em>",
+   "6 PROMPTS THAT <em>REPLACE A $5,000 MARKETING AGENCY</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   7,
+   9
+  ],
+  "winner": 3,
+  "why": "REPLACE A $5,000 MARKETING AGENCY lands in under a second \u2014 one clear action, one specific dollar amount, no interpretation needed. Candidate 0 is close but 'make obsolete' asks your brain to do one extra step that costs it at 2am."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "real-face-photo"
+}
