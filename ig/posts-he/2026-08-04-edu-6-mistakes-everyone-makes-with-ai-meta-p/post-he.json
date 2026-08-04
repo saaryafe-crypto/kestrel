@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI נותן לכם <em>תשובות גנריות</em>: שש טעויות שכולם עושים",
+   "kicker": "והמשפטים שמתקנים כל אחת",
+   "hsize": 72,
+   "face": [
+    "Elon Musk"
+   ],
+   "media": "posts/2026-08-04-edu-6-mistakes-everyone-makes-with-ai-meta-p/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "לא אומרים ל-AI <em>מי אתם</em>",
+   "hsize": 82,
+   "body": "AI לא יודע מי אתם, אז הוא עונה לכולם אותו דבר. <b>תפתחו ככה: 'אני מנהל סוכנות שיווק של 12 איש. לפני שאתה עונה, תשאל אותי חמש שאלות על המצב שלי'</b>. ברגע שהוא מבין עם מי הוא מדבר, התשובות משתנות לגמרי.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "מקבלים את <em>התשובה הראשונה</em> ונגמר",
+   "hsize": 110,
+   "body": "רוב האנשים לוקחים את מה ש-AI נתן וממשיכים הלאה. <b>תגידו לו: 'תן לי שלוש גישות שונות לגמרי, ואז תשווה ביניהן'</b>. כמעט תמיד התשובה הראשונה היא לא הכי טובה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "סומכים על AI <em>בלי לבדוק</em>",
+   "hsize": 110,
+   "body": "AI נשמע בטוח בעצמו גם כשהוא טועה. <b>תגידו לו: 'תעבור על מה שכתבת. מה לא מדויק או פשטני מדי? תתקן'</b>. אתם תופתעו כמה הוא משתפר כשפשוט מבקשים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "מבקשים <em>פסקה</em> במקום תוכנית שלמה",
+   "hsize": 105,
+   "body": "אתם יכולים לבקש פסקה, אבל AI יכול לבנות משהו שלם. <b>תנסו: 'תבנה לי תוכנית שיווק ל-90 יום להשקת משלוחים של המאפייה שלי, עם תאריכים מדויקים, ערוצים ותקציב'</b>. רוב האנשים פשוט לא יודעים כמה אפשר לבקש.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "שואלים עצות <em>בלי מספרים אמיתיים</em>",
+   "hsize": 110,
+   "body": "בלי נתונים, AI פשוט מנחש. <b>תעשו ככה: 'הנה ההוצאות של העסק שלי משלושת החודשים האחרונים [תדביקו]. תמצא את שלוש ההוצאות שגדלות הכי מהר ותגיד לי מה לחתוך'</b>. עם מספרים אמיתיים, התשובות ברמה אחרת.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "שואלים רק על מה <em>שכבר יודעים</em>",
+   "hsize": 92,
+   "body": "הערך הכי גדול של AI הוא לגלות לכם מה אתם מפספסים. <b>תגידו: 'לפי כל מה שסיפרתי לך, על מה אני לא חושב? איזו שאלה אני צריך לשאול?'</b>. דווקא בנקודות העיוורות AI הכי שווה.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו</em> את הפוסט הזה",
+   "hsize": 100,
+   "body": "תעתיקו אחד מהמשפטים ותשתמשו בו בשיחה הבאה שלכם עם AI. תראו לבד כמה התשובה משתנה. עקבו אחרי @ainews.israel לעוד טיפים כאלה.",
+   "media": null
+  }
+ ],
+ "caption": "שש טעויות שכולם עושים עם AI, והמשפטים המדויקים שמתקנים כל אחת מהן. שמרו את הפוסט.\n\nרוב האנשים מקבלים תשובות גנריות כי הם לא יודעים איך לבקש נכון. בפוסט הזה: שש טעויות נפוצות ולכל אחת המשפט שפותר אותה.\n\nעקבו אחרי @ainews.israel לעוד טיפים שישנו לכם את הדרך שאתם עובדים עם AI\n\n#AITips #ChatGPT #ClaudeAI #Productivity #ArtificialIntelligence",
+ "pinned_comment": "מה הטעות שהכי הפתיעה אתכם? כתבו בתגובות",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 THINGS TO TYPE THAT MAKE <em>AI ACTUALLY USEFUL</em>",
+   "6 SENTENCES THAT <em>FORCE AI TO THINK HARDER</em>",
+   "6 MISTAKES <em>EVERYONE MAKES WITH AI</em>",
+   "6 WORDS THAT <em>UNLOCK EVERYTHING AI CAN DO</em>",
+   "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU SAY <em>THESE 6 THINGS</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   4,
+   5,
+   8
+  ],
+  "winner": 4,
+  "why": "It names the exact frustration every AI user has already felt — generic outputs — and frames the fix as something you unlock with a simple phrase, which makes it a 'wait, I need that' moment. [1] is intriguing but 'think harder' is abstract; [4] hits a specific pain point before offering the cure."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 THINGS</em> YOU SAY TO AI THAT <em>KILL THE ANSWER</em>",
+   "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU SAY <em>THESE 6 THINGS</em>",
+   "<em>6 MISTAKES</em> QUIETLY RUINING <em>EVERY AI ANSWER</em> YOU GET",
+   "<em>6 AI MISTAKES</em> MOST PEOPLE MAKE <em>EVERY SINGLE CHAT</em>"
+  ],
+  "scores": [
+   7,
+   9,
+   7,
+   5
+  ],
+  "winner": 1,
+  "why": "\"Generic answers\" is a pain every AI user has felt by 2am — zero setup needed to land. \"Until you say THESE 6 THINGS\" gives me the problem AND the fix in one breath, so I'm swiping for the list, not to figure out what the post is even about."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "editor_override": "HOOK: three actions stapled with commas/AND ('share your context, check its work, and feed it real data') — §2 demands ONE actor, ONE action; 'AND joining two actions = cut the weaker one.' Three is worse. Pick the single most surprising action.; HOOK: reads as a label/aphorism headline ('AI gives generic answers until you do X'), not a summarizing sentence with actor + what happened + wild specif"
+}
