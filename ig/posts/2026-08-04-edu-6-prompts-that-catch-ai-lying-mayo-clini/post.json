@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A LAWYER GOT FINED $5,000 AFTER TRUSTING CHATGPT, <em>6 PROMPTS THAT WOULD HAVE CAUGHT THE LIE</em>",
+   "kicker": "MOST PEOPLE NEVER CHECK",
+   "hsize": 72,
+   "media": "posts/2026-08-04-edu-6-prompts-that-catch-ai-lying-mayo-clini/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) FORCE IT TO <em>ARGUE AGAINST ITSELF</em>",
+   "body": "<b>Mayo Clinic</b> is being sued, a former compliance lead alleges the hospital concealed its AI tool's <b>67% error rate</b>. After any answer, paste: \"Now take the opposite position and tell me why you might be wrong\"",
+   "hsize": 108,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) DEMAND A <em>CONFIDENCE SCORE</em>",
+   "body": "A lawyer got fined <b>$5,000</b> after <b>ChatGPT</b> made up <b>six</b> fake court cases. Ask: \"Rate every claim you just made from 1 to 10. Rewrite anything below 8\"",
+   "hsize": 112,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) MAKE IT <em>SHOW ITS MATH</em>",
+   "body": "<b>ChatGPT</b> gives confident wrong numbers that look right until you check. Add this: \"Show me every step of how you got that number, then double-check each step\"",
+   "hsize": 115,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) ASK <em>WHAT COULD GO WRONG</em>",
+   "body": "AI defaults to telling you your plan is great. Before any big decision, ask: \"What's the most likely way this plan fails and what am I not seeing?\"",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) MAKE IT <em>NAME ITS SOURCES</em>",
+   "body": "AI invents sources that sound real but <b>don't exist</b>. Always ask: \"List every source behind what you just said. If you can't name a real one, tell me\"",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) GET A <em>SECOND OPINION</em>",
+   "body": "One angle misses what another catches. After any important answer, add: \"Now pretend you're a skeptical expert reviewing this. What should I worry about?\"",
+   "hsize": 118,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR NEXT TIME",
+   "body": "The lawyer paid <b>$5,000</b> because they didn't check. Now you have the <b>6 prompts</b> they didn't, save this post\n\nDaily AI news and real skills you can use tonight",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 prompts that force AI to double-check itself before you trust it \ud83d\udd0d\n\nForce it to argue against itself, demand a confidence score on every claim, make it show its math step by step, ask what could go wrong before you decide, make it name its real sources, and get a skeptical second opinion in the same chat. Each one is a copy-paste prompt you can use tonight.\n\nAI keeps getting smarter but it still makes things up and tells you what you want to hear. These six prompts are the difference between getting burned and using AI like a tool that actually works.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Futurism, Anthropic, OpenAI\n\n#AI #ChatGPT #AITips #Technology #ArtificialIntelligence",
+ "pinned_comment": "Which one are you trying first? The confidence score on slide 3 is the sleeper. Watch AI suddenly admit when it's guessing.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT <em>EXPOSE EVERY AI MISTAKE</em>",
+   "6 PROMPTS THAT CATCH <em>AI LYING TO YOU</em>",
+   "6 PROMPTS THAT <em>FORCE AI TO TELL THE TRUTH</em>",
+   "6 PROMPTS THAT <em>STOP AI FROM FOOLING YOU</em>",
+   "<em>6 WAYS TO TEST</em> IF AI IS WRONG"
+  ],
+  "scores": [
+   6,
+   8,
+   7,
+   5,
+   4
+  ],
+  "winner": 1,
+  "why": "\"LYING TO YOU\" lands like a gut punch \u2014 lying is a moral word, not a tech word, and the 'to YOU' makes it personal and urgent at 2am. [2] is close but 'force AI to tell the truth' requires a half-second more inference than just being told AI is straight-up lying to your face."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT <em>EXPOSE AI LYING</em> TO YOU",
+   "6 QUESTIONS THAT <em>FORCE AI TO STOP LYING</em> TO YOU",
+   "6 PROMPTS THAT CATCH <em>AI LYING TO YOU</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "FORCE is the killer word \u2014 it assumes the AI is already lying (validates your paranoia) AND tells you that you can make it stop (pure power). EXPOSE in [0] is close but passive; CATCH in [2] is the weakest verb, sounds like you're playing detective instead of winning."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "COVER IMAGE fails \u00a73 \u2014 all three candidates show generic broken tech (cracked monitors, magnifying glass over a chip). The story has a HUMAN SUBJECT: a lawyer who got fined. \u00a73 mandates 'default to a human face when the story has one' and 'the thumb test: seen once at feed size, a stranger guesses the story.' A stranger seeing any of these covers guesses 'tech is broken,' not 'lawyer got fined for"
+}

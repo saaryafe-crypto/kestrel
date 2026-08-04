@@ -61,5 +61,40 @@
   "subject": "WE TYPED 6 SENTENCES INTO CLAUDE AND <em>IT REPLACED EVERY TOOL OUR BUSINESS PAYS FOR</em>",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-04T11:03:17Z",
+  "gate": "A",
+  "subject": "JUST IN: Telegram removed from the Apple App Store worldwide.",
+  "verdict": "APPROVE",
+  "reason": "A top-10 global app with 900M+ users being pulled from the Apple App Store worldwide is a genuinely massive real-world event with universally known names and felt consequences for hundreds of millions of people — the thin source tweet is a breaking-news alert for an enormous story, not a nothing-burger, so the writer will have substance to build from (why it was removed, who's affected, what happens next), but the team must independently verify the claim before spending a dollar on production."
+ },
+ {
+  "t": "2026-08-04T11:40:38Z",
+  "gate": "B",
+  "subject": "APPLE JUST BANNED TELEGRAM FROM EVERY APP STORE ON EARTH, <em>THEN QUIETLY BROUGHT IT BACK</em>",
+  "verdict": "REJECT",
+  "reason": "Hook carries two actions ('banned…THEN…brought it back') violating the ONE-action rule. Fix: fold the restore into a modifier — e.g. 'APPLE JUST BANNED TELEGRAM FROM EVERY APP STORE ON EARTH FOR 8 HOURS AND NEVER SAID WHY.'; §5 truth: slides 2-3 overstate impact. App Store removal does NOT delete apps from devices — existing installs keep working. 'Every iPhone user on earth LOST TELEGRAM' (slide "
+ },
+ {
+  "t": "2026-08-04T11:44:54Z",
+  "gate": "B",
+  "subject": "APPLE JUST BANNED TELEGRAM FROM EVERY APP STORE ON EARTH <em>FOR 8 HOURS AND NEVER SAID WHY</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE (§3): The cover is the Telegram logo on a flat blue background — pure decoration, not proof or a staged scene. Fails the thumb test: a stranger sees a brand logo, not a story. No face, no subject, no scene. This story has two of the world's most recognizable brands in conflict — the cover should show a dramatic scene (Pavel Durov, a phone with a 'not available' screen, Apple vs Telegra"
+ },
+ {
+  "t": "2026-08-04T12:21:46Z",
+  "gate": "B",
+  "subject": "6 QUESTIONS THAT <em>FORCE AI TO STOP LYING</em> TO YOU",
+  "verdict": "REJECT",
+  "reason": "Hook is a label headline (§2 ban): '6 QUESTIONS THAT FORCE AI TO STOP LYING TO YOU' is a textbook label — no actor, no event, no wild specifics. §2 explicitly bans 'label/aphorism headlines.' Fix: lead with the strongest real anchor (the $5K-fined lawyer or the Mayo Clinic lawsuit) and land the utility promise in the same sentence, e.g. 'A LAWYER GOT FINED $5,000 AFTER TRUSTING CHATGPT — 6 PROMPTS"
+ },
+ {
+  "t": "2026-08-04T12:29:26Z",
+  "gate": "B",
+  "subject": "A LAWYER GOT FINED $5,000 AFTER TRUSTING CHATGPT, <em>6 PROMPTS THAT WOULD HAVE CAUGHT THE LIE</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE fails §3 — all three candidates show generic broken tech (cracked monitors, magnifying glass over a chip). The story has a HUMAN SUBJECT: a lawyer who got fined. §3 mandates 'default to a human face when the story has one' and 'the thumb test: seen once at feed size, a stranger guesses the story.' A stranger seeing any of these covers guesses 'tech is broken,' not 'lawyer got fined for"
  }
 ]

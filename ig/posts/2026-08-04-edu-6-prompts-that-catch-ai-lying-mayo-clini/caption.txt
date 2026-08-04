@@ -1,0 +1,10 @@
+Swipe for 6 prompts that force AI to double-check itself before you trust it 🔍
+
+Force it to argue against itself, demand a confidence score on every claim, make it show its math step by step, ask what could go wrong before you decide, make it name its real sources, and get a skeptical second opinion in the same chat. Each one is a copy-paste prompt you can use tonight.
+
+AI keeps getting smarter but it still makes things up and tells you what you want to hear. These six prompts are the difference between getting burned and using AI like a tool that actually works.
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: Futurism, Anthropic, OpenAI
+
+#AI #ChatGPT #AITips #Technology #ArtificialIntelligence
