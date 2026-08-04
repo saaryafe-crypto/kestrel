@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "WE TYPED 6 SENTENCES INTO CLAUDE AND <em>IT REPLACED EVERY TOOL OUR BUSINESS PAYS FOR</em>",
+   "hsize": 72,
+   "kicker": "NO CODE. JUST ENGLISH.",
+   "media": "posts/2026-08-04-edu-6-one-sentence-builds-that-replace-paid-/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "THE FIRST SENTENCE <em>KILLED A $150-A-MONTH SUBSCRIPTION</em>",
+   "hsize": 95,
+   "body": "Customer service was the first thing we handed over. We told Claude: 'Build a chatbot that answers questions about my business using this document and runs on my website'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "CLAUDE BUILT <em>WHAT A $500 FREELANCER BUILDS</em>",
+   "hsize": 95,
+   "body": "We needed a landing page and usually that means waiting weeks for a designer. One sentence to Claude: 'Build a page for my bakery with a signup form that emails me every new lead'",
+   "media": "posts/2026-08-04-edu-6-one-sentence-builds-that-replace-paid-/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "THEN CLAUDE <em>TOOK OVER THE BOOKKEEPING</em>",
+   "hsize": 100,
+   "body": "A bookkeeper charges <b>$40 an hour</b> to chase unpaid invoices. Claude needed one line: 'Build a tool that tracks unpaid invoices and sends reminder emails every 7 days'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "NEXT IT <em>REPLACED OUR $12-A-MONTH CALENDLY</em>",
+   "hsize": 98,
+   "body": "Every user on <b>Calendly</b> is another monthly charge. We gave Claude the same job: 'Build a booking page where clients pick a time slot and get a confirmation email'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "SENTENCE FIVE <em>RETIRED THE VIRTUAL ASSISTANT</em>",
+   "hsize": 95,
+   "body": "A virtual assistant costs <b>$25 an hour</b> to handle client emails. Fifth sentence for Claude: 'Build a tool where I paste a client question and it drafts a professional reply'",
+   "media": "posts/2026-08-04-edu-6-one-sentence-builds-that-replace-paid-/gen-5.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "WE ADDED UP <em>EVERY TOOL CLAUDE REPLACED IN ONE AFTERNOON</em>",
+   "hsize": 92,
+   "body": "Inventory software was the last one at <b>$100 a month</b>. Final sentence for Claude: 'Build an app that tracks my stock levels and alerts me when anything runs low.' All replaced with no code in <b>one afternoon</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS POST</em>",
+   "hsize": 115,
+   "body": "You'll want these sentences the day you try Claude, save this post\n\nWe share daily AI news and real skills you can use tonight",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see the 6 apps Claude built from one sentence each, replacing software we were paying for \ud83d\udd27\n\nA customer service bot that runs all night, a landing page that captures leads, an invoice tracker that sends its own reminders, a booking system clients use themselves, a client email writer, and an inventory alert that catches shortages before they cost you.\n\nA year ago each of these cost thousands. Now you type one sentence into Claude and it builds the whole thing. The businesses that figure this out first will run circles around the rest.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, OpenAI, Replit, Calendly\n\n#AI #NoCode #SmallBusiness #Automation #Tech",
+ "pinned_comment": "Which one are you building first? Slide 4 is the one nobody thinks about until they're chasing invoices at midnight.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 APPS AI BUILDS</em> FROM A SINGLE SENTENCE",
+   "PEOPLE ARE BUILDING <em>WHOLE APPS</em> WITH ONE SENTENCE",
+   "<em>6 APPS AI WRITES</em> WHILE YOU DESCRIBE THEM",
+   "ONE AI TOOL REPLACES <em>6 THINGS YOU'RE PAYING FOR</em>"
+  ],
+  "scores": [
+   6,
+   5,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "The money angle hits instantly \u2014 'things YOU'RE PAYING FOR' makes it personal and urgent in a way 'apps AI builds' never does. The runner-up [0] is clean and specific but it's a cool trick, not a reason to feel something at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "STOP PAYING FOR <em>6 SERVICES AI DOES FREE</em>",
+   "ONE AI TOOL REPLACES <em>6 THINGS YOU'RE PAYING FOR</em>"
+  ],
+  "scores": [
+   7,
+   8
+  ],
+  "winner": 1,
+  "why": "Candidate 1 frames it as a single concrete swap \u2014 one tool kills six subscriptions \u2014 which is a cleaner, more believable promise than a command to stop paying. 'Replaces' lands harder than 'does free' because it implies real functionality, not a workaround."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}

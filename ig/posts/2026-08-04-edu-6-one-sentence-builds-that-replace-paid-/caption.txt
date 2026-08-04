@@ -1,0 +1,10 @@
+Swipe to see the 6 apps Claude built from one sentence each, replacing software we were paying for 🔧
+
+A customer service bot that runs all night, a landing page that captures leads, an invoice tracker that sends its own reminders, a booking system clients use themselves, a client email writer, and an inventory alert that catches shortages before they cost you.
+
+A year ago each of these cost thousands. Now you type one sentence into Claude and it builds the whole thing. The businesses that figure this out first will run circles around the rest.
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: Anthropic, OpenAI, Replit, Calendly
+
+#AI #NoCode #SmallBusiness #Automation #Tech

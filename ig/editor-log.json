@@ -19,5 +19,47 @@
   "subject": "THE PERSON MAYO CLINIC HIRED TO KEEP THEIR AI SAFE <em>IS NOW SUING THEM FOR HIDING ITS 67% ERROR RATE ON REAL PATIENTS<",
   "verdict": "REJECT",
   "reason": "ONE FACT, THREE SLIDES: The 67% error rate is restated three times — cover ('67% error rate'), slide 2 ('failed two out of three'), slide 4 ('33% accuracy / coin flip'). §4 requires a new fact per slide. The coin-flip comparison is a reframe, not a new fact. Cut slide 4 or replace its content with a genuinely new detail (which AI tool, what diagnoses, how many patients affected, what the lawsuit f"
+ },
+ {
+  "t": "2026-08-04T00:05:16Z",
+  "gate": "A",
+  "subject": "JUST IN: BlackRock launches tokenized money-market fund on Ethereum.",
+  "verdict": "KILL",
+  "reason": "On-topic but routine corporate product launch with no human story, no felt consequence, and a scout interest score of 4 — the single-sentence source has no substance to build slides from."
+ },
+ {
+  "t": "2026-08-04T00:05:48Z",
+  "gate": "A",
+  "subject": "This is how to open a number lock using nothing but a piece of paper.",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 with no substance behind it — a single thin tweet about a generic lock trick with no named person, no real-world consequence, and nothing to build slides from."
+ },
+ {
+  "t": "2026-08-04T00:06:16Z",
+  "gate": "A",
+  "subject": "Worth noting that any USAID funding that appeared to have the slightest merit whatsoever for helping people in need was ",
+  "verdict": "KILL",
+  "reason": "This is a political opinion tweet with no tech/AI/space story, no specific event with felt consequences, and a scout interest score of 2/10 — it fails every qualification in Story Law and is off-brand for the page."
+ },
+ {
+  "t": "2026-08-04T00:06:26Z",
+  "gate": "A",
+  "subject": "Slavery was ended primarily by Britain",
+  "verdict": "KILL",
+  "reason": "This is a bare opinion tweet with no event, no substance, no numbers, and no real-world consequence — it fails both the no-substance and off-brand instant kills."
+ },
+ {
+  "t": "2026-08-04T00:39:42Z",
+  "gate": "B",
+  "subject": "ONE AI TOOL REPLACES <em>6 THINGS YOU'RE PAYING FOR</em>",
+  "verdict": "REJECT",
+  "reason": "Hook is a label/aphorism headline banned by §2: 'ONE AI TOOL REPLACES 6 THINGS YOU'RE PAYING FOR' is a category tag, not a summarizing cover sentence with actor + what happened + wild specifics. At 9 words it also falls under the 12-word minimum.; Cover contract broken (§4) + truth gap (§5): the hook promises 'ONE AI TOOL' — a specific, singular tool — but no slide ever names it. The reader finish"
+ },
+ {
+  "t": "2026-08-04T00:55:45Z",
+  "gate": "B",
+  "subject": "WE TYPED 6 SENTENCES INTO CLAUDE AND <em>IT REPLACED EVERY TOOL OUR BUSINESS PAYS FOR</em>",
+  "verdict": "APPROVE",
+  "reason": ""
  }
 ]
