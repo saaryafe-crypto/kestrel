@@ -1,0 +1,105 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 AI PROMPTS THAT FIND <em>TRAPS IN YOUR CONTRACTS</em>",
+   "kicker": "SAVE THESE BEFORE YOU SIGN ANYTHING",
+   "hsize": 72,
+   "face": [
+    "Elon Musk"
+   ],
+   "media": "faces/elon-musk-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) PASTE YOUR CONTRACT AND <em>FIND THE TRAPS</em>",
+   "body": "A contract lawyer charges <b>$350 an hour</b> to review your deal. This is free\n\n\"Here is my contract. Find every clause that could hurt me and tell me what to change\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) READ YOUR LEASE AND <em>FIND HIDDEN COSTS</em>",
+   "body": "A real estate attorney charges <b>$200 an hour</b> to review a lease. This is free\n\n\"Here is my lease. Find every clause that could cost me unexpected money and show the section number\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) READ YOUR FINE PRINT <em>BEFORE IT COSTS YOU</em>",
+   "body": "A lawyer charges <b>$250</b> to read your terms of service. You agree to 150+ a year unread\n\n\"Here are my terms of service. List the 5 things I'm agreeing to that most people miss\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) SCAN YOUR NDA <em>BEFORE YOU SIGN AWAY RIGHTS</em>",
+   "body": "An IP lawyer charges <b>$400</b> to review an NDA. Most people just sign and hope\n\n\"Here is my NDA. Find any clause that limits what I can do after I leave and explain the real-world impact\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) CHECK YOUR NON-COMPETE <em>FOR HIDDEN RESTRICTIONS</em>",
+   "body": "A non-compete review costs <b>$500+</b> from an employment attorney. This catches what you'd miss\n\n\"Here is my non-compete agreement. Identify every restriction on where I can work, for how long, and what's enforceable in my state\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) GET YOUR JOB OFFER <em>REVIEWED FREE</em>",
+   "body": "An employment lawyer charges <b>$400</b> to review a job offer. Most people just sign\n\n\"Here is my job offer. What am I giving up, what's missing, and what should I negotiate?\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS <em>BEFORE YOU SIGN ANYTHING</em>",
+   "body": "You'll want these the next time you sign something. Save this post\n\nDaily AI news + real skills you can use tonight",
+   "hsize": 90,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see the six prompts that do what a $350/hour lawyer does, for free \ud83d\udd10\n\nContract clause scanner, lease fine-print finder, terms of service decoder, NDA rights checker, non-compete restriction spotter, job offer reviewer: six prompts that do in 30 seconds what costs $200-$500 an hour.\n\nLegal help used to be something only people with money could afford. These prompts don't replace a real lawyer for complex cases, but for everyday contracts, disputes, and fine print, they put everyone on equal ground.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Anthropic, OpenAI, American Bar Association\n\n#AI #AITools #LegalTech #SmallBusiness #Productivity",
+ "pinned_comment": "Which one are you trying first? Slide 4 is the sleeper. Most people agree to 150 terms of service a year without reading a word",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT TURN AI INTO YOUR <em>FREE LAWYER</em>",
+   "6 PROMPTS THAT DO <em>WHAT YOUR LAWYER DOES</em> FOR FREE",
+   "6 AI PROMPTS YOUR <em>LAWYER HOPES YOU NEVER SEE</em>",
+   "6 AI PROMPTS <em>WORTH $500 AN HOUR</em>",
+   "6 AI PROMPTS THAT <em>READ YOUR CONTRACTS</em> FOR YOU"
+  ],
+  "scores": [
+   7,
+   5,
+   8,
+   7,
+   6
+  ],
+  "winner": 2,
+  "why": "The 'hopes you never see' framing triggers a gut feeling of forbidden insider knowledge \u2014 someone powerful is trying to hide this from you, which is irresistible at 2am. The runner-up [0] sells the same benefit more directly but 'free lawyer' is just a perk, while [2] creates a villain and makes you feel like you're about to get away with something."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS YOUR <em>LAWYER HOPES YOU NEVER SEE</em>",
+   "6 AI PROMPTS TO USE <em>BEFORE YOU SIGN ANYTHING</em>",
+   "6 AI PROMPTS THAT CATCH <em>WHAT YOUR LAWYER MISSED</em>",
+   "6 AI PROMPTS THAT FIND <em>TRAPS IN YOUR CONTRACTS</em>"
+  ],
+  "scores": [
+   7,
+   5,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "\"Traps in your contracts\" is visceral and concrete \u2014 I immediately picture something hidden that could hurt me, and I want to know what it is. The lawyer-conspiracy framing of [0] is a tired formula that my brain half-tunes out, while \"traps\" feels specific and immediate."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "Hook is a label headline (banned \u00a72) and at 9 words falls below the 12-word minimum \u2014 it needs to be ONE complete sentence (12-25 words) with actor + action + the wild specific, e.g. a felt-scale payoff like the total cost saved or the trap count found; All six content slide bodies open with the identical 'A [type] lawyer charges $X / This is free' template \u2014 the framing repeats verbatim six times"
+}
