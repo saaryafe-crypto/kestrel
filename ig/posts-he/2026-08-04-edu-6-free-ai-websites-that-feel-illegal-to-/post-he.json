@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שישה אתרי AI שעושים עבודה של אלפי דולרים, <em>בחינם</em>",
+   "kicker": "מצגת שלמה ממשפט אחד",
+   "hsize": 72,
+   "face": [
+    "Sundar Pichai"
+   ],
+   "media": "posts/2026-08-04-edu-6-free-ai-websites-that-feel-illegal-to-/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "מצגת של 500 דולר, ממשפט אחד",
+   "body": "מעצב פרילנסר גובה <b>500 דולר</b> על מצגת עסקית.\n\n<b>gamma.app</b> בונה אותה ממשפט אחד, עם עיצוב מוכן. בחינם.",
+   "hsize": 82,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "דוח של 200 עמודים הפך לפודקאסט",
+   "body": "יועץ גובה <b>1,500 דולר</b> כדי לפרק דוח ארוך ולהסביר מה חשוב.\n\n<b>NotebookLM של Google</b> עושה את זה בשבילכם: מעלים דוח של 200 עמודים, ומקבלים שיחת פודקאסט שמסבירה הכל. בחינם.",
+   "hsize": 112,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "שיר שלם תוך פחות מדקה",
+   "body": "ג'ינגל באולפן הקלטות עולה מעל <b>3,000 דולר</b>.\n\n<b>suno.com</b> כותב, שר ומפיק שיר שלם ממשפט אחד, תוך פחות מדקה. בחינם.",
+   "hsize": 98,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "עוזר מחקר שעובד בחינם",
+   "body": "עוזר מחקר אנושי עולה <b>25 דולר לשעה</b>.\n\n<b>Perplexity</b> מחפש באינטרנט, מסכם תשובות ומצרף מקורות לכל עובדה. בחינם.",
+   "hsize": 80,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "עיצוב של 200 דולר, בחינם",
+   "body": "מעצב גובה <b>200 דולר</b> על גרפיקה שיווקית.\n\n<b>Ideogram</b> מייצר תמונות מכל תיאור שתכתבו, עם טקסט קריא בפנים. מושלם לפרסומות, לוגואים ופוסטים. בחינם.",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "קריינות שנשמעת כמו בן אדם",
+   "body": "קריין מקצועי גובה מעל <b>200 דולר לדקה</b>.\n\n<b>ElevenLabs</b> הופך טקסט לדיבור שנשמע אנושי, עם בחירת קולות. התוכנית הבסיסית בחינם.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את הפוסט הזה",
+   "body": "<b>כל שישת הכלים בחינם</b> עכשיו.\n\nשמרו ← כדי שהם יחכו לכם כשתצטרכו.",
+   "hsize": 108,
+   "media": null
+  }
+ ],
+ "caption": "שישה אתרי AI בחינם שחוסכים אלפי דולרים על מצגות, מוזיקה, מחקר, עיצוב וקריינות.\n\nכל כלי מחליף שירות מקצועי שעולה מאות עד אלפי דולרים: gamma.app בונה מצגות, NotebookLM הופך דוחות לפודקאסט, suno.com מפיק שירים, Perplexity עושה מחקר עם מקורות, Ideogram מעצב גרפיקה עם טקסט קריא, ElevenLabs מייצר קריינות. כולם בחינם.\n\nמקורות: Google, Gamma, Perplexity, Suno, ElevenLabs, Ideogram\n\nעקבו אחרי @ainews.israel לעוד כלי AI בחינם\n\n#AI #FreeTools #AITools #Productivity #Technology",
+ "pinned_comment": "איזה כלי הכי הפתיע אתכם? כתבו בתגובות",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 FREE AI WEBSITES THAT <em>FEEL ILLEGAL TO KNOW</em>",
+   "6 FREE AI WEBSITES THAT <em>REPLACE $10,000 IN WORK</em>",
+   "6 AI WEBSITES <em>MOST PEOPLE WILL NEVER FIND</em>",
+   "6 FREE AI WEBSITES <em>KILLING EXPENSIVE SOFTWARE</em>",
+   "6 FREE WEBSITES DOING JOBS THAT <em>COST THOUSANDS</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   5,
+   6,
+   5
+  ],
+  "winner": 0,
+  "why": "\"Feel illegal to know\" hits the brain like an alarm — illegal is a stop-word at 2am, no second read needed. The $10,000 hook is solid but it makes you do math; the illegal hook makes you feel something first."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI WEBSITES SO POWERFUL <em>THEY SHOULDN'T BE FREE</em>",
+   "6 FREE AI WEBSITES <em>REPLACING TOOLS YOU STILL PAY FOR</em>",
+   "6 FREE AI WEBSITES THAT <em>MAKE PAID SOFTWARE POINTLESS</em>",
+   "6 FREE AI WEBSITES THAT <em>FEEL ILLEGAL TO KNOW</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   7,
+   9
+  ],
+  "winner": 3,
+  "why": "'Feel illegal to know' triggers a primal 'I'm getting away with something' reflex — it's parsed in under a second and creates instant FOMO. The runner-up 'shouldn't be free' is solid but reads like ad copy; 'illegal' makes you feel like an insider, not a consumer."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "editor_override": "COVER IMAGE fails §3 thumb test and story match: the image shows a generated Sundar Pichai on a dark rainy street with Google branding everywhere — a stranger at feed size guesses 'Google scandal,' not '6 free AI tools.' Google is only 1 of 6 tools in this post; centering Pichai and dual Google logos misrepresents the story as a Google story. The dark alley also violates the 'loud, colorful story-"
+}
