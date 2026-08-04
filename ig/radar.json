@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-04T03:30:48.840228+00:00",
+ "updated": "2026-08-04T05:30:53.871896+00:00",
  "moments": [
   {
    "id": "2084274899065897011",
@@ -13,8 +13,8 @@
    "score": 36702,
    "comments_n": 2076,
    "views": 4640239,
-   "age_h": 13.7,
-   "vph": 2679.0,
+   "age_h": 15.7,
+   "vph": 2337.7,
    "image": null,
    "video": null
   },
@@ -30,8 +30,8 @@
    "score": 18397,
    "comments_n": 2304,
    "views": 4839435,
-   "age_h": 11.8,
-   "vph": 1559.1,
+   "age_h": 13.8,
+   "vph": 1333.1,
    "image": null,
    "video": null
   },
@@ -47,8 +47,8 @@
    "score": 15082,
    "comments_n": 140,
    "views": 607345,
-   "age_h": 14.5,
-   "vph": 1040.1,
+   "age_h": 16.5,
+   "vph": 914.1,
    "image": null,
    "video": null
   },
@@ -64,8 +64,8 @@
    "score": 8032,
    "comments_n": 104,
    "views": 348098,
-   "age_h": 11.4,
-   "vph": 704.6,
+   "age_h": 13.4,
+   "vph": 599.4,
    "image": "https://pbs.twimg.com/media/HOz00YjbIAAF2vR.jpg",
    "video": null
   },
@@ -81,8 +81,8 @@
    "score": 3973,
    "comments_n": 89,
    "views": 25442,
-   "age_h": 8.4,
-   "vph": 473.0,
+   "age_h": 10.4,
+   "vph": 382.0,
    "image": "https://pbs.twimg.com/media/HO0dW4MWYAAuNBR.jpg",
    "video": null
   },
@@ -98,8 +98,8 @@
    "score": 7063,
    "comments_n": 66,
    "views": 150517,
-   "age_h": 17.4,
-   "vph": 405.9,
+   "age_h": 19.4,
+   "vph": 364.1,
    "image": null,
    "video": "https://video.twimg.com/amplify_video/2084219161685696512/vid/avc1/576x766/XAGD3DCLeaRhghpN.mp4?tag=29",
    "top_comments": [
@@ -122,8 +122,8 @@
    "score": 3465,
    "comments_n": 428,
    "views": 1087649,
-   "age_h": 9.1,
-   "vph": 380.8,
+   "age_h": 11.1,
+   "vph": 312.2,
    "image": null,
    "video": null
   },
@@ -139,8 +139,8 @@
    "score": 9179,
    "comments_n": 564,
    "views": 998409,
-   "age_h": 29.5,
-   "vph": 311.2,
+   "age_h": 31.5,
+   "vph": 291.4,
    "image": "https://pbs.twimg.com/media/HOv8ytHXQAICKKi.jpg",
    "video": null
   },
@@ -156,8 +156,8 @@
    "score": 7569,
    "comments_n": 101,
    "views": 42856,
-   "age_h": 28.0,
-   "vph": 270.3,
+   "age_h": 30.0,
+   "vph": 252.3,
    "image": "https://pbs.twimg.com/media/HOwROIwW8AEjU2I.jpg",
    "video": null
   },
@@ -173,26 +173,9 @@
    "score": 2690,
    "comments_n": 379,
    "views": 276973,
-   "age_h": 10.7,
-   "vph": 251.4,
+   "age_h": 12.7,
+   "vph": 211.8,
    "image": "https://pbs.twimg.com/media/HOz-h53WEAEL6bp.jpg",
-   "video": null
-  },
-  {
-   "id": "2084181625957490808",
-   "title": "BREAKING \ud83d\udea8: China Chinese Real Estate Market has fallen to its lowest prices in AT LEAST the last 20 years \ud83d\udcc9 \ud83c\udfe1",
-   "sub": "Barchart",
-   "where": "@Barchart on X",
-   "unit": "likes",
-   "selftext": "BREAKING \ud83d\udea8: China Chinese Real Estate Market has fallen to its lowest prices in AT LEAST the last 20 years \ud83d\udcc9 \ud83c\udfe1",
-   "permalink": "https://x.com/Barchart/status/2084181625957490808",
-   "outlink": null,
-   "score": 3257,
-   "comments_n": 164,
-   "views": 414495,
-   "age_h": 19.9,
-   "vph": 163.7,
-   "image": "https://pbs.twimg.com/media/HOyAIJfW0AAQCd6.png",
    "video": null
   },
   {
@@ -207,9 +190,26 @@
    "score": 3696,
    "comments_n": 278,
    "views": 110563,
-   "age_h": 22.7,
-   "vph": 162.8,
+   "age_h": 24.7,
+   "vph": 149.6,
    "image": "https://pbs.twimg.com/media/HOxZ9hwXUAAKv42.jpg",
+   "video": null
+  },
+  {
+   "id": "2084181625957490808",
+   "title": "BREAKING \ud83d\udea8: China Chinese Real Estate Market has fallen to its lowest prices in AT LEAST the last 20 years \ud83d\udcc9 \ud83c\udfe1",
+   "sub": "Barchart",
+   "where": "@Barchart on X",
+   "unit": "likes",
+   "selftext": "BREAKING \ud83d\udea8: China Chinese Real Estate Market has fallen to its lowest prices in AT LEAST the last 20 years \ud83d\udcc9 \ud83c\udfe1",
+   "permalink": "https://x.com/Barchart/status/2084181625957490808",
+   "outlink": null,
+   "score": 3257,
+   "comments_n": 164,
+   "views": 414495,
+   "age_h": 21.9,
+   "vph": 148.7,
+   "image": "https://pbs.twimg.com/media/HOyAIJfW0AAQCd6.png",
    "video": null
   },
   {
@@ -224,8 +224,8 @@
    "score": 2067,
    "comments_n": 72,
    "views": 307537,
-   "age_h": 18.5,
-   "vph": 111.7,
+   "age_h": 20.5,
+   "vph": 100.8,
    "image": null,
    "video": "https://video.twimg.com/amplify_video/2083575883722350592/vid/avc1/640x360/i8a9TDHXxJdvL-Ve.mp4?tag=29",
    "top_comments": [
@@ -234,30 +234,6 @@
     "Look like a Command and Conquer game",
     "That's pretty impressive actually... I wonder how the ground drone actually did that.",
     "Trump still needs a netanyahu"
-   ]
-  },
-  {
-   "id": "2083939630421094812",
-   "title": "\ud83c\uddf2\ud83c\uddfd\ud83c\uddfa\ud83c\uddf8 Mexican forces just bagged a cartel boss with a $5M U.S. bounty on his head. Alfonso Fern\u00e1ndez Magall\u00f3n, better known as \u201cPoncho,\u201d leader of the Los Reyes Cartel, got snatched in a joint air and ground op in Los Rey",
-   "sub": "MarioNawfal",
-   "where": "@MarioNawfal on X",
-   "unit": "likes",
-   "selftext": "\ud83c\uddf2\ud83c\uddfd\ud83c\uddfa\ud83c\uddf8 Mexican forces just bagged a cartel boss with a $5M U.S. bounty on his head. Alfonso Fern\u00e1ndez Magall\u00f3n, better known as \u201cPoncho,\u201d leader of the Los Reyes Cartel, got snatched in a joint air and ground op in Los Reyes and Perib\u00e1n, Michoac\u00e1n. His crew immediately flipped out, setting cars on fire and blocking roads, but authorities say they\u2019ve already cleared the mess and restored control. Another big cartel name is off the streets. Source: @TabzLIVE / Writer: Lynn",
-   "permalink": "https://x.com/MarioNawfal/status/2083939630421094812",
-   "outlink": null,
-   "score": 3631,
-   "comments_n": 68,
-   "views": 171898,
-   "age_h": 35.9,
-   "vph": 101.1,
-   "image": null,
-   "video": "https://video.twimg.com/amplify_video/2083938323685392384/vid/avc1/848x480/32L-xTwL8Dtf3Iwu.mp4?tag=29",
-   "top_comments": [
-    "Thats a very big fish in the nets for the USA. \n\nOne by one it's playing out as planned",
-    "Its over for the cartels . One of the biggest mistakes the U.S hegemond ever made was focusing to late on controlling mexico , while being bogged down in the middle east . Now that they have a shadow government in place headed by a jew sche",
-    "Another will replace him, the issue is demand here in the states. As long as demand is there the problem will continue. No different than any other commodity with high demand. Just reality..",
-    "Removing cartel leaders matters but the real victory comes when communities are safe enough that new criminals cannot replace them instantly again",
-    "I wonder when are they going to arrest the American bosses? Oh thats right they all sit in the white house and all over DC!"
    ]
   },
   {
@@ -272,8 +248,8 @@
    "score": 1140,
    "comments_n": 19,
    "views": 42066,
-   "age_h": 22.5,
-   "vph": 50.7,
+   "age_h": 24.5,
+   "vph": 46.5,
    "image": null,
    "video": "https://video.twimg.com/amplify_video/2083818288295878656/vid/avc1/720x1280/9zC-gbisNxWp8RQg.mp4?tag=29"
   },
@@ -289,8 +265,8 @@
    "score": 1155,
    "comments_n": 131,
    "views": 47804,
-   "age_h": 32.9,
-   "vph": 35.1,
+   "age_h": 34.9,
+   "vph": 33.1,
    "image": null,
    "video": "https://video.twimg.com/amplify_video/2083984890953973760/vid/avc1/1080x1080/edq4Wlbjp9T9AYnb.mp4?tag=29"
   }
