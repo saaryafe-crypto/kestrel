@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 AI PROMPTS THAT <em>CATCH EXACTLY WHERE YOUR BUSINESS IS QUIETLY BLEEDING MONEY</em>",
+   "hsize": 72,
+   "kicker": "YOUR ACCOUNTANT WON'T FIND THESE",
+   "face": [
+    "Warren Buffett"
+   ],
+   "media": "posts/2026-08-04-edu-6-ai-prompts-that-find-money-your-busine/gen-0-r.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND EVERY <em>SUBSCRIPTION YOU FORGOT</em>",
+   "hsize": 110,
+   "body": "<b>25%</b> of software spending goes to tools nobody uses, per Gartner. \"Here are my business expenses for the last 6 months. Find every recurring charge I probably don't need\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) FIND WHY <em>CUSTOMERS LEAVE</em>",
+   "hsize": 118,
+   "body": "Replacing a lost customer costs <b>5x more</b> than keeping one. \"Here are my last 20 customer complaints. What's the #1 reason people quit and write me an email that wins them back\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) CATCH WHERE <em>YOU'RE UNDERCHARGING</em>",
+   "hsize": 115,
+   "body": "A <b>1% price increase</b> adds 8% to profits, per McKinsey. Most never check. \"Here's my pricing page and 3 competitor links. Where am I charging less\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) FIND WHERE YOUR <em>WEBSITE LOSES BUYERS</em>",
+   "hsize": 96,
+   "body": "<b>97 out of 100</b> visitors leave most websites without buying. \"Here's a screenshot of my checkout page. List every reason a buyer would leave before paying\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) SPOT SHIFTS THAT <em>COST YOU EXTRA</em>",
+   "hsize": 100,
+   "body": "Payroll is the <b>biggest expense</b> in most businesses, and wasted hours hide inside it. \"Here's my employee schedule from last month. Find every shift where I had more people than I needed\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) CATCH VENDORS <em>QUIETLY RAISING PRICES</em>",
+   "hsize": 105,
+   "body": "Suppliers raise prices by <b>3 to 5%</b> a year and most businesses never notice. \"Here are my invoices from this quarter and last year. Flag every price that went up more than 3%\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS POST</em>",
+   "hsize": 110,
+   "body": "You'll want these prompts next time you check your numbers. Save this post for later\n\nDaily AI news and real skills at @yaffeai",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see 6 AI prompts that find the money your business is quietly losing, one expense category at a time \ud83d\udcb0\n\nForgotten subscriptions draining your account, the real reason customers leave, pricing gaps your competitors already found, the checkout page that scares off 97% of buyers, overstaffed shifts hiding in payroll, vendors who raise prices when nobody's looking.\n\nEvery business has at least one of these leaks right now. AI can scan your real data and find the exact dollar amount in minutes, not months.\nOwn a business? DM us \"AI\" and we'll show you where your money is going\n\nSources: Gartner, McKinsey, Harvard Business Review, Baymard Institute, Anthropic\n\n#AIForBusiness #SmallBusiness #AIPrompts #BusinessTips #Entrepreneur",
+ "pinned_comment": "Which leak are you checking first? Slide 2 has the fastest payoff for most businesses.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>FIND MONEY YOU'RE LOSING</em>",
+   "6 AI PROMPTS THAT <em>EXPOSE YOUR HIDDEN COSTS</em>",
+   "6 AI PROMPTS YOUR <em>ACCOUNTANT WON'T THINK TO RUN</em>",
+   "6 AI PROMPTS THAT <em>STOP YOUR MONEY FROM LEAKING</em>",
+   "6 PROMPTS THAT <em>AUDIT YOUR BUSINESS FOR FREE</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   7,
+   6,
+   7
+  ],
+  "winner": 0,
+  "why": "\"Money you're LOSING\" hits in present tense \u2014 it's happening to me right now, not some abstract future problem. The accountant angle (#2) is clever but 'won't think to run' costs a half-second re-read, and at 2am that's a swipe-past."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>FIND MONEY YOU'RE LOSING</em>",
+   "6 AI PROMPTS THAT <em>EXPOSE WHERE YOU'RE QUIETLY LOSING MONEY</em>",
+   "6 AI PROMPTS THAT <em>CATCH WHERE YOU'RE BLEEDING MONEY</em>",
+   "6 AI PROMPTS THAT <em>CATCH MONEY LEAKS</em> MOST PEOPLE MISS"
+  ],
+  "scores": [
+   6,
+   7,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "\"Bleeding money\" is visceral and physical \u2014 it triggers urgency in a way \"losing\" and \"leaks\" don't, and it lands in under a second. Runner-up [3] has the FOMO hook of \"most people miss\" but \"catch money leaks\" is slightly awkward phrasing that costs it a beat."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}
