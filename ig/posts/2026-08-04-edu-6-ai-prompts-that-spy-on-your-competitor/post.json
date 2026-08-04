@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ONE FOUNDER USED 6 AI PROMPTS AND <em>KNEW MORE ABOUT A RIVAL THAN THE RIVAL'S OWN TEAM DID</em>",
+   "kicker": "THEY'RE ALREADY DOING IT TO YOU",
+   "hsize": 72,
+   "face": [
+    "Mark Zuckerberg"
+   ],
+   "media": "posts/2026-08-04-edu-6-ai-prompts-that-spy-on-your-competitor/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>STEAL THEIR UNHAPPY CUSTOMERS</em>",
+   "body": "Finding out what competitors' customers hate used to mean <b>hiring a research firm</b>. \"Here are my competitor's Google reviews. List every complaint that appears 3+ times and write me a targeted ad for each pain point\"",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>REVERSE-ENGINEER THEIR PRICING</em>",
+   "body": "Decoding a competitor's pricing strategy used to mean <b>hiring a consultant</b>. \"Here is my competitor's pricing page. Break down their strategy, find every psychological trigger, and show me where to undercut them\"",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>PREDICT THEIR NEXT MOVE</em>",
+   "body": "Job listings reveal a competitor's strategy <b>6 months early</b>. \"Here are my competitor's open roles. Tell me what they're building, what market they're entering, and how I should respond\"",
+   "hsize": 115,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FIND WHAT THEY'RE IGNORING</em>",
+   "body": "Your competitor's customers are begging for features <b>nobody builds</b>. \"Compare my competitor's product page against their customer reviews. List every feature request they keep ignoring, ranked by frequency\"",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WALK THEIR WEBSITE <em>LIKE A CUSTOMER</em>",
+   "body": "Mapping how a competitor sells online used to require <b>an agency engagement</b>. \"Go through my competitor's website as a first-time buyer. Map every step from landing to checkout and tell me where they lose people\"",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) BUILD A <em>CHEAT SHEET IN 60 SECONDS</em>",
+   "body": "One page that gives your team an edge in <b>every competitor call</b>. \"Here is my product and my top competitor. Write a one-page comparison: their weaknesses, our strengths, and a response to every objection\"",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR YOUR NEXT STRATEGY SESSION",
+   "body": "You'll want these prompts when you're ready to compete\n\nDaily AI news + real skills for your business",
+   "hsize": 90,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see 6 AI prompts that show you exactly what your competitors are charging, building, and hiding from you \ud83d\udd0d\n\nSteal their unhappy customers straight from their own reviews, reverse-engineer their pricing strategy from a screenshot, decode their job postings to predict their next move six months early, find the product features they keep ignoring, walk their entire website to spot where they lose buyers, and build a competitor cheat sheet your team can use on every call.\n\nCompetitive intelligence used to cost thousands and take weeks. Now six prompts replace the whole process. The businesses already using these have a head start you can close tonight.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Anthropic, OpenAI\n\n#AI #Business #Entrepreneurship #Productivity #Strategy",
+ "pinned_comment": "Slide 2 alone is worth $3,000. Which one are you trying first tonight?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>YOUR COMPETITORS HOPE YOU NEVER FIND</em>",
+   "6 AI PROMPTS THAT <em>SPY ON YOUR COMPETITORS</em>",
+   "6 PROMPTS THAT <em>REPLACE A $10,000 STRATEGIST</em>",
+   "6 PROMPTS THAT <em>TURN AI INTO YOUR BUSINESS SPY</em>",
+   "6 AI PROMPTS THAT <em>EXPOSE WHAT YOUR COMPETITORS HIDE</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   7,
+   5,
+   6
+  ],
+  "winner": 1,
+  "why": "SPY ON YOUR COMPETITORS lands in under a second \u2014 'spy' is a single visceral word that does all the work, and you instantly know what you're getting. The runner-up [0] is solid but 'hope you never find' is a tired formula that my brain already half-skips."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>SO RUTHLESS</em> YOUR COMPETITORS WOULD BAN THEM",
+   "6 AI PROMPTS THAT <em>REVERSE-ENGINEER</em> YOUR COMPETITORS",
+   "6 AI PROMPTS THAT <em>SPY ON YOUR COMPETITORS</em>",
+   "6 AI PROMPTS <em>YOUR COMPETITORS</em> HOPE YOU NEVER FIND"
+  ],
+  "scores": [
+   7,
+   5,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "\"SPY ON\" is immediate and visceral \u2014 you know exactly what you're getting and it sounds slightly illegal, which is the whole appeal. The runner-up [3] has the forbidden-knowledge angle but 'hope you never find' makes you do a half-second of parsing that [2] never needs."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "COVER CONTRACT BROKEN (\u00a74): Hook promises a specific story \u2014 'ONE FOUNDER' who did something and achieved a specific outcome ('knew more about a rival than the rival's own team did'). The slides never name this founder, never describe the event, never deliver any story. Every slide is a generic prompt template. The cover writes a check the carousel never cashes.; TRUTH VIOLATION (\u00a75): 'One founder"
+}
