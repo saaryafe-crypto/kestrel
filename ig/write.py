@@ -106,13 +106,63 @@ def product_screenshot(url, post_dir):
     return None
 
 
+def brands():
+    """Brand book: official colors + simple-icons fetch slugs (owner order
+    Aug 4: right logo, right colors, for each company)."""
+    try:
+        b = json.load(open(os.path.join(HERE, "brands.json")))
+        b.pop("_doc", None)
+        return b
+    except Exception:
+        return {}
+
+
+def _lum(hexcolor):
+    try:
+        h = hexcolor.lstrip("#")
+        r, g, b = (int(h[i:i + 2], 16) for i in (0, 2, 4))
+        return 0.299 * r + 0.587 * g + 0.114 * b
+    except Exception:
+        return 255
+
+
+def logo_svg(slug):
+    """Local SVG for a brand, fetching the OFFICIAL mark from the
+    simple-icons CDN on first use (official brand color baked into fill).
+    Near-black marks are recolored WHITE at save time — they'd vanish in
+    our dark scenes and on the dark cover discs. Fails soft to None."""
+    svg = os.path.join(HERE, "logos", f"{slug}.svg")
+    if os.path.exists(svg):
+        return svg
+    info = brands().get(slug)
+    if not info or info.get("si", slug) is None:
+        return None
+    import urllib.request
+    try:
+        # CDN 403s python's default urllib UA — send a browser one
+        req = urllib.request.Request(
+            f"https://cdn.simpleicons.org/{info.get('si', slug)}",
+            headers={"User-Agent": "Mozilla/5.0"})
+        data = urllib.request.urlopen(req, timeout=20).read().decode()
+        m = re.search(r'fill="(#[0-9a-fA-F]{6})"', data)
+        if m and _lum(m.group(1)) < 60:
+            data = data.replace(m.group(1), "#FFFFFF")
+        open(svg, "w").write(data)
+        return svg
+    except Exception as e:
+        print(f"logo fetch failed for {slug}: {e}", file=sys.stderr)
+        return None
+
+
 def logo_ref(slug):
     """Real logo SVG -> raster reference for the generator (owner Aug 1
     courtroom verdict: the model's from-memory 'pink OpenAI flower' reads
     instantly fake — the EXACT mark must ride along as a reference image,
-    same doctrine as faces and products). White-on-black 1024px, cached."""
-    svg = os.path.join(HERE, "logos", f"{slug}.svg")
-    if not os.path.exists(svg):
+    same doctrine as faces and products). Rendered on black in the brand's
+    OFFICIAL color (owner Aug 4) — white for black-mark brands. Cached."""
+    slug = slug.lower()
+    svg = logo_svg(slug)
+    if not svg:
         return None
     out = os.path.join(HERE, "logos", f"_ref-{slug}.png")
     if os.path.exists(out):
@@ -120,10 +170,17 @@ def logo_ref(slug):
     chrome = os.environ.get("CHROME",
         "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
     html = os.path.join(HERE, "logos", f"_ref-{slug}.html")
+    # inline the SVG recolored to the brand's true color (legacy local SVGs
+    # are all-white fills; the ref must teach the generator the REAL color)
+    body = open(svg).read()
+    color = brands().get(slug, {}).get("color")
+    if color and _lum(color) >= 60:
+        body = re.sub(r'fill="#[0-9a-fA-F]{3,8}"', f'fill="{color}"', body)
+    body = body.replace("<svg ", '<svg style="width:100%;height:auto" ', 1)
     open(html, "w").write(
         '<body style="margin:0;background:#000;display:flex;align-items:center;'
         'justify-content:center;width:1024px;height:1024px">'
-        f'<img src="{svg}" style="width:70%"></body>')
+        f'<div style="width:70%">{body}</div></body>')
     try:
         subprocess.run([chrome, "--headless", "--disable-gpu", "--hide-scrollbars",
                         "--window-size=1024,1024", f"--screenshot={out}",
@@ -273,18 +330,31 @@ def art_direct(post, story_title=""):
         "or a suit-at-a-table is a FAILURE unless the story's event "
         "literally happened there (a courtroom for a lawsuit). Ask: has the "
         "viewer seen this exact scene before? If yes, dig deeper.")
-    logo_list = sorted(os.path.splitext(f)[0] for f in
-                       os.listdir(os.path.join(HERE, "logos"))
-                       if f.endswith(".svg"))
+    # brand book (owner Aug 4): every fetchable brand, WITH its official
+    # color, so briefs use the right mark AND the right color per company
+    book = brands()
+    local = {os.path.splitext(f)[0].lstrip("_") for f in
+             os.listdir(os.path.join(HERE, "logos")) if f.endswith(".svg")}
+    have = sorted(local | {s for s, i in book.items()
+                           if i.get("si", s) is not None})
+    logo_list = [f"{s} ({book[s]['color']})" if s in book else s
+                 for s in have]
     logo_note = ((
         "\nLOGO REFERENCES (owner Aug 1: the model's from-memory logos come "
         "out wrong — a pink not-quite-OpenAI flower reads instantly fake): we "
-        "hold the REAL vector logos of: " + ", ".join(logo_list) + '. Whenever '
+        "hold the REAL vector logos, listed here with each brand's OFFICIAL "
+        "color: " + ", ".join(logo_list) + '. Whenever '
         'a brief places one of these brands\' marks in the scene, return '
-        '"logo": "<exact name from that list>" on that brief — the real mark '
-        'rides to the generator as a reference — and write into the brief: '
-        '"the company logo exactly as in the reference image". Never let the '
-        'model draw a listed brand\'s logo from memory.')
+        '"logo": "<exact name from that list, without the color>" on that '
+        'brief — the real mark rides to the generator as a reference — and '
+        'write into the brief: "the company logo exactly as in the reference '
+        'image". Never let the model draw a listed brand\'s logo from memory. '
+        "BRAND COLOR TRUTH (owner Aug 4): when a scene lives in a company's "
+        "world, the color key and the brand's props use that company's REAL "
+        "color from the list — a Telegram story is keyed to Telegram sky "
+        "blue #26A5E4, an Nvidia story to Nvidia green #76B900; never an "
+        "invented palette. Black-mark brands (Apple, X, GitHub, SpaceX, "
+        "OpenAI) appear as glowing WHITE marks in our dark scenes.")
         if logo_list else "")
     prompt = f"""{doctrine()}You are the cover-image director of a viral news Instagram page. You write the final image-generation prompts for the Seedream photo model. The doctrine below is distilled from published research on scroll-stopping feed imagery (thumbnail CTR studies: emotional faces +42%, image-headline synergy up to +154%; MrBeast-school single-focal analysis; 2026 anti-AI-slop guides) — follow it exactly. The image fills the top two-thirds of the frame above the headline and gets ~0.4 seconds at phone size.
 
