@@ -96,5 +96,47 @@
   "subject": "A LAWYER GOT FINED $5,000 AFTER TRUSTING CHATGPT, <em>6 PROMPTS THAT WOULD HAVE CAUGHT THE LIE</em>",
   "verdict": "REJECT",
   "reason": "COVER IMAGE fails §3 — all three candidates show generic broken tech (cracked monitors, magnifying glass over a chip). The story has a HUMAN SUBJECT: a lawyer who got fined. §3 mandates 'default to a human face when the story has one' and 'the thumb test: seen once at feed size, a stranger guesses the story.' A stranger seeing any of these covers guesses 'tech is broken,' not 'lawyer got fined for"
+ },
+ {
+  "t": "2026-08-04T14:27:08Z",
+  "gate": "A",
+  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
+  "verdict": "KILL",
+  "reason": "Bezos regularly sells billions in Amazon shares under a pre-announced 10b5-1 trading plan — this is routine stock liquidation, not a jaw-dropping event, and the source is one thin tweet with no consequence behind it."
+ },
+ {
+  "t": "2026-08-04T14:28:38Z",
+  "gate": "A",
+  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
+  "verdict": "KILL",
+  "reason": "This is a routine financial market update — stock down, company sold crypto — with no human story, no twist, and no consequence a 16-year-old would send to a friend."
+ },
+ {
+  "t": "2026-08-04T14:29:30Z",
+  "gate": "A",
+  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
+  "verdict": "KILL",
+  "reason": "A generic mortgage-rate survey stat with no specific person, no consequence, and no AI/tech angle — routine market data that fails the 'jaw-dropping event' test and the scout's own 3/10 confirms there's nothing here."
+ },
+ {
+  "t": "2026-08-04T14:30:12Z",
+  "gate": "A",
+  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
+  "verdict": "KILL",
+  "reason": "No substance — the entire source is one thin tweet with a video clip, zero names, zero numbers, zero consequence, and the writer would have to pad every slide to fill a carousel."
+ },
+ {
+  "t": "2026-08-04T14:30:29Z",
+  "gate": "A",
+  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 with a single thin tweet and no names, numbers, or real-world consequence — fails both the no-substance and low-interest gates."
+ },
+ {
+  "t": "2026-08-04T15:07:38Z",
+  "gate": "B",
+  "subject": "6 THINGS AI DOES THAT <em>SHOULD BE ILLEGAL</em>",
+  "verdict": "APPROVE",
+  "reason": ""
  }
 ]

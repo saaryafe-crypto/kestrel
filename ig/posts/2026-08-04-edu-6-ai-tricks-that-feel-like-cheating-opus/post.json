@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 THINGS AI DOES THAT <em>SHOULD BE ILLEGAL</em>",
+   "kicker": "EVERY SINGLE ONE IS FREE",
+   "hsize": 72,
+   "media": "posts/2026-08-04-edu-6-ai-tricks-that-feel-like-cheating-opus/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>AUDIT ANY CONTRACT IN 60 SECONDS</em>",
+   "body": "Lawyers charge <b>$350 an hour</b> to do this. \"Here is a contract I'm about to sign. List every clause that could cost me money or limit my rights, in plain English\"",
+   "hsize": 94,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>CLONE YOUR EXACT WRITING VOICE</em>",
+   "body": "A ghostwriter charges <b>$100 an hour</b> to learn your voice. \"Here are 5 emails I wrote. Study my tone and word choices. Now write this reply in my voice: [paste]\"",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>STEAL YOUR COMPETITOR'S PLAYBOOK</em>",
+   "body": "Consultants charge <b>$10,000</b> to map your competitor's strategy. \"Here is my competitor's website [paste it]. Find their pricing, target customer, and weak spots. Tell me exactly how to beat them\"",
+   "hsize": 108,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>PREDICT WHAT YOUR CUSTOMER BUYS NEXT</em>",
+   "body": "Data analysts charge <b>$80 an hour</b> for this. \"Here are my last 50 customer orders. Find the buying pattern. Tell me which customers will reorder next and the best week to reach out\"",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>SOUND LIKE A 10-PERSON TEAM</em>",
+   "body": "Agencies charge <b>$5,000</b> for proposals like this. \"Write a proposal for [client]. Include market analysis, three options with timelines, and projected profits. Make it so detailed nobody guesses one person wrote it\"",
+   "hsize": 106,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>NEGOTIATE ANY PRICE DOWN</em>",
+   "body": "Negotiation coaches charge <b>$300 an hour</b>. \"I want to buy [item] for less than [price]. Write 3 scripts: one that starts low, one that uses silence, one where I walk away\"",
+   "hsize": 112,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR WHEN YOU NEED IT",
+   "body": "You'll want these prompts the next time you sign a contract, write a proposal, or negotiate a deal. <b>Save this post</b>. <b>Daily AI news and real skills</b> right here",
+   "hsize": 98,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see 6 AI tricks that feel like having a cheat code for your career and business \ud83c\udccf\n\nAudit any contract for hidden traps in 60 seconds, clone your exact writing voice so nobody can tell, steal a competitor's full strategy from their website, predict what your customers will buy before they know themselves, make your business sound like a 10-person team with one prompt, negotiate any price down with three ready-made scripts.\n\nA year ago every one of these took a $200/hour consultant. Now they take 30 seconds and a prompt. The gap between people who know these and people who don't gets wider every week.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, OpenAI\n\n#AI #Productivity #Business #Entrepreneur #ChatGPT",
+ "pinned_comment": "Which one are you trying first? The contract audit on slide 2 is the sleeper, it catches things you'd never notice.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 FREE AI TRICKS <em>YOUR COMPETITORS ALREADY USE</em>",
+   "<em>6 AI CHEAT CODES</em> FOR YOUR BUSINESS",
+   "6 AI TRICKS THAT <em>FEEL LIKE CHEATING</em>",
+   "6 AI PROMPTS THAT GIVE <em>AN UNFAIR ADVANTAGE</em>",
+   "6 THINGS AI DOES THAT <em>SHOULD BE ILLEGAL</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   5,
+   7,
+   8
+  ],
+  "winner": 4,
+  "why": "SHOULD BE ILLEGAL makes you stop cold \u2014 it's provocative enough that you genuinely want to know what they mean, and the stakes feel higher than a tips list. Runner-up [3] is clearer and more specific but 'unfair advantage' is a phrase I've scrolled past a hundred times; 'should be illegal' I haven't, and that novelty is the whole game at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 THINGS AI DOES THAT <em>SHOULD BE ILLEGAL</em>",
+   "6 EXPENSIVE SERVICES AI <em>REPLACES IN SECONDS</em>",
+   "6 AI ABILITIES SO UNFAIR <em>THEY FEEL LIKE CHEATING</em>",
+   "6 AI TRICKS THAT <em>REPLACE YOUR MOST EXPENSIVE HIRES</em>"
+  ],
+  "scores": [
+   8,
+   5,
+   7,
+   7
+  ],
+  "winner": 0,
+  "why": "\"Should be illegal\" triggers genuine alarm \u2014 my brain immediately starts guessing what AI is doing that's THAT bad, and I need to know. The runners-up ([2] and [3]) are interesting but vague on stakes; \"cheating\" and \"expensive hires\" don't hit with the same gut-punch urgency as something being flat-out illegal."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}
