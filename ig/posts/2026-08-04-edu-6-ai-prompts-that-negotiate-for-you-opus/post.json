@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THESE 6 <em>AI PROMPTS</em> NEGOTIATE YOUR BILLS, RENT, AND SALARY <em>IN SECONDS</em> AND SAVE YOU UP TO <em>$7,500 A YEAR</em>",
+   "kicker": "MOST PEOPLE OVERPAY FOR EVERYTHING",
+   "hsize": 72,
+   "face": [
+    "Mark Cuban"
+   ],
+   "media": "posts/2026-08-04-edu-6-ai-prompts-that-negotiate-for-you-opus/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIGHT ANY BILL</em> IN 30 SECONDS",
+   "hsize": 110,
+   "body": "A billing advocate costs <b>$150/hour</b>. Claude does this in <b>30 seconds</b>\n\n\"Here is my bill. Find every inflated charge and write me a firm dispute letter\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>CUT ANY SUBSCRIPTION</em> PRICE BY 40%",
+   "hsize": 100,
+   "body": "Companies would rather give you <b>40% off</b> than lose you. They just need to hear you're leaving\n\n\"Write an email to [service] saying I found a cheaper option and asking for a loyalty discount\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>NEGOTIATE YOUR WAY OUT</em> OF ANY CONTRACT",
+   "hsize": 90,
+   "body": "Most contracts hide <b>cancellation rights</b> in the fine print. AI reads every line you skipped\n\n\"Here is my contract. Find every way I can cancel without a fee and write me a cancellation notice\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>TALK YOUR LANDLORD DOWN</em> AT RENEWAL",
+   "hsize": 100,
+   "body": "The average renter overpays <b>$1,200/year</b> because they never push back on increases\n\n\"My rent is $X in [city]. Find 5 comparable listings nearby and write a polite renewal negotiation letter\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>NEVER OVERPAY</em> FOR A CAR AGAIN",
+   "hsize": 110,
+   "body": "The average buyer overpays by <b>$2,000</b>. Dealerships train for this. Now you can too\n\n\"I want a [car]. Tell me the fair price, what tricks the dealer will use, and write me a script\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>COUNTER ANY JOB OFFER</em> LIKE A PRO",
+   "hsize": 100,
+   "body": "The average person leaves <b>$7,500/year</b> on the table by not negotiating their first offer\n\n\"Here is my job offer for [role]. Research market rates and write a confident counter-offer email\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR YOUR NEXT NEGOTIATION",
+   "hsize": 90,
+   "body": "Bookmark these for your next bill, lease, or job offer. Daily AI prompts and real skills you can use tonight",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see 6 AI prompts that handle your toughest money negotiations for you \ud83d\udcb0\n\nMedical bill disputes, subscription cancellation discounts, contract exit clauses, rent renewal negotiations, car purchase scripts with real dealer pricing, salary counter-offers backed by market data.\n\nNegotiation used to take years of practice. Now you paste the bill or the offer and AI handles it in seconds. The people using these prompts are saving thousands. Everyone else is overpaying.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, OpenAI, Glassdoor, Consumer Reports\n\n#AITools #NegotiationTips #SaveMoney #AIPrompts #SmartMoney",
+ "pinned_comment": "Which one are you trying first? The medical bill prompt works tonight, but the car one could save you $2,000 this weekend.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "PEOPLE ARE <em>LETTING AI NEGOTIATE</em> EVERYTHING FOR THEM",
+   "6 <em>AI PROMPTS THAT FIGHT</em> YOUR BILLS FOR YOU",
+   "6 <em>AI PROMPTS THAT NEGOTIATE</em> FOR YOU",
+   "6 PROMPTS THAT <em>MAKE YOU IMPOSSIBLE</em> TO OVERCHARGE"
+  ],
+  "scores": [
+   3,
+   7,
+   6,
+   6
+  ],
+  "winner": 1,
+  "why": "FIGHT YOUR BILLS hits like a punch \u2014 'fight' is visceral and adversarial in a way 'negotiate' isn't, and bills are universally hated so it's instantly personal. The runner-up ('negotiate for you') is the same skeleton but the verb is too polished and corporate to make you feel anything at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 <em>AI PROMPTS</em> THAT NEGOTIATE <em>BETTER THAN YOUR LAWYER</em>",
+   "6 <em>AI NEGOTIATION TRICKS</em> THAT FEEL LIKE <em>CHEATING</em>",
+   "6 <em>AI PROMPTS THAT FIGHT</em> YOUR BILLS FOR YOU",
+   "6 <em>AI PROMPTS</em> THAT <em>OUT-NEGOTIATE ANYONE</em> FOR YOU"
+  ],
+  "scores": [
+   7,
+   8,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "\"Feel like cheating\" is a visceral emotional trigger \u2014 it implies unfair advantage and makes you need to know what the trick is, regardless of context. The runner-up [2] is more concrete but 'fight your bills' narrows the audience; 'cheating' hooks anyone who's ever negotiated anything."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "\u00a72 HOOK \u2014 two actions joined by AND: 'NEGOTIATE\u2026 AND SAVE YOU UP TO $7,500.' Doctrine says one actor, one action; AND joining two actions = cut the weaker one. Fix: restructure to a single verb \u2014 e.g., 'THESE 6 AI PROMPTS SAVE YOU UP TO $7,500 A YEAR ON BILLS, RENT, AND SALARY' (one action: save; negotiation becomes the subordinate mechanism).; \u00a74 STORYTELLING \u2014 slide 6 body repeats the cover's nu"
+}
