@@ -124,7 +124,10 @@ jobs:
           git config user.name "ig-bot"
           git config user.email "bot@users.noreply.github.com"
           git config merge.ledger.driver "python ig/merge_ledgers.py %O %A %B"
-          git add ig/posts-he
+          # ONLY this run's post dir (Aug 4 EN post-mortem, run 30904399838:
+          # adding the whole tree sweeps half-built dirs from failed attempts
+          # into sibling commits -> add/add rebase conflicts kill save steps)
+          git add "ig/posts-he/$POST_NAME"
           git commit -m "IG post HE: $POST_NAME" || { echo "nothing to commit"; exit 0; }
           git pull --rebase --autostash
           git push || { git pull --rebase --autostash && git push; }  # retry once if a sibling pushed in between

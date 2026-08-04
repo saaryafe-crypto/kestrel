@@ -170,7 +170,11 @@ jobs:
           # semantic merge for the shared ledgers (.gitattributes merge=ledger):
           # parallel runs touching the same JSON always text-conflict otherwise
           git config merge.ledger.driver "python ig/merge_ledgers.py %O %A %B"
-          git add ig/posts
+          # ONLY this run's post dir (Aug 4, run 30904399838 post-mortem):
+          # "git add ig/posts" swept a HALF-BUILT dir from a failed write.py
+          # attempt into a sibling's commit, and the real publisher of that
+          # story then died on add/add rebase conflicts at its save step
+          git add "$POST_DIR"
           git add ig/edu-used.json 2>/dev/null || true
           git add ig/genimg-used.json 2>/dev/null || true  # image-gen budget ledger must persist across runs
           git add ig/faces-used.json 2>/dev/null || true   # face-photo rotation ledger (never repeat the same press photo back-to-back)
