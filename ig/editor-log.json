@@ -271,5 +271,61 @@
   "subject": "ONE FOUNDER USED 6 AI PROMPTS AND <em>KNEW MORE ABOUT A RIVAL THAN THE RIVAL'S OWN TEAM DID</em>",
   "verdict": "REJECT",
   "reason": "COVER CONTRACT BROKEN (§4): Hook promises a specific story — 'ONE FOUNDER' who did something and achieved a specific outcome ('knew more about a rival than the rival's own team did'). The slides never name this founder, never describe the event, never deliver any story. Every slide is a generic prompt template. The cover writes a check the carousel never cashes.; TRUTH VIOLATION (§5): 'One founder"
+ },
+ {
+  "t": "2026-08-04T18:27:30Z",
+  "gate": "A",
+  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
+  "verdict": "KILL",
+  "reason": "Bezos regularly sells billions in Amazon stock under pre-scheduled 10b5-1 trading plans — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event with real consequences."
+ },
+ {
+  "t": "2026-08-04T18:28:16Z",
+  "gate": "A",
+  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
+  "verdict": "KILL",
+  "reason": "This is a routine market/stock update — company sold bitcoin, stock is down — with no human story, no twist, and no consequence beyond ticker movement, which is explicitly banned as on-topic-but-routine."
+ },
+ {
+  "t": "2026-08-04T18:28:52Z",
+  "gate": "A",
+  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
+  "verdict": "KILL",
+  "reason": "A generic mortgage-rate survey stat with no specific person, no dramatic outcome, and a scout score of 3 is routine financial news that fails the 'stop mid-scroll' standard."
+ },
+ {
+  "t": "2026-08-04T18:29:39Z",
+  "gate": "A",
+  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 with a single thin tweet and no names, numbers, or real-world consequence — pure wow-clip with no substance to build slides from."
+ },
+ {
+  "t": "2026-08-04T18:30:19Z",
+  "gate": "A",
+  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
+  "verdict": "KILL",
+  "reason": "No-substance single tweet with no names, no numbers, no verifiable consequence — just a clip caption with simulation meme framing that would force the writer to pad every slide."
+ },
+ {
+  "t": "2026-08-04T18:30:29Z",
+  "gate": "A",
+  "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 with no real event, no named person, no money, no consequence — just an old product description that would require padding to fill slides."
+ },
+ {
+  "t": "2026-08-04T19:21:21Z",
+  "gate": "B",
+  "subject": "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU SAY <em>THESE 6 THINGS</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK §2 — 'THESE 6 THINGS' is a curiosity-gap withhold, not a summarizing cover. The doctrine requires 'the WHOLE story — actor + what happened + the wild specifics. Nothing withheld.' A fix: name the core insight in the hook itself — e.g., 'MOST PEOPLE USE AI WITHOUT TELLING IT WHO THEY ARE, CHECKING ITS WORK, OR SHARING REAL DATA' summarizes the substance; 'THESE 6 THINGS' hides it behind a numb"
+ },
+ {
+  "t": "2026-08-04T19:23:56Z",
+  "gate": "B",
+  "subject": "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU <em>SHARE YOUR CONTEXT, CHECK ITS WORK, AND FEED IT REAL DATA</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK: three actions stapled with commas/AND ('share your context, check its work, and feed it real data') — §2 demands ONE actor, ONE action; 'AND joining two actions = cut the weaker one.' Three is worse. Pick the single most surprising action.; HOOK: reads as a label/aphorism headline ('AI gives generic answers until you do X'), not a summarizing sentence with actor + what happened + wild specif"
  }
 ]

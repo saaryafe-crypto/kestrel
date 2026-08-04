@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU <em>SHARE YOUR CONTEXT, CHECK ITS WORK, AND FEED IT REAL DATA</em>",
+   "kicker": "AND THE EXACT WORDS THAT FIX THEM",
+   "hsize": 72,
+   "face": [
+    "Elon Musk"
+   ],
+   "media": "posts/2026-08-04-edu-6-mistakes-everyone-makes-with-ai-meta-p/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) STOP ASKING <em>WITHOUT TELLING IT WHO YOU ARE</em>",
+   "hsize": 82,
+   "body": "AI gives the same answer to a CEO and a student. <b>'I run a 12-person marketing agency. Before you answer, ask me 5 questions about my situation'</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) STOP ACCEPTING <em>THE FIRST ANSWER</em>",
+   "hsize": 110,
+   "body": "AI gives you one path and you take it. The better answers were right behind it. <b>'Give me 3 completely different approaches to this, then compare the trade-offs'</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) STOP TRUSTING <em>EVERYTHING IT SAYS</em>",
+   "hsize": 110,
+   "body": "AI sounds confident even when it's wrong. Make it check its own work. <b>'Critique your own answer. What did you get wrong or oversimplify? Fix it'</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) STOP ASKING <em>AI TO THINK SMALL</em>",
+   "hsize": 105,
+   "body": "Most people ask for a paragraph. Ask for the whole thing. <b>'Build me a complete 90-day marketing plan for my bakery's delivery launch with exact dates, channels, and budget'</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) STOP HIDING <em>YOUR REAL NUMBERS</em>",
+   "hsize": 110,
+   "body": "Asking 'how do I cut costs' without your actual expenses is just guessing. <b>'Here are my business expenses for 3 months [paste them]. Find the three growing fastest and tell me what to cut'</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) STOP ONLY ASKING <em>WHAT YOU ALREADY KNOW</em>",
+   "hsize": 92,
+   "body": "The best use of AI is finding your blind spots. <b>'Based on everything I told you, what am I not thinking about? What question should I be asking?'</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS FOR <em>YOUR NEXT AI CHAT</em>",
+   "hsize": 100,
+   "body": "Copy any of these into your next conversation and notice the difference. Daily AI skills and news you'll actually use",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see the 6 mistakes killing your AI results, and the copy-paste phrases that fix each one \ud83d\udd11\n\nNot telling AI who you are so every answer is generic, accepting the first answer without pushing for more, trusting everything it says without making it check itself, thinking small when AI can build you entire plans, hiding your real numbers instead of feeding them in, and never asking what you're missing.\n\nThe gap between someone who prompts AI well and someone who doesn't is getting wider every month. These 6 fixes are the difference between an answer you ignore and one you act on tonight.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, OpenAI\n\n#AITips #ChatGPT #ClaudeAI #Productivity #ArtificialIntelligence",
+ "pinned_comment": "Number 5 is the sleeper. Most people never think to give AI their real numbers. Which mistake are you fixing first?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 THINGS TO TYPE THAT MAKE <em>AI ACTUALLY USEFUL</em>",
+   "6 SENTENCES THAT <em>FORCE AI TO THINK HARDER</em>",
+   "6 MISTAKES <em>EVERYONE MAKES WITH AI</em>",
+   "6 WORDS THAT <em>UNLOCK EVERYTHING AI CAN DO</em>",
+   "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU SAY <em>THESE 6 THINGS</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   4,
+   5,
+   8
+  ],
+  "winner": 4,
+  "why": "It names the exact frustration every AI user has already felt \u2014 generic outputs \u2014 and frames the fix as something you unlock with a simple phrase, which makes it a 'wait, I need that' moment. [1] is intriguing but 'think harder' is abstract; [4] hits a specific pain point before offering the cure."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 THINGS</em> YOU SAY TO AI THAT <em>KILL THE ANSWER</em>",
+   "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU SAY <em>THESE 6 THINGS</em>",
+   "<em>6 MISTAKES</em> QUIETLY RUINING <em>EVERY AI ANSWER</em> YOU GET",
+   "<em>6 AI MISTAKES</em> MOST PEOPLE MAKE <em>EVERY SINGLE CHAT</em>"
+  ],
+  "scores": [
+   7,
+   9,
+   7,
+   5
+  ],
+  "winner": 1,
+  "why": "\"Generic answers\" is a pain every AI user has felt by 2am \u2014 zero setup needed to land. \"Until you say THESE 6 THINGS\" gives me the problem AND the fix in one breath, so I'm swiping for the list, not to figure out what the post is even about."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "HOOK: three actions stapled with commas/AND ('share your context, check its work, and feed it real data') \u2014 \u00a72 demands ONE actor, ONE action; 'AND joining two actions = cut the weaker one.' Three is worse. Pick the single most surprising action.; HOOK: reads as a label/aphorism headline ('AI gives generic answers until you do X'), not a summarizing sentence with actor + what happened + wild specif"
+}
