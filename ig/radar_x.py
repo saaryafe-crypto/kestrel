@@ -68,14 +68,24 @@ N_THREAD_MINE = 3          # top guide moments get the author's OWN thread
 
 # What counts as a guide: a teaching promise, not a news event. Numbered-list
 # promises ("10 insane ways...", "5 free tools..."), how-to framing, cheat
-# sheets, free courses. False positives are cheap — edu.py's writer is told
-# to ignore anything that isn't genuinely teachable.
+# sheets, free courses — AND it must be about AI/tech tools (first live poll
+# Aug 4: bare "how to" flagged a Paris pickpocket video from MarioNawfal).
+# Remaining false positives are cheap — edu.py's writer is told to ignore
+# anything that isn't genuinely teachable.
 GUIDE_RE = re.compile(
     r"(?i)\b\d+\s+(?:\w+[- ]){0,2}(ways|things|tools|apps|sites|websites"
     r"|prompts|tips|tricks|use ?cases|examples|features|skills|hacks|secrets"
     r"|lessons|courses)\b"
     r"|\bhow to\b|\bhere'?s how\b|\bstep[- ]by[- ]step\b|\bcheat ?sheet\b"
     r"|\bmasterclass\b|\btutorial\b|\bfree (?:\w+ )?(course|certification)")
+AI_CONTEXT_RE = re.compile(
+    r"(?i)\bAI\b|chat\s?gpt|claude|gemini|copilot|openai|anthropic|\bgpt\b"
+    r"|gpt-?\d|\bllms?\b|midjourney|\bprompts?\b|\bagents?\b|automat"
+    r"|\bcoding\b|\bapp\b|n8n|deepseek|grok|perplexity|notebooklm")
+
+
+def _is_guide(text):
+    return bool(GUIDE_RE.search(text) and AI_CONTEXT_RE.search(text))
 
 # The wide net (topic searches over ALL of X) is GONE — owner order Aug 3.
 # Every query is a watchlist "(from:a OR from:b)" batch; nothing else runs.
@@ -192,7 +202,7 @@ def _moment(t, now):
             "views": int(t.get("viewCount") or 0),
             "age_h": round(age_h, 1), "vph": round(likes / age_h, 1),
             "image": img, "video": vid,
-            "guide": bool(GUIDE_RE.search(bare or text))}
+            "guide": _is_guide(bare or text)}
 
 
 def _cached():
