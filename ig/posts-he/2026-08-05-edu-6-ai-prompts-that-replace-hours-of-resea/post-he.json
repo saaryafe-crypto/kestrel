@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שש שאלות ל-AI: <em>חצי דקה במקום שעות עבודה</em>",
+   "kicker": "מחקר, השוואות, לימודים, החלטות",
+   "hsize": 72,
+   "face": [
+    "Bill Gates"
+   ],
+   "media": "posts/2026-08-05-edu-6-ai-prompts-that-replace-hours-of-resea/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "דוח בן 94 עמודים? <em>דקה אחת</em>",
+   "body": "תעלו דוח שלם ל-AI ותבקשו: <b>חמש נקודות חשובות</b>, כל דבר עם סיכון כספי, ופרט אחד שמוסתר בין השורות. במקום <b>חצי יום עבודה</b>, דקה אחת.",
+   "hsize": 88,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הכנה לפגישה: <em>חצי דקה</em> במקום שעתיים",
+   "body": "לפני פגישה, תבקשו מ-AI לאסוף הכל על בן אדם: קריירה, ראיונות אחרונים, תחומי עניין, ו<b>שלושה דברים שכדאי להזכיר</b> כדי להרשים אותו. במקום <b>שעתיים</b> של חיפושים, חצי דקה.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>שמונה שעות</em> של השוואת מוצרים? חצי דקה",
+   "body": "לפני שקונים משהו גדול, תבקשו מ-AI להשוות <b>חמש אפשרויות מובילות</b>: מחיר, מה שחשוב לכם, <b>עלויות נסתרות</b>, והמלצה מה לקנות.",
+   "hsize": 100,
+   "media": "posts/2026-08-05-edu-6-ai-prompts-that-replace-hours-of-resea/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "ללמוד כל דבר: <em>שבעה ימים</em>, שעה ביום",
+   "body": "תבקשו מ-AI לבנות תוכנית לימוד לשבעה ימים, שעה ביום. <b>ביום הראשון</b> כבר תדעו מספיק לנהל שיחה בסיסית על הנושא. קורס אונליין רגיל עולה <b>$500</b> ולוקח <b>40 שעות</b>. פה זה בחינם.",
+   "hsize": 100,
+   "media": "posts/2026-08-05-edu-6-ai-prompts-that-replace-hours-of-resea/gen-4.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "מחקר שוק: <em>חצי דקה</em> במקום שלושה שבועות",
+   "body": "לפני שנכנסים לשוק חדש, תבקשו מ-AI: מי <b>המתחרים</b>, כמה הם גובים, מה <b>החולשות שלהם</b>, ומה הדרך הכי מהירה להגיע ל<b>אלף דולר ראשונים</b>.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>בודק החלטות</em>: שלוש סיבות בעד, שלוש נגד",
+   "body": "לפני החלטה גדולה, תבקשו מ-AI: <b>שלוש סיבות שזה רעיון רע</b>, <b>שלוש סיבות שזה רעיון טוב</b>, ונקודות עיוורות שאתם מפספסים. במקום ימים של התלבטות, חצי דקה.",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו</em> את הפוסט הזה",
+   "body": "בפעם הבאה שתצטרכו לחקור, להשוות או להחליט, <b>תחזרו לפה</b>. יש לכם עסק? שלחו לנו DM עם המילה AI.",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "שש שאלות פשוטות ל-AI שחוסכות שעות של עבודה. כל אחת לוקחת חצי דקה.\n\nדוח בן 94 עמודים, הכנה לפגישה, השוואת מוצרים, תוכנית לימודים, מחקר שוק, בדיקת החלטות. כל אחד מהדברים האלה לוקח שעות או ימים. עם השאלה הנכונה ל-AI, חצי דקה.\n\nעקבו אחרי @ainews.israel לעוד טיפים כאלה\n\n#AI #AIPrompts #Productivity #BusinessTips #ArtificialIntelligence",
+ "pinned_comment": "נסיתם אחת מהשאלות? ספרו איך היה",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>REPLACE YOUR RESEARCH ASSISTANT</em>",
+   "6 AI PROMPTS THAT <em>MAKE GOOGLE LOOK SLOW</em>",
+   "6 AI PROMPTS THAT <em>REPLACE HOURS OF RESEARCH</em>",
+   "6 AI PROMPTS THAT <em>KNOW MORE THAN YOUR ANALYST</em>",
+   "6 PROMPTS THAT <em>DO YOUR HOMEWORK IN 30 SECONDS</em>"
+  ],
+  "scores": [
+   5,
+   8,
+   5,
+   4,
+   7
+  ],
+  "winner": 1,
+  "why": "Everyone uses Google — calling it 'slow' is a provocation that lands in under a second and makes you feel like you're missing something real. [4] is punchy but 'homework' skews young and the benefit is generic; 'make Google look slow' is a specific, ego-poking claim that works on anyone."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>MAKE GOOGLE LOOK SLOW</em>",
+   "6 AI PROMPTS <em>SMARTER THAN ANY GOOGLE SEARCH</em>",
+   "6 AI PROMPTS THAT <em>MAKE GOOGLE OBSOLETE</em>",
+   "6 AI PROMPTS <em>YOUR GOOGLE CAN'T DO</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   7,
+   5
+  ],
+  "winner": 2,
+  "why": "OBSOLETE is the most dramatic word in the set — it implies a total replacement, not just a comparison, which makes the brain go 'wait, really?' SMARTER THAN ANY GOOGLE SEARCH is just as clean but 'smarter' feels like a softer, more expected claim you've heard a hundred times before."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "editor_override": "§3 COVER IMAGE: Generated Sundar Pichai in front of Google logo has zero connection to '6 AI prompts for research and prep.' Thumb test total failure — a stranger at feed size guesses a Google/Pichai story, not a utility-prompt post. The image is decoration, not proof or a staged scene. Fix: the cover needs a subject that signals 'AI prompts that save you hours' — a person at a laptop with a visib"
+}
