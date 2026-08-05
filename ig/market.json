@@ -1,279 +1,196 @@
 {
- "updated": "2026-08-04T05:08:43+00:00",
- "competitor_hits": [
-  {
-   "page": "wired",
-   "likes": 5237,
-   "ratio": 3.97,
-   "tier": "mega",
-   "hook": "\"Parents are battling the proliferation of AI-generated children\u2019s literature\u2013as friends and family are increasingly gifting children specially curated storybooks from platforms such as Imagitime, StoryWonderBook, and Ch",
-   "date": "2026-08-02"
-  },
-  {
-   "page": "mashable",
-   "likes": 288,
-   "ratio": 1.3,
-   "tier": "mega",
-   "hook": "\"Influencers have been barred from cafes, prevented from filming inside workout classes, and blamed for overwhelming picturesque towns. Now, a Nantucket craft store has condensed that years-long backlash into two words: ",
-   "date": "2026-08-03"
-  },
-  {
-   "page": "technology",
-   "likes": 47000,
-   "ratio": 1.13,
-   "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to explore the biggest global developments from the last 24 hours across politics, science, entertainment, business, space, sport and major world events \ud83c\udf0d\ud83d\udcf0\n\nThe latest updates include The Odyssey crossing $911 ",
-   "date": "2026-08-02"
-  },
-  {
-   "page": "wired",
-   "likes": 1395,
-   "ratio": 1.06,
-   "tier": "mega",
-   "hook": "\"New research from Georgetown Law's Center on Privacy and Technology estimates that the Department of Homeland Security has become the largest single source of new genetic profiles in the nation's criminal DNA system, wi",
-   "date": "2026-08-03"
-  },
-  {
-   "page": "wired",
-   "likes": 1301,
-   "ratio": 0.99,
-   "tier": "mega",
-   "hook": "\"After his daughter died in a car crash, in which a guardrail pierced through her car rather than guiding it back to the road, Steve Eimers started posting about installation issues with guardrails lining roadways across",
-   "date": "2026-08-03"
-  },
-  {
-   "page": "futurism",
-   "likes": 1293,
-   "ratio": 0.81,
-   "tier": "mega",
-   "hook": "\"For a time, it appeared as if AI would find broad acceptance among the American masses.\n\nThe peanut gallery on social media happily embraced early image generation models as researchers appeared to make significant brea",
-   "date": "2026-08-03"
-  },
-  {
-   "page": "technology",
-   "likes": 13000,
-   "ratio": 0.31,
-   "tier": "mega",
-   "hook": "\"JCB has transformed excavator engine technology into a 1,600 hp hydrogen land speed car built to chase 350 mph and set a new record \ud83d\ude80\u26a1\ufe0f\n\nNearly 20 years after Dieselmax reached 350.092 mph at Bonneville, JCB has returne",
-   "date": "2026-08-02"
-  },
-  {
-   "page": "technology",
-   "likes": 8744,
-   "ratio": 0.21,
-   "tier": "mega",
-   "hook": "\"Comment \u201cShoot\u201d and we\u2019ll send you the prompt \ud83d\udc47\n\nTurn an ordinary portrait into a dark, ultra-realistic editorial magazine image with dramatic studio lighting, premium styling, natural facial detail, and cinematic depth",
-   "date": "2026-08-02"
-  },
-  {
-   "page": "mashable",
-   "likes": 25,
-   "ratio": 0.11,
-   "tier": "mega",
-   "hook": "\"From chapstick and sunscreen to cameras and mics, the Wassabi Brothers share the essentials they need when creating content.\u2060\n#InMyBag #WassabiBrothers\u2060\".",
-   "date": "2026-08-02"
-  }
- ],
+ "updated": "2026-08-05T05:33:20+00:00",
+ "competitor_hits": [],
  "reddit_hot": [
   {
-   "sub": "ChatGPT",
-   "score": 67439,
-   "title": "Book I bought didn't edit out the AI prompt"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 65784,
-   "title": "A brave 28-pound muntjac deer challenges a 1.7-ton rhino at the Wroc\u0142aw Zoo"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 57203,
-   "title": "me_irl"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 55525,
-   "title": "meirl"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 47812,
-   "title": "me_irl"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 45695,
-   "title": "&quot;I wonder why A-list star Zendaya is paid more than a perpetual side character actor?&quot; -Some folks unironically"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 42183,
-   "title": "I'm glad the passangers notified her"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 36769,
-   "title": "meirl"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 36154,
-   "title": "Evidence Over Vibes"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 35462,
-   "title": "Grieving mother dolphin carries her dead calf for days."
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 34393,
-   "title": "Petah?"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 33748,
-   "title": "People judge the future too early"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 31958,
-   "title": "This is Cheddar. He is very polite"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 31375,
-   "title": "In 1998, Honduras built a bridge designed to survive any storm. It survived a Category 5 hurricane perfectly but the river shifted, leaving it spanning over dry land."
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 31248,
-   "title": "Creator and animator of 'Gravity Falls' Alex Hirsch offers OpenAI CEO Sam Altman some friendly advice"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 30947,
-   "title": "Polish swimmer Bart\u0142omiej Kubkowski has become the first person in history to swim across the Baltic Sea between Sweden and Poland, covering a distance of just over 160 kilometres (99 miles). While raising nearly 200,000$ for children's cancer treatment"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 30506,
-   "title": "Hard to update your profile if you are dead"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 30133,
-   "title": "paintings in a hospital waiting room\u2026"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 29413,
-   "title": "Setting off a tazer next to a gas pump"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 29410,
-   "title": "The Dallas Cowboys' $1.3 billion stadium blinds its own players"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 29322,
-   "title": "&quot;he literally spoke for the very first time in his life to tell her to shut up&quot;"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 28359,
-   "title": "Peter"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 28125,
-   "title": "Audrey Hepburn, photographed during a UNICEF trip in her later years. When the photographer offered to retouch her wrinkles, she replied: &quot;Don't you dare touch any one of those wrinkles. I earned every single one of them.&quot;"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 27374,
-   "title": "Based on personal experience"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 27341,
-   "title": "Saw Her Eating Dumpster Trash and Now She's Mine"
+   "sub": "technology",
+   "score": 15620,
+   "title": "Texas slams on the brakes for 1,800 data centers, power grid requirements are five times higher than peak record demand \u2014 474 gigawatts of power requests are now subject to new moratorium"
   },
   {
    "sub": "technology",
-   "score": 21172,
-   "title": "Sam Altman says a 'cool use case' for ChatGPT is a daily AI podcast about your kids. The replies were brutal"
+   "score": 11888,
+   "title": "The House of Ellison is on the Brink Everything the world\u2019s briefly richest man built is failing at once."
   },
   {
    "sub": "technology",
-   "score": 13541,
-   "title": "Ex-60 Minutes boss wants to create rival broadcast with fired staffers: report | A new current affairs program is reportedly being pitched to streaming giants and could involve talent frozen out or dismissed by controversial CBS News editor-in-chief Bari Weiss"
+   "score": 8349,
+   "title": "BMW is putting Spider-Man ads on your dashboard, after promising it never would"
   },
   {
    "sub": "technology",
-   "score": 13134,
-   "title": "The number of regular people being arrested for protesting data centers is astounding"
+   "score": 8055,
+   "title": "EA is now officially owned by Saudi Arabia's Public Investment Fund and private equity"
   },
   {
    "sub": "technology",
-   "score": 8646,
-   "title": "Student Teacher Sent a Private Snapchat Complaining About Her Workday. An Hour Later, Police Pulled Up to Her School."
+   "score": 5664,
+   "title": "Rep. Tlaib introduces a bill to ban AI data centers on federal lands"
   },
   {
    "sub": "technology",
-   "score": 6693,
-   "title": "Return-to-office mandates are killing workplace trust"
+   "score": 5517,
+   "title": "\u2018DO NOT MENTION ALPR USAGE\u2019: How Cops Are Trying to Hide Their Use of Flock"
   },
   {
    "sub": "technology",
-   "score": 4874,
-   "title": "Tennessee Congressional Candidate Arrested for Shooting Flock Safety Cameras"
+   "score": 3697,
+   "title": "DuckDuckGo Is Selling Anti Pervert Glasses That Contain Zero AI, Cameras, or Even Electronics Whatsoever"
   },
   {
    "sub": "technology",
-   "score": 3065,
-   "title": "How Rogue Officers Turned a Nationwide Camera Network Into a Tool for Stalking /// Flock\u2019s array of license-plate cameras was built to fight crime. But at least 50 law enforcement officers were charged with or accused of misusing it and other systems."
-  },
-  {
-   "sub": "technology",
-   "score": 2977,
-   "title": "ICE Collected Nearly 1 Million People\u2019s DNA Last Year\u2014Including Young Children"
-  },
-  {
-   "sub": "technology",
-   "score": 2914,
-   "title": "A real macOS flaw worth $200K went unreported because Apple's bug bounty inbox was full of AI slop"
-  },
-  {
-   "sub": "technology",
-   "score": 2673,
-   "title": "Country music stars unite against data centers spreading across rural America"
-  },
-  {
-   "sub": "technology",
-   "score": 2551,
-   "title": "Dozens of police officers accused of using license plate cameras to track women"
+   "score": 3004,
+   "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry \u2018Marxist\u2019"
   },
   {
    "sub": "Futurology",
-   "score": 1947,
-   "title": "Ukraine Carries Out Aerial Assaults Dropping Robots From Drones"
+   "score": 2702,
+   "title": "Waymo CEO explains why Tesla\u2019s camera-only self-driving falls short"
   },
   {
    "sub": "technology",
-   "score": 1541,
-   "title": "The \u2018Guardrail Guy\u2019 Went Viral for Posting About Flock Cameras. Then Someone Destroyed Them"
-  },
-  {
-   "sub": "technology",
-   "score": 1444,
-   "title": "Why a Flock Worker Quit: \u2018They Lied\u2019 / Jonathan Paz\u2019s job was to convince cities to buy Flock cameras. After initially being enthusiastic about the company, he started to get disillusioned."
+   "score": 2555,
+   "title": "Texas' age verification law fails to protect kids, Pornhub says"
   },
   {
    "sub": "singularity",
-   "score": 1266,
-   "title": "Qwen 3.8 morning to you too Dario, 2$ input/ 6$ output per 1M."
+   "score": 2460,
+   "title": "Nope"
+  },
+  {
+   "sub": "technology",
+   "score": 2426,
+   "title": "Mexico\u2019s Gamer Congresswoman Killed a Game Tax \u2013 Now She\u2019s Coming After Sony"
+  },
+  {
+   "sub": "technology",
+   "score": 2160,
+   "title": "Waymo CEO explains why Tesla\u2019s camera-only self-driving falls short"
+  },
+  {
+   "sub": "technology",
+   "score": 1945,
+   "title": "The SCREEN Act is a Christian Nationalist Nightmare"
+  },
+  {
+   "sub": "Futurology",
+   "score": 1800,
+   "title": "We are literally automating ourselves out of a software-based internet"
+  },
+  {
+   "sub": "technology",
+   "score": 1539,
+   "title": "Microsoft Tells Engineers \u2018Tokenmaxxing Is Not What We Are Optimizing For\u2019 - Microsoft is introducing budget limits for AI use but says it still wants to be an \u2018AI-first\u2019 company."
+  },
+  {
+   "sub": "technology",
+   "score": 1513,
+   "title": "Linux just cracked 10% desktop usage in North America, but no one's sure why"
+  },
+  {
+   "sub": "technology",
+   "score": 1326,
+   "title": "SpaceX stock drops another 7% as $15.8 billion AI capex tops estimates \u2014 The company has yet to turn a profit, reporting a net loss of $541 million for the period"
+  },
+  {
+   "sub": "technology",
+   "score": 1232,
+   "title": "Microsoft never learns, IT admins rage as a new OneDrive app invades Windows 11 and keeps coming back when you remove it"
+  },
+  {
+   "sub": "technology",
+   "score": 867,
+   "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year"
+  },
+  {
+   "sub": "technology",
+   "score": 862,
+   "title": "DuckDuckGo's Anti-AI Sunglasses Won't Spy On Anyone"
+  },
+  {
+   "sub": "technology",
+   "score": 816,
+   "title": "Democratic lawmakers propose three-year moratorium on new large data centers in Oregon"
+  },
+  {
+   "sub": "technology",
+   "score": 808,
+   "title": "Europe wants to kick its Palantir habit"
+  },
+  {
+   "sub": "singularity",
+   "score": 772,
+   "title": "Ilya\u2019s SSI (Safe Super Intelligence) to release their first model this month."
+  },
+  {
+   "sub": "OpenAI",
+   "score": 723,
+   "title": "More people need to understand this"
+  },
+  {
+   "sub": "technology",
+   "score": 680,
+   "title": "Ex-FBI agent admits stealing $1 million in crypto and asking ChatGPT how to get away with it"
+  },
+  {
+   "sub": "technology",
+   "score": 645,
+   "title": "Scammers Are Cloning OnlyFans Creators With AI Telling Fans a Kid Is Sick in the Hospital Then Vanishing With the Cashapp Money"
+  },
+  {
+   "sub": "Futurology",
+   "score": 614,
+   "title": "Nuclear fusion persists at ultralow energies inside metal foils"
+  },
+  {
+   "sub": "technology",
+   "score": 612,
+   "title": "Microsoft explains why it cannot blame itself for slow Windows 11 improvements"
+  },
+  {
+   "sub": "technology",
+   "score": 420,
+   "title": "Lawsuit claims Micron's $100 billion New York chip fab could discharge &quot;forever chemicals&quot; into the Oneida River"
+  },
+  {
+   "sub": "OpenAI",
+   "score": 370,
+   "title": "OpenAI: Apple is getting this wrong"
+  },
+  {
+   "sub": "technology",
+   "score": 349,
+   "title": "U.S President killed the Digital Equity Act, but U.S was forced to bring part of it back | $1.25 billion program restored, but judge ruled race provision unconstitutional."
+  },
+  {
+   "sub": "singularity",
+   "score": 343,
+   "title": "AISI caught Mythos 5 trying to insert malicious code into an open-source project during an internet-enabled cyber evaluation"
+  },
+  {
+   "sub": "singularity",
+   "score": 299,
+   "title": "AGI IN AUGUST?"
+  },
+  {
+   "sub": "singularity",
+   "score": 260,
+   "title": "Apple is getting this wrong \u2013 OpenAI"
+  },
+  {
+   "sub": "singularity",
+   "score": 237,
+   "title": "WTF!"
+  },
+  {
+   "sub": "singularity",
+   "score": 226,
+   "title": "Ilya Sutskever already said they might pivot away from &quot;straight-shotting&quot; ASI (from his Dwarkesh interview)"
+  },
+  {
+   "sub": "singularity",
+   "score": 215,
+   "title": "Analysts Estimate That More Than 70% of Amazon, Microsoft and Google\u2019s AI Revenues Come From OpenAI and Anthropic"
   }
  ]
 }
