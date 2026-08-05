@@ -1,1 +1,569 @@
-[{"t": "2026-08-03T21:30:52Z", "gate": "A", "subject": "We gotta take AI away from Instagram users", "verdict": "KILL", "reason": "Textbook reaction-bait — the entire 'event' is screenshots of Instagram AI being silly and people laughing in replies, with zero real-world consequence; the Doctrine names the Queen Elizabeth playlist meme as the exact failure model this rule was written to prevent."}, {"t": "2026-08-03T21:31:00Z", "gate": "A", "subject": "Uhhhh, what a creepy video for Mario Lopez to create using AI and then post… Especially since the subject is his niece!", "verdict": "KILL", "reason": "Classic reaction-bait: the entire 'event' is that someone posted something online and people reacted — no real-world consequence (no lawsuit, no firing, no product pulled), just likes and replies piling on."}, {"t": "2026-08-03T21:32:56Z", "gate": "B", "subject": "THE PERSON MAYO CLINIC HIRED TO KEEP THEIR AI SAFE <em>IS NOW SUING THEM FOR HIDING ITS 67% ERROR RATE ON REAL PATIENTS<", "verdict": "REJECT", "reason": "ONE FACT, THREE SLIDES: The 67% error rate is restated three times — cover ('67% error rate'), slide 2 ('failed two out of three'), slide 4 ('33% accuracy / coin flip'). §4 requires a new fact per slide. The coin-flip comparison is a reframe, not a new fact. Cut slide 4 or replace its content with a genuinely new detail (which AI tool, what diagnoses, how many patients affected, what the lawsuit f"}, {"t": "2026-08-04T00:05:16Z", "gate": "A", "subject": "JUST IN: BlackRock launches tokenized money-market fund on Ethereum.", "verdict": "KILL", "reason": "On-topic but routine corporate product launch with no human story, no felt consequence, and a scout interest score of 4 — the single-sentence source has no substance to build slides from."}, {"t": "2026-08-04T00:05:48Z", "gate": "A", "subject": "This is how to open a number lock using nothing but a piece of paper.", "verdict": "KILL", "reason": "Scout interest 3/10 with no substance behind it — a single thin tweet about a generic lock trick with no named person, no real-world consequence, and nothing to build slides from."}, {"t": "2026-08-04T00:06:16Z", "gate": "A", "subject": "Worth noting that any USAID funding that appeared to have the slightest merit whatsoever for helping people in need was ", "verdict": "KILL", "reason": "This is a political opinion tweet with no tech/AI/space story, no specific event with felt consequences, and a scout interest score of 2/10 — it fails every qualification in Story Law and is off-brand for the page."}, {"t": "2026-08-04T00:06:26Z", "gate": "A", "subject": "Slavery was ended primarily by Britain", "verdict": "KILL", "reason": "This is a bare opinion tweet with no event, no substance, no numbers, and no real-world consequence — it fails both the no-substance and off-brand instant kills."}, {"t": "2026-08-04T00:39:42Z", "gate": "B", "subject": "ONE AI TOOL REPLACES <em>6 THINGS YOU'RE PAYING FOR</em>", "verdict": "REJECT", "reason": "Hook is a label/aphorism headline banned by §2: 'ONE AI TOOL REPLACES 6 THINGS YOU'RE PAYING FOR' is a category tag, not a summarizing cover sentence with actor + what happened + wild specifics. At 9 words it also falls under the 12-word minimum.; Cover contract broken (§4) + truth gap (§5): the hook promises 'ONE AI TOOL' — a specific, singular tool — but no slide ever names it. The reader finish"}, {"t": "2026-08-04T00:55:45Z", "gate": "B", "subject": "WE TYPED 6 SENTENCES INTO CLAUDE AND <em>IT REPLACED EVERY TOOL OUR BUSINESS PAYS FOR</em>", "verdict": "APPROVE", "reason": ""}, {"t": "2026-08-04T11:03:17Z", "gate": "A", "subject": "JUST IN: Telegram removed from the Apple App Store worldwide.", "verdict": "APPROVE", "reason": "A top-10 global app with 900M+ users being pulled from the Apple App Store worldwide is a genuinely massive real-world event with universally known names and felt consequences for hundreds of millions of people — the thin source tweet is a breaking-news alert for an enormous story, not a nothing-burger, so the writer will have substance to build from (why it was removed, who's affected, what happens next), but the team must independently verify the claim before spending a dollar on production."}, {"t": "2026-08-04T11:40:38Z", "gate": "B", "subject": "APPLE JUST BANNED TELEGRAM FROM EVERY APP STORE ON EARTH, <em>THEN QUIETLY BROUGHT IT BACK</em>", "verdict": "REJECT", "reason": "Hook carries two actions ('banned…THEN…brought it back') violating the ONE-action rule. Fix: fold the restore into a modifier — e.g. 'APPLE JUST BANNED TELEGRAM FROM EVERY APP STORE ON EARTH FOR 8 HOURS AND NEVER SAID WHY.'; §5 truth: slides 2-3 overstate impact. App Store removal does NOT delete apps from devices — existing installs keep working. 'Every iPhone user on earth LOST TELEGRAM' (slide "}, {"t": "2026-08-04T11:44:54Z", "gate": "B", "subject": "APPLE JUST BANNED TELEGRAM FROM EVERY APP STORE ON EARTH <em>FOR 8 HOURS AND NEVER SAID WHY</em>", "verdict": "REJECT", "reason": "COVER IMAGE (§3): The cover is the Telegram logo on a flat blue background — pure decoration, not proof or a staged scene. Fails the thumb test: a stranger sees a brand logo, not a story. No face, no subject, no scene. This story has two of the world's most recognizable brands in conflict — the cover should show a dramatic scene (Pavel Durov, a phone with a 'not available' screen, Apple vs Telegra"}, {"t": "2026-08-04T12:21:46Z", "gate": "B", "subject": "6 QUESTIONS THAT <em>FORCE AI TO STOP LYING</em> TO YOU", "verdict": "REJECT", "reason": "Hook is a label headline (§2 ban): '6 QUESTIONS THAT FORCE AI TO STOP LYING TO YOU' is a textbook label — no actor, no event, no wild specifics. §2 explicitly bans 'label/aphorism headlines.' Fix: lead with the strongest real anchor (the $5K-fined lawyer or the Mayo Clinic lawsuit) and land the utility promise in the same sentence, e.g. 'A LAWYER GOT FINED $5,000 AFTER TRUSTING CHATGPT — 6 PROMPTS"}, {"t": "2026-08-04T12:29:26Z", "gate": "B", "subject": "A LAWYER GOT FINED $5,000 AFTER TRUSTING CHATGPT, <em>6 PROMPTS THAT WOULD HAVE CAUGHT THE LIE</em>", "verdict": "REJECT", "reason": "COVER IMAGE fails §3 — all three candidates show generic broken tech (cracked monitors, magnifying glass over a chip). The story has a HUMAN SUBJECT: a lawyer who got fined. §3 mandates 'default to a human face when the story has one' and 'the thumb test: seen once at feed size, a stranger guesses the story.' A stranger seeing any of these covers guesses 'tech is broken,' not 'lawyer got fined for"}, {"t": "2026-08-04T14:27:08Z", "gate": "A", "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀", "verdict": "KILL", "reason": "Bezos regularly sells billions in Amazon shares under a pre-announced 10b5-1 trading plan — this is routine stock liquidation, not a jaw-dropping event, and the source is one thin tweet with no consequence behind it."}, {"t": "2026-08-04T14:28:38Z", "gate": "A", "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli", "verdict": "KILL", "reason": "This is a routine financial market update — stock down, company sold crypto — with no human story, no twist, and no consequence a 16-year-old would send to a friend."}, {"t": "2026-08-04T14:29:30Z", "gate": "A", "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW", "verdict": "KILL", "reason": "A generic mortgage-rate survey stat with no specific person, no consequence, and no AI/tech angle — routine market data that fails the 'jaw-dropping event' test and the scout's own 3/10 confirms there's nothing here."}, {"t": "2026-08-04T14:30:12Z", "gate": "A", "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore", "verdict": "KILL", "reason": "No substance — the entire source is one thin tweet with a video clip, zero names, zero numbers, zero consequence, and the writer would have to pad every slide to fill a carousel."}, {"t": "2026-08-04T14:30:29Z", "gate": "A", "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.", "verdict": "KILL", "reason": "Scout interest 3/10 with a single thin tweet and no names, numbers, or real-world consequence — fails both the no-substance and low-interest gates."}, {"t": "2026-08-04T15:07:38Z", "gate": "B", "subject": "6 THINGS AI DOES THAT <em>SHOULD BE ILLEGAL</em>", "verdict": "APPROVE", "reason": ""}, {"t": "2026-08-04T16:12:21Z", "gate": "A", "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀", "verdict": "KILL", "reason": "Bezos has been selling billions in Amazon shares on a regular pre-announced schedule since 2024 — this is routine insider selling, not a jaw-dropping event, and the source is a single tweet with no consequence behind it."}, {"t": "2026-08-04T16:13:26Z", "gate": "A", "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli", "verdict": "KILL", "reason": "This is a routine market/stock update — company sold Bitcoin, stock is down — which falls squarely under the 'on-topic but routine' instant kill (market wraps, stocks-rose-today, analyst targets)."}, {"t": "2026-08-04T16:14:21Z", "gate": "A", "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW", "verdict": "KILL", "reason": "This is a routine market statistic with no specific event, no person, and no consequence — it fails both the 'something HAPPENED' test and the low scout-interest score of 4 gives no exceptional reason to override."}, {"t": "2026-08-04T16:15:03Z", "gate": "A", "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore", "verdict": "KILL", "reason": "No-substance single tweet with no names, no numbers, no verifiable details, and no real-world consequence — just a clip with a quip, which would force the writer to pad every slide."}, {"t": "2026-08-04T16:15:37Z", "gate": "A", "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.", "verdict": "KILL", "reason": "Scout interest 3/10 with a single-sentence source and no named person, no numbers, no consequence — pure no-substance novelty that would require the writer to pad every slide."}, {"t": "2026-08-04T16:15:58Z", "gate": "A", "subject": "Oh, the irony is too much …", "verdict": "KILL", "reason": "This is a 27-character tweet with no substance behind it — no second fact, no numbers, no consequence to build slides from, and the scout scored it 3/10."}, {"t": "2026-08-04T16:16:09Z", "gate": "A", "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ", "verdict": "KILL", "reason": "Scout interest 3/10 with no new event, no named person, no numbers, and no tech/AI angle — this is an old novelty product with zero viral-specific happening behind it."}, {"t": "2026-08-04T17:00:24Z", "gate": "B", "subject": "6 <em>AI NEGOTIATION TRICKS</em> THAT FEEL LIKE <em>CHEATING</em>", "verdict": "REJECT", "reason": "HOOK (§2): \"6 AI NEGOTIATION TRICKS THAT FEEL LIKE CHEATING\" is a label headline — a 9-word noun-phrase fragment with no actor, no action, no specifics. §2 requires a 12-25-word complete sentence that tells the WHOLE story and explicitly bans label/aphorism headlines. Fix: rewrite as one full sentence with a felt-scale number and a specific outcome (e.g., frame around the total money readers leave"}, {"t": "2026-08-04T17:03:36Z", "gate": "B", "subject": "THESE 6 <em>AI PROMPTS</em> NEGOTIATE YOUR BILLS, RENT, AND SALARY <em>IN SECONDS</em> AND SAVE YOU UP TO <em>$7,500 A Y", "verdict": "REJECT", "reason": "§2 HOOK — two actions joined by AND: 'NEGOTIATE… AND SAVE YOU UP TO $7,500.' Doctrine says one actor, one action; AND joining two actions = cut the weaker one. Fix: restructure to a single verb — e.g., 'THESE 6 AI PROMPTS SAVE YOU UP TO $7,500 A YEAR ON BILLS, RENT, AND SALARY' (one action: save; negotiation becomes the subordinate mechanism).; §4 STORYTELLING — slide 6 body repeats the cover's nu"}, {"gate": "A", "reason": "Bezos regularly sells billions in Amazon shares under a pre-announced 10b5-1 trading plan — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event, and the sole source is one thin tweet with no second fact, consequence, or story behind it.", "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀", "t": "2026-08-04T15:11:54Z", "verdict": "KILL"}, {"gate": "A", "reason": "This is a routine market/stock update — company sold Bitcoin, stock is down — with no human story, no twist, and no consequence beyond ordinary financial moves, failing the ON-TOPIC BUT ROUTINE instant kill.", "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli", "t": "2026-08-04T15:13:37Z", "verdict": "KILL"}, {"gate": "A", "reason": "No-substance: the entire source is one thin tweet with a video clip and zero supporting facts, numbers, or consequence — the writer would have to pad every slide.", "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore", "t": "2026-08-04T15:17:28Z", "verdict": "KILL"}, {"gate": "A", "reason": "Scout interest 3/10 on an old novelty product with no new event, no named person, no numbers, and no consequence — pure filler that fails the 'stop mid-scroll' standard.", "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ", "t": "2026-08-04T15:18:41Z", "verdict": "KILL"}, {"gate": "A", "reason": "This is a routine market statistic with no specific event, no named person, and no real-world consequence — it fails both the 'something HAPPENED' test and the instant kill for on-topic-but-routine content.", "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW", "t": "2026-08-04T15:19:14Z", "verdict": "KILL"}, {"gate": "A", "reason": "Scout interest 3/10 with a single-sentence source and no named person, no numbers, no consequence — pure no-substance spectacle that would require the writer to pad every slide.", "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.", "t": "2026-08-04T15:19:23Z", "verdict": "KILL"}, {"gate": "B", "reason": "§2 HOOK: ' 6 FREE AI WEBSITES THAT FEEL ILLEGAL TO KNOW' is a label headline — no actor, no action verb, no specific event. The Doctrine bans 'label/aphorism headlines' and requires 'ONE complete sentence that tells the WHOLE story — actor + what happened + the wild specifics.' FIX: rewrite as a sentence that names the single most jaw-dropping capability with a felt number (e.g., a one-sentence pi", "subject": "6 FREE AI WEBSITES THAT <em>FEEL ILLEGAL TO KNOW</em>", "t": "2026-08-04T15:58:27Z", "verdict": "REJECT"}, {"gate": "B", "reason": "COVER IMAGE fails §3 thumb test and story match: the image shows a generated Sundar Pichai on a dark rainy street with Google branding everywhere — a stranger at feed size guesses 'Google scandal,' not '6 free AI tools.' Google is only 1 of 6 tools in this post; centering Pichai and dual Google logos misrepresents the story as a Google story. The dark alley also violates the 'loud, colorful story-", "subject": "A FREE AI WEBSITE TURNS <em>ONE SENTENCE INTO A $500 PITCH DECK</em>", "t": "2026-08-04T16:04:47Z", "verdict": "REJECT"}, {"t": "2026-08-04T18:01:33Z", "gate": "B", "subject": "6 AI PROMPTS THAT <em>SPY ON YOUR COMPETITORS</em>", "verdict": "REJECT", "reason": "HOOK violates §2: \"6 AI PROMPTS THAT SPY ON YOUR COMPETITORS\" is a label headline (explicitly banned), only 8 words (requirement is 12-25), and not a complete sentence with actor + what happened + wild specifics. Fix: rewrite as a full summarizing sentence — e.g. a person-first frame around what these prompts actually delivered for someone, or a felt-scale contrast sentence.; TRUTH §5: the dollar "}, {"t": "2026-08-04T18:07:01Z", "gate": "B", "subject": "ONE FOUNDER USED 6 AI PROMPTS AND <em>KNEW MORE ABOUT A RIVAL THAN THE RIVAL'S OWN TEAM DID</em>", "verdict": "REJECT", "reason": "COVER CONTRACT BROKEN (§4): Hook promises a specific story — 'ONE FOUNDER' who did something and achieved a specific outcome ('knew more about a rival than the rival's own team did'). The slides never name this founder, never describe the event, never deliver any story. Every slide is a generic prompt template. The cover writes a check the carousel never cashes.; TRUTH VIOLATION (§5): 'One founder"}, {"t": "2026-08-04T19:28:41Z", "gate": "A", "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀", "verdict": "KILL", "reason": "Bezos regularly sells Amazon shares in pre-planned 10b5-1 tranches — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event, and the sole source is one thin tweet with no consequence behind it."}, {"t": "2026-08-04T19:30:01Z", "gate": "A", "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.", "verdict": "KILL", "reason": "Scout interest 3/10 with a single thin tweet and no second fact, no names, no numbers, no consequence — pure no-substance."}, {"t": "2026-08-04T19:30:51Z", "gate": "A", "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli", "verdict": "KILL", "reason": "This is a routine market/stock update — company sold Bitcoin, stock is down — with no human story, no twist, and no consequence beyond ordinary financial news, hitting the ON-TOPIC BUT ROUTINE instant kill."}, {"t": "2026-08-04T19:31:40Z", "gate": "A", "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore", "verdict": "KILL", "reason": "No-substance single tweet with no names, no numbers, no consequence — just a clip of a drone dodging another drone with simulation-joke framing, and a scout score of 4/10 confirms there is nothing to build slides from."}, {"t": "2026-08-04T19:32:14Z", "gate": "A", "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW", "verdict": "KILL", "reason": "This is a routine market statistic with no specific person, no event, and no consequence — it's exactly the on-topic-but-routine category the doctrine bans."}, {"t": "2026-08-04T19:32:46Z", "gate": "A", "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ", "verdict": "KILL", "reason": "Scout interest 3/10 with no real event, no named person, no money, no consequence — it's a product description of an obscure gadget, not a jaw-dropping story anyone would send to a friend."}, {"t": "2026-08-04T19:33:13Z", "gate": "A", "subject": "Oh, the irony is too much …", "verdict": "KILL", "reason": "The entire source is a single cryptic tweet with no substance behind it — no second fact, no numbers, no consequence to build slides from."}, {"t": "2026-08-04T20:07:16Z", "gate": "B", "subject": "6 AI PROMPTS THAT <em>CATCH WHERE YOU'RE BLEEDING MONEY</em>", "verdict": "REJECT", "reason": "§3 COVER IMAGE — Generated Warren Buffett appears nowhere in the post. The thumb test fails: at feed size a stranger reads 'story about Buffett and money,' not '6 AI prompts for finding hidden business expenses.' The post's actual subject (AI prompts catching expense leaks) is invisible in the cover. Buffett is pure decoration — he stages the CONCEPT of money but not THE STORY the slides tell. Fix"}, {"t": "2026-08-04T20:10:00Z", "gate": "B", "subject": "6 AI PROMPTS THAT <em>CATCH EXACTLY WHERE YOUR BUSINESS IS QUIETLY BLEEDING MONEY</em>", "verdict": "APPROVE", "reason": ""}, {"gate": "A", "reason": "Bezos regularly sells billions in Amazon stock under pre-scheduled 10b5-1 trading plans — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event with real consequences.", "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀", "t": "2026-08-04T18:27:30Z", "verdict": "KILL"}, {"gate": "A", "reason": "This is a routine market/stock update — company sold bitcoin, stock is down — with no human story, no twist, and no consequence beyond ticker movement, which is explicitly banned as on-topic-but-routine.", "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli", "t": "2026-08-04T18:28:16Z", "verdict": "KILL"}, {"gate": "A", "reason": "A generic mortgage-rate survey stat with no specific person, no dramatic outcome, and a scout score of 3 is routine financial news that fails the 'stop mid-scroll' standard.", "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW", "t": "2026-08-04T18:28:52Z", "verdict": "KILL"}, {"gate": "A", "reason": "Scout interest 3/10 with a single thin tweet and no names, numbers, or real-world consequence — pure wow-clip with no substance to build slides from.", "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.", "t": "2026-08-04T18:29:39Z", "verdict": "KILL"}, {"gate": "A", "reason": "No-substance single tweet with no names, no numbers, no verifiable consequence — just a clip caption with simulation meme framing that would force the writer to pad every slide.", "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore", "t": "2026-08-04T18:30:19Z", "verdict": "KILL"}, {"gate": "A", "reason": "Scout interest 3/10 with no real event, no named person, no money, no consequence — just an old product description that would require padding to fill slides.", "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ", "t": "2026-08-04T18:30:29Z", "verdict": "KILL"}, {"gate": "B", "reason": "HOOK §2 — 'THESE 6 THINGS' is a curiosity-gap withhold, not a summarizing cover. The doctrine requires 'the WHOLE story — actor + what happened + the wild specifics. Nothing withheld.' A fix: name the core insight in the hook itself — e.g., 'MOST PEOPLE USE AI WITHOUT TELLING IT WHO THEY ARE, CHECKING ITS WORK, OR SHARING REAL DATA' summarizes the substance; 'THESE 6 THINGS' hides it behind a numb", "subject": "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU SAY <em>THESE 6 THINGS</em>", "t": "2026-08-04T19:21:21Z", "verdict": "REJECT"}, {"gate": "B", "reason": "HOOK: three actions stapled with commas/AND ('share your context, check its work, and feed it real data') — §2 demands ONE actor, ONE action; 'AND joining two actions = cut the weaker one.' Three is worse. Pick the single most surprising action.; HOOK: reads as a label/aphorism headline ('AI gives generic answers until you do X'), not a summarizing sentence with actor + what happened + wild specif", "subject": "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU <em>SHARE YOUR CONTEXT, CHECK ITS WORK, AND FEED IT REAL DATA</em>", "t": "2026-08-04T19:23:56Z", "verdict": "REJECT"}, {"t": "2026-08-04T21:26:05Z", "gate": "A", "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀", "verdict": "KILL", "reason": "Bezos regularly sells billions in Amazon shares under pre-scheduled 10b5-1 trading plans — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event with real consequences."}, {"t": "2026-08-04T21:26:46Z", "gate": "A", "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli", "verdict": "KILL", "reason": "This is routine financial news — a company sold some Bitcoin and its stock is down — with no human story, no twist, and no consequence beyond ordinary market movement."}, {"t": "2026-08-04T21:27:48Z", "gate": "A", "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW", "verdict": "KILL", "reason": "This is a routine market statistic with no specific person, no felt event, and no consequence anyone can point to — it's on-topic-but-routine financial data that would require padding to fill slides."}, {"t": "2026-08-04T21:28:49Z", "gate": "A", "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ", "verdict": "KILL", "reason": "Scout interest 3/10 on a niche Japanese product with no new event, no famous name, no money moved, and no tech/AI angle — it's off-brand novelty filler that fails the 'send it to a friend' test."}, {"t": "2026-08-04T21:29:22Z", "gate": "A", "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore", "verdict": "KILL", "reason": "No-substance single tweet with no names, no numbers, no consequence — just a clip of two drones with a meme caption, nothing to build slides from."}, {"t": "2026-08-04T21:29:30Z", "gate": "A", "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.", "verdict": "KILL", "reason": "No-substance: the entire source is one thin tweet with no names, no numbers, no consequence — the writer would have to pad every slide."}, {"t": "2026-08-04T22:08:54Z", "gate": "B", "subject": "6 PROMPTS THAT <em>REPLACE A $5,000 MARKETING AGENCY</em>", "verdict": "REJECT", "reason": "HOOK (§2) — LABEL HEADLINE: '6 PROMPTS THAT REPLACE A $5,000 MARKETING AGENCY' is a 9-word noun-phrase label, not a 12–25-word complete sentence with actor + action + wild specifics. §2 explicitly bans 'label/aphorism headlines,' and today's session has already rejected three posts for this identical structure ('ONE AI TOOL REPLACES 6 THINGS,' '6 QUESTIONS THAT FORCE AI TO STOP LYING,' '6 AI NEGOT"}, {"t": "2026-08-04T22:15:06Z", "gate": "B", "subject": "WE PASTED 6 PROMPTS INTO CLAUDE AND <em>REPLACED OUR $5,000-A-MONTH MARKETING AGENCY OVERNIGHT</em>", "verdict": "APPROVE", "reason": ""}, {"gate": "A", "reason": "This is a routine market/stock update — company sold bitcoin, stock is down — which falls squarely under the 'on-topic but routine' instant kill (market wraps, stocks-rose-today, analyst targets).", "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli", "t": "2026-08-04T20:43:54Z", "verdict": "KILL"}, {"gate": "A", "reason": "Bezos regularly sells billions in Amazon stock under pre-scheduled 10b5-1 trading plans — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event, and the single-tweet source offers no substance beyond the headline number.", "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀", "t": "2026-08-04T20:44:49Z", "verdict": "KILL"}, {"gate": "A", "reason": "This is a routine market statistic with no specific person, no event, and no consequence anyone felt — it's on-topic-but-routine financial data that would require padding to fill slides.", "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW", "t": "2026-08-04T20:45:51Z", "verdict": "KILL"}, {"gate": "A", "reason": "Scout interest 3/10 with no real event, no named person, no money, no consequence — just an old product description with zero viral-specific story behind it.", "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ", "t": "2026-08-04T20:46:48Z", "verdict": "KILL"}, {"gate": "A", "reason": "No substance — the entire source is one thin tweet with a clip and no second fact, no names, no numbers, no consequence to build slides from.", "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore", "t": "2026-08-04T20:47:34Z", "verdict": "KILL"}, {"gate": "A", "reason": "Scout interest 3/10 with a single thin tweet and no names, numbers, or real-world consequence — pure no-substance content that would require the writer to pad every slide.", "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.", "t": "2026-08-04T20:47:42Z", "verdict": "KILL"}, {"gate": "B", "reason": "§4 COVER CONTRACT: hook promises '6 AI PROMPTS THAT FIND TRAPS IN YOUR CONTRACTS' but slides 4 (demand letter writer) and 5 (dispute case builder) do not find traps in contracts — they are separate legal actions with no contract-scanning step. Only 3 of the 6 prompts actually deliver what the cover promises. Fix: either broaden the hook to cover all six use cases (e.g. '6 AI PROMPTS THAT REPLACE Y", "subject": "6 AI PROMPTS THAT FIND <em>TRAPS IN YOUR CONTRACTS</em>", "t": "2026-08-04T21:19:21Z", "verdict": "REJECT"}, {"gate": "B", "reason": "Hook is a label headline (banned §2) and at 9 words falls below the 12-word minimum — it needs to be ONE complete sentence (12-25 words) with actor + action + the wild specific, e.g. a felt-scale payoff like the total cost saved or the trap count found; All six content slide bodies open with the identical 'A [type] lawyer charges $X / This is free' template — the framing repeats verbatim six times", "subject": "6 AI PROMPTS THAT FIND <em>TRAPS IN YOUR CONTRACTS</em>", "t": "2026-08-04T21:21:07Z", "verdict": "REJECT"}]
+[
+ {
+  "t": "2026-08-03T21:30:52Z",
+  "gate": "A",
+  "subject": "We gotta take AI away from Instagram users",
+  "verdict": "KILL",
+  "reason": "Textbook reaction-bait — the entire 'event' is screenshots of Instagram AI being silly and people laughing in replies, with zero real-world consequence; the Doctrine names the Queen Elizabeth playlist meme as the exact failure model this rule was written to prevent."
+ },
+ {
+  "t": "2026-08-03T21:31:00Z",
+  "gate": "A",
+  "subject": "Uhhhh, what a creepy video for Mario Lopez to create using AI and then post… Especially since the subject is his niece!",
+  "verdict": "KILL",
+  "reason": "Classic reaction-bait: the entire 'event' is that someone posted something online and people reacted — no real-world consequence (no lawsuit, no firing, no product pulled), just likes and replies piling on."
+ },
+ {
+  "t": "2026-08-03T21:32:56Z",
+  "gate": "B",
+  "subject": "THE PERSON MAYO CLINIC HIRED TO KEEP THEIR AI SAFE <em>IS NOW SUING THEM FOR HIDING ITS 67% ERROR RATE ON REAL PATIENTS<",
+  "verdict": "REJECT",
+  "reason": "ONE FACT, THREE SLIDES: The 67% error rate is restated three times — cover ('67% error rate'), slide 2 ('failed two out of three'), slide 4 ('33% accuracy / coin flip'). §4 requires a new fact per slide. The coin-flip comparison is a reframe, not a new fact. Cut slide 4 or replace its content with a genuinely new detail (which AI tool, what diagnoses, how many patients affected, what the lawsuit f"
+ },
+ {
+  "t": "2026-08-04T00:05:16Z",
+  "gate": "A",
+  "subject": "JUST IN: BlackRock launches tokenized money-market fund on Ethereum.",
+  "verdict": "KILL",
+  "reason": "On-topic but routine corporate product launch with no human story, no felt consequence, and a scout interest score of 4 — the single-sentence source has no substance to build slides from."
+ },
+ {
+  "t": "2026-08-04T00:05:48Z",
+  "gate": "A",
+  "subject": "This is how to open a number lock using nothing but a piece of paper.",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 with no substance behind it — a single thin tweet about a generic lock trick with no named person, no real-world consequence, and nothing to build slides from."
+ },
+ {
+  "t": "2026-08-04T00:06:16Z",
+  "gate": "A",
+  "subject": "Worth noting that any USAID funding that appeared to have the slightest merit whatsoever for helping people in need was ",
+  "verdict": "KILL",
+  "reason": "This is a political opinion tweet with no tech/AI/space story, no specific event with felt consequences, and a scout interest score of 2/10 — it fails every qualification in Story Law and is off-brand for the page."
+ },
+ {
+  "t": "2026-08-04T00:06:26Z",
+  "gate": "A",
+  "subject": "Slavery was ended primarily by Britain",
+  "verdict": "KILL",
+  "reason": "This is a bare opinion tweet with no event, no substance, no numbers, and no real-world consequence — it fails both the no-substance and off-brand instant kills."
+ },
+ {
+  "t": "2026-08-04T00:39:42Z",
+  "gate": "B",
+  "subject": "ONE AI TOOL REPLACES <em>6 THINGS YOU'RE PAYING FOR</em>",
+  "verdict": "REJECT",
+  "reason": "Hook is a label/aphorism headline banned by §2: 'ONE AI TOOL REPLACES 6 THINGS YOU'RE PAYING FOR' is a category tag, not a summarizing cover sentence with actor + what happened + wild specifics. At 9 words it also falls under the 12-word minimum.; Cover contract broken (§4) + truth gap (§5): the hook promises 'ONE AI TOOL' — a specific, singular tool — but no slide ever names it. The reader finish"
+ },
+ {
+  "t": "2026-08-04T00:55:45Z",
+  "gate": "B",
+  "subject": "WE TYPED 6 SENTENCES INTO CLAUDE AND <em>IT REPLACED EVERY TOOL OUR BUSINESS PAYS FOR</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-08-04T11:03:17Z",
+  "gate": "A",
+  "subject": "JUST IN: Telegram removed from the Apple App Store worldwide.",
+  "verdict": "APPROVE",
+  "reason": "A top-10 global app with 900M+ users being pulled from the Apple App Store worldwide is a genuinely massive real-world event with universally known names and felt consequences for hundreds of millions of people — the thin source tweet is a breaking-news alert for an enormous story, not a nothing-burger, so the writer will have substance to build from (why it was removed, who's affected, what happens next), but the team must independently verify the claim before spending a dollar on production."
+ },
+ {
+  "t": "2026-08-04T11:40:38Z",
+  "gate": "B",
+  "subject": "APPLE JUST BANNED TELEGRAM FROM EVERY APP STORE ON EARTH, <em>THEN QUIETLY BROUGHT IT BACK</em>",
+  "verdict": "REJECT",
+  "reason": "Hook carries two actions ('banned…THEN…brought it back') violating the ONE-action rule. Fix: fold the restore into a modifier — e.g. 'APPLE JUST BANNED TELEGRAM FROM EVERY APP STORE ON EARTH FOR 8 HOURS AND NEVER SAID WHY.'; §5 truth: slides 2-3 overstate impact. App Store removal does NOT delete apps from devices — existing installs keep working. 'Every iPhone user on earth LOST TELEGRAM' (slide "
+ },
+ {
+  "t": "2026-08-04T11:44:54Z",
+  "gate": "B",
+  "subject": "APPLE JUST BANNED TELEGRAM FROM EVERY APP STORE ON EARTH <em>FOR 8 HOURS AND NEVER SAID WHY</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE (§3): The cover is the Telegram logo on a flat blue background — pure decoration, not proof or a staged scene. Fails the thumb test: a stranger sees a brand logo, not a story. No face, no subject, no scene. This story has two of the world's most recognizable brands in conflict — the cover should show a dramatic scene (Pavel Durov, a phone with a 'not available' screen, Apple vs Telegra"
+ },
+ {
+  "t": "2026-08-04T12:21:46Z",
+  "gate": "B",
+  "subject": "6 QUESTIONS THAT <em>FORCE AI TO STOP LYING</em> TO YOU",
+  "verdict": "REJECT",
+  "reason": "Hook is a label headline (§2 ban): '6 QUESTIONS THAT FORCE AI TO STOP LYING TO YOU' is a textbook label — no actor, no event, no wild specifics. §2 explicitly bans 'label/aphorism headlines.' Fix: lead with the strongest real anchor (the $5K-fined lawyer or the Mayo Clinic lawsuit) and land the utility promise in the same sentence, e.g. 'A LAWYER GOT FINED $5,000 AFTER TRUSTING CHATGPT — 6 PROMPTS"
+ },
+ {
+  "t": "2026-08-04T12:29:26Z",
+  "gate": "B",
+  "subject": "A LAWYER GOT FINED $5,000 AFTER TRUSTING CHATGPT, <em>6 PROMPTS THAT WOULD HAVE CAUGHT THE LIE</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE fails §3 — all three candidates show generic broken tech (cracked monitors, magnifying glass over a chip). The story has a HUMAN SUBJECT: a lawyer who got fined. §3 mandates 'default to a human face when the story has one' and 'the thumb test: seen once at feed size, a stranger guesses the story.' A stranger seeing any of these covers guesses 'tech is broken,' not 'lawyer got fined for"
+ },
+ {
+  "t": "2026-08-04T14:27:08Z",
+  "gate": "A",
+  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
+  "verdict": "KILL",
+  "reason": "Bezos regularly sells billions in Amazon shares under a pre-announced 10b5-1 trading plan — this is routine stock liquidation, not a jaw-dropping event, and the source is one thin tweet with no consequence behind it."
+ },
+ {
+  "t": "2026-08-04T14:28:38Z",
+  "gate": "A",
+  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
+  "verdict": "KILL",
+  "reason": "This is a routine financial market update — stock down, company sold crypto — with no human story, no twist, and no consequence a 16-year-old would send to a friend."
+ },
+ {
+  "t": "2026-08-04T14:29:30Z",
+  "gate": "A",
+  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
+  "verdict": "KILL",
+  "reason": "A generic mortgage-rate survey stat with no specific person, no consequence, and no AI/tech angle — routine market data that fails the 'jaw-dropping event' test and the scout's own 3/10 confirms there's nothing here."
+ },
+ {
+  "t": "2026-08-04T14:30:12Z",
+  "gate": "A",
+  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
+  "verdict": "KILL",
+  "reason": "No substance — the entire source is one thin tweet with a video clip, zero names, zero numbers, zero consequence, and the writer would have to pad every slide to fill a carousel."
+ },
+ {
+  "t": "2026-08-04T14:30:29Z",
+  "gate": "A",
+  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 with a single thin tweet and no names, numbers, or real-world consequence — fails both the no-substance and low-interest gates."
+ },
+ {
+  "t": "2026-08-04T15:07:38Z",
+  "gate": "B",
+  "subject": "6 THINGS AI DOES THAT <em>SHOULD BE ILLEGAL</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-08-04T16:12:21Z",
+  "gate": "A",
+  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
+  "verdict": "KILL",
+  "reason": "Bezos has been selling billions in Amazon shares on a regular pre-announced schedule since 2024 — this is routine insider selling, not a jaw-dropping event, and the source is a single tweet with no consequence behind it."
+ },
+ {
+  "t": "2026-08-04T16:13:26Z",
+  "gate": "A",
+  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
+  "verdict": "KILL",
+  "reason": "This is a routine market/stock update — company sold Bitcoin, stock is down — which falls squarely under the 'on-topic but routine' instant kill (market wraps, stocks-rose-today, analyst targets)."
+ },
+ {
+  "t": "2026-08-04T16:14:21Z",
+  "gate": "A",
+  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
+  "verdict": "KILL",
+  "reason": "This is a routine market statistic with no specific event, no person, and no consequence — it fails both the 'something HAPPENED' test and the low scout-interest score of 4 gives no exceptional reason to override."
+ },
+ {
+  "t": "2026-08-04T16:15:03Z",
+  "gate": "A",
+  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
+  "verdict": "KILL",
+  "reason": "No-substance single tweet with no names, no numbers, no verifiable details, and no real-world consequence — just a clip with a quip, which would force the writer to pad every slide."
+ },
+ {
+  "t": "2026-08-04T16:15:37Z",
+  "gate": "A",
+  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 with a single-sentence source and no named person, no numbers, no consequence — pure no-substance novelty that would require the writer to pad every slide."
+ },
+ {
+  "t": "2026-08-04T16:15:58Z",
+  "gate": "A",
+  "subject": "Oh, the irony is too much …",
+  "verdict": "KILL",
+  "reason": "This is a 27-character tweet with no substance behind it — no second fact, no numbers, no consequence to build slides from, and the scout scored it 3/10."
+ },
+ {
+  "t": "2026-08-04T16:16:09Z",
+  "gate": "A",
+  "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 with no new event, no named person, no numbers, and no tech/AI angle — this is an old novelty product with zero viral-specific happening behind it."
+ },
+ {
+  "t": "2026-08-04T17:00:24Z",
+  "gate": "B",
+  "subject": "6 <em>AI NEGOTIATION TRICKS</em> THAT FEEL LIKE <em>CHEATING</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK (§2): \"6 AI NEGOTIATION TRICKS THAT FEEL LIKE CHEATING\" is a label headline — a 9-word noun-phrase fragment with no actor, no action, no specifics. §2 requires a 12-25-word complete sentence that tells the WHOLE story and explicitly bans label/aphorism headlines. Fix: rewrite as one full sentence with a felt-scale number and a specific outcome (e.g., frame around the total money readers leave"
+ },
+ {
+  "t": "2026-08-04T17:03:36Z",
+  "gate": "B",
+  "subject": "THESE 6 <em>AI PROMPTS</em> NEGOTIATE YOUR BILLS, RENT, AND SALARY <em>IN SECONDS</em> AND SAVE YOU UP TO <em>$7,500 A Y",
+  "verdict": "REJECT",
+  "reason": "§2 HOOK — two actions joined by AND: 'NEGOTIATE… AND SAVE YOU UP TO $7,500.' Doctrine says one actor, one action; AND joining two actions = cut the weaker one. Fix: restructure to a single verb — e.g., 'THESE 6 AI PROMPTS SAVE YOU UP TO $7,500 A YEAR ON BILLS, RENT, AND SALARY' (one action: save; negotiation becomes the subordinate mechanism).; §4 STORYTELLING — slide 6 body repeats the cover's nu"
+ },
+ {
+  "gate": "A",
+  "reason": "Bezos regularly sells billions in Amazon shares under a pre-announced 10b5-1 trading plan — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event, and the sole source is one thin tweet with no second fact, consequence, or story behind it.",
+  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
+  "t": "2026-08-04T15:11:54Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "This is a routine market/stock update — company sold Bitcoin, stock is down — with no human story, no twist, and no consequence beyond ordinary financial moves, failing the ON-TOPIC BUT ROUTINE instant kill.",
+  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
+  "t": "2026-08-04T15:13:37Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "No-substance: the entire source is one thin tweet with a video clip and zero supporting facts, numbers, or consequence — the writer would have to pad every slide.",
+  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
+  "t": "2026-08-04T15:17:28Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "Scout interest 3/10 on an old novelty product with no new event, no named person, no numbers, and no consequence — pure filler that fails the 'stop mid-scroll' standard.",
+  "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ",
+  "t": "2026-08-04T15:18:41Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "This is a routine market statistic with no specific event, no named person, and no real-world consequence — it fails both the 'something HAPPENED' test and the instant kill for on-topic-but-routine content.",
+  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
+  "t": "2026-08-04T15:19:14Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "Scout interest 3/10 with a single-sentence source and no named person, no numbers, no consequence — pure no-substance spectacle that would require the writer to pad every slide.",
+  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
+  "t": "2026-08-04T15:19:23Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "B",
+  "reason": "§2 HOOK: ' 6 FREE AI WEBSITES THAT FEEL ILLEGAL TO KNOW' is a label headline — no actor, no action verb, no specific event. The Doctrine bans 'label/aphorism headlines' and requires 'ONE complete sentence that tells the WHOLE story — actor + what happened + the wild specifics.' FIX: rewrite as a sentence that names the single most jaw-dropping capability with a felt number (e.g., a one-sentence pi",
+  "subject": "6 FREE AI WEBSITES THAT <em>FEEL ILLEGAL TO KNOW</em>",
+  "t": "2026-08-04T15:58:27Z",
+  "verdict": "REJECT"
+ },
+ {
+  "gate": "B",
+  "reason": "COVER IMAGE fails §3 thumb test and story match: the image shows a generated Sundar Pichai on a dark rainy street with Google branding everywhere — a stranger at feed size guesses 'Google scandal,' not '6 free AI tools.' Google is only 1 of 6 tools in this post; centering Pichai and dual Google logos misrepresents the story as a Google story. The dark alley also violates the 'loud, colorful story-",
+  "subject": "A FREE AI WEBSITE TURNS <em>ONE SENTENCE INTO A $500 PITCH DECK</em>",
+  "t": "2026-08-04T16:04:47Z",
+  "verdict": "REJECT"
+ },
+ {
+  "t": "2026-08-04T18:01:33Z",
+  "gate": "B",
+  "subject": "6 AI PROMPTS THAT <em>SPY ON YOUR COMPETITORS</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK violates §2: \"6 AI PROMPTS THAT SPY ON YOUR COMPETITORS\" is a label headline (explicitly banned), only 8 words (requirement is 12-25), and not a complete sentence with actor + what happened + wild specifics. Fix: rewrite as a full summarizing sentence — e.g. a person-first frame around what these prompts actually delivered for someone, or a felt-scale contrast sentence.; TRUTH §5: the dollar "
+ },
+ {
+  "t": "2026-08-04T18:07:01Z",
+  "gate": "B",
+  "subject": "ONE FOUNDER USED 6 AI PROMPTS AND <em>KNEW MORE ABOUT A RIVAL THAN THE RIVAL'S OWN TEAM DID</em>",
+  "verdict": "REJECT",
+  "reason": "COVER CONTRACT BROKEN (§4): Hook promises a specific story — 'ONE FOUNDER' who did something and achieved a specific outcome ('knew more about a rival than the rival's own team did'). The slides never name this founder, never describe the event, never deliver any story. Every slide is a generic prompt template. The cover writes a check the carousel never cashes.; TRUTH VIOLATION (§5): 'One founder"
+ },
+ {
+  "t": "2026-08-04T19:28:41Z",
+  "gate": "A",
+  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
+  "verdict": "KILL",
+  "reason": "Bezos regularly sells Amazon shares in pre-planned 10b5-1 tranches — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event, and the sole source is one thin tweet with no consequence behind it."
+ },
+ {
+  "t": "2026-08-04T19:30:01Z",
+  "gate": "A",
+  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 with a single thin tweet and no second fact, no names, no numbers, no consequence — pure no-substance."
+ },
+ {
+  "t": "2026-08-04T19:30:51Z",
+  "gate": "A",
+  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
+  "verdict": "KILL",
+  "reason": "This is a routine market/stock update — company sold Bitcoin, stock is down — with no human story, no twist, and no consequence beyond ordinary financial news, hitting the ON-TOPIC BUT ROUTINE instant kill."
+ },
+ {
+  "t": "2026-08-04T19:31:40Z",
+  "gate": "A",
+  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
+  "verdict": "KILL",
+  "reason": "No-substance single tweet with no names, no numbers, no consequence — just a clip of a drone dodging another drone with simulation-joke framing, and a scout score of 4/10 confirms there is nothing to build slides from."
+ },
+ {
+  "t": "2026-08-04T19:32:14Z",
+  "gate": "A",
+  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
+  "verdict": "KILL",
+  "reason": "This is a routine market statistic with no specific person, no event, and no consequence — it's exactly the on-topic-but-routine category the doctrine bans."
+ },
+ {
+  "t": "2026-08-04T19:32:46Z",
+  "gate": "A",
+  "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 with no real event, no named person, no money, no consequence — it's a product description of an obscure gadget, not a jaw-dropping story anyone would send to a friend."
+ },
+ {
+  "t": "2026-08-04T19:33:13Z",
+  "gate": "A",
+  "subject": "Oh, the irony is too much …",
+  "verdict": "KILL",
+  "reason": "The entire source is a single cryptic tweet with no substance behind it — no second fact, no numbers, no consequence to build slides from."
+ },
+ {
+  "t": "2026-08-04T20:07:16Z",
+  "gate": "B",
+  "subject": "6 AI PROMPTS THAT <em>CATCH WHERE YOU'RE BLEEDING MONEY</em>",
+  "verdict": "REJECT",
+  "reason": "§3 COVER IMAGE — Generated Warren Buffett appears nowhere in the post. The thumb test fails: at feed size a stranger reads 'story about Buffett and money,' not '6 AI prompts for finding hidden business expenses.' The post's actual subject (AI prompts catching expense leaks) is invisible in the cover. Buffett is pure decoration — he stages the CONCEPT of money but not THE STORY the slides tell. Fix"
+ },
+ {
+  "t": "2026-08-04T20:10:00Z",
+  "gate": "B",
+  "subject": "6 AI PROMPTS THAT <em>CATCH EXACTLY WHERE YOUR BUSINESS IS QUIETLY BLEEDING MONEY</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "gate": "A",
+  "reason": "Bezos regularly sells billions in Amazon stock under pre-scheduled 10b5-1 trading plans — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event with real consequences.",
+  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
+  "t": "2026-08-04T18:27:30Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "This is a routine market/stock update — company sold bitcoin, stock is down — with no human story, no twist, and no consequence beyond ticker movement, which is explicitly banned as on-topic-but-routine.",
+  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
+  "t": "2026-08-04T18:28:16Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "A generic mortgage-rate survey stat with no specific person, no dramatic outcome, and a scout score of 3 is routine financial news that fails the 'stop mid-scroll' standard.",
+  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
+  "t": "2026-08-04T18:28:52Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "Scout interest 3/10 with a single thin tweet and no names, numbers, or real-world consequence — pure wow-clip with no substance to build slides from.",
+  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
+  "t": "2026-08-04T18:29:39Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "No-substance single tweet with no names, no numbers, no verifiable consequence — just a clip caption with simulation meme framing that would force the writer to pad every slide.",
+  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
+  "t": "2026-08-04T18:30:19Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "Scout interest 3/10 with no real event, no named person, no money, no consequence — just an old product description that would require padding to fill slides.",
+  "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ",
+  "t": "2026-08-04T18:30:29Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "B",
+  "reason": "HOOK §2 — 'THESE 6 THINGS' is a curiosity-gap withhold, not a summarizing cover. The doctrine requires 'the WHOLE story — actor + what happened + the wild specifics. Nothing withheld.' A fix: name the core insight in the hook itself — e.g., 'MOST PEOPLE USE AI WITHOUT TELLING IT WHO THEY ARE, CHECKING ITS WORK, OR SHARING REAL DATA' summarizes the substance; 'THESE 6 THINGS' hides it behind a numb",
+  "subject": "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU SAY <em>THESE 6 THINGS</em>",
+  "t": "2026-08-04T19:21:21Z",
+  "verdict": "REJECT"
+ },
+ {
+  "gate": "B",
+  "reason": "HOOK: three actions stapled with commas/AND ('share your context, check its work, and feed it real data') — §2 demands ONE actor, ONE action; 'AND joining two actions = cut the weaker one.' Three is worse. Pick the single most surprising action.; HOOK: reads as a label/aphorism headline ('AI gives generic answers until you do X'), not a summarizing sentence with actor + what happened + wild specif",
+  "subject": "AI GIVES <em>GENERIC ANSWERS</em> UNTIL YOU <em>SHARE YOUR CONTEXT, CHECK ITS WORK, AND FEED IT REAL DATA</em>",
+  "t": "2026-08-04T19:23:56Z",
+  "verdict": "REJECT"
+ },
+ {
+  "t": "2026-08-04T21:26:05Z",
+  "gate": "A",
+  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
+  "verdict": "KILL",
+  "reason": "Bezos regularly sells billions in Amazon shares under pre-scheduled 10b5-1 trading plans — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event with real consequences."
+ },
+ {
+  "t": "2026-08-04T21:26:46Z",
+  "gate": "A",
+  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
+  "verdict": "KILL",
+  "reason": "This is routine financial news — a company sold some Bitcoin and its stock is down — with no human story, no twist, and no consequence beyond ordinary market movement."
+ },
+ {
+  "t": "2026-08-04T21:27:48Z",
+  "gate": "A",
+  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
+  "verdict": "KILL",
+  "reason": "This is a routine market statistic with no specific person, no felt event, and no consequence anyone can point to — it's on-topic-but-routine financial data that would require padding to fill slides."
+ },
+ {
+  "t": "2026-08-04T21:28:49Z",
+  "gate": "A",
+  "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ",
+  "verdict": "KILL",
+  "reason": "Scout interest 3/10 on a niche Japanese product with no new event, no famous name, no money moved, and no tech/AI angle — it's off-brand novelty filler that fails the 'send it to a friend' test."
+ },
+ {
+  "t": "2026-08-04T21:29:22Z",
+  "gate": "A",
+  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
+  "verdict": "KILL",
+  "reason": "No-substance single tweet with no names, no numbers, no consequence — just a clip of two drones with a meme caption, nothing to build slides from."
+ },
+ {
+  "t": "2026-08-04T21:29:30Z",
+  "gate": "A",
+  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
+  "verdict": "KILL",
+  "reason": "No-substance: the entire source is one thin tweet with no names, no numbers, no consequence — the writer would have to pad every slide."
+ },
+ {
+  "t": "2026-08-04T22:08:54Z",
+  "gate": "B",
+  "subject": "6 PROMPTS THAT <em>REPLACE A $5,000 MARKETING AGENCY</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK (§2) — LABEL HEADLINE: '6 PROMPTS THAT REPLACE A $5,000 MARKETING AGENCY' is a 9-word noun-phrase label, not a 12–25-word complete sentence with actor + action + wild specifics. §2 explicitly bans 'label/aphorism headlines,' and today's session has already rejected three posts for this identical structure ('ONE AI TOOL REPLACES 6 THINGS,' '6 QUESTIONS THAT FORCE AI TO STOP LYING,' '6 AI NEGOT"
+ },
+ {
+  "t": "2026-08-04T22:15:06Z",
+  "gate": "B",
+  "subject": "WE PASTED 6 PROMPTS INTO CLAUDE AND <em>REPLACED OUR $5,000-A-MONTH MARKETING AGENCY OVERNIGHT</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "gate": "A",
+  "reason": "This is a routine market/stock update — company sold bitcoin, stock is down — which falls squarely under the 'on-topic but routine' instant kill (market wraps, stocks-rose-today, analyst targets).",
+  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
+  "t": "2026-08-04T20:43:54Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "Bezos regularly sells billions in Amazon stock under pre-scheduled 10b5-1 trading plans — this is routine insider selling dressed up with alarm emojis, not a jaw-dropping event, and the single-tweet source offers no substance beyond the headline number.",
+  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
+  "t": "2026-08-04T20:44:49Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "This is a routine market statistic with no specific person, no event, and no consequence anyone felt — it's on-topic-but-routine financial data that would require padding to fill slides.",
+  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
+  "t": "2026-08-04T20:45:51Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "Scout interest 3/10 with no real event, no named person, no money, no consequence — just an old product description with zero viral-specific story behind it.",
+  "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ",
+  "t": "2026-08-04T20:46:48Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "No substance — the entire source is one thin tweet with a clip and no second fact, no names, no numbers, no consequence to build slides from.",
+  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
+  "t": "2026-08-04T20:47:34Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "A",
+  "reason": "Scout interest 3/10 with a single thin tweet and no names, numbers, or real-world consequence — pure no-substance content that would require the writer to pad every slide.",
+  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
+  "t": "2026-08-04T20:47:42Z",
+  "verdict": "KILL"
+ },
+ {
+  "gate": "B",
+  "reason": "§4 COVER CONTRACT: hook promises '6 AI PROMPTS THAT FIND TRAPS IN YOUR CONTRACTS' but slides 4 (demand letter writer) and 5 (dispute case builder) do not find traps in contracts — they are separate legal actions with no contract-scanning step. Only 3 of the 6 prompts actually deliver what the cover promises. Fix: either broaden the hook to cover all six use cases (e.g. '6 AI PROMPTS THAT REPLACE Y",
+  "subject": "6 AI PROMPTS THAT FIND <em>TRAPS IN YOUR CONTRACTS</em>",
+  "t": "2026-08-04T21:19:21Z",
+  "verdict": "REJECT"
+ },
+ {
+  "gate": "B",
+  "reason": "Hook is a label headline (banned §2) and at 9 words falls below the 12-word minimum — it needs to be ONE complete sentence (12-25 words) with actor + action + the wild specific, e.g. a felt-scale payoff like the total cost saved or the trap count found; All six content slide bodies open with the identical 'A [type] lawyer charges $X / This is free' template — the framing repeats verbatim six times",
+  "subject": "6 AI PROMPTS THAT FIND <em>TRAPS IN YOUR CONTRACTS</em>",
+  "t": "2026-08-04T21:21:07Z",
+  "verdict": "REJECT"
+ },
+ {
+  "t": "2026-08-05T00:02:17Z",
+  "gate": "A",
+  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
+  "verdict": "KILL",
+  "reason": "Bezos selling Amazon shares is routine — he has executed multi-billion-dollar sell-offs on a regular pre-announced schedule (10b5-1 plan) for years, making this on-topic-but-routine with no surprising consequence or human story behind it."
+ },
+ {
+  "t": "2026-08-05T00:03:50Z",
+  "gate": "A",
+  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
+  "verdict": "KILL",
+  "reason": "This is a routine financial market update — a company sold some Bitcoin and its stock is down — with no human story, no twist, and no consequence beyond ordinary price movement."
+ },
+ {
+  "t": "2026-08-05T00:04:31Z",
+  "gate": "A",
+  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
+  "verdict": "KILL",
+  "reason": "This is a routine market statistic with no specific event, no named person, and no consequence anyone felt — it's on-topic-but-routine financial data that would require padding to fill slides."
+ },
+ {
+  "t": "2026-08-05T00:05:15Z",
+  "gate": "A",
+  "subject": "Reminder to go touch grass A scientist in Japan demonstrated that the air inside a forest strengthens your immune system",
+  "verdict": "KILL",
+  "reason": "This is a years-old science study with no new event, no tech/AI angle, and a scout score of 3/10 — it's off-brand wellness content with no viral-specific happening."
+ },
+ {
+  "t": "2026-08-05T00:06:23Z",
+  "gate": "A",
+  "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ",
+  "verdict": "KILL",
+  "reason": "Scout interest 4/10 with a single thin source and no real event — it's a novelty product blurb with no person, no consequence, and no second fact to build slides from (NO SUBSTANCE)."
+ },
+ {
+  "t": "2026-08-05T00:07:15Z",
+  "gate": "A",
+  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
+  "verdict": "KILL",
+  "reason": "No substance — the entire source is one thin tweet (132 chars) with zero second facts, no names, no numbers, and no real-world consequence; the writer would have to pad every slide."
+ },
+ {
+  "t": "2026-08-05T00:07:25Z",
+  "gate": "A",
+  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
+  "verdict": "KILL",
+  "reason": "No-substance: the entire source is one thin tweet with no names, no numbers, no consequence, and nothing behind it to build slides from."
+ },
+ {
+  "t": "2026-08-05T00:45:34Z",
+  "gate": "B",
+  "subject": "6 AI PROMPTS THAT <em>MAKE GOOGLE OBSOLETE</em>",
+  "verdict": "REJECT",
+  "reason": "Hook is 7 words — below §2's 12-word minimum — and reads as a listicle label ('6 [nouns] THAT [vague claim]') rather than one complete sentence with wild specifics. 'MAKE GOOGLE OBSOLETE' withholds what the prompts actually do or replace. Fix: expand to 12-25 words naming the concrete payoff, e.g. 'THESE 6 AI PROMPTS REPLACE HOURS OF RESEARCH, PREP, AND COMPARISON WITH A 30-SECOND CONVERSATION'.; "
+ },
+ {
+  "t": "2026-08-05T00:48:43Z",
+  "gate": "B",
+  "subject": "THESE 6 AI PROMPTS <em>REPLACE HOURS OF RESEARCH, PREP, AND COMPARISON WITH A 30-SECOND CONVERSATION</em>",
+  "verdict": "REJECT",
+  "reason": "§3 COVER IMAGE: Generated Sundar Pichai in front of Google logo has zero connection to '6 AI prompts for research and prep.' Thumb test total failure — a stranger at feed size guesses a Google/Pichai story, not a utility-prompt post. The image is decoration, not proof or a staged scene. Fix: the cover needs a subject that signals 'AI prompts that save you hours' — a person at a laptop with a visib"
+ }
+]

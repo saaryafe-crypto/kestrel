@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THESE 6 AI PROMPTS <em>REPLACE HOURS OF RESEARCH, PREP, AND COMPARISON WITH A 30-SECOND CONVERSATION</em>",
+   "kicker": "EACH ONE TAKES 30 SECONDS",
+   "hsize": 72,
+   "face": [
+    "Bill Gates"
+   ],
+   "media": "posts/2026-08-05-edu-6-ai-prompts-that-replace-hours-of-resea/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>DIGEST A 200 PAGE DOCUMENT</em> IN 60 SECONDS",
+   "body": "A <b>94-page report</b> takes most people half a day to digest. \"Read this entire document. Give me the <b>5 most important points</b>, anything that could cost me money, and one thing the author buried\"",
+   "hsize": 88,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>RESEARCH ANYONE</em> BEFORE YOU MEET THEM",
+   "body": "Researching someone for a meeting takes <b>2 hours</b> minimum. \"Tell me everything public about <b>[name]</b>. Their career, recent interviews, what they care about, and <b>3 things to mention</b> that impress them\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>COMPARE ANY PURCHASE</em> IN 30 SECONDS",
+   "body": "People research purchases for <b>8 hours</b> and still pick wrong. \"I need <b>[X]</b>. Compare the top 5 options by price, features I need, hidden costs, and tell me which to pick\"",
+   "hsize": 100,
+   "media": "posts/2026-08-05-edu-6-ai-prompts-that-replace-hours-of-resea/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>LEARN ANY NEW SKILL</em> IN ONE WEEK",
+   "body": "Online courses take <b>40 hours</b> and cost <b>$500</b>. \"I want to learn <b>[skill]</b> from zero. Build a <b>7-day plan</b>, one hour a day. Day 1 makes me dangerous enough to hold a conversation\"",
+   "hsize": 100,
+   "media": "posts/2026-08-05-edu-6-ai-prompts-that-replace-hours-of-resea/gen-4.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>SIZE UP ANY MARKET</em> BEFORE YOU START",
+   "body": "Proper market research takes <b>3 weeks</b>. Most people skip it. \"I want to start <b>[X]</b>. Who already does this, what they charge, where they're weak, and the fastest path to my first <b>$1,000</b>\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) GET A <em>BRUTAL SECOND OPINION</em> ON ANY DECISION",
+   "body": "People spend <b>days</b> going back and forth on big decisions. \"Here's a decision I'm making: <b>[decision]</b>. Give me <b>3 reasons</b> it's terrible, 3 it's great, and what I'm not seeing\"",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS POST</em>",
+   "body": "You'll want these prompts the next time you need to look anything up. Save it now. Daily AI skills and news you can use tonight",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 6 prompts \ud83d\udc47 These turn hours of research, prep, and comparison into a 30-second AI conversation\n\nDigest a 200-page document in 60 seconds, research anyone before you meet them, compare any purchase in 30 seconds, learn any new skill in one week, size up any market before you start, get a brutal second opinion on any decision\n\nA year ago these would have taken a research team or hours on Google. Now one prompt, half a minute. The gap between people who use these and people who don't gets wider every week.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Anthropic, OpenAI\n\n#AI #AIPrompts #Productivity #BusinessTips #ArtificialIntelligence",
+ "pinned_comment": "Which one are you copying first? Number 4 is the sleeper, most people never think to ask AI to teach them a whole skill in a week.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>REPLACE YOUR RESEARCH ASSISTANT</em>",
+   "6 AI PROMPTS THAT <em>MAKE GOOGLE LOOK SLOW</em>",
+   "6 AI PROMPTS THAT <em>REPLACE HOURS OF RESEARCH</em>",
+   "6 AI PROMPTS THAT <em>KNOW MORE THAN YOUR ANALYST</em>",
+   "6 PROMPTS THAT <em>DO YOUR HOMEWORK IN 30 SECONDS</em>"
+  ],
+  "scores": [
+   5,
+   8,
+   5,
+   4,
+   7
+  ],
+  "winner": 1,
+  "why": "Everyone uses Google \u2014 calling it 'slow' is a provocation that lands in under a second and makes you feel like you're missing something real. [4] is punchy but 'homework' skews young and the benefit is generic; 'make Google look slow' is a specific, ego-poking claim that works on anyone."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>MAKE GOOGLE LOOK SLOW</em>",
+   "6 AI PROMPTS <em>SMARTER THAN ANY GOOGLE SEARCH</em>",
+   "6 AI PROMPTS THAT <em>MAKE GOOGLE OBSOLETE</em>",
+   "6 AI PROMPTS <em>YOUR GOOGLE CAN'T DO</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   7,
+   5
+  ],
+  "winner": 2,
+  "why": "OBSOLETE is the most dramatic word in the set \u2014 it implies a total replacement, not just a comparison, which makes the brain go 'wait, really?' SMARTER THAN ANY GOOGLE SEARCH is just as clean but 'smarter' feels like a softer, more expected claim you've heard a hundred times before."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "\u00a73 COVER IMAGE: Generated Sundar Pichai in front of Google logo has zero connection to '6 AI prompts for research and prep.' Thumb test total failure \u2014 a stranger at feed size guesses a Google/Pichai story, not a utility-prompt post. The image is decoration, not proof or a staged scene. Fix: the cover needs a subject that signals 'AI prompts that save you hours' \u2014 a person at a laptop with a visib"
+}
