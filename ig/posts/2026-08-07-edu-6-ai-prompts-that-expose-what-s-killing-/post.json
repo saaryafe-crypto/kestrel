@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A FOUNDER RAN 6 FREE AI PROMPTS <em>AND MATCHED WHAT HER $8,000 CONSULTANT TOLD HER</em>",
+   "kicker": "CONSULTANTS CHARGE THOUSANDS FOR THESE",
+   "hsize": 70,
+   "face": [
+    "Mark Cuban"
+   ],
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-expose-what-s-killing-/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>EXPOSE YOUR PRICING MISTAKES</em>",
+   "body": "Consultants typically charge around <b>$2,000</b> for a pricing audit. \"Here's what I charge for <b>[products]</b> and what 3 competitors charge. Tell me exactly <b>how much I'm leaving on the table</b>\"",
+   "hsize": 110,
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-expose-what-s-killing-/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>GRADE YOUR WEBSITE</em> LIKE A CUSTOMER",
+   "body": "A web agency can charge <b>$5,000</b> or more just to tell you what's wrong. \"Look at <b>[my website]</b>. Give me the 3 biggest reasons someone leaves without buying and rewrite <b>the first thing they see</b>\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>FIND YOUR BIGGEST BOTTLENECK</em>",
+   "body": "A business consultant can charge <b>$300 an hour</b> for this. \"Here's how my business works: <b>[describe it]</b>. Find the single step slowing everything down and <b>how to fix it</b>\"",
+   "hsize": 110,
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-expose-what-s-killing-/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>SCORE YOUR MARKETING</em> OUT OF 10",
+   "body": "Agencies can bill <b>$3,000 a month</b> or more and never say what's failing. \"Here are my last <b>10 posts</b>. Score each 1-10 for engagement and rewrite the lowest one to <b>double its reach</b>\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>PREDICT WHEN YOU RUN OUT OF MONEY</em>",
+   "body": "A part-time finance director can cost <b>$5,000 a month</b> or more. \"Here are 3 months of <b>income and expenses</b>. Tell me when I run out of money if nothing changes and <b>what to cut first</b>\"",
+   "hsize": 88,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>STRESS-TEST YOUR BUSINESS</em> BEFORE REALITY DOES",
+   "body": "Strategy firms can charge <b>$10,000</b> or more for this kind of session. \"I make money by <b>[describe it]</b>. List the 5 most likely things that kill this business in <b>12 months</b> and how to prevent each\"",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS POST</em>",
+   "body": "You'll want these prompts when you sit down with your real numbers. Save it now. Daily AI news and real skills you can use tonight",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 6 prompts \ud83d\udc47 Each one diagnoses a different part of your business and tells you exactly what's broken\n\nExpose your pricing mistakes, grade your website like a customer would, find your biggest bottleneck, score your marketing out of 10, predict when you run out of money, stress-test your business before reality does\n\nGood consultants charge $5,000 to $15,000 for this kind of diagnostic. These six prompts give you the same hard truths in one sitting. The owners using them fix problems before they cost real money.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Anthropic, OpenAI\n\n#AI #AIPrompts #SmallBusiness #Entrepreneur #BusinessTips",
+ "pinned_comment": "Which one are you running first? Number 5 keeps business owners up at night for a reason.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>THAT EXPOSE WHAT'S KILLING YOUR BUSINESS</em>",
+   "6 AI PROMPTS <em>THAT GRADE YOUR BUSINESS LIKE SHARK TANK</em>",
+   "6 AI PROMPTS <em>THAT FIND EVERY CRACK IN YOUR BUSINESS</em>",
+   "6 AI PROMPTS <em>EVERY BUSINESS OWNER SHOULD RUN TONIGHT</em>",
+   "6 AI PROMPTS <em>WORTH $10,000 OF CONSULTING FOR FREE</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   5,
+   6,
+   9
+  ],
+  "winner": 4,
+  "why": "The $10,000 number stops my thumb cold \u2014 it's a concrete promise I can immediately evaluate and it makes me feel like I'm about to steal something valuable. Shark Tank is vivid and I'd probably swipe on that too, but it tells me the format, not the payoff \u2014 '$10k free' tells me both."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>THAT EXPOSE EVERY FLAW IN YOUR BUSINESS</em>",
+   "6 AI PROMPTS <em>SO BRUTAL THEY REPLACE A PAID BUSINESS CONSULTANT</em>",
+   "6 AI PROMPTS <em>WORTH $10,000 OF CONSULTING FOR FREE</em>",
+   "6 AI PROMPTS <em>THAT STRESS-TEST YOUR BUSINESS BEFORE REALITY DOES</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "\"BRUTAL\" lands before your brain even finishes the line \u2014 it implies the AI won't coddle you, which hits differently than a dollar figure. $10,000 is a number; brutal is a feeling, and feelings stop thumbs."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Cover contract broken (\u00a74): the hook promises a specific founder's story \u2014 she ran 6 prompts and MATCHED what her $8,000 consultant told her \u2014 but no slide names the founder, revisits the $8,000 fee, or shows the comparison. The narrative frame opens and never closes. Fix: either add a setup line (slide 1 body or a dedicated story slide) that names the founder and anchors the $8,000 engagement, wi"
+}
