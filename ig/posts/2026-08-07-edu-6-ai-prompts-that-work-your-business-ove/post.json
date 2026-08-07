@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 PROMPTS THAT <em>WORK YOUR $3,200-A-MONTH NIGHT SHIFT FOR FREE</em>",
+   "kicker": "COPY ALL 6 BEFORE BED",
+   "hsize": 70,
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-work-your-business-ove/gen-0-r.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>ANSWER EVERY CUSTOMER EMAIL</em> OVERNIGHT",
+   "body": "A night-shift rep costs <b>$3,200 a month</b> to answer emails while you sleep. 'Here are my unread customer emails. Sort by urgency, draft a reply for each, flag any that need me personally'",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>CATCH EVERY WRONG CHARGE</em> BEFORE BREAKFAST",
+   "body": "An auditor charges <b>$150 an hour</b> to catch what slips through while you sleep. 'Here is my bank statement. Flag anything over $200 I didn't authorize and tell me if spending changed'",
+   "hsize": 100,
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-work-your-business-ove/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>PREP EVERY MEETING</em> BEFORE YOUR ALARM",
+   "body": "Meeting prep costs managers <b>4 hours every week</b>. This runs while they sleep. 'Here is my calendar for tomorrow. For each meeting: who is there, what they care about, three points I should raise'",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>COLLECT YOUR UNPAID INVOICES</em> AT DAWN",
+   "body": "Chasing payments eats <b>15 hours a month</b> you could spend sleeping. 'Here are my outstanding invoices. Find every one past due and draft a firm but polite follow-up for each'",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>SORT YOUR TEAM'S UPDATES</em> BY MORNING",
+   "body": "A manager reads <b>100+ messages a day</b>, most arriving overnight. 'Here are today's messages from my team. Five bullets: what got done, what is stuck, what needs my decision tomorrow'",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>SCREEN YOUR NEXT HIRE</em> BEFORE COFFEE",
+   "body": "Screening resumes takes <b>23 hours per role</b> that you could sleep through. 'Here are 20 applications. Score each 1-10 on my criteria and show me only the top 3 with why each wins'",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR THE NIGHT YOU NEED IT",
+   "body": "You'll want these prompts when you're drowning at midnight. <b>Save this post</b> and paste them when the work piles up. Daily AI news and real skills at <b>@yaffeai</b>",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 prompts that keep your business running while you sleep. One for every part you hate doing by hand \ud83d\udd25\n\nCustomer emails answered overnight, wrong charges caught before breakfast, every meeting prepped before your alarm, unpaid invoices chased at dawn, team updates sorted into five bullets by morning, and job applications ranked before your first coffee.\n\nThe people pulling ahead right now aren't working more hours. They paste six prompts before bed and wake up to a business that already moved without them.\nRunning a business? DM us \"AI\" and we'll show you what this could automate for yours\n\nSources: Anthropic, OpenAI\n\n#AI #Business #Productivity #Automation #Entrepreneur",
+ "pinned_comment": "Which one are you pasting before bed tonight? Slide 5 is the one that pays for itself by morning.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT <em>MAKE MONEY WHILE YOUR PHONE CHARGES</em>",
+   "6 AI PROMPTS <em>DOING WHAT YOU HATE</em> OVERNIGHT",
+   "6 AI PROMPTS YOUR <em>COMPETITORS ALREADY RUN OVERNIGHT</em>",
+   "6 AI PROMPTS THAT <em>RUN YOUR BUSINESS WHILE YOU SLEEP</em>",
+   "6 PROMPTS THAT <em>WORK YOUR NIGHT SHIFT FOR FREE</em>"
+  ],
+  "scores": [
+   7,
+   4,
+   6,
+   5,
+   6
+  ],
+  "winner": 0,
+  "why": "The phone charging detail is hyper-specific and visual \u2014 at 2am my phone literally IS charging, so it lands as a real moment, not an abstract promise. The runner-up's competitor FOMO is solid but assumes you run a business; the phone hook works on everyone."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT <em>MAKE MONEY WHILE YOUR PHONE CHARGES</em>",
+   "6 PROMPTS THAT <em>OUTWORK YOU BEFORE YOUR ALARM</em>",
+   "6 PROMPTS THAT <em>STEAL BACK YOUR MORNING</em>",
+   "6 PROMPTS THAT <em>WORK THE NIGHT SHIFT FOR YOU</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   5,
+   8
+  ],
+  "winner": 3,
+  "why": "\"Night shift\" lands in one instant \u2014 everyone knows exactly what it means, and the image of AI clocking in while you sleep is visceral and concrete. The runner-up's \"phone charges\" detail is clever but \"make money\" is worn enough that the novelty bleeds out before it lands."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "Slide 1 body repeats the cover's $3,200 figure verbatim ('A night-shift rep costs $3,200 a month') \u2014 \u00a74 bars two slides carrying the same fact. Fix: replace slide 1's cost anchor with a different stat (e.g., average overnight email volume or cost-per-ticket) so the reader gets a NEW number on every swipe."
+}
