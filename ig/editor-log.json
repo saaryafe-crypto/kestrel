@@ -565,5 +565,19 @@
   "subject": "THESE 6 AI PROMPTS <em>REPLACE HOURS OF RESEARCH, PREP, AND COMPARISON WITH A 30-SECOND CONVERSATION</em>",
   "verdict": "REJECT",
   "reason": "§3 COVER IMAGE: Generated Sundar Pichai in front of Google logo has zero connection to '6 AI prompts for research and prep.' Thumb test total failure — a stranger at feed size guesses a Google/Pichai story, not a utility-prompt post. The image is decoration, not proof or a staged scene. Fix: the cover needs a subject that signals 'AI prompts that save you hours' — a person at a laptop with a visib"
+ },
+ {
+  "t": "2026-08-07T18:13:13Z",
+  "gate": "B",
+  "subject": "6 AI PROMPTS THAT <em>CLOSE DEALS YOU'D LOSE</em>",
+  "verdict": "REJECT",
+  "reason": "Hook is 9 words — below §2's 12-word minimum. It reads as a noun-phrase label ('6 AI prompts that…'), not ONE complete sentence with actor + action + wild specifics. Rewrite as a 12–25 word summarizing sentence using the §1-approved 'people are letting AI do X' angle, e.g. 'PEOPLE ARE USING THESE 6 AI PROMPTS TO CLOSE SALES DEALS WITHOUT A SALES TEAM' — gives it an actor, an action, and the felt c"
+ },
+ {
+  "t": "2026-08-07T18:16:11Z",
+  "gate": "B",
+  "subject": "PEOPLE ARE USING THESE 6 AI PROMPTS TO <em>CLOSE SALES DEALS WITHOUT A SALES TEAM</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 5 headline 'THREE REFERRALS' repeats the number in the body '3 messages' — §4 rule: 'a body never repeats its own headline's number.' Fix: change body to name the messages without the numeral (e.g., 'Write a set of referral messages I can send…') or change headline to drop the number ('TURN ONE CUSTOMER INTO A REFERRAL ENGINE')."
  }
 ]

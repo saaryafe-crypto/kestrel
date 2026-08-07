@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "PEOPLE ARE USING THESE 6 AI PROMPTS TO <em>CLOSE SALES DEALS WITHOUT A SALES TEAM</em>",
+   "kicker": "NO SALES TEAM NEEDED",
+   "hsize": 72,
+   "face": [
+    "Mark Cuban"
+   ],
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-close-deals-for-you-op/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>HANDLE THE OBJECTION THAT KILLS YOUR DEALS</em>",
+   "body": "One wrong answer to <b>'too expensive'</b> loses the deal. \"Here are my <b>5 most common sales objections</b>. For each, write a <b>2-sentence reply</b> that reframes it using a specific number\"",
+   "hsize": 84,
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-close-deals-for-you-op/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>WRITE THE COLD EMAIL THAT GETS A REPLY</em>",
+   "body": "A great salesperson closes <b>1 in 10</b> cold emails. \"Write a cold email to <b>[name]</b> at <b>[company]</b>. Mention their <b>[recent win]</b> and connect it to how [my product] solves their next problem\"",
+   "hsize": 80,
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-close-deals-for-you-op/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>FOLLOW UP WITHOUT BEING ANNOYING</em>",
+   "body": "<b>80%</b> of sales close after the <b>5th follow-up</b>, but most people quit after one. \"Write <b>5 follow-up emails</b> spaced over <b>3 weeks</b>. Each adds new value instead of just asking 'any update?'\"",
+   "hsize": 115,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>WRITE A PROPOSAL IN 60 SECONDS</em>",
+   "body": "Most proposals take a <b>full day</b> and still feel generic. \"Here is what <b>[prospect]</b> needs. Write a <b>one-page proposal</b>: their problem, my solution, <b>three results</b> they'll get, and a price\"",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>TURN ONE CUSTOMER INTO THREE REFERRALS</em>",
+   "body": "Referred leads close at <b>4x the rate</b> of cold ones. \"I just closed a deal with <b>[customer type]</b>. Write <b>3 messages</b> I can send asking for referrals without sounding desperate\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>PREDICT WHICH LEADS WILL BUY</em>",
+   "body": "Most people sell to everyone and close <b>almost nobody</b>. \"Here are my last <b>20 customers</b>. Find which traits predict a sale so I stop wasting calls on <b>dead leads</b>\"",
+   "hsize": 115,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR YOUR NEXT SALE",
+   "body": "You'll want these prompts when money is on the line. Save it now. Daily AI news and real skills you can use tonight",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 6 prompts \ud83d\udc47 These turn cold leads, lost deals, and dead follow-ups into closed sales\n\nHandle the objection that kills most deals, write the cold email that actually gets a reply, send 5 follow-ups that add value instead of begging, write a one-page proposal in 60 seconds, turn one closed customer into three referrals, and predict which leads will buy before you waste the call\n\nAI got good enough at writing this year that the sales copy it produces is now better than what most reps send. These 6 prompts are the starting lineup.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Anthropic, OpenAI\n\n#AI #Sales #BusinessTips #Entrepreneurship #ArtificialIntelligence",
+ "pinned_comment": "Number 3 is the sleeper. 80% of deals close after the 5th follow-up and most people quit after one. Which prompt are you copying first?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>REPLACE YOUR BEST SALESPERSON</em>",
+   "6 AI PROMPTS THAT <em>CLOSE DEALS FOR YOU</em>",
+   "6 AI PROMPTS THAT <em>TURN STRANGERS INTO BUYERS</em>",
+   "6 PROMPTS THAT <em>OUTSELL YOUR WHOLE TEAM</em>",
+   "6 AI PROMPTS THAT <em>SELL WHILE YOU SLEEP</em>"
+  ],
+  "scores": [
+   5,
+   4,
+   7,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "'Sell while you sleep' is a universal fantasy that lands in under a second \u2014 zero context needed, everyone wants money while they're unconscious. The runner-up options either require you to have a sales team or take an extra beat to parse the transformation, which is already too slow at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>SELL WHILE YOU SLEEP</em>",
+   "6 AI PROMPTS THAT <em>CLOSE DEALS YOU'D LOSE</em>",
+   "6 AI PROMPTS <em>MOST SALESPEOPLE STILL DON'T USE</em>",
+   "6 AI PROMPTS <em>BETTER THAN MOST SALES COURSES</em>"
+  ],
+  "scores": [
+   4,
+   7,
+   6,
+   5
+  ],
+  "winner": 1,
+  "why": "\"Deals you'd LOSE\" is a gut punch \u2014 loss aversion hits harder than any promise of gain, and it's specific enough to feel personal without requiring setup. The runner-up ([2]) creates curiosity with \"still don't use\" but that FOMO formula is worn out; it makes me think \"another secrets post\" and keep scrolling."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Slide 5 headline 'THREE REFERRALS' repeats the number in the body '3 messages' \u2014 \u00a74 rule: 'a body never repeats its own headline's number.' Fix: change body to name the messages without the numeral (e.g., 'Write a set of referral messages I can send\u2026') or change headline to drop the number ('TURN ONE CUSTOMER INTO A REFERRAL ENGINE')."
+}
