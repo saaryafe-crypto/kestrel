@@ -65,11 +65,6 @@
   "date": "2026-07-24"
  },
  {
-  "page": "mashable",
-  "hook": "\"A very unusual raccoon from Seattle has become the internet\u2019s newest sweetheart.\n\nKiana Hall encountered Jimothy while walking with her husband through Ballard on July 13.\n\nHall initially thought the animal moving benea",
-  "date": "2026-07-23"
- },
- {
   "page": "technology",
   "hook": "\"Swipe \u2b05\ufe0f to explore the biggest global headlines from the last 24 hours, from blockbuster entertainment and politics to science, technology and crypto, all in one quick update \ud83c\udf0d\ud83d\udd25\n\nSpider Man: Brand New Day shattered the",
   "date": "2026-07-31"
@@ -108,11 +103,6 @@
   "page": "futurism",
   "hook": "\"A Chinese open-weight AI model called Kimi K3, developed by Beijing-based firm Moonshot AI, has sent a shiver down the spines of AI tech executives. The powerful, 2.8 trillion-parameter model impressed with its competen",
   "date": "2026-07-24"
- },
- {
-  "page": "futurism",
-  "hook": "\"Even as the AI bubble becomes a mainstream talking point on Wall Street, tech companies continue to peddle the fantasy that AI is poised to become an almost magical money-maker. Case in point, OpenAI wants you to believ",
-  "date": "2026-07-23"
  },
  {
   "page": "mashable",
@@ -231,11 +221,6 @@
  },
  {
   "page": "technology",
-  "hook": "\"Light has introduced the $299 Light Flip, a minimalist 5G phone created to reduce screen addiction by removing browsers, social media, and touch controls while keeping essential everyday features \ud83d\udcf1\ud83e\udde0\n\nDeveloped by Light,",
-  "date": "2026-07-23"
- },
- {
-  "page": "technology",
   "hook": "\"Meta has released Muse Code in beta. It\u2019s the first coding agent from MSL, built on Muse Spark 1.2.\n\nMuse\u00a0Code takes on complex software engineering tasks across large repositories: planning changes, writing code, and v",
   "date": "2026-08-05"
  },
@@ -313,5 +298,20 @@
   "page": "wired",
   "hook": "\"For the second WIRED@Night event, WIRED headed to Brooklyn\u2019s Green-Wood Cemetery for a special screening of The Oldest Person in the World, ahead of its theatrical release in September.\n\nAfter the screening, Green joine",
   "date": "2026-08-04"
+ },
+ {
+  "page": "technology",
+  "hook": "\"A simple Google Earth flyover of Oahu reveals one of America\u2019s most important Pacific military hubs, where fighter jets, transport aircraft, missile defense systems, and naval infrastructure sit in plain view \u2708\ufe0f\ud83c\udf0a\n\nThe f",
+  "date": "2026-08-06"
+ },
+ {
+  "page": "technology",
+  "hook": "\"A new browser game called Hop.Earth lets you explore real road networks across the world by streaming map data directly into your browser, with no download required \ud83c\udf0d\n\nInstead of storing a massive game world, Hop.Earth ",
+  "date": "2026-08-06"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Meta has opened Pandora\u2019s box with its AI-infused smart sunglasses. The high-dollar accessory has sparked a heated debate over privacy, with unsavory individuals abusing the eyewear\u2019s easily-missed cameras to harass uns",
+  "date": "2026-08-06"
  }
 ]
