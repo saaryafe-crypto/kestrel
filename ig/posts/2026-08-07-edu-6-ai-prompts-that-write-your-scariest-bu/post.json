@@ -1,0 +1,96 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 AI PROMPTS <em>FOR THE EMAILS KEEPING YOU UP</em>",
+   "kicker": "STOP DRAFTING AT 2 AM",
+   "hsize": 72,
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-write-your-scariest-bu/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>RAISE YOUR PRICES</em> WITHOUT LOSING A CLIENT",
+   "body": "Consultants charge <b>$500</b> just to script this conversation. \"I'm raising [service] from <b>[old price]</b> to <b>[new price]</b>. Write an email that makes the client feel they're getting <b>more, not paying more</b>\"",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>COLLECT LATE PAYMENTS</em> WITHOUT BURNING BRIDGES",
+   "body": "A collections agency takes <b>25-50%</b> of what they recover. \"My client owes <b>[amount]</b>, <b>[days]</b> overdue. Write a reminder firm enough to get paid, warm enough to keep them\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>PITCH A STRANGER</em> AND GET A MEETING",
+   "body": "The average cold email gets a <b>1%</b> reply rate. \"I run <b>[business]</b>. My ideal client is <b>[describe them]</b>. Write a cold email so specific they think I already know them\"",
+   "hsize": 105,
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-write-your-scariest-bu/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FIRE SOMEONE</em> WITHOUT GETTING SUED",
+   "body": "A lawyer charges <b>$350 an hour</b> to draft this. \"I need to let go of <b>[role]</b> for <b>[reason]</b>. Write the email so it's kind, professional, and keeps me <b>legally safe</b>\"",
+   "hsize": 115,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>RESPOND TO AN ANGRY CUSTOMER</em> AND KEEP THEM",
+   "body": "Losing one customer costs <b>5x more</b> than winning a new one. \"A customer sent this complaint: <b>[their message]</b>. Write a response that makes them feel heard and want to stay\"",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>REJECT A CLIENT</em> WITHOUT MAKING AN ENEMY",
+   "body": "A wrong client costs more than no client at all. \"I can't take on <b>[project]</b> because <b>[reason]</b>. Write a rejection that leaves the door open and earns their respect\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS POST</em>",
+   "body": "You'll want these prompts the next time you're staring at a blank draft at midnight. Save it now. Daily AI news and real skills you can use tonight",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 prompts that write the emails you've been avoiding \ud83d\udc47 Each one nails the tone that gets replies, keeps clients, and closes deals\n\nRaise your prices without losing a client, collect late payments without burning bridges, pitch a cold stranger and land a meeting, fire someone without getting sued, respond to an angry customer and keep them, reject a client without making an enemy\n\nEvery business owner has at least one email sitting unsent right now. These prompts handle the ones worth losing sleep over. The owners using them send in 30 seconds instead of drafting for three days.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Anthropic, OpenAI, Bain & Company\n\n#AI #AIPrompts #SmallBusiness #Entrepreneur #BusinessTips",
+ "pinned_comment": "Which email are you writing first? Slide 5 is the one everyone puts off the longest.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>FOR THE EMAILS KEEPING YOU UP</em>",
+   "6 EMAILS <em>AI WRITES BETTER THAN YOU CAN</em>",
+   "6 AI PROMPTS <em>THAT WRITE YOUR SCARIEST EMAILS</em>",
+   "6 EMAILS <em>THAT MAKE OR BREAK YOUR BUSINESS</em>"
+  ],
+  "scores": [
+   7,
+   5,
+   6,
+   4
+  ],
+  "winner": 0,
+  "why": "\"Keeping you up\" lands like a gut punch at 2am \u2014 it's literally describing me right now, dreading that email. Candidate 2 has similar emotional range but 'scariest' takes a half-second to parse and doesn't hit the same specific nerve."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>FOR EMAILS MOST PEOPLE RUIN</em>",
+   "6 AI PROMPTS <em>FOR THE EMAIL STUCK IN YOUR DRAFTS</em>",
+   "6 AI PROMPTS <em>FOR THE EMAILS KEEPING YOU UP</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "At 2am, 'keeping you up' isn't a metaphor \u2014 it's literally why I'm still on my phone, and that timing collision makes it feel like the slide is reading my mind. The other two are productivity tips; this one is a feeling I'm already having."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}
