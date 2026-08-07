@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שישה פרומפטים</em> ותדעו על המתחרה יותר ממה שהצוות שלו יודע",
+   "kicker": "בלי יועצים ובלי סוכנויות",
+   "hsize": 72,
+   "face": [
+    "Mark Zuckerberg"
+   ],
+   "media": "posts/2026-08-04-edu-6-ai-prompts-that-spy-on-your-competitor/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הביקורות שלו עובדות נגדו",
+   "body": "קחו את <b>הביקורות של המתחרה מגוגל</b> ותנו ל-AI למצוא תלונות שחוזרות <b>שלוש פעמים ומעלה</b>. על כל תלונה הוא כותב מודעה ממוקדת. פעם הייתם צריכים <b>חברת מחקר</b> בשביל זה.",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "האסטרטגיה כולה בדף המחירים",
+   "body": "קחו את <b>דף המחירים של המתחרה</b> ותנו ל-AI לפרק את האסטרטגיה. הוא מזהה <b>טריקים פסיכולוגיים</b> בתמחור ומראה לכם בדיוק איפה לתמחר נמוך יותר. פעם שילמתם על זה <b>ליועץ</b>.",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "משרה פתוחה אחת חושפת את המהלך הבא",
+   "body": "תנו ל-AI את <b>המשרות הפתוחות של המתחרה</b>. הוא מבין מזה מה הם בונים, <b>לאיזה שוק הם נכנסים</b>, ומה כדאי לכם לעשות. התוצאה: תמונה של המהלך הבא שלהם, <b>שישה חודשים לפני כולם</b>.",
+   "hsize": 115,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "מה שהלקוחות מבקשים והמתחרה מתעלם",
+   "body": "קחו את <b>דף המוצר של המתחרה ואת הביקורות של הלקוחות</b>. ה-AI משווה בין מה שהם מבטיחים למה שאנשים מבקשים, ומוציא <b>רשימת בקשות שהמתחרה התעלם מהן</b>. הכי נפוצה למעלה.",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הדרך מהאתר לקופה מלאה חורים",
+   "body": "ה-AI נכנס לאתר של המתחרה בתור <b>קונה חדש</b>, עובר את כל הדרך <b>מדף הנחיתה עד הקופה</b>, ומסמן בדיוק איפה הם מאבדים אנשים. פעם הייתם צריכים <b>סוכנות</b> שתעשה את זה.",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "60 שניות לפני שיחת מכירה",
+   "body": "ה-AI מייצר <b>דף אחד</b> עם הכל: החולשות של המתחרה, היתרונות שלכם, ותשובה לכל התנגדות שלקוח יכול לזרוק. הכל ב-<b>60 שניות</b>. תדפיסו ותיכנסו לשיחה מוכנים.",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את הפוסט הזה",
+   "body": "בפעם הבאה שאתם בונים אסטרטגיה, הכל כאן. שלחו לנו בהודעה את המילה AI ונעזור לכם אישית.",
+   "hsize": 90,
+   "media": null
+  }
+ ],
+ "caption": "שישה פרומפטים שמחליפים יועצים, סוכנויות וחברות מחקר ונותנים לכם יתרון על כל מתחרה.\n\nיזם השתמש בשישה פרומפטים של AI כדי ללמוד על מתחרה יותר ממה שהצוות של המתחרה ידע על עצמו. מביקורות גוגל ועד משרות פתוחות, כל פרומפט מחליף שירות יקר ונותן תוצאות תוך דקות.\n\nעקבו אחרי @ainews.israel לעוד כלים שנותנים לכם יתרון\n\n#AI #Business #Entrepreneurship #Productivity #Strategy",
+ "pinned_comment": "איזה פרומפט מנסים ראשון?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>YOUR COMPETITORS HOPE YOU NEVER FIND</em>",
+   "6 AI PROMPTS THAT <em>SPY ON YOUR COMPETITORS</em>",
+   "6 PROMPTS THAT <em>REPLACE A $10,000 STRATEGIST</em>",
+   "6 PROMPTS THAT <em>TURN AI INTO YOUR BUSINESS SPY</em>",
+   "6 AI PROMPTS THAT <em>EXPOSE WHAT YOUR COMPETITORS HIDE</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   7,
+   5,
+   6
+  ],
+  "winner": 1,
+  "why": "SPY ON YOUR COMPETITORS lands in under a second — 'spy' is a single visceral word that does all the work, and you instantly know what you're getting. The runner-up [0] is solid but 'hope you never find' is a tired formula that my brain already half-skips."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>SO RUTHLESS</em> YOUR COMPETITORS WOULD BAN THEM",
+   "6 AI PROMPTS THAT <em>REVERSE-ENGINEER</em> YOUR COMPETITORS",
+   "6 AI PROMPTS THAT <em>SPY ON YOUR COMPETITORS</em>",
+   "6 AI PROMPTS <em>YOUR COMPETITORS</em> HOPE YOU NEVER FIND"
+  ],
+  "scores": [
+   7,
+   5,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "\"SPY ON\" is immediate and visceral — you know exactly what you're getting and it sounds slightly illegal, which is the whole appeal. The runner-up [3] has the forbidden-knowledge angle but 'hope you never find' makes you do a half-second of parsing that [2] never needs."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "editor_override": "COVER CONTRACT BROKEN (§4): Hook promises a specific story — 'ONE FOUNDER' who did something and achieved a specific outcome ('knew more about a rival than the rival's own team did'). The slides never name this founder, never describe the event, never deliver any story. Every slide is a generic prompt template. The cover writes a check the carousel never cashes.; TRUTH VIOLATION (§5): 'One founder"
+}
