@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שישה פרומפטים של AI <em>שסוגרים לכם עסקאות</em>",
+   "kicker": "בלי צוות מכירות",
+   "hsize": 72,
+   "face": [
+    "Mark Cuban"
+   ],
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-close-deals-for-you-op/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "הלקוח מתנגד: <em>AI כותב לכם תשובה</em>",
+   "body": "תגידו ל-AI מה המוצר ותבקשו ממנו לרשום <b>חמש התנגדויות נפוצות</b> של לקוחות. לכל אחת הוא כותב <b>תשובה של שני משפטים</b> עם מספר קונקרטי שמפרק את הטענה. ״יקר לי״? התשובה כבר מוכנה עם נתון שמראה כמה הלקוח מפסיד בלעדיכם.",
+   "hsize": 84,
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-close-deals-for-you-op/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "המייל הקר <em>שבאמת עונים עליו</em>",
+   "body": "איש מכירות מעולה מקבל תשובה על <b>אחד מכל עשרה מיילים קרים</b>. הפרומפט הזה אומר ל-AI לחפש <b>הישג אמיתי</b> של הלקוח הפוטנציאלי, לפתוח איתו את המייל ולחבר אותו למוצר שלכם. המייל מרגיש אישי כי הוא באמת אישי.",
+   "hsize": 80,
+   "media": "posts/2026-08-07-edu-6-ai-prompts-that-close-deals-for-you-op/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "רוב האנשים מוותרים: <em>העסקה נסגרת בפולואפ החמישי</em>",
+   "body": "<b>80% מהעסקאות נסגרות אחרי הפנייה החמישית</b>, אבל רוב אנשי המכירות מוותרים אחרי הראשונה. תבקשו מ-AI סדרה של <b>חמישה מיילים לאורך שלושה שבועות</b>, כל אחד עם ערך חדש. לא ״רציתי לבדוק אם ראית״, אלא משהו שהלקוח ירצה לפתוח.",
+   "hsize": 115,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הצעת מחיר <em>בדקות במקום יום שלם</em>",
+   "body": "לכתוב הצעת מחיר טובה לוקח <b>יום שלם</b>. הפרומפט מבקש מ-AI <b>הצעה של עמוד אחד</b>: הבעיה של הלקוח, הפתרון שלכם, <b>שלוש תוצאות צפויות</b> והמחיר. אתם רק צריכים לקרוא, לתקן ולשלוח.",
+   "hsize": 105,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הלקוחות שלכם <em>ימכרו בשבילכם</em>",
+   "body": "ליד שמגיע מהפנייה <b>נסגר פי ארבעה</b> מליד קר. אחרי שסגרתם עסקה, תבקשו מ-AI <b>שלוש הודעות</b> שמבקשות מהלקוח המרוצה להמליץ עליכם. הוא כבר אוהב אותכם, פשוט צריך לתת לו את המילים.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "תפסיקו <em>לרדוף אחרי לידים מתים</em>",
+   "body": "תתנו ל-AI את רשימת <b>20 הלקוחות האחרונים</b> שלכם ותבקשו ממנו למצוא <b>מה משותף לאלה שקנו</b>. הוא יגיד לכם בדיוק איזה סוג לקוח שווה את הזמן ואיזה לא. במקום לרדוף אחרי כולם, תרדפו רק אחרי מי שבאמת יקנה.",
+   "hsize": 115,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את הפוסט</em>",
+   "body": "בפעם הבאה שתצטרכו לסגור עסקה, <b>הפרומפטים מחכים פה</b>. שמרו ועקבו אחרי @ainews.israel.",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "שישה פרומפטים של AI שסוגרים עסקאות בשבילכם, בלי צוות מכירות.\n\nמתשובות להתנגדויות ועד סינון לידים, כל פרומפט מחליף שלב שלם בתהליך המכירה. שמרו לפעם הבאה שתצטרכו למכור.\n\nעוקבים אחרי @ainews.israel לעוד כלים של AI שעובדים\n\n#AI #Sales #BusinessTips #Entrepreneurship #ArtificialIntelligence",
+ "pinned_comment": "איזה פרומפט הכי שימושי לדעתכם? כתבו בתגובות",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>REPLACE YOUR BEST SALESPERSON</em>",
+   "6 AI PROMPTS THAT <em>CLOSE DEALS FOR YOU</em>",
+   "6 AI PROMPTS THAT <em>TURN STRANGERS INTO BUYERS</em>",
+   "6 PROMPTS THAT <em>OUTSELL YOUR WHOLE TEAM</em>",
+   "6 AI PROMPTS THAT <em>SELL WHILE YOU SLEEP</em>"
+  ],
+  "scores": [
+   5,
+   4,
+   7,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "'Sell while you sleep' is a universal fantasy that lands in under a second — zero context needed, everyone wants money while they're unconscious. The runner-up options either require you to have a sales team or take an extra beat to parse the transformation, which is already too slow at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>SELL WHILE YOU SLEEP</em>",
+   "6 AI PROMPTS THAT <em>CLOSE DEALS YOU'D LOSE</em>",
+   "6 AI PROMPTS <em>MOST SALESPEOPLE STILL DON'T USE</em>",
+   "6 AI PROMPTS <em>BETTER THAN MOST SALES COURSES</em>"
+  ],
+  "scores": [
+   4,
+   7,
+   6,
+   5
+  ],
+  "winner": 1,
+  "why": "\"Deals you'd LOSE\" is a gut punch — loss aversion hits harder than any promise of gain, and it's specific enough to feel personal without requiring setup. The runner-up ([2]) creates curiosity with \"still don't use\" but that FOMO formula is worn out; it makes me think \"another secrets post\" and keep scrolling."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "editor_override": "Slide 5 headline 'THREE REFERRALS' repeats the number in the body '3 messages' — §4 rule: 'a body never repeats its own headline's number.' Fix: change body to name the messages without the numeral (e.g., 'Write a set of referral messages I can send…') or change headline to drop the number ('TURN ONE CUSTOMER INTO A REFERRAL ENGINE')."
+}
