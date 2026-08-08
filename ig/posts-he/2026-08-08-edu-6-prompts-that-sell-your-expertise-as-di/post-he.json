@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שישה פרומפטים בחינם</em> שמחליפים קורס של אלף דולר",
+   "hsize": 72,
+   "kicker": "אפשר להשתמש בהם עכשיו",
+   "media": "posts/2026-08-08-edu-6-prompts-that-sell-your-expertise-as-di/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "פרומפט 1: <em>ספר דיגיטלי</em> בסגנון הדיבור שלכם",
+   "hsize": 95,
+   "body": "הקליטו את עצמכם מסבירים נושא שאתם מכירים ותנו לAI את התמליל. הוא יחזיר <b>מתווה של עשרה פרקים</b> ויכתוב את <b>הפרק הראשון</b> בדיוק בקול שלכם.",
+   "media": "posts/2026-08-08-edu-6-prompts-that-sell-your-expertise-as-di/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "פרומפט 2: <em>קורס אונליין שלם</em> תוך דקות",
+   "hsize": 88,
+   "body": "ספרו לAI על תחום המומחיות שלכם. הוא יבנה <b>קורס של שישה מודולים</b> עם כותרות, תכני שיעור, תרגיל לכל מודול וכותרת לדף מכירה. קורסים כאלה עולים <b>$497 עד $2,000</b> לתלמיד.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "פרומפט 3: <em>מדריך חינמי</em> שמביא לכם לקוחות",
+   "hsize": 100,
+   "body": "תגידו לAI מה העסק שלכם עושה. הוא יכתוב <b>מדריך של חמישה עמודים</b> שפותר את הבעיה הכי גדולה של הלקוח שלכם, ומסיים בסיבה לפנות אליכם. <b>בלי להוציא שקל על פרסום</b>.",
+   "media": "posts/2026-08-08-edu-6-prompts-that-sell-your-expertise-as-di/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "פרומפט 4: <em>חמישה מיילים</em> שמוכרים בשבילכם",
+   "hsize": 88,
+   "body": "ספרו לAI על העסק. הוא יכתוב <b>סדרת היכרות של חמישה מיילים</b>, כל מייל מלמד שיעור אחד ומוביל את הקורא להזמין שיחה. שיווק במייל מחזיר <b>36 דולר על כל דולר</b> שמשקיעים.",
+   "media": "posts/2026-08-08-edu-6-prompts-that-sell-your-expertise-as-di/gen-4.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "פרומפט 5: <em>סדנה מוכנה</em> למכירה",
+   "hsize": 100,
+   "body": "בחרו נושא וקהל יעד. AI יכין לכם <b>סדנה של שעה וחצי</b> עם נקודות דיבור, תרגילים ומתווה שקופיות, שמסתיימת בהצעה לשירות שלכם. סדנאות כאלה עולות <b>$500 עד $5,000</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "פרומפט 6: <em>מחשבון אונליין</em> עם השם שלכם",
+   "hsize": 92,
+   "body": "הגדירו את התחום ואת מה שהלקוח מכניס ומוציא. AI יבנה לכם <b>מחשבון כדף אינטרנט</b> עם השם שלכם וקישור להזמנת שיחה. מחליף <b>תוכנה שעולה 50 דולר בחודש</b>.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את הפוסט</em> ותשתמשו כשצריך",
+   "body": "כל יום אנחנו מפרסמים חדשות AI וכלים שאפשר להשתמש בהם מיד. שלחו לנו הודעה עם המילה <b>AI</b> ונעזור לכם להתאים את הפרומפטים לעסק שלכם ←",
+   "media": null
+  }
+ ],
+ "caption": "שישה פרומפטים בחינם שמחליפים קורס של אלף דולר, ואפשר להתחיל עכשיו.\n\nלכתוב ספר דיגיטלי, לבנות קורס אונליין, ליצור מדריך שמושך לקוחות, לכתוב מיילים שמוכרים, להכין סדנה שלמה ולבנות מחשבון באינטרנט. כל פרומפט לוקח כמה דקות ומחליף כלים שעולים מאות עד אלפי דולרים.\n\nעקבו אחרי @ainews.israel לחדשות AI כל יום\n\n#AI #DigitalProducts #OnlineBusiness #AITools #Entrepreneurship",
+ "pinned_comment": "שמרו ושלחו למישהו שצריך את זה",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>SELL WHAT YOU ALREADY KNOW</em>",
+   "6 AI PROMPTS THAT <em>MAKE YOUR EXPERTISE PAY YOU FOREVER</em>",
+   "6 PROMPTS THAT <em>PACKAGE YOUR BRAIN AND SELL IT</em>",
+   "6 PROMPTS THAT <em>TURN ONE BRAIN INTO SIX PRODUCTS</em>",
+   "6 AI PROMPTS THAT <em>TURN YOUR BEST ADVICE INTO INCOME</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   5,
+   6,
+   7
+  ],
+  "winner": 1,
+  "why": "FOREVER is a genuine gut-punch word — passive income that never stops is the dream, and it lands in under a second. Candidate 0 is close but 'sell what you already know' is a softer promise; 'pay you forever' makes your heart beat faster."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>TURN YOUR BRAIN INTO A BUSINESS</em>",
+   "6 AI PROMPTS THAT <em>MAKE YOUR EXPERTISE PAY YOU FOREVER</em>",
+   "6 AI PROMPTS <em>WORTH MORE THAN MOST PAID COURSES</em>",
+   "6 AI PROMPTS THAT <em>SELL WHAT YOU ALREADY KNOW</em>"
+  ],
+  "scores": [
+   6,
+   5,
+   8,
+   4
+  ],
+  "winner": 2,
+  "why": "\"Worth more than most paid courses\" triggers an instant gut check — am I actually about to get something for free that people spend money on? That value comparison lands in under a second. The runner-up [0] has a punchy phrase but \"turn your brain into a business\" is vague enough that I'm not sure what I'm clicking into, which kills urgency."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)"
+}
