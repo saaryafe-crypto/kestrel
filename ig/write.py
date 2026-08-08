@@ -18,8 +18,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 # call): the IG system ate ~15% of the WEEKLY Claude plan in one day and
 # "You've hit your weekly limit" killed the Aug 7 slots. Writers run Sonnet
 # (top-tier writer, ~5x cheaper on the plan); judges/vision-QA/gates run
-# Haiku (~25x cheaper). ZERO Opus anywhere. If quality ever dips, flipping
-# MODEL back to claude-opus-4-6 is the owner's call, one line.
+# Haiku (~25x cheaper). ZERO Opus anywhere — PERMANENT (owner re-ordered
+# Aug 8: "make sure now the token plan cost is permanent and always").
+# call_claude() hard-rejects any Opus model at runtime; a quality-driven
+# flip back is owner-only and means deliberately removing that gate too.
 MODEL = "claude-sonnet-4-6"
 CHEAP = "claude-haiku-4-5-20251001"
 
@@ -961,6 +963,15 @@ def call_claude(prompt, schema=None, images=None, model=None):
     # (embedded null byte) and are invalid in API JSON anyway
     prompt = prompt.replace("\x00", "")
     use_model = model or MODEL
+    # TOKEN-DIET LOCK (owner order Aug 8: "make sure now the token plan cost
+    # is permanent and always"): this is the ONLY function in the pipeline
+    # that talks to Claude, and Opus is banned here forever. Any future edit
+    # that routes a call to Opus dies loudly instead of silently burning the
+    # plan. Undoing the diet is an owner-only decision and requires
+    # deleting this gate on purpose — never work around it.
+    if "opus" in use_model.lower():
+        raise RuntimeError(f"token-diet lock: Opus is banned ({use_model}) — "
+                           "owner order Aug 8; writers=Sonnet, judges=Haiku")
     if os.environ.get("ANTHROPIC_API_KEY"):
         import anthropic, base64
         client = anthropic.Anthropic()
