@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 72,
+   "headline": "שישה פרומפטים לAI <em>שחושפים את הפחדים, הספקות וסיבות הנטישה שמסתתרים בנתוני הלקוחות שלך</em>",
+   "kicker": "הם כבר סיפרו לך הכל",
+   "face": [
+    "Jeff Bezos"
+   ],
+   "media": "posts/2026-08-08-edu-6-ai-prompts-that-read-your-customers-mi/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 100,
+   "headline": "1) מצא <em>כל פחד שמסתתר בדף המוצר שלך</em>",
+   "body": "AI קורא את דף המוצר שלך כמו <b>קונה מהסס</b> ומוצא פחדים שמעולם לא שמת לב אליהם. \"זה דף המוצר שלי. רשום <b>חמש סיבות</b> שיגרמו למבקר ראשון להסס לפני שהוא קונה\"",
+   "media": "posts/2026-08-08-edu-6-ai-prompts-that-read-your-customers-mi/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 100,
+   "headline": "2) פענח <em>מה הביקורות שלך אומרות באמת</em>",
+   "body": "כשלקוח כותב '<b>בסדר</b>', הוא בדרך כלל מתכוון למשהו אחר לגמרי. הפרומפט הזה שולף את האמת. \"אלה הביקורות של הלקוחות שלי [הדבק הכל]. קבץ כל תלונה ותגיד לי מה כל מגיב <b>באמת התכוון</b>\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 116,
+   "headline": "3) חזה <em>מה ישאלו בפעם הבאה</em>",
+   "body": "השאלות שהלקוחות שלך שואלים חושפות מה הם <b>באמת חושבים</b>. \"אלה 20 השאלות האחרונות שלקוחות שאלו אותי [הדבק]. מה האתר שלי לא מצליח להסביר?\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 100,
+   "headline": "4) כתוב <em>את המייל שיחזיר אותם</em>",
+   "body": "כשמבינים בדיוק למה הם עזבו, הפרומפט הזה כותב <b>את כל המייל בשבילך</b>. \"לקוח ביטל כי [סיבה]. כתוב מייל קצר שפותר את <b>הבעיה המדויקת</b> שלו ומציע פתרון אחד\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 104,
+   "headline": "5) מצא <em>את השאלות שהם אף פעם לא שואלים</em>",
+   "body": "החיפושים הפרטיים של הלקוחות שלך חושפים את הספקות האמיתיים שלהם. \"אני מוכר [מוצר] ל[קהל יעד]. רשום <b>עשרה דברים</b> שהם מחפשים בגוגל לפני שהם קונים\"",
+   "media": "posts/2026-08-08-edu-6-ai-prompts-that-read-your-customers-mi/gen-5.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 110,
+   "headline": "6) מפה <em>את היום הכי גרוע של הלקוח שלך</em>",
+   "body": "כשיודעים בדיוק מה כואב להם, השיווק <b>כותב את עצמו</b>. \"אני מוכר [מוצר]. תאר את יום העבודה הכי גרוע של הלקוח האידיאלי שלי. איזה רגע גרם לו לבסוף לחפש פתרון?\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "<em>שמור את זה</em> לפעם הבאה שיש לך בעיה עם לקוח",
+   "body": "תצטרך את הפרומפטים האלה בפעם הבאה שלקוח <b>מבטל</b>, <b>מתלונן</b>, או <b>נעלם לך</b> בלי מילה. <b>חדשות AI כל יום + כלים אמיתיים שאפשר להשתמש בהם הלילה</b>",
+   "media": null
+  }
+ ],
+ "caption": "שישה פרומפטים לAI שחושפים מה הלקוחות שלך באמת חושבים, פוחדים, וכמעט קנו 🔮\n\nמצא כל פחד שמסתתר בדף המוצר שלך, פענח מה הביקורות אומרות באמת, חזה מה ישאלו בפעם הבאה, כתוב את המייל שיחזיר לקוח שעזב, מצא את השאלות שהם אף פעם לא שואלים בקול, ומפה את היום הכי גרוע שלהם כדי שהשיווק יכתוב את עצמו.\n\nרוב העסקים מנחשים מה הלקוחות שלהם רוצים. מי שגדל הכי מהר מדביק נתונים אמיתיים לתוך AI ומשאיר לו להסביר. התשובות תמיד היו שם.\n\nמנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות בשבילך\n\nמקורות: Anthropic, OpenAI\n\nעקוב אחרי @ainews.israel לחדשות AI כל יום\n\n#ai #business #marketing #customers #entrepreneur",
+ "pinned_comment": "שקופית 6 נשמעת פשוטה, אבל היא הכי חזקה פה. השאלות שהלקוחות שלך מחפשים בגוגל במקום לשאול אותך, שם אתה מפסיד אותם. באיזה פרומפט מתחילים?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>READ YOUR CUSTOMERS' MINDS</em>",
+   "6 AI PROMPTS THAT <em>TURN YOUR REVIEWS INTO REVENUE</em>",
+   "6 AI PROMPTS THAT <em>DECODE WHAT YOUR BUYERS REALLY WANT</em>",
+   "6 AI PROMPTS THAT <em>KNOW YOUR CUSTOMERS BETTER THAN YOU</em>",
+   "6 AI PROMPTS THAT <em>STOP CUSTOMERS FROM LEAVING YOU</em>"
+  ],
+  "scores": [
+   4,
+   6,
+   4,
+   6,
+   7
+  ],
+  "winner": 4,
+  "why": "\"Stop customers from leaving you\" triggers a real fear — churn feels personal, almost like a breakup, and I'd click because I'm scared, not curious. The runner-up ([3] \"know your customers better than you\") has a provocative edge but reads as a brag about AI, not a problem I need solved right now."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>HEAR WHAT YOUR CUSTOMERS WON'T SAY</em>",
+   "6 AI PROMPTS THAT <em>READ YOUR CUSTOMERS' MINDS</em>",
+   "6 AI PROMPTS YOUR <em>CUSTOMERS HOPE YOU NEVER FIND</em>",
+   "6 AI PROMPTS THAT <em>STOP CUSTOMERS FROM LEAVING YOU</em>"
+  ],
+  "scores": [
+   6,
+   5,
+   8,
+   5
+  ],
+  "winner": 2,
+  "why": "Candidate 2 creates instant tension — 'hope you never find' implies customers are hiding something from YOU, which makes a business owner feel like they're about to get an unfair advantage. The runner-up (0) is clever but 'hear what they won't say' takes a second beat to decode, and at 2am that second beat costs you the swipe."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "editor_override": "Cover contract violation: the hook promises all 6 prompts 'FIND' things 'HIDING IN YOUR OWN CUSTOMER DATA' and the kicker doubles down ('THEY ALREADY TOLD YOU EVERYTHING'), but prompts 1, 5, and 6 never touch customer data — they ask AI to speculate (prompt 1 reads your product page, not customer data; prompt 5 asks AI to guess what people search privately; prompt 6 asks AI to imagine a buyer's wo"
+}
