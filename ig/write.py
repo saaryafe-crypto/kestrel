@@ -995,11 +995,23 @@ def call_claude(prompt, schema=None, images=None, model=None):
     # fallback: Claude Code CLI, no key needed. Image prompts say "use your
     # Read tool on <path>" — grant Read + the images' dirs or the CLI stalls
     # asking for permission (seen Jul 28 on /tmp QA frames).
-    cmd = ["claude", "--model", use_model, "-p", prompt]
+    # Token diet part 2 (measured Aug 8): a bare `claude -p` loads the Claude
+    # Code system prompt + all tool schemas + CLAUDE.md + auto-memory =
+    # ~53.5k input tokens PER CALL before our prompt. The flags below cut
+    # that to ~3k (text calls) / ~21k (vision calls, which keep the Read
+    # tool) with identical outputs — the prompts here are self-contained.
+    cmd = ["claude", "--model", use_model, "-p", prompt,
+           "--setting-sources", "", "--disable-slash-commands",
+           "--no-session-persistence"]
     if images:
-        cmd += ["--allowedTools", "Read"]
+        cmd += ["--tools", "Read", "--allowedTools", "Read"]
         for d in sorted({os.path.dirname(os.path.abspath(p)) for p in images}):
             cmd += ["--add-dir", d]
+    else:
+        cmd += ["--tools", "", "--system-prompt",
+                "You are the writing and judging engine of an automated "
+                "content pipeline. Follow the instructions in the message "
+                "exactly and return only the requested output."]
     # One retry on a hung CLI call (Aug 1 22:00 UTC slot died: the edu
     # fallback — the ladder's LAST rung — sat 20 min on a single `claude -p`
     # and TimeoutExpired killed the whole run. A fresh process almost always
