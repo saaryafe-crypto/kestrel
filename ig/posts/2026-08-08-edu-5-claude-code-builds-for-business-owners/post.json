@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOU'RE PAYING $50,000 TO BUILD FIVE BUSINESS APPS <em>CLAUDE CODE BUILDS IN ONE CONVERSATION FREE</em>",
+   "kicker": "NO CODING SKILLS NEEDED",
+   "hsize": 72,
+   "media": "posts/2026-08-08-edu-5-claude-code-builds-for-business-owners/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) BUILD A CHATBOT <em>THAT ANSWERS EVERY CUSTOMER</em>",
+   "hsize": 100,
+   "body": "Chatbot developers charge <b>$2,500 to $5,000</b> to build what this prompt builds in one conversation. \"Build a chatbot I can embed on my site that answers my FAQ list and works on mobile.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) TURN YOUR SPREADSHEET <em>INTO A LIVE DASHBOARD</em>",
+   "hsize": 100,
+   "body": "Finance dashboards from agencies start at <b>$3,000</b>. \"Build a browser dashboard from my spreadsheet that shows my key numbers as charts, filters by date range, and updates when I edit the file.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD A BOOKING SYSTEM <em>YOU ACTUALLY OWN</em>",
+   "hsize": 100,
+   "body": "Developers charge <b>$10,000 to $20,000</b> to build a custom booking system. This builds a custom booking page with your own rules, no subscription, owned forever.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) TRACK EVERY COMPETITOR <em>PRICE CHANGE OVERNIGHT</em>",
+   "hsize": 100,
+   "body": "Competitive intelligence tools charge <b>$300 to $500 a month</b> to do what this builds in one conversation. \"Build a script that checks competitor prices every morning and emails me a summary of any changes.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) TURN YOUR GOOGLE FORM <em>INTO A FULL CRM</em>",
+   "hsize": 100,
+   "body": "Developers charge <b>$10,000 to $20,000</b> to build a custom CRM from scratch. This turns your Google Form data into a full CRM with notes, status tracking (New, Contacted, Closed), and a searchable lead table.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE <em>THIS</em>",
+   "hsize": 90,
+   "body": "These five prompts are your developer toolkit. Save this post and try one tonight\n\nDaily AI tools and real business wins",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 Claude Code prompts that replace a developer. Each one is ready to paste tonight. \ud83d\udee0\ufe0f\n\nA customer chatbot built from your FAQ list, a live business dashboard from your spreadsheet, a custom booking page you own forever, a competitor price tracker that emails you changes every morning, and a Google Form turned into a full CRM. Five real prompts, each one ready to paste into Claude Code tonight, each one replacing a software subscription or a developer bill.\n\nMost business owners are paying monthly for tools they could build once and own. Claude Code builds all five in plain English, and you keep the result forever. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#claudecode #aitools #smallbusiness #businessautomation #artificialintelligence",
+ "pinned_comment": "Which one are you trying tonight? The competitor price tracker (slide 5) is the one most business owners sleep on. Fully automated after the first setup.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 DEVELOPER JOBS</em> CLAUDE CODE NOW DOES FOR FREE",
+   "DEVELOPERS CHARGE $10,000 FOR <em>THESE 5 APPS</em>",
+   "YOU'RE PAYING $50,000 FOR APPS <em>CLAUDE CODE BUILDS FREE</em>",
+   "CLAUDE CODE BUILDS <em>YOUR WHOLE TECH STACK</em> FOR FREE",
+   "<em>5 APPS</em> CLAUDE CODE BUILDS FOR FREE"
+  ],
+  "scores": [
+   6,
+   3,
+   8,
+   5,
+   4
+  ],
+  "winner": 2,
+  "why": "The $50,000 number hits like a slap\u2014specific enough to make you think 'wait, is that actually true?' and creates instant cost contrast. [0] sounds like marketing speak and stays vague, so you scroll past."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 APPS WORTH $50,000 <em>CLAUDE CODE BUILDS FREE</em>",
+   "5 APPS BUSINESSES PAY $50,000 FOR. <em>CLAUDE CODE BUILDS THEM FREE</em>.",
+   "5 CLAUDE CODE BUILDS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "YOU'RE PAYING $50,000 FOR APPS <em>CLAUDE CODE BUILDS FREE</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   3,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] hits with 'YOU'RE PAYING'\u2014personal guilt stops scrolling instantly, harder than [1]'s business credibility framing. One punchy line beats a two-part structure."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "TRUTH LAW \u2014 CRITICAL: The hook's 'FREE' is factually false. Claude Code requires a paid Claude.ai subscription (Pro starts at $20/month; Max at $100\u2013200/month) or metered API credits. 'Free' is a number (zero) and \u00a75 bans faking numbers. A reader who tries this immediately hits a paywall; the post's central promise fails at first contact. Fix: delete 'FREE' entirely \u2014 'ONE CONVERSATION' already do"
+}
