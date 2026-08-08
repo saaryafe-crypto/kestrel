@@ -663,5 +663,117 @@
   "subject": "YOU'RE PAYING $50,000 TO BUILD FIVE BUSINESS APPS <em>CLAUDE CODE BUILDS IN ONE CONVERSATION FREE</em>",
   "verdict": "REJECT",
   "reason": "TRUTH LAW — CRITICAL: The hook's 'FREE' is factually false. Claude Code requires a paid Claude.ai subscription (Pro starts at $20/month; Max at $100–200/month) or metered API credits. 'Free' is a number (zero) and §5 bans faking numbers. A reader who tries this immediately hits a paywall; the post's central promise fails at first contact. Fix: delete 'FREE' entirely — 'ONE CONVERSATION' already do"
+ },
+ {
+  "t": "2026-08-08T16:03:51Z",
+  "gate": "A",
+  "subject": "BREAKING 🚨: Housing Market The largest mortgage lender in the United States, United Wholesale Mortgage, fell to an all-t",
+  "verdict": "KILL",
+  "reason": "One vague tweet claiming a stock record with zero numbers, context, or human consequence — pure market metric with nothing to build a story from."
+ },
+ {
+  "t": "2026-08-08T16:04:20Z",
+  "gate": "A",
+  "subject": "Just like Starbase and Tesla factories, Terafab will be incredibly inspiring to come to work!",
+  "verdict": "KILL",
+  "reason": "Single vague claim with no real-world event or consequence — the only 'story' is that the tweet got engagement, making it pure reaction-bait with no substance."
+ },
+ {
+  "t": "2026-08-08T16:04:45Z",
+  "gate": "A",
+  "subject": "Most people don't realize how big of a growth wave we are currently experiencing. So far, with 88% of S&P 500 companies ",
+  "verdict": "KILL",
+  "reason": "Routine market-data analysis (earnings beat expectations) with no human actor, no felt consequence, and no real-world event — falls squarely into the banned 'market wraps' category."
+ },
+ {
+  "t": "2026-08-08T16:05:12Z",
+  "gate": "A",
+  "subject": "BREAKING 🚨: Argentina Argentina's Peso has fallen to an all-time low against the U.S. Dollar and has now collapsed 99.8%",
+  "verdict": "KILL",
+  "reason": "Macro financial announcement with no human actor or personal consequence—this is a markets wrap (banned category), not a story about someone doing something real."
+ },
+ {
+  "t": "2026-08-08T16:05:37Z",
+  "gate": "A",
+  "subject": "BREAKING: The S&amp;P 500 closes at the highest level on record, up another +3.6% this week. The S&amp;P 500 added +$2.5",
+  "verdict": "KILL",
+  "reason": "Explicit ban on routine market updates ('stocks-rose-today'); no human actor, consequence, or narrative—just index-closure data that fails the 16-year-old send-to-friend test."
+ },
+ {
+  "t": "2026-08-08T16:06:00Z",
+  "gate": "A",
+  "subject": "Returning the marmoset babies to mom after a medical check.",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance—the entire story is people finding cute animal content engaging; no real-world consequence, no numbers, no event to build slides from."
+ },
+ {
+  "t": "2026-08-08T16:06:54Z",
+  "gate": "A",
+  "subject": "🇺🇦 This is the reality of conscription in Ukraine A woman screaming for her boyfriend as he's brutally dragged out of th",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no names, numbers, or reportable consequence — instant-kill no-substance rule."
+ },
+ {
+  "t": "2026-08-08T16:07:20Z",
+  "gate": "A",
+  "subject": "Generating power from waves. 📽: CorPower Ocean",
+  "verdict": "KILL",
+  "reason": "No substance: the entire source is a video caption with zero second facts, numbers, or real-world consequence—a routine tech demo preview, not a story that earned its slot."
+ },
+ {
+  "t": "2026-08-08T16:07:40Z",
+  "gate": "A",
+  "subject": "These are mosquitoes trapped in a spider web Remember to be kind to your friendly neighborhood web slingers",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: a screenshot of nature doing routine things with a cute caption earns engagement on the image alone, not because any real-world event happened with a consequence, and a 16-year-old wouldn't send it to a friend as a story worth knowing."
+ },
+ {
+  "t": "2026-08-08T16:07:58Z",
+  "gate": "A",
+  "subject": "A newborn turtle touches the sea for the first time",
+  "verdict": "KILL",
+  "reason": "Reaction-bait to a cute nature video with zero substance behind it—no real-world consequence, no remarkable specifics, and completely off-brand for a tech/AI page."
+ },
+ {
+  "t": "2026-08-08T16:08:21Z",
+  "gate": "A",
+  "subject": "Terafab on Mars.",
+  "verdict": "KILL",
+  "reason": "16-character source with no facts, numbers, or consequence — kills on instant-death no-substance rule; writer would have to pad or speculate."
+ },
+ {
+  "t": "2026-08-08T16:08:42Z",
+  "gate": "A",
+  "subject": "This is not sci-fi.",
+  "verdict": "KILL",
+  "reason": "No substance: one thin statement with zero context, no facts, no numbers, no consequence—nothing to build slides from."
+ },
+ {
+  "t": "2026-08-08T16:09:03Z",
+  "gate": "A",
+  "subject": "It's crazy how accurate \"AI2027\" was with its predictions. And it was still behind the actual timeline. It's happening f",
+  "verdict": "KILL",
+  "reason": "Pure meta-commentary with no concrete event, no named actor, no second fact — reaction-bait (observing that predictions were accurate but reality moved faster) dressed up as insight, fails on both INSTANT KILL criteria."
+ },
+ {
+  "t": "2026-08-08T16:09:35Z",
+  "gate": "A",
+  "subject": "🇸🇦🇵🇰🇹🇷 MBS, Erdogan, and Pakistani PM Shehbaz Sharif just prayed together in Mecca. The 3 leaders side by side for today",
+  "verdict": "KILL",
+  "reason": "This is a policy announcement (defense pact) with only a symbolic photo as evidence (leaders praying) and no consequence told—no pact details, no numbers, no real impact—making it a reaction-bait frame relying on interpretation ('blessing') rather than reality, and the 0/10 scout score confirms it's not a story worth the investment."
+ },
+ {
+  "t": "2026-08-08T16:41:52Z",
+  "gate": "B",
+  "subject": "SOME BUSINESSES REPLACED THEIR ASSISTANTS WITH CLAUDE. <em>THESE ARE THE 5 SETUPS THEY USED</em>.",
+  "verdict": "REJECT",
+  "reason": "Hook is two sentences, not one (§2): 'SOME BUSINESSES REPLACED THEIR ASSISTANTS WITH CLAUDE.' ends the required single sentence; 'THESE ARE THE 5 SETUPS THEY USED.' is a second sentence that teases rather than delivers the wild specific. The law is explicit — ONE complete sentence, nothing withheld. Fix: collapse into a single sentence that names the actor more vividly and gives at least one concr"
+ },
+ {
+  "t": "2026-08-08T16:43:28Z",
+  "gate": "B",
+  "subject": "BUSINESS OWNERS ARE CANCELLING THEIR VIRTUAL ASSISTANTS AFTER SETTING UP <em>THESE 5 CLAUDE PROJECTS</em>.",
+  "verdict": "APPROVE",
+  "reason": ""
  }
 ]

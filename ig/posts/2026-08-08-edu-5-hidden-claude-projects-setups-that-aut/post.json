@@ -1,0 +1,69 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "BUSINESS OWNERS ARE CANCELLING THEIR VIRTUAL ASSISTANTS AFTER SETTING UP <em>THESE 5 CLAUDE PROJECTS</em>.",
+   "kicker": "YOU PROBABLY AREN'T",
+   "hsize": 70,
+   "face": [
+    "Dario Amodei"
+   ],
+   "media": "posts/2026-08-08-edu-5-hidden-claude-projects-setups-that-aut/gen-0-r.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) BUILD A CUSTOMER SERVICE BOT</em> THAT KNOWS YOUR WHOLE BUSINESS",
+   "hsize": 90,
+   "body": "Paste your FAQs, hours, and policies into a Claude <b>Project</b> once. It handles every customer question from that context in every conversation, without you being there.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) TRAIN CLAUDE TO WRITE</em> EVERY EMAIL IN YOUR VOICE",
+   "hsize": 100,
+   "body": "Paste your best <b>10 emails</b> into a Project once. Claude studies your rhythm, word choices, and personality, then writes every new message exactly as you would.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) BUILD A PROPOSAL WRITER</em> THAT KNOWS YOUR OFFER COLD",
+   "hsize": 98,
+   "body": "A proposal that normally takes <b>three hours</b> takes under <b>15 minutes</b> when Claude already knows your pricing, results, and best clients. It tailors every pitch to every new prospect.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) CREATE A WEEKLY REVIEWER</em> THAT FLAGS YOUR BIGGEST PROBLEM FIRST",
+   "hsize": 86,
+   "body": "Every Friday, paste your revenue and expenses in. Claude names the single biggest problem in your business that week and the <b>three exact moves</b> to fix it.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) BUILD A HIRING FILTER</em> THAT SCORES EVERY RESUME FOR YOU",
+   "hsize": 98,
+   "body": "The Department of Labor estimates a bad hire costs at least <b>30% of that employee's first-year salary</b>. Paste a resume in and get a fit score plus three questions that expose the wrong hire.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> USE ONE TONIGHT.",
+   "hsize": 80,
+   "body": "Save this post, you will want these prompts when you sit down to set one up. We share real AI skills like this every day. Follow so you don't miss tomorrow's.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5 of these, then set the first one up tonight \ud83d\udee0\n\nHere's what's inside: a customer service bot that knows your whole business and handles every question without you, a writing setup that matches your exact voice for every email and pitch, a proposal writer that tailors every offer to every new prospect automatically, a weekly business reviewer that flags your biggest problem before you notice it, a hiring filter that scores every resume and writes your interview questions.\n\nMost people use Claude as a one-time chatbot and close the tab. Claude's Projects feature lets you paste your business context in once and have it ready in every conversation after that. Each of these takes under 10 minutes to set up and runs on its own from there. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#claudeai #aitools #businessowner #aiforsmallbusiness #productivity",
+ "pinned_comment": "Which one are you setting up first? Number 3 is the sleeper. People are using the proposal writer to turn three-hour writing sessions into 15 minutes and closing more deals because the pitch is built around that specific person.",
+ "hook_tournament": {
+  "candidates": [
+   "MOST PEOPLE USE CLAUDE AS A CHATBOT. <em>THESE 5 SETUPS MAKE IT AN EMPLOYEE</em>."
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)"
+}
