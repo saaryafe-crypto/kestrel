@@ -999,8 +999,8 @@ def call_claude(prompt, schema=None, images=None, model=None):
         print("claude -p hung 20 min — retrying once with a fresh process",
               file=sys.stderr)
         out = subprocess.run(cmd, capture_output=True, text=True, timeout=1200).stdout
-    m = re.search(r"\{.*\}", out, re.S)
-    if not m:
+    obj = _extract_json(out)
+    if obj is None:
         # Same transient family as the hang, different symptom: the CLI
         # returns an error string instead of JSON ("API Error: Stream idle
         # timeout - partial response received" killed the Aug 2 morning reel,
@@ -1008,12 +1008,31 @@ def call_claude(prompt, schema=None, images=None, model=None):
         print(f"claude -p returned no JSON ({out[:120]!r}) — retrying once",
               file=sys.stderr)
         out = subprocess.run(cmd, capture_output=True, text=True, timeout=1200).stdout
-        m = re.search(r"\{.*\}", out, re.S)
-    if not m:
+        obj = _extract_json(out)
+    if obj is None:
         # RuntimeError, NOT SystemExit: callers with fail-open except-Exception
         # handlers (dupe judge, scout judge, vision QA) must be able to catch it
         raise RuntimeError(f"claude -p returned no JSON:\n{out[:500]}")
-    return json.loads(m.group(0))
+    return obj
+
+
+def _extract_json(out):
+    """Pull the response JSON object out of CLI chatter. The old greedy
+    regex + naked json.loads CRASHED the whole process when Sonnet wrapped
+    the JSON in prose (run 31259996256, Aug 8: 'Extra data: line 1 column
+    20' killed the edu ladder rung mid-slot). raw_decode from every '{'
+    tolerates leading/trailing text; the largest valid dict wins (chatter
+    can contain tiny brace snippets before the real payload)."""
+    dec = json.JSONDecoder()
+    best = None
+    for m in re.finditer(r"\{", out):
+        try:
+            obj, end = dec.raw_decode(out[m.start():])
+        except json.JSONDecodeError:
+            continue
+        if isinstance(obj, dict) and (best is None or end > best[1]):
+            best = (obj, end)
+    return best[0] if best else None
 
 
 def qa_repair(post, errs):
@@ -1268,7 +1287,7 @@ def main(stories_path):
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
     else:
-        raise SystemExit("QA gate failed after 3 attempts")
+        raise SystemExit("QA gate failed after 2 attempts")
 
     if any(s.get("layout") == "card" for s in post["slides"]):
         # profile format: the record-sentence cover IS the hook — rival

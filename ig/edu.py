@@ -198,18 +198,39 @@ def main():
     prompt = build_prompt(used, headlines, guides)
     # 2 rolls, not 3 (token diet Aug 8): the workflow ladder re-runs edu.py
     # fresh as its last rung anyway, so a third in-process roll is redundant.
-    for attempt in range(2):
-        post = call_claude(prompt, schema=SCHEMA)
-        errs = qa(post)
-        for i, s in enumerate(post.get("slides", [])):
+    def edu_qa(p):  # shared qa + this container's own gate, one verdict
+        e = qa(p)
+        for i, s in enumerate(p.get("slides", [])):
             if re.search(r"(?i)\bhow to:|\bstep \d|\b(open|go to) (chatgpt|claude"
                          r"|chat\.com|claude\.ai)", s.get("body", "")):
-                errs.append(f"slide {i+1}: app-navigation steps are banned — "
-                            "give the self-contained prompt itself, in quotes")
+                e.append(f"slide {i+1}: app-navigation steps are banned — "
+                         "give the self-contained prompt itself, in quotes")
+        return e
+
+    for attempt in range(2):
+        post = call_claude(prompt, schema=SCHEMA)
+        errs = edu_qa(post)
+        if errs:
+            print(f"QA gate failed (attempt {attempt+1}):\n  " + "\n  ".join(errs),
+                  file=sys.stderr)
+            # REPAIR PASS (Aug 8, run 31259996256 post-mortem: this ladder's
+            # LAST rung died at attempt 2 on ONE leftover error — "slide 7:
+            # headline has no <em> accent" — because edu never inherited the
+            # Aug 2 surgical-repair pass that write.py's loop has. A copy-edit
+            # of only the flagged lines converges; full regeneration is a
+            # fresh dice roll on 20+ gates.)
+            fixed = qa_repair(post, errs)
+            if fixed:
+                left = edu_qa(fixed)
+                if not left:
+                    print("repair pass cleared QA — using repaired post",
+                          file=sys.stderr)
+                    post, errs = fixed, []
+                else:
+                    print("repair left errors:\n  " + "\n  ".join(left),
+                          file=sys.stderr)
         if not errs:
             break
-        print(f"QA gate failed (attempt {attempt+1}):\n  " + "\n  ".join(errs),
-              file=sys.stderr)
         prompt = (build_prompt(used, headlines, guides)
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
