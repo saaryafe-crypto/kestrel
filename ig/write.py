@@ -1176,6 +1176,14 @@ def qa(post):
                     seen_nums[n] = i
     if "Sources:" not in caption:
         errs.append("caption missing Sources line")
+    else:
+        # owner rule (Aug 8, re-confirmed): credit is a plain name at the
+        # bottom, never a tag. Reels had this gate (reel.py qa) since Aug 2;
+        # carousels leaked "@Ayzacoder on X" through the prompt-only rule.
+        src_line = next((l for l in caption.split("\n") if "Sources:" in l), "")
+        if re.search(r"@\w|(?:^|\s)u/", src_line):
+            errs.append('Sources line must credit plain names only — no '
+                        '@handles or u/ prefixes ("Ayzacoder" not "@Ayzacoder")')
     if len(re.findall(r"#\w+", caption)) != 5:
         errs.append("caption must have exactly 5 hashtags")
     # follow-conversion CTA (owner doctrine Aug 1, the reference page's closer:
