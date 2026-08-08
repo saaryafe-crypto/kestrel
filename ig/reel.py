@@ -17,7 +17,7 @@ import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
 import bundle
-from write import call_claude, doctrine, no_dashes, principles
+from write import CHEAP, call_claude, doctrine, no_dashes, principles
 from render import CHROME
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -345,7 +345,7 @@ def title_fits(src, dur, title, source_title):
             "simple words a 16-year-old gets, keeping the joke or framing "
             "that connects the line to the footage, no invented facts, no "
             'dashes. Return ONLY JSON: {"fits": true/false, "better_title": "..."}',
-            schema=TITLE_FIT, images=frames)
+            schema=TITLE_FIT, images=frames, model=CHEAP)
         if not r.get("fits") and r.get("better_title", "").strip():
             fixed = r["better_title"].strip()[:75]
             print(f"title coherence gate rewrote: {fixed}", file=sys.stderr)
@@ -402,7 +402,7 @@ def clip_ok(src, dur, channel):
             "NOT count: judge what is physically in frame, not the text. "
             'Return ONLY JSON: {"usable": true/false, "reason": "one short '
             'phrase when false"}',
-            schema=CLIP_QA, images=frames)
+            schema=CLIP_QA, images=frames, model=CHEAP)
         if not r.get("usable"):
             print(f"clip QA rejected: {r.get('reason', 'no reason given')}",
                   file=sys.stderr)

@@ -62,7 +62,7 @@ def _log(gate, subject, verdict, reason):
 
 def gate_a(story, material=""):
     """Story-level verdict BEFORE any writing/images. (approved, reason)."""
-    from write import call_claude  # lazy: write.py imports this module
+    from write import call_claude, CHEAP  # lazy: write.py imports this module
     radar = story.get("radar") or {}
     facts = [f"TITLE: {story.get('title', '')}",
              f"SCOUT INTEREST SCORE: {story.get('interest', '?')}/10"]
@@ -84,7 +84,7 @@ CANDIDATE:
 
 Return JSON: {{"verdict": "APPROVE" or "KILL", "reason": "<one plain sentence>"}}"""
     try:
-        r = call_claude(prompt, schema=GATE_A_SCHEMA)
+        r = call_claude(prompt, schema=GATE_A_SCHEMA, model=CHEAP)
         ok = r["verdict"] == "APPROVE"
         _log("A", story.get("title", ""), r["verdict"], r["reason"])
         print(f"editor gate A: {r['verdict']} — {r['reason']}", file=sys.stderr)

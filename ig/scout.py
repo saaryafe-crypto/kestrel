@@ -278,8 +278,8 @@ STORIES:
 
 Return ONLY JSON: {{"scores": [{{"i": <index>, "interest": <0-10>}}, ...]}} — one entry per story, all {len(stories)} of them."""
     try:
-        from write import call_claude
-        r = call_claude(prompt, schema=JUDGE_SCHEMA)
+        from write import CHEAP, call_claude
+        r = call_claude(prompt, schema=JUDGE_SCHEMA, model=CHEAP)  # token diet Aug 8: taste gate stays, Haiku is enough for 0-10 scoring
         got = {x["i"]: x["interest"] for x in r["scores"]
                if 0 <= x.get("i", -1) < len(stories)}
     except Exception as e:

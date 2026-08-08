@@ -25,7 +25,7 @@ import json, os, random, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
-JUDGE_MODEL = "claude-sonnet-4-6"  # different model breaks same-model taste bias
+JUDGE_MODEL = "claude-haiku-4-5-20251001"  # different model than the Sonnet writer breaks same-model taste bias (token diet Aug 8: was Sonnet-vs-Opus)
 
 
 def _claude(prompt, schema):

@@ -14,7 +14,14 @@ import genimg
 import viral  # the packaging agent: classify -> per-type hooks -> blind judge
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-MODEL = "claude-opus-4-6"  # newest Opus (owner call Jul 27: best writer runs the page; cost is fine — CI uses the subscription token)
+# TOKEN DIET (owner order Aug 8, overrides the Jul 27 "Opus, cost is fine"
+# call): the IG system ate ~15% of the WEEKLY Claude plan in one day and
+# "You've hit your weekly limit" killed the Aug 7 slots. Writers run Sonnet
+# (top-tier writer, ~5x cheaper on the plan); judges/vision-QA/gates run
+# Haiku (~25x cheaper). ZERO Opus anywhere. If quality ever dips, flipping
+# MODEL back to claude-opus-4-6 is the owner's call, one line.
+MODEL = "claude-sonnet-4-6"
+CHEAP = "claude-haiku-4-5-20251001"
 
 SCHEMA = {
     "type": "object",
@@ -97,7 +104,7 @@ def product_screenshot(url, post_dir):
             return None
         r = call_claude(
             f'A screenshot is attached (if not attached to this message, use your Read tool on {png} to look at it). Is it a REAL, fully-loaded product/website page that a news post could show as proof the product exists? Answer usable:false if it is a loading screen/spinner, cookie or consent wall, error page, captcha, login wall, or mostly empty. Return ONLY JSON: {{"usable": true/false}}',
-            schema=SHOT_QA_SCHEMA, images=[png])
+            schema=SHOT_QA_SCHEMA, images=[png], model=CHEAP)
         if r.get("usable"):
             return png
         print("product screenshot rejected by vision QA", file=sys.stderr)
@@ -222,7 +229,7 @@ def image_score(path, headline, generated=False):
             'SCORE against the scroll-stopper formula (each worth points): ONE dominant focal subject, brightest and sharpest thing in frame (no competing focal points); the image dramatizes THIS exact headline claim — moment, stakes or consequence visible in half a second (not generic topical art); THE PULL — the image alone makes you need to know what is happening (a caught moment, visible tension, peak emotion beats any calm posed scene); bright saturated colors with one punchy accent (not murky, not pastel, not white-dominant); if a person is central, the face is large and radiates one clear strong emotion; looks like a real press photo (texture, grain, candid light), not plastic AI art. '
             + face_gate +
             'Score 0-10: 10 = a professional photo editor would run it AND it nails the formula; 7 = publishable; 4 = clearly flawed but recognizable and on-claim; 0 = unusable garbage. usable:true means publish as-is — set false for flaws a scrolling follower would actually notice: garbled text large enough to read, warped hands/faces, obvious AI plastic look, watermark, no connection to the claim, a dark/murky frame with no focal subject, or a SCREENSHOT of an app or social-media post (baked-in meme captions, interface elements like hearts, like counts, usernames, buttons — a screenshot is someone else\'s content and never our cover). flaw: the single biggest problem in 12 words or less (empty string if none). Return ONLY JSON: {{"usable": true/false, "score": 0-10, "flaw": "..."}}',
-            schema=IMG_QA_SCHEMA, images=[path])
+            schema=IMG_QA_SCHEMA, images=[path], model=CHEAP)
         return bool(r.get("usable")), int(r.get("score", 0)), r.get("flaw", "")
     except Exception as e:
         print(f"genimg QA failed ({e}) — scoring 0", file=sys.stderr)
@@ -250,7 +257,7 @@ def simpler_brief(brief, headline, flaw=""):
     try:
         r = call_claude(
             f'An AI image generator produced an UNUSABLE image (artifacts, garbled text, or stock look) from this brief:\n"{brief}"\n{flaw_line}The image must still be evidence for this headline: "{clean}". Rewrite the brief SIMPLER so the next attempt survives: ONE subject, ONE action, ZERO readable text anywhere (screens show SYMBOLS only: a $ symbol, a warning triangle, a red cross — symbols never garble), no crowds, no close-up hands or faces, plainer setting, keep the color key. 15-35 words, subject first. Return ONLY JSON: {{"brief": "..."}}',
-            schema=BRIEF_SCHEMA)
+            schema=BRIEF_SCHEMA, model=CHEAP)
         b = r.get("brief", "").strip()
         if b:
             print(f"brief rewritten: {b[:90]}", file=sys.stderr)
@@ -513,35 +520,33 @@ def is_dupe(title, recent=None):
 CANDIDATE NEW STORY: "{title}"
 
 Is the candidate the SAME underlying story as any already-published post — same event, announcement, or fact, even if worded completely differently? A genuinely NEW development in an ongoing saga counts as a different story; the same news re-reported does not.
-Return ONLY JSON: {{"dupe": true or false}}""", schema=DUPE_SCHEMA)
+Return ONLY JSON: {{"dupe": true or false}}""", schema=DUPE_SCHEMA, model=CHEAP)
         return bool(r.get("dupe"))
     except Exception as e:
         print(f"dupe judge failed ({e}) — allowing story", file=sys.stderr)
         return False
 
 
-PICK_SCHEMA = {"type": "object", "properties": {"pick": {"type": "integer"}},
-               "required": ["pick"]}
-
-
 def pick_story(stories):
-    """Claude picks the story a NORMAL person would care most about — not the most
-    technically impressive one. Measured from the reference page: reader-impact
-    stories (your money/phone/job) and famous names beat obscure tech every time."""
+    """MOST VIRAL WINS (owner token-diet order Aug 8): stories.json arrives
+    already score-sorted by scout — real X like counts re-ranked by the
+    interest judge. The old Claude ranking tournament (_rank, one fat Opus
+    call per pick) is DELETED: 'most viral of the day' is a sort, not a
+    judgment. Dupe check + editor Gate A still stand between the top story
+    and the slot."""
     direct = [s for s in stories if "news.google.com" not in s["link"]]
     fresh = [s for s in direct if not already_posted(slugify(s["title"]))]
-    # interest ladder (Aug 3 Queen post-mortem: the meme-screenshot story
-    # carried scout interest 4/10 yet won the slot — ranking is a tournament
-    # with no floor). Low-interest stories stay in the pool (always-post),
-    # but only get a turn after every interest>=5 candidate is exhausted.
+    # interest ladder (Aug 3 Queen post-mortem): low-interest stories stay in
+    # the pool (always-post) but only get a turn after every interest>=5
+    # candidate is exhausted.
     fresh = ([s for s in fresh if s.get("interest", 5) >= 5]
              + [s for s in fresh if s.get("interest", 5) < 5])
     recent = recent_posts()
     # exhaust EVERY candidate before declaring the slot dead (owner rule:
-    # 7/day is a must — a 3-try cap killed the Jul 28 test run when the top 3
-    # were all dupes of that morning's posts while story #4 was fine)
+    # every slot must fill — a 3-try cap killed the Jul 28 test run when the
+    # top 3 were all dupes while story #4 was fine)
     while fresh:
-        s = _rank(fresh[:12], recent)  # rank in windows of 12 to keep the prompt tight
+        s = fresh[0]  # most viral candidate standing
         if is_dupe(s["title"], recent):
             print(f"semantic dupe of a published post — skipping: {s['title']}",
                   file=sys.stderr)
@@ -557,76 +562,6 @@ def pick_story(stories):
             return s
         fresh = [x for x in fresh if x is not s]
     return None
-
-
-def scoreboard_block():
-    """Own-page engagement (market.py's daily Mac scrape, rows sorted by
-    likes). Deliberately labeled a WEAK signal until ~30 posts exist —
-    Owner call Jul 28: the audience is too small yet to trust; wire the
-    loop now, let it gain weight as volume arrives."""
-    try:
-        rows = json.load(open(os.path.join(HERE, "scoreboard.json")))
-    except Exception:
-        return ""
-    if len(rows) < 5:
-        return ""
-    n = len(rows)
-    strength = ("STRONG signal" if n >= 30 else
-                f"WEAK signal — only {n} posts measured, use as a light tiebreak only")
-    lines = [f"OUR OWN page's measured results ({strength}). Best performers:"]
-    lines += [f"- {r['likes']} likes: {r['hook']}" for r in rows[:3]]
-    lines.append("Worst performers:")
-    lines += [f"- {r['likes']} likes: {r['hook']}" for r in rows[-2:]]
-    return "\n".join(lines) + "\n\n"
-
-
-def _rank(fresh, recent=()):
-    if len(fresh) == 1:
-        return fresh[0]
-    def _tag(s):
-        t = "(has press image) " if s.get("image") else ""
-        if s.get("radar"):  # live breakout — real crowd velocity, right now
-            m = s["radar"]
-            t += (f"(LIVE: {m['score']:,} {m.get('unit', 'upvotes')} on "
-                  f"{m.get('where', 'r/' + m['sub'])} in {m['age_h']:.0f}h) ")
-        return t
-    lines = "\n".join(f"[{i}] {_tag(s)}{s['title']}" for i, s in enumerate(fresh))
-    published = ("ALREADY PUBLISHED on our page (recent posts, slug-shortened):\n"
-                 + "\n".join(f"- {t}" for t in recent)
-                 + "\nA candidate that is the SAME underlying story as any of these — even "
-                 "worded completely differently — is DISQUALIFIED. Never pick it.\n\n"
-                 if recent else "")
-    # money-proof slot (slot mix Aug 1): the 20:00 UTC slot prefers a case
-    # study — a real business used AI and got a measurable result. Preference,
-    # not a hard filter: if no candidate qualifies, normal ranking decides
-    # (the always-post ladder stays intact).
-    pref = ""
-    if os.environ.get("STORY_PREF") == "money":
-        pref = ("PRIORITY OVERRIDE for this slot: STRONGLY prefer a MONEY-PROOF "
-                "case study — a real, named business (or named person running "
-                "one) that used AI and got a measurable result (money made or "
-                "saved, hours cut, customers won). Only if NO candidate has a "
-                "business-result-with-a-number do the normal rules below "
-                "decide.\n\n")
-    prompt = f"""{doctrine()}{published}{scoreboard_block()}{pref}Pick the ONE story below that our audience would care most about. The page's paying audience is US small-business OWNERS — the goal is that an owner reads the post and books a meeting. Ranking rules, in order:
-1. Gives a business owner real value: a result, tool, or number they could use in their own business (AI that saved a company money, replaced hours of work, brought customers — a case study with numbers is gold)
-2. Touches the reader's own life: their money, their phone, their job, apps everyone uses
-3. Names everyone knows (Apple, Tesla, Musk, ChatGPT, Netflix...) beat unknown startups and GitHub projects
-4. Jaw-drop factor for a YOUNG scroller (19, not a newspaper reader): would they say "wait, WHAT?" out loud. A PERSON doing something outrageous ("a 19-year-old built an app that...") beats an institutional announcement ("company released a feature that...") of similar weight — companies announce, people DO things.
-5. A press image is a small tiebreak bonus
-A technically impressive but obscure story LOSES to a smaller story the reader can feel or USE. A dry corporate announcement LOSES to a person-driven story with a concrete outcome.
-REACTION-BAIT LOSES TO EVERYTHING (owner rule Aug 3): a story whose only event is that someone posted something online and people reacted — a viral tweet, meme, or AI video measured in likes/views. Pick it ONLY if every other candidate is disqualified, or the story has a real-world consequence (money lost, someone fired, a product pulled, a lawsuit).
-
-STORIES:
-{lines}
-
-Return ONLY a JSON object: {{"pick": <index>}}"""
-    try:
-        r = call_claude(prompt, schema=PICK_SCHEMA)
-        return fresh[r["pick"]] if 0 <= r.get("pick", -1) < len(fresh) else fresh[0]
-    except Exception as e:
-        print(f"story pick failed ({e}) — falling back to first", file=sys.stderr)
-        return fresh[0]
 
 
 def doctrine():
@@ -687,95 +622,96 @@ def scrub_dashes(post):
     return post
 
 
-RETELL_SCHEMA = {"type": "object", "properties": {
-    "retell": {"type": "string"},
-    "facts": {"type": "array", "items": {"type": "string"}}},
-    "required": ["retell", "facts"]}
 LOOKUP_SCHEMA = {"type": "object", "properties": {
     "look_up": {"type": "boolean"}, "why": {"type": "string"}},
     "required": ["look_up", "why"]}
 
 
-def retell_story(story, body_text):
-    """The anti-news-speak step (owner Jul 28: 'we cant write FROM the article
-    ...this is the biggest killer'). The slide writer never sees raw article
-    prose again — it gets (a) the story retold OUT LOUD by a 19-year-old,
-    which locks the register, and (b) a bullet list of verified facts, which
-    keeps accuracy without carrying the article's newspaper voice (bullets
-    are fragments; prose register can't survive them). A gate judges the
-    retell alone — 'does your friend look up from their phone?' — and one
-    retry hunts a harder angle. Fails open: None -> old article-text path."""
+PREP_SCHEMA = {"type": "object", "properties": {
+    "retell": {"type": "string"},
+    "facts": {"type": "array", "items": {"type": "string"}},
+    "spine": {"type": "object", "properties": {
+        "irony": {"type": "string"}, "belief": {"type": "string"},
+        "event": {"type": "string"}, "twist": {"type": "string"},
+        "fallout": {"type": "string"}, "protagonist": {"type": "string"},
+        "dinner_detail": {"type": "string"}},
+        "required": ["irony", "belief", "event", "twist", "fallout",
+                     "protagonist", "dinner_detail"]},
+    "story_type": {"type": "string",
+                   "enum": ["corporate_move", "absurd_moment", "threat",
+                            "money_win", "record"]},
+    "actor": {"type": "string"},
+    "actor_known": {"type": "boolean"},
+    "anchor": {"type": "string"},
+    "specifics": {"type": "array", "items": {"type": "string"}}},
+    "required": ["retell", "facts", "spine", "story_type"]}
+
+
+def prep_story(story, body_text):
+    """ONE story-prep call (token diet, owner order Aug 8): merges the old
+    retell_story + story_spine + viral.classify — three fat sequential calls
+    that all read the SAME material — into a single call. Each part keeps its
+    craft doctrine: the 19-year-old retell (owner Jul 28 anti-news-speak),
+    the narrative spine (owner Aug 1 arc directive), and the packaging
+    classification (Circle K post-mortem). The look-up gate still judges the
+    retell on Haiku with one harder-angle retry. Fails open per part:
+    (None, None, default_ctx) keeps every old fallback path alive."""
     src = body_text or story["title"]
     base = f"""Here is a news story.
 Title: {story['title']}
-Article: {src}
+Article: {src[:6000]}
 
-You are 19. You just read this. Your friend sits across the table, scrolling their phone. You have 10 seconds to make them look up. Give:
-1. "retell": the story in 2-3 sentences EXACTLY as you'd SAY it out loud. Lead with the consequence for a normal person — their money, their phone, their job, their feed — never with the announcement. No word a 16-year-old wouldn't use out loud. No company-speak ("announced", "unveiled", "platform", "capabilities"). If you can't say it without sounding like the news, you haven't found the story yet.
-2. "facts": every name, number, quote, date, and concrete detail from the article worth using later, as short bullets — the accuracy net. Only things actually in the article.
+Do THREE jobs on this one story. Return a single JSON object.
 
-Return ONLY JSON: {{"retell": "...", "facts": ["...", ...]}}"""
+JOB 1 — RETELL. You are 19. You just read this. Your friend sits across the table, scrolling their phone. You have 10 seconds to make them look up.
+- "retell": the story in 2-3 sentences EXACTLY as you'd SAY it out loud. Lead with the consequence for a normal person — their money, their phone, their job, their feed — never with the announcement. No word a 16-year-old wouldn't use out loud. No company-speak ("announced", "unveiled", "platform", "capabilities").
+- "facts": every name, number, quote, date, and concrete detail from the article worth using later, as short bullets — the accuracy net. Only things actually in the article.
+
+JOB 2 — SPINE. You are a story editor for a viral page. Extract the NARRATIVE SPINE. Hunt hardest for the IRONY — the one TRUE fact that makes the story poetic, absurd, or cruel (usually buried mid-article, almost never in the headline). Return in "spine":
+- "irony": the single most ironic/absurd TRUE line, one sentence — empty string ONLY if the story truly has none
+- "belief": what everyone believed the morning before this happened, one sentence
+- "event": what actually happened, at human scale (a person's money, job, screen — never index points or corporate abstractions), 1-2 sentences
+- "twist": the 'wait, WHAT?' fact — the beat that re-hooks a tired reader, one sentence
+- "fallout": who gets hit next / what changes now, one sentence
+- "protagonist": IF one human being drives this story: their name plus the one identity fact that makes them a character (age, 'ex-OpenAI', 'college dropout') — else empty string. A company is never a protagonist
+- "dinner_detail": the one human SCENE a person would retell at dinner tonight — a moment, never a statistic; empty string only if the story truly has none
+Every spine field built ONLY from facts in the material — never invented.
+
+JOB 3 — CLASSIFY for Instagram packaging:
+{viral.TYPES}
+- "story_type": the ONE type whose drama is the real reason people share this
+- "actor": the named actor of the story (company/person/thing)
+- "actor_known": would a random 16-year-old ANYWHERE instantly recognize this name? Be harsh. Apple/Tesla/ChatGPT/Visa/MrBeast yes; Circle K/Figure/Suno/Anthropic no.
+- "anchor": what the hook should anchor on. If actor_known, the actor. If not, the most universal TRUE noun in the story (the machine, the AI, "a self-checkout", the famous counterparty, "your bank"). Never an unknown brand.
+- "specifics": the 3-5 most shareable TRUE concrete details, most insane first (exact numbers, names, quotes) — the hook's raw ammunition.
+
+Return ONLY JSON: {{"retell": "...", "facts": ["..."], "spine": {{...}}, "story_type": "...", "actor": "...", "actor_known": true/false, "anchor": "...", "specifics": ["..."]}}"""
+    default_ctx = {"story_type": "corporate_move", "actor": "",
+                   "actor_known": True, "anchor": "", "specifics": []}
     try:
-        r = call_claude(base, schema=RETELL_SCHEMA)
-        for attempt in range(2):
-            g = call_claude(f"""Your friend at the table looks up from their phone and says this to you, out of nowhere:
+        r = call_claude(base, schema=PREP_SCHEMA)
+        g = call_claude(f"""Your friend at the table looks up from their phone and says this to you, out of nowhere:
 "{r['retell']}"
 Are you genuinely hooked — do you say "wait, what?" and want the rest? Answer honestly; most news retellings fail this. Return ONLY JSON: {{"look_up": true or false, "why": "one blunt sentence"}}""",
-                           schema=LOOKUP_SCHEMA)
-            if g.get("look_up") or attempt:
-                break
+                       schema=LOOKUP_SCHEMA, model=CHEAP)
+        if not g.get("look_up"):
             print(f"boring retell ({g.get('why', '?')}) — hunting a harder angle",
                   file=sys.stderr)
             r2 = call_claude(base + f"""
 
 YOUR FIRST TRY FAILED — a listener said: "{g.get('why', 'boring')}". Find a different angle: the money, the fear, or the absurdity in this story. Say the single most shocking consequence FIRST, as a claim about the listener's own life if you honestly can.""",
-                             schema=RETELL_SCHEMA)
+                             schema=PREP_SCHEMA)
             r = r2 or r
-        return r
+        retold = {"retell": r["retell"], "facts": r.get("facts", [])}
+        spine = r.get("spine") or None
+        ctx = {k: r.get(k, d) for k, d in default_ctx.items()}
+        if ctx["story_type"] not in viral.PLAYBOOK:
+            ctx = default_ctx
+        return retold, spine, ctx
     except Exception as e:
-        print(f"retell failed ({e}) — falling back to article text", file=sys.stderr)
-        return None
-
-
-SPINE_SCHEMA = {"type": "object", "properties": {
-    "irony": {"type": "string"}, "belief": {"type": "string"},
-    "event": {"type": "string"}, "twist": {"type": "string"},
-    "fallout": {"type": "string"}, "protagonist": {"type": "string"},
-    "dinner_detail": {"type": "string"}},
-    "required": ["irony", "belief", "event", "twist", "fallout",
-                 "protagonist", "dinner_detail"]}
-
-
-def story_spine(story, material):
-    """The arc-hunting step (owner directive Aug 1: 'the way we tell each post
-    story after the hook must be improved dramatically' — the Reddit-crash
-    post buried its own gold, that Reddit sold Google the data that trained
-    the AI now killing it, in the pinned comment). One call extracts the
-    narrative skeleton BEFORE writing, so slides are built on an arc instead
-    of a stat sequence. Source-agnostic by design (owner: 'all posts through
-    all sources'): it takes whatever material the story has — article text,
-    Reddit selftext, X post — including when the retell step failed. Fails
-    open: None -> the writer builds the chain unaided, exactly as before."""
-    prompt = f"""Here is a news story and its raw material.
-Title: {story['title']}
-Material: {(material or story['title'])[:6000]}
-
-You are a story editor for a viral page. Movies get structured before they get shot; this post gets the same. Extract the story's NARRATIVE SPINE. Hunt hardest for the IRONY — the one TRUE fact that makes the story poetic, absurd, or cruel (usually buried mid-article, almost never in the headline; e.g. "Reddit sold Google the data that trained the AI that is now killing Reddit").
-
-Return ONLY JSON:
-{{"irony": "the single most ironic/absurd TRUE line in the story, one sentence — empty string ONLY if the story truly has none",
- "belief": "what everyone believed the morning before this happened, one sentence",
- "event": "what actually happened, at human scale (a person's money, job, screen — never index points or corporate abstractions), 1-2 sentences",
- "twist": "the 'wait, WHAT?' fact — the irony or the most contrarian true detail, the beat that re-hooks a tired reader, one sentence",
- "fallout": "who gets hit next / what changes now, one sentence",
- "protagonist": "IF one human being drives this story (rise-and-fall, founder, inventor): their name plus the one identity fact that makes them a character (age, 'ex-OpenAI', 'college dropout') — else empty string. A company is never a protagonist",
- "dinner_detail": "the DINNER TEST: the one human SCENE from this story a person would retell at dinner tonight ('his wedding guests were arriving while the fund collapsed') — a moment, never a statistic; empty string only if the story truly has none"}}
-Every field built ONLY from facts in the material — never invented."""
-    try:
-        return call_claude(prompt, schema=SPINE_SCHEMA)
-    except Exception as e:
-        print(f"spine failed ({e}) — writer builds the arc unaided", file=sys.stderr)
-        return None
+        print(f"story prep failed ({e}) — falling back to article text",
+              file=sys.stderr)
+        return None, None, default_ctx
 
 
 def pick_face(face):
@@ -1283,29 +1219,22 @@ def main(stories_path):
         media_files.append(path)
     print(f"{len(media_files)} candidate images saved", file=sys.stderr)
 
-    retold = retell_story(story, body_text)
+    # ONE merged prep call (token diet Aug 8): retell + spine + classify
+    retold, spine, ctx = prep_story(story, body_text)
     if retold:
         print(f"retell: {retold['retell'][:120]}", file=sys.stderr)
-
-    # the viral agent classifies the story FIRST — the classification steers
-    # the writer's hooks, the rival batch, and the judge's rubric (Circle K
-    # post-mortem: one rubric for all story types picked the wrong hook)
-    material = (retold["retell"] + "\n" + "\n".join(retold["facts"])
-                if retold else body_text)
-    ctx = viral.classify(story, material)
     print(f"viral classify: {ctx['story_type']}, actor '{ctx.get('actor')}' "
           f"{'known' if ctx.get('actor_known') else 'UNKNOWN -> anchor: ' + str(ctx.get('anchor'))}",
           file=sys.stderr)
-
-    # the spine runs on the same material for EVERY source path — full
-    # article, Reddit selftext, X radar, or title-only when scraping failed
-    spine = story_spine(story, material)
     if spine:
         print(f"spine twist: {spine['twist'][:110]}", file=sys.stderr)
 
     steer = viral.hook_block(ctx)
     prompt = build_prompt(story, body_text, media_files, retold, steer, spine)
-    for attempt in range(3):
+    # 2 full regenerations, not 3 (token diet Aug 8): qa_repair's surgical pass
+    # converges most failures cheaply; the workflow's edu fallback ladder still
+    # guarantees the slot posts if both rolls fail.
+    for attempt in range(2):
         post = call_claude(prompt, images=media_files)
         errs = qa(post)
         if errs:
@@ -1457,7 +1386,9 @@ def main(stories_path):
         # attempts, and the post NEVER ships imageless: if nothing passes, the
         # best-scoring reject wins). Inner slides keep one shot; genimg's
         # budget guard caps total spend either way.
-        tries = 3 if s["type"] == "cover" else 1
+        # cover tries 3 -> 2 (token diet Aug 8): each extra try = a vision
+        # judge + a brief rewrite + Replicate spend; best-reject floor remains
+        tries = 2 if s["type"] == "cover" else 1
         for attempt in range(tries):
             out_jpg = os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg")
             path = None

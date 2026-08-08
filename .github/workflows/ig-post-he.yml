@@ -9,12 +9,10 @@ name: IG autopost HE
 
 on:
   schedule:
-    # Israel prime time (IDT = UTC+3): 11:00/14:00/17:00/19:00/21:00 IL.
-    # English slots feed 7 posts/day, so a Hebrew slot always has backlog.
+    # TOKEN DIET (owner Aug 8): 3 Hebrew slots to mirror the 3 English
+    # carousels/day. Israel prime time (IDT = UTC+3): 11:00/17:00/21:00 IL.
     - cron: "0 8 * * *"
-    - cron: "0 11 * * *"
     - cron: "0 14 * * *"
-    - cron: "0 16 * * *"
     - cron: "0 18 * * *"
   workflow_dispatch:
     inputs:

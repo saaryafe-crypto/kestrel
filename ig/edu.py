@@ -53,20 +53,26 @@ SCHEMA = {
 
 def viral_guides(used_topics):
     """Owner order Aug 4 ("find the viral guides on twitter as well, it is
-    much better and more viral"): the PRIMARY topic source is now the most
-    viral guide/how-to tweets from the approved X watchlist. radar_x flags
-    them (GUIDE_RE) and mines the author's own thread so the full content
-    rides in radar.json (CI has no X key). Deduped via the [x:ID] tag the
-    writer copies into its topic label. Fails open to [] — the pillar
-    self-pick below keeps the slot alive when the radar has no fresh guide."""
-    try:
-        r = json.load(open(os.path.join(HERE, "radar.json")))
-    except Exception as e:
-        print(f"no radar.json for guides ({e})", file=sys.stderr)
-        return []
+    much better and more viral") + Aug 8 token diet: the ONLY topic source is
+    the 7-day rolling pool of viral guide tweets (ig/guides.json, maintained
+    by radar.py) — most viral unused wins. The old radar.json snapshot only
+    held 0-3 guides at a time, so the slot self-picked pillar topics and
+    repeated itself ("6 prompts"...). Deduped via the [x:ID] tag the writer
+    copies into its topic label. Fails open: pool missing -> radar.json
+    snapshot -> [] (pillar self-pick keeps the slot alive)."""
     used_blob = " ".join(used_topics)
-    out = [m for m in r.get("moments", [])
-           if m.get("guide") and f"x:{m['id']}" not in used_blob]
+    try:
+        cands = json.load(open(os.path.join(HERE, "guides.json")))["guides"]
+    except Exception as e:
+        print(f"no guides.json pool ({e}), falling back to radar.json",
+              file=sys.stderr)
+        try:
+            r = json.load(open(os.path.join(HERE, "radar.json")))
+            cands = [m for m in r.get("moments", []) if m.get("guide")]
+        except Exception as e:
+            print(f"no radar.json for guides ({e})", file=sys.stderr)
+            return []
+    out = [m for m in cands if f"x:{m['id']}" not in used_blob]
     out.sort(key=lambda m: -m.get("score", 0))
     return out[:3]
 
@@ -164,7 +170,9 @@ def main():
               + ", ".join(f"@{g['sub']} ({g.get('score', 0):,} likes)"
                           for g in guides), file=sys.stderr)
     prompt = build_prompt(used, headlines, guides)
-    for attempt in range(3):
+    # 2 rolls, not 3 (token diet Aug 8): the workflow ladder re-runs edu.py
+    # fresh as its last rung anyway, so a third in-process roll is redundant.
+    for attempt in range(2):
         post = call_claude(prompt, schema=SCHEMA)
         errs = qa(post)
         for i, s in enumerate(post.get("slides", [])):
@@ -222,7 +230,9 @@ def main():
             cover_face = fp[0] if fp else None
         if s["type"] == "cta" or not brief or gen >= 3:
             continue
-        tries = 3 if s["type"] == "cover" else 1
+        # cover tries 3 -> 2 (token diet Aug 8): each extra try = a vision
+        # judge + a brief rewrite + Replicate spend; best-reject floor remains
+        tries = 2 if s["type"] == "cover" else 1
         for attempt in range(tries):
             out_jpg = os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg")
             path = None
