@@ -1,247 +1,223 @@
 {
- "updated": "2026-08-07T08:34:54+00:00",
+ "updated": "2026-08-08T07:48:19+00:00",
  "competitor_hits": [
   {
    "page": "mashable",
-   "likes": 545,
-   "ratio": 1.66,
+   "likes": 16000,
+   "ratio": 23.63,
    "tier": "mega",
-   "hook": "\"Millennials, rejoice! It looks like MySpace may be coming back to your computers. \u2060\n\u2060\nThe platform, launched in 2003 by co-founders Tom Anderson and Chris DeWolfe, quickly became one of the internet\u2019s largest social net",
-   "date": "2026-08-05"
+   "hook": "\"Another adorable animal has taken over the internet.\n\nMomota, an 8-month-old polar bear cub, has taken the internet by storm with his love of traffic cones. Yes, you read that right, traffic cones. It seems the cub can\u2019",
+   "date": "2026-08-07"
   },
   {
-   "page": "technology",
-   "likes": 8732,
-   "ratio": 0.39,
+   "page": "mashable",
+   "likes": 334,
+   "ratio": 0.49,
    "tier": "mega",
-   "hook": "\"A new browser game called Hop.Earth lets you explore real road networks across the world by streaming map data directly into your browser, with no download required \ud83c\udf0d\n\nInstead of storing a massive game world, Hop.Earth ",
-   "date": "2026-08-06"
-  },
-  {
-   "page": "technology",
-   "likes": 7205,
-   "ratio": 0.32,
-   "tier": "mega",
-   "hook": "\"A simple Google Earth flyover of Oahu reveals one of America\u2019s most important Pacific military hubs, where fighter jets, transport aircraft, missile defense systems, and naval infrastructure sit in plain view \u2708\ufe0f\ud83c\udf0a\n\nThe f",
-   "date": "2026-08-06"
-  },
-  {
-   "page": "futurism",
-   "likes": 1218,
-   "ratio": 0.21,
-   "tier": "mega",
-   "hook": "\"Meta has opened Pandora\u2019s box with its AI-infused smart sunglasses. The high-dollar accessory has sparked a heated debate over privacy, with unsavory individuals abusing the eyewear\u2019s easily-missed cameras to harass uns",
-   "date": "2026-08-06"
-  },
-  {
-   "page": "futurism",
-   "likes": 482,
-   "ratio": 0.08,
-   "tier": "mega",
-   "hook": "\"Tech companies are making record amounts of money, posting major gains in the most recent quarter compared to the same period just a year ago.\n\nBut despite all that income, these same companies are struggling to save an",
-   "date": "2026-08-05"
+   "hook": "\"MCU's Blade movie may be dead, but Mahershala Ali and filmmaker Bassam Tariq have created an original action movie from its ashes. \u2060\n\u2060\n\u2060\nWritten and directed by Tariq, \"Your Mother Your Mother Your Mother\" stars Ali as ",
+   "date": "2026-08-07"
   }
  ],
  "reddit_hot": [
   {
    "sub": "technology",
-   "score": 21581,
-   "title": "Google's AI told people Flock cameras were full of gold. They weren't"
+   "score": 25746,
+   "title": "Flock Is Losing Dozens of Contracts as Controversy Grows"
   },
   {
    "sub": "technology",
-   "score": 14812,
-   "title": "Salem Brought a Guillotine To Oppose New Data Center. Company Reps Left, Feeling \u201cUnsafe\u201d."
+   "score": 23090,
+   "title": "YouTube\u2019s AI slop detector incorrectly targets Kurzgesagt as other creators fear same fate"
   },
   {
    "sub": "technology",
-   "score": 13199,
-   "title": "DuckDuckGo made sunglasses that do absolutely nothing, and they sold out"
+   "score": 6310,
+   "title": "Canada investigating how Skyrim username mixup sent innocent man to prison for 18 months"
   },
   {
    "sub": "technology",
-   "score": 7922,
-   "title": "Restaurants, pubs and theatres ban Meta\u2019s \u2018spy glasses\u2019 over privacy fears"
+   "score": 5279,
+   "title": "City That Arrested Person for Clapping at Data Center Meeting Moves to Virtual Townhalls for 'Public Safety' / A small town in Kansas took its city meetings virtual and ended public comment after city leaders received a wave of death threats."
+  },
+  {
+   "sub": "technology",
+   "score": 3470,
+   "title": "Flock Pitched a Plan to Turn Uber and Lyft Drivers Into Roaming Surveillance Vehicles / A Flock presentation shows the company planned to use around 350,000 Uber, Lyft, and delivery drivers to collect license plate data for its surveillance system."
+  },
+  {
+   "sub": "technology",
+   "score": 2899,
+   "title": "Zohran Mamdani\u2019s NYC Tech Team Is What DOGE Should Have Been"
+  },
+  {
+   "sub": "technology",
+   "score": 2850,
+   "title": "\u2018As toxic as AIPAC\u2019: Progressive leader wants Dems to reject AI cash"
+  },
+  {
+   "sub": "technology",
+   "score": 2634,
+   "title": "Cities Are Ditching Flock, Immediately Replacing It With Axon License Plate Readers"
+  },
+  {
+   "sub": "technology",
+   "score": 2522,
+   "title": "Nintendo reports a full 38.5% of its sales are still physical in the wake of Sony abandoning discs"
+  },
+  {
+   "sub": "technology",
+   "score": 2381,
+   "title": "Meta CTO says employees should use AI productivity gains to do more work \u2014 not take more time off"
+  },
+  {
+   "sub": "technology",
+   "score": 2273,
+   "title": "Scientist says RAM pricing has reverted to normalized 2007 levels \u2014 memory prices have been falling exponentially for decades, but the AI shortage undid 20 years of progress in a matter of months"
   },
   {
    "sub": "ChatGPT",
-   "score": 5228,
-   "title": "Every ChatGPT and Claude benchmarks be like"
+   "score": 2184,
+   "title": "Bernie Sanders is worried we're living through a Don't Look Up situation with AI"
   },
   {
    "sub": "technology",
-   "score": 4594,
-   "title": "Senators demand crackdown on wildfire \u201cprediction market\u201d bets | Fire experts warn such markets could incentivize arson."
+   "score": 2183,
+   "title": "Japan warns US government to stop using Nintendo and Pokemon in memes"
   },
   {
    "sub": "technology",
-   "score": 3620,
-   "title": "New Orleans will use AI to answer 911 calls instead of a human"
+   "score": 1642,
+   "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects"
   },
   {
    "sub": "technology",
-   "score": 3103,
-   "title": "AI slop, privacy fears, and endless scrolling are making people fall out of love with the internet"
+   "score": 1602,
+   "title": "Flock's biggest investor also backs a company that can rewrite camera footage"
+  },
+  {
+   "sub": "ChatGPT",
+   "score": 1335,
+   "title": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza. It\u2019s Working."
   },
   {
    "sub": "technology",
-   "score": 2624,
-   "title": "Americans are rallying against data centers. Surprisingly few are actually getting built"
-  },
-  {
-   "sub": "technology",
-   "score": 2157,
-   "title": "Roblox Tanked $9 Billion In A Single Day After The Company Admitted It Was Directing Fewer Kids Toward Viral Games That \u2018Emphasize Short-Term Monetization\u2019"
+   "score": 1300,
+   "title": "Amazon Is Creating the Biggest Pollution Source in the Entire Country: Amazon has bought a site in Texas where it plans to build a data center campus."
   },
   {
    "sub": "Futurology",
-   "score": 1895,
-   "title": "Scientists have, for the first time, genetically engineered lettuce and tobacco plants to grow the animal protein myoglobin. Plant-derived myoglobin could achieve protein yields per hectare that rival \u2013 or even exceed \u2013 those of animal agriculture, with lower water use and greenhouse gas emissions."
+   "score": 1270,
+   "title": "Great Solar Wall of China power project could reshape its energy landscape, desert ecosystems"
   },
   {
-   "sub": "technology",
-   "score": 1854,
-   "title": "FCC Removes Key Limit on Media Ownership, Raising Potential of Major Consolidation of Broadcast TV Stations"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 1769,
-   "title": "programming in 2026"
-  },
-  {
-   "sub": "technology",
-   "score": 1583,
-   "title": "SEC bought access to over a billion airline records to track travelers, no warrant required"
-  },
-  {
-   "sub": "singularity",
-   "score": 1474,
-   "title": "Gemini"
-  },
-  {
-   "sub": "technology",
-   "score": 1319,
-   "title": "The left and right agree on one thing: no data centers / Data center bans in states like Florida reveal how the anti-AI movement is channeling bipartisan backlash."
-  },
-  {
-   "sub": "technology",
-   "score": 1202,
-   "title": "Mexico's &quot;Gamer Congresswoman&quot; takes Sony to court over physical game disc shutdown"
-  },
-  {
-   "sub": "technology",
-   "score": 1107,
-   "title": "SpaceX Now Faces a Terrible Peril"
-  },
-  {
-   "sub": "technology",
-   "score": 1085,
-   "title": "California Town Says Flock Cameras Misread License Plates 71% Of The Time"
-  },
-  {
-   "sub": "technology",
-   "score": 986,
-   "title": "'This Is Unbelievably Scummy' - GTA 6 Fans Are Annoyed By Netflix's Paywalled Extended Look at the Game"
-  },
-  {
-   "sub": "technology",
-   "score": 883,
-   "title": "Apple's \u2018Private Relay\u2019 Is Exposing Users\u2019 Real IP Addresses"
-  },
-  {
-   "sub": "technology",
-   "score": 853,
-   "title": "Your Computer Is About to Demand Your Age Before You Can Use It. Here's Why"
-  },
-  {
-   "sub": "singularity",
-   "score": 767,
-   "title": "OpenAI to release GPT Astra next week"
-  },
-  {
-   "sub": "singularity",
-   "score": 660,
-   "title": "spooky..."
-  },
-  {
-   "sub": "technology",
-   "score": 657,
-   "title": "Meta Ordered to Pay $942 Million to Address Harm to Kids From Social Media"
-  },
-  {
-   "sub": "technology",
-   "score": 650,
-   "title": "After severe 76% electricity price hikes due to AI data centers, Virginia requires firms to pay for all dedicated upstream electrical infrastructure \u2014 State regulators crack down, governor says move will save civilians \u2018hundreds of millions of dollars\u2019"
-  },
-  {
-   "sub": "technology",
-   "score": 608,
-   "title": "US agency ends 39% household cap on local TV station owners"
-  },
-  {
-   "sub": "technology",
-   "score": 499,
-   "title": "\u2018AI Kill Switch\u2019 bill needs to be passed this year amid ongoing rogue agent hacks, Rep. Lieu says"
+   "sub": "OpenAI",
+   "score": 1126,
+   "title": "\u201cwe sandboxed the agent\u201d -- meanwhile the agent..."
   },
   {
    "sub": "ChatGPT",
-   "score": 485,
-   "title": "Vibe coding"
+   "score": 993,
+   "title": "\u201cwe sandboxed the agent\u201d -- meanwhile the agent..."
+  },
+  {
+   "sub": "Futurology",
+   "score": 859,
+   "title": "90% of US robotics research is done with Chinese robots; now the US government wants to ban them."
   },
   {
    "sub": "technology",
-   "score": 472,
-   "title": "&quot;Old Reddit&quot; a threat to AI data scraping, says platform, with changes coming"
+   "score": 827,
+   "title": "Trump administration has spent nearly $4B to cancel offshore wind farms | TechCrunch"
+  },
+  {
+   "sub": "technology",
+   "score": 825,
+   "title": "Microsoft admits it force-installed AI-powered OneDrive on Windows 11, says it's not training on your faces (really)"
   },
   {
    "sub": "ChatGPT",
-   "score": 440,
-   "title": "Prompt: Your favourite game, but photographed like real life"
+   "score": 803,
+   "title": "Seinfeld AI"
   },
   {
    "sub": "technology",
+   "score": 750,
+   "title": "The Hugging Face hack is a PR crisis that's costing OpenAI millions"
+  },
+  {
+   "sub": "technology",
+   "score": 629,
+   "title": "Kalshi and Polymarket bets on clinical trials criticized as 'ghastly'"
+  },
+  {
+   "sub": "singularity",
+   "score": 610,
+   "title": "GPT-6 release delayed due to &quot;critical&quot; cybersecurity capabilities"
+  },
+  {
+   "sub": "technology",
+   "score": 563,
+   "title": "The secret codewords that scammers hate \u2022 Deepfake scams might use your voice, but they don't know what's in your head. Five minutes of preparation could save your loved ones from falling for fraud."
+  },
+  {
+   "sub": "technology",
+   "score": 548,
+   "title": "Flock promoted videos highlighting police departments using its tech. Four of these have since faced allegations of misuse\u2014Savannah, Albany, Sandy Springs, and Baytown\u2014in addition to alleged ALPR misuse in states like Georgia, Kansas, North Carolina, Ohio, and Wisconsin"
+  },
+  {
+   "sub": "technology",
+   "score": 526,
+   "title": "The FCC Moves to Retroactively Ban Drones With LiDAR Obstacle Avoidance"
+  },
+  {
+   "sub": "technology",
+   "score": 512,
+   "title": "Wearable ultrasound patch boosts REM sleep without drugs or surgery"
+  },
+  {
+   "sub": "technology",
+   "score": 477,
+   "title": "'Asimov was right' about rules for robots, says ex-US Cyber Director"
+  },
+  {
+   "sub": "ChatGPT",
    "score": 404,
-   "title": "The U.S. Government's Mario, Pok\u00e9mon and Naruto Meme Posting Could Damage These Franchises, Japanese Officials Warn"
-  },
-  {
-   "sub": "singularity",
-   "score": 369,
-   "title": "Anthropic CEO reportedly worried new hires only care about money \u2014 while hiring an event planner for 6x the going rate"
-  },
-  {
-   "sub": "singularity",
-   "score": 344,
-   "title": "Holy mother of Google Amodei!"
+   "title": "That is a horse."
   },
   {
    "sub": "technology",
-   "score": 338,
-   "title": "Software Giant SAP Stops Most Travel and Hiring Because of AI\u2019s Soaring Cost | SAP says it needs to \u201cbe disciplined in how we spend.\u201d That includes still freezing hires and travel."
-  },
-  {
-   "sub": "singularity",
-   "score": 296,
-   "title": "OpenAI: Improving GPT\u20115.6 in ChatGPT"
-  },
-  {
-   "sub": "singularity",
-   "score": 293,
-   "title": "New benchmark just dropped"
+   "score": 398,
+   "title": "Microsoft Edge is about to lock out older ad blockers, just like Chrome did"
   },
   {
    "sub": "ChatGPT",
-   "score": 273,
-   "title": "controversial pocket monsters"
+   "score": 397,
+   "title": "Come on, commit some crimes"
   },
   {
    "sub": "Futurology",
-   "score": 258,
-   "title": "Europe and China's Green Tech spending dwarfs the AI Boom. In 2026, in Europe alone, 'green bonds' to finance Euro Green Tech are expected to top $700 billion."
+   "score": 375,
+   "title": "China Drives Global Nuclear Power Generation To A New Record"
   },
   {
    "sub": "ChatGPT",
-   "score": 254,
-   "title": "GPT-5.6 Instant is now rolling out in ChatGPT, replacing 5.5 Instant"
+   "score": 330,
+   "title": "A Crossover That Was Never Meant to Exist"
+  },
+  {
+   "sub": "singularity",
+   "score": 320,
+   "title": "&quot;OpenAI has overcome their pre-training issues, and a much larger model code named \u201cDoug\u201d is actively in the works&quot;"
+  },
+  {
+   "sub": "ChatGPT",
+   "score": 305,
+   "title": "Dark Fantasy Battle Scene - GPT-2 and Seedance 2.5"
+  },
+  {
+   "sub": "singularity",
+   "score": 300,
+   "title": "Sam on Astra\u2019s delayed release"
   }
  ]
 }
