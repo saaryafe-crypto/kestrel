@@ -1,0 +1,9 @@
+Swipe through all 6. These free GitHub tools replace software most small businesses are overpaying for every month 💸
+
+n8n replaces Zapier for free, Whisper from OpenAI transcribes every call and meeting for $0, Flowise builds an AI chatbot for your website without a developer, Ollama runs private AI on your own hardware so your whole team pays nothing, AnythingLLM lets you search your own contracts and files with plain questions, Perplexica does live competitor research like Perplexity Pro without the subscription.
+
+Most of these tools have existed for years. What changed: Claude Code can now deploy all of them in minutes, no developer needed, which is why business owners are finally making the switch. Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: GitHub (n8n, Whisper, Flowise, Ollama, AnythingLLM, Perplexica), Zapier, Rev, Perplexity
+
+#AI #AITools #SmallBusiness #BusinessAutomation #FreeAI

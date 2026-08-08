@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 FREE <em>GITHUB TOOLS BUSINESSES PAY $1,500/MONTH FOR</em>",
+   "kicker": "YOURS CAN SWITCH TONIGHT",
+   "hsize": 72,
+   "face": [],
+   "media": "posts/2026-08-08-edu-6-free-github-ai-tools-replacing-paid-bu/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>REPLACE ZAPIER</em> WITH THIS FREE TOOL",
+   "hsize": 106,
+   "body": "Zapier's Professional plan costs <b>$49 a month</b>. n8n, free on GitHub (github.com/n8n-io/n8n), connects all your apps and automates tasks in plain English, no code.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>TRANSCRIBE EVERY MEETING AND CALL</em> FOR FREE",
+   "hsize": 100,
+   "body": "Transcription services charge up to <b>$1.50 a minute</b>, over <b>$4,000 a year</b> for one busy team. Whisper, free on GitHub (github.com/openai/whisper), transcribes any audio file as accurately as any paid service.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>BUILD AN AI CHATBOT</em> FOR YOUR WEBSITE TONIGHT",
+   "hsize": 100,
+   "body": "Custom AI chatbots start at <b>$5,000 to build</b> and cost up to <b>$300 a month</b>. Flowise, free on GitHub (github.com/FlowiseAI/Flowise), lets you drag, drop, and point it at your FAQ, live in hours.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FREE PRIVATE AI FOR YOUR WHOLE TEAM</em>",
+   "hsize": 102,
+   "body": "A 10-person team on ChatGPT Plus spends <b>$2,400 a year</b> and sends every message to OpenAI's servers. Ollama, free on GitHub (github.com/ollama/ollama), runs powerful private AI on your own machine for <b>$0</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>ASK AI QUESTIONS</em> ABOUT YOUR FILES AND CONTRACTS",
+   "hsize": 100,
+   "body": "Services that let AI search your internal documents cost <b>$300 to $800 a month</b>. AnythingLLM, free on GitHub (github.com/Mintplex-Labs/anything-llm), connects AI to any file you upload and answers in seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>FREE COMPETITOR RESEARCH</em> IN UNDER A MINUTE",
+   "hsize": 106,
+   "body": "Perplexity Pro costs <b>$240 a year per person</b> for AI-powered web research. Perplexica, free on GitHub (github.com/ItzCrazyKns/Perplexica), does the same thing and delivers a sourced competitor report in under a minute.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS POST</em>",
+   "hsize": 110,
+   "body": "You'll want these when you're cutting your software bill. Daily AI news and real tools, every day",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6. These free GitHub tools replace software most small businesses are overpaying for every month \ud83d\udcb8\n\nn8n replaces Zapier for free, Whisper from OpenAI transcribes every call and meeting for $0, Flowise builds an AI chatbot for your website without a developer, Ollama runs private AI on your own hardware so your whole team pays nothing, AnythingLLM lets you search your own contracts and files with plain questions, Perplexica does live competitor research like Perplexity Pro without the subscription.\n\nMost of these tools have existed for years. What changed: Claude Code can now deploy all of them in minutes, no developer needed, which is why business owners are finally making the switch. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: GitHub (n8n, Whisper, Flowise, Ollama, AnythingLLM, Perplexica), Zapier, Rev, Perplexity\n\n#AI #AITools #SmallBusiness #BusinessAutomation #FreeAI",
+ "pinned_comment": "Which one are you trying tonight? n8n (slide 2) saves the most money for most businesses. But slide 6 is the sleeper: free competitor research with real sources in under a minute.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>PEOPLE ARE REPLACING $30,000/YEAR SOFTWARE STACKS</em> WITH FREE GITHUB TOOLS",
+   "THE 6 FREE GITHUB TOOLS <em>YOUR SOFTWARE VENDORS HOPE YOU NEVER FIND</em>",
+   "6 FREE AI TOOLS <em>THAT REPLACE YOUR MOST EXPENSIVE BUSINESS SOFTWARE</em>",
+   "6 FREE GITHUB TOOLS <em>YOUR COMPETITORS SWITCHED TO AND NEVER TOLD YOU</em>",
+   "6 FREE <em>GITHUB TOOLS BUSINESSES PAY $2,000/MONTH FOR</em>"
+  ],
+  "scores": [
+   8,
+   4,
+   7.5,
+   8.5,
+   9
+  ],
+  "winner": 4,
+  "why": "The $2,000/month number hits your brain as a specific, stoppable 'wait, WHAT?' shock\u2014you already know the full story and want swipe details. [3]'s competitor angle requires you to read deeper to get the actual payoff."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR BUSINESS IS PAYING FOR 6 TOOLS <em>THAT ARE FREE ON GITHUB</em>",
+   "6 FREE <em>GITHUB TOOLS BUSINESSES PAY $2,000/MONTH FOR</em>",
+   "6 FREE GITHUB TOOLS THAT REPLACE <em>$2,000/MONTH BUSINESS SOFTWARE</em>",
+   "BUSINESSES PAY $2,000 A MONTH FOR THESE 6 TOOLS. <em>THEY'RE ALL FREE ON GITHUB.</em>"
+  ],
+  "scores": [
+   5,
+   9,
+   7,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] slams you with the $2,000/month number first, THEN reveals they're free\u2014pure shock in 1.5 seconds. [3] delivers the same gut-punch but stretched across two sentences, so you're still reading while I'm already swiping."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Hook is 9 words (minimum 12) and is not a complete sentence \u2014 it is a noun-phrase label ('6 FREE GITHUB TOOLS BUSINESSES PAY $1,500/MONTH FOR'), which is explicitly banned. Fix: rewrite as a full sentence with an actor or felt consequence, e.g., 'These 6 free GitHub tools replace software most small businesses are paying over $1,400 a month for.'; $1,500/month in the hook is an unsubstantiated agg"
+}

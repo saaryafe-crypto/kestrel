@@ -775,5 +775,124 @@
   "subject": "BUSINESS OWNERS ARE CANCELLING THEIR VIRTUAL ASSISTANTS AFTER SETTING UP <em>THESE 5 CLAUDE PROJECTS</em>.",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-08T18:52:19Z",
+  "gate": "A",
+  "subject": "Just like Starbase and Tesla factories, Terafab will be incredibly inspiring to come to work!",
+  "verdict": "KILL",
+  "reason": "One-sentence aspirational statement with zero real-world event, consequence, or numbers—no substance to build a carousel, and low scout score doesn't overcome it."
+ },
+ {
+  "t": "2026-08-08T18:52:44Z",
+  "gate": "A",
+  "subject": "The father who posted the video says: If it weren't for the security camera, I wouldn't have believed what happened.",
+  "verdict": "KILL",
+  "reason": "Pure teaser with zero substance — just a vague quote about 'something happened' on a security camera with no facts, names, numbers, or consequence; a writer would have to pad to fill slides, and the 2/10 scout score confirms the story doesn't exist yet."
+ },
+ {
+  "t": "2026-08-08T18:53:13Z",
+  "gate": "A",
+  "subject": "BREAKING 🚨: Housing Market The largest mortgage lender in the United States, United Wholesale Mortgage, fell to an all-t",
+  "verdict": "KILL",
+  "reason": "No substance: one 175-character tweet with no numbers, no timeline, no consequence, and no second fact—a writer would have to fabricate detail to pad carousel slides, and it's routine stocks-moved-today market news anyway (explicitly banned)."
+ },
+ {
+  "t": "2026-08-08T18:53:44Z",
+  "gate": "A",
+  "subject": "Most people don't realize how big of a growth wave we are currently experiencing. So far, with 88% of S&P 500 companies ",
+  "verdict": "KILL",
+  "reason": "Routine market earnings data and analyst targets are explicitly banned routine content under §1 ('stocks-rose-today, analyst targets'); no story event or felt consequence."
+ },
+ {
+  "t": "2026-08-08T18:54:09Z",
+  "gate": "A",
+  "subject": "Returning the marmoset babies to mom after a medical check.",
+  "verdict": "KILL",
+  "reason": "Instant kill on NO SUBSTANCE: source is 59 characters with no facts, numbers, or consequences; writer would fabricate to build carousel."
+ },
+ {
+  "t": "2026-08-08T18:54:29Z",
+  "gate": "A",
+  "subject": "BREAKING: The S&amp;P 500 closes at the highest level on record, up another +3.6% this week. The S&amp;P 500 added +$2.5",
+  "verdict": "KILL",
+  "reason": "Explicitly banned as ON-TOPIC BUT ROUTINE (stocks-rose-today market wrap); zero human actor, zero felt consequence, and no substance beyond a single thin tweet — fails story law entirely."
+ },
+ {
+  "t": "2026-08-08T18:55:09Z",
+  "gate": "A",
+  "subject": "BREAKING 🚨: Argentina Argentina's Peso has fallen to an all-time low against the U.S. Dollar and has now collapsed 99.8%",
+  "verdict": "KILL",
+  "reason": "This is market-news currency reporting without a person-driven story or consequence—the statistic-only format that scouts at 2/10 because no one would send it to a friend."
+ },
+ {
+  "t": "2026-08-08T18:55:28Z",
+  "gate": "A",
+  "subject": "These are mosquitoes trapped in a spider web Remember to be kind to your friendly neighborhood web slingers",
+  "verdict": "KILL",
+  "reason": "A spider catching mosquitoes is not a story—it's a nature photo with no real-world event, consequence, or substance, and it's off-brand for a tech page; this is pure nature content dressed up as engagement bait."
+ },
+ {
+  "t": "2026-08-08T18:55:52Z",
+  "gate": "A",
+  "subject": "A newborn turtle touches the sea for the first time",
+  "verdict": "KILL",
+  "reason": "No substance—the entire source is one thin tweet (51 chars) with no second fact, numbers, or consequence; the writer would have to pad."
+ },
+ {
+  "t": "2026-08-08T18:56:14Z",
+  "gate": "A",
+  "subject": "🇺🇦 This is the reality of conscription in Ukraine A woman screaming for her boyfriend as he's brutally dragged out of th",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the story is an emotional reaction to conscription with no named subjects, no second fact, and no consequence beyond the moment—it's exactly the model that produced the page's two worst posts."
+ },
+ {
+  "t": "2026-08-08T18:56:33Z",
+  "gate": "A",
+  "subject": "Generating power from waves. 📽: CorPower Ocean",
+  "verdict": "KILL",
+  "reason": "Source is a 46-character video caption with zero facts, no consequence, no money or person driving it — pure routine renewable-tech demonstration, not an event worth writing or the reader sending to a friend."
+ },
+ {
+  "t": "2026-08-08T18:56:55Z",
+  "gate": "A",
+  "subject": "Terafab on Mars.",
+  "verdict": "KILL",
+  "reason": "NO SUBSTANCE: the source is a three-word tweet with no event, consequence, actor identity, or second fact; a writer would have to fabricate content to fill slides."
+ },
+ {
+  "t": "2026-08-08T18:57:11Z",
+  "gate": "A",
+  "subject": "This is not sci-fi.",
+  "verdict": "KILL",
+  "reason": "No substance: the entire source is one cryptic 19-character tweet with zero facts, numbers, or real-world consequence—nothing a writer could build into slides without padding."
+ },
+ {
+  "t": "2026-08-08T18:57:30Z",
+  "gate": "A",
+  "subject": "It's crazy how accurate \"AI2027\" was with its predictions. And it was still behind the actual timeline. It's happening f",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: someone commenting on a trend (AI predictions), not a story with a real-world event or consequence; 147-character tweet with zero specifics, no actor, no numbers, and no second fact to build on."
+ },
+ {
+  "t": "2026-08-08T18:58:07Z",
+  "gate": "A",
+  "subject": "🇸🇦🇵🇰🇹🇷 MBS, Erdogan, and Pakistani PM Shehbaz Sharif just prayed together in Mecca. The 3 leaders side by side for today",
+  "verdict": "KILL",
+  "reason": "Ceremonial symbolism without real consequence; 0/10 scout score; geopolitical content off-brand for technology page."
+ },
+ {
+  "t": "2026-08-08T19:34:26Z",
+  "gate": "B",
+  "subject": "6 FREE <em>GITHUB TOOLS BUSINESSES PAY $2,000/MONTH FOR</em>",
+  "verdict": "REJECT",
+  "reason": "TRUTH LAW §5 — the cover's '$2,000/MONTH' figure is not derivable from the slide costs shown: Zapier Pro ($49) + transcription ($333/mo from $4,000/yr) + chatbot hosting ($300) + ChatGPT Plus 10 users ($200) + document AI mid-range ($550) + Perplexity Pro ($20) = ~$1,452/month; even at the AnythingLLM ceiling ($800) the total reaches only $1,702. The Doctrine requires rounding DOWN to the biggest "
+ },
+ {
+  "t": "2026-08-08T19:37:36Z",
+  "gate": "B",
+  "subject": "6 FREE <em>GITHUB TOOLS BUSINESSES PAY $1,500/MONTH FOR</em>",
+  "verdict": "REJECT",
+  "reason": "Hook is 9 words (minimum 12) and is not a complete sentence — it is a noun-phrase label ('6 FREE GITHUB TOOLS BUSINESSES PAY $1,500/MONTH FOR'), which is explicitly banned. Fix: rewrite as a full sentence with an actor or felt consequence, e.g., 'These 6 free GitHub tools replace software most small businesses are paying over $1,400 a month for.'; $1,500/month in the hook is an unsubstantiated agg"
  }
 ]
