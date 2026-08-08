@@ -184,8 +184,8 @@ CANDIDATES:
 Their reel formula (copy the FORM, never the text): a one-line curiosity title over the video — "In case you've ever wondered how a spring was made", "The efficiency of a robot vacuum cleaner". Understated, curious, zero hype words. The caption is a calm 2-3 short-paragraph explainer of what you're seeing and why it matters, then a follow line, then credits.
 {principles()}
 OUTPUT — one JSON object only:
-{{"pick": <index>, "title": "<overlay line, max 70 chars, sentence case>",
- "title_candidates": ["<FIVE genuinely different overlay lines for the picked clip — different curiosity angles (how it works / a scale number / what it replaces / the unsettling twist / who built it), each max 70 chars, sentence case — not rewordings; include your best (the one in \\"title\\") among them>"],
+{{"pick": <index>, "title": "<overlay line, max 80 chars, sentence case>",
+ "title_candidates": ["<FIVE genuinely different overlay lines for the picked clip — different curiosity angles (how it works / a scale number / what it replaces / the unsettling twist / who built it), each max 80 chars, sentence case, each naming the subject (see CONTEXT ANCHOR) — not rewordings; include your best (the one in \\"title\\") among them>"],
  "caption": "<explainer>\\n\\nLove AI? Follow @yaffeai for daily AI news\\n\\nCredits: <original creator if named in the post title, else the poster's username>. DM for credit or removal\\n\\n<exactly 5 hashtags>",
 The Credits name is a PLAIN name — never an @ handle, # hashtag, or u/ prefix (write "SpaceX", not "@SpaceX"; write "HenryGCase", not "u/HenryGCase").
  "start_s": <int, skip intro/logo seconds>, "clip_s": <int 15-60, the most impressive stretch>}}
@@ -201,6 +201,7 @@ RULES
 - The title opens an information gap (what you're seeing / why it works), it never resolves it. Simple words, no hype.
 - THE TITLE MUST EXPLAIN THE VIDEO (hard gate, Aug 1 Mad Max post-mortem): the viewer sees ONLY the footage + your line. If the clip is a MEME — a movie scene, game footage, or a skit standing in for a tech story — the line must carry the meme's framing so the metaphor lands (the source post's title usually holds the joke: "AI companies in 2028 after finding out that your grandma's diary is handwritten"). A factual news claim floating over footage it doesn't literally show is banned: "Your handwriting might be the last thing AI can't read" over a desert car chase reads as random chaos.
 - NAME THE TREND (owner rule Aug 1, the robots-rowing reel: the clip mirrored the Norwegian fans' viral rowing celebration and the title never said so): when the footage rides a trend/meme/celebration the audience already knows, the title NAMES it — recognition IS the hook ("robots doing the Norway row" beats any generic description of the same clip). Check the source title and crowd comments for the trend's name.
+- CONTEXT ANCHOR (owner rule Aug 8, hard gate): the viewer arrives COLD — they don't know what this footage is. Every title must name the subject in a couple of words (the actor or the thing: a famous name a 16-year-old knows, else a universal noun like "this robot" / "a rocket booster") AND keep the curiosity trigger. Two real post-mortems: "The part that looks fake is the real footage" — great trigger, but over rocket footage a cold viewer has no idea it's a SpaceX launch; fix: "The part of this SpaceX launch that looks fake is the real footage". "The plan to manufacture everything on Mars before humans arrive" — whose plan? what are we watching?; fix: "Inside the robot factory built to make everything on Mars before humans arrive". A title where the subject is only "this / the part / the plan" with no named actor or thing = FAIL.
 - LANGUAGE (hard requirement): title and caption written for a smart 16-year-old. Everyday words, short sentences, zero industry jargon — say what the thing DOES, not what it's called.
 - The caption's FIRST sentence carries the payoff (~125 chars show before "...more"). Explainer commentary adds original context beyond the post title — this is also what makes the repost a transformation, not a raw repost.
 - start_s + clip_s must fit inside the clip's duration.
@@ -213,7 +214,7 @@ def qa(r, cands):
         errs.append("bad pick index")
         return errs
     dur = cands[r["pick"]]["duration"]
-    if len(r["title"]) > 75: errs.append("title over 75 chars")
+    if len(r["title"]) > 85: errs.append("title over 85 chars")
     if "@yaffeai" not in r["caption"] or "Credits:" not in r["caption"]:
         errs.append("caption missing follow line or Credits")
     else:  # owner rule: credits are plain names — no @handle / #tag / u/ prefix
@@ -341,13 +342,15 @@ def title_fits(src, dur, title, source_title):
             "for a tech story), the line must carry the meme's framing (like "
             "'AI companies in 2028 when...') so the metaphor lands; a factual "
             "claim floating over footage it doesn't show is fits:false. When "
-            "fits:false, write better_title: max 70 chars, sentence case, "
+            "fits:false, write better_title: max 80 chars, sentence case, "
             "simple words a 16-year-old gets, keeping the joke or framing "
-            "that connects the line to the footage, no invented facts, no "
+            "that connects the line to the footage, AND naming the subject "
+            "(the actor or thing on screen) so a cold viewer knows what "
+            "they're watching, no invented facts, no "
             'dashes. Return ONLY JSON: {"fits": true/false, "better_title": "..."}',
             schema=TITLE_FIT, images=frames, model=CHEAP)
         if not r.get("fits") and r.get("better_title", "").strip():
-            fixed = r["better_title"].strip()[:75]
+            fixed = r["better_title"].strip()[:85]
             print(f"title coherence gate rewrote: {fixed}", file=sys.stderr)
             return fixed
         return title

@@ -89,9 +89,10 @@ say out loud. If a literal translation sounds stiff, rewrite it Israeli-style.
 {he.doctrine()}
 
 STRUCTURE RULES (hard):
-- "title": the overlay line on the video. Max 70 characters, Hebrew, opens
-  the same information gap the English title opens, never resolves it. No
-  hype words, no emojis.
+- "title": the overlay line on the video. Max 80 characters, Hebrew, opens
+  the same information gap the English title opens, never resolves it. Keep
+  the English title's context anchor (the named actor or thing that tells a
+  cold viewer what they're watching). No hype words, no emojis.
 - "caption": keep the same block structure as the English — the explainer
   paragraphs in Hebrew (first sentence carries the payoff), then the follow
   line with {HANDLE}, then the Credits block, then the hashtags.
@@ -130,8 +131,8 @@ def qa(out):
     errs = []
     if not he.HEB.search(out["title"]):
         errs.append("overlay title is not Hebrew")
-    if len(out["title"]) > 75:
-        errs.append("title over 75 chars")
+    if len(out["title"]) > 85:
+        errs.append("title over 85 chars")
     if not he.HEB.search(out["caption"][:200]):
         errs.append("caption payoff line is not Hebrew")
     if HANDLE not in out["caption"]:

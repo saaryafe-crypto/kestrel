@@ -740,6 +740,7 @@ def reel_title_judge(cands, lang="en"):
 Pick the ONE you'd stop for:
 - It opens a curiosity gap about what you're seeing, understated, zero hype words.
 - BUT if a candidate names an insane concrete specific (a number, the exact absurd thing) that another candidate only vaguely teases, the concrete one wins — "wait until you see" teasing loses to the specific itself.
+- KILL RULE (owner, Aug 8): a title that never names WHAT you're watching — the subject is only "this / the part / the plan / it" with no actor or thing named — must NEVER win, however clever the tease. You arrived cold; a title that anchors the subject ("this SpaceX launch", "a robot factory") and still teases beats one with zero context.
 - Never one anchored on a brand a 16-year-old wouldn't recognize — the universal noun ("this robot", "a self-checkout") beats the unknown name.
 - Everyday words only.
 
