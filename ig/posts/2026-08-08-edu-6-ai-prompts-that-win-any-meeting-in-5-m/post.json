@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 72,
+   "headline": "6 AI PROMPTS YOUR BOSS USES <em>BEFORE EVERY MEETING</em>",
+   "kicker": "SAVE THESE BEFORE YOUR NEXT ONE",
+   "face": [
+    "Mark Cuban"
+   ],
+   "media": "posts/2026-08-08-edu-6-ai-prompts-that-win-any-meeting-in-5-m/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "1) KNOW MORE ABOUT THEM <em>THAN THEY KNOW ABOUT YOU</em>",
+   "body": "Executive briefing services charge <b>$2,000 a month</b> for this. <b>\"I'm meeting [name, title, company] tomorrow. Give me their biggest wins, pain points, and what they'll care about most\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 108,
+   "headline": "2) TURN THEIR WEBSITE <em>INTO YOUR AMMUNITION</em>",
+   "body": "A competitive analyst charges <b>$200 an hour</b> for this. <b>\"Here is [company]'s About page. What do they value most, what's their biggest weakness, and what language would impress them in a meeting?\"</b>",
+   "media": "posts/2026-08-08-edu-6-ai-prompts-that-win-any-meeting-in-5-m/gen-2.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 108,
+   "headline": "3) PREDICT EVERY OBJECTION <em>BEFORE IT'S RAISED</em>",
+   "body": "A <b>$50,000 deal</b> dies from one objection nobody prepared for. <b>\"Here is my proposal. List the 5 strongest objections the other side will raise and write a calm one-sentence rebuttal for each\"</b>",
+   "media": "posts/2026-08-08-edu-6-ai-prompts-that-win-any-meeting-in-5-m/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 96,
+   "headline": "4) WRITE THE FOLLOW-UP <em>BEFORE THE MEETING STARTS</em>",
+   "body": "Write it before you walk in, send it <b>90 seconds</b> after you leave. You look impossibly organized. <b>\"Draft a follow-up email for [topic]. Recap 3 key decisions and propose one clear next step\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 92,
+   "headline": "5) BUILD A ONE-PAGE CHEAT SHEET <em>IN 30 SECONDS</em>",
+   "body": "A consultant charges <b>$300 an hour</b> to build these. <b>\"Create a one-page meeting brief for [topic]. Include key facts, my 3 strongest talking points, and 2 questions that show I've done my homework\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 96,
+   "headline": "6) ASK THE ONE QUESTION <em>THAT WINS THE ROOM</em>",
+   "body": "One perfect question beats <b>30 minutes</b> of talking. <b>\"I'm meeting [person, role] about [topic]. Give me one unexpected question that shows I understand their real problem, not just the surface one\"</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 100,
+   "headline": "SAVE THIS FOR YOUR <em>NEXT MEETING</em>",
+   "body": "You'll want these prompts in your pocket when it counts. <b>Save this post</b> and follow <b>@yaffeai</b> for daily AI skills and news",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see the 6 AI prompts that win meetings before they even start \ud83c\udfaf\n\nResearch everyone in the room using AI, turn their own website into your ammunition, predict every objection before it's raised, write the follow-up before the meeting even starts, build a one-page cheat sheet in 30 seconds, and ask the one question that wins the entire room.\n\nThe gap between people who use AI to prepare and people who wing it is getting wider every week. The prepared ones aren't smarter, they just walk in knowing things nobody expects.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, OpenAI\n\n#ai #artificialintelligence #productivity #business #meetings",
+ "pinned_comment": "Which one are you trying before your next meeting? Slide 5 is the power move nobody thinks of.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT MAKE YOU <em>DANGEROUS IN MEETINGS</em>",
+   "6 AI PROMPTS THAT <em>RIG EVERY MEETING</em> IN YOUR FAVOR",
+   "6 AI PROMPTS THAT <em>WIN ANY MEETING IN 5 MINUTES</em>",
+   "6 AI PROMPTS YOUR BOSS USES <em>BEFORE EVERY MEETING</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "\"Your boss uses\" triggers instant FOMO and positions you as the person who doesn't know the secret yet \u2014 that's a gut-punch, not a pitch. Runner-up [1]'s \"rig\" is a great word but it's still selling you a benefit, while [3] implies someone already has the edge over you right now."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS TO PREP <em>ANY MEETING IN 30 SECONDS</em>",
+   "6 AI MEETING PROMPTS <em>MOST PEOPLE STILL WON'T USE</em>",
+   "6 AI PROMPTS THAT MAKE <em>EVERY MEETING UNFAIR</em>",
+   "6 AI PROMPTS YOUR BOSS USES <em>BEFORE EVERY MEETING</em>"
+  ],
+  "scores": [
+   6,
+   5,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "\"Your boss uses\" creates an instant power-dynamic gut punch \u2014 suddenly it's personal, like you've been kept out of something. \"Make every meeting unfair\" is evocative but vague; you have to do mental work to figure out unfair for whom and why, which costs it the stop-scroll."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "HOOK violates \u00a72: 9 words (minimum is 12) and reads as a label/listicle title ('6 AI PROMPTS YOUR BOSS USES BEFORE EVERY MEETING'), which is explicitly banned as a 'label/aphorism headline.' Needs a full 12-25 word sentence with actor + action + wild-specific payoff \u2014 e.g., anchor to one real outcome someone got from these prompts before a named meeting.; STORYTELLING violates \u00a74 story spine: \u00a74 r"
+}
