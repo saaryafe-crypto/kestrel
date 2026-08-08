@@ -1,0 +1,95 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 FULL-TIME BUSINESS JOBS</em> AI NOW DOES OVERNIGHT FOR $20/MONTH",
+   "kicker": "NO STAFF. NO OVERTIME.",
+   "hsize": 70,
+   "face": null,
+   "media": "posts/2026-08-08-edu-6-overnight-claude-code-business-automat/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) BUILD A PROSPECT LIST</em> WHILE YOU SLEEP",
+   "hsize": 88,
+   "body": "BUILDING A LEAD LIST BY HAND COSTS HUNDREDS IN STAFF TIME AND TAKES DAYS. Type: \"Search the web for <b>100</b> [niche] businesses in [city], save each name, website, and contact email to prospects.csv\", wake up to a full list.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) SCAN EVERY COMPETITOR SITE</em> OVERNIGHT",
+   "hsize": 105,
+   "body": "PRICE MONITORING TOOLS COST UP TO <b>$500 A MONTH</b>. Type: \"Visit [URL1] and [URL2] tonight, pull current prices for [product], compare to last night's data, and email me any changes\", wake up knowing every move.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) SORT AND DRAFT YOUR WHOLE INBOX</em> BY MORNING",
+   "hsize": 90,
+   "body": "THE AVERAGE BUSINESS OWNER LOSES <b>2.5 HOURS A DAY</b> TO EMAIL. Type: \"Read my Gmail inbox, sort every email as urgent / reply-needed / FYI, and draft a reply for each urgent one\", at 7am you just approve and send.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) WRITE YOUR WEEKLY REPORT</em> FROM RAW DATA",
+   "hsize": 100,
+   "body": "A PART-TIME ANALYST WHO WRITES WEEKLY BUSINESS SUMMARIES COSTS <b>$35,000 A YEAR</b>. Type every Sunday: \"Read every file in [folder], write a one-page summary with revenue, top wins, and risks, and email it to me by <b>Monday at 7am</b>.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) FILL NEXT WEEK'S SOCIAL CALENDAR</em> OVERNIGHT",
+   "hsize": 92,
+   "body": "SOCIAL MEDIA AGENCIES CHARGE UP TO <b>$3,000 A MONTH</b> TO FILL A CONTENT CALENDAR. Type: \"Read this paragraph: [paste your brand voice]. Write 7 social posts for next week, one per day, formatted as a ready-to-post calendar.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>6) BUILD A LIVE CUSTOMER CHATBOT</em> TONIGHT",
+   "hsize": 100,
+   "body": "A CUSTOMER SERVICE HIRE COSTS <b>$40,000 A YEAR</b> AND LEAVES AT 5PM. Type: \"Read every file in [folder]. Build a chatbot that answers customer questions using only those docs. Run it on port 8080.\" It answers 24/7, no salary, no sick days.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR TONIGHT",
+   "hsize": 100,
+   "body": "These 6 prompts work in Claude Code right now. Save this post, pick one tonight, and check your results in the morning.\n\nDaily AI news and real skills. Follow for more",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. Claude Code runs 6 business jobs while you sleep, from a prospect list to a live customer chatbot. \ud83c\udf19\n\nBuild a list of 100 prospects overnight, scan 5 competitor sites for price changes while you sleep, sort and draft your whole inbox before 7am, write your weekly business report from raw data files every Sunday night, fill next week's social media calendar from a single paragraph, build a live customer support chatbot from your own documents, all with plain-English prompts you type once before bed.\n\nThe business owners gaining ground right now are not working harder. They are handing repetitive overnight tasks to Claude Code and waking up to done. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#AITools #ClaudeCode #BusinessAutomation #Entrepreneur #ArtificialIntelligence",
+ "pinned_comment": "Which one are you running tonight? The competitor scanner (slide 3) is the sleeper: most owners find out a rival cut their prices only after they've already lost the deal.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "ONE TOOL REPLACING <em>6 FULL-TIME BUSINESS JOBS</em> OVERNIGHT",
+   "CLAUDE CODE DOES 6 OVERNIGHT JOBS FOR <em>$0 IN STAFF COSTS</em>",
+   "<em>PEOPLE ARE HANDING 6 JOBS</em> TO CLAUDE CODE OVERNIGHT"
+  ],
+  "scores": [
+   8,
+   7,
+   6
+  ],
+  "winner": 0,
+  "why": "REPLACING triggers job-loss panic instantly \u2014 you stop scrolling in 1.7 seconds flat. DOES or HANDING sound softer and more cryptic, so you're more likely to keep scrolling past a stranger's AI post."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 FULL-TIME BUSINESS JOBS</em> AI NOW DOES OVERNIGHT FOR FREE",
+   "ONE TOOL REPLACING <em>6 FULL-TIME BUSINESS JOBS</em> OVERNIGHT",
+   "<em>6 OF YOUR BUSINESS JOBS</em> AI CAN DO WHILE YOU SLEEP"
+  ],
+  "scores": [
+   9,
+   6,
+   7
+  ],
+  "winner": 0,
+  "why": "[0] shocks instantly with 'NOW DOES' and tells the complete story upfront, so you'd swipe to see proof; [1] hides which tool it is, forcing you to swipe to solve a riddle instead of confirming something wild you already believe."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}

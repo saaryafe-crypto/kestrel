@@ -894,5 +894,131 @@
   "subject": "6 FREE <em>GITHUB TOOLS BUSINESSES PAY $1,500/MONTH FOR</em>",
   "verdict": "REJECT",
   "reason": "Hook is 9 words (minimum 12) and is not a complete sentence — it is a noun-phrase label ('6 FREE GITHUB TOOLS BUSINESSES PAY $1,500/MONTH FOR'), which is explicitly banned. Fix: rewrite as a full sentence with an actor or felt consequence, e.g., 'These 6 free GitHub tools replace software most small businesses are paying over $1,400 a month for.'; $1,500/month in the hook is an unsubstantiated agg"
+ },
+ {
+  "t": "2026-08-08T21:34:53Z",
+  "gate": "A",
+  "subject": "BREAKING: Berkshire Hathaway has begun deploying the $397.4 billion cash pile that Warren Buffett accumulated for 14 con",
+  "verdict": "KILL",
+  "reason": "On-topic but routine—this is quarterly market news about corporate investing moves, explicitly banned under 'market wraps, stocks-rose-today' exclusion; no person did something outrageous, no real-world consequence anyone felt, no story."
+ },
+ {
+  "t": "2026-08-08T21:35:17Z",
+  "gate": "A",
+  "subject": "If this turns out to be true, the situation is much worse than expected. According to pathfounders, Demis Hassabis actua",
+  "verdict": "KILL",
+  "reason": "Single unverified tweet explicitly hedged ('if this turns out to be true'), no numbers or proof, no real-world consequence—pure gossip that violates NO SUBSTANCE and TRUTH LAW."
+ },
+ {
+  "t": "2026-08-08T21:35:51Z",
+  "gate": "A",
+  "subject": "The Starship in both clips is the exact same spacecraft. Once racing through space at around 26,500 km/h, it is now floa",
+  "verdict": "KILL",
+  "reason": "Starship splashdowns are routine SpaceX procedure; the thin source discloses no consequence, record, or breakthrough—just a before/after visual with no narrative substance."
+ },
+ {
+  "t": "2026-08-08T21:36:11Z",
+  "gate": "A",
+  "subject": "Why does Twitch have this double-standard?",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: a single tweet asking a question with no event, real-world consequence, or facts to build slides from (INSTANT KILL under Story Law §1)."
+ },
+ {
+  "t": "2026-08-08T21:36:38Z",
+  "gate": "A",
+  "subject": "This is absolutely incredible. Corporate America is currently on pace for the biggest earnings beat EVER recorded. S&P 5",
+  "verdict": "KILL",
+  "reason": "ON-TOPIC BUT ROUTINE: this is analyst market commentary on earnings data with no specific event, person, or real-world consequence — exactly the banned category under STORY LAW."
+ },
+ {
+  "t": "2026-08-08T21:37:00Z",
+  "gate": "A",
+  "subject": "When the photographer tried to record a family of Egyptian geese living in a London park, pigeons and squirrels started ",
+  "verdict": "KILL",
+  "reason": "Entire story is one thin tweet with no second fact, numbers, or consequence—pure padding material with an unknown actor and no real-world impact."
+ },
+ {
+  "t": "2026-08-08T21:37:37Z",
+  "gate": "A",
+  "subject": "https://t.co/fosLc0KtcA",
+  "verdict": "KILL",
+  "reason": "Scout interest of 1/10 with a bare tweet URL and no story details suggests either reaction-bait or no substance — nothing here for a carousel without padding."
+ },
+ {
+  "t": "2026-08-08T21:37:57Z",
+  "gate": "A",
+  "subject": "This is not sci-fi.",
+  "verdict": "KILL",
+  "reason": "The source is a 19-character tweet with zero substance — no second fact, no numbers, no consequence, nothing to build slides from; this is pure reaction-bait (likes on a cryptic statement, not a real-world event), fails low scout interest (4/10, below the exception threshold), and would never pass the owner's own publication standard."
+ },
+ {
+  "t": "2026-08-08T21:38:21Z",
+  "gate": "A",
+  "subject": "Gregory when told I was leaving the country",
+  "verdict": "KILL",
+  "reason": "One thin, vague tweet with no identifiable story event, consequence, or stake — instant kill on no substance and reaction-bait."
+ },
+ {
+  "t": "2026-08-08T21:38:35Z",
+  "gate": "A",
+  "subject": "Every creature needs a hug, sometimes",
+  "verdict": "KILL",
+  "reason": "Entire source is one thin tweet with no fact, number, actor, or real-world event behind it—pure substance-free musing that would require the writer to fabricate."
+ },
+ {
+  "t": "2026-08-08T21:38:57Z",
+  "gate": "A",
+  "subject": "If only this was real and not AI 😂 Writer: Ian",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: a single thin comment about something being AI-generated, with zero real-world event, consequence, or proof to build from."
+ },
+ {
+  "t": "2026-08-08T21:39:21Z",
+  "gate": "A",
+  "subject": "A newborn turtle touches the sea for the first time",
+  "verdict": "KILL",
+  "reason": "Off-brand pure nature content with no substance, no consequence, no numbers, and scout interest 0/10; exactly the padding territory this doctrine kills to protect the page."
+ },
+ {
+  "t": "2026-08-08T21:39:45Z",
+  "gate": "A",
+  "subject": "These are mosquitoes trapped in a spider web Remember to be kind to your friendly neighborhood web slingers",
+  "verdict": "KILL",
+  "reason": "One thin tweet (107 chars) with zero substance, no real-world event or consequence, completely off-brand for a tech/AI page, and fails story law entirely — it's a nature observation with nothing to build slides from."
+ },
+ {
+  "t": "2026-08-08T21:40:06Z",
+  "gate": "A",
+  "subject": "These are just a few of the reasons people were fired from their jobs, according to the Chicago Tribune on October 15, 1",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: historical trivia with no real-world event, no consequence, no substance—the source is 124 characters of 1905 curiosity offered for amusement, nothing to build slides from."
+ },
+ {
+  "t": "2026-08-08T21:40:28Z",
+  "gate": "A",
+  "subject": "Basque is considered a language isolate, meaning it has no known linguistic relatives anywhere in the world. It is the o",
+  "verdict": "KILL",
+  "reason": "Pure linguistics trivia with no real-world event or consequence—a fact, not a story, and off-brand for tech/AI pages."
+ },
+ {
+  "t": "2026-08-08T21:40:54Z",
+  "gate": "A",
+  "subject": "This girl was abused over her clothing and makeup by another woman, who demanded she cover her face. Pretty easy to see ",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: one thin unverified tweet, no real event, no consequence to reality, nothing verifiable to build slides from."
+ },
+ {
+  "t": "2026-08-08T23:04:03Z",
+  "gate": "B",
+  "subject": "<em>6 FULL-TIME BUSINESS JOBS</em> AI NOW DOES OVERNIGHT FOR FREE",
+  "verdict": "REJECT",
+  "reason": "TRUTH VIOLATION (§5): 'FOR FREE' is materially false. Claude Code requires a Claude Pro subscription (~$20/month) or API credits — the overnight automation tasks described (running scripts continuously, building chatbots, scanning competitor sites) cannot be done on any free tier. The hook leads with it, slide 1 closes with it, slide 2 closes with it. The entire post's value proposition rests on a"
+ },
+ {
+  "t": "2026-08-08T23:10:53Z",
+  "gate": "B",
+  "subject": "<em>6 FULL-TIME BUSINESS JOBS</em> AI NOW DOES OVERNIGHT FOR $20/MONTH",
+  "verdict": "APPROVE",
+  "reason": ""
  }
 ]
