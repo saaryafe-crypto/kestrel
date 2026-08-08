@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 72,
+   "headline": "6 AI PROMPTS THAT <em>FIND THE FEARS, DOUBTS, AND QUIT REASONS HIDING IN YOUR OWN CUSTOMER DATA</em>",
+   "kicker": "THEY ALREADY TOLD YOU EVERYTHING",
+   "face": [
+    "Jeff Bezos"
+   ],
+   "media": "posts/2026-08-08-edu-6-ai-prompts-that-read-your-customers-mi/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 100,
+   "headline": "1) FIND <em>EVERY FEAR ON YOUR PRODUCT PAGE</em>",
+   "body": "AI reads your product page like a <b>nervous buyer</b> and finds fears you've never seen. \"Here is my product page. List <b>5 reasons</b> a first-time visitor would hesitate before buying\"",
+   "media": "posts/2026-08-08-edu-6-ai-prompts-that-read-your-customers-mi/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 100,
+   "headline": "2) DECODE <em>WHAT YOUR REVIEWS ACTUALLY MEAN</em>",
+   "body": "Customers mean something else when they say '<b>fine</b>.' This prompt finds it. \"Here are my customer reviews [paste all]. Group every complaint and tell me what each reviewer <b>really meant</b>\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 116,
+   "headline": "3) PREDICT <em>THEIR NEXT SUPPORT QUESTION</em>",
+   "body": "Your customers' questions reveal what they're <b>really thinking</b>. \"Here are my <b>20 most recent</b> customer questions [paste]. What is my website failing to explain clearly?\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 100,
+   "headline": "4) WRITE THE EMAIL <em>THAT WINS THEM BACK</em>",
+   "body": "Understand exactly why they left, and this prompt writes the <b>comeback</b>. \"A customer canceled because [reason]. Write a short email that fixes their <b>exact concern</b> and offers one fix\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 104,
+   "headline": "5) FIND <em>THE QUESTIONS THEY NEVER ASK</em>",
+   "body": "Your customers' <b>private searches</b> reveal their real doubts about you. \"I sell [product] to [audience]. List <b>10 things</b> they search privately before buying\"",
+   "media": "posts/2026-08-08-edu-6-ai-prompts-that-read-your-customers-mi/gen-5.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 110,
+   "headline": "6) MAP <em>YOUR BUYER'S WORST DAY</em>",
+   "body": "When you know their pain in detail, your marketing <b>writes itself</b>. \"I sell [product]. Describe my ideal customer's <b>worst workday</b>. What moment made them finally search for a solution?\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "<em>SAVE THIS</em> FOR YOUR NEXT CUSTOMER QUESTION",
+   "body": "You'll need these prompts the next time a customer <b>cancels</b>, <b>complains</b>, or <b>ghosts</b> you. <b>Daily AI news + real skills you can use tonight</b>",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 AI prompts that tell you exactly what your customers think, fear, and almost bought \ud83d\udd2e\n\nFind every fear hiding on your product page, decode what your reviews actually mean, predict their next support question, write the email that wins them back, find the questions they never ask out loud, and map your buyer's worst day so your marketing writes itself.\n\nMost businesses guess what their customers want. The ones growing fastest paste their real data into AI and let it tell them. The answers were always there.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: Anthropic, OpenAI\n\n#ai #business #marketing #customers #entrepreneur",
+ "pinned_comment": "Slide 6 is the sleeper. The questions your customers Google instead of asking you are exactly where you're losing them. Which one are you trying first?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>READ YOUR CUSTOMERS' MINDS</em>",
+   "6 AI PROMPTS THAT <em>TURN YOUR REVIEWS INTO REVENUE</em>",
+   "6 AI PROMPTS THAT <em>DECODE WHAT YOUR BUYERS REALLY WANT</em>",
+   "6 AI PROMPTS THAT <em>KNOW YOUR CUSTOMERS BETTER THAN YOU</em>",
+   "6 AI PROMPTS THAT <em>STOP CUSTOMERS FROM LEAVING YOU</em>"
+  ],
+  "scores": [
+   4,
+   6,
+   4,
+   6,
+   7
+  ],
+  "winner": 4,
+  "why": "\"Stop customers from leaving you\" triggers a real fear \u2014 churn feels personal, almost like a breakup, and I'd click because I'm scared, not curious. The runner-up ([3] \"know your customers better than you\") has a provocative edge but reads as a brag about AI, not a problem I need solved right now."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>HEAR WHAT YOUR CUSTOMERS WON'T SAY</em>",
+   "6 AI PROMPTS THAT <em>READ YOUR CUSTOMERS' MINDS</em>",
+   "6 AI PROMPTS YOUR <em>CUSTOMERS HOPE YOU NEVER FIND</em>",
+   "6 AI PROMPTS THAT <em>STOP CUSTOMERS FROM LEAVING YOU</em>"
+  ],
+  "scores": [
+   6,
+   5,
+   8,
+   5
+  ],
+  "winner": 2,
+  "why": "Candidate 2 creates instant tension \u2014 'hope you never find' implies customers are hiding something from YOU, which makes a business owner feel like they're about to get an unfair advantage. The runner-up (0) is clever but 'hear what they won't say' takes a second beat to decode, and at 2am that second beat costs you the swipe."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Cover contract violation: the hook promises all 6 prompts 'FIND' things 'HIDING IN YOUR OWN CUSTOMER DATA' and the kicker doubles down ('THEY ALREADY TOLD YOU EVERYTHING'), but prompts 1, 5, and 6 never touch customer data \u2014 they ask AI to speculate (prompt 1 reads your product page, not customer data; prompt 5 asks AI to guess what people search privately; prompt 6 asks AI to imagine a buyer's wo"
+}
