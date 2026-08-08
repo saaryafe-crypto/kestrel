@@ -94,17 +94,38 @@ def build_prompt(used_topics, headlines="", guides=()):
                        "STRONGLY PREFER these over inventing a topic: a guide "
                        "the crowd already made viral is PROVEN demand):\n"
                        + "\n---\n".join(cands) + "\n"
-                       "Rules for using one: take its SUBSTANCE, not its "
-                       "words — our frame, our hook, our proof lines, fully "
-                       "transformed per the doctrine. Verify every claim "
-                       "against what the tools actually do (TRUTH RULE); drop "
-                       "anything you cannot stand behind. Credit the author "
-                       "as a plain name in the caption's Sources line. Append "
-                       "the [x:ID] tag of the guide you used to your \"topic\" "
-                       "label. IGNORE a candidate only if it is not genuinely "
-                       "teachable (a bare promise with no substance) or "
-                       "overlaps ALREADY USED — then the next candidate, and "
-                       "only if none works pick a pillar topic yourself.\n")
+                       # owner order Aug 8 (REVERSES the Aug 4 'substance not
+                       # words' rule): "copy very similar what they do and
+                       # say. theres a reason it is viral"
+                       "Rules for using one — COPY CLOSE (owner order Aug 8: "
+                       "this guide is already viral, the crowd voted on these "
+                       "exact items in this exact order with this exact "
+                       "phrasing — do not 'improve' what already won): mirror "
+                       "the guide's structure, its items, its order, its "
+                       "names/numbers/tool picks, and keep its punchy phrasing "
+                       "wherever it is already tight — one thread item per "
+                       "slide. Do NOT re-invent the list, generalize it, swap "
+                       "in your own favorite tools, or add items they didn't "
+                       "have. Only these three things get adapted:\n"
+                       "1. THE HOOK — a tweet opener is not an Instagram "
+                       "cover. Start from THEIR hook line and refit it to "
+                       "this container's cover format (the N-promise rules "
+                       "below), their promise + their numbers carried over "
+                       "intact. The tweet's angle IS the viral asset — every "
+                       "hook_candidate must keep it, they compete on fit not "
+                       "on new angles.\n"
+                       "2. FORMAT — our slide/caption/CTA structure, our "
+                       "design, our QA rules (no dashes, plain-name credits).\n"
+                       "3. TRUTH — verify every claim against what the tools "
+                       "actually do (TRUTH RULE); fix or drop ONLY what you "
+                       "cannot stand behind, keep the rest verbatim-close.\n"
+                       "Credit the author as a plain name in the caption's "
+                       "Sources line. Append the [x:ID] tag of the guide you "
+                       "used to your \"topic\" label. IGNORE a candidate only "
+                       "if it is not genuinely teachable (a bare promise with "
+                       "no substance) or overlaps ALREADY USED — then the "
+                       "next candidate, and only if none works pick a pillar "
+                       "topic yourself.\n")
     tips_block = (f"""
 TODAY'S NEWS — optional anchors: a guide that piggybacks a live story rides its wave ("GPT-5 dropped yesterday — 5 things it already does for your business"). Use one ONLY if you can build genuine utility on it; never force it:
 {headlines}
@@ -135,7 +156,7 @@ OUTPUT — a single JSON object: {{"topic": "...", "slides": [...], "caption": "
 "pinned_comment": the first comment we plant the second the post publishes (hour-one comment velocity = distribution fuel). For this container: a question that makes readers pick ("Which one are you trying tonight? Slide 4 is the sleeper") or a bonus tip that didn't fit. 1-2 sentences, no hashtags, no links.
 "topic": a 5-10 word label of the angle (goes in the dedupe log).
 Slide structure:
-Also "hook_candidates": FIVE genuinely different cover headlines (different angles — money saved, jobs replaced, scarcity subject, threat framing — not rewordings), each with <em> accents. Put your best on the cover slide AND among the five; a blind judge picks the winner.
+Also "hook_candidates": FIVE cover headlines, each with <em> accents. {'When you used a viral guide above: ALL FIVE keep that guide\'s own hook angle and promise (owner rule Aug 8 — the tweet\'s angle is the viral asset, never trade it for a "better" one); they compete on Instagram FIT — wording, rhythm, which number leads, what the <em> accent lands on — not on new angles.' if guides else 'FIVE genuinely different angles — money saved, jobs replaced, scarcity subject, threat framing — not rewordings.'} Put your best on the cover slide AND among the five; a blind judge picks the winner.
 1. type "cover": the N-promise hook per the container spec — a NUMBER in the headline, scarcity subject when true, everyday words only ("a tool where you type plain English and it writes the whole app" — never "CLI", "agentic", "repo"). HARD CAP 10 words, aim 5-8 (owner doctrine Jul 29: the cover sells curiosity, short = giant letters; the renderer caps total block height so long covers just shrink). The N-promise IS the information gap — promise the N things, never list any of them on the cover ("if someone can understand the whole story from the cover, you failed"). But specific: if the cover could describe 100 different posts, it also failed — anchor to ONE concrete tool/outcome. The reader must think "What are they?" / "How?" — the moment that question disappears, rewrite. THE KICKER (forensic Aug 2 — the reference pages put a second hook beat in the tiny strip under the headline: "NONE OF THESE NEED A NEW ROUTER", "HERE ARE 10 WILD EXAMPLES"): the cover MAY set "kicker": 3-7 words, the enemy-contrast or bonus promise NOT already in the headline; omit it if there is no true second beat (the strip then says "Swipe for more"). No other subline exists — the whole hook lives in the big words (put the franchise "AI CHEAT CODES VOL. {vol}" tag in the caption's first block instead, it is still the series people subscribe to). hsize 66-80 — the type must be HUGE, 3-5 edge-to-edge lines. Cover self-test: would a stranger scrolling at 2am save this for later? Below 8/10 shock+utility → rewrite.
 COVER IMAGE (mandatory): the cover MUST set "image_brief" — an empty dark cover is dead in the feed; the image sells the promise before anyone reads. FAMOUS-PERSON FIRST (owner rule Aug 2, "this should be a rule"): when the topic ties to a famous company or famous person, the cover subject IS that recognizable person CAST IN THE PROMISE'S ROLE, mid-performance with the role's real props — write their FULL NAME in the brief (up to 3 people) AND return "face" listing the same names (the brief then routes to a premium model that knows famous faces natively). BREAK THE PATTERN (owner Aug 2: "we must break the normal thoughts when users see the images... not necessarily gangsters, but change the thinking pattern and make it unique"): the scene must be one the viewer has NEVER seen that person in, still literally connected to the promise — Google tricks → Sundar Pichai as a street-market vendor handing out tricks like fruit. Any never-seen staging works (a workshop, a heist, a kitchen, a street market) as long as the props ARE the promise; vary it post to post, never repeat one costume gimmick. A boardroom, desk or stage keynote is a FAILURE — the viewer scrolls past what they have seen before. A recognizable face in an impossible scene stands out harder than any object. Only when NO famous person fits the topic, fall back to objects: for N-thing posts the reference look is a CUT-OUT COLLAGE: 2-3 distinct large subjects layered and overlapping with depth (like three fighter jets stacked for "9 MOST EXPENSIVE AIRCRAFT"), filling the whole upper frame, mid-tone so white type pops against it. For a single-promise cover: one evidence subject large in frame (a fanned stack of hundred dollar bills, a stethoscope on a dark table). 15-40 words, subject FIRST, then action, then setting; NAME real devices/brands; end with ONE color key ("keyed to azure blue"). NEVER make a document, bill, letter, or chat screen the subject — Seedream fills them with garbled fake text and QA rejects the image; pick text-free objects (cash, devices, tools, faces). No text in the image except at most one short double-quoted phrase on a device screen when that phrase IS the claim.
 2-. type "content", 4-7 slides, one skill or story each, per the container payload_rule:
@@ -188,7 +209,7 @@ def main():
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
     else:
-        raise SystemExit("QA gate failed after 3 attempts")
+        raise SystemExit("QA gate failed after 2 attempts")
 
     post = viral.tournament(post, None, {  # value posts: fixed classification
         "story_type": "edu_value", "actor": "", "actor_known": True,
