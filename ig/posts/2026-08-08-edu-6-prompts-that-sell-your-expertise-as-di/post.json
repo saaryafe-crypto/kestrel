@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THESE 6 FREE AI PROMPTS <em>REPLACE THE $1,000 COURSE YOU WERE ABOUT TO BUY</em>",
+   "hsize": 72,
+   "kicker": "EACH ONE WORKS TONIGHT",
+   "media": "posts/2026-08-08-edu-6-prompts-that-sell-your-expertise-as-di/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>TURN YOUR EXPERTISE INTO A FINISHED EBOOK</em>",
+   "hsize": 95,
+   "body": "Your knowledge is a <b>ready-to-sell</b> ebook waiting to happen. 'Here is a transcript of me explaining [topic]. Turn it into a <b>10-chapter ebook</b> outline and write chapter one in my voice'",
+   "media": "posts/2026-08-08-edu-6-prompts-that-sell-your-expertise-as-di/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>PACKAGE YOUR EXPERIENCE INTO AN ONLINE COURSE</em>",
+   "hsize": 88,
+   "body": "What you know is worth <b>$497 to $2,000</b> per student. 'I'm an expert in [X]. Build a <b>6-module course</b>: titles, lesson plans, one exercise per module, and a sales page headline'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>TURN YOUR ADVICE INTO A CLIENT MAGNET</em>",
+   "hsize": 100,
+   "body": "Your advice as a free guide pulls in clients at <b>$0 ad spend</b>. 'My business does [X]. Write a <b>5-page guide</b> solving my customer's biggest problem. End with a reason to hire me'",
+   "media": "posts/2026-08-08-edu-6-prompts-that-sell-your-expertise-as-di/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>TURN YOUR BEST ADVICE INTO EMAILS THAT SELL</em>",
+   "hsize": 88,
+   "body": "Your expertise, dripped out as emails, earns <b>$36 for every $1 spent</b>. 'Write a <b>5-email welcome sequence</b> for [my business]. Each email teaches one lesson and naturally leads to booking a call'",
+   "media": "posts/2026-08-08-edu-6-prompts-that-sell-your-expertise-as-di/gen-4.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>SELL YOUR KNOWLEDGE AS A LIVE WORKSHOP</em>",
+   "hsize": 100,
+   "body": "What you know fills a <b>$500 to $5,000</b> afternoon workshop. 'Create a <b>90-minute workshop</b> on [topic] for [audience]. Include talking points, exercises, and a slide outline. End with a pitch for my service'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>BUILD A FREE TOOL THAT SELLS YOUR SERVICE</em>",
+   "hsize": 92,
+   "body": "Your industry knowledge, built into a free tool, replaces <b>$50 a month</b> software. 'Build a [industry] <b>calculator</b> as a web page. User enters [inputs], gets [output], sees my name and a booking link'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS POST</em>",
+   "body": "You'll want these prompts the day you sit down to build. We share <b>daily AI news</b> and real skills you can use tonight",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see 6 AI prompts that turn your expertise into real products people pay for \ud83d\udcb0\n\nA prompt that turns a voice recording into a finished ebook, one that builds a full online course from your expertise, a lead magnet that pulls in clients at zero ad spend, an email sequence that earns $36 for every dollar you put in, a workshop builder that turns one afternoon into $5,000, and a prompt that builds a free calculator tool with your name and booking link baked in.\n\nThe people building real wealth right now aren't learning to code. They're taking what they already know and letting AI package it into products that sell on repeat.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, OpenAI, Litmus\n\n#AI #DigitalProducts #OnlineBusiness #AITools #Entrepreneurship",
+ "pinned_comment": "Which product are you building first? The ebook prompt is the fastest, most people already have 15 minutes of expertise worth recording.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>SELL WHAT YOU ALREADY KNOW</em>",
+   "6 AI PROMPTS THAT <em>MAKE YOUR EXPERTISE PAY YOU FOREVER</em>",
+   "6 PROMPTS THAT <em>PACKAGE YOUR BRAIN AND SELL IT</em>",
+   "6 PROMPTS THAT <em>TURN ONE BRAIN INTO SIX PRODUCTS</em>",
+   "6 AI PROMPTS THAT <em>TURN YOUR BEST ADVICE INTO INCOME</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   5,
+   6,
+   7
+  ],
+  "winner": 1,
+  "why": "FOREVER is a genuine gut-punch word \u2014 passive income that never stops is the dream, and it lands in under a second. Candidate 0 is close but 'sell what you already know' is a softer promise; 'pay you forever' makes your heart beat faster."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>TURN YOUR BRAIN INTO A BUSINESS</em>",
+   "6 AI PROMPTS THAT <em>MAKE YOUR EXPERTISE PAY YOU FOREVER</em>",
+   "6 AI PROMPTS <em>WORTH MORE THAN MOST PAID COURSES</em>",
+   "6 AI PROMPTS THAT <em>SELL WHAT YOU ALREADY KNOW</em>"
+  ],
+  "scores": [
+   6,
+   5,
+   8,
+   4
+  ],
+  "winner": 2,
+  "why": "\"Worth more than most paid courses\" triggers an instant gut check \u2014 am I actually about to get something for free that people spend money on? That value comparison lands in under a second. The runner-up [0] has a punchy phrase but \"turn your brain into a business\" is vague enough that I'm not sure what I'm clicking into, which kills urgency."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)"
+}

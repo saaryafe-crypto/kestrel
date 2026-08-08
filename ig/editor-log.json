@@ -628,5 +628,19 @@
   "subject": "6 AI PROMPTS THAT <em>FIND THE FEARS, DOUBTS, AND QUIT REASONS HIDING IN YOUR OWN CUSTOMER DATA</em>",
   "verdict": "REJECT",
   "reason": "Cover contract violation: the hook promises all 6 prompts 'FIND' things 'HIDING IN YOUR OWN CUSTOMER DATA' and the kicker doubles down ('THEY ALREADY TOLD YOU EVERYTHING'), but prompts 1, 5, and 6 never touch customer data — they ask AI to speculate (prompt 1 reads your product page, not customer data; prompt 5 asks AI to guess what people search privately; prompt 6 asks AI to imagine a buyer's wo"
+ },
+ {
+  "t": "2026-08-08T06:46:52Z",
+  "gate": "B",
+  "subject": "6 AI PROMPTS <em>WORTH MORE THAN MOST PAID COURSES</em>",
+  "verdict": "REJECT",
+  "reason": "Hook is a label/aphorism headline, not a summarizing sentence (§2). '6 AI PROMPTS WORTH MORE THAN MOST PAID COURSES' is a 9-word noun phrase with no verb, no actor, no action — §2 requires 'ONE complete sentence' of 12-25 words with 'actor + what happened + the wild specifics' and explicitly bans 'label/aphorism headlines.' Fix: rewrite as a full sentence with a subject, verb, and concrete payoff "
+ },
+ {
+  "t": "2026-08-08T06:54:34Z",
+  "gate": "B",
+  "subject": "THESE 6 FREE AI PROMPTS <em>REPLACE THE $1,000 COURSE YOU WERE ABOUT TO BUY</em>",
+  "verdict": "APPROVE",
+  "reason": ""
  }
 ]
