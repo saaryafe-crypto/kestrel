@@ -1,0 +1,95 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שש משרות עסקיות</em> AI עושה בלילה בעשרים דולר בחודש",
+   "kicker": "בלי עובדים. בלי שעות נוספות.",
+   "hsize": 70,
+   "face": null,
+   "media": "posts/2026-08-08-edu-6-overnight-claude-code-business-automat/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) לבנות רשימת לידים</em> בזמן שישנים",
+   "hsize": 88,
+   "body": "לבנות רשימת לידים ביד לוקח ימים ועולה מאות דולרים. כתבו: \"Search the web for <b>100</b> [niche] businesses in [city], save each name, website, and contact email to prospects.csv\", ותתעוררו עם רשימה מלאה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) לסרוק את כל אתרי המתחרים</em> בלילה",
+   "hsize": 105,
+   "body": "כלים למעקב אחרי מחירים עולים עד <b>500 דולר בחודש</b>. כתבו: \"Visit [URL1] and [URL2] tonight, pull current prices for [product], compare to last night's data, and email me any changes\", ותתעוררו מעודכנים על כל מהלך שלהם.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) למיין ולנסח את כל תיבת הדואר</em> עד הבוקר",
+   "hsize": 90,
+   "body": "בעל עסק ממוצע מאבד <b>2.5 שעות ביום</b> על אימיילים. כתבו: \"Read my Gmail inbox, sort every email as urgent / reply-needed / FYI, and draft a reply for each urgent one\", ובשבע בבוקר רק מאשרים ושולחים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) לכתוב את הדוח השבועי</em> מנתונים גולמיים",
+   "hsize": 100,
+   "body": "אנליסט במשרה חלקית שכותב סיכומים עסקיים שבועיים עולה <b>35,000 דולר בשנה</b>. כתבו כל יום ראשון: \"Read every file in [folder], write a one-page summary with revenue, top wins, and risks, and email it to me by <b>Monday at 7am</b>.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) למלא את לוח התוכן לשבוע הבא</em> בלילה",
+   "hsize": 92,
+   "body": "סוכנויות סושיאל גובות עד <b>3,000 דולר בחודש</b> בשביל לנהל לוח תוכן. כתבו: \"Read this paragraph: [paste your brand voice]. Write 7 social posts for next week, one per day, formatted as a ready-to-post calendar.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>6) לבנות צ'אטבוט ללקוחות</em> הלילה",
+   "hsize": 100,
+   "body": "עובד שירות לקוחות עולה <b>40,000 דולר בשנה</b> ועוזב בחמש אחר הצהריים. כתבו: \"Read every file in [folder]. Build a chatbot that answers customer questions using only those docs. Run it on port 8080.\" עונה 24/7, בלי משכורת, בלי ימי מחלה.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה</em> להלילה",
+   "hsize": 100,
+   "body": "ששת הפרומפטים האלה עובדים ב-Claude Code כבר עכשיו. שמרו את הפוסט, בחרו אחד הלילה, ובדקו מה יצא בבוקר.\n\nחדשות AI יומיות וכישורים אמיתיים. עקבו אחרינו לעוד",
+   "media": null
+  }
+ ],
+ "caption": "גללו. Claude Code מריץ שש משרות עסקיות בזמן שאתם ישנים, מרשימת לידים ועד צ'אטבוט חי ללקוחות. 🌙\n\nלבנות 100 לידים בלילה, לסרוק חמישה אתרי מתחרים לשינויי מחירים בזמן שישנים, למיין ולנסח את כל תיבת הדואר לפני שבע בבוקר, לכתוב דוח עסקי שבועי מקבצי נתונים גולמיים כל יום ראשון בלילה, למלא את לוח הסושיאל לשבוע הבא מפסקה אחת, לבנות צ'אטבוט תמיכה חי מהמסמכים שלכם, הכל עם פרומפטים פשוטים שמקלידים פעם אחת לפני השינה.\n\nבעלי עסקים שמתקדמים עכשיו לא עובדים יותר שעות. הם מעבירים משימות לילה חוזרות ל-Claude Code ומתעוררים ומוצאים הכל עשוי. מנהלים עסק? שלחו לנו DM עם \"AI\" ונראה לכם מה זה יכול לעשות עבורכם.\n\nמקורות: Anthropic\n\nעקבו אחרי @ainews.israel לעוד\n\n#AITools #ClaudeCode #BusinessAutomation #Entrepreneur #ArtificialIntelligence",
+ "pinned_comment": "איזה אחד אתם מריצים הלילה? סורק המתחרים (שקופית 3) הוא הסיפור הנסתר: רוב בעלי העסקים מגלים שמתחרה הוריד מחירים רק אחרי שכבר איבדו את העסקה.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "ONE TOOL REPLACING <em>6 FULL-TIME BUSINESS JOBS</em> OVERNIGHT",
+   "CLAUDE CODE DOES 6 OVERNIGHT JOBS FOR <em>$0 IN STAFF COSTS</em>",
+   "<em>PEOPLE ARE HANDING 6 JOBS</em> TO CLAUDE CODE OVERNIGHT"
+  ],
+  "scores": [
+   8,
+   7,
+   6
+  ],
+  "winner": 0,
+  "why": "REPLACING triggers job-loss panic instantly — you stop scrolling in 1.7 seconds flat. DOES or HANDING sound softer and more cryptic, so you're more likely to keep scrolling past a stranger's AI post."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 FULL-TIME BUSINESS JOBS</em> AI NOW DOES OVERNIGHT FOR FREE",
+   "ONE TOOL REPLACING <em>6 FULL-TIME BUSINESS JOBS</em> OVERNIGHT",
+   "<em>6 OF YOUR BUSINESS JOBS</em> AI CAN DO WHILE YOU SLEEP"
+  ],
+  "scores": [
+   9,
+   6,
+   7
+  ],
+  "winner": 0,
+  "why": "[0] shocks instantly with 'NOW DOES' and tells the complete story upfront, so you'd swipe to see proof; [1] hides which tool it is, forcing you to swipe to solve a riddle instead of confirming something wild you already believe."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education"
+}
