@@ -1,223 +1,295 @@
 {
- "updated": "2026-08-08T07:48:19+00:00",
+ "updated": "2026-08-09T05:08:32+00:00",
  "competitor_hits": [
   {
    "page": "mashable",
-   "likes": 16000,
-   "ratio": 23.63,
+   "likes": 46000,
+   "ratio": 87.45,
    "tier": "mega",
    "hook": "\"Another adorable animal has taken over the internet.\n\nMomota, an 8-month-old polar bear cub, has taken the internet by storm with his love of traffic cones. Yes, you read that right, traffic cones. It seems the cub can\u2019",
    "date": "2026-08-07"
   },
   {
+   "page": "wired",
+   "likes": 12000,
+   "ratio": 14.02,
+   "tier": "mega",
+   "hook": "\"For many years now, a dark question has haunted parents, teachers, the internet, and media institutions: What\u2019s wrong with young men?\n\nWhy, people ask, are boys so politically extreme, spouting misogynist rhetoric, and ",
+   "date": "2026-08-07"
+  },
+  {
+   "page": "techcrunch",
+   "likes": 222,
+   "ratio": 1.95,
+   "tier": "mega",
+   "hook": "\"You might not need a lawyer before you start fundraising, but you do need to set up a good legal foundation. \n\nIn this episode of Build Mode, CEO and founder of Lexsy @kristinasubbotina.esq breaks down the four unfixabl",
+   "date": "2026-08-07"
+  },
+  {
+   "page": "wired",
+   "likes": 1046,
+   "ratio": 1.22,
+   "tier": "mega",
+   "hook": "\"Part of a SpaceX rocket crashed into the moon, leaving a new crater behind, and all kinds of questions.\n\nTap the \ud83d\udd17 in bio for the full episode. Subscribe to or follow \"Uncanny Valley\" wherever you get your podcasts.\n\n#U",
+   "date": "2026-08-07"
+  },
+  {
+   "page": "technology",
+   "likes": 30000,
+   "ratio": 1.15,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to see the difference between 35mm and IMAX 70mm, and how Christopher Nolan\u2019s The Odyssey reveals dramatically more of every frame in its highest quality format \ud83c\udfac\ud83c\udf7f\n\nThe film was shot entirely with IMAX film cam",
+   "date": "2026-08-07"
+  },
+  {
    "page": "mashable",
-   "likes": 334,
-   "ratio": 0.49,
+   "likes": 549,
+   "ratio": 1.04,
    "tier": "mega",
    "hook": "\"MCU's Blade movie may be dead, but Mahershala Ali and filmmaker Bassam Tariq have created an original action movie from its ashes. \u2060\n\u2060\n\u2060\nWritten and directed by Tariq, \"Your Mother Your Mother Your Mother\" stars Ali as ",
    "date": "2026-08-07"
+  },
+  {
+   "page": "wired",
+   "likes": 666,
+   "ratio": 0.78,
+   "tier": "mega",
+   "hook": "\"The EU AI Act is the first-ever comprehensive legal framework on AI\u2014a \u201cglobal first,\u201d as European Commission president Ursula von der Leyen called it\u2014and aims to foster \u201ctrustworthy AI\u201d in Europe. Under Article 50 of th",
+   "date": "2026-08-08"
+  },
+  {
+   "page": "wired",
+   "likes": 444,
+   "ratio": 0.52,
+   "tier": "mega",
+   "hook": "\"After a rocky start with a few failed experiments in the past few years, across the fast-food industry the pendulum seems to be swinging back in the direction of AI-drive-thru adoption.\n\nIn addition to Taco Bell and Dai",
+   "date": "2026-08-07"
+  },
+  {
+   "page": "wired",
+   "likes": 381,
+   "ratio": 0.45,
+   "tier": "mega",
+   "hook": "\"On a rainy New York morning earlier this week, a WIRED reporter strapped to his wrist a lavender and pink plastic child\u2019s smartwatch and headed to work. As he approached his nearby subway station to commute to WIRED\u2019s o",
+   "date": "2026-08-08"
+  },
+  {
+   "page": "futurism",
+   "likes": 666,
+   "ratio": 0.29,
+   "tier": "mega",
+   "hook": "\"Whether magicians, thieves, or just fed up citizens, somebody has made an entire city\u2019s worth of ALPRs vanish in the night.\n\nAccording to new reporting by @mprnews, police in the city of Winona, Minnesota, are incensed ",
+   "date": "2026-08-07"
+  },
+  {
+   "page": "technology",
+   "likes": 5720,
+   "ratio": 0.22,
+   "tier": "mega",
+   "hook": "\"Palantir\u2019s latest earnings sent the internet into celebration mode after revenue surged 93% to $1.94 billion and the stock jumped nearly 30% in one day \ud83d\udcc8\n\nU.S. commercial revenue climbed 149% to $764 million, while U.S.",
+   "date": "2026-08-08"
   }
  ],
  "reddit_hot": [
   {
    "sub": "technology",
-   "score": 25746,
-   "title": "Flock Is Losing Dozens of Contracts as Controversy Grows"
-  },
-  {
-   "sub": "technology",
-   "score": 23090,
-   "title": "YouTube\u2019s AI slop detector incorrectly targets Kurzgesagt as other creators fear same fate"
-  },
-  {
-   "sub": "technology",
-   "score": 6310,
-   "title": "Canada investigating how Skyrim username mixup sent innocent man to prison for 18 months"
-  },
-  {
-   "sub": "technology",
-   "score": 5279,
-   "title": "City That Arrested Person for Clapping at Data Center Meeting Moves to Virtual Townhalls for 'Public Safety' / A small town in Kansas took its city meetings virtual and ended public comment after city leaders received a wave of death threats."
-  },
-  {
-   "sub": "technology",
-   "score": 3470,
-   "title": "Flock Pitched a Plan to Turn Uber and Lyft Drivers Into Roaming Surveillance Vehicles / A Flock presentation shows the company planned to use around 350,000 Uber, Lyft, and delivery drivers to collect license plate data for its surveillance system."
-  },
-  {
-   "sub": "technology",
-   "score": 2899,
-   "title": "Zohran Mamdani\u2019s NYC Tech Team Is What DOGE Should Have Been"
-  },
-  {
-   "sub": "technology",
-   "score": 2850,
-   "title": "\u2018As toxic as AIPAC\u2019: Progressive leader wants Dems to reject AI cash"
-  },
-  {
-   "sub": "technology",
-   "score": 2634,
-   "title": "Cities Are Ditching Flock, Immediately Replacing It With Axon License Plate Readers"
-  },
-  {
-   "sub": "technology",
-   "score": 2522,
-   "title": "Nintendo reports a full 38.5% of its sales are still physical in the wake of Sony abandoning discs"
-  },
-  {
-   "sub": "technology",
-   "score": 2381,
-   "title": "Meta CTO says employees should use AI productivity gains to do more work \u2014 not take more time off"
-  },
-  {
-   "sub": "technology",
-   "score": 2273,
-   "title": "Scientist says RAM pricing has reverted to normalized 2007 levels \u2014 memory prices have been falling exponentially for decades, but the AI shortage undid 20 years of progress in a matter of months"
+   "score": 18469,
+   "title": "Amazon secretly circumvents community vote for massive AI data center using 45-year-old rules \u2014 Gilroy residents locked out of public comment window"
   },
   {
    "sub": "ChatGPT",
-   "score": 2184,
-   "title": "Bernie Sanders is worried we're living through a Don't Look Up situation with AI"
+   "score": 4239,
+   "title": "Samsung support accidentally pasted the ChatGPT prompt in the customer support chat"
   },
   {
    "sub": "technology",
-   "score": 2183,
-   "title": "Japan warns US government to stop using Nintendo and Pokemon in memes"
+   "score": 3338,
+   "title": "AI creates 16 new viruses that never existed in nature after learning DNA pattern from 9 trillion nucleotides experts warn such applications are way ahead of necessary guardrails"
   },
   {
    "sub": "technology",
-   "score": 1642,
-   "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects"
+   "score": 2607,
+   "title": "Cloudflare says humans could become a &quot;rounding error&quot; as bots generate 1,000 times more internet traffic"
   },
   {
    "sub": "technology",
-   "score": 1602,
-   "title": "Flock's biggest investor also backs a company that can rewrite camera footage"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 1335,
-   "title": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza. It\u2019s Working."
+   "score": 2562,
+   "title": "New Amazon Data Center Stokes Worry It Would Be the Most Polluting Power Plant in the U.S."
   },
   {
    "sub": "technology",
-   "score": 1300,
-   "title": "Amazon Is Creating the Biggest Pollution Source in the Entire Country: Amazon has bought a site in Texas where it plans to build a data center campus."
+   "score": 2174,
+   "title": "\u2018Humans will be a rounding error on the internet\u2019 says Cloudflare exec"
+  },
+  {
+   "sub": "technology",
+   "score": 2094,
+   "title": "Chandler drops Flock cameras after misuse audit"
+  },
+  {
+   "sub": "technology",
+   "score": 2028,
+   "title": "How period trackers share your private details"
   },
   {
    "sub": "Futurology",
-   "score": 1270,
-   "title": "Great Solar Wall of China power project could reshape its energy landscape, desert ecosystems"
-  },
-  {
-   "sub": "OpenAI",
-   "score": 1126,
-   "title": "\u201cwe sandboxed the agent\u201d -- meanwhile the agent..."
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 993,
-   "title": "\u201cwe sandboxed the agent\u201d -- meanwhile the agent..."
-  },
-  {
-   "sub": "Futurology",
-   "score": 859,
-   "title": "90% of US robotics research is done with Chinese robots; now the US government wants to ban them."
+   "score": 1536,
+   "title": "New Orleans will use AI to answer 911 calls instead of a human"
   },
   {
    "sub": "technology",
-   "score": 827,
-   "title": "Trump administration has spent nearly $4B to cancel offshore wind farms | TechCrunch"
+   "score": 1234,
+   "title": "Chinese Scientists Made Glowing Plants with Firefly DNA to Replace Streetlights"
   },
   {
    "sub": "technology",
-   "score": 825,
-   "title": "Microsoft admits it force-installed AI-powered OneDrive on Windows 11, says it's not training on your faces (really)"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 803,
-   "title": "Seinfeld AI"
+   "score": 1111,
+   "title": "An Innocent Driver Was Held at Gunpoint Over a Flock Camera Mix-Up: \u201cWrong Person But Also Wrong Car\u201d"
   },
   {
    "sub": "technology",
-   "score": 750,
-   "title": "The Hugging Face hack is a PR crisis that's costing OpenAI millions"
-  },
-  {
-   "sub": "technology",
-   "score": 629,
-   "title": "Kalshi and Polymarket bets on clinical trials criticized as 'ghastly'"
+   "score": 1007,
+   "title": "Flock wanted to put license plate cameras on 350,000 Uber and Lyft dashcams"
   },
   {
    "sub": "singularity",
-   "score": 610,
-   "title": "GPT-6 release delayed due to &quot;critical&quot; cybersecurity capabilities"
+   "score": 946,
+   "title": "This is why the vast majority aren't taking any &quot;this new model is dangerous&quot; messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye"
+  },
+  {
+   "sub": "technology",
+   "score": 923,
+   "title": "Sinclair CEO Chris Ripley &quot;Couldn't Be Happier&quot; About Expected FCC Repeal Of Ownership Cap"
+  },
+  {
+   "sub": "Futurology",
+   "score": 907,
+   "title": "AI models are behaving unexpectedly. Experts warn of &quot;a really bumpy road&quot; ahead."
+  },
+  {
+   "sub": "technology",
+   "score": 864,
+   "title": "Savannah Police Department fires 6 employees over Flock Safety System misuse | GBI conducting independent criminal investigation into unauthorized system searches"
+  },
+  {
+   "sub": "technology",
+   "score": 824,
+   "title": "Amazon's AI Warehouses Are Struggling With A Real Human Problem"
+  },
+  {
+   "sub": "ChatGPT",
+   "score": 704,
+   "title": "I've been trying to get chatgpt to visualize this for a while and 5.6 finally nailed it: How small of a window life on earth has"
+  },
+  {
+   "sub": "Futurology",
+   "score": 703,
+   "title": "Meta becomes latest firm to say its AI hacked another company"
+  },
+  {
+   "sub": "OpenAI",
+   "score": 650,
+   "title": "Your scientists were so... uh..."
+  },
+  {
+   "sub": "technology",
+   "score": 607,
+   "title": "How Amazon Built a Data Center in a California Town Without Anyone Noticing"
   },
   {
    "sub": "technology",
    "score": 563,
-   "title": "The secret codewords that scammers hate \u2022 Deepfake scams might use your voice, but they don't know what's in your head. Five minutes of preparation could save your loved ones from falling for fraud."
+   "title": "New Orleans will use AI to answer 911 calls instead of a human"
+  },
+  {
+   "sub": "Futurology",
+   "score": 556,
+   "title": "OpenAI locks down Astra after model raises first-ever critical cyber capability fears"
   },
   {
    "sub": "technology",
-   "score": 548,
-   "title": "Flock promoted videos highlighting police departments using its tech. Four of these have since faced allegations of misuse\u2014Savannah, Albany, Sandy Springs, and Baytown\u2014in addition to alleged ALPR misuse in states like Georgia, Kansas, North Carolina, Ohio, and Wisconsin"
+   "score": 536,
+   "title": "We tested the impact of SSD speed on gaming performance in 11 titles &amp; we analyzed from SATA to PCIe 5.0 to see whether upgrading to a faster NVMe SSD would have an impact"
   },
   {
-   "sub": "technology",
+   "sub": "OpenAI",
+   "score": 535,
+   "title": "Stack Overflow has gone from a peak of 207k questions in March 2014, down to 1.4k in July 2026"
+  },
+  {
+   "sub": "singularity",
    "score": 526,
-   "title": "The FCC Moves to Retroactively Ban Drones With LiDAR Obstacle Avoidance"
+   "title": "GPT 5.6 Sol and Fable 5 settle a 25 year old problem in wireless communication theory"
+  },
+  {
+   "sub": "singularity",
+   "score": 512,
+   "title": "AI Model Trained In DNA Invents 16 New Viruses Not Found In Nature"
   },
   {
    "sub": "technology",
    "score": 512,
-   "title": "Wearable ultrasound patch boosts REM sleep without drugs or surgery"
+   "title": "Upgradable Laptop Maker Framework Suffers Breach Affecting All Customers"
   },
   {
    "sub": "technology",
-   "score": 477,
-   "title": "'Asimov was right' about rules for robots, says ex-US Cyber Director"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 404,
-   "title": "That is a horse."
+   "score": 487,
+   "title": "Doom developer Chris Hays slams Xbox after layoffs hit id Software: &quot;They fundamentally don't understand art. They don't understand games&quot;: &quot;We're not the same iD, we're half the same iD.&quot;"
   },
   {
    "sub": "technology",
-   "score": 398,
-   "title": "Microsoft Edge is about to lock out older ad blockers, just like Chrome did"
+   "score": 457,
+   "title": "America\u2019s Cyber Forces Grapple With Cluster of Deaths by Suicide"
+  },
+  {
+   "sub": "technology",
+   "score": 366,
+   "title": "20% of workers say they use AI for tasks that used to be given to colleagues, poll finds"
+  },
+  {
+   "sub": "technology",
+   "score": 355,
+   "title": "New Amazon Data Center Stokes Worry It Would Be the Most Polluting Power Plant in the U.S."
   },
   {
    "sub": "ChatGPT",
-   "score": 397,
-   "title": "Come on, commit some crimes"
+   "score": 329,
+   "title": "This is why the vast majority aren't taking any &quot;this new model is dangerous&quot; messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye"
+  },
+  {
+   "sub": "OpenAI",
+   "score": 326,
+   "title": "This is why the vast majority aren't taking any &quot;this new model is dangerous&quot; messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye"
+  },
+  {
+   "sub": "technology",
+   "score": 311,
+   "title": "Developer ported Word for Windows 1.1a from 1990 to run natively on Windows 11"
+  },
+  {
+   "sub": "singularity",
+   "score": 286,
+   "title": "Why is Reddit so delusional about AI capability?"
+  },
+  {
+   "sub": "technology",
+   "score": 257,
+   "title": "Big Tech AI Spree Revives Accounting Devices That Toppled Enron"
+  },
+  {
+   "sub": "ChatGPT",
+   "score": 250,
+   "title": "&quot;The agent is working in the sandbox&quot;.... Meanwhile the agent."
   },
   {
    "sub": "Futurology",
-   "score": 375,
-   "title": "China Drives Global Nuclear Power Generation To A New Record"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 330,
-   "title": "A Crossover That Was Never Meant to Exist"
+   "score": 247,
+   "title": "Zelensky says a robot has gone into the most dangerous place instead of a soldier more than 22,000 times in the Ukraine war. Has the fear of your own dead ever actually stopped a democracy from going to war?"
   },
   {
    "sub": "singularity",
-   "score": 320,
-   "title": "&quot;OpenAI has overcome their pre-training issues, and a much larger model code named \u201cDoug\u201d is actively in the works&quot;"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 305,
-   "title": "Dark Fantasy Battle Scene - GPT-2 and Seedance 2.5"
-  },
-  {
-   "sub": "singularity",
-   "score": 300,
-   "title": "Sam on Astra\u2019s delayed release"
+   "score": 232,
+   "title": "What YouTube videos Dario was watching to calm down after fighting with Sam? Right answers only"
   }
  ]
 }

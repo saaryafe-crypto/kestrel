@@ -55,11 +55,6 @@
   "date": "2026-07-27"
  },
  {
-  "page": "mashable",
-  "hook": "\"You can\u2019t keep Taco Bell fans down. \u2060\n\u2060\nAfter health officials linked a massive parasite outbreak in iceberg lettuce to a major supplier, Taco Bell dropped a public Notes-App (lol) apology and pulled the affected lettuc",
-  "date": "2026-07-25"
- },
- {
   "page": "technology",
   "hook": "\"Swipe \u2b05\ufe0f to explore the biggest global headlines from the last 24 hours, from blockbuster entertainment and politics to science, technology and crypto, all in one quick update \ud83c\udf0d\ud83d\udd25\n\nSpider Man: Brand New Day shattered the",
   "date": "2026-07-31"
@@ -88,11 +83,6 @@
   "page": "futurism",
   "hook": "\"By now, it should be pretty clear that the corporate executives of the world aren\u2019t exactly into AI because they think it\u2019ll cure cancer.\u2060\n\u2060\nThey\u2019re making a different calculation, motivated by simple economics: pretty ",
   "date": "2026-07-27"
- },
- {
-  "page": "futurism",
-  "hook": "\"To date, AI industry spending has topped $1.6 trillion, and shows no sign of slowing anytime soon.\u2060\n\u2060\nSo what do we actually have to show for it? Historically, it\u2019s been a whole lot of nothing: As numerous studies have ",
-  "date": "2026-07-25"
  },
  {
   "page": "mashable",
@@ -313,5 +303,75 @@
   "page": "mashable",
   "hook": "\"Another adorable animal has taken over the internet.\n\nMomota, an 8-month-old polar bear cub, has taken the internet by storm with his love of traffic cones. Yes, you read that right, traffic cones. It seems the cub can\u2019",
   "date": "2026-08-07"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see the difference between 35mm and IMAX 70mm, and how Christopher Nolan\u2019s The Odyssey reveals dramatically more of every frame in its highest quality format \ud83c\udfac\ud83c\udf7f\n\nThe film was shot entirely with IMAX film cam",
+  "date": "2026-08-07"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Palantir\u2019s latest earnings sent the internet into celebration mode after revenue surged 93% to $1.94 billion and the stock jumped nearly 30% in one day \ud83d\udcc8\n\nU.S. commercial revenue climbed 149% to $764 million, while U.S.",
+  "date": "2026-08-08"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Whether magicians, thieves, or just fed up citizens, somebody has made an entire city\u2019s worth of ALPRs vanish in the night.\n\nAccording to new reporting by @mprnews, police in the city of Winona, Minnesota, are incensed ",
+  "date": "2026-08-07"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"You might not need a lawyer before you start fundraising, but you do need to set up a good legal foundation. \n\nIn this episode of Build Mode, CEO and founder of Lexsy @kristinasubbotina.esq breaks down the four unfixabl",
+  "date": "2026-08-07"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"She started posting as a side project. Now @lightspeed\u2019s @zauey.talks says it\u2019s given her real-time visibility into how normal people (not just tech X) actually feel about AI.\n\n@dominicmadori on our Equity podcast digs ",
+  "date": "2026-08-06"
+ },
+ {
+  "page": "wired",
+  "hook": "\"The EU AI Act is the first-ever comprehensive legal framework on AI\u2014a \u201cglobal first,\u201d as European Commission president Ursula von der Leyen called it\u2014and aims to foster \u201ctrustworthy AI\u201d in Europe. Under Article 50 of th",
+  "date": "2026-08-08"
+ },
+ {
+  "page": "wired",
+  "hook": "\"On a rainy New York morning earlier this week, a WIRED reporter strapped to his wrist a lavender and pink plastic child\u2019s smartwatch and headed to work. As he approached his nearby subway station to commute to WIRED\u2019s o",
+  "date": "2026-08-08"
+ },
+ {
+  "page": "wired",
+  "hook": "\"For many years now, a dark question has haunted parents, teachers, the internet, and media institutions: What\u2019s wrong with young men?\n\nWhy, people ask, are boys so politically extreme, spouting misogynist rhetoric, and ",
+  "date": "2026-08-07"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Part of a SpaceX rocket crashed into the moon, leaving a new crater behind, and all kinds of questions.\n\nTap the \ud83d\udd17 in bio for the full episode. Subscribe to or follow \"Uncanny Valley\" wherever you get your podcasts.\n\n#U",
+  "date": "2026-08-07"
+ },
+ {
+  "page": "wired",
+  "hook": "\"After a rocky start with a few failed experiments in the past few years, across the fast-food industry the pendulum seems to be swinging back in the direction of AI-drive-thru adoption.\n\nIn addition to Taco Bell and Dai",
+  "date": "2026-08-07"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Security researchers tracked and eavesdropped on a WIRED reporter using vulnerabilities in a pink plastic smartwatch. It\u2019s just one piece of a deeply insecure supply chain of GPS-enabled gadgets.\n\nAt the Black Hat cyber",
+  "date": "2026-08-06"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Viral discourse about celebrity women becoming frighteningly thin has become inescapable on social media.\n\nThe discourse has reached a fever pitch after Ariana Grande released a music video for her new single and album ",
+  "date": "2026-08-06"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Puck\u2019s Matthew Belloni says AI has quietly become part of everyday filmmaking. The battle now isn\u2019t whether Hollywood will use the technology\u2014it\u2019s who controls what\u2019ll come next.\n\nTap the \ud83d\udd17 in bio for the full episode. ",
+  "date": "2026-08-06"
+ },
+ {
+  "page": "wired",
+  "hook": "\"OpenAI\u2019s Atlas web browser could have security protections bypassed and be tricked into spamming dozens of WhatsApp contacts or making unauthorized purchases on Amazon, according to new research presented today at the B",
+  "date": "2026-08-06"
  }
 ]
