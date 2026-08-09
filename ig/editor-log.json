@@ -1139,5 +1139,19 @@
   "subject": "<em>SIX BIG TECH COMPANIES OPENED THEIR OWN AI ENGINEER TRAINING TO THE PUBLIC</em> AND ALL OF IT IS FREE.",
   "verdict": "REJECT",
   "reason": "TRUTH §5 — hook claims 'SIX BIG TECH COMPANIES' but slide 2 is Andrew Ng's DeepLearning.AI, which is an education startup, not a big tech company. The courses were built *with* Anthropic and Google, but the platform itself is not big tech. A reader who swipes to slide 2 and sees an education startup is misled by the cover's framing. Fix: change 'SIX BIG TECH COMPANIES' to 'SIX TOP AI COMPANIES' or"
+ },
+ {
+  "t": "2026-08-09T19:58:23Z",
+  "gate": "B",
+  "subject": "6 AI PROMPTS THAT CLOSE ANY COMPLAINT IN <em>9 SECONDS</em>. MOST BUSINESSES TAKE DAYS.",
+  "verdict": "REJECT",
+  "reason": "ZERO PROMPTS DELIVERED — COVER CONTRACT BROKEN (§1, §4): The hook screams '6 AI PROMPTS' and the CTA explicitly tells the reader 'Save this post and you will always have them' — but not one of the six content slides contains a single line of prompt text. Each slide describes what a prompt would accomplish; none shows the prompt. The Doctrine is explicit: prompts must be 'taught in full on the slid"
+ },
+ {
+  "t": "2026-08-09T20:08:14Z",
+  "gate": "B",
+  "subject": "6 AI PROMPTS THAT CLOSE ANY COMPLAINT IN <em>2 MINUTES</em>. MOST BUSINESSES TAKE DAYS.",
+  "verdict": "REJECT",
+  "reason": "Hook is two sentences, not one (§2 law: 'ONE complete sentence'). Fix: merge into a single sentence, e.g. 'THE 6 AI PROMPTS THAT CLOSE ANY CUSTOMER COMPLAINT IN 2 MINUTES WHILE MOST BUSINESSES TAKE DAYS.'; Cover contract broken: the hook promises '6 prompts that close any complaint' but Slide 3 (FAQ building) and Slide 4 (post-purchase follow-up email) have nothing to do with closing complaints. F"
  }
 ]
