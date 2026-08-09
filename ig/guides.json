@@ -1,4 +1,29 @@
 {
- "updated": "2026-08-08T23:35:47.474113+00:00",
- "guides": []
+ "updated": "2026-08-09T01:36:44.024868+00:00",
+ "guides": [
+  {
+   "id": "2086046261749145864",
+   "title": "Happy Birthday, GPT-5. It's actually been a whole year since GPT-5 was released. One of the low points since everything at OpenAI changed for the better. Back then, routing was introduced, and it didn't work as expected ",
+   "sub": "kimmonismus",
+   "where": "@kimmonismus on X",
+   "unit": "likes",
+   "selftext": "Happy Birthday, GPT-5. It's actually been a whole year since GPT-5 was released. One of the low points since everything at OpenAI changed for the better. Back then, routing was introduced, and it didn't work as expected at all. The model itself also fell short of expectations, and the chartcrime was the final straw. But OpenAI recognized the problems and made a complete turnaround, rising to the top with version 5.6 Sol (depending on how you compare it to Fable 5). OpenAI has made history in how to find solutions to problems. And they're in a better position today than ever before. In that spirit: Happy Birthday, GPT-5!",
+   "permalink": "https://x.com/kimmonismus/status/2086046261749145864",
+   "outlink": null,
+   "score": 1174,
+   "comments_n": 54,
+   "views": 59596,
+   "age_h": 14.5,
+   "vph": 81.0,
+   "image": "https://pbs.twimg.com/media/HPMBfOwX0AAskJB.jpg",
+   "video": null,
+   "guide": true,
+   "thread": [
+    "@mayuri_3015 3 years???? Na come on",
+    "@ChainZenit Yes, literally turn around",
+    "@Argona0x Id prefer more compute :D"
+   ],
+   "born": 1786187204.024868
+  }
+ ]
 }
