@@ -1,0 +1,91 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THESE 5 AI PROMPTS <em>DO THE $4,700 RECRUITER'S ENTIRE JOB</em> FOR FREE",
+   "kicker": "MOST OWNERS SPEND $4,700 PER HIRE",
+   "hsize": 70,
+   "face": null,
+   "media": "posts/2026-08-09-edu-5-ai-prompts-that-run-the-whole-hiring-p/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) WRITE THE JOB DESCRIPTION <em>THAT SCARES OFF TIME-WASTERS</em>",
+   "body": "Recruiters charge <b>$300+</b> to write a job description that actually filters for the right person. A generic posting pulls every applicant with a pulse.\n\n\ud83d\udccb PROMPT: \"Write a job description for [ROLE]. Include must-have skills that eliminate unqualified applicants, a task they will do on day one, and a screening question at the bottom that requires a specific answer to filter copy-paste applicants.\"",
+   "hsize": 100,
+   "media": "posts/2026-08-09-edu-5-ai-prompts-that-run-the-whole-hiring-p/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "2) SCREEN <em>100 APPLICATIONS IN 10 MINUTES</em>",
+   "body": "Paying a recruiter to screen and shortlist runs <b>$1,500 to $3,000</b> as a standalone service. AI reads the entire stack in one session and ranks the best by fit.\n\n\ud83d\udccb PROMPT: \"Here are [X] applications for [ROLE]. Rank every applicant by fit using these must-haves: [list your criteria]. Give me the top 5 with a one-sentence reason each, and flag red flags in the rest.\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD INTERVIEW QUESTIONS <em>CANDIDATES CAN'T REHEARSE</em>",
+   "body": "A recruiter spends <b>2 to 3 hours</b> building a tailored interview framework per role. Every generic list is already on Google and most candidates practice those answers the night before.\n\n\ud83d\udccb PROMPT: \"Write 5 interview questions for [ROLE] that require a real, specific example from the candidate's past, not a rehearsed story. For each question include the signal a strong answer must contain.\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) SCORE EVERY CANDIDATE <em>SO THE DECISION MAKES ITSELF</em>",
+   "body": "A bad hire costs <b>$15,000</b> on average in replacement, retraining, and lost output. Most bad hires come from gut-feel decisions made after a full day of back-to-back interviews.\n\n\ud83d\udccb PROMPT: \"Here are my interview notes for [CANDIDATE NAME]: [paste notes]. Score them 1, 10 on technical skill, culture fit, and communication. Give a hire or pass recommendation with one sentence of reasoning.\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE A PROFESSIONAL <em>OFFER LETTER IN 3 MINUTES</em>",
+   "body": "Employment lawyers charge <b>$200+ an hour</b> to draft an offer letter. Most owners wait 48 hours for a callback and lose the candidate to a faster competitor in the gap.\n\n\ud83d\udccb PROMPT: \"Write a professional offer letter for [NAME] for the role of [ROLE] at [COMPANY]. Salary [X], start date [DATE]. Include job title, compensation, at-will employment language, and a 48-hour acceptance deadline.\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "body": "You will want these the next time you are hiring. Save this post and skip the recruiter fee\n\nDaily AI news + real skills",
+   "hsize": 110,
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5 \u2192 your full hiring pipeline in AI prompts, no recruiter fee. \ud83d\udd16\n\nJob description that filters the wrong people out, application screening that ranks 100 resumes in 10 minutes, interview questions candidates cannot rehearse, a scoring system built from your own interview notes, offer letter written in 3 minutes.\n\nThe average U.S. hire costs $4,700 in recruiter fees, listings, and lost hours. A bad hire costs $15,000 more. Business owners who run this pipeline once stop paying recruiters entirely. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: SHRM, Anthropic\n\n#AItools #businessowner #artificialintelligence #smallbusiness #productivity",
+ "pinned_comment": "Which one are you trying tonight? Slide 3 is the sleeper, most owners don't realize they can paste their entire application list into AI and get a ranked shortlist in minutes.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 AI PROMPTS THAT RUN</em> YOUR WHOLE HIRING PROCESS",
+   "SKIP THE <em>$4,700 RECRUITER FEE</em> WITH THESE 5 AI PROMPTS",
+   "5 PROMPTS THAT REPLACE <em>YOUR ENTIRE HIRING PIPELINE</em> FOR FREE"
+  ],
+  "scores": [
+   3,
+   8,
+   5
+  ],
+  "winner": 1,
+  "why": "The $4,700 number hits instantly\u2014it's a real, specific problem you can picture solving, not a vague claim about replacing your 'entire pipeline.' Your brain stops scrolling because this tells you exactly what you're getting, not because you need to solve a riddle."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "SKIP THE <em>$4,700 RECRUITER FEE</em> WITH THESE 5 AI PROMPTS",
+   "5 PROMPTS THAT <em>REPLACE YOUR $4,700 RECRUITER</em>",
+   "5 PROMPTS THAT <em>SCREEN 100 RESUMES IN 10 MINUTES</em>",
+   "5 PROMPTS THAT <em>DO THE $4,700 RECRUITER WORK</em> FOR FREE"
+  ],
+  "scores": [
+   6,
+   8,
+   6,
+   9
+  ],
+  "winner": 3,
+  "why": "FREE combined with the $4,700 anchor hits with that visceral 'wait, WHAT?' reaction that stops your scroll at 2am. REPLACE is strong positioning but sounds like business-speak; it doesn't jolt you the same way."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "SLIDE BODIES CONTAIN EMOJIS (\u00a74): The \ud83d\udccb icon precedes every 'PROMPT:' label in all five content slides. \u00a74 is explicit \u2014 no emojis in bodies. Fix: replace '\ud83d\udccb PROMPT:' with plain 'PROMPT:' in slides 2\u20136. This is a one-pass find-replace.; SLIDES 3\u20136 HAVE NO IMAGE (\u00a73 / cover-contract risk): The cover promises a 5-part system, but four of five prompt slides carry no image at all. \u00a73 requires every im"
+}
