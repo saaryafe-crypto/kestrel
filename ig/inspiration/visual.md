@@ -180,3 +180,48 @@ The writer's `image_brief` = subject + action + setting + one color key
 (15-40 words, the evidence scene). genimg.py's wrapper appends the fixed
 composition / lighting / lens / text-rule block so every prompt lands in
 Seedream's optimal 5-part structure without the writer repeating boilerplate.
+
+## 6. Concept-first covers — the Creative Director doctrine (Aug 9 2026, ported from the owner's build)
+
+Built on the owner's two reference covers, which ARE the spec:
+1. **PowerPoint's funeral** — Dario Amodei comforting a sobbing Bill Gates
+   beside a coffin with the PowerPoint logo framed on it, for a "Claude
+   replaces PowerPoint" story. A staged symbolic scene that transmits the
+   story with zero reading, cast with the real leaders of the two companies.
+2. **Zendaya studying** — for a "Gemini predicts exam questions" story,
+   cast BECAUSE The Odyssey was viral that week (the culture-cast move).
+
+**The reversal:** metaphor is LEGAL on COVERS ONLY (owner order Aug 9 —
+the old "never a metaphor" rule buried both reference covers). Inner
+slides stay literal evidence of their own claim, faces stay famous-only.
+
+**The lanes** (art_direct picks the strongest, varies across posts):
+- **SYMBOLIC SCENE** — the story's meaning staged as ONE theatrical,
+  photographically real moment: product replaced → its funeral; company
+  beaten → the knockout; era over → the retirement party. Shot as a
+  documentary press photo, never illustration.
+- **CULTURE CAST** — a currently-hot celebrity performing the story's
+  action. Fed by `culture.py`: ONE web-search Sonnet call per day (lazy
+  24h refresh into culture.json, fails open to stale/empty — a slot is
+  never blocked by a dead radar). Cast only on instant natural fit.
+- **LOGO AS HERO** — fame-bar fallback: famous company, no famous face →
+  the famous logo itself is cast in the story's role (golden Octocat on a
+  throne of cash for a GitHub-repos-make-money story). Humans faceless.
+- The pre-existing lanes (story's own absurd visual, ROLE-CAST,
+  PRODUCT-HERO, CLASH-CAST, SITUATION PORTRAIT) stay and win when stronger.
+
+**The fame bar** (owner, Aug 9): cast a human ONLY if a random 20-year-old
+recognizes the FACE without a caption (Musk/Gates/Altman tier). A famous
+company does NOT make its CEO famous. No qualifying face → no generated
+face at all.
+
+**Retry rule:** person-route covers rewrite between attempts with
+`simpler_brief(mode="concept")` — keep the staged scene and every named
+face, strip only the judge's named flaw. The retry must never dissolve
+the funeral into a plain portrait. The judge (`image_score`) counts a
+symbolic staging that transmits the story as ON-claim.
+
+**Token rule** (owner: "token economy is EXTREMELY important"): zero new
+per-post calls — all concept thinking happens inside the single existing
+art_direct call. The only recurring addition is the one culture-refresh
+web call per day.

@@ -309,7 +309,10 @@ def main():
             if s["type"] == "cover":
                 pool.append((score, path))
             if attempt + 1 < tries:
-                brief = simpler_brief(brief, s["headline"], flaw) or brief
+                # person-route covers retry concept-preserving (Aug 9): keep
+                # the staged scene + cast, fix only the judge's named flaw
+                brief = simpler_brief(brief, s["headline"], flaw,
+                                      mode="concept" if person else "simpler") or brief
                 if not person:
                     # the rewrite sees the headline, which may name real
                     # people — re-scrub or the Seedream retry dies to E005

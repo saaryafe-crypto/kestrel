@@ -228,7 +228,7 @@ def image_score(path, headline, generated=False):
     try:
         r = call_claude(
             f'An AI-generated image is attached (if not attached to this message, use your Read tool on {path} to look at it). It would fill the photo band of an Instagram news slide with this headline: "{clean}". Judge it AT PHONE FEED SIZE — a flaw a follower cannot see at that size does not count against it. '
-            'SCORE against the scroll-stopper formula (each worth points): ONE dominant focal subject, brightest and sharpest thing in frame (no competing focal points); the image dramatizes THIS exact headline claim — moment, stakes or consequence visible in half a second (not generic topical art); THE PULL — the image alone makes you need to know what is happening (a caught moment, visible tension, peak emotion beats any calm posed scene); bright saturated colors with one punchy accent (not murky, not pastel, not white-dominant); if a person is central, the face is large and radiates one clear strong emotion; looks like a real press photo (texture, grain, candid light), not plastic AI art. '
+            'SCORE against the scroll-stopper formula (each worth points): ONE dominant focal subject, brightest and sharpest thing in frame (no competing focal points); the image dramatizes THIS exact headline claim — moment, stakes or consequence visible in half a second (not generic topical art), and a deliberately STAGED SYMBOLIC scene that transmits the story\'s outcome in one look (a funeral for a discontinued product, a knockout between two brands, a famous logo cast in the story\'s role) COUNTS as dramatizing the claim — judge it on whether a stranger gets the story, not on literalness;THE PULL — the image alone makes you need to know what is happening (a caught moment, visible tension, peak emotion beats any calm posed scene); bright saturated colors with one punchy accent (not murky, not pastel, not white-dominant); if a person is central, the face is large and radiates one clear strong emotion; looks like a real press photo (texture, grain, candid light), not plastic AI art. '
             + face_gate +
             'Score 0-10: 10 = a professional photo editor would run it AND it nails the formula; 7 = publishable; 4 = clearly flawed but recognizable and on-claim; 0 = unusable garbage. usable:true means publish as-is — set false for flaws a scrolling follower would actually notice: garbled text large enough to read, warped hands/faces, obvious AI plastic look, watermark, no connection to the claim, a dark/murky frame with no focal subject, or a SCREENSHOT of an app or social-media post (baked-in meme captions, interface elements like hearts, like counts, usernames, buttons — a screenshot is someone else\'s content and never our cover). flaw: the single biggest problem in 12 words or less (empty string if none). Return ONLY JSON: {{"usable": true/false, "score": 0-10, "flaw": "..."}}',
             schema=IMG_QA_SCHEMA, images=[path], model=CHEAP)
@@ -248,17 +248,33 @@ BRIEF_SCHEMA = {"type": "object", "properties": {"brief": {"type": "string"}},
                 "required": ["brief"]}
 
 
-def simpler_brief(brief, headline, flaw=""):
+def simpler_brief(brief, headline, flaw="", mode="simpler"):
     """Ladder rung between generation attempts (Circle K post-mortem: the old
     retry re-ran the SAME brief and failed the same way). Rewrites the
     rejected brief into a cleaner, harder-to-botch shot — fewer elements =
     fewer artifacts — steered by the judge's named flaw. Fails open to the
-    original brief."""
+    original brief. mode="concept" (Aug 9, person-route covers): the staged
+    concept and the named cast ARE the cover — keep the scene and every
+    famous name, strip only the flaw's cause; never let the retry dissolve
+    the funeral into a plain portrait."""
     clean = re.sub(r"</?em>", "", headline)
     flaw_line = f'The judge named the biggest flaw: "{flaw}". Remove its cause first.\n' if flaw else ""
+    if mode == "concept":
+        task = ('Rewrite the brief keeping the SAME staged scene and every '
+                'named famous person EXACTLY as they are — the concept and the '
+                'cast are the cover\'s whole value. Fix ONLY the named flaw: '
+                'simplify the background, cut clutter or extra props, drop any '
+                'readable text (symbols only), sharpen the one emotion. Never '
+                'replace the scene with a plainer portrait or a generic setting.')
+    else:
+        task = ('Rewrite the brief SIMPLER so the next attempt survives: ONE '
+                'subject, ONE action, ZERO readable text anywhere (screens show '
+                'SYMBOLS only: a $ symbol, a warning triangle, a red cross — '
+                'symbols never garble), no crowds, no close-up hands or faces, '
+                'plainer setting, keep the color key.')
     try:
         r = call_claude(
-            f'An AI image generator produced an UNUSABLE image (artifacts, garbled text, or stock look) from this brief:\n"{brief}"\n{flaw_line}The image must still be evidence for this headline: "{clean}". Rewrite the brief SIMPLER so the next attempt survives: ONE subject, ONE action, ZERO readable text anywhere (screens show SYMBOLS only: a $ symbol, a warning triangle, a red cross — symbols never garble), no crowds, no close-up hands or faces, plainer setting, keep the color key. 15-35 words, subject first. Return ONLY JSON: {{"brief": "..."}}',
+            f'An AI image generator produced an UNUSABLE image (artifacts, garbled text, or stock look) from this brief:\n"{brief}"\n{flaw_line}The image must still be evidence for this headline: "{clean}". {task} 15-35 words, subject first. Return ONLY JSON: {{"brief": "..."}}',
             schema=BRIEF_SCHEMA, model=CHEAP)
         b = r.get("brief", "").strip()
         if b:
@@ -291,7 +307,7 @@ def art_direct(post, story_title=""):
               "headline": re.sub(r"</?em>", "",
                                  s.get("headline") or (s.get("body") or "")[:90]),
               "concept": s.get("image_brief", ""),
-              **({"slide_role": "cta"} if s["type"] == "cta" else {}),
+              **({"slide_role": s["type"]} if s["type"] in ("cta", "cover") else {}),
               **({"has_real_photo": True} if s.get("media") else {})}
              for i, s in enumerate(post["slides"])
              if s.get("image_brief") or s["type"] == "cta"]
@@ -375,13 +391,33 @@ def art_direct(post, story_title=""):
         "invented palette. Black-mark brands (Apple, X, GitHub, SpaceX, "
         "OpenAI) appear as glowing WHITE marks in our dark scenes.")
         if logo_list else "")
+    # CULTURE CAST feed (Aug 9 Creative Director port): zero extra calls here —
+    # culture.get() reads the day's cached hot list (one Sonnet web-search call
+    # per day, lazy 24h refresh, fails open inside culture.py)
+    hot = []
+    try:
+        import culture
+        hot = culture.get()[:10]
+    except Exception:
+        pass
+    culture_note = (("\nWHO IS CULTURALLY HOT RIGHT NOW (refreshed from the "
+                     "live web within 24h — feeds the CULTURE CAST lane):\n" +
+                     "\n".join(f"- {h['name']}: {h.get('why_hot_now', '')} "
+                               f"[{h.get('typical_scene', '')}]" for h in hot))
+                    if hot else "")
     prompt = f"""{doctrine()}You are the cover-image director of a viral news Instagram page. You write the final image-generation prompts for the Seedream photo model. The doctrine below is distilled from published research on scroll-stopping feed imagery (thumbnail CTR studies: emotional faces +42%, image-headline synergy up to +154%; MrBeast-school single-focal analysis; 2026 anti-AI-slop guides) — follow it exactly. The image fills the top two-thirds of the frame above the headline and gets ~0.4 seconds at phone size.
 
 STORY: {story_title}
 SLIDES (index, final headline, the writer's rough concept):
 {json.dumps(items, ensure_ascii=False, indent=1)}
 
-THE JOB: the image DRAMATIZES the exact claim of that slide's headline — the peak moment, the consequence, or the stakes — so the image raises the question and the headline answers it. A stranger seeing image + headline together gets the claim in one second. Never the topic in general, never a metaphor, never stock wallpaper.
+THE JOB: the image DRAMATIZES the exact claim of that slide's headline — the peak moment, the consequence, or the stakes — so the image raises the question and the headline answers it. A stranger seeing image + headline together gets the claim in one second. Never the topic in general, never stock wallpaper. A metaphor is legal ONLY on the cover under the concept rules below — INNER slides stay literal evidence of their own claim.
+
+THINK CONCEPT FIRST, PROMPT SECOND (owner doctrine Aug 9 — COVER ONLY): before writing the cover brief, name the story's emotional core in your head — who wins, who dies, who is humiliated, what era just ended — then stage that meaning as ONE scene a stranger decodes in one second without reading a word. The strongest lane wins (vary the lane across posts):
+- SYMBOLIC SCENE: the story's meaning acted out as one theatrical, photographically REAL moment. A product replaced → its FUNERAL (owner's gold standard: Anthropic's CEO comforting a sobbing Bill Gates at PowerPoint's funeral, the PowerPoint logo framed on the coffin); a company beaten → the knockout over the ropes; an old era over → its retirement party. Staged, but shot as a documentary press photo — never illustration, never surrealism for its own sake.
+- CULTURE CAST (the Zendaya move — owner reference: Zendaya cast studying for a Gemini-exam story BECAUSE The Odyssey was viral that week): cast someone from the hot list below performing the story's action. Only when the fit is instant and natural — never force a celebrity into a story that isn't theirs.{culture_note}
+- LOGO AS HERO (fame-bar fallback, owner Aug 9): when the story's company is world-famous but NO person clears the famous-face bar, the famous LOGO itself becomes the staged scene's HERO, cast in the story's role — GitHub repos printing money → the golden Octocat on a throne of hundred-dollar stacks. Return "logo" so the real mark rides as reference; every human in that scene is faceless or absent.
+- Or the existing lanes below (the story's own absurd visual, ROLE-CAST, PRODUCT-HERO, CLASH-CAST, THE SITUATION PORTRAIT) when they are stronger. All craft rules, the fame bar, and the logo rules still apply to every lane.
 
 THE STOP TEST (owner order Aug 3: every cover must be "controversial / eye-opening and make people want to click"): the cover scene must feel like a moment the viewer SHOULDN'T be seeing — caught, not posed. It passes only if it holds at least one of: (a) visible conflict or confrontation mid-happening, (b) one famous face at a PEAK raw emotion no press photo would ever show (devastation, fury, panic — not a composed press smile), (c) something mid-going-wrong (mid-fall, mid-crash, mid-escape), (d) an impossible-but-real sight that makes the viewer doubt their eyes, or (e) a forbidden/backstage moment (a leaked-memo table, a deal being signed behind closed doors). A scene that is merely unusual staging is NOT enough — ask "would a stranger feel they need to know what's happening here?" If the honest answer is no, escalate the moment. Everything else stays true: the scene dramatizes THIS story's real claim, never a fabricated event presented as news.
 
@@ -968,7 +1004,7 @@ RULES
 Return ONLY the JSON object, no markdown fences, no commentary."""
 
 
-def call_claude(prompt, schema=None, images=None, model=None):
+def call_claude(prompt, schema=None, images=None, model=None, web=False):
     # scraped article text can carry null bytes — they crash subprocess exec
     # (embedded null byte) and are invalid in API JSON anyway
     prompt = prompt.replace("\x00", "")
@@ -994,11 +1030,15 @@ def call_claude(prompt, schema=None, images=None, model=None):
                 "type": "base64", "media_type": mt,
                 "data": base64.b64encode(data).decode()}})
         content.append({"type": "text", "text": prompt})
+        kwargs = {}
+        if web:  # culture radar (Aug 9): live web search inside the one call
+            kwargs["tools"] = [{"type": "web_search_20250305",
+                                "name": "web_search", "max_uses": 5}]
         with client.messages.stream(
             model=use_model, max_tokens=8000,
             thinking={"type": "adaptive"},
             output_config={"format": {"type": "json_schema", "schema": schema or SCHEMA}},
-            messages=[{"role": "user", "content": content}],
+            messages=[{"role": "user", "content": content}], **kwargs,
         ) as stream:
             msg = stream.get_final_message()
         return json.loads("".join(b.text for b in msg.content if b.type == "text"))
@@ -1017,6 +1057,12 @@ def call_claude(prompt, schema=None, images=None, model=None):
         cmd += ["--tools", "Read", "--allowedTools", "Read"]
         for d in sorted({os.path.dirname(os.path.abspath(p)) for p in images}):
             cmd += ["--add-dir", d]
+    elif web:  # culture radar: WebSearch only, same trimmed system prompt
+        cmd += ["--tools", "WebSearch", "--allowedTools", "WebSearch",
+                "--system-prompt",
+                "You are the research engine of an automated content "
+                "pipeline. Use web search, then follow the instructions in "
+                "the message exactly and return only the requested output."]
     else:
         cmd += ["--tools", "", "--system-prompt",
                 "You are the writing and judging engine of an automated "
@@ -1541,8 +1587,11 @@ def main(stories_path):
             if s["type"] == "cover":
                 pool.append((score, path))
             if attempt + 1 < tries:
+                # person-route covers retry concept-preserving (Aug 9): keep
+                # the staged scene + cast, fix only the judge's named flaw
                 brief = simpler_brief(brief, s.get("headline")
-                                      or (s.get("body") or "")[:90], flaw) or brief
+                                      or (s.get("body") or "")[:90], flaw,
+                                      mode="concept" if person else "simpler") or brief
                 if not person:
                     # the rewrite sees the headline, which may name real
                     # people — re-scrub or the Seedream retry dies to E005
