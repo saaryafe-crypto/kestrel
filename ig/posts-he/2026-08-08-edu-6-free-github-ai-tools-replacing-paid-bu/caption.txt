@@ -1,0 +1,11 @@
+שישה כלים חינמיים ב-GitHub שעסקים קטנים משלמים עליהם אלפי דולרים בשנה, ואפשר לעבור אליהם הלילה 💸
+
+n8n מחליף את Zapier בחינם. Whisper של OpenAI מתמלל כל שיחה ופגישה ב-0 דולר. Flowise בונה AI chatbot לאתר שלך בלי מפתח. Ollama מריץ AI פרטי על החומרה שלך כך שכל הצוות לא משלם כלום. AnythingLLM מאפשר לך לחפש בחוזים ובקבצים שלך עם שאלות רגילות. Perplexica עושה מחקר מתחרים חי כמו Perplexity Pro, בלי מנוי.
+
+רוב הכלים האלה קיימים כבר שנים. מה שהשתנה: Claude Code יכול עכשיו לפרוס את כולם תוך דקות, בלי מפתח, ולכן בעלי עסקים סוף סוף עוברים אליהם. יש לך עסק? שלח לנו DM עם המילה "AI" ונראה לך מה זה יכול לעשות בשבילך.
+
+מקורות: GitHub (n8n, Whisper, Flowise, Ollama, AnythingLLM, Perplexica), Zapier, Rev, Perplexity
+
+עוקב אחרי @ainews.israel לחדשות AI יומיות
+
+#AI #AITools #SmallBusiness #BusinessAutomation #FreeAI
