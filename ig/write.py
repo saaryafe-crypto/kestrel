@@ -1022,41 +1022,79 @@ def call_claude(prompt, schema=None, images=None, model=None):
                 "You are the writing and judging engine of an automated "
                 "content pipeline. Follow the instructions in the message "
                 "exactly and return only the requested output."]
-    # One retry on a hung CLI call (Aug 1 22:00 UTC slot died: the edu
-    # fallback — the ladder's LAST rung — sat 20 min on a single `claude -p`
-    # and TimeoutExpired killed the whole run. A fresh process almost always
-    # succeeds; the 7/day rule says the slot must not die on one hang.)
+    # PULSE watchdog, not a stopwatch (Aug 9 post-mortem, runs 31316462087
+    # through 31324772418): the doctrine writer call takes 6-7 min on a QUIET
+    # plan — measured 385s locally on the exact failing prompt — and longer
+    # when the shared subscription is throttled. Every total-time timeout we
+    # tried (20 min Aug 8, 8 min Aug 9) killed healthy calls mid-generation
+    # and the whole day's carousel runs died while small HE calls sailed
+    # through. _stream_claude leaves a slow-but-pulsing call alone and kills
+    # only true silence. One patient retry: a real stall is the plan refusing
+    # to start the stream, and an instant retry re-stalls almost every time.
     try:
-        # timeout 1200→480 (Aug 9): the Aug 8 hang storm chained four 20-min
-        # hangs and blew the 90-min job ceiling mid-ladder. Legit calls finish
-        # in 1-6 min; a hung call now costs 8 min, so the ladder survives.
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=480).stdout
+        out = _stream_claude(cmd)
     except subprocess.TimeoutExpired:
-        # PATIENT retry (Aug 9, runs 31316462087/31321864032: hangs come from
-        # plan SATURATION — the owner's interactive sessions share the same
-        # subscription — so an instant retry re-hangs almost every time, while
-        # calls a while later succeed). Wait 10 min for the blip to pass,
-        # then one fresh attempt. Worst case per call: 8+10+8=26 min, so a
-        # 3-rung ladder still fits the 90-min job ceiling.
-        print("claude -p hung 8 min (plan saturated?) — waiting 10 min, then "
-              "retrying once with a fresh process", file=sys.stderr)
+        print("claude -p stream went silent — waiting 10 min, then retrying "
+              "once with a fresh process", file=sys.stderr)
         time.sleep(600)
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=480).stdout
+        out = _stream_claude(cmd)
     obj = _extract_json(out)
     if obj is None:
-        # Same transient family as the hang, different symptom: the CLI
+        # Same transient family as the stall, different symptom: the CLI
         # returns an error string instead of JSON ("API Error: Stream idle
         # timeout - partial response received" killed the Aug 2 morning reel,
         # issue #13). One fresh call, then give up.
         print(f"claude -p returned no JSON ({out[:120]!r}) — retrying once",
               file=sys.stderr)
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=480).stdout
+        out = _stream_claude(cmd)
         obj = _extract_json(out)
     if obj is None:
         # RuntimeError, NOT SystemExit: callers with fail-open except-Exception
         # handlers (dupe judge, scout judge, vision QA) must be able to catch it
         raise RuntimeError(f"claude -p returned no JSON:\n{out[:500]}")
     return obj
+
+
+def _stream_claude(cmd):
+    """Run `claude -p` in stream-json mode with an IDLE watchdog: every
+    output chunk is a pulse, so a slow-but-alive call (throttled plan) runs
+    to completion, while 4 minutes of total silence — a true stall, the
+    server never streaming — kills it fast. 40-min hard cap as a safety
+    net so a pathological call can never eat the 90-min CI job alone.
+    Returns the final result text ("" if the CLI died without one)."""
+    import select
+    cmd = cmd + ["--output-format", "stream-json",
+                 "--include-partial-messages", "--verbose"]
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE,
+                            stderr=subprocess.DEVNULL)
+    fd = proc.stdout.fileno()
+    result, buf = None, b""
+    hard_deadline = time.time() + 2400
+    try:
+        while True:
+            wait = min(240.0, hard_deadline - time.time())
+            if wait <= 0:
+                raise subprocess.TimeoutExpired(cmd, 2400)
+            ready, _, _ = select.select([fd], [], [], wait)
+            if not ready:
+                raise subprocess.TimeoutExpired(cmd, 240)
+            chunk = os.read(fd, 65536)
+            if not chunk:
+                break  # EOF — process finished (or died; retry path handles it)
+            buf += chunk
+            while b"\n" in buf:
+                line, buf = buf.split(b"\n", 1)
+                try:
+                    ev = json.loads(line)
+                except ValueError:
+                    continue
+                if isinstance(ev, dict) and ev.get("type") == "result":
+                    result = ev.get("result") or ""
+    finally:
+        if proc.poll() is None:
+            proc.kill()
+        proc.wait()
+    return result if result is not None else ""
 
 
 def _extract_json(out):
