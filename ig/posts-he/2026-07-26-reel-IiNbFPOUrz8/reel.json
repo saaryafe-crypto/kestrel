@@ -1,0 +1,10 @@
+{
+ "title": "מודל AI אחד שולט בכל גוף הרובוט",
+ "caption": "UnifoLM-OminiA-0.3 של Unitree הוא מודל אחד שמפעיל את כל גוף הרובוט, בלי מערכות נפרדות לראייה, תנועה ותקשורת.\n\nבדמו הזה הרובוט עושה משימות בית ובריאות לגמרי לבד, מבין הוראות קוליות, רואה מה קורה סביבו, מרגיש מגע, ונשאר יציב גם כשמנסים להפריע לו.\n\nככה ייראו רובוטי הבית בעתיד הקרוב: מודל אחד, הרבה משימות.\n\nאוהב AI? עקוב אחרי @ainews.israel לחדשות AI יומיות\n\nCredits: unitreerobotics\nשלחו DM לקרדיט או הסרה\n\n#robotics #ai #humanoidrobot #unitree #technews",
+ "start_s": 5,
+ "clip_s": 45,
+ "source": "https://www.youtube.com/watch?v=IiNbFPOUrz8",
+ "channel": "unitreerobotics",
+ "publish": "make",
+ "localized_from": "2026-07-26-reel-IiNbFPOUrz8"
+}
