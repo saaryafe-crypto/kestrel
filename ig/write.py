@@ -320,6 +320,16 @@ def art_direct(post, story_title=""):
         'a fake "Aschenbrenner" shipped on the SA-fund cover and read '
         "instantly false) — show them from behind, silhouette, or rewrite to "
         "the story's objects/scene with no face in frame."
+        "\nNO GENERIC PEOPLE (hard rule Aug 9 — three cover-fallback days in "
+        "a row: every image the judge killed as 'unfamiliar generated face' "
+        "traced back to an unnamed person in the brief, and the slot shipped "
+        "a bare or reject cover): a person may appear in a brief ONLY as a "
+        "written famous full name per the rule above. Never write 'a worker', "
+        "'an engineer', 'a student', 'a person at a desk' or any other "
+        "unnamed human whose face would be visible. If the scene needs a "
+        "human presence, design it people-free or face-free: hands-and-props "
+        "close-ups, a figure from behind, a silhouette, or let the story's "
+        "objects and screens carry the drama."
         '\nBREAK THE PATTERN (owner rule Aug 2 — "we must break the normal '
         'thoughts when users see the images... not necessarily gangsters, '
         'but change the thinking pattern and make it unique"): the viewer '
@@ -1017,11 +1027,14 @@ def call_claude(prompt, schema=None, images=None, model=None):
     # and TimeoutExpired killed the whole run. A fresh process almost always
     # succeeds; the 7/day rule says the slot must not die on one hang.)
     try:
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=1200).stdout
+        # timeout 1200→480 (Aug 9): the Aug 8 hang storm chained four 20-min
+        # hangs and blew the 90-min job ceiling mid-ladder. Legit calls finish
+        # in 1-6 min; a hung call now costs 8 min, so the ladder survives.
+        out = subprocess.run(cmd, capture_output=True, text=True, timeout=480).stdout
     except subprocess.TimeoutExpired:
-        print("claude -p hung 20 min — retrying once with a fresh process",
+        print("claude -p hung 8 min — retrying once with a fresh process",
               file=sys.stderr)
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=1200).stdout
+        out = subprocess.run(cmd, capture_output=True, text=True, timeout=480).stdout
     obj = _extract_json(out)
     if obj is None:
         # Same transient family as the hang, different symptom: the CLI
@@ -1030,7 +1043,7 @@ def call_claude(prompt, schema=None, images=None, model=None):
         # issue #13). One fresh call, then give up.
         print(f"claude -p returned no JSON ({out[:120]!r}) — retrying once",
               file=sys.stderr)
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=1200).stdout
+        out = subprocess.run(cmd, capture_output=True, text=True, timeout=480).stdout
         obj = _extract_json(out)
     if obj is None:
         # RuntimeError, NOT SystemExit: callers with fail-open except-Exception
