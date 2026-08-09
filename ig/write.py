@@ -6,7 +6,7 @@ article text, asks Claude for the post JSON (daily_item container spec), runs
 the QA gate, then renders slides into posts/<date>-<slug>/.
 Uses the anthropic SDK if ANTHROPIC_API_KEY is set, else falls back to
 `claude -p` (Claude Code CLI) so it's testable with zero keys."""
-import json, os, re, subprocess, sys
+import json, os, re, subprocess, sys, time
 from datetime import date
 
 from fetch import get  # same dir; shared HTTP helper with UA
@@ -1032,8 +1032,15 @@ def call_claude(prompt, schema=None, images=None, model=None):
         # in 1-6 min; a hung call now costs 8 min, so the ladder survives.
         out = subprocess.run(cmd, capture_output=True, text=True, timeout=480).stdout
     except subprocess.TimeoutExpired:
-        print("claude -p hung 8 min — retrying once with a fresh process",
-              file=sys.stderr)
+        # PATIENT retry (Aug 9, runs 31316462087/31321864032: hangs come from
+        # plan SATURATION — the owner's interactive sessions share the same
+        # subscription — so an instant retry re-hangs almost every time, while
+        # calls a while later succeed). Wait 10 min for the blip to pass,
+        # then one fresh attempt. Worst case per call: 8+10+8=26 min, so a
+        # 3-rung ladder still fits the 90-min job ceiling.
+        print("claude -p hung 8 min (plan saturated?) — waiting 10 min, then "
+              "retrying once with a fresh process", file=sys.stderr)
+        time.sleep(600)
         out = subprocess.run(cmd, capture_output=True, text=True, timeout=480).stdout
     obj = _extract_json(out)
     if obj is None:
