@@ -1,0 +1,99 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "BUSINESS CONSULTANTS CHARGE $150 AN HOUR FOR THESE 6 PROMPTS, <em>CLAUDE BUILDS EVERY ONE FREE IN MINUTES</em>",
+   "kicker": "SAVE ALL 6",
+   "hsize": 70,
+   "media": "posts/2026-08-09-edu-6-ai-prompts-that-systemize-your-busines/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>WRITE AN SOP</em> FOR ANY TASK IN YOUR BUSINESS",
+   "body": "Business process consultants charge <b>$150 an hour</b> to document this. Claude does it in 4 minutes:\n\n\"[Task]: Write an SOP for a new hire. Include what to do if something goes wrong.\"",
+   "hsize": 100,
+   "media": "posts/2026-08-09-edu-6-ai-prompts-that-systemize-your-busines/gen-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "2) TURN YOUR <em>TEAM'S QUESTIONS INTO A TRAINING GUIDE</em>",
+   "body": "Every question your team still asks you is a missing system. This prompt fixes that:\n\n\"Here are the 10 questions my team asks me most: [list them]. Write a training guide answering every one.\"",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD <em>A HIRING SCORECARD</em> THAT FILTERS OUT BAD HIRES",
+   "body": "The <b>U.S. Department of Labor</b> puts a bad hire at <b>30%</b> of first-year salary, <b>$15,000</b> on a <b>$50,000</b> role:\n\n\"Hire a [role]. Build a 10-question scorecard with strong and red-flag answers.\"",
+   "hsize": 95,
+   "media": "posts/2026-08-09-edu-6-ai-prompts-that-systemize-your-busines/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "4) DELEGATE A WHOLE JOB <em>WITHOUT LOSING CONTROL</em>",
+   "body": "Most owners never delegate because explaining it takes longer than doing it. Use this prompt:\n\n\"I want to delegate [task]. List every decision they need to make and the rule to follow each time.\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD YOUR <em>WHOLE CLIENT ONBOARDING</em> IN ONE SESSION",
+   "body": "If the owner must touch every new client, the business cannot grow. This prompt removes that:\n\n\"After a client signs: [walk through each step]. Turn this into a checklist any team member can follow.\"",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) FIND YOUR BUSINESS'S <em>SINGLE POINTS OF FAILURE</em>",
+   "body": "Most owners only learn their business is fragile on vacation. Map it first:\n\n\"[Business type], [X] employees. List every process that breaks if I disappear for 30 days. Rate the damage 1 to 10.\"",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE <em>THIS</em>",
+   "body": "You will want these prompts the next time you are buried in work and cannot see a way out. Daily AI news and real skills for business owners. That is all we post.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6. Each prompt hands one part of your business to AI so it runs without you. \ud83d\udee0\ufe0f\n\nWrite an SOP for any task in 4 minutes, turn your team's top questions into a permanent training guide, build a hiring scorecard that catches bad candidates before the interview ends, delegate a whole job with one rulebook so you are never asked twice, build your entire client onboarding in one session, find every process that collapses without you.\n\nThe business owners winning with AI right now are not using it to write emails. They are using it to build systems that run without them. That shift is happening whether you are in it or not. Running a business? DM us 'AI' and we will show you what this could do for yours.\n\nSources: U.S. Department of Labor, Anthropic\n\n#AItools #BusinessOwner #Entrepreneur #WorkSmart #ChatGPT",
+ "pinned_comment": "Which one are you trying tonight? Slide 4 is the one most owners skip because it sounds obvious. It is not. It is the one that actually gives you your time back.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>THAT SYSTEMIZE</em> YOUR BUSINESS IN ONE AFTERNOON",
+   "6 <em>PROMPTS CONSULTANTS</em> CHARGE $20,000 TO BUILD FOR YOU",
+   "6 <em>BUSINESS PROMPTS</em> MOST OWNERS ONLY FIND TOO LATE",
+   "6 <em>AI PROMPTS</em> THAT BUILD YOUR WHOLE BUSINESS SYSTEM TONIGHT",
+   "6 AI PROMPTS <em>THAT LET YOUR BUSINESS RUN WITHOUT YOU</em>"
+  ],
+  "scores": [
+   4,
+   7,
+   5,
+   7,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] promises the actual outcome you want\u2014business running without you\u2014while [3] just sells urgency with 'tonight.' [4] creates real 'wait, how?' curiosity instead of salesy pressure."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>THAT LET YOUR BUSINESS RUN WITHOUT YOU</em>",
+   "6 PROMPTS <em>THAT DO YOUR ENTIRE OPERATIONS TEAM'S JOB</em>",
+   "6 FREE PROMPTS <em>MOST BUSINESSES PAY CONSULTANTS TO BUILD</em>",
+   "6 PROMPTS <em>THAT EXPOSE YOUR BUSINESS'S HIDDEN WEAKNESSES</em>"
+  ],
+  "scores": [
+   4,
+   6,
+   8,
+   4
+  ],
+  "winner": 2,
+  "why": "It tells you why you'd actually care (free things consultants charge for) instead of just making a wild claim that sounds too good to be true. You'd swipe to see the details of a story that makes sense, not to figure out if something impossible is real."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}
