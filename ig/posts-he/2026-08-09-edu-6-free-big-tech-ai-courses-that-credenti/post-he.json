@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שש חברות הייטק ענקיות פתחו את הכשרות ה-AI שלהן לכולם</em> וזה בחינם לגמרי.",
+   "kicker": "תגמרו אחד בסוף השבוע",
+   "hsize": 70,
+   "face": [
+    "Sundar Pichai"
+   ],
+   "media": "posts/2026-08-09-edu-6-free-big-tech-ai-courses-that-credenti/gen-0-r.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>Google פתחה את הקורס שלה</em> לכולם",
+   "hsize": 98,
+   "body": "הקורס נמשך <b>25 שעות</b>, מסביר איך AI לומד מנתונים, ובסוף מקבלים תעודה שאפשר להוסיף ל-LinkedIn. נכנסים ל-<b>developers.google.com/machine-learning/crash-course</b> ובוחרים את מסלול ה-Foundational",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>הקורסים החינמיים של Andrew Ng</em> נבנו עם Anthropic ו-Google",
+   "hsize": 88,
+   "body": "הפלטפורמה שלו ב-<b>learn.deeplearning.ai</b> כוללת קורסים חינמיים שנבנו עם Anthropic, Google ו-OpenAI, כל אחד בין <b>שעה לארבע שעות</b>. הקורס של Anthropic מראה איך להשתמש ב-Claude למשימות עסקיות אמיתיות תוך אחר צהריים אחד",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>Amazon מלמדת את ה-AI</em> שהעסק שלכם כבר רץ עליו",
+   "hsize": 90,
+   "body": "ב-AWS Skill Builder יש תוכנית לימוד חינמית ל-Generative AI שמראה איך להשתמש בכלים האלה במקום פשוט לשלם עליהם. נכנסים ל-<b>explore.skillbuilder.aws</b>, פותחים חשבון חינמי ומחפשים <b>Generative AI</b>",
+   "media": "posts/2026-08-09-edu-6-free-big-tech-ai-courses-that-credenti/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>IBM אימנה עובדים</em> ביותר מ-90 מדינות בחינם",
+   "hsize": 96,
+   "body": "הקורס AI Fundamentals מסתיים בתג דיגיטלי שמופיע בחיפושי גיוס ארגוניים, ולוקח <b>שמונה שעות</b>. נכנסים ל-<b>skillsbuild.org</b> ומחפשים <b>AI Fundamentals</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>Meta מלמדת את ה-AI</em> שמריץ את מערכת הפרסום שלה בחינם",
+   "hsize": 90,
+   "body": "Blueprint היא תוכנית הכשרה חינמית של Meta שמלמדת אתכם לשלוט בהחלטות האלה בעצמכם. הקורסים נמשכים <b>בין שעה לשלוש שעות</b> וחלק כוללים תעודות דיגיטליות. מתחילים ב-<b>facebookblueprint.com</b>",
+   "media": "posts/2026-08-09-edu-6-free-big-tech-ai-courses-that-credenti/gen-5.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>Kaggle נותנת תעודות חינמיות</em> ליותר מעשרה מיליון משתמשים",
+   "hsize": 88,
+   "body": "מדור ה-Learn החינמי שלהם מכסה Python, למידת מכונה ו-AI מרמת מתחיל ועד מתקדם, עם תעודה בסוף כל קורס. נכנסים ל-<b>kaggle.com/learn</b> ומתחילים עם <b>Intro to Machine Learning</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה.</em> תחזרו אליו.",
+   "hsize": 90,
+   "body": "כל השישה בחינם, כולם נגמרים תוך סוף שבוע לכל היותר, וכולם מגיעים מחברות שמגייסות הכי הרבה AI עכשיו. חדשות AI וכלים יומיומיים: זה מה שאנחנו מפרסמים כאן",
+   "media": null
+  }
+ ],
+ "caption": "עברו על כל השישה. אלה הקורסים החינמיים של חברות הייטק ענקיות שבאמת משפיעים על החלטות גיוס עכשיו. 🎓\n\nGoogle Machine Learning Crash Course ב-developers.google.com/machine-learning/crash-course, קורסי Andrew Ng ב-learn.deeplearning.ai שנבנו עם Anthropic ו-Google, AWS Skill Builder Generative AI Learning Plan ב-explore.skillbuilder.aws, תג IBM SkillsBuild AI Fundamentals ב-skillsbuild.org, קורסי Meta Blueprint ב-facebookblueprint.com, תעודות Kaggle Learn ב-kaggle.com/learn.\n\nידע AI מופיע בתיאורי משרות עכשיו בדיוק כמו שהיה Excel ב-2010. הקורסים האלה חינמיים כי חברות הענק מתחרות להכשיר את השוק שהן מוכרות לו. החלון הזה פתוח עכשיו.\n\nמנהלים עסק? שלחו לנו 'AI' בהודעה ונראה לכם מה אפשר לעשות איתו.\n\nמקורות: Google, DeepLearning.AI, Amazon Web Services, IBM, Meta, Kaggle\n\nעקבו אחרי @ainews.israel לחדשות AI כל יום\n\n#AI #ArtificialIntelligence #AISkills #LearnAI #FreeEducation",
+ "pinned_comment": "על איזה מהם אתם מתחילים בסוף השבוע? תג ה-IBM SkillsBuild בשקופית החמישית הוא מה שרוב האנשים מדלגים עליו, אבל מגייסים ארגוניים מחפשים אותו ספציפית.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>BIG TECH IS GIVING AWAY</em> 6 AI COURSES FOR FREE",
+   "<em>THESE 6 FREE AI COURSES</em> COMPANIES CHARGE $3,000 FOR",
+   "<em>THE FREE AI CREDENTIALS</em> HIRING MANAGERS ALREADY LOOK FOR",
+   "<em>BIG TECH BUILT THESE FOR ITS OWN STAFF.</em> YOU CAN TAKE THEM FREE."
+  ],
+  "scores": [
+   6,
+   7,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "The insider angle creates a question that stops the scroll—why are Big Tech's internal staff courses free to me?—while [1]'s price comparison just confirms what you already expect. That curiosity gap hits harder than another generic deal post."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 FREE AI COURSES</em> FROM GOOGLE, META, AND IBM THAT BEAT MOST PAID PROGRAMS",
+   "<em>BIG TECH BUILT THESE FOR ITS OWN STAFF.</em> YOU CAN TAKE THEM FREE.",
+   "<em>GOOGLE OPENED ITS ENGINEER TRAINING TO EVERYONE.</em> 6 COURSES. ALL FREE."
+  ],
+  "scores": [
+   8,
+   6,
+   8.5
+  ],
+  "winner": 2,
+  "why": "[2] hooks with specific action (Google opened training) and concrete detail (engineer training) in a punchy three-line format that feels like news. [0] spreads impact across three companies but the 'beat paid programs' claim sounds slightly salesy rather than credible."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "TRUTH §5 — hook claims 'SIX BIG TECH COMPANIES' but slide 2 is Andrew Ng's DeepLearning.AI, which is an education startup, not a big tech company. The courses were built *with* Anthropic and Google, but the platform itself is not big tech. A reader who swipes to slide 2 and sees an education startup is misled by the cover's framing. Fix: change 'SIX BIG TECH COMPANIES' to 'SIX TOP AI COMPANIES' or"
+}
