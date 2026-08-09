@@ -1020,5 +1020,124 @@
   "subject": "<em>6 FULL-TIME BUSINESS JOBS</em> AI NOW DOES OVERNIGHT FOR $20/MONTH",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-08T23:30:00Z",
+  "gate": "A",
+  "subject": "BREAKING: Berkshire Hathaway has begun deploying the $397.4 billion cash pile that Warren Buffett accumulated for 14 con",
+  "verdict": "KILL",
+  "reason": "This is routine financial news about quarterly capital allocation—exactly the 'market wraps, analyst targets, launch previews, recap roundups' category explicitly banned in STORY LAW—not a jaw-dropping viral-specific event a 16-year-old would DM a friend."
+ },
+ {
+  "t": "2026-08-08T23:30:30Z",
+  "gate": "A",
+  "subject": "The Starship in both clips is the exact same spacecraft. Once racing through space at around 26,500 km/h, it is now floa",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no dates, context, or consequence — source is a single fact (Starship splashed) stated twice for effect, with nothing behind it to build slides from; writer would have to pad significantly with external research to fill a carousel."
+ },
+ {
+  "t": "2026-08-08T23:30:51Z",
+  "gate": "A",
+  "subject": "Why does Twitch have this double-standard?",
+  "verdict": "KILL",
+  "reason": "Textbook reaction-bait with zero substance: a screenshot of Elon's unanswered question and its engagement metrics, with no facts, consequence, or story to build slides from."
+ },
+ {
+  "t": "2026-08-08T23:31:28Z",
+  "gate": "A",
+  "subject": "https://t.co/fosLc0KtcA",
+  "verdict": "KILL",
+  "reason": "Scout interest of 1/10 with only a URL link provided; no substantive story details given to evaluate—appears to be a thin single-tweet source with no real-world consequence or second fact."
+ },
+ {
+  "t": "2026-08-08T23:31:51Z",
+  "gate": "A",
+  "subject": "When the photographer tried to record a family of Egyptian geese living in a London park, pigeons and squirrels started ",
+  "verdict": "KILL",
+  "reason": "Single thin tweet with zero real consequence or substance; pure nature decoration off-brand for a tech account, fails story law."
+ },
+ {
+  "t": "2026-08-08T23:32:33Z",
+  "gate": "A",
+  "subject": "This is absolutely incredible. Corporate America is currently on pace for the biggest earnings beat EVER recorded. S&P 5",
+  "verdict": "KILL",
+  "reason": "Analyst commentary on aggregate market metrics with no specific event or person—this is the 'market wraps, stocks-rose-today' commodity content explicitly banned under ON-TOPIC BUT ROUTINE."
+ },
+ {
+  "t": "2026-08-08T23:32:52Z",
+  "gate": "A",
+  "subject": "If this turns out to be true, the situation is much worse than expected. According to pathfounders, Demis Hassabis actua",
+  "verdict": "KILL",
+  "reason": "Unverified rumor with zero documented real-world consequence—no departure, no official statement, no traceable evidence; source tweet admits speculation ('if this turns out to be true'); pure reaction-bait to internal gossip, not a story."
+ },
+ {
+  "t": "2026-08-08T23:33:13Z",
+  "gate": "A",
+  "subject": "Gregory when told I was leaving the country",
+  "verdict": "KILL",
+  "reason": "One thin tweet with zero facts, numbers, or consequences — the writer would need to fabricate the entire story."
+ },
+ {
+  "t": "2026-08-08T23:33:38Z",
+  "gate": "A",
+  "subject": "If only this was real and not AI 😂 Writer: Ian",
+  "verdict": "KILL",
+  "reason": "Instant kill: NO SUBSTANCE — the source is a single cryptic tweet with zero facts, zero numbers, zero consequence, and an unknown actor; the writer would have to entirely invent the carousel, and scout interest at 2/10 confirms this candidate has no story."
+ },
+ {
+  "t": "2026-08-08T23:33:56Z",
+  "gate": "A",
+  "subject": "This is not sci-fi.",
+  "verdict": "KILL",
+  "reason": "INSTANT KILL — NO SUBSTANCE: the entire source is a single cryptic phrase with zero facts, numbers, consequences, or second fact; the writer has nothing but air to build slides from."
+ },
+ {
+  "t": "2026-08-08T23:34:21Z",
+  "gate": "A",
+  "subject": "These are mosquitoes trapped in a spider web Remember to be kind to your friendly neighborhood web slingers",
+  "verdict": "KILL",
+  "reason": "Instant kill on 'no substance': single thin tweet with zero facts, numbers, or real-world consequence; off-brand nature photo requiring complete fabrication to fill a carousel."
+ },
+ {
+  "t": "2026-08-08T23:34:53Z",
+  "gate": "A",
+  "subject": "A newborn turtle touches the sea for the first time",
+  "verdict": "KILL",
+  "reason": "No substance: the entire source is 51 characters with no second fact, no numbers, and no consequence to build slides from."
+ },
+ {
+  "t": "2026-08-08T23:35:13Z",
+  "gate": "A",
+  "subject": "These are just a few of the reasons people were fired from their jobs, according to the Chicago Tribune on October 15, 1",
+  "verdict": "KILL",
+  "reason": "No substance: single thin tweet (124 chars) with zero facts, numbers, or real-world consequence—writer would pad to fill a carousel, violating the instant-kill rule."
+ },
+ {
+  "t": "2026-08-08T23:35:52Z",
+  "gate": "A",
+  "subject": "Basque is considered a language isolate, meaning it has no known linguistic relatives anywhere in the world. It is the o",
+  "verdict": "KILL",
+  "reason": "No viral-specific event: this is a static historical fact about language properties, not a story with a real-world happening or consequence."
+ },
+ {
+  "t": "2026-08-08T23:36:16Z",
+  "gate": "A",
+  "subject": "This girl was abused over her clothing and makeup by another woman, who demanded she cover her face. Pretty easy to see ",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: an unverified personal incident with no named actors, no real-world consequence, and no reportable event—the entire framing is cultural engagement bait, not a story."
+ },
+ {
+  "t": "2026-08-09T00:24:21Z",
+  "gate": "B",
+  "subject": "<em>GOOGLE OPENED ITS ENGINEER TRAINING TO EVERYONE.</em> 6 COURSES. ALL FREE.",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE (§3): The image — Sundar Pichai at a Google-branded market stall handing out Google-logoed materials — tells a stranger 'Google is giving something away,' not '6 big tech companies opened their AI training free.' Five of the six courses are from other companies (Andrew Ng/Anthropic, Amazon, IBM, Meta, Kaggle); the cover misrepresents the post as a Google story. An Aug 4 Gate B rejectio"
+ },
+ {
+  "t": "2026-08-09T00:27:27Z",
+  "gate": "B",
+  "subject": "<em>SIX BIG TECH COMPANIES OPENED THEIR OWN AI ENGINEER TRAINING TO THE PUBLIC</em> AND ALL OF IT IS FREE.",
+  "verdict": "REJECT",
+  "reason": "TRUTH §5 — hook claims 'SIX BIG TECH COMPANIES' but slide 2 is Andrew Ng's DeepLearning.AI, which is an education startup, not a big tech company. The courses were built *with* Anthropic and Google, but the platform itself is not big tech. A reader who swipes to slide 2 and sees an education startup is misled by the cover's framing. Fix: change 'SIX BIG TECH COMPANIES' to 'SIX TOP AI COMPANIES' or"
  }
 ]

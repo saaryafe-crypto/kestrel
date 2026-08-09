@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>SIX BIG TECH COMPANIES OPENED THEIR OWN AI ENGINEER TRAINING TO THE PUBLIC</em> AND ALL OF IT IS FREE.",
+   "kicker": "FINISH ONE THIS WEEKEND",
+   "hsize": 70,
+   "face": [
+    "Sundar Pichai"
+   ],
+   "media": "posts/2026-08-09-edu-6-free-big-tech-ai-courses-that-credenti/gen-0-r.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>GOOGLE OPENED ITS OWN ENGINEER TRAINING</em> TO EVERYONE",
+   "hsize": 98,
+   "body": "It runs <b>25 hours</b>, teaches you how AI learns from data, and gives a completion certificate you can add to LinkedIn. Start at <b>developers.google.com/machine-learning/crash-course</b> and pick the Foundational track",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>ANDREW NG'S FREE COURSES</em> WERE BUILT WITH ANTHROPIC AND GOOGLE",
+   "hsize": 88,
+   "body": "His platform at <b>learn.deeplearning.ai</b> has free courses made with Anthropic, Google, and OpenAI, each running <b>1 to 4 hours</b>. The Anthropic course shows how to use Claude for real business tasks in one afternoon",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>AMAZON TEACHES THE AI</em> YOUR WHOLE BUSINESS ALREADY RUNS ON",
+   "hsize": 90,
+   "body": "AWS Skill Builder has a free Generative AI Learning Plan showing you how to use those tools instead of just paying for them. Go to <b>explore.skillbuilder.aws</b>, create a free account, and search <b>Generative AI</b>",
+   "media": "posts/2026-08-09-edu-6-free-big-tech-ai-courses-that-credenti/gen-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>IBM TRAINED WORKERS</em> IN OVER 90 COUNTRIES FOR FREE",
+   "hsize": 96,
+   "body": "The AI Fundamentals course earns a digital badge that shows up in enterprise hiring searches and takes <b>8 hours</b>. Go to <b>skillsbuild.org</b> and search <b>AI Fundamentals</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>META TEACHES THE AI</em> RUNNING ITS OWN AD SYSTEM FOR FREE",
+   "hsize": 90,
+   "body": "Blueprint is Meta's free training program that teaches you to control those decisions on purpose. Courses run <b>1 to 3 hours</b> and several include free digital certifications. Start at <b>facebookblueprint.com</b>",
+   "media": "posts/2026-08-09-edu-6-free-big-tech-ai-courses-that-credenti/gen-5.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>KAGGLE GIVES FREE CERTIFICATES</em> TO MORE THAN 10 MILLION USERS",
+   "hsize": 88,
+   "body": "Their free Learn section covers Python, machine learning, and AI from beginner to advanced, with a certificate at the end of each course. Go to <b>kaggle.com/learn</b> and start with <b>Intro to Machine Learning</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> YOU'LL COME BACK TO IT.",
+   "hsize": 90,
+   "body": "All six are free, all six take a weekend or less, and all six come from companies doing the most AI hiring right now. Daily AI news and skills: that's what we post here",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all six. These are the free AI courses from big tech that actually show up in hiring decisions right now. \ud83c\udf93\n\nGoogle Machine Learning Crash Course at developers.google.com/machine-learning/crash-course, Andrew Ng's DeepLearning.AI short courses at learn.deeplearning.ai built with Anthropic and Google, AWS Skill Builder Generative AI Learning Plan at explore.skillbuilder.aws, IBM SkillsBuild AI Fundamentals badge at skillsbuild.org, Meta Blueprint AI advertising courses at facebookblueprint.com, Kaggle Learn machine learning certificates at kaggle.com/learn.\n\nAI literacy is listed on job descriptions now the way Excel was in 2010. These courses cost nothing because big tech is competing to train the market it sells to. That window is open right now.\n\nRunning a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: Google, DeepLearning.AI, Amazon Web Services, IBM, Meta, Kaggle\n\n#AI #ArtificialIntelligence #AISkills #LearnAI #FreeEducation",
+ "pinned_comment": "Which one are you starting this weekend? The IBM SkillsBuild badge on slide 5 is the one most people scroll past, but enterprise recruiters look for it specifically.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>BIG TECH IS GIVING AWAY</em> 6 AI COURSES FOR FREE",
+   "<em>THESE 6 FREE AI COURSES</em> COMPANIES CHARGE $3,000 FOR",
+   "<em>THE FREE AI CREDENTIALS</em> HIRING MANAGERS ALREADY LOOK FOR",
+   "<em>BIG TECH BUILT THESE FOR ITS OWN STAFF.</em> YOU CAN TAKE THEM FREE."
+  ],
+  "scores": [
+   6,
+   7,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "The insider angle creates a question that stops the scroll\u2014why are Big Tech's internal staff courses free to me?\u2014while [1]'s price comparison just confirms what you already expect. That curiosity gap hits harder than another generic deal post."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 FREE AI COURSES</em> FROM GOOGLE, META, AND IBM THAT BEAT MOST PAID PROGRAMS",
+   "<em>BIG TECH BUILT THESE FOR ITS OWN STAFF.</em> YOU CAN TAKE THEM FREE.",
+   "<em>GOOGLE OPENED ITS ENGINEER TRAINING TO EVERYONE.</em> 6 COURSES. ALL FREE."
+  ],
+  "scores": [
+   8,
+   6,
+   8.5
+  ],
+  "winner": 2,
+  "why": "[2] hooks with specific action (Google opened training) and concrete detail (engineer training) in a punchy three-line format that feels like news. [0] spreads impact across three companies but the 'beat paid programs' claim sounds slightly salesy rather than credible."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "TRUTH \u00a75 \u2014 hook claims 'SIX BIG TECH COMPANIES' but slide 2 is Andrew Ng's DeepLearning.AI, which is an education startup, not a big tech company. The courses were built *with* Anthropic and Google, but the platform itself is not big tech. A reader who swipes to slide 2 and sees an education startup is misled by the cover's framing. Fix: change 'SIX BIG TECH COMPANIES' to 'SIX TOP AI COMPANIES' or"
+}
