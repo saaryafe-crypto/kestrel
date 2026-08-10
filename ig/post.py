@@ -133,9 +133,21 @@ def send(payload):
     # Once the Make scenario ends with a "Webhook response" module, this reply
     # arrives AFTER the IG publish and carries its real result. Non-2xx raises
     # (workflow fails -> alert issue); an error-ish body fails the same way.
-    with urllib.request.urlopen(req, timeout=300) as r:
-        body = r.read().decode()
-        print("webhook response:", body[:300])
+    try:
+        with urllib.request.urlopen(req, timeout=300) as r:
+            body = r.read().decode()
+            print("webhook response:", body[:300])
+    except urllib.error.HTTPError as e:
+        # Make's error branch answers 500 with the REAL Instagram error in
+        # the body ("Error: IG carousel publish failed: <message>"). The Aug
+        # 10 16:31 failure died as a bare "HTTP Error 500" because urllib
+        # discards the body on raise — surface it or we debug blind.
+        detail = ""
+        try:
+            detail = e.read().decode()[:500]
+        except Exception:
+            pass
+        raise SystemExit(f"Make webhook HTTP {e.code}: {detail or e.reason}")
     if re.search(r"error|exception|invalid|denied", body, re.I):
         raise SystemExit(f"Make reported a publish error: {body[:500]}")
 
