@@ -1,0 +1,107 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "7 AI STEPS THAT FINALLY LET YOU <em>DITCH YOUR RESUME FOR GOOD</em>",
+   "kicker": "MOST PEOPLE HAVE DONE ZERO OF THESE",
+   "hsize": 72,
+   "face": [],
+   "media": "posts/2026-08-10-edu-7-career-ai-steps-from-alexfinn-viral-gu/gen-0.jpg",
+   "image_prompt": "Hands holding a resume-formatted page mid-flame, orange fire catching the corner from a lighter below, near-black background, a glowing electric-blue laptop screen reflecting on the dark surface behind. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: orange flame against near-black."
+  },
+  {
+   "type": "content",
+   "headline": "1) DOWNLOAD CODEX AND <em>SHIP YOUR FIRST APP</em>",
+   "hsize": 92,
+   "body": "<b>Codex</b> takes a plain-English description and builds a working app: front end in <b>NextJS</b>, database in <b>Convex</b>, zero code from you. Six weeks of developer work can ship tonight",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) LET HERMES AGENT <em>PLAN YOUR WHOLE STRATEGY</em>",
+   "hsize": 88,
+   "body": "Use <b>Claude</b> and tell it everything: your career, your goals, what you're trying to build. Then ask it: <b>'What workflows can you run right now to get me closer to this?'</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD A <em>MISSION CONTROL</em> THAT RUNS YOUR LIFE",
+   "hsize": 84,
+   "body": "Build automations one at a time using <b>Hermes</b>. Over weeks this becomes your <b>Mission Control</b>: a custom system that runs your operation while you sleep",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) GET CLAUDE MAX AND <em>HIT THE RATE LIMIT</em> WEEKLY",
+   "hsize": 80,
+   "body": "Get the <b>Claude Max plan</b> and feed it your hardest problems, not your easy questions. The people out-thinking and out-producing everyone around them right now are burning every token they pay for",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) STAY ABOVE <em>50% ON EVERY AI PLAN</em> YOU OWN",
+   "hsize": 90,
+   "body": "Check your usage across every AI plan you pay for. If anything is below <b>50%</b>, you're barely using what you have",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) MASTER <em>CLAUDE CODE AND CODEX</em> SIDE BY SIDE",
+   "hsize": 88,
+   "body": "<b>Claude Code</b> for planning: describe what you're building and it maps the whole architecture. <b>Codex</b> for execution: hand it a task and it writes the code",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) BUILD YOUR PLATFORM. <em>RESUMES DON'T MATTER ANYMORE.</em>",
+   "hsize": 80,
+   "body": "Companies have mostly stopped reading resumes. They check your <b>platform</b>: what you build in public, who follows you, what you talk about",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 110,
+   "body": "You'll want these when you start. Save this post. Daily AI news and real skills, that's all we post",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 7. Most people have done zero of these steps and it's going to cost them. \ud83e\udde9\n\nDownload Codex and build your first app in plain English, use Hermes agent to reverse-prompt your whole strategy, build a Mission Control that automates your daily tasks, get Claude Max and hit its rate limit every week, stay above 50 percent usage on every AI plan you own, master Claude Code and Codex side by side, and start building a platform because resumes don't get read anymore.\n\nEvery white-collar job now has a version of itself that can be done faster by someone using these seven steps. Most people haven't started any of them. The window is still open.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: AlexFinn\n\n#AI #AITools #FutureOfWork #CareerGrowth #ClaudeCode",
+ "pinned_comment": "Which step are you furthest behind on? Most people skip step 2 entirely and it's the one that changes how you use AI. That one alone is worth the save.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>7 AI STEPS</em> BEFORE YOU GET LEFT BEHIND",
+   "<em>SKIPPING THESE 7 AI STEPS</em> IS CAREER SUICIDE",
+   "7 STEPS TO <em>OUT-SHIP ANYONE</em> USING AI",
+   "THE 7 AI STEPS <em>THAT MAKE YOU UNFIREABLE</em>",
+   "7 AI STEPS <em>BEFORE YOU GET REPLACED</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   5,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "\"Before you get replaced\" hits the specific, visceral fear living in everyone's head in 2026\u2014AI taking your job\u2014and \"before\" creates urgent time-pressure. [1]'s \"career suicide\" is harsh language but stays abstract; [4] is concrete, timely, and stops you cold."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "7 AI STEPS <em>BEFORE YOU GET REPLACED</em>",
+   "7 AI STEPS TO SHIP AN APP <em>AND DITCH YOUR RESUME</em>",
+   "RESUMES <em>DON'T MATTER ANYMORE</em>. THESE 7 AI SKILLS DO."
+  ],
+  "scores": [
+   7,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "'DITCH YOUR RESUME' is specific and funny enough to make you actually curious, while [0]'s threat feels corporate and [2]'s declaration feels like every other LinkedIn post. You'd stop to see proof someone shipped an app in 7 steps, not to hear warnings or generic advice."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}
