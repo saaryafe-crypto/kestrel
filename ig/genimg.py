@@ -27,13 +27,14 @@ from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 USED = os.path.join(HERE, "genimg-used.json")
-# owner cap is the MONTH number ($15 since Aug 2, gpt-image-2 person covers)
-MONTH_BUDGET, DAY_BUDGET = 15.00, 0.30
+# owner cap is the MONTH number ($45 since Aug 10 — owner order "every cover
+# post to be chatgpt from replicate": 6 gpt covers/day is ~$31/mo + inner)
+MONTH_BUDGET, DAY_BUDGET = 45.00, 0.60
 # Covers get their own, higher daily ceiling (cover-first doctrine, Aug 1):
 # inner-slide spend stops at DAY_BUDGET so there is always headroom left for
-# every remaining post's cover. Raised Aug 2: a high-quality person cover is
-# $0.17, so 3 person covers + Seedream retries must fit.
-COVER_DAY_BUDGET = 0.80
+# every remaining post's cover. Raised Aug 10: ALL covers now route to
+# gpt-image ($0.17 high), 6/day + retry headroom must fit.
+COVER_DAY_BUDGET = 1.20
 COST = 0.03  # Seedream: flat per output image, any size
 URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 # gpt-image-2 (person route): token-billed by OpenAI; measured ~$0.165/high and
@@ -172,14 +173,25 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
     # spend (issue #18: total-vs-inner-cap comparison broke afternoon posts).
     day = day_cover if cover else day_inner
     day_cap = COVER_DAY_BUDGET if cover else DAY_BUDGET
-    # person route (Aug 2): high quality on covers, medium inside — owner pick
+    # person route (Aug 2): high quality on covers, medium inside — owner pick.
+    # Aug 10 owner order: EVERY cover renders on gpt-image ("chatgpt from
+    # replicate") — its prompt adherence is what makes concept covers land on
+    # screen; Seedream survives as the inner-slide model + cover fallback rung.
     quality = "high" if cover else "medium"
-    cost = GPT_COST[quality] if person else COST
+    use_gpt = person or cover
+    cost = GPT_COST[quality] if use_gpt else COST
     if month + cost > MONTH_BUDGET or day + cost > day_cap:
-        print(f"genimg budget out (month ${month:.2f}, today ${day:.2f}, "
-              f"{'cover' if cover else 'inner'} cap ${day_cap:.2f}) — skipping",
-              file=sys.stderr)
-        return None
+        if (use_gpt and not person and month + COST <= MONTH_BUDGET
+                and day + COST <= day_cap):
+            # a Seedream cover beats no cover (always-post): degrade, log it
+            use_gpt, cost = False, COST
+            print("genimg: gpt budget out — degrading cover to Seedream",
+                  file=sys.stderr)
+        else:
+            print(f"genimg budget out (month ${month:.2f}, today ${day:.2f}, "
+                  f"{'cover' if cover else 'inner'} cap ${day_cap:.2f}) — "
+                  "skipping", file=sys.stderr)
+            return None
     # Seedream-optimal 5-part structure (subject/action/setting come from the
     # brief; we append composition -> lighting -> lens -> style in that order —
     # the model's documented preference; full doctrine in inspiration/visual.md)
@@ -223,7 +235,7 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
                    "middle of the upper half; both upper corners of the frame "
                    "stay clear of the person — only background there.")
     live_refs = [r for r in (refs or []) if os.path.exists(r)]
-    if live_refs:
+    if live_refs and not use_gpt:
         # identity anchor (Aug 1, keypad post-mortem: from-scratch Altman and
         # an invented purple keypad both failed QA): the refs are REAL photos —
         # the model must copy them, not improvise variants
@@ -233,8 +245,15 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
                    "identity exactly identical to their reference photo. "
                    "Never invent a different-looking device or face.")
     try:
-        img = (_call_gpt(key, prompt, quality) if person
+        img = (_call_gpt(key, prompt, quality) if use_gpt
                else _call(key, prompt, refs=live_refs or None))
+        if not img and use_gpt and not person:
+            # gpt flaked on a no-name cover: Seedream can render the same
+            # brief safely (E005 only bites on real names) — always-post rung
+            print("genimg: gpt returned no image — retrying brief on Seedream",
+                  file=sys.stderr)
+            img = _call(key, prompt, refs=live_refs or None)
+            cost = COST
         if not img:
             # was silent — the Aug 2 bare-cover post-mortem couldn't see WHY
             print("genimg: model returned no image (failed/flagged prediction) "

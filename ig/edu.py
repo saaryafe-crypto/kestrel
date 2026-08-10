@@ -195,6 +195,14 @@ def main():
         print(f"viral X guides on the radar: "
               + ", ".join(f"@{g['sub']} ({g.get('score', 0):,} likes)"
                           for g in guides), file=sys.stderr)
+    else:
+        # owner Aug 10: an empty pool forcing a self-invented topic is
+        # UNACCEPTABLE — the wide guide net (radar_x) should keep guides.json
+        # deep. Ship the slot (always-post law) but scream so the daily
+        # report names it and the pool starvation gets fixed at the source.
+        print("WARNING: guide pool EMPTY — writer will self-invent a topic "
+              "(owner: unacceptable; check radar wide guide net / guides.json)",
+              file=sys.stderr)
     prompt = build_prompt(used, headlines, guides)
     # 2 rolls, not 3 (token diet Aug 8): the workflow ladder re-runs edu.py
     # fresh as its last rung anyway, so a third in-process roll is redundant.
@@ -265,6 +273,12 @@ def main():
         # with the names IN the prompt — no refs, no E005. Seedream + ref
         # photos (face_riders) survives as the fallback rung.
         face_field = s.pop("gen_face", None)
+        if not face_field and s.get("face"):
+            # owner audit Aug 10 (GPT-5 birthday cover): the WRITER cast a
+            # legal famous face but the art brief dropped it, so the cover
+            # silently went faceless — the writer's cast rides as fallback
+            wf = s["face"]
+            face_field = ", ".join(wf) if isinstance(wf, list) else wf
         person = bool(face_field)
         face_refs = []
         if not person:
@@ -283,6 +297,10 @@ def main():
         tries = 2 if s["type"] == "cover" else 1
         for attempt in range(tries):
             out_jpg = os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg")
+            # audit trail (owner Aug 10): every attempted brief is logged,
+            # the winning one is persisted into post.json
+            print(f"slide {i+1} brief (attempt {attempt+1}): {brief}",
+                  file=sys.stderr)
             path = None
             if person:
                 path = genimg.generate(brief, out_jpg,
@@ -301,9 +319,11 @@ def main():
                 # local no-ops so continue is safe either way
                 continue
             ok, score, flaw = image_score(path, s["headline"], generated=True,
-                                          person=person)
+                                          person=person,
+                                          cover=(s["type"] == "cover"))
             if ok:
                 s["media"] = os.path.relpath(path, HERE)
+                s["image_prompt"] = brief
                 gen += 1
                 break
             print(f"slide {i+1} image rejected (attempt {attempt+1}/{tries}, "
@@ -342,9 +362,10 @@ def main():
                                      cover=True)
                 if rp:
                     ok2, s2, _ = image_score(rp, cover0.get("headline", ""),
-                                             generated=True)
+                                             generated=True, cover=True)
                     if ok2:
                         cover0["media"] = os.path.relpath(rp, HERE)
+                        cover0["image_prompt"] = rb
                         post["cover_fallback"] = "no-face rescue"
                         print(f"EDU COVER rescued by the no-face rung "
                               f"({s2}/10)", file=sys.stderr)
@@ -353,6 +374,8 @@ def main():
                         score, best = max(pool, key=lambda t: t[0])
     if not cover0.get("media") and pool:
         cover0["media"] = os.path.relpath(best, HERE)
+        if cover_brief:
+            cover0["image_prompt"] = cover_brief
         post["cover_fallback"] = f"best-of-rejected ({score}/10)"
         print(f"EDU COVER: nothing passed QA — shipping the best reject "
               f"({os.path.basename(best)}, score {score}/10)", file=sys.stderr)
@@ -396,6 +419,8 @@ def main():
                   "is the ladder's last rung — shipping flagged for the daily "
                   "report: " + "; ".join(reasons), file=sys.stderr)
 
+    if not guides:  # flag rides in post.json so daily.py names the post
+        post["topic_source"] = "self-invented"
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)
     subprocess.run([sys.executable, os.path.join(HERE, "render.py"),
                     os.path.join(post_dir, "post.json"), post_dir], check=True)

@@ -209,7 +209,7 @@ IMG_QA_SCHEMA = {"type": "object",
                  "required": ["usable", "score"]}
 
 
-def image_score(path, headline, generated=False, person=False):
+def image_score(path, headline, generated=False, person=False, cover=False):
     """Vision judge for slide images. Returns (usable, score 0-10, flaw).
     usable = publish as-is; the score ranks sibling attempts (owner rule
     Jul 29: never generate forever — cap the spend and take the BEST of what
@@ -225,21 +225,24 @@ def image_score(path, headline, generated=False, person=False):
         'CLICK GATE (owner order Aug 3, GENERATED images only — a retry is cheap, wallpaper is not): the image alone must make a scroller feel they NEED to know what is happening — a caught moment, visible tension, peak emotion. A calm, posed, or neutral scene that raises no question = usable:false, flaw "no pull, nothing happening". '
         'BACKGROUND THUMB TEST (owner Aug 3, GENERATED images only): mentally cover the main subject with a thumb — the background alone should still hint what the story is about (its world, its stakes). A background that is an empty void, generic decoration, or a world that belongs to a DIFFERENT story than the headline = subtract points and name it as the flaw. '
         'REAL WORLD GATE (owner Aug 3, the Mario emoji-wall cover): the scene must be a plausible photographic world. A background built from floating emoji, cartoon icons, logos, or symbol wallpaper reads as cheap AI slop = usable:false, flaw "cartoon prop background". '
+        'MISREAD GATE (owner audit Aug 10, the coffin cover that read as leather violin cases): describe to yourself what each key prop ACTUALLY looks like at phone size, not what it was meant to be — if the scene\'s central symbolic object would be mistaken for something mundane, the concept FAILED on screen = usable:false, flaw names the misread ("coffins read as luggage"). A symbol only counts when it is UNMISTAKABLE in half a second. '
+        'STOCK-WALLPAPER GATE (owner Aug 10, the falling-money laptop cover): if the image could be sold as a generic stock photo for its topic — cash raining on a desk, anonymous hands typing, a glowing brain, abstract chart art — it stops nobody = usable:false, flaw "stock wallpaper". '
         if generated else "")
     try:
         r = call_claude(
             f'An AI-generated image is attached (if not attached to this message, use your Read tool on {path} to look at it). It would fill the photo band of an Instagram news slide with this headline: "{clean}". Judge it AT PHONE FEED SIZE — a flaw a follower cannot see at that size does not count against it. '
-            'SCORE against the scroll-stopper formula (each worth points): ONE dominant focal subject, brightest and sharpest thing in frame (no competing focal points); the image dramatizes THIS exact headline claim — moment, stakes or consequence visible in half a second (not generic topical art), and a deliberately STAGED SYMBOLIC scene that transmits the story\'s outcome in one look (a funeral for a discontinued product, a knockout between two brands, a famous logo cast in the story\'s role) COUNTS as dramatizing the claim — judge it on whether a stranger gets the story, not on literalness;THE PULL — the image alone makes you need to know what is happening (a caught moment, visible tension, peak emotion beats any calm posed scene); bright saturated colors with one punchy accent (not murky, not pastel, not white-dominant); if a person is central, the face is large and radiates one clear strong emotion; looks like a real press photo (texture, grain, candid light), not plastic AI art. '
+            'SCORE against the scroll-stopper formula (each worth points): ONE dominant focal subject, brightest and sharpest thing in frame (no competing focal points); the image dramatizes THIS exact headline claim — moment, stakes or consequence visible in half a second (not generic topical art), and a deliberately STAGED SYMBOLIC scene that transmits the story\'s outcome in one look (a funeral for a discontinued product, a knockout between two brands, a famous logo cast in the story\'s role) COUNTS as dramatizing the claim — judge it on whether a stranger gets the story, not on literalness. BUT (owner law Aug 10): a correct concept earns ZERO points by itself — you are grading the RENDERED PICTURE, and the bar is SHOCK FACTOR: put this next to the best viral tech pages\' covers and ask if a stranger would physically stop scrolling; a clever idea rendered as a quiet, dark, or ambiguous scene is a FAILURE;THE PULL — the image alone makes you need to know what is happening (a caught moment, visible tension, peak emotion beats any calm posed scene); bright saturated colors with one punchy accent (not murky, not pastel, not white-dominant); if a person is central, the face is large and radiates one clear strong emotion; looks like a real press photo (texture, grain, candid light), not plastic AI art. '
             + face_gate +
             'Score 0-10: 10 = a professional photo editor would run it AND it nails the formula; 7 = publishable; 4 = clearly flawed but recognizable and on-claim; 0 = unusable garbage. usable:true means publish as-is — set false for flaws a scrolling follower would actually notice: garbled text large enough to read, warped hands/faces, obvious AI plastic look, watermark, no connection to the claim, a dark/murky frame with no focal subject, or a SCREENSHOT of an app or social-media post (baked-in meme captions, interface elements like hearts, like counts, usernames, buttons — a screenshot is someone else\'s content and never our cover). flaw: the single biggest problem in 12 words or less (empty string if none). Return ONLY JSON: {{"usable": true/false, "score": 0-10, "flaw": "..."}}',
-            # person covers are judged on the WRITER model (owner audit Aug 10):
-            # Haiku cannot verify famous likenesses — it called a
-            # reference-level Altman render "unfamiliar generated face", so the
-            # $0.17 gpt cover shipped as best-reject. Sonnet IDs faces
-            # reliably; person covers are <=3/day so the upgrade costs a few
-            # vision calls, exactly where the image money is spent.
+            # person AND cover judging runs on the WRITER model (owner audit
+            # Aug 10): Haiku cannot verify famous likenesses (it called a
+            # reference-level Altman render "unfamiliar generated face") and it
+            # passed the coffins-as-luggage cover — it cannot make the holistic
+            # "would a stranger stop scrolling" call either. Covers are 6/day ×
+            # ≤2 attempts, so the upgrade costs a few vision calls exactly
+            # where the image money is spent. Inner slides stay on Haiku.
             schema=IMG_QA_SCHEMA, images=[path],
-            model=MODEL if person else CHEAP)
+            model=MODEL if (person or cover) else CHEAP)
         return bool(r.get("usable")), int(r.get("score", 0)), r.get("flaw", "")
     except Exception as e:
         print(f"genimg QA failed ({e}) — scoring 0", file=sys.stderr)
@@ -430,7 +433,7 @@ THINK CONCEPT FIRST, PROMPT SECOND (owner doctrine Aug 9 — COVER ONLY): before
 - CULTURE CAST (the Zendaya move — owner reference: Zendaya cast studying for a Gemini-exam story BECAUSE The Odyssey was viral that week): cast someone from the hot list below performing the story's action. Only when the fit is instant and natural — never force a celebrity into a story that isn't theirs.{culture_note}
 - LOGO AS HERO (fame-bar fallback, owner Aug 9): when the story's company is world-famous but NO person clears the famous-face bar, the famous LOGO itself becomes the staged scene's HERO, cast in the story's role — GitHub repos printing money → the golden Octocat on a throne of hundred-dollar stacks. Return "logo" so the real mark rides as reference; every human in that scene is faceless or absent.
 - Or the existing lanes below (the story's own absurd visual, ROLE-CAST, PRODUCT-HERO, CLASH-CAST, THE SITUATION PORTRAIT) when they are stronger. All craft rules, the fame bar, and the logo rules still apply to every lane.
-CAST TRUTH (owner post-mortem Aug 10, the Sam Altman content-vendor cover — a great Altman likeness on a "people are making a week of content" story he had NOTHING to do with): a named famous face is legal ONLY when that person or their company is an ACTOR in THIS story — named in the topic or headlines, or the story is about their product or their move. "The topic is AI" is NOT a connection: never cast a famous AI face (Altman, Musk, anyone) as decoration on a generic how-to / prompts / edu story that names no company. When only the TOOL is famous (ChatGPT, Claude, Gemini), the tool's LOGO AS HERO or an evidence-object scene with faceless humans carries the cover instead. CULTURE CAST is the one exception and only under its own rule: the fit must be instant and natural.
+CAST TRUTH (owner post-mortem Aug 10, the Sam Altman content-vendor cover — a great Altman likeness on a "people are making a week of content" story he had NOTHING to do with): a named famous face is legal ONLY when that person or their company is an ACTOR in THIS story — named in the topic or headlines, or the story is about their product or their move. "The topic is AI" is NOT a connection: never cast a famous AI face (Altman, Musk, anyone) as decoration on a generic how-to / prompts / edu story that names no company. When only the TOOL is famous (ChatGPT, Claude, Gemini), the tool's LOGO AS HERO or an evidence-object scene with faceless humans carries the cover instead. CULTURE CAST is the one exception and only under its own rule: the fit must be instant and natural. THE FLIP SIDE (owner audit Aug 10, the GPT-5 birthday cover that went faceless coffins while Altman was legal): when cast truth PASSES — the story IS a famous company's own product or move and its famous CEO qualifies on the fame bar — casting that face is the DEFAULT, and going faceless instead is the exception you must be able to justify; a legal famous face at peak emotion beats any object scene. If the writer already cast a legal face, keep it in your brief (recast the scene, not the person).
 ICONIC-MOMENT EXCEPTION (owner, Aug 10): on inspirational / entrepreneurial stories, a famous founder IS legal even when the news isn't about them — IF the scene is their KNOWN iconic real moment and that moment EMBODIES the title's exact meaning: young Mark Zuckerberg coding in his dorm room for a "built it from nothing overnight" promise, garage-era Jobs and Wozniak for a two-people-and-an-idea story. The test: a stranger instantly reads WHY this person in THIS scene proves THIS title. A famous face merely signaling "AI" or "tech" still fails cast truth.
 NO-FACE PLAYBOOK (owner order Aug 10 — cast truth is NOT a license for boring covers; a no-face cover goes just as big and provocative):
 - LOGO AS HERO is the default: the famous mark ACTING the story at theatrical scale — the Octocat mascot raking in poker chips, a giant glowing logo craned onto (or torn off) a building, the mark painted on a boxing-ring floor under falling confetti. The logo performs the verb; it never just sits there.
@@ -438,6 +441,8 @@ NO-FACE PLAYBOOK (owner order Aug 10 — cast truth is NOT a license for boring 
 - IMPOSSIBLE SCALE: the story's real object at absurd physical size in a real place — a server rack towering over a city intersection, a mountain of cash burying an office desk, a phone the size of a billboard being hauled by crane.
 - CAUGHT EVIDENCE: the forbidden backstage moment with objects only — a contract mid-signature shot over a faceless shoulder, a vault door ajar with the goods glowing inside, a wall of screens mid-crash in an empty room.
 Every no-face cover still passes THE STOP TEST; "objects" NEVER means a calm product shot — if the object isn't mid-action or at impossible scale, escalate the scene.
+
+THE MISREAD TEST (owner audit Aug 10 — the "7 coffins" cover rendered as seven leather violin cases in a dark shop and nobody could tell): before writing the brief, name what each symbolic prop could be MISTAKEN for at phone size, and write the context that makes it unmistakable INTO the brief. A coffin is only a coffin at a funeral — mourners, flowers, a grave, a hearse; a trophy needs a podium; a tombstone needs a cemetery. One unmistakable symbol with its full scene beats seven ambiguous ones in a void. And prefer a human REACTING in frame even in faceless scenes (a silhouetted mourner, hands gripping the coffin edge) — emotion is what stops thumbs; empty object arrangements read as furniture catalogs.
 
 THE STOP TEST (owner order Aug 3: every cover must be "controversial / eye-opening and make people want to click"): the cover scene must feel like a moment the viewer SHOULDN'T be seeing — caught, not posed. It passes only if it holds at least one of: (a) visible conflict or confrontation mid-happening, (b) one famous face at a PEAK raw emotion no press photo would ever show (devastation, fury, panic — not a composed press smile), (c) something mid-going-wrong (mid-fall, mid-crash, mid-escape), (d) an impossible-but-real sight that makes the viewer doubt their eyes, or (e) a forbidden/backstage moment (a leaked-memo table, a deal being signed behind closed doors). A scene that is merely unusual staging is NOT enough — ask "would a stranger feel they need to know what's happening here?" If the honest answer is no, escalate the moment. Everything else stays true: the scene dramatizes THIS story's real claim, never a fabricated event presented as news.
 
@@ -1572,6 +1577,11 @@ def main(stories_path):
         tries = 2 if s["type"] == "cover" else 1
         for attempt in range(tries):
             out_jpg = os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg")
+            # audit trail (owner Aug 10: "what was the prompt?" was
+            # unanswerable — briefs died with the process): every attempted
+            # brief goes to the log, the winning one into post.json below
+            print(f"slide {i+1} brief (attempt {attempt+1}): {brief}",
+                  file=sys.stderr)
             path = None
             if person:
                 path = genimg.generate(brief, out_jpg,
@@ -1593,9 +1603,11 @@ def main(stories_path):
                 continue
             ok, score, flaw = image_score(path, s.get("headline")
                                           or (s.get("body") or "")[:90],
-                                          generated=True, person=person)
+                                          generated=True, person=person,
+                                          cover=(s["type"] == "cover"))
             if ok:
                 s["media"] = os.path.relpath(path, HERE)
+                s["image_prompt"] = brief
                 gen += 1
                 if s["type"] == "cover":
                     post["cover_style"] = "photo"  # a generated cover is a photo cover
@@ -1647,7 +1659,7 @@ def main(stories_path):
     if (cover0.get("media") and not cover_scored
             and not os.path.basename(cover0["media"]).startswith("gen")):
         ok, score, flaw = image_score(os.path.join(HERE, cover0["media"]),
-                                      cover0.get("headline", ""))
+                                      cover0.get("headline", ""), cover=True)
         if not ok:
             print(f"cover candidate rejected in final audit (score {score}/10):"
                   f" {flaw}", file=sys.stderr)
@@ -1657,7 +1669,7 @@ def main(stories_path):
         for mi, m in enumerate(media_files, 1):
             if mi in used:
                 continue
-            ok, score, flaw = image_score(m, cover0["headline"])
+            ok, score, flaw = image_score(m, cover0["headline"], cover=True)
             if ok:
                 cover0["media"] = os.path.relpath(m, HERE)
                 post["cover_style"] = "photo"
@@ -1685,9 +1697,10 @@ def main(stories_path):
                         cover=True)
                     if rp:
                         ok2, s2, _ = image_score(rp, cover0.get("headline", ""),
-                                                 generated=True)
+                                                 generated=True, cover=True)
                         if ok2:
                             cover0["media"] = os.path.relpath(rp, HERE)
+                            cover0["image_prompt"] = rb
                             post["cover_style"] = "photo"
                             post["cover_fallback"] = "no-face rescue"
                             print(f"COVER rescued by the no-face rung "
@@ -1697,6 +1710,8 @@ def main(stories_path):
                             score, best = max(pool, key=lambda t: t[0])
         if not cover0.get("media") and pool:
             cover0["media"] = os.path.relpath(best, HERE)
+            if cover_brief:
+                cover0["image_prompt"] = cover_brief
             post["cover_style"] = "photo"
             post["cover_fallback"] = f"best-of-rejected ({score}/10)"
             print(f"COVER: nothing passed QA — shipping the best reject "

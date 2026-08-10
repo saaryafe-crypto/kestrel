@@ -45,9 +45,10 @@ def political(text):
 N_MOMENTS = 24  # radar.json cap
 
 GUIDES = os.path.join(HERE, "guides.json")
-GUIDE_POOL_DAYS = 7   # owner token-diet order Aug 8: the daily guide slot
-GUIDE_POOL_CAP = 40   # posts the most viral X guide of the WEEK, so guide
-                      # moments must outlive the 2h radar snapshot
+GUIDE_POOL_DAYS = 30  # owner order Aug 10: a guide is not a headline — it
+                      # stays postable for a month ("it can be in the last 2
+                      # weeks or a month - since it is a guide")
+GUIDE_POOL_CAP = 60   # deep bench so edu.py NEVER self-invents a topic
 
 
 def update_guide_pool(moments, now_iso):
@@ -81,8 +82,8 @@ def update_guide_pool(moments, now_iso):
     keep.sort(key=lambda g: -g.get("score", 0))
     keep = keep[:GUIDE_POOL_CAP]
     json.dump({"updated": now_iso, "guides": keep}, open(GUIDES, "w"), indent=1)
-    print(f"guide pool: {len(keep)} viral guides (7-day) -> guides.json",
-          file=sys.stderr)
+    print(f"guide pool: {len(keep)} viral guides ({GUIDE_POOL_DAYS}-day) "
+          "-> guides.json", file=sys.stderr)
 
 
 def main():
@@ -98,13 +99,18 @@ def main():
             pass
         moments = []
 
+    # wide-net guides (owner Aug 10) feed ONLY the guide pool — the news
+    # radar stays watchlist-only (Aug 3 order stands for news)
+    wide_guides = [m for m in moments if m.get("wide_guide")]
+    moments = [m for m in moments if not m.get("wide_guide")]
+
     moments.sort(key=lambda m: -m["vph"])  # raw velocity — honest ranking
     moments = moments[:N_MOMENTS]
 
     now = datetime.now(timezone.utc).isoformat()
     json.dump({"updated": now, "moments": moments}, open(OUT, "w"), indent=1)
     try:  # fails open — a pool hiccup must never kill the radar commit
-        update_guide_pool(moments, now)
+        update_guide_pool(moments + wide_guides, now)
     except Exception as e:
         print(f"guide pool update failed ({e})", file=sys.stderr)
     print(f"radar: {len(moments)} moments -> radar.json (X watchlist only)",

@@ -354,6 +354,11 @@ def main():
                 elif p.get("cover_fallback"):
                     bare.append(f"- COVER FALLBACK "
                                 f"({p['cover_fallback']}): {name}")
+                if p.get("topic_source") == "self-invented":
+                    # owner Aug 10: guide pool ran dry and the writer made
+                    # up its own topic — unacceptable, must be named
+                    bare.append(f"- SELF-INVENTED TOPIC (guide pool was "
+                                f"empty): {name}")
             if car:
                 body += bare or ["Cover photos: every carousel has a real "
                                  "cover photo"]

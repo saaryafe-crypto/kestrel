@@ -66,6 +66,18 @@ N_THREAD_MINE = 3          # top guide moments get the author's OWN thread
                            # edu.py runs in CI with no X key, so the content
                            # must ride inside radar.json)
 
+# WIDE GUIDE NET (owner order Aug 10: "we must take all guides from twitter
+# api. ALL viral things... it can be [from] the last 2 weeks or a month —
+# since it is a guide"). This reopens topic search for GUIDES ONLY — the
+# Aug 3 wide-net ban stands for news, where junk and politics rode in.
+# Guides are quadruple-filtered: server-side floor + guide regex + AI
+# context + politics gate, and they feed ONLY the guide pool (radar.py
+# strips them before radar.json), never the news radar.
+GUIDE_SEARCH_EVERY_H = 24  # once/day; ~60 reads (~$0.01/day)
+GUIDE_SEARCH_FLOOR = 2000  # proven-viral only — higher bar than watchlist
+GUIDE_SEARCH_AGE_D = 21    # guides stay postable for weeks
+N_WIDE_GUIDE = 8           # top wide guides per search, 1/account
+
 # What counts as a guide: a teaching promise, not a news event. Numbered-list
 # promises ("10 insane ways...", "5 free tools..."), how-to framing, cheat
 # sheets, free courses — AND it must be about AI/tech tools (first live poll
@@ -167,14 +179,16 @@ def _video_url(media):
     return None
 
 
-def _moment(t, now):
-    """Tweet object -> radar moment, or None (too old / junk / soft)."""
+def _moment(t, now, max_age_h=MAX_AGE_H):
+    """Tweet object -> radar moment, or None (too old / junk / soft).
+    max_age_h: news peaks in 36h, but the wide guide net (owner Aug 10)
+    accepts guides weeks old — a guide doesn't expire like a headline."""
     likes = int(t.get("likeCount") or 0)
     ts = _ts(t.get("createdAt") or "")
     if not ts or likes < FLOOR_LIKES:
         return None
     age_h = max((now - ts) / 3600, 0.5)
-    if age_h > MAX_AGE_H:
+    if age_h > max_age_h:
         return None
     text = " ".join((t.get("text") or "").split())
     if not text or text.startswith("RT @"):
@@ -350,6 +364,47 @@ def harvest():
     # without reserved slots the guide edu.py wants would get crowded out
     _take(lambda m: m.get("guide"), len(moments) + N_GUIDE)
     _take(lambda m: True, N_MOMENTS)          # rest by raw vph, any kind
+
+    # WIDE GUIDE NET (owner order Aug 10, constants above): all-of-X search
+    # for proven-viral AI guides, guide pool only. Runs once a day.
+    if now - led.get("last_guide_search", 0) >= GUIDE_SEARCH_EVERY_H * 3600:
+        g_since = int(now - GUIDE_SEARCH_AGE_D * 86400)
+        wide, wide_accts = [], set()
+        for q in ('("ChatGPT prompts" OR "AI prompts" OR "Claude prompts" '
+                  'OR "AI tools")',
+                  '("how to use AI" OR "AI cheat sheet" OR "free AI course" '
+                  'OR "AI course")',
+                  '("AI agents" OR "AI automation" OR ChatGPT) '
+                  '("here\'s how" OR "step by step" OR ways)'):
+            time.sleep(6)
+            try:
+                d = _get(key, "/twitter/tweet/advanced_search",
+                         query=f"{q} min_faves:{GUIDE_SEARCH_FLOOR} "
+                               f"since_time:{g_since}", queryType="Top")
+            except Exception as e:
+                print(f"  ! x guide search '{q[:40]}': {e}", file=sys.stderr)
+                continue
+            tweets = d.get("tweets") or []
+            led["reads"] += max(len(tweets), 1)
+            for t in tweets:
+                if str(t.get("id")) in seen_ids:
+                    continue
+                seen_ids.add(str(t.get("id")))
+                m = _moment(t, now, max_age_h=GUIDE_SEARCH_AGE_D * 24)
+                if not m or not m.get("guide") or m["sub"] in wide_accts:
+                    continue
+                if political(f"{m['title']} {m.get('selftext') or ''}"):
+                    continue
+                wide_accts.add(m["sub"])
+                m["wide_guide"] = True
+                wide.append(m)
+        wide.sort(key=lambda m: -m["score"])
+        wide = wide[:N_WIDE_GUIDE]
+        led["last_guide_search"] = now
+        print(f"wide guide net: {len(wide)} viral guides from all of X",
+              file=sys.stderr)
+        moments.extend(wide)  # guide pool + thread mining; radar.py strips
+                              # wide_guide before writing radar.json
 
     # crowd-emotion mining, reddit-lane parity: top replies on the best video
     # moments = thousands of people voting on which emotion the clip triggers
