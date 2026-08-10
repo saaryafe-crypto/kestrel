@@ -42,6 +42,19 @@ def doctrine():
     return open(p).read() if os.path.exists(p) else ""
 
 
+def skill_refs():
+    """hebrew-editorial skill knowledge base (owner blueprint Aug 10):
+    terminology glossary + approved/rejected pairs ride into every Hebrew
+    call. hebrew.md stays the master style guide (doctrine())."""
+    base = os.path.join(HERE, "skills", "hebrew-editorial", "references")
+    parts = []
+    for f in ("terminology.md", "examples.md"):
+        p = os.path.join(base, f)
+        if os.path.exists(p):
+            parts.append(open(p).read())
+    return "\n\n".join(parts)
+
+
 def backlog():
     """Every English post dir with rendered slides and no Hebrew twin, newest
     first. Reel dirs are reel_he.py territory. A LIST, not one dir (Jul 31
@@ -85,9 +98,11 @@ def build_prompt(post):
 
 לפניך פוסט באנגלית שכבר פורסם. תרגם אותו לעברית טבעית: לא תרגום מילולי — ישראלי שקורא את התוצאה לא אמור לנחש שהמקור באנגלית. כל מספר, שם, מחיר וציטוט חייבים לשרוד במדויק. ניסוח שנשמע כמו אנגלית במילים עבריות ("עשה היסטוריה", "לא קיבל את ההודעה") פסול — כתוב איך שישראלי באמת אומר את זה.
 
-הסגנון: עברית מדוברת של ישראלי חכם בן 16, כותרות בצורות של ynet ו-N12 אבל פשוטות יותר. אפס עברית של עיתון.
+הסגנון: עברית מדוברת של ישראלי חכם בן 16, כותרות בצורות של ynet ו-N12 אבל פשוטות יותר. אפס עברית של עיתון. המבחן הקשיח (הבעלים, 10.8): בן 16 קורא בלי להאט. אם הוא מאט, לכתוב פשוט יותר.
 
 {doctrine()}
+
+{skill_refs()}
 
 חוקי מבנה (קשיחים):
 - בדיוק {len(post["slides"])} שקופיות, באותו סדר, ובכל שקופית רק השדות שקיימים בה במקור.
@@ -196,25 +211,148 @@ def qa(out):
     return errs
 
 
+REL_SCHEMA = {"type": "object", "properties": {
+    "relevant": {"type": "boolean"}, "why": {"type": "string"}},
+    "required": ["relevant", "why"]}
+
+
+def israel_relevant(post):
+    """Owner gate (Aug 10): "if the post is relevant for israel so write it
+    in hebrew (big news, ai, openai, musk, anthropic, nvidia, etc..) if not,
+    you dont have to post. we gotta be careful with that." — an EXPLICIT
+    exception to the always-post law: an HE carousel slot MAY stay empty.
+    One Haiku call per candidate; fails OPEN (a dead judge must never kill
+    the whole HE lane)."""
+    txt = "\n".join(f"{s.get('headline', '')} — {(s.get('body') or '')[:150]}"
+                    for s in post.get("slides", [])[:4])
+    prompt = f"""You gate what gets translated for @ainews.israel, an Instagram AI-news page for young Israelis.
+
+PASS (relevant=true):
+- big AI news: OpenAI, Musk, Anthropic, Nvidia, Google, Meta — major model/product/deal stories
+- anything involving Israel, Israelis or Israeli companies
+- guides/prompt lists that work IDENTICALLY for an Israeli reader (universal tools, no US-only context)
+
+SKIP (relevant=false):
+- US-specific stories or guides (US prices, US laws, US-only services, US small-business framing)
+- small/niche news a young Israeli would not care about
+
+The post:
+{txt}
+
+Return JSON only: {{"relevant": true/false, "why": "one short line"}}"""
+    try:
+        r = write.call_claude(prompt, schema=REL_SCHEMA, model=write.CHEAP)
+        return bool(r.get("relevant", True)), r.get("why", "")
+    except Exception as e:
+        return True, f"relevance judge down ({e}) — failing open"
+
+
+ED_SCHEMA = {"type": "object", "properties": {
+    "hebrew_naturalness": {"type": "number"}, "grammar": {"type": "number"},
+    "clarity_16yo": {"type": "number"}, "source_fidelity": {"type": "number"},
+    "brand_voice": {"type": "number"},
+    "issues": {"type": "array", "items": {"type": "string"}},
+    "corrected_slides": {"type": "array", "items": {"type": "object",
+        "properties": {"headline": {"type": "string"},
+                       "body": {"type": "string"},
+                       "kicker": {"type": "string"}}}}},
+    "required": ["hebrew_naturalness", "grammar", "clarity_16yo",
+                 "source_fidelity", "brand_voice"]}
+
+ED_BAR = {"hebrew_naturalness": 8, "grammar": 9, "clarity_16yo": 8,
+          "source_fidelity": 9, "brand_voice": 8}
+
+
+def editor_pass(out, post):
+    """Scored native-editor gate (owner blueprint Aug 10, hebrew-editorial
+    skill): ONE Sonnet call scores the Hebrew 1-10; any score below the bar
+    ships the editor's corrected slides. Single pass, no loop (token diet).
+    Fails OPEN — a dead editor never kills a slot. Scores persist in
+    post-he.json (he_editor) so the daily report can watch the trend."""
+    heb = json.dumps({"slides": [{k: s.get(k) for k in
+                     ("headline", "body", "kicker") if s.get(k)}
+                     for s in out["slides"]]}, ensure_ascii=False, indent=1)
+    en = json.dumps([{k: s.get(k) for k in ("headline", "body") if s.get(k)}
+                     for s in post["slides"]], ensure_ascii=False)
+    prompt = f"""אתה עורך לשוני ישראלי בכיר של @ainews.israel. לפניך פוסט בעברית שעומד להתפרסם, והמקור האנגלי לבדיקת נאמנות לעובדות.
+
+תן ציון 1 עד 10 לכל קטגוריה, בקשיחות של עורך אמיתי:
+- hebrew_naturalness: זו עברית שישראלי אומר בקול, או אנגלית במילים עבריות?
+- grammar: התאמות מין ומספר, זמנים, סמיכויות. טעות דקדוק אחת = מקסימום 7.
+- clarity_16yo: בן 16 קורא בלי להאט? מילה שהוא לא מכיר = להוריד ציון.
+- source_fidelity: כל מספר, שם ועובדה מהמקור שרדו במדויק?
+- brand_voice: חבר חכם שמספר חדשות בשולחן, לא סוכנות תרגום ולא צ'אטבוט.
+
+אם ציון כלשהו מתחת לרף (naturalness 8, grammar 9, clarity 8, fidelity 9, voice 8) — כתוב corrected_slides: אותו מבנה בדיוק ({len(out["slides"])} שקופיות, אותם שדות), עם התיקונים שלך. מותר לשכתב משפט שלם, אסור לשנות עובדות. שמור על תגי <em> ו-<b>. בלי מקפים.
+
+{doctrine()}
+
+{skill_refs()}
+
+המקור האנגלי (לבדיקת עובדות בלבד):
+{en}
+
+הפוסט בעברית:
+{heb}
+
+החזר JSON בלבד."""
+    try:
+        r = write.call_claude(prompt, schema=ED_SCHEMA)
+        scores = {k: r.get(k, 10) for k in ED_BAR}
+        low = [k for k in ED_BAR if scores.get(k, 10) < ED_BAR[k]]
+        print("hebrew editor: "
+              + ", ".join(f"{k}={scores[k]}" for k in ED_BAR)
+              + (f" — below bar {low}, adopting corrections" if low
+                 else " — pass"), file=sys.stderr)
+        for issue in r.get("issues", [])[:5]:
+            print(f"  editor issue: {issue}", file=sys.stderr)
+        if low and len(r.get("corrected_slides", [])) == len(out["slides"]):
+            for s, c in zip(out["slides"], r["corrected_slides"]):
+                for k in ("headline", "body", "kicker"):
+                    if s.get(k) and c.get(k):
+                        s[k] = write.no_dashes(c[k])
+        out["he_editor"] = scores
+    except Exception as e:
+        print(f"hebrew editor down ({e}) — failing open", file=sys.stderr)
+    return out
+
+
 def main():
     if len(sys.argv) > 1:
-        return localize(sys.argv[1])
+        return localize(sys.argv[1])   # explicit dispatch = owner's pick, no gate
     cands = backlog()
     if not cands:
         raise SystemExit("no un-localized post found")
-    # fallback ladder (owner rule: a slot is never skipped) — newest first,
-    # walk the backlog until one post localizes clean
-    last = None
-    for post_dir in cands[:3]:
+    # fallback ladder — newest first, walk the backlog until one post BOTH
+    # passes the Israel-relevance gate AND localizes clean. Up to 6 judged
+    # (cheap Haiku calls), up to 3 real localization attempts (token diet).
+    last, attempts = None, 0
+    for post_dir in cands[:6]:
+        name = os.path.basename(post_dir)
+        try:
+            post = json.load(open(os.path.join(post_dir, "post.json")))
+            ok, why = israel_relevant(post)
+        except Exception as e:
+            ok, why = True, f"gate crashed ({e}) — failing open"
+        if not ok:
+            print(f"{name} skipped — not Israel-relevant: {why} "
+                  "(owner rule Aug 10)", file=sys.stderr)
+            continue
+        attempts += 1
         try:
             return localize(post_dir)
         # SystemExit = a gate said no; Exception = crash (e.g. issue #13:
         # call_claude RuntimeError "Request timed out"). Both fall through.
         except (SystemExit, Exception) as e:
             last = e
-            print(f"{os.path.basename(post_dir)} failed ({e}) — "
-                  "trying the next backlog post", file=sys.stderr)
-    raise SystemExit(f"all {min(3, len(cands))} backlog posts failed; last: {last}")
+            print(f"{name} failed ({e}) — trying the next backlog post",
+                  file=sys.stderr)
+        if attempts >= 3:
+            break
+    if last is None:  # everything skipped by the gate — a legal empty slot.
+        # Same sentinel the workflow greps for a clean skip (substring match).
+        raise SystemExit("no un-localized post found (none Israel-relevant)")
+    raise SystemExit(f"all {attempts} attempted backlog posts failed; last: {last}")
 
 
 def localize(post_dir):
@@ -236,6 +374,8 @@ def localize(post_dir):
         errs = qa(out)
         if errs:
             raise SystemExit("Hebrew QA failed twice: " + "; ".join(errs))
+
+    out = editor_pass(out, post)   # scored native-editor gate (skill, Aug 10)
 
     # owner-dictated cover headline (Aug 10, Decart deal: "use the exact
     # headline i sent you"): a headline-he.txt in the EN post dir overrides
