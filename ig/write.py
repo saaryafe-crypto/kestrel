@@ -1825,7 +1825,11 @@ def main(stories_path):
     import editor
     cm = post["slides"][0].get("media")
     ok, reasons = editor.gate_b(post, os.path.join(HERE, cm) if cm else None)
-    if not ok:
+    for _ in range(2):  # up to two surgical repair rounds (Aug 10: a repair
+        # can clear round-1 flaws while the editor finds new ones in round 2 —
+        # one bounded extra cheap call beats losing a finished post)
+        if ok:
+            break
         fixed = qa_repair(post, ["editor reject: " + r for r in reasons])
         if fixed and len(fixed.get("slides", [])) == len(post["slides"]):
             for s_old, s_new in zip(post["slides"], fixed["slides"]):
@@ -1836,9 +1840,15 @@ def main(stories_path):
                 post["caption"] = fixed["caption"]
             scrub_dashes(post)
             ok, reasons = editor.gate_b(post, os.path.join(HERE, cm) if cm else None)
-        if not ok:
-            raise SystemExit("editor gate B rejected the post after repair: "
-                             + "; ".join(reasons))
+        else:
+            break  # repair itself failed — retrying with the same input won't help
+    if not ok:
+        # preserve the finished text for post-mortem/salvage — a killed post
+        # cost real money; only publishing is blocked, not the evidence
+        json.dump(post, open(os.path.join(post_dir, "post-rejected.json"),
+                             "w"), indent=1)
+        raise SystemExit("editor gate B rejected the post after repair: "
+                         + "; ".join(reasons))
 
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)
     subprocess.run([sys.executable, os.path.join(HERE, "render.py"),
