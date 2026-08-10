@@ -1,0 +1,125 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SPACEX IS PAYING <em>$70 MILLION PER EMPLOYEE</em> FOR AN AI STARTUP ELON MUSK DISCOVERED BY PLAYING THEIR VIDEO GAME",
+   "hsize": 62,
+   "kicker": "NVIDIA FUNDED IT. THEN GOT OUTBID.",
+   "media": "posts/2026-08-10-musk-heading-for-a-giant-deal-in-israel-/gen-0.jpg",
+   "gen_person": true,
+   "discs": [
+    {
+     "logo": "spacex"
+    },
+    {
+     "text": "$7B"
+    }
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "NVIDIA WAS THE <em>OBVIOUS BUYER</em>. IT EVEN INVESTED FIRST.",
+   "hsize": 90,
+   "body": "Nvidia already had a check in Decart's latest round, alongside <b>Amazon</b>. Reports had Nvidia close to finalizing the deal before someone showed up with a bigger number.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "SPACEX IS PAYING $7 BILLION FOR A TEAM THAT LETS AI <em>BUILD THE WORLD AROUND YOU</em>",
+   "hsize": 76,
+   "body": "Decart's AI generates the entire world from scratch, in real-time, as you move through it. The startup has <b>100 employees</b> and raised at a <b>$4 billion</b> valuation just three months ago.",
+   "media": "posts/2026-08-10-musk-heading-for-a-giant-deal-in-israel-/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "MUSK PLAYED THE GAME. TYPED <em>'WOW'</em>. NEVER STOPPED THINKING ABOUT IT.",
+   "hsize": 84,
+   "body": "In <b>2024</b>, Musk tested OASIS and posted a single word on X: <b>'wow'</b>. That post opened a direct line between him and Decart's CEO. The contact never stopped.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "NVIDIA FUNDED THE STARTUP. THEN LOST IT TO <em>A ROCKET COMPANY</em>.",
+   "hsize": 82,
+   "body": "Nvidia invested in Decart's <b>$300 million</b> round in May 2026. Then SpaceX walked in and bid nearly double. At <b>$7 billion</b>, that's roughly <b>$70 million per employee</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MUSK ALREADY HAS XAI. SO WHY IS <em>SPACEX</em> THE ONE BUYING DECART?",
+   "hsize": 76,
+   "body": "The $7 billion deal gives <b>SpaceX</b>, not xAI, direct control of Decart's real-time world-generation engine. It's the first sign Musk is embedding AI capability inside his aerospace company itself.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "FOLLOW US FOR <em>DAILY AI BREAKDOWNS</em> YOU WON'T GET ANYWHERE ELSE",
+   "hsize": 64,
+   "body": "Send this to the friend who thinks video games have nothing to do with the next trillion-dollar deal",
+   "media": null
+  }
+ ],
+ "caption": "SpaceX is buying Israeli AI startup Decart for $7 billion because Musk played their game and typed 'wow' on X. \ud83e\uddf5\n\nMusk tested OASIS, Decart's real-time AI video engine, in 2024, posted one word on X, and reportedly kept in contact with the team ever since. SpaceX is now in advanced talks to acquire the 100-person startup for up to $7 billion. Nvidia, which invested in Decart's $300 million round in May 2026 at a $4 billion valuation, was the frontrunner buyer before SpaceX reportedly outbid them. Decart was founded in 2023 by two Unit 8200 veterans and had raised over $450 million total. If the deal closes, SpaceX would have its first R&D presence in Tel Aviv.\n\nReal-time AI that generates content on the fly, without a pre-built script, is now the most competed-over technology in the world. The same logic that stopped Musk mid-scroll in a video game already runs inside customer tools and live assistants that businesses deploy today. The companies moving first are running fully automated systems that handle questions, leads, and follow-up, set up once and running forever.\n\nRunning a business? DM us 'AI' and we'll show you what this could look like for yours.\n\nSources: Calcalist, ICE Digital\n\n#artificialintelligence #spacex #elonmusk #startups #tech",
+ "pinned_comment": "The part nobody's talking about: Nvidia funded Decart, was reportedly the frontrunner to buy it, and then watched a rocket company outbid them at nearly double the valuation. That's not a near-miss. That's a heist.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "NVIDIA FUNDED THIS AI STARTUP AND NEARLY BOUGHT IT. THEN <em>A ROCKET COMPANY OUTBID THEM FOR $7 BILLION</em>.",
+   "ELON MUSK TYPED 'WOW' AFTER PLAYING AN AI GAME IN 2024, AND NOW SPACEX IS BUYING THE STARTUP THAT BUILT IT FOR <em>$7 BILLION</em>",
+   "SPACEX IS PAYING <em>$7 BILLION</em> FOR AN AI THAT GENERATES ENTIRE VIDEO GAME WORLDS AROUND YOU AS YOU PLAY, BUILT BY JUST <em>100 PEOPLE</em>",
+   "SPACEX IS BUYING A 100-PERSON AI STARTUP FOR $7 BILLION BECAUSE MUSK PLAYED THEIR VIDEO GAME AND TYPED <em>'WOW'</em>",
+   "SPACEX JUST BET <em>$70 MILLION PER EMPLOYEE</em> ON AN AI THAT INVENTS LIVE VIDEO GAME WORLDS FROM SCRATCH AS YOU PLAY THEM",
+   "NVIDIA ALMOST OWNED THE WORLD'S BEST REAL-TIME AI VIDEO ENGINE. THEN MUSK TYPED 'WOW' AND <em>SPACEX TOOK IT FOR $7 BILLION</em>.",
+   "NVIDIA INVESTED IN THIS AI STARTUP AND WAS FIRST IN LINE TO BUY IT, THEN ELON MUSK ARRIVED AND OUTBID THEM WITH <em>$7 BILLION</em>",
+   "MUSK PLAYED AN AI THAT BUILDS ENTIRE VIDEO GAME WORLDS FROM NOTHING AND <em>SPACEX IS NOW BUYING THAT TEAM FOR $7 BILLION</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   8.5,
+   9,
+   8,
+   8.5,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] is punchiest because it shows cause-and-effect in one tight sentence\u2014'wow' directly led to $7 billion, and the 100-person team adds shock value. [2] rivals it with sheer scale shock, but omits the human catalyst that makes this story feel wild rather than just expensive."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "SPACEX IS BUYING A 100-PERSON AI STARTUP FOR $7 BILLION BECAUSE MUSK PLAYED THEIR VIDEO GAME AND TYPED <em>'WOW'</em>",
+   "SPACEX IS PAYING <em>$70 MILLION PER EMPLOYEE</em> FOR AN AI STARTUP ELON MUSK DISCOVERED BY PLAYING THEIR VIDEO GAME",
+   "ELON MUSK PLAYED AN AI VIDEO GAME IN 2024, TYPED <em>'WOW'</em>, AND SPACEX IS NOW PAYING <em>$7 BILLION</em> FOR THE TEAM THAT BUILT IT"
+  ],
+  "scores": [
+   8,
+   9,
+   8.5
+  ],
+  "winner": 1,
+  "why": "The $70 million per employee angle is instantly shocking and hits harder at 2am\u2014it's the kind of absurd number that stops your thumb before your brain finishes parsing it. [2] tells a smoother story, but shock beats narrative flow for stopping idle scrollers."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "SpaceX / Elon Musk",
+  "actor_known": true,
+  "anchor": "Elon Musk",
+  "specifics": [
+   "Musk typed 'wow' on X after playing their AI game in 2024 \u2014 that single word reportedly started the relationship that led to a $7B deal",
+   "100 employees, founded 2023, potentially selling for $7 billion \u2014 roughly $70 million per person on the team",
+   "Nvidia was the almost-certain buyer, had already invested, then got outbid by a rocket company",
+   "Decart was valued at $4 billion just three months ago in May 2026; the price has nearly doubled since",
+   "The AI generates entire interactive video-game worlds in real-time \u2014 not pre-built graphics, the AI invents the world as you play"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Musk heading for a giant deal in Israel: SpaceX in advanced talks to buy AI startup Decart at $6 billion",
+  "link": "https://www.ice.co.il/digital-140/news/article/1124798",
+  "judge_interest": 10,
+  "scout_score": 99
+ }
+}

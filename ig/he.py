@@ -237,6 +237,17 @@ def localize(post_dir):
         if errs:
             raise SystemExit("Hebrew QA failed twice: " + "; ".join(errs))
 
+    # owner-dictated cover headline (Aug 10, Decart deal: "use the exact
+    # headline i sent you"): a headline-he.txt in the EN post dir overrides
+    # the translated cover headline VERBATIM. Applied after QA on purpose —
+    # the digit/LTR-island rules yield to the owner's wording; only the
+    # deterministic dash scrub touches it.
+    forced = os.path.join(post_dir, "headline-he.txt")
+    if os.path.exists(forced):
+        out["slides"][0]["headline"] = write.no_dashes(
+            open(forced).read().strip())
+        print("cover headline forced from headline-he.txt", file=sys.stderr)
+
     out_dir = os.path.join(HERE, "posts-he", name)
     os.makedirs(out_dir, exist_ok=True)
     pj = os.path.join(out_dir, "post-he.json")
