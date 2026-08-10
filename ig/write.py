@@ -209,7 +209,7 @@ IMG_QA_SCHEMA = {"type": "object",
                  "required": ["usable", "score"]}
 
 
-def image_score(path, headline, generated=False):
+def image_score(path, headline, generated=False, person=False):
     """Vision judge for slide images. Returns (usable, score 0-10, flaw).
     usable = publish as-is; the score ranks sibling attempts (owner rule
     Jul 29: never generate forever — cap the spend and take the BEST of what
@@ -232,7 +232,14 @@ def image_score(path, headline, generated=False):
             'SCORE against the scroll-stopper formula (each worth points): ONE dominant focal subject, brightest and sharpest thing in frame (no competing focal points); the image dramatizes THIS exact headline claim — moment, stakes or consequence visible in half a second (not generic topical art), and a deliberately STAGED SYMBOLIC scene that transmits the story\'s outcome in one look (a funeral for a discontinued product, a knockout between two brands, a famous logo cast in the story\'s role) COUNTS as dramatizing the claim — judge it on whether a stranger gets the story, not on literalness;THE PULL — the image alone makes you need to know what is happening (a caught moment, visible tension, peak emotion beats any calm posed scene); bright saturated colors with one punchy accent (not murky, not pastel, not white-dominant); if a person is central, the face is large and radiates one clear strong emotion; looks like a real press photo (texture, grain, candid light), not plastic AI art. '
             + face_gate +
             'Score 0-10: 10 = a professional photo editor would run it AND it nails the formula; 7 = publishable; 4 = clearly flawed but recognizable and on-claim; 0 = unusable garbage. usable:true means publish as-is — set false for flaws a scrolling follower would actually notice: garbled text large enough to read, warped hands/faces, obvious AI plastic look, watermark, no connection to the claim, a dark/murky frame with no focal subject, or a SCREENSHOT of an app or social-media post (baked-in meme captions, interface elements like hearts, like counts, usernames, buttons — a screenshot is someone else\'s content and never our cover). flaw: the single biggest problem in 12 words or less (empty string if none). Return ONLY JSON: {{"usable": true/false, "score": 0-10, "flaw": "..."}}',
-            schema=IMG_QA_SCHEMA, images=[path], model=CHEAP)
+            # person covers are judged on the WRITER model (owner audit Aug 10):
+            # Haiku cannot verify famous likenesses — it called a
+            # reference-level Altman render "unfamiliar generated face", so the
+            # $0.17 gpt cover shipped as best-reject. Sonnet IDs faces
+            # reliably; person covers are <=3/day so the upgrade costs a few
+            # vision calls, exactly where the image money is spent.
+            schema=IMG_QA_SCHEMA, images=[path],
+            model=MODEL if person else CHEAP)
         return bool(r.get("usable")), int(r.get("score", 0)), r.get("flaw", "")
     except Exception as e:
         print(f"genimg QA failed ({e}) — scoring 0", file=sys.stderr)
@@ -1491,6 +1498,7 @@ def main(stories_path):
     gen = 0
     pool = []  # every rejected COVER candidate as (score, path) — best-of floor
     cover_scored = False  # a candidate cover judged once is not judged again
+    cover_brief = ""  # the cover's final brief, kept for the <=4 rescue rung
     # product-hero reference (@technology Codex Micro anatomy, owner Aug 1):
     # the real product photo rides along to Seedream so the generated device
     # matches reality — the cover's assigned article photo, else the first one
@@ -1585,7 +1593,7 @@ def main(stories_path):
                 continue
             ok, score, flaw = image_score(path, s.get("headline")
                                           or (s.get("body") or "")[:90],
-                                          generated=True)
+                                          generated=True, person=person)
             if ok:
                 s["media"] = os.path.relpath(path, HERE)
                 gen += 1
@@ -1616,6 +1624,8 @@ def main(stories_path):
                     # people — re-scrub or the Seedream retry dies to E005
                     # (the gpt person route KEEPS names, that's its point)
                     brief = face_riders(brief, None)[0]
+        if s["type"] == "cover":
+            cover_brief = brief
     if gen:
         print(f"{gen} Seedream image(s) generated", file=sys.stderr)
 
@@ -1657,6 +1667,35 @@ def main(stories_path):
             pool.append((score, m))
         if not cover0.get("media") and pool:
             score, best = max(pool, key=lambda t: t[0])
+            # RESCUE RUNG (owner audit Aug 10): a <=4/10 best reject is
+            # wallpaper — one cheap faceless Seedream attempt via the no-face
+            # playbook before settling for it. Always-post intact: the best
+            # reject stays the floor if the rescue also fails.
+            if score <= 4 and cover_brief:
+                rb = simpler_brief(
+                    cover_brief, cover0.get("headline", ""),
+                    flaw=f"best attempt scored {score}/10 — rebuild as a "
+                         "FACELESS scene per the no-face playbook: the famous "
+                         "logo or the story's object mid-action at theatrical "
+                         "scale, no human faces anywhere")
+                if rb:
+                    rb = face_riders(rb, None)[0]
+                    rp = genimg.generate(
+                        rb, os.path.join(post_dir, "gen-0-rescue.jpg"),
+                        cover=True)
+                    if rp:
+                        ok2, s2, _ = image_score(rp, cover0.get("headline", ""),
+                                                 generated=True)
+                        if ok2:
+                            cover0["media"] = os.path.relpath(rp, HERE)
+                            post["cover_style"] = "photo"
+                            post["cover_fallback"] = "no-face rescue"
+                            print(f"COVER rescued by the no-face rung "
+                                  f"({s2}/10)", file=sys.stderr)
+                        elif s2 > score:
+                            pool.append((s2, rp))
+                            score, best = max(pool, key=lambda t: t[0])
+        if not cover0.get("media") and pool:
             cover0["media"] = os.path.relpath(best, HERE)
             post["cover_style"] = "photo"
             post["cover_fallback"] = f"best-of-rejected ({score}/10)"

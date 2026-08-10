@@ -257,6 +257,7 @@ def main():
     gen = 0
     pool = []  # rejected cover candidates as (score, path)
     cover_face = None  # real press photo kept as the cover's last-resort floor
+    cover_brief = ""  # the cover's final brief, kept for the <=4 rescue rung
     for i, s in enumerate(post["slides"]):
         brief = s.pop("image_brief", "").strip()
         s["media"] = None
@@ -299,7 +300,8 @@ def main():
                 # (Aug 2 bare cover, issue #16); budget-out retries are free
                 # local no-ops so continue is safe either way
                 continue
-            ok, score, flaw = image_score(path, s["headline"], generated=True)
+            ok, score, flaw = image_score(path, s["headline"], generated=True,
+                                          person=person)
             if ok:
                 s["media"] = os.path.relpath(path, HERE)
                 gen += 1
@@ -317,10 +319,39 @@ def main():
                     # the rewrite sees the headline, which may name real
                     # people — re-scrub or the Seedream retry dies to E005
                     brief = face_riders(brief, None)[0]
+        if s["type"] == "cover":
+            cover_brief = brief
     # cover last rung: best-of-rejected so the edu cover never ships imageless
     cover0 = post["slides"][0]
     if not cover0.get("media") and pool:
         score, best = max(pool, key=lambda t: t[0])
+        # RESCUE RUNG (owner audit Aug 10): a <=4/10 best reject is wallpaper —
+        # one cheap faceless Seedream attempt via the no-face playbook before
+        # settling for it. Always-post intact: best reject stays the floor.
+        if score <= 4 and cover_brief:
+            rb = simpler_brief(
+                cover_brief, cover0.get("headline", ""),
+                flaw=f"best attempt scored {score}/10 — rebuild as a FACELESS "
+                     "scene per the no-face playbook: the famous logo or the "
+                     "story's object mid-action at theatrical scale, no human "
+                     "faces anywhere")
+            if rb:
+                rb = face_riders(rb, None)[0]
+                rp = genimg.generate(rb, os.path.join(post_dir,
+                                                      "gen-0-rescue.jpg"),
+                                     cover=True)
+                if rp:
+                    ok2, s2, _ = image_score(rp, cover0.get("headline", ""),
+                                             generated=True)
+                    if ok2:
+                        cover0["media"] = os.path.relpath(rp, HERE)
+                        post["cover_fallback"] = "no-face rescue"
+                        print(f"EDU COVER rescued by the no-face rung "
+                              f"({s2}/10)", file=sys.stderr)
+                    elif s2 > score:
+                        pool.append((s2, rp))
+                        score, best = max(pool, key=lambda t: t[0])
+    if not cover0.get("media") and pool:
         cover0["media"] = os.path.relpath(best, HERE)
         post["cover_fallback"] = f"best-of-rejected ({score}/10)"
         print(f"EDU COVER: nothing passed QA — shipping the best reject "
