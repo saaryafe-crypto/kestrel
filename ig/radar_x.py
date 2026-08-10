@@ -99,6 +99,24 @@ AI_CONTEXT_RE = re.compile(
 def _is_guide(text):
     return bool(GUIDE_RE.search(text) and AI_CONTEXT_RE.search(text))
 
+
+# Wide-net-only bar (first wide poll Aug 10: a buried "how to" let in a news
+# story, a MoonPay ad and an exam-tragedy thread). Anonymous all-of-X needs a
+# STRONG guide signal: a numbered-list promise / cheat sheet / tutorial
+# anywhere, or how-to framing IN THE HOOK (first 80 chars) — real guide
+# tweets lead with it, junk buries it mid-story.
+WIDE_STRONG_RE = re.compile(
+    r"(?i)\b\d+\s+(?:\w+[- ]){0,2}(ways|things|tools|apps|sites|websites"
+    r"|prompts|tips|tricks|use ?cases|examples|features|skills|hacks|secrets"
+    r"|lessons|courses)\b"
+    r"|\bstep[- ]by[- ]step\b|\bcheat ?sheet\b|\bmasterclass\b|\btutorial\b"
+    r"|\bfree (?:\w+ )?(course|certification)")
+
+
+def _is_wide_guide(text):
+    return bool(WIDE_STRONG_RE.search(text)
+                or re.search(r"(?i)\bhow to\b|\bhere'?s how\b", text[:80]))
+
 # The wide net (topic searches over ALL of X) is GONE — owner order Aug 3.
 # Every query is a watchlist "(from:a OR from:b)" batch; nothing else runs.
 BATCH_FLOOR = FLOOR_LIKES  # watchlist batches: floor matches the keep filter
@@ -393,7 +411,8 @@ def harvest():
                 m = _moment(t, now, max_age_h=GUIDE_SEARCH_AGE_D * 24)
                 if not m or not m.get("guide") or m["sub"] in wide_accts:
                     continue
-                if political(f"{m['title']} {m.get('selftext') or ''}"):
+                blob = f"{m['title']} {m.get('selftext') or ''}"
+                if political(blob) or not _is_wide_guide(blob):
                     continue
                 wide_accts.add(m["sub"])
                 m["wide_guide"] = True
