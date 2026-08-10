@@ -238,3 +238,15 @@ art_direct doctrine, image_score's cast-truth gate ("famous face
 unrelated to the story" → concept retry RECASTS instead of preserving
 the cast), and editor gate B, which now receives the actual cover image
 path so the editor judges the rendered cover with its own eyes.
+
+**No-face playbook** (owner order, Aug 10 — the "what TO DO" twin of cast
+truth): when no famous person belongs to the story, the cover goes just as
+big and provocative through four lanes: LOGO AS HERO acting the story's
+verb at theatrical scale (Octocat raking in poker chips — never a logo
+just sitting there); SYMBOLIC SCENE staged faceless (mourners from
+behind, hands lowering the coffin); IMPOSSIBLE SCALE (the story's real
+object at absurd size in a real place); CAUGHT EVIDENCE (the forbidden
+backstage moment, objects only, faceless shoulders). Every no-face cover
+still passes the stop test. "Fall back to objects" NEVER means a calm
+product shot — if the object isn't mid-action or at impossible scale,
+escalate the scene.
