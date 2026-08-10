@@ -109,8 +109,13 @@ def gate_b(post, cover_path=None):
                        + (" [...caption trimmed for review — do not judge its"
                           " ending]" if len(post.get("caption", "")) > 400
                           else "")}
-    img_line = ("The post's ACTUAL COVER IMAGE is attached — judge it against "
-                "IMAGE LAW with your own eyes." if cover_path else
+    img_line = (f"The post's ACTUAL COVER IMAGE is attached — judge it against "
+                f"IMAGE LAW with your own eyes (if no image is attached to "
+                f"this message, use your Read tool on {cover_path} to look at "
+                f"it). CAST TRUTH: if a recognizable famous person is the "
+                f"cover subject but that person has no role in this story, "
+                f"REJECT — a celebrity as decoration breaks image-headline "
+                f"connection." if cover_path else
                 "WARNING: the cover has NO image file — that alone violates "
                 "IMAGE LAW unless zero images existed anywhere.")
     prompt = f"""{doctrine()}

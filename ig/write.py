@@ -221,6 +221,7 @@ def image_score(path, headline, generated=False):
     clean = re.sub(r"</?em>", "", headline)
     face_gate = (
         'FACE GATE (owner rule Aug 1, GENERATED images only — unfamiliar AI faces convert badly): if a human face is prominent, it must read as a RECOGNIZABLE famous person; a generic invented face nobody would recognize = usable:false, flaw "unfamiliar generated face". Faceless people (from behind, silhouette, hands) are fine. '
+        'CAST TRUTH GATE (owner post-mortem Aug 10, the Sam Altman content-vendor cover): if the prominent face IS a recognizable famous person but that person has NO role in this exact headline\'s story — their company or product is not what the headline is about, they are decoration on a generic topic = usable:false, flaw "famous face unrelated to the story". '
         'CLICK GATE (owner order Aug 3, GENERATED images only — a retry is cheap, wallpaper is not): the image alone must make a scroller feel they NEED to know what is happening — a caught moment, visible tension, peak emotion. A calm, posed, or neutral scene that raises no question = usable:false, flaw "no pull, nothing happening". '
         'BACKGROUND THUMB TEST (owner Aug 3, GENERATED images only): mentally cover the main subject with a thumb — the background alone should still hint what the story is about (its world, its stakes). A background that is an empty void, generic decoration, or a world that belongs to a DIFFERENT story than the headline = subtract points and name it as the flaw. '
         'REAL WORLD GATE (owner Aug 3, the Mario emoji-wall cover): the scene must be a plausible photographic world. A background built from floating emoji, cartoon icons, logos, or symbol wallpaper reads as cheap AI slop = usable:false, flaw "cartoon prop background". '
@@ -265,7 +266,11 @@ def simpler_brief(brief, headline, flaw="", mode="simpler"):
                 'cast are the cover\'s whole value. Fix ONLY the named flaw: '
                 'simplify the background, cut clutter or extra props, drop any '
                 'readable text (symbols only), sharpen the one emotion. Never '
-                'replace the scene with a plainer portrait or a generic setting.')
+                'replace the scene with a plainer portrait or a generic setting. '
+                'ONE EXCEPTION: if the flaw says the famous face is UNRELATED '
+                'to the story, the cast IS the flaw — rebuild the same staged '
+                'scene around the story\'s real actor, its famous logo, or '
+                'faceless humans, and name no unrelated celebrity.')
     else:
         task = ('Rewrite the brief SIMPLER so the next attempt survives: ONE '
                 'subject, ONE action, ZERO readable text anywhere (screens show '
@@ -418,6 +423,7 @@ THINK CONCEPT FIRST, PROMPT SECOND (owner doctrine Aug 9 — COVER ONLY): before
 - CULTURE CAST (the Zendaya move — owner reference: Zendaya cast studying for a Gemini-exam story BECAUSE The Odyssey was viral that week): cast someone from the hot list below performing the story's action. Only when the fit is instant and natural — never force a celebrity into a story that isn't theirs.{culture_note}
 - LOGO AS HERO (fame-bar fallback, owner Aug 9): when the story's company is world-famous but NO person clears the famous-face bar, the famous LOGO itself becomes the staged scene's HERO, cast in the story's role — GitHub repos printing money → the golden Octocat on a throne of hundred-dollar stacks. Return "logo" so the real mark rides as reference; every human in that scene is faceless or absent.
 - Or the existing lanes below (the story's own absurd visual, ROLE-CAST, PRODUCT-HERO, CLASH-CAST, THE SITUATION PORTRAIT) when they are stronger. All craft rules, the fame bar, and the logo rules still apply to every lane.
+CAST TRUTH (owner post-mortem Aug 10, the Sam Altman content-vendor cover — a great Altman likeness on a "people are making a week of content" story he had NOTHING to do with): a named famous face is legal ONLY when that person or their company is an ACTOR in THIS story — named in the topic or headlines, or the story is about their product or their move. "The topic is AI" is NOT a connection: never cast a famous AI face (Altman, Musk, anyone) as decoration on a generic how-to / prompts / edu story that names no company. When only the TOOL is famous (ChatGPT, Claude, Gemini), the tool's LOGO AS HERO or an evidence-object scene with faceless humans carries the cover instead. CULTURE CAST is the one exception and only under its own rule: the fit must be instant and natural.
 
 THE STOP TEST (owner order Aug 3: every cover must be "controversial / eye-opening and make people want to click"): the cover scene must feel like a moment the viewer SHOULDN'T be seeing — caught, not posed. It passes only if it holds at least one of: (a) visible conflict or confrontation mid-happening, (b) one famous face at a PEAK raw emotion no press photo would ever show (devastation, fury, panic — not a composed press smile), (c) something mid-going-wrong (mid-fall, mid-crash, mid-escape), (d) an impossible-but-real sight that makes the viewer doubt their eyes, or (e) a forbidden/backstage moment (a leaked-memo table, a deal being signed behind closed doors). A scene that is merely unusual staging is NOT enough — ask "would a stranger feel they need to know what's happening here?" If the honest answer is no, escalate the moment. Everything else stays true: the scene dramatizes THIS story's real claim, never a fabricated event presented as news.
 

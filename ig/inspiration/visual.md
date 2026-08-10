@@ -225,3 +225,16 @@ symbolic staging that transmits the story as ON-claim.
 per-post calls — all concept thinking happens inside the single existing
 art_direct call. The only recurring addition is the one culture-refresh
 web call per day.
+
+**Cast truth** (owner post-mortem, Aug 10 — the Sam Altman content-vendor
+cover): passing the fame bar is NOT enough. A famous face is legal only
+when that person or their company is an ACTOR in THIS story — named in
+the topic/headlines, or the story is about their product or move. "The
+topic is AI" is not a connection: generic how-to / prompts / edu stories
+that name no company get NO celebrity. When only the tool is famous
+(ChatGPT, Claude, Gemini), its LOGO AS HERO or an evidence-object scene
+with faceless humans carries the cover. Enforced in three places:
+art_direct doctrine, image_score's cast-truth gate ("famous face
+unrelated to the story" → concept retry RECASTS instead of preserving
+the cast), and editor gate B, which now receives the actual cover image
+path so the editor judges the rendered cover with its own eyes.
