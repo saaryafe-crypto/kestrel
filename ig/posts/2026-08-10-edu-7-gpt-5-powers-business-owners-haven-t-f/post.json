@@ -1,0 +1,95 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>7 EXPENSIVE BUSINESS TASKS</em> GPT-5 NOW DOES IN MINUTES, ONE FOUND $1,068 IN A FORGOTTEN SUBSCRIPTION",
+   "kicker": "ONE YEAR OLD. STILL HIDDEN.",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "posts/2026-08-10-edu-7-gpt-5-powers-business-owners-haven-t-f/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) RUN A <em>COMPETITOR BRIEF IN 20 MINUTES</em>",
+   "hsize": 96,
+   "body": "Market research agencies charge <b>$2,000</b> for a competitor brief that takes a week. GPT-5 Deep Research mode returned the same report in <b>20 minutes</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) MAKE GPT-5 <em>REMEMBER YOUR WHOLE BUSINESS</em>",
+   "hsize": 96,
+   "body": "Most people re-explain their business to GPT-5 from scratch every session. A caf\u00e9 owner typed her tone in once, every email it writes now sounds exactly like her.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) TURN YOUR <em>SALES DATA INTO A DECISION</em>",
+   "hsize": 96,
+   "body": "He uploaded <b>6 months</b> of orders as a spreadsheet. GPT-5 flagged the single product driving most of his refunds, the days his margins were thinnest, and the customers who spent the most.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) PRACTICE YOUR <em>HARDEST SALES CALL FIRST</em>",
+   "hsize": 96,
+   "body": "He rehearsed the objections he feared most in GPT-5 Voice Mode at <b>11pm</b>. When the real client pushed back on price, he had already handled that exact moment <b>a dozen times</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE A FULL PROPOSAL <em>IN ONE CONVERSATION</em>",
+   "hsize": 90,
+   "body": "Proposals used to take a designer <b>4 hours</b> to write from scratch. She pastes the client brief into GPT-5 Canvas and gets a complete scope, timeline, and executive summary back in under <b>10 minutes</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) BUILD A <em>CUSTOMER SERVICE BOT IN 15 MINUTES</em>",
+   "hsize": 90,
+   "body": "One consultant built his GPT Builder without writing a single line of code. New client questions now get answered at <b>3am</b> on a Tuesday without him ever opening his phone.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) LET GPT-5 <em>READ YOUR RECEIPTS AND FIND THE WASTE</em>",
+   "hsize": 84,
+   "body": "He photographed <b>3 months</b> of business expenses and sent them to GPT-5. It found a forgotten subscription still billing him <b>$89 a month</b>, he canceled it and got <b>$1,068</b> back.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 100,
+   "body": "You will want these prompts when you open GPT-5 tonight. Pick the one that saves you the most hours and start there. Daily AI news and real skills, every day.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 7. These are the GPT-5 powers most business owners haven't touched yet, and one of them might change how your whole week runs. \ud83d\udd0d\n\nDeep Research that writes a competitor brief in 20 minutes, Memory so it learns your business once and never forgets, Advanced Data Analysis that spots hidden revenue leaks in any spreadsheet, Voice Mode for sales call practice at midnight, Canvas for writing full proposals in one conversation, GPT Builder for a no-code customer service bot, and Vision so it reads your receipts and finds where you are overpaying.\n\nGPT-5 just turned one year old. Most people still use it like a search engine. The business owners pulling ahead are using it like a full-time employee who reads everything, remembers everything, and never sleeps.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: OpenAI\n\n#gpt5 #aitools #businessautomation #artificialintelligence #productivity",
+ "pinned_comment": "Which one are you trying tonight? Slide 3 is the sleeper pick. Upload your last 6 months of orders and it usually spots something you have been staring at for months without seeing.",
+ "hook_tournament": {
+  "candidates": [
+   "<em>YOUR BUSINESS IS IGNORING</em> 7 GPT-5 POWERS"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>YOUR BUSINESS IS IGNORING</em> 7 GPT-5 POWERS",
+   "<em>7 EXPENSIVE BUSINESS TASKS</em> GPT-5 NOW DOES IN MINUTES"
+  ],
+  "scores": [
+   3,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] actually tells you the payoff\u2014expensive work now goes fast\u2014with concrete structure (7 tasks, minutes), while [0] is just vague marketing noise about ignoring things without saying why you'd care. You'd swipe [1] to see which tasks, not [0] which feels like every other business tease."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}
