@@ -1,0 +1,111 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>7 FREE CHATGPT PROMPTS</em> THAT REPLACE A $150-AN-HOUR PERSONAL TRAINER",
+   "kicker": "TRAINERS CHARGE $150 AN HOUR",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "posts/2026-08-10-edu-7-chatgpt-prompts-replacing-a-personal-t/gen-0.jpg",
+   "image_prompt": "Giant glowing smartphone at gym center like a trainer, chat-bubble symbols on screen, silhouetted figure mid-squat behind it, coach's whistle at its base, colorful dumbbells flanking, OpenAI logo exactly as in the reference image as white neon on far wall. Accent: electric blue against warm amber. Documentary news photo, 35mm, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>GET A COMPLETE FITNESS ASSESSMENT</em> IN 60 SECONDS",
+   "hsize": 82,
+   "body": "A personal trainer charges <b>$150 an hour</b> for this assessment. One prompt does it free: \"Analyze my age, weight, fitness level, injuries, and goals. Define clear targets. [paste your info]\"",
+   "media": "posts/2026-08-10-edu-7-chatgpt-prompts-replacing-a-personal-t/gen-1.jpg",
+   "image_prompt": "Close-up of hands holding a glowing smartphone showing checkmark and bar-chart symbols only, a stopwatch at 0:60 resting on a gym bench beside it, free weights blurred behind. Accent: electric blue screen glow against warm gym wood. Documentary news photo, 35mm, harsh flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "2) BUILD YOUR FULL <em>WEEKLY WORKOUT PLAN</em> IN ONE PROMPT",
+   "hsize": 80,
+   "body": "\"Design a weekly workout plan for my goal. Include exercises, sets, reps, and progression.\" Gym programs from trainers run <b>$80 to $200 a month</b>, one prompt builds the whole plan free.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>CREATE YOUR FAT LOSS STRATEGY</em> WITHOUT A DIETITIAN",
+   "hsize": 82,
+   "body": "\"Create a fat loss strategy from my body stats. Include calorie guidance, activity targets, and practical habits.\" Registered dietitians charge <b>$150 to $300</b> for this exact output.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>DESIGN A FULL MUSCLE BUILDING PROGRAM</em> FROM SCRATCH",
+   "hsize": 80,
+   "body": "Strength coaches charge <b>$150 to $400 a month</b> for programming like this. One prompt: \"Design a muscle-building program for my experience level. Include compound lifts, progressive overload, and recovery guidance.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) GET A <em>COMPLETE NUTRITION PLAN</em> FOR FREE",
+   "hsize": 95,
+   "body": "\"Create a balanced nutrition plan for my fitness goal. Define calorie range, protein intake, and meal timing.\" A one-time nutrition consult runs <b>$75 to $150</b>; this prompt delivers the whole plan free.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) BUILD <em>THE HABIT SYSTEM</em> THAT MAKES YOU ACTUALLY SHOW UP",
+   "hsize": 80,
+   "body": "Consistency is the hardest part of any fitness plan. This prompt solves it: \"Build a daily fitness habit system for my schedule. Include workout scheduling, accountability methods, and discipline techniques.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) <em>AUDIT YOUR ENTIRE FITNESS PLAN</em> IN 30 SECONDS",
+   "hsize": 84,
+   "body": "What a trainer does in a monthly check-in, this does in one prompt: \"Review my workout plan, nutrition, recovery, and goals. Refine everything into a realistic system I can follow long term.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 110,
+   "body": "Save this so each prompt is ready when you need it. Daily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 7 before your next workout. ChatGPT now builds your full fitness plan, nutrition guide, and habit system for free. \ud83c\udfcb\ufe0f\n\nComplete fitness assessment that sets your real targets, full weekly workout plan with exercises, sets, and reps, fat loss strategy with calorie and activity guidance, muscle building program with compound lifts and progressive overload, complete nutrition plan with protein targets and meal timing, daily habit and discipline system built around your schedule, full plan audit that finds what is not working.\n\nPersonal trainers charge $150 an hour for exactly this. ChatGPT gives it in 30 seconds. Most people have no idea these prompts exist.\nRunning a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Ambrose0_X\n\n#chatgpt #aifitness #artificialintelligence #aitools #fitness",
+ "pinned_comment": "Which prompt are you trying first? Slide 8 is the sleeper: if you already have a routine that stopped working, the Audit finds the exact problem in one go.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>7 CHATGPT PROMPTS</em> THAT REPLACE A PERSONAL TRAINER",
+   "7 FREE PROMPTS <em>THAT TURN CHATGPT INTO YOUR GYM COACH</em>",
+   "7 PROMPTS <em>THAT MAKE CHATGPT YOUR FREE PERSONAL TRAINER</em>",
+   "<em>7 FREE CHATGPT PROMPTS</em> THAT GET YOU FIT FASTER",
+   "<em>CHATGPT IS NOW</em> A FREE PERSONAL TRAINER. 7 PROMPTS INSIDE"
+  ],
+  "scores": [
+   7,
+   5,
+   5,
+   4,
+   8
+  ],
+  "winner": 4,
+  "why": "It combines the 'FREE' hook everyone wants with 'IS NOW' news framing, making you feel like you're discovering something real; [0] is close but its bold 'REPLACE' claim lacks the free sweetener and needs you to believe an unproven assertion."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>7 CHATGPT FITNESS PROMPTS</em> MOST PEOPLE STILL PAY HUNDREDS FOR",
+   "<em>7 CHATGPT PROMPTS</em> THAT REPLACE YOUR PERSONAL TRAINER FOR FREE",
+   "<em>7 CHATGPT FITNESS PROMPTS</em> SO GOOD THEY FEEL ILLEGAL"
+  ],
+  "scores": [
+   7,
+   9,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] hits hardest because it cuts straight to the kill\u2014replace your trainer, free\u2014that's the exact dopamine hit a 2am scroller needs, no parsing required. [2] is clever but cryptic; you'd swipe to solve a riddle, not because you already believe the payoff."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Slide 1 body repeats the cover's $150/hour figure verbatim ('A personal trainer charges $150 an hour for this assessment') \u2014 the cover already plants that number as the post's frame; the reader just read it. \u00a74 rule: no two slides carry the same fact. Fix: cut the price sentence from slide 1's body and open straight with the prompt value ('One prompt does it free:').; Slides 6 and 7 break the pric"
+}
