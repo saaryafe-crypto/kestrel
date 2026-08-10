@@ -1,0 +1,107 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "7 CLAUDE PROMPTS THAT REPLACE WHAT MOST PEOPLE <em>PAY PROFESSIONALS HUNDREDS OF DOLLARS TO DO.</em>",
+   "kicker": "NO APPOINTMENT NEEDED",
+   "hsize": 72,
+   "media": "posts/2026-08-10-edu-7-claude-prompts-replacing-paid-professi/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) MAKE CLAUDE <em>ARGUE AGAINST YOUR OWN IDEA</em>",
+   "hsize": 108,
+   "body": "A strategy consultant charges **$400 an hour** to poke holes in plans. 'Here is my idea: [paste it]. Argue against it as hard as you can. List every flaw.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>CLONE YOUR WRITING VOICE</em> IN SECONDS",
+   "hsize": 110,
+   "body": "A brand copywriter charges **$150 an hour** to match your tone. 'Here are three things I wrote: [paste]. Write [new piece] in my exact voice. Match my sentence length and word choices.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) TURN ANY CONTRACT <em>INTO PLAIN ENGLISH</em>",
+   "hsize": 110,
+   "body": "A lawyer charges **$300 an hour** to decode contracts. 'Here is a contract: [paste]. Flag anything that could hurt me. Explain every legal term in plain words.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) LET CLAUDE <em>INTERVIEW YOU LIKE A SKEPTICAL INVESTOR</em>",
+   "hsize": 100,
+   "body": "A pitch coach charges **$500** for one session. 'I am pitching you my business. Ask me the ten questions a skeptical investor asks before writing a check. Tell me where I got it wrong.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) SURFACE EVERY QUESTION <em>BEFORE YOU LAUNCH</em>",
+   "hsize": 108,
+   "body": "A UX researcher charges **$3,000** to run a customer test like this. 'I am launching [describe product]. You just read my sales page. List the ten questions you still have before buying.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) GET THREE OPINIONS <em>ON ANY BIG DECISION</em>",
+   "hsize": 108,
+   "body": "Executive coaches charge **$5,000** for this thinking. 'I need to decide: [describe it]. Play three people with strong opposing views. Each argues for a different choice. Tell me what all three are missing.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) PREDICT EVERY OBJECTION <em>BEFORE YOUR NEXT SALES CALL</em>",
+   "hsize": 100,
+   "body": "Sales trainers charge **$2,000 a day** for this. 'I sell [product] to [customer type]. List the ten objections they raise before buying. For each one, write the sentence that flips it into a yes.'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> YOU WILL USE THESE.",
+   "hsize": 110,
+   "body": "These prompts work tonight. Save the post so they are here when you need them. Daily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 7. \ud83d\udca1 These are the Claude prompts that replace what most people pay professionals to do.\n\n1) Make Claude argue against your own idea, 2) clone your writing voice from three samples, 3) turn any contract into plain English in one prompt, 4) run a brutal investor interview on your own pitch, 5) surface every customer question before you launch anything, 6) get three opposing opinions on any big decision, 7) predict every sales objection before the call happens.\n\nMost people type a question into Claude and read the answer. These prompts give Claude a job. The quality gap is the difference between a quick search and a hired expert.\nRunning a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#ai #claude #artificialintelligence #business #productivity",
+ "pinned_comment": "Which one are you trying first? Slide 5 is the sleeper. Most business owners don't realize you can run your full investor pitch prep inside Claude for free.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>7 EXPERT SESSIONS</em> CLAUDE RUNS FOR FREE",
+   "7 CLAUDE PROMPTS THAT <em>REPLACE PAID EXPERTS</em>",
+   "CLAUDE DOES THESE 7 EXPERT JOBS. <em>ALMOST NOBODY USES THEM.</em>",
+   "7 THINGS CLAUDE CAN DO <em>THAT EXPERTS CHARGE THOUSANDS FOR</em>",
+   "7 CLAUDE PROMPTS <em>MOST USERS HAVE NEVER TRIED</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   8,
+   7,
+   6
+  ],
+  "winner": 2,
+  "why": "[2]'s paradox \u2014 useful expert jobs that almost nobody uses \u2014 creates genuine curiosity and makes you stop, while [3] sounds like standard marketing copy promising money savings that you'd scroll past."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CLAUDE DOES THESE 7 EXPERT JOBS. <em>ALMOST NOBODY USES THEM.</em>",
+   "7 THINGS CLAUDE DOES THAT MOST PEOPLE PAY PROFESSIONALS TO DO. <em>ALMOST NOBODY ASKS IT TO.</em>",
+   "7 CLAUDE PROMPTS SO USEFUL <em>THEY FEEL ILLEGAL.</em> ALMOST NOBODY KNOWS THEM.",
+   "CLAUDE HAS 7 EXPERT USES MOST PEOPLE NEVER DISCOVER. <em>COPY THESE. YOU WILL USE THEM.</em>"
+  ],
+  "scores": [
+   4,
+   5,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "'Feel illegal' stops your scroll with genuine surprise\u2014it makes you think 'wait, WHAT?'\u2014while [3]'s bold confidence sounds like standard marketing trying to convince you, not astonish you."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}
