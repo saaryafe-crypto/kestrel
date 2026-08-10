@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "WORKERS WHO TOOK THESE <em>7 AI MOVES</em> SHIPPED APPS IN 3 DAYS AND MADE THEMSELVES IMPOSSIBLE TO REPLACE",
+   "kicker": "MOST WORKERS HAVEN'T TAKEN ONE",
+   "hsize": 72,
+   "media": "posts/2026-08-10-edu-7-ai-career-safety-steps-for-9-to-5-work/gen-0-rescue.jpg",
+   "image_prompt": "Paper shredder erupting with white strips upward, electric blue warning triangle on laptop screen, dark wood desk."
+  },
+  {
+   "type": "content",
+   "headline": "1) DOWNLOAD CODEX AND BUILD YOUR <em>FIRST APP TONIGHT</em>",
+   "hsize": 90,
+   "body": "First-time builders are shipping in 3 days. <b>\"Build me a [your idea] with a Next.js front end and Convex database. Add user login\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) TELL AN AI AGENT <em>YOUR ENTIRE LIFE AND GOALS</em>",
+   "hsize": 90,
+   "body": "Reverse prompting turns an AI agent into a personal strategist. <b>\"Here is my career, my goals, and my biggest ambitions. What 5 workflows could you run for me right now?\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD A PERSONAL <em>MISSION CONTROL</em> THAT RUNS OVERNIGHT",
+   "hsize": 82,
+   "body": "Every manual task you do is money left on the table. <b>\"I just did [task] manually. Show me exactly how to automate it and add it to my Mission Control\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) HIT YOUR CLAUDE MAX <em>RATE LIMIT EVERY SINGLE WEEK</em>",
+   "hsize": 82,
+   "body": "Most people barely use what they pay for. If you're not hitting the ceiling every week, you're not trying hard enough. <b>\"Here is my hardest problem right now: [explain it]. Give me a step-by-step plan\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) IF YOUR AI USAGE IS <em>BELOW 50%, GET ANGRY</em>",
+   "hsize": 88,
+   "body": "Your competition burns through AI every week. Below 50% usage means you're falling behind. <b>\"List every task I avoided delegating to AI this week. Why didn't I? Fix one right now\"</b>",
+   "media": "posts/2026-08-10-edu-7-ai-career-safety-steps-for-9-to-5-work/gen-5.jpg",
+   "image_prompt": "Two identical smartphones on a dark table \u2014 the left phone shows a usage bar at roughly 20% capacity, dim and grey. The right phone shows the same bar blazing at 85%, electric blue light pouring off it and washing across the left device, outshining it. Documentary news photo, 35mm, harsh on-camera flash, slight film grain, zero readable text. Accent: electric blue against charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "6) USE CLAUDE CODE FOR PLANNING, <em>CODEX FOR BUILDING</em>",
+   "hsize": 85,
+   "body": "The two tools do different things. Claude Code breaks down what to build. Codex writes the code. <b>\"Plan the architecture for [app] in plain English, no code yet\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) YOUR PLATFORM IS <em>YOUR NEW RESUME</em>",
+   "hsize": 104,
+   "body": "More hiring managers are Googling you before they open your resume. They check what you post, what you build, and who follows you. <b>\"Turn my [project] into a 5-post thread showing what I built and how\"</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 110,
+   "body": "You'll want these 7 steps when you need them. Daily AI news and real skills at <b>@yaffeai</b>",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 7 before your next performance review. Every step is something you can start tonight. \ud83c\udfaf\n\nDownload Codex and ship your first app, use reverse prompting on an AI agent to map your goals onto real workflows, build a Mission Control that runs tasks overnight, push Claude Max past its rate limit every week, stay above 50% usage on every AI plan you own, pair Claude Code for planning with Codex for building, then publish what you make to replace your resume.\n\nCompanies sort candidates by what they build, not what their resume says. Push AI to its limits every week and you become impossible to replace. Sit at 20% usage and you're easily cut.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: AlexFinn\n\n#AISkills #CareerGrowth #ArtificialIntelligence #AITools #FutureOfWork",
+ "pinned_comment": "Which step are you starting tonight? Most people skip to step 7, but step 3 (Mission Control) is the one that quietly compounds every single week.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>IF YOU HAVE A 9-5</em>, TAKE THESE 7 AI STEPS",
+   "7 AI STEPS THAT <em>KEEP YOUR JOB</em> IN 2026",
+   "7 STEPS TO USE AI <em>BEFORE YOUR JOB USES YOU</em>",
+   "7 AI STEPS EVERY <em>9-5 WORKER</em> NEEDS RIGHT NOW",
+   "<em>7 AI MOVES</em> BEFORE YOUR BOSS REPLACES YOU"
+  ],
+  "scores": [
+   5,
+   6,
+   6.5,
+   7,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] hits a primal threat (boss replaces you) that stops scrolling dead; [3] adds urgency with 'RIGHT NOW' but it's a standard pressure tactic, while actual replacement anxiety is visceral and real."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "no-face rescue",
+ "editor_override": "HOOK LAW \u00a72 \u2014 AND joins two actions: 'SHIPPED APPS IN 3 DAYS' and 'MADE THEMSELVES IMPOSSIBLE TO REPLACE'. The law requires one action; cut the weaker one. 'Shipped apps in 3 days' is the proof detail that already lives in slide 2's body. The stronger payoff is the irreplaceability \u2014 keep that as the single action, then fold '3 days' in as a subordinate clause or drop it from the hook entirely.; I"
+}
