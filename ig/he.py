@@ -317,9 +317,87 @@ def editor_pass(out, post):
     return out
 
 
+def il_pick():
+    """Top unused Israel AI/tech moment from il-news.json (owner order Aug 10:
+    'write the israeli news from twitter api and viral score only in the
+    hebrew channel'). Returns a radar moment or None.
+
+    Cost cap: ONE native build per day (a native build is a full write.py run
+    — art direction, gpt-image cover, judges — vs the 2-call translate path;
+    the Aug 8 token diet stays law). The other slots drain the EN backlog.
+    Used-check = story.link in posts/*/post.json (write.py records the tweet
+    permalink there); write.py's semantic is_dupe adds a second net."""
+    try:
+        pool = json.load(open(os.path.join(HERE, "il-news.json")))
+        from datetime import datetime
+        age_h = (datetime.now().astimezone()
+                 - datetime.fromisoformat(pool["updated"])).total_seconds() / 3600
+        if age_h > 24:   # Mac radar is off/stale — don't post old "news"
+            print(f"il-news.json is {age_h:.0f}h old — IL lane sleeping",
+                  file=sys.stderr)
+            return None
+    except Exception as e:
+        print(f"no IL news pool ({e})", file=sys.stderr)
+        return None
+    root = os.path.join(HERE, "posts")
+    used, today_count = set(), 0
+    from datetime import date
+    for d in os.listdir(root):
+        pj = os.path.join(root, d, "post.json")
+        try:
+            used.add(json.load(open(pj))["story"]["link"])
+        except Exception:
+            pass
+        if (d.startswith(str(date.today()))
+                and os.path.exists(os.path.join(root, d, "he-only"))):
+            today_count += 1
+    if today_count >= 1:
+        print("IL lane: daily native-build cap reached (1/day, token diet)",
+              file=sys.stderr)
+        return None
+    for m in pool.get("moments", []):
+        if m.get("permalink") not in used:
+            return m
+    return None
+
+
+def build_il(m):
+    """Israel moment -> finished post dir, via the FULL existing EN pipeline
+    (write.py: prep, viral hook, art direction, gpt-image cover, QA, editor
+    gates). Reuse over rebuild — one pipeline to maintain, and the Decart
+    deal (Aug 10) proved this exact flow by hand: EN build -> he.py localize
+    -> HE-only publish. The dir gets an 'he-only' marker: it exists solely as
+    the Hebrew post's source and must never ship on @yaffeai."""
+    story = {"title": m["title"],
+             "link": m.get("outlink") or m["permalink"],
+             "date": f"{m.get('age_h', '?')}h old", "src": f"x:{m['sub']}",
+             "score": m.get("score", 0), "image": m.get("image"), "radar": m}
+    sp = os.path.join(HERE, "stories-il.json")
+    json.dump([story], open(sp, "w"), ensure_ascii=False, indent=1)
+    print(f"IL native build: @{m['sub']} ({m.get('score')} likes) "
+          f"{m['title'][:70]}", file=sys.stderr)
+    import contextlib
+    with contextlib.redirect_stdout(sys.stderr):  # write.py prints its own
+        post_dir = write.main(sp)                 # "post ready:" — only he.py's
+    open(os.path.join(post_dir, "he-only"), "w").write(
+        "built for @ainews.israel only (IL news lane, owner order Aug 10) — "
+        "never publish on @yaffeai\n")
+    return post_dir
+
+
 def main():
     if len(sys.argv) > 1:
         return localize(sys.argv[1])   # explicit dispatch = owner's pick, no gate
+    # ISRAEL NEWS FIRST (owner order Aug 10): a fresh viral Israel AI/tech
+    # story beats localizing yesterday's EN backlog. Any failure falls
+    # through to the backlog ladder — the slot never dies to this lane.
+    il = il_pick()
+    if il:
+        try:
+            return localize(build_il(il))
+        except (SystemExit, Exception) as e:
+            print(f"IL native build failed ({e}) — falling back to the EN "
+                  f"backlog", file=sys.stderr)
     cands = backlog()
     if not cands:
         raise SystemExit("no un-localized post found")

@@ -155,3 +155,39 @@ INSTANT KILL — no other rule can save these:
   specific fixable reasons. REJECT feeds the repair pass; still failing after
   retries = next story. The slot is always filled; the standard is never
   lowered to fill it.
+
+## 7. HUMAN VOICE LAW — the writing must not smell like AI
+
+Owner order Aug 10: "our english writing looks ai and super not intuitive
+and nice to read." Distilled from Wikipedia's "Signs of AI writing" +
+editorial humanizer corpora. AI writing is a SMELL made of stacked small
+tells — kill every one:
+
+- BANNED WORDS (instant rewrite): delve, landscape (figurative), tapestry,
+  paradigm, leverage (verb), harness, navigate (figurative), realm, myriad,
+  plethora, multifaceted, groundbreaking, revolutionize, synergy, seamless,
+  robust, cutting-edge, transformative, unprecedented, game-changer,
+  "evolving world of", "in the world of AI".
+- SIGNIFICANCE INFLATION: never "marks a pivotal moment", "is a testament
+  to", "underscores", "highlights the importance". State the specific fact
+  that makes it big; if there is none, the line dies.
+- NEGATIVE PARALLELISM: "it's not just X, it's Y" / "not only... but" —
+  maximum ONCE per post, and only if the contrast is real.
+- RULE-OF-THREE PADDING: lists of three where the third item is a synonym
+  of the first two. Two strong items beat three padded ones.
+- HEDGING AND FILLER: no "it's important to note", "in order to", "due to
+  the fact that", "could potentially". Say the thing.
+- COPULA AVOIDANCE: "serves as" / "stands as" / "boasts" clusters -> "is",
+  "has". Plain verbs are the confident register.
+- -ING FAKE DEPTH: no tacked-on "...highlighting", "...showcasing",
+  "...reflecting the growing". Either its own sentence with a fact, or cut.
+- METRONOME RHYTHM: sentences must vary hard. Short punch ("That's new.").
+  Then one that runs longer because the idea needs the room. Slide bodies
+  that are all 15-25 words read as machine output.
+- GENERIC CLOSERS: never "the future looks bright", "time will tell",
+  "exciting times ahead", "stay tuned". End on the sharpest specific fact.
+- TRANSITIONS: no "Moreover", "Furthermore", "Additionally", "That said".
+  Start the next thought, or use "But", "So", "And".
+- THE OUT-LOUD TEST: every headline and body read aloud. If it sounds like
+  a press release or could describe any story by swapping nouns, rewrite
+  from the specific facts of THIS story.

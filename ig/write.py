@@ -1312,6 +1312,27 @@ def qa(post):
                 and not (s.get("image_brief") or "").strip()):
             errs.append(f"slide {i+1}: no media_idx and no image_brief — every "
                         "content slide needs a real photo or an image brief")
+    # HUMAN VOICE gate (owner order Aug 10: "our english writing looks ai"):
+    # tier-1 AI-tell vocabulary is a hard fail wherever it appears — doctrine
+    # §7 tells the writer, this regex makes sure. Deterministic, zero calls.
+    ai_tells = re.compile(
+        r"(?i)\bdelve|\btapestry\b|\bparadigm\b|\bleverag(e|ing)\b"
+        r"|\bharness(es|ing)?\b|\bmyriad\b|\bplethora\b|\bmultifaceted\b"
+        r"|\bseamless|\bgroundbreaking\b|\brevolutioniz|\bsynergy\b"
+        r"|\bcutting[- ]edge\b|\btransformative\b|\bunprecedented\b"
+        r"|\bgame[- ]chang(er|ing)\b|\bin the (evolving )?world of\b"
+        r"|\bit'?s important to note|\bmoreover\b|\bfurthermore\b"
+        r"|\bthe future (looks|is) bright|\btime will tell\b|\bstay tuned\b"
+        r"|\bexciting times\b|marks a pivotal|is a testament|underscores the")
+    all_text = " ".join(
+        [re.sub(r"<[^>]+>", "", f"{s.get('headline') or ''} "
+                                f"{s.get('body') or ''} {s.get('kicker') or ''}")
+         for s in slides] + [caption])
+    tells = sorted({m.group(0).lower() for m in ai_tells.finditer(all_text)})
+    if tells:
+        errs.append(f"AI-tell vocabulary ({', '.join(tells)}) — doctrine §7: "
+                    "these words smell machine-written; state the specific "
+                    "fact in plain spoken English instead")
     # new-fact-per-slide (owner audit Aug 1: the Reddit post's slides 3 and 4
     # told the same fact, and slide 2's body restated its own headline): a
     # meaty number (>12, not a year) lives on the cover plus AT MOST one

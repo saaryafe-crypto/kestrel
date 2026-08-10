@@ -122,7 +122,7 @@ def main():
     # persist for CI (scout.py reads radar.json from the repo) — market.py
     # pattern. X ledger+cache ride along so the daily budget watch sees spend.
     subprocess.run(["git", "add", os.path.basename(OUT), "guides.json",
-                    "x-used.json", "x-moments.json"], cwd=HERE)
+                    "x-used.json", "x-moments.json", "il-news.json"], cwd=HERE)
     r = subprocess.run(["git", "commit", "-m", f"radar {now[:16]}"], cwd=HERE,
                        capture_output=True)
     if r.returncode == 0:

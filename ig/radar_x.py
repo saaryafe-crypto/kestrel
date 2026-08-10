@@ -117,6 +117,50 @@ def _is_wide_guide(text):
     return bool(WIDE_STRONG_RE.search(text)
                 or re.search(r"(?i)\bhow to\b|\bhere'?s how\b", text[:80]))
 
+# ISRAEL NEWS LANE (owner order Aug 10: "pull from twitter api the most viral
+# news in israel that are relevant to israel... and then write the israeli
+# news from twitter api and viral score only in the hebrew channel"). Scope
+# owner-confirmed same day: AI/tech Israel ONLY — war/politics NEVER post,
+# the Decart/Musk $7B exit is the model story. Feeds il-news.json exclusively;
+# by construction nothing here can reach radar.json (the EN news pool stays
+# watchlist-only, Aug 3 order).
+IL_HE_FLOOR = 500          # Hebrew Twitter is tiny — 500 likes IS viral there
+IL_EN_FLOOR = 2000         # English Israel-tech news competes with all of X
+IL_MAX_AGE_H = 48          # IL AI/tech stories are rarer; wider window than
+                           # the 36h EN news peak
+N_IL = 8                   # pool size, 1 per account
+IL_POOL = os.path.join(HERE, "il-news.json")
+
+# War/politics blocklist in HEBREW (owner: "we gotta be carefuul with that").
+# The English political() gate can't read Hebrew — without this, war news
+# would sail into the IL pool on pure engagement. Bias toward blocking: a
+# false positive costs one candidate, a false negative posts war news to a
+# tech page.
+HEB_POLITICS = re.compile(
+    "מלחמ|עזה|חמאס|חטופ|חטיפ|צה[\"״׳']ל|נתניהו|ביבי|הפגנ|בחירות|פיגוע"
+    "|חיזבאלל|חות'י|איראן|רקטות|טילים|כיפת ברזל|כנסת|ממשל|מילואים"
+    "|לבנון|טרור|הרוג|פצוע|שגריר|סנקציות")
+
+# ENGLISH war gate for the IL lane, and unlike radar.political() it has NO
+# AI-collision exemption — first live test (Aug 10) let in "Iran: 10,000
+# cheap AI suicide drones" and a genocide-discourse thread BECAUSE they name
+# AI. On the Israel search, military AI is still war content: never post
+# (owner scope: AI/tech Israel only, the Decart exit is the model).
+# "strike on" not \bstrike\b — "strike a deal" is exactly our model story.
+IL_WAR_EN = re.compile(
+    r"(?i)\bwar\b|\bgaza\b|\bhamas\b|hezbollah|\bidf\b|\biran(ian)?\b"
+    r"|missile|rocket|air ?strike|strike[sd]? on\b|ceasefire|hostage"
+    r"|genocide|\bterror|\bmilitary\b|netanyahu|west bank|settler|intifada"
+    r"|zionis|antisemit|jihad|\bbombing\b|\bkilled\b|casualt|soldier")
+
+# AI/tech context, Hebrew + English + Hebrew transliterations of the brands
+# (Israeli tweets mix scripts freely: "אנבידיה" and "Nvidia" both appear).
+IL_TECH_RE = re.compile(
+    r"(?i)\bAI\b|ChatGPT|OpenAI|Claude|Gemini|Nvidia|Tesla|Intel|\bWiz\b"
+    r"|Mobileye|בינה מלאכותית|סטארט[- ]?אפ|אקזיט|הייטק|סייבר|שבב|רובוט"
+    r"|אפליקצי|אנבידיה|אינטל|גוגל|מיקרוסופט|טסלה|מאסק|אלטמן|צוקרברג")
+
+
 # The wide net (topic searches over ALL of X) is GONE — owner order Aug 3.
 # Every query is a watchlist "(from:a OR from:b)" batch; nothing else runs.
 BATCH_FLOOR = FLOOR_LIKES  # watchlist batches: floor matches the keep filter
@@ -197,13 +241,15 @@ def _video_url(media):
     return None
 
 
-def _moment(t, now, max_age_h=MAX_AGE_H):
+def _moment(t, now, max_age_h=MAX_AGE_H, floor=FLOOR_LIKES):
     """Tweet object -> radar moment, or None (too old / junk / soft).
     max_age_h: news peaks in 36h, but the wide guide net (owner Aug 10)
-    accepts guides weeks old — a guide doesn't expire like a headline."""
+    accepts guides weeks old — a guide doesn't expire like a headline.
+    floor: Hebrew Twitter is ~1/50th of English — the IL lane viral bar
+    sits lower (owner-confirmed Aug 10)."""
     likes = int(t.get("likeCount") or 0)
     ts = _ts(t.get("createdAt") or "")
-    if not ts or likes < FLOOR_LIKES:
+    if not ts or likes < floor:
         return None
     age_h = max((now - ts) / 3600, 0.5)
     if age_h > max_age_h:
@@ -424,6 +470,49 @@ def harvest():
               file=sys.stderr)
         moments.extend(wide)  # guide pool + thread mining; radar.py strips
                               # wide_guide before writing radar.json
+
+    # ISRAEL NEWS LANE (owner order Aug 10, constants above): two searches per
+    # fresh poll (~40 reads, 3x/day ≈ $0.02/day) into il-news.json ONLY —
+    # never into the returned moments, so the EN radar can't be contaminated.
+    # Triple gate: English politics + Hebrew war/politics + AI/tech context.
+    il_since = int(now - IL_MAX_AGE_H * 3600)
+    il_pool, il_accts = [], set()
+    for q, floor in (
+            ('(AI OR ChatGPT OR OpenAI OR "בינה מלאכותית" OR סטארטאפ OR '
+             'אקזיט OR הייטק OR אנבידיה OR מאסק) lang:he', IL_HE_FLOOR),
+            ('(Israel OR Israeli OR "Tel Aviv") (AI OR startup OR '
+             'acquisition OR exit OR Nvidia OR OpenAI OR Intel OR cyber OR '
+             'robot)', IL_EN_FLOOR)):
+        time.sleep(6)
+        try:
+            d = _get(key, "/twitter/tweet/advanced_search",
+                     query=f"{q} min_faves:{floor} since_time:{il_since}",
+                     queryType="Top")
+        except Exception as e:
+            print(f"  ! x IL search '{q[:40]}': {e}", file=sys.stderr)
+            continue
+        tweets = d.get("tweets") or []
+        led["reads"] += max(len(tweets), 1)
+        for t in tweets:
+            m = _moment(t, now, max_age_h=IL_MAX_AGE_H, floor=floor)
+            if not m or m["sub"] in il_accts:
+                continue
+            blob = f"{m['title']} {m.get('selftext') or ''}"
+            if (political(blob) or HEB_POLITICS.search(blob)
+                    or IL_WAR_EN.search(blob)):
+                continue
+            if not IL_TECH_RE.search(blob):
+                continue
+            il_accts.add(m["sub"])
+            il_pool.append(m)
+    # every poll re-searches the whole 48h window, so an empty result means
+    # the window is genuinely empty — overwrite, never serve ghosts
+    il_pool.sort(key=lambda m: -m["score"])  # viral score ranks the lane
+    json.dump({"updated": datetime.now().astimezone().isoformat(),
+               "moments": il_pool[:N_IL]}, open(IL_POOL, "w"),
+              ensure_ascii=False, indent=1)
+    print(f"IL news lane: {len(il_pool)} Israel AI/tech moments -> il-news.json",
+          file=sys.stderr)
 
     # crowd-emotion mining, reddit-lane parity: top replies on the best video
     # moments = thousands of people voting on which emotion the clip triggers

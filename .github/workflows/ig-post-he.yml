@@ -52,11 +52,14 @@ jobs:
           pip install pillow
 
       - name: Localize to Hebrew + render RTL
-        # he.py owns the pick: it walks the whole un-localized backlog newest
-        # first and falls to the next post when one fails (Jul 31 audit — the
-        # old pick-one-name step let a single bad post kill the slot forever)
+        # he.py owns the pick: IL viral news first (owner order Aug 10 —
+        # native build via write.py when il-news.json has a fresh unused
+        # Israel AI/tech story), then the un-localized backlog newest first,
+        # falling to the next post when one fails (Jul 31 audit — the old
+        # pick-one-name step let a single bad post kill the slot forever)
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}  # IL native builds render gpt-image covers
           CHROME: google-chrome
         run: |
           cd ig
@@ -70,7 +73,9 @@ jobs:
             echo "SKIP=true" >> "$GITHUB_ENV"
             exit 0
           fi
-          POST_NAME=$(basename "$(sed -n 's/^post ready: //p' /tmp/he.log)")
+          # tail -1: an IL native build logs write.py's own "post ready:"
+          # (EN source dir) before he.py's — the HE dir is always last
+          POST_NAME=$(basename "$(sed -n 's/^post ready: //p' /tmp/he.log | tail -1)")
           test -n "$POST_NAME"   # fail loudly if every backlog post failed
           test -f "posts-he/$POST_NAME/slide-1.jpg"
           echo "POST_NAME=$POST_NAME" >> "$GITHUB_ENV"
@@ -126,6 +131,13 @@ jobs:
           # adding the whole tree sweeps half-built dirs from failed attempts
           # into sibling commits -> add/add rebase conflicts kill save steps)
           git add "ig/posts-he/$POST_NAME"
+          # IL native builds (Aug 10) create the EN source dir in THIS run —
+          # it must reach main or the dedupe/used checks forget the story.
+          # No-op for backlog posts (their EN dir is already on main).
+          git add "ig/posts/$POST_NAME" 2>/dev/null || true
+          git add ig/genimg-used.json 2>/dev/null || true  # image budget spent by IL builds must persist
+          git add ig/faces-used.json 2>/dev/null || true
+          git add ig/editor-log.json 2>/dev/null || true
           git commit -m "IG post HE: $POST_NAME" || { echo "nothing to commit"; exit 0; }
           git pull --rebase --autostash
           git push || { git pull --rebase --autostash && git push; }  # retry once if a sibling pushed in between
