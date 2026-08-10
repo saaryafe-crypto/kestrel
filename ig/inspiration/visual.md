@@ -250,3 +250,12 @@ backstage moment, objects only, faceless shoulders). Every no-face cover
 still passes the stop test. "Fall back to objects" NEVER means a calm
 product shot — if the object isn't mid-action or at impossible scale,
 escalate the scene.
+
+**Iconic-moment exception** (owner, Aug 10, same conversation as cast
+truth): inspirational / entrepreneurial stories MAY cast a famous founder
+even when the news isn't about them — if the scene is that person's KNOWN
+iconic real moment and the moment embodies the title's exact meaning
+(young Zuckerberg coding in his dorm room for a "built from nothing"
+promise; garage-era Jobs and Wozniak for a two-people-and-an-idea story).
+The test: a stranger instantly reads why THIS person in THIS scene proves
+THIS title. A famous face merely signaling "AI"/"tech" still fails.
