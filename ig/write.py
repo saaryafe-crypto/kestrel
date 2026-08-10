@@ -1383,6 +1383,12 @@ def main(stories_path):
     retold, spine, ctx = prep_story(story, body_text)
     if retold:
         print(f"retell: {retold['retell'][:120]}", file=sys.stderr)
+    # hook ammunition for the tournament (restored Aug 10: the Aug 8 prep_story
+    # merge deleted this line but the tournament call kept using it — every
+    # news story that survived gate A since then crashed write.py into the
+    # edu fallback, zero news carousels shipped)
+    material = (retold["retell"] + "\n" + "\n".join(retold.get("facts", []))
+                if retold else body_text)
     print(f"viral classify: {ctx['story_type']}, actor '{ctx.get('actor')}' "
           f"{'known' if ctx.get('actor_known') else 'UNKNOWN -> anchor: ' + str(ctx.get('anchor'))}",
           file=sys.stderr)
