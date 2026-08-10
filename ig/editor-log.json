@@ -1237,5 +1237,131 @@
   "subject": "6 FREE AI PROMPTS THAT WILL WRITE <em>YOUR ENTIRE BUSINESS PLAN</em> TONIGHT",
   "verdict": "REJECT",
   "reason": "HOOK VIOLATES §2 (label headline + flat-positive framing): '6 FREE AI PROMPTS THAT WILL WRITE YOUR ENTIRE BUSINESS PLAN TONIGHT' is a label/list noun phrase, not a complete sentence with actor + what happened + wild specifics. More critically, it uses flat-positive service-delivery framing — §2 explicitly bans 'flat-positive PR tone' because it earns neither clicks nor shares. The $15,000 money sh"
+ },
+ {
+  "t": "2026-08-10T06:56:32Z",
+  "gate": "A",
+  "subject": "@profstonge I will survive somehow",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no real-world consequence: the story is internet engagement metrics (79K likes), not an actual event, and the source is too thin to build slides from."
+ },
+ {
+  "t": "2026-08-10T06:57:04Z",
+  "gate": "A",
+  "subject": "Before Robert Pattinson became one of Hollywood’s biggest stars, he admitted to inventing a far more prestigious backgro",
+  "verdict": "KILL",
+  "reason": "Nothing happened—only a confession to past lies in an interview, with no real consequence anyone felt."
+ },
+ {
+  "t": "2026-08-10T06:57:23Z",
+  "gate": "A",
+  "subject": "Literally What you Imagine Can be made real",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait with zero substance: a 43-character vague statement that earned likes, not a real-world event with consequence; the writer has nothing to build from except speculation, and the owner would never post a post about people liking a tweet."
+ },
+ {
+  "t": "2026-08-10T06:58:17Z",
+  "gate": "A",
+  "subject": "🇪🇸🇷🇺 Daria, who’s lived in Spain since age 6 and built a life there, was denied residency after 22 years and given 15 da",
+  "verdict": "KILL",
+  "reason": "Unknown actor—Daria is a private person, not famous or universal; single thin-sourced tweet with 2/10 scout interest violates the unknown actor rule and lacks the real names, real numbers, real proof required for wild-but-true stories."
+ },
+ {
+  "t": "2026-08-10T06:58:42Z",
+  "gate": "A",
+  "subject": "Bro created a masterpiece",
+  "verdict": "KILL",
+  "reason": "Instant kill (no substance): source is a bare 25-character tweet with no identifiable person, facts, numbers, or real-world outcome — writer would have to invent the entire story."
+ },
+ {
+  "t": "2026-08-10T06:59:19Z",
+  "gate": "A",
+  "subject": "Omg: Forget the feud between Sam Altman and Elon Musk. OpenAI Tibo and Anthropics Boris Cherny are escalating it much fu",
+  "verdict": "KILL",
+  "reason": "Instant kill as reaction-bait (§1): pure gossip about people feuding online with zero real-world event, consequence, or verifiable fact—not a story."
+ },
+ {
+  "t": "2026-08-10T06:59:42Z",
+  "gate": "A",
+  "subject": "🇨🇳 China isn't f*cking around when it comes to mosquitoes Writer: Ian",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no supporting facts, numbers, or consequences to build slides from; the writer would have to fabricate content to fill slides."
+ },
+ {
+  "t": "2026-08-10T07:00:02Z",
+  "gate": "A",
+  "subject": "Opus 5 is a disaster. Another example of why Anthropic should release a rework *immediately*, or at least a Fable update",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: a complaint tweet about model quality, no real-world consequence (nothing happened, no money moved, no company action), no second fact or specifics, and no material for carousel expansion—the exact pattern of the Queen Elizabeth and Mario Lopez failures."
+ },
+ {
+  "t": "2026-08-10T07:00:23Z",
+  "gate": "A",
+  "subject": "𝕏.com recorded 4.69 billion visits last month, making it the 6th most-visited website in the world 🔥",
+  "verdict": "KILL",
+  "reason": "No substance: a single platform metric with zero second facts, consequences, or human story—the writer would pad to death, and it dies as on-topic-but-routine traffic reporting."
+ },
+ {
+  "t": "2026-08-10T07:00:43Z",
+  "gate": "A",
+  "subject": "Gregory wants to know if you’re going to be able to make it to Europe for the Total Solar Eclipse on Wednesday",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no facts, numbers, or real consequence—reaction-bait to a casual question, not a story."
+ },
+ {
+  "t": "2026-08-10T07:01:14Z",
+  "gate": "A",
+  "subject": "A Penguin jumped on this boat to escape a seal, so they took him to the iceberg where his friends were waiting for him.",
+  "verdict": "KILL",
+  "reason": "NO SUBSTANCE — the entire story is one thin tweet (119 characters) with no names, dates, proof, or secondary facts to build a carousel from."
+ },
+ {
+  "t": "2026-08-10T07:01:42Z",
+  "gate": "A",
+  "subject": "Bank of America Bull &amp; Bear Indicator reaches one of the strongest stock market sell signals this century 🚨 🚨",
+  "verdict": "KILL",
+  "reason": "On-topic but routine: a technical market indicator reaching a level is data, not a story—no real event, no person, no consequence, explicitly banned in STORY LAW section 1."
+ },
+ {
+  "t": "2026-08-10T07:02:07Z",
+  "gate": "A",
+  "subject": "This picture was taken on Mars today.",
+  "verdict": "KILL",
+  "reason": "No substance: single 37-character tweet with zero story detail, numbers, or consequence to build slides from; pure astronomy off-brand without tech/business lens (SpaceX, Starlink, valuations only)."
+ },
+ {
+  "t": "2026-08-10T07:02:28Z",
+  "gate": "A",
+  "subject": "In November 2016, a massive sinkhole suddenly opened in central Fukuoka following nearby subway construction. The collap",
+  "verdict": "KILL",
+  "reason": "Historical infrastructure trivia (10 years old) with zero person-driven drama, routine municipal competence as the substance, and 0/10 scout signal—off-brand for @technology/@getintoai and the kind of 'did you know' fact that earns no sends."
+ },
+ {
+  "t": "2026-08-10T07:02:45Z",
+  "gate": "A",
+  "subject": "Record highs are back. What comes next? The S&P 500 has risen in 13 of the last 17 instances following a significant bre",
+  "verdict": "KILL",
+  "reason": "Market-wrap pattern analysis with zero narrative event, protagonist, or felt consequence — exactly the 'stocks-rose-today, analyst targets' routine the doctrine bans; scout interest at 0/10 confirms it."
+ },
+ {
+  "t": "2026-08-10T07:03:05Z",
+  "gate": "A",
+  "subject": "More than 70% of Nasdaq 100 $QQQ stocks are now trading above their 200-day moving average, the strongest market breadth",
+  "verdict": "KILL",
+  "reason": "ON-TOPIC BUT ROUTINE: market metric wraps and analyst observations with no real-world consequence are explicitly banned; a 144-char tweet with no second fact, no person, and no felt impact has no story to build from."
+ },
+ {
+  "t": "2026-08-10T07:36:17Z",
+  "gate": "B",
+  "subject": "6 PROMPTS THAT BEAT <em>MOST PAID SALES COACHES</em> FOR FREE",
+  "verdict": "REJECT",
+  "reason": "PROMPTS ARE NEVER SHOWN (§1 + §4): The post is titled '6 PROMPTS' but zero actual prompt text appears on any slide. §1 requires utility to be 'taught in full on the slides, never just claimed.' Every slide describes the outcome of a prompt ('this prompt finds the buyers your competitors walk past') without showing a single word of the prompt itself. This is teaser content, not utility content — th"
+ },
+ {
+  "t": "2026-08-10T07:40:23Z",
+  "gate": "B",
+  "subject": "I REPLACED <em>$20,000 WORTH OF CONSULTANTS</em> WITH THESE 6 FREE AI PROMPTS",
+  "verdict": "REJECT",
+  "reason": "COVER CONTRACT BREACH (§4): The kicker reads 'WITHOUT PAYING FOR ADS' — a direct promise that no slide in the carousel ever cashes. Not one of the 6 prompts is framed around ad avoidance; the post is about consultant replacement. A stranger who stopped at the cover for that promise swipes through 8 slides and gets nothing on it. Fix: remove the kicker entirely, or replace it with something the sli"
  }
 ]

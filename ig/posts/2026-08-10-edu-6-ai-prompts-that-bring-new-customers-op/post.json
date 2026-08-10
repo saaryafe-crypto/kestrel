@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "I REPLACED <em>$20,000 WORTH OF CONSULTANTS</em> WITH THESE 6 FREE AI PROMPTS",
+   "kicker": "WITHOUT PAYING FOR ADS",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "posts/2026-08-10-edu-6-ai-prompts-that-bring-new-customers-op/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND 3 CUSTOMER TYPES <em>AI SEES THAT YOU DON'T</em>",
+   "hsize": 112,
+   "body": "A market research firm charges <b>$10,000</b> for a report mapping your untapped customer segments. Paste your business description into Claude and it finds the buyers your competitors are walking past. Use this prompt: 'Here is my business: [describe it in 2, 3 sentences]. Identify 3 untapped customer segments my competitors are overlooking, and explain why each one needs what I sell.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) BUILD YOUR CUSTOMER MAP <em>IN 5 MINUTES</em>",
+   "hsize": 112,
+   "body": "A branding consultant charges <b>$3,000</b> to build the document that tells you who your ideal buyer is and what stops them from purchasing. This prompt builds it from your own best past customers. Use this prompt: 'My 3 best customers are [describe each briefly]. Build me a complete ideal buyer profile, who they are, what they want, and what stops them from buying.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) GET AI TO WRITE <em>5 COLD MESSAGES IN ONE SHOT</em>",
+   "hsize": 112,
+   "body": "A freelance copywriter charges <b>$500</b> to write a cold outreach sequence. This prompt writes 5 different versions in under a minute, each using a different psychological angle to test. Use this prompt: 'My business is [X] and my ideal customer is [describe them]. Write 5 cold outreach messages, each using a different psychological angle: curiosity, social proof, pain point, desired result, and direct offer.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) LET AI BUILD <em>YOUR 5-PART LEAD MAGNET TONIGHT</em>",
+   "hsize": 112,
+   "body": "Most businesses spend weeks and <b>$3,000</b> to $5,000 building one. AI writes the complete structure in one conversation. Use this prompt: 'My business is [X] and my customer's biggest problem is [Y]. Build me a 5-part lead magnet: working title, hook, 5 section outlines with key points, and a call to action.'",
+   "media": "posts/2026-08-10-edu-6-ai-prompts-that-bring-new-customers-op/gen-4.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "5) GET REFERRALS WITH <em>ONE 60-WORD TEXT</em>",
+   "hsize": 112,
+   "body": "Referred customers convert <b>4x</b> better than cold leads and cost nothing to acquire. Most business owners never ask because they don't know what to say without sounding pushy. This prompt writes the exact message. Use this prompt: 'My business is [X]. Write me a 60-word text to ask a satisfied past customer for a referral, warm, specific, and not pushy.'",
+   "media": "posts/2026-08-10-edu-6-ai-prompts-that-bring-new-customers-op/gen-5.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "6) WRITE THE SENTENCE <em>THAT CLOSES STRANGERS IN 10 SECONDS</em>",
+   "hsize": 108,
+   "body": "A positioning consultant charges <b>$5,000</b> to find the one sentence that makes them lean in instead of nodding and walking away. This prompt finds it in two minutes. Use this prompt: 'I help [type of person] achieve [specific result] without [common obstacle]. Write one sentence a stranger hears and immediately asks, \"how does that work?\"'",
+   "media": "posts/2026-08-10-edu-6-ai-prompts-that-bring-new-customers-op/gen-6.jpg"
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 90,
+   "body": "You'll want these the next time you need a new customer. Save this post and try one tonight. These 6 prompts replace what consultants charge over $20,000 for.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through these. Most business owners pay thousands for agencies to find them new customers. These 6 AI prompts do the same job tonight, free. \ud83c\udfaf\n\nPrompt 1 finds 3 customer types your business has never targeted, prompt 2 maps your ideal buyer from your best past customers, prompt 3 writes 5 different cold outreach messages using different psychological angles, prompt 4 builds your complete lead magnet from scratch, prompt 5 gives you the exact referral message that gets replies, prompt 6 writes the one sentence that closes strangers in 10 seconds.\n\nBusinesses used to need agencies, consultants, and full marketing teams to find new customers. The gap is closing fast. The owners growing right now are the ones who figured out what questions to ask AI.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, OpenAI\n\n#ai #business #entrepreneur #marketingstrategy #aitools",
+ "pinned_comment": "Which one are you trying first? Prompt 5 is the most underrated. Most business owners have 10 past customers they've never asked for a referral.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT <em>FIND NEW CUSTOMERS TONIGHT</em> FOR FREE",
+   "<em>6 AI PROMPTS</em> THAT GROW YOUR BUSINESS WITHOUT ADS",
+   "6 PROMPTS THAT BRING <em>NEW CUSTOMERS TO YOU FREE</em>",
+   "<em>6 AI PROMPTS</em> THAT BRING NEW CUSTOMERS TONIGHT"
+  ],
+  "scores": [
+   6,
+   4,
+   4,
+   5
+  ],
+  "winner": 0,
+  "why": "The 'FREE TONIGHT' combo in [0] removes two major friction points at once\u2014cost and timing\u2014which hits harder for a midnight scroller. [3] has trendy AI credibility but can't overcome losing 'free,' the most powerful psychological hook here."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT CLOSE <em>STRANGERS IN 10 SECONDS</em> FOR FREE",
+   "6 PROMPTS THAT FIND <em>CUSTOMERS YOU'RE MISSING</em> FOR FREE",
+   "6 PROMPTS THAT <em>FIND NEW CUSTOMERS TONIGHT</em> FOR FREE",
+   "6 PROMPTS THAT BEAT <em>MOST PAID SALES COACHES</em> FOR FREE"
+  ],
+  "scores": [
+   6,
+   6,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "It's the boldest value flip\u2014free beats what people actually pay money for\u2014which makes you stop and think 'wait, how,' versus [2]'s solid urgency play that's just a time promise. The comparison to a known pain point (expensive coaches) hits harder."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (6/10)",
+ "editor_override": "COVER CONTRACT BREACH (\u00a74): The kicker reads 'WITHOUT PAYING FOR ADS' \u2014 a direct promise that no slide in the carousel ever cashes. Not one of the 6 prompts is framed around ad avoidance; the post is about consultant replacement. A stranger who stopped at the cover for that promise swipes through 8 slides and gets nothing on it. Fix: remove the kicker entirely, or replace it with something the sli"
+}
