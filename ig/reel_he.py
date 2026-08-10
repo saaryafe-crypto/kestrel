@@ -152,6 +152,12 @@ def make_overlay(title, out_png):
     page = (OVERLAY_HE.replace("FONTS", "file://" + os.path.join(HERE, "fonts"))
                       .replace("ART", "file://" + os.path.join(HERE, "art"))
                       .replace("TITLE", html.escape(title)))
+    # TITLE CLAMP (mirrors reel.make_overlay, owner post-mortem Aug 10): a
+    # 3-line title at 48px crosses into the video hole at y=545 — long
+    # titles drop to 40px so they never touch the video.
+    if len(title) > 66:
+        page = page.replace("font-size:48px;\n       color:#FFF",
+                            "font-size:40px;\n       color:#FFF")
     hp = out_png.replace(".png", ".html")
     open(hp, "w").write(page)
     reel.sh(CHROME, "--headless", "--disable-gpu",

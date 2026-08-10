@@ -232,6 +232,14 @@ def make_overlay(title, out_png):
     page = (OVERLAY.replace("FONTS", "file://" + os.path.join(HERE, "fonts"))
                    .replace("ART", "file://" + os.path.join(HERE, "art"))
                    .replace("TITLE", html.escape(title)))
+    # TITLE CLAMP (owner post-mortem Aug 10, the Optimus reel: 76 chars at
+    # 48px wrapped to 3 lines and crossed into the video hole at y=545 —
+    # the title box only has 545-365=180px). ~33 chars fit a 950px line at
+    # 48px Poppins SemiBold; anything wrapping past 2 lines drops to 40px
+    # (3 lines x 54px = 162px, safely above the hole).
+    if len(title) > 66:
+        page = page.replace("font-size:48px;color:#FFF;line-height:1.35",
+                            "font-size:40px;color:#FFF;line-height:1.35")
     hp = out_png.replace(".png", ".html")
     open(hp, "w").write(page)
     sh(CHROME, "--headless", "--disable-gpu", "--default-background-color=00000000",
@@ -363,8 +371,28 @@ def title_fits(src, dur, title, source_title):
                 os.remove(fp)
 
 
+def _static_clip(frames):
+    """Still-image-exported-as-video detector (owner post-mortem Aug 10, the
+    Jensen/Optimus reel: a static picture with podcast audio over it sailed
+    through every gate and shipped with a headline about a different story —
+    all our gates watch FRAMES, none can hear the audio. If the frames don't
+    move, the audio IS the content and we cannot verify it → banned).
+    Compares downscaled grayscale frames; fails open (the vision gate still
+    runs) so a Pillow hiccup never blocks the lane."""
+    try:
+        from PIL import Image, ImageChops
+        imgs = [Image.open(f).convert("L").resize((64, 64)) for f in frames]
+        for a, b in zip(imgs, imgs[1:]):
+            h = ImageChops.difference(a, b).histogram()
+            if sum(i * c for i, c in enumerate(h)) / (64 * 64) >= 2.0:
+                return False  # real motion between at least two frames
+        return True
+    except Exception:
+        return False
+
+
 def clip_ok(src, dur, channel):
-    """Vision QA on 2 extracted frames — rejects clips with another page's
+    """Vision QA on extracted frames — rejects clips with another page's
     handle / watermark / app logo baked into the video (owner Jul 28: "ig
     video can have a credit in it" — a repost-of-a-repost look kills the
     premium feel). Also the SUBJECT gate (owner Aug 3, the "AI could never"
@@ -373,8 +401,8 @@ def clip_ok(src, dur, channel):
     the only gate that actually watches the video, on BOTH routes).
     Fails closed, like image_ok."""
     frames = []
-    for frac in (0.2, 0.7):
-        fp = src.replace(".mp4", f"-qa{int(frac*10)}.jpg")
+    for frac in (0.2, 0.45, 0.7):
+        fp = src.replace(".mp4", f"-qa{int(frac*100)}.jpg")
         try:
             sh("ffmpeg", "-y", "-loglevel", "error", "-ss",
                str(max(0, int(dur * frac))), "-i", src, "-frames:v", "1", fp)
@@ -383,10 +411,18 @@ def clip_ok(src, dur, channel):
             pass
     if not frames:
         return False
+    if len(frames) >= 2 and _static_clip(frames):
+        print("clip QA rejected: static image exported as video — audio "
+              "content unverifiable (owner ban Aug 10)", file=sys.stderr)
+        for fp in frames:
+            if os.path.exists(fp):
+                os.remove(fp)
+        return False
+    qa2 = [frames[0], frames[-1]]  # vision gate keeps its 2-frame cost
     try:
         r = call_claude(
             "Frames from a video clip are attached (if not attached, use your "
-            f"Read tool on {' and '.join(frames)}). We want to repost this clip "
+            f"Read tool on {' and '.join(qa2)}). We want to repost this clip "
             "on our own branded Instagram page. Answer usable:false if any frame "
             "has a social-media username/handle (like @somepage), another news/"
             "meme page's watermark, a TikTok/CapCut/other app logo, or "
@@ -405,7 +441,7 @@ def clip_ok(src, dur, channel):
             "NOT count: judge what is physically in frame, not the text. "
             'Return ONLY JSON: {"usable": true/false, "reason": "one short '
             'phrase when false"}',
-            schema=CLIP_QA, images=frames, model=CHEAP)
+            schema=CLIP_QA, images=qa2, model=CHEAP)
         if not r.get("usable"):
             print(f"clip QA rejected: {r.get('reason', 'no reason given')}",
                   file=sys.stderr)
