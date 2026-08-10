@@ -1,0 +1,111 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>PEOPLE ARE MAKING A WEEK OF CONTENT</em> IN 20 MINUTES",
+   "kicker": "No agency. No blank page. Tonight.",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "posts/2026-08-10-edu-6-content-multiplication-prompts-turning/gen-0.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>EXTRACT MULTIPLE ANGLES</em> FROM ANY ROUGH IDEA",
+   "hsize": 108,
+   "body": "Most business owners spend 2 hours deciding what to post. \"Here is my rough idea: [idea]. Give me 3 different angles to post about. Write a one-sentence hook for each.\"",
+   "face": [],
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>TURN ONE ANGLE</em> INTO AN INSTAGRAM CAROUSEL",
+   "hsize": 106,
+   "body": "Writing a carousel from scratch takes 3 hours. This takes 2 minutes. \"Turn this into a 6-slide carousel. Slide 1 = hook. Slides 2-5 = one insight each. Slide 6 = action step.\"",
+   "face": [],
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>WRITE A FULL EMAIL NEWSLETTER</em> IN 5 MINUTES",
+   "hsize": 104,
+   "body": "A weekly email newsletter takes most business owners 4 hours. \"Turn this into a 200-word email. Subject line first. Casual tone. End with one question for replies.\"",
+   "face": [],
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>SCRIPT A 60-SECOND VIDEO</em> IN ONE SHOT",
+   "hsize": 108,
+   "body": "Video scripts take most people a full afternoon. \"Turn this into a 60-second video script. Hook first. Three quick points. Close with a question that makes people comment.\"",
+   "face": [],
+   "media": "posts/2026-08-10-edu-6-content-multiplication-prompts-turning/gen-4.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>TURN ONE IDEA INTO A FULL WEEK OF LINKEDIN POSTS</em>",
+   "hsize": 108,
+   "body": "LinkedIn posts take professionals 2 hours each. \"Rewrite this as 5 LinkedIn posts. Each one starts with a surprising first line. Different angle for each.\"",
+   "face": [],
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>GENERATE A MONTH OF ENGAGEMENT QUESTIONS</em>",
+   "hsize": 104,
+   "body": "Most business owners run out of content ideas within a week. \"Based on this topic, write 15 short questions my audience would ask. Each short enough to post alone.\"",
+   "face": [],
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> USE IT EVERY WEEK.",
+   "hsize": 90,
+   "body": "Six prompts. One idea in. A full week of content out. Daily AI tools that actually work, right here",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 6 prompts. These turn any rough idea into carousels, emails, video scripts, LinkedIn posts, and a month of engagement questions. \ud83d\uddd3\ufe0f\n\nPrompt 1 pulls 3 post angles from your roughest idea, Prompt 2 turns one angle into a full carousel script, Prompt 3 writes the newsletter with the subject line included, Prompt 4 scripts a 60-second video with hook and close built in, Prompt 5 rewrites the same idea as 5 different LinkedIn posts, Prompt 6 generates a month of questions your audience would actually ask.\n\nBusiness owners are quietly replacing hours of weekly content work with a single 20-minute AI session. Most people who try this once never go back to writing from scratch.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#ai #aitools #contentmarketing #businessowner #claudeai",
+ "pinned_comment": "Which one are you trying first? Prompt 6 is the sleeper. Drop one question from it on a Monday and your comments section fills itself all week.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS. 1 IDEA. <em>A WHOLE WEEK OF CONTENT.</em>",
+   "ONE ROUGH IDEA. <em>6 PROMPTS FILL YOUR WHOLE WEEK.</em>",
+   "<em>6 PROMPTS</em> THAT MULTIPLY 1 IDEA INTO A WEEK",
+   "<em>6 PROMPTS THAT REPLACE</em> 5 HOURS OF CONTENT WORK",
+   "<em>PEOPLE ARE MAKING A WEEK OF CONTENT</em> IN 20 MINUTES"
+  ],
+  "scores": [
+   4,
+   3,
+   4,
+   5,
+   7
+  ],
+  "winner": 4,
+  "why": "[4] shows people achieving something seemingly impossible (20 min for a whole week), [3] just promises time-savings. Actual results beat abstract benefits for a midnight scroller."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI CONTENT PROMPTS <em>MOST CREATORS OVERLOOK</em>",
+   "<em>PEOPLE ARE MAKING A WEEK OF CONTENT</em> IN 20 MINUTES",
+   "6 AI PROMPTS THAT REPLACE <em>YOUR CONTENT TEAM</em>",
+   "6 AI CONTENT PROMPTS <em>SO GOOD THEY FEEL ILLEGAL</em>"
+  ],
+  "scores": [
+   4,
+   8,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] creates genuine 'wait, WHAT?' confusion with a specific, measurable claim (a WEEK in 20 MINUTES) that makes you stop to figure out how. [2] sounds like typical marketing hyperbole; [1] feels like something real you need to know."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (7/10)",
+ "editor_override": "HOOK LAW \u2014 word count and completeness: 'PEOPLE ARE MAKING A WEEK OF CONTENT IN 20 MINUTES' is 10 words, below the 12-word minimum. More critically, it fails the SUMMARIZING COVER test: it gives no mechanism, no tool, no specifics beyond a time claim. The formula requires actor + what happened + the wild specifics. A reader can't repeat this to a friend with anything concrete behind it. Fix: expan"
+}
