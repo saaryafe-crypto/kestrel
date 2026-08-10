@@ -1,295 +1,253 @@
 {
- "updated": "2026-08-09T05:08:32+00:00",
+ "updated": "2026-08-10T05:08:29+00:00",
  "competitor_hits": [
   {
-   "page": "mashable",
-   "likes": 46000,
-   "ratio": 87.45,
-   "tier": "mega",
-   "hook": "\"Another adorable animal has taken over the internet.\n\nMomota, an 8-month-old polar bear cub, has taken the internet by storm with his love of traffic cones. Yes, you read that right, traffic cones. It seems the cub can\u2019",
-   "date": "2026-08-07"
-  },
-  {
    "page": "wired",
-   "likes": 12000,
-   "ratio": 14.02,
+   "likes": 3197,
+   "ratio": 2.6,
    "tier": "mega",
-   "hook": "\"For many years now, a dark question has haunted parents, teachers, the internet, and media institutions: What\u2019s wrong with young men?\n\nWhy, people ask, are boys so politically extreme, spouting misogynist rhetoric, and ",
-   "date": "2026-08-07"
-  },
-  {
-   "page": "techcrunch",
-   "likes": 222,
-   "ratio": 1.95,
-   "tier": "mega",
-   "hook": "\"You might not need a lawyer before you start fundraising, but you do need to set up a good legal foundation. \n\nIn this episode of Build Mode, CEO and founder of Lexsy @kristinasubbotina.esq breaks down the four unfixabl",
-   "date": "2026-08-07"
-  },
-  {
-   "page": "wired",
-   "likes": 1046,
-   "ratio": 1.22,
-   "tier": "mega",
-   "hook": "\"Part of a SpaceX rocket crashed into the moon, leaving a new crater behind, and all kinds of questions.\n\nTap the \ud83d\udd17 in bio for the full episode. Subscribe to or follow \"Uncanny Valley\" wherever you get your podcasts.\n\n#U",
-   "date": "2026-08-07"
-  },
-  {
-   "page": "technology",
-   "likes": 30000,
-   "ratio": 1.15,
-   "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to see the difference between 35mm and IMAX 70mm, and how Christopher Nolan\u2019s The Odyssey reveals dramatically more of every frame in its highest quality format \ud83c\udfac\ud83c\udf7f\n\nThe film was shot entirely with IMAX film cam",
-   "date": "2026-08-07"
+   "hook": "\"WIRED spoke with Tucker Bryant, an artist and former Google employee who created ChatTJB to get people to reflect on the \u201cstrange moment\u201d we\u2019re in.\n\nBryant tells WIRED he launched ChatTJB back in April, but it didn\u2019t ta",
+   "date": "2026-08-09"
   },
   {
    "page": "mashable",
-   "likes": 549,
-   "ratio": 1.04,
+   "likes": 1151,
+   "ratio": 1.93,
    "tier": "mega",
-   "hook": "\"MCU's Blade movie may be dead, but Mahershala Ali and filmmaker Bassam Tariq have created an original action movie from its ashes. \u2060\n\u2060\n\u2060\nWritten and directed by Tariq, \"Your Mother Your Mother Your Mother\" stars Ali as ",
-   "date": "2026-08-07"
+   "hook": "\"Willem Dafoe talks 'Late Fame' and how he approached his viral photo shoot #film #willemdafoe #movies\u2060\".",
+   "date": "2026-08-09"
   },
   {
    "page": "wired",
-   "likes": 666,
-   "ratio": 0.78,
+   "likes": 1824,
+   "ratio": 1.48,
+   "tier": "mega",
+   "hook": "\"Mugshawtys was started around a decade ago by Josh Jeffery, a 31-year-old electrician in California. Up until very recently, it had about 1.8 million Instagram followers, including many loyal, mostly male fans\u2014some of w",
+   "date": "2026-08-09"
+  },
+  {
+   "page": "wired",
+   "likes": 1041,
+   "ratio": 0.85,
    "tier": "mega",
    "hook": "\"The EU AI Act is the first-ever comprehensive legal framework on AI\u2014a \u201cglobal first,\u201d as European Commission president Ursula von der Leyen called it\u2014and aims to foster \u201ctrustworthy AI\u201d in Europe. Under Article 50 of th",
    "date": "2026-08-08"
   },
   {
-   "page": "wired",
-   "likes": 444,
-   "ratio": 0.52,
+   "page": "technology",
+   "likes": 19000,
+   "ratio": 0.83,
    "tier": "mega",
-   "hook": "\"After a rocky start with a few failed experiments in the past few years, across the fast-food industry the pendulum seems to be swinging back in the direction of AI-drive-thru adoption.\n\nIn addition to Taco Bell and Dai",
-   "date": "2026-08-07"
-  },
-  {
-   "page": "wired",
-   "likes": 381,
-   "ratio": 0.45,
-   "tier": "mega",
-   "hook": "\"On a rainy New York morning earlier this week, a WIRED reporter strapped to his wrist a lavender and pink plastic child\u2019s smartwatch and headed to work. As he approached his nearby subway station to commute to WIRED\u2019s o",
-   "date": "2026-08-08"
-  },
-  {
-   "page": "futurism",
-   "likes": 666,
-   "ratio": 0.29,
-   "tier": "mega",
-   "hook": "\"Whether magicians, thieves, or just fed up citizens, somebody has made an entire city\u2019s worth of ALPRs vanish in the night.\n\nAccording to new reporting by @mprnews, police in the city of Winona, Minnesota, are incensed ",
-   "date": "2026-08-07"
+   "hook": "\"A first-person camera mod for Marvel\u2019s Spider-Man 2 puts players directly inside Spider-Man\u2019s web swinging, turning every dive, flip and rotation into an intense ride \ud83d\udd77\ufe0f\n\nCreated for the PC version, the mod offers a con",
+   "date": "2026-08-09"
   },
   {
    "page": "technology",
-   "likes": 5720,
-   "ratio": 0.22,
+   "likes": 14000,
+   "ratio": 0.61,
    "tier": "mega",
-   "hook": "\"Palantir\u2019s latest earnings sent the internet into celebration mode after revenue surged 93% to $1.94 billion and the stock jumped nearly 30% in one day \ud83d\udcc8\n\nU.S. commercial revenue climbed 149% to $764 million, while U.S.",
+   "hook": "\"A modder has connected GTA III, Vice City and San Andreas using working portals that let players move between all 3 games without traditional loading screens \ud83c\udfae\ud83e\udd2f\n\nCreated by modder Dryxio, the experiment runs all 3 games",
+   "date": "2026-08-09"
+  },
+  {
+   "page": "wired",
+   "likes": 508,
+   "ratio": 0.41,
+   "tier": "mega",
+   "hook": "\"On a rainy New York morning earlier this week, a WIRED reporter strapped to his wrist a lavender and pink plastic child\u2019s smartwatch and headed to work. As he approached his nearby subway station to commute to WIRED\u2019s o",
    "date": "2026-08-08"
   }
  ],
  "reddit_hot": [
   {
    "sub": "technology",
-   "score": 18469,
-   "title": "Amazon secretly circumvents community vote for massive AI data center using 45-year-old rules \u2014 Gilroy residents locked out of public comment window"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 4239,
-   "title": "Samsung support accidentally pasted the ChatGPT prompt in the customer support chat"
+   "score": 17943,
+   "title": "Amazon\u2019s new 7.65GW Texas AI data center power plant could become the largest source of CO\u2082 pollution in the US \u2014 Custom 35-turbine gas plant permitted to emit 33 million tons of annual greenhouse gases"
   },
   {
    "sub": "technology",
-   "score": 3338,
-   "title": "AI creates 16 new viruses that never existed in nature after learning DNA pattern from 9 trillion nucleotides experts warn such applications are way ahead of necessary guardrails"
+   "score": 6655,
+   "title": "Christopher Nolan Says Your Disc Collection Is Safer Than Streaming / Nolan Cites Streaming Compression &amp; Vanishing Licenses As Reasons Physical Discs Remain The Definitive Home Format"
   },
   {
    "sub": "technology",
-   "score": 2607,
-   "title": "Cloudflare says humans could become a &quot;rounding error&quot; as bots generate 1,000 times more internet traffic"
+   "score": 5873,
+   "title": "Littleton claims Flock reactivated its cameras without notifying the town | Town to initiate cancellation of Flock contract"
   },
   {
    "sub": "technology",
-   "score": 2562,
-   "title": "New Amazon Data Center Stokes Worry It Would Be the Most Polluting Power Plant in the U.S."
+   "score": 4586,
+   "title": "Windows 11\u2019s Weather app uses 5x the RAM of macOS Weather, and it still shows ads"
   },
   {
    "sub": "technology",
-   "score": 2174,
-   "title": "\u2018Humans will be a rounding error on the internet\u2019 says Cloudflare exec"
-  },
-  {
-   "sub": "technology",
-   "score": 2094,
-   "title": "Chandler drops Flock cameras after misuse audit"
-  },
-  {
-   "sub": "technology",
-   "score": 2028,
-   "title": "How period trackers share your private details"
+   "score": 3997,
+   "title": "Myspace eyes comeback as an 'antidote' to social media fatigue"
   },
   {
    "sub": "Futurology",
-   "score": 1536,
-   "title": "New Orleans will use AI to answer 911 calls instead of a human"
+   "score": 2718,
+   "title": "'AI Is Destroying Jobs Faster Than It Is Visibly Creating Them': Tech Layoffs Hit Record Highs"
   },
   {
    "sub": "technology",
-   "score": 1234,
-   "title": "Chinese Scientists Made Glowing Plants with Firefly DNA to Replace Streetlights"
+   "score": 2518,
+   "title": "Open-source stealth USB hides an encrypted partition behind an 8GB decoy drive Phantom Drive appears as a regular USB stick until you create a text file to unlock the hidden data"
   },
   {
    "sub": "technology",
-   "score": 1111,
-   "title": "An Innocent Driver Was Held at Gunpoint Over a Flock Camera Mix-Up: \u201cWrong Person But Also Wrong Car\u201d"
+   "score": 2235,
+   "title": "Meta CTO says employees should use AI productivity gains to do more work, calls request for extra days off &quot;very dumb&quot;"
   },
   {
    "sub": "technology",
-   "score": 1007,
-   "title": "Flock wanted to put license plate cameras on 350,000 Uber and Lyft dashcams"
+   "score": 2161,
+   "title": "FCC moves to ban LiDAR-equipped foreign drones from US \u2014 classifies the technology as &quot;military-grade&quot; in a proposal that could also hit thermal models and the swarms used in drone light shows"
+  },
+  {
+   "sub": "technology",
+   "score": 1975,
+   "title": "After 24 years, Return to Castle Wolfenstein is finally distributed uncut in Germany \u2014 game was censored due to strict laws regarding Nazi symbolism"
   },
   {
    "sub": "singularity",
-   "score": 946,
-   "title": "This is why the vast majority aren't taking any &quot;this new model is dangerous&quot; messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye"
-  },
-  {
-   "sub": "technology",
-   "score": 923,
-   "title": "Sinclair CEO Chris Ripley &quot;Couldn't Be Happier&quot; About Expected FCC Repeal Of Ownership Cap"
+   "score": 1958,
+   "title": "Google needs to up their game"
   },
   {
    "sub": "Futurology",
-   "score": 907,
-   "title": "AI models are behaving unexpectedly. Experts warn of &quot;a really bumpy road&quot; ahead."
-  },
-  {
-   "sub": "technology",
-   "score": 864,
-   "title": "Savannah Police Department fires 6 employees over Flock Safety System misuse | GBI conducting independent criminal investigation into unauthorized system searches"
-  },
-  {
-   "sub": "technology",
-   "score": 824,
-   "title": "Amazon's AI Warehouses Are Struggling With A Real Human Problem"
+   "score": 1574,
+   "title": "\u2018AI Kill Switch\u2019 bill needs to be passed this year amid ongoing rogue agent hacks, Rep. Lieu says"
   },
   {
    "sub": "ChatGPT",
-   "score": 704,
-   "title": "I've been trying to get chatgpt to visualize this for a while and 5.6 finally nailed it: How small of a window life on earth has"
+   "score": 1380,
+   "title": "What do I want to be? - a poem about parenting in the AI age [OC]"
+  },
+  {
+   "sub": "technology",
+   "score": 1278,
+   "title": "20% of Americans are already using AI for financial advice \u2014 another 70% don't trust it"
+  },
+  {
+   "sub": "technology",
+   "score": 1223,
+   "title": "Reading the room perfectly, US president becomes greatest defender of AI data centers \u2014 \u2018I saw Texas the other day sort of is against data centers. I think it\u2019s a mistake\u2019"
   },
   {
    "sub": "Futurology",
-   "score": 703,
-   "title": "Meta becomes latest firm to say its AI hacked another company"
-  },
-  {
-   "sub": "OpenAI",
-   "score": 650,
-   "title": "Your scientists were so... uh..."
+   "score": 1219,
+   "title": "The Hugging Face hack is a PR crisis that\u2019s costing OpenAI millions"
   },
   {
    "sub": "technology",
-   "score": 607,
-   "title": "How Amazon Built a Data Center in a California Town Without Anyone Noticing"
+   "score": 1165,
+   "title": "Data Center Bans Top 500 as New York, Texas Join Pushback"
   },
   {
    "sub": "technology",
-   "score": 563,
-   "title": "New Orleans will use AI to answer 911 calls instead of a human"
+   "score": 1144,
+   "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy"
+  },
+  {
+   "sub": "technology",
+   "score": 1079,
+   "title": "\u2018I\u2019ve definitely lost followers\u2019: influencers face backlash over Meta \u2018pervert glasses\u2019 content"
   },
   {
    "sub": "Futurology",
-   "score": 556,
-   "title": "OpenAI locks down Astra after model raises first-ever critical cyber capability fears"
+   "score": 1078,
+   "title": "Pentagon Building AI Data Centers at Military Bases Including U.S. Military's Main Chemical and Biological Weapons Lab"
+  },
+  {
+   "sub": "Futurology",
+   "score": 1021,
+   "title": "Mathematicians are grappling with the possibility that AI might eclipse them"
   },
   {
    "sub": "technology",
-   "score": 536,
-   "title": "We tested the impact of SSD speed on gaming performance in 11 titles &amp; we analyzed from SATA to PCIe 5.0 to see whether upgrading to a faster NVMe SSD would have an impact"
-  },
-  {
-   "sub": "OpenAI",
-   "score": 535,
-   "title": "Stack Overflow has gone from a peak of 207k questions in March 2014, down to 1.4k in July 2026"
-  },
-  {
-   "sub": "singularity",
-   "score": 526,
-   "title": "GPT 5.6 Sol and Fable 5 settle a 25 year old problem in wireless communication theory"
-  },
-  {
-   "sub": "singularity",
-   "score": 512,
-   "title": "AI Model Trained In DNA Invents 16 New Viruses Not Found In Nature"
+   "score": 665,
+   "title": "Flock Planned to Turn 350,000 Uber and Lyft Cars Into Rolling Surveillance Cameras"
   },
   {
    "sub": "technology",
-   "score": 512,
-   "title": "Upgradable Laptop Maker Framework Suffers Breach Affecting All Customers"
+   "score": 652,
+   "title": "Remembering the pre-Google web, when search was an experiment: \u201cMost people have completely forgotten how chaotic it really was.\u201d"
   },
   {
    "sub": "technology",
-   "score": 487,
-   "title": "Doom developer Chris Hays slams Xbox after layoffs hit id Software: &quot;They fundamentally don't understand art. They don't understand games&quot;: &quot;We're not the same iD, we're half the same iD.&quot;"
+   "score": 610,
+   "title": "Microsoft confirms it accidentally installed new OneDrive app on Windows 11 PCs, and there's no easy way to remove it yet"
   },
   {
    "sub": "technology",
-   "score": 457,
-   "title": "America\u2019s Cyber Forces Grapple With Cluster of Deaths by Suicide"
+   "score": 608,
+   "title": "Kansas town silences public comment on gigawatt AI data center after receiving death threats, moves to virtual meetings \u2014 shift follows physics teacher's arrest for clapping at data center hearing"
   },
   {
    "sub": "technology",
-   "score": 366,
-   "title": "20% of workers say they use AI for tasks that used to be given to colleagues, poll finds"
+   "score": 588,
+   "title": "Delivery drivers take over as top SNAP recipients as taxpayers help gig workers make ends meet | These jobs are becoming more essential as a primary source of income, even as they fail to cover basic food and medical expenses for gig workers"
   },
   {
    "sub": "technology",
-   "score": 355,
-   "title": "New Amazon Data Center Stokes Worry It Would Be the Most Polluting Power Plant in the U.S."
+   "score": 525,
+   "title": "Camera Outside Arizona Gynecology Exam Room Raises Patient Privacy Questions"
   },
   {
    "sub": "ChatGPT",
-   "score": 329,
-   "title": "This is why the vast majority aren't taking any &quot;this new model is dangerous&quot; messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye"
-  },
-  {
-   "sub": "OpenAI",
-   "score": 326,
-   "title": "This is why the vast majority aren't taking any &quot;this new model is dangerous&quot; messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye"
+   "score": 524,
+   "title": "Australian man's AI agent goes rogue and hacks his own Gym to push him up the waiting list."
   },
   {
    "sub": "technology",
-   "score": 311,
-   "title": "Developer ported Word for Windows 1.1a from 1990 to run natively on Windows 11"
-  },
-  {
-   "sub": "singularity",
-   "score": 286,
-   "title": "Why is Reddit so delusional about AI capability?"
-  },
-  {
-   "sub": "technology",
-   "score": 257,
-   "title": "Big Tech AI Spree Revives Accounting Devices That Toppled Enron"
-  },
-  {
-   "sub": "ChatGPT",
-   "score": 250,
-   "title": "&quot;The agent is working in the sandbox&quot;.... Meanwhile the agent."
+   "score": 524,
+   "title": "Roku Unleashes 24/7 AI Slop Channel"
   },
   {
    "sub": "Futurology",
-   "score": 247,
-   "title": "Zelensky says a robot has gone into the most dangerous place instead of a soldier more than 22,000 times in the Ukraine war. Has the fear of your own dead ever actually stopped a democracy from going to war?"
+   "score": 472,
+   "title": "Why billion-dollar robotics startups are obsessed with folding laundry"
+  },
+  {
+   "sub": "ChatGPT",
+   "score": 364,
+   "title": "Life these days"
+  },
+  {
+   "sub": "ChatGPT",
+   "score": 335,
+   "title": "A picture is worth ~1,000 ~words according to Google AI Studio"
+  },
+  {
+   "sub": "technology",
+   "score": 307,
+   "title": "The world's leading AI companies are all struggling to contain their latest models"
+  },
+  {
+   "sub": "Futurology",
+   "score": 289,
+   "title": "Stanford is running 37,000 AI agents as a virtual biotech \u2014 and one of its drug designs got independently confirmed by Merck"
+  },
+  {
+   "sub": "ChatGPT",
+   "score": 288,
+   "title": "HRT Conjecture Disproven with GPT 5.6 Pro"
   },
   {
    "sub": "singularity",
    "score": 232,
-   "title": "What YouTube videos Dario was watching to calm down after fighting with Sam? Right answers only"
+   "title": "More info about upcoming models Astra and Doug"
+  },
+  {
+   "sub": "singularity",
+   "score": 209,
+   "title": "AiBattle (@AiBattle_) on X: &quot;Potential new GPT-Image model has appeared on the Arena under the name &quot;Mona-lisa-1&quot;&quot;"
+  },
+  {
+   "sub": "technology",
+   "score": 208,
+   "title": "AI detectors are creating a new era of distrust | Tools that promise to detect AI writing can be dubious, but educators and publishers are using them anyway"
   }
  ]
 }
