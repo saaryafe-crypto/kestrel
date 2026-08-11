@@ -17,12 +17,19 @@ def urls_live(urls, min_bytes=15000):
     for u in urls:
         for attempt in range(6):
             try:
-                req = urllib.request.Request(u, method="HEAD")
-                with urllib.request.urlopen(req, timeout=30) as r:
-                    if int(r.headers.get("Content-Length") or 0) >= min_bytes:
+                # Full GET, not HEAD (Aug 11 root-cause: 8 valid JPEGs passed
+                # HEAD, then IG's own fetch hit a cold raw.githubusercontent
+                # edge and errored 9004 "Only photo or video can be accepted").
+                # A real GET warms the CDN edge and lets us verify the bytes.
+                with urllib.request.urlopen(u, timeout=60) as r:
+                    body = r.read()
+                    if u.endswith(".jpg") and body[:2] != b"\xff\xd8":
+                        raise SystemExit(f"{u}: served {len(body)} bytes that "
+                                         "are NOT a JPEG — refusing to publish")
+                    if len(body) >= min_bytes:
                         break
                     print(f"{u}: live but suspiciously small "
-                          f"({r.headers.get('Content-Length')} bytes)", file=sys.stderr)
+                          f"({len(body)} bytes)", file=sys.stderr)
             except Exception as e:
                 print(f"{u}: not live yet ({e}), attempt {attempt + 1}/6",
                       file=sys.stderr)
@@ -123,7 +130,24 @@ def main(post_dir, base_url):
     send(payload)
 
 
-def send(payload):
+def send(payload, tries=3):
+    """Retry ladder on Make/IG 5xx (Aug 10 16:31 + Aug 11 18:52: two slots
+    died on transient IG-side errors at the carousel module). Safe to re-fire:
+    the scenario's error branch only answers 500 when the IG module errored
+    and rolled back — nothing was published. Non-5xx errors don't retry."""
+    for attempt in range(tries):
+        try:
+            return _send_once(payload)
+        except SystemExit as e:
+            retryable = "HTTP 5" in str(e) or "publish failed" in str(e)
+            if attempt == tries - 1 or not retryable:
+                raise
+            print(f"publish attempt {attempt + 1}/{tries} failed ({e}) — "
+                  "retrying in 120s", file=sys.stderr)
+            time.sleep(120)
+
+
+def _send_once(payload):
     headers = {"Content-Type": "application/json"}
     if os.environ.get("MAKE_API_KEY"):
         headers["x-make-apikey"] = os.environ["MAKE_API_KEY"]

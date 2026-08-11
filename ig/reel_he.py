@@ -61,6 +61,23 @@ HE_SCHEMA = {"type": "object",
              "required": ["title", "caption"]}
 
 
+STRIKES_OUT = 2  # re-fetch failures before a clip is declared dead
+
+
+def _strike(post_dir):
+    """Source clip failed to re-fetch — count it. The Jul-30 Reddit clip sat
+    'This video is processing' for 12 days and burned 5+ HE slots (#108 #112
+    #117 #122 #124) because backlog() retried it forever. Two strikes = dead,
+    backlog() drops it for good."""
+    f = os.path.join(post_dir, "fetch-strikes")
+    n = 1
+    try:
+        n = int(open(f).read()) + 1
+    except Exception:
+        pass
+    open(f, "w").write(str(n))
+
+
 def backlog():
     """English reel dirs without a Hebrew twin, newest first (Jul 31 audit:
     trying only the newest meant one dead source link killed the slot forever
@@ -73,6 +90,11 @@ def backlog():
             continue
         if os.path.exists(os.path.join(HERE, "posts-he", d, "reel.mp4")):
             continue
+        try:  # dead source (see _strike) — never retry it again
+            if int(open(os.path.join(full, "fetch-strikes")).read()) >= STRIKES_OUT:
+                continue
+        except Exception:
+            pass
         dirs.append(full)
     # newest first BY NAME (dirs start with the date; mtime lies on fresh clones)
     return sorted(dirs, key=os.path.basename, reverse=True)
@@ -201,6 +223,8 @@ def main():
         # call_claude RuntimeError "Request timed out"). Both fall through.
         except (SystemExit, Exception) as e:
             last = e
+            if "could not re-fetch source clip" in str(e):
+                _strike(post_dir)
             print(f"{os.path.basename(post_dir)} failed ({e}) — "
                   "trying the next backlog reel", file=sys.stderr)
     raise SystemExit(f"all {min(3, len(cands))} backlog reels failed; last: {last}")
