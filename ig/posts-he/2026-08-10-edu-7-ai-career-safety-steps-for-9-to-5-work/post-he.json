@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שבעה מהלכי AI: <em>אפליקציה תוך שלושה ימים ואי אפשר לפטר אותך</em>",
+   "kicker": "רוב העובדים לא עשו אפילו מהלך אחד",
+   "hsize": 72,
+   "media": "posts/2026-08-10-edu-7-ai-career-safety-steps-for-9-to-5-work/gen-0-rescue.jpg",
+   "image_prompt": "Paper shredder erupting with white strips upward, electric blue warning triangle on laptop screen, dark wood desk."
+  },
+  {
+   "type": "content",
+   "headline": "1) הורד את Codex ובנה את <em>האפליקציה הראשונה שלך הלילה</em>",
+   "hsize": 90,
+   "body": "מי שבונה לראשונה שולח אפליקציה תוך שלושה ימים. <b>\"בנה לי [הרעיון שלך] עם Next.js בצד הממשק ו-Convex בצד הנתונים. תוסיף כניסת משתמשים\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) ספר לסוכן ה-AI <em>הכל על החיים שלך ועל המטרות שלך</em>",
+   "hsize": 90,
+   "body": "אם תספר לסוכן ה-AI על עצמך, הוא הופך לאסטרטג אישי שלך. <b>\"הנה הקריירה שלי, המטרות שלי, והשאיפות הגדולות שלי. אילו חמישה תהליכים תוכל להריץ בשבילי עכשיו?\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) בנה <em>Mission Control</em> אישי שרץ בזמן ששינת",
+   "hsize": 82,
+   "body": "כל משימה שאתה עושה ידנית היא זמן וכסף שאתה מפסיד. <b>\"הרגע עשיתי [משימה] ידנית. תראה לי בדיוק איך לאוטומט את זה ותוסיף אותה ל-Mission Control שלי\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) דחוף את Claude Max <em>עד הגבול בכל שבוע</em>",
+   "hsize": 82,
+   "body": "רוב האנשים בקושי משתמשים במה שהם משלמים עליו. אם לא הגעת לגבול השימוש כל שבוע, אתה לא דוחף מספיק. <b>\"זאת הבעיה הכי קשה שלי עכשיו: [הסבר]. תן לי תוכנית שלב אחר שלב\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) שימוש ב-AI מתחת ל-50%? <em>אתה כבר מאחור</em>",
+   "hsize": 88,
+   "body": "המתחרים שלך שורפים AI כל שבוע. שימוש מתחת ל-50% אומר שאתה נשאר מאחור. <b>\"תרשום כל משימה שלא העברתי ל-AI השבוע. למה? תתקן אחת עכשיו\"</b>",
+   "media": "posts/2026-08-10-edu-7-ai-career-safety-steps-for-9-to-5-work/gen-5.jpg",
+   "image_prompt": "Two identical smartphones on a dark table — the left phone shows a usage bar at roughly 20% capacity, dim and grey. The right phone shows the same bar blazing at 85%, electric blue light pouring off it and washing across the left device, outshining it. Documentary news photo, 35mm, harsh on-camera flash, slight film grain, zero readable text. Accent: electric blue against charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "6) השתמש ב-Claude Code לתכנון, <em>ב-Codex לבנייה</em>",
+   "hsize": 85,
+   "body": "שני הכלים עושים דברים שונים. Claude Code מפרק מה לבנות. Codex כותב את הקוד. <b>\"תכנן את המבנה של [האפליקציה] בשפה פשוטה, בלי קוד עדיין\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) הפלטפורמה שלך היא <em>קורות החיים החדשים שלך</em>",
+   "hsize": 104,
+   "body": "יותר ויותר מנהלי גיוס גוגלים אותך לפני שהם פותחים קורות חיים. הם בודקים מה אתה מפרסם, מה אתה בונה, ומי עוקב אחריך. <b>\"תהפוך את [הפרויקט שלי] לחמישה פוסטים שמראים מה בניתי ואיך\"</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה</em>",
+   "hsize": 110,
+   "body": "שבעת השלבים האלה יהיו שם כשתצטרך אותם. חדשות AI יומיות וכישורים אמיתיים אצל <b>@ainews.israel</b>",
+   "media": null
+  }
+ ],
+ "caption": "שבעה מהלכי AI שהופכים אותך לבלתי ניתן להחלפה, ומי שנשאר על 20% שימוש ייחתך ראשון 🎯\n\nתעבור על כל השבעה לפני ביקורת הביצועים הבאה שלך. כל שלב הוא משהו שאפשר להתחיל הלילה.\n\nהורד את Codex ושלח את האפליקציה הראשונה שלך, ספר לסוכן ה-AI הכל על עצמך ועל המטרות שלך, בנה Mission Control שרץ כל הלילה, דחוף את Claude Max לגבול בכל שבוע, שמור על שימוש מעל 50% בכל כלי AI שיש לך, שלב Claude Code לתכנון עם Codex לבנייה, ואז פרסם מה שבנית בתור קורות חיים חדשים.\n\nחברות בוחרות לפי מה שאתה בונה, לא לפי מה שכתוב בקורות חיים. מי שדוחף AI לגבולות שלו כל שבוע הופך לבלתי ניתן להחלפה. מי שנשאר על 20% שימוש ייחתך ראשון.\nמנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: AlexFinn\n\nעקבו אחרי @ainews.israel לחדשות AI יומיות\n\n#AISkills #CareerGrowth #ArtificialIntelligence #AITools #FutureOfWork",
+ "pinned_comment": "באיזה שלב אתה מתחיל הלילה? רוב האנשים קופצים ישר לשלב 7, אבל שלב 3 (Mission Control) הוא זה שמצטבר בשקט כל שבוע.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>IF YOU HAVE A 9-5</em>, TAKE THESE 7 AI STEPS",
+   "7 AI STEPS THAT <em>KEEP YOUR JOB</em> IN 2026",
+   "7 STEPS TO USE AI <em>BEFORE YOUR JOB USES YOU</em>",
+   "7 AI STEPS EVERY <em>9-5 WORKER</em> NEEDS RIGHT NOW",
+   "<em>7 AI MOVES</em> BEFORE YOUR BOSS REPLACES YOU"
+  ],
+  "scores": [
+   5,
+   6,
+   6.5,
+   7,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] hits a primal threat (boss replaces you) that stops scrolling dead; [3] adds urgency with 'RIGHT NOW' but it's a standard pressure tactic, while actual replacement anxiety is visceral and real."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "no-face rescue",
+ "editor_override": "HOOK LAW §2 — AND joins two actions: 'SHIPPED APPS IN 3 DAYS' and 'MADE THEMSELVES IMPOSSIBLE TO REPLACE'. The law requires one action; cut the weaker one. 'Shipped apps in 3 days' is the proof detail that already lives in slide 2's body. The stronger payoff is the irreplaceability — keep that as the single action, then fold '3 days' in as a subordinate clause or drop it from the hook entirely.; I",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

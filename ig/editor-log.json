@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-04T00:06:16Z",
-  "gate": "A",
-  "subject": "Worth noting that any USAID funding that appeared to have the slightest merit whatsoever for helping people in need was ",
-  "verdict": "KILL",
-  "reason": "This is a political opinion tweet with no tech/AI/space story, no specific event with felt consequences, and a scout interest score of 2/10 — it fails every qualification in Story Law and is off-brand for the page."
- },
- {
   "t": "2026-08-04T00:06:26Z",
   "gate": "A",
   "subject": "Slavery was ended primarily by Britain",
@@ -2098,5 +2091,12 @@
   "subject": "Let this sink in: In Israel, as part of an election campaign, a cabinet minister issues an AI video showing how his poli",
   "verdict": "KILL",
   "reason": "Single-sourced reaction-bait allegation with no named actor, verification, or real-world consequence—and off-brand political content for a tech account."
+ },
+ {
+  "t": "2026-08-11T14:56:34Z",
+  "gate": "A",
+  "subject": "Let this sink in: In Israel, as part of an election campaign, a cabinet minister issues an AI video showing how his poli",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the substance is an unverified allegation in a single tweet with no cabinet minister named, no video shown, no reporting behind it, and no real-world consequence beyond the tweet itself earning engagement."
  }
 ]
