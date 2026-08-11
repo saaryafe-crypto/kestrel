@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 AI PROMPTS THAT TURN <em>1-STAR REVIEWS</em> INTO REPEAT CUSTOMERS",
+   "kicker": "NO REPUTATION MANAGER NEEDED",
+   "hsize": 72,
+   "media": "posts/2026-08-11-edu-6-ai-prompts-that-make-bad-reviews-good-/gen-0.jpg",
+   "image_prompt": "A single colossal five-pointed gold star \u2014 skyscraper-tall \u2014 looms over a tiny brick storefront at night, its amber glow flooding the building like a threat. No readable signage. Documentary news photo, 35mm, harsh flash, film grain. Accent: blazing amber against deep navy sky."
+  },
+  {
+   "type": "content",
+   "headline": "1) TURN A <em>1-STAR REVIEW</em> INTO A RESPONSE THAT WINS THEM BACK",
+   "hsize": 80,
+   "body": "A restaurant owner tried this; the customer came back and updated to <b>4 stars</b>. Use this: \"Write a response under <b>100 words</b> that acknowledges the specific complaint and offers one concrete next step.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) FIND THE PATTERN <em>QUIETLY KILLING YOUR REPUTATION</em>",
+   "hsize": 96,
+   "body": "A gym owner pasted <b>40 negative reviews</b> into Claude and found <b>3 hidden problems</b> he'd missed for months. Use this: \"List complaints appearing more than once, rank by frequency, give one fix each.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) CATCH UNHAPPY CUSTOMERS <em>BEFORE THEY POST PUBLICLY</em>",
+   "hsize": 92,
+   "body": "After one business added a follow-up text, unhappy customers started reaching out privately instead of going public. Use this: \"Write two texts, Version A for reviews, Version B for complaints, each under <b>60 words</b>.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) WRITE A RESPONSE <em>TO A COMPLAINT GOING VIRAL</em>",
+   "hsize": 96,
+   "body": "Most businesses post something they regret. Claude writes a better response in <b>30 seconds</b>. Use this: \"Write a public reply under <b>120 words</b>, take responsibility, state one specific change, no corporate language.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) GIVE YOUR WHOLE TEAM <em>A WORD-FOR-WORD SCRIPT</em>",
+   "hsize": 96,
+   "body": "A salon owner spent <b>6 months</b> training staff on complaints. Claude produced the full script in <b>4 minutes</b>. Use this: \"Five-step phone script: vent, validate, apologize, fix, confirm. Each step under <b>20 seconds</b>.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) TURN A FIXED COMPLAINT <em>INTO A LIFELONG CUSTOMER</em>",
+   "hsize": 96,
+   "body": "Most owners stop at the fix. Use this: \"Write a <b>3-email sequence</b>: today, then <b>2 weeks</b> with a surprise offer, then <b>60 days</b> asking for a review. Each under 100 words.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 110,
+   "body": "You'll want these the next time a bad review lands. Save this post. Daily AI news and real skills.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through these 6 prompts. \ud83d\udd16 Each one handles a real moment most business owners dread, and each takes 30 seconds to use.\n\n1) turn a 1-star review into a response that wins the customer back, 2) find the pattern in your negative reviews, 3) catch unhappy customers before they post publicly, 4) write a public response when a complaint goes viral, 5) give your team a word-for-word script for angry customers, 6) turn a fixed complaint into a lifelong customer\n\nMost business owners ignore bad reviews or spend an hour writing something they regret. These prompts handle it in 30 seconds. They work for any business where a customer can leave a public rating.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#AItools #BusinessGrowth #CustomerExperience #AIprompts #SmallBusiness",
+ "pinned_comment": "Which of these are you trying tonight? Slide 6 is the one most people skip, but it's the one that keeps customers coming back.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT TURN <em>1-STAR REVIEWS</em> INTO LOYAL CUSTOMERS",
+   "<em>6 PROMPTS</em> YOUR REPUTATION MANAGER DOESN'T WANT YOU TO KNOW",
+   "6 PROMPTS THAT MAKE <em>BAD REVIEWS</em> GOOD FOR BUSINESS",
+   "6 PROMPTS THAT STOP <em>BAD REVIEWS</em> FROM KILLING YOUR BUSINESS",
+   "<em>6 COPY-PASTE PROMPTS</em> THAT TURN ANGRY CUSTOMERS INTO LOYAL ONES"
+  ],
+  "scores": [
+   6,
+   4,
+   8,
+   5,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] makes you think 'wait, HOW are bad reviews good for business?'\u2014that counterintuitive claim stops scrolls; [4]'s copy-paste angle is practical but sounds like the 100th productivity hook you've passed."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS MOST BUSINESSES <em>NEVER USE</em> WHEN A BAD REVIEW HITS",
+   "6 PROMPTS THAT STOP <em>VIRAL COMPLAINTS</em> FROM <em>KILLING YOUR REPUTATION</em>",
+   "6 AI PROMPTS THAT TURN <em>1-STAR REVIEWS</em> INTO REPEAT CUSTOMERS",
+   "6 PROMPTS THAT MAKE <em>BAD REVIEWS</em> GOOD FOR BUSINESS"
+  ],
+  "scores": [
+   5,
+   7,
+   8,
+   6
+  ],
+  "winner": 2,
+  "why": "[2] hits the 'wait, WHAT?' stop-scrolling moment with a specific, shocking transformation (1-star INTO repeat customer), while [1], though emotionally high-stakes, reads as competent but expected marketing advice that doesn't grab at 2am."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Cover image fails the thumb test (\u00a73). The giant glowing gold star over a brick building is symbolic decoration \u2014 at feed size, a cold scroller reads 'star rating' at best, never 'AI prompts' or 'fixing a bad review.' Image Law requires PROOF or a STAGED SCENE of the story. Fix: replace with a human face \u2014 a business owner staring at their phone with a visible 1-star notification, or a split-scree"
+}
