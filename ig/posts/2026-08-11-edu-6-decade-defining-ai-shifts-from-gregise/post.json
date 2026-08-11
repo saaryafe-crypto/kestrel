@@ -1,0 +1,78 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SUPERINTELLIGENCE NOW COSTS <em>$20 A MONTH</em>, AND 5 MORE SHIFTS ARE TURNING 3-PERSON TEAMS INTO $10M BUSINESSES",
+   "kicker": "ALL 6 ARE HAPPENING RIGHT NOW",
+   "hsize": 72,
+   "media": "posts/2026-08-11-edu-6-decade-defining-ai-shifts-from-gregise/gen-0.jpg",
+   "image_prompt": "Monitor displaying cascading warning symbols\u2014dollar sign, alert triangle, red cross\u2014in electric blue and gold against deep navy. Stark desk setting. News photograph, harsh light, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) GET SUPERINTELLIGENCE <em>FOR $20 A MONTH</em>",
+   "body": "THE SAME INTELLIGENCE THAT USED TO COST THOUSANDS A MONTH NOW COSTS <b>$20</b>. Claude Pro and ChatGPT Plus score above bar exam and medical licensing passing thresholds.",
+   "hsize": 100,
+   "media": "posts/2026-08-11-edu-6-decade-defining-ai-shifts-from-gregise/gen-1.jpg",
+   "image_prompt": "Two hands from the wrists only \u2014 no face visible \u2014 pinching a single crisp $20 bill centered chest-high in frame; directly behind it an enormous glowing electric-blue neural network of dense interconnected nodes and data lines towers floor to ceiling, dwarfing the bill completely. No readable text anywhere. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric blue against dark charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "2) RUN YOUR BUSINESS <em>24/7 FROM YOUR PHONE</em>",
+   "body": "AI AGENTS DON'T SLEEP AND DON'T NEED A SALARY. Business owners set up agents to handle customer questions and book calls around the clock, from their phones.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) GIVE YOUR AI <em>ITS OWN INBOX</em>",
+   "body": "COMPANIES ARE ALREADY GIVING AI EMPLOYEES REAL EMAIL ADDRESSES, CALENDAR ACCESS, AND LOGIN CREDENTIALS. A <b>shadow economy</b> is forming where agents manage other agents.",
+   "hsize": 100,
+   "media": "posts/2026-08-11-edu-6-decade-defining-ai-shifts-from-gregise/gen-3.jpg",
+   "image_prompt": "Clearly mechanical silver robot arms from elbow to hand \u2014 no face, no torso, no human \u2014 resting on a laptop keyboard, the open laptop screen glowing with a tight 5\u00d75 grid of white envelope icons and absolutely no readable text. Dark charcoal office background. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric blue screen glow against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "4) A 10-PERSON TEAM CAN <em>OUT-SHIP 500 PEOPLE</em>",
+   "body": "SPEED IS THE NEW MOAT. SMALL TEAMS WITH AI SHIP FASTER THAN COMPANIES 50 TIMES THEIR SIZE. The <b>10-person startup</b> used to lose on pure output. Now it ships faster.",
+   "hsize": 100,
+   "media": "posts/2026-08-11-edu-6-decade-defining-ai-shifts-from-gregise/gen-4.jpg",
+   "image_prompt": "Ten glowing electric-blue human silhouettes seen from behind stand in a tight cluster facing a sprawling grey mass of five hundred identical silhouettes; a white-hot rocket erupts violently from within the small group, thick smoke and fire billowing upward. Dark background, no readable text. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric blue and white launch flare against dark navy."
+  },
+  {
+   "type": "content",
+   "headline": "5) HIT <em>$10M WITH 3 PEOPLE</em> AND AI DOING THE REST",
+   "body": "A BUSINESS THAT ONCE NEEDED <b>50 PEOPLE</b> TO REACH $10M IN REVENUE NOW NEEDS 3. Instead of splitting the profits with investors and staff, it stays yours.",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) CHARGE HUMAN RATES. <em>PAY PENNIES IN AI COSTS.</em>",
+   "body": "YOU CHARGE WHAT A HUMAN WOULD COST. THE AI DOES THE WORK FOR A FEW DOLLARS. THAT GAP USED TO GO TO PAYROLL. Now it goes to you.",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "body": "You'll want these 6 shifts when you start building. Save this post so you can come back to them.\n\nWe share daily AI news and real skills here. Follow to keep up",
+   "hsize": 110,
+   "media": null
+  }
+ ],
+ "caption": "Swipe through 6 AI shifts happening right now. Each one alone would redefine an entire decade. \ud83e\udde0\n\nSuperintelligence for $20 a month, running your whole business 24/7 from your phone with AI agents, giving your AI its own inbox and calendar access, a 10-person team shipping faster than 500 people, a business hitting $10M with 3 people and AI doing the rest, and charging human rates while paying pennies for AI to do the work.\n\ngregisenberg put 20 of these in one thread and said any single one would define a decade. All 20 are happening at once. The window where knowing this gives you an edge is closing. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: gregisenberg\n\n#artificialintelligence #AItools #businessgrowth #futureofwork #AIagents",
+ "pinned_comment": "Which of these 6 shifts is hitting your business hardest right now? Slide 5 is the one most business owners don't see coming until it's too late.",
+ "hook_tournament": {
+  "candidates": [
+   "WE GOT <em>6 DECADE-DEFINING AI SHIFTS</em> ALL AT ONCE"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "Hook AND rule violation (\u00a72): 'SUPERINTELLIGENCE NOW COSTS $20 A MONTH, AND 5 MORE SHIFTS ARE TURNING 3-PERSON TEAMS INTO $10M BUSINESSES' joins two separate claims with AND. \u00a72 requires ONE action \u2014 cut to one thesis, e.g. 'SUPERINTELLIGENCE NOW COSTS $20 A MONTH, AND IT IS TURNING 3-PERSON TEAMS INTO $10M BUSINESSES' collapses both into a single cause-effect chain, or lead with the single strong"
+}
