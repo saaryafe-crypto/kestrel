@@ -1,0 +1,107 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שבעה צעדים ב-AI שאחריהם <em>קורות החיים שלך פשוט מיותרים</em>",
+   "kicker": "רוב האנשים לא עשו אף אחד מהם",
+   "hsize": 72,
+   "face": [],
+   "media": "posts/2026-08-10-edu-7-career-ai-steps-from-alexfinn-viral-gu/gen-0.jpg",
+   "image_prompt": "Hands holding a resume-formatted page mid-flame, orange fire catching the corner from a lighter below, near-black background, a glowing electric-blue laptop screen reflecting on the dark surface behind. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: orange flame against near-black."
+  },
+  {
+   "type": "content",
+   "headline": "1) הורד את Codex ו<em>השק את האפליקציה הראשונה שלך</em>",
+   "hsize": 92,
+   "body": "<b>Codex</b> מקבל תיאור בשפה פשוטה ובונה אפליקציה עובדת: פרונט ב-<b>NextJS</b>, דאטאבייס ב-<b>Convex</b>, בלי שורת קוד ממך. שישה שבועות של עבודת מפתח, מוכן הלילה",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) תן ל-Hermes Agent <em>לתכנן לך את כל האסטרטגיה</em>",
+   "hsize": 88,
+   "body": "תאמר ל-<b>Claude</b> הכל: הקריירה שלך, המטרות שלך, מה אתה מנסה לבנות. ואז תשאל: <b>'אילו תהליכים אתה יכול להריץ עכשיו כדי לקרב אותי למטרה?'</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) תבנה <em>Mission Control</em> שינהל לך את החיים",
+   "hsize": 84,
+   "body": "תבנה אוטומציה אחת בכל פעם עם <b>Hermes</b>. אחרי כמה שבועות זה הופך ל-<b>Mission Control</b> שלך: מערכת מותאמת אישית שמנהלת את הכל בזמן שאתה ישן",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) תשיג Claude Max ו<em>תגיע לגבול השימוש כל שבוע</em>",
+   "hsize": 80,
+   "body": "תשיג את תוכנית <b>Claude Max</b> ותאכיל אותה בבעיות הכי קשות שלך, לא בשאלות קלות. מי שמשאיר את כולם מאחור עכשיו שורף כל טוקן שהוא משלם עליו",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) בכל כלי AI שאתה משלם, <em>תישאר מעל 50%</em>",
+   "hsize": 90,
+   "body": "תבדוק את השימוש שלך בכל תוכנית AI שאתה משלם עליה. אם משהו מתחת ל-<b>50%</b>, אתה בקושי משתמש במה שיש לך",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) תשלוט ב-<em>Claude Code וב-Codex</em> ביחד",
+   "hsize": 88,
+   "body": "<b>Claude Code</b> לתכנון: תתאר מה אתה בונה והוא ממפה את כל הארכיטקטורה. <b>Codex</b> לביצוע: תעביר לו משימה והוא כותב את הקוד",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) תבנה את הפלטפורמה שלך. <em>קורות חיים כבר לא חשובים.</em>",
+   "hsize": 80,
+   "body": "רוב החברות כבר לא קוראות קורות חיים. הן בודקות את ה-<b>פלטפורמה</b> שלך: מה אתה בונה בפומבי, מי עוקב אחריך, על מה אתה מדבר",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה</em>",
+   "hsize": 110,
+   "body": "תרצה את זה כשתתחיל. שמור את הפוסט. חדשות AI יומיות וכלים אמיתיים, זה הכל.",
+   "media": null
+  }
+ ],
+ "caption": "רוב האנשים לא עשו אף אחד משבעת הצעדים האלה, וזה יעלה להם ביוקר. 🧩\n\nתוריד את Codex ותבנה אפליקציה ראשונה בשפה פשוטה, תשתמש ב-Hermes Agent לתכנון אסטרטגיה שלמה, תבנה Mission Control שמאוטומט את המשימות היומיות שלך, תשיג Claude Max ותגיע לגבול השימוש כל שבוע, תישאר מעל 50 אחוז שימוש בכל כלי AI שאתה משלם עליו, תשלוט ב-Claude Code וב-Codex ביחד, ותתחיל לבנות פלטפורמה כי קורות חיים כבר לא מעניינים אף אחד.\n\nלכל עבודת צווארון לבן יש עכשיו גרסה שמישהו עם שבעת הצעדים האלה יעשה מהר יותר. רוב האנשים עדיין לא התחילו. החלון עדיין פתוח.\nמנהל עסק? שלח לנו DM עם המילה 'AI' ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: AlexFinn\n\nעקוב אחרי @ainews.israel לחדשות AI יומיות\n\n#AI #AITools #FutureOfWork #CareerGrowth #ClaudeCode",
+ "pinned_comment": "באיזה צעד אתה הכי פחות מתקדם? רוב האנשים מדלגים לגמרי על הצעד השני, וזה בדיוק הצעד שמשנה את כל הדרך שבה אתה משתמש ב-AI. כבר רק בשביל זה שווה לשמור.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>7 AI STEPS</em> BEFORE YOU GET LEFT BEHIND",
+   "<em>SKIPPING THESE 7 AI STEPS</em> IS CAREER SUICIDE",
+   "7 STEPS TO <em>OUT-SHIP ANYONE</em> USING AI",
+   "THE 7 AI STEPS <em>THAT MAKE YOU UNFIREABLE</em>",
+   "7 AI STEPS <em>BEFORE YOU GET REPLACED</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   5,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "\"Before you get replaced\" hits the specific, visceral fear living in everyone's head in 2026—AI taking your job—and \"before\" creates urgent time-pressure. [1]'s \"career suicide\" is harsh language but stays abstract; [4] is concrete, timely, and stops you cold."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "7 AI STEPS <em>BEFORE YOU GET REPLACED</em>",
+   "7 AI STEPS TO SHIP AN APP <em>AND DITCH YOUR RESUME</em>",
+   "RESUMES <em>DON'T MATTER ANYMORE</em>. THESE 7 AI SKILLS DO."
+  ],
+  "scores": [
+   7,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "'DITCH YOUR RESUME' is specific and funny enough to make you actually curious, while [0]'s threat feels corporate and [2]'s declaration feels like every other LinkedIn post. You'd stop to see proof someone shipped an app in 7 steps, not to hear warnings or generic advice."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education"
+}
