@@ -1,0 +1,70 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI FINDS BETTER REMOTE JOBS <em>THAN LINKEDIN</em>",
+   "hsize": 72,
+   "media": "posts/2026-08-11-edu-5-ai-prompts-that-find-remote-jobs-faste/gen-0.jpg",
+   "image_prompt": "Laptop screen displaying dollar sign, warning triangle, and red cross on plain desk, electric blue glow, dark charcoal background."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>LET AI HUNT</em> YOUR NEXT REMOTE JOB FOR YOU",
+   "hsize": 100,
+   "body": "Job boards show everyone the same listings at the same time. This prompt maps your skills to 10 specific job titles and the boards most people in your field have never tried. Try: \"List 10 job titles that match [your skills] and 5 niche boards where they post remote roles.\"",
+   "media": "posts/2026-08-11-edu-5-ai-prompts-that-find-remote-jobs-faste/gen-1.jpg",
+   "image_prompt": "Hands from below typing fast on a glowing backlit keyboard, abstract glowing rectangles fanning above the screen mid-load. Dark navy. Documentary news photo, 35mm, harsh on-camera flash, film grain. No readable text \u2014 glowing shapes only. Accent: electric blue glow against deep navy."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>PASTE THE JOB POSTING.</em> AI SCORES YOUR FIT INSTANTLY",
+   "hsize": 96,
+   "body": "Finding a listing takes 30 seconds. This prompt scores your fit from 0 to 100 and names the 3 requirements you are weakest on. Try: \"Score my fit from 0 to 100 for this role and name my 3 weakest requirements: [paste job posting] + [paste resume].\"",
+   "media": "posts/2026-08-11-edu-5-ai-prompts-that-find-remote-jobs-faste/gen-2.jpg",
+   "image_prompt": "Hand sliding a printed page beside a laptop, screen showing a large target bullseye with a glowing percentage symbol at center. Cool white light, deep navy. Documentary news photo, 35mm, harsh on-camera flash, film grain. No readable text \u2014 bullseye symbol only. Accent: electric blue against deep navy."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>FIND THE NICHE JOB BOARDS</em> MOST PEOPLE DON'T KNOW",
+   "hsize": 96,
+   "body": "Niche boards for specific fields carry the same remote roles with <b>under 100 applicants</b>. Getting there first is the whole game. Try: \"Name 10 niche job boards for [your field] that list remote roles with under 100 applicants per posting.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>TURN YOUR RESUME</em> INTO AN EXACT MATCH FOR THE JOB",
+   "hsize": 92,
+   "body": "Recruiters spend an average of <b>7 seconds</b> on a resume before deciding. Matching the posting's exact words is what clears the automated filter before a human ever looks. Try: \"Rewrite my resume to match the exact keywords in this posting: [paste job posting] + [paste resume].\"",
+   "media": "posts/2026-08-11-edu-5-ai-prompts-that-find-remote-jobs-faste/gen-4.jpg",
+   "image_prompt": "Two documents on a wooden desk, a hand drawing thick red arrows connecting matched sections with a pencil. Amber desk lamp, deep navy surround. Documentary news photo, 35mm, harsh on-camera flash, film grain. No readable text \u2014 arrow symbols only. Accent: amber warmth against deep navy."
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>RANK 5 JOBS BY YOUR REAL ODDS</em> BEFORE YOU APPLY",
+   "hsize": 92,
+   "body": "After you find 5 listings, this prompt ranks them by fit so you know which 2 to actually pursue. One strong application beats <b>ten scattered ones</b> every time. Try: \"Rank these 5 job listings by my fit and tell me which 2 to prioritize: [paste listings] + [paste resume].\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR YOUR NEXT JOB SEARCH",
+   "hsize": 100,
+   "body": "You will want these prompts the moment you start looking. Save this post so they are there when you need them. We share real AI skills and news here every day",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 prompts that do the hard part of your remote job search for you. \ud83c\udfaf\n\nPrompt 1 maps your exact skills to specific job titles and boards you have never tried. Prompt 2 scores your fit before you apply, so you stop wasting time on longshots. Prompt 3 finds niche boards where the same roles have far fewer applicants. Prompt 4 rewrites your resume to match the exact language the filter and recruiter are scanning for. Prompt 5 ranks your best options so you only write strong applications for the roles you will actually land.\n\nMost people search the same 3 boards, apply to everything, and wonder why no one responds. AI now does what a career coach takes a full week to do, in under 2 minutes. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: AramideOyekunle\n\n#AITools #RemoteWork #JobSearch #CareerTips #ArtificialIntelligence",
+ "pinned_comment": "Which slide are you using first? Slide 3 is the sleeper. Most people go straight to the resume prompt, but finding the right board first cuts your competition in half.",
+ "hook_tournament": {
+  "candidates": [
+   "AI FINDS BETTER REMOTE JOBS <em>THAN LINKEDIN IN 2 MINUTES</em>"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "COVER IMAGE FAILS THE THUMB TEST (\u00a73): The image shows mail envelopes flying out of a laptop with stock-market candlestick charts, a world map, shipping containers on fire, and a wall clock in the background. Seen once at feed size, a stranger would guess 'email marketing' or 'global trade crisis' \u2014 not 'AI beats LinkedIn for remote jobs.' Under IMAGE LAW, every cover must be proof or a staged sce"
+}
