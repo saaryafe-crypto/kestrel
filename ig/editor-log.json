@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-04T00:05:48Z",
-  "gate": "A",
-  "subject": "This is how to open a number lock using nothing but a piece of paper.",
-  "verdict": "KILL",
-  "reason": "Scout interest 3/10 with no substance behind it — a single thin tweet about a generic lock trick with no named person, no real-world consequence, and nothing to build slides from."
- },
- {
   "t": "2026-08-04T00:06:16Z",
   "gate": "A",
   "subject": "Worth noting that any USAID funding that appeared to have the slightest merit whatsoever for helping people in need was ",
@@ -2098,5 +2091,12 @@
   "subject": "SUPERINTELLIGENCE NOW COSTS <em>$20 A MONTH</em>, AND 5 MORE SHIFTS ARE TURNING 3-PERSON TEAMS INTO $10M BUSINESSES",
   "verdict": "REJECT",
   "reason": "Hook AND rule violation (§2): 'SUPERINTELLIGENCE NOW COSTS $20 A MONTH, AND 5 MORE SHIFTS ARE TURNING 3-PERSON TEAMS INTO $10M BUSINESSES' joins two separate claims with AND. §2 requires ONE action — cut to one thesis, e.g. 'SUPERINTELLIGENCE NOW COSTS $20 A MONTH, AND IT IS TURNING 3-PERSON TEAMS INTO $10M BUSINESSES' collapses both into a single cause-effect chain, or lead with the single strong"
+ },
+ {
+  "t": "2026-08-11T09:12:03Z",
+  "gate": "A",
+  "subject": "Let this sink in: In Israel, as part of an election campaign, a cabinet minister issues an AI video showing how his poli",
+  "verdict": "KILL",
+  "reason": "Single-sourced reaction-bait allegation with no named actor, verification, or real-world consequence—and off-brand political content for a tech account."
  }
 ]

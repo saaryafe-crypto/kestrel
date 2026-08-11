@@ -1,0 +1,85 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "בינה מלאכותית ברמת רופא ועורך דין עולה <em>$20 בחודש</em>, ועוד חמישה שינויים שהופכים צוות של שלושה לעסק של עשרה מיליון דולר",
+   "kicker": "כל ששת השינויים קורים עכשיו",
+   "hsize": 72,
+   "media": "posts/2026-08-11-edu-6-decade-defining-ai-shifts-from-gregise/gen-0.jpg",
+   "image_prompt": "Monitor displaying cascading warning symbols—dollar sign, alert triangle, red cross—in electric blue and gold against deep navy. Stark desk setting. News photograph, harsh light, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) AI ברמת מומחים: <em>עשרים דולר בחודש</em>",
+   "body": "ה-AI שעלה פעם אלפי דולרים בחודש עולה היום <b>$20</b>. Claude Pro ו-ChatGPT Plus עוברים את בחינות הרישוי ברפואה ובמשפטים.",
+   "hsize": 100,
+   "media": "posts/2026-08-11-edu-6-decade-defining-ai-shifts-from-gregise/gen-1.jpg",
+   "image_prompt": "Two hands from the wrists only — no face visible — pinching a single crisp $20 bill centered chest-high in frame; directly behind it an enormous glowing electric-blue neural network of dense interconnected nodes and data lines towers floor to ceiling, dwarfing the bill completely. No readable text anywhere. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric blue against dark charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "2) לנהל עסק שלם <em>מהטלפון, סביב השעון</em>",
+   "body": "סוכני AI לא ישנים ולא צריכים משכורת. בעלי עסקים מגדירים סוכנים שעונים על שאלות לקוחות ומזמינים פגישות 24/7, ישירות מהטלפון.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) תנו ל-AI <em>כתובת מייל משלו</em>",
+   "body": "חברות כבר נותנות ל-AI כתובת מייל אמיתית, גישה ליומן וסיסמאות לכניסה. <b>כלכלת צללים</b> שבה סוכני AI מנהלים סוכני AI אחרים כבר מתפתחת.",
+   "hsize": 100,
+   "media": "posts/2026-08-11-edu-6-decade-defining-ai-shifts-from-gregise/gen-3.jpg",
+   "image_prompt": "Clearly mechanical silver robot arms from elbow to hand — no face, no torso, no human — resting on a laptop keyboard, the open laptop screen glowing with a tight 5×5 grid of white envelope icons and absolutely no readable text. Dark charcoal office background. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric blue screen glow against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "4) צוות של עשרה <em>מתקדם מהר יותר מ-500 עובדים</em>",
+   "body": "מהירות היא החפיר החדש. צוותים קטנים עם AI מתקדמים מהר יותר מחברות גדולות פי 50. <b>הסטארטאפ של עשרה אנשים</b> הפסיד פעם על כמות. היום הוא מוביל בקצב.",
+   "hsize": 100,
+   "media": "posts/2026-08-11-edu-6-decade-defining-ai-shifts-from-gregise/gen-4.jpg",
+   "image_prompt": "Ten glowing electric-blue human silhouettes seen from behind stand in a tight cluster facing a sprawling grey mass of five hundred identical silhouettes; a white-hot rocket erupts violently from within the small group, thick smoke and fire billowing upward. Dark background, no readable text. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric blue and white launch flare against dark navy."
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>עשרה מיליון דולר עם שלושה אנשים</em> ו-AI שעושה את השאר",
+   "body": "עסק שפעם דרש <b>50 עובדים</b> כדי להגיע לעשרה מיליון דולר הכנסות צריך היום שלושה. במקום לחלק את הרווחים עם משקיעים וצוות, הכסף נשאר אצלכם.",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) גובים מחיר אנושי. <em>משלמים אגורות ל-AI.</em>",
+   "body": "גובים מה שאדם היה עולה. ה-AI עושה את העבודה בכמה דולרים. ההפרש הזה הלך פעם לשכר. היום הוא הולך אליכם.",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה</em>",
+   "body": "תרצו את ששת השינויים האלה כשתתחילו לבנות. שמרו את הפוסט כדי שתוכלו לחזור אליהם.\n\nכל יום אנחנו מעלים חדשות AI ומיומנויות אמיתיות. עקבו אחרינו כדי להישאר מעודכנים",
+   "hsize": 110,
+   "media": null
+  }
+ ],
+ "caption": "עברו על ששת השינויים ב-AI שקורים עכשיו. כל אחד לבד היה מגדיר עשור שלם. 🧠\n\nAI ברמת מומחים ב-$20 בחודש, ניהול עסק שלם מהטלפון 24/7 עם סוכני AI, כתובת מייל ויומן לעובד ה-AI שלכם, צוות של עשרה שמתקדם מהר יותר מ-500 עובדים, עסק שמגיע לעשרה מיליון דולר עם שלושה אנשים ו-AI שעושה את השאר, וגביית מחיר אנושי בזמן שמשלמים כמה דולרים ל-AI לעשות את העבודה.\n\ngregisenberg פרסם 20 מהשינויים האלה בתרד אחד ואמר שכל אחד לבד מגדיר עשור. כל העשרים קורים בו זמנית. החלון שבו הידע הזה נותן לכם יתרון נסגר. מנהלים עסק? שלחו לנו DM עם המילה \"AI\" ונראה לכם מה זה יכול לעשות עבורכם.\n\nמקורות: gregisenberg\n\nעקבו אחרי @ainews.israel\n\n#artificialintelligence #AItools #businessgrowth #futureofwork #AIagents",
+ "pinned_comment": "איזה מששת השינויים האלה פוגע הכי חזק בעסק שלכם עכשיו? שקופית 5 היא זו שרוב בעלי העסקים לא רואים עד שמאוחר מדי.",
+ "hook_tournament": {
+  "candidates": [
+   "WE GOT <em>6 DECADE-DEFINING AI SHIFTS</em> ALL AT ONCE"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "Hook AND rule violation (§2): 'SUPERINTELLIGENCE NOW COSTS $20 A MONTH, AND 5 MORE SHIFTS ARE TURNING 3-PERSON TEAMS INTO $10M BUSINESSES' joins two separate claims with AND. §2 requires ONE action — cut to one thesis, e.g. 'SUPERINTELLIGENCE NOW COSTS $20 A MONTH, AND IT IS TURNING 3-PERSON TEAMS INTO $10M BUSINESSES' collapses both into a single cause-effect chain, or lead with the single strong",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
