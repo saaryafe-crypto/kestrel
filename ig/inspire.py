@@ -13,11 +13,12 @@ Owner rules for this lane:
   - MUST be proven-viral: candidates come only from inspire-pool.json —
     viral photo moments the X radar already caught (ground rule Aug 12:
     ride the wave, never invent).
-  - Music: IG NATIVE audio via bundle.social (the real Hans Zimmer catalog
-    is blocked for API/business accounts — Meta only licenses its
-    commercial cinematic catalog, so we rotate 4 epic tracks from it).
-    bundle is the ONLY publish route here: Make cannot attach native audio,
-    and a silent inspirational reel is dead — no fallback, alert instead.
+  - Music: real Hans Zimmer as IG NATIVE audio via bundle.social — the
+    licensed `music` catalog has no Zimmer, but audioType=original_sound
+    (user-uploaded sounds) does; we rotate 4 iconic tracks from it, with a
+    licensed-catalog fallback if an upload id dies. bundle is the ONLY
+    publish route here: Make cannot attach native audio, and a silent
+    inspirational reel is dead — no other fallback, alert instead.
   - The Aug 10 static-image ban (reel.py _static_clip) does NOT apply: that
     ban exists because reposted AUDIO is unverifiable — here we author the
     reel ourselves (our photo pick, our title, catalog music).
@@ -38,16 +39,21 @@ RAW = "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main"
 
 CLIP_S = 14  # Ken Burns length; completion beats length, story lives in caption
 
-# IG commercial cinematic catalog (audited live Aug 12 via
-# bundle.trending_audio — real Hans Zimmer is unreachable for business
-# accounts over the API). Rotate weekly so back-to-back reels never share a
-# track. If IG retires an id the publish fails loudly -> gh issue.
+# Real Hans Zimmer via IG ORIGINAL SOUNDS (owner insisted Aug 12 and was
+# right: audioType=original_sound reaches user-uploaded sounds, where the
+# licensed-catalog wall doesn't apply — verified live Aug 12; the licensed
+# `music` catalog still has zero Zimmer). Rotate weekly so back-to-back
+# reels never share a track. All ids checked >= 14s (CLIP_S).
 AUDIO = [
-    ("1515990402427650", "Hopeful Ascent — Global Genius"),
-    ("1540755600953104", "Stardust (Instrumental) — Giulio Cercato"),
-    ("1140588937751449", "New Horizons — Giulio Cercato"),
-    ("1090923063181541", "Invincible — Giulio Cercato"),
+    ("326791823645097", "Time - Hans Zimmer (Inception)"),
+    ("271619868995493", "Cornfield Chase - Hans Zimmer"),
+    ("239447935356064", "No Time for Caution - Hans Zimmer"),
+    ("135338016212274", "A Way of Life - Hans Zimmer"),
 ]
+# Original sounds are user uploads and can vanish; if the pick dies at
+# publish time, retry ONCE on this licensed-catalog cinematic track (stable
+# ids) so a built reel never dies over an audio id.
+FALLBACK_AUDIO = ("1515990402427650", "Hopeful Ascent by Global Genius")
 
 SCHEMA = {
     "type": "object",
@@ -199,9 +205,18 @@ def main():
 
     push_media(post_dir, name)
     try:
-        post = bundle.publish_reel(r["caption"], f"{RAW}/{name}/reel.mp4",
-                                   audio_id=audio_id, music_volume=100,
-                                   original_volume=0)
+        try:
+            post = bundle.publish_reel(r["caption"], f"{RAW}/{name}/reel.mp4",
+                                       audio_id=audio_id, music_volume=100,
+                                       original_volume=0)
+        except Exception as e:
+            audio_id, audio_title = FALLBACK_AUDIO
+            print(f"zimmer original-sound id failed ({e}) — retrying on the "
+                  f"licensed catalog track", file=sys.stderr)
+            post = bundle.publish_reel(r["caption"], f"{RAW}/{name}/reel.mp4",
+                                       audio_id=audio_id, music_volume=100,
+                                       original_volume=0)
+            meta["audio_id"], meta["audio_title"] = audio_id, audio_title
         meta["bundle_post_id"] = post.get("id")
         json.dump(meta, open(os.path.join(post_dir, "reel.json"), "w"), indent=1)
         bundle.log_use(name)
