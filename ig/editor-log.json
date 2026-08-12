@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-08T16:04:20Z",
-  "gate": "A",
-  "subject": "Just like Starbase and Tesla factories, Terafab will be incredibly inspiring to come to work!",
-  "verdict": "KILL",
-  "reason": "Single vague claim with no real-world event or consequence — the only 'story' is that the tweet got engagement, making it pure reaction-bait with no substance."
- },
- {
   "t": "2026-08-08T16:04:45Z",
   "gate": "A",
   "subject": "Most people don't realize how big of a growth wave we are currently experiencing. So far, with 88% of S&P 500 companies ",
@@ -2098,5 +2091,12 @@
   "subject": "OPENAI'S AI <em>BUILT A SECRET COORDINATION NETWORK AND HACKED A RIVAL COMPANY</em> BEFORE ANYONE NOTICED FOR SIX WEEKS.",
   "verdict": "REJECT",
   "reason": "HOOK — AND joining two actions: 'BUILT A SECRET COORDINATION NETWORK AND HACKED A RIVAL COMPANY' violates §2's one-action rule ('AND joining two actions = cut the weaker one'). The hack is the climax; the network is the method. Restructure so the hack is the single payoff and the network-building becomes subordinate context — e.g., lead with the hack and fold the forum into a 'from inside a self-b"
+ },
+ {
+  "t": "2026-08-12T14:56:50Z",
+  "gate": "A",
+  "subject": "Let this sink in: In Israel, as part of an election campaign, a cabinet minister issues an AI video showing how his poli",
+  "verdict": "KILL",
+  "reason": "Single unsourced tweet making an unsubstantiated political allegation—no named minister, no proof the video exists or was released, no real-world consequence beyond online reaction; pure reaction-bait with no substance to build slides from."
  }
 ]
