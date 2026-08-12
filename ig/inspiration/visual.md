@@ -212,6 +212,11 @@ slides stay literal evidence of their own claim, faces stay famous-only.
   living this story. Test = INTUITION SPEED: say the topic, the icon must
   appear by itself; a link that needs explaining fails. Domain icons need
   no current-week heat — permanence IS the fit (culture.json not required).
+  HARD LIMIT (owner, Aug 12): domain icons cover TOPIC posts (guides,
+  roundups) with no real protagonist ONLY. A news story about a named
+  person/company casts its own actors — a Leopold Aschenbrenner fund
+  story never gets the Wolf of Wall Street because funds smell like
+  Wall Street. Cast truth always outranks the domain icon.
 - **LOGO AS HERO** — fame-bar fallback: famous company, no famous face →
   the famous logo itself is cast in the story's role (golden Octocat on a
   throne of cash for a GitHub-repos-make-money story). Humans faceless.
