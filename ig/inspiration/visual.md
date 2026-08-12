@@ -204,6 +204,14 @@ slides stay literal evidence of their own claim, faces stay famous-only.
   action. Fed by `culture.py`: ONE web-search Sonnet call per day (lazy
   24h refresh into culture.json, fails open to stale/empty — a slot is
   never blocked by a dead radar). Cast only on instant natural fit.
+  **Second legal source — THE DOMAIN ICON (owner reference, Aug 12):**
+  a stocks guide covered with DiCaprio's Wolf of Wall Street, because
+  stocks→Wall Street→that movie is the chain a 20-year-old's brain runs
+  unprompted. When the story's DOMAIN has one timeless movie/culture icon
+  that IS its symbol, cast the iconic character in their signature scene
+  living this story. Test = INTUITION SPEED: say the topic, the icon must
+  appear by itself; a link that needs explaining fails. Domain icons need
+  no current-week heat — permanence IS the fit (culture.json not required).
 - **LOGO AS HERO** — fame-bar fallback: famous company, no famous face →
   the famous logo itself is cast in the story's role (golden Octocat on a
   throne of cash for a GitHub-repos-make-money story). Humans faceless.
