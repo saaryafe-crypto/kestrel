@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 PROMPTS <em>THAT TURN 1-STAR REVIEWS INTO REPEAT CUSTOMERS</em>",
+   "kicker": "MOST OWNERS HAVE NEVER TRIED THESE",
+   "hsize": 72,
+   "media": "posts/2026-08-12-edu-6-ai-prompts-that-stop-customers-from-le/gen-0-rescue.jpg",
+   "image_prompt": "Single red star symbol cracking open, gold light through fracture, charcoal background, documentary film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND THE CUSTOMERS <em>ABOUT TO WALK OUT</em>",
+   "hsize": 110,
+   "body": "Professional CRM tools charge <b>$200 a month</b> to flag customers going quiet. Paste your order history into Claude and it does the same thing free, ranked by spend.\n\nTHE PROMPT: \"Here is my customer order history: [paste your list]. Which customers haven't ordered in 60+ days? Rank them by total lifetime spend and show their last order date.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>WRITE THE EMAIL</em> THAT BRINGS THEM BACK",
+   "hsize": 110,
+   "body": "Most win-back emails fail because they sound like they were written for 10,000 people. This prompt writes one that sounds personal, in <b>10 seconds</b>, for every customer on your list.\n\nTHE PROMPT: \"Write a win-back email for [Name], who last bought [Product] on [Date] and has spent [Amount] with us. Sound like a real person, not a marketing template. Under 100 words.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>TURN A 1-STAR REVIEW</em> INTO A RETURN CUSTOMER",
+   "hsize": 100,
+   "body": "One unanswered bad review keeps costing you customers for months. This prompt writes a real response: specific, human, under <b>100 words</b>.\n\nTHE PROMPT: \"Here is a 1-star review: [paste review]. Write a response that addresses their specific complaint, sounds human, and stays under 100 words. Offer a real fix, not a generic apology.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FIND THE REAL REASON</em> CUSTOMERS LEFT",
+   "hsize": 115,
+   "body": "Most businesses guess at why customers leave. Paste your cancellation messages into Claude and it names the top pattern in seconds, one your team has probably never spotted.\n\nTHE PROMPT: \"Here are my last 30 cancellation messages: [paste messages]. What is the most common real reason customers are leaving? Name the top pattern and quote one specific example from the list.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD THE LOYALTY OFFER <em>YOUR BEST BUYERS WANT</em>",
+   "hsize": 100,
+   "body": "Discounts train your best customers to wait for sales. This prompt reads their buying pattern and names the right offer, something that makes them feel seen, not given a coupon.\n\nTHE PROMPT: \"Here is [Name]'s purchase history: [paste data]. Based on what they actually buy, what reward would make them feel seen, not just a discount? Give me 3 specific options.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>RUN A 30-DAY RE-ENGAGEMENT</em> CAMPAIGN TONIGHT",
+   "hsize": 110,
+   "body": "Hiring a copywriter for a 3-email re-engagement sequence costs <b>$500 to $1,500</b> and takes two weeks. This prompt writes all three in under a minute, each sounding like a real person.\n\nTHE PROMPT: \"Write a 3-email re-engagement sequence for customers who haven't bought in 90 days. Email 1: empathy and check-in. Email 2: show what's new. Email 3: one clear offer. Each under 150 words, each sounding like a real person.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 124,
+   "body": "You'll want these the next time a customer goes quiet. Save this post.\n\nDaily AI news + real skills for business owners.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. 6 prompts that find who's about to leave, write the emails that bring them back, and turn bad reviews into return customers. \ud83d\udcb8\n\n1. find the customers going quiet ranked by how much they spent before they disappeared, 2. write the win-back email that sounds like a real person not a marketing template, 3. respond to a 1-star review in a way that actually brings the reviewer back, 4. paste your cancellation messages and find the real pattern behind why customers left, 5. build a loyalty offer your best buyers actually want instead of a discount that trains them to wait for sales, 6. run a full 30-day re-engagement campaign in under a minute\n\nKeeping one customer is worth far more than finding a new one. Most business owners know this and still spend all their budget on ads. These prompts flip the equation. No subscription, no copywriter, no guessing.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#artificialintelligence #businessowner #AItools #ChatGPT #customerretention",
+ "pinned_comment": "Which prompt are you trying first? Slide 5 is the one most owners never think to run.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>TURN BAD REVIEWS INTO RETURN VISITS</em>",
+   "6 AI PROMPTS THAT <em>STOP CUSTOMERS FROM LEAVING</em>",
+   "<em>6 PROMPTS THAT FIND WHO'S ABOUT TO LEAVE</em>",
+   "6 PROMPTS THAT <em>BRING LOST CUSTOMERS BACK</em>",
+   "6 PROMPTS THAT <em>KEEP YOUR BEST CUSTOMERS FROM WALKING</em>"
+  ],
+  "scores": [
+   6,
+   4,
+   5,
+   5,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] hits with immediate stakes\u2014'BEST CUSTOMERS' + 'WALKING' makes you feel the threat to your revenue right now. [0]'s transformation is clever but sounds like a nice benefit; [4] makes you stop because you're afraid you're already bleeding money."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS <em>TO WIN BACK CUSTOMERS MOST BUSINESSES LOSE FOREVER</em>",
+   "6 PROMPTS <em>THAT REVEAL WHY YOUR BEST CUSTOMERS ACTUALLY LEFT</em>",
+   "6 PROMPTS <em>THAT TURN 1-STAR REVIEWS INTO REPEAT CUSTOMERS</em>",
+   "6 PROMPTS THAT <em>KEEP YOUR BEST CUSTOMERS FROM WALKING</em>"
+  ],
+  "scores": [
+   3,
+   4,
+   7,
+   5
+  ],
+  "winner": 2,
+  "why": "A 1-star review becoming a repeat customer sounds almost impossible\u2014it stops your scroll with genuine shock. 'Keep best customers' is practical but forgettable."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "HOOK \u2014 not a complete sentence and below the 12-word floor. '6 PROMPTS THAT TURN 1-STAR REVIEWS INTO REPEAT CUSTOMERS' is a 9-word noun phrase. IMAGE LAW \u00a72 requires '12-25 words, ONE complete sentence that tells the WHOLE story \u2014 actor + what happened + the wild specifics.' Fix: rewrite as a sentence with a human actor or a universal noun doing something ('Small business owners are using 6 free p"
+}
