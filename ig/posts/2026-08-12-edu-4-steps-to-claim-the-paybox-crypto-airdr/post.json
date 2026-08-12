@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "4 STEPS TO CLAIM <em>FREE CRYPTO BEFORE THE POOL CLOSES</em>",
+   "hsize": 70,
+   "face": "Dario Amodei, Sam Altman",
+   "media": "faces/sam-altman.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "PAYBOX OPENED <em>A SIX-FIGURE CRYPTO POOL</em> FOR AI USERS",
+   "hsize": 88,
+   "body": "MoonPay activated the PayBox airdrop for every Claude and ChatGPT account. Six figures of crypto sitting in a pool for AI users, claimable through the chatbot you already use. No separate wallet needed.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>CREATE YOUR PAYBOX ACCOUNT</em>",
+   "hsize": 100,
+   "body": "Go to the PayBox site MoonPay linked and create your account. You will also need a MoonPay account for the actual transfer. Both take under two minutes.",
+   "media": "posts/2026-08-12-edu-4-steps-to-claim-the-paybox-crypto-airdr/gen-2.jpg",
+   "image_prompt": "Overhead angle: two hands hovering above a smartphone flat on a dark marble desk, screen radiating warm gold \u2014 only a glowing gold user-profile circle icon and a checkmark symbol visible on screen, no readable text. Deep violet ambient light pools around the phone. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: gold against deep violet."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>CONNECT YOUR X ACCOUNT</em> TO PAYBOX",
+   "hsize": 100,
+   "body": "Inside your PayBox dashboard, find the X connection option and link your profile. One click. This ties your claim to your identity and locks your portion of the pool before it closes.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) TYPE <em>\"WHAT IS MY PORTFOLIO\"</em> IN CLAUDE OR CHATGPT",
+   "hsize": 88,
+   "body": "Here is the AI part: type <b>\"What is my portfolio?\"</b> in Claude or ChatGPT. That one message completes your first transaction with the free USDC MoonPay delivers to connected accounts.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) REDEEM <em>THE REST OF YOUR DROP</em>",
+   "hsize": 100,
+   "body": "Once that first transaction confirms, head back to the PayBox site and hit redeem. That pulls your full share from the six-figure pool into your account. Not available in the UK, Canada, or Australia.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "OG PAYBOX USERS <em>CAN CLAIM IN THREE STEPS</em>",
+   "hsize": 92,
+   "body": "Connect your AI agent to your existing PayBox setup. Then type <b>\"What is my portfolio?\"</b> in Claude or ChatGPT. Once that confirms, redeem the rest of your drop from the PayBox dashboard.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> BEFORE THE POOL CLOSES",
+   "hsize": 100,
+   "body": "You will want these steps when you try it. Save this post. Daily AI news and real skills on this page every day",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 4 steps. \ud83d\udcb8 MoonPay's PayBox airdrop is live and every Claude and ChatGPT account can claim a share of a six-figure crypto pool right now.\n\nPayBox is now live for AI users, step one is creating your PayBox account and setting up MoonPay alongside it, step two is connecting your X account to PayBox inside the dashboard, step three is typing what is my portfolio in Claude or ChatGPT to trigger your free USDC transaction, step four is heading back to the PayBox site and redeeming the rest of your drop. OG claimers with an existing PayBox account connect their AI agent first, complete the same USDC transaction, then redeem. If you claimed yesterday, you can claim again today. Note: not available for users in the UK, Canada, or Australia.\n\nThis is what AI and crypto working together actually looks like. Not a separate app, not a complex setup. You type one sentence inside a chatbot and real money moves. That window is open right now.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: moonpay\n\n#ai #crypto #chatgpt #claude #airdrop",
+ "pinned_comment": "Which path are you starting from tonight, first-timer or OG claimer? Slide 5 is the step most people almost skip and it is the one that actually triggers your deposit.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>4 STEPS</em> TO FREE CRYPTO WITH CLAUDE",
+   "<em>CLAIM FREE CRYPTO</em> WITH CLAUDE IN 4 STEPS",
+   "PAYBOX IS GIVING <em>CLAUDE USERS FREE CRYPTO</em> IN 4 STEPS",
+   "4 STEPS CLAUDE AND CHATGPT USERS <em>USE TO CLAIM FREE CRYPTO</em>",
+   "4 STEPS TO <em>CLAIM FREE CRYPTO</em> WITH CLAUDE OR CHATGPT"
+  ],
+  "scores": [
+   6,
+   6,
+   7,
+   4,
+   6
+  ],
+  "winner": 2,
+  "why": "PAYBOX IS GIVING... makes this feel like actual news about a specific company acting now, not a generic self-help formula everyone's seen a thousand times. The specificity (why Claude users?) creates real curiosity worth stopping for."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "AI USERS ARE CLAIMING <em>A SIX-FIGURE CRYPTO POOL</em> IN 4 STEPS",
+   "PAYBOX IS GIVING <em>CLAUDE USERS FREE CRYPTO</em> IN 4 STEPS",
+   "4 STEPS TO CLAIM <em>FREE CRYPTO BEFORE THE POOL CLOSES</em>",
+   "4 STEPS TO <em>FREE CRYPTO</em> MOST CLAUDE USERS OVERLOOK"
+  ],
+  "scores": [
+   2,
+   6,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "[2]'s closing deadline makes you think 'I have to check this NOW'; [3] makes you think 'I should probably look into this sometime.'"
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "\u00a75 TRUTH LAW \u2014 CORE MECHANISM IS FACTUALLY IMPOSSIBLE: Slide 3 states that typing \"What is my portfolio?\" in Claude or ChatGPT \"completes your first transaction with the free USDC MoonPay delivers to connected accounts.\" This is technologically impossible. Claude and ChatGPT are language models with no connection to MoonPay, no wallet integration, and no ability to execute cryptocurrency transacti"
+}
