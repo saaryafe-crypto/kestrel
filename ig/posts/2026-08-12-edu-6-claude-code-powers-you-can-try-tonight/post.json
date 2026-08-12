@@ -1,0 +1,88 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 TASKS <em>YOU'D HIRE A DEVELOPER FOR</em> THAT CLAUDE CODE DOES FREE",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-12-edu-6-claude-code-powers-you-can-try-tonight/gen-0.jpg",
+   "image_prompt": "Magician's top hat on stage releasing glowing Claude logo surrounded by gold and amber-orange dollar signs, checkmarks, warning triangles against deep scarlet curtains, spotlight."
+  },
+  {
+   "type": "content",
+   "headline": "1) TURN A DESCRIPTION <em>INTO A WORKING APP</em>",
+   "hsize": 100,
+   "body": "Claude Code writes <b>every file</b>, connects them, and hands you something that actually runs.\n\nPrompt: \"Build me an app that [describe what it does]. Run in a browser, save data between sessions.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) PASTE ANY ERROR. <em>GET THE FIX IN SECONDS.</em>",
+   "hsize": 100,
+   "body": "Bugs that hide <b>three files deep</b> used to take engineers hours.\n\nPrompt: \"Here is the error: [paste error]. Here is the code: [paste code]. Find the bug and tell me what caused it.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) UNDERSTAND <em>ANY CODEBASE IN MINUTES</em>",
+   "hsize": 100,
+   "body": "Claude Code reads every file and maps how they connect. <b>No documentation needed.</b>\n\nPrompt: \"[paste code]. What does each file do and where do I change [what you want]?\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) MAKE YOUR CODE <em>IMPOSSIBLE TO BREAK</em>",
+   "hsize": 100,
+   "body": "Claude Code does not just write tests, it runs them, fixes failures, and loops until <b>every single test passes</b>.\n\nPrompt: \"[paste code]. Write tests, run them, fix failures, show results.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) TURN A SPREADSHEET <em>INTO A REAL WEB TOOL</em>",
+   "hsize": 100,
+   "body": "Claude Code builds a proper tool with <b>search, filters, and sorting</b> from any spreadsheet in one session.\n\nPrompt: \"I track [what] with columns [list]. Build a web app with search, filters, and editable rows.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) ADD ANY FEATURE <em>TO CODE YOU ALREADY OWN</em>",
+   "hsize": 100,
+   "body": "Paste any code and Claude Code writes the new feature into your existing files <b>without breaking what works</b>.\n\nPrompt: \"[paste code]. Add [describe feature]. Do not break anything that currently works.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS FOR TONIGHT</em>",
+   "hsize": 90,
+   "body": "All six work right now, no experience needed. Try tonight: \"Build me an app that [describe it]. Run in a browser and save data.\"\n\nDaily AI news and real skills, every day.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. \ud83d\udee0\ufe0f Six Claude Code powers most people walk straight past, and a copy-paste prompt for each one you can try tonight.\n\nBuild a working app from a plain description, fix any error by pasting it in, understand any codebase in minutes, write tests that run themselves until they all pass, turn a spreadsheet into a proper web tool, add any feature to code you already own.\n\nClaude Code has improved every few weeks through summer 2026. The gap between an idea and a working product is now one conversation. Most people still think this is a tool for engineers. It is not. Running a business? DM us \"AI\" and we will show you what Claude Code could automate for yours.\n\nSources: Anthropic\n\n#claudecode #aitools #nocode #artificialintelligence #aiforbusiness",
+ "pinned_comment": "Which one are you trying first? Slide 5 is the sleeper for business owners who do not code. Most people do not realize the spreadsheet-to-app thing actually works tonight.",
+ "hook_tournament": {
+  "candidates": [
+   "CLAUDE CODE DOES <em>6 THINGS THAT USED TO COST THOUSANDS</em>"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CLAUDE CODE DOES <em>6 THINGS THAT USED TO COST THOUSANDS</em>",
+   "6 TASKS <em>YOU'D HIRE A DEVELOPER FOR</em> THAT CLAUDE CODE DOES FREE"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] makes it personal (\"YOU'D HIRE\") and has an actual punchline (FREE), so you stop thinking \"huh, interesting\" and start thinking \"wait, WHAT tasks?\". [0] sounds like corporate copy about generic cost savings."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "Cover image shows a generated unknown face (a magician in a red-gold tuxedo). IMAGE LAW is explicit: 'Never a generated unknown face.' The permissible alternatives for a utility/EDU post with no famous person in the story are: Claude Code's product UI with its brand mark in frame, or a no-face branded card. Replace gen-0.jpg with a cover built around Claude Code's actual interface/logo, or commiss"
+}

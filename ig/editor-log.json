@@ -1,54 +1,5 @@
 [
  {
-  "t": "2026-08-08T21:39:45Z",
-  "gate": "A",
-  "subject": "These are mosquitoes trapped in a spider web Remember to be kind to your friendly neighborhood web slingers",
-  "verdict": "KILL",
-  "reason": "One thin tweet (107 chars) with zero substance, no real-world event or consequence, completely off-brand for a tech/AI page, and fails story law entirely — it's a nature observation with nothing to build slides from."
- },
- {
-  "t": "2026-08-08T21:40:06Z",
-  "gate": "A",
-  "subject": "These are just a few of the reasons people were fired from their jobs, according to the Chicago Tribune on October 15, 1",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: historical trivia with no real-world event, no consequence, no substance—the source is 124 characters of 1905 curiosity offered for amusement, nothing to build slides from."
- },
- {
-  "t": "2026-08-08T21:40:28Z",
-  "gate": "A",
-  "subject": "Basque is considered a language isolate, meaning it has no known linguistic relatives anywhere in the world. It is the o",
-  "verdict": "KILL",
-  "reason": "Pure linguistics trivia with no real-world event or consequence—a fact, not a story, and off-brand for tech/AI pages."
- },
- {
-  "t": "2026-08-08T21:40:54Z",
-  "gate": "A",
-  "subject": "This girl was abused over her clothing and makeup by another woman, who demanded she cover her face. Pretty easy to see ",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no substance: one thin unverified tweet, no real event, no consequence to reality, nothing verifiable to build slides from."
- },
- {
-  "t": "2026-08-08T23:04:03Z",
-  "gate": "B",
-  "subject": "<em>6 FULL-TIME BUSINESS JOBS</em> AI NOW DOES OVERNIGHT FOR FREE",
-  "verdict": "REJECT",
-  "reason": "TRUTH VIOLATION (§5): 'FOR FREE' is materially false. Claude Code requires a Claude Pro subscription (~$20/month) or API credits — the overnight automation tasks described (running scripts continuously, building chatbots, scanning competitor sites) cannot be done on any free tier. The hook leads with it, slide 1 closes with it, slide 2 closes with it. The entire post's value proposition rests on a"
- },
- {
-  "t": "2026-08-08T23:10:53Z",
-  "gate": "B",
-  "subject": "<em>6 FULL-TIME BUSINESS JOBS</em> AI NOW DOES OVERNIGHT FOR $20/MONTH",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-08-08T23:30:00Z",
-  "gate": "A",
-  "subject": "BREAKING: Berkshire Hathaway has begun deploying the $397.4 billion cash pile that Warren Buffett accumulated for 14 con",
-  "verdict": "KILL",
-  "reason": "This is routine financial news about quarterly capital allocation—exactly the 'market wraps, analyst targets, launch previews, recap roundups' category explicitly banned in STORY LAW—not a jaw-dropping viral-specific event a 16-year-old would DM a friend."
- },
- {
   "t": "2026-08-08T23:30:30Z",
   "gate": "A",
   "subject": "The Starship in both clips is the exact same spacecraft. Once racing through space at around 26,500 km/h, it is now floa",
@@ -2098,5 +2049,54 @@
   "subject": "<em>WHAT AGENCIES CHARGE $10,000 TO WRITE</em> FOR YOUR PRODUCT LAUNCH, THESE 5 AI PROMPTS DO TONIGHT",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-12T17:57:35Z",
+  "gate": "A",
+  "subject": "https://t.co/UnPb7HvXfF",
+  "verdict": "KILL",
+  "reason": "No substance: the entire submission is a bare URL with no facts, context, or consequence—a writer would need to guess the story and pad, which violates §1 instant-kill criteria."
+ },
+ {
+  "t": "2026-08-12T17:57:36Z",
+  "gate": "A",
+  "subject": "Moonbase Alpha will be so cool. And we want to make it so that anyone can go to the Moon if they want.",
+  "verdict": "KILL",
+  "reason": "Single thin tweet with zero second fact, timeline, or real consequence—pure aspiration about a future vision, not an event that happened or outcome anyone felt."
+ },
+ {
+  "t": "2026-08-12T17:57:49Z",
+  "gate": "A",
+  "subject": "xAI just launched Grok Bot, and this is much more interesting than another model release. And especially *not* on my bin",
+  "verdict": "KILL",
+  "reason": "Feature announcement with no real event or person driving the story—violates the ban on routine company announcements and launch previews that don't earn slots just by being AI-related."
+ },
+ {
+  "t": "2026-08-12T17:57:54Z",
+  "gate": "A",
+  "subject": "\"Long term, probably in four or five years, AI will be 99% of the value of SpaceX. I'd say five years for sure, AI will ",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no real substance: Elon posted a prediction to X and it got engagement, but nothing happened in the world—no event, no consequence, nothing to build slides from."
+ },
+ {
+  "t": "2026-08-12T17:58:30Z",
+  "gate": "A",
+  "subject": "ELON MUSK ON BUILDING A “STAR MIND” POWERED BY THE SUN “We’ve already built the most powerful AI training clusters in th",
+  "verdict": "KILL",
+  "reason": "This is a launch preview of future plans (10 gigawatts by end of next year), not a real-world event that already happened—the doctrine explicitly bans forward guidance and announcement previews as 'ON-TOPIC BUT ROUTINE.'"
+ },
+ {
+  "t": "2026-08-12T18:48:37Z",
+  "gate": "B",
+  "subject": "6 TASKS <em>YOU'D HIRE A DEVELOPER FOR</em> THAT CLAUDE CODE DOES FREE",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 violation: the cover uses a generated unknown face — a magician character who has no role in this story and is not a recognizable public figure. The law is explicit: 'Never a generated unknown face.' The magician concept is metaphorical decoration, not proof or a staged scene of the story.; Thumb test failure: at feed size, a stranger sees a circus magician with a glowing orb — nothin"
+ },
+ {
+  "t": "2026-08-12T18:50:36Z",
+  "gate": "B",
+  "subject": "6 TASKS <em>YOU'D HIRE A DEVELOPER FOR</em> THAT CLAUDE CODE DOES FREE",
+  "verdict": "REJECT",
+  "reason": "Cover image shows a generated unknown face (a magician in a red-gold tuxedo). IMAGE LAW is explicit: 'Never a generated unknown face.' The permissible alternatives for a utility/EDU post with no famous person in the story are: Claude Code's product UI with its brand mark in frame, or a no-face branded card. Replace gen-0.jpg with a cover built around Claude Code's actual interface/logo, or commiss"
  }
 ]
