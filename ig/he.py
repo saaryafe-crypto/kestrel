@@ -158,6 +158,10 @@ def scrub(out, en_caption):
     # ones (owner: hashtags stay in English)
     en_tags = re.findall(r"#\w+", en_caption)
     cap = re.sub(r"#[\w\u0590-\u05FF]+", "", cap).rstrip()
+    # follow handle is CODE's job (Aug 12 run 31582291251: the translator
+    # dropped it twice and a relevant post died on the qa() hard-fail)
+    if HANDLE not in cap:
+        cap += f"\n\nעקבו אחרי {HANDLE} לעוד חדשות AI"
     if en_tags:
         cap += "\n\n" + " ".join(en_tags)
     out["caption"] = cap
