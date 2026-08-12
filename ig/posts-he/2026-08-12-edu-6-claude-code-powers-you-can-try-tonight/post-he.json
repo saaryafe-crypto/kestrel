@@ -1,0 +1,95 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שש משימות <em>שהיית צריך מפתח בשבילן</em>, Claude Code עושה בחינם",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-12-edu-6-claude-code-powers-you-can-try-tonight/gen-0.jpg",
+   "image_prompt": "Magician's top hat on stage releasing glowing Claude logo surrounded by gold and amber-orange dollar signs, checkmarks, warning triangles against deep scarlet curtains, spotlight."
+  },
+  {
+   "type": "content",
+   "headline": "1) תיאור קצר <em>הופך לאפליקציה שעובדת</em>",
+   "hsize": 100,
+   "body": "Claude Code כותב <b>כל קובץ</b>, מחבר ביניהם, ומחזיר לך משהו שממש עובד.\n\nפרומפט: \"Build me an app that [describe what it does]. Run in a browser, save data between sessions.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) תדביק שגיאה. <em>תיקון בשניות.</em>",
+   "hsize": 100,
+   "body": "שגיאות שמסתתרות <b>עמוק בשלושה קבצים</b> לקחו למפתחים שעות.\n\nפרומפט: \"Here is the error: [paste error]. Here is the code: [paste code]. Find the bug and tell me what caused it.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) מבין <em>כל קוד תוך דקות</em>",
+   "hsize": 100,
+   "body": "Claude Code קורא כל קובץ ומראה איך הכל מתחבר. <b>בלי תיעוד.</b>\n\nפרומפט: \"[paste code]. What does each file do and where do I change [what you want]?\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) הפוך את הקוד שלך <em>לבלתי שביר</em>",
+   "hsize": 100,
+   "body": "Claude Code לא רק כותב בדיקות. הוא גם מריץ אותן, מתקן כישלונות, וממשיך עד ש<b>כל בדיקה עוברת</b>.\n\nפרומפט: \"[paste code]. Write tests, run them, fix failures, show results.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) גיליון אקסל <em>הופך לכלי ווב אמיתי</em>",
+   "hsize": 100,
+   "body": "Claude Code בונה כלי מסודר עם <b>חיפוש, סינונים ומיון</b> מכל גיליון, בשיחה אחת.\n\nפרומפט: \"I track [what] with columns [list]. Build a web app with search, filters, and editable rows.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) הוסף פיצ'ר <em>לקוד שכבר יש לך</em>",
+   "hsize": 100,
+   "body": "תדביק קוד, ו-Claude Code מוסיף את הפיצ'ר לקבצים הקיימים <b>בלי לשבור את מה שכבר עובד</b>.\n\nפרומפט: \"[paste code]. Add [describe feature]. Do not break anything that currently works.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה להלילה</em>",
+   "hsize": 90,
+   "body": "כולן עובדות עכשיו, בלי ניסיון קודם. נסה הלילה: \"Build me an app that [describe it]. Run in a browser and save data.\"\n\nחדשות AI ומיומנויות אמיתיות, כל יום.",
+   "media": null
+  }
+ ],
+ "caption": "שישה דברים ש-Claude Code עושה שרוב האנשים לא יודעים, עם פרומפט מוכן לכל אחד שאפשר לנסות הלילה. 🛠️\n\nבניית אפליקציה מתיאור רגיל, תיקון שגיאות מהדבקה, הבנת קוד שלא כתבת, בדיקות שמתקנות את עצמן, הפיכת גיליון אקסל לכלי ווב, הוספת פיצ'ר לקוד קיים.\n\nClaude Code קיבל עדכון אחרי עדכון לאורך כל קיץ 2026. מרעיון למוצר עובד, היום זה שיחה אחת. רוב האנשים עדיין חושבים שזה כלי למפתחים בלבד. זה לא. מנהל עסק? כתוב לנו \"AI\" בפרטי ונראה לך מה Claude Code יכול לאוטומט אצלך.\n\nמקורות: Anthropic\n\nעקוב אחרי @ainews.israel לחדשות AI כל יום.\n\n#claudecode #aitools #nocode #artificialintelligence #aiforbusiness",
+ "pinned_comment": "איזה אחד תנסה ראשון? שקופית 5 היא הטריק הכי שווה לבעלי עסקים שלא כותבים קוד. רוב האנשים לא מאמינים שהדבר הזה עם גיליון האקסל ממש עובד הלילה.",
+ "hook_tournament": {
+  "candidates": [
+   "CLAUDE CODE DOES <em>6 THINGS THAT USED TO COST THOUSANDS</em>"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CLAUDE CODE DOES <em>6 THINGS THAT USED TO COST THOUSANDS</em>",
+   "6 TASKS <em>YOU'D HIRE A DEVELOPER FOR</em> THAT CLAUDE CODE DOES FREE"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] makes it personal (\"YOU'D HIRE\") and has an actual punchline (FREE), so you stop thinking \"huh, interesting\" and start thinking \"wait, WHAT tasks?\". [0] sounds like corporate copy about generic cost savings."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "Cover image shows a generated unknown face (a magician in a red-gold tuxedo). IMAGE LAW is explicit: 'Never a generated unknown face.' The permissible alternatives for a utility/EDU post with no famous person in the story are: Claude Code's product UI with its brand mark in frame, or a no-face branded card. Replace gen-0.jpg with a cover built around Claude Code's actual interface/logo, or commiss",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
