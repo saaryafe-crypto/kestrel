@@ -259,3 +259,36 @@ iconic real moment and the moment embodies the title's exact meaning
 promise; garage-era Jobs and Wozniak for a two-people-and-an-idea story).
 The test: a stranger instantly reads why THIS person in THIS scene proves
 THIS title. A famous face merely signaling "AI"/"tech" still fails.
+
+**THE VENDOR CAST** (owner's reference wall, Aug 12 2026 — 7 screenshots in
+~/Desktop/"Great cover images", studied one by one; this superseded the
+Aug 10 reading of cast truth that had banned faces on prompts/edu guides
+and collapsed covers into rejected symbol-on-background briefs):
+a guide about USING a named famous tool IS that vendor's story. The
+vendor's famous CEO is legal and casting them is the DEFAULT for guide
+covers — as the tool's own delighted USER, mid-performing the READER's
+exact action with the guide's real prop, one peak emotion:
+- Dario Amodei proudly holding HIS OWN resume ("upload your resume to
+  Claude, it will uncover positions..." guide) — the prop carries the
+  story, his own name on the CV is the wit.
+- Dario, Hawaiian shirt, grinning over a boarding pass with a red
+  DISCOUNTED stamp ("Claude changed the game in buying airline tickets").
+- Sundar Pichai leaning out of a helicopter showering Gemini sparks onto
+  a crowd of reaching hands ("Google giving Gemini Pro away free") — the
+  scene ACTS the headline's verb (giving away) at theatrical scale.
+- Zendaya writing exam notes (Gemini-predicts-exams story) — CULTURE CAST
+  when the celebrity is viral that week and the fit is instant.
+- Eight tech CEOs as mourners around a "RIP CLAUDE" plaque — group
+  symbolic scene; the plaque is a legal 1-3 word text prop.
+Tool→face map: ChatGPT→Sam Altman, Claude→Dario Amodei, Gemini→Sundar
+Pichai, Grok→Elon Musk, Copilot→Satya Nadella, Llama→Mark Zuckerberg.
+The model the guide's prompts run on counts even when the headline only
+says "AI prompts". What stays banned: a famous AI face as decoration on a
+story that names no company AND no tool (the original Altman
+content-vendor post-mortem).
+
+**Cover text prop exception** (Aug 12, from the same references): covers
+render on gpt-image which writes short text cleanly — ONE prop may carry
+ONE bold 1-3 word text element when that text IS the punchline ("RIP
+CLAUDE" plaque, "DISCOUNTED" stamp), quoted exactly in the brief. Never a
+sentence, never on inner slides (Seedream garbles); QA rejects garble.
