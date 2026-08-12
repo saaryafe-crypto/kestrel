@@ -66,6 +66,10 @@ jobs:
           CHROME: google-chrome
         run: |
           cd ig
+          # culture radar warm-up (run diet Aug 12, same as the EN workflow):
+          # IL native builds reach art_direct — the refresh must not sit on
+          # the critical path. No-op in <1s when culture.json is fresh.
+          python culture.py > /tmp/culture-refresh.log 2>&1 &
           if [ -n "${{ github.event.inputs.post }}" ]; then
             python he.py "${{ github.event.inputs.post }}" 2>&1 | tee /tmp/he.log
           else
@@ -141,6 +145,7 @@ jobs:
           git add ig/genimg-used.json 2>/dev/null || true  # image budget spent by IL builds must persist
           git add ig/faces-used.json 2>/dev/null || true
           git add ig/editor-log.json 2>/dev/null || true
+          git add ig/culture.json 2>/dev/null || true      # daily culture radar must persist or every run re-pays the refresh
           git commit -m "IG post HE: $POST_NAME" || { echo "nothing to commit"; exit 0; }
           git pull --rebase --autostash
           git push || { git pull --rebase --autostash && git push; }  # retry once if a sibling pushed in between

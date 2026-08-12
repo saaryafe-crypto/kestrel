@@ -39,7 +39,13 @@ def merge(base, ours, theirs):
             b = base.get(k)
             changed = [d[k] for d in (ours, theirs) if k in d and d[k] != b]
             if changed:
-                merged[k] = max(changed)
+                try:
+                    merged[k] = max(changed)
+                except TypeError:
+                    # unorderable values (culture.json's "hot" list of dicts
+                    # when two runs refreshed the same day) — take theirs:
+                    # both sides are same-day data, either is correct
+                    merged[k] = changed[-1]
         return merged
     return None  # mixed/unknown types -> real conflict
 

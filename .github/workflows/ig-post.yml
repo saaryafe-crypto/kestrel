@@ -90,6 +90,12 @@ jobs:
         run: |
           set -o pipefail
           cd ig
+          # culture radar warm-up (run diet Aug 12): the refresh was burning
+          # ~3 min INSIDE art_direct on every run because culture.json was
+          # never committed (stale on every checkout since Aug 9). It now
+          # refreshes in the background while scout+writer work, and the save
+          # step commits it — one web-search call per day, as designed.
+          python culture.py > /tmp/culture-refresh.log 2>&1 &
           python scout.py   # X watchlist radar.json ONLY (owner order Aug 3) -> stories.json
           # SLOT MIX (owner token-diet order Aug 8 — 1 guide + 2 news/day, all
           # most-viral from the X radar; money-proof slot is DEAD):
@@ -183,6 +189,7 @@ jobs:
           git add ig/genimg-used.json 2>/dev/null || true  # image-gen budget ledger must persist across runs
           git add ig/faces-used.json 2>/dev/null || true   # face-photo rotation ledger (never repeat the same press photo back-to-back)
           git add ig/editor-log.json 2>/dev/null || true   # editor-in-chief audit trail: every gate A/B verdict must survive the runner
+          git add ig/culture.json 2>/dev/null || true      # daily culture radar: uncommitted = every run re-pays the web-search refresh
           git commit -m "IG post: $POST_NAME" || { echo "nothing to commit"; exit 0; }
           git pull --rebase --autostash   # autostash: fetch.py leaves stories.json dirty; don't let it kill the run
           git push || { git pull --rebase --autostash && git push; }  # retry once if a sibling pushed in between

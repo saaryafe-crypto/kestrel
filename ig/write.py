@@ -625,25 +625,36 @@ def pick_story(stories):
     fresh = ([s for s in fresh if s.get("interest", 5) >= 5]
              + [s for s in fresh if s.get("interest", 5) < 5])
     recent = recent_posts()
-    # exhaust EVERY candidate before declaring the slot dead (owner rule:
-    # every slot must fill — a 3-try cap killed the Jul 28 test run when the
-    # top 3 were all dupes while story #4 was fine)
-    while fresh:
-        s = fresh[0]  # most viral candidate standing
+    # GATE A — editor-in-chief (owner order Aug 4, Queen/Mario post-mortem):
+    # the ranker only answers "best of this pool"; the editor owns "worth
+    # posting at ALL" against doctrine.md. KILL is binding — the next
+    # candidate competes, the slot never dies (always-post intact).
+    import editor
+    from concurrent.futures import ThreadPoolExecutor
+
+    def _judge(s):
         if is_dupe(s["title"], recent):
             print(f"semantic dupe of a published post — skipping: {s['title']}",
                   file=sys.stderr)
-            fresh = [x for x in fresh if x is not s]
-            continue
-        # GATE A — editor-in-chief (owner order Aug 4, Queen/Mario post-mortem):
-        # the ranker only answers "best of this pool"; the editor owns "worth
-        # posting at ALL" against doctrine.md. KILL is binding — the next
-        # candidate competes, the slot never dies (always-post intact).
-        import editor
-        ok, _ = editor.gate_a(s, (s.get("radar") or {}).get("selftext", ""))
-        if ok:
-            return s
-        fresh = [x for x in fresh if x is not s]
+            return False
+        return editor.gate_a(s, (s.get("radar") or {}).get("selftext", ""))[0]
+
+    # exhaust EVERY candidate before declaring the slot dead (owner rule:
+    # every slot must fill — a 3-try cap killed the Jul 28 test run when the
+    # top 3 were all dupes while story #4 was fine). Candidates are judged in
+    # PARALLEL batches of 4 (run diet Aug 12: the Aug 11 23:00 run burned ~8
+    # min on ten sequential KILLs before falling to edu). The batch is scanned
+    # in viral-rank order, so the pick is identical to the sequential walk;
+    # the only cost is up to 3 wasted Haiku judgments when an early candidate
+    # in a batch approves — cents next to the minutes saved.
+    while fresh:
+        batch = fresh[:4]
+        with ThreadPoolExecutor(max_workers=len(batch)) as ex:
+            verdicts = list(ex.map(_judge, batch))
+        for s, ok in zip(batch, verdicts):
+            if ok:
+                return s
+        fresh = fresh[len(batch):]
     return None
 
 

@@ -26,10 +26,14 @@ Every verdict is appended to editor-log.json — the audit trail that answers
 import json
 import os
 import sys
+import threading
 import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 LOG = os.path.join(HERE, "editor-log.json")
+# gate A verdicts arrive from parallel threads (pick_story batches, Aug 12):
+# the audit log's read-modify-write must be atomic or verdicts get lost
+_LOG_LOCK = threading.Lock()
 
 GATE_A_SCHEMA = {
     "type": "object",
@@ -50,14 +54,15 @@ def doctrine():
 
 
 def _log(gate, subject, verdict, reason):
-    try:
-        rows = json.load(open(LOG)) if os.path.exists(LOG) else []
-    except Exception:
-        rows = []
-    rows.append({"t": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                 "gate": gate, "subject": subject[:120], "verdict": verdict,
-                 "reason": reason})
-    json.dump(rows[-300:], open(LOG, "w"), indent=1, ensure_ascii=False)
+    with _LOG_LOCK:
+        try:
+            rows = json.load(open(LOG)) if os.path.exists(LOG) else []
+        except Exception:
+            rows = []
+        rows.append({"t": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                     "gate": gate, "subject": subject[:120], "verdict": verdict,
+                     "reason": reason})
+        json.dump(rows[-300:], open(LOG, "w"), indent=1, ensure_ascii=False)
 
 
 def gate_a(story, material=""):

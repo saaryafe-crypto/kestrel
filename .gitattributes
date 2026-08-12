@@ -5,3 +5,4 @@ ig/genimg-used.json merge=ledger
 ig/faces-used.json merge=ledger
 ig/edu-used.json merge=ledger
 ig/editor-log.json merge=ledger
+ig/culture.json merge=ledger
