@@ -1,0 +1,68 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A <em>$500-AN-HOUR VC</em>, A $3,000 GROWTH AGENCY, AND A CFO ARE ALL SITTING INSIDE CLAUDE FOR FREE, HERE IS HOW TO USE THEM",
+   "kicker": "YOUR WHOLE BOARD FOR FREE",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "hook_candidates": [
+    "<em>5 FREE EXPERTS</em> HIDING INSIDE CLAUDE",
+    "CLAUDE HAS <em>5 FREE ADVISORS</em> MOST OWNERS NEVER FIND",
+    "5 <em>FREE BOARD ADVISORS</em> YOU NEVER KNEW CLAUDE HAD",
+    "CLAUDE IS HIDING <em>5 FREE EXPERTS</em> FROM EVERY BUSINESS OWNER",
+    "<em>5 EXPERT ADVISORS</em> FREE INSIDE CLAUDE RIGHT NOW"
+   ],
+   "media": "faces/dario-amodei-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>GET A VC TO TEAR YOUR PITCH APART</em>",
+   "hsize": 108,
+   "body": "A pitch deck coach charges <b>$500 an hour</b>. Prompt: 'Act as a senior VC. Here is my pitch: [paste]. List every investor objection and tell me exactly how to fix each one.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>FIND YOUR BIGGEST UNTAPPED CHANNEL</em>",
+   "hsize": 108,
+   "body": "Growth agencies charge <b>$3,000 a month</b> for this exact audit. Prompt: 'Act as a growth marketer. My business: [describe]. Name the single biggest acquisition channel I am ignoring and give three steps to test it for under $500.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>LET A CFO AUDIT YOUR COSTS RIGHT NOW</em>",
+   "hsize": 104,
+   "body": "A fractional CFO charges <b>$200 an hour</b> to find where your business bleeds money. Prompt: 'Act as a CFO. Expenses: [paste]. Find the three most oversized costs and tell me what to do about each.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FIND OUT WHY PEOPLE DON'T BUY FROM YOU</em>",
+   "hsize": 100,
+   "body": "Consumer research firms charge <b>$5,000 for a report</b> that answers this one question. Prompt: 'Act as a consumer psychologist. Product: [describe], page: [paste]. List the five real reasons people do not buy, plus one sales page fix for each.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>FIND THE PROCESS WASTING YOUR MOST HOURS</em>",
+   "hsize": 100,
+   "body": "Operations consultants charge <b>$400 an hour</b> to find this. Prompt: 'Act as an operations consultant. My week: [describe]. Find the single process stealing the most hours and give three steps to cut it in half.'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 120,
+   "body": "You will want these when you need them. Each prompt is ready the moment a tough investor question, a slow sales week, or a cost problem shows up.\n\nDaily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. Five prompts that each replace an expert you would normally pay hundreds of dollars an hour for. \ud83e\udde0\n\nOne, the VC prompt that finds every hole in your pitch before investors do. Two, the growth marketer prompt that spots the customer channel you have been ignoring. Three, the CFO prompt that finds the exact costs bleeding your business right now. Four, the customer psychologist prompt that tells you the real reason people visit your page and still do not buy. Five, the ops expert prompt that finds the process wasting the most hours in your business every single week.\n\nMost business owners skip expert advice because it costs too much, not because it is hard to find. These prompts close that gap. They work because locking Claude into one expert role with one specific job changes what it produces. Running a business? DM us 'AI' and we will show you what this looks like for yours.\n\nSources: Anthropic\n\n#claudeai #artificialintelligence #aitools #entrepreneurship #businessowner",
+ "pinned_comment": "Which advisor are you trying first? The CFO prompt on slide 4 tends to find the most surprising answers, even for businesses that thought they already knew their numbers.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "CAST TRUTH FAIL \u2014 IMAGE LAW \u00a73: The cover image is Dario Amodei. He has zero role in this story. He is not mentioned in the hook, named in any slide, or part of any event described. He is being used as decoration because he is associated with Anthropic. The law is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Fix: replace with a"
+}
