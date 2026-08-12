@@ -1,14 +1,201 @@
 {
- "updated": "2026-08-11T06:44:18+00:00",
- "competitor_hits": [
+ "updated": "2026-08-12T05:20:13+00:00",
+ "competitor_hits": [],
+ "reddit_hot": [
   {
-   "page": "futurism",
-   "likes": 144,
-   "ratio": 0.01,
-   "tier": "mega",
-   "hook": "\"Reddit has long heavily relied on moderators, a team of volunteers working without pay to keep Reddit communities free of abuse and other nefarious content \u2014 with extremely varying degrees of success, earning them a cer",
-   "date": "2026-08-10"
+   "sub": "technology",
+   "score": 19890,
+   "title": "Mamdani Backs Proposal to End Amazon\u2019s \u2018Exploitative\u2019 Delivery Model in New York City | If passed, the Delivery Protection Act would be the first law in the US to regulate Amazon\u2019s vast network of subcontractors that handle the company\u2019s deliveries."
+  },
+  {
+   "sub": "technology",
+   "score": 7121,
+   "title": "A cybersecurity researcher covered a Toyota in an AI-generated pattern to confuse Flock cameras"
+  },
+  {
+   "sub": "technology",
+   "score": 6553,
+   "title": "Ken Paxton\u2019s Political Operation Rakes In Data Center Donations as Texans Turn Against Industry"
+  },
+  {
+   "sub": "technology",
+   "score": 3981,
+   "title": "Google says Gemini has reached 1B users faster than any other Google product"
+  },
+  {
+   "sub": "technology",
+   "score": 3875,
+   "title": "More than 10 firms pay up to $100,000 a month for fast access to Truth Social posts"
+  },
+  {
+   "sub": "technology",
+   "score": 3800,
+   "title": "Mark Zuckerberg\u2019s AI manifesto is exactly why people don\u2019t like AI"
+  },
+  {
+   "sub": "technology",
+   "score": 3497,
+   "title": "Amazon Used a Startlingly Dirty Trick to Build a Data Center Without Consent of Community"
+  },
+  {
+   "sub": "technology",
+   "score": 3272,
+   "title": "Amazon's new Texas data center could become the single largest polluter in the US"
+  },
+  {
+   "sub": "technology",
+   "score": 2975,
+   "title": "Tesla to recall over 20,000 US vehicles over excessively bright low-beam headlights"
+  },
+  {
+   "sub": "Futurology",
+   "score": 2969,
+   "title": "Meta glasses banned from courts in England and Wales | Meta"
+  },
+  {
+   "sub": "technology",
+   "score": 2672,
+   "title": "5 years later, Windows 10 refuses to die, and Microsoft just can't push holdouts to Windows 11"
+  },
+  {
+   "sub": "technology",
+   "score": 1965,
+   "title": "Microsoft reportedly raises Windows 11 license price significantly more than expected"
+  },
+  {
+   "sub": "technology",
+   "score": 1940,
+   "title": "AI Investors Are Suddenly Quaking in Their Boots"
+  },
+  {
+   "sub": "OpenAI",
+   "score": 1657,
+   "title": "What's your thoughts on this?"
+  },
+  {
+   "sub": "technology",
+   "score": 1605,
+   "title": "Why Is Everyone In Tech So Sad?"
+  },
+  {
+   "sub": "OpenAI",
+   "score": 1443,
+   "title": "\ud83d\udcc0OPEN LIVING - A Data Center You Can Live in"
+  },
+  {
+   "sub": "technology",
+   "score": 1252,
+   "title": "Oracle has drawn up plans for a new round of layoffs this month, sources say"
+  },
+  {
+   "sub": "technology",
+   "score": 1190,
+   "title": "Anthropic just rolled out a tool that'll decimate some people's dreams of writing AI novels undetected"
+  },
+  {
+   "sub": "technology",
+   "score": 1184,
+   "title": "Bernie Sanders tells OpenAI, Anthropic, and Meta to pause AI development or face Senate action"
+  },
+  {
+   "sub": "technology",
+   "score": 1140,
+   "title": "Valve informs customers about data breach, personal data stolen"
+  },
+  {
+   "sub": "technology",
+   "score": 953,
+   "title": "Meta can't stop states' $1.4 trillion lawsuit from going to trial | Judges tell Meta that Section 230 provides a defense, not immunity from lawsuits."
+  },
+  {
+   "sub": "Futurology",
+   "score": 949,
+   "title": "Teamsters suing over California self-driving truck rules"
+  },
+  {
+   "sub": "singularity",
+   "score": 922,
+   "title": "Researchers find way to extract hidden reasoning from frontier AI models via API, show Kimi likely distilled this way, also find scheming/other quirks in the raw chain of thought"
+  },
+  {
+   "sub": "technology",
+   "score": 814,
+   "title": "Workers at OpenAI, Anthropic, and Meta say AI is making their jobs harder, not easier"
+  },
+  {
+   "sub": "singularity",
+   "score": 765,
+   "title": "OpenAI's Chief Operating Officer resigns."
+  },
+  {
+   "sub": "artificial",
+   "score": 760,
+   "title": "Claude now embeds an invisible watermark into every piece of text it generates."
+  },
+  {
+   "sub": "Futurology",
+   "score": 757,
+   "title": "Funders Need to Catch Up to the Anti-Data Center Movement | The fastest-growing movement in the country is running on almost no institutional money, and it\u2019s effectively fighting against some of the world\u2019s most rapacious billionaires."
+  },
+  {
+   "sub": "technology",
+   "score": 747,
+   "title": "Meta told to pay another $567m in New Mexico child safety lawsuit"
+  },
+  {
+   "sub": "technology",
+   "score": 741,
+   "title": "Americans are rallying against data centers. Surprisingly few are actually getting built"
+  },
+  {
+   "sub": "technology",
+   "score": 724,
+   "title": "Wall St. Wants Another Half-Trillion Dollars for the A.I. Boom"
+  },
+  {
+   "sub": "technology",
+   "score": 687,
+   "title": "Data Center Foes\u2019 Newest Tack: Sue Locals Over Approval Process"
+  },
+  {
+   "sub": "technology",
+   "score": 663,
+   "title": "Facebook is paying far-right agitators to produce rage-bait content"
+  },
+  {
+   "sub": "technology",
+   "score": 562,
+   "title": "New surveillance tech links your phone to your license plate | Phone and Bluetooth signals could turn roadside cameras into far richer tracking tools"
+  },
+  {
+   "sub": "Futurology",
+   "score": 470,
+   "title": "Update: growing surfboards from mycelium, one year later- now testing it for aquarium insulation"
+  },
+  {
+   "sub": "singularity",
+   "score": 350,
+   "title": "Cherokee Nation bans hyperscale data centers on tribally owned, trust lands"
+  },
+  {
+   "sub": "singularity",
+   "score": 334,
+   "title": "Did Pathway just reveal the architecture breakthrough Andrew Curran predicted? Its 150M model sets a new ARC-AGI-1 cost-efficiency frontier"
+  },
+  {
+   "sub": "OpenAI",
+   "score": 326,
+   "title": "Chinese Tibo \ud83d\ude05"
+  },
+  {
+   "sub": "Futurology",
+   "score": 281,
+   "title": "OCD affects roughly 200 million people worldwide and one-third don't respond to treatment. The first study of OCD proteins in human brain tissue could finally explain why."
+  },
+  {
+   "sub": "Futurology",
+   "score": 264,
+   "title": "MIT researchers tackle the economic realities of fusion power"
   }
- ],
- "reddit_hot": []
+ ]
 }
