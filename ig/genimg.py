@@ -69,17 +69,22 @@ def _sums(used):
             sum(u["cost"] for u in used if u["date"] == today and is_cover(u)))
 
 
-def _book(cost, cover=False):
+def _book(cost, cover=False, floor=False):
     """Atomic budget check + spend record. Booking BEFORE the API call (not
     after, like the old check-then-spend) closes the parallel-generation race
     where two threads both pass the check with headroom for only one. A
-    failed generation refunds via _refund. Returns True when booked."""
+    failed generation refunds via _refund. Returns True when booked.
+    floor=True (Aug 12 post-mortem: two posts shipped the SAME stock
+    sam-altman.jpg because the $0.03 Seedream degrade rung was refused by the
+    already-blown cover cap): the cheap last generated rung ignores the DAY
+    cap — only the month cap can kill it. A generated cover always beats the
+    static press-photo floor."""
     with _LOCK:
         used = json.load(open(USED)) if os.path.exists(USED) else []
         month, day_inner, day_cover = _sums(used)
         day = day_cover if cover else day_inner
         day_cap = COVER_DAY_BUDGET if cover else DAY_BUDGET
-        if month + cost > MONTH_BUDGET or day + cost > day_cap:
+        if month + cost > MONTH_BUDGET or (not floor and day + cost > day_cap):
             print(f"genimg budget out (month ${month:.2f}, today ${day:.2f}, "
                   f"{'cover' if cover else 'inner'} cap ${day_cap:.2f})",
                   file=sys.stderr)
@@ -204,7 +209,7 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
     use_gpt = person or cover
     cost = GPT_COST[quality] if use_gpt else COST
     if not _book(cost, cover=cover):
-        if use_gpt and not person and _book(COST, cover=cover):
+        if use_gpt and not person and _book(COST, cover=cover, floor=True):
             # a Seedream cover beats no cover (always-post): degrade, log it
             use_gpt, cost = False, COST
             print("genimg: gpt budget out — degrading cover to Seedream",

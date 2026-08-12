@@ -7,7 +7,7 @@ the QA gate, then renders slides into posts/<date>-<slug>/.
 Uses the anthropic SDK if ANTHROPIC_API_KEY is set, else falls back to
 `claude -p` (Claude Code CLI) so it's testable with zero keys."""
 import json, os, re, subprocess, sys, threading, time
-from datetime import date
+from datetime import date, datetime
 
 from fetch import get  # same dir; shared HTTP helper with UA
 import genimg
@@ -829,7 +829,9 @@ def pick_face(face):
         except Exception:
             used = {}
         pick = min(cands, key=lambda c: used.get(os.path.basename(c), ""))
-        used[os.path.basename(pick)] = date.today().isoformat()
+        # full timestamp, not the day (Aug 12: two same-day posts tied on the
+        # date and both got sam-altman.jpg) — old date-only entries sort fine
+        used[os.path.basename(pick)] = datetime.now().isoformat()
         json.dump(used, open(ledger, "w"), indent=1)
     return os.path.relpath(pick, HERE)
 
