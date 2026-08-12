@@ -359,6 +359,11 @@ def main():
                     # up its own topic — unacceptable, must be named
                     bare.append(f"- SELF-INVENTED TOPIC (guide pool was "
                                 f"empty): {name}")
+                elif p.get("topic_source") == "ignored-pool":
+                    # owner ground rule Aug 12: ride the viral X wave, never
+                    # invent — the writer dodged a live guide pool twice
+                    bare.append(f"- IGNORED GUIDE POOL (self-invented topic "
+                                f"while viral X guides waited): {name}")
             if car:
                 body += bare or ["Cover photos: every carousel has a real "
                                  "cover photo"]

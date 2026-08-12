@@ -90,9 +90,11 @@ def build_prompt(used_topics, headlines="", guides=()):
                 body += "\n" + "\n".join(g["thread"])
             cands.append(f"[x:{g['id']}] by {g['sub']} — {g.get('score', 0):,}"
                          f" likes on X:\n{body}")
-        guide_block = ("\nVIRAL GUIDES ON X RIGHT NOW (owner priority Aug 4 — "
-                       "STRONGLY PREFER these over inventing a topic: a guide "
-                       "the crowd already made viral is PROVEN demand):\n"
+        guide_block = ("\nVIRAL GUIDES ON X RIGHT NOW (owner GROUND RULE "
+                       "Aug 12: everything this page posts rides an "
+                       "ALREADY-VIRAL X wave — we never invent a topic and "
+                       "test virality ourselves. When guides are listed here, "
+                       "using one is MANDATORY, not preferred):\n"
                        + "\n---\n".join(cands) + "\n"
                        # owner order Aug 8 (REVERSES the Aug 4 'substance not
                        # words' rule): "copy very similar what they do and
@@ -126,11 +128,13 @@ def build_prompt(used_topics, headlines="", guides=()):
                        "their real name, never an @tag, never on slides — "
                        "the bottom Sources line is the only credit. "
                        "Append the [x:ID] tag of the guide you "
-                       "used to your \"topic\" label. IGNORE a candidate only "
-                       "if it is not genuinely teachable (a bare promise with "
-                       "no substance) or overlaps ALREADY USED — then the "
-                       "next candidate, and only if none works pick a pillar "
-                       "topic yourself.\n")
+                       "used to your \"topic\" label — a topic without the "
+                       "tag is treated as a failed attempt and re-rolled. "
+                       "SKIP a candidate only if it is not genuinely "
+                       "teachable (a bare promise with no substance) or "
+                       "overlaps ALREADY USED — then take the next candidate. "
+                       "Self-inventing a topic while candidates sit here gets "
+                       "the post flagged to the owner.\n")
     tips_block = (f"""
 TODAY'S NEWS — optional anchors: a guide that piggybacks a live story rides its wave ("GPT-5 dropped yesterday — 5 things it already does for your business"). Use one ONLY if you can build genuine utility on it; never force it:
 {headlines}
@@ -237,6 +241,21 @@ def main():
                 else:
                     print("repair left errors:\n  " + "\n  ".join(left),
                           file=sys.stderr)
+        # GUIDE-POOL ENFORCEMENT (owner ground rule Aug 12 — ride the wave,
+        # never invent): the prompt's escape hatch was abused — only 9/51 edu
+        # posts ever used a guide, the last 4 self-invented while 7 viral
+        # guides sat in the pool. A tag-less topic with a live pool is a
+        # failed roll. Last attempt ships anyway (always-post law) and gets
+        # flagged ignored-pool below.
+        if attempt == 0 and guides and "[x:" not in (post.get("topic") or ""):
+            g = guides[0]
+            errs.append(f"you IGNORED the viral guide pool — using a listed "
+                        f"guide is MANDATORY (owner ground rule). Build this "
+                        f"post FROM the guide by {g['sub']} "
+                        f"({g.get('score', 0):,} likes), COPY IT CLOSE, and "
+                        f"append its [x:{g['id']}] tag to your \"topic\" label")
+            print(f"guide-pool enforcement: roll {attempt+1} ignored the pool "
+                  f"— re-rolling on @{g['sub']}", file=sys.stderr)
         if not errs:
             break
         prompt = (build_prompt(used, headlines, guides)
@@ -421,6 +440,13 @@ def main():
 
     if not guides:  # flag rides in post.json so daily.py names the post
         post["topic_source"] = "self-invented"
+    elif "[x:" not in topic:
+        # survived the re-roll and still ignored the pool — ship it
+        # (always-post law) but the daily report names it to the owner
+        post["topic_source"] = "ignored-pool"
+        print(f"WARNING: post ships guide-less while {len(guides)} viral "
+              "guides sat in the pool — flagged ignored-pool for the daily "
+              "report", file=sys.stderr)
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)
     subprocess.run([sys.executable, os.path.join(HERE, "render.py"),
                     os.path.join(post_dir, "post.json"), post_dir], check=True)
