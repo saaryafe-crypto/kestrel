@@ -1,0 +1,105 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 PROMPTS THAT <em>RAISE YOUR PRICES</em> WITHOUT LOSING CLIENTS",
+   "kicker": "TRY THEM ALL TONIGHT FOR FREE",
+   "hsize": 70,
+   "media": "posts/2026-08-12-edu-6-ai-pricing-strategy-prompts-opus-5-ana/gen-0.jpg",
+   "image_prompt": "Gold dollar symbol scaling upward on burgundy, documentary 35mm, harsh light, film grain. Symbol, no readable text."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) FIND THE MAX PRICE</em> YOUR MARKET WILL PAY",
+   "hsize": 100,
+   "body": "A pricing consultant charges between <b>$3,000 and $15,000</b> for a value analysis. This prompt does the same job in three minutes.",
+   "media": "posts/2026-08-12-edu-6-ai-pricing-strategy-prompts-opus-5-ana/gen-1.jpg",
+   "image_prompt": "Hands pressing a gold pushpin into the peak row on a chart of ascending $ symbols, that top tier circled in glowing gold, all lower rows in shadow. Deep navy background. Documentary news photo, 35mm, harsh flash, film grain. Accent: warm gold against deep navy."
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) BUILD PRICE ANCHORS</em> THAT SELL THE MIDDLE",
+   "hsize": 104,
+   "body": "Most businesses pick one price. A price anchor makes your main offer feel like the obvious choice by surrounding it with the wrong options.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) TURN YOUR PRICE INTO MATH</em> THEY CAN'T ARGUE WITH",
+   "hsize": 84,
+   "body": "Most clients push back on price because they can't see the return. Once they can do the math themselves, the objection disappears.",
+   "media": "posts/2026-08-12-edu-6-ai-pricing-strategy-prompts-opus-5-ana/gen-3.jpg",
+   "image_prompt": "A hand caught mid-stroke drawing three $ symbols connected by bold arrows on a large whiteboard, the final $ inside a gold circle. Bright white-lit open office. Documentary news photo, 35mm, harsh flash, film grain. Accent: gold circle against bright white."
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) RAISE YOUR PRICES</em> WITHOUT LOSING A SINGLE CLIENT",
+   "hsize": 100,
+   "body": "Raising prices is the fastest way to grow revenue without finding a new customer. Give current clients a <b>30-day window to lock in their current rate</b> and most stay.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) FIND THE OPENING</em> YOUR COMPETITORS LEFT",
+   "hsize": 104,
+   "body": "Pricing too close to a crowded competitor is a slow death. This prompt maps the whole competitive field and finds the gap where you win on value, not on being cheapest.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>6) KNOW EXACTLY WHEN</em> TO GIVE A DISCOUNT",
+   "hsize": 104,
+   "body": "Giving a discount you didn't need to give costs more than any single lost deal. Most of the time, the right answer is not a yes.",
+   "media": "posts/2026-08-12-edu-6-ai-pricing-strategy-prompts-opus-5-ana/gen-6.jpg",
+   "image_prompt": "A hand mid-stroke circling one box on a large calendar with a gold pen, all surrounding boxes crossed out in red, that single box glowing bright. Deep charcoal background. Documentary news photo, 35mm, harsh flash, film grain. Accent: gold against deep charcoal."
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 80,
+   "body": "You will want these the next time a pricing question hits. Save the post, open any AI, paste the prompt that fits. Daily AI news and real skills, every day",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 6 prompts. These do $50K worth of pricing strategy in 6 minutes, for free. \ud83d\udcb0\n\nSlide 2 finds the maximum price your market will actually pay, slide 3 builds three tiers that sell the middle automatically, slide 4 turns your price into math your customer can't argue with, slide 5 writes the price raise email that keeps every client, slide 6 maps competitors and finds the opening where you win on value, slide 7 tells you whether to give a discount and what to say instead.\n\nPricing is where most businesses leave the most money. Raise prices 20% and revenue goes up 20%. Cut costs 20% and you might save 5% after friction. AI now does in minutes what a consultant charges five figures for. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#AI #ChatGPT #BusinessGrowth #Pricing #AITools",
+ "pinned_comment": "Which prompt are you trying first? Slide 5 is the price raise email most owners have been putting off for months. Paste it tonight and send it this week.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 PROMPTS</em> THAT TELL YOU EXACTLY WHAT TO CHARGE",
+   "<em>6 PROMPTS THAT PRICE YOUR WORK</em> LIKE A PRO",
+   "<em>6 AI PROMPTS</em> THAT FIX YOUR PRICE FOR FREE",
+   "<em>6 PROMPTS THAT FIND</em> YOUR PERFECT PRICE TONIGHT",
+   "<em>6 PRICING PROMPTS</em> MCKINSEY WOULD CHARGE $50K FOR"
+  ],
+  "scores": [
+   4,
+   4,
+   6,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] hits with a specific $50K anchor and McKinsey name-drop that makes you actually stop and think 'wait, are these worth THAT?'\u2014real curiosity. The rest sound like standard feature lists you'd scroll past at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PRICING PROMPTS MOST BUSINESSES <em>NEVER DISCOVER</em>",
+   "<em>6 PRICING PROMPTS</em> MCKINSEY WOULD CHARGE $50K FOR",
+   "<em>6 FREE PROMPTS</em> CONSULTANTS CHARGE $50K TO TEACH YOU",
+   "6 PROMPTS THAT <em>RAISE YOUR PRICES</em> WITHOUT LOSING CLIENTS"
+  ],
+  "scores": [
+   4,
+   6,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "It nails the tension\u2014every business owner *wants* higher prices but fears losing clients, and this hook says you can have both, making you stop to figure out how. The others just tell you what something costs or exists; this one solves a specific fear and makes you need the answer."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)"
+}
