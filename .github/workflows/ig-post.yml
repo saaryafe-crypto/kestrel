@@ -53,6 +53,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          # pip download cache (run diet Aug 12): onnxruntime alone is a
+          # ~130MB wheel re-downloaded every slot. Keyed on this workflow
+          # file — the package list lives here, so edits refresh the cache.
+          cache: pip
+          cache-dependency-path: .github/workflows/ig-post.yml
 
       - name: Repost an existing post (skip generation)
         if: github.event.inputs.repost != ''

@@ -6,7 +6,7 @@ article text, asks Claude for the post JSON (daily_item container spec), runs
 the QA gate, then renders slides into posts/<date>-<slug>/.
 Uses the anthropic SDK if ANTHROPIC_API_KEY is set, else falls back to
 `claude -p` (Claude Code CLI) so it's testable with zero keys."""
-import json, os, re, subprocess, sys, time
+import json, os, re, subprocess, sys, threading, time
 from datetime import date
 
 from fetch import get  # same dir; shared HTTP helper with UA
@@ -163,12 +163,22 @@ def logo_svg(slug):
         return None
 
 
+# parallel slide workers (Aug 12) may ask for the SAME slug at once — the
+# cached svg/html/png files are shared, so the fetch+raster is serialized
+_LOGO_LOCK = threading.Lock()
+
+
 def logo_ref(slug):
     """Real logo SVG -> raster reference for the generator (owner Aug 1
     courtroom verdict: the model's from-memory 'pink OpenAI flower' reads
     instantly fake — the EXACT mark must ride along as a reference image,
     same doctrine as faces and products). Rendered on black in the brand's
     OFFICIAL color (owner Aug 4) — white for black-mark brands. Cached."""
+    with _LOGO_LOCK:
+        return _logo_ref(slug)
+
+
+def _logo_ref(slug):
     slug = slug.lower()
     svg = logo_svg(slug)
     if not svg:
@@ -787,6 +797,11 @@ YOUR FIRST TRY FAILED — a listener said: "{g.get('why', 'boring')}". Find a di
         return None, None, default_ctx
 
 
+# slides generate in parallel threads (run-time diet Aug 12): the rotation
+# ledger's read-modify-write must be atomic or concurrent picks lose entries
+_FACES_LOCK = threading.Lock()
+
+
 def pick_face(face):
     """Faces pool with photo rotation (owner Aug 1: recurring people are fine,
     the same PICTURE repeating is not). Each person has 1-3 stored press
@@ -797,13 +812,14 @@ def pick_face(face):
     if not cands:
         return None
     ledger = os.path.join(HERE, "faces-used.json")
-    try:
-        used = json.load(open(ledger))
-    except Exception:
-        used = {}
-    pick = min(cands, key=lambda c: used.get(os.path.basename(c), ""))
-    used[os.path.basename(pick)] = date.today().isoformat()
-    json.dump(used, open(ledger, "w"), indent=1)
+    with _FACES_LOCK:
+        try:
+            used = json.load(open(ledger))
+        except Exception:
+            used = {}
+        pick = min(cands, key=lambda c: used.get(os.path.basename(c), ""))
+        used[os.path.basename(pick)] = date.today().isoformat()
+        json.dump(used, open(ledger, "w"), indent=1)
     return os.path.relpath(pick, HERE)
 
 
@@ -1535,7 +1551,10 @@ def main(stories_path):
                      os.path.join(HERE, cm) if cm and not
                      os.path.basename(cm).startswith("gen") else
                      (media_files[0] if media_files else None))
-    for i, s in enumerate(post["slides"]):
+    genlock = threading.Lock()  # guards gen counter + cover reject pool
+
+    def render_slide(i, s):
+        nonlocal gen, cover_scored, cover_brief
         brief = s.pop("image_brief", "").strip()
         want_ref = s.pop("gen_ref", False) and ref_photo
         # PERSON ROUTE (owner Aug 2: "i prefer a model that allows that
@@ -1561,11 +1580,12 @@ def main(stories_path):
         # Tim Cook closer — the story's person says "follow us"). No anchor ->
         # art bg, never a from-scratch face
         if s["type"] == "cta" and not (want_ref or face_refs or person):
-            continue
-        if not brief or gen >= 4:
-            continue
+            return
+        with genlock:
+            if not brief or gen >= 4:
+                return
         if s.get("media") and s["type"] not in ("cover", "cta"):
-            continue
+            return
         # COMPOSITE-FIRST (owner verdict Aug 1: "this isn't their actual
         # product"): when the cover already holds a REAL article photo, a
         # generated replica never replaces it — generation only competes if
@@ -1583,10 +1603,11 @@ def main(stories_path):
             ok, score, flaw = image_score(cand, s.get("headline", ""))
             cover_scored = True
             if ok:
-                continue
+                return
             print(f"cover candidate rejected (score {score}/10): {flaw} "
                   "— falling through to generation", file=sys.stderr)
-            pool.append((score, cand))
+            with genlock:
+                pool.append((score, cand))
             s["media"] = None
         # cover ladder (owner rules Jul 29: capped attempts — each image costs
         # money — the brief rewritten around the judge's named flaw between
@@ -1629,7 +1650,8 @@ def main(stories_path):
             if ok:
                 s["media"] = os.path.relpath(path, HERE)
                 s["image_prompt"] = brief
-                gen += 1
+                with genlock:
+                    gen += 1
                 if s["type"] == "cover":
                     post["cover_style"] = "photo"  # a generated cover is a photo cover
                     # owner Aug 1 ("why is that logo?"): a generated scene
@@ -1645,7 +1667,8 @@ def main(stories_path):
             print(f"slide {i+1} image rejected (attempt {attempt+1}/{tries}, "
                   f"score {score}/10): {flaw}", file=sys.stderr)
             if s["type"] == "cover":
-                pool.append((score, path))
+                with genlock:
+                    pool.append((score, path))
             if attempt + 1 < tries:
                 # person-route covers retry concept-preserving (Aug 9): keep
                 # the staged scene + cast, fix only the judge's named flaw
@@ -1659,6 +1682,22 @@ def main(stories_path):
                     brief = face_riders(brief, None)[0]
         if s["type"] == "cover":
             cover_brief = brief
+
+    # PARALLEL slide generation (run-time diet Aug 12): the sequential
+    # gen+judge chain was ~12 min of the 50-64 min run. Slides are independent
+    # of each other — shared state is the gen cap, the cover reject pool
+    # (genlock) and the spend/face ledgers (locked in genimg._book/pick_face,
+    # which also books budget atomically so parallel checks can't overspend).
+    # max_workers matches the gen cap of 4, so the cap check at worker start
+    # keeps the sequential semantics: a queued slide only starts after another
+    # finishes, and skips once four images have landed. A worker crash
+    # re-raises here — the same failure mode as the old in-line loop.
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        futs = [ex.submit(render_slide, i, s)
+                for i, s in enumerate(post["slides"])]
+    for f in futs:
+        f.result()
     if gen:
         print(f"{gen} Seedream image(s) generated", file=sys.stderr)
 

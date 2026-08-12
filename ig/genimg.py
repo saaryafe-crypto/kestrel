@@ -22,7 +22,7 @@ gpt-image-2 person covers): monthly AND daily spend tracked in genimg-used.json.
 No key, budget out, or API failure -> None and the caller falls back to the
 Seedream ref-photo route or article imagery — a posting slot is never blocked.
 Stdlib only."""
-import json, os, sys, time, urllib.request
+import json, os, sys, threading, time, urllib.request
 from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -54,25 +54,51 @@ def _key():
     return None
 
 
-def _spend(cost=None, cover=False):
-    """Month total + per-lane day totals; with cost, records a new entry.
+# write.py generates slides in PARALLEL threads (run-time diet Aug 12): every
+# ledger touch is one atomic read-modify-write under this lock, or concurrent
+# generates lose each other's entries and the budget silently leaks.
+_LOCK = threading.Lock()
 
-    Lanes matter (issue #18 post-mortem, Aug 2): the gate used to compare
-    TOTAL day spend against the INNER cap, so every cover generated early in
-    the day ate the inner allowance and afternoon posts shipped text-only
-    inner slides. Entries now carry a "cover" flag; legacy entries without
-    one are classified by price (gpt high covers book $0.17)."""
-    used = json.load(open(USED)) if os.path.exists(USED) else []
-    if cost is not None:
-        used.append({"date": str(date.today()), "cost": cost, "cover": cover})
-        json.dump(used, open(USED, "w"))
-        return
+
+def _sums(used):
     today = str(date.today())
     month = today[:7]
     is_cover = lambda u: u.get("cover", u["cost"] >= 0.17)
     return (sum(u["cost"] for u in used if u["date"][:7] == month),
             sum(u["cost"] for u in used if u["date"] == today and not is_cover(u)),
             sum(u["cost"] for u in used if u["date"] == today and is_cover(u)))
+
+
+def _book(cost, cover=False):
+    """Atomic budget check + spend record. Booking BEFORE the API call (not
+    after, like the old check-then-spend) closes the parallel-generation race
+    where two threads both pass the check with headroom for only one. A
+    failed generation refunds via _refund. Returns True when booked."""
+    with _LOCK:
+        used = json.load(open(USED)) if os.path.exists(USED) else []
+        month, day_inner, day_cover = _sums(used)
+        day = day_cover if cover else day_inner
+        day_cap = COVER_DAY_BUDGET if cover else DAY_BUDGET
+        if month + cost > MONTH_BUDGET or day + cost > day_cap:
+            print(f"genimg budget out (month ${month:.2f}, today ${day:.2f}, "
+                  f"{'cover' if cover else 'inner'} cap ${day_cap:.2f})",
+                  file=sys.stderr)
+            return False
+        used.append({"date": str(date.today()), "cost": cost, "cover": cover})
+        json.dump(used, open(USED, "w"))
+        return True
+
+
+def _refund(cost, cover=False):
+    """Remove one booked entry (the generation it paid for returned nothing)."""
+    with _LOCK:
+        used = json.load(open(USED)) if os.path.exists(USED) else []
+        for j in range(len(used) - 1, -1, -1):
+            if (used[j]["date"] == str(date.today()) and used[j]["cost"] == cost
+                    and used[j].get("cover", False) == cover):
+                used.pop(j)
+                break
+        json.dump(used, open(USED, "w"))
 
 
 def _get(url, key=None, timeout=60):
@@ -164,15 +190,12 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
     key = _key()
     if not key:
         return None
-    month, day_inner, day_cover = _spend()
     # COVER-FIRST (owner Aug 1, Chrome-bugs post-mortem: the daily cap ran out
     # on inner slides of EARLIER posts, so a later post shipped a logo-on-dark
     # cover — "terrible logo and without a cover photo"). Each lane answers
-    # only to its OWN daily ceiling (+ the monthly cap): covers can never be
-    # starved by inner spend, and inner slides can never be starved by cover
-    # spend (issue #18: total-vs-inner-cap comparison broke afternoon posts).
-    day = day_cover if cover else day_inner
-    day_cap = COVER_DAY_BUDGET if cover else DAY_BUDGET
+    # only to its OWN daily ceiling (+ the monthly cap, both enforced inside
+    # _book): covers can never be starved by inner spend, and inner slides can
+    # never be starved by cover spend (issue #18 post-mortem).
     # person route (Aug 2): high quality on covers, medium inside — owner pick.
     # Aug 10 owner order: EVERY cover renders on gpt-image ("chatgpt from
     # replicate") — its prompt adherence is what makes concept covers land on
@@ -180,17 +203,14 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
     quality = "high" if cover else "medium"
     use_gpt = person or cover
     cost = GPT_COST[quality] if use_gpt else COST
-    if month + cost > MONTH_BUDGET or day + cost > day_cap:
-        if (use_gpt and not person and month + COST <= MONTH_BUDGET
-                and day + COST <= day_cap):
+    if not _book(cost, cover=cover):
+        if use_gpt and not person and _book(COST, cover=cover):
             # a Seedream cover beats no cover (always-post): degrade, log it
             use_gpt, cost = False, COST
             print("genimg: gpt budget out — degrading cover to Seedream",
                   file=sys.stderr)
         else:
-            print(f"genimg budget out (month ${month:.2f}, today ${day:.2f}, "
-                  f"{'cover' if cover else 'inner'} cap ${day_cap:.2f}) — "
-                  "skipping", file=sys.stderr)
+            print("genimg: skipping (budget out)", file=sys.stderr)
             return None
     # Seedream-optimal 5-part structure (subject/action/setting come from the
     # brief; we append composition -> lighting -> lens -> style in that order —
@@ -250,18 +270,22 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
         if not img and use_gpt and not person:
             # gpt flaked on a no-name cover: Seedream can render the same
             # brief safely (E005 only bites on real names) — always-post rung
+            _refund(cost, cover=cover)
             print("genimg: gpt returned no image — retrying brief on Seedream",
                   file=sys.stderr)
-            img = _call(key, prompt, refs=live_refs or None)
+            if not _book(COST, cover=cover):
+                return None
             cost = COST
+            img = _call(key, prompt, refs=live_refs or None)
         if not img:
+            _refund(cost, cover=cover)
             # was silent — the Aug 2 bare-cover post-mortem couldn't see WHY
             print("genimg: model returned no image (failed/flagged prediction) "
                   "— skipping", file=sys.stderr)
             return None
         open(out_path, "wb").write(img)
-        _spend(cost, cover=cover)
         return out_path
     except Exception as e:
+        _refund(cost, cover=cover)
         print(f"genimg failed ({e})", file=sys.stderr)
         return None
