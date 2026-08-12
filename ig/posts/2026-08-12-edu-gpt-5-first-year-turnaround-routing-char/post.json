@@ -1,0 +1,75 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GPT-5 LAUNCHED WITH <em>ROUTING THAT PICKED THE CHEAP VERSION</em> AND FAKE BENCHMARK CHARTS, OPENAI SPENT A YEAR FIXING BOTH",
+   "kicker": "NOT WHAT IT WAS AT LAUNCH",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "hook_candidates": [
+    "<em>OPENAI FIXED 6 THINGS</em> AFTER GPT-5'S WORST YEAR",
+    "GPT-5 <em>LAUNCHED BROKEN.</em> 6 THINGS OPENAI ACTUALLY FIXED.",
+    "<em>6 THINGS</em> OPENAI QUIETLY FIXED IN GPT-5 SINCE LAUNCH",
+    "<em>GPT-5 GOT 6 THINGS WRONG</em> IN YEAR ONE.",
+    "<em>6 WAYS GPT-5 SOL</em> CHANGED IN ONE YEAR"
+   ],
+   "media": "posts/2026-08-12-edu-gpt-5-first-year-turnaround-routing-char/gen-0.jpg",
+   "image_prompt": "the person in the reference photo, sleeves rolled up, hoists a glowing golden gear component overhead with both hands like a championship trophy \u2014 triumphant grin, eyes to camera; smashed circuit parts and broken components cover the auto-repair workshop workbench behind him; the OpenAI logo exactly as in the reference image glows white neon large on the deep navy wall. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: molten gold against deep navy."
+  },
+  {
+   "type": "content",
+   "headline": "1) GPT-5 LAUNCHED AS <em>ONE OF OPENAI'S LOW POINTS</em>",
+   "body": "Three things broke at once: the routing system, the model quality, and the honesty of the numbers OpenAI used to sell it. One year later, all three have been replaced.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>ROUTING BROKE</em> THE MOMENT GPT-5 LAUNCHED",
+   "body": "Automatic routing picked the lighter, cheaper option far too often. People paying for the full model kept getting cut-rate responses with no way to tell which version was handling their request.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) THE MODEL ITSELF <em>FELL SHORT OF ITS OWN BENCHMARKS</em>",
+   "body": "Even when routing worked, the outputs did not match the advertised scores. Tasks that older models had handled smoothly felt choppy or inconsistent. Early users called it a step sideways.",
+   "hsize": 97,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>CHARTCRIME</em> WAS THE FINAL STRAW",
+   "body": "OpenAI put out comparison charts claiming GPT-5 led every rival. The AI community found cherry-picked tests and conditions. <b>Chartcrime</b> became the name for benchmark manipulation dressed up as proof.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) OPENAI RECOGNIZED THE PROBLEMS <em>AND MADE A COMPLETE TURNAROUND</em>",
+   "body": "Routing was rebuilt. The base model improved through a series of updates. The way OpenAI talked about benchmarks changed. Each problem named publicly got addressed publicly, and version 5.6 Sol now leads most head-to-head comparisons.",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) VERSION 5.6 SOL <em>ROSE TO THE TOP</em>",
+   "body": "The current build, <b>GPT-5.6 Sol</b>, is what a year of iteration produced. Routing works, output quality matches the promise, and by most comparisons it is the best version of this model ever shipped.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> MOST PEOPLE STILL PICTURE THE BROKEN LAUNCH VERSION.",
+   "body": "The ChatGPT running right now earned its spot. Save this for the next time someone says GPT-5 never got good.",
+   "hsize": 90,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see what broke, what got rebuilt, and where GPT-5 stands today. \ud83d\udd04\n\nGPT-5's low-point launch one year ago, routing that defaulted to the wrong version on day one, a model that fell short of its own benchmarks, the chartcrime controversy that forced a public rethink, OpenAI's incremental turnaround through a series of updates, and version 5.6 Sol now sitting at the top.\n\nA year of public failure produced the most-used AI tool at its current best. The version in most people's heads is still the broken launch build. The one running now is not. Running a business? DM us \"AI\" and we will show you what the current build can do for yours.\n\nSources: kimmonismus\n\n#chatgpt #gpt5 #openai #artificialintelligence #aitools",
+ "pinned_comment": "Which one surprised you most: the routing failure, the chartcrime, or how fast OpenAI turned it around? Most people still picture the version from a year ago.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "HOOK \u2014 THREE STAPLED FACTS (\u00a72 explicit ban): the hook chains three distinct facts \u2014 (1) routing picked the cheap version, (2) fake benchmark charts, (3) OpenAI spent a year fixing both. Cut to ONE actor, ONE action with the single sharpest specific. The hook also has two actors (GPT-5 as launcher, OpenAI as fixer), which \u00a72 forbids.; HOOK \u2014 TRUTH OVERSTATEMENT (\u00a75): the hook calls the charts 'FAK"
+}

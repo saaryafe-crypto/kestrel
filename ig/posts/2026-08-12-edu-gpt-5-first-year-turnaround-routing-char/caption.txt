@@ -1,0 +1,9 @@
+Swipe to see what broke, what got rebuilt, and where GPT-5 stands today. 🔄
+
+GPT-5's low-point launch one year ago, routing that defaulted to the wrong version on day one, a model that fell short of its own benchmarks, the chartcrime controversy that forced a public rethink, OpenAI's incremental turnaround through a series of updates, and version 5.6 Sol now sitting at the top.
+
+A year of public failure produced the most-used AI tool at its current best. The version in most people's heads is still the broken launch build. The one running now is not. Running a business? DM us "AI" and we will show you what the current build can do for yours.
+
+Sources: kimmonismus
+
+#chatgpt #gpt5 #openai #artificialintelligence #aitools
