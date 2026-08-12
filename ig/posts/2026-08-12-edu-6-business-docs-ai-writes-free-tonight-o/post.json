@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 BUSINESS DOCUMENTS</em> AI WRITES SO GOOD THEY FEEL ILLEGAL",
+   "kicker": "CONSULTANTS CHARGE $300 EACH FOR THESE",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-12-edu-6-business-docs-ai-writes-free-tonight-o/gen-0.jpg",
+   "image_prompt": "Thick stack of business documents marked with icons (dollar, warning triangle, X), electric-orange and slate-blue neon interior, desktop composition, zero readable text"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>GENERATE A CLIENT PROPOSAL</em> IN 10 MINUTES",
+   "hsize": 103,
+   "body": "Consultants charge <b>$200 to $400</b> to write one client proposal. This prompt writes the same document in 10 minutes: \"I'm pitching [service] to [client]. Write a one-page proposal with a clear next step.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>BUILD A JOB POST</em> THAT FILTERS BAD HIRES OUT",
+   "hsize": 100,
+   "body": "A bad hire costs <b>30% of that person's first-year salary</b>, per SHRM. This prompt writes a job post that filters candidates out before the first interview: \"Write a job post for a [role] at [company type]. List 3 must-haves, 2 deal-breakers that screen people out, and one clear application step.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>TURN ANY MEETING</em> INTO A DECISIONS-ONLY DOCUMENT",
+   "hsize": 100,
+   "body": "The average manager wastes <b>31 hours a month</b> in meetings where nothing gets recorded. This prompt strips any notes down to decisions made, owners, and deadlines: \"Here are my meeting notes: [paste notes]. Pull out only: decisions made, who owns each one, and the deadline. Bullet list only.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>WRITE THE POLICY</em> YOUR BUSINESS RUNS ON",
+   "hsize": 105,
+   "body": "Most owners pay a consultant <b>$300 to $600</b> to draft a single policy they never update. This prompt writes one that protects you in a dispute and reads as fair to clients: \"Write a [policy type] policy for a [business type]. Protect the business in disputes, read as fair to clients, keep it under one page.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>WRITE AN SOP</em> FOR ANY PROCESS YOU DO TWICE",
+   "hsize": 100,
+   "body": "Writing one SOP manually takes a manager <b>3 to 4 hours</b>. This prompt builds one for any task you describe, steps, one decision point per step, written for a new hire: \"Write an SOP for [process]. Number every step. Include one decision point per step. Write it for someone on day one.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>WRITE A PERFORMANCE REVIEW</em> THAT ACTUALLY LANDS",
+   "hsize": 100,
+   "body": "Managers spend an average of <b>3 hours per review</b> writing something the employee reads once and forgets. This prompt writes one that sticks in under 2 minutes: \"Write a performance review for [name], a [role]. Top achievement: [achievement]. Growth area: [area]. Make it specific enough they still remember it next quarter.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 110,
+   "body": "You'll want these the next time you're staring at a blank document. Six prompts, six assets your business actually runs on.\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through \ud83d\udc49 Six business documents most owners never get around to writing. AI writes all of them in under an hour.\n\nClient proposals, job postings that filter bad hires, meeting notes stripped to decisions only, policies that protect you in disputes, standard operating procedures for anything you repeat, performance reviews that take under 2 minutes to write.\n\nEvery one of these takes a professional hours to write and most business owners skip them entirely. That's the gap AI fills best: not the glamorous work, but the operational layer that keeps a business running. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, SHRM, Atlassian\n\n#ai #artificialintelligence #business #productivity #aitools",
+ "pinned_comment": "Which one are you testing first? Slide 4 (meeting notes) takes 30 seconds and you can try it tonight on notes from any call you had this week.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 BUSINESS DOCS</em> AI WRITES FOR FREE TONIGHT",
+   "THE 6 BUSINESS DOCS <em>MOST OWNERS NEVER GET AROUND TO.</em> AI WRITES ALL 6.",
+   "YOUR BUSINESS RUNS ON <em>6 THINGS NOBODY WRITES DOWN.</em> AI WRITES THEM.",
+   "<em>6 BACK-OFFICE DOCUMENTS</em> AI FINISHES IN ONE HOUR TONIGHT",
+   "<em>AI WRITES 6 DOCUMENTS</em> CONSULTANTS CHARGE $300 EACH FOR"
+  ],
+  "scores": [
+   6,
+   7,
+   5,
+   6,
+   9
+  ],
+  "winner": 4,
+  "why": "The $300-per-doc pricing hits instantly\u2014you stop and think 'wait, WHAT?' with a real number you can feel. Runner-up [1] nails the relatable pain point but never lands that urgent adrenaline spike that makes you actually tap into it at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 CONSULTANT DOCUMENTS WORTH <em>$1,800</em> AI WRITES FOR FREE",
+   "<em>AI WRITES 6 DOCUMENTS</em> CONSULTANTS CHARGE $300 EACH FOR",
+   "<em>6 BUSINESS DOCUMENTS</em> AI WRITES SO GOOD THEY FEEL ILLEGAL",
+   "<em>6 DOCUMENTS</em> MOST PEOPLE STILL PAY $300 EACH FOR"
+  ],
+  "scores": [
+   6,
+   6,
+   9,
+   7
+  ],
+  "winner": 2,
+  "why": "\"SO GOOD THEY FEEL ILLEGAL\" creates genuine \"wait, WHAT?\" intrigue that stops your scroll\u2014you need to know why. [0] just lists a familiar value prop (AI beats expensive service) that your brain processes and swipes past automatically."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (6/10)",
+ "editor_override": "IMAGE LAW \u00a73 violation: the cover shows a generated unknown face. The doctrine is explicit \u2014 'Never a generated unknown face.' The man holding documents is not a recognizable famous person. Fix: remove the face entirely and lead with the stack of colorful documents + the Anthropic asterisk logo prominently centered, or source a real photo of a business owner.; HOOK LAW \u00a72 violation: the hook is 10"
+}
