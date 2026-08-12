@@ -1,0 +1,93 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>WHAT AGENCIES CHARGE $10,000 TO WRITE</em> FOR YOUR PRODUCT LAUNCH, THESE 5 AI PROMPTS DO TONIGHT",
+   "kicker": "WRITE THE WHOLE LAUNCH TONIGHT",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-12-edu-5-ai-prompts-that-write-a-complete-produ/gen-0-r.jpg",
+   "image_prompt": "Figure at mission control, rear view, pressing large glowing orange button on panel; five screens behind display abstract symbols only, deep navy background."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) WRITE THE EMAIL</em> THAT SELLS YOUR LAUNCH",
+   "hsize": 100,
+   "body": "A launch email copywriter charges <b>$800 to $1,500</b> for one campaign email. This prompt writes it in 90 seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) BUILD THE SALES PAGE</em> COLD VISITORS BUY FROM",
+   "hsize": 96,
+   "body": "A converting sales page costs <b>$3,000 to $8,000</b> from a boutique agency. This prompt builds the whole structure, pain, objections, guarantee, in one shot.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) GENERATE A FULL WEEK</em> OF LAUNCH POSTS IN ONE SHOT",
+   "hsize": 88,
+   "body": "A social media content package for a launch runs <b>$1,500 to $2,500</b>. One prompt covers all seven days.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) WRITE THE PRESS RELEASE</em> JOURNALISTS ACTUALLY OPEN",
+   "hsize": 92,
+   "body": "PR firms charge <b>$2,000 to $5,000</b> just to write one release. The prompt below follows the exact format journalists expect.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) CLOSE THE CART</em> WITH A 3-EMAIL SEQUENCE",
+   "hsize": 100,
+   "body": "Cart-close emails drive <b>30 to 40%</b> of total launch revenue, yet most founders send just one. This prompt writes all three.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> THE WHOLE LAUNCH IS IN THESE 5 PROMPTS",
+   "hsize": 88,
+   "body": "You will want these the next time you launch something. Save this post now.\n\nDaily AI news and real skills every day. Follow @yaffeai",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. Five prompts that write every piece of your product launch, from announcement email to cart close. \ud83d\ude80\n\nThe pre-launch announcement email, the sales page that converts cold visitors, a full week of social content, a press release journalists actually open, and the 3-email cart-close sequence that drives most of your launch revenue. Five things agencies charge $8,000 to $15,000 for combined.\n\nMost launches fail because of the writing, not the product. An agency used to be the only way to get launch copy that converts. Now one afternoon with the right prompts covers the whole sequence.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for your next launch.\n\nSources: Anthropic\n\n#AItools #ProductLaunch #MarketingStrategy #BusinessOwner #AIwriting",
+ "pinned_comment": "Which piece do you struggle with most: the sales page, the email sequence, or getting press coverage? Slide 5 (the press release) is the one almost nobody thinks to use, and it can bring in thousands of new buyers overnight.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 PROMPTS THAT WRITE</em> YOUR WHOLE PRODUCT LAUNCH OVERNIGHT",
+   "<em>YOUR ENTIRE LAUNCH SEQUENCE</em> IS 5 PROMPTS LONG",
+   "<em>AGENCIES CHARGE $10,000</em> FOR THESE 5 LAUNCH PROMPTS",
+   "<em>5 LAUNCH PROMPTS THAT REPLACE</em> YOUR $10,000 AGENCY",
+   "<em>$10,000 IN AGENCY WORK</em> IS NOW 5 PROMPTS"
+  ],
+  "scores": [
+   7,
+   6,
+   8,
+   8,
+   9
+  ],
+  "winner": 4,
+  "why": "[4] leads with the shock of \"$10,000\" then hits you with \"IS NOW\"\u2014your brain feels the transformation before you finish reading. [3] makes the same move but buries it at the end, so it reads like an explanation instead of a gut punch."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THE <em>5 PROMPTS</em> AGENCIES DON'T WANT YOU TO COPY",
+   "<em>$10,000 IN AGENCY WORK</em> IS NOW 5 PROMPTS",
+   "THE <em>5 PROMPTS</em> THAT REPLACE YOUR ENTIRE LAUNCH AGENCY"
+  ],
+  "scores": [
+   6,
+   8,
+   7
+  ],
+  "winner": 1,
+  "why": "The $10,000 number hits like a slap \u2014 it's concrete, specific, and makes you stop to process the claim in one read. [0] and [2] tease you with mystery, but [1] tells the actual wild story upfront, so you swipe to see proof, not to solve a riddle."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}
