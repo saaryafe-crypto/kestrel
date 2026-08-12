@@ -86,6 +86,45 @@ def update_guide_pool(moments, now_iso):
           "-> guides.json", file=sys.stderr)
 
 
+INSPIRE = os.path.join(HERE, "inspire-pool.json")
+INSPIRE_FLOOR = 3000   # likes — iconic photos recirculate hot; keep it premium
+INSPIRE_POOL_DAYS = 30  # an iconic photo isn't a headline — it keeps for weeks
+INSPIRE_POOL_CAP = 40
+
+
+def update_inspire_pool(moments, now_iso):
+    """Rolling pool of viral PHOTO moments (owner order Aug 12 — the Elon-2008
+    wreckage reference): candidates for the weekly inspirational photo reel
+    (inspire.py). Photos only, virality floor, politics out. inspire.py's
+    vision judge decides which (if any) is a genuinely iconic inspiring
+    photo+story — this pool just persists the raw viral sightings past the
+    2h radar snapshot, guide-pool pattern."""
+    try:
+        pool = {p["id"]: p for p in json.load(open(INSPIRE)).get("photos", [])}
+    except Exception:
+        pool = {}
+    now_ts = datetime.fromisoformat(now_iso).timestamp()
+    for m in moments:
+        blob = f"{m.get('title', '')} {m.get('selftext', '')}"
+        if (not m.get("image") or m.get("video")
+                or m.get("score", 0) < INSPIRE_FLOOR or political(blob)):
+            continue
+        p = dict(m)
+        p["born"] = now_ts - m.get("age_h", 0) * 3600
+        old = pool.get(p["id"])
+        if old:
+            p["born"] = old.get("born", p["born"])
+            p["score"] = max(p.get("score", 0), old.get("score", 0))
+        pool[p["id"]] = p
+    keep = [p for p in pool.values()
+            if now_ts - p.get("born", 0) < INSPIRE_POOL_DAYS * 86400]
+    keep.sort(key=lambda p: -p.get("score", 0))
+    keep = keep[:INSPIRE_POOL_CAP]
+    json.dump({"updated": now_iso, "photos": keep}, open(INSPIRE, "w"), indent=1)
+    print(f"inspire pool: {len(keep)} viral photos ({INSPIRE_POOL_DAYS}-day) "
+          "-> inspire-pool.json", file=sys.stderr)
+
+
 def main():
     try:
         import radar_x
@@ -113,6 +152,10 @@ def main():
         update_guide_pool(moments + wide_guides, now)
     except Exception as e:
         print(f"guide pool update failed ({e})", file=sys.stderr)
+    try:  # inspirational photo pool (owner Aug 12), same fail-open rule
+        update_inspire_pool(moments, now)
+    except Exception as e:
+        print(f"inspire pool update failed ({e})", file=sys.stderr)
     print(f"radar: {len(moments)} moments -> radar.json (X watchlist only)",
           file=sys.stderr)
     for m in moments[:8]:
@@ -122,7 +165,8 @@ def main():
     # persist for CI (scout.py reads radar.json from the repo) — market.py
     # pattern. X ledger+cache ride along so the daily budget watch sees spend.
     subprocess.run(["git", "add", os.path.basename(OUT), "guides.json",
-                    "x-used.json", "x-moments.json", "il-news.json"], cwd=HERE)
+                    "x-used.json", "x-moments.json", "il-news.json",
+                    "inspire-pool.json"], cwd=HERE)
     r = subprocess.run(["git", "commit", "-m", f"radar {now[:16]}"], cwd=HERE,
                        capture_output=True)
     if r.returncode == 0:

@@ -57,8 +57,11 @@ def trending_audio(query=None):
     return api(f"/misc/instagram/audio?teamId={TEAM_ID}&audioType=music" + q)["audio"]
 
 
-def publish_reel(caption, video_url, audio_id=None):
-    """Upload video from public URL, post as REEL now, native audio attached."""
+def publish_reel(caption, video_url, audio_id=None, music_volume=30,
+                 original_volume=100):
+    """Upload video from public URL, post as REEL now, native audio attached.
+    Default mix = track under the clip's own sound; inspire.py's silent
+    Ken Burns reels pass music_volume=100, original_volume=0."""
     up = api("/upload/from-url", {"teamId": TEAM_ID, "url": video_url})
     # shareToFeed False = Reels tab only (owner rule Jul 29: the main grid is
     # carousels only — reels never appear on the profile grid)
@@ -67,8 +70,8 @@ def publish_reel(caption, video_url, audio_id=None):
     if audio_id:
         # IG mixes at publish time: trending track under the clip's own sound
         ig["musicSoundInfo"] = {"musicSoundId": str(audio_id),
-                                "musicSoundVolume": 30,
-                                "videoOriginalSoundVolume": 100}
+                                "musicSoundVolume": music_volume,
+                                "videoOriginalSoundVolume": original_volume}
     return api("/post/", {
         "teamId": TEAM_ID,
         "title": caption.split("\n")[0][:80] or "reel",
