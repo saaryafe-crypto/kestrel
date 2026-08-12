@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "MOST FOUNDERS BUILD FOR MONTHS BEFORE RUNNING THE <em>6 AI PROMPTS THAT WOULD HAVE KILLED THE IDEA IN AN HOUR</em>",
+   "hsize": 70,
+   "face": [],
+   "media": "posts/2026-08-12-edu-6-ai-prompts-that-stress-test-a-business/gen-0.jpg",
+   "image_prompt": "Desktop monitor, single red warning triangle on black screen, electric-blue rim light, minimal workspace, overhead shot, studio flash, no readable text, stark documentary style."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) ASK AI TO DESTROY YOUR IDEA FIRST</em>",
+   "hsize": 104,
+   "body": "<b>42% of startups fail because nobody wanted the product.</b> Run this: \"[Describe your idea]. You are a skeptical investor. List every reason this idea will fail, starting with the most likely killers.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) FIND OUT IF ANYONE WILL ACTUALLY PAY</em>",
+   "hsize": 100,
+   "body": "<b>Behavior is the only signal that does not lie.</b> Use this: \"My customer is [describe them]. I charge [price] for [product]. Write 5 questions revealing whether they would pay, based only on past behavior.\"",
+   "media": "posts/2026-08-12-edu-6-ai-prompts-that-stress-test-a-business/gen-2.jpg",
+   "image_prompt": "Two bare hands exchanging a credit card over a plain white desk, the receiving hand mid-hesitation with the card suspended between fingers, no readable text on card, warm tungsten side light, clean background. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: warm amber against cool white."
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) MAP EVERY COMPETITOR IN 5 MINUTES</em>",
+   "hsize": 104,
+   "body": "<b>The competitors founders miss are usually the ones that kill them.</b> Run this: \"[My idea]. List every direct and indirect competitor, including free alternatives, what they charge, and where they fall short.\"",
+   "media": "posts/2026-08-12-edu-6-ai-prompts-that-stress-test-a-business/gen-3.jpg",
+   "image_prompt": "True overhead shot of a whiteboard packed with color-coded sticky notes in loose clusters, one hand mid-placement of a final yellow note, bold black marker arrows connecting clusters, no text on any note, cool overhead fluorescent light. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: bright yellow sticky note against white."
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) SIZE YOUR MARKET WITHOUT A CONSULTANT</em>",
+   "hsize": 100,
+   "body": "<b>Claude gives you a working estimate in under a minute.</b> Use this: \"[My customer]. Estimate how many exist in the US, what they spend annually, and what share a solo business could realistically capture.\"",
+   "media": "posts/2026-08-12-edu-6-ai-prompts-that-stress-test-a-business/gen-4.jpg",
+   "image_prompt": "A hand in motion drawing a bold funnel diagram on a large open notebook page in thick black marker, numbers written large but illegible from an oblique shooting angle, warm wooden desk, cool side daylight, no readable text. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: black ink line against warm cream paper."
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) WRITE THE PITCH BEFORE YOU BUILD ANYTHING</em>",
+   "hsize": 96,
+   "body": "<b>Amazon's rule: write the press release before writing a line of code.</b> Use this: \"Write a 3-sentence pitch for [describe it]. Then list every assumption you had to make to write it.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>6) GET ONE VERDICT: GO, WAIT, OR KILL IT</em>",
+   "hsize": 100,
+   "body": "After five prompts, paste everything in and run this: \"[Your notes]. Score it 1 to 10 on market size, competition, and proof of demand. Give me one sentence: build, wait, or kill.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 120,
+   "body": "You will want these the next time an idea hits you. Save this post so they are there when you need them. Follow for tools you can use tonight",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6 before you spend a dollar on your next idea. From killing the idea to sizing the market to writing the pitch, all in one night. \ud83d\udd16\n\nIn order: ask AI to destroy your idea before you fall in love with it, find out whether anyone will actually pay using past behavior not opinions, map every competitor including indirect ones, size the market without hiring anyone, write the 3-sentence pitch before you build a thing, get a final one-sentence verdict to go, wait, or kill it.\n\n42% of startups fail because there was never a real market. Amazon writes the press release before writing the first line of code. Every prompt here is built on a principle that survived real founders. The ones who waste a year on the wrong idea and the ones who do not are usually separated by one honest conversation before they start.\n\nRunning a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: CB Insights, Colin Bryar and Bill Carr, Rob Fitzpatrick\n\n#ai #chatgpt #artificialintelligence #business #entrepreneur",
+ "pinned_comment": "Which one are you running first tonight? Slide 2 is the one most founders skip, and it is the one that saves the most money.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 PROMPTS EVERY FOUNDER NEEDS</em> BEFORE BUILDING ANYTHING",
+   "6 PROMPTS THAT <em>KILL A BAD IDEA</em> BEFORE YOU SPEND",
+   "6 PROMPTS THAT PROVE YOUR IDEA WORKS <em>BEFORE YOU SPEND</em>",
+   "6 AI PROMPTS THAT <em>TELL YOU IF YOUR IDEA WORKS</em>"
+  ],
+  "scores": [
+   3,
+   5,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "\"AI prompts that TELL YOU\" hits different at 2am\u2014it's specific enough to make you think \"wait, how?\" whereas [2]'s \"prove your idea works\" is solid but sounds like every startup podcast ever. The AI angle makes you stop."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>TELL YOU IF YOUR IDEA WORKS</em>",
+   "6 AI PROMPTS MOST FOUNDERS <em>FIND AFTER IT'S TOO LATE</em>",
+   "6 AI PROMPTS <em>THAT REPLACE YOUR STARTUP CONSULTANT</em>",
+   "6 AI PROMPTS THAT <em>KILL BAD IDEAS BEFORE YOU BUILD THEM</em>"
+  ],
+  "scores": [
+   4,
+   7,
+   5,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] stops you cold with \"AFTER IT'S TOO LATE\"\u2014that regret/FOMO hook makes you think you've already lost, so you HAVE to see what you missed. [3] is a solid feature claim but it doesn't make you feel like you've been doing something wrong the whole time."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (3/10)"
+}

@@ -1,68 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Scout interest 3/10 with no real event, no named person, no money, no consequence — just an old product description with zero viral-specific story behind it.",
-  "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ",
-  "t": "2026-08-04T20:46:48Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance — the entire source is one thin tweet with a clip and no second fact, no names, no numbers, no consequence to build slides from.",
-  "subject": "🇷🇺🇺🇦 It's official, we are living in a simulation This is a ground drone dodging a flying drone Who needs humans anymore",
-  "t": "2026-08-04T20:47:34Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Scout interest 3/10 with a single thin tweet and no names, numbers, or real-world consequence — pure no-substance content that would require the writer to pad every slide.",
-  "subject": "There's a guy who makes industrial-strength Beyblades that burst into flames when they spin.",
-  "t": "2026-08-04T20:47:42Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "§4 COVER CONTRACT: hook promises '6 AI PROMPTS THAT FIND TRAPS IN YOUR CONTRACTS' but slides 4 (demand letter writer) and 5 (dispute case builder) do not find traps in contracts — they are separate legal actions with no contract-scanning step. Only 3 of the 6 prompts actually deliver what the cover promises. Fix: either broaden the hook to cover all six use cases (e.g. '6 AI PROMPTS THAT REPLACE Y",
-  "subject": "6 AI PROMPTS THAT FIND <em>TRAPS IN YOUR CONTRACTS</em>",
-  "t": "2026-08-04T21:19:21Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Hook is a label headline (banned §2) and at 9 words falls below the 12-word minimum — it needs to be ONE complete sentence (12-25 words) with actor + action + the wild specific, e.g. a felt-scale payoff like the total cost saved or the trap count found; All six content slide bodies open with the identical 'A [type] lawyer charges $X / This is free' template — the framing repeats verbatim six times",
-  "subject": "6 AI PROMPTS THAT FIND <em>TRAPS IN YOUR CONTRACTS</em>",
-  "t": "2026-08-04T21:21:07Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-08-05T00:02:17Z",
-  "gate": "A",
-  "subject": "Amazon (MONSTER) Insider Trading Alert 🚨 Founder Jeff Bezos dumps $4 Billion worth of $AMZN shares 🤯 👀",
-  "verdict": "KILL",
-  "reason": "Bezos selling Amazon shares is routine — he has executed multi-billion-dollar sell-offs on a regular pre-announced schedule (10b5-1 plan) for years, making this on-topic-but-routine with no surprising consequence or human story behind it."
- },
- {
-  "t": "2026-08-05T00:03:50Z",
-  "gate": "A",
-  "subject": "BREAKING: MicroStrategy, $MSTR, announces it has sold 1,638 Bitcoin at an average price of $63,957, raising $104.7 milli",
-  "verdict": "KILL",
-  "reason": "This is a routine financial market update — a company sold some Bitcoin and its stock is down — with no human story, no twist, and no consequence beyond ordinary price movement."
- },
- {
-  "t": "2026-08-05T00:04:31Z",
-  "gate": "A",
-  "subject": "\"More than 70% of recent home buyers were counting on mortgage rates to drop,\" per MW",
-  "verdict": "KILL",
-  "reason": "This is a routine market statistic with no specific event, no named person, and no consequence anyone felt — it's on-topic-but-routine financial data that would require padding to fill slides."
- },
- {
-  "t": "2026-08-05T00:05:15Z",
-  "gate": "A",
-  "subject": "Reminder to go touch grass A scientist in Japan demonstrated that the air inside a forest strengthens your immune system",
-  "verdict": "KILL",
-  "reason": "This is a years-old science study with no new event, no tech/AI angle, and a scout score of 3/10 — it's off-brand wellness content with no viral-specific happening."
- },
- {
   "t": "2026-08-05T00:06:23Z",
   "gate": "A",
   "subject": "Japan's portable aquarium bag lets you carry live fish Called the Katsugyo Bag, this portable aquarium was developed in ",
@@ -2096,6 +2033,69 @@
   "t": "2026-08-12T00:37:15Z",
   "gate": "B",
   "subject": "6 PROMPTS THAT <em>RAISE YOUR PRICES</em> WITHOUT LOSING CLIENTS",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-08-12T07:00:22Z",
+  "gate": "A",
+  "subject": "China's Long March 7A has exploded during first stage flight.",
+  "verdict": "KILL",
+  "reason": "Source is 61 characters with one bare fact and no second fact, numbers, or consequence; writer would have to pad, and space-as-news without established tech/business impact lacks the real-world consequence required to make it a story."
+ },
+ {
+  "t": "2026-08-12T07:00:57Z",
+  "gate": "A",
+  "subject": "You will be able to watch live sports in 4k or movies or games or productivity!",
+  "verdict": "KILL",
+  "reason": "No substance: single vague tweet, no numbers or specifics, no real-world consequence; launch preview content is banned."
+ },
+ {
+  "t": "2026-08-12T07:01:34Z",
+  "gate": "A",
+  "subject": "We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis. It didn’t solve it, but it d",
+  "verdict": "KILL",
+  "reason": "Anthropic's product announcement about abstract mathematical progress on an unsolved problem—no jaw-dropping event, no real-world consequence anyone felt, no person or money involved, and scout interest (3/10) reflects it's not a story."
+ },
+ {
+  "t": "2026-08-12T07:01:54Z",
+  "gate": "A",
+  "subject": "The Jetson ONE personal air vehicle. Price: $128,000",
+  "verdict": "KILL",
+  "reason": "Product announcement with zero event, consequence, or narrative—just a company and a price point existing; fails NO SUBSTANCE (52-char source, no context to build from) and ON-TOPIC BUT ROUTINE (launch preview, banned)."
+ },
+ {
+  "t": "2026-08-12T07:02:15Z",
+  "gate": "A",
+  "subject": "And the only system that can support the insanely fast bandwidth growth needed by AI is Starlink",
+  "verdict": "KILL",
+  "reason": "No substance — the entire source is a single claim with no event, no consequence, no second fact, and no numbers; the writer would have to pad with background research to fill slides, violating the no-substance instant-kill rule."
+ },
+ {
+  "t": "2026-08-12T07:03:09Z",
+  "gate": "A",
+  "subject": "Absolutely insane. This might be the clearest glimpse yet of how AI will transform scientific discovery. Anthropic asked",
+  "verdict": "KILL",
+  "reason": "This is an AI research announcement, not a viral-specific event with a human protagonist and a felt consequence — on-topic but routine, and the 3/10 scout score offers no exceptional case to override."
+ },
+ {
+  "t": "2026-08-12T07:03:34Z",
+  "gate": "A",
+  "subject": "Imagine standing at the North Pole and connecting to Wi-Fi. This is one of the most incredible demonstrations of @Starli",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no actual event—just a speculative claim ('Imagine standing...') and engagement metrics; no consequence, no second fact, no proof of the alleged demonstration; nothing to build slides from."
+ },
+ {
+  "t": "2026-08-12T07:48:33Z",
+  "gate": "B",
+  "subject": "6 AI PROMPTS MOST FOUNDERS <em>FIND AFTER IT'S TOO LATE</em>",
+  "verdict": "REJECT",
+  "reason": "Hook is a banned label/aphorism headline. '6 AI PROMPTS MOST FOUNDERS FIND AFTER IT'S TOO LATE' is a noun phrase naming a list — no actor, no action, no consequence. §2 requires ONE complete sentence that tells the whole story (actor + what happened + wild specifics) and explicitly bans label headlines. At 10 words it also falls under the 12-word floor. Fix: rewrite as a complete declarative sente"
+ },
+ {
+  "t": "2026-08-12T07:50:46Z",
+  "gate": "B",
+  "subject": "MOST FOUNDERS BUILD FOR MONTHS BEFORE RUNNING THE <em>6 AI PROMPTS THAT WOULD HAVE KILLED THE IDEA IN AN HOUR</em>",
   "verdict": "APPROVE",
   "reason": ""
  }
