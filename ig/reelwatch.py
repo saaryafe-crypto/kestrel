@@ -22,14 +22,27 @@ GRACE_MIN = 12   # slot counts as "due" this many minutes after its start
 COOLDOWN_S = 55 * 60
 
 # (script, output root, slot times on the Mac clock = IL time)
+# MUST match the launchd plists (ai.yaffe.ig-reel / ig-reel-he) — Aug 13:
+# stale 4-slot times here made the watchdog count a phantom slot all day
 CHANNELS = [
-    ("reel.py",    "posts",    [(14, 0), (17, 0), (20, 0), (23, 0)]),
-    ("reel_he.py", "posts-he", [(9, 15), (13, 15), (17, 15), (20, 15)]),
+    ("reel.py",    "posts",    [(15, 0), (19, 0), (23, 0)]),
+    ("reel_he.py", "posts-he", [(9, 15), (13, 15), (20, 15)]),
 ]
 
 
 def built_today(root):
+    """Reels that made it to PUBLISH today, not just to an mp4 on disk.
+    EN truth is the reels-used.json ledger — reel.py writes it only after the
+    media push succeeds (Aug 12: a reel BUILT fine, died on push, and the
+    mp4-mtime check here counted it as done, so it was never retried).
+    HE has no ledger, so mp4 mtime stays the best signal there."""
     today, n = datetime.now().strftime("%Y-%m-%d"), 0
+    if root == "posts":
+        try:
+            used = json.load(open(os.path.join(HERE, "reels-used.json")))
+            return sum(1 for u in used if u.get("date") == today)
+        except Exception:
+            pass  # unreadable ledger must never block ticks — fall back to mp4s
     root = os.path.join(HERE, root)
     if not os.path.isdir(root):
         return 0
