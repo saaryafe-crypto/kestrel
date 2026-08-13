@@ -77,6 +77,15 @@ def viral_guides(used_topics):
     return out[:3]
 
 
+def real_tag(topic, guides):
+    """True only when the topic carries a [x:ID] tag whose id exists in the
+    live pool. Born Aug 13: one day after the [x:] enforcement shipped, the
+    writer defeated the substring check with a literal '[x:none]' tag on two
+    self-invented prompt-listicle posts — the tag must be a REAL guide id."""
+    m = re.search(r"\[x:([^\]]+)\]", topic or "")
+    return bool(m) and m.group(1) in {str(g.get("id")) for g in guides}
+
+
 def build_prompt(used_topics, headlines="", guides=()):
     spec = json.load(open(os.path.join(HERE, "containers.json")))
     used = "\n".join(f"- {t}" for t in used_topics) or "(none yet)"
@@ -247,13 +256,15 @@ def main():
         # guides sat in the pool. A tag-less topic with a live pool is a
         # failed roll. Last attempt ships anyway (always-post law) and gets
         # flagged ignored-pool below.
-        if attempt == 0 and guides and "[x:" not in (post.get("topic") or ""):
+        if attempt == 0 and guides and not real_tag(post.get("topic"), guides):
             g = guides[0]
             errs.append(f"you IGNORED the viral guide pool — using a listed "
                         f"guide is MANDATORY (owner ground rule). Build this "
                         f"post FROM the guide by {g['sub']} "
                         f"({g.get('score', 0):,} likes), COPY IT CLOSE, and "
-                        f"append its [x:{g['id']}] tag to your \"topic\" label")
+                        f"append its [x:{g['id']}] tag to your \"topic\" label. "
+                        f"A made-up tag like [x:none] does NOT count — the tag "
+                        f"must be the exact id of a guide listed above")
             print(f"guide-pool enforcement: roll {attempt+1} ignored the pool "
                   f"— re-rolling on @{g['sub']}", file=sys.stderr)
         if not errs:
@@ -440,7 +451,7 @@ def main():
 
     if not guides:  # flag rides in post.json so daily.py names the post
         post["topic_source"] = "self-invented"
-    elif "[x:" not in topic:
+    elif not real_tag(topic, guides):
         # survived the re-roll and still ignored the pool — ship it
         # (always-post law) but the daily report names it to the owner
         post["topic_source"] = "ignored-pool"

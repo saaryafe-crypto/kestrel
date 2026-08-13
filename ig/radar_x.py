@@ -73,10 +73,35 @@ N_THREAD_MINE = 3          # top guide moments get the author's OWN thread
 # Guides are quadruple-filtered: server-side floor + guide regex + AI
 # context + politics gate, and they feed ONLY the guide pool (radar.py
 # strips them before radar.json), never the news radar.
-GUIDE_SEARCH_EVERY_H = 24  # once/day; ~60 reads (~$0.01/day)
+GUIDE_SEARCH_EVERY_H = 24  # once/day; ~80 reads (~$0.015/day)
 GUIDE_SEARCH_FLOOR = 2000  # proven-viral only — higher bar than watchlist
 GUIDE_SEARCH_AGE_D = 21    # guides stay postable for weeks
-N_WIDE_GUIDE = 8           # top wide guides per search, 1/account
+N_WIDE_GUIDE = 16          # top wide guides per day, 1/account
+# Aug 13 pool-exhaustion post-mortem: the same 3 fixed queries over the same
+# 21-day window returned the same top tweets every day — after day one the
+# net caught ~nothing new while edu.py consumes 3-7 guides/day (reel/news
+# fallback carousels also land on edu), so the pool ran dry and the writer
+# self-invented "6 prompts that..." formula posts. Rotate 4 of these 9
+# phrasings daily (stride 4, gcd(4,9)=1 → a different set every day, full
+# coverage every 9 days) so each day surfaces a different top-of-X.
+GUIDE_QUERIES = (
+    '("ChatGPT prompts" OR "AI prompts" OR "Claude prompts" OR "AI tools")',
+    '("how to use AI" OR "AI cheat sheet" OR "free AI course" OR "AI course")',
+    '("AI agents" OR "AI automation" OR ChatGPT) '
+    '("here\'s how" OR "step by step" OR ways)',
+    '("AI side hustle" OR "make money with AI" OR "AI for business") '
+    '(how OR ways OR steps OR tools)',
+    '("Claude Code" OR Cursor OR "AI coding" OR "vibe coding") '
+    '(how OR tips OR tools OR guide)',
+    '(Gemini OR NotebookLM OR Perplexity OR Grok) '
+    '(prompts OR tricks OR "how to" OR features)',
+    '("AI video" OR "AI images" OR Midjourney OR Veo OR Sora) '
+    '(how OR ways OR tools OR free)',
+    '(automate OR n8n OR Zapier OR "no code") (AI OR ChatGPT OR agents) '
+    '(how OR guide OR tutorial)',
+    '("use ChatGPT" OR "use Claude" OR "use AI") '
+    '(marketing OR productivity OR studying OR writing)',
+)
 
 # What counts as a guide: a teaching promise, not a news event. Numbered-list
 # promises ("10 insane ways...", "5 free tools..."), how-to framing, cheat
@@ -434,12 +459,9 @@ def harvest():
     if now - led.get("last_guide_search", 0) >= GUIDE_SEARCH_EVERY_H * 3600:
         g_since = int(now - GUIDE_SEARCH_AGE_D * 86400)
         wide, wide_accts = [], set()
-        for q in ('("ChatGPT prompts" OR "AI prompts" OR "Claude prompts" '
-                  'OR "AI tools")',
-                  '("how to use AI" OR "AI cheat sheet" OR "free AI course" '
-                  'OR "AI course")',
-                  '("AI agents" OR "AI automation" OR ChatGPT) '
-                  '("here\'s how" OR "step by step" OR ways)'):
+        day = int(now // 86400)  # rotating slice of the bank (see constants)
+        for q in [GUIDE_QUERIES[(day * 4 + k) % len(GUIDE_QUERIES)]
+                  for k in range(4)]:
             time.sleep(6)
             try:
                 d = _get(key, "/twitter/tweet/advanced_search",

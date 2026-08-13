@@ -291,7 +291,16 @@ def push_media(post_dir, name):
     sh("git", "add", "-A", cwd=tmp)
     sh("git", "-c", "user.name=ig-bot", "-c", "user.email=bot@users.noreply.github.com",
        "commit", "-m", name, cwd=tmp)
-    net(lambda: sh("git", "push", cwd=tmp, timeout=300), "push")
+    # Aug 12 post-mortem (issue #145): push attempt 1 timed out client-side
+    # but LANDED on GitHub, so retries 2-3 died on "rejected — fetch first"
+    # and the built reel never published. Other lanes also push this repo
+    # constantly. Rebase onto the remote before every push: a landed push
+    # rebases to a no-op and the retry succeeds; we only ever ADD a unique
+    # file, so the rebase can never conflict.
+    def push():
+        sh("git", "pull", "--rebase", cwd=tmp, timeout=120)
+        sh("git", "push", cwd=tmp, timeout=300)
+    net(push, "push")
 
 
 def title_tournament(r):
