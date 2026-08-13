@@ -1,0 +1,97 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GROK BUILD SHIPS FIVE BUSINESS PAGES THAT <em>FEEL ILLEGAL</em> TO BUILD FOR FREE",
+   "kicker": "NO CODE, NO DEV TEAM",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-13-edu-5-things-grok-build-can-do-tonight-no-co/gen-0.jpg",
+   "image_prompt": "Elon Musk in a leather craftsman apron grins wide holding a smartphone chest-high, business pages glowing on screen; X logo exactly as in the reference image blazes white on dark workshop wall. Documentary news photo, 35mm, harsh flash, film grain. Accent: electric blue against warm amber."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>BUILD A LEAD PAGE</em> IN ONE SENTENCE",
+   "hsize": 100,
+   "body": "<b>It generates the code in under two minutes.</b>\n\nPrompt: \"Build me a lead capture page for [my business]. Bold headline, three benefit lines, a form collecting name and email, and a submit button. Mobile-friendly\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>BUILD A PRICE CALCULATOR</em> FOR YOUR BUSINESS",
+   "hsize": 96,
+   "body": "<b>Grok Build makes one from a single prompt.</b>\n\nPrompt: \"Build a pricing calculator for a [type of business]. The visitor picks [service options] and enters [a key detail]. Show an estimated price range.\"",
+   "media": "posts/2026-08-13-edu-5-things-grok-build-can-do-tonight-no-co/gen-2.jpg",
+   "image_prompt": "Side-angle laptop showing a pricing calculator \u2014 dropdown menus, sliders, a large glowing $ symbol as output; no readable text; chat sidebar visible at edge. Documentary news photo, 35mm, harsh flash, film grain. Accent: electric blue against dark gray."
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD AN APPOINTMENT BOOKER <em>THAT WORKS OVERNIGHT</em>",
+   "hsize": 90,
+   "body": "<b>One Grok Build prompt builds the whole thing.</b>\n\nPrompt: \"Build an appointment booking form for my [business type]. Show a 7-day calendar. Collect their name, email, and what they need\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>BUILD A WAITLIST PAGE</em> BEFORE YOU'RE READY",
+   "hsize": 96,
+   "body": "<b>Grok Build ships one in under three minutes.</b>\n\nPrompt: \"Build a waitlist page for something I'm launching called [name]. Bold headline, two lines on what it does, an email field, and a join button\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD A CLIENT DASHBOARD <em>THAT KILLS STATUS EMAILS</em>",
+   "hsize": 88,
+   "body": "<b>Grok Build writes it from one prompt.</b>\n\nPrompt: \"Build a simple client portal. I log in as admin and add projects with a status: in progress, in review, or complete.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> TRY ONE TONIGHT",
+   "hsize": 108,
+   "body": "Every prompt above works in Grok Build right now. Save this post so they're there when you need them. Daily AI tools and real skills, every day on this page",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through: 5 things Grok Build can ship tonight, from a lead capture page to a client dashboard, with no code and no dev team. \ud83d\udd28\n\nLead capture pages that collect signups from day one, custom pricing calculators that close deals on the spot, appointment booking forms that fill your calendar overnight, waitlist pages that build an audience before you launch, client dashboards where customers track their own projects so you stop sending status emails.\n\nGrok Build shifts the advantage to the person with the better idea, not the bigger tech budget. Every one of these used to need a developer and a few days. Now it needs one sentence and an afternoon. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: elonmusk (X)\n\n#GrokBuild #AITools #NoCode #AIForBusiness #BuildWithAI",
+ "pinned_comment": "Which one are you building first? The client dashboard on slide 6 is the one most business owners sleep on.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 APPS <em>GROK BUILD</em> SHIPS FROM ONE SENTENCE",
+   "5 THINGS <em>GROK BUILD</em> CAN DO TONIGHT",
+   "5 APPS ELON'S <em>GROK BUILD</em> SHIPS WHILE YOU SLEEP",
+   "5 THINGS GROK BUILD MAKES <em>FROM ONE SENTENCE</em>",
+   "<em>5 APPS ANY BUSINESS</em> CAN BUILD WITH GROK TONIGHT"
+  ],
+  "scores": [
+   3,
+   4,
+   8,
+   7,
+   4
+  ],
+  "winner": 2,
+  "why": "[2] hits with Elon name recognition + 'while you sleep' urgency that makes you stop scrolling instantly. [3] is clever but stays vague\u2014'makes from one sentence' is a riddle I'd have to think about, not a story that makes me tap in."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 APPS ELON'S <em>GROK BUILD</em> SHIPS WHILE YOU SLEEP",
+   "5 BUSINESS PAGES THAT <em>FEEL ILLEGAL</em> TO BUILD FOR FREE",
+   "5 BUSINESS TOOLS <em>AGENCIES CHARGE THOUSANDS FOR</em> \u2014 AI BUILDS FREE",
+   "5 TOOLS YOUR COMPETITORS <em>ARE ALREADY BUILDING</em> WITH AI"
+  ],
+  "scores": [
+   3,
+   8,
+   5,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] makes you stop with genuine curiosity\u2014what could possibly feel illegal but be free?\u2014while [2] just repeats the tired 'AI replaces expensive tools' line you've seen a hundred times."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "IMAGE LAW / CAST TRUTH FAIL: The cover shows a generated likeness of Elon Musk, a recognizable famous person, but Musk has no role in this story. The post is a reader-action tutorial about Grok Build's capabilities \u2014 Musk is never mentioned, never acts, never appears in any slide. He is being used as brand decoration for his own company's product, which the CAST TRUTH rule explicitly prohibits ('i"
+}
