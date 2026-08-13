@@ -1,0 +1,111 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SEVEN FREE GEMINI PROMPTS NOW HANDLE THE VIDEO WORK <em>CREATORS WERE PAYING $500 A MONTH TO OUTSOURCE</em>",
+   "kicker": "CAPCUT JUST GOT REPLACED",
+   "hsize": 72,
+   "face": "Sundar Pichai",
+   "media": "posts/2026-08-13-edu-7-gemini-video-editing-prompts-replacing/gen-0.jpg",
+   "image_prompt": "Sundar Pichai behind a vivid open-air market stall hung with glowing Gemini-blue phones and prompt cards dangling like prized contraband goods, conspiratorial grin wide, both hands pushing a blazing lit phone over the counter toward eager reaching hands at frame's edge. A hand-painted wooden stall sign reads 'FREE.' The Gemini logo exactly as in the reference image glows as a large backlit sign above the stall. Saturated warm yellows and greens pack the scene. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: electric Gemini blue against saturated market gold."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>GENERATE A REAL VIDEO</em> WITH ONE SENTENCE",
+   "hsize": 100,
+   "body": "Stock footage agencies charge <b>$50 per clip</b> and a freelance editor costs <b>$75 an hour</b>. Gemini's video model builds footage from a single sentence, no camera needed.\n\n<b>Paste this:</b> Generate a 10-second cinematic video clip of [describe your scene]. Smooth camera movement, natural lighting, no text on screen.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>WRITE THE 3-SECOND HOOK</em> THAT STOPS THE SCROLL",
+   "hsize": 100,
+   "body": "Creators pay <b>$200 an hour</b> for professional hook writing. The first 3 seconds decide whether someone watches the whole video or skips it.\n\n<b>Paste this:</b> Write 5 scroll-stopping hooks for a video about [your topic]. Each must land in under 3 seconds when read aloud. Lead with curiosity or a bold claim.",
+   "media": "posts/2026-08-13-edu-7-gemini-video-editing-prompts-replacing/gen-2.jpg",
+   "image_prompt": "Extreme close-up of a thumb hovering one centimeter above a phone screen frozen mid-video, a bright orange \u2759\u2759 pause symbol centered on screen, dramatic hard side lighting casting a deep shadow across the thumb. The phone's edge and nothing else \u2014 no other context. No faces, no readable text. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: bright orange against stark black."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>FIND 10 SHORT CLIPS</em> INSIDE ANY LONG VIDEO",
+   "hsize": 100,
+   "body": "Video repurposing agencies charge <b>$1,500 a month</b> for this. Every long video has ten shareable moments hiding inside it.\n\n<b>Paste this:</b> Here is my video transcript: [paste it]. Identify the 10 best moments that work as standalone short clips. List each with its start line and a one-sentence reason it works alone.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>BUILD A FULL 60-SECOND SCRIPT</em> FROM ONE IDEA",
+   "hsize": 100,
+   "body": "Freelance video scripts cost <b>$300 to $500 each</b>. One line in, one complete script out, with hook, story, and call to action already written.\n\n<b>Paste this:</b> Write a 60-second video script about [your topic]. Open with a 3-second hook, build through one concrete example, close with a direct call to action.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>DESIGN YOUR THUMBNAIL</em> BEFORE YOU FILM",
+   "hsize": 100,
+   "body": "Most creators design thumbnails after filming and realize the footage does not match the visual they needed. This prompt builds five thumbnail concepts first, so you film toward a proven image.\n\n<b>Paste this:</b> I am filming a video about [your topic]. Give me 5 thumbnail concepts I can film toward. For each, describe the exact shot, the subject's expression, and the text overlay.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>LIST EVERY B-ROLL SHOT</em> BEFORE YOU LEAVE HOME",
+   "hsize": 100,
+   "body": "Video directors charge <b>$1,000 a day</b> to plan shot lists. This prompt reads your script and maps every B-roll shot in shooting order so you never come home missing a clip.\n\n<b>Paste this:</b> Here is my script: [paste it]. List every B-roll shot I need in filming order. One line per shot describing exactly what to capture.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) <em>WRITE YOUR YOUTUBE PAGE</em> IN ONE SHOT",
+   "hsize": 100,
+   "body": "YouTube SEO agencies charge <b>$500 a month</b> for this. One paste, and Gemini writes the title, description, tags, and chapter markers the algorithm needs to surface the video.\n\n<b>Paste this:</b> Here is my video script: [paste it]. Write the YouTube title under 70 characters, a keyword-rich description, 15 tags, and chapter markers with timestamps.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> BEFORE YOUR NEXT VIDEO",
+   "hsize": 100,
+   "body": "Pull it up when you start. Prompts 2 through 7 work free in Gemini tonight. Prompt 1 needs Gemini Advanced for the video generation.\n\nDaily AI news and real skills, here every day",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through \ud83d\udc49 Seven Gemini prompts that handle the hardest parts of video creation, from generating footage to writing the page that gets your video found.\n\nPrompt 1 generates a cinematic video clip from a single sentence using Gemini's video model, prompt 2 writes five scroll-stopping hooks for any topic, prompt 3 finds ten short clips hiding inside any long video, prompt 4 builds a complete 60-second script from one idea, prompt 5 designs five thumbnail concepts before you film a single frame, prompt 6 maps every B-roll shot in shooting order so you never come home missing a clip, prompt 7 writes the full YouTube title, description, tags, and chapters ready to paste.\n\nVideo creation used to mean three paid tools and a full day of work. The fastest-growing creators right now are not the best filmmakers. They are the ones who know what to type into a free chat window. These prompts are what they type. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: AiWithSaira, Google, Veo\n\n#gemini #videoediting #aitools #contentcreation #artificialintelligence",
+ "pinned_comment": "Which of these are you trying tonight? Slide 5 is the one most people skip and then realize they filmed the wrong thing entirely.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "7 GEMINI PROMPTS THAT <em>MAKE FULL VIDEOS IN SECONDS</em>",
+   "<em>7 PROMPTS</em> THAT LET GEMINI EDIT YOUR WHOLE VIDEO",
+   "<em>7 GEMINI PROMPTS</em> THAT EDIT YOUR VIDEOS FOR YOU",
+   "GOOGLE GEMINI <em>JUST REPLACED CAPCUT</em> WITH 7 PROMPTS",
+   "7 GEMINI PROMPTS THAT <em>REPLACE YOUR VIDEO EDITOR</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   5,
+   9,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] hits hardest because 'REPLACED CAPCUT' is specific and urgent\u2014you stop mid-scroll thinking 'wait, WHAT?'\u2014it's a real app people know. [4] says almost the same thing but 'your video editor' is too vague and doesn't spark the same stop-and-read panic."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "7 GEMINI PROMPTS <em>THAT REPLACE CAPCUT FOR FREE</em>",
+   "7 GEMINI VIDEO PROMPTS <em>MOST CREATORS STILL DON'T USE</em>",
+   "GOOGLE GEMINI <em>JUST REPLACED CAPCUT</em> WITH 7 PROMPTS",
+   "7 FREE GEMINI PROMPTS <em>SO GOOD THEY FEEL ILLEGAL</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   0,
+   8
+  ],
+  "winner": 3,
+  "why": "'Feel illegal' creates genuine emotional resonance\u2014you actually want to know what's so wild about these prompts. Option [1]'s FOMO hook is solid, but it's predictable compared to the unique curiosity [3] creates."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "CAST TRUTH violation on the cover image: the subject is a generated likeness of Sundar Pichai (Google CEO \u2014 recognizable face, signature glasses, identical appearance). Pichai has zero role in this story; the post is a prompts tutorial, not anything he did or said. Using his face as visual shorthand for 'Gemini = free' is celebrity-as-decoration, which the doctrine prohibits explicitly. Fix: repla"
+}

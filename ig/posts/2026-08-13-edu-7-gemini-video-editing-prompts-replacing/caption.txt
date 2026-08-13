@@ -1,0 +1,9 @@
+Swipe through 👉 Seven Gemini prompts that handle the hardest parts of video creation, from generating footage to writing the page that gets your video found.
+
+Prompt 1 generates a cinematic video clip from a single sentence using Gemini's video model, prompt 2 writes five scroll-stopping hooks for any topic, prompt 3 finds ten short clips hiding inside any long video, prompt 4 builds a complete 60-second script from one idea, prompt 5 designs five thumbnail concepts before you film a single frame, prompt 6 maps every B-roll shot in shooting order so you never come home missing a clip, prompt 7 writes the full YouTube title, description, tags, and chapters ready to paste.
+
+Video creation used to mean three paid tools and a full day of work. The fastest-growing creators right now are not the best filmmakers. They are the ones who know what to type into a free chat window. These prompts are what they type. Running a business? DM us "AI" and we will show you what this could do for yours.
+
+Sources: AiWithSaira, Google, Veo
+
+#gemini #videoediting #aitools #contentcreation #artificialintelligence
