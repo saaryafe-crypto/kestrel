@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-13T10:22:40.799880+00:00",
+ "updated": "2026-08-13T23:05:34.377201+00:00",
  "guides": [
   {
    "id": "2087433011478634944",
@@ -148,6 +148,37 @@
     "@evrimagaci Web UI vs Claude code"
    ],
    "born": 1784932526.388657
+  },
+  {
+   "id": "2087926969333698743",
+   "title": "Less than 48 hours ago, SpaceXAI dropped Grok 4.6. People are already building crazy stuff with it. 10 wild examples:",
+   "sub": "minchoi",
+   "where": "@minchoi on X",
+   "unit": "likes",
+   "selftext": "Less than 48 hours ago, SpaceXAI dropped Grok 4.6. People are already building crazy stuff with it. 10 wild examples:",
+   "permalink": "https://x.com/minchoi/status/2087926969333698743",
+   "outlink": null,
+   "score": 2208,
+   "comments_n": 131,
+   "views": 645405,
+   "age_h": 7.4,
+   "vph": 297.6,
+   "image": null,
+   "video": null,
+   "guide": true,
+   "thread": [
+    "2. Snowboarding game built from scratch",
+    "1. A complete Unity game... without touching Unity \ud83e\udd2f",
+    "5. Airbus H145 helicopter model recreated in 3D",
+    "4. The Office turned into a living AI simulation \ud83d\ude02",
+    "3. Interactive 3D simulation",
+    "7. Someone built a 4D holographic wedding website \ud83e\udd2f",
+    "6. Grok 4.6 is really impressive at its cost $1.80 vs $4.20 for the same task",
+    "9. Entire 3D world from one prompt",
+    "8. Queen Anne's Revenge recreated in 3D",
+    "10. Sketch to a polished website"
+   ],
+   "born": 1786635694.377201
   },
   {
    "id": "2080794637040779429",
