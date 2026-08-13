@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "Nothing happened—only a confession to past lies in an interview, with no real consequence anyone felt.",
-  "subject": "Before Robert Pattinson became one of Hollywood’s biggest stars, he admitted to inventing a far more prestigious backgro",
-  "t": "2026-08-10T06:57:04Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Pure reaction-bait with zero substance: a 43-character vague statement that earned likes, not a real-world event with consequence; the writer has nothing to build from except speculation, and the owner would never post a post about people liking a tweet.",
   "subject": "Literally What you Imagine Can be made real",
   "t": "2026-08-10T06:57:23Z",
@@ -2098,5 +2091,12 @@
   "subject": "6 AI PROMPTS THAT REPLACE <em>YOUR $10,000 PITCH DECK</em> FOR FREE",
   "verdict": "REJECT",
   "reason": "IMAGE LAW violation: the cover's primary subject is a generated unknown face. The law states explicitly 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' The acceptable cover types for a utility post with no named real-world protagonist are: the product with its brand mark in frame, or real footage of the event. The Claude neon logo IS in the f"
+ },
+ {
+  "t": "2026-08-13T09:25:48Z",
+  "gate": "A",
+  "subject": "\"Hahahaha look at these AI-generated clips of cruelty against vulnerable homeless people\" — Israeli with 'human rights a",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the entire 'story' is that people found a post offensive and mocked it online; no real-world consequence (no account action, no lawsuit, no fired person, no product pulled), just a pile-on screenshot — exactly the failure model that produced the Queen Elizabeth and Mario Lopez posts."
  }
 ]

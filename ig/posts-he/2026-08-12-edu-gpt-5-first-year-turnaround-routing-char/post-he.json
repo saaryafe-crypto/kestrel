@@ -1,0 +1,82 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GPT-5 יצא שבור: <em>שנה אחרי, הכל השתנה</em>",
+   "kicker": "לא מה שהיה בהשקה",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "hook_candidates": [
+    "<em>OPENAI FIXED 6 THINGS</em> AFTER GPT-5'S WORST YEAR",
+    "GPT-5 <em>LAUNCHED BROKEN.</em> 6 THINGS OPENAI ACTUALLY FIXED.",
+    "<em>6 THINGS</em> OPENAI QUIETLY FIXED IN GPT-5 SINCE LAUNCH",
+    "<em>GPT-5 GOT 6 THINGS WRONG</em> IN YEAR ONE.",
+    "<em>6 WAYS GPT-5 SOL</em> CHANGED IN ONE YEAR"
+   ],
+   "media": "posts/2026-08-12-edu-gpt-5-first-year-turnaround-routing-char/gen-0.jpg",
+   "image_prompt": "the person in the reference photo, sleeves rolled up, hoists a glowing golden gear component overhead with both hands like a championship trophy — triumphant grin, eyes to camera; smashed circuit parts and broken components cover the auto-repair workshop workbench behind him; the OpenAI logo exactly as in the reference image glows white neon large on the deep navy wall. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: molten gold against deep navy."
+  },
+  {
+   "type": "content",
+   "headline": "1) GPT-5 <em>יצא בנקודת שפל</em>",
+   "body": "שלושה דברים קרסו בבת אחת: מערכת הניתוב, איכות המודל, והמספרים שהחברה השתמשה בהם כדי למכור אותו. שנה אחרי, כולם תוקנו.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>הניתוב קרס</em> עם השקת GPT-5",
+   "body": "הניתוב האוטומטי בחר שוב ושוב בגרסה הזולה יותר. מי ששילם על המודל המלא קיבל תשובות של גרסה זולה, בלי שידע בכלל באיזו גרסה הוא משתמש.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) המודל עצמו <em>לא עמד בבנצ'מרקים שלו</em>",
+   "body": "אפילו כשהניתוב עבד, התוצאות לא תאמו את הציונים שפורסמו. משימות שמודלים ישנים פתרו בקלות הרגישו מקוטעות ולא עקביות. המשתמשים הראשונים לא ראו כאן שדרוג.",
+   "hsize": 97,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>Chartcrime</em> שבר את הסבלנות",
+   "body": "OpenAI פרסמה גרפים: GPT-5 מוביל את כולם. קהילת ה-AI גילתה שבחרו בדיוק את הבדיקות שמתאימות להם. <b>Chartcrime</b> נהפך לשם לתופעה: מניפולציה של מדדים שמסווה כהוכחה.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) OpenAI הכירה בכשלים <em>ותיקנה את כולם</em>",
+   "body": "הניתוב נבנה מחדש. המודל השתפר דרך עדכונים רצופים. גם השיח על בנצ'מרקים השתנה. כל כשל שצוין בפומבי טופל, וגרסה 5.6 Sol מובילה עכשיו ברוב ההשוואות הישירות.",
+   "hsize": 95,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) גרסה 5.6 Sol <em>עכשיו מובילה</em>",
+   "body": "הגרסה הנוכחית, <b>GPT-5.6 Sol</b>, היא מה שנה של עדכונים הצליחה לייצר. הניתוב עובד, איכות התוצאות תואמת את ההבטחות, וברוב ההשוואות זו הגרסה הטובה ביותר שיצאה עד היום.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה.</em> רוב האנשים עדיין חושבים על הגרסה השבורה מהשקה.",
+   "body": "ChatGPT שרץ עכשיו הוכיח את עצמו. שמרו לפעם הבאה שמישהו יגיד: GPT-5 מעולם לא השתפר.",
+   "hsize": 90,
+   "media": null
+  }
+ ],
+ "caption": "GPT-5 לפני שנה היה כישלון. עכשיו הוא הגרסה הטובה ביותר שיצאה. 🔄\n\nהשקה כושלת לפני שנה, ניתוב שבחר שוב ושוב בגרסה הזולה, מודל שלא עמד בבנצ'מרקים שלו, פרשת Chartcrime שאילצה חשיבה מחדש, תיקון הדרגתי דרך עדכונים רצופים, וגרסה 5.6 Sol שמובילה עכשיו.\n\nשנה של כישלון פומבי הפיקה את כלי ה-AI הנפוץ ביותר בגרסתו הטובה ביותר. הגרסה שרוב האנשים מדמיינים היא עדיין זו מהשקה. זו שרצה עכשיו? שונה לגמרי. מנהלים עסק? שלחו לנו AI בDM ונראה לכם מה הגרסה הנוכחית יכולה לעשות עבורכם.\n\nמקורות: kimmonismus\n\nעקבו @ainews.israel\n\n#chatgpt #gpt5 #openai #artificialintelligence #aitools",
+ "pinned_comment": "מה הכי הפתיע אתכם: כשל הניתוב, פרשת Chartcrime, או כמה מהר OpenAI הצליחה לתקן? רוב האנשים עדיין מדמיינים את הגרסה מלפני שנה.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "editor_override": "HOOK — THREE STAPLED FACTS (§2 explicit ban): the hook chains three distinct facts — (1) routing picked the cheap version, (2) fake benchmark charts, (3) OpenAI spent a year fixing both. Cut to ONE actor, ONE action with the single sharpest specific. The hook also has two actors (GPT-5 as launcher, OpenAI as fixer), which §2 forbids.; HOOK — TRUTH OVERSTATEMENT (§5): the hook calls the charts 'FAK",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
