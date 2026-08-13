@@ -1,0 +1,89 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 AI PROMPTS THAT REPLACE <em>YOUR $10,000 PITCH DECK</em> FOR FREE",
+   "kicker": "CONSULTANTS CHARGE $10,000 FOR THIS",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-13-edu-6-ai-prompts-writing-complete-investor-p/gen-0.jpg",
+   "image_prompt": "Dario Amodei, triumphant grin, both hands thrusting pitch deck with FREE symbol toward camera, clean bright background, documentary style, natural skin texture, warm amber accent."
+  },
+  {
+   "type": "content",
+   "headline": "1) WRITE <em>THE PROBLEM SLIDE</em> IN UNDER A MINUTE",
+   "hsize": 100,
+   "body": "A pitch deck consultant charges <b>$5,000 to $15,000</b>. Ask Claude for: one sharp sentence naming the core pain, three bullets proving the problem is widespread, and the cost if nothing changes.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) CALCULATE <em>MARKET SIZE</em> THE WAY INVESTORS WANT",
+   "hsize": 96,
+   "body": "Founders who write \"we're targeting a <b>$500 billion market</b>\" lose the room. Ask Claude for a bottom-up calculation: potential customers multiplied by average annual spend. Show TAM, SAM, SOM.",
+   "media": "posts/2026-08-13-edu-6-ai-prompts-writing-complete-investor-p/gen-2.jpg",
+   "image_prompt": "A hand presses a black marker to a whiteboard drawing three bold concentric circles \u2014 each tagged with a large $ symbol, a multiplication arrow beneath them connecting to an upward chart below; a glass-walled boardroom floods daylight behind. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: deep green against chalk white."
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD <em>THE WHY NOW SLIDE</em> MOST FOUNDERS SKIP",
+   "hsize": 96,
+   "body": "Most founders skip this slide and get told to \"come back with more traction.\" Ask Claude for three forces: one technology shift, one behavior change, one regulatory shift. Why now, not three years ago.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) TURN YOUR NUMBERS INTO <em>A TRACTION SLIDE</em>",
+   "hsize": 96,
+   "body": "Most traction slides list milestones. Investors fund <b>momentum</b>. Ask Claude to pick the three strongest signals, calculate month-over-month growth, and lead with that number, bullet points an investor scans in 5 seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) SELL YOUR TEAM <em>WITHOUT BRAGGING</em>",
+   "hsize": 108,
+   "body": "A list of job titles tells investors nothing. <b>One sentence</b> connecting each founder's past to why they win this market tells investors everything. Ask Claude: no titles, earned credibility and unfair advantages only.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) WRITE THE ASK SLIDE <em>SO INVESTORS SAY YES</em>",
+   "hsize": 100,
+   "body": "Investors who like the deck but don't understand the ask <b>do not write checks</b>. Ask Claude for round size, three uses of funds with dollar amounts, and the milestone this round reaches.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 110,
+   "body": "You will want these six prompts the moment you start fundraising. Save this post and run all six tonight.\n\nDaily AI news and real skills, every day",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 AI prompts that write every slide of your investor pitch deck, from the problem slide to the closing ask, in one sitting. \ud83c\udfaf\n\n1) Write the problem slide in under a minute, 2) Calculate market size the way investors want, 3) Build the Why Now slide most founders skip, 4) Turn your numbers into a traction slide, 5) Sell your team without bragging, 6) Write the Ask so investors say yes\n\nA pitch deck from a consultant costs $5,000 to $15,000. Founders who know these prompts finish their deck in an afternoon. The structure and investor-ready framing come out in minutes. Running a business and thinking about raising? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Anthropic\n\n#artificialintelligence #startups #entrepreneurship #businessgrowth #aitools",
+ "pinned_comment": "Which slide do you dread writing most? Slide 3 (Why Now) is the one most founders skip and the one investors ask about in every first meeting.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>RAISE MONEY WITH 6 AI PROMPTS.</em> NO CONSULTANT NEEDED",
+   "6 AI PROMPTS THAT BUILD <em>YOUR PITCH DECK TONIGHT</em>",
+   "6 AI PROMPTS THAT WRITE <em>EVERY SLIDE INVESTORS WANT</em>",
+   "6 AI PROMPTS THAT WRITE <em>YOUR WHOLE INVESTOR PITCH</em>",
+   "<em>A PITCH DECK COSTS $10,000.</em> 6 AI PROMPTS DO IT FREE"
+  ],
+  "scores": [
+   7,
+   6,
+   6,
+   5,
+   8
+  ],
+  "winner": 4,
+  "why": "The $10,000 number is a gut punch\u2014concrete, shocking, makes you think 'wait, WHAT?'\u2014while [0]'s 'no consultant' angle is edgy but vague. Real numbers beat attitude."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW violation: the cover's primary subject is a generated unknown face. The law states explicitly 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' The acceptable cover types for a utility post with no named real-world protagonist are: the product with its brand mark in frame, or real footage of the event. The Claude neon logo IS in the f",
+ "topic_source": "self-invented"
+}
