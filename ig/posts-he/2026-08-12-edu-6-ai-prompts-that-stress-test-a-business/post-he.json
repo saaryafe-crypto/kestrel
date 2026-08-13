@@ -1,0 +1,110 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "עבדת חודשים על הרעיון: <em>ששת הפרומפטים ל-AI שהיו מוחקים אותו תוך שעה</em>",
+   "hsize": 70,
+   "face": [],
+   "media": "posts/2026-08-12-edu-6-ai-prompts-that-stress-test-a-business/gen-0.jpg",
+   "image_prompt": "Desktop monitor, single red warning triangle on black screen, electric-blue rim light, minimal workspace, overhead shot, studio flash, no readable text, stark documentary style."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) תבקש מה-AI להרוס לך את הרעיון קודם</em>",
+   "hsize": 104,
+   "body": "<b>42% מהסטארטאפים נכשלים כי אף אחד לא רצה את המוצר.</b> תריץ את זה: \"[תאר את הרעיון שלך]. אתה משקיע ספקן. תפרט כל סיבה שבגללה הרעיון הזה ייכשל, תתחיל מהדברים שהכי סביר שיהרגו אותו.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) תברר אם מישהו באמת ישלם</em>",
+   "hsize": 100,
+   "body": "<b>התנהגות היא הסיגנל היחיד שלא משקר.</b> תשתמש בזה: \"הלקוח שלי הוא [תאר אותו]. אני גובה [מחיר] עבור [מוצר]. כתוב חמש שאלות שיחשפו אם הוא ישלם, על בסיס התנהגות בלבד.\"",
+   "media": "posts/2026-08-12-edu-6-ai-prompts-that-stress-test-a-business/gen-2.jpg",
+   "image_prompt": "Two bare hands exchanging a credit card over a plain white desk, the receiving hand mid-hesitation with the card suspended between fingers, no readable text on card, warm tungsten side light, clean background. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: warm amber against cool white."
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) תמפה את כל המתחרים תוך חמש דקות</em>",
+   "hsize": 104,
+   "body": "<b>המתחרים שיזמים מפספסים הם בדרך כלל אלה שהורגים אותם.</b> תריץ את זה: \"[הרעיון שלי]. תפרט כל מתחרה ישיר ועקיף, כולל חלופות חינמיות, כמה הם גובים, ואיפה הם חסרים.\"",
+   "media": "posts/2026-08-12-edu-6-ai-prompts-that-stress-test-a-business/gen-3.jpg",
+   "image_prompt": "True overhead shot of a whiteboard packed with color-coded sticky notes in loose clusters, one hand mid-placement of a final yellow note, bold black marker arrows connecting clusters, no text on any note, cool overhead fluorescent light. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: bright yellow sticky note against white."
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) תעריך את גודל השוק בלי יועץ</em>",
+   "hsize": 100,
+   "body": "<b>Claude נותן לך הערכה תוך פחות מדקה.</b> תשתמש בזה: \"[הלקוח שלי]. תעריך כמה כאלה יש בארה\"ב, כמה הם מוציאים בשנה, ואיזה חלק עסק יחיד יכול לתפוס בצורה ריאלית.\"",
+   "media": "posts/2026-08-12-edu-6-ai-prompts-that-stress-test-a-business/gen-4.jpg",
+   "image_prompt": "A hand in motion drawing a bold funnel diagram on a large open notebook page in thick black marker, numbers written large but illegible from an oblique shooting angle, warm wooden desk, cool side daylight, no readable text. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: black ink line against warm cream paper."
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) תכתוב את הפיץ' לפני שבונים כלום</em>",
+   "hsize": 96,
+   "body": "<b>החוק של Amazon: לכתוב את הידיעה לעיתונות לפני שכותבים שורת קוד אחת.</b> תשתמש בזה: \"כתוב פיץ' של שלושה משפטים ל[תאר אותו]. ואז תפרט כל הנחה שהיית צריך לעשות כדי לכתוב אותו.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>6) תקבל פסיקה אחת: להמשיך, לחכות, או לקבור</em>",
+   "hsize": 100,
+   "body": "אחרי חמישה פרומפטים, תדביק הכל ותריץ את זה: \"[הרשימות שלך]. תדרג מאחד עד עשרה על גודל השוק, תחרות, והוכחת ביקוש. תן לי משפט אחד: לבנות, לחכות, או לקבור.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>תשמור את זה</em>",
+   "hsize": 120,
+   "body": "בפעם הבאה שרעיון יתחיל לך בראש, תרצה שזה יהיה שמור. תשמור את הפוסט. עקוב לכלים שאפשר להשתמש בהם הלילה.",
+   "media": null
+  }
+ ],
+ "caption": "תעבור על ששת הפרומפטים לפני שמוציאים שקל על הרעיון הבא. מלהרוג את הרעיון ועד למיפוי השוק וכתיבת הפיץ', הכל בלילה אחד. 🔖\n\nבסדר: קודם מבקשים מה-AI לחרב את הרעיון לפני שמתאהבים בו. אחר כך בודקים אם מישהו באמת ישלם, על בסיס התנהגות ולא דעות. ממפים כל מתחרה, כולל עקיפים. מעריכים את גודל השוק בלי לשכור אף אחד. כותבים פיץ' של שלושה משפטים לפני שבונים כלום. ומקבלים פסיקה אחת: לבנות, לחכות, או לקבור.\n\n42% מהסטארטאפים נכשלים כי מעולם לא היה שוק אמיתי. Amazon כותבת את הידיעה לעיתונות לפני שורת הקוד הראשונה. כל פרומפט כאן מבוסס על עיקרון שעמד במבחן אצל יזמים אמיתיים. ההבדל בין מי שמבזבז שנה על הרעיון הלא נכון לבין מי שלא, הוא לרוב שיחה כנה אחת לפני שמתחילים.\n\nמנהל עסק? שלח לנו \"AI\" בDM ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: CB Insights, Colin Bryar and Bill Carr, Rob Fitzpatrick\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#ai #chatgpt #artificialintelligence #business #entrepreneur",
+ "pinned_comment": "איזה אחד מריצים קודם הלילה? שקופית 2 היא זו שרוב היזמים מדלגים עליה, והיא זו שחוסכת הכי הרבה כסף.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 PROMPTS EVERY FOUNDER NEEDS</em> BEFORE BUILDING ANYTHING",
+   "6 PROMPTS THAT <em>KILL A BAD IDEA</em> BEFORE YOU SPEND",
+   "6 PROMPTS THAT PROVE YOUR IDEA WORKS <em>BEFORE YOU SPEND</em>",
+   "6 AI PROMPTS THAT <em>TELL YOU IF YOUR IDEA WORKS</em>"
+  ],
+  "scores": [
+   3,
+   5,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "\"AI prompts that TELL YOU\" hits different at 2am—it's specific enough to make you think \"wait, how?\" whereas [2]'s \"prove your idea works\" is solid but sounds like every startup podcast ever. The AI angle makes you stop."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>TELL YOU IF YOUR IDEA WORKS</em>",
+   "6 AI PROMPTS MOST FOUNDERS <em>FIND AFTER IT'S TOO LATE</em>",
+   "6 AI PROMPTS <em>THAT REPLACE YOUR STARTUP CONSULTANT</em>",
+   "6 AI PROMPTS THAT <em>KILL BAD IDEAS BEFORE YOU BUILD THEM</em>"
+  ],
+  "scores": [
+   4,
+   7,
+   5,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] stops you cold with \"AFTER IT'S TOO LATE\"—that regret/FOMO hook makes you think you've already lost, so you HAVE to see what you missed. [3] is a solid feature claim but it doesn't make you feel like you've been doing something wrong the whole time."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

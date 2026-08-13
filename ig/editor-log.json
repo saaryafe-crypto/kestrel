@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "Pure reaction-bait with zero substance: a 43-character vague statement that earned likes, not a real-world event with consequence; the writer has nothing to build from except speculation, and the owner would never post a post about people liking a tweet.",
-  "subject": "Literally What you Imagine Can be made real",
-  "t": "2026-08-10T06:57:23Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Unknown actor—Daria is a private person, not famous or universal; single thin-sourced tweet with 2/10 scout interest violates the unknown actor rule and lacks the real names, real numbers, real proof required for wild-but-true stories.",
   "subject": "🇪🇸🇷🇺 Daria, who’s lived in Spain since age 6 and built a life there, was denied residency after 22 years and given 15 da",
   "t": "2026-08-10T06:58:17Z",
@@ -2098,5 +2091,12 @@
   "subject": "\"Hahahaha look at these AI-generated clips of cruelty against vulnerable homeless people\" — Israeli with 'human rights a",
   "verdict": "KILL",
   "reason": "Reaction-bait: the entire 'story' is that people found a post offensive and mocked it online; no real-world consequence (no account action, no lawsuit, no fired person, no product pulled), just a pile-on screenshot — exactly the failure model that produced the Queen Elizabeth and Mario Lopez posts."
+ },
+ {
+  "t": "2026-08-13T15:03:23Z",
+  "gate": "A",
+  "subject": "\"Hahahaha look at these AI-generated clips of cruelty against vulnerable homeless people\" — Israeli with 'human rights a",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: the entire substance is one person's mocking comment on AI-generated clips with no real-world consequence, no numbers, no second fact, and no outcome beyond engagement metrics—exactly the failure model that produced the Queen Elizabeth and Mario Lopez posts."
  }
 ]
