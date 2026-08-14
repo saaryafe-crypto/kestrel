@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "MOST NEWSLETTERS <em>BLEED SUBSCRIBERS</em> BECAUSE THEY SOUND LIKE ADS AND THESE 6 CLAUDE PROMPTS FIX THAT FREE.",
+   "kicker": "COPYWRITERS CHARGE $500 AN ISSUE",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-14-edu-6-claude-prompts-that-write-your-entire-/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei mid-toss, arms wide, joyful, shirtsleeves rolled. Envelopes exploding upward in mail-room. Claude logo glowing burnt-orange neon. Documentary news photo, 35mm, harsh flash, warm amber, tangerine-charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "1) WRITE THE SUBJECT LINE <em>THAT ACTUALLY GETS OPENED</em>",
+   "hsize": 105,
+   "body": "Email copywriters charge <b>$150 an hour</b> for subject lines that hit average open rates. This prompt gives you <b>10 scored variations</b> in under 60 seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) WRITE THE FULL NEWSLETTER BODY <em>IN YOUR OWN VOICE</em>",
+   "hsize": 100,
+   "body": "Newsletter writers take <b>two full days</b> per issue and charge hourly for every revision. Most business owners spend <b>four hours</b> writing what this prompt writes in three minutes.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) WRITE THE PS LINE <em>THAT DRIVES ALL YOUR CLICKS</em>",
+   "hsize": 105,
+   "body": "The PS is the <b>second-most-read section</b> of any email, right after the subject line. Most link clicks in a newsletter come from the PS, and almost nobody writes it on purpose.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD THE 3-EMAIL <em>WELCOME SEQUENCE NEW SUBSCRIBERS GET</em>",
+   "hsize": 95,
+   "body": "New subscribers are <b>3 times more likely to buy</b> in their first 48 hours than after 30 days. Most businesses send one welcome email and waste the entire window.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WIN BACK THE SUBSCRIBERS <em>WHO STOPPED OPENING</em>",
+   "hsize": 100,
+   "body": "The average email list loses <b>25% of its engaged readers</b> every year. One re-engagement campaign can recover <b>15 to 20%</b> of them without spending anything on new leads.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) SELL IN YOUR NEWSLETTER <em>WITHOUT SOUNDING LIKE AN AD</em>",
+   "hsize": 100,
+   "body": "Most promotional emails fail because they read like ads. An email copywriter charges <b>$1,000 to $3,000</b> to write one that reads like a story and still closes.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 110,
+   "body": "You will want these when your next newsletter is due. Every prompt pastes straight into Claude and works in under four minutes. Daily AI news and real skills at @yaffeai",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through \ud83d\udce9 Six Claude prompts that write every part of your email newsletter, from subject lines to win-back campaigns, ready to paste tonight.\n\nSubject lines scored 1 to 10, the full newsletter body written in your own voice, the PS line that drives all your link clicks, a 3-email welcome sequence for new subscribers, a re-engagement campaign for cold subscribers who stopped opening, and a promotion email that sells without sounding like an ad.\n\nEmail copywriters charge $300 to $3,000 a newsletter. Business owners spend four hours writing what one Claude prompt does in four minutes. The job moved. The businesses still paying for it just haven't found out yet.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, Mailchimp 2026 Email Marketing Benchmarks, ConvertKit State of the Creator Economy 2026\n\n#ai #emailmarketing #smallbusiness #claudeai #contentmarketing",
+ "pinned_comment": "Which prompt are you trying first? Slide 4 (the PS line) is the sleeper. Most email link clicks happen right there and almost nobody writes it on purpose.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 CLAUDE PROMPTS THAT WRITE YOUR <em>ENTIRE EMAIL NEWSLETTER</em>",
+   "PEOPLE ARE QUIETLY <em>REPLACING EMAIL COPYWRITERS</em> WITH THESE 6 PROMPTS",
+   "6 PROMPTS THAT WRITE <em>EVERY EMAIL YOUR BUSINESS SENDS</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "Candidate 1 hits the 'wait, WHAT?' nerve\u2014it's about disruption and replacement happening *now*, making you stop to see what's actually going on. Candidates 0 and 2 read like generic tool pitches that feel like work, not a story worth your time at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "PEOPLE ARE QUIETLY <em>REPLACING EMAIL COPYWRITERS</em> WITH THESE 6 PROMPTS",
+   "<em>6 PROMPTS</em> THAT WRITE YOUR ENTIRE NEWSLETTER BETTER THAN MOST PAID COPYWRITERS",
+   "EMAIL COPYWRITERS CHARGE FOR WHAT <em>THESE 6 PROMPTS</em> DO FOR FREE. SAVE THEM.",
+   "MOST NEWSLETTERS <em>BLEED SUBSCRIBERS</em> BECAUSE THEY SOUND LIKE ADS. THESE 6 PROMPTS FIX THAT FREE."
+  ],
+  "scores": [
+   7,
+   5,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] tells you the full story instantly\u2014vivid language (BLEED SUBSCRIBERS) + specific diagnosis (sound like ads) + actionable solution (free prompts)\u2014making you swipe for details. [0] hits the disruption nerve but stays vague about what's actually happening, forcing you to solve a riddle instead of scrolling for a story you already believe."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (6/10)",
+ "editor_override": "IMAGE LAW VIOLATION \u2014 cover shows a generated unknown face as its central subject. \u00a73 explicitly bans 'a generated unknown face.' The Claude brand mark is visible in the background but does not cancel the unknown generated person who occupies the foreground and is the dominant visual element. Fix: replace the person with the Claude product mark centered on a styled scene, or generate with a recogn",
+ "topic_source": "self-invented"
+}
