@@ -1,0 +1,95 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "CHATGPT NOW READS EVERY APP YOU OPEN <em>AND MOST BUSINESS OWNERS HAVE NO IDEA IT EXISTS</em>",
+   "kicker": "MOST PEOPLE EXPLAIN FROM SCRATCH EVERY TIME",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-08-14-edu-6-chatgpt-memory-tricks-business-owners-/gen-0.jpg",
+   "image_prompt": "Desk with giant rubber stamp slamming manila folder; filing cabinets in orange, green, electric blue tower behind; $ and warning triangle symbols visible; white neon OpenAI logo on wall; warm amber light."
+  },
+  {
+   "type": "content",
+   "headline": "1) CHATGPT NOW <em>WATCHES YOUR SCREEN ALL DAY</em>",
+   "hsize": 100,
+   "body": "<b>Computer History</b>, new in the ChatGPT desktop app, reads every app and website you open and carries that context into every future chat. Most business owners don't know it exists.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) TELL IT YOUR BUSINESS <em>IN ONE PARAGRAPH</em>",
+   "hsize": 100,
+   "body": "ChatGPT's memory stores your context and carries it into every future session. This prompt goes into memory settings once, from that point it stops asking what your company does.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) PASTE <em>3 EMAILS YOU'VE ACTUALLY SENT</em>",
+   "hsize": 105,
+   "body": "Telling it to write professionally teaches it nothing. Three real emails you've already sent teach it your sentence rhythm, word choice, and tone, one paste and every draft sounds like you.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) GIVE IT <em>YOUR 5 HARD RULES</em>",
+   "hsize": 108,
+   "body": "Without rules in memory, ChatGPT optimizes for the average client in your industry. One wrong recommendation to a real client can cost you the relationship.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) DESCRIBE <em>YOUR PERFECT CUSTOMER</em>",
+   "hsize": 112,
+   "body": "The gap between a generic output and one your clients call weirdly accurate is one paragraph stored in memory. This prompt is that paragraph.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) TELL IT <em>WHO YOU'RE COMPETING AGAINST</em>",
+   "hsize": 105,
+   "body": "ChatGPT has no idea what your competitors say until you tell it. Without this in memory, the copy it writes for you could just as easily belong to any rival in your space.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 120,
+   "body": "You'll want these when you sit down tonight. Paste them into memory one by one and ChatGPT becomes a different tool by tomorrow morning. Daily AI skills and real news, right here",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to grab all 6 before your next session. ChatGPT's new memory can turn it from a tool that forgets you into one that already knows your whole business. \ud83e\udde0\n\nComputer History: the new desktop feature that watches your apps all day and names what to automate first. Business overview: one paragraph that stops it from asking what you do. Writing voice: 3 real emails that teach it your exact style. Hard rules: 5 non-negotiables it filters every answer through. Customer profile: one paragraph that makes every output sound personally written. Competitor map: the names and pitches it needs to point your copy away from.\n\nChatGPT can now see what you actually work on, not just what you type. Combined with memory, it holds your business context permanently. Owners who set this up stop explaining themselves in every session.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: OpenAI\n\n#chatgpt #aitools #artificialintelligence #businessowner #productivity",
+ "pinned_comment": "Which prompt are you pasting in first? Slide 7 is the one most people skip, and it's exactly why ChatGPT copy ends up sounding like every other company in the same space.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CHATGPT NOW WATCHES YOUR SCREEN. <em>HERE ARE 6 USES</em>",
+   "6 FIXES FOR <em>CHATGPT'S WORST BUSINESS PROBLEM</em>"
+  ],
+  "scores": [
+   8,
+   3
+  ],
+  "winner": 0,
+  "why": "[0] hits with a concrete, alarming claim ('watches your screen') that makes you freeze mid-scroll and think 'wait, WHAT?'\u2014you'd tap to see what that means. [1] is polished business-speak hiding the actual problem behind a vague phrase; you'd swipe past without feeling anything."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 INPUTS THAT MAKE CHATGPT <em>KNOW YOUR BUSINESS BETTER THAN MOST EMPLOYEES</em>",
+   "6 THINGS TO TELL CHATGPT <em>MOST BUSINESS OWNERS NEVER DO</em>"
+  ],
+  "scores": [
+   4,
+   6
+  ],
+  "winner": 1,
+  "why": "At 2am, '[1]' hits harder because 'NEVER DO' creates intrigue and social proof\u2014you're learning a secret most people miss. '[0]' is just a straightforward claim that feels like every other generic business listicle."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u00a73 violation: the cover features a generated unknown face \u2014 a non-famous man at a desk with filing cabinets. \u00a73 states explicitly 'Never a generated unknown face.' The man is unrecognizable as any real or famous person. Fix: regenerate the cover without a human subject \u2014 use the ChatGPT product with its brand mark prominently in frame (a styled 3D ChatGPT logo or interface element), or a",
+ "topic_source": "self-invented"
+}
