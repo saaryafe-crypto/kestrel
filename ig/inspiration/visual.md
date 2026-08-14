@@ -305,3 +305,14 @@ render on gpt-image which writes short text cleanly — ONE prop may carry
 ONE bold 1-3 word text element when that text IS the punchline ("RIP
 CLAUDE" plaque, "DISCOUNTED" stamp), quoted exactly in the brief. Never a
 sentence, never on inner slides (Seedream garbles); QA rejects garble.
+
+**Frame law** (owner Aug 14: "the best accounts create the picture on the
+upper half and the picture is enough — they don't cut it in the middle"):
+every generated image displays in a roughly SQUARE window at the TOP of the
+slide, bottom fifth feathered into black. Generate square (Seedream 2048sq,
+gpt-image 1:1) and compose complete FOR that window: waist-up or tighter,
+faces and props in the upper two-thirds, nothing essential in the bottom
+quarter or clipped by the sides, never full-body or tall vertical scenes.
+Judge enforcement: image_score CROP-SURVIVAL GATE rejects compositions that
+stop reading when the bottom quarter is hidden. Renderers anchor photos
+center-top so residual crop always comes off the bottom, never the face.
