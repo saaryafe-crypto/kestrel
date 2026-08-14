@@ -1,131 +1,5 @@
 [
  {
-  "t": "2026-08-10T13:20:00Z",
-  "gate": "B",
-  "subject": "<em>7 EXPENSIVE BUSINESS TASKS</em> GPT-5 NOW DOES IN MINUTES",
-  "verdict": "REJECT",
-  "reason": "HOOK UNDERCOUNT + LABEL STRUCTURE (§2): The hook is 9 words — §2 requires 12–25. It also reads as a list-label ('7 things X does') rather than a summarizing sentence with 'actor + what happened + wild specifics.' The wildest concrete specific in the whole post — the $1,068 found in a forgotten subscription — is buried on slide 8 and never surfaces in the hook. Fix: fold the sharpest number into th"
- },
- {
-  "t": "2026-08-10T13:22:00Z",
-  "gate": "B",
-  "subject": "<em>7 EXPENSIVE BUSINESS TASKS</em> GPT-5 NOW DOES IN MINUTES, ONE FOUND $1,068 IN A FORGOTTEN SUBSCRIPTION",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-08-10T14:26:18Z",
-  "gate": "A",
-  "subject": "@profstonge I will survive somehow",
-  "verdict": "KILL",
-  "reason": "No substance: a 34-character tweet with zero second facts, numbers, or consequence—the writer would have to fabricate slides to fill the carousel."
- },
- {
-  "t": "2026-08-10T14:26:42Z",
-  "gate": "A",
-  "subject": "Literally What you Imagine Can be made real",
-  "verdict": "KILL",
-  "reason": "Instant kill on no-substance and reaction-bait: the entire source is 43 characters of vague philosophy; the only 'story' is that people liked the tweet (17,533 likes), not that anything real happened in the world."
- },
- {
-  "t": "2026-08-10T14:27:31Z",
-  "gate": "A",
-  "subject": "Before Robert Pattinson became one of Hollywood’s biggest stars, he admitted to inventing a far more prestigious backgro",
-  "verdict": "KILL",
-  "reason": "Not a story per STORY LAW — celebrity trivia anecdote with no real-world consequence, single meme source, zero scout interest."
- },
- {
-  "t": "2026-08-10T14:27:50Z",
-  "gate": "A",
-  "subject": "Bro created a masterpiece",
-  "verdict": "KILL",
-  "reason": "One vague sentence with zero facts, numbers, names, or consequence—no-substance instant kill."
- },
- {
-  "t": "2026-08-10T14:28:06Z",
-  "gate": "A",
-  "subject": "🇨🇳 China isn't f*cking around when it comes to mosquitoes Writer: Ian",
-  "verdict": "KILL",
-  "reason": "No substance: the source is one provocative phrase with zero facts, numbers, or consequence; the writer would have to fabricate the entire carousel."
- },
- {
-  "t": "2026-08-10T14:28:37Z",
-  "gate": "A",
-  "subject": "Opus 5 is a disaster. Another example of why Anthropic should release a rework *immediately*, or at least a Fable update",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no substance: a single complaint about a product release with no real event, consequence, numbers, or proof—exactly the failure pattern that killed the Mario Lopez post."
- },
- {
-  "t": "2026-08-10T14:29:03Z",
-  "gate": "A",
-  "subject": "Bank of America Bull &amp; Bear Indicator reaches one of the strongest stock market sell signals this century 🚨 🚨",
-  "verdict": "KILL",
-  "reason": "Pure reaction-bait with no substance: a technical indicator reaching a threshold generates engagement but has no real-world consequence, person driving it, or money actually moved—exactly the Queen Elizabeth/Mario Lopez failure pattern the Doctrine was born to prevent."
- },
- {
-  "t": "2026-08-10T14:29:40Z",
-  "gate": "A",
-  "subject": "𝕏.com recorded 4.69 billion visits last month, making it the 6th most-visited website in the world 🔥",
-  "verdict": "KILL",
-  "reason": "Routine business metric with no human event or felt consequence—exactly the ON-TOPIC BUT ROUTINE pattern (website statistics) that earns nothing and fails the standard: no 16-year-old stops mid-scroll for 'website traffic is high.'"
- },
- {
-  "t": "2026-08-10T14:30:07Z",
-  "gate": "A",
-  "subject": "Gregory wants to know if you’re going to be able to make it to Europe for the Total Solar Eclipse on Wednesday",
-  "verdict": "KILL",
-  "reason": "No substance: a single thin tweet asking a question, with no real-world consequence or facts to build slides from."
- },
- {
-  "t": "2026-08-10T14:30:36Z",
-  "gate": "A",
-  "subject": "A Penguin jumped on this boat to escape a seal, so they took him to the iceberg where his friends were waiting for him.",
-  "verdict": "KILL",
-  "reason": "Instant kill under NO SUBSTANCE: 119-character source with zero names, numbers, identifiable consequence, or verifiable detail; 0/10 scout score confirms no material exists to build slides from without fabrication."
- },
- {
-  "t": "2026-08-10T14:31:03Z",
-  "gate": "A",
-  "subject": "This picture was taken on Mars today.",
-  "verdict": "KILL",
-  "reason": "No-substance instant kill: source is one thin sentence with zero context, no actor, no numbers, and no real-world consequence — writer would fabricate slides rather than report a story."
- },
- {
-  "t": "2026-08-10T15:16:13Z",
-  "gate": "B",
-  "subject": "7 CLAUDE PROMPTS SO USEFUL <em>THEY FEEL ILLEGAL.</em> ALMOST NOBODY KNOWS THEM.",
-  "verdict": "REJECT",
-  "reason": "HOOK LAW §2 VIOLATION — two sentences, not one. 'ALMOST NOBODY KNOWS THEM.' is a full stop second sentence. The law is explicit: one complete sentence, 12-25 words. Fix: drop the second sentence entirely and expand the first to carry the full value claim, e.g. '7 CLAUDE PROMPTS THAT REPLACE WHAT MOST PEOPLE PAY PROFESSIONALS HUNDREDS OF DOLLARS TO DO.' (the caption already nails this frame — use i"
- },
- {
-  "t": "2026-08-10T15:18:26Z",
-  "gate": "B",
-  "subject": "7 CLAUDE PROMPTS THAT REPLACE WHAT MOST PEOPLE <em>PAY PROFESSIONALS HUNDREDS OF DOLLARS TO DO.</em>",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "gate": "B",
-  "reason": "Hook is two sentences, not one — §2 requires ONE complete sentence; merge into a single sentence e.g. 'THESE 6 AI PROMPTS BUILD THE BRAND STRATEGY THAT USED TO COST $50K — TONIGHT'; The $50K hook figure is not supported: slide prices sum to ~$18K–35K at most, and the caption appears to cite ~$30K — internal inconsistency that violates §5 Truth Law; fix by lowering hook to $35K and aligning caption",
-  "subject": "YOUR BRAND STRATEGY USED TO COST <em>$50K</em>. THESE <em>6</em> AI PROMPTS BUILD IT TONIGHT.",
-  "t": "2026-08-10T14:12:07Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "",
-  "subject": "THESE <em>6</em> AI PROMPTS BUILD THE BRAND STRATEGY THAT USED TO COST <em>$35K</em>, TONIGHT",
-  "t": "2026-08-10T14:14:04Z",
-  "verdict": "APPROVE"
- },
- {
-  "t": "2026-08-10T18:10:30Z",
-  "gate": "A",
-  "subject": "AI agentic Internet traffic will obviously VASTLY exceed human usage. Not a close call at all. Cloudflare’s forecast is ",
-  "verdict": "KILL",
-  "reason": "A single tweet stating a prediction with zero underlying event, consequence, or numbers to build from—pure speculation dressed as news, fails NO SUBSTANCE test and would require padding to fill even four slides."
- },
- {
   "t": "2026-08-10T18:10:51Z",
   "gate": "A",
   "subject": "BREAKING: SpaceX, $SPCX, officially rises back above its IPO price, now up +30% in 3 days.",
@@ -2098,5 +1972,131 @@
   "subject": "SEVEN FREE GEMINI PROMPTS NOW HANDLE THE VIDEO WORK <em>CREATORS WERE PAYING $500 A MONTH TO OUTSOURCE</em>",
   "verdict": "REJECT",
   "reason": "CAST TRUTH violation on the cover image: the subject is a generated likeness of Sundar Pichai (Google CEO — recognizable face, signature glasses, identical appearance). Pichai has zero role in this story; the post is a prompts tutorial, not anything he did or said. Using his face as visual shorthand for 'Gemini = free' is celebrity-as-decoration, which the doctrine prohibits explicitly. Fix: repla"
+ },
+ {
+  "t": "2026-08-13T23:36:56Z",
+  "gate": "A",
+  "subject": "My favorite capture of the night: The moment the moon's shadow split the sunset in half, leaving a diamond ring in the s",
+  "verdict": "KILL",
+  "reason": "Pure aesthetic astronomy content with no real-world event or consequence; off-brand for the page and fails to meet story qualification—something must happen with felt impact, not just a photograph earning likes."
+ },
+ {
+  "t": "2026-08-13T23:36:59Z",
+  "gate": "A",
+  "subject": "ChatGPT can now remember your activity across the apps and websites on your computer. With Computer History in the deskt",
+  "verdict": "KILL",
+  "reason": "This is a thin product announcement (launch preview), not a story — no real-world consequence, no numbers, no person doing something outrageous, exactly the on-topic-but-routine format the doctrine bans, and the 3/10 scout score confirms it lacks the viral-specific event that earns a slot."
+ },
+ {
+  "t": "2026-08-13T23:37:01Z",
+  "gate": "A",
+  "subject": "In making 𝕏 open source, we are actively seeking criticism to improve fairness and quality of algorithmic recommendation",
+  "verdict": "KILL",
+  "reason": "One-sentence announcement with no real event or consequence; writer would have to pad."
+ },
+ {
+  "t": "2026-08-13T23:37:14Z",
+  "gate": "A",
+  "subject": "BREAKING: 𝕏 wins lawsuit against Australia’s eSafety Commissioner. Elon Musk’s 𝕏 has secured a major victory in Australi",
+  "verdict": "KILL",
+  "reason": "Regulatory ruling without felt consequence—readers don't send lawsuit victories to friends, and 4/10 scout score provides no exceptional reason to override."
+ },
+ {
+  "t": "2026-08-13T23:37:44Z",
+  "gate": "A",
+  "subject": "\"Canadians spent more on taxes than basic necessities in 2025,\" per Toronto Sun",
+  "verdict": "KILL",
+  "reason": "Single-claim statistic with no person, event, or consequence—nothing to build slides from but invented padding."
+ },
+ {
+  "t": "2026-08-13T23:37:51Z",
+  "gate": "A",
+  "subject": "BREAKING: The US Government officially posts its largest July budget deficit in history, at -$432 billion, due to an acc",
+  "verdict": "KILL",
+  "reason": "Routine monthly government fiscal report masquerading as breaking news—exactly the ON-TOPIC BUT ROUTINE instant-kill (market wraps, data releases); no reader DMs this to a friend, and the scout score of 1/10 confirms the pipeline sees zero story here."
+ },
+ {
+  "t": "2026-08-13T23:38:02Z",
+  "gate": "A",
+  "subject": "In 2015, a Virginia jury awarded $500,000 to a patient whose phone accidentally recorded his medical team while he was u",
+  "verdict": "KILL",
+  "reason": "Scout interest 1/10 on a 2015 medical lawsuit with zero connection to tech/AI—fails brand fit and the ownership-standard test."
+ },
+ {
+  "t": "2026-08-13T23:38:07Z",
+  "gate": "A",
+  "subject": "BREAKING: Reddit stock, $RDDT, surges over +11% on news that the company is being added to the S&amp;P 500.",
+  "verdict": "KILL",
+  "reason": "Stocks-rose-today routine market news: mechanical stock move from an index addition with zero human story."
+ },
+ {
+  "t": "2026-08-13T23:38:24Z",
+  "gate": "A",
+  "subject": "The print looks insane",
+  "verdict": "KILL",
+  "reason": "No substance: 22-character source with zero facts, numbers, or consequence; writer would have to pad; reaction-bait masquerading as a story (people liking a vague comment about an unseen print), not a real event."
+ },
+ {
+  "t": "2026-08-13T23:38:30Z",
+  "gate": "A",
+  "subject": "Gemini 3.7 Flash is here. It’s stronger for coding, knowledge work, and web development. 🧵",
+  "verdict": "KILL",
+  "reason": "Launch preview (explicitly banned) with no substance—a 90-character announcement offers no numbers, consequence, or viral-specific event; the source has nothing behind it to build slides from."
+ },
+ {
+  "t": "2026-08-13T23:38:43Z",
+  "gate": "A",
+  "subject": "𝕏 is the most transparent platform on the internet. I was able to see if my account or posts were being suppressed, unde",
+  "verdict": "KILL",
+  "reason": "No real-world event or consequence—this is feature coverage masquerading as transparency critique, fitting the 'on-topic-but-routine' instant-kill category with zero numbers or facts to build multiple slides."
+ },
+ {
+  "t": "2026-08-13T23:39:05Z",
+  "gate": "A",
+  "subject": "Less than 48 hours ago, SpaceXAI dropped Grok 4.6. People are already building crazy stuff with it. 10 wild examples:",
+  "verdict": "KILL",
+  "reason": "Banned launch preview: product announcement with no real consequence, specific outcome, or substance—just a claim that people are using a new tool, and a 2/10 scout score signals correctly that no story event occurred."
+ },
+ {
+  "t": "2026-08-13T23:39:25Z",
+  "gate": "A",
+  "subject": "The mother complained that her son was not sleeping well, so the father filmed a video to find out why.",
+  "verdict": "KILL",
+  "reason": "No substance: the 103-character source is a setup without a payoff—what did the father find? Why does it matter?—with no consequence or second fact; the writer would have to fabricate to fill slides."
+ },
+ {
+  "t": "2026-08-13T23:39:31Z",
+  "gate": "A",
+  "subject": "Eclipse viewed from a fighter jet [📹 gizmotrevino]",
+  "verdict": "KILL",
+  "reason": "No substance: source is a 50-character tweet with zero supporting facts, actor name, numbers, or consequence—a writer would have to fabricate every slide, and the story is pure astronomy spectacle with no tech/business angle."
+ },
+ {
+  "t": "2026-08-13T23:39:33Z",
+  "gate": "A",
+  "subject": "🇬🇧🇷🇺 Tucker dropped a comparison that should make every free person stop cold: Britain throws three times as many people",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: this is a viral political argument on Twitter, not a real-world event with consequences or verified numbers—pure engagement on commentary, and nothing happened in the actual world."
+ },
+ {
+  "t": "2026-08-13T23:39:55Z",
+  "gate": "A",
+  "subject": "Grok 4.6 is objectively #1 when considering intelligence, speed &amp; cost",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no real-world event, no numbers, no consequence—it's a marketing claim, not a story."
+ },
+ {
+  "t": "2026-08-14T01:31:02Z",
+  "gate": "B",
+  "subject": "7 THINGS BUILT WITH AI. ONE IS <em>A 4D HOLOGRAPHIC WEDDING WEBSITE</em>.",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — IMAGE LAW / CAST TRUTH VIOLATION: The cover subject is a generated likeness of Elon Musk. He has no role in this story — the story is about anonymous builders using Grok 4.6, and he is not named or referenced in a single slide. His presence here is celebrity-as-brand-signal, not celebrity-as-story-participant. The Doctrine is explicit: 'if a recognizable famous person is the cover su"
+ },
+ {
+  "t": "2026-08-14T01:34:08Z",
+  "gate": "B",
+  "subject": "7 THINGS ZERO-CODERS BUILT WITH GROK 4.6, INCLUDING <em>A 4D HOLOGRAPHIC WEDDING WEBSITE</em>.",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — CAST TRUTH FAILURE: The cover subject is Elon Musk, a recognizable famous person who plays zero role in this story. The story is about anonymous zero-coders building things with Grok 4.6. Musk is celebrity decoration. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' His ownership of xAI does not make h"
  }
 ]

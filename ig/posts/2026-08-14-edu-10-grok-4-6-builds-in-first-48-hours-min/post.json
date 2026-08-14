@@ -1,0 +1,110 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "7 THINGS ZERO-CODERS BUILT WITH GROK 4.6, INCLUDING <em>A 4D HOLOGRAPHIC WEDDING WEBSITE</em>.",
+   "kicker": "ZERO CODING. ZERO EXPERIENCE.",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-14-edu-10-grok-4-6-builds-in-first-48-hours-min/gen-0.jpg",
+   "image_prompt": "Elon Musk grinning wide in peak delight, both hands raised holding a smartphone at chest-height centered in the middle of the frame \u2014 the screen displaying a single spinning gold ring symbol. Behind him: a vivid neon arcade wall ablaze with three separate monitors each showing a different AI-built world: a snowy mountain track, a neon platformer level, a rotating floral arch \u2014 electric blue and gold flooding every pixel. The X company logo exactly as in the reference image glows as a large warm-white neon mark on the dark back wall. One bold white '4D' on the phone screen only. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: electric gold against deep arcade blue."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) A COMPLETE UNITY GAME</em> BUILT WITHOUT TOUCHING UNITY",
+   "hsize": 100,
+   "body": "Someone typed what they wanted into <b>Grok 4.6</b>. It wrote all the code, set up the game logic, and returned a working game. The person never once opened the Unity editor",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) A SNOWBOARDING GAME</em> BUILT FROM SCRATCH",
+   "hsize": 104,
+   "body": "One description typed in plain English. <b>Grok 4.6</b> built the movement, the physics, and a full playable level from scratch. The builder got a working game back",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) AN INTERACTIVE 3D SIMULATION</em> FROM A TEXT DESCRIPTION",
+   "hsize": 96,
+   "body": "The builder typed a description. <b>Grok 4.6</b> returned a navigable <b>3D simulation</b> you can actually move through. No modeling software, no rendering pipeline",
+   "media": "posts/2026-08-14-edu-10-grok-4-6-builds-in-first-48-hours-min/gen-3.jpg",
+   "image_prompt": "A monitor from a three-quarter left angle \u2014 screen displaying a rich 3D environment: rolling cyan-lit terrain, scattered cube objects, navigable depth layers. A narrow sidebar on the screen's right edge shows only arrow icons and cursor-line symbols \u2014 no text. Desk around it bare. Medium three-quarter composition, monitor dominant. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Zero readable text \u2014 only terrain shapes and geometric block symbols. Accent: cyan against charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) THE OFFICE</em> TURNED INTO A LIVING AI SIMULATION",
+   "hsize": 100,
+   "body": "Someone fed <b>Grok 4.6</b> The Office characters and its world. It built a <b>living simulation</b> where Michael Scott and the crew talk to each other and to you, in character, in real time",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) A 4D HOLOGRAPHIC</em> WEDDING WEBSITE SOMEONE BUILT",
+   "hsize": 100,
+   "body": "One plain-English description went in. <b>Grok 4.6</b> returned a <b>holographic, animated wedding site</b> that renders in 4D in the browser. No developer, no designer, no budget",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>6) AN ENTIRE 3D WORLD</em> FROM ONE PROMPT",
+   "hsize": 104,
+   "body": "One prompt. <b>Grok 4.6</b> returned a full <b>3D world</b> with terrain, objects, and navigation. The whole thing took less time than it would take to brief a developer",
+   "media": "posts/2026-08-14-edu-10-grok-4-6-builds-in-first-48-hours-min/gen-6.jpg",
+   "image_prompt": "Low angle looking upward at a large monitor towering above the desk edge \u2014 screen showing a vast 3D landscape: rolling hills, scattered objects, winding paths, deep purple light with golden atmospheric haze bleeding across the horizon. Below the monitor on the desk: a plain text input box with only a short squiggle mark as input. Nothing else in frame. Low-angle upward composition, monitor looming dominant. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Zero readable text \u2014 only terrain and environment shapes. Accent: deep purple against warm gold."
+  },
+  {
+   "type": "content",
+   "headline": "<em>7) A SKETCH</em> TURNED INTO A POLISHED WEBSITE",
+   "hsize": 104,
+   "body": "A photo of a hand-drawn sketch went in. A <b>fully styled, working website</b> came out. <b>Grok 4.6</b> read the drawing, interpreted the layout, and built the whole site",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 90,
+   "body": "These are real builds from the first 48 hours after Grok 4.6 dropped. The people learning to use tools like this right now will be very far ahead. Daily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through before you scroll past. These are 7 real things people built with Grok 4.6 in its first 48 hours. \ud83e\udd2f\n\nUnity game built without touching Unity, snowboarding game built from scratch, interactive 3D simulation, The Office turned into a living AI world, 4D holographic wedding website, entire 3D world from one prompt, rough sketch turned into a polished website.\n\nTwo days ago Grok 4.6 barely existed. By day two, non-coders had shipped games, 3D worlds, and full websites. The gap between one person and a full team is closing faster than most realize. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: minchoi, xAI\n\n#AITools #Grok #NoCode #AIBuilds #FutureOfWork",
+ "pinned_comment": "Which one shocked you most? The Unity game without ever touching Unity is the one I keep coming back to.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "PEOPLE BUILT <em>THESE 10 THINGS</em> WITH GROK IN 48 HOURS",
+   "<em>10 THINGS</em> ZERO-CODERS BUILT WITH GROK IN 48 HOURS",
+   "<em>10 THINGS</em> PEOPLE BUILT WITH GROK <em>IN 48 HOURS</em>",
+   "<em>10 WILD THINGS</em> PEOPLE BUILT WITH GROK IN 48 HOURS"
+  ],
+  "scores": [
+   5,
+   8,
+   5,
+   6
+  ],
+  "winner": 1,
+  "why": "ZERO-CODERS is the actual hook\u2014it tells you the wild story upfront (normal people with no code skills built this fast), making you hit pause and think 'wait, WHAT?' WILD THINGS just promises hype without showing you why, so you'd need to click to solve the mystery instead of swiping for proof of a story you already buy."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>10 THINGS</em> ZERO-CODERS BUILT WITH GROK IN 48 HOURS",
+   "<em>7 ZERO-CODE AI BUILDS</em> MOST PEOPLE STILL DON'T KNOW ARE POSSIBLE",
+   "<em>7 GAMES, WORLDS, AND WEBSITES</em> BUILT WITH AI AND ZERO CODE",
+   "7 THINGS BUILT WITH AI. ONE IS <em>A 4D HOLOGRAPHIC WEDDING WEBSITE</em>."
+  ],
+  "scores": [
+   5,
+   5,
+   6,
+   9
+  ],
+  "winner": 3,
+  "why": "[3] hits you with a specific, jaw-dropping detail ('4D holographic wedding website') that stops the scroll immediately, while the others hide behind vague list formats that don't make your brain go 'wait, WHAT?'. You swipe [3] because you've already got the wild thing\u2014you just need to see proof."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "COVER IMAGE \u2014 CAST TRUTH FAILURE: The cover subject is Elon Musk, a recognizable famous person who plays zero role in this story. The story is about anonymous zero-coders building things with Grok 4.6. Musk is celebrity decoration. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' His ownership of xAI does not make h"
+}

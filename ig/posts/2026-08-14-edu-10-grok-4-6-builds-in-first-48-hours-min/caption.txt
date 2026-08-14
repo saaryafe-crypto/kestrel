@@ -1,0 +1,9 @@
+Swipe through before you scroll past. These are 7 real things people built with Grok 4.6 in its first 48 hours. 🤯
+
+Unity game built without touching Unity, snowboarding game built from scratch, interactive 3D simulation, The Office turned into a living AI world, 4D holographic wedding website, entire 3D world from one prompt, rough sketch turned into a polished website.
+
+Two days ago Grok 4.6 barely existed. By day two, non-coders had shipped games, 3D worlds, and full websites. The gap between one person and a full team is closing faster than most realize. Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: minchoi, xAI
+
+#AITools #Grok #NoCode #AIBuilds #FutureOfWork
