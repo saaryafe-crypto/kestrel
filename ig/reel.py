@@ -488,7 +488,7 @@ def fallback_carousel():
     its backup in the same second."""
     for attempt in range(4):
         try:
-            fallback_carousel()
+            sh("gh", "workflow", "run", "ig-post.yml", "-f", "kind=auto", cwd=HERE)
             return
         except Exception as e:
             if attempt == 3:
