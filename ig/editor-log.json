@@ -1,110 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "No substance: the source is a single title with zero facts, numbers, or real-world consequence; a writer would have to pad this entire post with invented nostalgia rather than reporting a story.",
-  "subject": "Office life before the invention of AutoCAD and other drafting softwares.",
-  "t": "2026-08-10T19:11:29Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait: the viral event is people reacting to a classroom screenshot online, not a real-world consequence; there is no story beyond the reaction itself.",
-  "subject": "🇨🇳 Look at the level of a Chinese primary school math class. A child standing at the smart board, pointer in hand, drawi",
-  "t": "2026-08-10T19:11:55Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Financial data reporting with no person, event, or consequence; fails ON-TOPIC BUT ROUTINE and NO SUBSTANCE.",
-  "subject": "BREAKING: Crude oil inventories in the US Strategic Petroleum Reserve officially fall below 300 million barrels for the ",
-  "t": "2026-08-10T19:12:32Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Instant-kill reaction-bait: the event is people engaging with dramatic footage, not a real-world consequence anyone felt; exactly like the Queen Elizabeth post this law was born from.",
-  "subject": "Colorado tornado, 2016: some of the wildest footage ever recorded.",
-  "t": "2026-08-10T19:13:07Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "The entire source is one thin tweet with no second fact, numbers, or real-world consequence—the writer would have to pad it; this is the no-substance failure mode.",
-  "subject": "🇨🇳 China isn't f*cking around when it comes to mosquitoes Writer: Ian",
-  "t": "2026-08-10T19:13:29Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Routine market commentary with no person, no consequence, no substance—banned category per §1 (analyst targets, market wraps), and the 1/10 scout score confirms this is data, not a story.",
-  "subject": "U.S. Dollar already strengthening against the Japanese Yen despite the recent intervention",
-  "t": "2026-08-10T19:13:50Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "This is ancient philosophy explained, not a contemporary event with real-world consequence—fails STORY LAW §1 (requires 'something HAPPENED in the real world, with a consequence someone felt'), and 0/10 scout interest confirms no audience signal.",
-  "subject": "“A crooked tree lives its own life, but a straight tree is turned into wood.” - Chinese Proverb The idea behind this pro",
-  "t": "2026-08-10T19:14:16Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Static nature trivia, not a story—nothing happened, no consequence, no event; violates the explicit INSTANT KILL rule: 'PURE ASTRONOMY / non-tech wow content: off-brand.'",
-  "subject": "This ancient fish is one of the largest freshwater predators on Earth The arapaima grows over 10 feet long, has incredib",
-  "t": "2026-08-10T19:14:37Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: the source is a single sentence with zero facts, numbers, context, or consequence; a writer would have to fabricate everything to build slides.",
-  "subject": "This picture was taken on Mars today.",
-  "t": "2026-08-10T19:14:59Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "HOOK IS A LABEL HEADLINE (§2): '7 AI MOVES BEFORE YOUR BOSS REPLACES YOU' names a category — no actor, no event, no wild specifics. The law requires one complete sentence 12-25 words that tells the WHOLE story with specifics. Nine words and a fragment kicker don't deliver that. Fix: one complete sentence that states who, what, and the specific stakes — e.g., fold a concrete fact about what these m",
-  "subject": "<em>7 AI MOVES</em> BEFORE YOUR BOSS REPLACES YOU",
-  "t": "2026-08-10T20:35:57Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "HOOK LAW §2 — AND joins two actions: 'SHIPPED APPS IN 3 DAYS' and 'MADE THEMSELVES IMPOSSIBLE TO REPLACE'. The law requires one action; cut the weaker one. 'Shipped apps in 3 days' is the proof detail that already lives in slide 2's body. The stronger payoff is the irreplaceability — keep that as the single action, then fold '3 days' in as a subordinate clause or drop it from the hook entirely.; I",
-  "subject": "WORKERS WHO TOOK THESE <em>7 AI MOVES</em> SHIPPED APPS IN 3 DAYS AND MADE THEMSELVES IMPOSSIBLE TO REPLACE",
-  "t": "2026-08-10T20:38:55Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-08-10T23:30:41Z",
-  "gate": "A",
-  "subject": "AI agentic Internet traffic will obviously VASTLY exceed human usage. Not a close call at all. Cloudflare’s forecast is ",
-  "verdict": "KILL",
-  "reason": "One thin tweet with no second fact, no numbers, and no real-world consequence—this is speculation without an event."
- },
- {
-  "t": "2026-08-10T23:31:02Z",
-  "gate": "A",
-  "subject": "BREAKING: SpaceX, $SPCX, officially rises back above its IPO price, now up +30% in 3 days.",
-  "verdict": "KILL",
-  "reason": "On-topic but routine market movement (stocks-rose-today format with no person, consequence, or substance to build slides from) — explicitly banned under §1."
- },
- {
-  "t": "2026-08-10T23:31:46Z",
-  "gate": "A",
-  "subject": "The Jetson ONE personal air vehicle. Price: $128,000",
-  "verdict": "KILL",
-  "reason": "No viral-specific event: just a static product price with zero actor doing something with consequence, zero narrative moment—pure announcement content, instant kill under story law."
- },
- {
-  "t": "2026-08-10T23:32:11Z",
-  "gate": "A",
-  "subject": "China's Long March 7A has exploded during first stage flight.",
-  "verdict": "KILL",
-  "reason": "Source is one thin sentence with zero second facts, numbers, or felt consequences; writer would have to pad the story, violating instant-kill no-substance rule."
- },
- {
   "t": "2026-08-10T23:32:36Z",
   "gate": "A",
   "subject": "BREAKING: Crude oil inventories in the US Strategic Petroleum Reserve officially fall below 300 million barrels for the ",
@@ -2098,5 +1993,110 @@
   "subject": "SAM ALTMAN SAID WE ARE IN THE SINGULARITY, <em>THESE 7 BELIEFS HE ACTUALLY LIVES BY ALL BECOME PROMPTS YOU CAN RUN TONIG",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-14T14:19:12Z",
+  "gate": "A",
+  "subject": "ChatGPT can now remember your activity across the apps and websites on your computer. With Computer History in the deskt",
+  "verdict": "KILL",
+  "reason": "This is a company feature announcement with no viral-specific event, real person, money moved, or felt consequence—it's the exact on-topic routine launch-preview content the law forbids, and the owner would not post it himself."
+ },
+ {
+  "t": "2026-08-14T14:19:28Z",
+  "gate": "A",
+  "subject": "https://t.co/irXUkk1duy",
+  "verdict": "KILL",
+  "reason": "No substance: source is a bare link with no facts, numbers, or consequence—nothing for the writer to build from."
+ },
+ {
+  "t": "2026-08-14T14:19:30Z",
+  "gate": "A",
+  "subject": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14x the speed. Launching first in the OpenAI API to a select group of cu",
+  "verdict": "KILL",
+  "reason": "Routine launch preview with no real consequence — explicitly banned under INSTANT KILL as on-topic but routine."
+ },
+ {
+  "t": "2026-08-14T14:19:59Z",
+  "gate": "A",
+  "subject": "🇬🇧🇷🇺 Tucker dropped a comparison that should make every free person stop cold: Britain throws three times as many people",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the entire substance is someone making a provocative comparison on X; no real-world event happened, nobody was fired or arrested or policy changed—it's just commentary with engagement metrics as the story, exactly the failure model the doctrine exists to prevent."
+ },
+ {
+  "t": "2026-08-14T14:20:02Z",
+  "gate": "A",
+  "subject": "Every student nailed their assignment",
+  "verdict": "KILL",
+  "reason": "One thin tweet with nothing behind it: no names, no numbers, no consequence, no second fact — instant kill under NO SUBSTANCE."
+ },
+ {
+  "t": "2026-08-14T14:20:05Z",
+  "gate": "A",
+  "subject": "BREAKING: 𝕏 is rolling out a new “Under the Hood” page that shows whether your account or posts have labels that may lim",
+  "verdict": "KILL",
+  "reason": "Platform feature announcement with no person acting, money moved, or real-world consequence—this is routine launch-preview content the doctrine explicitly bans, and the 2/10 scout score has no exceptional reason to override it."
+ },
+ {
+  "t": "2026-08-14T14:20:11Z",
+  "gate": "A",
+  "subject": "BREAKING: The US Government officially posts its largest July budget deficit in history, at -$432 billion, due to an acc",
+  "verdict": "KILL",
+  "reason": "Routine economic-data release—explicitly banned as on-topic but routine; no person did something, no money moved through a person's hands, no felt consequence; scout score 0/10 confirms it's not a story."
+ },
+ {
+  "t": "2026-08-14T14:20:45Z",
+  "gate": "A",
+  "subject": "Gemini 3.7 Flash is here. It’s stronger for coding, knowledge work, and web development. 🧵",
+  "verdict": "KILL",
+  "reason": "Product launch announcement with no story event, real consequence, or reporting depth—explicitly banned as routine launch previews."
+ },
+ {
+  "t": "2026-08-14T14:20:46Z",
+  "gate": "A",
+  "subject": "https://t.co/EkmupT8AST",
+  "verdict": "KILL",
+  "reason": "Scout interest of 1/10 with no story summary provided—submission is link-only with no facts, numbers, or real consequence visible to judge."
+ },
+ {
+  "t": "2026-08-14T14:20:54Z",
+  "gate": "A",
+  "subject": "BREAKING: The median apartment in Manhattan, NY, is now renting for a record $5,000/month, up +6.4% year-over-year. The ",
+  "verdict": "KILL",
+  "reason": "Routine market data banned under ON-TOPIC BUT ROUTINE — no person, event, or real-world consequence, just rent prices going up (the 'stocks-rose-today' format the doctrine forbids)."
+ },
+ {
+  "t": "2026-08-14T14:20:59Z",
+  "gate": "A",
+  "subject": "Waitress Melina Salazar spent nearly seven years serving a notoriously rude customer who never left her a tip. When he d",
+  "verdict": "KILL",
+  "reason": "Off-brand human interest content with zero technology or AI angle—this belongs on a lifestyle/news vertical, not @technology/@getintoai/@techskills."
+ },
+ {
+  "t": "2026-08-14T14:21:31Z",
+  "gate": "A",
+  "subject": "&gt;NYT factcheckers were like \"the fuck you mean, they started 'calling themselves a swarm'??\" Reminder: 99.99% of peop",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: the entire 'story' is someone's snarky tweet about factcheckers being confused by terminology, with no real-world consequence, no second fact, no numbers, no identified actor or event to build from, and zero substance beyond the reaction itself."
+ },
+ {
+  "t": "2026-08-14T14:21:54Z",
+  "gate": "A",
+  "subject": "Stray dog gets a present everyday for the woman that’s feeding him as a way to thank her.",
+  "verdict": "KILL",
+  "reason": "Thin tweet with no names, numbers, or verifiable details—fails Story Law's NO SUBSTANCE rule; writer would have to fabricate content to fill carousel length."
+ },
+ {
+  "t": "2026-08-14T14:54:56Z",
+  "gate": "B",
+  "subject": "5 GROK PROMPTS THAT REPLACE <em>A $5,000 PRODUCT SHOOT</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH FAIL — IMAGE LAW: The cover subject is a generated likeness of Elon Musk, who has no role in this story. The story is five prompt templates any user can run; Musk did not author them, announce them, or do anything in this narrative. Owning the company that makes the tool does not make someone an actor in a how-to post. He is celebrity decoration. Fix: replace the cover with one of the a"
+ },
+ {
+  "t": "2026-08-14T14:57:10Z",
+  "gate": "B",
+  "subject": "GROK REPLACES <em>A $5,000 PRODUCT SHOOT</em> WITH A SINGLE TYPED SENTENCE",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH violation: the cover image uses a generated likeness of Elon Musk, and Musk has no role in this story. The post is a utility listicle of 5 Grok image prompts — he did nothing here, said nothing, announced nothing. He is celebrity decoration, which IMAGE LAW explicitly prohibits. Fix: regenerate the cover around the OUTPUT of Grok — show one jaw-dropping Grok-generated image (the luxury "
  }
 ]

@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GROK REPLACES <em>A $5,000 PRODUCT SHOOT</em> WITH A SINGLE TYPED SENTENCE",
+   "kicker": "5 prompts, here's the exact ask each time",
+   "hsize": 70,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-14-edu-5-grok-image-styles-anyone-creates-with-/gen-0.jpg",
+   "image_prompt": "the person in the reference photo waist-up, both hands thrusting a glowing smartphone toward camera \u2014 a flawless luxury product shot on screen, no readable text on screen. Triumphant sly grin, eyes locked to camera. A crumpled paper invoice stamped '$5K' prominent on the studio floor in the foreground. Behind him: an upscale photography studio, expensive camera rigs and studio strobes standing cold and unused. The glowing X logo exactly as in the reference image on the wall in warm white neon. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: electric screen-white against cool gunmetal studio grey."
+  },
+  {
+   "type": "content",
+   "headline": "1) SHOW GROK <em>ANY IMAGE</em> AND ASK HOW TO COPY IT",
+   "hsize": 100,
+   "body": "Prompt courses for this sell for <b>$200 to $500</b>. Grok does it free in 10 seconds:\n\n\"Give me the exact style, lighting, mood, and full prompt to recreate this image in Grok.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) MAKE PORTRAITS <em>THAT LOOK LIKE MOVIE STILLS</em>",
+   "hsize": 100,
+   "body": "Photographers charge <b>$300 to $600</b> per portrait like this.\n\n\"Create a cinematic portrait of [describe the person]. Natural golden light through dusty window blinds. Film grain. Shot at 85mm. Denis Villeneuve's visual style.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) TURN A SENTENCE <em>INTO AN $8,000 STUDIO SHOOT</em>",
+   "hsize": 100,
+   "body": "Product studios charge <b>$3,000 to $8,000 per shoot day</b> for this.\n\n\"Create a luxury product shot of [your product]. White marble surface. Soft dramatic side lighting. Clean white background. Shot on Hasselblad, commercial style.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD AN EPIC FANTASY SCENE <em>FROM ONE LINE</em>",
+   "hsize": 100,
+   "body": "Concept artists charge <b>$150 to $400 per scene</b> for this.\n\n\"Create an epic fantasy scene: [describe what's happening]. Sweeping mountain landscape, dramatic storm clouds, shafts of golden light. Ultra-detailed painted realism. Wide low-angle shot.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) GENERATE NEON CITY SHOTS <em>THAT STOP ANY SCROLL</em>",
+   "hsize": 100,
+   "body": "Getty Images sells shots like this for <b>$50 to $200 each</b>.\n\n\"Create a neon-lit city street at night. Rain-soaked pavement reflecting pink and blue neon. Lone figure walking away. Dense fog. Blade Runner atmosphere.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 110,
+   "body": "You'll want these the next time you open Grok. Save this post so the prompts are there when you need them.\n\nDaily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through these before you open Grok tonight. \ud83c\udfa8 Five image types and the exact prompts that build them, from cinematic portraits to neon city shots.\n\nSkill 1: show Grok any reference image and ask it to reverse-engineer the full style, skill 2: the Denis Villeneuve-inspired cinematic portrait formula, skill 3: the luxury product photography prompt that replaces a studio shoot, skill 4: the epic fantasy scene builder from one sentence, skill 5: the neon cityscape formula with Blade Runner atmosphere.\n\nGrok 4.6 dropped 48 hours ago. Most people still type a single vague line and get average results. A precise style prompt is the difference between a stock photo and a $300 image. These close that gap. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Replay_remix, SKHarishbabu\n\n#AI #Grok #AIArt #AITools #ArtificialIntelligence",
+ "pinned_comment": "Which one are you trying first? Slide 3 (the product shot) is the sleeper. Small business owners are using it to replace $3,000 studio shoots.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "GROK CREATES <em>5 IMAGE TYPES</em> IF YOU PROMPT IT RIGHT",
+   "<em>5 IMAGES GROK BUILDS</em> WHEN YOU KNOW THE RIGHT ASK",
+   "5 IMAGES <em>GROK MAKES</em> IF YOU ASK IT RIGHT",
+   "<em>5 IMAGES GROK MAKES</em> WITH THE EXACT STEP-BY-STEP ASK"
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] promises an exact step-by-step method you can actually follow, not just a vague 'ask it right' tip\u2014it's a practical how-to, not a riddle. The word EXACT signals there's real juice inside worth the tap."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 GROK IMAGE PROMPTS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "<em>5 IMAGES GROK MAKES</em> WITH THE EXACT STEP-BY-STEP ASK",
+   "5 GROK IMAGES <em>MOST PEOPLE STILL PAY DESIGNERS TO MAKE</em>",
+   "5 GROK PROMPTS THAT REPLACE <em>A $5,000 PRODUCT SHOOT</em>"
+  ],
+  "scores": [
+   6,
+   4,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "The $5,000 price tag is a concrete shock number that stops you mid-scroll. 'Most people still pay' is clever positioning but vaguer\u2014actual money hits harder at 2am when you're tired."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "CAST TRUTH violation: the cover image uses a generated likeness of Elon Musk, and Musk has no role in this story. The post is a utility listicle of 5 Grok image prompts \u2014 he did nothing here, said nothing, announced nothing. He is celebrity decoration, which IMAGE LAW explicitly prohibits. Fix: regenerate the cover around the OUTPUT of Grok \u2014 show one jaw-dropping Grok-generated image (the luxury "
+}
