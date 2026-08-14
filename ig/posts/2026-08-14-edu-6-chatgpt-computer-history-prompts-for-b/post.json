@@ -1,0 +1,76 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ONE <em>CHATGPT SETTING</em> THAT WRITES YOUR WHOLE WORKDAY FOR YOU",
+   "kicker": "MOST PEOPLE HAVEN'T TURNED IT ON YET",
+   "hsize": 70,
+   "face": "Sam Altman",
+   "media": "posts/2026-08-14-edu-6-chatgpt-computer-history-prompts-for-b/gen-0.jpg",
+   "image_prompt": "the person in the reference photo chest-up at a home desk overflowing with stacked document pages stamped with large $ and checkmark symbols, arms spread wide in amazed triumph, radiating pure delight. The glowing white OpenAI logo exactly as in the reference image blazes large on the dark wall behind him. Open laptop center-frame, amber desk lamp at left, deep night. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, film grain. Accent: electric blue against midnight navy."
+  },
+  {
+   "type": "content",
+   "headline": "1) WRITE YOUR CLIENT UPDATE <em>IN 30 SECONDS FLAT</em>",
+   "hsize": 95,
+   "body": "Now ChatGPT already knows your day.\n\n\"Write a professional update for my client [Name] based on what I worked on today. Under 150 words. Focus on what I finished and what comes next\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) TURN TODAY'S WORK <em>INTO A BILLING INVOICE</em>",
+   "hsize": 100,
+   "body": "You quietly lose hours billing from memory.\n\n\"Based on what I worked on today, list my billable time entries. Project name, what I did, and how long it looks like I spent on each\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>WRITE YOUR TEAM STAND-UP</em> THE NIGHT BEFORE",
+   "hsize": 100,
+   "body": "Writing a stand-up the morning it's due burns 10 minutes.\n\n\"Write my team stand-up for tomorrow. What I accomplished today, anything blocked, and what I'm tackling first. Under 100 words\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) FIND EVERY TASK <em>YOU FORGOT TO FINISH</em> TODAY",
+   "hsize": 95,
+   "body": "This prompt finds every open loop before you close your laptop.\n\n\"Look at everything I worked on today. List anything unfinished, unanswered, or needing a follow-up, with one sentence on what to do next\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD <em>TOMORROW'S EXACT SCHEDULE</em> TONIGHT",
+   "hsize": 108,
+   "body": "Computer History knows what's still open.\n\n\"Based on what I worked on today, give me my top 5 priorities for tomorrow. Rank by what costs most to delay\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) WRITE A <em>FULL PROPOSAL</em> BEFORE THE CALL ENDS",
+   "hsize": 100,
+   "body": "Discovery calls cost two hours after they end.\n\n\"I just finished a discovery call. Based on what I had open today, write a one-page proposal with scope, timeline, and a placeholder for pricing\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 120,
+   "body": "You'll want these the first time you turn on Computer History. Save this post so the prompts are ready when you need them.\n\nDaily AI news and real skills, every day.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through before you turn it on. ChatGPT just got a memory for your whole computer, and these 6 prompts turn that into real work done for you tonight \ud83e\udde0\n\nClient update written from your actual workday, billing time entries pulled from what ChatGPT tracked you doing, team stand-up ready the night before, every forgotten task found automatically, tomorrow's priorities ranked by what costs most to delay, full discovery proposal drafted before the call ends.\n\nChatGPT's Computer History changes what a prompt can do. Instead of explaining your day, the AI already has it. For business owners that means ChatGPT turns what you actually did into work that's already finished. Running a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: OpenAI\n\n#ChatGPT #AItools #BusinessAutomation #ArtificialIntelligence #Productivity",
+ "pinned_comment": "Which one are you trying first? The billing time entries on slide 3 is the one people don't expect, and it's the one that makes you realize how many hours you've been leaving off your invoices.",
+ "hook_tournament": {
+  "candidates": [
+   "ONE <em>CHATGPT SETTING</em> THAT WRITES YOUR WHOLE WORKDAY FOR YOU"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Cover image uses a generated unknown face \u2014 Image Law explicitly bans this ('Never a generated unknown face'). Regenerate the cover without a human face, or replace with a recognizable ChatGPT/OpenAI product visual (screenshot used as receipt evidence inside is fine, but the cover needs a subject that passes the law).; The dollar-sign papers piled on the desk make the cover read as a 'make money w",
+ "topic_source": "self-invented"
+}
