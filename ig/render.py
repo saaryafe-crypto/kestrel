@@ -139,7 +139,9 @@ body.cover .bleed{-webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 160
 body.content .frame{position:relative;z-index:2;height:1350px;display:flex;
                     flex-direction:column;justify-content:flex-end;
                     padding:104px 44px 56px}
-body.content .bleed{background-position:center}
+/* center top (Aug 14): briefs now compose top-heavy for the square
+   window, so the crop must always come off the BOTTOM, never the face */
+body.content .bleed{background-position:center top}
 body.content h1{margin-bottom:28px;text-shadow:0 4px 14px rgba(0,0,0,.9)}
 body.content .body{text-shadow:0 3px 12px rgba(0,0,0,.85)}
 body.content.nomedia .frame{justify-content:center;padding-top:60px}

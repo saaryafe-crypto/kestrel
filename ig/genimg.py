@@ -133,9 +133,13 @@ def _data_uri(path):
 
 def _call(key, prompt, refs=None):
     # 2K, same flat price as 1K — the extra resolution is what keeps short
-    # screen text crisp (1080-wide test garbled "Device Locked")
+    # screen text crisp (1080-wide test garbled "Device Locked").
+    # SQUARE (owner Aug 14): slides show the image in a roughly square TOP
+    # window (~1080x900, feathered into black); the old 4:5 portrait meant
+    # the renderer beheaded every composition — ~35% of the picture thrown
+    # away and subjects cut mid-body. Generate the shape we actually display.
     body = {"input": {"prompt": prompt, "size": "custom",
-                      "width": 2048, "height": 2560, "max_images": 1}}
+                      "width": 2048, "height": 2048, "max_images": 1}}
     if refs:
         # product-hero covers (owner Aug 1, @technology Codex Micro anatomy):
         # the REAL product photo rides along so the generated device matches
@@ -167,7 +171,9 @@ def _call(key, prompt, refs=None):
 def _call_gpt(key, prompt, quality):
     """gpt-image-2: the names-allowed person model (Aug 2). No reference
     photos — the model knows famous faces natively, which is the whole point."""
-    body = {"input": {"prompt": prompt, "quality": quality, "aspect_ratio": "2:3",
+    # 1:1 (owner Aug 14): the slide's photo window is roughly square — 2:3
+    # portrait got its bottom third cropped off on every published slide
+    body = {"input": {"prompt": prompt, "quality": quality, "aspect_ratio": "1:1",
                       "moderation": "low", "output_format": "jpeg",
                       "number_of_images": 1}}
     req = urllib.request.Request(GPT_URL, data=json.dumps(body).encode(),
