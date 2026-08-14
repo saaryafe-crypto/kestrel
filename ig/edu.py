@@ -16,7 +16,7 @@ from datetime import date
 import genimg
 import viral
 from write import (HERE, art_direct, call_claude, doctrine, face_riders,
-                   image_score, logo_ref, principles, qa, qa_repair,
+                   image_score, is_dupe, logo_ref, principles, qa, qa_repair,
                    scrub_dashes, simpler_brief, slugify)
 
 USED = os.path.join(HERE, "edu-used.json")
@@ -267,6 +267,29 @@ def main():
                         f"must be the exact id of a guide listed above")
             print(f"guide-pool enforcement: roll {attempt+1} ignored the pool "
                   f"— re-rolling on @{g['sub']}", file=sys.stderr)
+        # UNIQUENESS GATE (owner Aug 14: "every post is by itself and unique
+        # — if we repeat ourselves no one will follow". The 1-star-reviews
+        # guide published near-identically twice in 2 days; the Claude-leak
+        # story twice in ONE day: the same viral guide re-enters the pool
+        # under a new X id, and the topic-label list can't catch wording-level
+        # repeats). write.py's semantic dupe judge now guards this lane too.
+        # A duped guide gets its tag consumed so no later run re-offers it.
+        if not errs:
+            cover_h = re.sub(r"</?em>", "", next(
+                (s.get("headline", "") for s in post.get("slides", [])), ""))
+            plain_topic = re.sub(r"\s*\[x:[^\]]+\]", "", post.get("topic", ""))
+            if is_dupe(f"{plain_topic} — cover: {cover_h}"):
+                if real_tag(post.get("topic"), guides):
+                    used.append(f"(dupe suppressed) {post['topic']}")
+                    json.dump(used, open(USED, "w"), indent=1)
+                    guides = viral_guides(used)
+                errs.append(
+                    "DUPLICATE POST: this is the same underlying story/guide "
+                    "as one ALREADY PUBLISHED on the page (see ALREADY USED). "
+                    "Pick a DIFFERENT guide from the pool, or a different "
+                    "pillar angle, with a genuinely different promise")
+                print("uniqueness gate: post duplicates an already-published "
+                      "one — re-rolling", file=sys.stderr)
         if not errs:
             break
         prompt = (build_prompt(used, headlines, guides)
