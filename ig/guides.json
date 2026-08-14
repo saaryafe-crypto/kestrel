@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14T01:05:43.573786+00:00",
+ "updated": "2026-08-14T09:18:42.236066+00:00",
  "guides": [
   {
    "id": "2087433011478634944",
@@ -19,6 +19,29 @@
    "video": null,
    "guide": true,
    "born": 1786517966.388657
+  },
+  {
+   "id": "2081068670478880854",
+   "title": "My first interview with @sama, Co-Founder of @OpenAI. 0:04 How to start a startup 3:30 Trusting exponentials 4:57 Operating in chaotic environments 6:12 Learning to enjoy painful experiences 8:03 Creating abundant intell",
+   "sub": "ti_morse",
+   "where": "@ti_morse on X",
+   "unit": "likes",
+   "selftext": "My first interview with @sama, Co-Founder of @OpenAI. 0:04 How to start a startup 3:30 Trusting exponentials 4:57 Operating in chaotic environments 6:12 Learning to enjoy painful experiences 8:03 Creating abundant intelligence 11:15 Keeping core suppliers on OpenAI\u2019s timelines 12:10 Invention of the joint-stock company 15:30 The best CEOs aren\u2019t sociopaths 16:46 We are in the singularity 18:09 AI authoritarianism vs liberty 19:24 Texting 300-400 people a day 20:32 Having a small number of deep beliefs about the future 21:41 Critical path 22:25 Thinking about what\u2019s next 23:38 Getting on planes in marginal situations 28:16 Buying lots of compute 30:51 Ambition 34:00 Google shouldn\u2019t have let OpenAI survive 37:54 Having his life shot through a cannon after the launch of ChatGPT 41:20 The growth of Codex 42:02 The Death Star tweet 44:46 Status games and desire to be useful 47:57 Not being ambitious enough on compute investments 50:26 Execution 51:45 Ask for what you want 54:11 First few weeks of OpenAI 55:15 Shutting down Sora to focus on Codex 57:44 Designing beautiful products 59:01 Getting addicted to TikTok 1:01:03 Inventing a new device 1:02:53 Try to get better at your strengths 1:05:57 Masa is an n of 1 1:07:11 Real trends vs fake trends",
+   "permalink": "https://x.com/ti_morse/status/2081068670478880854",
+   "outlink": null,
+   "score": 4797,
+   "comments_n": 211,
+   "views": 959981,
+   "age_h": 471.8,
+   "vph": 10.2,
+   "image": null,
+   "video": "https://video.twimg.com/amplify_video/2081035374852202496/vid/avc1/3840x1920/uStqJvs7rkiNN80A.mp4?tag=29",
+   "guide": true,
+   "wide_guide": true,
+   "thread": [
+    "@Leland2222 @sama @OpenAI"
+   ],
+   "born": 1785000642.236066
   },
   {
    "id": "2079555200444944811",
@@ -56,9 +79,9 @@
    "outlink": null,
    "score": 4556,
    "comments_n": 90,
-   "views": 2390753,
-   "age_h": 246.4,
-   "vph": 18.5,
+   "views": 2392595,
+   "age_h": 293.6,
+   "vph": 15.5,
    "image": null,
    "video": null,
    "guide": true,
@@ -107,6 +130,37 @@
    "born": 1785464954.334199
   },
   {
+   "id": "2087926969333698743",
+   "title": "Less than 48 hours ago, SpaceXAI dropped Grok 4.6. People are already building crazy stuff with it. 10 wild examples:",
+   "sub": "minchoi",
+   "where": "@minchoi on X",
+   "unit": "likes",
+   "selftext": "Less than 48 hours ago, SpaceXAI dropped Grok 4.6. People are already building crazy stuff with it. 10 wild examples:",
+   "permalink": "https://x.com/minchoi/status/2087926969333698743",
+   "outlink": null,
+   "score": 3329,
+   "comments_n": 173,
+   "views": 1009032,
+   "age_h": 17.6,
+   "vph": 188.9,
+   "image": null,
+   "video": null,
+   "guide": true,
+   "thread": [
+    "2. Snowboarding game built from scratch",
+    "1. A complete Unity game... without touching Unity \ud83e\udd2f",
+    "5. Airbus H145 helicopter model recreated in 3D",
+    "4. The Office turned into a living AI simulation \ud83d\ude02",
+    "3. Interactive 3D simulation",
+    "7. Someone built a 4D holographic wedding website \ud83e\udd2f",
+    "6. Grok 4.6 is really impressive at its cost $1.80 vs $4.20 for the same task",
+    "9. Entire 3D world from one prompt",
+    "8. Queen Anne's Revenge recreated in 3D",
+    "10. Sketch to a polished website"
+   ],
+   "born": 1786635694.377201
+  },
+  {
    "id": "2084189153151922412",
    "title": "In this video, shows how to use AI to find high-quality Remote Job opportunities in less than 2 minutes. Whether you\u2019re a Data Analyst, Designer, Developer, Marketer, or just looking to land your first remote role, this ",
    "sub": "AramideOyekunle",
@@ -148,37 +202,6 @@
     "@evrimagaci Web UI vs Claude code"
    ],
    "born": 1784932526.388657
-  },
-  {
-   "id": "2087926969333698743",
-   "title": "Less than 48 hours ago, SpaceXAI dropped Grok 4.6. People are already building crazy stuff with it. 10 wild examples:",
-   "sub": "minchoi",
-   "where": "@minchoi on X",
-   "unit": "likes",
-   "selftext": "Less than 48 hours ago, SpaceXAI dropped Grok 4.6. People are already building crazy stuff with it. 10 wild examples:",
-   "permalink": "https://x.com/minchoi/status/2087926969333698743",
-   "outlink": null,
-   "score": 2208,
-   "comments_n": 131,
-   "views": 645405,
-   "age_h": 9.4,
-   "vph": 234.9,
-   "image": null,
-   "video": null,
-   "guide": true,
-   "thread": [
-    "2. Snowboarding game built from scratch",
-    "1. A complete Unity game... without touching Unity \ud83e\udd2f",
-    "5. Airbus H145 helicopter model recreated in 3D",
-    "4. The Office turned into a living AI simulation \ud83d\ude02",
-    "3. Interactive 3D simulation",
-    "7. Someone built a 4D holographic wedding website \ud83e\udd2f",
-    "6. Grok 4.6 is really impressive at its cost $1.80 vs $4.20 for the same task",
-    "9. Entire 3D world from one prompt",
-    "8. Queen Anne's Revenge recreated in 3D",
-    "10. Sketch to a polished website"
-   ],
-   "born": 1786635694.377201
   },
   {
    "id": "2080794637040779429",
