@@ -1,0 +1,98 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GOOGLE LAUNCHED <em>GEMINI 3.7 FLASH</em> TODAY AND IT FINISHES 6 HOUR-LONG TASKS IN MINUTES",
+   "kicker": "LAUNCHED TODAY. ANYONE CAN TRY TONIGHT.",
+   "hsize": 72,
+   "face": "Sundar Pichai",
+   "media": "faces/sundar-pichai.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) BUILD A <em>WORKING WEBSITE</em> IN 15 MINUTES",
+   "body": "Developers charge <b>$1,000 to $5,000</b> for a basic business site. Paste this into Gemini 3.7 Flash tonight, free: <b>'Write a complete one-page HTML website for my [business type] in [city], with a services list, contact form, and clean modern design.'</b>",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>FIND EVERY BAD CLAUSE</em> IN YOUR CONTRACTS",
+   "body": "A lawyer charges <b>$300 to $500 an hour</b> to review a contract. Gemini 3.7 Flash does the same review in 30 seconds, free.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) WRITE <em>30 AD VARIATIONS</em> IN UNDER A MINUTE",
+   "body": "A freelance copywriter charges <b>$500 to $1,500</b> for 10 ad variations. Gemini 3.7 Flash gets you 30, in five different styles, free.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) TURN <em>RAW DATA</em> INTO A LIVE DASHBOARD",
+   "body": "Most owners spend <b>2 to 3 hours</b> building a board-ready summary by hand. Gemini 3.7 Flash builds a clickable HTML dashboard from raw numbers in one step.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>BUILD A PRICE CALCULATOR</em> WITHOUT A DEVELOPER",
+   "body": "A freelance developer quotes <b>$800 to $2,000</b> to build a custom price calculator. Gemini 3.7 Flash writes the full working code in one prompt.",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) SUMMARIZE <em>ANY 50-PAGE DOCUMENT</em> IN 90 SECONDS",
+   "body": "Gemini 3.7 Flash launched today with <b>sharper document reasoning</b> than any previous version. Competitor filings, grant applications, supplier contracts. All take 90 seconds each.",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "body": "You will want these the next time you sit down to work. Save this post.\n\nDaily AI news and real skills, every day.",
+   "hsize": 110,
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6. Gemini 3.7 Flash launched today and most business owners don't know what it just became capable of. \ud83d\udd27\n\nBuild a working website from one paragraph, find costly contract clauses before you sign, write 30 ad variations from a two-sentence description, turn spreadsheet data into a live dashboard, build a price calculator without hiring a developer, summarize any long document in 90 seconds.\n\nGemini 3.7 Flash launched with sharper coding and knowledge work than any previous Flash model. Business owners who try these tonight are cutting tasks that used to take full days.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Google, The Verge\n\n#GeminiFlash #AIForBusiness #GoogleAI #BusinessTools #AISkills",
+ "pinned_comment": "Which one are you trying tonight? Slide 5 (the data dashboard) is the one most owners sleep on. It makes you look like you have a full tech team behind you.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 BUSINESS TASKS <em>GEMINI 3.7 FLASH</em> DOES FREE TONIGHT",
+   "6 FREE THINGS <em>GEMINI 3.7 FLASH</em> DOES FOR YOUR BUSINESS",
+   "GOOGLE MADE <em>THE BEST CODING AI FREE</em> FOR EVERYONE TONIGHT",
+   "6 FREE <em>GEMINI TRICKS</em> THAT REPLACE EXPENSIVE TOOLS OVERNIGHT"
+  ],
+  "scores": [
+   4,
+   4,
+   8,
+   6
+  ],
+  "winner": 2,
+  "why": "[2] stops you cold\u2014'BEST...FREE FOR EVERYONE TONIGHT' is shocking news that makes you think 'wait, really?'\u2014while [3] is the only runner-up but still reads like template listicle spam you've scrolled past a thousand times."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "GOOGLE MADE <em>THE BEST CODING AI FREE</em> FOR EVERYONE TONIGHT",
+   "6 <em>HOUR-LONG TASKS</em> AI NOW FINISHES IN MINUTES"
+  ],
+  "scores": [
+   5,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] hits with concrete numbers (6 hours \u2192 minutes) that make you actually stop and think 'wait, that's wild,' while [0] sounds like every other AI launch hype post\u2014polished but doesn't land emotionally."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "HOOK AND VIOLATION (\u00a72): 'GOOGLE LAUNCHED GEMINI 3.7 FLASH TODAY AND IT FINISHES 6 HOUR-LONG TASKS IN MINUTES' joins two actions with AND, which Hook Law explicitly bans. Fix: pick one claim and own it \u2014 either the launch fact or the cost-displacement payoff, not both stapled together.; COVER IMAGE IS DECORATION (\u00a73): The Sundar Pichai photo is from an EU visit \u2014 EU flag stars are clearly visible ",
+ "topic_source": "self-invented"
+}
