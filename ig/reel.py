@@ -481,6 +481,23 @@ def pick(cands, recent=()):
     return None
 
 
+def fallback_carousel():
+    """Fill the slot with an extra carousel. Retries with waits: right after
+    a sleep wake, Wi-Fi takes ~30s to come up and a one-shot dispatch died on
+    'error connecting to api.github.com' (Aug 12+13) — losing the slot AND
+    its backup in the same second."""
+    for attempt in range(4):
+        try:
+            fallback_carousel()
+            return
+        except Exception as e:
+            if attempt == 3:
+                raise
+            print(f"carousel dispatch failed ({e}) — waiting for network, "
+                  f"retry {attempt + 2}/4", file=sys.stderr)
+            time.sleep(45)
+
+
 def main():
     dry = "--dry" in sys.argv
     urls = [a for a in sys.argv[1:] if a.startswith("http")]
@@ -553,7 +570,7 @@ def main():
 
     if not r:
         if not dry:
-            sh("gh", "workflow", "run", "ig-post.yml", "-f", "kind=auto", cwd=HERE)
+            fallback_carousel()
         raise SystemExit("no viral AI/tech clip available — slot filled with an extra carousel")
 
     r = title_tournament(r)
@@ -590,7 +607,7 @@ def main():
     if not os.path.exists(out_mp4) or os.path.getsize(out_mp4) < 200_000:
         shutil.rmtree(post_dir, ignore_errors=True)
         if not dry:
-            sh("gh", "workflow", "run", "ig-post.yml", "-f", "kind=auto", cwd=HERE)
+            fallback_carousel()
         raise SystemExit("reel.mp4 came out broken — slot filled with an extra carousel")
     json.dump({**r, "source": c["url"], "channel": c["channel"],
                "publish": publish},
