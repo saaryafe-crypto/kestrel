@@ -1,0 +1,110 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שישה כלים של Claude</em> שלא ידעתם שקיימים",
+   "kicker": "דליפת פרומפט של 200,000 תווים חשפה הכל",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-14-edu-6-hidden-claude-products-revealed-in-the/gen-0.jpg",
+   "image_prompt": "Dario Amodei centered in frame mid-wrenching a massive vault door open, face blazing with dangerous revelation, six electric-blue orbs erupting outward into a dark underground server room, one orb stamped 'LEAKED', the Claude logo exactly as in the reference image glowing on the vault face above him — accent: electric blue against deep amber — documentary news photo, 35mm, harsh on-camera flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) Claude Cowork</em> עושה את כל העבודה במקומכם",
+   "hsize": 104,
+   "body": "הפרומפט הדלוף של Anthropic מציג את <b>Claude Cowork</b> כאפליקציה לדסקטופ למי שלא כותבים קוד. היא משתמשת בכלים האחרים של Claude מאחורי הקלעים ומחזירה עבודה מוגמרת",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) Claude Tag</em> הופך את Slack לעובד AI",
+   "hsize": 108,
+   "body": "הפרומפט הדלוף מתאר את <b>Claude Tag</b> ככלי קבוצתי ב-Slack. כל אחד בצוות כותב <b>@Claude</b> בשרשור ומעביר לו משימה",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) מודל סודי של Claude</em> מעל Opus 5",
+   "hsize": 104,
+   "body": "הפרומפט הדלוף מאשר: ל-Anthropic יש <b>רמת Mythos</b>, מדרגה מעל <b>Opus 5</b>. המודל הראשון, <b>Claude Mythos Preview</b>, ארגונים נבחרים בודקים אותו עכשיו במסגרת <b>Project Glasswing</b>",
+   "media": "posts/2026-08-14-edu-6-hidden-claude-products-revealed-in-the/gen-3.jpg",
+   "image_prompt": "A vertical column of five luminous spheres inside a dark secure server room, the topmost sphere hovering dramatically higher than the rest and radiating intense white-gold light above the others, no labels on any sphere, server racks in deep shadow, the Anthropic logo exactly as in the reference image glowing on the wall behind — accent: white-gold against deep indigo — documentary news photo, 35mm, harsh flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) Claude ב-Chrome</em> גולש באינטרנט בשבילכם",
+   "hsize": 108,
+   "body": "רשום בפרומפט של Anthropic כ<b>סוכן גלישה</b>. Claude נכנס לאתרים אמיתיים, קורא אותם ומביא לכם את התשובה",
+   "media": "posts/2026-08-14-edu-6-hidden-claude-products-revealed-in-the/gen-4.jpg",
+   "image_prompt": "A laptop on a clean white desk, Chrome browser open showing six colored tab rectangles, a glowing electric-blue AI cursor caught mid-click between tabs with no hands near the keyboard, keyboard completely untouched below, the Google logo exactly as in the reference image on the laptop lid — accent: electric blue against white — documentary news photo, 35mm, harsh flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) Claude Design</em> בונה הכל ממשפט אחד",
+   "hsize": 104,
+   "body": "הפרומפט מתאר <b>קנבס עם כלי עיצוב</b>. מספרים מה רוצים, Claude בונה על הקנבס. הודעה אחת נוספת משנה כל מה שצריך",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>6) Claude ב-Excel וב-PowerPoint</em> עורך את הקבצים",
+   "hsize": 96,
+   "body": "שני סוכנים נפרדים, שניהם מאושרים בפרומפט: אחד בתוך <b>הגיליון האלקטרוני שלכם</b>, אחד בתוך <b>המצגת שלכם</b>. Claude עורך ישירות בקובץ",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה</em>",
+   "hsize": 116,
+   "body": "שמרו כדי שתדעו איפה למצוא כל אחד. חדשות AI יומיות וכלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "פרומפט דלוף של Claude חשף: שישה כלים שאנתרופיק מעולם לא הכריזה עליהם. 🔓\n\nClaude Cowork, אפליקציית דסקטופ שבה מי שלא כותב קוד מעביר משימות שלמות ל-AI. Claude Tag, ממשק ב-Slack שבו כל הצוות כותב @Claude בשרשור ומפקיד עליו עבודה. Claude ב-Chrome, סוכן גלישה שנכנס לאתרים אמיתיים ומביא תשובות. Claude ב-Excel וב-PowerPoint, שני סוכנים נפרדים שעורכים קבצים ישירות מתוך הצ'אט. Claude Design, כלי קנבס שבונה עבודה מוגמרת ממשפט אחד. ו-Claude Mythos Preview, מודל שנמצא מדרגה מעל Opus 5 ורק ארגונים ספורים ניגשים אליו עכשיו במסגרת Project Glasswing.\n\nAnthropic בנתה חבילה שלמה של כלים שהופכים את Claude לחבר צוות אמיתי, לא רק חלון צ'אט. רוב האנשים עדיין כותבים שאלה אחת בכל פעם. מי שמוצא את הכלים האלה ראשון כבר מעביר עבודות שלמות ל-AI בזמן שכולם מחכים.\n\nמנהלים עסק? כתבו לנו \"AI\" בפרטי ונראה לכם מה זה יכול לעשות אצלכם.\n\nמקורות: elder_plinius, Anthropic\n\nעקבו אחרי @ainews.israel לחדשות AI יומיות\n\n#AI #Claude #AITools #ArtificialIntelligence #AINews",
+ "pinned_comment": "איזה מהם הכי ישנה לכם את העבודה? Claude Tag ב-Slack ו-Claude ב-Excel הם השניים שהכי מתעלמים מהם.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 HIDDEN CLAUDE PRODUCTS <em>NOBODY KNEW EXISTED</em>",
+   "<em>6 CLAUDE TOOLS BURIED</em> IN A 200,000-CHARACTER LEAKED PROMPT",
+   "<em>THE LEAKED CLAUDE SYSTEM PROMPT</em> LISTS 6 PRODUCTS NOBODY USES YET",
+   "SOMEONE LEAKED CLAUDE'S SYSTEM PROMPT <em>AND EXPOSED 6 TOOLS INSIDE</em>",
+   "CLAUDE'S LEAKED SYSTEM PROMPT <em>REVEALS 6 SECRET PRODUCTS</em>"
+  ],
+  "scores": [
+   4,
+   8,
+   5,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "[1]'s 200,000-character detail is so specific it makes you go 'wait, WHAT?' and feels real. [3] just sounds like standard drama phrasing."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 CLAUDE TOOLS <em>DOING YOUR WHOLE JOB FOR YOU</em> MOST PEOPLE OVERLOOK",
+   "6 CLAUDE TOOLS <em>REPLACING YOUR ENTIRE WORKFLOW</em> NEVER ANNOUNCED",
+   "<em>6 CLAUDE TOOLS BURIED</em> IN A 200,000-CHARACTER LEAKED PROMPT"
+  ],
+  "scores": [
+   5,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] has 'leaked prompt' and a specific 200,000-character detail—that's the only one that sounds like actual exclusive intel, not marketing. [1] and [0] are generic tools-and-productivity stuff you've seen a thousand times."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "editor_override": "IMAGE LAW — generated unknown face on cover: the man prying open the Claude vault is not a recognizable famous person to a general audience. Even if intended to be Dario Amodei, the depiction is not identifiable at feed size by a 16-year-old target viewer. IMAGE LAW is explicit: 'Never a generated unknown face.' Fix: regenerate cover with a clearly identified famous face (named generation of Dario",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
