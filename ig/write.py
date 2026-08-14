@@ -1573,10 +1573,12 @@ def main(stories_path):
         want_ref = s.pop("gen_ref", False) and ref_photo
         # PERSON ROUTE (owner Aug 2: "i prefer a model that allows that
         # immediately, it will be much less bugs"): briefs featuring famous
-        # people go to gpt-image-2 with the names IN the prompt — no reference
-        # photos, no name-stripping, no E005. Measured head-to-head: it nailed
-        # all three billionaires' likenesses; FLUX rendered lookalikes. The old
-        # Seedream ref-photo route (face_riders) survives as the fallback rung.
+        # person ladder (Aug 14): 1) nano-banana with press-photo + logo refs
+        # (identity copied from the real photo, 4x cheaper than gpt) ->
+        # 2) gpt-image-2 with names IN the prompt (knows famous faces natively;
+        # covers casts we hold no photo of) -> 3) FACELESS Seedream (never a
+        # fake likeness). The old Seedream ref-photo rung is dead — it shipped
+        # a stranger sold as Sam Altman.
         face_field = s.pop("gen_face", None)
         person = bool(face_field)
         face_refs = []
@@ -1640,8 +1642,30 @@ def main(stories_path):
                   file=sys.stderr)
             path = None
             if person:
-                path = genimg.generate(brief, out_jpg,
-                                       cover=(s["type"] == "cover"), person=True)
+                # NANO ROUTE — PRIMARY person model (owner order Aug 14,
+                # "change to nano banana if its 4 times cheaper"; head-to-head
+                # on the fake-Sam brief: likeness copied from our REAL press
+                # photo + the real logo ref rendered exactly, $0.04 vs gpt's
+                # $0.17). Requires a press photo for EVERY named person —
+                # identity comes from the photo, so no photo means no route.
+                # The named brief stays untouched: gpt escalation keeps names.
+                names = split_faces(face_field)
+                if names and all(pick_face(n.lower().replace(" ", "-"))
+                                 for n in names):
+                    nb, nrefs = face_riders(brief, face_field)
+                    nrefs = [r for r in nrefs + [brand_ref] if r]
+                    if nrefs:
+                        path = genimg.generate(nb, out_jpg,
+                                               cover=(s["type"] == "cover"),
+                                               person=True, nano=True,
+                                               refs=nrefs)
+                if not path:
+                    # gpt-image rung: casts we hold no photo of (names go
+                    # directly in the prompt — it knows famous faces natively)
+                    # + nano flakes/budget-out
+                    path = genimg.generate(brief, out_jpg,
+                                           cover=(s["type"] == "cover"),
+                                           person=True)
                 if not path:
                     # FALLBACK RUNG (always-post ladder): gpt failed/budget-out
                     # -> Seedream, but FACELESS (owner Aug 14, the fake-Sam

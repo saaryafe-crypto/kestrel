@@ -44,6 +44,13 @@ URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 # ~$0.041/medium at 2:3 portrait — booked with headroom so the cap never lies low
 GPT_URL = "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions"
 GPT_COST = {"high": 0.17, "medium": 0.05}
+# nano-banana (owner order Aug 14 "change to nano banana if its 4 times
+# cheaper" — head-to-head on the fake-Sam brief: it copies the likeness from
+# our real press photo and renders the real logo ref exactly): PRIMARY person
+# model when every named face has a photo in faces/. Billed $0.039, booked
+# with headroom like gpt.
+NANO_URL = "https://api.replicate.com/v1/models/google/nano-banana/predictions"
+NANO_COST = 0.04
 
 
 def _key():
@@ -171,6 +178,34 @@ def _call(key, prompt, refs=None):
     return None
 
 
+def _call_nano(key, prompt, refs):
+    """google/nano-banana: identity-from-photo person model (Aug 14). The
+    press photo(s) + real logo mark ride as image_input — likeness is copied
+    from the actual photograph, not drawn from memory."""
+    body = {"input": {"prompt": prompt, "aspect_ratio": "1:1",
+                      "output_format": "jpg",
+                      "image_input": [_data_uri(r) for r in refs[:3]]}}
+    req = urllib.request.Request(NANO_URL, data=json.dumps(body).encode(),
+                                 headers={"Content-Type": "application/json",
+                                          "Authorization": f"Bearer {key}",
+                                          "Prefer": "wait"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        pred = json.loads(r.read())
+    for _ in range(20):
+        if pred.get("status") in ("succeeded", "failed", "canceled"):
+            break
+        time.sleep(3)
+        pred = json.loads(_get(pred["urls"]["get"], key))
+    out = pred.get("output")
+    if isinstance(out, list):
+        out = out[0] if out else None
+    if isinstance(out, str) and out.startswith("http"):
+        return _get(out)
+    print(f"genimg(nano): prediction {pred.get('status')!r} "
+          f"error={pred.get('error')!r}", file=sys.stderr)
+    return None
+
+
 def _call_gpt(key, prompt, quality):
     """gpt-image-2: the names-allowed person model (Aug 2). No reference
     photos — the model knows famous faces natively, which is the whole point."""
@@ -200,7 +235,7 @@ def _call_gpt(key, prompt, quality):
     return None
 
 
-def generate(brief, out_path, refs=None, cover=False, person=False):
+def generate(brief, out_path, refs=None, cover=False, person=False, nano=False):
     key = _key()
     if not key:
         return None
@@ -215,8 +250,9 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
     # replicate") — its prompt adherence is what makes concept covers land on
     # screen; Seedream survives as the inner-slide model + cover fallback rung.
     quality = "high" if cover else "medium"
-    use_gpt = person or cover
-    cost = GPT_COST[quality] if use_gpt else COST
+    use_nano = nano
+    use_gpt = (person or cover) and not nano
+    cost = NANO_COST if use_nano else GPT_COST[quality] if use_gpt else COST
     if not _book(cost, cover=cover):
         if use_gpt and not person and _book(COST, cover=cover, floor=True):
             # a Seedream cover beats no cover (always-post): degrade, log it
@@ -279,7 +315,8 @@ def generate(brief, out_path, refs=None, cover=False, person=False):
                    "identity exactly identical to their reference photo. "
                    "Never invent a different-looking device or face.")
     try:
-        img = (_call_gpt(key, prompt, quality) if use_gpt
+        img = (_call_nano(key, prompt, live_refs) if use_nano
+               else _call_gpt(key, prompt, quality) if use_gpt
                else _call(key, prompt, refs=live_refs or None))
         if not img and use_gpt and not person:
             # gpt flaked on a no-name cover: Seedream can render the same
