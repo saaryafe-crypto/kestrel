@@ -1,201 +1,279 @@
 {
- "updated": "2026-08-12T05:20:13+00:00",
- "competitor_hits": [],
+ "updated": "2026-08-14T08:24:42+00:00",
+ "competitor_hits": [
+  {
+   "page": "mashable",
+   "likes": 4521,
+   "ratio": 7.16,
+   "tier": "mega",
+   "hook": "\"Nothing could have prepared Willem Dafoe for the Dune popcorn bucket.\u2060\n\nHeat to the LIB for the full interview!\n\u2060\n\ud83c\udfa4: Kristy Puchko\u2060\n\u2060\n#dune #saymore #film #willemdafoe\".",
+   "date": "2026-08-12"
+  },
+  {
+   "page": "technology",
+   "likes": 13000,
+   "ratio": 1.28,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from major product launches and software upgrades to robotics records and leadership changes \ud83c\udf10\ud83e\udd16\n\nJennifer Bailey is retiring after 12 years leading ",
+   "date": "2026-08-12"
+  },
+  {
+   "page": "wired",
+   "likes": 1178,
+   "ratio": 1.0,
+   "tier": "mega",
+   "hook": "\"Security researchers found that in less than 60 seconds, they could open a hatch on a plane\u2019s exterior, plug in a tiny device, and redirect the aircraft\u2019s autopilot or sabotage its flight plan.\n\nRead more at the \ud83d\udd17 in bi",
+   "date": "2026-08-13"
+  },
+  {
+   "page": "technology",
+   "likes": 7371,
+   "ratio": 0.72,
+   "tier": "mega",
+   "hook": "\"NASA was forced to publicly confirm that Earth would not lose gravity for 7 seconds after false Project Anchor claims spread ahead of the eclipse \ud83c\udf0d\n\nThe supposed leaked NASA file claimed gravity would disappear for 7.3 ",
+   "date": "2026-08-12"
+  },
+  {
+   "page": "technology",
+   "likes": 6833,
+   "ratio": 0.67,
+   "tier": "mega",
+   "hook": "\"Do you like the new or old logo better? \ud83e\udd14\n\nInstagram is replacing its familiar cursive wordmark with a cleaner new design, marking the first major change to the lettering in roughly 10 years.\n\nnstagram\u2019s updated wordmar",
+   "date": "2026-08-13"
+  },
+  {
+   "page": "technology",
+   "likes": 6838,
+   "ratio": 0.67,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to see some of the world\u2019s most expensive private aircraft linked to billionaires, celebrities and royals, where luxury interiors can push costs far beyond standard jets \ud83d\udcb0\n\nThe list ranges from Elon Musk\u2019s Gulf",
+   "date": "2026-08-13"
+  },
+  {
+   "page": "technology",
+   "likes": 5433,
+   "ratio": 0.53,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to see some of the wildest startup ideas people have posted on X, where internet humor keeps turning absurd concepts into surprisingly plausible products \ud83d\ude02\ud83d\udca1\n\nThe list ranges from robot mosquitoes and forehead s",
+   "date": "2026-08-13"
+  },
+  {
+   "page": "mashable",
+   "likes": 205,
+   "ratio": 0.32,
+   "tier": "mega",
+   "hook": "\"Do you think green bubbles are red flags? \ud83d\udea9 \n\n#google #madebygoogle #texting #allaccess #tech\".",
+   "date": "2026-08-12"
+  },
+  {
+   "page": "mashable",
+   "likes": 148,
+   "ratio": 0.23,
+   "tier": "mega",
+   "hook": "\"Take a peek at all the new colors for the new Google Pixel 11 phones. \ud83d\udc40\u2060\n\u2060\nWhich color is your favorite? (We're partial to the pink \ud83d\udc95)\".",
+   "date": "2026-08-12"
+  }
+ ],
  "reddit_hot": [
   {
    "sub": "technology",
-   "score": 19890,
-   "title": "Mamdani Backs Proposal to End Amazon\u2019s \u2018Exploitative\u2019 Delivery Model in New York City | If passed, the Delivery Protection Act would be the first law in the US to regulate Amazon\u2019s vast network of subcontractors that handle the company\u2019s deliveries."
+   "score": 25718,
+   "title": "Young Americans Don\u2019t Trust Billionaire AI Leaders, New Poll Finds"
   },
   {
    "sub": "technology",
-   "score": 7121,
-   "title": "A cybersecurity researcher covered a Toyota in an AI-generated pattern to confuse Flock cameras"
+   "score": 9708,
+   "title": "PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct"
   },
   {
    "sub": "technology",
-   "score": 6553,
-   "title": "Ken Paxton\u2019s Political Operation Rakes In Data Center Donations as Texans Turn Against Industry"
+   "score": 8570,
+   "title": "'We're Not Big Brother': Flock CEO Unveils New Privacy Guardrails After Backlash"
   },
   {
    "sub": "technology",
-   "score": 3981,
-   "title": "Google says Gemini has reached 1B users faster than any other Google product"
-  },
-  {
-   "sub": "technology",
-   "score": 3875,
-   "title": "More than 10 firms pay up to $100,000 a month for fast access to Truth Social posts"
-  },
-  {
-   "sub": "technology",
-   "score": 3800,
-   "title": "Mark Zuckerberg\u2019s AI manifesto is exactly why people don\u2019t like AI"
-  },
-  {
-   "sub": "technology",
-   "score": 3497,
-   "title": "Amazon Used a Startlingly Dirty Trick to Build a Data Center Without Consent of Community"
-  },
-  {
-   "sub": "technology",
-   "score": 3272,
-   "title": "Amazon's new Texas data center could become the single largest polluter in the US"
-  },
-  {
-   "sub": "technology",
-   "score": 2975,
-   "title": "Tesla to recall over 20,000 US vehicles over excessively bright low-beam headlights"
+   "score": 4075,
+   "title": "Discord raises free upload limit to 20MB after lowering it two years ago because &quot;storage management is expensive&quot;"
   },
   {
    "sub": "Futurology",
-   "score": 2969,
-   "title": "Meta glasses banned from courts in England and Wales | Meta"
+   "score": 3217,
+   "title": "Chinese bullet train goes from 0 to 800kmph in 5 seconds"
   },
   {
    "sub": "technology",
-   "score": 2672,
-   "title": "5 years later, Windows 10 refuses to die, and Microsoft just can't push holdouts to Windows 11"
+   "score": 3203,
+   "title": "US conducted \u2018mass spying campaign\u2019 against leftwing groups and anti-ICE protesters, records reveal"
   },
   {
    "sub": "technology",
-   "score": 1965,
-   "title": "Microsoft reportedly raises Windows 11 license price significantly more than expected"
+   "score": 2862,
+   "title": "Claude's new Scarlet Letter watermark is invisible \u2014 for now"
+  },
+  {
+   "sub": "ChatGPT",
+   "score": 2819,
+   "title": "Told ChatGPT I was uninstalling it. I expected more begging if I\u2019m honest \ud83d\ude03"
   },
   {
    "sub": "technology",
-   "score": 1940,
-   "title": "AI Investors Are Suddenly Quaking in Their Boots"
+   "score": 2517,
+   "title": "Lost jobs, inequality, rogue agents: why are we accepting oligarchs\u2019 AI agenda?"
+  },
+  {
+   "sub": "technology",
+   "score": 2080,
+   "title": "Feeling stressed and overworked? Don't worry - OpenAI CEO Sam Altman thinks that we just love to work, and that's why AI won't result in a four-day working week"
+  },
+  {
+   "sub": "technology",
+   "score": 1958,
+   "title": "Bumble divides users by ditching its signature 'women-first' chat rule"
+  },
+  {
+   "sub": "technology",
+   "score": 1937,
+   "title": "In a first, US will allow some private firms to carry out cyberattacks"
+  },
+  {
+   "sub": "technology",
+   "score": 1844,
+   "title": "Flock \u201ccan\u2019t tech its way out\u201d of the stalker cop problem, experts say | Flock to lock out cops who stalk exes, but agencies can still hide abuse."
+  },
+  {
+   "sub": "ChatGPT",
+   "score": 1500,
+   "title": "Help! I was swallowed by a whale"
+  },
+  {
+   "sub": "technology",
+   "score": 1220,
+   "title": "Brian May badly recreates iconic Queen album cover to prove dangers of AI: \u201cSo this is the kind of intelligence that will soon be ruling the world?\u201d"
+  },
+  {
+   "sub": "technology",
+   "score": 1163,
+   "title": "Twitch finally lets you opt out of AI training, years after it started"
+  },
+  {
+   "sub": "technology",
+   "score": 1154,
+   "title": "Flock Admits Failures That Put Innocent People at Risk, Overhauls Police Search Rules"
+  },
+  {
+   "sub": "technology",
+   "score": 1095,
+   "title": "After Microsoft threatened legal action, a security researcher publishes a new Windows zero-day bug"
+  },
+  {
+   "sub": "technology",
+   "score": 1029,
+   "title": "Twitch feeds your streams to Amazon's AI unless you tell it to stop"
+  },
+  {
+   "sub": "technology",
+   "score": 1028,
+   "title": "Cargo thieves are staging car crashes to steal AI data center hardware"
+  },
+  {
+   "sub": "technology",
+   "score": 1022,
+   "title": "AI giants stay quiet on climate as California prepares to force disclosure"
+  },
+  {
+   "sub": "technology",
+   "score": 968,
+   "title": "Researchers find Windows 11 can be hacked with no physical access with new attack"
+  },
+  {
+   "sub": "Futurology",
+   "score": 882,
+   "title": "In Texas, decentralized home electricity storage batteries are already stabilizing the grid."
+  },
+  {
+   "sub": "technology",
+   "score": 733,
+   "title": "Slapping Windows 11 PCs with a Copilot key was a terrible idea, and it's already outdated as Microsoft just released a new icon"
+  },
+  {
+   "sub": "technology",
+   "score": 657,
+   "title": "U.S boosts drone surveillance as flesh-eating screwworms spread in Texas | Hundreds of Homeland Security drones retasked to survey wildlife and livestock."
+  },
+  {
+   "sub": "technology",
+   "score": 651,
+   "title": "Spotify to introduce AI badge after fans make feelings 'clear'"
+  },
+  {
+   "sub": "singularity",
+   "score": 605,
+   "title": "Gemini 3.7 flash benchmark"
   },
   {
    "sub": "OpenAI",
-   "score": 1657,
-   "title": "What's your thoughts on this?"
+   "score": 559,
+   "title": "AI researchers are receiving strange emails from AIs claiming they will die soon and need help"
   },
   {
    "sub": "technology",
-   "score": 1605,
-   "title": "Why Is Everyone In Tech So Sad?"
+   "score": 557,
+   "title": "CBP Workers Allegedly Used Government Databases to Spy on Exes, Crushes, and Colleagues"
+  },
+  {
+   "sub": "ChatGPT",
+   "score": 554,
+   "title": "Well, that turned dark quickly"
+  },
+  {
+   "sub": "singularity",
+   "score": 526,
+   "title": "DeepSeek announce price increases of 50-1000%"
+  },
+  {
+   "sub": "technology",
+   "score": 507,
+   "title": "Apple adds iPhone X and 2018 MacBook Pro to obsolete products list"
+  },
+  {
+   "sub": "Futurology",
+   "score": 474,
+   "title": "The world\u2019s most efficient solar panel goes on sale later this year"
   },
   {
    "sub": "OpenAI",
-   "score": 1443,
-   "title": "\ud83d\udcc0OPEN LIVING - A Data Center You Can Live in"
+   "score": 461,
+   "title": "\ud83d\udc41\ufe0f\ud83d\udc44\ud83d\udc41\ufe0f"
   },
   {
    "sub": "technology",
-   "score": 1252,
-   "title": "Oracle has drawn up plans for a new round of layoffs this month, sources say"
+   "score": 457,
+   "title": "AI Companies Are Suddenly Racing to Watermark Their Content \u2014 Here\u2019s What That Means"
   },
   {
-   "sub": "technology",
-   "score": 1190,
-   "title": "Anthropic just rolled out a tool that'll decimate some people's dreams of writing AI novels undetected"
-  },
-  {
-   "sub": "technology",
-   "score": 1184,
-   "title": "Bernie Sanders tells OpenAI, Anthropic, and Meta to pause AI development or face Senate action"
-  },
-  {
-   "sub": "technology",
-   "score": 1140,
-   "title": "Valve informs customers about data breach, personal data stolen"
-  },
-  {
-   "sub": "technology",
-   "score": 953,
-   "title": "Meta can't stop states' $1.4 trillion lawsuit from going to trial | Judges tell Meta that Section 230 provides a defense, not immunity from lawsuits."
-  },
-  {
-   "sub": "Futurology",
-   "score": 949,
-   "title": "Teamsters suing over California self-driving truck rules"
+   "sub": "ChatGPT",
+   "score": 438,
+   "title": "Prompt: Make an image from an useless ChatGPT product"
   },
   {
    "sub": "singularity",
-   "score": 922,
-   "title": "Researchers find way to extract hidden reasoning from frontier AI models via API, show Kimi likely distilled this way, also find scheming/other quirks in the raw chain of thought"
-  },
-  {
-   "sub": "technology",
-   "score": 814,
-   "title": "Workers at OpenAI, Anthropic, and Meta say AI is making their jobs harder, not easier"
+   "score": 435,
+   "title": "GPT-5.6 Sol can run now at an incredible rate of ~750 tokens per second"
   },
   {
    "sub": "singularity",
-   "score": 765,
-   "title": "OpenAI's Chief Operating Officer resigns."
+   "score": 339,
+   "title": "Anthropic: Introducing The Conceptual Reasoning Index"
   },
   {
-   "sub": "artificial",
-   "score": 760,
-   "title": "Claude now embeds an invisible watermark into every piece of text it generates."
-  },
-  {
-   "sub": "Futurology",
-   "score": 757,
-   "title": "Funders Need to Catch Up to the Anti-Data Center Movement | The fastest-growing movement in the country is running on almost no institutional money, and it\u2019s effectively fighting against some of the world\u2019s most rapacious billionaires."
-  },
-  {
-   "sub": "technology",
-   "score": 747,
-   "title": "Meta told to pay another $567m in New Mexico child safety lawsuit"
-  },
-  {
-   "sub": "technology",
-   "score": 741,
-   "title": "Americans are rallying against data centers. Surprisingly few are actually getting built"
-  },
-  {
-   "sub": "technology",
-   "score": 724,
-   "title": "Wall St. Wants Another Half-Trillion Dollars for the A.I. Boom"
-  },
-  {
-   "sub": "technology",
-   "score": 687,
-   "title": "Data Center Foes\u2019 Newest Tack: Sue Locals Over Approval Process"
-  },
-  {
-   "sub": "technology",
-   "score": 663,
-   "title": "Facebook is paying far-right agitators to produce rage-bait content"
-  },
-  {
-   "sub": "technology",
-   "score": 562,
-   "title": "New surveillance tech links your phone to your license plate | Phone and Bluetooth signals could turn roadside cameras into far richer tracking tools"
-  },
-  {
-   "sub": "Futurology",
-   "score": 470,
-   "title": "Update: growing surfboards from mycelium, one year later- now testing it for aquarium insulation"
+   "sub": "ChatGPT",
+   "score": 336,
+   "title": "Bro had enough"
   },
   {
    "sub": "singularity",
-   "score": 350,
-   "title": "Cherokee Nation bans hyperscale data centers on tribally owned, trust lands"
-  },
-  {
-   "sub": "singularity",
-   "score": 334,
-   "title": "Did Pathway just reveal the architecture breakthrough Andrew Curran predicted? Its 150M model sets a new ARC-AGI-1 cost-efficiency frontier"
-  },
-  {
-   "sub": "OpenAI",
-   "score": 326,
-   "title": "Chinese Tibo \ud83d\ude05"
-  },
-  {
-   "sub": "Futurology",
-   "score": 281,
-   "title": "OCD affects roughly 200 million people worldwide and one-third don't respond to treatment. The first study of OCD proteins in human brain tissue could finally explain why."
-  },
-  {
-   "sub": "Futurology",
-   "score": 264,
-   "title": "MIT researchers tackle the economic realities of fusion power"
+   "score": 259,
+   "title": "3.7 flash looks fine I guess"
   }
  ]
 }
