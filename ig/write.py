@@ -490,7 +490,7 @@ CRAFT (bake into every prompt):
 - GAZE IS AN ARROW (Netflix artwork research + fixation studies): the hero's eyes go to camera by default, or lock onto the story's object so the viewer's eye follows. MAX 2 people visible in frame — engagement measurably drops at 3+.
 - THE BRAND LIVES IN THE SCENE: when the story's company matters to the frame, its real logo appears as a physical object — the default treatment (owner's reference, Aug 1): a LARGE GLOWING backlit mark on the dark wall behind the hero, soft warm-white halo, dimensional like a lit acrylic sign. Alternatives: the mark ON the device, a storefront sign, an illuminated screen with visible glow. NEVER a flat printed graphic, never drawn from memory — return "logo" so the real mark rides as a reference. The renderer will NOT stamp a flat logo overlay on generated covers, so if the brand isn't in the scene it isn't on the cover.
 - EVERY IMAGE UNIQUE + A CURIOSITY ENGINE (owner Aug 1): no two slides in the post may share a composition, angle, or setting — each image is its own scene. IMAGE-CLAIM LOCK (the Reddit post-mortem: slide 2 claimed a 23% stock crash yet showed the same phone-with-logo as the cover): each inner brief's HERO is that slide's OWN claim — the crash slide gets the collapsing red chart line, the payout slide the money, the fallout slide the next victim — never the story's mascot object repeated. And each image is built on viewer psychology: it shows a moment that RAISES a question only the headline (or the next slide) answers — an unresolved instant, a reaction to something just out of frame, stakes mid-collapse. If an image would feel complete without its headline, it's wallpaper — rewrite it.
-- FRAME LAW (owner Aug 14 — "the best pages design the picture FOR the top half; ours look cut in the middle"): the image fills a roughly SQUARE window at the TOP of the slide, and the window's bottom fifth feathers into black under the headline. Compose the scene to read COMPLETE inside that window: subjects WAIST-UP or tighter, faces and the key prop in the UPPER two-thirds, stakes readable without the bottom quarter, nothing essential touching the side edges. NEVER stage full-body figures, tall vertical scenes, or anything that needs legs, feet, or a floor to make sense — if it does, re-stage it tighter (say "waist-up", "close on hands and prop", "tight three-quarter shot"). The finished slide must look like the photo was SHOT for that window, never cropped into it.
+- FRAME LAW (owner Aug 14 — "the best pages design the picture FOR the top half; ours look cut in the middle"): the image fills a roughly SQUARE window at the TOP of the slide, and the window's bottom fifth feathers into black under the headline. Compose the scene to read COMPLETE inside that window: subjects WAIST-UP or tighter, faces and the key prop in the UPPER two-thirds, stakes readable without the bottom quarter, nothing essential touching the side edges. NEVER stage full-body figures, tall vertical scenes, or anything that needs legs, feet, or a floor to make sense — if it does, re-stage it tighter (say "waist-up", "close on hands and prop", "tight three-quarter shot"). The finished slide must look like the photo was SHOT for that window, never cropped into it. STAGE IT AS A COMPOSITE (measured from every reference cover, Aug 14 — Elon chest-up + giant Tesla logo disc + memo icon; the MacBook floating over huge "PRO" letters): ONE complete subject — the whole device, the whole prop, the person waist-up — arranged with 1-2 supporting elements (the brand's glowing mark, one story icon) on a DARK backdrop that fades toward the bottom edge; nothing amputated by any edge. A complete object on dark reads designed; a cropped photo reads broken.
 - BANNED looks: purple-teal "AI glow", glowing holograms, circuit-board brains, waxy plastic skin, sci-fi concept art, moody dark murk, white backgrounds, two competing focal points, two emotions.
 - BANNED subjects: any invented/generic human face ("a young founder", "an office worker", "a scientist"). Every visible face must be a NAMED famous likeness; everyone else is faceless (behind / silhouette / hands) or absent.
 
@@ -1644,9 +1644,23 @@ def main(stories_path):
                                        cover=(s["type"] == "cover"), person=True)
                 if not path:
                     # FALLBACK RUNG (always-post ladder): gpt failed/budget-out
-                    # -> Seedream with ref photos, names stripped (E005)
+                    # -> Seedream, but FACELESS (owner Aug 14, the fake-Sam
+                    # cover: the old ref-photo rung shipped a stranger sold as
+                    # Sam Altman — Seedream cannot hold a famous likeness, and
+                    # a WRONG face is worse than no face). Rebuild the same
+                    # scene with the person from behind / as the story's
+                    # objects; face_riders then strips any residual name (E005).
                     person = False
-                    brief, face_refs = face_riders(brief, face_field)
+                    fb = simpler_brief(
+                        brief, s.get("headline", ""),
+                        flaw="the person model is unavailable — rebuild this "
+                             "EXACT scene for a model that cannot render real "
+                             "faces: same setting, props, logo and story, but "
+                             "the named person appears ONLY from behind or as "
+                             "a silhouette (face never visible), or is replaced "
+                             "by the story's object at theatrical scale. Never "
+                             "ask for a recognizable face")
+                    brief, face_refs = face_riders(fb or brief, None)
             if not path:
                 refs = [r for r in [ref_photo if want_ref else None]
                         + face_refs + [brand_ref] if r]
@@ -1753,11 +1767,13 @@ def main(stories_path):
             pool.append((score, m))
         if not cover0.get("media") and pool:
             score, best = max(pool, key=lambda t: t[0])
-            # RESCUE RUNG (owner audit Aug 10): a <=4/10 best reject is
+            # RESCUE RUNG (owner audit Aug 10): a <=5/10 best reject is
             # wallpaper — one cheap faceless Seedream attempt via the no-face
             # playbook before settling for it. Always-post intact: the best
-            # reject stays the floor if the rescue also fails.
-            if score <= 4 and cover_brief:
+            # reject stays the floor if the rescue also fails. (Threshold was
+            # 4; the Aug 14 fake-Sam cover shipped as a 5/10 best reject, one
+            # point above the rescue — a wrong famous face must never win.)
+            if score <= 5 and cover_brief:
                 rb = simpler_brief(
                     cover_brief, cover0.get("headline", ""),
                     flaw=f"best attempt scored {score}/10 — rebuild as a "

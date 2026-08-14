@@ -33,8 +33,11 @@ MONTH_BUDGET, DAY_BUDGET = 45.00, 0.60
 # Covers get their own, higher daily ceiling (cover-first doctrine, Aug 1):
 # inner-slide spend stops at DAY_BUDGET so there is always headroom left for
 # every remaining post's cover. Raised Aug 10: ALL covers now route to
-# gpt-image ($0.17 high), 6/day + retry headroom must fit.
-COVER_DAY_BUDGET = 1.20
+# gpt-image ($0.17 high), 6/day + retry headroom must fit. Raised again
+# Aug 14 (fake-Sam post-mortem: the $1.20 cap died at 18:43 and the evening
+# covers degraded to Seedream fakes): $2.10 = 6 covers x 2 tries + one spare.
+# The $45 month cap still rules everything.
+COVER_DAY_BUDGET = 2.10
 COST = 0.03  # Seedream: flat per output image, any size
 URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 # gpt-image-2 (person route): token-billed by OpenAI; measured ~$0.165/high and

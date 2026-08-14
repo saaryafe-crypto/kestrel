@@ -316,3 +316,16 @@ quarter or clipped by the sides, never full-body or tall vertical scenes.
 Judge enforcement: image_score CROP-SURVIVAL GATE rejects compositions that
 stop reading when the bottom quarter is hidden. Renderers anchor photos
 center-top so residual crop always comes off the bottom, never the face.
+
+**Composite staging** (reference-folder audit Aug 14, ~/Desktop/ig/technology
+ig — measured on every cover: Elon chest-up + giant Tesla logo disc + memo
+icon; MacBook floating whole over huge "PRO" letters; Sam Altman waist-up
+holding the keyboard, glowing OpenAI logo behind): the winning covers are
+BUILT composites, not single photos. ONE complete subject (whole device,
+whole prop, person waist-up) arranged with 1-2 supporting elements (brand
+mark, one story icon) on a DARK backdrop that fades toward the bottom edge.
+Nothing is ever amputated by a frame edge — a complete object on dark reads
+designed; a cropped photo reads broken. Inner-slide corollary: when a slide
+shows a real screenshot/UI, the reference treatment is the COMPLETE artifact
+as a floating card on dark, never an edge-to-edge crop (not wired yet — we
+generate photos, no real-screenshot lane).
