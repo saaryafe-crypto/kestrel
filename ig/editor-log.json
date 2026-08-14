@@ -1,111 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "Survey stat with no event, person, or consequence—no real story to tell, only padding material.",
-  "subject": "25% of bosses admit they’re losing top talent because of bad pay, per FORTUNE",
-  "t": "2026-08-10T16:38:12Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Pure observation with no event, consequence, or substance: a screenshot of a child drawing shapes carries zero story—no person did something with an outcome, no real-world consequence, no numbers, no facts beyond one moment—and padding to carousel length would require fabrication.",
-  "subject": "🇨🇳 Look at the level of a Chinese primary school math class. A child standing at the smart board, pointer in hand, drawi",
-  "t": "2026-08-10T16:38:38Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW — cover fails the thumb test: the background is a stock-market trading floor with confetti, celebrating traders, and ticker screens. At feed size, a stranger reads 'ChatGPT + finance news,' not 'ChatGPT replaces your personal trainer.' The whistle and clipboard props at the base are correct story signals but are visually overwhelmed by a scene that belongs to a completely different story",
-  "subject": "7 CHATGPT PROMPTS THAT REPLACE <em>YOUR PERSONAL TRAINER FOR FREE</em>",
-  "t": "2026-08-10T17:59:39Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Cover image fails IMAGE LAW's thumb test: the dominant background is a stock-exchange trading floor with tickers, confetti, and floor traders — a scroll-stopper at feed size reads this as a ChatGPT finance or markets story, not a fitness/trainer story. The trainer props (whistle, clipboard) are small, low-frame, and completely overwhelmed by the financial scene. The image must be regenerated with ",
-  "subject": "CHATGPT CAN NOW REPLACE YOUR PERSONAL TRAINER <em>WITH 7 FREE PROMPTS THAT COVER EVERYTHING</em>",
-  "t": "2026-08-10T18:01:50Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-08-10T20:44:31Z",
-  "gate": "A",
-  "subject": "AI agentic Internet traffic will obviously VASTLY exceed human usage. Not a close call at all. Cloudflare’s forecast is ",
-  "verdict": "KILL",
-  "reason": "One-sentence prediction tweet with zero additional facts, numbers, or real-world consequence—the writer has nothing to build slides from but padding, and a 5/10 scout score with no exceptional reason to override the no-substance rule."
- },
- {
-  "t": "2026-08-10T20:44:59Z",
-  "gate": "A",
-  "subject": "🇨🇳 Look at the level of a Chinese primary school math class. A child standing at the smart board, pointer in hand, drawi",
-  "verdict": "KILL",
-  "reason": "No real event with consequences—just a screenshot of a child drawing, with commentary on educational standards; writer would pad a thin observation into slides, failing the no-substance and story-not-event gates."
- },
- {
-  "t": "2026-08-10T20:45:23Z",
-  "gate": "A",
-  "subject": "The Jetson ONE personal air vehicle. Price: $128,000",
-  "verdict": "KILL",
-  "reason": "Launch preview (banned category) with no event, consequence, or person—source is a price announcement only, and scout interest of 4/10 means the writer would invent texture rather than report a real story."
- },
- {
-  "t": "2026-08-10T20:45:45Z",
-  "gate": "A",
-  "subject": "China's Long March 7A has exploded during first stage flight.",
-  "verdict": "KILL",
-  "reason": "Single thin headline with zero substance, no numbers, no consequence, no second fact—writer would have to pad; also pure astronomy without commercial angle (not SpaceX/Starlink valuations), and scout interest (3/10) has no exceptional override."
- },
- {
-  "t": "2026-08-10T20:46:11Z",
-  "gate": "A",
-  "subject": "🇨🇳 China isn't f*cking around when it comes to mosquitoes Writer: Ian",
-  "verdict": "KILL",
-  "reason": "No substance: the source is a single vague tweet (69 chars) with zero facts, numbers, or real consequence; the writer would have to fabricate slides from thin air."
- },
- {
-  "t": "2026-08-10T21:27:10Z",
-  "gate": "B",
-  "subject": "7 AI STEPS TO SHIP AN APP <em>AND DITCH YOUR RESUME</em>",
-  "verdict": "REJECT",
-  "reason": "Hook joins two actions with AND ('SHIP AN APP AND DITCH YOUR RESUME') — §2 requires ONE action; cut 'SHIP AN APP' and make the resume claim the sole payoff.; Hook is 11 words, below the §2 minimum of 12; fixing the AND cut will likely close this gap.; Slide 3 instructs readers to 'Download Hermes agent' as if it is a real, named consumer product — verify the exact product name exists and is downlo"
- },
- {
-  "t": "2026-08-10T21:32:49Z",
-  "gate": "B",
-  "subject": "7 AI STEPS THAT FINALLY LET YOU <em>DITCH YOUR RESUME FOR GOOD</em>",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait: an online statement where engagement metrics are the substance, with zero real-world consequence.",
-  "subject": "AI agentic Internet traffic will obviously VASTLY exceed human usage. Not a close call at all. Cloudflare’s forecast is ",
-  "t": "2026-08-10T19:09:35Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance (§1): a single product price with no person, event, or consequence — the writer would have to pad, and the scout interest at 4/10 does not override the rule.",
-  "subject": "The Jetson ONE personal air vehicle. Price: $128,000",
-  "t": "2026-08-10T19:10:04Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "NO SUBSTANCE instant-kill: one-sentence source with no additional facts, numbers, or consequences—writer would have to pad entirely to fill a carousel.",
-  "subject": "China's Long March 7A has exploded during first stage flight.",
-  "t": "2026-08-10T19:10:39Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Routine market content (stocks-rose-today, explicitly banned in §1) with no real-world event, no person, and no human consequence — a stock price is a datapoint, not a story.",
-  "subject": "BREAKING: SpaceX, $SPCX, officially rises back above its IPO price, now up +30% in 3 days.",
-  "t": "2026-08-10T19:11:02Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "No substance: the source is a single title with zero facts, numbers, or real-world consequence; a writer would have to pad this entire post with invented nostalgia rather than reporting a story.",
   "subject": "Office life before the invention of AutoCAD and other drafting softwares.",
   "t": "2026-08-10T19:11:29Z",
@@ -2098,5 +1993,110 @@
   "subject": "Israeli billionaire Shlomo Kramer is now openly calling for the First Amendment to be eliminated in the United States. H",
   "verdict": "KILL",
   "reason": "Pure reaction-bait: a billionaire made a provocative statement on Twitter and got engagement (3,461 likes), but no real-world consequence occurred—no policy changed, no money moved, no action taken—making it a screenshot of online drama, not a story."
+ },
+ {
+  "t": "2026-08-14T12:05:10Z",
+  "gate": "A",
+  "subject": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14x the speed. Launching first in the OpenAI API to a select group of cu",
+  "verdict": "KILL",
+  "reason": "Launch preview (banned as ON-TOPIC BUT ROUTINE): no person, consequence, or real event—just a corporate announcement."
+ },
+ {
+  "t": "2026-08-14T12:05:11Z",
+  "gate": "A",
+  "subject": "ChatGPT can now remember your activity across the apps and websites on your computer. With Computer History in the deskt",
+  "verdict": "KILL",
+  "reason": "One thin feature announcement with no real-world consequence, adoption numbers, or substance—pure launch-preview padding."
+ },
+ {
+  "t": "2026-08-14T12:05:12Z",
+  "gate": "A",
+  "subject": "https://t.co/irXUkk1duy",
+  "verdict": "KILL",
+  "reason": "One thin tweet with zero describable substance, engagement metrics as the only fact, and scout score of 1/10: textbook reaction-bait, instant kill—next candidate gets the slot."
+ },
+ {
+  "t": "2026-08-14T12:05:52Z",
+  "gate": "A",
+  "subject": "🇬🇧🇷🇺 Tucker dropped a comparison that should make every free person stop cold: Britain throws three times as many people",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the substance is that Tucker made a provocative comparison and it received engagement (8,821 likes); no real-world consequence occurred—no policy changed, no person was affected, no product pulled, no decision made—exactly the failure pattern from the page's worst posts."
+ },
+ {
+  "t": "2026-08-14T12:05:58Z",
+  "gate": "A",
+  "subject": "BREAKING: The US Government officially posts its largest July budget deficit in history, at -$432 billion, due to an acc",
+  "verdict": "KILL",
+  "reason": "Routine budget announcement, explicitly banned as 'ON-TOPIC BUT ROUTINE' (budget releases like market wraps and analyst targets); no person did something with a real outcome—reader would not send to friend."
+ },
+ {
+  "t": "2026-08-14T12:05:59Z",
+  "gate": "A",
+  "subject": "Waitress Melina Salazar spent nearly seven years serving a notoriously rude customer who never left her a tip. When he d",
+  "verdict": "KILL",
+  "reason": "Decades-old inheritance story from 2007 with 1/10 scout interest and no current event or new consequence—a stale anecdote being recycled by a meme account is not a newsworthy story that earns a slot."
+ },
+ {
+  "t": "2026-08-14T12:06:00Z",
+  "gate": "A",
+  "subject": "https://t.co/EkmupT8AST",
+  "verdict": "KILL",
+  "reason": "No substance—bare link with zero facts, numbers, or consequence; 2/10 scout interest offers no exception."
+ },
+ {
+  "t": "2026-08-14T12:06:22Z",
+  "gate": "A",
+  "subject": "Every student nailed their assignment",
+  "verdict": "KILL",
+  "reason": "No substance: a 37-character tweet with no real names, numbers, consequence, or second fact — the writer would have to fabricate slides, and a 1/10 scout score on a bare claim that reads like engagement bait disqualifies it."
+ },
+ {
+  "t": "2026-08-14T12:06:27Z",
+  "gate": "A",
+  "subject": "Gemini 3.7 Flash is here. It’s stronger for coding, knowledge work, and web development. 🧵",
+  "verdict": "KILL",
+  "reason": "Instant kill on two grounds: NO SUBSTANCE (source is one thin announcement, zero specifics or numbers or consequence to build slides from) and ON-TOPIC BUT ROUTINE (standard product-launch filler, explicitly banned)—not a jaw-dropping story, just 'product X is now better.'"
+ },
+ {
+  "t": "2026-08-14T12:06:28Z",
+  "gate": "A",
+  "subject": "BREAKING: The median apartment in Manhattan, NY, is now renting for a record $5,000/month, up +6.4% year-over-year. The ",
+  "verdict": "KILL",
+  "reason": "On-topic but routine market wrap—rent statistics rising are exactly the banned format (analysts targets, market wraps), with zero story: no actor, no event, no consequence someone felt, and the scout score of 1/10 confirms it earns no engagement."
+ },
+ {
+  "t": "2026-08-14T12:07:05Z",
+  "gate": "A",
+  "subject": "BREAKING: 𝕏 is rolling out a new “Under the Hood” page that shows whether your account or posts have labels that may lim",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no substance or real-world consequence; routine feature announcement that fails the launch-preview ban and would require fabrication to fill slides."
+ },
+ {
+  "t": "2026-08-14T12:07:36Z",
+  "gate": "A",
+  "subject": "Stray dog gets a present everyday for the woman that’s feeding him as a way to thank her.",
+  "verdict": "KILL",
+  "reason": "No substance: the entire source is one 89-character sentence with no second fact, number, or verifiable consequence—nothing exists to build slides from except padding."
+ },
+ {
+  "t": "2026-08-14T12:07:39Z",
+  "gate": "A",
+  "subject": "&gt;NYT factcheckers were like \"the fuck you mean, they started 'calling themselves a swarm'??\" Reminder: 99.99% of peop",
+  "verdict": "KILL",
+  "reason": "Reaction-bait without substance: the entire story is online alarm about an unspecified 'swarm' claim with zero real-world consequence, no names, no numbers, and nothing a writer could build slides from."
+ },
+ {
+  "t": "2026-08-14T13:20:45Z",
+  "gate": "B",
+  "subject": "SAM ALTMAN HAS 7 BELIEFS HE ACTUALLY LIVES BY. <em>COPY ALL 7 AS PROMPTS</em>.",
+  "verdict": "REJECT",
+  "reason": "Hook is two sentences ('SAM ALTMAN HAS 7 BELIEFS HE ACTUALLY LIVES BY. COPY ALL 7 AS PROMPTS.'), violating the ONE complete sentence rule. Fix: merge into one — e.g., 'SAM ALTMAN SHARED THE 7 BELIEFS HE ACTUALLY LIVES BY, AND ALL 7 BECOME PROMPTS YOU CAN RUN TONIGHT.'; Hook has no high-arousal angle — it is flat-informational. The law requires the truthful frame with the most at stake. The materia"
+ },
+ {
+  "t": "2026-08-14T13:24:18Z",
+  "gate": "B",
+  "subject": "SAM ALTMAN SAID WE ARE IN THE SINGULARITY, <em>THESE 7 BELIEFS HE ACTUALLY LIVES BY ALL BECOME PROMPTS YOU CAN RUN TONIG",
+  "verdict": "APPROVE",
+  "reason": ""
  }
 ]

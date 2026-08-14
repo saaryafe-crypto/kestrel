@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SAM ALTMAN SAID WE ARE IN THE SINGULARITY, <em>THESE 7 BELIEFS HE ACTUALLY LIVES BY ALL BECOME PROMPTS YOU CAN RUN TONIGHT</em>.",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-08-14-edu-7-sam-altman-interview-beliefs-as-ai-pro/gen-0.jpg",
+   "image_prompt": "Sam Altman at dark bar, sleeves rolled up, whiskey glass centered. Eyes hard with fierce conviction, jaw locked. OpenAI neon glows behind. Documentary flash, 35mm, natural texture, zero readable text."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>TRUST THE CURVE</em> BEFORE IT IS OBVIOUS",
+   "hsize": 110,
+   "body": "ChatGPT hit <b>100 million users in 60 days.</b> Your prompt: 'Show me what three functions in my [type] business could look like if AI capabilities keep doubling every 18 months.'",
+   "media": "posts/2026-08-14-edu-7-sam-altman-interview-beliefs-as-ai-pro/gen-1.jpg",
+   "image_prompt": "A glowing exponential growth curve dominates a floor-to-ceiling monitor \u2014 the line dead flat for two-thirds of the screen, then rocketing steeply upward in the final third. A silhouetted human figure stands from behind at the base of the screen, dwarfed by the height of the final steep climb. Dark empty office, no other light source but the screen glow. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Zero readable text \u2014 the curve rendered as a single glowing electric blue line only, no axis labels, no numbers. Accent: electric blue curve against pitch-black room."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>LEARN TO ENJOY</em> THE PAINFUL PARTS",
+   "hsize": 112,
+   "body": "Altman said the weeks after launch felt like <b>having his life shot through a cannon.</b> He stayed. Your prompt: 'I am dealing with [problem]. What is this pressure forcing me to figure out?'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>SAM ALTMAN SAID</em> WE ARE IN THE SINGULARITY",
+   "hsize": 104,
+   "body": "ChatGPT launched with <b>zero paying users in 2022</b> and became a <b>$300 billion company</b> in two years. Your prompt: 'Show me two AI scenarios for my business: which job disappears and what revenue opens?'",
+   "media": "posts/2026-08-14-edu-7-sam-altman-interview-beliefs-as-ai-pro/gen-3.jpg",
+   "image_prompt": "An abstract vertical bar graph rendered in neon lines against a pitch-black background, a single bar towering far above all others, a silhouetted figure standing before it appearing very small, keyed to cyan"
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>KEEP THREE DEEP BELIEFS.</em> IGNORE THE REST",
+   "hsize": 108,
+   "body": "Altman holds 'a small number of deep beliefs about the future.' OpenAI never pivoted when every competitor changed direction. Your prompt: 'Surface my three core beliefs about [my industry].'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>GET ON THE PLANE</em> IN MARGINAL SITUATIONS",
+   "hsize": 108,
+   "body": "Altman's rule: take meetings that look borderline. Best bets hide where odds look weak. Your prompt: 'List three things I am probably undervaluing about [this opportunity].'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>ASK FOR EXACTLY</em> WHAT YOU WANT",
+   "hsize": 112,
+   "body": "Altman called this the most underused move: most people soften the ask and get a softer result. Your prompt: 'Write a message stating exactly what I want and a clear yes or no ask.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) <em>SPOT REAL TRENDS</em> FROM FAKE ONES",
+   "hsize": 112,
+   "body": "Altman left a stable path in <b>2015</b> to bet on AI when most still called it fiction. Real trends show in data first. Your prompt: 'Is [trend] real or noise for my business?'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> USE ONE PROMPT TONIGHT",
+   "hsize": 96,
+   "body": "All seven work in Claude or ChatGPT right now. Follow for daily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through: 7 beliefs from Sam Altman's most honest interview, each one turned into a prompt you can run tonight \ud83e\udde0\n\n1. Trust the curve before it is obvious, 2. Learn to enjoy the painful parts, 3. We are in the singularity, 4. Keep three deep beliefs and ignore the rest, 5. Get on the plane in marginal situations, 6. Ask for exactly what you want, 7. Spot real trends from fake ones\n\nAltman built the most valuable AI company on earth and these seven principles show up in every decision he makes. The gap between founders who think this way and those who still plan linearly is widening. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: ti_morse, OpenAI\n\n#AI #SamAltman #OpenAI #ArtificialIntelligence #Startup",
+ "pinned_comment": "Which prompt are you trying tonight? Slide 6 (ask for exactly what you want) is the one most people have never actually done in writing. Try it on your next big ask.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "SAM ALTMAN <em>REVEALED 7 MOVES</em> FOR THE AI ERA",
+   "SAM ALTMAN <em>SHARED 7 BELIEFS</em> WORTH STEALING",
+   "7 <em>SAM ALTMAN RULES</em> FOR WINNING THE AI ERA",
+   "<em>7 SAM ALTMAN BELIEFS.</em> ALL 7 ARE PROMPTS YOU CAN USE",
+   "<em>7 THINGS SAM ALTMAN BELIEVES</em> THAT MOST BUILDERS SKIP"
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   8,
+   7
+  ],
+  "winner": 3,
+  "why": "\"Prompts you can use\" tells you exactly what you're getting and why to stop\u2014you swipe for concrete tools. \"Most skip\" creates FOMO but doesn't say what the actual payoff is."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)"
+}
