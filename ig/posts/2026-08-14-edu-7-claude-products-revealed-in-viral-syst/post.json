@@ -1,0 +1,110 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "CLAUDE'S <em>200K-CHARACTER SYSTEM PROMPT LEAKED</em> AND REVEALED 7 PRODUCTS",
+   "kicker": "MOST PEOPLE ONLY USE THE CHAT",
+   "hsize": 72,
+   "face": [
+    "Dario Amodei"
+   ],
+   "media": "posts/2026-08-14-edu-7-claude-products-revealed-in-viral-syst/gen-0.jpg",
+   "image_prompt": "Dario Amodei pulling glowing scroll from silk hat in shock. Seven cascading orange-gold app icons illuminate him. Claude logo symbol on deep navy wall. Harsh documentary 35mm flash. Blazing orange against navy."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>TYPE PLAIN ENGLISH</em> AND CLAUDE BUILDS THE APP",
+   "hsize": 98,
+   "body": "Hiring a developer to build a working app costs <b>$8,000</b> at the low end. Type this tonight: <b>\"Build me a landing page that collects email signups and saves them to a spreadsheet\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>CLAUDE COWORK HANDLES</em> YOUR ENTIRE KNOWLEDGE WORKDAY",
+   "hsize": 86,
+   "body": "A full-time assistant costs <b>$35,000 a year</b>. Give it: <b>\"Read these emails, flag anything urgent, and draft a reply for each one\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>CLAUDE IN CHROME</em> BROWSES ANY PAGE FOR YOU",
+   "hsize": 104,
+   "body": "A research assistant charges <b>$25 an hour</b> to find and compile information. Try: <b>\"Go to this product page and summarize every review that mentions battery life\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>CLAUDE IN EXCEL</em> BUILDS THE WHOLE SPREADSHEET",
+   "hsize": 98,
+   "body": "Spreadsheet consultants charge <b>$150 an hour</b> to build formulas and dashboards. Type: <b>\"Column A is monthly revenue, column B is costs. Build a profit margin chart and flag any month below 20 percent\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>CLAUDE IN POWERPOINT</em> WRITES AND DESIGNS YOUR SLIDES",
+   "hsize": 90,
+   "body": "A professional presentation designer charges <b>$500 to $2,000</b> per deck. Tell it: <b>\"I am pitching a marketing agency to restaurant owners. Build a 10-slide deck with a problem, solution, case study, and pricing page\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>CLAUDE DESIGN MAKES</em> ANYTHING YOU DESCRIBE",
+   "hsize": 108,
+   "body": "Freelance designers charge <b>$75 an hour</b>. Type: <b>\"Make me a logo for a coffee shop called Slow Pour. Modern, minimal, dark green and cream\"</b> and it iterates until you say stop",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) <em>TAG @CLAUDE IN SLACK</em> AND IT DOES THE TASK",
+   "hsize": 96,
+   "body": "Claude Tag turns your team's existing Slack into an AI workspace. Tag it: <b>\"@Claude here is this week's sales data. Write a 3-sentence summary for our Friday standup\"</b>",
+   "media": "posts/2026-08-14-edu-7-claude-products-revealed-in-viral-syst/gen-7.jpg",
+   "image_prompt": "Laptop close-up: purple sidebar messaging interface with a glowing @Claude tag highlighted in a message thread, an automated structured reply appearing below it as bullet-point symbols and checkmarks only. No readable text. Warm overhead open-plan office light. Documentary news photo, 35mm, harsh flash. Accent: vivid purple against white."
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> BEFORE YOU NEED IT",
+   "hsize": 110,
+   "body": "All seven are live through Anthropic's site right now. Most people never go past the chat window. Daily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 7 before closing this. Anthropic's leaked system prompt just exposed Claude products most users have never opened. \ud83d\udd0d\n\nClaude Code builds full apps from a plain-English command, Claude Cowork handles an entire knowledge workday for non-developers, Claude in Chrome browses and researches any website on demand, Claude in Excel builds spreadsheets and dashboards inside your open file, Claude in PowerPoint writes and designs complete decks through chat, Claude Design creates logos and mockups from a one-sentence description, Claude Tag lets any team member delegate a task to Claude directly inside Slack.\n\nMost Claude users open the chat window, type a question, and close the tab. The system prompt that leaked this week shows Anthropic built an entire product suite around the same AI, each one handling a job you are currently paying someone else to do. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Anthropic, elder_plinius\n\n#claude #ai #artificialintelligence #aitools #productivity",
+ "pinned_comment": "Which one surprises you most? Claude Tag is the sleeper. Most teams are already in Slack and have no idea this exists.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CLAUDE'S <em>200K-CHARACTER SYSTEM PROMPT LEAKED</em> AND REVEALED 7 PRODUCTS",
+   "<em>7 THINGS HIDING</em> IN CLAUDE'S LEAKED SYSTEM PROMPT",
+   "<em>THE LEAKED CLAUDE SYSTEM PROMPT</em> EXPOSED 7 HIDDEN PRODUCTS"
+  ],
+  "scores": [
+   8,
+   3,
+   7
+  ],
+  "winner": 0,
+  "why": "The '200K-CHARACTER' detail is bizarrely specific\u2014exactly the kind of weird credibility marker that makes you stop scrolling and think 'wait, is that real?' [2] is polished but sounds like corporate copy; [0] reads like an actual leak because it commits to concrete, strange numbers."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CLAUDE'S <em>200K-CHARACTER SYSTEM PROMPT LEAKED</em> AND REVEALED 7 PRODUCTS",
+   "<em>7 EXPENSIVE TOOLS</em> CLAUDE NOW REPLACES FOR FREE",
+   "<em>7 THINGS CLAUDE DOES FREE</em> THAT COST YOUR COMPANY MONEY",
+   "<em>7 CLAUDE FEATURES</em> MOST PEOPLE STILL DON'T KNOW EXIST"
+  ],
+  "scores": [
+   8,
+   4,
+   5,
+   6
+  ],
+  "winner": 0,
+  "why": "'LEAKED' has scandal shock that stops scrolling instantly. 'Features you don't know' has FOMO appeal but less stopping power than real scandal."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u00a73 \u2014 generated unknown face on cover. The tuxedo man is not a recognizable famous person; the rule is explicit: 'Never a generated unknown face.' Fixable: replace the figure with the Claude brand mark prominently styled, or a real Anthropic press-kit image. The floating app-icon treatment and Claude wordmark behind it already work \u2014 the unknown magician is the only violation.; COVER CONT"
+}

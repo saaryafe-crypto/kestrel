@@ -1,0 +1,9 @@
+Swipe through all 7 before closing this. Anthropic's leaked system prompt just exposed Claude products most users have never opened. 🔍
+
+Claude Code builds full apps from a plain-English command, Claude Cowork handles an entire knowledge workday for non-developers, Claude in Chrome browses and researches any website on demand, Claude in Excel builds spreadsheets and dashboards inside your open file, Claude in PowerPoint writes and designs complete decks through chat, Claude Design creates logos and mockups from a one-sentence description, Claude Tag lets any team member delegate a task to Claude directly inside Slack.
+
+Most Claude users open the chat window, type a question, and close the tab. The system prompt that leaked this week shows Anthropic built an entire product suite around the same AI, each one handling a job you are currently paying someone else to do. Running a business? DM us "AI" and we will show you what this could do for yours.
+
+Sources: Anthropic, elder_plinius
+
+#claude #ai #artificialintelligence #aitools #productivity
