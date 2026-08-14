@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "סם אלטמן אמר שאנחנו בסינגולריות. <em>שבע האמונות שהוא חי לפיהן הופכות הלילה לפרומפטים</em>",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-08-14-edu-7-sam-altman-interview-beliefs-as-ai-pro/gen-0.jpg",
+   "image_prompt": "Sam Altman at dark bar, sleeves rolled up, whiskey glass centered. Eyes hard with fierce conviction, jaw locked. OpenAI neon glows behind. Documentary flash, 35mm, natural texture, zero readable text."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>תאמין בעקומה</em> לפני שכולם רואים אותה",
+   "hsize": 110,
+   "body": "ChatGPT הגיע ל<b>100 מיליון משתמשים תוך 60 יום.</b> הפרומפט שלך: 'הראה לי איך שלוש פונקציות בעסק ה[סוג] שלי ייראו אם יכולות ה-AI ממשיכות להכפיל את עצמן כל 18 חודשים.'",
+   "media": "posts/2026-08-14-edu-7-sam-altman-interview-beliefs-as-ai-pro/gen-1.jpg",
+   "image_prompt": "A glowing exponential growth curve dominates a floor-to-ceiling monitor — the line dead flat for two-thirds of the screen, then rocketing steeply upward in the final third. A silhouetted human figure stands from behind at the base of the screen, dwarfed by the height of the final steep climb. Dark empty office, no other light source but the screen glow. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Zero readable text — the curve rendered as a single glowing electric blue line only, no axis labels, no numbers. Accent: electric blue curve against pitch-black room."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>תלמד לאהוב</em> את החלקים הכואבים",
+   "hsize": 112,
+   "body": "אלטמן אמר שהשבועות אחרי ההשקה הרגישו כאילו <b>יצא מקנה תותח.</b> הוא נשאר. הפרומפט שלך: 'אני מתמודד עם [בעיה]. מה הלחץ הזה מכריח אותי להבין?'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>סם אלטמן אמר</em> שאנחנו בסינגולריות",
+   "hsize": 104,
+   "body": "ChatGPT השיק <b>ב-2022 בלי אף משתמש משלם</b> והפך ל<b>חברה ששווה 300 מיליארד דולר</b> תוך שנתיים. הפרומפט שלך: 'הראה לי שני תרחישי AI לעסק שלי: איזה תפקיד ייעלם ואיזה הכנסה תיפתח?'",
+   "media": "posts/2026-08-14-edu-7-sam-altman-interview-beliefs-as-ai-pro/gen-3.jpg",
+   "image_prompt": "An abstract vertical bar graph rendered in neon lines against a pitch-black background, a single bar towering far above all others, a silhouetted figure standing before it appearing very small, keyed to cyan"
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>שמור על שלוש אמונות עמוקות.</em> תתעלם מהשאר",
+   "hsize": 108,
+   "body": "אלטמן דיבר על 'כמה אמונות עמוקות על העתיד.' OpenAI מעולם לא שינתה כיוון גם כשכל המתחרים שינו. הפרומפט שלך: 'מה שלוש האמונות המרכזיות שלי לגבי [הענף שלי]?'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>תעלה על המטוס</em> גם כשזה נראה גבולי",
+   "hsize": 108,
+   "body": "הכלל של אלטמן: לך לפגישות שנראות גבוליות. ההזדמנויות הטובות מסתתרות בדיוק איפה שהסיכויים נראים נמוכים. הפרומפט שלך: 'תרשום לי שלושה דברים שאני כנראה מזלזל בהם לגבי [ההזדמנות הזו].'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>תבקש בדיוק</em> מה שאתה רוצה",
+   "hsize": 112,
+   "body": "אלטמן אמר שזה המהלך שהכי פחות משתמשים בו: רוב האנשים מרככים את הבקשה ומקבלים תוצאה מרוככת. הפרומפט שלך: 'כתוב לי הודעה שאומרת בדיוק מה אני רוצה, עם שאלת כן או לא ברורה.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) <em>תזהה טרנדים אמיתיים</em> מהרעש",
+   "hsize": 112,
+   "body": "ב-2015 אלטמן עזב מסלול יציב כדי להמר על AI כשרוב האנשים עוד קראו לזה מדע בדיוני. טרנדים אמיתיים מופיעים קודם בדאטה. הפרומפט שלך: 'האם [הטרנד] הזה אמיתי או רעש לעסק שלי?'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>תשמור את זה.</em> תשתמש בפרומפט אחד הלילה",
+   "hsize": 96,
+   "body": "כל השבעה עובדים ב-Claude או ב-ChatGPT עכשיו. עקוב לחדשות AI יומיות וכישורים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "שבע אמונות מהראיון הכנה ביותר של סם אלטמן, כל אחת הפכה לפרומפט שאפשר להריץ הלילה 🧠\n\n1. תאמין בעקומה לפני שכולם רואים אותה 2. תלמד לאהוב את החלקים הכואבים 3. אנחנו בסינגולריות 4. שמור על שלוש אמונות עמוקות ותתעלם מהשאר 5. תעלה על המטוס גם כשזה נראה גבולי 6. תבקש בדיוק מה שאתה רוצה 7. תזהה טרנדים אמיתיים מהרעש\n\nאלטמן בנה את חברת ה-AI הכי שווה בעולם, ושבעת העקרונות האלה מופיעים בכל החלטה שהוא מקבל. הפער בין יזמים שחושבים ככה לבין אלה שעדיין מתכננים בצורה לינארית הולך וגדל. בעל עסק? שלח לנו 'AI' בדיירקט ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: ti_morse, OpenAI\n\nעקוב אחרי @ainews.israel לחדשות AI יומיות\n\n#AI #SamAltman #OpenAI #ArtificialIntelligence #Startup",
+ "pinned_comment": "איזה פרומפט אתה מנסה הלילה? שקופית 6, לבקש בדיוק מה שאתה רוצה, היא זו שרוב האנשים מעולם לא עשו בכתב. נסה אותה על הבקשה הגדולה הבאה שלך.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "SAM ALTMAN <em>REVEALED 7 MOVES</em> FOR THE AI ERA",
+   "SAM ALTMAN <em>SHARED 7 BELIEFS</em> WORTH STEALING",
+   "7 <em>SAM ALTMAN RULES</em> FOR WINNING THE AI ERA",
+   "<em>7 SAM ALTMAN BELIEFS.</em> ALL 7 ARE PROMPTS YOU CAN USE",
+   "<em>7 THINGS SAM ALTMAN BELIEVES</em> THAT MOST BUILDERS SKIP"
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   8,
+   7
+  ],
+  "winner": 3,
+  "why": "\"Prompts you can use\" tells you exactly what you're getting and why to stop—you swipe for concrete tools. \"Most skip\" creates FOMO but doesn't say what the actual payoff is."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
