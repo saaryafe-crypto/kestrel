@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 CLAUDE TOOLS BURIED</em> IN A 200,000-CHARACTER LEAKED PROMPT",
+   "kicker": "EXPOSED BY THIS WEEK'S SYSTEM PROMPT LEAK",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-14-edu-6-hidden-claude-products-revealed-in-the/gen-0.jpg",
+   "image_prompt": "Dario Amodei centered in frame mid-wrenching a massive vault door open, face blazing with dangerous revelation, six electric-blue orbs erupting outward into a dark underground server room, one orb stamped 'LEAKED', the Claude logo exactly as in the reference image glowing on the vault face above him \u2014 accent: electric blue against deep amber \u2014 documentary news photo, 35mm, harsh on-camera flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) CLAUDE COWORK</em> DOES YOUR WHOLE JOB FOR YOU",
+   "hsize": 104,
+   "body": "Anthropic's own leaked system prompt lists <b>Claude Cowork</b> as a desktop app built for people who don't code. It uses Claude's other tools under the hood and hands back finished work",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) CLAUDE TAG</em> TURNS SLACK INTO AN AI WORKER",
+   "hsize": 108,
+   "body": "The leaked prompt calls <b>Claude Tag</b> a Slack-based multiplayer interface. Anyone on your team types <b>@Claude</b> in a thread and delegates a task",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) A SECRET CLAUDE MODEL</em> SITS ABOVE OPUS 5",
+   "hsize": 104,
+   "body": "The leaked prompt confirms Anthropic's <b>Mythos tier</b>, a level above <b>Opus 5</b>. The first model, <b>Claude Mythos Preview</b>, is being tested by trusted organizations inside <b>Project Glasswing</b>",
+   "media": "posts/2026-08-14-edu-6-hidden-claude-products-revealed-in-the/gen-3.jpg",
+   "image_prompt": "A vertical column of five luminous spheres inside a dark secure server room, the topmost sphere hovering dramatically higher than the rest and radiating intense white-gold light above the others, no labels on any sphere, server racks in deep shadow, the Anthropic logo exactly as in the reference image glowing on the wall behind \u2014 accent: white-gold against deep indigo \u2014 documentary news photo, 35mm, harsh flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) CLAUDE IN CHROME</em> BROWSES THE WEB FOR YOU",
+   "hsize": 108,
+   "body": "Listed in Anthropic's own system prompt as a <b>browsing agent</b>. Claude opens real websites, reads them, and brings back the answer",
+   "media": "posts/2026-08-14-edu-6-hidden-claude-products-revealed-in-the/gen-4.jpg",
+   "image_prompt": "A laptop on a clean white desk, Chrome browser open showing six colored tab rectangles, a glowing electric-blue AI cursor caught mid-click between tabs with no hands near the keyboard, keyboard completely untouched below, the Google logo exactly as in the reference image on the laptop lid \u2014 accent: electric blue against white \u2014 documentary news photo, 35mm, harsh flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) CLAUDE DESIGN</em> BUILDS ANYTHING FROM ONE SENTENCE",
+   "hsize": 104,
+   "body": "The system prompt describes a <b>canvas with design tools</b> you iterate through chat. You describe what you want. Claude builds it on the canvas. One follow-up message changes anything",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>6) CLAUDE IN EXCEL AND POWERPOINT</em> EDITS YOUR FILES",
+   "hsize": 96,
+   "body": "Two separate agents, both confirmed in the prompt: one inside your <b>spreadsheet</b>, one inside your <b>slide deck</b>. Claude makes the edit directly in the file",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 116,
+   "body": "Save this so you know where to find each one. Daily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all six. Someone leaked Claude's full system prompt and it revealed tools Anthropic never announced publicly. \ud83d\udd13\n\nClaude Cowork, the desktop app where non-coders delegate entire jobs to AI, Claude Tag, the Slack interface where your whole team types @Claude and hands off tasks, Claude in Chrome, the browsing agent that navigates real websites for you, Claude in Excel and Claude in PowerPoint, separate agents that edit your actual files through chat, Claude Design, the canvas tool that builds finished work from one sentence, and Claude Mythos Preview, the model sitting above Opus 5 that only a handful of organizations can access right now under Project Glasswing.\n\nAnthropic built an entire suite of tools that turn Claude into a full team member, not just a chat window. Most people are still typing one question at a time. The ones who find these first are handing entire jobs to AI while everyone else waits.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: elder_plinius, Anthropic\n\n#AI #Claude #AITools #ArtificialIntelligence #AINews",
+ "pinned_comment": "Which one would change your workflow most? Claude Tag in Slack or Claude in Excel are the two most people are sleeping on.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 HIDDEN CLAUDE PRODUCTS <em>NOBODY KNEW EXISTED</em>",
+   "<em>6 CLAUDE TOOLS BURIED</em> IN A 200,000-CHARACTER LEAKED PROMPT",
+   "<em>THE LEAKED CLAUDE SYSTEM PROMPT</em> LISTS 6 PRODUCTS NOBODY USES YET",
+   "SOMEONE LEAKED CLAUDE'S SYSTEM PROMPT <em>AND EXPOSED 6 TOOLS INSIDE</em>",
+   "CLAUDE'S LEAKED SYSTEM PROMPT <em>REVEALS 6 SECRET PRODUCTS</em>"
+  ],
+  "scores": [
+   4,
+   8,
+   5,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "[1]'s 200,000-character detail is so specific it makes you go 'wait, WHAT?' and feels real. [3] just sounds like standard drama phrasing."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 CLAUDE TOOLS <em>DOING YOUR WHOLE JOB FOR YOU</em> MOST PEOPLE OVERLOOK",
+   "6 CLAUDE TOOLS <em>REPLACING YOUR ENTIRE WORKFLOW</em> NEVER ANNOUNCED",
+   "<em>6 CLAUDE TOOLS BURIED</em> IN A 200,000-CHARACTER LEAKED PROMPT"
+  ],
+  "scores": [
+   5,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] has 'leaked prompt' and a specific 200,000-character detail\u2014that's the only one that sounds like actual exclusive intel, not marketing. [1] and [0] are generic tools-and-productivity stuff you've seen a thousand times."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on cover: the man prying open the Claude vault is not a recognizable famous person to a general audience. Even if intended to be Dario Amodei, the depiction is not identifiable at feed size by a 16-year-old target viewer. IMAGE LAW is explicit: 'Never a generated unknown face.' Fix: regenerate cover with a clearly identified famous face (named generation of Dario"
+}

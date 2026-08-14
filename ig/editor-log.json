@@ -1,47 +1,5 @@
 [
  {
-  "t": "2026-08-10T18:10:51Z",
-  "gate": "A",
-  "subject": "BREAKING: SpaceX, $SPCX, officially rises back above its IPO price, now up +30% in 3 days.",
-  "verdict": "KILL",
-  "reason": "Stock price movement with no person, no felt consequence, no story—exactly the 'stocks-rose-today' format explicitly banned in §1 (ON-TOPIC BUT ROUTINE)."
- },
- {
-  "t": "2026-08-10T18:11:18Z",
-  "gate": "A",
-  "subject": "China's Long March 7A has exploded during first stage flight.",
-  "verdict": "KILL",
-  "reason": "One thin fact with zero second details, numbers, or consequence—the writer would have to source-hunt rather than tell a story that already exists."
- },
- {
-  "t": "2026-08-10T18:11:53Z",
-  "gate": "A",
-  "subject": "BREAKING: Crude oil inventories in the US Strategic Petroleum Reserve officially fall below 300 million barrels for the ",
-  "verdict": "KILL",
-  "reason": "Routine commodity market data with no human story, consequence, or substance — banned format (ON-TOPIC BUT ROUTINE, NO SUBSTANCE)."
- },
- {
-  "t": "2026-08-10T18:12:14Z",
-  "gate": "A",
-  "subject": "The Jetson ONE personal air vehicle. Price: $128,000",
-  "verdict": "KILL",
-  "reason": "Product-spec announcement with no event, no person, no consequence—just a 52-character thin fact; instant fail on NO SUBSTANCE and ON-TOPIC-BUT-ROUTINE; writer would have to pad; scout score of 2 confirms it's not a story."
- },
- {
-  "t": "2026-08-10T18:12:39Z",
-  "gate": "A",
-  "subject": "Before Robert Pattinson became one of Hollywood’s biggest stars, he admitted to inventing a far more prestigious backgro",
-  "verdict": "KILL",
-  "reason": "Celebrity gossip with zero real-world consequence—a famous actor's pre-fame lie that he later admitted, sourced from a meme account, completely off-brand for @technology/@getintoai/@techskills, and the scout correctly rated it 0/10."
- },
- {
-  "t": "2026-08-10T18:13:03Z",
-  "gate": "A",
-  "subject": "Literally What you Imagine Can be made real",
-  "verdict": "KILL",
-  "reason": "One thin tweet with no facts, numbers, or real-world consequence—no story to build slides from."
- },
- {
   "t": "2026-08-10T18:13:28Z",
   "gate": "A",
   "subject": "🇨🇳 China isn't f*cking around when it comes to mosquitoes Writer: Ian",
@@ -2098,5 +2056,47 @@
   "subject": "7 THINGS ZERO-CODERS BUILT WITH GROK 4.6, INCLUDING <em>A 4D HOLOGRAPHIC WEDDING WEBSITE</em>.",
   "verdict": "REJECT",
   "reason": "COVER IMAGE — CAST TRUTH FAILURE: The cover subject is Elon Musk, a recognizable famous person who plays zero role in this story. The story is about anonymous zero-coders building things with Grok 4.6. Musk is celebrity decoration. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' His ownership of xAI does not make h"
+ },
+ {
+  "t": "2026-08-14T07:03:19Z",
+  "gate": "A",
+  "subject": "In making 𝕏 open source, we are actively seeking criticism to improve fairness and quality of algorithmic recommendation",
+  "verdict": "KILL",
+  "reason": "One thin announcement tweet with zero real-world consequence, no substantive facts, and no outcome to build slides from—it's the exact on-topic-but-routine launch preview the doctrine bans, and scout interest at 4/10 has no exceptional reason to override that."
+ },
+ {
+  "t": "2026-08-14T07:03:27Z",
+  "gate": "A",
+  "subject": "ChatGPT can now remember your activity across the apps and websites on your computer. With Computer History in the deskt",
+  "verdict": "KILL",
+  "reason": "Feature announcement lacking real-world consequence, person, or impact—routine company news, not a viral-specific event."
+ },
+ {
+  "t": "2026-08-14T07:03:32Z",
+  "gate": "A",
+  "subject": "\"Canadians spent more on taxes than basic necessities in 2025,\" per Toronto Sun",
+  "verdict": "KILL",
+  "reason": "No specific event or person acting—just a statistical claim in a 79-character tweet with no numbers, consequence, or story to build from, exactly the no-substance shape the doctrine forbids."
+ },
+ {
+  "t": "2026-08-14T07:04:03Z",
+  "gate": "A",
+  "subject": "Gemini 3.7 Flash is here. It’s stronger for coding, knowledge work, and web development. 🧵",
+  "verdict": "KILL",
+  "reason": "Routine launch announcement with zero substance — no real person, no consequence, no second fact, and a one-line source that requires padding; this is on-topic-but-routine coverage (explicitly banned) with no story spine to build."
+ },
+ {
+  "t": "2026-08-14T07:04:06Z",
+  "gate": "A",
+  "subject": "𝕏 is the most transparent platform on the internet. I was able to see if my account or posts were being suppressed, unde",
+  "verdict": "KILL",
+  "reason": "This is a feature how-to without real consequence or event—a user documenting their experience with X's transparency tools, not a story with stakes."
+ },
+ {
+  "t": "2026-08-14T07:36:37Z",
+  "gate": "B",
+  "subject": "<em>6 CLAUDE TOOLS BURIED</em> IN A 200,000-CHARACTER LEAKED PROMPT",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — generated unknown face on cover: the man prying open the Claude vault is not a recognizable famous person to a general audience. Even if intended to be Dario Amodei, the depiction is not identifiable at feed size by a 16-year-old target viewer. IMAGE LAW is explicit: 'Never a generated unknown face.' Fix: regenerate cover with a clearly identified famous face (named generation of Dario"
  }
 ]

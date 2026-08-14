@@ -1,0 +1,11 @@
+Swipe for all six. Someone leaked Claude's full system prompt and it revealed tools Anthropic never announced publicly. 🔓
+
+Claude Cowork, the desktop app where non-coders delegate entire jobs to AI, Claude Tag, the Slack interface where your whole team types @Claude and hands off tasks, Claude in Chrome, the browsing agent that navigates real websites for you, Claude in Excel and Claude in PowerPoint, separate agents that edit your actual files through chat, Claude Design, the canvas tool that builds finished work from one sentence, and Claude Mythos Preview, the model sitting above Opus 5 that only a handful of organizations can access right now under Project Glasswing.
+
+Anthropic built an entire suite of tools that turn Claude into a full team member, not just a chat window. Most people are still typing one question at a time. The ones who find these first are handing entire jobs to AI while everyone else waits.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: elder_plinius, Anthropic
+
+#AI #Claude #AITools #ArtificialIntelligence #AINews
