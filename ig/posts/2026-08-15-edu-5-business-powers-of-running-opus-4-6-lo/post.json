@@ -1,0 +1,92 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "RUNNING OPUS 4.6 ON YOUR OWN MACHINE <em>DOES FIVE THINGS CHATGPT CHARGES YOU $1,000 A MONTH FOR</em>, FOR FREE",
+   "kicker": "ZERO API BILL. ZERO LIMITS.",
+   "hsize": 70,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-15-edu-5-business-powers-of-running-opus-4-6-lo/gen-0-r.jpg",
+   "image_prompt": "Waist-up person triumphantly holding open glowing ChatGPT-interface laptop with both hands toward camera in garage workshop, shredded credit cards on bench. Warm amber light, scattered tools background, documentary photo style, harsh flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>PROCESS EVERY DOCUMENT YOU OWN</em> FOR $0",
+   "body": "CLOUD AI CHARGES PER WORD PROCESSED. LOCAL OPUS 4.6 MAKES THAT BILL ZERO.\n\nBusinesses doing high-volume document work pay over <b>$1,000 a month</b> in token fees, local Opus 4.6 costs zero per word.",
+   "hsize": 98,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) PROCESS YOUR PRIVATE FILES <em>WITHOUT SENDING THEM ANYWHERE</em>",
+   "body": "CLOUD AI SENDS EVERY FILE YOU PASTE TO A THIRD-PARTY SERVER.\n\n<b>HIPAA</b> rules have locked medical practices out of cloud AI, local Opus 4.6 keeps patient records on your own machine.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>RUN THE WHOLE JOB OVERNIGHT</em> WITH NO CUTOFF",
+   "body": "A LOCAL MODEL HAS NO METER AND NO CUTOFF.\n\nHit the <b>API rate ceiling</b> at midnight and the job waits until morning, local Opus 4.6 runs until every row is done.",
+   "hsize": 94,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>LOCK YOUR BUSINESS VOICE IN</em> PERMANENTLY",
+   "body": "LOADING A SYSTEM PROMPT ON CLOUD AI COSTS PAID TOKENS EVERY CALL.\n\nLocal Opus 4.6 loads your full voice guide <b>once</b> and uses it on every job after that for free.",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>TAKE IT ANYWHERE WITH NO WIFI</em>",
+   "body": "CLOUD AI GOES DARK THE SECOND THE WIFI DOES.\n\nRemote job sites, offshore vessels, warehouses with no signal: anywhere your team has a <b>power outlet</b>, local Opus 4.6 still answers questions.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "body": "You will want these prompts the night you try it. Save this post.\n\nDaily AI news and real skills",
+   "hsize": 110,
+   "media": null
+  }
+ ],
+ "caption": "Swipe through these. Five things your business can do when Opus 4.6 max runs on your own machine with no API bill. \ud83d\udda5\ufe0f\n\nZero cost on unlimited documents, confidential files that never leave your building, bulk jobs running all night with no rate cap, your business voice loaded permanently at no per-call cost, and a model that keeps working on a flight or a remote job site with no wifi.\n\nOpus 4.6 running locally is the first time a model at this level worked on personal hardware. The economics just flipped. For any team doing high-volume or sensitive work, the cost floor just hit zero.\n\nRunning a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Anthropic\n\n#AI #AItools #ClaudeAI #BusinessAutomation #LocalAI",
+ "pinned_comment": "Which of these would your business use first? Slide 4 is the one most people sleep on: load your voice guide once and every output sounds like you, on every single job, forever.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>THE MOST POWERFUL AI</em> JUST STARTED RUNNING ON HOME COMPUTERS",
+   "YOUR MONTHLY AI BILL <em>JUST BECAME OPTIONAL</em> IF YOU DO THIS"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] hits your wallet directly and creates instant 'how do I do this?' urgency, while [0] sounds like generic tech hype that doesn't tell you what's actually in it for you."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 FREE AI SKILLS <em>MOST PEOPLE PAY FOR MONTHLY</em>",
+   "YOUR MONTHLY AI BILL <em>JUST BECAME OPTIONAL</em> IF YOU DO THIS",
+   "5 AI TRICKS <em>YOUR FILES NEVER LEAVE YOUR DEVICE</em>",
+   "5 FREE AI TRICKS <em>CHATGPT CHARGES FOR</em>"
+  ],
+  "scores": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "winner": 3,
+  "why": "[3] leads with universal appeal\u2014free tools vs. a brand you already know charges for them\u2014that hits in one read. [2] is compelling but privacy feels less urgent than money when you're tired at 2am."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (6/10)",
+ "editor_override": "IMAGE LAW \u00a73 \u2014 Generated unknown face on cover: the man holding the laptop is a generated unknown person. The doctrine explicitly bans 'generated unknown face.' Replace with a recognizable famous face in the story situation or a brand-mark-only cover (Anthropic/Claude logo on screen, no human stand-in).; STORYTELLING LAW \u00a74 / HUMAN VOICE LAW \u00a77 \u2014 Every content slide body opens with an ALL-CAPS sho",
+ "topic_source": "news-anchored"
+}
