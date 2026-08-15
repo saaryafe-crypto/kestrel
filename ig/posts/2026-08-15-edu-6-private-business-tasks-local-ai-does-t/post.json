@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR COMPETITORS ARE QUIETLY RUNNING 6 AI TASKS ON THEIR OWN COMPUTERS <em>WITHOUT SHARING ANYTHING</em>",
+   "kicker": "No cloud, no cost, runs tonight",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-15-edu-6-private-business-tasks-local-ai-does-t/gen-0-r.jpg",
+   "image_prompt": "Figure waist-up inside brushed-steel vault gripping glowing laptop toward camera, wide grin, open padlock on door, symbols on wall. Documentary photo, 35mm, harsh flash, natural texture, film grain. Electric blue laptop glow against warm amber."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) REVIEW YOUR CONTRACTS</em> WITHOUT SHARING THEM",
+   "hsize": 100,
+   "body": "A contract lawyer bills <b>$300 an hour</b> and supplier agreements typically take two hours to review. Your local AI reads it in under a minute, the document never touching a server outside your desk. <b>Try this \u2192</b> \"Review this contract. List every clause that could increase my costs or limit my rights, and flag anything unusual or one-sided.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) FIND WHERE YOUR MONEY</em> IS LEAKING",
+   "hsize": 104,
+   "body": "Financial consultants charge <b>$200 an hour</b> to run an expense audit. Feed three months of bank exports into local AI and it flags waste in <b>90 seconds</b>, financial data never uploaded. <b>Try this \u2192</b> \"Here are 3 months of transactions. Group recurring charges, flag any over $50 appearing more than once, and list the top 5 costs I should cut.\"",
+   "media": "posts/2026-08-15-edu-6-private-business-tasks-local-ai-does-t/gen-2.jpg",
+   "image_prompt": "Two hands at a laptop showing a green-tinted data grid, bold red warning triangles flagging several rows, a crumpled dollar-sign receipt curling off the desk edge as if sliding away. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: signal red triangle against deep green grid."
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) FIND WHAT YOUR CUSTOMERS</em> ACTUALLY HATE",
+   "hsize": 104,
+   "body": "A customer insight report from a consultant costs <b>$2,000 or more</b>. Feed the last 30 days of emails into local AI and every repeated complaint ranks itself in seconds, names never leaving your machine. <b>Try this \u2192</b> \"Here are 30 days of customer emails. List every repeated complaint ranked by frequency. Give me the top 5 with a suggested fix for each.\"",
+   "media": "posts/2026-08-15-edu-6-private-business-tasks-local-ai-does-t/gen-3.jpg",
+   "image_prompt": "Two hands scrolling a laptop showing a dense inbox-row grid, bold red X symbols slashed across several rows, a ruled notebook with scrawled line marks open beside the keyboard under warm amber overhead light. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: slashed red against muted amber."
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) MAP EVERY COMPETITOR'S</em> WEAKNESS TONIGHT",
+   "hsize": 108,
+   "body": "Market research agencies charge <b>$3,000 or more</b> for a competitor gap report and take weeks. Paste three competitor sites into local AI and the full breakdown arrives in <b>4 minutes</b>, pricing strategy never shared. <b>Try this \u2192</b> \"Here are 3 competitor websites. For each, list their three weakest points based on their own copy. Where does my offer beat each one?\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) BUILD YOUR FULL HIRING</em> PROCESS IN 8 MINUTES",
+   "hsize": 98,
+   "body": "HR consultants charge <b>$150 an hour</b> to design a hiring system from scratch. This prompt builds the job post, interview questions, and scoring rubric in one go, salary details never leaving your machine. <b>Try this \u2192</b> \"Build a complete hiring system for [role]: job post, 10 interview questions with a 1, 5 scoring rubric, and a red-flag checklist.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>6) STRESS-TEST YOUR NUMBERS</em> BEFORE SHOWING INVESTORS",
+   "hsize": 94,
+   "body": "A fractional CFO bills <b>$200 an hour</b> to pressure-check projections before a pitch. Run the same stress test on your own machine the night you write the deck, revenue assumptions never leaving the room. <b>Try this \u2192</b> \"Here are my revenue projections. Find the 3 assumptions most likely to be wrong. Show what happens to the total if each drops 30%.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR WHEN YOUR DATA NEEDS TO STAY PRIVATE",
+   "hsize": 84,
+   "body": "The most powerful AI just moved to your own computer. These prompts work from your first session. Daily AI news and real skills that work tonight",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. The best AI runs on your own computer now, and these 6 prompts use it to handle work your business has been paying thousands to outsource. \ud83d\udd12\n\nContract review that catches the clauses lawyers miss, a full financial leak audit without sending a single spreadsheet to the cloud, a 30-day customer complaint breakdown ranked by frequency, competitor gap maps from three websites in one prompt, a complete hiring process built in 8 minutes, and a pre-pitch stress test of your revenue projections. All six run privately on your own machine.\n\nThe same AI behind six-figure consulting bills now fits on a laptop. Business owners who figure out the private prompts first stop paying for work they can do in minutes. Running a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#AI #AItools #BusinessAutomation #ArtificialIntelligence #AIforBusiness",
+ "pinned_comment": "Which one are you running first? Slide 3 is the one most business owners wish they had tried 6 months ago.",
+ "hook_tournament": {
+  "candidates": [
+   "PEOPLE ARE QUIETLY <em>RUNNING POWERFUL AI</em> ON THEIR OWN COMPUTERS"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "PEOPLE ARE QUIETLY <em>RUNNING POWERFUL AI</em> ON THEIR OWN COMPUTERS",
+   "YOUR COMPETITORS ARE QUIETLY RUNNING 6 AI TASKS ON THEIR OWN COMPUTERS <em>WITHOUT SHARING ANYTHING</em>",
+   "<em>6 BUSINESS TASKS</em> AI NOW DOES FOR FREE WITHOUT ANYONE SEEING YOUR DATA"
+  ],
+  "scores": [
+   4,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] triggers competitive urgency\u2014your competitors are ahead and you don't know what they're doing\u2014while [2] just offers a tool; the 'wait, WHAT am I missing?' gut punch in [1] stops the scroll, but [0] is too generic to care."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on cover. The man holding the MacBook in the vault is not a recognizable famous person; he is a generated generic businessman. The Doctrine is explicit: 'Never a generated unknown face.' Fix: regenerate the cover without a human figure \u2014 the vault + glowing laptop + lock iconography alone tells the privacy/local-AI story and passes the thumb test, or swap in a cl",
+ "topic_source": "news-anchored"
+}
