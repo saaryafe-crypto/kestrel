@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-12T11:31:41Z",
-  "gate": "A",
-  "subject": "https://t.co/UnPb7HvXfF",
-  "verdict": "KILL",
-  "reason": "Scout interest 2/10 with no exceptional override, and the source is a bare link with zero context—cannot evaluate against STORY LAW; if this is thin-tweet substance or Elon-reaction-bait, it dies here anyway."
- },
- {
   "t": "2026-08-12T11:31:47Z",
   "gate": "A",
   "subject": "\"Long term, probably in four or five years, AI will be 99% of the value of SpaceX. I'd say five years for sure, AI will ",
@@ -2098,5 +2091,12 @@
   "subject": "MENGTO OPEN-SOURCED <em>EVERY PROMPT AND TOOL</em> FROM HIS 40-MINUTE TUTORIAL ON ANIMATED SITES MOST DESIGNERS CHARGE T",
   "verdict": "REJECT",
   "reason": "IMAGE LAW §3 — generated unknown face on cover. The doctrine bans 'a generated unknown face' and 'a generated fake face standing in for a real non-famous person.' MengTo (@MengTo) is a real actor in this story but is not a universally recognizable celebrity — a stranger scrolling past cannot identify this person at feed size. Fix: replace with a real photo of MengTo, a screen-recording frame of an"
+ },
+ {
+  "t": "2026-08-15T14:26:47Z",
+  "gate": "A",
+  "subject": "This is really the best argument on why the Israeli intel that caused the Great Catering Truck Escape was probably bogus",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: a single thin tweet offering opinion on intel credibility with no real event, verifiable consequence, or substance—just commentary on an argument about something, with an obscure unexplained reference requiring prior knowledge."
  }
 ]
