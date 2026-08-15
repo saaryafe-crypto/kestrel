@@ -86,7 +86,7 @@ def real_tag(topic, guides):
     return bool(m) and m.group(1) in {str(g.get("id")) for g in guides}
 
 
-def build_prompt(used_topics, headlines="", guides=()):
+def build_prompt(used_topics, headlines="", guides=(), must_anchor=False):
     spec = json.load(open(os.path.join(HERE, "containers.json")))
     used = "\n".join(f"- {t}" for t in used_topics) or "(none yet)"
     vol = len(used_topics) + 1  # franchise volume number (audit Jul 29)
@@ -144,7 +144,17 @@ def build_prompt(used_topics, headlines="", guides=()):
                        "overlaps ALREADY USED — then take the next candidate. "
                        "Self-inventing a topic while candidates sit here gets "
                        "the post flagged to the owner.\n")
-    tips_block = (f"""
+    if must_anchor:
+        # Aug 15 fix (3 self-invented posts Aug 13-15 while the pool was
+        # exhausted): an empty guide pool must NOT mean invention — the
+        # news stories below are all watchlist-viral, so riding one keeps
+        # the owner's ground rule alive. Optional became MANDATORY.
+        tips_block = f"""
+TODAY'S NEWS — MANDATORY anchor (the viral-guide pool is empty, and this page NEVER invents a topic — owner GROUND RULE Aug 12: everything rides an ALREADY-VIRAL X wave): build the guide ON one of these live stories — real utility a business owner can use tonight, born from the story ("GPT-5 dropped yesterday — 5 things it already does for your business"). Name the story inside your "topic" label as the why-now. If a story cannot carry genuine utility, take the next one; picking a pillar topic with no story anchor gets the post flagged to the owner.
+{headlines}
+"""
+    else:
+        tips_block = (f"""
 TODAY'S NEWS — optional anchors: a guide that piggybacks a live story rides its wave ("GPT-5 dropped yesterday — 5 things it already does for your business"). Use one ONLY if you can build genuine utility on it; never force it:
 {headlines}
 """ if headlines else "")
@@ -204,6 +214,9 @@ def main():
     except Exception:
         pass
     guides = viral_guides(used)
+    # pool empty + live viral stories -> anchoring on one is mandatory
+    # (Aug 15: self-inventing is the LAST rung, not the first fallback)
+    must_anchor = not guides and bool(headlines)
     if guides:
         print(f"viral X guides on the radar: "
               + ", ".join(f"@{g['sub']} ({g.get('score', 0):,} likes)"
@@ -213,10 +226,13 @@ def main():
         # UNACCEPTABLE — the wide guide net (radar_x) should keep guides.json
         # deep. Ship the slot (always-post law) but scream so the daily
         # report names it and the pool starvation gets fixed at the source.
-        print("WARNING: guide pool EMPTY — writer will self-invent a topic "
-              "(owner: unacceptable; check radar wide guide net / guides.json)",
+        print("WARNING: guide pool EMPTY — "
+              + ("writer must anchor on a viral news story"
+                 if must_anchor else "writer will self-invent a topic "
+                 "(owner: unacceptable; check radar wide guide net / "
+                 "guides.json)"),
               file=sys.stderr)
-    prompt = build_prompt(used, headlines, guides)
+    prompt = build_prompt(used, headlines, guides, must_anchor)
     # 2 rolls, not 3 (token diet Aug 8): the workflow ladder re-runs edu.py
     # fresh as its last rung anyway, so a third in-process roll is redundant.
     def edu_qa(p):  # shared qa + this container's own gate, one verdict
@@ -292,7 +308,8 @@ def main():
                       "one — re-rolling", file=sys.stderr)
         if not errs:
             break
-        prompt = (build_prompt(used, headlines, guides)
+        must_anchor = must_anchor or (not guides and bool(headlines))
+        prompt = (build_prompt(used, headlines, guides, must_anchor)
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
     else:
@@ -473,7 +490,9 @@ def main():
                   "report: " + "; ".join(reasons), file=sys.stderr)
 
     if not guides:  # flag rides in post.json so daily.py names the post
-        post["topic_source"] = "self-invented"
+        # news-anchored = still riding a viral wave (compliant, informational);
+        # self-invented = both sources empty, the true last rung (flagged)
+        post["topic_source"] = "news-anchored" if must_anchor else "self-invented"
     elif not real_tag(topic, guides):
         # survived the re-roll and still ignored the pool — ship it
         # (always-post law) but the daily report names it to the owner

@@ -75,7 +75,13 @@ N_THREAD_MINE = 3          # top guide moments get the author's OWN thread
 # strips them before radar.json), never the news radar.
 GUIDE_SEARCH_EVERY_H = 24  # once/day; ~80 reads (~$0.015/day)
 GUIDE_SEARCH_FLOOR = 2000  # proven-viral only — higher bar than watchlist
-GUIDE_SEARCH_AGE_D = 21    # guides stay postable for weeks
+GUIDE_SEARCH_AGE_D = 5     # SEARCH window only — pool retention is separate.
+                           # Aug 15: was 21; "Top" over 3 weeks returned the
+                           # same giants every day (Aug 13's query rotation
+                           # alone still netted ~2 new/day vs 3-7 consumed,
+                           # so 3 posts self-invented Aug 13-15). A 5-day
+                           # window surfaces THIS week's winners; guides
+                           # already caught stay in the pool regardless.
 N_WIDE_GUIDE = 16          # top wide guides per day, 1/account
 # Aug 13 pool-exhaustion post-mortem: the same 3 fixed queries over the same
 # 21-day window returned the same top tweets every day — after day one the
