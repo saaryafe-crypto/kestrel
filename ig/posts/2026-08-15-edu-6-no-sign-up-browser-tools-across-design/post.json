@@ -1,0 +1,87 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 APPS YOU'RE PAYING FOR</em> THAT ARE ALREADY FREE",
+   "kicker": "MOST PEOPLE HAVE NO IDEA",
+   "hsize": 72,
+   "face": "none",
+   "media": "posts/2026-08-15-edu-6-no-sign-up-browser-tools-across-design/gen-0-r.jpg",
+   "image_prompt": "Two hands cutting through six app-interface cards with scissors, one marked with FREE symbol; gold coins spraying from cut, wrists-only framing, deep indigo background, electric orange underlighting; documentary news photo, 35mm film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>EDIT ANY PHOTO</em> LIKE PHOTOSHOP FOR FREE",
+   "body": "People pay <b>$250 a year</b> for Photoshop. Photopea does the same thing in a browser tab: layers, RAW files, masks, and PSD exports, with no account.\n\n<b>Go to photopea.com.</b> Open any image file.",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>FORMAT AND FIX</em> ANY CODE FOR FREE",
+   "body": "IT-Tools is a free site with over <b>60 developer utilities</b> in one browser page: JSON formatters, UUID generators, Base64 encoders, and regex testers.\n\n<b>Go to it-tools.tech.</b> Search for any tool and use it.",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>DITCH YOUR $150</em> WHITEBOARD APP",
+   "body": "Miro and Mural charge up to <b>$150 a year</b>. Excalidraw runs in your browser with no account and generates a link your whole team opens instantly without signing up.\n\n<b>Go to excalidraw.com.</b> Start drawing.",
+   "hsize": 108,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>CHECK IF YOUR EMAIL</em> WAS STOLEN IN A BREACH",
+   "body": "Over <b>13 billion accounts</b> have been exposed in data breaches. Have I Been Pwned checks your email against every known leak and names which breach it was in.\n\n<b>Go to haveibeenpwned.com.</b> Type your email.",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>RUN AI TOOLS FOR FREE</em> WITHOUT AN ACCOUNT",
+   "body": "Hugging Face Spaces hosts thousands of AI tools that run in a browser tab: image generators, background removers, voice tools, and text editors. Most need <b>zero sign-up</b>.\n\n<b>Go to huggingface.co/spaces.</b> Search any AI task.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>TAKE MIT COURSES</em> FOR NOTHING",
+   "body": "MIT puts every lecture, problem set, and note from its real courses online for anyone, the same material students pay <b>$60,000 a year</b> in tuition to access.\n\n<b>Go to ocw.mit.edu.</b> Search any subject.",
+   "hsize": 108,
+   "media": "posts/2026-08-15-edu-6-no-sign-up-browser-tools-across-design/gen-6.jpg",
+   "image_prompt": "Laptop on a wooden desk: a browser showing stacked blurred lecture-note thumbnails and problem-set document icons, a glowing open padlock symbol in one corner signaling free access, no readable text; accent: deep crimson against academic cream. Documentary news photo, 35mm, harsh flash, film grain."
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "body": "You will want these when you need them. Save this post so you can find them.\n\nDaily AI news and real skills",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see all 6. These work in your browser right now, no email, no password, no account needed. \ud83d\udd16\n\nPhotopea for full Photoshop-level photo editing, IT-Tools for 60 plus developer utilities, Excalidraw for free team whiteboards, Have I Been Pwned for data breach checks, Hugging Face Spaces for no-login AI tools, MIT OpenCourseWare for full university courses from real professors.\n\nMost people pay monthly for tools that already exist free in their browser. The shift is not which AI to buy. It is realizing how much is already out there, free and ready.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: stellarprtcol, Photopea, IT-Tools, MIT OpenCourseWare, Have I Been Pwned, Hugging Face\n\n#FreeTools #AITools #ProductivityTools #LearnForFree #BuildWithAI",
+ "pinned_comment": "Which one are you trying tonight? Most people have never heard of Photopea on slide 2, and it does everything Photoshop does for free.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 FREE THINGS YOUR BROWSER</em> DOES WITHOUT ANY SIGN-UP",
+   "<em>6 THINGS YOU CAN DO ONLINE</em> WITHOUT MAKING AN ACCOUNT",
+   "<em>6 FREE BROWSER TOOLS</em> WITH NO ACCOUNT NEEDED",
+   "<em>6 TOOLS YOUR BROWSER</em> CAN RUN FREE WITH ZERO SIGN-UP",
+   "<em>6 FREE TOOLS THAT OPEN</em> IN YOUR BROWSER RIGHT NOW"
+  ],
+  "scores": [
+   6,
+   7,
+   5,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] hits hardest with 'RIGHT NOW'\u2014it's urgency and immediacy, making you feel you can do something THIS SECOND without friction. [1] is solid and practical, but it sounds like helpful advice; [4] sounds like an offer you'd regret scrolling past."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Cover image shows the branded logos of Spotify, Apple Music, Netflix, Amazon Prime, and Disney+ being cut by scissors. None of those five services appear anywhere in the post's actual six tools (Photopea, IT-Tools, Excalidraw, Have I Been Pwned, Hugging Face Spaces, MIT OCW). A feed scroller who stops on this cover will expect a post about free alternatives to Netflix and Spotify; they swipe into "
+}
