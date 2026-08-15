@@ -1,47 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "No substance — the entire source is a single claim with no event, no consequence, no second fact, and no numbers; the writer would have to pad with background research to fill slides, violating the no-substance instant-kill rule.",
-  "subject": "And the only system that can support the insanely fast bandwidth growth needed by AI is Starlink",
-  "t": "2026-08-12T07:02:15Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "This is an AI research announcement, not a viral-specific event with a human protagonist and a felt consequence — on-topic but routine, and the 3/10 scout score offers no exceptional case to override.",
-  "subject": "Absolutely insane. This might be the clearest glimpse yet of how AI will transform scientific discovery. Anthropic asked",
-  "t": "2026-08-12T07:03:09Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One thin tweet with no actual event—just a speculative claim ('Imagine standing...') and engagement metrics; no consequence, no second fact, no proof of the alleged demonstration; nothing to build slides from.",
-  "subject": "Imagine standing at the North Pole and connecting to Wi-Fi. This is one of the most incredible demonstrations of @Starli",
-  "t": "2026-08-12T07:03:34Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "Hook is a banned label/aphorism headline. '6 AI PROMPTS MOST FOUNDERS FIND AFTER IT'S TOO LATE' is a noun phrase naming a list — no actor, no action, no consequence. §2 requires ONE complete sentence that tells the whole story (actor + what happened + wild specifics) and explicitly bans label headlines. At 10 words it also falls under the 12-word floor. Fix: rewrite as a complete declarative sente",
-  "subject": "6 AI PROMPTS MOST FOUNDERS <em>FIND AFTER IT'S TOO LATE</em>",
-  "t": "2026-08-12T07:48:33Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "",
-  "subject": "MOST FOUNDERS BUILD FOR MONTHS BEFORE RUNNING THE <em>6 AI PROMPTS THAT WOULD HAVE KILLED THE IDEA IN AN HOUR</em>",
-  "t": "2026-08-12T07:50:46Z",
-  "verdict": "APPROVE"
- },
- {
-  "t": "2026-08-12T11:31:35Z",
-  "gate": "A",
-  "subject": "Moonbase Alpha will be so cool. And we want to make it so that anyone can go to the Moon if they want.",
-  "verdict": "KILL",
-  "reason": "Announcement of a future aspiration with no actual event, outcome, or substance — fails §1 core requirement that 'something HAPPENED in the real world.'"
- },
- {
   "t": "2026-08-12T11:31:41Z",
   "gate": "A",
   "subject": "https://t.co/UnPb7HvXfF",
@@ -2098,5 +2056,47 @@
   "subject": "He forgot to mention how Israel uses AI to create spyware technology and automate their drone strikes",
   "verdict": "KILL",
   "reason": "Reaction-bait with zero substance: a single uncontextualized accusation ('He forgot to mention...') with no named actor, no incident, no numbers, no proof, and no real-world consequence—the entire source is 101 characters and would require fabrication to fill even one slide."
+ },
+ {
+  "t": "2026-08-15T12:05:08Z",
+  "gate": "A",
+  "subject": "BREAKING: Jane Street posted a $15 billion loss in July amid the collapse of Situational Awareness, per FT. The firm dis",
+  "verdict": "KILL",
+  "reason": "Financial disclosure news (firm reports loss, restructures debt) — on-topic but routine, explicitly banned; lacks narrative explaining what Situational Awareness is or why it collapsed, leaving readers needing outside context to even understand the story."
+ },
+ {
+  "t": "2026-08-15T12:05:16Z",
+  "gate": "A",
+  "subject": "So yeah, you can now run Opus 4.6 max locally. Just let that sink in.",
+  "verdict": "KILL",
+  "reason": "Single-sentence source with no second fact, consequence, or specifics—writer would need to pad substantially; reads as reaction-bait (likes as substance) with no real event or actor named."
+ },
+ {
+  "t": "2026-08-15T12:05:17Z",
+  "gate": "A",
+  "subject": "Grok 4.6 ranks #1 on CursorBench for real-world coding",
+  "verdict": "KILL",
+  "reason": "Routine announcement (banned category) with no substance—54-character source, no second fact, no numbers, no consequence; the writer would have to pad and no 16-year-old sends this to a friend."
+ },
+ {
+  "t": "2026-08-15T12:05:59Z",
+  "gate": "A",
+  "subject": "“My favorite enterprise AI service is Cursor. It is an AI coder &amp; every one of our engineers, 100% is now assisted b",
+  "verdict": "KILL",
+  "reason": "On-topic but routine—a single executive endorsement with no measurable outcome, no numbers for 'productivity up', and no real-world event or consequence; this is promotional testimonial, not a story."
+ },
+ {
+  "t": "2026-08-15T13:23:49Z",
+  "gate": "B",
+  "subject": "THE <em>6 FREE RESOURCES</em> THAT MAKE CLAUDE BUILD WHAT MOST PEOPLE PAY DESIGNERS FOR",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — Cover features a generated unknown face. The man with glasses in a surprised expression is not a recognizable famous person; he is a fabricated generic face. Image Law is explicit: 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' Fix: regenerate the cover centered on the Claude logo + laptop screen showing a real animated output (n"
+ },
+ {
+  "t": "2026-08-15T13:26:51Z",
+  "gate": "B",
+  "subject": "MENGTO OPEN-SOURCED <em>EVERY PROMPT AND TOOL</em> FROM HIS 40-MINUTE TUTORIAL ON ANIMATED SITES MOST DESIGNERS CHARGE T",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 — generated unknown face on cover. The doctrine bans 'a generated unknown face' and 'a generated fake face standing in for a real non-famous person.' MengTo (@MengTo) is a real actor in this story but is not a universally recognizable celebrity — a stranger scrolling past cannot identify this person at feed size. Fix: replace with a real photo of MengTo, a screen-recording frame of an"
  }
 ]

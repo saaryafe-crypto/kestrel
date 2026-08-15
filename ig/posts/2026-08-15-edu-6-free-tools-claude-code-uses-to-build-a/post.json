@@ -1,0 +1,92 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "MENGTO OPEN-SOURCED <em>EVERY PROMPT AND TOOL</em> FROM HIS 40-MINUTE TUTORIAL ON ANIMATED SITES MOST DESIGNERS CHARGE THOUSANDS FOR",
+   "kicker": "NO DESIGN SKILLS NEEDED",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-15-edu-6-free-tools-claude-code-uses-to-build-a/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up, head slightly forward, eyes wide in pure shock and delight directly at camera \u2014 caught the instant he saw the output materialize. Right hand flat on a dark open laptop, screen blazing with cascading blue and violet particle arcs (no text, only curving light shapes and glowing streaks). The Claude logo exactly as in the reference image burns as large white neon on the dark studio wall behind him. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric violet against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FEED CLAUDE REAL DESIGNS</em> WITH MOBBIN MCP",
+   "body": "MengTo fed Claude <b>real app screens</b> instead of written descriptions. Mobbin MCP connects Claude Code to thousands of actual app layouts in seconds.",
+   "hsize": 104,
+   "media": "posts/2026-08-15-edu-6-free-tools-claude-code-uses-to-build-a/gen-1.jpg",
+   "image_prompt": "Hands-only close, no faces: one hand holds a phone displaying a clean geometric app UI in cool blue (no text, only shape grids and color blocks), the other rests at a laptop keyboard whose screen glows with the same visual hierarchy rebuilt as a dark animated interface. Dark studio desk surface. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric blue against dark charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>USE COLLECT UI</em> AS CLAUDE'S VISUAL TARGET",
+   "body": "Collect UI posts the best interface designs online every day. Paste one link into Claude Code and it has a <b>real finished design to build toward</b> instead of inventing from nothing.",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>PASTE KAGE'S CODE</em> INTO CLAUDE FOR STUDIO MOTION",
+   "body": "Kage is an <b>open-source animation project</b> with pre-built effects already working. Paste its source into Claude Code and ask it to wrap your content in those effects.",
+   "hsize": 100,
+   "media": "posts/2026-08-15-edu-6-free-tools-claude-code-uses-to-build-a/gen-3.jpg",
+   "image_prompt": "A dark monitor screen ablaze with electric green particle trails arcing in motion blur across pure black \u2014 no text, only looping streaks and glowing point clusters suggesting animation in motion. Three matte dark folder icons fanned across the charcoal desk beside the monitor, catching neon green spill. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric green against charcoal black."
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>POINT CLAUDE AT TOWERS</em> FOR THE VISUAL FEEL",
+   "body": "Towers curates finished web projects by visual style. Share the URL and Claude reverse-engineers its <b>color system and animation timing</b> into your project.",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>SKETCH YOUR LAYOUT</em> IN SKETCHBOOK FIRST",
+   "body": "Sketch your layout in Sketchbook, upload the image, and Claude reads the structure directly. A <b>30-second sketch becomes a working page structure</b> without you describing a single pixel.",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>THE STARTING PROMPT</em> THAT SETS EVERYTHING",
+   "body": "MengTo open-sourced <b>three repos and every prompt</b> he used across the full tutorial. Every site starts with one prompt that locks in the visual direction before Claude writes a single line.",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> YOU WILL NEED IT TONIGHT.",
+   "body": "You will want these open the first time you try it. Six tools, in order, from MengTo's viral Claude Code tutorial.\n\nDaily AI news and real skills, posted four times a week",
+   "hsize": 96,
+   "media": null
+  }
+ ],
+ "caption": "Swipe through these 6 free tools and Claude Code builds the animated website for you\n\nMobbin MCP, Collect UI, Kage, Towers, Sketchbook, and the open-source starting prompt: the six resources from MengTo's viral 40-minute tutorial on building animated landing pages with Claude Code and Opus 5, taught in the exact order he uses them.\n\nDesigners used to spend weeks on a single landing page. Now the best ones point Claude at a real reference and get a moving site in an afternoon. These six tools are what the people doing it are quietly using.\n\nRunning a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: MengTo\n\n#claudecode #aitools #webdesign #learnai #techskills",
+ "pinned_comment": "Which tool are you trying first? The Mobbin MCP on slide 2 is the one most people have never heard of, and it changes how you give Claude a real design to work from.",
+ "hook_tournament": {
+  "candidates": [
+   "<em>6 FREE RESOURCES</em> THAT TURN CLAUDE CODE INTO A WEBSITE BUILDER"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 FREE RESOURCES</em> THAT FIX WHY YOUR CLAUDE WEBSITES LOOK CHEAP",
+   "<em>6 FREE RESOURCES</em> THAT TURN CLAUDE CODE INTO A WEBSITE BUILDER",
+   "THE <em>6 FREE RESOURCES</em> THAT MAKE CLAUDE BUILD WHAT MOST PEOPLE PAY DESIGNERS FOR"
+  ],
+  "scores": [
+   5,
+   2,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] hits instantly with a concrete promise (replace paid designer work) that makes you think 'wait, really?', while [0] assumes you already have bad-looking sites and [1] uses awkward phrasing that makes you work to parse what's being offered in 1.7 seconds."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "IMAGE LAW \u00a73 \u2014 generated unknown face on cover. The doctrine bans 'a generated unknown face' and 'a generated fake face standing in for a real non-famous person.' MengTo (@MengTo) is a real actor in this story but is not a universally recognizable celebrity \u2014 a stranger scrolling past cannot identify this person at feed size. Fix: replace with a real photo of MengTo, a screen-recording frame of an"
+}
