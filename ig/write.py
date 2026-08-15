@@ -1688,8 +1688,17 @@ def main(stories_path):
             if not path:
                 refs = [r for r in [ref_photo if want_ref else None]
                         + face_refs + [brand_ref] if r]
-                path = genimg.generate(brief, out_jpg, refs=refs or None,
-                                       cover=(s["type"] == "cover"))
+                # face_refs on a cover force the nano route (Aug 15 post-mortem,
+                # the paint-roller "Dario": art_direct named him in the brief
+                # text only, the E005 scrub rewrote it to "the person in the
+                # reference photo" + attached his real photo — then the cover
+                # went to gpt, which IGNORES reference photos, so it invented
+                # a stranger from that phrase. Only photo-capable models may
+                # render a brief that points at a reference person.)
+                path = genimg.generate(
+                    brief, out_jpg, refs=refs or None,
+                    cover=(s["type"] == "cover"),
+                    nano=bool(face_refs and s["type"] == "cover"))
             if not path:
                 # keep trying: one flaky prediction must not forfeit the cover
                 # (Aug 2 bare edu cover, issue #16); budget-out retries are
