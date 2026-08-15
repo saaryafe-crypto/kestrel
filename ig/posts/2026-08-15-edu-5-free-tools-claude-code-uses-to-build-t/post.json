@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A DESIGNER RELEASED <em>3 FREE 3D WEBSITES</em> BUILT WITH CLAUDE CODE THAT YOU CAN CLONE TONIGHT",
+   "kicker": "NO CODING NEEDED",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-15-edu-5-free-tools-claude-code-uses-to-build-t/gen-0.jpg",
+   "image_prompt": "Dario Amodei in craftsman apron, profile view, holds glowing laptop chest-high displaying spinning 3D wireframe shapes. Claude logo glows warm orange neon on workshop wall. Electric blue deep purple, 35mm film, natural light, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "ONE DESIGNER SHIPPED <em>3 FREE 3D WEBSITES</em> USING CLAUDE CODE",
+   "hsize": 88,
+   "body": "Designer MengTo used Claude Code with <b>Opus 5</b> to build <b>3</b> three-dimensional animated landing pages, then released the full source code free. These sites cost thousands when an agency builds them by hand.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) USE <em>MOBBIN MCP</em> FOR REAL DESIGN REFERENCES",
+   "hsize": 100,
+   "body": "\"I want this landing page to feel like this design [paste Mobbin screenshot]. Use the same spacing, color palette, and section layout. Build it in Three.js with a rotating hero animation.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) USE <em>COLLECTUI</em> TO COPY REAL UI COMPONENTS",
+   "hsize": 102,
+   "body": "\"Here is a UI component I want on my site [paste CollectUI screenshot]. Recreate it as a Three.js section on my landing page. Match the proportions and font size exactly.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) CLONE <em>KAGE</em>, A FREE 3D SITE WITH FULL SOURCE CODE",
+   "hsize": 82,
+   "body": "Kage is a free <b>open-source</b> Three.js template. \"I cloned the Kage template. Change the rotating hero shape to a cube, swap colors to [brand color], rewrite the headline: [your text].\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD ON <em>TOWERS</em>, ANOTHER FREE 3D TEMPLATE",
+   "hsize": 100,
+   "body": "Towers is MengTo's second free Three.js template, runs at <b>1-2MB</b>. \"I cloned the Towers template. Remove the third section, change the background to cream, and add a contact form that collects name and email.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) START FROM <em>SKETCHBOOK</em>, THE THIRD FREE TEMPLATE",
+   "hsize": 100,
+   "body": "Sketchbook is the third free Three.js template from MengTo. \"Using the Sketchbook template as a base, rebuild the hero section to show [your product] with a particle animation background in [brand color].\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR TONIGHT",
+   "hsize": 76,
+   "body": "You will want these tools open when you try it. Save this post. Daily AI news and real skills, every day",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 free tools Claude Code uses to build 3D animated websites from scratch, no design skills needed \ud83c\udfd7\ufe0f\n\nMobbin MCP for live design references inside Claude, CollectUI for real UI component screenshots, Kage with full open-source code, Towers at 1-2MB and mobile-ready, Sketchbook as the third free starting point, plus the exact prompts MengTo used to build all three sites with Opus 5.\n\nThese sites cost thousands when an agency builds them by hand. With Claude Code and Opus 5, MengTo built three of them and released everything free. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: MengTo\n\n#ClaudeCode #AITools #WebDesign #NoCode #ArtificialIntelligence",
+ "pinned_comment": "The real unlock is Mobbin MCP on slide 3: instead of typing 'make it look clean,' you show Claude an actual screenshot reference and the output quality jumps immediately. Which of the three templates are you trying first?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 TOOLS</em> THAT MAKE CLAUDE CODE BUILD YOUR ENTIRE WEBSITE",
+   "<em>5 FREE TOOLS</em> CLAUDE CODE USES TO BUILD WHOLE WEBSITES",
+   "CLAUDE CODE BUILT <em>3 3D WEBSITES</em> WITH 5 FREE TOOLS",
+   "THIS DESIGNER SHIPPED <em>3 FREE 3D WEBSITES</em> WITH CLAUDE CODE",
+   "CLAUDE CODE BUILDS <em>3D WEBSITES</em> WITH 5 FREE TOOLS"
+  ],
+  "scores": [
+   3,
+   5,
+   6,
+   7,
+   5
+  ],
+  "winner": 3,
+  "why": "[3] leads with a real person who SHIPPED something\u2014you stop scrolling to find out who and how. [2] buries the story in tool-speak and 'Claude Code built' passively, plus the '3 3D' repetition makes you re-read instead of react."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THIS DESIGNER SHIPPED <em>3 FREE 3D WEBSITES</em> WITH CLAUDE CODE",
+   "<em>3 FULL 3D WEBSITES</em> YOU CAN CLONE FOR FREE TONIGHT",
+   "<em>3 FREE 3D WEBSITE TEMPLATES</em> SO GOOD THEY FEEL ILLEGAL"
+  ],
+  "scores": [
+   6,
+   8,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] stops you with urgent action ('CLONE FOR FREE TONIGHT') and instant clarity on what you get. [0] is just passive announcement and [2] buries the story behind 'feel illegal' hyperbole you'd have to decode at 2am."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW \u2014 GENERATED UNKNOWN FACE ON COVER: The cover shows a generated man in an apron holding a laptop. Image Law is explicit: 'Never a generated unknown face.' MengTo is a real, named person \u2014 use his real photo, or remove the human entirely and show the Three.js 3D output (laptop screen alone, or the actual template in-browser). The workshop setting and 3D wireframe content on the laptop are "
+}

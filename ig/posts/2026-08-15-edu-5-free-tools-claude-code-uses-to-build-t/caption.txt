@@ -1,0 +1,9 @@
+Swipe for 5 free tools Claude Code uses to build 3D animated websites from scratch, no design skills needed 🏗️
+
+Mobbin MCP for live design references inside Claude, CollectUI for real UI component screenshots, Kage with full open-source code, Towers at 1-2MB and mobile-ready, Sketchbook as the third free starting point, plus the exact prompts MengTo used to build all three sites with Opus 5.
+
+These sites cost thousands when an agency builds them by hand. With Claude Code and Opus 5, MengTo built three of them and released everything free. Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: MengTo
+
+#ClaudeCode #AITools #WebDesign #NoCode #ArtificialIntelligence
