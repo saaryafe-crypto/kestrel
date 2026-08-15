@@ -1,0 +1,117 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "הפרומפט הסודי של Claude דלף: <em>שבעה כלים שלא הכרת</em>",
+   "kicker": "רוב האנשים מכירים רק את הצ'אט",
+   "hsize": 72,
+   "face": [
+    "Dario Amodei"
+   ],
+   "media": "posts/2026-08-14-edu-7-claude-products-revealed-in-viral-syst/gen-0.jpg",
+   "image_prompt": "Dario Amodei pulling glowing scroll from silk hat in shock. Seven cascading orange-gold app icons illuminate him. Claude logo symbol on deep navy wall. Harsh documentary 35mm flash. Blazing orange against navy."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>כותבים בשפה רגילה</em> ו-Claude בונה את האפליקציה",
+   "hsize": 98,
+   "body": "מפתח שיבנה לך אפליקציה עובדת יעלה לפחות <b>8,000 דולר</b>. כתוב את זה הערב: <b>\"בנה לי דף נחיתה שאוסף כתובות מייל ושומר אותן בגיליון אלקטרוני\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>Claude Cowork מנהל</em> את כל יום העבודה שלך",
+   "hsize": 86,
+   "body": "עוזר צמוד עולה <b>35,000 דולר בשנה</b>. תן לו: <b>\"קרא את המיילים האלה, סמן מה דחוף ותכתוב טיוטת תשובה לכל אחד\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>Claude ב-Chrome</em> גולש בכל דף במקומך",
+   "hsize": 104,
+   "body": "עוזר מחקר לוקח <b>25 דולר לשעה</b> בשביל לאסוף ולסכם מידע. נסה: <b>\"כנס לדף המוצר הזה וסכם כל ביקורת שמזכירה חיי סוללה\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>Claude ב-Excel</em> בונה לך את כל הגיליון",
+   "hsize": 98,
+   "body": "יועץ Excel לוקח <b>150 דולר לשעה</b> לבניית נוסחאות ודשבורדים. כתוב: <b>\"עמודה A הכנסות חודשיות, עמודה B הוצאות. בנה גרף רווח ותסמן כל חודש שנפל מתחת ל-20 אחוז\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>Claude ב-PowerPoint</em> כותב ומעצב לך את המצגת",
+   "hsize": 90,
+   "body": "מעצב מצגות מקצועי לוקח <b>500 עד 2,000 דולר</b> למצגת. כתוב לו: <b>\"אני מוכר שירותי שיווק לבעלי מסעדות. בנה מצגת של עשר שקופיות עם בעיה, פתרון, קייס סטאדי ועמוד מחירים\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>Claude Design יוצר</em> כל מה שתתאר",
+   "hsize": 108,
+   "body": "מעצב פרילנסר לוקח <b>75 דולר לשעה</b>. כתוב: <b>\"תעשה לי לוגו לבית קפה בשם Slow Pour. מודרני, מינימליסטי, ירוק כהה וקרם\"</b> והוא מתקן עד שתאמר לו לעצור",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) <em>תייג את @Claude ב-Slack</em> והוא גומר את המשימה",
+   "hsize": 96,
+   "body": "Claude Tag הופך את ה-Slack של הצוות שלך לסביבת עבודה עם AI. נסה: <b>\"@Claude הנה נתוני המכירות של השבוע. כתוב סיכום של שלושה משפטים לסטנדאפ של יום שישי\"</b>",
+   "media": "posts/2026-08-14-edu-7-claude-products-revealed-in-viral-syst/gen-7.jpg",
+   "image_prompt": "Laptop close-up: purple sidebar messaging interface with a glowing @Claude tag highlighted in a message thread, an automated structured reply appearing below it as bullet-point symbols and checkmarks only. No readable text. Warm overhead open-plan office light. Documentary news photo, 35mm, harsh flash. Accent: vivid purple against white."
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה</em> לפני שתצטרך",
+   "hsize": 110,
+   "body": "כל שבעת הכלים קיימים עכשיו באתר של Anthropic. רוב האנשים לא מכירים אותם. חדשות AI וכלים אמיתיים כל יום",
+   "media": null
+  }
+ ],
+ "caption": "עבור על כל השבעה לפני שתסגור. הפרומפט הסודי של Claude דלף השבוע וחשף כלים שרוב האנשים לא יודעים שקיימים. 🔍\n\nClaude Code בונה אפליקציות שלמות ממשפט אחד, Claude Cowork מנהל יום עבודה שלם, Claude ב-Chrome גולש וחוקר כל אתר שתרצה, Claude ב-Excel בונה גיליונות ודשבורדים ישירות בקובץ הפתוח, Claude ב-PowerPoint כותב ומעצב מצגות שלמות, Claude Design יוצר לוגואים ומוקאפים ממשפט אחד, ו-Claude Tag מאפשר לך להעביר משימה ל-Claude ישירות ב-Slack.\n\nרוב המשתמשים פותחים את הצ'אט, שואלים שאלה וסוגרים. הפרומפט שדלף הראה ש-Anthropic בנתה חבילת כלים שלמה סביב אותו AI, וכל אחד מחליף עובד שאתה משלם לו עכשיו. מנהל עסק? שלח לנו \"AI\" בהודעה ונראה לך מה זה יכול לעשות.\n\nמקורות: Anthropic, elder_plinius\n\nעקוב אחרי @ainews.israel לחדשות AI כל יום\n\n#claude #ai #artificialintelligence #aitools #productivity",
+ "pinned_comment": "איזה אחד הכי מפתיע אותך? Claude Tag הוא הפצצה השקטה. רוב הצוותות כבר ב-Slack ולא יודעים שזה קיים.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CLAUDE'S <em>200K-CHARACTER SYSTEM PROMPT LEAKED</em> AND REVEALED 7 PRODUCTS",
+   "<em>7 THINGS HIDING</em> IN CLAUDE'S LEAKED SYSTEM PROMPT",
+   "<em>THE LEAKED CLAUDE SYSTEM PROMPT</em> EXPOSED 7 HIDDEN PRODUCTS"
+  ],
+  "scores": [
+   8,
+   3,
+   7
+  ],
+  "winner": 0,
+  "why": "The '200K-CHARACTER' detail is bizarrely specific—exactly the kind of weird credibility marker that makes you stop scrolling and think 'wait, is that real?' [2] is polished but sounds like corporate copy; [0] reads like an actual leak because it commits to concrete, strange numbers."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CLAUDE'S <em>200K-CHARACTER SYSTEM PROMPT LEAKED</em> AND REVEALED 7 PRODUCTS",
+   "<em>7 EXPENSIVE TOOLS</em> CLAUDE NOW REPLACES FOR FREE",
+   "<em>7 THINGS CLAUDE DOES FREE</em> THAT COST YOUR COMPANY MONEY",
+   "<em>7 CLAUDE FEATURES</em> MOST PEOPLE STILL DON'T KNOW EXIST"
+  ],
+  "scores": [
+   8,
+   4,
+   5,
+   6
+  ],
+  "winner": 0,
+  "why": "'LEAKED' has scandal shock that stops scrolling instantly. 'Features you don't know' has FOMO appeal but less stopping power than real scandal."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW §3 — generated unknown face on cover. The tuxedo man is not a recognizable famous person; the rule is explicit: 'Never a generated unknown face.' Fixable: replace the figure with the Claude brand mark prominently styled, or a real Anthropic press-kit image. The floating app-icon treatment and Claude wordmark behind it already work — the unknown magician is the only violation.; COVER CONT",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
