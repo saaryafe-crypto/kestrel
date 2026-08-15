@@ -1,0 +1,109 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שישה כלי דפדפן: <em>חוסכים לך מעל 500 דולר בשנה</em> על תוכנות בתשלום",
+   "kicker": "בלי חשבון. בלי מייל. בלי הורדה.",
+   "hsize": 72,
+   "media": "posts/2026-08-15-edu-6-free-browser-tool-categories-zero-sign/gen-0-r.jpg",
+   "image_prompt": "Vault door ajar in concrete room displaying three luminous screens with symbols: dollar sign, warning triangle, red cross; documentary flash photography, film grain, electric teal and charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>עורך כמו Photoshop,</em> חינם בדפדפן",
+   "body": "Photoshop עולה <b>55 דולר בחודש</b>. <b>Photopea</b> עושה בדיוק אותו דבר: אותו עורך שכבות, אותם מצבי מיזוג, אותן אפשרויות ייצוא. הכל בדפדפן, בלי חשבון.",
+   "hsize": 96,
+   "media": "posts/2026-08-15-edu-6-free-browser-tool-categories-zero-sign/gen-1.jpg",
+   "image_prompt": "Hands close on a laptop keyboard, screen showing a layered photo-editing canvas with visible layer panel and blend-mode icons — vibrant coral and teal image, no readable text; faceless from above; documentary news photo, 35mm, harsh on-camera flash, film grain; accent: coral against deep teal."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>מעל 50 כלים למפתחים,</em> בלי להתקין כלום",
+   "body": "<b>it-tools.tech</b> זה אוסף חינמי של <b>מעל 50 כלים בדפדפן</b>: JSON formatter, UUID generator, color picker, hash tool, base64 encoder. כל כלי נפתח מיידית. בלי מסך התחברות.",
+   "hsize": 100,
+   "media": "posts/2026-08-15-edu-6-free-browser-tool-categories-zero-sign/gen-2.jpg",
+   "image_prompt": "Hands on a dark keyboard, laptop screen showing a dense grid of developer-tool tiles with abstract icons only — terminal cursor, gear, network nodes, database cylinder — lime green on deep navy; no readable text; documentary news photo, 35mm, film grain; accent: lime green against deep navy."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>תכנן הכל על לוח לבן חינמי</em> שלא שייך לאף אחד",
+   "body": "<b>Excalidraw</b> נפתח בדפדפן תוך שניות, בלי חשבון. שרטט תהליך עבודה, תכנן מוצר, בנה מצגת. שלח לינק למישהו והוא בפנים מיד, בלי שיצטרך להתקין כלום.",
+   "hsize": 84,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>בדוק אם הסיסמאות שלך</em> כבר נגנבו",
+   "body": "הכנס את האימייל שלך לאתר <b>HaveIBeenPwned.com</b>. הוא בודק מול <b>12 מיליארד דולר רשומות גנובות</b> מאלפי פרצות ידועות. בלי התחברות. מראה לך מאיזו פרצה ומתי.",
+   "hsize": 96,
+   "media": "posts/2026-08-15-edu-6-free-browser-tool-categories-zero-sign/gen-4.jpg",
+   "image_prompt": "Hands frozen mid-pull-back from a keyboard, laptop screen blazing a giant red broken-shield with a cracked padlock flooding the dark desk in red light; no readable text; documentary news photo, 35mm, harsh on-camera flash, film grain; accent: signal red against dark charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>כלי AI חינמיים</em> שחוקרים בנו בשבילך",
+   "body": "<b>Hugging Face Spaces</b> מכיל אלפי כלי AI חינמיים שבנו חוקרים ומעבדות: מחוללי תמונות, כלי קול, מנתחי טקסט. רוב הכלים בלי שום התחברות. תגלוש, תלחץ על כלי, והוא רץ בדפדפן מיד.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>קורסים של MIT בחינם,</em> בלי הגשת מועמדות",
+   "body": "<b>MIT OpenCourseWare</b> מעלה מעל <b>2,500 קורסים מלאים</b> לאינטרנט: הרצאות, תרגילים, בחינות. אותו חומר שסטודנטים שם משלמים עליו <b>60,000 דולר בשנה</b>. בלי חשבון. בלי רשימת המתנה.",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה.</em> תחזור כשתצטרך",
+   "body": "הכלים האלה עובדים הלילה ועוד חצי שנה. שמור את הפוסט לפני שהוא נבלע בפיד. חדשות AI ומיומנויות אמיתיות, כל יום.",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "שישה כלי דפדפן חינמיים שחוסכים לך מעל 500 דולר בשנה, בלי הרשמה 🔖\n\nעבור על כולם ושמור.\n\nPhotopea לעיצוב בלי תג המחיר של Photoshop. it-tools.tech עם מעל 50 כלים למפתחים שנפתחים מיידית. Excalidraw ללוח לבן שיתופי חינמי. HaveIBeenPwned לבדיקת האימייל שלך מול 12 מיליארד דולר רשומות גנובות. Hugging Face Spaces עם אלפי כלי AI חינמיים שחוקרים בנו. MIT OpenCourseWare עם 2,500 קורסים מלאים, אותו חומר שסטודנטים שם משלמים עליו 60,000 דולר בשנה.\n\nהכלים הטובים ביותר באינטרנט כבר לא מבקשים כלום מראש. בלי לכידת אימייל, בלי תקופת ניסיון, בלי כרטיס אשראי. פתח URL, השתמש בכלי, סגור טאב. ככה תמיד אמור להיראות קוד פתוח.\n\nמנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות אצלך.\n\nעקוב אחרי @ainews.israel לחדשות AI כל יום.\n\nמקורות: stellarprtcol\n\n#AI #freetools #productivity #AItools #techskills",
+ "pinned_comment": "מה הכי הפתיע אתך? MIT הוא הנשק הסודי פה: 2,500 קורסים, אותו חומר שסטודנטים משלמים עליו 60,000 דולר, ואפס מסך התחברות.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 THINGS YOUR BROWSER DOES FREE</em> WITH ZERO ACCOUNT",
+   "6 TYPES OF <em>FREE TOOLS YOUR BROWSER RUNS</em> TONIGHT",
+   "<em>6 FREE BROWSER TOOLS</em> THAT NEED NOTHING FROM YOU"
+  ],
+  "scores": [
+   6,
+   3,
+   7
+  ],
+  "winner": 2,
+  "why": "[2]'s 'NEED NOTHING FROM YOU' is conversational and hits the actual benefit (zero friction), while [0] sounds corporate with 'ZERO ACCOUNT.' [1] buries the point in vague 'TYPES OF' and confusing 'TONIGHT' that needs a second parse—instant kill at 1.7 seconds."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 FREE BROWSER TOOLS <em>MOST PEOPLE ARE STILL PAYING FOR</em>",
+   "<em>6 FREE BROWSER TOOLS</em> MOST PEOPLE NEVER FIND",
+   "<em>6 FREE BROWSER TOOLS</em> THAT NEED NOTHING FROM YOU",
+   "6 FREE BROWSER TOOLS <em>SO GOOD THEY FEEL ILLEGAL</em>"
+  ],
+  "scores": [
+   8,
+   4,
+   3,
+   9
+  ],
+  "winner": 3,
+  "why": "'Feel illegal' makes you stop with genuine 'wait, WHAT?' curiosity that's memorable and absurd at 2am. 'Still paying for' is a standard guilt-based pitch you've scrolled past a hundred times."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "Cover image fails the §3 thumb test completely. The image shows a bank vault being opened, a crashing red stock-chart in the background, shipping containers, and neon warning symbols (dollar sign, caution triangle, red cross). At feed size a stranger guesses 'financial crisis' or 'market crash' — not '6 free browser tools.' The image is decoration that actively misleads about the topic; it is not ",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
