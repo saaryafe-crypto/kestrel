@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 PROMPTS THAT REPLACE YOUR <em>$8,000 WEB AGENCY</em> AND <em>FEEL ILLEGAL</em>",
+   "hsize": 70,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-15-edu-6-ai-prompts-that-audit-and-rewrite-your/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei beaming triumphant, paint-splattered coveralls, holding dripping orange roller. Plain grey background. Anthropic logo. Chest-high, flash-lit, maximum clarity."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIND EVERY REASON CUSTOMERS LEAVE</em> YOUR HOMEPAGE",
+   "body": "A copywriter charges <b>$1,500</b> for a homepage audit. Prompt: \"Here is my homepage copy: [paste]. List every reason a visitor clicks away, then rewrite the opening paragraph to answer their biggest objection first.\"",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>REWRITE YOUR HERO HEADLINE</em> IN 30 SECONDS",
+   "body": "Web agencies charge <b>$2,000</b> to rewrite one headline. Prompt: \"My business: [describe]. My client's biggest problem: [describe]. Write 10 hero headlines, every one opens with the customer's outcome, not what I sell.\"",
+   "hsize": 104,
+   "media": "posts/2026-08-15-edu-6-ai-prompts-that-audit-and-rewrite-your/gen-2.jpg",
+   "image_prompt": "Laptop screen close-up: a dull grey headline bar crossed out in red, below it a bold electric-blue replacement bar glowing. A stopwatch symbol showing 0:30 in corner. No readable text. Dark background. Documentary news photo, harsh flash, film grain. Accent: electric blue against grey."
+  },
+  {
+   "type": "content",
+   "headline": "3) TURN A 5-STAR REVIEW INTO <em>A CASE STUDY THAT CLOSES DEALS</em>",
+   "body": "Copywriters charge <b>$500 to $2,000</b> for one case study. Prompt: \"Here is a 5-star review: [paste]. Expand into a 250-word case study, headline: their result, body: before, what we did, one specific outcome.\"",
+   "hsize": 84,
+   "media": "posts/2026-08-15-edu-6-ai-prompts-that-audit-and-rewrite-your/gen-3.jpg",
+   "image_prompt": "Close-up of hands holding a printed card bearing five bright gold stars, beside a glowing golden folder icon radiating light. Dark background. No readable text. Documentary news photo, harsh flash, film grain. Accent: gold stars against black."
+  },
+  {
+   "type": "content",
+   "headline": "4) WRITE <em>20 GOOGLE PREVIEWS FOR YOUR SITE</em> IN 2 MINUTES",
+   "body": "SEO agencies charge <b>$75 per page</b>, 20 pages runs <b>$1,500</b>. Prompt: \"Here are 20 pages with titles: [list]. Write a 155-character Google preview for each, topic, one benefit, soft call to action.\"",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD A FAQ PAGE THAT <em>REMOVES EVERY EXCUSE NOT TO BUY</em>",
+   "body": "Business owners answer the same <b>5 questions</b> every week. Prompt: \"Here are 10 pre-sale questions: [list]. Write a FAQ, each answer is 3 sentences: concern, a client result, and a reassurance.\"",
+   "hsize": 84,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) REWRITE YOUR ABOUT PAGE <em>SO CUSTOMERS TRUST YOU IN 30 SECONDS</em>",
+   "body": "Your About page is the <b>second most visited page</b> on your site. Prompt: \"Here is my About page: [paste]. Rewrite, open with my customer's problem, then explain who I am. Under 350 words.\"",
+   "hsize": 82,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> BEFORE YOU CLOSE IT",
+   "body": "You will want these the next time you sit down to work on your website. Daily AI news and real skills, follow @yaffeai",
+   "hsize": 108,
+   "media": null
+  }
+ ],
+ "caption": "Swipe through for 6 copy-paste AI prompts that audit, rewrite, and fix your website tonight. \ud83d\udcbb\n\nSlide 1 finds every reason a visitor leaves your homepage and rewrites the opening to stop them, slide 2 generates 10 hero headlines starting with your customer's result instead of your service name, slide 3 expands a five-star review into a full case study that closes leads, slide 4 writes 20 Google search previews for your pages in two minutes, slide 5 builds a FAQ page from your most common pre-sale questions so those emails stop, and slide 6 rewrites your About page so it opens with the customer's problem instead of your bio.\n\nWeb agencies charge $5,000 to $15,000 for a site audit and copy rewrite. Opus 5 does the same work in an afternoon, on your real copy, with nothing to install.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#AItools #businessowners #websiteoptimization #AImarketing #smallbusiness",
+ "pinned_comment": "Which one are you trying first? Slide 3, turning a real review into a full case study, is the one that keeps catching people off guard.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS THAT <em>REWRITE YOUR WEBSITE</em> TONIGHT",
+   "6 PROMPTS THAT MAKE <em>YOUR WEBSITE SELL</em> WHILE YOU SLEEP",
+   "6 PROMPTS THAT REPLACE <em>YOUR $8,000 WEB AGENCY</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   9
+  ],
+  "winner": 2,
+  "why": "The $8,000 number hits you instantly with 'wait, WHAT?'\u2014a specific, audacious claim that makes you stop scrolling. [1]'s 'while you sleep' is clever marketing-speak, but [2] feels like you're about to learn something wild, not just read another listicle."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT REPLACE YOUR <em>$8,000 WEB AGENCY</em> AND <em>FEEL ILLEGAL</em>",
+   "6 PROMPTS THAT DO YOUR WEB AGENCY'S JOB. <em>AGENCIES CHARGE $8,000 FOR THIS.</em>",
+   "6 PROMPTS THAT WRITE YOUR WEBSITE COPY. <em>THE FASTEST TAKES 30 SECONDS.</em>",
+   "6 PROMPTS THAT REPLACE <em>YOUR $8,000 WEB AGENCY</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   4,
+   6
+  ],
+  "winner": 0,
+  "why": "The 'FEEL ILLEGAL' hook creates an instant 'wait, WHAT?' reaction that stops your scroll; [1] is crystal-clear but sounds like agency-replacement content you've scrolled past a hundred times already."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Cover image shows a generated unknown face \u2014 a man in Anthropic-branded coveralls holding a paint roller. Image Law is explicit: 'Never a generated unknown face.' The allowed options are a recognizable famous person, the product with its brand mark in frame, or real photo/footage of the event. This is none of those.; Anthropic's logo and branding dominate the cover (on the jacket, on the backgroun",
+ "topic_source": "self-invented"
+}
