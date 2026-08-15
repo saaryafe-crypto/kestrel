@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THESE 6 BROWSER TOOLS <em>REPLACE OVER $500 A YEAR</em> OF PAID SOFTWARE, NO ACCOUNT, NO DOWNLOAD, NO CATCH",
+   "kicker": "NO ACCOUNT. NO EMAIL. NO DOWNLOAD.",
+   "hsize": 72,
+   "media": "posts/2026-08-15-edu-6-free-browser-tool-categories-zero-sign/gen-0-r.jpg",
+   "image_prompt": "Vault door ajar in concrete room displaying three luminous screens with symbols: dollar sign, warning triangle, red cross; documentary flash photography, film grain, electric teal and charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>EDIT LIKE PHOTOSHOP,</em> FREE IN YOUR BROWSER",
+   "body": "Photoshop costs <b>$55 a month</b>. <b>Photopea</b> runs the same layer editor, the same blend modes, the same export options, entirely in your browser, no account.",
+   "hsize": 96,
+   "media": "posts/2026-08-15-edu-6-free-browser-tool-categories-zero-sign/gen-1.jpg",
+   "image_prompt": "Hands close on a laptop keyboard, screen showing a layered photo-editing canvas with visible layer panel and blend-mode icons \u2014 vibrant coral and teal image, no readable text; faceless from above; documentary news photo, 35mm, harsh on-camera flash, film grain; accent: coral against deep teal."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>RUN 50 DEV TOOLS</em> WITHOUT INSTALLING ANYTHING",
+   "body": "<b>it-tools.tech</b> is a free open-source collection of <b>50+ browser utilities</b>: JSON formatter, UUID generator, color picker, hash tool, base64 encoder. Every tool opens instantly. No sign-in prompt.",
+   "hsize": 100,
+   "media": "posts/2026-08-15-edu-6-free-browser-tool-categories-zero-sign/gen-2.jpg",
+   "image_prompt": "Hands on a dark keyboard, laptop screen showing a dense grid of developer-tool tiles with abstract icons only \u2014 terminal cursor, gear, network nodes, database cylinder \u2014 lime green on deep navy; no readable text; documentary news photo, 35mm, film grain; accent: lime green against deep navy."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>PLAN ANYTHING ON A FREE WHITEBOARD</em> NO ONE OWNS",
+   "body": "<b>Excalidraw</b> opens in your browser in seconds, no account. Draw a workflow, map a product, sketch a pitch deck. Send someone a link and they are in instantly, nothing installed on their end",
+   "hsize": 84,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>CHECK IF YOUR PASSWORDS</em> ARE ALREADY STOLEN",
+   "body": "Type your email into <b>HaveIBeenPwned.com</b>. It checks against <b>12 billion leaked records</b> from thousands of known breaches, no login, and shows you which breach and when.",
+   "hsize": 96,
+   "media": "posts/2026-08-15-edu-6-free-browser-tool-categories-zero-sign/gen-4.jpg",
+   "image_prompt": "Hands frozen mid-pull-back from a keyboard, laptop screen blazing a giant red broken-shield with a cracked padlock flooding the dark desk in red light; no readable text; documentary news photo, 35mm, harsh on-camera flash, film grain; accent: signal red against dark charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>RUN FREE AI TOOLS</em> RESEARCHERS BUILT FOR YOU",
+   "body": "<b>Hugging Face Spaces</b> hosts thousands of free AI tools built by researchers and labs: image generators, voice tools, text analyzers. Most need zero login. Browse, click a tool, and it runs in the browser",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>GET MIT COURSES FREE,</em> NO APPLICATION NEEDED",
+   "body": "<b>MIT OpenCourseWare</b> puts over <b>2,500 full courses</b> online: lecture notes, problem sets, exams. The same material their students paid <b>$60,000 a year</b> to access. No account. No waitlist",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> COME BACK WHEN YOU NEED IT",
+   "body": "These work tonight and six months from now. Save this post before it disappears into your feed. Daily AI news and real skills, every day",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6 and save this \ud83d\udd16 Six free browser tools across design, coding, productivity, security, AI, and learning, all with zero sign-up.\n\nPhotopea for design without Photoshop's price tag, it-tools.tech for 50+ developer utilities that open instantly, Excalidraw for free collaborative whiteboards, HaveIBeenPwned for checking your email against 12 billion stolen records, Hugging Face Spaces for thousands of free AI tools researchers built, MIT OpenCourseWare for 2,500 full courses the same students paid $60,000 a year for.\n\nThe best tools online now ask for nothing upfront. No email capture, no trial, no credit card. Open the URL, use the thing, close the tab. This is what open-source software was always supposed to look like.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: stellarprtcol\n\n#AI #freetools #productivity #AItools #techskills",
+ "pinned_comment": "Which one surprised you most? The MIT one is the sleeper: 2,500 courses, same material as the $60k students, not a single login screen.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 THINGS YOUR BROWSER DOES FREE</em> WITH ZERO ACCOUNT",
+   "6 TYPES OF <em>FREE TOOLS YOUR BROWSER RUNS</em> TONIGHT",
+   "<em>6 FREE BROWSER TOOLS</em> THAT NEED NOTHING FROM YOU"
+  ],
+  "scores": [
+   6,
+   3,
+   7
+  ],
+  "winner": 2,
+  "why": "[2]'s 'NEED NOTHING FROM YOU' is conversational and hits the actual benefit (zero friction), while [0] sounds corporate with 'ZERO ACCOUNT.' [1] buries the point in vague 'TYPES OF' and confusing 'TONIGHT' that needs a second parse\u2014instant kill at 1.7 seconds."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 FREE BROWSER TOOLS <em>MOST PEOPLE ARE STILL PAYING FOR</em>",
+   "<em>6 FREE BROWSER TOOLS</em> MOST PEOPLE NEVER FIND",
+   "<em>6 FREE BROWSER TOOLS</em> THAT NEED NOTHING FROM YOU",
+   "6 FREE BROWSER TOOLS <em>SO GOOD THEY FEEL ILLEGAL</em>"
+  ],
+  "scores": [
+   8,
+   4,
+   3,
+   9
+  ],
+  "winner": 3,
+  "why": "'Feel illegal' makes you stop with genuine 'wait, WHAT?' curiosity that's memorable and absurd at 2am. 'Still paying for' is a standard guilt-based pitch you've scrolled past a hundred times."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "Cover image fails the \u00a73 thumb test completely. The image shows a bank vault being opened, a crashing red stock-chart in the background, shipping containers, and neon warning symbols (dollar sign, caution triangle, red cross). At feed size a stranger guesses 'financial crisis' or 'market crash' \u2014 not '6 free browser tools.' The image is decoration that actively misleads about the topic; it is not "
+}
