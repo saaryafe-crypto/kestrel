@@ -1,0 +1,97 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI CAN FORECAST YOUR QUARTER, FIND YOUR WORST PRODUCT, AND CATCH EVERY SILENT COST <em>IN 60 SECONDS</em>",
+   "kicker": "FREE. PASTE YOUR NUMBERS IN TONIGHT.",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-08-15-edu-5-business-intelligence-ai-prompts-jane-/gen-0-r.jpg",
+   "image_prompt": "Magnifying glass over spreadsheet with $ and warning triangle symbols, olive green accounting visor and cash beside, wooden market table, daylight."
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND THE CUSTOMERS <em>QUIETLY LEAVING YOU</em>",
+   "hsize": 100,
+   "body": "Businesses lose 20, 30% of their customers silently every year: no complaint, no goodbye, just gone. Paste 12 months of purchase history and AI ranks who to contact first by lifetime spend.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) SPOT THE PRODUCT <em>DRAINING YOUR MARGINS</em>",
+   "hsize": 100,
+   "body": "Most businesses have one service that looks busy but quietly eats the bottom line. Paste revenue and cost by product; AI tells you whether to raise the price, cut the cost, or drop it.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) FORECAST YOUR NEXT QUARTER <em>IN 60 SECONDS</em>",
+   "hsize": 100,
+   "body": "Every serious fund builds a quarterly projection before committing capital. Paste six months of revenue numbers and AI returns a best case, worst case, and most likely number, with the math shown.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) FIND THE ONE STEP <em>SLOWING EVERYTHING ELSE DOWN</em>",
+   "hsize": 95,
+   "body": "Fix just that one bottleneck step and your capacity can double without hiring anyone. Paste every process step and its time; AI finds the single delay and models cutting it in half.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) CATCH EVERY COST <em>THAT CREPT UP ON YOU</em>",
+   "hsize": 100,
+   "body": "Expenses climb 10, 20% a year without anyone deciding to spend more. Paste three months of expenses by category; AI finds what grew more than 10% and ranks the top three cuts.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> PASTE YOUR NUMBERS IN TONIGHT.",
+   "hsize": 110,
+   "body": "Every prompt works inside ChatGPT or Claude. Paste your real data and the analysis takes under a minute. Daily AI skills and business tools, every day.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through and save this: five prompts that do the analysis most owners pay a consultant $500 an hour to do. \ud83d\udcca\n\nFind the customers quietly leaving you, spot the product draining your margins, forecast your next quarter in 60 seconds, find the one step slowing everything else down, catch every cost that crept up on you\n\nJane Street just posted a $15 billion loss in a single month. Their model missed what was right in front of it. Most business owners are in the same position at a smaller scale: data they have but never really read. These prompts fix that in under a minute each. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Financial Times, Bain and Company, Harvard Business Review\n\n#aitools #businessgrowth #smallbusiness #chatgpt #artificialintelligence",
+ "pinned_comment": "Which one are you trying first? Drop the number below. Slide 3 is the one most business owners sleep on, and it takes 60 seconds.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 AI PROMPTS THAT DO <em>A BUSINESS ANALYST'S JOB</em> TONIGHT",
+   "5 PROMPTS THAT <em>READ YOUR BUSINESS LIKE A HEDGE FUND</em>",
+   "5 PROMPTS THAT CATCH WHAT <em>JANE STREET'S AI</em> MISSED",
+   "<em>5 FREE PROMPTS</em> SMARTER THAN A $500/HR CONSULTANT",
+   "5 PROMPTS THAT FIND <em>WHAT YOUR OWN NUMBERS</em> ARE HIDING"
+  ],
+  "scores": [
+   4,
+   6,
+   8,
+   6,
+   5
+  ],
+  "winner": 2,
+  "why": "[2] tells a complete, bold claim I understand instantly\u2014these prompts beat a famous hedge fund's AI\u2014so I'd swipe to see the receipts. [4] is cryptic mystery angle; I won't tap just to solve a stranger's riddle."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT CATCH <em>EVERY DOLLAR YOUR BUSINESS QUIETLY LOSES</em>",
+   "5 PROMPTS THAT CATCH WHAT <em>JANE STREET'S AI</em> MISSED",
+   "5 PROMPTS THAT SPOT WHAT <em>MOST BUSINESS OWNERS NEVER CHECK</em>",
+   "5 PROMPTS THAT FORECAST <em>YOUR QUARTER IN 60 SECONDS</em>"
+  ],
+  "scores": [
+   4,
+   6,
+   3,
+   8
+  ],
+  "winner": 3,
+  "why": "\"Forecast Your Quarter In 60 Seconds\" is a concrete, specific claim that makes me pause\u2014bold enough to feel like a real story, not corporate vagueness. Jane Street is a better reference than most, but \"missed\" stays buried in mystery when a 2am scroller wants the actual hook spelled out."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "CAST TRUTH \u2014 IMAGE LAW VIOLATION: The cover face is Sam Altman (dark curly hair, facial structure, OpenAI logo placed deliberately beside him). Sam Altman has zero role in this story \u2014 the post is about five generic BI prompts for small business owners, not anything Altman said, did, or announced. A famous face as decoration with no story connection is an explicit REJECT trigger per the doctrine. ",
+ "topic_source": "news-anchored"
+}
