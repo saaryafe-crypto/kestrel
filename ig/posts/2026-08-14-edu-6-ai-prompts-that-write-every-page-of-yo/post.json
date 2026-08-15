@@ -1,0 +1,105 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR WEBSITE IS LOSING CUSTOMERS RIGHT NOW, AND <em>6 AI PROMPTS</em> FIX EVERY PAGE.",
+   "kicker": "WEB COPYWRITERS CHARGE $10,000",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-14-edu-6-ai-prompts-that-write-every-page-of-yo/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei waist-up, intense focus, both hands pressing flat colorful website wireframe on workshop table with red marking pen, warm amber pendants overhead, clean walls, documentary film grain, amber gold against electric blue shadow."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>WRITE YOUR HOMEPAGE OPENER</em> SO NOBODY LEAVES",
+   "body": "Prompt: <b>\"Act as a direct-response copywriter. Write a homepage opener for [YOUR BUSINESS]. My customer's biggest fear is [FEAR]. I solve it by [HOW]. Write 2, 3 sentences: open by naming the fear, close with the outcome. No welcome lines, no fluff.\"</b> Swap the brackets and this produces the section copywriters charge <b>$3,000</b> for.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>TURN YOUR STORY INTO</em> A REASON THEY BUY",
+   "body": "Prompt: <b>\"Act as a brand storyteller. Write an about page for [YOUR NAME / BUSINESS]. My customer's problem: [PROBLEM]. My relevant background: [BACKGROUND]. Lead with their problem, show why my path makes me the right person to solve it, end with one sentence inviting them to hire me.\"</b> This makes the customer the hero so hiring you feels like the obvious next step.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>WRITE A SERVICES PAGE</em> THAT JUSTIFIES YOUR PRICE",
+   "body": "Prompt: <b>\"Act as a conversion copywriter. Write a services page section for [YOUR SERVICE]. Outcome the client gets: [OUTCOME]. Price: [PRICE]. Lead with the outcome, briefly name the process in one line, end with a sentence that makes the price feel obvious. No bullet lists of deliverables.\"</b> This leads with what the client gets and buries the process so visitors know it's worth it.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>TURN RAW REVIEWS INTO</em> A PAGE THAT SELLS",
+   "body": "Prompt: <b>\"Act as a social proof strategist. Here are my customer reviews: [PASTE REVIEWS]. Group them by the fear each one resolves. Label each group with that fear as a header. Place the most credible review first in each group.\"</b> This turns five-star reviews sitting unorganized on Google into a testimonials section worth more than any discount on your pricing page.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>BUILD AN FAQ THAT CLOSES</em> DEALS WHILE YOU SLEEP",
+   "body": "Prompt: <b>\"Act as a sales consultant. Here are the objections and questions I hear most before someone hires me: [LIST OBJECTIONS]. Turn each into an FAQ entry that answers the fear behind the question, not just the question itself. Keep each answer to 2, 3 sentences.\"</b> This builds a FAQ from objections you already hear, not the ones you wish they had.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>WRITE A CALL-TO-ACTION</em> THAT CONVERTS WITHOUT PUSHING",
+   "body": "Prompt: <b>\"Act as a conversion copywriter. Write a call-to-action section for my [SERVICE] page. What the visitor gets: [WHAT THEY GET]. Their last fear before clicking: [FEAR]. Commitment level: [FREE CALL / PRICE]. Name the outcome, remove the fear, and write a button label that describes the result not the click.\"</b> This produces a CTA that names what the visitor gets and removes their last fear before they click.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> YOUR WEBSITE IS OPEN RIGHT NOW.",
+   "body": "You'll want these the next time you sit down to fix a page. Save this post\n\nDaily AI news and real skills. @yaffeai",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to grab all 6 AI prompts that write your entire website tonight, the same work a copywriter charges $10,000 for. \ud83d\udcbe\n\nHomepage opener that makes visitors stay, about page that turns your story into a reason to buy, services page that justifies your price, testimonials section that turns raw reviews into a buying case, FAQ that closes deals while you sleep, call-to-action that converts without pushing.\n\nWebsite copy is the one thing most business owners pay for twice: once to a copywriter who misses the point, once to fix it. These prompts write in the framework that converts. Every major section, done tonight.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, HubSpot, Nielsen Norman Group\n\n#AITools #BusinessOwner #WebsiteCopy #ArtificialIntelligence #AIMarketing",
+ "pinned_comment": "Which page of your website is losing you the most leads right now? The FAQ prompt on slide 6 is the one most people skip. It's also the one that closes deals while you're asleep.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 PROMPTS THAT REPLACE</em> A $10,000 WEB COPYWRITER",
+   "<em>6 AI PROMPTS</em> THAT WRITE YOUR ENTIRE WEBSITE TONIGHT",
+   "<em>YOUR WEBSITE IS BLEEDING LEADS.</em> THESE 6 AI PROMPTS FIX IT",
+   "<em>6 AI PROMPTS</em> THAT BUILD A WEBSITE THAT CONVERTS",
+   "<em>6 PROMPTS</em> WEB COPYWRITERS KEEP TO THEMSELVES"
+  ],
+  "scores": [
+   6,
+   8,
+   9,
+   6,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] opens with your problem (BLEEDING LEADS), then solves it\u2014that emotional hit stops the scroll. [1] promises speed but sounds generic compared to real pain + relief."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 WEBSITE COPY PROMPTS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "6 AI PROMPTS THAT WRITE BETTER WEBSITE COPY THAN <em>MOST PAID COPYWRITERS</em>",
+   "<em>YOUR WEBSITE IS BLEEDING LEADS.</em> THESE 6 AI PROMPTS FIX IT",
+   "YOUR WEBSITE IS LOSING CUSTOMERS RIGHT NOW. <em>6 AI PROMPTS</em> FIX EVERY PAGE."
+  ],
+  "scores": [
+   4,
+   4,
+   6,
+   7
+  ],
+  "winner": 3,
+  "why": "\"RIGHT NOW\" creates instant urgency and real-time pressure that stops scrolling dead, while \"BLEEDING LEADS\" is clever enough to make you pause but requires that extra mental beat to interpret\u2014and still feels more like copywriter artistry than actual crisis."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "IMAGE LAW \u2014 GENERATED UNKNOWN FACE ON COVER: The cover image shows a generated non-famous man leaning over website wireframes. IMAGE LAW is explicit: 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' Fix: regenerate the cover without a human subject \u2014 the website wireframe printouts on the desk, viewed straight-on with a bold AI interface or pr",
+ "topic_source": "self-invented"
+}
