@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שש אפליקציות שאתם משלמים עליהן</em> שכבר קיימות בחינם",
+   "kicker": "רוב האנשים בכלל לא יודעים",
+   "hsize": 72,
+   "face": "none",
+   "media": "posts/2026-08-15-edu-6-no-sign-up-browser-tools-across-design/gen-0-r.jpg",
+   "image_prompt": "Two hands cutting through six app-interface cards with scissors, one marked with FREE symbol; gold coins spraying from cut, wrists-only framing, deep indigo background, electric orange underlighting; documentary news photo, 35mm film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>לערוך כל תמונה</em> כמו Photoshop, בחינם",
+   "body": "Photoshop עולה <b>250 דולר בשנה</b>. Photopea עושה בדיוק אותו דבר בטאב בדפדפן: שכבות, קבצי RAW, מסכות, ויצוא PSD, בלי חשבון.\n\n<b>נכנסים ל-photopea.com.</b> פותחים כל קובץ תמונה.",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>לפרמט ולתקן</em> כל קוד, בחינם",
+   "body": "IT-Tools הוא אתר חינמי עם יותר מ-<b>60 כלים למפתחים</b> בדף אחד: עיצוב JSON, יצירת UUID, קידוד Base64, ובדיקת regex.\n\n<b>נכנסים ל-it-tools.tech.</b> מחפשים כל כלי ומשתמשים בו.",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>לוח שיתופי בחינם</em> במקום 150 דולר",
+   "body": "Miro ו-Mural גובים עד <b>150 דולר בשנה</b>. Excalidraw עובד בדפדפן בלי חשבון ויוצר לינק שכל הצוות פותח מיד, בלי הרשמה.\n\n<b>נכנסים ל-excalidraw.com.</b> מתחילים לצייר.",
+   "hsize": 108,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>בדקו אם המייל שלכם</em> נגנב בפריצה",
+   "body": "יותר מ-<b>13 מיליארד דולר חשבונות</b> נחשפו בפריצות מידע. Have I Been Pwned בודק את המייל שלכם מול כל הדלפה ידועה ואומר בדיוק איפה הוא הופיע.\n\n<b>נכנסים ל-haveibeenpwned.com.</b> מקלידים את המייל.",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>כלי AI בחינם</em>, בלי חשבון",
+   "body": "ב-Hugging Face Spaces יש אלפי כלי AI שרצים בטאב בדפדפן: מחוללי תמונות, הסרת רקע, כלי קול, ועורכי טקסט. רוב הכלים לא דורשים <b>הרשמה בכלל</b>.\n\n<b>נכנסים ל-huggingface.co/spaces.</b> מחפשים כל משימת AI.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>קורסי MIT</em> בחינם לגמרי",
+   "body": "MIT מעלה כל שיעור, תרגיל, והערות מהקורסים האמיתיים לרשת, לכולם. אותו חומר שסטודנטים משלמים עליו <b>60,000 דולר בשנה</b> בשכר לימוד.\n\n<b>נכנסים ל-ocw.mit.edu.</b> מחפשים כל נושא.",
+   "hsize": 108,
+   "media": "posts/2026-08-15-edu-6-no-sign-up-browser-tools-across-design/gen-6.jpg",
+   "image_prompt": "Laptop on a wooden desk: a browser showing stacked blurred lecture-note thumbnails and problem-set document icons, a glowing open padlock symbol in one corner signaling free access, no readable text; accent: deep crimson against academic cream. Documentary news photo, 35mm, harsh flash, film grain."
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה</em>",
+   "body": "שמרו את הפוסט הזה. כשתצטרכו כלי כזה, תמצאו אותו מיד.\n\nחדשות AI יומיות ומיומנויות אמיתיות",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "עברו על כל שש. כולן עובדות בדפדפן שלכם עכשיו, בלי מייל, בלי סיסמה, בלי חשבון. 🔖\n\nPhotopea לעריכת תמונות ברמת Photoshop, IT-Tools ליותר מ-60 כלים למפתחים, Excalidraw ללוח שיתופי חינמי, Have I Been Pwned לבדיקת דלפות מידע, Hugging Face Spaces לכלי AI בלי הרשמה, MIT OpenCourseWare לקורסים אוניברסיטאיים שלמים מפרופסורים אמיתיים.\n\nרוב האנשים משלמים כל חודש על כלים שכבר קיימים בחינם בדפדפן. השאלה היא לא איזה AI לקנות. השאלה היא להבין כמה כבר קיים, חינמי ומוכן.\n\nמנהלים עסק? שלחו לנו DM עם \"AI\" ונראה לכם מה זה יכול לעשות בשבילכם.\n\nמקורות: stellarprtcol, Photopea, IT-Tools, MIT OpenCourseWare, Have I Been Pwned, Hugging Face\n\nעקבו @ainews.israel לחדשות AI כל יום.\n\n#FreeTools #AITools #ProductivityTools #LearnForFree #BuildWithAI",
+ "pinned_comment": "איזה אחד תנסו הלילה? רוב האנשים מעולם לא שמעו על Photopea בשקופית השנייה, והיא עושה הכל מה ש-Photoshop עושה, בחינם.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 FREE THINGS YOUR BROWSER</em> DOES WITHOUT ANY SIGN-UP",
+   "<em>6 THINGS YOU CAN DO ONLINE</em> WITHOUT MAKING AN ACCOUNT",
+   "<em>6 FREE BROWSER TOOLS</em> WITH NO ACCOUNT NEEDED",
+   "<em>6 TOOLS YOUR BROWSER</em> CAN RUN FREE WITH ZERO SIGN-UP",
+   "<em>6 FREE TOOLS THAT OPEN</em> IN YOUR BROWSER RIGHT NOW"
+  ],
+  "scores": [
+   6,
+   7,
+   5,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] hits hardest with 'RIGHT NOW'—it's urgency and immediacy, making you feel you can do something THIS SECOND without friction. [1] is solid and practical, but it sounds like helpful advice; [4] sounds like an offer you'd regret scrolling past."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "editor_override": "Cover image shows the branded logos of Spotify, Apple Music, Netflix, Amazon Prime, and Disney+ being cut by scissors. None of those five services appear anywhere in the post's actual six tools (Photopea, IT-Tools, Excalidraw, Have I Been Pwned, Hugging Face Spaces, MIT OCW). A feed scroller who stops on this cover will expect a post about free alternatives to Netflix and Spotify; they swipe into ",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

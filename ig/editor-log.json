@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-12T20:25:26Z",
-  "gate": "A",
-  "subject": "More Americans now use marijuana daily than drink or smoke daily, per NHSDA",
-  "verdict": "KILL",
-  "reason": "No substance: one-sentence source with a single statistical fact and no event, actor, or consequence—writer would pad rather than build a story."
- },
- {
   "t": "2026-08-12T20:25:28Z",
   "gate": "A",
   "subject": "How B.J. Novak’s face ended up on random products around the world.. A few years ago, someone mistakenly uploaded a phot",
@@ -2098,5 +2091,12 @@
   "subject": "WHEN SOMEONE OWES YOU MONEY, <em>THESE 6 FREE AI PROMPTS</em> GET IT BACK.",
   "verdict": "REJECT",
   "reason": "Cover image background — shipping containers, cargo cranes, a freighter, and a global trade map — has zero connection to collecting client invoices. The thumb test fails: a stranger at feed size guesses international logistics, not freelance payment collection. Regenerate the cover with a relevant scene (e.g., a business person at a desk with stacked invoices, a stamped FINAL NOTICE, a laptop show"
+ },
+ {
+  "t": "2026-08-16T16:08:59Z",
+  "gate": "A",
+  "subject": "Israeli bots are creating AI videos of Greeks pulling down Palestinian flags because no such videos exist",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the story is a social-media claim with 42K likes and zero documented real-world consequence (no account banned, lawsuit, or harm proven), sourced from a single 105-character X post with no substance a writer could build from, and off-brand for a technology/AI learning page."
  }
 ]
