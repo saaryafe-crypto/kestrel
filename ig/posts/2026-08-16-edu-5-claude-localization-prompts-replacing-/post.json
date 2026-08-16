@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 PROMPTS <em>THAT KILL THE $200-A-PAGE TRANSLATOR BILL</em>",
+   "kicker": "NO TRANSLATOR NEEDED. TONIGHT.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-16-edu-5-claude-localization-prompts-replacing-/gen-0-r.jpg",
+   "image_prompt": "Back-turned figure, fist raised triumphantly shredding $200 invoice at wooden market stall; Claude logo on hanging sign, flag bunting, deep teal shadows, documentary 35mm flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) REWRITE YOUR SALES PAGE <em>FOR A NEW MARKET</em>",
+   "hsize": 100,
+   "body": "Translation agencies charge <b>$0.20 a word</b> to swap words. This prompt makes the whole pitch feel native instead.\n\n\"Rewrite my sales page for [country] in [language]. Same argument, local examples and phrases.\"",
+   "media": "posts/2026-08-16-edu-5-claude-localization-prompts-replacing-/gen-1.jpg",
+   "image_prompt": "Hands peeling a Latin-script product label off a clean white product box to reveal a bold Japanese kanji-symbol label beneath; three more identical boxes behind it each banded in a different script style \u2014 Arabic curves, Cyrillic arcs, Greek loops. Warm studio light from the left, tight close-up, no faces. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: warm orange product stripe against white."
+  },
+  {
+   "type": "content",
+   "headline": "2) ADAPT YOUR FOLLOW-UP EMAIL <em>FOR EACH COUNTRY</em>",
+   "hsize": 104,
+   "body": "Most buyers in Germany or Japan ignore a pitch that reads as translated.\n\n\"Rewrite my follow-up email for [country] in [language]. Match how professionals there write, not just translate.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) TRANSLATE A CONTRACT <em>AND CATCH THE LEGAL GAPS</em>",
+   "hsize": 100,
+   "body": "Law firms charge <b>$200 a page</b> to translate a contract. Claude does it free and flags gaps.\n\n\"Translate this contract into [language]. Flag every clause that may not hold in [country] law.\"",
+   "media": "posts/2026-08-16-edu-5-claude-localization-prompts-replacing-/gen-3.jpg",
+   "image_prompt": "Two contract pages side by side on dark mahogany \u2014 left page dense with Latin script symbols, right page flowing with Arabic script symbols \u2014 a brass gavel resting across both, a vivid red warning triangle stamped at the gap between the two pages. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: brass gold against deep crimson."
+  },
+  {
+   "type": "content",
+   "headline": "4) LOCALIZE YOUR PRODUCT LISTING <em>FOR A NEW MARKETPLACE</em>",
+   "hsize": 100,
+   "body": "A US listing dropped on Amazon Japan gets almost no clicks because buyers search and shop differently.\n\n\"Rewrite my product listing for Amazon [country] in [language]. Use local search terms and buyer tone.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) REPLY TO CUSTOMERS <em>IN ANY LANGUAGE IN SECONDS</em>",
+   "hsize": 104,
+   "body": "Unanswered messages cancel orders. Claude replies in any language in <b>under 30 seconds.</b>\n\n\"Read this message. Reply in [language] as a professional support agent. Solve the issue and offer a next step.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 80,
+   "body": "You'll want these when you go into a new market. Save this post so the prompts are there when you need them\n\nDaily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 Claude prompts that take your business into any market tonight, no translator or agency needed. \ud83c\udf0d\n\nSales page localized with culture-native examples, follow-up email adapted to each country's professional tone, contract translated with legal gaps flagged, product listing rewritten for local search terms, customer service replies in the customer's own language in under 30 seconds.\n\nAI detectors now flag basic Claude translations. The fix is localization: adapting tone, examples and phrases so content feels native, not imported. Businesses that do this open markets others can't crack. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#ai #claudeai #businessgrowth #aitools #entrepreneur",
+ "pinned_comment": "Which market are you going into first? Slide 3 is the sleeper: most people don't realize Claude also flags the legal gaps in a translated contract, for free.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS <em>THAT REPLACE YOUR TRANSLATION AGENCY</em>",
+   "5 PROMPTS <em>THAT KILL THE $200-A-PAGE TRANSLATOR BILL</em>",
+   "5 CLAUDE PROMPTS <em>THAT LOCALIZE YOUR WHOLE BUSINESS</em>",
+   "5 PROMPTS <em>THAT OPEN YOUR BUSINESS TO ANY MARKET</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   6,
+   4
+  ],
+  "winner": 1,
+  "why": "The $200-a-page number hits different\u2014it's concrete, makes me visualize an actual problem I'd recognize, and feels real. [0] and [3] are just generic business jargon I'd scroll past; [2] mentions Claude but 'localize your whole business' is too vague to actually stop me."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS <em>THAT JUST REPLACED YOUR $200-A-PAGE TRANSLATOR</em>",
+   "5 FREE PROMPTS <em>THAT DO WHAT TRANSLATORS CHARGE YOU $200 A PAGE FOR</em>",
+   "5 PROMPTS <em>THAT KILL THE $200-A-PAGE TRANSLATOR BILL</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "\"KILL THE BILL\" is visceral and makes you feel the solution instantly. \"FREE PROMPTS\" is clearer but sounds like standard marketing copy."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "topic_source": "news-anchored"
+}
