@@ -152,12 +152,18 @@ def _is_wide_guide(text):
 # and you should always scout from the twitter api on whats viral": Aug 14-15
 # shipped ZERO reels while the approved pages had 61 viral videos in the
 # prior 7 days — Tesla FSD 6.6M views, GPT-5.6 Sol demo 3.6M — because the
-# reel picker only ever saw the news radar's 36h window). Native-video
-# tweets from the watchlist over 7 days, cached 12h so 3 reel slots/day
-# cost one search (~5 batches ≈ 100 reads/day ≈ $0.45/mo, same ledger/cap).
+# reel picker only ever saw the news radar's 36h window). Cached 12h so 3
+# reel slots/day cost one search, same ledger/cap. TWO windows since Aug 16
+# (owner: "we can take all recent and viral reels from last 6 months...
+# just when we post something that is 6 months old we can post it not as a
+# new reel and match our title accordingly"): FRESH catches this week's
+# breakouts at a low floor; ARCHIVE sweeps 6 months for the all-time
+# monsters at a 5x floor — Top sort returns ~1 page per batch, so the
+# archive adds giants, not flood. reel.py frames >7d clips as evergreen,
+# never as news.
 VIDEO_SEARCH_EVERY_H = 12
-VIDEO_SEARCH_AGE_D = 7
-VIDEO_SEARCH_FLOOR = 2000
+VIDEO_FRESH_AGE_D, VIDEO_FRESH_FLOOR = 7, 2000
+VIDEO_ARCH_AGE_D, VIDEO_ARCH_FLOOR = 180, 10000
 VIDEO_CACHE = os.path.join(HERE, "x-videos.json")
 
 # ISRAEL NEWS LANE (owner order Aug 10: "pull from twitter api the most viral
@@ -402,36 +408,40 @@ def video_pool():
     handles = sorted(_watch_handles())
     if not handles:
         return cache["moments"] if cache else []
-    since = int(now - VIDEO_SEARCH_AGE_D * 86400)
-    pool, seen = [], set()
-    for i in range(0, len(handles), BATCH_SIZE):
-        if i:
-            time.sleep(6)  # unfunded-tier QPS: 1 req / 5s
-        q = ("(" + " OR ".join(f"from:{h}" for h in handles[i:i + BATCH_SIZE])
-             + f") min_faves:{VIDEO_SEARCH_FLOOR} filter:native_video")
-        try:
-            d = _get(key, "/twitter/tweet/advanced_search",
-                     query=f"{q} since_time:{since}", queryType="Top")
-        except Exception as e:
-            print(f"  ! x video scout batch: {e}", file=sys.stderr)
-            continue
-        tweets = d.get("tweets") or []
-        led["reads"] += max(len(tweets), 1)
-        for t in tweets:
-            m = _moment(t, now, max_age_h=VIDEO_SEARCH_AGE_D * 24,
-                        floor=VIDEO_SEARCH_FLOOR)
-            if not m or not m.get("video") or m["id"] in seen:
+    pool, seen, req = [], set(), 0
+    for age_d, floor in ((VIDEO_FRESH_AGE_D, VIDEO_FRESH_FLOOR),
+                         (VIDEO_ARCH_AGE_D, VIDEO_ARCH_FLOOR)):
+        since = int(now - age_d * 86400)
+        for i in range(0, len(handles), BATCH_SIZE):
+            if req:
+                time.sleep(6)  # unfunded-tier QPS: 1 req / 5s
+            req += 1
+            q = ("(" + " OR ".join(f"from:{h}"
+                                   for h in handles[i:i + BATCH_SIZE])
+                 + f") min_faves:{floor} filter:native_video")
+            try:
+                d = _get(key, "/twitter/tweet/advanced_search",
+                         query=f"{q} since_time:{since}", queryType="Top")
+            except Exception as e:
+                print(f"  ! x video scout batch: {e}", file=sys.stderr)
                 continue
-            if political(f"{m['title']} {m.get('selftext') or ''}"):
-                continue
-            seen.add(m["id"])
-            pool.append(m)
+            tweets = d.get("tweets") or []
+            led["reads"] += max(len(tweets), 1)
+            for t in tweets:
+                m = _moment(t, now, max_age_h=age_d * 24, floor=floor)
+                if not m or not m.get("video") or m["id"] in seen:
+                    continue
+                if political(f"{m['title']} {m.get('selftext') or ''}"):
+                    continue
+                seen.add(m["id"])
+                pool.append(m)
     pool = _approved_only(pool, set(handles))
     pool.sort(key=lambda m: -(m.get("views") or 0))
     json.dump(led, open(LEDGER, "w"), indent=1)
     json.dump({"at": now, "moments": pool}, open(VIDEO_CACHE, "w"), indent=1)
-    print(f"x video scout: {len(pool)} viral watchlist videos, 7-day window "
-          f"({led['reads']:,} reads this month)", file=sys.stderr)
+    print(f"x video scout: {len(pool)} viral watchlist videos "
+          f"({VIDEO_FRESH_AGE_D}d fresh + {VIDEO_ARCH_AGE_D}d archive, "
+          f"{led['reads']:,} reads this month)", file=sys.stderr)
     return pool
 
 

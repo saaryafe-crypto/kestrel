@@ -22,6 +22,10 @@ from render import CHROME
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 USED = os.path.join(HERE, "reels-used.json")
+# frame-QA rejects, remembered across runs (Aug 16): with a 6-month scout
+# window a rejected monster stays at the top of the pool for months and
+# would burn picker tries every single slot if we forgot we banned it
+REJECTS = os.path.join(HERE, "reel-rejects.json")
 MEDIA_REPO = "git@github.com:saaryafe-crypto/kestrel-media.git"
 RAW = "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main"
 
@@ -134,9 +138,12 @@ def radar_candidates(used):
         print(f"video scout unavailable ({e}) — fresh radar only",
               file=sys.stderr)
     moments.sort(key=lambda m: -(m.get("views") or m.get("score", 0)))
+    # 16-cand batch, not 8 (Aug 16 dry run: with the 6-month archive the top
+    # 8 by views were ALL elon memes/bare links — every actual tech clip sat
+    # below the cut and the topic judge rightly returned -1, starving the slot)
     cands = []
     for m in moments:
-        if not m.get("video") or len(cands) >= 8:
+        if not m.get("video") or len(cands) >= 16:
             continue
         vid = m.get("id") or m["video"].split("?")[0].rstrip("/").rsplit("/", 1)[-1]
         if vid in used:
@@ -171,11 +178,24 @@ def radar_candidates(used):
     return cands
 
 
+def age_str(h):
+    """Human age for the pick prompt — the pool reaches back 6 months, and
+    '3096h' hides how old a clip is from the judge."""
+    if h < 48:
+        return f"{h:.0f}h"
+    if h < 24 * 60:
+        return f"{h / 24:.0f} days"
+    return f"{h / 720:.1f} months"
+
+
 def cline(i, c):
     if c.get("views"):  # scouted monster — real total views is the headline
+        old = " [OLD CLIP — evergreen framing, never news]" \
+            if c.get("age_h", 0) > 7 * 24 else ""
         pop = (f"{c.get('where', '@' + str(c.get('sub', '?')) + ' on X')} | "
                f"{c['views']:,} VIEWS, {c.get('likes', 0):,} likes in "
-               f"{c.get('age_h', 0):.0f}h, {c.get('comments', 0):,} comments")
+               f"{age_str(c.get('age_h', 0))}, "
+               f"{c.get('comments', 0):,} comments{old}")
     elif c.get("vph"):  # radar breakout (hours old, exploding right now)
         pop = (f"{c.get('where', '@' + str(c.get('sub', '?')) + ' on X')} | "
                f"BREAKING OUT NOW: {c.get('likes', 0):,} "
@@ -213,7 +233,8 @@ The Credits name is a PLAIN name — never an @ handle, # hashtag, or u/ prefix 
 RULES
 - TOPIC IS A HARD GATE: only pick a clip about AI, robots, or futuristic tech. If NO candidate qualifies, return exactly {{"pick": -1}} and nothing else — skipping the slot beats posting off-topic.
 - ENTERTAINMENT IS A HARD GATE (the newspaper test): picture a 19-year-old who does not care about tech news, scrolling with the SOUND OFF. Would they stop for the video itself? Corporate product demos, keynote/press-conference clips, talking heads, screen recordings, slideshows, news-segment energy = FAIL no matter how big the numbers. Pick a MOMENT someone caught on camera — a machine doing something absurd or unbelievable, a spectacular failure, scale that makes you say "wait, WHAT?". The clip must trigger ONE clear emotion in 3 seconds: awe, fear, or laughter. If every candidate fails this test, return {{"pick": -1}} — the ladder has more sources.
-- VIRALITY IS THE PRIMARY SIGNAL: candidates are listed by real total views (best first) and everything shown already cleared a hard virality floor. A clip's age does NOT matter — a monster clip from three weeks ago we never posted beats a modest clip from today. Only skip a stronger candidate if it fails the topic gate, the entertainment gate, or the story-dedupe gate.
+- VIRALITY IS THE PRIMARY SIGNAL: candidates are listed by real total views (best first) and everything shown already cleared a hard virality floor. A clip's age does NOT matter — a monster clip from months ago we never posted beats a modest clip from today. Only skip a stronger candidate if it fails the topic gate, the entertainment gate, or the story-dedupe gate.
+- OLD CLIPS ARE EVERGREEN, NOT NEWS (owner rule Aug 16 — the pool reaches back 6 months): any candidate marked [OLD CLIP] must NEVER get a title or caption that reads like it just happened — no "just unveiled", "today", "breaking", "now". Frame it timeless ("How this robot...", "The moment a...", "Watch a...") or date it honestly ("Back in March..."). The hook must be just as strong — a monster clip earns a monster title, it just can't lie about when.
 - STORY DEDUPE IS A HARD GATE (owner rule Aug 1): if a candidate shows the same event, stunt, or story as ANYTHING in the ALREADY POSTED list — even a different angle, a different channel's copy, or a re-edit — treat it as already posted and skip it. Same robot doing the same demo, same launch, same fail = same story. If every candidate is a dupe, return {{"pick": -1}} — the ladder has more sources.
 - Where a "crowd:" line appears, those are the top-voted comments on the source post — thousands of real people voting on which EMOTION the moment triggers. Aim your title at that emotion. NEVER quote or copy a comment.
 - FIRST 3 SECONDS ARE A HARD GATE: start_s must land ON the most impressive moment — no build-up, no intro, no logo. If the wow moment is at 0:42, start there.
@@ -421,7 +442,7 @@ def _static_clip(frames):
         return False
 
 
-def clip_ok(src, dur, channel):
+def clip_ok(src, dur, channel, title=""):
     """Vision QA on extracted frames — rejects clips with another page's
     handle / watermark / app logo baked into the video (owner Jul 28: "ig
     video can have a credit in it" — a repost-of-a-repost look kills the
@@ -471,6 +492,12 @@ def clip_ok(src, dur, channel):
             "rocket, a gadget, a tech figure. A meme caption ABOUT AI over "
             "ordinary footage (people, animals, sports, comedy skits) does "
             "NOT count: judge what is physically in frame, not the text. "
+            "EXCEPTION (owner-approved lane): if the source post says the "
+            "footage was MADE WITH an AI video tool (Grok Imagine, Sora, "
+            "Veo, Midjourney...), the AI-generated footage itself IS the "
+            "technology subject — the clip demos what the tool can do, "
+            "usable:true. Source post title: "
+            f'"{title[:200]}". '
             'Return ONLY JSON: {"usable": true/false, "reason": "one short '
             'phrase when false"}',
             schema=CLIP_QA, images=qa2, model=CHEAP)
@@ -525,13 +552,17 @@ def main():
     dry = "--dry" in sys.argv
     urls = [a for a in sys.argv[1:] if a.startswith("http")]
     used = json.load(open(USED)) if os.path.exists(USED) else []
+    try:
+        rejects = json.load(open(REJECTS))
+    except Exception:
+        rejects = []
 
     # ONE source (owner order Aug 3): radar.json X video moments — viral
     # clips tweeted by the approved watchlist channels. The old fallback
     # rungs (platform scout, Reddit day/week) are deleted; when the X lane
     # has no publishable clip the slot falls to an extra carousel instead
     # (reelwatch handles the catch-up), and a dead X lane raises its alarm.
-    used_ids = {u["id"] for u in used}
+    used_ids = {u["id"] for u in used} | set(rejects)
     # owner rule Aug 1: never repost a story we ran in the last 7 days, even a
     # different angle/re-edit of the same event — the judge gets these titles
     week_ago = str(date.today() - timedelta(days=7))
@@ -586,10 +617,15 @@ def main():
             dl = ["-f", "bv*[height<=1080]+ba/b",
                   "--merge-output-format", "mp4", "-o", src]
             yt(*dl, c["url"], timeout=600)
-        if os.path.exists(src) and clip_ok(src, c["duration"], c["channel"]):
+        if os.path.exists(src) and clip_ok(src, c["duration"], c["channel"],
+                                           c.get("title", "")):
             break
         print(f"clip rejected ({'download failed' if not os.path.exists(src) else 'frame QA'}):"
               f" {c['channel']} {c['id']} — re-picking", file=sys.stderr)
+        if os.path.exists(src) and c["id"] not in rejects:
+            # frame-QA verdicts persist; download failures stay retryable
+            rejects.append(c["id"])
+            json.dump(rejects, open(REJECTS, "w"), indent=1)
         cands = cands[:r["pick"]] + cands[r["pick"] + 1:]
         r = pick(cands, recent) if cands else None
     else:
