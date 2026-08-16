@@ -1,0 +1,106 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 AI TRICKS</em> THAT FIND THE MONEY YOUR ACCOUNTANT MISSED",
+   "kicker": "YOUR ACCOUNTANT CHARGES $200 AN HOUR",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-16-edu-6-ai-bookkeeping-prompts-replacing-paid-/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei laughing with joy, waist-up in home kitchen, one fist tossing crumpled receipts into air, other hand raised triumphantly, plain background, documentary style, harsh flash, natural skin."
+  },
+  {
+   "type": "content",
+   "headline": "1) TURN YOUR <em>BANK STATEMENT</em> INTO AN EXPENSE REPORT",
+   "hsize": 100,
+   "body": "A restaurant owner pasted one month of card transactions into Claude. It sorted them into <b>14 categories</b>, flagged 3 duplicate charges. His bookkeeper charges <b>$150 a month</b> for the same thing.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) FIND THE <em>TAX DEDUCTIONS</em> YOUR ACCOUNTANT MISSED",
+   "hsize": 100,
+   "body": "A freelance designer uploaded a year of expenses. Claude flagged <b>6 missed deductions</b>: home office, internet, phone, software, professional development, and parking. Her accountant charges <b>$100 an hour</b> for this review.",
+   "media": "posts/2026-08-16-edu-6-ai-bookkeeping-prompts-replacing-paid-/gen-2.jpg",
+   "image_prompt": "Overhead close shot of six small stacks of paper receipts fanned across a white desk, a hand (cut at wrist) gripping a bold green marker mid-circle around one specific stack, the green circle thick and unmistakable, soft daylight from the side casting gentle shadows on the papers, no readable text on any receipt. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: forest green against white."
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD A <em>90-DAY CASH FLOW FORECAST</em> FROM SCRATCH",
+   "hsize": 100,
+   "body": "A 6-person agency pasted their payment schedule into Claude. It flagged two months where they would go negative before it happened. An accountant had quoted <b>$400</b> to build the same forecast.",
+   "media": "posts/2026-08-16-edu-6-ai-bookkeeping-prompts-replacing-paid-/gen-3.jpg",
+   "image_prompt": "Close shot of graph paper on a white desk with a hand-drawn horizontal grid of small empty boxes stretching full width, two sections filled solid red each stamped with a bold downward \u2193 arrow symbol, a hand (cut at wrist) gripping a red pencil hovering over a third section, warm desk lamp light from one side, no readable text anywhere in frame. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: signal red against white graph paper."
+  },
+  {
+   "type": "content",
+   "headline": "4) WRITE YOUR <em>PROFIT AND LOSS STATEMENT</em> TONIGHT",
+   "hsize": 100,
+   "body": "A solo founder typed revenue and <b>8 expense categories</b> into Claude. It returned a formatted P&L with gross margin, operating expenses by line, and net profit. A CPA bills <b>$300</b> for the same.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) GET A <em>YEAR-END SUMMARY</em> YOUR CPA WILL ACTUALLY USE",
+   "hsize": 100,
+   "body": "A business owner spent <b>4 hours every January</b> organizing numbers for her accountant. She pasted the same data into Claude. Her accountant called it the cleanest summary she had ever received.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) CATCH THE <em>BILLING ERROR</em> BEFORE YOU PAY IT",
+   "hsize": 100,
+   "body": "A construction firm pasted <b>8 vendor invoices</b> into Claude. It flagged a double-billed line on invoice 4 and a wrong rate on invoice 7, saving <b>$1,800</b> before payments cleared.",
+   "media": "posts/2026-08-16-edu-6-ai-bookkeeping-prompts-replacing-paid-/gen-6.jpg",
+   "image_prompt": "Close shot of a hand (cut at wrist) gripping a thick red marker hovering above a stack of paper invoices on a wooden desk, the top invoice face-up with one bold red circle around a single line item and a pen tip pointing directly at the circled area, warm desk lamp casting soft side shadows, no readable text on any page. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: signal red against warm wood."
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 80,
+   "body": "You will want these the next time a quarterly bill lands. Save this post and try one tonight.\n\nDaily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6 before you pay your next bookkeeping bill. These prompts do what accountants charge $200 an hour for. \ud83d\udcb0\n\nSix prompts in this post: turn a bank statement into a categorized expense report, find tax deductions your accountant missed, build a 90-day cash flow forecast, write a complete profit and loss statement, get a year-end summary your CPA will love, catch vendor billing errors before you approve payment.\n\nBookkeepers are the next professionals being quietly displaced. Not because AI replaces judgment, but because it handles the categorization and data entry that comes before judgment. That's what most small businesses are actually paying for. Running a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#ArtificialIntelligence #AItools #SmallBusiness #Entrepreneur #AIprompts",
+ "pinned_comment": "Which prompt are you trying first? Slide 6 (the invoice audit) is the sleeper. Business owners who run it usually find at least one line they were about to approve without a second look.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 AI PROMPTS</em> THAT REPLACE YOUR BOOKKEEPER TONIGHT",
+   "BOOKKEEPERS ARE BEING QUIETLY REPLACED BY <em>THESE 6 AI PROMPTS</em>",
+   "<em>6 BOOKKEEPING JOBS</em> AI DOES FREE WHILE YOUR ACCOUNTANT SLEEPS",
+   "<em>6 AI PROMPTS</em> THAT DO YOUR BOOKKEEPING TONIGHT"
+  ],
+  "scores": [
+   7,
+   5,
+   8,
+   5
+  ],
+  "winner": 2,
+  "why": "At 2am scrolling, 'FREE' stops you cold, and 'WHILE YOUR ACCOUNTANT SLEEPS' is a specific, memorable image that creates actual FOMO\u2014you feel like you're missing something wild. [0] is just standard disruption noise."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 ACCOUNTING TASKS</em> YOUR ACCOUNTANT CHARGES FOR THAT AI DOES FREE",
+   "<em>6 MONEY MISTAKES</em> AI CATCHES THAT YOUR ACCOUNTANT MISSES",
+   "<em>6 BOOKKEEPING JOBS</em> AI DOES FREE WHILE YOUR ACCOUNTANT SLEEPS",
+   "<em>6 AI TRICKS</em> THAT FIND THE MONEY YOUR ACCOUNTANT MISSED"
+  ],
+  "scores": [
+   4,
+   6,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "Only [3] makes you think you're actively losing money right now, not just overpaying for tasks. 'FIND THE MONEY' triggers genuine urgency and fear of loss, while the others promise mere efficiency\u2014that's what makes you actually stop scrolling."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u2014 HARD VIOLATION: The cover is a generated unknown face (a generic non-famous man in a kitchen throwing receipts). IMAGE LAW explicitly bans 'a generated unknown face' and 'a generated fake face standing in for a real non-famous person.' The three permitted cover options are: a recognizable famous person, the product/brand in frame, or real photo/footage of the event. This image meets no",
+ "topic_source": "ignored-pool"
+}
