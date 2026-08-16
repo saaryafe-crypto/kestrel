@@ -1,19 +1,5 @@
 [
  {
-  "t": "2026-08-12T18:48:37Z",
-  "gate": "B",
-  "subject": "6 TASKS <em>YOU'D HIRE A DEVELOPER FOR</em> THAT CLAUDE CODE DOES FREE",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW §3 violation: the cover uses a generated unknown face — a magician character who has no role in this story and is not a recognizable public figure. The law is explicit: 'Never a generated unknown face.' The magician concept is metaphorical decoration, not proof or a staged scene of the story.; Thumb test failure: at feed size, a stranger sees a circus magician with a glowing orb — nothin"
- },
- {
-  "t": "2026-08-12T18:50:36Z",
-  "gate": "B",
-  "subject": "6 TASKS <em>YOU'D HIRE A DEVELOPER FOR</em> THAT CLAUDE CODE DOES FREE",
-  "verdict": "REJECT",
-  "reason": "Cover image shows a generated unknown face (a magician in a red-gold tuxedo). IMAGE LAW is explicit: 'Never a generated unknown face.' The permissible alternatives for a utility/EDU post with no famous person in the story are: Claude Code's product UI with its brand mark in frame, or a no-face branded card. Replace gen-0.jpg with a cover built around Claude Code's actual interface/logo, or commiss"
- },
- {
   "t": "2026-08-12T20:25:26Z",
   "gate": "A",
   "subject": "More Americans now use marijuana daily than drink or smoke daily, per NHSDA",
@@ -2098,5 +2084,19 @@
   "subject": "Israeli bots are creating AI videos of Greeks pulling down Palestinian flags because no such videos exist",
   "verdict": "KILL",
   "reason": "No substance: one thin tweet (105 chars) with no supporting facts, numbers, scale, or documented real-world consequence—writer has nothing to build slides from."
+ },
+ {
+  "t": "2026-08-16T14:20:23Z",
+  "gate": "B",
+  "subject": "SOMEONE OWES YOU MONEY. <em>THESE 6 FREE AI PROMPTS</em> GET IT BACK.",
+  "verdict": "REJECT",
+  "reason": "Cover image fails the thumb test: the background — shipping containers, cranes, fire-world-map, airplane — tells a global trade/logistics story. At feed size a stranger guesses import/export, not AI prompts for unpaid invoices. The stamping figure and paper stacks on the desk ARE correct; the fix is swapping only the background to an office/payment context (desk, invoices, laptop) and removing the"
+ },
+ {
+  "t": "2026-08-16T14:22:17Z",
+  "gate": "B",
+  "subject": "WHEN SOMEONE OWES YOU MONEY, <em>THESE 6 FREE AI PROMPTS</em> GET IT BACK.",
+  "verdict": "REJECT",
+  "reason": "Cover image background — shipping containers, cargo cranes, a freighter, and a global trade map — has zero connection to collecting client invoices. The thumb test fails: a stranger at feed size guesses international logistics, not freelance payment collection. Regenerate the cover with a relevant scene (e.g., a business person at a desk with stacked invoices, a stamped FINAL NOTICE, a laptop show"
  }
 ]

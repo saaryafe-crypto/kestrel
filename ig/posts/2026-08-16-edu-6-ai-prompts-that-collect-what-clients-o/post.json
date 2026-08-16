@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "WHEN SOMEONE OWES YOU MONEY, <em>THESE 6 FREE AI PROMPTS</em> GET IT BACK.",
+   "kicker": "NO LAWYER. NO AWKWARD CALLS.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-16-edu-6-ai-prompts-that-collect-what-clients-o/gen-0-r.jpg",
+   "image_prompt": "Faceless figure raises crimson rubber stamp overhead over dark desk with papers, triumph, Claude logo glows on charcoal wall. Documentary news photo, 35mm, harsh flash, crimson accent."
+  },
+  {
+   "type": "content",
+   "headline": "1) WRITE A FINAL NOTICE <em>THAT SOUNDS LIKE A LAW FIRM SENT IT</em>",
+   "body": "A business attorney charges between <b>$200 and $500</b> for this. This prompt does it free:\n\n\"$[amount] for [service], [X] days overdue. Write a firm final notice implying legal action if unpaid. No false threats.\"",
+   "hsize": 84,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) SEND THE FIRST NUDGE <em>THAT DOESN'T RUIN THE RELATIONSHIP</em>",
+   "body": "Most late invoices were forgotten, not ignored. A warm first reminder at <b>30 days overdue</b> recovers the majority:\n\n\"$[amount] for [service] is 30 days overdue. Write a short warm reminder. Assume they forgot.\"",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>NEGOTIATE A PAYMENT PLAN</em> IN ONE EMAIL",
+   "body": "A structured plan beats a dispute when a client can't pay in full:\n\n\"[Client] owes $[amount] for [service]. Propose a 3-installment plan with specific dates. Make it easy to say yes to.\"",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>ASK FOR A DEPOSIT</em> BEFORE YOU START ANYTHING",
+   "body": "A <b>$5,000 project</b> with no deposit means pure trust. If the client disappears, you recover nothing:\n\n\"[Project] at $[total]. Write a confident message requesting a 50% deposit before I start. Make it feel standard.\"",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) ADD A LATE PAYMENT CLAUSE <em>TO ANY CONTRACT IN 30 SECONDS</em>",
+   "body": "Most service businesses skip the late payment clause. Claude adds it to anything you paste:\n\n\"[Your terms]. Add a clause: 1.5% monthly interest on overdue balances, work pauses after 30 days.\"",
+   "hsize": 84,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) FOLLOW UP ON A QUOTE <em>THAT WENT COMPLETELY SILENT</em>",
+   "body": "An unanswered quote is money on the table. This prompt reopens the conversation without begging:\n\n\"I quoted $[amount] for [service] [X] days ago, no reply. Write a confident follow-up that leaves the door open.\"",
+   "hsize": 90,
+   "media": "posts/2026-08-16-edu-6-ai-prompts-that-collect-what-clients-o/gen-6.jpg",
+   "image_prompt": "A laptop open to an email thread, a single message with a bold red exclamation symbol showing zero replies, a dead phone lying face-down beside the keyboard. No text readable. Documentary news photo, 35mm, harsh flash. Accent: muted teal against off-white."
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR NEXT TIME THEY DON'T PAY",
+   "body": "You'll want these when it happens. And it will happen. Daily AI news and real skills, every day",
+   "hsize": 104,
+   "media": null
+  }
+ ],
+ "caption": "Swipe through these before your next invoice goes unpaid. Six AI prompts that collect what clients owe you, no lawyer or phone call needed. \ud83d\udcbc\n\nFinal notice that sounds like a law firm wrote it, first gentle nudge at 30 days that doesn't burn the relationship, payment plan negotiation in one email, deposit request that feels like standard practice, late payment clause for any contract, follow-up on a quote that went silent. Six prompts, copy and paste, use tonight.\n\nBloomberg reported this week that 60% of Gen-Z and millennials moved back home in the past two years. When consumers are tight, clients pay late. The business owners who handle collections with AI stop losing hours to follow-up calls.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Bloomberg, Anthropic\n\n#artificialintelligence #business #chatgpt #claude #entrepreneur",
+ "pinned_comment": "Which one are you using first? Slide 2 is the one most business owners need tonight and almost nobody thinks to try.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>THAT COLLECT WHAT CLIENTS OWE YOU</em>",
+   "<em>CLIENTS WON'T PAY YOU.</em> THESE 6 AI PROMPTS COLLECT WHAT THEY OWE",
+   "MOST SMALL BUSINESSES LOSE THOUSANDS TO LATE CLIENTS. <em>6 PROMPTS THAT STOP IT</em>",
+   "6 AI PROMPTS <em>THAT SOUND LIKE A LAWYER WROTE THEM</em>",
+   "A LAWYER CHARGES $400 AN HOUR TO WRITE THESE. <em>6 AI PROMPTS DO IT FREE</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   3,
+   8
+  ],
+  "winner": 4,
+  "why": "[4]'s specific price tag ($400/hour) is instantly shocking and concrete\u2014you stop mid-scroll because you see exactly what you'd save. [2] only vaguely warns you might lose 'thousands' without proving what you'd actually gain back."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "SOMEONE OWES YOU MONEY. <em>THESE 6 FREE AI PROMPTS</em> GET IT BACK.",
+   "6 FREE PROMPTS. YOUR PAYMENT EMAILS NOW <em>SOUND LIKE A LAW FIRM WROTE THEM.</em>",
+   "6 FREE AI PROMPTS THAT CHASE DOWN <em>YOUR UNPAID INVOICES</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   6
+  ],
+  "winner": 0,
+  "why": "Opening with \"SOMEONE OWES YOU MONEY\" punches the actual pain point\u2014immediate, relatable, makes you think \"yeah, that's me.\" Candidate [1] is clever but starting with \"6 FREE PROMPTS\" lacks that gut-punch; you feel sold rather than seen."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Cover image background \u2014 shipping containers, cargo cranes, a freighter, and a global trade map \u2014 has zero connection to collecting client invoices. The thumb test fails: a stranger at feed size guesses international logistics, not freelance payment collection. Regenerate the cover with a relevant scene (e.g., a business person at a desk with stacked invoices, a stamped FINAL NOTICE, a laptop show",
+ "topic_source": "news-anchored"
+}
