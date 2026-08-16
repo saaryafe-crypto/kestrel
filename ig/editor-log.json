@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-12T17:58:30Z",
-  "gate": "A",
-  "subject": "ELON MUSK ON BUILDING A “STAR MIND” POWERED BY THE SUN “We’ve already built the most powerful AI training clusters in th",
-  "verdict": "KILL",
-  "reason": "This is a launch preview of future plans (10 gigawatts by end of next year), not a real-world event that already happened—the doctrine explicitly bans forward guidance and announcement previews as 'ON-TOPIC BUT ROUTINE.'"
- },
- {
   "t": "2026-08-12T18:48:37Z",
   "gate": "B",
   "subject": "6 TASKS <em>YOU'D HIRE A DEVELOPER FOR</em> THAT CLAUDE CODE DOES FREE",
@@ -2098,5 +2091,12 @@
   "subject": "AI CAN FORECAST YOUR QUARTER, FIND YOUR WORST PRODUCT, AND CATCH EVERY SILENT COST <em>IN 60 SECONDS</em>",
   "verdict": "REJECT",
   "reason": "CAST TRUTH — IMAGE LAW VIOLATION: The cover face is Sam Altman (dark curly hair, facial structure, OpenAI logo placed deliberately beside him). Sam Altman has zero role in this story — the post is about five generic BI prompts for small business owners, not anything Altman said, did, or announced. A famous face as decoration with no story connection is an explicit REJECT trigger per the doctrine. "
+ },
+ {
+  "t": "2026-08-16T08:39:59Z",
+  "gate": "A",
+  "subject": "Israeli bots are creating AI videos of Greeks pulling down Palestinian flags because no such videos exist",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet (105 chars) with no supporting facts, numbers, scale, or documented real-world consequence—writer has nothing to build slides from."
  }
 ]

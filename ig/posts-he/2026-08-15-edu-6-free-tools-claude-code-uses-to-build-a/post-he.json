@@ -1,0 +1,99 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "אתרים מונפשים שמעצבים גובים עליהם אלפים: MengTo שחרר <em>כל פרומפט וכלי</em>",
+   "kicker": "בלי ידע בעיצוב",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-15-edu-6-free-tools-claude-code-uses-to-build-a/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up, head slightly forward, eyes wide in pure shock and delight directly at camera — caught the instant he saw the output materialize. Right hand flat on a dark open laptop, screen blazing with cascading blue and violet particle arcs (no text, only curving light shapes and glowing streaks). The Claude logo exactly as in the reference image burns as large white neon on the dark studio wall behind him. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric violet against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>הזן ל-Claude עיצובים אמיתיים</em> עם Mobbin MCP",
+   "body": "MengTo הזין ל-Claude <b>מסכי אפליקציות אמיתיים</b> במקום תיאורים כתובים. Mobbin MCP מחבר את Claude Code לאלפי עיצובי אפליקציות אמיתיים תוך שניות.",
+   "hsize": 104,
+   "media": "posts/2026-08-15-edu-6-free-tools-claude-code-uses-to-build-a/gen-1.jpg",
+   "image_prompt": "Hands-only close, no faces: one hand holds a phone displaying a clean geometric app UI in cool blue (no text, only shape grids and color blocks), the other rests at a laptop keyboard whose screen glows with the same visual hierarchy rebuilt as a dark animated interface. Dark studio desk surface. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric blue against dark charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>השתמש ב-Collect UI</em> כיעד הויזואלי של Claude",
+   "body": "Collect UI מפרסם כל יום את עיצובי הממשק הכי טובים. הדבק לינק אחד ב-Claude Code ויש לו <b>עיצוב אמיתי ומוכן לעבוד לפיו</b> במקום להמציא מאפס.",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>הדבק את הקוד של Kage</em> ל-Claude לאנימציות מקצועיות",
+   "body": "Kage הוא <b>פרויקט אנימציה בקוד פתוח</b> עם אפקטים מוכנים שעובדים. הדבק את הקוד שלו ב-Claude Code ובקש ממנו לעטוף את התוכן שלך באפקטים האלה.",
+   "hsize": 100,
+   "media": "posts/2026-08-15-edu-6-free-tools-claude-code-uses-to-build-a/gen-3.jpg",
+   "image_prompt": "A dark monitor screen ablaze with electric green particle trails arcing in motion blur across pure black — no text, only looping streaks and glowing point clusters suggesting animation in motion. Three matte dark folder icons fanned across the charcoal desk beside the monitor, catching neon green spill. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric green against charcoal black."
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>כוון את Claude ל-Towers</em> לתחושה הויזואלית",
+   "body": "Towers אוסף פרויקטי אינטרנט מוכנים לפי סגנון ויזואלי. שתף את ה-URL ו-Claude מפרק ממנו את <b>מערכת הצבעים ותזמון האנימציות</b> ומכניס אותם לפרויקט שלך.",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>שרטט את הפריסה שלך</em> ב-Sketchbook קודם",
+   "body": "שרטט את הפריסה שלך ב-Sketchbook, העלה את התמונה, ו-Claude קורא את המבנה ישירות. <b>סקיצה של 30 שניות הופכת למבנה דף עובד</b> בלי שתתאר פיקסל אחד.",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>הפרומפט הפותח</em> שמגדיר הכל",
+   "body": "MengTo שחרר <b>שלושה מאגרי קוד וכל פרומפט</b> שהשתמש בו לאורך המדריך. כל אתר מתחיל עם פרומפט אחד שמנעל את הכיוון הויזואלי לפני ש-Claude כותב שורה אחת.",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה.</em> תצטרך את זה הלילה.",
+   "body": "תרצה שכולם פתוחים בפעם הראשונה שתנסה. שישה כלים, בסדר, מהמדריך הוויראלי של MengTo ב-Claude Code.\n\nחדשות AI ומיומנויות אמיתיות, ארבע פעמים בשבוע",
+   "hsize": 96,
+   "media": null
+  }
+ ],
+ "caption": "MengTo שחרר את כל הכלים והפרומפטים מהמדריך שמעצבים גובים עליו אלפים, ועכשיו כל זה בחינם\n\nMobbin MCP, Collect UI, Kage, Towers, Sketchbook, והפרומפט הפותח בקוד פתוח: שישה משאבים מהמדריך הוויראלי של MengTo על בניית דפי נחיתה מונפשים עם Claude Code ו-Opus 5, ארבעים דקות בסדר המדויק שבו הוא משתמש בהם.\n\nפעם מעצבים בילו שבועות על דף נחיתה אחד. היום הכי טובים שבהם מכוונים את Claude לרפרנס אמיתי ובצהריים כבר יש להם אתר עם אנימציות. ששת הכלים האלה הם מה שמי שעושים את זה משתמשים בהם בשקט.\n\nמנהל עסק? שלח לנו DM עם \"AI\" ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: MengTo\n\nעקוב אחרי @ainews.israel לחדשות AI יומיות\n\n#claudecode #aitools #webdesign #learnai #techskills",
+ "pinned_comment": "איזה כלי תנסה קודם? Mobbin MCP בשקופית השנייה הוא הכלי שרוב האנשים לא שמעו עליו, ואחרי שמכירים אותו כבר לא מסבירים ל-Claude עיצובים בטקסט.",
+ "hook_tournament": {
+  "candidates": [
+   "<em>6 FREE RESOURCES</em> THAT TURN CLAUDE CODE INTO A WEBSITE BUILDER"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 FREE RESOURCES</em> THAT FIX WHY YOUR CLAUDE WEBSITES LOOK CHEAP",
+   "<em>6 FREE RESOURCES</em> THAT TURN CLAUDE CODE INTO A WEBSITE BUILDER",
+   "THE <em>6 FREE RESOURCES</em> THAT MAKE CLAUDE BUILD WHAT MOST PEOPLE PAY DESIGNERS FOR"
+  ],
+  "scores": [
+   5,
+   2,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] hits instantly with a concrete promise (replace paid designer work) that makes you think 'wait, really?', while [0] assumes you already have bad-looking sites and [1] uses awkward phrasing that makes you work to parse what's being offered in 1.7 seconds."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "editor_override": "IMAGE LAW §3 — generated unknown face on cover. The doctrine bans 'a generated unknown face' and 'a generated fake face standing in for a real non-famous person.' MengTo (@MengTo) is a real actor in this story but is not a universally recognizable celebrity — a stranger scrolling past cannot identify this person at feed size. Fix: replace with a real photo of MengTo, a screen-recording frame of an",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
