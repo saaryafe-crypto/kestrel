@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "מעצב שחרר <em>שלושה אתרי 3D בחינם</em> שאפשר לשכפל הלילה",
+   "kicker": "בלי קוד",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-15-edu-5-free-tools-claude-code-uses-to-build-t/gen-0.jpg",
+   "image_prompt": "Dario Amodei in craftsman apron, profile view, holds glowing laptop chest-high displaying spinning 3D wireframe shapes. Claude logo glows warm orange neon on workshop wall. Electric blue deep purple, 35mm film, natural light, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "מעצב אחד בנה <em>שלושה אתרי 3D בחינם</em> עם Claude Code",
+   "hsize": 88,
+   "body": "MengTo בנה <b>שלושה</b> דפי נחיתה עם אנימציות 3D באמצעות <b>Opus 5</b> ו-Claude Code. אחר כך שחרר את כל הקוד בחינם. אצל סוכנות עיצוב, אתרים כאלה עולים אלפי דולרים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>Mobbin MCP</em> לרפרנסים אמיתיים לעיצוב",
+   "hsize": 100,
+   "body": "\"אני רוצה שדף הנחיתה הזה ירגיש כמו העיצוב הזה [הדבק צילום מסך מ-Mobbin]. תשתמש באותם ריווחים, פלטת צבעים ומבנה סקשנים. בנה ב-Three.js עם אנימציית hero מסתובבת.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>CollectUI</em> לשכפול קומפוננטות UI אמיתיות",
+   "hsize": 102,
+   "body": "\"הנה קומפוננטת UI שאני רוצה באתר שלי [הדבק צילום מסך מ-CollectUI]. שחזר אותה כסקשן ב-Three.js בדף הנחיתה שלי. דייק בפרופורציות ובגודל הפונט.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) שכפל את <em>Kage</em>, אתר 3D בחינם עם קוד מלא",
+   "hsize": 82,
+   "body": "Kage היא תבנית Three.js <b>בקוד פתוח</b> ובחינם. \"שכפלתי את תבנית Kage. שנה את צורת ה-hero המסתובב לקוביה, החלף את הצבעים ל-[צבע המותג] ותכתוב מחדש את הכותרת: [הטקסט שלך].\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) בנה על <em>Towers</em>, תבנית 3D נוספת בחינם",
+   "hsize": 100,
+   "body": "Towers היא התבנית השנייה בחינם של MengTo ב-Three.js, שוקלת <b>1-2MB</b>. \"שכפלתי את תבנית Towers. הסר את הסקשן השלישי, שנה את הרקע לקרם והוסף טופס יצירת קשר שאוסף שם ומייל.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) התחל מ-<em>Sketchbook</em>, התבנית השלישית בחינם",
+   "hsize": 100,
+   "body": "Sketchbook היא התבנית השלישית בחינם של MengTo ב-Three.js. \"השתמש ב-Sketchbook כבסיס ובנה מחדש את סקשן ה-hero להציג את [המוצר שלך] עם רקע של אנימציית חלקיקים ב-[צבע המותג].\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה</em> להלילה",
+   "hsize": 76,
+   "body": "כשתנסה, תרצה שהכלים האלה יהיו פתוחים לפניך. שמור את הפוסט הזה. חדשות AI וכישורים אמיתיים, כל יום.",
+   "media": null
+  }
+ ],
+ "caption": "שלושה אתרי 3D בחינם, קוד מקור פתוח ופרומפטים מדויקים. אצל סוכנות עיצוב זה היה עולה אלפי דולרים. 🏗️\n\nClaude Code משתמש בחמישה כלים חינמיים לבניית אתרים עם אנימציות 3D מאפס, בלי ניסיון בעיצוב.\n\nMobbin MCP לרפרנסים חיים מתוך Claude, CollectUI לצילומי מסך של קומפוננטות UI אמיתיות, Kage עם קוד מקור פתוח מלא, Towers בגודל 1-2MB עם תמיכה במובייל, Sketchbook כנקודת ההתחלה השלישית. ועוד הפרומפטים המדויקים שבהם MengTo בנה את שלושת האתרים עם Opus 5.\n\nMengTo בנה את שלושתם עם Claude Code ו-Opus 5 ושחרר הכל בחינם. מנהל עסק? שלח לנו DM עם 'AI' ונראה לך מה זה יכול לעשות לך.\n\nמקורות: MengTo\n\nעקוב אחרי @ainews.israel לחדשות AI וכישורים אמיתיים, כל יום.\n\n#ClaudeCode #AITools #WebDesign #NoCode #ArtificialIntelligence",
+ "pinned_comment": "הסוד האמיתי פה הוא Mobbin MCP בשקופית השלישית. במקום לכתוב 'תעשה את זה נקי', אתה מראה ל-Claude צילום מסך אמיתי כרפרנס, והתוצאה קופצת רמה מיד. באיזו מהשלוש תבניות תנסה קודם?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 TOOLS</em> THAT MAKE CLAUDE CODE BUILD YOUR ENTIRE WEBSITE",
+   "<em>5 FREE TOOLS</em> CLAUDE CODE USES TO BUILD WHOLE WEBSITES",
+   "CLAUDE CODE BUILT <em>3 3D WEBSITES</em> WITH 5 FREE TOOLS",
+   "THIS DESIGNER SHIPPED <em>3 FREE 3D WEBSITES</em> WITH CLAUDE CODE",
+   "CLAUDE CODE BUILDS <em>3D WEBSITES</em> WITH 5 FREE TOOLS"
+  ],
+  "scores": [
+   3,
+   5,
+   6,
+   7,
+   5
+  ],
+  "winner": 3,
+  "why": "[3] leads with a real person who SHIPPED something—you stop scrolling to find out who and how. [2] buries the story in tool-speak and 'Claude Code built' passively, plus the '3 3D' repetition makes you re-read instead of react."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THIS DESIGNER SHIPPED <em>3 FREE 3D WEBSITES</em> WITH CLAUDE CODE",
+   "<em>3 FULL 3D WEBSITES</em> YOU CAN CLONE FOR FREE TONIGHT",
+   "<em>3 FREE 3D WEBSITE TEMPLATES</em> SO GOOD THEY FEEL ILLEGAL"
+  ],
+  "scores": [
+   6,
+   8,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] stops you with urgent action ('CLONE FOR FREE TONIGHT') and instant clarity on what you get. [0] is just passive announcement and [2] buries the story behind 'feel illegal' hyperbole you'd have to decode at 2am."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW — GENERATED UNKNOWN FACE ON COVER: The cover shows a generated man in an apron holding a laptop. Image Law is explicit: 'Never a generated unknown face.' MengTo is a real, named person — use his real photo, or remove the human entirely and show the Three.js 3D output (laptop screen alone, or the actual template in-browser). The workshop setting and 3D wireframe content on the laptop are "
+}
