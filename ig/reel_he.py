@@ -214,7 +214,12 @@ def main():
         return localize(args[0].rstrip("/"), dry)
     cands = backlog()
     if not cands:
-        raise SystemExit("no un-localized reel found")
+        # CLEAN SKIP, exit 0 (Aug 16): HE only mirrors the EN reel lane, so
+        # "nothing to localize" is not a failure here — a starved EN lane
+        # raises its own alarm. Exiting 1 made the plist's issue-on-nonzero
+        # wrapper open 14 noise issues (#136→#184) for this one line.
+        print("no un-localized reel found — clean skip", file=sys.stderr)
+        return
     last = None
     for post_dir in cands[:3]:  # fallback ladder: a dead source link falls through
         try:
