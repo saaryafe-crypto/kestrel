@@ -1,205 +1,157 @@
 {
- "updated": "2026-08-15T05:08:46+00:00",
+ "updated": "2026-08-16T05:08:44+00:00",
  "competitor_hits": [
   {
-   "page": "wired",
-   "likes": 14000,
-   "ratio": 5.16,
-   "tier": "mega",
-   "hook": "\"WIRED\u2019s Reece Rogers requested a copy of his data from the McDonald\u2019s loyalty program and received an extensive, personalized report that algorithmically predicted he\u2019d never stop being a customer.\n\nTap the \ud83d\udd17 in bio for",
-   "date": "2026-08-13"
-  },
-  {
    "page": "futurism",
-   "likes": 7127,
-   "ratio": 3.45,
+   "likes": 19000,
+   "ratio": 10.89,
    "tier": "mega",
    "hook": "\"Elon Musk\u2019s \u201cmaximum truth-seeking\u201d AI Grok is dropping some nuclear takes about its creator: that he consumes child pornography and deserves to be assassinated for his actions.\n\nWas Grok, n\u00e9e MechaHitler, rebelling aga",
    "date": "2026-08-14"
   },
   {
    "page": "mashable",
-   "likes": 1053,
-   "ratio": 2.25,
+   "likes": 3724,
+   "ratio": 2.82,
    "tier": "mega",
-   "hook": "\"It\u2019s happening!!! #kingdomhearts4 #allaccess #kingdomheartsiv #kingdomhearts #coco\".",
+   "hook": "\"Wait, was that Jarvis?! #d23 #visionquest #wandavision #disneyplus #marvel Credit: Marvel Entertainment\".",
    "date": "2026-08-14"
   },
   {
    "page": "wired",
-   "likes": 5060,
-   "ratio": 1.86,
+   "likes": 7859,
+   "ratio": 2.67,
    "tier": "mega",
    "hook": "\"Erin McNulty had been missing for weeks when her mother, Linda, sat down on a chair in her living room, exhausted. Linda had put in her usual seven-day workweek at the antiques shop she runs near Burlington, Vermont. Sh",
    "date": "2026-08-14"
   },
   {
    "page": "mashable",
-   "likes": 812,
-   "ratio": 1.74,
-   "tier": "mega",
-   "hook": "\"Ernesto de la Cruz is back!!! #coco2 #allaccess #d23 #ernestodelacruz #pixar\".",
-   "date": "2026-08-14"
-  },
-  {
-   "page": "mashable",
-   "likes": 521,
-   "ratio": 1.11,
-   "tier": "mega",
-   "hook": "\"Love is in the air \ud83d\udc93 #d23 #allaccess #liloandstitch2 #stitchandangel #stitch\".",
-   "date": "2026-08-14"
-  },
-  {
-   "page": "wired",
-   "likes": 2823,
-   "ratio": 1.04,
-   "tier": "mega",
-   "hook": "\"Security researchers found that in less than 60 seconds, they could open a hatch on a plane\u2019s exterior, plug in a tiny device, and redirect the aircraft\u2019s autopilot or sabotage its flight plan.\n\nRead more at the \ud83d\udd17 in bi",
-   "date": "2026-08-13"
-  },
-  {
-   "page": "mashable",
-   "likes": 479,
-   "ratio": 1.02,
-   "tier": "mega",
-   "hook": "\"Miguel and the world of Pixar\u2019s Coco is coming to Kingdom Hearts IV in late 2027. #d23 #kingdomhearts #kh4 #disney #gaming\".",
-   "date": "2026-08-14"
-  },
-  {
-   "page": "mashable",
-   "likes": 473,
-   "ratio": 1.01,
-   "tier": "mega",
-   "hook": "\"The \u201cIncredible\u201d Parr Family will be back Summer 2028! #d23 #pixar #incredibles #disney #movies\".",
-   "date": "2026-08-14"
-  },
-  {
-   "page": "technology",
-   "likes": 10000,
-   "ratio": 1.0,
-   "tier": "mega",
-   "hook": "\"A Chinese electric SUV has pulled off a wild tunnel stunt, completing a full 360\u00b0 loop while reportedly traveling at roughly 130 km/h \ud83e\udd2f\n\nVoyah\u2019s Passion S entered the curved tunnel wall at a precise 16-degree steering a",
-   "date": "2026-08-14"
-  },
-  {
-   "page": "techcrunch",
-   "likes": 151,
-   "ratio": 1.0,
-   "tier": "mega",
-   "hook": "\"Get a hands-on look at Google\u2019s new Pixel 11 lineup, from the more durable Pro Fold, an updated new camera bar, and of course, a push for Gemini AI features.\".",
-   "date": "2026-08-13"
-  },
-  {
-   "page": "wired",
-   "likes": 2712,
-   "ratio": 1.0,
-   "tier": "mega",
-   "hook": "\"With dating apps and social media determining so much of how people connect, ghosting \u2014 ending a relationship by ignoring or blocking the other person\u2019s calls and texts, effectively icing them out \u2014 has become the break",
-   "date": "2026-08-13"
-  },
-  {
-   "page": "mashable",
-   "likes": 462,
-   "ratio": 0.99,
-   "tier": "mega",
-   "hook": "\"Will Neil Patrick Harris announce he\u2019s in the Avengers: Doomsday? Guess we\u2019ll have to wait and see. What role would he play in the Marvel Cinematic Universe? \n\n#d23 #disney #mcu #marvel #doomsday\".",
-   "date": "2026-08-14"
-  },
-  {
-   "page": "wired",
-   "likes": 2619,
-   "ratio": 0.96,
-   "tier": "mega",
-   "hook": "\"Jeff Yoo was working nights as an ER doctor in Vancouver when weather forecasters warned that a heat wave was coming. He didn\u2019t think much of it. But when a record-breaking heat dome hit on June 25, 2021, temperatures c",
-   "date": "2026-08-13"
-  },
-  {
-   "page": "technology",
-   "likes": 9270,
-   "ratio": 0.93,
-   "tier": "mega",
-   "hook": "\"Do you like the new or old logo better? \ud83e\udd14\n\nInstagram is replacing its familiar cursive wordmark with a cleaner new design, marking the first major change to the lettering in roughly 10 years.\n\nnstagram\u2019s updated wordmar",
-   "date": "2026-08-13"
-  },
-  {
-   "page": "mashable",
-   "likes": 382,
-   "ratio": 0.82,
-   "tier": "mega",
-   "hook": "\"Getting a little behind the mask with Dr. Doom in a new look from Avengers: Doomsday. #d23 #marvel #doomsday #avengers #avengersdoomsday Credit: Marvel\".",
-   "date": "2026-08-14"
-  },
-  {
-   "page": "futurism",
-   "likes": 1494,
-   "ratio": 0.72,
-   "tier": "mega",
-   "hook": "\"In light of plummeting public support for its widespread automatic license plate readers, surveillance company Flock has lost dozens of contracts with cities across the US. Citizens are increasingly disgusted by the com",
-   "date": "2026-08-13"
-  },
-  {
-   "page": "technology",
-   "likes": 6725,
-   "ratio": 0.67,
-   "tier": "mega",
-   "hook": "\"Apple is now sending direct alerts to iPhones when it detects government-grade spyware targeting a user, with notifications already sent to iPhones across 110 countries.\n\nPegasus is a notorious spyware capable of access",
-   "date": "2026-08-14"
-  },
-  {
-   "page": "mashable",
-   "likes": 286,
-   "ratio": 0.61,
-   "tier": "mega",
-   "hook": "\"MOTHER!!!! #d23 #allaccess #kathrynhahn #mothergothel #tangledliveaction\".",
-   "date": "2026-08-14"
-  },
-  {
-   "page": "wired",
-   "likes": 1548,
-   "ratio": 0.57,
-   "tier": "mega",
-   "hook": "\"With the revelation that ICE will spend up to $20 million by March on gloves that can deliver painful electric shocks to subdue an individual, according to a notice published earlier this week by the Department of Homel",
-   "date": "2026-08-13"
-  },
-  {
-   "page": "wired",
-   "likes": 1556,
-   "ratio": 0.57,
-   "tier": "mega",
-   "hook": "\"Internal records obtained by WIRED reveal how, for years, United States Customs and Border Protection employees and contractors were accused of abusing sensitive government databases for reasons that had nothing to do w",
-   "date": "2026-08-13"
-  },
-  {
-   "page": "technology",
-   "likes": 5219,
-   "ratio": 0.52,
-   "tier": "mega",
-   "hook": "\"Developer Noah Iarrobino created Carrier Pidge, an iOS messaging app that deliberately slows conversations by sending every message through a virtual carrier pigeon \ud83d\udc26\ud83d\udcf1\n\nInstead of arriving instantly, messages travel bas",
-   "date": "2026-08-14"
-  },
-  {
-   "page": "mashable",
-   "likes": 194,
-   "ratio": 0.41,
+   "likes": 2930,
+   "ratio": 2.22,
    "tier": "mega",
    "hook": "\"The bunny and the snake will be back! #zootopia3 #zootopia #d23 #allaccess #judyhopps\".",
    "date": "2026-08-14"
   },
   {
    "page": "mashable",
-   "likes": 188,
-   "ratio": 0.4,
+   "likes": 2525,
+   "ratio": 1.91,
    "tier": "mega",
-   "hook": "\"Wait, was that Jarvis?! #d23 #visionquest #wandavision #disneyplus #marvel Credit: Marvel Entertainment\".",
+   "hook": "\"Getting a little behind the mask with Dr. Doom in a new look from Avengers: Doomsday. #d23 #marvel #doomsday #avengers #avengersdoomsday Credit: Marvel\".",
    "date": "2026-08-14"
   },
   {
    "page": "mashable",
-   "likes": 115,
-   "ratio": 0.25,
+   "likes": 2385,
+   "ratio": 1.81,
    "tier": "mega",
-   "hook": "\"Josh D\u2019Amaro takes the D23 2026 stage for the first time as CEO #D23 #allaccess #disney #joshdamaro\".",
+   "hook": "\"The \u201cIncredible\u201d Parr Family will be back Summer 2028! #d23 #pixar #incredibles #disney #movies\".",
    "date": "2026-08-14"
+  },
+  {
+   "page": "mashable",
+   "likes": 2001,
+   "ratio": 1.52,
+   "tier": "mega",
+   "hook": "\"Miguel and the world of Pixar\u2019s Coco are coming to Kingdom Hearts IV in late 2027. #d23 #kingdomhearts #kh4 #disney #gaming\".",
+   "date": "2026-08-14"
+  },
+  {
+   "page": "technology",
+   "likes": 13000,
+   "ratio": 1.0,
+   "tier": "mega",
+   "hook": "\"A Chinese electric SUV has pulled off a wild tunnel stunt, completing a full 360\u00b0 loop while reportedly traveling at roughly 130 km/h \ud83e\udd2f\n\nVoyah\u2019s Passion S entered the curved tunnel wall at a precise 16-degree steering a",
+   "date": "2026-08-14"
+  },
+  {
+   "page": "wired",
+   "likes": 2127,
+   "ratio": 0.72,
+   "tier": "mega",
+   "hook": "\"William \u201cWilly\u201d Myco, a 38-year-old from Boston who now lives in his parents\u2019 native Puerto Rico, seems at ease breaking the law.\n\nHe claims that, in 2002, he produced his own DMT by following a published scientific ext",
+   "date": "2026-08-15"
+  },
+  {
+   "page": "technology",
+   "likes": 8748,
+   "ratio": 0.67,
+   "tier": "mega",
+   "hook": "\"Developer Noah Iarrobino created Carrier Pidge, an iOS messaging app that deliberately slows conversations by sending every message through a virtual carrier pigeon \ud83d\udc26\ud83d\udcf1\n\nInstead of arriving instantly, messages travel bas",
+   "date": "2026-08-14"
+  },
+  {
+   "page": "technology",
+   "likes": 8359,
+   "ratio": 0.64,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to see how Cristiano Ronaldo\u2019s $1.2 billion fortune has funded an extraordinary collection of rare hypercars, luxury properties, a superyacht and private jet \ud83d\udcb0\ud83c\udfce\ufe0f\n\nHis collection includes a $2.7 million Mercedes",
+   "date": "2026-08-14"
+  },
+  {
+   "page": "mashable",
+   "likes": 638,
+   "ratio": 0.48,
+   "tier": "mega",
+   "hook": "\"MOTHER!!!! #d23 #allaccess #kathrynhahn #mothergothel #tangledliveaction\".",
+   "date": "2026-08-14"
+  },
+  {
+   "page": "futurism",
+   "likes": 724,
+   "ratio": 0.41,
+   "tier": "mega",
+   "hook": "\"In bound-to-be-controversial new research, scientists claim they\u2019ve discovered a link between the specific balance of microflora in the gut and psychopathic behavior.\n\nAs detailed in a yet-to-be-peer-reviewed study, a t",
+   "date": "2026-08-15"
+  },
+  {
+   "page": "mashable",
+   "likes": 460,
+   "ratio": 0.35,
+   "tier": "mega",
+   "hook": "\"The cosplayers at D23 did not come to play.\n#d23 #d23expo #disney #cosplay\".",
+   "date": "2026-08-15"
+  },
+  {
+   "page": "wired",
+   "likes": 1028,
+   "ratio": 0.35,
+   "tier": "mega",
+   "hook": "\"Privacy advocates and musicians rallied outside Madison Square Garden on Friday, pushing for new legislation to prevent facial-recognition technology at the venue and other public spaces in New York City.\n\n\u201cMSG and its ",
+   "date": "2026-08-14"
+  },
+  {
+   "page": "mashable",
+   "likes": 393,
+   "ratio": 0.3,
+   "tier": "mega",
+   "hook": "\"In this episode of Say More, Elizabeth Meriwether breaks down the genius that is Steve Way. \ud83d\udc4f \ud83d\udc4f \ud83d\udc4f\u2060\n\u2060\nHead to the link in bio for the full interview.\u2060\n\u2060\n#SayMore #Furious\".",
+   "date": "2026-08-15"
+  },
+  {
+   "page": "mashable",
+   "likes": 175,
+   "ratio": 0.13,
+   "tier": "mega",
+   "hook": "\"It wouldn\u2019t be a D23 experience if there wasn\u2019t any Star Wars. \n\nCheck out just a few of our favorite Star Wars exhibits, props, and photo ops lighting at this year\u2019s ultimate Disney fan event.\n\n#d23 #d23expo #disney #s",
+   "date": "2026-08-15"
+  },
+  {
+   "page": "mashable",
+   "likes": 174,
+   "ratio": 0.13,
+   "tier": "mega",
+   "hook": "\"Imagine walking up to Olaf from Frozen and having a genuine back-and-forth conversation with him.\n\nImagineers over at Disney may have just pulled it off.\n\nThe animatronic walked around freely and answered questions with",
+   "date": "2026-08-15"
+  },
+  {
+   "page": "mashable",
+   "likes": 135,
+   "ratio": 0.1,
+   "tier": "mega",
+   "hook": "\"Neil Patrick Harris surprised the crowd at D23 with a great musical number. Apparently, he\u2019s a self proclaimed \u201cDisney Fanatic.\u201d \ud83d\ude02\n\n#d23 #disney\".",
+   "date": "2026-08-15"
   }
  ],
  "reddit_hot": []
