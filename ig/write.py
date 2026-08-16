@@ -7,7 +7,7 @@ the QA gate, then renders slides into posts/<date>-<slug>/.
 Uses the anthropic SDK if ANTHROPIC_API_KEY is set, else falls back to
 `claude -p` (Claude Code CLI) so it's testable with zero keys."""
 import json, os, re, subprocess, sys, threading, time
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 from fetch import get  # same dir; shared HTTP helper with UA
 import genimg
@@ -571,17 +571,32 @@ def already_posted(slug):
     return os.path.isdir(posts) and any(d.endswith(slug) for d in os.listdir(posts))
 
 
-def recent_posts(n=30):
+def recent_posts(n=30, reels=True):
     """Headlines of the last n published posts, derived from posts/ folder
-    names (no separate state file to drift). Reel folders are skipped — their
-    names carry video ids, not headlines."""
+    names (no separate state file to drift). Reel folder names carry video
+    ids, not headlines, so reel titles come from reels-used.json instead
+    (owner Aug 16, "make sure also we never repost the same thing": a
+    carousel duping last week's reel is still a repost — every lane's dupe
+    judge must see the other lane's stories). reels=False lets reel.py
+    fetch just the carousel side without echoing its own list back."""
     posts = os.path.join(HERE, "posts")
     if not os.path.isdir(posts):
         return []
     dirs = sorted(d for d in os.listdir(posts)
                   if re.match(r"\d{4}-\d{2}-\d{2}-", d) and "-reel-" not in d)
-    return [re.sub(r"^\d{4}-\d{2}-\d{2}-", "", d).replace("-", " ").strip()
-            for d in dirs[-n:]]
+    out = [re.sub(r"^\d{4}-\d{2}-\d{2}-", "", d).replace("-", " ").strip()
+           for d in dirs[-n:]]
+    if reels:
+        try:
+            ru = json.load(open(os.path.join(HERE, "reels-used.json")))
+            horizon = str(date.today() - timedelta(days=14))
+            out += [f"(reel) {u['title'][:90]}" for u in ru
+                    if u.get("date", "") >= horizon
+                    and u.get("title", "").strip()
+                    and not u["title"].startswith("http")]
+        except Exception:
+            pass
+    return out
 
 
 DUPE_SCHEMA = {"type": "object", "properties": {"dupe": {"type": "boolean"}},

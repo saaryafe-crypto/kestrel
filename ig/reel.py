@@ -214,7 +214,8 @@ def build_prompt(cands, recent=()):
     lines = [cline(i, c) for i, c in enumerate(cands)]
     recent_block = ""
     if recent:
-        recent_block = ("\n\nALREADY POSTED (last 7 days — reels we published):\n"
+        recent_block = ("\n\nALREADY POSTED (reels from the last 6 months + "
+                        "recent carousels, some as folder slugs):\n"
                         + "\n".join(f"- {t}" for t in recent) + "\n")
     return f"""{doctrine()}You run @yaffeai, an AI/tech Instagram page modeled on @technology (8.7M followers). Below are the most viral AI/tech clips tweeted by the X channels the owner personally approved — real engagement velocity, the crowd already voted. Pick ONE to repost as a branded reel, exactly in their register.
 
@@ -563,11 +564,21 @@ def main():
     # has no publishable clip the slot falls to an extra carousel instead
     # (reelwatch handles the catch-up), and a dead X lane raises its alarm.
     used_ids = {u["id"] for u in used} | set(rejects)
-    # owner rule Aug 1: never repost a story we ran in the last 7 days, even a
-    # different angle/re-edit of the same event — the judge gets these titles
-    week_ago = str(date.today() - timedelta(days=7))
+    # NEVER REPOST (owner Aug 1, re-ordered Aug 16 with the 6-month archive:
+    # "make sure also we never repost the same thing"): the dedupe memory
+    # must reach as far back as the pool does — a 7-day title list let a
+    # story from 3 weeks ago return under a different tweet id. The judge
+    # gets every reel title inside the archive window PLUS the recent
+    # carousel headlines (a reel duping yesterday's carousel is still a
+    # repost, just in a different format).
+    horizon = str(date.today() - timedelta(days=180))
     recent = [u["title"] for u in used
-              if u.get("title") and u.get("date", "") >= week_ago]
+              if u.get("title") and u.get("date", "") >= horizon]
+    try:
+        from write import recent_posts
+        recent += [f"(carousel) {t}" for t in recent_posts(reels=False)]
+    except Exception as e:
+        print(f"carousel titles unavailable for dedupe ({e})", file=sys.stderr)
     r = cands = None
     if urls:
         d = json.loads(yt("-J", "--no-download", urls[0]))
