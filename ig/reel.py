@@ -412,12 +412,18 @@ def title_fits(src, dur, title, source_title):
             "is a MEME (a movie scene, game footage, or a skit standing in "
             "for a tech story), the line must carry the meme's framing (like "
             "'AI companies in 2028 when...') so the metaphor lands; a factual "
-            "claim floating over footage it doesn't show is fits:false. When "
+            "claim floating over footage it doesn't show is fits:false. This "
+            "is a CONFUSION check, not a style pass: the line already won a "
+            "5-candidate contest, so fits:true whenever it plausibly frames "
+            "the footage — never rewrite to 'improve' a line that works. When "
             "fits:false, write better_title: max 80 chars, sentence case, "
             "simple words a 16-year-old gets, keeping the joke or framing "
             "that connects the line to the footage, AND naming the subject "
             "(the actor or thing on screen) so a cold viewer knows what "
-            "they're watching, no invented facts, no "
+            "they're watching. The rewrite keeps the page's register: "
+            "understated and curious, opens an information gap, ZERO hype "
+            "words (wild, insane, crazy, epic, unbelievable). No invented "
+            "facts, no "
             'dashes. Return ONLY JSON: {"fits": true/false, "better_title": "..."}',
             schema=TITLE_FIT, images=frames, model=CHEAP)
         if not r.get("fits") and r.get("better_title", "").strip():
