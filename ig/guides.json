@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T19:47:02.528134+00:00",
+ "updated": "2026-08-16T21:48:13.716192+00:00",
  "guides": [
   {
    "id": "2087433011478634944",
@@ -222,6 +222,37 @@
    "born": 1786811810.572699
   },
   {
+   "id": "2088829945749311925",
+   "title": "Ok Grok 4.6 is getting scary good. Games. 3D worlds. Game trailers. Even real-world 3D prints. 10 wild examples:",
+   "sub": "minchoi",
+   "where": "@minchoi on X",
+   "unit": "likes",
+   "selftext": "Ok Grok 4.6 is getting scary good. Games. 3D worlds. Game trailers. Even real-world 3D prints. 10 wild examples:",
+   "permalink": "https://x.com/minchoi/status/2088829945749311925",
+   "outlink": null,
+   "score": 2632,
+   "comments_n": 177,
+   "views": 759905,
+   "age_h": 18.3,
+   "vph": 143.6,
+   "image": null,
+   "video": null,
+   "guide": true,
+   "thread": [
+    "2. Grok made its own video game trailer It played, recorded, edited, and voiced everything itself.",
+    "1. Grok 4.6 built this FPS shooter autonomously for 48 hours of nonstop AI work",
+    "4. Grok 4.6 built Minecraft clone",
+    "3. Grok 4.6 designed a real part for a Tesla It found the measurements and made the 3D-print files.",
+    "7. Grok 4.6 recreated a black hole simulation",
+    "6. Grok 4.6 turned imagination into interactive 3D",
+    "5. Grok got its first iPhone",
+    "9. An entire Japanese town generated in 3D",
+    "8. AI city-building improved this much in 9 months",
+    "10. Grok 4.6 gets near-Fable quality at 1/10 the cost Same prompt, half the time, dramatically cheaper."
+   ],
+   "born": 1786851050.572699
+  },
+  {
    "id": "2084189153151922412",
    "title": "In this video, shows how to use AI to find high-quality Remote Job opportunities in less than 2 minutes. Whether you\u2019re a Data Analyst, Designer, Developer, Marketer, or just looking to land your first remote role, this ",
    "sub": "AramideOyekunle",
@@ -363,37 +394,6 @@
    "guide": true,
    "wide_guide": true,
    "born": 1784909486.388657
-  },
-  {
-   "id": "2088829945749311925",
-   "title": "Ok Grok 4.6 is getting scary good. Games. 3D worlds. Game trailers. Even real-world 3D prints. 10 wild examples:",
-   "sub": "minchoi",
-   "where": "@minchoi on X",
-   "unit": "likes",
-   "selftext": "Ok Grok 4.6 is getting scary good. Games. 3D worlds. Game trailers. Even real-world 3D prints. 10 wild examples:",
-   "permalink": "https://x.com/minchoi/status/2088829945749311925",
-   "outlink": null,
-   "score": 1663,
-   "comments_n": 131,
-   "views": 480401,
-   "age_h": 16.3,
-   "vph": 102.0,
-   "image": null,
-   "video": null,
-   "guide": true,
-   "thread": [
-    "2. Grok made its own video game trailer It played, recorded, edited, and voiced everything itself.",
-    "1. Grok 4.6 built this FPS shooter autonomously for 48 hours of nonstop AI work",
-    "4. Grok 4.6 built Minecraft clone",
-    "3. Grok 4.6 designed a real part for a Tesla It found the measurements and made the 3D-print files.",
-    "7. Grok 4.6 recreated a black hole simulation",
-    "6. Grok 4.6 turned imagination into interactive 3D",
-    "5. Grok got its first iPhone",
-    "9. An entire Japanese town generated in 3D",
-    "8. AI city-building improved this much in 9 months",
-    "10. Grok 4.6 gets near-Fable quality at 1/10 the cost Same prompt, half the time, dramatically cheaper."
-   ],
-   "born": 1786851050.572699
   },
   {
    "id": "2086046261749145864",
