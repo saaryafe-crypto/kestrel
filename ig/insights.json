@@ -208,6 +208,17 @@
    "postCount": 101,
    "followers": 40,
    "createdAt": "2026-08-14T11:50:47.217Z"
+  },
+  {
+   "id": "def2b081-b8a1-42bf-86db-e8244ce95c15",
+   "impressions": 58585,
+   "impressionsUnique": 58585,
+   "views": 126,
+   "likes": 1362,
+   "comments": 13,
+   "postCount": 109,
+   "followers": 44,
+   "createdAt": "2026-08-15T11:55:46.642Z"
   }
  ],
  "reels": {}
