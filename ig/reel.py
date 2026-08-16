@@ -217,10 +217,20 @@ def build_prompt(cands, recent=()):
         recent_block = ("\n\nALREADY POSTED (reels from the last 6 months + "
                         "recent carousels, some as folder slugs):\n"
                         + "\n".join(f"- {t}" for t in recent) + "\n")
+    flagship_block = ""
+    try:
+        import culture
+        f = culture.flagships()
+        if f:
+            flagship_block = ("\nCURRENT FLAGSHIP AI MODELS (from today's web "
+                              "radar — your training data is stale here): "
+                              + ", ".join(f) + "\n")
+    except Exception:
+        pass
     return f"""{doctrine()}You run @yaffeai, an AI/tech Instagram page modeled on @technology (8.7M followers). Below are the most viral AI/tech clips tweeted by the X channels the owner personally approved — real engagement velocity, the crowd already voted. Pick ONE to repost as a branded reel, exactly in their register.
 
 CANDIDATES:
-{chr(10).join(lines)}{recent_block}
+{chr(10).join(lines)}{recent_block}{flagship_block}
 
 Their reel formula (copy the FORM, never the text): a one-line curiosity title over the video — "In case you've ever wondered how a spring was made", "The efficiency of a robot vacuum cleaner". Understated, curious, zero hype words. The caption is a calm 2-3 short-paragraph explainer of what you're seeing and why it matters, then a follow line, then credits.
 {principles()}
@@ -236,6 +246,7 @@ RULES
 - ENTERTAINMENT IS A HARD GATE (the newspaper test): picture a 19-year-old who does not care about tech news, scrolling with the SOUND OFF. Would they stop for the video itself? Corporate product demos, keynote/press-conference clips, talking heads, screen recordings, slideshows, news-segment energy = FAIL no matter how big the numbers. Pick a MOMENT someone caught on camera — a machine doing something absurd or unbelievable, a spectacular failure, scale that makes you say "wait, WHAT?". The clip must trigger ONE clear emotion in 3 seconds: awe, fear, or laughter. If every candidate fails this test, return {{"pick": -1}} — the ladder has more sources.
 - VIRALITY IS THE PRIMARY SIGNAL: candidates are listed by real total views (best first) and everything shown already cleared a hard virality floor. A clip's age does NOT matter — a monster clip from months ago we never posted beats a modest clip from today. Only skip a stronger candidate if it fails the topic gate, the entertainment gate, or the story-dedupe gate.
 - OLD CLIPS ARE EVERGREEN, NOT NEWS (owner rule Aug 16 — the pool reaches back 6 months): any candidate marked [OLD CLIP] must NEVER get a title or caption that reads like it just happened — no "just unveiled", "today", "breaking", "now". Frame it timeless ("How this robot...", "The moment a...", "Watch a...") or date it honestly ("Back in March..."). The hook must be just as strong — a monster clip earns a monster title, it just can't lie about when.
+- MODEL NAMES AGE FASTER THAN CLIPS (owner rule Aug 16, the cigar-meme reel that said "Opus" months after Fable replaced it): when an [OLD CLIP]'s source title uses an AI model's name to mean "the newest/most powerful AI" and the CURRENT FLAGSHIP line shows it has been superseded, your title and caption name the CURRENT flagship instead (the joke transfers) — or drop the version and say just "Claude"/"ChatGPT". Exception: if the footage demos that specific product on screen, keep its real name and frame it honestly as that product. Never present a superseded model as today's newest or most powerful.
 - STORY DEDUPE IS A HARD GATE (owner rule Aug 1): if a candidate shows the same event, stunt, or story as ANYTHING in the ALREADY POSTED list — even a different angle, a different channel's copy, or a re-edit — treat it as already posted and skip it. Same robot doing the same demo, same launch, same fail = same story. If every candidate is a dupe, return {{"pick": -1, "reason": "..."}} — the ladder has more sources. Dupe means the SAME event/stunt — a different robot demo, a different OpenAI product, a different launch is NOT a dupe.
 - Where a "crowd:" line appears, those are the top-voted comments on the source post — thousands of real people voting on which EMOTION the moment triggers. Aim your title at that emotion. NEVER quote or copy a comment.
 - FIRST 3 SECONDS ARE A HARD GATE: start_s must land ON the most impressive moment — no build-up, no intro, no logo. If the wow moment is at 0:42, start there.

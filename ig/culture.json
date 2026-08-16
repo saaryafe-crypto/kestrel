@@ -1,46 +1,56 @@
 {
- "ts": 1786904897.3354359,
+ "ts": 1786905653.640705,
  "updated": "2026-08-16",
  "hot": [
   {
-   "name": "Noah Kahan",
-   "why_hot_now": "His sold-out Rose Bowl show last night (Aug 15) drew 56,000 fans and exploded on social media when he surprise-brought out Chappell Roan.",
-   "typical_scene": "acoustic folk-pop to a roaring 56,000-person stadium crowd"
+   "name": "Spider-Man: Brand New Day",
+   "why_hot_now": "Broke the all-time domestic opening-weekend record ($360M) on July 31 and crossed $1B globally in under 7 days, becoming the highest-grossing film of 2026.",
+   "typical_scene": "Tom Holland in a sleek new suit mid-swing over a neon-lit city"
   },
   {
-   "name": "Chappell Roan",
-   "why_hot_now": "She crashed Noah Kahan's Rose Bowl set last night and videos of their surprise 'California' duet are blanketing every feed.",
-   "typical_scene": "dramatic makeup and costume, unannounced onstage at someone else's stadium show"
+   "name": "Tom Holland",
+   "why_hot_now": "Spider-Man: Brand New Day is still box-office king, and a viral video of him performing a rain-soaked 'Singin' in the Rain'/'Umbrella' mashup at the London premiere broke the internet.",
+   "typical_scene": "drenched in rain, jazz-hands grin, tuxedo, London premiere stage"
+  },
+  {
+   "name": "Zendaya",
+   "why_hot_now": "Spider-Man: Brand New Day press tour plus news that she and Tom Holland secretly got married, which she confirmed by trolling a fan who proposed to her on a red carpet.",
+   "typical_scene": "smirking on a red carpet in an elaborate web-motif designer look"
   },
   {
    "name": "Ariana Grande",
-   "why_hot_now": "Her new album Petal (July 31) is still driving the Chair Choreo TikTok trend, with millions of re-creations this week.",
-   "typical_scene": "sitting in a chair doing slow, sultry Petal choreography"
+   "why_hot_now": "New album 'Petal' dropped July 31 and her Eternal Sunshine Tour is mid-run, igniting a massive chair-spin choreo video trend across TikTok.",
+   "typical_scene": "mid-air rotating on a chair under pastel stage lights"
   },
   {
-   "name": "Lanterns",
-   "why_hot_now": "The DCU's most anticipated new show premiered on HBO tonight, August 16, and fan reaction is taking over social media.",
-   "typical_scene": "two Green Lanterns investigating a murder in small-town heartland America"
+   "name": "Jaafar Jackson",
+   "why_hot_now": "The Michael Jackson biopic 'Michael' hit Starz on August 10 after an $846M theatrical run, making his eerily accurate MJ impression unavoidable.",
+   "typical_scene": "moonwalking in a sequined glove under a single white spotlight"
   },
   {
-   "name": "Alan Ritchson",
-   "why_hot_now": "Reacher Season 4 dropped on Prime Video August 12 and his reportedly even-more-massive physique is going viral all over again.",
-   "typical_scene": "filling an entire doorframe in a motel hallway, looking physically impossible"
+   "name": "The Odyssey",
+   "why_hot_now": "Christopher Nolan's all-IMAX-70mm epic with Matt Damon as Odysseus is still in theaters four weeks after release, dominating film discourse.",
+   "typical_scene": "Matt Damon on a storm-battered wooden ship facing a massive Cyclops"
   },
   {
-   "name": "Glen Powell",
-   "why_hot_now": "His glossy GQ presidential photoshoot spawned the 'John Politics' meme that's still flooding TikTok and X this week.",
-   "typical_scene": "in a suit in front of an American flag, inexplicably shiny and smirking"
+   "name": "J. Cole",
+   "why_hot_now": "The Fall-Off Tour — supporting his declared final album — is selling out arenas all week; he plays Detroit tonight (Aug 16) with more sold-out dates ahead.",
+   "typical_scene": "alone at center stage, no hype man, 20,000-person arena dead silent"
   },
   {
-   "name": "Ryan Gosling",
-   "why_hot_now": "Project Hail Mary hit 4K Blu-ray August 11 and fans are re-sharing alien-friendship clips from the $684M sci-fi hit.",
-   "typical_scene": "alone in a spaceship, bonding with a friendly spider-like alien"
+   "name": "Jeremy Allen White",
+   "why_hot_now": "The Bear keeps racking up streaming records while his Calvin Klein campaigns keep him as the internet's obsession of 2026.",
+   "typical_scene": "sweaty in a stained chef's apron or shirtless in a white Calvin Klein brief"
   },
   {
-   "name": "Halle Bailey",
-   "why_hot_now": "Her rom-com You, Me & Tuscany landed on Peacock August 7 with a 92% audience score and is this week's sleeper streaming obsession.",
-   "typical_scene": "running through sun-drenched Tuscan vineyards in a sundress"
+   "name": "Lady Gaga",
+   "why_hot_now": "A dubstep remix of 'Paparazzi' is powering one of August's biggest glow-up transition trends, flooding TikTok this week.",
+   "typical_scene": "Monster Ball-era outfit serving as the chaotic 'before' in a glow-up reveal"
+  },
+  {
+   "name": "Billie Eilish",
+   "why_hot_now": "'Hit Me Hard and Soft' concert film dropped on Paramount+ in August, bringing her world tour to everyone's living room.",
+   "typical_scene": "lying flat on a dark stage floor, singing straight into an overhead camera"
   }
  ],
  "memes": [
@@ -50,5 +60,12 @@
   "Jimothy the hunchback raccoon — Seattle's viral short-spine raccoon photo captioned 'me at [any relatable low point]'",
   "'Seeing how my [person] would respond to a bully' — POV TikTok format where creators roleplay a friend, partner, or celebrity defending them in real time",
   "'Me at the same age as my parents in this photo' — glow-up carousel pairing a parent's old photo with the creator at the same age, generating massive engagement"
+ ],
+ "ai_flagships": [
+  "Claude Fable 5",
+  "GPT-5.6 Sol",
+  "Gemini 3.1 Pro",
+  "Grok 4.6",
+  "Muse Spark 1.2"
  ]
 }
