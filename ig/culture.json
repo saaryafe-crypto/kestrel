@@ -1,55 +1,64 @@
 {
- "ts": 1786815526.8473432,
- "updated": "2026-08-15",
+ "ts": 1786902464.5190597,
+ "updated": "2026-08-16",
  "hot": [
   {
+   "name": "Robert Downey Jr.",
+   "why_hot_now": "The Avengers: Doomsday trailer dropped at D23 this weekend showing him as a terrifying Doctor Doom, breaking the internet.",
+   "typical_scene": "iron mask and armor, commanding an army of Sentinels"
+  },
+  {
    "name": "Ariana Grande",
-   "why_hot_now": "Her album 'petal' debuted #1 on the Billboard 200 this week with 295K units, her best opening figure in seven years.",
-   "typical_scene": "hopping between chairs mid-outfit-reveal TikTok choreo"
+   "why_hot_now": "Her album 'Petal' dropped two weeks ago and the TikTok chair-hopping choreo trend it spawned is still the app's dominant format.",
+   "typical_scene": "hopping chair to chair mid–outfit transition on TikTok"
+  },
+  {
+   "name": "Outer Banks",
+   "why_hot_now": "The cast held a tearful farewell premiere in LA yesterday and the entire final season drops on Netflix in four days.",
+   "typical_scene": "Pogues hugging on the beach, everyone posting 'end of an era'"
   },
   {
    "name": "BTS",
-   "why_hot_now": "The ARIRANG World Tour hits AT&T Stadium in Arlington tonight (Aug 15–16), their biggest NA stop since performing the FIFA World Cup Final halftime show.",
-   "typical_scene": "360-degree stadium stage drowning in ARMY light-stick ocean"
+   "why_hot_now": "Played their first US concerts since completing mandatory military service this exact weekend at AT&T Stadium.",
+   "typical_scene": "packed stadium of ARMY light sticks glowing in unison"
   },
   {
-   "name": "Michael",
-   "why_hot_now": "The $1B-grossing MJ biopic (highest-grossing music biopic ever) just landed on Starz streaming August 10, triggering a new wave of watch-parties and reaction videos.",
-   "typical_scene": "Jaafar Jackson moonwalking under a single spotlight in sequined jacket"
+   "name": "Adam Driver",
+   "why_hot_now": "Marvel announced him as the lead of their X-Men reboot at D23 this weekend, sending fans into a frenzy.",
+   "typical_scene": "intense stare in a dark hallway, possibly wearing a visor"
+  },
+  {
+   "name": "Ryan Reynolds",
+   "why_hot_now": "He and Hugh Jackman crashed D23 via a deadpan video begging Kevin Feige for roles in Avengers: Doomsday.",
+   "typical_scene": "smug smirk to camera, holding a Deadpool mask"
   },
   {
    "name": "Ted Lasso",
-   "why_hot_now": "Season 4 smashed Apple TV+'s all-time premiere record with 296 million viewing minutes in its first week, riding World Cup soccer fever.",
-   "typical_scene": "Jason Sudeikis sideline-coaching with a tin of biscuits and a goofy grin"
-  },
-  {
-   "name": "Billie Eilish",
-   "why_hot_now": "Her James Cameron–directed 3D concert film 'Hit Me Hard and Soft: The Tour' just dropped on Paramount+ this month, restarting a massive clip cycle.",
-   "typical_scene": "green-lit arena stage, whispering into the mic in an oversized fit"
-  },
-  {
-   "name": "Glen Powell",
-   "why_hot_now": "His GQ suit photo went viral as the 'John Politics' presidential meme, crowned Meme of the Month and still flooding every feed in early August.",
-   "typical_scene": "slicked-back hair, pressed suit, impossibly smug campaign-poster face"
+   "why_hot_now": "Season 4 returned on Apple TV+ after a three-year hiatus and is already topping streaming charts mid-August.",
+   "typical_scene": "mustachioed coach delivering a surprisingly emotional halftime speech"
   },
   {
    "name": "Kacey Musgraves",
-   "why_hot_now": "The 'Middle of Nowhere Tour' launches August 20 and anticipation this week is at a fever pitch, with ticket chaos and pre-show content everywhere.",
-   "typical_scene": "rhinestone cowgirl outfit, acoustic guitar, intimate amber arena glow"
+   "why_hot_now": "Her 'Middle of Nowhere' arena tour is selling out every night and dominating concert-posting content this month.",
+   "typical_scene": "glitter raining down, crowd singing back every lyric"
   },
   {
    "name": "Jeremy Allen White",
-   "why_hot_now": "The Bear keeps racking up Emmy buzz while his Calvin Klein campaign images dominate social feeds and thirst-posts simultaneously.",
-   "typical_scene": "sweat-soaked chef whites, thousand-yard stare over a chaotic kitchen pass"
+   "why_hot_now": "The Bear Season 5 is actively filming in Chicago, keeping him in constant Gen Z conversation.",
+   "typical_scene": "white chef coat, intense sweat, screaming into a pass window"
+  },
+  {
+   "name": "Chase Stokes",
+   "why_hot_now": "Was on the red carpet at the Outer Banks Season 5 farewell event in LA yesterday, all over social feeds.",
+   "typical_scene": "sun-bleached hair, emotional hugs with co-stars at series finale premiere"
   }
  ],
  "memes": [
-  "Glen Powell 'John Politics' — his GQ presidential photo captioned as if America elected him purely on vibes",
-  "Lady Gaga 'Paparazzi' dubstep remix powering ugly-duckling-to-glowup transformation transitions on TikTok",
-  "'Me at the Same Age as My Parents' — side-by-side comparison videos set to Pitbull's 'Hey Baby' exposing the generation gap",
-  "'We Had ChatGPT Write Our Script' — friend groups deadpan-acting absurd AI-generated scenes word for word",
-  "'I Never Told You This But' — confessions whispered to camera paired with a hard-cut glamour makeup reveal",
-  "Ariana Grande 'Petal' chair-hop choreo challenge — everyone filming themselves doing the bouncing seat-to-seat routine",
-  "'2026 is the new 2016' — nostalgic side-by-sides comparing current cultural chaos to a decade ago, rapidly becoming its own ironic format"
+  "'The Saxophones Are Getting Louder' — pairing swelling Boyz n the Hood sax over mundane moments to signal impending doom",
+  "Ariana Grande 'Petal' Chair Choreo — jumping between chairs in increasingly dramatic outfit swaps to the title track",
+  "'Me at the Same Age as My Parents' — childhood-photo-to-now transition set to Pitbull's 'Hey Baby (Drop It to the Floor)'",
+  "Lady Gaga 'Paparazzi' dubstep glow-up — ugly-to-hot before-and-after cuts synced to a viral dubstep remix of the song",
+  "Italian Brainrot / Bombardiro Crocodilo — AI-generated animal-object hybrids narrated in unhinged Italian text-to-speech voices",
+  "'How Different Our Lives Are' — split-screen videos contrasting two wildly different people's daily routines or aesthetics"
  ]
 }

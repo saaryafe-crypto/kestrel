@@ -1,0 +1,96 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GROK BOT RUNS <em>6 PAID JOBS OVERNIGHT</em>, $3,000 COMMUNITY MANAGER, QA TESTER, AND NEWSLETTER WRITER INCLUDED",
+   "kicker": "NO SETUP. JUST WORKS.",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-16-edu-6-grok-bot-jobs-running-overnight-alexfi/gen-0.jpg",
+   "image_prompt": "Elon Musk waist-up in a bold floral Hawaiian shirt, holding a smartphone face-forward showing a single glowing X symbol, wide conspiratorial grin straight at camera \u2014 the look of someone sharing a secret they shouldn't. The X company logo exactly as in the reference image blazes warm white on the dark wall behind him. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, film grain. Accent: electric blue phone glow against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>HAND IT YOUR COMMUNITY TO WATCH</em>",
+   "hsize": 108,
+   "body": "Community managers charge <b>$3,000 a month</b> and go offline at 5pm. It monitors your community <b>24/7</b>, answering questions and DM-ing anyone who goes unheard. Prompt: \"<b>Watch my community, reply using my FAQ below, and DM anyone unanswered after 2 hours.</b>\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>MAKE IT YOUR BREAKING NEWS ALARM</em>",
+   "hsize": 108,
+   "body": "Social media monitoring tools charge <b>$120 a month</b> and check accounts hourly at best. It scans major AI company X accounts <b>every 15 minutes</b> and sends an alert the moment one posts something big. Prompt: \"<b>Check @OpenAI @Google @AnthropicAI on X every 15 mins, alert me the moment any post spikes.</b>\"",
+   "media": "posts/2026-08-16-edu-6-grok-bot-jobs-running-overnight-alexfi/gen-2.jpg",
+   "image_prompt": "Smartphone face-up on a dark desk, screen overwhelmed by a cascade of red bell symbols and exclamation-mark alert badges arriving in rapid burst \u2014 a breaking-news flood in real time. A clock in the background shows 3 AM. No face. Documentary news photo, 35mm, on-camera flash, film grain. Accent: red alert badges against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>PUT IT ON BUG DUTY OVERNIGHT</em>",
+   "hsize": 108,
+   "body": "A freelance QA tester charges <b>$80 an hour</b> and stops when you do. It clicks through your apps around the clock, logs every bug, and has the <b>pull requests written</b> before you wake up. Prompt: \"<b>Test my app at [URL] overnight, log every broken flow, and draft a pull request with a fix for each.</b>\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>TURN EVERY POST INTO A NEWSLETTER DRAFT</em>",
+   "hsize": 95,
+   "body": "Newsletter writers charge <b>$500 per send</b>. The moment you post anything, it pulls up your <b>last 5 newsletters</b> for voice reference and produces a full draft before you even put your phone down. Prompt: \"<b>When I post to X, load my last 5 newsletters for voice match and draft a full newsletter version.</b>\"",
+   "media": "posts/2026-08-16-edu-6-grok-bot-jobs-running-overnight-alexfi/gen-4.jpg",
+   "image_prompt": "Close on two hands holding a smartphone showing a single camera-icon post symbol, a glowing amber envelope panel appearing automatically beside it \u2014 the instant conversion caught mid-frame. Dark home-office background, no face visible. Documentary news photo, 35mm, on-camera flash, film grain. Accent: warm amber panel glow against electric blue phone screen."
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>BUILD YOUR OWN THUMBNAIL STUDIO</em>",
+   "hsize": 108,
+   "body": "Thumbnail designers charge <b>$50 each</b> and take a full day to deliver. It studied your existing thumbnails and now makes new ones in the same style, without you opening a design tool. Prompt: \"<b>Study my last 20 thumbnails, extract the style rules, then generate new ones from any title I give you.</b>\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>CATCH CUSTOMERS BEFORE THEY LEAVE</em>",
+   "hsize": 103,
+   "body": "Customer success managers earn <b>$60,000 a year</b> to spot churn before it happens. It checks retention every day, gives you a list of at-risk subscribers, and has <b>personalized emails</b> drafted for your OK. Prompt: \"<b>Check my subscriber activity daily, flag anyone inactive 7+ days, and draft a personalized email for each.</b>\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 80,
+   "body": "You'll want these when you try Grok Bot. Save this post and come back to it.\n\nDaily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through these 6 things Grok Bot runs on autopilot, from community management to catching customers about to cancel. \ud83e\udd16\n\ncommunity monitoring that answers questions and DMs around the clock, an X account scanner checking every major AI company every 15 minutes, overnight bug testing that writes the pull requests itself, newsletter drafts generated the moment you post to social media, a YouTube thumbnail studio trained on your own channel's style, customer churn detection with personalized email drafts ready for your review\n\nMost AI tools add work. Grok Bot removes it: set it up once and it runs without you. These 6 tasks cover what drains solo operators most. That is a full role running overnight.\nRunning a business? DM us 'AI' and we will show you what this could do for yours.\n\nSources: AlexFinn\n\n#grokbot #aitools #aiautomation #artificialintelligence #businessautomation",
+ "pinned_comment": "Which one are you setting up first? Slide 7 is the sleeper: Grok Bot reads your product analytics, spots at-risk customers, and has the emails drafted before you open your laptop.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "GROK BOT RUNS <em>6 REAL JOBS</em> WHILE YOU SLEEP",
+   "<em>GROK BOT</em> DOES 6 WHOLE JOBS WHILE YOU SLEEP"
+  ],
+  "scores": [
+   8,
+   6
+  ],
+  "winner": 0,
+  "why": "RUNS 6 REAL JOBS hits like a discovery I half-believe, while DOES 6 WHOLE JOBS sounds like someone trying too hard to hype it. REAL signals specificity and gives me a reason to trust the numbers; WHOLE is just noise."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 JOBS AI WILL RUN <em>FOR YOUR BUSINESS TONIGHT</em>",
+   "6 GROK TRICKS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "GROK BOT RUNS <em>6 REAL JOBS</em> WHILE YOU SLEEP"
+  ],
+  "scores": [
+   5,
+   8,
+   7
+  ],
+  "winner": 1,
+  "why": "[1]'s 'feel illegal' is unexpected and creates genuine 'wait WHAT?' curiosity at 2am\u2014why would tricks feel illegal? [2] is strong with 'while you sleep,' but it's a standard automation promise you've seen a hundred times."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education"
+}
