@@ -232,11 +232,11 @@ The Credits name is a PLAIN name — never an @ handle, # hashtag, or u/ prefix 
  "start_s": <int, skip intro/logo seconds>, "clip_s": <int 15-60, the most impressive stretch>}}
 
 RULES
-- TOPIC IS A HARD GATE: only pick a clip about AI, robots, or futuristic tech. If NO candidate qualifies, return exactly {{"pick": -1}} and nothing else — skipping the slot beats posting off-topic.
+- TOPIC IS A HARD GATE: only pick a clip about AI, robots, or futuristic tech. If NO candidate qualifies, return exactly {{"pick": -1, "reason": "<one line: the best near-miss candidate and which gate it failed>"}} and nothing else — skipping the slot beats posting off-topic. But check EVERY candidate before concluding: a batch with even one on-topic clip that clears the gates must be picked, however many memes surround it.
 - ENTERTAINMENT IS A HARD GATE (the newspaper test): picture a 19-year-old who does not care about tech news, scrolling with the SOUND OFF. Would they stop for the video itself? Corporate product demos, keynote/press-conference clips, talking heads, screen recordings, slideshows, news-segment energy = FAIL no matter how big the numbers. Pick a MOMENT someone caught on camera — a machine doing something absurd or unbelievable, a spectacular failure, scale that makes you say "wait, WHAT?". The clip must trigger ONE clear emotion in 3 seconds: awe, fear, or laughter. If every candidate fails this test, return {{"pick": -1}} — the ladder has more sources.
 - VIRALITY IS THE PRIMARY SIGNAL: candidates are listed by real total views (best first) and everything shown already cleared a hard virality floor. A clip's age does NOT matter — a monster clip from months ago we never posted beats a modest clip from today. Only skip a stronger candidate if it fails the topic gate, the entertainment gate, or the story-dedupe gate.
 - OLD CLIPS ARE EVERGREEN, NOT NEWS (owner rule Aug 16 — the pool reaches back 6 months): any candidate marked [OLD CLIP] must NEVER get a title or caption that reads like it just happened — no "just unveiled", "today", "breaking", "now". Frame it timeless ("How this robot...", "The moment a...", "Watch a...") or date it honestly ("Back in March..."). The hook must be just as strong — a monster clip earns a monster title, it just can't lie about when.
-- STORY DEDUPE IS A HARD GATE (owner rule Aug 1): if a candidate shows the same event, stunt, or story as ANYTHING in the ALREADY POSTED list — even a different angle, a different channel's copy, or a re-edit — treat it as already posted and skip it. Same robot doing the same demo, same launch, same fail = same story. If every candidate is a dupe, return {{"pick": -1}} — the ladder has more sources.
+- STORY DEDUPE IS A HARD GATE (owner rule Aug 1): if a candidate shows the same event, stunt, or story as ANYTHING in the ALREADY POSTED list — even a different angle, a different channel's copy, or a re-edit — treat it as already posted and skip it. Same robot doing the same demo, same launch, same fail = same story. If every candidate is a dupe, return {{"pick": -1, "reason": "..."}} — the ladder has more sources. Dupe means the SAME event/stunt — a different robot demo, a different OpenAI product, a different launch is NOT a dupe.
 - Where a "crowd:" line appears, those are the top-voted comments on the source post — thousands of real people voting on which EMOTION the moment triggers. Aim your title at that emotion. NEVER quote or copy a comment.
 - FIRST 3 SECONDS ARE A HARD GATE: start_s must land ON the most impressive moment — no build-up, no intro, no logo. If the wow moment is at 0:42, start there.
 - COMPLETION over length: prefer clip_s 15-30. Cut BEFORE the clip gets boring; a fully-watched 18s reel outranks a half-watched 50s one.
@@ -519,11 +519,21 @@ def pick(cands, recent=()):
     """Claude pick + QA loop. Returns the validated response, or None when no
     candidate passes the topic gate / QA — caller widens the ladder."""
     prompt = build_prompt(cands, recent)
+    empties = 0
     for attempt in range(3):
         r = call_claude(prompt)
         if r.get("pick") == -1:
-            print("topic gate: no AI/tech clip in this batch", file=sys.stderr)
-            return None
+            # a -1 must be CONFIRMED before it kills the lane (Aug 16, run
+            # after 31947294345: a single stochastic -1 abandoned a batch
+            # holding a 12M-view robot clip and OpenAI's GPT-Live — the slot
+            # fell to a carousel for nothing). Two -1s in a row = real empty.
+            empties += 1
+            print(f"judge returned -1 ({r.get('reason', 'no reason given')})"
+                  + ("" if empties > 1 else " — re-asking to confirm"),
+                  file=sys.stderr)
+            if empties > 1:
+                return None
+            continue
         errs = qa(r, cands)
         if not errs:
             return r
