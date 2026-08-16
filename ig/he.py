@@ -170,10 +170,16 @@ def scrub(out, en_caption):
 
 # a "count digit" is 1-10 standing alone before a Hebrew word ("6 בעיות").
 # Exempt: $ amounts, percentages, decimals, dates (7/10), Latin product names
-# (GPT-5, Gemini 3 escapes via the Hebrew-follower requirement when suffixed)
-COUNT_DIGIT = re.compile(r"(?<![A-Za-z0-9$#.,:/%])(?<![A-Za-z]-)"
+# — both hyphenated (GPT-5) and spaced ("Opus 5", run 31956637962: the
+# spaced form deadlocked the retry loop, the model can't spell out a
+# version number without corrupting the product name)
+COUNT_DIGIT = re.compile(r"(?<![A-Za-z0-9$#.,:/%])(?<![A-Za-z]-)(?<![A-Za-z] )"
                          r"(10|[1-9])(?=\s+[\u0590-\u05FF])")
-LTR_RUN = re.compile(r"[A-Za-z0-9$%][A-Za-z0-9$%.,'&/+-]*")
+# adjacent Latin words are ONE continuous bidi run in RTL text ("Claude
+# Code" reads as a single island), so spaces between Latin words don't
+# split the count (run 31956637962 false-failed a legal 2-island headline)
+LTR_RUN = re.compile(r"[A-Za-z0-9$%][A-Za-z0-9$%.,'&/+-]*"
+                     r"(?: [A-Za-z0-9$%][A-Za-z0-9$%.,'&/+-]*)*")
 
 
 def qa(out):
