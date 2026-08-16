@@ -148,6 +148,18 @@ def _is_wide_guide(text):
     return bool(WIDE_STRONG_RE.search(text)
                 or re.search(r"(?i)\bhow to\b|\bhere'?s how\b", text[:80]))
 
+# REEL VIDEO SCOUT (owner order Aug 16 — "no reels were uploaded yesterday
+# and you should always scout from the twitter api on whats viral": Aug 14-15
+# shipped ZERO reels while the approved pages had 61 viral videos in the
+# prior 7 days — Tesla FSD 6.6M views, GPT-5.6 Sol demo 3.6M — because the
+# reel picker only ever saw the news radar's 36h window). Native-video
+# tweets from the watchlist over 7 days, cached 12h so 3 reel slots/day
+# cost one search (~5 batches ≈ 100 reads/day ≈ $0.45/mo, same ledger/cap).
+VIDEO_SEARCH_EVERY_H = 12
+VIDEO_SEARCH_AGE_D = 7
+VIDEO_SEARCH_FLOOR = 2000
+VIDEO_CACHE = os.path.join(HERE, "x-videos.json")
+
 # ISRAEL NEWS LANE (owner order Aug 10: "pull from twitter api the most viral
 # news in israel that are relevant to israel... and then write the israeli
 # news from twitter api and viral score only in the hebrew channel"). Scope
@@ -358,6 +370,69 @@ def alert_dead(reason):
             capture_output=True, timeout=30)
     except Exception as e:
         print(f"x radar: alert failed too ({e})", file=sys.stderr)
+
+
+def video_pool():
+    """Viral watchlist VIDEO tweets for the reel lane (see REEL VIDEO SCOUT
+    constants). Fresh-cached 12h, ledger-booked against the monthly read cap,
+    allowlist + politics gated. Fails open: stale cache -> that cache; no
+    key/cap hit -> cache or []. Sorted by real views, best first."""
+    now = time.time()
+    cache = None
+    try:
+        cache = json.load(open(VIDEO_CACHE))
+        if now - cache["at"] < VIDEO_SEARCH_EVERY_H * 3600:
+            return cache["moments"]
+    except Exception:
+        pass
+    key = _key()
+    if not key:
+        return cache["moments"] if cache else []
+    try:
+        led = json.load(open(LEDGER))
+    except Exception:
+        led = {}
+    month = datetime.now().strftime("%Y-%m")
+    if led.get("month") != month:
+        led = {"month": month, "reads": 0, "last_poll": 0}
+    if led["reads"] >= CAP_READS_MONTH:
+        print("x video scout: monthly read cap hit — serving cache",
+              file=sys.stderr)
+        return cache["moments"] if cache else []
+    handles = sorted(_watch_handles())
+    if not handles:
+        return cache["moments"] if cache else []
+    since = int(now - VIDEO_SEARCH_AGE_D * 86400)
+    pool, seen = [], set()
+    for i in range(0, len(handles), BATCH_SIZE):
+        if i:
+            time.sleep(6)  # unfunded-tier QPS: 1 req / 5s
+        q = ("(" + " OR ".join(f"from:{h}" for h in handles[i:i + BATCH_SIZE])
+             + f") min_faves:{VIDEO_SEARCH_FLOOR} filter:native_video")
+        try:
+            d = _get(key, "/twitter/tweet/advanced_search",
+                     query=f"{q} since_time:{since}", queryType="Top")
+        except Exception as e:
+            print(f"  ! x video scout batch: {e}", file=sys.stderr)
+            continue
+        tweets = d.get("tweets") or []
+        led["reads"] += max(len(tweets), 1)
+        for t in tweets:
+            m = _moment(t, now, max_age_h=VIDEO_SEARCH_AGE_D * 24,
+                        floor=VIDEO_SEARCH_FLOOR)
+            if not m or not m.get("video") or m["id"] in seen:
+                continue
+            if political(f"{m['title']} {m.get('selftext') or ''}"):
+                continue
+            seen.add(m["id"])
+            pool.append(m)
+    pool = _approved_only(pool, set(handles))
+    pool.sort(key=lambda m: -(m.get("views") or 0))
+    json.dump(led, open(LEDGER, "w"), indent=1)
+    json.dump({"at": now, "moments": pool}, open(VIDEO_CACHE, "w"), indent=1)
+    print(f"x video scout: {len(pool)} viral watchlist videos, 7-day window "
+          f"({led['reads']:,} reads this month)", file=sys.stderr)
+    return pool
 
 
 def harvest():

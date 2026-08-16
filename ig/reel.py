@@ -98,18 +98,22 @@ def probe_mp4(url):
 
 
 def radar_candidates(used):
-    """Video moments from radar.json (the Demand Radar on the Mac, every 2h):
-    viral clips tweeted by owner-approved watchlist channels, caught in their
-    FIRST HOURS — with the top replies as the crowd's vote on which emotion
-    the moment triggers. This is the ONLY reel source (owner order Aug 3).
-    Fails open: no/stale radar -> [] and the slot falls to an extra carousel."""
+    """Video moments from two watchlist-only rungs: radar.json (the Demand
+    Radar on the Mac, every 2h — viral clips caught in their FIRST HOURS,
+    with top replies as the crowd's vote) merged with radar_x.video_pool()
+    (owner order Aug 16, after Aug 14-15 shipped zero reels: "always scout
+    from the twitter api on whats viral" — the 36h news window hid week-old
+    monster clips like Tesla FSD at 6.6M views from the picker). Same
+    approved channels and nothing else (Aug 3 order stands).
+    Fails open: no supply -> [] and the slot falls to an extra carousel."""
+    moments = []
     try:
         r = json.load(open(os.path.join(HERE, "radar.json")))
         upd = datetime.fromisoformat(r["updated"])
-        if (datetime.now(timezone.utc) - upd).total_seconds() > 24 * 3600:
-            return []
+        if (datetime.now(timezone.utc) - upd).total_seconds() <= 24 * 3600:
+            moments = r.get("moments", [])
     except Exception:
-        return []
+        pass
     # HARD ALLOWLIST (owner order Aug 3): only videos authored by a
     # watchlist-x.json handle may become reels — an x.com permalink alone is
     # not proof (the old wide net was full of x.com links from strangers).
@@ -119,8 +123,19 @@ def radar_candidates(used):
     except Exception as e:
         print(f"no watchlist-x.json ({e}) — no reel candidates", file=sys.stderr)
         return []
+    # 7-day video scout rung — merged by id, ranked by real views so the
+    # monsters lead the batch (the pick prompt promises views-first order)
+    try:
+        import radar_x
+        seen = {str(m.get("id")) for m in moments}
+        moments = moments + [m for m in radar_x.video_pool()
+                             if str(m.get("id")) not in seen]
+    except Exception as e:
+        print(f"video scout unavailable ({e}) — fresh radar only",
+              file=sys.stderr)
+    moments.sort(key=lambda m: -(m.get("views") or m.get("score", 0)))
     cands = []
-    for m in r.get("moments", []):
+    for m in moments:
         if not m.get("video") or len(cands) >= 8:
             continue
         vid = m.get("id") or m["video"].split("?")[0].rstrip("/").rsplit("/", 1)[-1]
@@ -144,19 +159,24 @@ def radar_candidates(used):
             "where": m.get("where", f"r/{m['sub']}"),
             "unit": m.get("unit", "upvotes"),
             "likes": m["score"], "comments": m["comments_n"],
+            "views": m.get("views") or 0,
             "duration": int(dur), "res": int(res),
             "vph": m["vph"], "age_h": m["age_h"],
             "top_comments": m.get("top_comments") or []})
-    cands.sort(key=lambda c: -c["vph"])
+    cands.sort(key=lambda c: -(c["views"] or c["likes"]))
     for i, c in enumerate(cands):
-        print(f"  cand [{i}] {c['where']} {c['vph']:,.0f}/hr {c['likes']:,} "
-              f"{c['age_h']}h {c['res']}p {c['duration']}s: {c['title'][:55]}",
-              file=sys.stderr)
+        print(f"  cand [{i}] {c['where']} {c['views']:,} views {c['likes']:,} "
+              f"likes {c['age_h']}h {c['res']}p {c['duration']}s: "
+              f"{c['title'][:55]}", file=sys.stderr)
     return cands
 
 
 def cline(i, c):
-    if c.get("vph"):  # radar breakout (hours old, exploding right now)
+    if c.get("views"):  # scouted monster — real total views is the headline
+        pop = (f"{c.get('where', '@' + str(c.get('sub', '?')) + ' on X')} | "
+               f"{c['views']:,} VIEWS, {c.get('likes', 0):,} likes in "
+               f"{c.get('age_h', 0):.0f}h, {c.get('comments', 0):,} comments")
+    elif c.get("vph"):  # radar breakout (hours old, exploding right now)
         pop = (f"{c.get('where', '@' + str(c.get('sub', '?')) + ' on X')} | "
                f"BREAKING OUT NOW: {c.get('likes', 0):,} "
                f"{c.get('unit', 'likes')} in {c.get('age_h', 0):.0f}h "
@@ -350,7 +370,8 @@ def title_fits(src, dur, title, source_title):
         return title
     try:
         r = call_claude(
-            "Two frames from a video are attached. It posts as an Instagram "
+            "Two frames from a video are attached (if not attached, use your "
+            f"Read tool on {' and '.join(frames)}). It posts as an Instagram "
             f'reel with this line above the video:\n"{title}"\n'
             f'The original post was titled: "{source_title}"\n\n'
             "A stranger sees ONLY the video + the line. fits:true only if the "
@@ -434,9 +455,11 @@ def clip_ok(src, dur, channel):
             f"Read tool on {' and '.join(qa2)}). We want to repost this clip "
             "on our own branded Instagram page. Answer usable:false if any frame "
             "has a social-media username/handle (like @somepage), another news/"
-            "meme page's watermark, a TikTok/CapCut/other app logo, or "
-            "subscribe/follow graphics baked into the video — that "
-            "repost-of-a-repost look is banned. ALLOWED and usable:true: the "
+            "meme page's watermark, a TikTok/CapCut/other app logo, "
+            "subscribe/follow graphics, or a TikTok/Reels-style CAPTION LINE "
+            "baked over the footage (like \"This is your sign to buy a...\" "
+            "with emoji — the original creator's own overlay text) — that "
+            "repost-of-a-repost look is banned.ALLOWED and usable:true: the "
             "original manufacturer's or lab's own brand logo or spec captions "
             "in its own demo footage (a Boston Dynamics logo on a Boston "
             "Dynamics video is credit, not a repost mark), and small natural "
@@ -536,9 +559,13 @@ def main():
     # download + frame QA loop: a clip with another page's credit baked in
     # (owner Jul 28) or mushy footage gets dropped and the pick reruns on the
     # remaining pool. src lives in /tmp because the post dir is named after
-    # the final pick.
+    # the final pick. 6 tries, not 3 (Aug 16 dry run: the judge burned all 3
+    # on a bare-link monster + two meme-page clips frame QA rightly killed,
+    # while publishable rocket/tech clips sat at picks 4-5 — with 8 scouted
+    # candidates a 3-cap starves the slot, and a starved reel slot is an
+    # owner-declared violation).
     src = "/tmp/reel-src.mp4"
-    for _ in range(3):
+    for _ in range(6):
         if not r:
             break
         c = cands[r["pick"]]
