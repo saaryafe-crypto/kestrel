@@ -1,0 +1,106 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE 6 <em>AI RULES</em> THAT MAKE CLAUDE STOP GIVING YOU USELESS ANSWERS",
+   "kicker": "MOST PEOPLE BREAK ALL 6",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-17-edu-6-ai-usage-rules-that-make-you-better-th/gen-0.jpg",
+   "image_prompt": "Referee whistle and red armband lying on cobalt table with dollar and warning triangle symbols, harsh flash, orange light, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>GIVE AI A ROLE</em> BEFORE YOU ASK ANYTHING",
+   "hsize": 108,
+   "body": "Add 'you are a <b>Series A investor</b> who has rejected <b>400 pitches</b>' and the same model finds deal-breakers instead. Prompt: \"You are a [expert role]. Find every problem and rank by how fatal\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>ASK FOR THE OPPOSITE</em> AFTER EVERY PLAN",
+   "hsize": 108,
+   "body": "Add one line and it finds the <b>3 assumptions</b> most likely to break your budget before you spend it. Prompt: \"Now give me the 3 strongest arguments against everything you just said\"",
+   "media": "posts/2026-08-17-edu-6-ai-usage-rules-that-make-you-better-th/gen-2.jpg",
+   "image_prompt": "Two printed documents side by side on a desk \u2014 left covered in large green checkmarks, right slashed with red X symbols \u2014 a hand pushing the rejected sheet forward. Amber and charcoal. Documentary news photo, 35mm, harsh flash, film grain. Accent: signal red against warm amber."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>SAY THE FORMAT</em> BEFORE THE QUESTION",
+   "hsize": 112,
+   "body": "Front-load the format and the same question returns something you can paste and use in <b>5 minutes</b>. Prompt: \"Give me [number] [format] about [topic]. Each must include [constraint] and fit in one sentence\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>ASK WHAT IT NEEDS</em> BEFORE IT STARTS",
+   "hsize": 108,
+   "body": "Ask this before anything else and the quality of the whole session changes. Prompt: \"What are the <b>5 most important things</b> you need from me? Ask me each one\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>MAKE IT CHECK</em> ITS OWN WORK",
+   "hsize": 112,
+   "body": "Claude writes confident math that is wrong and doesn't flag it. Tell it to check itself and errors surface before they reach anyone else. Prompt: \"Find any number that could be wrong. Fix them\"",
+   "media": "posts/2026-08-17-edu-6-ai-usage-rules-that-make-you-better-th/gen-5.jpg",
+   "image_prompt": "A hand presses a red pen into a printed page \u2014 bold red circles around error symbols \u2014 a corrected second copy beside it, green marks replacing red. Charcoal and cool green. Documentary news photo, 35mm, harsh flash, film grain. Accent: signal red against cool charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>TELL CLAUDE WHO YOU ARE</em> AT THE START",
+   "hsize": 100,
+   "body": "Claude doesn't know if you're a student or a <b>50-person company</b> unless you say so. Prompt: \"Context: I'm a [role] running a [type of business] with [budget or team size]. Keep everything relevant\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 120,
+   "body": "You will want these the next time Claude gives you something useless. Save this post and try one rule tonight. New AI skills and the biggest AI story, every day on this page",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6 before you open Claude today. Each one changes what you get back. \ud83e\udde0\n\nGive AI a role before you ask anything, ask for the counter-argument after every plan, say the format before the question, ask what Claude needs before it starts, make it check its own work, tell it who you are at the start of every session.\n\nMost people type a question and hit send. That gets you the average answer. These rules separate people who actually get results from AI from everyone who hits the same wall every day. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Starboy2079\n\n#AI #ChatGPT #Claude #ArtificialIntelligence #LearnAI",
+ "pinned_comment": "Which rule are you trying tonight? Rule 4 is the one most people skip and it changes every session.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 RULES THAT MAKE YOU <em>BETTER AT AI THAN MOST</em>",
+   "6 RULES FOR USING AI <em>BETTER THAN EVERYONE ELSE</em>",
+   "6 AI RULES <em>MOST PEOPLE WILL NEVER LEARN</em>",
+   "THE 6 RULES <em>REAL AI USERS</em> NEVER SKIP",
+   "<em>WE USE AI BETTER THAN YOU.</em> HERE ARE 6 RULES."
+  ],
+  "scores": [
+   4,
+   4,
+   5,
+   7,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] stops you mid-scroll with pure confrontation\u2014'WE USE AI BETTER THAN YOU' is a personal jab that makes you stop to either prove them wrong or see what they've got. [3] invites you in with gatekeeping, which is polished but passive."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>WE USE AI BETTER THAN YOU.</em> HERE ARE 6 RULES.",
+   "<em>YOU'VE BEEN USING AI WRONG.</em> THESE 6 RULES FIX THAT.",
+   "<em>6 AI RULES</em> THAT WILL TEACH YOU MORE THAN MOST PAID COURSES",
+   "6 <em>AI RULES</em> SO GOOD THEY FEEL ILLEGAL"
+  ],
+  "scores": [
+   4,
+   6,
+   5,
+   8
+  ],
+  "winner": 3,
+  "why": "\"SO GOOD THEY FEEL ILLEGAL\" makes your brain actually stop\u2014it's bold and absurd enough to feel real, not like a template. The others use the same defensive-gotcha playbook every Instagram course throws at you."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on the cover: the image shows a generated man in a referee's uniform blowing a whistle. The Doctrine is explicit: 'Never a generated unknown face.' This is a hard ban, not a style note. The cover must be replaced.; IMAGE LAW \u2014 thumb test fails: at feed size, a referee in a stadium does not communicate 'AI prompting rules.' The Anthropic logo on the stadium scoreb"
+}

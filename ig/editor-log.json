@@ -1,117 +1,5 @@
 [
  {
-  "t": "2026-08-12T23:38:57Z",
-  "gate": "A",
-  "subject": "BREAKING: US jobs numbers have now been revised lower in 21 out of the last 30 months by a total of -1.05 million jobs. ",
-  "verdict": "KILL",
-  "reason": "Routine financial data recap (banned format per §1); no person doing something outrageous, no felt consequence, no story a 16-year-old would DM—this is analyst commentary on existing numbers, not an event that happened."
- },
- {
-  "t": "2026-08-12T23:38:58Z",
-  "gate": "A",
-  "subject": "xAI just launched Grok Bot, and this is much more interesting than another model release. And especially *not* on my bin",
-  "verdict": "KILL",
-  "reason": "This is a product announcement (launch preview, banned format) with no person doing something outrageous, no money moved, no real-world consequence, and a 3/10 scout score—a reader won't send this to a friend."
- },
- {
-  "t": "2026-08-12T23:38:59Z",
-  "gate": "A",
-  "subject": "https://t.co/UnPb7HvXfF",
-  "verdict": "KILL",
-  "reason": "No substance—just a link to a single Elon tweet with zero scout interest; no story, no facts, no consequence to build from, and the engagement metrics suggest reaction-bait rather than a real-world event."
- },
- {
-  "t": "2026-08-12T23:39:15Z",
-  "gate": "A",
-  "subject": "The stunning reflective properties of a cutlassfish skin",
-  "verdict": "KILL",
-  "reason": "No substance: the source is a single-sentence nature fact with zero event, no person, no consequence, and nothing behind it—pure trivia untransformable into story."
- },
- {
-  "t": "2026-08-12T23:39:30Z",
-  "gate": "A",
-  "subject": "ELON MUSK ON BUILDING A “STAR MIND” POWERED BY THE SUN “We’ve already built the most powerful AI training clusters in th",
-  "verdict": "KILL",
-  "reason": "It's a future-facing announcement of plans, not a real-world event—no money moved, nothing shipped, no consequence felt; the source is one thin Elon quote about what they 'expect to do by end of next year,' and scout interest (2/10) confirms it lacks compelling substance."
- },
- {
-  "t": "2026-08-12T23:39:30Z",
-  "gate": "A",
-  "subject": "When James Gandolfini suffered a fatal heart attack in Rome in 2013, a paramedic was accused of stealing his $3,000 Role",
-  "verdict": "KILL",
-  "reason": "A dismissed legal case from 2013 with an unproven accusation, no real consequences, and no protagonist who did anything outrageous—the paramedic was essentially exonerated, making this a dead historical curiosity, not a story."
- },
- {
-  "t": "2026-08-12T23:39:32Z",
-  "gate": "A",
-  "subject": "\"Long term, probably in four or five years, AI will be 99% of the value of SpaceX. I'd say five years for sure, AI will ",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with zero substance: just a prediction tweet that got engagement, no real event happened in the world—exactly the failure model we killed in August."
- },
- {
-  "t": "2026-08-12T23:39:52Z",
-  "gate": "A",
-  "subject": "Now we're talkin!!!",
-  "verdict": "KILL",
-  "reason": "No substance — single empty tweet with zero event, consequence, numbers, or buildable story; writer would have nothing but padding."
- },
- {
-  "t": "2026-08-12T23:39:53Z",
-  "gate": "A",
-  "subject": "More Americans now use marijuana daily than drink or smoke daily, per NHSDA",
-  "verdict": "KILL",
-  "reason": "One statistical claim from a single tweet with zero narrative spine, zero protagonist, and zero reported consequence — routine data reporting, not a story worth posting."
- },
- {
-  "t": "2026-08-12T23:39:55Z",
-  "gate": "A",
-  "subject": "Mainstream media headlines: China's leading the world in autonomous driving tech!! Yeah, right... Writer: Ian",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no substance—the event is a tweet disagreeing with headlines, not a real-world consequence or thing that happened in autonomous driving; no numbers, no actor, no second fact to build from."
- },
- {
-  "t": "2026-08-12T23:40:03Z",
-  "gate": "A",
-  "subject": "How B.J. Novak’s face ended up on random products around the world.. A few years ago, someone mistakenly uploaded a phot",
-  "verdict": "KILL",
-  "reason": "Instant kill under §1 (no substance): single thin tweet with three facts, zero specifics about the products, and no real consequence — B.J. Novak's amusement isn't a story a writer can build into five slides without padding."
- },
- {
-  "t": "2026-08-12T23:40:28Z",
-  "gate": "A",
-  "subject": "This lamb actually learned how to drive herself around Kiki uses a joystick to control her wheelchair and go wherever sh",
-  "verdict": "KILL",
-  "reason": "No substance: 127-character source with zero second facts, numbers, or consequences; pure novelty animal content (off-brand for @technology/@getintoai); scout score 0/10 with no exceptional override reason; writer would have to pad to fill slides."
- },
- {
-  "t": "2026-08-12T23:40:29Z",
-  "gate": "A",
-  "subject": "The largest and sharpest image ever taken of the Andromeda galaxy — otherwise known as M31. It is the biggest Hubble ima",
-  "verdict": "KILL",
-  "reason": "Pure astronomy content off-brand for this page; no viral-specific event, real consequence, or human actor—just a routine NASA release announcement."
- },
- {
-  "t": "2026-08-13T00:57:09Z",
-  "gate": "B",
-  "subject": "6 AI PROMPTS THAT REPLACE <em>YOUR $10,000 PITCH DECK</em> FOR FREE",
-  "verdict": "REJECT",
-  "reason": "Cover image shows a generated unknown face — a non-famous AI-generated man. IMAGE LAW is explicit: 'Never a generated unknown face.' Fix: replace with a cover that has no human face, instead centering the Claude brand mark (already visible in the background) and a stylized pitch deck document — the product-with-brand-mark option IMAGE LAW permits."
- },
- {
-  "t": "2026-08-13T00:59:17Z",
-  "gate": "B",
-  "subject": "6 AI PROMPTS THAT REPLACE <em>YOUR $10,000 PITCH DECK</em> FOR FREE",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW violation: the cover's primary subject is a generated unknown face. The law states explicitly 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' The acceptable cover types for a utility post with no named real-world protagonist are: the product with its brand mark in frame, or real footage of the event. The Claude neon logo IS in the f"
- },
- {
-  "t": "2026-08-13T09:25:48Z",
-  "gate": "A",
-  "subject": "\"Hahahaha look at these AI-generated clips of cruelty against vulnerable homeless people\" — Israeli with 'human rights a",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: the entire 'story' is that people found a post offensive and mocked it online; no real-world consequence (no account action, no lawsuit, no fired person, no product pulled), just a pile-on screenshot — exactly the failure model that produced the Queen Elizabeth and Mario Lopez posts."
- },
- {
   "t": "2026-08-13T14:23:49Z",
   "gate": "A",
   "subject": "SL2T is our breakthrough sign language-to-text model powering new features for Deaf and hard of hearing users on @Androi",
@@ -2098,5 +1986,117 @@
   "subject": "PEOPLE ARE QUIETLY GETTING <em>100 FREE AI PRODUCT PHOTOS A DAY</em> FROM MICROSOFT AND MOST STILL DON'T KNOW",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-17T17:25:59Z",
+  "gate": "A",
+  "subject": "watermarks-remover for AI content reaches ~11k stars on github. People really hate the watermarks. And i fully understan",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no real-world consequence: the story is people resenting watermarks online, but nothing actually happened (no money moved, product pulled, account banned, or person did something outrageous)."
+ },
+ {
+  "t": "2026-08-17T17:26:05Z",
+  "gate": "A",
+  "subject": "This is literally my new workflow now: Realtime Research → Grok Bot Planning &amp; Orchestration→ Grok Bot Day-to-day Co",
+  "verdict": "KILL",
+  "reason": "No substance: a single thin tweet listing workflow steps with no real-world consequence, outcome, or second fact to build slides from."
+ },
+ {
+  "t": "2026-08-17T17:26:29Z",
+  "gate": "A",
+  "subject": "Landing an orbital-class rocket was once considered almost impossible. SpaceX has now done it 650 times First landing: D",
+  "verdict": "KILL",
+  "reason": "On-topic but routine: SpaceX milestone without a person-driven event, money moved, or consequence readers feel—fails the viral-specific event requirement in Story Law §1."
+ },
+ {
+  "t": "2026-08-17T17:26:49Z",
+  "gate": "A",
+  "subject": "The difference between who you're dating and who you'd marry…",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: the 'story' is that 21K people liked a vague tweet fragment with an ellipsis, not an event that happened in reality; zero substance to build from."
+ },
+ {
+  "t": "2026-08-17T17:26:53Z",
+  "gate": "A",
+  "subject": "Someone needs to tell Clavicular that showing you can touch the ceiling stopped being an alpha move sometime after kinde",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no real consequence (the Mario Lopez failure case): a roast pile-on about an unknown person, 141-character source with zero substance, 0 scout score, and nothing to build slides from."
+ },
+ {
+  "t": "2026-08-17T17:26:55Z",
+  "gate": "A",
+  "subject": "Save of the year",
+  "verdict": "KILL",
+  "reason": "No substance: the entire source is one thin tweet with zero facts, names, numbers, or real-world consequence — the writer would have to pad."
+ },
+ {
+  "t": "2026-08-17T17:27:00Z",
+  "gate": "A",
+  "subject": "Intelligence/Joule will keep improving",
+  "verdict": "KILL",
+  "reason": "No substance: single thin tweet with no event, numbers, or consequence—writer would have to pad to carousel."
+ },
+ {
+  "t": "2026-08-17T17:27:24Z",
+  "gate": "A",
+  "subject": "Gregory has things to say about it when the house sitter takes Bailey outside",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no second fact, numbers, or consequence—the source reveals nothing about what Gregory said or why it matters, leaving no substance to build slides from; combined with a 0/10 scout score, this is an instant no-substance kill."
+ },
+ {
+  "t": "2026-08-17T17:27:25Z",
+  "gate": "A",
+  "subject": "Rage, rage against the dying of the light",
+  "verdict": "KILL",
+  "reason": "No substance: a single 41-character quote generating online engagement with zero real-world consequence, no second fact, and no story to build from—reaction-bait masquerading as news."
+ },
+ {
+  "t": "2026-08-17T17:27:30Z",
+  "gate": "A",
+  "subject": "Marble hands sculpted by Michelangelo at age 26 and Bernini at age 23. The comparison between Michelangelo’s marble hand",
+  "verdict": "KILL",
+  "reason": "No real event—reaction-bait to a centuries-old art comparison with no news hook, new discovery, or current consequence; pure art history with scout interest at 0/10."
+ },
+ {
+  "t": "2026-08-17T17:27:31Z",
+  "gate": "A",
+  "subject": "OpenAI is going all out to confront Anthropic. They're mocking Anthropic on the one hand, and on the other, doing everyt",
+  "verdict": "KILL",
+  "reason": "Nothing happened in the real world — this is speculation about corporate rivalry and an unconfirmed future reveal ('presumably planning'), not a viral-specific event with proof or consequence."
+ },
+ {
+  "t": "2026-08-17T17:27:56Z",
+  "gate": "A",
+  "subject": "The cat in The Godfather’s opening scene was never supposed to be there The Director found the stray on set and placed i",
+  "verdict": "KILL",
+  "reason": "No substance: a single 164-character tweet with zero second fact, no consequence, no numbers—pure Hollywood trivia with nothing to build slides from; scout interest 0/10 flags it; completely off-brand for a tech page."
+ },
+ {
+  "t": "2026-08-17T17:28:06Z",
+  "gate": "A",
+  "subject": "Another view of Tesla's new @Starlink dish integration on the Cybercab with gold cover and flush mounting.",
+  "verdict": "KILL",
+  "reason": "One-sentence design detail with no event, no numbers, no consequence, and nothing to build slides from—violates NO SUBSTANCE and ON-TOPIC-BUT-ROUTINE rules."
+ },
+ {
+  "t": "2026-08-17T17:28:09Z",
+  "gate": "A",
+  "subject": "If you see a big black bird and think 'Oh, I wonder if that’s a crow or a raven?', it’s probably a crow If you see a big",
+  "verdict": "KILL",
+  "reason": "No substance: the entire source is one thin tweet with no event, consequence, or numbers to build slides from—fails story law §1 INSTANT KILL."
+ },
+ {
+  "t": "2026-08-17T18:28:28Z",
+  "gate": "B",
+  "subject": "6 <em>AI RULES</em> SO GOOD THEY FEEL ILLEGAL",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 — hard violation: the cover shows a generated unknown face (a referee blowing a whistle in a soccer stadium). The doctrine bans 'a generated unknown face' explicitly. The person is not a recognizable famous person; a stranger at feed size sees a sports image, not an AI-prompts post. Fix: replace with a famous recognizable face relevant to AI (shown in a situation that fits the 'rules'"
+ },
+ {
+  "t": "2026-08-17T18:30:40Z",
+  "gate": "B",
+  "subject": "THE 6 <em>AI RULES</em> THAT MAKE CLAUDE STOP GIVING YOU USELESS ANSWERS",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — generated unknown face on the cover: the image shows a generated man in a referee's uniform blowing a whistle. The Doctrine is explicit: 'Never a generated unknown face.' This is a hard ban, not a style note. The cover must be replaced.; IMAGE LAW — thumb test fails: at feed size, a referee in a stadium does not communicate 'AI prompting rules.' The Anthropic logo on the stadium scoreb"
  }
 ]
