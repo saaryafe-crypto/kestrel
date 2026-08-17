@@ -1,0 +1,111 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שישה פרומפטים של AI</em> שמסיימים לך את עבודת הבוקר בזמן שאתה ישן",
+   "kicker": "SpaceX שיגרה שתי רקטות בהפרש של 38 דקות",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-17-edu-6-ai-speed-prompts-anchored-to-spacex-38/gen-0-r.jpg",
+   "image_prompt": "Worker waist-up at launch complex pre-dawn, arms flung overhead in triumph, two Falcon 9 plumes blazing orange-white in navy sky, SpaceX logo white on bunker. Documentary photo, harsh flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>כל החלטה</em> תוך שתי דקות",
+   "hsize": 104,
+   "body": "SpaceX יצאה לשיגור שני <b>38 דקות</b> אחרי שהראשון המריא.\n\n\"תקוע על החלטה: [הדבק את ההחלטה והעובדות]. שלוש אפשרויות מדורגות לפי מהירות. החיסרון הגדול ביותר של כל אחת. ישר לעניין.\"",
+   "media": "posts/2026-08-17-edu-6-ai-speed-prompts-anchored-to-spacex-38/gen-1.jpg",
+   "image_prompt": "Tight close-up of a pair of hands hovering palm-down over a large illuminated commit button, a giant digital countdown frozen at 2:00 dominating the upper frame in bold numerals; cool-blue mission control screens behind glow with abstract green status symbols, all blurred, no face visible. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. No readable words — countdown numerals only. Accent: electric green numerals against midnight blue."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>שני דברים במקביל,</em> בלי לגייס אף אחד",
+   "hsize": 100,
+   "body": "SpaceX הריצה שתי ספירות לאחור במקביל, בדיוק באותו הזמן.\n\n\"הנה רשימת המשימות השבועית שלי: [הדבק]. מצא כל משימה שAI יכול לטפל בה בלעדיי. כתוב את הפרומפט המדויק לכל אחת.\"",
+   "media": "posts/2026-08-17-edu-6-ai-speed-prompts-anchored-to-spacex-38/gen-2.jpg",
+   "image_prompt": "Two identical robotic assembly arms on ceiling rails inside a cavernous rocket factory high-bay, each gripping a separate large cylindrical rocket component in the exact same motion simultaneously; warm amber industrial overhead lighting rakes across polished steel, no human workers anywhere in frame, darkness stretching deep behind them. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. No readable text. Accent: amber-orange industrial light against steel-grey."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>תוכן אחד,</em> שישה פורמטים שונים",
+   "hsize": 104,
+   "body": "SpaceX כבר עברה <b>650 נחיתות מאיצים</b>. יש מאיצי Falcon 9 שעפו מעל <b>20 פעמים</b>.\n\n\"[הדבק תוכן]. שכתב בשישה פורמטים: מייל, פוסט LinkedIn, FAQ, תסריט לוידאו, שרשור Twitter, פרסומת.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>תפוס שלוש טעויות קריטיות</em> לפני השיגור",
+   "hsize": 100,
+   "body": "SpaceX מריצה מאות בדיקות אוטומטיות לפני כל טיסה.\n\n\"אני עומד ל[הדבק פעולה ופרטים]. תפרט כל דרך שזה יכול להיכשל. לשלוש הסבירות ביותר, תסביר איך למנוע כל אחת.\"",
+   "media": "posts/2026-08-17-edu-6-ai-speed-prompts-anchored-to-spacex-38/gen-4.jpg",
+   "image_prompt": "A silhouetted figure from behind leaning close to a wall of glowing mission control monitors, one hand pointing directly at exactly three large red warning triangle symbols blazing on separate screens; cool electric-blue overhead light reflects off their back, no face visible, screens carry only warning symbols and no readable text. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. No readable text. Accent: warning red against electric blue."
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>תתעורר עם שלוש המשימות</em> כבר גמורות",
+   "hsize": 88,
+   "body": "SpaceX רצה <b>24 שעות ביממה</b>. המערכות לא מחכות שמישהו יגיע לעבודה.\n\n\"הנה שלוש משימות הבוקר שלי: [רשום]. כתוב SOP לכל אחת שAI יכול לבצע בלי שאלות.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>קצץ את ההוצאות הגדולות שלך</em> עם פרומפט אחד",
+   "hsize": 100,
+   "body": "SpaceX חתכה את עלות השיגור מ<b>$54,000</b> לקילו לפחות מ<b>$3,000</b>, כי הם לא זורקים כלום.\n\n\"[הדבק הוצאות]. מצא הוצאות שAI או כלי חינמי יכולים להחליף. ציין את התחליף וכמה חוסכים בשנה.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה</em>",
+   "hsize": 110,
+   "body": "תרצה את זה כשתתקע על החלטה, או כשתביט בחשבון שאי אפשר לקצץ. שמור את הפוסט כדי שיהיה שם כשצריך.\n\nחדשות AI כל יום, כלים אמיתיים. עקוב אחרי @ainews.israel",
+   "media": null
+  }
+ ],
+ "caption": "שישה פרומפטים של AI מבוססים על השיטה של SpaceX. החלטות מהירות, עבודה מקבילה, שימוש חוזר בתוכן, בדיקות לפני שיגור, SOPs שרצים בלילה, וקיצוץ הוצאות. 🚀\n\nפרומפט 1 מצמצם כל החלטה קשה לשתי דקות, פרומפט 2 ממפה כל משימה שבועית שAI יכול לבצע בלעדיך, פרומפט 3 הופך תוכן אחד לשישה פורמטים שונים, פרומפט 4 מריץ בדיקת שיגור על המהלך הגדול הבא שלך כדי שתתפוס כל כשל לפני שהוא עולה לך בכסף, פרומפט 5 בונה SOP קבוע לשלוש משימות הבוקר שלך כדי שיהיו גמורות לפני שתתעורר, פרומפט 6 עושה ביקורת על ההוצאות החודשיות שלך ומציין כל שורה שAI או כלי חינמי יכולים להחליף הלילה\n\nSpaceX שיגרה היום שתי רקטות בהפרש של 38 דקות ועברה 650 נחיתות מאיצים. כל המערכת שלהם רצה על מהירות, שימוש חוזר ואפס בזבוז. שישת הפרומפטים האלה מיישמים את אותו ההיגיון על עסק בכל גודל.\n\nמנהל עסק? שלח לנו 'AI' בDM ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: SpaceX\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#AItools #BusinessAutomation #ArtificialIntelligence #Productivity #AIForBusiness",
+ "pinned_comment": "איזה פרומפט אתה מנסה הלילה? פרומפט 3 הוא הכי שווה מכולם: תוכן ישן אחד נהפך לשישה פורמטים חדשים, בפחות משתי דקות. כתוב את המספר שלך למטה.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 AI PROMPTS</em> THAT RUN YOUR BUSINESS LIKE SPACEX",
+   "<em>6 PROMPTS</em> BUILT ON THE SPACEX OPERATING SYSTEM",
+   "<em>6 AI PROMPTS</em> FOR SPACEX-LEVEL BUSINESS SPEED"
+  ],
+  "scores": [
+   5,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "[2]'s 'SPACEX-LEVEL BUSINESS SPEED' tells you the concrete benefit instantly—you know exactly what you're getting. [1] sounds more insider-credible with 'operating system' but makes you decode what it actually means; I'd scroll past wondering rather than stop."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 AI PROMPTS</em> THAT REPLACE YOUR FIRST HIRE",
+   "<em>6 PROMPTS</em> THAT CATCH LAUNCH MISTAKES BEFORE THEY COST YOU",
+   "<em>6 AI PROMPTS</em> FOR SPACEX-LEVEL BUSINESS SPEED",
+   "<em>6 PROMPTS</em> THAT DO YOUR MORNING WORK WHILE YOU SLEEP"
+  ],
+  "scores": [
+   6,
+   4,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "[3]'s 'while you sleep' hits that 2am automation fantasy harder—universal, immediate 'wait, WHAT?'; [2]'s SpaceX name-drop is bold but stays business-focused where [3] feels impossible-yet-tempting for anyone scrolling."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "HOOK IS A LABEL HEADLINE (§2 ban): '6 AI PROMPTS THAT HANDLE YOUR ENTIRE MORNING WORKLOAD WHILE YOU SLEEP' is a listicle descriptor — no actor, no event, no wild specific. §2 requires ONE complete sentence: actor + what happened + the wild specifics. Fixable: anchor the hook to the SpaceX event, e.g. 'SpaceX launched two rockets 38 minutes apart — these are the 6 prompts that run your morning the ",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

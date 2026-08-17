@@ -1,12 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "HOOK — THREE STAPLED FACTS (§2 explicit ban): the hook chains three distinct facts — (1) routing picked the cheap version, (2) fake benchmark charts, (3) OpenAI spent a year fixing both. Cut to ONE actor, ONE action with the single sharpest specific. The hook also has two actors (GPT-5 as launcher, OpenAI as fixer), which §2 forbids.; HOOK — TRUTH OVERSTATEMENT (§5): the hook calls the charts 'FAK",
-  "subject": "GPT-5 LAUNCHED WITH <em>ROUTING THAT PICKED THE CHEAP VERSION</em> AND FAKE BENCHMARK CHARTS, OPENAI SPENT A YEAR FIXING",
-  "t": "2026-08-12T20:20:00Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "A",
   "reason": "INSTANT KILL: This is reaction-bait (someone tweeting outrage at a video) masquerading as a story, with zero real-world consequence shown, one thin unverified source, an unknown actor (unnamed cabinet minister), and no substance beyond @tparsi's moral reaction — exactly the Queen Elizabeth / Mario Lopez failure model this doctrine was born to prevent.",
   "subject": "Let this sink in: In Israel, as part of an election campaign, a cabinet minister issues an AI video showing how his poli",
@@ -2098,5 +2091,12 @@
   "subject": "<em>6 AI PROMPTS</em> THAT HANDLE YOUR ENTIRE MORNING WORKLOAD WHILE YOU SLEEP",
   "verdict": "REJECT",
   "reason": "HOOK IS A LABEL HEADLINE (§2 ban): '6 AI PROMPTS THAT HANDLE YOUR ENTIRE MORNING WORKLOAD WHILE YOU SLEEP' is a listicle descriptor — no actor, no event, no wild specific. §2 requires ONE complete sentence: actor + what happened + the wild specifics. Fixable: anchor the hook to the SpaceX event, e.g. 'SpaceX launched two rockets 38 minutes apart — these are the 6 prompts that run your morning the "
+ },
+ {
+  "t": "2026-08-17T09:00:18Z",
+  "gate": "A",
+  "subject": "Israeli bots are creating AI videos of Greeks pulling down Palestinian flags because no such videos exist",
+  "verdict": "KILL",
+  "reason": "No substance: one thin 105-character tweet, zero numbers, zero named actors, zero documented consequence—the writer would have to pad to fill slides."
  }
 ]
