@@ -1,19 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "INSTANT KILL: This is reaction-bait (someone tweeting outrage at a video) masquerading as a story, with zero real-world consequence shown, one thin unverified source, an unknown actor (unnamed cabinet minister), and no substance beyond @tparsi's moral reaction — exactly the Queen Elizabeth / Mario Lopez failure model this doctrine was born to prevent.",
-  "subject": "Let this sink in: In Israel, as part of an election campaign, a cabinet minister issues an AI video showing how his poli",
-  "t": "2026-08-12T19:05:04Z",
-  "verdict": "KILL"
- },
- {
-  "t": "2026-08-12T23:38:56Z",
-  "gate": "A",
-  "subject": "Moonbase Alpha will be so cool. And we want to make it so that anyone can go to the Moon if they want.",
-  "verdict": "KILL",
-  "reason": "No substance instant kill: a 23-word aspirational statement with zero real events, zero numbers, and zero consequences to build slides from—exactly the thin-tweet category that produced the page's worst posts."
- },
- {
   "t": "2026-08-12T23:38:57Z",
   "gate": "A",
   "subject": "BREAKING: US jobs numbers have now been revised lower in 21 out of the last 30 months by a total of -1.05 million jobs. ",
@@ -2098,5 +2084,19 @@
   "subject": "Israeli bots are creating AI videos of Greeks pulling down Palestinian flags because no such videos exist",
   "verdict": "KILL",
   "reason": "No substance: one thin 105-character tweet, zero numbers, zero named actors, zero documented consequence—the writer would have to pad to fill slides."
+ },
+ {
+  "t": "2026-08-17T14:26:54Z",
+  "gate": "B",
+  "subject": "PEOPLE ARE QUIETLY GETTING <em>100 FREE AI PRODUCT PHOTOS A DAY</em> FROM MICROSOFT AND MOST STILL DON'T KNOW",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH failure: the cover shows a generated image of Satya Nadella — a recognizable famous person — as the face of this post, but he has no role in this story. No slide mentions him, he performed no action, and the post is a 5-tool utility list. Using a CEO as brand decoration is exactly the failure the CAST TRUTH rule exists to catch.; Cover contract broken: the cover image (Microsoft logo + "
+ },
+ {
+  "t": "2026-08-17T14:29:35Z",
+  "gate": "B",
+  "subject": "PEOPLE ARE QUIETLY GETTING <em>100 FREE AI PRODUCT PHOTOS A DAY</em> FROM MICROSOFT AND MOST STILL DON'T KNOW",
+  "verdict": "APPROVE",
+  "reason": ""
  }
 ]
