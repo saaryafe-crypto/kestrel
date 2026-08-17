@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 AI PROMPTS</em> THAT HANDLE YOUR ENTIRE MORNING WORKLOAD WHILE YOU SLEEP",
+   "kicker": "THEY LAUNCHED 2 ROCKETS 38 MINUTES APART",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-17-edu-6-ai-speed-prompts-anchored-to-spacex-38/gen-0-r.jpg",
+   "image_prompt": "Worker waist-up at launch complex pre-dawn, arms flung overhead in triumph, two Falcon 9 plumes blazing orange-white in navy sky, SpaceX logo white on bunker. Documentary photo, harsh flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>CUT YOUR DECISIONS</em> TO 2 MINUTES",
+   "hsize": 104,
+   "body": "SpaceX committed to a second launch just <b>38 minutes</b> after the first lifted off.\n\n\"I'm stuck deciding: [paste decision and facts]. Top 3 options ranked by speed. Biggest downside of each. No filler.\"",
+   "media": "posts/2026-08-17-edu-6-ai-speed-prompts-anchored-to-spacex-38/gen-1.jpg",
+   "image_prompt": "Tight close-up of a pair of hands hovering palm-down over a large illuminated commit button, a giant digital countdown frozen at 2:00 dominating the upper frame in bold numerals; cool-blue mission control screens behind glow with abstract green status symbols, all blurred, no face visible. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. No readable words \u2014 countdown numerals only. Accent: electric green numerals against midnight blue."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>RUN TWO THINGS AT ONCE</em> WITHOUT HIRING",
+   "hsize": 100,
+   "body": "SpaceX ran two parallel countdowns at the exact same time.\n\n\"Here is my weekly task list: [paste]. Identify every task AI can handle without me. Write the exact prompt to complete each one.\"",
+   "media": "posts/2026-08-17-edu-6-ai-speed-prompts-anchored-to-spacex-38/gen-2.jpg",
+   "image_prompt": "Two identical robotic assembly arms on ceiling rails inside a cavernous rocket factory high-bay, each gripping a separate large cylindrical rocket component in the exact same motion simultaneously; warm amber industrial overhead lighting rakes across polished steel, no human workers anywhere in frame, darkness stretching deep behind them. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. No readable text. Accent: amber-orange industrial light against steel-grey."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>REUSE ONE THING</em> 6 DIFFERENT WAYS",
+   "hsize": 104,
+   "body": "SpaceX just hit <b>650 booster landings</b>. Some Falcon 9 boosters have flown more than <b>20 times</b>.\n\n\"[Paste content]. Rewrite as 6 formats: email, LinkedIn post, FAQ, video script, Twitter thread, ad.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>CATCH 3 CRITICAL MISTAKES</em> BEFORE LAUNCH",
+   "hsize": 100,
+   "body": "SpaceX runs hundreds of automated checks before every flight.\n\n\"I'm about to [paste action and details]. List every way this can fail. For the 3 most likely, tell me how to prevent each.\"",
+   "media": "posts/2026-08-17-edu-6-ai-speed-prompts-anchored-to-spacex-38/gen-4.jpg",
+   "image_prompt": "A silhouetted figure from behind leaning close to a wall of glowing mission control monitors, one hand pointing directly at exactly three large red warning triangle symbols blazing on separate screens; cool electric-blue overhead light reflects off their back, no face visible, screens carry only warning symbols and no readable text. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. No readable text. Accent: warning red against electric blue."
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>WAKE UP TO YOUR FIRST 3 TASKS</em> ALREADY DONE",
+   "hsize": 88,
+   "body": "SpaceX runs <b>24 hours a day</b>. Systems don't wait for people to clock in.\n\n\"Here are my 3 morning tasks: [list]. Write an SOP for each an AI can follow with zero questions.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>CUT YOUR BIGGEST COSTS</em> WITH ONE PROMPT",
+   "hsize": 100,
+   "body": "SpaceX cut cargo costs from <b>$54,000</b> per kg to under <b>$3,000</b> by reusing what others throw away.\n\n\"[Paste spending]. Find expenses AI or a free tool could replace. Name the replacement and yearly savings.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em>",
+   "hsize": 110,
+   "body": "You'll want these when you're stuck on a decision or staring at a bill you can't cut. Save this post so they're there when it counts.\n\nDaily AI news and real tools. Follow @yaffeai",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 AI prompts built on how SpaceX operates. Fast decisions, parallel work, asset reuse, pre-launch checks, overnight SOPs, and cost cuts. \ud83d\ude80\n\nPrompt 1 collapses any hard decision down to 2 minutes, Prompt 2 maps every weekly task AI can run without you, Prompt 3 turns one piece of content into 6 different formats, Prompt 4 runs a pre-launch check on your next big move so you catch every failure before it costs you, Prompt 5 builds a standing SOP for your first 3 morning tasks so they're done before you wake up, Prompt 6 audits your monthly spending and names every line item AI or a free tool can replace tonight\n\nSpaceX launched two rockets 38 minutes apart today and hit its 650th booster landing. Their whole system runs on speed, reuse, and zero wasted cycles. These 6 prompts apply that same logic to a business of any size.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: SpaceX\n\n#AItools #BusinessAutomation #ArtificialIntelligence #Productivity #AIForBusiness",
+ "pinned_comment": "Which prompt are you trying tonight? Prompt 3 is the sleeper: one piece of old content into six new formats in under 2 minutes. Drop your number below.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 AI PROMPTS</em> THAT RUN YOUR BUSINESS LIKE SPACEX",
+   "<em>6 PROMPTS</em> BUILT ON THE SPACEX OPERATING SYSTEM",
+   "<em>6 AI PROMPTS</em> FOR SPACEX-LEVEL BUSINESS SPEED"
+  ],
+  "scores": [
+   5,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "[2]'s 'SPACEX-LEVEL BUSINESS SPEED' tells you the concrete benefit instantly\u2014you know exactly what you're getting. [1] sounds more insider-credible with 'operating system' but makes you decode what it actually means; I'd scroll past wondering rather than stop."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 AI PROMPTS</em> THAT REPLACE YOUR FIRST HIRE",
+   "<em>6 PROMPTS</em> THAT CATCH LAUNCH MISTAKES BEFORE THEY COST YOU",
+   "<em>6 AI PROMPTS</em> FOR SPACEX-LEVEL BUSINESS SPEED",
+   "<em>6 PROMPTS</em> THAT DO YOUR MORNING WORK WHILE YOU SLEEP"
+  ],
+  "scores": [
+   6,
+   4,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "[3]'s 'while you sleep' hits that 2am automation fantasy harder\u2014universal, immediate 'wait, WHAT?'; [2]'s SpaceX name-drop is bold but stays business-focused where [3] feels impossible-yet-tempting for anyone scrolling."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "HOOK IS A LABEL HEADLINE (\u00a72 ban): '6 AI PROMPTS THAT HANDLE YOUR ENTIRE MORNING WORKLOAD WHILE YOU SLEEP' is a listicle descriptor \u2014 no actor, no event, no wild specific. \u00a72 requires ONE complete sentence: actor + what happened + the wild specifics. Fixable: anchor the hook to the SpaceX event, e.g. 'SpaceX launched two rockets 38 minutes apart \u2014 these are the 6 prompts that run your morning the ",
+ "topic_source": "news-anchored"
+}

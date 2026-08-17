@@ -1,47 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Pure reaction-bait: the entire substance is one person's skeptical take on media coverage with zero real-world event, consequence, or numbers—no story exists behind the doubt, just commentary on commentary.",
-  "subject": "Mainstream media headlines: China's leading the world in autonomous driving tech!! Yeah, right... Writer: Ian",
-  "t": "2026-08-12T18:57:33Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One thin statistic with no person, event, or real-world consequence—data reporting, not a story.",
-  "subject": "More Americans now use marijuana daily than drink or smoke daily, per NHSDA",
-  "t": "2026-08-12T18:57:44Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-brand animal story with one thin fact and no real consequence—insufficient substance to build a carousel.",
-  "subject": "This lamb actually learned how to drive herself around Kiki uses a joystick to control her wheelchair and go wherever sh",
-  "t": "2026-08-12T18:57:50Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance — source is one thin phrase with zero facts, numbers, or real-world consequence to build a story from.",
-  "subject": "Now we're talkin!!!",
-  "t": "2026-08-12T18:58:08Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Pure astronomy content with no tech/business lens violates the doctrine: 'Space counts only through the tech/business lens (SpaceX, Starlink, rocket companies, valuations)' — an image release alone, with zero human consequence or innovation story, is off-brand regardless of its visual appeal.",
-  "subject": "The largest and sharpest image ever taken of the Andromeda galaxy — otherwise known as M31. It is the biggest Hubble ima",
-  "t": "2026-08-12T18:58:15Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "Hook violates §2 on two counts: (1) it is 8 words — below the explicit 12-word floor — and (2) it withholds every wild specific. Hook law requires 'the WHOLE story — actor + what happened + the wild specifics. Nothing withheld.' A reader with zero context still doesn't know what broke (routing defaulting to the cheap version), what the scandal was (chartcrime), or what the turnaround produced. All",
-  "subject": "<em>OPENAI FIXED 6 THINGS</em> AFTER GPT-5'S WORST YEAR",
-  "t": "2026-08-12T20:17:30Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "B",
   "reason": "HOOK — THREE STAPLED FACTS (§2 explicit ban): the hook chains three distinct facts — (1) routing picked the cheap version, (2) fake benchmark charts, (3) OpenAI spent a year fixing both. Cut to ONE actor, ONE action with the single sharpest specific. The hook also has two actors (GPT-5 as launcher, OpenAI as fixer), which §2 forbids.; HOOK — TRUTH OVERSTATEMENT (§5): the hook calls the charts 'FAK",
   "subject": "GPT-5 LAUNCHED WITH <em>ROUTING THAT PICKED THE CHEAP VERSION</em> AND FAKE BENCHMARK CHARTS, OPENAI SPENT A YEAR FIXING",
@@ -2098,5 +2056,47 @@
   "subject": "5 PROMPTS <em>THAT KILL THE $200-A-PAGE TRANSLATOR BILL</em>",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-16T23:22:12Z",
+  "gate": "A",
+  "subject": "🇮🇳 India's government paves a road in a small village. Hours later, locals dig it up and STEAL the asphalt. The brand-ne",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the 'story' is an unverified claim from a single tweet with no documented consequence, named people, numbers, or real fallout — just an engagement hook with rhetorical questions."
+ },
+ {
+  "t": "2026-08-16T23:22:20Z",
+  "gate": "A",
+  "subject": "He learned faster than any human child.",
+  "verdict": "KILL",
+  "reason": "One vague claim (39 chars) with no actor named, no consequence, no second fact, and no real proof — the writer would pad a carousel with speculation rather than facts."
+ },
+ {
+  "t": "2026-08-16T23:22:20Z",
+  "gate": "A",
+  "subject": "SpaceX just set a new record by launching two Falcon 9 rockets only 38.5 minutes apart. SpaceX is operating on another l",
+  "verdict": "KILL",
+  "reason": "Single thin tweet with one metric and zero consequence—a speed record alone doesn't move reality in a way a reader feels, and the writer would have to fabricate substance from the time interval."
+ },
+ {
+  "t": "2026-08-16T23:23:00Z",
+  "gate": "A",
+  "subject": "SpaceX just achieved its 650th Falcon booster landing. Absolutely incredible. No other company comes close to this level",
+  "verdict": "KILL",
+  "reason": "No substance—single thin tweet with no second fact, no consequence, and no real event that changed outcomes; a milestone counter-tick is on-topic-but-routine, not a story."
+ },
+ {
+  "t": "2026-08-17T00:19:39Z",
+  "gate": "B",
+  "subject": "<em>6 PROMPTS</em> THAT DO YOUR MORNING WORK WHILE YOU SLEEP",
+  "verdict": "REJECT",
+  "reason": "Cover image violates IMAGE LAW: the dominant subject is a generated unknown face (person in a SpaceX jacket, arms raised, mouth open, center-frame). The law is explicit — 'Never a generated unknown face.' The SpaceX brand appearing on the jacket and building does not rescue it; the face is the hero element a viewer reads first, not the brand mark. Fix: replace with a real photo or official footage"
+ },
+ {
+  "t": "2026-08-17T00:21:38Z",
+  "gate": "B",
+  "subject": "<em>6 AI PROMPTS</em> THAT HANDLE YOUR ENTIRE MORNING WORKLOAD WHILE YOU SLEEP",
+  "verdict": "REJECT",
+  "reason": "HOOK IS A LABEL HEADLINE (§2 ban): '6 AI PROMPTS THAT HANDLE YOUR ENTIRE MORNING WORKLOAD WHILE YOU SLEEP' is a listicle descriptor — no actor, no event, no wild specific. §2 requires ONE complete sentence: actor + what happened + the wild specifics. Fixable: anchor the hook to the SpaceX event, e.g. 'SpaceX launched two rockets 38 minutes apart — these are the 6 prompts that run your morning the "
  }
 ]
