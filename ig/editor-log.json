@@ -2,13 +2,6 @@
  {
   "t": "2026-08-13T14:23:49Z",
   "gate": "A",
-  "subject": "SL2T is our breakthrough sign language-to-text model powering new features for Deaf and hard of hearing users on @Androi",
-  "verdict": "KILL",
-  "reason": "This is a product launch announcement with no real-world consequence or second fact — it's one thin tweet hitting the explicit 'launch previews' ban, and no person's outcome to build a story from."
- },
- {
-  "t": "2026-08-13T14:23:49Z",
-  "gate": "A",
   "subject": "Un. Real.",
   "verdict": "KILL",
   "reason": "No substance — one cryptic title and engagement metric with zero facts, numbers, actors, or real-world consequence to build slides from."
@@ -2098,5 +2091,12 @@
   "subject": "THE 6 <em>AI RULES</em> THAT MAKE CLAUDE STOP GIVING YOU USELESS ANSWERS",
   "verdict": "REJECT",
   "reason": "IMAGE LAW — generated unknown face on the cover: the image shows a generated man in a referee's uniform blowing a whistle. The Doctrine is explicit: 'Never a generated unknown face.' This is a hard ban, not a style note. The cover must be replaced.; IMAGE LAW — thumb test fails: at feed size, a referee in a stadium does not communicate 'AI prompting rules.' The Anthropic logo on the stadium scoreb"
+ },
+ {
+  "t": "2026-08-17T18:39:23Z",
+  "gate": "A",
+  "subject": "Israeli bots are not giving up. Due to overwhelming Palestinian support from Greeks, they are creating AI videos showing",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: the story is online content warfare (unnamed actors, unspecified videos) with zero real-world consequence, proof, or specifics—fails Story Law's instant-kill criteria."
  }
 ]

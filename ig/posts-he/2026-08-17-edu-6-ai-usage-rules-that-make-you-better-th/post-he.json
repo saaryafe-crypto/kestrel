@@ -1,0 +1,113 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שישה כללים שגורמים ל-Claude <em>לענות כמו שצריך</em>",
+   "kicker": "רוב האנשים שוברים את כולם",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-17-edu-6-ai-usage-rules-that-make-you-better-th/gen-0.jpg",
+   "image_prompt": "Referee whistle and red armband lying on cobalt table with dollar and warning triangle symbols, harsh flash, orange light, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>תן ל-AI תפקיד</em> לפני שאתה שואל כלום",
+   "hsize": 108,
+   "body": "הוסף 'אתה <b>משקיע Series A</b> שדחה <b>400 פיצ'ים</b>' ואותו מודל פתאום מוצא את הבעיות הקריטיות. פרומפט: 'אתה [תפקיד מומחה]. מצא כל בעיה ודרג אותה לפי חומרה'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>בקש את ההיפך</em> אחרי כל תוכנית",
+   "hsize": 108,
+   "body": "הוסף שורה אחת ו-Claude מוצא את <b>שלוש ההנחות</b> שהכי עלולות לפוצץ לך את התקציב, לפני שהוצאת שקל. פרומפט: 'עכשיו תן לי את שלושת הטיעונים הכי חזקים נגד כל מה שאמרת'",
+   "media": "posts/2026-08-17-edu-6-ai-usage-rules-that-make-you-better-th/gen-2.jpg",
+   "image_prompt": "Two printed documents side by side on a desk — left covered in large green checkmarks, right slashed with red X symbols — a hand pushing the rejected sheet forward. Amber and charcoal. Documentary news photo, 35mm, harsh flash, film grain. Accent: signal red against warm amber."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>אמור את הפורמט</em> לפני השאלה",
+   "hsize": 112,
+   "body": "הוסף את הפורמט בהתחלה ואותה שאלה מחזירה משהו שאפשר להדביק ולהשתמש בו תוך <b>חמש דקות</b>. פרומפט: 'תן לי [מספר] [פורמט] על [נושא]. כל אחד חייב לכלול [תנאי] ולהתאים למשפט אחד'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>שאל מה הוא צריך</em> לפני שהוא מתחיל",
+   "hsize": 108,
+   "body": "שאל את זה לפני הכל, ואיכות כל הסשן משתנה. פרומפט: 'מה <b>חמשת הדברים הכי חשובים</b> שאתה צריך ממני? שאל אותי כל אחד בנפרד'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>תגרום לו לבדוק</em> את עצמו",
+   "hsize": 112,
+   "body": "Claude כותב חישובים בביטחון מלא, גם כשהם שגויים, ולא מסמן את זה. תגיד לו לבדוק את עצמו והשגיאות יצופו לפני שמישהו אחר יראה אותן. פרומפט: 'מצא כל מספר שעלול להיות שגוי. תקן אותם'",
+   "media": "posts/2026-08-17-edu-6-ai-usage-rules-that-make-you-better-th/gen-5.jpg",
+   "image_prompt": "A hand presses a red pen into a printed page — bold red circles around error symbols — a corrected second copy beside it, green marks replacing red. Charcoal and cool green. Documentary news photo, 35mm, harsh flash, film grain. Accent: signal red against cool charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>תגיד ל-Claude מי אתה</em> בהתחלה",
+   "hsize": 100,
+   "body": "Claude לא יודע אם אתה סטודנט או מנהל חברה עם <b>50 עובדים</b>, אלא אם כן תגיד לו. פרומפט: 'הקשר: אני [תפקיד] שמנהל [סוג עסק] עם [תקציב או גודל צוות]. שמור על הכל רלוונטי'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה</em>",
+   "hsize": 120,
+   "body": "בפעם הבאה ש-Claude יוציא לך שטויות, הכללים האלה כבר יהיו אצלך. שמור את הפוסט ונסה כלל אחד הלילה. כישורי AI חדשים והסיפור הכי גדול מעולם ה-AI, כל יום בעמוד הזה",
+   "media": null
+  }
+ ],
+ "caption": "עבור על כל ששת הכללים לפני שאתה פותח את Claude היום. כל אחד מהם משנה את מה שתקבל. 🧠\n\nתן ל-AI תפקיד לפני שאתה שואל, בקש טיעונים נגד אחרי כל תוכנית, אמור את הפורמט לפני השאלה, שאל את Claude מה הוא צריך לפני שהוא מתחיל, תגרום לו לבדוק את עצמו, תגיד לו מי אתה בתחילת כל שיחה.\n\nרוב האנשים מקלידים שאלה וסוגרים. זה מביא את התשובה הממוצעת. הכללים האלה מפרידים בין מי שמקבל תוצאות אמיתיות מ-AI לכל השאר שנתקעים שוב ושוב. מנהל עסק? שלח לנו DM עם 'AI' ונראה לך מה אפשר לעשות.\n\nמקורות: Starboy2079\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#AI #ChatGPT #Claude #ArtificialIntelligence #LearnAI",
+ "pinned_comment": "איזה כלל אתה מנסה הלילה? כלל 4 זה מה שרוב האנשים מדלגים עליו, והוא משנה כל סשן.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 RULES THAT MAKE YOU <em>BETTER AT AI THAN MOST</em>",
+   "6 RULES FOR USING AI <em>BETTER THAN EVERYONE ELSE</em>",
+   "6 AI RULES <em>MOST PEOPLE WILL NEVER LEARN</em>",
+   "THE 6 RULES <em>REAL AI USERS</em> NEVER SKIP",
+   "<em>WE USE AI BETTER THAN YOU.</em> HERE ARE 6 RULES."
+  ],
+  "scores": [
+   4,
+   4,
+   5,
+   7,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] stops you mid-scroll with pure confrontation—'WE USE AI BETTER THAN YOU' is a personal jab that makes you stop to either prove them wrong or see what they've got. [3] invites you in with gatekeeping, which is polished but passive."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>WE USE AI BETTER THAN YOU.</em> HERE ARE 6 RULES.",
+   "<em>YOU'VE BEEN USING AI WRONG.</em> THESE 6 RULES FIX THAT.",
+   "<em>6 AI RULES</em> THAT WILL TEACH YOU MORE THAN MOST PAID COURSES",
+   "6 <em>AI RULES</em> SO GOOD THEY FEEL ILLEGAL"
+  ],
+  "scores": [
+   4,
+   6,
+   5,
+   8
+  ],
+  "winner": 3,
+  "why": "\"SO GOOD THEY FEEL ILLEGAL\" makes your brain actually stop—it's bold and absurd enough to feel real, not like a template. The others use the same defensive-gotcha playbook every Instagram course throws at you."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW — generated unknown face on the cover: the image shows a generated man in a referee's uniform blowing a whistle. The Doctrine is explicit: 'Never a generated unknown face.' This is a hard ban, not a style note. The cover must be replaced.; IMAGE LAW — thumb test fails: at feed size, a referee in a stadium does not communicate 'AI prompting rules.' The Anthropic logo on the stadium scoreb",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
