@@ -1,0 +1,17 @@
+{
+ "pick": 11,
+ "title": "How ChatGPT solved a puzzle using browser tools",
+ "title_candidates": [
+  "How OpenAI's GPT-5.5 was built to finish a real job from start to end",
+  "What made GPT-5.5 the first OpenAI model that could catch its own mistakes",
+  "The OpenAI demo that showed what AI looks like when it thinks it through",
+  "Why GPT-5.5 could use tools mid-task instead of stopping when it got stuck",
+  "The GPT-5.5 demo where OpenAI showed an AI carry a complex task alone"
+ ],
+ "caption": "GPT-5.5 was the first model OpenAI built to actually carry a task all the way through, not just answer and stop.\n\nMost AI gives you a response and waits. GPT-5.5 was designed differently: it sets a goal, picks up the right tools, checks what it produced, and keeps going if something is off. That shift made it feel less like a search engine and more like something actually working on your behalf.\n\nThis dropped a few months before GPT-5.6 Sol. Worth seeing where it started.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: OpenAI. DM for credit or removal\n\n#artificialintelligence #chatgpt #openai #aitools #gpt",
+ "start_s": 5,
+ "clip_s": 35,
+ "source": "https://video.twimg.com/amplify_video/2047374439407620096/vid/avc1/1920x1080/KbNwuXNHSjTOBFL9.mp4?tag=21",
+ "channel": "OpenAI",
+ "publish": "make"
+}
