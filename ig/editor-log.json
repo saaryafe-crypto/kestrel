@@ -1,19 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Pure reaction-bait: the entire substance is one person's mocking comment on AI-generated clips with no real-world consequence, no numbers, no second fact, and no outcome beyond engagement metrics—exactly the failure model that produced the Queen Elizabeth and Mario Lopez posts.",
-  "subject": "\"Hahahaha look at these AI-generated clips of cruelty against vulnerable homeless people\" — Israeli with 'human rights a",
-  "t": "2026-08-13T15:03:23Z",
-  "verdict": "KILL"
- },
- {
-  "t": "2026-08-13T17:59:37Z",
-  "gate": "A",
-  "subject": "Un. Real.",
-  "verdict": "KILL",
-  "reason": "No substance: zero information about what actually happened—only a vague title, a like count, and a Twitter handle, which violates the instant-kill rule and suggests either reaction-bait or padding-required material."
- },
- {
   "t": "2026-08-13T17:59:39Z",
   "gate": "A",
   "subject": "BREAKING: 𝕏 wins lawsuit against Australia’s eSafety Commissioner. Elon Musk’s 𝕏 has secured a major victory in Australi",
@@ -2098,5 +2084,19 @@
   "subject": "Israeli bots are not giving up. Due to overwhelming Palestinian support from Greeks, they are creating AI videos showing",
   "verdict": "KILL",
   "reason": "Reaction-bait: the event is engagement on X to an unproven claim about bots creating videos, not an actual artifact or real-world consequence—no videos shown, no named individuals, no proof, no second fact."
+ },
+ {
+  "t": "2026-08-18T14:23:31Z",
+  "gate": "B",
+  "subject": "<em>6 QUESTIONS NIKE NEVER ASKED.</em> YOUR BRAND SHOULD.",
+  "verdict": "REJECT",
+  "reason": "HOOK VIOLATION (§2): '6 QUESTIONS NIKE NEVER ASKED. YOUR BRAND SHOULD.' is explicitly a label/aphorism headline — banned by Hook Law. It is also two fragments, not one complete sentence with actor + what happened + wild specifics. The $200B number, which is the whole reason this story exists, is buried in the kicker instead of being in the hook where it earns the click. Fix: one complete sentence,"
+ },
+ {
+  "t": "2026-08-18T14:26:40Z",
+  "gate": "B",
+  "subject": "Nike lost $200 billion letting <em>AI-detectable brand rot</em> go unfixed for five years, these 6 prompts find the same",
+  "verdict": "REJECT",
+  "reason": "HOOK VIOLATION (§2): The hook is two hooks stapled with a comma — 'Nike lost $200 billion…' is one complete thought, 'these 6 prompts find the same rot in yours tonight' is a second separate actor and action. The doctrine requires ONE actor, ONE action; cut the weaker half and rebuild as a single clause. The Nike loss is the story; the prompts are the mechanism — one of them must anchor the hook.;"
  }
 ]

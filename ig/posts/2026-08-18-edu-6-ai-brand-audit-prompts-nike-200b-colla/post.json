@@ -1,0 +1,87 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Nike lost $200 billion letting <em>AI-detectable brand rot</em> go unfixed for five years, these 6 prompts find the same rot in yours tonight.",
+   "kicker": "NIKE LOST $200B. CHECK YOURS TONIGHT.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-18-edu-6-ai-brand-audit-prompts-nike-200b-colla/gen-0.jpg",
+   "image_prompt": "Nike swoosh \u2014 bold curved black checkmark \u2014 lying flat on a stainless steel medical examination table as a patient, an IV drip bag hanging above its curve, a pair of faceless hands pressing a chrome stethoscope to its center, a clipboard propped at the table edge bearing a large bold red downward-arrow line symbol. Stark white clinical examination room, harsh overhead fluorescent strip light. Documentary news photo, 35mm, on-camera flash, slight film grain. Zero readable text. Accent: signal red against clinical white."
+  },
+  {
+   "type": "content",
+   "headline": "1) SPOT <em>THE DISCOUNT TRAP</em> BEFORE IT KILLS YOUR BRAND",
+   "hsize": 100,
+   "body": "Nike trained customers to wait for sales, and by the time anyone noticed, full-price volume had collapsed. Then margins did too.",
+   "media": "posts/2026-08-18-edu-6-ai-brand-audit-prompts-nike-200b-colla/gen-1.jpg",
+   "image_prompt": "A nearly bare athletic-shoe sale rack \u2014 metal pegs mostly empty, a few pairs remaining, bold red circular markdown-tag symbols dangling from each \u2014 while full-price display shelves stand untouched in the background. A silhouetted figure from behind walks directly toward the discount rack, bypassing the full-price wall entirely. Harsh fluorescent retail lighting. Documentary news photo, 35mm, on-camera flash, film grain. Zero readable text. Accent: signal red against retail grey."
+  },
+  {
+   "type": "content",
+   "headline": "2) FIND <em>WHO IS STEALING YOUR CUSTOMERS</em> RIGHT NOW",
+   "hsize": 100,
+   "body": "New Balance, Hoka, and On Running took <b>four years</b> of brand share from Nike before anyone inside noticed. Here is how to find who is doing it to yours:",
+   "media": "posts/2026-08-18-edu-6-ai-brand-audit-prompts-nike-200b-colla/gen-2.jpg",
+   "image_prompt": "A bright retail shoe shelf holding three vivid competing sneakers in bold colors with one conspicuous empty slot at center. A pair of hands \u2014 no face visible \u2014 reaches toward the competitor shoes rather than the vacant gap. Tight close-up on the shelf, shoes sharp in focus. Clean white retail interior. Documentary news photo, 35mm, on-camera flash, film grain. Zero readable text. Accent: vivid orange against clean white."
+  },
+  {
+   "type": "content",
+   "headline": "3) TEST IF <em>YOUR ORIGINAL CUSTOMER</em> HAS ALREADY LEFT",
+   "hsize": 100,
+   "body": "Nike built its brand on serious athletes, then chased mass-market buyers. The core customer left, and the brand went with them.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) AUDIT <em>YOUR BRAND STORY</em> FOR COHERENCE",
+   "hsize": 100,
+   "body": "Nike's slide accelerated when no one inside could answer 'why Nike and not Hoka?' The brand had drifted into generic over <b>five years</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE <em>YOUR CRISIS PLAN</em> BEFORE YOU NEED ONE",
+   "hsize": 100,
+   "body": "Nike had no fast response when the backlash grew. A gap like that takes weeks to close and costs far more than the <b>25 minutes</b> this takes:",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) PRICE YOUR PRODUCT <em>LIKE YOUR BRAND DEPENDS ON IT</em>",
+   "hsize": 100,
+   "body": "Nike discounted its brand until its stock hit a <b>12-year low</b>, down 78% from its all-time high. Each discount felt safe at the time.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS</em> FOR TONIGHT",
+   "hsize": 100,
+   "body": "Your brand is the most valuable thing your business owns. These 6 prompts take less than an hour. Nike took 5 years to fall.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through these 6 AI brand prompts, each one targeting a specific way a brand quietly dies before the numbers catch up. \ud83d\udee1\ufe0f\n\nThe discount trap that trains customers to wait for sales, finding who is stealing your customers right now, testing whether your original customer has already drifted away, auditing your brand story for coherence, writing a 24-hour crisis response plan, and pricing your product to match your brand's promise.\n\nNike's stock just hit its lowest level since 2014, down 78% from its all-time high, with over $200 billion in market cap gone. The collapse did not happen overnight. It happened through five years of quiet decisions that each felt safe at the time. AI lets any business owner run the same brand health check a consultant charges tens of thousands for, in one evening. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Bloomberg, Reuters, Nike investor filings.\n\n#AItools #businessowner #brandstrategy #marketing #artificialintelligence",
+ "pinned_comment": "Which slide is the one your brand actually needs right now? Slide 3 is the one most owners are afraid to answer honestly.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR BRAND IS BLEEDING. <em>6 PROMPTS THAT FIND THE LEAK.</em>",
+   "<em>6 AI PROMPTS</em> THAT CATCH A BRAND COLLAPSE EARLY.",
+   "<em>6 QUESTIONS NIKE NEVER ASKED.</em> YOUR BRAND SHOULD.",
+   "<em>6 AI PROMPTS</em> THAT PROTECT YOUR BRAND"
+  ],
+  "scores": [
+   5,
+   4,
+   7,
+   3
+  ],
+  "winner": 2,
+  "why": "[2] names Nike\u2014a real, massive company\u2014making me instantly curious what they supposedly missed, whereas [0]'s 'bleeding' metaphor stays abstract and requires me to click to even understand what the problem is. Specificity stops the scroll; vague drama doesn't."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "HOOK VIOLATION (\u00a72): The hook is two hooks stapled with a comma \u2014 'Nike lost $200 billion\u2026' is one complete thought, 'these 6 prompts find the same rot in yours tonight' is a second separate actor and action. The doctrine requires ONE actor, ONE action; cut the weaker half and rebuild as a single clause. The Nike loss is the story; the prompts are the mechanism \u2014 one of them must anchor the hook.;",
+ "topic_source": "news-anchored"
+}
