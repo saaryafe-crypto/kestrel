@@ -150,8 +150,17 @@ def build_prompt(used_topics, headlines="", guides=(), must_anchor=False,
         # exhausted): an empty guide pool must NOT mean invention — the
         # news stories below are all watchlist-viral, so riding one keeps
         # the owner's ground rule alive. Optional became MANDATORY.
+        # Exec editions (Aug 18) are ALWAYS mandatory-anchor: the pool is
+        # mostly beginner prompt-guides, so "pool non-empty" must not open
+        # a self-invention door for this lane.
+        reason = ("this edition NEVER invents a topic — an executive-grade "
+                  "guide from the pool above or one of these live stories is "
+                  "the only legal anchor"
+                  if mode == "exec" else
+                  "the viral-guide pool is empty, and this page NEVER "
+                  "invents a topic")
         tips_block = f"""
-TODAY'S NEWS — MANDATORY anchor (the viral-guide pool is empty, and this page NEVER invents a topic — owner GROUND RULE Aug 12: everything rides an ALREADY-VIRAL X wave): build the guide ON one of these live stories — real utility a business owner can use tonight, born from the story ("GPT-5 dropped yesterday — 5 things it already does for your business"). Name the story inside your "topic" label as the why-now. If a story cannot carry genuine utility, take the next one; picking a pillar topic with no story anchor gets the post flagged to the owner.
+TODAY'S NEWS — MANDATORY anchor ({reason} — owner GROUND RULE Aug 12: everything rides an ALREADY-VIRAL X wave): build the guide ON one of these live stories — real utility a business owner can use tonight, born from the story ("GPT-5 dropped yesterday — 5 things it already does for your business"). Name the story inside your "topic" label as the why-now. If a story cannot carry genuine utility, take the next one; picking a pillar topic with no story anchor gets the post flagged to the owner.
 {headlines}
 """
     else:
@@ -230,8 +239,12 @@ def main():
         pass
     guides = viral_guides(used)
     # pool empty + live viral stories -> anchoring on one is mandatory
-    # (Aug 15: self-inventing is the LAST rung, not the first fallback)
-    must_anchor = not guides and bool(headlines)
+    # (Aug 15: self-inventing is the LAST rung, not the first fallback).
+    # Exec mode: anchoring is ALWAYS mandatory when stories exist — the
+    # guide pool is mostly beginner material, so its mere presence must
+    # not let an exec edition self-invent (owner Aug 18: real recent X
+    # data, never invented content).
+    must_anchor = bool(headlines) and (not guides or mode == "exec")
     if guides:
         print(f"viral X guides on the radar: "
               + ", ".join(f"@{g['sub']} ({g.get('score', 0):,} likes)"
