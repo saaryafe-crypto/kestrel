@@ -1,0 +1,17 @@
+{
+ "pick": 12,
+ "title": "The sword tip tracker turning Olympic fencing into a video game",
+ "title_candidates": [
+  "The sword tip tracker turning Olympic fencing into a video game",
+  "How real-time tracking made the fastest sport in the world finally watchable",
+  "The tech that shows what the human eye misses in every fencing match",
+  "Why fencing is adding glowing trails to every sword at the Olympics",
+  "The computer vision system tracking a sword tip moving faster than you can blink"
+ ],
+ "caption": "A real-time tracker paints a glowing trail on the sword tip during every live fencing match. The system uses computer vision to follow the blade frame by frame and overlays the path on the broadcast feed. What was too fast for the human eye to catch now lights up like a racing line in a game.\n\nSword tip visualization is set to debut at the Olympics, where the goal is to make a sport that most people find hard to follow on TV impossible to look away from.\n\nIf you have ever switched channels during a fencing match, watch this first.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: LinusEkenstam. DM for credit or removal\n\n#fencing #olympics #AI #tech #sportstech",
+ "start_s": 2,
+ "clip_s": 20,
+ "source": "https://video.twimg.com/amplify_video/2045974472373751808/vid/avc1/1276x720/HtdNoMQf4KEJdvmN.mp4?tag=21",
+ "channel": "LinusEkenstam",
+ "publish": "make"
+}
