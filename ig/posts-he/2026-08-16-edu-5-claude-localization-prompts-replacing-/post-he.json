@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמישה פרומפטים <em>שיחסלו לך את חשבון המתרגם של $200 לעמוד</em>",
+   "kicker": "בלי מתרגם. הלילה.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-16-edu-5-claude-localization-prompts-replacing-/gen-0-r.jpg",
+   "image_prompt": "Back-turned figure, fist raised triumphantly shredding $200 invoice at wooden market stall; Claude logo on hanging sign, flag bunting, deep teal shadows, documentary 35mm flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) שכתוב דף המכירות שלך <em>לשוק חדש</em>",
+   "hsize": 100,
+   "body": "סוכנויות תרגום לוקחות <b>$0.20 למילה</b> כדי להחליף מילים. הפרומפט הזה גורם לכל דף המכירות להרגיש כאילו נכתב שם מלכתחילה.\n\n\"שכתוב את דף המכירות שלי ל[מדינה] ב[שפה]. אותה טענה, עם דוגמאות ומשפטים מקומיים.\"",
+   "media": "posts/2026-08-16-edu-5-claude-localization-prompts-replacing-/gen-1.jpg",
+   "image_prompt": "Hands peeling a Latin-script product label off a clean white product box to reveal a bold Japanese kanji-symbol label beneath; three more identical boxes behind it each banded in a different script style — Arabic curves, Cyrillic arcs, Greek loops. Warm studio light from the left, tight close-up, no faces. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: warm orange product stripe against white."
+  },
+  {
+   "type": "content",
+   "headline": "2) התאם את מייל המעקב שלך <em>לכל מדינה</em>",
+   "hsize": 104,
+   "body": "רוב הקונים בגרמניה או יפן מתעלמים ממייל שנשמע כמו תרגום.\n\n\"שכתוב את מייל המעקב שלי ל[מדינה] ב[שפה]. לפי הסגנון שאנשי מקצוע שם כותבים, לא רק תרגם.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) תרגם חוזה <em>ותאתר פרצות משפטיות</em>",
+   "hsize": 100,
+   "body": "משרדי עורכי דין לוקחים <b>$200 לעמוד</b> לתרגום חוזה. Claude עושה את זה בחינם ומסמן את הפרצות.\n\n\"תרגם את החוזה הזה ל[שפה]. סמן כל סעיף שעלול לא להתקיים בחוק של [מדינה].\"",
+   "media": "posts/2026-08-16-edu-5-claude-localization-prompts-replacing-/gen-3.jpg",
+   "image_prompt": "Two contract pages side by side on dark mahogany — left page dense with Latin script symbols, right page flowing with Arabic script symbols — a brass gavel resting across both, a vivid red warning triangle stamped at the gap between the two pages. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: brass gold against deep crimson."
+  },
+  {
+   "type": "content",
+   "headline": "4) התאם את דף המוצר שלך <em>לשוק חדש</em>",
+   "hsize": 100,
+   "body": "אם תעלה דף מוצר אמריקאי ל-Amazon Japan, כמעט לא תקבל קליקים, כי הקונים שם מחפשים וקונים אחרת.\n\n\"שכתוב את דף המוצר שלי ל-Amazon [מדינה] ב[שפה]. השתמש במונחי חיפוש מקומיים ובטון של הקונים שם.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) ענה ללקוחות <em>בכל שפה תוך שניות</em>",
+   "hsize": 104,
+   "body": "הודעות ללא מענה מבטלות הזמנות. Claude עונה בכל שפה <b>תוך פחות מ-30 שניות.</b>\n\n\"קרא את ההודעה הזו. ענה ב[שפה] כנציג שירות מקצועי. פתור את הבעיה והצע צעד הבא.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה</em>",
+   "hsize": 80,
+   "body": "תרצה את אלה כשתיכנס לשוק חדש. שמור את הפוסט כדי שהפרומפטים יהיו שם כשתצטרך אותם.\n\nחדשות AI יומיות וכלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "חמישה פרומפטים של Claude שיכניסו את העסק שלך לכל שוק הלילה, בלי מתרגם ובלי סוכנות. 🌍\n\nדף מכירות שהותאם עם דוגמאות מקומיות, מייל מעקב בסגנון של אנשי מקצוע מקומיים, חוזה מתורגם עם פרצות משפטיות מסומנות, דף מוצר מחודש עם מונחי חיפוש מקומיים, ושירות לקוחות בשפת הלקוח תוך פחות מ-30 שניות.\n\nגלאי AI כבר מסמנים תרגומים בסיסיים של Claude. הפתרון הוא לוקליזציה: להתאים טון, דוגמאות ומשפטים כדי שהתוכן ירגיש מקומי ולא מיובא. עסקים שעושים את זה נכנסים לשווקים שאחרים לא מצליחים לפצח. מנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: Anthropic\n\nעקבו אחרי @ainews.israel לחדשות AI ועוד כלים אמיתיים\n\n#ai #claudeai #businessgrowth #aitools #entrepreneur",
+ "pinned_comment": "לאיזה שוק אתה נכנס ראשון? שקופית 3 היא זו שרוב האנשים מפספסים: הם לא יודעים ש-Claude גם מסמן פרצות משפטיות בחוזה מתורגם, בחינם.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS <em>THAT REPLACE YOUR TRANSLATION AGENCY</em>",
+   "5 PROMPTS <em>THAT KILL THE $200-A-PAGE TRANSLATOR BILL</em>",
+   "5 CLAUDE PROMPTS <em>THAT LOCALIZE YOUR WHOLE BUSINESS</em>",
+   "5 PROMPTS <em>THAT OPEN YOUR BUSINESS TO ANY MARKET</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   6,
+   4
+  ],
+  "winner": 1,
+  "why": "The $200-a-page number hits different—it's concrete, makes me visualize an actual problem I'd recognize, and feels real. [0] and [3] are just generic business jargon I'd scroll past; [2] mentions Claude but 'localize your whole business' is too vague to actually stop me."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS <em>THAT JUST REPLACED YOUR $200-A-PAGE TRANSLATOR</em>",
+   "5 FREE PROMPTS <em>THAT DO WHAT TRANSLATORS CHARGE YOU $200 A PAGE FOR</em>",
+   "5 PROMPTS <em>THAT KILL THE $200-A-PAGE TRANSLATOR BILL</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "\"KILL THE BILL\" is visceral and makes you feel the solution instantly. \"FREE PROMPTS\" is clearer but sounds like standard marketing copy."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

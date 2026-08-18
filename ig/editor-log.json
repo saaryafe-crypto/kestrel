@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-13T15:36:32Z",
-  "gate": "B",
-  "subject": "GROK BUILD SHIPS FIVE BUSINESS PAGES THAT <em>FEEL ILLEGAL</em> TO BUILD FOR FREE",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW / CAST TRUTH FAIL: The cover shows a generated likeness of Elon Musk, a recognizable famous person, but Musk has no role in this story. The post is a reader-action tutorial about Grok Build's capabilities — Musk is never mentioned, never acts, never appears in any slide. He is being used as brand decoration for his own company's product, which the CAST TRUTH rule explicitly prohibits ('i"
- },
- {
   "gate": "A",
   "reason": "Pure reaction-bait: the entire substance is one person's mocking comment on AI-generated clips with no real-world consequence, no numbers, no second fact, and no outcome beyond engagement metrics—exactly the failure model that produced the Queen Elizabeth and Mario Lopez posts.",
   "subject": "\"Hahahaha look at these AI-generated clips of cruelty against vulnerable homeless people\" — Israeli with 'human rights a",
@@ -2098,5 +2091,12 @@
   "subject": "A SOLO BUILDER SHIPPED A WORKING APP IN DAYS WITH <em>5 AI PROMPTS</em>, ZERO DEVELOPERS HIRED",
   "verdict": "REJECT",
   "reason": "Cover image shows a generated likeness of Mark Zuckerberg — a recognizable famous person who has zero role in this story. IMAGE LAW is explicit: a celebrity as decoration breaks image-headline connection and must be cast TRUTH rejected. The cover subject must be a solo builder at a laptop, an anonymous person, or a genuine scene that proves the story. Replace the image with one that matches the ac"
+ },
+ {
+  "t": "2026-08-18T08:51:48Z",
+  "gate": "A",
+  "subject": "Israeli bots are not giving up. Due to overwhelming Palestinian support from Greeks, they are creating AI videos showing",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the event is engagement on X to an unproven claim about bots creating videos, not an actual artifact or real-world consequence—no videos shown, no named individuals, no proof, no second fact."
  }
 ]
