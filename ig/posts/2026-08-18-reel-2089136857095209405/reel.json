@@ -1,0 +1,17 @@
+{
+ "pick": 15,
+ "title": "This Tesla braked and switched to manual on the highway",
+ "title_candidates": [
+  "This Tesla saw the crash coming and moved before the driver even knew",
+  "Watch Tesla's self-driving AI dodge a real highway collision from every angle",
+  "The split second Tesla's AI made the call that the driver didn't have to",
+  "How Tesla's self-driving software handled a real highway emergency on its own",
+  "What actually happens inside a Tesla when a highway crash is about to occur"
+ ],
+ "caption": "Tesla's self-driving software caught a highway crash about to happen and avoided it before the driver could react. The clip shows all the angles of the same moment, with the AI's detection data running at the top of the screen.\n\nThis is V14 of Full Self-Driving, supervised mode, which reads multiple camera feeds at once and makes braking and steering calls faster than any human reflex. The driver was still in the seat. The car made the move.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: SawyerMerritt. DM for credit or removal\n\n#tesla #selfdriving #fsd #ai #autonomousdriving",
+ "start_s": 0,
+ "clip_s": 20,
+ "source": "https://video.twimg.com/amplify_video/2089136540366602240/vid/avc1/3840x2160/cru7zmvWst3684Ho.mp4?tag=29",
+ "channel": "SawyerMerritt",
+ "publish": "make"
+}
