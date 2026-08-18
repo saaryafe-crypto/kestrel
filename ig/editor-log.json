@@ -1,103 +1,5 @@
 [
  {
-  "t": "2026-08-13T17:59:39Z",
-  "gate": "A",
-  "subject": "BREAKING: 𝕏 wins lawsuit against Australia’s eSafety Commissioner. Elon Musk’s 𝕏 has secured a major victory in Australi",
-  "verdict": "KILL",
-  "reason": "Routine corporate-legal news with no felt human consequence—a regulatory procedural victory fails STORY LAW (earns zero of the five qualifying story types) and violates ON-TOPIC BUT ROUTINE (corporate litigation = market-news category that earns nothing); scout interest already 4/10; next candidate gets the slot."
- },
- {
-  "t": "2026-08-13T17:59:52Z",
-  "gate": "A",
-  "subject": "SL2T is our breakthrough sign language-to-text model powering new features for Deaf and hard of hearing users on @Androi",
-  "verdict": "KILL",
-  "reason": "This is a launch preview announcement, which is explicitly banned under ON-TOPIC BUT ROUTINE (§1)—not a viral-specific event with real-world consequence."
- },
- {
-  "t": "2026-08-13T18:00:09Z",
-  "gate": "A",
-  "subject": "How B.J. Novak’s face ended up on random products around the world.. A few years ago, someone mistakenly uploaded a phot",
-  "verdict": "KILL",
-  "reason": "No substance instant kill: one thin anecdote with no numbers, product specifics, or real consequences to build a carousel—the writer would need to pad."
- },
- {
-  "t": "2026-08-13T18:00:35Z",
-  "gate": "A",
-  "subject": "Grok 4.6 has a great sense of humor 😂",
-  "verdict": "KILL",
-  "reason": "No substance: the entire source is one thin tweet (37 chars) with zero facts, numbers, or real-world consequence—the writer would have to pad it with speculation, and the story violates the 2/10 scout score threshold without exceptional justification."
- },
- {
-  "t": "2026-08-13T18:00:38Z",
-  "gate": "A",
-  "subject": "Eclipse viewed from a fighter jet [📹 gizmotrevino]",
-  "verdict": "KILL",
-  "reason": "Pure astronomy without a tech or business lens — off-brand, no real consequence, no person-driven story, and thin-sourced with nothing to build slides from."
- },
- {
-  "t": "2026-08-13T18:00:38Z",
-  "gate": "A",
-  "subject": "USS Abraham Lincoln sailors tried to jump overboard amid extended deployment, per the Guardian Aircraft carrier’s crew i",
-  "verdict": "KILL",
-  "reason": "Scout 1/10 + no substance: 204-character tweet claims something but provides no outcome (did they succeed? were they stopped?), no names, no specifics, and the cited Guardian article isn't provided—nothing to build slides from, and military personnel news is off-brand for @technology."
- },
- {
-  "t": "2026-08-13T18:01:04Z",
-  "gate": "A",
-  "subject": "You know whats crazy? Grok 4.6 is not only cheaper than Opus 5 and 5.6 Sol. Its even cheaper than Sonnet 5. While at the",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: the entire substance is engagement on a thin pricing observation with no real-world consequence, money moved, or follow facts—a screenshot of a tweet, not a story."
- },
- {
-  "t": "2026-08-13T18:01:10Z",
-  "gate": "A",
-  "subject": "If you invested $1 in the stock market in 1802, your investment would be worth $54.2 million today 🚨🚨 Patience pays off ",
-  "verdict": "KILL",
-  "reason": "No real event—it's a hypothetical math problem without a named person, real-world consequence, or substance beyond one thin tweet; fails the viral-specific event requirement and violates 'no substance' rule."
- },
- {
-  "t": "2026-08-13T18:01:10Z",
-  "gate": "A",
-  "subject": "Clint Eastwood with his first wife, Maggie Johnson, at their home in Los Angeles, 1956. Clint Eastwood was only 23 when ",
-  "verdict": "KILL",
-  "reason": "Historical backstory with no viral-specific event or consequence—routine entertainment biography completely off-brand for tech pages."
- },
- {
-  "t": "2026-08-13T18:01:21Z",
-  "gate": "A",
-  "subject": "ELON MUSK ON BUILDING A “STAR MIND” POWERED BY THE SUN “We’ve already built the most powerful AI training clusters in th",
-  "verdict": "KILL",
-  "reason": "Elon's announcement of future gigawatt targets is a launch preview—explicitly banned as ON-TOPIC BUT ROUTINE under Story Law; no real-world event or consequence has occurred."
- },
- {
-  "t": "2026-08-13T18:01:40Z",
-  "gate": "A",
-  "subject": "My feed is filled with so many stunning photos",
-  "verdict": "KILL",
-  "reason": "Not a story: zero event, consequence, or substance (46-char source, scout 0/10), triggering instant-kill for no-substance candidates; writer would have to entirely invent content rather than deliver real proof."
- },
- {
-  "t": "2026-08-13T18:01:41Z",
-  "gate": "A",
-  "subject": "A genius escape technique.",
-  "verdict": "KILL",
-  "reason": "No substance: the source is a 26-character title with zero facts, numbers, consequence, named subject, or proof—the writer would have to fabricate the entire carousel."
- },
- {
-  "t": "2026-08-13T18:02:22Z",
-  "gate": "A",
-  "subject": "Shocking stat of the day: Estimated annualized interest expense on US federal debt is up to a record $1.38 trillion. Thi",
-  "verdict": "KILL",
-  "reason": "Routine economic data with no event, person, or consequence—one metric retold five ways has no story arc; this is banned (section 1) type content a 16-year-old would not share."
- },
- {
-  "t": "2026-08-13T18:42:12Z",
-  "gate": "B",
-  "subject": "7 FREE GEMINI PROMPTS <em>SO GOOD THEY FEEL ILLEGAL</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH violation: the cover subject is a generated likeness of Sundar Pichai, a recognizable famous person who has zero role in this story. He is not named, quoted, or referenced on any slide. The doctrine is explicit — 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Replace the cover with Gemini branding, a phone screen, or a non-famou"
- },
- {
   "t": "2026-08-13T18:45:44Z",
   "gate": "B",
   "subject": "SEVEN FREE GEMINI PROMPTS NOW HANDLE THE VIDEO WORK <em>CREATORS WERE PAYING $500 A MONTH TO OUTSOURCE</em>",
@@ -2098,5 +2000,103 @@
   "subject": "Nike lost $200 billion letting <em>AI-detectable brand rot</em> go unfixed for five years, these 6 prompts find the same",
   "verdict": "REJECT",
   "reason": "HOOK VIOLATION (§2): The hook is two hooks stapled with a comma — 'Nike lost $200 billion…' is one complete thought, 'these 6 prompts find the same rot in yours tonight' is a second separate actor and action. The doctrine requires ONE actor, ONE action; cut the weaker half and rebuild as a single clause. The Nike loss is the story; the prompts are the mechanism — one of them must anchor the hook.;"
+ },
+ {
+  "t": "2026-08-18T17:27:46Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 CFTC Chair Mike Selig says \"for years, anti-crypto armies, doomers, and decelerationists stifled innovation.",
+  "verdict": "KILL",
+  "reason": "Pure no-substance: a single thin quote from a government official with zero real-world consequence, no policy change, no numbers, and nothing for slides except padding about regulatory sentiment—exactly what the doctrine flags as immediate kill, especially with a 1/10 scout score."
+ },
+ {
+  "t": "2026-08-18T17:28:13Z",
+  "gate": "A",
+  "subject": "JUST IN 🚨: U.S. 30-Year Treasury Yield hits 5.30% for the first time since the run-up to the Global Financial Crisis 🤯 👀",
+  "verdict": "KILL",
+  "reason": "On-topic but routine market data with no substance: a single financial metric update, no named person, no consequence someone felt, no real outcome to build a story from (explicitly banned category)."
+ },
+ {
+  "t": "2026-08-18T17:28:15Z",
+  "gate": "A",
+  "subject": "Before filming Project X in 2012, the producers had the cast spend several weeks together to make their friendships “fee",
+  "verdict": "KILL",
+  "reason": "This is movie trivia without real-world consequence or drama — just a behind-the-scenes anecdote about a 2012 production technique, not a viral-specific event."
+ },
+ {
+  "t": "2026-08-18T17:28:22Z",
+  "gate": "A",
+  "subject": "Investors are preparing for stagflation over next 12 months, per Bank of America.",
+  "verdict": "KILL",
+  "reason": "Thin analyst forecast with no real event, numbers, or consequence—routine market prediction banned by STORY LAW under NO SUBSTANCE and ON-TOPIC BUT ROUTINE instant kills."
+ },
+ {
+  "t": "2026-08-18T17:28:25Z",
+  "gate": "A",
+  "subject": "Mila Kunis is now 43 years old. She voiced Meg Griffin on Family Guy since she was just 15 years old. Mila Kunis has voi",
+  "verdict": "KILL",
+  "reason": "No real-world event or felt consequence—this is career trivia repeated three ways, not a story."
+ },
+ {
+  "t": "2026-08-18T17:28:47Z",
+  "gate": "A",
+  "subject": "Someone needs to tell Clavicular that showing you can touch the ceiling stopped being an alpha move sometime after kinde",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: the substance is a Twitter joke's likes, not a real-world event or consequence—no story until reality moved (money, firing, product pulled, account banned), and nothing here qualifies; also no-substance source (141 chars, one thin joke, nothing to build from) and unknown actor make this unrecoverable."
+ },
+ {
+  "t": "2026-08-18T17:28:49Z",
+  "gate": "A",
+  "subject": "BREAKING: Tesla has just announced that anyone who completes a Robotaxi ride through August 23 will have a chance to att",
+  "verdict": "KILL",
+  "reason": "This is a launch preview/promotional announcement with no substance: one thin tweet with zero secondary facts, no real consequence felt by anyone, and nothing to build a carousel from without pure padding—explicitly banned in §1."
+ },
+ {
+  "t": "2026-08-18T17:28:55Z",
+  "gate": "A",
+  "subject": "\"We want to make Starfleet Academy real. Let's go out there and visit other star systems and see if there are alien civi",
+  "verdict": "KILL",
+  "reason": "Reaction-bait to a celebrity quote with no real-world consequence—Elon expressed a philosophical ambition, but nothing happened, no outcome occurred, no action was taken."
+ },
+ {
+  "t": "2026-08-18T17:29:02Z",
+  "gate": "A",
+  "subject": "BREAKING: US interest expense on the national debt hit a record $1.4 trillion over the last 12 months. Since 2020, the c",
+  "verdict": "KILL",
+  "reason": "This is reaction to abstract financial metrics with no protagonist or felt consequence—exactly the on-topic routine (analyst targets, market wraps) that §1 bans; no real event happened that a reader felt, and the 2/10 scout score confirms the pipeline's instinct."
+ },
+ {
+  "t": "2026-08-18T17:29:19Z",
+  "gate": "A",
+  "subject": "sorry, what?! What the frick...?!",
+  "verdict": "KILL",
+  "reason": "Pure reaction text with zero substance: no event, no names, no numbers, no consequence, no second fact—nothing but an exclamation for a writer to pad into slides."
+ },
+ {
+  "t": "2026-08-18T17:29:20Z",
+  "gate": "A",
+  "subject": "The sheer size of a polar bear",
+  "verdict": "KILL",
+  "reason": "No event happened, no consequence, no numbers—pure observation of an animal's size with zero tech angle and no substance behind the 30-character claim; would require invention to pad into slides."
+ },
+ {
+  "t": "2026-08-18T17:29:24Z",
+  "gate": "A",
+  "subject": "Dad pranks his daughter with fake interview.",
+  "verdict": "KILL",
+  "reason": "No substance: 44-character premise with zero outcome, numbers, or felt consequence described; would require padding to build slides from."
+ },
+ {
+  "t": "2026-08-18T17:29:29Z",
+  "gate": "A",
+  "subject": "Japanese Yen has already weakened so much that the U.S. Treasury intervention has been wiped out completely, now onto th",
+  "verdict": "KILL",
+  "reason": "Routine forex commentary with zero specifics, no person, no consequence—exactly the 'on-topic but routine' market wrap content the doctrine bans, violates STORY LAW §1."
+ },
+ {
+  "t": "2026-08-18T18:05:35Z",
+  "gate": "B",
+  "subject": "6 AI PROMPTS THAT FIND WHERE <em>YOUR BUSINESS IS ALREADY LOSING MONEY</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW: Cover shows a generated unknown face — §3 explicitly bans this ('Never a generated unknown face'). The allowed options are a recognizable famous person, the product with its brand mark in frame, or real event footage. Fix: regenerate the cover as the Claude logo/tablet front-and-center in a busy market scene, no human face, or swap to a clean product-brand card.; SLIDE 2 MANDATE (Aug 18"
  }
 ]

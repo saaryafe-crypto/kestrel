@@ -1,0 +1,111 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 AI PROMPTS THAT FIND WHERE <em>YOUR BUSINESS IS ALREADY LOSING MONEY</em>",
+   "kicker": "BANK OF AMERICA JUST WARNED US",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-18-edu-6-stagflation-survival-ai-prompts-bofa-w/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up in a chaotic street market, strategic confidence, gripping a glowing tablet showing red-to-green cost bars, price tags swirling around him. Claude logo exactly as in the reference image on screen. Documentary news photo, 35mm, harsh flash, film grain. Accent: amber against charcoal shadow."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) FIND OUT IF YOUR PRICES ARE TOO LOW</em>",
+   "hsize": 108,
+   "body": "It found he was losing <b>$4 on every pasta dish</b>. He raised prices <b>12%</b> and kept <b>94%</b> of his customers.",
+   "media": "posts/2026-08-18-edu-6-stagflation-survival-ai-prompts-bofa-w/gen-1.jpg",
+   "image_prompt": "Close on hands spreading menu pages across a kitchen prep counter, large red downward-arrow symbols over price areas, raw ingredients with oversized price tags beside them. Warm amber kitchen light. No faces. Documentary news photo, 35mm, harsh flash, film grain. Accent: signal red against amber."
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) CUT VENDOR COSTS WITH ONE EMAIL</em>",
+   "hsize": 108,
+   "body": "It found <b>3 vendors charging 40% above market rate</b>. He sent the emails Claude wrote and saved <b>$2,200 a month</b>.",
+   "media": "posts/2026-08-18-edu-6-stagflation-survival-ai-prompts-bofa-w/gen-2.jpg",
+   "image_prompt": "Laptop screen showing only a large envelope icon and downward green arrow beside two unequal invoice stacks \u2014 the taller marked with a bold red X. Workshop desk, overhead industrial light. No faces. Documentary news photo, 35mm, harsh flash, film grain. Accent: green against cool grey."
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) FIND WHICH CLIENTS COST MORE THAN THEY PAY</em>",
+   "hsize": 100,
+   "body": "One consultant found <b>4 clients generating 80% of her stress</b> and only <b>12% of her revenue</b>. In a stagflation economy, the ones eating your time without paying go first.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "5.30%",
+   "hsize": 66,
+   "body": "That is the 30-year treasury rate right now, the highest since the run-up to the 2008 financial crisis. If you carry business debt, your cost of operating just went up.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) WRITE THE PRICE RAISE EMAIL THAT KEEPS CUSTOMERS</em>",
+   "hsize": 96,
+   "body": "A B2B software founder needed to raise prices <b>18%</b>. He avoided it for three weeks, gave Claude the context, sent the email in <b>20 minutes</b>, and lost zero clients.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) FIND WHAT TO AUTOMATE BEFORE YOU HIRE</em>",
+   "hsize": 108,
+   "body": "A business owner was about to pay <b>$55,000 a year</b> for an admin hire. Claude found <b>70% of the tasks could be automated tonight</b>. She did not hire.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>6) BUILD YOUR 90-DAY STAGFLATION PLAN IN ONE PROMPT</em>",
+   "hsize": 84,
+   "body": "A bakery owner spent <b>45 minutes</b> with Claude walking through his cost structure. He came out with a plan to survive <b>12 months</b> without laying anyone off.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: ALL 6 STAGFLATION PROMPTS</em>",
+   "hsize": 100,
+   "body": "Find if your prices are too low\nCut vendor costs with one email\nFind which clients cost too much\nPrice raise email that keeps clients\nFind what to automate first\nBuild your 90-day plan",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through and save this. Six AI prompts that protect your business when prices keep rising and customers slow down. \ud83d\udcb0\n\nSlide 2 finds if you are already selling at a loss, slide 3 gives you vendor negotiation emails ready to send, slide 4 spots which clients cost more than they pay, slide 5 shows the economic pressure behind all of this, slide 6 writes the price increase email that keeps your customers, slide 7 finds what to automate before your next hire, slide 8 builds your full 90-day plan in one prompt.\n\nBofA is forecasting stagflation for the next 12 months. The 30-year rate just hit 5.30%, highest since the run-up to 2008. Most business owners will wait until they feel the squeeze. The ones running these prompts tonight will already have a plan.\nRunning a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Bank of America Global Fund Manager Survey Aug 2026, U.S. Treasury, Anthropic\n\n#AIForBusiness #ArtificialIntelligence #BusinessGrowth #Entrepreneur #AITools",
+ "pinned_comment": "Which prompt are you running first? Slide 8 is the one most business owners skip but it is the one that actually changes what you do tomorrow morning.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 PROMPTS THAT SAVE YOUR BUSINESS</em> WHEN EVERYTHING COSTS MORE",
+   "BANK OF AMERICA JUST CALLED STAGFLATION. <em>THESE 6 PROMPTS FIGHT BACK</em>",
+   "MOST BUSINESSES LOSE TO STAGFLATION. <em>THESE 6 AI PROMPTS HELP YOURS WIN</em>",
+   "<em>6 AI PROMPTS</em> THAT PROTECT YOUR BUSINESS FROM STAGFLATION"
+  ],
+  "scores": [
+   4,
+   6,
+   7,
+   4
+  ],
+  "winner": 2,
+  "why": "The LOSE/WIN binary hits instantly\u2014it triggers FOMO that makes you stop scrolling (most are failing, yours can't be). Option 1 requires you to parse what 'Bank of America just called stagflation' even means, costing precious seconds on a stranger's post you don't follow."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS TO FIND THE MONEY <em>STAGFLATION IS QUIETLY TAKING FROM YOU</em>",
+   "6 AI PROMPTS THAT FIND WHERE <em>YOUR BUSINESS IS ALREADY LOSING MONEY</em>",
+   "6 AI PROMPTS TO RAISE YOUR PRICES <em>AND KEEP EVERY CUSTOMER</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hits you with a personal accusation\u2014'YOUR BUSINESS IS ALREADY LOSING MONEY'\u2014that stops you cold with instant curiosity in under 1.7 seconds. [2] sounds like polished marketing copy promising something almost magical, which reads skeptical even if intriguing."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "IMAGE LAW: Cover shows a generated unknown face \u2014 \u00a73 explicitly bans this ('Never a generated unknown face'). The allowed options are a recognizable famous person, the product with its brand mark in frame, or real event footage. Fix: regenerate the cover as the Claude logo/tablet front-and-center in a busy market scene, no human face, or swap to a clean product-brand card.; SLIDE 2 MANDATE (Aug 18",
+ "topic_source": "news-anchored"
+}
