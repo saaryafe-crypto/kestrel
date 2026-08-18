@@ -1,0 +1,97 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Microsoft נותנת לכם <em>מאה תמונות AI ביום בחינם</em>, ורוב האנשים עדיין לא יודעים",
+   "kicker": "אתם עושים את זה בדרך הקשה",
+   "hsize": 72,
+   "face": null,
+   "media": "posts/2026-08-17-edu-5-free-ai-image-tools-with-no-watermarks/gen-0.jpg",
+   "image_prompt": "Satya Nadella leaning dramatically forward with exuberant generosity, arms outstretched, dozens of glossy professional product photographs — perfume bottles, glass jars, food shots — cascading outward from his open hands toward camera as if in free fall, the Microsoft logo exactly as in the reference image blazing white on the deep navy wall behind him, waist-up. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: electric white logo against deep navy blue."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>מאה תמונות מוצר ביום בחינם</em> מ-Microsoft",
+   "hsize": 92,
+   "body": "סטודיו מקצועי גובה <b>50 עד 500 דולר לכל תמונה</b>. בחשבון חינמי מקבלים עד <b>מאה תמונות ביום</b>, וכל הורדה היא PNG נקי בלי סימן מים.",
+   "media": "posts/2026-08-17-edu-5-free-ai-image-tools-with-no-watermarks/gen-1.jpg",
+   "image_prompt": "Dramatic overhead shot of one hundred glossy product photographs fanned and cascading across a dark polished surface — glass perfume bottles, food dishes, white product jars all pristinely composed — radiating outward from a glowing Microsoft logo exactly as in the reference image at center, a single overhead spotlight making each print gleam sharply against the black surround, no text visible anywhere. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: electric white logo glow against midnight black."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>תמונות בטוחות לשימוש מסחרי</em> מ-Adobe Firefly",
+   "hsize": 92,
+   "body": "Adobe אימנה את Firefly רק על תמונות שהיא עצמה מחזיקה בזכויות עליהן. כל הורדה <b>מותרת לשימוש אצל לקוחות, בפרסומות ובמוצרים</b>. חשבון חינמי מקבל <b>25 קרדיטים בחודש</b>, בלי סימן מים.",
+   "media": "posts/2026-08-17-edu-5-free-ai-image-tools-with-no-watermarks/gen-2.jpg",
+   "image_prompt": "A bold bright green shield icon — solid shield shape only, no text — glowing in a single hard spotlight hovering over a neat fanned stack of crisp printed product photographs on a dark slate surface, one crumpled rejected photograph discarded in deep shadow at the lower edge, dramatic side-lighting cutting crisp shadows across the top print. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: vivid lime green against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>טקסט אמיתי בתוך תמונות</em> עם Ideogram",
+   "hsize": 100,
+   "body": "רוב כלי ה-AI לתמונות מוציאים טקסט משובש. <b>הפלן החינמי של ideogram.ai מטפל בתגי מחיר, שלטי מבצע ופוסטרים לאירועים, והאותיות יוצאות ברורות.</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) FLUX <em>בחינם</em> דרך Hugging Face",
+   "hsize": 105,
+   "body": "FLUX.1 Schnell הוא מודל פתוח שמגיע לאיכות של כלים שעולים <b>20 דולר בחודש</b>. הוא רץ בחינם דרך Hugging Face, בלי מנוי ובלי סימן מים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>פוסטים ממותגים בחינם</em> עם Canva",
+   "hsize": 105,
+   "body": "Canva משלבת מחולל תמונות AI עם עורך עיצוב שלם, באותו חלון. מוסיפים אותה ישר לפוסט ברשת, לבאנר, או לכרטיס ביקור. <b>פלן חינמי, בלי סימן מים על ההורדות.</b>",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה</em>",
+   "hsize": 120,
+   "body": "שמרו לפעם הבאה שתצטרכו תמונת מוצר, תמונה לפוסט, או גרפיקה לשיווק. חדשות AI יומיות וכלים אמיתיים, כאן.",
+   "media": null
+  }
+ ],
+ "caption": "חמישה כלי AI לתמונות בחינם, בלי סימן מים, ומוכנות להורדה. 🎨\n\nMicrosoft Designer נותנת עד מאה תמונות ביום בחינם, מבוסס על DALL-E 3. Adobe Firefly נותנת 25 קרדיטים בחודש לתמונות עם רישיון לשימוש מסחרי. Ideogram מטפלת בטקסט בתוך תמונות בלי לשבש את האותיות. FLUX.1 Schnell רץ בחינם דרך Hugging Face, בלי מנוי ובלי סימן מים. Canva AI משלבת מחולל תמונות עם עורך גרור ושחרר שלם, באותו חלון.\n\nכלי להסרת סימני מים מתמונות AI עבר 11,000 כוכבים ב-GitHub. אנשים מורידים חותמות מתוכן שהם כבר יצרו, בדרך הקשה. חמשת הכלים האלה פותרים את הבעיה מהשורש.\n\nמנהלים עסק? שלחו לנו DM עם \"AI\" ונראה לכם מה זה יכול לעשות בשבילכם.\n\nמקורות: GitHub, Microsoft, Adobe, Ideogram, Black Forest Labs, Canva\n\nעקבו אחרי @ainews.israel לעוד כלים כאלה.\n\n#AITools #FreeAI #AIImages #BusinessOwner #ContentCreation",
+ "pinned_comment": "באיזה מתחילים? שקופית 3 (Ideogram) היא הנסתרת שבהן. רוב האנשים לא יודעים שהיא מסדרת טקסט בתוך תמונות בלי לשבש אותו.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "A WATERMARK REMOVER HIT 11,000 STARS. <em>YOU DON'T NEED IT</em>",
+   "<em>MICROSOFT AND ADOBE</em> GIVE FREE AI IMAGES WITH ZERO WATERMARK"
+  ],
+  "scores": [
+   3,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] stops you instantly with a clear, valuable promise that makes you curious; [0] contradicts itself and forces you to re-read to even understand what angle it's taking."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOU'RE PAYING FOR AI IMAGES WHEN <em>MICROSOFT GIVES 100 A DAY FREE</em>",
+   "<em>5 FREE AI IMAGE TOOLS</em> MOST DESIGNERS STILL PAY FOR",
+   "PEOPLE ARE QUIETLY GETTING <em>100 FREE AI PRODUCT PHOTOS A DAY</em> FROM MICROSOFT AND MOST STILL DON'T KNOW"
+  ],
+  "scores": [
+   8,
+   5,
+   9
+  ],
+  "winner": 2,
+  "why": "Candidate [2] stops you cold with 'quietly' and 'most still don't know'—instant FOMO on a hidden benefit that makes you feel like you're discovering a secret. Candidate [0] is close but just scolds you for overpaying; [2] makes you excited you found out, which is what keeps you scrolling."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

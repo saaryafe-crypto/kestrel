@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-13T18:45:44Z",
-  "gate": "B",
-  "subject": "SEVEN FREE GEMINI PROMPTS NOW HANDLE THE VIDEO WORK <em>CREATORS WERE PAYING $500 A MONTH TO OUTSOURCE</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH violation on the cover image: the subject is a generated likeness of Sundar Pichai (Google CEO — recognizable face, signature glasses, identical appearance). Pichai has zero role in this story; the post is a prompts tutorial, not anything he did or said. Using his face as visual shorthand for 'Gemini = free' is celebrity-as-decoration, which the doctrine prohibits explicitly. Fix: repla"
- },
- {
   "t": "2026-08-13T23:36:56Z",
   "gate": "A",
   "subject": "My favorite capture of the night: The moment the moon's shadow split the sunset in half, leaving a diamond ring in the s",
@@ -2098,5 +2091,12 @@
   "subject": "6 AI PROMPTS THAT FIND WHERE <em>YOUR BUSINESS IS ALREADY LOSING MONEY</em>",
   "verdict": "REJECT",
   "reason": "IMAGE LAW: Cover shows a generated unknown face — §3 explicitly bans this ('Never a generated unknown face'). The allowed options are a recognizable famous person, the product with its brand mark in frame, or real event footage. Fix: regenerate the cover as the Claude logo/tablet front-and-center in a busy market scene, no human face, or swap to a clean product-brand card.; SLIDE 2 MANDATE (Aug 18"
+ },
+ {
+  "t": "2026-08-18T18:43:59Z",
+  "gate": "A",
+  "subject": "Israeli are launching a full blown AI propaganda attack in Greece",
+  "verdict": "KILL",
+  "reason": "No substance: the source is one thin tweet—claim only, zero facts, numbers, or real-world consequence documented; writer would have to pad or assume details that aren't provided."
  }
 ]
