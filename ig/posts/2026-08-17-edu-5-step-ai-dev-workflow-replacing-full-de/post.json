@@ -1,0 +1,95 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A SOLO BUILDER SHIPPED A WORKING APP IN DAYS WITH <em>5 AI PROMPTS</em>, ZERO DEVELOPERS HIRED",
+   "kicker": "NO HIRING. NO CODING. START TONIGHT.",
+   "hsize": 72,
+   "face": "Sam Altman, Dario Amodei, Elon Musk",
+   "media": "posts/2026-08-17-edu-5-step-ai-dev-workflow-replacing-full-de/gen-0.jpg",
+   "image_prompt": "Mark Zuckerberg, young, waist-up at a Harvard dorm desk, face 50% of frame in wide-eyed disbelief, laptop before him blazing with a five-icon app grid (zero text), amber desk lamp behind, bookshelves blurred dark. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, film grain. Accent: electric blue screen glow against deep amber."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>MAP YOUR WHOLE MARKET</em> IN 10 MINUTES",
+   "hsize": 100,
+   "body": "Market research firms charge <b>$3,000</b> for a competitor analysis. This prompt builds the same output in <b>10 minutes</b> and costs nothing. Copy-paste prompt: \"List the 10 biggest competitors in [your market]. For each: their pricing, top 3 customer complaints from public reviews, and the one gap they all miss. Format as a table.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>TURN YOUR IDEA</em> INTO A BUILD PLAN",
+   "hsize": 100,
+   "body": "Technical project managers charge <b>$2,500</b> to scope a software build. This prompt creates the same task breakdown in under <b>20 minutes</b>. Copy-paste prompt: \"My app idea: [one sentence]. Break it into an ordered feature list. For each feature include: complexity rating, which features depend on it, and the exact build sequence for a solo developer.\"",
+   "media": "posts/2026-08-17-edu-5-step-ai-dev-workflow-replacing-full-de/gen-2.jpg",
+   "image_prompt": "One hand gripping a marker pointing at a whiteboard showing four numbered boxes connected by arrows (zero text inside any box), a laptop open below on the desk, clean afternoon side-light across the white board. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: deep navy marker strokes against bright white board."
+  },
+  {
+   "type": "content",
+   "headline": "3) DESCRIBE WHAT YOU WANT. <em>GET WORKING CODE BACK.</em>",
+   "hsize": 90,
+   "body": "Software engineers charge <b>$150 an hour</b> to write features like this. Describe the feature in plain words and get complete working code back. Copy-paste prompt: \"Write complete working [language] code for this feature: [describe it]. No placeholders, no pseudocode. Add a comment above each function explaining what it does.\"",
+   "media": "posts/2026-08-17-edu-5-step-ai-dev-workflow-replacing-full-de/gen-3.jpg",
+   "image_prompt": "Hands typing on a laptop, screen split down the middle: left half holding a single short horizontal chat-line symbol, right half erupting in a cascade of stacked blue code-bracket symbols (zero text), electric blue desk lamp above, dark home office surround. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: electric blue code cascade against off-white chat half."
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>HAVE AI ATTACK ITS OWN CODE</em> BEFORE USERS DO",
+   "hsize": 88,
+   "body": "QA engineers charge <b>$100 an hour</b> to find bugs before launch. This prompt has AI act as its own attacker and list every failure point before a single user touches it. Copy-paste prompt: \"Act as a senior QA engineer and security tester. Here is my code: [paste it]. List every bug, edge case, and security hole. For each: explain the risk and write the exact fix.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) HAND YOUR HARDEST PROBLEM TO AI. <em>WALK AWAY.</em>",
+   "hsize": 88,
+   "body": "Senior architects charge <b>$200 an hour</b> for problems like this. Paste the problem in plain words and get a complete fix plan back in minutes, every risk flagged. Copy-paste prompt: \"I am building [app type] and stuck on: [describe the problem]. Give me a step-by-step fix plan, list every risk, and write the code I need to implement the solution.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS.</em> YOUR AI DEV TEAM IS 5 PROMPTS LONG.",
+   "hsize": 90,
+   "body": "These 5 steps cover every phase a dev team handles. Run them in order and you can ship a real app without hiring a single person. Daily AI news and real skills: @yaffeai",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through these 5 steps \ud83d\udc47 and you have the complete AI workflow quietly replacing full development teams for business owners who build alone.\n\nStep 1 maps your entire market in 10 minutes with one competitor-analysis prompt, Step 2 turns your raw idea into an ordered task list any AI coding tool can follow, Step 3 gets you working code back just by describing what you want in plain words, Step 4 has AI attack its own code to find every bug before launch, Step 5 hands your hardest technical problem to AI in plain language and gets a complete fix plan back.\n\nA builder with no team can now research, plan, code, test, and fix an entire app in days. The workflow going viral this week proves the job of a 4-person dev team fits in 5 prompts.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: xAI, X (viral builder workflow, Aug 2026)\n\n#AItools #NoCode #BuildWithAI #BusinessOwners #AIworkflow",
+ "pinned_comment": "Which step are you trying tonight? Step 2 is the one most people skip, and it's exactly why the code falls apart at Step 3.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 STEPS</em> A BUSINESS OWNER USES TO SHIP AN APP ALONE",
+   "PEOPLE ARE QUIETLY BUILDING APPS WITHOUT HIRING <em>A SINGLE DEVELOPER</em>",
+   "A FULL DEV TEAM NOW FITS IN <em>5 PROMPTS</em>",
+   "5 AI STEPS THAT REPLACE <em>YOUR WHOLE DEV TEAM</em>",
+   "THE WORKFLOW GOING VIRAL THIS WEEK REPLACES <em>YOUR ENTIRE DEV TEAM</em>"
+  ],
+  "scores": [
+   3,
+   8,
+   7,
+   5,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] sounds like discovering something people are actually doing (not being sold a promise), and \"quietly building\" + \"without hiring a developer\" trigger genuine curiosity\u2014you stop to see proof. [2] is bold and specific but requires parsing a metaphor; you're thinking about the wordplay instead of just understanding why you care."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 PROMPTS</em> THAT BUILD A WORKING APP WITHOUT HIRING A SINGLE DEVELOPER",
+   "PEOPLE ARE QUIETLY BUILDING APPS WITHOUT HIRING <em>A SINGLE DEVELOPER</em>"
+  ],
+  "scores": [
+   7,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] immediately tells you the solution (5 prompts = working app), making you want to swipe for proof, while [1] hides the actual method behind 'quietly' and makes you guess\u2014the instruction says you'd swipe for a story you already believe, not to solve a stranger's riddle."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "editor_override": "Cover image shows a generated likeness of Mark Zuckerberg \u2014 a recognizable famous person who has zero role in this story. IMAGE LAW is explicit: a celebrity as decoration breaks image-headline connection and must be cast TRUTH rejected. The cover subject must be a solo builder at a laptop, an anonymous person, or a genuine scene that proves the story. Replace the image with one that matches the ac",
+ "topic_source": "news-anchored"
+}

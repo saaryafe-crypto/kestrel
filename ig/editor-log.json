@@ -1,61 +1,5 @@
 [
  {
-  "t": "2026-08-13T14:23:49Z",
-  "gate": "A",
-  "subject": "Un. Real.",
-  "verdict": "KILL",
-  "reason": "No substance — one cryptic title and engagement metric with zero facts, numbers, actors, or real-world consequence to build slides from."
- },
- {
-  "t": "2026-08-13T14:23:50Z",
-  "gate": "A",
-  "subject": "BREAKING: 𝕏 wins lawsuit against Australia’s eSafety Commissioner. Elon Musk’s 𝕏 has secured a major victory in Australi",
-  "verdict": "KILL",
-  "reason": "ON-TOPIC BUT ROUTINE: this is bureaucratic regulatory news (a court classification ruling), not a story where a real-world consequence someone felt. No person acting outrageous, no money that moved, no disaster — just an Australian regulatory classification blocked. A 16-year-old doesn't stop mid-scroll for regulatory court decisions."
- },
- {
-  "t": "2026-08-13T14:23:57Z",
-  "gate": "A",
-  "subject": "Grok Bot just killed 1,000 startups. Each Bot gets its own computer. It learns your workflows, uses your apps, and works",
-  "verdict": "KILL",
-  "reason": "One thin product-announcement tweet with no verified person, specific event, money moved, or real consequence named—just unproven marketing hype that would require padding to fill a carousel."
- },
- {
-  "t": "2026-08-13T14:24:20Z",
-  "gate": "A",
-  "subject": "ELON MUSK ON BUILDING A “STAR MIND” POWERED BY THE SUN “We’ve already built the most powerful AI training clusters in th",
-  "verdict": "KILL",
-  "reason": "This is Elon speculating about future plans ($300-500B revenue 'by end of next year', 10x buildout not yet real), not an event that happened in the real world—no money moved, no outcome anyone felt yet, and nothing for slides beyond the quote itself; scout score of 4/10 with no exceptional reason to pass."
- },
- {
-  "t": "2026-08-13T14:24:27Z",
-  "gate": "A",
-  "subject": "You know whats crazy? Grok 4.6 is not only cheaper than Opus 5 and 5.6 Sol. Its even cheaper than Sonnet 5. While at the",
-  "verdict": "KILL",
-  "reason": "INSTANT KILL: NO SUBSTANCE — entire source is one thin tweet expressing a pricing opinion with no real-world event, consequence, or secondary facts; a writer would have to pad speculation rather than report a story."
- },
- {
-  "t": "2026-08-13T14:24:28Z",
-  "gate": "A",
-  "subject": "How to use Grok Build",
-  "verdict": "KILL",
-  "reason": "Instant kill for NO SUBSTANCE: the source is a bare 21-character headline with zero facts, numbers, or story behind it—nothing a writer could build a post from."
- },
- {
-  "t": "2026-08-13T14:24:45Z",
-  "gate": "A",
-  "subject": "If you invested $1 in the stock market in 1802, your investment would be worth $54.2 million today 🚨🚨 Patience pays off ",
-  "verdict": "KILL",
-  "reason": "No real event, no person, no consequence—one thin hypothetical that fits the explicitly-banned 'on-topic but routine' market commentary format."
- },
- {
-  "t": "2026-08-13T15:34:23Z",
-  "gate": "B",
-  "subject": "5 BUSINESS PAGES THAT <em>FEEL ILLEGAL</em> TO BUILD FOR FREE",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH violation: The cover shows Elon Musk holding an X-branded phone, but he is not an actor in this story — the story is about what Grok Build can produce, not about anything Musk did. Owning xAI is not 'a role in this story.' A reader at feed speed sees Elon Musk + X logo and reads it as an X/Twitter story, not a Grok Build how-to. That is the image-headline disconnect the rule exists to k"
- },
- {
   "t": "2026-08-13T15:36:32Z",
   "gate": "B",
   "subject": "GROK BUILD SHIPS FIVE BUSINESS PAGES THAT <em>FEEL ILLEGAL</em> TO BUILD FOR FREE",
@@ -2098,5 +2042,61 @@
   "subject": "Israeli bots are not giving up. Due to overwhelming Palestinian support from Greeks, they are creating AI videos showing",
   "verdict": "KILL",
   "reason": "Reaction-bait with no substance: the story is online content warfare (unnamed actors, unspecified videos) with zero real-world consequence, proof, or specifics—fails Story Law's instant-kill criteria."
+ },
+ {
+  "t": "2026-08-17T23:26:28Z",
+  "gate": "A",
+  "subject": "Landing an orbital-class rocket was once considered almost impossible. SpaceX has now done it 650 times First landing: D",
+  "verdict": "KILL",
+  "reason": "Routine milestone statistic, not a story: SpaceX landing its 650th rocket is expected operational procedure with no specific event, no consequence anyone felt, and zero narrative beyond 'number reached number'—fails STORY LAW (requires viral-specific event with real-world consequence) and violates the core doctrine against posting to fill a slot topic."
+ },
+ {
+  "t": "2026-08-17T23:26:29Z",
+  "gate": "A",
+  "subject": "watermarks-remover for AI content reaches ~11k stars on github. People really hate the watermarks. And i fully understan",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no second fact, no named creator, and no real-world consequence — the substance is only an engagement metric (GitHub stars), not a story."
+ },
+ {
+  "t": "2026-08-17T23:26:36Z",
+  "gate": "A",
+  "subject": "This is literally my new workflow now: Realtime Research → Grok Bot Planning &amp; Orchestration→ Grok Bot Day-to-day Co",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet listing a personal workflow preference with zero event, consequence, or numbers—pure routine tips post that writer would have to pad."
+ },
+ {
+  "t": "2026-08-17T23:27:00Z",
+  "gate": "A",
+  "subject": "OpenAI is going all out to confront Anthropic. They're mocking Anthropic on the one hand, and on the other, doing everyt",
+  "verdict": "KILL",
+  "reason": "This is launch-preview routine and competitive positioning with zero real-world consequence (no product shipped, money moved, or outcome felt)—exactly the reaction-bait / no-substance pattern that killed the Queen Elizabeth post."
+ },
+ {
+  "t": "2026-08-17T23:27:04Z",
+  "gate": "A",
+  "subject": "Intelligence/Joule will keep improving",
+  "verdict": "KILL",
+  "reason": "No substance: 38 characters of bare prediction with zero facts, numbers, or real-world consequence to build slides from—writer would have to pad, and it violates the routine-announcement ban (launch previews, analyst targets)."
+ },
+ {
+  "t": "2026-08-17T23:27:05Z",
+  "gate": "A",
+  "subject": "Save of the year",
+  "verdict": "KILL",
+  "reason": "Pure NO SUBSTANCE: single thin tweet with zero facts, numbers, real names, or consequence; writer would have to pad or guess—cannot build slides from this."
+ },
+ {
+  "t": "2026-08-18T00:00:43Z",
+  "gate": "B",
+  "subject": "<em>5 PROMPTS</em> THAT BUILD A WORKING APP WITHOUT HIRING A SINGLE DEVELOPER",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION — IMAGE LAW HARD KILL: The cover shows a generated likeness of Mark Zuckerberg staring wide-eyed at a laptop displaying social-media app icons. Zuckerberg has zero role in this story (a 5-prompt AI dev workflow tutorial). A recognizable famous person used as decoration with no connection to the story's content breaks the image-headline connection rule explicitly called out in "
+ },
+ {
+  "t": "2026-08-18T00:03:28Z",
+  "gate": "B",
+  "subject": "A SOLO BUILDER SHIPPED A WORKING APP IN DAYS WITH <em>5 AI PROMPTS</em>, ZERO DEVELOPERS HIRED",
+  "verdict": "REJECT",
+  "reason": "Cover image shows a generated likeness of Mark Zuckerberg — a recognizable famous person who has zero role in this story. IMAGE LAW is explicit: a celebrity as decoration breaks image-headline connection and must be cast TRUTH rejected. The cover subject must be a solo builder at a laptop, an anonymous person, or a genuine scene that proves the story. Replace the image with one that matches the ac"
  }
 ]
