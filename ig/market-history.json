@@ -1,25 +1,5 @@
 [
  {
-  "page": "futurism",
-  "hook": "\"For a time, it appeared as if AI would find broad acceptance among the American masses.\n\nThe peanut gallery on social media happily embraced early image generation models as researchers appeared to make significant brea",
-  "date": "2026-08-03"
- },
- {
-  "page": "mashable",
-  "hook": "\"Influencers have been barred from cafes, prevented from filming inside workout classes, and blamed for overwhelming picturesque towns. Now, a Nantucket craft store has condensed that years-long backlash into two words: ",
-  "date": "2026-08-03"
- },
- {
-  "page": "wired",
-  "hook": "\"After his daughter died in a car crash, in which a guardrail pierced through her car rather than guiding it back to the road, Steve Eimers started posting about installation issues with guardrails lining roadways across",
-  "date": "2026-08-03"
- },
- {
-  "page": "wired",
-  "hook": "\"New research from Georgetown Law's Center on Privacy and Technology estimates that the Department of Homeland Security has become the largest single source of new genetic profiles in the nation's criminal DNA system, wi",
-  "date": "2026-08-03"
- },
- {
   "page": "technology",
   "hook": "\"Meta has released Muse Code in beta. It\u2019s the first coding agent from MSL, built on Muse Spark 1.2.\n\nMuse\u00a0Code takes on complex software engineering tasks across large repositories: planning changes, writing code, and v",
   "date": "2026-08-05"
@@ -503,5 +483,30 @@
   "page": "wired",
   "hook": "\"Though they remain niche, human-AI marriages are slowly emerging as a natural endpoint to the widespread adoption of AI companion apps. Several lawmakers, primarily from Republican states, are trying to stop it from hap",
   "date": "2026-08-16"
+ },
+ {
+  "page": "technology",
+  "hook": "\"A grandson used AI to place his grandmother inside scenes from her favorite movie, turning a familiar film into an unexpected and deeply personal surprise \ud83c\udfac\ud83d\ude02\n\nInstead of simply showing her the movie again, he used gener",
+  "date": "2026-08-17"
+ },
+ {
+  "page": "technology",
+  "hook": "\"A Chinese court ruled that a tech company illegally laid off a worker after replacing him with AI, signaling growing pressure on employers to protect jobs as automation expands.\n\nThe ruling highlights a major challenge ",
+  "date": "2026-08-17"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"A decade ago, young adults were flocking to vaunted tech giants like Google and Apple in pursuit of exciting jobs on the cutting edge of tech. In 2026, however, the status quo of young people who are uncritically enamor",
+  "date": "2026-08-17"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Many Americans are having negative reactions to the growing prevalence of generative AI in daily life. In a recent Gallup poll, Americans\u2019 increased familiarity with generative AI coincides with negative attitudes about",
+  "date": "2026-08-17"
+ },
+ {
+  "page": "wired",
+  "hook": "\"When Jim Allen, the elections director for Delaware County, Pennsylvania, recently ran a training session for poll workers, he began a conversation about a topic he\u2019d never previously had to address during training: pre",
+  "date": "2026-08-17"
  }
 ]
