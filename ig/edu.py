@@ -86,7 +86,8 @@ def real_tag(topic, guides):
     return bool(m) and m.group(1) in {str(g.get("id")) for g in guides}
 
 
-def build_prompt(used_topics, headlines="", guides=(), must_anchor=False):
+def build_prompt(used_topics, headlines="", guides=(), must_anchor=False,
+                 mode="skills"):
     spec = json.load(open(os.path.join(HERE, "containers.json")))
     used = "\n".join(f"- {t}" for t in used_topics) or "(none yet)"
     vol = len(used_topics) + 1  # franchise volume number (audit Jul 29)
@@ -158,12 +159,21 @@ TODAY'S NEWS — MANDATORY anchor (the viral-guide pool is empty, and this page 
 TODAY'S NEWS — optional anchors: a guide that piggybacks a live story rides its wave ("GPT-5 dropped yesterday — 5 things it already does for your business"). Use one ONLY if you can build genuine utility on it; never force it:
 {headlines}
 """ if headlines else "")
-    return f"""{doctrine()}You write Instagram carousels for @yaffeai — an AI-news page in the style of @technology, funneling followers to an AI-consulting business. Today's post is the **ai_education** container: an educational save-magnet carousel. No news story — you pick the topic.
+    exec_block = ""
+    if mode == "exec":
+        exec_block = """
+EXECUTIVE LANE — TODAY'S EDITION (owner order Aug 18; where this conflicts with the pillar list or skill-slide rules below, THIS block wins): this slot serves a DIFFERENT reader — a founder, CEO, executive or investor who already understands AI at a user level. NOT a beginner, NOT an engineer. BANNED for this reader: prompt listicles, "AI prompts that save you thousands", chatbot tips, beginner explainers ("this is not interesting" — owner). What they stop for: strategy and capital plays backed by hard numbers.
+- SOURCE (the ground rule still stands — everything rides an already-viral X wave): anchor on the single most business-consequential item available — a listed guide ONLY if it is genuinely executive-grade (capital, hiring, margins, pricing, strategy), otherwise the most consequential TODAY'S NEWS story. Name it in your "topic" label, prefixed "EXEC:".
+- THE FRAMEWORK RULE (Jack Butcher / Visualize Value — executives save FRAMEWORKS, not tips): distill the source into ONE named framework and put the NAME on the cover ("THE 2,600-DESK RULE", "THE $20K BOOTSTRAP PLAYBOOK"). One framework per post, never two. The cover = framework name + its wildest number, 6-10 words.
+- REGISTER: minimum words, oversized numbers, one idea per slide carried by type, not paragraphs. Each content slide = ONE move of the framework: headline = the move as a 4-8 word factual claim with its number; body in 1/3/1 and ≤20 words — the punch, the real number behind it, one open line teeing the next move. "You" lines address THEIR operation ("your payroll", "your board", "your margin").
+- THE READER TEST per slide: would a bored billionaire on a plane screenshot this? Zero motivational-poster lines, zero generic advice — every claim carries a number or name from the source material.
+"""
+    return f"""{doctrine()}You write Instagram carousels for @yaffeai — an AI-news page in the style of @technology, funneling followers to an AI-consulting business. Today's post is the **ai_education** container: {'a high-signal executive intelligence carousel' if mode == 'exec' else 'an educational save-magnet carousel'}. No news story — you pick the topic.
 
 CONTAINER SPEC (ai_education): {json.dumps(spec['containers']['ai_education'])}
 CAPTION BLOCKS: {json.dumps(spec['caption_blocks'])}
 QA GATE: {json.dumps(spec['qa_gate'])}
-{guide_block}
+{exec_block}{guide_block}
 TOPIC — when no viral guide above fits, pick ONE fresh angle from these pillars (NOT one already used, listed below). The reader to serve FIRST is a business owner / entrepreneur (the page's funnel audience): weight topics toward what saves a business money or hours, or makes it money — consumer angles are allowed but the business angle should win ties.
 WHY-NOW RULE (owner doctrine Aug 1 — even a guide must be current or viral, never evergreen filler): every topic must have a nameable reason to exist TODAY — a tool/feature released or meaningfully updated in the last ~60 days, or a live news story (see TODAY'S NEWS below when present). Novelty is measured against the AUDIENCE: a 3-week-old tool most people haven't heard of still counts as new; a generic tip list that could have run unchanged in 2023 ("10 ChatGPT productivity tips") is BANNED no matter how useful. State the why-now inside the "topic" label.
 - Claude Code: the tool where you type plain English and it builds/fixes/automates entire things. Its wildest real abilities, explained like magic tricks anyone can try.
@@ -192,7 +202,7 @@ COVER IMAGE (mandatory): the cover MUST set "image_brief" — an empty dark cove
    - BUILT-IT slide: headline DNA — physical past-tense verb + number ("A 60-YEAR-OLD WHO CAN'T CODE SHIPPED AN APP TO 1,000 USERS"). Body: 2-3 sentences, every sentence a concrete number/name in <b>.
    Slide 2 doubles as SECOND COVER (Instagram re-serves skipped carousels with slide 2 up front) — it must hook standalone, so put the single most jaw-dropping skill/story there.
    COVER CONTRACT (owner rule Aug 1, "5 whole jobs" post-mortem: a reader "just didn't understand the connection" between the cover and the slides): whatever frame the cover promises (JOBS, EMPLOYEES, SERVICES, SECRET CODES...), EVERY skill slide must cash that exact frame in its proof line — say the connection out loud, never leave it for the reader to infer. If the cover says "5 WHOLE JOBS HANDED TO AI", each proof line opens by naming the human job replaced and what it costs: "A billing advocate charges $150 an hour to fight bills like this. He let Claude do it: $1,200 dropped to $180". Self-test per slide: if this slide would read fine under a completely different cover, the thread is broken — rewrite the proof line so cover → slide 2 → slide 3 reads as ONE continuous story, obvious even to a reader whose English is weak.
-Last. type "cta": "SAVE THIS" utility register — saving is the whole point of this format ("You'll want these when you try it — save this post"). Plus the page-as-service line ("Daily AI news + real skills").
+Last. type "cta": THE SAVE CLOSE (owner order Aug 18 — the last slide is built to be SAVED, never a generic closer): headline = a save-command mirroring the cover's N-promise, 6-11 words ("SAVE THIS: ALL 6 SERVICES AI DOES FREE"). Body = the recap CHECKLIST: the N promised items as newline-separated lines, one per item, each ≤6 words (just the item's name/verb, no prompts), in slide order — this one-screen recap is WHY people tap save. Final line: the page-as-service line ("Daily AI news + real skills"). The renderer draws the checkmarks and the follow pill.
 
 RULES
 - LANGUAGE (hard requirement): a smart 16-year-old must get every line instantly. Say what things DO, never what they're called.
@@ -206,6 +216,11 @@ Return ONLY the JSON object, no markdown fences, no commentary."""
 
 
 def main():
+    # EDU_MODE=exec (owner order Aug 18): the hour-13 slot alternates between
+    # the skills save-magnet and the executive intelligence edition — high-
+    # signal framework posts for founders/CEOs/investors, set in the workflow
+    mode = os.environ.get("EDU_MODE", "skills")
+    print(f"edu lane mode: {mode}", file=sys.stderr)
     used = json.load(open(USED)) if os.path.exists(USED) else []
     headlines = ""
     try:  # fresh stories.json exists when the workflow ran scout first
@@ -232,7 +247,7 @@ def main():
                  "(owner: unacceptable; check radar wide guide net / "
                  "guides.json)"),
               file=sys.stderr)
-    prompt = build_prompt(used, headlines, guides, must_anchor)
+    prompt = build_prompt(used, headlines, guides, must_anchor, mode)
     # 2 rolls, not 3 (token diet Aug 8): the workflow ladder re-runs edu.py
     # fresh as its last rung anyway, so a third in-process roll is redundant.
     def edu_qa(p):  # shared qa + this container's own gate, one verdict
@@ -242,6 +257,21 @@ def main():
                          r"|chat\.com|claude\.ai)", s.get("body", "")):
                 e.append(f"slide {i+1}: app-navigation steps are banned — "
                          "give the self-contained prompt itself, in quotes")
+        # save-close recap (owner order Aug 18): the CTA is a one-screen
+        # checklist of the N promised items, never a generic closer
+        slides = p.get("slides") or [{}]
+        if slides[-1].get("type") == "cta":
+            head = re.sub(r"<[^>]+>", "", slides[-1].get("headline") or "")
+            if not re.search(r"(?i)\bsave\b", head):
+                e.append('cta headline must be a save-command ("SAVE THIS: '
+                         '...") mirroring the cover promise')
+            lines = [l for l in (slides[-1].get("body") or "").split("\n")
+                     if l.strip()]
+            if len(lines) < 3:
+                e.append(f"cta body has {len(lines)} line(s) — the save close "
+                         "is a recap CHECKLIST: the promised items as "
+                         "newline-separated lines (≤6 words each) plus the "
+                         "page-as-service line")
         return e
 
     for attempt in range(2):
@@ -272,7 +302,11 @@ def main():
         # guides sat in the pool. A tag-less topic with a live pool is a
         # failed roll. Last attempt ships anyway (always-post law) and gets
         # flagged ignored-pool below.
-        if attempt == 0 and guides and not real_tag(post.get("topic"), guides):
+        # exec mode is exempt (owner Aug 18): a beginner prompt-guide must
+        # never be forced on the executive edition — its prompt block already
+        # mandates riding the most business-consequential viral item instead
+        if (attempt == 0 and guides and mode != "exec"
+                and not real_tag(post.get("topic"), guides)):
             g = guides[0]
             errs.append(f"you IGNORED the viral guide pool — using a listed "
                         f"guide is MANDATORY (owner ground rule). Build this "
@@ -309,7 +343,7 @@ def main():
         if not errs:
             break
         must_anchor = must_anchor or (not guides and bool(headlines))
-        prompt = (build_prompt(used, headlines, guides, must_anchor)
+        prompt = (build_prompt(used, headlines, guides, must_anchor, mode)
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
     else:
@@ -320,7 +354,7 @@ def main():
         "anchor": "", "specifics": []})
     topic = post.pop("topic", "untitled")
     print("topic:", topic, file=sys.stderr)
-    post.update(handle="@yaffeai", container="ai_education")
+    post.update(handle="@yaffeai", container="ai_education", edu_mode=mode)
 
     post_dir = os.path.join(HERE, "posts", f"{date.today()}-edu-{slugify(topic)}")
     os.makedirs(post_dir, exist_ok=True)
@@ -493,6 +527,10 @@ def main():
         # news-anchored = still riding a viral wave (compliant, informational);
         # self-invented = both sources empty, the true last rung (flagged)
         post["topic_source"] = "news-anchored" if must_anchor else "self-invented"
+    elif mode == "exec" and not real_tag(topic, guides):
+        # exec edition legitimately rides the most consequential news story
+        # instead of a beginner guide — informational, never a warning
+        post["topic_source"] = "exec-news"
     elif not real_tag(topic, guides):
         # survived the re-roll and still ignored the pool — ship it
         # (always-post law) but the daily report names it to the owner

@@ -157,6 +157,19 @@ body.card .photocard{flex:1;min-height:0;border-radius:30px;
                      border:2px solid rgba(217,119,87,.45);
                      box-shadow:0 20px 60px rgba(0,0,0,.65)}
 body.card.nomedia .frame{justify-content:center;padding-top:120px}
+/* pattern-break slide (owner order Aug 18): full visual interrupt mid-
+   carousel — solid brand orange, huge dark type, ONE giant number or ≤6-word
+   statement. The inversion IS the re-hook; no photo, no texture. */
+body.break{background:#D97757}
+body.break .frame{position:relative;z-index:2;height:1350px;display:flex;
+                  flex-direction:column;justify-content:center;
+                  text-align:center;padding:0 44px}
+body.break h1{color:#0E0E10;text-shadow:none;-webkit-text-stroke:0;
+              line-height:.92;margin-bottom:44px}
+body.break .body{color:#0E0E10;text-shadow:none;font-weight:700}
+body.break .masthead{color:#0E0E10}
+body.break .masthead img{filter:brightness(0) drop-shadow(0 0 0 transparent)}
+body.break .masthead:before,body.break .masthead:after{background:rgba(14,14,16,.55)}
 /* cta */
 body.cta .frame{position:relative;z-index:2;height:1350px;display:flex;
                 flex-direction:column;justify-content:center;text-align:center;
@@ -168,6 +181,16 @@ body.cta h1{margin-bottom:56px}
       padding:26px 70px;border-radius:999px}
 .cta-sub{font-size:38px;line-height:1.45;font-weight:600;max-width:24ch;margin:48px auto 0}
 .cta-sub b{font-weight:800}
+/* save-close recap (owner order Aug 18): the last slide is a one-screen
+   checklist built to be SAVED — story beats with orange ticks, send-line
+   below the pill; the pill alone carries the follow ask */
+.recap{display:inline-block;text-align:left;margin:0 auto 48px;
+       font-size:40px;line-height:1.4;font-weight:600;color:#FFF;
+       text-shadow:0 3px 12px rgba(0,0,0,.85)}
+.recap .row{display:flex;gap:24px;align-items:flex-start;margin-bottom:22px}
+.recap .row:last-child{margin-bottom:0}
+.recap .tick{color:#D97757;font-weight:800;flex-shrink:0}
+.recap b{font-weight:800}
 /* photo CTA (@technology closing slide): cover anatomy + follow pill */
 body.ctaphoto .ctarow{text-align:center;margin-top:38px}
 """
@@ -283,7 +306,7 @@ function scrim(){
     +'rgba(5,5,5,.9) '+edge+'px,rgba(5,5,5,.94) 1350px)';
 }
 document.fonts.ready.then(function(){
-  var h=document.querySelector('body.cover h1');
+  var h=document.querySelector('body.cover h1')||document.querySelector('body.break h1');
   if(h)fitLines(h);
   scrim();
 });
@@ -400,24 +423,52 @@ def slide_html(s, handle, total, fallback_media=None):
 <div class="ctastrip"><div class="swipe">{swipe}</div></div>{FIT_JS}</body>'''
 
     if s["type"] == "cta":
+        # save-close recap (owner order Aug 18): a body of 3+ lines renders as
+        # a checklist (beats with orange ticks) + the last line as send-line;
+        # shorter bodies keep the old single-sub rendering (edu/back-compat)
+        lines = [l.strip() for l in (s.get("body") or "").split("\n")
+                 if l.strip()]
+        if len(lines) >= 3:
+            rows = "".join(f'<div class="row"><span class="tick">✓</span>'
+                           f'<span>{l}</span></div>' for l in lines[:-1])
+            recap = f'<div><div class="recap">{rows}</div></div>'
+            sub = f'<p class="cta-sub">{lines[-1]}</p>'
+        else:
+            recap = ""
+            sub = (f'<p class="cta-sub">{"<br>".join(lines)}</p>'
+                   if lines else "")
         if media:
             # photo CTA (@technology Codex Micro closing slide, owner Aug 1
             # "the last cta is amazing it shows sam altman"): the generated
             # CEO-with-product shot full-bleed, cover anatomy — photo bright to
-            # the masthead, black band below with headline + follow pill
+            # the masthead, black band below with headline + recap + pill
             bg = (f'<div class="bgblur" style="background-image:url(\'{media}\')"></div>'
                   f'<div class="bleed" style="background-image:url(\'{media}\')"></div><div class="shade"></div>')
             return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="cover ctaphoto">{bg}
-<div class="frame">{MASTHEAD}<h1>{s["headline"]}</h1>
-<div class="ctarow"><span class="pill">Follow {handle}</span></div></div>{FIT_JS}</body>'''
+<div class="frame">{MASTHEAD}<h1>{s["headline"]}</h1>{recap}
+<div class="ctarow"><span class="pill">Follow {handle}</span></div>{sub}</div>{FIT_JS}</body>'''
         return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="cta">{art_bg(s["headline"], heavy=True)}
 <div class="frame">{MASTHEAD}
-<h1>{s["headline"]}</h1>
+<h1>{s["headline"]}</h1>{recap}
 <div><span class="pill">Follow {handle}</span></div>
-<p class="cta-sub">{s["body"].replace(chr(10), "<br>")}</p>
+{sub}
 </div></body>'''
+
+    # pattern-break slide (owner order Aug 18): solid orange, huge dark type —
+    # ONE giant number or a ≤6-word statement, one short open body line. The
+    # headline renders 1.6x the writer's hsize; no photo, no texture.
+    if s["type"] == "content" and s.get("layout") == "break":
+        css = css.replace(f"font-size:{s.get('hsize', 100)}px",
+                          f"font-size:{int(s.get('hsize', 100) * 1.6)}px", 1)
+        body = (f'<p class="body">{s["body"].replace(chr(10), "<br>")}</p>'
+                if (s.get("body") or "").strip() else "")
+        return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
+<body class="break">
+<div class="mast-top">{MASTHEAD}</div>
+<div class="frame">
+<h1>{s["headline"]}</h1>{body}</div>{FIT_JS}</body>'''
 
     # profile-card content slide: story text on top, real photo in a rounded
     # card below (@techskills anatomy, owner example Aug 1) — no headline

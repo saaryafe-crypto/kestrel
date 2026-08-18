@@ -1015,7 +1015,7 @@ The cover plants a question in the reader's head. Every next slide answers EXACT
 RETENTION DOCTRINE (research-backed, 2026 carousel studies — high swipe-through earns 3-5x non-follower reach and a 24-48h re-serve):
 - STORY ARC, not a list: stakes → escalation → TWIST → consequence → payoff. Slides must depend on each other in order; if a reader could read them shuffled, it's a listicle and it dies.
 - PAYOFF PLACEMENT: the answer to the cover's question NEVER lands before slide 4 (in the shortest chains: on the last content slide). If the hook resolves on slide 2, swiping stops. Slides 2-3 escalate the stakes and deepen the question instead.
-- THE TWIST: one mid-carousel slide (around slide 4) is a pattern interrupt — the most contrarian or absurd TRUE fact in the story, the "wait, WHAT?" moment that re-hooks tired swipers.
+- THE TWIST: one mid-carousel slide (around slide 4) is a pattern interrupt — the most contrarian or absurd TRUE fact in the story, the "wait, WHAT?" moment that re-hooks tired swipers. This is the slide that carries "layout": "break" (see THE BREAK SLIDE below) — the visual interrupt and the story interrupt land together.
 - OPEN LOOP AT EVERY BOUNDARY: each body's final line creates the exact itch the next headline scratches ("Then the numbers came in"). No slide ends settled except the last.
 - SHARE TRIGGER (name it before writing): every post must fire at least one — awe, outrage, amusement, usefulness ("save this"), or identity ("people like me send this"). A merely-informative post gets zero shares; pick the angle that fires the trigger hardest.
 - THE STANCE (owner directive Aug 1 — we don't report, we ARGUE): the payoff slide's final sentence is a TAKE, one blunt sentence saying what this MEANS ("This is the first time AI cost someone $45 billion in a week", "Your accountant should be nervous"). It must be sharp enough that a reader could comment "wrong" — a post that ends on a neutral fact is a news wire, not a page people follow. The take is built from the story's true facts, never invented.
@@ -1033,10 +1033,12 @@ The model to copy (updated Aug 1 for summarizing covers — the Visa story done 
 The cover summarizes; the inner slides go DEEPER than the cover ever could — the how, the why, the fallout, the picture. Every inner slide answers one question while creating the next one. Before writing each slide, name the question the previous slide planted — if the slide doesn't answer it, rewrite the slide.
 Structure:
 1. type "cover": THE HOOK — the single most important thing in the whole post (see COVER HOOK below). No body.
-2. type "content": first chain answer. Doubles as the SECOND COVER — Instagram re-serves skipped carousels with slide 2 as the cover, so its headline must hook standalone, never "Here's how" or "The details".
-3+. type "content": the rest of the chain. Each headline = a 5-9 word standalone factual CLAIM someone could disagree with — NEVER a label ("THE DETAILS", "THE REAL STORY", "WHAT THIS MEANS FOR X") and NEVER an aphorism/motivational line ("X BEATS Y"). Use physical past-tense verbs (parked, gutted, handed, escaped — never "is using", "means", "finds") and put a number in the headline whenever the story has one. Body = SPOKEN VOICE (owner directive Aug 1 — the stat-dump bodies read "so not interesting"): 2-3 sentences the way you'd SAY them across a table — a punch, then the plain-words explanation, then a kicker that tees up the next slide. Numbers and names still land in <b>, but a sentence may carry ZERO numbers; voice beats stat density, and a body that reads like a market wrap ("the S&P was green, Nasdaq up 1%") is a failed slide. Ranks and records when TRUE (first, biggest, worst day ever) beat raw figures. Each body delivers a NEW fact — never a re-say of its own headline.
+2. type "content": THE SECOND HOOK (owner order Aug 18 — inner slides read "plain, flat and boring", this is where it starts). Slide 2 is NOT the first answer, it is a SECOND COVER: Instagram re-serves skipped carousels with slide 2 up front, so its headline must stop the scroll standalone — never "Here's how" or "The details". Its job is to RE-SELL the swipe: escalate the cover's question (the human scale, the belief that was about to break) WITHOUT spending the payoff.
+3+. type "content": the rest of the chain. Each headline = a 5-9 word standalone factual CLAIM someone could disagree with — NEVER a label ("THE DETAILS", "THE REAL STORY", "WHAT THIS MEANS FOR X") and NEVER an aphorism/motivational line ("X BEATS Y"). Use physical past-tense verbs (parked, gutted, handed, escaped — never "is using", "means", "finds") and put a number in the headline whenever the story has one. Body = SPOKEN VOICE in 1/3/1 RHYTHM (owner order Aug 18): one short PUNCH line the way you'd say it across a table → the meat, 1-2 plain-words sentences → one OPEN line that creates the exact itch the next headline scratches ("Then the numbers came in"). The open line is mandatory on every content slide except the last — a body that closes its own fact kills the swipe (SHUFFLE TEST: if the middle slides still make sense read in any order, the chain is fake — rewrite until each slide NEEDS the one before). Numbers and names still land in <b>, but a sentence may carry ZERO numbers; voice beats stat density, and a body that reads like a market wrap ("the S&P was green, Nasdaq up 1%") is a failed slide. Ranks and records when TRUE (first, biggest, worst day ever) beat raw figures. Each body delivers a NEW fact — never a re-say of its own headline.
+THE "YOU" CADENCE (owner order Aug 18): every 2-3 slides, ONE body sentence speaks straight to the reader in second person, tying the story to THEIR money, job, or day ("Your $1,000 of Reddit stock was $770 by dinner", "Your accountant should be nervous"). Built from true facts only. Three consecutive slides with zero "you/your" fail QA.
+THE BREAK SLIDE (owner order Aug 18, mandatory on every post of 6+ slides): the TWIST slide (~slide 4-5) sets "layout": "break" — a full visual pattern interrupt the renderer inverts (solid orange, huge dark type). Its headline is ONE giant figure or a ≤6-word statement — the story's single wildest number ("$45,000,000,000 GONE") — hsize 100-124, NO <em> (the whole line is the accent on a break slide). Body: ONE short line of context ending open, ≤12 words. No image_brief — the type IS the visual. Exactly one break slide per post; never slides 1-2, never the last two.
 Second-to-last. type "content": THE VALUE SLIDE — the consulting-funnel slide, built with the $100M Offers rules (section 5 of the principles). Open with the business owner's PAIN this story touches, then the escape: what a normal business can DO with this, with a concrete number, and why it's now fast/effortless ("without hiring anyone"). Its headline is a factual claim with a number too — never a lesson or a "what this means" label. The reader-owner should finish it thinking "I want this in MY business". Same visual style, no selling tone, no price ever. NEVER a moral or an aphorism (owner comparison Aug 1: "The businesses making real money put AI to work, they don't bet on it" shipped as a sermon that broke the story's spell) — the value slide is still a STORY slide: a concrete number and a real capability, zero preaching.
-Last. type "cta": THE FOLLOW CONVERSION (owner doctrine Aug 1, copied from the reference page's closer — REPLACES the Jul 29 story-FOMO formula): the headline is a DIRECT follow line in one of two registers, wording freshly varied every post: LOSS AVERSION ("YOU MAY NEVER FIND OUR PAGE AGAIN IF YOU DON'T FOLLOW US") or DAILY VALUE ("WE SHARE DAILY UPDATES ON WHAT'S HAPPENING IN AI"). These run 8-11 words — hsize 54-64 so the block still fits. Body: ONE sentence with a specific SEND line naming the exact person-type this story hits ("Send this to the friend who still types every email himself") — a send-line is utility; "tag a friend" is banned bait. The CTA image is the story's famous person (the art direction handles it): the person the reader just spent six slides with is the one telling them to follow.
+Last. type "cta": THE SAVE CLOSE (owner order Aug 18 — SUPERSEDES the Aug 1 follow-conversion closer; a generic "follow us" slide is now a FAILURE): the last slide is built to be SAVED. Headline: a save-command that MIRRORS the cover's claim, 6-11 words ("SAVE THIS: THE WEEK AI COST VISA $2 BILLION") — hsize 54-64. Body: the story's 3-5 beats as a one-screen recap CHECKLIST — one line per beat, each ≤8 words, newline-separated, in story order, numbers in <b> (the renderer draws the checkmarks; this recap is WHY people tap save — saves are a top ranking signal). Then one final line: a specific SEND line naming the exact person-type this story hits ("Send this to the friend who still types every email himself") — a send-line is utility; "tag a friend" is banned bait. The follow ask lives only in the small pill the renderer adds — never in your text. The CTA image is the story's famous person (the art direction handles it): the person the reader just spent six slides with is the one asking them to save it.
 For builder_story follow its container spec slide order instead (same question-chain style).
 
 PROFILE CARD FORMAT (owner gold-standard example Aug 1 — the @techskills Mercor post; optional, use it ONLY when the story is ONE PERSON'S RISE — a founder/inventor profile with a record or a huge number — AND at least 3 real article photos exist; never for company/product news):
@@ -1243,7 +1245,9 @@ How to fix the common failures:
 - body too long: cut to the best 2 sentences, 30 words max — keep the <b> tags and the concrete facts, drop the weakest sentence
 - body repeats its own headline's number: replace that sentence with a NEW true fact from the post's other text, or the plain-words consequence — never re-say the headline
 - number repeated across slides: keep it on the earlier slide, rewrite the later mention into a different true specific
-- cta headline register: replace with a DIRECT follow line, 8-11 words, loss-aversion ("YOU MAY NEVER FIND OUR PAGE AGAIN IF YOU DON'T FOLLOW") or daily-value ("WE SHARE DAILY UPDATES ON WHAT'S HAPPENING IN AI") register, freshly worded
+- cta save-close failures: headline becomes a save-command mirroring the cover's claim, 6-11 words ("SAVE THIS: THE WEEK AI COST VISA $2 BILLION" register, never a follow line); body becomes 3-5 newline-separated recap lines (the story's beats in order, ≤8 words each, numbers in <b>) plus one final send-line
+- three slides with zero second person: rewrite ONE body sentence on the middle flagged slide into a true "you/your" consequence line ("Your $1,000 stake was $770 by dinner") — keep every other sentence
+- missing/misplaced break slide: convert the twist slide (~slide 4-5) to "layout": "break" — headline = the story's single wildest number or a ≤6-word statement (no <em>), body = one short open line ≤12 words, remove its image_brief
 - missing image_brief: write one — 15-40 words, subject first then action then setting, evidence of THAT slide's exact claim, no readable text in scene, end with one color key
 - quotes/cites an internet user: delete the attribution, state the fact directly
 
@@ -1278,6 +1282,13 @@ def qa(post):
             if not (s.get("body") or "").strip():
                 errs.append(f"slide {i+1}: card slide has no body — the body IS "
                             "the story on card slides")
+            continue
+        if s.get("layout") == "break":
+            # pattern-break slide (owner Aug 18): the whole line is the accent
+            # — the renderer inverts it orange; <em> would fight the inversion
+            if "<em>" in s["headline"]:
+                errs.append(f"slide {i+1}: break slide headline has <em> — the "
+                            "break slide's whole line is the accent, no <em>")
             continue
         if "<em>" not in s["headline"]:
             errs.append(f"slide {i+1}: headline has no <em> accent")
@@ -1353,7 +1364,8 @@ def qa(post):
         # ship a naked text slide). image_brief counts — the gen ladder and
         # its budget guard decide later; a slide may still RENDER text-only
         # if generation fails, so the always-post rule is never at risk
-        if (s["type"] == "content" and not s.get("media_idx")
+        if (s["type"] == "content" and s.get("layout") != "break"
+                and not s.get("media_idx")
                 and not (s.get("image_brief") or "").strip()):
             errs.append(f"slide {i+1}: no media_idx and no image_brief — every "
                         "content slide needs a real photo or an image brief")
@@ -1411,6 +1423,44 @@ def qa(post):
                                 "go deeper with a NEW fact instead of repeating")
                 else:
                     seen_nums[n] = i
+    # storytelling law Aug 18 (owner: inner slides "plain, flat and boring") —
+    # mechanical checks for the "you" cadence and the pattern-break slide.
+    # Story flow only (container key); card-format biographies exempt
+    if post.get("container") and not profile:
+        content = [(i, s) for i, s in enumerate(slides)
+                   if s["type"] == "content"]
+        # "you" cadence: no 3 consecutive content slides without second person
+        run = 0
+        for i, s in content:
+            text = re.sub(r"<[^>]+>", "", f"{s.get('headline') or ''} "
+                                          f"{s.get('body') or ''}")
+            run = 0 if re.search(r"(?i)\byou\b|\byour\b|\byou'", text) else run + 1
+            if run >= 3:
+                errs.append(f"slides {i-1}-{i+1}: three slides in a row with "
+                            "zero second person — every 2-3 slides one sentence "
+                            "must hit the READER's money/job/day ('your "
+                            "accountant should be nervous')")
+                break
+        # break slide: exactly one on 6+ slide posts, mid-carousel only
+        breaks = [i for i, s in enumerate(slides) if s.get("layout") == "break"]
+        if len(slides) >= 6 and not breaks:
+            errs.append("no break slide — every 6+ slide post needs ONE "
+                        'pattern-break slide (~slide 4-5): "layout": "break", '
+                        "headline = the story's wildest number or a ≤6-word "
+                        "statement, one short open body line")
+        if len(breaks) > 1:
+            errs.append("more than one break slide — the pattern interrupt "
+                        "works exactly once per post")
+        for b in breaks:
+            if b < 2 or b >= len(slides) - 2:
+                errs.append(f"slide {b+1}: break slide sits at the edge — it "
+                            "belongs mid-carousel (never the first two or "
+                            "last two slides)")
+            bw = len(re.sub(r"<[^>]+>", "",
+                            slides[b].get("headline") or "").split())
+            if bw > 7:
+                errs.append(f"slide {b+1}: break headline is {bw} words — one "
+                            "giant number or a ≤6-word statement, nothing else")
     if "Sources:" not in caption:
         errs.append("caption missing Sources line")
     else:
@@ -1423,17 +1473,25 @@ def qa(post):
                         '@handles or u/ prefixes ("Ayzacoder" not "@Ayzacoder")')
     if len(re.findall(r"#\w+", caption)) != 5:
         errs.append("caption must have exactly 5 hashtags")
-    # follow-conversion CTA (owner doctrine Aug 1, the reference page's closer:
-    # loss-aversion "you may never find our page again" / daily-value "we
-    # share daily updates" — reverses the Jul 29 story-FOMO rule, which the
-    # Aug 1 audit found converts worse than the direct follow ask).
-    # container key only exists in the story flow — edu's save-CTA is exempt
+    # SAVE-CLOSE CTA (owner order Aug 18 — SUPERSEDES the Aug 1 follow-
+    # conversion closer): the last slide is a one-screen recap built to be
+    # SAVED, never a generic "follow us" (the pill carries the follow ask).
+    # container key only exists in the story flow — edu gates its own CTA
     if post.get("container"):
-        cta_head = re.sub(r"<[^>]+>", "", slides[-1].get("headline", ""))
-        if not re.search(r"(?i)\bfollow", cta_head):
-            errs.append("cta headline must be a DIRECT follow line (loss-"
-                        "aversion or daily-value register per the spec), not "
-                        "a story tease")
+        cta = slides[-1]
+        cta_head = re.sub(r"<[^>]+>", "", cta.get("headline", ""))
+        if re.search(r"(?i)\bfollow", cta_head):
+            errs.append("cta headline is a follow line — the closer is now the "
+                        "SAVE CLOSE (owner Aug 18): a save-command mirroring "
+                        "the cover's claim; the renderer's pill handles follow")
+        if not re.search(r"(?i)\bsave\b", cta_head):
+            errs.append('cta headline must open with a save-command ("SAVE '
+                        'THIS: ...") mirroring the cover\'s claim, 6-11 words')
+        cta_lines = [l for l in (cta.get("body") or "").split("\n") if l.strip()]
+        if len(cta_lines) < 3:
+            errs.append(f"cta body has {len(cta_lines)} line(s) — the save "
+                        "close is a recap CHECKLIST: 3-5 newline-separated "
+                        "story beats (≤8 words each) plus the send-line")
     if not post.get("pinned_comment", "").strip():
         errs.append("missing pinned_comment — one debatable question or "
                     "left-out fact to seed the comment thread")

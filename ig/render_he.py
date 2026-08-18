@@ -136,6 +136,26 @@ body.card .photocard{flex:1;min-height:0;border-radius:30px;
                      border:2px solid rgba(217,119,87,.45);
                      box-shadow:0 20px 60px rgba(0,0,0,.65)}
 body.card.nomedia .frame{justify-content:center;padding-top:120px}
+/* pattern-break slide (owner order Aug 18, ported from render.py): solid
+   brand orange, huge dark type — the mid-carousel visual interrupt */
+body.break{background:#D97757}
+body.break .frame{position:relative;z-index:2;height:1350px;display:flex;
+                  flex-direction:column;justify-content:center;
+                  text-align:center;padding:0 44px}
+body.break h1{color:#0E0E10;text-shadow:none;-webkit-text-stroke:0;
+              line-height:.98;margin-bottom:44px}
+body.break .body{color:#0E0E10;text-shadow:none;font-weight:700}
+body.break .masthead{color:#0E0E10}
+body.break .masthead img{filter:brightness(0)}
+body.break .masthead:before,body.break .masthead:after{background:rgba(14,14,16,.55)}
+/* save-close recap (owner order Aug 18): checklist beats with orange ticks */
+.recap{display:inline-block;text-align:right;margin:0 auto 48px;
+       font-size:40px;line-height:1.42;font-weight:600;color:#FFF;
+       text-shadow:0 3px 12px rgba(0,0,0,.85)}
+.recap .row{display:flex;gap:24px;align-items:flex-start;margin-bottom:22px}
+.recap .row:last-child{margin-bottom:0}
+.recap .tick{color:#D97757;font-weight:800;flex-shrink:0}
+.recap b{font-weight:800}
 body.cta .frame{position:relative;z-index:2;height:1350px;display:flex;
                 flex-direction:column;justify-content:center;text-align:center;
                 padding:0 44px}
@@ -365,6 +385,19 @@ def slide_html(s, handle, total, fallback_media=None):
 <div class="ctastrip"><div class="swipe">{swipe}</div></div>{FIT_JS}</body>'''
 
     if s["type"] == "cta":
+        # save-close recap (owner order Aug 18, ported from render.py): a body
+        # of 3+ lines renders as a checklist + the last line as send-line
+        lines = [l.strip() for l in (s.get("body") or "").split("\n")
+                 if l.strip()]
+        if len(lines) >= 3:
+            rows = "".join(f'<div class="row"><span class="tick">✓</span>'
+                           f'<span>{bidi(l)}</span></div>' for l in lines[:-1])
+            recap = f'<div><div class="recap">{rows}</div></div>'
+            sub = f'<p class="cta-sub">{bidi(lines[-1])}</p>'
+        else:
+            recap = ""
+            sub = (f'<p class="cta-sub">{bidi(s["body"]).replace(chr(10), "<br>")}</p>'
+                   if lines else "")
         if media:
             # photo CTA (@technology closing slide, owner Aug 1): the generated
             # CEO-with-product shot full-bleed with cover anatomy
@@ -372,15 +405,25 @@ def slide_html(s, handle, total, fallback_media=None):
                   f'<div class="bleed" style="background-image:url(\'{media}\')"></div><div class="shade"></div>')
             return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="cover ctaphoto">{bg}
-<div class="frame">{masthead()}<h1>{s["headline"]}</h1>
-<div class="ctarow"><span class="pill">עקבו אחרי <bdi>{handle}</bdi></span></div></div>{FIT_JS}</body>'''
+<div class="frame">{masthead()}<h1>{s["headline"]}</h1>{recap}
+<div class="ctarow"><span class="pill">עקבו אחרי <bdi>{handle}</bdi></span></div>{sub}</div>{FIT_JS}</body>'''
         return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="cta">{art_bg(s["headline"], heavy=True)}
 <div class="frame">{masthead()}
-<h1>{s["headline"]}</h1>
+<h1>{s["headline"]}</h1>{recap}
 <div><span class="pill">עקבו אחרי <bdi>{handle}</bdi></span></div>
-<p class="cta-sub">{bidi(s["body"]).replace(chr(10), "<br>")}</p>
+{sub}
 </div></body>'''
+
+    # pattern-break slide (owner order Aug 18): solid orange, huge dark type
+    if s["type"] == "content" and s.get("layout") == "break":
+        body = (f'<p class="body">{bidi(s["body"]).replace(chr(10), "<br>")}</p>'
+                if (s.get("body") or "").strip() else "")
+        return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
+<body class="break">
+<div class="mast-top">{masthead()}</div>
+<div class="frame">
+<h1>{s["headline"]}</h1>{body}</div></body>'''
 
     # profile-card content slide (@techskills anatomy, owner example Aug 1)
     if s["type"] == "content" and s.get("layout") == "card":

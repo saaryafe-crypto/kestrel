@@ -118,7 +118,12 @@ jobs:
           # THIRD RUNG (run 30752019189, Aug 2: both rungs failed QA 3x and the
           # slot died): one more fresh edu.py roll — a new sample usually passes
           if [ "$KIND" = "edu" ]; then
-            python edu.py | tee /tmp/write.log || python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            # EXECUTIVE LANE (owner order Aug 18): the 13:00 slot alternates
+            # daily — even day-of-year = executive intelligence edition
+            # (framework posts for founders/CEOs), odd = skills save-magnet.
+            # Fallback rungs run in default skills mode (always-post law).
+            if [ $((10#$(date -u +%j) % 2)) -eq 0 ]; then export EDU_MODE=exec; fi
+            python edu.py | tee /tmp/write.log || EDU_MODE= python write.py | tee /tmp/write.log || EDU_MODE= python edu.py | tee /tmp/write.log
           elif [ "$KIND" = "money" ]; then
             STORY_PREF=money python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           else

@@ -122,6 +122,37 @@ INSTANT KILL — no other rule can save these:
 - STORY SPINE on every post: belief → event at human scale → twist (own
   slide) → fallout, protagonist named, the dinner-detail scene gets its own
   slide.
+- SLIDE 2 IS A SECOND HOOK (owner order Aug 18 — "the second post to the last
+  one, they're just so boring"): slide 2's job is to RE-SELL the swipe, not to
+  start delivering. Its headline must stop the scroll standalone (IG re-serves
+  skipped carousels with slide 2 up front) and must ESCALATE the cover's
+  question without spending the payoff. A slide 2 that reads like "the details"
+  is a REJECT.
+- THE SHUFFLE TEST (hard gate): if the middle slides could be read in any
+  order without confusion, the post is a listicle wearing a story's clothes —
+  REJECT. Each slide must be impossible to understand without the one before.
+- OPEN LOOP AT EVERY BOUNDARY, with a NAMED gap: every slide's last line
+  creates a specific itch ("Then the numbers came in") that the NEXT headline
+  scratches. No slide ends settled except the last. A body that closes its own
+  fact is a closed door — the swipe dies there.
+- 1/3/1 RHYTHM PER SLIDE: one short punch line → the meat (2-3 spoken
+  sentences max) → one open line that tees the next slide. A slide that is all
+  meat reads flat; a slide that is all punch is empty.
+- THE "YOU" CADENCE: every 2-3 slides, one sentence speaks straight to the
+  reader ("your accountant", "you'd have lost $230 by lunch"). Three
+  consecutive slides with zero second person = the reader is watching, not in
+  the story — REJECT.
+- ONE PATTERN-BREAK SLIDE mid-carousel (~slide 4-5): a full visual interrupt —
+  inverted colors, ONE giant number or a ≤6-word statement filling the frame
+  (layout "break"). It carries the story's single wildest figure and re-hooks
+  tired swipers. Exactly one per post; never first two, never last two.
+- THE SAVE CLOSE (owner order Aug 18 — SUPERSEDES the Aug 1 follow-conversion
+  closer): the last slide is built to be SAVED, never a generic "follow us".
+  It is a one-screen recap/checklist that MIRRORS the cover: headline =
+  save-command restating the cover's claim; body = the story's 3-5 beats as
+  short checklist lines. The follow ask lives ONLY in the small pill the
+  renderer adds. Saves are a top ranking signal and the recap is why they tap
+  it.
 - NEW FACT PER SLIDE: a body never repeats its own headline's number; no two
   slides carry the same fact.
 - FELT SCALE: finance-wire vocabulary banned on slides; translate everything
@@ -131,6 +162,11 @@ INSTANT KILL — no other rule can save these:
   no news-agency register ("announced", "unveiled", "according to").
 - COVER CONTRACT: whatever frame the cover promises, every slide cashes that
   frame explicitly.
+- FRAMEWORK POSTS (the executive lane, owner order Aug 18): when the post
+  teaches a play rather than telling news, it carries ONE NAMED framework
+  ("THE 2,600-DESK RULE") — executives save frameworks, not tips. Minimum
+  words, oversized numbers, Visualize-Value register: one idea per slide,
+  carried by type, not paragraphs.
 
 ## 5. TRUTH LAW — non-negotiable
 
