@@ -1,0 +1,97 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A ROBOT IS ALREADY UNDERCUTTING YOUR PRICES. <em>5 PROMPTS TO WIN ANYWAY</em>",
+   "kicker": "3 HOME JOBS. 1 ROBOT. NOW.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-19-edu-5-ai-prompts-that-robot-proof-your-busin/gen-0.jpg",
+   "image_prompt": "Dario Amodei triumphant, waist-up, holds a laminated card stamped 'SHIELD' chest-high toward camera with both hands; a crumpled silver robot sparks and smokes at his feet on a dark workshop floor; the Claude logo exactly as in the reference image glows warm orange neon on the wall behind him; raking orange industrial key light; documentary news photo, 35mm, harsh on-camera flash, natural skin texture, film grain. Accent: burnt orange against charcoal steel."
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND WHICH OF YOUR SERVICES <em>A ROBOT UNDERCUTS FIRST</em>",
+   "body": "A robot now drives, vacuums, and mows lawns. <b>3 job categories</b>, already gone. 'List every service I offer and rate how easily a robot replaces each one.'",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) WRITE THE PITCH <em>ROBOTS CAN'T COMPETE WITH</em>",
+   "body": "iRobot's top vacuum costs <b>$799</b>. It still can't read a client's mood or adjust mid-job. That gap is your pitch. 'Write 3 sentences on why my [business] requires human judgment no robot can replace.'",
+   "hsize": 104,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) PRICE YOUR SERVICES <em>ABOVE WHAT A ROBOT CHARGES</em>",
+   "body": "Robot mowers sell for <b>$1,500</b> once. If you explain why your service costs more, you keep the client. 'I offer [service]. A robot costs [price]. Give me 5 reasons my clients pay more.'",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3 HOME JOBS. 1 ROBOT.",
+   "hsize": 80,
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD YOUR OWN AUTOMATION <em>BEFORE ROBOTS DO IT FOR YOU</em>",
+   "body": "Robot services start at the customer layer. The ones that survive cut costs before robots do. 'Here is my daily workflow: [paste steps]. Show me what free AI tools can automate this week.'",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) HIRE FOR THE SKILLS <em>NO ROBOT HAS BUILT YET</em>",
+   "body": "Waymo's robot drives the car. It still can't handle a nervous passenger mid-trip. That gap is your hiring brief. 'Write a job ad for [role] built around what only a human can do.'",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 PROMPTS THAT ROBOT-PROOF YOUR BUSINESS</em>",
+   "body": "Find which services robots undercut first\nWrite the pitch robots can't compete with\nPrice above what robots charge\nMap what to automate first\nHire for skills robots can't copy\n\nDaily AI news + skills",
+   "hsize": 90,
+   "media": null
+  }
+ ],
+ "caption": "Swipe before your competitor does. \ud83e\udd16 Robots now drive, vacuum, and mow lawns. Here are 5 AI prompts that show where your business is exposed first.\n\nPrompt 1 finds which of your services a robot undercuts first, Prompt 2 writes your human-advantage pitch, Prompt 3 prices your services above what a robot charges, Prompt 4 maps what to automate before robots do it, Prompt 5 writes a job ad built on the skills robots don't have yet.\n\nRobots now handle driving, cleaning, and lawn work. Three job categories got cheaper by machine overnight. Business owners who wait will find clients have already moved. These prompts use AI to stay ahead. Running a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: Waymo, iRobot, Husqvarna\n\n#artificialintelligence #businessowners #aitools #futureofwork #productivity",
+ "pinned_comment": "Which service do you think a robot will undercut in your industry first? Drop it below. Slide 2's prompt tells you exactly how exposed you are.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 AI PROMPTS THAT <em>MAKE YOUR BUSINESS ROBOT-PROOF</em>",
+   "5 PROMPTS THAT SHOW <em>WHICH OF YOUR JOBS GOES FIRST</em>",
+   "5 PROMPTS THAT FIND <em>WHERE ROBOTS TAKE YOUR CLIENTS NEXT</em>"
+  ],
+  "scores": [
+   3,
+   6,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] hits harder because it makes every person wonder which of THEIR jobs dies first\u2014it's personal and universally terrifying. [0] sounds like ignored business spam, and [2] assumes you own a business and feels less immediately urgent."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "A ROBOT IS ALREADY UNDERCUTTING YOUR PRICES. <em>5 PROMPTS TO WIN ANYWAY</em>",
+   "ROBOTS DO YOUR WORK FOR FREE. <em>5 PROMPTS THAT MAKE YOUR RATES UNTOUCHABLE</em>"
+  ],
+  "scores": [
+   7,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] creates real urgency with 'already undercutting'\u2014it sounds like a threat happening RIGHT NOW to you specifically, making you stop to see the proof. [1] sounds like generic motivational copy about what robots could do someday, which doesn't grab the same way."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on cover: the man holding the SHIELD card is a generated non-famous person. \u00a73 hard ban: 'Never a generated unknown face.' The cover must be replaced with the real product (iRobot/Waymo/robot mower in action), a recognizable famous person whose role connects to the story, or a staged scene that proves the hook \u2014 not a fabricated spokesperson.; IMAGE LAW \u2014 Claude ",
+ "topic_source": "news-anchored"
+}
