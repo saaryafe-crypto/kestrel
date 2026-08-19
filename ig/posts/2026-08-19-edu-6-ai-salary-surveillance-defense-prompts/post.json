@@ -1,0 +1,109 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR SALARY OFFER WAS CALCULATED AGAINST YOU. <em>6 AI PROMPTS</em> TO FIGHT BACK.",
+   "kicker": "THEY ALREADY KNOW WHAT YOU'LL ACCEPT",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-19-edu-6-ai-salary-surveillance-defense-prompts/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up at a casino-green felt poker table, both hands fanning a spread of printed salary benchmark sheets like a winning poker hand, one eyebrow arched and a quiet confident half-smile, a sealed job offer envelope stamped \"COUNTER\" in bold red lying face-down on the felt as a secondary prop. Deep navy casino interior, warm amber pendant lights overhead, the Claude logo exactly as in the reference image glowing as a large backlit acrylic sign on the dark wall behind him. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Zero readable words \u2014 papers show only bold $ symbols, bar charts, and bracket lines. Accent: warm amber pendant glow against deep navy."
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND YOUR REAL RATE <em>BEFORE THEY NAME A NUMBER</em>",
+   "hsize": 80,
+   "body": "<b>Compensation analytics firms</b> sell salary benchmarks to employers before any interview. Your number is often set before you walk in the door.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) DECODE WHAT <em>THEIR SALARY RANGE ACTUALLY MEANS</em>",
+   "hsize": 96,
+   "body": "A <b>$60,000 to $140,000</b> posting is designed to attract every level of candidate. Most offers land in the <b>bottom third</b>. The real budgeted number is narrower.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) PULL THE REAL NUMBER <em>BEHIND THEIR RANGE</em>",
+   "hsize": 100,
+   "body": "Before your negotiation, you want <b>one specific anchor</b>, not a <b>30-point spread</b>. One prompt finds the number the company actually budgeted for this seat.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>YOUR OFFER WAS CALCULATED</em>",
+   "hsize": 120,
+   "pattern_break": true,
+   "body": "Per MarketWatch this week: employers are using your <b>personal data</b> to calculate the <b>lowest salary you'll accept</b>. Not a guess, a model built on your financial history and how urgently you need income.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) WRITE THE COUNTER-OFFER <em>THEY CAN'T DISMISS</em>",
+   "hsize": 100,
+   "body": "Most people counter with a gut number and hope. This prompt builds the argument from <b>market data they didn't model</b> when they wrote your offer.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) FIND THE HIDDEN CLAUSES <em>THAT CUT YOUR PAY</em>",
+   "hsize": 96,
+   "body": "<b>Clawback provisions</b>, <b>vesting cliffs</b>, and non-solicitation terms reduce your effective salary. Most people sign without noticing. Claude reads the whole letter in under a minute.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) KILL THE SALARY HISTORY TRAP <em>BEFORE IT ANCHORS YOU</em>",
+   "hsize": 80,
+   "body": "<b>21 states</b> have banned asking for salary history. Interviewers still find ways to get the number, and once you give it, it becomes the floor.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> 6 AI SALARY DEFENSE PROMPTS",
+   "hsize": 90,
+   "body": "1. Find your real rate first\n2. Decode their salary range\n3. Pull the real budgeted number\n4. Write the counter they can't dismiss\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 AI prompts employers don't want you to have. \ud83d\udd11 Companies are buying your personal data to calculate the lowest salary you'll accept.\n\nFind your true market rate before they name a number, decode what the posted range actually means, pull the real budgeted number behind their range, write a counter-offer anchored to market data, find every hidden clause that cuts your pay, and kill the salary history question before it sets your anchor.\n\nPer MarketWatch this week, employers are using personal data to reverse-engineer the lowest offer each candidate will accept. These prompts pull from the same market data and build your counter before they name a number. Running a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: MarketWatch\n\n#AIprompts #salary #negotiation #careertips #artificialintelligence",
+ "pinned_comment": "Which prompt are you running first? Prompt 3 is the one most people skip until after they've already signed.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS EMPLOYERS <em>DON'T WANT YOU TO HAVE</em>",
+   "<em>6 AI SALARY PROMPTS</em> YOUR BOSS HOPED YOU'D NEVER FIND",
+   "6 PROMPTS THAT FLIP <em>EMPLOYER SALARY DATA</em> AGAINST THEM"
+  ],
+  "scores": [
+   6,
+   8,
+   7
+  ],
+  "winner": 1,
+  "why": "Option [1] hits hardest because 'your boss HOPED' creates personal drama and urgency at 2am that makes you stop scrolling\u2014you feel like you found something someone actually didn't want you to see. Option [2] is clear and actionable but emotionally flat; option [0] is too generic."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 AI SALARY PROMPTS</em> YOUR BOSS HOPED YOU'D NEVER FIND",
+   "<em>6 AI PROMPTS</em> THAT PULL THE REAL NUMBER YOUR EMPLOYER IS HIDING",
+   "<em>6 AI PROMPTS</em> MOST PEOPLE NEVER FIND UNTIL THEY'VE ALREADY SIGNED",
+   "YOUR SALARY OFFER WAS CALCULATED AGAINST YOU. <em>6 AI PROMPTS</em> TO FIGHT BACK."
+  ],
+  "scores": [
+   7,
+   7.5,
+   8,
+   8.5
+  ],
+  "winner": 3,
+  "why": "\"Calculated against you\" + \"fight back\" creates immediate wronged-anger that stops scrollers faster than #2's regret-FOMO. Betrayal and agency beat hindsight."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "IMAGE LAW HARD VIOLATION: The cover shows a generated unknown male face. \u00a73 is explicit \u2014 'Never a generated unknown face.' This alone kills the post. The cover needs a famous recognizable person whose story connects to salary negotiation, or a real event photo.; PROMPTS NEVER SHOWN: \u00a71 requires utility 'taught in full on the slides, never just claimed.' Every slide describes WHAT a prompt does bu",
+ "topic_source": "news-anchored"
+}
