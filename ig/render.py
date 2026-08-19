@@ -263,12 +263,36 @@ function fitLines(h){
   });
   meas.remove();
   h.innerHTML='';
-  lines.forEach(function(ln,i){
+  var divs=lines.map(function(ln,i){
     var d=document.createElement('div');
     d.style.whiteSpace='nowrap';
     d.style.fontSize=(base*scales[i])+'px';
     d.innerHTML=ln.map(function(w){return w.em?'<em>'+w.t+'</em>':w.t}).join(' ');
     h.appendChild(d);
+    return d;
+  });
+  /* INK GUARD (Aug 19 post-mortem: two long edu covers shipped with "$10,000"
+     and comma descenders printed ON TOP of the next line): line-height .87 is
+     the designed tight tabloid stack and stays, but real glyph ink — measured
+     via canvas TextMetrics — must never collide. Push a line down by exactly
+     the overlap (plus 2px air) only when the pair would actually touch, so
+     clean all-caps stacks keep the tight look unchanged. */
+  var cvs=document.createElement('canvas').getContext('2d');
+  var prevInk=null,prevBox=null;
+  divs.forEach(function(d){
+    var f=parseFloat(d.style.fontSize),cs=getComputedStyle(d);
+    cvs.font=cs.fontWeight+' '+f+'px '+cs.fontFamily;
+    var m=cvs.measureText(d.textContent);
+    if(m.fontBoundingBoxAscent===undefined)return; // old engine: no guard
+    var box=d.getBoundingClientRect().height;
+    var half=(box-(m.fontBoundingBoxAscent+m.fontBoundingBoxDescent))/2;
+    var baseline=half+m.fontBoundingBoxAscent;
+    if(prevInk!==null){
+      var over=prevInk+2-prevBox-(baseline-m.actualBoundingBoxAscent);
+      if(over>0)d.style.marginTop=over+'px';
+    }
+    prevInk=baseline+m.actualBoundingBoxDescent;
+    prevBox=box;
   });
 }
 /* scrim(): after text layout, size the photo band and anchor the dark

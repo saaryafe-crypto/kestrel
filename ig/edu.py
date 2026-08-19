@@ -270,6 +270,17 @@ def main():
                          r"|chat\.com|claude\.ai)", s.get("body", "")):
                 e.append(f"slide {i+1}: app-navigation steps are banned — "
                          "give the self-contained prompt itself, in quotes")
+        # COVER HARD CAP made mechanical (Aug 19 post-mortem: two 19-20 word
+        # covers shipped despite the prompt's "HARD CAP 10 words" — prompt
+        # rules without a gate are suggestions). The cover sells curiosity;
+        # short = giant letters. Cap 12 (10 + slack for $-amounts counting
+        # as words) so the gate rejects runaways, not near-misses.
+        cov = (p.get("slides") or [{}])[0]
+        cwords = len(re.sub(r"<[^>]+>", " ", cov.get("headline") or "").split())
+        if cwords > 12:
+            e.append(f"cover headline is {cwords} words — HARD CAP is 10 "
+                     "(aim 5-8): cut it to the N-promise itself, move the "
+                     "story detail to slide 2")
         # save-close recap (owner order Aug 18): the CTA is a one-screen
         # checklist of the N promised items, never a generic closer
         slides = p.get("slides") or [{}]
@@ -362,6 +373,16 @@ def main():
     else:
         raise SystemExit("QA gate failed after 2 attempts")
 
+    # the tournament swaps its winner onto the cover AFTER the qa loop —
+    # drop over-cap candidates first or the 10-word gate above is bypassed
+    # by the very mechanism meant to pick the best hook (Aug 19 post-mortem)
+    # (all over-cap -> empty list -> tournament keeps the qa-approved cover
+    # and flags "no-valid-winner" for the daily report — never a bypass)
+    def _cwords(c):
+        head = c.get("headline") if isinstance(c, dict) else c
+        return len(re.sub(r"<[^>]+>", " ", head or "").split())
+    post["hook_candidates"] = [
+        c for c in post.get("hook_candidates", []) if _cwords(c) <= 12]
     post = viral.tournament(post, None, {  # value posts: fixed classification
         "story_type": "edu_value", "actor": "", "actor_known": True,
         "anchor": "", "specifics": []})

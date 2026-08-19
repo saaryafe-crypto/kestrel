@@ -238,12 +238,35 @@ function fitLines(h){
   });
   meas.remove();
   h.innerHTML='';
-  lines.forEach(function(ln,i){
+  var divs=lines.map(function(ln,i){
     var d=document.createElement('div');
     d.style.whiteSpace='nowrap';
     d.style.fontSize=(base*scales[i])+'px';
     d.innerHTML=ln.map(function(w){return w.em?'<em>'+w.t+'</em>':w.t}).join(' ');
     h.appendChild(d);
+    return d;
+  });
+  /* INK GUARD (ported from render.py, Aug 19 post-mortem: descenders printed
+     ON TOP of the next line on long multi-line covers — Hebrew has real
+     descenders too: ך ן ף ץ ק). The tight stack stays; real glyph ink,
+     measured via canvas TextMetrics, must never collide — push a line down
+     by exactly the overlap (plus 2px air) only when the pair would touch. */
+  var cvs=document.createElement('canvas').getContext('2d');
+  var prevInk=null,prevBox=null;
+  divs.forEach(function(d){
+    var f=parseFloat(d.style.fontSize),cs=getComputedStyle(d);
+    cvs.font=cs.fontWeight+' '+f+'px '+cs.fontFamily;
+    var m=cvs.measureText(d.textContent);
+    if(m.fontBoundingBoxAscent===undefined)return; // old engine: no guard
+    var box=d.getBoundingClientRect().height;
+    var half=(box-(m.fontBoundingBoxAscent+m.fontBoundingBoxDescent))/2;
+    var baseline=half+m.fontBoundingBoxAscent;
+    if(prevInk!==null){
+      var over=prevInk+2-prevBox-(baseline-m.actualBoundingBoxAscent);
+      if(over>0)d.style.marginTop=over+'px';
+    }
+    prevInk=baseline+m.actualBoundingBoxDescent;
+    prevBox=box;
   });
 }
 /* scrim(): same engine as render.py. COVER (owner Aug 1): black band starts
