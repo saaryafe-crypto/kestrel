@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 BIOTECH STOCK PROMPTS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "kicker": "Moderna just jumped 110% overnight",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-19-edu-6-stock-research-prompts-moderna-110-can/gen-0.jpg",
+   "image_prompt": "Dario Amodei at late-night diner counter, quiet satisfaction, eyes to camera, hand holding printed report, laptop glowing with rising chart. Warm amber tungsten light, navy booth. Documentary 35mm, harsh flash, natural skin, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>READ ANY DRUG TRIAL</em> LIKE A WALL STREET ANALYST",
+   "hsize": 100,
+   "body": "Moderna's Phase 3 release was dense <b>clinical data</b>. Most investors couldn't parse it. \"Here are [company]'s trial results. Tell me what they mean for the <b>stock price</b> in plain English.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>FIND EVERY RED FLAG</em> BEFORE YOU BUY",
+   "hsize": 104,
+   "body": "Most earnings surprises hide in footnotes. You miss them every time. \"Here is [company]'s annual report. List every <b>red flag</b> that could cause the stock to fall. Rank by <b>severity</b>.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>MAP THE WHOLE SECTOR</em> IN 60 SECONDS",
+   "hsize": 104,
+   "body": "After any stock moves 100%, its whole sector shifts. \"[Company]'s stock just moved <b>110%</b>. Name the <b>5 companies</b> in the same sector most affected and whether each wins or loses.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>BUILD A FULL ANALYST REPORT</em> IN 5 MINUTES",
+   "hsize": 96,
+   "body": "A <b>Bloomberg Terminal</b> costs $24,000 a year. These 5 minutes are free. \"Write a one-page analyst report on [company]. Cover what they do, key risks, biggest upside, and a <b>bear case</b>.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>FIND THE COMPETITOR</em> THAT BENEFITS NEXT",
+   "hsize": 104,
+   "body": "When a biotech wins Phase 3, related companies often spike within days. \"<b>Moderna</b> just won a cancer vaccine trial. Name <b>3 other biotech companies</b> that might benefit from this and why.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>STRESS-TEST YOUR THESIS</em> BEFORE YOU BUY",
+   "hsize": 104,
+   "body": "Most investors only look for reasons to buy. That is why they lose. \"I believe [company] is a strong buy because [your reason]. Give me the <b>3 strongest arguments</b> against this thesis.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 6 STOCK RESEARCH PROMPTS</em>",
+   "hsize": 88,
+   "body": "1. Translate trial results into a thesis\n2. Find red flags before buying\n3. Map the whole sector in 60s\n4. Build a full analyst report, free\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. \ud83d\udcc8 Moderna surged 110% on news most investors couldn't read. These 6 prompts make any stock report readable in 30 seconds.\n\nTranslate drug trial results into a plain-English trade thesis, find every financial red flag before you buy, map the whole sector in 60 seconds to see who wins and loses, build a complete analyst report in 5 minutes for free, find the competitor that benefits from someone else's win, stress-test your own thesis before you put money in.\n\nModerna's 110% single-day move happened because most investors couldn't parse the clinical trial data. The ones who moved early could. Now you can get the same read in 30 seconds for free.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Moderna\n\n#AItools #stockmarket #investing #ChatGPT #AIprompts",
+ "pinned_comment": "Which prompt are you trying first? Slide 5 is the sleeper one most investors ignore, and it is where the money usually hides.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT READ STOCKS <em>LIKE A HEDGE FUND ANALYST</em>",
+   "6 PROMPTS THAT <em>FIND THE NEXT BIOTECH WINNER</em> FOR FREE",
+   "6 PROMPTS THAT <em>RESEARCH ANY STOCK</em> LIKE WALL STREET"
+  ],
+  "scores": [
+   6,
+   8,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] has the specificity ('next biotech winner') plus the unexpected value prop ('free') that makes you actually pause\u2014[0] and [2] are just generic stock research tutorials everyone's heard a thousand times."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT <em>FIND THE NEXT BIOTECH WINNER</em> FOR FREE",
+   "6 PROMPTS THAT READ BIOTECH <em>LIKE A WALL STREET ANALYST</em>",
+   "6 BIOTECH STOCK PROMPTS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "6 PROMPTS THAT BUILD <em>AN ANALYST REPORT IN 5 MINUTES</em>"
+  ],
+  "scores": [
+   5,
+   4,
+   7,
+   5
+  ],
+  "winner": 2,
+  "why": "The word 'FEEL ILLEGAL' makes you actually stop scrolling\u2014it's a genuine pause moment that triggers curiosity, not a polished marketing promise. The runners-up all sound like generic finance advice copy; this one sounds like someone bragging about something they shouldn't."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW \u2014 GENERATED UNKNOWN FACE ON COVER: The cover shows an anonymous AI-generated man holding a Moderna report. The doctrine is explicit: 'Never a generated unknown face.' The cover must show a recognizable famous person, the real product with its brand mark, or actual event footage. Fix: rebuild cover around the Moderna brand mark / real stock chart visual, no human face, or a named famous i",
+ "topic_source": "news-anchored"
+}
