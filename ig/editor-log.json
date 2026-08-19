@@ -1,103 +1,5 @@
 [
  {
-  "t": "2026-08-13T23:36:56Z",
-  "gate": "A",
-  "subject": "My favorite capture of the night: The moment the moon's shadow split the sunset in half, leaving a diamond ring in the s",
-  "verdict": "KILL",
-  "reason": "Pure aesthetic astronomy content with no real-world event or consequence; off-brand for the page and fails to meet story qualification—something must happen with felt impact, not just a photograph earning likes."
- },
- {
-  "t": "2026-08-13T23:36:59Z",
-  "gate": "A",
-  "subject": "ChatGPT can now remember your activity across the apps and websites on your computer. With Computer History in the deskt",
-  "verdict": "KILL",
-  "reason": "This is a thin product announcement (launch preview), not a story — no real-world consequence, no numbers, no person doing something outrageous, exactly the on-topic-but-routine format the doctrine bans, and the 3/10 scout score confirms it lacks the viral-specific event that earns a slot."
- },
- {
-  "t": "2026-08-13T23:37:01Z",
-  "gate": "A",
-  "subject": "In making 𝕏 open source, we are actively seeking criticism to improve fairness and quality of algorithmic recommendation",
-  "verdict": "KILL",
-  "reason": "One-sentence announcement with no real event or consequence; writer would have to pad."
- },
- {
-  "t": "2026-08-13T23:37:14Z",
-  "gate": "A",
-  "subject": "BREAKING: 𝕏 wins lawsuit against Australia’s eSafety Commissioner. Elon Musk’s 𝕏 has secured a major victory in Australi",
-  "verdict": "KILL",
-  "reason": "Regulatory ruling without felt consequence—readers don't send lawsuit victories to friends, and 4/10 scout score provides no exceptional reason to override."
- },
- {
-  "t": "2026-08-13T23:37:44Z",
-  "gate": "A",
-  "subject": "\"Canadians spent more on taxes than basic necessities in 2025,\" per Toronto Sun",
-  "verdict": "KILL",
-  "reason": "Single-claim statistic with no person, event, or consequence—nothing to build slides from but invented padding."
- },
- {
-  "t": "2026-08-13T23:37:51Z",
-  "gate": "A",
-  "subject": "BREAKING: The US Government officially posts its largest July budget deficit in history, at -$432 billion, due to an acc",
-  "verdict": "KILL",
-  "reason": "Routine monthly government fiscal report masquerading as breaking news—exactly the ON-TOPIC BUT ROUTINE instant-kill (market wraps, data releases); no reader DMs this to a friend, and the scout score of 1/10 confirms the pipeline sees zero story here."
- },
- {
-  "t": "2026-08-13T23:38:02Z",
-  "gate": "A",
-  "subject": "In 2015, a Virginia jury awarded $500,000 to a patient whose phone accidentally recorded his medical team while he was u",
-  "verdict": "KILL",
-  "reason": "Scout interest 1/10 on a 2015 medical lawsuit with zero connection to tech/AI—fails brand fit and the ownership-standard test."
- },
- {
-  "t": "2026-08-13T23:38:07Z",
-  "gate": "A",
-  "subject": "BREAKING: Reddit stock, $RDDT, surges over +11% on news that the company is being added to the S&amp;P 500.",
-  "verdict": "KILL",
-  "reason": "Stocks-rose-today routine market news: mechanical stock move from an index addition with zero human story."
- },
- {
-  "t": "2026-08-13T23:38:24Z",
-  "gate": "A",
-  "subject": "The print looks insane",
-  "verdict": "KILL",
-  "reason": "No substance: 22-character source with zero facts, numbers, or consequence; writer would have to pad; reaction-bait masquerading as a story (people liking a vague comment about an unseen print), not a real event."
- },
- {
-  "t": "2026-08-13T23:38:30Z",
-  "gate": "A",
-  "subject": "Gemini 3.7 Flash is here. It’s stronger for coding, knowledge work, and web development. 🧵",
-  "verdict": "KILL",
-  "reason": "Launch preview (explicitly banned) with no substance—a 90-character announcement offers no numbers, consequence, or viral-specific event; the source has nothing behind it to build slides from."
- },
- {
-  "t": "2026-08-13T23:38:43Z",
-  "gate": "A",
-  "subject": "𝕏 is the most transparent platform on the internet. I was able to see if my account or posts were being suppressed, unde",
-  "verdict": "KILL",
-  "reason": "No real-world event or consequence—this is feature coverage masquerading as transparency critique, fitting the 'on-topic-but-routine' instant-kill category with zero numbers or facts to build multiple slides."
- },
- {
-  "t": "2026-08-13T23:39:05Z",
-  "gate": "A",
-  "subject": "Less than 48 hours ago, SpaceXAI dropped Grok 4.6. People are already building crazy stuff with it. 10 wild examples:",
-  "verdict": "KILL",
-  "reason": "Banned launch preview: product announcement with no real consequence, specific outcome, or substance—just a claim that people are using a new tool, and a 2/10 scout score signals correctly that no story event occurred."
- },
- {
-  "t": "2026-08-13T23:39:25Z",
-  "gate": "A",
-  "subject": "The mother complained that her son was not sleeping well, so the father filmed a video to find out why.",
-  "verdict": "KILL",
-  "reason": "No substance: the 103-character source is a setup without a payoff—what did the father find? Why does it matter?—with no consequence or second fact; the writer would have to fabricate to fill slides."
- },
- {
-  "t": "2026-08-13T23:39:31Z",
-  "gate": "A",
-  "subject": "Eclipse viewed from a fighter jet [📹 gizmotrevino]",
-  "verdict": "KILL",
-  "reason": "No substance: source is a 50-character tweet with zero supporting facts, actor name, numbers, or consequence—a writer would have to fabricate every slide, and the story is pure astronomy spectacle with no tech/business angle."
- },
- {
   "t": "2026-08-13T23:39:33Z",
   "gate": "A",
   "subject": "🇬🇧🇷🇺 Tucker dropped a comparison that should make every free person stop cold: Britain throws three times as many people",
@@ -2098,5 +2000,103 @@
   "subject": "Israeli are launching a full blown AI propaganda attack in Greece",
   "verdict": "KILL",
   "reason": "No substance: the source is one thin tweet—claim only, zero facts, numbers, or real-world consequence documented; writer would have to pad or assume details that aren't provided."
+ },
+ {
+  "t": "2026-08-18T23:27:22Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 CFTC Chair Mike Selig says \"for years, anti-crypto armies, doomers, and decelerationists stifled innovation.",
+  "verdict": "KILL",
+  "reason": "One thin quote from a bureaucrat with zero real consequence, no second fact, no numbers, and no actionable event—pure regulatory positioning stated as news, fails NO SUBSTANCE and ON-TOPIC-BUT-ROUTINE, and the scout score of 2 has no exception that justifies spending writing resources here."
+ },
+ {
+  "t": "2026-08-18T23:27:23Z",
+  "gate": "A",
+  "subject": "Mila Kunis is now 43 years old. She voiced Meg Griffin on Family Guy since she was just 15 years old. Mila Kunis has voi",
+  "verdict": "KILL",
+  "reason": "No story: this is celebrity trivia about a career span with no real-world event or consequence—just a restatement that someone did a job for 25 years."
+ },
+ {
+  "t": "2026-08-18T23:27:52Z",
+  "gate": "A",
+  "subject": "JUST IN 🚨: U.S. 30-Year Treasury Yield hits 5.30% for the first time since the run-up to the Global Financial Crisis 🤯 👀",
+  "verdict": "KILL",
+  "reason": "One-tweet market factoid with no human consequence, person, or utility—instant kill on ON-TOPIC BUT ROUTINE and NO SUBSTANCE."
+ },
+ {
+  "t": "2026-08-18T23:27:56Z",
+  "gate": "A",
+  "subject": "BREAKING: US interest expense on the national debt hit a record $1.4 trillion over the last 12 months. Since 2020, the c",
+  "verdict": "KILL",
+  "reason": "Macro-economic trend data with no person, event, or felt consequence — fails STORY LAW (requires something that happened in the real world) and reads as routine financial analysis the doctrine explicitly bans."
+ },
+ {
+  "t": "2026-08-18T23:28:18Z",
+  "gate": "A",
+  "subject": "Someone needs to tell Clavicular that showing you can touch the ceiling stopped being an alpha move sometime after kinde",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: a single joke tweet with 16,946 likes but zero real-world consequence, no second fact, no numbers to build from — exactly the junk model that shipped the two worst posts ever."
+ },
+ {
+  "t": "2026-08-18T23:28:23Z",
+  "gate": "A",
+  "subject": "Before filming Project X in 2012, the producers had the cast spend several weeks together to make their friendships “fee",
+  "verdict": "KILL",
+  "reason": "No substance: a retrospective anecdote about routine 2012 filmmaking practice with zero numbers, zero consequence, and zero current event—fails the story law entirely."
+ },
+ {
+  "t": "2026-08-18T23:28:31Z",
+  "gate": "A",
+  "subject": "\"We want to make Starfleet Academy real. Let's go out there and visit other star systems and see if there are alien civi",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the only event is Elon's tweet and its engagement metrics (1,218 likes); no real-world announcement, project launch, or consequence—nothing to build slides from except his words."
+ },
+ {
+  "t": "2026-08-18T23:28:35Z",
+  "gate": "A",
+  "subject": "BREAKING: Tesla has just announced that anyone who completes a Robotaxi ride through August 23 will have a chance to att",
+  "verdict": "KILL",
+  "reason": "One-fact promotion with no real event or consequence—fits instant-kill categories 'no substance' and 'launch preview.'"
+ },
+ {
+  "t": "2026-08-18T23:28:56Z",
+  "gate": "A",
+  "subject": "Dad pranks his daughter with fake interview.",
+  "verdict": "KILL",
+  "reason": "One thin tweet with nothing behind it — no second fact, numbers, or consequence; writer would have to fabricate slides entirely."
+ },
+ {
+  "t": "2026-08-18T23:28:57Z",
+  "gate": "A",
+  "subject": "sorry, what?! What the frick...?!",
+  "verdict": "KILL",
+  "reason": "Zero substance: a vague 33-character exclamation with no underlying event, fact, consequence, or story to build from—pure reaction-bait engagement metrics, fails no-substance instant kill."
+ },
+ {
+  "t": "2026-08-18T23:28:58Z",
+  "gate": "A",
+  "subject": "The sheer size of a polar bear",
+  "verdict": "KILL",
+  "reason": "One thin tweet with zero substance, no event or consequence, and pure animal content unrelated to tech/business — fails Story Law on no-substance and off-brand grounds; scout interest 0/10 signals no audience here."
+ },
+ {
+  "t": "2026-08-18T23:29:00Z",
+  "gate": "A",
+  "subject": "Japanese Yen has already weakened so much that the U.S. Treasury intervention has been wiped out completely, now onto th",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet (142 chars) with no numbers, no named people, no human consequence—routine forex market commentary, not a story."
+ },
+ {
+  "t": "2026-08-19T00:55:29Z",
+  "gate": "B",
+  "subject": "6 AI TAX DEDUCTIONS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — GENERATED UNKNOWN FACE ON COVER: §3 explicitly bans 'a generated unknown face.' The cover shows a generated man with an accountant's visor and cash stacks. The scene reads well at feed size but the face rule is absolute. Fix: reshoot the cover with no face (top-down desk shot: receipts, a phone showing Claude, stacked cash) or a recognizable famous face tied to the story.; HOOK LAW — L"
+ },
+ {
+  "t": "2026-08-19T01:04:57Z",
+  "gate": "B",
+  "subject": "A SELF-EMPLOYED OWNER PASTED 3 MONTHS OF STATEMENTS INTO CLAUDE AND FOUND <em>$8,400</em> HER CPA HAD MISSED FOR TWO YEA",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 — generated unknown male face on the cover is explicitly banned ('Never a generated unknown face'). The casino/slot-machine background also fails the thumb test: seen at feed size a stranger reads 'gambling', not 'AI finds missed tax deductions'. The story's protagonist is female; the image shows a male. Regenerate the cover with a female subject in a legible tax/finance setting (lapt"
  }
 ]

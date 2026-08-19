@@ -1,0 +1,113 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A SELF-EMPLOYED OWNER PASTED 3 MONTHS OF STATEMENTS INTO CLAUDE AND FOUND <em>$8,400</em> HER CPA HAD MISSED FOR TWO YEARS.",
+   "kicker": "AI CATCHES THEM IN MINUTES",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-19-edu-6-ai-tax-deduction-prompts-for-business-/gen-0.jpg",
+   "image_prompt": "Dario Amodei in green accountant eyeshade, triumphant grin at camera, red pen in hand, bundled $100 bills visible, warm diner booth, tungsten light, documentary style, sharp focus on face, minimal background."
+  },
+  {
+   "type": "content",
+   "headline": "YOUR ACCOUNTANT READ THESE RECEIPTS. YOU PAID $300 AN HOUR. HE STILL MISSED FOUR.",
+   "body": "She had filed with the same CPA for six years and paid him to review the same records every time. One Claude session found what he missed, prompt by prompt, deduction by deduction.",
+   "hsize": 96,
+   "media": "posts/2026-08-19-edu-6-ai-tax-deduction-prompts-for-business-/gen-1.jpg",
+   "image_prompt": "Overhead close shot: two hands mid-motion spreading printed bank statement pages across a dark navy desk, papers overlapping and half-crumpled, a receipt pile caught mid-scatter at the corner. Laptop screen at upper frame edge glowing with two columns of green checkmark and red X symbols \u2014 no text anywhere. No face, wrists and hands only. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: cool white paper against deep navy desk."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>SCAN YOUR BANK STATEMENTS</em> IN 60 SECONDS",
+   "body": "She pasted three months of statements into Claude and got the same itemized breakdown a CPA bills $150 to $300 an hour to produce, in under a minute, free. Her car expenses were the single largest flagged category.",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>PICK THE VEHICLE DEDUCTION</em> THAT PAYS MORE",
+   "body": "The bank scan flagged her car as the biggest missed category. Most owners default to the IRS mileage rate without running the numbers, but the right choice is often worth $1,500 to $4,000 more in deductions per year.",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "$300/HR. CLAUDE CHARGES NOTHING.",
+   "body": "That is what accountants bill per hour to go through your records. You have already paid for every receipt in this post. You should not also pay someone to read them",
+   "hsize": 120,
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>MAX YOUR RETIREMENT CONTRIBUTION</em> THIS YEAR",
+   "body": "Vehicle math settled. Claude moved to retirement next. A Solo 401k lets a self-employed owner shelter up to $70,000 from taxes in a single year, most underfund it because the contribution math is confusing.",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>CLAIM THE HOME OFFICE</em> THE RIGHT WAY",
+   "body": "Retirement maxed, Claude ran the home office comparison. The simplified method caps the deduction at $1,500 per year. The actual expense method, based on real rent and utilities, often pays three to four times more.",
+   "hsize": 100,
+   "media": "posts/2026-08-19-edu-6-ai-tax-deduction-prompts-for-business-/gen-6.jpg",
+   "image_prompt": "Three-quarter overhead: hands gripping a spiral notepad on a stainless-steel kitchen counter, the open page filled with checkmark symbols and dollar signs \u2014 no readable words. Hanging copper pots and a commercial range blurred warm in the burgundy-tinted background. Figure cut at the wrists, no face. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: cream notepad page against deep burgundy kitchen shadow."
+  },
+  {
+   "type": "content",
+   "headline": "5 & 6) <em>INDUSTRY WRITE-OFFS</em> THEN CALCULATE WHAT YOU OWE",
+   "body": "Home office settled. General CPAs miss the write-offs specific to your industry, construction, food service, and creative fields add $2,000 to $8,000 most owners never claim. Missing a quarterly estimated payment triggers an IRS underpayment penalty at roughly 8% annualized.",
+   "hsize": 96,
+   "media": "posts/2026-08-19-edu-6-ai-tax-deduction-prompts-for-business-/gen-7.jpg",
+   "image_prompt": "Close three-quarter shot: hands pressing a thick red marker ring around one date square on a wall calendar, red ink just bleeding at the edge, the bold circle unmistakably dominant. Below it on the table a laptop screen shows a single large red downward-arrow symbol \u2014 no text. Stark white calendar page, signal red ring. No face. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: signal red circle against stark white calendar page."
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: ALL 6 DEDUCTIONS</em> AI FINDS FREE",
+   "body": "Bank statements: flag every deductible charge\nVehicle: mileage vs. actual, AI calculates both\nRetirement: max your Solo 401k first\nHome office: pick the method that pays more\n\nDaily AI news + real skills",
+   "hsize": 88,
+   "media": null
+  }
+ ],
+ "caption": "Swipe to save. Six prompts that find deductions your accountant charges $300 an hour to look for. \ud83e\uddfe\n\n1) bank statement scan: flag every deductible charge in one prompt, 2) vehicle deduction: AI calculates mileage vs. actual so you pick the bigger one, 3) retirement contribution: max your Solo 401k or SEP-IRA before the year ends, 4) home office: simplified vs. actual calculated side by side, 5) industry deductions: the ones most accountants in your field miss, 6) quarterly tax: calculate what you owe and the moves that still cut it\n\nThe US government now spends $1.4 trillion a year just on debt interest. Rates are staying high and tax pressure on businesses moves one way. The owners who come out ahead claim every legal deduction before the bill arrives. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: IRS.gov, US Treasury, Anthropic\n\n#artificialintelligence #businessowner #taxstrategy #aitools #entrepreneur",
+ "pinned_comment": "Which prompt are you running first tonight? Slide 6 is the one most people skip until it costs them extra.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THE IRS COUNTS ON YOU MISSING <em>THESE 6</em>",
+   "6 FREE PROMPTS THAT FIND YOUR <em>MISSING TAX MONEY</em>",
+   "BUSINESS OWNERS ARE CUTTING TAX BILLS <em>WITH ONE PROMPT</em>",
+   "6 DEDUCTIONS YOUR ACCOUNTANT <em>NEVER FINDS</em>"
+  ],
+  "scores": [
+   7,
+   5,
+   4,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] creates personal stakes by implying your accountant is failing you, making you stop immediately to verify. [0] has intrigue but the 'IRS conspiracy' angle feels like familiar tax clickbait you've seen before."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 DEDUCTIONS YOU'RE <em>PAYING $300 AN HOUR</em> TO MISS",
+   "6 AI TAX DEDUCTIONS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "6 DEDUCTIONS YOUR ACCOUNTANT <em>NEVER FINDS</em>"
+  ],
+  "scores": [
+   7,
+   9,
+   4
+  ],
+  "winner": 1,
+  "why": "\"Feel illegal\" stops you cold with a playful twist that makes you want to swipe for the reveal\u2014it's unexpected language that breaks the generic tax-advice autopilot. [0] hits the wallet hard but lands as standard FOMO; [1] lands as genuine curiosity."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (6/10)",
+ "editor_override": "IMAGE LAW \u00a73 \u2014 generated unknown male face on the cover is explicitly banned ('Never a generated unknown face'). The casino/slot-machine background also fails the thumb test: seen at feed size a stranger reads 'gambling', not 'AI finds missed tax deductions'. The story's protagonist is female; the image shows a male. Regenerate the cover with a female subject in a legible tax/finance setting (lapt",
+ "topic_source": "news-anchored"
+}
