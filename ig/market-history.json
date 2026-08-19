@@ -5,29 +5,14 @@
   "date": "2026-08-05"
  },
  {
-  "page": "technology",
-  "hook": "\"Swipe \u2b05\ufe0f to see the biggest technology and AI developments from the last 24 hours, from Xbox and Apple to SpaceX, Amazon and BMW, all in one place \ud83c\udf0d\u26a1\n\nMicrosoft is bringing Xbox 360 games to PC, Hop.Earth is turning rea",
-  "date": "2026-08-04"
- },
- {
   "page": "futurism",
   "hook": "\"Tech companies are making record amounts of money, posting major gains in the most recent quarter compared to the same period just a year ago.\n\nBut despite all that income, these same companies are struggling to save an",
   "date": "2026-08-05"
  },
  {
-  "page": "futurism",
-  "hook": "\"There\u2019s data center activism, fought with Facebook groups and petitions, and then there\u2019s data center annihilation, fought with guided missile and suicide drones.\n\nRecently, the Iranian military announced it had resumed",
-  "date": "2026-08-04"
- },
- {
   "page": "mashable",
   "hook": "\"Millennials, rejoice! It looks like MySpace may be coming back to your computers. \u2060\n\u2060\nThe platform, launched in 2003 by co-founders Tom Anderson and Chris DeWolfe, quickly became one of the internet\u2019s largest social net",
   "date": "2026-08-05"
- },
- {
-  "page": "mashable",
-  "hook": "\"Fabien Frankel reveals the hilarious moment he realized he was getting completely out-mogged on the set of House of the Dragon Season 3.\u2060\n#hotd #hbomax #streaming\".",
-  "date": "2026-08-04"
  },
  {
   "page": "wired",
@@ -63,21 +48,6 @@
   "page": "wired",
   "hook": "\"A private chef preparing a free three-course meal in your home sounds like a pretty good deal. The catch: every chop, stir, and pan flip is filmed to help train robots.\n\nA camera mounted to the chef\u2019s hat captures first",
   "date": "2026-08-05"
- },
- {
-  "page": "wired",
-  "hook": "\"The Trump administration has finalized a plan to address the cybersecurity risks posed by increasingly capable artificial intelligence models, a White House official confirmed to WIRED. But at least for now, it\u2019s delibe",
-  "date": "2026-08-04"
- },
- {
-  "page": "wired",
-  "hook": "\"Ms. Rachel (@msrachelforlittles) is one of the biggest names in kids\u2019 media and has a master's degree in early childhood development. Here, she breaks down what parents should look for if they want to introduce screen t",
-  "date": "2026-08-04"
- },
- {
-  "page": "wired",
-  "hook": "\"For the second WIRED@Night event, WIRED headed to Brooklyn\u2019s Green-Wood Cemetery for a special screening of The Oldest Person in the World, ahead of its theatrical release in September.\n\nAfter the screening, Green joine",
-  "date": "2026-08-04"
  },
  {
   "page": "technology",
@@ -508,5 +478,35 @@
   "page": "wired",
   "hook": "\"When Jim Allen, the elections director for Delaware County, Pennsylvania, recently ran a training session for poll workers, he began a conversation about a topic he\u2019d never previously had to address during training: pre",
   "date": "2026-08-17"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from faster humanoid robots and Apple leaks to Tesla\u2019s Cybercab plans and changing YouTube metrics \ud83e\udd16\n\nUnitree\u2019s Superman prototype claimed a top spe",
+  "date": "2026-08-18"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Marco Grossi turned one frustrating PDF task into iLovePDF, a bootstrapped platform now used by millions while still keeping most of its tools free \ud83d\udcc4\ud83c\udf0d\n\nGrossi launched the site in 2010 after struggling to merge 2 PDFs, ",
+  "date": "2026-08-17"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Someone has unofficially turned Canon\u2019s EOS 550D DSLR into a playable DOOM machine using Magic Lantern software loaded directly from an SD card \ud83d\udcf7\ud83c\udfae\n\nThe experimental port lets players control DOOM using the camera\u2019s phys",
+  "date": "2026-08-18"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Online marketplaces are being flooded with AI slop \u2014 but is anybody willing to actually pay for it?\n\nIn the case of CGTrader, a long-established online marketplace for 3D assets used by video game developers, film edito",
+  "date": "2026-08-18"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"The Mashable Big Guessing Game is back again for our third and final round. In the first round, we tried to guess the new name of macOS (only one person correctly predicted \"Golden Gate\"), and in the second round, we tr",
+  "date": "2026-08-18"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"AirPods with built-in cameras have been the subject of rumors for years, but now we have evidence that Apple is really working on these, and that they're probably coming very soon.\u2060\n\u2060\nThe latest macOS Tahoe 26.7 beta co",
+  "date": "2026-08-18"
  }
 ]

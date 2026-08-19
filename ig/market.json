@@ -1,69 +1,69 @@
 {
- "updated": "2026-08-18T05:08:27+00:00",
+ "updated": "2026-08-19T09:21:17+00:00",
  "competitor_hits": [
   {
    "page": "futurism",
-   "likes": 5145,
-   "ratio": 2.12,
+   "likes": 13000,
+   "ratio": 5.21,
    "tier": "mega",
    "hook": "\"A decade ago, young adults were flocking to vaunted tech giants like Google and Apple in pursuit of exciting jobs on the cutting edge of tech. In 2026, however, the status quo of young people who are uncritically enamor",
    "date": "2026-08-17"
   },
   {
-   "page": "wired",
-   "likes": 5021,
-   "ratio": 1.51,
-   "tier": "mega",
-   "hook": "\"Many Americans are having negative reactions to the growing prevalence of generative AI in daily life. In a recent Gallup poll, Americans\u2019 increased familiarity with generative AI coincides with negative attitudes about",
-   "date": "2026-08-17"
-  },
-  {
    "page": "technology",
-   "likes": 50000,
-   "ratio": 1.39,
-   "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to explore the biggest stories moving across the world, from major political developments and military activity to entertainment, markets, aviation, and unexpected global headlines \ud83c\udf0d\n\nRussia\u2019s MC-21 completed a",
-   "date": "2026-08-16"
-  },
-  {
-   "page": "technology",
-   "likes": 15000,
-   "ratio": 0.42,
-   "tier": "mega",
-   "hook": "\"A Chinese court ruled that a tech company illegally laid off a worker after replacing him with AI, signaling growing pressure on employers to protect jobs as automation expands.\n\nThe ruling highlights a major challenge ",
-   "date": "2026-08-17"
-  },
-  {
-   "page": "technology",
-   "likes": 9213,
-   "ratio": 0.26,
+   "likes": 18000,
+   "ratio": 1.09,
    "tier": "mega",
    "hook": "\"A grandson used AI to place his grandmother inside scenes from her favorite movie, turning a familiar film into an unexpected and deeply personal surprise \ud83c\udfac\ud83d\ude02\n\nInstead of simply showing her the movie again, he used gener",
    "date": "2026-08-17"
   },
   {
-   "page": "wired",
-   "likes": 512,
-   "ratio": 0.15,
+   "page": "technology",
+   "likes": 15000,
+   "ratio": 0.91,
    "tier": "mega",
-   "hook": "\"When Jim Allen, the elections director for Delaware County, Pennsylvania, recently ran a training session for poll workers, he began a conversation about a topic he\u2019d never previously had to address during training: pre",
+   "hook": "\"Marco Grossi turned one frustrating PDF task into iLovePDF, a bootstrapped platform now used by millions while still keeping most of its tools free \ud83d\udcc4\ud83c\udf0d\n\nGrossi launched the site in 2010 after struggling to merge 2 PDFs, ",
    "date": "2026-08-17"
   },
   {
-   "page": "wired",
-   "likes": 440,
-   "ratio": 0.13,
+   "page": "technology",
+   "likes": 14000,
+   "ratio": 0.85,
    "tier": "mega",
-   "hook": "\"Though they remain niche, human-AI marriages are slowly emerging as a natural endpoint to the widespread adoption of AI companion apps. Several lawmakers, primarily from Republican states, are trying to stop it from hap",
-   "date": "2026-08-16"
+   "hook": "\"Someone has unofficially turned Canon\u2019s EOS 550D DSLR into a playable DOOM machine using Magic Lantern software loaded directly from an SD card \ud83d\udcf7\ud83c\udfae\n\nThe experimental port lets players control DOOM using the camera\u2019s phys",
+   "date": "2026-08-18"
   },
   {
-   "page": "wired",
-   "likes": 378,
-   "ratio": 0.11,
+   "page": "technology",
+   "likes": 13000,
+   "ratio": 0.79,
    "tier": "mega",
-   "hook": "\"Privacy advocates and musicians rallied outside Madison Square Garden on Friday, pushing for new legislation to prevent facial-recognition technology at the venue and other public spaces in New York City. \n\nMadison Squa",
-   "date": "2026-08-17"
+   "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from faster humanoid robots and Apple leaks to Tesla\u2019s Cybercab plans and changing YouTube metrics \ud83e\udd16\n\nUnitree\u2019s Superman prototype claimed a top spe",
+   "date": "2026-08-18"
+  },
+  {
+   "page": "futurism",
+   "likes": 1608,
+   "ratio": 0.64,
+   "tier": "mega",
+   "hook": "\"Online marketplaces are being flooded with AI slop \u2014 but is anybody willing to actually pay for it?\n\nIn the case of CGTrader, a long-established online marketplace for 3D assets used by video game developers, film edito",
+   "date": "2026-08-18"
+  },
+  {
+   "page": "mashable",
+   "likes": 259,
+   "ratio": 0.22,
+   "tier": "mega",
+   "hook": "\"AirPods with built-in cameras have been the subject of rumors for years, but now we have evidence that Apple is really working on these, and that they're probably coming very soon.\u2060\n\u2060\nThe latest macOS Tahoe 26.7 beta co",
+   "date": "2026-08-18"
+  },
+  {
+   "page": "mashable",
+   "likes": 22,
+   "ratio": 0.02,
+   "tier": "mega",
+   "hook": "\"The Mashable Big Guessing Game is back again for our third and final round. In the first round, we tried to guess the new name of macOS (only one person correctly predicted \"Golden Gate\"), and in the second round, we tr",
+   "date": "2026-08-18"
   }
  ],
  "reddit_hot": []
