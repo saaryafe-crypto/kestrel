@@ -1,0 +1,93 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR RECRUITER ALREADY KNOWS YOUR MARKET VALUE. <em>THESE 6 PROMPTS MAKE SURE YOU DO TOO.</em>",
+   "kicker": "THEY ALREADY HAVE YOUR NUMBER",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-19-edu-6-ai-salary-counter-intelligence-prompts/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up at a dim vault desk, conspiratorial smirk, fanning six glowing $ cards toward camera; CONFIDENTIAL-stamped filing cabinets behind, Anthropic logo exactly as in the reference image glows amber on vault wall, single desk lamp burning below his face. Accent: warm amber against deep burgundy. Documentary news photo, 35mm, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND <em>THE REAL SALARY RANGE</em> FOR ANY JOB",
+   "hsize": 108,
+   "body": "Employers buy software that tracks your <b>job-switch patterns</b> to predict the lowest offer you'll sign. This prompt pulls the same range data first.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) CALCULATE <em>YOUR ACTUAL MARKET VALUE</em> IN 60 SECONDS",
+   "hsize": 104,
+   "body": "Employers run your role through market-rate software before the first call. Most candidates anchor to their last job, both anchors are wrong.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) DEFLECT <em>THE SALARY HISTORY TRAP</em> WITHOUT LYING",
+   "hsize": 104,
+   "body": "Employers ask what you earn to anchor your new offer below it. You're under no legal obligation to answer in many states. This prompt gives you three word-for-word redirects.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "THEY ALREADY BOUGHT YOUR SALARY FLOOR.",
+   "hsize": 88,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) WRITE A COUNTER-OFFER <em>THEY'LL SAY YES TO</em>",
+   "hsize": 104,
+   "body": "The first offer is almost never their real number. They built in room to negotiate because most people don't ask. This prompt writes the email.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) FIND THE <em>HIDDEN COSTS IN ANY OFFER LETTER</em>",
+   "hsize": 104,
+   "body": "Most candidates only see the base salary. <b>Healthcare deductibles</b>, equity vesting cliffs, and mandatory overtime routinely erase thousands that never appear in the headline number.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) WRITE THE RAISE REQUEST <em>YOUR BOSS WILL APPROVE</em>",
+   "hsize": 104,
+   "body": "Most raise requests fail because they're about your need, not the company's return. This prompt turns accomplishments into <b>company ROI</b> so your manager can say yes.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 6 SALARY PROMPTS",
+   "hsize": 100,
+   "body": "Find the real salary range\nCalculate your actual market value\nDeflect the salary history trap\nWrite a counter-offer that works\nFind hidden costs in any offer\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6 before your next salary talk. \ud83e\udde0 Employers buy personal data to predict the lowest offer you'll accept. These prompts flip it.\n\n1) find the real salary range for any job, 2) calculate your actual market value, 3) deflect the salary history trap, 4) write a counter-offer they'll approve, 5) find hidden costs in any offer letter, 6) write a raise request your boss will say yes to.\n\nEmployers are buying software that uses your financial patterns to predict the lowest salary you'll accept. Most people walk in blind. These six prompts flip that advantage back to you in under two minutes each. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: MarketWatch\n\n#salarynegotiation #aitools #careertips #artificialintelligence #productivity",
+ "pinned_comment": "Which one are you trying first? Slide 6 (the raise request) is the sleeper. Most managers have to justify the approval to their boss too, so framing your ask as company ROI is the move most people skip.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT <em>FLIP THE EMPLOYER DATA ADVANTAGE</em>",
+   "6 CLAUDE PROMPTS THAT <em>SEE WHAT HR SEES</em>",
+   "6 PROMPTS THAT RESEARCH <em>YOUR EMPLOYER THE WAY THEY RESEARCH YOU</em>",
+   "6 SALARY PROMPTS <em>EMPLOYERS DON'T WANT YOU TO USE</em>"
+  ],
+  "scores": [
+   3,
+   5,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] hits the forbidden-fruit angle HARD\u2014'employers don't want you to use' makes you immediately stop and think 'wait, why?' with concrete stakes (salary). [2] is clever but requires parsing the symmetry; [3] lands it in 1.7 seconds flat."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "CAST TRUTH / IMAGE LAW: The cover shows a man who is visually indistinguishable from Dario Amodei (curly hair, black-rimmed glasses, similar build and age) with the Anthropic logo lit up directly behind him. Anthropic and its CEO play zero role in this story. Per the doctrine: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' The Anthropic br",
+ "topic_source": "news-anchored"
+}
