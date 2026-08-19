@@ -1,0 +1,114 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI NOW CATCHES THE <em>6 PLACES YOUR BUSINESS IS BLEEDING</em> BEFORE YOUR ACCOUNTANT DOES",
+   "kicker": "THE 6-BLEED AUDIT, YOUR ACCOUNTANT FINDS THEM WEEKS TOO LATE",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-19-edu-6-ai-prompts-catching-costly-business-mi/gen-0.jpg",
+   "image_prompt": "Dario Amodei bent forward examining red-marked documents on desk, palm down, manila folders, harsh lamp overhead, amber-to-deep-red shadows, tight framing on hands and discovery moment, 35mm documentary style, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "<em>ALL 6 BLEEDING POINTS.</em> EVERY ONE IS ALREADY MOVING",
+   "hsize": 90,
+   "body": "Wrong prices. Contract traps. A cash shortage <b>6 weeks</b> out. Onboarding losing clients in month one. Exit signals already in your messages. Proposals failing in one specific place.",
+   "media": "posts/2026-08-19-edu-6-ai-prompts-catching-costly-business-mi/gen-1.jpg",
+   "image_prompt": "Tight overhead close-up of a handwritten price list on a dark walnut desk, several prices crossed out in slashing bold red ink with new higher figures written beside them in gleaming gold script, a folded $100 bill pressed into the lower-right corner of the frame, a large red X symbol beside the struck lines, dramatic raking side light casting deep shadows, no legible words anywhere on the page, documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: signal red and gold against dark walnut."
+  },
+  {
+   "type": "content",
+   "headline": "2) FIND EVERY <em>TRAP IN A CONTRACT</em> BEFORE YOU SIGN IT",
+   "hsize": 100,
+   "body": "Most small business contracts hide <b>at least one clause</b> that costs the signer more than they expected. Unlimited revisions, auto-renewing fees, and non-compete traps are the most common.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) SEE THE CASH SHORTAGE <em>ARRIVING IN 6 WEEKS</em> BEFORE IT DOES",
+   "hsize": 92,
+   "body": "Most owners find out about a cash crisis after it has already arrived. Paste your last <b>6 months</b> of revenue and Claude maps exactly when the danger comes.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "pattern_break",
+   "headline": "<em>BEFORE IT HITS.</em>",
+   "hsize": 80,
+   "body": "Tesla's FSD braked for a pedestrian the driver never saw. <b>The 3 prompts above</b> catch the collision before it happens in your business. <b>The next 3</b> find what is already happening quietly",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) FIND WHERE YOUR <em>ONBOARDING LOSES NEW CLIENTS</em> IN MONTH ONE",
+   "hsize": 90,
+   "body": "Most clients who leave in the first <b>30 days</b> had a doubt they never said out loud. It shows up in how they wrote to you early on.",
+   "media": "posts/2026-08-19-edu-6-ai-prompts-catching-costly-business-mi/gen-5.jpg",
+   "image_prompt": "A laptop screen in a warmly lit dim office showing a scrolling email inbox thread where messages visibly shrink from top to bottom \u2014 large warm amber rectangles at the top fading to tiny cool grey stubs at the bottom, a small red warning triangle symbol at the base of the thread, no legible text anywhere on screen, a desk lamp casting warm amber glow alongside the laptop, close angle on screen from slightly above, no face in frame, documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: warm amber against cool grey."
+  },
+  {
+   "type": "content",
+   "headline": "5) READ THE SIGNALS <em>OF CLIENTS ABOUT TO LEAVE</em> BEFORE THEY DO",
+   "hsize": 90,
+   "body": "Clients who cancel rarely say it directly. They say it in the tone of their messages <b>weeks earlier</b>, and Claude finds who is already sending exit signals.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) FIND EXACTLY <em>WHY YOUR LAST PROPOSAL</em> LOST THE DEAL",
+   "hsize": 96,
+   "body": "Most losing proposals fail in <b>one specific place</b>: a fear the client had that nobody addressed. Claude reads the rejection and finds it so the next proposal does not repeat the mistake.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> THE 6-BLEED AUDIT",
+   "hsize": 88,
+   "body": "Before the next mistake costs you:\n\n1. Wrong prices\n2. Contract traps\n3. Cash shortage in <b>6 weeks</b>\n4. Onboarding losing clients\n5. Exit signals\n6. Proposals failing\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through and save these 6 prompts. \ud83d\udca1 Each one catches a different business mistake before it costs you.\n\nPricing that is quietly wrong, contract clauses you did not notice, a cash shortage 6 weeks away, onboarding that loses clients in month one, clients already sending exit signals, and proposals failing in one specific place.\n\nMost of these mistakes show up in your bank account after the fact. These prompts shift the timing so AI finds the problem before the money leaves. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Anthropic, Tesla\n\n#AI #Business #ChatGPT #Claude #AITools",
+ "pinned_comment": "Which one are you running first? The client exit signals prompt in slide 7 surprises most business owners because the signs were already there the whole time.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "AI QUIETLY FINDS <em>6 THINGS GOING WRONG</em> IN YOUR BUSINESS",
+   "6 BUSINESS MISTAKES <em>AI CATCHES</em> BEFORE THEY COST YOU",
+   "6 COSTLY TRAPS <em>HIDING IN YOUR BUSINESS</em> AI FINDS TONIGHT",
+   "YOUR BUSINESS <em>IS BLEEDING IN 6 PLACES.</em> AI SPOTS THEM ALL"
+  ],
+  "scores": [
+   4,
+   5,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "\"BLEEDING\" is visceral enough to actually stop a 2am scroll\u2014it feels like real damage happening NOW, not a vague corporate tease. [2] comes close with urgency, but hides the story behind mystery language; [3] SHOWS you the problem and makes you believe AI already found the fix."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 BUSINESS THREATS <em>AI SPOTS WEEKS BEFORE THEY HIT</em> \u2014 MOST OWNERS NEVER DO",
+   "YOUR BUSINESS <em>IS BLEEDING IN 6 PLACES.</em> AI SPOTS THEM ALL",
+   "6 THINGS YOUR ACCOUNTANT CHARGES THOUSANDS FOR <em>THAT AI NOW CATCHES FOR FREE</em>",
+   "YOUR BUSINESS IS LOSING MONEY IN <em>6 PLACES MOST OWNERS NEVER CHECK.</em> AI DOES."
+  ],
+  "scores": [
+   7,
+   9,
+   3,
+   8
+  ],
+  "winner": 1,
+  "why": "BLEEDING hits you in the gut\u2014visceral alarm that stops mid-scroll in one glance. [3] is nearly as strong but adds clauses that steal a half-second from the punch."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on the cover. The doctrine bans this explicitly: 'Never a generated unknown face.' The cover shows an unrecognizable generated man. Replace with a real photo, a named famous person, or a bold type-on-brand-color cover with no face.; COVER CONTRACT broken \u2014 the hook and kicker both promise 6 prompts ('THE 6-BLEED AUDIT'), but only 5 get dedicated slides (prompts 2",
+ "topic_source": "news-anchored"
+}
