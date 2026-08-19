@@ -2043,6 +2043,13 @@ def main(stories_path):
             break
         fixed = qa_repair(post, ["editor reject: " + r for r in reasons])
         if fixed and len(fixed.get("slides", [])) == len(post["slides"]):
+            # THE REPAIR IS NOT A QA BYPASS (Aug 19 "6-bleed" edu post-mortem:
+            # a Gate B repair rewrote the cover past the word cap and the
+            # kicker to 10 words, nothing re-checked qa after the merge, and
+            # the headline rendered printed over the kicker strip). Merge,
+            # re-run the mechanical gates, revert if the repair introduced
+            # NEW violations — a dead repair means Gate B's reject stands.
+            keep = json.loads(json.dumps(post))
             for s_old, s_new in zip(post["slides"], fixed["slides"]):
                 for k in ("headline", "body", "kicker"):
                     if s_new.get(k):
@@ -2050,6 +2057,14 @@ def main(stories_path):
             if fixed.get("caption"):
                 post["caption"] = fixed["caption"]
             scrub_dashes(post)
+            base = qa(keep)
+            broke = [e for e in qa(post) if e not in base]
+            if broke:
+                print("gate B repair broke mechanical qa — reverting the "
+                      "repair:\n  " + "\n  ".join(broke), file=sys.stderr)
+                post.clear()
+                post.update(keep)
+                break  # repair unusable — Gate B's reject stands
             ok, reasons = editor.gate_b(post, os.path.join(HERE, cm) if cm else None)
         else:
             break  # repair itself failed — retrying with the same input won't help

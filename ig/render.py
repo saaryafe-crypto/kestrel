@@ -329,9 +329,22 @@ function scrim(){
     +'rgba(0,0,0,0) '+Math.max(140,edge-330)+'px,rgba(5,5,5,.55) '+Math.max(200,edge-150)+'px,'
     +'rgba(5,5,5,.9) '+edge+'px,rgba(5,5,5,.94) 1350px)';
 }
+/* fitSwipe (Aug 19 "6-bleed" post-mortem: a 10-word kicker wrapped the strip
+   to TWO lines, lifting its top into the bottom-anchored headline's zone —
+   the headline printed over the kicker): the strip is physically ONE line,
+   shrinking its font to fit, so its height can never grow into the h1. */
+function fitSwipe(){
+  var s=document.querySelector('.ctastrip .swipe');
+  if(!s)return;
+  s.style.whiteSpace='nowrap';
+  var avail=s.parentNode.clientWidth-48;
+  var f=parseFloat(getComputedStyle(s).fontSize);
+  while(s.scrollWidth>avail&&f>15){f-=1;s.style.fontSize=f+'px'}
+}
 document.fonts.ready.then(function(){
   var h=document.querySelector('body.cover h1')||document.querySelector('body.break h1');
   if(h)fitLines(h);
+  fitSwipe();
   scrim();
 });
 </script>"""
