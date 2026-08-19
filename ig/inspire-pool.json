@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19T12:35:45.138509+00:00",
+ "updated": "2026-08-19T14:36:56.494238+00:00",
  "photos": [
   {
    "id": "2089342461357302179",
@@ -76,6 +76,25 @@
    "video": null,
    "guide": false,
    "born": 1786574922.236066
+  },
+  {
+   "id": "2090048185859239959",
+   "title": "BREAKING: Moderna stock, $MRNA, surges over +110% after announcing the first ever positive Phase 3 results for a personalized cancer vaccine.",
+   "sub": "KobeissiLetter",
+   "where": "@KobeissiLetter on X",
+   "unit": "likes",
+   "selftext": "BREAKING: Moderna stock, $MRNA, surges over +110% after announcing the first ever positive Phase 3 results for a personalized cancer vaccine.",
+   "permalink": "https://x.com/KobeissiLetter/status/2090048185859239959",
+   "outlink": null,
+   "score": 20059,
+   "comments_n": 653,
+   "views": 2038561,
+   "age_h": 2.5,
+   "vph": 8152.3,
+   "image": "https://pbs.twimg.com/media/HQFXv6LW4AAI18_.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1787141216.494238
   },
   {
    "id": "2089387528012869974",
@@ -724,42 +743,23 @@
    "born": 1787012593.583535
   },
   {
-   "id": "2088604119678558290",
-   "title": "Catholicism in Japan has an insane aura\u2014it blends so naturally with Japanese aesthetics and visual culture. Yes, that is literally a Christian samurai wielding a sword bearing the image of Jesus. This highlights the fasc",
-   "sub": "historyinmemes",
-   "where": "@historyinmemes on X",
-   "unit": "likes",
-   "selftext": "Catholicism in Japan has an insane aura\u2014it blends so naturally with Japanese aesthetics and visual culture. Yes, that is literally a Christian samurai wielding a sword bearing the image of Jesus. This highlights the fascinating cultural syncretism between Catholicism and traditional Japanese culture. The statue depicts Blessed Justo Takayama Ukon, a 16th-century Christian daimy\u014d (samurai lord) who gave up his wealth and status rather than renounce his faith during the persecution of Christians in Japan. He is shown holding a sword fashioned into a crucifix, while nearby, a woman in a traditional kimono wears an obi decorated with an image of Our Lady of Guadalupe.",
-   "permalink": "https://x.com/historyinmemes/status/2088604119678558290",
-   "outlink": null,
-   "score": 3381,
-   "comments_n": 55,
-   "views": 146046,
-   "age_h": 19.7,
-   "vph": 171.6,
-   "image": "https://pbs.twimg.com/media/HPihMGtWsAE3xx3.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1786796913.084974
-  },
-  {
-   "id": "2088545436139168231",
-   "title": "From now on, if you use Claude just to translate text into another language, it will be considered AI-generated. This has serious consequences, for example, for students at universities, because detectors will now flag i",
+   "id": "2089763435865088508",
+   "title": "A \"refusal-removed\" version of Qwen3.8-27B can now run locally on Apple Silicon. Even its creators warn that it can provide malware, fraud and weapons instructions on demand. It was released as an MLX build in 2, 4, 6 an",
    "sub": "kimmonismus",
    "where": "@kimmonismus on X",
    "unit": "likes",
-   "selftext": "From now on, if you use Claude just to translate text into another language, it will be considered AI-generated. This has serious consequences, for example, for students at universities, because detectors will now flag it as AI content.",
-   "permalink": "https://x.com/kimmonismus/status/2088545436139168231",
+   "selftext": "A \"refusal-removed\" version of Qwen3.8-27B can now run locally on Apple Silicon. Even its creators warn that it can provide malware, fraud and weapons instructions on demand. It was released as an MLX build in 2, 4, 6 and 8-bit versions. The uploader claims its 4/6/8-bit tests produced zero refusals while preserving vision, reasoning and tool-calling across a 262K-token context. The Qwen 27B Model is a very capable model. This is the first time I've really seen the immediate dangers in a tangible way. We need a societal discussion about this.",
+   "permalink": "https://x.com/kimmonismus/status/2089763435865088508",
    "outlink": null,
-   "score": 3366,
-   "comments_n": 289,
-   "views": 233158,
-   "age_h": 35.2,
-   "vph": 95.6,
-   "image": "https://pbs.twimg.com/media/HPwAro9WMAAPwue.jpg",
+   "score": 3418,
+   "comments_n": 127,
+   "views": 407451,
+   "age_h": 21.3,
+   "vph": 160.3,
+   "image": "https://pbs.twimg.com/media/HQBUr4aXcAAimSo.jpg",
    "video": null,
    "guide": false,
-   "born": 1786783010.572699
+   "born": 1787073536.494238
   }
  ]
 }
