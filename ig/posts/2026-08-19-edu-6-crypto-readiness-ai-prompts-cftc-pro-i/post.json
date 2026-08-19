@@ -1,0 +1,107 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A $10,000 BITCOIN INVOICE ARRIVED WORTH $7,200 THREE DAYS LATER, <em>6 AI PROMPTS WRITE THE CLAUSE THAT STOPS IT</em>",
+   "kicker": "THE RULES JUST CHANGED",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-19-edu-6-crypto-readiness-ai-prompts-cftc-pro-i/gen-0.jpg",
+   "image_prompt": "Dario Amodei in orange apron, manic grin, slams stack of prompt sheets onto night-market counter as gold Bitcoin coins spray. Claude logo blazes in copper neon. Documentary 35mm photo, harsh flash, amber-gold on electric teal."
+  },
+  {
+   "type": "content",
+   "headline": "MOST BUSINESS OWNERS LEARN <em>THIS FROM AN IRS NOTICE</em>",
+   "hsize": 100,
+   "body": "Every crypto payment creates a legal event your current contracts, taxes, and payment policy were not built for. The six prompts below write what most businesses pay $1,500 to $3,000 per document to an attorney for, each one takes under four minutes to run.",
+   "media": "posts/2026-08-19-edu-6-crypto-readiness-ai-prompts-cftc-pro-i/gen-1.jpg",
+   "image_prompt": "Two hands on a cluttered desk: one grips a tax form stamped with a large red warning triangle, the other holds a phone showing a crypto wallet's $ balance. A torn government envelope lies open beside a calculator. Documentary news photo, 35mm, harsh flash, grain. Accent: sharp gold on cool white."
+  },
+  {
+   "type": "content",
+   "headline": "1) CALCULATE YOUR <em>CRYPTO TAX BILL</em> BEFORE THE IRS DOES",
+   "hsize": 100,
+   "body": "Paste this into Claude: 'I received [amount] in [coin] on [date] at $[price per coin]. Calculate my taxable gain, the ordinary income tax owed at 37%, and the dollar amount I should set aside today.' Every crypto payment triggers a taxable event the moment it lands, most business owners find out in April, after the bill has already grown.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) WRITE A <em>CRYPTO PAYMENT POLICY</em> IN 4 MINUTES",
+   "hsize": 100,
+   "body": "With your tax exposure calculated in step 1, lock in your acceptance rules. Paste this: 'Write a business crypto payment policy. We accept Bitcoin and Ethereum. The exchange rate locks at invoice creation. Overpayments convert to account credit. Include a volatility disclaimer.' A business attorney charges $1,500 to $3,000 for this document.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "US BUSINESSES PAID $172 BILLION IN CARD FEES LAST YEAR",
+   "hsize": 80,
+   "body": "Most crypto processors charge under 1%. The math is simple when the rules change.",
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) DRAFT THE CONTRACT CLAUSE <em>THAT PROTECTS YOU</em>",
+   "hsize": 100,
+   "body": "Your policy covers which coins you accept, this clause locks the price on every individual deal. Paste this: 'Write a contract clause that fixes the BTC/USD exchange rate at invoice creation, bars client disputes if market price moves after delivery, and specifies settlement in USD equivalent.' Without it, a Bitcoin payment worth $10,000 on invoice day can arrive worth $7,200 three days later. You eat the difference.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) FIND WHICH OF YOUR COSTS <em>YOU CAN PAY IN CRYPTO</em>",
+   "hsize": 100,
+   "body": "Your income is now legally protected, cut what you spend next. Paste this: 'Which of these vendor categories accept crypto payments: [list your software subscriptions, ad platforms, freelance contractors]? List by coin accepted and flag any that offer a discount for crypto.' Spending crypto directly skips the taxable conversion step entirely.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE THE EMAIL THAT <em>MOVES CLIENTS TO CRYPTO</em>",
+   "hsize": 100,
+   "body": "Paste prompt 5: 'Write a professional client email offering a 2% discount for Bitcoin payment, under 150 words, friendly tone, one sentence on how easy the payment process is.' Businesses offering this skip card processing fees, eliminate chargeback risk, and often collect faster. Paste prompt 6: 'Build a spreadsheet formula that logs each crypto payment by date, coin, USD value at receipt, and running quarterly tax total.' Claude writes the full tracker in one pass.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>6 CRYPTO PROMPTS FOR YOUR BUSINESS</em>",
+   "hsize": 100,
+   "body": "Calculate your crypto tax bill\nWrite your crypto payment policy\nDraft the contract clause\nFind costs you can pay in crypto\nWrite the client email\nBuild the income tracker\n\nDaily AI news, real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6 before your next client asks to pay in crypto. \ud83e\ude99 AI prompts that write your crypto policy, contract clause, tax calculation, client email, and income tracker tonight.\n\n1. Calculate your crypto tax bill before the IRS does, 2. Write a crypto payment policy in 4 minutes, 3. Draft the contract clause that fixes the exchange rate, 4. Find which of your costs you can pay in crypto, 5. Write the email that moves clients to crypto, 6. Build a crypto income tracker in one sentence\n\nThe CFTC just called crypto the new frontier of finance. Businesses that get their legal infrastructure right now, while most competitors still watch, enter the window first. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: CFTC, IRS, Anthropic\n\n#artificialintelligence #aitools #businessowner #cryptobusiness #claudeai",
+ "pinned_comment": "Which one are you trying first? The tax calculator on slide 2 surprises most people. Crypto payments trigger a taxable event the moment they hit your account, and most business owners don't find out until April.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 FREE AI PROMPTS THAT <em>GET YOUR BUSINESS INTO CRYPTO TONIGHT</em>",
+   "<em>6 AI PROMPTS THAT MAKE YOUR BUSINESS CRYPTO-READY</em> TONIGHT",
+   "6 PROMPTS THAT <em>PROTECT YOUR BUSINESS FROM CRYPTO TAX TRAPS</em>"
+  ],
+  "scores": [
+   5,
+   3,
+   7
+  ],
+  "winner": 2,
+  "why": "At 2am, [2] makes me actually stop\u2014'tax traps' is specific and scary enough to read, while [0] and [1] reek of the same crypto-hype spam I scroll past 100 times daily. [0] at least has 'FREE' pulling me, but the fake urgency and 'GET INTO CRYPTO TONIGHT' screams bot energy."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 CRYPTO PROMPTS THAT REPLACE <em>WHAT MOST BUSINESSES PAY ACCOUNTANTS FOR</em>",
+   "6 PROMPTS THAT <em>PROTECT YOUR BUSINESS FROM CRYPTO TAX TRAPS</em>"
+  ],
+  "scores": [
+   8,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] hits with 'replace your accountant'\u2014a real jaw-drop claim that makes you stop scrolling at 2am. [1] is just 'we protect you from bad things,' which every finance account says and doesn't make you feel anything."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW hard violation: the cover uses a generated unknown face. The rule is absolute \u2014 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' The Claude brand mark being visible in frame does not override this prohibition. Fix: regenerate the cover with no human face \u2014 Claude logo + flying Bitcoin coins + contract documents is the story and clear",
+ "topic_source": "news-anchored"
+}
