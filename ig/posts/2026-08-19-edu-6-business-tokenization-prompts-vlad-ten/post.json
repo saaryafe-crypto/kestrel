@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 PROMPTS</em> THAT FIND WHERE YOUR BUSINESS MONEY BREAKS",
+   "kicker": "AFTER WHAT ROBINHOOD'S CEO SAID TODAY",
+   "hsize": 72,
+   "face": "Vlad Tenev",
+   "media": "posts/2026-08-19-edu-6-business-tokenization-prompts-vlad-ten/gen-0.jpg",
+   "image_prompt": "Steel bank-safe door split by a deep jagged crack running top to bottom, gold dollar-sign tokens cascading through the fissure into darkness, a single harsh white flashlight beam from below cutting across the fracture and catching the glittering stream mid-fall. Dark marble floor below. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: electric gold against near-black."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>UNDERSTAND THE SHIFT</em> BEFORE YOUR BANK DOES",
+   "hsize": 100,
+   "body": "Financial advisors charge <b>$300 an hour</b> to explain new money trends. Claude does it in 90 seconds, in terms that fit your exact business type.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>MAP YOUR EXACT RISK</em> TONIGHT",
+   "hsize": 110,
+   "body": "A single disrupted payment rail can freeze a business's cash flow for days with no warning. This prompt finds every point of exposure before that happens to you.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>WRITE THE BRIEF</em> YOUR ACCOUNTANT NEEDS",
+   "hsize": 100,
+   "body": "Your accountant will start learning about tokenization the same week you need an answer from them. Get the meeting ready before they do.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "THE ENTIRE FINANCIAL SYSTEM.",
+   "hsize": 80,
+   "body": "<b>Robinhood CEO Vlad Tenev</b> said those exact words this week. Which businesses act first wins the shift",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) FIND WHERE YOUR <em>PAYMENT SETUP BREAKS</em>",
+   "hsize": 100,
+   "body": "If one payment rail shifts and you have no backup, you could wake up unable to get paid for days. One prompt maps your exposure before that morning comes.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD YOUR <em>90-DAY EARLY-MOVER PLAN</em>",
+   "hsize": 100,
+   "body": "Every major money shift in history rewarded whoever moved first. Claude maps the 90-day version for your exact business so you are not guessing while everyone else waits.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>WRITE THE CUSTOMER EMAIL</em> BEFORE YOU NEED IT",
+   "hsize": 88,
+   "body": "The worst moment to explain a payment change to your customers is after they are already confused. Write the email tonight, when it costs nothing.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 6 MONEY PROMPTS",
+   "hsize": 105,
+   "body": "Understand the shift first\nMap your exact payment risk\nBrief your accountant tonight\nFind where your payments break\nBuild your 90-day early-mover plan\nWrite the customer email now\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through these. \ud83d\udcb0 Robinhood's CEO just said tokenization will eat the entire financial system, and these 6 AI prompts prepare your business tonight.\n\nPrompt 1 gets Claude to explain the whole shift in plain English for your specific business type, Prompt 2 maps every payment risk you carry and tells you which are urgent, Prompt 3 writes the brief your accountant needs before your next meeting, Prompt 4 finds where your current payment setup breaks first and builds a backup plan, Prompt 5 gives you a 90-day plan to move first on the shift, Prompt 6 writes the calm customer email you will need before payments ever change.\n\nWhen the CEO of one of America's biggest financial apps calls it a supercycle, the question is who prepared and who didn't. These prompts do the work your consultant hasn't started yet. Running a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: Robinhood, Vlad Tenev\n\n#ai #artificialintelligence #business #money #entrepreneur",
+ "pinned_comment": "Which prompt are you starting with tonight? Slide 3 is the one most people skip, but getting your accountant briefed before they have even heard about this puts your business ahead of almost everyone.",
+ "hook_tournament": {
+  "candidates": [
+   "<em>6 AI PROMPTS</em> THAT PROTECT YOUR BUSINESS MONEY"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 AI PROMPTS</em> YOUR ACCOUNTANT STILL ISN'T RUNNING",
+   "<em>6 PROMPTS</em> THAT FIND WHERE YOUR BUSINESS MONEY BREAKS",
+   "<em>6 AI PROMPTS</em> YOUR BANK WON'T SEND YOU",
+   "<em>6 AI PROMPTS</em> THAT PROTECT YOUR BUSINESS MONEY"
+  ],
+  "scores": [
+   5,
+   9,
+   7,
+   3
+  ],
+  "winner": 1,
+  "why": "\"WHERE YOUR BUSINESS MONEY BREAKS\" is visceral and specific\u2014it makes you think \"oh shit, that could be happening to me right now\" rather than selling you a vague benefit. [2] creates intrigue but feels paranoid; [1] makes you believe you already need this."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "PROMPTS NOT SHOWN ON ANY SLIDE (\u00a71 / \u00a74): The post is titled '6 PROMPTS' but not one slide displays actual prompt text \u2014 every slide describes what a prompt will do ('This prompt finds every point of exposure') without showing it. \u00a71 requires utility posts to be 'taught in full on the slides, never just claimed.' Each of the 6 content slides must contain the actual prompt the reader can copy. As p",
+ "topic_source": "news-anchored"
+}
