@@ -1,0 +1,82 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>THE 3-SECOND COMMAND:</em> ONE AI MOVED A MACHINE 50 MILES AWAY",
+   "kicker": "3 SECONDS. ZERO ENGINEERS.",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-20-edu-exec-ai-agent-controls-physical-machines/gen-0-rescue.jpg",
+   "image_prompt": "Single machine on dark beach at night, arrow-command glowing above, xAI white neon logo, navy ocean, crescent moon, cyan signal glow."
+  },
+  {
+   "type": "content",
+   "headline": "HE TYPED TWO WORDS. <em>THE MACHINE STARTED IN 3 SECONDS.</em>",
+   "body": "He typed: start mowing. It started in <b>3 seconds</b>. <b>50 miles</b> from where he sat.",
+   "hsize": 100,
+   "media": "posts/2026-08-20-edu-exec-ai-agent-controls-physical-machines/gen-1.jpg",
+   "image_prompt": "From behind, a solitary figure seated at a minimalist desk facing a large monitor showing a glowing green satellite map with a single lawn-mower icon mid-movement and a long luminous arc connecting it back to a blinking cursor dot near the bottom of the map, hands resting on keyboard; dim room, amber desk lamp at the left edge, cold blue screen glow dominant; accent: amber lamp warmth against cold blue monitor light. Documentary news photo, 35mm, film grain, zero readable words."
+  },
+  {
+   "type": "content",
+   "headline": "<em>GROK BOT TURNED PLAIN TEXT INTO A PHYSICAL COMMAND</em>",
+   "body": "No code. No engineers. It reads your instruction and triggers the machine. The only question left: how long does setup actually take?",
+   "hsize": 100,
+   "media": "posts/2026-08-20-edu-exec-ai-agent-controls-physical-machines/gen-2.jpg",
+   "image_prompt": "Extreme close-up of a hand gripping a smartphone, the screen showing a single plain white chat-bubble symbol; behind it, a heavy steel robot arm frozen mid-sweep in motion blur inside a dim industrial space, cold steel-blue shadows; the xAI logo exactly as in the reference image glowing white neon on the far dark wall; accent: bright white chat-bubble against cold steel blue. Documentary news photo, 35mm, harsh on-camera flash, film grain, zero readable words."
+  },
+  {
+   "type": "content",
+   "headline": "2 MINUTES",
+   "body": "to gain remote control of a connected machine, from anywhere on earth",
+   "hsize": 80,
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>EVERY MACHINE YOUR TEAM WATCHES IS NOW A CANDIDATE</em>",
+   "body": "Warehouses. Vehicles. Security systems. Any connected machine is now a candidate. Where are your people babysitting hardware",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>YOUR FIRST 2-MINUTE AUTOMATION</em> IS ALREADY IN YOUR OPERATION",
+   "body": "Ask your ops team: which machine needs a human to start it? That is your first target. Setup: <b>2 minutes</b>",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>THE 2-MINUTE OPERATOR</em>",
+   "body": "One machine, 50 miles, one text\nSetup: 2 minutes, zero engineers\nGrok Bot bridges words to hardware\nAny connected machine is a candidate\n\nDaily AI news + real executive plays",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how one person moved a machine 50 miles away with a 2-minute AI setup and what it means for your operation. \ud83e\udd16\n\nThe 2-Minute Operator framework, in order: one person controlled a machine 50 miles away with a plain-text command via Grok Bot, the AI that turns your words into physical machine actions, the 2-minute setup cost available to any operation today, every connected machine in your business as an automation candidate, and the executive question that finds your first 2-minute automation.\n\nAI agents aren't answering emails anymore. They're operating physical machines through plain language, setup time collapsed to minutes. Move first or watch your competition run leaner.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: xAI\n\n#AI #automation #artificialintelligence #business #productivity",
+ "pinned_comment": "Slide 4 is the one that stings. Which machine in your operation has a human babysitting it right now?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>THE 3-SECOND COMMAND:</em> ONE AI MOVED A MACHINE 50 MILES AWAY",
+   "<em>THE 2-MINUTE OPERATOR</em> JUST REPLACED YOUR ON-SITE WORKER",
+   "<em>THE 2-MINUTE OPERATOR:</em> 50 MILES, ONE COMMAND",
+   "<em>THE 50-MILE DESK:</em> AI RUNS REAL MACHINES IN 2 MINUTES"
+  ],
+  "scores": [
+   9,
+   5,
+   8,
+   6
+  ],
+  "winner": 0,
+  "why": "The '3-second' hook hits instantly because it's impossibly fast\u2014your brain goes 'wait, WHAT?' and you stop scrolling to understand. The runner-up at [2] has the same wild concept but 2 minutes sounds almost plausible, so the shock never lands as hard."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "no-face rescue",
+ "editor_override": "HOOK TRUTH BREACH: 'ONE AI MOVED A MACHINE 50 MILES AWAY' implies the machine physically traveled 50 miles. The actual claim is remote control FROM 50 miles away. Fix: 'ONE AI CONTROLLED A MACHINE 50 MILES AWAY' or 'ONE AI STARTED A MACHINE FROM 50 MILES AWAY.'; THREE CONSECUTIVE ZERO-YOU SLIDES (explicit REJECT condition \u00a74): Slides 2, 3, and 4 contain no second-person sentence. The reader watche",
+ "topic_source": "exec-news"
+}
