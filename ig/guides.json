@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20T00:39:27.991854+00:00",
+ "updated": "2026-08-20T08:29:58.938603+00:00",
  "guides": [
   {
    "id": "2087433011478634944",
@@ -399,26 +399,6 @@
    "guide": true,
    "wide_guide": true,
    "born": 1785210446.388657
-  },
-  {
-   "id": "2079377591522463813",
-   "title": "The most dangerous thing you can do right now is NOT use the latest AI tools. Period. Every day a new company is laying off thousands of people who don't know how to use the most modern AI tools If I were in the 9-5 worl",
-   "sub": "AlexFinn",
-   "where": "@AlexFinn on X",
-   "unit": "likes",
-   "selftext": "The most dangerous thing you can do right now is NOT use the latest AI tools. Period. Every day a new company is laying off thousands of people who don't know how to use the most modern AI tools If I were in the 9-5 world right now, this is every step I'd take: 1. Download Codex and build your first app. Learn how to implement a front end and database (I\u2019d use nextJS and Convex). AI can teach you all of this 2. Download Hermes agent. Tell the agent about your entire life. Career, goals, and ambitions. Ask it what workflows it can implement to get you closer to those goals. This is called reverse prompting. 3. Build your own Mission Control with Hermes agent. This is your own custom software that automates every part of your life. Anytime you do a task on your todo list manually, give it to Hermes and figure out how you can automate it in your Mission Control 4. Get the Claude Max plan. Feed Fable 5 Max your hardest problems. Make sure you hit the rate limit on it EVERY single week 5. Constantly look at your limits in all your AI plans. If you're ever not above 50% on your limits, get angry that you're not burning enough tokens. 6. Learn how to use Claude Code side by side with Codex. Learn both their strengths. Fable 5 for planning, ChatGPT 5.6 sol medium for execution. These are the only 2 coding tools that matter. Master these and you're golden 7. Start creating content and building a platform. Resumes no longer matter. Companies dont look at them anymore. They check your platform. What you talk about, what you\u2019re passionate about, how you educate others, who follows you. This matters 100x more than anything else when getting hired right now. If you do these 7 things you are in excellent position to not only be safe in your career, but also dominate those that don't pick up these skills.",
-   "permalink": "https://x.com/AlexFinn/status/2079377591522463813",
-   "outlink": null,
-   "score": 2019,
-   "comments_n": 169,
-   "views": 137284,
-   "age_h": 493.9,
-   "vph": 4.1,
-   "image": null,
-   "video": null,
-   "guide": true,
-   "wide_guide": true,
-   "born": 1784597352.081691
   },
   {
    "id": "2089935850633130198",
