@@ -1,0 +1,17 @@
+{
+ "pick": 15,
+ "title": "The AI built to tell your food apart from a weed, then shoot the weed",
+ "title_candidates": [
+  "How an NVIDIA-powered farming robot kills weeds with lasers, not chemicals",
+  "The laser weeder that kills a weed in milliseconds without touching the crop",
+  "The farming robot quietly replacing weed killer on real fields",
+  "Watch this farming robot fire a laser at every weed it spots",
+  "The AI built to tell your food apart from a weed, then shoot the weed"
+ ],
+ "caption": "This machine uses AI vision to identify weeds among crops, then fires a precision laser to kill them in milliseconds. No herbicides, no damage to anything growing next to them.\n\nThe hard part has always been telling a weed from a food crop fast enough to act. NVIDIA's vision chip makes that call quick enough to work while the machine keeps moving across a real field. Traditional weed killers can't make that distinction, so they spray everything and hope for the best.\n\nIf this scales, chemical weed killers become optional. That's a bigger deal for food and soil than most people realize.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: Rainmaker1973. DM for credit or removal\n\n#AI #robotics #nvidia #farming #technology",
+ "start_s": 0,
+ "clip_s": 15,
+ "source": "https://video.twimg.com/amplify_video/2029203092286451712/vid/avc1/720x720/l5hF2evsU0NqGtcF.mp4?tag=21",
+ "channel": "Rainmaker1973",
+ "publish": "make"
+}
