@@ -1,56 +1,6 @@
 [
  {
   "page": "technology",
-  "hook": "\"Meta has released Muse Code in beta. It\u2019s the first coding agent from MSL, built on Muse Spark 1.2.\n\nMuse\u00a0Code takes on complex software engineering tasks across large repositories: planning changes, writing code, and v",
-  "date": "2026-08-05"
- },
- {
-  "page": "futurism",
-  "hook": "\"Tech companies are making record amounts of money, posting major gains in the most recent quarter compared to the same period just a year ago.\n\nBut despite all that income, these same companies are struggling to save an",
-  "date": "2026-08-05"
- },
- {
-  "page": "mashable",
-  "hook": "\"Millennials, rejoice! It looks like MySpace may be coming back to your computers. \u2060\n\u2060\nThe platform, launched in 2003 by co-founders Tom Anderson and Chris DeWolfe, quickly became one of the internet\u2019s largest social net",
-  "date": "2026-08-05"
- },
- {
-  "page": "wired",
-  "hook": "\"For years, North Korea\u2019s stealthy hackers and scam IT workers have infiltrated companies, stealing corporate secrets and plundering billions in cryptocurrency to help fund the totalitarian regime and its weapons program",
-  "date": "2026-08-05"
- },
- {
-  "page": "wired",
-  "hook": "\"The Department of Homeland Security is seeking neighborhood \u201crapid response\u201d Signal group chats as it defends itself in a lawsuit accusing it of violating protesters\u2019 First Amendment rights, according to recent court fi",
-  "date": "2026-08-05"
- },
- {
-  "page": "wired",
-  "hook": "\"A new coalition of high-profile MAGA figures have launched a movement with the aim of running a third party-candidate in the 2028 presidential election. The name at the top of their list: former Fox News star Tucker Car",
-  "date": "2026-08-05"
- },
- {
-  "page": "wired",
-  "hook": "\"Content warning: This article discusses self-harm.\n\nOn Tuesday night, the gossip blogger Perez Hilton, aka Mario Lavandeira Jr, was hospitalized after showing up on a TikTok livestream naked, covered in a red fluid that",
-  "date": "2026-08-05"
- },
- {
-  "page": "wired",
-  "hook": "\"US Customs and Border Protection is seeking to hire private investigators to track down deported immigrants and others who have left the United States, and press them into paying the government money, according to recor",
-  "date": "2026-08-05"
- },
- {
-  "page": "wired",
-  "hook": "\"Over the last nine months, Mark Zuckerberg\u2019s Meta has run dozens of paid ads that include explicit, AI-generated child sexual abuse material (CSAM) and images of minors alongside sexually suggestive statements, accordin",
-  "date": "2026-08-05"
- },
- {
-  "page": "wired",
-  "hook": "\"A private chef preparing a free three-course meal in your home sounds like a pretty good deal. The catch: every chop, stir, and pan flip is filmed to help train robots.\n\nA camera mounted to the chef\u2019s hat captures first",
-  "date": "2026-08-05"
- },
- {
-  "page": "technology",
   "hook": "\"A simple Google Earth flyover of Oahu reveals one of America\u2019s most important Pacific military hubs, where fighter jets, transport aircraft, missile defense systems, and naval infrastructure sit in plain view \u2708\ufe0f\ud83c\udf0a\n\nThe f",
   "date": "2026-08-06"
  },
@@ -508,5 +458,10 @@
   "page": "mashable",
   "hook": "\"AirPods with built-in cameras have been the subject of rumors for years, but now we have evidence that Apple is really working on these, and that they're probably coming very soon.\u2060\n\u2060\nThe latest macOS Tahoe 26.7 beta co",
   "date": "2026-08-18"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"When I was growing up, there were few words more devastating than \u201cposer.\u201d \n\nI still remember getting called one during my freshman year of high school after showing up in a pair of DC skate shoes. It didn\u2019t matter that",
+  "date": "2026-08-19"
  }
 ]

@@ -1,66 +1,34 @@
 {
- "updated": "2026-08-19T09:21:17+00:00",
+ "updated": "2026-08-20T07:14:19+00:00",
  "competitor_hits": [
   {
-   "page": "futurism",
-   "likes": 13000,
-   "ratio": 5.21,
-   "tier": "mega",
-   "hook": "\"A decade ago, young adults were flocking to vaunted tech giants like Google and Apple in pursuit of exciting jobs on the cutting edge of tech. In 2026, however, the status quo of young people who are uncritically enamor",
-   "date": "2026-08-17"
-  },
-  {
    "page": "technology",
-   "likes": 18000,
-   "ratio": 1.09,
-   "tier": "mega",
-   "hook": "\"A grandson used AI to place his grandmother inside scenes from her favorite movie, turning a familiar film into an unexpected and deeply personal surprise \ud83c\udfac\ud83d\ude02\n\nInstead of simply showing her the movie again, he used gener",
-   "date": "2026-08-17"
-  },
-  {
-   "page": "technology",
-   "likes": 15000,
-   "ratio": 0.91,
-   "tier": "mega",
-   "hook": "\"Marco Grossi turned one frustrating PDF task into iLovePDF, a bootstrapped platform now used by millions while still keeping most of its tools free \ud83d\udcc4\ud83c\udf0d\n\nGrossi launched the site in 2010 after struggling to merge 2 PDFs, ",
-   "date": "2026-08-17"
-  },
-  {
-   "page": "technology",
-   "likes": 14000,
-   "ratio": 0.85,
-   "tier": "mega",
-   "hook": "\"Someone has unofficially turned Canon\u2019s EOS 550D DSLR into a playable DOOM machine using Magic Lantern software loaded directly from an SD card \ud83d\udcf7\ud83c\udfae\n\nThe experimental port lets players control DOOM using the camera\u2019s phys",
-   "date": "2026-08-18"
-  },
-  {
-   "page": "technology",
-   "likes": 13000,
-   "ratio": 0.79,
+   "likes": 28000,
+   "ratio": 0.78,
    "tier": "mega",
    "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from faster humanoid robots and Apple leaks to Tesla\u2019s Cybercab plans and changing YouTube metrics \ud83e\udd16\n\nUnitree\u2019s Superman prototype claimed a top spe",
    "date": "2026-08-18"
   },
   {
-   "page": "futurism",
-   "likes": 1608,
-   "ratio": 0.64,
-   "tier": "mega",
-   "hook": "\"Online marketplaces are being flooded with AI slop \u2014 but is anybody willing to actually pay for it?\n\nIn the case of CGTrader, a long-established online marketplace for 3D assets used by video game developers, film edito",
-   "date": "2026-08-18"
-  },
-  {
    "page": "mashable",
-   "likes": 259,
-   "ratio": 0.22,
+   "likes": 286,
+   "ratio": 0.42,
    "tier": "mega",
    "hook": "\"AirPods with built-in cameras have been the subject of rumors for years, but now we have evidence that Apple is really working on these, and that they're probably coming very soon.\u2060\n\u2060\nThe latest macOS Tahoe 26.7 beta co",
    "date": "2026-08-18"
   },
   {
    "page": "mashable",
-   "likes": 22,
-   "ratio": 0.02,
+   "likes": 76,
+   "ratio": 0.11,
+   "tier": "mega",
+   "hook": "\"When I was growing up, there were few words more devastating than \u201cposer.\u201d \n\nI still remember getting called one during my freshman year of high school after showing up in a pair of DC skate shoes. It didn\u2019t matter that",
+   "date": "2026-08-19"
+  },
+  {
+   "page": "mashable",
+   "likes": 26,
+   "ratio": 0.04,
    "tier": "mega",
    "hook": "\"The Mashable Big Guessing Game is back again for our third and final round. In the first round, we tried to guess the new name of macOS (only one person correctly predicted \"Golden Gate\"), and in the second round, we tr",
    "date": "2026-08-18"
