@@ -1,0 +1,106 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 FREE WEBSITES</em> THAT FEEL ILLEGAL TO KNOW",
+   "kicker": "SAVE THIS BEFORE YOU NEED THEM",
+   "hsize": 72,
+   "media": "posts/2026-08-20-edu-6-free-hidden-websites-that-feel-illegal/gen-0.jpg",
+   "image_prompt": "Three overlapping laptops at depth on dark surface, screens blazing electric green \u2014 editing layer panels, a checkerboard-erased product photo, green shield icons \u2014 a gloved hand pushes open a golden broken padlock between the keyboards. Documentary news photo, 35mm, harsh flash, film grain. Accent: electric green against near-black."
+  },
+  {
+   "type": "content",
+   "headline": "1) HAVEIBEENPWNED: <em>YOUR EMAIL WAS PROBABLY STOLEN</em>",
+   "hsize": 100,
+   "body": "Over <b>12 billion accounts</b> have been exposed in data breaches. Go to <b>haveibeenpwned.com</b>, type your email, and it shows every company that leaked your data. If it comes up red, change that password tonight.",
+   "media": "posts/2026-08-20-edu-6-free-hidden-websites-that-feel-illegal/gen-1.jpg",
+   "image_prompt": "Close on two hands typing at a glowing dark laptop screen, the display below the search bar flooding with cascading red warning triangles and breach-icon badges, no readable text. Crimson screen glow on knuckles. Documentary news photo, 35mm. Accent: crimson against charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "2) ALTERNATIVETO: <em>FIND A CHEAPER VERSION OF ANY APP</em>",
+   "hsize": 100,
+   "body": "Go to <b>alternativeto.net</b>, type in any tool you currently pay for, and it returns every substitute ranked by real user votes. Most people find a subscription they can cut the same day.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) PHOTOPEA: <em>FREE PHOTOSHOP IN YOUR BROWSER</em>",
+   "hsize": 100,
+   "body": "Adobe Photoshop charges <b>$250 a year</b>. Photopea opens PSD files, handles layers and masks, and runs in any browser for free. Go to <b>photopea.com</b> and you cannot tell the difference.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) REMOVE.BG: <em>STRIP ANY BACKGROUND IN 5 SECONDS</em>",
+   "hsize": 100,
+   "body": "Product photographers charge <b>$30 to $80 per image</b> for clean cutouts. Remove.bg does it automatically, including hair and fine edges, and the transparent PNG downloads free. Go to <b>remove.bg</b> and upload your photo.",
+   "media": "posts/2026-08-20-edu-6-free-hidden-websites-that-feel-illegal/gen-4.jpg",
+   "image_prompt": "Split-frame: left half shows a white sneaker on a cluttered table with a busy background; right half shows the identical sneaker razor-sharp against a clean transparent checkerboard, every edge perfect. A sharp dividing line runs down the center. Documentary news photo, 35mm. Accent: clean white against deep teal."
+  },
+  {
+   "type": "content",
+   "headline": "5) VIRUSTOTAL: <em>SCAN ANY FILE BEFORE YOU OPEN IT</em>",
+   "hsize": 100,
+   "pattern_break": true,
+   "body": "Go to <b>virustotal.com</b>, upload the file or paste the link, and <b>70 security engines</b> check it simultaneously in under 10 seconds. Free, no account needed. Do this every time a stranger sends you anything.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) ILOVEPDF: <em>EVERY PDF TOOL YOU WILL EVER NEED, FREE</em>",
+   "hsize": 96,
+   "body": "Adobe Acrobat charges over <b>$150 a year</b>. ilovepdf.com does all of that plus splitting, rotating, and Word conversion, completely free, no account required. Go to <b>ilovepdf.com</b> and bookmark it now.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 6 FREE WEBSITES",
+   "hsize": 100,
+   "body": "HaveIBeenPwned.com: check your stolen data\nAlternativeTo.net: find cheaper apps\nPhotopea.com: free Photoshop\nRemove.bg: strip any background\nVirusTotal.com: scan before opening\nilovepdf.com: every PDF tool free\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6 and save the last slide. These are the best free websites the internet never tells you about \ud83e\uddf0\n\nHaveIBeenPwned shows every data breach your email appeared in, completely free. AlternativeTo finds cheaper or free versions of any software you currently pay for. Photopea replaces Adobe Photoshop in your browser at no cost. Remove.bg strips any image background in five seconds, including fine hair and edges. VirusTotal scans any file or link with 70 security engines before you open it. ilovepdf merges, splits, compresses and converts any PDF without a subscription.\n\nMost people pay hundreds a year for tools they could replace and skip security checks they do not know exist. These six cover design, security, and documents. Bookmark the last slide. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: sauda_coder\n\n#freetools #productivity #businesstools #techtools #entrepreneur",
+ "pinned_comment": "Which one are you trying tonight? Slide 5 (VirusTotal) is the one most people skip until after a bad file ruins their day.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 FREE WEBSITES <em>YOU WILL USE FOR THE REST OF YOUR LIFE</em>",
+   "6 FREE WEBSITES <em>THAT FEEL LIKE CHEATING</em>",
+   "<em>6 FREE WEBSITES</em> THAT FEEL ILLEGAL TO KNOW",
+   "THE INTERNET HAS <em>6 HIDDEN WEBSITES</em> MOST PEOPLE NEVER FIND",
+   "6 WEBSITES <em>THE INTERNET NEVER TELLS YOU ABOUT</em>, ALL FREE"
+  ],
+  "scores": [
+   5,
+   6.5,
+   7.5,
+   5.5,
+   7
+  ],
+  "winner": 2,
+  "why": "\"Illegal to know\" hits you with immediate forbidden-knowledge transgression that stops scrolling faster than anything here\u2014you think \"wait, WHAT?\" before your brain finishes parsing it. \"The internet never tells you about\" is clever but lands as secondary shock value on the same transgression angle."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 FREE WEBSITES</em> REPLACING APPS YOU ARE STILL PAYING FOR",
+   "YOU ARE PAYING FOR TOOLS LIKE THESE. <em>6 FREE WEBSITES</em> THAT REPLACE THEM ALL.",
+   "ONE OF THESE <em>6 FREE WEBSITES</em> KNOWS IF YOUR EMAIL WAS STOLEN",
+   "<em>6 FREE WEBSITES</em> THAT FEEL ILLEGAL TO KNOW"
+  ],
+  "scores": [
+   6,
+   4,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "At 2am, 'feel illegal to know' stops you cold with pure 'wait, WHAT?'\u2014that transgressive angle hits way harder than [2]'s personal-safety hook or [0]'s generic value pitch. You swipe because you're genuinely curious, not because you already know what you're getting."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "HOOK IS A LABEL/APHORISM \u2014 banned by \u00a72. '6 FREE WEBSITES THAT FEEL ILLEGAL TO KNOW' is 8 words, not a sentence, has no actor, no action, no consequence. Hook law requires 12-25 words, ONE complete sentence with actor + what happened + wild specifics. Fix: convert to a sentence \u2014 e.g., 'These 6 free websites do things people pay hundreds of dollars a year for, and almost nobody knows they exist.';"
+}
