@@ -1,0 +1,116 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 PROMPTS THAT BUILD YOUR <em>90-DAY CASH RUNWAY</em> TONIGHT",
+   "kicker": "US debt just hit $40 trillion",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-21-edu-6-ai-prompts-that-debt-proof-businesses-/gen-0.jpg",
+   "image_prompt": "Dario Amodei in orange hard hat, triumphant grin, arms resting on fortress wall of stacked bills; glowing copper neon Claude logo behind; documentary photo style, electric orange against navy."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIND THE CLIENTS WHO COST MORE THAN THEY PAY</em>",
+   "hsize": 100,
+   "body": "Most owners have one client who costs more than they pay.\n\n\"Here are my clients, what they pay, and hours I spend on each: [list]. Rank by profit per hour. Who should I fire?\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>MODEL WHAT HAPPENS IF YOU LOSE 30% OF REVENUE</em>",
+   "hsize": 96,
+   "body": "Most businesses have no plan if revenue falls 30%.\n\n\"I make $[X]/month. My costs are [list]. Tell me what to cut if revenue drops 20%, 40%, then 60%.\"",
+   "media": "posts/2026-08-21-edu-6-ai-prompts-that-debt-proof-businesses-/gen-2.jpg",
+   "image_prompt": "A padlocked glass storefront door, dark empty interior visible through smeared glass \u2014 chairs upturned on tables, no lights \u2014 a large red downward arrow painted on the window; close exterior shot, overcast grey light; no readable text; documentary photo, 35mm, film grain; accent: red arrow against cold grey."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>DRAFT A PRICE INCREASE EMAIL CLIENTS WON'T HATE</em>",
+   "hsize": 100,
+   "body": "Raising prices loses fewer clients than you think. The email is the trick.\n\n\"My clients pay $[X]/month. I need to raise it to $[Y]. Write an email that explains why and keeps them.\"",
+   "media": null
+  },
+  {
+   "type": "break",
+   "headline": "<em>$40,000,000,000,000</em>",
+   "hsize": 66,
+   "body": "That is the official US national debt today. Every dollar your business earns is worth less than it was a year ago.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>AUDIT EVERY SUBSCRIPTION YOUR BUSINESS PAYS FOR</em>",
+   "hsize": 100,
+   "body": "The average small business pays for software nobody uses. This finds it.\n\n\"Here are my recurring subscriptions: [list]. Find which ones overlap, what to cut, and free alternatives for each.\"",
+   "media": "posts/2026-08-21-edu-6-ai-prompts-that-debt-proof-businesses-/gen-5.jpg",
+   "image_prompt": "A credit card flat on a dark wood desk, torn-paper squares marked with bold red X symbols scattered around it, a red pen resting across the pile; overhead flat lay, dramatic warm studio light; no readable text; documentary photo, 35mm, film grain; accent: signal red pen against deep walnut."
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>BUILD A 90-DAY CASH RUNWAY PLAN TONIGHT</em>",
+   "hsize": 100,
+   "body": "You probably cannot name how many days of cash your business has.\n\n\"I make $[X]/month and spend $[Y]/month. Rank my costs by priority. How many days of cash do I have?\"",
+   "media": "posts/2026-08-21-edu-6-ai-prompts-that-debt-proof-businesses-/gen-6.jpg",
+   "image_prompt": "A candle burned to its last stub of wick, small amber flame casting a tight circle of light on dark wood, a single gold coin resting beside the base; pitch-black background, tight close shot; no readable text; documentary photo, 35mm, film grain; accent: warm amber flame against black."
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>WRITE A PITCH FOR A GOVERNMENT CONTRACT</em>",
+   "hsize": 100,
+   "body": "Small businesses win federal contracts every month. Most have fewer than 20 employees.\n\n\"I run a [type] business. Write a capability statement for a federal contract in [industry] that makes us sound qualified.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: ALL 6 PROMPTS THAT <em>DEBT-PROOF YOUR BUSINESS</em>",
+   "hsize": 96,
+   "body": "1. Find loss-making clients\n2. Model a 20/40/60% revenue drop\n3. Write a price increase email\n4. Audit subscriptions\n5. Build 90-day cash plan\n6. Pitch a government contract\n\nDaily AI + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6. \ud83d\udd12 These are the AI prompts that find hidden losses, fix your pricing, and build a financial floor before things get harder.\n\nSix prompts: find the clients costing you more than they pay, model what happens if revenue drops 20%, 40%, or 60%, draft a price increase email your clients won't hate, audit every recurring subscription your business pays for, build a 90-day cash runway plan tonight, and write a federal capability statement to win a government contract.\n\nUS national debt crossed $40 trillion today. That means sticky inflation, tighter credit, and shrinking margins for small businesses. Build the financial floor now.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: US Treasury, Anthropic\n\n#AItools #smallbusiness #businessgrowth #entrepreneur #artificialintelligence",
+ "pinned_comment": "Which of these are you running tonight? Slide 7 is the one most owners skip, and it's usually the one that saves the business.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR BUSINESS IS LOSING MONEY. <em>6 PROMPTS THAT FIX IT</em>",
+   "6 AI PROMPTS THAT MAKE <em>YOUR BUSINESS IMPOSSIBLE TO KILL</em>",
+   "6 PROMPTS THAT FIND WHERE <em>YOUR BUSINESS BLEEDS MONEY</em>",
+   "6 AI PROMPTS THAT <em>DEBT-PROOF YOUR BUSINESS</em>",
+   "6 PROMPTS THAT TURN <em>A $40 TRILLION CRISIS INTO CASH</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   6,
+   4
+  ],
+  "winner": 2,
+  "why": "\"Bleeds money\" is visceral and specific\u2014you actually feel the problem and want to know the answer. \"Impossible to kill\" is just corporate hype that sounds fake."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 SPOTS <em>YOUR BUSINESS BLEEDS MONEY</em> MOST OWNERS OVERLOOK",
+   "6 PROMPTS THAT BUILD YOUR <em>90-DAY CASH RUNWAY</em> TONIGHT",
+   "6 PROMPTS THAT <em>DEBT-PROOF YOUR BUSINESS</em> BEFORE YOUR ACCOUNTANT BILLS YOU",
+   "6 PROMPTS THAT FIND WHERE <em>YOUR BUSINESS BLEEDS MONEY</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "'TONIGHT' is immediate and makes you feel like you could actually do this right now\u2014way stronger than 'before accountant bills.' '90-day cash runway' is a concrete metric you understand, while 'debt-proof' is just a vague promise."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on the cover. The man in the hard hat is not a recognizable person; IMAGE LAW explicitly bans 'a generated unknown face' as a cover subject. Fix: replace with the Claude logo or brand mark as the sole visual subject, a real photo of a business document/cash, or a recognizable famous founder whose story anchors the post.; SLIDE 2 LAW \u2014 slide 2 ('1) FIND THE CLIENT",
+ "topic_source": "news-anchored"
+}
