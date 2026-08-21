@@ -1,20 +1,5 @@
 [
  {
-  "page": "technology",
-  "hook": "\"A simple Google Earth flyover of Oahu reveals one of America\u2019s most important Pacific military hubs, where fighter jets, transport aircraft, missile defense systems, and naval infrastructure sit in plain view \u2708\ufe0f\ud83c\udf0a\n\nThe f",
-  "date": "2026-08-06"
- },
- {
-  "page": "technology",
-  "hook": "\"A new browser game called Hop.Earth lets you explore real road networks across the world by streaming map data directly into your browser, with no download required \ud83c\udf0d\n\nInstead of storing a massive game world, Hop.Earth ",
-  "date": "2026-08-06"
- },
- {
-  "page": "futurism",
-  "hook": "\"Meta has opened Pandora\u2019s box with its AI-infused smart sunglasses. The high-dollar accessory has sparked a heated debate over privacy, with unsavory individuals abusing the eyewear\u2019s easily-missed cameras to harass uns",
-  "date": "2026-08-06"
- },
- {
   "page": "mashable",
   "hook": "\"MCU's Blade movie may be dead, but Mahershala Ali and filmmaker Bassam Tariq have created an original action movie from its ashes. \u2060\n\u2060\n\u2060\nWritten and directed by Tariq, \"Your Mother Your Mother Your Mother\" stars Ali as ",
   "date": "2026-08-07"
@@ -45,11 +30,6 @@
   "date": "2026-08-07"
  },
  {
-  "page": "techcrunch",
-  "hook": "\"She started posting as a side project. Now @lightspeed\u2019s @zauey.talks says it\u2019s given her real-time visibility into how normal people (not just tech X) actually feel about AI.\n\n@dominicmadori on our Equity podcast digs ",
-  "date": "2026-08-06"
- },
- {
   "page": "wired",
   "hook": "\"The EU AI Act is the first-ever comprehensive legal framework on AI\u2014a \u201cglobal first,\u201d as European Commission president Ursula von der Leyen called it\u2014and aims to foster \u201ctrustworthy AI\u201d in Europe. Under Article 50 of th",
   "date": "2026-08-08"
@@ -73,26 +53,6 @@
   "page": "wired",
   "hook": "\"After a rocky start with a few failed experiments in the past few years, across the fast-food industry the pendulum seems to be swinging back in the direction of AI-drive-thru adoption.\n\nIn addition to Taco Bell and Dai",
   "date": "2026-08-07"
- },
- {
-  "page": "wired",
-  "hook": "\"Security researchers tracked and eavesdropped on a WIRED reporter using vulnerabilities in a pink plastic smartwatch. It\u2019s just one piece of a deeply insecure supply chain of GPS-enabled gadgets.\n\nAt the Black Hat cyber",
-  "date": "2026-08-06"
- },
- {
-  "page": "wired",
-  "hook": "\"Viral discourse about celebrity women becoming frighteningly thin has become inescapable on social media.\n\nThe discourse has reached a fever pitch after Ariana Grande released a music video for her new single and album ",
-  "date": "2026-08-06"
- },
- {
-  "page": "wired",
-  "hook": "\"Puck\u2019s Matthew Belloni says AI has quietly become part of everyday filmmaking. The battle now isn\u2019t whether Hollywood will use the technology\u2014it\u2019s who controls what\u2019ll come next.\n\nTap the \ud83d\udd17 in bio for the full episode. ",
-  "date": "2026-08-06"
- },
- {
-  "page": "wired",
-  "hook": "\"OpenAI\u2019s Atlas web browser could have security protections bypassed and be tricked into spamming dozens of WhatsApp contacts or making unauthorized purchases on Amazon, according to new research presented today at the B",
-  "date": "2026-08-06"
  },
  {
   "page": "technology",
@@ -462,6 +422,106 @@
  {
   "page": "mashable",
   "hook": "\"When I was growing up, there were few words more devastating than \u201cposer.\u201d \n\nI still remember getting called one during my freshman year of high school after showing up in a pair of DC skate shoes. It didn\u2019t matter that",
+  "date": "2026-08-19"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Take-Two lost around $2.8 billion in market value during the latest GTA 6 leak wave, as fresh gameplay footage spread online and shares dropped sharply \ud83c\udfae\ud83d\udcc9\n\nTake-Two shares reached $248.39 on August 18 before later falli",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Normally, you\u2019d imagine huge megacorporations having a personal army of the best lawyers in the world who can spin anything in their favor. You\u2019d certainly think that would be the case for 3M, the industrial conglomerat",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"The guy we have to thank for Dick Cheney living as long as he did with extraordinary heart problems says that president Donald Trump ain\u2019t looking too hot.\n\n\u201cThe president has not looked well,\u201d wrote Jonathan Reiner, a ",
+  "date": "2026-08-19"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Finally! New Blue Samurai on the way. \ud83d\ude31\n\nMade possible by @rodemic.\n\n#bluesamurai #netflix #allaccess #animenyc #rode\".",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Jacob Romero Gibson, actor from the live-action \u201cONE PIECE\u201d series on Netflix, chats about his character in the upcoming LEGO x ONE PIECE  series. \n\n#anime #animenyc #lego #onepiece #rodemic\".",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"New episodes are a\u2019comin\u2019 on February 2027! \n\nMade possible by @rodemic.\n#rode #onepiece #netflix #ussop #allaccess\".",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"BASS X MACHINA has a STACKED cast. We\u2019re not ready.\n#anime #animenyc #rode #rodemic\".",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Season 2 is coming January 2027. \ud83c\udfea\n\nMade possible by @rodemic.\n#anime #animenyc #bassxmachina #allaccess #netflix\".",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Brian Tyree Henry makes a guest appearance at @animenyc to announce his new project, BassXMachina.\n#animenyc #anime #animescenes #rode #rodemic\".",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"A whole summer of testing portable fans means we are 100% sure about our final choice. \u2060\n#portablefans #summerweather\".",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Everyone knows the party scene in LA is iconic. But for a bunch of very young entrepreneurs, it\u2019s also turning into big business.\n\nJack Schwartz is the 21-year-old founder of MyPlots (@myplotsapp), a party promotion and",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Silicon Valley is already convinced that AI agents are the future. In the heart of the tech industry, people are designing payment systems for agents, using them to automate their jobs, and most recently, trying to stop",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Just as the US\u2019s explosive diarrhea situation is starting to improve, there seem to be fresh new food risks to worry about. Jalape\u00f1o peppers, eggs, granola, and even dog food are being recalled because of possible conta",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Last week, Clint Curtis, the top election official in Shasta County, California, publicly accused members of his own staff of bypassing security, which he later claimed was an attempt \u201cto sabotage a federal election.\u201d\n\n",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Elon Musk is expected to spend big to boost Republicans in the midterms this November, according to Trump officials briefed on the matter.\n\nThe precise amount could change, but the officials expect Musk to spend around ",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "wired",
+  "hook": "\"At 14, Jack Schwartz started throwing parties in Los Angeles. At 21, he\u2019s the founder of MyPlots, a party promotion and ticketing company that now has more than 1 million users.\n\nWhen WIRED asks Schwartz how much he\u2019s c",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Vehicle surveillance giant Flock Safety has told the public for years that its technology \u201ccannot recognize, identify, or track individuals.\u201d It has now built a system that does both, an artificial intelligence tool for",
+  "date": "2026-08-19"
+ },
+ {
+  "page": "wired",
+  "hook": "\"The replica watch industry is in its \u201csuper clone\u201d era. Following tips from murky internet forums, we bought three budget fakes that were good enough to pass as real\u2014but ultimately disposable.\n\nTap the \ud83d\udd17 in bio for the ",
+  "date": "2026-08-19"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Within four hours of Anthropic confirming Claude models would globally embed invisible, machine-readable watermarks into any AI-generated content, developer Guillaume Meyer had published his override.\n\nHis code to remov",
+  "date": "2026-08-19"
+ },
+ {
+  "page": "wired",
+  "hook": "\"When someone uploads a photo to the people-search tool ClarityCheck, the website has a clear message: \u201cYour reverse image search is private and secure.\u201d New research, though, shows that the website left more than 9 mill",
   "date": "2026-08-19"
  }
 ]
