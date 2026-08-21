@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21T06:56:08.884295+00:00",
+ "updated": "2026-08-21T08:57:25.601088+00:00",
  "guides": [
   {
    "id": "2089269499942117390",
@@ -457,6 +457,37 @@
    "video": null,
    "guide": true,
    "born": 1786438754.334199
+  },
+  {
+   "id": "2090274598856052843",
+   "title": "Grok Bot is getting ridiculous. People are controlling robots, shipping games, buying domains + running entire repos from their phone. 10 wild examples:",
+   "sub": "minchoi",
+   "where": "@minchoi on X",
+   "unit": "likes",
+   "selftext": "Grok Bot is getting ridiculous. People are controlling robots, shipping games, buying domains + running entire repos from their phone. 10 wild examples:",
+   "permalink": "https://x.com/minchoi/status/2090274598856052843",
+   "outlink": null,
+   "score": 1019,
+   "comments_n": 68,
+   "views": 2645368,
+   "age_h": 29.8,
+   "vph": 34.2,
+   "image": null,
+   "video": null,
+   "guide": true,
+   "thread": [
+    "1. Remote lawn mower from 50 MILES away. Start it. Mow. Dock it. All through Grok Bot.",
+    "3. 74 game-art assets Generated. Cropped. Organized. Wired into the actual game. ~2 hours.",
+    "2. Text your robot vacuum from anywhere.",
+    "6. One Grok Bot becomes the boss of your repo. Then it recruits MORE agents to get the work done. Two prompts.",
+    "5. You can SSH Grok Bot into your Mac. Then let it run local scripts + AppleScript on your own computer.",
+    "4. Grok Bot built an Arduino LED stock ticker. Live $SPCX price. Graph. SpaceX news. Physical AI dashboard \ud83e\udd2f",
+    "8. Bee Pioneer pin + a Grok Bot that becomes a nightly Relationship Coach. Your AI agent follows up while you sleep.",
+    "7. Someone told Grok Bot to install Commander Keen on its cloud computer... Then it actually played the game \ud83d\ude02",
+    "10. From a PHONE: Build the website. Buy the domain. Deploy it. Convex + Cloudflare. Two prompts.",
+    "9. Grok Bot completed Google's: \"I\u2019m not a robot.\""
+   ],
+   "born": 1787195365.601088
   }
  ]
 }
