@@ -1,0 +1,109 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמישה סרטונים שסוכנויות גובות עליהם $3,000. <em>Grok Bot עושה אותם בחינם</em>",
+   "kicker": "החליקו כדי לקבל את כל חמשת הפרומפטים",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-21-edu-5-business-videos-grok-bot-makes-free-fr/gen-0.jpg",
+   "image_prompt": "Elon Musk waist-up, triumphant grin, inside a cluttered garage workshop, holding a glowing smartphone raised toward camera with both hands, five electric-blue video thumbnail frames fanning from the phone screen like a dealt hand of cards, blue phone-glow casting dramatic upward light across his face, heavy shelves loaded with tools and coiled cables behind him, the X logo exactly as in the reference image glowing white on the dark wall above his shoulder, a crumpled paper invoice on the workbench edge stamped 'FREE' in bold red letters. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: electric blue against dark rust-brown workshop walls."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) צרו סרטון הסבר על המוצר שלכם</em> ב-$0",
+   "body": "<b>סרטון הסבר של דקה</b> עולה <b>$2,500</b> בסטודיו. פרומפט: \"צור סרטון הסבר של דקה על [מה שאתם עושים]. הצג בעיה, פתרון ומספר תוצאה אחד אמיתי. שיחתי, לא תאגידי.\"",
+   "hsize": 104,
+   "media": "posts/2026-08-21-edu-5-business-videos-grok-bot-makes-free-fr/gen-1.jpg",
+   "image_prompt": "Tight overhead close-up: a crumpled paper invoice on a rough dark wooden surface, a thick red X slashed across it in wide marker strokes with orange accent glow on the ink, beside a glowing phone screen showing a clean video frame with a bold product silhouette and a large play-button triangle symbol, no readable text on any surface. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: signal orange against dark weathered wood."
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) צרו את סרטון ה-FAQ</em> שיחסל את השאלות החוזרות",
+   "body": "הצוות שלכם עונה על אותה שאלה עשרות פעמים בשבוע. פרומפט: \"הלקוחות שלי תמיד שואלים: [שאלה]. צור סרטון של 45 שניות שעונה עליה שלב אחר שלב, עם פעולה ברורה בסוף.\"",
+   "hsize": 90,
+   "media": "posts/2026-08-21-edu-5-business-videos-grok-bot-makes-free-fr/gen-2.jpg",
+   "image_prompt": "Overhead close-up of a smartphone screen packed with a flood of identical envelope notification icons in dense stacked columns, a bursting red badge counter symbol at the corner, the phone resting on a dark desk beside a laptop casting a teal glow, the laptop screen showing a bold play-button triangle on a dark video thumbnail, no readable text anywhere. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: teal against dark charcoal desk."
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) הפכו את הביקורת הכי טובה שלכם</em> לסרטון המלצה",
+   "body": "הביקורת הכי טובה שלכם יושבת עכשיו ב-Google ולא עושה כלום. פרומפט: \"הפוך את הביקורת הזו לסרטון המלצה של 30 שניות: [ביקורת]. הצג מצב לפני, תוצאה אחרי, מספר מפתח גדול על המסך.\"",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>פי ארבעה לידים</em> באותו דף",
+   "body": "זה הממוצע כשסרטון מחליף קיר של טקסט. Grok Bot הפך את השדרוג הזה לחינמי",
+   "hsize": 90,
+   "pattern_break": true,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) צרו את סרטון ההשוואה</em> שסוגר את העסקה",
+   "body": "רוב האנשים עוזבים את האתר שלכם בלי שהבינו למה אתם עדיפים. פרומפט: \"צור סרטון השוואה של 45 שניות בין [העסק שלי] לבין [מתחרה] על שלושה דברים שחשובים ללקוחות הכי הרבה. ברור וישר, לא אגרסיבי.\"",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) החליפו את פגישת הקליטה</em> בסרטון",
+   "body": "רוב בעלי העסקים חוזרים על אותו בריפינג ביום הראשון בכל פעם שמישהו מצטרף. פרומפט: \"צור סרטון קליטה של שתי דקות לעובד חדש בתפקיד [שם תפקיד]. כסה שלושה דברים חיוניים לשבוע הראשון. בלי ז'רגון, רק מעשי.\"",
+   "hsize": 92,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו: חמישה סרטונים</em> ש-Grok Bot עושה בחינם",
+   "body": "סרטון הסבר ($2,500, עכשיו $0)\nסרטון FAQ שמחסל את השאלות החוזרות\nהביקורת הכי טובה כסרטון שאפשר לשתף\nהשוואה למתחרים שסוגרת עסקאות\nסרטון קליטה, בלי פגישת יום ראשון\n\nחדשות AI יומיות + כישורים אמיתיים",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Grok Bot כבר יודע לעשות סרטונים. אלה חמשת הסרטונים שכל בעל עסק צריך, עם הפרומפט המדויק לכל אחד 🎬\n\n1) סרטון הסבר על המוצר, נבנה ממשפט אחד על מה שמוכרים. 2) סרטון FAQ שעונה על השאלה הכי חוזרת פעם אחת ולתמיד. 3) סרטון המלצה שהופך את הביקורת הכתובה הכי טובה למשהו שאנשים צופים בו ומשתפים. 4) השוואה למתחרים שמראה למה אתם עדיפים לפני שהלקוח עובר לאחרים. 5) סרטון קליטה שמחליף את הבריפינג ביום הראשון.\n\nסרטון זה הדבר שרוב העסקים יודעים שצריך ולא עושים בגלל העלות. סרטון הסבר של דקה עולה $2,500 בסטודיו. Grok Bot מוחק את התירוץ הזה. כל סרטון ברשימה עולה כלום ואפשר לבנות מהטלפון הלילה. מנהלים עסק? שלחו לנו DM עם 'AI' ונראה לכם מה זה יכול לעשות בשבילכם.\n\nמקורות: X, Wistia, Unbounce, ממוצעי תעשיית הפקת וידאו\n\nלחדשות AI יומיות ועוד כלים: @ainews.israel\n\n#AI #Marketing #BusinessOwner #GrokBot #ContentCreation",
+ "pinned_comment": "באיזה אחד מתחילים? שקופית 5 היא הנסתרת. רוב בעלי העסקים חוזרים על אותו בריפינג ביום הראשון בכל פעם שמישהו מצטרף, ובכלל לא יודעים ש-Grok Bot יכול פשוט לקחת את זה.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>PEOPLE ARE GETTING FREE MARKETING VIDEOS</em> FROM A CHATBOT",
+   "5 VIDEOS THAT COST THOUSANDS YESTERDAY. <em>FREE TODAY</em>",
+   "<em>VIDEO AGENCIES CHARGE $3,000.</em> GROK BOT CHARGES NOTHING"
+  ],
+  "scores": [
+   4,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "$3,000 anchors a story you already understand—bot disrupting agencies—so you'd swipe for proof. 'Went free' is too cryptic and vague, making you solve a riddle instead of believing a story."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>VIDEO AGENCIES CHARGE $3,000.</em> GROK BOT CHARGES NOTHING",
+   "<em>5 VIDEOS GROK BOT MAKES FREE</em> THAT VIDEO AGENCIES CHARGE $3,000 FOR",
+   "5 VIDEOS <em>AGENCIES BILL YOU $3,000 FOR.</em> GROK BOT MAKES THEM FREE"
+  ],
+  "scores": [
+   5,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] hits harder because 'BILL YOU' makes the pain personal and accusatory—I feel like the victim this solves for—while the two short sentences parse in one breath. [1] has the same specificity but awkward word order ('MAKES FREE THAT CHARGE') costs it a beat of readability."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "",
+ "editor_override": "IMAGE LAW — CAST TRUTH FAIL: The cover shows Elon Musk, who has no role in this story. The story is about a tool capability (Grok Bot making business videos). Musk is decoration. Doctrine mandates REJECT when a recognizable famous person has no role in the specific story. Secondary image problem: the video cards in the image show SpaceX rockets and space footage — not product explainers, FAQ video",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

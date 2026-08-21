@@ -1,13 +1,6 @@
 [
  {
   "gate": "B",
-  "reason": "Cover image is decoration, not proof or a staged scene (§3): A giant illuminated star on a storefront is a visual metaphor for 'star ratings' but shows no moment from the story and proves nothing about AI-written review responses. Fix: replace with a staged scene — a business owner at a screen with a 1-star notification visible, or a split-card showing the bad review then the owner's typed reply. ",
-  "subject": "6 AI PROMPTS THAT TURN <em>1-STAR REVIEWS</em> INTO REPEAT CUSTOMERS",
-  "t": "2026-08-11T21:09:05Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
   "reason": "Cover image fails the thumb test (§3). The giant glowing gold star over a brick building is symbolic decoration — at feed size, a cold scroller reads 'star rating' at best, never 'AI prompts' or 'fixing a bad review.' Image Law requires PROOF or a STAGED SCENE of the story. Fix: replace with a human face — a business owner staring at their phone with a visible 1-star notification, or a split-scree",
   "subject": "6 AI PROMPTS THAT TURN <em>1-STAR REVIEWS</em> INTO REPEAT CUSTOMERS",
   "t": "2026-08-11T21:11:31Z",
@@ -2098,5 +2091,12 @@
   "subject": "<em>6 THINGS YOUR BUSINESS PAYS FOR</em> DEEPSEEK NOW DOES FREE",
   "verdict": "REJECT",
   "reason": "SHUFFLE TEST (hard gate): All 6 content slides are independently readable in any order. Slide 3 (contract clause) has zero dependency on slide 2 (competitor pricing); slide 5 (product photos) has zero dependency on slide 4 (dashboard). This is a numbered list, not a chain. Fix: restructure so each use case builds causally on the one before — e.g., read the competitor price (slide 2) → check the co"
+ },
+ {
+  "t": "2026-08-21T18:36:51Z",
+  "gate": "A",
+  "subject": "‼️THIS IS SHOCKING — AND DISGUSTING...SHAME ON GOOGLE. I typed into Google AI: “There is a Palestinian in my neighborhoo",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: an X user tested Google AI and posted a screenshot complaint—zero real-world consequence, money moved, product change, or event anyone would DM a friend."
  }
 ]
