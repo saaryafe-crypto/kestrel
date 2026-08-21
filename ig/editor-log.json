@@ -1,61 +1,5 @@
 [
  {
-  "t": "2026-08-15T00:15:28Z",
-  "gate": "A",
-  "subject": "The print looks insane",
-  "verdict": "KILL",
-  "reason": "One vague sentence with zero facts, consequence, or context leaves nothing but padding—pure no-substance instant kill."
- },
- {
-  "t": "2026-08-15T00:15:31Z",
-  "gate": "A",
-  "subject": "You can literally see his soul leave for a second 😭",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no substance: a single 51-character tweet containing zero facts, no identifiable person, no real event, and no consequence—exactly the failure mode the Mario Lopez post-mortem died to prevent."
- },
- {
-  "t": "2026-08-15T00:15:41Z",
-  "gate": "A",
-  "subject": "https://t.co/EkmupT8AST",
-  "verdict": "KILL",
-  "reason": "Scout interest 0/10 + bare URL with zero context = no substance; a single thin tweet with no facts, consequences, or publishable detail behind it."
- },
- {
-  "t": "2026-08-15T00:56:21Z",
-  "gate": "B",
-  "subject": "6 PROMPTS THAT REPLACE YOUR <em>$8,000 WEB AGENCY</em> AND <em>FEEL ILLEGAL</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — generated unknown face on the cover: The cover subject is a clearly AI-generated non-famous person. IMAGE LAW explicitly bans this: 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' Famous faces or no faces. This alone is a hard reject.; IMAGE LAW / TRUTH LAW — misleading Anthropic branding: The Anthropic logo appears prominently on"
- },
- {
-  "t": "2026-08-15T00:58:10Z",
-  "gate": "B",
-  "subject": "6 PROMPTS THAT REPLACE YOUR <em>$8,000 WEB AGENCY</em> AND <em>FEEL ILLEGAL</em>",
-  "verdict": "REJECT",
-  "reason": "Cover image shows a generated unknown face — a man in Anthropic-branded coveralls holding a paint roller. Image Law is explicit: 'Never a generated unknown face.' The allowed options are a recognizable famous person, the product with its brand mark in frame, or real photo/footage of the event. This is none of those.; Anthropic's logo and branding dominate the cover (on the jacket, on the backgroun"
- },
- {
-  "gate": "A",
-  "reason": "On-topic but routine: AI research announcement missing the wild-but-true story and felt consequence that earns a post—Claude failed at the stated goal, no human story, and math jargon too specialized for core readers to resend.",
-  "subject": "Absolutely insane. This might be the clearest glimpse yet of how AI will transform scientific discovery. Anthropic asked",
-  "t": "2026-08-11T20:05:43Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Single tweet making an unsupported claim with no event, proof, numbers, or real-world consequence — writer would have to pad pure speculation across slides.",
-  "subject": "And the only system that can support the insanely fast bandwidth growth needed by AI is Starlink",
-  "t": "2026-08-11T20:06:04Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Thin tweet with nothing behind it—no second fact, no numbers, no consequence to build slides from.",
-  "subject": "JUST IN: Meta CEO Mark Zuckerberg says everyone will have a personal AI agent \"that understands you…and everything you c",
-  "t": "2026-08-11T20:06:34Z",
-  "verdict": "KILL"
- },
- {
   "gate": "B",
   "reason": "Cover image is decoration, not proof or a staged scene (§3): A giant illuminated star on a storefront is a visual metaphor for 'star ratings' but shows no moment from the story and proves nothing about AI-written review responses. Fix: replace with a staged scene — a business owner at a screen with a 1-star notification visible, or a split-card showing the bad review then the owner's typed reply. ",
   "subject": "6 AI PROMPTS THAT TURN <em>1-STAR REVIEWS</em> INTO REPEAT CUSTOMERS",
@@ -2098,5 +2042,61 @@
   "subject": "5 VIDEOS <em>AGENCIES BILL YOU $3,000 FOR.</em> GROK BOT MAKES THEM FREE",
   "verdict": "REJECT",
   "reason": "IMAGE LAW — CAST TRUTH FAIL: The cover shows Elon Musk, who has no role in this story. The story is about a tool capability (Grok Bot making business videos). Musk is decoration. Doctrine mandates REJECT when a recognizable famous person has no role in the specific story. Secondary image problem: the video cards in the image show SpaceX rockets and space footage — not product explainers, FAQ video"
+ },
+ {
+  "t": "2026-08-21T17:31:40Z",
+  "gate": "A",
+  "subject": "BREAKING: Bitcoin surges above $79,000, now up +30% in 4 days. Crypto markets have now added +$450 billion in market cap",
+  "verdict": "KILL",
+  "reason": "On-topic but routine: this is a market-wrap price movement with no person, protagonist, or real-world consequence—exactly the banned format in §1 (market wraps, stocks-rose-today)."
+ },
+ {
+  "t": "2026-08-21T17:31:47Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk’s massive Terafab project in Texas is growing fast. A company linked to Elon now owns 20 properties ",
+  "verdict": "KILL",
+  "reason": "Routine project-expansion news with no felt consequence—Elon's company acquired more Texas land for already-known Terafab; $16.8B is a projection, not money that moved; the story has no viral-specific watershed moment, discrete outcome, or reason a reader would send this to a friend."
+ },
+ {
+  "t": "2026-08-21T17:31:47Z",
+  "gate": "A",
+  "subject": "Starlink now has 11k satellites in orbit",
+  "verdict": "KILL",
+  "reason": "One thin tweet (40 chars) containing only a single milestone number with zero consequence, context, or second fact — NO SUBSTANCE instant kill; would require heavy padding to fill slides."
+ },
+ {
+  "t": "2026-08-21T17:32:09Z",
+  "gate": "A",
+  "subject": "A woman allegedly stole at least $4 billion, boarded a plane in 2017, and disappeared. Nearly a decade later, the FBI st",
+  "verdict": "KILL",
+  "reason": "Historical true-crime retelling (2017 event) lacks current news hook and tech-innovation angle; baseline scout score (5/10) provides no override for brand misalignment with tech-focused pages."
+ },
+ {
+  "t": "2026-08-21T17:32:35Z",
+  "gate": "A",
+  "subject": "\"The era of cheap used cars is rapidly disappearing,\" per YF",
+  "verdict": "KILL",
+  "reason": "Pure NO SUBSTANCE: one vague market claim (60 characters total) with zero numbers, zero specific event, zero person affected, zero consequence—nothing to build slides from (§1 INSTANT KILL)."
+ },
+ {
+  "t": "2026-08-21T17:32:40Z",
+  "gate": "A",
+  "subject": "wtf is happening today: DeepSeek has launched DeepSeek-V4-Flash-Vision-Exp, an experimental multimodal model built for a",
+  "verdict": "KILL",
+  "reason": "This is a routine product-launch announcement (banned in §1 as 'launch previews'), with no human protagonist, financial consequence, real-world stakes, or story—and the 4/10 scout score requires an exceptional reason to pass, which this does not have."
+ },
+ {
+  "t": "2026-08-21T17:32:55Z",
+  "gate": "A",
+  "subject": "BREAKING: Representative Ro Khanna just updated his 2025 annual financial disclosure: 5,402 trades Up to $165.4 million ",
+  "verdict": "KILL",
+  "reason": "A routine financial disclosure filing with raw numbers is data, not a story — it lacks the real-world event or consequence that qualifies under Story Law."
+ },
+ {
+  "t": "2026-08-21T18:04:52Z",
+  "gate": "B",
+  "subject": "<em>6 THINGS YOUR BUSINESS PAYS FOR</em> DEEPSEEK NOW DOES FREE",
+  "verdict": "REJECT",
+  "reason": "SHUFFLE TEST (hard gate): All 6 content slides are independently readable in any order. Slide 3 (contract clause) has zero dependency on slide 2 (competitor pricing); slide 5 (product photos) has zero dependency on slide 4 (dashboard). This is a numbered list, not a chain. Fix: restructure so each use case builds causally on the one before — e.g., read the competitor price (slide 2) → check the co"
  }
 ]

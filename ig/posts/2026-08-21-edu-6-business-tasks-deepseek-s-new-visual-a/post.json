@@ -1,0 +1,107 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 THINGS YOUR BUSINESS PAYS FOR</em> DEEPSEEK NOW DOES FREE",
+   "kicker": "LAUNCHED TODAY. ALL FREE.",
+   "hsize": 72,
+   "media": "posts/2026-08-21-edu-6-business-tasks-deepseek-s-new-visual-a/gen-0-r.jpg",
+   "image_prompt": "DeepSeek logo glowing electric blue, single dollar symbol accent, dark near-black background, centered minimalist composition."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIND EVERY MISSED PAYMENT IN 60 SECONDS</em>",
+   "hsize": 100,
+   "body": "Doing this manually for one month of invoices takes <b>2 to 3 hours</b> out of your week. This takes <b>60 seconds</b>.",
+   "media": "posts/2026-08-21-edu-6-business-tasks-deepseek-s-new-visual-a/gen-1.jpg",
+   "image_prompt": "Hands sorting printed invoices on a desk, the top page circled in red pen around a bold dollar-sign symbol, a laptop screen showing a red exclamation triangle beside it. Warm desk lamp. Accent: electric blue against dark wood. Documentary news photo, 35mm, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>READ YOUR COMPETITOR'S PRICES IN ONE SCREENSHOT</em>",
+   "hsize": 100,
+   "body": "DeepSeek lists every plan, price, and feature, and what they are burying in the fine print. What used to take a <b>2-hour manual scan</b> takes one prompt.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>PASTE A CONTRACT CLAUSE. KNOW WHAT YOU'RE SIGNING.</em>",
+   "hsize": 96,
+   "body": "DeepSeek translates it into plain English and flags what you should push back on. A business lawyer charges <b>$350 to $500 an hour</b> for this same read.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) YOUR BUSINESS HEALTH. 60 SECONDS.",
+   "hsize": 84,
+   "layout": "break",
+   "body": "Send your dashboard. Get a plain English diagnosis in <b>60 seconds</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>AUDIT YOUR PRODUCT PHOTOS BEFORE YOU POST THEM</em>",
+   "hsize": 96,
+   "body": "DeepSeek tells you what a buyer notices in the first <b>3 seconds</b>: wrong lighting, bad framing, cluttered background. Catching this before posting saves you from listings that get views but no sales.",
+   "media": "posts/2026-08-21-edu-6-business-tasks-deepseek-s-new-visual-a/gen-5.jpg",
+   "image_prompt": "Small product bottle on a white tabletop, two hands raising a phone overhead to photograph it, a second phone screen in the foreground showing three checkmark bullet symbols. Bright window daylight. Accent: orange against white. Documentary news photo, 35mm, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>TURN A WHITEBOARD PHOTO INTO A CLEAN ACTION LIST</em>",
+   "hsize": 90,
+   "body": "DeepSeek reads your handwriting and breaks everything into three buckets: decisions made, open questions, and next steps. No more lost action items by the time you get back to your desk.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>6 THINGS DEEPSEEK DOES FROM A SCREENSHOT</em>",
+   "hsize": 90,
+   "body": "Find missed payments from invoice screenshots\nGet any contract clause in plain English\nDiagnose your dashboard in 60 seconds\nTurn whiteboard photos into action lists\n\nDaily AI news and real skills for business owners",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 things DeepSeek's new visual AI does from a screenshot tonight \ud83d\udcf8 invoices, contracts, competitor pages, dashboards, photos, and whiteboards.\n\n1 is the fastest way to find overdue payments hiding in your invoice stack, 2 is how to get a full competitor breakdown from one screenshot of their pricing page, 3 is getting any contract clause translated into plain English before you sign, 4 is sending your sales dashboard to DeepSeek and getting a plain English diagnosis in under a minute, 5 is auditing your product photos for everything a buyer notices in the first 3 seconds, 6 is turning any whiteboard photo into a clean action list with owners and next steps.\n\nDeepSeek launched a visual AI today that reads any image you send it. Every document, photo, and screen in your business is now readable in under a minute. Running a business? DM us \"AI\" and we'll show you what this does for yours.\n\nSources: DeepSeek, X (DeepSeek-V4-Flash-Vision-Exp official launch, Aug 21 2026)\n\n#artificialintelligence #deepseek #businesstools #aitools #productivity",
+ "pinned_comment": "Which one are you trying first? Slide 6 (the whiteboard) is the most slept-on. Take a photo after your next meeting, paste it in, and you will never go back to typed notes.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 BUSINESS TASKS <em>DEEPSEEK NOW READS FROM A PHOTO</em>",
+   "<em>DEEPSEEK JUST LEARNED TO SEE.</em> 6 FREE BUSINESS USES",
+   "6 PAID SERVICES <em>DEEPSEEK NOW DOES FREE</em> FROM A SCREENSHOT",
+   "<em>DEEPSEEK'S NEW VISUAL AI</em> HANDLES 6 BUSINESS TASKS TONIGHT",
+   "6 THINGS <em>DEEPSEEK CAN NOW DO</em> WITH A SCREENSHOT"
+  ],
+  "scores": [
+   6,
+   8,
+   7,
+   5,
+   6
+  ],
+  "winner": 1,
+  "why": "\"JUST LEARNED TO SEE\" stops me cold\u2014that phrasing hits like a real discovery, not a marketing email, and makes my brain go \"wait, WHAT?\" in 1.7 seconds. The others feel like standard AI feature drops; this one feels like I'm seeing something actually *new* unfold."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "DEEPSEEK CAN NOW SEE. <em>6 FREE TASKS MOST BUSINESSES OVERLOOK.</em>",
+   "<em>DEEPSEEK JUST LEARNED TO SEE.</em> 6 FREE BUSINESS USES",
+   "<em>6 THINGS YOUR BUSINESS PAYS FOR</em> DEEPSEEK NOW DOES FREE",
+   "6 <em>PAID BUSINESS TASKS</em> AI NOW DOES <em>FROM A SCREENSHOT</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   9,
+   6
+  ],
+  "winner": 2,
+  "why": "Candidate 2 leads with the pain (things you PAY for), then flips it with the payoff (now FREE)\u2014that contrast is the 'wait, WHAT?' moment that stops scrolling. The others just announce a feature without telling you why it matters."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "SHUFFLE TEST (hard gate): All 6 content slides are independently readable in any order. Slide 3 (contract clause) has zero dependency on slide 2 (competitor pricing); slide 5 (product photos) has zero dependency on slide 4 (dashboard). This is a numbered list, not a chain. Fix: restructure so each use case builds causally on the one before \u2014 e.g., read the competitor price (slide 2) \u2192 check the co",
+ "topic_source": "news-anchored"
+}
