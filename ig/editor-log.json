@@ -1,75 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Product launch announcement with no real-world event, consequence, or substance—on-topic-but-routine banned format.",
-  "subject": "Gemini 3.7 Flash is here. It’s stronger for coding, knowledge work, and web development. 🧵",
-  "t": "2026-08-14T18:05:31Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait with no substance: the entire source is one thin caption about someone's facial reaction in a video, with zero context, zero consequence, and no real event to build slides from.",
-  "subject": "You can literally see his soul leave for a second 😭",
-  "t": "2026-08-14T18:05:52Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One 89-character claim with zero names, numbers, proof, or specific consequence—pure no-substance (writer would pad), and the 0/10 scout interest confirms it's not the jaw-dropping real-world story the page models.",
-  "subject": "Stray dog gets a present everyday for the woman that’s feeding him as a way to thank her.",
-  "t": "2026-08-14T18:05:58Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Scout interest of 0/10 with no story substance described and no exceptional reason provided; the doctrine requires under-5 scouts to have exceptional cause, and reaction-bait or no-substance stories are exactly how this page shipped its worst posts—next candidate gets the slot.",
-  "subject": "https://t.co/EkmupT8AST",
-  "t": "2026-08-14T18:06:14Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-brand sports history with no tech angle, sourced from a 51-character tweet with no substance.",
-  "subject": "Muhammad Ali dodges 21 punches in 10 seconds (1977)",
-  "t": "2026-08-14T18:06:16Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "Hook is 9 words — below the 12-word minimum — and names no actor. 'AI NOW FINISHES IN MINUTES' gives a reader nothing specific to repeat to a friend. Fix: rewrite naming Gemini 3.7 Flash and the launch, e.g. 'GOOGLE LAUNCHED GEMINI 3.7 FLASH TODAY AND IT FINISHES 6 HOUR-LONG TASKS IN MINUTES' (~15 words).; Cover image fails IMAGE LAW. The photo shows Sundar Pichai at what is clearly an EU summit (",
-  "subject": "6 <em>HOUR-LONG TASKS</em> AI NOW FINISHES IN MINUTES",
-  "t": "2026-08-14T18:48:39Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "HOOK AND VIOLATION (§2): 'GOOGLE LAUNCHED GEMINI 3.7 FLASH TODAY AND IT FINISHES 6 HOUR-LONG TASKS IN MINUTES' joins two actions with AND, which Hook Law explicitly bans. Fix: pick one claim and own it — either the launch fact or the cost-displacement payoff, not both stapled together.; COVER IMAGE IS DECORATION (§3): The Sundar Pichai photo is from an EU visit — EU flag stars are clearly visible ",
-  "subject": "GOOGLE LAUNCHED <em>GEMINI 3.7 FLASH</em> TODAY AND IT FINISHES 6 HOUR-LONG TASKS IN MINUTES",
-  "t": "2026-08-14T18:52:32Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-08-14T20:07:10Z",
-  "gate": "A",
-  "subject": "Can you blame him for reacting like this? 😳",
-  "verdict": "KILL",
-  "reason": "Textbook reaction-bait with zero substance — the entire story is an unknown person reacting to an unnamed event, engagement metrics as the payoff, and no real-world consequence, second fact, or buildable detail."
- },
- {
-  "t": "2026-08-14T20:07:14Z",
-  "gate": "A",
-  "subject": "Tesla self-driving is amazing",
-  "verdict": "KILL",
-  "reason": "No substance — the entire source is a one-sentence opinion with zero facts, numbers, or real-world event; nothing for a writer to build from, only padding."
- },
- {
-  "t": "2026-08-14T20:07:52Z",
-  "gate": "A",
-  "subject": "Waitress Melina Salazar spent nearly seven years serving a notoriously rude customer who never left her a tip. When he d",
-  "verdict": "KILL",
-  "reason": "Off-brand human-interest story with no technology angle and only 3/10 scout interest—misaligned with @technology, @getintoai, @techskills."
- },
- {
   "t": "2026-08-14T20:08:19Z",
   "gate": "A",
   "subject": "BREAKING: The US Government officially posts its largest July budget deficit in history, at -$432 billion, due to an acc",
@@ -2098,5 +2028,75 @@
   "subject": "<em>A DAD BUILT</em> HIS NEPHEW'S FAVORITE APP. HE CAN'T CODE.",
   "verdict": "REJECT",
   "reason": "COVER IMAGE — CAST TRUTH VIOLATION (hard reject): The cover shows Elon Musk. The story is about an anonymous dad who used Grok Build; Musk has no role in this story. Image Law is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT — a celebrity as decoration breaks image-headline connection.' Musk as decoration here is the exact failure"
+ },
+ {
+  "t": "2026-08-21T06:03:19Z",
+  "gate": "A",
+  "subject": "Margaret Qualley (almost barefoot) at the premiere of 'The Dog Stars' in London",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: the 'story' is that people liked a photo of a celebrity at a premiere (9,370 engagement metrics), not a real-world event with consequences—no second fact, no numbers to build from, and a 0/10 scout score signals the picker found nothing viral-specific here."
+ },
+ {
+  "t": "2026-08-21T06:03:28Z",
+  "gate": "A",
+  "subject": "Accurate graph 😂",
+  "verdict": "KILL",
+  "reason": "No substance: the entire source is one thin tweet with zero numbers, context, or consequence to build from."
+ },
+ {
+  "t": "2026-08-21T06:03:29Z",
+  "gate": "A",
+  "subject": "🇨🇳 Robot ran too fast to stop, crashed into the cushion and broke its waist. Cool, we can sleep tight for now. The upris",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: a thin joke-tweet with no verifiable event, no real names, no photos/footage, no consequence beyond comedic commentary—meets two instant-kill criteria (no substance + unknown actor)."
+ },
+ {
+  "t": "2026-08-21T06:03:39Z",
+  "gate": "A",
+  "subject": "BREAKING: 🇺🇸 US national debt officially surpasses $40 trillion.",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no second fact, no felt consequence, no actor, and no narrative—the writer would have to pad to fill slides."
+ },
+ {
+  "t": "2026-08-21T06:03:58Z",
+  "gate": "A",
+  "subject": "Moles: the moment they are placed on the ground, they quickly burrow beneath it and disappear from sight.",
+  "verdict": "KILL",
+  "reason": "Nature trivia, not a story—no event happened, no person acted, no consequence felt, and zero relevance to @technology's brand."
+ },
+ {
+  "t": "2026-08-21T06:04:00Z",
+  "gate": "A",
+  "subject": "Every living creature wants to play games",
+  "verdict": "KILL",
+  "reason": "No substance: a one-liner philosophical claim with zero facts, numbers, consequence, or real-world event — the writer would have to pad or fabricate to fill slides."
+ },
+ {
+  "t": "2026-08-21T06:04:04Z",
+  "gate": "A",
+  "subject": "JUST IN: Coinbase CEO Brain Armstrong predicts Bitcoin could reach $300,000-$400,000 by 2030.",
+  "verdict": "KILL",
+  "reason": "Routine analyst prediction with zero real-world event or consequence — reaction-bait (people liked a tweet) masquerading as news, hits instant-kill rules 'on-topic but routine' and 'no substance.'"
+ },
+ {
+  "t": "2026-08-21T06:04:25Z",
+  "gate": "A",
+  "subject": "Never leaving this app, because I know “I’ll be back”",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no real-world event, no consequence, and no facts—this is reaction-bait (a joke online with zero substance behind it) that would require fabrication to build slides from."
+ },
+ {
+  "t": "2026-08-21T06:04:29Z",
+  "gate": "A",
+  "subject": "A cave in Bulgaria has earned the nickname “the Eyes of God” because of its striking natural formations. Deep within Bul",
+  "verdict": "KILL",
+  "reason": "No event occurred—it's a scenic description of an existing geographical formation with no person, consequence, or outcome; nothing happened for a reader to send to a friend."
+ },
+ {
+  "t": "2026-08-21T07:33:50Z",
+  "gate": "B",
+  "subject": "6 FREE AI PROMPTS <em>YOUR BANK HOPES YOU NEVER FIND</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — cover image shows a generated unknown face. Image Law explicitly bans 'a generated unknown face.' The man staring at the camera is not a recognizable famous person; a stranger at feed size sees an anonymous guy, not the story. Replace with a real photo of a recognizable person relevant to this topic, or a staged scene with no human face.; HOOK LAW — '6 FREE AI PROMPTS YOUR BANK HOPES Y"
  }
 ]

@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 FREE AI PROMPTS <em>YOUR BANK HOPES YOU NEVER FIND</em>",
+   "kicker": "BEFORE YOUR CASH LOSES MORE",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-21-edu-6-ai-prompts-protecting-your-business-ca/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up inside a stone US Treasury vault, expression resolute and defiant, eyes hard to camera, both hands pressed flat onto twin skyscraper-tall stacks of hundred-dollar bills, loose bills drifting in the air behind him, the Claude logo exactly as in the reference image glowing amber on the vault arch above, iron-gated dark ledger shelves packed floor-to-ceiling on every wall. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: warning red against deep stone charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>WRITE YOUR BANK</em> FOR A LOWER RATE TONIGHT",
+   "hsize": 108,
+   "body": "Banks lower rates when you ask the right way. Most owners never ask. Prompt: 'Write a letter to my bank requesting a lower interest rate on my business loan. My payment record: [details].'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>FIND WHERE INFLATION</em> EATS YOUR MARGIN",
+   "hsize": 108,
+   "body": "Paste 3 months of expenses. Claude finds every cost that outpaced your prices. Prompt: 'Here are my expenses for 3 months. Find where costs grew faster than prices and rank them.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>REPRICE YOUR BUSINESS</em> BEFORE CUSTOMERS NOTICE",
+   "hsize": 108,
+   "body": "Raising prices flat kills your cheapest customers. AI redesigns your price list to protect margin where it matters. Prompt: 'My costs rose [X]%. Rewrite my prices to protect margin without losing budget customers.'",
+   "media": "posts/2026-08-21-edu-6-ai-prompts-protecting-your-business-ca/gen-3.jpg",
+   "image_prompt": "Close-up of a bare hand gripping a thick black marker drawing a hard slash through a price on a paper hang-tag dangling from a product, a fresh bold $ symbol written in large strokes directly below the slash, warm blurred product shelf softly lit in the background. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: slate black against warm cream."
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FIND A CHEAPER SUPPLIER</em> IN 10 MINUTES",
+   "hsize": 108,
+   "body": "Most owners overpay for supplies for years and never check. AI finds three cheaper alternatives in minutes. Prompt: 'I spend $[X]/month on [product]. Find 3 cheaper USA suppliers I can switch to today.'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>STRESS-TEST YOUR CASH</em> FOR THE NEXT 90 DAYS",
+   "hsize": 104,
+   "body": "Most businesses don't fail for lack of ideas. They run out of cash. Prompt: 'Here are my monthly numbers. Tell me the exact month I run out of cash if revenue drops 20%.'",
+   "media": "posts/2026-08-21-edu-6-ai-prompts-protecting-your-business-ca/gen-5.jpg",
+   "image_prompt": "A heavy steel wall safe hanging wide open, interior nearly bare, a single gold coin lying flat on the bottom shelf, a harsh overhead spotlight cutting a tight bright circle into deep surrounding shadow, the thick safe door casting a hard diagonal shadow across the frame. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: amber gold against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>BUILD A RECESSION PLAN</em> TONIGHT FOR FREE",
+   "hsize": 108,
+   "body": "A 30% revenue drop closes most businesses within 90 days. AI builds your survival plan in minutes. Prompt: 'If my revenue dropped 30%, give me a cost-cutting plan to stay profitable. My business: [describe].'",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 6 AI MONEY PROMPTS</em>",
+   "hsize": 100,
+   "body": "Write your bank for a lower rate\nFind where inflation eats your margin\nReprice without losing customers\nFind a cheaper supplier today\nStress-test your cash for 90 days\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to steal 6 AI prompts that protect your business as US debt crosses $40 trillion. \ud83c\udfe6\n\nInside: write your bank for a lower rate tonight, find where inflation eats your margin, reprice without losing customers, find a cheaper supplier in 10 minutes, stress-test your cash for the next 90 days, build a recession plan for free.\n\nThe US national debt crossed $40 trillion today. Rates are high, prices are sticky, and most small business owners still run finances like it's 2020. AI finds the leaks your accountant charges $300 an hour to catch. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: US Treasury, CNBC\n\n#AIForBusiness #SmallBusiness #ArtificialIntelligence #MoneyTips #BusinessOwner",
+ "pinned_comment": "Which one are you running first? Prompt 1 (the bank rate letter) is the one most owners kick themselves for not doing sooner.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 AI MOVES</em> BEFORE YOUR CASH LOSES MORE VALUE",
+   "<em>6 FREE AI PROMPTS</em> EVERY BUSINESS OWNER NEEDS TODAY",
+   "6 AI MONEY MOVES <em>AS THE DOLLAR LOSES GROUND</em>"
+  ],
+  "scores": [
+   8,
+   4,
+   7
+  ],
+  "winner": 0,
+  "why": "[0] makes it personal with 'YOUR cash' and hits me with FOMO\u2014'BEFORE' makes me feel I'm actively losing something if I don't act now. [2] is smoother but stays abstract, and [1] just sounds like every other listicle that doesn't make me actually care."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 AI MOVES</em> BEFORE YOUR CASH LOSES MORE VALUE",
+   "6 AI MONEY PROMPTS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "6 FREE AI PROMPTS <em>YOUR BANK HOPES YOU NEVER FIND</em>"
+  ],
+  "scores": [
+   4,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "Candidate 2's 'your bank hopes you never find' creates that secret-insider feeling that stops 2am scrollers\u2014instant adversarial narrative. Candidate 1 is clear but leans on 'feel illegal,' a phrase I've seen a hundred times that doesn't land."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "IMAGE LAW \u2014 cover image shows a generated unknown face. Image Law explicitly bans 'a generated unknown face.' The man staring at the camera is not a recognizable famous person; a stranger at feed size sees an anonymous guy, not the story. Replace with a real photo of a recognizable person relevant to this topic, or a staged scene with no human face.; HOOK LAW \u2014 '6 FREE AI PROMPTS YOUR BANK HOPES Y",
+ "topic_source": "news-anchored"
+}
