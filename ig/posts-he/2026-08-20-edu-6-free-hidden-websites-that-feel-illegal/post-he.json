@@ -1,0 +1,113 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שישה אתרים חינמיים</em> שלא רוצים שתדע עליהם",
+   "kicker": "שמור לפני שתצטרך",
+   "hsize": 72,
+   "media": "posts/2026-08-20-edu-6-free-hidden-websites-that-feel-illegal/gen-0.jpg",
+   "image_prompt": "Three overlapping laptops at depth on dark surface, screens blazing electric green — editing layer panels, a checkerboard-erased product photo, green shield icons — a gloved hand pushes open a golden broken padlock between the keyboards. Documentary news photo, 35mm, harsh flash, film grain. Accent: electric green against near-black."
+  },
+  {
+   "type": "content",
+   "headline": "1) HAVEIBEENPWNED: <em>האימייל שלך כנראה נגנב</em>",
+   "hsize": 100,
+   "body": "מעל <b>12 מיליארד דולר חשבונות</b> נחשפו בדליפות מידע. נכנסים ל<b>haveibeenpwned.com</b>, מקלידים את האימייל שלך, והאתר מראה כל חברה שדלפה את המידע שלך. אם עולה אדום, שנה את הסיסמה הלילה.",
+   "media": "posts/2026-08-20-edu-6-free-hidden-websites-that-feel-illegal/gen-1.jpg",
+   "image_prompt": "Close on two hands typing at a glowing dark laptop screen, the display below the search bar flooding with cascading red warning triangles and breach-icon badges, no readable text. Crimson screen glow on knuckles. Documentary news photo, 35mm. Accent: crimson against charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "2) ALTERNATIVETO: <em>מצא גרסה זולה לכל אפליקציה</em>",
+   "hsize": 100,
+   "body": "נכנסים ל<b>alternativeto.net</b>, מקלידים כל כלי שאתה משלם עליו עכשיו, והאתר מחזיר את כל החלופות לפי הצבעות של משתמשים אמיתיים. רוב האנשים מוצאים מנוי שאפשר לבטל באותו יום.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) PHOTOPEA: <em>Photoshop חינם בדפדפן</em>",
+   "hsize": 100,
+   "body": "Adobe Photoshop עולה <b>250 דולר בשנה</b>. Photopea פותח קבצי PSD, עובד עם שכבות ומסכות, ורץ בכל דפדפן בחינם. נכנסים ל<b>photopea.com</b> ולא מרגישים הבדל.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) REMOVE.BG: <em>מוחק כל רקע תוך חמש שניות</em>",
+   "hsize": 100,
+   "body": "צלמי מוצר גובים <b>30 עד 80 דולר לתמונה</b> על גזירה נקייה. remove.bg עושה את זה אוטומטית, כולל שיער וקצוות דקים, והתמונה יוצאת בחינם בפורמט PNG שקוף. נכנסים ל<b>remove.bg</b> ומעלים את התמונה.",
+   "media": "posts/2026-08-20-edu-6-free-hidden-websites-that-feel-illegal/gen-4.jpg",
+   "image_prompt": "Split-frame: left half shows a white sneaker on a cluttered table with a busy background; right half shows the identical sneaker razor-sharp against a clean transparent checkerboard, every edge perfect. A sharp dividing line runs down the center. Documentary news photo, 35mm. Accent: clean white against deep teal."
+  },
+  {
+   "type": "content",
+   "headline": "5) VIRUSTOTAL: <em>בדוק כל קובץ לפני שאתה פותח אותו</em>",
+   "hsize": 100,
+   "pattern_break": true,
+   "body": "נכנסים ל<b>virustotal.com</b>, מעלים את הקובץ או מדביקים את הקישור, ואז <b>70 מנועי אבטחה</b> בודקים אותו בו זמנית תוך פחות מעשר שניות. חינם, בלי חשבון. תעשה את זה בכל פעם שמישהו זר שולח לך משהו.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) ILOVEPDF: <em>כל כלי PDF שתצטרך, בחינם</em>",
+   "hsize": 96,
+   "body": "Adobe Acrobat עולה מעל <b>150 דולר בשנה</b>. ilovepdf.com עושה הכל, כולל פיצול, סיבוב והמרה לפורמט Word, לגמרי בחינם ובלי חשבון. נכנסים ל<b>ilovepdf.com</b> ושומרים אותו עכשיו.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה:</em> כל ששת האתרים החינמיים",
+   "hsize": 100,
+   "body": "HaveIBeenPwned.com: בדיקת מידע גנוב\nAlternativeTo.net: אפליקציות זולות יותר\nPhotopea.com: Photoshop בחינם\nRemove.bg: מחיקת רקע\nVirusTotal.com: בדיקה לפני פתיחה\nilovepdf.com: כל כלי PDF בחינם\n\nחדשות AI יומיות + כלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "תעבור על כל שש השקופיות ותשמור את האחרונה. אלה האתרים החינמיים הכי טובים שהאינטרנט לא מספר לך עליהם 🧰\n\nHaveIBeenPwned מראה כל דליפת מידע שהאימייל שלך הופיע בה, לגמרי בחינם. AlternativeTo מוצא גרסאות זולות יותר או חינמיות לכל תוכנה שאתה משלם עליה. Photopea מחליף את Adobe Photoshop בדפדפן בלי לשלם שקל. Remove.bg מוחק כל רקע מתמונה תוך חמש שניות, כולל שיער דק וקצוות. VirusTotal בודק כל קובץ או קישור עם 70 מנועי אבטחה לפני שאתה פותח אותו. ilovepdf ממזג, מפצל, דוחס וממיר כל PDF בלי מנוי.\n\nרוב האנשים משלמים מאות דולרים בשנה על כלים שאפשר להחליף, ומדלגים על בדיקות אבטחה שהם לא יודעים שקיימות. ששת האתרים האלה מכסים עיצוב, אבטחה ומסמכים. תשמור את השקופית האחרונה. מנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: sauda_coder\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#freetools #productivity #businesstools #techtools #entrepreneur",
+ "pinned_comment": "איזה אחד אתה מנסה הלילה? VirusTotal בשקופית חמש זה מה שרוב האנשים מדלגים עליו עד שקובץ גרוע הורס להם את היום.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 FREE WEBSITES <em>YOU WILL USE FOR THE REST OF YOUR LIFE</em>",
+   "6 FREE WEBSITES <em>THAT FEEL LIKE CHEATING</em>",
+   "<em>6 FREE WEBSITES</em> THAT FEEL ILLEGAL TO KNOW",
+   "THE INTERNET HAS <em>6 HIDDEN WEBSITES</em> MOST PEOPLE NEVER FIND",
+   "6 WEBSITES <em>THE INTERNET NEVER TELLS YOU ABOUT</em>, ALL FREE"
+  ],
+  "scores": [
+   5,
+   6.5,
+   7.5,
+   5.5,
+   7
+  ],
+  "winner": 2,
+  "why": "\"Illegal to know\" hits you with immediate forbidden-knowledge transgression that stops scrolling faster than anything here—you think \"wait, WHAT?\" before your brain finishes parsing it. \"The internet never tells you about\" is clever but lands as secondary shock value on the same transgression angle."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 FREE WEBSITES</em> REPLACING APPS YOU ARE STILL PAYING FOR",
+   "YOU ARE PAYING FOR TOOLS LIKE THESE. <em>6 FREE WEBSITES</em> THAT REPLACE THEM ALL.",
+   "ONE OF THESE <em>6 FREE WEBSITES</em> KNOWS IF YOUR EMAIL WAS STOLEN",
+   "<em>6 FREE WEBSITES</em> THAT FEEL ILLEGAL TO KNOW"
+  ],
+  "scores": [
+   6,
+   4,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "At 2am, 'feel illegal to know' stops you cold with pure 'wait, WHAT?'—that transgressive angle hits way harder than [2]'s personal-safety hook or [0]'s generic value pitch. You swipe because you're genuinely curious, not because you already know what you're getting."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "HOOK IS A LABEL/APHORISM — banned by §2. '6 FREE WEBSITES THAT FEEL ILLEGAL TO KNOW' is 8 words, not a sentence, has no actor, no action, no consequence. Hook law requires 12-25 words, ONE complete sentence with actor + what happened + wild specifics. Fix: convert to a sentence — e.g., 'These 6 free websites do things people pay hundreds of dollars a year for, and almost nobody knows they exist.';",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

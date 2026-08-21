@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-14T20:08:19Z",
-  "gate": "A",
-  "subject": "BREAKING: The US Government officially posts its largest July budget deficit in history, at -$432 billion, due to an acc",
-  "verdict": "KILL",
-  "reason": "Government budget statistics are on-topic but routine financial reporting, explicitly banned under §1; no human actor, no felt personal consequence, and a 1/10 scout score signals no story here."
- },
- {
   "t": "2026-08-14T20:08:23Z",
   "gate": "A",
   "subject": "&gt;NYT factcheckers were like \"the fuck you mean, they started 'calling themselves a swarm'??\" Reminder: 99.99% of peop",
@@ -2098,5 +2091,12 @@
   "subject": "6 FREE AI PROMPTS <em>YOUR BANK HOPES YOU NEVER FIND</em>",
   "verdict": "REJECT",
   "reason": "IMAGE LAW — cover image shows a generated unknown face. Image Law explicitly bans 'a generated unknown face.' The man staring at the camera is not a recognizable famous person; a stranger at feed size sees an anonymous guy, not the story. Replace with a real photo of a recognizable person relevant to this topic, or a staged scene with no human face.; HOOK LAW — '6 FREE AI PROMPTS YOUR BANK HOPES Y"
+ },
+ {
+  "t": "2026-08-21T08:52:20Z",
+  "gate": "A",
+  "subject": "‼️THIS IS SHOCKING — AND DISGUSTING...SHAME ON GOOGLE. I typed into Google AI: “There is a Palestinian in my neighborhoo",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: the entire substance is one person's outrage at an AI's responses with zero real-world consequence (no money moved, no account banned, no product pulled, no job lost), no verification, and no detail beyond a single thin unverified tweet — exactly the failure mode the doctrine names in Queen Elizabeth and Mario Lopez."
  }
 ]
