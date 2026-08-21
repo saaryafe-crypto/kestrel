@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>A DAD BUILT</em> HIS NEPHEW'S FAVORITE APP. HE CAN'T CODE.",
+   "kicker": "ONE AFTERNOON. ZERO CODE.",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-21-edu-5-paid-tools-grok-build-makes-free-in-on/gen-0.jpg",
+   "image_prompt": "Elon Musk waist-up in a worn leather craftsman apron, both hands holding a glowing tablet chest-high toward camera, wide genuine grin of delight. Five smaller glowing app screens spread across a cluttered wooden workbench behind him, each showing one symbol only: a calendar grid, a \u2605, a $ sign, a \u2713, a color-coded shift grid \u2014 no text anywhere. The X logo exactly as in the reference image glows warm white neon on the dark charcoal wood-paneled wall behind him. Head centered, upper corners clear. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: amber-orange against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "HE TYPED ONE SENTENCE. <em>GROK BUILD WROTE THE APP.</em>",
+   "body": "He described his nephew's age and reading level in plain English. Grok Build assembled the full learning app, the kind ABCMouse charges <b>$8 a month</b> for, in one conversation.",
+   "hsize": 100,
+   "media": "posts/2026-08-21-edu-5-paid-tools-grok-build-makes-free-in-on/gen-1.jpg",
+   "image_prompt": "Extreme close on two small hands clutching a bright tablet, one finger mid-tap on the screen. Display blazes with a large cartoon letter A and a glowing \u2605 symbol in vivid orange and sky-blue \u2014 no words. Screen glow lights the hands against a dark surface below. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: vivid orange against cobalt blue."
+  },
+  {
+   "type": "content",
+   "headline": "2) BUILD A BOOKING PAGE <em>THAT'S ACTUALLY YOURS</em>",
+   "body": "Calendly Pro costs <b>$16 a month</b>. The next prompt builds your own booking page that lives on your domain.",
+   "hsize": 100,
+   "media": "posts/2026-08-21-edu-5-paid-tools-grok-build-makes-free-in-on/gen-2.jpg",
+   "image_prompt": "A single fingertip hovering just above a laptop trackpad, the open screen showing a clean calendar grid with teal highlighted squares and a large \u2713 symbol glowing in one slot \u2014 no words. Natural window light from the left, pale wood desk, dark background behind the laptop. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Accent: teal against clean white."
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD A QUOTE CALCULATOR <em>CLIENTS USE THEMSELVES</em>",
+   "body": "You are answering the same pricing question by email every day. Jotform charges <b>$34 a month</b> for a form that does this, prompt three builds it for free.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "$100 A MONTH",
+   "body": "What the tools on this list cost when you pay for them separately. Grok Build makes all of them in one afternoon for free",
+   "hsize": 66,
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD A LEAD FORM <em>THAT REPLIES WHILE YOU SLEEP</em>",
+   "body": "Typeform's paid plan runs <b>$25 a month</b> to collect leads. Prompt four gives you a lead form that replies while you sleep.",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD A STAFF SCHEDULER <em>YOUR TEAM ACTUALLY UPDATES</em>",
+   "body": "Most small-team scheduling apps charge <b>$2 to $4 per person each month</b>. On a 10-person team that is $20 to $40 a month, forever, prompt five builds it once for nothing.",
+   "hsize": 96,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 FREE TOOLS GROK BUILD MAKES</em>",
+   "body": "Kids learning app for your kid\nBooking page on your own domain\nPrice calculator that runs itself\nLead capture form with auto-reply\nStaff scheduler with live dashboard\n\nDaily AI tools and real builds free",
+   "hsize": 100,
+   "media": null
+  }
+ ],
+ "caption": "Swipe for the prompts. A dad built his nephew a reading app with Grok Build this week, no code, one afternoon. Here are 5 paid tools Grok Build makes free. \ud83d\udd27\n\n1) Kids learning app that beats ABCMouse, 2) booking page that lives on your domain instead of Calendly's, 3) price quote calculator that stops the back-and-forth emails, 4) lead form that auto-replies while you sleep, 5) staff shift scheduler with a live dashboard. Every slide has the exact prompt to build it tonight.\n\nMost tools people pay for monthly are just forms, tables, and simple logic. Grok Build assembles those parts in one conversation. What used to take a developer weeks now takes an afternoon and costs nothing. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: xAI (Grok Build), ABCMouse, Calendly, Jotform, Typeform pricing pages\n\n#GrokBuild #AITools #NoCode #BusinessAutomation #AIForBusiness",
+ "pinned_comment": "Bonus: after you build the booking page, send Grok Build one more message: 'Add an automatic reminder email 24 hours before the appointment.' It handles it in under a minute.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 TOOLS YOU PAY FOR MONTHLY <em>GROK BUILD BUILDS TONIGHT</em>",
+   "5 BUSINESS APPS <em>GROK BUILD</em> BUILDS IN ONE AFTERNOON FREE",
+   "GROK BUILD MAKES 5 PAID TOOLS <em>FREE IN ONE AFTERNOON</em>",
+   "<em>A DAD BUILT</em> HIS NEPHEW'S FAVORITE APP. HE CAN'T CODE."
+  ],
+  "scores": [
+   3,
+   5,
+   6,
+   9
+  ],
+  "winner": 3,
+  "why": "The paradox\u2014'can't code' but 'built an app'\u2014is a genuine stop-scroll moment that makes you think 'wait, HOW?' It's a human story, not a product ad. Option [2] is clearer but sounds corporate/routine and doesn't create that curiosity punch."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 EXPENSIVE TOOLS <em>GROK NOW BUILDS FOR FREE</em>",
+   "5 FREE APPS <em>YOU CAN BUILD TODAY WITHOUT CODE</em>",
+   "<em>A DAD BUILT</em> HIS NEPHEW'S FAVORITE APP. HE CAN'T CODE."
+  ],
+  "scores": [
+   5,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] is a person-centered story that makes you curious, while [1] is just another generic no-code pitch. At 2am, 'a dad who can't code' beats 'build apps without code' every time."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "COVER IMAGE \u2014 CAST TRUTH VIOLATION (hard reject): The cover shows Elon Musk. The story is about an anonymous dad who used Grok Build; Musk has no role in this story. Image Law is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT \u2014 a celebrity as decoration breaks image-headline connection.' Musk as decoration here is the exact failure",
+ "topic_source": "news-anchored"
+}

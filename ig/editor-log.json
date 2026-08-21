@@ -1,41 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "ON-TOPIC BUT ROUTINE: budget reports and deficit announcements are explicit bans (market wraps category); this is fiscal data, not a wild-but-true event with a human actor or real-world consequence someone felt—the owner would not post this himself.",
-  "subject": "BREAKING: The US Government officially posts its largest July budget deficit in history, at -$432 billion, due to an acc",
-  "t": "2026-08-14T18:04:48Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Launch preview + stocks-rose-today story (both explicitly banned): the flying Roadster hasn't been unveiled yet, just rumors moving the market; no real event, no substance beyond the thin tweet, 1/10 scout interest.",
-  "subject": "BREAKING: Tesla stock, $TSLA, extends gains to over +3% on the day on reports that the company is nearing the unveiling ",
-  "t": "2026-08-14T18:04:54Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait with no substance: the entire source is a 43-character question about someone's reaction, with no event, consequence, real names, or second fact—pure engagement bait that cannot be built into a story.",
-  "subject": "Can you blame him for reacting like this? 😳",
-  "t": "2026-08-14T18:05:22Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: the source is a single 22-character tweet with zero context, no second fact, no numbers, no consequence — nothing a writer could build without padding.",
-  "subject": "The print looks insane",
-  "t": "2026-08-14T18:05:23Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait with no substance: the entire source is one vague tweet where the story is someone sarcastically reacting online, not a real-world event with names, numbers, or consequence.",
-  "subject": "&gt;NYT factcheckers were like \"the fuck you mean, they started 'calling themselves a swarm'??\" Reminder: 99.99% of peop",
-  "t": "2026-08-14T18:05:27Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Product launch announcement with no real-world event, consequence, or substance—on-topic-but-routine banned format.",
   "subject": "Gemini 3.7 Flash is here. It’s stronger for coding, knowledge work, and web development. 🧵",
   "t": "2026-08-14T18:05:31Z",
@@ -2098,5 +2063,40 @@
   "subject": "<em>6 FREE WEBSITES</em> THAT FEEL ILLEGAL TO KNOW",
   "verdict": "REJECT",
   "reason": "HOOK IS A LABEL/APHORISM — banned by §2. '6 FREE WEBSITES THAT FEEL ILLEGAL TO KNOW' is 8 words, not a sentence, has no actor, no action, no consequence. Hook law requires 12-25 words, ONE complete sentence with actor + what happened + wild specifics. Fix: convert to a sentence — e.g., 'These 6 free websites do things people pay hundreds of dollars a year for, and almost nobody knows they exist.';"
+ },
+ {
+  "t": "2026-08-20T23:26:41Z",
+  "gate": "A",
+  "subject": "I made a kids learning app for my nephew using @Grok Build… and he loves it! ❤️",
+  "verdict": "KILL",
+  "reason": "Single thin tweet with no second fact, no numbers, no real consequence — just a personal sentiment (nephew liked an app); writer would have to fabricate to fill slides, and a 16-year-old wouldn't send this to a friend."
+ },
+ {
+  "t": "2026-08-20T23:27:23Z",
+  "gate": "A",
+  "subject": "I just set up Grok @Bot to remotely control my autonomous robot lawn mower that is 50 miles away. It literally took 2 mi",
+  "verdict": "APPROVE",
+  "reason": "A builder demonstrating that an AI bot can actually control a physical robot remotely and complete a real job (lawn mowed, docked itself) with specific surprising numbers (3-second response, 2-minute setup) hits the 'people letting AI do real jobs' criterion—readers would share this because it shows an emerging capability they might not know exists yet."
+ },
+ {
+  "t": "2026-08-20T23:55:51Z",
+  "gate": "B",
+  "subject": "A GUY TYPED 'START MOWING' INTO AN AI CHAT AND <em>A ROBOT LAWN MOWER 50 MILES AWAY STARTED 3 SECONDS LATER</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH violation — IMAGE LAW hard kill: the cover subject is Elon Musk, a recognizable famous person who has no role in this story. The actor is an anonymous guy on X. Musk is on the cover as brand association for Grok, pure decoration. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' The cover must be replaced "
+ },
+ {
+  "t": "2026-08-21T01:26:42Z",
+  "gate": "B",
+  "subject": "<em>A DAD BUILT</em> HIS NEPHEW'S FAVORITE APP. HE CAN'T CODE.",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH violation: the cover shows a generated likeness of Elon Musk, who has no role in this story — the story is about an anonymous dad. Per the explicit Cast Truth rule, a recognizable famous person as cover subject with no role in the story is an immediate REJECT. Fix: replace with a generic-dad-at-laptop scene, or reframe the hook/story around Grok/xAI and make that the anchor (but then th"
+ },
+ {
+  "t": "2026-08-21T01:33:56Z",
+  "gate": "B",
+  "subject": "<em>A DAD BUILT</em> HIS NEPHEW'S FAVORITE APP. HE CAN'T CODE.",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — CAST TRUTH VIOLATION (hard reject): The cover shows Elon Musk. The story is about an anonymous dad who used Grok Build; Musk has no role in this story. Image Law is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT — a celebrity as decoration breaks image-headline connection.' Musk as decoration here is the exact failure"
  }
 ]
