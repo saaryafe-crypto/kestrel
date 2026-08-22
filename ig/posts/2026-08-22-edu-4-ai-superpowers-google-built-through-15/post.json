@@ -1,0 +1,82 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "VIDEO GAMES <em>SECRETLY BUILT</em> 4 OF AI'S BIGGEST POWERS",
+   "kicker": "GOOGLE HAS BEEN HERE 15 YEARS",
+   "hsize": 72,
+   "face": "Sundar Pichai",
+   "media": "posts/2026-08-22-edu-4-ai-superpowers-google-built-through-15/gen-0.jpg",
+   "image_prompt": "A person plays at a vintage arcade cabinet displaying $ and warning triangle symbols in fire-engine red and electric blue neon, well-lit, wide-angle shot."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) LEARN NEW SKILLS</em> WITHOUT FORGETTING THE OLD ONES",
+   "hsize": 90,
+   "body": "TODAY'S AI FORGETS EVERY SKILL WHEN YOU TEACH IT A NEW ONE.\n\nGoogle's games fix this. Their AI learns chess without forgetting how to drive. Soon your business AI can do the same",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) BUILD AI MEMORY</em> THAT STORES MONTHS, NOT MINUTES",
+   "hsize": 90,
+   "body": "TODAY'S AI FORGETS YOUR LAST CONVERSATION THE SECOND YOU CLOSE THE TAB.\n\nGoogle is building memory that stores and retrieves everything, forever. That changes what your AI coworker can do",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "15 YEARS.",
+   "hsize": 120,
+   "body": "Google's AI went from Pong to beating the world's best StarCraft players. Now it is learning to plan your whole year",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) MAKE AI PLAN</em> MONTHS AHEAD, NOT JUST SECONDS",
+   "hsize": 90,
+   "body": "CHESS AI SEES 20 MOVES AHEAD. GOOGLE WANTS AI THAT PLANS OVER WEEKS, MONTHS, AND YEARS.\n\nThat is the gap between a calculator and a business partner you can actually trust",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) WATCH AI AGENTS</em> NEGOTIATE WITH EACH OTHER FOR YOU",
+   "hsize": 88,
+   "body": "GOOGLE IS BUILDING AI THAT COOPERATES, NEGOTIATES, AND CREATES ECONOMIES INSIDE VIRTUAL WORLDS.\n\nTheir partner Fable is building the living universe to test it. Your business could be next",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>4 AI POWERS BUILT IN VIDEO GAMES</em>",
+   "hsize": 90,
+   "body": "Learn skills, never forget old ones\nMemory that stores months of context\nPlanning over weeks and years\nAgents that negotiate for you\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 4. \ud83c\udfae Google spent 15 years training AI inside video games, and what it learned will change what AI can do for your business.\n\nContinual learning so AI never forgets old skills, deep memory systems that store months of context, long-horizon planning over weeks and months, multi-agent dynamics where AI negotiates with AI, all built from 15 years of game research at Google DeepMind.\n\nVideo games have been Google's AI laboratory for 15 years. The 4 problems they are solving aren't just for games. They are the blueprint for every AI business tool coming in the next 3 years. Running a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: GoogleDeepMind\n\n#AI #artificialintelligence #technology #AIforbusiness #AIfuture",
+ "pinned_comment": "Which of the 4 hits your business first: the memory, the planning, or the negotiating agents? Drop it below.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "4 THINGS VIDEO GAMES <em>SECRETLY TAUGHT</em> GOOGLE'S AI",
+   "<em>4 AI ABILITIES</em> GOOGLE BUILT INSIDE VIDEO GAMES",
+   "4 AI SUPERPOWERS <em>BUILT INSIDE</em> VIDEO GAMES",
+   "VIDEO GAMES <em>SECRETLY BUILT</em> 4 OF AI'S BIGGEST POWERS",
+   "4 AI SKILLS <em>ONLY VIDEO GAMES</em> CAN TEACH"
+  ],
+  "scores": [
+   7,
+   4,
+   5,
+   9,
+   6
+  ],
+  "winner": 3,
+  "why": "[3] hits hardest with the most shocking claim\u2014games \"secretly built\" AI's \"biggest powers\"\u2014triggering an instant \"wait WHAT?\" that stops scrolling cold. [0] has solid intrigue with \"secretly taught\" but sounds way more plausible and reasonable, creating far less of a jaw-drop at 2am."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "COVER IMAGE \u2014 CAST TRUTH FAIL: The generated face on the cover is a strong likeness of Mario Lopez. Mario Lopez has no role in this story whatsoever. Per CAST TRUTH: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' This is the same failure that birthed the Doctrine. Regenerate the cover with either (a) a clearly non-famous, clearly generic f"
+}
