@@ -1,0 +1,17 @@
+{
+ "pick": 6,
+ "title": "When AI companies demo their new video tool",
+ "title_candidates": [
+  "This entire video was made by Grok's AI, no cameras involved",
+  "How Grok's image AI built every frame of this from scratch",
+  "Every second of this footage came from Grok, not a real camera",
+  "What Grok's AI produces when you type the right words",
+  "The AI tool that turned a text prompt into this video"
+ ],
+ "caption": "Grok Imagine is Elon Musk's AI video tool, and every frame of this clip was generated from text prompts alone. No cameras, no actors, no crew.\n\nA year ago, AI video looked like a glitching slideshow that couldn't keep a face consistent for two seconds. Now it produces footage you have to pause to question. The gap between AI-generated and real video is closing faster than most people realize.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: elonmusk. DM for credit or removal\n\n#AI #AIVideo #GrokAI #ArtificialIntelligence #AIGenerated",
+ "start_s": 0,
+ "clip_s": 27,
+ "source": "https://video.twimg.com/amplify_video/2079623240972939265/vid/avc1/3840x1920/rfqIXTvznhMJ5rAR.mp4?tag=29",
+ "channel": "elonmusk",
+ "publish": "make"
+}
