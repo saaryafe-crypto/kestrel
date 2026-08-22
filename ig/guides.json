@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T15:05:51.352241+00:00",
+ "updated": "2026-08-22T17:42:26.720927+00:00",
  "guides": [
   {
    "id": "2089269499942117390",
@@ -488,6 +488,25 @@
     "9. Grok Bot completed Google's: \"I\u2019m not a robot.\""
    ],
    "born": 1787195365.601088
+  },
+  {
+   "id": "2090772922818286080",
+   "title": "Games have been an important testbed for our AI research for over 15 years. \ud83c\udfae From mastering Atari to reaching Grandmaster in StarCraft II, they have driven some of our biggest AI breakthroughs. Our work with SIMA taught",
+   "sub": "GoogleDeepMind",
+   "where": "@GoogleDeepMind on X",
+   "unit": "likes",
+   "selftext": "Games have been an important testbed for our AI research for over 15 years. \ud83c\udfae From mastering Atari to reaching Grandmaster in StarCraft II, they have driven some of our biggest AI breakthroughs. Our work with SIMA taught agents how to understand 3D worlds, but learning to navigate real human dynamics takes a living, persistent universe. Through our research partnership with @FenrisCreations, we\u2019re exploring how to tackle open challenges in AI: \ud83d\udd35 Continual learning to acquire new skills without forgetting past knowledge. \ud83d\udd35 Deep memory systems that store and retrieve information far beyond today\u2019s context windows. \ud83d\udd35 Long-horizon planning over weeks, months, or years. \ud83d\udd35 Multi-agent dynamics spanning cooperation, negotiation, economics, and emergent behaviors. Our long-term goal is to use AI to discover entirely new gameplay experiences in partnership with game developers \u2013 making games more accessible and personalized \u2013 while applying what we've learned to problems in the real world and scientific discovery. Find out more \u2192",
+   "permalink": "https://x.com/GoogleDeepMind/status/2090772922818286080",
+   "outlink": null,
+   "score": 1011,
+   "comments_n": 90,
+   "views": 109786,
+   "age_h": 29.5,
+   "vph": 34.2,
+   "image": "https://pbs.twimg.com/media/HQPpMRGXgAA5VnB.jpg",
+   "video": null,
+   "guide": true,
+   "born": 1787314346.720927
   }
  ]
 }
