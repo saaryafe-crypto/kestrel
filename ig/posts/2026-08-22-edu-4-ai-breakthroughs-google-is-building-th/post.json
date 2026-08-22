@@ -1,0 +1,96 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>4 AI BREAKTHROUGHS</em> GOOGLE BUILT BY PLAYING VIDEO GAMES",
+   "kicker": "ALL 4 WILL RESHAPE REAL TOOLS",
+   "hsize": 72,
+   "face": "Demis Hassabis",
+   "media": "posts/2026-08-22-edu-4-ai-breakthroughs-google-is-building-th/gen-0-r.jpg",
+   "image_prompt": "Sundar Pichai gripping arcade joystick at glowing cabinet, fierce triumph. Electric blue, amber, green, red spotlights shoot up. Google logo blazes neon-white on bright electric-blue wall. 35mm photo, natural skin, no text, clean background."
+  },
+  {
+   "type": "content",
+   "headline": "1) AI THAT GAINS SKILLS <em>WITHOUT LOSING OLD ONES</em>",
+   "hsize": 100,
+   "body": "THE AI TOOLS YOU PAY FOR TODAY FORGET EVERYTHING THEY LEARN.\n\nGoogle's gaming AI doesn't. It layers new abilities on top of old ones, the way people do",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) MEMORY THAT STORES <em>MONTHS, NOT MINUTES</em>",
+   "hsize": 100,
+   "body": "YOUR AI ASSISTANT STARTS FROM ZERO EVERY TIME YOU OPEN IT.\n\nGoogle is building memory that holds months of context, by training it inside games that never reset",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "15 YEARS",
+   "hsize": 66,
+   "body": "Google has run AI experiments inside video games since 2009. From Atari to StarCraft Grandmaster. The 4 hard problems are just getting started",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) AI THAT HOLDS A GOAL <em>FOR MONTHS AT A TIME</em>",
+   "hsize": 96,
+   "body": "AI TODAY TAKES ONE INSTRUCTION AND FORGETS BY MORNING.\n\nGoogle is training agents to hold goals that span weeks, months, and years inside a living game world",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) AI AGENTS THAT <em>NEGOTIATE WITH EACH OTHER</em>",
+   "hsize": 100,
+   "body": "ONE AI CAN DO A LOT. A GROUP THAT COOPERATES CAN DO ANYTHING.\n\nGoogle tests negotiation and economics between agents in games, then applies it to real markets",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 4 GOOGLE AI BREAKTHROUGHS",
+   "hsize": 90,
+   "body": "\u2713 Learns without forgetting old skills\n\u2713 Memory beyond any chat window\n\u2713 Plans across months and years\n\u2713 Agents that cooperate and negotiate\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 4 \ud83d\udc47 Google has used video games as its AI lab for 15 years. Here's what those games actually built.\n\nContinual learning: gains new skills without ever losing old ones, deep memory that stores months of context far beyond any chat window, long-horizon planning where agents hold goals across weeks and months, and multi-agent dynamics where AI agents cooperate, negotiate, and manage economics, all tested inside the FenrisCreations game world.\n\nGoogle has been cracking the hardest AI problems inside video games since 2009. Memory that never fades, planning that spans years, agents that negotiate: these stop being game problems the moment they ship.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: GoogleDeepMind\n\n#AI #ArtificialIntelligence #AIResearch #GoogleDeepMind #FutureOfAI",
+ "pinned_comment": "Which of the 4 hits closest to home for your work? Slide 3 is the one most businesses will feel first.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "GOOGLE BUILT <em>4 WILD AI ABILITIES</em> INSIDE VIDEO GAMES",
+   "<em>4 AI BREAKTHROUGHS</em> GOOGLE BUILT BY PLAYING VIDEO GAMES",
+   "<em>4 THINGS VIDEO GAMES TAUGHT</em> GOOGLE'S AI THAT LABS COULDN'T",
+   "GOOGLE SPENT 15 YEARS <em>TRAINING AI IN GAMES</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   7,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] tells you the shocking method (playing video games) with a concrete result (4 breakthroughs) right at the cover, while [2] hides the story behind a vague comparison. The 'wait, WHAT?' moment hits immediately in [1]\u2014you stop scrolling for that, not for [2]'s setup."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>4 GOOGLE AI BREAKTHROUGHS</em> \u2014 ONE GIVES AI A <em>15-YEAR MEMORY</em>",
+   "GOOGLE JUST GAVE AI <em>4 SKILLS</em> THAT YOURS STILL DOESN'T HAVE",
+   "THE <em>4 GOOGLE AI BREAKTHROUGHS</em> MOST PEOPLE WILL MISS",
+   "<em>4 AI BREAKTHROUGHS</em> GOOGLE BUILT BY PLAYING VIDEO GAMES"
+  ],
+  "scores": [
+   6,
+   5,
+   3,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] hits instantly with 'video games' as a specific, bizarre mechanism\u2014I stop because 'wait, WHAT?'\u2014while [0]'s '15-year memory' is a cool number but too technical/abstract to grab without knowing what breakthrough it describes."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "SHUFFLE TEST FAIL (hard gate): Slides 2, 3, 5, and 6 are four independent breakthroughs with no narrative chain between them. Swap breakthrough #1 and breakthrough #4 \u2014 no confusion results. This is a numbered listicle, not a story. Each slide must be impossible to understand without the one before it. Fix: build a causal chain \u2014 e.g., the memory problem (slide 3) must exist BECAUSE the forgetting"
+}

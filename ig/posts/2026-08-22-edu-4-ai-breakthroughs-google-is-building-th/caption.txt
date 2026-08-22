@@ -1,0 +1,10 @@
+Swipe through all 4 👇 Google has used video games as its AI lab for 15 years. Here's what those games actually built.
+
+Continual learning: gains new skills without ever losing old ones, deep memory that stores months of context far beyond any chat window, long-horizon planning where agents hold goals across weeks and months, and multi-agent dynamics where AI agents cooperate, negotiate, and manage economics, all tested inside the FenrisCreations game world.
+
+Google has been cracking the hardest AI problems inside video games since 2009. Memory that never fades, planning that spans years, agents that negotiate: these stop being game problems the moment they ship.
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: GoogleDeepMind
+
+#AI #ArtificialIntelligence #AIResearch #GoogleDeepMind #FutureOfAI
