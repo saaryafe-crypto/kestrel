@@ -1,0 +1,108 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 FREE GROK 4.6 BUILDS THAT REPLACE <em>YOUR LAWYER, YOUR WEB DESIGNER, AND YOUR ASSISTANT</em>",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-22-edu-6-grok-4-6-business-builds-free-tonight-/gen-0.jpg",
+   "image_prompt": "Elon Musk waist-up in leather apron, fierce triumph, hammering blazing X on bright wall, electric blue sparks, yellow pegboard with tools, luminous white X overhead. Well-lit workshop, 35mm, natural light, sharp."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>WRITE A CLIENT CONTRACT</em> IN 30 SECONDS FOR FREE",
+   "hsize": 80,
+   "body": "A client contract takes a lawyer $300 and a week.\n\n\"Write a client contract for a [service] business.\n\u2022 Payment terms\n\u2022 Delivery timeline\n\u2022 Revision policy\nPlain English.\"",
+   "media": "posts/2026-08-22-edu-6-grok-4-6-business-builds-free-tonight-/gen-1.jpg",
+   "image_prompt": "Tight on two faceless hands locked in a firm handshake across a clean white desk, a single crisp white contract document spread open beside them with a fountain pen resting on it, a phone screen in the corner showing a large glowing green checkmark symbol (no readable text). Bright warm cream office light, clean white setting. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: deep navy pen nib against bright cream paper."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>BUILD A QUOTE CALCULATOR</em> CLIENTS FILL OUT THEMSELVES",
+   "hsize": 80,
+   "body": "A $200/month estimating app can be replaced in 9 minutes. Just type this:\n\n\"Build a quote calculator for a [trade] business.\n\u2022 Inputs: job size, materials, urgency\nOutput: one HTML file.\"",
+   "media": "posts/2026-08-22-edu-6-grok-4-6-business-builds-free-tonight-/gen-2.jpg",
+   "image_prompt": "Tight on a tablet mounted on a van dashboard showing a bright price calculator with bold color-coded number blocks and vivid sliders (no readable text), golden hour sunlight flooding the cab in rich amber, a deep cobalt blue sky visible through the windshield. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: warm amber sunlight against cobalt blue sky."
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>AUTOMATE YOUR INVOICES</em> SO THEY SEND THEMSELVES",
+   "hsize": 96,
+   "body": "Most business owners spend 2 to 3 hours a week on invoicing. This script ends it.\n\n\"Write a Python script that reads clients.csv and emails each person an invoice every Friday at 9am.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE #1 FREE CODING AI.",
+   "hsize": 120,
+   "body": "Grok 4.6 topped CursorBench on Aug 22. Every build in this post is free on the standard plan.",
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>TURN 3 SENTENCES INTO</em> A FULL WEBSITE",
+   "hsize": 96,
+   "body": "A Squarespace site costs $300 a year. Grok 4.6 builds one from 3 sentences.\n\n\"Build a landing page for my [bakery].\n\u2022 Headline\n\u2022 Services list\n\u2022 Contact form\nOne HTML file.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>BUILD A CHATBOT</em> THAT QUALIFIES LEADS OVERNIGHT",
+   "hsize": 96,
+   "body": "Every lead that arrives after hours waits until morning.\n\n\"Build a lead chatbot in HTML.\n\u2022 Asks: budget, timeline, goal\n\u2022 Ends with a contact form\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>WRITE 30 DAYS OF REVIEW REPLIES</em> IN 10 MINUTES",
+   "hsize": 80,
+   "body": "Restaurant owners spend 2 hours a week on Google replies. Grok builds you 30 branded ones at once.\n\n\"Write 30 Google review replies for a [restaurant]. Mix tones. Each under 40 words. Sound human.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 6 GROK 4.6 BUILDS FREE",
+   "body": "Client contract in 30 seconds\nQuote calculator clients fill out\nInvoice script that sends itself\nFull website from 3 sentences\nLead chatbot qualifying overnight\n30 days of review replies\n\nDaily AI news + skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through for 6 things Grok 4.6 builds for your business tonight. It just hit No. 1 at coding and it's free. \ud83d\udd27\n\nClient contract from one prompt, quote calculator in one HTML file, invoice script that sends itself every Friday, full landing page from 3 sentences, lead chatbot that qualifies overnight inquiries, and 30 days of Google review replies in 10 minutes.\n\nGrok 4.6 topped CursorBench on August 22, the benchmark for real software coding. It is now the most capable free coding AI available. The gap between business owners who use this and those who don't is growing fast. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: xAI, CursorBench leaderboard Aug 22 2026.\n\n#AItools #GrokAI #BusinessAutomation #AIforBusiness #NoCode",
+ "pinned_comment": "Which build are you trying first? The contract generator on slide 2 is the sleeper, most people don't realize Grok writes legally-styled agreements for free in under a minute.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 <em>THINGS GROK 4.6</em> BUILDS FOR YOUR BUSINESS TONIGHT",
+   "<em>THE #1 FREE CODING AI</em> BUILDS 6 REAL BUSINESS TOOLS",
+   "6 FREE BUILDS <em>GROK 4.6</em> DOES WHILE YOU SLEEP"
+  ],
+  "scores": [
+   4,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "The 'while you sleep' hook genuinely stops your scroll with a 'wait, WHAT?' moment\u2014it's specific and surprising. Candidate [1] reads like professional marketing copy, and [0] is muddled enough to swipe past without a second thought."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 FREE GROK 4.6 BUILDS THAT REPLACE <em>YOUR LAWYER, YOUR WEB DESIGNER, AND YOUR ASSISTANT</em>",
+   "6 SERVICES YOUR BUSINESS PAYS FOR THAT <em>THE #1 FREE AI</em> DOES IN MINUTES",
+   "6 FREE BUILDS <em>GROK 4.6</em> DOES WHILE YOU SLEEP"
+  ],
+  "scores": [
+   7,
+   5,
+   6
+  ],
+  "winner": 0,
+  "why": "The specific roles (lawyer, designer, assistant) make you stop and think 'wait, it actually replaces my lawyer?' \u2014 that concrete cost-saving punch beats [2]'s slicker but vaguer 'while you sleep' angle, which feels too good to be true."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "Slide 2 violates the second-hook law (owner order Aug 18). It immediately delivers Build #1 ('1) WRITE A CLIENT CONTRACT IN 30 SECONDS FOR FREE') instead of re-selling the swipe. Slide 2's job is to escalate the cover's question without spending the payoff \u2014 a slide that reads 'the first of the 6 things' IS the details. Fix: replace slide 2 with a hook that raises the stakes of what these 6 builds",
+ "topic_source": "news-anchored"
+}
