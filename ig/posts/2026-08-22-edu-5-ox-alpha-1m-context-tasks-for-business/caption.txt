@@ -1,0 +1,11 @@
+Swipe for 5 things this mystery AI can do that no other AI handles in one shot. It appeared this week with a 1M context window. 🔓
+
+Ox Alpha is a new AI that appeared this week with a 1M context window, zero data retention, and nearly unlimited usage for 7 days. Most people don't know it exists yet. Here are 5 things business owners can do with it right now: paste a year of customer emails and find your 3 biggest churn triggers, drop every contract you've signed and surface your legal exposure, feed your whole codebase for a full senior-dev audit, dump a competitor's entire website and map their weaknesses, paste all your worst reviews and get a product roadmap back.
+
+Most AI tools run out of room after a few documents. Ox Alpha's 1M context window means you can feed an entire business into one conversation and get answers that used to take a consultant days. That's a different kind of tool, and right now it costs almost nothing.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: OpenCode
+
+#AI #ArtificialIntelligence #AItools #BusinessOwner #Entrepreneur

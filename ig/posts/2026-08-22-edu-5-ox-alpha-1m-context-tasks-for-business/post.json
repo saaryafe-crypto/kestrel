@@ -1,0 +1,87 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>5 EXPENSIVE BUSINESS AUDITS</em> AI CAN NOW RUN FOR FREE",
+   "kicker": "7 days. 1M context. Zero data stored.",
+   "hsize": 72,
+   "media": "posts/2026-08-22-edu-5-ox-alpha-1m-context-tasks-for-business/gen-0-r.jpg",
+   "image_prompt": "Bright laptop screen displaying dollar sign and red X symbols in amber, light blue background, white desk, minimal audit software interface."
+  },
+  {
+   "type": "content",
+   "headline": "1) PASTE A YEAR OF EMAILS. <em>FIND YOUR 3 BIGGEST PROBLEMS.</em>",
+   "hsize": 90,
+   "body": "Ox Alpha's 1M context holds a full year of emails. Standard AI can't. Nearly unlimited for 7 days.\n\n\"Read these customer messages. Find the 3 biggest reasons people quit. Write one fix for each.\"",
+   "media": "posts/2026-08-22-edu-5-ox-alpha-1m-context-tasks-for-business/gen-1.jpg",
+   "image_prompt": "Hands (no face visible) slamming a thick bundle of printed emails onto a bright desk, three bold red flag markers stabbing the pile at three distinct points, pages fanning dramatically outward. Warm amber overhead light, vivid teal desk surface. Documentary news photo, 35mm, harsh flash, film grain. Accent: red flags against amber paper."
+  },
+  {
+   "type": "content",
+   "headline": "2) DROP EVERY CONTRACT. <em>ASK WHERE YOU'RE EXPOSED.</em>",
+   "hsize": 95,
+   "body": "A 1M context window holds every contract you've ever signed, all at once. Standard AI can't.\n\n\"Read these contracts. Find every clause that could cost me money without warning. List by risk.\"",
+   "media": "posts/2026-08-22-edu-5-ox-alpha-1m-context-tasks-for-business/gen-2.jpg",
+   "image_prompt": "Hands (no face visible) pressing a thick contract flat on a desk, six bold red warning-triangle symbols stamped in the margins with arrows pointing inward, pages spreading wide. Vivid warm amber light flooding the workspace. Documentary news photo, 35mm, harsh flash, film grain. Accent: red warning triangles against warm parchment."
+  },
+  {
+   "type": "content",
+   "headline": "3) FEED YOUR WHOLE CODEBASE. <em>GET A FREE SENIOR-DEV AUDIT.</em>",
+   "hsize": 90,
+   "body": "The 1M context fits an entire codebase. No AI before this could read every file at once.\n\n\"Read all my code. Find bugs, security holes, and money leaks. Rank by priority.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) DUMP YOUR COMPETITOR'S WHOLE SITE. <em>MAP THEIR WEAK POINTS.</em>",
+   "hsize": 88,
+   "body": "Standard AI can't hold a whole competitor site. Ox Alpha can, and maps their gaps.\n\n\"Read this website. Find their 3 biggest weaknesses. Tell me exactly how to beat them.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) PASTE EVERY BAD REVIEW. <em>YOUR ROADMAP IS HIDING THERE.</em>",
+   "hsize": 90,
+   "body": "Every 1-star review says exactly what to build next. Ox Alpha reads thousands at once.\n\n\"Read these reviews. Find the 5 features people ask for most. Rank by how often each appears.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> 5 OX ALPHA TASKS FOR YOUR BUSINESS",
+   "hsize": 90,
+   "body": "Emails: find 3 churn triggers\nContracts: flag hidden risks\nCodebase: bugs and leaks found\nCompetitor site: gaps mapped\nBad reviews: product roadmap\n\nDaily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 things this mystery AI can do that no other AI handles in one shot. It appeared this week with a 1M context window. \ud83d\udd13\n\nOx Alpha is a new AI that appeared this week with a 1M context window, zero data retention, and nearly unlimited usage for 7 days. Most people don't know it exists yet. Here are 5 things business owners can do with it right now: paste a year of customer emails and find your 3 biggest churn triggers, drop every contract you've signed and surface your legal exposure, feed your whole codebase for a full senior-dev audit, dump a competitor's entire website and map their weaknesses, paste all your worst reviews and get a product roadmap back.\n\nMost AI tools run out of room after a few documents. Ox Alpha's 1M context window means you can feed an entire business into one conversation and get answers that used to take a consultant days. That's a different kind of tool, and right now it costs almost nothing.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: OpenCode\n\n#AI #ArtificialIntelligence #AItools #BusinessOwner #Entrepreneur",
+ "pinned_comment": "Which task are you trying first? The contract audit on slide 3 is the one most people skip. One paste and you might find a renewal clause quietly taking money every month.",
+ "hook_tournament": {
+  "candidates": [
+   "<em>A MYSTERY AI WITH A 1M CONTEXT WINDOW</em> JUST APPEARED"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>A MYSTERY AI WITH A 1M CONTEXT WINDOW</em> JUST APPEARED",
+   "YOUR BUSINESS PAYS FOR AUDITS <em>A 1M-CONTEXT AI</em> NOW DOES FOR FREE",
+   "<em>5 EXPENSIVE BUSINESS AUDITS</em> AI CAN NOW RUN FOR FREE"
+  ],
+  "scores": [
+   4,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "Candidate 2 stops you cold with concrete numbers and stark contrast\u2014expensive things are now free\u2014creating instant 'wait, WHAT?' without jargon you need to decode at 2am. Candidates 0 and 1 either hide the punch behind mystery or muddy it with technical language that kills momentum."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "SHUFFLE TEST FAIL (\u00a74, hard gate): Slides 2\u20136 are five numbered, self-contained items that can be read in any order. Audit #3 requires zero knowledge of Audit #2. The doctrine calls this a listicle wearing a story's clothes and labels it an explicit REJECT.; SLIDE 2 IS NOT A SECOND HOOK (\u00a74, owner order Aug 18): Slide 2 opens with '1) PASTE A YEAR OF EMAILS\u2026' \u2014 it starts delivering the list, not r",
+ "topic_source": "news-anchored"
+}

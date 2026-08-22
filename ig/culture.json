@@ -1,56 +1,55 @@
 {
- "ts": 1787419144.8705933,
+ "ts": 1787420997.856377,
  "updated": "2026-08-22",
  "hot": [
   {
-   "name": "Spider-Man: Brand New Day",
-   "why_hot_now": "Gunning for a 4th straight #1 weekend with $815M domestic and $2.06B worldwide in just 21 days — the fastest film ever to cross $1B.",
-   "typical_scene": "Spider-Man swinging through neon-drenched Manhattan in a sleek new suit"
-  },
-  {
    "name": "Ariana Grande",
-   "why_hot_now": "New album 'petal' dropped July 31 and its title track is powering a massive TikTok chair-hopping choreography trend nationwide.",
-   "typical_scene": "leading chair-hop choreo in a white dress on a bare stage"
+   "why_hot_now": "Her album 'Petal' (July 31) is charting everywhere, and the title track's chair-hopping choreo is the dominant TikTok trend this week.",
+   "typical_scene": "ponytail twirl mid-set on Eternal Sunshine Tour stage"
   },
   {
-   "name": "Billie Eilish",
-   "why_hot_now": "Her James Cameron co-directed concert film 'Hit Me Hard and Soft: The Tour' just landed on Paramount+ August 6 after a $27M theatrical run.",
-   "typical_scene": "center-stage in 3D as IMAX cameras orbit her through smoke and lights"
+   "name": "Outer Banks",
+   "why_hot_now": "All 10 episodes of the final Season 5 dropped on Netflix on August 20—two days ago—triggering a mass binge event.",
+   "typical_scene": "Pogues sprinting on a treasure-hunt beach in the chaotic series finale"
   },
   {
-   "name": "Jeremy Allen White",
-   "why_hot_now": "Critical darling of 'The Bear' plus a career-making Calvin Klein campaign have crowned him 2026's undisputed TV heartthrob.",
-   "typical_scene": "shirtless on a giant Calvin Klein billboard, or sweating in The Bear kitchen"
+   "name": "My Chemical Romance",
+   "why_hot_now": "Their theatrical Black Parade 2026 stadium tour launched August 9 at sold-out Citi Field, igniting an emo-revival firestorm.",
+   "typical_scene": "Gerard Way in full marching-band costume leading 50,000 people"
   },
   {
-   "name": "Michael",
-   "why_hot_now": "The MJ biopic — the highest-grossing biopic in history with $1B+ worldwide — just hit Starz streaming on August 10, bringing it to everyone.",
-   "typical_scene": "young Michael moonwalking under a spotlight in a red sequined jacket"
+   "name": "Ted Lasso",
+   "why_hot_now": "Season 4 on Apple TV broke the platform's all-time viewership record on debut and drops new episodes every Wednesday.",
+   "typical_scene": "Ted coaching a women's football team in England, biscuit tin in hand"
   },
   {
-   "name": "The Odyssey",
-   "why_hot_now": "Christopher Nolan's epic poem adaptation is the other major August theatrical event competing for screen space alongside Spider-Man.",
-   "typical_scene": "Odysseus lashed to the mast while Sirens rage on stormy seas"
+   "name": "Olivia Rodrigo",
+   "why_hot_now": "The Unraveled Tour (65 dates, Sep 2026–May 2027) just went on sale this week, crashing ticketing sites nationwide.",
+   "typical_scene": "shredding guitar in ripped dress at a sold-out arena"
+  },
+  {
+   "name": "The Super Mario Galaxy Movie",
+   "why_hot_now": "Crossed $1 billion worldwide to become 2026's biggest film, still spawning non-stop cosplay and fan-edit content.",
+   "typical_scene": "Mario and Rosalina soaring through a pastel galaxy on Yoshi"
   },
   {
    "name": "Kim Kardashian",
-   "why_hot_now": "Her new energy drink 'UPDATE' launched this month with a satirical, headline-grabbing ad campaign that's all over every social feed.",
-   "typical_scene": "sipping UPDATE in an over-the-top infomercial setup with an exaggerated smirk"
+   "why_hot_now": "Her new energy drink brand 'UPDATE' launched this month with a deliberately satirical viral ad campaign blowing up feeds.",
+   "typical_scene": "handing glowing cans to camera in an all-white minimalist set"
   },
   {
-   "name": "Megan Moroney",
-   "why_hot_now": "Her debut perfume 'Calliope' dropped this August, triggering a flood of country-girl-aesthetic content across TikTok and Instagram.",
-   "typical_scene": "standing in a wildflower field, cowboy boots on, holding the Calliope bottle"
+   "name": "Reacher",
+   "why_hot_now": "Season 4 arrived on Prime Video in August and is dominating the platform's charts again.",
+   "typical_scene": "Alan Ritchson filling an entire diner doorframe before a brawl"
   }
  ],
  "memes": [
-  "'No I didn't, dingbat, LISTEN!' — creators mime a classic Abby Lee Miller Dance Moms meltdown, then suddenly snap into full choreography",
-  "Saxophone Gets Louder — video casually zooms in and freezes into total chaos exactly when a blaring 80s sax unexpectedly hits full volume",
-  "'Me at the Same Age as My Parents' — side-by-side photo comparisons soundtracked by Pitbull's 'Hey Baby (Drop It to the Floor)'",
-  "Spider-Man Ceiling Trend — 'Sunflower' by Post Malone plays while two look-alikes point at each other Miles Morales–style, fueled by Brand New Day hype",
-  "AI Historical POV parody — mocking AI-generated 'you were there' epic history clips by filming hilariously mundane personal 'monumental moments' instead",
-  "'Eeffoc' — August 2026's cryptic rising format; it's just 'coffee' backwards, but the chaotic, unhinged energy attached to it is the actual point",
-  "'2026 is the new 2016' — feeds flooded with grainy mirror selfies, heavy vintage filters, and screenshots from long-dead apps in a full nostalgia revolt"
+  "Spider-Man Ceiling Trend: creators fake-stick to the ceiling Miles-Morales-style by jumping off a hidden stool mid-lip-sync—earliest video hit 91M views in a week.",
+  "'Me at the Same Age as My Parents' — childhood photo flip transition synced to Pitbull's 'Hey Baby (Drop It to the Floor).'",
+  "Saxophone Gets Louder — clip suddenly BLASTS dramatic brass and crash-zooms in on someone's most awkward facial expression.",
+  "Lady Gaga 'Paparazzi' dubstep remix glow-up — unglamorous candid photo cuts hard to full red-carpet glam shot.",
+  "'Seeing How My X Would Respond to a Bully' — screen-recorded text threads sent to exes, coaches, or internet figures go viral for the reactions.",
+  "Ariana Grande 'Petal' chair-hop duets — TikTokers recreate the album's seat-hop choreography in increasingly unhinged locations."
  ],
  "ai_flagships": [
   "Claude Opus 5",
