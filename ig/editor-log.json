@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "On-topic but routine corporate product launch with no human story, no felt consequence, and a scout interest score of 4 — the single-sentence source has no substance to build slides from.",
-  "subject": "JUST IN: BlackRock launches tokenized money-market fund on Ethereum.",
-  "t": "2026-08-04T00:05:16Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Scout interest 3/10 with no substance behind it — a single thin tweet about a generic lock trick with no named person, no real-world consequence, and nothing to build slides from.",
   "subject": "This is how to open a number lock using nothing but a piece of paper.",
   "t": "2026-08-04T00:05:48Z",
@@ -2098,5 +2091,12 @@
   "subject": "SOMEONE STOLE $4B OVER 9 YEARS. <em>THESE 6 PROMPTS PROTECT YOUR MONEY BEFORE YOU PAY ANYONE</em>",
   "verdict": "REJECT",
   "reason": "IMAGE LAW VIOLATION (§3, hard rule): The cover shows a generated unknown male face — a generic investigator with glasses and a magnifying glass. Image Law explicitly bans 'never a generated unknown face.' The story's real protagonist IS a famous person (Ruja Ignatova, FBI Most Wanted, the CryptoQueen). She should be the cover subject in an FBI/fraud-world scene. Fix: regenerate with Ruja Ignatova "
+ },
+ {
+  "t": "2026-08-22T08:46:49Z",
+  "gate": "A",
+  "subject": "every news headline now is like Blueberries Will Kill You. Measles Is Back. Gas Costs Six Dollars. Gwyneth Paltrow Is Se",
+  "verdict": "KILL",
+  "reason": "No story — a single-tweet meta-complaint about media headlines with zero real-world event, consequence, or facts to build from; violates INSTANT KILL §1 (no substance, no second fact, no numbers) and core STORY LAW requirement that something must HAPPEN with a consequence someone felt."
  }
 ]

@@ -1,0 +1,89 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>פקודה של שלוש שניות:</em> שלטו במכונה ממרחק 50 מייל, בלי מהנדסים",
+   "kicker": "שלוש שניות. בלי מהנדסים.",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-20-edu-exec-ai-agent-controls-physical-machines/gen-0-rescue.jpg",
+   "image_prompt": "Single machine on dark beach at night, arrow-command glowing above, xAI white neon logo, navy ocean, crescent moon, cyan signal glow."
+  },
+  {
+   "type": "content",
+   "headline": "הקליד שתי מילים. <em>המכונה עלתה תוך שלוש שניות.</em>",
+   "body": "הקליד: start mowing. המכונה עלתה תוך <b>שלוש שניות</b>. <b>50 מייל</b> ממנו.",
+   "hsize": 100,
+   "media": "posts/2026-08-20-edu-exec-ai-agent-controls-physical-machines/gen-1.jpg",
+   "image_prompt": "From behind, a solitary figure seated at a minimalist desk facing a large monitor showing a glowing green satellite map with a single lawn-mower icon mid-movement and a long luminous arc connecting it back to a blinking cursor dot near the bottom of the map, hands resting on keyboard; dim room, amber desk lamp at the left edge, cold blue screen glow dominant; accent: amber lamp warmth against cold blue monitor light. Documentary news photo, 35mm, film grain, zero readable words."
+  },
+  {
+   "type": "content",
+   "headline": "<em>Grok Bot הפך טקסט רגיל לפקודה פיזית</em>",
+   "body": "בלי קוד. בלי מהנדסים. כותבים הוראה, המכונה מתניעה. רק שאלה אחת נשארת: כמה זמן ההתקנה בכלל לוקחת?",
+   "hsize": 100,
+   "media": "posts/2026-08-20-edu-exec-ai-agent-controls-physical-machines/gen-2.jpg",
+   "image_prompt": "Extreme close-up of a hand gripping a smartphone, the screen showing a single plain white chat-bubble symbol; behind it, a heavy steel robot arm frozen mid-sweep in motion blur inside a dim industrial space, cold steel-blue shadows; the xAI logo exactly as in the reference image glowing white neon on the far dark wall; accent: bright white chat-bubble against cold steel blue. Documentary news photo, 35mm, harsh on-camera flash, film grain, zero readable words."
+  },
+  {
+   "type": "content",
+   "headline": "שתי דקות",
+   "body": "שליטה מרחוק על מכונה מחוברת, מכל מקום בעולם",
+   "hsize": 80,
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>כל מכונה שהצוות שלכם עומד עליה, היא מועמדת</em>",
+   "body": "מחסנים. רכבים. מערכות אבטחה. כל מכונה מחוברת היא מועמדת. איפה האנשים שלכם עומדים על ציוד עכשיו?",
+   "hsize": 100,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>האוטומציה הראשונה שלכם בשתי דקות</em> כבר אצלכם בעסק",
+   "body": "שאלו את הצוות שלכם: איזו מכונה צריכה אדם שיפעיל אותה? זו המטרה הראשונה. התקנה: <b>שתי דקות</b>",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את זה: <em>האופרטור של שתי דקות</em>",
+   "body": "מכונה אחת, 50 מייל, הודעה אחת\nהתקנה: שתי דקות, בלי מהנדסים\nGrok Bot מחבר מילים לציוד פיזי\nכל מכונה מחוברת היא מועמדת\n\nחדשות AI יומיות + מהלכים אמיתיים לאנשי ניהול",
+   "media": null
+  }
+ ],
+ "caption": "אדם אחד הקליד שתי מילים ומכונה 50 מייל משם התחילה לעבוד תוך שלוש שניות, בלי קוד ובלי מהנדסים. 🤖\n\nהאופרטור של שתי דקות, לפי סדר: אדם אחד שלט במכונה 50 מייל משם עם פקודת טקסט פשוטה דרך Grok Bot, כלי AI שהופך מילים לפעולות פיזיות, עלות התקנה של שתי דקות שזמינה לכל עסק היום, כל מכונה מחוברת בעסק שלכם כמועמדת לאוטומציה, והשאלה הניהולית שמוצאת לכם את האוטומציה הראשונה.\n\nסוכני AI כבר לא עונים על מיילים. הם מפעילים מכונות פיזיות דרך שפה פשוטה, וזמן ההתקנה קרס לדקות. מי שפועל ראשון, ינצח. מי שמחכה, יראה את המתחרים שלו עוברים אותו.\nמנהלים עסק? שלחו לנו DM עם המילה 'AI' ונראה לכם מה זה יכול לעשות אצלכם.\n\nעקבו אחרי @ainews.israel לחדשות AI כל יום.\n\nמקורות: xAI\n\n#AI #automation #artificialintelligence #business #productivity",
+ "pinned_comment": "שקופית 4 היא הכואבת. איזו מכונה אצלכם בעסק יש עליה מישהו שרק עומד ומחכה עכשיו?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>THE 3-SECOND COMMAND:</em> ONE AI MOVED A MACHINE 50 MILES AWAY",
+   "<em>THE 2-MINUTE OPERATOR</em> JUST REPLACED YOUR ON-SITE WORKER",
+   "<em>THE 2-MINUTE OPERATOR:</em> 50 MILES, ONE COMMAND",
+   "<em>THE 50-MILE DESK:</em> AI RUNS REAL MACHINES IN 2 MINUTES"
+  ],
+  "scores": [
+   9,
+   5,
+   8,
+   6
+  ],
+  "winner": 0,
+  "why": "The '3-second' hook hits instantly because it's impossibly fast—your brain goes 'wait, WHAT?' and you stop scrolling to understand. The runner-up at [2] has the same wild concept but 2 minutes sounds almost plausible, so the shock never lands as hard."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "no-face rescue",
+ "editor_override": "HOOK TRUTH BREACH: 'ONE AI MOVED A MACHINE 50 MILES AWAY' implies the machine physically traveled 50 miles. The actual claim is remote control FROM 50 miles away. Fix: 'ONE AI CONTROLLED A MACHINE 50 MILES AWAY' or 'ONE AI STARTED A MACHINE FROM 50 MILES AWAY.'; THREE CONSECUTIVE ZERO-YOU SLIDES (explicit REJECT condition §4): Slides 2, 3, and 4 contain no second-person sentence. The reader watche",
+ "topic_source": "exec-news",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
