@@ -1,33 +1,8 @@
 [
  {
-  "page": "mashable",
-  "hook": "\"MCU's Blade movie may be dead, but Mahershala Ali and filmmaker Bassam Tariq have created an original action movie from its ashes. \u2060\n\u2060\n\u2060\nWritten and directed by Tariq, \"Your Mother Your Mother Your Mother\" stars Ali as ",
-  "date": "2026-08-07"
- },
- {
-  "page": "mashable",
-  "hook": "\"Another adorable animal has taken over the internet.\n\nMomota, an 8-month-old polar bear cub, has taken the internet by storm with his love of traffic cones. Yes, you read that right, traffic cones. It seems the cub can\u2019",
-  "date": "2026-08-07"
- },
- {
-  "page": "technology",
-  "hook": "\"Swipe \u2b05\ufe0f to see the difference between 35mm and IMAX 70mm, and how Christopher Nolan\u2019s The Odyssey reveals dramatically more of every frame in its highest quality format \ud83c\udfac\ud83c\udf7f\n\nThe film was shot entirely with IMAX film cam",
-  "date": "2026-08-07"
- },
- {
   "page": "technology",
   "hook": "\"Palantir\u2019s latest earnings sent the internet into celebration mode after revenue surged 93% to $1.94 billion and the stock jumped nearly 30% in one day \ud83d\udcc8\n\nU.S. commercial revenue climbed 149% to $764 million, while U.S.",
   "date": "2026-08-08"
- },
- {
-  "page": "futurism",
-  "hook": "\"Whether magicians, thieves, or just fed up citizens, somebody has made an entire city\u2019s worth of ALPRs vanish in the night.\n\nAccording to new reporting by @mprnews, police in the city of Winona, Minnesota, are incensed ",
-  "date": "2026-08-07"
- },
- {
-  "page": "techcrunch",
-  "hook": "\"You might not need a lawyer before you start fundraising, but you do need to set up a good legal foundation. \n\nIn this episode of Build Mode, CEO and founder of Lexsy @kristinasubbotina.esq breaks down the four unfixabl",
-  "date": "2026-08-07"
  },
  {
   "page": "wired",
@@ -38,21 +13,6 @@
   "page": "wired",
   "hook": "\"On a rainy New York morning earlier this week, a WIRED reporter strapped to his wrist a lavender and pink plastic child\u2019s smartwatch and headed to work. As he approached his nearby subway station to commute to WIRED\u2019s o",
   "date": "2026-08-08"
- },
- {
-  "page": "wired",
-  "hook": "\"For many years now, a dark question has haunted parents, teachers, the internet, and media institutions: What\u2019s wrong with young men?\n\nWhy, people ask, are boys so politically extreme, spouting misogynist rhetoric, and ",
-  "date": "2026-08-07"
- },
- {
-  "page": "wired",
-  "hook": "\"Part of a SpaceX rocket crashed into the moon, leaving a new crater behind, and all kinds of questions.\n\nTap the \ud83d\udd17 in bio for the full episode. Subscribe to or follow \"Uncanny Valley\" wherever you get your podcasts.\n\n#U",
-  "date": "2026-08-07"
- },
- {
-  "page": "wired",
-  "hook": "\"After a rocky start with a few failed experiments in the past few years, across the fast-food industry the pendulum seems to be swinging back in the direction of AI-drive-thru adoption.\n\nIn addition to Taco Bell and Dai",
-  "date": "2026-08-07"
  },
  {
   "page": "technology",
@@ -523,5 +483,60 @@
   "page": "wired",
   "hook": "\"When someone uploads a photo to the people-search tool ClarityCheck, the website has a clear message: \u201cYour reverse image search is private and secure.\u201d New research, though, shows that the website left more than 9 mill",
   "date": "2026-08-19"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Chinese-made DDR5 is reaching serious gaming performance, with CXMT memory hitting 9,000 MT/s in overclocking tests while delivering competitive speeds at more practical settings \ud83c\udde8\ud83c\uddf3\ud83d\udcbb\n\nColorful demonstrated a 48GB iGame ",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Huawei\u2019s new Pura X View takes a different approach to modern smartphones, using an unusually wide display while keeping the familiar non-folding slab design \ud83d\udcf1\ud83d\udc40\n\nThe phone features a 6.39-inch OLED with a 2,232 \u00d7 1,320 ",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Someone used AI to create a 25-second GTA-style gameplay sequence set in a fictional version of Pyongyang, complete with an open-world game interface \ud83c\udfae\ud83e\udd2f\n\nCreated using Seedance 2.5, the clip shows driving, carjacking, s",
+  "date": "2026-08-20"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Since neuroscientists began excavating the human mind in search of the root cause of consciousness, they\u2019ve acting on one foundational assumption \u2014 that consciousness is a function of the brain. It\u2019s highly intuitive: w",
+  "date": "2026-08-21"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Mackenyu (One Piece, Kamen Rider, Rurouni Kenshin) and Taz Skylar (One Piece, Warheads, Gassed Up) hang out at AnimeNYC to chat about their wild rides in acting, but also (mostly) about their favorite eats \ud83c\udf55 \n\n#anime #a",
+  "date": "2026-08-21"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Are you using your free will to customize your own @cyberpowerpc PC build? Just don\u2019t let them get too hot though. \ud83e\udd75 \n\nMade possible by @rodemic.\n#allaccess #pc #gaming #onepiece #demonslayer\".",
+  "date": "2026-08-21"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"Stripe claims the singularity is here, and justifies its $7.5B acquisition of OpenRouter.\n\nThe truth, as the Equity podcast crew highlights, is much more practical, as unglamorous as token expense management may seem.\".",
+  "date": "2026-08-21"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"Despite what other founders are posting, no one\u2019s startup is perfect. Every company has problems so the real way to stand out to investors is to know how to focus your resources for success. \n\nWatch the full episode of ",
+  "date": "2026-08-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"A job interview with an AI agent is increasingly becoming the first step of the hiring process. But since there\u2019s no human on the other end of the call, candidates are scheduling them whenever, even deep into the night.",
+  "date": "2026-08-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"For many watching Lindsay Clancy\u2019s murder trial, the primary takeaway has been how the deaths of her three small children\u2014Cora, 5; Dawson, 3; and Callen, eight months\u2014were tragically preventable.\n\nLawyers for the Massac",
+  "date": "2026-08-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"The UK government has six months to decide whether to terminate a more than $400 million deal between the NHS and American software company Palantir.\n\nPalantir was commissioned by the NHS in 2023 to develop a system for",
+  "date": "2026-08-21"
  }
 ]
