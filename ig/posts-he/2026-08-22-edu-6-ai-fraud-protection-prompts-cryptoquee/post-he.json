@@ -1,0 +1,123 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "מישהו גנב ארבעה מיליארד דולר תוך תשע שנים. <em>ששת הפרומפטים האלה שומרים לך על הכסף לפני שאתה משלם</em>",
+   "kicker": "ארבעה מיליארד דולר. ה-FBI עוד מחפש.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-22-edu-6-ai-fraud-protection-prompts-cryptoquee/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up in dark detective trenchcoat with magnifying glass over contract, fierce triumph expression, shadowy background, 35mm, dramatic clean light, film grain. Blood-red accent, charcoal depths."
+  },
+  {
+   "type": "content",
+   "headline": "1) מצא כל מלכודת <em>שמסתתרת בחוזה שלך</em>",
+   "hsize": 104,
+   "body": "עורכי דין גובים <b>$400 לשעה</b> על קריאת חוזים. הפרומפט הזה מוצא את אותן מלכודות תוך 30 שניות.\n\"הנה החוזה שלי: [הדבק]. מצא כל סעיף שמגן עליהם ופוגע בי.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) בדוק <em>את ההיסטוריה האמיתית של כל אחד</em> לפני שאתה משלם",
+   "hsize": 104,
+   "body": "רוב בעלי העסקים לא יודעים מה לחפש לפני שמשלמים למישהו. הפרומפט הזה עושה את זה בשבילך.\n\"אני משלם ל[שם] $[סכום]. תרשום מה לחפש בגוגל, אילו מסמכים לדרוש, ושני דגלים אדומים שיגרמו לי לברוח.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) סרוק כל דוח פיננסי <em>לשקרים נסתרים</em>",
+   "hsize": 96,
+   "body": "רוב המעילות מסתתרות בשלושה מקומות בדוח הפיננסי. הפרומפט הזה יודע בדיוק איפה לחפש.\n\"הנה הדוח הפיננסי שלי: [הדבק]. מצא חריגות, שורות חסרות, וכל דבר שכדאי לי לבדוק.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "תשע שנים. ארבעה מיליארד דולר. עדיין לא נתפסה.",
+   "hsize": 80,
+   "body": "רוג'ה איגנטובה נמצאת ברשימת המבוקשים של ה-FBI משנת 2017. היא מואשמת בניהול הונאת ההשקעות הגדולה ביותר בהיסטוריה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) זהה ביקורות מזויפות <em>לפני שאתה סומך על מישהו</em>",
+   "hsize": 104,
+   "body": "רמאים עם חמישה כוכבים גונבים מיליונים. הדפוס תמיד אותו דבר.\n\"הנה ביקורות על [עסק]: [הדבק]. אילו נראות מזויפות, מה הן מסתירות, והאם היית סומך עליהם עם $10,000?\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) כתוב <em>תנאי תשלום שלא מאפשרים רמאות</em>",
+   "hsize": 112,
+   "body": "רוב החוזים מניחים שהצד השני ישר. הפרומפט הזה לא.\n\"אני שוכר את [שם] ל[שירות]. כתוב סעיף תשלום לפי שלבים, כסף עובר רק כשכל שלב מסתיים, וכולל החזר אם הם נעלמים.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) שאל ממליצים <em>שאלות שאי אפשר להתחמק מהן</em>",
+   "hsize": 104,
+   "body": "רמאים בוחרים את הממליצים שלהם בעצמם. הפרומפט הזה הופך את המשחק.\n\"תן לי שבע שאלות לשאול את הממליצים של [שם], שיחשפו אם הם משקרים על הניסיון, האמינות, או לאן הכסף הלך.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: <em>כל ששת הפרומפטים נגד הונאה</em> נמצאים כאן",
+   "hsize": 96,
+   "body": "מצא מלכודות בחוזה תוך שניות\nבדוק את ההיסטוריה של כל אחד לפני תשלום\nסרוק דוחות פיננסיים לשקרים נסתרים\nזהה ביקורות מזויפות תוך שניות\nכתוב תנאי תשלום שלא מאפשרים רמאות\nשאל ממליצים שאלות שאי אפשר להתחמק מהן\n\nחדשות AI ומיומנויות כל יום",
+   "media": null
+  }
+ ],
+ "caption": "ה-FBI חיפש תשע שנים אחרי אישה שמואשמת בגניבת ארבעה מיליארד דולר. AI מזהה את אותם דגלים אדומים לפני שאתה משלם למישהו. 🔍\n\nכל ששת הפרומפטים בשקופיות: 1) מוצא מלכודות בחוזה, 2) רשימת בדיקה לפני כל תשלום, 3) סריקת דוח פיננסי לאיתור חריגות, 4) גלאי ביקורות מזויפות, 5) סעיף תשלום לפי שלבים שמגן עליך מרמאות, 6) שאלות לממליצים שחושפות שקרים. כל פרומפט קצר מספיק כדי להעתיק מצילום מסך.\n\nהונאה עולה לעסק קטן ממוצע מעל $100,000 לאירוע, ורוב הקורבנות אומרים שלא הבינו עד שהיה מאוחר מדי. AI עושה תוך 30 שניות מה שעורך דין גובה $400 לשעה לגלות. מנהל עסק? שלח לנו הודעה עם המילה \"AI\" ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: FBI, Anthropic, Association of Certified Fraud Examiners\n\nחדשות AI כל יום: @ainews.israel\n\n#aitools #businessowner #artificialintelligence #chatgpt #entrepreneur",
+ "pinned_comment": "איזה פרומפט תריץ קודם? השקופית השלישית היא זו שרוב בעלי העסקים מדלגים עליה, ועל זה בדיוק כל הרמאים סומכים.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>THE FBI SEARCHED 9 YEARS.</em> THESE 6 PROMPTS CHECK IN SECONDS",
+   "A $4B FRAUD FOOLED MILLIONS. <em>6 PROMPTS THAT WOULDN'T HAVE</em>",
+   "<em>6 PROMPTS THAT DO</em> WHAT LAWYERS CHARGE $400 AN HOUR FOR",
+   "6 AI PROMPTS THAT CATCH <em>A FRAUD BEFORE YOU PAY</em>"
+  ],
+  "scores": [
+   5,
+   8,
+   3,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] hits hardest: specific, massive numbers ($4B, millions) and a real story you already believe before you swipe—you want the proof and details. [0] is intriguing but cryptic—you'd waste seconds guessing what 'check in seconds' even means while your thumb keeps moving."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "A $4B FRAUD RAN FOR 9 YEARS. <em>6 AI PROMPTS WOULD HAVE CAUGHT IT ON DAY ONE</em>",
+   "SOMEONE STOLE $4B OVER 9 YEARS. <em>THESE 6 PROMPTS PROTECT YOUR MONEY BEFORE YOU PAY ANYONE</em>",
+   "6 AI PROMPTS THAT CATCH WHAT COST OTHERS <em>$4 BILLION OVER 9 YEARS</em>"
+  ],
+  "scores": [
+   7.5,
+   8.5,
+   6.0
+  ],
+  "winner": 1,
+  "why": "[1] makes you feel personally threatened and then directly protects you, while [0] shocks you with a wild claim but leaves you skeptical it could actually work."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW VIOLATION (§3, hard rule): The cover shows a generated unknown male face — a generic investigator with glasses and a magnifying glass. Image Law explicitly bans 'never a generated unknown face.' The story's real protagonist IS a famous person (Ruja Ignatova, FBI Most Wanted, the CryptoQueen). She should be the cover subject in an FBI/fraud-world scene. Fix: regenerate with Ruja Ignatova ",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
