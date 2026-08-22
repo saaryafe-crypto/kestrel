@@ -1,33 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "Cover image fails the thumb test (§3). The giant glowing gold star over a brick building is symbolic decoration — at feed size, a cold scroller reads 'star rating' at best, never 'AI prompts' or 'fixing a bad review.' Image Law requires PROOF or a STAGED SCENE of the story. Fix: replace with a human face — a business owner staring at their phone with a visible 1-star notification, or a split-scree",
-  "subject": "6 AI PROMPTS THAT TURN <em>1-STAR REVIEWS</em> INTO REPEAT CUSTOMERS",
-  "t": "2026-08-11T21:11:31Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Textbook reaction-bait — the entire 'event' is screenshots of Instagram AI being silly and people laughing in replies, with zero real-world consequence; the Doctrine names the Queen Elizabeth playlist meme as the exact failure model this rule was written to prevent.",
-  "subject": "We gotta take AI away from Instagram users",
-  "t": "2026-08-03T21:30:52Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Classic reaction-bait: the entire 'event' is that someone posted something online and people reacted — no real-world consequence (no lawsuit, no firing, no product pulled), just likes and replies piling on.",
-  "subject": "Uhhhh, what a creepy video for Mario Lopez to create using AI and then post… Especially since the subject is his niece!",
-  "t": "2026-08-03T21:31:00Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "ONE FACT, THREE SLIDES: The 67% error rate is restated three times — cover ('67% error rate'), slide 2 ('failed two out of three'), slide 4 ('33% accuracy / coin flip'). §4 requires a new fact per slide. The coin-flip comparison is a reframe, not a new fact. Cut slide 4 or replace its content with a genuinely new detail (which AI tool, what diagnoses, how many patients affected, what the lawsuit f",
-  "subject": "THE PERSON MAYO CLINIC HIRED TO KEEP THEIR AI SAFE <em>IS NOW SUING THEM FOR HIDING ITS 67% ERROR RATE ON REAL PATIENTS<",
-  "t": "2026-08-03T21:32:56Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "A",
   "reason": "On-topic but routine corporate product launch with no human story, no felt consequence, and a scout interest score of 4 — the single-sentence source has no substance to build slides from.",
   "subject": "JUST IN: BlackRock launches tokenized money-market fund on Ethereum.",
@@ -2098,5 +2070,33 @@
   "subject": "‼️THIS IS SHOCKING — AND DISGUSTING...SHAME ON GOOGLE. I typed into Google AI: “There is a Palestinian in my neighborhoo",
   "verdict": "KILL",
   "reason": "Reaction-bait with no substance: an X user tested Google AI and posted a screenshot complaint—zero real-world consequence, money moved, product change, or event anyone would DM a friend."
+ },
+ {
+  "t": "2026-08-21T23:21:58Z",
+  "gate": "A",
+  "subject": "\"The era of cheap used cars is rapidly disappearing,\" per YF",
+  "verdict": "KILL",
+  "reason": "No substance: single thin tweet with no real names, no numbers, no event that happened, no consequence anyone felt—just a market trend observation that fails the 'would the owner post this?' test and has no story to tell across slides."
+ },
+ {
+  "t": "2026-08-21T23:22:34Z",
+  "gate": "A",
+  "subject": "A woman allegedly stole at least $4 billion, boarded a plane in 2017, and disappeared. Nearly a decade later, the FBI st",
+  "verdict": "KILL",
+  "reason": "Strong crime story by STORY LAW metrics, but fails THE STANDARD: this is true-crime/mystery narrative, not tech/builder/AI content; for @technology/@getintoai/@techskills, the owner would not post it himself—next candidate gets the slot."
+ },
+ {
+  "t": "2026-08-21T23:23:06Z",
+  "gate": "A",
+  "subject": "BREAKING: Representative Ro Khanna just updated his 2025 annual financial disclosure: 5,402 trades Up to $165.4 million ",
+  "verdict": "KILL",
+  "reason": "Routine mandatory disclosure with no scandal, consequence, or outcome—just filing numbers from a required annual form, not a story someone would send to a friend."
+ },
+ {
+  "t": "2026-08-22T00:37:01Z",
+  "gate": "B",
+  "subject": "SOMEONE STOLE $4B OVER 9 YEARS. <em>THESE 6 PROMPTS PROTECT YOUR MONEY BEFORE YOU PAY ANYONE</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW VIOLATION (§3, hard rule): The cover shows a generated unknown male face — a generic investigator with glasses and a magnifying glass. Image Law explicitly bans 'never a generated unknown face.' The story's real protagonist IS a famous person (Ruja Ignatova, FBI Most Wanted, the CryptoQueen). She should be the cover subject in an FBI/fraud-world scene. Fix: regenerate with Ruja Ignatova "
  }
 ]

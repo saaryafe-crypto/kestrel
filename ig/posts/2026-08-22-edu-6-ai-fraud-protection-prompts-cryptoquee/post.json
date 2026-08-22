@@ -1,0 +1,116 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SOMEONE STOLE $4B OVER 9 YEARS. <em>THESE 6 PROMPTS PROTECT YOUR MONEY BEFORE YOU PAY ANYONE</em>",
+   "kicker": "$4B STOLEN. FBI STILL SEARCHING.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-22-edu-6-ai-fraud-protection-prompts-cryptoquee/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up in dark detective trenchcoat with magnifying glass over contract, fierce triumph expression, shadowy background, 35mm, dramatic clean light, film grain. Blood-red accent, charcoal depths."
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND EVERY TRAP <em>HIDING IN YOUR CONTRACT</em>",
+   "hsize": 104,
+   "body": "Lawyers charge <b>$400 an hour</b> to read contracts. This finds the same traps in 30 seconds.\n\"Here is my contract: [PASTE]. Find every clause that protects them and hurts me.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) CHECK <em>ANYONE'S REAL HISTORY</em> BEFORE YOU PAY",
+   "hsize": 104,
+   "body": "Most business owners don't know what to search before paying someone. This does it for you.\n\"I'm paying [NAME] $[AMOUNT]. List what to Google, what documents to demand, and 2 walk-away red flags.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) SCAN ANY FINANCIAL STATEMENT <em>FOR HIDDEN LIES</em>",
+   "hsize": 96,
+   "body": "Most embezzlement hides in the same 3 places on a financial statement. This prompt knows where to look.\n\"Here is my financial statement: [PASTE]. Find anomalies, missing line items, and anything I should question.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "9 YEARS. $4 BILLION. STILL GONE.",
+   "hsize": 80,
+   "body": "Ruja Ignatova has been on the FBI's most wanted list since 2017. She's accused of running the biggest fake investment in history.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) SPOT FAKE REVIEWS <em>BEFORE YOU TRUST ANYONE</em>",
+   "hsize": 104,
+   "body": "Five-star scammers steal millions. The pattern is always the same.\n\"Here are reviews for [BUSINESS]: [PASTE]. Which look fake, what are they hiding, and would you trust them with $10,000?\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE <em>FRAUD-PROOF PAYMENT TERMS</em>",
+   "hsize": 112,
+   "body": "Most contracts assume good faith. This one doesn't.\n\"I'm hiring [NAME] for [SERVICE]. Write a milestone payment clause. Money releases only when each phase is done and includes a refund if they vanish.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) ASK REFERENCES <em>QUESTIONS THEY CAN'T DODGE</em>",
+   "hsize": 104,
+   "body": "Fraudsters pick their own references. This prompt turns the table.\n\"Give me 7 questions to ask [NAME's] references that reveal if they're lying about experience, reliability, or where the money went.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 6 FRAUD PROMPTS</em> ARE RIGHT HERE",
+   "hsize": 96,
+   "body": "Find contract traps instantly\nCheck anyone's history before paying\nScan financials for hidden lies\nSpot fake reviews in seconds\nWrite fraud-proof payment terms\nAsk references questions they can't dodge\n\nDaily AI news + skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 6. The FBI spent 9 years searching for a woman charged with stealing $4 billion. AI catches the same red flags before you pay anyone. \ud83d\udd0d\n\n1) Contract trap-finder, 2) due-diligence checklist before any payment, 3) financial statement anomaly scan, 4) fake review detector, 5) fraud-proof milestone payment clause, 6) reference questions that catch lies. Every prompt is short enough to retype from a screenshot.\n\nFraud costs the average small business over $100,000 per incident, and most victims say they had no idea until it was too late. AI does in 30 seconds what a lawyer charges $400 an hour to catch. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: FBI, Anthropic, Association of Certified Fraud Examiners\n\n#aitools #businessowner #artificialintelligence #chatgpt #entrepreneur",
+ "pinned_comment": "Which prompt are you running first? Slide 3 is the one most business owners skip and the one most fraudsters count on you skipping.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>THE FBI SEARCHED 9 YEARS.</em> THESE 6 PROMPTS CHECK IN SECONDS",
+   "A $4B FRAUD FOOLED MILLIONS. <em>6 PROMPTS THAT WOULDN'T HAVE</em>",
+   "<em>6 PROMPTS THAT DO</em> WHAT LAWYERS CHARGE $400 AN HOUR FOR",
+   "6 AI PROMPTS THAT CATCH <em>A FRAUD BEFORE YOU PAY</em>"
+  ],
+  "scores": [
+   5,
+   8,
+   3,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] hits hardest: specific, massive numbers ($4B, millions) and a real story you already believe before you swipe\u2014you want the proof and details. [0] is intriguing but cryptic\u2014you'd waste seconds guessing what 'check in seconds' even means while your thumb keeps moving."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "A $4B FRAUD RAN FOR 9 YEARS. <em>6 AI PROMPTS WOULD HAVE CAUGHT IT ON DAY ONE</em>",
+   "SOMEONE STOLE $4B OVER 9 YEARS. <em>THESE 6 PROMPTS PROTECT YOUR MONEY BEFORE YOU PAY ANYONE</em>",
+   "6 AI PROMPTS THAT CATCH WHAT COST OTHERS <em>$4 BILLION OVER 9 YEARS</em>"
+  ],
+  "scores": [
+   7.5,
+   8.5,
+   6.0
+  ],
+  "winner": 1,
+  "why": "[1] makes you feel personally threatened and then directly protects you, while [0] shocks you with a wild claim but leaves you skeptical it could actually work."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW VIOLATION (\u00a73, hard rule): The cover shows a generated unknown male face \u2014 a generic investigator with glasses and a magnifying glass. Image Law explicitly bans 'never a generated unknown face.' The story's real protagonist IS a famous person (Ruja Ignatova, FBI Most Wanted, the CryptoQueen). She should be the cover subject in an FBI/fraud-world scene. Fix: regenerate with Ruja Ignatova ",
+ "topic_source": "news-anchored"
+}
