@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "Scout interest 3/10 with no substance behind it — a single thin tweet about a generic lock trick with no named person, no real-world consequence, and nothing to build slides from.",
-  "subject": "This is how to open a number lock using nothing but a piece of paper.",
-  "t": "2026-08-04T00:05:48Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Reaction-bait: the entire story is market movement responding to rumors of a future unveiling that hasn't happened — no real-world event, no consequence anyone felt, exactly the routine financial content (stocks-rose-today) the doctrine bans.",
   "subject": "BREAKING: Tesla stock, $TSLA, extends gains to over +3% on the day on reports that the company is nearing the unveiling ",
   "t": "2026-08-14T23:08:05Z",
@@ -2098,5 +2091,12 @@
   "subject": "every news headline now is like Blueberries Will Kill You. Measles Is Back. Gas Costs Six Dollars. Gwyneth Paltrow Is Se",
   "verdict": "KILL",
   "reason": "No story — a single-tweet meta-complaint about media headlines with zero real-world event, consequence, or facts to build from; violates INSTANT KILL §1 (no substance, no second fact, no numbers) and core STORY LAW requirement that something must HAPPEN with a consequence someone felt."
+ },
+ {
+  "t": "2026-08-22T14:27:29Z",
+  "gate": "B",
+  "subject": "5 MOVES CALLED <em>$4B IN 4 DAYS.</em> ONE FREE AI PROMPT FINDS THEM BEFORE THE HEADLINE DOES.",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — generated unknown face on cover: The cover shows an AI-generated generic businessman (glasses, suit, laptop). The Doctrine bans 'a generated unknown face' with no exceptions. The story's natural famous face is Michael Saylor, who runs Strategy. Fix: regenerate the cover with Saylor or replace the face entirely with a styled type-and-chart cover showing the $4B number prominently.; COVE"
  }
 ]

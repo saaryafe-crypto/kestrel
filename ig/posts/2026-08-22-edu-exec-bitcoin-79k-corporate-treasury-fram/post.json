@@ -1,0 +1,105 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 MOVES CALLED <em>$4B IN 4 DAYS.</em> ONE FREE AI PROMPT FINDS THEM BEFORE THE HEADLINE DOES.",
+   "kicker": "BITCOIN ADDED $450B IN 4 DAYS",
+   "hsize": 72,
+   "face": null,
+   "media": "posts/2026-08-22-edu-exec-bitcoin-79k-corporate-treasury-fram/gen-0.jpg",
+   "image_prompt": "Executive at dark desk, turned to laptop showing $4B Bitcoin spike, triumph sharp. Gleaming gold coin foreground. Claude logo glows neon behind. Tight three-quarter shot, documentary 35mm flash, deep gold against black."
+  },
+  {
+   "type": "content",
+   "headline": "<em>STRATEGY GAINED ROUGHLY $4B IN 4 DAYS.</em> DID YOU?",
+   "hsize": 98,
+   "body": "They allocated once. Bitcoin moved <b>30%</b> this week. Your board is asking your CFO right now: what's the answer",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MOVE 1: <em>ALLOCATE 1 TO 2% OF LIQUID RESERVES.</em> NO MORE.",
+   "hsize": 90,
+   "body": "The rest stays in dollars. That slice returned <b>30%</b> in four days. The gap is knowing when to enter",
+   "media": "posts/2026-08-22-edu-exec-bitcoin-79k-corporate-treasury-fram/gen-2.jpg",
+   "image_prompt": "CFO at a polished boardroom table sliding a small stack of gold coins to the side of a much larger pile of silver coins, representing a small treasury allocation. No labels or text visible. Keyed to gold and cool silver."
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$450,000,000,000",
+   "subheadline": "ADDED. 4 DAYS. ONE ASSET CLASS.",
+   "hsize": 78,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MOVE 2: <em>THE 3 SIGNALS THAT PRECEDE EVERY MAJOR MOVE.</em>",
+   "hsize": 90,
+   "body": "<b>Institutional inflows</b> rising. <b>Exchange outflows</b> elevated. <b>Retail fear index</b> spiking. Acting on the signal is where most executives freeze",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MOVE 3: <em>BUY ON THE SIGNAL. NEVER ON THE HEADLINE.</em>",
+   "hsize": 90,
+   "body": "Entry is when retail fears and institutions buy. Not after. Move 4 makes this automatic",
+   "media": "posts/2026-08-22-edu-exec-bitcoin-79k-corporate-treasury-fram/gen-5.jpg",
+   "image_prompt": "Executive hand hovering over a laptop trackpad as a candlestick price chart shows a sharp early upward spike beginning. A blurred printed page lies in the background. No readable text anywhere. Keyed to bright green and dark gray."
+  },
+  {
+   "type": "content",
+   "headline": "MOVE 4: <em>ONE CLAUDE PROMPT REPLACES CHART-WATCHING.</em>",
+   "hsize": 92,
+   "body": "\"Review Bitcoin this week: institutional inflows, exchange outflows, funding rates, retail fear index. Does this match a pre-surge setup? Buy, hold, or watch.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>THE $450B WINDOW, 5 MOVES</em>",
+   "hsize": 100,
+   "body": "Allocate 1, 2% of reserves\nBuy before headlines, never during\nTrack 3 signals: inflows, outflows, fear index\nClaude monitors the setup every Monday\nExit when funding rates spike\n\nDaily AI news and real capital plays.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. Bitcoin just added $450 billion to global markets in four days, and the companies with this framework were already positioned. \ud83c\udfe6\n\nMove 1: allocate 1 to 2% of liquid reserves and no more, Move 2: read the three signals that precede every major move, Move 3: buy on the signal before headlines appear, Move 4: run Claude every Monday with the exact prompt from slide 7, Move 5: exit when funding rates spike and institutional outflows begin.\n\nBitcoin at $79,000 is a capital story, not a crypto story. Strategy gained roughly $4 billion this week from a one-time treasury decision. The window opens and closes in days. Running a business? DM us \"AI\" and we will show you what this could look like for yours.\n\nSources: Bitcoin market data Aug 22 2026, Strategy (MSTR) public holdings.\n\n#Bitcoin #CorporateTreasury #BusinessStrategy #AI #CryptoInvesting",
+ "pinned_comment": "Move 4 is the one most executives sleep on. Which of the 5 are you already running?",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THE COMPANIES THAT SKIPPED BITCOIN <em>JUST FELL FURTHER BEHIND.</em>",
+   "YOUR COMPETITORS JUST GOT <em>$4B RICHER.</em> DO YOU HOLD ANY BITCOIN?",
+   "<em>BITCOIN CLOSED THE WINDOW.</em> 5 MOVES FOR THE NEXT ONE.",
+   "<em>THE $450B WINDOW.</em> 5 CORPORATE CASH MOVES."
+  ],
+  "scores": [
+   4,
+   8,
+   5,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] hits hardest because $4B is a concrete number that makes you think 'wait, what just happened?' while staying personal with 'YOUR competitors'\u2014you'd swipe to see proof. The others hide behind vague 'window' metaphors that make you work to understand what they're even saying."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 MOVES CAUGHT <em>$4B IN 4 DAYS.</em> MOST PEOPLE BOUGHT ON THE HEADLINE AND MISSED EVERY ONE.",
+   "<em>$4B IN 4 DAYS.</em> THE 5 BITCOIN MOVES THAT CALLED IT ARE NOW IN ONE FREE AI PROMPT.",
+   "5 MOVES CALLED <em>$4B IN 4 DAYS.</em> ONE FREE AI PROMPT FINDS THEM BEFORE THE HEADLINE DOES."
+  ],
+  "scores": [
+   6,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] combines a clear story with the strongest motivation\u2014\"before the headline\" creates real edge psychology of getting ahead. [1] offers just a free resource without urgency, and [0] guilt-trips you without redemption."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on cover: The cover shows an AI-generated generic businessman (glasses, suit, laptop). The Doctrine bans 'a generated unknown face' with no exceptions. The story's natural famous face is Michael Saylor, who runs Strategy. Fix: regenerate the cover with Saylor or replace the face entirely with a styled type-and-chart cover showing the $4B number prominently.; COVE",
+ "topic_source": "news-anchored"
+}
