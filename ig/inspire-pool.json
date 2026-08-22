@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21T22:59:24.731848+00:00",
+ "updated": "2026-08-22T01:03:55.111321+00:00",
  "photos": [
   {
    "id": "2089342461357302179",
@@ -496,6 +496,25 @@
    "born": 1787304186.987889
   },
   {
+   "id": "2090879722419085480",
+   "title": "JUST IN: Jim Cramer says \"go buy Bitcoin.\"",
+   "sub": "WatcherGuru",
+   "where": "@WatcherGuru on X",
+   "unit": "likes",
+   "selftext": "JUST IN: Jim Cramer says \"go buy Bitcoin.\"",
+   "permalink": "https://x.com/WatcherGuru/status/2090879722419085480",
+   "outlink": null,
+   "score": 7269,
+   "comments_n": 2282,
+   "views": 1333322,
+   "age_h": 5.8,
+   "vph": 1246.2,
+   "image": "https://pbs.twimg.com/media/HQRMBXobYAEeM7N.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1787339755.111321
+  },
+  {
    "id": "2090464981242536279",
    "title": "JUST IN: Coinbase CEO Brain Armstrong predicts Bitcoin could reach $300,000-$400,000 by 2030.",
    "sub": "WatcherGuru",
@@ -741,25 +760,6 @@
    "video": null,
    "guide": false,
    "born": 1786461434.334199
-  },
-  {
-   "id": "2088272178730992108",
-   "title": "BREAKING: Tesla stock, $TSLA, extends gains to over +3% on the day on reports that the company is nearing the unveiling of a \u201cflying\u201d Roadster.",
-   "sub": "KobeissiLetter",
-   "where": "@KobeissiLetter on X",
-   "unit": "likes",
-   "selftext": "BREAKING: Tesla stock, $TSLA, extends gains to over +3% on the day on reports that the company is nearing the unveiling of a \u201cflying\u201d Roadster.",
-   "permalink": "https://x.com/KobeissiLetter/status/2088272178730992108",
-   "outlink": null,
-   "score": 5314,
-   "comments_n": 356,
-   "views": 559790,
-   "age_h": 25.2,
-   "vph": 210.9,
-   "image": "https://pbs.twimg.com/media/HPsIetCXAAEEg8E.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1786718018.735638
   }
  ]
 }
