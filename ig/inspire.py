@@ -30,7 +30,7 @@ from datetime import date, datetime
 
 import bundle
 from reel import build_video, make_overlay, push_media, sh
-from write import call_claude, no_dashes
+from write import call_claude, fix_numbered_lines, no_dashes
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 POOL = os.path.join(HERE, "inspire-pool.json")
@@ -178,6 +178,7 @@ def main():
         return
     c = cands[r["pick"]]
     r["title"], r["caption"] = no_dashes(r["title"]), no_dashes(r["caption"])
+    r["caption"] = fix_numbered_lines(r["caption"])
     print(f"picked @{c['sub']} ({c['score']:,} likes): {c['title'][:70]}\n"
           f"overlay: {r['title']}", file=sys.stderr)
 

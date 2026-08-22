@@ -17,7 +17,7 @@ import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
 import bundle
-from write import CHEAP, call_claude, doctrine, no_dashes, principles
+from write import CHEAP, call_claude, doctrine, fix_numbered_lines, no_dashes, principles
 from render import CHROME
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -697,6 +697,7 @@ def main():
     # owner rule: dashes never reach the overlay or the caption
     r["title"] = no_dashes(r["title"])
     r["caption"] = no_dashes(r["caption"])
+    r["caption"] = fix_numbered_lines(r["caption"])
 
     make_overlay(r["title"], os.path.join(post_dir, "overlay.png"))
     out_mp4 = os.path.join(post_dir, "reel.mp4")

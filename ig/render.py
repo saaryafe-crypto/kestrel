@@ -28,18 +28,20 @@ CSS = """
 html,body{width:1080px;height:1350px;overflow:hidden}
 body{background:#050505;font-family:Poppins,sans-serif;color:#FFF;position:relative}
 .bgblur{position:absolute;inset:-80px;background-size:cover;background-position:center;
-        filter:blur(50px) brightness(.22) saturate(.9);z-index:0}
+        filter:blur(50px) brightness(.65) saturate(1.4);z-index:0}
 .glow{position:absolute;left:50%;top:58%;width:1400px;height:1400px;z-index:0;
       transform:translate(-50%,-50%);
-      background:radial-gradient(circle,rgba(217,119,87,.13) 0%,rgba(0,0,0,0) 60%)}
+      background:radial-gradient(circle,rgba(217,119,87,.22) 0%,rgba(0,0,0,0) 60%)}
 .artbg{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center}
 .artdim{position:absolute;inset:0;z-index:1;
-        background:linear-gradient(180deg,rgba(5,5,5,.3) 0%,rgba(5,5,5,.45) 40%,
-        rgba(5,5,5,.9) 76%,#050505 100%)}
-.artdim.heavy{background:rgba(5,5,5,.82)}
+        background:linear-gradient(180deg,rgba(5,5,5,.2) 0%,rgba(5,5,5,.3) 40%,
+        rgba(5,5,5,.7) 76%,rgba(5,5,5,.78) 100%)}
+.artdim.heavy{background:rgba(5,5,5,.65)}
 .masthead{display:flex;align-items:center;justify-content:center;gap:30px;
           font-family:Anton;font-size:27px;letter-spacing:.42em;color:#FFF;
-          text-transform:uppercase;white-space:nowrap;text-indent:.42em}
+          text-transform:uppercase;white-space:nowrap;text-indent:.42em;
+          text-shadow:-1px -1px 0 rgba(0,0,0,.7),1px -1px 0 rgba(0,0,0,.7),
+          -1px 1px 0 rgba(0,0,0,.7),1px 1px 0 rgba(0,0,0,.7),0 2px 8px rgba(0,0,0,.8)}
 .masthead img{height:32px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.7))}
 .masthead:before,.masthead:after{content:"";height:2px;width:130px;background:rgba(255,255,255,.45)}
 .mast-top{position:absolute;top:38px;left:0;right:0;z-index:3}
@@ -48,7 +50,7 @@ h1{font-family:Anton;font-weight:400;text-transform:uppercase;font-size:SIZEpx;
 /* accent words: brand orange (owner call Jul 28 evening: "I prefer the
    orange and white" — sky-blue texture retired same day it arrived) */
 h1 em{font-style:normal;color:#D97757;
-      text-shadow:none;filter:drop-shadow(0 4px 10px rgba(0,0,0,.85))}
+      text-shadow:none;filter:drop-shadow(0 4px 12px rgba(0,0,0,.95)) drop-shadow(0 0 3px rgba(0,0,0,.8))}
 .body{font-size:39px;line-height:1.4;font-weight:600;color:#FFF}
 .body b{font-weight:800}
 /* cover: photo-dominant anatomy (photo top ~62% feathered into solid black
@@ -70,11 +72,15 @@ body.cover .masthead img{height:28px}
 body.cover .masthead:before,body.cover .masthead:after{width:110px;height:3px;
                      background:rgba(255,255,255,.9)}
 body.cover h1{line-height:.87;letter-spacing:0;
-              text-shadow:0 4px 14px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.8);
-              -webkit-text-stroke:1px rgba(0,0,0,.35)}
+              text-shadow:-2px -2px 0 rgba(0,0,0,.85),2px -2px 0 rgba(0,0,0,.85),
+              -2px 2px 0 rgba(0,0,0,.85),2px 2px 0 rgba(0,0,0,.85),
+              0 4px 20px rgba(0,0,0,.9),0 0 40px rgba(0,0,0,.5);
+              -webkit-text-stroke:2.5px rgba(0,0,0,.55)}
 .ctastrip{position:absolute;bottom:56px;left:0;right:0;z-index:3;text-align:center}
 .swipe{font-family:Poppins;font-weight:800;font-size:27px;letter-spacing:.18em;
-       color:#FFF;text-transform:uppercase;text-indent:.18em}
+       color:#FFF;text-transform:uppercase;text-indent:.18em;
+       text-shadow:-1px -1px 0 rgba(0,0,0,.8),1px -1px 0 rgba(0,0,0,.8),
+       -1px 1px 0 rgba(0,0,0,.8),1px 1px 0 rgba(0,0,0,.8),0 2px 10px rgba(0,0,0,.9)}
 .swipe em{font-style:normal;color:#D97757}
 /* badge: the story-brand's logo as a big circular chip on the cover photo
    (owner example Aug 1, @techskills Mercor cover — the logo is a design
@@ -105,19 +111,20 @@ body.nophoto .logorow img{height:230px;max-width:480px}
        mask-image:linear-gradient(180deg,#000 calc(100% - 300px),rgba(0,0,0,0) 100%)}
 .bleed.collage{display:flex;gap:6px}
 .bleed.collage .col{flex:1;background-size:cover;background-position:center top}
-/* cover: tighter feather — the photo stays bright until just above the
-   wordmark seam (owner Aug 1: no dimmed leftovers between photo and logo) */
-body.cover .bleed{-webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 160px),rgba(0,0,0,0) 100%);
-                  mask-image:linear-gradient(180deg,#000 calc(100% - 160px),rgba(0,0,0,0) 100%)}
+/* cover: full-frame image — the photo extends to the bottom of the slide
+   with a gentle fade so text reads on the colorful scene (Wealth-style
+   thumbnail covers, owner order Aug 22) */
+body.cover .bleed{-webkit-mask-image:linear-gradient(180deg,#000 40%,rgba(0,0,0,.45) 75%,rgba(0,0,0,.25) 100%);
+                  mask-image:linear-gradient(180deg,#000 40%,rgba(0,0,0,.45) 75%,rgba(0,0,0,.25) 100%)}
 .shade{position:absolute;inset:0;z-index:1;
-       background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,0) 14%,
-       rgba(0,0,0,0) 46%,rgba(5,5,5,.6) 62%,rgba(5,5,5,.9) 72%,rgba(5,5,5,.94) 100%)}
+       background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,0) 14%,
+       rgba(0,0,0,0) 46%,rgba(5,5,5,.45) 62%,rgba(5,5,5,.68) 72%,rgba(5,5,5,.74) 100%)}
 /* composed cover (owner gold standard Aug 1, @getintoai anatomy): blurred
    story-world backdrop, 1-2 big logo/text discs at head height, the REAL
    person CUT OUT on top overlapping the discs (background < discs < person),
    feathered into the black band at the wordmark. The face is never generated;
    disc text is typeset here so it can never garble. */
-.bgblur.lite{filter:blur(34px) brightness(.5) saturate(1.05)}
+.bgblur.lite{filter:blur(34px) brightness(.65) saturate(1.2)}
 .disc{position:absolute;top:110px;width:330px;height:330px;border-radius:50%;
       z-index:1;display:flex;align-items:center;justify-content:center;
       box-shadow:0 18px 60px rgba(0,0,0,.6)}
@@ -313,11 +320,11 @@ function scrim(){
   var mast=document.querySelector('body.cover .frame .masthead');
   if(mast){
     var edge=Math.max(420,Math.min(1350,Math.round(mast.getBoundingClientRect().top)+12));
-    if(bleed)setH(edge+50);
+    if(bleed)setH(1350);
     if(cut)cut.style.height=(edge+24)+'px';
-    shade.style.background='linear-gradient(180deg,rgba(0,0,0,.25) 0px,rgba(0,0,0,0) 140px,'
-      +'rgba(0,0,0,0) '+(edge-190)+'px,rgba(5,5,5,.6) '+(edge-70)+'px,'
-      +'#050505 '+edge+'px,#050505 1350px)';
+    shade.style.background='linear-gradient(180deg,rgba(0,0,0,.08) 0px,rgba(0,0,0,0) 140px,'
+      +'rgba(0,0,0,0) '+(edge-190)+'px,rgba(0,0,0,.3) '+(edge-70)+'px,'
+      +'rgba(0,0,0,.48) '+edge+'px,rgba(0,0,0,.52) 1350px)';
     return;
   }
   var anchor=document.querySelector('body.content .frame h1');
@@ -325,9 +332,9 @@ function scrim(){
   var top=anchor.getBoundingClientRect().top;
   var edge=Math.max(420,Math.min(1350,Math.round(top)+120));
   setH(edge);
-  shade.style.background='linear-gradient(180deg,rgba(0,0,0,.25) 0px,rgba(0,0,0,0) 140px,'
-    +'rgba(0,0,0,0) '+Math.max(140,edge-330)+'px,rgba(5,5,5,.55) '+Math.max(200,edge-150)+'px,'
-    +'rgba(5,5,5,.9) '+edge+'px,rgba(5,5,5,.94) 1350px)';
+  shade.style.background='linear-gradient(180deg,rgba(0,0,0,.15) 0px,rgba(0,0,0,0) 140px,'
+    +'rgba(0,0,0,0) '+Math.max(140,edge-330)+'px,rgba(5,5,5,.45) '+Math.max(200,edge-150)+'px,'
+    +'rgba(5,5,5,.72) '+edge+'px,rgba(5,5,5,.78) 1350px)';
 }
 /* fitSwipe (Aug 19 "6-bleed" post-mortem: a 10-word kicker wrapped the strip
    to TWO lines, lifting its top into the bottom-anchored headline's zone —

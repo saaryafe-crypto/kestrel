@@ -219,6 +219,18 @@ IMG_QA_SCHEMA = {"type": "object",
                  "required": ["usable", "score"]}
 
 
+def _image_brightness(path):
+    """Return mean pixel brightness 0-255.  Falls back to -1 if Pillow is
+    unavailable so the gate is skipped, never blocking."""
+    try:
+        from PIL import Image
+        img = Image.open(path).convert("L")  # greyscale
+        pixels = list(img.getdata())
+        return sum(pixels) / len(pixels) if pixels else -1
+    except Exception:
+        return -1
+
+
 def image_score(path, headline, generated=False, person=False, cover=False):
     """Vision judge for slide images. Returns (usable, score 0-10, flaw).
     usable = publish as-is; the score ranks sibling attempts (owner rule
@@ -228,6 +240,17 @@ def image_score(path, headline, generated=False, person=False, cover=False):
     flaw (Circle K post-mortem: strong covers died for tiny garbled UI
     pixels while the post shipped with NO image — the rubric punished the
     best option). Fails closed: (False, 0, "")."""
+    # BRIGHTNESS GATE (owner Aug 22 root-cause: 80% of covers shipped with
+    # mean brightness < 80/255 — the vision judge was rubber-stamping them).
+    # A cover whose average pixel is below 80 is too dark to stop a scroll;
+    # the brief must be rewritten brighter.  Inner slides get a softer floor.
+    if generated:
+        floor = 80 if cover else 60
+        brightness = _image_brightness(path)
+        if 0 <= brightness < floor:
+            print(f"genimg brightness gate: {brightness:.0f}/255 < {floor} — auto-reject",
+                  file=sys.stderr)
+            return False, 1, f"too dark (brightness {brightness:.0f}/255, need {floor}+)"
     clean = re.sub(r"</?em>", "", headline)
     face_gate = (
         'FACE GATE (owner rule Aug 1, GENERATED images only — unfamiliar AI faces convert badly): if a human face is prominent, it must read as a RECOGNIZABLE famous person; a generic invented face nobody would recognize = usable:false, flaw "unfamiliar generated face". Faceless people (from behind, silhouette, hands) are fine. '
@@ -481,17 +504,17 @@ FORMAT — every prompt contains these five parts in order (20-45 words total):
 1. HERO: ONE focal subject, concretely named (the real device/brand/person from the headline — or the CLASH-CAST pair as one unit), frozen at the peak of the exact moment — mid-fall, mid-launch, mid-signature. One focal point only; it is the brightest, sharpest thing in frame.
 2. EMOTION — when the story's person is FAMOUS, the hero IS that person's recognizable likeness at 40%+ of frame height, named explicitly, eyes to camera or locked on the story's object, radiating ONE nameable exaggerated emotion (shock, awe, dread, triumph). Name the emotion in the prompt. FAMOUS FACES ONLY (owner rule Aug 1: generated unfamiliar faces = low conversion, no good outcome): if the story's person is not famous enough for a viewer to recognize, NEVER generate a face — show them from behind, as a silhouette, hands-and-props only, or cut them out of frame entirely and let the objects and stakes carry the drama.
 3. STAKES IN FRAME: make the money/scale/damage physically visible — the pile of cash, the wreckage, the crowd, the giant object beside a person for scale. Stakes a viewer can read in half a second.
-4. WORLD: the background is the story's real world (the factory floor, the launchpad, the brand's storefront) carrying context — softer, darker and simpler than the hero. Never an empty void, never white.
-5. ACCENT: end with ONE saturated accent color pulled from the subject, set against a darker complementary surround ("accent: signal red against deep blue dusk"). Warm saturated accents stop scrolls; whole-frame murk and pastels do not.
+4. WORLD: the background is the story's real world (the factory floor, the launchpad, the brand's storefront) carrying context — softer and simpler than the hero, but COLORFUL AND WELL-LIT (the background must read as vibrant and alive, never dim or murky). Never an empty void, never white, never dark.
+5. ACCENT: end with ONE saturated accent color pulled from the subject, set against a rich complementary surround ("accent: signal red against vivid cobalt blue"). Warm saturated accents stop scrolls; whole-frame murk, dim surrounds, and pastels do not.
 
 CRAFT (bake into every prompt):
 - Real press photograph, never digital art: include "documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain". This is the #1 lever that keeps generated images from looking like cheap AI.
 - ZERO readable words anywhere in frame (measured on our own runs: the model garbles every rendered sentence — 5 of 6 images died to this one flaw). Screens, signs and papers speak in SYMBOLS ONLY, named concretely: "a giant red $ symbol", "a warning triangle", "a crashing red chart line". COVER-ONLY EXCEPTION (owner references Aug 12 — the "RIP CLAUDE" coffin plaque, the red DISCOUNTED stamp on the boarding pass): covers render on a model that writes short text cleanly, so ONE prop on the COVER may carry ONE bold text element of 1-3 words when that text IS the story's punchline — quote it exactly in the brief ('a wooden plaque engraved "RIP CLAUDE"'). One element max, never a sentence, never on inner slides; QA still kills it if it garbles.
 - GAZE IS AN ARROW (Netflix artwork research + fixation studies): the hero's eyes go to camera by default, or lock onto the story's object so the viewer's eye follows. MAX 2 people visible in frame — engagement measurably drops at 3+.
-- THE BRAND LIVES IN THE SCENE: when the story's company matters to the frame, its real logo appears as a physical object — the default treatment (owner's reference, Aug 1): a LARGE GLOWING backlit mark on the dark wall behind the hero, soft warm-white halo, dimensional like a lit acrylic sign. Alternatives: the mark ON the device, a storefront sign, an illuminated screen with visible glow. NEVER a flat printed graphic, never drawn from memory — return "logo" so the real mark rides as a reference. The renderer will NOT stamp a flat logo overlay on generated covers, so if the brand isn't in the scene it isn't on the cover.
+- THE BRAND LIVES IN THE SCENE: when the story's company matters to the frame, its real logo appears as a physical object — the default treatment (owner's reference, Aug 1): a LARGE GLOWING backlit mark on the colorful, saturated wall behind the hero, soft warm-white halo, dimensional like a lit acrylic sign. Alternatives: the mark ON the device, a storefront sign, an illuminated screen with visible glow. NEVER a flat printed graphic, never drawn from memory — return "logo" so the real mark rides as a reference. The renderer will NOT stamp a flat logo overlay on generated covers, so if the brand isn't in the scene it isn't on the cover.
 - EVERY IMAGE UNIQUE + A CURIOSITY ENGINE (owner Aug 1): no two slides in the post may share a composition, angle, or setting — each image is its own scene. IMAGE-CLAIM LOCK (the Reddit post-mortem: slide 2 claimed a 23% stock crash yet showed the same phone-with-logo as the cover): each inner brief's HERO is that slide's OWN claim — the crash slide gets the collapsing red chart line, the payout slide the money, the fallout slide the next victim — never the story's mascot object repeated. And each image is built on viewer psychology: it shows a moment that RAISES a question only the headline (or the next slide) answers — an unresolved instant, a reaction to something just out of frame, stakes mid-collapse. If an image would feel complete without its headline, it's wallpaper — rewrite it.
-- FRAME LAW (owner Aug 14 — "the best pages design the picture FOR the top half; ours look cut in the middle"): the image fills a roughly SQUARE window at the TOP of the slide, and the window's bottom fifth feathers into black under the headline. Compose the scene to read COMPLETE inside that window: subjects WAIST-UP or tighter, faces and the key prop in the UPPER two-thirds, stakes readable without the bottom quarter, nothing essential touching the side edges. NEVER stage full-body figures, tall vertical scenes, or anything that needs legs, feet, or a floor to make sense — if it does, re-stage it tighter (say "waist-up", "close on hands and prop", "tight three-quarter shot"). The finished slide must look like the photo was SHOT for that window, never cropped into it. STAGE IT AS A COMPOSITE (measured from every reference cover, Aug 14 — Elon chest-up + giant Tesla logo disc + memo icon; the MacBook floating over huge "PRO" letters): ONE complete subject — the whole device, the whole prop, the person waist-up — arranged with 1-2 supporting elements (the brand's glowing mark, one story icon) on a DARK backdrop that fades toward the bottom edge; nothing amputated by any edge. A complete object on dark reads designed; a cropped photo reads broken.
-- BANNED looks: purple-teal "AI glow", glowing holograms, circuit-board brains, waxy plastic skin, sci-fi concept art, moody dark murk, white backgrounds, two competing focal points, two emotions.
+- FRAME LAW (owner Aug 14 — "the best pages design the picture FOR the top half; ours look cut in the middle"): the image fills a roughly SQUARE window at the TOP of the slide, and the window's bottom fifth feathers into black under the headline. Compose the scene to read COMPLETE inside that window: subjects WAIST-UP or tighter, faces and the key prop in the UPPER two-thirds, stakes readable without the bottom quarter, nothing essential touching the side edges. NEVER stage full-body figures, tall vertical scenes, or anything that needs legs, feet, or a floor to make sense — if it does, re-stage it tighter (say "waist-up", "close on hands and prop", "tight three-quarter shot"). The finished slide must look like the photo was SHOT for that window, never cropped into it. STAGE IT AS A COMPOSITE (measured from every reference cover, Aug 14 — Elon chest-up + giant Tesla logo disc + memo icon; the MacBook floating over huge "PRO" letters): ONE complete subject — the whole device, the whole prop, the person waist-up — arranged with 1-2 supporting elements (the brand's glowing mark, one story icon) on a COLORFUL, SATURATED backdrop that fades toward the bottom edge; nothing amputated by any edge. A complete object on a vivid backdrop reads designed; a cropped photo reads broken.
+- BANNED looks: purple-teal "AI glow", glowing holograms, circuit-board brains, waxy plastic skin, sci-fi concept art, moody dark murk, dark/dim/shadowy backgrounds, night scenes unless the story is literally about nighttime, white backgrounds, two competing focal points, two emotions. If the brief uses words like "dark", "dim", "shadowy", "night", "vault", "murky", or "tungsten" to describe the background or lighting, REWRITE IT BRIGHTER.
 - BANNED subjects: any invented/generic human face ("a young founder", "an office worker", "a scientist"). Every visible face must be a NAMED famous likeness; everyone else is faceless (behind / silhouette / hands) or absent.
 
 Return ONLY JSON: {{"briefs": [{{"idx": <slide index>, "brief": "..."}}]}}"""
@@ -710,25 +733,46 @@ def principles():
 def no_dashes(t):
     """Owner rule (Jul 28): dashes are BANNED in published text (the em dash
     is the #1 AI-writing tell). Em/en dashes and spaced hyphens become commas;
-    compound-word hyphens (first-sale, AI-written) are untouched."""
+    compound-word hyphens (first-sale, AI-written) are untouched.
+    Uses [^\\S\\n] (horizontal whitespace only) so newlines around dashes
+    are never collapsed."""
     if not isinstance(t, str):
         return t
-    t = re.sub(r"\s*[—–]\s*", ", ", t)
+    t = re.sub(r"[^\S\n]*[—–][^\S\n]*", ", ", t)
     t = re.sub(r"(?<=\w) - (?=\w)", ", ", t)
     return re.sub(r",\s*,", ",", t)
 
 
+def fix_numbered_lines(t):
+    """Ensure numbered list items (1. / 2. / 1) / 2)) each start on their
+    own line.  Only fires when the text contains what looks like a sequential
+    numbered list (both '1.' and '2.' present).  Replaces inline spaces
+    before a numbered item with a newline; already-correct text passes
+    through unchanged."""
+    if not isinstance(t, str):
+        return t
+    # Guard: only act when the text contains a numbered sequence
+    if not re.search(r"1[.)]\s.*2[.)]\s", t, re.S):
+        return t
+    # Replace horizontal whitespace before a numbered item with \n
+    return re.sub(r"[ \t]+(\d{1,2}[.)]\s)", r"\n\1", t)
+
+
 def scrub_dashes(post):
-    """Applies no_dashes to every field that reaches the published slides or
-    caption. Records (story title, tournament candidates) stay untouched."""
+    """Applies no_dashes and fix_numbered_lines to every field that reaches
+    the published slides or caption.  Records (story title, tournament
+    candidates) stay untouched."""
     for s in post.get("slides", []):
         for k in ("headline", "body", "kicker"):
             if s.get(k):
                 s[k] = no_dashes(s[k])
+                s[k] = fix_numbered_lines(s[k])
     if post.get("caption"):
         post["caption"] = no_dashes(post["caption"])
+        post["caption"] = fix_numbered_lines(post["caption"])
     if post.get("pinned_comment"):
         post["pinned_comment"] = no_dashes(post["pinned_comment"])
+        post["pinned_comment"] = fix_numbered_lines(post["pinned_comment"])
     return post
 
 
@@ -1035,6 +1079,7 @@ Structure:
 1. type "cover": THE HOOK — the single most important thing in the whole post (see COVER HOOK below). No body.
 2. type "content": THE SECOND HOOK (owner order Aug 18 — inner slides read "plain, flat and boring", this is where it starts). Slide 2 is NOT the first answer, it is a SECOND COVER: Instagram re-serves skipped carousels with slide 2 up front, so its headline must stop the scroll standalone — never "Here's how" or "The details". Its job is to RE-SELL the swipe: escalate the cover's question (the human scale, the belief that was about to break) WITHOUT spending the payoff.
 3+. type "content": the rest of the chain. Each headline = a 5-9 word standalone factual CLAIM someone could disagree with — NEVER a label ("THE DETAILS", "THE REAL STORY", "WHAT THIS MEANS FOR X") and NEVER an aphorism/motivational line ("X BEATS Y"). Use physical past-tense verbs (parked, gutted, handed, escaped — never "is using", "means", "finds") and put a number in the headline whenever the story has one. Body = SPOKEN VOICE in 1/3/1 RHYTHM (owner order Aug 18): one short PUNCH line the way you'd say it across a table → the meat, 1-2 plain-words sentences → one OPEN line that creates the exact itch the next headline scratches ("Then the numbers came in"). The open line is mandatory on every content slide except the last — a body that closes its own fact kills the swipe (SHUFFLE TEST: if the middle slides still make sense read in any order, the chain is fake — rewrite until each slide NEEDS the one before). Numbers and names still land in <b>, but a sentence may carry ZERO numbers; voice beats stat density, and a body that reads like a market wrap ("the S&P was green, Nasdaq up 1%") is a failed slide. Ranks and records when TRUE (first, biggest, worst day ever) beat raw figures. Each body delivers a NEW fact — never a re-say of its own headline.
+BODY FORMATTING (owner order Aug 22 — organized, scannable text): use blank lines (\n\n) between distinct beats of the 1/3/1 rhythm so the body breathes. When a body references multiple items, comparisons, or a list, break them into separate lines (\n• Item) — never inline a list as one long run-on sentence. A body that looks like one dense unbroken paragraph is a failed slide — rewrite with structure. The reader should grasp the shape of the text at a glance before reading a word.
 THE "YOU" CADENCE (owner order Aug 18): every 2-3 slides, ONE body sentence speaks straight to the reader in second person, tying the story to THEIR money, job, or day ("Your $1,000 of Reddit stock was $770 by dinner", "Your accountant should be nervous"). Built from true facts only. Three consecutive slides with zero "you/your" fail QA.
 THE BREAK SLIDE (owner order Aug 18, mandatory on every post of 6+ slides): the TWIST slide (~slide 4-5) sets "layout": "break" — a full visual pattern interrupt the renderer inverts (solid orange, huge dark type). Its headline is ONE giant figure or a ≤6-word statement — the story's single wildest number ("$45,000,000,000 GONE") — hsize 100-124, NO <em> (the whole line is the accent on a break slide). Body: ONE short line of context ending open, ≤12 words. No image_brief — the type IS the visual. Exactly one break slide per post; never slides 1-2, never the last two.
 Second-to-last. type "content": THE VALUE SLIDE — the consulting-funnel slide, built with the $100M Offers rules (section 5 of the principles). Open with the business owner's PAIN this story touches, then the escape: what a normal business can DO with this, with a concrete number, and why it's now fast/effortless ("without hiring anyone"). Its headline is a factual claim with a number too — never a lesson or a "what this means" label. The reader-owner should finish it thinking "I want this in MY business". Same visual style, no selling tone, no price ever. NEVER a moral or an aphorism (owner comparison Aug 1: "The businesses making real money put AI to work, they don't bet on it" shipped as a sermon that broke the story's spell) — the value slide is still a STORY slide: a concrete number and a real capability, zero preaching.
@@ -1461,6 +1506,19 @@ def qa(post):
             if bw > 7:
                 errs.append(f"slide {b+1}: break headline is {bw} words — one "
                             "giant number or a ≤6-word statement, nothing else")
+    # BODY STRUCTURE (owner order Aug 22): bodies must be organized and
+    # scannable — a dense unbroken wall of text with no line breaks is a
+    # failure. Skill slides (proof + prompt) need at least one blank line;
+    # story slides with 100+ chars of body need at least one line break.
+    for i, s in enumerate(slides):
+        if s["type"] != "content" or s.get("layout") in ("break", "card"):
+            continue
+        body = s.get("body") or ""
+        if len(body) > 120 and "\n" not in body:
+            errs.append(f"slide {i+1}: body is {len(body)} chars with zero "
+                        "line breaks — a dense wall of text is a failed slide; "
+                        "add paragraph breaks (\\n\\n) between distinct beats "
+                        "and use bullet points (\\n• Item) for any list")
     if "Sources:" not in caption:
         errs.append("caption missing Sources line")
     else:
