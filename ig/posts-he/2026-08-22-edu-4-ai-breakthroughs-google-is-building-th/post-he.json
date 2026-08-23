@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>ארבע פריצות דרך ב-AI</em> שGoogle בנתה תוך כדי משחקי וידאו",
+   "kicker": "כל ארבעתן ישנו כלים אמיתיים",
+   "hsize": 72,
+   "face": "Demis Hassabis",
+   "media": "posts/2026-08-22-edu-4-ai-breakthroughs-google-is-building-th/gen-0-r.jpg",
+   "image_prompt": "Sundar Pichai gripping arcade joystick at glowing cabinet, fierce triumph. Electric blue, amber, green, red spotlights shoot up. Google logo blazes neon-white on bright electric-blue wall. 35mm photo, natural skin, no text, clean background."
+  },
+  {
+   "type": "content",
+   "headline": "1) AI שצובר מיומנויות <em>בלי לאבד את הישנות</em>",
+   "hsize": 100,
+   "body": "כלי ה-AI שאתם משלמים עליהם היום שוכחים הכל כשהם לומדים משהו חדש.\n\nה-AI של Google שמשחק משחקים עובד אחרת. הוא מוסיף יכולות חדשות מעל ישנות, כמו שבן אדם עושה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) זיכרון ששומר <em>חודשים, לא דקות</em>",
+   "hsize": 100,
+   "body": "עוזר ה-AI שלכם מתחיל מאפס בכל פעם שאתם פותחים אותו.\n\nGoogle בונה זיכרון ששומר הקשר של חודשים שלמים, ומאמנת אותו בתוך משחקים שלא מתאפסים אף פעם.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "15 שנה",
+   "hsize": 66,
+   "body": "Google מריצה ניסויי AI בתוך משחקי וידאו מ-2009. מ-Atari ועד גרנד מאסטר ב-StarCraft. ארבעת האתגרים הקשים רק מתחילים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) AI ששומר יעד <em>במשך חודשים</em>",
+   "hsize": 96,
+   "body": "ה-AI של היום מקבל הוראה אחת ושוכח אותה עד הבוקר.\n\nGoogle מאמנת סוכנים שמחזיקים יעדים לאורך שבועות, חודשים ושנים, בתוך עולם משחק חי.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) סוכני AI <em>שמנהלים משא ומתן ביניהם</em>",
+   "hsize": 100,
+   "body": "סוכן AI אחד עושה הרבה. קבוצה שמשתפת פעולה עושה הכל.\n\nGoogle בודקת משא ומתן וכלכלה בין סוכנים בתוך משחקים, ואז מיישמת את זה בשווקים אמיתיים.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה:</em> ארבע פריצות ה-AI של Google",
+   "hsize": 90,
+   "body": "✓ לומד חדש בלי לשכוח ישן\n✓ זיכרון שעובר כל חלון צ'אט\n✓ מתכנן על פני חודשים ושנים\n✓ סוכנים שמשתפים פעולה ומנהלים משא ומתן\n\nחדשות AI יומיות + מיומנויות אמיתיות",
+   "media": null
+  }
+ ],
+ "caption": "Google משתמשת במשחקי וידאו כמעבדת ה-AI שלה כבר 15 שנה. אלה ארבע פריצות הדרך שנולדו שם 👇\n\nלמידה רציפה: AI שמוסיף מיומנויות חדשות בלי לאבד ישנות. זיכרון עמוק ששומר הקשר של חודשים שלמים, הרבה מעבר לכל חלון צ'אט. תכנון לטווח ארוך, שבו סוכנים מחזיקים יעדים לאורך שבועות וחודשים. וסוכנים שמשתפים פעולה, מנהלים משא ומתן ומפעילים כלכלה, כולם נבדקו בתוך עולם המשחק של FenrisCreations.\n\nGoogle שוברת את בעיות ה-AI הקשות ביותר בתוך משחקי וידאו מ-2009. זיכרון שלא מתפוגג, תכנון שנמשך שנים, סוכנים שמנהלים משא ומתן: אלה מפסיקים להיות בעיות משחק ברגע שמשחררים אותם.\nמנהלים עסק? שלחו לנו DM עם \"AI\" ונראה לכם מה זה יכול לעשות בשבילכם.\n\nמקורות: GoogleDeepMind\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#AI #ArtificialIntelligence #AIResearch #GoogleDeepMind #FutureOfAI",
+ "pinned_comment": "איזה מה-4 הכי קרוב לעבודה שלכם? שקופית 3 היא זו שרוב העסקים ירגישו ראשונה.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "GOOGLE BUILT <em>4 WILD AI ABILITIES</em> INSIDE VIDEO GAMES",
+   "<em>4 AI BREAKTHROUGHS</em> GOOGLE BUILT BY PLAYING VIDEO GAMES",
+   "<em>4 THINGS VIDEO GAMES TAUGHT</em> GOOGLE'S AI THAT LABS COULDN'T",
+   "GOOGLE SPENT 15 YEARS <em>TRAINING AI IN GAMES</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   7,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] tells you the shocking method (playing video games) with a concrete result (4 breakthroughs) right at the cover, while [2] hides the story behind a vague comparison. The 'wait, WHAT?' moment hits immediately in [1]—you stop scrolling for that, not for [2]'s setup."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>4 GOOGLE AI BREAKTHROUGHS</em> — ONE GIVES AI A <em>15-YEAR MEMORY</em>",
+   "GOOGLE JUST GAVE AI <em>4 SKILLS</em> THAT YOURS STILL DOESN'T HAVE",
+   "THE <em>4 GOOGLE AI BREAKTHROUGHS</em> MOST PEOPLE WILL MISS",
+   "<em>4 AI BREAKTHROUGHS</em> GOOGLE BUILT BY PLAYING VIDEO GAMES"
+  ],
+  "scores": [
+   6,
+   5,
+   3,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] hits instantly with 'video games' as a specific, bizarre mechanism—I stop because 'wait, WHAT?'—while [0]'s '15-year memory' is a cool number but too technical/abstract to grab without knowing what breakthrough it describes."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "SHUFFLE TEST FAIL (hard gate): Slides 2, 3, 5, and 6 are four independent breakthroughs with no narrative chain between them. Swap breakthrough #1 and breakthrough #4 — no confusion results. This is a numbered listicle, not a story. Each slide must be impossible to understand without the one before it. Fix: build a causal chain — e.g., the memory problem (slide 3) must exist BECAUSE the forgetting",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

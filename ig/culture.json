@@ -1,61 +1,72 @@
 {
- "ts": 1787420997.856377,
- "updated": "2026-08-22",
+ "ts": 1787509626.4413438,
+ "updated": "2026-08-23",
  "hot": [
   {
-   "name": "Ariana Grande",
-   "why_hot_now": "Her album 'Petal' (July 31) is charting everywhere, and the title track's chair-hopping choreo is the dominant TikTok trend this week.",
-   "typical_scene": "ponytail twirl mid-set on Eternal Sunshine Tour stage"
+   "name": "Ryan Gosling",
+   "why_hot_now": "Project Hail Mary just hit Blu-ray/streaming after a $342M domestic box office run, flooding social media with fan edits.",
+   "typical_scene": "drifting alone through deep space in a makeshift spacesuit"
   },
   {
-   "name": "Outer Banks",
-   "why_hot_now": "All 10 episodes of the final Season 5 dropped on Netflix on August 20—two days ago—triggering a mass binge event.",
-   "typical_scene": "Pogues sprinting on a treasure-hunt beach in the chaotic series finale"
+   "name": "Sabrina Carpenter",
+   "why_hot_now": "Announced her Global Business Tour on August 5 behind her new album Business, breaking ticket sites instantly.",
+   "typical_scene": "center stage in a sequined bodysuit announcing stadium dates"
   },
   {
    "name": "My Chemical Romance",
-   "why_hot_now": "Their theatrical Black Parade 2026 stadium tour launched August 9 at sold-out Citi Field, igniting an emo-revival firestorm.",
-   "typical_scene": "Gerard Way in full marching-band costume leading 50,000 people"
+   "why_hot_now": "Black Parade 20th-anniversary stadium tour is mid-run in the US right now, with shows this very week.",
+   "typical_scene": "sold-out stadium crowd screaming Welcome to the Black Parade in unison"
   },
   {
-   "name": "Ted Lasso",
-   "why_hot_now": "Season 4 on Apple TV broke the platform's all-time viewership record on debut and drops new episodes every Wednesday.",
-   "typical_scene": "Ted coaching a women's football team in England, biscuit tin in hand"
+   "name": "Michael",
+   "why_hot_now": "The Michael Jackson biopic ($1B+ worldwide) just dropped on Starz August 10, triggering a massive second wave of discourse.",
+   "typical_scene": "moonwalking on a glittering stage in sequined glove and fedora"
   },
   {
-   "name": "Olivia Rodrigo",
-   "why_hot_now": "The Unraveled Tour (65 dates, Sep 2026–May 2027) just went on sale this week, crashing ticketing sites nationwide.",
-   "typical_scene": "shredding guitar in ripped dress at a sold-out arena"
+   "name": "Jeremy Allen White",
+   "why_hot_now": "The Bear keeps its grip on prestige-TV conversation while his Calvin Klein campaigns dominate every For You Page.",
+   "typical_scene": "sweating under a heat lamp in a white chef's coat mid-dinner rush"
   },
   {
-   "name": "The Super Mario Galaxy Movie",
-   "why_hot_now": "Crossed $1 billion worldwide to become 2026's biggest film, still spawning non-stop cosplay and fan-edit content.",
-   "typical_scene": "Mario and Rosalina soaring through a pastel galaxy on Yoshi"
+   "name": "Kacey Musgraves",
+   "why_hot_now": "Her Middle of Nowhere Tour just kicked off August 20, with fans flooding TikTok with tour fits and set clips nightly.",
+   "typical_scene": "twirling in a sparkly cowboy hat under warm stage lights"
+  },
+  {
+   "name": "Kesha",
+   "why_hot_now": "The Freedom Tour is in its emotional final weeks, with crowd-surfing finale videos going viral on TikTok every night.",
+   "typical_scene": "crowd-surfing over a sea of glitter at an arena send-off"
+  },
+  {
+   "name": "Ariana Grande",
+   "why_hot_now": "Her Petal Chair Choreo TikTok trend is inescapable, tied to the rolling Cloud perfume campaign this month.",
+   "typical_scene": "draped delicately inside a giant pastel flower petal chair"
+  },
+  {
+   "name": "Sienna Spiro",
+   "why_hot_now": "Her breakout track Die On This Hill exploded on TikTok in August 2026, making her the indie breakout of the summer.",
+   "typical_scene": "performing intimate retro-pop in a moody, low-lit studio"
   },
   {
    "name": "Kim Kardashian",
-   "why_hot_now": "Her new energy drink brand 'UPDATE' launched this month with a deliberately satirical viral ad campaign blowing up feeds.",
-   "typical_scene": "handing glowing cans to camera in an all-white minimalist set"
-  },
-  {
-   "name": "Reacher",
-   "why_hot_now": "Season 4 arrived on Prime Video in August and is dominating the platform's charts again.",
-   "typical_scene": "Alan Ritchson filling an entire diner doorframe before a brawl"
+   "why_hot_now": "Her satirical UPDATE energy drink launch campaign dropped this week and became instant meme fodder.",
+   "typical_scene": "deadpan in a minimalist studio pitching a can of energy drink to camera"
   }
  ],
  "memes": [
-  "Spider-Man Ceiling Trend: creators fake-stick to the ceiling Miles-Morales-style by jumping off a hidden stool mid-lip-sync—earliest video hit 91M views in a week.",
-  "'Me at the Same Age as My Parents' — childhood photo flip transition synced to Pitbull's 'Hey Baby (Drop It to the Floor).'",
-  "Saxophone Gets Louder — clip suddenly BLASTS dramatic brass and crash-zooms in on someone's most awkward facial expression.",
-  "Lady Gaga 'Paparazzi' dubstep remix glow-up — unglamorous candid photo cuts hard to full red-carpet glam shot.",
-  "'Seeing How My X Would Respond to a Bully' — screen-recorded text threads sent to exes, coaches, or internet figures go viral for the reactions.",
-  "Ariana Grande 'Petal' chair-hop duets — TikTokers recreate the album's seat-hop choreography in increasingly unhinged locations."
+  "Saxophone Gets Louder: video starts mundane, then an ear-splitting saxophone blast hits as the camera zooms into chaos",
+  "Petal Chair Choreo: creators lip-sync and pose in an Ariana Grande petal chair while the Cloud ad audio plays",
+  "No I didn't, dingbat, LISTEN!: Abby Lee Miller's Dance Moms scream dubbed over any clip where someone is being dismissed",
+  "Seeing How My [X] Would Respond to a Bully: staged POV clips watching a partner or friend handle a confrontation",
+  "Things That Are Worth Every Penny: earnest haul lists ranking splurges from matcha to Dyson Airwraps as genuinely justified",
+  "Chill Guy Everywhere: the relaxed cartoon dog mascot stamped on any impossibly stressful or chaotic real-world situation",
+  "Spider-Man Ceiling Trend: someone sticks to the ceiling (cut) Spider-Man does something iconic — tied to current movie buzz"
  ],
  "ai_flagships": [
   "Claude Opus 5",
-  "GPT-5.6 Sol",
-  "Gemini 3.7 Flash",
+  "GPT-5.6 (Sol)",
+  "Gemini 3.1 Pro",
   "Grok 4.6",
-  "Llama 4 Maverick"
+  "Muse Spark 1.2"
  ]
 }
