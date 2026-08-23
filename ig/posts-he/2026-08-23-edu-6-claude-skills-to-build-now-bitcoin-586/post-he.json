@@ -1,0 +1,120 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שש יכולות Claude <em>שאנשים כבר משתמשים בהן בשקט במקום עובדים</em>",
+   "kicker": "שמרו את כולן",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-23-edu-6-claude-skills-to-build-now-bitcoin-586/gen-0.jpg",
+   "image_prompt": "Dario Amodei, waist-up, triumphant grin, holds phone with Claude logo in both hands toward camera. Office chairs, glowing Claude symbol screens. Terracotta neon sign on bright cobalt wall. Bright documentary photo, 35mm film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) בנו Claude <em>שיענה ללקוחות בלעדיכם</em>",
+   "hsize": 100,
+   "body": "היא הדביקה את ה-FAQ שלה. הלקוחות מקבלים תשובה תוך <b>30 שניות</b>.\n\n\"אתה מכיר את העסק שלי לעומק. הכל כאן: [הדבק]. ענה על כל שאלה שלקוח יכול לשאול\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) הפכו הודעה קולית <em>לצ'קליסט לעובדים</em>",
+   "hsize": 100,
+   "body": "בעל מאפייה דיבר 90 שניות. קיבל <b>צ'קליסט של 12 שלבים</b> שהעובדים החדשים שלו עובדים לפיו כל יום.\n\n\"[תמליל]. כתוב צ'קליסט שלב אחר שלב שעובד חדש יכול ללכת לפיו בלי לשאול אותי כלום\"",
+   "media": "posts/2026-08-23-edu-6-claude-skills-to-build-now-bitcoin-586/gen-2.jpg",
+   "image_prompt": "Close on two hands: left holding a phone displaying a waveform arc symbol, right resting beside a printed sheet covered in checkbox rows and tick marks — no readable text. Warm golden morning light on a wooden counter, vivid cream-yellow wall behind. Documentary news photo, 35mm, slight film grain. Accent: golden amber against warm cream."
+  },
+  {
+   "type": "content",
+   "headline": "3) הפכו הערות משיחת מכירה <em>למייל שסוגר</em>",
+   "hsize": 95,
+   "body": "היא הדביקה הערות שיחה. המייל שנשלח אחר כך סגר <b>שלושה מארבעת הלידים הבאים</b>.\n\n\"[הערות שיחה]. כתוב מייל מעקב שמזכיר את הבעיה שלהם, מציג שוב את ההצעה שלי, ומסתיים בבקשה אחת ברורה\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "500 עמודים. צ'אט אחד. אפס עובדים.",
+   "hsize": 80,
+   "body": "",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) שכפלו את סגנון הכתיבה שלכם כדי ש<em>ה-AI יכתוב בדיוק כמוכם</em>",
+   "hsize": 92,
+   "body": "מאמנת הדביקה <b>עשרה מיילים</b>. Claude כותב עכשיו בדיוק בסגנון שלה, בלי לערוך כלום.\n\n\"[המיילים שלי]. למד את הסגנון שלי. כתוב כל מה שאבקש ממך בדיוק בסגנון הזה מעכשיו\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) סננו בזבזני זמן <em>לפני שיחה ראשונה</em>",
+   "hsize": 100,
+   "body": "סוכן נדל\"ן שיתף את הקריטריונים שלו לקונה. <b>אפס שיחות מבוזבזות</b> ב-30 יום.\n\n\"הלקוח האידיאלי שלי: [תאר]. כתוב חמש שאלות שיסננו את כל מי שלא רציני לפני שיחה ראשונה שלנו\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) הפכו פרויקט אחד <em>לסיפור הצלחה שמביא לקוחות</em>",
+   "hsize": 100,
+   "body": "מעצבת תיארה פרויקט אחד. סיפור ההצלחה ש-Claude כתב הביא <b>שני לקוחות חדשים</b>.\n\n\"[תוצאת הפרויקט]. כתוב סיפור הצלחה של 150 מילה שיגרום לקורא לחשוב: 'אני חייב לשכור את הבן אדם הזה'\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את זה: שש יכולות Claude <em>שכדאי להתחיל בהן היום</em>",
+   "hsize": 95,
+   "body": "• Claude שמכיר את כל העסק שלכם\n• הודעות קוליות לצ'קליסטים לעובדים\n• שיחות מכירה למיילים שסוגרים\n• שכפול סגנון הכתיבה שלכם\n\nחדשות AI יומיות + כישורים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "תעברו על כל השש 🔖 לפני עשר שנים Bitcoin עמד על $586 ורוב האנשים פספסו. אלה כישורי ה-AI שאנשים ירצו שהתחילו ב-2026.\n\nבנו Claude שמכיר את כל העסק שלכם ועונה ללקוחות בלעדיכם. הפכו הודעה קולית לצ'קליסט שלב אחר שלב לעובדים חדשים. המירו הערות משיחות מכירה למיילים שסוגרים עסקאות. שכפלו את הסגנון שלכם כך שכל תשובת AI תישמע כאילו אתם כתבתם. שלחו חמש שאלות לפני כל שיחה כדי לסנן בזבזני זמן. הפכו תוצאת פרויקט אחת לסיפור הצלחה של 150 מילה שמביא לקוחות חדשים.\n\nכל כישור כאן מתחזק ככל שמשתמשים בו יותר. בעלי עסקים שמגדירים את זה עכשיו יהיו חצי שנה קדימה מכל מי שימתין עד שיהיה ברור לכולם. מנהלים עסק? שלחו לנו DM עם המילה \"AI\" ונראה לכם מה זה יכול לעשות אצלכם.\n\nמקורות: Anthropic\n\nעקבו אחרי @ainews.israel\n\n#AI #ClaudeAI #BusinessOwner #AITools #Productivity",
+ "pinned_comment": "איזו מהן אתם מנסים ראשון? שקופית 2 היא זו שרוב האנשים מפספסים, ואחרי שמבינים אותה היא מריצה את העסק ברקע.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CLAUDE CAN DO THESE 6 THINGS <em>MOST BUSINESS OWNERS DON'T KNOW EXIST</em>",
+   "THE BUSINESSES WINNING IN 2031 <em>ARE ALREADY DOING THESE 6 THINGS</em>",
+   "6 SKILLS THAT FEEL LIKE <em>BUYING BITCOIN AT $586</em>",
+   "6 THINGS TO TEACH CLAUDE ABOUT YOUR BUSINESS <em>BEFORE YOUR COMPETITORS DO</em>",
+   "<em>6 CLAUDE SKILLS</em> MOST BUSINESS OWNERS WON'T LEARN UNTIL IT'S TOO LATE"
+  ],
+  "scores": [
+   4,
+   5,
+   7,
+   6,
+   5
+  ],
+  "winner": 2,
+  "why": "Bitcoin at $586 hits you with a specific, concrete reference that makes your brain go 'wait, WHAT?' in a way generic business lists never do. Everything else sounds like the same hustle-porn you've scrolled past a hundred times at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 CLAUDE SKILLS <em>SO GOOD THEY SHOULD BE ILLEGAL</em>",
+   "6 CLAUDE SKILLS <em>PEOPLE ARE QUIETLY USING TO REPLACE STAFF</em>",
+   "6 CLAUDE SKILLS <em>MOST PEOPLE STILL PAY FREELANCERS FOR</em>"
+  ],
+  "scores": [
+   5,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "\"Quietly using to replace staff\" stops you dead—it's specific urgency about something happening NOW, not vague hype. [1] hits the gut-punch hook (jobs being replaced in secret) that makes you think \"wait, WHAT?\" while [0] leans on dead hyperbole and [2] settles for safe money-saving wisdom."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "IMAGE LAW — generated unknown face on the cover. The man holding the Claude phone is not recognizable as any specific famous person. §3 bans this explicitly: 'Never a generated unknown face.' Fix: regenerate with a clearly identifiable famous person (e.g., Dario Amodei by name prompt) or replace with a product-only shot showing the Claude app/logo without an unknown human face.; SLIDE 2 LAW — slid",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
