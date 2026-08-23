@@ -1,0 +1,88 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 AI PROMPTS THAT RUN <em>YOUR REMOTE TEAM</em>",
+   "kicker": "FORTUNE: THEY'RE ALSO LEAST LIKELY TO QUIT",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "hook_candidates": [
+    "6 AI PROMPTS THAT RUN <em>YOUR REMOTE TEAM</em>",
+    "6 AI PROMPTS THAT <em>STOP YOUR TEAM FROM QUITTING</em>",
+    "<em>6 REMOTE TEAM TASKS</em> AI NOW DOES WHILE YOU SLEEP",
+    "6 AI PROMPTS KEEPING <em>YOUR REMOTE TEAM</em> FROM BURNING OUT",
+    "6 THINGS REMOTE MANAGERS <em>NOW LET AI DO OVERNIGHT</em>"
+   ],
+   "media": "posts/2026-08-23-edu-6-ai-prompts-managing-remote-team-retent/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei at round table grinning, holding bright glowing tablet with six-frame grid, six floating thumbnails orbiting, Claude neon sign behind on clean wall, warm kitchen light, open-collar shirt, documentary 35mm, no readable text."
+  },
+  {
+   "type": "content",
+   "headline": "1) SPOT WHO NEEDS A CHECK-IN <em>BEFORE THEY QUIT</em>",
+   "hsize": 100,
+   "body": "Losing a remote employee costs <b>$30,000</b> on average. This catches it early.\n\n\"Draft a personal check-in message for a remote employee. They've been quieter than usual lately. Warm, curious, no pressure.\"",
+   "media": "posts/2026-08-23-edu-6-ai-prompts-managing-remote-team-retent/gen-1.jpg",
+   "image_prompt": "Close tight on two hands over a worn wooden desk: left hand holds a smartphone face-up, right fingertip hovering above the screen \u2014 the screen shows a message thread with a single bold red warning-triangle symbol beside one bubble, no legible text; a coffee mug sitting cold and fully untouched to the right, soft warm peach morning window light from the left; documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain; accent: warm amber against muted oak brown."
+  },
+  {
+   "type": "content",
+   "headline": "2) WRITE A PERFORMANCE REVIEW <em>IN 3 MINUTES</em>",
+   "hsize": 100,
+   "body": "HR consultants charge <b>$200 an hour</b> to write these.\n\n\"Write a performance review for [name].\n\u2022 Role: [job title]\n\u2022 Strengths: [2-3 things]\n\u2022 Areas to grow: [1-2 things]\nKeep it fair and specific.\"",
+   "media": "posts/2026-08-23-edu-6-ai-prompts-managing-remote-team-retent/gen-2.jpg",
+   "image_prompt": "Close on a pair of hands resting on a laptop keyboard, screen showing a completed long document with a bold green checkmark at the top (no readable text), a physical stopwatch lying on the desk beside the laptop with the numeral 3 displayed boldly in its face \u2014 clean minimal professional desk; cool blue desk lamp light from the left; documentary news photo, 35mm, natural skin texture, slight film grain; accent: signal blue against warm cream."
+  },
+  {
+   "type": "content",
+   "headline": "3) TURN STANDUP NOTES INTO <em>A 30-SECOND BRIEFING</em>",
+   "hsize": 100,
+   "body": "A 45-minute standup turns into a <b>3-bullet brief</b> in under a minute.\n\n\"Read these standup notes. Summarize in 3 bullets. Flag anyone blocked. List one action item per person.\"",
+   "media": "posts/2026-08-23-edu-6-ai-prompts-managing-remote-team-retent/gen-3.jpg",
+   "image_prompt": "Top-down shot of a bright desk: a loose fistful of crumpled yellow sticky notes on the left, a tablet on the right showing three oversized clean bullet-point dots and nothing else, a hand caught mid-sweep moving from the sticky-note mess toward the clean tablet; vivid teal and white home-office light, airy and bright; documentary news photo, 35mm, harsh on-camera flash, slight film grain; accent: vivid teal against sticky-note yellow."
+  },
+  {
+   "type": "content",
+   "headline": "$10,000 SAVED PER REMOTE WORKER",
+   "layout": "break",
+   "hsize": 72,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD A REMOTE ONBOARDING PLAN <em>IN ONE PASTE</em>",
+   "hsize": 100,
+   "body": "Bad onboarding costs <b>$3,000</b> per new hire in lost productivity.\n\n\"Build a 30-60-90 day onboarding plan for a remote [job title]. Include weekly check-in goals and one deliverable per month.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE ASYNC RULES <em>YOUR TEAM WILL ACTUALLY FOLLOW</em>",
+   "hsize": 100,
+   "body": "Remote teams waste <b>2 hours a day</b> on messages that don't need a reply.\n\n\"Write async guidelines for a team of [size].\n\u2022 Response time expectations\n\u2022 Video vs. text rules\n\u2022 Meeting-free blocks\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) WRITE YOUR WEEKLY TEAM UPDATE <em>IN 60 SECONDS</em>",
+   "hsize": 100,
+   "body": "A weekly update that takes <b>1 hour to write</b> takes 60 seconds with this.\n\n\"Write a weekly team update.\n\u2022 Wins: [list]\n\u2022 Blockers: [list]\n\u2022 Focus this week: [list]\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>6 AI PROMPTS THAT RUN YOUR REMOTE TEAM</em>",
+   "hsize": 80,
+   "body": "Spot the employee about to quit\nWrite a performance review\nTurn standups into 30-second briefings\nBuild a remote onboarding plan\nWrite async rules\nWrite your weekly team update\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6 and grab the prompts that spot who's about to leave, write performance reviews, run your standups, and keep your best remote workers. \ud83d\uddc2\ufe0f\n\n1) spot who needs a check-in before they quit,\n2) write a performance review in 3 minutes,\n3) turn standup notes into a 30-second briefing,\n4) build a 30-60-90 day remote onboarding plan,\n5) write async rules your team will follow,\n6) write your weekly team update in 60 seconds\n\nFORTUNE: fully remote workers have the highest well-being and quit at the lowest rate. Smart managers let AI handle the admin so they can focus on the humans. Running a business with a remote team? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: FORTUNE, SHRM, Global Workplace Analytics\n\n#remotework #aitools #businessowner #productivity #teammanagement",
+ "pinned_comment": "Which one are you trying first? The check-in message on slide 2 is the sleeper. Most managers wait until someone puts in their two weeks.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "IMAGE LAW \u00a73 \u2014 Cover shows a generated unknown face. The doctrine bans this explicitly: 'Never a generated unknown face.' The floating images (molecules, wind turbines, robot arm, cityscapes) are pure decoration with no connection to remote team management. Thumb test fails entirely: a feed-size stranger sees a generic tech-collage, not '6 AI prompts for managing remote teams.' Fix: replace with a",
+ "topic_source": "news-anchored"
+}
