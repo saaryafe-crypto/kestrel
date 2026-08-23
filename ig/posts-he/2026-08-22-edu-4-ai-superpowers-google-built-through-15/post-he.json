@@ -1,0 +1,89 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "משחקי וידאו <em>בנו בשקט</em> ארבע מהיכולות הגדולות של AI",
+   "kicker": "Google כבר 15 שנה בעניין",
+   "hsize": 72,
+   "face": "Sundar Pichai",
+   "media": "posts/2026-08-22-edu-4-ai-superpowers-google-built-through-15/gen-0.jpg",
+   "image_prompt": "A person plays at a vintage arcade cabinet displaying $ and warning triangle symbols in fire-engine red and electric blue neon, well-lit, wide-angle shot."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) ללמוד מיומנויות חדשות</em> בלי לשכוח את הישנות",
+   "hsize": 90,
+   "body": "ה-AI של היום שוכח כל מיומנות ישנה כשמלמדים אותו חדשה.\n\nהמשחקים של Google פותרים את זה. ה-AI שלהם לומד שחמט בלי לשכוח איך לנהוג. בקרוב ה-AI העסקי שלך יוכל לעשות אותו דבר",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) זיכרון AI</em> ששומר חודשים, לא דקות",
+   "hsize": 90,
+   "body": "ה-AI של היום שוכח את השיחה האחרונה שלך ברגע שאתה סוגר את הטאב.\n\nGoogle בונה זיכרון ששומר ומאחזר הכל, לתמיד. זה משנה מה העוזר ה-AI שלך יכול לעשות",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "15 שנה.",
+   "hsize": 120,
+   "body": "ה-AI של Google עבר מ-Pong לניצחון על הטובים בעולם ב-StarCraft. עכשיו הוא לומד לתכנן את כל השנה שלך",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) AI שמתכנן</em> חודשים קדימה, לא שניות",
+   "hsize": 90,
+   "body": "ה-AI שמשחק שחמט רואה 20 מהלכים קדימה. Google רוצה AI שמתכנן שבועות, חודשים ושנים.\n\nזה ההבדל בין מחשבון לשותף עסקי שאפשר לסמוך עליו",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) סוכני AI</em> שמנהלים משא ומתן אחד עם השני בשבילך",
+   "hsize": 88,
+   "body": "Google בונה AI שמשתף פעולה, מנהל משא ומתן ויוצר כלכלות בתוך עולמות וירטואליים.\n\nFable, השותפה שלהם, בונה את היקום שבו הם בודקים את זה. העסק שלך יכול להיות הבא",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור: <em>ארבע יכולות AI שנבנו במשחקי וידאו</em>",
+   "hsize": 90,
+   "body": "ללמוד מיומנויות, ובלי לשכוח את הישנות\nזיכרון ששומר חודשים של הקשר\nתכנון של שבועות ושנים\nסוכנים שמנהלים משא ומתן בשבילך\n\nחדשות AI יומיות + כלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "תעבור על כל ארבע. 🎮 Google בילתה 15 שנה באימון AI בתוך משחקי וידאו, ומה שהיא למדה שם ישנה את מה שה-AI יכול לעשות לעסק שלך.\n\nלמידה מתמשכת שה-AI לא שוכח מיומנויות ישנות, זיכרון עמוק ששומר חודשים של הקשר, תכנון לטווח ארוך לשבועות וחודשים, ודינמיקה של כמה סוכנים שבה AI מנהל משא ומתן מול AI. כל זה מגיע מ-15 שנה של מחקר משחקים ב-Google DeepMind.\n\nמשחקי וידאו היו מעבדת ה-AI של Google 15 שנה. ארבעת הבעיות שהם פותרים לא מיועדות רק למשחקים. הן המפה לכל כלי AI עסקי שיגיע בשלוש השנים הקרובות. יש לך עסק? שלח לנו 'AI' בהודעה פרטית ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: GoogleDeepMind\n\nעקוב אחרי @ainews.israel\n\n#AI #artificialintelligence #technology #AIforbusiness #AIfuture",
+ "pinned_comment": "מה מגיע ראשון לעסק שלך: הזיכרון, התכנון, או הסוכנים שמנהלים משא ומתן? כתוב בתגובות.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "4 THINGS VIDEO GAMES <em>SECRETLY TAUGHT</em> GOOGLE'S AI",
+   "<em>4 AI ABILITIES</em> GOOGLE BUILT INSIDE VIDEO GAMES",
+   "4 AI SUPERPOWERS <em>BUILT INSIDE</em> VIDEO GAMES",
+   "VIDEO GAMES <em>SECRETLY BUILT</em> 4 OF AI'S BIGGEST POWERS",
+   "4 AI SKILLS <em>ONLY VIDEO GAMES</em> CAN TEACH"
+  ],
+  "scores": [
+   7,
+   4,
+   5,
+   9,
+   6
+  ],
+  "winner": 3,
+  "why": "[3] hits hardest with the most shocking claim—games \"secretly built\" AI's \"biggest powers\"—triggering an instant \"wait WHAT?\" that stops scrolling cold. [0] has solid intrigue with \"secretly taught\" but sounds way more plausible and reasonable, creating far less of a jaw-drop at 2am."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "COVER IMAGE — CAST TRUTH FAIL: The generated face on the cover is a strong likeness of Mario Lopez. Mario Lopez has no role in this story whatsoever. Per CAST TRUTH: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' This is the same failure that birthed the Doctrine. Regenerate the cover with either (a) a clearly non-famous, clearly generic f",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
