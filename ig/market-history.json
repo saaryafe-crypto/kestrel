@@ -1,21 +1,6 @@
 [
  {
   "page": "technology",
-  "hook": "\"Palantir\u2019s latest earnings sent the internet into celebration mode after revenue surged 93% to $1.94 billion and the stock jumped nearly 30% in one day \ud83d\udcc8\n\nU.S. commercial revenue climbed 149% to $764 million, while U.S.",
-  "date": "2026-08-08"
- },
- {
-  "page": "wired",
-  "hook": "\"The EU AI Act is the first-ever comprehensive legal framework on AI\u2014a \u201cglobal first,\u201d as European Commission president Ursula von der Leyen called it\u2014and aims to foster \u201ctrustworthy AI\u201d in Europe. Under Article 50 of th",
-  "date": "2026-08-08"
- },
- {
-  "page": "wired",
-  "hook": "\"On a rainy New York morning earlier this week, a WIRED reporter strapped to his wrist a lavender and pink plastic child\u2019s smartwatch and headed to work. As he approached his nearby subway station to commute to WIRED\u2019s o",
-  "date": "2026-08-08"
- },
- {
-  "page": "technology",
   "hook": "\"A first-person camera mod for Marvel\u2019s Spider-Man 2 puts players directly inside Spider-Man\u2019s web swinging, turning every dive, flip and rotation into an intense ride \ud83d\udd77\ufe0f\n\nCreated for the PC version, the mod offers a con",
   "date": "2026-08-09"
  },
@@ -538,5 +523,60 @@
   "page": "wired",
   "hook": "\"The UK government has six months to decide whether to terminate a more than $400 million deal between the NHS and American software company Palantir.\n\nPalantir was commissioned by the NHS in 2023 to develop a system for",
   "date": "2026-08-21"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see what the internet actually runs on, from ocean floor cables and landing stations to data centers, exchange points, satellites and precision timing systems \ud83c\udf10\n\nMore than 99% of international data traffic m",
+  "date": "2026-08-22"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Honda engineer Shotaro Odate has spent decades developing vehicle safety technology, with Motor-Fan reporting 251 patent applications and 9 technical papers to his name \ud83d\ude97\n\nOdate joined Honda in 2003 and became an ADAS p",
+  "date": "2026-08-22"
+ },
+ {
+  "page": "technology",
+  "hook": "\"@1x.technologies just unveiled its next generation robotic hand for NEO, and the internet is already losing it \ud83d\ude02\n\nThe new hand can pick up coins, use tools, zip jackets, pour tea, plug in USB-C chargers, clean surfaces,",
+  "date": "2026-08-22"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the past 24 hours, from new hardware and robotics to major platform updates, leaks and policy shifts \ud83c\udf0d\ud83e\udd16\n\nWalmart is beginning its long awaited tap to pay rollout, Rock",
+  "date": "2026-08-22"
+ },
+ {
+  "page": "technology",
+  "hook": "\"A developer turned Sony\u2019s 20-year-old PSP into a surprisingly capable manga reader, giving the classic handheld a completely new purpose decades after its launch \ud83c\udfae\ud83d\udcd6\n\nThe custom app lets users load manga through CBZ file",
+  "date": "2026-08-21"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"The cosplayers at #AnimeNYC came to impress.\nHere are a few of our favorites so far this weekend \ud83e\udd18\n\n#anime #onepiecefan #cosplay #nyc\".",
+  "date": "2026-08-22"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Because, let\u2019s be real, the crowds? They can get to you. \ud83d\ude2e\u200d\ud83d\udca8\n\nMade possible by @rodemic. \n#animenyc #keycaps #allaccess #gaming #asmr\".",
+  "date": "2026-08-22"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Everyone\u2019s favorite player from Nekoma makes his way to New York with the producer behind it all. Kenma\u2019s voice actor Kaji Yuki and producer Hibiki Saito make their official appearance at Anime NYC 2026.\n\nMade possible ",
+  "date": "2026-08-22"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"If I could, I would buy everything at AnimeNYC \ud83d\ude29\n\n#anime #animenyc #onepiece #jujutsukaisen #rodemic\".",
+  "date": "2026-08-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"In case you missed it in the spring, Meta (along with YouTube) lost a landmark social media case in California, in which a jury found the companies liable for harming a young user with certain design features in their a",
+  "date": "2026-08-22"
+ },
+ {
+  "page": "wired",
+  "hook": "\"The Colorado River, which provides water for 40 million people across seven states, is at a crisis point. The two largest reservoirs in the US, Lakes Mead and Powell, provide critical supply for states along the lower p",
+  "date": "2026-08-22"
  }
 ]
