@@ -1,0 +1,17 @@
+Swipe for 6 Claude prompts that handle hiring, reviews, standups, and conflict for your remote team. FORTUNE just confirmed remote workers quit less 📋
+
+These six prompts each replace a task a manager normally handles:
+1) screening 200 applicants down to 8 in an hour,
+2) performance reviews finished in 20 minutes per person,
+3) daily standup written by Claude with no meeting needed,
+4) status report generated from one prompt with no calls,
+5) new hire onboarding cut from 3 weeks to 8 days,
+6) team conflict resolved with one copy-paste prompt.
+
+FORTUNE confirmed this week that fully remote workers report the highest well-being and quit less than anyone. The friction is management overhead. These prompts cut that overhead without cutting the people.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: FORTUNE (Aug 2026 remote worker well-being report), Anthropic
+
+#AItools #RemoteWork #BusinessTips #Claude #Productivity
