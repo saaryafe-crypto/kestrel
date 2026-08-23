@@ -1,0 +1,113 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 CLAUDE SKILLS <em>PEOPLE ARE QUIETLY USING TO REPLACE STAFF</em>",
+   "kicker": "SAVE ALL 6",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-23-edu-6-claude-skills-to-build-now-bitcoin-586/gen-0.jpg",
+   "image_prompt": "Dario Amodei, waist-up, triumphant grin, holds phone with Claude logo in both hands toward camera. Office chairs, glowing Claude symbol screens. Terracotta neon sign on bright cobalt wall. Bright documentary photo, 35mm film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) BUILD A CLAUDE THAT <em>ANSWERS CLIENTS WITHOUT YOU</em>",
+   "hsize": 100,
+   "body": "She pasted her FAQ. Clients get answered in 30 seconds.\n\n\"You know my business inside out. Everything is here: [paste]. Answer any question a client could ask\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) TURN A VOICE NOTE INTO A <em>STAFF CHECKLIST</em>",
+   "hsize": 100,
+   "body": "A bakery owner talked for 90 seconds. He got a 12-step checklist his new hires follow daily.\n\n\"[Transcript]. Write a step-by-step checklist a new hire can follow without asking me anything\"",
+   "media": "posts/2026-08-23-edu-6-claude-skills-to-build-now-bitcoin-586/gen-2.jpg",
+   "image_prompt": "Close on two hands: left holding a phone displaying a waveform arc symbol, right resting beside a printed sheet covered in checkbox rows and tick marks \u2014 no readable text. Warm golden morning light on a wooden counter, vivid cream-yellow wall behind. Documentary news photo, 35mm, slight film grain. Accent: golden amber against warm cream."
+  },
+  {
+   "type": "content",
+   "headline": "3) TURN SALES CALL NOTES INTO AN <em>EMAIL THAT CLOSES</em>",
+   "hsize": 95,
+   "body": "She pasted call notes. Her follow-up closed 3 of the next 4 prospects.\n\n\"[Call notes]. Write a follow-up email that names their pain, restates my offer, and ends with one clear ask\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "500 PAGES. ONE CHAT. ZERO STAFF.",
+   "hsize": 80,
+   "body": "",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) CLONE YOUR WRITING VOICE SO <em>AI SOUNDS EXACTLY LIKE YOU</em>",
+   "hsize": 92,
+   "body": "A coach pasted 10 emails. Claude now writes in her exact voice, no editing needed.\n\n\"[My emails]. Study my tone. Write everything I ask in this exact voice from now on\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) FILTER OUT TIME-WASTERS <em>BEFORE THE FIRST CALL</em>",
+   "hsize": 100,
+   "body": "A realtor shared his buyer criteria. Zero wasted calls in 30 days.\n\n\"My ideal client: [describe]. Write 5 questions to filter out anyone who is not serious before our first call\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) TURN ONE PROJECT INTO A <em>CASE STUDY THAT SELLS</em>",
+   "hsize": 100,
+   "body": "A designer described one project. The case study Claude wrote landed 2 new clients.\n\n\"[Project result]. Write a 150-word case study that makes the reader say I need to hire this person\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: 6 CLAUDE SKILLS <em>WORTH STARTING TODAY</em>",
+   "hsize": 95,
+   "body": "\u2022 Claude that knows your whole business\n\u2022 Voice notes to staff checklists\n\u2022 Sales calls to closing emails\n\u2022 Clone your exact writing voice\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6. \ud83d\udd16 Ten years ago Bitcoin was $586 and most people missed it. These are the AI skills people will wish they started in 2026.\n\nBuild a Claude that knows your entire business and answers clients without you, turn a voice note into a step-by-step staff checklist your new hires follow from day one, convert any sales call notes into a follow-up email that closes, clone your exact writing voice so every AI reply sounds like you wrote it, send 5 questions before any call to filter out time-wasters, and turn one real project result into a 150-word case study that lands new clients.\n\nEvery skill here compounds the longer you use it. The business owners setting these up now will be six months ahead of everyone who waits until it is obvious. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#AI #ClaudeAI #BusinessOwner #AITools #Productivity",
+ "pinned_comment": "Which of these are you trying first? Slide 2 is the one most people overlook, and once it clicks, it runs your business in the background.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CLAUDE CAN DO THESE 6 THINGS <em>MOST BUSINESS OWNERS DON'T KNOW EXIST</em>",
+   "THE BUSINESSES WINNING IN 2031 <em>ARE ALREADY DOING THESE 6 THINGS</em>",
+   "6 SKILLS THAT FEEL LIKE <em>BUYING BITCOIN AT $586</em>",
+   "6 THINGS TO TEACH CLAUDE ABOUT YOUR BUSINESS <em>BEFORE YOUR COMPETITORS DO</em>",
+   "<em>6 CLAUDE SKILLS</em> MOST BUSINESS OWNERS WON'T LEARN UNTIL IT'S TOO LATE"
+  ],
+  "scores": [
+   4,
+   5,
+   7,
+   6,
+   5
+  ],
+  "winner": 2,
+  "why": "Bitcoin at $586 hits you with a specific, concrete reference that makes your brain go 'wait, WHAT?' in a way generic business lists never do. Everything else sounds like the same hustle-porn you've scrolled past a hundred times at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 CLAUDE SKILLS <em>SO GOOD THEY SHOULD BE ILLEGAL</em>",
+   "6 CLAUDE SKILLS <em>PEOPLE ARE QUIETLY USING TO REPLACE STAFF</em>",
+   "6 CLAUDE SKILLS <em>MOST PEOPLE STILL PAY FREELANCERS FOR</em>"
+  ],
+  "scores": [
+   5,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "\"Quietly using to replace staff\" stops you dead\u2014it's specific urgency about something happening NOW, not vague hype. [1] hits the gut-punch hook (jobs being replaced in secret) that makes you think \"wait, WHAT?\" while [0] leans on dead hyperbole and [2] settles for safe money-saving wisdom."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on the cover. The man holding the Claude phone is not recognizable as any specific famous person. \u00a73 bans this explicitly: 'Never a generated unknown face.' Fix: regenerate with a clearly identifiable famous person (e.g., Dario Amodei by name prompt) or replace with a product-only shot showing the Claude app/logo without an unknown human face.; SLIDE 2 LAW \u2014 slid",
+ "topic_source": "news-anchored"
+}
