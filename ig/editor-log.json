@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "Routine market observation with zero substance: one thin tweet, no numbers (doesn't specify how much faster), no actor, no specific event, no consequence anyone felt—exactly the banned 'market wrap' format.",
-  "subject": "BREAKING: Earnings are growing faster than stock prices, per Bloomberg.",
-  "t": "2026-08-15T19:33:03Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Reaction-bait: the story is people engaging with a cool image online, not a real-world event with consequence; it's a 16th-century historical fact dressed up as discovery, off-brand for tech/AI pages, features an unknown actor, and the scout score of 0/10 is a valid signal that this doesn't pass THE STANDARD.",
   "subject": "Catholicism in Japan has an insane aura—it blends so naturally with Japanese aesthetics and visual culture. Yes, that is",
   "t": "2026-08-15T19:33:08Z",
@@ -2098,5 +2091,12 @@
   "subject": "every news headline now is like Blueberries Will Kill You. Measles Is Back. Gas Costs Six Dollars. Gwyneth Paltrow Is Se",
   "verdict": "KILL",
   "reason": "This is pure reaction-bait with no real-world event—the only 'story' is that people liked a tweet complaining about chaotic news headlines; there are zero facts, numbers, or consequences to build slides from, and a writer would have to entirely pad an essay about media sensationalism to fill a carousel."
+ },
+ {
+  "t": "2026-08-23T14:18:05Z",
+  "gate": "B",
+  "subject": "6 AI POWERS <em>YOU KEEP PAYING FOR AND IGNORING</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION — cover image shows a generated Sam Altman holding a tray of feature icons. Sam Altman has zero role in this story; he is decoration for a ChatGPT tip post. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Fix: regenerate cover with the product mark (ChatGPT/Claude logos) as the visual anchor, n"
  }
 ]

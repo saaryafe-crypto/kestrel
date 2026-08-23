@@ -1,0 +1,105 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 AI POWERS <em>YOU KEEP PAYING FOR AND IGNORING</em>",
+   "kicker": "USE ALL 6 TONIGHT, FREE",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-08-23-edu-6-ai-powers-hiding-in-paid-tools-chatgpt/gen-0-r.jpg",
+   "image_prompt": "Sam Altman waist-up gleeful at bright neon market stall, lifts golden tray of six icons\u2014chart, magnifying glass, chip, microphone, binder, robot\u2014toward outstretched hand. OpenAI symbol on banner, studio light, natural skin, bright teal."
+  },
+  {
+   "type": "content",
+   "headline": "1) UPLOAD YOUR <em>ENTIRE P&L TO CHATGPT</em>",
+   "hsize": 112,
+   "body": "A CFO charges <b>$400/hr</b> for this. It's free inside your ChatGPT plan right now.\n\n\"Here is my P&L. Find my 5 biggest cost leaks and rank them by dollar amount.\"",
+   "face": "Sam Altman",
+   "media": "posts/2026-08-23-edu-6-ai-powers-hiding-in-paid-tools-chatgpt/gen-1.jpg",
+   "image_prompt": "Sam Altman, fierce focus, waist-up in a bright green accountant visor, red marker mid-circle on an enormous glowing spreadsheet grid \u2014 red downward arrows and loss symbols only, no readable text. Vivid emerald overhead lamp blazing. OpenAI logo exactly as in the reference image glows on the far wall. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: signal red on saturated emerald."
+  },
+  {
+   "type": "content",
+   "headline": "2) TURN ON <em>CHATGPT MEMORY</em> FOR YOUR BUSINESS",
+   "hsize": 108,
+   "body": "<b>ChatGPT Plus</b> has Memory. Most users never switch it on, so every chat starts from scratch.\n\n\"Remember: I run a [business type]. My best customers care about [X]. Always lead with [Y].\"",
+   "face": "Sam Altman",
+   "media": "posts/2026-08-23-edu-6-ai-powers-hiding-in-paid-tools-chatgpt/gen-2.jpg",
+   "image_prompt": "Sam Altman, wide-eyed satisfaction, waist-up in a grease-marked mechanic jumpsuit, presses a glowing amber brain-shaped chip into the chest panel of a white boxy robot \u2014 robot eyes igniting electric green in real time. OpenAI logo exactly as in the reference image on the robot chest. Bright steel-blue industrial garage, blazing overhead work lamps. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: electric green on steel blue."
+  },
+  {
+   "type": "content",
+   "headline": "3) PASTE YOUR <em>ENTIRE VENDOR CONTRACT INTO CLAUDE</em>",
+   "hsize": 100,
+   "body": "Lawyers charge <b>$500/hr</b> to review contracts. Your Claude account reads <b>200,000 words</b> at once, free.\n\n\"Here is my vendor contract. Flag every clause that could cost me money or limit my options.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) LET CHATGPT <em>BROWSE YOUR COMPETITOR'S WEBSITE</em> LIVE",
+   "hsize": 100,
+   "body": "A market research firm charges <b>$2,000</b> for a competitor brief. ChatGPT browses live and writes one free.\n\n\"Go to [competitor website]. List their pricing, main promises, and 3 weaknesses I can beat.\"",
+   "face": "Sam Altman",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD A <em>CLAUDE PROJECT</em> THAT KNOWS YOUR WHOLE BUSINESS",
+   "hsize": 96,
+   "body": "A <b>Claude Project</b> remembers every document you upload. It acts like a team member who never forgets.\n\n\"You are my support rep. Use the documents I uploaded to answer customer questions. Never guess.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) REHEARSE YOUR <em>HARDEST SALES CALL</em> WITH CHATGPT VOICE",
+   "hsize": 100,
+   "body": "Sales coaches charge <b>$300/hr</b>. ChatGPT's voice mode argues back in real time, for free.\n\n\"Act as a skeptical buyer. I sell [product]. Push back hard on my price. Let's roleplay.\"",
+   "face": "Sam Altman",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>6 AI POWERS</em> YOU ALREADY PAID FOR",
+   "hsize": 108,
+   "body": "Upload your P&L to ChatGPT\nTurn on ChatGPT Memory\nPaste vendor contracts into Claude\nBrowse competitors live with ChatGPT\nBuild a Claude Project\nRehearse sales with ChatGPT Voice\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 things hiding inside your ChatGPT and Claude subscription that most business owners never find. \ud83d\udd27\n\nUpload your P&L to ChatGPT in slide 2, turn on Memory in slide 3, paste any vendor contract into Claude in slide 4, let ChatGPT browse a competitor's site live in slide 5, build a Claude Project that knows your business in slide 6, then rehearse your hardest sales call with ChatGPT Voice in slide 7.\n\nNvidia just hiked AI server prices 15%. Infrastructure costs more, and subscriptions will follow. These six features are already inside your plan. Business owners using them get $2,000 of work done free every week.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Bloomberg (Nvidia price hike Aug 2026), Anthropic, OpenAI\n\n#artificialintelligence #chatgpt #claude #businessowner #aitools",
+ "pinned_comment": "Which of these did you already know about? Most people I show these to have found maybe 1 of the 6. The contract review on slide 4 is the one that usually stops people cold.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR COMPETITORS ARE USING <em>6 CHATGPT POWERS</em> YOU HAVEN'T FOUND",
+   "YOUR CHATGPT SUBSCRIPTION <em>HAS 6 POWERS YOU'VE NEVER USED</em>"
+  ],
+  "scores": [
+   6,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hits your wallet immediately\u2014you already PAY for this, so 'you're not using it' feels like wasted money. [0] needs you to care about competitors first, which is an extra mental step a 2am scroller won't take."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR CHATGPT SUBSCRIPTION <em>HAS 6 POWERS YOU'VE NEVER USED</em>",
+   "6 EXPENSIVE SERVICES <em>YOUR AI SUBSCRIPTION ALREADY REPLACES</em>",
+   "6 AI POWERS <em>YOU KEEP PAYING FOR AND IGNORING</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "The accusatory 'YOU KEEP PAYING FOR AND IGNORING' lands like a personal call-out that makes you stop\u2014it stings a little and you *have* to check. [1] is smarter (value play) but colder; [0] sounds like every other generic feature list."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "CAST TRUTH VIOLATION \u2014 cover image shows a generated Sam Altman holding a tray of feature icons. Sam Altman has zero role in this story; he is decoration for a ChatGPT tip post. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Fix: regenerate cover with the product mark (ChatGPT/Claude logos) as the visual anchor, n",
+ "topic_source": "news-anchored"
+}
