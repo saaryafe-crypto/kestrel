@@ -1,0 +1,109 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR DOCUMENTS ARE <em>HIDING MONEY</em> YOU HAVEN'T FOUND YET",
+   "kicker": "LAWYERS CHARGE $400/HR FOR THESE",
+   "hsize": 70,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-24-edu-5-ai-document-analysis-prompts-finding-h/gen-0.jpg",
+   "image_prompt": "Detective at cluttered desk, magnifying glass over open contract, agape in shock. Giant red $, folders, amber corkboard with red-pinned documents, glowing Claude logo. Documentary 35mm, harsh flash, film grain. Warm-amber and crimson."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIND THE CONTRACT CLAUSES</em> THAT WILL COST YOU",
+   "hsize": 110,
+   "body": "Lawyers charge <b>$400/hr</b> to review your contracts for clause risks. Claude does it in <b>90 seconds</b>, free.\n\n\"Review this contract. List every clause that could cost me money unexpectedly. Use plain English.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>SPOT OVERCHARGES</em> IN EVERY INVOICE YOU RECEIVE",
+   "hsize": 110,
+   "body": "Billing auditors charge hourly to find your invoice errors. Claude catches <b>duplicates and overcharges</b> for you in seconds.\n\n\"Check this invoice. Flag any charges that look duplicated, inflated, or unnecessary.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>$400 AN HOUR.</em> AI DOES IT IN 90 SECONDS.",
+   "hsize": 90,
+   "body": "Five documents. One free tool. Five professional fees cut to zero.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>READ YOUR CUSTOMER EMAILS</em> FOR THE REAL PATTERN",
+   "hsize": 110,
+   "body": "Customer service analysts charge to find the pattern in your complaints. Claude reads them all and names it in seconds.\n\n\"Read these emails. What single problem do customers keep mentioning?\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>DECODE COMPETITOR ADS</em> FOR THE TRICKS THEY USE",
+   "hsize": 110,
+   "body": "Copywriters charge to decode what makes your competitor's ad convert. Claude does it for any ad you paste.\n\n\"What tactics does this ad use to make people buy? List them.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>FIND THE LEAK</em> IN YOUR PROFIT AND LOSS",
+   "hsize": 110,
+   "body": "Accountants rarely flag slow leaks in your P&L. Claude finds them when you paste the spreadsheet.\n\n\"Read this P&L. Where is money leaking that I might be ignoring?\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 5 AI DOCUMENT SCANS",
+   "hsize": 90,
+   "body": "\u2713 Contracts: find hidden clauses\n\u2713 Invoices: spot overcharges\n\u2713 Customer emails: find the real pattern\n\u2713 Competitor ads: decode the tactics\n\u2713 P&L: find the leak\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see what AI finds when it reads your business documents the way a $400/hr professional would \ud83d\udc46\n\nDocuments inside: (1) contracts, find every clause that could cost you money, (2) invoices, flag duplicated or inflated charges, (3) customer emails, find the one problem behind most complaints, (4) competitor ads, decode the psychological tactics, (5) profit and loss, find the slow leak your accountant missed.\n\nNASA just proved that raw image files hold data invisible in the compressed version. Your business documents work the same way. The information is already there. Most owners never look deep enough. AI finds it in 90 seconds. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: NASA Artemis II mission, Anthropic\n\n#AItools #BusinessGrowth #ArtificialIntelligence #Entrepreneur #Productivity",
+ "pinned_comment": "Try slide 3 tonight. Paste your last big vendor invoice into Claude and ask it what looks off. Most people find something in the first minute.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>AI READS YOUR CONTRACTS</em> BETTER THAN A $400 LAWYER",
+   "5 <em>HIDDEN THINGS</em> AI FINDS IN YOUR DOCUMENTS",
+   "ONE CLAUDE PROMPT <em>FINDS CONTRACT TRAPS</em> IN 90 SECONDS",
+   "YOUR DOCUMENTS ARE <em>HIDING MONEY</em> YOU HAVEN'T FOUND YET",
+   "PEOPLE ARE LETTING <em>AI AUDIT THEIR INVOICES</em> FOR FREE"
+  ],
+  "scores": [
+   4,
+   3,
+   5,
+   8,
+   6
+  ],
+  "winner": 3,
+  "why": "[3] makes you stop because it's personal and specific\u2014'YOUR documents are HIDING MONEY'\u2014triggering immediate self-interest, while [4]'s social proof about other people doing something free feels like watching someone else win, not you finding your own money."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 AI DOCUMENT SCANS <em>MOST BUSINESS OWNERS NEVER RUN</em>",
+   "5 AI SCANS THAT CATCH <em>MONEY LEAKING FROM YOUR BUSINESS</em>",
+   "YOUR DOCUMENTS ARE <em>HIDING MONEY</em> YOU HAVEN'T FOUND YET"
+  ],
+  "scores": [
+   3,
+   5,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] directly addresses you with a personal discovery that sparks genuine curiosity. [1] sounds like B2B software marketing jargon that makes you skeptical instead of intrigued."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (6/10)",
+ "editor_override": "HOOK \u2014 9 words, minimum is 12. More critically, it reads as a label/aphorism ('your documents hide money you haven't found') \u2014 explicitly banned. The law requires ONE summarizing sentence with actor + what happened + wild specifics, nothing withheld. Fix: e.g. 'CLAUDE READS YOUR CONTRACTS, INVOICES, AND P&L IN 90 SECONDS AND FINDS WHAT A $400/HR PROFESSIONAL WOULD CHARGE TO SPOT.'; IMAGE LAW \u2014 The",
+ "topic_source": "news-anchored"
+}
