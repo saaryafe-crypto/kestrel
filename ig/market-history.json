@@ -1,30 +1,5 @@
 [
  {
-  "page": "technology",
-  "hook": "\"A first-person camera mod for Marvel\u2019s Spider-Man 2 puts players directly inside Spider-Man\u2019s web swinging, turning every dive, flip and rotation into an intense ride \ud83d\udd77\ufe0f\n\nCreated for the PC version, the mod offers a con",
-  "date": "2026-08-09"
- },
- {
-  "page": "technology",
-  "hook": "\"A modder has connected GTA III, Vice City and San Andreas using working portals that let players move between all 3 games without traditional loading screens \ud83c\udfae\ud83e\udd2f\n\nCreated by modder Dryxio, the experiment runs all 3 games",
-  "date": "2026-08-09"
- },
- {
-  "page": "mashable",
-  "hook": "\"Willem Dafoe talks 'Late Fame' and how he approached his viral photo shoot #film #willemdafoe #movies\u2060\".",
-  "date": "2026-08-09"
- },
- {
-  "page": "wired",
-  "hook": "\"WIRED spoke with Tucker Bryant, an artist and former Google employee who created ChatTJB to get people to reflect on the \u201cstrange moment\u201d we\u2019re in.\n\nBryant tells WIRED he launched ChatTJB back in April, but it didn\u2019t ta",
-  "date": "2026-08-09"
- },
- {
-  "page": "wired",
-  "hook": "\"Mugshawtys was started around a decade ago by Josh Jeffery, a 31-year-old electrician in California. Up until very recently, it had about 1.8 million Instagram followers, including many loyal, mostly male fans\u2014some of w",
-  "date": "2026-08-09"
- },
- {
   "page": "futurism",
   "hook": "\"Reddit has long heavily relied on moderators, a team of volunteers working without pay to keep Reddit communities free of abuse and other nefarious content \u2014 with extremely varying degrees of success, earning them a cer",
   "date": "2026-08-10"
@@ -88,11 +63,6 @@
   "page": "mashable",
   "hook": "\"AI companies keep destroying old books. Here's why \ud83d\udc40\u2060\n#ai #booktok #tech\".",
   "date": "2026-08-10"
- },
- {
-  "page": "mashable",
-  "hook": "\"Willem Dafoe talks 'Late Fame' and how he approached his viral photo shoot \n\nHeat to the LIB for the full interview!\n#film #willemdafoe #movies\u2060\".",
-  "date": "2026-08-09"
  },
  {
   "page": "techcrunch",
@@ -578,5 +548,10 @@
   "page": "wired",
   "hook": "\"The Colorado River, which provides water for 40 million people across seven states, is at a crisis point. The two largest reservoirs in the US, Lakes Mead and Powell, provide critical supply for states along the lower p",
   "date": "2026-08-22"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"In theory, the AI industry should have a very attractive story for the public: automate away drudgery and free everyone up to do the things they really love.\n\nIn practice, they\u2019ve bungled that layup narrative in favor o",
+  "date": "2026-08-23"
  }
 ]
