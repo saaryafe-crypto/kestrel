@@ -1,0 +1,114 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 AI AGENTS</em> DO A $294,000 JOB FOR $2,400",
+   "kicker": "FOR $2,400 A YEAR",
+   "hsize": 70,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-24-edu-6-grok-bot-agents-replace-294k-wall-stre/gen-0-r.jpg",
+   "image_prompt": "Leonardo DiCaprio as Jordan Belfort, waist-up, maniacal triumphant grin aimed at camera, right hand thrusting $2,400 receipt, left arm sweeping past emerald screens; brilliant gold-green charts dominate bright background, simplified trading floor, documentary photo style."
+  },
+  {
+   "type": "content",
+   "headline": "THE DESK COST $294,000. <em>THE AGENTS COST $2,400</em>",
+   "hsize": 80,
+   "body": "Six agents split a desk that cost <b>$294,000</b> a year. You get the same brief for <b>$2,400</b>. 122 times cheaper",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) LET ONE AGENT <em>READ EVERY FILING OVERNIGHT</em>",
+   "hsize": 100,
+   "body": "You'd pay a junior analyst <b>$180,000</b> to read these at 2am. FILINGS does it overnight.\n\n\"Scan every 10-K and 8-K on my watchlist. Flag going concern language or auditor changes\"",
+   "media": "posts/2026-08-24-edu-6-grok-bot-agents-replace-294k-wall-stre/gen-2.jpg",
+   "image_prompt": "A chest-high tower of SEC-style paper documents stacked impossibly tall on a bright amber-lit desk, a massive vivid red digital alert triangle icon hovering above the top page like a warning beacon, the stack looming and dense; saturated cobalt blue background, hard amber spotlight casting dramatic shadow from the tower; documentary news photo, 35mm, harsh flash, film grain; accent: signal red against vivid cobalt blue."
+  },
+  {
+   "type": "content",
+   "headline": "2) LET ONE AGENT <em>CATCH WHEN A CFO GOES QUIET</em>",
+   "hsize": 100,
+   "body": "CFOs signal trouble before they announce it. EARNINGS reads the call in <b>24 hours</b> and flags tone shifts.\n\n\"Read this earnings call. Was the CFO quieter or vaguer than last quarter?\"",
+   "media": "posts/2026-08-24-edu-6-grok-bot-agents-replace-294k-wall-stre/gen-3.jpg",
+   "image_prompt": "A lone corporate podium microphone in tight close-up filling two-thirds of frame, a colossal vivid red mute symbol \u2014 bold mic icon with a thick diagonal slash \u2014 floating beside the mic head, the silence made physical and unmistakable; bright saturated cobalt blue stage-wash backdrop; documentary news photo, 35mm, harsh flash, film grain; accent: signal red against vivid cobalt blue."
+  },
+  {
+   "type": "content",
+   "headline": "3) LET ONE AGENT <em>FLAG RULE CHANGES NOBODY READ</em>",
+   "hsize": 100,
+   "body": "Regulators change rules every week. You'll never read them all. SECTOR does.\n\n\"Scan this week's regulatory filings for [industry]. Flag any rule change that could change what companies are worth\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) LET ONE AGENT <em>WATCH EVERY INSIDER BET OVERNIGHT</em>",
+   "hsize": 100,
+   "body": "Insiders bet their own cash first. INSIDER flags every buy over <b>$1 million</b> the day it files.\n\n\"Scan today's Form 4s. Flag buys over $1M and new positions from Two Sigma, D.E. Shaw\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) LET ONE AGENT <em>SPOT THE SOCIAL SPIKE BEFORE IT MOVES</em>",
+   "hsize": 100,
+   "body": "A company that gets 3x louder online usually moves next. CHATTER tells you first.\n\n\"Count mentions of [company] on X today. Flag if volume is 3 standard deviations above its 30-day average\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) LET ONE AGENT <em>BRIEF YOU ON 3,000 COMPANIES BY 6AM</em>",
+   "hsize": 100,
+   "body": "One analyst covers 30 names. CHIEF OF STAFF briefs you on <b>3,000</b> by <b>6am</b>.\n\n\"Read FILINGS, EARNINGS, SECTOR, INSIDER, CHATTER. Drop anything flagged by only one. Rank the rest. Email by 6am\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>THE 6 AGENTS THAT REPLACED A $294,000 DESK</em>",
+   "hsize": 88,
+   "body": "FILINGS: reads every SEC filing overnight\nEARNINGS: catches CFO tone shifts\nSECTOR: flags rule changes overnight\nINSIDER: spots $1M hedge fund bets\nCHATTER: flags social spikes\nCHIEF OF STAFF: 6am ranked brief",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see all 6 agents and the exact prompts they run. \ud83e\udd16\n\nFILINGS reads every SEC filing overnight and flags going concern language and auditor changes, EARNINGS reads the call within 24 hours and tells you if the CFO got quieter or vaguer, SECTOR scans regulatory filings and flags any rule change, INSIDER catches Form 4 buys over $1 million and new positions from Two Sigma, Third Point, and D.E. Shaw, CHATTER counts mentions on X and flags any company 3 standard deviations louder than its 30-day average, and CHIEF OF STAFF reads all five and emails you a ranked brief by 6am.\n\nSix agents do a $294,000 Wall Street research job for $2,400 a year. That is 122 times cheaper. One analyst covers 30 names. These agents cover 3,000 and finish before you wake up.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: antpalkin\n\n#AI #WallStreet #investing #ArtificialIntelligence #FutureOfWork",
+ "pinned_comment": "Which agent would you build first? Most people sleep on INSIDER, but it's the one that actually prints money.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>$294,000 WALL STREET DESK</em> REPLACED BY 6 AGENTS",
+   "<em>6 AI BOTS</em> NOW DO A $294,000 RESEARCH JOB",
+   "SIX GROK AGENTS RUNNING <em>A $294,000 RESEARCH DESK</em> FOR $2,400",
+   "<em>6 AI AGENTS</em> DO A $294,000 JOB FOR $2,400",
+   "6 AI AGENTS <em>REPLACED A $294,000</em> WALL STREET RESEARCH DESK"
+  ],
+  "scores": [
+   8,
+   7,
+   8.5,
+   9,
+   7.5
+  ],
+  "winner": 3,
+  "why": "The full story hits instantly ($294k becoming $2,400) in plain language\u2014you stop scrolling to see proof of that ratio. Runner-up [2] delivers the same shock but 'GROK AGENTS' adds parsing delay when 'AI AGENTS' is instant clarity."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 AI AGENTS</em> DO A $294,000 JOB FOR $2,400",
+   "6 AI AGENTS BRIEF YOU ON <em>3,000 COMPANIES</em> BY 6AM",
+   "6 AI AGENTS REPLACED A <em>$294,000</em> RESEARCH DESK",
+   "6 AI AGENTS DOING WHAT <em>WALL STREET</em> CHARGES <em>$294,000</em> FOR"
+  ],
+  "scores": [
+   9,
+   6,
+   8,
+   6
+  ],
+  "winner": 0,
+  "why": "The direct cost comparison hits hardest\u2014you see the full magnitude of savings ($294k to $2.4k) instantly on the cover. [2]'s 'replaced' is strong but doesn't show what you're paying instead, so the shock is deferred."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (6/10)",
+ "editor_override": "IMAGE LAW / CAST TRUTH hard violation: the cover is a generated likeness of Leonardo DiCaprio in his Wolf of Wall Street persona. DiCaprio has zero role in this story \u2014 he is pure decoration. The Doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Replace with a cover that visualises the actual story: a trading floor with "
+}
