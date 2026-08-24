@@ -1,0 +1,117 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 WAYS AI LEARNS YOUR BUSINESS OVERNIGHT</em>",
+   "kicker": "WORKS TONIGHT, CLAUDE OR CHATGPT",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-24-edu-6-prompts-that-brief-ai-on-your-business/gen-0.jpg",
+   "image_prompt": "Documentary news photo, 35mm, film grain \u2014 Dario Amodei waist-up in workshop apron, grinning, pressing marker mid-stroke on glass board with business arrows, glowing amber Claude logo against bright background"
+  },
+  {
+   "type": "content",
+   "headline": "1) BRIEF AI ON <em>WHO PAYS YOU</em>",
+   "hsize": 110,
+   "body": "Paste 5 clients and what they each bought. Claude tells you which ones to keep and which to fire.\n\n\"Here are my clients: [paste]. Which are worth my time?\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) SHOW AI <em>YOUR PRICES</em>",
+   "hsize": 110,
+   "body": "Paste your service menu. Claude finds where you are undercharging based on what others in your market charge.\n\n\"Here are my services and prices: [paste]. Where am I undercharging?\"",
+   "media": "posts/2026-08-24-edu-6-prompts-that-brief-ai-on-your-business/gen-2.jpg",
+   "image_prompt": "Documentary news photo, 35mm, film grain \u2014 a hand dropping a gold coin mid-fall toward a backlit price board hung with swinging price tags (no text), loose bills fanned across a vivid amber-gold surface; accent: burnished gold against warm amber."
+  },
+  {
+   "type": "content",
+   "headline": "3) GIVE AI YOUR <em>HARDEST OBJECTIONS</em>",
+   "hsize": 110,
+   "body": "Type your 5 most common sales objections. Claude writes a two-sentence counter for each that leads back to yes.\n\n\"My clients say: [list objections]. Write a counter for each.\"",
+   "media": "posts/2026-08-24-edu-6-prompts-that-brief-ai-on-your-business/gen-3.jpg",
+   "image_prompt": "Documentary news photo, 35mm, film grain \u2014 two hands mid-handshake over scattered crumpled papers on a bright-lit table, a single giant emerald-green checkmark glowing above the stack (no text on papers), vivid jade light flooding the scene; accent: emerald green against warm white."
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "TELL IT MORE. IT DOES MORE.",
+   "hsize": 66,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) DESCRIBE YOUR <em>DREAM CUSTOMER</em>",
+   "hsize": 110,
+   "body": "Write three sentences about who you want to sell to. Claude builds an ad that speaks to that person only.\n\n\"My perfect customer: [describe]. Write a Facebook ad for them only.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) PASTE YOUR <em>WORST REVIEW</em>",
+   "hsize": 110,
+   "body": "Drop a one-star review into Claude. It writes a public reply other customers read and trust more than the complaint.\n\n\"Here is a negative review: [paste]. Write a reply that wins people back.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) SHARE YOUR <em>LAST HIRING MISTAKE</em>",
+   "hsize": 110,
+   "body": "Describe your worst hire in two sentences. Claude writes 5 interview questions that would have caught it before day one.\n\n\"My last bad hire: [describe]. Write 5 questions that catch this.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: 6 WAYS TO <em>TEACH AI YOUR BUSINESS</em>",
+   "hsize": 100,
+   "body": "Brief it on who pays you\nShow it your prices\nGive it your hardest objections\nDescribe your dream customer\nPaste your worst review\nShare your last hiring mistake\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to save all 6. Most people use AI like a stranger. These prompts make it know your business. \ud83e\udde0\n\nBrief it on who pays you, show it your prices, give it your hardest objections, describe your dream customer, paste your worst review, share your last hiring mistake.\n\nWSJ tested Tesla FSD and the writer said he was bewitched after 2 hours. AI works the same. Generic prompts get generic results. Give Claude your real context and it stops being a chatbot.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, Wall Street Journal\n\n#artificialintelligence #chatgpt #claude #businesstips #aitools",
+ "pinned_comment": "Which one are you trying first? The bad review prompt (slide 7) is the one people end up forwarding to their whole team.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT MAKE AI <em>STOP ACTING LIKE A STRANGER</em>",
+   "6 PROMPTS THAT <em>TEACH AI YOUR WHOLE BUSINESS</em>",
+   "6 PROMPTS THAT STOP AI <em>FROM GIVING GENERIC ANSWERS</em>",
+   "<em>6 WAYS AI LEARNS YOUR BUSINESS OVERNIGHT</em>",
+   "<em>6 WAYS TO MAKE AI YOUR BUSINESS SPECIALIST</em>"
+  ],
+  "scores": [
+   4,
+   5,
+   6,
+   9,
+   7
+  ],
+  "winner": 3,
+  "why": "'OVERNIGHT' is the only hook that makes you actually stop and think 'wait, how is that possible?'\u2014everything else sounds like standard business jargon you'd swipe past. The speed claim creates real surprise; the others just promise expected outcomes."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 THINGS YOUR AI <em>STILL DOESN'T KNOW</em> ABOUT YOUR BUSINESS",
+   "<em>6 WAYS AI LEARNS YOUR BUSINESS OVERNIGHT</em>",
+   "6 THINGS TO TELL AI <em>MOST BUSINESS OWNERS NEVER DO</em>",
+   "6 THINGS THAT TURN AI INTO <em>YOUR BUSINESS EXPERT</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   6,
+   4
+  ],
+  "winner": 1,
+  "why": "'Overnight' makes you think 'wait, AI can do that in one night?'\u2014you'd tap it. 'Most business owners never do' just sounds like clickbait you've seen a hundred times."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "IMAGE LAW \u2014 GENERATED UNKNOWN FACE on cover: The cover image shows a generated non-famous person drawing on a glass board. IMAGE LAW explicitly bans this: 'Never a generated unknown face.' The fix is to replace the cover with the real Claude/ChatGPT UI product shot with its brand mark visible, or a fully text-card cover \u2014 no generated human face.; HOOK LAW \u2014 LABEL HEADLINE: '6 WAYS AI LEARNS YOUR ",
+ "topic_source": "news-anchored"
+}
