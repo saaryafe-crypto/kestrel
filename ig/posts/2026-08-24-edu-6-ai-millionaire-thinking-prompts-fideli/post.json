@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 PROMPTS <em>YOUR $300/HOUR ADVISOR BILLS YOU FOR</em> THAT AI DOES FREE",
+   "kicker": "RECORD 595,000 FIDELITY ACCOUNTS",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-24-edu-6-ai-millionaire-thinking-prompts-fideli/gen-0.jpg",
+   "image_prompt": "Dario Amodei, gold pinstripe blazer, chest-up, smiling, thrusting financial report with red stamp toward camera; coins and $ on amber desk; Claude logo on gold wall. Documentary 35mm, natural texture, gold-red scheme."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIND WHERE YOUR MONEY IS QUIETLY DISAPPEARING</em>",
+   "hsize": 80,
+   "body": "Millionaires track every dollar. You're probably wasting <b>$47 a month</b> on forgotten subscriptions alone.\n\n\"Here are my monthly expenses: [paste list]. Find every charge I don't need. Be brutal.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>BUILD YOUR 10-YEAR PATH TO $1 MILLION</em>",
+   "hsize": 90,
+   "body": "Millionaires have a written plan. Most people don't. This prompt builds yours in <b>3 minutes</b>.\n\n\"I have [savings] saved, earn [income] a year. Build my 10-year path to $1M. Be specific.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>ANALYZE ANY INVESTMENT BEFORE YOU COMMIT</em>",
+   "hsize": 90,
+   "body": "Millionaires never commit money without vetting it. Financial advisors charge <b>$300 an hour</b> to do this.\n\n\"I'm considering this investment: [describe it]. What am I missing? Worst case? Be direct.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FIND THE SIDE INCOME HIDING IN YOUR SKILLS</em>",
+   "hsize": 86,
+   "body": "Millionaires have multiple income streams. You probably have the raw material for at least one more.\n\n\"Here are my skills: [list]. What's the fastest side income I can start this week? Be specific.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>GET MORE MONEY IN YOUR NEXT NEGOTIATION</em>",
+   "hsize": 90,
+   "body": "Millionaires never accept the first number. This gives you the exact words to negotiate more.\n\n\"I'm negotiating [raise or rate]. My current [amount]. Write exactly what I should say to get more.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>RECESSION-PROOF YOUR MONEY STARTING TONIGHT</em>",
+   "hsize": 90,
+   "body": "Fidelity's <b>595,000 millionaires</b> protected their base before they grew it. Here's how.\n\n\"My financial situation: [describe]. How do I protect what I have if the economy turns? Be specific.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: 6 PROMPTS THAT THINK LIKE A MILLIONAIRE</em>",
+   "hsize": 88,
+   "body": "Find your monthly money leaks\nBuild your 10-year $1M roadmap\nAnalyze any investment free\nFind hidden side income\nGet more in every negotiation\nRecession-proof your savings\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 6. Fidelity just hit 595,000 millionaire accounts, the highest ever recorded. These are the 6 conversations their money habits start with. \ud83d\udd16\n\nFind your monthly money leaks, build a 10-year path to $1 million, analyze any investment before committing, find the side income hiding in your existing skills, get more in your next salary or rate negotiation, recession-proof your cash before the economy forces your hand.\n\nFidelity's millionaire count hit a record. It didn't happen by accident. The gap between that list and everyone else is knowing exactly what to ask about money. AI does that free now, any time.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Fidelity Investments, Anthropic\n\n#artificialintelligence #aitools #makemoney #wealthbuilding #financialfreedom",
+ "pinned_comment": "Which prompt are you running first? Slide 6 is the one most people skip and then wish they hadn't.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI PROMPTS <em>THAT THINK LIKE A MILLIONAIRE</em>",
+   "AI BUILDS <em>A COMPLETE MILLIONAIRE ROADMAP</em> FROM WHATEVER YOU HAVE. 6 PROMPTS",
+   "6 THINGS <em>A $300/HOUR FINANCIAL ADVISOR DOES</em> THAT AI DOES FREE TONIGHT"
+  ],
+  "scores": [
+   5,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] has the price shock ($300/hour \u2192 FREE) plus TONIGHT urgency that hits as immediate FOMO, while [1]'s solid offer lacks any reason to stop NOW instead of later. Urgency + contrast beats a timeless promise."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 THINGS <em>A $300/HOUR FINANCIAL ADVISOR DOES</em> THAT AI DOES FREE TONIGHT",
+   "YOUR MONEY IS QUIETLY DISAPPEARING AND <em>6 FREE AI PROMPTS</em> WILL FIND IT",
+   "6 PROMPTS <em>YOUR $300/HOUR ADVISOR BILLS YOU FOR</em> THAT AI DOES FREE",
+   "6 PROMPTS <em>THAT THINK LIKE A MILLIONAIRE</em> AND COST NOTHING TONIGHT"
+  ],
+  "scores": [
+   8,
+   4,
+   9,
+   5
+  ],
+  "winner": 2,
+  "why": "[2] makes you feel like you're uncovering unfair overcharging with 'BILLS YOU FOR'\u2014that accusation hits at 2am; [0] is cleaner but just swaps products without the transgressive emotional angle that actually stops scrolling."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (6/10)",
+ "editor_override": "IMAGE LAW \u2014 GENERATED UNKNOWN FACE ON COVER: The cover subject is a generated non-famous person holding papers. IMAGE LAW explicitly bans 'a generated unknown face' as a cover subject. The Claude logo in the background does not save it \u2014 'the product with its brand mark in frame' is an alternative to a face, not a license to pair a brand mark with a fake stranger. Fix: regenerate the cover with th",
+ "topic_source": "news-anchored"
+}
