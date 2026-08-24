@@ -64,6 +64,9 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}  # IL native builds render gpt-image covers
           CHROME: google-chrome
+          # run 32741313256 (Aug 24): a writer response blew past the CLI's
+          # default 32k output-token cap and the slot died. Cap, not a target.
+          CLAUDE_CODE_MAX_OUTPUT_TOKENS: "64000"
         run: |
           cd ig
           # culture radar warm-up (run diet Aug 12, same as the EN workflow):

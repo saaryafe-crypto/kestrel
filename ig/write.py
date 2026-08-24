@@ -1209,6 +1209,11 @@ def call_claude(prompt, schema=None, images=None, model=None, web=False):
         # issue #13). One fresh call, then give up.
         print(f"claude -p returned no JSON ({out[:120]!r}) — retrying once",
               file=sys.stderr)
+        # 529/overload backoff (run 32695956904, Aug 24: instant retry into
+        # the same Anthropic incident window re-failed both ladder rungs —
+        # same lesson as the stall-retry above: give the incident time to pass)
+        if "API Error" in out:
+            time.sleep(120)
         out = _stream_claude(cmd)
         obj = _extract_json(out)
     if obj is None:
@@ -1318,6 +1323,14 @@ def qa(post):
     # longer record-sentence — several gates relax for it
     profile = any(s.get("layout") == "card" for s in slides)
     errs = []
+    # caption must be a plain string (run 32756234189 post-mortem: writer
+    # returned caption as an object and the AI-tell join crashed the whole
+    # ladder with a TypeError — a malformed field is a QA error for the
+    # repair pass, never a crash)
+    if not isinstance(caption, str):
+        errs.append("caption is not a plain string — return caption as one "
+                    "text string, not an object or list")
+        caption = json.dumps(caption, ensure_ascii=False)
     if not (4 <= len(slides) <= 10):
         errs.append(f"{len(slides)} slides (want 4-10)")
     if slides[0]["type"] != "cover" or slides[-1]["type"] != "cta":

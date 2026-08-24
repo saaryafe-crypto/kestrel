@@ -87,6 +87,10 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
           CHROME: google-chrome
+          # run 32741313256 (Aug 24): a writer response blew past the CLI's
+          # default 32k output-token cap and the slot died. This is a cap,
+          # not a target — raising it costs nothing on normal calls.
+          CLAUDE_CODE_MAX_OUTPUT_TOKENS: "64000"
         run: |
           set -o pipefail
           cd ig
