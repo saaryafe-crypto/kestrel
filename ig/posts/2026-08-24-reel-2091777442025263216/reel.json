@@ -1,0 +1,17 @@
+{
+ "pick": 0,
+ "title": "The head-bobbing style these robots trained themselves to use",
+ "title_candidates": [
+  "The running form these racing robots invented on their own",
+  "No human told these robots how to run, so they figured it out themselves",
+  "The robots at this race keep changing lanes and no one can stop them",
+  "What robots figure out when their only job is to run as fast as possible",
+  "The head-bobbing style these robots trained themselves to use"
+ ],
+ "caption": "These robots weren't programmed with a running style. They trained themselves until they found one.\n\nAt this robot running competition, each machine developed its own unique way of moving through trial and error, with no human deciding the form. The head-bobbing, swaying postures you see are what each robot's AI settled on after thousands of attempts at staying fast and upright. Every robot in the race ended up looking completely different from the others. The lane changes are a bonus.\n\nThis is what self-learning actually looks like. Not a human engineer picking the best gait. The machine trying things until something works.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: LinusEkenstam. DM for credit or removal\n\n#robotics #AI #robots #technology #humanoidrobots",
+ "start_s": 3,
+ "clip_s": 24,
+ "source": "https://video.twimg.com/amplify_video/2091777365034561536/vid/avc1/1280x720/t3MBZfOua5wU4kON.mp4?tag=29",
+ "channel": "LinusEkenstam",
+ "publish": "make"
+}
