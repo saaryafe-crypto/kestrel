@@ -1,0 +1,107 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שישה פרומפטים</em> שמחליפים מנהל מרחוק",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-23-edu-6-claude-prompts-that-manage-a-remote-te/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up, triumphant grin, wireless headset, hands on keyboard, bright orange Claude neon sign dominant, four glowing chat-screens behind. Bright 35mm news photo, high-key face lighting, natural skin. Zero readable text. Orange and blue."
+  },
+  {
+   "type": "content",
+   "headline": "1) לסנן 200 מועמדים <em>לשמונה תוך שעה</em>",
+   "hsize": 96,
+   "body": "סטארטאפ חסך שלושה ימים של עבודת גיוס. הצוות שלך יכול גם.\n\n\"הנה חמישה קורות חיים: [הדבק]. דרג אותם לתפקיד המרחוק הזה: [תיאור]. סמן את שלושת הטובים עם סיבה אחת לכל אחד\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) לכתוב <em>הערכות עובדים תוך 20 דקות</em>",
+   "hsize": 100,
+   "body": "מנהל אחד כתב הערכות לשמונה עובדים ישירים תוך 20 דקות.\n\n\"הנה העדכונים של [שם] מהחודש האחרון: [הדבק]. כתוב הערכת ביצועים ספציפית והוגנת בשלוש פסקאות\"",
+   "media": "posts/2026-08-23-edu-6-claude-prompts-that-manage-a-remote-te/gen-2.jpg",
+   "image_prompt": "Close-up of two faceless hands mid-writing on a blank cream document, the pen catching a motion blur suggesting speed, a finished stack of six identical cream sheets beside them on a warm walnut desk, amber side light raking hard across the surface. Documentary news photo, 35mm, harsh on-camera flash, film grain. Zero readable text. Accent: warm amber against honey walnut brown."
+  },
+  {
+   "type": "content",
+   "headline": "3) לנהל <em>סטנדאפ יומי בלי להשתתף בו</em>",
+   "hsize": 100,
+   "body": "מייסד אחד חסך שש שעות בשבוע ככה. הצוות שלך יכול גם.\n\n\"אתה ראש הצוות שלי. הנה רשימת המשימות שלנו: [הדבק]. כתוב את הסטנדאפ של היום בחמש נקודות\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) להחליף ישיבות סטטוס <em>בפרומפט אחד</em>",
+   "hsize": 100,
+   "body": "הוא הפסיק לקיים שיחות סטטוס שבועיות. Claude קורא את העדכונים וכותב את הדוח.\n\n\"הנה עדכוני הצוות מהשבוע: [הדבק]. כתוב דוח סטטוס של עמוד אחד עם סיכונים וחסמים\"",
+   "media": "posts/2026-08-23-edu-6-claude-prompts-that-manage-a-remote-te/gen-4.jpg",
+   "image_prompt": "Top-down view of a weekly grid planner on a glass desk: eight calendar blocks each crossed with a bold red X symbol, a single small glowing orange card centered on top of the crossed-out grid, vivid teal-green side light flooding the frame bright and saturated, no hands, no faces. Documentary news photo, 35mm, harsh on-camera flash. Zero readable text. Accent: signal orange against vivid teal green."
+  },
+  {
+   "type": "content",
+   "headline": "5) לקלוט עובדים חדשים <em>תוך שמונה ימים, לא שלושה שבועות</em>",
+   "hsize": 96,
+   "body": "העובד החדש שלך יכול להיות מוכן לגמרי תוך שמונה ימים במקום שלושה שבועות.\n\n\"צור תוכנית קליטה מרחוק של חמישה ימים לתפקיד [תפקיד]. כלול מטרות יומיות והודעת ברוכים הבאים אחת ליום\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) לפתור קונפליקט בצוות <em>תוך עשר דקות</em>",
+   "hsize": 100,
+   "body": "מייסד אחד פתר מבוי סתום של שבועיים תוך עשר דקות.\n\n\"הנה מה שכל אחד מהשניים אומר על הוויכוח: [הדבק את שניהם]. כתוב פתרון הוגן שהשניים יוכלו לקבל\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: <em>כל שישת הפרומפטים לצוות מרחוק</em>",
+   "hsize": 100,
+   "body": "סינון 200 מועמדים לשמונה\nהערכות עובדים תוך 20 דקות\nסטנדאפ יומי בלי ישיבה\nדוח סטטוס בלי שיחות\nקליטה תוך שמונה ימים\nקונפליקט נפתר תוך דקות\n\nחדשות AI יומיות ומיומנויות אמיתיות",
+   "media": null
+  }
+ ],
+ "caption": "שישה פרומפטים של Claude שמנהלים גיוס, הערכות, סטנדאפים וקונפליקטים בצוות שלך מרחוק. FORTUNE אישרה השבוע שעובדים מרחוק פחות עוזבים 📋\n\nכל פרומפט מחליף משימה שמנהל בדרך כלל עושה לבד:\n1) לסנן 200 מועמדים לשמונה תוך שעה\n2) הערכות עובדים תוך 20 דקות לאיש\n3) Claude כותב את הסטנדאפ היומי בלי שצריך ישיבה\n4) דוח סטטוס שנוצר מפרומפט אחד בלי שיחות\n5) קליטת עובד חדש מקוצרת משלושה שבועות לשמונה ימים\n6) קונפליקט בצוות שנפתר בפרומפט אחד של העתק הדבק\n\nFORTUNE אישרה השבוע שמי שעובד לגמרי מרחוק מדווח על הרווחה הגבוהה ביותר ועוזב פחות מכולם. הצוואר הבקבוק הוא עומס הניהול. הפרומפטים האלה מורידים את העומס בלי לפטר אנשים.\n\nמנהל עסק? שלח לנו DM עם \"AI\" ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: FORTUNE (דוח איכות חיים עובדים מרחוק, אוגוסט 2026), Anthropic\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#AItools #RemoteWork #BusinessTips #Claude #Productivity",
+ "pinned_comment": "איזה פרומפט תנסה ראשון? שקופית ארבע היא ההפתעה הכי גדולה. רוב המנהלים לא חושבים להחליף את ישיבת הסטטוס בפרומפט אחד, אבל זה עובד כל פעם.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT <em>KEEP REMOTE TEAMS FROM QUITTING</em>",
+   "<em>REMOTE TEAMS QUIT LESS.</em> 6 PROMPTS THAT KEEP YOURS",
+   "6 PROMPTS THAT <em>MAKE YOUR REMOTE TEAM RUN ITSELF</em>",
+   "6 CLAUDE PROMPTS THAT <em>RUN YOUR REMOTE TEAM</em>",
+   "<em>6 PROMPTS</em> THAT REPLACE A REMOTE MANAGER"
+  ],
+  "scores": [
+   4,
+   5,
+   6,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "\"REPLACE A REMOTE MANAGER\" stops you cold—it's a shocking claim that makes you think \"wait, WHAT?\" at 2am. [2]'s \"run itself\" sounds like productivity speak; [4] feels like genuine drama, the only one that beats scrolling."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 PROMPTS</em> THAT MANAGE YOUR REMOTE TEAM FOR YOU",
+   "<em>6 PROMPTS</em> THAT REPLACE A REMOTE MANAGER",
+   "<em>6 AI PROMPTS</em> NO REMOTE MANAGER SHOULD WORK WITHOUT",
+   "<em>6 PROMPTS</em> SO GOOD THEY MAKE A REMOTE MANAGER OPTIONAL"
+  ],
+  "scores": [
+   4,
+   8,
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] delivers pure shock in fewest words—'REPLACE' makes you stop mid-scroll thinking 'wait, WHAT?'—while [3] softens the same bomb claim with 'SO GOOD,' losing the jaw-drop that actually freezes your thumb."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "IMAGE LAW §3 — generated unknown face on cover. The image shows a smiling generated man with a headset; Image Law bans 'never a generated unknown face' with no exceptions. The Claude neon logo in the background does not rescue it — 'product with its brand mark in frame' means a product image, not a generated person posed in front of a logo. Fix: remove the human figure; use the Claude logo/UI as t",
+ "topic_source": "news-anchored"
+}
