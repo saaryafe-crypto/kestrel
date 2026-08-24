@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-17T18:39:23Z",
-  "gate": "A",
-  "subject": "Israeli bots are not giving up. Due to overwhelming Palestinian support from Greeks, they are creating AI videos showing",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no substance: the story is online content warfare (unnamed actors, unspecified videos) with zero real-world consequence, proof, or specifics—fails Story Law's instant-kill criteria."
- },
- {
   "t": "2026-08-17T23:26:28Z",
   "gate": "A",
   "subject": "Landing an orbital-class rocket was once considered almost impossible. SpaceX has now done it 650 times First landing: D",
@@ -2098,5 +2091,12 @@
   "subject": "6 PROMPTS <em>YOUR $300/HOUR ADVISOR BILLS YOU FOR</em> THAT AI DOES FREE",
   "verdict": "REJECT",
   "reason": "IMAGE LAW — GENERATED UNKNOWN FACE ON COVER: The cover subject is a generated non-famous person holding papers. IMAGE LAW explicitly bans 'a generated unknown face' as a cover subject. The Claude logo in the background does not save it — 'the product with its brand mark in frame' is an alternative to a face, not a license to pair a brand mark with a fake stranger. Fix: regenerate the cover with th"
+ },
+ {
+  "t": "2026-08-24T18:39:17Z",
+  "gate": "A",
+  "subject": "Lady Gaga’s new AI biotechnology firm with Michael Polansky — Outer Bio — is receiving backlash from fans for being fund",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: the entire substance is that people on the internet criticized something, with zero real-world consequence (no money lost, no product pulled, no account banned, no reality moved) — this is the exact pattern that killed the Queen Elizabeth and Mario Lopez posts."
  }
 ]

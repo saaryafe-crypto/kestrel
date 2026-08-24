@@ -1,0 +1,112 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שש יכולות AI <em>שאתה משלם עליהן ולא מפעיל</em>",
+   "kicker": "תשתמש בכולן הלילה, בחינם",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-08-23-edu-6-ai-powers-hiding-in-paid-tools-chatgpt/gen-0-r.jpg",
+   "image_prompt": "Sam Altman waist-up gleeful at bright neon market stall, lifts golden tray of six icons—chart, magnifying glass, chip, microphone, binder, robot—toward outstretched hand. OpenAI symbol on banner, studio light, natural skin, bright teal."
+  },
+  {
+   "type": "content",
+   "headline": "1) תעלה את ה-P&L שלך <em>ל-ChatGPT</em>",
+   "hsize": 112,
+   "body": "CFO גובה <b>$400 לשעה</b> על זה. בתוכנית ChatGPT שלך זה חינם עכשיו.\n\n\"זה ה-P&L שלי. מצא לי את חמש ההוצאות המיותרות הכי גדולות ודרג אותן לפי סכום.\"",
+   "face": "Sam Altman",
+   "media": "posts/2026-08-23-edu-6-ai-powers-hiding-in-paid-tools-chatgpt/gen-1.jpg",
+   "image_prompt": "Sam Altman, fierce focus, waist-up in a bright green accountant visor, red marker mid-circle on an enormous glowing spreadsheet grid — red downward arrows and loss symbols only, no readable text. Vivid emerald overhead lamp blazing. OpenAI logo exactly as in the reference image glows on the far wall. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: signal red on saturated emerald."
+  },
+  {
+   "type": "content",
+   "headline": "2) תדליק את <em>Memory של ChatGPT</em> לעסק שלך",
+   "hsize": 108,
+   "body": "ל-<b>ChatGPT Plus</b> יש Memory. רוב המשתמשים אף פעם לא מדליקים אותה, אז כל שיחה מתחילה מאפס.\n\n\"תזכור: אני מנהל [סוג עסק]. הלקוחות הכי טובים שלי מחפשים [X]. תמיד תתחיל עם [Y].\"",
+   "face": "Sam Altman",
+   "media": "posts/2026-08-23-edu-6-ai-powers-hiding-in-paid-tools-chatgpt/gen-2.jpg",
+   "image_prompt": "Sam Altman, wide-eyed satisfaction, waist-up in a grease-marked mechanic jumpsuit, presses a glowing amber brain-shaped chip into the chest panel of a white boxy robot — robot eyes igniting electric green in real time. OpenAI logo exactly as in the reference image on the robot chest. Bright steel-blue industrial garage, blazing overhead work lamps. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: electric green on steel blue."
+  },
+  {
+   "type": "content",
+   "headline": "3) תדביק את חוזה הספק שלך <em>ל-Claude</em>",
+   "hsize": 100,
+   "body": "עורכי דין גובים <b>$500 לשעה</b> על בדיקת חוזים. Claude קורא <b>200,000 מילים</b> בבת אחת, בחינם.\n\n\"זה חוזה הספק שלי. תסמן כל סעיף שיכול לעלות לי כסף או להגביל אותי.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) תן ל-ChatGPT <em>לגלוש לאתר של המתחרה שלך</em> בזמן אמת",
+   "hsize": 100,
+   "body": "חברת מחקר שוק גובה <b>$2,000</b> על ניתוח מתחרים. ChatGPT גולש בזמן אמת וכותב לך ניתוח כזה בחינם.\n\n\"תלך ל-[אתר המתחרה]. תרשום את המחירים שלהם, ההבטחות העיקריות, ושלוש חולשות שאני יכול לנצל.\"",
+   "face": "Sam Altman",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) תבנה <em>Claude Project</em> שמכיר את העסק שלך לעומק",
+   "hsize": 96,
+   "body": "<b>Claude Project</b> זוכר כל מסמך שאתה מעלה. הוא כמו עובד בצוות שלא שוכח כלום.\n\n\"אתה נציג התמיכה שלי. תשתמש במסמכים שהעלתי כדי לענות על שאלות לקוחות. אל תנחש.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) תתרגל שיחת מכירה קשה <em>עם ChatGPT Voice</em>",
+   "hsize": 100,
+   "body": "מאמן מכירות גובה <b>$300 לשעה</b>. מצב הקול של ChatGPT מתנגד לך בזמן אמת, בחינם.\n\n\"תהיה קונה סקפטי. אני מוכר [מוצר]. תתנגד חזק למחיר שלי. בוא נעשה סימולציה.\"",
+   "face": "Sam Altman",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: <em>שש יכולות AI</em> שכבר שילמת עליהן",
+   "hsize": 108,
+   "body": "תעלה את ה-P&L שלך ל-ChatGPT\nתדליק את ה-Memory של ChatGPT\nתדביק חוזי ספקים ל-Claude\nתגלוש לאתר המתחרים עם ChatGPT\nתבנה Claude Project\nתתרגל מכירות עם ChatGPT Voice\n\nחדשות AI יומיות + כלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "שש יכולות שמסתתרות בתוך המנוי ל-ChatGPT ול-Claude שרוב בעלי העסקים אף פעם לא מגלים. 🔧\n\nבשקופית 2 תעלה את ה-P&L שלך ל-ChatGPT, בשקופית 3 תדליק את ה-Memory, בשקופית 4 תדביק כל חוזה ספק ל-Claude, בשקופית 5 תן ל-ChatGPT לגלוש לאתר של המתחרה בזמן אמת, בשקופית 6 תבנה Claude Project שמכיר את העסק שלך, ובשקופית 7 תתרגל שיחת המכירה הכי קשה שלך עם ChatGPT Voice.\n\nNvidia העלתה את מחירי שרתי ה-AI ב-15%. התשתית מתייקרת, ומנויים ילכו אחריה. שש הפיצ'רים האלה כבר בתוכנית שלך. בעלי עסקים שמשתמשים בהם עושים עבודה בשווי $2,000 בחינם כל שבוע.\n\nמנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות בשבילך.\n\nעקוב אחרי @ainews.israel לחדשות AI יומיות.\n\nמקורות: Bloomberg (העלאת מחירי Nvidia, אוגוסט 2026), Anthropic, OpenAI\n\n#artificialintelligence #chatgpt #claude #businessowner #aitools",
+ "pinned_comment": "כמה מהן כבר ידעת? רוב האנשים שאני מראה להם מכירים בקושי אחת מהשש. בדיקת החוזה בשקופית 4 היא זו שתמיד משאירה אנשים עם הפה פתוח.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR COMPETITORS ARE USING <em>6 CHATGPT POWERS</em> YOU HAVEN'T FOUND",
+   "YOUR CHATGPT SUBSCRIPTION <em>HAS 6 POWERS YOU'VE NEVER USED</em>"
+  ],
+  "scores": [
+   6,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hits your wallet immediately—you already PAY for this, so 'you're not using it' feels like wasted money. [0] needs you to care about competitors first, which is an extra mental step a 2am scroller won't take."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR CHATGPT SUBSCRIPTION <em>HAS 6 POWERS YOU'VE NEVER USED</em>",
+   "6 EXPENSIVE SERVICES <em>YOUR AI SUBSCRIPTION ALREADY REPLACES</em>",
+   "6 AI POWERS <em>YOU KEEP PAYING FOR AND IGNORING</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "The accusatory 'YOU KEEP PAYING FOR AND IGNORING' lands like a personal call-out that makes you stop—it stings a little and you *have* to check. [1] is smarter (value play) but colder; [0] sounds like every other generic feature list."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "CAST TRUTH VIOLATION — cover image shows a generated Sam Altman holding a tray of feature icons. Sam Altman has zero role in this story; he is decoration for a ChatGPT tip post. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Fix: regenerate cover with the product mark (ChatGPT/Claude logos) as the visual anchor, n",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
