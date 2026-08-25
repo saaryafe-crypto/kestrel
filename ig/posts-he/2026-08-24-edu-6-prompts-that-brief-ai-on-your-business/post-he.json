@@ -1,0 +1,124 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שש דרכים ללמד AI את העסק שלך הלילה</em>",
+   "kicker": "עובד עכשיו, Claude או ChatGPT",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-24-edu-6-prompts-that-brief-ai-on-your-business/gen-0.jpg",
+   "image_prompt": "Documentary news photo, 35mm, film grain — Dario Amodei waist-up in workshop apron, grinning, pressing marker mid-stroke on glass board with business arrows, glowing amber Claude logo against bright background"
+  },
+  {
+   "type": "content",
+   "headline": "1) ספר ל-AI <em>מי משלם לך</em>",
+   "hsize": 110,
+   "body": "הדבק חמישה לקוחות ומה כל אחד קנה. Claude יגיד לך מי שווה את הזמן שלך ומי לא.\n\n\"אלה הלקוחות שלי: [הדבק]. מי מהם שווה את הזמן שלי?\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) הראה ל-AI <em>את המחירים שלך</em>",
+   "hsize": 110,
+   "body": "הדבק את רשימת השירותים שלך. Claude ימצא איפה אתה גובה פחות מדי לעומת אחרים בשוק שלך.\n\n\"אלה השירותים והמחירים שלי: [הדבק]. איפה אני גובה פחות מדי?\"",
+   "media": "posts/2026-08-24-edu-6-prompts-that-brief-ai-on-your-business/gen-2.jpg",
+   "image_prompt": "Documentary news photo, 35mm, film grain — a hand dropping a gold coin mid-fall toward a backlit price board hung with swinging price tags (no text), loose bills fanned across a vivid amber-gold surface; accent: burnished gold against warm amber."
+  },
+  {
+   "type": "content",
+   "headline": "3) תן ל-AI את <em>ההתנגדויות הקשות שלך</em>",
+   "hsize": 110,
+   "body": "כתוב חמש התנגדויות שאתה שומע הכי הרבה. Claude יכתוב לכל אחת תשובה קצרה שמחזירה את הלקוח לכן.\n\n\"הלקוחות שלי אומרים: [רשום התנגדויות]. כתוב תשובה לכל אחת.\"",
+   "media": "posts/2026-08-24-edu-6-prompts-that-brief-ai-on-your-business/gen-3.jpg",
+   "image_prompt": "Documentary news photo, 35mm, film grain — two hands mid-handshake over scattered crumpled papers on a bright-lit table, a single giant emerald-green checkmark glowing above the stack (no text on papers), vivid jade light flooding the scene; accent: emerald green against warm white."
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "תספר לו יותר. הוא יעשה יותר.",
+   "hsize": 66,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) תאר את <em>הלקוח האידיאלי שלך</em>",
+   "hsize": 110,
+   "body": "כתוב שלושה משפטים על מי שאתה רוצה למכור לו. Claude יבנה מודעה שמדברת בדיוק אליו.\n\n\"הלקוח המושלם שלי: [תאר]. כתוב מודעת פייסבוק רק בשבילו.\"",
+   "face": "Dario Amodei",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) הדבק את <em>הביקורת הגרועה ביותר שלך</em>",
+   "hsize": 110,
+   "body": "הכנס ביקורת של כוכב אחד ל-Claude. הוא יכתוב תגובה פומבית שלקוחות אחרים יקראו ויאמינו לה יותר מאשר לתלונה.\n\n\"זו ביקורת שלילית שקיבלתי: [הדבק]. כתוב תגובה שמחזירה אנשים.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) שתף את <em>טעות הגיוס האחרונה שלך</em>",
+   "hsize": 110,
+   "body": "תאר בשני משפטים את הגיוס הגרוע ביותר שעשית. Claude יכתוב חמש שאלות ראיון שהיו תופסות את זה לפני היום הראשון.\n\n\"הגיוס הגרוע האחרון שלי: [תאר]. כתוב חמש שאלות שהיו מגלות את זה.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: שש דרכים <em>ללמד AI את העסק שלך</em>",
+   "hsize": 100,
+   "body": "עדכן אותו מי משלם לך\nהראה לו את המחירים שלך\nתן לו את ההתנגדויות הקשות שלך\nתאר את הלקוח האידיאלי שלך\nהדבק את הביקורת הגרועה ביותר שלך\nשתף את טעות הגיוס האחרונה שלך\n\nחדשות AI יומיות + כלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "החלק ותשמור את כל השש. רוב האנשים משתמשים ב-AI כמו בזר. הפרומפטים האלה מלמדים אותו את העסק שלך. 🧠\n\nעדכן אותו מי משלם לך, הראה לו את המחירים שלך, תן לו את ההתנגדויות הקשות שלך, תאר את הלקוח האידיאלי שלך, הדבק את הביקורת הגרועה ביותר שלך, שתף את טעות הגיוס האחרונה שלך.\n\nה-WSJ בדק את ה-FSD של Tesla והכתב אמר שהיה מוקסם אחרי שעתיים. AI עובד אותו דבר. פרומפט גנרי נותן תוצאה גנרית. תן ל-Claude הקשר אמיתי מהעסק שלך, והוא מפסיק להיות צ'אטבוט.\n\nיש לך עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: Anthropic, Wall Street Journal\n\nעקוב אחרי @ainews.israel לחדשות AI יומיות\n\n#artificialintelligence #chatgpt #claude #businesstips #aitools",
+ "pinned_comment": "איזה מהם אתה מנסה ראשון? הפרומפט של הביקורת הגרועה (שקופית 7) הוא זה שאנשים מעבירים לכל הצוות שלהם.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 PROMPTS THAT MAKE AI <em>STOP ACTING LIKE A STRANGER</em>",
+   "6 PROMPTS THAT <em>TEACH AI YOUR WHOLE BUSINESS</em>",
+   "6 PROMPTS THAT STOP AI <em>FROM GIVING GENERIC ANSWERS</em>",
+   "<em>6 WAYS AI LEARNS YOUR BUSINESS OVERNIGHT</em>",
+   "<em>6 WAYS TO MAKE AI YOUR BUSINESS SPECIALIST</em>"
+  ],
+  "scores": [
+   4,
+   5,
+   6,
+   9,
+   7
+  ],
+  "winner": 3,
+  "why": "'OVERNIGHT' is the only hook that makes you actually stop and think 'wait, how is that possible?'—everything else sounds like standard business jargon you'd swipe past. The speed claim creates real surprise; the others just promise expected outcomes."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 THINGS YOUR AI <em>STILL DOESN'T KNOW</em> ABOUT YOUR BUSINESS",
+   "<em>6 WAYS AI LEARNS YOUR BUSINESS OVERNIGHT</em>",
+   "6 THINGS TO TELL AI <em>MOST BUSINESS OWNERS NEVER DO</em>",
+   "6 THINGS THAT TURN AI INTO <em>YOUR BUSINESS EXPERT</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   6,
+   4
+  ],
+  "winner": 1,
+  "why": "'Overnight' makes you think 'wait, AI can do that in one night?'—you'd tap it. 'Most business owners never do' just sounds like clickbait you've seen a hundred times."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "IMAGE LAW — GENERATED UNKNOWN FACE on cover: The cover image shows a generated non-famous person drawing on a glass board. IMAGE LAW explicitly bans this: 'Never a generated unknown face.' The fix is to replace the cover with the real Claude/ChatGPT UI product shot with its brand mark visible, or a fully text-card cover — no generated human face.; HOOK LAW — LABEL HEADLINE: '6 WAYS AI LEARNS YOUR ",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
