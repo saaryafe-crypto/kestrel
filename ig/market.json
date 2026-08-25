@@ -1,53 +1,77 @@
 {
- "updated": "2026-08-24T08:34:54+00:00",
+ "updated": "2026-08-25T05:08:41+00:00",
  "competitor_hits": [
   {
-   "page": "mashable",
-   "likes": 1559,
-   "ratio": 2.53,
+   "page": "wired",
+   "likes": 2526,
+   "ratio": 1.32,
    "tier": "mega",
-   "hook": "\"The cosplayers at #AnimeNYC came to impress.\nHere are a few of our favorites so far this weekend \ud83e\udd18\n\n#anime #onepiecefan #cosplay #nyc\".",
-   "date": "2026-08-22"
+   "hook": "\"Chinese robotics companies have been competing in the World Humanoid Robot Games in Beijing, with at least one major human world record being surpassed.\n\nThe Tianzhuo humanoid developed by China\u2019s Beijing Innovation Cen",
+   "date": "2026-08-24"
   },
   {
-   "page": "technology",
-   "likes": 34000,
-   "ratio": 0.97,
+   "page": "wired",
+   "likes": 2008,
+   "ratio": 1.05,
    "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to see what the internet actually runs on, from ocean floor cables and landing stations to data centers, exchange points, satellites and precision timing systems \ud83c\udf10\n\nMore than 99% of international data traffic m",
-   "date": "2026-08-22"
+   "hook": "\"Not even 24 hours after dating app Bumble announced it was getting rid of its trademark feature that requires women to make the first move, Robin H.\u2019s inbox was already attracting unwanted attention.\n\n\u201cThis guy responde",
+   "date": "2026-08-23"
   },
   {
    "page": "technology",
    "likes": 21000,
-   "ratio": 0.6,
+   "ratio": 0.78,
    "tier": "mega",
-   "hook": "\"Honda engineer Shotaro Odate has spent decades developing vehicle safety technology, with Motor-Fan reporting 251 patent applications and 9 technical papers to his name \ud83d\ude97\n\nOdate joined Honda in 2003 and became an ADAS p",
-   "date": "2026-08-22"
+   "hook": "\"PlayStation players have launched a coordinated blackout against Sony, urging people to avoid PSN, purchases, games and subscriptions as pressure grows to protect physical releases \ud83c\udfae\ud83d\udcbf\n\nThe protest originally targeted Au",
+   "date": "2026-08-24"
   },
   {
-   "page": "mashable",
-   "likes": 372,
-   "ratio": 0.6,
+   "page": "wired",
+   "likes": 1297,
+   "ratio": 0.68,
    "tier": "mega",
-   "hook": "\"Because, let\u2019s be real, the crowds? They can get to you. \ud83d\ude2e\u200d\ud83d\udca8\n\nMade possible by @rodemic. \n#animenyc #keycaps #allaccess #gaming #asmr\".",
-   "date": "2026-08-22"
+   "hook": "\"For Luis DeSantiago, a substitute teacher in Los Banos, California, it started with a few text messages. On March 12, as he was working his other part-time job at a coffee shop, his phone lit up. A fellow barista said t",
+   "date": "2026-08-24"
+  },
+  {
+   "page": "technology",
+   "likes": 7536,
+   "ratio": 0.28,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from new ChatGPT protections and GTA 6 leaks to robotaxi economics \ud83c\udf0d\ud83e\udd16\n\nBilibili is expanding globally, Sam Altman admitted AI disruption has moved s",
+   "date": "2026-08-23"
   },
   {
    "page": "futurism",
-   "likes": 937,
-   "ratio": 0.19,
+   "likes": 1494,
+   "ratio": 0.28,
+   "tier": "mega",
+   "hook": "\"If this isn\u2019t an indictment on America\u2019s hatred of Flock cameras, we don\u2019t know what is: On Wednesday, a grand jury in Ohio refused to bring felony charges against a Clermont County man accused of destroying a Flock aut",
+   "date": "2026-08-24"
+  },
+  {
+   "page": "futurism",
+   "likes": 1327,
+   "ratio": 0.25,
    "tier": "mega",
    "hook": "\"In theory, the AI industry should have a very attractive story for the public: automate away drudgery and free everyone up to do the things they really love.\n\nIn practice, they\u2019ve bungled that layup narrative in favor o",
    "date": "2026-08-23"
   },
   {
-   "page": "mashable",
-   "likes": 60,
-   "ratio": 0.1,
+   "page": "technology",
+   "likes": 6082,
+   "ratio": 0.23,
    "tier": "mega",
-   "hook": "\"Everyone\u2019s favorite player from Nekoma makes his way to New York with the producer behind it all. Kenma\u2019s voice actor Kaji Yuki and producer Hibiki Saito make their official appearance at Anime NYC 2026.\n\nMade possible ",
-   "date": "2026-08-22"
+   "hook": "\"Apple\u2019s first foldable iPhone is reportedly already in testers\u2019 hands, revealing new details about its design, cameras, software experience, and expected price \ud83d\udcf1\ud83d\udc40\n\nEarly users reportedly like its pocket-friendly size, d",
+   "date": "2026-08-24"
+  },
+  {
+   "page": "mashable",
+   "likes": 40,
+   "ratio": 0.06,
+   "tier": "mega",
+   "hook": "\"Demi Adejuyigbe can write, joke, play music, line dance and he can cook just about anything. Just don't ask him to touch an egg.\u2060\n\u2060\n#dropouts #comedy\".",
+   "date": "2026-08-24"
   }
  ],
  "reddit_hot": []
