@@ -1,0 +1,113 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 GEMINI PROMPTS</em> THAT REPLACE A $2,000/MONTH BLOOMBERG TERMINAL",
+   "kicker": "NONE OF THESE COST A DOLLAR",
+   "hsize": 70,
+   "face": "Sundar Pichai",
+   "media": "posts/2026-08-25-edu-gemini-bloomberg-terminal-stock-analysis/gen-0.jpg",
+   "image_prompt": "Sundar Pichai waist-up gripping Bloomberg printout mid-tear, triumphant grin, eyes locked to camera\u2014red ticker falling, Gemini logo bright, pit well-lit in bright amber and blue, harsh flash. Documentary 35mm, natural skin texture, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>GET A FULL WALL STREET STOCK REPORT</em>, FREE",
+   "hsize": 100,
+   "body": "Bloomberg charges <b>$2,000/month</b> for this access. You get it free now.\n\n\"Act like a senior Wall Street analyst. Analyze [TICKER]: business model, moat, financials, key risks, <b>12-month</b> outlook.\"",
+   "media": "posts/2026-08-25-edu-gemini-bloomberg-terminal-stock-analysis/gen-1.jpg",
+   "image_prompt": "Extreme close on two hands wrenching a thick printed stock report free from a teetering tower of financial documents leaning mid-collapse on a trading desk \u2014 Bloomberg-style screens blazing behind with vivid green chart symbols and a giant $ sign, deep navy trading floor alive with saturated blue and green screen glow. Accent: signal green against deep navy. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Zero readable text \u2014 screens show only chart lines and $ symbols."
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>PULL 5 YEARS OF FINANCIALS</em> IN SECONDS",
+   "hsize": 105,
+   "body": "This is what Bloomberg subscribers pay thousands a month for. Free now.\n\n\"Analyze [COMPANY]'s last <b>5 years</b>: revenue growth, profit margins, free cash flow, debt levels, return on equity.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) RATE ANY STOCK'S MOAT <em>LIKE BUFFETT WOULD</em>",
+   "hsize": 105,
+   "body": "Buffett's team scores moats like this manually. You get the same rating in <b>30 seconds</b>.\n\n\"Evaluate [COMPANY]'s moat: brand, network effects, switching costs, patents. Rate it <b>1-10</b> vs top competitors.\"",
+   "face": "Warren Buffett",
+   "media": "posts/2026-08-25-edu-gemini-bloomberg-terminal-stock-analysis/gen-3.jpg",
+   "image_prompt": "Warren Buffett waist-up at a worn wooden desk, reading glasses perched on his nose, pen pressing a circle onto a bold score on a yellow legal pad \u2014 a thick annual report open beside him, warm gold lamplight, wood-paneled bookshelves stacked with reports behind, rich and saturated. Accent: warm gold against walnut brown. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Zero readable text \u2014 pad and report show only grid lines and circled figures."
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "BLOOMBERG: $2,000/MONTH. GEMINI: FREE.",
+   "hsize": 80,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>VALUE A STOCK LIKE AN INVESTMENT BANK</em>",
+   "hsize": 100,
+   "body": "Investment banks charge <b>$50K+</b> for a DCF model. This runs the same analysis free.\n\n\"Analyze [TICKER]: P/E ratio vs industry average, DCF estimate, undervalued or overvalued conclusion.\"",
+   "media": "posts/2026-08-25-edu-gemini-bloomberg-terminal-stock-analysis/gen-5.jpg",
+   "image_prompt": "Extreme close on hands at a slim open laptop, screen showing a vivid spreadsheet grid of cells, a pocket calculator resting directly on the keyboard beside the hands \u2014 a second blurred monitor behind glows with candlestick chart symbols in blue and green, slate blue ambient light crisp and saturated. Accent: signal blue against slate grey. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Zero readable text \u2014 all screens show only grid cells, chart candles, and $ symbols."
+  },
+  {
+   "type": "content",
+   "headline": "5) FIND EVERY RISK <em>HIDING IN A STOCK</em>",
+   "hsize": 100,
+   "body": "Missing one key risk cost FTX investors <b>$32 billion</b>. This surfaces them all before you buy.\n\n\"Identify [COMPANY]'s biggest risks: economic, competition, regulation, debt. Rank most to least dangerous.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>RUN A BULL VS BEAR DEBATE</em> ON ANY STOCK",
+   "hsize": 96,
+   "body": "Hedge funds pay two analyst teams to argue both sides. You get both for free.\n\n\"Run a bull vs bear debate on [TICKER]. Each side uses real data. End with a balanced conclusion.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: 6 GEMINI PROMPTS THAT <em>REPLACE BLOOMBERG</em>",
+   "body": "Full Wall Street stock analysis\n5-year financial breakdown\nCompetitive moat rating\nInvestment bank valuation\nFull risk ranking\nBull vs bear debate\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 Gemini prompts that do what a $2,000/month Bloomberg terminal does. Wall Street keeps quiet about these. \ud83d\udd16\n\n1) Full Wall Street stock analysis,\n2) 5-year financial breakdown,\n3) competitive moat rating on a 1-10 scale,\n4) investment bank valuation with DCF,\n5) full risk ranking by severity,\n6) bull vs bear debate with data\n\nBloomberg terminals cost $2,000 a month because data access was the moat. Gemini just removed that moat. Anyone with a phone can now run the same analysis a research desk runs in a day, in under a minute.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Kawsar_Ai\n\n#gemini #stockmarket #investing #AItools #artificialintelligence",
+ "pinned_comment": "Which prompt are you trying first? The bull vs bear debate on the last slide is the one most people don't expect to actually work.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 GEMINI PROMPTS THAT <em>KILL A $4,000 BLOOMBERG</em>",
+   "GEMINI NOW DOES WHAT <em>A $4,000/MONTH BLOOMBERG</em> DOES, FREE",
+   "<em>6 FREE GEMINI PROMPTS</em> REPLACING YOUR BLOOMBERG TERMINAL",
+   "6 GEMINI PROMPTS <em>WALL STREET PAYS $4,000/MONTH FOR</em>",
+   "<em>6 PROMPTS</em> THAT REPLACE A $4,000 BLOOMBERG TERMINAL"
+  ],
+  "scores": [
+   6,
+   9,
+   7,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] tells the complete value story upfront and ends on 'FREE'\u2014the most powerful word for a tired 2am scroller. [3] creates curiosity with Wall Street prestige, but you have to infer the free part instead of getting the full story told to you outright."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "GEMINI NOW DOES WHAT <em>A $4,000/MONTH BLOOMBERG</em> DOES, FREE",
+   "<em>6 GEMINI STOCK PROMPTS</em> SO GOOD THEY SHOULD COST $4,000 A MONTH",
+   "<em>6 GEMINI PROMPTS</em> THAT REPLACE A $4,000/MONTH BLOOMBERG TERMINAL"
+  ],
+  "scores": [
+   7,
+   3,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] hits harder: six prompts is specific and credible, so you'd actually check it. [0] oversells the whole platform as free, which reads like obvious clickbait and loses you at first glance."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "IMAGE LAW / CAST TRUTH: The cover shows Sundar Pichai tearing up a bill on a trading floor. Pichai has zero role in this story \u2014 he didn't build these prompts, didn't announce anything, isn't quoted anywhere in the slides. He is a famous face used as decoration, which is an explicit REJECT trigger: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJ"
+}

@@ -1,19 +1,5 @@
 [
  {
-  "t": "2026-08-18T17:29:29Z",
-  "gate": "A",
-  "subject": "Japanese Yen has already weakened so much that the U.S. Treasury intervention has been wiped out completely, now onto th",
-  "verdict": "KILL",
-  "reason": "Routine forex commentary with zero specifics, no person, no consequence—exactly the 'on-topic but routine' market wrap content the doctrine bans, violates STORY LAW §1."
- },
- {
-  "t": "2026-08-18T18:05:35Z",
-  "gate": "B",
-  "subject": "6 AI PROMPTS THAT FIND WHERE <em>YOUR BUSINESS IS ALREADY LOSING MONEY</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW: Cover shows a generated unknown face — §3 explicitly bans this ('Never a generated unknown face'). The allowed options are a recognizable famous person, the product with its brand mark in frame, or real event footage. Fix: regenerate the cover as the Claude logo/tablet front-and-center in a busy market scene, no human face, or swap to a clean product-brand card.; SLIDE 2 MANDATE (Aug 18"
- },
- {
   "t": "2026-08-18T18:43:59Z",
   "gate": "A",
   "subject": "Israeli are launching a full blown AI propaganda attack in Greece",
@@ -2098,5 +2084,19 @@
   "subject": "This is literally AI video, Every time a Muslim lies to defame India, Israel will punish 1,000 Palestani children",
   "verdict": "KILL",
   "reason": "Reaction-bait with no substance: inflammatory online statement with zero real-world event, no names, no numbers, no proof, no consequence—just a provocative claim on one tweet."
+ },
+ {
+  "t": "2026-08-25T14:37:23Z",
+  "gate": "B",
+  "subject": "<em>6 GEMINI PROMPTS</em> THAT REPLACE A $4,000/MONTH BLOOMBERG TERMINAL",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION — cover image shows a generated Sundar Pichai tearing up an invoice on a trading floor. He has zero role in any slide of this post; his name never appears. The story is a prompt tutorial about Gemini, not about anything Pichai did. Per doctrine: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Fix: replace cover with an "
+ },
+ {
+  "t": "2026-08-25T14:39:46Z",
+  "gate": "B",
+  "subject": "<em>6 GEMINI PROMPTS</em> THAT REPLACE A $2,000/MONTH BLOOMBERG TERMINAL",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW / CAST TRUTH: The cover shows Sundar Pichai tearing up a bill on a trading floor. Pichai has zero role in this story — he didn't build these prompts, didn't announce anything, isn't quoted anywhere in the slides. He is a famous face used as decoration, which is an explicit REJECT trigger: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJ"
  }
 ]
