@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-18T17:29:24Z",
-  "gate": "A",
-  "subject": "Dad pranks his daughter with fake interview.",
-  "verdict": "KILL",
-  "reason": "No substance: 44-character premise with zero outcome, numbers, or felt consequence described; would require padding to build slides from."
- },
- {
   "t": "2026-08-18T17:29:29Z",
   "gate": "A",
   "subject": "Japanese Yen has already weakened so much that the U.S. Treasury intervention has been wiped out completely, now onto th",
@@ -2098,5 +2091,12 @@
   "subject": "<em>6 AI POWERS</em> INVESTORS ARE PAYING FOR RIGHT NOW",
   "verdict": "REJECT",
   "reason": "IMAGE LAW §3 — generated unknown face on the cover. The man stamping 'FREE' is not a recognizable famous person; the doctrine bans generated unknown faces outright. Fix: remove the face entirely and make the Claude brand mark + money stacks + FREE stamp the hero, OR swap to a real photo of a named Anthropic executive.; IMAGE LAW / TRUTH LAW — the cover image displays '$750B' as the central number,"
+ },
+ {
+  "t": "2026-08-25T08:53:39Z",
+  "gate": "A",
+  "subject": "This is literally AI video, Every time a Muslim lies to defame India, Israel will punish 1,000 Palestani children",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: inflammatory online statement with zero real-world event, no names, no numbers, no proof, no consequence—just a provocative claim on one tweet."
  }
 ]
