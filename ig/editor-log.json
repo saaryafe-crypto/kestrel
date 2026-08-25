@@ -1,54 +1,5 @@
 [
  {
-  "t": "2026-08-18T18:43:59Z",
-  "gate": "A",
-  "subject": "Israeli are launching a full blown AI propaganda attack in Greece",
-  "verdict": "KILL",
-  "reason": "No substance: the source is one thin tweet—claim only, zero facts, numbers, or real-world consequence documented; writer would have to pad or assume details that aren't provided."
- },
- {
-  "t": "2026-08-18T23:27:22Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 CFTC Chair Mike Selig says \"for years, anti-crypto armies, doomers, and decelerationists stifled innovation.",
-  "verdict": "KILL",
-  "reason": "One thin quote from a bureaucrat with zero real consequence, no second fact, no numbers, and no actionable event—pure regulatory positioning stated as news, fails NO SUBSTANCE and ON-TOPIC-BUT-ROUTINE, and the scout score of 2 has no exception that justifies spending writing resources here."
- },
- {
-  "t": "2026-08-18T23:27:23Z",
-  "gate": "A",
-  "subject": "Mila Kunis is now 43 years old. She voiced Meg Griffin on Family Guy since she was just 15 years old. Mila Kunis has voi",
-  "verdict": "KILL",
-  "reason": "No story: this is celebrity trivia about a career span with no real-world event or consequence—just a restatement that someone did a job for 25 years."
- },
- {
-  "t": "2026-08-18T23:27:52Z",
-  "gate": "A",
-  "subject": "JUST IN 🚨: U.S. 30-Year Treasury Yield hits 5.30% for the first time since the run-up to the Global Financial Crisis 🤯 👀",
-  "verdict": "KILL",
-  "reason": "One-tweet market factoid with no human consequence, person, or utility—instant kill on ON-TOPIC BUT ROUTINE and NO SUBSTANCE."
- },
- {
-  "t": "2026-08-18T23:27:56Z",
-  "gate": "A",
-  "subject": "BREAKING: US interest expense on the national debt hit a record $1.4 trillion over the last 12 months. Since 2020, the c",
-  "verdict": "KILL",
-  "reason": "Macro-economic trend data with no person, event, or felt consequence — fails STORY LAW (requires something that happened in the real world) and reads as routine financial analysis the doctrine explicitly bans."
- },
- {
-  "t": "2026-08-18T23:28:18Z",
-  "gate": "A",
-  "subject": "Someone needs to tell Clavicular that showing you can touch the ceiling stopped being an alpha move sometime after kinde",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no substance: a single joke tweet with 16,946 likes but zero real-world consequence, no second fact, no numbers to build from — exactly the junk model that shipped the two worst posts ever."
- },
- {
-  "t": "2026-08-18T23:28:23Z",
-  "gate": "A",
-  "subject": "Before filming Project X in 2012, the producers had the cast spend several weeks together to make their friendships “fee",
-  "verdict": "KILL",
-  "reason": "No substance: a retrospective anecdote about routine 2012 filmmaking practice with zero numbers, zero consequence, and zero current event—fails the story law entirely."
- },
- {
   "t": "2026-08-18T23:28:31Z",
   "gate": "A",
   "subject": "\"We want to make Starfleet Academy real. Let's go out there and visit other star systems and see if there are alien civi",
@@ -2098,5 +2049,54 @@
   "subject": "<em>6 GEMINI PROMPTS</em> THAT REPLACE A $2,000/MONTH BLOOMBERG TERMINAL",
   "verdict": "REJECT",
   "reason": "IMAGE LAW / CAST TRUTH: The cover shows Sundar Pichai tearing up a bill on a trading floor. Pichai has zero role in this story — he didn't build these prompts, didn't announce anything, isn't quoted anywhere in the slides. He is a famous face used as decoration, which is an explicit REJECT trigger: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJ"
+ },
+ {
+  "t": "2026-08-25T17:39:24Z",
+  "gate": "A",
+  "subject": "BREAKING: US homebuyer demand has fallen to a record low, with just 967,000 buyers competing against 1.46 million seller",
+  "verdict": "KILL",
+  "reason": "Market data without a person, event, or real-world consequence someone felt—instant kill per ON-TOPIC BUT ROUTINE rule (banned: 'market wraps, stocks-rose-today, analyst targets')."
+ },
+ {
+  "t": "2026-08-25T17:39:46Z",
+  "gate": "A",
+  "subject": "BREAKING: SpaceXAI just added a powerful new 'Browser Use' plugin to Grok Build. It gives Grok access to a real browser,",
+  "verdict": "KILL",
+  "reason": "Feature announcement without user outcome or impact (launch preview, banned under §1 ON-TOPIC BUT ROUTINE); writer would pad thin source material."
+ },
+ {
+  "t": "2026-08-25T17:40:13Z",
+  "gate": "A",
+  "subject": "Someone recreated “Lose Yourself” by stitching together 187 random movie clips to form the lyrics. [🎞️ Ross Thompson / R",
+  "verdict": "KILL",
+  "reason": "Unknown creator and insufficient substance with no real-world consequence or story spine."
+ },
+ {
+  "t": "2026-08-25T17:40:52Z",
+  "gate": "A",
+  "subject": "Grok @Bot ported Doom to a new device in 10 mins",
+  "verdict": "KILL",
+  "reason": "One thin tweet (48 chars), '10 minutes' as the only number, no real-world consequence or second fact — kills on NO SUBSTANCE law; writer would have to pad empty slides."
+ },
+ {
+  "t": "2026-08-25T17:40:52Z",
+  "gate": "A",
+  "subject": "\"Young men are abandoning the workforce,\" per WSJ",
+  "verdict": "KILL",
+  "reason": "Trend reporting without a specific event, protagonist, or felt consequence—on-topic routine (instant kill rule 3), and the 49-character source has no substance to build from."
+ },
+ {
+  "t": "2026-08-25T17:41:03Z",
+  "gate": "A",
+  "subject": "BREAKING: Goldman Sachs names Elon Musk’s Terafab as a major new driver of chip-equipment growth. Goldman included Teraf",
+  "verdict": "KILL",
+  "reason": "This is a routine analyst forecast update—Goldman publishing upgraded targets for future chip spending—which lands exactly in the banned category 'analyst targets' (§1); no real-world consequence happened, no money moved, no person did something; it's prediction, not story."
+ },
+ {
+  "t": "2026-08-25T18:27:59Z",
+  "gate": "B",
+  "subject": "BUILD YOUR OWN CHATGPT IN <em>6 STEPS</em>, DEPLOYED WITH REAL USERS",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION — INSTANT REJECT: The cover image shows Sam Altman (recognizable OpenAI CEO) wearing a hard hat and holding a blueprint in front of server racks. Sam Altman plays zero role in this tutorial story. Per doctrine: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' He is celebrity decoration. Replace the cover with a generated"
  }
 ]

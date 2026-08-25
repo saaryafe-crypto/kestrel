@@ -1,0 +1,106 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "BUILD YOUR OWN CHATGPT IN <em>6 STEPS</em>, DEPLOYED WITH REAL USERS",
+   "hsize": 70,
+   "kicker": "DO IT ALONE AND LEARN EVERYTHING",
+   "media": "posts/2026-08-25-edu-6-steps-to-build-your-own-ai-from-nothin/gen-0.jpg",
+   "image_prompt": "Sam Altman waist-up, yellow hard hat, triumphant grin, holding circuit blueprint, bright amber workshop, three glowing stations, white OpenAI logo on wall, electric blue accent, sharp documentary 35mm film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>RUN YOUR OWN AI MODEL</em> THE WAY CHATGPT DOES",
+   "hsize": 100,
+   "body": "Every time ChatGPT answers you, a machine runs a model on a server. Now you build that setup.\n\nTake a free AI model. Load it into a serving tool. Give it a web address",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) ADD USERS, <em>LOGIN, AND MEMORY</em> TO YOUR AI",
+   "hsize": 100,
+   "body": "A bare AI has no memory. Every session starts fresh. Add this and it becomes a product.\n\nSet up a database. Build user login. Store conversations. Now 100 people can use it at once",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>BUILD THE CHAT WINDOW</em> USERS ACTUALLY TOUCH",
+   "hsize": 100,
+   "body": "The backend runs hidden. The chat window is what users actually see and touch.\n\nBuild a simple page. Users type messages. The AI responds in real time. Chat history loads on return",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>TEACH YOUR AI TO READ</em> YOUR OWN FILES",
+   "hsize": 100,
+   "body": "A default AI knows nothing about your business. This step fixes that.\n\nLoad your documents in. Build a search layer. The AI reads your files before it answers anything",
+   "media": "posts/2026-08-25-edu-6-steps-to-build-your-own-ai-from-nothin/gen-4.jpg",
+   "image_prompt": "Hands fanning a stack of glowing papers toward a laptop screen, a magnifying glass symbol extracting highlighted passages from the pages \u2014 no text \u2014 vivid teal backdrop; accent: bright orange against teal. Documentary news photo, 35mm, harsh on-camera flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>GIVE YOUR AI</em> THE POWER TO TAKE REAL ACTIONS",
+   "hsize": 100,
+   "body": "Reading is one thing. Doing is another. Here your AI stops giving answers and starts taking steps.\n\nConnect it to search, calendars, and live data. It picks which tool to use on its own",
+   "media": "posts/2026-08-25-edu-6-steps-to-build-your-own-ai-from-nothin/gen-5.jpg",
+   "image_prompt": "Close laptop screen: a glowing hub circle with electric blue arrows branching to a search magnifying glass, calendar symbol, and database cylinder \u2014 bright checkmarks on each branch \u2014 vivid lime backdrop; accent: electric blue against lime. Documentary news photo, 35mm, harsh on-camera flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>DEPLOY YOUR AI</em> AND TEST WITH REAL TRAFFIC",
+   "hsize": 100,
+   "body": "This is where practice becomes a real product. Send 100 users at once and see what breaks.\n\nRun it on a cloud server. Package it in a container. Send real traffic. Fix what cracks",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: 6 STEPS TO BUILD YOUR OWN AI</em>",
+   "hsize": 95,
+   "body": "1. Run it on a server\n2. Add users and memory\n3. Give it your documents\n4. Give it power to act\n5. Deploy and test for real\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6. These are the exact steps serious AI builders take when learning how to do it for real. \ud83d\udd27\n\nRun your own AI server from zero, then add user accounts, login, and conversation memory, then build the chat interface users actually see and touch, then give the AI access to your own documents, then connect it to live tools so it can take real actions, then deploy the whole system and test it under real traffic.\n\nMost people learn AI by watching tutorials. The builders who actually ship things learn by doing this project alone. The gap between those two groups is growing. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: karancl\n\n#artificialintelligence #aitools #learnai #techskills #buildinpublic",
+ "pinned_comment": "Which step are you most nervous about? Most people assume step 1 is the hard part. Slide 6 is actually where it all clicks.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 STEPS TO GO FROM <em>ZERO TO YOUR OWN AI</em>",
+   "BUILD YOUR OWN AI FROM SCRATCH <em>IN 6 STEPS</em>",
+   "6 STEPS TO <em>BUILD YOUR OWN AI</em> FROM NOTHING",
+   "<em>6 STEPS</em> EVERY SERIOUS AI BUILDER TAKES ALONE",
+   "<em>6 STEPS</em> TO BUILD A COMPLETE AI SYSTEM ALONE"
+  ],
+  "scores": [
+   5,
+   6,
+   5,
+   7,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] commits to something specific and impressive\u2014'COMPLETE AI SYSTEM'\u2014that makes you stop and wonder if it's real, while [3]'s vague 'STEPS EVERY SERIOUS AI BUILDER TAKES' doesn't tell you what you'll actually build."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 STEPS</em> TO BUILD A COMPLETE AI SYSTEM ALONE",
+   "<em>6 STEPS</em> THAT TEACH YOU MORE ABOUT AI THAN MOST PAID COURSES",
+   "<em>6 STEPS</em> TO BUILD THE AI MOST DEVELOPERS CHARGE YOU THOUSANDS TO MAKE",
+   "BUILD YOUR OWN CHATGPT IN <em>6 STEPS</em>, DEPLOYED WITH REAL USERS"
+  ],
+  "scores": [
+   3,
+   4,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "'BUILD YOUR OWN CHATGPT' is specific and everyone knows the product; 'deployed with real users' proves it's not just theory. [2] has the cost angle but generic 'AI' can't beat a named product people actually want."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "CAST TRUTH VIOLATION \u2014 INSTANT REJECT: The cover image shows Sam Altman (recognizable OpenAI CEO) wearing a hard hat and holding a blueprint in front of server racks. Sam Altman plays zero role in this tutorial story. Per doctrine: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' He is celebrity decoration. Replace the cover with a generated"
+}
