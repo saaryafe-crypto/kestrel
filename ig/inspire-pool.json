@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25T07:01:30.192969+00:00",
+ "updated": "2026-08-25T09:03:27.474675+00:00",
  "photos": [
   {
    "id": "2089342461357302179",
@@ -724,6 +724,25 @@
    "born": 1787162961.507617
   },
   {
+   "id": "2091900741921493416",
+   "title": "Porsche signs $1,500,000,000 five year AI partnership with Indian consulting firm TCS to deploy AI across the company",
+   "sub": "PicturesFoIder",
+   "where": "@PicturesFoIder on X",
+   "unit": "likes",
+   "selftext": "Porsche signs $1,500,000,000 five year AI partnership with Indian consulting firm TCS to deploy AI across the company",
+   "permalink": "https://x.com/PicturesFoIder/status/2091900741921493416",
+   "outlink": null,
+   "score": 6512,
+   "comments_n": 179,
+   "views": 267771,
+   "age_h": 18.2,
+   "vph": 357.8,
+   "image": "https://pbs.twimg.com/media/HQfsQxFbUAAboWJ.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1787583087.474675
+  },
+  {
    "id": "2090079677154992274",
    "title": "JUST IN: Moderna $MRNA surges 130% after cancer vaccine shows signs of preventing melanoma from spreading.",
    "sub": "WatcherGuru",
@@ -741,25 +760,6 @@
    "video": null,
    "guide": false,
    "born": 1787148921.507617
-  },
-  {
-   "id": "2090082088087150979",
-   "title": "This is freaking huge: For the first time, a AI-assisted personalized mRNA cancer treatment has succeeded in a Phase 3 trial. Moderna and Merck sequence each patient\u2019s tumor and compare it with their healthy DNA. AI then",
-   "sub": "kimmonismus",
-   "where": "@kimmonismus on X",
-   "unit": "likes",
-   "selftext": "This is freaking huge: For the first time, a AI-assisted personalized mRNA cancer treatment has succeeded in a Phase 3 trial. Moderna and Merck sequence each patient\u2019s tumor and compare it with their healthy DNA. AI then helps identify which of the tumor\u2019s mutations are most likely to trigger an immune response. From those targets, Moderna produces an individual mRNA treatment encoding up to 34 neoantigens, The earlier Phase 2 trial followed patients with surgically removed high-risk melanoma for five years: - 68.8% remained cancer-free, compared with 49.1% on Keytruda alone - 49% lower risk of recurrence or death - 59% lower risk of distant metastasis or death Now the much larger Phase 3 trial involving 1,137 patients has also succeeded. Absolutely incredible. Dario was right: cancer will be cured in just a few years!",
-   "permalink": "https://x.com/kimmonismus/status/2090082088087150979",
-   "outlink": null,
-   "score": 6224,
-   "comments_n": 183,
-   "views": 1361562,
-   "age_h": 34.5,
-   "vph": 180.3,
-   "image": "https://pbs.twimg.com/media/HQF2hVfXsAA6JCS.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1787149579.578423
   }
  ]
 }
