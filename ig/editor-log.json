@@ -1,47 +1,5 @@
 [
  {
-  "t": "2026-08-18T17:28:47Z",
-  "gate": "A",
-  "subject": "Someone needs to tell Clavicular that showing you can touch the ceiling stopped being an alpha move sometime after kinde",
-  "verdict": "KILL",
-  "reason": "Pure reaction-bait: the substance is a Twitter joke's likes, not a real-world event or consequence—no story until reality moved (money, firing, product pulled, account banned), and nothing here qualifies; also no-substance source (141 chars, one thin joke, nothing to build from) and unknown actor make this unrecoverable."
- },
- {
-  "t": "2026-08-18T17:28:49Z",
-  "gate": "A",
-  "subject": "BREAKING: Tesla has just announced that anyone who completes a Robotaxi ride through August 23 will have a chance to att",
-  "verdict": "KILL",
-  "reason": "This is a launch preview/promotional announcement with no substance: one thin tweet with zero secondary facts, no real consequence felt by anyone, and nothing to build a carousel from without pure padding—explicitly banned in §1."
- },
- {
-  "t": "2026-08-18T17:28:55Z",
-  "gate": "A",
-  "subject": "\"We want to make Starfleet Academy real. Let's go out there and visit other star systems and see if there are alien civi",
-  "verdict": "KILL",
-  "reason": "Reaction-bait to a celebrity quote with no real-world consequence—Elon expressed a philosophical ambition, but nothing happened, no outcome occurred, no action was taken."
- },
- {
-  "t": "2026-08-18T17:29:02Z",
-  "gate": "A",
-  "subject": "BREAKING: US interest expense on the national debt hit a record $1.4 trillion over the last 12 months. Since 2020, the c",
-  "verdict": "KILL",
-  "reason": "This is reaction to abstract financial metrics with no protagonist or felt consequence—exactly the on-topic routine (analyst targets, market wraps) that §1 bans; no real event happened that a reader felt, and the 2/10 scout score confirms the pipeline's instinct."
- },
- {
-  "t": "2026-08-18T17:29:19Z",
-  "gate": "A",
-  "subject": "sorry, what?! What the frick...?!",
-  "verdict": "KILL",
-  "reason": "Pure reaction text with zero substance: no event, no names, no numbers, no consequence, no second fact—nothing but an exclamation for a writer to pad into slides."
- },
- {
-  "t": "2026-08-18T17:29:20Z",
-  "gate": "A",
-  "subject": "The sheer size of a polar bear",
-  "verdict": "KILL",
-  "reason": "No event happened, no consequence, no numbers—pure observation of an animal's size with zero tech angle and no substance behind the 30-character claim; would require invention to pad into slides."
- },
- {
   "t": "2026-08-18T17:29:24Z",
   "gate": "A",
   "subject": "Dad pranks his daughter with fake interview.",
@@ -2098,5 +2056,47 @@
   "subject": "GROK BOT IS <em>RUNNING ENTIRE BUSINESSES.</em> HERE ARE 7.",
   "verdict": "REJECT",
   "reason": "CAST TRUTH VIOLATION — the cover subject is Elon Musk, and Musk has no role in any of the 7 examples on the slides. He appears purely as brand decoration for Grok. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' The cover must be replaced with one that does not feature Musk, or the story must be reframed so that Mu"
+ },
+ {
+  "t": "2026-08-24T23:25:44Z",
+  "gate": "A",
+  "subject": "I went through the entire archive from the Artemis Il mission to create timelapses of many scenes experienced by the ast",
+  "verdict": "KILL",
+  "reason": "Pure astronomy content with no tech/business lens—NASA mission footage edited by an unknown creator is off-brand for @technology/@getintoai, and the source is too thin (one tweet, no numbers, no consequence, no stakes) to build a story a 16-year-old would send to a friend."
+ },
+ {
+  "t": "2026-08-24T23:25:49Z",
+  "gate": "A",
+  "subject": "BREAKING: Crude oil inventories in the US Strategic Petroleum Reserve officially fall below 290 million barrels for the ",
+  "verdict": "KILL",
+  "reason": "This is routine commodity market data without a real-world consequence, person affected, or outcome someone felt — exactly the 'market-data post' type (stocks-rose-today, analyst targets) the page explicitly bans under Story Law."
+ },
+ {
+  "t": "2026-08-24T23:26:00Z",
+  "gate": "A",
+  "subject": "U.S. has just 41 days of crude oil inventory left, the lowest level in half a century 🤯 👀",
+  "verdict": "KILL",
+  "reason": "On-topic but routine: a market statistic with no event, person, or consequence."
+ },
+ {
+  "t": "2026-08-24T23:26:27Z",
+  "gate": "A",
+  "subject": "\"AI math doesn’t make sense: ‘Profits are currently being funded by investors rather than earned from customers,\" per Ap",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: a screenshot of analyst commentary with no real-world event, money movement, or consequence—just speculation about how AI funding works, already common discourse."
+ },
+ {
+  "t": "2026-08-24T23:26:34Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇨🇦🇺🇸 Ontario Premier Doug Ford threatens to cut off electricity and critical minerals to the US if the trade wa",
+  "verdict": "KILL",
+  "reason": "No substance: source is 142 characters of bare political threat with zero numbers, felt consequence, or second fact; writer would have to fabricate slides (scout interest 3/10 confirms this isn't a story)."
+ },
+ {
+  "t": "2026-08-25T00:18:44Z",
+  "gate": "B",
+  "subject": "<em>6 AI POWERS</em> INVESTORS ARE PAYING FOR RIGHT NOW",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 — generated unknown face on the cover. The man stamping 'FREE' is not a recognizable famous person; the doctrine bans generated unknown faces outright. Fix: remove the face entirely and make the Claude brand mark + money stacks + FREE stamp the hero, OR swap to a real photo of a named Anthropic executive.; IMAGE LAW / TRUTH LAW — the cover image displays '$750B' as the central number,"
  }
 ]
