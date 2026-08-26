@@ -1,0 +1,84 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>Grok נכנס לחשבונות שלכם</em> ועובד בשבילכם",
+   "kicker": "עלה היום. בלי קוד",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "faces/elon-musk.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>תנו ל-Grok להיכנס</em> ולנהל את תיבת הדואר שלכם",
+   "hsize": 100,
+   "body": "הוא משתמש ב-Chrome האמיתי שלכם עם הכניסות הקיימות. בלי לשתף סיסמאות.\n\n\"פתח לי את Gmail. רשום כל מייל של לקוח מהשבוע הזה עם שם השולח, הנושא, ואם עניתי.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>סרקו מחירי מתחרים</em> בעשרה אתרים בבת אחת",
+   "hsize": 96,
+   "body": "Grok פותח את האתרים שלהם בזמן אמת ומושך כל מה שצריך. לוקח שלוש דקות, לא שלוש שעות.\n\n\"כנס ל-[URL של מתחרה]. רשום את המחירים שלהם, המבצעים הנוכחיים, ומה הם מציעים בדף הבית.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>מלאו טפסים ממשלתיים</em> כשאתם ישנים",
+   "hsize": 100,
+   "body": "עם דפדפן ענן מבודד. בלי כניסות לחשבון. תדביקו את הפרטים פעם אחת, והוא כבר ממלא.\n\n\"כנס ל-[URL של הטופס]. מלא את הפרטים: שם: [X], עסק: [X], EIN: [X]. שלח כשמסיים.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>מצאו את הטיסה הכי זולה</em> לכל נסיעת עסקים",
+   "hsize": 96,
+   "body": "Grok פותח את Kayak, Expedia ו-Google Flights בזמן אמת ומוצא את המחיר הכי נמוך.\n\n\"מצא טיסות מ-[עיר] ל-[עיר] ב-[תאריך]. רשום את שלוש האפשרויות הזולות ביותר עם חברת התעופה והמחיר.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>שלפו לידים</em> מכל מדריך עסקים",
+   "hsize": 100,
+   "body": "כוונו את Grok לכל מדריך עסקים מקומי. הוא מוצא שמות, טלפונים ומיילים. לידים בחינם תוך דקות.\n\n\"כנס ל-[URL של המדריך]. רשום כל שם עסק, מספר טלפון וכתובת מייל בדף הזה.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו: <em>חמש משימות Grok Build Browser</em>",
+   "hsize": 100,
+   "body": "תנו ל-Grok להיכנס לתיבת הדואר\nסרקו מחירי מתחרים בזמן אמת\nמלאו טפסים בדפדפן ענן\nמצאו את הטיסה העסקית הכי זולה\nשלפו לידים ממדריכי עסקים\n\nחדשות AI יומיות + כלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "Grok Build קיבל היום דפדפן אמיתי, וחמש המשימות האלה הן מה שהעסק שלכם צריך לנסות קודם 🔓\n\nלהיכנס ל-Chrome שלכם עם הכניסות הקיימות ולקרוא את תיבת הדואר, לסרוק אתרי מתחרים בזמן אמת למחירים ומבצעים, למלא טפסים ממשלתיים דרך דפדפן ענן מבודד, למצוא טיסות עסקיות זולות בין אתרי ההזמנות, ולשלוף רשימות קשר עסקיות מכל מדריך אונליין.\n\nAI כבר לא רק מדבר איתכם, הוא נכנס לחשבונות האמיתיים שלכם ועובד. הכלי עלה היום, ורוב העסקים עוד לא נגעו בו.\n\nמנהלים עסק? שלחו לנו \"AI\" בהודעה ונראה לכם מה זה עושה.\n\nמקורות: xAI (Grok Build Browser Use plugin announcement), Browser Use\n\n@ainews.israel\n\n#GrokBuild #AITools #BusinessAutomation #AIForBusiness #ArtificialIntelligence",
+ "pinned_comment": "מה מנסים הלילה? שקופית 2 היא זו שאנשים לא מאמינים עד שרואים: Grok נכנס לתיבת הדואר האמיתית שלכם, עם הכניסות שלכם ל-Chrome.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>GROK CAN NOW LOG INTO YOUR ACCOUNTS</em> AND ACT FOR YOU",
+   "GROK JUST GOT A REAL BROWSER. <em>5 TASKS TO TRY TONIGHT</em>",
+   "<em>5 TASKS THAT TOOK HOURS</em> GROK DOES IN THE BROWSER NOW"
+  ],
+  "scores": [
+   8,
+   6,
+   7
+  ],
+  "winner": 0,
+  "why": "[0] shocks you with 'log into YOUR accounts'—that 'wait, WHAT?' moment stops you cold at 2am. [2] shows impressive speed gains (hours→instant) which is compelling but lacks the gut-punch of a personal security claim."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE FAILS THUMB TEST (§3): The cover is a neutral press-event portrait of Elon Musk — dark suit, blurred crowd, no story-world context, no brand marks, no browser or agent imagery. At feed size a stranger cannot guess 'AI logging into your accounts.' It is a portrait used as decoration, not proof or a staged scene of the story. Replace with an image that visually encodes the story's situation: M",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
