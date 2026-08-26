@@ -1,41 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "On-topic-but-routine financial commentary with no protagonist or felt consequence—a 16-year-old won't send 'US debt interest is high' to a friend.",
-  "subject": "BREAKING: US interest expense on the national debt hit a record $1.4 trillion over the last 12 months. Since 2020, the c",
-  "t": "2026-08-19T06:05:32Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Pure reaction-bait with no real-world consequence: Elon stated an aspiration on Twitter, people reacted with engagement metrics, but nothing actually happened—no product, no announcement, no outcome—nothing for slides to build from.",
-  "subject": "\"We want to make Starfleet Academy real. Let's go out there and visit other star systems and see if there are alien civi",
-  "t": "2026-08-19T06:05:55Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait with zero substance: the story is a joke tweet's engagement metrics, with no real-world event, consequence, or consequence to build slides from—exactly the pattern the doctrine was created to eliminate.",
-  "subject": "Someone needs to tell Clavicular that showing you can touch the ceiling stopped being an alpha move sometime after kinde",
-  "t": "2026-08-19T06:05:56Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "On-topic but routine: this is market-activity reporting (currency weakens, interventions happen) with no numbers, no person, no felt consequence—equivalent to the banned 'stocks rose today' category; the 2/10 scout score is correct.",
-  "subject": "Japanese Yen has already weakened so much that the U.S. Treasury intervention has been wiped out completely, now onto th",
-  "t": "2026-08-19T06:06:00Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "This is routine financial data—a market indicator hitting a level—with zero real-world consequence, no person affected, no outcome anyone felt, and no substance beyond one thin metric; it's the on-topic-but-routine market content the doctrine explicitly bans.",
-  "subject": "JUST IN 🚨: U.S. 30-Year Treasury Yield hits 5.30% for the first time since the run-up to the Global Financial Crisis 🤯 👀",
-  "t": "2026-08-19T06:06:02Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Reaction-bait with no substance: a single exclamatory tweet with zero information about what actually happened in the real world, no consequence, no second fact, and scout score of 1/10.",
   "subject": "sorry, what?! What the frick...?!",
   "t": "2026-08-19T06:06:21Z",
@@ -2098,5 +2063,40 @@
   "subject": "imagine having to spend ur childhood using some chud's ai generated dotfiles instead of an actual, stable operating syst",
   "verdict": "KILL",
   "reason": "One thin tweet with no real-world event; engagement metrics are the false substance — pure reaction-bait, exactly the Queen Elizabeth model this law was born to stop."
+ },
+ {
+  "t": "2026-08-26T18:55:48Z",
+  "gate": "A",
+  "subject": "25% of Gen Z treat sports betting as a deliberate part of their long-term financial plan, per Bloomberg",
+  "verdict": "KILL",
+  "reason": "One thin tweet with a single statistic and no real-world event, named person, or felt consequence—writer would pad to fill slides; this is survey data, not a story."
+ },
+ {
+  "t": "2026-08-26T18:55:51Z",
+  "gate": "A",
+  "subject": "Since announcing Jalapeño, our first custom inference chip, we’ve been testing it and the system around it. The results ",
+  "verdict": "KILL",
+  "reason": "This is a product announcement with no numbers, no real-world consequence, and no proof—exactly the launch-preview format the doctrine bans, and nothing a 16-year-old would send to a friend."
+ },
+ {
+  "t": "2026-08-26T18:55:52Z",
+  "gate": "A",
+  "subject": "we made a chip and it is fast",
+  "verdict": "KILL",
+  "reason": "One 29-character announcement with zero substance: no numbers, no proof, no consequence, no specifics to build slides from—textbook NO SUBSTANCE instant-kill."
+ },
+ {
+  "t": "2026-08-26T18:56:26Z",
+  "gate": "A",
+  "subject": "Introducing ChatGPT Business Premium Seats The new $100 Premium seat is a game changer for small businesses and startups",
+  "verdict": "KILL",
+  "reason": "It's a product announcement with no real-world event or person behind it—explicitly in the banned 'on-topic but routine' category that kills market wraps and launch previews."
+ },
+ {
+  "t": "2026-08-26T19:52:36Z",
+  "gate": "B",
+  "subject": "<em>6 CHATGPT POWERS</em> THAT REPLACE A <em>$3,000 ANALYST</em> FOR $100",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION (§3, IMAGE LAW): The cover is Sam Altman in a generic conference headshot. He has zero role in this story — his name never appears in any slide. The Doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' This is a celebrity as decoration. Fix: replace with a cover image that is proof of the story — a Chat"
  }
 ]

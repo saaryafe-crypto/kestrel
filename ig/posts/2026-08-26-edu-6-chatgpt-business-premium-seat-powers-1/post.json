@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 CHATGPT POWERS</em> THAT REPLACE A <em>$3,000 ANALYST</em> FOR $100",
+   "kicker": "most small teams haven't tried yet",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "faces/sam-altman-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIND EVERY DOLLAR YOUR BUSINESS IS LOSING</em>",
+   "hsize": 100,
+   "body": "You upload last month's sales. ChatGPT maps every leak. Most owners find money they didn't know they were losing.\n\n\"Here is my sales data. Find every money leak and how to fix it.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>BUILD AN AI THAT KNOWS YOUR ENTIRE BUSINESS</em>",
+   "hsize": 100,
+   "body": "You type your services and prices once. Every team member gets the same expert answer in seconds.\n\n\"You are [business name]'s expert. Use this: [paste your info]. Answer only from what I gave you.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>TURN ANY CONTRACT INTO A LIST OF RED FLAGS</em>",
+   "hsize": 100,
+   "body": "You paste a contract. ChatGPT flags every clause putting your money at risk before you sign.\n\n\"Read this contract. List every clause that puts me at financial risk, plain English only.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$100 BEATS A $3,000 ANALYST",
+   "hsize": 70,
+   "body": "A freelance analyst bills $150 an hour. One Premium seat gives a small team that same analysis, unlimited, all month.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>DRAFT A WEEK OF EMAILS IN YOUR VOICE</em>",
+   "hsize": 100,
+   "body": "You paste 5 old emails. ChatGPT learns your voice and writes a full week of new drafts.\n\n\"Here are 5 emails I wrote. Match my tone exactly. Draft 7 new ones for: [list situations].\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>RESEARCH ANY COMPETITOR IN 10 MINUTES</em>",
+   "hsize": 100,
+   "body": "You type a competitor's name. ChatGPT reads their site and reviews, then maps where you can win.\n\n\"Search [competitor]. Find their pricing, top 3 strengths, customer complaints, and where I can beat them.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>SUMMARIZE ANY MEETING IN 30 SECONDS</em>",
+   "hsize": 100,
+   "body": "You paste any meeting transcript. ChatGPT gives a one-page summary, action items, and who owns each one.\n\n\"Here is my transcript. Give me a summary, action items, and who owns each.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: ALL 6 <em>CHATGPT BUSINESS POWERS</em>",
+   "hsize": 90,
+   "body": "Find your money leaks\nBuild your Custom AI\nFlag contract risks before signing\nDraft one week of emails\nResearch competitor in 10 minutes\nSummarize meeting in 30 seconds\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6. ChatGPT launched a $100 business seat giving small teams the same tools companies pay thousands for. \ud83d\udd16\n\nFind every dollar your business is losing, build a custom AI that knows your entire business, turn any contract into a list of red flags, draft a full week of client emails in your voice, research any competitor in 10 minutes, summarize any meeting in 30 seconds.\n\nChatGPT's new $100 Premium seat gives lean teams the analysis, research, and writing tools that used to require full-time hires. The businesses figuring this out now will move faster than the ones that don't.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: OpenAI\n\n#chatgpt #ai #smallbusiness #aitools #entrepreneur",
+ "pinned_comment": "Which one are you trying tonight? The contract red-flag prompt on slide 4 has saved people from some ugly surprises.",
+ "hook_tournament": {
+  "candidates": [
+   "CHATGPT BUILT <em>A $100 SEAT</em> THAT REPLACES 6 HIRED ROLES"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 CHATGPT BUSINESS MOVES <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "<em>6 CHATGPT POWERS</em> THAT REPLACE A <em>$3,000 ANALYST</em> FOR $100",
+   "CHATGPT BUILT <em>A $100 SEAT</em> THAT REPLACES 6 HIRED ROLES"
+  ],
+  "scores": [
+   6,
+   9,
+   4
+  ],
+  "winner": 1,
+  "why": "[1]'s $3,000-to-$100 contrast is instantly shocking and tells the full story upfront so you know what you're getting, while [0] sounds like empty hype hiding what actually happened. You stop for [1]; you swipe on [0] because the vague 'feels illegal' doesn't commit you to anything."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "CAST TRUTH VIOLATION (\u00a73, IMAGE LAW): The cover is Sam Altman in a generic conference headshot. He has zero role in this story \u2014 his name never appears in any slide. The Doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' This is a celebrity as decoration. Fix: replace with a cover image that is proof of the story \u2014 a Chat",
+ "topic_source": "news-anchored"
+}
