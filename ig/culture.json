@@ -1,66 +1,66 @@
 {
- "ts": 1787596905.4766717,
- "updated": "2026-08-24",
+ "ts": 1787700205.6777909,
+ "updated": "2026-08-25",
  "hot": [
   {
+   "name": "Spider-Man: Brand New Day",
+   "why_hot_now": "Crossed $2.2 billion worldwide in three weeks — second-biggest opening weekend in domestic box office history.",
+   "typical_scene": "swinging through neon Manhattan in a brand-new suit"
+  },
+  {
+   "name": "Harry Styles",
+   "why_hot_now": "His 'Together, Together' 30-night MSG residency opens literally tomorrow, August 26, with NYC in full Harrymania.",
+   "typical_scene": "center stage at MSG in a sequined suit, crowd losing it"
+  },
+  {
+   "name": "Lanterns",
+   "why_hot_now": "HBO's DC series premiered August 16 and is dropping weekly episodes right now, generating huge fan-theory chatter.",
+   "typical_scene": "Aaron Pierre and Kyle Chandler investigating a murder in a cornfield"
+  },
+  {
    "name": "Kacey Musgraves",
-   "why_hot_now": "Just launched her Middle of Nowhere Tour THIS week (Aug 21, Chicago), immediately going viral for performing 'Rhinestoned' suspended on a giant rhinestone-covered disco ball prop.",
-   "typical_scene": "flying above sold-out arena crowd on giant glittering rhinestone balls"
+   "why_hot_now": "Her 'Middle of Nowhere' US arena tour just launched with multi-night stands at major venues this month.",
+   "typical_scene": "twirling in a prairie-sequin look under a glowing moon backdrop"
   },
   {
-   "name": "Ariana Grande",
-   "why_hot_now": "Her album Petal (July 31) is still dominating culture this week via the Chair Choreo TikTok trend that shows no signs of slowing.",
-   "typical_scene": "hopping across waiting-room chairs clutching audition papers"
+   "name": "Bruno Mars",
+   "why_hot_now": "The Romantic Tour is packing MetLife Stadium this week to capacity, with clips flooding every feed.",
+   "typical_scene": "gyrating in a sequined jumpsuit on a sold-out stadium stage"
   },
   {
-   "name": "Ryan Gosling",
-   "why_hot_now": "Project Hail Mary crossed $677M globally and remains 2026's biggest prestige sci-fi event film, still generating discourse.",
-   "typical_scene": "lone astronaut doing math alone in deep space"
+   "name": "Jeremy Allen White",
+   "why_hot_now": "The Bear is dominating Emmy season buzz and streaming charts across all demographics this August.",
+   "typical_scene": "sweating over a stove in chef's whites, mid-crisis"
   },
   {
-   "name": "The Mandalorian and Grogu",
-   "why_hot_now": "Broke Star Wars' all-time domestic opening weekend record in 2026, dominating pop culture conversation.",
-   "typical_scene": "Mando in beskar armor cradling baby Grogu under alien desert sky"
+   "name": "Kesha",
+   "why_hot_now": "The Freedom Tour is in full swing — her first major headline run after her legal saga ended, and crowds are electric.",
+   "typical_scene": "glitter-bombed on stage, fans in full chaotic-party mode"
+  },
+  {
+   "name": "Michael",
+   "why_hot_now": "The MJ biopic just hit Starz for streaming this month after crossing $1 billion at the worldwide box office.",
+   "typical_scene": "moonwalking silhouette in a spotlight, rhinestone glove in the air"
   },
   {
    "name": "Kim Kardashian",
-   "why_hot_now": "Her new energy drink brand UPDATE launched with a satirical, headline-grabbing campaign blowing up across social media.",
-   "typical_scene": "posing with a sleek can in an ultra-minimal pastel studio set"
-  },
-  {
-   "name": "Billie Eilish",
-   "why_hot_now": "Ranked the most-trending musician of 2026 among Gen Z, with nine Grammys and constant viral presence.",
-   "typical_scene": "oversized dark streetwear, mic close, moody green lighting"
-  },
-  {
-   "name": "Megan Moroney",
-   "why_hot_now": "Debuted her debut fragrance Calliope in August to major fan buzz alongside her rising country star profile.",
-   "typical_scene": "rhinestone-glam holding a floral perfume bottle on a pastel stage"
-  },
-  {
-   "name": "Super Mario Galaxy Movie",
-   "why_hot_now": "Posted the highest opening weekend box office of any 2026 film, sending the internet into a nostalgia spiral.",
-   "typical_scene": "Mario in astronaut gear leaping across glowing spherical planets"
-  },
-  {
-   "name": "Sienna Spiro",
-   "why_hot_now": "Her breakout single 'Die On This Hill' has been relentlessly dueted and covered on TikTok all August.",
-   "typical_scene": "single spotlight, acoustic guitar, eyes closed mid-belt"
+   "why_hot_now": "Her new 'UPDATE' energy drink dropped with a deadpan satirical campaign that's being memed wall-to-wall.",
+   "typical_scene": "posing expressionless with a neon energy can in a slick ad"
   }
  ],
  "memes": [
-  "Chair Choreo — creators hop across a row of chairs gripping a sheet of paper, reenacting the Ariana Grande Petal music video scene",
-  "Saxophone Gets Louder — a simple escalating-drama audio format where the sax volume directly mirrors mounting emotional stakes; universally copy-pasted",
-  "Jimothy — the unusually spherical Seattle raccoon inspiring relentless fan art, merch drops, and affectionate caption memes across TikTok and Instagram",
-  "Seeing How My X Would Respond to a Bully — POV role-play format where creators imagine how a partner, pet, or fictional character would handle confrontation",
-  "Ian McConnell's 'Bangladesh' substitution — an absurdist Reels audio format where creators swap any mundane word with 'Bangladesh' for surreal comic effect",
-  "Du bist gut genug — emotional self-worth TikToks set to the Blumengarten, KITSCHKRIEG & Shirin David track Gut Genug, often with tearful text overlays",
-  "Netflix Documentary chair-sit — creators plant themselves in a stark chair, stare dead into the camera, and deliver a deadpan 'documentary confession' about something completely mundane"
+  "'Seeing How My X Would Respond to a Bully' — creator insults their sibling or partner on camera and films the unfiltered reaction",
+  "'2026 Is the New 2016' — flooding feeds with grainy mirror selfies and screenshots from long-dead apps in waves of cringe nostalgia",
+  "Glen Powell President — editing Glen Powell's face onto increasingly absurd campaign-ad footage",
+  "Spider-Man Ceiling Trend — filming yourself hanging upside-down imitating the iconic Spider-Man pose and immediately failing",
+  "'Me at the Same Age as My Parents' — side-by-side childhood photo transition set to emotional or ironic audio",
+  "Eeffoc — 'coffee' spelled backwards, deployed as a placeholder for anything you absolutely cannot function without before 9 AM",
+  "Ariana Grande Petal Chair Choreo — everyone attempting her specific new-era chair routine in their living rooms, varying results"
  ],
  "ai_flagships": [
-  "Claude Opus 5",
-  "GPT-5.6 (Sol)",
-  "Gemini 3.1 Pro",
+  "Claude Mythos 5",
+  "GPT-5.6 Sol",
+  "Gemini 3.7 Flash",
   "Grok 4.6",
   "Muse Spark 1.2"
  ]

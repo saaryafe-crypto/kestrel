@@ -1,0 +1,90 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>A GUY TOLD GROK TO DRIVE HIS TESLA.</em> 5 COMMANDS.",
+   "kicker": "NO TOUCHSCREEN. NO APP.",
+   "hsize": 70,
+   "face": "Elon Musk",
+   "media": "faces/elon-musk-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) SEND YOUR TESLA A DESTINATION</em> WITHOUT TOUCHING IT",
+   "hsize": 90,
+   "body": "He typed an address into Grok. His Tesla's navigation <b>loaded before he laced his shoes</b>.\n\n\"Navigate my Tesla to [address] and confirm when it is set.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) CHECK YOUR BATTERY AND RANGE</em> FROM YOUR COUCH",
+   "hsize": 90,
+   "body": "One text to Grok. It replied with his <b>exact battery percentage and miles left</b> in seconds.\n\n\"Check my Tesla's battery level and tell me my current range.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) WARM THE CABIN</em> BEFORE YOU WALK OUT",
+   "hsize": 100,
+   "body": "Text Grok the night before. You get in and it is already <b>72 degrees</b>. You never touched the app.\n\n\"Set my Tesla's climate to 72 degrees starting in 10 minutes.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "4) CHARGING STARTED. HE WASN'T EVEN HOME.",
+   "hsize": 76,
+   "body": "He was at dinner. His Tesla sat in the driveway. He told Grok. <b>Charging started.</b>\n\n\"Start charging my Tesla now.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) LOCK YOUR TESLA FROM</em> ANYWHERE IN THE WORLD",
+   "hsize": 90,
+   "body": "Left your car unlocked. One message to Grok. <b>Done.</b> The lock confirmation comes back in seconds.\n\n\"Lock my Tesla and confirm it is secured.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 5 GROK COMMANDS FOR YOUR TESLA",
+   "hsize": 88,
+   "body": "Navigate to any address\nCheck battery and range\nWarm the cabin in advance\nStart charging remotely\nLock from anywhere\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to get all 5 commands. This guy runs his Tesla through Grok's chat window with plain English. \ud83d\ude97\n\n1. Navigate to any address,\n2. check battery and range from your couch,\n3. warm the cabin before you leave,\n4. start charging remotely,\n5. lock from anywhere in the world\n\nThis is what happens when an AI with real internet access gets permission to talk to your car. The same logic applies to home systems, business tools, and anything with an API. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: AdrianDparody\n\n#grok #tesla #artificialintelligence #aitools #techhacks",
+ "pinned_comment": "Which command are you trying first? Slide 6 catches people off guard every time: one message to Grok and your car is locked from the airport.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 COMMANDS THIS GUY GAVE GROK</em> FOR HIS TESLA",
+   "<em>A GUY TOLD GROK TO DRIVE HIS TESLA.</em> 5 COMMANDS."
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] shocks you immediately with the full story (AI driving), [0] just teases a mystery. You stop scrolling for wild stories you already believe, not riddles."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 GROK COMMANDS</em> THAT CONTROL YOUR TESLA FOR FREE.",
+   "<em>5 GROK COMMANDS</em> MOST TESLA OWNERS NEVER TRY.",
+   "<em>A GUY TOLD GROK TO DRIVE HIS TESLA.</em> 5 COMMANDS."
+  ],
+  "scores": [
+   3,
+   2,
+   7
+  ],
+  "winner": 2,
+  "why": "Candidate 2's story hook ('a guy told Grok to drive') makes you pause wondering 'what happened?' Candidate 0 is just generic tips you've seen a thousand times."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW / CAST TRUTH \u2014 FATAL: The cover is a plain corporate headshot of Elon Musk on a neutral gray background. 'A GUY' in the hook is an anonymous user, not Musk. The audience sees his face and assumes he is the actor; the story is then about a stranger. That is a bait-and-switch that breaks the image-headline contract. Fix: generate a cover that shows the STORY'S SITUATION \u2014 a person (or Musk"
+}
