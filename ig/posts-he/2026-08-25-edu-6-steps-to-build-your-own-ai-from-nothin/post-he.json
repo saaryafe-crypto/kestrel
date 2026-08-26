@@ -1,0 +1,106 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "בנה ChatGPT משלך ב<em>שישה שלבים</em>, עם משתמשים אמיתיים",
+   "hsize": 70,
+   "kicker": "עשה את זה לבד ותלמד הכל",
+   "media": "posts/2026-08-25-edu-6-steps-to-build-your-own-ai-from-nothin/gen-0.jpg",
+   "image_prompt": "Sam Altman waist-up, yellow hard hat, triumphant grin, holding circuit blueprint, bright amber workshop, three glowing stations, white OpenAI logo on wall, electric blue accent, sharp documentary 35mm film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>הרץ מודל AI משלך</em> בדיוק כמו ChatGPT",
+   "hsize": 100,
+   "body": "כל פעם ש-ChatGPT עונה לך, שרת מריץ מודל. עכשיו אתה בונה את אותה מערכת.\n\nקח מודל AI בחינם. טען אותו לכלי הרצה. תן לו כתובת ברשת",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) הוסף משתמשים, <em>כניסה וזיכרון</em> ל-AI שלך",
+   "hsize": 100,
+   "body": "AI בלי זיכרון מתחיל מחדש בכל שיחה. תוסיף את זה, והוא הופך למוצר אמיתי.\n\nהקם בסיס נתונים. בנה מערכת כניסה. שמור שיחות. עכשיו 100 אנשים יכולים להשתמש בו ביחד",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>בנה את חלון הצ'אט</em> שהמשתמשים נוגעים בו",
+   "hsize": 100,
+   "body": "הצד הטכני רץ מאחורי הקלעים. חלון הצ'אט הוא מה שהמשתמשים באמת רואים.\n\nבנה עמוד פשוט. משתמשים מקלידים. ה-AI עונה בזמן אמת. היסטוריית הצ'אט נטענת כשחוזרים",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>תלמד את ה-AI לקרוא</em> את הקבצים שלך",
+   "hsize": 100,
+   "body": "AI ריק לא יודע כלום על העסק שלך. השלב הזה פותר את זה.\n\nטען את המסמכים שלך. בנה שכבת חיפוש. ה-AI קורא את הקבצים לפני שהוא עונה על כל שאלה",
+   "media": "posts/2026-08-25-edu-6-steps-to-build-your-own-ai-from-nothin/gen-4.jpg",
+   "image_prompt": "Hands fanning a stack of glowing papers toward a laptop screen, a magnifying glass symbol extracting highlighted passages from the pages — no text — vivid teal backdrop; accent: bright orange against teal. Documentary news photo, 35mm, harsh on-camera flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>תן ל-AI</em> את היכולת לפעול באמת",
+   "hsize": 100,
+   "body": "לקרוא זה דבר אחד. לעשות זה משהו אחר. פה ה-AI מפסיק לדבר ומתחיל לעשות.\n\nחבר אותו לחיפוש, יומנים ומידע חי. הוא בוחר לבד באיזה כלי להשתמש",
+   "media": "posts/2026-08-25-edu-6-steps-to-build-your-own-ai-from-nothin/gen-5.jpg",
+   "image_prompt": "Close laptop screen: a glowing hub circle with electric blue arrows branching to a search magnifying glass, calendar symbol, and database cylinder — bright checkmarks on each branch — vivid lime backdrop; accent: electric blue against lime. Documentary news photo, 35mm, harsh on-camera flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>העלה את ה-AI</em> ובדוק עם תנועה אמיתית",
+   "hsize": 100,
+   "body": "פה התרגול הופך למוצר אמיתי. שלח 100 משתמשים בבת אחת ותראה מה נשבר.\n\nהרץ אותו על שרת ענן. ארוז אותו בקונטיינר. שלח תנועה אמיתית. תקן מה שנסדק",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה: שישה שלבים לבניית AI משלך</em>",
+   "hsize": 95,
+   "body": "1. הרץ אותו על שרת\n2. הוסף משתמשים וזיכרון\n3. תן לו את המסמכים שלך\n4. תן לו כוח לפעול\n5. העלה ובדוק באמת\n\nחדשות AI יומיות + כישורים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "שישה שלבים, ובסוף יש לך ChatGPT משלך שרץ עם משתמשים אמיתיים. 🔧\n\nמריצים שרת AI מאפס, מוסיפים חשבונות משתמשים, כניסה וזיכרון לשיחות, בונים ממשק צ'אט שהמשתמשים רואים ונוגעים בו, נותנים ל-AI גישה למסמכים שלך, מחברים אותו לכלים חיים כדי שיוכל לפעול, ואז מעלים את כל המערכת ובודקים עם תנועה אמיתית.\n\nרוב האנשים לומדים AI מסרטונים. מי שבאמת מוציא מוצרים לאוויר עושה את הפרויקט הזה לבד. הפער בין שתי הקבוצות הולך וגדל. מנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: karancl\n\nעקוב אחרי @ainews.israel לחדשות AI יומיות\n\n#artificialintelligence #aitools #learnai #techskills #buildinpublic",
+ "pinned_comment": "איזה שלב הכי מפחיד אותך? רוב האנשים חושבים שהשלב הראשון הוא הקשה. בפועל, בשקופית השישית הכל מסתדר.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 STEPS TO GO FROM <em>ZERO TO YOUR OWN AI</em>",
+   "BUILD YOUR OWN AI FROM SCRATCH <em>IN 6 STEPS</em>",
+   "6 STEPS TO <em>BUILD YOUR OWN AI</em> FROM NOTHING",
+   "<em>6 STEPS</em> EVERY SERIOUS AI BUILDER TAKES ALONE",
+   "<em>6 STEPS</em> TO BUILD A COMPLETE AI SYSTEM ALONE"
+  ],
+  "scores": [
+   5,
+   6,
+   5,
+   7,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] commits to something specific and impressive—'COMPLETE AI SYSTEM'—that makes you stop and wonder if it's real, while [3]'s vague 'STEPS EVERY SERIOUS AI BUILDER TAKES' doesn't tell you what you'll actually build."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 STEPS</em> TO BUILD A COMPLETE AI SYSTEM ALONE",
+   "<em>6 STEPS</em> THAT TEACH YOU MORE ABOUT AI THAN MOST PAID COURSES",
+   "<em>6 STEPS</em> TO BUILD THE AI MOST DEVELOPERS CHARGE YOU THOUSANDS TO MAKE",
+   "BUILD YOUR OWN CHATGPT IN <em>6 STEPS</em>, DEPLOYED WITH REAL USERS"
+  ],
+  "scores": [
+   3,
+   4,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "'BUILD YOUR OWN CHATGPT' is specific and everyone knows the product; 'deployed with real users' proves it's not just theory. [2] has the cost angle but generic 'AI' can't beat a named product people actually want."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "CAST TRUTH VIOLATION — INSTANT REJECT: The cover image shows Sam Altman (recognizable OpenAI CEO) wearing a hard hat and holding a blueprint in front of server racks. Sam Altman plays zero role in this tutorial story. Per doctrine: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' He is celebrity decoration. Replace the cover with a generated"
+}

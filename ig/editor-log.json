@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "NO SUBSTANCE: a single thin-source filmmaking technique from 2012 with no numbers, no named people, no consequence, and nothing that would make a 16-year-old send it to a friend—a writer would pad hopelessly to fill slides.",
-  "subject": "Before filming Project X in 2012, the producers had the cast spend several weeks together to make their friendships “fee",
-  "t": "2026-08-19T06:05:21Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "On-topic-but-routine financial commentary with no protagonist or felt consequence—a 16-year-old won't send 'US debt interest is high' to a friend.",
   "subject": "BREAKING: US interest expense on the national debt hit a record $1.4 trillion over the last 12 months. Since 2020, the c",
   "t": "2026-08-19T06:05:32Z",
@@ -2098,5 +2091,12 @@
   "subject": "ADVERTISERS SAW <em>$5.42 BACK PER AD DOLLAR</em> AND IMMEDIATELY DOUBLED THEIR X SPEND",
   "verdict": "REJECT",
   "reason": "CAST TRUTH IMAGE VIOLATION (§3): The cover shows Elon Musk, but he has no role in this story. The story is about advertiser ROI data on X — Musk is not named, not quoted, and not an actor in any slide. His face is being used as a brand proxy for X, which is exactly what the doctrine prohibits: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.'"
+ },
+ {
+  "t": "2026-08-26T14:45:42Z",
+  "gate": "A",
+  "subject": "imagine having to spend ur childhood using some chud's ai generated dotfiles instead of an actual, stable operating syst",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no real-world event; engagement metrics are the false substance — pure reaction-bait, exactly the Queen Elizabeth model this law was born to stop."
  }
 ]
