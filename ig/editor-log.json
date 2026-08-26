@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "A single regulatory quote about future policy direction with no real-world consequence, secondary facts, or numbers—pure no substance that the writer would have to pad, and scout score of 2/10 provides no exceptional reason to override.",
-  "subject": "JUST IN: 🇺🇸 CFTC Chair Mike Selig says \"for years, anti-crypto armies, doomers, and decelerationists stifled innovation.",
-  "t": "2026-08-19T06:04:58Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "NO SUBSTANCE: a single thin-source filmmaking technique from 2012 with no numbers, no named people, no consequence, and nothing that would make a 16-year-old send it to a friend—a writer would pad hopelessly to fill slides.",
   "subject": "Before filming Project X in 2012, the producers had the cast spend several weeks together to make their friendships “fee",
   "t": "2026-08-19T06:05:21Z",
@@ -2098,5 +2091,12 @@
   "subject": "This is literally AI video, Every time a Muslim lies to defame India, Israel will punish 1,000 Palestani children",
   "verdict": "KILL",
   "reason": "Reaction-bait: the story is engagement metrics (likes) on an inflammatory statement, with zero real-world consequence (no account ban, no policy change, no actual event)."
+ },
+ {
+  "t": "2026-08-26T14:14:04Z",
+  "gate": "B",
+  "subject": "ADVERTISERS SAW <em>$5.42 BACK PER AD DOLLAR</em> AND IMMEDIATELY DOUBLED THEIR X SPEND",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH IMAGE VIOLATION (§3): The cover shows Elon Musk, but he has no role in this story. The story is about advertiser ROI data on X — Musk is not named, not quoted, and not an actor in any slide. His face is being used as a brand proxy for X, which is exactly what the doctrine prohibits: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.'"
  }
 ]

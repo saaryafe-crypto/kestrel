@@ -1,0 +1,91 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ADVERTISERS SAW <em>$5.42 BACK PER AD DOLLAR</em> AND IMMEDIATELY DOUBLED THEIR X SPEND",
+   "kicker": "143% MORE THAN ANY OTHER AD CHANNEL",
+   "hsize": 70,
+   "face": "Elon Musk",
+   "media": "faces/elon-musk-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "<em>$5.42 BACK</em> FOR EVERY $1 SPENT ON X",
+   "hsize": 100,
+   "body": "Platform-wide. Not a pilot case.\n\nEvery dollar brands put into X advertising returned **$5.42**. Measured across the full advertiser base, not one industry.\n\nYour budget predates this number",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "X BEAT <em>EVERY OTHER CHANNEL BY 143%</em>",
+   "hsize": 100,
+   "body": "Not one competitor. All of them.\n\n**143%** higher returns than email, Meta, and Google. Same study, one winner.\n\nThe gap is the decision",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>$5.42</em>",
+   "hsize": 66,
+   "body": "NO OTHER AD CHANNEL MATCHED IT",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ADVERTISERS <em>DOUBLED SPEND</em> WHEN THEY SAW THE DATA",
+   "hsize": 95,
+   "body": "Capital follows returns.\n\nBrands saw **$5.42** per dollar and doubled their ad spend. Not tested it. Doubled.\n\nYour competitors read the same report",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "13% MORE SALES. <em>NOT CLICKS. REVENUE.</em>",
+   "hsize": 95,
+   "body": "The metric your board will ask for.\n\n**13% more closed transactions**. Not visits. Not opens. Revenue.\n\nRun that against your current channel",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>THE $5.42 RULE IN 4 MOVES</em>",
+   "body": "$5.42 per dollar, X average\n143% higher than every other channel\nAdvertisers doubled spend on results\n13% more sales, not traffic\n\nDaily AI news + real plays for executives.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through this before your next budget meeting. Every $1 brands spent on X advertising returned $5.42 on average. \ud83d\udcca\n\nTHE $5.42 RULE breaks into four moves: the benchmark ($5.42 returned per dollar across all X advertisers), the channel gap (143% higher returns than Meta, Google, and email in the same study), the capital signal (advertisers doubled spend after confirming results), the revenue proof (13% more actual sales, not clicks or impressions).\n\nX advertising returns are now documented at a scale that changes budget conversations. One channel delivering $5.42 per dollar and 13% more revenue shifts capital fast. Move first and you own the position. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: X\n\n#marketing #advertising #business #ROI #AI",
+ "pinned_comment": "Which number moves your budget first: the $5.42 return or the 143% gap over Meta and Google? Most people we show this to say the 143% is the one they bring to the board.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>THE $5.42 RULE</em> NO OTHER AD CHANNEL CAN MATCH",
+   "<em>THE $5.42 RETURN RULE:</em> X BEATS EVERY AD CHANNEL",
+   "<em>X BEAT EVERY AD CHANNEL</em> BY 143%",
+   "<em>EVERY AD DOLLAR ON X</em> RETURNED $5.42"
+  ],
+  "scores": [
+   2,
+   3,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] tells you the exact story ($1\u2192$5.42 return) instantly and hits you with an insane claim you understand completely; [2] has a wild 143% but wastes impact by hiding what 'X' is when transparency would hook you harder."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>EVERY AD DOLLAR ON X</em> RETURNED $5.42",
+   "ADVERTISERS SAW <em>$5.42 BACK PER AD DOLLAR</em> AND IMMEDIATELY DOUBLED THEIR X SPEND"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] shows people immediately acted on the ROI by doubling down, creating that 'wait, WHAT?' moment. [0] is just a stat that doesn't tell you why it matters."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "CAST TRUTH IMAGE VIOLATION (\u00a73): The cover shows Elon Musk, but he has no role in this story. The story is about advertiser ROI data on X \u2014 Musk is not named, not quoted, and not an actor in any slide. His face is being used as a brand proxy for X, which is exactly what the doctrine prohibits: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.'",
+ "topic_source": "exec-news"
+}
