@@ -1,54 +1,5 @@
 [
  {
-  "t": "2026-08-19T08:08:52Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 CFTC Chair Mike Selig says \"for years, anti-crypto armies, doomers, and decelerationists stifled innovation.",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with zero consequence: a regulatory official made a statement, not an event that moved the real world—no rule changed, no money moved, no tangible outcome—and the 2/10 scout score signals no editorial consensus."
- },
- {
-  "t": "2026-08-19T08:09:14Z",
-  "gate": "A",
-  "subject": "Someone needs to tell Clavicular that showing you can touch the ceiling stopped being an alpha move sometime after kinde",
-  "verdict": "KILL",
-  "reason": "Pure reaction-bait with zero substance: a single thin joke tweet about an unknown person touching a ceiling, no real event or consequence, exactly the failure model that produced the Queen Elizabeth post."
- },
- {
-  "t": "2026-08-19T08:09:20Z",
-  "gate": "A",
-  "subject": "Before filming Project X in 2012, the producers had the cast spend several weeks together to make their friendships “fee",
-  "verdict": "KILL",
-  "reason": "No story: this is routine filmmaking methodology from 2012 with zero consequence, urgency, or outcome anyone felt—movie trivia, not an event that moved reality."
- },
- {
-  "t": "2026-08-19T08:09:46Z",
-  "gate": "A",
-  "subject": "BREAKING: Tesla has just announced that anyone who completes a Robotaxi ride through August 23 will have a chance to att",
-  "verdict": "KILL",
-  "reason": "Launch preview / corporate contest announcement with no substance behind a single tweet — exactly the 'ON-TOPIC BUT ROUTINE' category banned by Story Law, and fails the owner test: a 16-year-old scrolls past this and doesn't text a friend."
- },
- {
-  "t": "2026-08-19T08:09:47Z",
-  "gate": "A",
-  "subject": "\"We want to make Starfleet Academy real. Let's go out there and visit other star systems and see if there are alien civi",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: the 'story' is that Elon tweeted something whimsical and got likes, with zero real-world consequence, product, money, or event—just engagement on a soundbite with scout interest at 2/10."
- },
- {
-  "t": "2026-08-19T08:09:47Z",
-  "gate": "A",
-  "subject": "JUST IN 🚨: U.S. 30-Year Treasury Yield hits 5.30% for the first time since the run-up to the Global Financial Crisis 🤯 👀",
-  "verdict": "KILL",
-  "reason": "Market data announcement without real consequence, person, or substance — kills on no-substance (one thin tweet) and routine-financial-wire (banned) grounds; 2/10 scout interest is disqualifying."
- },
- {
-  "t": "2026-08-19T08:09:54Z",
-  "gate": "A",
-  "subject": "BREAKING: US interest expense on the national debt hit a record $1.4 trillion over the last 12 months. Since 2020, the c",
-  "verdict": "KILL",
-  "reason": "Macro economic statistic with no human actor, singular event, or felt consequence — fits the instant-kill 'on-topic but routine' category (financial data points, not stories)."
- },
- {
   "t": "2026-08-19T08:10:13Z",
   "gate": "A",
   "subject": "The sheer size of a polar bear",
@@ -2098,5 +2049,54 @@
   "subject": "<em>A GUY TOLD GROK TO DRIVE HIS TESLA.</em> 5 COMMANDS.",
   "verdict": "REJECT",
   "reason": "IMAGE LAW / CAST TRUTH — FATAL: The cover is a plain corporate headshot of Elon Musk on a neutral gray background. 'A GUY' in the hook is an anonymous user, not Musk. The audience sees his face and assumes he is the actor; the story is then about a stranger. That is a bait-and-switch that breaks the image-headline contract. Fix: generate a cover that shows the STORY'S SITUATION — a person (or Musk"
+ },
+ {
+  "t": "2026-08-26T06:07:52Z",
+  "gate": "A",
+  "subject": "BREAKING: US homebuyer demand has fallen to a record low, with just 967,000 buyers competing against 1.46 million seller",
+  "verdict": "KILL",
+  "reason": "One thin data point with no protagonist, event, or real-world consequence—market reporting banned in Story Law as routine; a writer would pad this single statistic into slides rather than unfold an actual story."
+ },
+ {
+  "t": "2026-08-26T06:07:57Z",
+  "gate": "A",
+  "subject": "\"Young men are abandoning the workforce,\" per WSJ",
+  "verdict": "KILL",
+  "reason": "NO SUBSTANCE: The source is 49 characters with no specific event, numbers, person, or felt consequence—just a trend claim that requires heavy padding to build slides; macro analysis disguised as a story fails THE STANDARD's requirement for a wild-but-true event that a reader would DM to a friend."
+ },
+ {
+  "t": "2026-08-26T06:08:40Z",
+  "gate": "A",
+  "subject": "Someone recreated “Lose Yourself” by stitching together 187 random movie clips to form the lyrics. [🎞️ Ross Thompson / R",
+  "verdict": "KILL",
+  "reason": "Single thin tweet with only clip count and no outcome, reach, or consequence metrics to sustain a full carousel."
+ },
+ {
+  "t": "2026-08-26T06:09:09Z",
+  "gate": "A",
+  "subject": "BREAKING: SpaceXAI just added a powerful new 'Browser Use' plugin to Grok Build. It gives Grok access to a real browser,",
+  "verdict": "KILL",
+  "reason": "This is a launch preview—a feature announcement with no real-world consequence, no person doing something, no money moving, and no felt impact; exactly the on-topic-but-routine category the doctrine bans, and at 5/10 scout interest it lacks the exception threshold needed to pass."
+ },
+ {
+  "t": "2026-08-26T06:09:47Z",
+  "gate": "A",
+  "subject": "Grok @Bot ported Doom to a new device in 10 mins",
+  "verdict": "KILL",
+  "reason": "It's one thin 48-character tweet with no numbers, consequence, or second fact—the writer can't build a carousel."
+ },
+ {
+  "t": "2026-08-26T06:09:49Z",
+  "gate": "A",
+  "subject": "BREAKING: Goldman Sachs names Elon Musk’s Terafab as a major new driver of chip-equipment growth. Goldman included Teraf",
+  "verdict": "KILL",
+  "reason": "ON-TOPIC BUT ROUTINE: analyst targets and forecast updates are explicitly banned; no real-world event occurred, only a bank's prediction model revision."
+ },
+ {
+  "t": "2026-08-26T07:18:54Z",
+  "gate": "B",
+  "subject": "<em>GROK CAN NOW LOG INTO YOUR ACCOUNTS</em> AND ACT FOR YOU",
+  "verdict": "REJECT",
+  "reason": "IMAGE FAILS THUMB TEST (§3): The cover is a neutral press-event portrait of Elon Musk — dark suit, blurred crowd, no story-world context, no brand marks, no browser or agent imagery. At feed size a stranger cannot guess 'AI logging into your accounts.' It is a portrait used as decoration, not proof or a staged scene of the story. Replace with an image that visually encodes the story's situation: M"
  }
 ]

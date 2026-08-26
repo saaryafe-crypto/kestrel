@@ -1,0 +1,77 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>GROK CAN NOW LOG INTO YOUR ACCOUNTS</em> AND ACT FOR YOU",
+   "kicker": "LAUNCHED TODAY. NO CODE NEEDED",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "faces/elon-musk.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>LET GROK LOG IN</em> AND WORK YOUR INBOX",
+   "hsize": 100,
+   "body": "It uses your real Chrome with your existing logins. No passwords shared.\n\n\"Open my Gmail. List every client email from this week with sender name, subject, and whether I replied.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>SCAN COMPETITOR PRICES</em> ACROSS 10 SITES AT ONCE",
+   "hsize": 96,
+   "body": "Grok opens their websites live and pulls whatever you need. Takes 3 minutes, not 3 hours.\n\n\"Visit [competitor URL]. List their prices, current promotions, and what their homepage says their main offer is.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>FILL GOVERNMENT FORMS</em> ONLINE WHILE YOU SLEEP",
+   "hsize": 100,
+   "body": "Use the isolated cloud browser. No logins required. Paste your details once and let it work.\n\n\"Go to [form URL]. Fill it using: Name: [X], Business: [X], EIN: [X]. Submit when complete.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FIND THE CHEAPEST FLIGHT</em> FOR ANY BUSINESS TRIP",
+   "hsize": 96,
+   "body": "Grok opens Kayak, Expedia, and Google Flights live and finds the lowest price.\n\n\"Find flights from [city] to [city] on [date]. List the 3 cheapest options with airline and price.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>PULL LEAD LISTS</em> FROM ANY BUSINESS DIRECTORY",
+   "hsize": 100,
+   "body": "Point Grok at a local business directory. It scrapes names, numbers, and emails. Free leads in minutes.\n\n\"Go to [directory URL]. List every business name, phone number, and email address on this page.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 GROK BUILD BROWSER TASKS</em>",
+   "hsize": 100,
+   "body": "Let Grok into your inbox\nScan competitor prices live\nFill forms in the cloud\nFind cheapest business flights\nPull leads from directories\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through \ud83d\udd13 Grok Build added a real browser today, and these 5 tasks are the ones your business should try first.\n\nLog into your Chrome with existing logins and read your inbox, scan live competitor websites for prices and offers, fill government forms using the isolated cloud browser, find the cheapest business flights across booking sites, pull business contact lists from any online directory.\n\nAI just crossed into your browser. When it can log into your real accounts and act on your behalf, it stops being a chatbot. This plugin launched today and most businesses haven't touched it yet.\n\nRunning a business? DM us \"AI\" and we'll show you what this does for yours.\n\nSources: xAI (Grok Build Browser Use plugin announcement), Browser Use\n\n#GrokBuild #AITools #BusinessAutomation #AIForBusiness #ArtificialIntelligence",
+ "pinned_comment": "Which one are you trying tonight? Slide 2 (Grok logging into your actual inbox using your own Chrome logins) is the one people don't believe until they see it.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>GROK CAN NOW LOG INTO YOUR ACCOUNTS</em> AND ACT FOR YOU",
+   "GROK JUST GOT A REAL BROWSER. <em>5 TASKS TO TRY TONIGHT</em>",
+   "<em>5 TASKS THAT TOOK HOURS</em> GROK DOES IN THE BROWSER NOW"
+  ],
+  "scores": [
+   8,
+   6,
+   7
+  ],
+  "winner": 0,
+  "why": "[0] shocks you with 'log into YOUR accounts'\u2014that 'wait, WHAT?' moment stops you cold at 2am. [2] shows impressive speed gains (hours\u2192instant) which is compelling but lacks the gut-punch of a personal security claim."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE FAILS THUMB TEST (\u00a73): The cover is a neutral press-event portrait of Elon Musk \u2014 dark suit, blurred crowd, no story-world context, no brand marks, no browser or agent imagery. At feed size a stranger cannot guess 'AI logging into your accounts.' It is a portrait used as decoration, not proof or a staged scene of the story. Replace with an image that visually encodes the story's situation: M",
+ "topic_source": "news-anchored"
+}
