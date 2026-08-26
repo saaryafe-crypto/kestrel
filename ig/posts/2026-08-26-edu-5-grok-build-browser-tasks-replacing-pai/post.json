@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR BUSINESS PAYS <em>$500 A MONTH</em> FOR THESE 5 JOBS. GROK DOES THEM FREE.",
+   "kicker": "IT CAN LOG INTO YOUR OWN ACCOUNTS",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "faces/elon-musk.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND YOUR NEXT 10 CUSTOMERS <em>FROM THE WEB</em>",
+   "hsize": 95,
+   "body": "Lead gen agencies charge you **$2,000/month** for this. Grok finds prospects from the web free.\n\n\"Search Google for [business type] in [city]. Find names, websites, and emails. Give me 10.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) WATCH YOUR COMPETITORS' PRICES <em>EVERY SINGLE DAY</em>",
+   "hsize": 100,
+   "body": "Price monitoring tools charge **$99/month**. Grok visits the actual page and does it free.\n\n\"Go to [competitor URL]. List every product price on the page. Tell me what changed from last week.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) FILL ANY ONLINE FORM <em>FOR YOUR BUSINESS</em>",
+   "hsize": 100,
+   "body": "Vendor forms eat **3 hours** of your admin time. Give Grok the URL and it fills them free.\n\n\"Go to [form URL]. Fill every field using this info: [name, email, address]. Submit when done.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$500 A MONTH. GONE.",
+   "hsize": 80,
+   "body": "That is what businesses pay for monitoring, research, and lead tools every month. Grok Build just made them free",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BOOK ANY APPOINTMENT <em>WITHOUT TOUCHING IT</em>",
+   "hsize": 100,
+   "body": "Scheduling services charge **$150/month** to handle bookings. Grok does it in your actual browser.\n\n\"Go to [booking site URL]. Find the next open slot on [day]. Book it under [name, email, phone].\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) TRACK WHAT PEOPLE SAY ABOUT <em>YOUR BUSINESS</em>",
+   "hsize": 95,
+   "body": "Reputation tools charge **$150/month** to monitor reviews. Grok checks the web free.\n\n\"Search Google for reviews of [business name]. List every rating and site. Flag anything under 4 stars.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: 5 BROWSER JOBS <em>GROK DOES FREE</em>",
+   "hsize": 95,
+   "body": "1) Find 10 customers from the web\n2) Watch competitor prices daily\n3) Fill online forms automatically\n4) Book appointments in browser\n5) Track reviews for free\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see 5 things Grok Build can now do inside a real browser, from finding your next customers to filling your forms automatically. \ud83c\udf10\n\nFrom lead generation to price tracking, form filling, appointment booking, and review monitoring, these five Grok Build browser tasks replace tools that used to cost over $500 a month combined. The Browser Use plugin launched today, giving Grok access to a real browser, either your Chrome with your existing logins or a cloud browser it controls on its own.\n\nThe moment an AI can operate a real browser, most software subscriptions stop making sense. Every job that used to need a person logging in and clicking around, Grok Build now does from a single prompt.\nRunning a business? DM us \"AI\" and we'll show you what this looks like for yours.\n\nSources: xAI, Browser Use\n\n#GrokBuild #AITools #Automation #BusinessOwner #ArtificialIntelligence",
+ "pinned_comment": "Which one are you trying first? The lead gen prompt on slide 2 is the sleeper: a $2,000/month tool that's now free.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "GROK BUILD NOW DOES <em>5 BROWSER JOBS</em> FOR FREE",
+   "5 THINGS <em>GROK BUILD</em> DOES IN YOUR BROWSER",
+   "5 TOOLS <em>GROK BUILD</em> JUST MADE POINTLESS",
+   "GROK BUILD JUST UNLOCKED <em>5 JOBS</em> IN YOUR REAL BROWSER"
+  ],
+  "scores": [
+   5,
+   2,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "[2]'s 'made pointless' taps into FOMO about your current setup in a way that stops the scroll. [3]'s 'unlocked' is interesting but reads as a feature announcement, not a story."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 BROWSER JOBS <em>GROK DOES FREE</em> \u2014 MOST BUSINESSES STILL PAY $500 A MONTH",
+   "5 BROWSER JOBS BUSINESSES PAY <em>$500 A MONTH</em> FOR \u2014 GROK DOES THEM FREE",
+   "YOUR BUSINESS PAYS <em>$500 A MONTH</em> FOR THESE 5 JOBS. GROK DOES THEM FREE."
+  ],
+  "scores": [
+   6,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "'YOUR BUSINESS' feels like it's talking to you personally instead of at you generically, which makes the $500 punch land harder. Simple sentences also beat dashes when your brain's already tired at 2am."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "SHUFFLE TEST FAILURE (HARD GATE): Slides 2, 3, 4, 6, and 7 are five independent list items that can be read in any order without confusion. Tip 5 requires no knowledge of tip 3. The law is explicit: 'if the middle slides could be read in any order without confusion, the post is a listicle wearing a story's clothes \u2014 REJECT.' Fix: chain the tips causally or inside a single business scenario ('You j",
+ "topic_source": "news-anchored"
+}
