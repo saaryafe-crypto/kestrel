@@ -148,9 +148,12 @@ def gate_b(post, cover_path=None):
             "story slides ARE its legal structure: do NOT reject it for "
             "failing section 4's shuffle test, story-arc rules, or section "
             "1's roundup/already-published kills — covering the day's stories "
-            "again IS the format. Everything else fully applies: language "
-            "law, truth law, image law, hook law per slide, and the "
-            "save-close.")
+            "again IS the format. A payload slide with NO image renders as a "
+            "big-type slide — legal here when that story has no press photo "
+            "(image law's own no-image-beats-bad-image rule), so never "
+            "reject solely for a missing slide image. Everything else fully "
+            "applies: language law, truth law, image law on the images that "
+            "DO exist, hook law per slide, and the save-close.")
     prompt = f"""{doctrine()}
 
 ----

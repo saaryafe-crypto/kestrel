@@ -26,11 +26,12 @@ COOLDOWN_S = 55 * 60
 # stale 4-slot times here made the watchdog count a phantom slot all day
 # (and until Aug 27 this list still carried the HE 13:15 slot the Aug 15
 # plist fix had moved to 16:15 — same phantom-slot bug, now moot).
-# 1 reel/day per channel since Aug 27 (owner match-the-data order: measured
-# reels 178 likes/1M vs carousels 4,381 — freed slots fund 5 carousels/day).
+# 2 reels/day per channel since Aug 27 evening (owner: reels drove follower
+# growth on both channels; the audit's likes gap measures likes, not
+# discovery — daily.py's followers-per-day line decides 1 vs 3 in ~2 weeks).
 CHANNELS = [
-    ("reel.py",    "posts",    [(19, 0)]),
-    ("reel_he.py", "posts-he", [(20, 15)]),
+    ("reel.py",    "posts",    [(15, 0), (19, 0)]),
+    ("reel_he.py", "posts-he", [(16, 15), (20, 15)]),
 ]
 
 

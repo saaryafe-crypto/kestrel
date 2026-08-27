@@ -91,19 +91,22 @@ Each payload slide: {{"type": "content", "idx": <candidate number>, "hsize": <px
 Last slide: {{"type": "cta", "hsize": 96, "headline": "...", "body": "..."}} — the SAVE CLOSE per section 4 of the law: headline is a save command restating the day ("SAVE TODAY'S AI BRIEFING"), body = the day's 3-5 beats as short checklist lines. NEVER a "follow us" ask — banned.
 
 RULES
-- LANGUAGE: write for a smart 16-year-old. Everyday words, short sentences, no jargon. Section 7 of the law fully applies.
+- LANGUAGE: write for a smart 16-year-old. Everyday words, short sentences, no jargon. Section 7 of the law fully applies. The editor's three most common kills, banned outright: hedge words (may/might/could/reportedly), news-agency verbs (announced/unveiled/revealed — say what happened in spoken words), and "-ing" consequence padding tacked onto a sentence (give the consequence its own short sentence).
 - Headline = the story's wild claim in 6-12 words. <em>...</em> marks the accent words — the minimum set that carries the claim standalone; every headline needs at least one <em>.
 - Each payload slide is a standalone mini-story: headline withholds exactly one detail that the body's FIRST sentence resolves. Body = 2-3 spoken sentences, concrete numbers/names in <b>...</b>. No <em> in bodies. Bodies never end with a period. No emojis, no exclamation marks.
 - hsize: short headline (≤5 words) 105-120; medium 88-100; long 76-86.
 - Never invent facts beyond the titles/tweet texts above.
-- Caption: hook line says this is today's AI recap and front-loads the wildest story; then one line per story; the trend block's LAST line invites business owners to DM the word "AI" (pain + tiny ask, vary the wording). Sources line names the X accounts as plain names (never @). Exactly five hashtags.
+- Caption: first line copies the MEASURED winner formula (@technology's 67K-like roundup, ~2x their median; audit Aug 27): "Swipe ⬅️ to see what happened in AI in the last 24 hours, from <teaser A> to <teaser B>" — keep the swipe-left + last-24-hours + from-X-to-Y shape, vary the wording, teasers = the two wildest stories; then one line per story; the trend block's LAST line invites business owners to DM — pain + tiny ask. Register: "Running a business? DM us "AI" and we'll show you what this could do for yours". Vary the wording per post, keep the DM word exactly "AI" IN DOUBLE QUOTES. Sources line names the X accounts as plain names (never @). Exactly five hashtags.
 - pinned_comment: ONE debatable question about the day's biggest story, 1-2 sentences, no hashtags, no links.
 
 Return ONLY the JSON object."""
 
 
-def qa(post, n_cands):
-    slides, caption, errs = post["slides"], post.get("caption", ""), []
+def qa(post, n_cands, pre_render=True):
+    # .get, never [] — the CLI path enforces no schema, and a shapeless reply
+    # must fail QA (feeding the retry loop) instead of crashing the run
+    # (test 2, Aug 27: KeyError 'slides' killed attempt 1 outright)
+    slides, caption, errs = post.get("slides") or [], post.get("caption", ""), []
     payload = [s for s in slides if s.get("type") == "content"]
     if not (N_SLIDES[0] <= len(payload) <= N_SLIDES[1]):
         errs.append(f"{len(payload)} payload slides (want "
@@ -122,14 +125,32 @@ def qa(post, n_cands):
     for i, s in enumerate(slides):
         if "<em>" not in s.get("headline", ""):
             errs.append(f"slide {i + 1}: headline has no <em> accent")
-        if s.get("type") == "content" and not (0 <= s.get("idx", -1) < n_cands):
+        # free regex gates for the editor's most common text-law kills
+        # (test 4, Aug 27: Gate B burned both repair rounds on exactly these)
+        text = s.get("headline", "") + " " + s.get("body", "")
+        if re.search(r"(?i)\b(reportedly|allegedly|according to|sources say|"
+                     r"is said to|may|might|could)\b", text):
+            errs.append(f"slide {i + 1}: hedge word (may/might/could/"
+                        "reportedly...) — state the fact straight or cut it")
+        if re.search(r"(?i)\b(announced|unveiled|revealed|stated)\b", text):
+            errs.append(f"slide {i + 1}: news-agency register (announced/"
+                        "unveiled...) — say what actually happened in "
+                        "spoken words")
+        # idx exists only pre-render (main pops it when attaching images), so
+        # the post-repair re-check passes pre_render=False — an unconditional
+        # idx check made every successful Gate B repair revert (test 3, Aug 27)
+        if (pre_render and s.get("type") == "content"
+                and not (0 <= s.get("idx", -1) < n_cands)):
             errs.append(f"slide {i + 1}: bad candidate idx")
     if "Sources:" not in caption:
         errs.append("caption missing Sources line")
     if len(re.findall(r"#\w+", caption)) != 5:
         errs.append("caption must have exactly 5 hashtags")
-    if '"AI"' not in caption:
-        errs.append('caption missing the owner DM-CTA line (DM word "AI")')
+    # curly-quote tolerant: writers often render "AI" as “AI” (test Aug 27:
+    # a straight-quote-only check failed 3/3 attempts on the same caption)
+    if not re.search(r'[\"“”\']AI[\"“”\']', caption):
+        errs.append('caption missing the owner DM-CTA line: it must invite a '
+                    'DM of the word "AI" in quotes, e.g. DM us "AI"')
     if not post.get("pinned_comment", "").strip():
         errs.append("missing pinned_comment")
     return errs
@@ -192,17 +213,25 @@ def main(stories_path):
     render()
 
     # GATE B — editor-in-chief on the RENDERED cover (write.py parity):
-    # REJECT drives up to two surgical text repairs; still failing = exit
-    # nonzero, the ladder's next rung (write.py news) fills the slot.
+    # REJECT drives up to THREE surgical text repairs (one more than write.py
+    # — test 4, Aug 27: round 1 fixes landed but a second read found new
+    # text-law kills; the recap is a daily franchise, a third round is
+    # cheaper than losing the anchor slot); still failing = exit nonzero,
+    # the ladder's next rung (write.py news) fills the slot.
     import editor
     cover_jpg = os.path.join(post_dir, "slide-1.jpg")
     ok, reasons = editor.gate_b(
         post, cover_jpg if os.path.exists(cover_jpg) else None)
-    for _ in range(2):
+    for _ in range(3):
         if ok:
             break
         fixed = qa_repair(post, ["editor reject: " + r for r in reasons])
         if not (fixed and len(fixed.get("slides", [])) == len(post["slides"])):
+            # never break silently (test 3, Aug 27: a shape mismatch skipped
+            # both repair rounds with no trace in the log)
+            print(f"repair unusable: got {len((fixed or {}).get('slides', []))}"
+                  f" slides, post has {len(post['slides'])} — giving up",
+                  file=sys.stderr)
             break
         keep = json.loads(json.dumps(post))
         for s_old, s_new in zip(post["slides"], fixed["slides"]):
@@ -214,7 +243,10 @@ def main(stories_path):
         if fixed.get("pinned_comment"):
             post["pinned_comment"] = fixed["pinned_comment"]
         scrub_dashes(post)
-        if qa(post, len(cands)):  # repair broke a mechanical gate — revert
+        broke = qa(post, len(cands), pre_render=False)
+        if broke:  # repair broke a mechanical gate — revert
+            print("repair broke mechanical QA (" + "; ".join(broke)
+                  + ") — reverting", file=sys.stderr)
             post.clear()
             post.update(keep)
             break

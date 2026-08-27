@@ -22,9 +22,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import spy  # DESC_RE + meta() + n() — same parsing as the competitor scrape
 
-CHANNELS = {"yaffeai": {"carousels": 5, "reels": 1},      # Aug 27 match-the-data
-            "ainews.israel": {"carousels": 5, "reels": 1}}  # order: 5 carousels
-# + 1 reel/day per channel (audit: carousels 4,381 likes/1M vs reels 178)
+CHANNELS = {"yaffeai": {"carousels": 5, "reels": 2},      # Aug 27: 5 carousels
+            "ainews.israel": {"carousels": 5, "reels": 2}}  # (match-the-data)
+# + 2 reels/day (owner Aug 27 evening: reels drove the follower growth; the
+# followers-history delta above is the experiment that decides 1 vs 3)
 COMMIT_PATTERNS = {  # git subjects are the system's own publish ledger
     "yaffeai": {"carousels": r"^IG post: ", "reels": r"^IG reel: "},
     "ainews.israel": {"carousels": r"^IG post HE: ", "reels": r"^IG reel HE: "}}
@@ -324,8 +325,25 @@ def main():
         try:
             counts, live, live_reels = scrape_channel(handle)
             if counts:
-                body.append(f"Followers right now: {counts['followers']:,} "
-                            f"({counts['posts']:,} posts on the page)")
+                # followers-per-day ledger (owner Aug 27 evening: reels vs
+                # carousels must be settled by FOLLOWER growth, not likes —
+                # this line is the experiment's readout, ~2 weeks decides)
+                hp = os.path.join(HERE, "followers-history.json")
+                try:
+                    hist = json.load(open(hp))
+                except Exception:
+                    hist = {}
+                prev = hist.get(handle) or {}
+                line = (f"Followers right now: {counts['followers']:,} "
+                        f"({counts['posts']:,} posts on the page)")
+                if prev.get("followers") is not None:
+                    diff = counts["followers"] - prev["followers"]
+                    line += (f" — {'+' if diff >= 0 else ''}{diff:,} since "
+                             f"{prev.get('date', 'last check')}")
+                body.append(line)
+                hist[handle] = {"date": str(date.today()),
+                                "followers": counts["followers"]}
+                json.dump(hist, open(hp, "w"), indent=1)
             # truth check: each published carousel's caption must be findable
             # among the newest grid posts (caption match beats date-bucket
             # counting: no timezone wobble, names the exact missing post)

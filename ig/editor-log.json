@@ -1,40 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "This is a CEO's bullish prediction with no real-world event, money moved, or consequence — it's on-topic but routine executive commentary (analyst targets and predictions are explicitly banned), and the entire story collapses to a single quote with no second fact to build from.",
-  "subject": "JUST IN: Robinhood CEO Vlad Tenev says we are at the beginning of a \"tokenization supercycle\" that will \"eat the entire ",
-  "t": "2026-08-19T12:49:17Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One thin tweet with no second fact, no numbers, no consequence to build slides from; writer would have to fabricate substance.",
-  "subject": "A robot now drives me around. A robot now vacuums my house. A robot now mows my lawn.",
-  "t": "2026-08-19T12:49:23Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One-sentence viral meme with no substance, numbers, or real-world consequence to build slides from.",
-  "subject": "Grandma always disciplined the kids with her slippers. If they misbehaved and ran off, she’d throw one and never missed.",
-  "t": "2026-08-19T12:49:28Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "PROMPTS NOT SHOWN ON ANY SLIDE (§1 / §4): The post is titled '6 PROMPTS' but not one slide displays actual prompt text — every slide describes what a prompt will do ('This prompt finds every point of exposure') without showing it. §1 requires utility posts to be 'taught in full on the slides, never just claimed.' Each of the 6 content slides must contain the actual prompt the reader can copy. As p",
-  "subject": "<em>6 PROMPTS</em> THAT FIND WHERE YOUR BUSINESS MONEY BREAKS",
-  "t": "2026-08-19T15:00:41Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-08-19T18:48:19Z",
-  "gate": "A",
-  "subject": "Employers are using your personal data to figure out the lowest salary you'll accept, per MW",
-  "verdict": "KILL",
-  "reason": "One thin tweet claiming a trend with no employer named, no person affected, no salary numbers, and no specific consequence—a writer would have to fabricate to fill slides, violating the no-substance instant-kill rule."
- },
- {
   "t": "2026-08-19T18:48:32Z",
   "gate": "A",
   "subject": "I got a fully autonomous robot lawn mower (not sponsored). It's mowing at full speed in these clips, and it's virtually ",
@@ -2098,5 +2063,40 @@
   "subject": "<em>7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE</em> IN GROK",
   "verdict": "REJECT",
   "reason": "HOOK is a banned label headline — '7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE IN GROK' is a listicle header, not the required summarizing cover sentence (actor + action + wild specifics, 12-25 words). Rewrite as a single complete sentence: e.g. 'GROK CAN SCAN LIVE X CONVERSATION ON ANY COIN AND HAND YOU AN ENTRY PLAN IN 30 SECONDS'.; SLIDE 2 IS NOT A SECOND HOOK — it immediately delivers prompt 1"
+ },
+ {
+  "t": "2026-08-27T21:46:44Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Slide 5 headline 'A ROBOT THAT THINKS LIKE CHATGPT JUST WENT VIRAL' breaks Hook Law §2: 'went viral' IS the banned failure model — engagement as the payoff. The robot's demo capabilities are the story; rewrite around what Figure 01 actually did ('spoke back', 'sorted objects', 'followed commands in real time') not that humans reacted to it.; Slide 6 headline 'LIBRARIANS ARE HOSTING VIRAL WORKSHOPS"
+ },
+ {
+  "t": "2026-08-27T21:59:08Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — SAM ALTMAN CAST TRUTH FAIL: The left panel shows a recognizable face that appears to be Sam Altman. IMAGE LAW is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT — a celebrity as decoration breaks image-headline connection.' Altman does not appear in any of the six recap stories (the OpenAI agent story names no executiv"
+ },
+ {
+  "t": "2026-08-27T22:03:25Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "CTA save-close bullet says 'Figure 01' — slide 5 says Figure 02. Fix the model number.; Same CTA bullet calls it 'the demo is unsettling' — slide 5 explicitly states it is not a demo but an actual live production shift at BMW. The framing directly contradicts the slide's own strongest line. Rewrite to mirror slide 5."
+ },
+ {
+  "t": "2026-08-27T22:06:13Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Slide 3 body: '-ing fake depth' violation — 'got the answer back almost immediately, reuniting a family that had given up on finding each other' — the 'reuniting' clause is tacked on as consequence padding, explicitly banned by §7. Fix: break it into its own sentence ('A family that had given up on finding each other was back together.').; Slide 4 body: banned news-agency register — 'Monday.com an"
+ },
+ {
+  "t": "2026-08-27T22:19:04Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "APPROVE",
+  "reason": ""
  }
 ]
