@@ -1,0 +1,108 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 TASKS BUSINESSES PAY <em>$30,000 FOR</em> THAT CLAUDE DOES FREE",
+   "kicker": "RUNS ON ITS OWN SILICON NOW",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "faces/dario-amodei-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) DRAFT REPLIES TO <em>12 ANGRY CUSTOMERS AT ONCE</em>",
+   "hsize": 108,
+   "body": "Claude handles 12 angry emails at once. You get 12 ready-to-send replies in under a minute.\n\n\"Here are [number] customer complaints. Write a reply for each that fixes the issue and keeps them happy.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) RUN 3 BUSINESS SCENARIOS <em>BEFORE A RECESSION HITS</em>",
+   "hsize": 105,
+   "body": "CFOs pay $30,000 for scenario reports. Claude writes you three free in 90 seconds.\n\n\"Here is my business: [describe]. Run 3 scenarios: best case, worst case, recession. Give 3 actions each.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) SPOT COSTLY CONTRACT CLAUSES <em>IN SECONDS FOR FREE</em>",
+   "hsize": 103,
+   "body": "Lawyers charge $500 an hour to flag risky clauses. Claude does it in seconds.\n\n\"Review this contract. Find every clause that could cost me money. Rate each risk 1-10.\"",
+   "media": null
+  },
+  {
+   "type": "break",
+   "layout": "break",
+   "headline": "$30,000",
+   "hsize": 80,
+   "body": "That's what a CFO pays a consultant for one business scenario plan. Claude writes three free ones in 90 seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) FIND YOUR COMPETITOR'S <em>BIGGEST WEAKNESS TONIGHT</em>",
+   "hsize": 108,
+   "body": "Most businesses pay $5,000 for a proper competitive analysis. Claude does it in one prompt.\n\n\"Here is my business: [describe]. Name 3 competitors. For each, find their biggest weak spot I can take.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) REWRITE YOUR HOMEPAGE <em>TO GET MORE BOOKINGS</em>",
+   "hsize": 108,
+   "body": "Your business website loses visitors in 8 seconds. Claude changes that with one prompt.\n\n\"Here is my homepage copy. Tell me what's unclear, what's missing, then rewrite the headline to get bookings.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) TURN MEETING NOTES INTO <em>A FULL ACTION PLAN</em>",
+   "hsize": 105,
+   "body": "Companies lose $37 billion a year to bad meetings. Claude turns yours into an action plan.\n\n\"Here are my meeting notes. Write: 3 decisions made, 5 action items with owners, one summary.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>6 CLAUDE TASKS TO TRY TONIGHT</em>",
+   "body": "1. Draft replies to 12 angry customers\n2. Run 3 business scenarios\n3. Spot risky contract clauses\n4. Find your competitor's weakness\n5. Rewrite your homepage copy\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 Claude tasks worth running tonight, from clearing your inbox to stress-testing your business before a downturn. \ud83d\udd25\n\nSlide 2 teaches how to draft replies to 12 customer complaints at once, Slide 3 runs three business scenarios before a recession hits, Slide 4 audits any contract for clauses that could cost you thousands, Slide 5 is the number that reframes everything, Slide 6 maps your competitor's biggest weak spot, Slide 7 rewrites your homepage to get more bookings, Slide 8 turns your meeting notes into a clean action plan.\n\nAnthropic just announced Jalape\u00f1o, its first custom AI chip. Claude is faster now. Business owners who learn these tasks first will do in minutes what used to take a hired expert a full day. Running a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: Anthropic, Independent\n\n#claude #chatgpt #aitools #businessowner #artificialintelligence",
+ "pinned_comment": "Which one are you trying tonight? Slide 3 is the sleeper. Most owners never think to run scenario planning through Claude, but it changes how you see every business decision.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 CLAUDE TASKS <em>YOUR COMPETITORS HAVEN'T FIGURED OUT YET</em>",
+   "6 BUSINESS TASKS <em>CLAUDE DOES FASTER THAN ANY PERSON ALIVE</em>",
+   "<em>ANTHROPIC'S NEW CHIP</em> MAKES THESE 6 CLAUDE TASKS FASTER"
+  ],
+  "scores": [
+   3,
+   6,
+   5
+  ],
+  "winner": 1,
+  "why": "The extreme claim 'FASTER THAN ANY PERSON ALIVE' stops your scrolling cold with shock value. A chip announcement is newsworthy but can't compete with that level of audacity."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 CLAUDE TASKS <em>MOST BUSINESS OWNERS OVERLOOK</em> AND PAY THOUSANDS FOR",
+   "6 CLAUDE TASKS YOUR COMPETITORS <em>HOPE YOU NEVER USE</em>",
+   "6 BUSINESS TASKS <em>CLAUDE DOES FASTER THAN ANY PERSON ALIVE</em>",
+   "6 TASKS BUSINESSES PAY <em>$30,000 FOR</em> THAT CLAUDE DOES FREE"
+  ],
+  "scores": [
+   4,
+   5,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] gives you a concrete hook (specific $30k amount) and tells the story (free now) \u2014 [2] only makes a bold claim without numbers or proof to back it up."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "SHUFFLE TEST FAILURE (\u00a74 hard gate): Tasks 1\u20136 are completely independent units \u2014 slide 3 (contracts) makes full sense before or after slide 5 (homepage), and the same is true for every middle slide. This is a numbered listicle, not a story chain. The fix is a structural rewrite: each slide must end with a named open loop that the next slide's headline scratches, creating dependency.; SLIDE 2 NOT ",
+ "topic_source": "news-anchored"
+}

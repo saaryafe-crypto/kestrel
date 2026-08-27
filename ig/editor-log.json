@@ -1,47 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Reaction-bait with no substance: a single exclamatory tweet with zero information about what actually happened in the real world, no consequence, no second fact, and scout score of 1/10.",
-  "subject": "sorry, what?! What the frick...?!",
-  "t": "2026-08-19T06:06:21Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Source is 44 characters with zero detail, numbers, or stated consequence — textbook no-substance instant kill; a writer would have to fabricate the story.",
-  "subject": "Dad pranks his daughter with fake interview.",
-  "t": "2026-08-19T06:06:26Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance and off-brand: a polar bear size claim is pure animal wow content with zero event, consequence, numbers, or tech/business angle—nothing to build slides from.",
-  "subject": "The sheer size of a polar bear",
-  "t": "2026-08-19T06:06:26Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "A launch preview announcing a promotional contest is exactly the on-topic-but-routine content §1 bans—no story, no real-world consequence, no substance.",
-  "subject": "BREAKING: Tesla has just announced that anyone who completes a Robotaxi ride through August 23 will have a chance to att",
-  "t": "2026-08-19T06:06:28Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW: The cover uses a generated unknown face — a non-famous person in a Claude apron. The doctrine is explicit: 'Never a generated unknown face.' The cover must be replaced with the brand product in frame, a real photo, or a recognizable famous person in the story's situation.; REAL UTILITY NOT DELIVERED: The hook promises '6 CRYPTO PROMPTS' but not one actual prompt text appears on any slid",
-  "subject": "6 CRYPTO PROMPTS THAT REPLACE <em>WHAT MOST BUSINESSES PAY ACCOUNTANTS FOR</em>",
-  "t": "2026-08-19T07:50:12Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW hard violation: the cover uses a generated unknown face. The rule is absolute — 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' The Claude brand mark being visible in frame does not override this prohibition. Fix: regenerate the cover with no human face — Claude logo + flying Bitcoin coins + contract documents is the story and clear",
-  "subject": "A $10,000 BITCOIN INVOICE ARRIVED WORTH $7,200 THREE DAYS LATER, <em>6 AI PROMPTS WRITE THE CLAUSE THAT STOPS IT</em>",
-  "t": "2026-08-19T08:01:07Z",
-  "verdict": "REJECT"
- },
- {
   "t": "2026-08-19T15:16:43Z",
   "gate": "A",
   "subject": "JUST IN: Robinhood CEO Vlad Tenev says we are at the beginning of a \"tokenization supercycle\" that will \"eat the entire ",
@@ -2098,5 +2056,47 @@
   "subject": "<em>6 CHATGPT POWERS</em> THAT REPLACE A <em>$3,000 ANALYST</em> FOR $100",
   "verdict": "REJECT",
   "reason": "CAST TRUTH VIOLATION (§3, IMAGE LAW): The cover is Sam Altman in a generic conference headshot. He has zero role in this story — his name never appears in any slide. The Doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' This is a celebrity as decoration. Fix: replace with a cover image that is proof of the story — a Chat"
+ },
+ {
+  "t": "2026-08-27T04:14:59Z",
+  "gate": "A",
+  "subject": "we made a chip and it is fast",
+  "verdict": "KILL",
+  "reason": "Source material is 29 characters with no second fact, no numbers, no named actor, and no real-world consequence—writer would have to pad, and it reads as a routine company announcement, not a story."
+ },
+ {
+  "t": "2026-08-27T04:15:00Z",
+  "gate": "A",
+  "subject": "Since announcing Jalapeño, our first custom inference chip, we’ve been testing it and the system around it. The results ",
+  "verdict": "KILL",
+  "reason": "Launch preview with zero real numbers or proof: OpenAI announces Jalapeño is being tested and works well, but the source carries no benchmarks, no shipped reality, no felt consequence—a textbook on-topic-but-routine announcement, explicitly banned."
+ },
+ {
+  "t": "2026-08-27T04:15:09Z",
+  "gate": "A",
+  "subject": "92% of American have either delayed or totally abandoned medical care because of how expensive it is, per the Independen",
+  "verdict": "KILL",
+  "reason": "No protagonist, event, or real-world consequence—just a survey result about a known problem; pure NO SUBSTANCE per the instant-kill standard."
+ },
+ {
+  "t": "2026-08-27T04:15:21Z",
+  "gate": "A",
+  "subject": "25% of Gen Z treat sports betting as a deliberate part of their long-term financial plan, per Bloomberg",
+  "verdict": "KILL",
+  "reason": "One statistic with no specific event, protagonist, or story arc violates NO SUBSTANCE—writer would have nothing but padding to build slides from."
+ },
+ {
+  "t": "2026-08-27T04:16:15Z",
+  "gate": "A",
+  "subject": "BREAKING 🚨: U.S. Banks U.S. Banks are currently facing unrealized losses of $326.7 Billion 🤯 👀 Losses have grown each of",
+  "verdict": "KILL",
+  "reason": "No actor, no event, no consequence—this is analyst commentary on a metric, not a story."
+ },
+ {
+  "t": "2026-08-27T04:59:21Z",
+  "gate": "B",
+  "subject": "6 TASKS BUSINESSES PAY <em>$30,000 FOR</em> THAT CLAUDE DOES FREE",
+  "verdict": "REJECT",
+  "reason": "SHUFFLE TEST FAILURE (§4 hard gate): Tasks 1–6 are completely independent units — slide 3 (contracts) makes full sense before or after slide 5 (homepage), and the same is true for every middle slide. This is a numbered listicle, not a story chain. The fix is a structural rewrite: each slide must end with a named open loop that the next slide's headline scratches, creating dependency.; SLIDE 2 NOT "
  }
 ]
