@@ -10,7 +10,7 @@ Owner order Aug 3 (X watchlist only): the reddit_tips() topic-demand miner is
 DELETED — no Reddit data anywhere. Topic anchors come only from stories.json,
 which is itself X-watchlist-only.
 Usage: python3 edu.py"""
-import json, os, re, subprocess, sys
+import glob, json, os, re, subprocess, sys
 from datetime import date
 
 import genimg
@@ -238,6 +238,18 @@ def main():
     # signal framework posts for founders/CEOs/investors, set in the workflow
     mode = os.environ.get("EDU_MODE", "skills")
     print(f"edu lane mode: {mode}", file=sys.stderr)
+    # LISTICLE OVERFLOW (owner audit Aug 27): the owner's core complaint was
+    # "every time it is '6 things you can do with AI'" — Aug 13-27 EVERY slot
+    # fell to this floor (71/71 listicles). One listicle/day is the designed
+    # 13:00 slot; a 2nd+ means the news ladder collapsed again. Count BEFORE
+    # this run creates its own dir; the flag rides post.json so the daily
+    # report names every overflow day.
+    listicle_overflow = bool(
+        glob.glob(os.path.join(HERE, "posts", f"{date.today()}-edu-*")))
+    if listicle_overflow:
+        print("WARNING: LISTICLE OVERFLOW — an edu post already exists today; "
+              "this slot fell through the news ladder to the listicle floor "
+              "(check story supply / gate A kills)", file=sys.stderr)
     used = json.load(open(USED)) if os.path.exists(USED) else []
     headlines = ""
     try:  # fresh stories.json exists when the workflow ran scout first
@@ -397,6 +409,8 @@ def main():
     topic = post.pop("topic", "untitled")
     print("topic:", topic, file=sys.stderr)
     post.update(handle="@yaffeai", container="ai_education", edu_mode=mode)
+    if listicle_overflow:
+        post["listicle_overflow"] = True  # 2nd+ listicle today (Aug 27)
 
     post_dir = os.path.join(HERE, "posts", f"{date.today()}-edu-{slugify(topic)}")
     os.makedirs(post_dir, exist_ok=True)

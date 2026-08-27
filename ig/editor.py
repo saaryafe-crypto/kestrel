@@ -103,7 +103,8 @@ Return JSON: {{"verdict": "APPROVE" or "KILL", "reason": "<one plain sentence>"}
 def gate_b(post, cover_path=None):
     """Final-product verdict on the finished post. (approved, reasons)."""
     from write import call_claude
-    view = {"hook": post["slides"][0].get("headline"),
+    view = {"container": post.get("container"),
+            "hook": post["slides"][0].get("headline"),
             "kicker": post["slides"][0].get("kicker"),
             "cover_has_image": bool(post["slides"][0].get("media")),
             "slides": [{"type": s.get("type"), "headline": s.get("headline"),
@@ -123,11 +124,26 @@ def gate_b(post, cover_path=None):
                 f"connection." if cover_path else
                 "WARNING: the cover has NO image file — that alone violates "
                 "IMAGE LAW unless zero images existed anywhere.")
+    # container-blind judging post-mortem (Aug 27 audit): Gate B rejected
+    # 67/71 ai_education posts on the story-post shuffle test — a numbered
+    # list IS that container's legal structure — and edu.py's override shipped
+    # them all flagged. Two weeks of REJECT-everything killed the alarm's
+    # signal. Tell the editor which law applies so a real REJECT means
+    # something again.
+    container_note = ""
+    if post.get("container") == "ai_education":
+        container_note = (
+            "\n\nCONTAINER NOTE: this post is the ai_education container — a "
+            "save-magnet listicle. A numbered list of independent items is its "
+            "LEGAL structure: do NOT reject it for failing section 4's shuffle "
+            "test or story-arc rules, which are story-post law. Everything "
+            "else fully applies: language law, truth law, image law, the "
+            "cover contract, and the save-close.")
     prompt = f"""{doctrine()}
 
 ----
 
-You are THE EDITOR-IN-CHIEF doing the final pre-publish review. This finished carousel is minutes from going live to the page's real audience. Judge the WHOLE product against sections 2-5 above (hook, images, storytelling, truth). {img_line}
+You are THE EDITOR-IN-CHIEF doing the final pre-publish review. This finished carousel is minutes from going live to the page's real audience. Judge the WHOLE product against sections 2-5 above (hook, images, storytelling, truth). {img_line}{container_note}
 
 The bar is section 0: would the owner look at this and post it himself? You are the last line — every earlier gate already passed this post, and the two worst posts in the page's history passed every earlier gate too.
 

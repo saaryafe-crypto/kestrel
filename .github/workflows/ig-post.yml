@@ -121,17 +121,23 @@ jobs:
           # preference (STORY_PREF), same fallback ladder as story.
           # THIRD RUNG (run 30752019189, Aug 2: both rungs failed QA 3x and the
           # slot died): one more fresh edu.py roll — a new sample usually passes
+          # STORY_RELAX rung (owner audit Aug 27): every story slot Aug 13-27
+          # fell straight to the edu floor — 71/71 carousels were listicles,
+          # the exact "6 things you can do with AI" repetition the owner
+          # flagged. Before the listicle floor, retry write.py with Gate A
+          # kills relaxed: the most viral NON-DUPE story ships as a news
+          # narrative (Gate B still reviews the finished post).
           if [ "$KIND" = "edu" ]; then
             # EXECUTIVE LANE (owner order Aug 18): the 13:00 slot alternates
             # daily — even day-of-year = executive intelligence edition
             # (framework posts for founders/CEOs), odd = skills save-magnet.
             # Fallback rungs run in default skills mode (always-post law).
             if [ $((10#$(date -u +%j) % 2)) -eq 0 ]; then export EDU_MODE=exec; fi
-            python edu.py | tee /tmp/write.log || EDU_MODE= python write.py | tee /tmp/write.log || EDU_MODE= python edu.py | tee /tmp/write.log
+            python edu.py | tee /tmp/write.log || EDU_MODE= python write.py | tee /tmp/write.log || EDU_MODE= STORY_RELAX=1 python write.py | tee /tmp/write.log || EDU_MODE= python edu.py | tee /tmp/write.log
           elif [ "$KIND" = "money" ]; then
-            STORY_PREF=money python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            STORY_PREF=money python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           else
-            python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           fi
           POST_DIR=$(sed -n 's/^post ready: //p' /tmp/write.log)
           test -n "$POST_DIR"  # fail loudly if the writer produced nothing

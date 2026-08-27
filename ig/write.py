@@ -672,11 +672,15 @@ def pick_story(stories):
     from concurrent.futures import ThreadPoolExecutor
 
     def _judge(s):
+        """3-state verdict (Aug 27): 'dupe' is a hard ban (owner ground rule
+        Aug 14 — never the same story twice), 'kill' is a Gate A taste call
+        that STORY_RELAX may override."""
         if is_dupe(s["title"], recent):
             print(f"semantic dupe of a published post — skipping: {s['title']}",
                   file=sys.stderr)
-            return False
-        return editor.gate_a(s, (s.get("radar") or {}).get("selftext", ""))[0]
+            return "dupe"
+        ok = editor.gate_a(s, (s.get("radar") or {}).get("selftext", ""))[0]
+        return "ok" if ok else "kill"
 
     # exhaust EVERY candidate before declaring the slot dead (owner rule:
     # every slot must fill — a 3-try cap killed the Jul 28 test run when the
@@ -686,14 +690,30 @@ def pick_story(stories):
     # in viral-rank order, so the pick is identical to the sequential walk;
     # the only cost is up to 3 wasted Haiku judgments when an early candidate
     # in a batch approves — cents next to the minutes saved.
+    relax = []  # Gate-A kills in viral order, dupes excluded
     while fresh:
         batch = fresh[:4]
         with ThreadPoolExecutor(max_workers=len(batch)) as ex:
             verdicts = list(ex.map(_judge, batch))
-        for s, ok in zip(batch, verdicts):
-            if ok:
+        for s, v in zip(batch, verdicts):
+            if v == "ok":
                 return s
+            if v == "kill":
+                relax.append(s)
         fresh = fresh[len(batch):]
+    # STORY_RELAX rung (owner audit Aug 27): every story slot since Aug 13
+    # died right here and fell to the edu listicle floor — 71/71 carousels
+    # were listicles, the exact repetition the owner flagged. On the relaxed
+    # rung (ladder step 2 in ig-post.yml) the most viral NON-DUPE story runs
+    # even if Gate A was lukewarm: a real news narrative beats yet another
+    # listicle. Dupes stay banned, and Gate B still reviews the finished
+    # post — the quality floor holds.
+    if os.environ.get("STORY_RELAX") and relax:
+        s = relax[0]
+        s["gate_a_relaxed"] = True
+        print(f"STORY_RELAX: overriding gate A kill for most viral non-dupe "
+              f"story: {s['title']}", file=sys.stderr)
+        return s
     return None
 
 
@@ -2095,6 +2115,11 @@ def main(stories_path):
                        # judge-calibration loop (learn.py): prediction vs reality
                        "judge_interest": story.get("interest"),
                        "scout_score": story.get("score")})
+    if story.get("gate_a_relaxed"):
+        # STORY_RELAX rung shipped this over a Gate A kill (Aug 27) — the
+        # daily report must be able to name it and learn.py can compare
+        # relaxed picks' real performance against clean approvals
+        post["gate_a_relaxed"] = True
 
     scrub_dashes(post)  # hard gate: no dash survives, whatever the model wrote
 

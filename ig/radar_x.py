@@ -48,7 +48,12 @@ MAX_AGE_H = 36             # older tweets already peaked everywhere
 FLOOR_LIKES = 1000         # junk filter; ranking itself is likes/hour
 CAP_READS_MONTH = 33_000   # hard cap ~= $5/mo at $0.15/1K reads (owner
                            # topped up $10 for 2 months, Jul 29)
-N_MOMENTS = 16
+N_MOMENTS = 32           # was 16 — news-carousel audit Aug 27: a 16-moment
+                         # keep-cap starved scout to ~8 stories/day; after
+                         # dupes + gate A kills, EVERY story slot since Aug 13
+                         # fell to the edu listicle floor (71/71 carousels).
+                         # This is a client-side cap — raising it costs zero
+                         # API reads.
 N_VIDEO = 6                # reserved video slots — text tweets out-vph clips
                            # 5-10x (audit Jul 29: 1 video in 12 moments), so
                            # videos get their own lane or reels starve
@@ -73,7 +78,10 @@ N_THREAD_MINE = 3          # top guide moments get the author's OWN thread
 # Guides are quadruple-filtered: server-side floor + guide regex + AI
 # context + politics gate, and they feed ONLY the guide pool (radar.py
 # strips them before radar.json), never the news radar.
-GUIDE_SEARCH_EVERY_H = 24  # once/day; ~80 reads (~$0.015/day)
+GUIDE_SEARCH_EVERY_H = 12  # was 24 — Aug 27 audit: pool was down to 4 unused
+                           # guides (all junk/Spanish) while edu consumes
+                           # 3-7/day. Twice daily ~160 reads (~$0.03/day),
+                           # still far inside the $5/mo cap.
 GUIDE_SEARCH_FLOOR = 2000  # proven-viral only — higher bar than watchlist
 GUIDE_SEARCH_AGE_D = 5     # SEARCH window only — pool retention is separate.
                            # Aug 15: was 21; "Top" over 3 weeks returned the
@@ -82,7 +90,9 @@ GUIDE_SEARCH_AGE_D = 5     # SEARCH window only — pool retention is separate.
                            # so 3 posts self-invented Aug 13-15). A 5-day
                            # window surfaces THIS week's winners; guides
                            # already caught stay in the pool regardless.
-N_WIDE_GUIDE = 16          # top wide guides per day, 1/account
+N_WIDE_GUIDE = 24          # top wide guides per search, 1/account (was 16 —
+                           # Aug 27: pool exhausted, widen the keep alongside
+                           # the twice-daily search)
 # Aug 13 pool-exhaustion post-mortem: the same 3 fixed queries over the same
 # 21-day window returned the same top tweets every day — after day one the
 # net caught ~nothing new while edu.py consumes 3-7 guides/day (reel/news
@@ -546,11 +556,14 @@ def harvest():
     _take(lambda m: True, N_MOMENTS)          # rest by raw vph, any kind
 
     # WIDE GUIDE NET (owner order Aug 10, constants above): all-of-X search
-    # for proven-viral AI guides, guide pool only. Runs once a day.
+    # for proven-viral AI guides, guide pool only. Runs twice a day (Aug 27).
     if now - led.get("last_guide_search", 0) >= GUIDE_SEARCH_EVERY_H * 3600:
         g_since = int(now - GUIDE_SEARCH_AGE_D * 86400)
         wide, wide_accts = [], set()
-        day = int(now // 86400)  # rotating slice of the bank (see constants)
+        # half-day rotation key (Aug 27): with twice-daily searches, a day
+        # key would repeat the same 4-query slice both times — key on the
+        # half-day so the second search pulls a different slice of the bank
+        day = int(now // 43200)
         for q in [GUIDE_QUERIES[(day * 4 + k) % len(GUIDE_QUERIES)]
                   for k in range(4)]:
             time.sleep(6)
