@@ -1,0 +1,17 @@
+{
+ "pick": 1,
+ "title": "How seconds turn a rocket from pad to sky",
+ "title_candidates": [
+  "How a brain chip lets a paralyzed person control a screen without moving a muscle",
+  "What a Neuralink patient did with a computer after losing feeling in both hands",
+  "What a coin-sized chip placed inside a human skull can now do to a computer",
+  "How Neuralink turned a paralyzed person's brain signals into mouse clicks",
+  "The brain implant that lets a paralyzed person browse the internet hands-free"
+ ],
+ "caption": "Neuralink placed a chip smaller than a coin inside a paralyzed patient's skull. It reads the brain signals that would normally tell a hand to move, then sends them wirelessly to a computer.\n\nThe patient can scroll, click, and type using only their thoughts. The chip carries 1,024 electrodes, more than ten times the count of earlier implants. That gap in precision is why the control looks nothing like anything that came before it.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: elonmusk. DM for credit or removal\n\n#neuralink #brainchip #bci #neurotechnology #elonmusk",
+ "start_s": 8,
+ "clip_s": 28,
+ "source": "https://video.twimg.com/amplify_video/2080885823449280512/vid/avc1/720x1280/QA8KNYbGBzQJWZQx.mp4?tag=29",
+ "channel": "elonmusk",
+ "publish": "make"
+}
