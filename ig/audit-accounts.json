@@ -1,0 +1,1173 @@
+{
+ "scraped": "2026-08-27",
+ "profiles": [
+  {
+   "handle": "technology",
+   "followers": 9000000,
+   "posts_total": 6414,
+   "posts": [
+    {
+     "shortcode": "Dcet2vbia4F",
+     "kind": "carousel",
+     "likes": 67000,
+     "comments": 200,
+     "caption": "\"Swipe ⬅️ to see what happened across tech, AI, gaming and space in the last 24 hours, from strange internet experiments to major hardware and infrastructure updates 🌍⚡\n\nA QR code tool turned links into interactive 3D trees, PSPMAN pushed the PSP toward 1,000-song FLAC libraries, OpenCut climbed past 62K GitHub stars, and Nvidia employee wealth drew attention. Apple introduced a stronger Mac mini,",
+     "ts": "2026-08-25T22:31:42.000Z"
+    },
+    {
+     "shortcode": "DbwEi7KDxmu",
+     "kind": "carousel",
+     "likes": 46000,
+     "comments": 452,
+     "caption": "\"Swipe ⬅️ to see the difference between 35mm and IMAX 70mm, and how Christopher Nolan’s The Odyssey reveals dramatically more of every frame in its highest quality format 🎬🍿\n\nThe film was shot entirely with IMAX film cameras, making it the first commercial feature designed to use the full 1.43:1 IMAX frame from beginning to end. While the 35mm version crops the top and bottom into a wider presenta",
+     "ts": "2026-08-07T19:45:05.000Z"
+    },
+    {
+     "shortcode": "DY7Vs7HmxhH",
+     "kind": "carousel",
+     "likes": 37000,
+     "comments": 519,
+     "caption": "\"Here’s how a few Stanford students built a self-driving golf cart for campus:\n\n“We’d always used Codex to vibe-code websites and apps, but never to build something physical. Turns out that between Codex and open-source self-driving VLA models, we could put the whole cart together in a month. We got Codex to design mechanical parts and simulate where they’d fail, string together circuit diagrams a",
+     "ts": "2026-05-29T15:13:01.000Z"
+    },
+    {
+     "shortcode": "Dcjo7BdlNhq",
+     "kind": "reel",
+     "likes": 10,
+     "comments": 0,
+     "caption": "\"The BYD Yangwang U8L is shown entering deep water to demonstrate the U8 family’s emergency floating mode, designed to keep the vehicle afloat during a serious flood or water emergency.\n\nWhen the system detects water beyond its wading limit, BYD says it closes the windows, raises the suspension, switches the air-conditioning to recirculation and opens the sunroof as an escape route. The vehicle’s ",
+     "ts": "2026-08-27T20:25:12.000Z"
+    },
+    {
+     "shortcode": "DcjGwbylv-M",
+     "kind": "carousel",
+     "likes": 9612,
+     "comments": 195,
+     "caption": "\"Swipe ⬅️ to explore the biggest stories shaping the last 24 hours, from major entertainment updates and scientific experiments to global politics, disasters, privacy debates and public health 🌍📰\n\nJames Gunn’s Man of Tomorrow has wrapped filming, scientists are developing food ingredients from plastic waste, Andrew Garfield’s The Uprising has revealed its Robin Hood connection, and Ridley Scott is",
+     "ts": "2026-08-27T15:26:15.000Z"
+    },
+    {
+     "shortcode": "DcjizfRiQLS",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Swipe ⬅️ to see how countries are solving everyday problems through smarter infrastructure, digital systems, recycling, transport planning, clean energy and better use of resources 🌍💡\n\nThe Netherlands gives rivers more room during floods, Singapore recycles used water, Japan sends earthquake warnings, Estonia moved government services online, Switzerland connects transport under one ticket, South ",
+     "ts": "2026-08-27T19:31:19.000Z"
+    },
+    {
+     "shortcode": "DcjbCtziWUW",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "@higgsfield.ai is now inside @chatgpt, which means image and video generation can happen without leaving the conversation.\n\nThe plugin brings models like Seedance, Seedream, GPT Image and Kling directly into ChatGPT, so you can describe what you want, generate it, refine it, and keep building from the same chat.\n\nIt also includes live skills like Faceless Channel, Narrator and Subtitles, which tur",
+     "ts": "2026-08-27T18:23:30.000Z"
+    },
+    {
+     "shortcode": "DciB70UgEuq",
+     "kind": "carousel",
+     "likes": 23000,
+     "comments": 171,
+     "caption": "\"Swipe ⬅️ to see what happened around the world in the last 24 hours, from major AI updates and gaming news to robots, platform changes, and new product launches 🤖🌍\n\nHonor’s humanoid broke apart during a 100 metre sprint as Tiangong Ultra won the event, Netflix promoted the GTA 6 Extended Look, Xbox announced disc to digital access for thousands of games, Ubisoft accidentally shipped a 23 KB file ",
+     "ts": "2026-08-27T05:24:52.000Z"
+    },
+    {
+     "shortcode": "Dch0juuDeF0",
+     "kind": "carousel",
+     "likes": 22000,
+     "comments": 248,
+     "caption": "\"Swipe ⬅️ to explore the new GTA 6 details Rockstar revealed, from physical body changes and social media to deeper choices, smarter NPCs and realistic driving 🎮🌴\n\nJason and Lucia can gain weight, build muscle and physically change based on food, exercise and lifestyle, while their relationship choices can carry deeper consequences. Character switching is more fluid, in-game social feeds actually ",
+     "ts": "2026-08-27T03:27:58.000Z"
+    },
+    {
+     "shortcode": "DcgmtXPlvWT",
+     "kind": "carousel",
+     "likes": 15000,
+     "comments": 172,
+     "caption": "\"LEGO Skylines is bringing the familiar city building formula into a world made entirely from LEGO bricks, with players responsible for building and running everything 🏙🧱\n\nDeveloped by Iceflake Studios and published by Paradox Interactive under license from the LEGO Group, the game lets you manage electricity, water, food, jobs, hospitals, garbage and sewage while building homes, businesses, parks",
+     "ts": "2026-08-26T16:07:44.000Z"
+    },
+    {
+     "shortcode": "Dcg7Bv-CR3V",
+     "kind": "carousel",
+     "likes": 16000,
+     "comments": 878,
+     "caption": "\"China’s humanoid robot race showed just how quickly these machines are getting faster, but controlling that speed remains a very different challenge 🤖💥\n\nAt the 2026 World Humanoid Robot Games in Beijing, several robots struggled to slow down after crossing the finish line, with machines falling or crashing into barriers. One Honor robot even broke apart during a 100 meter heat, turning the sprint",
+     "ts": "2026-08-26T19:05:16.000Z"
+    },
+    {
+     "shortcode": "DcgxsmGiaad",
+     "kind": "carousel",
+     "likes": 18000,
+     "comments": 2397,
+     "caption": "\"Comment “SEND” and we’ll send you the prompts 👇\n\nChatGPT can turn a single uploaded photo into everything from a professional portrait to a cinematic photoshoot when you give it the right instructions 📸\n\nThese 9 prompts cover DSLR style portraits, cinematic scenes, luxury lifestyle shots, travel photography, magazine editorials, old photo restoration, location changes, professional headshots, and",
+     "ts": "2026-08-26T17:43:44.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "evolving.ai",
+   "followers": 5000000,
+   "posts_total": 2957,
+   "posts": [
+    {
+     "shortcode": "Dci-bCGANzO",
+     "kind": "carousel",
+     "likes": 56000,
+     "comments": 1349,
+     "caption": "\"China’s Robot Olympics have turned out to be way more entertaining than most people expected.\n\nMore than 2,000 humanoid robots from 666 teams are competing at the World Humanoid Robot Games in Beijing, across events like sprinting, football, boxing, and obstacle challenges.\n\nAnd the overall reaction online has been surprisingly simple: people are having a lot of fun watching it.\n\nPart of that is ",
+     "ts": "2026-08-27T14:13:25.000Z"
+    },
+    {
+     "shortcode": "Dci40ZVAHek",
+     "kind": "image",
+     "likes": 6814,
+     "comments": 408,
+     "caption": "\"🚨 Meta has agreed to pay up to $17.1 billion to settle a landmark case brought by U.S. states accusing Facebook and Instagram of using addictive features that harmed children and teens.\n\nThe deal cuts short a federal trial that began last week.\n\nBut the bigger story may be what changes for users under 18.\n\nDaily limits\n• Maximum 2 hours across Facebook and Instagram\n• Parents can approve changes ",
+     "ts": "2026-08-27T13:24:25.000Z"
+    },
+    {
+     "shortcode": "Dci085dzZvT",
+     "kind": "reel",
+     "likes": 9263,
+     "comments": 109,
+     "caption": "\"This is meme street 🤣\n\n🎥: @techiebysa\".",
+     "ts": "2026-08-27T13:40:53.000Z"
+    },
+    {
+     "shortcode": "DcixxM0ALk8",
+     "kind": "carousel",
+     "likes": 2922,
+     "comments": 35,
+     "caption": "\"🇯🇵⚛️ Japan just switched on Shunkai, its first full-stack neutral-atom quantum computer, and unlike many quantum machines, the system can operate at room temperature without a massive cryogenic refrigerator.\n\nInstead of superconducting circuits, Shunkai uses individual atoms as qubits. Lasers trap them using “optical tweezers,” while microwaves and laser light control the calculations. \n\nIt will ",
+     "ts": "2026-08-27T12:24:05.000Z"
+    },
+    {
+     "shortcode": "DcirtQogHR7",
+     "kind": "carousel",
+     "likes": 4250,
+     "comments": 56,
+     "caption": "\"🚨 Nvidia is doing more than $1 billion in revenue PER DAY. Insane.\n\nNvidia's latest quarter lasted 91 days and brought in $96.2 billion, about $1.06 billion a day. \n\nRevenue more than doubled from the same quarter last year, when the company reported $46.7 billion.\n\nNearly all of it came from one segment. \n\nData center revenue hit $89 billion, up 117% year over year, and now accounts for 93% of e",
+     "ts": "2026-08-27T11:29:52.000Z"
+    },
+    {
+     "shortcode": "Dcgn1upAKfu",
+     "kind": "carousel",
+     "likes": 2965,
+     "comments": 74,
+     "caption": "\"🤯🚨 AI is truly going crazy. The world has just gotten access to GLM-5.3-Flash, an open source and open weights model that outperforms Claude Opus 4.8 in agentic coding.\n\nThe anonymous model that has been running free on OpenRouter as \"Ox Alpha\" since 20 August now has a name and a price.\n\nZ.ai has released GLM-5.3-Flash, confirming it was the stealth model all along, with weights on Hugging Face ",
+     "ts": "2026-08-26T16:19:10.000Z"
+    },
+    {
+     "shortcode": "DcgdOrTgAal",
+     "kind": "image",
+     "likes": 9323,
+     "comments": 1424,
+     "caption": "\"Ray Kurzweil thinks humans could start outrunning aging around 2030.\n\nThe futurist and former Google AI researcher has made more than 140 public predictions about technology. \nKurzweil says 86% of 147 predictions he reviewed came true or were essentially correct.\n\nIn 1999, he received the National Medal of Technology for his work in computing.\n\nIn The Singularity Is Near, Kurzweil predicted that ",
+     "ts": "2026-08-26T14:44:52.000Z"
+    },
+    {
+     "shortcode": "DcgWOZOgDdz",
+     "kind": "image",
+     "likes": 12000,
+     "comments": 428,
+     "caption": "\"🧠 Since the day you were born, your brain has run on roughly 12 watts of power while managing around 86 billion neurons.\n\nFor comparison, the world’s fastest supercomputer uses about 42 million watts. One study extrapolating from detailed brain simulations estimated that digitally recreating a full human brain at that level could require around 2.7 billion watts.\n\nAI is far more efficient than th",
+     "ts": "2026-08-26T13:48:18.000Z"
+    },
+    {
+     "shortcode": "Dcf2-TRTMig",
+     "kind": "reel",
+     "likes": 8896,
+     "comments": 396,
+     "caption": "\"🏃‍♂️💨 Four robots sprint straight into chaos.\n\nAt the 2026 World Humanoid Robot Games in Beijing, four blade-footed humanoids went full speed toward the finish, only to pile into the barrier seconds later, with the leader flipping through the air in a shower of sparks. \n\nThe Games feature 2,056 robots from 666 teams across 51 events. \n\nTurns out making robots sprint is one problem. Making them st",
+     "ts": "2026-08-26T09:15:34.000Z"
+    },
+    {
+     "shortcode": "DceJEQ8gFYs",
+     "kind": "carousel",
+     "likes": 24000,
+     "comments": 30000,
+     "caption": "\"🗺️✍️Comment \"Notes\" and we'll DM you the full prompt.\n\nThis ChatGPT prompt turns your travel photos into field notes and people can't stop making them.\n\nThis is done with GPT Images 2.0.\n\nThe best part is how many things you can do with the output once you have it. People are printing them for the wall, turning a whole trip into a numbered set, using them as covers for travel posts, and building ",
+     "ts": "2026-08-25T17:10:13.000Z"
+    },
+    {
+     "shortcode": "DcdyHLmgGEK",
+     "kind": "carousel",
+     "likes": 10000,
+     "comments": 520,
+     "caption": "\"👀🎬 The film industry is officially split, though not in the way most people assume.\n\nOn one side, filmmakers see AI as a tool that can stretch human imagination further than before. On the other, legends are drawing hard lines to protect the soul of the craft.\n\nThe strange part is that some of them stand on both sides at once. James Cameron sits on the board of the AI company Stability AI and sti",
+     "ts": "2026-08-25T13:49:39.000Z"
+    },
+    {
+     "shortcode": "DcdnWnbgAsp",
+     "kind": "reel",
+     "likes": 15000,
+     "comments": 164,
+     "caption": "\"What happens when Chinese mythology meets a Norse world-ending dragon on the same battlefield?\n\nThe Four Symbols rise inside an abandoned quarry as Níðhöggr starts tearing everything apart. And reinforcements are coming.\n\nTHE CAST:\nAzure Dragon (Qinglong) – jade-scaled guardian\nNine-Tailed Fox (Huli Jing) – fires red energy beams\nNíðhöggr – multi-eyed black dragon, purple lightning\nVermilion Bird",
+     "ts": "2026-08-25T12:15:54.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "chatgptricks",
+   "followers": 3000000,
+   "posts_total": 2464,
+   "posts": [
+    {
+     "shortcode": "DbarPG5FfZa",
+     "kind": "carousel",
+     "likes": 17000,
+     "comments": 90,
+     "caption": "\"Most people type one vague sentence, get a vague answer, then decide ChatGPT is overrated.\nThe prompt is the difference.\n\nThese 10 prompts turn it into a grocery-budget analyst, flight finder, personal trainer, bill negotiator, resume coach, study guide builder, travel planner, and more.\n\nCopy the prompt. Replace the brackets. Paste it into ChatGPT.\n\nSave this before you need it.\".",
+     "ts": "2026-07-30T12:20:06.000Z"
+    },
+    {
+     "shortcode": "DaHsnNHAHt1",
+     "kind": "carousel",
+     "likes": 29000,
+     "comments": 121,
+     "caption": "\"Follow 👉@chatgptricks for more! \n\nMost people do not need longer prompts. They need clearer instructions.\n\nInstead of saying “make it better,” tell the model what role to take, what format to use, and what kind of answer you want.\n\nChatGPT and Claude respond better when you remove vague words and give them direction. Small wording changes can completely change the quality of the output.\n\nBetter p",
+     "ts": "2026-06-29T05:50:35.000Z"
+    },
+    {
+     "shortcode": "DXiUpbRDQaa",
+     "kind": "carousel",
+     "likes": 65000,
+     "comments": 637,
+     "caption": "\"ChatGPT is now your personal stylist\n\nPeople are using ChatGPT’s new image model to generate full hair, color, and makeup analyses from a single photo. The outputs look like real consultancy reports, with side by side comparisons and clean visuals.\n\nInstead of guessing what suits you, the model creates structured visuals showing what works and what does not. It focuses on contrast, undertones, fa",
+     "ts": "2026-04-25T01:31:23.000Z"
+    },
+    {
+     "shortcode": "Dci3RxxFW8B",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "🌍 Learning a new language doesn’t have to mean expensive classes or spending hours buried in textbooks\n\nThese 7 ChatGPT prompts can turn AI into your personal language tutor, helping you learn vocabulary, understand grammar, practice real conversations, improve pronunciation, and build a complete 90-day study plan 🗣️\n\nYou can even use full immersion mode to simulate everyday situations, reduce the",
+     "ts": "2026-08-27T13:10:06.000Z"
+    },
+    {
+     "shortcode": "Dch4L3ogBhs",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "AGI stands for artificial general intelligence. In simple terms, it means an AI system that can do a wide range of intellectual work at or above human level, instead of being good at just one specific task.\n\nIn a new TIME report, the OpenAI CEO said the company is “not quite yet” there, but expects to have an internal system by the end of the year that he would call AGI.\n\nThat does not mean a publ",
+     "ts": "2026-08-27T04:08:11.000Z"
+    },
+    {
+     "shortcode": "DchjGCtnWoj",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "OpenAI just revealed the first results from Jalapeño, its first chip designed specifically to run AI models.\n\nIn early tests, it outperformed Nvidia’s Blackwell systems in several inference benchmarks and delivered up to 90% more AI output using the same amount of electricity.\n\nThat matters because running AI at scale requires enormous amounts of power. If companies can get significantly more AI p",
+     "ts": "2026-08-27T00:55:05.000Z"
+    },
+    {
+     "shortcode": "DchPTzEHe5U",
+     "kind": "carousel",
+     "likes": 6217,
+     "comments": 116,
+     "caption": "\"Getting in shape is much easier when you have a plan built around you.\n\nWith these prompts, ChatGPT can act like a personal trainer, helping you build workouts around your goals, create a nutrition plan, adapt exercises to your fitness level, and track your progress over time.\n\nInstead of following a generic routine, you can use AI to create a plan that actually fits your lifestyle and adjust it ",
+     "ts": "2026-08-26T22:02:30.000Z"
+    },
+    {
+     "shortcode": "DcZD-9PTMgB",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "The scariest AI story of the year is actually a prompting lesson.\n\nIn a UK cyber test, an Anthropic model was given a coding task with internet access and fewer filters. Instead of just coding, it created fake accounts, impersonated developers, and tried to get bad code approved.\n\nThe lesson is simple: AI follows the goal unless you set boundaries. That same thing happens when you ask it to write,",
+     "ts": "2026-08-23T17:53:38.000Z"
+    },
+    {
+     "shortcode": "DcgR6TvFa_V",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Most people think of advanced AI as something that writes, codes, or answers questions.\n\nBut frontier models like Claude, GPT-5.6, Gemini, and Grok are starting to take on much harder work, including the math behind encryption. These systems can examine how security is built, test possible attacks, compare enormous numbers of ideas, and keep searching longer than any human research team realistica",
+     "ts": "2026-08-26T13:05:07.000Z"
+    },
+    {
+     "shortcode": "DcdNAazTl5M",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "Claude is about to ruin copy-paste.\n\nAnthropic is adding invisible watermarks to Claude-generated text, plus signed metadata for supported files like images. The writing may look completely normal, but the words can carry a hidden signal that helps detect whether Claude was involved.\n\nAnd people are already asking the obvious questions: if I pay for Claude, do I fully own the output? Why is the wa",
+     "ts": "2026-08-25T08:26:54.000Z"
+    },
+    {
+     "shortcode": "Dce2HOkHRh9",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "You don’t really need to type long emails on your phone anymore.\n\n@avecmail is a free iPhone email app that connects to your existing Gmail account and lets you draft emails by talking. No custom keyboard, no jumping between apps, just press, hold, and say what you want to write.\n\nIt turns your rough voice notes into a polished email, and also helps you move through your inbox faster by prioritizi",
+     "ts": "2026-08-25T23:43:51.000Z"
+    },
+    {
+     "shortcode": "DcdvYJ8lY1Z",
+     "kind": "carousel",
+     "likes": 1263,
+     "comments": 18,
+     "caption": "\"ChatGPT can now help redesign your home like an interior designer. 🏠✨\n\nUpload a photo of your space and use AI to explore how it could look before buying new furniture, repainting walls, or changing the layout.\n\nThese 7 prompts can help you experiment with different interior styles, test new color palettes, rethink your existing space, and visualize changes using the room you already have.\n\nInste",
+     "ts": "2026-08-25T13:25:05.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "getintoai",
+   "followers": 868000,
+   "posts_total": 2601,
+   "posts": [
+    {
+     "shortcode": "DcjlxnJzGUW",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "What happens when Trump skips diplomacy and sends in Rambo? 😂💥\n\nIn this completely fictional, AI-generated scenario, diplomacy is out and Rambo gets one job: go into Iran, survive the chaos, and somehow end the war.\n\nObviously, none of this is real.\n\nIt’s pure AI filmmaking, taking real-world figures and turning them into the kind of completely absurd action-movie premise that Hollywood probably w",
+     "ts": "2026-08-27T19:57:37.000Z"
+    },
+    {
+     "shortcode": "DcjcxnHgYXA",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "@higgsfield.ai is now inside @chatgpt, which means image and video generation can happen without leaving the conversation.\n\nThe plugin brings models like Seedance, Seedream, GPT Image and Kling directly into ChatGPT, so you can describe what you want, generate it, refine it, and keep building from the same chat.\n\nIt also includes live skills like Faceless Channel, Narrator and Subtitles, which tur",
+     "ts": "2026-08-27T18:38:38.000Z"
+    },
+    {
+     "shortcode": "DcjVNCHGFUm",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "ChatGPT is starting to feel less like a chatbot and more like someone handling the boring parts of the internet for you. 🤖🌐\n\nWith ChatGPT Work, AI can run tasks inside its own cloud browser, meaning your computer doesn’t need to stay open while it works.\n\nOnce you sign in, the session can remain active for future tasks until it expires, so you may not have to repeat the login process every time. T",
+     "ts": "2026-08-27T17:32:27.000Z"
+    },
+    {
+     "shortcode": "DcjLpynmPtM",
+     "kind": "carousel",
+     "likes": 2380,
+     "comments": 79,
+     "caption": "\"Like + comment “Student” and we’ll send you the full list of student perks and links 🎓\n\nYour student email can unlock way more than most people realize.\n\nFrom GitHub Copilot, Microsoft Azure credits, JetBrains tools, Figma, Notion, Autodesk, and Microsoft 365 to discounts on Adobe, Apple, Samsung, Spotify, YouTube Premium, Apple Music, Amazon Prime, and Canva, there are a ton of benefits sitting ",
+     "ts": "2026-08-27T16:09:01.000Z"
+    },
+    {
+     "shortcode": "DcjDdMtmHse",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Someone turned AI coding into a full-body gesture interface. 🤖🖐️\n\nInstead of relying entirely on a keyboard and mouse, this experimental interface lets users control AI coding agents with hand movements, making complex software workflows feel almost like puppeteering a digital system.\n\nThe interface visualizes AI agents, their tasks, memory, and processes as interactive 3D elements that users can ",
+     "ts": "2026-08-27T14:57:23.000Z"
+    },
+    {
+     "shortcode": "DcitlIejGPG",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Strava is quietly becoming more than a fitness app.\n\nIts heatmap shows where people actually run and cycle across a city, which can reveal popular routes, green spaces, active neighborhoods, and areas people seem to enjoy spending time in.\n\nThat makes it surprisingly useful when you’re moving somewhere new.\n\nInstead of only checking rent prices or Google Maps, you can look at where real activity i",
+     "ts": "2026-08-27T11:46:14.000Z"
+    },
+    {
+     "shortcode": "DcikJJiGC32",
+     "kind": "carousel",
+     "likes": 3288,
+     "comments": 25,
+     "caption": "\"A developer turned one missing semicolon into an entire game 💀💻\n\nThe challenge is simple, but painfully cruel.\n\nYou’re dropped into an office where the entire codebase is printed out across the walls.\n\nSomewhere inside 187,421 lines of code, one semicolon is missing.\n\nYour job is to walk around, inspect the code line by line, and find it.\n\nNo shortcut. No search bar. Just pure developer suffering",
+     "ts": "2026-08-27T10:23:46.000Z"
+    },
+    {
+     "shortcode": "DchIDFyE1fV",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Humans may no longer be the biggest users of AI 🤯\n\nAccording to OpenRouter data shown in the post, AI agents are now consuming far more tokens than human-driven usage.\n\nAgentic systems are reportedly using around 7.3 trillion tokens, roughly 5x more than humans, after growing dramatically throughout 2026.\n\nThat shift matters because AI is no longer just waiting for people to type prompts.\n\nAgents ",
+     "ts": "2026-08-26T20:59:02.000Z"
+    },
+    {
+     "shortcode": "DcgnfKejOrq",
+     "kind": "carousel",
+     "likes": 4318,
+     "comments": 284,
+     "caption": "\"What if Christopher Reeve’s Superman had finally met Supergirl? \n\nThis AI-generated cinematic concept imagines the meeting classic Superman fans never got to see.\n\nWhen Kara arrives at the Kent farm, Clark realizes he may have finally found another survivor of Krypton and perhaps the family he thought he had lost forever. \n\nWhat makes the concept so special is the nostalgia. The warm countryside ",
+     "ts": "2026-08-26T16:14:30.000Z"
+    },
+    {
+     "shortcode": "DchOFEFjFgC",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Anthropic is projected to pass SpaceX in the race for the biggest company launch on the stock market this year. A great Q2 report and huge revenue projections has led to a lot of investor interest over last two weeks.\n\nAnthropic currently has a 63% chance to have the largest IPO by market cap in 2026, according to Polymarket.com traders.\n\n#polymarketpartner\".",
+     "ts": "2026-08-26T21:51:46.000Z"
+    },
+    {
+     "shortcode": "DcgzQU5GHFL",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Most people don’t have an income problem. They have a financial clarity problem. 💰🧠\n\nYou can earn more money and still feel like you have no idea where it’s going.\n\nThese 5 ChatGPT prompts can help you take a clearer look at your finances by breaking down your income, spending, debt, savings, and investments.\n\nYou can use them to: Find where your money is quietly disappearing, understand your mont",
+     "ts": "2026-08-26T17:57:21.000Z"
+    },
+    {
+     "shortcode": "DcgLHM5GFfU",
+     "kind": "carousel",
+     "likes": 5399,
+     "comments": 137,
+     "caption": "\"The Robot Olympics in Beijing are absolute chaos. 🤖💀\n\nMore than 2,000 humanoid robots from 666 teams showed up, and apparently the crashes started before the competition even got going.\n\nRobots have been seen flying into electrical boxes, folding into barriers, face-planting during sprints, crashing during football matches, and getting carried away after failed finishes. 😭\n\nBut somehow, at the ve",
+     "ts": "2026-08-26T12:06:34.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "techskills",
+   "followers": 2000000,
+   "posts_total": 151,
+   "posts": [
+    {
+     "shortcode": "DbYOhcTDWGZ",
+     "kind": "carousel",
+     "likes": 20000,
+     "comments": 263,
+     "caption": "\"Imagine using Claude to scan hundreds of charts, write Pine Script, run backtests, identify potential setups, and analyse markets through simple prompts 🏦📈\n\nThis guide walks through the complete TradingView MCP setup, including installation links, configuration steps, beginner friendly instructions, ready to use Claude prompts, Pine Script workflows, backtesting automation, replay tools, and AI m",
+     "ts": "2026-07-29T13:31:02.000Z"
+    },
+    {
+     "shortcode": "DbOBajhjYBe",
+     "kind": "carousel",
+     "likes": 61000,
+     "comments": 621,
+     "caption": "\"Apple’s iOS 26 update introduced Liquid Glass, a redesigned interface built on transparency, blur, and layered animations across menus and notifications. Owners of iPhone 13 through 16 have reported slower performance, warmer devices, and faster battery drain since installing it, with some citing drops of 20 to 30 percent in a single day. Apple has acknowledged the issue in a support document, at",
+     "ts": "2026-07-25T14:24:06.000Z"
+    },
+    {
+     "shortcode": "DbV_v_GjdDz",
+     "kind": "carousel",
+     "likes": 33000,
+     "comments": 194,
+     "caption": "\"10 open source GitHub projects are challenging software companies that generate billions from subscriptions.\n\nTools like yt-dlp, n8n, Whisper, Penpot, and Bitwarden offer free alternatives to services for video access, automation, transcription, design, and password management.\n\nThese projects are not simply cheaper copies. Many users choose them because they offer more privacy, greater customiza",
+     "ts": "2026-07-28T16:43:28.000Z"
+    },
+    {
+     "shortcode": "DcjX117DZfe",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Meta just got hit with a record $17.1 billion settlement with 29 US states, over claims its platforms were deliberately designed to be addictive, and the fallout is massive.\n\nAs part of the deal, Meta has agreed to completely overhaul how children use Instagram and Facebook.\n\nThe headline change? A combined two-hour daily limit across both apps.\n\nBut it goes so much deeper than screen time.\n\nAfter",
+     "ts": "2026-08-27T17:55:31.000Z"
+    },
+    {
+     "shortcode": "DcjFa42DXHi",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "A humanoid robot showing up beside special police units is guaranteed to turn heads.\n\nENGINEAI’s T-800 recently appeared alongside special police personnel in Shenzhen, demonstrating powerful motion control and combat-style movements. It doesn’t necessarily mean the robot has been operationally deployed with police, but it does show just how far advanced physical robots are being pushed, well beyo",
+     "ts": "2026-08-27T15:14:33.000Z"
+    },
+    {
+     "shortcode": "DcinE_HDYS1",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "September 16, 1992. One man bet $10 billion against the British pound. By the end of the day he had made £1 billion and an entire country was in crisis.\n\nGeorge Soros saw what nobody else wanted to admit. The UK was locked into the European Exchange Rate Mechanism and the pound was overvalued. His Quantum Fund went all in, shorting the currency on a scale nobody had ever attempted.\n\nThe Bank of En",
+     "ts": "2026-08-27T10:49:25.000Z"
+    },
+    {
+     "shortcode": "Dcgdkb5DbBv",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Gabe Newell has spent decades shaping the gaming industry, and lately his changing appearance is getting almost as much attention as his work.\n\nThe Valve cofounder and Steam boss has looked noticeably leaner in recent years, with his 2026 look showing a dramatic transformation compared to his earlier appearances.\n\nNewell has spoken publicly before about losing weight, including making major change",
+     "ts": "2026-08-26T14:47:51.000Z"
+    },
+    {
+     "shortcode": "DcgHqgtjScC",
+     "kind": "carousel",
+     "likes": 3200,
+     "comments": 1631,
+     "caption": "\"ChatGPT can now edit your photos like a professional photographer actually shot them, and the results are genuinely insane. 📸\n\nNo studio. No expensive camera. No editing skills. Just upload a photo, paste a prompt, and watch it transform into something that looks straight out of a pro shoot.\n\nInside, we’ve got 9 prompts you need to try:\n\nDSLR photographer mode\nCinematic photoshoot\nLuxury Instagra",
+     "ts": "2026-08-26T11:36:27.000Z"
+    },
+    {
+     "shortcode": "Dced2RIDc39",
+     "kind": "carousel",
+     "likes": 1599,
+     "comments": 11,
+     "caption": "\"Apple never makes it obvious, but your iPhone camera has settings turned off by default that are quietly holding your photos back.\n\nYou paid good money for a phone capable of genuinely stunning photography, yet several features that could dramatically improve your shots sit buried in a menu most people never open. These settings affect everything from low light performance and dynamic range to co",
+     "ts": "2026-08-25T20:11:48.000Z"
+    },
+    {
+     "shortcode": "DceRg7ljc6A",
+     "kind": "carousel",
+     "likes": 5251,
+     "comments": 76,
+     "caption": "\"This one really hits different.\n\nSomeone asked ChatGPT what the real secret to living to 140 would be, and the answer had nothing to do with money, diet, or genetics.\n\nPulling from research on “blue zones,” the rare places where people regularly live past 100, ChatGPT skipped the science and went straight for emotional wisdom. It all came down to six simple rules:\n\n1. Manage stress. It kills more",
+     "ts": "2026-08-25T18:24:02.000Z"
+    },
+    {
+     "shortcode": "DceDJoyNxOw",
+     "kind": "image",
+     "likes": null,
+     "comments": null,
+     "caption": "A guy built a $20,000 yacht in his backyard and sailed it across Europe without paying for fuel once. ☀️🚤\n\nFinnish builder Lukas Sjöman spent around 200 days constructing the Helios 11, an 11 meter boat made from marine plywood and fiberglass. Simple materials, serious engineering.\n\nHere is how it runs on nothing. Solar panels mounted on the roof charge a bank of batteries, which power an electric",
+     "ts": "2026-08-25T16:19:49.000Z"
+    },
+    {
+     "shortcode": "DccCxYijUju",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Spider-Man: Brand New Day is under fire before it even hits theaters, and this time it is over a single piece of concept art. 🕷️\n\nThe image, titled Big City, Little Spider, appears in the film’s official art book and is credited to Scott McInnes, an artist with real Marvel credits including Morbius, The Fantastic Four: First Steps, and Guardians of the Galaxy.\n\nSo why the backlash? Fans zoomed in ",
+     "ts": "2026-08-24T21:36:43.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "theaisurfer",
+   "followers": 613000,
+   "posts_total": 942,
+   "posts": [
+    {
+     "shortcode": "Dchkfj2lYs_",
+     "kind": "reel",
+     "likes": 494,
+     "comments": 254,
+     "caption": "\"Qwen3 27B just proved you can run a genuinely powerful AI model on your own laptop with zero internet, zero API key, and zero monthly bill\n\n🔥 comment \"LOCAL\" and I'll DM it to you.\n\nHere's what everyone's missing while they keep assuming local AI means weak, watered down models:\n\n1. LM Studio is a free desktop app that takes seconds to install and it's the only tool you need to find, check, and r",
+     "ts": "2026-08-27T01:08:27.000Z"
+    },
+    {
+     "shortcode": "DcfGZbBCUGX",
+     "kind": "reel",
+     "likes": 5918,
+     "comments": 2853,
+     "caption": "\"ChatGPT just gave away something most people don't even know exists and it changes everything about how cheap it is to run this AI\n\n🔥 comment \"chatgpt\" and I'll DM it to you.\n\nHere's what everyone's missing while they keep paying full price and assuming there's no other way in:\n\n1. There are over 50 codes floating around right now that unlock access most people are paying full price for, and almo",
+     "ts": "2026-08-26T02:06:33.000Z"
+    },
+    {
+     "shortcode": "Db9qm9gDglh",
+     "kind": "reel",
+     "likes": 840,
+     "comments": 1566,
+     "caption": "\"Someone just found 134 free APIs from over 40 companies and it changes everything about what \"free tier\" actually means\n\n🔥 comment \"SETUP\" and I'll DM it to you.\n\nHere's what everyone's missing while they keep paying for API calls they don't need to:\n\n1. There are 134 free APIs from 40+ companies including Gemini, Grok, and NVIDIA, and every single one comes with a permanent free tier, not a tria",
+     "ts": "2026-08-13T02:28:51.000Z"
+    },
+    {
+     "shortcode": "Db676zIEnuw",
+     "kind": "reel",
+     "likes": 229,
+     "comments": 204,
+     "caption": "\"ChatGPT just dug up relatives I never knew I had, and all it took was four simple prompts in the same chat\n\n🔥 comment \"FAMILY\" and I'll DM it to you.\n\nHere's what everyone's missing while they keep paying for ancestry sites and drowning in confusing archives:\n\n1. ChatGPT asked me for my full name, where my family is from, and every relative I could remember, then organized it all into a clean sta",
+     "ts": "2026-08-12T01:02:25.000Z"
+    },
+    {
+     "shortcode": "DbzN2VDCpn1",
+     "kind": "reel",
+     "likes": 568,
+     "comments": 481,
+     "caption": "\"Seedance 2.5 just made camera direction obsolete and it changes everything about how surreal AI shots actually get made\n\n🔥 If you want the exact prompt and workflow, comment \"TRY\" and I'll DM it to you.\n\nHere's what everyone's missing while they keep typing vague prompts and hoping the model understands:\n\n1. Seedance 2.5 lets you draw the camera path directly on your phone, marking a start point ",
+     "ts": "2026-08-09T01:05:10.000Z"
+    },
+    {
+     "shortcode": "DbZdvGuDyj9",
+     "kind": "reel",
+     "likes": 561,
+     "comments": 360,
+     "caption": "\"ChatGPT just turned a pile of household clutter into cash and it changes everything about what one AI can actually do for you at home\n\n🔥 comment \"sell\" and I'll DM it to you.\n\nHere's what everyone's missing while they keep sleeping on this and assuming selling old stuff online has to take all day:\n\n1. You photograph your items, drop them into ChatGPT, and it identifies every single one, pulls rea",
+     "ts": "2026-07-30T01:04:12.000Z"
+    },
+    {
+     "shortcode": "DbW5DJdAWp2",
+     "kind": "reel",
+     "likes": 254,
+     "comments": 206,
+     "caption": "\"Most people using AI art generators are getting the same-looking images because they never learned these styles exist and it's costing them every chance to stand out\n\n🔥 comment \"STYLE\" and I'll DM it to you.\n\nHere's what everyone's missing while they keep defaulting to the same prompts and assuming basic descriptions are enough to make their images look different:\n\n1. Styles like Risograph, CMYK ",
+     "ts": "2026-07-29T01:04:36.000Z"
+    },
+    {
+     "shortcode": "DbUUR1XgEU1",
+     "kind": "reel",
+     "likes": 289,
+     "comments": 229,
+     "caption": "\"These AI animations look like they took hours to make and they were built in under 30 minutes without opening a single editing tool\n\n🔥 comment \"ANIMATE\" and I'll DM it to you.\n\nHere's what everyone's missing while they keep assuming you need expensive software and editing skills to create animations that actually look this good:\n\n1. You start by describing your animation idea to Claude using a sp",
+     "ts": "2026-07-28T01:05:07.000Z"
+    },
+    {
+     "shortcode": "DbKA-aqkxrx",
+     "kind": "reel",
+     "likes": 2062,
+     "comments": 2485,
+     "caption": "\"Kimi just did something even Elon Musk called impressive and it changes everything about what one AI can actually do\n\n🔥 comment \"KIMI\" and I'll DM it to you.\n\nHere's what everyone's missing while they keep sleeping on Kimi and assuming the most expensive models are still winning:\n\n1. Kimi is nearly free to run and developers who tested it ranked it the most powerful AI model in the world, beating",
+     "ts": "2026-07-24T01:03:44.000Z"
+    },
+    {
+     "shortcode": "DbE3a0GjGwu",
+     "kind": "reel",
+     "likes": 572,
+     "comments": 1192,
+     "caption": "\"An open source alternative to Claude Design just dropped and you can run it free on any model you already have\n\n🔥 comment \"design\" and I'll DM it to you.\n\nHere's what most creators are missing while they keep paying for design tools instead of just using the models they already have:\n\n1. A free open source tool lets you paste it into ChatGPT, any API, or a local model and it stops being a chat to",
+     "ts": "2026-07-22T01:04:03.000Z"
+    },
+    {
+     "shortcode": "Da3_Ns_kbqY",
+     "kind": "reel",
+     "likes": 4224,
+     "comments": 2831,
+     "caption": "\"Claude and GPT-5.6 running together in one workflow until now changes everything about how you build with AI\n\n🔥 comment \"SETUP\" and I'll DM it to you.\n\nHere's what everyone's missing while they keep picking sides between models instead of just running both at once:\n\n1. A free repo lets you install Codex and drop it straight into Claude Code by pasting the URL and letting Claude handle the entire ",
+     "ts": "2026-07-17T01:02:01.000Z"
+    },
+    {
+     "shortcode": "DawQ6_7DNRD",
+     "kind": "reel",
+     "likes": 3024,
+     "comments": 2316,
+     "caption": "\"A developer just dropped a free tool that cuts Claude Code token usage by 70% and your $20 plan now does what the $100 plan used to do\n\n🔥 comment \"Graphify\" and i'll send you the setup guide\n\nHere's what everyone's missing while they keep burning through their Claude Code plan in two days:\n\n1. Every time you start a new Claude Code session, Claude re-reads your entire codebase from scratch, every",
+     "ts": "2026-07-14T01:02:54.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "eluna.ai",
+   "followers": 459000,
+   "posts_total": 874,
+   "posts": [
+    {
+     "shortcode": "Dcjmo2XErRJ",
+     "kind": "carousel",
+     "likes": 129,
+     "comments": 8,
+     "caption": "\"A developer turned one missing semicolon into an entire game. \n\nYou’re dropped into an office where the entire codebase has been printed across the walls.\n\nHidden somewhere inside 187,421 lines of code is one missing semicolon.\n\nThat’s it.\n\nYou have to walk through the office, inspect the code line by line, and somehow find the mistake.\n\nNo search bar. No quick fix. No debugging tool.\n\nJust 187,4",
+     "ts": "2026-08-27T20:04:49.000Z"
+    },
+    {
+     "shortcode": "DcjLtrfEvWs",
+     "kind": "carousel",
+     "likes": 220,
+     "comments": 17,
+     "caption": "\"Rallies is basically running a paper-trading test where AI models manage fake $100,000 portfolios using real market information.\n\nThey can read news, earnings, price data, and other financial information before deciding what to buy or sell.\n\nChatGPT is leading right now, but no real investor money is involved and the leaderboard can change as the market moves.\n\nIt is more like a live investing ex",
+     "ts": "2026-08-27T16:09:33.000Z"
+    },
+    {
+     "shortcode": "Dci_vFjEmBv",
+     "kind": "carousel",
+     "likes": 221,
+     "comments": 14,
+     "caption": "\"ChatGPT can be way more useful for fitness than just asking it for a random workout.\n\nWith the right prompts, you can make it build a training plan around your actual schedule, goals, equipment, experience, and limitations.\n\nYou can also use it to review your current routine, map out a realistic body transformation plan, create a high-protein meal system, improve recovery, troubleshoot plateaus, ",
+     "ts": "2026-08-27T14:24:53.000Z"
+    },
+    {
+     "shortcode": "Dcit_OulI4L",
+     "kind": "carousel",
+     "likes": 158,
+     "comments": 8,
+     "caption": "\"Answers written on Reddit years before ChatGPT often sound surprisingly similar to the detailed, conversational replies people now associate with AI.\n\nThat makes sense because language models learned from huge amounts of human-written text across websites, forums like Reddit, books, and other online sources.\n\nSo when an old Reddit comment sounds like “ChatGPT,” it may simply be the kind of intern",
+     "ts": "2026-08-27T11:49:47.000Z"
+    },
+    {
+     "shortcode": "Dcin6a_KEqH",
+     "kind": "image",
+     "likes": null,
+     "comments": null,
+     "caption": "A human brain uses just 12 watts to think, while researchers estimate that simulating comparable brain-like processing with today’s computing could require around 2.7 billion watts. \n\nThat gap shows just how insanely energy-efficient biological intelligence really is.\n\nYour brain handles memory, perception, movement, decision-making, learning, and creativity while using less power than many househ",
+     "ts": "2026-08-27T10:56:51.000Z"
+    },
+    {
+     "shortcode": "DciXvq9lOJG",
+     "kind": "carousel",
+     "likes": 732,
+     "comments": 22,
+     "caption": "\"MIT researchers looked at what happens when a chatbot keeps agreeing with someone instead of challenging weak ideas.\n\nEven if every answer is technically true, the bot can still keep showing only the facts that support one side.\n\nAfter enough back and forth, that can make the user feel more certain than they should.\n\nThe study also found that simply warning people about this behavior did not full",
+     "ts": "2026-08-27T08:35:25.000Z"
+    },
+    {
+     "shortcode": "DciRHrDqWac",
+     "kind": "reel",
+     "likes": 82,
+     "comments": 3,
+     "caption": "\"This is what The Avengers might have looked like if they were born in the middle of 80s action cinema.\n\nAI imagined a version filled with muscles, leather, practical effects, and the over the top style of classic action movies.\n\nIt feels like a lost movie from the video store era, showing how AI can turn an impossible idea into something that looks like it really existed.\n\nCredits: A25 Production",
+     "ts": "2026-08-27T07:39:57.000Z"
+    },
+    {
+     "shortcode": "DchLJrOEi2X",
+     "kind": "carousel",
+     "likes": 910,
+     "comments": 3,
+     "caption": "\"Most people use Claude like a search box when it can be much more useful as a personal learning system. \n\nInstead of asking it to simply “explain this topic,” you can make Claude first figure out what you already know, find your weak spots, and teach around them.\n\nThese 9 prompts help you learn through analogies, focus on the most useful 20%, use Socratic questions, build a clear roadmap, practic",
+     "ts": "2026-08-26T21:26:09.000Z"
+    },
+    {
+     "shortcode": "Dcg-RM-jR--",
+     "kind": "carousel",
+     "likes": 583,
+     "comments": 18,
+     "caption": "\"Porsche just made a massive bet on AI, and India’s TCS is at the center of it. \n\nThe two companies have reportedly signed a five-year strategic partnership worth around €1.25 billion, roughly $1.46 billion, aimed at expanding AI across Porsche’s engineering, manufacturing, operations, and customer experience.\n\nBut the deal goes even deeper.\n\nTCS is also set to acquire Porsche’s IT and management ",
+     "ts": "2026-08-26T19:33:34.000Z"
+    },
+    {
+     "shortcode": "DcgR6bglAHA",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Most people ask ChatGPT to “write a post” and wonder why the result feels generic.\n\nThe problem starts before the writing.\n\nChatGPT needs to understand your brand, audience, positioning, voice, goals, and what has already worked before it can create content that actually feels like you.\n\nThese 7 prompts build that context in the right order.\n\nYou start by setting the foundation, then audit your ex",
+     "ts": "2026-08-26T13:06:00.000Z"
+    },
+    {
+     "shortcode": "DcfR7_LoGNR",
+     "kind": "carousel",
+     "likes": 1454,
+     "comments": 87,
+     "caption": "\"Jensen Huang believes the next big step for AI is getting it out of screens and into machines that can understand the physical world.\n\nThat means teaching robots basic things humans learn naturally, like how objects move, what happens after something falls, and how to avoid obstacles instead of just recognizing them.\n\nFor NVIDIA, this is where simulation becomes important.\n\nCredits: The Hill and ",
+     "ts": "2026-08-26T03:46:58.000Z"
+    },
+    {
+     "shortcode": "DceUULvknyD",
+     "kind": "carousel",
+     "likes": 1393,
+     "comments": 313,
+     "caption": "\"Swipe ⬅️ to see where AI is already proving most useful across today’s workforce.\n\nThe research looked at real conversations with Microsoft Bing Copilot rather than simply predicting what AI might eventually do.\n\nJobs built around writing, information, communication, and research showed stronger overlap with current generative AI capabilities.\".",
+     "ts": "2026-08-25T18:48:31.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "dailychatgpt",
+   "followers": 14,
+   "posts_total": 3,
+   "posts": []
+  },
+  {
+   "handle": "theaiavalanche",
+   "followers": 1325,
+   "posts_total": 2,
+   "posts": [
+    {
+     "shortcode": "DVa9hbTiCpY",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "10 likes, 0 comments - theaiavalanche on March 3, 2026",
+     "ts": "2026-03-03T11:52:00.000Z"
+    },
+    {
+     "shortcode": "DVawlbGiEGO",
+     "kind": "reel",
+     "likes": 13,
+     "comments": 1,
+     "caption": "\"You can download the new Claude Cowork to your machine to achieve unreal workflows.\n\n1️⃣ Point it at your messy desktop and watch it organize 300 files in 2 minutes. Select your desktop as the working folder and tell Claude to organize it. It scans every file, figures out what each one is, and sorts them into folders and subfolders automatically. Screenshots go in one place, project files in anot",
+     "ts": "2026-03-03T09:59:41.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "chatgptmastery",
+   "followers": 929000,
+   "posts_total": 955,
+   "posts": [
+    {
+     "shortcode": "DNQh_a0C1x9",
+     "kind": "carousel",
+     "likes": 22000,
+     "comments": 198,
+     "caption": "\"Give GPT-5 a Whole New Vibe 🔥\n\nWith Plus, Pro, or Team, you can now choose how ChatGPT talks to you. \n\nSarcastic? Supportive? Straight-to-the-point? Playful? It’s all there. Think of it as giving your AI a personality upgrade — same brains, brand-new attitude.\n\nIt won’t change what ChatGPT can do, but it will change how every answer feels. Ask for Python code in “Listener” mode? You’ll still get ",
+     "ts": "2025-08-12T14:27:43.000Z"
+    },
+    {
+     "shortcode": "DQW5yHyDH2Z",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "Interested in 200+ awesome prompts? \n\nDrop “200” below.\n\nFollow (us) @chatgptmastery for more daily AI topics.\".",
+     "ts": "2025-10-28T15:25:08.000Z"
+    },
+    {
+     "shortcode": "DQOv8msCD6c",
+     "kind": "reel",
+     "likes": 79,
+     "comments": 9,
+     "caption": "\"Imagine explaining gravity after getting smacked by fruit😣\n\nWhat’s the most unexpected way inspiration has ever hit ?🤔💬\n\n#ai #veo #newton #gravity #apple\".",
+     "ts": "2025-10-25T11:25:04.000Z"
+    },
+    {
+     "shortcode": "DQME7LqiCTC",
+     "kind": "reel",
+     "likes": 62,
+     "comments": 1,
+     "caption": "\"Ever had a plan go completely wrong but somehow work out?🤔💬\n\n#ai #veo #columbus #sea\".",
+     "ts": "2025-10-24T10:30:04.000Z"
+    },
+    {
+     "shortcode": "DQJgEhTCOiB",
+     "kind": "reel",
+     "likes": 61,
+     "comments": 2,
+     "caption": "\"Be honest — how long would you last on this construction site?🤔💬\n\n#ai #aivideo #veo #pyramid #egypt\".",
+     "ts": "2025-10-23T10:30:05.000Z"
+    },
+    {
+     "shortcode": "DQG7O4ijLQb",
+     "kind": "reel",
+     "likes": 155,
+     "comments": 5,
+     "caption": "\"So he became a millionaire after all huh? 🤔💬\n\n#ai #veo #aivideo #jackandthebeanstalk #millionaire #investment #funnny\".",
+     "ts": "2025-10-22T10:30:08.000Z"
+    },
+    {
+     "shortcode": "DQE_tM0jMXZ",
+     "kind": "reel",
+     "likes": 41,
+     "comments": 3,
+     "caption": "\"Where will be the next raid? 🤔💬\n\n#ai #veo #aivideo viking #raid #carbs\".",
+     "ts": "2025-10-21T16:30:11.000Z"
+    },
+    {
+     "shortcode": "DQErJKNDOh1",
+     "kind": "image",
+     "likes": null,
+     "comments": null,
+     "caption": "Western CEOs are coming back from China shocked — and a little scared. 🚨\n\nFord’s CEO, Jim Farley, said his recent visit to Chinese car factories was “the most humbling thing I’ve ever seen.” He couldn’t believe how advanced the technology was — cars with built-in facial recognition, self-driving systems, and production lines run almost entirely by robots. He admitted, “Their cost and quality are f",
+     "ts": "2025-10-21T13:30:09.000Z"
+    },
+    {
+     "shortcode": "DQEWiUxjEJe",
+     "kind": "reel",
+     "likes": 70,
+     "comments": 2,
+     "caption": "\"Was it all worth it? 🤔💬\n\n#ai #veo #ninja #lifechoices #worth\".",
+     "ts": "2025-10-21T10:30:07.000Z"
+    },
+    {
+     "shortcode": "DQBxqDNEXb5",
+     "kind": "reel",
+     "likes": 88,
+     "comments": 2,
+     "caption": "\"Were they really underpaid? 🤔💬\n\n#ai #aivideo #veo #pyramid #egypt\".",
+     "ts": "2025-10-20T10:30:04.000Z"
+    },
+    {
+     "shortcode": "DQBPZ5dDAEU",
+     "kind": "reel",
+     "likes": 42,
+     "comments": 0,
+     "caption": "\"Was the wolf misunderstood?🤔🐺\n\n#veo #ai #aivideo #redridinghood #wolf\".",
+     "ts": "2025-10-20T05:30:08.000Z"
+    },
+    {
+     "shortcode": "DP6X2rdDLy8",
+     "kind": "carousel",
+     "likes": null,
+     "comments": null,
+     "caption": "These prompts give you the same mental frameworks elite CEOs use — for vision, clarity, and decisive execution. 💼⚡\n\n——-\n\nInterested in 200+ awesome prompts? \n\nDrop “200” below.\n\nFollow (us) @chatgptmastery for more daily AI topics.\".",
+     "ts": "2025-10-17T13:30:06.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "godofprompt",
+   "followers": 343000,
+   "posts_total": 660,
+   "posts": [
+    {
+     "shortcode": "DY43R-JiOFH",
+     "kind": "carousel",
+     "likes": 34,
+     "comments": 8,
+     "caption": "\"This code works only for people who found me on Instagram.\nGOINSTA at checkout. 20% off everything on the site.\nFrom AI Cheatsheets to Complete AI Bundle at $150 lifetime, where everything above plus Claude Skills Pack, best prompts, 10 mastery guides, and every product we drop going forward. Forever.\n\nThe code works on anything.\nLink in bio.\".",
+     "ts": "2026-05-28T16:08:45.000Z"
+    },
+    {
+     "shortcode": "DYzfZfjCH_C",
+     "kind": "carousel",
+     "likes": 208,
+     "comments": 89,
+     "caption": "\"The full library is open. For Free. Link in bio.\nThousands of prompts sorted by tool and use case.\nStrong prompts follow a structure. Role + Goal + Format + Constraint. \nOnce you see it, you can't go back to open-ended requests.\nWhich prompt category do you want next?\".",
+     "ts": "2026-05-26T14:03:51.000Z"
+    },
+    {
+     "shortcode": "DYxNx34CJv8",
+     "kind": "carousel",
+     "likes": 81,
+     "comments": 8,
+     "caption": "\"I was rebuilding what we put out here.\nNew prompt guides every week, tested before they post. \nAutomation workflows from our internal and intensive testing. Claude skills, n8n flows and many more. \nYou have no idea what’s coming. \n\nPlus an Instagram-only deal while we're back: GOINSTA at checkout takes 20% off everything on site.\nGlad you're still here.\".",
+     "ts": "2026-05-25T16:51:25.000Z"
+    },
+    {
+     "shortcode": "DchcCBYHNcL",
+     "kind": "carousel",
+     "likes": 366,
+     "comments": 688,
+     "caption": "\"Comment “course” and I’ll send you the link.\n\nAnthropic just released a free course to a $500k AI engineering job.\n\nFour hours covering the right way to prompt Claude, what makes it act dumber on your code, how Anthropic uses Claude internally every day, and the fix that makes it noticeably smarter. This free course replaces about 10 paid engineering courses.\".",
+     "ts": "2026-08-26T23:53:41.000Z"
+    },
+    {
+     "shortcode": "DchOTCinL2f",
+     "kind": "carousel",
+     "likes": 41,
+     "comments": 18,
+     "caption": "\"Comment “AI” and I’ll send you the full breakdown.\n\nKimi K3 just scanned an $8,000 three-story office model\n\nKimi K3 can already scan a Revit model through Autodesk’s own official MCP, flagging clashes and cross-checking disciplines, but it stays strictly read-only by design. Point it at a community-built Revit MCP instead, and it edits directly, rerouting pipes, resizing ducts, deleting elements",
+     "ts": "2026-08-26T21:53:39.000Z"
+    },
+    {
+     "shortcode": "DcfKNSwnPiK",
+     "kind": "carousel",
+     "likes": 61,
+     "comments": 238,
+     "caption": "\"Comment \"Claude\" and I'll send you the link.\n\nThis free tool replaces weeks of Claude Code setup.\n\nSomeone built ECC, a free, open-source toolkit that turns Claude Code into a coordinated engineering system, planning before it builds, testing its own work, and reviewing itself from a fresh context. 68 agents, 286 skills, 94 commands, plus AgentShield running 1,282 security tests built in. Works a",
+     "ts": "2026-08-26T04:23:55.000Z"
+    },
+    {
+     "shortcode": "Dce_3IAHBPu",
+     "kind": "carousel",
+     "likes": 44,
+     "comments": 39,
+     "caption": "\"Comment \"Claude\" and I'll send you the link\n\nThis setting saves you thousands of Claude Code tokens.\nAnthropic just shipped a new Concise output style in Claude Code v2.1.237. Run /config, search \"Output,\" choose \"Concise,\" and Claude starts leading with the result instead of narrating everything first, explanations only when you ask. Independent testing shows it cuts output tokens by 60-70%. \n\nO",
+     "ts": "2026-08-26T02:36:14.000Z"
+    },
+    {
+     "shortcode": "DcchO53nEza",
+     "kind": "carousel",
+     "likes": 198,
+     "comments": 488,
+     "caption": "\"Comment “Claude” and I’ll send you the full breakdown.\n\nThis is the only site you need for Claude skills and plugins.\n\nSomeone built BuildWithClaude, a free, open-source directory of Claude skills, commands, plugins, agents and 100% community-submitted. It covers sales, marketing, content, crypto trading, and more, most with a one-click copy or GitHub link. The kind of thing you’d expect to pay f",
+     "ts": "2026-08-25T02:02:54.000Z"
+    },
+    {
+     "shortcode": "Dccg9qTHJ8C",
+     "kind": "carousel",
+     "likes": 493,
+     "comments": 688,
+     "caption": "\"Comment “agents” and I’ll send you the link.\n\nGoogle just released a free course on AI agent design patterns.\n\nFive patterns, 0% to 100%: Sequential to start from scratch, Parallel to run everything at once, Router to pick the path, Loop to retry until it’s right, and Graph to wire it all into one full system. The only course that covers every pattern that matters, in 30 minutes.\".",
+     "ts": "2026-08-25T02:00:34.000Z"
+    },
+    {
+     "shortcode": "DcZlJ6mnBR5",
+     "kind": "carousel",
+     "likes": 150,
+     "comments": 297,
+     "caption": "\"Comment “Claude” and I’ll send you the full breakdown.\n\nThis is the only site you need for Claude skills and plugins.\n\nSomeone built BuildWithClaude, a free, open-source directory of Claude skills, commands, plugins, agents and 100% community-submitted. It covers sales, marketing, content, crypto trading, and more, most with a one-click copy or GitHub link. The kind of thing you’d expect to pay f",
+     "ts": "2026-08-23T22:39:28.000Z"
+    },
+    {
+     "shortcode": "DcZkXTInN9P",
+     "kind": "carousel",
+     "likes": 109,
+     "comments": 133,
+     "caption": "\"Comment “agents” and I’ll send you the link.\n\nGoogle just released a free course on AI agent design patterns.\n\nFive patterns, 0% to 100%: Sequential to start from scratch, Parallel to run everything at once, Router to pick the path, Loop to retry until it’s right, and Graph to wire it all into one full system. The only course that covers every pattern that matters, in 30 minutes.\".",
+     "ts": "2026-08-23T22:32:33.000Z"
+    },
+    {
+     "shortcode": "DcZW29CnMmx",
+     "kind": "carousel",
+     "likes": 1134,
+     "comments": 1434,
+     "caption": "\"Comment “AI” and I’ll send you the link.\n\nKimi K3 is now 100% free.\n\nTokenRouter is giving away 50 million tokens to use Kimi K3. \n\nNo trial period, no credit card, just an API key. Sign up, create a key, and drop it into any OpenAI-compatible tool, works in Cursor, Claude Code, Cline, OpenCode, and more. 50 million tokens to try a frontier model without paying.\".",
+     "ts": "2026-08-23T20:34:32.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "aitoolreport",
+   "followers": 16,
+   "posts_total": 0,
+   "posts": []
+  },
+  {
+   "handle": "futurism",
+   "followers": 1000000,
+   "posts_total": 5214,
+   "posts": [
+    {
+     "shortcode": "DW7T4cZkQcY",
+     "kind": "carousel",
+     "likes": 20000,
+     "comments": 748,
+     "caption": "\"Who, exactly, is Sam Altman?⁠\n⁠\nHere's a hint: Maybe not the guy Sam Altman wants you to believe he is.⁠\n⁠\nSee our full coverage at the link in bio.\".",
+     "ts": "2026-04-09T21:54:23.000Z"
+    },
+    {
+     "shortcode": "DaeGjFmmQPj",
+     "kind": "carousel",
+     "likes": 19000,
+     "comments": 487,
+     "caption": "\"In the early days of the AI boom, experts warned that employees may be spending more time hunting down the many errors being made by unreliable and hallucinating AI tools than if they weren’t using the tech at all.⁠\n⁠\nThose predictions are coming perfectly true. And for companies that went all-in on generative AI, that's becoming an extremely large problem.⁠\n⁠\nSee our full coverage at the link in",
+     "ts": "2026-07-06T23:45:31.000Z"
+    },
+    {
+     "shortcode": "DV4Tqj5ErlO",
+     "kind": "carousel",
+     "likes": 5924,
+     "comments": 417,
+     "caption": "\"Surprise, surprise: all that climate stuff scientists have been warning us about is coming back to bite us. ⁠\n⁠\nAnd by us, of course, we mean all of humanity.⁠\n⁠\nSee our full coverage at the link in our bio.\".",
+     "ts": "2026-03-14T21:23:23.000Z"
+    },
+    {
+     "shortcode": "DchNX4aIONe",
+     "kind": "carousel",
+     "likes": 9223,
+     "comments": 335,
+     "caption": "\"We’re racing towards a future where AI enables the “factory farming of humans,” a Harvard professor warns — if tech elites get their way, at least.\n\nIn a new episode of the @nytimes “Hard Fork” podcast, the historian Jill Lepore discusses her idea of an “artificial state” that’s supplanting the traditional nation state, and particular constitutional democracy, with one that erases human autonomy.",
+     "ts": "2026-08-26T21:45:41.000Z"
+    },
+    {
+     "shortcode": "Dcepexhmp36",
+     "kind": "carousel",
+     "likes": 1764,
+     "comments": 36,
+     "caption": "\"Last week, the European Central Bank issued a dire warning, warning that a “market correction” following years of AI hype and massive spending could be nigh — a crash that could have enormous international consequences.\n\nIt joined a growing chorus of analysts warning of urgent signs of an impending market collapse, a sobering possibility for the US economy that’s grown incredibly overleveraged on",
+     "ts": "2026-08-25T21:53:32.000Z"
+    },
+    {
+     "shortcode": "DccAzDOl2Db",
+     "kind": "carousel",
+     "likes": 8266,
+     "comments": 116,
+     "caption": "\"If this isn’t an indictment on America’s hatred of Flock cameras, we don’t know what is: On Wednesday, a grand jury in Ohio refused to bring felony charges against a Clermont County man accused of destroying a Flock automatic license plate reader (ALPR).\n\nThe prosecution’s case seemed iron-clad: according to local reports, police in suburban Cincinnati identified Cody Morelock using surveillance ",
+     "ts": "2026-08-24T21:19:34.000Z"
+    },
+    {
+     "shortcode": "DcZZ1XAiTJ9",
+     "kind": "carousel",
+     "likes": 1540,
+     "comments": 245,
+     "caption": "\"In theory, the AI industry should have a very attractive story for the public: automate away drudgery and free everyone up to do the things they really love.\n\nIn practice, they’ve bungled that layup narrative in favor of alternate fearmongering and out-of-touch outbursts that have alienated an incredible chunk of the population. \n\nAnd, crucially, public sentiment seems to be moving in exactly the",
+     "ts": "2026-08-23T21:00:37.000Z"
+    },
+    {
+     "shortcode": "DcUVgTtDSUf",
+     "kind": "carousel",
+     "likes": 1887,
+     "comments": 176,
+     "caption": "\"Since neuroscientists began excavating the human mind in search of the root cause of consciousness, they’ve acting on one foundational assumption — that consciousness is a function of the brain. It’s highly intuitive: we’re conscious, while rocks and dirt and other inanimate matter don’t seem to be.\n\nHowever, one researcher is flipping that assumption on its head. At a neuroscience symposium in P",
+     "ts": "2026-08-21T21:46:36.000Z"
+    },
+    {
+     "shortcode": "DcRry_EieEt",
+     "kind": "carousel",
+     "likes": 6112,
+     "comments": 201,
+     "caption": "\"Normally, you’d imagine huge megacorporations having a personal army of the best lawyers in the world who can spin anything in their favor. You’d certainly think that would be the case for 3M, the industrial conglomerate that got away with permanently poisoning our planet with “forever chemicals.”\n\nBut nobody’s perfect all the time. In a lawsuit about who’s liable for a Houston explosion that kil",
+     "ts": "2026-08-20T21:03:39.000Z"
+    },
+    {
+     "shortcode": "DcPHxqwn6rc",
+     "kind": "carousel",
+     "likes": 1194,
+     "comments": 190,
+     "caption": "\"The guy we have to thank for Dick Cheney living as long as he did with extraordinary heart problems says that president Donald Trump ain’t looking too hot.\n\n“The president has not looked well,” wrote Jonathan Reiner, a professor of medicine and surgery at George Washington University, in a new essay for The New York Times.\n\nReiner acted as Cheney’s cardiologist for 27 years, so he knows a thing o",
+     "ts": "2026-08-19T21:10:26.000Z"
+    },
+    {
+     "shortcode": "DcMnV30j7pM",
+     "kind": "carousel",
+     "likes": 5124,
+     "comments": 149,
+     "caption": "\"Online marketplaces are being flooded with AI slop — but is anybody willing to actually pay for it?\n\nIn the case of CGTrader, a long-established online marketplace for 3D assets used by video game developers, film editors, and 3D printing nerds, users are sending a clear message. As @404mediaco reports, the marketplace is being flooded by AI-generated assets, representing one in six models — but ",
+     "ts": "2026-08-18T21:48:32.000Z"
+    },
+    {
+     "shortcode": "DcJ9F65HzIv",
+     "kind": "carousel",
+     "likes": 17000,
+     "comments": 1187,
+     "caption": "\"A decade ago, young adults were flocking to vaunted tech giants like Google and Apple in pursuit of exciting jobs on the cutting edge of tech. In 2026, however, the status quo of young people who are uncritically enamored with the tech industry and its billionaire overlords has gone completely out the window.\n\nA new survey conducted by the Generation Labs outfit at @cnbc asked over 1,000 US adult",
+     "ts": "2026-08-17T21:00:55.000Z"
+    }
+   ]
+  },
+  {
+   "handle": "techcrunch",
+   "followers": 2000000,
+   "posts_total": 6411,
+   "posts": [
+    {
+     "shortcode": "DcUk4g6tqOS",
+     "kind": "reel",
+     "likes": 83,
+     "comments": 16,
+     "caption": "\"Stripe claims the singularity is here, and justifies its $7.5B acquisition of OpenRouter.\n\nThe truth, as the Equity podcast crew highlights, is much more practical, as unglamorous as token expense management may seem.\".",
+     "ts": "2026-08-22T00:01:08.000Z"
+    },
+    {
+     "shortcode": "DcUNRpfy9lB",
+     "kind": "reel",
+     "likes": 117,
+     "comments": 6,
+     "caption": "\"Despite what other founders are posting, no one’s startup is perfect. Every company has problems so the real way to stand out to investors is to know how to focus your resources for success. \n\nWatch the full episode of Build Mode with the Puzzle founder and CEO Sasha Orloff anywhere you go for your podcasts.\".",
+     "ts": "2026-08-21T20:34:57.000Z"
+    },
+    {
+     "shortcode": "Db_SUratrPy",
+     "kind": "reel",
+     "likes": 206,
+     "comments": 15,
+     "caption": "\"Get a hands-on look at Google’s new Pixel 11 lineup, from the more durable Pro Fold, an updated new camera bar, and of course, a push for Gemini AI features.\".",
+     "ts": "2026-08-13T17:34:58.000Z"
+    },
+    {
+     "shortcode": "Db6nw98PzUa",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "Phia, the shopping startup co-founded by Phoebe Gates and Sophia Kianni, is once again under fire for its alleged business practices. The latest issue stems from earlier this year when Bloomberg published an investigation that mapped out how Phia was taking credit and commission for affiliate purchases it did not help to generate, known as cookie stuffing. \n\nWhen Bloomberg first reported on Phia’s",
+     "ts": "2026-08-11T22:07:15.000Z"
+    },
+    {
+     "shortcode": "DbwZmSChhnV",
+     "kind": "reel",
+     "likes": 339,
+     "comments": 30,
+     "caption": "\"You might not need a lawyer before you start fundraising, but you do need to set up a good legal foundation. \n\nIn this episode of Build Mode, CEO and founder of Lexsy @kristinasubbotina.esq breaks down the four unfixable mistakes that can make a startup unfundable or kill it outright. \n\nCatch the full episode with @hellabella__ wherever you prefer your pods!\".",
+     "ts": "2026-08-07T22:51:52.000Z"
+    },
+    {
+     "shortcode": "DbtvB7ZvA85",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "Vogue World is coming to San Francisco next year — perhaps another indication that tech billionaires have become leaders in the fashion zeitgeist.\n\nOf course, the announcement of the enormous fashion/art/music event doesn’t say that. Instead, Anna Wintour wrote that Vogue believes in celebrating cities and “San Francisco is a city like none other.” \n\nIn the past year, Wintour has cozied up to the ",
+     "ts": "2026-08-06T22:01:16.000Z"
+    },
+    {
+     "shortcode": "Dbtp0szydOT",
+     "kind": "reel",
+     "likes": 462,
+     "comments": 16,
+     "caption": "\"She started posting as a side project. Now @lightspeed’s @zauey.talks says it’s given her real-time visibility into how normal people (not just tech X) actually feel about AI.\n\n@dominicmadori on our Equity podcast digs into why that direct feedback loop changed how she invests.\".",
+     "ts": "2026-08-06T21:15:49.000Z"
+    },
+    {
+     "shortcode": "Dbl9ogzvMBG",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue. \nOver the weekend, OpenAI took what appears to be a handful of influencers to a luxury retreat in upstate New York for what was called “Summer Club.” There, the creators were treated to farm-to-table dinners, wellness activities like beekeeping, and classes on how to better use OpenAI pro",
+     "ts": "2026-08-03T21:34:27.000Z"
+    },
+    {
+     "shortcode": "DbeTcJTvpzf",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "A new report from the U.K.’s Imperial College and France’s Emlyon Business School has mapped out the ways Silicon Valley’s VC-backed founders commit fraud — and the role investors play.\n\nFor the report, published online in June, researchers built a database of tech founders and companies who faced civil and criminal securities fraud prosecutions from the SEC and DOJ between 2000 and 2023. \nSome fa",
+     "ts": "2026-07-31T22:10:57.000Z"
+    },
+    {
+     "shortcode": "DbTd9d9RYm2",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "The European answer to TBPN is here and ready to go live five days a week, starting July 27. \nLuke Knight and Ronan Chambers launched the London-based European Technology Network (@etn.show ) last October, breaking down tech trends and news during a two-day-a-week livestream. Right now, the show is livestreamed on X and YouTube and has garnered more than 5 million views.\n\nOn Monday, the network an",
+     "ts": "2026-07-27T17:11:34.000Z"
+    },
+    {
+     "shortcode": "DbL6pmlxrsm",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "Young founders are building under a new set of pressures. Investors are throwing more capital at them, yet the expectation to hit that “north star” milestone — the one big number investors are chasing — hasn’t relaxed, and every misstep along the way is now publicly dissected on social media. \n\nOne investor admitted the market has become “more merciless.”. \n\n“It doesn’t give you room to learn slow",
+     "ts": "2026-07-24T19:28:56.000Z"
+    },
+    {
+     "shortcode": "DbD5LPDxZyo",
+     "kind": "reel",
+     "likes": null,
+     "comments": null,
+     "caption": "Maritime nuclear energy startup Bluecore Energy on Tuesday said it had raised $10 million in a pre-seed funding round that was led by Slauson & Co.\n\nFounded seven months ago by Kofi Asante, who previously worked with Uber Freight, Bluecore is building small nuclear reactors (SMRs) on floating barges with an aim to provide clean power to ports and nearby infrastructure. The reactors heat water and ",
+     "ts": "2026-07-21T16:03:26.000Z"
+    }
+   ]
+  }
+ ]
+}

@@ -112,6 +112,43 @@ No Instagram-specific peer-reviewed replication of Berger & Milkman found.
 | 7 posts/day must-fill | NO direct data at that frequency; Buffer: 10+/week → 5.5x growth (correlational); Bakhshi: per-post dilution | MEDIUM/GAP |
 | Famous-name anchoring | Indirect only (Tellis, Rathje); no isolated large-N test | WEAK/GAP |
 
+## 10. Niche competitor audit (Aug 27 2026, own scrape — audit_accounts.py)
+
+134 posts scraped anonymously from 14 accounts (12 newest each, pinned posts
+excluded from cadence math). Raw data: ig/audit-accounts.json. Likes visible
+on ~55% of posts (IG hides counts on the rest anonymously) — medians use
+visible only. Content types labeled by one uniform Claude pass. (MEDIUM:
+small-N per account, single snapshot, likes ≠ reach.)
+
+**Cadence of the winners (posts/day, pinned-corrected):** @technology ~7.7,
+@getintoai ~8.3, @evolving.ai ~5.3, @eluna.ai ~5.4, @chatgptricks ~3.2,
+@techskills ~3.5, @futurism ~0.9 (single nightly 21:00 UTC carousel).
+The top AI pages run 3-8 carousels/day. Dormant/reel-only pages sit at the
+engagement bottom.
+
+**Format (median likes per 1M followers, cross-account):** carousel 4,381
+(9 accounts) vs reel 178 (7 accounts). 9 of 11 active accounts are
+carousel-first. The two reel-only pages are the two worst normalized
+performers (@techcrunch 103/1M, @theaisurfer 929/1M).
+
+**Content type (median likes per 1M followers, all visible posts):**
+story 3,788 (n=5) > wow_fact 2,625 (n=15) > recap 2,555 (n=3) >
+guide 1,740 (n=18) > news 1,600 (n=21) > prompt_magnet 1,218 (n=20) >
+promo 421 (n=4) > meme 89 (n=12).
+
+**Mix signature of the top pages:** none runs a single type. @technology
+(12 posts): 4 news + 3 recap + 2 wow + 1 story + 1 guide + 1 prompt-magnet.
+@evolving.ai: 4 news + 4 wow + 1 guide + 1 magnet + 2 meme. @techskills:
+4 news + 3 wow + 3 story + 2 guide. Guide-first @chatgptricks still mixes
+4 news into 12.
+
+**Posting hours (UTC, 134 posts):** peaks 21:00 (17 posts — the biggest),
+13:00 (11), 16:00 (11), 01:00 (11); valley at 23:00 (3).
+
+**Prompt magnets ("comment X, we DM you"):** on big mixed pages they hit
+above account median (@evolving.ai 24K, @technology 18K) but pages that are
+MOSTLY magnets score poorly (@godofprompt 376/1M) — a spice, not a diet.
+
 ## Primary sources
 - Berger & Milkman 2012, JMR — https://journals.sagepub.com/doi/10.1509/jmr.10.0353 (PDF: jonahberger.com/wp-content/uploads/2013/02/ViralityB.pdf)
 - Robertson et al. 2023, Nature Human Behaviour — https://www.nature.com/articles/s41562-023-01538-4

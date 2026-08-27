@@ -16,8 +16,11 @@ on:
     # TOKEN DIET (owner order Aug 8: the IG system was eating the whole Claude
     # plan — "You've hit your weekly limit" killed the Aug 7 slots). 5 carousels
     # -> 3: one guide + two news, all most-viral from the X radar.
-    # 13,17,23 UTC = 9am/1pm/7pm ET (US prime time, audit Jul 29).
-    - cron: "0 13,17,23 * * *"
+    # 13,17,21 UTC = 9am/1pm/5pm ET. The 23:00 slot moved to 21:00 on Aug 27:
+    # measured posting-hour histogram of 134 posts across 11 top niche pages —
+    # 21:00 UTC is the single biggest competitor peak (17 posts, e.g. futurism
+    # posts 21:00 daily) while 23:00 is a valley (3 posts).
+    - cron: "0 13,17,21 * * *"
   workflow_dispatch:
     inputs:
       kind:
@@ -104,7 +107,7 @@ jobs:
           # SLOT MIX (owner token-diet order Aug 8 — 1 guide + 2 news/day, all
           # most-viral from the X radar; money-proof slot is DEAD):
           #   13:00 UTC         = guide (most-viral X guide from the 7-day pool)
-          #   17:00 + 23:00 UTC = news (most-viral stories of the day)
+          #   17:00 + 21:00 UTC = news (most-viral stories of the day)
           # The "24 HOURS" recap is DEAD (owner directive Jul 31) — never re-add.
           KIND="${{ github.event.inputs.kind }}"
           if [ -z "$KIND" ] || [ "$KIND" = "auto" ]; then

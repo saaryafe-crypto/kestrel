@@ -45,6 +45,20 @@ EARNS A SLOT (in order of strength):
   real job to AI, already happening, reader feels late.
 - Real utility the reader can use TODAY: prompts, free tools, settings —
   taught in full on the slides, never just claimed.
+- A HISTORY ARC: a true PAST drama with a person, a giant number, and a
+  consequence — the trader who bet $10B against the pound, the guy who built
+  a $20K yacht in his backyard. "Something happened" does not mean "happened
+  this week": a story with a spine is a story forever. (Measured Aug 27
+  competitor audit, 134 posts across 11 top pages: story-arc posts are the
+  STRONGEST type per follower — 3,788 median likes/1M vs 1,600 for news.
+  @techskills runs 3 of these per 12 posts.)
+- A WOW FACT through the tech/AI/science lens: one evergreen jaw-dropping
+  TRUE fact with a number a reader can feel ("your brain runs on 12 watts —
+  a fraction of what one AI query burns"), from the approved watchlist's
+  viral tweets. (Measured Aug 27 audit: 2nd strongest type, 2,625/1M —
+  @evolving.ai runs 4 per 12 posts at 5M followers.) Pure astronomy stays
+  banned; the fact must land on tech, AI, money, or the reader's own body/
+  day.
 
 INSTANT KILL — no other rule can save these:
 - REACTION-BAIT: the "event" is that people REACTED to something online — a
