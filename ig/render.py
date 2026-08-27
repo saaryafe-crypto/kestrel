@@ -12,7 +12,8 @@ Layout spec (from @technology system analysis):
   still communicates the claim standalone. Writer marks them with <em>.
 - Content slides: photo edge-to-edge top ~58% feathered into black, headline +
   bold body below (connected, like the cover). No media -> big-type plain-black slide.
-- CTA slide: exactly one CTA (the FOLLOW pill).
+- CTA slide: exactly one CTA (the SEND pill — sends/reach is IG's top
+  discovery signal per Mosseri Jan 2025; follow asks banned owner Aug 18/27).
 - Safe zone: critical type inside middle 80% vertically."""
 import html, json, os, re, subprocess, sys, tempfile
 
@@ -189,8 +190,11 @@ body.cta h1{margin-bottom:56px}
 .cta-sub{font-size:38px;line-height:1.45;font-weight:600;max-width:24ch;margin:48px auto 0}
 .cta-sub b{font-weight:800}
 /* save-close recap (owner order Aug 18): the last slide is a one-screen
-   checklist built to be SAVED — story beats with orange ticks, send-line
-   below the pill; the pill alone carries the follow ask */
+   checklist built to be SAVED — story beats with orange ticks, sub-line
+   below the pill; the pill alone carries the SEND ask (owner Aug 27:
+   Mosseri names sends-per-reach the #1 discovery signal, and the Aug 18
+   follow-ban finally reaches the renderer — this pill was the last
+   hard-coded follow ask in the system) */
 .recap{display:inline-block;text-align:left;margin:0 auto 48px;
        font-size:40px;line-height:1.4;font-weight:600;color:#FFF;
        text-shadow:0 3px 12px rgba(0,0,0,.85)}
@@ -198,7 +202,7 @@ body.cta h1{margin-bottom:56px}
 .recap .row:last-child{margin-bottom:0}
 .recap .tick{color:#D97757;font-weight:800;flex-shrink:0}
 .recap b{font-weight:800}
-/* photo CTA (@technology closing slide): cover anatomy + follow pill */
+/* photo CTA (@technology closing slide): cover anatomy + send pill */
 body.ctaphoto .ctarow{text-align:center;margin-top:38px}
 """
 
@@ -394,7 +398,7 @@ def discs_html(s):
     return out
 
 
-def slide_html(s, handle, total, fallback_media=None):
+def slide_html(s, total, fallback_media=None):
     css = (CSS.replace("FONTS", HERE + "/fonts").replace("ARTPATH", HERE + "/art")
               .replace("SIZE", str(s.get("hsize", 100))))
     media = os.path.join(HERE, s["media"]) if s.get("media") else None
@@ -491,12 +495,12 @@ def slide_html(s, handle, total, fallback_media=None):
             return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="cover ctaphoto">{bg}
 <div class="frame">{MASTHEAD}<h1>{s["headline"]}</h1>{recap}
-<div class="ctarow"><span class="pill">Follow {handle}</span></div>{sub}</div>{FIT_JS}</body>'''
+<div class="ctarow"><span class="pill">Send this to a friend</span></div>{sub}</div>{FIT_JS}</body>'''
         return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="cta">{art_bg(s["headline"], heavy=True)}
 <div class="frame">{MASTHEAD}
 <h1>{s["headline"]}</h1>{recap}
-<div><span class="pill">Follow {handle}</span></div>
+<div><span class="pill">Send this to a friend</span></div>
 {sub}
 </div></body>'''
 
@@ -572,7 +576,7 @@ def render(post_path, out_dir):
     fallback = next((s.get("media") for s in slides if s.get("media")), None)
     for n, s in enumerate(slides, 1):
         with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f:
-            f.write(slide_html(s, post["handle"], len(slides), fallback))
+            f.write(slide_html(s, len(slides), fallback))
         png = os.path.join(out_dir, f"slide-{n}.png")
         subprocess.run([CHROME, "--headless", "--disable-gpu", f"--screenshot={png}",
                         "--window-size=1080,1350", "--hide-scrollbars",

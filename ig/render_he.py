@@ -171,10 +171,11 @@ body.cta h1{margin-bottom:56px}
 .pill{display:inline-block;background:#D97757;color:#FFF;font-family:HebHead;
       font-size:52px;letter-spacing:.02em;
       padding:26px 70px;border-radius:999px}
-.pill bdi{unicode-bidi:embed}
 .cta-sub{font-size:38px;line-height:1.5;font-weight:600;max-width:24ch;margin:48px auto 0}
 .cta-sub b{font-weight:800}
-/* photo CTA (@technology closing slide): cover anatomy + follow pill */
+/* photo CTA (@technology closing slide): cover anatomy + send pill
+   (owner Aug 27: sends/reach = IG's top discovery signal per Mosseri —
+   the follow ask is gone from the pill, both renderers) */
 body.ctaphoto .ctarow{text-align:center;margin-top:38px}
 """
 
@@ -357,7 +358,7 @@ def discs_html(s):
     return out
 
 
-def slide_html(s, handle, total, fallback_media=None):
+def slide_html(s, total, fallback_media=None):
     css = (CSS.replace("FONTS", HERE + "/fonts")
               .replace("SIZE", str(s.get("hsize", 100))))
     media = os.path.join(HERE, s["media"]) if s.get("media") else None
@@ -448,12 +449,12 @@ def slide_html(s, handle, total, fallback_media=None):
             return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="cover ctaphoto">{bg}
 <div class="frame">{masthead()}<h1>{s["headline"]}</h1>{recap}
-<div class="ctarow"><span class="pill">עקבו אחרי <bdi>{handle}</bdi></span></div>{sub}</div>{FIT_JS}</body>'''
+<div class="ctarow"><span class="pill">שלחו את זה לחבר</span></div>{sub}</div>{FIT_JS}</body>'''
         return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="cta">{art_bg(s["headline"], heavy=True)}
 <div class="frame">{masthead()}
 <h1>{s["headline"]}</h1>{recap}
-<div><span class="pill">עקבו אחרי <bdi>{handle}</bdi></span></div>
+<div><span class="pill">שלחו את זה לחבר</span></div>
 {sub}
 </div></body>'''
 
@@ -521,7 +522,7 @@ def render(post_path, out_dir):
     fallback = next((s.get("media") for s in slides if s.get("media")), None)
     for n, s in enumerate(slides, 1):
         with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f:
-            f.write(slide_html(s, post["handle"], len(slides), fallback))
+            f.write(slide_html(s, len(slides), fallback))
         png = os.path.join(out_dir, f"slide-{n}.png")
         subprocess.run([CHROME, "--headless", "--disable-gpu", f"--screenshot={png}",
                         "--window-size=1080,1350", "--hide-scrollbars",
