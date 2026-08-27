@@ -1,0 +1,114 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE</em> IN GROK",
+   "kicker": "MOST TRADERS USE 3-MONTH-OLD CHARTS",
+   "hsize": 70,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-27-edu-7-grok-crypto-prompts-for-real-time-x-se/gen-0.jpg",
+   "image_prompt": "Elon Musk waist-up in luminous robe, hands on glowing crystal ball, knowing grin bright-lit by electric-blue flash, Bitcoin and Ethereum coins, X-symbols swirling within, bright neon signs behind, 35mm documentary."
+  },
+  {
+   "type": "content",
+   "headline": "1) SCAN LIVE X SENTIMENT <em>ON ANY COIN IN SECONDS</em>",
+   "hsize": 100,
+   "body": "Every chart you look at is already priced in. Paste this into Grok:\n\n\"Search X for [COIN] in the last 6 hours. Rate sentiment 1 to 10 and flag sudden volume spikes.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) FIND WHICH CRYPTO INFLUENCERS</em> JUST CHANGED THEIR MIND",
+   "hsize": 95,
+   "body": "People who move prices post on X before they trade. Paste this into Grok:\n\n\"Find crypto accounts who mentioned [COIN] in the last 7 days. Flag anyone bearish 30 days ago but bullish now.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) CATCH THE MOMENT <em>A COIN'S STORY SHIFTS</em>",
+   "hsize": 100,
+   "body": "Every 10x starts as a story shift days before price catches up. Paste this into Grok:\n\n\"Compare [COIN] narrative 7 days ago vs. last 24 hours. Score whether the shift looks real or manufactured.\"",
+   "media": "posts/2026-08-27-edu-7-grok-crypto-prompts-for-real-time-x-se/gen-3.jpg",
+   "image_prompt": "Frame split exactly down the center: left half deep-orange blazing with X-card shapes bearing skull and downward-arrow symbols, right half vivid lime-green blazing with X-card shapes bearing rocket and upward-arrow symbols, a thick bold white shift arrow erupting from the central divide; no human figures, entire frame saturated with clashing color fields, no readable words. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: deep orange against vivid lime green."
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "YOUR CHART IS ALREADY PRICED IN.",
+   "hsize": 110,
+   "body": "Grok finds the noise before a green candle appears.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) SEPARATE <em>FUD FROM REAL RISK</em> ON ANY COIN",
+   "hsize": 100,
+   "body": "Knowing which warnings are real keeps holders in a 10x. Paste this into Grok:\n\n\"Find the most common negative [COIN] claims on X. Flag any that look like a coordinated campaign.\"",
+   "media": "posts/2026-08-27-edu-7-grok-crypto-prompts-for-real-time-x-se/gen-5.jpg",
+   "image_prompt": "Tight on two hands over a laptop keyboard, the screen displaying a two-column checklist of alternating large crimson warning-triangle symbols on X-card shapes and large green checkmark symbols on X-card shapes, scattered warning triangles glowing crimson across the vivid white-lit desk surface, no faces visible; the entire frame blazing with crimson and clean white light. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: crimson red against clean white."
+  },
+  {
+   "type": "content",
+   "headline": "6) TRACK WHAT <em>WHALE WALLETS ARE DOING</em> ON X",
+   "hsize": 100,
+   "body": "Whale moves appear on X before charts signal anything. Paste this into Grok:\n\n\"Search X for whale buys or big [COIN] transfers in the last 24 hours. Give a bull and bear case.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) BUILD <em>YOUR OWN ENTRY AND EXIT TIMING MODEL</em>",
+   "hsize": 88,
+   "body": "Most traders guess when to buy and sell. Paste this into Grok:\n\n\"Based on everything X is saying about [COIN], turn the community's buy and sell levels into a simple entry and exit plan.\"",
+   "media": "posts/2026-08-27-edu-7-grok-crypto-prompts-for-real-time-x-se/gen-7.jpg",
+   "image_prompt": "Close-up of two hands holding a tablet angled toward camera, screen showing a clean price chart with a vivid green band at the bottom marked with bold upward-arrow symbols and a vivid red band at the top marked with bold downward-arrow symbols, thick horizontal entry and exit marker lines crossing the chart; warm golden lamp light floods the frame, minimal wooden desk surface visible. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: warm gold against rich mahogany."
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 7 GROK CRYPTO PROMPTS",
+   "hsize": 95,
+   "body": "1. Scan live X sentiment\n2. Catch who just flipped\n3. Find projects before they trend\n4. Separate FUD from fact\n5. Build your entry and exit plan\n\nDaily AI news + real skills.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to steal 7 Grok prompts that read live X conversation to find crypto moves before the chart shows them. \ud83d\udd0d\n\nPrompt 1 scans live X sentiment on any coin and rates it 1 to 10, Prompt 2 finds the 10 most-followed crypto influencers who just changed their mind on a coin, Prompt 3 catches the moment a coin's narrative shifts before the chart does, Prompt 4 hunts projects gaining fast X noise before they trend, Prompt 5 separates FUD from verified fact on any current negative claim, Prompt 6 tracks whale wallet discussion on X and builds a bull and bear case, Prompt 7 turns everything X is saying into your own entry and exit timing plan.\n\nEvery trader looks at the same charts. Grok reads what the actual buyers and sellers are saying on X in real time, often hours before price moves. That gap is where early positions get built.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Tech_Rose1\n\n#crypto #grok #cryptotrading #AI #bitcoin",
+ "pinned_comment": "Which prompt are you running first? Prompt 3 is the sleeper. It catches the narrative shift days before your chart shows a single green candle.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>7 GROK PROMPTS</em> THAT FIND THE NEXT 10X GEM",
+   "7 GROK PROMPTS <em>CRYPTO TRADERS ARE QUIETLY USING</em>",
+   "<em>7 GROK CRYPTO PROMPTS</em> MOST TRADERS HAVE NEVER TRIED",
+   "<em>7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE</em> IN GROK"
+  ],
+  "scores": [
+   5,
+   6,
+   5,
+   7
+  ],
+  "winner": 3,
+  "why": "[3]'s bold claim to 'catch tomorrow's move' is more stop-scroll-worthy than [1]'s mysterious 'quietly using' angle. Audacity beats intrigue."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "7 GROK PROMPTS <em>THAT CATCH WHALE WALLETS BEFORE PRICE MOVES</em>",
+   "7 GROK PROMPTS <em>FOR WHAT YOUR CRYPTO CHART CAN'T SHOW</em>",
+   "<em>7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE</em> IN GROK",
+   "7 GROK PROMPTS <em>MOST PAID CRYPTO TOOLS STILL CHARGE FOR</em>"
+  ],
+  "scores": [
+   6,
+   3,
+   9,
+   6
+  ],
+  "winner": 2,
+  "why": "[2] punches harder because 'CATCH TOMORROW'S CRYPTO MOVE' makes you go 'WAIT, WHAT?' and stop scrolling instantly\u2014it's either revolutionary or obviously BS, and you need to know which. [0] tells an interesting whale-wallet story but never creates that jaw-drop impact that actually kills the scroll."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "HOOK is a banned label headline \u2014 '7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE IN GROK' is a listicle header, not the required summarizing cover sentence (actor + action + wild specifics, 12-25 words). Rewrite as a single complete sentence: e.g. 'GROK CAN SCAN LIVE X CONVERSATION ON ANY COIN AND HAND YOU AN ENTRY PLAN IN 30 SECONDS'.; SLIDE 2 IS NOT A SECOND HOOK \u2014 it immediately delivers prompt 1"
+}

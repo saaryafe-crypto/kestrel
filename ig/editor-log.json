@@ -1,47 +1,5 @@
 [
  {
-  "t": "2026-08-19T15:16:43Z",
-  "gate": "A",
-  "subject": "JUST IN: Robinhood CEO Vlad Tenev says we are at the beginning of a \"tokenization supercycle\" that will \"eat the entire ",
-  "verdict": "KILL",
-  "reason": "Reaction-bait / no substance: the 'event' is a CEO's prediction shared on Twitter with engagement metrics, not a real-world consequence—kills under instant-kill rule (no money moved, no action taken, nothing happened except people liked a quote)."
- },
- {
-  "t": "2026-08-19T15:16:46Z",
-  "gate": "A",
-  "subject": "After endless engineering calculations, the result is achieved",
-  "verdict": "KILL",
-  "reason": "No substance: vague statement naming no specific event, person, numbers, or real consequence—nothing to build slides from except padding."
- },
- {
-  "t": "2026-08-19T15:16:57Z",
-  "gate": "A",
-  "subject": "A robot now drives me around. A robot now vacuums my house. A robot now mows my lawn.",
-  "verdict": "KILL",
-  "reason": "NO SUBSTANCE: three parallel observations with zero consequence, no numbers, no proof, no real event—just a trend statement that a writer would have to entirely fabricate around; the source lacks any second fact or specifics (how, when, cost, impact on life)."
- },
- {
-  "t": "2026-08-19T15:17:08Z",
-  "gate": "A",
-  "subject": "Grandma always disciplined the kids with her slippers. If they misbehaved and ran off, she’d throw one and never missed.",
-  "verdict": "KILL",
-  "reason": "No substance: the entire source is a single thin tweet about a cute moment with zero real-world consequence; nothing to fill a carousel without padding."
- },
- {
-  "t": "2026-08-19T16:26:28Z",
-  "gate": "B",
-  "subject": "A ROBOT IS ALREADY UNDERCUTTING YOUR PRICES. <em>5 PROMPTS TO WIN ANYWAY</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — generated unknown face on cover: the man holding the SHIELD card is a generated non-famous person. §3 hard ban: 'Never a generated unknown face.' The cover must be replaced with the real product (iRobot/Waymo/robot mower in action), a recognizable famous person whose role connects to the story, or a staged scene that proves the hook — not a fabricated spokesperson.; IMAGE LAW — Claude "
- },
- {
-  "gate": "A",
-  "reason": "NO SUBSTANCE: the entire source is one vague 62-character tweet with zero specifics, zero named actor, zero numbers, and no real consequence; a writer would have to pad it with speculation, which violates law §1.",
-  "subject": "After endless engineering calculations, the result is achieved",
-  "t": "2026-08-19T12:49:13Z",
-  "verdict": "KILL"
- },
- {
   "gate": "A",
   "reason": "This is a CEO's bullish prediction with no real-world event, money moved, or consequence — it's on-topic but routine executive commentary (analyst targets and predictions are explicitly banned), and the entire story collapses to a single quote with no second fact to build from.",
   "subject": "JUST IN: Robinhood CEO Vlad Tenev says we are at the beginning of a \"tokenization supercycle\" that will \"eat the entire ",
@@ -2098,5 +2056,47 @@
   "subject": "6 TASKS BUSINESSES PAY <em>$30,000 FOR</em> THAT CLAUDE DOES FREE",
   "verdict": "REJECT",
   "reason": "SHUFFLE TEST FAILURE (§4 hard gate): Tasks 1–6 are completely independent units — slide 3 (contracts) makes full sense before or after slide 5 (homepage), and the same is true for every middle slide. This is a numbered listicle, not a story chain. The fix is a structural rewrite: each slide must end with a named open loop that the next slide's headline scratches, creating dependency.; SLIDE 2 NOT "
+ },
+ {
+  "t": "2026-08-27T16:47:34Z",
+  "gate": "A",
+  "subject": "JUST IN: $13 trillion Charles Schwab to add Solana, Avalanche, and Chainlink trading to Schwab Crypto accounts.",
+  "verdict": "KILL",
+  "reason": "Launch preview masquerading as news — a company announced a feature it will add, but nothing actually happened and there's no real-world consequence to report."
+ },
+ {
+  "t": "2026-08-27T16:47:36Z",
+  "gate": "A",
+  "subject": "We have conducted a thorough investigation into the Hugging Face incident. We are releasing a technical report and accom",
+  "verdict": "KILL",
+  "reason": "The source is a procedural announcement (report coming soon) with zero specifics about what the incident was, no numbers, no named consequences, and no details—the writer would have to pad or speculate to fill slides."
+ },
+ {
+  "t": "2026-08-27T16:48:24Z",
+  "gate": "A",
+  "subject": "Grok Build made this fun lil Mars simulator game for my nephew. I gave it simple prompts. It did the rest: wrote systems",
+  "verdict": "KILL",
+  "reason": "No substance: one thin fact (AI built a game), no numbers, specificity, or consequence; writer would pad to fill slides."
+ },
+ {
+  "t": "2026-08-27T16:49:13Z",
+  "gate": "A",
+  "subject": "BREAKING: Neuralink just released a new video of Audrey Crews, paralyzed from the neck down since a car crash at 16 - cr",
+  "verdict": "APPROVE",
+  "reason": "A paralyzed woman created digital art with her mind using Neuralink; real person achieving something outrageous with a real outcome, the exact type of story people send to friends."
+ },
+ {
+  "t": "2026-08-27T17:40:30Z",
+  "gate": "B",
+  "subject": "SHE COULDN'T DRAW FOR 20 YEARS AFTER A CRASH AT 16. A BRAIN CHIP JUST GAVE HER ART BACK <em>USING ONLY HER THOUGHTS</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 6 ('BUSINESSES RUNNING AI DON'T NEED MORE HANDS') is a business AI sales pitch with zero connection to Audrey Crews or Neuralink. It shatters the question chain (slide 5 closes on 'It made it irrelevant' — a natural story end), breaks cover contract (the cover promises Audrey's story, not a lead-gen pitch), and reads to the audience as an ad injected mid-carousel. Fix: cut slide 6 entirely. "
+ },
+ {
+  "t": "2026-08-27T18:22:23Z",
+  "gate": "B",
+  "subject": "<em>7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE</em> IN GROK",
+  "verdict": "REJECT",
+  "reason": "HOOK is a banned label headline — '7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE IN GROK' is a listicle header, not the required summarizing cover sentence (actor + action + wild specifics, 12-25 words). Rewrite as a single complete sentence: e.g. 'GROK CAN SCAN LIVE X CONVERSATION ON ANY COIN AND HAND YOU AN ENTRY PLAN IN 30 SECONDS'.; SLIDE 2 IS NOT A SECOND HOOK — it immediately delivers prompt 1"
  }
 ]
