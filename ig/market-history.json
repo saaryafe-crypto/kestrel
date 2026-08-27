@@ -1,11 +1,6 @@
 [
  {
   "page": "technology",
-  "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from major product launches and software upgrades to robotics records and leadership changes \ud83c\udf10\ud83e\udd16\n\nJennifer Bailey is retiring after 12 years leading ",
-  "date": "2026-08-12"
- },
- {
-  "page": "technology",
   "hook": "\"Do you like the new or old logo better? \ud83e\udd14\n\nInstagram is replacing its familiar cursive wordmark with a cleaner new design, marking the first major change to the lettering in roughly 10 years.\n\nnstagram\u2019s updated wordmar",
   "date": "2026-08-13"
  },
@@ -18,26 +13,6 @@
   "page": "technology",
   "hook": "\"Swipe \u2b05\ufe0f to see some of the world\u2019s most expensive private aircraft linked to billionaires, celebrities and royals, where luxury interiors can push costs far beyond standard jets \ud83d\udcb0\n\nThe list ranges from Elon Musk\u2019s Gulf",
   "date": "2026-08-13"
- },
- {
-  "page": "technology",
-  "hook": "\"NASA was forced to publicly confirm that Earth would not lose gravity for 7 seconds after false Project Anchor claims spread ahead of the eclipse \ud83c\udf0d\n\nThe supposed leaked NASA file claimed gravity would disappear for 7.3 ",
-  "date": "2026-08-12"
- },
- {
-  "page": "mashable",
-  "hook": "\"Do you think green bubbles are red flags? \ud83d\udea9 \n\n#google #madebygoogle #texting #allaccess #tech\".",
-  "date": "2026-08-12"
- },
- {
-  "page": "mashable",
-  "hook": "\"Take a peek at all the new colors for the new Google Pixel 11 phones. \ud83d\udc40\u2060\n\u2060\nWhich color is your favorite? (We're partial to the pink \ud83d\udc95)\".",
-  "date": "2026-08-12"
- },
- {
-  "page": "mashable",
-  "hook": "\"Nothing could have prepared Willem Dafoe for the Dune popcorn bucket.\u2060\n\nHeat to the LIB for the full interview!\n\u2060\n\ud83c\udfa4: Kristy Puchko\u2060\n\u2060\n#dune #saymore #film #willemdafoe\".",
-  "date": "2026-08-12"
  },
  {
   "page": "techcrunch",
@@ -73,11 +48,6 @@
   "page": "futurism",
   "hook": "\"In light of plummeting public support for its widespread automatic license plate readers, surveillance company Flock has lost dozens of contracts with cities across the US. Citizens are increasingly disgusted by the com",
   "date": "2026-08-13"
- },
- {
-  "page": "futurism",
-  "hook": "\"German AI researcher and hedge fund manager Leopold Aschenbrenner became the poster child for the hubris of an AI-obsessed Wall Street last month.\n\nSome $35 billion of investors\u2019 money, in the form of leveraged bets on ",
-  "date": "2026-08-12"
  },
  {
   "page": "mashable",
@@ -168,16 +138,6 @@
   "page": "wired",
   "hook": "\"Jeff Yoo was working nights as an ER doctor in Vancouver when weather forecasters warned that a heat wave was coming. He didn\u2019t think much of it. But when a record-breaking heat dome hit on June 25, 2021, temperatures c",
   "date": "2026-08-13"
- },
- {
-  "page": "wired",
-  "hook": "\"For the first time in more than a century, Spain witnessed a total solar eclipse. The astronomical phenomenon, which was also partially visible in some regions of northern North America, much of Europe, and western Afri",
-  "date": "2026-08-12"
- },
- {
-  "page": "wired",
-  "hook": "\"At last week\u2019s Black Hat security conference in Las Vegas, OpenAI gave a surprise talk with new details on a recent hacking incident, revealing that its rogue AI agents had chitchatted about their attack on a message bo",
-  "date": "2026-08-12"
  },
  {
   "page": "technology",
@@ -558,5 +518,100 @@
   "page": "wired",
   "hook": "\"Not even 24 hours after dating app Bumble announced it was getting rid of its trademark feature that requires women to make the first move, Robin H.\u2019s inbox was already attracting unwanted attention.\n\n\u201cThis guy responde",
   "date": "2026-08-23"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech, AI, gaming and space in the last 24 hours, from strange internet experiments to major hardware and infrastructure updates \ud83c\udf0d\u26a1\n\nA QR code tool turned links into interactive 3D tr",
+  "date": "2026-08-25"
+ },
+ {
+  "page": "technology",
+  "hook": "\"A small humanoid robot takes on a 100m race at Beijing\u2019s World Humanoid Robot Games, continuing down the track despite its unstable, stop-start stride. \ud83e\udd16\ud83c\udfc3\n\nRunning requires a robot to repeatedly shift its centre of mass",
+  "date": "2026-08-27"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to explore the new GTA 6 details Rockstar revealed, from physical body changes and social media to deeper choices, smarter NPCs and realistic driving \ud83c\udfae\ud83c\udf34\n\nJason and Lucia can gain weight, build muscle and physic",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "technology",
+  "hook": "\"LEGO Skylines is bringing the familiar city building formula into a world made entirely from LEGO bricks, with players responsible for building and running everything \ud83c\udfd9\ud83e\uddf1\n\nDeveloped by Iceflake Studios and published by P",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "technology",
+  "hook": "\"China\u2019s humanoid robot race showed just how quickly these machines are getting faster, but controlling that speed remains a very different challenge \ud83e\udd16\ud83d\udca5\n\nAt the 2026 World Humanoid Robot Games in Beijing, several robots ",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Comment \u201cSEND\u201d and we\u2019ll send you the prompts \ud83d\udc47\n\nChatGPT can turn a single uploaded photo into everything from a professional portrait to a cinematic photoshoot when you give it the right instructions \ud83d\udcf8\n\nThese 9 prompts",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see what happened around the world in the last 24 hours, from major AI updates and gaming news to robots, platform changes, and new product launches \ud83e\udd16\ud83c\udf0d\n\nHonor\u2019s humanoid broke apart during a 100 metre sprint",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see some of the most extreme military machines ever built, from Mach 3 spy planes to stealth bombers and aircraft that could hover. \n\nThe lineup includes the B-2 Spirit, B-21 Raider, SR-71 Blackbird, F-117 N",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Xbox officially announces Disc-to-Digital as a new feature that lets supported physical games unlock digital access while keeping ownership connected to the original disc \ud83c\udfae\ud83d\udcbf\n\nTesting begins August 31 for Xbox Insiders, ",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Nvidia just delivered another blockbuster quarter, with revenue hitting a record $96.2B, more than double the same quarter last year.\n\nThe AI chip giant also forecast roughly $108B in revenue for the next quarter, showi",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Advocates for children tell WIRED that Meta\u2019s legal settlement to address concerns about teenagers\u2019 use of social media proposes important and overdue feature changes that invite more parental oversight than ever before",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "wired",
+  "hook": "\"OpenAI announced Wednesday that it completed an investigation into what happened when its AI agents hacked into Hugging Face last month and published its most comprehensive report on the incident to date. For the most p",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "wired",
+  "hook": "\"For years, China's military and intelligence agencies, which carry out hacking campaigns against targets around the globe, have grown increasingly reliant on a vast web of proxy devices that enable and obfuscate their t",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Dan Osborn was finishing up his fourth town hall last Sunday, he says, when a \u201chardcore MAGA\u201d guy approached him. Osborn, who is running for the US Senate in Nebraska as an independent against Republican incumbent Pete ",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "wired",
+  "hook": "\"China\u2019s endlessly delightful World Humanoid Robot Games featured tons of impressive stunts. But the most mindblowing tricks were far less showy, and a lot more significant.\n\nFor more like this, subscribe to Will Knight\u2019",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Well, that was quick. Not even a quarter of the way into an expected 19-day federal trial over Meta\u2019s alleged failure to protect young users, the social media giant agreed to settle the case. The company has agreed to p",
+  "date": "2026-08-26"
+ },
+ {
+  "page": "wired",
+  "hook": "\"The amount of gas-fired power in development for data centers in the US has nearly doubled in less than a year, new research released Tuesday shows. The findings illustrate just how heavily tech companies are relying on",
+  "date": "2026-08-25"
+ },
+ {
+  "page": "wired",
+  "hook": "\"The US Supreme Court ruled on Monday that President Donald Trump\u2019s executive order imposing severe restrictions on voting by mail ahead of November\u2019s midterms can proceed. While a nationwide injunction preventing the US",
+  "date": "2026-08-25"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Rolando Perez Samayoa had come to the US in 2023 seeking safety. Fleeing violence in Mexico, he\u2019d first planned to make a life in Alabama but had been told that Illinois would protect immigrants like him. \u201cThere\u2019s some ",
+  "date": "2026-08-25"
  }
 ]
