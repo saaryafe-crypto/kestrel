@@ -104,6 +104,45 @@ def market_boost(stories):
           file=sys.stderr)
 
 
+def evergreen_boost(stories):
+    """Story-arc / wow-fact bench (owner order Aug 27: the competitor audit
+    measured these as the niche's two STRONGEST content types — 3,788 and
+    2,625 median likes/1M vs 1,600 for news — and he ordered them made legal
+    and pulled from X: "pull these most viral things from twitter!").
+    story-pool.json is filled by radar_x's high-floor wide net (10K+ likes,
+    politics- and lens-gated). The top few unseen entries join every slot's
+    candidate pool scored on RAW likes (evergreen has no velocity); the
+    interest judge, Gate A, and the dupe judge still rule on each one. The
+    add cap keeps 100K-like monsters from crowding news out of every slot.
+    Fails open: no pool = ranking stands."""
+    try:
+        pool = json.load(open(os.path.join(HERE, "story-pool.json")))
+        entries = pool.get("stories", [])
+    except Exception:
+        return
+    known = [sig(s["title"]) for s in stories]
+    added = 0
+    for m in sorted(entries, key=lambda m: -m.get("score", 0)):
+        if added >= 6:
+            break
+        ms = sig(m.get("title", ""))
+        if any(same(ms, k) for k in known):
+            continue
+        stories.append({"title": m["title"], "link": m.get("permalink"),
+                        "date": pool.get("updated", ""),
+                        # src is x: — these ARE X tweets (owner's Aug 27
+                        # wide-net order), so the source gate passes them
+                        "src": f"x:{m.get('sub', 'unknown')}",
+                        "score": round(40 + min(80, m.get("score", 0) / 2500), 1),
+                        "image": m.get("image"), "radar": m,
+                        "evergreen": True})
+        known.append(ms)
+        added += 1
+    if added:
+        print(f"evergreen bench: {added} story-arc/wow-fact candidates joined",
+              file=sys.stderr)
+
+
 def radar_boost(stories):
     """Demand Radar (radar.py, Mac, every 2h): breakout moments from the
     owner-approved X watchlist ONLY (owner order Aug 3), with velocity math
@@ -300,6 +339,7 @@ def main(out_path="stories.json"):
     they can never add a story to the pool."""
     stories = []
     radar_boost(stories)   # empty pool in -> every fresh X moment joins as a candidate
+    evergreen_boost(stories)  # story-arc/wow-fact bench (owner order Aug 27)
     # HARD source gate, the last line of defense: any story whose src is not
     # an x: handle dies here — even if a booster or future code ever tries
     # to inject one, it cannot reach stories.json.

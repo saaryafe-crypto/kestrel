@@ -24,9 +24,13 @@ COOLDOWN_S = 55 * 60
 # (script, output root, slot times on the Mac clock = IL time)
 # MUST match the launchd plists (ai.yaffe.ig-reel / ig-reel-he) — Aug 13:
 # stale 4-slot times here made the watchdog count a phantom slot all day
+# (and until Aug 27 this list still carried the HE 13:15 slot the Aug 15
+# plist fix had moved to 16:15 — same phantom-slot bug, now moot).
+# 1 reel/day per channel since Aug 27 (owner match-the-data order: measured
+# reels 178 likes/1M vs carousels 4,381 — freed slots fund 5 carousels/day).
 CHANNELS = [
-    ("reel.py",    "posts",    [(15, 0), (19, 0), (23, 0)]),
-    ("reel_he.py", "posts-he", [(9, 15), (13, 15), (20, 15)]),
+    ("reel.py",    "posts",    [(19, 0)]),
+    ("reel_he.py", "posts-he", [(20, 15)]),
 ]
 
 

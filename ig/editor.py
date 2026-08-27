@@ -139,6 +139,18 @@ def gate_b(post, cover_path=None):
             "test or story-arc rules, which are story-post law. Everything "
             "else fully applies: language law, truth law, image law, the "
             "cover contract, and the save-close.")
+    elif post.get("container") == "daily_recap":
+        container_note = (
+            "\n\nCONTAINER NOTE: this post is the daily_recap container — the "
+            "day's-biggest-stories roundup the owner turned ON Aug 27 (the "
+            "competitor audit measured recap at 2,555 median likes/1M; "
+            "@technology's two biggest posts ever are roundups). Independent "
+            "story slides ARE its legal structure: do NOT reject it for "
+            "failing section 4's shuffle test, story-arc rules, or section "
+            "1's roundup/already-published kills — covering the day's stories "
+            "again IS the format. Everything else fully applies: language "
+            "law, truth law, image law, hook law per slide, and the "
+            "save-close.")
     prompt = f"""{doctrine()}
 
 ----

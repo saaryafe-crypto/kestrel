@@ -158,6 +158,56 @@ def _is_wide_guide(text):
     return bool(WIDE_STRONG_RE.search(text)
                 or re.search(r"(?i)\bhow to\b|\bhere'?s how\b", text[:80]))
 
+
+# WIDE STORY/WOW NET (owner order Aug 27: "change that and make it legal and
+# pull these most viral things from twitter!"). The Aug 27 competitor audit
+# (134 posts, 14 accounts) measured story arcs and wow facts as the two
+# STRONGEST content types in the niche — 3,788 and 2,625 median likes/1M vs
+# 1,600 for news — and the watchlist alone surfaces few of them. Same guarded
+# reopening as the Aug 10 guide net: server-side floor 5x the guide bar
+# (all-of-X junk risk), politics gate, owner-lens context gate (AI /
+# investments / entrepreneurship / inspiration / space / technology — his
+# exact list), and a digit required (doctrine: an arc needs a giant number).
+# Feeds ONLY story-pool.json via radar.py — the news radar stays
+# watchlist-only (the Aug 3 order stands for news).
+STORY_SEARCH_EVERY_H = 12
+STORY_SEARCH_FLOOR = 10000  # "most viral" per the owner's words — monsters only
+STORY_SEARCH_AGE_D = 7      # the TWEET's virality must be current; the story
+                            # it tells may be decades old (doctrine history-arc)
+N_WIDE_STORY = 16           # top keeps per search, 1/account
+
+# 9 rotating phrasings, 4 per search, stride 4 (gcd(4,9)=1 — guide-net
+# pattern: a different slice every half-day, full coverage every 9).
+STORY_QUERIES = (
+    '(founder OR billionaire OR CEO) (fired OR bankrupt OR rejected OR '
+    '"dropped out" OR "started with") (billion OR million)',
+    '("bet against" OR "went all in" OR "sold everything" OR shorted) '
+    '(billion OR million OR stock OR bitcoin)',
+    '("the story of" OR "story behind" OR "true story") '
+    '(founder OR company OR built OR fortune OR invention)',
+    '("did you know" OR "wild fact" OR "mind blowing" OR unbelievable) '
+    '(AI OR tech OR space OR internet OR brain)',
+    '(bought OR invested) ("now worth" OR "would be worth" OR '
+    '"turned into") (million OR billion)',
+    '(Buffett OR Musk OR Bezos OR Jobs OR Gates OR Zuckerberg OR Altman) '
+    '("once said" OR "at age" OR "years ago" OR "when he was")',
+    '("quit his job" OR "quit her job" OR "side hustle" OR "self-made") '
+    '(millionaire OR billionaire OR revenue)',
+    '(SpaceX OR NASA OR rocket OR satellite) ("first ever" OR record OR '
+    '"years ago" OR "the story")',
+    '(lost OR made OR turned) (million OR billion) (overnight OR '
+    '"in one day" OR "in a week" OR everything)',
+)
+
+# Owner-lens context gate — the tweet must land on one of the six lenses he
+# named Aug 27. The queries already push toward them; this is the belt
+# against X matching query words inside quoted tweets (the Aug 10 leak).
+STORY_CONTEXT_RE = re.compile(
+    r"(?i)\bAI\b|chat\s?gpt|openai|claude|gemini|\brobots?\b|\btech\b"
+    r"|startup|founder|\bCEO\b|billion|million|\$\d|\bstocks?\b|invest"
+    r"|crypto|bitcoin|company|spacex|\bnasa\b|rocket|satellite|internet"
+    r"|computer|iphone|software|\bapp\b|entrepreneur|business")
+
 # REEL VIDEO SCOUT (owner order Aug 16 — "no reels were uploaded yesterday
 # and you should always scout from the twitter api on whats viral": Aug 14-15
 # shipped ZERO reels while the approved pages had 61 viral videos in the
@@ -596,6 +646,51 @@ def harvest():
               file=sys.stderr)
         moments.extend(wide)  # guide pool + thread mining; radar.py strips
                               # wide_guide before writing radar.json
+
+    # WIDE STORY/WOW NET (owner order Aug 27, constants above): all-of-X
+    # search for the two strongest measured content types. Story pool ONLY —
+    # radar.py strips wide_story before writing radar.json.
+    if now - led.get("last_story_search", 0) >= STORY_SEARCH_EVERY_H * 3600:
+        s_since = int(now - STORY_SEARCH_AGE_D * 86400)
+        wild, wild_accts = [], set()
+        half_day = int(now // 43200)  # half-day rotation, guide-net pattern
+        for k in range(4):
+            q = STORY_QUERIES[(half_day * 4 + k) % len(STORY_QUERIES)]
+            time.sleep(6)
+            try:
+                d = _get(key, "/twitter/tweet/advanced_search",
+                         query=f"{q} min_faves:{STORY_SEARCH_FLOOR} "
+                               f"since_time:{s_since} lang:en",
+                         queryType="Top")
+            except Exception as e:
+                print(f"  ! x story search '{q[:40]}': {e}", file=sys.stderr)
+                continue
+            tweets = d.get("tweets") or []
+            led["reads"] += max(len(tweets), 1)
+            for t in tweets:
+                if str(t.get("id")) in seen_ids:
+                    continue
+                seen_ids.add(str(t.get("id")))
+                m = _moment(t, now, max_age_h=STORY_SEARCH_AGE_D * 24,
+                            floor=STORY_SEARCH_FLOOR)
+                if not m or m["sub"] in wild_accts:
+                    continue
+                blob = f"{m['title']} {m.get('selftext') or ''}"
+                if political(blob):
+                    continue
+                # owner-lens context + a number (an arc needs a giant number)
+                if not (STORY_CONTEXT_RE.search(blob)
+                        and re.search(r"\d", blob)):
+                    continue
+                wild_accts.add(m["sub"])
+                m["wide_story"] = True
+                wild.append(m)
+        wild.sort(key=lambda m: -m["score"])
+        wild = wild[:N_WIDE_STORY]
+        led["last_story_search"] = now
+        print(f"wide story/wow net: {len(wild)} viral arcs from all of X",
+              file=sys.stderr)
+        moments.extend(wild)
 
     # ISRAEL NEWS LANE (owner order Aug 10, constants above): two searches per
     # fresh poll (~40 reads, 3x/day ≈ $0.02/day) into il-news.json ONLY —

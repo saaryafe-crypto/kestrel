@@ -47,18 +47,20 @@ EARNS A SLOT (in order of strength):
   taught in full on the slides, never just claimed.
 - A HISTORY ARC: a true PAST drama with a person, a giant number, and a
   consequence — the trader who bet $10B against the pound, the guy who built
-  a $20K yacht in his backyard. "Something happened" does not mean "happened
-  this week": a story with a spine is a story forever. (Measured Aug 27
-  competitor audit, 134 posts across 11 top pages: story-arc posts are the
-  STRONGEST type per follower — 3,788 median likes/1M vs 1,600 for news.
-  @techskills runs 3 of these per 12 posts.)
+  a $20K yacht in his backyard, the founder who was fired/bankrupt/rejected
+  and came back (inspiration arcs are owner-legal, order Aug 27). "Something
+  happened" does not mean "happened this week": a story with a spine is a
+  story forever. (Measured Aug 27 competitor audit, 134 posts across 11 top
+  pages: story-arc posts are the STRONGEST type per follower — 3,788 median
+  likes/1M vs 1,600 for news. @techskills runs 3 of these per 12 posts.)
 - A WOW FACT through the tech/AI/science lens: one evergreen jaw-dropping
   TRUE fact with a number a reader can feel ("your brain runs on 12 watts —
   a fraction of what one AI query burns"), from the approved watchlist's
   viral tweets. (Measured Aug 27 audit: 2nd strongest type, 2,625/1M —
   @evolving.ai runs 4 per 12 posts at 5M followers.) Pure astronomy stays
-  banned; the fact must land on tech, AI, money, or the reader's own body/
-  day.
+  banned; the fact must land on one of the owner's approved lenses (order
+  Aug 27): AI, technology, investments/money, entrepreneurship, space-tech,
+  or the reader's own body/day.
 
 INSTANT KILL — no other rule can save these:
 - REACTION-BAIT: the "event" is that people REACTED to something online — a
@@ -76,10 +78,12 @@ INSTANT KILL — no other rule can save these:
   writer would have to pad, kill it.
 - ON-TOPIC BUT ROUTINE: being about AI/tech/space/markets earns NOTHING.
   Market wraps, stocks-rose-today, analyst targets, launch previews,
-  how-to-watch, live blogs, recap roundups — banned. (Data note Aug 4:
-  @technology's two biggest posts are weekly roundups, 88K and 84K likes vs
-  their 36K median — a proven format held in reserve, OFF until the owner
-  turns it on.)
+  how-to-watch, live blogs — banned. Recap roundups are legal ONLY in the
+  dedicated daily-recap container (turned ON Aug 27 under the owner's
+  match-the-data order: recap = 2,555 median likes/1M in the competitor
+  audit, @technology runs 3 per 12 posts and their two biggest posts ever
+  are roundups, 88K/84K vs 36K median); a NEWS slot still never ships a
+  roundup.
 - UNKNOWN ACTOR AS THE STORY: if the story only works when you know an
   obscure brand/person, it fails. Famous names or universal nouns only.
 - PURE ASTRONOMY / non-tech wow content: off-brand. Space counts only through
@@ -187,8 +191,10 @@ INSTANT KILL — no other rule can save these:
 - Every fact true and current; numbers sanity-checked, stale figures rounded
   DOWN to the biggest safe claim. Never fake a number, a scarcity, or a
   deadline. Credits are plain names ("SpaceX", never "@SpaceX"). Sources:
-  ONLY the owner-approved X watchlist (watchlist-x.json) — no other source
-  exists.
+  the owner-approved X watchlist (watchlist-x.json) plus the owner-ordered
+  high-floor wide X searches — viral guides (order Aug 10) and viral
+  story-arc/wow-fact tweets (order Aug 27: "pull these most viral things
+  from twitter"). Nothing outside X exists as a source.
 - Reposted material must be materially TRANSFORMED (our card, title, original
   commentary): Instagram removes serial aggregators of untransformed reposts
   from recommendations entirely (official policy, Apr 2024) — a raw repost

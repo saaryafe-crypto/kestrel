@@ -13,18 +13,23 @@ name: IG autopost
 
 on:
   schedule:
-    # TOKEN DIET (owner order Aug 8: the IG system was eating the whole Claude
-    # plan — "You've hit your weekly limit" killed the Aug 7 slots). 5 carousels
-    # -> 3: one guide + two news, all most-viral from the X radar.
-    # 13,17,21 UTC = 9am/1pm/5pm ET. The 23:00 slot moved to 21:00 on Aug 27:
-    # measured posting-hour histogram of 134 posts across 11 top niche pages —
-    # 21:00 UTC is the single biggest competitor peak (17 posts, e.g. futurism
-    # posts 21:00 daily) while 23:00 is a valley (3 posts).
-    - cron: "0 13,17,21 * * *"
+    # 5 CAROUSELS/DAY (owner match-the-data order Aug 27: "did they post 5?
+    # post 5"). Measured Aug 27 audit, 134 posts / 14 accounts: top niche
+    # pages run 3-8 carousels/day (median ~5) and carousels beat reels ~25x
+    # per follower (4,381 vs 178 median likes/1M) — the 3 reel slots/day cut
+    # from the Mac launchd lanes pay this token bill (net slots unchanged).
+    # Hours are the measured competitor peaks: 21:00 UTC is the single
+    # biggest (17 posts), then 01:00 / 13:00 / 16:00 (11 each); the old
+    # 23:00 slot was a valley (3 posts) and is gone.
+    # ROLLBACK RULE (the Aug 8 token diet exists because 5/day once ate the
+    # whole Claude plan): the FIRST "hit your weekly limit" failure drops
+    # the 16:00 slot; a second drops 01:00 (recap goes weekly). Never let
+    # the limit kill prime slots to keep off-peak ones.
+    - cron: "0 1,13,16,17,21 * * *"
   workflow_dispatch:
     inputs:
       kind:
-        description: "auto | story | edu"
+        description: "auto | story | edu | recap"
         default: "auto"
       repost:
         description: "existing posts/<name> to re-publish as-is (skips generation)"
@@ -104,16 +109,20 @@ jobs:
           # step commits it — one web-search call per day, as designed.
           python culture.py > /tmp/culture-refresh.log 2>&1 &
           python scout.py   # X watchlist radar.json ONLY (owner order Aug 3) -> stories.json
-          # SLOT MIX (owner token-diet order Aug 8 — 1 guide + 2 news/day, all
-          # most-viral from the X radar; money-proof slot is DEAD):
-          #   13:00 UTC         = guide (most-viral X guide from the 7-day pool)
-          #   17:00 + 21:00 UTC = news (most-viral stories of the day)
-          # The "24 HOURS" recap is DEAD (owner directive Jul 31) — never re-add.
+          # SLOT MIX (owner match-the-data order Aug 27 — mirror the measured
+          # winner mix: story arcs and wow facts ride the news slots via the
+          # evergreen bench in scout.py):
+          #   13:00 UTC              = guide (most-viral X guide, 7-day pool)
+          #   16:00 + 17:00 + 21:00  = news/story (most-viral of the day)
+          #   01:00 UTC (~9pm ET)    = daily recap (measured 2,555 likes/1M;
+          #                            @technology's 2 biggest posts ever are
+          #                            roundups — Jul 31 removal predates data)
           KIND="${{ github.event.inputs.kind }}"
           if [ -z "$KIND" ] || [ "$KIND" = "auto" ]; then
             H=$(date -u +%H)
             case "$H" in
               13) KIND=edu ;;
+              01) KIND=recap ;;
               *)  KIND=story ;;
             esac
           fi
@@ -139,6 +148,10 @@ jobs:
             python edu.py | tee /tmp/write.log || EDU_MODE= python write.py | tee /tmp/write.log || EDU_MODE= STORY_RELAX=1 python write.py | tee /tmp/write.log || EDU_MODE= python edu.py | tee /tmp/write.log
           elif [ "$KIND" = "money" ]; then
             STORY_PREF=money python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+          elif [ "$KIND" = "recap" ]; then
+            # daily recap (owner match-the-data order Aug 27); a failed recap
+            # never skips the slot — news ladder fills it (always-post law)
+            python recap.py | tee /tmp/write.log || python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           else
             python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           fi

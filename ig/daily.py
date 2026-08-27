@@ -22,8 +22,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import spy  # DESC_RE + meta() + n() — same parsing as the competitor scrape
 
-CHANNELS = {"yaffeai": {"carousels": 5, "reels": 4},      # reels 2->4 (owner Jul 31)
-            "ainews.israel": {"carousels": 5, "reels": 4}}
+CHANNELS = {"yaffeai": {"carousels": 5, "reels": 1},      # Aug 27 match-the-data
+            "ainews.israel": {"carousels": 5, "reels": 1}}  # order: 5 carousels
+# + 1 reel/day per channel (audit: carousels 4,381 likes/1M vs reels 178)
 COMMIT_PATTERNS = {  # git subjects are the system's own publish ledger
     "yaffeai": {"carousels": r"^IG post: ", "reels": r"^IG reel: "},
     "ainews.israel": {"carousels": r"^IG post HE: ", "reels": r"^IG reel HE: "}}
