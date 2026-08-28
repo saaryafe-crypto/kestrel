@@ -202,9 +202,15 @@ STORY_QUERIES = (
 # Owner-lens context gate — the tweet must land on one of the six lenses he
 # named Aug 27. The queries already push toward them; this is the belt
 # against X matching query words inside quoted tweets (the Aug 10 leak).
+# Aug 28 goats-on-Etna post-mortem: a viral nature story ("goats predict
+# eruptions, beating million-euro sensors") passed because bare money
+# amounts (million/billion/$) counted as context — "million euros of
+# equipment" is not an owner lens. The tweet must now name a lens SUBJECT;
+# an amount alone no longer qualifies (the digit check below still
+# guarantees a number exists).
 STORY_CONTEXT_RE = re.compile(
     r"(?i)\bAI\b|chat\s?gpt|openai|claude|gemini|\brobots?\b|\btech\b"
-    r"|startup|founder|\bCEO\b|billion|million|\$\d|\bstocks?\b|invest"
+    r"|startup|founder|\bCEO\b|\bstocks?\b|invest"
     r"|crypto|bitcoin|company|spacex|\bnasa\b|rocket|satellite|internet"
     r"|computer|iphone|software|\bapp\b|entrepreneur|business")
 

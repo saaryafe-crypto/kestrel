@@ -1312,7 +1312,8 @@ def qa_repair(post, errs):
     prompt = f"""You are the copy editor of a finished Instagram carousel. Below is the post JSON and the exact list of quality-gate failures. Fix ONLY the listed problems, changing the minimum text needed — every word not implicated by a failure stays EXACTLY as it is, and the JSON structure, field names, and slide order stay identical.
 
 How to fix the common failures:
-- body too long: cut to the best 2 sentences, 30 words max — keep the <b> tags and the concrete facts, drop the weakest sentence
+- body too long: cut to the best 2 sentences, 30 words max — keep the <b> tags and the concrete facts, drop the weakest sentence; if the kept text runs past 120 characters, separate the sentences with a paragraph break (\\n\\n)
+- body is a dense wall with zero line breaks: keep the words, just insert a paragraph break (\\n\\n) between the distinct beats (or \\n• bullets if it lists items) — this is a formatting fix, not a rewrite
 - body repeats its own headline's number: replace that sentence with a NEW true fact from the post's other text, or the plain-words consequence — never re-say the headline
 - number repeated across slides: keep it on the earlier slide, rewrite the later mention into a different true specific
 - cta save-close failures: headline becomes a save-command mirroring the cover's claim, 6-11 words ("SAVE THIS: THE WEEK AI COST VISA $2 BILLION" register, never a follow line); body becomes 3-5 newline-separated recap lines (the story's beats in order, ≤8 words each, numbers in <b>) plus one final send-line

@@ -60,7 +60,11 @@ EARNS A SLOT (in order of strength):
   @evolving.ai runs 4 per 12 posts at 5M followers.) Pure astronomy stays
   banned; the fact must land on one of the owner's approved lenses (order
   Aug 27): AI, technology, investments/money, entrepreneurship, space-tech,
-  or the reader's own body/day.
+  or the reader's own body/day. The lens subject must be the STAR of the
+  fact, not the backdrop or the loser: a nature/animal/history fact that
+  merely mentions or defeats technology ("goats predict eruptions better
+  than million-euro sensors") is OFF-lens — KILL it, even with a bolted-on
+  business moral (Aug 28 goats-on-Etna post-mortem: this is an AI page).
 
 INSTANT KILL — no other rule can save these:
 - REACTION-BAIT: the "event" is that people REACTED to something online — a
