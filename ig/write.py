@@ -1343,7 +1343,15 @@ Return ONLY the complete corrected JSON object, same shape."""
 
 
 def qa(post):
-    slides, caption = post["slides"], post["caption"]
+    # shapeless-reply guard (run 33189373845 post-mortem: qa_repair on the
+    # CLI path has no schema and returned JSON without a 'slides' key; the
+    # KeyError here crashed the final ladder rung — same disease as recap.py
+    # Aug 27; a malformed post is a QA error for the repair pass, never a
+    # crash)
+    if not isinstance(post, dict) or not post.get("slides"):
+        return ["reply is not a post JSON with a slides array — return the "
+                "FULL corrected post object, same shape as the original"]
+    slides, caption = post["slides"], post.get("caption", "")
     # profile-card format (@techskills anatomy, owner example Aug 1): card
     # slides carry the story in the body (no headline), and the cover is a
     # longer record-sentence — several gates relax for it
