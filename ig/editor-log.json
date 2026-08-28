@@ -1,145 +1,5 @@
 [
  {
-  "t": "2026-08-20T17:30:18Z",
-  "gate": "A",
-  "subject": "STATIC FIRE: Ship 41 fires up ahead of Starship Flight 14. Opening test, looks like single engine.",
-  "verdict": "KILL",
-  "reason": "No substance: a 98-character source tweet describing routine SpaceX pre-flight procedure with zero consequence, secondary facts, or hook — the writer would have to pad empty air."
- },
- {
-  "t": "2026-08-20T17:30:23Z",
-  "gate": "A",
-  "subject": "Tesla has just announced that it will be officially sharing the launch details for the @Tesla Semi in Europe in mid Sept",
-  "verdict": "KILL",
-  "reason": "Launch preview (explicitly banned format): announces a future announcement with zero real consequence and insufficient substance to build slides without padding."
- },
- {
-  "t": "2026-08-20T19:05:22Z",
-  "gate": "B",
-  "subject": "<em>6 FREE WEBSITES</em> THAT FEEL ILLEGAL TO KNOW",
-  "verdict": "REJECT",
-  "reason": "HOOK IS A LABEL/APHORISM — banned by §2. '6 FREE WEBSITES THAT FEEL ILLEGAL TO KNOW' is 8 words, not a sentence, has no actor, no action, no consequence. Hook law requires 12-25 words, ONE complete sentence with actor + what happened + wild specifics. Fix: convert to a sentence — e.g., 'These 6 free websites do things people pay hundreds of dollars a year for, and almost nobody knows they exist.';"
- },
- {
-  "t": "2026-08-20T23:26:41Z",
-  "gate": "A",
-  "subject": "I made a kids learning app for my nephew using @Grok Build… and he loves it! ❤️",
-  "verdict": "KILL",
-  "reason": "Single thin tweet with no second fact, no numbers, no real consequence — just a personal sentiment (nephew liked an app); writer would have to fabricate to fill slides, and a 16-year-old wouldn't send this to a friend."
- },
- {
-  "t": "2026-08-20T23:27:23Z",
-  "gate": "A",
-  "subject": "I just set up Grok @Bot to remotely control my autonomous robot lawn mower that is 50 miles away. It literally took 2 mi",
-  "verdict": "APPROVE",
-  "reason": "A builder demonstrating that an AI bot can actually control a physical robot remotely and complete a real job (lawn mowed, docked itself) with specific surprising numbers (3-second response, 2-minute setup) hits the 'people letting AI do real jobs' criterion—readers would share this because it shows an emerging capability they might not know exists yet."
- },
- {
-  "t": "2026-08-20T23:55:51Z",
-  "gate": "B",
-  "subject": "A GUY TYPED 'START MOWING' INTO AN AI CHAT AND <em>A ROBOT LAWN MOWER 50 MILES AWAY STARTED 3 SECONDS LATER</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH violation — IMAGE LAW hard kill: the cover subject is Elon Musk, a recognizable famous person who has no role in this story. The actor is an anonymous guy on X. Musk is on the cover as brand association for Grok, pure decoration. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' The cover must be replaced "
- },
- {
-  "t": "2026-08-21T01:26:42Z",
-  "gate": "B",
-  "subject": "<em>A DAD BUILT</em> HIS NEPHEW'S FAVORITE APP. HE CAN'T CODE.",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH violation: the cover shows a generated likeness of Elon Musk, who has no role in this story — the story is about an anonymous dad. Per the explicit Cast Truth rule, a recognizable famous person as cover subject with no role in the story is an immediate REJECT. Fix: replace with a generic-dad-at-laptop scene, or reframe the hook/story around Grok/xAI and make that the anchor (but then th"
- },
- {
-  "t": "2026-08-21T01:33:56Z",
-  "gate": "B",
-  "subject": "<em>A DAD BUILT</em> HIS NEPHEW'S FAVORITE APP. HE CAN'T CODE.",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — CAST TRUTH VIOLATION (hard reject): The cover shows Elon Musk. The story is about an anonymous dad who used Grok Build; Musk has no role in this story. Image Law is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT — a celebrity as decoration breaks image-headline connection.' Musk as decoration here is the exact failure"
- },
- {
-  "t": "2026-08-21T07:46:01Z",
-  "gate": "A",
-  "subject": "Accurate graph 😂",
-  "verdict": "KILL",
-  "reason": "Pure reaction-bait: the substance is engagement metrics (9,682 likes on a cryptic caption), not a real-world consequence; no story, no facts, no second source, no aftermath to build slides from — exactly the format of the two worst posts this page ever shipped."
- },
- {
-  "t": "2026-08-21T07:46:03Z",
-  "gate": "A",
-  "subject": "Margaret Qualley (almost barefoot) at the premiere of 'The Dog Stars' in London",
-  "verdict": "KILL",
-  "reason": "One fashion photo with no real-world event or consequence—pure reaction-bait to a celebrity outfit, off-brand for a tech page, and violates both NO SUBSTANCE and STORY LAW."
- },
- {
-  "t": "2026-08-21T07:46:07Z",
-  "gate": "A",
-  "subject": "JUST IN: Coinbase CEO Brain Armstrong predicts Bitcoin could reach $300,000-$400,000 by 2030.",
-  "verdict": "KILL",
-  "reason": "No substance: the entire source is one thin tweet—a CEO price prediction with no context, consequence, or second fact the writer could build slides from."
- },
- {
-  "t": "2026-08-21T07:46:10Z",
-  "gate": "A",
-  "subject": "BREAKING: 🇺🇸 US national debt officially surpasses $40 trillion.",
-  "verdict": "KILL",
-  "reason": "Routine macro announcement with no protagonist, no felt consequence, and no narrative arc—exactly the ON-TOPIC BUT ROUTINE category the DOCTRINE bans (market wraps, analyst targets, milestones). A debt number crossing a threshold is not a story where something happened to someone."
- },
- {
-  "t": "2026-08-21T07:46:27Z",
-  "gate": "A",
-  "subject": "Never leaving this app, because I know “I’ll be back”",
-  "verdict": "KILL",
-  "reason": "No substance: a thin joke reference (Terminator pun) with zero facts, numbers, or consequence behind it — the entire source is 53 characters with nothing to build slides from."
- },
- {
-  "t": "2026-08-21T07:46:34Z",
-  "gate": "A",
-  "subject": "A cave in Bulgaria has earned the nickname “the Eyes of God” because of its striking natural formations. Deep within Bul",
-  "verdict": "KILL",
-  "reason": "No event occurred and no consequence followed — this is a place description, not a story; pure nature wow-content with 1/10 scout interest, off-brand for a tech page."
- },
- {
-  "t": "2026-08-21T07:46:38Z",
-  "gate": "A",
-  "subject": "Me watching Grok Bot set up my home printer",
-  "verdict": "KILL",
-  "reason": "Instant kill: no substance — a 43-character joke tweet with zero facts, numbers, or real event to build from; a writer would be padding to fill slides."
- },
- {
-  "t": "2026-08-21T07:46:40Z",
-  "gate": "A",
-  "subject": "🇨🇳 Robot ran too fast to stop, crashed into the cushion and broke its waist. Cool, we can sleep tight for now. The upris",
-  "verdict": "KILL",
-  "reason": "Reaction-bait without substance: a sarcastic tweet mocking an undocumented robot failure, with no named actor, real-world consequence, or verifiable facts to report."
- },
- {
-  "t": "2026-08-21T07:46:59Z",
-  "gate": "A",
-  "subject": "Every living creature wants to play games",
-  "verdict": "KILL",
-  "reason": "NO SUBSTANCE: the entire source is one thin claim (41 chars) with zero facts, numbers, names, or real-world consequences—a writer would have to pad to fill slides, and it violates the core rule that a story must be a specific event that HAPPENED, not a philosophical generalization."
- },
- {
-  "t": "2026-08-21T07:47:02Z",
-  "gate": "A",
-  "subject": "Moles: the moment they are placed on the ground, they quickly burrow beneath it and disappear from sight.",
-  "verdict": "KILL",
-  "reason": "Instant kill (no substance): this is a nature fact about animal behavior, not a story—no real-world event, no consequence anyone felt, no numbers, nothing to build slides from."
- },
- {
-  "t": "2026-08-21T09:27:43Z",
-  "gate": "B",
-  "subject": "6 PROMPTS THAT BUILD YOUR <em>90-DAY CASH RUNWAY</em> TONIGHT",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — generated unknown face on the cover. The man in the hard hat is not a recognizable person; IMAGE LAW explicitly bans 'a generated unknown face' as a cover subject. Fix: replace with the Claude logo or brand mark as the sole visual subject, a real photo of a business document/cash, or a recognizable famous founder whose story anchors the post.; SLIDE 2 LAW — slide 2 ('1) FIND THE CLIENT"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait with no substance: the 'story' is that people liked a photo of a celebrity at a premiere (9,370 engagement metrics), not a real-world event with consequences—no second fact, no numbers to build from, and a 0/10 scout score signals the picker found nothing viral-specific here.",
-  "subject": "Margaret Qualley (almost barefoot) at the premiere of 'The Dog Stars' in London",
-  "t": "2026-08-21T06:03:19Z",
-  "verdict": "KILL"
- },
- {
   "gate": "A",
   "reason": "No substance: the entire source is one thin tweet with zero numbers, context, or consequence to build from.",
   "subject": "Accurate graph 😂",
@@ -2098,5 +1958,145 @@
   "subject": "Jensen Huang washed dishes at Dennys. He co-founded Nvidia in one of those booths. Today it is worth more than 3 trillio",
   "verdict": "APPROVE",
   "reason": "Strong founder story-arc with named actor (Jensen Huang/Nvidia), four story beats (Dennys dishwasher→Nvidia founding→$3T valuation→still visits), felt-scale money, verified details, and on-lens (company/founder/tech) focus—passes all Story Law gates, not reaction-bait or thin-padded."
+ },
+ {
+  "t": "2026-08-28T18:15:03Z",
+  "gate": "A",
+  "subject": "A small number of repeat offenders are responsible for the vast majority of violent crime",
+  "verdict": "KILL",
+  "reason": "A single thin statement with zero substance, consequence, or event: no real-world action, no named protagonist, no numbers to build slides from, and the entire source is one sentence with nothing behind it."
+ },
+ {
+  "t": "2026-08-28T18:15:08Z",
+  "gate": "A",
+  "subject": "Neuralink 🧠 How it started v/s. How it's going",
+  "verdict": "KILL",
+  "reason": "Instant kill: no substance. Source is a 46-character title with no specific event, numbers, consequence, or timeline—writer would fabricate per §1."
+ },
+ {
+  "t": "2026-08-28T18:15:27Z",
+  "gate": "A",
+  "subject": "BREAKING: Chevron, $CVX, Haliburton, $HAL, and other major US oil companies are nearing deals to invest “billions of dol",
+  "verdict": "KILL",
+  "reason": "This is speculative deal news without a confirmed event—the 'announcement preview' category the doctrine explicitly bans, and 4/10 scout interest lacks exception justification."
+ },
+ {
+  "t": "2026-08-28T18:16:01Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "No substance: source material cuts off mid-narrative (ends with 'We') before revealing what the list was, what happened at the dinner, or what consequence followed—the writer would have to pad."
+ },
+ {
+  "t": "2026-08-28T18:16:27Z",
+  "gate": "A",
+  "subject": "We have a limited window to strengthen cyber defenses, and together with organizations including @AnthropicAI, @awscloud",
+  "verdict": "KILL",
+  "reason": "This is a company announcement with no real-world event, no numbers, and no consequence anyone felt — pure on-topic routine that needs padding to fill slides, exactly the no-substance kill type."
+ },
+ {
+  "t": "2026-08-28T18:16:31Z",
+  "gate": "A",
+  "subject": "this is a critically important moment for cyber defense with AI; there is not much time to act. we are happy if you want",
+  "verdict": "KILL",
+  "reason": "No actual event, consequence, or facts—a vague public statement about urgency with nothing a writer could build into slides."
+ },
+ {
+  "t": "2026-08-28T18:16:35Z",
+  "gate": "A",
+  "subject": "Today, we're kicking off the first phase of the research preview for Model Hardware Standard (MHS): a new standard for A",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet announcing a research preview, with zero numbers, zero consequence, and no facts to build slides from without padding—explicitly banned under Story Law §1 (INSTANT KILL)."
+ },
+ {
+  "t": "2026-08-28T18:16:56Z",
+  "gate": "A",
+  "subject": "BREAKING: Venezuela has been discussing leaving OPEC with US officials, per Bloomberg. This comes amid reports that the ",
+  "verdict": "KILL",
+  "reason": "One thin tweet of unconfirmed diplomacy with no named protagonist and off the owner's approved lenses (AI/tech/founder/investing/space, not geopolitics/oil)."
+ },
+ {
+  "t": "2026-08-28T18:18:12Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens: subject is labor dynamics and corporate strategy, not technology/founder/investing; technology is backdrop, not star."
+ },
+ {
+  "t": "2026-08-28T18:18:34Z",
+  "gate": "A",
+  "subject": "Neuralink 🧠 How it started v/s. How it's going",
+  "verdict": "KILL",
+  "reason": "No substance: the source is a bare format title (46 characters) with zero specific event, numbers, consequence, or named person — the writer would have to fabricate an entire story to fill slides, violating the truth law and no-substance instant kill."
+ },
+ {
+  "t": "2026-08-28T18:18:38Z",
+  "gate": "A",
+  "subject": "BREAKING: Chevron, $CVX, Haliburton, $HAL, and other major US oil companies are nearing deals to invest “billions of dol",
+  "verdict": "KILL",
+  "reason": "This is routine corporate news (negotiations-in-progress with no consequence felt yet), not a story—STORY LAW requires 'something HAPPENED in the real world, with a consequence someone felt'; 4/10 scout interest with no exceptional qualities; and at 267 chars with no named person, specific numbers, or fallout, it's pure no-substance padding material."
+ },
+ {
+  "t": "2026-08-28T18:18:56Z",
+  "gate": "A",
+  "subject": "A small number of repeat offenders are responsible for the vast majority of violent crime",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: a single generic statement with no numbers, specific person, or real-world event to build slides from."
+ },
+ {
+  "t": "2026-08-28T18:19:04Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Pharma ethics story has zero AI/tech/investing/space lens—off-brand for @technology/@getintoai/@techskills regardless of virality."
+ },
+ {
+  "t": "2026-08-28T18:19:33Z",
+  "gate": "A",
+  "subject": "Today, we're kicking off the first phase of the research preview for Model Hardware Standard (MHS): a new standard for A",
+  "verdict": "KILL",
+  "reason": "Routine launch-preview announcement with no real-world event, consequence, numbers, or substance—explicitly banned in ON-TOPIC BUT ROUTINE category."
+ },
+ {
+  "t": "2026-08-28T18:19:39Z",
+  "gate": "A",
+  "subject": "this is a critically important moment for cyber defense with AI; there is not much time to act. we are happy if you want",
+  "verdict": "KILL",
+  "reason": "One thin statement with no specific event, numbers, or real-world consequence—pure substance failure; writer would have to pad around a PSA."
+ },
+ {
+  "t": "2026-08-28T18:19:49Z",
+  "gate": "A",
+  "subject": "BREAKING: Venezuela has been discussing leaving OPEC with US officials, per Bloomberg. This comes amid reports that the ",
+  "verdict": "KILL",
+  "reason": "Speculative geopolitical alert with no confirmed real consequence (discussing, reportedly, on the verge); exactly the banned 'breaking news' format and off-brand for tech/AI page."
+ },
+ {
+  "t": "2026-08-28T18:20:01Z",
+  "gate": "A",
+  "subject": "We have a limited window to strengthen cyber defenses, and together with organizations including @AnthropicAI, @awscloud",
+  "verdict": "KILL",
+  "reason": "No substance: a corporate announcement with no actual event, numbers, or real consequence — nothing to build slides from."
+ },
+ {
+  "t": "2026-08-28T18:20:36Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens and no substance: this is labor-market commentary with technology as backdrop, not a story where AI/tech/company/founder is the star; no specific person, event, or numbers—just a thin generalized complaint."
+ },
+ {
+  "t": "2026-08-28T18:56:38Z",
+  "gate": "B",
+  "subject": "NEURALINK'S BRAIN-CHIP VIDEO JUST HIT <em>482,000 VIEWS IN ONE NIGHT</em> WITHOUT A SINGLE NEWS STORY BEHIND IT",
+  "verdict": "REJECT",
+  "reason": "HOOK VIOLATES §2 — VIEW COUNT AS PAYOFF: '482,000 VIEWS IN ONE NIGHT' is literally the failure model the doctrine names ('THE SCREENSHOT HAS 40K LIKES'). The hook's entire dramatic punch is an engagement metric, which §2 bans explicitly. The hook must be rebuilt without the view number as the climax.; STORY VIOLATES §1 INSTANT KILL — REACTION-BAIT: The story's only real-world 'event' is that a vid"
+ },
+ {
+  "t": "2026-08-28T20:20:24Z",
+  "gate": "B",
+  "subject": "MOST CREATORS STILL PAY FOR EDITING AND CAPTIONS. COPY THESE <em>10 GEMINI PROMPTS</em> AND GET BOTH FREE.",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH — COVER IMAGE: The cover subject is Sundar Pichai, who plays zero role in this story. The post is a tutorial on 10 Gemini prompts; Pichai is used as visual shorthand for 'Google,' which is decoration, not proof. IMAGE LAW is explicit: recognizable famous person as cover subject with no role in the story = REJECT. Fix: replace with a generic creator at an editing setup with the Google/Ge"
  }
 ]

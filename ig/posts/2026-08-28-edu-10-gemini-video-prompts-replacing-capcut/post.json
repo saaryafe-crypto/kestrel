@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "MOST CREATORS STILL PAY FOR EDITING AND CAPTIONS. COPY THESE <em>10 GEMINI PROMPTS</em> AND GET BOTH FREE.",
+   "kicker": "NO SUBSCRIPTION. NO DOWNLOAD.",
+   "hsize": 72,
+   "face": "Sundar Pichai",
+   "media": "posts/2026-08-28-edu-10-gemini-video-prompts-replacing-capcut/gen-0.jpg",
+   "image_prompt": "Sundar Pichai waist-up in bright neon editing suite, grinning with delight, clapping clapperboard; Gemini G glows on clean wall; vivid blue-amber and brilliant white monitor light floods minimal space. 35mm documentary photo."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>GENERATE YOUR B-ROLL FOR FREE</em>",
+   "hsize": 108,
+   "body": "Stock footage sites charge up to $500 per clip. Google AI Studio generates custom B-roll from one sentence for free.\n\n\"Generate a 5-second video of [your exact scene description]. Style: cinematic, 4K. No people.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>WRITE THE HOOK</em> THAT STOPS THE SCROLL",
+   "hsize": 96,
+   "body": "The first 3 seconds of a video decide everything. This prompt delivers five hooks in 30 seconds.\n\n\"My video is about: [topic]. Write 5 different 7-second opening hooks. Start mid-action.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>CUT ONE VIDEO INTO THREE REELS</em>",
+   "hsize": 100,
+   "body": "A video editor charges $400 to pull the best clips. This prompt picks them from your transcript.\n\n\"[Paste transcript]. Find the 3 strongest 60-second moments for Reels. Rank best to worst.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>CAPTION EVERY PLATFORM</em> AT ONCE",
+   "hsize": 106,
+   "body": "Writing captions for four platforms used to take 45 minutes. This prompt covers all four at once.\n\n\"[Paste transcript]. Write one caption per platform: Instagram 150 chars, YouTube keyword-rich, TikTok 10 words, LinkedIn professional.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) FIND WHAT <em>YOUR AUDIENCE ACTUALLY WANTS</em>",
+   "hsize": 94,
+   "body": "Most creators guess what their audience wants. Gemini finds the real pattern in your comments.\n\n\"[50 comments]. Tell me the biggest frustration, the repeated question, and 3 video ideas. Use their exact words.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>WRITE 10 TITLES</em> IN 30 SECONDS",
+   "hsize": 108,
+   "body": "A YouTube title decides 100 views or 100,000. Gemini writes 10 options and ranks them for you.\n\n\"My video: [topic]. Write 10 YouTube titles, flag top 3. Then 5 Reel titles under 8 words.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) <em>BUILD A 30-DAY CONTENT CALENDAR</em>",
+   "hsize": 100,
+   "body": "Social media managers charge $2,500 a month to build content calendars. This prompt builds 30 days in 5 minutes.\n\n\"I create [type] for [audience] on [platforms]. Build a 30-day calendar: topic, hook, best time.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 10 GEMINI VIDEO PROMPTS</em>",
+   "hsize": 88,
+   "body": "Generate custom B-roll free\nWrite 5 hooks in 30 seconds\nCut long videos into Reels\nCaption every platform at once\nFind what your audience wants\nWrite 10 titles instantly\n\nDaily AI news + skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 10 prompts. \ud83c\udfac Gemini now writes scripts, generates B-roll, and plans your whole month of content for free.\n\nInside:\n1) Generate custom B-roll free,\n2) Write the scroll-stopping hook,\n3) Cut one video into three Reels,\n4) Caption every platform at once,\n5) Find what your audience actually wants,\n6) Write 10 titles in 30 seconds,\n7) Build your 30-day content calendar,\n8) Write your video outro,\n9) Repurpose one video ten ways,\n10) Turn comments into new video ideas.\n\nCapCut still makes you do all the creative work yourself. Gemini handles the scripting, titles, captions, B-roll, and calendar for free. Creators who figured this out are posting three times the content in half the time.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: heyalexmoore\n\n#AI #ContentCreation #Gemini #VideoEditing #CreatorEconomy",
+ "pinned_comment": "Which one are you trying tonight? Slide 2 is the one most creators haven't touched yet.",
+ "hook_tournament": {
+  "candidates": [
+   "<em>10 PROMPTS</em> GEMINI USES TO EDIT YOUR VIDEOS IN SECONDS"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>10 PROMPTS</em> GEMINI USES TO EDIT YOUR VIDEOS IN SECONDS",
+   "<em>10 FREE GEMINI PROMPTS</em> THAT DO MORE THAN MOST PAID VIDEO TOOLS",
+   "MOST CREATORS STILL PAY FOR EDITING AND CAPTIONS. COPY THESE <em>10 GEMINI PROMPTS</em> AND GET BOTH FREE.",
+   "<em>10 GEMINI PROMPTS</em> SO GOOD THEY FEEL ILLEGAL"
+  ],
+  "scores": [
+   4,
+   5,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] makes me stop because I already have that exact problem (I do pay for both), so I swipe to verify it's real. [3] is punchier but 'feel illegal' is still a tease\u2014I pause from curiosity, not from believing it solves anything I need."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "CAST TRUTH \u2014 COVER IMAGE: The cover subject is Sundar Pichai, who plays zero role in this story. The post is a tutorial on 10 Gemini prompts; Pichai is used as visual shorthand for 'Google,' which is decoration, not proof. IMAGE LAW is explicit: recognizable famous person as cover subject with no role in the story = REJECT. Fix: replace with a generic creator at an editing setup with the Google/Ge"
+}
