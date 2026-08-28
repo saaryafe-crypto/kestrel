@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-28T06:04:43.473568+00:00",
+ "updated": "2026-08-28T08:06:25.023882+00:00",
  "photos": [
   {
    "id": "2089342461357302179",
@@ -325,6 +325,25 @@
    "born": 1787761071.482273
   },
   {
+   "id": "2093074192636018977",
+   "title": "We have a limited window to strengthen cyber defenses, and together with organizations including @AnthropicAI, @awscloud, @Google, @Microsoft, and @Oracle, we're calling for a global effort to give defenders the tools, r",
+   "sub": "OpenAI",
+   "where": "@OpenAI on X",
+   "unit": "likes",
+   "selftext": "We have a limited window to strengthen cyber defenses, and together with organizations including @AnthropicAI, @awscloud, @Google, @Microsoft, and @Oracle, we're calling for a global effort to give defenders the tools, resources, and support to protect the infrastructure we all depend on. If we act decisively, we can turn today's AI advances into lasting improvements in security and make our digital world safer for everyone.",
+   "permalink": "https://x.com/OpenAI/status/2093074192636018977",
+   "outlink": null,
+   "score": 11064,
+   "comments_n": 555,
+   "views": 2029247,
+   "age_h": 11.5,
+   "vph": 958.9,
+   "image": "https://pbs.twimg.com/media/HQwXk34asAAZ3WZ.png",
+   "video": null,
+   "guide": false,
+   "born": 1787862985.023882
+  },
+  {
    "id": "2087964159212241215",
    "title": "The print looks insane",
    "sub": "AJamesMcCarthy",
@@ -494,6 +513,25 @@
    "video": null,
    "guide": false,
    "born": 1786892506.125203
+  },
+  {
+   "id": "2093015294398849522",
+   "title": "Objectively insane to make a list of the most influential people in AI and include these two but not Jensen",
+   "sub": "venturetwins",
+   "where": "@venturetwins on X",
+   "unit": "likes",
+   "selftext": "Objectively insane to make a list of the most influential people in AI and include these two but not Jensen",
+   "permalink": "https://x.com/venturetwins/status/2093015294398849522",
+   "outlink": null,
+   "score": 8347,
+   "comments_n": 365,
+   "views": 704627,
+   "age_h": 15.4,
+   "vph": 540.6,
+   "image": "https://pbs.twimg.com/media/HQviUWzacAM1RI6.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1787848945.023882
   },
   {
    "id": "2089600683045437675",
@@ -722,44 +760,6 @@
    "video": null,
    "guide": false,
    "born": 1787184358.938603
-  },
-  {
-   "id": "2089021213368614993",
-   "title": "watermarks-remover for AI content reaches ~11k stars on github. People really hate the watermarks. And i fully understand them.",
-   "sub": "kimmonismus",
-   "where": "@kimmonismus on X",
-   "unit": "likes",
-   "selftext": "watermarks-remover for AI content reaches ~11k stars on github. People really hate the watermarks. And i fully understand them.",
-   "permalink": "https://x.com/kimmonismus/status/2089021213368614993",
-   "outlink": null,
-   "score": 6667,
-   "comments_n": 143,
-   "views": 486826,
-   "age_h": 27.8,
-   "vph": 239.8,
-   "image": "https://pbs.twimg.com/media/HP2wxdUXUAACGYy.png",
-   "video": null,
-   "guide": false,
-   "born": 1786896373.716192
-  },
-  {
-   "id": "2090725625715671513",
-   "title": "JUST IN: $79,000 Bitcoin. $250 million worth of shorts liquidated and counting\u2026",
-   "sub": "WatcherGuru",
-   "where": "@WatcherGuru on X",
-   "unit": "likes",
-   "selftext": "JUST IN: $79,000 Bitcoin. $250 million worth of shorts liquidated and counting\u2026",
-   "permalink": "https://x.com/WatcherGuru/status/2090725625715671513",
-   "outlink": null,
-   "score": 6621,
-   "comments_n": 326,
-   "views": 329141,
-   "age_h": 34.7,
-   "vph": 190.8,
-   "image": "https://pbs.twimg.com/media/HQO_4GBXQAEn_p5.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1787302826.720927
   }
  ]
 }
