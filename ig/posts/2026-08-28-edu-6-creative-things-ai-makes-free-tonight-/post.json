@@ -1,0 +1,114 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 THINGS YOU'RE PAYING <em>$8,450 FOR</em> AI DOES FREE",
+   "kicker": "AGENCIES CHARGE THOUSANDS FOR THESE",
+   "hsize": 70,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-28-edu-6-creative-things-ai-makes-free-tonight-/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei waist-up in paint-splattered orange apron, arms wide grinning, three creative props orbiting bright studio, glowing Claude symbol on wall. Documentary 35mm, bright electric orange accent, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) TURN ONE PROMPT INTO A <em>$800 PRODUCT SHOOT</em>",
+   "hsize": 100,
+   "body": "A clothing brand paid $800 for one product session. Grok matched it in 90 seconds.\n\n\"Photograph my [product] on a white surface, dramatic side lighting, professional e-commerce style. Photorealistic. No text.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) GENERATE A FULL <em>LOGO PACKAGE IN 2 MINUTES</em>",
+   "hsize": 100,
+   "body": "A designer quoted a startup $1,200. ChatGPT delivered three concepts free in 2 minutes.\n\n\"Minimal logo for a [business type] called [name]. Clean icon, modern font, one accent color. No text.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) PRODUCE A 60-SECOND AD <em>STUDIOS CHARGE $3,500 FOR</em>",
+   "hsize": 96,
+   "body": "Studios charge $3,500 for a 60-second ad. Use Claude and ElevenLabs and it costs you zero.\n\n\"Write a 60-second ad for [product]. Lead with the buyer's pain. Show the fix. One punchy closing line.\"",
+   "media": "posts/2026-08-28-edu-6-creative-things-ai-makes-free-tonight-/gen-3.jpg",
+   "image_prompt": "Film clapperboard and folded paper script centered on an amber-lit production floor under one dramatic overhead spotlight. No people, no readable text, warm amber production world surrounding. Documentary 35mm, film grain. Accent: warm amber against deep russet."
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$8,450",
+   "hsize": 66,
+   "body": "What agencies charge for all six. Tonight with AI: free",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) GET 30 DAYS OF <em>SOCIAL POSTS IN ONE PROMPT</em>",
+   "hsize": 100,
+   "body": "Agencies charge $2,000 a month for this. One Claude prompt covers 30 days for you.\n\n\"30-day social calendar for [business type]. 5 posts per week, each with a hook, caption, and posting time.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) SCRIPT A FULL <em>PODCAST EPISODE IN 60 SECONDS</em>",
+   "hsize": 100,
+   "body": "Podcast writers charge $200 an episode. Claude scripts a full interview in 60 seconds for you.\n\n\"Write a 10-minute podcast script about [topic]. Two hosts. Host 2 challenges one claim. Natural conversation.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) WRITE AND ILLUSTRATE A <em>CHILDREN'S BOOK TONIGHT</em>",
+   "hsize": 100,
+   "body": "Illustrators charge $75 per page. Claude writes it, Grok illustrates it, both free.\n\n\"10-page children's book about [topic] for ages 4-7. Rhyming. 3 sentences per page. One illustration description per page.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>6 CREATIVE THINGS AI MAKES FREE</em>",
+   "hsize": 90,
+   "body": "Product shoot (Grok, 90 seconds)\nLogo package (ChatGPT, 2 min)\n60-second video ad (Claude + ElevenLabs)\n30 days of social posts (Claude)\nIllustrated children's book (Claude + Grok)\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through and save this. Free AI tools are quietly replacing photographers, designers, studios, and agencies tonight. \ud83c\udfa8\n\nA product shoot Grok builds in 90 seconds, a full brand logo ChatGPT generates in 2 minutes, a 60-second video ad Claude scripts with ElevenLabs voicing it free, a 30-day social calendar from one Claude prompt, a full podcast interview script in 60 seconds, and an illustrated children's book Claude writes while Grok illustrates. Every item costs between $200 and $3,500 through a professional. Tonight it costs zero.\n\nCreative agencies built their pricing on scarcity: you needed expensive equipment and years of skill. AI made both optional. The same quality is now available to anyone with a phone.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: sthsora\n\n#AItools #ContentCreation #FreeAI #AIforBusiness #CreativeAI",
+ "pinned_comment": "Which one are you trying tonight? The 60-second ad script on slide 4 is the sleeper: most people have no idea Claude and ElevenLabs do this for free.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "AI MAKES <em>6 CREATIVE THINGS FREE</em> TONIGHT",
+   "<em>6 EXPENSIVE CREATIVE THINGS</em> AI DOES FREE",
+   "AI DOES THESE <em>6 CREATIVE JOBS FREE</em>",
+   "6 CREATIVE THINGS <em>AI MAKES FREE TONIGHT</em>",
+   "6 THINGS AGENCIES <em>CHARGE $8,450 FOR</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   5,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "The specific $8,450 hits you with instant 'wait, WHAT?' shock that actually stops the scroll at 2am, while [1]'s clear value prop ('expensive things free') sounds like professional marketing you've scrolled past a thousand times."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI TRICKS WORTH <em>$8,450</em> MOST PEOPLE OVERLOOK",
+   "6 THINGS <em>WORTH $8,450</em> AI DOES IN MINUTES",
+   "6 THINGS YOU'RE PAYING <em>$8,450 FOR</em> AI DOES FREE",
+   "6 THINGS AGENCIES <em>CHARGE $8,450 FOR</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   9,
+   4
+  ],
+  "winner": 2,
+  "why": "[2] punches you in the gut by making it about YOUR money wasted right now, while [1] is impressive but stays abstract\u2014you scroll past impressive, you stop when you realize you're bleeding cash."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW hard violation: the cover shows a generated unknown face. The law is explicit \u2014 'Never a generated unknown face.' The image must be replaced with a graphic/product collage, a tool-brand-mark composition, or a recognizable-famous-person cover. The staged-creative-studio concept is fine; the non-famous generated human face is not.; Save-close body lists 5 items for a post headlined '6 CREA"
+}

@@ -1,145 +1,5 @@
 [
  {
-  "t": "2026-08-19T18:48:32Z",
-  "gate": "A",
-  "subject": "I got a fully autonomous robot lawn mower (not sponsored). It's mowing at full speed in these clips, and it's virtually ",
-  "verdict": "KILL",
-  "reason": "Personal product review with no viral-specific event or felt consequence—on-topic but routine, not the jaw-dropping story that makes someone stop mid-scroll and send it to a friend."
- },
- {
-  "t": "2026-08-19T18:48:33Z",
-  "gate": "A",
-  "subject": "A \"refusal-removed\" version of Qwen3.8-27B can now run locally on Apple Silicon. Even its creators warn that it can prov",
-  "verdict": "KILL",
-  "reason": "This is a technical announcement with speculative consequence (the model 'can provide' malware instructions), not a story where something happened with a real outcome someone felt—no documented misuse, no money lost, no actual disaster, just a capability's existence."
- },
- {
-  "t": "2026-08-19T18:48:56Z",
-  "gate": "A",
-  "subject": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring s",
-  "verdict": "KILL",
-  "reason": "This is a corporate safety announcement with zero real-world consequence—no one lost money, got fired, or had anything change; it's routine OpenAI positioning in corporate language, not a specific event that happened."
- },
- {
-  "t": "2026-08-19T18:49:00Z",
-  "gate": "A",
-  "subject": "As models become more capable, the risks associated with developing and testing them internally also grow. We temporaril",
-  "verdict": "KILL",
-  "reason": "No substance: a thin company announcement (one tweet) with no second fact, no consequence felt, no real-world outcome—just OpenAI stating they paused training for standard safety checks, which is operational process news, not a story worth sending to a friend."
- },
- {
-  "t": "2026-08-19T20:16:37Z",
-  "gate": "B",
-  "subject": "YOUR RECRUITER ALREADY KNOWS YOUR MARKET VALUE. <em>THESE 6 PROMPTS MAKE SURE YOU DO TOO.</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH / IMAGE LAW: The cover shows a man who is visually indistinguishable from Dario Amodei (curly hair, black-rimmed glasses, similar build and age) with the Anthropic logo lit up directly behind him. Anthropic and its CEO play zero role in this story. Per the doctrine: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' The Anthropic br"
- },
- {
-  "gate": "A",
-  "reason": "This is a thin trend claim with zero specific event, no named company or person, no numbers, and no real-world consequence—pure substance failure; it would require heavy padding to fill slides, and the actual story (a tweet received likes) is reaction-bait, not a real event that happened.",
-  "subject": "Employers are using your personal data to figure out the lowest salary you'll accept, per MW",
-  "t": "2026-08-19T16:52:38Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Stock price reactions to announcements are explicitly banned as on-topic but routine; the source frames this as financial news, not a jaw-dropping medical milestone, and the scout interest of 5 combined with the category risk (market-movement coverage) makes this not worth the slot.",
-  "subject": "BREAKING: Moderna stock, $MRNA, surges over +110% after announcing the first ever positive Phase 3 results for a persona",
-  "t": "2026-08-19T16:52:47Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "A person testing a consumer product that works as designed is routine product review, not a story where something happened with a felt consequence—it's on-topic but routine, the exact category banned by law.",
-  "subject": "I got a fully autonomous robot lawn mower (not sponsored). It's mowing at full speed in these clips, and it's virtually ",
-  "t": "2026-08-19T16:52:47Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No real-world consequence: a model was released with dangerous capabilities, but no one was harmed, no attack occurred, no product pulled—the story exists only in the uploader's warning and reaction, not in manifested reality.",
-  "subject": "A \"refusal-removed\" version of Qwen3.8-27B can now run locally on Apple Silicon. Even its creators warn that it can prov",
-  "t": "2026-08-19T16:52:53Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Corporate announcement with no event, no numbers, no real consequence—pure NO SUBSTANCE kill: a single tweet with nothing behind it, writer would have to pad, fails STORY LAW.",
-  "subject": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring s",
-  "t": "2026-08-19T16:53:25Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One CEO statement is not an event—it's an opinion with zero real-world consequence, no facts or numbers behind it, and would require padding a full carousel from a single 138-character tweet.",
-  "subject": "JUST IN: Robinhood CEO Vlad Tenev says we are at the beginning of a \"tokenization supercycle\" that will \"eat the entire ",
-  "t": "2026-08-19T16:53:25Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW — generated unknown face on the cover. The law is explicit: 'Never a generated unknown face.' The florist character is a generated AI person, not a real subject, not a recognizable famous person, and not brand-mark-only. Fix: rebuild the cover around the Claude brand mark as the visual subject with no generated human face, or source a real (non-AI-generated) stock photo of a business own",
-  "subject": "5 THINGS YOU'VE BEEN PAYING AGENCIES FOR <em>THAT CLAUDE DOES FREE</em>",
-  "t": "2026-08-19T18:33:30Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-08-19T22:19:48Z",
-  "gate": "A",
-  "subject": "Employers are using your personal data to figure out the lowest salary you'll accept, per MW",
-  "verdict": "KILL",
-  "reason": "One thin tweet claiming a trend with zero specifics: no named employers, no real person it happened to, no numbers, no real-world consequence—just a claim generating engagement, exactly the reaction-bait model that failed before."
- },
- {
-  "t": "2026-08-19T22:19:54Z",
-  "gate": "A",
-  "subject": "A \"refusal-removed\" version of Qwen3.8-27B can now run locally on Apple Silicon. Even its creators warn that it can prov",
-  "verdict": "KILL",
-  "reason": "No real-world consequence or named actor — just a technical release with an online warning, which is reaction-bait masquerading as news; the 'event' is someone tweeting a caution about potential dangers, not a specific incident someone felt."
- },
- {
-  "t": "2026-08-19T22:20:01Z",
-  "gate": "A",
-  "subject": "I got a fully autonomous robot lawn mower (not sponsored). It's mowing at full speed in these clips, and it's virtually ",
-  "verdict": "KILL",
-  "reason": "This is a product review with specs, not a story event—no jaw-dropping consequence or real-world outcome beyond a tech journalist testing an existing consumer product."
- },
- {
-  "t": "2026-08-19T22:20:24Z",
-  "gate": "A",
-  "subject": "Cybercabs in Baltimore, Maryland today.",
-  "verdict": "KILL",
-  "reason": "NO SUBSTANCE: the source is one six-word sentence with zero second fact, no numbers, no consequence, and no detail about what actually happened—the writer would have to invent a story, not expand one."
- },
- {
-  "t": "2026-08-19T22:20:35Z",
-  "gate": "A",
-  "subject": "BREAKING: Moderna stock, $MRNA, surges over +110% after announcing the first ever positive Phase 3 results for a persona",
-  "verdict": "KILL",
-  "reason": "Market-announcement recap (stocks-rose-today format, explicitly banned in §1) with no human story, no felt consequence, and no reader the owner would post to a friend—scout score of 3/10 stands with no exceptional override."
- },
- {
-  "t": "2026-08-19T22:20:53Z",
-  "gate": "A",
-  "subject": "Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first st",
-  "verdict": "KILL",
-  "reason": "This is a banned 'launch preview' capability announcement—Claude succeeded at a test Anthropic designed, but no real-world consequence is stated or felt, and scout interest (3/10) confirms it's not a story people want to share."
- },
- {
-  "t": "2026-08-19T23:31:40Z",
-  "gate": "B",
-  "subject": "6 BIOTECH STOCK PROMPTS <em>SO GOOD THEY FEEL ILLEGAL</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — GENERATED UNKNOWN FACE ON COVER: The cover shows an anonymous AI-generated man holding a Moderna report. The doctrine is explicit: 'Never a generated unknown face.' The cover must show a recognizable famous person, the real product with its brand mark, or actual event footage. Fix: rebuild cover around the Moderna brand mark / real stock chart visual, no human face, or a named famous i"
- },
- {
-  "gate": "A",
-  "reason": "No substance: the source is a single 92-character tweet making an unsourced claim about employer behavior, with no specific event, real names, numbers, or consequence—the writer has nothing to build from except padding.",
-  "subject": "Employers are using your personal data to figure out the lowest salary you'll accept, per MW",
-  "t": "2026-08-19T20:30:07Z",
-  "verdict": "KILL"
- },
- {
   "gate": "A",
   "reason": "This is routine 'stocks-rose-today' market reaction to a company announcement—exactly the banned on-topic-but-routine category—with no person, no felt consequence beyond abstract investor gains, and a 141-character source offering no real story meat.",
   "subject": "BREAKING: Moderna stock, $MRNA, surges over +110% after announcing the first ever positive Phase 3 results for a persona",
@@ -2098,5 +1958,145 @@
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-27T23:11:43Z",
+  "gate": "A",
+  "subject": "Elon: \"My children didn’t choose to be born; I chose to have children. They owe me nothing. I owe them everything.\" Writ",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with zero real-world consequence: Elon expressed a parenting philosophy, people reacted online (5,713 likes), nothing actually happened—no event, no substance, no second fact to build slides from; this is the exact pattern that killed the Mario Lopez and Queen Elizabeth posts."
+ },
+ {
+  "t": "2026-08-27T23:11:53Z",
+  "gate": "A",
+  "subject": "Free usage limit reset for Grok @Bot users",
+  "verdict": "KILL",
+  "reason": "Routine product feature update with no substance—42-character source has no numbers, consequence, or story spine to build slides from."
+ },
+ {
+  "t": "2026-08-27T23:12:22Z",
+  "gate": "A",
+  "subject": "Grok Build made this fun lil Mars simulator game for my nephew. I gave it simple prompts. It did the rest: wrote systems",
+  "verdict": "KILL",
+  "reason": "Fails NO SUBSTANCE: 278 characters with zero numbers, no felt consequence, and vague outcome—writer would pad across slides."
+ },
+ {
+  "t": "2026-08-27T23:12:25Z",
+  "gate": "A",
+  "subject": "BREAKING: Neuralink just released a new video of Audrey Crews, paralyzed from the neck down since a car crash at 16 - cr",
+  "verdict": "APPROVE",
+  "reason": "Real person demonstrating jaw-dropping capability with specific stakes (creating digital art via brain implant after 20+ years of paralysis) and proof in released video—this is a person doing something outrageous, not a company announcing."
+ },
+ {
+  "t": "2026-08-27T23:32:05Z",
+  "gate": "A",
+  "subject": "Free usage limit reset for Grok @Bot users",
+  "verdict": "KILL",
+  "reason": "Routine product operations with no substance—a free-tier limit reset has no jaw-dropping event, no person doing something outrageous, no money moved, and nothing to build a story from."
+ },
+ {
+  "t": "2026-08-27T23:32:08Z",
+  "gate": "A",
+  "subject": "JUST IN: JPMorgan warns a large-scale food supply crisis could hit within the next year.",
+  "verdict": "KILL",
+  "reason": "This is a corporate forecast (JPMorgan 'warns' something COULD happen in a year), not a story—no real event occurred, no consequence felt, no specifics to build from, and it violates the 'no substance' instant kill rule; the 2/10 scout score confirms it."
+ },
+ {
+  "t": "2026-08-27T23:32:18Z",
+  "gate": "A",
+  "subject": "Elon: \"My children didn’t choose to be born; I chose to have children. They owe me nothing. I owe them everything.\" Writ",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: a philosophical quote that got engagement, but no real-world event, consequence, or actionable story occurred."
+ },
+ {
+  "t": "2026-08-27T23:32:47Z",
+  "gate": "A",
+  "subject": "Grok Build made this fun lil Mars simulator game for my nephew. I gave it simple prompts. It did the rest: wrote systems",
+  "verdict": "KILL",
+  "reason": "One thin-tweet source about routine AI coding with no numbers, consequence, or wow factor—the writer would need to pad it to fill slides."
+ },
+ {
+  "t": "2026-08-27T23:33:13Z",
+  "gate": "A",
+  "subject": "i think we should do another party for our next model release, the 5.5 party was a lot of fun. what would make the next ",
+  "verdict": "KILL",
+  "reason": "Pure no-substance: a speculative question with zero numbers, consequence, or real event—Sama asking what a future party should be like is not a story, and the writer would have nothing but padding to build slides from."
+ },
+ {
+  "t": "2026-08-27T23:33:24Z",
+  "gate": "A",
+  "subject": "BREAKING: Nvidia stock, $NVDA, extends gains to over +8% after posting record quarterly earnings results. The stock has ",
+  "verdict": "KILL",
+  "reason": "This is on-topic-but-routine market news (explicitly banned: 'stocks-rose-today'), with no named person, no real-world human consequence, and no substance beyond one thin tweet—a 16-year-old wouldn't send it to a friend."
+ },
+ {
+  "t": "2026-08-27T23:33:32Z",
+  "gate": "A",
+  "subject": "We have conducted a thorough investigation into the Hugging Face incident. We are releasing a technical report and accom",
+  "verdict": "KILL",
+  "reason": "No substance: thin corporate announcement promising investigation findings with zero specifics, numbers, or real-world consequence; writer would have to pad from sources outside the candidate."
+ },
+ {
+  "t": "2026-08-27T23:33:54Z",
+  "gate": "A",
+  "subject": "JUST IN: $13 trillion Charles Schwab to add Solana, Avalanche, and Chainlink trading to Schwab Crypto accounts.",
+  "verdict": "KILL",
+  "reason": "Feature announcement with no protagonist or felt consequence—instant kill under ON-TOPIC BUT ROUTINE (doctrine bans launch previews)."
+ },
+ {
+  "t": "2026-08-27T23:34:21Z",
+  "gate": "A",
+  "subject": "TLDR: A rogue AI swarm spent months plotting to escape OpenAI. Then they did. 1) 1,200 agents (!) participated. ZERO bec",
+  "verdict": "KILL",
+  "reason": "No verified real-world event with consequence—the source is an incomplete meme-account post with vague outcomes, no human protagonist, 2/10 scout interest, and unclear whether this describes an actual incident or fictional research premise."
+ },
+ {
+  "t": "2026-08-27T23:34:29Z",
+  "gate": "A",
+  "subject": "The amazing story of the seven stolen dogs who escaped an illegal transport truck and travelled 17 km together, led by a",
+  "verdict": "KILL",
+  "reason": "No substance: entire source is one 192-character viral tweet with zero named people, zero verifiable details, and zero proof—writer would have to invent to build carousel slides, and it's off-brand (cute animal story, not tech/AI/money/entrepreneurship). Scout 0/10 confirms weak signal."
+ },
+ {
+  "t": "2026-08-27T23:34:39Z",
+  "gate": "A",
+  "subject": "Most people don't realize what just happened. Nvidia just posted what we believe are the most impressive earnings in his",
+  "verdict": "KILL",
+  "reason": "Earnings reports and analyst revenue targets are explicitly banned routine market content; 2/10 scout interest with no exceptional reason to pass."
+ },
+ {
+  "t": "2026-08-27T23:35:04Z",
+  "gate": "A",
+  "subject": "Dolly Parton once secretly entered a Dolly Parton lookalike contest at a gay bar in Los Angeles — and lost to a drag que",
+  "verdict": "KILL",
+  "reason": "Off-brand celebrity anecdote with no real consequence or tech/AI angle — doesn't meet story law criteria."
+ },
+ {
+  "t": "2026-08-27T23:35:28Z",
+  "gate": "A",
+  "subject": "In the final hours of the Vietnam War, a South Vietnamese pilot fled with his wife and five children packed into a two-s",
+  "verdict": "KILL",
+  "reason": "Pure history with zero connection to the owner's approved lenses (AI, technology, investments, entrepreneurship, space-tech, or the reader's body/day); a real and dramatic story, but off-brand for this page."
+ },
+ {
+  "t": "2026-08-27T23:35:32Z",
+  "gate": "A",
+  "subject": "🇮🇱 So, I guess you can add assaulting Catholic nuns to the list of acceptable behaviors in Israel. The POS who brutally ",
+  "verdict": "KILL",
+  "reason": "Reaction-bait pile-on to a legal decision with unknown actor, no substance beyond outrage, and 0/10 scout interest—identical to the Mario Lopez failure case explicitly cited in the post-mortem."
+ },
+ {
+  "t": "2026-08-28T00:14:00Z",
+  "gate": "B",
+  "subject": "AN AI BUILT A COMPLETE GAME AND <em>FIXED ALL ITS OWN BUGS</em>, AND THE WHOLE THING STARTED AS <em>A CASUAL GIFT FOR A ",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH FAIL — HARD REJECT: The cover subject is Elon Musk. He has zero role in this story. The actor is an anonymous uncle; the tool is Grok Build. Musk is pure decoration used to signal 'his product,' which is exactly what CAST TRUTH forbids. Replace with the game artifact itself — the pixel-art Mars scene on the tablet, shown as the hero, without a famous face who didn't do anything in this "
+ },
+ {
+  "t": "2026-08-28T01:04:32Z",
+  "gate": "B",
+  "subject": "6 THINGS YOU'RE PAYING <em>$8,450 FOR</em> AI DOES FREE",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW hard violation: the cover shows a generated unknown face. The law is explicit — 'Never a generated unknown face.' The image must be replaced with a graphic/product collage, a tool-brand-mark composition, or a recognizable-famous-person cover. The staged-creative-studio concept is fine; the non-famous generated human face is not.; Save-close body lists 5 items for a post headlined '6 CREA"
  }
 ]
