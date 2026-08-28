@@ -1,4 +1,41 @@
 {
- "updated": "2026-08-27T11:59:07.044256-04:00",
- "moments": []
+ "updated": "2026-08-27T20:04:09.402701-04:00",
+ "moments": [
+  {
+   "id": "2093094301811028097",
+   "title": "HOLY SHIT 🇫🇷🇮🇱 French authorities exposed Mossad-linked Israeli firm BlackCore interfering in elections across Europe, Scotland, Africa, and New York. Fake accounts, AI bots and smear campaigns—used to push voters toward",
+   "sub": "Parodyjeffx",
+   "where": "@Parodyjeffx on X",
+   "unit": "likes",
+   "selftext": "HOLY SHIT 🇫🇷🇮🇱 French authorities exposed Mossad-linked Israeli firm BlackCore interfering in elections across Europe, Scotland, Africa, and New York. Fake accounts, AI bots and smear campaigns—used to push voters toward right-wing, pro-Israel candidates.",
+   "permalink": "https://x.com/Parodyjeffx/status/2093094301811028097",
+   "outlink": null,
+   "score": 2131,
+   "comments_n": 53,
+   "views": 18486,
+   "age_h": 2.2,
+   "vph": 977.9,
+   "image": null,
+   "video": "https://video.twimg.com/amplify_video/2093094219430711296/vid/avc1/640x364/z3xW2uUXlhjXFQBZ.mp4?tag=29",
+   "guide": false
+  },
+  {
+   "id": "2092964962629009786",
+   "title": "BREAKING: A Russian influence operation trying to influence ChatGPT has been revealed. The Russians were promoting a fictitious Israeli “research institute” called the International Burke Institute (IBI). The influence c",
+   "sub": "visegrad24",
+   "where": "@visegrad24 on X",
+   "unit": "likes",
+   "selftext": "BREAKING: A Russian influence operation trying to influence ChatGPT has been revealed. The Russians were promoting a fictitious Israeli “research institute” called the International Burke Institute (IBI). The influence campaign was built around a website containing copied academic work, a ‘sovereignty index’ that presented Russia in a positive light, and efforts to conceal the Russian origin of the activity. The influence campaign was uncovered after OpenAI identified a cluster of ChatGPT accounts whose operator wrote prompts in Russian to generate posts and comments on Substack, Telegram, X, Facebook and LinkedIn. Most of the comments were in English, and the operator asked to conceal linguistic signs of a Russian origin. The influence operation targeted the U.S., EU, Germany, France, Poland and Turkey.",
+   "permalink": "https://x.com/visegrad24/status/2092964962629009786",
+   "outlink": null,
+   "score": 2023,
+   "comments_n": 53,
+   "views": 131484,
+   "age_h": 10.7,
+   "vph": 188.3,
+   "image": "https://pbs.twimg.com/media/HQu0ieWWUAAvvvr.jpg",
+   "video": null,
+   "guide": false
+  }
+ ]
 }

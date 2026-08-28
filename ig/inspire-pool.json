@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27T22:03:05.386122+00:00",
+ "updated": "2026-08-28T00:04:32.450365+00:00",
  "photos": [
   {
    "id": "2089342461357302179",
@@ -314,11 +314,11 @@
    "selftext": "Dolly Parton once secretly entered a Dolly Parton lookalike contest at a gay bar in Los Angeles \u2014 and lost to a drag queen.",
    "permalink": "https://x.com/historyinmemes/status/2092646868740079781",
    "outlink": null,
-   "score": 11112,
+   "score": 11127,
    "comments_n": 53,
-   "views": 324741,
-   "age_h": 29.8,
-   "vph": 372.9,
+   "views": 331011,
+   "age_h": 31.8,
+   "vph": 349.8,
    "image": "https://pbs.twimg.com/media/HQqTNabWYAAl_T6.jpg",
    "video": null,
    "guide": false,
@@ -572,6 +572,25 @@
    "born": 1786955094.023729
   },
   {
+   "id": "2092709284161155412",
+   "title": "BREAKING: Nvidia stock, $NVDA, falls -4% after reporting a record $96.2 billion in quarterly revenue. The company beat both revenue and EPS expectations and provided stronger than expected guidance.",
+   "sub": "KobeissiLetter",
+   "where": "@KobeissiLetter on X",
+   "unit": "likes",
+   "selftext": "BREAKING: Nvidia stock, $NVDA, falls -4% after reporting a record $96.2 billion in quarterly revenue. The company beat both revenue and EPS expectations and provided stronger than expected guidance.",
+   "permalink": "https://x.com/KobeissiLetter/status/2092709284161155412",
+   "outlink": null,
+   "score": 7382,
+   "comments_n": 725,
+   "views": 1654464,
+   "age_h": 27.7,
+   "vph": 266.7,
+   "image": "https://pbs.twimg.com/media/HQrL6VxXkAEoBp5.png",
+   "video": null,
+   "guide": false,
+   "born": 1787775752.450365
+  },
+  {
    "id": "2091122029022056555",
    "title": "Elon Musk with his son, Kai. \ud83e\udd0d",
    "sub": "cb_doge",
@@ -741,25 +760,6 @@
    "video": null,
    "guide": false,
    "born": 1787302826.720927
-  },
-  {
-   "id": "2090138513421512999",
-   "title": "Nothing is guaranteed",
-   "sub": "elonmusk",
-   "where": "@elonmusk on X",
-   "unit": "likes",
-   "selftext": "Nothing is guaranteed",
-   "permalink": "https://x.com/elonmusk/status/2090138513421512999",
-   "outlink": null,
-   "score": 6520,
-   "comments_n": 639,
-   "views": 1688131,
-   "age_h": 6.5,
-   "vph": 1003.1,
-   "image": "https://pbs.twimg.com/media/HQGp5shaQAAOTQX.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1787162961.507617
   }
  ]
 }
