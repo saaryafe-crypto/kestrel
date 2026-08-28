@@ -1,157 +1,141 @@
 {
- "updated": "2026-08-27T14:33:34+00:00",
+ "updated": "2026-08-28T12:08:09+00:00",
  "competitor_hits": [
   {
+   "page": "mashable",
+   "likes": 6811,
+   "ratio": 16.61,
+   "tier": "mega",
+   "hook": "\"Chloe Radcliffe is a lot of things: comedian, writer, actor, are only a few of the many words that might be used to describe her. \u2060\n\u2060\nOne word she has used, especially in her hit solo show, is \"cheater.\"\u2060\n\u2060\n#comedy #sta",
+   "date": "2026-08-26"
+  },
+  {
    "page": "wired",
-   "likes": 4472,
-   "ratio": 5.33,
+   "likes": 4690,
+   "ratio": 5.27,
    "tier": "mega",
    "hook": "\"Well, that was quick. Not even a quarter of the way into an expected 19-day federal trial over Meta\u2019s alleged failure to protect young users, the social media giant agreed to settle the case. The company has agreed to p",
    "date": "2026-08-26"
   },
   {
-   "page": "technology",
-   "likes": 64000,
-   "ratio": 4.57,
+   "page": "wired",
+   "likes": 2552,
+   "ratio": 2.87,
    "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech, AI, gaming and space in the last 24 hours, from strange internet experiments to major hardware and infrastructure updates \ud83c\udf0d\u26a1\n\nA QR code tool turned links into interactive 3D tr",
-   "date": "2026-08-25"
-  },
-  {
-   "page": "technology",
-   "likes": 35000,
-   "ratio": 2.5,
-   "tier": "mega",
-   "hook": "\"Nvidia just delivered another blockbuster quarter, with revenue hitting a record $96.2B, more than double the same quarter last year.\n\nThe AI chip giant also forecast roughly $108B in revenue for the next quarter, showi",
-   "date": "2026-08-26"
+   "hook": "\"In an X post on Monday, right-wing commentator Sydney Watson shared a baseless and inflammatory remark about cisgender WNBA player Brittney Griner, stirring up a conspiracy theory. It came amid an ongoing moral panic ab",
+   "date": "2026-08-27"
   },
   {
    "page": "wired",
-   "likes": 1464,
-   "ratio": 1.75,
+   "likes": 1892,
+   "ratio": 2.12,
    "tier": "mega",
    "hook": "\"China\u2019s endlessly delightful World Humanoid Robot Games featured tons of impressive stunts. But the most mindblowing tricks were far less showy, and a lot more significant.\n\nFor more like this, subscribe to Will Knight\u2019",
    "date": "2026-08-26"
   },
   {
-   "page": "wired",
-   "likes": 1263,
-   "ratio": 1.51,
+   "page": "futurism",
+   "likes": 10000,
+   "ratio": 1.79,
    "tier": "mega",
-   "hook": "\"The amount of gas-fired power in development for data centers in the US has nearly doubled in less than a year, new research released Tuesday shows. The findings illustrate just how heavily tech companies are relying on",
-   "date": "2026-08-25"
-  },
-  {
-   "page": "technology",
-   "likes": 16000,
-   "ratio": 1.14,
-   "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to explore the new GTA 6 details Rockstar revealed, from physical body changes and social media to deeper choices, smarter NPCs and realistic driving \ud83c\udfae\ud83c\udf34\n\nJason and Lucia can gain weight, build muscle and physic",
+   "hook": "\"We\u2019re racing towards a future where AI enables the \u201cfactory farming of humans,\u201d a Harvard professor warns \u2014 if tech elites get their way, at least.\n\nIn a new episode of the @nytimes \u201cHard Fork\u201d podcast, the historian Ji",
    "date": "2026-08-26"
   },
   {
    "page": "wired",
-   "likes": 884,
-   "ratio": 1.05,
+   "likes": 987,
+   "ratio": 1.11,
    "tier": "mega",
-   "hook": "\"Rolando Perez Samayoa had come to the US in 2023 seeking safety. Fleeing violence in Mexico, he\u2019d first planned to make a life in Alabama but had been told that Illinois would protect immigrants like him. \u201cThere\u2019s some ",
-   "date": "2026-08-25"
+   "hook": "\"Anthony Ralphs was frustrated by the San Diego City Council's support for Flock. He decided it would take something more than a reasoned argument to get their attention. So he put on a Darth Vader mask and cape.\n\nRead m",
+   "date": "2026-08-27"
   },
   {
-   "page": "technology",
-   "likes": 14000,
-   "ratio": 1.0,
+   "page": "mashable",
+   "likes": 425,
+   "ratio": 1.04,
    "tier": "mega",
-   "hook": "\"Comment \u201cSEND\u201d and we\u2019ll send you the prompts \ud83d\udc47\n\nChatGPT can turn a single uploaded photo into everything from a professional portrait to a cinematic photoshoot when you give it the right instructions \ud83d\udcf8\n\nThese 9 prompts",
-   "date": "2026-08-26"
-  },
-  {
-   "page": "technology",
-   "likes": 14000,
-   "ratio": 1.0,
-   "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to see what happened around the world in the last 24 hours, from major AI updates and gaming news to robots, platform changes, and new product launches \ud83e\udd16\ud83c\udf0d\n\nHonor\u2019s humanoid broke apart during a 100 metre sprint",
-   "date": "2026-08-26"
-  },
-  {
-   "page": "technology",
-   "likes": 12000,
-   "ratio": 0.86,
-   "tier": "mega",
-   "hook": "\"LEGO Skylines is bringing the familiar city building formula into a world made entirely from LEGO bricks, with players responsible for building and running everything \ud83c\udfd9\ud83e\uddf1\n\nDeveloped by Iceflake Studios and published by P",
-   "date": "2026-08-26"
-  },
-  {
-   "page": "technology",
-   "likes": 11000,
-   "ratio": 0.79,
-   "tier": "mega",
-   "hook": "\"China\u2019s humanoid robot race showed just how quickly these machines are getting faster, but controlling that speed remains a very different challenge \ud83e\udd16\ud83d\udca5\n\nAt the 2026 World Humanoid Robot Games in Beijing, several robots ",
-   "date": "2026-08-26"
+   "hook": "\"After multiple delays and a slew of leaks, we finally have our first official look at GTA 6. \u2060\n\u2060\nPremiering on Netflix, the footage gave us our most substantial look yet at Rockstar Games' return to Vice City, following",
+   "date": "2026-08-27"
   },
   {
    "page": "wired",
-   "likes": 539,
-   "ratio": 0.64,
+   "likes": 689,
+   "ratio": 0.77,
    "tier": "mega",
-   "hook": "\"The US Supreme Court ruled on Monday that President Donald Trump\u2019s executive order imposing severe restrictions on voting by mail ahead of November\u2019s midterms can proceed. While a nationwide injunction preventing the US",
-   "date": "2026-08-25"
+   "hook": "\"In recent months, there has been a surge in reports of police officers misusing automatic license plate readers (ALPRs) sold by Flock Safety to stalk former romantic partners\u2014but details about these incidents are often ",
+   "date": "2026-08-27"
+  },
+  {
+   "page": "technology",
+   "likes": 20000,
+   "ratio": 0.7,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to explore the biggest stories shaping the last 24 hours, from major entertainment updates and scientific experiments to global politics, disasters, privacy debates and public health \ud83c\udf0d\ud83d\udcf0\n\nJames Gunn\u2019s Man of Tom",
+   "date": "2026-08-27"
   },
   {
    "page": "wired",
-   "likes": 531,
-   "ratio": 0.63,
+   "likes": 623,
+   "ratio": 0.7,
    "tier": "mega",
    "hook": "\"For years, China's military and intelligence agencies, which carry out hacking campaigns against targets around the globe, have grown increasingly reliant on a vast web of proxy devices that enable and obfuscate their t",
    "date": "2026-08-26"
   },
   {
+   "page": "technology",
+   "likes": 16000,
+   "ratio": 0.56,
+   "tier": "mega",
+   "hook": "\"Netflix just released a 26-minute extended look at Grand Theft Auto VI, giving fans the biggest official showcase yet of Rockstar\u2019s highly anticipated open-world game \ud83c\udfae\ud83d\udd25\n\nThe presentation follows Jason and Lucia through",
+   "date": "2026-08-27"
+  },
+  {
    "page": "wired",
-   "likes": 394,
-   "ratio": 0.47,
+   "likes": 446,
+   "ratio": 0.5,
    "tier": "mega",
    "hook": "\"Dan Osborn was finishing up his fourth town hall last Sunday, he says, when a \u201chardcore MAGA\u201d guy approached him. Osborn, who is running for the US Senate in Nebraska as an independent against Republican incumbent Pete ",
    "date": "2026-08-26"
   },
   {
-   "page": "technology",
-   "likes": 5990,
-   "ratio": 0.43,
-   "tier": "mega",
-   "hook": "\"Xbox officially announces Disc-to-Digital as a new feature that lets supported physical games unlock digital access while keeping ownership connected to the original disc \ud83c\udfae\ud83d\udcbf\n\nTesting begins August 31 for Xbox Insiders, ",
-   "date": "2026-08-26"
-  },
-  {
    "page": "wired",
-   "likes": 356,
-   "ratio": 0.42,
+   "likes": 432,
+   "ratio": 0.49,
    "tier": "mega",
    "hook": "\"Advocates for children tell WIRED that Meta\u2019s legal settlement to address concerns about teenagers\u2019 use of social media proposes important and overdue feature changes that invite more parental oversight than ever before",
    "date": "2026-08-26"
   },
   {
-   "page": "technology",
-   "likes": 5535,
-   "ratio": 0.4,
-   "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to see some of the most extreme military machines ever built, from Mach 3 spy planes to stealth bombers and aircraft that could hover. \n\nThe lineup includes the B-2 Spirit, B-21 Raider, SR-71 Blackbird, F-117 N",
-   "date": "2026-08-26"
-  },
-  {
    "page": "wired",
-   "likes": 333,
-   "ratio": 0.4,
+   "likes": 386,
+   "ratio": 0.43,
    "tier": "mega",
    "hook": "\"OpenAI announced Wednesday that it completed an investigation into what happened when its AI agents hacked into Hugging Face last month and published its most comprehensive report on the incident to date. For the most p",
    "date": "2026-08-26"
   },
   {
-   "page": "technology",
-   "likes": 4249,
-   "ratio": 0.3,
+   "page": "mashable",
+   "likes": 165,
+   "ratio": 0.4,
    "tier": "mega",
-   "hook": "\"A small humanoid robot takes on a 100m race at Beijing\u2019s World Humanoid Robot Games, continuing down the track despite its unstable, stop-start stride. \ud83e\udd16\ud83c\udfc3\n\nRunning requires a robot to repeatedly shift its centre of mass",
+   "hook": "\"Stars and fans remember a singular talent with a big heart, big dreams, and even bigger hair.\n\nAlmost immediately, social media filled with the usual markers of collective grief: favorite songs, old interviews, movie sc",
+   "date": "2026-08-26"
+  },
+  {
+   "page": "futurism",
+   "likes": 422,
+   "ratio": 0.08,
+   "tier": "mega",
+   "hook": "\"As the bipartisan hate for data centers continues to grow, Texas governor Greg Abbott is suddenly singing a dramatically different tune.\n\nDuring a Sunday interview with @abcnews, Abbott said that AI companies have \u201cbasi",
    "date": "2026-08-27"
+  },
+  {
+   "page": "technology",
+   "likes": 604,
+   "ratio": 0.02,
+   "tier": "mega",
+   "hook": "\"Marco Wittmann produced a stunning DTM comeback at Zandvoort, charging his #11 BMW M4 GT3 from 14th on the grid into a fierce fight for victory.\n\nAfter the pit stops, Wittmann emerged ahead of Mirko Bortolotti\u2019s #92 Lam",
+   "date": "2026-08-28"
   }
  ],
  "reddit_hot": []
