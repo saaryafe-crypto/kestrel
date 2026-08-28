@@ -1654,6 +1654,18 @@ def main(stories_path):
             fixed = qa_repair(post, errs)
             if fixed:
                 left = qa(fixed)
+                # SECOND REPAIR ROUND (Aug 28, runs 33171169866 + 33137611952:
+                # three slots died in 12h with the first repair shrinking the
+                # list to pure-formatting leftovers — "zero line breaks, insert
+                # \n\n" — and then giving up. Repair the repaired post once
+                # more while the list is still shrinking; one small call only
+                # on the failure path.)
+                if left and len(left) < len(errs):
+                    again = qa_repair(fixed, left)
+                    if again and not qa(again):
+                        print("second repair round cleared QA — using it",
+                              file=sys.stderr)
+                        fixed, left = again, []
                 if not left:
                     print("repair pass cleared QA — using repaired post",
                           file=sys.stderr)

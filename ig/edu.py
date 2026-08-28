@@ -333,6 +333,16 @@ def main():
             fixed = qa_repair(post, errs)
             if fixed:
                 left = edu_qa(fixed)
+                # SECOND REPAIR ROUND (Aug 28, run 33171169866: the forced
+                # guide-copy attempt died with the first repair shrinking 12
+                # errors to 6 formatting-only leftovers. Same fix as write.py's
+                # loop — repair once more while the list is shrinking.)
+                if left and len(left) < len(errs):
+                    again = qa_repair(fixed, left)
+                    if again and not edu_qa(again):
+                        print("second repair round cleared QA — using it",
+                              file=sys.stderr)
+                        fixed, left = again, []
                 if not left:
                     print("repair pass cleared QA — using repaired post",
                           file=sys.stderr)
