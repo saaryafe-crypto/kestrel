@@ -698,7 +698,12 @@ def pick_story(stories):
         for s, v in zip(batch, verdicts):
             if v == "ok":
                 return s
-            if v == "kill":
+            if v == "kill" and not s.get("evergreen"):
+                # goats-on-Etna hardening (owner Aug 28): the relax rung
+                # exists to rescue NEWS narratives from a too-strict gate A —
+                # never to force back an evergreen wow-fact the editor killed
+                # as off-lens. Evergreen monsters out-viral news by design,
+                # so relax.append here would make the off-lens kill decorative.
                 relax.append(s)
         fresh = fresh[len(batch):]
     # STORY_RELAX rung (owner audit Aug 27): every story slot since Aug 13

@@ -71,6 +71,16 @@ def gate_a(story, material=""):
     radar = story.get("radar") or {}
     facts = [f"TITLE: {story.get('title', '')}",
              f"SCOUT INTEREST SCORE: {story.get('interest', '?')}/10"]
+    if story.get("evergreen"):
+        # goats-on-Etna hardening (owner Aug 28): wide-net evergreen picks
+        # are the lane that shipped an off-lens nature story — name the lane
+        # so the editor applies §1's STAR test at full strictness.
+        facts.append("LANE: evergreen wow-fact/story-arc from the wide X net "
+                     "— apply STORY LAW's off-lens kill STRICTLY: the "
+                     "subject must BE AI, tech, a company/founder, "
+                     "investing, or space technology. A story that merely "
+                     "mentions or defeats technology is a KILL, however "
+                     "viral.")
     if radar.get("sub"):
         facts.append(f"SOURCE: @{radar['sub']} on X"
                      + (f", {radar.get('score', 0):,} likes" if radar.get("score") else ""))

@@ -59,12 +59,15 @@ EARNS A SLOT (in order of strength):
   viral tweets. (Measured Aug 27 audit: 2nd strongest type, 2,625/1M —
   @evolving.ai runs 4 per 12 posts at 5M followers.) Pure astronomy stays
   banned; the fact must land on one of the owner's approved lenses (order
-  Aug 27): AI, technology, investments/money, entrepreneurship, space-tech,
-  or the reader's own body/day. The lens subject must be the STAR of the
-  fact, not the backdrop or the loser: a nature/animal/history fact that
-  merely mentions or defeats technology ("goats predict eruptions better
-  than million-euro sensors") is OFF-lens — KILL it, even with a bolted-on
-  business moral (Aug 28 goats-on-Etna post-mortem: this is an AI page).
+  Aug 27, hardened Aug 28): AI, technology, a company/founder, investing/
+  money, or space technology. A fact about the reader's own body or day
+  qualifies ONLY when its punchline is AI/tech (the 12-watt brain works
+  because the AI query is the payoff — a pure biology fact does not). The
+  lens subject must be the STAR of the fact, not the backdrop or the
+  loser: a nature/animal/history fact that merely mentions or defeats
+  technology ("goats predict eruptions better than million-euro sensors")
+  is OFF-lens — KILL it, even with a bolted-on business moral (Aug 28
+  goats-on-Etna post-mortem: this is an AI page).
 
 INSTANT KILL — no other rule can save these:
 - REACTION-BAIT: the "event" is that people REACTED to something online — a
