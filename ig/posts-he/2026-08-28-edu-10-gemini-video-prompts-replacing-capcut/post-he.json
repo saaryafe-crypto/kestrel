@@ -1,0 +1,109 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "רוב היוצרים עדיין משלמים על עריכה וכתוביות. העתיקו את <em>עשרת פרומפטי Gemini</em> האלה ותקבלו את שניהם בחינם.",
+   "kicker": "בלי מנוי. בלי הורדה.",
+   "hsize": 72,
+   "face": "Sundar Pichai",
+   "media": "posts/2026-08-28-edu-10-gemini-video-prompts-replacing-capcut/gen-0.jpg",
+   "image_prompt": "Sundar Pichai waist-up in bright neon editing suite, grinning with delight, clapping clapperboard; Gemini G glows on clean wall; vivid blue-amber and brilliant white monitor light floods minimal space. 35mm documentary photo."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>צרו B-roll בחינם</em>",
+   "hsize": 108,
+   "body": "אתרי פוטג' גובים עד $500 לקליפ. Google AI Studio מייצר B-roll מותאם ממשפט אחד, בחינם.\n\n\"צרו סרטון של חמש שניות של [תיאור הסצנה המדויק]. סגנון: קולנועי, 4K. ללא אנשים.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>כתבו את ההוק</em> שעוצר את הגלילה",
+   "hsize": 96,
+   "body": "שלוש השניות הראשונות של סרטון קובעות הכל. הפרומפט הזה מייצר חמישה הוקים תוך 30 שניות.\n\n\"הסרטון שלי עוסק ב: [נושא]. כתבו חמישה הוקי פתיחה שונים של שבע שניות. התחילו באמצע פעולה.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>חתכו סרטון אחד לשלושה Reels</em>",
+   "hsize": 100,
+   "body": "עורך וידיאו גובה $400 כדי לאסוף את הקטעים הטובים ביותר. הפרומפט הזה מוציא אותם ישירות מהתמלול.\n\n\"[הדביקו תמלול]. מצאו את שלושת הרגעים החזקים ביותר של 60 שניות עבור Reels. דרגו מהטוב ביותר לגרוע ביותר.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>כיתוב לכל הפלטפורמות</em> בבת אחת",
+   "hsize": 106,
+   "body": "כתיבת כיתובים לארבע פלטפורמות לקחה 45 דקות. הפרומפט הזה מכסה את כולן בבת אחת.\n\n\"[הדביקו תמלול]. כתבו כיתוב אחד לכל פלטפורמה: Instagram 150 תווים, YouTube עשיר במילות מפתח, TikTok עשר מילים, LinkedIn מקצועי.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) גלו <em>מה הקהל שלכם באמת רוצה</em>",
+   "hsize": 94,
+   "body": "רוב היוצרים מנחשים מה הקהל שלהם רוצה. Gemini מוצאת את הדפוס האמיתי בתגובות שלכם.\n\n\"[50 תגובות]. ספרו לי מה התסכול הגדול ביותר, השאלה שחוזרת, ושלושה רעיונות לסרטונים. השתמשו במילים המדויקות שלהם.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>כתבו עשר כותרות</em> תוך 30 שניות",
+   "hsize": 108,
+   "body": "כותרת YouTube קובעת אם הסרטון יקבל 100 צפיות או 100,000. Gemini כותבת עשר אפשרויות ומדרגת אותן.\n\n\"הסרטון שלי: [נושא]. כתבו עשר כותרות YouTube, סמנו את שלוש הטובות. ואז חמש כותרות Reel של עד שמונה מילים.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) <em>בנו לוח תוכן של 30 יום</em>",
+   "hsize": 100,
+   "body": "מנהלי רשתות חברתיות גובים $2,500 בחודש כדי לבנות לוחות תוכן. הפרומפט הזה בונה 30 יום תוך חמש דקות.\n\n\"אני יוצר [סוג תוכן] עבור [קהל] ב[פלטפורמות]. בנו לוח של 30 יום: נושא, הוק, זמן מומלץ.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את זה: <em>כל עשרת פרומפטי Gemini לווידיאו</em>",
+   "hsize": 88,
+   "body": "צרו B-roll מותאם בחינם\nכתבו חמישה הוקים תוך 30 שניות\nחתכו סרטונים ארוכים לReels\nכיתוב לכל הפלטפורמות בבת אחת\nגלו מה הקהל שלכם רוצה\nכתבו עשר כותרות בשניות\n\nחדשות AI + כלים כל יום",
+   "media": null
+  }
+ ],
+ "caption": "החליקו לכל עשרת הפרומפטים. 🎬 Gemini עכשיו כותבת תסריטים, מייצרת B-roll, ומתכננת חודש שלם של תוכן בחינם.\n\nבפנים:\n1) צרו B-roll מותאם בחינם,\n2) כתבו את ההוק שעוצר את הגלילה,\n3) חתכו סרטון אחד לשלושה Reels,\n4) כיתוב לכל הפלטפורמות בבת אחת,\n5) גלו מה הקהל שלכם באמת רוצה,\n6) כתבו עשר כותרות תוך 30 שניות,\n7) בנו לוח תוכן של 30 יום,\n8) כתבו את האאוטרו לסרטון,\n9) שנו ייעוד לסרטון אחד בעשר דרכים,\n10) הפכו תגובות לרעיונות לסרטונים חדשים.\n\nCapCut עדיין גורמת לכם לעשות את כל העבודה היצירתית לבד. Gemini מטפלת בתסריטים, כותרות, כיתובים, B-roll ולוח התוכן, בחינם. יוצרים שהבינו את זה מפרסמים פי שלוש תוכן בחצי הזמן.\n\nמנהלים עסק? שלחו לנו \"AI\" בהודעה ונראה לכם מה זה יכול לעשות בשבילכם.\n\nמקורות: heyalexmoore\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#AI #ContentCreation #Gemini #VideoEditing #CreatorEconomy",
+ "pinned_comment": "איזה אחד אתם מנסים הלילה? שקופית 2 היא זו שרוב היוצרים עדיין לא נגעו בה.",
+ "hook_tournament": {
+  "candidates": [
+   "<em>10 PROMPTS</em> GEMINI USES TO EDIT YOUR VIDEOS IN SECONDS"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>10 PROMPTS</em> GEMINI USES TO EDIT YOUR VIDEOS IN SECONDS",
+   "<em>10 FREE GEMINI PROMPTS</em> THAT DO MORE THAN MOST PAID VIDEO TOOLS",
+   "MOST CREATORS STILL PAY FOR EDITING AND CAPTIONS. COPY THESE <em>10 GEMINI PROMPTS</em> AND GET BOTH FREE.",
+   "<em>10 GEMINI PROMPTS</em> SO GOOD THEY FEEL ILLEGAL"
+  ],
+  "scores": [
+   4,
+   5,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] makes me stop because I already have that exact problem (I do pay for both), so I swipe to verify it's real. [3] is punchier but 'feel illegal' is still a tease—I pause from curiosity, not from believing it solves anything I need."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "CAST TRUTH — COVER IMAGE: The cover subject is Sundar Pichai, who plays zero role in this story. The post is a tutorial on 10 Gemini prompts; Pichai is used as visual shorthand for 'Google,' which is decoration, not proof. IMAGE LAW is explicit: recognizable famous person as cover subject with no role in the story = REJECT. Fix: replace with a generic creator at an editing setup with the Google/Ge",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "No substance: the entire source is one thin tweet with zero numbers, context, or consequence to build from.",
-  "subject": "Accurate graph 😂",
-  "t": "2026-08-21T06:03:28Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Pure reaction-bait: a thin joke-tweet with no verifiable event, no real names, no photos/footage, no consequence beyond comedic commentary—meets two instant-kill criteria (no substance + unknown actor).",
   "subject": "🇨🇳 Robot ran too fast to stop, crashed into the cushion and broke its waist. Cool, we can sleep tight for now. The upris",
   "t": "2026-08-21T06:03:29Z",
@@ -2098,5 +2091,12 @@
   "subject": "MOST CREATORS STILL PAY FOR EDITING AND CAPTIONS. COPY THESE <em>10 GEMINI PROMPTS</em> AND GET BOTH FREE.",
   "verdict": "REJECT",
   "reason": "CAST TRUTH — COVER IMAGE: The cover subject is Sundar Pichai, who plays zero role in this story. The post is a tutorial on 10 Gemini prompts; Pichai is used as visual shorthand for 'Google,' which is decoration, not proof. IMAGE LAW is explicit: recognizable famous person as cover subject with no role in the story = REJECT. Fix: replace with a generic creator at an editing setup with the Google/Ge"
+ },
+ {
+  "t": "2026-08-28T23:26:05Z",
+  "gate": "A",
+  "subject": "HOLY SHIT 🇫🇷🇮🇱 French authorities exposed Mossad-linked Israeli firm BlackCore interfering in elections across Europe, S",
+  "verdict": "KILL",
+  "reason": "Parody-account (@Parodyjeffx) unverified claim with no official investigation source, real-world consequence, or buildable facts—instant-kill reaction-bait."
  }
 ]
