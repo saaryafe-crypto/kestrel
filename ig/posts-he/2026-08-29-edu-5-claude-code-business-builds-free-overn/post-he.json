@@ -1,0 +1,113 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמישה כלים שעולים מאות דולר בחודש, <em>Claude Code עושה הכל בחינם</em>",
+   "kicker": "Anthropic ניתקה את Cursor",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-29-edu-5-claude-code-business-builds-free-overn/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei presses glowing amber app icon at brightly-lit workbench, four finished icons arranged before him, warm light floods scene, navy wall, neon Anthropic logo, documentary."
+  },
+  {
+   "type": "content",
+   "headline": "1) עקוב אחרי מחיר כל מתחרה, <em>אוטומטית</em>",
+   "hsize": 100,
+   "body": "כלי מעקב אחרי מתחרים עולים <b>200 עד 500 דולר בחודש</b>.\n\nתאר ל-Claude Code מה אתה רוצה פעם אחת, והוא כותב את כל הסקריפט. הוא רץ כל בוקר לבד.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) מענה אוטומטי לכל מייל של לקוח, <em>תוך דקות</em>",
+   "hsize": 100,
+   "body": "לרוב העסקים לוקח יותר מיום להגיב להפניות חדשות.\n\nתאר ל-Claude Code את המערכת, והוא כותב הכול הלילה ואז מטפל בכל מענה לבד.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) הפוך את רשימת הלקוחות שלך ל<em>חשבוניות PDF במייל</em>",
+   "hsize": 100,
+   "body": "פרילנסרים ועסקי שירות מבזבזים שעות כל חודש על הפקת חשבוניות ידנית.\n\nתאר ל-Claude Code את רשימת הלקוחות שלך פעם אחת, והוא יוצר כל PDF ושולח אותם במייל.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$0 בחודש.",
+   "hsize": 66,
+   "body": "חמישה כלים שהמתחרים שלך משלמים עליהם 300 דולר בחודש",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) בנה דף הזמנות ללקוחות, <em>בלי תשלום חודשי</em>",
+   "hsize": 100,
+   "body": "התוכניות בתשלום של Calendly עולות <b>עשרה עד 20 דולר בחודש לכל משתמש</b>.\n\nתאר ל-Claude Code מה אתה צריך, והוא בונה את אותו הדבר, מתחבר ל-Google Calendar ושולח מיילי אישור.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) בנה סיכום בוקר <em>שרץ לבד</em>",
+   "hsize": 100,
+   "body": "עוזר וירטואלי גובה <b>25 עד 50 דולר לשעה</b> כדי לשלוף דוחות מ-Shopify, כלי מייל ופלטפורמות פרסום כל בוקר.\n\nClaude Code בונה סקריפט אחד שעושה את הכל, לפני שאתה קם.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: <em>חמישה כלים חינמיים ב-Claude Code</em>",
+   "hsize": 100,
+   "body": "מעקב מחירי מתחרים, רץ כל יום\nמענה אוטומטי למייל, עונה תוך דקות\nמחולל חשבוניות מרשימת הלקוחות\nדף הזמנות בלי תשלום חודשי\nסיכום בוקר מכל הנתונים שלך\n\nחדשות AI יומיות + כישורים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "חמישה כלים שהמתחרים שלך משלמים עליהם מאות דולר בחודש, Claude Code בונה בחינם. 🛠️\n\nלפי הסדר: מעקב מחירים שמייל אותך ברגע שמתחרה משנה מחיר, מענה אוטומטי ל-Gmail שעונה להפניות חדשות תוך דקות, מחולל חשבוניות שקורא את הספרדשיט שלך ושולח כל PDF במייל אוטומטית, דף הזמנות שמסתנכרן עם Google Calendar בלי עלות חודשית, וסיכום בוקר שמושך הכנסות Shopify, שיעורי פתיחת מיילים והוצאות פרסום לסיכום אחד לפני שאתה קם.\n\nAnthropic מסיימת את השותפות עם Cursor ב-12 בנובמבר, אחרי ש-SpaceX רכשה את כלי הקידוד. Claude Code הוא הדרך הישירה עכשיו: כתוב מה אתה רוצה וזהו, הוא בונה את הכל. כל כלי בפוסט הזה עולה 200 עד 1,500 דולר בחודש איפשהו. מנהל עסק? שלח לנו \"AI\" בפרטי ונראה לך איך זה נראה אצלך.\n\nמקורות: Anthropic\n\nעקוב אחרי @ainews.israel לחדשות AI יומיות\n\n#AI #ArtificialIntelligence #ClaudeCode #BusinessAutomation #AITools",
+ "pinned_comment": "איזה אחד אתה בונה הלילה? סיכום הבוקר בשקופית 7 הוא הכי שווה: לוקח בערך 20 דקות ב-Claude Code ואז הוא רץ לבד כל יום.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 JOBS <em>CLAUDE CODE DOES FREE WHILE YOU SLEEP</em>",
+   "5 RIVAL TOOLS, $300 A MONTH, <em>CLAUDE CODE MAKES THEM FREE</em>",
+   "<em>NON-CODERS ARE BUILDING 5 REAL BUSINESS TOOLS</em> IN CLAUDE CODE",
+   "5 FREE BUSINESS TOOLS <em>CLAUDE CODE BUILDS OVERNIGHT</em>"
+  ],
+  "scores": [
+   6,
+   9,
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "$300/month is a specific number that stops you—overnight is vague and less universally compelling. [1] tells the complete story upfront, [3] makes you click to understand what you're getting."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 SUBSCRIPTIONS COSTING YOU $300 — <em>AI HANDLES ALL FREE</em>",
+   "5 TOOLS COSTING $300 A MONTH — <em>CLAUDE CODE BILLS $0</em>",
+   "5 RIVAL TOOLS, $300 A MONTH, <em>CLAUDE CODE MAKES THEM FREE</em>",
+   "5 TOOLS MOST BUSINESSES PAY FOR — <em>AI DOES FREE</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   7,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] hits harder because it's immediate and concrete—$300/month problem gets a zero-dollar solution in six words. [2] almost lands but 'makes them free' requires one mental translation step, and you've already scrolled past."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW: The cover shows a generated unknown face — a man whose identity is ambiguous. If this is intended to evoke Dario Amodei (curly hair, glasses, Anthropic sign in background), the CAST TRUTH rule kills it: a recognizable founder as cover subject when the story is a tool listicle with zero connection to that person is celebrity-as-decoration. If it is not meant to be him, it is a generated ",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
