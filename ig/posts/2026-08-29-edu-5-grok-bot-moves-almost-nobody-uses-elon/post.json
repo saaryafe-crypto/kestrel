@@ -1,0 +1,76 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 GROK BOT JOBS <em>YOU'RE PAYING $200 A MONTH FOR</em>",
+   "kicker": "All 5 are free on X.",
+   "hsize": 70,
+   "face": "Elon Musk",
+   "hook_candidates": [
+    "5 GROK BOT JOBS <em>YOU'RE PAYING $200 A MONTH FOR</em>",
+    "5 GROK BOT MOVES <em>ALMOST NOBODY USES YET</em>",
+    "GROK BOT DOES 5 REAL JOBS FREE. <em>MOST PEOPLE MISS THEM ALL.</em>",
+    "5 FREE GROK BOT TRICKS <em>BUSINESS OWNERS HAVEN'T FOUND</em>",
+    "5 THINGS @GROK DOES FREE <em>THAT MOST TOOLS CHARGE FOR</em>"
+   ],
+   "media": "faces/elon-musk-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) SET GROK BOT AS YOUR COMPETITOR WATCHDOG. <em>IT COSTS $0.</em>",
+   "hsize": 90,
+   "body": "Social listening tools start at <b>$100 a month</b>. Grok Bot does the same thing free, from a single message inside X.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) GET A DAILY INDUSTRY BRIEF <em>WITHOUT OPENING A SINGLE TAB</em>",
+   "hsize": 86,
+   "body": "An industry newsletter costs <b>$20 a month</b>.\n\nGrok Bot schedules a tailored daily brief at <b>8am</b>, free, in one message.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) WRITE A WEEK OF POSTS FROM <em>WHAT'S TRENDING RIGHT NOW</em>",
+   "hsize": 88,
+   "body": "<b>Hootsuite</b> charges <b>$99 a month</b> and pulls trend data hours old.\n\nGrok Bot reads X live and writes <b>7 posts</b> in one message, free.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$200/MONTH TOOLS. @GROK IS FREE.",
+   "hsize": 76,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) DESCRIBE A TOOL IN ONE SENTENCE. <em>GROK BUILDS IT.</em>",
+   "hsize": 100,
+   "body": "Hiring a developer starts at <b>$200</b>.\n\nGrok Build writes the code and opens a working tool in your browser, free, in one message.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) FIND 10 PAYING CUSTOMERS <em>WHILE YOU SLEEP</em>",
+   "hsize": 108,
+   "body": "Lead-gen tools like <b>Apollo</b> start at <b>$49 a month</b> and pull from databases weeks old.\n\nGrok Bot finds <b>10 warm leads</b> live on X, free, overnight.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 FREE GROK BOT MOVES</em>",
+   "body": "Competitor watchdog for $0\nDaily industry brief, auto-delivered\nA week of posts from live trends\nWorking tool built in one sentence\nLead finder that runs overnight\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5 before you close this. Each takes under 2 minutes to set up and almost nobody on X knows they exist. \ud83e\udd16\n\nCompetitor watchdog that alerts you the second a rival posts at zero cost, a daily industry brief delivered without opening a tab, a full week of posts written from what is trending on X right now, a working browser tool built from one plain-English sentence with zero code, and a real-time lead finder that searches X overnight and writes your first message.\n\nGrok Bot became a full AI worker this year and most people still open it to ask one question and close the tab. Every move above is free, runs on the X account you already have, and can be set up tonight.\n\nRunning a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: elonmusk, xAI\n\n#AI #GrokBot #AIForBusiness #FreeAI #Productivity",
+ "pinned_comment": "Which one are you trying tonight? The competitor watchdog on slide 2 is the sleeper. Most people have no idea Grok Bot runs that around the clock for free.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW: The cover is a plain Elon Musk corporate headshot against a featureless gray background \u2014 no story-world context, no brand discs, no emotion tied to the Grok narrative. IMAGE LAW requires a famous-person cover to show 'the STORY'S SITUATION (emotion on the face + loud, colorful story-world background + brand discs behind the person).' The thumb test fails: at feed size a stranger sees a"
+}
