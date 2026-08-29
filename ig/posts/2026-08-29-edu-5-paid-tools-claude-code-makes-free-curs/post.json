@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 TOOLS <em>ONE CONVERSATION</em> WITH CLAUDE BUILDS FOR FREE",
+   "kicker": "CURSOR'S ACCESS ENDS NOV 12",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-29-edu-5-paid-tools-claude-code-makes-free-curs/gen-0-rescue.jpg",
+   "image_prompt": "Dario Amodei in orange hard hat grinning, pressing glowing red detonator, five giant dollar-sign orbs bursting in electric orange sparks, bright wall, Claude logo glowing, documentary news photo, natural lighting, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) BUILD A $3,000 <em>WEBSITE TOOL FOR FREE</em>",
+   "hsize": 100,
+   "body": "Web developers charge $3,000 to build a price calculator for your site. You build one tonight in one sentence.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>WATCH YOUR COMPETITORS</em> EVERY MONDAY",
+   "hsize": 100,
+   "body": "Competitor price tracking tools start at $99 a month.\n\nThis script runs free, checks automatically, and emails you the moment anything changes.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "$300 A MONTH",
+   "hsize": 120,
+   "body": "What these five tools cost combined. Each one replaced by a single conversation with Claude Code.",
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>SEND INVOICE REMINDERS</em> AUTOMATICALLY",
+   "hsize": 95,
+   "body": "A billing assistant charges $50 an hour to chase unpaid invoices. You let Claude Code do it every Monday for free.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD A <em>REVENUE DASHBOARD</em> OVERNIGHT",
+   "hsize": 100,
+   "body": "Databox costs $47 a month to show you numbers from your own spreadsheet.\n\nClaude Code builds the same thing in one conversation, for free.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>BUILD A CUSTOMER INTAKE CHATBOT</em>",
+   "hsize": 95,
+   "body": "Intercom starts at $74 a month for a basic chatbot. Most business owners never set one up. You get one working tonight.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 TOOLS CLAUDE CODE MAKES FREE</em>",
+   "hsize": 90,
+   "body": "1) Quote calculator for your website\n2) Competitor price alerts every Monday\n3) Invoice reminders that send themselves\n4) Revenue dashboard from spreadsheet\n5) Customer chatbot that filters leads\n\nDaily AI news + skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all\n5. Claude Code builds these free for any business tonight, no coding needed. \ud83d\udd27\n\n1) live quote calculator for your website,\n2) automatic competitor price alerts every Monday morning,\n3) invoice reminder emails that send themselves,\n4) revenue dashboard built from your own spreadsheet,\n5) customer intake chatbot that filters leads overnight. Each one built in a single conversation.\n\nCursor built its business on Claude's models. SpaceX acquired Cursor this week and Anthropic is ending its access on November\n12. The people moving fast right now are learning what Claude Code does without any middleman. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#AI #ClaudeCode #BusinessAutomation #NoCode #AITools",
+ "pinned_comment": "Which one are you trying tonight? Slide 5 is the sleeper: once you set up the invoice reminder, it chases money every Monday without you touching it again.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 SUBSCRIPTIONS <em>BUSINESS OWNERS ARE CANCELING</em> THIS WEEK",
+   "5 PAID TOOLS <em>CLAUDE CODE</em> MAKES FREE TONIGHT",
+   "5 TOOLS <em>ONE CONVERSATION</em> WITH CLAUDE BUILDS FOR FREE"
+  ],
+  "scores": [
+   3,
+   5,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] hits because an AI actually building tools from one conversation is surprising enough to stop scrolling. [1] is just another 'free promotion tonight,' which you ignore like every other offer."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 TOOLS <em>YOUR BUSINESS PAYS FOR</em>. CLAUDE BUILDS THEM ALL FREE.",
+   "5 TOOLS CLAUDE BUILDS FREE <em>MOST PEOPLE STILL PAY FOR</em>",
+   "5 TOOLS <em>ONE CONVERSATION</em> WITH CLAUDE BUILDS FOR FREE"
+  ],
+  "scores": [
+   5,
+   6,
+   7
+  ],
+  "winner": 2,
+  "why": "One conversation building five tools is the shock that stops scrolling\u2014genuine 'wait WHAT?' about capability. [1] is snarkier but still just a free-tool pitch, not the wow-factor."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on the cover. The doctrine is explicit: 'Never a generated unknown face.' The cover shows a generated man holding a Claude-branded device. Replace with a real photo, a recognizable famous face tied to the story, or a no-face cover that shows the tool output itself.; COVER KICKER \u2014 'CURSOR'S ACCESS ENDS NOV 12' is unverifiable and looks like manufactured scarcity.",
+ "topic_source": "news-anchored"
+}
