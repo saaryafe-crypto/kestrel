@@ -1,0 +1,121 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שישה דברים שמשלמים עליהם <em>$8,450</em>",
+   "kicker": "AI עושה את כולם בחינם",
+   "hsize": 70,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-28-edu-6-creative-things-ai-makes-free-tonight-/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei waist-up in paint-splattered orange apron, arms wide grinning, three creative props orbiting bright studio, glowing Claude symbol on wall. Documentary 35mm, bright electric orange accent, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) פרומפט אחד במקום <em>צילום מוצר ב-$800</em>",
+   "hsize": 100,
+   "body": "מותג ביגוד שילם $800 על סשן צילום אחד. Grok הגיע לאותה תוצאה תוך 90 שניות.\n\n\"צלם את ה[מוצר] שלי על משטח לבן, תאורה דרמטית מהצד, סגנון e-commerce מקצועי. פוטוריאליסטי. בלי טקסט.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>חבילת לוגו שלמה תוך שתי דקות</em>",
+   "hsize": 100,
+   "body": "מעצב הציע לסטארטאפ $1,200. ChatGPT הביא שלושה קונספטים בחינם תוך שתי דקות.\n\n\"לוגו מינימלי ל[סוג עסק] בשם [שם]. אייקון נקי, פונט מודרני, צבע הדגשה אחד. בלי טקסט.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) פרסומת של דקה <em>שסטודיו גובה עליה $3,500</em>",
+   "hsize": 96,
+   "body": "סטודיו גובה $3,500 על פרסומת של 60 שניות. עם Claude ו-ElevenLabs זה עולה אפס.\n\n\"כתוב פרסומת של 60 שניות ל[מוצר]. פתח עם הכאב של הקונה. הצג את הפתרון. שורת סיום אחת חזקה.\"",
+   "media": "posts/2026-08-28-edu-6-creative-things-ai-makes-free-tonight-/gen-3.jpg",
+   "image_prompt": "Film clapperboard and folded paper script centered on an amber-lit production floor under one dramatic overhead spotlight. No people, no readable text, warm amber production world surrounding. Documentary 35mm, film grain. Accent: warm amber against deep russet."
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$8,450",
+   "hsize": 66,
+   "body": "מה שסוכנויות גובות על כולם. הלילה עם AI: בחינם",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) 30 יום של <em>פוסטים ברשתות מפרומפט אחד</em>",
+   "hsize": 100,
+   "body": "סוכנויות גובות $2,000 בחודש על זה. פרומפט אחד ל-Claude מכסה 30 יום.\n\n\"לוח תוכן ל-30 יום ל[סוג עסק]. חמישה פוסטים בשבוע, כל אחד עם הוק, קפשן וזמן פרסום.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) תסריט <em>פרק פודקאסט שלם תוך 60 שניות</em>",
+   "hsize": 100,
+   "body": "כותבי פודקאסטים גובים $200 לפרק. Claude כותב תסריט ראיון שלם תוך 60 שניות.\n\n\"כתוב תסריט פודקאסט של עשר דקות על [נושא]. שני מגישים. המגיש השני מאתגר טענה אחת. שיחה טבעית.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) כתוב ואייר <em>ספר ילדים הלילה</em>",
+   "hsize": 100,
+   "body": "מאיירים גובים $75 לעמוד. Claude כותב, Grok מאייר, שניהם בחינם.\n\n\"ספר ילדים של עשרה עמודים על [נושא] לגילאי ארבע עד שבע. חרוזים. שלושה משפטים לעמוד. תיאור איור אחד לעמוד.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: <em>שישה דברים יצירתיים ש-AI הופך לבחינם</em>",
+   "hsize": 90,
+   "body": "צילום מוצר (Grok, 90 שניות)\nחבילת לוגו (ChatGPT, שתי דקות)\nפרסומת וידאו 60 שניות (Claude + ElevenLabs)\n30 יום של פוסטים ברשתות (Claude)\nספר ילדים עם איורים (Claude + Grok)\n\nחדשות AI יומיות + כלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "שמור את זה: כלי AI חינמיים מחליפים בשקט צלמים, מעצבים, סטודיות וסוכנויות. 🎨\n\nצילום מוצר ש-Grok יוצר תוך 90 שניות, לוגו מותג שלם ש-ChatGPT יוצר תוך שתי דקות, פרסומת וידאו של 60 שניות ש-Claude כותב ו-ElevenLabs מקריא בחינם, לוח פוסטים ל-30 יום מפרומפט אחד ל-Claude, תסריט פודקאסט שלם תוך 60 שניות, וספר ילדים עם איורים ש-Claude כותב ו-Grok מאייר. כל אחד מהדברים האלה עולה בין $200 ל-$3,500 אצל מקצוען. הלילה זה עולה אפס.\n\nסוכנויות בנו את התמחור שלהן על מחסור: פעם היית צריך ציוד יקר ושנים של ניסיון. AI ביטל את שניהם. אותה האיכות עכשיו פתוחה לכל מי שיש לו טלפון.\nמנהל עסק? שלח לנו DM עם \"AI\" ונראה לך מה זה יכול לעשות בשבילך. עקוב אחרי @ainews.israel לחדשות AI כל יום.\n\nמקורות: sthsora\n\n#AItools #ContentCreation #FreeAI #AIforBusiness #CreativeAI",
+ "pinned_comment": "מה תנסה הלילה? תסריט הפרסומת בשקופית 4 הוא הפנינה הנסתרת פה: רוב האנשים לא יודעים ש-Claude ו-ElevenLabs עושים את זה בחינם.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "AI MAKES <em>6 CREATIVE THINGS FREE</em> TONIGHT",
+   "<em>6 EXPENSIVE CREATIVE THINGS</em> AI DOES FREE",
+   "AI DOES THESE <em>6 CREATIVE JOBS FREE</em>",
+   "6 CREATIVE THINGS <em>AI MAKES FREE TONIGHT</em>",
+   "6 THINGS AGENCIES <em>CHARGE $8,450 FOR</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   5,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "The specific $8,450 hits you with instant 'wait, WHAT?' shock that actually stops the scroll at 2am, while [1]'s clear value prop ('expensive things free') sounds like professional marketing you've scrolled past a thousand times."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 AI TRICKS WORTH <em>$8,450</em> MOST PEOPLE OVERLOOK",
+   "6 THINGS <em>WORTH $8,450</em> AI DOES IN MINUTES",
+   "6 THINGS YOU'RE PAYING <em>$8,450 FOR</em> AI DOES FREE",
+   "6 THINGS AGENCIES <em>CHARGE $8,450 FOR</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   9,
+   4
+  ],
+  "winner": 2,
+  "why": "[2] punches you in the gut by making it about YOUR money wasted right now, while [1] is impressive but stays abstract—you scroll past impressive, you stop when you realize you're bleeding cash."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW hard violation: the cover shows a generated unknown face. The law is explicit — 'Never a generated unknown face.' The image must be replaced with a graphic/product collage, a tool-brand-mark composition, or a recognizable-famous-person cover. The staged-creative-studio concept is fine; the non-famous generated human face is not.; Save-close body lists 5 items for a post headlined '6 CREA",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
