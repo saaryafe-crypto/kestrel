@@ -1,0 +1,106 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמש בדיקות שה-AI עושה בחינם <em>ומומחים גובים עליהן מאות דולר לשעה</em>",
+   "kicker": "ChatGPT תפס מרשם שגוי של רופא",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-08-29-edu-5-high-stakes-ai-second-opinion-checks-b/gen-0-r.jpg",
+   "image_prompt": "Two faceless hands rip a billing invoice in half as a glowing smartphone displaying FREE centers foreground—bold, unobstructed. Minimal law-office: dark mahogany, amber warmth, no clutter. Harsh flash, film grain. Signal red intensity."
+  },
+  {
+   "type": "content",
+   "headline": "1) בדקו כל מרשם <em>לפני שאתם לוקחים את התרופה</em>",
+   "hsize": 112,
+   "body": "השבוע מישהו הכניס את המרשם שלו ל-ChatGPT.\n\n<b>הוא זיהה שהרופא רשם תרופה שגויה.</b> שתי תרופות עם שמות דומים, אפקטים שונים לגמרי.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) סרקו כל חוזה <em>לפני שאתם חותמים</em>",
+   "hsize": 112,
+   "body": "<b>עורכי דין גובים 300 עד 500 דולר לבדיקת חוזה אחד. AI עושה את זה תוך 30 שניות.</b>\n\nחוזה סטנדרטי יכול להעביר את הקניין הרוחני שלכם למישהו אחר, או להתחדש אוטומטית בתעריף כפול.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) סרקו את חשבוניות הספקים שלכם <em>לאיתור חיובים מוסתרים</em>",
+   "hsize": 105,
+   "body": "<b>רוב העסקים משלמים חשבוניות לספקים בלי להשוות אותן להסכם המקורי.</b>\n\nאם יש לכם יותר מספק אחד, כמעט בטוח שאתם משלמים על משהו שמעולם לא הסכמתם עליו.",
+   "media": "posts/2026-08-29-edu-5-high-stakes-ai-second-opinion-checks-b/gen-3.jpg",
+   "image_prompt": "Three vendor invoices spread across a bright desk surface, a bold red marker caught mid-circle on a discrepancy — no readable text on any document — a glowing smartphone beside them displaying two mismatched bar-chart symbols side by side at peak mismatch, caught at the discovery instant. Clean professional overhead light, sharp office surface. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: alert yellow against professional blue."
+  },
+  {
+   "type": "content",
+   "headline": "4) הריצו את תנאי ההלוואה דרך AI <em>לפני שאתם לווים</em>",
+   "hsize": 105,
+   "body": "<b>הריבית היא מספר אחד. הכסף האמיתי מסתתר בעמלות, בקנסות ובסעיפים הנסתרים.</b>\n\nרוב בעלי העסקים חותמים בלי לקרוא את הסעיפים שמגבילים אותם.",
+   "media": "posts/2026-08-29-edu-5-high-stakes-ai-second-opinion-checks-b/gen-4.jpg",
+   "image_prompt": "Close-up of a thick loan agreement — no readable text — three clauses marked with bold red ink circles already drawn, a faceless hand pressed flat on the page mid-review, a glowing smartphone beside showing a large red alert symbol on screen. Dramatic raking side light across a boardroom mahogany table surface. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: caution red against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "5) בדקו את החוזים שלכם <em>מהצד של הלקוח</em>",
+   "hsize": 100,
+   "body": "<b>רוב בעלי העסקים לא בודקים מה הלקוח יכול לעשות עם החוזה שלהם.</b>\n\nAI קורא את החוזה שלכם מהצד של הלקוח. מכאן מגיעים הסכסוכים והחשבוניות שלא משולמות.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה:</em> חמש בדיקות AI לפני שסומכים או מוציאים כסף",
+   "hsize": 90,
+   "body": "1) מרשמים: מינון ואינטראקציות בין תרופות\n2) חוזים: איתור סעיפים בעייתיים לפני חתימה\n3) חשבוניות ספקים: מציאת חיובים מוסתרים\n4) תנאי הלוואה: זיהוי אותיות קטנות יקרות\n5) החוזים שלכם: מה הלקוחות יכולים לנצל",
+   "media": null
+  }
+ ],
+ "caption": "חמש בדיקות שה-AI עושה בחינם ומומחים גובים עליהן מאות דולר לשעה. ChatGPT תפס מרשם שגוי של רופא השבוע. 🔍\n\nבדיקת מרשמים לזיהוי תרופות שגויות ואינטראקציות מסוכנות, בדיקת חוזים לאיתור סעיפים בעייתיים לפני חתימה, ביקורת חשבוניות ספקים לאיתור חיובים שלא היו בהסכם המקורי, תנאי הלוואה לזיהוי קנסות ופחים מוסתרים, והחוזים שלכם עצמם מהזווית של הלקוח כדי לראות מה הוא יכול לנצל.\n\nהשבוע ב-X, מישהו הכניס את המרשם שלו ל-ChatGPT. הוא זיהה שהרופא רשם תרופה שגויה. AI הפך לחוות הדעת הזולה ביותר לכל החלטה עם סיכון גבוה. מי שמריץ את הבדיקות האלה תופס אלפי דולרים בטעויות לפני שהן קורות.\n\nמנהלים עסק? שלחו לנו DM עם המילה \"AI\" ונראה לכם מה זה יכול לעשות בשבילכם.\n\nמקורות: X post Aug 29 2026 (prescription catch), OpenAI, Anthropic\n\nעקבו אחרי @ainews.israel לעוד.\n\n#ai #chatgpt #artificialintelligence #businessowner #aitools",
+ "pinned_comment": "איזו בדיקה אתם מריצים ראשונה? שקופית 3 מוצאת דברים שעורך דין ב-300 דולר לשעה היה שולח לכם חשבונית עליהם.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 EXPENSIVE MISTAKES <em>AI CATCHES</em> THAT COST PEOPLE THOUSANDS",
+   "5 THINGS AI CATCHES <em>THAT YOUR LAWYER WON'T</em>",
+   "5 COSTLY DECISIONS <em>AI REVIEWS</em> BEFORE YOU MAKE THEM",
+   "5 THINGS <em>PROFESSIONALS DON'T WANT</em> YOU RUNNING THROUGH AI"
+  ],
+  "scores": [
+   7,
+   8,
+   6,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hooks you with an unexpected comparison (AI beats your lawyer) that creates immediate curiosity. [0] promises the familiar money-saving angle that feels like every other AI post."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "BEFORE YOU SIGN OR SWALLOW, <em>RUN THESE 5 FREE AI CHECKS</em>",
+   "5 CHECKS AI RUNS FREE <em>THAT LAWYERS CHARGE $400 AN HOUR FOR</em>",
+   "5 CHECKS <em>YOUR DOCTOR AND LAWYER HOPE YOU SKIP</em>",
+   "5 THINGS AI CATCHES <em>THAT YOUR LAWYER WON'T</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   7,
+   4
+  ],
+  "winner": 1,
+  "why": "[1] stops you cold with $400/hr because it's a real number you instantly understand means expensive. [2] makes you curious with the 'they hope you skip' angle but doesn't tell you the actual benefit, so you probably keep scrolling."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (6/10)",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
