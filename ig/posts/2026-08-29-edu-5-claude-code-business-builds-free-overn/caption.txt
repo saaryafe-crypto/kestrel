@@ -1,0 +1,9 @@
+Swipe through, grab each prompt, and paste it into Claude Code tonight: five tools your competitors pay hundreds a month for, built free in plain English. 🛠️
+
+In order: a competitor price tracker that emails you the moment any rival changes their pricing, a Gmail auto-responder that reads new inquiries and sends the right reply within minutes, an invoice generator that reads your client spreadsheet and emails every PDF automatically, a booking page that syncs with Google Calendar at no monthly cost, and a morning briefing that pulls yesterday's Shopify revenue, email open rates, and ad spend into one clean summary before you wake up.
+
+Anthropic ends its Cursor partnership on November 12, after SpaceX acquired the coding tool. Claude Code is the direct path now: type what you want in plain English and it builds the whole thing. Every tool in this post costs $200 to $1,500 a month somewhere. Running a business? DM us "AI" and we'll show you what this looks like for yours.
+
+Sources: Anthropic
+
+#AI #ArtificialIntelligence #ClaudeCode #BusinessAutomation #AITools

@@ -1,0 +1,106 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 TOOLS COSTING $300 A MONTH, <em>CLAUDE CODE BILLS $0</em>",
+   "kicker": "CURSOR JUST LOST ITS ACCESS",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-29-edu-5-claude-code-business-builds-free-overn/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei presses glowing amber app icon at brightly-lit workbench, four finished icons arranged before him, warm light floods scene, navy wall, neon Anthropic logo, documentary."
+  },
+  {
+   "type": "content",
+   "headline": "1) TRACK EVERY COMPETITOR'S PRICE, <em>AUTOMATICALLY</em>",
+   "hsize": 100,
+   "body": "Competitor monitoring tools charge <b>$200 to $500 a month</b>.\n\nDescribe what you want to Claude Code once and it writes the whole script. It runs every morning without you touching anything.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) AUTO-REPLY TO EVERY CUSTOMER EMAIL <em>IN MINUTES</em>",
+   "hsize": 100,
+   "body": "Most businesses take more than a day to reply to new leads.\n\nDescribe the system to Claude Code and it writes the whole thing tonight, then handles every reply automatically.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) TURN YOUR CLIENT LIST INTO <em>EMAILED PDF INVOICES</em>",
+   "hsize": 100,
+   "body": "Freelancers and service businesses spend hours every month building invoices by hand.\n\nDescribe your client list to Claude Code once and it generates every PDF and emails them.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$0 A MONTH.",
+   "hsize": 66,
+   "body": "Five tools your rivals pay $300 a month for",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD A CLIENT BOOKING PAGE, <em>ZERO MONTHLY FEE</em>",
+   "hsize": 100,
+   "body": "Calendly's paid plans charge <b>$10 to $20 a month per user</b>.\n\nDescribe what you need to Claude Code and it builds the same thing, connects to Google Calendar, and sends confirmation emails.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD A MORNING DATA BRIEF <em>THAT RUNS ITSELF</em>",
+   "hsize": 100,
+   "body": "A VA charges <b>$25 to $50 an hour</b> to pull reports from Shopify, email tools, and ad platforms every morning.\n\nClaude Code builds one script that does all of it, before you wake up.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 FREE CLAUDE CODE BUILDS</em>",
+   "hsize": 100,
+   "body": "Competitor price tracker, runs daily\nEmail auto-responder, replies in minutes\nInvoice generator from your client list\nBooking page with no monthly fee\nMorning brief from all your data\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through, grab each prompt, and paste it into Claude Code tonight: five tools your competitors pay hundreds a month for, built free in plain English. \ud83d\udee0\ufe0f\n\nIn order: a competitor price tracker that emails you the moment any rival changes their pricing, a Gmail auto-responder that reads new inquiries and sends the right reply within minutes, an invoice generator that reads your client spreadsheet and emails every PDF automatically, a booking page that syncs with Google Calendar at no monthly cost, and a morning briefing that pulls yesterday's Shopify revenue, email open rates, and ad spend into one clean summary before you wake up.\n\nAnthropic ends its Cursor partnership on November 12, after SpaceX acquired the coding tool. Claude Code is the direct path now: type what you want in plain English and it builds the whole thing. Every tool in this post costs $200 to $1,500 a month somewhere. Running a business? DM us \"AI\" and we'll show you what this looks like for yours.\n\nSources: Anthropic\n\n#AI #ArtificialIntelligence #ClaudeCode #BusinessAutomation #AITools",
+ "pinned_comment": "Which one are you building tonight? The morning brief on slide 7 is the sleeper: takes about 20 minutes in Claude Code and it runs itself every day from then on.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 JOBS <em>CLAUDE CODE DOES FREE WHILE YOU SLEEP</em>",
+   "5 RIVAL TOOLS, $300 A MONTH, <em>CLAUDE CODE MAKES THEM FREE</em>",
+   "<em>NON-CODERS ARE BUILDING 5 REAL BUSINESS TOOLS</em> IN CLAUDE CODE",
+   "5 FREE BUSINESS TOOLS <em>CLAUDE CODE BUILDS OVERNIGHT</em>"
+  ],
+  "scores": [
+   6,
+   9,
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "$300/month is a specific number that stops you\u2014overnight is vague and less universally compelling. [1] tells the complete story upfront, [3] makes you click to understand what you're getting."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 SUBSCRIPTIONS COSTING YOU $300 \u2014 <em>AI HANDLES ALL FREE</em>",
+   "5 TOOLS COSTING $300 A MONTH \u2014 <em>CLAUDE CODE BILLS $0</em>",
+   "5 RIVAL TOOLS, $300 A MONTH, <em>CLAUDE CODE MAKES THEM FREE</em>",
+   "5 TOOLS MOST BUSINESSES PAY FOR \u2014 <em>AI DOES FREE</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   7,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] hits harder because it's immediate and concrete\u2014$300/month problem gets a zero-dollar solution in six words. [2] almost lands but 'makes them free' requires one mental translation step, and you've already scrolled past."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW: The cover shows a generated unknown face \u2014 a man whose identity is ambiguous. If this is intended to evoke Dario Amodei (curly hair, glasses, Anthropic sign in background), the CAST TRUTH rule kills it: a recognizable founder as cover subject when the story is a tool listicle with zero connection to that person is celebrity-as-decoration. If it is not meant to be him, it is a generated ",
+ "topic_source": "news-anchored"
+}

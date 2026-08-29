@@ -1,194 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Pure corporate research announcement with zero real-world event or consequence—no one was affected, no game shipped, no breakthrough changed anything; all aspirational future-tense talk ('exploring,' 'our goal is to') masquerading as news, and the 2/10 scout score signals even the finder saw no substance.",
-  "subject": "Games have been an important testbed for our AI research for over 15 years. 🎮 From mastering Atari to reaching Grandmast",
-  "t": "2026-08-22T19:18:26Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One thin scenic tweet with no story, person, money moved, or tech angle—fails story law as pure off-brand decoration with zero substance.",
-  "subject": "The incredible 360 degree view from the top of Mount Everest on a clear day. 📽: Ben M Jones",
-  "t": "2026-08-22T19:18:34Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "SHUFFLE TEST FAIL (hard gate): Slides 2, 3, 5, and 6 are four independent breakthroughs with no narrative chain between them. Swap breakthrough #1 and breakthrough #4 — no confusion results. This is a numbered listicle, not a story. Each slide must be impossible to understand without the one before it. Fix: build a causal chain — e.g., the memory problem (slide 3) must exist BECAUSE the forgetting",
-  "subject": "<em>4 AI BREAKTHROUGHS</em> GOOGLE BUILT BY PLAYING VIDEO GAMES",
-  "t": "2026-08-22T20:22:50Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-08-22T23:19:04Z",
-  "gate": "A",
-  "subject": "The greatest privilege of my life is being able to work with incredible people to create amazing products",
-  "verdict": "KILL",
-  "reason": "No substance: the entire source is one generic motivational platitude (105 chars) with zero specifics, no event, no numbers, and no real-world consequence—nothing behind it to build a carousel from."
- },
- {
-  "t": "2026-08-22T23:19:12Z",
-  "gate": "A",
-  "subject": "FUN FACT: 10 years ago today, Bitcoin was $586",
-  "verdict": "KILL",
-  "reason": "No substance: a single historical price fact with zero real-world event, person, action, or consequence — pure trivia that requires padding to fill slides, violating the NO SUBSTANCE instant kill."
- },
- {
-  "t": "2026-08-22T23:19:17Z",
-  "gate": "A",
-  "subject": "Wtf Anthropic: If Fable has felt noticeably dumber this week, it’s because Claude Code has apparently been running “high",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: unverified claim generating engagement with no real-world consequence, independent proof, or substance beyond a complaint tweet."
- },
- {
-  "t": "2026-08-22T23:19:44Z",
-  "gate": "A",
-  "subject": "We’re getting fully AI-generated police procedurals now. This is the first ep of Dick Snifford, Miami’s most unconventio",
-  "verdict": "KILL",
-  "reason": "Unknown creator (logicbent), routine AI-content subject, and no substance—160-character source with zero numbers, outcome, or secondary facts to build from."
- },
- {
-  "t": "2026-08-22T23:20:04Z",
-  "gate": "A",
-  "subject": "One of the mysteries of humanity has been solved",
-  "verdict": "KILL",
-  "reason": "No substance: the entire source is one vague claim with zero facts, names, numbers, consequences, or specifics about which mystery or how it was solved—a writer would have to fabricate the post from pure clickbait."
- },
- {
-  "t": "2026-08-22T23:20:20Z",
-  "gate": "A",
-  "subject": "The sci-future I dreamed about as a kid is right here at our doorstep Did you know you can request the raw photos from t",
-  "verdict": "KILL",
-  "reason": "No substance: the source is one fragmentary tweet making an undemonstrated claim about hidden data, with zero numbers, consequences, or actual information shown; writer has nothing to build slides from."
- },
- {
-  "t": "2026-08-22T23:20:20Z",
-  "gate": "A",
-  "subject": "Tesla is officially launching Cybercab on September 3. The future is autonomous.",
-  "verdict": "KILL",
-  "reason": "Launch-preview announcement with zero substance: a single sentence containing only a date, no second fact, no numbers, no consequence—explicitly banned as on-topic-but-routine with nothing but padding beyond it."
- },
- {
-  "t": "2026-08-22T23:20:22Z",
-  "gate": "A",
-  "subject": "Talarico wants to enable voting fraud in Texas by banning voter ID",
-  "verdict": "KILL",
-  "reason": "Reaction-bait instant kill: Elon's tweet criticizing alleged intent has no real-world consequence—no actual bill, vote, action, or outcome documented."
- },
- {
-  "t": "2026-08-22T23:20:45Z",
-  "gate": "A",
-  "subject": "The bird even realized he had won",
-  "verdict": "KILL",
-  "reason": "33-character source with no event, names, numbers, or consequence—no substance exists to build slides from."
- },
- {
-  "t": "2026-08-22T23:20:46Z",
-  "gate": "A",
-  "subject": "The strange, variable reference frames you get in a rough sea.",
-  "verdict": "KILL",
-  "reason": "One thin sentence with zero facts, numbers, or real-world consequence — the writer would have to pad this into existence; the source material offers nothing to build from."
- },
- {
-  "t": "2026-08-22T23:20:46Z",
-  "gate": "A",
-  "subject": "Israeli content creator Matanel Laiany mocked children in Gaza's lack of water Fking sickening Writer: Ian",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no substance: online pile-on sourced from a single 106-character X post, no real-world consequence (nobody fired, banned, sued, or lost money), scout interest 1/10, unknown actor, and fails the shuffle test for a carousel."
- },
- {
-  "t": "2026-08-22T23:20:53Z",
-  "gate": "A",
-  "subject": "The incredible 360 degree view from the top of Mount Everest on a clear day. 📽: Ben M Jones",
-  "verdict": "KILL",
-  "reason": "No substance: a single thin tweet with zero facts, numbers, or consequence — just a scenic photo with no story event, no actor outcome, and no reason a 16-year-old would DM it to a friend."
- },
- {
-  "t": "2026-08-22T23:21:21Z",
-  "gate": "A",
-  "subject": "🇺🇸 Imagine the outrage if Muslims did this in Manhattan Writer: Ian",
-  "verdict": "KILL",
-  "reason": "Pure reaction-bait: a hypothetical engagement prompt asking readers to imagine outrage at an unnamed scenario with zero real-world event, consequence, or substance—no second fact, no numbers beyond like-counts, no actor beyond 'Writer: Ian.' This is exactly the Queen Elizabeth pile-on model the doctrine was built to kill."
- },
- {
-  "t": "2026-08-22T23:21:26Z",
-  "gate": "A",
-  "subject": "Games have been an important testbed for our AI research for over 15 years. 🎮 From mastering Atari to reaching Grandmast",
-  "verdict": "KILL",
-  "reason": "No substance: a thin research announcement with no specific event, consequence, or numbers—pure on-topic-but-routine preview of future work, exactly what the doctrine bans; scout interest 1/10 demands exceptional cause, this has none."
- },
- {
-  "t": "2026-08-23T01:12:32Z",
-  "gate": "B",
-  "subject": "6 CLAUDE SKILLS <em>PEOPLE ARE QUIETLY USING TO REPLACE STAFF</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — generated unknown face on the cover. The man holding the Claude phone is not recognizable as any specific famous person. §3 bans this explicitly: 'Never a generated unknown face.' Fix: regenerate with a clearly identifiable famous person (e.g., Dario Amodei by name prompt) or replace with a product-only shot showing the Claude app/logo without an unknown human face.; SLIDE 2 LAW — slid"
- },
- {
-  "t": "2026-08-23T08:47:44Z",
-  "gate": "A",
-  "subject": "every news headline now is like Blueberries Will Kill You. Measles Is Back. Gas Costs Six Dollars. Gwyneth Paltrow Is Se",
-  "verdict": "KILL",
-  "reason": "This is pure reaction-bait with no real-world event—the only 'story' is that people liked a tweet complaining about chaotic news headlines; there are zero facts, numbers, or consequences to build slides from, and a writer would have to entirely pad an essay about media sensationalism to fill a carousel."
- },
- {
-  "t": "2026-08-23T14:22:33Z",
-  "gate": "A",
-  "subject": "every news headline now is like Blueberries Will Kill You. Measles Is Back. Gas Costs Six Dollars. Gwyneth Paltrow Is Se",
-  "verdict": "KILL",
-  "reason": "Pure reaction-bait: the story is that a sarcastic take on news headlines got engagement on X, not that anything actually happened in the world; no real-world consequence, no second fact, no substance behind a single tweet—exactly the pattern that killed Queen Elizabeth and Mario Lopez."
- },
- {
-  "gate": "B",
-  "reason": "CAST TRUTH VIOLATION — cover image shows a generated Sam Altman holding a tray of feature icons. Sam Altman has zero role in this story; he is decoration for a ChatGPT tip post. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Fix: regenerate cover with the product mark (ChatGPT/Claude logos) as the visual anchor, n",
-  "subject": "6 AI POWERS <em>YOU KEEP PAYING FOR AND IGNORING</em>",
-  "t": "2026-08-23T14:18:05Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-08-23T18:25:52Z",
-  "gate": "A",
-  "subject": "every news headline now is like Blueberries Will Kill You. Measles Is Back. Gas Costs Six Dollars. Gwyneth Paltrow Is Se",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no real-world event — the 54K likes are people agreeing with a sardonic Twitter observation about news headlines, not an actual story where something happened and someone felt the consequence."
- },
- {
-  "t": "2026-08-23T19:44:32Z",
-  "gate": "A",
-  "subject": "Don’t pass on generational trauma",
-  "verdict": "KILL",
-  "reason": "No substance: a 33-character motivational statement with zero event, consequence, numbers, or facts to build a story from—the writer would have to fabricate everything."
- },
- {
-  "t": "2026-08-23T19:44:35Z",
-  "gate": "A",
-  "subject": "Accuracy: 100% Damage: 0%",
-  "verdict": "KILL",
-  "reason": "Single cryptic phrase with zero context or substance; the writer would have nothing to build slides from, and scout interest below threshold (4/10) without exceptional justification."
- },
- {
-  "t": "2026-08-23T19:44:43Z",
-  "gate": "A",
-  "subject": "Fully remote workers report the highest well-being, and are less likely to quit, per FORTUNE",
-  "verdict": "KILL",
-  "reason": "A generic research finding, not a viral-specific event—no person acted, no money moved, no consequence anyone felt; fails Story Law's core requirement."
- },
- {
-  "t": "2026-08-23T19:44:46Z",
-  "gate": "A",
-  "subject": "Honda chief engineer Shotaro Odate is a leading vehicle safety innovator, credited with more than 250 patents At 85, he ",
-  "verdict": "KILL",
-  "reason": "No actual event or consequence—just biographical facts about an interesting person; the thin source (252 chars) has no story underneath and would require padding to fill a carousel."
- },
- {
-  "t": "2026-08-23T19:45:10Z",
-  "gate": "A",
-  "subject": "One of the mysteries of humanity has been solved",
-  "verdict": "KILL",
-  "reason": "No substance — source is one vague 48-character sentence with zero facts, numbers, names, consequences, or specifics; insufficient material and fails the instant-kill rule."
- },
- {
   "t": "2026-08-23T19:45:13Z",
   "gate": "A",
   "subject": "Precisely articulated",
@@ -2098,5 +1909,194 @@
   "subject": "5 CHECKS AI RUNS FREE <em>THAT PROFESSIONALS CHARGE $400 AN HOUR FOR</em>",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-29T11:53:25Z",
+  "gate": "A",
+  "subject": "They made it.",
+  "verdict": "KILL",
+  "reason": "No substance: three words with no names, numbers, or consequences — the writer would have to fabricate the entire story."
+ },
+ {
+  "t": "2026-08-29T11:53:38Z",
+  "gate": "A",
+  "subject": "New Fellows Research: Can Claude autonomously align other AIs? We gave Claude 48 hours and 1 GPU to improve the alignmen",
+  "verdict": "KILL",
+  "reason": "Research announcement with no named protagonist, no felt consequence, and no outcome numbers—Anthropic announcing an experiment worked, not a story someone would text a friend."
+ },
+ {
+  "t": "2026-08-29T11:53:38Z",
+  "gate": "A",
+  "subject": "BREAKING: Locals are reporting life-changing land offers near SpaceX’s Terafab in Texas. 🇺🇸 Some aren’t being given a pr",
+  "verdict": "KILL",
+  "reason": "Anonymous reports of unconfirmed offers with no named actors, no closed deals, and no real consequence—reaction-bait without substance."
+ },
+ {
+  "t": "2026-08-29T11:53:47Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens for this page—pharmaceutical industry ethics whistleblower story, not AI, tech, company/founder, investing, or space."
+ },
+ {
+  "t": "2026-08-29T11:54:24Z",
+  "gate": "A",
+  "subject": "Today, we're kicking off the first phase of the research preview for Model Hardware Standard (MHS): a new standard for A",
+  "verdict": "KILL",
+  "reason": "This is a launch preview announcement with zero specifics, numbers, or real-world consequence—exactly the routine on-topic content the standard explicitly bans; the source is 227 characters of thin company news, and at 4/10 scout interest, there is no exceptional reason to override."
+ },
+ {
+  "t": "2026-08-29T11:54:35Z",
+  "gate": "A",
+  "subject": "Reminder to run all new prescriptions through an LLM. Today, ChatGPT caught the fact that a provider prescribed me the w",
+  "verdict": "KILL",
+  "reason": "No substance—single thin tweet with zero concrete outcome, no numbers, and no consequence detail; would require padding to carousel."
+ },
+ {
+  "t": "2026-08-29T11:54:40Z",
+  "gate": "A",
+  "subject": "Home robots are coming. The first ones in will be the small ones that are safe around kids and pets. Hugging Face's Poll",
+  "verdict": "KILL",
+  "reason": "Product announcement without real-world consequence or person at center — violates STORY LAW: something must HAPPEN in the world with felt consequence, not be ANNOUNCED by a company."
+ },
+ {
+  "t": "2026-08-29T11:54:48Z",
+  "gate": "A",
+  "subject": "We’re ending our partnership with Cursor following its acquisition by SpaceX. Under our proposal, Cursor’s direct access",
+  "verdict": "KILL",
+  "reason": "Corporate announcement with no jaw-dropping consequence, unknown actor (Cursor), incomplete source material, and 4/10 scout interest—exactly the routine industry news this pipeline kills."
+ },
+ {
+  "t": "2026-08-29T11:55:18Z",
+  "gate": "A",
+  "subject": "Holy smokes... how is this AI?",
+  "verdict": "KILL",
+  "reason": "Entire source is one thin tweet with nothing behind it—no facts, numbers, or consequence to build slides from."
+ },
+ {
+  "t": "2026-08-29T11:55:20Z",
+  "gate": "A",
+  "subject": "I got early access to SpaceXAI’s new Grok @Bot template sharing feature, which lets you create custom Bot templates that",
+  "verdict": "KILL",
+  "reason": "Feature announcement with no real consequence: a person demoing a new Grok template on his own devices is a launch preview (explicitly banned), has zero stakes or drama, and exists as one thin tweet—pure substance insufficient for a story, needs heavy padding to fill the carousel."
+ },
+ {
+  "t": "2026-08-29T11:55:25Z",
+  "gate": "A",
+  "subject": "Island life in Japan for less than $62k It’s easy for foreigners to buy property in Japan 🇯🇵 —— Bizen, Okayama $62,000 U",
+  "verdict": "KILL",
+  "reason": "No substance: this is a property listing with no event, no person, no consequence—no story behind the price, and it's off-brand for a tech page with no tech/AI/investing angle."
+ },
+ {
+  "t": "2026-08-29T11:55:49Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "OFF-LENS instant kill: fashion-brand history lacks required tech/AI/investing/space angle; violates lane's strict off-brand requirement."
+ },
+ {
+  "t": "2026-08-29T11:56:22Z",
+  "gate": "A",
+  "subject": "BREAKING: Locals are reporting life-changing land offers near SpaceX’s Terafab in Texas. 🇺🇸 Some aren’t being given a pr",
+  "verdict": "KILL",
+  "reason": "Single rumor-tweet with zero named people, documented offers, or numbers—only speculation; a writer would have nothing concrete to build slides from."
+ },
+ {
+  "t": "2026-08-29T11:56:25Z",
+  "gate": "A",
+  "subject": "New Fellows Research: Can Claude autonomously align other AIs? We gave Claude 48 hours and 1 GPU to improve the alignmen",
+  "verdict": "KILL",
+  "reason": "No substance: one thin corporate announcement with zero numbers, metrics, or specifics—'worked surprisingly well' is an unsupported claim the writer would have to pad."
+ },
+ {
+  "t": "2026-08-29T11:57:06Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens pharmaceutical ethics story — pharma company serves as backdrop, not narrative star; this page covers AI, tech, founders, investing, or space only."
+ },
+ {
+  "t": "2026-08-29T11:57:16Z",
+  "gate": "A",
+  "subject": "They made it.",
+  "verdict": "KILL",
+  "reason": "No substance: one vague title with zero actor names, facts, numbers, or consequence—the writer cannot build a carousel without padding."
+ },
+ {
+  "t": "2026-08-29T11:57:45Z",
+  "gate": "A",
+  "subject": "Home robots are coming. The first ones in will be the small ones that are safe around kids and pets. Hugging Face's Poll",
+  "verdict": "KILL",
+  "reason": "This is a launch preview—explicitly banned under §1 as on-topic routine content—with no person doing something and no real-world consequence someone felt."
+ },
+ {
+  "t": "2026-08-29T11:58:02Z",
+  "gate": "A",
+  "subject": "We’re ending our partnership with Cursor following its acquisition by SpaceX. Under our proposal, Cursor’s direct access",
+  "verdict": "KILL",
+  "reason": "Routine corporate announcement with no jaw-dropping event, felt consequence, or numbers—thin source (377 chars) requiring padding, fails §1."
+ },
+ {
+  "t": "2026-08-29T11:58:17Z",
+  "gate": "A",
+  "subject": "Today, we're kicking off the first phase of the research preview for Model Hardware Standard (MHS): a new standard for A",
+  "verdict": "KILL",
+  "reason": "Insufficient substance: one thin announcement with zero numbers, consequence, or real-world event to build slides from."
+ },
+ {
+  "t": "2026-08-29T11:59:54Z",
+  "gate": "A",
+  "subject": "Reminder to run all new prescriptions through an LLM. Today, ChatGPT caught the fact that a provider prescribed me the w",
+  "verdict": "KILL",
+  "reason": "This is verified social proof of an expected use case (people using AI to verify prescriptions), not a jaw-dropping story—category 4 candidate lacks real numbers, named actor, and the jaw-dropping element the standard demands."
+ },
+ {
+  "t": "2026-08-29T12:00:15Z",
+  "gate": "A",
+  "subject": "Holy smokes... how is this AI?",
+  "verdict": "KILL",
+  "reason": "No substance — the entire source is a single 30-character tweet expressing surprise at an unidentified AI thing, with zero facts, numbers, or consequence to build slides from; this is reaction-bait (a person's online reaction) masquerading as a story, and the writer would have to invent the actual event to fill a carousel."
+ },
+ {
+  "t": "2026-08-29T12:00:27Z",
+  "gate": "A",
+  "subject": "Island life in Japan for less than $62k It’s easy for foreigners to buy property in Japan 🇯🇵 —— Bizen, Okayama $62,000 U",
+  "verdict": "KILL",
+  "reason": "No substance—one thin property listing with no protagonist, consequence, or story arc; routine lifestyle content off-brand for a tech page."
+ },
+ {
+  "t": "2026-08-29T12:00:40Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Off-lens for an AI/tech page—pure fashion-history biography with no AI, technology, investing strategy, or space technology angle, and low scout interest (3/10) offers no exceptional reason to pass."
+ },
+ {
+  "t": "2026-08-29T12:01:09Z",
+  "gate": "A",
+  "subject": "I got early access to SpaceXAI’s new Grok @Bot template sharing feature, which lets you create custom Bot templates that",
+  "verdict": "KILL",
+  "reason": "Launch preview explicitly banned by doctrine; feature announcement with no story substance, consequence, or event—writer would have to pad one thin tweet."
+ },
+ {
+  "t": "2026-08-29T12:40:11Z",
+  "gate": "B",
+  "subject": "<em>'THEY MADE IT.'</em> THREE WORDS ENDED <em>TWO DAYS OF SILENCE</em> AFTER A NEPAL FLOOD TRAPPED SURVIVORS ON ROOFTOP",
+  "verdict": "REJECT",
+  "reason": "Slides 5 and 6 carry the same fact. Slide 5 delivers 'THEY MADE IT.' with body 'Two days after posting the footage, and not a single word more.' Slide 6 then repeats 'three words / two days / no explanation / shortest update anyone had seen' — no new information. Law: 'no two slides carry the same fact.' Fix: collapse them into one slide or replace slide 6 with a genuinely new beat (who the people"
+ },
+ {
+  "t": "2026-08-29T13:18:22Z",
+  "gate": "B",
+  "subject": "5 TOOLS COSTING $300 A MONTH, <em>CLAUDE CODE BILLS $0</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — GENERATED UNKNOWN FACE: The cover shows an unrecognizable generated person. Image Law is unambiguous: 'Never a generated unknown face.' The 'ANTHROPIC' neon sign in the background does not save it. If the intent is to imply Dario Amodei or any Anthropic figure, (a) the face is not recognizably theirs, and (b) no named Anthropic person appears in this story — so CAST TRUTH kills it an"
+ },
+ {
+  "t": "2026-08-29T13:20:12Z",
+  "gate": "B",
+  "subject": "5 TOOLS COSTING $300 A MONTH, <em>CLAUDE CODE BILLS $0</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW: The cover shows a generated unknown face — a man whose identity is ambiguous. If this is intended to evoke Dario Amodei (curly hair, glasses, Anthropic sign in background), the CAST TRUTH rule kills it: a recognizable founder as cover subject when the story is a tool listicle with zero connection to that person is celebrity-as-decoration. If it is not meant to be him, it is a generated "
  }
 ]
