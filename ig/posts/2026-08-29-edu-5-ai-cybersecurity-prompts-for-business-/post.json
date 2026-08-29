@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>$2.9 BILLION STOLEN FROM BUSINESSES IN ONE YEAR.</em> THESE 5 AI PROMPTS LOCK YOUR DOORS.",
+   "kicker": "TOP TECH COMPANIES JUST SOUNDED THE ALARM",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-29-edu-5-ai-cybersecurity-prompts-for-business-/gen-0-rescue.jpg",
+   "image_prompt": "Dario Amodei, waist-up, gripping five-shield checklist toward camera with both hands, intense; five glowing shield icons and Claude orange neon on clean bright background; harsh documentary flash, film grain. Signal orange against electric blue."
+  },
+  {
+   "type": "content",
+   "headline": "1) AUDIT <em>YOUR BUSINESS'S WEAKEST DOORS</em>",
+   "hsize": 108,
+   "body": "A restaurant owner pasted this into Claude and found her booking software had leaked customer emails for <b>6 months</b>.\n\nA GDPR investigation for that exposure has cost businesses <b>$100,000 or more</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) WRITE <em>YOUR PHISHING TRAINING EMAIL</em>",
+   "hsize": 108,
+   "body": "A logistics company cancelled <b>$3,000 a year</b> in phishing training software after finding this prompt.\n\nThey now generate a new training email every month for free.",
+   "media": "posts/2026-08-29-edu-5-ai-cybersecurity-prompts-for-business-/gen-2.jpg",
+   "image_prompt": "Close on two hands holding a printed page stamped with a large red fishhook symbol across the header and red warning triangles flagging each line; bright cool-white desk, vivid orange logistics folders blurred behind; no readable text in frame; documentary news photo, 35mm, harsh flash, film grain. Accent: warning orange against cool white."
+  },
+  {
+   "type": "content",
+   "headline": "$2.9 BILLION STOLEN FROM BUSINESSES VIA EMAIL IN ONE YEAR",
+   "hsize": 76,
+   "layout": "break",
+   "body": "That figure is from the FBI's own Internet Crime Report. And it only counts the losses businesses actually reported to them.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) FIND <em>WHAT CUSTOMER DATA YOU'RE STORING</em>",
+   "hsize": 100,
+   "body": "A freelance designer found she had been storing client credit card numbers in plain text inside email threads for two years.\n\nThis prompt surfaced it in <b>10 minutes</b>.",
+   "media": "posts/2026-08-29-edu-5-ai-cybersecurity-prompts-for-business-/gen-4.jpg",
+   "image_prompt": "Close on a large bright monitor showing dozens of glowing customer-profile circle icons spilling out of a giant magnifying glass symbol, cascading folder icons filling the lower half of the screen; bright lavender-white studio background; no readable text; documentary news photo, 35mm, harsh flash, film grain. Accent: cool lavender against stark white."
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD <em>A VENDOR SECURITY CHECKLIST</em>",
+   "hsize": 108,
+   "body": "A marketing agency's full client list leaked through a scheduling tool they had trusted for a year.\n\nThey now run this prompt before giving any third-party tool access.",
+   "media": "posts/2026-08-29-edu-5-ai-cybersecurity-prompts-for-business-/gen-5.jpg",
+   "image_prompt": "Close on a hand pressing a red pen against a large printed checklist packed with shield icons, red X marks stamped beside several items; bright conference table surface, cool grey light, blurred project boards behind; no readable text; documentary news photo, 35mm, harsh flash, film grain. Accent: signal red against cool grey."
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE <em>YOUR INCIDENT RESPONSE PLAN</em>",
+   "hsize": 108,
+   "body": "Most small businesses have no plan for the day they get hacked.\n\nThe ones that recover fastest all have one thing in common: a written checklist ready before they can think clearly.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 5 CYBERSECURITY PROMPTS</em>",
+   "hsize": 108,
+   "body": "1) Audit your entry points\n2) Write free phishing training\n3) Find what customer data you hold\n4) Vet vendors before sharing access\n5) Write your incident plan\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5 before you close this. \ud83d\udd12 Anthropic, Google, and Microsoft just warned the window to harden cyber defenses is closing fast.\n\nSlide 2: audit the 10 most common ways your business can be hacked ranked by likelihood, slide 3: write a phishing training email for your staff free, slide 4: how much gets stolen from businesses via email in a single year, slide 5: find every piece of customer data you hold and your legal exposure, slide 6: build a vendor security checklist before sharing any access, slide 7: write your incident response plan before you need it.\n\nThe biggest tech companies rarely issue the same warning at once. When Anthropic, Google, Microsoft, AWS, and Oracle all do it together, act. Most small businesses have no security plan. These prompts fix that tonight.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, Google, Microsoft, AWS, Oracle joint cyber defense coalition statement Aug 28 2026, FBI Internet Crime Complaint Center Annual Report\n\n#AItools #cybersecurity #businessowner #artificialintelligence #AIprompts",
+ "pinned_comment": "Which prompt are you running first? Slide 5 is the one that stops most business owners cold. Most have no idea what they're actually holding.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 AI PROMPTS THAT <em>BLOCK HACKERS</em> BEFORE THEY FIND YOUR BUSINESS",
+   "ANTHROPIC, GOOGLE, AND MICROSOFT <em>JUST WARNED US THE WINDOW IS CLOSING</em>"
+  ],
+  "scores": [
+   2,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hits because specific company names plus vague urgency creates instant FOMO\u2014you stop to find out what window is closing. [0] is just another forgettable security listicle nobody stops scrolling for."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "BUSINESSES LOSE <em>$2.9 BILLION TO EMAIL FRAUD</em> EVERY YEAR YET MOST SKIP THESE 5 AI PROMPTS",
+   "ANTHROPIC, GOOGLE, AND MICROSOFT <em>JUST WARNED US THE WINDOW IS CLOSING</em>",
+   "5 AI PROMPTS THAT SHIELD YOUR BUSINESS FROM <em>THE $2.9 BILLION EMAIL THREAT</em>",
+   "<em>$2.9 BILLION STOLEN FROM BUSINESSES IN ONE YEAR.</em> THESE 5 AI PROMPTS LOCK YOUR DOORS."
+  ],
+  "scores": [
+   5,
+   7,
+   5,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] hits harder with visceral language (STOLEN, LOCK YOUR DOORS) and tells the complete threat story upfront so you already believe it. [1] creates urgency and curiosity but it's cryptic\u2014at 2am you swipe for stories you understand, not riddles to solve."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "topic_source": "news-anchored"
+}
