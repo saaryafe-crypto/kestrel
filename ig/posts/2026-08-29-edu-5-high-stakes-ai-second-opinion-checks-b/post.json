@@ -1,0 +1,99 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 CHECKS AI RUNS FREE <em>THAT PROFESSIONALS CHARGE $400 AN HOUR FOR</em>",
+   "kicker": "CHATGPT JUST CAUGHT A WRONG PRESCRIPTION",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-08-29-edu-5-high-stakes-ai-second-opinion-checks-b/gen-0-r.jpg",
+   "image_prompt": "Two faceless hands rip a billing invoice in half as a glowing smartphone displaying FREE centers foreground\u2014bold, unobstructed. Minimal law-office: dark mahogany, amber warmth, no clutter. Harsh flash, film grain. Signal red intensity."
+  },
+  {
+   "type": "content",
+   "headline": "1) CHECK EVERY PRESCRIPTION <em>BEFORE YOU TAKE IT</em>",
+   "hsize": 112,
+   "body": "This week, a guy pasted his prescription into ChatGPT.\n\nIt flagged that his doctor had written the wrong medication, two drugs with similar names, completely different effects.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) SCAN EVERY CONTRACT <em>BEFORE YOU SIGN IT</em>",
+   "hsize": 112,
+   "body": "LAWYERS CHARGE $300 TO $500 TO REVIEW ONE CONTRACT. AI DOES IT IN 30 SECONDS.\n\nA standard contract can hand your IP to someone else or auto-renew at double the rate.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) AUDIT YOUR VENDOR INVOICES <em>FOR HIDDEN CHARGES</em>",
+   "hsize": 105,
+   "body": "MOST BUSINESSES PAY VENDOR INVOICES WITHOUT COMPARING THEM TO THE ORIGINAL AGREEMENT.\n\nIf you have more than one vendor, you're almost certainly paying for something you never agreed to.",
+   "media": "posts/2026-08-29-edu-5-high-stakes-ai-second-opinion-checks-b/gen-3.jpg",
+   "image_prompt": "Three vendor invoices spread across a bright desk surface, a bold red marker caught mid-circle on a discrepancy \u2014 no readable text on any document \u2014 a glowing smartphone beside them displaying two mismatched bar-chart symbols side by side at peak mismatch, caught at the discovery instant. Clean professional overhead light, sharp office surface. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: alert yellow against professional blue."
+  },
+  {
+   "type": "content",
+   "headline": "4) RUN LOAN TERMS THROUGH AI <em>BEFORE YOU BORROW</em>",
+   "hsize": 105,
+   "body": "THE INTEREST RATE IS ONE NUMBER. THE FEES, PENALTIES, AND COVENANTS ARE WHERE LENDERS MAKE THEIR REAL MONEY.\n\nMost business owners sign without reading the clauses that restrict their business.",
+   "media": "posts/2026-08-29-edu-5-high-stakes-ai-second-opinion-checks-b/gen-4.jpg",
+   "image_prompt": "Close-up of a thick loan agreement \u2014 no readable text \u2014 three clauses marked with bold red ink circles already drawn, a faceless hand pressed flat on the page mid-review, a glowing smartphone beside showing a large red alert symbol on screen. Dramatic raking side light across a boardroom mahogany table surface. Documentary news photo, 35mm, harsh on-camera flash, film grain. Accent: caution red against deep charcoal."
+  },
+  {
+   "type": "content",
+   "headline": "5) REVIEW YOUR OWN CONTRACTS <em>FROM THE BUYER'S SIDE</em>",
+   "hsize": 100,
+   "body": "MOST BUSINESS OWNERS NEVER CHECK WHAT THEIR CONTRACT LETS A CLIENT GET AWAY WITH.\n\nAI reads your contract from the client's side, that's where disputes and unpaid invoices come from.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> 5 AI CHECKS BEFORE YOU TRUST OR SPEND",
+   "hsize": 90,
+   "body": "1) Prescriptions: dosage and drug interactions\n2) Contracts: flag risky clauses before signing\n3) Vendor invoices: find hidden overcharges\n4) Loan terms: catch costly fine print\n5) Your own contracts: find what clients exploit",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 high-stakes checks to run through AI before you trust them. ChatGPT caught a doctor's wrong prescription this week. \ud83d\udd0d\n\nPrescription check to catch wrong drugs and dangerous interactions, contract review to flag risky clauses before you sign, vendor invoice audit to find charges not in the original agreement, loan terms to catch hidden fees and default traps, and your own client contract checked from the buyer's side to find every gap they could exploit.\n\nThis week on X, someone pasted their prescription into ChatGPT. It caught that the doctor had prescribed the wrong medication. AI has become the cheapest second opinion on any high-stakes decision. The people running these checks are catching thousands in mistakes before they happen.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: X post Aug 29 2026 (prescription catch), OpenAI, Anthropic\n\n#ai #chatgpt #artificialintelligence #businessowner #aitools",
+ "pinned_comment": "Which check are you running first? Slide 3 catches things a $300-an-hour lawyer would bill you for.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 EXPENSIVE MISTAKES <em>AI CATCHES</em> THAT COST PEOPLE THOUSANDS",
+   "5 THINGS AI CATCHES <em>THAT YOUR LAWYER WON'T</em>",
+   "5 COSTLY DECISIONS <em>AI REVIEWS</em> BEFORE YOU MAKE THEM",
+   "5 THINGS <em>PROFESSIONALS DON'T WANT</em> YOU RUNNING THROUGH AI"
+  ],
+  "scores": [
+   7,
+   8,
+   6,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hooks you with an unexpected comparison (AI beats your lawyer) that creates immediate curiosity. [0] promises the familiar money-saving angle that feels like every other AI post."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "BEFORE YOU SIGN OR SWALLOW, <em>RUN THESE 5 FREE AI CHECKS</em>",
+   "5 CHECKS AI RUNS FREE <em>THAT LAWYERS CHARGE $400 AN HOUR FOR</em>",
+   "5 CHECKS <em>YOUR DOCTOR AND LAWYER HOPE YOU SKIP</em>",
+   "5 THINGS AI CATCHES <em>THAT YOUR LAWYER WON'T</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   7,
+   4
+  ],
+  "winner": 1,
+  "why": "[1] stops you cold with $400/hr because it's a real number you instantly understand means expensive. [2] makes you curious with the 'they hope you skip' angle but doesn't tell you the actual benefit, so you probably keep scrolling."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (6/10)",
+ "topic_source": "news-anchored"
+}
