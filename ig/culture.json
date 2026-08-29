@@ -3,58 +3,64 @@
  "updated": "2026-08-29",
  "hot": [
   {
-   "name": "Harry Styles",
-   "why_hot_now": "His 'Together, Together' tour opened a 30-night Madison Square Garden residency on August 26, just three days ago.",
-   "typical_scene": "belting hits to a glittery, sold-out MSG crowd"
+   "name": "The Odyssey",
+   "why_hot_now": "Christopher Nolan's Homer adaptation just crossed $1B this week, now his highest-grossing film ever and the #1 movie in theaters.",
+   "typical_scene": "Matt Damon storm-battered on a ship in towering IMAX widescreen"
   },
   {
-   "name": "Outer Banks",
-   "why_hot_now": "Season 5, the final season, dropped August 20 and instantly hit #1 on Netflix with 9.4 million views in its first week.",
-   "typical_scene": "Pogues grieving JJ on a windswept Carolina beach"
+   "name": "Tom Holland",
+   "why_hot_now": "Spider-Man: Brand New Day is in its fourth weekend in theaters, still flooding TikTok with edits and fan clips.",
+   "typical_scene": "unmasked on a New York rooftop, suit half-torn, living in total anonymity"
   },
   {
-   "name": "Benson Boone",
-   "why_hot_now": "His 'Wanted Man Tour' is mid-run through major US arenas, and his viral shirtless TikToks are flooding feeds.",
-   "typical_scene": "shirtless backflip off a piano on a packed stadium stage"
+   "name": "Zendaya",
+   "why_hot_now": "Her return as MJ in Spider-Man: Brand New Day sent fans into meltdown, with press-tour looks going viral daily.",
+   "typical_scene": "emotional reunion scene, head-to-toe designer on the press circuit"
   },
   {
    "name": "Kacey Musgraves",
-   "why_hot_now": "Her 'Middle of Nowhere' album tour launched multi-night arena residencies across the US in August.",
-   "typical_scene": "glittering cowgirl twirling alone in a single spotlight"
+   "why_hot_now": "Her Middle of Nowhere Tour launched this week with sold-out arena shows in Chicago and Boston.",
+   "typical_scene": "cowboy boots center stage, starry LED dome, arena crowd swaying"
   },
   {
-   "name": "Tame Impala",
-   "why_hot_now": "Their North American arena tour is in full swing through September, selling out every date.",
-   "typical_scene": "arms-up crowd dissolving into a swirling psychedelic light show"
+   "name": "Jaafar Jackson",
+   "why_hot_now": "The Michael biopic crossed $1B worldwide and just hit streaming, exposing him to a massive new wave of viewers.",
+   "typical_scene": "moonwalking under a single spotlight, one white glove raised"
   },
   {
-   "name": "The Super Mario Galaxy Movie",
-   "why_hot_now": "First film of 2026 to crack $1 billion globally, still generating fan art, cosplay, and meme cycles.",
-   "typical_scene": "adults in Mario and Rosalina costumes mobbing a movie-theater lobby"
+   "name": "Sabrina Carpenter",
+   "why_hot_now": "Still the reigning pop queen post-Coachella 2026 headliner, with clips and meme formats recycling every week.",
+   "typical_scene": "tiny mic, blonde waves, delivering a smirk mid-lyric to the front row"
   },
   {
-   "name": "Michael",
-   "why_hot_now": "The Michael Jackson biopic hit the US weekend box office top spot and ignited massive online debate.",
-   "typical_scene": "moonwalking in a red jacket under a single white spotlight"
+   "name": "Tate McRae",
+   "why_hot_now": "Her songs are the audio backbone of the biggest dance and POV TikTok trends running through August.",
+   "typical_scene": "high-intensity choreography in a sequined bodysuit under strobes"
   },
   {
-   "name": "Billie Eilish",
-   "why_hot_now": "Dominating 2026 streaming charts and named one of the year's most-streamed global artists.",
-   "typical_scene": "slouched in oversized fit, mic close, arena going pitch-dark around her"
+   "name": "Kim Kardashian",
+   "why_hot_now": "Her UPDATE energy drink launch campaign is blanketing feeds with both earnest and deeply ironic viral content.",
+   "typical_scene": "deadpan, perfectly lit, holding a sleek can in a beige minimalist room"
   },
   {
-   "name": "Addison Rae",
-   "why_hot_now": "Cemented her pop-star pivot after debut album singles keep charting and her skincare sellouts stay in the news.",
-   "typical_scene": "center-stage in a sequined crop top, ex-TikTok queen doing pop choreography"
+   "name": "Lady Gaga",
+   "why_hot_now": "A dubstep remix of Paparazzi is the single most-used TikTok transition sound this week.",
+   "typical_scene": "worst-lighting opener hard-cutting to full glow-up exactly on the beat drop"
+  },
+  {
+   "name": "Beyoncé",
+   "why_hot_now": "A viral clip of her explaining how she freestyled the Partition intro is powering a massive lip-sync trend.",
+   "typical_scene": "creators mid-sentence pointing at the camera as the audio clip hits"
   }
  ],
  "memes": [
-  "'Eeffoc' — the breakout August 2026 nonsense word dropped into totally unrelated captions as cosmic deadpan commentary",
-  "'No Further Questions' format — post your cringe life choice or bad take, then cut to a lawyer graphic saying 'no further questions'",
-  "Glen Powell President — increasingly elaborate edits imagining Glen Powell running a surprisingly convincing 2028 campaign",
-  "Baked Potato With Ski Goggles — absurdist object-plus-gear combos posted as profile pics by chronically online Gen Z",
-  "Spider-Man Ceiling Trend — TikTokers lip-syncing 'Sunflower' while contorted upside-down à la Miles Morales",
-  "Seattle Raccoon — one viral raccoon video spawned an unlikely mascot and universal chaos reaction image"
+  "Erling Haaland's feral World Cup sprint face photoshopped into increasingly mundane everyday scenarios",
+  "Empire State Building flag blank: editing the viral climbers' black banner to say literally anything",
+  "KitKat Heist — treating the real 400,000-stolen-KitKats-in-transit news story as an elaborate Ocean's Eleven planning scene",
+  "'Me at the Same Age as My Parents' TikToks set to Pitbull's Hey Baby, cutting between personal chaotic clips",
+  "Eeffoc (coffee spelled backwards): surreal backwards-spelling used as algorithm-dodging humor and non-sequitur captions",
+  "Baked Potato With Ski Goggles: absurdist random-object visual used as a deadpan reaction image",
+  "Paparazzi dubstep glow-up transition: open on your absolute worst angle, cut to a full transformation on the beat drop"
  ],
  "ai_flagships": [
   "Claude Opus 5",

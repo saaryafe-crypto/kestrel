@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 AI PROMPTS TO LAND A REMOTE JOB <em>WITHOUT TOUCHING A JOB BOARD</em>",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "faces/sam-altman-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIND REMOTE JOB TITLES THAT FIT YOUR SKILLS</em> IN 60 SECONDS",
+   "hsize": 100,
+   "body": "Most people only search for 2 or 3 titles they already know.\n\nThis prompt pulls every remote role that fits your background, including titles you've never searched for.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>BUILD A SEARCH STRING THAT CUTS OUT BAD LISTINGS</em>",
+   "hsize": 104,
+   "body": "A default LinkedIn search returns thousands of results, most from staffing agencies.\n\nThis prompt builds a Boolean string that filters them out before you ever see them.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>SCORE YOUR FIT BEFORE YOU SPEND</em> AN HOUR APPLYING",
+   "hsize": 100,
+   "body": "The average job seeker sends <b>40 to 80 applications</b> before getting hired.\n\nThis prompt scores your fit in 30 seconds so you only apply where you're strong.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "ONE REMOTE JOB GETS 300 APPLICATIONS",
+   "hsize": 72,
+   "body": "Most go through a job board. The 5 prompts in this post skip the queue entirely",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FIND COMPANIES THAT ACTUALLY HIRE REMOTE</em> IN YOUR FIELD",
+   "hsize": 100,
+   "body": "Rather than waiting for a listing, find companies already known for remote hiring in your field and reach them first.\n\nThis prompt surfaces 15 companies in your industry in seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>WRITE A COLD DM THAT BYPASSES</em> THE JOB BOARD ENTIRELY",
+   "hsize": 100,
+   "body": "A <b>3-sentence</b> message to the right hiring manager beats 50 applications through LinkedIn.\n\nMost remote offers go to people who reached out before the role was ever posted.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 5 REMOTE JOB PROMPTS",
+   "hsize": 100,
+   "body": "\u2022 Find job titles for your exact skills\n\u2022 Build a search string that filters noise\n\u2022 Write a cold DM that bypasses job boards\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 AI prompts that find high-quality remote jobs in under 2 minutes. \ud83d\udcbc No job board, no hours of scrolling.\n\n1) find remote job titles that match your exact skills, including ones most people never think to search for,\n2) build a Boolean search string that cuts out recruiters and contract-only listings,\n3) score your resume against any job description in 30 seconds before you apply,\n4) find companies in your field known for remote hiring,\n5) write a cold DM to a hiring manager that bypasses the job board entirely.\n\nMost people search for remote jobs the same way they did in 2015. Keyword search, hours of scrolling, dozens of applications, almost no replies. AI flips the whole process: start from your skills, work backward to the right titles, the right companies, the right first message. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: AramideOyekunle\n\n#remotework #artificialintelligence #chatgpt #jobsearch #aiskills",
+ "pinned_comment": "Which prompt are you trying first? Drop the number below. Prompt 5, the cold DM, is the one most people skip, and it's the one that actually gets replies.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 AI PROMPTS THAT FIND</em> REMOTE JOBS IN 2 MINUTES",
+   "<em>5 PROMPTS THAT FIND HIGH-QUALITY REMOTE JOBS</em> IN UNDER 2 MINUTES",
+   "AI FINDS <em>HIGH-QUALITY REMOTE JOBS</em> IN UNDER 2 MINUTES. 5 PROMPTS",
+   "<em>5 AI PROMPTS</em> THAT FIND REMOTE JOBS FASTER THAN ANY JOB BOARD"
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "[3]'s comparative claim against job boards creates the irresistible 'wait, WHAT?' moment that stops scrolling, while [2]'s straightforward benefit promise is solid but forgettable in a feed full of identical optimization posts."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 AI PROMPTS</em> THAT FIND YOUR NEXT REMOTE JOB IN 60 SECONDS",
+   "5 AI PROMPTS TO LAND A REMOTE JOB <em>WITHOUT TOUCHING A JOB BOARD</em>",
+   "<em>5 AI PROMPTS</em> THAT FIND REMOTE JOBS FASTER THAN ANY JOB BOARD"
+  ],
+  "scores": [
+   7,
+   9,
+   6
+  ],
+  "winner": 1,
+  "why": "\"Without touching a job board\" actually makes you stop and think \"wait, how?\"\u2014it's a genuinely surprising claim that breaks the usual efficiency-play formula. [0]'s 60-second timer creates urgency but still feels like standard AI speed hype; [2] is just \"faster\" which everyone already expects."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW \u2014 MANDATORY KILL: The cover shows Sam Altman, who has zero role in a post about remote-job AI prompts. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT \u2014 a celebrity as decoration breaks image-headline connection.' Fix: replace with a cover image that proves the story's noun \u2014 a person at a laptop with a cha"
+}
