@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T03:33:34.115908+00:00",
+ "updated": "2026-08-29T16:27:23.785659+00:00",
  "photos": [
   {
    "id": "2089342461357302179",
@@ -686,6 +686,25 @@
    "born": 1787240628.031927
   },
   {
+   "id": "2093574846500212933",
+   "title": "JUST IN: Elon Musk says OpenAI CEO Sam Altman is an untrustworthy asshole \"who stole an open source nonprofit.\"",
+   "sub": "WatcherGuru",
+   "where": "@WatcherGuru on X",
+   "unit": "likes",
+   "selftext": "JUST IN: Elon Musk says OpenAI CEO Sam Altman is an untrustworthy asshole \"who stole an open source nonprofit.\"",
+   "permalink": "https://x.com/WatcherGuru/status/2093574846500212933",
+   "outlink": null,
+   "score": 7256,
+   "comments_n": 490,
+   "views": 446073,
+   "age_h": 10.7,
+   "vph": 677.1,
+   "image": "https://pbs.twimg.com/media/HQ3fOgSXMAAKWpR.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1787982323.785659
+  },
+  {
    "id": "2088295804108783728",
    "title": "So yeah, you can now run Opus 4.6 max locally. Just let that sink in.",
    "sub": "kimmonismus",
@@ -741,25 +760,6 @@
    "video": null,
    "guide": false,
    "born": 1786451354.334199
-  },
-  {
-   "id": "2090228652474531850",
-   "title": "JUST IN: $190,000,000,000 added to the crypto market cap in the past 24 hours.",
-   "sub": "WatcherGuru",
-   "where": "@WatcherGuru on X",
-   "unit": "likes",
-   "selftext": "JUST IN: $190,000,000,000 added to the crypto market cap in the past 24 hours.",
-   "permalink": "https://x.com/WatcherGuru/status/2090228652474531850",
-   "outlink": null,
-   "score": 6716,
-   "comments_n": 324,
-   "views": 284698,
-   "age_h": 14.7,
-   "vph": 456.9,
-   "image": "https://pbs.twimg.com/media/HQH74UzXcAAXIkV.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1787184358.938603
   }
  ]
 }
