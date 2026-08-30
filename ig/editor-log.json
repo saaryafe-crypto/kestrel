@@ -1,96 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "NO SUBSTANCE: The source is 49 characters with no specific event, numbers, person, or felt consequence—just a trend claim that requires heavy padding to build slides; macro analysis disguised as a story fails THE STANDARD's requirement for a wild-but-true event that a reader would DM to a friend.",
-  "subject": "\"Young men are abandoning the workforce,\" per WSJ",
-  "t": "2026-08-26T06:07:57Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Single thin tweet with only clip count and no outcome, reach, or consequence metrics to sustain a full carousel.",
-  "subject": "Someone recreated “Lose Yourself” by stitching together 187 random movie clips to form the lyrics. [🎞️ Ross Thompson / R",
-  "t": "2026-08-26T06:08:40Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "This is a launch preview—a feature announcement with no real-world consequence, no person doing something, no money moving, and no felt impact; exactly the on-topic-but-routine category the doctrine bans, and at 5/10 scout interest it lacks the exception threshold needed to pass.",
-  "subject": "BREAKING: SpaceXAI just added a powerful new 'Browser Use' plugin to Grok Build. It gives Grok access to a real browser,",
-  "t": "2026-08-26T06:09:09Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "It's one thin 48-character tweet with no numbers, consequence, or second fact—the writer can't build a carousel.",
-  "subject": "Grok @Bot ported Doom to a new device in 10 mins",
-  "t": "2026-08-26T06:09:47Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "ON-TOPIC BUT ROUTINE: analyst targets and forecast updates are explicitly banned; no real-world event occurred, only a bank's prediction model revision.",
-  "subject": "BREAKING: Goldman Sachs names Elon Musk’s Terafab as a major new driver of chip-equipment growth. Goldman included Teraf",
-  "t": "2026-08-26T06:09:49Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE FAILS THUMB TEST (§3): The cover is a neutral press-event portrait of Elon Musk — dark suit, blurred crowd, no story-world context, no brand marks, no browser or agent imagery. At feed size a stranger cannot guess 'AI logging into your accounts.' It is a portrait used as decoration, not proof or a staged scene of the story. Replace with an image that visually encodes the story's situation: M",
-  "subject": "<em>GROK CAN NOW LOG INTO YOUR ACCOUNTS</em> AND ACT FOR YOU",
-  "t": "2026-08-26T07:18:54Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-08-26T09:01:24Z",
-  "gate": "A",
-  "subject": "This is literally AI video, Every time a Muslim lies to defame India, Israel will punish 1,000 Palestani children",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: the story is engagement metrics (likes) on an inflammatory statement, with zero real-world consequence (no account ban, no policy change, no actual event)."
- },
- {
-  "t": "2026-08-26T14:14:04Z",
-  "gate": "B",
-  "subject": "ADVERTISERS SAW <em>$5.42 BACK PER AD DOLLAR</em> AND IMMEDIATELY DOUBLED THEIR X SPEND",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH IMAGE VIOLATION (§3): The cover shows Elon Musk, but he has no role in this story. The story is about advertiser ROI data on X — Musk is not named, not quoted, and not an actor in any slide. His face is being used as a brand proxy for X, which is exactly what the doctrine prohibits: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.'"
- },
- {
-  "t": "2026-08-26T14:45:42Z",
-  "gate": "A",
-  "subject": "imagine having to spend ur childhood using some chud's ai generated dotfiles instead of an actual, stable operating syst",
-  "verdict": "KILL",
-  "reason": "One thin tweet with no real-world event; engagement metrics are the false substance — pure reaction-bait, exactly the Queen Elizabeth model this law was born to stop."
- },
- {
-  "t": "2026-08-26T18:55:48Z",
-  "gate": "A",
-  "subject": "25% of Gen Z treat sports betting as a deliberate part of their long-term financial plan, per Bloomberg",
-  "verdict": "KILL",
-  "reason": "One thin tweet with a single statistic and no real-world event, named person, or felt consequence—writer would pad to fill slides; this is survey data, not a story."
- },
- {
-  "t": "2026-08-26T18:55:51Z",
-  "gate": "A",
-  "subject": "Since announcing Jalapeño, our first custom inference chip, we’ve been testing it and the system around it. The results ",
-  "verdict": "KILL",
-  "reason": "This is a product announcement with no numbers, no real-world consequence, and no proof—exactly the launch-preview format the doctrine bans, and nothing a 16-year-old would send to a friend."
- },
- {
-  "t": "2026-08-26T18:55:52Z",
-  "gate": "A",
-  "subject": "we made a chip and it is fast",
-  "verdict": "KILL",
-  "reason": "One 29-character announcement with zero substance: no numbers, no proof, no consequence, no specifics to build slides from—textbook NO SUBSTANCE instant-kill."
- },
- {
-  "t": "2026-08-26T18:56:26Z",
-  "gate": "A",
-  "subject": "Introducing ChatGPT Business Premium Seats The new $100 Premium seat is a game changer for small businesses and startups",
-  "verdict": "KILL",
-  "reason": "It's a product announcement with no real-world event or person behind it—explicitly in the banned 'on-topic but routine' category that kills market wraps and launch previews."
- },
- {
   "t": "2026-08-26T19:52:36Z",
   "gate": "B",
   "subject": "<em>6 CHATGPT POWERS</em> THAT REPLACE A <em>$3,000 ANALYST</em> FOR $100",
@@ -2098,5 +2007,96 @@
   "subject": "HOLY SHIT 🇫🇷🇮🇱 French authorities exposed Mossad-linked Israeli firm BlackCore interfering in elections across Europe, S",
   "verdict": "KILL",
   "reason": "No substance—entire source is one unverified tweet from a parody account (@Parodyjeffx) with no credible reporting, no named consequences, and insufficient facts to build a story."
+ },
+ {
+  "t": "2026-08-30T16:00:25Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens: pharmaceutical corruption/whistleblowing story lacks the page's required AI/tech/founder/investing/space lens per the Aug 28 hardened standard — the story's subject is healthcare, not an approved lens."
+ },
+ {
+  "t": "2026-08-30T16:00:29Z",
+  "gate": "A",
+  "subject": "Island life in Japan for less than $62k It’s easy for foreigners to buy property in Japan 🇯🇵 —— Bizen, Okayama $62,000 U",
+  "verdict": "KILL",
+  "reason": "No substance — just a real estate listing with zero event, consequence, or actor action; the writer would pad to fill a carousel."
+ },
+ {
+  "t": "2026-08-30T16:00:43Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens: labor-economics commentary where Big Tech is the defeated backdrop, not the story's star; kills under the goats-on-Etna rule."
+ },
+ {
+  "t": "2026-08-30T16:00:44Z",
+  "gate": "A",
+  "subject": "New Fellows Research: Can Claude autonomously align other AIs? We gave Claude 48 hours and 1 GPU to improve the alignmen",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet with no concrete results, numbers, or consequences—a writer would have to pad or speculate."
+ },
+ {
+  "t": "2026-08-30T16:01:28Z",
+  "gate": "A",
+  "subject": "\"Employers are treating more workers as disposable,\" per Forbes",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet claiming a trend with no numbers, no named actor, no specific event or consequence — writer would have to pad it completely."
+ },
+ {
+  "t": "2026-08-30T16:02:05Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens (labor/offshoring commentary where tech is backdrop, not the star) with no substance—single opinion tweet, no named person, numbers, or specific event to build a carousel from."
+ },
+ {
+  "t": "2026-08-30T16:02:07Z",
+  "gate": "A",
+  "subject": "New Fellows Research: Can Claude autonomously align other AIs? We gave Claude 48 hours and 1 GPU to improve the alignmen",
+  "verdict": "KILL",
+  "reason": "This is on-topic company announcement, not a story — no person acting with consequence, no money moved, no real-world event with felt stakes; thin single-tweet source (250 chars) with zero specifics to build a carousel; doctrine law: 'People DOING beats companies ANNOUNCING, always.'"
+ },
+ {
+  "t": "2026-08-30T16:02:18Z",
+  "gate": "A",
+  "subject": "Island life in Japan for less than $62k It’s easy for foreigners to buy property in Japan 🇯🇵 —— Bizen, Okayama $62,000 U",
+  "verdict": "KILL",
+  "reason": "No substance: single property listing with no event, person, or consequence to build slides from."
+ },
+ {
+  "t": "2026-08-30T16:02:26Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens kill: pharmaceutical industry whistleblower story; approved lenses are AI, tech, company/founder, investing, and space technology."
+ },
+ {
+  "t": "2026-08-30T16:03:06Z",
+  "gate": "A",
+  "subject": "\"Employers are treating more workers as disposable,\" per Forbes",
+  "verdict": "KILL",
+  "reason": "No substance: one thin claim with no specific event, person, numbers, or consequence — the writer has nothing to build a story from."
+ },
+ {
+  "t": "2026-08-30T16:30:40Z",
+  "gate": "B",
+  "subject": "AN AI JUST REPLACED AI SAFETY RESEARCHERS AT THEIR OWN JOB IN 48 HOURS, <em>AND EVEN ANTHROPIC DIDN'T EXPECT IT TO WORK<",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW HARD FAIL: The cover image is an abstract staircase illustration on a flat green background — pure decoration. No face, no person, no brand mark, no proof of the story. A stranger at feed size cannot guess this post is about AI, alignment, Anthropic, or any specific event. The doctrine requires every cover to be proof or a staged scene of the story; this image could run on any post about"
+ },
+ {
+  "t": "2026-08-30T16:54:29Z",
+  "gate": "B",
+  "subject": "<em>5 FREE PROMPTS</em> THAT REPLACE YOUR ENTIRE PR FIRM TONIGHT",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION — INSTANT KILL: The cover image is Dario Amodei. He has zero role in a post about five generic PR prompts. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Fix: replace the cover with a styled text-on-brand-color card (no face needed since no real person drives this story), OR generate a scene i"
+ },
+ {
+  "t": "2026-08-30T16:55:23Z",
+  "gate": "B",
+  "subject": "<em>5 FREE PROMPTS</em> THAT REPLACE YOUR ENTIRE PR FIRM TONIGHT",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CAST TRUTH FAIL: The cover image is Dario Amodei (Anthropic CEO). He has zero role in this post. The story is about 5 generic AI prompts for PR tasks; Dario Amodei is decoration. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' The cover must be replaced with an image that proves the story — a person at "
  }
 ]
