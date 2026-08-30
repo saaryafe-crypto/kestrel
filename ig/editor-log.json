@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "One thin data point with no protagonist, event, or real-world consequence—market reporting banned in Story Law as routine; a writer would pad this single statistic into slides rather than unfold an actual story.",
-  "subject": "BREAKING: US homebuyer demand has fallen to a record low, with just 967,000 buyers competing against 1.46 million seller",
-  "t": "2026-08-26T06:07:52Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "NO SUBSTANCE: The source is 49 characters with no specific event, numbers, person, or felt consequence—just a trend claim that requires heavy padding to build slides; macro analysis disguised as a story fails THE STANDARD's requirement for a wild-but-true event that a reader would DM to a friend.",
   "subject": "\"Young men are abandoning the workforce,\" per WSJ",
   "t": "2026-08-26T06:07:57Z",
@@ -2098,5 +2091,12 @@
   "subject": "YOU'RE PAYING FOR 5 EMPLOYEES <em>CLAUDE REPLACES FOR FREE</em> TONIGHT",
   "verdict": "REJECT",
   "reason": "IMAGE LAW / CAST TRUTH: The cover shows Dario Amodei, who has zero role in this post. He is not mentioned on any slide, not quoted, not doing anything in the story. He is pure decoration — a celebrity face borrowed to signal Claude credibility. The law is explicit: recognizable famous person with no role in the story = REJECT. Fix: replace with a cover image that illustrates the story's actual sit"
+ },
+ {
+  "t": "2026-08-30T13:52:24Z",
+  "gate": "A",
+  "subject": "HOLY SHIT 🇫🇷🇮🇱 French authorities exposed Mossad-linked Israeli firm BlackCore interfering in elections across Europe, S",
+  "verdict": "KILL",
+  "reason": "No substance—entire source is one unverified tweet from a parody account (@Parodyjeffx) with no credible reporting, no named consequences, and insufficient facts to build a story."
  }
 ]
