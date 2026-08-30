@@ -1,54 +1,45 @@
 #!/usr/bin/env python3
-"""Claim-connected slide images via Replicate (ByteDance Seedream-4).
+"""Cover images via Replicate (google/nano-banana, Seedream-4 fallback).
 generate(brief, out_path) -> saved jpg path or None.
+
+NANO-ONLY REGIME (owner order Aug 30 "this should be the cheapest possible
+with nano banana ... only for the cover image"): the cover is the ONLY
+generated image — inner slides use article imagery or ship bare — and every
+cover renders on nano-banana ($0.04). gpt-image-2 is retired: its $0.17
+covers burned the whole $45 August cap by Aug 29 and posts shipped
+pictureless. nano copies likenesses from real press photos in faces/ and
+renders logo refs exactly (head-to-head win, Aug 14); with no refs it runs
+plain text-to-image. Seedream-4 survives only as the nano-flake fallback
+rung ($0.03) so a cover is never forfeited to one bad prediction.
 
 The reference page's craft: every image is a built VISUALIZATION of the
 slide's exact claim (a phone showing "Device Locked" for a lock story) —
-never a generic stock photo. Seedream-4 picked Jul 28 over the whole
-Replicate catalog: the owner's examples demand brand-accurate real
-devices PLUS a short readable screen phrase, Seedream's two strengths.
-Near-NB2 quality at $0.03/img (NB2 $0.067 rejected on price; FLUX.2 dev
-$0.015 loses the screen-text craft).
+never a generic stock photo.
 
-Aug 2 addition: gpt-image-2 (person=True) for images featuring FAMOUS PEOPLE.
-Measured head-to-head (gangster gas-station test): Seedream rejects any prompt
-naming a real person (E005), FLUX 1.1 Pro renders generic lookalikes — gpt-image-2
-accepts names directly and nails all three billionaires' likenesses with zero
-reference photos. Owner: "i prefer a model that allows that immediately, it
-will be much less bugs." Quality: high for covers, medium inside (owner pick).
-
-Hard budget guard (owner cap: $15/month, raised from $9 on Aug 2 for the
-gpt-image-2 person covers): monthly AND daily spend tracked in genimg-used.json.
-No key, budget out, or API failure -> None and the caller falls back to the
-Seedream ref-photo route or article imagery — a posting slot is never blocked.
-Stdlib only."""
+Hard budget guard: monthly AND daily spend tracked in genimg-used.json.
+No key, budget out, or API failure -> None and the caller falls back to
+article imagery — a posting slot is never blocked. Stdlib only."""
 import json, os, sys, threading, time, urllib.request
 from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 USED = os.path.join(HERE, "genimg-used.json")
-# owner cap is the MONTH number ($45 since Aug 10 — owner order "every cover
-# post to be chatgpt from replicate": 6 gpt covers/day is ~$31/mo + inner)
-MONTH_BUDGET, DAY_BUDGET = 45.00, 0.60
-# Covers get their own, higher daily ceiling (cover-first doctrine, Aug 1):
-# inner-slide spend stops at DAY_BUDGET so there is always headroom left for
-# every remaining post's cover. Raised Aug 10: ALL covers now route to
-# gpt-image ($0.17 high), 6/day + retry headroom must fit. Raised again
-# Aug 14 (fake-Sam post-mortem: the $1.20 cap died at 18:43 and the evening
-# covers degraded to Seedream fakes): $2.10 = 6 covers x 2 tries + one spare.
-# The $45 month cap still rules everything.
-COVER_DAY_BUDGET = 2.10
-COST = 0.03  # Seedream: flat per output image, any size
+# NANO-ONLY REGIME (owner order Aug 30 "this should be the cheapest possible
+# with nano banana ... only for the cover image"): generated imagery is the
+# COVER ONLY on nano-banana ($0.04); gpt-image-2 is retired — its $0.17 covers
+# burned the whole $45 August cap by Aug 29 and posts shipped pictureless.
+# Run rate now ~7 covers/day x $0.04 = ~$9/mo; caps are a runaway backstop.
+# START: gpt-era ledger entries before this date don't count against the new
+# caps (August's $45.31 would otherwise block covers until Sep 1).
+START = "2026-08-30"
+MONTH_BUDGET, DAY_BUDGET = 12.00, 0.60
+# covers lane: 7 posts/day x up to 3 tries x $0.04 = $0.84 + spare
+COVER_DAY_BUDGET = 0.90
+COST = 0.03  # Seedream: flat per output image, any size — nano-flake fallback
 URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
-# gpt-image-2 (person route): token-billed by OpenAI; measured ~$0.165/high and
-# ~$0.041/medium at 2:3 portrait — booked with headroom so the cap never lies low
-GPT_URL = "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions"
-GPT_COST = {"high": 0.17, "medium": 0.05}
-# nano-banana (owner order Aug 14 "change to nano banana if its 4 times
-# cheaper" — head-to-head on the fake-Sam brief: it copies the likeness from
-# our real press photo and renders the real logo ref exactly): PRIMARY person
-# model when every named face has a photo in faces/. Billed $0.039, booked
-# with headroom like gpt.
+# nano-banana (primary since Aug 14 for persons, ALL covers since Aug 30):
+# copies likeness from real press photos in faces/ + renders logo refs exactly.
+# Billed $0.039, booked with headroom.
 NANO_URL = "https://api.replicate.com/v1/models/google/nano-banana/predictions"
 NANO_COST = 0.04
 
@@ -73,6 +64,7 @@ _LOCK = threading.Lock()
 def _sums(used):
     today = str(date.today())
     month = today[:7]
+    used = [u for u in used if u["date"] >= START]  # gpt-era spend excluded
     is_cover = lambda u: u.get("cover", u["cost"] >= 0.17)
     return (sum(u["cost"] for u in used if u["date"][:7] == month),
             sum(u["cost"] for u in used if u["date"] == today and not is_cover(u)),
@@ -183,8 +175,9 @@ def _call_nano(key, prompt, refs):
     press photo(s) + real logo mark ride as image_input — likeness is copied
     from the actual photograph, not drawn from memory."""
     body = {"input": {"prompt": prompt, "aspect_ratio": "1:1",
-                      "output_format": "jpg",
-                      "image_input": [_data_uri(r) for r in refs[:3]]}}
+                      "output_format": "jpg"}}
+    if refs:  # no-ref briefs (faceless concepts) are plain text-to-image
+        body["input"]["image_input"] = [_data_uri(r) for r in refs[:3]]
     req = urllib.request.Request(NANO_URL, data=json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json",
                                           "Authorization": f"Bearer {key}",
@@ -206,35 +199,6 @@ def _call_nano(key, prompt, refs):
     return None
 
 
-def _call_gpt(key, prompt, quality):
-    """gpt-image-2: the names-allowed person model (Aug 2). No reference
-    photos — the model knows famous faces natively, which is the whole point."""
-    # 1:1 (owner Aug 14): the slide's photo window is roughly square — 2:3
-    # portrait got its bottom third cropped off on every published slide
-    body = {"input": {"prompt": prompt, "quality": quality, "aspect_ratio": "1:1",
-                      "moderation": "low", "output_format": "jpeg",
-                      "number_of_images": 1}}
-    req = urllib.request.Request(GPT_URL, data=json.dumps(body).encode(),
-                                 headers={"Content-Type": "application/json",
-                                          "Authorization": f"Bearer {key}",
-                                          "Prefer": "wait"})
-    with urllib.request.urlopen(req, timeout=180) as r:
-        pred = json.loads(r.read())
-    for _ in range(40):  # high quality can take ~1-2 min when cold
-        if pred.get("status") in ("succeeded", "failed", "canceled"):
-            break
-        time.sleep(3)
-        pred = json.loads(_get(pred["urls"]["get"], key))
-    out = pred.get("output")
-    if isinstance(out, list):
-        out = out[0] if out else None
-    if isinstance(out, str) and out.startswith("http"):
-        return _get(out)
-    print(f"genimg(gpt): prediction {pred.get('status')!r} "
-          f"error={pred.get('error')!r}", file=sys.stderr)
-    return None
-
-
 def generate(brief, out_path, refs=None, cover=False, person=False, nano=False):
     key = _key()
     if not key:
@@ -245,23 +209,15 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False):
     # only to its OWN daily ceiling (+ the monthly cap, both enforced inside
     # _book): covers can never be starved by inner spend, and inner slides can
     # never be starved by cover spend (issue #18 post-mortem).
-    # person route (Aug 2): high quality on covers, medium inside — owner pick.
-    # Aug 10 owner order: EVERY cover renders on gpt-image ("chatgpt from
-    # replicate") — its prompt adherence is what makes concept covers land on
-    # screen; Seedream survives as the inner-slide model + cover fallback rung.
-    quality = "high" if cover else "medium"
-    use_nano = nano
-    use_gpt = (person or cover) and not nano
-    cost = NANO_COST if use_nano else GPT_COST[quality] if use_gpt else COST
-    if not _book(cost, cover=cover):
-        if use_gpt and not person and _book(COST, cover=cover, floor=True):
-            # a Seedream cover beats no cover (always-post): degrade, log it
-            use_gpt, cost = False, COST
-            print("genimg: gpt budget out — degrading cover to Seedream",
-                  file=sys.stderr)
-        else:
-            print("genimg: skipping (budget out)", file=sys.stderr)
-            return None
+    # nano-only regime (owner order Aug 30): the COVER is the only generated
+    # image — inner slides use article imagery or ship bare — and every cover
+    # renders on nano-banana. Seedream survives only as the nano-flake rung.
+    if not cover:
+        return None
+    cost = NANO_COST
+    if not _book(cost, cover=True):
+        print("genimg: skipping (budget out)", file=sys.stderr)
+        return None
     # Seedream-optimal 5-part structure (subject/action/setting come from the
     # brief; we append composition -> lighting -> lens -> style in that order —
     # the model's documented preference; full doctrine in inspiration/visual.md)
@@ -305,7 +261,7 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False):
                    "middle of the upper half; both upper corners of the frame "
                    "stay clear of the person — only background there.")
     live_refs = [r for r in (refs or []) if os.path.exists(r)]
-    if live_refs and not use_gpt:
+    if live_refs:
         # identity anchor (Aug 1, keypad post-mortem: from-scratch Altman and
         # an invented purple keypad both failed QA): the refs are REAL photos —
         # the model must copy them, not improvise variants
@@ -315,16 +271,15 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False):
                    "identity exactly identical to their reference photo. "
                    "Never invent a different-looking device or face.")
     try:
-        img = (_call_nano(key, prompt, live_refs) if use_nano
-               else _call_gpt(key, prompt, quality) if use_gpt
-               else _call(key, prompt, refs=live_refs or None))
-        if not img and use_gpt and not person:
-            # gpt flaked on a no-name cover: Seedream can render the same
-            # brief safely (E005 only bites on real names) — always-post rung
-            _refund(cost, cover=cover)
-            print("genimg: gpt returned no image — retrying brief on Seedream",
+        img = _call_nano(key, prompt, live_refs)
+        if not img:
+            # nano flaked: Seedream renders the same brief for $0.03 —
+            # always-post rung (E005 can still refuse real names; the outer
+            # ladder retries with a rewritten brief in that case)
+            _refund(cost, cover=True)
+            print("genimg: nano returned no image — retrying brief on Seedream",
                   file=sys.stderr)
-            if not _book(COST, cover=cover):
+            if not _book(COST, cover=True, floor=True):
                 return None
             cost = COST
             img = _call(key, prompt, refs=live_refs or None)
