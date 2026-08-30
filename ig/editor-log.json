@@ -1,96 +1,5 @@
 [
  {
-  "t": "2026-08-25T23:24:11Z",
-  "gate": "A",
-  "subject": "Someone recreated “Lose Yourself” by stitching together 187 random movie clips to form the lyrics. [🎞️ Ross Thompson / R",
-  "verdict": "KILL",
-  "reason": "No substance: single tweet with no proof the video exists, no secondary facts, and no real consequence to build slides from."
- },
- {
-  "t": "2026-08-25T23:24:13Z",
-  "gate": "A",
-  "subject": "Grok @Bot ported Doom to a new device in 10 mins",
-  "verdict": "KILL",
-  "reason": "No substance: one thin tweet with no second fact, numbers, or consequence to build slides."
- },
- {
-  "t": "2026-08-25T23:24:47Z",
-  "gate": "A",
-  "subject": "Porsche signs $1,500,000,000 five year AI partnership with Indian consulting firm TCS to deploy AI across the company",
-  "verdict": "KILL",
-  "reason": "This is a corporate partnership announcement with no real-world consequence or human action — no one did anything, nothing deployed yet, just two companies announcing a future deal; classic on-topic-but-routine launch-preview format, explicitly banned by doctrine."
- },
- {
-  "t": "2026-08-25T23:24:55Z",
-  "gate": "A",
-  "subject": "\"Young men are abandoning the workforce,\" per WSJ",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no substance: headline screenshot earning engagement metrics as the event, but zero specifics, no named person, no real-world consequence to build slides from."
- },
- {
-  "t": "2026-08-25T23:24:58Z",
-  "gate": "A",
-  "subject": "BREAKING: Goldman Sachs names Elon Musk’s Terafab as a major new driver of chip-equipment growth. Goldman included Teraf",
-  "verdict": "KILL",
-  "reason": "Analyst targeting—Goldman Sachs updating chip-equipment forecasts is routine financial-wire news, not a jaw-dropping event; scout interest (3/10) confirms weakness."
- },
- {
-  "t": "2026-08-25T23:25:13Z",
-  "gate": "A",
-  "subject": "BREAKING: US homebuyer demand has fallen to a record low, with just 967,000 buyers competing against 1.46 million seller",
-  "verdict": "KILL",
-  "reason": "Banned 'on-topic but routine' market wrap with no person, event, or real consequence—pure data, not a story."
- },
- {
-  "t": "2026-08-25T23:59:31Z",
-  "gate": "B",
-  "subject": "<em>A GUY TOLD GROK TO DRIVE HIS TESLA.</em> 5 COMMANDS.",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW / CAST TRUTH — FATAL: The cover is a plain corporate headshot of Elon Musk on a neutral gray background. 'A GUY' in the hook is an anonymous user, not Musk. The audience sees his face and assumes he is the actor; the story is then about a stranger. That is a bait-and-switch that breaks the image-headline contract. Fix: generate a cover that shows the STORY'S SITUATION — a person (or Musk"
- },
- {
-  "t": "2026-08-26T07:29:32Z",
-  "gate": "A",
-  "subject": "BREAKING: SpaceXAI just added a powerful new 'Browser Use' plugin to Grok Build. It gives Grok access to a real browser,",
-  "verdict": "KILL",
-  "reason": "Launch preview / feature announcement with no real-world event or person; falls under banned 'on-topic but routine' (§1 INSTANT KILL: analyst targets, launch previews, product announcements earn nothing)."
- },
- {
-  "t": "2026-08-26T07:29:48Z",
-  "gate": "A",
-  "subject": "Someone recreated “Lose Yourself” by stitching together 187 random movie clips to form the lyrics. [🎞️ Ross Thompson / R",
-  "verdict": "KILL",
-  "reason": "One thin X post with no real-world consequence, reach, or second fact; pure NO SUBSTANCE—writer would pad."
- },
- {
-  "t": "2026-08-26T07:30:03Z",
-  "gate": "A",
-  "subject": "BREAKING: Goldman Sachs names Elon Musk’s Terafab as a major new driver of chip-equipment growth. Goldman included Teraf",
-  "verdict": "KILL",
-  "reason": "Analyst targets with no real-world event — explicitly banned instant-kill category."
- },
- {
-  "t": "2026-08-26T07:30:33Z",
-  "gate": "A",
-  "subject": "BREAKING: US homebuyer demand has fallen to a record low, with just 967,000 buyers competing against 1.46 million seller",
-  "verdict": "KILL",
-  "reason": "It's market data (banned as routine analyst material), not a story—no event happened, no person did anything, no real-world consequence anyone felt, and scout interest is under 5 with no exceptional reason to override."
- },
- {
-  "t": "2026-08-26T07:30:39Z",
-  "gate": "A",
-  "subject": "BREAKING: Nvidia, $NVDA, falls for the 7th-straight trading day and officially posts its longest losing streak since 202",
-  "verdict": "KILL",
-  "reason": "Routine market data—the exact 'stocks-rose-today' category explicitly banned per ON-TOPIC BUT ROUTINE: no actor, no felt consequence, no story."
- },
- {
-  "t": "2026-08-26T08:05:31Z",
-  "gate": "B",
-  "subject": "YOUR BUSINESS PAYS <em>$500 A MONTH</em> FOR THESE 5 JOBS. GROK DOES THEM FREE.",
-  "verdict": "REJECT",
-  "reason": "SHUFFLE TEST FAILURE (HARD GATE): Slides 2, 3, 4, 6, and 7 are five independent list items that can be read in any order without confusion. Tip 5 requires no knowledge of tip 3. The law is explicit: 'if the middle slides could be read in any order without confusion, the post is a listicle wearing a story's clothes — REJECT.' Fix: chain the tips causally or inside a single business scenario ('You j"
- },
- {
   "gate": "A",
   "reason": "One thin data point with no protagonist, event, or real-world consequence—market reporting banned in Story Law as routine; a writer would pad this single statistic into slides rather than unfold an actual story.",
   "subject": "BREAKING: US homebuyer demand has fallen to a record low, with just 967,000 buyers competing against 1.46 million seller",
@@ -2098,5 +2007,96 @@
   "subject": "THE U.S. SHOT DOWN <em>3 CARTEL DRONES</em> WITH A LASER AND FIRED ZERO BULLETS",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-30T06:18:18Z",
+  "gate": "A",
+  "subject": "BREAKING: NASA chief Jared Isaacman says SpaceX is set to launch Starship every week in 2027. “I think you’re going to s",
+  "verdict": "KILL",
+  "reason": "Launch preview announcement (explicitly banned) based on one quote about a future plan—no real-world event that happened or consequence anyone felt."
+ },
+ {
+  "t": "2026-08-30T06:18:23Z",
+  "gate": "A",
+  "subject": "Island life in Japan for less than $62k It’s easy for foreigners to buy property in Japan 🇯🇵 —— Bizen, Okayama $62,000 U",
+  "verdict": "KILL",
+  "reason": "No substance—this is a real estate listing with no person, action, or consequence; nothing to build a narrative from."
+ },
+ {
+  "t": "2026-08-30T06:18:25Z",
+  "gate": "A",
+  "subject": "\"Employers are treating more workers as disposable,\" per Forbes",
+  "verdict": "KILL",
+  "reason": "One thin trend claim with no facts, numbers, or specific consequence—the writer would have to pad."
+ },
+ {
+  "t": "2026-08-30T06:18:29Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Single thin tweet making a macro-labor argument with no named protagonist, specific event, or hard numbers—would require heavy padding, fails the off-lens check (labor/demographics backdrop to tech, not tech as protagonist), and contradicts 'real names, real numbers, real proof' standard."
+ },
+ {
+  "t": "2026-08-30T06:19:13Z",
+  "gate": "A",
+  "subject": "New Fellows Research: Can Claude autonomously align other AIs? We gave Claude 48 hours and 1 GPU to improve the alignmen",
+  "verdict": "KILL",
+  "reason": "No substance — the entire source is one thin tweet with zero numbers, zero metrics, and no real-world consequence a reader can feel; a writer would have to pad from speculation, not story."
+ },
+ {
+  "t": "2026-08-30T06:19:41Z",
+  "gate": "A",
+  "subject": "\"Employers are treating more workers as disposable,\" per Forbes",
+  "verdict": "KILL",
+  "reason": "No specific event or real consequence—just a Forbes claim with zero named actors, numbers, or proof; a trend assertion, not a story someone actually did or lost money on."
+ },
+ {
+  "t": "2026-08-30T06:19:52Z",
+  "gate": "A",
+  "subject": "Island life in Japan for less than $62k It’s easy for foreigners to buy property in Japan 🇯🇵 —— Bizen, Okayama $62,000 U",
+  "verdict": "KILL",
+  "reason": "No substance—a single thin tweet of property specs with zero narrative spine, no person, no event, no consequence; writer would require pure padding."
+ },
+ {
+  "t": "2026-08-30T06:20:09Z",
+  "gate": "A",
+  "subject": "BREAKING: NASA chief Jared Isaacman says SpaceX is set to launch Starship every week in 2027. “I think you’re going to s",
+  "verdict": "KILL",
+  "reason": "One thin quote with no numbers, no consequence, no substance to build carousel from; writer would only pad; instant kill."
+ },
+ {
+  "t": "2026-08-30T06:20:40Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet with no numbers, event, or named person—nothing to build slides from; violates core STORY LAW."
+ },
+ {
+  "t": "2026-08-30T06:21:43Z",
+  "gate": "A",
+  "subject": "New Fellows Research: Can Claude autonomously align other AIs? We gave Claude 48 hours and 1 GPU to improve the alignmen",
+  "verdict": "KILL",
+  "reason": "No substance: the source is one thin tweet with no concrete numbers, no specific outcome, and no felt consequence—'worked surprisingly well' is marketing language, not a fact."
+ },
+ {
+  "t": "2026-08-30T06:47:57Z",
+  "gate": "B",
+  "subject": "AN ISLAND HOME IN JAPAN JUST LISTED FOR <em>$62,000.</em> <em>THAT'S LESS THAN A TOYOTA CAMRY</em> AND YOU DON'T NEED CI",
+  "verdict": "REJECT",
+  "reason": "SLIDE 6 breaks COVER CONTRACT (§4): The cover promises a $62,000 Japan island home story; slide 6 delivers an AI phone-answering-service pitch with zero connection to the real estate story. 'Calls answered in 30 seconds. Leads followed up automatically.' is a different product entirely. Every slide must cash the cover's frame explicitly — this one cashes a different frame. Fix: cut slide 6 and rep"
+ },
+ {
+  "t": "2026-08-30T07:26:10Z",
+  "gate": "B",
+  "subject": "YOU'RE PAYING FOR 5 EMPLOYEES <em>CLAUDE REPLACES FOR FREE</em> TONIGHT",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CAST TRUTH violation: the cover subject is Dario Amodei (Anthropic CEO), but he has zero named role in any slide. The post is about what Claude the tool does for small business owners; Dario is celebrity decoration. Making the product doesn't make you a character in a how-to listicle about it. Replace the cover face with a proper on-story image.; IMAGE LAW — dark void background: the p"
+ },
+ {
+  "t": "2026-08-30T07:27:35Z",
+  "gate": "B",
+  "subject": "YOU'RE PAYING FOR 5 EMPLOYEES <em>CLAUDE REPLACES FOR FREE</em> TONIGHT",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW / CAST TRUTH: The cover shows Dario Amodei, who has zero role in this post. He is not mentioned on any slide, not quoted, not doing anything in the story. He is pure decoration — a celebrity face borrowed to signal Claude credibility. The law is explicit: recognizable famous person with no role in the story = REJECT. Fix: replace with a cover image that illustrates the story's actual sit"
  }
 ]

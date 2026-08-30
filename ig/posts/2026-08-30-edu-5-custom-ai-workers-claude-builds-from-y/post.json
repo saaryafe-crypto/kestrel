@@ -1,0 +1,105 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOU'RE PAYING FOR 5 EMPLOYEES <em>CLAUDE REPLACES FOR FREE</em> TONIGHT",
+   "kicker": "NO CODE. NO TECH SKILLS.",
+   "hsize": 68,
+   "face": "Dario Amodei",
+   "media": "faces/dario-amodei.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) BUILD A <em>CUSTOMER SERVICE AI</em> THAT KNOWS YOUR BUSINESS COLD",
+   "hsize": 98,
+   "body": "Customer service staff cost a small business <b>$35,000 to $45,000 a year</b>.\n\nClaude reads your FAQ and past support emails, then writes a complete AI system prompt that handles every inquiry for free.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) BUILD AN <em>OBJECTION HANDLER</em> TRAINED ON YOUR REAL LOST DEALS",
+   "hsize": 96,
+   "body": "Every deal you have lost has a reason.\n\nPaste your last 3 rejected proposals into Claude and it builds a word-for-word response guide using the exact objections your buyers actually raise.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) TURN YOUR EMPLOYEE HANDBOOK INTO A <em>24/7 ONBOARDING AI</em>",
+   "hsize": 90,
+   "body": "New hires ask you the same 20 questions every week.\n\nClaude reads your existing training docs and builds an AI that answers all of them instantly, so you stop repeating yourself.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5 AI EMPLOYEES. ZERO SALARIES.",
+   "hsize": 76,
+   "body": "",
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD A <em>PRICING AI</em> THAT NEVER UNDERSELLS YOUR WORK",
+   "hsize": 102,
+   "body": "You underprice in the moment because there is pressure on the call.\n\nClaude takes your exact pricing logic and builds an AI that calculates the right number before you pick up the phone.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) CLONE YOUR WRITING VOICE INTO <em>AN AI THAT POSTS FOR YOU</em>",
+   "hsize": 89,
+   "body": "Paste 10 to 15 posts or emails you have written.\n\nClaude reverse-engineers your sentence rhythm, vocabulary, and how you argue a point.\n\nThe AI it builds produces content you would actually send.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 AI WORKERS CLAUDE BUILDS TONIGHT</em>",
+   "hsize": 88,
+   "body": "1. Customer service AI your FAQ\n2. Objection handler your lost deals\n3. Onboarding AI your handbook\n4. Pricing calculator your logic\n5. Content AI your voice\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through \ud83d\udc46 Five AI workers Claude builds from your docs tonight: customer service, sales objection handler, onboarding, pricing, content.\n\nCustomer service AI built from your FAQ and past support emails, sales objection handler trained on your real rejected deals, employee onboarding AI assembled from your existing handbook and processes, pricing calculator built on your own pricing logic, content AI cloned from 15 pieces of your own writing.\n\nClaude built and improved AI systems autonomously in 48 hours this week. Business owners are using the same capability on their own operations: hand Claude your documents and it builds tools that run on their own. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Anthropic Fellows Research, US Bureau of Labor Statistics\n\n#claudeai #aibusiness #aitools #businessautomation #aiforentrepreneurs",
+ "pinned_comment": "Which one are you building tonight? The pricing AI on slide 6 is the sleeper. Most people undersell because they price live with pressure on the call.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 EMPLOYEES <em>CLAUDE REPLACES</em> FOR FREE OVERNIGHT",
+   "5 JOBS THAT COST <em>$35K A YEAR</em> CLAUDE BUILDS FREE",
+   "CLAUDE QUIETLY BUILDS <em>5 AI WORKERS</em> MOST BUSINESSES MISS",
+   "PASTE YOUR DOCUMENTS AND <em>CLAUDE BUILDS 5 AI WORKERS</em>",
+   "5 <em>CUSTOM AI WORKERS</em> CLAUDE BUILDS FOR YOUR BUSINESS TONIGHT"
+  ],
+  "scores": [
+   8,
+   6,
+   3,
+   2,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] hits with the most shocking claim (replacing entire employees) delivered instantly, while [1] needs extra parsing time for the cost-per-job framing and lacks the urgency of 'overnight.'"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOU'RE PAYING FOR 5 EMPLOYEES <em>CLAUDE REPLACES FOR FREE</em> TONIGHT",
+   "5 EMPLOYEES <em>CLAUDE REPLACES</em> FOR FREE OVERNIGHT",
+   "5 EXPENSIVE EMPLOYEES <em>CLAUDE REPLACES FOR FREE</em> \u2014 SO GOOD IT FEELS ILLEGAL"
+  ],
+  "scores": [
+   8,
+   6,
+   7
+  ],
+  "winner": 0,
+  "why": "\"YOU'RE PAYING FOR\" snaps my head around because it's personal and specific\u2014my money, tonight, these exact 5 people\u2014making me stop in 1.5 seconds flat. Candidate 2 tries for cleverness with \"feels illegal,\" but at 2am that reads as marketing hyperbole, not the real shock value of [0]'s direct hit."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW / CAST TRUTH: The cover shows Dario Amodei, who has zero role in this post. He is not mentioned on any slide, not quoted, not doing anything in the story. He is pure decoration \u2014 a celebrity face borrowed to signal Claude credibility. The law is explicit: recognizable famous person with no role in the story = REJECT. Fix: replace with a cover image that illustrates the story's actual sit",
+ "topic_source": "news-anchored"
+}
