@@ -1,0 +1,109 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOU DON'T NEED A <em>$15,000 PROPOSAL CONSULTANT</em>. YOU NEED THESE 5 PROMPTS",
+   "kicker": "BEFORE YOUR COMPETITOR SENDS THEIRS",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "faces/dario-amodei.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "MOST PROPOSALS LOSE BEFORE <em>ANYONE READS PAGE TWO</em>",
+   "hsize": 96,
+   "body": "Most buyers form their opinion in the first paragraph and almost never change it.\n\nAI writes it the way a $15,000 consultant would: the client's pain first, your services second.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) WRITE THE OPENER <em>THAT PROVES YOU UNDERSTAND THEM</em>",
+   "hsize": 100,
+   "body": "Clients who feel understood before the pitch sign faster.\n\nThe prompt asks AI to describe the problem from the client's perspective, ending with what it costs them each month.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) TURN YOUR PRICE INTO <em>THE SMALL NUMBER IN THE ROOM</em>",
+   "hsize": 96,
+   "body": "For any service over $2,000, this section reframes your fee as the smaller number.\n\nIt shows the dollar cost of the problem first, then what you produce, then the math.",
+   "media": null
+  },
+  {
+   "type": "break",
+   "headline": "THEY DECIDED ON <em>PAGE ONE</em>",
+   "hsize": 80,
+   "body": "**Decision-makers** at most companies form their opinion before they reach your pricing section. The opener either earns the read or loses it. The next three prompts build the pages that follow.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) ADD THE SECTION <em>THAT MAKES SAYING NO FEEL RISKY</em>",
+   "hsize": 100,
+   "body": "Loss aversion is twice as powerful as the desire to gain.\n\nThis prompt adds the cost of not hiring you: two sentences, calm and factual, making the outcome feel inevitable.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) TURN YOUR BEST RESULT <em>INTO THREE SENTENCES THAT CLOSE DEALS</em>",
+   "hsize": 88,
+   "body": "You probably have one result you are genuinely proud of.\n\nThis prompt turns it into a 3-sentence case study: lead with the result number, make a skeptical reader believe it.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE THE PAGE <em>EVERY DECISION-MAKER ACTUALLY READS</em>",
+   "hsize": 96,
+   "body": "Most proposals bury the answer on page 6.\n\nCEOs skip to the last page, find no summary, and close the document.\n\nPut this page at the front, not the back.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 5 PROPOSAL PROMPTS</em>",
+   "hsize": 88,
+   "body": "Problem mirror opener\nROI section that shrinks the price\nCost of inaction warning\n30-second case study\nExecutive summary CEOs read\n\nDaily AI news plus real skills.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 5 prompts. Most proposals fail in the first paragraph, not on the pricing page. \ud83d\udcc4\n\nInside:\n1) the problem mirror opener that proves you understand the client before you mention your services,\n2) the ROI section that makes your price feel like the obvious trade against the cost of their problem,\n3) the cost of inaction warning that makes saying no feel risky,\n4) the 30-second case study built from your best real result,\n5) the one-page executive summary the CEO actually reads, placed at the front of the proposal, not the back.\n\nElon Musk said this week that turbines are sold out through 2030 and only three casting companies worldwide can make what SpaceX needs. Every business is competing harder for fewer contracts right now. The businesses that write better proposals win more of them. AI writes the winning proposal free tonight.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Elon Musk via X, Aug 30 2026\n\n#ai #businessgrowth #entrepreneur #sales #aitools",
+ "pinned_comment": "Which section trips you up most on proposals: the opener, the ROI math, or the case study? The fix for each one is in the slides.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CLIENTS DECIDE IN <em>THE FIRST 8 LINES</em> OF YOUR PROPOSAL",
+   "5 PROMPTS THAT REPLACE <em>A $15,000 PROPOSAL CONSULTANT</em>",
+   "EVERY PROPOSAL YOU SEND <em>IS MISSING THESE 5 THINGS</em>",
+   "MOST PROPOSALS LOSE ON <em>SECTION ONE</em>, NOT PRICE",
+   "5 PROMPTS THAT WRITE <em>YOUR CLIENT PROPOSAL</em> FOR FREE"
+  ],
+  "scores": [
+   4,
+   7,
+   4,
+   6,
+   6
+  ],
+  "winner": 1,
+  "why": "The $15,000 figure paired with 'replace a consultant' creates shocking stopping power\u2014it's dramatic transformation language that lands in 1.7 seconds, while free prompts sounds like every other marketing offer and the clever insight about section one is too cryptic to pull you from your scroll."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT REPLACE <em>A $15,000 PROPOSAL CONSULTANT</em>",
+   "YOU DON'T NEED A <em>$15,000 PROPOSAL CONSULTANT</em>. YOU NEED THESE 5 PROMPTS"
+  ],
+  "scores": [
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hits with direct confrontation\u2014'you DON'T NEED'\u2014which makes you pause and think 'wait, really?' on a 2am scroll. [0] reads like generic listicle copy that tells you what exists but gives you zero reason to actually care."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW \u2014 CAST TRUTH hard reject: the cover face is Dario Amodei (Anthropic CEO), who has zero role in a post about proposal-writing prompts. A recognizable famous person used as decoration with no connection to the story is an explicit automatic reject under the doctrine. Replace with a cover image that proves the story \u2014 a styled card showing a proposal document, the $15,000 figure in type, or",
+ "topic_source": "news-anchored"
+}

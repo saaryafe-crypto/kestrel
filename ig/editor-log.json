@@ -1,89 +1,5 @@
 [
  {
-  "t": "2026-08-26T19:52:36Z",
-  "gate": "B",
-  "subject": "<em>6 CHATGPT POWERS</em> THAT REPLACE A <em>$3,000 ANALYST</em> FOR $100",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH VIOLATION (§3, IMAGE LAW): The cover is Sam Altman in a generic conference headshot. He has zero role in this story — his name never appears in any slide. The Doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' This is a celebrity as decoration. Fix: replace with a cover image that is proof of the story — a Chat"
- },
- {
-  "t": "2026-08-27T04:14:59Z",
-  "gate": "A",
-  "subject": "we made a chip and it is fast",
-  "verdict": "KILL",
-  "reason": "Source material is 29 characters with no second fact, no numbers, no named actor, and no real-world consequence—writer would have to pad, and it reads as a routine company announcement, not a story."
- },
- {
-  "t": "2026-08-27T04:15:00Z",
-  "gate": "A",
-  "subject": "Since announcing Jalapeño, our first custom inference chip, we’ve been testing it and the system around it. The results ",
-  "verdict": "KILL",
-  "reason": "Launch preview with zero real numbers or proof: OpenAI announces Jalapeño is being tested and works well, but the source carries no benchmarks, no shipped reality, no felt consequence—a textbook on-topic-but-routine announcement, explicitly banned."
- },
- {
-  "t": "2026-08-27T04:15:09Z",
-  "gate": "A",
-  "subject": "92% of American have either delayed or totally abandoned medical care because of how expensive it is, per the Independen",
-  "verdict": "KILL",
-  "reason": "No protagonist, event, or real-world consequence—just a survey result about a known problem; pure NO SUBSTANCE per the instant-kill standard."
- },
- {
-  "t": "2026-08-27T04:15:21Z",
-  "gate": "A",
-  "subject": "25% of Gen Z treat sports betting as a deliberate part of their long-term financial plan, per Bloomberg",
-  "verdict": "KILL",
-  "reason": "One statistic with no specific event, protagonist, or story arc violates NO SUBSTANCE—writer would have nothing but padding to build slides from."
- },
- {
-  "t": "2026-08-27T04:16:15Z",
-  "gate": "A",
-  "subject": "BREAKING 🚨: U.S. Banks U.S. Banks are currently facing unrealized losses of $326.7 Billion 🤯 👀 Losses have grown each of",
-  "verdict": "KILL",
-  "reason": "No actor, no event, no consequence—this is analyst commentary on a metric, not a story."
- },
- {
-  "t": "2026-08-27T04:59:21Z",
-  "gate": "B",
-  "subject": "6 TASKS BUSINESSES PAY <em>$30,000 FOR</em> THAT CLAUDE DOES FREE",
-  "verdict": "REJECT",
-  "reason": "SHUFFLE TEST FAILURE (§4 hard gate): Tasks 1–6 are completely independent units — slide 3 (contracts) makes full sense before or after slide 5 (homepage), and the same is true for every middle slide. This is a numbered listicle, not a story chain. The fix is a structural rewrite: each slide must end with a named open loop that the next slide's headline scratches, creating dependency.; SLIDE 2 NOT "
- },
- {
-  "t": "2026-08-27T16:47:34Z",
-  "gate": "A",
-  "subject": "JUST IN: $13 trillion Charles Schwab to add Solana, Avalanche, and Chainlink trading to Schwab Crypto accounts.",
-  "verdict": "KILL",
-  "reason": "Launch preview masquerading as news — a company announced a feature it will add, but nothing actually happened and there's no real-world consequence to report."
- },
- {
-  "t": "2026-08-27T16:47:36Z",
-  "gate": "A",
-  "subject": "We have conducted a thorough investigation into the Hugging Face incident. We are releasing a technical report and accom",
-  "verdict": "KILL",
-  "reason": "The source is a procedural announcement (report coming soon) with zero specifics about what the incident was, no numbers, no named consequences, and no details—the writer would have to pad or speculate to fill slides."
- },
- {
-  "t": "2026-08-27T16:48:24Z",
-  "gate": "A",
-  "subject": "Grok Build made this fun lil Mars simulator game for my nephew. I gave it simple prompts. It did the rest: wrote systems",
-  "verdict": "KILL",
-  "reason": "No substance: one thin fact (AI built a game), no numbers, specificity, or consequence; writer would pad to fill slides."
- },
- {
-  "t": "2026-08-27T16:49:13Z",
-  "gate": "A",
-  "subject": "BREAKING: Neuralink just released a new video of Audrey Crews, paralyzed from the neck down since a car crash at 16 - cr",
-  "verdict": "APPROVE",
-  "reason": "A paralyzed woman created digital art with her mind using Neuralink; real person achieving something outrageous with a real outcome, the exact type of story people send to friends."
- },
- {
-  "t": "2026-08-27T17:40:30Z",
-  "gate": "B",
-  "subject": "SHE COULDN'T DRAW FOR 20 YEARS AFTER A CRASH AT 16. A BRAIN CHIP JUST GAVE HER ART BACK <em>USING ONLY HER THOUGHTS</em>",
-  "verdict": "REJECT",
-  "reason": "Slide 6 ('BUSINESSES RUNNING AI DON'T NEED MORE HANDS') is a business AI sales pitch with zero connection to Audrey Crews or Neuralink. It shatters the question chain (slide 5 closes on 'It made it irrelevant' — a natural story end), breaks cover contract (the cover promises Audrey's story, not a lead-gen pitch), and reads to the audience as an ad injected mid-carousel. Fix: cut slide 6 entirely. "
- },
- {
   "t": "2026-08-27T18:22:23Z",
   "gate": "B",
   "subject": "<em>7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE</em> IN GROK",
@@ -2098,5 +2014,89 @@
   "subject": "<em>5 FREE PROMPTS</em> THAT REPLACE YOUR ENTIRE PR FIRM TONIGHT",
   "verdict": "REJECT",
   "reason": "IMAGE LAW — CAST TRUTH FAIL: The cover image is Dario Amodei (Anthropic CEO). He has zero role in this post. The story is about 5 generic AI prompts for PR tasks; Dario Amodei is decoration. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' The cover must be replaced with an image that proves the story — a person at "
+ },
+ {
+  "t": "2026-08-30T17:19:24Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens: pharmaceutical industry whistleblower story has no AI, tech, space, or founder angle — applying the hard off-lens kill rule for tech pages."
+ },
+ {
+  "t": "2026-08-30T17:19:37Z",
+  "gate": "A",
+  "subject": "ELON MUSK: “Turbines are sold out through 2030. In order to bring enough power online, SpaceX and Tesla will probably ha",
+  "verdict": "KILL",
+  "reason": "Single Elon prediction about future supply constraints, not a real-world event with a felt consequence; thin one-tweet source fails the substance test and would force padding."
+ },
+ {
+  "t": "2026-08-30T17:20:22Z",
+  "gate": "A",
+  "subject": "SpaceX just launched NASA’s newest flagship space telescope. What makes Roman special: • Its mirror came from hardware o",
+  "verdict": "KILL",
+  "reason": "On-topic but routine — launch recap with technical specs, not a narrative story or jaw-dropping consequence the reader would send to a friend."
+ },
+ {
+  "t": "2026-08-30T17:20:42Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Off-lens. This is fundamentally a 19th-century historical biography about fashion, not a story whose subject is AI, technology, modern business innovation, investing, or space. The founder element is the outcome, not the frame—a pure history story that merely concludes with founding, not a founder/business-arc story the owner would feature."
+ },
+ {
+  "t": "2026-08-30T17:21:39Z",
+  "gate": "A",
+  "subject": "Metallica’s new multimillion-dollar foundation funds trade school across the U.S. It has let tens of thousands of people",
+  "verdict": "KILL",
+  "reason": "It's a routine nonprofit-milestone announcement, exactly the type the doctrine excludes—no dramatic event happened, just gradual program expansion that doesn't stop a reader mid-scroll."
+ },
+ {
+  "t": "2026-08-30T17:22:19Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Pure 19th-century fashion history with no technology, AI, or modern business angle—off-lens for a tech page, and the source material is truncated, making full evaluation impossible."
+ },
+ {
+  "t": "2026-08-30T17:22:33Z",
+  "gate": "A",
+  "subject": "ELON MUSK: “Turbines are sold out through 2030. In order to bring enough power online, SpaceX and Tesla will probably ha",
+  "verdict": "KILL",
+  "reason": "This is Elon's speculation about future supply chains, not a real-world event that happened—a single tweet of analysis with no actual consequence or sufficient substance to build a carousel without padding."
+ },
+ {
+  "t": "2026-08-30T17:22:46Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lane kill: pharmaceutical industry story has no AI, technology, founder, investing, or space-tech lens."
+ },
+ {
+  "t": "2026-08-30T17:22:56Z",
+  "gate": "A",
+  "subject": "SpaceX just launched NASA’s newest flagship space telescope. What makes Roman special: • Its mirror came from hardware o",
+  "verdict": "KILL",
+  "reason": "On-topic-but-routine space news with 3/10 scout interest—lacks the viral-specific event or felt consequence needed to stop a 16-year-old mid-scroll and share."
+ },
+ {
+  "t": "2026-08-30T17:24:02Z",
+  "gate": "A",
+  "subject": "Metallica’s new multimillion-dollar foundation funds trade school across the U.S. It has let tens of thousands of people",
+  "verdict": "KILL",
+  "reason": "Routine nonprofit news about institutional expansion—no outrageous person, dramatic money event, or first-ever moment; the 3/10 score signals this fails the jaw-dropping standard that makes readers stop mid-scroll."
+ },
+ {
+  "t": "2026-08-30T18:11:38Z",
+  "gate": "B",
+  "subject": "YOU DON'T NEED A <em>$15,000 PROPOSAL CONSULTANT</em>. YOU NEED THESE 5 PROMPTS",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CAST TRUTH FAIL: The cover image is Dario Amodei (Anthropic CEO), a recognizable famous person who has zero role in this post. The post teaches 5 generic proposal-writing prompts; Amodei is pure decoration. The doctrine is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' The cover must be replaced with an image that pro"
+ },
+ {
+  "t": "2026-08-30T18:12:53Z",
+  "gate": "B",
+  "subject": "YOU DON'T NEED A <em>$15,000 PROPOSAL CONSULTANT</em>. YOU NEED THESE 5 PROMPTS",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CAST TRUTH hard reject: the cover face is Dario Amodei (Anthropic CEO), who has zero role in a post about proposal-writing prompts. A recognizable famous person used as decoration with no connection to the story is an explicit automatic reject under the doctrine. Replace with a cover image that proves the story — a styled card showing a proposal document, the $15,000 figure in type, or"
  }
 ]
