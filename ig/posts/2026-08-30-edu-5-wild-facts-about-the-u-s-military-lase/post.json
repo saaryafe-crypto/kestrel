@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE U.S. SHOT DOWN <em>3 CARTEL DRONES</em> WITH A LASER AND FIRED ZERO BULLETS",
+   "kicker": "STRAIGHT OUT OF A SCI-FI MOVIE",
+   "hsize": 72,
+   "face": null,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>A HIGH-ENERGY LASER</em> SHOT 3 CARTEL DRONES OUT OF THE SKY",
+   "hsize": 90,
+   "body": "The U.S. military fired a <b>high-energy laser</b> near the southern border and took down <b>3 hostile cartel drones</b>.\n\nNo bullets. No nets. A beam of light, and all three were gone",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>USNORTHCOM CALLED</em> THE DRONES HOSTILE",
+   "hsize": 100,
+   "body": "<b>USNORTHCOM</b> confirmed the engagement and classified the drones as <b>hostile</b> because they directly threatened <b>American troops and Border Patrol agents</b> on the ground.\n\nHostile means lethal force is authorized",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE LOCATION AND <em>THE CARTEL BEHIND IT ARE STILL CLASSIFIED</em>",
+   "hsize": 88,
+   "body": "Officials refused to name the <b>exact border location</b> or identify <b>which cartel</b> sent the drones.\n\nWhat you don't get to know is where this happened and who ordered it.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3 DRONES. <em>1 LASER. ZERO BULLETS.</em>",
+   "hsize": 80,
+   "body": "Cartels run <b>organized drone programs</b>, using drones to smuggle people and surveil <b>U.S. law enforcement in real time</b>.\n\nThey track <b>Border Patrol</b> patterns, time crossings to the minute, and guide operatives below.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "DIRECTED-ENERGY WEAPONS <em>ARE NOW OFFICIAL U.S. POLICY</em>",
+   "hsize": 90,
+   "body": "<b>Directed-energy weapons</b> are now officially part of the military's active response to cartel drone threats along the <b>U.S. southern border</b>.\n\nThey crossed from classified experiments into real deployment, and you're watching that happen",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: THE LASER THAT SHOT <em>3 CARTEL DRONES</em>",
+   "body": "Laser downed 3 cartel drones near the border\nUSNORTHCOM: drones classified hostile\nLocation and cartel identity: still classified\nCartels run organized drone surveillance\nDirected-energy weapons now official\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5 facts. The U.S. military just fired a laser at 3 cartel drones and hit every one. \ud83c\udfaf\n\nA laser takes down 3 cartel drones near the southern border, USNORTHCOM labels them hostile and authorizes lethal force, officials keep the location and cartel identity classified, cartels run full drone surveillance on U.S. law enforcement, directed-energy weapons become official military policy.\n\nThe U.S. military is now firing lasers at cartel drones. Directed-energy weapons have left the lab and entered active use. Who holds these tools and who doesn't is a gap that's closing fast.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: MarioNawfal, USNORTHCOM\n\n#AI #MilitaryTech #DirectedEnergy #Technology #Drones",
+ "pinned_comment": "Which surprised you more: that the laser hit all 3 drones, or that cartels are running organized drone surveillance on Border Patrol agents? Drop it below.",
+ "hook_tournament": {
+  "candidates": [
+   "<em>THE MILITARY</em> USED A LASER TO DOWN 3 CARTEL DRONES"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>THE MILITARY</em> USED A LASER TO DOWN 3 CARTEL DRONES",
+   "THE U.S. MILITARY CALLED <em>3 CARTEL DRONES HOSTILE</em> AND BURNED THEM OUT OF THE SKY WITH A LASER",
+   "THE U.S. SHOT DOWN <em>3 CARTEL DRONES</em> WITH A LASER AND FIRED ZERO BULLETS"
+  ],
+  "scores": [
+   6,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "'ZERO BULLETS' creates a pause\u2014why'd they lead with that?\u2014instead of the expected dramatic arc. You swipe to confirm the specific fact, not because the writing sounds polished."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "no-image"
+}
