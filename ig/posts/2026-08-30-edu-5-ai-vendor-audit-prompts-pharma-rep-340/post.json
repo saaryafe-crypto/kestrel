@@ -1,0 +1,105 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 PROMPTS THAT FIND <em>$340,000 YOUR VENDOR IS HIDING</em>",
+   "kicker": "MOST BUSINESSES FIND OUT TOO LATE",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "faces/dario-amodei-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND EVERY HIDDEN FEE IN YOUR <em>SUPPLIER CONTRACT</em>",
+   "hsize": 84,
+   "body": "VENDOR CONTRACTS BURY EXTRA FEES PAGES DEEP.\n\n\"Here is my vendor contract. List every fee not in the headline price, with the page number.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) CATCH PRICE INCREASES HIDING <em>ACROSS YOUR INVOICES</em>",
+   "hsize": 84,
+   "body": "VENDORS RAISE PRICES IN SMALL STEPS THAT COST THOUSANDS. Paste 3 recent invoices and type:\n\n\"Here are my last 3 invoices. Flag every line where the price went up and explain why.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) SPOT RED FLAGS IN ANY <em>VENDOR PITCH</em>",
+   "hsize": 88,
+   "body": "VENDOR PITCHES ARE BUILT TO IMPRESS, NOT INFORM. Run any pitch through Claude and type:\n\n\"List every claim in this pitch that sounds strong but offers no real proof.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$340,000 A YEAR",
+   "hsize": 78,
+   "body": "That is what one pharma rep made selling cancer drugs that didn't work. Your vendors hide things too.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) FIND YOUR VENDOR'S <em>TRUE ANNUAL COST</em>",
+   "hsize": 96,
+   "body": "THE QUOTED PRICE IS NEVER THE REAL PRICE. Paste your contract and ask:\n\n\"Calculate my true annual cost including all minimums, renewal penalties, and early exit fees.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE THE EMAIL THAT <em>CUTS YOUR VENDOR BILL</em>",
+   "hsize": 84,
+   "body": "MOST VENDORS ONLY MOVE WHEN THEY THINK YOU'LL LEAVE. Tell Claude your situation and ask:\n\n\"Write a negotiation email asking for 15% off, pointing to my order volume as the reason.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: ALL 5 <em>VENDOR AUDIT PROMPTS</em>",
+   "hsize": 96,
+   "body": "Find hidden fees in contracts\nCatch price increases across invoices\nSpot red flags in any pitch\nCalculate your true vendor cost\nWrite the negotiation email\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5 before you sign any vendor contract. \ud83d\udd0d Claude reads agreements, invoices, and pitches in seconds, flagging what to push back on.\n\nFind hidden contract fees, catch price increases across your last 3 invoices, spot every unverifiable claim in a vendor pitch, calculate your true all-in supplier cost, write the negotiation email that moves the number.\n\nA pharma rep just went viral confessing he made $340,000 a year selling cancer treatments he knew didn't work. Every industry has vendors hiding something in the fine print. AI reads what your eyes skip.\nRunning a business? DM us \"AI\" and we'll show you what this looks like for yours.\n\nSources: X (pharma rep confession viral post, Aug 30 2026), Anthropic\n\n#AItools #businessowner #claudeai #vendormanagement #entrepreneur",
+ "pinned_comment": "Which prompt are you pasting in tonight? Most people start with slide 2 and walk away renegotiating within the week.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT <em>CUT SUPPLIER COSTS</em> WITHOUT SWITCHING VENDORS",
+   "<em>ONE PROMPT</em> FINDS EVERY HIDDEN FEE IN ANY CONTRACT",
+   "5 AI PROMPTS THAT PROVE <em>YOUR VENDOR IS OVERCHARGING YOU</em>",
+   "5 AI PROMPTS THAT CATCH <em>WHAT VENDORS HIDE</em>",
+   "5 AI PROMPTS THAT <em>OPEN YOUR VENDOR'S BOOKS</em>"
+  ],
+  "scores": [
+   4,
+   6,
+   8,
+   5,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] accuses YOUR vendor of overcharging YOU\u2014that personal threat stops scrolling instantly. [4] is clever wordplay but doesn't create urgency."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT FIND <em>$340,000 YOUR VENDOR IS HIDING</em>",
+   "5 AI PROMPTS THAT PROVE <em>YOUR VENDOR IS OVERCHARGING YOU</em>",
+   "5 AI PROMPTS THAT EXPOSE <em>EVERY FEE YOUR VENDOR BURIES</em>"
+  ],
+  "scores": [
+   8,
+   5,
+   7
+  ],
+  "winner": 0,
+  "why": "The $340,000 specific number hits with immediate shock\u2014'WAIT, WHAT?'\u2014in a way that stops scrolling, while 'expose every fee' addresses a real problem but feels less dramatic without the crystallizing dollar figure. Hard numbers beat relatable concepts for 2am impact."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW \u2014 THUMB TEST FAIL: The cover photo shows Dario Amodei seated at a fireplace with a coffee mug. A stranger at feed size sees 'tech CEO interview.' Zero signal of vendor contracts, hidden fees, or money. Image Law requires the cover to be proof or a staged scene of the story; this candid portrait proves nothing about the post's subject. For a famous-person cover, the law requires 'emotion ",
+ "topic_source": "news-anchored"
+}

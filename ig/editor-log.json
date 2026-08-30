@@ -1,89 +1,5 @@
 [
  {
-  "t": "2026-08-27T18:22:23Z",
-  "gate": "B",
-  "subject": "<em>7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE</em> IN GROK",
-  "verdict": "REJECT",
-  "reason": "HOOK is a banned label headline — '7 PROMPTS THAT CATCH TOMORROW'S CRYPTO MOVE IN GROK' is a listicle header, not the required summarizing cover sentence (actor + action + wild specifics, 12-25 words). Rewrite as a single complete sentence: e.g. 'GROK CAN SCAN LIVE X CONVERSATION ON ANY COIN AND HAND YOU AN ENTRY PLAN IN 30 SECONDS'.; SLIDE 2 IS NOT A SECOND HOOK — it immediately delivers prompt 1"
- },
- {
-  "t": "2026-08-27T21:46:44Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Slide 5 headline 'A ROBOT THAT THINKS LIKE CHATGPT JUST WENT VIRAL' breaks Hook Law §2: 'went viral' IS the banned failure model — engagement as the payoff. The robot's demo capabilities are the story; rewrite around what Figure 01 actually did ('spoke back', 'sorted objects', 'followed commands in real time') not that humans reacted to it.; Slide 6 headline 'LIBRARIANS ARE HOSTING VIRAL WORKSHOPS"
- },
- {
-  "t": "2026-08-27T21:59:08Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — SAM ALTMAN CAST TRUTH FAIL: The left panel shows a recognizable face that appears to be Sam Altman. IMAGE LAW is explicit: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT — a celebrity as decoration breaks image-headline connection.' Altman does not appear in any of the six recap stories (the OpenAI agent story names no executiv"
- },
- {
-  "t": "2026-08-27T22:03:25Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "CTA save-close bullet says 'Figure 01' — slide 5 says Figure 02. Fix the model number.; Same CTA bullet calls it 'the demo is unsettling' — slide 5 explicitly states it is not a demo but an actual live production shift at BMW. The framing directly contradicts the slide's own strongest line. Rewrite to mirror slide 5."
- },
- {
-  "t": "2026-08-27T22:06:13Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Slide 3 body: '-ing fake depth' violation — 'got the answer back almost immediately, reuniting a family that had given up on finding each other' — the 'reuniting' clause is tacked on as consequence padding, explicitly banned by §7. Fix: break it into its own sentence ('A family that had given up on finding each other was back together.').; Slide 4 body: banned news-agency register — 'Monday.com an"
- },
- {
-  "t": "2026-08-27T22:19:04Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-08-28T01:18:51Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Pattern-break slide is missing. §4 requires exactly one mid-carousel visual interrupt (inverted colors or one giant number / ≤6-word statement filling the frame, positioned around slide 4-5). The container note exempts the shuffle test and story-arc rules but does not exempt the pattern-break requirement. Fix: reformat slide 5 (Microduck, the natural mid-carousel position) as the break — '$399.' o"
- },
- {
-  "t": "2026-08-28T01:20:23Z",
-  "gate": "A",
-  "subject": "Neuralink 🧠 How it started v/s. How it's going",
-  "verdict": "KILL",
-  "reason": "Source is 46 characters with zero substance — no second fact, no numbers, no consequence, no specifics on what changed; writer would have to fabricate the entire story."
- },
- {
-  "t": "2026-08-28T01:20:48Z",
-  "gate": "A",
-  "subject": "Neuralink is one of the greatest technological breakthroughs of our time. A woman paralyzed from the neck down is creati",
-  "verdict": "KILL",
-  "reason": "The source is a thin 230-character tweet with zero names, dates, or numbers; the writer would have to research and pad substantially to build a carousel."
- },
- {
-  "t": "2026-08-28T01:20:52Z",
-  "gate": "A",
-  "subject": "Home robots are coming. The first ones in will be the small ones that are safe around kids and pets. Hugging Face's Poll",
-  "verdict": "KILL",
-  "reason": "Launch preview with no event or protagonist—this is routine product announcement, not a story."
- },
- {
-  "t": "2026-08-28T01:20:59Z",
-  "gate": "A",
-  "subject": "🚨 Nvidia agrees to buy Hugging Face for $12,900,000,000. I am kinda happy bcoz Jensen is big open-source supporter.",
-  "verdict": "KILL",
-  "reason": "Corporate acquisition announcement: on-topic-but-routine news with no personal protagonist, no felt consequence, and no buildable substance—hits instant kill."
- },
- {
-  "t": "2026-08-28T01:21:33Z",
-  "gate": "A",
-  "subject": "Humanoid Robot Games 2030",
-  "verdict": "KILL",
-  "reason": "Source material is a title only with zero facts, numbers, names, real dates, or consequences—the writer would have to pad it entirely, violating the no-substance instant-kill rule."
- },
- {
   "t": "2026-08-28T01:21:36Z",
   "gate": "A",
   "subject": "We have conducted a thorough investigation into the Hugging Face incident. We are releasing a technical report and accom",
@@ -2098,5 +2014,89 @@
   "subject": "YOU DON'T NEED A <em>$15,000 PROPOSAL CONSULTANT</em>. YOU NEED THESE 5 PROMPTS",
   "verdict": "REJECT",
   "reason": "IMAGE LAW — CAST TRUTH hard reject: the cover face is Dario Amodei (Anthropic CEO), who has zero role in a post about proposal-writing prompts. A recognizable famous person used as decoration with no connection to the story is an explicit automatic reject under the doctrine. Replace with a cover image that proves the story — a styled card showing a proposal document, the $15,000 figure in type, or"
+ },
+ {
+  "t": "2026-08-30T19:14:05Z",
+  "gate": "A",
+  "subject": "Ngl I appreciate the strategy of hallucinating back at the AI interviewer",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet with no second fact, numbers, or real-world consequence; no evidence of an actual event, just someone reacting to a concept—this is exactly the reaction-bait pattern that shipped the two worst posts ever."
+ },
+ {
+  "t": "2026-08-30T19:14:29Z",
+  "gate": "A",
+  "subject": "SpaceX just launched NASA’s newest flagship space telescope. What makes Roman special: • Its mirror came from hardware o",
+  "verdict": "KILL",
+  "reason": "Routine space-tech announcement filling the topic slot—no protagonist, no felt consequence, no jaw-dropping narrative that would make someone stop mid-scroll and send it to a friend (scout interest 5/10 with no exceptional override)."
+ },
+ {
+  "t": "2026-08-30T19:14:36Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens: whistleblower narrative about pharma; page requires AI, tech, founder, investing, or space as the story's star."
+ },
+ {
+  "t": "2026-08-30T19:14:47Z",
+  "gate": "A",
+  "subject": "ELON MUSK: “Turbines are sold out through 2030. In order to bring enough power online, SpaceX and Tesla will probably ha",
+  "verdict": "KILL",
+  "reason": "Elon's speculation about future supply constraints is not a real event with felt consequences; single-tweet material would require padding."
+ },
+ {
+  "t": "2026-08-30T19:15:50Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "No substance: thin generalization with no specific person, event, or real numbers—writer would pad to fill a carousel."
+ },
+ {
+  "t": "2026-08-30T19:16:22Z",
+  "gate": "A",
+  "subject": "Ngl I appreciate the strategy of hallucinating back at the AI interviewer",
+  "verdict": "KILL",
+  "reason": "Reaction-bait commentary on a concept with no real event, person, or outcome—instant-kill per STORY LAW."
+ },
+ {
+  "t": "2026-08-30T19:16:44Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens—a pharmaceutical industry whistleblower story with no connection to AI, technology, company/founder innovation, investing, or space technology, the only approved lenses for this page."
+ },
+ {
+  "t": "2026-08-30T19:16:58Z",
+  "gate": "A",
+  "subject": "ELON MUSK: “Turbines are sold out through 2030. In order to bring enough power online, SpaceX and Tesla will probably ha",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no real event and no second fact; Elon's speculation about future manufacturing strategy is not reportable news."
+ },
+ {
+  "t": "2026-08-30T19:17:25Z",
+  "gate": "A",
+  "subject": "SpaceX just launched NASA’s newest flagship space telescope. What makes Roman special: • Its mirror came from hardware o",
+  "verdict": "KILL",
+  "reason": "Launch-day specs announcement without dramatic consequence—on-topic-but-routine tech news the doctrine explicitly bans."
+ },
+ {
+  "t": "2026-08-30T19:18:39Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet with no numbers, specific facts, or concrete consequences to build slides from."
+ },
+ {
+  "t": "2026-08-30T19:45:48Z",
+  "gate": "B",
+  "subject": "NASA JUST SENT <em>1,350,144 PEOPLE'S NAMES TO DEEP SPACE</em> ON A TELESCOPE WHOSE MIRROR WAS ORIGINALLY BUILT FOR U.S.",
+  "verdict": "REJECT",
+  "reason": "Slide 7 breaks the cover contract (§4): the body pivots mid-story to a business lesson ('Your customer data works the same way. AI surfaces what costs you money.') that has zero connection to the NASA frame the cover sold. The cover promises spy mirrors and 1.35M names in deep space — not a martech tip. A reader who swiped for the space story hits a soft ad and the trust breaks. Fix: replace those"
+ },
+ {
+  "t": "2026-08-30T20:30:18Z",
+  "gate": "B",
+  "subject": "5 PROMPTS THAT FIND <em>$340,000 YOUR VENDOR IS HIDING</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — THUMB TEST FAIL: The cover photo shows Dario Amodei seated at a fireplace with a coffee mug. A stranger at feed size sees 'tech CEO interview.' Zero signal of vendor contracts, hidden fees, or money. Image Law requires the cover to be proof or a staged scene of the story; this candid portrait proves nothing about the post's subject. For a famous-person cover, the law requires 'emotion "
  }
 ]
