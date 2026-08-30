@@ -1,0 +1,108 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>OWNERS WHO CAN'T CODE</em> ARE BUILDING 5 BUSINESS TOOLS FREE",
+   "kicker": "INSIDE YOUR CHATGPT ACCOUNT ALREADY",
+   "hsize": 70,
+   "face": "Sam Altman",
+   "media": "posts/2026-08-30-edu-5-openai-codex-builds-for-business-owner/gen-0-r.jpg",
+   "image_prompt": "Sam Altman, worn leather apron, triumphant grin, both hands thrusting blueprint tubes at camera; bright white OpenAI logo on clean light amber pegboard; bright lighting, documentary news photo, 35mm, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) BUILD A <em>LIVE INVOICE TRACKER</em> IN 20 MINUTES",
+   "hsize": 95,
+   "body": "FreshBooks charges **$55 a month** to track invoices.\n\nOpenAI's coding AI builds the same thing in 20 minutes, and you own it forever.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>RANK YOUR LEADS</em> BEFORE YOU CALL A SINGLE ONE",
+   "hsize": 95,
+   "body": "Most CRMs charge **$50 to $200 a month** partly for lead scoring.\n\nOpenAI's coding AI reads your whole list and tells you who to call first, in about 30 seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) FIND THE PATTERN <em>IN EVERY REVIEW YOU'VE GOT</em>",
+   "hsize": 95,
+   "body": "Review analysis tools start at **$200 a month**.\n\nOpenAI's coding AI finds every pattern across hundreds of reviews for free, in about 30 seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "50% MORE CODING AI. SAME PRICE.",
+   "hsize": 76,
+   "layout": "break",
+   "body": "OpenAI reset all paid Codex accounts this week. The same allowance now lasts **10 to 50 percent longer**. If you ran out of headroom before finishing a build, this week is the window",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>WRITE A FULL CLIENT QUOTE</em> IN 60 SECONDS",
+   "hsize": 95,
+   "body": "A freelancer charges **$100 to $500** to write a client proposal.\n\nOpenAI's coding AI builds a web app that generates one from your notes in 60 seconds, and you keep it forever.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) CATCH WHAT'S <em>ABOUT TO RUN OUT</em> BEFORE IT DOES",
+   "hsize": 95,
+   "body": "Cin7 starts at **$349 a month** for inventory management.\n\nOpenAI's coding AI reads your stock list and flags everything about to run out, in under a minute.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 5 BUILDS, ALL 5 PROMPTS",
+   "hsize": 90,
+   "body": "1) Invoice tracker, $55/mo FreshBooks\n2) Lead ranker, $50, $200/mo CRM\n3) Review pattern finder, $200/mo tools\n4) Client quote generator, $100, $500\n5) Inventory reorder alert, $349/mo Cin7",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 business tools OpenAI's coding AI builds from plain English tonight. \ud83d\udd27\n\nInvoice tracker with color-coded due dates and one-click payment buttons, lead ranker that scores your whole list before you call anyone, review sorter that finds patterns across hundreds of opinions in 30 seconds, the usage reset that makes this week the right time to try, client quote generator that fills out in 60 seconds from your notes, inventory alert that flags what is about to run out\n\nOpenAI reset all paid Codex accounts this week, so the same usage allowance now lasts 10 to 50 percent longer. These are programs, not text answers. They run in your browser. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: OpenAI, FreshBooks, Cin7\n\n#ai #chatgpt #entrepreneur #businesstools #aitools",
+ "pinned_comment": "Which build are you trying first? The invoice tracker on slide 2 takes under 20 minutes and saves $55 a month the moment you stop paying FreshBooks.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "OPENAI JUST GAVE PAID USERS <em>50% MORE CODING AI ACCESS</em>",
+   "STOP PAYING FOR SOFTWARE <em>OPENAI'S CODING AI BUILDS FREE</em>",
+   "<em>5 BUSINESS TOOLS</em> ONE MESSAGE BUILDS OVERNIGHT",
+   "<em>OWNERS WHO CAN'T CODE</em> ARE BUILDING 5 BUSINESS TOOLS FREE",
+   "5 TOOLS <em>OPENAI'S CODING AI</em> BUILDS FROM PLAIN ENGLISH"
+  ],
+  "scores": [
+   4,
+   6,
+   5,
+   9,
+   7
+  ],
+  "winner": 3,
+  "why": "[3] tells me a concrete achievement story I already believe ('people who can't code built 5 tools free') that makes me feel like I could do it too, while [4] just explains the mechanism. At 2am, proof of what people already did beats feature capability every time."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 FREE BUSINESS TOOLS <em>MOST OWNERS STILL PAY FOR</em>",
+   "<em>OWNERS WHO CAN'T CODE</em> ARE BUILDING 5 BUSINESS TOOLS FREE",
+   "5 FREE BUSINESS BUILDS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "5 BUSINESS TOOLS AI <em>BUILDS FOR FREE IN MINUTES</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   6.5,
+   5
+  ],
+  "winner": 1,
+  "why": "[1] hits with genuine contradiction\u2014non-coders building tools\u2014that actually stops your scroll with 'WAIT, HOW?' [2] tries to shock with 'feel illegal' but reads as marketing hyperbole you've seen a million times."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on cover: the man in the leather apron is a generated non-famous face standing in for a generic business owner. The doctrine is explicit: 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' Fix: replace with the actual OpenAI/Codex product interface in frame, or a real photo of the brand mark.; IMAGE LAW \u2014 brand",
+ "topic_source": "news-anchored"
+}
