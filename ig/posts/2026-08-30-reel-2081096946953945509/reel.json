@@ -1,0 +1,17 @@
+{
+ "pick": 4,
+ "title": "How Starship adjusts its angle in real time",
+ "title_candidates": [
+  "What Elon's robot can do that surprised even the people who built it",
+  "The one skill Elon's robot took years to nail and finally got right",
+  "How this robot reads a task and adjusts before a human blinks",
+  "The split-second move Elon's robot makes that engineers still argue about",
+  "Watch this robot handle something no human ever physically taught it"
+ ],
+ "caption": "The gap between what robots do in demos and what they can actually do on their own has been closing faster than most people realize. This clip is one of those moments where it becomes hard to dismiss.\n\nWhat you are seeing is not pre-programmed move by move. The robot is reading the task in real time and adjusting, the same way you shift your weight without thinking about it. Getting a machine to do that reliably, without freezing or overcorrecting, only became possible after millions of simulated practice runs that never appeared on camera.\n\nEvery few months a new clip makes the last one look like a prototype.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: elonmusk. DM for credit or removal\n\n#AI #robotics #Optimus #Tesla #tech",
+ "start_s": 0,
+ "clip_s": 19,
+ "source": "https://video.twimg.com/amplify_video/2081090484118679552/vid/avc1/3840x2160/xpRxMg4n4yKyMfZI.mp4?tag=29",
+ "channel": "elonmusk",
+ "publish": "make"
+}
