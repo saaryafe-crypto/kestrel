@@ -1,0 +1,78 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 WEBSITES THAT TURN</em> A QUICK VISIT INTO HOURS",
+   "kicker": "MOST PEOPLE NEVER FIND THEM",
+   "hsize": 76,
+   "hook_candidates": [
+    "<em>6 WEBSITES THAT TURN</em> A QUICK VISIT INTO HOURS",
+    "6 CORNERS OF THE INTERNET <em>WORTH LOSING HOURS IN</em>",
+    "<em>6 FREE WEBSITES</em> THAT SWALLOW YOUR WHOLE AFTERNOON",
+    "<em>YOUR FEED IS A FRACTION.</em> 6 WEBSITES PROVE IT",
+    "6 WEBSITES THAT MAKE <em>YOUR USUAL FEED LOOK SMALL</em>"
+   ],
+   "media": "posts/2026-08-31-edu-6-websites-that-turn-a-quick-visit-into-/gen-0-r.jpg",
+   "image_prompt": "Glowing smartphone screen floating center-frame, amber loading symbol, electric blue glow, pale background, minimal clean composition, scrolling addiction metaphor, 35mm cinematic film"
+  },
+  {
+   "type": "content",
+   "headline": "1) TRACK EVERY PLANE <em>IN THE SKY RIGHT NOW</em>",
+   "hsize": 84,
+   "body": "OVER 100,000 FLIGHTS CROSS THE WORLD'S SKIES EVERY DAY. FLIGHTRADAR24 TRACKS ALL OF THEM.\n\nPoint your phone at any plane overhead and it names the flight instantly.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) WATCH STORMS BUILD <em>ANYWHERE ON EARTH</em>",
+   "hsize": 100,
+   "body": "PROFESSIONAL WEATHER DATA THIS DETAILED COSTS THOUSANDS A YEAR. WINDY GIVES IT FREE.\n\nZoom into any ocean and watch wind streams spiral into hurricanes in real time.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "THE INTERNET LIVES UNDERWATER",
+   "hsize": 68,
+   "body": "OVER 400 CABLES ON THE OCEAN FLOOR CARRY 95% OF ALL INTERNET TRAFFIC. A cable off Virginia reaches London in roughly <b>70 milliseconds</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) SEE HOW BIG <em>COUNTRIES REALLY ARE</em>",
+   "hsize": 105,
+   "body": "EVERY WORLD MAP YOU HAVE EVER SEEN DISTORTED THE SIZE OF EVERY COUNTRY.\n\nDrag Greenland to the equator and Africa is <b>14 times larger</b>. Russia fits inside Africa with room to spare.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) FLY THROUGH <em>THE SOLAR SYSTEM IN 3D</em>",
+   "hsize": 105,
+   "body": "NASA BUILT A FREE REAL-TIME SIMULATOR OF EVERY PLANET, MOON, AND SPACECRAFT.\n\nRewind to watch Voyager 1 launch in <b>1977</b>. Today it sits over <b>23 billion km</b> from Earth, still transmitting.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) READ ANY RESEARCH PAPER <em>FOR FREE</em>",
+   "hsize": 100,
+   "body": "THE PAPER BEHIND CHATGPT WAS PUBLISHED FREE AT ARXIV IN 2017. MOST PEOPLE STILL DON'T KNOW THE SITE EXISTS.\n\nOver <b>2 million papers</b> across AI, physics, and biology. No account. No paywall.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: 6 WEBSITES <em>WORTH HOURS</em>",
+   "hsize": 90,
+   "body": "\u2022 Flightradar24: every live flight\n\u2022 Windy.com: live global weather\n\u2022 TheTrue Size: countries actual size\n\u2022 Eyes.nasa.gov: 3D solar system\n\u2022 arXiv.org: <b>2 million</b> free papers\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6 and save the list. The internet most people use every day is a fraction of what's actually out there. \ud83c\udf0d\n\nOne real-time plane tracker that names any flight overhead, one animated storm map showing wind across the whole planet, a map of all 400-plus underwater cables that carry the internet, a tool revealing how distorted every world map is, a free 3D solar system simulator from NASA, and a library of over 2 million research papers with no paywall.\n\nThese six sites share one truth: the world is fully documented, live, and free to explore. The infrastructure, the forces shaping it, the knowledge explaining it, all public. Most people never look. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: sauda_coder\n\n#technology #freeonlinetools #learnonline #internettools #digitallearning",
+ "pinned_comment": "Which one stopped you? Slide 4 gets most people. They've been using those ocean cables their entire lives and never knew they could actually see them.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "COVER IMAGE FAILS IMAGE LAW: The image is decoration \u2014 a phone screen showing an abstract 'INFINITE SCROLL' loading circle. It proves nothing about 6 specific websites. The thumb test fails: a stranger at feed size cannot guess the story. IMAGE LAW requires proof or a staged scene of the story, never a conceptual metaphor. The cover needs an image that visually anchors one of the actual websites ("
+}

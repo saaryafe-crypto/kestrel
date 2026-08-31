@@ -1,103 +1,5 @@
 [
  {
-  "t": "2026-08-29T01:00:18Z",
-  "gate": "A",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "verdict": "KILL",
-  "reason": "Off-lens: this is 19th-century fashion history without a giant number—history arcs require felt financial scale, and founder stories must be tech/AI/business-focused for an AI page."
- },
- {
-  "t": "2026-08-29T01:00:28Z",
-  "gate": "A",
-  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
-  "verdict": "KILL",
-  "reason": "Off-lens kill: pharma industry ethics story with an anonymous protagonist, not AI/tech/company/founder/investing/space technology per the strict lane requirement."
- },
- {
-  "t": "2026-08-29T01:00:58Z",
-  "gate": "A",
-  "subject": "In the final hours of the Vietnam War, a South Vietnamese pilot fled with his wife and five children packed into a two-s",
-  "verdict": "KILL",
-  "reason": "Off-brand for a tech page — military history without connection to AI, modern tech, founding, investing, or space."
- },
- {
-  "t": "2026-08-29T01:01:48Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens: labor-market social commentary that mentions tech employment but isn't about technology, AI, a company, investing, or space—kills per the Aug 28 off-lens instruction."
- },
- {
-  "t": "2026-08-29T01:02:56Z",
-  "gate": "A",
-  "subject": "In the final hours of the Vietnam War, a South Vietnamese pilot fled with his wife and five children packed into a two-s",
-  "verdict": "KILL",
-  "reason": "Pure military history with no AI/technology/business angle—off-brand per precedent, despite the jaw-dropping event."
- },
- {
-  "t": "2026-08-29T01:03:01Z",
-  "gate": "A",
-  "subject": "BREAKING: Venezuela has been discussing leaving OPEC with US officials, per Bloomberg. This comes amid reports that the ",
-  "verdict": "KILL",
-  "reason": "Routine political news about ongoing negotiations lacks the completed event, named person, and real consequence required by story law."
- },
- {
-  "t": "2026-08-29T01:03:17Z",
-  "gate": "A",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "verdict": "KILL",
-  "reason": "Off-brand: 19th-century luxury goods founder story lacks modern tech/AI/startup lens required for @technology/@techskills—would not pass THE STANDARD (owner test)."
- },
- {
-  "t": "2026-08-29T01:03:35Z",
-  "gate": "A",
-  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
-  "verdict": "KILL",
-  "reason": "Off-lens — pharmaceutical ethics story doesn't center on AI, tech, founder, investing, or space technology."
- },
- {
-  "t": "2026-08-29T01:04:42Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens and no substance: a thin take on labor trends that mentions technology only as backdrop, not as story subject."
- },
- {
-  "t": "2026-08-29T01:38:18Z",
-  "gate": "B",
-  "subject": "THIS PILOT STUFFED <em>SEVEN PEOPLE INTO A TWO-SEAT PLANE WITH NO TAILHOOK</em> AND STILL LANDED ON A NAVY CARRIER",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-08-29T07:44:57Z",
-  "gate": "A",
-  "subject": "Reminder to run all new prescriptions through an LLM. Today, ChatGPT caught the fact that a provider prescribed me the w",
-  "verdict": "KILL",
-  "reason": "No substance — incomplete source tweet with no details, specifics, or proven consequence; writer would have to pad."
- },
- {
-  "t": "2026-08-29T07:45:00Z",
-  "gate": "A",
-  "subject": "BREAKING: Locals are reporting life-changing land offers near SpaceX’s Terafab in Texas. 🇺🇸 Some aren’t being given a pr",
-  "verdict": "KILL",
-  "reason": "One thin unverified tweet with no named people, actual prices, or documented consequences—pure speculative hearsay that would require fabrication to expand."
- },
- {
-  "t": "2026-08-29T07:45:04Z",
-  "gate": "A",
-  "subject": "Home robots are coming. The first ones in will be the small ones that are safe around kids and pets. Hugging Face's Poll",
-  "verdict": "KILL",
-  "reason": "Product launch preview—exactly the banned category ('launch previews... banned')—with no real-world story where something happened with a felt consequence; just announced specs and pre-order availability, not a jaw-dropping event the owner would post himself."
- },
- {
-  "t": "2026-08-29T07:45:28Z",
-  "gate": "A",
-  "subject": "We’re ending our partnership with Cursor following its acquisition by SpaceX. Under our proposal, Cursor’s direct access",
-  "verdict": "KILL",
-  "reason": "No substance: one announcement with one date, no figures on affected developers or impact scale — a writer must pad to fill slides."
- },
- {
   "t": "2026-08-29T07:46:07Z",
   "gate": "A",
   "subject": "I got early access to SpaceXAI’s new Grok @Bot template sharing feature, which lets you create custom Bot templates that",
@@ -2098,5 +2000,103 @@
   "subject": "SPACEX JUST LAUNCHED A NASA TELESCOPE TO DEEP SPACE WITH <em>1,350,144 REAL PEOPLE'S NAMES</em> PHYSICALLY ABOARD",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-08-31T19:30:29Z",
+  "gate": "A",
+  "subject": "25 Cybercabs in a lot in Tampa, Florida",
+  "verdict": "KILL",
+  "reason": "One-sentence source with zero context, consequence, or proof of event—would require pure speculation to build slides."
+ },
+ {
+  "t": "2026-08-31T19:30:36Z",
+  "gate": "A",
+  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
+  "verdict": "KILL",
+  "reason": "Routine scheduled space deployment with no unexpected event, consequence, or substance—source too thin to build slides from without padding."
+ },
+ {
+  "t": "2026-08-31T19:31:03Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Off-lens: fashion history without tech/AI angle — the page requires technology/innovation narratives."
+ },
+ {
+  "t": "2026-08-31T19:31:38Z",
+  "gate": "A",
+  "subject": "Hold on. This makes the whole thing even worse. Anthropic did disclose the weekly limits on its own website in 2025: Max",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: someone noticed Anthropic's website changed; no customer was harmed, money didn't move, and there's zero real-world consequence to report—just a corporate opacity observation."
+ },
+ {
+  "t": "2026-08-31T19:31:42Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet making a generalized macro-claim with zero names, numbers, or specific events—nothing concrete to build slides from but padding."
+ },
+ {
+  "t": "2026-08-31T19:31:43Z",
+  "gate": "A",
+  "subject": "Extremely severe extinction events happen every 100M years or so and just switching to sustainable energy will not be en",
+  "verdict": "KILL",
+  "reason": "No viral-specific event—Elon tweeted a prediction about extinction cycles and future geo-engineering necessity, not a story about something that actually happened in the real world with a real consequence."
+ },
+ {
+  "t": "2026-08-31T19:32:10Z",
+  "gate": "A",
+  "subject": "25 Cybercabs in a lot in Tampa, Florida",
+  "verdict": "KILL",
+  "reason": "One thin fact with no consequence or explanation — the writer would have to pad from no substance into slides."
+ },
+ {
+  "t": "2026-08-31T19:32:20Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Off-lens for @technology/@getintoai: this is 19th-century fashion/luxury goods history, not a tech/AI/space/investing story — the founder rule requires the lens subject to be tech/AI/space (Aug 28 order hardened the standard)."
+ },
+ {
+  "t": "2026-08-31T19:32:38Z",
+  "gate": "A",
+  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
+  "verdict": "KILL",
+  "reason": "Explicitly banned as a launch preview: single-tweet announcement with no numbers, people, or real consequence—reader feels no stake and writer would have to pad."
+ },
+ {
+  "t": "2026-08-31T19:33:19Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "No substance: the entire source is one thin opinionated tweet with zero specific names, quantified numbers, or real-world event — a writer would have to pad from external sources to fabricate a story that doesn't exist in the original material."
+ },
+ {
+  "t": "2026-08-31T19:33:22Z",
+  "gate": "A",
+  "subject": "Hold on. This makes the whole thing even worse. Anthropic did disclose the weekly limits on its own website in 2025: Max",
+  "verdict": "KILL",
+  "reason": "A company removing website information with no documented user impact, lawsuit, or consequence someone felt is routine corporate practice, not a viral-specific story—and at 3/10 scout interest, it lacks the exceptional strength needed to pass the story gate."
+ },
+ {
+  "t": "2026-08-31T19:33:55Z",
+  "gate": "A",
+  "subject": "Extremely severe extinction events happen every 100M years or so and just switching to sustainable energy will not be en",
+  "verdict": "KILL",
+  "reason": "No real-world event or consequence—just an opinion requiring padding; pure astronomy is off-brand even with the bolted-on tech angle."
+ },
+ {
+  "t": "2026-08-31T20:06:42Z",
+  "gate": "B",
+  "subject": "TESLA'S ROBOTAXIS JUST APPEARED IN TAMPA WITH NO ANNOUNCEMENT. <em>25 OF THEM, SITTING IN ONE PARKING LOT.</em>",
+  "verdict": "REJECT",
+  "reason": "SHUFFLE TEST FAIL — slides 5, 6, and 7 can be read in any order without confusion. Slide 5 (Uber drivers compete) → Slide 6 (not Austin/SF, fleet is staging) → Slide 7 (business competition) are three independent takes on the same threat, not a chain. Each closes its own thought; none depends on the one before it.; Slide 6 re-announces the cover premise. 'Not Austin. Not San Francisco.' + 'showed "
+ },
+ {
+  "t": "2026-08-31T20:47:21Z",
+  "gate": "B",
+  "subject": "<em>6 WEBSITES THAT TURN</em> A QUICK VISIT INTO HOURS",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS IMAGE LAW: The image is decoration — a phone screen showing an abstract 'INFINITE SCROLL' loading circle. It proves nothing about 6 specific websites. The thumb test fails: a stranger at feed size cannot guess the story. IMAGE LAW requires proof or a staged scene of the story, never a conceptual metaphor. The cover needs an image that visually anchors one of the actual websites ("
  }
 ]
