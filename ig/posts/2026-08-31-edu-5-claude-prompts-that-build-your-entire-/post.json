@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 PROMPTS THAT GIVE EVERY NEW HIRE A <em>30-DAY PLAN BEFORE THEY START</em>",
+   "kicker": "WHAT A CONSULTANT CHARGES $3,000 FOR",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-08-31-edu-5-claude-prompts-that-build-your-entire-/gen-0.jpg",
+   "image_prompt": "Dario Amodei in khaki drill sergeant uniform thrusting a large sheet marked '30-DAY PLAN'; silhouetted recruits stand at attention on sunlit parade ground behind; Claude logo blazes on amber banner; documentary photograph."
+  },
+  {
+   "type": "content",
+   "headline": "1) BUILD A <em>30-DAY TRAINING PLAN</em> FOR ANY ROLE",
+   "hsize": 108,
+   "body": "A business consultant charges <b>$2,500 to $5,000</b> to pull your process out and structure it.\n\nThis prompt does the same thing in under 5 minutes.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) TURN YOUR OWN PROCESS INTO <em>A STEP-BY-STEP SOP</em>",
+   "hsize": 100,
+   "body": "Every time you hire someone, you spend <b>3 to 5 hours</b> re-explaining the same things.\n\nA written SOP stops that permanently.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EVERY NEW HIRE COSTS $4,700",
+   "hsize": 84,
+   "layout": "break",
+   "body": "That is the <b>SHRM national average</b> for cost per hire. Most of it is time, not cash, recruiting, handholding, and mistakes on a job nobody documented.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD A QUIZ THAT <em>CATCHES GAPS BEFORE WEEK TWO</em>",
+   "hsize": 100,
+   "body": "The US Department of Labor puts the average bad hire at <b>30% of their first-year salary</b>.\n\nMost of that damage happens in the first two weeks.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) WRITE THE <em>WHO TO ASK FOR WHAT</em> GUIDE",
+   "hsize": 108,
+   "body": "New hires spend their first two weeks not knowing who to interrupt.\n\nYou end up answering <b>the same questions</b> on repeat every time someone new joins.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) CREATE A WELCOME PACKET <em>THEY READ BEFORE DAY ONE</em>",
+   "hsize": 100,
+   "body": "Nearly <b>1 in 3 new hires</b> quit within 90 days.\n\nThe most common reason: no one made expectations clear.\n\nMost businesses hand people a Wi-Fi password and a handshake.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 5 TRAINING PROMPTS",
+   "hsize": 110,
+   "body": "30-day plan for any role\nSOPs from your own process\nWeek-one quiz that catches gaps\nWho-to-ask team guide\nDay-one welcome packet\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through 5 Claude prompts that build your entire new-hire training program tonight. \ud83d\uddc2\ufe0f Most owners have nothing written down. These fix that.\n\n1) 30-day training plan for any role,\n2) step-by-step SOPs from your own head,\n3) week-one quiz that catches gaps before they set,\n4) who-to-ask guide that stops repeat questions,\n5) day-one welcome packet they read alone\n\nAnthropic cut rates 17% today. OpenAI reset Codex and ChatGPT Work to last 10 to 50% longer. SHRM puts the average cost per hire at $4,700, most of it in training time. These prompts extract your whole process in one evening. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: SHRM, US Department of Labor, Jobvite, Anthropic, OpenAI\n\n#aitools #businessowner #artificialintelligence #claude #productivity",
+ "pinned_comment": "Which one are you running first? The SOP prompt on slide 3 is the sleeper: paste in how you do anything and Claude writes the whole step-by-step guide in under 10 minutes.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 CLAUDE PROMPTS THAT BUILD YOUR <em>ENTIRE TRAINING PROGRAM TONIGHT</em>",
+   "YOUR BUSINESS HAS <em>ZERO TRAINING MATERIALS.</em> 5 PROMPTS FIX THAT FREE.",
+   "5 PROMPTS THAT PULL YOUR PROCESS <em>OUT OF YOUR HEAD</em> TONIGHT"
+  ],
+  "scores": [
+   7,
+   5,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] hits with visceral, relatable language ('pull your process out of your head') that makes you feel *seen*, while [0] oversells with 'ENTIRE PROGRAM TONIGHT' (feels like clickbait BS you'd swipe past) and [1] assumes a problem you might not have."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT PULL YOUR PROCESS <em>OUT OF YOUR HEAD</em> TONIGHT",
+   "5 AI PROMPTS THAT BUILD YOUR ONBOARDING SYSTEM <em>BETTER THAN MOST HR DEPARTMENTS</em>",
+   "5 PROMPTS THAT GIVE EVERY NEW HIRE A <em>30-DAY PLAN BEFORE THEY START</em>"
+  ],
+  "scores": [
+   5,
+   3,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] hooks you with the 'before they start' detail so you want to know how that works. [1] screams corporate jargon and [0] hides behind vague language."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u2014 generated unknown face on the cover. The military commander is an unrecognizable generated person. Doctrine is explicit: 'Never a generated unknown face.' Replace the cover with a no-face layout (oversized type, '30-DAY PLAN' document graphic, Claude brand mark) or a recognizable famous face with a role in the story. The military metaphor can survive without the face.; COVER CONTRACT /",
+ "topic_source": "news-anchored"
+}
