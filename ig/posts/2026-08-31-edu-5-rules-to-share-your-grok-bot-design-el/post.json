@@ -1,0 +1,85 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>5 RULES FOR SHARING\nYOUR GROK BOT</em>",
+   "kicker": "AND HOW TO USE SOMEONE ELSE'S",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "hook_candidates": [
+    "<em>5 RULES FOR SHARING YOUR GROK BOT</em> AND USING SOMEONE ELSE'S",
+    "ELON MUSK EXPLAINED <em>HOW TO SHARE YOUR GROK BOT DESIGN</em> IN 5 STEPS",
+    "<em>5 GROK BOT SHARING RULES</em> MOST PEOPLE STILL DON'T KNOW",
+    "YOUR GROK BOT REACHES ANYONE IN ONE LINK. <em>HERE ARE THE 5 RULES.</em>",
+    "ELON'S <em>5 RULES FOR SHARING YOUR GROK BOT</em> WITH THE WHOLE WORLD"
+   ],
+   "media": "posts/2026-08-31-edu-5-rules-to-share-your-grok-bot-design-el/gen-0.jpg",
+   "image_prompt": "Elon Musk waist-up, right arm thrust forward holding a glowing phone toward camera, ecstatic wide grin eyes alight with delight; blue share-chain icon glows on screen; company logo exactly as in the reference image as a huge white neon sign on a vivid cobalt wall behind him. Documentary news photo, 35mm, film grain. Accent: electric blue against cobalt."
+  },
+  {
+   "type": "content",
+   "headline": "<em>ONE LINK PUTS YOUR ENTIRE BOT IN ANYONE'S HANDS</em>",
+   "hsize": 100,
+   "body": "A business owner built a Grok Bot that answered every FAQ her team asked daily. She shared <b>one link</b>.\n\nAll <b>12 team members</b> ran the same trained agent within the hour, no setup needed.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>FIND YOUR SHARE LINK IN THE THREE-DOT MENU</em>",
+   "hsize": 100,
+   "body": "<b>Open Grok on X</b> \u2192 tap your Bot's profile \u2192 tap the <b>three-dot menu</b> \u2192 select <b>\"Share Bot Design\"</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>KNOW WHAT RECIPIENTS CAN AND CANNOT DO</em>",
+   "hsize": 104,
+   "body": "One agency shared their client-intake bot with <b>50 clients in a single day</b>. None could alter the agent's training.\n\nYour <b>persona, system prompt, and rules</b> stay locked to you alone.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "SHARE IT.\nSTILL OWN IT.",
+   "hsize": 80,
+   "body": "The creator is always the owner. Update your bot after sharing and every existing link reflects the new version. Delete it and every link goes dead. You never lose the keys",
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>UPDATE OR DELETE YOUR BOT ANYTIME AFTER SHARING</em>",
+   "hsize": 96,
+   "body": "A freelancer updated her intake bot's tone mid-month. Every person who already had the link got the <b>new version instantly</b>, no resend needed.\n\nDelete the bot and <b>all share links die at once</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FOLLOW THESE RULES WHEN YOU USE SOMEONE ELSE'S BOT</em>",
+   "hsize": 96,
+   "body": "When you open a shared bot, you will not see the full instructions, just the behavior they built.\n\nDo not extract their prompt or clone their design. <b>X's terms cover it</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>NEVER SHARE A BOT BUILT FOR THESE THINGS</em>",
+   "hsize": 104,
+   "body": "X removes bots built to <b>impersonate real people</b>, generate spam, or break platform rules.\n\nWhen a bot gets pulled, every share link dies at once, one violation erases your entire distribution.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: 5 GROK BOT SHARING RULES</em>",
+   "hsize": 100,
+   "body": "1) Share link: three-dot menu\n2) Recipients cannot edit your bot\n3) Update or delete, all links change\n4) Don't clone another creator's design\n5) No spam bots, X kills every link",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5 rules before you share your first Grok Bot with anyone. \ud83e\udd16\n\nThe second slide on how one link puts your trained bot in an entire team's hands instantly, Rule 1 where the share link actually lives inside your bot's menu, Rule 2 on what recipients can and cannot touch once they have the link, the control break showing you keep full ownership even after sharing, Rule 3 on how updates and deletions hit every existing link in real time, Rule 4 on how to use someone else's bot without violating their design, Rule 5 on the bot types X removes along with every share link they ever generated\n\nGrok Bots are the first AI agents most people will share with a team or hand to customers with no code at all. The rules around sharing decide whether your bot reaches hundreds of people or gets pulled in the first week. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: elonmusk\n\n#GrokBot #Grok #AI #ArtificialIntelligence #AITools",
+ "pinned_comment": "Which rule caught you off guard? Rule 2 (nobody can edit your design once shared) or Rule 3 (update after sharing and every link changes instantly) surprises most people. Drop it below.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "editor_override": "IMAGE LAW / CAST TRUTH violation: The cover shows what is clearly Elon Musk holding a phone with a share icon in front of a neon X logo. Musk has no role in this story \u2014 he is not mentioned in any slide, no action is attributed to him, and no quote or decision of his drives the content. The post is a generic how-to guide about the Grok Bot sharing UI. Owning the platform does not constitute 'a rol"
+}
