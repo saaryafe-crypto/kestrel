@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "כנראה שאתה מפר עכשיו את <em>חמשת חוקי Grok Bot של אילון</em>",
+   "kicker": "ואיך לשתף את הבוט שלך",
+   "hsize": 70,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-31-edu-5-grok-bot-sharing-rules-elonmusk-viral-/gen-0-r.jpg",
+   "image_prompt": "Elon Musk waist-up, pointing at camera, stern 'caught you' expression, white X logo and five bold white numerals on bright minimal wall behind, documentary flash photo with high-key bright lighting."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>שלח את כל עיצוב הבוט שלך</em> בלינק אחד",
+   "hsize": 84,
+   "body": "לינק אחד נותן לכל אחד את כל הפרסונה של Grok Bot שלך, בלי שהוא צריך לעשות כלום מצידו.\n\nפתח את עורך Grok, לך להגדרות הבוט, מצא שיתוף, העתק את הלינק.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>שלוט על מי</em> בכלל רואה את הבוט שלך",
+   "hsize": 96,
+   "body": "בוט ציבורי מופיע בספרייה של Grok. בוט עם לינק בלבד נשאר מוסתר עד שאתה שולח את הלינק.\n\nבהגדרות הבוט, חפש חשיפה, בחר ציבורי או לינק בלבד.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>הבוט שלך חייב להגיד</em> שהוא AI כשישאלו",
+   "hsize": 84,
+   "body": "להסתיר שהבוט שלך הוא AI זו הפרה של המדיניות.\n\nהוסף לסיסטם פרומפט שלך: \"If asked, say you are an AI built on Grok. Never deny it.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>לעולם אל תגרום לו לטעון</em> שהוא אדם אמיתי",
+   "hsize": 84,
+   "body": "השראה מאדם אמיתי? בסדר. לטעון שהוא אותו אדם? זה שובר את כללי ההתחזות של X.\n\nהוסף לפרומפט שלך: \"Never claim to be a specific real person. Say you are an AI persona.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) הבוט שלך <em>מרוקן לך את המכסה היומית</em> מהר",
+   "hsize": 92,
+   "body": "כל שיחה עם הבוט שלך אוכלת לך מהמכסה האישית ב-Grok. בוט שהתפשט יגיע לתקרה תוך שעות.\n\n<b>חינמי:</b> מכסה יומית מוגבלת, משותפת עם הבוט שלך\n<b>X Premium:</b> מכסה גבוהה יותר, עדיין משותפת",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה:</em> כל חמשת חוקי Grok Bot",
+   "hsize": 108,
+   "body": "1) שתף את העיצוב בלינק אחד\n2) קבע חשיפה ציבורית או לינק בלבד\n3) הבוט חייב לגלות שהוא AI\n4) לעולם אל תתחזה לאדם אמיתי\n5) דע את מגבלות המכסה שלך\n\nחדשות AI יומיות",
+   "media": null
+  }
+ ],
+ "caption": "תעבור על כל חמשת הכללים לפני שאתה משתף את Grok Bot שלך עם מישהו 🤖\n\n1) שתף את כל העיצוב שלך בלינק אחד,\n2) קבע חשיפה ציבורית או לינק בלבד,\n3) הבוט חייב להודות שהוא AI כשישאלו,\n4) לעולם אל תגרום לו לטעון שהוא אדם אמיתי,\n5) הבוט שלך שואב מהמכסה האישית שלך ב-Grok, ובוט שהתפשט יכול לנעול לך את החשבון תוך לילה.\n\nGrok Bots עברו מנישה של מפתחים למשהו שכל אחד ב-X יכול לבנות בצהריים. אילון פרסם את כללי השיתוף והמגבלות בת'רד אחד. תפספס אחד, תאבד גישה לחשבון בזמן שהבוט שלך ממשיך לרוץ. מנהל עסק? שלח לנו DM עם \"AI\" ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: elonmusk\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#AItools #GrokAI #XAI #AIautomation #artificialintelligence",
+ "pinned_comment": "איזה חוק הכי הפתיע אותך? רוב היוצרים מדלגים לגמרי על כלל 3 ובונים בוטים שמתחמקים מהשאלה כשמישהו שואל ישירות.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 GROK BOT RULES</em> NOBODY READS UNTIL IT'S TOO LATE",
+   "5 GROK BOT RULES <em>ELON JUST POSTED</em>",
+   "ELON POSTED <em>5 GROK BOT RULES</em> MOST CREATORS SKIP",
+   "<em>5 RULES</em> EVERY GROK BOT CREATOR NEEDS BEFORE SHARING",
+   "<em>5 GROK BOT RULES</em> NOBODY WARNS NEW CREATORS ABOUT"
+  ],
+  "scores": [
+   4,
+   6,
+   8,
+   5,
+   7
+  ],
+  "winner": 2,
+  "why": "Elon name + 'MOST CREATORS SKIP' hits your FOMO in 1.5 seconds—you immediately think 'what am I missing?' [4]'s 'nobody warns' angle intrigues you but doesn't explain why it's trustworthy."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "ELON POSTED <em>5 GROK BOT RULES</em> MOST CREATORS SKIP",
+   "YOU'RE PROBABLY BREAKING <em>ELON'S 5 GROK BOT RULES</em> RIGHT NOW"
+  ],
+  "scores": [
+   5,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] nails personal guilt and urgency with 'BREAKING RIGHT NOW,' stopping a lazy scroller cold. [0] reads as standard tips-and-tricks content that thousands of pages post daily."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "Cover image displays '750,000' as a dominant visual element — this number appears nowhere in any slide, the caption, or the hook. IMAGE LAW requires the image to be PROOF of the story; TRUTH LAW bans faking a number. A prominent unexplained figure on the cover with zero grounding in the post's content fails both laws simultaneously. Fix: regenerate the cover without the 750,000 figure (or, if the ",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
