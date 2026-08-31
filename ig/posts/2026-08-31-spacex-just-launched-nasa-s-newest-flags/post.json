@@ -1,0 +1,125 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SPACEX JUST LAUNCHED A NASA TELESCOPE TO DEEP SPACE WITH <em>1,350,144 REAL PEOPLE'S NAMES</em> PHYSICALLY ABOARD",
+   "kicker": "BOTH BOOSTERS LANDED SIDE BY SIDE",
+   "hsize": 62,
+   "media": "posts/2026-08-31-spacex-just-launched-nasa-s-newest-flags/gen-0.jpg",
+   "image_prompt": "Falcon Heavy rocket at ignition, three booster cores firing 27 engines simultaneously, a floor-to-ceiling eruption of blinding orange fire and billowing white steam at the launch pad base, the SpaceX logo exactly as in the reference image on the booster flanks in white, low-angle dramatic upshot with the rocket ascending into the upper frame, orange-and-cobalt dawn sky blazing behind, accent: signal orange fire against deep cobalt blue, documentary news photo, 35mm, harsh on-camera flash, slight film grain",
+   "logos": [
+    "spacex"
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "NASA FLAGSHIP MISSIONS <em>RUN YEARS LATE AND BILLIONS OVER BUDGET</em>",
+   "hsize": 88,
+   "body": "That's been the rule for decades.\n\nRoman was supposed to launch in 2027.\n\nIt launched nine months early, on budget, and the thing at its heart is even stranger",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>1,350,144 NAMES</em> ARE ALREADY HURTLING THROUGH SPACE",
+   "hsize": 100,
+   "body": "If you ever submitted your name to a NASA campaign, you're on it.\n\nEvery image Roman takes will eventually be free to download.\n\nBut the mirror itself has a darker origin",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "SPY SATELLITE MIRROR",
+   "hsize": 120,
+   "body": "Built for U.S. intelligence agencies, now pointed at the stars",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "HARDWARE BUILT <em>TO WATCH PEOPLE FROM SPACE</em> NOW PHOTOGRAPHS THE UNIVERSE FOR FREE",
+   "hsize": 78,
+   "body": "NASA repurposed a spy mirror nobody was using.\n\nSame size as Hubble's, a quarter of the weight.\n\nThen came the landing nobody saw coming",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "BOTH BOOSTERS FLEW BACK AND LANDED <em>AT THE EXACT SAME MOMENT</em>",
+   "hsize": 80,
+   "body": "As Roman drifted away, both side boosters peeled off and touched down in perfect sync.\n\nIf you watched, you saw it happen.\n\nSpaceX: 13 Falcon Heavies, 13 clean successes. Every photo is next",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ALL OF ROMAN'S DATA <em>DROPS PUBLIC AFTER EVERY OBSERVATION</em>",
+   "hsize": 82,
+   "body": "In 5 years Roman covers 50 times the sky Hubble mapped in 30 years.\n\nEvery image is free.\n\nA mirror built to keep secrets from you now sends everything back to you",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: SPACEX LAUNCHED <em>A SPY MIRROR</em> INTO DEEP SPACE",
+   "hsize": 58,
+   "body": "Roman launched nine months early\nMirror built for U.S. spy satellites\n<b>1,350,144</b> names aboard, heading to L2\nBoth boosters landed at exact same moment\n\nSend this to the friend who submitted their name",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. SpaceX just launched NASA's Roman telescope nine months early, with a spy mirror aboard and 1.35 million names heading to deep space. \ud83d\udd2d\n\nRoman launched on Falcon Heavy Aug 30, nine months ahead of schedule and on budget, mirror originally built for U.S. intelligence agencies but the same size as Hubble's at less than a quarter of the weight, 1,350,144 names aboard heading to L2, each image covering 100 times more sky than Hubble, both side boosters landing simultaneously for SpaceX's 13th straight Falcon Heavy success, and all survey data dropping public after processing.\n\nNASA just proved flagship missions don't have to run late. Spy satellite hardware became the most powerful public astronomy tool ever launched. Five years, 50 times Hubble's sky coverage, all free.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: NASA, SpaceX\n\n#SpaceX #NASA #RomanSpaceTelescope #space #AI",
+ "pinned_comment": "The center booster wasn't recovered on purpose. Roman was heavy enough that SpaceX needed full thrust from all three cores, so the center was planned to be expended from the start.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX JUST LAUNCHED A <em>300-MEGAPIXEL SPACE TELESCOPE</em> THAT CAPTURES 100 TIMES MORE SKY IN ONE SHOT THAN HUBBLE",
+   "SPACEX JUST LAUNCHED A NASA TELESCOPE TO DEEP SPACE WITH <em>1,350,144 REAL PEOPLE'S NAMES</em> PHYSICALLY ABOARD",
+   "SPACEX JUST LAUNCHED NASA'S NEWEST TELESCOPE TO DEEP SPACE, <em>AND THE MIRROR AT ITS HEART WAS ORIGINALLY BUILT FOR U.S. SPY SATELLITES</em>",
+   "SPACEX JUST LAUNCHED NASA'S NEW SPACE TELESCOPE <em>NINE MONTHS AHEAD OF SCHEDULE</em>, WHICH FOR A NASA PROJECT BASICALLY NEVER HAPPENS",
+   "SPACEX JUST LAUNCHED A TELESCOPE THAT WILL MAP <em>50 TIMES MORE SKY IN 5 YEARS</em> THAN HUBBLE DID IN 30",
+   "<em>HARDWARE BUILT TO SPY ON PEOPLE FROM SPACE</em> IS NOW HEADING TO DEEP SPACE TO PHOTOGRAPH THE UNIVERSE FOR FREE"
+  ],
+  "scores": [
+   5,
+   9,
+   7,
+   5,
+   7,
+   8
+  ],
+  "winner": 1,
+  "why": "[1]'s mysterious specific fact (1.3M names aboard) creates a question you NEED answered, while [5]'s clever redemption arc (spy hardware \u2192 free science) feels complete without reading more."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX JUST LAUNCHED A NASA TELESCOPE BUILT FROM <em>U.S. SPY SATELLITE HARDWARE</em> \u2014 AND EVERY IMAGE IT TAKES DROPS FREE TO THE PUBLIC",
+   "SPACEX JUST LAUNCHED A NASA TELESCOPE TO DEEP SPACE WITH <em>1,350,144 REAL PEOPLE'S NAMES</em> PHYSICALLY ABOARD",
+   "SPACEX JUST LAUNCHED A NASA FLAGSHIP TELESCOPE <em>NINE MONTHS AHEAD OF SCHEDULE</em>, WITH A MIRROR THE GOVERNMENT BUILT TO SPY ON PEOPLE FROM ORBIT"
+  ],
+  "scores": [
+   8,
+   9,
+   6
+  ],
+  "winner": 1,
+  "why": "The 1.35 million names detail in [1] is a pure 'wait WHAT' gut-punch that makes you stop scrolling and wonder if yours is aboard. [0] ties hard with the spy-hardware angle but loses momentum by also pushing free public data as a secondary hook."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SpaceX / NASA Roman Space Telescope",
+  "actor_known": true,
+  "anchor": "SpaceX",
+  "specifics": [
+   "The mirror was originally spy satellite hardware built for U.S. intelligence",
+   "1,350,144 people's names are physically aboard, heading to deep space",
+   "Launched nine months ahead of schedule \u2014 essentially unheard of for NASA",
+   "All science data will be made public after processing \u2014 free for everyone",
+   "Both side boosters landed simultaneously; center booster was not recovered"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "SpaceX just launched NASA\u2019s newest flagship space telescope. What makes Roman special: \u2022 Its mirror came from hardware once built for U.S. intelligence \u2022 Same mirror size as Hubble, but less than 1/4 the weight \u2022 A huge ",
+  "link": "https://x.com/cb_doge/status/2094028432682205200",
+  "judge_interest": 5,
+  "scout_score": 76.2
+ },
+ "gate_a_relaxed": true
+}
