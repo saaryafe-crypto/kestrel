@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOU'RE PROBABLY BREAKING <em>ELON'S 5 GROK BOT RULES</em> RIGHT NOW",
+   "kicker": "PLUS HOW TO SHARE YOUR DESIGN",
+   "hsize": 70,
+   "face": "Elon Musk",
+   "media": "posts/2026-08-31-edu-5-grok-bot-sharing-rules-elonmusk-viral-/gen-0-r.jpg",
+   "image_prompt": "Elon Musk waist-up, pointing at camera, stern 'caught you' expression, white X logo and five bold white numerals on bright minimal wall behind, documentary flash photo with high-key bright lighting."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>SEND YOUR WHOLE BOT DESIGN</em> IN ONE LINK",
+   "hsize": 84,
+   "body": "ONE LINK HANDS ANYONE YOUR FULL GROK BOT PERSONA WITH NO SETUP ON THEIR END.\n\nOpen Grok editor, go to bot Settings, find Share, copy the link.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>CONTROL WHO</em> ACTUALLY GETS YOUR DESIGN",
+   "hsize": 96,
+   "body": "A PUBLIC BOT SHOWS UP IN GROK'S DIRECTORY. A LINK-ONLY BOT STAYS INVISIBLE UNTIL YOU SHARE THE URL.\n\nIn bot settings, find Visibility, set Public or Link-only.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>YOUR BOT MUST SAY</em> IT'S AN AI WHEN ASKED",
+   "hsize": 84,
+   "body": "HIDING YOUR BOT'S AI IDENTITY IS A POLICY VIOLATION.\n\nAdd this to your system prompt: \"If asked, say you are an AI built on Grok. Never deny it.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>NEVER MAKE IT CLAIM</em> TO BE A REAL PERSON",
+   "hsize": 84,
+   "body": "INSPIRED BY A REAL PERSON IS FINE. CLAIMING TO BE THAT PERSON BREAKS X'S IMPERSONATION RULES.\n\nAdd to your prompt: \"Never claim to be a specific real person. Say you are an AI persona.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) YOUR BOT <em>DRAINS YOUR DAILY QUOTA</em> FAST",
+   "hsize": 92,
+   "body": "EVERY CONVERSATION WITH YOUR BOT DRAWS FROM YOUR PERSONAL GROK LIMIT. A VIRAL BOT WILL HIT THE WALL IN HOURS.\n\n<b>Free:</b> tight daily cap shared with your bot\n<b>X Premium:</b> higher cap, still shared",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> ALL 5 GROK BOT RULES",
+   "hsize": 108,
+   "body": "1) Share your design in one link\n2) Set public or link-only visibility\n3) Bot must reveal it's an AI\n4) Never impersonate a real person\n5) Know your rate limits\n\nDaily AI news",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5 before you share your Grok Bot with anyone \ud83e\udd16\n\n1) Share your full design in one link,\n2) set public or link-only visibility,\n3) your bot must admit it's an AI when asked,\n4) never make it claim to be a real person,\n5) your bot draws from your personal Grok quota and a viral bot can lock your account overnight.\n\nGrok Bots went from builder niche to something anyone on X can ship in an afternoon. Elon posted the sharing rules and limits in one thread. Miss one and you lose account access while your bot keeps running. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: elonmusk\n\n#AItools #GrokAI #XAI #AIautomation #artificialintelligence",
+ "pinned_comment": "Which rule surprised you most? Most creators skip rule 3 entirely and build bots that dodge the AI question when someone asks directly.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 GROK BOT RULES</em> NOBODY READS UNTIL IT'S TOO LATE",
+   "5 GROK BOT RULES <em>ELON JUST POSTED</em>",
+   "ELON POSTED <em>5 GROK BOT RULES</em> MOST CREATORS SKIP",
+   "<em>5 RULES</em> EVERY GROK BOT CREATOR NEEDS BEFORE SHARING",
+   "<em>5 GROK BOT RULES</em> NOBODY WARNS NEW CREATORS ABOUT"
+  ],
+  "scores": [
+   4,
+   6,
+   8,
+   5,
+   7
+  ],
+  "winner": 2,
+  "why": "Elon name + 'MOST CREATORS SKIP' hits your FOMO in 1.5 seconds\u2014you immediately think 'what am I missing?' [4]'s 'nobody warns' angle intrigues you but doesn't explain why it's trustworthy."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "ELON POSTED <em>5 GROK BOT RULES</em> MOST CREATORS SKIP",
+   "YOU'RE PROBABLY BREAKING <em>ELON'S 5 GROK BOT RULES</em> RIGHT NOW"
+  ],
+  "scores": [
+   5,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] nails personal guilt and urgency with 'BREAKING RIGHT NOW,' stopping a lazy scroller cold. [0] reads as standard tips-and-tricks content that thousands of pages post daily."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "Cover image displays '750,000' as a dominant visual element \u2014 this number appears nowhere in any slide, the caption, or the hook. IMAGE LAW requires the image to be PROOF of the story; TRUTH LAW bans faking a number. A prominent unexplained figure on the cover with zero grounding in the post's content fails both laws simultaneously. Fix: regenerate the cover without the 750,000 figure (or, if the "
+}
