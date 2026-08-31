@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T22:10:30.097901+00:00",
+ "updated": "2026-08-31T00:11:38.084242+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -308,6 +308,25 @@
     "8\ufe0f\u20e3 Bull vs Bear Debate Create a debate between two analysts about [TICKER]. One analyst is bullish. One analyst is bearish. Each must present data-backed arguments. End with a balanced conclusion."
    ],
    "born": 1787564007.474675
+  },
+  {
+   "id": "2094129094673735922",
+   "title": "How to share your Grok @Bot design with others",
+   "sub": "elonmusk",
+   "where": "@elonmusk on X",
+   "unit": "likes",
+   "selftext": "How to share your Grok @Bot design with others",
+   "permalink": "https://x.com/elonmusk/status/2094129094673735922",
+   "outlink": null,
+   "score": 3144,
+   "comments_n": 490,
+   "views": 2376205,
+   "age_h": 5.8,
+   "vph": 544.7,
+   "image": null,
+   "video": null,
+   "guide": true,
+   "born": 1788114218.084242
   },
   {
    "id": "2088829945749311925",
