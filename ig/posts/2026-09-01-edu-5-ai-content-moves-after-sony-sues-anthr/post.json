@@ -1,0 +1,102 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 AI MOVES THAT TURN <em>ONE CUSTOMER REVIEW INTO 10 POSTS</em>",
+   "kicker": "$150K PER SONG. YOUR BUSINESS IS FINE.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "faces/dario-amodei-3.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>TURN YOUR OWN WORDS</em> INTO A MONTH OF CONTENT",
+   "hsize": 100,
+   "body": "Social media managers charge $1,200 to $2,500 a month to write what this prompt writes in 4 minutes.\n\nPaste your customer Q&A; Claude returns 30 captions, 4 newsletters, and a FAQ page.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>REBUILD YOUR OLD CONTENT</em> INTO 6 NEW FORMATS",
+   "hsize": 100,
+   "body": "Each old email, article, or post you have is 6 pieces of content you haven't written yet.\n\nBusinesses pay $150 an hour to extract them; this prompt does it in 90 seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) CLONE YOUR BRAND VOICE <em>SO AI ALWAYS SOUNDS LIKE YOU</em>",
+   "hsize": 96,
+   "body": "Agencies charge $5,000 to build a brand voice guide in 20 minutes.\n\nThe prompt: \"Here are 5 things I've written. Analyze my style, tone, and habits. Use only what I give you.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$150,000 PER SONG.",
+   "hsize": 80,
+   "body": "Sony is suing **Anthropic** for **$150,000** per song, not you. The lawsuit covers songs used to **train** the AI before you ever opened it. When Claude writes your content, that **output** is yours.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>PULL 10 POSTS FROM ONE CUSTOMER REVIEW</em>",
+   "hsize": 100,
+   "body": "Your Google reviews contain the exact words customers use to describe why they chose you.\n\nThat language converts at 2 to 3 times anything you'd write yourself.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD A 30-DAY CONTENT CALENDAR <em>IN 8 MINUTES</em>",
+   "hsize": 100,
+   "body": "A social media manager costs $1,400 to $2,500 a month to match your topics to a posting schedule.\n\nThis prompt does the same job and you rerun it every month.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 5 AI CONTENT MOVES</em>",
+   "body": "Words into a month of content\nOld content into 6 new formats\nClone your brand voice, 20 minutes\n10 posts from one customer review\n30-day calendar, 8 minutes\n\nDaily AI news + real skills.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all\n5. Sony's lawsuit changed what Anthropic trains on. Not what Claude builds for your business. \ud83e\uddf5\n\n1) Turn your own answers into 30 captions, 4 newsletters, and a FAQ page with one prompt,\n2) Rebuild old articles into 6 content formats in 90 seconds,\n3) Clone your brand voice into Claude Projects so every conversation writes like you,\n4) Pull 10 posts from your customer reviews using their exact language,\n5) Build a 30-day content calendar with topics, hooks, and captions in 8 minutes.\n\nSony's lawsuit is about songs used to train Anthropic's model. Not what you ask Claude to create. Every move here starts from something you already own: your words, your reviews, your questions. AI multiplies what's yours.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Yahoo Finance, Anthropic\n\n#AItools #contentmarketing #AIforBusiness #claudeAI #smallbusiness",
+ "pinned_comment": "Which one are you running tonight? The customer review prompt (slide 6) is the most slept-on. Five minutes and Claude hands you content in your customers' own words, which converts at 2 to 3 times anything you'd write yourself.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 AI CONTENT MOVES <em>YOUR BUSINESS OWNS OUTRIGHT</em>",
+   "5 AI CONTENT MOVES <em>SONY'S $150K LAWSUIT DIDN'T CHANGE</em>",
+   "5 AI CONTENT MOVES <em>SONY'S LAWSUIT CAN'T TOUCH</em>",
+   "5 WAYS AI WRITES CONTENT <em>FROM WHAT YOU ALREADY OWN</em>"
+  ],
+  "scores": [
+   2,
+   9,
+   7,
+   3
+  ],
+  "winner": 1,
+  "why": "The $150K detail makes [1] feel like real news you'd want to read, not a mystery to solve. [2] has the legal hook but stays cryptic, so fewer people stop scrolling."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "MOST CREATORS PAY AGENCIES THOUSANDS. <em>THESE 5 AI MOVES COST 8 MINUTES</em>",
+   "5 AI MOVES THAT BUILD <em>30 DAYS OF CONTENT IN 8 MINUTES</em>",
+   "5 AI MOVES THAT TURN <em>ONE CUSTOMER REVIEW INTO 10 POSTS</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "One review into 10 posts is concrete and weird enough to make you stop and wonder HOW it works. Thirty days in 8 minutes is the same generic time-saving hype you see everywhere on creator feeds."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW / CAST TRUTH: The cover face is Dario Amodei (Anthropic CEO), but he has no personal role in this post. Anthropic is named once in slide 4 as a lawsuit defendant, but Dario is never mentioned by name and is not the protagonist of any slide. Using his face as a visual shorthand for 'AI company' is celebrity-as-decoration \u2014 exactly what CAST TRUTH prohibits. Fix: swap to a cover that shows",
+ "topic_source": "news-anchored"
+}
