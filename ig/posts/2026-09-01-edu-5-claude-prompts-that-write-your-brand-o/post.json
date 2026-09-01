@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI WRITES YOUR BRAND STORY <em>IN 5 MINUTES FLAT</em>",
+   "kicker": "BEFORE THEY EVER MEET YOU",
+   "hsize": 68,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-01-edu-5-claude-prompts-that-write-your-brand-o/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei chest-up at craftsman's workbench with fountain pen, open leather journal, expression of focused pride, Claude logo glowing warm-orange on bright wood wall, sharp documentary 35mm photo, no legible text."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) WRITE YOUR FOUNDING MYTH</em> IN 5 MINUTES",
+   "hsize": 96,
+   "body": "At 13, Louis Vuitton walked <b>400 kilometers</b> across France with nothing. It took him <b>two years</b> to reach Paris.\n\nCustomers buy the story first. Yours is already there.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) WRITE THE WORDS <em>YOUR BEST CLIENT SAYS ABOUT YOU</em>",
+   "hsize": 82,
+   "body": "Most 'About Us' pages are written from the inside looking out.\n\nFlip the perspective and you turn a page visit into a call booked.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "pattern_break": true,
+   "headline": "<em>400KM</em>",
+   "hsize": 150,
+   "body": "FROM ONE STORY.\n\nLouis Vuitton walked that far at 13 with nothing but intention to learn a craft. He built the most recognized fashion brand in the world. Your story starts closer than that",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) NAME THE ENEMY</em> YOUR BRAND FIGHTS",
+   "hsize": 110,
+   "body": "\u2022 Nike is against quitting.\n\u2022 Apple is against conformity.\n\u2022 Patagonia is against fast fashion.\n\nEvery brand that lasts names what it fights.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) WRITE YOUR POSITIONING <em>IN ONE SENTENCE</em>",
+   "hsize": 110,
+   "body": "A positioning statement tells the right person they found the right place in under 10 seconds.\n\nThe wrong person keeps scrolling. Both outcomes save you time.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE THE VISION THAT <em>KEEPS CLIENTS FOR DECADES</em>",
+   "hsize": 90,
+   "body": "Louis Vuitton's brand survived <b>170 years</b> because the vision was bigger than luggage.\n\nTwo sentences is the gap between a one-time client and someone who stays for good.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: 5 PROMPTS THAT WRITE THE STORY CLIENTS PAY FOR</em>",
+   "hsize": 88,
+   "body": "1) Write your founding myth\n2) Write what your best client says\n3) Name the enemy you fight\n4) Write your positioning\n5) Write the vision\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 Claude prompts that write your entire brand story from scratch. \ud83d\udcd6\n\nWrite your founding myth, write what your best client says about you, name the enemy your brand fights, write your positioning in one sentence, write the vision that keeps clients for decades.\n\nLouis Vuitton walked 400 kilometers at 13 years old, reached Paris two years later, and built the most recognized fashion brand in history from one story about craft and sacrifice. Every business has a story worth that much. AI writes yours tonight.\nRunning a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Louis Vuitton brand history, Anthropic\n\n#AItools #brandstrategy #businessgrowth #claudeai #entrepreneur",
+ "pinned_comment": "Which prompt are you running first? Slide 3 hits different once you realize every brand you already trust has named an enemy they fight every single day.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 AI PROMPTS THAT <em>WRITE YOUR BRAND STORY</em>",
+   "5 AI PROMPTS THAT <em>WRITE THE STORY CLIENTS PAY FOR</em>",
+   "AI WRITES YOUR BRAND STORY <em>IN 5 MINUTES FLAT</em>"
+  ],
+  "scores": [
+   2,
+   3,
+   5
+  ],
+  "winner": 2,
+  "why": "The '5 minutes flat' time claim creates a quick pause\u2014you actually stop to think 'wait, really?' instead of recognizing it as a generic listicle. [0] and [1] are forgettable marketing jargon you scroll past in 0.5 seconds."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT WRITE THE BRAND STORY <em>MOST PEOPLE PAY AGENCIES FOR</em>",
+   "AI WRITES YOUR BRAND STORY <em>IN 5 MINUTES FLAT</em>"
+  ],
+  "scores": [
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "Candidate 1 hits with a complete value prop I grasp instantly\u2014AI writes your story in 5 minutes\u2014while Candidate 0 buries the payoff in a tease I'd have to click to understand. At 2am scrolling, you want the straight story, not the riddle."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW \u00a73 VIOLATION \u2014 cover carries a generated unknown face. The rule is explicit: 'Never a generated unknown face.' The Claude 'C' logo glowing in the background does not excuse the face; the face itself is banned. Fix: remove the person entirely and build the cover around the Claude brand mark on a styled background, or generate Louis Vuitton (a named historical figure in the post) as the su",
+ "topic_source": "news-anchored"
+}
