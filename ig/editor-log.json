@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-29T17:13:03Z",
-  "gate": "A",
-  "subject": "GLM-5.3 (max) outperforming GPT-5.6 (max) on the new Terminal-Bench 4.0 was not on my bingo card. 1) what?",
-  "verdict": "KILL",
-  "reason": "No substance: the source is one incomplete tweet (ends with '1) what?') with zero numbers, context, or real-world consequence — nothing exists to build slides from except padding."
- },
- {
   "t": "2026-08-29T17:13:12Z",
   "gate": "A",
   "subject": "The numbers behind the US-Venezuela oil deal: Venezuela has now confirmed that the agreement covers 65 billion barrels o",
@@ -2098,5 +2091,12 @@
   "subject": "THE 5 PROMPTS THAT STOP CLAUDE FROM <em>QUITTING HALFWAY THROUGH YOUR JOB</em>",
   "verdict": "REJECT",
   "reason": "IMAGE LAW / CAST TRUTH: The cover shows Dario Amodei (Anthropic CEO), a recognizable famous person who plays zero role in this post. The post teaches five prompting techniques — Dario does nothing, says nothing, and appears in no slide. Per doctrine: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT — a celebrity as decoration breaks image-head"
+ },
+ {
+  "t": "2026-09-01T17:39:50Z",
+  "gate": "A",
+  "subject": "Ye toh AI video hai, jabki ek toh sach mein Israel jaa kar naacha tha 😭",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: the post compares online AI content to a real-world action without naming actors, stating any real event, or showing a consequence; the source is one thin observation, not a story."
  }
 ]

@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמישה פרומפטים שיגרמו ל-Claude <em>לסיים את מה שהתחיל</em>",
+   "kicker": "Claude עוצר באמצע המשימה ומכריז שסיים",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "faces/dario-amodei.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) השורה האחת <em>ש-Claude לא מתעלם ממנה</em>",
+   "hsize": 100,
+   "body": "Claude עוצר משימות ארוכות באמצע ומכריז שסיים. אבל עם ההסכם הזה, הוא מתייחס אליו כחוק ברזל.\n\n\"העבודה שלך לא נגמרת עד שיש לי כל חלק במלואו. התחל עכשיו.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) תפרק את המשימה <em>לשלבים עם אישור</em>",
+   "hsize": 98,
+   "body": "שלב אחד בכל פעם, ו-Claude לא יסטה. השתמש בזה.\n\n\"השלם רק את הצעד הזה, ואז עצור וכתוב: 'הצעד הושלם. מוכן לצעד הבא?'\n\nצעד: [הדבק כאן משימת משנה אחת בדיוק]\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) איפוס Claude <em>בלי להתחיל מהתחלה</em>",
+   "hsize": 105,
+   "body": "שורה אחת, <b>15 שניות</b>. Claude ממשיך בדיוק מאיפה שעצר, בלי לאבד הקשר.\n\n\"עצרת לפני שסיימת. זאת התשובה האחרונה שלך: [הדבק כאן]. המשך מהנקודה המדויקת הזאת. אל תחזור על שום דבר.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) תן ל-Claude <em>תפקיד עם משקל</em>",
+   "hsize": 98,
+   "body": "כשאתה נותן ל-Claude תפקיד, הוא מתמודד עם חורים במשימה אחרת.\n\n\"אתה [תפקיד] בכיר. לקוח יבדוק את העבודה הזאת. המשימה: [המשימה]. אל תעצור לפני שסיימת. עשה זאת.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) הרץ את <em>לולאת הביקורת העצמית</em>",
+   "hsize": 110,
+   "body": "Claude מסמן משימות כסיימות גם כשחלקים חסרים. הרץ את זה אחרי כל תשובה ארוכה.\n\n\"בדוק את התשובה האחרונה שלך. סמן כל פריט: הושלם, חלקי, או לא בוצע. השלם את כל מה שחסר. אל תבקש רשות.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: <em>חמישה פרומפטים שמסיימים את העבודה</em>",
+   "hsize": 100,
+   "body": "1) הסכם ההשלמה\n2) שלבים עם אישור\n3) איפוס בלי להתחיל מהתחלה\n4) תפקיד עם משקל\n5) לולאת הביקורת העצמית",
+   "media": null
+  }
+ ],
+ "caption": "חמישה פרומפטים שאפשר להעתיק ולהדביק שמונעים מ-Claude לעצור באמצע, לחזור על עצמו, או לספק חצי עבודה ולהכריז שסיים 🔧\n\nהסכם ההשלמה שמגדיר מה זה 'סיום' לפני שהמשימה מתחילה. שיטת השלבים עם אישור שעוצרת כל שלב כדי ש-Claude לא יסטה. הפרומפט המדויק לאיפוס שממשיך מאמצע משימה בלי לאבד הקשר. הגדרת תפקיד עם משקל שמעלה את רמת המאמץ במשימות ארוכות. לולאת הביקורת העצמית שגורמת ל-Claude לבדוק ולהשלים את החורים שלו.\n\nפוסט עם 2.5 מיליון צפיות חשף בעיה אמיתית: Claude עוצר משימות ארוכות באמצע, ורוב האנשים פשוט שולחים שוב. הפתרון הוא בשורה הפותחת. חמישה הפרומפטים האלה נותנים ל-Claude הגדרה ברורה של מה זה 'סיום'. מנהל עסק? שלח לנו DM עם המילה 'AI' ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: Anthropic, X\n\nרוצה עוד? עקוב אחרי @ainews.israel\n\n#AI #Claude #Productivity #AIForBusiness #BusinessTips",
+ "pinned_comment": "מה תבדוק ראשון? לולאת הביקורת העצמית (שקופית 6) היא זו שרוב האנשים מדלגים עליה, והיא תופסת את רוב העבודה החסרה.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT STOP <em>CLAUDE QUITTING MID-TASK</em>",
+   "THE 5 TRICKS POWER USERS FOUND <em>WHEN CLAUDE WENT LAZY</em>"
+  ],
+  "scores": [
+   6,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] tells a discovery story ('power users found when Claude went lazy') that makes you curious; [0] is just a flat utility list. A personified, narrative hook beats a professional solution pitch for 2am engagement."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 CLAUDE FIXES <em>MOST USERS NEVER THINK TO TRY</em>",
+   "THE 5 TRICKS POWER USERS FOUND <em>WHEN CLAUDE WENT LAZY</em>",
+   "5 PROMPTS FOR WHEN CLAUDE <em>QUITS HALFWAY THROUGH YOUR JOB</em>",
+   "5 PROMPTS THAT MAKE CLAUDE <em>FINISH YOUR TASK FOR REAL</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] leads with the fix ('MAKE CLAUDE FINISH') while [2] just describes the pain—and 'FOR REAL' gives it friend energy, not marketing speak. Solution beats sympathy."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW / CAST TRUTH: The cover shows Dario Amodei (Anthropic CEO), a recognizable famous person who plays zero role in this post. The post teaches five prompting techniques — Dario does nothing, says nothing, and appears in no slide. Per doctrine: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT — a celebrity as decoration breaks image-head",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
