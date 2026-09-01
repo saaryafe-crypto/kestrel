@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR CLIENTS WILL WRITE YOUR CASE STUDIES FOR YOU. <em>5 PROMPTS TO MAKE IT HAPPEN.</em>",
+   "kicker": "MOST BUSINESSES HAVE ZERO OF THESE",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-01-edu-5-ai-case-study-and-testimonial-prompts-/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei chest-up, hands thrusting thick navy folder toward camera, triumphant grin. Tower of identical folders at bright stall. Claude logo glows above sign. Bright golden-hour amber light, minimal shadows, deep orange-cobalt. Documentary 35mm film."
+  },
+  {
+   "type": "content",
+   "headline": "1) TURN ONE CLIENT EMAIL\n<em>INTO A FULL CASE STUDY</em>",
+   "hsize": 105,
+   "body": "A copywriter charges <b>$500</b> to turn a client's words into a case study.\n\nThis prompt does it free from one email they already sent.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) TURN A 5-STAR REVIEW\n<em>INTO A FULL SALES STORY</em>",
+   "hsize": 108,
+   "body": "A five-star review is your customer selling for you, free, forever.\n\nMost businesses leave every one of them buried on Google.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) GET YOUR CLIENTS TO\n<em>WRITE THE CASE STUDY FOR YOU</em>",
+   "hsize": 100,
+   "body": "Your clients will sell for you if you make it easy.\n\nThis prompt writes <b>7</b> questions they answer in under <b>5 minutes</b>, and hand you every line you need.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "5 HOURS VS 60 SECONDS",
+   "hsize": 72,
+   "body": "How long writing one case study takes a human vs AI.\n\nMost businesses have never had a single one written",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD A CASE STUDY\n<em>FROM NUMBERS ALONE</em>",
+   "hsize": 110,
+   "body": "The numbers from your best projects are your strongest salespeople.\n\nBuried in a report no one reads, they sell nothing, this prompt builds a case study with no interview needed.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) TURN ONE CASE STUDY\n<em>INTO FIVE SALES TOOLS</em>",
+   "hsize": 110,
+   "body": "Your case study is one salesperson. This prompt turns it into five:\n\u2022 LinkedIn post\n\u2022 Proposal paragraph\n\u2022 Website headline\n\u2022 Cold outreach line\n\u2022 Pitch deck bullet",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: 5 PROMPTS THAT TURN\n<em>CUSTOMERS INTO SALESPEOPLE</em>",
+   "hsize": 96,
+   "body": "1) Turn email into a case study\n2) Review into a sales story\n3) Clients write it for you\n4) Build from numbers\n5) One study into five\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe and save. These 5 prompts turn your client emails, reviews, and raw numbers into case studies and testimonials that close deals for you. \ud83d\udccb\n\nPrompt 1 turns a single client email into a 300-word case study using only their exact words, Prompt 2 turns a 5-star review into a full testimonial story ending with a direct quote, Prompt 3 writes the seven interview questions to send clients so they hand you the content themselves, Prompt 4 builds a case study from raw numbers and metrics alone with no client interview needed, Prompt 5 takes one finished case study and writes five versions at once: a LinkedIn post, a website headline, a proposal paragraph, a cold outreach line, and a pitch deck bullet.\n\nMost businesses close deals through word of mouth, then lose that win forever. No case study, no testimonial, no proof on record. AI captures it in under a minute and turns it into five sales tools at once.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, OpenAI\n\n#AItools #BusinessOwner #AIMarketing #SalesStrategy #ContentMarketing",
+ "pinned_comment": "Which of these do you already have: a client email, a five-star review, or just some raw numbers? Pick whichever fits and try that prompt tonight.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>ONE CLIENT EMAIL</em> BECOMES YOUR BEST SALESPERSON",
+   "5 AI PROMPTS THAT TURN <em>CUSTOMERS INTO SALESPEOPLE</em>",
+   "PEOPLE ARE QUIETLY <em>TURNING CLIENT EMAILS INTO SALES MACHINES</em>"
+  ],
+  "scores": [
+   3,
+   6,
+   7
+  ],
+  "winner": 2,
+  "why": "The 'people are quietly' hook makes you stop scrolling with curiosity about what trend you're missing. [1] sounds like another standard AI tips listicle you'd scroll past."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT TURN CLIENT EMAILS INTO CASE STUDIES <em>IN 60 SECONDS</em>",
+   "PEOPLE ARE QUIETLY <em>TURNING CLIENT EMAILS INTO SALES MACHINES</em>",
+   "5 PROMPTS THAT CUT CASE STUDY WRITING <em>FROM 5 HOURS TO 60 SECONDS</em>",
+   "YOUR CLIENTS WILL WRITE YOUR CASE STUDIES FOR YOU. <em>5 PROMPTS TO MAKE IT HAPPEN.</em>"
+  ],
+  "scores": [
+   5,
+   4,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "[3]'s premise is genuinely shocking (clients write your case studies)\u2014you stop because it's surprising. [2] promises speed gains but reads as standard marketing copy you've heard before."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW violation \u2014 the cover shows a generated unknown businessman. The doctrine is explicit: 'FAMOUS FACES OR NO FACES \u2014 never a generated unknown face.' The Claude brand sign in the background does not save it; the image's subject is the fake face, not the product. Fix: replace with a real-world photo of a desk/document stack, a styled text-on-brand cover, or a Claude interface screenshot mou",
+ "topic_source": "news-anchored"
+}
