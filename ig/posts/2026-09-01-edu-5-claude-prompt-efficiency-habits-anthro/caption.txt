@@ -1,0 +1,9 @@
+Swipe for all 5 before you open Claude today. One of these habits alone cuts your re-prompting in half. 📋
+
+Stacking all tasks into one prompt so Claude delivers everything at once, briefing Claude on your business inside a Claude Project so it knows your context forever, asking for the final version upfront instead of iterating on drafts, letting Claude rewrite your question before it answers, setting the expert role before every high-stakes task.
+
+Anthropic just disclosed Claude's usage caps. Users who hit the limit are not doing more work. They re-prompt the same task four or five times because the first request was vague. These habits close that gap. Running a business? DM us "AI" and we will show you what this could do for yours.
+
+Sources: Anthropic
+
+#claude #aitools #artificialintelligence #productivity #businessowner

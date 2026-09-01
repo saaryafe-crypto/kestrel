@@ -1,60 +1,71 @@
 {
- "ts": 1788222739.8084562,
+ "ts": 1788228112.1136096,
  "updated": "2026-09-01",
  "hot": [
   {
-   "name": "Ted Lasso",
-   "why_hot_now": "Season 4 Episode 5 drops today (Sept 1) on Apple TV+, with the women's-team reboot trending worldwide all week.",
-   "typical_scene": "AFC Richmond hoodie, sideline clipboard, team huddle in drizzle"
-  },
-  {
-   "name": "Jeremy Allen White",
-   "why_hot_now": "The Bear Season 4 is pulling renewed critical raves while his Calvin Klein campaign clips keep going viral on every platform.",
-   "typical_scene": "white tee, sweaty kitchen pass, thousand-yard stare mid-service"
-  },
-  {
-   "name": "Olivia Rodrigo",
-   "why_hot_now": "The Unraveled Tour launches September 25, flooding social media with leaked setlists, ticket hunts, and fan-cam edits.",
-   "typical_scene": "distressed dress, mic stand, hair whipping into a screaming chorus"
-  },
-  {
-   "name": "Lanterns",
-   "why_hot_now": "HBO's DC series premiered August 16 and is dominating prestige-TV discourse heading into its fourth episode this week.",
-   "typical_scene": "glowing green ring lighting a rainy cityscape at night"
-  },
-  {
-   "name": "The Whisper Man",
-   "why_hot_now": "Netflix dropped this thriller three days ago (August 29) and it's already cracking the global top 10.",
-   "typical_scene": "rain-slick suburban street, phone flashlight, unseen figure in the window"
-  },
-  {
-   "name": "Ryan Gosling",
-   "why_hot_now": "Project Hail Mary crossed $677M globally and remains a perpetual meme engine months after its theatrical run.",
-   "typical_scene": "alone in a spacecraft solving alien math on a whiteboard"
+   "name": "Spider-Man: Brand New Day",
+   "why_hot_now": "Hit $2.33B worldwide in 31 days (July release), the biggest movie of 2026 and one of the fastest to $1B ever, with Tom Holland and Zendaya still dominating the cultural conversation.",
+   "typical_scene": "Tom Holland mid-swing over a neon-lit cityscape, Zendaya in freefall below"
   },
   {
    "name": "Ariana Grande",
-   "why_hot_now": "The Eternal Sunshine Tour is mid-run across North America, generating a nightly flood of viral fan-cams.",
-   "typical_scene": "high ponytail silhouette, floating stage, confetti storm mid-ballad"
+   "why_hot_now": "Her eighth album 'petal' (July 31) has generated 747M TikTok views and spawned the chair-hop choreo trend blanketing every For You page.",
+   "typical_scene": "doing the chair-hop dance in a flowy white outfit, petals falling around her"
   },
   {
-   "name": "Avengers: Endgame Encore",
-   "why_hot_now": "The theatrical re-release opens this week, sending a new generation to cinemas and drowning TikTok in reaction clips.",
-   "typical_scene": "packed midnight crowd, phones up, losing it at the portals scene"
+   "name": "Olivia Rodrigo",
+   "why_hot_now": "$20 Silver Star tickets to her Unraveled Tour go on sale today (Sept. 1), with the 86-date tour kicking off Sept. 25 in Hartford.",
+   "typical_scene": "clutching a phone refreshing Ticketmaster, dark eyeliner, purple-lit arena stage"
+  },
+  {
+   "name": "Lamine Yamal",
+   "why_hot_now": "Won the World Cup with Spain days after his 19th birthday; his three-year-old brother sprinting onto the pitch after the final became the image of the summer.",
+   "typical_scene": "dropping to one knee as a tiny toddler in red sprints across the field toward him"
+  },
+  {
+   "name": "Messi",
+   "why_hot_now": "His deadpan 'DeNiro nod' moment on the sideline during Argentina's World Cup final loss to Spain became the most-captioned meme of August.",
+   "typical_scene": "stone-faced sideline stare, arms at sides, Argentina blue and white"
+  },
+  {
+   "name": "Bruno Mars",
+   "why_hot_now": "Just closed a record six-night run at MetLife Stadium (Aug. 21–26) and is headed to SoFi Stadium in late September.",
+   "typical_scene": "rhinestone suit spinning the mic stand under stadium lights, 80,000-person crowd"
+  },
+  {
+   "name": "Kacey Musgraves",
+   "why_hot_now": "Her Deep End World Tour supporting new album 'Middle of Nowhere' is hitting arenas right now across North America.",
+   "typical_scene": "kaleidoscope light show, cosmic-country stage, slow-swaying crowd with raised lighters"
+  },
+  {
+   "name": "Jay-Z",
+   "why_hot_now": "Rick Rubin's 'JAY-Z in 8' docuseries just dropped on HBO Max, sending the internet deep into his back catalog.",
+   "typical_scene": "archive footage of a young Hov nodding over a dusty sample loop in the studio"
+  },
+  {
+   "name": "Backrooms",
+   "why_hot_now": "A24's record-breaking horror film ($81.5M opening — biggest in A24 history) is arriving on HBO Max this month, reigniting its massive online following.",
+   "typical_scene": "alone, shuffling through endless yellow-wallpaper fluorescent-lit corridors"
+  },
+  {
+   "name": "IShowSpeed",
+   "why_hot_now": "His fully unhinged bear-hug rush toward BTS at the World Cup final — caught on broadcast TV in front of millions — became the clip of the tournament.",
+   "typical_scene": "sprinting across a World Cup stadium concourse, arms wide open, absolute chaos"
   }
  ],
  "memes": [
-  "\"Saxophone Gets Louder\" — any relatable build-up suddenly obliterated by deafening sax and a chaotic zoom-freeze",
-  "\"I will no longer be carrying photo ID\" — absurdist running lists of random things people are officially, dramatically done with",
-  "\"Seeing How My X Would Respond to a Bully\" — filming a sibling's or partner's unfiltered reaction to a scripted insult scenario",
-  "Paparazzi Dubstep Ugly-to-Hot Transition — glow-up edit timed to a heavy dubstep beat drop under paparazzi-style camera flashes",
-  "Pepe (1999 Muppets) Confession Format — typing unhinged or trauma-dump stories over the felt frog's blank, empathetic stare",
-  "\"2026 Is the New 2016\" — side-by-side posts cataloguing eerie cultural and political parallels between now and that chaotic earlier era"
+  "'Saxophone Gets Louder' — any slow dawning realization moment paired with an increasingly loud, unhinged sax sting",
+  "'Seeing How My X Would Respond to a Bully' — text sets up the scenario, then you insult someone on camera and post their unfiltered reaction",
+  "'FREAKED OUT bob reasons' — rapid-fire TikTok hard-cuts listing increasingly absurd justifications for getting a haircut over the Fat Papi chorus",
+  "'It's a Clock' — Hunger Games audio played at 2x speed used to call out obvious patterns that someone in your life refuses to acknowledge",
+  "'I will no longer be carrying photo ID' — deadpan caption applied to any moment someone reveals a disqualifying or unhinged personal detail",
+  "'We Had ChatGPT Make Us a Script' — friend groups deliver AI-generated dramatic scenes with full deadpan commitment and no improvising",
+  "'Melissaaaa' — exaggerated drawn-out name-pronunciation format for confronting someone who very clearly already knows what they did wrong"
  ],
  "ai_flagships": [
-  "Claude Fable 5",
+  "Claude Opus 5",
   "GPT-5.6 Sol",
-  "Gemini 3.1 Pro Preview",
+  "Gemini 3.7 Flash",
   "Grok 4.6",
   "Muse Spark 1.2"
  ]

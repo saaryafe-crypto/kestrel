@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ONE PROMPT HABIT MAKES CLAUDE DO <em>5 PEOPLE'S WORK</em> IN ONE RESPONSE",
+   "kicker": "YOUR $200 PLAN HAS A HIDDEN CAP",
+   "hsize": 72,
+   "face": [
+    "Dario Amodei"
+   ],
+   "media": "posts/2026-09-01-edu-5-claude-prompt-efficiency-habits-anthro/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up in orange hard hat, arms wide, triumphant grin. Five conveyor belts output glowing document symbols. Glowing white Claude logo on navy wall. Bright clean documentary lighting, orange-navy accent."
+  },
+  {
+   "type": "content",
+   "headline": "1) STACK EVERY TASK INTO <em>ONE PROMPT</em>",
+   "hsize": 110,
+   "body": "A marketing director sent Claude **6 separate messages** to prep a single pitch deck.\n\nShe listed every task in one message and got everything back in one response.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) BRIEF CLAUDE ON YOUR BUSINESS <em>ONCE AND NEVER AGAIN</em>",
+   "hsize": 96,
+   "body": "A shop owner re-explained her products and customers at the start of every Claude session.\n\nShe pasted it all into a Claude Project once. This stops it.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>480 HOURS</em> BURNED ON BAD PROMPTS",
+   "hsize": 108,
+   "body": "Anthropic's **$200 plan** gives up to **480 hours** of Claude per month.\n\nUsers who hit the limit re-prompt the same task **4 or 5 times** because the first request was too vague.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) ASK FOR <em>THE FINAL VERSION,</em> NOT A DRAFT",
+   "hsize": 100,
+   "body": "A consultant burned **three sessions** on one document going back and forth on a proposal draft.\n\nAdding one line stops it: ask for the complete final form, ready to use immediately.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) LET CLAUDE REWRITE YOUR QUESTION <em>BEFORE IT ANSWERS</em>",
+   "hsize": 96,
+   "body": "A recruiter sent a 3-line brief. The output was generic.\n\nShe added one sentence asking Claude to rewrite her question first. The next version needed no edits.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) SET THE ROLE BEFORE <em>EVERY HIGH-STAKES TASK</em>",
+   "hsize": 100,
+   "body": "\"Write me a pricing page\" gets something forgettable.\n\nThe role-setup version needed **zero follow-up prompts**. The **20-word role setup** is the difference between one attempt and five.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: 5 CLAUDE HABITS <em>THAT TRIPLE YOUR OUTPUT</em>",
+   "hsize": 100,
+   "body": "Stack all tasks into one prompt\nBrief Claude on your business once\nAsk for the final version, not a draft\nLet Claude rewrite your question first\nSet the expert role before every big task",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for all 5 before you open Claude today. One of these habits alone cuts your re-prompting in half. \ud83d\udccb\n\nStacking all tasks into one prompt so Claude delivers everything at once, briefing Claude on your business inside a Claude Project so it knows your context forever, asking for the final version upfront instead of iterating on drafts, letting Claude rewrite your question before it answers, setting the expert role before every high-stakes task.\n\nAnthropic just disclosed Claude's usage caps. Users who hit the limit are not doing more work. They re-prompt the same task four or five times because the first request was vague. These habits close that gap. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Anthropic\n\n#claude #aitools #artificialintelligence #productivity #businessowner",
+ "pinned_comment": "Which one are you trying first? The role-setting habit on slide 7 is the one most people skip and it is the difference between one clean result and five frustrated rewrites.",
+ "hook_tournament": {
+  "candidates": [
+   "ONE PROMPT HABIT MAKES CLAUDE DO <em>5 PEOPLE'S WORK</em> IN ONE RESPONSE"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "IMAGE LAW \u00a73 hard violation: the cover shows a generated unknown face (man in orange safety vest). The doctrine explicitly bans 'a generated unknown face' \u2014 this is not a recognizable famous person, not the product with its brand mark as the subject, and not a real photo of an event. Fix: regenerate the cover with the Claude logo/wordmark as the clear visual subject, or use a famous face that has ",
+ "topic_source": "news-anchored"
+}
