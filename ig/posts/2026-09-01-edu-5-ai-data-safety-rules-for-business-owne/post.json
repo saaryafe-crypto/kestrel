@@ -1,0 +1,97 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SONY IS SEEKING <em>$150,000 PER SONG</em> FROM ANTHROPIC THIS WEEK",
+   "kicker": "The Apple case proves why",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "faces/sam-altman.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "<em>SAMSUNG GAVE CHATGPT ITS OWN CHIP DESIGNS.</em> HERE IS THE CHECK THEY SKIPPED.",
+   "hsize": 88,
+   "body": "Three <b>Samsung</b> engineers pasted proprietary semiconductor code into <b>ChatGPT</b> in <b>2023</b>.\n\nThey skipped one step: sanitizing the data before it reached OpenAI's servers.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>CLEAN EVERY CONTRACT</em> BEFORE YOU ASK AI ABOUT IT",
+   "hsize": 95,
+   "body": "The free version of <b>ChatGPT</b> sends every conversation to OpenAI's servers by default.\n\nOne client <b>NDA</b> with real names hands confidential details to a third-party company.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>MASK ALL PAY DATA</em> BEFORE IT REACHES AN AI TOOL",
+   "hsize": 95,
+   "body": "<b>Salary data</b> is the paste nobody thinks twice about.\n\nOne export of a pay spreadsheet sends your entire compensation structure to a third-party server.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$150,000 PER SONG",
+   "hsize": 66,
+   "body": "That is what <b>Sony</b> is seeking per song from Anthropic this week for training AI on copyrighted music.\n\nReal dollar consequences are now attached to what AI tools ingest.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>KEEP FUTURE PLANS</em> OUT OF AI CHATS ENTIRELY",
+   "hsize": 95,
+   "body": "An unannounced product, a pricing change, a deal in progress: each is legally sensitive.\n\nPasting your strategy into any AI tool sends it to a third-party server, and most <b>NDAs</b> restrict exactly that.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>DESCRIBE CUSTOMERS BY BEHAVIOR</em>, NEVER BY NAME",
+   "hsize": 95,
+   "body": "Most business privacy policies promise customers their data stays inside the business.\n\nEvery customer name or email you paste into an AI tool goes directly to the company behind it.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: 5 THINGS NEVER TO SHARE WITH AI</em>",
+   "hsize": 88,
+   "body": "Proprietary code and technical specs\nClient contracts and signed NDAs\nEmployee salary and pay data\nFuture business plans and deals\nCustomer names and personal data\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "An Apple engineer leaked chip designs to OpenAI this week, so here are the 5 data types your business must never share \ud83d\udd12 Swipe to see each prompt.\n\nSamsung's chip code leak and the pre-paste safety prompt, client contracts becoming AI training data by default and the anonymizer prompt, salary data as the most overlooked paste and the masked HR prompt, Sony's $150,000-per-song Anthropic lawsuit and what it means for your content, future business plans becoming third-party data once pasted and the hypothetical strategy prompt, customer data conflicting with your own privacy policy and the safe profile prompt.\n\nSamsung leaked chip designs in 2023. Apple and Sony made news this week. The same pattern runs through all three: companies treat AI tools like private notepads, and they are not. Every paste lands on a third-party server. These five prompts replace the dangerous habit with a safe one.\n\nRunning a business? DM us \"AI\" and we will show you what this can do for yours.\n\nSources: Apple Inc. court filing Sep 2026, TechCrunch and BBC Samsung 2023 leak, Sony Music Entertainment v. Anthropic filing Sep 2026.\n\n#AItools #BusinessAI #DataPrivacy #ArtificialIntelligence #AITips",
+ "pinned_comment": "Which category surprised you most? Most business owners say the salary spreadsheet one. It is the paste nobody thinks twice about.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "SONY IS SEEKING <em>$150,000 PER SONG</em> FROM ANTHROPIC THIS WEEK",
+   "YOUR EMPLOYEES <em>ARE LEAKING YOUR TRADE SECRETS TO AI</em>"
+  ],
+  "scores": [
+   8,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] has concrete details\u2014specific companies, specific money, specific timing\u2014that make you want more. [1] is generic fear-talk that's too vague to actually care about."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "SONY IS SEEKING <em>$150,000 PER SONG</em> FROM ANTHROPIC THIS WEEK",
+   "<em>5 THINGS</em> NEVER TO SHARE WITH AI \u2014 MOST PEOPLE STILL DO"
+  ],
+  "scores": [
+   8,
+   4
+  ],
+  "winner": 0,
+  "why": "Sony seeking $150,000 per song from Anthropic THIS WEEK gives you concrete numbers and urgency that stop the scroll; the 5-things listicle is invisible generic advice that hides what it's even about until you click."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW / CAST TRUTH FATAL: The cover photo is Sam Altman (OpenAI CEO). The cover headline is 'SONY IS SEEKING $150,000 PER SONG FROM ANTHROPIC THIS WEEK.' Sam Altman has no role in the Sony/Anthropic lawsuit. OpenAI/ChatGPT appear in slides 2-3 and the caption, but the face on the cover must match the story the cover headline tells \u2014 not a slide buried inside. This is celebrity-as-decoration. F",
+ "topic_source": "news-anchored"
+}

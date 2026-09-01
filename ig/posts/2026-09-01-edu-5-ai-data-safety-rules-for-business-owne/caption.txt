@@ -1,0 +1,11 @@
+An Apple engineer leaked chip designs to OpenAI this week, so here are the 5 data types your business must never share 🔒 Swipe to see each prompt.
+
+Samsung's chip code leak and the pre-paste safety prompt, client contracts becoming AI training data by default and the anonymizer prompt, salary data as the most overlooked paste and the masked HR prompt, Sony's $150,000-per-song Anthropic lawsuit and what it means for your content, future business plans becoming third-party data once pasted and the hypothetical strategy prompt, customer data conflicting with your own privacy policy and the safe profile prompt.
+
+Samsung leaked chip designs in 2023. Apple and Sony made news this week. The same pattern runs through all three: companies treat AI tools like private notepads, and they are not. Every paste lands on a third-party server. These five prompts replace the dangerous habit with a safe one.
+
+Running a business? DM us "AI" and we will show you what this can do for yours.
+
+Sources: Apple Inc. court filing Sep 2026, TechCrunch and BBC Samsung 2023 leak, Sony Music Entertainment v. Anthropic filing Sep 2026.
+
+#AItools #BusinessAI #DataPrivacy #ArtificialIntelligence #AITips
