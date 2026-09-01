@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "EVERY AI TOOL YOU USE HAS <em>5 DEFAULT SETTINGS</em> QUIETLY SENDING YOUR WORK TO THEIR SERVERS",
+   "kicker": "Two lawsuits this week prove it",
+   "hsize": 70,
+   "face": "Dario Amodei",
+   "media": "faces/dario-amodei.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>TURN OFF THE SETTING</em> THAT TRAINS AI ON YOUR WORK",
+   "hsize": 100,
+   "body": "Samsung engineers leaked confidential chip code through ChatGPT in 2023.\n\nSamsung banned employee AI use company-wide after the story broke.\n\nYour business is probably doing what Samsung's team did the day before.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) CHECK WHAT <em>THE DEFAULT TERMS</em> SAY ABOUT YOUR CONTENT",
+   "hsize": 100,
+   "body": "ChatGPT's default terms give OpenAI a license to use your outputs to improve its models.\n\nThe next product launch you draft in AI might be training the model your competitor uses tomorrow.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>LIMIT WHAT YOUR EMAIL AI</em> CAN READ AND KEEP",
+   "hsize": 100,
+   "body": "Copilot for Outlook and Gmail AI both request read access to your full inbox history by default.\n\nEvery email, including confidential negotiations, becomes accessible to the AI and its parent company.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$150,000",
+   "hsize": 36,
+   "body": "Per song. That is what Sony is seeking from Anthropic for training on content without permission. Every AI tool that collects your business data by default is making the same trade with your work",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>ADD A FACT-CHECK LAYER</em> BEFORE AI ANSWERS YOUR CUSTOMERS",
+   "hsize": 96,
+   "body": "Air Canada's AI chatbot gave a passenger the wrong refund policy.\n\nA court held Air Canada legally responsible for what the bot said.\n\nIf your AI answers customers, you own every mistake it makes.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) FIND OUT <em>HOW LONG YOUR AI TOOL</em> KEEPS EVERYTHING YOU TYPE",
+   "hsize": 88,
+   "body": "The Apple case this week showed messages sent months ago can be retrieved and used in court.\n\nEverything you type into an AI tool sits on a server somewhere, often for months or years.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: 5 AI SETTINGS</em> TO CHECK TONIGHT",
+   "hsize": 100,
+   "body": "1. Turn off training data collection\n2. Know who owns your AI content\n3. Limit email AI inbox access\n4. Add a fact-check to customer AI\n5. Find data retention policy\n\nDaily AI news",
+   "media": null
+  }
+ ],
+ "caption": "Swipe before your next AI session. 5 default settings quietly working against your business right now, with prompts to fix each one tonight. \ud83d\udd12\n\nTraining data opt-out, the setting most business owners never touch. Default terms that may license your content back to the AI company. Email AI access scope, what it reads beyond your inbox. A fact-check layer for customer-facing AI, how to add it tonight. Data retention, how long your conversations stay on their servers and what to do about it\n\nTwo AI lawsuits landed this week and a Berlin artist proved that AI cameras have blind spots a single shirt can exploit. The same gaps exist in every tool your business trusts with data right now. These prompts take under ten minutes each and can all be run tonight.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Sony Music filing Sep 2026, Apple court filing Sep 2026, US Copyright Office, Air Canada v. Moffatt 2024, Simon Weckert research\n\n#AIbusiness #artificialintelligence #businessowner #AItips #dataprivacy",
+ "pinned_comment": "Which one are you fixing first? The training data toggle on slide 2 is the one almost no one has touched, and it takes about 30 seconds to flip.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 WAYS YOUR AI TOOLS</em> ACCESS MORE THAN YOU REALIZE",
+   "<em>YOUR AI TOOL IS TRAINING</em> ON YOUR BUSINESS DATA RIGHT NOW",
+   "5 AI SETTINGS YOUR BUSINESS <em>SHOULD HAVE CHANGED YESTERDAY</em>",
+   "<em>5 DEFAULT AI SETTINGS</em> LEAKING YOUR BUSINESS DATA"
+  ],
+  "scores": [
+   4,
+   7,
+   3,
+   8
+  ],
+  "winner": 3,
+  "why": "Data leaking is universally terrifying and concrete, while training-on feels abstract. Default settings is instantly relatable\u2014everyone ignores them."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 DEFAULT AI SETTINGS</em> LEAKING YOUR BUSINESS DATA",
+   "<em>5 AI SETTINGS</em> QUIETLY TRAINING ON YOUR WORK THAT MOST BUSINESSES NEVER CHECK",
+   "EVERY AI TOOL YOU USE HAS <em>5 DEFAULT SETTINGS</em> QUIETLY SENDING YOUR WORK TO THEIR SERVERS"
+  ],
+  "scores": [
+   7,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] tells the exact threat instantly: data sent to external servers automatically on every tool you use. [0] just vaguely warns 'leaking' without explaining where or why it matters."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW \u2014 CAST TRUTH violation: the cover image is Dario Amodei (CEO of Anthropic). He is a recognizable famous person with no role in this story. This post is a generic AI-settings checklist; Anthropic appears only as a defendant in a one-line Sony figure on slide 4. A CEO as cover decoration when he is not the story's actor is an explicit REJECT under the CAST TRUTH rule. Replace the cover wit",
+ "topic_source": "news-anchored"
+}
