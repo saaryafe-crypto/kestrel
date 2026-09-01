@@ -443,6 +443,27 @@ def main():
     except Exception as e:
         body.append(f"- PROBLEM: could not read the X feed status ({e}) — "
                     "state UNKNOWN")
+    # editor gate A health (Sep 1 recalibration): 39/40 kills shipped a day
+    # of clone listicles; ~100% approves would ship junk. One free line so
+    # drift is visible in the owner's inbox without anyone digging.
+    try:
+        rows = json.load(open(os.path.join(HERE, "editor-log.json")))
+        day_ago = time.time() - 86400
+        import calendar
+        a = [r for r in rows if r.get("gate") == "A" and calendar.timegm(
+            time.strptime(r["t"], "%Y-%m-%dT%H:%M:%SZ")) > day_ago]
+        if a:
+            ap = sum(1 for r in a if r["verdict"] == "APPROVE")
+            pct = ap * 100 // len(a)
+            note = (" — TOO STRICT, story slots are falling to listicles"
+                    if pct <= 5 else
+                    " — TOO SOFT, junk stories may be shipping"
+                    if pct >= 90 else " — healthy range")
+        body.append(f"- Story editor (gate A) last 24h: approved {ap} of "
+                    f"{len(a)} candidates ({pct}%){note}" if a else
+                    "- Story editor (gate A): no verdicts in the last 24h")
+    except Exception as e:
+        body.append(f"- Story editor stats unreadable ({e})")
     body.append("")
     body.append("## Money spent this month (each tool vs its limit)")
     try:

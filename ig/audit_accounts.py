@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""One-off competitor deep audit (owner order Aug 27: "really understand top
-accounts in my field... only based on data"). NOT part of the daily pipeline —
-spy.py stays the production scraper. This goes deeper per handle: follower
+"""Competitor deep audit (owner order Aug 27: "really understand top
+accounts in my field... only based on data"; WEEKLY since Sep 1 — the
+ai.yaffe.ig-learn launchd job re-scrapes every Sunday and commits the fresh
+JSON, so "copy the winners" tracks current winners, not a frozen snapshot).
+NOT part of the daily pipeline — spy.py stays the production scraper. This goes deeper per handle: follower
 count, ~24 newest posts each with format (reel/carousel/image), EXACT posting
 timestamp, likes, comments, caption. Output: ig/audit-accounts.json.
 
