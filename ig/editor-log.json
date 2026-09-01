@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-29T20:42:32Z",
-  "gate": "B",
-  "subject": "THE US JUST LOCKED IN <em>$3 TRILLION IN OIL RIGHTS</em> FROM VENEZUELA FOR THE NEXT 100 YEARS.",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — cover register fails the thumb test. The generated image shows a recognizable figure (the sitting US president, the deal's actor) in a casual Nike tracksuit seated among oil drums in an industrial warehouse. At feed size, the visual reads as meme or satire, not the staged scene of a $3-trillion, 100-year sovereign energy deal. The story's entire authority rests on the scale of the clai"
- },
- {
   "t": "2026-08-29T20:45:11Z",
   "gate": "B",
   "subject": "THE US JUST LOCKED IN <em>$3 TRILLION IN OIL RIGHTS</em> FROM VENEZUELA FOR THE NEXT 100 YEARS.",
@@ -2098,5 +2091,12 @@
   "subject": "SONY IS SEEKING <em>$150,000 PER SONG</em> FROM ANTHROPIC THIS WEEK",
   "verdict": "REJECT",
   "reason": "IMAGE LAW / CAST TRUTH FATAL: The cover photo is Sam Altman (OpenAI CEO). The cover headline is 'SONY IS SEEKING $150,000 PER SONG FROM ANTHROPIC THIS WEEK.' Sam Altman has no role in the Sony/Anthropic lawsuit. OpenAI/ChatGPT appear in slides 2-3 and the caption, but the face on the cover must match the story the cover headline tells — not a slide buried inside. This is celebrity-as-decoration. F"
+ },
+ {
+  "t": "2026-09-01T20:34:19Z",
+  "gate": "A",
+  "subject": "Ye toh AI video hai, jabki ek toh sach mein Israel jaa kar naacha tha 😭",
+  "verdict": "KILL",
+  "reason": "One thin tweet, unknown actor, no consequence—pure reaction-bait comparing online reactions to videos, not a story."
  }
 ]

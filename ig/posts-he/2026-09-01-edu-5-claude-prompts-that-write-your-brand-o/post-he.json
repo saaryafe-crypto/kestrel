@@ -1,0 +1,107 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI כותב את סיפור המותג שלך <em>תוך חמש דקות</em>",
+   "kicker": "לפני שהם בכלל מכירים אותך",
+   "hsize": 68,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-01-edu-5-claude-prompts-that-write-your-brand-o/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei chest-up at craftsman's workbench with fountain pen, open leather journal, expression of focused pride, Claude logo glowing warm-orange on bright wood wall, sharp documentary 35mm photo, no legible text."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) כתוב את מיתוס הייסוד שלך</em> תוך חמש דקות",
+   "hsize": 96,
+   "body": "בגיל 13, Louis Vuitton עבר <b>400 קילומטר</b> ברגל דרך צרפת, בלי כלום. <b>שנתיים</b> אחר כך הגיע לפריז.\n\nהלקוחות קונים את הסיפור לפני הכל. שלך כבר קיים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) כתוב את המילים <em>שהלקוח הכי טוב שלך אומר עליך</em>",
+   "hsize": 82,
+   "body": "רוב דפי 'אודות' מדברים על החברה, לא על הלקוח.\n\nתשנה את הזווית, וביקור בדף יהפוך לשיחה ביומן.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "pattern_break": true,
+   "headline": "<em>400 ק\"מ</em>",
+   "hsize": 150,
+   "body": "מסיפור אחד.\n\nLouis Vuitton עבר את כל הדרך הזו ברגל בגיל 13, בלי כלום, רק עם הרצון ללמוד מלאכה. הוא בנה את מותג האופנה המוכר ביותר בעולם. הסיפור שלך מתחיל הרבה יותר קרוב.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) תגדיר את האויב</em> שהמותג שלך נלחם בו",
+   "hsize": 110,
+   "body": "• Nike נגד לוותר.\n• Apple נגד להיות כמו כולם.\n• Patagonia נגד fast fashion.\n\nכל מותג שמחזיק מעמד יודע מה הוא נלחם בו.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) כתוב את המיצוב שלך <em>במשפט אחד</em>",
+   "hsize": 110,
+   "body": "משפט מיצוב אחד אומר לאדם הנכון שהוא במקום הנכון, תוך עשר שניות.\n\nמי שלא מתאים ממשיך לגלול. שתי התוצאות חוסכות לך זמן.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) כתוב את החזון שגורם ללקוחות <em>להישאר עשרות שנים</em>",
+   "hsize": 90,
+   "body": "Louis Vuitton שרד <b>170 שנה</b> כי החזון היה גדול ממזוודות.\n\nשני משפטים הם ההבדל בין לקוח שבא פעם אחת למישהו שנשאר לתמיד.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה: חמישה פרומפטים שכותבים את הסיפור שלקוחות משלמים עליו</em>",
+   "hsize": 88,
+   "body": "1) כתוב את מיתוס הייסוד שלך\n2) כתוב מה הלקוח הכי טוב שלך אומר עליך\n3) תגדיר את האויב שאתה נלחם בו\n4) כתוב את המיצוב שלך\n5) כתוב את החזון\n\nחדשות AI יומיות + כלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "חמישה פרומפטים של Claude שכותבים לך את כל סיפור המותג מאפס. 📖\n\nכתוב את מיתוס הייסוד שלך, כתוב מה הלקוח הכי טוב שלך אומר עליך, תגדיר את האויב שהמותג שלך נלחם בו, כתוב את המיצוב שלך במשפט אחד, כתוב את החזון שגורם ללקוחות להישאר עשרות שנים.\n\nLouis Vuitton הלך 400 קילומטר בגיל 13, הגיע לפריז שנתיים אחר כך, ובנה את מותג האופנה המוכר בעולם מסיפור אחד על מלאכה והקרבה. לכל עסק יש סיפור ששווה כזה. AI כותב את שלך הלילה.\nמנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: Louis Vuitton brand history, Anthropic\n\nעקוב אחרי @ainews.israel לחדשות AI יומיות\n\n#AItools #brandstrategy #businessgrowth #claudeai #entrepreneur",
+ "pinned_comment": "באיזה פרומפט אתה מתחיל? שקופית 3 מרגישה אחרת ברגע שמבין שכל מותג שאתה סומך עליו הגדיר לעצמו אויב שנלחם בו כל יום.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 AI PROMPTS THAT <em>WRITE YOUR BRAND STORY</em>",
+   "5 AI PROMPTS THAT <em>WRITE THE STORY CLIENTS PAY FOR</em>",
+   "AI WRITES YOUR BRAND STORY <em>IN 5 MINUTES FLAT</em>"
+  ],
+  "scores": [
+   2,
+   3,
+   5
+  ],
+  "winner": 2,
+  "why": "The '5 minutes flat' time claim creates a quick pause—you actually stop to think 'wait, really?' instead of recognizing it as a generic listicle. [0] and [1] are forgettable marketing jargon you scroll past in 0.5 seconds."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT WRITE THE BRAND STORY <em>MOST PEOPLE PAY AGENCIES FOR</em>",
+   "AI WRITES YOUR BRAND STORY <em>IN 5 MINUTES FLAT</em>"
+  ],
+  "scores": [
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "Candidate 1 hits with a complete value prop I grasp instantly—AI writes your story in 5 minutes—while Candidate 0 buries the payoff in a tease I'd have to click to understand. At 2am scrolling, you want the straight story, not the riddle."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW §3 VIOLATION — cover carries a generated unknown face. The rule is explicit: 'Never a generated unknown face.' The Claude 'C' logo glowing in the background does not excuse the face; the face itself is banned. Fix: remove the person entirely and build the cover around the Claude brand mark on a styled background, or generate Louis Vuitton (a named historical figure in the post) as the su",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
