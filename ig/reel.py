@@ -141,7 +141,7 @@ def radar_candidates(used):
     # 16-cand batch, not 8 (Aug 16 dry run: with the 6-month archive the top
     # 8 by views were ALL elon memes/bare links — every actual tech clip sat
     # below the cut and the topic judge rightly returned -1, starving the slot)
-    cands = []
+    cands, per_author = [], {}
     for m in moments:
         if not m.get("video") or len(cands) >= 16:
             continue
@@ -152,6 +152,20 @@ def radar_candidates(used):
             print(f"  DROPPED non-watchlist radar moment @{m.get('sub')}: "
                   f"{m['permalink'][:60]}", file=sys.stderr)
             continue
+        # Sep 1 audit — the Aug 16 disease at bigger scale: 10 of the 16
+        # batch slots were @elonmusk bare-link/meme posts, so the judge
+        # chose among junk while real tech monsters sat below the cut and
+        # the page shipped weak reels (owner: "reels have been so bad
+        # lately"). Two structural guards:
+        # 1) a tweet whose text is only a t.co link is UNUSABLE — the judge
+        #    may not invent facts, so it can never write a truthful title;
+        # 2) one feed may fill at most 3 of the 16 slots — Elon still gets
+        #    his 3 biggest, the rest of the batch stays diverse.
+        if re.fullmatch(r"https?://\S+", (m.get("title") or "").strip()):
+            continue
+        author = m.get("sub", "").lower()
+        if per_author.get(author, 0) >= 3:
+            continue
         # X: the moment carries a direct mp4 — ffprobe it and download it
         # directly (yt-dlp can't read bare mp4 metadata and its twitter
         # route is flaky)
@@ -160,6 +174,7 @@ def radar_candidates(used):
         src_url, direct, channel = m["video"], m["video"], m["sub"]
         if not (8 <= dur <= 300) or res < 720:
             continue
+        per_author[author] = per_author.get(author, 0) + 1
         cands.append({
             "id": vid, "url": src_url, "direct_mp4": direct, "title": m["title"],
             "channel": channel, "sub": m["sub"],
