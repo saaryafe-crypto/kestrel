@@ -1,97 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "Reaction-bait: unverified claim generating engagement with no real-world consequence, independent proof, or substance beyond a complaint tweet.",
-  "subject": "Wtf Anthropic: If Fable has felt noticeably dumber this week, it’s because Claude Code has apparently been running “high",
-  "t": "2026-08-22T23:19:17Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Unknown creator (logicbent), routine AI-content subject, and no substance—160-character source with zero numbers, outcome, or secondary facts to build from.",
-  "subject": "We’re getting fully AI-generated police procedurals now. This is the first ep of Dick Snifford, Miami’s most unconventio",
-  "t": "2026-08-22T23:19:44Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: the entire source is one vague claim with zero facts, names, numbers, consequences, or specifics about which mystery or how it was solved—a writer would have to fabricate the post from pure clickbait.",
-  "subject": "One of the mysteries of humanity has been solved",
-  "t": "2026-08-22T23:20:04Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: the source is one fragmentary tweet making an undemonstrated claim about hidden data, with zero numbers, consequences, or actual information shown; writer has nothing to build slides from.",
-  "subject": "The sci-future I dreamed about as a kid is right here at our doorstep Did you know you can request the raw photos from t",
-  "t": "2026-08-22T23:20:20Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Launch-preview announcement with zero substance: a single sentence containing only a date, no second fact, no numbers, no consequence—explicitly banned as on-topic-but-routine with nothing but padding beyond it.",
-  "subject": "Tesla is officially launching Cybercab on September 3. The future is autonomous.",
-  "t": "2026-08-22T23:20:20Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait instant kill: Elon's tweet criticizing alleged intent has no real-world consequence—no actual bill, vote, action, or outcome documented.",
-  "subject": "Talarico wants to enable voting fraud in Texas by banning voter ID",
-  "t": "2026-08-22T23:20:22Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "33-character source with no event, names, numbers, or consequence—no substance exists to build slides from.",
-  "subject": "The bird even realized he had won",
-  "t": "2026-08-22T23:20:45Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One thin sentence with zero facts, numbers, or real-world consequence — the writer would have to pad this into existence; the source material offers nothing to build from.",
-  "subject": "The strange, variable reference frames you get in a rough sea.",
-  "t": "2026-08-22T23:20:46Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait with no substance: online pile-on sourced from a single 106-character X post, no real-world consequence (nobody fired, banned, sued, or lost money), scout interest 1/10, unknown actor, and fails the shuffle test for a carousel.",
-  "subject": "Israeli content creator Matanel Laiany mocked children in Gaza's lack of water Fking sickening Writer: Ian",
-  "t": "2026-08-22T23:20:46Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: a single thin tweet with zero facts, numbers, or consequence — just a scenic photo with no story event, no actor outcome, and no reason a 16-year-old would DM it to a friend.",
-  "subject": "The incredible 360 degree view from the top of Mount Everest on a clear day. 📽: Ben M Jones",
-  "t": "2026-08-22T23:20:53Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Pure reaction-bait: a hypothetical engagement prompt asking readers to imagine outrage at an unnamed scenario with zero real-world event, consequence, or substance—no second fact, no numbers beyond like-counts, no actor beyond 'Writer: Ian.' This is exactly the Queen Elizabeth pile-on model the doctrine was built to kill.",
-  "subject": "🇺🇸 Imagine the outrage if Muslims did this in Manhattan Writer: Ian",
-  "t": "2026-08-22T23:21:21Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: a thin research announcement with no specific event, consequence, or numbers—pure on-topic-but-routine preview of future work, exactly what the doctrine bans; scout interest 1/10 demands exceptional cause, this has none.",
-  "subject": "Games have been an important testbed for our AI research for over 15 years. 🎮 From mastering Atari to reaching Grandmast",
-  "t": "2026-08-22T23:21:26Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW — generated unknown face on the cover. The man holding the Claude phone is not recognizable as any specific famous person. §3 bans this explicitly: 'Never a generated unknown face.' Fix: regenerate with a clearly identifiable famous person (e.g., Dario Amodei by name prompt) or replace with a product-only shot showing the Claude app/logo without an unknown human face.; SLIDE 2 LAW — slid",
-  "subject": "6 CLAUDE SKILLS <em>PEOPLE ARE QUIETLY USING TO REPLACE STAFF</em>",
-  "t": "2026-08-23T01:12:32Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
   "reason": "This is pure reaction-bait with no real-world event—the only 'story' is that people liked a tweet complaining about chaotic news headlines; there are zero facts, numbers, or consequences to build slides from, and a writer would have to entirely pad an essay about media sensationalism to fill a carousel.",
   "subject": "every news headline now is like Blueberries Will Kill You. Measles Is Back. Gas Costs Six Dollars. Gwyneth Paltrow Is Se",
   "t": "2026-08-23T08:47:44Z",
@@ -2098,5 +2007,96 @@
   "subject": "AI WRITES YOUR BRAND STORY <em>IN 5 MINUTES FLAT</em>",
   "verdict": "REJECT",
   "reason": "IMAGE LAW §3 VIOLATION — cover carries a generated unknown face. The rule is explicit: 'Never a generated unknown face.' The Claude 'C' logo glowing in the background does not excuse the face; the face itself is banned. Fix: remove the person entirely and build the cover around the Claude brand mark on a styled background, or generate Louis Vuitton (a named historical figure in the post) as the su"
+ },
+ {
+  "t": "2026-09-01T10:30:30Z",
+  "gate": "A",
+  "subject": "We need to talk about Anthropic. Its relationship with its power users appears to be collapsing in real time. A few week",
+  "verdict": "KILL",
+  "reason": "REACTION-BAIT: the event is Twitter pile-on and online backlash (2.5M views, replies, Community Notes), not a real-world consequence anyone felt."
+ },
+ {
+  "t": "2026-09-01T10:30:35Z",
+  "gate": "A",
+  "subject": "25 Cybercabs in a lot in Tampa, Florida",
+  "verdict": "KILL",
+  "reason": "No substance—a single sentence with zero context, consequence, or real-world event; writer would have to fabricate the story around a bare fact."
+ },
+ {
+  "t": "2026-09-01T10:30:48Z",
+  "gate": "A",
+  "subject": "Hold on. This makes the whole thing even worse. Anthropic did disclose the weekly limits on its own website in 2025: Max",
+  "verdict": "KILL",
+  "reason": "No substance: single-source tweet with unverified claim, no real-world consequence, no investigation—fails THE STANDARD's jaw-dropping threshold and the no-substance instant-kill gate."
+ },
+ {
+  "t": "2026-09-01T10:30:56Z",
+  "gate": "A",
+  "subject": "UPDATE: Tesla has just added another 6 Cybercabs to its Robotaxi fleet, bringing the total up to 7, according to the Tex",
+  "verdict": "KILL",
+  "reason": "Corporate announcement of routine scaling (adding 6 test cars) with no real-world consequence; fails the 16-year-old share test."
+ },
+ {
+  "t": "2026-09-01T10:31:55Z",
+  "gate": "A",
+  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
+  "verdict": "KILL",
+  "reason": "Routine launch announcement (ON-TOPIC BUT ROUTINE banned under §1 INSTANT KILL) lacking real-world consequence, personal story, or tech/business angle—pure astronomy off-brand for this page."
+ },
+ {
+  "t": "2026-09-01T10:32:44Z",
+  "gate": "A",
+  "subject": "UPDATE: Tesla has just added another 6 Cybercabs to its Robotaxi fleet, bringing the total up to 7, according to the Tex",
+  "verdict": "KILL",
+  "reason": "Routine fleet status update (7 robotaxis total) with no jaw-dropping fact, event, or real consequence—fails ON-TOPIC BUT ROUTINE instant kill rule; scout interest 3/10 confirms thin substance."
+ },
+ {
+  "t": "2026-09-01T10:32:44Z",
+  "gate": "A",
+  "subject": "25 Cybercabs in a lot in Tampa, Florida",
+  "verdict": "KILL",
+  "reason": "No substance—source is one thin observation with no second fact, numbers, or consequence; writer would have to invent the story."
+ },
+ {
+  "t": "2026-09-01T10:32:54Z",
+  "gate": "A",
+  "subject": "Hold on. This makes the whole thing even worse. Anthropic did disclose the weekly limits on its own website in 2025: Max",
+  "verdict": "KILL",
+  "reason": "Routine corporate pricing opacity lacks the jaw-dropping consequence required by story law."
+ },
+ {
+  "t": "2026-09-01T10:32:56Z",
+  "gate": "A",
+  "subject": "We need to talk about Anthropic. Its relationship with its power users appears to be collapsing in real time. A few week",
+  "verdict": "KILL",
+  "reason": "Multiple secondhand claims without a single clear event, named protagonist, or felt consequence — complaint aggregation at reaction-bait edges, not a story."
+ },
+ {
+  "t": "2026-09-01T10:33:40Z",
+  "gate": "A",
+  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
+  "verdict": "KILL",
+  "reason": "One thin tweet (222 chars) with zero substance — no numbers, no consequence, no jaw-dropping detail; routine space-launch announcement that reads like a preview, not a story; scout score of 3/10 fails the exceptional-reason threshold; the owner would not post 'telescope deployed, I'm excited about pictures.'"
+ },
+ {
+  "t": "2026-09-01T11:19:49Z",
+  "gate": "B",
+  "subject": "YOU PAY $200 FOR AN AI PLAN CALLED '20X' THAT <em>ONLY GIVES 1.7X</em>, AND THE COMPANY JUST DELETED THAT PROOF",
+  "verdict": "REJECT",
+  "reason": "HOOK LAW — AND joins two actions: 'ONLY GIVES 1.7X' and 'THE COMPANY JUST DELETED THAT PROOF.' Law requires ONE actor, ONE action; cut the weaker one. The deletion is the stronger, more outrageous beat. Fix example: 'ANTHROPIC DELETED THE PAGE PROVING THEIR $200 '20X' AI PLAN GIVES ONLY 1.7X MORE THAN THE PLAN HALF ITS PRICE' — one actor, one action, all key numbers preserved.; SLIDE 7 breaks the "
+ },
+ {
+  "t": "2026-09-01T12:00:37Z",
+  "gate": "B",
+  "subject": "YOU'RE IGNORING CLIENTS WHO SPEND <em>67% MORE</em>, 5 PROMPTS THAT GO GET THEM",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — generated unknown face on cover: The cover shows a generated non-famous person (businessman with wrench over treasure chest). IMAGE LAW is explicit: 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' Fix: regenerate the cover without any human — the Claude logo + treasure chest visual works on its own, or use the product/brand mark a"
+ },
+ {
+  "t": "2026-09-01T12:02:27Z",
+  "gate": "B",
+  "subject": "YOU'RE IGNORING CLIENTS WHO SPEND <em>67% MORE</em>, 5 PROMPTS THAT GO GET THEM",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — cover features a generated unknown face (non-famous man leaning over a treasure chest). The doctrine explicitly bans this: 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' Fix: remove the human figure entirely and let the treasure-chest/Claude-logo scene carry the image, or replace with a recognizable famous person whose story is i"
  }
 ]

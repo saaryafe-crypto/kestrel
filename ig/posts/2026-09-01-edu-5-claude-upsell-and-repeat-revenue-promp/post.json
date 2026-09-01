@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOU'RE IGNORING CLIENTS WHO SPEND <em>67% MORE</em>, 5 PROMPTS THAT GO GET THEM",
+   "kicker": "NO NEW LEADS NEEDED",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-01-edu-5-claude-upsell-and-repeat-revenue-promp/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei wrenching treasure chest open, grinning with genuine shock; gold cascading on bright floor; Claude logo glowing on chamber wall; warm high-key gold light, sparse background, documentary 35mm film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) FIND WHICH CLIENTS <em>ARE READY TO BUY AGAIN</em>",
+   "hsize": 104,
+   "body": "Existing clients are <b>5 times more likely</b> to buy from you than a new lead. Most of them never get asked.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) WRITE THE UPSELL EMAIL <em>THEY ACTUALLY OPEN</em>",
+   "hsize": 104,
+   "body": "A copywriter charges <b>$1,500</b> for a single upsell sequence. Claude writes one in 30 seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EXISTING CUSTOMERS SPEND <em>67% MORE</em> THAN NEW ONES",
+   "hsize": 100,
+   "body": "Bain and Company measured this across industries. Most owners spend 90% of their marketing budget chasing the other 33%.\n\nThe next two prompts fix that",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) TURN ONE CLIENT WIN <em>INTO FIVE MORE CONVERSATIONS</em>",
+   "hsize": 104,
+   "body": "One real result you already have is a template for every similar client you have not asked yet.\n\nOnce they reply, you want them sending your name to someone else.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD THE REFERRAL ASK <em>THEY FORWARD TO A FRIEND</em>",
+   "hsize": 104,
+   "body": "Most businesses have happy clients who would have referred someone if they had been asked right.\n\nThe one you are about to write takes <b>20 seconds</b> to personalize.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) WRITE THE CHECK-IN <em>THAT REOPENS QUIET CLIENTS</em>",
+   "hsize": 104,
+   "body": "One well-timed email to a client who went quiet is worth more than <b>100 cold messages</b>.\n\nRe-engagement emails average <b>45% open rates</b>, nearly double cold outreach.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 PROMPTS THAT FIND REVENUE IN OLD CLIENTS</em>",
+   "hsize": 90,
+   "body": "Find clients already ready to buy\nWrite the upsell they open\nTurn one win into five\nBuild referral asks they forward\nWrite check-ins that reopen clients\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5 before you send a single cold email. Every prompt here works tonight with a client list you already have. \ud83d\udcb0\n\nPrompt 1 finds which past clients are statistically ready to buy again based on purchase history and spend, Prompt 2 writes a personalized upsell email from your client's own story in 30 seconds, Prompt 3 turns one real client result into a pitch for five similar clients, Prompt 4 builds a referral ask so specific the client forwards it to someone tonight, Prompt 5 writes the check-in that reopens relationships that went quiet without asking for money\n\nThe biggest untapped revenue for most service businesses is already sitting in their own inbox. AI does not find new customers. It makes sure you never forget to ask the right existing ones at the right time. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Bain and Company (repeat customer spend and acquisition cost research), Anthropic\n\n#ai #businessowner #aitools #claudeai #artificialintelligence",
+ "pinned_comment": "Which client type are you running Prompt 1 on first? Prompt 4 is the sleeper. Most businesses have never sent a referral ask that specific.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT TURN <em>QUIET CLIENTS</em> INTO NEW INVOICES",
+   "5 CLAUDE PROMPTS THAT FIND <em>HIDDEN REVENUE IN OLD CLIENTS</em>",
+   "MOST BUSINESSES LEAVE <em>THEIR BIGGEST REVENUE</em> IN OLD CLIENT EMAILS"
+  ],
+  "scores": [
+   5,
+   6,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] hits because it's a claim that stops you mid-scroll and makes you want to verify it. [0] and [1] sound like generic productivity templates that everyone's pushing."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "MOST BUSINESSES LEAVE <em>THEIR BIGGEST REVENUE</em> IN OLD CLIENT EMAILS",
+   "YOUR OLD CLIENTS SPEND <em>67% MORE</em> THAN NEW ONES \u2014 5 PROMPTS TO COLLECT IT",
+   "YOU'RE IGNORING CLIENTS WHO SPEND <em>67% MORE</em> \u2014 5 PROMPTS THAT GO GET THEM",
+   "<em>5 PROMPTS</em> THAT FIND MORE REVENUE IN OLD CLIENTS THAN MOST NEW CAMPAIGNS WILL"
+  ],
+  "scores": [
+   4,
+   8,
+   9,
+   6
+  ],
+  "winner": 2,
+  "why": "[2] hits like an accusation that wakes you up at 2am\u2014'YOU'RE IGNORING' lands harder than passive observations, and the specific 67% + action verb 'go get' makes you want to prove it works. [1] is solid with the same stat but reads like advice, not a call to stop scrolling."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u2014 cover features a generated unknown face (non-famous man leaning over a treasure chest). The doctrine explicitly bans this: 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' Fix: remove the human figure entirely and let the treasure-chest/Claude-logo scene carry the image, or replace with a recognizable famous person whose story is i",
+ "topic_source": "news-anchored"
+}
