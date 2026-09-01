@@ -1,0 +1,87 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "הרגל אחד בפרומפט, ו-Claude עושה <em>עבודה של חמישה</em> בבת אחת",
+   "kicker": "לתוכנית $200 שלכם יש תקרה שלא ידעתם עליה",
+   "hsize": 72,
+   "face": [
+    "Dario Amodei"
+   ],
+   "media": "posts/2026-09-01-edu-5-claude-prompt-efficiency-habits-anthro/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up in orange hard hat, arms wide, triumphant grin. Five conveyor belts output glowing document symbols. Glowing white Claude logo on navy wall. Bright clean documentary lighting, orange-navy accent."
+  },
+  {
+   "type": "content",
+   "headline": "1) תכניסו את כל המשימות ל<em>פרומפט אחד</em>",
+   "hsize": 110,
+   "body": "מנהלת שיווק שלחה ל-Claude **שש הודעות נפרדות** כדי להכין מצגת אחת.\n\nהיא שמה את כל המשימות בהודעה אחת וקיבלה הכול בחזרה בתגובה אחת.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) תסבירו ל-Claude על העסק שלכם <em>פעם אחת, וגמרנו</em>",
+   "hsize": 96,
+   "body": "בעלת חנות הייתה מסבירה מחדש את המוצרים והלקוחות שלה בתחילת כל שיחה עם Claude.\n\nהיא הדביקה הכול ב-Claude Project פעם אחת. ובפעם הבאה Claude כבר ידע.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>480 שעות</em> שנשרפות על פרומפטים גרועים",
+   "hsize": 108,
+   "body": "תוכנית **$200** של Anthropic נותנת עד **480 שעות** של Claude בחודש.\n\nמי שמגיע לתקרה שולח שוב ושוב את אותו פרומפט, ארבע או חמש פעמים, כי הבקשה הראשונה הייתה מעורפלת מדי.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) תבקשו <em>את הגרסה הסופית,</em> לא טיוטה",
+   "hsize": 100,
+   "body": "יועץ שרף **שלושה סשנים** על מסמך אחד כי הלך עם Claude הלוך ושוב על טיוטה.\n\nשורה אחת פותרת את זה: לבקש את הגרסה הסופית המוכנה לשימוש מיידי.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) תנו ל-Claude לנסח מחדש את השאלה שלכם <em>לפני שהוא עונה</em>",
+   "hsize": 96,
+   "body": "מגייסת שלחה בריף של **שלוש שורות**. התשובה יצאה גנרית לחלוטין.\n\nהיא הוסיפה משפט אחד שביקש מ-Claude לנסח מחדש את השאלה לפני שהוא עונה. הגרסה הבאה לא הצריכה שום עריכה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) תגדירו תפקיד <em>לפני כל משימה קריטית</em>",
+   "hsize": 100,
+   "body": "\"כתוב לי דף תמחור\" מחזיר משהו שאפשר לזרוק לפח.\n\nהגרסה עם הגדרת תפקיד לא הצריכה **אף פרומפט נוסף**. **הגדרת תפקיד של 20 מילים** היא ההבדל בין ניסיון אחד לחמישה.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את זה: חמישה הרגלים ב-Claude <em>שמשלשים את התפוקה שלכם</em>",
+   "hsize": 100,
+   "body": "תכניסו את כל המשימות לפרומפט אחד\nתסבירו ל-Claude על העסק פעם אחת\nתבקשו גרסה סופית, לא טיוטה\nתנו ל-Claude לנסח מחדש את השאלה\nתגדירו תפקיד מומחה לפני כל משימה גדולה",
+   "media": null
+  }
+ ],
+ "caption": "תעברו על כל החמישה לפני שפותחים Claude היום. אפילו הרגל אחד מהרשימה הזו מוריד לכם בחצי את הפרומפטים החוזרים. 📋\n\nלאסוף את כל המשימות לפרומפט אחד כדי ש-Claude יחזיר הכול בבת אחת, להסביר ל-Claude על העסק שלכם ב-Claude Project פעם אחת כדי שיזכור את ההקשר לתמיד, לבקש גרסה סופית מלכתחילה במקום לחזור הלוך ושוב על טיוטות, לתת ל-Claude לנסח מחדש את השאלה לפני שהוא עונה, ולהגדיר תפקיד מומחה לפני כל משימה חשובה.\n\nAnthropicחשפה עכשיו את תקרות השימוש של Claude. מי שמגיע לתקרה לא עושה יותר עבודה. הם שולחים שוב ושוב את אותו פרומפט, ארבע או חמש פעמים, כי הבקשה הראשונה הייתה מעורפלת. ההרגלים האלה פותרים בדיוק את זה. מנהלים עסק? שלחו לנו \"AI\" בDM ונראה לכם איך לשלב את זה בעסק שלכם.\n\nמקורות: Anthropic\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#claude #aitools #artificialintelligence #productivity #businessowner",
+ "pinned_comment": "איזה מהם תנסו קודם? ההרגל של הגדרת תפקיד בשקופית 7 הוא מה שהכי הרבה אנשים מדלגים עליו, וזה ההבדל בין תוצאה אחת מסודרת לחמישה ניסיונות מתוסכלים.",
+ "hook_tournament": {
+  "candidates": [
+   "ONE PROMPT HABIT MAKES CLAUDE DO <em>5 PEOPLE'S WORK</em> IN ONE RESPONSE"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (1/10)",
+ "editor_override": "IMAGE LAW §3 hard violation: the cover shows a generated unknown face (man in orange safety vest). The doctrine explicitly bans 'a generated unknown face' — this is not a recognizable famous person, not the product with its brand mark as the subject, and not a real photo of an event. Fix: regenerate the cover with the Claude logo/wordmark as the clear visual subject, or use a famous face that has ",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
