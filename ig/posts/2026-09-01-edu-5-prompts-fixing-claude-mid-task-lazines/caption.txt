@@ -1,0 +1,9 @@
+Swipe for 5 copy-paste prompts that stop Claude from quitting halfway, looping back, or delivering half a job and calling it done. 🔧
+
+Completion contract that defines done before the task starts, signed-off chunk method that checkpoints every sub-task so Claude cannot drift, the exact reset prompt that picks up mid-task without losing context, job-title-with-stakes setup that raises effort on long deliverables, self-audit loop that makes Claude check and complete its own gaps.
+
+A post with 2.5 million views surfaced a real problem: Claude quits long tasks halfway and most people just re-prompt. The fix is in the opening line. These five prompts give Claude a clear definition of done. Running a business? DM us "AI" and we will show you what this could do for yours.
+
+Sources: Anthropic, X
+
+#AI #Claude #Productivity #AIForBusiness #BusinessTips

@@ -1,0 +1,93 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE 5 PROMPTS THAT STOP CLAUDE FROM <em>QUITTING HALFWAY THROUGH YOUR JOB</em>",
+   "kicker": "Claude stops mid-task and calls it done",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "faces/dario-amodei.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "1) THE ONLY LINE <em>CLAUDE NEVER IGNORES</em>",
+   "hsize": 100,
+   "body": "Claude quits long tasks halfway and calls them complete. Claude treats the contract as a hard rule.\n\n\"Your job is not done until I have every section in full. Start now.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) BREAK THE TASK INTO <em>SIGNED-OFF CHUNKS</em>",
+   "hsize": 98,
+   "body": "One sub-task at a time stops Claude drifting. Use this.\n\n\"Complete ONLY this one step, then stop and write: 'Step complete. Ready for the next?'\n\nStep: [paste exactly one sub-task]\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) RESET CLAUDE <em>WITHOUT STARTING OVER</em>",
+   "hsize": 105,
+   "body": "This one line costs <b>15 seconds</b>. Claude picks up mid-sentence without losing context.\n\n\"You stopped before finishing. Here is your last output: [paste it]. Continue from that exact point. Do not repeat anything.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) GIVE CLAUDE <em>A JOB TITLE WITH STAKES</em>",
+   "hsize": 98,
+   "body": "Role framing alone changes how Claude handles gaps.\n\n\"You are a senior [role]. This work will be reviewed by a client. Your task: [the job]. Do not stop until complete. Do it.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) RUN THE <em>SELF-AUDIT LOOP</em>",
+   "hsize": 110,
+   "body": "Claude marks tasks complete when parts are missing. Run this after any long output.\n\n\"Review your last response. Mark each item: COMPLETE, PARTIAL, or NOT DONE. Complete anything incomplete. Do not ask permission.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 PROMPTS THAT FINISH THE JOB</em>",
+   "hsize": 100,
+   "body": "1) The completion contract\n2) Signed-off chunks\n3) Reset without starting over\n4) Job title with stakes\n5) Self-audit loop",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 5 copy-paste prompts that stop Claude from quitting halfway, looping back, or delivering half a job and calling it done. \ud83d\udd27\n\nCompletion contract that defines done before the task starts, signed-off chunk method that checkpoints every sub-task so Claude cannot drift, the exact reset prompt that picks up mid-task without losing context, job-title-with-stakes setup that raises effort on long deliverables, self-audit loop that makes Claude check and complete its own gaps.\n\nA post with 2.5 million views surfaced a real problem: Claude quits long tasks halfway and most people just re-prompt. The fix is in the opening line. These five prompts give Claude a clear definition of done. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Anthropic, X\n\n#AI #Claude #Productivity #AIForBusiness #BusinessTips",
+ "pinned_comment": "Which one are you testing first? The self-audit loop (slide 6) is the one most people skip, and it catches the most incomplete work.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT STOP <em>CLAUDE QUITTING MID-TASK</em>",
+   "THE 5 TRICKS POWER USERS FOUND <em>WHEN CLAUDE WENT LAZY</em>"
+  ],
+  "scores": [
+   6,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] tells a discovery story ('power users found when Claude went lazy') that makes you curious; [0] is just a flat utility list. A personified, narrative hook beats a professional solution pitch for 2am engagement."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 CLAUDE FIXES <em>MOST USERS NEVER THINK TO TRY</em>",
+   "THE 5 TRICKS POWER USERS FOUND <em>WHEN CLAUDE WENT LAZY</em>",
+   "5 PROMPTS FOR WHEN CLAUDE <em>QUITS HALFWAY THROUGH YOUR JOB</em>",
+   "5 PROMPTS THAT MAKE CLAUDE <em>FINISH YOUR TASK FOR REAL</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] leads with the fix ('MAKE CLAUDE FINISH') while [2] just describes the pain\u2014and 'FOR REAL' gives it friend energy, not marketing speak. Solution beats sympathy."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW / CAST TRUTH: The cover shows Dario Amodei (Anthropic CEO), a recognizable famous person who plays zero role in this post. The post teaches five prompting techniques \u2014 Dario does nothing, says nothing, and appears in no slide. Per doctrine: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT \u2014 a celebrity as decoration breaks image-head",
+ "topic_source": "news-anchored"
+}
