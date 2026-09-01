@@ -193,6 +193,7 @@ WHY-NOW RULE (owner doctrine Aug 1 — even a guide must be current or viral, ne
 - Hidden powers: true settings, modes, and prompts that unlock more from Claude/ChatGPT than the default experience ("SECRET CODES FOR CLAUDE THAT BREAK ITS LIMITS" register). Forbidden-knowledge framing is the hook, but every "secret" must be a real documented feature that works tonight.
 ALREADY USED — never repeat or closely overlap:
 {used}
+FORMAT ROTATION (owner order Sep 1 — the page shipped a day of near-identical "5 prompts" listicles and the owner called the repetition the #1 content failure): look at the most recent entries in ALREADY USED. If they are prompt-recipe listicles, this post must NOT be another one — pick a different pillar (a new feature demonstrated, builder stories, free money tools, hidden powers) and a different cover formula. Two same-shaped listicles in a row is a failed post even if the topics differ.
 {tips_block}
 
 {principles()}

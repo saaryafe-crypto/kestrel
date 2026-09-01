@@ -92,7 +92,7 @@ def gate_a(story, material=""):
 
 You are THE EDITOR-IN-CHIEF. The pipeline wants to spend real money writing a full Instagram carousel about the candidate story below. Judge it against STORY LAW (section 1) and THE STANDARD (section 0) above. You own the one question no other stage asks: is this actually a story worth posting?
 
-Be strict on the INSTANT KILL list — reaction-bait and no-substance stories are exactly how this page shipped its two worst posts ever. A KILL costs nothing: the next candidate gets the slot. An APPROVE of junk costs the page its reputation.
+Be strict on the INSTANT KILL list — reaction-bait and no-substance stories are exactly how this page shipped its two worst posts ever. But a KILL is not free either: when every candidate dies, the slot falls to the edu-listicle floor, and on Sep 1 this gate killed 39 of 40 candidates (including "Sony sues Anthropic") and the page shipped a day of repetitive listicles — the exact failure the owner flagged as the page's #1 content problem. Apply §1's CALIBRATION: judge the EVENT, not the tweet's length. Both wrong verdicts cost the page; own the one you choose.
 
 CANDIDATE:
 {chr(10).join(facts)}
@@ -131,7 +131,15 @@ def gate_b(post, cover_path=None):
                 f"it). CAST TRUTH: if a recognizable famous person is the "
                 f"cover subject but that person has no role in this story, "
                 f"REJECT — a celebrity as decoration breaks image-headline "
-                f"connection." if cover_path else
+                f"connection. EXCEPTION — THE VENDOR CAST (the owner's "
+                f"signature move, order Aug 12, and the DEFAULT for every "
+                f"guide/education cover): on a post teaching the use of a "
+                f"named famous tool, that tool's own famous CEO cast as the "
+                f"tool's delighted user (Dario Amodei for a Claude guide, "
+                f"Sam Altman for ChatGPT, Sundar Pichai for Gemini) is "
+                f"LEGAL — never reject it as cast-truth. Cast truth still "
+                f"kills the WRONG company's face (Sam Altman fronting an "
+                f"Anthropic story is a REJECT)." if cover_path else
                 "WARNING: the cover has NO image file — that alone violates "
                 "IMAGE LAW unless zero images existed anywhere.")
     # container-blind judging post-mortem (Aug 27 audit): Gate B rejected

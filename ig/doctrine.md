@@ -45,6 +45,18 @@ EARNS A SLOT (in order of strength):
   real job to AI, already happening, reader feels late.
 - Real utility the reader can use TODAY: prompts, free tools, settings —
   taught in full on the slides, never just claimed.
+- A FAMOUS PRODUCT'S NEW FEATURE, DEMONSTRATED: what it looks like, what it
+  does, what people are already doing with it — shown so concretely the
+  reader feels they just tried it. This is NOT the banned launch preview
+  (a date + spec sheet + "coming soon"): the demo SHOWS the thing working
+  on the slides. (Measured Aug 27 audit: the three biggest posts per
+  follower across all 134 posts are ALL feature demos — iOS 26 Liquid
+  Glass at 61K likes / 38x @techskills' median, GPT-5 personality modes at
+  355x @chatgptmastery's median, ChatGPT stylist analyses at 65K on
+  @chatgptricks. Copy this lane, never kill it as "routine".)
+- PERSON-INTRIGUE on a famous founder: "who is this person really" — the
+  arc, the contradictions, the receipts (@futurism's "Who, exactly, is
+  Sam Altman?" ran 3.3x their median). Famous names only.
 - A HISTORY ARC: a true PAST drama with a person, a giant number, and a
   consequence — the trader who bet $10B against the pound, the guy who built
   a $20K yacht in his backyard, the founder who was fired/bankrupt/rejected
@@ -82,7 +94,17 @@ INSTANT KILL — no other rule can save these:
   covered through screenshots of the crowd.
 - NO SUBSTANCE: the entire source is one thin tweet with nothing behind it —
   no second fact, no numbers, no consequence to build slides from. If the
-  writer would have to pad, kill it.
+  writer would have to pad, kill it. CALIBRATION (Sep 1 post-mortem: Gate A
+  killed 39 of 40 candidates in one day — including "Sony sues Anthropic",
+  a lawsuit-filed event this very list names as reality-moved — and the
+  page shipped a day of near-identical listicles, the exact repetition the
+  owner flagged as the #1 content failure): judge the EVENT, not the
+  tweet's character count. A famous-name event where reality moved —
+  lawsuit filed, money moved at scale, someone fired or banned, a record,
+  a disaster — is substantial even when the tweet announcing it is one
+  line; the writer's research stage expands it into slides. Thinness kills
+  only when the underlying EVENT itself is trivial (a joke, a vibe, a
+  photo op, a claim with no actor anyone knows).
 - ON-TOPIC BUT ROUTINE: being about AI/tech/space/markets earns NOTHING.
   Market wraps, stocks-rose-today, analyst targets, launch previews,
   how-to-watch, live blogs — banned. Recap roundups are legal ONLY in the
