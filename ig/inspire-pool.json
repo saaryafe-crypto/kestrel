@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01T20:54:47.880538+00:00",
+ "updated": "2026-09-01T23:16:02.324127+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -325,6 +325,25 @@
    "born": 1786554334.377201
   },
   {
+   "id": "2094488681600135346",
+   "title": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon Heavy carrying Roman Space Telescope transiting the sun. More about how it was captured and a video o",
+   "sub": "AJamesMcCarthy",
+   "where": "@AJamesMcCarthy on X",
+   "unit": "likes",
+   "selftext": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon Heavy carrying Roman Space Telescope transiting the sun. More about how it was captured and a video of the transit \ud83d\udc47",
+   "permalink": "https://x.com/AJamesMcCarthy/status/2094488681600135346",
+   "outlink": null,
+   "score": 11911,
+   "comments_n": 410,
+   "views": 177080,
+   "age_h": 29.0,
+   "vph": 410.3,
+   "image": "https://pbs.twimg.com/media/HREaIV-bMAAlYdI.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1788200208.674367
+  },
+  {
    "id": "2091118029178552594",
    "title": "The sci-future I dreamed about as a kid is right here at our doorstep Did you know you can request the raw photos from the Artemis II mission? There is a lot of information hidden in the RAWs that isn't visible in the jp",
    "sub": "AJamesMcCarthy",
@@ -361,25 +380,6 @@
    "video": null,
    "guide": false,
    "born": 1787761071.482273
-  },
-  {
-   "id": "2094488681600135346",
-   "title": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon Heavy carrying Roman Space Telescope transiting the sun. More about how it was captured and a video o",
-   "sub": "AJamesMcCarthy",
-   "where": "@AJamesMcCarthy on X",
-   "unit": "likes",
-   "selftext": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon Heavy carrying Roman Space Telescope transiting the sun. More about how it was captured and a video of the transit \ud83d\udc47",
-   "permalink": "https://x.com/AJamesMcCarthy/status/2094488681600135346",
-   "outlink": null,
-   "score": 11112,
-   "comments_n": 380,
-   "views": 159785,
-   "age_h": 26.7,
-   "vph": 416.2,
-   "image": "https://pbs.twimg.com/media/HREaIV-bMAAlYdI.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1788200208.674367
   },
   {
    "id": "2093731269590810752",
@@ -456,6 +456,25 @@
    "video": null,
    "guide": false,
    "born": 1788027098.084242
+  },
+  {
+   "id": "2094772922132959319",
+   "title": "Japan's 10Y Bond Yield chart is something for the history books. This is definitely not normal.",
+   "sub": "KobeissiLetter",
+   "where": "@KobeissiLetter on X",
+   "unit": "likes",
+   "selftext": "Japan's 10Y Bond Yield chart is something for the history books. This is definitely not normal.",
+   "permalink": "https://x.com/KobeissiLetter/status/2094772922132959319",
+   "outlink": null,
+   "score": 10254,
+   "comments_n": 264,
+   "views": 914889,
+   "age_h": 10.2,
+   "vph": 1004.7,
+   "image": "https://pbs.twimg.com/media/HRIg3sjXcAAybOg.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1788267842.324127
   },
   {
    "id": "2093768629493850586",
@@ -741,25 +760,6 @@
    "video": null,
    "guide": false,
    "born": 1786955094.023729
-  },
-  {
-   "id": "2092709284161155412",
-   "title": "BREAKING: Nvidia stock, $NVDA, falls -4% after reporting a record $96.2 billion in quarterly revenue. The company beat both revenue and EPS expectations and provided stronger than expected guidance.",
-   "sub": "KobeissiLetter",
-   "where": "@KobeissiLetter on X",
-   "unit": "likes",
-   "selftext": "BREAKING: Nvidia stock, $NVDA, falls -4% after reporting a record $96.2 billion in quarterly revenue. The company beat both revenue and EPS expectations and provided stronger than expected guidance.",
-   "permalink": "https://x.com/KobeissiLetter/status/2092709284161155412",
-   "outlink": null,
-   "score": 7382,
-   "comments_n": 725,
-   "views": 1654464,
-   "age_h": 33.7,
-   "vph": 219.1,
-   "image": "https://pbs.twimg.com/media/HQrL6VxXkAEoBp5.png",
-   "video": null,
-   "guide": false,
-   "born": 1787775752.450365
   }
  ]
 }
