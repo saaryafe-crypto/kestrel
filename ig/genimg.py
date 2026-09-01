@@ -28,13 +28,18 @@ USED = os.path.join(HERE, "genimg-used.json")
 # with nano banana ... only for the cover image"): generated imagery is the
 # COVER ONLY on nano-banana ($0.04); gpt-image-2 is retired — its $0.17 covers
 # burned the whole $45 August cap by Aug 29 and posts shipped pictureless.
-# Run rate now ~7 covers/day x $0.04 = ~$9/mo; caps are a runaway backstop.
+# Realistic run rate (Sep 1 measurement): ~9 posts/day x 2-4 QA-gated tries
+# x $0.04 = ~$0.90/day => ~$25-30/mo. The MONTH cap is a pure RUNAWAY BRAKE,
+# sized so it can never bind under normal operation (Sep 1 post-mortem: the
+# $12 cap + $0.90 cover lane starved covers mid-day and posts shipped
+# pictureless — the owner's #1 forbidden failure, flagged three times).
+# Covers book with floor=True (month brake only); retry counts in the
+# callers, not dollars, are what bound spend.
 # START: gpt-era ledger entries before this date don't count against the new
 # caps (August's $45.31 would otherwise block covers until Sep 1).
 START = "2026-08-30"
-MONTH_BUDGET, DAY_BUDGET = 12.00, 0.60
-# covers lane: 7 posts/day x up to 3 tries x $0.04 = $0.84 + spare
-COVER_DAY_BUDGET = 0.90
+MONTH_BUDGET, DAY_BUDGET = 60.00, 0.60
+COVER_DAY_BUDGET = 3.00  # only binds for non-floor bookings (none today)
 COST = 0.03  # Seedream: flat per output image, any size — nano-flake fallback
 URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 # nano-banana (primary since Aug 14 for persons, ALL covers since Aug 30):
@@ -215,7 +220,12 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False):
     if not cover:
         return None
     cost = NANO_COST
-    if not _book(cost, cover=True):
+    # floor=True: covers are NEVER starved by a daily dollar cap (Sep 1
+    # post-mortem: the $0.90 cover lane died mid-day under QA retries and 4
+    # posts shipped pictureless AGAIN — the exact failure the owner already
+    # flagged twice). Spend is bounded structurally instead: the callers cap
+    # attempts per cover, so only the month backstop can stop a booking.
+    if not _book(cost, cover=True, floor=True):
         print("genimg: skipping (budget out)", file=sys.stderr)
         return None
     # Seedream-optimal 5-part structure (subject/action/setting come from the

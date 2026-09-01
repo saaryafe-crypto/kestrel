@@ -231,6 +231,27 @@ def _image_brightness(path):
         return -1
 
 
+def _brighten(path, floor):
+    """Lift a too-dark generated image IN PLACE (free) before rejecting it —
+    a brightness reject costs a whole $0.04 regeneration (Sep 1 post-mortem:
+    QA retries burned the cover budget mid-day and posts shipped pictureless).
+    Autocontrast + a capped brightness lift; the cap (1.8x) keeps a genuinely
+    black-void image failing the gate so a regen still happens when deserved.
+    Returns the new mean brightness (or -1)."""
+    try:
+        from PIL import Image, ImageEnhance, ImageOps
+        img = Image.open(path).convert("RGB")
+        img = ImageOps.autocontrast(img, cutoff=1)
+        grey = img.convert("L").getdata()
+        mean = sum(grey) / len(grey)
+        if 0 < mean < floor:
+            img = ImageEnhance.Brightness(img).enhance(min((floor + 8) / mean, 1.8))
+        img.save(path, "JPEG", quality=92)
+        return _image_brightness(path)
+    except Exception:
+        return -1
+
+
 def image_score(path, headline, generated=False, person=False, cover=False):
     """Vision judge for slide images. Returns (usable, score 0-10, flaw).
     usable = publish as-is; the score ranks sibling attempts (owner rule
@@ -247,6 +268,14 @@ def image_score(path, headline, generated=False, person=False, cover=False):
     if generated:
         floor = 80 if cover else 60
         brightness = _image_brightness(path)
+        if 0 <= brightness < floor:
+            # free salvage first — only images that stay dark after a real
+            # lift are void enough to deserve a paid regeneration
+            lifted = _brighten(path, floor)
+            if lifted >= floor:
+                print(f"genimg brightness gate: {brightness:.0f}/255 lifted to "
+                      f"{lifted:.0f} in place — no regen", file=sys.stderr)
+            brightness = lifted
         if 0 <= brightness < floor:
             print(f"genimg brightness gate: {brightness:.0f}/255 < {floor} — auto-reject",
                   file=sys.stderr)
