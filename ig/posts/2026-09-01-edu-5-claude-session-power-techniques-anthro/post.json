@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>5 CLAUDE TRICKS</em> THAT FIT A FULL WEEK INTO ONE SESSION, MOST PEOPLE OVERLOOK EVERY ONE",
+   "kicker": "MOST PAYING USERS WASTE HALF THEIR HOURS",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-01-edu-5-claude-session-power-techniques-anthro/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up, wide triumphant grin, holding five thick envelopes fanned like a winning poker hand \u2014 orange, green, gold, red, cobalt blue \u2014 one fist raised toward camera, other hand gesturing outward with quiet confidence. Warm craftsman workshop behind him: wooden shelves packed with rolled blueprints, bright orange metal toolboxes, Edison bulbs glowing rich amber; the Claude logo exactly as in the reference image as a large backlit neon sign on the amber-cream wall. Documentary news photo, 35mm, natural skin texture, film grain. Zero readable text. Accent: electric orange against warm amber cream."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>GET FIVE EXPERT OPINIONS</em> IN ONE PROMPT",
+   "hsize": 100,
+   "body": "A strategy consultant charges <b>$300 to $500</b> an hour and gives you one perspective.\n\nThis prompt gives you five expert lenses on the same decision, in one session, for free.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>WRITE 20 COPY VARIATIONS</em> IN ONE PROMPT",
+   "hsize": 100,
+   "body": "You burn <b>20 separate back-and-forths</b> getting 20 options one at a time.\n\nThis gets every variation in one response, each labeled by hook type so you know what to test.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>GET ALL PROJECT DELIVERABLES</em> IN ONE SESSION",
+   "hsize": 100,
+   "body": "Most business owners spread one project across <b>four or five sessions</b>, one deliverable each time.\n\nThis prompt collapses all five into a single response.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "FIVE EXPERTS. ONE PROMPT. $0.",
+   "hsize": 80,
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>MAKE CLAUDE DESTROY</em> ITS OWN ADVICE",
+   "hsize": 100,
+   "body": "Claude's first answer is its polite answer.\n\nThis follow-up prompt forces it to name the three most specific reasons you should not follow it.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>PICK UP MID-PROJECT</em> WHEN YOUR LIMITS RESET",
+   "hsize": 100,
+   "body": "Anthropic's paid plans have <b>weekly usage limits</b> that reset.\n\nWhen yours runs out mid-project, most people start from scratch, this handoff prompt means you never lose progress.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: 5 TRICKS</em> THAT FIT A WEEK INTO ONE SESSION",
+   "hsize": 84,
+   "body": "\u2022 Expert Panel: five views, one prompt\n\u2022 Batch 20: all variations, labeled\n\u2022 Contrarian Audit: Claude finds its flaw\n\u2022 Memory Handoff: resume when limits reset\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe. These 5 Claude techniques fit a week of work into one session, and Anthropic confirmed hidden limits on paid plans this week. \ud83d\udca1\n\nThe Expert Panel gives you five expert opinions in one prompt for free, the Batch 20 writes every copy variation at once labeled by hook type, the Everything Stack generates all your project deliverables in a single session instead of five, the Contrarian Audit forces Claude to find the fatal flaw in its own advice before you act on it, and the Memory Handoff creates a document you paste into a fresh session when your usage limits reset so Claude picks up exactly where you stopped.\n\nAnthropic's usage limits went viral this week as power users hit them mid-project. Smart ones treat every session like a sprint: all deliverables at once, all variations in one go, a handoff before it ends. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic\n\n#Claude #AITools #AIForBusiness #Productivity #ArtificialIntelligence",
+ "pinned_comment": "Which one are you trying tonight? Slide 7 is the sleeper. Most people hit their Claude limit mid-project and restart from scratch. The handoff prompt means you never lose where you stopped.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 CLAUDE SESSION SECRETS</em> MOST PAYING USERS NEVER FIND",
+   "<em>5 CLAUDE MOVES</em> THAT DO A WEEK IN ONE GO",
+   "<em>CLAUDE HAS HIDDEN LIMITS.</em> HERE ARE 5 WORKAROUNDS",
+   "<em>ONE PROMPT</em> THAT GIVES YOU FIVE EXPERT OPINIONS FOR FREE",
+   "<em>5 CLAUDE TRICKS</em> THAT FIT A WEEK INTO ONE SESSION"
+  ],
+  "scores": [
+   5,
+   6,
+   8,
+   7,
+   6
+  ],
+  "winner": 2,
+  "why": "HIDDEN taps the 'wait, WHAT?' nerve that stops mid-scroll browsing, while [3]'s specific offer just reads like another productivity tip. Revelation beats features."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>CLAUDE HAS HIDDEN LIMITS.</em> HERE ARE 5 WORKAROUNDS",
+   "<em>5 CLAUDE TRICKS</em> THAT FIT A FULL WEEK INTO ONE SESSION \u2014 MOST PEOPLE OVERLOOK EVERY ONE"
+  ],
+  "scores": [
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] leads with a concrete, valuable benefit (compress a week) plus FOMO that hits any viewer, while [0] just hints at hidden limits most strangers don't know exist. The emotional hook is way stronger."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "IMAGE LAW: The cover shows a generated unknown face \u2014 a photo-realistic AI-generated man holding colored cards. IMAGE LAW bans this explicitly ('Never a generated unknown face'). The Claude neon sign in the background satisfies brand presence but does not override the face ban. Fix: remove the person, keep the brand-mark-and-props scene, or swap to a recognizable real face from Anthropic leadershi",
+ "topic_source": "news-anchored"
+}
