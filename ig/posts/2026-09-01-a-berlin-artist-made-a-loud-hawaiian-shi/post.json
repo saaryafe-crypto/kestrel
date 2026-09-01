@@ -1,0 +1,131 @@
+{
+ "kicker": "EVERYONE NEXT TO HIM GOT DETECTED",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE LOUDEST SHIRT IN THE ROOM <em>MADE ONE MAN INVISIBLE TO AI CAMERAS</em> FOR $75",
+   "hsize": 64,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EVERY STORE AND AIRPORT TRUSTS AI CAMERAS <em>TO TRACK EVERY PERSON IN THE ROOM</em>",
+   "hsize": 88,
+   "body": "That's the whole point of it.\n\nEvery person gets a box. Every second. No exceptions.\n\nUntil a shirt changed that",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "SIMON WECKERT KEPT TESTING PATTERNS <em>UNTIL THE MACHINE STOPPED SEEING HIM</em>",
+   "hsize": 88,
+   "body": "He targeted <b>YOLO</b>, the AI that spots people in surveillance footage. The kind scanning the lobby you walked through this morning.\n\nHe tested patterns until it stopped seeing him.\n\nEveryone else's box stayed",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$75.",
+   "hsize": 112,
+   "body": "And nobody in the room noticed.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE SHIRT THAT <em>HIDES YOU FROM AI</em> IS THE LOUDEST THING IN THE ROOM",
+   "hsize": 88,
+   "body": "A Hawaiian print. The kind you'd clock from across a room.\n\nEvery human saw it instantly. But to the machine watching the feed, he didn't exist",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "IT FOOLS <em>CERTAIN AI SYSTEMS.</em> NOT THE COPS.",
+   "hsize": 88,
+   "body": "It works on open models like <b>YOLO</b>, used in real venues right now.\n\nA cop looking at the same screen would still see you.\n\nBut every venue running this right now is already exposed.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EVERY BUSINESS RUNNING AI SECURITY <em>NOW HAS A DOCUMENTED BLIND SPOT</em>",
+   "hsize": 88,
+   "body": "Your automated security just became a fashion problem.\n\nAny open system can be fooled with a shirt ordered online. No alarm triggered.\n\nThe fix is a software update",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>THE $75 SHIRT AI CAMERAS REFUSE TO SEE</em>",
+   "hsize": 60,
+   "body": "Simon Weckert reverse-engineered AI surveillance\nTested patterns against <b>YOLO</b>\nAI boxed the crowd, skipped him\nOnly works on open models, not every camera\n\nSend this to someone who still thinks AI cameras catch everyone",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how a $75 Hawaiian shirt beat AI surveillance cameras while every person nearby got detected. \ud83d\udc41\ufe0f\n\nThe belief that AI cameras reliably track every person, Simon Weckert and his YOLO test, the shirt that costs $75, the moment the AI drew boxes around the whole crowd and left a blank space where he stood, the irony that the loudest shirt in the room vanishes to the machine, the limits of the trick, and what it means for businesses running automated security.\n\nAI surveillance is supposed to catch everyone, every time. One shirt just showed that's not always true. The camera in your store might have a blind spot anyone can order online.\n\nRunning a business with security systems? DM us \"AI\" and we'll show you what this means for yours.\n\nSources: Mario Nawfal on X, Aug 31, 2026\n\n#AI #surveillance #technology #privacy #artificialintelligence",
+ "pinned_comment": "The part that didn't fit: this shirt does nothing against a cop looking at the same camera feed. The AI is blind. The human still sees you.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "A BERLIN ARTIST MADE A <em>$75 HAWAIIAN SHIRT</em> THAT TRICKS AI CAMERAS INTO <em>TREATING HIM AS A GHOST</em>",
+   "THE LOUDEST SHIRT IN THE ROOM <em>MADE ONE MAN INVISIBLE TO AI CAMERAS</em> FOR $75",
+   "A <em>$75 SHIRT</em> IS THE MOST VISIBLE THING IN THE ROOM AND MAKES YOU <em>COMPLETELY INVISIBLE TO AI SURVEILLANCE CAMERAS</em>",
+   "A BERLIN ARTIST WORE A $75 HAWAIIAN SHIRT AND <em>AN AI SURVEILLANCE CAMERA REFUSED TO COUNT HIM AS A PERSON</em>",
+   "THE AI CAMERAS WATCHING YOU IN STORES AND AIRPORTS <em>CANNOT DETECT A PERSON WEARING A $75 HAWAIIAN SHIRT</em>",
+   "AI SURVEILLANCE CAMERAS BOXED EVERY PERSON IN THE ROOM <em>AND LEFT A BLANK SPACE WHERE THE HAWAIIAN SHIRT WAS</em>",
+   "A BERLIN ARTIST STOOD IN A CROWD AND <em>THE AI REFUSED TO SEE HIM AS A PERSON</em> BECAUSE OF HIS SHIRT",
+   "AN AI SURVEILLANCE CAMERA DREW DETECTION BOXES AROUND EVERY PERSON IN THE FRAME <em>AND COMPLETELY SKIPPED THE GUY IN THE $75 SHIRT</em>",
+   "THIS GUY WORE A <em>$75 HAWAIIAN SHIRT</em> IN FRONT OF AN AI SURVEILLANCE CAMERA AND <em>STOPPED SHOWING UP AS A PERSON</em>",
+   "A $75 HAWAIIAN SHIRT MADE ONE MAN <em>INVISIBLE TO AN AI SURVEILLANCE CAMERA</em> WHILE EVERYONE AROUND HIM STAYED DETECTED"
+  ],
+  "scores": [
+   7,
+   9,
+   8.5,
+   6.5,
+   7.5,
+   8.5,
+   6.5,
+   8,
+   6,
+   8.5
+  ],
+  "winner": 1,
+  "why": "[1]'s 'loudest shirt = invisible' paradox hits your brain faster than [2]'s explicit 'visible = invisible'\u2014the contradiction is harder to dismiss while scrolling because you have to process the steps. Cognitive dissonance stops the scroll; clear paradoxes don't."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "AI DREW BOXES AROUND EVERY PERSON IN THE FRAME <em>AND SKIPPED THE ONE GUY IN THE $75 SHIRT</em>",
+   "A GUY WORE A <em>$75 SHIRT</em> INTO A CROWD AND AI CAMERAS <em>BOXED EVERY PERSON IN THE FRAME EXCEPT HIM</em>",
+   "THE AI CAMERAS WATCHING YOU IN STORES DETECTED EVERY PERSON IN THE ROOM <em>AND COMPLETELY MISSED THE GUY IN THE $75 SHIRT</em>",
+   "THE LOUDEST SHIRT IN THE ROOM <em>MADE ONE MAN INVISIBLE TO AI CAMERAS</em> FOR $75"
+  ],
+  "scores": [
+   5,
+   7,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "The 'loudest invisible' paradox creates instant 'wait, WHAT?' that stops your scroll. [1]'s narrative clarity relies on technical language ('boxed') that doesn't grip as hard at 2am."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Simon Weckert",
+  "actor_known": false,
+  "anchor": "a $75 shirt",
+  "specifics": [
+   "AI drew detection boxes around everyone in the frame except the guy in the shirt \u2014 he was literally erased",
+   "$75 is all it costs to become a ghost to AI surveillance",
+   "The shirt is a loud Hawaiian print \u2014 the most human-visible thing imaginable, invisible to the machine",
+   "YOLO is a widely used real-world people-detection system, not a lab experiment",
+   "It doesn't fool cops \u2014 only the AI watching the same camera feed"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "\ud83c\udde9\ud83c\uddea A Berlin artist made a loud Hawaiian shirt that can hide you from some AI cameras. Simon Weckert kept testing patterns against YOLO, a common system that spots people in video, until the software stopped tagging him a",
+  "link": "https://x.com/MarioNawfal/status/2094547528536740305",
+  "judge_interest": 6,
+  "scout_score": 54.6
+ }
+}
