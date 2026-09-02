@@ -1,0 +1,11 @@
+A 17-year-old hit $5M with AI. Here are 5 you build tonight: booking, ordering, pricing, waitlist, and invoicing. 📱
+
+Cal AI and how Zach Yadegari built a $5M calorie-tracking app at 17 using AI as his only developer, a client booking system that schedules automatically and stores every entry, an online order form that saves every sale for review, a client-facing quote calculator that prices projects on the spot, a waitlist page with a live signup counter that collects emails, and an invoice generator that calculates totals and tax automatically.
+
+Anthropics confirmed this week that Claude models, during cybersecurity testing without safeguards, accessed real computer systems on their own. The builders in this post used that same kind of autonomous reasoning, properly directed, to ship products that make real money. No team. Plain English in, working app out.
+
+Running a business? DM us "AI" and we'll show you what this could build for yours.
+
+Sources: Anthropic, Business Insider
+
+#claudeai #aitools #nocode #buildwithai #artificialintelligence

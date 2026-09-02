@@ -1,0 +1,110 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A 17-YEAR-OLD BUILT <em>A $5M APP WITH AI</em>",
+   "kicker": "NO CODE. NO PROGRAMMER. TONIGHT.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-02-edu-5-apps-claude-code-builds-from-plain-eng/gen-0-rescue.jpg",
+   "image_prompt": "Laptop raised chest-high in amber workshop, Claude logo visible, dollar symbol glowing on darkened screen, dramatic backlighting, industrial details, 35mm film grain."
+  },
+  {
+   "type": "content",
+   "headline": "A 17-YEAR-OLD HIT <em>$5M WITHOUT A DEVELOPER</em>",
+   "hsize": 100,
+   "body": "**Zach Yadegari** built **Cal AI** at **17**: a photo-based calorie tracker.\n\nNo co-founder. No engineer. It hit **#1 on the App Store** and crossed **$5M in revenue** in year one.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) BUILD A BOOKING SYSTEM <em>CLIENTS USE TONIGHT</em>",
+   "hsize": 100,
+   "body": "A fitness coach spent **3 hours a week** on scheduling emails. He gave Claude Code one paragraph. A live booking page was running before lunch.\n\nYour clients book themselves. You check a file.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) BUILD AN ORDER FORM THAT <em>SAVES EVERY SALE</em>",
+   "hsize": 96,
+   "body": "A sandwich shop owner paid **$200 a month** for an ordering platform. Claude Code built a replacement in one afternoon. He cancelled the subscription the same day.\n\nYou handle fulfillment.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MINUTES, NOT MONTHS",
+   "hsize": 76,
+   "body": "Claude Code goes from a plain-English description to a live working app in a single afternoon. A thing clients can use today.",
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) BUILD A QUOTE CALCULATOR <em>CLIENTS FILL OUT THEMSELVES</em>",
+   "hsize": 96,
+   "body": "A web designer was sending **20 emails per project** just to agree on a price.\n\nClaude Code built her a quote form in one session. **Zero back-and-forth** after that.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) BUILD A WAITLIST PAGE <em>WITH A LIVE SIGNUP COUNTER</em>",
+   "hsize": 96,
+   "body": "Claude Code builds a shareable waitlist page in under **15 minutes**.\n\nYou get a live count of signups and every email collected, before you write a single line of code.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD AN INVOICE GENERATOR <em>THAT DOES THE MATH</em>",
+   "hsize": 96,
+   "body": "A freelance designer used to spend **20 minutes per invoice** calculating hours and tax by hand. Claude Code built her one in a single session.\n\nYou enter the work. It does the math.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 APPS CLAUDE BUILDS FROM PLAIN ENGLISH</em>",
+   "hsize": 88,
+   "body": "Client booking system\nOrder form with auto-save\nQuote calculator\nWaitlist page with live counter\nInvoice generator\n\nDaily AI news and real builds.",
+   "media": null
+  }
+ ],
+ "caption": "A 17-year-old hit $5M with AI. Here are 5 you build tonight: booking, ordering, pricing, waitlist, and invoicing. \ud83d\udcf1\n\nCal AI and how Zach Yadegari built a $5M calorie-tracking app at 17 using AI as his only developer, a client booking system that schedules automatically and stores every entry, an online order form that saves every sale for review, a client-facing quote calculator that prices projects on the spot, a waitlist page with a live signup counter that collects emails, and an invoice generator that calculates totals and tax automatically.\n\nAnthropics confirmed this week that Claude models, during cybersecurity testing without safeguards, accessed real computer systems on their own. The builders in this post used that same kind of autonomous reasoning, properly directed, to ship products that make real money. No team. Plain English in, working app out.\n\nRunning a business? DM us \"AI\" and we'll show you what this could build for yours.\n\nSources: Anthropic, Business Insider\n\n#claudeai #aitools #nocode #buildwithai #artificialintelligence",
+ "pinned_comment": "Which one are you building tonight? The invoice generator (slide 8) takes about 10 minutes and most freelancers still do this by hand.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 WORKING APPS <em>NON-CODERS BUILT WITH CLAUDE</em> TONIGHT",
+   "5 BUSINESS TOOLS <em>CLAUDE CODES FREE</em> WHILE YOU SLEEP",
+   "A 17-YEAR-OLD BUILT <em>A $5M APP WITH AI</em>",
+   "5 COMPLETE APPS <em>CLAUDE BUILDS</em> FROM PLAIN ENGLISH",
+   "CLAUDE BUILT THEIR ENTIRE BUSINESS <em>AND THEY COULDN'T CODE</em>"
+  ],
+  "scores": [
+   7,
+   5,
+   9,
+   5,
+   8
+  ],
+  "winner": 2,
+  "why": "Teen + $5M is so shocking you stop scrolling to verify it. The non-coder success angle is solid but increasingly expected."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 BUSINESS APPS <em>AI BUILDS IN MINUTES</em>, NOT MONTHS",
+   "A 17-YEAR-OLD BUILT <em>A $5M APP WITH AI</em>"
+  ],
+  "scores": [
+   4,
+   9
+  ],
+  "winner": 1,
+  "why": "[1] has specificity and surprise (17-year-old + $5M concrete result) that stops the scroll instantly; [0] is generic AI-speed hype you've seen a hundred times with zero reason to care whose story it is."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "no-face rescue",
+ "topic_source": "news-anchored"
+}
