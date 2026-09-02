@@ -1,0 +1,89 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 AI TOOLS THAT BUILT A 4-EPISODE SITCOM. <em>ALL OF THEM FREE.</em>",
+   "kicker": "ONE CREATOR. FOUR EPISODES.",
+   "hsize": 72,
+   "media": "posts/2026-09-02-edu-5-free-ai-content-tools-one-creator-used/gen-0.jpg",
+   "image_prompt": "Studio light arm with dollar and red cross symbols hanging from it, coral sitcom sofa against teal backdrop, film grain, on-camera flash."
+  },
+  {
+   "type": "content",
+   "headline": "A CREATOR SHIPPED 4 EPISODES OF <em>AN AI SITCOM PEOPLE WON'T STOP WATCHING</em>",
+   "hsize": 82,
+   "body": "**Daria Zabnieva** built **Bad Cat**, a fully AI-generated sitcom, to **4 episodes** with fans already waiting for the next one.\n\n**Zero** studio. **Zero** team.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>GENERATE CINEMATIC VIDEO</em> FROM A TYPED SENTENCE",
+   "hsize": 102,
+   "body": "A clip that costs **$500** in a studio takes **90 seconds** and zero dollars in Kling.\n\nGo to **klingai.com**, sign up free. Paste a sentence. A **5-second cinematic clip** appears.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) VOICE YOUR ENTIRE SHOW FOR FREE IN TWO MINUTES",
+   "hsize": 96,
+   "layout": "break",
+   "body": "A professional voice actor charges **$250 per hour**. ElevenLabs does the same job in **two minutes** for free.\n\nGo to **elevenlabs.io**. You get **10,000 characters per month** at zero cost.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>MAKE ORIGINAL MUSIC</em> IN 30 SECONDS",
+   "hsize": 108,
+   "body": "A custom track from a composer costs **$200 to $500**. Suno generates one from a sentence in **30 seconds** for free.\n\nGo to **suno.com**. You get **10 songs per day**, no royalties owed.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>WRITE A FULL EPISODE SCRIPT</em> FROM ONE SENTENCE",
+   "hsize": 100,
+   "body": "Claude writes a full episode script in **90 seconds** from one idea, free at **claude.ai**.\n\nPaste your show's name and ask for characters, scene breakdown, and dialogue ready for a voice generator.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>ANIMATE ANY CHARACTER</em> FROM A DESCRIPTION",
+   "hsize": 108,
+   "body": "Go to **pika.art**, sign up free. Describe your character, emotion, and movement. A **3-to-5-second animated clip** appears.\n\nStack these clips in any free video editor and you have a complete sequence.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: 5 FREE TOOLS FOR YOUR CONTENT STUDIO</em>",
+   "hsize": 92,
+   "body": "\u2022 Kling AI: video from text\n\u2022 ElevenLabs: voice in minutes\n\u2022 Suno: original music in 30 seconds\n\u2022 Claude: scripts from one sentence\n\u2022 Pika: animated characters\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through each tool and test one tonight. An AI sitcom just proved a solo creator can go to air with no budget and no team. \ud83c\udfac\n\nKling AI for cinematic video clips from a typed sentence, ElevenLabs for professional voice in two minutes, Suno for original music in 30 seconds, Claude for a full episode script from one idea, Pika for animated characters from a description.\n\nDaria Zabnieva built Bad Cat, an AI sitcom, 4 episodes in with fans waiting for more. No network. No team. The cost of content production has collapsed. These five free tools are why. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Daria Zabnieva on X, klingai.com, elevenlabs.io, suno.com, pika.art\n\n#AItools #ContentCreation #AIvideo #CreatorEconomy #FreeAI",
+ "pinned_comment": "Which tool are you testing first? Slide 4 (the Claude script prompt) is the one most people skip and then regret.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 FREE TOOLS <em>MAKING SOLO CREATORS INTO STUDIOS</em>",
+   "PEOPLE ARE QUIETLY BUILDING <em>TV SHOWS WITH 5 FREE AI TOOLS</em>",
+   "AN AI SITCOM JUST HIT 4 EPISODES. <em>ONE CREATOR. ZERO BUDGET.</em>",
+   "5 FREE AI TOOLS <em>REPLACING AN ENTIRE TV PRODUCTION TEAM</em>",
+   "5 FREE TOOLS <em>THAT BUILT AN ENTIRE TV SHOW</em>"
+  ],
+  "scores": [
+   2,
+   5,
+   9,
+   4,
+   3
+  ],
+  "winner": 2,
+  "why": "[2] shows you exactly what happened (AI sitcom, 4 episodes, zero budget) in a way that stops you mid-scroll; [1] hides behind 'quietly building' and makes you guess. Concrete proof beats vague mystery at 2am."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (5/10)",
+ "topic_source": "news-anchored"
+}
