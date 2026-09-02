@@ -1,30 +1,5 @@
 [
  {
-  "page": "technology",
-  "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from faster humanoid robots and Apple leaks to Tesla\u2019s Cybercab plans and changing YouTube metrics \ud83e\udd16\n\nUnitree\u2019s Superman prototype claimed a top spe",
-  "date": "2026-08-18"
- },
- {
-  "page": "technology",
-  "hook": "\"Someone has unofficially turned Canon\u2019s EOS 550D DSLR into a playable DOOM machine using Magic Lantern software loaded directly from an SD card \ud83d\udcf7\ud83c\udfae\n\nThe experimental port lets players control DOOM using the camera\u2019s phys",
-  "date": "2026-08-18"
- },
- {
-  "page": "futurism",
-  "hook": "\"Online marketplaces are being flooded with AI slop \u2014 but is anybody willing to actually pay for it?\n\nIn the case of CGTrader, a long-established online marketplace for 3D assets used by video game developers, film edito",
-  "date": "2026-08-18"
- },
- {
-  "page": "mashable",
-  "hook": "\"The Mashable Big Guessing Game is back again for our third and final round. In the first round, we tried to guess the new name of macOS (only one person correctly predicted \"Golden Gate\"), and in the second round, we tr",
-  "date": "2026-08-18"
- },
- {
-  "page": "mashable",
-  "hook": "\"AirPods with built-in cameras have been the subject of rumors for years, but now we have evidence that Apple is really working on these, and that they're probably coming very soon.\u2060\n\u2060\nThe latest macOS Tahoe 26.7 beta co",
-  "date": "2026-08-18"
- },
- {
   "page": "mashable",
   "hook": "\"When I was growing up, there were few words more devastating than \u201cposer.\u201d \n\nI still remember getting called one during my freshman year of high school after showing up in a pair of DC skate shoes. It didn\u2019t matter that",
   "date": "2026-08-19"
@@ -583,5 +558,10 @@
   "page": "wired",
   "hook": "\"Only 48 percent of US adults think online dating is safe, and women are more likely than men to say dating apps are dangerous, according to a 2023 Pew Research Center survey, with six in 10 Americans saying companies sh",
   "date": "2026-08-30"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"When president Donald Trump, in his latest paroxysm, declared that he would be renaming Lake Ontario to \u201cLake America,\u201d Google instantly capitulated. So eager was it to realize his will that it actually renamed the lake",
+  "date": "2026-09-01"
  }
 ]
