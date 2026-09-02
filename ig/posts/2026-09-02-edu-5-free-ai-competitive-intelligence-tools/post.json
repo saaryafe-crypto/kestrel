@@ -1,0 +1,107 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 FREE AI MOVES <em>YOUR COMPETITORS ARE ALREADY USING AGAINST YOU</em>",
+   "kicker": "None cost a dollar to start",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-02-edu-5-free-ai-competitive-intelligence-tools/gen-0.jpg",
+   "image_prompt": "Dario Amodei holds a tiny storefront balanced in his palm beneath an oversized magnifying glass, orange lens revealing dollar symbols, detective coat, sunlit cobalt-blue city street, 35mm flash news photo"
+  },
+  {
+   "type": "content",
+   "headline": "1) SEARCH YOUR RIVAL ON PERPLEXITY. <em>THEY HAND YOU EVERYTHING IN 60 SECONDS.</em>",
+   "hsize": 82,
+   "body": "A competitive research firm charges $400 an hour to compile what Perplexity returns for free:\n\n\u2022 their pricing\n\u2022 their weak reviews\n\u2022 their recent news\n\u2022 the gap a rival could step into",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) DROP THEIR HOMEPAGE INTO CLAUDE. <em>IT FINDS EVERY WEAK SPOT IN 30 SECONDS.</em>",
+   "hsize": 82,
+   "body": "Their homepage tells you their main promise, who they think their customer is, and where they're leaving buyers on the table.\n\nClaude reads the whole thing in 30 seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) BROWSE THEIR GOOGLE REVIEWS WITH CHATGPT. <em>EVERY IGNORED COMPLAINT APPEARS.</em>",
+   "hsize": 84,
+   "body": "Their Google reviews are public. Most owners skim them once.\n\nChatGPT reads every single one and returns the five complaints your rival has never fixed.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>$3,000</em>",
+   "hsize": 110,
+   "body": "WHAT AGENCIES CHARGE PER MONTH TO WATCH YOUR RIVALS.\n\nAll five tools here: free",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) SET A FREE GOOGLE ALERT. <em>CLAUDE TURNS IT INTO A WEEKLY RIVAL BRIEFING.</em>",
+   "hsize": 82,
+   "body": "Set a free Google Alert for any competitor at alerts.google.com.\n\nA strategy consultant charges $150 per session for this exact briefing. Running it yourself takes 3 minutes",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) PULL THEIR OLD SITE FROM ARCHIVE.ORG. <em>CLAUDE SHOWS WHAT THEY QUIETLY ABANDONED.</em>",
+   "hsize": 82,
+   "body": "archive.org keeps free snapshots of every website going back years.\n\nWhatever they abandoned is a warning or a gap, worth knowing before you spend a dollar testing it yourself.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 FREE RIVAL-WATCHING TOOLS</em>",
+   "hsize": 96,
+   "body": "\u2022 Perplexity: report, 60 sec\n\u2022 Claude: homepage scan\n\u2022 ChatGPT + Maps: complaints\n\u2022 Google Alerts + Claude: briefing\n\u2022 Wayback + Claude: what they abandoned\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through \u2192 5 free AI tools that watch your competitors so you don't have to. \ud83d\udd0d\n\n1) Perplexity AI: type a rival's name, get a full research report in 60 seconds,\n2) Claude vision: screenshot their homepage and get a weakness breakdown in 30 seconds,\n3) ChatGPT: browse their Google reviews and surface every complaint they never fix,\n4) Google Alerts plus Claude: paste a free weekly digest into Claude for a rival strategy briefing,\n5) Wayback Machine plus Claude: upload an old screenshot of their site alongside today's version and find what they quietly abandoned.\n\nA Berlin artist just proved the AI embedded in public cameras is free online. Your competitors' pricing, reviews, and old strategy are all sitting in public data. These five tools read all of it. Most owners don't know they exist.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Perplexity AI, Anthropic, OpenAI, archive.org, Simon Weckert AI camera pattern research\n\n#AItools #SmallBusiness #CompetitorResearch #FreeAI #BusinessOwner",
+ "pinned_comment": "Which one are you running first? Slide 3 surprises people every time because the reviews are already public and nobody ever reads all of them.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 FREE TOOLS QUIETLY <em>WATCHING YOUR COMPETITORS</em>",
+   "YOUR RIVAL'S WEAK SPOTS <em>ARE NOW FREE TO READ WITH AI</em>",
+   "5 FREE AI TRICKS <em>YOUR COMPETITORS DON'T KNOW EXIST</em>",
+   "5 FREE AI TOOLS <em>PEOPLE USE TO WATCH RIVALS</em>",
+   "PEOPLE ARE LETTING FREE AI <em>READ THEIR COMPETITORS OVERNIGHT</em>"
+  ],
+  "scores": [
+   5,
+   8,
+   9,
+   6,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] hits with instant FOMO\u2014'tricks they don't know exist' makes you curious and want to tap. [1] is clear and solid but reads like a straightforward pitch, missing the psychological hook that stops 2am scrollers."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 FREE WAYS TO EXPOSE <em>EVERY WEAK SPOT IN YOUR RIVAL IN 60 SECONDS</em>",
+   "5 FREE AI TOOLS <em>THAT REPLACE $3,000 IN COMPETITOR RESEARCH</em>",
+   "5 FREE AI TRICKS <em>YOUR COMPETITORS DON'T KNOW EXIST</em>",
+   "5 FREE AI MOVES <em>YOUR COMPETITORS ARE ALREADY USING AGAINST YOU</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   5,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] triggers personal threat and FOMO\u2014'they're ALREADY using this AGAINST you' makes you stop scrolling because you feel like you're losing right now. [1]'s dollar-amount angle is solid but it's just math; [3] is survival instinct."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW \u2014 GENERATED UNKNOWN FACE ON COVER: The cover shows a generated unknown person (detective in trench coat with magnifying glass). IMAGE LAW explicitly bans this: 'Never a generated unknown face.' Legal alternatives for this multi-tool post: a styled card showing the five tool logos/brand marks on a vivid background, or a split-screen graphic of a competitor's data being revealed. No single",
+ "topic_source": "news-anchored"
+}
