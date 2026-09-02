@@ -1,0 +1,108 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>חמישה טריקים ב-Claude</em> שדוחסים שבוע לשיחה אחת, ורוב האנשים בכלל לא מכירים אותם",
+   "kicker": "אתה מבזבז חצי מהמנוי שלך",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-01-edu-5-claude-session-power-techniques-anthro/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up, wide triumphant grin, holding five thick envelopes fanned like a winning poker hand — orange, green, gold, red, cobalt blue — one fist raised toward camera, other hand gesturing outward with quiet confidence. Warm craftsman workshop behind him: wooden shelves packed with rolled blueprints, bright orange metal toolboxes, Edison bulbs glowing rich amber; the Claude logo exactly as in the reference image as a large backlit neon sign on the amber-cream wall. Documentary news photo, 35mm, natural skin texture, film grain. Zero readable text. Accent: electric orange against warm amber cream."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>חמש דעות מומחה</em> בפרומפט אחד",
+   "hsize": 100,
+   "body": "יועץ אסטרטגי גובה <b>300 עד 500 דולר</b> לשעה ונותן לך נקודת מבט אחת.\n\nהפרומפט הזה נותן לך חמש זוויות מומחה על אותה ההחלטה, בשיחה אחת, בחינם.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>20 גרסאות קופי</em> בפרומפט אחד",
+   "hsize": 100,
+   "body": "אתה שולח <b>20 הודעות נפרדות</b> ומקבל אפשרות אחת בכל פעם.\n\nהפרומפט הזה מחזיר את כל הגרסאות בתשובה אחת, כל אחת עם תווית לפי סוג ההוק, כדי שתדע מה לבדוק.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>כל תוצרי הפרויקט</em> בשיחה אחת",
+   "hsize": 100,
+   "body": "רוב בעלי העסקים פורסים פרויקט אחד על פני <b>ארבע עד חמש שיחות</b>, תוצר אחד בכל פעם.\n\nהפרומפט הזה דוחס את כולם לתשובה אחת.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "חמישה מומחים. פרומפט אחד. $0.",
+   "hsize": 80,
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>Claude יתקוף</em> את העצה שלו בעצמו",
+   "hsize": 100,
+   "body": "התשובה הראשונה של Claude היא התשובה הנחמדה שלו.\n\nהפרומפט הזה מכריח אותו להגיד לך את שלוש הסיבות הכי ספציפיות שבגללן לא כדאי לך לפעול לפיו.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>לא מתחילים מאפס</em> כשהלימיט מתאפס",
+   "hsize": 100,
+   "body": "לתוכניות בתשלום של Anthropic יש <b>מגבלות שימוש שבועיות</b> שמתאפסות.\n\nכשנגמר לך הלימיט באמצע פרויקט, רוב האנשים מתחילים מאפס. הפרומפט הזה מוודא שלא תאבד את ההתקדמות.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה: חמישה טריקים</em> שדוחסים שבוע לשיחה אחת",
+   "hsize": 84,
+   "body": "• Expert Panel: חמש זוויות, פרומפט אחד\n• Batch 20: כל הגרסאות עם תוויות\n• Contrarian Audit: Claude מוצא את הבאג שלו\n• Memory Handoff: ממשיכים כשהלימיט מתאפס\n\nחדשות AI יומיות + כישורים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "חמישה טריקים ב-Claude שדוחסים שבוע עבודה לשיחה אחת, ו-Anthropic אישרה השבוע מגבלות שימוש מוסתרות בתוכניות בתשלום. 💡\n\nה-Expert Panel נותן לך חמש דעות מומחה בפרומפט אחד בחינם. ה-Batch 20 כותב את כל גרסאות הקופי בבת אחת עם תוויות לפי סוג ההוק. ה-Everything Stack מייצר את כל תוצרי הפרויקט בשיחה אחת במקום חמש. ה-Contrarian Audit מכריח את Claude לחפש את הכשל הקטלני בעצות שלו לפני שאתה פועל לפיהן. וה-Memory Handoff יוצר מסמך שאתה מדביק לשיחה חדשה כשהלימיט מתאפס, וכך Claude ממשיך בדיוק מאיפה שעצר.\n\nמגבלות השימוש של Anthropic הפכו לוויראל השבוע אחרי שמשתמשים כבדים פגעו בהן באמצע פרויקטים. החכמים מתייחסים לכל שיחה כמו ספרינט: כל התוצרים בבת אחת, כל הגרסאות בפעם אחת, והנדבק לפני הסוף. יש לך עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות.\n\nמקורות: Anthropic\n\nעקוב אחרי @ainews.israel\n\n#Claude #AITools #AIForBusiness #Productivity #ArtificialIntelligence",
+ "pinned_comment": "איזה טריק תנסה הלילה? שקופית 7 היא ההפתעה. רוב האנשים נגמר להם הלימיט של Claude באמצע פרויקט ומתחילים מאפס. הפרומפט הזה מוודא שלא תאבד את המקום שעצרת.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 CLAUDE SESSION SECRETS</em> MOST PAYING USERS NEVER FIND",
+   "<em>5 CLAUDE MOVES</em> THAT DO A WEEK IN ONE GO",
+   "<em>CLAUDE HAS HIDDEN LIMITS.</em> HERE ARE 5 WORKAROUNDS",
+   "<em>ONE PROMPT</em> THAT GIVES YOU FIVE EXPERT OPINIONS FOR FREE",
+   "<em>5 CLAUDE TRICKS</em> THAT FIT A WEEK INTO ONE SESSION"
+  ],
+  "scores": [
+   5,
+   6,
+   8,
+   7,
+   6
+  ],
+  "winner": 2,
+  "why": "HIDDEN taps the 'wait, WHAT?' nerve that stops mid-scroll browsing, while [3]'s specific offer just reads like another productivity tip. Revelation beats features."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>CLAUDE HAS HIDDEN LIMITS.</em> HERE ARE 5 WORKAROUNDS",
+   "<em>5 CLAUDE TRICKS</em> THAT FIT A FULL WEEK INTO ONE SESSION — MOST PEOPLE OVERLOOK EVERY ONE"
+  ],
+  "scores": [
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] leads with a concrete, valuable benefit (compress a week) plus FOMO that hits any viewer, while [0] just hints at hidden limits most strangers don't know exist. The emotional hook is way stronger."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "IMAGE LAW: The cover shows a generated unknown face — a photo-realistic AI-generated man holding colored cards. IMAGE LAW bans this explicitly ('Never a generated unknown face'). The Claude neon sign in the background satisfies brand presence but does not override the face ban. Fix: remove the person, keep the brand-mark-and-props scene, or swap to a recognizable real face from Anthropic leadershi",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
