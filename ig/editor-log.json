@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-30T20:47:48Z",
-  "gate": "A",
-  "subject": "ELON MUSK: “Turbines are sold out through 2030. In order to bring enough power online, SpaceX and Tesla will probably ha",
-  "verdict": "KILL",
-  "reason": "This is reaction-bait: Elon's speculative statement about future supply constraints has no real-world consequence yet, and at 4/10 scout interest, the thin observation won't sustain a carousel."
- },
- {
   "t": "2026-08-30T21:26:17Z",
   "gate": "B",
   "subject": "METALLICA QUIETLY BUILT A FREE TRADE SCHOOL PROGRAM FROM <em>10 COLLEGES TO 93 IN ALL 50 STATES</em>, $17 MILLION SPENT",
@@ -2098,5 +2091,12 @@
   "subject": "5 AI TOOLS THAT BUILT A 4-EPISODE SITCOM. <em>ALL OF THEM FREE.</em>",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-09-02T12:50:06Z",
+  "gate": "A",
+  "subject": "Ye toh AI video hai, jabki ek toh sach mein Israel jaa kar naacha tha 😭",
+  "verdict": "KILL",
+  "reason": "One thin tweet (71 chars) presenting a social media joke comparing AI video to real video—no named actor, no consequence, insufficient substance to build slides."
  }
 ]

@@ -1,0 +1,96 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמישה כלי AI שיצרו סיטקום של ארבעה פרקים. <em>כולם בחינם.</em>",
+   "kicker": "יוצרת אחת. ארבעה פרקים.",
+   "hsize": 72,
+   "media": "posts/2026-09-02-edu-5-free-ai-content-tools-one-creator-used/gen-0.jpg",
+   "image_prompt": "Studio light arm with dollar and red cross symbols hanging from it, coral sitcom sofa against teal backdrop, film grain, on-camera flash."
+  },
+  {
+   "type": "content",
+   "headline": "<em>סיטקום AI שלא מפסיקים לצפות בו</em>: ארבעה פרקים, יוצרת אחת",
+   "hsize": 82,
+   "body": "**Daria Zabnieva** בנתה את **Bad Cat**, סיטקום שכולו AI. ארבעה פרקים כבר יצאו, ועוקבים מחכים לפרק הבא.\n\n**אפס** סטודיו. **אפס** צוות.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>סרטון קולנועי ממשפט אחד</em>",
+   "hsize": 102,
+   "body": "קליפ כזה בסטודיו עולה 500 דולר. ב-Kling לוקח 90 שניות ועולה כלום.\n\nנכנסים ל-**klingai.com**, נרשמים בחינם. מדביקים משפט. מקבלים **קליפ קולנועי של חמש שניות**.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>קול לכל הסדרה</em> בשתי דקות, בחינם",
+   "hsize": 96,
+   "layout": "break",
+   "body": "שחקן קול מקצועי גובה 250 דולר לשעה. ElevenLabs עושה את אותו הדבר בשתי דקות, בחינם.\n\nנכנסים ל-**elevenlabs.io**. מקבלים **10,000 תווים בחודש** בלי לשלם.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>מוזיקה מקורית</em> תוך 30 שניות",
+   "hsize": 108,
+   "body": "טראק ממלחין מקצועי עולה 200 עד 500 דולר. Suno יוצר אחד ממשפט תוך 30 שניות, בחינם.\n\nנכנסים ל-**suno.com**. מקבלים **עשרה שירים ביום**, בלי תמלוגים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>תסריט פרק שלם</em> ממשפט אחד",
+   "hsize": 100,
+   "body": "Claude כותב תסריט פרק שלם תוך 90 שניות מרעיון אחד, בחינם ב-**claude.ai**.\n\nמדביקים את שם הסדרה ומבקשים דמויות, פירוט סצנות ודיאלוג שמוכן לגנרטור קול.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>אנימציה לכל דמות</em> מתיאור",
+   "hsize": 108,
+   "body": "נכנסים ל-**pika.art**, נרשמים בחינם. מתארים את הדמות, הרגש והתנועה. מקבלים **קליפ מונפש של שלוש עד חמש שניות**.\n\nמחברים את הקליפים בכל עורך וידאו חינמי ומקבלים רצף מלא.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמרו את זה: חמישה כלים חינמיים לסטודיו שלכם</em>",
+   "hsize": 92,
+   "body": "• Kling AI: סרטון מטקסט\n• ElevenLabs: קול תוך דקות\n• Suno: מוזיקה מקורית תוך 30 שניות\n• Claude: תסריטים ממשפט אחד\n• Pika: דמויות מונפשות\n\nחדשות AI יומיות + כישורים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "יוצרת סולו הוציאה סיטקום AI שלם, ארבעה פרקים, בלי תקציב ובלי צוות. חמישה כלים חינמיים הם כל מה שהיה צריך. 🎬\n\nKling AI לקליפים קולנועיים ממשפט, ElevenLabs לקול מקצועי בשתי דקות, Suno למוזיקה מקורית תוך 30 שניות, Claude לתסריט פרק שלם מרעיון אחד, Pika לדמויות מונפשות מתיאור.\n\nDaria Zabnieva בנתה את Bad Cat, סיטקום AI, ארבעה פרקים כבר יצאו ועוקבים מחכים לעוד. בלי רשת שידור. בלי צוות. עלות יצירת תוכן קרסה. חמישת הכלים האלה הם הסיבה. מנהלים עסק? שלחו לנו DM עם \"AI\" ונראה לכם מה זה יכול לעשות.\n\nמקורות: Daria Zabnieva on X, klingai.com, elevenlabs.io, suno.com, pika.art\n\nעקבו אחרי @ainews.israel לחדשות AI יומיות.\n\n#AItools #ContentCreation #AIvideo #CreatorEconomy #FreeAI",
+ "pinned_comment": "איזה כלי תבדקו קודם? שקופית 4 עם הפרומפט של Claude היא זו שרוב האנשים מדלגים עליה ואחר כך מתחרטים.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 FREE TOOLS <em>MAKING SOLO CREATORS INTO STUDIOS</em>",
+   "PEOPLE ARE QUIETLY BUILDING <em>TV SHOWS WITH 5 FREE AI TOOLS</em>",
+   "AN AI SITCOM JUST HIT 4 EPISODES. <em>ONE CREATOR. ZERO BUDGET.</em>",
+   "5 FREE AI TOOLS <em>REPLACING AN ENTIRE TV PRODUCTION TEAM</em>",
+   "5 FREE TOOLS <em>THAT BUILT AN ENTIRE TV SHOW</em>"
+  ],
+  "scores": [
+   2,
+   5,
+   9,
+   4,
+   3
+  ],
+  "winner": 2,
+  "why": "[2] shows you exactly what happened (AI sitcom, 4 episodes, zero budget) in a way that stops you mid-scroll; [1] hides behind 'quietly building' and makes you guess. Concrete proof beats vague mystery at 2am."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (5/10)",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
