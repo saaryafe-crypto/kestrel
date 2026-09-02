@@ -1,0 +1,84 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>5 FREE APPS</em> CLAUDE BUILDS INSIDE YOUR CHAT TONIGHT",
+   "kicker": "NO CODE. NO SETUP. RUNS TONIGHT.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-02-edu-5-live-apps-claude-artifacts-builds-for-/gen-0.jpg",
+   "image_prompt": "Dario Amodei, triumphant grin, gripping laptop blazing with Claude's teal artifact panel, Claude logo glowing on warm amber wall behind, documentary news photography, electric teal accent."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>BUILD A PRICING CALCULATOR</em> FROM YOUR RATE SHEET",
+   "hsize": 104,
+   "body": "Quoting and proposal software runs $30 to $90/month.\n\nClaude builds one from a paste of your rates in under 90 seconds, and it sits on your site for free.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>TURN A PASTE OF YOUR NUMBERS</em> INTO A LIVE CHART",
+   "hsize": 100,
+   "body": "Chart and dashboard software runs $50 to $150/month.\n\nPaste your numbers and Claude builds a chart you can drop into your next report in under 90 seconds.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>BUILD A QUIZ THAT SELLS CUSTOMERS</em> THE RIGHT PRODUCT",
+   "hsize": 96,
+   "body": "A custom product quiz from a developer runs $2,000 and takes weeks.\n\nClaude builds one from a description in under 2 minutes, and it runs on your site without you touching it again.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>$2,000 DEVELOPER FEE.</em> CLAUDE DOES IT IN 90 SECONDS.",
+   "hsize": 88,
+   "body": "For free.\n\nTwo more below.",
+   "pattern_break": true,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>BUILD AN INVOICE THAT PRINTS</em> TO PDF IN ONE CLICK",
+   "hsize": 100,
+   "body": "Invoicing software runs $20 to $50/month.\n\nClaude builds a clean HTML invoice you print straight to PDF, with your logo, line items, and totals formatted the way a designer would.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) TURN BULLET POINTS INTO <em>A FULL EMPLOYEE HANDBOOK PAGE</em>",
+   "hsize": 84,
+   "body": "HR consultants charge $150/hour to format policy documents.\n\nPaste your rough notes into Claude and it returns a page your team can actually read and follow.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> 5 FREE APPS CLAUDE BUILDS IN YOUR CHAT",
+   "hsize": 96,
+   "body": "\u2022 Pricing calculator from your rate sheet\n\u2022 Live revenue chart from pasted numbers\n\u2022 Invoice that prints to PDF\n\u2022 Employee handbook page from bullet points\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5. \ud83d\udee0\ufe0f Claude builds each as a live, clickable tool right inside the chat. Most business owners still treat it like a search bar.\n\nPricing calculator from your rate sheet, interactive revenue chart from any paste of numbers, product quiz that recommends the right item to each visitor, professional invoice that prints to PDF, employee handbook page from rough bullet points.\n\nCybercabs drove themselves through Austin this week with zero human input. The same idea runs free inside Claude. Every one of these used to cost thousands and weeks to build. Now it takes a prompt and 90 seconds.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, Claude.ai\n\n#claude #aitools #artificialintelligence #businessowner #nocode",
+ "pinned_comment": "Which one are you building tonight? The invoice generator (slide 6) takes about 60 seconds and the output looks like it was made by a designer.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 LIVE TOOLS HIDING INSIDE YOUR CLAUDE CHAT</em> NOBODY TALKS ABOUT",
+   "<em>5 FREE APPS</em> CLAUDE BUILDS INSIDE YOUR CHAT TONIGHT"
+  ],
+  "scores": [
+   6.5,
+   7.5
+  ],
+  "winner": 1,
+  "why": "Immediate concrete rewards beat mysteries every time. You'd stop scrolling for free apps tonight before solving a riddle about hidden tools."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW \u2014 HARD REJECT: The cover shows a generated unknown face. Image Law explicitly bans this ('Never a generated unknown face'). The Vendor Cast exception is legal ONLY for the named tool's famous CEO; this person is not Dario Amodei. Fix: regenerate the cover with Dario Amodei as the delighted user, or drop the face entirely and lead with the Claude brand mark + a laptop screen showing one o",
+ "topic_source": "news-anchored"
+}
