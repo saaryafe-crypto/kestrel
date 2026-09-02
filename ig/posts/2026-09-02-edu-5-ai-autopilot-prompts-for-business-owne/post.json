@@ -1,0 +1,99 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 AI PROMPTS THAT REPLACE <em>YOUR $2,500-A-DAY CONSULTANT</em>",
+   "hsize": 72,
+   "kicker": "CYBERCABS JUST LANDED. YOUR TURN.",
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-02-edu-5-ai-autopilot-prompts-for-business-owne/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei looking down at glowing laptop with Claude logo, smug grin, in steering-wheel-free car as golden city blocks stream past. Documentary film grain, 35mm, noon blue and Claude orange."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) PLAN</em> YOUR NEXT 90 DAYS IN 4 MINUTES",
+   "hsize": 102,
+   "body": "A business planning consultant charges <b>$2,500 a day</b> for what this prompt does in 4 minutes.\n\nGive it your three goals and biggest obstacle, it returns a week-by-week sprint plan.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>2) CATCH</em> WHAT'S QUIETLY DRAINING YOUR BUSINESS",
+   "hsize": 100,
+   "body": "Client churn costs <b>5 times more</b> to replace than to retain.\n\nPaste your monthly numbers, this prompt finds the warning sign before the client walks.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "8 HOURS. ONE PROMPT.",
+   "hsize": 80,
+   "layout": "break",
+   "body": "Business owners spend <b>8 to 12 hours a week</b> on tasks that don't grow the business. This prompt finds yours.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>4) BUILD</em> THE RULEBOOK YOUR BUSINESS RUNS ON WITHOUT YOU",
+   "hsize": 88,
+   "body": "A consultant charges <b>$300 an hour</b> to write decision frameworks.\n\nWhen you leave, your team makes the wrong call anyway.\n\nThis prompt writes your full rulebook in 10 minutes.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) FIND</em> THE ONE NUMBER THAT RUNS YOUR BUSINESS",
+   "hsize": 100,
+   "body": "Most business owners track <b>5 to 10 metrics</b> and move none of them.\n\nThis prompt finds the one that, if it moves, guarantees everything else follows.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 PROMPTS THAT RUN YOUR BUSINESS ON AUTOPILOT</em>",
+   "hsize": 88,
+   "body": "The 90-day sprint plan\nThe monthly business health check\nThe task handoff finder\nThe team decision rulebook\nThe one metric that matters\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5. These prompts give your business a plan, a sensor check, a task handoff, a rulebook, and the one number that runs everything. \ud83d\udccb\n\nSlide 1 builds a 90-day sprint plan from three goals and one obstacle, the same work a $2,500-a-day business consultant does. Slide 2 runs a monthly health check from your own numbers, flagging the metric bleeding you quietly. Slide 3 finds the single task eating most of your week and gives three ways to hand it off. Slide 4 writes the decision rulebook your team follows when you're not in the room. Slide 5 finds the one number that, if it moves, guarantees your six-month goal gets hit.\n\nCybercabs are now driving people around Austin with no one at the wheel. The same shift is available to every business right now. The owners who set these five systems up stop reacting and start building.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Tesla, Anthropic\n\n#AItools #businessowner #entrepreneur #artificialintelligence #productivity",
+ "pinned_comment": "Which of these are you trying first? The sensor check on slide 3 hits hardest if you paste your real numbers in, not made-up ones.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 AI PROMPTS THAT STOP YOUR BUSINESS <em>BLEEDING HOURS</em>",
+   "5 AI PROMPTS THAT <em>RUN YOUR BUSINESS ON AUTOPILOT</em>",
+   "5 AI PROMPTS THAT STOP YOUR BUSINESS <em>FROM RUNNING YOU</em>",
+   "5 AI PROMPTS THAT GIVE YOUR BUSINESS <em>A ROUTE AND RULES</em>",
+   "5 AI PROMPTS THAT REPLACE <em>YOUR $2,500-A-DAY CONSULTANT</em>"
+  ],
+  "scores": [
+   6,
+   6,
+   7,
+   5,
+   9
+  ],
+  "winner": 4,
+  "why": "$2,500-A-DAY is a shocking, specific number that makes you stop cold \u2014 you know exactly what's promised and why it matters. [2] feels emotionally clever but hides what actually happens, so it's a weaker hook for a stranger."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 PROMPTS THAT CUT <em>8 HOURS OF CONSULTING TO ONE SHOT</em>",
+   "5 AI PROMPTS THAT REPLACE <em>YOUR $2,500-A-DAY CONSULTANT</em>",
+   "5 AI PROMPTS THAT RUN <em>YOUR BUSINESS WITHOUT YOU</em>"
+  ],
+  "scores": [
+   4,
+   8,
+   7
+  ],
+  "winner": 1,
+  "why": "The $2,500 day rate in [1] is specific enough to verify, making you swipe to check it. [2] is more shocking but sounds too good to be true without hard numbers backing it up."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "IMAGE LAW \u2014 cover shows a generated unknown face. The doctrine bans this explicitly ('Never a generated unknown face'). The Claude laptop logo in frame does not save the image; the face is the dominant subject. Fix: re-generate the cover with the Claude brand mark as the visual star and no human face, or a styled graphic of the prompt output.; TRUTH LAW / UTILITY FAILURE \u2014 the post headline promis",
+ "topic_source": "news-anchored"
+}
