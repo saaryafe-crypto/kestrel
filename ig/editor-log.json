@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-30T21:26:17Z",
-  "gate": "B",
-  "subject": "METALLICA QUIETLY BUILT A FREE TRADE SCHOOL PROGRAM FROM <em>10 COLLEGES TO 93 IN ALL 50 STATES</em>, $17 MILLION SPENT",
-  "verdict": "REJECT",
-  "reason": "Slide 6 breaks the cover contract (§4). The cover promises 'Metallica built a trade school program, $17M spent' — a philanthropy/founder story. Slide 6 pivots to a generic AI productivity pitch ('AI removes your friction points for less') with no new facts, no named tool, no example, and zero connection to Metallica. A reader who swiped for the Metallica story did not consent to an AI ad. Fix: del"
- },
- {
   "t": "2026-08-30T22:43:04Z",
   "gate": "B",
   "subject": "<em>OWNERS WHO CAN'T CODE</em> ARE BUILDING 5 BUSINESS TOOLS FREE",
@@ -2098,5 +2091,12 @@
   "subject": "Ye toh AI video hai, jabki ek toh sach mein Israel jaa kar naacha tha 😭",
   "verdict": "KILL",
   "reason": "One thin tweet (71 chars) presenting a social media joke comparing AI video to real video—no named actor, no consequence, insufficient substance to build slides."
+ },
+ {
+  "t": "2026-09-02T17:43:22Z",
+  "gate": "A",
+  "subject": "Ye toh AI video hai, jabki ek toh sach mein Israel jaa kar naacha tha 😭",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: the 'event' is people comparing an AI video to a real video online with zero real-world consequence (no money moved, no account banned, no lawsuit, no named actor)—this is an instant-kill by STORY LAW §1, identical to the Queen Elizabeth meme model that shipped as garbage."
  }
 ]

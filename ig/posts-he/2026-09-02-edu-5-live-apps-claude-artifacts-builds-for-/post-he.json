@@ -1,0 +1,91 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>חמישה כלים בחינם</em> ש-Claude בונה לך בצ'אט הלילה",
+   "kicker": "בלי קוד. בלי התקנה. רץ כבר הלילה.",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-02-edu-5-live-apps-claude-artifacts-builds-for-/gen-0.jpg",
+   "image_prompt": "Dario Amodei, triumphant grin, gripping laptop blazing with Claude's teal artifact panel, Claude logo glowing on warm amber wall behind, documentary news photography, electric teal accent."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>בנה מחשבון מחירים</em> מהמחירון שלך",
+   "hsize": 104,
+   "body": "תוכנת הצעות מחיר עולה $30 עד $90 בחודש.\n\nClaude בונה אחד מהדבקת המחירים שלך תוך 90 שניות, ושם אותו באתר שלך בחינם.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>הדבק את המספרים שלך</em> וקבל גרף חי",
+   "hsize": 100,
+   "body": "תוכנת גרפים ודשבורדים עולה $50 עד $150 בחודש.\n\nהדבק את המספרים ו-Claude בונה גרף שאפשר להכניס לדוח הבא תוך 90 שניות.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>שאלון שמוכר ללקוח</em> את המוצר הנכון",
+   "hsize": 96,
+   "body": "שאלון מוצר מותאם ממפתח עולה $2,000 ולוקח שבועות.\n\nClaude בונה אחד מתיאור קצר תוך פחות משתי דקות, והוא רץ באתר שלך בלי שתגע בו שוב.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>$2,000 למפתח.</em> Claude בונה את זה תוך 90 שניות.",
+   "hsize": 88,
+   "body": "בחינם.\n\nעוד שניים בהמשך.",
+   "pattern_break": true,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>חשבונית שמודפסת</em> ל-PDF בלחיצה אחת",
+   "hsize": 100,
+   "body": "תוכנת חשבוניות עולה $20 עד $50 בחודש.\n\nClaude בונה חשבונית HTML נקייה שמודפסת ישר ל-PDF, עם הלוגו שלך, פירוט שורות וסיכומים בעיצוב של מעצב.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) מנקודות ל<em>עמוד מדריך לעובדים</em>",
+   "hsize": 84,
+   "body": "יועצי HR גובים $150 לשעה לעיצוב מסמכי נהלים.\n\nהדבק את הרשימות הגולמיות שלך ל-Claude וקבל בחזרה עמוד שהצוות שלך יכול לקרוא ולעבוד לפיו.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה:</em> חמישה כלים בחינם ש-Claude בונה בצ'אט",
+   "hsize": 96,
+   "body": "• מחשבון מחירים מהמחירון שלך\n• גרף הכנסות חי מהדבקת מספרים\n• חשבונית שמודפסת ל-PDF\n• עמוד מדריך לעובדים מנקודות\n\nחדשות AI + כישורים אמיתיים כל יום",
+   "media": null
+  }
+ ],
+ "caption": "Claude בונה לך חמישה כלים עסקיים אמיתיים תוך 90 שניות, בחינם. 🛠️\n\nתעבור על כל חמשת השקופיות. Claude בונה כל אחד מהם ככלי חי שאפשר ללחוץ עליו, ישירות בצ'אט. רוב בעלי העסקים עדיין משתמשים בו כמו בגוגל.\n\nמחשבון מחירים מהמחירון שלך, גרף הכנסות אינטראקטיבי מכל הדבקת מספרים, שאלון שממליץ לכל מבקר על המוצר הנכון, חשבונית מקצועית שמודפסת ל-PDF, עמוד מדריך לעובדים מנקודות גולמיות.\n\nהשבוע Cybercabs נסעו לבד ב-Austin, בלי שום מעורבות אנושית. אותו רעיון רץ בחינם ב-Claude. כל אחד מהדברים האלה עלה פעם אלפי דולרים ולקח שבועות של עבודה. עכשיו לוקח פרומפט ו-90 שניות.\n\nמנהל עסק? שלח לנו DM עם \"AI\" ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: Anthropic, Claude.ai\n\nעקוב אחרי @ainews.israel לחדשות AI כל יום.\n\n#claude #aitools #artificialintelligence #businessowner #nocode",
+ "pinned_comment": "איזה מהם אתה בונה הלילה? מחולל החשבוניות (שקופית 6) לוקח בערך 60 שניות והתוצאה נראית כאילו מעצב עשה אותה.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 LIVE TOOLS HIDING INSIDE YOUR CLAUDE CHAT</em> NOBODY TALKS ABOUT",
+   "<em>5 FREE APPS</em> CLAUDE BUILDS INSIDE YOUR CHAT TONIGHT"
+  ],
+  "scores": [
+   6.5,
+   7.5
+  ],
+  "winner": 1,
+  "why": "Immediate concrete rewards beat mysteries every time. You'd stop scrolling for free apps tonight before solving a riddle about hidden tools."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW — HARD REJECT: The cover shows a generated unknown face. Image Law explicitly bans this ('Never a generated unknown face'). The Vendor Cast exception is legal ONLY for the named tool's famous CEO; this person is not Dario Amodei. Fix: regenerate the cover with Dario Amodei as the delighted user, or drop the face entirely and lead with the Claude brand mark + a laptop screen showing one o",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
