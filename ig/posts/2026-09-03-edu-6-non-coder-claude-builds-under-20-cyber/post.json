@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A GUY SPENT <em>$20 ON CLAUDE</em> AND MADE <em>$317,000</em> IN NINE DAYS. THESE ARE HIS 6 APPS.",
+   "kicker": "DEVELOPERS CHARGE $50,000 FOR THESE",
+   "hsize": 76,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-03-edu-6-non-coder-claude-builds-under-20-cyber/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up in carpenter apron, jaw-dropped holding crumpled $20 in both hands, vast gold $ on blueprint wall, Claude logo glowing amber neon. 35mm documentary, harsh flash, natural skin, film grain, gold against azure."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>$20 INTO CLAUDE,</em> $317K OUT IN NINE DAYS",
+   "hsize": 90,
+   "body": "He was <b>20 years old</b>, studying in China, with <b>$20</b> for Claude access and an AI speed radar idea.\n\n<b>Nine days</b> later he sold the finished product for <b>$317,000</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>BUILD A BOOKING PORTAL</em> CLIENTS SCHEDULE THEMSELVES",
+   "hsize": 90,
+   "body": "Calendly's team plan runs <b>$16 a month per seat</b>.\n\nClaude builds the same thing, in your colors, on your domain, for under <b>$20</b> total, in under an hour.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>TURN YOUR PRICE LIST</em> INTO A QUOTE TOOL",
+   "hsize": 95,
+   "body": "Quote calculators on Upwork cost <b>$1,000 to $5,000</b>.\n\nClaude builds this for under <b>$20</b> and closes deals before clients ever call you.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$317,000 FROM $20",
+   "hsize": 66,
+   "body": "Now here is the tracker that does the chasing for you",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>BUILD AN INVOICE TRACKER</em> THAT CHASES PAYMENTS",
+   "hsize": 95,
+   "body": "Late payments drain <b>your cash flow</b> more than anything else.\n\nClaude builds a tracker for under <b>$20</b> that flags every invoice the moment it crosses <b>30 days</b> unpaid.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>BUILD A CONTRACT GENERATOR</em> FROM A FORM",
+   "hsize": 100,
+   "body": "A business attorney charges <b>$250 an hour</b> to draft a service agreement.\n\nThis form turns your terms into a finished contract in <b>90 seconds</b> for under <b>$20</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>TURN A SPREADSHEET</em> INTO A LIVE STOREFRONT",
+   "hsize": 95,
+   "body": "Shopify charges <b>$39 a month</b> and takes a cut of every sale.\n\nPaste your product list into Claude and it builds a working catalog with an order form, for under <b>$20</b>.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> 6 APPS CLAUDE BUILDS FOR UNDER $20",
+   "hsize": 90,
+   "body": "1. AI speed radar: $20 in, $317K out\n2. Booking portal clients schedule themselves\n3. Quote calculator that closes deals\n4. Invoice tracker that chases payments\n\nDaily AI news + real builds",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 6 apps Claude builds from scratch tonight, each one replacing a paid tool that costs hundreds a year. \ud83d\udee0\ufe0f\n\n1. The $317,000 speed radar built for $20,\n2. Booking portal replacing Calendly,\n3. Quote calculator that closes deals before they call you,\n4. The cost comparison mid-slide that changes how you think about building anything,\n5. Invoice tracker that chases late payments automatically,\n6. Contract generator that writes itself from a form,\n7. Live storefront built from a spreadsheet\n\nTesla Cybercabs in Austin now cost less than Uber per ride. The same flip is happening in software: AI builds custom apps for what used to cost $50,000. Most business owners haven't found this window yet.\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, Tesla Austin Cybercab launch Sep 2026, Calendly.com, Shopify.com\n\n#AI #ClaudeCode #NoCode #BusinessAutomation #AITools",
+ "pinned_comment": "Which of these are you building first? The invoice tracker pays for itself fastest if you have any clients who pay late.",
+ "hook_tournament": {
+  "candidates": [
+   "<em>6 APPS CLAUDE BUILDS</em> FOR UNDER $20"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 APPS CLAUDE BUILDS FOR UNDER <em>$20</em> THAT MOST PEOPLE PAY THOUSANDS FOR",
+   "6 APPS THAT TURNED <em>$20 INTO $317,000</em>",
+   "A GUY SPENT <em>$20 ON CLAUDE</em> AND MADE <em>$317,000</em> IN NINE DAYS. THESE ARE HIS 6 APPS.",
+   "<em>6 APPS CLAUDE BUILDS</em> FOR UNDER $20"
+  ],
+  "scores": [
+   5,
+   7,
+   9,
+   3
+  ],
+  "winner": 2,
+  "why": "The winner tells the complete story upfront ($20, Claude, $317k, 9 days) so you're hooked by proof, not mystery. The runner-up shocks you with numbers but hides how they happened, so you'd click to solve a stranger's puzzle."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "COVER IMAGE \u2014 NUMBER TYPO, HARD KILL: The image renders '$317,0000' \u2014 four zeros after the comma, making it look like $3,170,000 or a visible production error. The correct figure is $317,000. This is the single most prominent element on the cover and it is wrong. Cannot publish.; COVER IMAGE \u2014 GENERATED UNKNOWN FACE: IMAGE LAW bans generated unknown faces outright. This is a Claude guide, which tr",
+ "topic_source": "news-anchored"
+}
