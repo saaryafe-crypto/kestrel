@@ -1,0 +1,111 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "בחור השקיע עשרים דולר על Claude ועשה <em>$317,000</em> תוך תשעה ימים. אלה שש האפליקציות שלו.",
+   "kicker": "מפתחים גובים 50 אלף דולר על אלה",
+   "hsize": 76,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-03-edu-6-non-coder-claude-builds-under-20-cyber/gen-0.jpg",
+   "image_prompt": "Dario Amodei waist-up in carpenter apron, jaw-dropped holding crumpled $20 in both hands, vast gold $ on blueprint wall, Claude logo glowing amber neon. 35mm documentary, harsh flash, natural skin, film grain, gold against azure."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>עשרים דולר ל-Claude,</em> 317 אלף דולר בתשעה ימים",
+   "hsize": 90,
+   "body": "<b>בן 20</b> שלמד בסין. בכיס: <b>עשרים דולר</b> לגישה ל-Claude ורעיון לרדאר מהירות עם AI.\n\n<b>תשעה ימים</b> אחר כך הוא מכר את המוצר ב-<b>$317,000</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>פורטל הזמנות</em> שהלקוחות מתזמנים בעצמם",
+   "hsize": 90,
+   "body": "התוכנית של Calendly עולה <b>$16 לחודש למשתמש</b>.\n\nClaude בונה אותו דבר בדיוק, בצבעים שלך, בדומיין שלך, בפחות מ-<b>$20</b> בסך הכל, בפחות משעה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>הפוך את המחירון שלך</em> לכלי הצעות מחיר",
+   "hsize": 95,
+   "body": "מחשבוני הצעות מחיר ב-Upwork עולים <b>$1,000 עד $5,000</b>.\n\nClaude בונה את זה בפחות מ-<b>$20</b> וסוגר עסקאות לפני שהלקוחות בכלל מתקשרים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$317,000 מעשרים דולר",
+   "hsize": 66,
+   "body": "הנה הטרקר שרץ אחרי התשלומים בשבילך",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>טרקר חשבוניות</em> שרץ אחרי תשלומים",
+   "hsize": 95,
+   "body": "תשלומים באיחור הורגים את <b>תזרים המזומנים</b> יותר מכל דבר אחר.\n\nClaude בונה טרקר בפחות מ-<b>$20</b> שמסמן כל חשבונית ברגע שעוברים <b>30 יום</b> ועדיין לא שולמה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>מחולל חוזים</em> מטופס",
+   "hsize": 100,
+   "body": "עורך דין עסקי גובה <b>$250 לשעה</b> על ניסוח הסכם שירות.\n\nהטופס הזה הופך את התנאים שלך לחוזה מוגמר תוך <b>90 שניות</b>, בפחות מ-<b>$20</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>הפוך גיליון אקסל</em> לחנות חיה",
+   "hsize": 95,
+   "body": "Shopify גובה <b>$39 לחודש</b> ולוקחת חלק מכל מכירה.\n\nהדבק את רשימת המוצרים שלך ב-Claude והוא בונה קטלוג פעיל עם טופס הזמנה, בפחות מ-<b>$20</b>.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>שמור את זה:</em> שש אפליקציות ש-Claude בונה בפחות מ-$20",
+   "hsize": 90,
+   "body": "1. רדאר מהירות AI: השקיע עשרים דולר, קיבל 317 אלף דולר\n2. פורטל הזמנות שהלקוחות מתזמנים בעצמם\n3. מחשבון הצעות מחיר שסוגר עסקאות\n4. טרקר חשבוניות שרץ אחרי תשלומים\n\nחדשות AI יומיות + בניות אמיתיות",
+   "media": null
+  }
+ ],
+ "caption": "שש אפליקציות ש-Claude בונה מאפס הערב, כל אחת מחליפה כלי בתשלום שעולה מאות דולר בשנה. 🛠️\n\n1. רדאר המהירות שנמכר ב-$317,000 ונבנה תמורת עשרים דולר,\n2. פורטל הזמנות שמחליף את Calendly,\n3. מחשבון הצעות מחיר שסוגר עסקאות לפני שמתקשרים,\n4. השוואת המחירים שתשנה לך את הראש,\n5. טרקר חשבוניות שרץ אחרי תשלומים באוטומט,\n6. מחולל חוזים שכותב את עצמו מטופס,\n7. חנות חיה שנבנית מגיליון אקסל\n\nTesla Cybercabs באוסטין עולות לך פחות מנסיעה ב-Uber. בתוכנה קורה אותו הדבר: AI בונה אפליקציות מותאמות תמורת מה שפעם עלה $50,000. רוב בעלי העסקים עדיין לא מצאו את החלון הזה.\nמנהל עסק? שלח לנו DM \"AI\" ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: Anthropic, Tesla Austin Cybercab launch Sep 2026, Calendly.com, Shopify.com\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#AI #ClaudeCode #NoCode #BusinessAutomation #AITools",
+ "pinned_comment": "איזה מאלה תתחיל לבנות ראשון? הטרקר לחשבוניות מחזיר את עצמו הכי מהר אם יש לך לקוחות שמאחרים בתשלום.",
+ "hook_tournament": {
+  "candidates": [
+   "<em>6 APPS CLAUDE BUILDS</em> FOR UNDER $20"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 APPS CLAUDE BUILDS FOR UNDER <em>$20</em> THAT MOST PEOPLE PAY THOUSANDS FOR",
+   "6 APPS THAT TURNED <em>$20 INTO $317,000</em>",
+   "A GUY SPENT <em>$20 ON CLAUDE</em> AND MADE <em>$317,000</em> IN NINE DAYS. THESE ARE HIS 6 APPS.",
+   "<em>6 APPS CLAUDE BUILDS</em> FOR UNDER $20"
+  ],
+  "scores": [
+   5,
+   7,
+   9,
+   3
+  ],
+  "winner": 2,
+  "why": "The winner tells the complete story upfront ($20, Claude, $317k, 9 days) so you're hooked by proof, not mystery. The runner-up shocks you with numbers but hides how they happened, so you'd click to solve a stranger's puzzle."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "COVER IMAGE — NUMBER TYPO, HARD KILL: The image renders '$317,0000' — four zeros after the comma, making it look like $3,170,000 or a visible production error. The correct figure is $317,000. This is the single most prominent element on the cover and it is wrong. Cannot publish.; COVER IMAGE — GENERATED UNKNOWN FACE: IMAGE LAW bans generated unknown faces outright. This is a Claude guide, which tr",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
