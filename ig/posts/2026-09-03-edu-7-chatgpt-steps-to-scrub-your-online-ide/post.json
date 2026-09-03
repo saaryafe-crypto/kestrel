@@ -1,0 +1,110 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR NAME IS LEAKING <em>39 PROFILES</em> TO STRANGERS. THESE <em>7 STEPS</em> KILL THEM ALL.",
+   "kicker": "39 PROFILES. 16 LOGINS. 4 HOURS.",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-09-03-edu-7-chatgpt-steps-to-scrub-your-online-ide/gen-0.jpg",
+   "image_prompt": "Bare forearm from right, one finger jabbing glowing central icon on clean background; 39 electric-blue circles with connections; electric-blue against warm amber accents; documentary news photo, harsh flash; personal data violation emotion, not generic surveillance."
+  },
+  {
+   "type": "content",
+   "headline": "1) SEARCH YOUR OWN NAME <em>LIKE A STRANGER WOULD</em>",
+   "hsize": 100,
+   "body": "He searched his real name and old emails on Google. He found <b>39 profiles</b> he had completely forgotten existed.\n\nYou are probably exposed three or four searches deeper than you think.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) PULL EVERY OLD USERNAME <em>YOU EVER USED</em>",
+   "hsize": 100,
+   "body": "A gaming username from <b>2016</b> can still connect Reddit, GitHub, and old forums back to your real name.\n\nYour oldest usernames are the most dangerous, because you forgot what you posted under them.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) SORT EVERY DEAD ACCOUNT <em>INTO 3 BUCKETS</em>",
+   "hsize": 100,
+   "body": "A post from <b>2014</b> is still there for anyone who knows where to look.\n\nEven profiles you cannot delete still have personal details you can strip out.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "6 DETAILS. YOUR WHOLE LIFE EXPOSED.",
+   "hsize": 74,
+   "body": "Anyone who finds all six can locate, impersonate, and access your accounts.\n\n\"For each profile I paste, find every public mention of my city, birthday, workplace, and email. Tell me which ones to delete.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) PUSH THE BAD RESULTS <em>OFF PAGE ONE</em>",
+   "hsize": 100,
+   "body": "He buried <b>5 public mentions</b> by outranking them with updated profiles on sites Google already trusts.\n\nSome of those old sites still have your login sitting open.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) CLOSE EVERY LOGIN <em>YOUR EMAIL REMEMBERS</em>",
+   "hsize": 100,
+   "body": "He found <b>16 logins</b> still active:\n\u2022 Job boards\n\u2022 Forums\n\u2022 Tools he had completely forgotten about\n\nClosing those logins is not enough if the accounts you kept are still wide open.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) LOCK DOWN <em>EVERY ACCOUNT THAT'S LEFT</em>",
+   "hsize": 100,
+   "body": "<b>Four hours.</b> <b>39 profiles</b> found. <b>16 logins</b> closed. <b>5 mentions</b> buried.\n\n\"Do a final security pass: review my privacy settings, connected apps, and enable two-factor authentication on every account.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: 7 STEPS TO SCRUB <em>YOUR ONLINE IDENTITY</em>",
+   "hsize": 72,
+   "body": "Search your name like a stranger\nMap every old username\nDelete your city, job, and birthday\nClose every login your email remembers\nLock down accounts with 2FA\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 7 steps. ChatGPT spent 4 hours cleaning one person's online identity and found 39 profiles they forgot existed. \ud83d\udd0d\n\nStep 1: search your full name and old emails to build an exposure map, Step 2: pull every old username and run it by platform type, Step 3: open each dead account and sort into delete, private, or update, Step 4: remove every public mention of your city, job, birthday, and old email, Step 5: update your strongest profiles to outrank bad results you cannot delete, Step 6: search your inbox for welcome and verify to find forgotten logins, Step 7: enable 2FA and remove linked apps from every account you are keeping.\n\nMost people have never audited their digital footprint. One name search reveals old accounts and profiles from platforms you thought you left years ago. Your identity is managed by you or by whoever finds it first. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: Numan_Ai12\n\n#ChatGPT #AITools #Privacy #OnlineSafety #AI",
+ "pinned_comment": "Which step surprised you most? Most people skip Step 6 entirely, then find 16 open logins they forgot existed. Start there first.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>CHATGPT CLEANED 39 PROFILES</em> FROM MY NAME IN 4 HOURS",
+   "<em>CHATGPT SCRUBBED MY ONLINE IDENTITY</em> IN 4 HOURS FLAT",
+   "CHATGPT FOUND <em>39 EXPOSED PROFILES</em> IN MY NAME",
+   "<em>7 STEPS CHATGPT USED</em> TO SCRUB MY ONLINE IDENTITY"
+  ],
+  "scores": [
+   7,
+   5,
+   8,
+   4
+  ],
+  "winner": 2,
+  "why": "Exposed profiles trigger immediate 'am I exposed?' dread that forces you to stop and read. Cleaned profiles sound nice but don't create enough urgency\u2014you can scroll past someone else's solved problem way easier than your own potential threat."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CHATGPT FOUND <em>39 EXPOSED PROFILES</em> IN MY NAME",
+   "YOUR NAME IS LEAKING <em>39 PROFILES</em> TO STRANGERS. THESE <em>7 STEPS</em> KILL THEM ALL.",
+   "<em>7 AI STEPS</em> TO ERASE EVERY EXPOSED PROFILE LINKED TO YOUR NAME"
+  ],
+  "scores": [
+   6,
+   9,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hits harder because 'YOUR NAME IS LEAKING' creates immediate personal threat and urgency that makes you swipe. [2] promises a solution but reads like generic listicle advice so you might scroll past."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "Step 4 is missing its number. The hook promises '7 STEPS' and steps 1\u20133 and 5\u20137 all carry their '1)' \u2026 '7)' labels, but the pattern-break slide ('6 DETAILS. YOUR WHOLE LIFE EXPOSED.') holds step 4's content \u2014 the six dangerous details and ChatGPT prompt \u2014 without a '4)' label. A reader counting the promised seven steps will land on six numbered ones. This breaks the cover contract. Fix: add '4)' t"
+}

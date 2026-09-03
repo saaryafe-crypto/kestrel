@@ -1,60 +1,62 @@
 {
- "ts": 1788327123.5282216,
- "updated": "2026-09-02",
+ "ts": 1788417877.403115,
+ "updated": "2026-09-03",
  "hot": [
   {
-   "name": "Glen Powell",
-   "why_hot_now": "Chad Powers Season 2 drops on Hulu September 3, making him this week's biggest streaming event.",
-   "typical_scene": "quarterbacking incognito at a college football tryout"
+   "name": "Pedro Pascal",
+   "why_hot_now": "The Mandalorian and Grogu landed on Disney+ on September 2 — the week's single biggest streaming event.",
+   "typical_scene": "silver beskar helmet tilted, tiny green Grogu tucked in both arms"
   },
   {
-   "name": "Harry Styles",
-   "why_hot_now": "His 30-night Madison Square Garden residency (Aug 26–Oct 31) is mid-run and dominating NYC culture.",
-   "typical_scene": "onstage in a sequined suit at Madison Square Garden"
+   "name": "Ariana Grande",
+   "why_hot_now": "Her sold-out Eternal Sunshine Tour just closed on September 1 after months of record-breaking arena dates.",
+   "typical_scene": "sleek high ponytail, barefoot on a confetti-drenched stage for the encore"
   },
   {
    "name": "Olivia Rodrigo",
-   "why_hot_now": "Her 86-show Unraveled Tour kicks off September 25 and ticket frenzy is all over social feeds right now.",
-   "typical_scene": "shredding guitar under a purple spotlight at a sold-out arena"
+   "why_hot_now": "Unraveled Tour tickets went on sale this week ahead of the September 25 kickoff, crashing ticketing sites.",
+   "typical_scene": "shredding guitar in a torn prom dress under harsh white spotlights"
+  },
+  {
+   "name": "Katseye",
+   "why_hot_now": "Their Wildworld Tour launched September 1 with instant sell-outs and emergency added dates.",
+   "typical_scene": "tight synchronized choreography in front of a roaring stadium crowd"
   },
   {
    "name": "Jeremy Allen White",
-   "why_hot_now": "The Bear is still the dominant streaming-discourse show as fall Emmy season ramps up.",
-   "typical_scene": "sweating in a chaotic restaurant kitchen, white apron flour-dusted"
+   "why_hot_now": "The Bear's sustained cultural stranglehold keeps him the internet's definitive prestige-TV obsession heading into fall.",
+   "typical_scene": "drenched in sweat, white chef coat open, screaming at the pass"
   },
   {
    "name": "Backrooms",
-   "why_hot_now": "The horror film just broke the all-time record for highest horror opening weekend at the US box office.",
-   "typical_scene": "wandering endless yellow hallways under buzzing fluorescent lights"
+   "why_hot_now": "Kane Parsons' indie horror phenom just arrived on HBO Max this week, reigniting liminal-space internet culture.",
+   "typical_scene": "flickering fluorescent tubes over infinite beige-carpeted yellow corridors"
   },
   {
-   "name": "Super Mario Galaxy Movie",
-   "why_hot_now": "It posted the biggest single opening weekend of all of 2026, dominating every social feed for weeks.",
-   "typical_scene": "Mario launched through star-filled cosmic galaxies on a giant screen"
+   "name": "Gary Oldman",
+   "why_hot_now": "Slow Horses Season 6 premieres September 16 on Apple TV+, with trailers and cast drops dominating entertainment press this week.",
+   "typical_scene": "slumped in a grimy Slough House armchair, sighing over a classified case file"
   },
   {
-   "name": "The Traitors",
-   "why_hot_now": "The Traitors: New Blood just hit streaming this week, igniting massive group-watch and spoiler discourse.",
-   "typical_scene": "scheming around a candlelit castle table, chalice in hand"
-  },
-  {
-   "name": "Jay-Z",
-   "why_hot_now": "Eight-part docuseries JAY-Z in 8 is dropping this month, rewinding his full catalog era by era.",
-   "typical_scene": "archival concert footage in a dark room, head nodding to his own beat"
+   "name": "Ryan Reynolds",
+   "why_hot_now": "His Navy-pilot action blockbuster premieres September 16 on Prime Video, with its marketing blitz at full volume right now.",
+   "typical_scene": "aviator sunglasses on, smirking in a fighter-jet cockpit pre-takeoff"
   }
  ],
  "memes": [
-  "\"Saxophone Gets Louder\" — video freezes and zooms while a blaring sax cue signals total life chaos, universally relatable",
-  "\"Group 7\" — TikTok inside-joke elite club where being 'selected' by the algorithm is treated as a status symbol, spawning endless gatekeeping spin-offs",
-  "Shocked Pepe (Muppets '99) — using the prawn's wide-eyed face as backdrop while someone reads increasingly unhinged confession stories aloud",
-  "\"Chill Guy\" — the relaxed cartoon dog mascot captioning any moment someone is aggressively unbothered by drama or bad news",
-  "\"2026 is the new 2016\" — nostalgia-cycle format drawing absurd 1-to-1 comparisons between current events and 2016 pop-culture moments"
+  "\"The saxophones are getting louder\" — captioning any scenario that seems fine but is clearly about to detonate, cued to the eerie Boyz n the Hood brass sting",
+  "\"2026 is the new 2016\" — glow-up transition videos soaked in early-Obama-era nostalgia, usually soundtracked by Lady Gaga's Paparazzi",
+  "\"My American Girl Doll\" — hijacking a resurfaced 2009 kid's toy-introduction clip to reveal a grown-up prized possession with full unironic childhood joy",
+  "\"We Had ChatGPT Write Our Script\" — friend groups deadpan-performing bizarre AI-generated dialogue and leaning hard into the uncanny wooden delivery",
+  "\"I Never Told You This But\" — confessional text opener followed by a hard-cut dramatic makeup or fit-check reveal",
+  "\"Seeing How My [Person] Responds to a Bully\" — filming a partner's or friend's real reaction after insulting them on camera, framed as a character/loyalty test",
+  "Chinamaxxing / \"Becoming Chinese\" — ironic self-improvement arc videos styled as fully adopting rigorous East Asian study-and-discipline aesthetics"
  ],
  "ai_flagships": [
   "Claude Fable 5.1",
   "GPT-5.6 Sol",
-  "Gemini 3.8 Flash",
+  "Gemini 3.1 Pro",
   "Grok 4.6",
-  "Muse Spark 1.2"
+  "Muse Spark 1.3"
  ]
 }

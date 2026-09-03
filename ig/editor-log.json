@@ -1,96 +1,5 @@
 [
  {
-  "t": "2026-08-31T03:45:56Z",
-  "gate": "A",
-  "subject": "German artist Simon Weckert creates “Digital Camouflage” shirt designed to confuse AI-powered surveillance systems",
-  "verdict": "KILL",
-  "reason": "One thin tweet with no real-world outcome or proof—artist designed a concept, but nothing happened, no numbers exist, and the writer would pad an announcement into a story that isn't one."
- },
- {
-  "t": "2026-08-31T03:45:59Z",
-  "gate": "A",
-  "subject": "Anthropic: we are reducing your weekly rates by 17%. OpenAI: We are resetting usage for all paid Codex and ChatGPT Work ",
-  "verdict": "KILL",
-  "reason": "Corporate pricing announcements are routine business news with no real-world event, person, or consequence—ON-TOPIC BUT ROUTINE, explicitly banned."
- },
- {
-  "t": "2026-08-31T03:47:12Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens labor-market argument that mentions technology as backdrop rather than making it the story's star; additionally lacks the specific event, person, company action, or numbers Story Law requires."
- },
- {
-  "t": "2026-08-31T03:47:36Z",
-  "gate": "A",
-  "subject": "Ngl I appreciate the strategy of hallucinating back at the AI interviewer",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: the 'event' is someone's opinion about an AI interview, not a real-world consequence or verifiable story — pure Twitter take with no substance to build slides from."
- },
- {
-  "t": "2026-08-31T03:47:39Z",
-  "gate": "A",
-  "subject": "\"Male Gen Zers are dropping out of the US job market in droves,\" per NYP",
-  "verdict": "KILL",
-  "reason": "No substance: a one-sentence trend claim with zero numbers, names, proof, or specific event—the writer would have to pad or research-fill to make slides, violating the doctrine's non-negotiable rule."
- },
- {
-  "t": "2026-08-31T03:47:48Z",
-  "gate": "A",
-  "subject": "ELON MUSK: “Turbines are sold out through 2030. In order to bring enough power online, SpaceX and Tesla will probably ha",
-  "verdict": "KILL",
-  "reason": "Single thin tweet quoting Elon's speculation — no real event or felt consequence, just market commentary that would require heavy padding; 2030 timeline means no present-tense story spine."
- },
- {
-  "t": "2026-08-31T03:48:33Z",
-  "gate": "A",
-  "subject": "SpaceX just launched NASA’s newest flagship space telescope. What makes Roman special: • Its mirror came from hardware o",
-  "verdict": "KILL",
-  "reason": "Routine launch announcement (ON-TOPIC BUT ROUTINE, banned per §1); no person did something outrageous, no consequence felt, no money moved—insufficient override for 4/10 scout score."
- },
- {
-  "t": "2026-08-31T03:49:06Z",
-  "gate": "A",
-  "subject": "Employees who worked fully remotely have reported the highest levels of well-being, per Leeds School of Business",
-  "verdict": "KILL",
-  "reason": "It's a one-line research finding with no named actor, no real-world event or consequence, no lens fit (not AI/tech/founder/money/space), and 112 characters of pure substance—exactly the routine HR content the doctrine bans, and a 3/10 scout interest score has no exception to justify it."
- },
- {
-  "t": "2026-08-31T03:49:19Z",
-  "gate": "A",
-  "subject": "German artist Simon Weckert creates “Digital Camouflage” shirt designed to confuse AI-powered surveillance systems",
-  "verdict": "KILL",
-  "reason": "No substance: a single thin tweet announcing a design with zero proof it works, zero real-world consequence, and insufficient material to build slides from without padding."
- },
- {
-  "t": "2026-08-31T03:49:21Z",
-  "gate": "A",
-  "subject": "Here's a better comparison of @Tesla's new Robotaxi service area in Dallas. It's actually 158% larger than the old servi",
-  "verdict": "KILL",
-  "reason": "Service-area expansion is routine on-topic announcement news with no narrative and no consequence anyone felt—exactly the product-availability update the doctrine bans."
- },
- {
-  "t": "2026-08-31T03:50:24Z",
-  "gate": "A",
-  "subject": "Anthropic: we are reducing your weekly rates by 17%. OpenAI: We are resetting usage for all paid Codex and ChatGPT Work ",
-  "verdict": "KILL",
-  "reason": "Pricing announcements with no felt consequence are on-topic-but-routine corporate news, banned under STORY LAW."
- },
- {
-  "t": "2026-08-31T03:51:21Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens: labor-market and offshoring commentary where technology is backdrop, not a tech/company/AI/investing story; no numbers, protagonist, or concrete event to build from."
- },
- {
-  "t": "2026-08-31T04:29:09Z",
-  "gate": "B",
-  "subject": "ELON MUSK BUILDS ROCKETS AND STILL CAN'T SOURCE TURBINE BLADES, <em>BECAUSE ONLY THREE COMPANIES MAKE THEM AND ALL ARE B",
-  "verdict": "REJECT",
-  "reason": "Slide 5 headline ('THE MAN WHO BUILDS ROCKETS CAN'T SOURCE TURBINE BLADES') is the cover headline reworded — same actor, same action, same fact. The new escalation (SpaceX may have to cast blades itself) is buried in the body instead of being the headline. Fix: make slide 5's headline lead with the self-casting detail, e.g. 'SO MUSK SAYS SPACEX MAY HAVE TO CAST THE BLADES ITSELF.'; Slides 4 and 5 "
- },
- {
   "t": "2026-08-31T04:48:39Z",
   "gate": "B",
   "subject": "<em>5 RULES FOR SHARING\nYOUR GROK BOT</em>",
@@ -2098,5 +2007,96 @@
   "subject": "YOU PAY $5,000 A MONTH. <em>AI DOES THAT JOB FOR $20.</em>",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-09-03T05:34:12Z",
+  "gate": "A",
+  "subject": "We’re bringing agentic video understanding to our latest Gemini models. They can now analyze videos with better accuracy",
+  "verdict": "KILL",
+  "reason": "Banned launch preview: routine feature announcement with no demonstration or real-world event—the exact on-topic-but-routine type."
+ },
+ {
+  "t": "2026-09-03T05:34:17Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens — this is a pharmaceutical fraud story; the lane requires the subject to be AI, tech, a company/founder, investing, or space technology."
+ },
+ {
+  "t": "2026-09-03T05:34:31Z",
+  "gate": "A",
+  "subject": "Re-shoot an existing video from a new angle 🤯 Truly insane work from @theworldlabs, this new model is a game-changer. Th",
+  "verdict": "KILL",
+  "reason": "Unknown brand, undemonstrated feature, no real-world consequence—this is the launch preview, not a story."
+ },
+ {
+  "t": "2026-09-03T05:34:34Z",
+  "gate": "A",
+  "subject": "JUST IN: 'Rich Dad Poor Dad' Robert Kiyosaki is $1,200,000,000 in debt.",
+  "verdict": "KILL",
+  "reason": "Single financial claim with no event details (timing, cause, or consequences stated); source establishes a debt figure but not what actually happened or what Kiyosaki faced as a result."
+ },
+ {
+  "t": "2026-09-03T05:35:09Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens: this is a labor-economics story that merely mentions technology as the field/backdrop, not the protagonist—it's the goats-and-sensors pattern, banned under §1 regardless of virality."
+ },
+ {
+  "t": "2026-09-03T05:35:33Z",
+  "gate": "A",
+  "subject": "JUST IN: Wall Street investment banks are pressuring large law firms to reduce their fees, saying that the traditional m",
+  "verdict": "KILL",
+  "reason": "On-topic but routine: structural-trend analysis without a discrete event, named actors, actual outcomes, or numbers—analyst commentary, not a jaw-dropping story."
+ },
+ {
+  "t": "2026-09-03T05:36:26Z",
+  "gate": "A",
+  "subject": "Re-shoot an existing video from a new angle 🤯 Truly insane work from @theworldlabs, this new model is a game-changer. Th",
+  "verdict": "KILL",
+  "reason": "Single-tweet launch preview describing a model capability with no real-world consequence, user adoption, or numbers to build slides from—would require padding and falls under the banned 'launch preview' category."
+ },
+ {
+  "t": "2026-09-03T05:36:32Z",
+  "gate": "A",
+  "subject": "We’re bringing agentic video understanding to our latest Gemini models. They can now analyze videos with better accuracy",
+  "verdict": "KILL",
+  "reason": "Launch preview without demonstration—feature posts require demos showing the thing working, but source is specs-only with no substance for slides."
+ },
+ {
+  "t": "2026-09-03T05:37:15Z",
+  "gate": "A",
+  "subject": "JUST IN: 'Rich Dad Poor Dad' Robert Kiyosaki is $1,200,000,000 in debt.",
+  "verdict": "KILL",
+  "reason": "This states he's in debt but doesn't establish what EVENT happened (bankruptcy filing, lawsuit, disclosure); unclear if reality actually moved."
+ },
+ {
+  "t": "2026-09-03T05:38:31Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens story: technology is backdrop to a labor-economics argument; the story's subject is demographic hiring patterns, not AI/tech/company/founder/investing/space."
+ },
+ {
+  "t": "2026-09-03T05:38:43Z",
+  "gate": "A",
+  "subject": "JUST IN: Wall Street investment banks are pressuring large law firms to reduce their fees, saying that the traditional m",
+  "verdict": "KILL",
+  "reason": "Fails story law: no specific event with consequence—abstract claim about business-model pressure without named actors, numbers, or proof of real impact."
+ },
+ {
+  "t": "2026-09-03T06:11:15Z",
+  "gate": "B",
+  "subject": "THE MAN WHO WROTE RICH DAD POOR DAD OWES SO MUCH DEBT A NORMAL WORKER WOULD NEED <em>12,000 YEARS</em> TO EARN IT",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — UNKNOWN FACE: The cover generates a Caucasian man in his mid-50s holding papers. Robert Kiyosaki is Japanese-Hawaiian, 79 years old, with a completely different face. The generated figure is not recognizable as Kiyosaki at any feed size. IMAGE LAW requires 'recognizable famous people' and explicitly bans 'a generated unknown face.' Regenerate with Kiyosaki's actual likeness or source a"
+ },
+ {
+  "t": "2026-09-03T06:53:14Z",
+  "gate": "B",
+  "subject": "YOUR NAME IS LEAKING <em>39 PROFILES</em> TO STRANGERS. THESE <em>7 STEPS</em> KILL THEM ALL.",
+  "verdict": "REJECT",
+  "reason": "Step 4 is missing its number. The hook promises '7 STEPS' and steps 1–3 and 5–7 all carry their '1)' … '7)' labels, but the pattern-break slide ('6 DETAILS. YOUR WHOLE LIFE EXPOSED.') holds step 4's content — the six dangerous details and ChatGPT prompt — without a '4)' label. A reader counting the promised seven steps will land on six numbered ones. This breaks the cover contract. Fix: add '4)' t"
  }
 ]
