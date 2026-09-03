@@ -1,0 +1,85 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOU PAY $5,000 A MONTH. <em>AI DOES THAT JOB FOR $20.</em>",
+   "kicker": "BEFORE THE WINDOW CLOSES",
+   "hsize": 70,
+   "face": "Elon Musk",
+   "media": "posts/2026-09-03-edu-the-2027-window-5-business-moves-from-el/gen-0-r.jpg",
+   "image_prompt": "Hands mid-ripping $3,000 invoice in half, phone blazes green with AI chat icon, signal red torn paper against lime glow. Amber desk, clean and vivid. Documentary 35mm grain, plain background."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>CUT YOUR BIGGEST COST</em> TONIGHT",
+   "hsize": 104,
+   "body": "A VA, bookkeeper, or social media manager costs <b>$2,000, $5,000 a month</b>. Claude Pro costs <b>$20</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>TRAIN AI ON YOUR BUSINESS</em> BEFORE COMPETITORS DO",
+   "hsize": 96,
+   "body": "Upload your SOPs and client documents.\n\nAsk Claude: <b>'I run [business]. Here is my brand guide: [paste]. Write proposals in this exact voice.'</b>\n\nIn <b>10 minutes</b>, you have an AI that knows your business.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>BUILD ONE INCOME STREAM</em> THAT RUNS WITHOUT YOU",
+   "hsize": 92,
+   "body": "A consultant selling <b>$2,000/month</b> content packages, with Claude writing the posts.\n\nAsk Claude: <b>'I deliver [service]. Design a system that delivers this without my direct time each week.'</b>\n\nPrice it and sell it.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$30 TRILLION. EVERY YEAR.",
+   "hsize": 124,
+   "body": "That's Elon's number from the G20 today. Not spread over years. Not the total ever. Per year. The businesses building AI workflows right now are the ones positioned to claim their share of it",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>OUTRESEARCH EVERY COMPETITOR</em> IN AN HOUR",
+   "hsize": 100,
+   "body": "A professional competitive analysis costs <b>$10,000 to $20,000</b>.\n\nAsk Claude: <b>'What customer complaint is everyone in my market ignoring?'</b>\n\nYou get a strategy your competitors paid tens of thousands to produce.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) LOCK IN <em>CHEAP AI</em> BEFORE PRICES RISE",
+   "hsize": 100,
+   "body": "Elon flagged a <b>15-gigawatt power shortfall</b> at the G20.\n\nAs more businesses compete for computing capacity, AI costs rise.\n\nA workflow you build tonight pays today's rates for years.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>THE 2027 WINDOW PLAN</em>",
+   "hsize": 100,
+   "body": "VA costs <b>$5,000/month</b>. Claude costs <b>$20</b>. Start tonight.\nFree competitor intel that firms charge <b>$10,000</b> for.\n<b>15-gigawatt</b> shortfall means AI rates won't stay low.\n\nDM 'AI', we'll show which move to make first.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5. Elon told G20 leaders today AI adds up to $30 trillion a year and is expected to outperform humans in most tasks by 2027. These are the business moves to make right now. \ud83c\udfaf\n\nMove 1: cut your biggest monthly cost by handing the work to Claude tonight, Move 2: upload your business documents to Claude Projects before competitors do, Move 3: turn one service you already deliver into an automated income stream that runs without you, Move 4: run a competitor intelligence brief in Claude that would cost $10,000 at a research firm, Move 5: lock in cheap AI automations before the 15-gigawatt power shortfall drives prices up.\n\nElon named a $30 trillion annual prize at the G20 today. The businesses claiming it aren't waiting for 2027. They're cutting overhead tonight and building automated income before it becomes standard. Running a business? DM us 'AI' and we'll show you which move to make first.\n\nSources: G20 Summit Sep 2 2026, Elon Musk G20 address, Grok Bot G20 summary on X\n\n#AI #Business #ArtificialIntelligence #BusinessOwner #AITools",
+ "pinned_comment": "Which of the 5 are you starting tonight? Move 5 is the one most business owners overlook, and it might be the decision they regret most by 2027.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOU PAY $3,000 A MONTH. <em>AI DOES THAT JOB FOR $20.</em>",
+   "<em>ELON'S $30 TRILLION AI WARNING.</em> YOUR 5-MOVE PLAN.",
+   "<em>5 BUSINESS MOVES BEFORE AI</em> PRICES YOU OUT OF YOUR MARKET"
+  ],
+  "scores": [
+   8,
+   4,
+   5
+  ],
+  "winner": 0,
+  "why": "The $3,000 vs $20 contrast creates an instant gut-punch 'wait, WHAT?' that makes you stop scrolling\u2014concrete, specific, feels real. Candidate 1 sounds like vague hype (what warning? what do these moves do?) and 2 is the familiar 'AI will replace you' scare you've scrolled past 100 times."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "topic_source": "news-anchored"
+}
