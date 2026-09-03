@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GEMINI 3.8 FLASH BUILDS A WORKING APP FROM A VIDEO. <em>5 MOVES, 0 CODE.</em>",
+   "kicker": "ONE BUILT A GAME WITHOUT TOUCHING CODE",
+   "hsize": 70,
+   "face": "Sundar Pichai",
+   "media": "posts/2026-09-03-edu-5-gemini-3-8-flash-powers-anyone-can-use/gen-0.jpg",
+   "image_prompt": "Sundar Pichai waist-up, stunned open-mouthed grin, holds a smartphone displaying a tiny gameplay clip in one raised hand; beside him a colossal vivid 3D game world \u2014 colorful glowing platforms, electric-cyan sky, towering terrain \u2014 floats mid-air conjured from nothing, dwarfing the phone. Gemini logo exactly as in reference image blazes large on saturated cobalt wall behind him. 35mm documentary news photo, harsh on-camera flash, natural skin texture, film grain. No readable text. Accent: electric cyan against saturated cobalt blue."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>PASTE A VIDEO</em>, GET A WORKING APP",
+   "hsize": 100,
+   "body": "Google showed Gemini 3.8 Flash watch a gameplay video, write all the code, build a working 3D game, run it to find bugs, and fix every one.\n\n<b>You typed nothing.</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>SET THE THINKING LEVEL</em> BEFORE EVERY TASK",
+   "hsize": 100,
+   "body": "Gemini 3.8 Flash has effort controls built in.\n\nFor simple tasks it thinks less and costs less. For hard ones it reasons at full depth.\n\nYou never pay for power you don't need.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>ASK GEMINI TO ANALYZE</em> YOUR SPREADSHEET IN SHEETS",
+   "hsize": 95,
+   "body": "Gemini 3.8 Flash now lives inside Google Sheets for Pro and Ultra subscribers.\n\nClick the Gemini icon in the top corner and it reads your data directly. No export, no copy-paste.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>0 LINES TYPED.</em> 1 WORKING GAME.",
+   "hsize": 70,
+   "is_pattern_break": true,
+   "body": "A human developer needs days to write, test, and fix what Gemini 3.8 Flash delivered in minutes.\n\nHundreds of lines of working code. Zero human edits.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>DESCRIBE A SCREEN IN PLAIN TEXT</em>, GET WORKING CODE",
+   "hsize": 88,
+   "body": "Stitch by Google runs Gemini 3.8 Flash underneath.\n\nDescribe any interface in plain English and get back working HTML and CSS. No Figma, no developer, no design skills.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>GEMINI 3.8 FLASH NOW ANSWERS</em> INSIDE GOOGLE SEARCH",
+   "hsize": 88,
+   "body": "AI Mode in Google Search now runs on Gemini 3.8 Flash for Pro and Ultra subscribers.\n\nThe same model that builds and tests full apps is now answering your searches.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 5 GEMINI 3.8 FLASH POWERS</em>",
+   "hsize": 95,
+   "body": "1) Paste a video, get a working app\n2) Set thinking level, cut costs\n3) Analyze spreadsheet inside Sheets\n4) Describe a screen, get code\n5) AI Mode in Google Search\n\nDaily AI skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all\n5. Google's newest model builds, tests, and fixes apps on its own, and it is already hiding in tools you use every day. \ud83d\udd0d\n\nHere is what is inside:\n1) paste any screen recording and Gemini 3.8 Flash builds a working app, runs it, finds the bugs, patches them, you touch nothing;\n2) effort controls so simple tasks cost almost nothing, hard ones get full reasoning;\n3) a Gemini button inside Google Sheets that reads and analyzes your data directly, no export needed;\n4) Stitch by Google, describe any screen in plain English and get working front-end code back;\n5) AI Mode in Google Search, now running on Gemini 3.8 Flash, answering like a researcher who read 100 articles first.\n\nGemini 3.8 Flash is the first model that builds code, then runs what it built, plays it to find errors, and fixes them. You describe the thing. It builds, tests, and patches. You get the result. Running a business? DM us 'AI' and we will show you what this could do for yours.\n\nSources: GoogleAI\n\n#ai #gemini #googleai #aitools #artificialintelligence",
+ "pinned_comment": "Which one are you trying tonight? The Stitch UI builder on slide 6 is the sleeper, most people have never heard of it.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 THINGS GOOGLE'S NEW AI</em> DOES THAT NOBODY EXPECTED",
+   "<em>5 GEMINI 3.8 FLASH MOVES</em> YOUR COMPETITORS HAVEN'T FOUND",
+   "<em>5 GEMINI 3.8 FLASH POWERS</em> THAT JUST DROPPED",
+   "GOOGLE JUST DROPPED <em>GEMINI 3.8 FLASH.</em> HERE ARE 5 MOVES.",
+   "GEMINI 3.8 FLASH JUST LAUNCHED. <em>5 POWERS TO USE TONIGHT.</em>"
+  ],
+  "scores": [
+   4,
+   2,
+   6,
+   7,
+   8
+  ],
+  "winner": 4,
+  "why": "Use tonight makes you actually want to try it immediately instead of just reading what's new. Powers is way more dramatic than moves, and that combination stops the 2am scroll when everything else gets swiped past."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 GEMINI 3.8 TRICKS <em>SO GOOD THEY FEEL ILLEGAL TO USE FOR FREE.</em>",
+   "GEMINI 3.8 FLASH BUILDS A WORKING APP FROM A VIDEO. <em>5 MOVES, 0 CODE.</em>",
+   "5 GEMINI 3.8 FLASH POWERS <em>MOST PEOPLE STILL PAY FOR.</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   4
+  ],
+  "winner": 1,
+  "why": "[1] hits because it's *specific* \u2014 'builds an app from a video, 5 moves, 0 code' is concrete enough to make you go 'wait, actually?' and stop scrolling. [0] and [2] hide behind vague hype ('tricks,' 'powers,' 'feel illegal') that sounds like every other marketing post at 2am."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true
+}

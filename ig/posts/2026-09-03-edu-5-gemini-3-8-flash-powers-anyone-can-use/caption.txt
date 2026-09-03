@@ -1,0 +1,15 @@
+Swipe through all
+5. Google's newest model builds, tests, and fixes apps on its own, and it is already hiding in tools you use every day. 🔍
+
+Here is what is inside:
+1) paste any screen recording and Gemini 3.8 Flash builds a working app, runs it, finds the bugs, patches them, you touch nothing;
+2) effort controls so simple tasks cost almost nothing, hard ones get full reasoning;
+3) a Gemini button inside Google Sheets that reads and analyzes your data directly, no export needed;
+4) Stitch by Google, describe any screen in plain English and get working front-end code back;
+5) AI Mode in Google Search, now running on Gemini 3.8 Flash, answering like a researcher who read 100 articles first.
+
+Gemini 3.8 Flash is the first model that builds code, then runs what it built, plays it to find errors, and fixes them. You describe the thing. It builds, tests, and patches. You get the result. Running a business? DM us 'AI' and we will show you what this could do for yours.
+
+Sources: GoogleAI
+
+#ai #gemini #googleai #aitools #artificialintelligence
