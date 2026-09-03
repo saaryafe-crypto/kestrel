@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-08-31T04:48:39Z",
-  "gate": "B",
-  "subject": "<em>5 RULES FOR SHARING\nYOUR GROK BOT</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH FAILURE — IMAGE LAW: The cover image shows Elon Musk holding a phone with a share icon in front of the X logo. He is a recognizable famous person with zero role in this story. The post is a how-to tutorial about Grok Bot sharing mechanics; Musk does not appear in any slide, no quote is attributed to him, no action is credited to him. The doctrine is explicit: 'if a recognizable famous p"
- },
- {
   "t": "2026-08-31T04:50:15Z",
   "gate": "B",
   "subject": "<em>5 RULES FOR SHARING\nYOUR GROK BOT</em>",
@@ -2098,5 +2091,12 @@
   "subject": "YOUR NAME IS LEAKING <em>39 PROFILES</em> TO STRANGERS. THESE <em>7 STEPS</em> KILL THEM ALL.",
   "verdict": "REJECT",
   "reason": "Step 4 is missing its number. The hook promises '7 STEPS' and steps 1–3 and 5–7 all carry their '1)' … '7)' labels, but the pattern-break slide ('6 DETAILS. YOUR WHOLE LIFE EXPOSED.') holds step 4's content — the six dangerous details and ChatGPT prompt — without a '4)' label. A reader counting the promised seven steps will land on six numbered ones. This breaks the cover contract. Fix: add '4)' t"
+ },
+ {
+  "t": "2026-09-03T12:48:23Z",
+  "gate": "A",
+  "subject": "Israeli National Security Minister Itmar Ben-Gvir posted and then deleted an AI video of Palestinians being fed into an ",
+  "verdict": "KILL",
+  "reason": "The substance lives only in one thin tweet (posted/deleted); without reporting on what actually happened as consequence—removal by platform, investigation launched, fired, or official response—this reads as reaction to something rather than something that moved."
  }
 ]

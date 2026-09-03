@@ -1,0 +1,114 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמישה כלי AI בחינם <em>שהמתחרים שלך כבר מריצים עליך</em>",
+   "kicker": "הכל מתחיל בחינם",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-02-edu-5-free-ai-competitive-intelligence-tools/gen-0.jpg",
+   "image_prompt": "Dario Amodei holds a tiny storefront balanced in his palm beneath an oversized magnifying glass, orange lens revealing dollar symbols, detective coat, sunlit cobalt-blue city street, 35mm flash news photo"
+  },
+  {
+   "type": "content",
+   "headline": "1) חפש את המתחרה שלך ב-Perplexity. <em>תוך 60 שניות מקבל דוח מלא.</em>",
+   "hsize": 82,
+   "body": "חברת מחקר תתגבה ממך 400 דולר לשעה בשביל מה ש-Perplexity מחזיר בחינם:\n\n• המחירים שלהם\n• הביקורות הרעות שלהם\n• החדשות האחרונות שלהם\n• הפרצה שאפשר לנצל",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) זרוק את הדף הראשי שלהם ל-Claude. <em>תוך 30 שניות הוא מוצא כל נקודת חולשה.</em>",
+   "hsize": 82,
+   "body": "הדף הראשי שלהם חושף את ההבטחה המרכזית שלהם, מי הלקוח שהם מכוונים אליו, ואיפה הם מפספסים לקוחות.\n\nClaude קורא את הכל תוך 30 שניות.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) הכנס את ביקורות ה-Google שלהם ל-ChatGPT. <em>כל תלונה שדילגו עליה צצה.</em>",
+   "hsize": 84,
+   "body": "ביקורות ה-Google שלהם פתוחות לכולם. רוב בעלי העסקים סורקים אותן פעם אחת.\n\nChatGPT קורא כל אחת ומחזיר לך את חמש התלונות שהמתחרה שלך מעולם לא פתר.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3,000 דולר</em>",
+   "hsize": 110,
+   "body": "זה מה שסוכנויות גובות בחודש כדי לעקוב אחרי המתחרים שלך.\n\nכל חמשת הכלים פה: בחינם",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) הגדר Google Alert בחינם. <em>Claude הופך אותו לסיכום שבועי על המתחרים שלך.</em>",
+   "hsize": 82,
+   "body": "הגדר Google Alert בחינם לכל מתחרה בכתובת alerts.google.com.\n\nיועץ אסטרטגיה גובה 150 דולר לפגישה בשביל בדיוק הסיכום הזה. לעשות את זה לבד לוקח שלוש דקות.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) שלוף את האתר הישן שלהם מ-archive.org. <em>Claude מראה מה הם זנחו בשקט.</em>",
+   "hsize": 82,
+   "body": "archive.org שומר תצלומי מסך בחינם של כל אתר, שנים אחורה.\n\nמה שהם זנחו זה אזהרה או פרצה, שווה לדעת לפני שמוציא שקל לבדוק בעצמך.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: <em>חמישה כלים בחינם לעקוב אחרי המתחרים</em>",
+   "hsize": 96,
+   "body": "• Perplexity: דוח, 60 שניות\n• Claude: סריקת דף ראשי\n• ChatGPT + Maps: תלונות\n• Google Alerts + Claude: סיכום שבועי\n• Wayback + Claude: מה שהם זנחו\n\nחדשות AI יומיות + כלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "חמישה כלי AI בחינם שעוקבים אחרי המתחרים שלך בזמן שאתה עוסק בדברים אחרים. 🔍\n\n1) Perplexity AI: כתוב שם של מתחרה, תוך 60 שניות מקבל דוח מחקר מלא,\n2) Claude: צלם מסך של הדף הראשי שלהם וקבל ניתוח של כל נקודת חולשה תוך 30 שניות,\n3) ChatGPT: שלח את ביקורות ה-Google שלהם וקבל רשימה של כל תלונה שמעולם לא טיפלו בה,\n4) Google Alerts + Claude: הדבק סיכום שבועי בחינם ל-Claude וקבל בריפינג אסטרטגי על המתחרים,\n5) Wayback Machine + Claude: העלה תצלום מסך ישן של האתר שלהם לצד הגרסה הנוכחית ומצא מה הם זנחו בשקט.\n\nהמחירים, הביקורות והאסטרטגיה הישנה של המתחרים שלך יושבים בנתונים פתוחים לכולם. חמשת הכלים האלה קוראים את הכל. רוב בעלי העסקים לא יודעים שהם קיימים.\n\nמנהל עסק? שלח לנו DM עם המילה 'AI' ונראה לך מה אפשר לעשות אצלך.\n\nמקורות: Perplexity AI, Anthropic, OpenAI, archive.org, Simon Weckert AI camera pattern research\n\nעקוב אחרי @ainews.israel לחדשות AI יומיות\n\n#AItools #SmallBusiness #CompetitorResearch #FreeAI #BusinessOwner",
+ "pinned_comment": "איזה אחד תתחיל ראשון? שקופית 3 מפתיעה כל פעם מחדש, כי הביקורות פתוחות לכולם ואף אחד לא טורח לקרוא את כולן.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 FREE TOOLS QUIETLY <em>WATCHING YOUR COMPETITORS</em>",
+   "YOUR RIVAL'S WEAK SPOTS <em>ARE NOW FREE TO READ WITH AI</em>",
+   "5 FREE AI TRICKS <em>YOUR COMPETITORS DON'T KNOW EXIST</em>",
+   "5 FREE AI TOOLS <em>PEOPLE USE TO WATCH RIVALS</em>",
+   "PEOPLE ARE LETTING FREE AI <em>READ THEIR COMPETITORS OVERNIGHT</em>"
+  ],
+  "scores": [
+   5,
+   8,
+   9,
+   6,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] hits with instant FOMO—'tricks they don't know exist' makes you curious and want to tap. [1] is clear and solid but reads like a straightforward pitch, missing the psychological hook that stops 2am scrollers."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 FREE WAYS TO EXPOSE <em>EVERY WEAK SPOT IN YOUR RIVAL IN 60 SECONDS</em>",
+   "5 FREE AI TOOLS <em>THAT REPLACE $3,000 IN COMPETITOR RESEARCH</em>",
+   "5 FREE AI TRICKS <em>YOUR COMPETITORS DON'T KNOW EXIST</em>",
+   "5 FREE AI MOVES <em>YOUR COMPETITORS ARE ALREADY USING AGAINST YOU</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   5,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] triggers personal threat and FOMO—'they're ALREADY using this AGAINST you' makes you stop scrolling because you feel like you're losing right now. [1]'s dollar-amount angle is solid but it's just math; [3] is survival instinct."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "IMAGE LAW — GENERATED UNKNOWN FACE ON COVER: The cover shows a generated unknown person (detective in trench coat with magnifying glass). IMAGE LAW explicitly bans this: 'Never a generated unknown face.' Legal alternatives for this multi-tool post: a styled card showing the five tool logos/brand marks on a vivid background, or a split-screen graphic of a competitor's data being revealed. No single",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
