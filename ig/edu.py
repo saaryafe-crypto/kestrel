@@ -16,8 +16,9 @@ from datetime import date
 import genimg
 import viral
 from write import (HERE, art_direct, call_claude, doctrine, face_riders,
-                   image_score, is_dupe, logo_ref, principles, qa, qa_repair,
-                   scrub_dashes, simpler_brief, slugify)
+                   image_score, is_dupe, logo_ref, pick_face, principles, qa,
+                   qa_repair, scrub_dashes, simpler_brief, slugify,
+                   split_faces)
 
 USED = os.path.join(HERE, "edu-used.json")
 
@@ -440,9 +441,14 @@ def main():
     for i, s in enumerate(post["slides"]):
         brief = s.pop("image_brief", "").strip()
         s["media"] = None
-        # PERSON ROUTE (owner Aug 2): famous-people briefs go to gpt-image-2
-        # with the names IN the prompt — no refs, no E005. Seedream + ref
-        # photos (face_riders) survives as the fallback rung.
+        # PERSON ROUTE (rebuilt Sep 3): under the Aug 30 nano-only regime the
+        # cover model is nano-banana, which copies likeness from PRESS PHOTOS
+        # — with no refs it draws famous faces from memory. This route was
+        # still calling with no refs (a gpt-image-2 era leftover: "names in
+        # the prompt, no refs"), so every vendor-cast likeness failed QA and
+        # the retries degraded the owner's signature CEO covers into faceless
+        # object collages (the Sep 1-3 run). Now: press photos ride as refs,
+        # exactly like write.py's news lane.
         face_field = s.pop("gen_face", None)
         if not face_field and s.get("face"):
             # owner audit Aug 10 (GPT-5 birthday cover): the WRITER cast a
@@ -474,8 +480,26 @@ def main():
                   file=sys.stderr)
             path = None
             if person:
-                path = genimg.generate(brief, out_jpg,
-                                       cover=(s["type"] == "cover"), person=True)
+                # nano-with-refs rung: identity comes from the press photo.
+                # Requires a photo for EVERY named person — no photo, no rung
+                # (face_riders would silently strip a photo-less name to
+                # "a person" and ship a stranger).
+                names = split_faces(face_field)
+                if names and all(pick_face(n.lower().replace(" ", "-"))
+                                 for n in names):
+                    nb, nrefs = face_riders(brief, face_field)
+                    nrefs = [r for r in nrefs + [brand_ref] if r]
+                    if nrefs:
+                        path = genimg.generate(nb, out_jpg,
+                                               cover=(s["type"] == "cover"),
+                                               person=True, nano=True,
+                                               refs=nrefs)
+                if not path:
+                    # no photo held for this cast (or nano flaked): names in
+                    # the prompt, from-memory rung
+                    path = genimg.generate(brief, out_jpg,
+                                           cover=(s["type"] == "cover"),
+                                           person=True)
                 if not path:
                     # FALLBACK RUNG: Seedream + ref photos, names stripped (E005)
                     person = False
