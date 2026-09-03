@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03T10:41:08.643487+00:00",
+ "updated": "2026-09-03T17:16:10.904613+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -116,6 +116,26 @@
     "@DavidBrownw9vv Haha, same here! \ud83d\ude04 The live satellite views are definitely a rabbit hole. Glad you found the list useful! \ud83c\udf0d\ud83d\ude80",
     "@waleed_maalik Great addition to the list! \ud83d\udc40\ud83d\udd25 Definitely adding this one to my bookmarks. Thanks for sharing!"
    ]
+  },
+  {
+   "id": "2094129094673735922",
+   "title": "How to share your Grok @Bot design with others",
+   "sub": "elonmusk",
+   "where": "@elonmusk on X",
+   "unit": "likes",
+   "selftext": "How to share your Grok @Bot design with others",
+   "permalink": "https://x.com/elonmusk/status/2094129094673735922",
+   "outlink": null,
+   "score": 5837,
+   "comments_n": 663,
+   "views": 5146559,
+   "age_h": 94.8,
+   "vph": 61.6,
+   "image": null,
+   "video": null,
+   "guide": true,
+   "wide_guide": true,
+   "born": 1788114218.084242
   },
   {
    "id": "2087433011478634944",
@@ -340,25 +360,6 @@
    "born": 1787564007.474675
   },
   {
-   "id": "2094129094673735922",
-   "title": "How to share your Grok @Bot design with others",
-   "sub": "elonmusk",
-   "where": "@elonmusk on X",
-   "unit": "likes",
-   "selftext": "How to share your Grok @Bot design with others",
-   "permalink": "https://x.com/elonmusk/status/2094129094673735922",
-   "outlink": null,
-   "score": 3144,
-   "comments_n": 490,
-   "views": 2376205,
-   "age_h": 7.8,
-   "vph": 403.1,
-   "image": null,
-   "video": null,
-   "guide": true,
-   "born": 1788114218.084242
-  },
-  {
    "id": "2088829945749311925",
    "title": "Ok Grok 4.6 is getting scary good. Games. 3D worlds. Game trailers. Even real-world 3D prints. 10 wild examples:",
    "sub": "minchoi",
@@ -450,6 +451,30 @@
    "born": 1787114721.507617
   },
   {
+   "id": "2094996936336031976",
+   "title": "What if Deadlock had an AI generated hero? Al Tools: Midjourney + Nano Banana 2 + Kling 2.5 Note : Let's be clear, this is just an experiment, light years away from the masterclass that is true Al gaming.94",
+   "sub": "OgundimuFist",
+   "where": "@OgundimuFist on X",
+   "unit": "likes",
+   "selftext": "What if Deadlock had an AI generated hero? Al Tools: Midjourney + Nano Banana 2 + Kling 2.5 Note : Let's be clear, this is just an experiment, light years away from the masterclass that is true Al gaming.94",
+   "permalink": "https://x.com/OgundimuFist/status/2094996936336031976",
+   "outlink": null,
+   "score": 2308,
+   "comments_n": 22,
+   "views": 62270,
+   "age_h": 37.4,
+   "vph": 61.8,
+   "image": "https://pbs.twimg.com/media/HRLsmVhWgAUsWPT.jpg",
+   "video": null,
+   "guide": true,
+   "wide_guide": true,
+   "thread": [
+    "@JamesOrSenio Lowk",
+    "@nuiqnenseruame dont even joke lad"
+   ],
+   "born": 1788321130.904613
+  },
+  {
    "id": "2091130779636285890",
    "title": "the single greatest project you should do if you are trying to become better at ai systems is to take an open weights model and build the entire production system around it. do this by yourself and watching tutorials onl",
    "sub": "karancl",
@@ -508,6 +533,29 @@
    "guide": true,
    "wide_guide": true,
    "born": 1787650551.482273
+  },
+  {
+   "id": "2095175759606231439",
+   "title": "We\u2019re introducing Gemini 3.8 Flash \u26a1\ufe0f built to tackle complex agentic and multi-step tasks with even greater diligence. Our most intelligent workhorse model yet delivers significant improvements in reasoning, evolving to",
+   "sub": "GoogleAI",
+   "where": "@GoogleAI on X",
+   "unit": "likes",
+   "selftext": "We\u2019re introducing Gemini 3.8 Flash \u26a1\ufe0f built to tackle complex agentic and multi-step tasks with even greater diligence. Our most intelligent workhorse model yet delivers significant improvements in reasoning, evolving to an AI partner that doesn\u2019t just write code, but can also navigate complex projects. While solving ambiguous and high-friction tasks is immensely helpful, it can also be expensive. Fortunately, 3.8 Flash features the usual effort controls, ensuring that the amount of thinking required to accomplish the task at hand is proportional to the tokens spent. Watch Gemini 3.8 Flash combine native video understanding with advanced coding to autonomously build this 3D game, play it to find errors, and execute code changes in a seamless agentic loop in @antigravity.",
+   "permalink": "https://x.com/GoogleAI/status/2095175759606231439",
+   "outlink": null,
+   "score": 2095,
+   "comments_n": 108,
+   "views": 173570,
+   "age_h": 25.5,
+   "vph": 82.1,
+   "image": null,
+   "video": "https://video.twimg.com/amplify_video/2095175557256294404/vid/avc1/1920x1080/9ldFCTtVJZiJt0a4.mp4?tag=29",
+   "guide": true,
+   "wide_guide": true,
+   "thread": [
+    "\u2014 Available to Google AI Pro and Ultra subscribers across the @GeminiApp, AI Mode in Google Search, and Google Sheets \u2014 Build in the Gemini API via @GoogleAIStudio and @AndroidStudio, explore agent-first workflows in @antigravity, and generate UIs with 3.8 Flash in @stitchbygoogle \u2014 Gemini Enterprise users by picking it from the drop down model menu or in Gemini Enterprise Agent Platform."
+   ],
+   "born": 1788363970.904613
   },
   {
    "id": "2091213696748208545",
