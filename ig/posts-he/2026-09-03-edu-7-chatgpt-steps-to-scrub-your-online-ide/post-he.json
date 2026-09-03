@@ -1,0 +1,117 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "השם שלך חושף 39 פרופילים לזרים. <em>שבעה צעדים</em> שמוחקים את כולם.",
+   "kicker": "39 פרופילים. 16 כניסות. ארבע שעות.",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-09-03-edu-7-chatgpt-steps-to-scrub-your-online-ide/gen-0.jpg",
+   "image_prompt": "Bare forearm from right, one finger jabbing glowing central icon on clean background; 39 electric-blue circles with connections; electric-blue against warm amber accents; documentary news photo, harsh flash; personal data violation emotion, not generic surveillance."
+  },
+  {
+   "type": "content",
+   "headline": "1) חפש את השם שלך <em>כמו שזר היה עושה</em>",
+   "hsize": 100,
+   "body": "הוא חיפש את שמו האמיתי ואימיילים ישנים בגוגל. מצא <b>39 פרופילים</b> שבכלל שכח שקיימים.\n\nאתה כנראה חשוף עוד שלושה או ארבעה דפים בגוגל מעבר למה שחשבת.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) אסוף כל שם משתמש ישן <em>שהיה לך פעם</em>",
+   "hsize": 100,
+   "body": "שם גיימינג מ-<b>2016</b> עדיין יכול לקשר בין Reddit, GitHub ופורומים ישנים לשם האמיתי שלך.\n\nשמות המשתמש הכי ישנים שלך הם הכי מסוכנים, כי שכחת מה שפרסמת בהם.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) מיין כל חשבון ישן <em>לשלוש קטגוריות</em>",
+   "hsize": 100,
+   "body": "פוסט מ-<b>2014</b> עדיין שם, לכל מי שיודע איפה לחפש.\n\nגם פרופילים שאי אפשר למחוק, עדיין יש בהם פרטים אישיים שאפשר להסיר.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "שישה פרטים. כל חייך חשופים.",
+   "hsize": 74,
+   "body": "כל מי שמוצא את ששת הפרטים האלה יכול לאתר אותך, להתחזות אליך ולגשת לחשבונות שלך.\n\n\"לכל פרופיל שאני מדביק, מצא כל אזכור ציבורי של העיר שלי, יום ההולדת, מקום העבודה והאימייל. תגיד לי אילו למחוק.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) דחוף את התוצאות הרעות <em>מהעמוד הראשון</em>",
+   "hsize": 100,
+   "body": "הוא דחק <b>חמישה אזכורים ציבוריים</b> מהעמוד הראשון, עם פרופילים מעודכנים באתרים שגוגל כבר מעדיף.\n\nחלק מהאתרים הישנים האלה עדיין מחזיקים את הכניסה שלך פתוחה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) סגור כל כניסה <em>שהאימייל שלך זוכר</em>",
+   "hsize": 100,
+   "body": "הוא מצא <b>16 כניסות</b> שעדיין פעילות:\n• לוחות דרושים\n• פורומים\n• כלים שבכלל שכח שהיו לו\n\nסגירת הכניסות לא מספיקה אם החשבונות שנשארו עדיין פתוחים לגמרי.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "7) נעל כל חשבון <em>שנשאר</em>",
+   "hsize": 100,
+   "body": "<b>ארבע שעות.</b> <b>39 פרופילים</b> נמצאו. <b>16 כניסות</b> נסגרו. <b>חמישה אזכורים</b> נדחקו.\n\n\"עשה סיור אבטחה אחרון: בדוק הגדרות פרטיות, אפליקציות מחוברות, והפעל אימות דו שלבי בכל חשבון.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור: שבעה צעדים לניקוי <em>הזהות הדיגיטלית שלך</em>",
+   "hsize": 72,
+   "body": "חפש את השם שלך כמו שזר היה עושה\nמפה כל שם משתמש ישן\nמחק עיר, עבודה ויום הולדת\nסגור כל כניסה שהאימייל שלך זוכר\nנעל חשבונות עם 2FA\n\nחדשות AI יומיות + כלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "ChatGPT בילה ארבע שעות על הזהות הדיגיטלית של בן אדם אחד, ומצא 39 פרופילים שהוא בכלל שכח שקיימים. 🔍\n\nצעד 1: חפש שם מלא ואימיילים ישנים כדי לבנות מפת חשיפה. צעד 2: אסוף כל שם משתמש ישן ובדוק לפי סוג פלטפורמה. צעד 3: פתח כל חשבון ישן ומיין: מחיקה, פרטי, או עדכון. צעד 4: הסר כל אזכור ציבורי של עיר, עבודה, יום הולדת ואימייל ישן. צעד 5: עדכן את הפרופילים החזקים שלך כדי לדחוק תוצאות שאי אפשר למחוק. צעד 6: חפש בתיבת הדואר \"ברוך הבא\" ו\"אמת\" כדי למצוא כניסות שכוחות. צעד 7: הפעל 2FA והסר אפליקציות מחוברות מכל חשבון שאתה שומר.\n\nרוב האנשים מעולם לא בדקו את הטביעת הרגל הדיגיטלית שלהם. חיפוש אחד בשם מגלה חשבונות ופרופילים ישנים מפלטפורמות שחשבת שעזבת שנים. הזהות שלך, אתה מנהל אותה, או שמי שימצא אותה קודם יעשה את זה. מנהל עסק? שלח לנו DM עם המילה AI ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: Numan_Ai12\n\nעקוב אחרי @ainews.israel לחדשות AI יומיות.\n\n#ChatGPT #AITools #Privacy #OnlineSafety #AI",
+ "pinned_comment": "איזה צעד הפתיע אותך הכי הרבה? רוב האנשים מדלגים לגמרי על צעד 6, ואז מגלים 16 כניסות פתוחות ששכחו שהיו להם. תתחיל משם.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>CHATGPT CLEANED 39 PROFILES</em> FROM MY NAME IN 4 HOURS",
+   "<em>CHATGPT SCRUBBED MY ONLINE IDENTITY</em> IN 4 HOURS FLAT",
+   "CHATGPT FOUND <em>39 EXPOSED PROFILES</em> IN MY NAME",
+   "<em>7 STEPS CHATGPT USED</em> TO SCRUB MY ONLINE IDENTITY"
+  ],
+  "scores": [
+   7,
+   5,
+   8,
+   4
+  ],
+  "winner": 2,
+  "why": "Exposed profiles trigger immediate 'am I exposed?' dread that forces you to stop and read. Cleaned profiles sound nice but don't create enough urgency—you can scroll past someone else's solved problem way easier than your own potential threat."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CHATGPT FOUND <em>39 EXPOSED PROFILES</em> IN MY NAME",
+   "YOUR NAME IS LEAKING <em>39 PROFILES</em> TO STRANGERS. THESE <em>7 STEPS</em> KILL THEM ALL.",
+   "<em>7 AI STEPS</em> TO ERASE EVERY EXPOSED PROFILE LINKED TO YOUR NAME"
+  ],
+  "scores": [
+   6,
+   9,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hits harder because 'YOUR NAME IS LEAKING' creates immediate personal threat and urgency that makes you swipe. [2] promises a solution but reads like generic listicle advice so you might scroll past."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "Step 4 is missing its number. The hook promises '7 STEPS' and steps 1–3 and 5–7 all carry their '1)' … '7)' labels, but the pattern-break slide ('6 DETAILS. YOUR WHOLE LIFE EXPOSED.') holds step 4's content — the six dangerous details and ChatGPT prompt — without a '4)' label. A reader counting the promised seven steps will land on six numbered ones. This breaks the cover contract. Fix: add '4)' t",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

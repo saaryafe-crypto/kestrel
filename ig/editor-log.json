@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-08-31T04:50:15Z",
-  "gate": "B",
-  "subject": "<em>5 RULES FOR SHARING\nYOUR GROK BOT</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW / CAST TRUTH violation: The cover shows what is clearly Elon Musk holding a phone with a share icon in front of a neon X logo. Musk has no role in this story — he is not mentioned in any slide, no action is attributed to him, and no quote or decision of his drives the content. The post is a generic how-to guide about the Grok Bot sharing UI. Owning the platform does not constitute 'a rol"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait with no substance: the entire story is someone's snarky online quip with zero real-world consequence, no outcome, and no detail to build slides from.",
-  "subject": "Ngl I appreciate the strategy of hallucinating back at the AI interviewer",
-  "t": "2026-08-31T02:24:56Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "A trend statistic is not an event; this is on-topic but routine (banned labor-market analysis with zero substance: one 72-char tweet, no named person, no specific consequence, no numbers—exactly what DOCTRINE blocks as newsroom filler).",
-  "subject": "\"Male Gen Zers are dropping out of the US job market in droves,\" per NYP",
-  "t": "2026-08-31T02:25:00Z",
-  "verdict": "KILL"
- },
- {
   "gate": "A",
   "reason": "This is Elon predicting future turbine supply shortages, not an actual event or consequence — no outcome has manifested, the substance is one thin tweet with no second facts to build from, and the 9,669 likes are engagement on the statement itself, not proof something real happened.",
   "subject": "ELON MUSK: “Turbines are sold out through 2030. In order to bring enough power online, SpaceX and Tesla will probably ha",
@@ -2098,5 +2077,26 @@
   "subject": "Israeli National Security Minister Itmar Ben-Gvir posted and then deleted an AI video of Palestinians being fed into an ",
   "verdict": "KILL",
   "reason": "The substance lives only in one thin tweet (posted/deleted); without reporting on what actually happened as consequence—removal by platform, investigation launched, fired, or official response—this reads as reaction to something rather than something that moved."
+ },
+ {
+  "t": "2026-09-03T17:32:19Z",
+  "gate": "A",
+  "subject": "Israeli National Security Minister Itmar Ben-Gvir posted and then deleted an AI video of Palestinians being fed into an ",
+  "verdict": "APPROVE",
+  "reason": "A government minister posted and deleted AI propaganda—a real person-action with real consequences on the AI lens, substantive per the calibration standard."
+ },
+ {
+  "t": "2026-09-03T18:16:30Z",
+  "gate": "B",
+  "subject": "ISRAEL'S NATIONAL SECURITY MINISTER POSTED AN AI VIDEO <em>OF PALESTINIANS BEING FED INTO A SLAUGHTERHOUSE</em> AND DELE",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CAST TRUTH VIOLATION: The cover shows three people — Netanyahu, Ben-Gvir, and Smotrich — in orange prison jumpsuits and handcuffs. Netanyahu and Smotrich play zero role in this story (the story is entirely about Ben-Gvir's deleted post). Two of the three cover faces are decorative celebrities with no connection to the event. The doctrine is explicit: a recognizable famous person as dec"
+ },
+ {
+  "t": "2026-09-03T18:22:27Z",
+  "gate": "B",
+  "subject": "ISRAEL'S NATIONAL SECURITY MINISTER POSTED AN AI VIDEO <em>OF PALESTINIANS BEING FED INTO A SLAUGHTERHOUSE</em> AND DELE",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION — CRITICAL: The cover shows Netanyahu and Smotrich in prison jumpsuits alongside Ben-Gvir. Neither Netanyahu nor Smotrich has any role in this story. The story is exclusively about Ben-Gvir's post. Two famous faces are on the cover as decoration, breaking the image-headline connection the doctrine prohibits. The cover must show only Ben-Gvir, or Ben-Gvir + a visual reference t"
  }
 ]
