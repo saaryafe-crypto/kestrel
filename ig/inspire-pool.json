@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04T17:33:20.762575+00:00",
+ "updated": "2026-09-04T20:26:47.431829+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -67,11 +67,11 @@
    "selftext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Senator Bernie Sanders introduces bill to permanently ban AI that exceeds human intelligence. Violators would face up to 20 years in prison.",
    "permalink": "https://x.com/WatcherGuru/status/2095567788051984638",
    "outlink": null,
-   "score": 42474,
-   "comments_n": 3814,
-   "views": 2105550,
-   "age_h": 23.9,
-   "vph": 1777.2,
+   "score": 48132,
+   "comments_n": 4134,
+   "views": 2557743,
+   "age_h": 26.7,
+   "vph": 1799.8,
    "image": "https://pbs.twimg.com/media/HRTzy78X0AAURqH.jpg",
    "video": null,
    "guide": false,
@@ -266,6 +266,25 @@
    "video": null,
    "guide": false,
    "born": 1788388152.085172
+  },
+  {
+   "id": "2095651327942459428",
+   "title": "\u201cNot to punish evil is equivalent to authorizing it.\u201d - Leonardo da Vinci",
+   "sub": "historyinmemes",
+   "where": "@historyinmemes on X",
+   "unit": "likes",
+   "selftext": "\u201cNot to punish evil is equivalent to authorizing it.\u201d - Leonardo da Vinci",
+   "permalink": "https://x.com/historyinmemes/status/2095651327942459428",
+   "outlink": null,
+   "score": 14735,
+   "comments_n": 108,
+   "views": 203244,
+   "age_h": 21.2,
+   "vph": 694.7,
+   "image": "https://pbs.twimg.com/media/HRU_xqeXYAMXcxk.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1788477287.431829
   },
   {
    "id": "2087969940196458709",
@@ -741,25 +760,6 @@
    "video": null,
    "guide": false,
    "born": 1786822970.572699
-  },
-  {
-   "id": "2089003810832236784",
-   "title": "Gregory has things to say about it when the house sitter takes Bailey outside",
-   "sub": "AJamesMcCarthy",
-   "where": "@AJamesMcCarthy on X",
-   "unit": "likes",
-   "selftext": "Gregory has things to say about it when the house sitter takes Bailey outside",
-   "permalink": "https://x.com/AJamesMcCarthy/status/2089003810832236784",
-   "outlink": null,
-   "score": 8562,
-   "comments_n": 120,
-   "views": 53038,
-   "age_h": 34.3,
-   "vph": 249.6,
-   "image": "https://pbs.twimg.com/media/HP2h4_vXAAA139K.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1786892506.125203
   }
  ]
 }
