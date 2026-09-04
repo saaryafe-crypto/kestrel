@@ -1,0 +1,122 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "WeatherNext 3: <em>מהיר יותר מכל מודל מזג האוויר בעולם</em>",
+   "hsize": 62,
+   "media": "posts/2026-09-04-weathernext-3-is-a-major-breakthrough-in/gen-0.jpg",
+   "image_prompt": "Sundar Pichai waist-up, wide-eyed triumph and awe on his face, holds a tablet chest-high showing a vivid orange street-level weather map — rain on one block, sun on the next. Google logo exactly as in the reference image glows large on the bright operations center wall behind him. Documentary news photo, 35mm, film grain. Accent: vivid orange against electric blue.",
+   "gen_person": true,
+   "logos": [
+    "google"
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "אפליקציית מזג האוויר שלך עובדת <em>על משוואות בנות 70 שנה</em>",
+   "hsize": 82,
+   "body": "כל תחזית בעולם עבדה אותו הדבר: מזינים נתוני אטמוספרה לסימולציה פיזיקלית, מריצים חישובים, מקבלים תחזית.\n\nהבעיה: זה אמר לך מה קורה בעיר שלך. לא ברחוב שלך.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "WeatherNext 3 <em>דילג על הסימולציה הפיזיקלית</em> וצפה במזג אוויר אמיתי",
+   "hsize": 82,
+   "body": "במקום לדמות את האטמוספרה, ה-AI למד ישירות ממה שמזג האוויר עושה בפועל.\n\nהתוצאה: תחזיות מהירות יותר, ברמת הרחוב שלך.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "בלי משוואות. רק מזג אוויר חי.",
+   "hsize": 110,
+   "body": "ואז הגיע החשבון שהממשלות לא ידעו איך להסביר.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ממשלות הוציאו מיליארדים על מחשבי על למזג אוויר. <em>Google עקפה את כולם.</em>",
+   "hsize": 82,
+   "body": "שירותי מזג האוויר הלאומיים מריצים סימולציות פיזיקה על כמה מהמחשבים היקרים ביותר שנבנו אי פעם.\n\nWeatherNext 3 קורא נתונים חיים ישירות. הטלפון שלך יכול לדעת שיורד גשם ברחוב שלך לפני שהם יודעים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ה-AI שניצח <em>כל מודל מזג האוויר הלאומי</em> יכול לחסוך לעסק שלך כסף",
+   "hsize": 80,
+   "body": "חברות לוגיסטיקה ומארגני אירועים מפסידים כסף כשהתחזית מפספסת.\n\nעם WeatherNext 3: תחזיות מהירות יותר, בלי מטאורולוג בצוות.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: <em>Google כבר קוראת את השמיים בזמן אמת</em>",
+   "hsize": 58,
+   "body": "תחזיות מזג האוויר רצו על פיזיקה <b>בת 70 שנה</b> עד עכשיו\nה-AI של Google למד מתצפיות ישירות בזמן אמת\nמהיר ומדויק יותר מכל מודל קיים\n\nשלח את זה למישהו שבודק מזג אוויר כל בוקר",
+   "media": null
+  }
+ ],
+ "caption": "ה-AI של Google דילג על 70 שנות פיזיקת מזג אוויר ועכשיו יודע מה קורה ברחוב שלך לפני שהתחזית הלאומית יודעת. 🌧️\n\nבפוסט: למה תחזיות מזג האוויר רצו על משוואות פיזיקה 70 שנה, איך WeatherNext 3 למד ישירות מהעולם האמיתי, המיליארדים שממשלות הוציאו על מחשבי על שGoogle פשוט עקפה, ומה זה אומר לשירותי מזג האוויר הלאומיים שעומדים עכשיו מול מתחרה AI.\n\n70 שנה תחזיות מזג האוויר רצו על פיזיקה אטמוספרית. AI פשוט שכתב את זה. שירותי מזג האוויר הלאומיים עומדים עכשיו מול מתחרה ישיר. השאלה היא כמה מהר הם יסתגלו.\n\nמנהל עסק עם פעילות בחוץ? שלח לנו הודעה עם \"AI\" ונראה לך מה נתוני AI בזמן אמת יכולים לעשות בשבילך.\n\nמקורות: Google DeepMind, Google Research\n\nעקוב אחרי @ainews.israel לעוד עדכוני AI\n\n#AI #WeatherAI #GoogleAI #Technology #MachineLearning",
+ "pinned_comment": "ממשלות הוציאו מיליארדים לאורך עשרות שנים על מחשבי על למזג אוויר, וה-AI של Google ניצח אותם פשוט כי הוא קורא נתונים חיים ישירות במקום לדמות אותם. האם תסמוך על הטלפון יותר מהשירות הלאומי עכשיו?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "GOOGLE'S NEW AI SKIPPED 70 YEARS OF WEATHER EQUATIONS <em>AND CAN NOW TELL YOU WHAT'S HAPPENING ON YOUR BLOCK BEFORE YOUR CITY FORECAST DOES</em>",
+   "GOOGLE JUST BUILT AN AI THAT WATCHES REAL WEATHER HAPPEN <em>AND BEATS EVERY PHYSICS MODEL METEOROLOGISTS USE</em>",
+   "GOOGLE'S WEATHERNEXT 3 SKIPPED THE PHYSICS SIMULATION ENTIRELY <em>AND IS ALREADY FASTER THAN EVERY NATIONAL WEATHER MODEL ON EARTH</em>",
+   "GOOGLE JUST BUILT <em>THE MOST ACCURATE WEATHER AI EVER MADE</em>, TRAINED ON LIVE REAL-WORLD DATA INSTEAD OF DECADES-OLD PHYSICS EQUATIONS",
+   "GOOGLE JUST BUILT A WEATHER AI THAT FORECASTS <em>YOUR STREET, NOT YOUR CITY</em>, AND BEATS EVERY MODEL METEOROLOGISTS USE TODAY"
+  ],
+  "scores": [
+   8,
+   7,
+   9,
+   0,
+   8
+  ],
+  "winner": 2,
+  "why": "[2]'s product name ('WeatherNext 3') plus 'skipped physics entirely' and 'fastest on earth' create multiple 'wait what' moments that feel like real innovation news. [0]'s personal benefit ('your block first') is compelling but lacks the innovation credential and massive scale claim to generate the same stopping power."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "GOOGLE'S WEATHERNEXT 3 SKIPPED THE PHYSICS SIMULATION ENTIRELY <em>AND IS ALREADY FASTER THAN EVERY NATIONAL WEATHER MODEL ON EARTH</em>",
+   "GOOGLE JUST KILLED THE 70-YEAR-OLD EQUATIONS YOUR WEATHER APP RUNS ON <em>WITH AN AI THAT READS THE REAL SKY INSTEAD</em>"
+  ],
+  "scores": [
+   8,
+   0
+  ],
+  "winner": 0,
+  "why": "[0] wins on pure impact: a shocking fact (no physics) with proof you grasp instantly. [1] is disqualified for claiming equations are 'killed' when facts only establish a faster alternative exists."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Google DeepMind",
+  "actor_known": false,
+  "anchor": "Google",
+  "specifics": [
+   "Reads real-time, real-world observations — not pre-built physics simulations like every existing forecast model",
+   "Predictions are localized to a much smaller area than traditional forecasting",
+   "Faster than current state-of-the-art weather models",
+   "Built jointly by Google DeepMind and Google Research",
+   "Called WeatherNext 3 — implying two prior versions already exist"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with @GoogleResearch, the model learns directly from real-world, real-time observations to give more localized highly accurate predicti",
+  "link": "https://x.com/GoogleDeepMind/status/2095528012791902536",
+  "judge_interest": 6,
+  "scout_score": 50.2
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Slides 2, 3, 5, and 6 all end on closed statements — the doctrine requires every slide's last line to plant a specific itch the next headline scratches. Slide 2 ends: 'it only told you what was happening in your city, not your street' (settled). Slide 3 ends: 'forecasts narrow enough to cover your block' (settled). Slide 5 ends: 'your phone could know it's raining on your block before they do' (se",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
