@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-01T12:00:37Z",
-  "gate": "B",
-  "subject": "YOU'RE IGNORING CLIENTS WHO SPEND <em>67% MORE</em>, 5 PROMPTS THAT GO GET THEM",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — generated unknown face on cover: The cover shows a generated non-famous person (businessman with wrench over treasure chest). IMAGE LAW is explicit: 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' Fix: regenerate the cover without any human — the Claude logo + treasure chest visual works on its own, or use the product/brand mark a"
- },
- {
   "t": "2026-09-01T12:02:27Z",
   "gate": "B",
   "subject": "YOU'RE IGNORING CLIENTS WHO SPEND <em>67% MORE</em>, 5 PROMPTS THAT GO GET THEM",
@@ -2098,5 +2091,12 @@
   "subject": "AI child pornography is now legal in the United States. Criticizing Israel is not. Wake up America.",
   "verdict": "KILL",
   "reason": "Reaction-bait without a documented event or real actor; no specific legislation, court ruling, or consequence to source and report."
+ },
+ {
+  "t": "2026-09-04T20:17:13Z",
+  "gate": "A",
+  "subject": "AI child pornography is now legal in the United States. Criticizing Israel is not. Wake up America.",
+  "verdict": "KILL",
+  "reason": "No identifiable real-world event—the tweet makes unverified extraordinary legal claims (AI-CSAM legality, Israel-criticism ban) with zero sources or specifics, reads as political outrage-bait rather than news, and provides no concrete action for a writer to build from."
  }
 ]
