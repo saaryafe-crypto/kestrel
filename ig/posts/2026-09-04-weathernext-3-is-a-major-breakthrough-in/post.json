@@ -1,0 +1,115 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GOOGLE'S WEATHERNEXT 3 IS ALREADY FASTER THAN <em>EVERY NATIONAL WEATHER MODEL ON EARTH</em>",
+   "hsize": 62,
+   "media": "posts/2026-09-04-weathernext-3-is-a-major-breakthrough-in/gen-0.jpg",
+   "image_prompt": "Sundar Pichai waist-up, wide-eyed triumph and awe on his face, holds a tablet chest-high showing a vivid orange street-level weather map \u2014 rain on one block, sun on the next. Google logo exactly as in the reference image glows large on the bright operations center wall behind him. Documentary news photo, 35mm, film grain. Accent: vivid orange against electric blue.",
+   "gen_person": true,
+   "logos": [
+    "google"
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "YOUR WEATHER APP HAS BEEN RUNNING <em>70-YEAR-OLD EQUATIONS</em> YOUR WHOLE LIFE",
+   "hsize": 82,
+   "body": "Every forecast on earth worked the same: feed atmospheric readings into a physics simulation, run the math, output a prediction.\n\nBut it only told you what was happening in your city, not your street",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "WEATHERNEXT 3 <em>SKIPPED THE PHYSICS SIMULATION</em> AND WATCHED REAL WEATHER INSTEAD",
+   "hsize": 82,
+   "body": "Instead of simulating the atmosphere, the AI learned directly from what weather actually does in the real world.\n\nThe result: faster predictions, and forecasts narrow enough to cover your block",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "NO EQUATIONS. JUST LIVE WEATHER.",
+   "hsize": 110,
+   "body": "Then came the bill governments couldn't explain",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "GOVERNMENTS SPENT BILLIONS ON WEATHER SUPERCOMPUTERS. <em>GOOGLE BYPASSED ALL OF IT.</em>",
+   "hsize": 82,
+   "body": "National weather services run physics models on some of the most expensive computers ever built.\n\nWeatherNext 3 read live data directly, your phone could know it's raining on your block before they do.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE AI THAT BEAT <em>EVERY NATIONAL WEATHER MODEL</em> CAN TELL YOUR BUSINESS WHAT'S COMING",
+   "hsize": 80,
+   "body": "Logistics companies and event planners lose money when forecasts miss.\n\nWeatherNext 3 means faster calls, no meteorologist on staff.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>GOOGLE'S AI READS THE SKY IN REAL TIME</em>",
+   "hsize": 58,
+   "body": "Weather forecasting ran on <b>70-year-old</b> physics until now\nGoogle's AI learned from real-time live observations\nFaster and more localized than any existing model\n\nSend this to someone who checks the weather every morning",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. Google's new AI skipped 70 years of weather physics and now predicts what's happening on your block before your city forecast does. \ud83c\udf27\ufe0f\n\nThe 70-year belief that weather had to be simulated with physics equations, how WeatherNext 3 learned directly from real-world observations instead, why it produces street-level forecasts faster than existing models, the billions governments spent on weather supercomputers that Google just bypassed, and what it means for national weather services now facing a direct AI competitor.\n\nWeather forecasting has run on atmospheric physics for 70 years. AI just rewrote it. National weather services are now facing a direct competitor. The question is how fast they adapt.\n\nRunning a business with outdoor operations? DM us \"AI\" and we'll show you what real-time AI data could do for yours.\n\nSources: Google DeepMind, Google Research\n\n#AI #WeatherAI #GoogleAI #Technology #MachineLearning",
+ "pinned_comment": "Governments spent billions over decades building weather supercomputers, and Google's AI just beat them by reading live data instead of simulating it. Would you trust your phone over the national weather service now?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "GOOGLE'S NEW AI SKIPPED 70 YEARS OF WEATHER EQUATIONS <em>AND CAN NOW TELL YOU WHAT'S HAPPENING ON YOUR BLOCK BEFORE YOUR CITY FORECAST DOES</em>",
+   "GOOGLE JUST BUILT AN AI THAT WATCHES REAL WEATHER HAPPEN <em>AND BEATS EVERY PHYSICS MODEL METEOROLOGISTS USE</em>",
+   "GOOGLE'S WEATHERNEXT 3 SKIPPED THE PHYSICS SIMULATION ENTIRELY <em>AND IS ALREADY FASTER THAN EVERY NATIONAL WEATHER MODEL ON EARTH</em>",
+   "GOOGLE JUST BUILT <em>THE MOST ACCURATE WEATHER AI EVER MADE</em>, TRAINED ON LIVE REAL-WORLD DATA INSTEAD OF DECADES-OLD PHYSICS EQUATIONS",
+   "GOOGLE JUST BUILT A WEATHER AI THAT FORECASTS <em>YOUR STREET, NOT YOUR CITY</em>, AND BEATS EVERY MODEL METEOROLOGISTS USE TODAY"
+  ],
+  "scores": [
+   8,
+   7,
+   9,
+   0,
+   8
+  ],
+  "winner": 2,
+  "why": "[2]'s product name ('WeatherNext 3') plus 'skipped physics entirely' and 'fastest on earth' create multiple 'wait what' moments that feel like real innovation news. [0]'s personal benefit ('your block first') is compelling but lacks the innovation credential and massive scale claim to generate the same stopping power."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "GOOGLE'S WEATHERNEXT 3 SKIPPED THE PHYSICS SIMULATION ENTIRELY <em>AND IS ALREADY FASTER THAN EVERY NATIONAL WEATHER MODEL ON EARTH</em>",
+   "GOOGLE JUST KILLED THE 70-YEAR-OLD EQUATIONS YOUR WEATHER APP RUNS ON <em>WITH AN AI THAT READS THE REAL SKY INSTEAD</em>"
+  ],
+  "scores": [
+   8,
+   0
+  ],
+  "winner": 0,
+  "why": "[0] wins on pure impact: a shocking fact (no physics) with proof you grasp instantly. [1] is disqualified for claiming equations are 'killed' when facts only establish a faster alternative exists."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Google DeepMind",
+  "actor_known": false,
+  "anchor": "Google",
+  "specifics": [
+   "Reads real-time, real-world observations \u2014 not pre-built physics simulations like every existing forecast model",
+   "Predictions are localized to a much smaller area than traditional forecasting",
+   "Faster than current state-of-the-art weather models",
+   "Built jointly by Google DeepMind and Google Research",
+   "Called WeatherNext 3 \u2014 implying two prior versions already exist"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "WeatherNext 3 is a major breakthrough in how we forecast global weather. \u26c5 Developed with @GoogleResearch, the model learns directly from real-world, real-time observations to give more localized highly accurate predicti",
+  "link": "https://x.com/GoogleDeepMind/status/2095528012791902536",
+  "judge_interest": 6,
+  "scout_score": 50.2
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Slides 2, 3, 5, and 6 all end on closed statements \u2014 the doctrine requires every slide's last line to plant a specific itch the next headline scratches. Slide 2 ends: 'it only told you what was happening in your city, not your street' (settled). Slide 3 ends: 'forecasts narrow enough to cover your block' (settled). Slide 5 ends: 'your phone could know it's raining on your block before they do' (se"
+}
