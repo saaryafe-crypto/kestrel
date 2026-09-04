@@ -1,0 +1,120 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TESLA'S CYBERCABS ARE EVERYWHERE IN DOWNTOWN AUSTIN WITH <em>NO STEERING WHEEL AND NO PEDALS</em>, NOBODY IS DRIVING THEM.",
+   "hsize": 64,
+   "kicker": "NO HUMAN CAN TAKE CONTROL",
+   "media": "posts/2026-09-04-i-am-currently-in-downtown-austin-there-/cand-1.webp",
+   "logos": [
+    "tesla"
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "MOST PEOPLE THOUGHT THIS WAS <em>STILL YEARS AWAY</em>",
+   "hsize": 90,
+   "body": "Picture yourself walking through downtown Austin at midnight.\n\nNot one Cybercab. Dozens. Rolling through city streets completely on their own.\n\nAnd then you looked inside one.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "CYBERCABS WERE EVERYWHERE. <em>NOBODY INSIDE ANY OF THEM.</em>",
+   "hsize": 100,
+   "body": "<b>2.8 million people</b> saw the clips by morning.\n\nSawyer Merritt walked Austin streets at <b>12:29 AM</b>, filming every one he passed.\n\nNobody thought to look for what else was gone.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ZERO STEERING WHEELS. ZERO PEDALS.",
+   "hsize": 110,
+   "layout": "break",
+   "body": "No human can physically take over. So what happens next?",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE UBER DRIVER ERA <em>JUST GOT AN EXPIRATION DATE</em>",
+   "hsize": 84,
+   "body": "These aren't the kind with a backup driver.\n\nThey are physically built without any controls a human would need.\n\nYour Uber driver can't compete with a car that never clocks out.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AUTONOMOUS PICKUPS MEAN <em>ZERO DRIVER PAYROLL</em>",
+   "hsize": 100,
+   "body": "You're still paying a driver to pick up your customers.\n\nCybercabs have no driver costs and run <b>24/7</b>.\n\nThe businesses that switch first will own this before you notice.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: TESLA ROBOT TAXIS ARE <em>ALREADY HERE</em>",
+   "hsize": 58,
+   "body": "Cybercabs flooding downtown Austin\nZero steering wheels, zero pedals\nNo human can physically take over\n<b>2.8 million</b> views overnight\n\nSend this to the friend who still thinks robot taxis are years away.",
+   "media": null
+  }
+ ],
+ "caption": "Tesla Cybercabs with zero steering wheels and zero pedals are already driving themselves through downtown Austin. Swipe to see what that actually means \ud83e\udd16\n\nMidnight Austin streets flooded with driverless Cybercabs, zero steering wheels and zero pedals confirmed on every car in the footage, no human takeover possible even in an emergency, 2.8 million views in one night, what fully autonomous taxis mean for drivers, and why the businesses that move first will own this customer experience before anyone else does.\n\nThis is not a pilot program. Fully autonomous vehicles with no human override are already navigating major American city streets at midnight. The question is not whether robot taxis are coming. They are here.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Sawyer Merritt on X\n\n#Tesla #Cybercab #SelfDrivingCars #AI #FutureTech",
+ "pinned_comment": "The cars aren't designed to have controls added back later. No steering wheel means no steering wheel. There is no software patch for that.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "TESLA CYBERCABS ARE ALL OVER DOWNTOWN AUSTIN RIGHT NOW, AND EVERY SINGLE ONE HAS <em>NO STEERING WHEEL AND NO PEDALS</em>.",
+   "TESLA'S ROBOT TAXIS JUST TOOK OVER DOWNTOWN AUSTIN. <em>EVERY SINGLE ONE HAS ZERO STEERING WHEELS AND ZERO PEDALS.</em>",
+   "TESLA CYBERCABS WITH ZERO STEERING WHEELS AND ZERO PEDALS <em>ARE FLOODING DOWNTOWN AUSTIN</em>, AND NO HUMAN CAN TAKE CONTROL",
+   "TESLA JUST PROVED FULLY DRIVERLESS CARS ARE ALREADY HERE. <em>NOT ONE OF ITS AUSTIN CYBERCABS HAS A STEERING WHEEL OR PEDALS.</em>",
+   "SOMEONE WALKED THROUGH DOWNTOWN AUSTIN AT MIDNIGHT AND FILMED TESLA ROBOT TAXIS <em>WITH LITERALLY NO WAY FOR A HUMAN TO TAKE CONTROL</em>",
+   "YOUR UBER DRIVER JUST GOT REPLACED IN AUSTIN. <em>TESLA'S ROBOT TAXIS HAVE ZERO STEERING WHEELS AND ZERO PEDALS</em>, AND THEY'RE ALREADY EVERYWHERE.",
+   "THESE TESLA CYBERCABS TAKING OVER DOWNTOWN AUSTIN HAVE <em>NO STEERING WHEEL AND NO PEDALS</em> \u2014 NO HUMAN IS IN CONTROL.",
+   "TESLA JUST FLOODED DOWNTOWN AUSTIN WITH ROBOT TAXIS THAT <em>NO HUMAN CAN PHYSICALLY CONTROL</em> \u2014 ZERO STEERING WHEELS, ZERO PEDALS.",
+   "TESLA'S CYBERCABS ARE EVERYWHERE IN DOWNTOWN AUSTIN WITH <em>NO STEERING WHEEL AND NO PEDALS</em> \u2014 NOBODY IS DRIVING THEM."
+  ],
+  "scores": [
+   8,
+   8,
+   7,
+   7.5,
+   7.5,
+   0,
+   8,
+   8.5,
+   8.5
+  ],
+  "winner": 8,
+  "why": "\"NOBODY IS DRIVING THEM\" wins because it's a pure absurdist shock that makes you stop scrolling instantly. \"NO HUMAN CAN PHYSICALLY CONTROL\" is scarier but less immediately shocking."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "TESLA'S CYBERCABS ARE EVERYWHERE IN DOWNTOWN AUSTIN WITH <em>NO STEERING WHEEL AND NO PEDALS</em> \u2014 NOBODY IS DRIVING THEM.",
+   "TESLA JUST SENT DRIVERLESS CABS ALL OVER DOWNTOWN AUSTIN WITH <em>NO STEERING WHEEL AND NO PEDALS</em> AND EVERY UBER DRIVER JUST GOT A DEADLINE."
+  ],
+  "scores": [
+   8,
+   0
+  ],
+  "winner": 0,
+  "why": "[0] hits with the actual wild story in one clear sweep (fully autonomous cabs deployed NOW, literally zero human control). [1] invents stakes (Uber driver deadlines) that don't appear anywhere in the facts, which kills its credibility as a genuine hook."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Tesla Cybercab",
+  "actor_known": true,
+  "anchor": "Tesla",
+  "specifics": [
+   "Zero steering wheels, zero pedals \u2014 no human can physically take over these cars",
+   "Cybercabs described as being 'EVERYWHERE' in downtown Austin",
+   "Video already hit 2.8 million views",
+   "Filmed at 12:29 AM on September 3, 2026",
+   "Poster hinting at something even bigger happening the very next day"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "I am currently in downtown Austin. There are @Tesla Cybercabs EVERYWHERE. All of the Cybercabs in these clips have no steering wheels or pedals. Makes the vibe downtown feel so futuristic. Can\u2019t wait for tomorrow! \ud83e\udd16",
+  "link": "https://x.com/SawyerMerritt/status/2095308059383845238",
+  "judge_interest": 7,
+  "scout_score": 187.5
+ }
+}
