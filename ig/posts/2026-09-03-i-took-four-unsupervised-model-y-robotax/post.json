@@ -1,0 +1,119 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ONE $33 UBER COST MORE THAN <em>FOUR DRIVERLESS TESLA RIDES COMBINED</em>, AND IT SMELLED.",
+   "hsize": 62,
+   "media": "posts/2026-09-03-i-took-four-unsupervised-model-y-robotax/gen-0-r.jpg",
+   "image_prompt": "Elon Musk, wide-eyed shock, back seat of self-driving Tesla Model Y, empty driver seat dominating left side, car clearly autonomous. Blurred city road through windshield. Crimson Tesla glow. Gold afternoon light. Documentary style, natural texture.",
+   "gen_person": true,
+   "logos": [
+    "tesla"
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "HE TOOK FOUR FULLY DRIVERLESS TESLA RIDES IN <em>ONE DAY. ZERO DRIVERS.</em>",
+   "hsize": 76,
+   "body": "Not a press event. Not a safety driver riding along. Four separate Tesla Model Y trips across one afternoon, nobody behind the wheel in any of them.\n\nThe price changed that assumption",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "FOUR RIDES. 50 MINUTES. 8 MILES. <em>$27.25 TOTAL.</em>",
+   "hsize": 90,
+   "body": "Each one picked up and dropped off by a car with nobody behind the wheel. Your daily commute fits inside that **8-mile** window.\n\nThen came the Uber.",
+   "media": "posts/2026-09-03-i-took-four-unsupervised-model-y-robotax/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$33 FOR ONE. $27 FOR FOUR.",
+   "hsize": 110,
+   "body": "That one Uber lasted **20 minutes** and still cost more.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE CAR WITH NO DRIVER BEAT THE HUMAN ON <em>CLEANLINESS TOO</em>",
+   "hsize": 76,
+   "body": "Cleanliness: the Uber smelled. The robot didn't have anyone inside to make it smell.\n\nThen the per-ride number came in.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "FOUR RIDES AVERAGED $6.81 EACH. <em>THE UBER COST NEARLY 5X MORE PER RIDE.</em>",
+   "hsize": 82,
+   "body": "Corporate pickups. Recurring routes. Client transfers.\n\nEvery Uber receipt on your company card now has a real competitor. Every route your team keeps booking the old way is a cost that already looks wrong",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: FOUR DRIVERLESS TESLA RIDES COST LESS THAN <em>ONE SMELLY UBER</em>",
+   "hsize": 58,
+   "body": "4 driverless Tesla rides: **$27.25** total\n50 minutes and **8 miles** covered\n1 Uber ride: **$33** including tip\nThe Uber smelled. The robots didn't.\n\nSend this to the friend who just paid surge pricing",
+   "media": null
+  }
+ ],
+ "caption": "Tesla's driverless robotaxi just beat Uber on both price and smell. Swipe to see what four fully autonomous rides actually cost. \ud83d\ude97\n\nThe belief that robotaxis were still too experimental for everyday use, four driverless Model Y rides covering 50 minutes and 8 miles for $27.25 combined, the single Uber that cost $33 including tip and smelled, the twist where one human-driven ride was more expensive than all four robot rides together, what this means for Uber drivers facing a real-world price comparison, and why businesses booking repeat routes should pay attention.\n\nSelf-driving taxis just cleared the test that matters most: everyday cost. Four autonomous trips covered more ground for less than one Uber with a driver. When the robot gets cheaper than the human, it stops being the backup.\n\nRunning a business? DM us 'AI' and we'll show you what this changes for yours.\n\nSources: Sawyer Merritt on X\n\n#Tesla #Robotaxi #SelfDriving #Uber #AINews",
+ "pinned_comment": "Would you get in a driverless Tesla for your morning commute? Half the people saying no are taking Ubers that cost twice as much and smell.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "TESLA'S DRIVERLESS ROBOTAXI JUST BEAT UBER ON PRICE AND SMELL <em>IN THE SAME PERSON'S DAY</em>",
+   "ONE UBER RIDE COST MORE THAN <em>FOUR FULLY DRIVERLESS TESLA ROBOTAXI RIDES COMBINED</em>, AND <em>IT SMELLED</em>.",
+   "FOUR DRIVERLESS TESLA ROBOTAXI RIDES COST <em>$27.25 TOTAL</em>, AND ONE UBER THE SAME DAY COST <em>$33 AND SMELLED</em>.",
+   "UBER CHARGED <em>$33 FOR ONE SMELLY RIDE</em> THE SAME DAY TESLA'S DRIVERLESS ROBOTAXI DID <em>FOUR RIDES FOR $27.25</em>.",
+   "SOMEONE JUST PAID <em>$27.25 FOR FOUR DRIVERLESS TESLA RIDES</em> AND <em>$33 FOR ONE UBER THAT SMELLED</em> ON THE SAME DAY.",
+   "ONE SMELLY UBER RIDE COST MORE THAN <em>FOUR FULLY DRIVERLESS TESLA ROBOTAXI RIDES COMBINED</em>",
+   "A GUY TOOK FOUR FULLY DRIVERLESS TESLA RIDES IN ONE DAY FOR <em>$27.25</em>, THEN ONE UBER COST HIM <em>$33 AND SMELLED</em>."
+  ],
+  "scores": [
+   7,
+   8,
+   9,
+   8,
+   8,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "The specific prices ($27.25 vs $33) make the math instantly shocking and verifiable\u2014you don't have to guess how much 'more' means. 'Same day' anchors it as a real person's actual experience, not a hypothetical comparison."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ONE $33 UBER COST MORE THAN <em>FOUR DRIVERLESS TESLA RIDES COMBINED</em>, AND IT SMELLED.",
+   "FOUR DRIVERLESS TESLA ROBOTAXI RIDES COST <em>$27.25 TOTAL</em>, AND ONE UBER THE SAME DAY COST <em>$33 AND SMELLED</em>.",
+   "A GUY PAID <em>$27.25 FOR FOUR DRIVERLESS TESLA RIDES</em>, THEN $33 FOR ONE UBER THAT SMELLED."
+  ],
+  "scores": [
+   9,
+   7,
+   6
+  ],
+  "winner": 0,
+  "why": "The comparison explodes in your face first\u2014'$33 MORE THAN four rides'\u2014in under 1.5 seconds, triggering instant 'wait, WHAT?' before your brain catches up. The 'smelled' detail is the human gut-punch that makes this already-believable story feel real and outrageous."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Tesla Robotaxi",
+  "actor_known": true,
+  "anchor": "Tesla's self-driving robotaxi",
+  "specifics": [
+   "One Uber = $33 and it smelled; four driverless Tesla rides = $27.25 total",
+   "Four fully unsupervised (zero driver) robotaxi rides in a single day",
+   "50 minutes and 8 miles covered across the four robot rides",
+   "The single Uber cost more than all four robot rides combined",
+   "Tweet hit 547K views and 186.5K likes"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. I took one 20 minute Uber ride today for $33 (including tip), and it smelled.",
+  "link": "https://x.com/SawyerMerritt/status/2095347583191322822",
+  "judge_interest": 8,
+  "scout_score": 99.4
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "pick": 12,
+ "title": "Claude verified a 1665 math proof faster than any human team ever could",
+ "title_candidates": [
+  "Claude just used 13 million lines of code to verify a 360-year-old math proof",
+  "The math proof from 1665 that an AI just checked with 13 million lines of code",
+  "An AI just did in weeks what human mathematicians spend years trying to verify",
+  "How Claude turned a 17th century math proof into 13 million lines of computer code",
+  "Claude verified a 1665 math proof faster than any human team ever could"
+ ],
+ "caption": "Claude just converted a 360-year-old mathematical proof into 13 million lines of computer code, completing in weeks what human experts spend years on.\n\nThe process is called formalization: you take a written proof and turn it into a form a computer can check line by line, with no room for logical shortcuts or assumptions. Claude did this using a tool that accepts nothing on faith and requires every single step to be airtight.\n\nThe mathematician whose theorem was verified died in 1665. The fact that an AI can now do this at scale means centuries of unverified mathematics could be confirmed in a fraction of the time it would take any human team.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: AnthropicAI. DM for credit or removal\n\n#claudeai #anthropic #artificialintelligence #mathematics #airesearch",
+ "start_s": 2,
+ "clip_s": 28,
+ "source": "https://video.twimg.com/amplify_video/2095946062741860352/vid/avc1/1920x1080/m-keNgFBlgmjOExS.mp4?tag=29",
+ "channel": "AnthropicAI",
+ "publish": "bundle"
+}
