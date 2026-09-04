@@ -23,6 +23,7 @@ saying KILL is binding; a broken editor never blocks the slot.
 Every verdict is appended to editor-log.json — the audit trail that answers
 "who decided this post goes out and why" for any post, forever.
 """
+import glob
 import json
 import os
 import sys
@@ -65,10 +66,32 @@ def _log(gate, subject, verdict, reason):
         json.dump(rows[-300:], open(LOG, "w"), indent=1, ensure_ascii=False)
 
 
+def _guides_today():
+    """How many slots already fell to edu guides today (committed archive)."""
+    day = time.strftime("%Y-%m-%d", time.gmtime())
+    return len(glob.glob(os.path.join(HERE, "posts", f"{day}-edu-*")))
+
+
 def gate_a(story, material=""):
     """Story-level verdict BEFORE any writing/images. (approved, reason)."""
     from write import call_claude, CHEAP  # lazy: write.py imports this module
     radar = story.get("radar") or {}
+    # NEWS PAGE FIRST mechanics (owner order Sep 3 — the Sep 1 doctrine
+    # calibration note alone did NOT move the needle: 244/246 kills since
+    # Aug 27 and a guide flood). A top-scored non-evergreen story from the
+    # watchlist skips the kill question entirely: the scout already ranked
+    # it the day's best news, and a wrong KILL costs more than a wrong pass
+    # (Gate B still reviews the finished product).
+    try:
+        interest = float(story.get("interest", 0) or 0)
+    except (TypeError, ValueError):
+        interest = 0.0
+    if interest >= 8 and not story.get("evergreen"):
+        _log("A", story.get("title", ""), "AUTO_APPROVE",
+             f"scout interest {interest:g}/10 — news-first fast lane")
+        print(f"editor gate A: AUTO_APPROVE — interest {interest:g}/10",
+              file=sys.stderr)
+        return True, "auto-approved: top-scored news story"
     facts = [f"TITLE: {story.get('title', '')}",
              f"SCOUT INTEREST SCORE: {story.get('interest', '?')}/10"]
     if story.get("evergreen"):
@@ -84,8 +107,20 @@ def gate_a(story, material=""):
     if radar.get("sub"):
         facts.append(f"SOURCE: @{radar['sub']} on X"
                      + (f", {radar.get('score', 0):,} likes" if radar.get("score") else ""))
+    if story.get("consensus"):
+        facts.append(f"CONSENSUS: {story['consensus']} different watchlist "
+                     f"accounts ran this same story independently — the "
+                     f"strongest available signal that it is the day's real "
+                     f"news.")
     if material:
         facts.append(f"SOURCE MATERIAL ({len(material)} chars):\n{material[:900]}")
+    guides = _guides_today()
+    if guides:
+        facts.append(f"PAGE STATE: {guides} slot(s) already fell to edu-guide "
+                     f"listicles TODAY. Every KILL you issue pushes this slot "
+                     f"toward yet another guide — the repetition the owner "
+                     f"named the page's #1 content failure. Weigh that real "
+                     f"cost before killing a famous-actor news event.")
     prompt = f"""{doctrine()}
 
 ----

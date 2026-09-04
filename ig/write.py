@@ -282,6 +282,7 @@ def image_score(path, headline, generated=False, person=False, cover=False):
             return False, 1, f"too dark (brightness {brightness:.0f}/255, need {floor}+)"
     clean = re.sub(r"</?em>", "", headline)
     face_gate = (
+        'PHOTOGRAPH GATE (owner order Sep 3, FIRST CHECK, GENERATED images only — an illustrated knight and a cartoon game-world background both shipped in one day and the owner called them "the baddest quality ever"): this page publishes PHOTOGRAPHS. If the frame — outside the display of a real screen shown inside the scene — reads as illustration, cartoon, anime, 3D game render, concept art, or a fantasy/digital world instead of a photograph of a real physical place, it is usable:false, score 1-2, flaw "illustration, not a photograph". No concept, no composition, and no brand mark can save a non-photograph. '
         'FACE GATE (owner rule Aug 1, GENERATED images only — unfamiliar AI faces convert badly): if a human face is prominent, it must read as a RECOGNIZABLE famous person; a generic invented face nobody would recognize = usable:false, flaw "unfamiliar generated face". Faceless people (from behind, silhouette, hands) are fine. '
         'CAST TRUTH GATE (owner post-mortem Aug 10, the Sam Altman content-vendor cover): if the prominent face IS a recognizable famous person but that person has NO role in this exact headline\'s story — their company or product is not what the headline is about, they are decoration on a generic topic = usable:false, flaw "famous face unrelated to the story". EXCEPTION 1: on an inspirational or entrepreneurial claim, a famous founder shown in their KNOWN iconic moment that embodies the headline (young Zuckerberg coding in a dorm for a build-from-nothing promise) IS connected and passes. EXCEPTION 2 — THE VENDOR CAST (owner references Aug 12, the page\'s signature move): on a guide/how-to about using a famous tool, that tool vendor\'s famous CEO shown AS THE TOOL\'S OWN USER — mid-doing the guide\'s exact action with its real prop (Dario Amodei holding his own resume for a Claude-resume guide, Sundar Pichai showering Gemini sparks for a free-Gemini story) — IS connected and passes; grade it on shock and craft, not on the cast. '
         'CLICK GATE (owner order Aug 3, GENERATED images only — a retry is cheap, wallpaper is not): the image alone must make a scroller feel they NEED to know what is happening — a caught moment, visible tension, peak emotion. A calm, posed, or neutral scene that raises no question = usable:false, flaw "no pull, nothing happening". '
@@ -538,6 +539,7 @@ FORMAT — every prompt contains these five parts in order (20-45 words total):
 
 CRAFT (bake into every prompt):
 - Real press photograph, never digital art: include "documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain". This is the #1 lever that keeps generated images from looking like cheap AI.
+- PHYSICAL WORLD LAW (owner order Sep 3 — two shipped covers broke it in one day: a "colossal 3D game world floating mid-air" behind Sundar Pichai rendered the whole frame as a cartoon, and a "cinematic game still" armored warrior shipped as pure illustration; his verdict: "the baddest quality ever... doesn't look even realistic"): EVERY square inch of the frame is the real, physical, photographable world — a real room, street, stage, classroom, funeral home, office. Anything DIGITAL in the story (a game, an app, a video, a website, an AI output) may appear ONLY on the real screen of a real device inside the scene, or as a real physical prop (a printed poster, a figurine on the desk) — never floating in the air, never "conjured", never filling the background, never AS the scene. BANNED words in any brief: "game still", "game world", "render", "rendered", "illustration", "concept art", "anime", "fantasy", "3D world", "floats mid-air". The owner's 8 reference covers are the spec: a funeral, a classroom, a helicopter, a trading floor — real places, real props, real light, and the wit lives in WHAT the famous person is doing there, not in impossible physics. If the story is about a digital thing, a real famous person REACTS to it on a real screen — the human action carries the story.
 - ZERO readable words anywhere in frame (measured on our own runs: the model garbles every rendered sentence — 5 of 6 images died to this one flaw). Screens, signs and papers speak in SYMBOLS ONLY, named concretely: "a giant red $ symbol", "a warning triangle", "a crashing red chart line". COVER-ONLY EXCEPTION (owner references Aug 12 — the "RIP CLAUDE" coffin plaque, the red DISCOUNTED stamp on the boarding pass): covers render on a model that writes short text cleanly, so ONE prop on the COVER may carry ONE bold text element of 1-3 words when that text IS the story's punchline — quote it exactly in the brief ('a wooden plaque engraved "RIP CLAUDE"'). One element max, never a sentence, never on inner slides; QA still kills it if it garbles.
 - GAZE IS AN ARROW (Netflix artwork research + fixation studies): the hero's eyes go to camera by default, or lock onto the story's object so the viewer's eye follows. MAX 2 people visible in frame — engagement measurably drops at 3+.
 - THE BRAND LIVES IN THE SCENE: when the story's company matters to the frame, its real logo appears as a physical object — the default treatment (owner's reference, Aug 1): a LARGE GLOWING backlit mark on the colorful, saturated wall behind the hero, soft warm-white halo, dimensional like a lit acrylic sign. Alternatives: the mark ON the device, a storefront sign, an illuminated screen with visible glow. NEVER a flat printed graphic, never drawn from memory — return "logo" so the real mark rides as a reference. The renderer will NOT stamp a flat logo overlay on generated covers, so if the brand isn't in the scene it isn't on the cover.
@@ -2221,12 +2223,24 @@ def main(stories_path):
         else:
             break  # repair itself failed — retrying with the same input won't help
     if not ok:
-        # preserve the finished text for post-mortem/salvage — a killed post
-        # cost real money; only publishing is blocked, not the evidence
-        json.dump(post, open(os.path.join(post_dir, "post-rejected.json"),
-                             "w"), indent=1)
-        raise SystemExit("editor gate B rejected the post after repair: "
-                         + "; ".join(reasons))
+        if os.environ.get("STORY_FORCE"):
+            # NEWS PAGE FIRST floor (owner order Sep 3): on the last story
+            # rung a Gate B reject ships FLAGGED instead of falling to yet
+            # another edu guide — mirrors edu.py's editor_override. The
+            # mechanical qa gates above stayed BINDING (wording is the
+            # owner's top priority); only the editor's judgment call is
+            # advisory here. daily.py names every override.
+            post["editor_override"] = "; ".join(reasons)[:400]
+            print("STORY_FORCE: shipping over gate B reject — "
+                  + "; ".join(reasons), file=sys.stderr)
+        else:
+            # preserve the finished text for post-mortem/salvage — a killed
+            # post cost real money; only publishing is blocked, not the
+            # evidence
+            json.dump(post, open(os.path.join(post_dir, "post-rejected.json"),
+                                 "w"), indent=1)
+            raise SystemExit("editor gate B rejected the post after repair: "
+                             + "; ".join(reasons))
 
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)
     subprocess.run([sys.executable, os.path.join(HERE, "render.py"),

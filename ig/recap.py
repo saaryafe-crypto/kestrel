@@ -254,8 +254,14 @@ def main(stories_path):
         ok, reasons = editor.gate_b(
             post, cover_jpg if os.path.exists(cover_jpg) else None)
     if not ok:
-        raise SystemExit("editor gate B rejected the recap: "
-                         + "; ".join(reasons))
+        # NEWS PAGE FIRST (owner order Sep 3): the recap is the measured
+        # winner format (2,555 median likes/1M) and its slot has NO other
+        # news rung — a Gate B reject ships FLAGGED (edu.py pattern) rather
+        # than starving the slot. Mechanical qa above stayed binding;
+        # daily.py names every override.
+        post["editor_override"] = "; ".join(reasons)[:400]
+        print("recap: shipping over gate B reject — " + "; ".join(reasons),
+              file=sys.stderr)
 
     render()
     print("post ready:", post_dir)

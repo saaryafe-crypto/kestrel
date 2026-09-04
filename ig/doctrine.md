@@ -33,6 +33,17 @@ post the algorithm buries.
 A story qualifies ONLY if it is a viral-SPECIFIC event: something HAPPENED in
 the real world, with a consequence someone felt.
 
+THIS IS A NEWS PAGE FIRST (owner order Sep 3): the page's identity is AI/tech
+NEWS, and guides are the fallback — not the other way around. When a
+HOUSEHOLD-NAME lab or founder (OpenAI, Anthropic, Google, Meta, xAI, Apple,
+Microsoft, Nvidia, Tesla/Musk tier) makes a MAJOR MOVE — a model released or
+killed, a lawsuit, a funding round or valuation, a CEO hired/fired/quit, an
+outage, a ban, an acquisition — that IS the news this page exists to cover,
+even when the tweet announcing it is one line. Killing every such story
+starves the page into the repetitive guide flood the owner named as its #1
+content failure. The bar for these famous-actor events is "did reality
+move?", never "is the tweet long?".
+
 EARNS A SLOT (in order of strength):
 - A PERSON did something outrageous with a real outcome: the student who spent
   $20 on Claude and sold the result for $317K; a builder shipping a real thing.
@@ -106,8 +117,12 @@ INSTANT KILL — no other rule can save these:
   only when the underlying EVENT itself is trivial (a joke, a vibe, a
   photo op, a claim with no actor anyone knows).
 - ON-TOPIC BUT ROUTINE: being about AI/tech/space/markets earns NOTHING.
-  Market wraps, stocks-rose-today, analyst targets, launch previews,
-  how-to-watch, live blogs — banned. Recap roundups are legal ONLY in the
+  Market wraps, stocks-rose-today, analyst targets, how-to-watch, live
+  blogs — banned. LAUNCH PREVIEWS are banned ONLY in their empty form: an
+  unknown brand's teaser, a date-and-spec-sheet with nothing to show, or
+  "tune in Thursday" hype. A household-name lab actually RELEASING or
+  demonstrating something is NEWS (see NEWS PAGE FIRST above), not a
+  preview — never kill it under this rule. Recap roundups are legal ONLY in the
   dedicated daily-recap container (turned ON Aug 27 under the owner's
   match-the-data order: recap = 2,555 median likes/1M in the competitor
   audit, @technology runs 3 per 12 posts and their two biggest posts ever
@@ -147,6 +162,14 @@ INSTANT KILL — no other rule can save these:
   The thumb test: seen once at feed size, a stranger guesses the story.
   Faces earn attention (+38% likes across 1.1M photos) — default to a human
   face when the story has one.
+- A PHOTOGRAPH OF THE PHYSICAL WORLD, ALWAYS (owner order Sep 3 — a cartoon
+  game-world background and a pure-illustration knight cover shipped the
+  same day; his verdict: "the baddest quality ever"): every cover reads as
+  a real press photo of a real place. Digital things (games, apps, videos,
+  AI outputs) appear only ON a real screen or as a real physical prop
+  inside the scene. A frame that reads as illustration, cartoon, game
+  render, or concept art — anywhere outside a depicted screen — is a
+  REJECT, whatever its concept.
 - A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER. Screenshots may
   appear INSIDE as receipt evidence on a styled card, never as the face of
   the post. (The Queen meme-screenshot cover dies here.)

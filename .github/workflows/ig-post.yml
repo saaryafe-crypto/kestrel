@@ -25,7 +25,17 @@ on:
     # whole Claude plan): the FIRST "hit your weekly limit" failure drops
     # the 16:00 slot; a second drops 01:00 (recap goes weekly). Never let
     # the limit kill prime slots to keep off-peak ones.
-    - cron: "0 1,13,16,17,21 * * *"
+    #
+    # ONE CRON LINE PER SLOT (owner audit Sep 3): free-tier crons fire HOURS
+    # late, and slot identity used to come from the actual wall-clock hour —
+    # the 01:00 recap ran at ~05:24, matched no case, and shipped a story;
+    # the page went 0 recaps since Aug 27. Each slot now carries its
+    # identity in github.event.schedule, immune to the delay.
+    - cron: "0 1 * * *"    # recap
+    - cron: "0 13 * * *"   # edu guide (the ONE guide slot of the day)
+    - cron: "0 16 * * *"   # news story
+    - cron: "0 17 * * *"   # news story
+    - cron: "0 21 * * *"   # news story (biggest measured peak)
   workflow_dispatch:
     inputs:
       kind:
@@ -119,11 +129,19 @@ jobs:
           #                            roundups — Jul 31 removal predates data)
           KIND="${{ github.event.inputs.kind }}"
           if [ -z "$KIND" ] || [ "$KIND" = "auto" ]; then
-            H=$(date -u +%H)
-            case "$H" in
-              13) KIND=edu ;;
-              01) KIND=recap ;;
-              *)  KIND=story ;;
+            # slot identity from the CRON LINE, not the wall clock (Sep 3:
+            # free-tier crons fire hours late — the recap slot ran at 05:24,
+            # matched no hour, and the page shipped 0 recaps since Aug 27)
+            case "${{ github.event.schedule }}" in
+              "0 13 * * *") KIND=edu ;;
+              "0 1 * * *")  KIND=recap ;;
+              "")  # manual dispatch with kind=auto — fall back to the hour
+                case "$(date -u +%H)" in
+                  13) KIND=edu ;;
+                  01) KIND=recap ;;
+                  *)  KIND=story ;;
+                esac ;;
+              *) KIND=story ;;
             esac
           fi
           # Every branch ends in a fallback rung (owner rule: 7/day is a MUST,
@@ -147,13 +165,20 @@ jobs:
             if [ $((10#$(date -u +%j) % 2)) -eq 0 ]; then export EDU_MODE=exec; fi
             python edu.py | tee /tmp/write.log || EDU_MODE= python write.py | tee /tmp/write.log || EDU_MODE= STORY_RELAX=1 python write.py | tee /tmp/write.log || EDU_MODE= python edu.py | tee /tmp/write.log
           elif [ "$KIND" = "money" ]; then
-            STORY_PREF=money python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            STORY_PREF=money python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 STORY_FORCE=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           elif [ "$KIND" = "recap" ]; then
             # daily recap (owner match-the-data order Aug 27); a failed recap
             # never skips the slot — news ladder fills it (always-post law)
-            python recap.py | tee /tmp/write.log || python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            python recap.py | tee /tmp/write.log || python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || STORY_RELAX=1 STORY_FORCE=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           else
-            python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            # NEWS PAGE FIRST (owner order Sep 3): a news slot exhausts every
+            # story rung before the guide floor — rung 3 (STORY_FORCE) ships
+            # the most viral non-dupe story over a Gate B reject, FLAGGED
+            # (mechanical qa still binding). edu.py is the absolute floor
+            # only, never the second rung — Aug 13-Sep 3 it filled nearly
+            # every news slot and the page became the guide-flood the owner
+            # named its #1 content failure.
+            python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || STORY_RELAX=1 STORY_FORCE=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
           fi
           POST_DIR=$(sed -n 's/^post ready: //p' /tmp/write.log)
           test -n "$POST_DIR"  # fail loudly if the writer produced nothing

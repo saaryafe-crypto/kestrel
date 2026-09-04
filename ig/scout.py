@@ -55,16 +55,31 @@ def same(a, b):
 
 
 def collapse(stories):
-    """One version per story — the highest-scored wording survives; the other
-    outlets' variants already paid their corroboration bonus. Without this,
-    one hot story floods the top of the pool with 4 near-identical entries."""
-    kept, ksigs = [], []
+    """One version per story — the highest-scored wording survives. Without
+    this, one hot story floods the top of the pool with 4 near-identical
+    entries. CONSENSUS BOOST (owner news-first order Sep 3): before a variant
+    is discarded, it votes — the same story surfacing on 2+ DIFFERENT
+    watchlist accounts is the strongest signal available that this is the
+    day's real news (independent editors chose it), so the surviving version
+    gets +30 per extra distinct account (cap +90) and the pool re-sorts."""
+    kept, ksigs, srcs = [], [], []
     for s in sorted(stories, key=lambda s: -s["score"]):
         g = sig(s["title"])
-        if any(same(g, k) for k in ksigs):
+        hit = next((i for i, k in enumerate(ksigs) if same(g, k)), None)
+        if hit is not None:
+            if s.get("src"):
+                srcs[hit].add(s["src"])
             continue
         kept.append(s)
         ksigs.append(g)
+        srcs.append({s.get("src")} - {None})
+    for s, acc in zip(kept, srcs):
+        if len(acc) >= 2:
+            s["consensus"] = len(acc)
+            s["score"] = round(s["score"] + min(90, 30 * (len(acc) - 1)), 1)
+            print(f"consensus boost: {len(acc)} accounts ran "
+                  f"\"{s['title'][:60]}\"", file=sys.stderr)
+    kept.sort(key=lambda s: -s["score"])
     return kept
 
 
