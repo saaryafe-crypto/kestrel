@@ -1,61 +1,60 @@
 {
- "ts": 1788417877.403115,
- "updated": "2026-09-03",
+ "ts": 1788525924.5569222,
+ "updated": "2026-09-04",
  "hot": [
   {
-   "name": "Pedro Pascal",
-   "why_hot_now": "The Mandalorian and Grogu landed on Disney+ on September 2 — the week's single biggest streaming event.",
-   "typical_scene": "silver beskar helmet tilted, tiny green Grogu tucked in both arms"
+   "name": "Tom Holland",
+   "why_hot_now": "Spider-Man: Brand New Day just crossed $891M domestic — the all-time US box office record — still #1 in week 5.",
+   "typical_scene": "unmasked on a rain-slicked rooftop, suit torn, city burning"
   },
   {
-   "name": "Ariana Grande",
-   "why_hot_now": "Her sold-out Eternal Sunshine Tour just closed on September 1 after months of record-breaking arena dates.",
-   "typical_scene": "sleek high ponytail, barefoot on a confetti-drenched stage for the encore"
+   "name": "Zendaya",
+   "why_hot_now": "She headlines two of the year's biggest films at once — Spider-Man: Brand New Day and Nolan's The Odyssey, both in theaters.",
+   "typical_scene": "two different movie posters, same lobby, same week"
   },
   {
    "name": "Olivia Rodrigo",
-   "why_hot_now": "Unraveled Tour tickets went on sale this week ahead of the September 25 kickoff, crashing ticketing sites.",
-   "typical_scene": "shredding guitar in a torn prom dress under harsh white spotlights"
-  },
-  {
-   "name": "Katseye",
-   "why_hot_now": "Their Wildworld Tour launched September 1 with instant sell-outs and emergency added dates.",
-   "typical_scene": "tight synchronized choreography in front of a roaring stadium crowd"
+   "why_hot_now": "The Unraveled Tour presales went live this week ahead of the September 25 kickoff for her 86-date world tour.",
+   "typical_scene": "center stage in purple light, acoustic guitar, roaring arena"
   },
   {
    "name": "Jeremy Allen White",
-   "why_hot_now": "The Bear's sustained cultural stranglehold keeps him the internet's definitive prestige-TV obsession heading into fall.",
-   "typical_scene": "drenched in sweat, white chef coat open, screaming at the pass"
+   "why_hot_now": "The Bear's emotional series finale (Season 5) is still driving wall-to-wall discourse, and his Calvin Klein campaigns are inescapable.",
+   "typical_scene": "hunched over a kitchen pass in chef whites, sweat-drenched"
   },
   {
-   "name": "Backrooms",
-   "why_hot_now": "Kane Parsons' indie horror phenom just arrived on HBO Max this week, reigniting liminal-space internet culture.",
-   "typical_scene": "flickering fluorescent tubes over infinite beige-carpeted yellow corridors"
+   "name": "Ayo Edebiri",
+   "why_hot_now": "Sydney's arc in The Bear series finale put her at the center of every Emmy prediction and TV hot-take this week.",
+   "typical_scene": "plating a perfect dish, jaw set, chaos erupting behind her"
   },
   {
-   "name": "Gary Oldman",
-   "why_hot_now": "Slow Horses Season 6 premieres September 16 on Apple TV+, with trailers and cast drops dominating entertainment press this week.",
-   "typical_scene": "slumped in a grimy Slough House armchair, sighing over a classified case file"
+   "name": "Ariana Grande",
+   "why_hot_now": "The Eternal Sunshine Tour wrapped September 1; farewell clip compilations and look-back content are flooding TikTok all week.",
+   "typical_scene": "high ponytail, tiny silhouette, stadium lights, confetti raining down"
   },
   {
-   "name": "Ryan Reynolds",
-   "why_hot_now": "His Navy-pilot action blockbuster premieres September 16 on Prime Video, with its marketing blitz at full volume right now.",
-   "typical_scene": "aviator sunglasses on, smirking in a fighter-jet cockpit pre-takeoff"
+   "name": "Matt Damon",
+   "why_hot_now": "His Odysseus in Nolan's The Odyssey ($1.55B global) became an unlikely Gen-Z obsession with fan edits still going viral.",
+   "typical_scene": "bronze armor gleaming, screaming at the sea, IMAX-sized rage"
+  },
+  {
+   "name": "Mitski",
+   "why_hot_now": "Nothing's About to Happen to Me Live 2026 enters its final week before ending September 25, triggering last-chance FOMO posts everywhere.",
+   "typical_scene": "alone under a single spotlight, mic at hip, expressionless stare"
   }
  ],
  "memes": [
-  "\"The saxophones are getting louder\" — captioning any scenario that seems fine but is clearly about to detonate, cued to the eerie Boyz n the Hood brass sting",
-  "\"2026 is the new 2016\" — glow-up transition videos soaked in early-Obama-era nostalgia, usually soundtracked by Lady Gaga's Paparazzi",
-  "\"My American Girl Doll\" — hijacking a resurfaced 2009 kid's toy-introduction clip to reveal a grown-up prized possession with full unironic childhood joy",
-  "\"We Had ChatGPT Write Our Script\" — friend groups deadpan-performing bizarre AI-generated dialogue and leaning hard into the uncanny wooden delivery",
-  "\"I Never Told You This But\" — confessional text opener followed by a hard-cut dramatic makeup or fit-check reveal",
-  "\"Seeing How My [Person] Responds to a Bully\" — filming a partner's or friend's real reaction after insulting them on camera, framed as a character/loyalty test",
-  "Chinamaxxing / \"Becoming Chinese\" — ironic self-improvement arc videos styled as fully adopting rigorous East Asian study-and-discipline aesthetics"
+  "Saxophone Gets Louder: TikTok spiral format where a calm situation escalates into a full 80s-sax blast and freeze-frame — the universal template for any slow-burn disaster.",
+  "My American Girl Doll audio: creators borrow a 2009 kid's earnest doll intro to reveal their most-prized or most-embarrassing grown-up obsession.",
+  "How Could This Day Get Any Better: ironic reveal format where someone treats something completely tiny — a free sample, a good parking spot — as a lottery win.",
+  "2026 is the new 2016: nostalgia wave of reposting 2016 fashion, Tumblr aesthetics, and pop hits with Gen-Z reclaim energy across TikTok and YouTube.",
+  "Chinamaxxing / Becoming Chinese: earnest lifestyle trend of adopting Chinese food, philosophy, and daily habits, generating waves of sincere 'day in my life' content.",
+  "Jimothy the raccoon: a short-spine Seattle raccoon treated as a national mood board, captioned as 'me at work,' 'a Monday,' or 'a small business that refuses to close.'"
  ],
  "ai_flagships": [
   "Claude Fable 5.1",
-  "GPT-5.6 Sol",
-  "Gemini 3.1 Pro",
+  "GPT-6 Astra",
+  "Gemini 3.8 Flash",
   "Grok 4.6",
   "Muse Spark 1.3"
  ]

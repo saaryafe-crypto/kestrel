@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-01T06:10:42Z",
-  "gate": "A",
-  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
-  "verdict": "KILL",
-  "reason": "Routine space launch announcement with no substance: one thin tweet, no numbers, no human story, nothing to build five slides from (instant kill: on-topic but routine)."
- },
- {
   "t": "2026-09-01T06:11:18Z",
   "gate": "A",
   "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
@@ -2098,5 +2091,12 @@
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-09-04T12:43:13Z",
+  "gate": "A",
+  "subject": "AI child pornography is now legal in the United States. Criticizing Israel is not. Wake up America.",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: no real event occurred (no law passed, ruling filed, or named actor took action)—just a single unsubstantiated false claim designed to generate outrage, not reportable news for a tech/AI page."
  }
 ]
