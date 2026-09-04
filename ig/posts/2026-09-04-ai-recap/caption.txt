@@ -1,0 +1,9 @@
+Swipe ⬅️ to catch what happened in AI in the last 24 hours, from OpenAI dropping something they're calling AGI to a senator trying to make that same AI illegal
+
+GPT-6 Astra is OpenAI's biggest model yet, scoring 98% on FrontierMath Tier 4 and 99.9% on ARC-AGI 3 with Greg Brockman calling it AGI, Senator Bernie Sanders introduced a bill to permanently ban AI exceeding human intelligence with violators facing up to 20 years in prison, the rollout hit chaos and OpenAI apologized with ChatGPT Pro subscribers getting access first and no date on broad access, Tesla's Cybercab drove public streets in Austin with no steering wheel or pedals, Google's WeatherNext 3 learns from real-time observations to give faster more localized weather forecasts
+
+The day OpenAI shipped what it's calling AGI, a sitting senator introduced a bill to criminalize exactly that technology. The lab and the law have never been further apart. Running a business while this unfolds? DM us "AI" and we'll show you what this could do for yours
+
+Sources: OpenAI, Bernie Sanders, Tesla, Google Research
+
+#AI #ArtificialIntelligence #OpenAI #TechNews #AINews

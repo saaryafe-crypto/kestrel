@@ -1,0 +1,59 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP",
+   "media_list": [
+    "posts/2026-09-04-ai-recap/media-1.jpg"
+   ]
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "<em>GPT-6 Astra</em> is here and OpenAI is calling it <em>AGI</em>",
+   "body": "The model scores <b>98% on FrontierMath Tier 4</b> and <b>99.9% on ARC-AGI 3</b>. OpenAI says it's the best model in the world for computer use, coding, and science, and its own president <b>Greg Brockman</b> is calling it AGI",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 78,
+   "headline": "Senator <em>Bernie Sanders</em> just introduced a bill to <em>ban superintelligent AI</em>",
+   "body": "The bill would permanently make it illegal to build or deploy any AI that exceeds human intelligence. Get caught and you're looking at <b>up to 20 years in prison</b>",
+   "media": "posts/2026-09-04-ai-recap/media-1.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "OpenAI admitted the <em>GPT-6 Astra</em> launch was a complete <em>mess</em>",
+   "body": "The company apologized for the chaotic rollout and said most users still don't have access. <b>ChatGPT Pro subscribers</b> get in first, broad API rollout is coming 'in the near future' with no date set",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "Tesla's <em>Cybercab</em> is driving around Austin with <em>no wheel and no pedals</em>",
+   "body": "Tesla's Cybercab is operating as a fully driverless commercial robotaxi, with no driver seat controls at all. It's already on public roads in <b>Austin, Texas</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 84,
+   "headline": "Google's <em>WeatherNext 3</em> just changed how we <em>predict weather</em>",
+   "body": "The model learns directly from <b>real-world, real-time observations</b> to give more localized, highly accurate predictions faster. It was built with <b>Google Research</b> and outperforms traditional numerical weather models on localized forecast accuracy",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "SAVE TODAY'S <em>AI BRIEFING</em>",
+   "body": ", GPT-6 Astra is live: 98% on FrontierMath, OpenAI calling it AGI\n, Rollout chaos: ChatGPT Pro gets access first, no date for the rest\n, Bernie Sanders' bill: 20 years prison for building superintelligent AI\n, Tesla's Cybercab on Austin public roads: no wheel, no pedals\n, Google WeatherNext 3: AI that forecasts from real-time observations",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2b05\ufe0f to catch what happened in AI in the last 24 hours, from OpenAI dropping something they're calling AGI to a senator trying to make that same AI illegal\n\nGPT-6 Astra is OpenAI's biggest model yet, scoring 98% on FrontierMath Tier 4 and 99.9% on ARC-AGI 3 with Greg Brockman calling it AGI, Senator Bernie Sanders introduced a bill to permanently ban AI exceeding human intelligence with violators facing up to 20 years in prison, the rollout hit chaos and OpenAI apologized with ChatGPT Pro subscribers getting access first and no date on broad access, Tesla's Cybercab drove public streets in Austin with no steering wheel or pedals, Google's WeatherNext 3 learns from real-time observations to give faster more localized weather forecasts\n\nThe day OpenAI shipped what it's calling AGI, a sitting senator introduced a bill to criminalize exactly that technology. The lab and the law have never been further apart. Running a business while this unfolds? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: OpenAI, Bernie Sanders, Tesla, Google Research\n\n#AI #ArtificialIntelligence #OpenAI #TechNews #AINews",
+ "pinned_comment": "OpenAI is calling GPT-6 Astra AGI-level, and the same day it launched, a US senator introduced a bill to criminalize exactly that kind of AI. Who's actually right here?",
+ "handle": "@yaffeai",
+ "container": "daily_recap"
+}
