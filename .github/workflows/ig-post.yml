@@ -151,6 +151,10 @@ jobs:
           # preference (STORY_PREF), same fallback ladder as story.
           # THIRD RUNG (run 30752019189, Aug 2: both rungs failed QA 3x and the
           # slot died): one more fresh edu.py roll — a new sample usually passes
+          # EDU_FORCE floor (run 33907282064, Sep 4: ALL rungs died and the
+          # slot shipped nothing): the last rung gets extra QA rolls and on
+          # exhaustion ships flagged (qa_override, named in the daily report)
+          # — dupes are still never forced through
           # STORY_RELAX rung (owner audit Aug 27): every story slot Aug 13-27
           # fell straight to the edu floor — 71/71 carousels were listicles,
           # the exact "6 things you can do with AI" repetition the owner
@@ -163,13 +167,13 @@ jobs:
             # (framework posts for founders/CEOs), odd = skills save-magnet.
             # Fallback rungs run in default skills mode (always-post law).
             if [ $((10#$(date -u +%j) % 2)) -eq 0 ]; then export EDU_MODE=exec; fi
-            python edu.py | tee /tmp/write.log || EDU_MODE= python write.py | tee /tmp/write.log || EDU_MODE= STORY_RELAX=1 python write.py | tee /tmp/write.log || EDU_MODE= python edu.py | tee /tmp/write.log
+            python edu.py | tee /tmp/write.log || EDU_MODE= python write.py | tee /tmp/write.log || EDU_MODE= STORY_RELAX=1 python write.py | tee /tmp/write.log || EDU_MODE= EDU_FORCE=1 python edu.py | tee /tmp/write.log
           elif [ "$KIND" = "money" ]; then
-            STORY_PREF=money python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 STORY_FORCE=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            STORY_PREF=money python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 STORY_FORCE=1 python write.py | tee /tmp/write.log || EDU_FORCE=1 python edu.py | tee /tmp/write.log
           elif [ "$KIND" = "recap" ]; then
             # daily recap (owner match-the-data order Aug 27); a failed recap
             # never skips the slot — news ladder fills it (always-post law)
-            python recap.py | tee /tmp/write.log || python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || STORY_RELAX=1 STORY_FORCE=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            python recap.py | tee /tmp/write.log || python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || STORY_RELAX=1 STORY_FORCE=1 python write.py | tee /tmp/write.log || EDU_FORCE=1 python edu.py | tee /tmp/write.log
           else
             # NEWS PAGE FIRST (owner order Sep 3): a news slot exhausts every
             # story rung before the guide floor — rung 3 (STORY_FORCE) ships
@@ -178,7 +182,7 @@ jobs:
             # only, never the second rung — Aug 13-Sep 3 it filled nearly
             # every news slot and the page became the guide-flood the owner
             # named its #1 content failure.
-            python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || STORY_RELAX=1 STORY_FORCE=1 python write.py | tee /tmp/write.log || python edu.py | tee /tmp/write.log
+            python write.py | tee /tmp/write.log || STORY_RELAX=1 python write.py | tee /tmp/write.log || STORY_RELAX=1 STORY_FORCE=1 python write.py | tee /tmp/write.log || EDU_FORCE=1 python edu.py | tee /tmp/write.log
           fi
           POST_DIR=$(sed -n 's/^post ready: //p' /tmp/write.log)
           test -n "$POST_DIR"  # fail loudly if the writer produced nothing

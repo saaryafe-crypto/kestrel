@@ -383,6 +383,13 @@ def main():
                     # invent — the writer dodged a live guide pool twice
                     bare.append(f"- IGNORED GUIDE POOL (self-invented topic "
                                 f"while viral X guides waited): {name}")
+                if p.get("qa_override"):
+                    # Sep 4 final-floor rung: the edu floor shipped over
+                    # unresolved QA failures rather than skip the slot —
+                    # the owner must see exactly which post and why
+                    bare.append(f"- QA OVERRIDE (EDU_FORCE floor shipped over "
+                                f"QA failures — {p['qa_override'][:160]}): "
+                                f"{name}")
             if car:
                 body += bare or ["Cover photos: every carousel has a real "
                                  "cover photo"]

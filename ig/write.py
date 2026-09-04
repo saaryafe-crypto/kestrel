@@ -1853,9 +1853,13 @@ def main(stories_path):
         # attempts, and the post NEVER ships imageless: if nothing passes, the
         # best-scoring reject wins). Inner slides keep one shot; genimg's
         # budget guard caps total spend either way.
-        # cover tries 3 -> 2 (token diet Aug 8): each extra try = a vision
-        # judge + a brief rewrite + Replicate spend; best-reject floor remains
-        tries = 2 if s["type"] == "cover" else 1
+        # cover tries 2 -> 3 (Sep 4 post-mortem: two full story rungs died at
+        # Gate B because both cover attempts came back as cartoon/render and
+        # the best-REJECT shipped to the editor — a third $0.04 nano attempt
+        # is the cheapest insurance against losing a 40-min rung. The Aug 8
+        # diet's 3->2 cut priced tries at gpt-image $0.17; nano changed the
+        # math.)
+        tries = 3 if s["type"] == "cover" else 1
         for attempt in range(tries):
             out_jpg = os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg")
             # audit trail (owner Aug 10: "what was the prompt?" was

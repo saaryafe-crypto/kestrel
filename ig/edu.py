@@ -320,7 +320,14 @@ def main():
                          "page-as-service line")
         return e
 
-    for attempt in range(2):
+    # EDU_FORCE (Sep 4, run 33907282064 post-mortem: all four ladder rungs
+    # died — two at Gate B on cartoon covers, one at mechanical QA by ONE
+    # word, then this floor itself failed QA — and the slot shipped NOTHING,
+    # breaking the owner's always-post MUST): as the workflow's LAST rung the
+    # floor gets extra rolls, and on exhaustion ships the final attempt
+    # flagged (qa_override, named in the daily report). A DUPLICATE POST
+    # error is never forced through — uniqueness is its own owner MUST.
+    for attempt in range(4 if os.environ.get("EDU_FORCE") else 2):
         post = call_claude(prompt, schema=SCHEMA)
         errs = edu_qa(post)
         if errs:
@@ -403,7 +410,13 @@ def main():
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
     else:
-        raise SystemExit("QA gate failed after 2 attempts")
+        if (os.environ.get("EDU_FORCE")
+                and not any(e.startswith("DUPLICATE POST") for e in errs)):
+            post["qa_override"] = "; ".join(errs)[:400]
+            print("EDU_FORCE: final floor — shipping over remaining QA "
+                  "failures: " + "; ".join(errs), file=sys.stderr)
+        else:
+            raise SystemExit("QA gate failed after 2 attempts")
 
     # the tournament swaps its winner onto the cover AFTER the qa loop —
     # drop over-cap candidates first or the 10-word gate above is bypassed
