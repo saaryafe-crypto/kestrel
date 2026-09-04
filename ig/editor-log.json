@@ -1,138 +1,5 @@
 [
  {
-  "t": "2026-08-31T20:47:21Z",
-  "gate": "B",
-  "subject": "<em>6 WEBSITES THAT TURN</em> A QUICK VISIT INTO HOURS",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE FAILS IMAGE LAW: The image is decoration — a phone screen showing an abstract 'INFINITE SCROLL' loading circle. It proves nothing about 6 specific websites. The thumb test fails: a stranger at feed size cannot guess the story. IMAGE LAW requires proof or a staged scene of the story, never a conceptual metaphor. The cover needs an image that visually anchors one of the actual websites ("
- },
- {
-  "t": "2026-09-01T02:17:16Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — SCREENSHOT BANNED: The right half of the cover is a literal screenshot of the Anthropic.com pricing page. Image Law is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Fix: rebuild the cover around a single scene — the Roman Telescope launch, the Cybercabs lot, or the Anthropic story shown as a styled card — with no screenshot panel.; COVER IMAGE — GENERATED UNKNOWN"
- },
- {
-  "t": "2026-09-01T02:21:01Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Cover image left panel: a generated image of an unknown young man standing outside a Louis Vuitton storefront. IMAGE LAW is explicit — 'Never a generated unknown face.' This is a generated non-famous person used as the cover subject. Hard kill.; Cover image right panel: a screenshot of Anthropic's website (anthropic.com pricing page) is composited into the cover. IMAGE LAW is explicit — 'A SCREENS"
- },
- {
-  "t": "2026-09-01T02:23:32Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Cover right panel is a screenshot of the Anthropic pricing page — §3 absolute ban: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' It is a receipt slide, not a cover image. Fix: remove the screenshot from the cover entirely.; Cover left panel is a generated unknown face in period/Victorian costume standing outside a Louis Vuitton storefront — §3: 'Never a generated unknown face.' The Loui"
- },
- {
-  "t": "2026-09-01T02:27:28Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Cover right half is a raw screenshot of the Anthropic pricing page — IMAGE LAW is absolute: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Screenshots are only legal inside as receipt evidence on a styled card. Fix: remove the screenshot from the cover entirely.; Cover left half features a generated unknown young man in front of a Louis Vuitton storefront — IMAGE LAW bans this twice: 'Ne"
- },
- {
-  "t": "2026-09-01T02:28:14Z",
-  "gate": "A",
-  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
-  "verdict": "KILL",
-  "reason": "On-topic but routine: a scheduled space-agency announcement with no jaw-dropping specifics, person doing something outrageous, or real-world consequence readers would feel."
- },
- {
-  "t": "2026-09-01T02:28:48Z",
-  "gate": "A",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "verdict": "KILL",
-  "reason": "Off-lens kill—this is fashion/luxury history from 1821, not about AI, technology, contemporary founder/business innovation, or investing."
- },
- {
-  "t": "2026-09-01T02:28:49Z",
-  "gate": "A",
-  "subject": "Extremely severe extinction events happen every 100M years or so and just switching to sustainable energy will not be en",
-  "verdict": "KILL",
-  "reason": "This is Elon's theoretical prediction, not a viral-specific real-world event—pure astronomy off-brand for a technology page."
- },
- {
-  "t": "2026-09-01T02:29:16Z",
-  "gate": "A",
-  "subject": "25 Cybercabs in a lot in Tampa, Florida",
-  "verdict": "KILL",
-  "reason": "Instant kill on NO SUBSTANCE: the source is 39 characters with zero context, consequence, or second fact; a writer would have to pad or invent to build slides."
- },
- {
-  "t": "2026-09-01T02:29:18Z",
-  "gate": "A",
-  "subject": "I took a lot of photos of this thing This is like being there when they launched Hubble",
-  "verdict": "KILL",
-  "reason": "No substance — 87-character vague tweet with no identifiable story, no facts, no consequence; writer would have to pad; scout interest at 3/10 is below viability."
- },
- {
-  "t": "2026-09-01T02:29:33Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens generalization: labor economics is the subject, technology the backdrop; lacks named people, real numbers, or a specific jaw-dropping event."
- },
- {
-  "t": "2026-09-01T02:29:51Z",
-  "gate": "A",
-  "subject": "Hold on. This makes the whole thing even worse. Anthropic did disclose the weekly limits on its own website in 2025: Max",
-  "verdict": "KILL",
-  "reason": "Thin single-tweet observation with no corroboration or real consequences—fails the story test; a reader wouldn't send this to a friend."
- },
- {
-  "t": "2026-09-01T02:30:27Z",
-  "gate": "A",
-  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
-  "verdict": "KILL",
-  "reason": "Routine successful-launch news with no consequence, drama, or secondary facts — fails STORY LAW's ON-TOPIC-BUT-ROUTINE ban and THE STANDARD's 'stop-mid-scroll' test; the writer admits the actual story (the images) hasn't happened yet."
- },
- {
-  "t": "2026-09-01T02:30:38Z",
-  "gate": "A",
-  "subject": "Extremely severe extinction events happen every 100M years or so and just switching to sustainable energy will not be en",
-  "verdict": "KILL",
-  "reason": "One thin tweet expressing Elon's extinction prediction with no real event, no specific fact to build from, and 3/10 scout interest — fails the no-substance kill."
- },
- {
-  "t": "2026-09-01T02:31:28Z",
-  "gate": "A",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "verdict": "KILL",
-  "reason": "Off-lens history—founder lens requires founding/strategy as the story's star; this is a fashion-biography inspiration arc where perseverance, not entrepreneurial decision-making, drives the narrative."
- },
- {
-  "t": "2026-09-01T02:32:03Z",
-  "gate": "A",
-  "subject": "I took a lot of photos of this thing This is like being there when they launched Hubble",
-  "verdict": "KILL",
-  "reason": "One thin tweet with no second fact, no numbers, and no clear subject—the writer has nothing to build slides from and would be forced to pad."
- },
- {
-  "t": "2026-09-01T02:32:10Z",
-  "gate": "A",
-  "subject": "Hold on. This makes the whole thing even worse. Anthropic did disclose the weekly limits on its own website in 2025: Max",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no substance: the entire story is someone discovering online that Anthropic removed transparency from their website, not a real-world event with felt consequence—no money moved, no person affected, nothing to build slides from."
- },
- {
-  "t": "2026-09-01T02:32:14Z",
-  "gate": "A",
-  "subject": "25 Cybercabs in a lot in Tampa, Florida",
-  "verdict": "KILL",
-  "reason": "39-character source with no context or consequence; writer would have to invent the story."
- },
- {
-  "t": "2026-09-01T02:32:34Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens: labor-market commentary where technology is backdrop, not a story with AI, tech, founders, investing, or space as the subject."
- },
- {
   "t": "2026-09-01T03:05:50Z",
   "gate": "B",
   "subject": "IT'S BEEN 48 HOURS SINCE SPACEX PUT NASA'S NEW TELESCOPE IN ORBIT, <em>AND THE WORLD IS ALREADY WAITING FOR ITS FIRST PI",
@@ -2098,5 +1965,138 @@
   "subject": "3 LOW-COST TOOLS THAT BUILD GAME CHARACTERS <em>SO GOOD THEY FEEL ILLEGAL</em>",
   "verdict": "REJECT",
   "reason": "TRUTH LAW — slide 2 body says 'using only free tools' and '$0 spent,' but Midjourney has no meaningful free tier (paid subscription required, ~$10–$30/month) and Kling 2.5 is a paid service. The hook correctly says 'LOW-COST,' making slide 2's 'free' and '$0' claims a direct factual lie. Fix: change slide 2 body to 'low-cost tools' and replace '$0 spent' with an honest cost figure or remove the do"
+ },
+ {
+  "t": "2026-09-04T00:40:03Z",
+  "gate": "A",
+  "subject": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. ",
+  "verdict": "KILL",
+  "reason": "A person confirming robotaxis work and cost less than Uber is routine adoption testimony, not a jaw-dropping event—this is expected functionality with no wild consequence."
+ },
+ {
+  "t": "2026-09-04T00:40:35Z",
+  "gate": "A",
+  "subject": "https://t.co/37uaPmYBvg",
+  "verdict": "KILL",
+  "reason": "Candidate submitted without story content or summary for assessment; gate cannot evaluate against Story Law."
+ },
+ {
+  "t": "2026-09-04T00:41:13Z",
+  "gate": "A",
+  "subject": "JUST IN: Grok, ChatGPT, Gemini and Claude are all currently down for some users.",
+  "verdict": "KILL",
+  "reason": "Service status updates are routine infrastructure news, not stories—no cause, scope, or lasting consequence to build a carousel from."
+ },
+ {
+  "t": "2026-09-04T00:41:14Z",
+  "gate": "A",
+  "subject": "Humans writing code as seen by future AI",
+  "verdict": "KILL",
+  "reason": "A famous person's joke with no real event, action, or consequence—pure reaction-bait vibe, not a story."
+ },
+ {
+  "t": "2026-09-04T00:41:33Z",
+  "gate": "A",
+  "subject": "Most people get rich so they can retire. Elon got rich and chose to work even harder. He could have chosen endless luxur",
+  "verdict": "KILL",
+  "reason": "Underlying event is a vibe, not a story: no new reported facts, numbers, or specific real-world consequence; writer would fabricate carousel substance."
+ },
+ {
+  "t": "2026-09-04T00:41:37Z",
+  "gate": "A",
+  "subject": "Already two new models in Codex: GPT-6-Astra and GPT-6-Astra-Aeon Could be here any minute now.",
+  "verdict": "KILL",
+  "reason": "Unverified rumor with no numbers, no date, and no real-world event—fails the substance test and would require padding."
+ },
+ {
+  "t": "2026-09-04T00:42:21Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Off-lens: pure 19th-century fashion history lacks required tech/AI/innovation angle; founder biography alone doesn't satisfy Aug 28 lens requirements for tech-focused pages."
+ },
+ {
+  "t": "2026-09-04T00:42:23Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens per Aug 28 precedent: a history/labor sociology fact (outsourcing trends, demographic shifts) that mentions IT but makes economics/demographics the star, not technology—fails the requirement that tech/AI/company/investing BE the subject, not the backdrop."
+ },
+ {
+  "t": "2026-09-04T00:43:51Z",
+  "gate": "A",
+  "subject": "https://t.co/37uaPmYBvg",
+  "verdict": "KILL",
+  "reason": "Story details required to verify STORY LAW compliance; event cannot be evaluated without summarized content."
+ },
+ {
+  "t": "2026-09-04T00:44:02Z",
+  "gate": "A",
+  "subject": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. ",
+  "verdict": "KILL",
+  "reason": "One person's single-day price comparison doesn't establish a trend or consequence — this is routine tech content, not a story."
+ },
+ {
+  "t": "2026-09-04T00:44:03Z",
+  "gate": "A",
+  "subject": "I am currently in downtown Austin. There are @Tesla Cybercabs EVERYWHERE. All of the Cybercabs in these clips have no st",
+  "verdict": "KILL",
+  "reason": "Launch preview: the real story is 'tomorrow,' not today — no documented consequence yet, just pre-announcement anticipation."
+ },
+ {
+  "t": "2026-09-04T00:44:41Z",
+  "gate": "A",
+  "subject": "JUST IN: Grok, ChatGPT, Gemini and Claude are all currently down for some users.",
+  "verdict": "KILL",
+  "reason": "No substance: a service-status update with zero numbers, identified cause, scope, duration, or felt consequence—the writer has nothing to expand into a story beyond padding, and the underlying event (routine outage) is too thin."
+ },
+ {
+  "t": "2026-09-04T00:44:42Z",
+  "gate": "A",
+  "subject": "Most people get rich so they can retire. Elon got rich and chose to work even harder. He could have chosen endless luxur",
+  "verdict": "KILL",
+  "reason": "No event—this is a character observation without a specific incident or real-world consequence; nothing happened that readers would feel."
+ },
+ {
+  "t": "2026-09-04T00:45:01Z",
+  "gate": "A",
+  "subject": "Humans writing code as seen by future AI",
+  "verdict": "KILL",
+  "reason": "No real event — this is a hypothetical observation without the real-world consequence or substance required for a story."
+ },
+ {
+  "t": "2026-09-04T00:45:35Z",
+  "gate": "A",
+  "subject": "Already two new models in Codex: GPT-6-Astra and GPT-6-Astra-Aeon Could be here any minute now.",
+  "verdict": "KILL",
+  "reason": "This is a launch preview without demonstration—banned format with no real event or known actor."
+ },
+ {
+  "t": "2026-09-04T00:45:54Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Off-lens: this is pure fashion/business history (19th-century founder biography) with no AI, technology, investing, or space angle—the five approved lenses—and scout interest of 3/10 fails the exception threshold."
+ },
+ {
+  "t": "2026-09-04T00:46:19Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens social/labor commentary—technology is backdrop, not star; no named event where reality moved; low scout interest (4/10) binds strict application of story law."
+ },
+ {
+  "t": "2026-09-04T01:13:15Z",
+  "gate": "B",
+  "subject": "EVERYONE THOUGHT DRIVERLESS CABS WERE A TEST. TESLA JUST PUT CARS WITH NO STEERING WHEEL AND NO PEDALS <em>ON PUBLIC STR",
+  "verdict": "REJECT",
+  "reason": "HOOK LAW violation: the hook is two sentences ('EVERYONE THOUGHT DRIVERLESS CABS WERE A TEST. TESLA JUST PUT CARS WITH NO STEERING WHEEL AND NO PEDALS ON PUBLIC STREETS IN AUSTIN.'). The law requires ONE complete sentence. Fix: delete the first sentence entirely — the Tesla sentence alone is 15 words, covers actor + action + wild specifics, and is the stronger line.; TRUTH LAW / slide 6 accuracy: "
+ },
+ {
+  "t": "2026-09-04T02:33:18Z",
+  "gate": "B",
+  "subject": "AI DROVE 8 MILES FOR $27. <em>FIVE MORE JOBS</em> IT IS UNDERCUTTING",
+  "verdict": "REJECT",
+  "reason": "YOU cadence violation (§4, hard reject): Zero second-person sentences appear in any content slide body — slides 2, 3, 5, 6, and 7 are all zero-you. The law is explicit: three or more consecutive slides with no second person = the reader is watching, not in the story. Fix: drop one 'you' sentence into roughly every third slide. Examples that fit naturally — slide 2: 'Your next Uber might already be"
  }
 ]

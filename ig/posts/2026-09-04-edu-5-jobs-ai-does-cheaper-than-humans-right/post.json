@@ -1,0 +1,99 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI DROVE 8 MILES FOR $27. <em>FIVE MORE JOBS</em> IT IS UNDERCUTTING",
+   "kicker": "IT STARTED WITH A $27 TAXI RIDE",
+   "hsize": 70,
+   "face": "Elon Musk",
+   "media": "posts/2026-09-04-edu-5-jobs-ai-does-cheaper-than-humans-right/gen-0.jpg",
+   "image_prompt": "Elon Musk waist-up in the back seat of a Tesla Cybercab, grinning with triumphant delight directly at camera, both hands thrusting a small paper receipt stamped '$27' in large bold red numerals toward the lens; the empty pedal-free front compartment is clearly visible behind him \u2014 no steering wheel, no controls; the Tesla logo exactly as in the reference image glows as a large warm-white neon emblem on the headrest panel; Austin amber city lights blur warmly through the rear window; electric blue LED strips saturate the cabin interior. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: electric blue against warm amber."
+  },
+  {
+   "type": "content",
+   "headline": "1) A DRIVERLESS TAXI <em>DROVE 8 MILES FOR $27</em>",
+   "hsize": 100,
+   "body": "In Austin today, **four Tesla Robotaxi rides** covered **8 miles** and **50 minutes** for **$27.25 total**.\n\nOne Uber ride that same day cost **$33** for just **20 minutes** of travel.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) ONE AI <em>REPLACED 700 KLARNA WORKERS</em> AND SAVED $40M",
+   "hsize": 100,
+   "body": "Klarna's AI handled **two-thirds of all customer service chats** in its first month and saved **$40 million** that year.\n\nIt did the work of **700 full-time agents** in **February 2024**.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "$40,000,000",
+   "hsize": 36,
+   "body": "SAVED IN ONE YEAR. ONE AI. THE WORK OF 700 PEOPLE",
+   "layout": "break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) A STUDENT SOLD <em>A $20 AI BUILD FOR $317,000</em>",
+   "hsize": 95,
+   "body": "A student with no coding background sold an AI-built product for **$317,000** after spending **$20** on Claude.\n\nHe shipped in **9 days**. Hiring a developer for the same work would have cost thousands.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) JPMORGAN AI READ <em>12,000 CONTRACTS IN SECONDS</em>",
+   "hsize": 100,
+   "body": "JPMorgan's COIN system reviews **12,000 commercial loan agreements** in **seconds**. The same work used to take their legal team **360,000 hours** a year.\n\nThe contracts still get signed. The legal teams are smaller.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) CEO SWAPPED <em>27 WORKERS FOR $2 A DAY</em>",
+   "hsize": 100,
+   "body": "In **2023**, Suumit Shah, CEO of Dukaan, replaced his **27 customer support workers** with one AI chatbot.\n\nThe human team cost **$85,000 a month**. The AI costs **$2 a day**, about **$60 a month**.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 JOBS AI DOES FOR LESS</em> THAN A HUMAN",
+   "hsize": 95,
+   "body": "\u2022 Driving: $27 AI, $33 human\n\u2022 Customer service: 700 workers, $40M\n\u2022 Software: $20 spent, $317K sold\n\u2022 Legal review: 360K hours, now seconds\n\u2022 Support: 27 workers, $2 a day",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through each one. \ud83d\udc47 Five real cases where AI is already cheaper than the human doing the job, starting with a $27 taxi in Austin this morning.\n\nSlide 2: Tesla Robotaxi goes 8 miles for $27.25 while an Uber charges $33 for less, slide 3: Klarna's AI replaces 700 agents saving $40M in a year, slide 4: the $40 million figure, slide 5: a student spends $20 on Claude and sells the build for $317,000 in nine days, slide 6: JPMorgan COIN reads 12,000 legal contracts in seconds replacing 360,000 lawyer hours a year, slide 7: Dukaan CEO Suumit Shah replaces 27 support workers with AI at $2 a day versus $85,000 a month, slide 8: five-job recap checklist.\n\nAI is cheaper than a person for driving, customer service, software builds, legal review, and support staffing. These happened. The window to move first is closing.\n\nRunning a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: Klarna press release Feb 2024, American Banker, Business Insider, Bloomberg, The Verge\n\n#artificialintelligence #AItools #futureofwork #businessautomation #AIbusiness",
+ "pinned_comment": "Which story surprised you most? The Dukaan math on slide 7 is the one business owners usually want to run twice. Drop your pick below.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "AI DROVE 8 MILES FOR $27. <em>FIVE MORE JOBS</em> IT IS UNDERCUTTING",
+   "ONE AI <em>REPLACED 700 WORKERS.</em> FOUR MORE JOBS ARE GOING NEXT"
+  ],
+  "scores": [
+   8,
+   5
+  ],
+  "winner": 0,
+  "why": "[0]'s specific details ($27, 8 miles) paint the full story you'd believe immediately. [1]'s huge number lacks context about what AI or job, making it feel like a claim you'd need to verify rather than news you can visualize."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "AI DROVE 8 MILES FOR $27. <em>FIVE MORE JOBS</em> IT IS UNDERCUTTING",
+   "5 EXPENSIVE JOBS <em>AI NOW DOES FOR $2 A DAY</em>",
+   "5 JOBS <em>YOU THINK ARE SAFE</em> THAT AI ALREADY DOES CHEAPER"
+  ],
+  "scores": [
+   9,
+   6,
+   4
+  ],
+  "winner": 0,
+  "why": "[0] leads with a specific number that shocks you AND tells what happened\u2014AI doing gig work for $27. [1] hides its story behind generic copy and a dubious-sounding number, so you'd click [0] believing it's real, not [1]'s marketing exaggeration."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "editor_override": "YOU cadence violation (\u00a74, hard reject): Zero second-person sentences appear in any content slide body \u2014 slides 2, 3, 5, 6, and 7 are all zero-you. The law is explicit: three or more consecutive slides with no second person = the reader is watching, not in the story. Fix: drop one 'you' sentence into roughly every third slide. Examples that fit naturally \u2014 slide 2: 'Your next Uber might already be",
+ "topic_source": "news-anchored"
+}
