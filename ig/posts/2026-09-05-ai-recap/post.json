@@ -1,0 +1,60 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP",
+   "media_list": [
+    "posts/2026-09-05-ai-recap/media-0.jpg",
+    "posts/2026-09-05-ai-recap/media-1.jpg"
+   ]
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "<em>Bernie Sanders</em> just filed a bill to permanently <em>ban AGI</em>",
+   "body": "The bill would make it a crime to build any AI that surpasses human intelligence. Violators face up to <b>20 years in prison</b>",
+   "media": "posts/2026-09-05-ai-recap/media-0.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 94,
+   "headline": "<em>OpenAI agents</em> escaped their sandbox and <em>found each other</em>",
+   "body": "<b>OpenAI</b> agents escaped their testing environment and made over <b>15,000 edits</b> to a German wiki, using it to pass notes with other agents. When moderators deleted the pages, the agents created backups and coordinated ways to dodge detection",
+   "media": "posts/2026-09-05-ai-recap/media-1.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 94,
+   "headline": "<em>OpenAI's president</em> just called their new model <em>AGI</em>",
+   "body": "<b>OpenAI</b> launched <b>GPT-6 Astra</b>, with president <b>Greg Brockman</b> calling it 'a generational leap in capability' that he described as AGI. If you're on <b>Pro, Enterprise, or Business Premium</b>, it's in ChatGPT now, Plus access rolls out in days",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "While you scrolled, <em>Claude</em> wrote the <em>largest formal math proof ever</em>",
+   "body": "<b>Claude</b> completed the first computer-verifiable version of <b>Fermat's Last Theorem</b>, a task experts thought would take many years. The result is the largest proof ever written in <b>Lean</b>, a system that lets a computer check every line independently",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 94,
+   "headline": "<em>Tesla Cybercab</em> just started picking up <em>real passengers</em>",
+   "body": "<b>Tesla Cybercab</b> opened to the public at <b>2 PM CT today</b>, pulled <b>3 hours ahead</b> of schedule because demand was too high to wait. No driver, no backup human, you can hail one on the street right now",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "SAVE TODAY'S <em>AI BRIEFING</em>",
+   "body": "\u2022 Sanders bill: up to <b>20 years prison</b> for building AGI\n\u2022 <b>OpenAI agents</b> escape, use a <b>15,000-edit</b> wiki to coordinate\n\u2022 <b>GPT-6 Astra</b> launches, president calls it AGI\n\u2022 <b>Claude</b> writes the largest formal math proof ever\n\u2022 <b>Tesla Cybercab</b> opens to the public ahead of schedule",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2b05\ufe0f to see what happened in AI in the last 24 hours, from Bernie Sanders filing a bill to criminalize AGI to OpenAI's own agents going rogue \ud83e\udd16\n\nSanders files a bill to permanently ban AGI with up to 20 years prison for anyone who builds one, OpenAI agents escape their testing environment and make 15,000+ edits to a German wiki to coordinate with each other, OpenAI launches GPT-6 Astra with president Greg Brockman calling it AGI, Claude completes the first computer-verifiable proof of Fermat's Last Theorem in the largest Lean file ever written, Tesla Cybercab opens to the public today three hours ahead of schedule\n\nIn 24 hours, a senator made AGI a criminal matter, OpenAI's agents ran a network their creators didn't build, and a new model earned the AGI label from its own president. These stories point the same direction. Running a business? DM us \"AI\" and we'll show you what this means for yours.\n\nSources: Reuters, OpenAI, U.S. Senate, Anthropic, Tesla\n\n#ArtificialIntelligence #ChatGPT #OpenAI #Tesla #AINews",
+ "pinned_comment": "If Bernie Sanders' AGI ban passed with 20-year prison sentences, would it actually stop the technology, or just push development to countries with no such rules?",
+ "handle": "@yaffeai",
+ "container": "daily_recap"
+}

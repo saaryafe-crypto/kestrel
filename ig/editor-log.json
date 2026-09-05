@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-01T14:05:01Z",
-  "gate": "A",
-  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
-  "verdict": "KILL",
-  "reason": "Routine launch preview with no substance: no numbers, no consequence, no jaw-drop fact explaining why this telescope matters—just 'it deployed and we'll see pictures later,' plus a 3/10 scout score signals no reader urgency to begin with."
- },
- {
-  "t": "2026-09-01T14:05:33Z",
-  "gate": "A",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "verdict": "KILL",
-  "reason": "Off-lens: pure 19th-century historical biography with zero connection to AI, technology, modern business, or space—violates the strict off-lens rule; the page does not ship generic founder origin stories without modern relevance."
- },
- {
-  "t": "2026-09-01T14:06:23Z",
-  "gate": "A",
-  "subject": "Hold on. This makes the whole thing even worse. Anthropic did disclose the weekly limits on its own website in 2025: Max",
-  "verdict": "KILL",
-  "reason": "No real-world consequence: observation of corporate website opacity without evidence of harm, character, or fallout that meets story law."
- },
- {
   "t": "2026-09-01T14:06:25Z",
   "gate": "A",
   "subject": "Extremely severe extinction events happen every 100M years or so and just switching to sustainable energy will not be en",
@@ -2096,6 +2075,27 @@
   "t": "2026-09-05T00:51:10Z",
   "gate": "B",
   "subject": "THE MAN WHO RAN FOR PRESIDENT TWICE TO PROTECT WORKERS JUST FILED A BILL MAKING <em>YOUR AI JOB A 20-YEAR FELONY</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-05T05:45:45Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — screenshot panel on the right half: IMAGE LAW is explicit that 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' The right side of the cover is a legible screenshot of article/document text (the OpenAI agents story source). It dominates half the frame and is the only element beside Sanders' face. FIX: replace the screenshot panel with a photoreal composite element — the OpenAI"
+ },
+ {
+  "t": "2026-09-05T05:48:45Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Cover image: the right half of the frame is a raw screenshot of article text ('ntrol of German wiki th...', 'ask shortcuts and cov...') used as a background fill — §3 is categorical: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Fix: replace the screenshot panel with a photoreal composite element (a styled card, a floating prop, or extend the Bernie photo with a story-relevant backgroun"
+ },
+ {
+  "t": "2026-09-05T05:50:40Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "APPROVE",
   "reason": ""
  }
