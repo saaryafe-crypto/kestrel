@@ -1,0 +1,103 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "MARKETS NOW OPENLY WANT MASS LAYOFFS <em>BECAUSE 162,000 NEW JOBS JUST COST YOU MONEY</em>",
+   "kicker": "THOSE TWO THINGS DIRECTLY CAUSED EACH OTHER",
+   "hsize": 64,
+   "media": null,
+   "image_prompt": "SUBJECT: Faceless trader, arms spread wide, frenzied pitch, peak shock-greed. BACKDROP PROPS: Blazing screens with neon green arrows and crimson plunging lines. PALETTE: Blood red and neon green. Documentary 35mm, harsh flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "EVERYONE AGREED MORE JOBS <em>MEANT RISING MARKETS</em>",
+   "hsize": 92,
+   "body": "That has been true for decades.\n\nMore jobs hired means a stronger country. That was your assumption going into Thursday morning.\n\nThen 8:30 hit.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE JOBS NUMBER LANDED AND <em>STOCKS IMMEDIATELY FELL</em>",
+   "hsize": 88,
+   "body": "<b>162,000 jobs added</b>. Triple what anyone expected.\n\nBy 8:31, your portfolio was already red.\n\nAnd markets planned it that way.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "5 YEARS OF INFLATION BROKE EVERYTHING",
+   "hsize": 110,
+   "body": "Strong jobs keep rates high; high rates drag stocks down.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE <b>4</b> FACTS YOUR FINANCIAL NEWS <em>SKIPPED</em>",
+   "hsize": 88,
+   "body": "Rate-cut odds fell the moment hiring <b>tripled</b> forecasts\nPortfolios went red within <b>1 minute</b>\n<b>60 months</b> of inflation broke good news\nWall Street now needs <b>zero</b> new jobs",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "YOUR SAVINGS GROW <em>WHEN YOUR NEIGHBORS LOSE THEIR JOBS</em>",
+   "hsize": 90,
+   "body": "Wall Street now officially roots for mass unemployment. That is the irony of five broken years.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: YOUR PORTFOLIO FELL <em>BECAUSE TOO MANY PEOPLE GOT HIRED</em>",
+   "hsize": 58,
+   "body": "US added <b>162,000</b> jobs, tripling expectations\nStocks fell the moment the number landed\n<b>60 months</b> broke what good news means\nWall Street now wants people fired\n\nSend this to whoever checks their 401k.",
+   "media": null
+  }
+ ],
+ "caption": "America added 162,000 jobs last month and your investments fell because of it. Here is why. \ud83d\udcc9\n\nCover shows the 8:30 AM cross-cut: two alerts, jobs up and portfolio down, both caused by the same number. Slide 2 covers what everyone believed the morning before the report dropped. Slide 3 is the exact sequence, second by second. Slide 4 explains why five years of two-percent-plus inflation rewired what good news means for your savings. Slide 5 is the Kobeissi Letter post that reached 1.9 million views. Slide 6 is the irony, and what business owners who stopped waiting for the economy are doing differently. Slide 7 is the checklist, save it.\n\nSixty straight months of inflation trained investors to punish strong hiring. A good jobs report now wipes out ordinary savings while workers celebrate. The businesses winning right now do not wait for the economy to cooperate. Running a business? DM us 'AI' and we will show you what that looks like for yours.\n\nSources: The Kobeissi Letter\n\n#investing #stockmarket #economy #personalfinance #money",
+ "pinned_comment": "The part we couldn't fit: Wall Street's official position is now that it WANTS unemployment, not as a side effect but as the actual goal. That sentence would have been front-page news five years ago.",
+ "hook_tournament": {
+  "candidates": [
+   "STOCKS FELL THE SECOND <em>THE BEST HIRING SURPRISE IN MONTHS</em> WAS ANNOUNCED"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "threat"
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "STOCKS FELL THE SECOND <em>THE BEST HIRING SURPRISE IN MONTHS</em> WAS ANNOUNCED",
+   "MARKETS NOW OPENLY WANT MASS LAYOFFS <em>BECAUSE 162,000 NEW JOBS JUST COST YOU MONEY</em>"
+  ],
+  "scores": [
+   6,
+   9
+  ],
+  "winner": 1,
+  "why": "[1] shocks with 'markets openly want mass layoffs' then cuts you personally\u2014'cost you money'\u2014with a real number, making you stop scrolling. [0] is clear but just another market-is-weird story that doesn't feel urgent."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "US stock market",
+  "actor_known": true,
+  "anchor": "your 401k",
+  "specifics": [
+   "Your investments lost value on the day the US had its best hiring surprise in months",
+   "162,000 jobs added \u2014 tripling expectations \u2014 and stocks fell because of it",
+   "Markets now literally 'want' a labor market collapse (direct quote)",
+   "60 straight months \u2014 five full years \u2014 of inflation flipped what 'good news' means",
+   "Rate hike fears triggered by strong hiring wipe out ordinary investors while workers celebrate"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (5/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "The system is broken. You know the system is broken when stocks FALL after the US unexpectedly adds +162,000 jobs in a month, TRIPLING expectations. Why? Because a strong jobs report means a higher chance of rate hikes. ",
+  "link": "https://x.com/KobeissiLetter/status/2095857820356730957",
+  "judge_interest": 4,
+  "scout_score": 64.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "CAST TRUTH VIOLATION (hard kill): the cover face is Leonardo DiCaprio \u2014 a Hollywood actor with zero role in this story. He is used as a shocked-reaction stand-in for a finance/markets post he has no connection to. The Doctrine is explicit: a recognizable famous person whose story this is not = REJECT. The Vendor Cast exception does not apply (this is not a guide for a tool DiCaprio's company makes",
+ "gate_r": "s1: The celebrity face is visibly AI-generated/wax-figure quality \u2014 plastic skin, artificially exaggerated expression \u2014 failing the photo quality standard for a professional news page."
+}
