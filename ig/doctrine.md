@@ -132,7 +132,15 @@ INSTANT KILL — no other rule can save these:
   obscure brand/person, it fails. Famous names or universal nouns only.
 - PURE ASTRONOMY / non-tech wow content: off-brand. Space counts only through
   the tech/business lens (SpaceX, Starlink, rocket companies, valuations).
-- ALREADY PUBLISHED: same underlying story as a recent post, however worded.
+- ALREADY PUBLISHED — THE HARD RULE (owner order Sep 5): the page NEVER
+  posts the same story twice. Never. Same underlying event, announcement,
+  fact or artifact = the same story, however differently it is worded,
+  angled or formatted (carousel vs reel vs edu vs recap slide — all count).
+  If it already ran anywhere on the page, it is dead everywhere, forever.
+  The ONE legal exception (owner order Aug 27): the daily-recap roundup may
+  re-cover a story that ran as a SOLO post — that IS the roundup format.
+  But a recap may never repeat a story from any previous recap, and no lane
+  may run a story that already appeared inside a recap slide.
 
 ## 2. HOOK LAW — the cover sentence
 

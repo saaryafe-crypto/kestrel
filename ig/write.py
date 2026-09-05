@@ -665,14 +665,19 @@ def already_posted(slug):
     return os.path.isdir(posts) and any(d.endswith(slug) for d in os.listdir(posts))
 
 
-def recent_posts(n=30, reels=True):
+def recent_posts(n=60, reels=True):
     """Headlines of the last n published posts, derived from posts/ folder
     names (no separate state file to drift). Reel folder names carry video
     ids, not headlines, so reel titles come from reels-used.json instead
     (owner Aug 16, "make sure also we never repost the same thing": a
     carousel duping last week's reel is still a repost — every lane's dupe
     judge must see the other lane's stories). reels=False lets reel.py
-    fetch just the carousel side without echoing its own list back."""
+    fetch just the carousel side without echoing its own list back.
+    HARD RULE hardening (owner Sep 5, "we dont post the same things twice.
+    never."): memory extended 30->60 posts and reels 14->30 days, and recap
+    SLIDE headlines are included — a recap folder is just 'ai recap', so
+    without this the stories inside recaps were invisible to every lane's
+    dupe judge."""
     posts = os.path.join(HERE, "posts")
     if not os.path.isdir(posts):
         return []
@@ -680,10 +685,21 @@ def recent_posts(n=30, reels=True):
                   if re.match(r"\d{4}-\d{2}-\d{2}-", d) and "-reel-" not in d)
     out = [re.sub(r"^\d{4}-\d{2}-\d{2}-", "", d).replace("-", " ").strip()
            for d in dirs[-n:]]
+    for d in dirs[-n:]:
+        if "ai-recap" not in d:
+            continue
+        try:
+            rp = json.load(open(os.path.join(posts, d, "post.json")))
+            for s in rp.get("slides", [])[1:-1]:  # skip cover + CTA
+                h = re.sub(r"<[^>]+>", "", s.get("headline", "")).strip()
+                if h:
+                    out.append(f"(recap slide) {h[:90]}")
+        except Exception:
+            pass
     if reels:
         try:
             ru = json.load(open(os.path.join(HERE, "reels-used.json")))
-            horizon = str(date.today() - timedelta(days=14))
+            horizon = str(date.today() - timedelta(days=30))
             out += [f"(reel) {u['title'][:90]}" for u in ru
                     if u.get("date", "") >= horizon
                     and u.get("title", "").strip()
@@ -697,11 +713,26 @@ DUPE_SCHEMA = {"type": "object", "properties": {"dupe": {"type": "boolean"}},
                "required": ["dupe"]}
 
 
+def _dupe_fallback(title, recent):
+    """Mechanical dupe check for when the semantic judge is down (owner
+    Sep 5 hard rule: a dead judge must never wave stories through). Two
+    titles sharing 3+ meaningful words (4+ chars) are treated as the same
+    story. Crude on purpose — false positives just skip one candidate,
+    false negatives are what the hard rule forbids."""
+    words = {w for w in re.findall(r"[a-z]{4,}", title.lower())}
+    for t in recent:
+        if len(words & {w for w in re.findall(r"[a-z]{4,}", t.lower())}) >= 3:
+            return True
+    return False
+
+
 def is_dupe(title, recent=None):
     """Semantic dedupe — the same story worded differently is still the same
     story (Jul 28: the Threads/Meta-AI news published twice 2h apart because
-    two feeds worded it differently and the slug check passed both). Fails
-    open: if the judge call breaks, don't block publishing."""
+    two feeds worded it differently and the slug check passed both). If the
+    judge call breaks, falls back to the mechanical word-overlap check —
+    never fails open (owner Sep 5: 'we dont post the same things twice.
+    never.')."""
     recent = recent_posts() if recent is None else recent
     if not recent:
         return False
@@ -716,8 +747,10 @@ Is the candidate the SAME underlying story as any already-published post — sam
 Return ONLY JSON: {{"dupe": true or false}}""", schema=DUPE_SCHEMA, model=CHEAP)
         return bool(r.get("dupe"))
     except Exception as e:
-        print(f"dupe judge failed ({e}) — allowing story", file=sys.stderr)
-        return False
+        fb = _dupe_fallback(title, recent)
+        print(f"dupe judge failed ({e}) — mechanical fallback says "
+              f"{'DUPE' if fb else 'clear'}", file=sys.stderr)
+        return fb
 
 
 def pick_story(stories):

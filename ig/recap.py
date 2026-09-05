@@ -20,11 +20,11 @@ Failure exits nonzero -> the workflow ladder's next rung (write.py news)
 fills the slot — always-post law intact.
 """
 import json, os, re, subprocess, sys
-from datetime import date
+from datetime import date, timedelta
 
 from fetch import get
 from viral import law
-from write import call_claude, scrub_dashes, qa_repair, image_score, CHEAP
+from write import call_claude, scrub_dashes, qa_repair, image_score, is_dupe, CHEAP
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 N_CANDS = 12       # candidates offered to the writer
@@ -89,8 +89,46 @@ def is_photo(path):
         return False
 
 
+def prev_recap_slides(days=7):
+    """Slide headlines from PREVIOUS recaps (last `days` days, excluding
+    today's). HARD RULE (owner Sep 5): recap may re-cover stories that ran
+    SOLO — that's the roundup format (owner Aug 27) — but it must never
+    repeat a story from an earlier recap. So the dupe filter compares
+    candidates against past recap slides ONLY, not against solo posts."""
+    posts = os.path.join(HERE, "posts")
+    if not os.path.isdir(posts):
+        return []
+    horizon = str(date.today() - timedelta(days=days))
+    today = str(date.today())
+    out = []
+    for d in sorted(os.listdir(posts)):
+        if "ai-recap" not in d or d[:10] < horizon or d[:10] >= today:
+            continue
+        try:
+            rp = json.load(open(os.path.join(posts, d, "post.json")))
+            for s in rp.get("slides", [])[1:-1]:  # skip cover + CTA
+                h = re.sub(r"<[^>]+>", "", s.get("headline", "")).strip()
+                if h:
+                    out.append(h[:90])
+        except Exception:
+            pass
+    return out
+
+
 def pick_candidates(stories):
     ranked = sorted(stories, key=lambda s: (not s.get("image"), -s["score"]))
+    prev = prev_recap_slides()
+    if prev:
+        kept = []
+        for s in ranked:
+            if len(kept) >= N_CANDS:
+                break
+            if is_dupe(s["title"], recent=prev):
+                print(f"  recap dupe (ran in earlier recap): {s['title'][:70]}",
+                      file=sys.stderr)
+                continue
+            kept.append(s)
+        return kept
     return ranked[:N_CANDS]
 
 
