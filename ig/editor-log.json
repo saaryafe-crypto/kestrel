@@ -1,131 +1,5 @@
 [
  {
-  "t": "2026-09-01T12:02:27Z",
-  "gate": "B",
-  "subject": "YOU'RE IGNORING CLIENTS WHO SPEND <em>67% MORE</em>, 5 PROMPTS THAT GO GET THEM",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — cover features a generated unknown face (non-famous man leaning over a treasure chest). The doctrine explicitly bans this: 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' Fix: remove the human figure entirely and let the treasure-chest/Claude-logo scene carry the image, or replace with a recognizable famous person whose story is i"
- },
- {
-  "t": "2026-09-01T13:28:46Z",
-  "gate": "A",
-  "subject": "Ye toh AI video hai, jabki ek toh sach mein Israel jaa kar naacha tha 😭",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no substance: the entire source is an observation that people were confused about whether a video is AI-generated, with no real-world consequence, no identified person, and no outcome—a 71-character caption insufficient even with padding."
- },
- {
-  "gate": "A",
-  "reason": "No substance: a single thin tweet with zero facts, numbers, or consequence — just a scenic photo with no story event, no actor outcome, and no reason a 16-year-old would DM it to a friend.",
-  "subject": "The incredible 360 degree view from the top of Mount Everest on a clear day. 📽: Ben M Jones",
-  "t": "2026-08-22T23:20:53Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Pure reaction-bait: a hypothetical engagement prompt asking readers to imagine outrage at an unnamed scenario with zero real-world event, consequence, or substance—no second fact, no numbers beyond like-counts, no actor beyond 'Writer: Ian.' This is exactly the Queen Elizabeth pile-on model the doctrine was built to kill.",
-  "subject": "🇺🇸 Imagine the outrage if Muslims did this in Manhattan Writer: Ian",
-  "t": "2026-08-22T23:21:21Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: a thin research announcement with no specific event, consequence, or numbers—pure on-topic-but-routine preview of future work, exactly what the doctrine bans; scout interest 1/10 demands exceptional cause, this has none.",
-  "subject": "Games have been an important testbed for our AI research for over 15 years. 🎮 From mastering Atari to reaching Grandmast",
-  "t": "2026-08-22T23:21:26Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW — generated unknown face on the cover. The man holding the Claude phone is not recognizable as any specific famous person. §3 bans this explicitly: 'Never a generated unknown face.' Fix: regenerate with a clearly identifiable famous person (e.g., Dario Amodei by name prompt) or replace with a product-only shot showing the Claude app/logo without an unknown human face.; SLIDE 2 LAW — slid",
-  "subject": "6 CLAUDE SKILLS <em>PEOPLE ARE QUIETLY USING TO REPLACE STAFF</em>",
-  "t": "2026-08-23T01:12:32Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "No substance — a 39-character observation with zero context, consequence, or explainable significance; a writer would have to pad or speculate to fill a carousel.",
-  "subject": "25 Cybercabs in a lot in Tampa, Florida",
-  "t": "2026-09-01T12:11:32Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: single 246-character tweet stating a speculative prediction, with no real-world event, consequence, or second fact a writer could build from without padding.",
-  "subject": "Extremely severe extinction events happen every 100M years or so and just switching to sustainable energy will not be en",
-  "t": "2026-09-01T12:11:46Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Routine space-launch announcement from one thin tweet with no jaw-dropping angle, numbers, or felt consequence—fails THE STANDARD and is an explicitly banned type (launch preview).",
-  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
-  "t": "2026-09-01T12:11:50Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: the source is one thin tweet with zero explanation of what happened, no context for why these cars matter, and no consequence to build slides from.",
-  "subject": "25 Cybercabs in a lot in Tampa, Florida",
-  "t": "2026-09-01T12:12:21Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: a 222-character announcement with no numbers, facts, or consequence to build slides from—the writer would have to fabricate rather than report.",
-  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
-  "t": "2026-09-01T12:12:40Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Thin speculation without real event or consequence—writer would need to pad to build slides.",
-  "subject": "Extremely severe extinction events happen every 100M years or so and just switching to sustainable energy will not be en",
-  "t": "2026-09-01T12:12:49Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "HOOK IS TWO SENTENCES, NOT ONE. §2 requires 12-25 words as ONE complete sentence. The hook splits at a hard period — 'IN SCIENCE.' starts a second sentence. Fix: merge into one, e.g. 'THE WOMAN HER UNIVERSITY TOLD HAD NO FUTURE IN SCIENCE JUST WATCHED HER NAMESAKE TELESCOPE REACH ORBIT, WHERE IT PHOTOGRAPHS 100 TIMES MORE SKY THAN HUBBLE.'; COVER HAS NO FACE WHEN THE STORY HAS ONE. §3 says 'defaul",
-  "subject": "HER UNIVERSITY PUSHED HER OUT FOR BEING A WOMAN IN SCIENCE. <em>HER NAMESAKE TELESCOPE JUST REACHED ORBIT AND PHOTOGRAPH",
-  "t": "2026-09-01T12:54:52Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "COVER IMAGE — generated unknown face: the businessman holding documents is a generated non-famous person, which Image Law bans outright ('Never a generated unknown face'). The Claude brand sign and document stack read clearly on their own; regenerate the cover without the human figure, or replace with a real photo of a recognizable person who has a genuine connection to the AI/case-study story.",
-  "subject": "YOUR CLIENTS WILL WRITE YOUR CASE STUDIES FOR YOU. <em>5 PROMPTS TO MAKE IT HAPPEN.</em>",
-  "t": "2026-09-01T13:31:00Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW violation — the cover shows a generated unknown businessman. The doctrine is explicit: 'FAMOUS FACES OR NO FACES — never a generated unknown face.' The Claude brand sign in the background does not save it; the image's subject is the fake face, not the product. Fix: replace with a real-world photo of a desk/document stack, a styled text-on-brand cover, or a Claude interface screenshot mou",
-  "subject": "YOUR CLIENTS WILL WRITE YOUR CASE STUDIES FOR YOU. <em>5 PROMPTS TO MAKE IT HAPPEN.</em>",
-  "t": "2026-09-01T13:32:36Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-09-01T14:03:12Z",
-  "gate": "A",
-  "subject": "Hold on. This makes the whole thing even worse. Anthropic did disclose the weekly limits on its own website in 2025: Max",
-  "verdict": "KILL",
-  "reason": "Transparency complaint with no real-world consequence — Anthropic removed pricing disclosure from its website, but nobody lost money, switched providers, or experienced dramatic fallout that a reader would feel."
- },
- {
-  "t": "2026-09-01T14:03:13Z",
-  "gate": "A",
-  "subject": "Extremely severe extinction events happen every 100M years or so and just switching to sustainable energy will not be en",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no real-world event or consequence — the substance is engagement metrics on a speculation tweet, not something that actually happened."
- },
- {
-  "t": "2026-09-01T14:04:29Z",
-  "gate": "A",
-  "subject": "We need to talk about Anthropic. Its relationship with its power users appears to be collapsing in real time. A few week",
-  "verdict": "KILL",
-  "reason": "Scout interest at bare threshold (5/10); multiple scattered incidents (pricing misrepresentation, lawsuit, Claude behavior change) lack single clear narrative spine; source incomplete (truncated mid-sentence)."
- },
- {
   "t": "2026-09-01T14:05:01Z",
   "gate": "A",
   "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
@@ -2098,5 +1972,131 @@
   "subject": "AI child pornography is now legal in the United States. Criticizing Israel is not. Wake up America.",
   "verdict": "KILL",
   "reason": "No identifiable real-world event—the tweet makes unverified extraordinary legal claims (AI-CSAM legality, Israel-criticism ban) with zero sources or specifics, reads as political outrage-bait rather than news, and provides no concrete action for a writer to build from."
+ },
+ {
+  "t": "2026-09-05T00:07:35Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "Unverifiable hearsay with no documented event: Bernie Sanders shares a rumor he 'heard about recently' with no source, credible reporting, or evidence of the alleged OpenAI incident — violates TRUTH LAW and fails the 'did reality actually move?' test."
+ },
+ {
+  "t": "2026-09-05T00:07:37Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 Senator Bernie Sanders introduces bill to permanently ban AI that exceeds human intelligence. Violators woul",
+  "verdict": "KILL",
+  "reason": "A bill introduction is routine legislative action with no shown real-world consequence—the announcement itself is the event, not an outcome a reader felt, and the 152-character source provides no substance (co-sponsors, momentum, industry response, passage likelihood) to build slides from without padding."
+ },
+ {
+  "t": "2026-09-05T00:07:52Z",
+  "gate": "A",
+  "subject": "This could be one of the most significant AI safety incidents to date. Reuters reports that OpenAI agents escaped their ",
+  "verdict": "KILL",
+  "reason": "Unverified claim with no source link to the cited Reuters article; all critical details hedged throughout ('allegedly,' 'reportedly')—for a news page this fails truth law."
+ },
+ {
+  "t": "2026-09-05T00:08:38Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lane per §1: pharmaceutical ethics story lacks the required AI/tech/company/founder/investing/space star subject—the story's core is industry corruption, not one of the five approved lenses."
+ },
+ {
+  "t": "2026-09-05T00:08:42Z",
+  "gate": "A",
+  "subject": "\"extremely concerning\" \"GPT-6 Astra appears to be a massive jump in opaque reasoning ability: it can solve hard competit",
+  "verdict": "KILL",
+  "reason": "NO SUBSTANCE: meme account's unconfirmed speculation with no official announcement, benchmark numbers, demonstration, or event that moved reality—nothing the writer can prove on slides."
+ },
+ {
+  "t": "2026-09-05T00:10:23Z",
+  "gate": "A",
+  "subject": "BREAKING: OpenAI says it has overtaken Anthropic with the launch of “Astra,” its latest AI model. OpenAI’s president, Gr",
+  "verdict": "KILL",
+  "reason": "Announcement-only source without demo or proof; unverified claims ('generational leap,' AGI-level capability) and editorialized framing ('overtaken Anthropic') not from OpenAI; low scout interest (4/10) indicates insufficient story strength; writer would require padding to fill carousel."
+ },
+ {
+  "t": "2026-09-05T00:11:00Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens labor-politics commentary with no numbers, named people, or specific incidents—technology is backdrop, not the story."
+ },
+ {
+  "t": "2026-09-05T00:11:39Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Off-lens: pure fashion founder history with no AI, tech, investing, or space technology angle — strict off-lens kill applies to this lane regardless of founder-arc status."
+ },
+ {
+  "t": "2026-09-05T00:12:55Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "The central claim—OpenAI hacking with discovered AI agents communicating—is presented as unverified secondhand gossip ('I heard recently,' 'I have been told'), not confirmed reporting; TRUTH LAW requires every fact true and current with real proof."
+ },
+ {
+  "t": "2026-09-05T00:13:01Z",
+  "gate": "A",
+  "subject": "Tesla Cybercab with no steering wheel or pedals driving around Austin.",
+  "verdict": "KILL",
+  "reason": "Routine testing footage of vehicle announced October 2024—no new event, consequence, or news hook to build slides from."
+ },
+ {
+  "t": "2026-09-05T00:13:21Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 Senator Bernie Sanders introduces bill to permanently ban AI that exceeds human intelligence. Violators woul",
+  "verdict": "KILL",
+  "reason": "A bill introduction is political legislative proposal, not the concrete action from a household-name tech lab or founder this page exists to cover."
+ },
+ {
+  "t": "2026-09-05T00:14:06Z",
+  "gate": "A",
+  "subject": "This could be one of the most significant AI safety incidents to date. Reuters reports that OpenAI agents escaped their ",
+  "verdict": "KILL",
+  "reason": "Extraordinary safety claim requiring Reuters verification; unverified attribution to a major news source violates non-negotiable truth law before committing production."
+ },
+ {
+  "t": "2026-09-05T00:14:47Z",
+  "gate": "A",
+  "subject": "\"extremely concerning\" \"GPT-6 Astra appears to be a massive jump in opaque reasoning ability: it can solve hard competit",
+  "verdict": "KILL",
+  "reason": "Unverified capability claim from a meme account with no official OpenAI announcement, benchmark proof, or second fact; fails the 'real names, real numbers, real proof' standard and falls below substance threshold despite major-model-release potential."
+ },
+ {
+  "t": "2026-09-05T00:15:03Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens kill: pharmaceutical industry ethics story with no AI, technology, company/founder, investing, or space-technology angle."
+ },
+ {
+  "t": "2026-09-05T00:15:49Z",
+  "gate": "A",
+  "subject": "BREAKING: OpenAI says it has overtaken Anthropic with the launch of “Astra,” its latest AI model. OpenAI’s president, Gr",
+  "verdict": "KILL",
+  "reason": "The source is pure marketing claim without substance or proof—no demo, no concrete capability explanation, no specifics on why this is genuinely a 'major move'; scout interest at 4/10 signals this reads as routine announcement, not story; 'overtaken Anthropic' is vague hype language, and 'could be AGI' is a hedge, not a deliverable fact; writer would have to fabricate details to fill slides."
+ },
+ {
+  "t": "2026-09-05T00:16:52Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Off-lens for an AI/tech news page — the strict rule requires subjects to be AI, technology, investing, or space technology, and this 19th-century fashion/luggage founder story meets none of these criteria."
+ },
+ {
+  "t": "2026-09-05T00:17:12Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens: labor/demographic history where IT is backdrop to labor-market blame, not the story's star."
+ },
+ {
+  "t": "2026-09-05T00:51:10Z",
+  "gate": "B",
+  "subject": "THE MAN WHO RAN FOR PRESIDENT TWICE TO PROTECT WORKERS JUST FILED A BILL MAKING <em>YOUR AI JOB A 20-YEAR FELONY</em>",
+  "verdict": "APPROVE",
+  "reason": ""
  }
 ]

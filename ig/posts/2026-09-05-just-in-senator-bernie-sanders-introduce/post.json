@@ -1,0 +1,132 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE MAN WHO RAN FOR PRESIDENT TWICE TO PROTECT WORKERS JUST FILED A BILL MAKING <em>YOUR AI JOB A 20-YEAR FELONY</em>",
+   "hsize": 62,
+   "kicker": "SAME PENALTY AS NUCLEAR WEAPONS",
+   "media": "posts/2026-09-05-just-in-senator-bernie-sanders-introduce/gen-0.jpg",
+   "image_prompt": "Bernie Sanders, waist-up, fierce conviction, eyes direct to camera, gripping a thick official government bill document raised chest-high in both hands toward the viewer. U.S. Senate chamber behind him \u2014 mahogany desks in a wide arc, American flags flanking the raised rostrum \u2014 all flooded with vivid deep orange and amber light. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain. Accent: deep burnt orange against warm amber gold.",
+   "gen_person": true
+  },
+  {
+   "type": "content",
+   "headline": "EVERY AI LAB IN AMERICA WOKE UP THIS WEEK <em>ONE BILL AWAY FROM A FEDERAL FELONY</em>",
+   "hsize": 82,
+   "body": "Building smarter AI was a race. Maybe someday regulated, maybe slowed. Nobody put 'federal prison' in the risk column.\n\nThen a bill dropped in the US Senate on <b>September 3</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "HE CLOCKED IN AT 9AM. <em>THE BILL WAS ALREADY FILED</em>",
+   "hsize": 88,
+   "body": "By the time you sat down at your desk, a sitting US senator had already filed a bill\n\nprescribing <b>20 years in federal prison</b> for exactly the work you're doing.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "SAME PENALTY AS NUCLEAR WEAPONS",
+   "hsize": 110,
+   "body": "Longer than many armed robbery sentences, and it targets individual engineers",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE MAN BEHIND THE BILL <em>SPENT 40 YEARS FIGHTING CORPORATIONS</em>",
+   "hsize": 82,
+   "body": "<b>Bernie Sanders</b> is 84 years old. He built his career fighting corporate power: taxing the rich, protecting workers, taking on Wall Street.\n\nNow he's threatening to put you in federal prison.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EVERY AI LAB NOW FACES <em>A LINE THEY CAN'T SEE</em>",
+   "hsize": 96,
+   "body": "<b>OpenAI. Google. Anthropic.</b> Every team on the frontier now has to ask whether your next model release crosses into a federal felony.\n\nNobody knows exactly where that line is.",
+   "media": "posts/2026-09-05-just-in-senator-bernie-sanders-introduce/cand-1.webp"
+  },
+  {
+   "type": "content",
+   "headline": "YOUR AI STACK JUST BECAME <em>A LEGAL QUESTION</em>",
+   "hsize": 96,
+   "body": "If this bill advances, every US business running AI tools near human-level performance faces exposure, not just labs, but companies using it.\n\nKnowing what's in your AI stack is no longer optional.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: BERNIE SANDERS MADE BUILDING SMARTER AI <em>A 20-YEAR FELONY</em>",
+   "hsize": 58,
+   "body": "Sanders filed a permanent ban on smarter-than-human AI\n<b>20 years</b> in federal prison for violators\nSame penalty as nuclear weapons\nFiled <b>September 3, 2026</b>\n\nSend this to a friend in tech",
+   "media": null
+  }
+ ],
+ "caption": "A US senator just introduced a bill that makes building smarter-than-human AI punishable by 20 years in federal prison. Swipe through the details. \ud83d\udea8\n\nBernie Sanders' bill to permanently ban AI that exceeds human intelligence, the 20-year prison sentence for violators, how that compares to armed robbery sentences, Sanders' decades as a worker protector now turned against individual engineers, the scene of AI engineers clocking in Monday morning unaware their work became a potential federal felony, what it means for every major AI lab's product roadmap, and what businesses running AI tools need to understand now\n\nFor the first time, a sitting US senator is treating AI development as a criminal act on par with nuclear weapons. The political window for unchecked AI development is closing faster than Silicon Valley expected.\n\nRunning a business? DM us \"AI\" and we'll show you what this means for your tools.\n\nSources: Watcher.Guru\n\n#artificialintelligence #AIregulation #BernieSanders #techlaws #AIban",
+ "pinned_comment": "The part we couldn't fit: the bill explicitly compares the 20-year prison sentence to the penalty for unlawfully developing nuclear weapons. Sanders drew a direct line between building superintelligent AI and building a weapon of mass destruction.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "BERNIE SANDERS JUST INTRODUCED A BILL THAT TREATS BUILDING SMARTER-THAN-HUMAN AI THE SAME AS A VIOLENT CRIME: <em>20 YEARS IN PRISON</em>",
+   "BERNIE SANDERS JUST INTRODUCED A BILL THAT WOULD TURN YOUR AI JOB INTO A <em>20-YEAR FEDERAL CRIME</em>",
+   "BERNIE SANDERS, WHO SPENT DECADES FIGHTING BILLIONAIRES, JUST FILED A BILL TO PUT AI DEVELOPERS IN PRISON FOR <em>20 YEARS</em>",
+   "BERNIE SANDERS SPENT 40 YEARS FIGHTING CORPORATIONS AND NOW WANTS TO PUT ENGINEERS <em>IN FEDERAL PRISON FOR 20 YEARS FOR WRITING CODE</em>",
+   "BERNIE SANDERS JUST CALLED FOR A PERMANENT BAN ON SMARTER-THAN-HUMAN AI AND <em>20 YEARS IN PRISON</em> FOR ANYONE WHO BUILDS IT",
+   "IF YOU WORK IN AI, BERNIE SANDERS JUST FILED A BILL PRESCRIBING <em>20 YEARS IN FEDERAL PRISON FOR YOUR JOB</em>",
+   "BERNIE SANDERS JUST INTRODUCED A BILL SETTING THE PENALTY FOR BUILDING AI SMARTER THAN A HUMAN AT <em>20 YEARS IN FEDERAL PRISON</em>",
+   "BUILDING AI SMARTER THAN A HUMAN JUST BECAME A PROPOSED FEDERAL CRIME <em>WITH A 20-YEAR PRISON SENTENCE ATTACHED</em>",
+   "A US SENATOR JUST FILED A BILL MAKING IT ILLEGAL TO BUILD AI SMARTER THAN A HUMAN, <em>SAME PUNISHMENT AS NUCLEAR WEAPONS</em>",
+   "BERNIE SANDERS JUST FILED A BILL TO PERMANENTLY BAN AI SMARTER THAN HUMANS, <em>WITH 20 YEARS IN PRISON FOR BUILDING IT</em>"
+  ],
+  "scores": [
+   7.5,
+   9,
+   7.5,
+   6.5,
+   8,
+   8,
+   7,
+   7.5,
+   0,
+   8.5
+  ],
+  "winner": 1,
+  "why": "[1] hits you with direct personal threat\u2014'YOUR AI JOB' becomes a crime\u2014in one instant read. [9] covers both penalties comprehensively but loses by speaking to a generic 'anyone' instead of making you feel personally targeted."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "BERNIE SANDERS JUST INTRODUCED A BILL THAT WOULD TURN YOUR AI JOB INTO A <em>20-YEAR FEDERAL CRIME</em>",
+   "IF YOU WORK IN AI, BERNIE SANDERS JUST FILED A BILL MAKING IT <em>A 20-YEAR FEDERAL CRIME</em>",
+   "THE MAN WHO RAN FOR PRESIDENT TWICE TO PROTECT WORKERS JUST FILED A BILL MAKING <em>YOUR AI JOB A 20-YEAR FELONY</em>",
+   "BERNIE SANDERS JUST INTRODUCED A BILL TO <em>PERMANENTLY BAN SMARTER-THAN-HUMAN AI</em> AND JAIL ITS BUILDERS FOR <em>20 YEARS</em>"
+  ],
+  "scores": [
+   6,
+   6.5,
+   7.5,
+   7
+  ],
+  "winner": 2,
+  "why": "[2]'s irony is the gut-punch: Bernie the worker protector criminalizing AI jobs creates instant 'wait WHAT?' shock. [3] has bigger facts but reads like a press release, not an emotional hit."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Bernie Sanders",
+  "actor_known": true,
+  "anchor": "Bernie Sanders",
+  "specifics": [
+   "20 years in federal prison for building AI smarter than a human",
+   "Permanent ban \u2014 not a pause, not a moratorium",
+   "Real US Senate bill, introduced September 3, 2026",
+   "Bernie Sanders \u2014 the same senator who ran for president twice on taxing the rich \u2014 is now the face of AI criminalization"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Senator Bernie Sanders introduces bill to permanently ban AI that exceeds human intelligence. Violators would face up to 20 years in prison.",
+  "link": "https://x.com/WatcherGuru/status/2095567788051984638",
+  "judge_interest": 6,
+  "scout_score": 135.0
+ },
+ "gate_a_relaxed": true
+}
