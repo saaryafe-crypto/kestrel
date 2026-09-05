@@ -1,146 +1,194 @@
 {
- "updated": "2026-09-04T12:08:08+00:00",
+ "updated": "2026-09-05T12:08:25+00:00",
  "competitor_hits": [
   {
    "page": "wired",
-   "likes": 8059,
-   "ratio": 6.13,
+   "likes": 18000,
+   "ratio": 16.24,
    "tier": "mega",
    "hook": "\"When the life simulation game Paralives was released in early access, Danielle Udogaranya\u2019s (@ebonixsims) hand ached at the thought of making new Black hairstyles for it. Udogaranya, better known as Ebonix, has spent ov",
    "date": "2026-09-03"
   },
   {
    "page": "wired",
-   "likes": 4390,
-   "ratio": 3.34,
+   "likes": 11000,
+   "ratio": 9.92,
    "tier": "mega",
-   "hook": "\"In a bid to tackle alleged voter fraud, ICE is preparing to award a contract worth up to $5 million to a company that will create a massive national database of voters.\n\nICE first detailed what the contract would entail",
-   "date": "2026-09-02"
-  },
-  {
-   "page": "technology",
-   "likes": 42000,
-   "ratio": 2.0,
-   "tier": "mega",
-   "hook": "\"China is putting scientists on giant public screens across malls, metro stations and major buildings, giving scientific pioneers the kind of visibility usually reserved for commercial campaigns \ud83c\udde8\ud83c\uddf3\ud83d\udd2c\n\nThe idea gained atte",
-   "date": "2026-09-02"
+   "hook": "\"Did you buy a beanie from REI recently? The Department of Homeland Security might be looking for you.\n\nNew court filings allege that Homeland Security Investigations agents subpoenaed the outdoor retailer in March, requ",
+   "date": "2026-09-04"
   },
   {
    "page": "wired",
-   "likes": 2313,
-   "ratio": 1.76,
+   "likes": 5592,
+   "ratio": 5.04,
    "tier": "mega",
-   "hook": "\"Maybe the logical end point of AI job interviews is two bots talking to each other. \n\nChristopher\u2014who asked that WIRED use his first name as his job hunt continues\u2014was so sick of being ghosted by AI recruiters that he u",
-   "date": "2026-09-02"
-  },
-  {
-   "page": "mashable",
-   "likes": 641,
-   "ratio": 1.4,
-   "tier": "mega",
-   "hook": "\"How do you handle working with a legend? Robert De Niro gives his best advice on beating imposter syndrome, even when sharing the screen with icons like him.\u2060\n\u2060\n#actors #hollywood #streaming #robertdeniro\".",
-   "date": "2026-09-02"
-  },
-  {
-   "page": "technology",
-   "likes": 21000,
-   "ratio": 1.0,
-   "tier": "mega",
-   "hook": "\"Apple\u2019s iPhone 18 Pro could arrive in Black, Sky Blue and Dark Cherry, according to the latest color leak ahead of its September 9 event \ud83d\udcf1\ud83c\udfa8\n\nThe latest report from leaker Fixed Focus Digital suggests Apple has settled o",
-   "date": "2026-09-02"
+   "hook": "\"The world\u2019s leading weather organization is sounding the alarm about this year\u2019s super El Ni\u00f1o, issuing its most certain forecast in the history of the organization.\n\nIn an update issued early Thursday, the World Meteor",
+   "date": "2026-09-04"
   },
   {
    "page": "wired",
-   "likes": 1315,
-   "ratio": 1.0,
+   "likes": 1514,
+   "ratio": 1.37,
    "tier": "mega",
    "hook": "\"Christopher Sweet, an affiliate of the so-called Department of Government Efficiency, requested college credit for his time in government, according to new documents obtained by a Freedom of Information Act request file",
    "date": "2026-09-03"
   },
   {
    "page": "technology",
-   "likes": 16000,
-   "ratio": 0.76,
+   "likes": 2677,
+   "ratio": 1.31,
    "tier": "mega",
-   "hook": "\"NVIDIA\u2019s DLSS 5 is already becoming a major talking point in PC gaming as modders test its neural rendering technology far beyond officially supported titles \ud83c\udfae\ud83e\udde0\n\nThe biggest change is that DLSS is moving beyond simply i",
-   "date": "2026-09-03"
+   "hook": "\"Experimental DLSS 5 tests are giving GTA 5\u2019s characters dramatically different faces, with richer skin detail, lighting and materials making the 2013 game look surprisingly modern.\n\nNVIDIA\u2019s DLSS 5 uses real-time neural",
+   "date": "2026-09-05"
+  },
+  {
+   "page": "technology",
+   "likes": 2541,
+   "ratio": 1.25,
+   "tier": "mega",
+   "hook": "\"Pelican is a driving-focused navigation app that maps known security cameras nearby and estimates the areas they may cover, without showing camera footage to users. \n\nBuilt by Jeff Verkoeyen, a former Google Maps design",
+   "date": "2026-09-05"
   },
   {
    "page": "wired",
-   "likes": 878,
-   "ratio": 0.67,
+   "likes": 1237,
+   "ratio": 1.12,
+   "tier": "mega",
+   "hook": "\"As students head back to school, parents have all the usual worries about their kids, like remembering to pack lunch and making it to the bus stop on time. But parents of immunocompromised kids have a new one: How to de",
+   "date": "2026-09-04"
+  },
+  {
+   "page": "wired",
+   "likes": 980,
+   "ratio": 0.88,
    "tier": "mega",
    "hook": "\"OpenAI announced Thursday the launch of its next generation AI model, GPT-6 Astra, which the company claims is state of the art at navigating computers and web browsers, writing software, and solving difficult math prob",
    "date": "2026-09-03"
   },
   {
    "page": "wired",
-   "likes": 631,
-   "ratio": 0.48,
+   "likes": 843,
+   "ratio": 0.76,
+   "tier": "mega",
+   "hook": "\"Since the dawn of Silicon Valley, there\u2019s been a widespread perception that San Francisco is, put gently, not exactly a dating mecca.\n\nThe city famously has a skewed male-to-female ratio (per census data, there are abou",
+   "date": "2026-09-04"
+  },
+  {
+   "page": "technology",
+   "likes": 1538,
+   "ratio": 0.75,
+   "tier": "mega",
+   "hook": "\"A Chinese engineer took gaming immersion to another level by building a custom Call of Duty rig that physically reacts to what happens inside the game.\n\nThe setup uses game data to trigger effects such as recoil, wind, ",
+   "date": "2026-09-05"
+  },
+  {
+   "page": "wired",
+   "likes": 811,
+   "ratio": 0.73,
+   "tier": "mega",
+   "hook": "\"A startup called Mostik has a wild new approach to combining the capabilities of AI models that could have huge implications for frontier labs like Anthropic or OpenAI.\n\nFor more like this, subscribe to Will Knight\u2019s \u201cA",
+   "date": "2026-09-04"
+  },
+  {
+   "page": "wired",
+   "likes": 743,
+   "ratio": 0.67,
    "tier": "mega",
    "hook": "\"Flock Safety\u2019s latest search tools give police several ways to find people on camera, not just the license plates on their cars. The capabilities sit inside a suite of software now at the center of dozens of police-stal",
    "date": "2026-09-03"
   },
   {
-   "page": "futurism",
-   "likes": 1167,
-   "ratio": 0.47,
-   "tier": "mega",
-   "hook": "\"Not immediately jumping on the AI bandwagon like everyone else is? It says something that Chili\u2019s doing this\u2014 yes, the casual dining chain with the big red pepper logo \u2014 is being seen as shrewd decision making and not j",
-   "date": "2026-09-02"
-  },
-  {
-   "page": "wired",
-   "likes": 483,
-   "ratio": 0.37,
-   "tier": "mega",
-   "hook": "\"Pangram is an AI startup with 24 employees, headquartered above a Popeyes in Brooklyn. And, if it\u2019s to be believed, it\u2019s the one force standing in the way of a full machine takeover of the written word.\n\nPangram promise",
-   "date": "2026-09-02"
-  },
-  {
    "page": "technology",
-   "likes": 6211,
-   "ratio": 0.3,
+   "likes": 1300,
+   "ratio": 0.64,
    "tier": "mega",
-   "hook": "\"PlayStation just revealed two limited-edition GTA VI DualSense controllers, bringing Vice City\u2019s signature colors, palm trees and neon-inspired aesthetic directly to the PS5 \ud83c\udfae\ud83c\udf34\n\nBoth controllers come in Black and White,",
-   "date": "2026-09-03"
+   "hook": "\"Shield AI\u2019s X-BAT is an AI piloted VTOL fighter aircraft designed to operate without relying on traditional runways or conventional airbase infrastructure.\n\nShield AI says the aircraft is designed for a range above 2,00",
+   "date": "2026-09-05"
   },
   {
    "page": "techcrunch",
-   "likes": 41,
-   "ratio": 0.29,
+   "likes": 81,
+   "ratio": 0.61,
    "tier": "mega",
-   "hook": "\"What does AI say about your startup? \ud83d\udc40\n\nInvestors can ask an LLM about your company in seconds \u2014 and Dr. Eike Gerhardt says founders should be thinking about what answer they'll get.\n\nOn the latest episode of Build Mode",
-   "date": "2026-09-03"
+   "hook": "\"Nvidia has the chips, the cash, and now a growing collection of bets across the AI stack from Hugging Face to MediaTek. So why does everyone keep sidling up to Nvidia?\n\nThe Equity podcast team digs into what the company",
+   "date": "2026-09-04"
   },
   {
    "page": "futurism",
-   "likes": 658,
-   "ratio": 0.26,
+   "likes": 1158,
+   "ratio": 0.53,
+   "tier": "mega",
+   "hook": "\"While most of the vandals ripping down automatic license plate readers prefer to go incognito, an Albuquerque character named Jevon Martinez isn\u2019t afraid to show his face.\n\nWeeks after Bernalillo County officials cancel",
+   "date": "2026-09-04"
+  },
+  {
+   "page": "technology",
+   "likes": 945,
+   "ratio": 0.46,
+   "tier": "mega",
+   "hook": "\"OpenAI\u2019s GPT-6 Astra pushes ChatGPT further toward operating a computer directly, handling complex tasks across computer use, browsing, coding and professional workflows.\n\nThe system can work through multi step tasks on",
+   "date": "2026-09-05"
+  },
+  {
+   "page": "wired",
+   "likes": 508,
+   "ratio": 0.46,
+   "tier": "mega",
+   "hook": "\"This week on Uncanny Valley, we dig into the latest prediction market buzz and examine how the former US representative George Santos was fined more than $71,000 for allegedly attempting to manipulate the prediction mar",
+   "date": "2026-09-04"
+  },
+  {
+   "page": "futurism",
+   "likes": 876,
+   "ratio": 0.4,
    "tier": "mega",
    "hook": "\"New York City just instituted a sweeping ban on schools using AI in the classroom through the start of high school, along with other restrictions on the technology.\n\nMayor Zohran Mamdani announced the one-year moratoriu",
    "date": "2026-09-03"
   },
   {
+   "page": "techcrunch",
+   "likes": 53,
+   "ratio": 0.4,
+   "tier": "mega",
+   "hook": "\"What does AI say about your startup? \ud83d\udc40\n\nInvestors can ask an LLM about your company in seconds \u2014 and Dr. Eike Gerhardt says founders should be thinking about what answer they'll get.\n\nOn the latest episode of Build Mode",
+   "date": "2026-09-03"
+  },
+  {
+   "page": "technology",
+   "likes": 709,
+   "ratio": 0.35,
+   "tier": "mega",
+   "hook": "\"Red Bull turned Japan\u2019s Mount Iwaki into a celebration of drifting and JDM culture, with Kalle Rovanper\u00e4 taking on the mountain\u2019s famous 69 turns.\n\nThe production brought together cars including the Nissan Skyline R34, ",
+   "date": "2026-09-05"
+  },
+  {
+   "page": "technology",
+   "likes": 688,
+   "ratio": 0.34,
+   "tier": "mega",
+   "hook": "\"In 1938, Rudolf Caracciola drove the streamlined Mercedes-Benz W 125 Rekordwagen to 432.7 km/h on a public road, creating a record that survived for decades.\n\nThe purpose built machine combined extreme aerodynamics with",
+   "date": "2026-09-05"
+  },
+  {
    "page": "mashable",
-   "likes": 82,
-   "ratio": 0.18,
+   "likes": 98,
+   "ratio": 0.3,
    "tier": "mega",
    "hook": "\"We won an auction for a 20-year-old unsealed iPod just to see it in person. But it's not going on a shelf. We intend to put it to WORK. What songs should we put on it first?\".",
    "date": "2026-09-03"
   },
   {
-   "page": "technology",
-   "likes": 700,
-   "ratio": 0.03,
+   "page": "mashable",
+   "likes": 31,
+   "ratio": 0.1,
    "tier": "mega",
-   "hook": "\"This vintage commercial shows a classic Nissan Patrol charging through deep water and apparently pulling a stranded vehicle ferry toward the riverbank.\n\nThe footage fits the rugged image Nissan built around earlier Patr",
-   "date": "2026-09-04"
+   "hook": "\"At this point, we should almost let the fans write on the show. \u2060\n\u2060\nHead to the link in bio for the full interview.\u2060\n#adults #adultsfx #adultshulu\".",
+   "date": "2026-09-05"
   },
   {
    "page": "mashable",
-   "likes": 14,
-   "ratio": 0.03,
+   "likes": 17,
+   "ratio": 0.05,
    "tier": "mega",
    "hook": "\"You're telling me they did basic prep and then dropped the actors on a mountain???\u2060\n\u2060\nHead to the link in bio to watch the full interview (and learn if they had any extra training).\".",
    "date": "2026-09-03"
