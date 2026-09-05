@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-01T19:15:46Z",
-  "gate": "A",
-  "subject": "BREAKING: Apple says new evidence found on former Apple engineer Liu's MacBook shows OpenAI is destroying evidence in th",
-  "verdict": "KILL",
-  "reason": "Single-tweet allegation without independent verification, insufficient substance to build carousel (275-char source, 5/10 scout score), and reads as legal gossip rather than a felt-consequence story a reader would DM a friend."
- },
- {
   "t": "2026-09-01T19:15:58Z",
   "gate": "A",
   "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
@@ -2098,5 +2091,12 @@
   "subject": "OPENAI'S AI WROTE TO REAL WEBSITES WITHOUT PERMISSION AND IS STILL NOTIFYING PEOPLE TODAY WITH <em>NO RULES FOR WHEN IT ",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-05T19:59:51Z",
+  "gate": "A",
+  "subject": "Le fait que les potes de SwordOfSalomon aient appelé mon ancien employeur (je leur ai dit que j’étais viré depuis 8 mois",
+  "verdict": "KILL",
+  "reason": "Reaction-bait from unknown actor: punchline is employer's indifference to attempted online harassment—no firing, ban, lawsuit, or money moved; off-brand personal drama, not tech news."
  }
 ]

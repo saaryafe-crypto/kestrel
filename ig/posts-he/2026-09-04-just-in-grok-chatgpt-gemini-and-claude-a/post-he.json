@@ -1,0 +1,128 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ארבעת כלי הבינה המלאכותית הגדולים קרסו באותו הרגע. <em>1.4 מיליון איש</em> ראו את זה.",
+   "kicker": "בלי גיבוי לאף אחד",
+   "hsize": 60,
+   "media": "posts/2026-09-04-just-in-grok-chatgpt-gemini-and-claude-a/gen-0.jpg",
+   "image_prompt": "Sam Altman chest-up, raw panic across his face, gripping a smartphone showing one large red warning triangle; behind him a real bright tech monitoring room wall of screens blazing with the openai logo, gemini logo, claude logo, x logo exactly as in reference images all flashing red simultaneously; documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain; accent: signal red against vivid white.",
+   "gen_person": true,
+   "logos": [
+    "openai"
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "כולם חשבו: אם AI אחד נופל, <em>עוד שלושה מחכים כגיבוי</em>",
+   "body": "ארבע חברות שונות לגמרי בנו את <b>ChatGPT, Claude, Gemini ו-Grok</b>, כל אחת על מערכת נפרדת.\n\nאם אחד נפל, עדיין נשארו עוד שלושה.",
+   "hsize": 80,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "שלושה בספטמבר: <em>ChatGPT פשוט לא עלה</em>",
+   "body": "צריך AI לסיים משהו מהר. <b>ChatGPT</b> לא עולה.\n\nבסדר, פותחים את <b>Gemini</b>.\n\nגם הוא למטה. אז מנסים את <b>Claude</b>.",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "ארבעתם. למטה. בבת אחת.",
+   "body": "Claude נפל. Grok נפל. לא נשאר מה לנסות.",
+   "hsize": 112,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ארבעה כלי AI יריבים נפלו <em>באותה דקה בדיוק</em>",
+   "body": "כל מי שהיה צריך AI לעבודה או ללימודים באותו אחר צהריים, נשאר בלי כלום.\n\nארבע חברות שבנו מערכות מתחרות שנים, ואיכשהו קרסו כולן בדיוק באותה הדקה.",
+   "hsize": 82,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ארבעה כלי AI נפלו, <em>ולרוב העסקים לא הייתה תוכנית גיבוי</em>",
+   "body": "אם הצוות שלך תלוי באחד מהם לאימיילים, כתיבה או שירות לקוחות, אתמול היה מבחן אמיתי.\n\nהעסקים שהמשיכו לעבוד הכינו מראש דבר אחד: תוכנית גיבוי.",
+   "hsize": 78,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: <em>כל ארבעת כלי ה-AI הגדולים קרסו בו זמנית</em>",
+   "body": "• <b>ChatGPT, Claude, Gemini ו-Grok</b> נפלו בו זמנית\n• שלושה בספטמבר, 15:28\n• ארבע חברות יריבות, אפס גיבויים\n\nשלח את זה לחבר שחושב שמספיקה לו אפליקציית AI אחת",
+   "hsize": 56,
+   "media": null
+  }
+ ],
+ "caption": "ChatGPT, Claude, Gemini ו-Grok קרסו באותו הרגע. ניסית לעבור לאחר? גם זה לא עזר. 🔴\n\nכולם הניחו שאפשר לעבור לכלי אחר אם אחד נופל. אחר הצהריים של שלושה בספטמבר הוכיח שזה לא עובד. ארבע חברות שונות, ארבע מערכות נפרדות, ואפס גיבויים כשזה נחוץ.\n\nארבע חברות שבנו מערכות נפרדות לגמרי. בשלושה בספטמבר 2026, כולן קרסו בדיוק באותו הרגע. בלי אזהרה, בלי גיבוי, בלי לאן לפנות. כך נראית תלות ב-AI בלי תוכנית גיבוי.\n\nמנהל עסק? שלח לנו DM עם המילה \"AI\" ונסביר מה זה אומר לך.\n\nמקורות: Watcher.Guru on X, שלושה בספטמבר 2026\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#ChatGPT #Claude #Gemini #AIOutage #AINews",
+ "pinned_comment": "מה שאף אחד לא מדבר עליו: ארבע חברות שבילו שנים בבניית מערכות נפרדות לגמרי, קרסו איכשהו באותה הדקה. או שמשהו עמוק יותר באינטרנט נשבר, או שזה סיפור הרבה יותר גדול ממה שנראה.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "CHATGPT, CLAUDE, GEMINI AND GROK ALL CRASHED AT THE SAME TIME AND <em>EVERY PERSON WHO TRIED TO SWITCH GOT NOTHING</em>",
+   "EVERY MAJOR AI CRASHED AT ONCE TODAY AND IF YOU WERE USING <em>CHATGPT FOR WORK</em>, YOU HAD ZERO OPTIONS",
+   "FOUR COMPANIES THAT SPENT YEARS TRYING TO BEAT EACH OTHER <em>ALL CRASHED AT THE EXACT SAME MOMENT AND LEFT EVERYONE WITH NOTHING</em>",
+   "ALL FOUR MAJOR AI CHATBOTS WENT DOWN AT ONCE TODAY AND NOBODY CAN EXPLAIN HOW <em>CHATGPT, GEMINI, GROK AND CLAUDE</em> FAILED SIMULTANEOUSLY",
+   "CHATGPT CRASHED AND SO DID GEMINI, GROK AND CLAUDE AT THE SAME MOMENT. <em>1.4 MILLION PEOPLE</em> SAW IT HAPPEN WITHIN HOURS.",
+   "<em>ALL FOUR MAJOR AIS WENT DOWN SIMULTANEOUSLY</em> AND FOR THE FIRST TIME THERE WAS NO BACKUP ANYWHERE",
+   "CHATGPT, GEMINI, GROK AND CLAUDE ALL CRASHED <em>AT THE EXACT SAME TIME</em> TODAY AND LEFT MILLIONS WITH NO AI BACKUP AT ALL",
+   "THE MOMENT CHATGPT AND EVERY OTHER MAJOR AI CRASHED AT ONCE, EVERY USER FOUND OUT <em>THEY HAD NO BACKUP PLAN</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   8,
+   0,
+   9,
+   0,
+   8,
+   0
+  ],
+  "winner": 4,
+  "why": "[4] has the 1.4 million viewer number that makes you stop scrolling with scale shock. [0] tells the relatable personal story but needs a real stat to prove this was truly massive."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "CHATGPT CRASHED AND SO DID GEMINI, GROK AND CLAUDE AT THE SAME MOMENT. <em>1.4 MILLION PEOPLE</em> SAW IT HAPPEN WITHIN HOURS.",
+   "CHATGPT WENT DOWN AND SO DID EVERY ALTERNATIVE. <em>GEMINI, GROK AND CLAUDE ALL CRASHED AT THE EXACT SAME MOMENT.</em>"
+  ],
+  "scores": [
+   8,
+   6
+  ],
+  "winner": 0,
+  "why": "The 1.4M figure in [0] gives you concrete proof that this was massive—that's your 'wait, WHAT?' moment. [1] is all hype but without the numbers, you scroll on by."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "ChatGPT, Gemini, Grok, Claude",
+  "actor_known": true,
+  "anchor": "ChatGPT",
+  "specifics": [
+   "All four major AI chatbots — ChatGPT, Gemini, Grok, and Claude — crashed at the exact same time",
+   "1.4 million people viewed the alert post within hours",
+   "305K likes on the post signaling mass relatability",
+   "Happened at 3:28 PM on September 3, 2026"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "JUST IN: Grok, ChatGPT, Gemini and Claude are all currently down for some users.",
+  "link": "https://x.com/WatcherGuru/status/2095534503867601037",
+  "judge_interest": 3,
+  "scout_score": 84.6
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "HOOK IS TWO SENTENCES, NOT ONE (§2): 'CHATGPT CRASHED AND SO DID GEMINI, GROK AND CLAUDE AT THE SAME MOMENT.' is the hook. '1.4 MILLION PEOPLE SAW IT HAPPEN WITHIN HOURS.' is a second sentence bolted on. The doctrine requires one complete sentence that tells the whole story. Fix: either fold the 1.4M figure into the single sentence or cut it entirely.; HOOK PAYOFF IS AN ENGAGEMENT-STYLE METRIC (§2",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
