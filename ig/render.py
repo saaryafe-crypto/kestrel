@@ -398,7 +398,7 @@ def discs_html(s):
     return out
 
 
-def slide_html(s, total, fallback_media=None):
+def slide_html(s, total):
     css = (CSS.replace("FONTS", HERE + "/fonts").replace("ARTPATH", HERE + "/art")
               .replace("SIZE", str(s.get("hsize", 100))))
     media = os.path.join(HERE, s["media"]) if s.get("media") else None
@@ -534,10 +534,11 @@ def slide_html(s, total, fallback_media=None):
     if media:  # full-bleed photo feathered into black — connected, never a cropped card
         bg = (f'<div class="bgblur" style="background-image:url(\'{media}\')"></div>'
               f'<div class="bleed" style="background-image:url(\'{media}\')"></div><div class="shade"></div>')
-    elif fallback_media:  # no own photo: cover's photo blurred deep as texture, so the
-        fm = os.path.join(HERE, fallback_media)   # slide is never a dead-black void (Jul 31)
-        bg = f'<div class="bgblur" style="background-image:url(\'{fm}\')"></div>'
     else:
+        # plain crisp black card (owner Sep 4, Bernie post-mortem: FIVE inner
+        # slides recycled the cover photo as the same murky orange blur — the
+        # reference page's no-photo slides are clean dark text cards, and the
+        # old "never a dead-black void" blur read as one long smear)
         bg = ""
     return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="content{nomedia}">
@@ -572,11 +573,9 @@ def render(post_path, out_dir):
         if m and not os.path.exists(os.path.join(HERE, m)):
             raise SystemExit(f"slide {n} media missing on disk: {m} — refusing "
                              "to render a black slide; fix the upstream image step")
-    # first available photo in the post backs imageless slides as a deep blur
-    fallback = next((s.get("media") for s in slides if s.get("media")), None)
     for n, s in enumerate(slides, 1):
         with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f:
-            f.write(slide_html(s, len(slides), fallback))
+            f.write(slide_html(s, len(slides)))
         png = os.path.join(out_dir, f"slide-{n}.png")
         subprocess.run([CHROME, "--headless", "--disable-gpu", f"--screenshot={png}",
                         "--window-size=1080,1350", "--hide-scrollbars",

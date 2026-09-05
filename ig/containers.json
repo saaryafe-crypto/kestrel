@@ -15,9 +15,9 @@
     "daily_item": {
       "role": "volume",
       "cadence": "4-5x daily",
-      "slides": "cover(story hook) + question-chain payload + pivot + cta (4-10 total — the chain decides, never pad)",
+      "slides": "cover(story hook) + question-chain payload + pivot + cta (4-6 total, 7 only when the story truly demands it — the reference page tells bigger stories in 4; never pad)",
       "cover_rule": "Single story: hook headline; if source video exists it is slide 2 as native video and cover swipe reads FULL VIDEO NEXT. One CTA only.",
-      "payload_rule": "QUESTION CHAIN: the cover plants a question; every next slide answers exactly that question (big statement headline + precise-details body) and plants the next one. Slide 2 doubles as SECOND COVER (IG re-serves skipped carousels with slide 2 as cover — must hook standalone). Bodies: SPOKEN VOICE (punch, plain-words explanation, kicker) with each slide adding ONE new fact in bold — never a stat wall, never finance-wire vocabulary. Then the VALUE slide ($100M Offers rules: owner's pain first, then the escape with a concrete number, minimal-effort framing, never price) — the consulting funnel lives here."
+      "payload_rule": "QUESTION CHAIN: the cover plants a question; every next slide answers exactly that question (big statement headline + precise-details body) and plants the next one. Slide 2 doubles as SECOND COVER (IG re-serves skipped carousels with slide 2 as cover — must hook standalone). Bodies: SPOKEN VOICE (punch, plain-words explanation, kicker) with each slide adding ONE new fact in bold — never a stat wall, never finance-wire vocabulary. Then the VALUE slide ($100M Offers rules: owner's pain first, then the escape with a concrete number, minimal-effort framing, never price) — the consulting funnel lives here. THE FACTS STACK (owner Sep 4, @technology anatomy): exactly ONE inner slide is the stack — its body is the story's 3-4 hardest secondary facts, each on its OWN line (\\n between lines), max 8 words per line, the number in each line accented. It reads in 3 seconds and is the slide people save; every other slide keeps the spoken-voice body."
     },
     "builder_story": {
       "role": "inspiration",

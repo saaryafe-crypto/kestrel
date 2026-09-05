@@ -252,7 +252,8 @@ def _brighten(path, floor):
         return -1
 
 
-def image_score(path, headline, generated=False, person=False, cover=False):
+def image_score(path, headline, generated=False, person=False, cover=False,
+                collage=False):
     """Vision judge for slide images. Returns (usable, score 0-10, flaw).
     usable = publish as-is; the score ranks sibling attempts (owner rule
     Jul 29: never generate forever — cap the spend and take the BEST of what
@@ -266,7 +267,11 @@ def image_score(path, headline, generated=False, person=False, cover=False):
     # A cover whose average pixel is below 80 is too dark to stop a scroll;
     # the brief must be rewritten brighter.  Inner slides get a softer floor.
     if generated:
-        floor = 80 if cover else 60
+        # collage covers (Sep 4 brutal format) run dark saturated backdrops
+        # behind a bright cutout subject — the reference page's Bernie cover
+        # meters well under 80. Mean brightness is the wrong murk metric for
+        # them; keep a lower floor so genuinely black failures still die.
+        floor = 65 if collage and cover else 80 if cover else 60
         brightness = _image_brightness(path)
         if 0 <= brightness < floor:
             # free salvage first — only images that stay dark after a real
@@ -281,13 +286,24 @@ def image_score(path, headline, generated=False, person=False, cover=False):
                   file=sys.stderr)
             return False, 1, f"too dark (brightness {brightness:.0f}/255, need {floor}+)"
     clean = re.sub(r"</?em>", "", headline)
+    # BRUTAL COLLAGE MODE (owner order Sep 4, measured from the reference
+    # page's Bernie cover): news covers are graded breaking-news COLLAGES —
+    # real-photo cutout subject over oversized symbolic props. The photograph
+    # gate would kill exactly that format ("not a photo of a real place"), so
+    # collage covers swap it for a photoreal-elements gate; the real-world
+    # gate (anti-floating-symbols) is likewise the format now and drops.
+    photo_gate = (
+        'COLLAGE GATE (owner order Sep 4, FIRST CHECK — news covers are breaking-news COLLAGES: a real-photo cutout subject over oversized symbolic props with a heavy saturated grade, exactly like the biggest viral tech pages): the frame being a COMPOSED collage with symbolic props floating behind the subject is CORRECT — never fail it for being a composite or non-literal. What DOES fail: any element drawn as cartoon, anime, illustration, 3D render or concept art instead of photorealistic = usable:false, flaw "cartoon element, not photoreal"; a waxy AI-invented likeness sold as a real person = usable:false; props too small, cluttered or ambiguous to read at phone-thumbnail size = usable:false. Grade the collage on: crisp cutout edges, ONE dominant subject, 2-3 oversized props each readable in half a second, very high saturation and contrast. '
+        if collage else
+        'PHOTOGRAPH GATE (owner order Sep 3, FIRST CHECK, GENERATED images only — an illustrated knight and a cartoon game-world background both shipped in one day and the owner called them "the baddest quality ever"): this page publishes PHOTOGRAPHS. If the frame — outside the display of a real screen shown inside the scene — reads as illustration, cartoon, anime, 3D game render, concept art, or a fantasy/digital world instead of a photograph of a real physical place, it is usable:false, score 1-2, flaw "illustration, not a photograph". No concept, no composition, and no brand mark can save a non-photograph. ')
     face_gate = (
-        'PHOTOGRAPH GATE (owner order Sep 3, FIRST CHECK, GENERATED images only — an illustrated knight and a cartoon game-world background both shipped in one day and the owner called them "the baddest quality ever"): this page publishes PHOTOGRAPHS. If the frame — outside the display of a real screen shown inside the scene — reads as illustration, cartoon, anime, 3D game render, concept art, or a fantasy/digital world instead of a photograph of a real physical place, it is usable:false, score 1-2, flaw "illustration, not a photograph". No concept, no composition, and no brand mark can save a non-photograph. '
+        photo_gate +
         'FACE GATE (owner rule Aug 1, GENERATED images only — unfamiliar AI faces convert badly): if a human face is prominent, it must read as a RECOGNIZABLE famous person; a generic invented face nobody would recognize = usable:false, flaw "unfamiliar generated face". Faceless people (from behind, silhouette, hands) are fine. '
         'CAST TRUTH GATE (owner post-mortem Aug 10, the Sam Altman content-vendor cover): if the prominent face IS a recognizable famous person but that person has NO role in this exact headline\'s story — their company or product is not what the headline is about, they are decoration on a generic topic = usable:false, flaw "famous face unrelated to the story". EXCEPTION 1: on an inspirational or entrepreneurial claim, a famous founder shown in their KNOWN iconic moment that embodies the headline (young Zuckerberg coding in a dorm for a build-from-nothing promise) IS connected and passes. EXCEPTION 2 — THE VENDOR CAST (owner references Aug 12, the page\'s signature move): on a guide/how-to about using a famous tool, that tool vendor\'s famous CEO shown AS THE TOOL\'S OWN USER — mid-doing the guide\'s exact action with its real prop (Dario Amodei holding his own resume for a Claude-resume guide, Sundar Pichai showering Gemini sparks for a free-Gemini story) — IS connected and passes; grade it on shock and craft, not on the cast. '
         'CLICK GATE (owner order Aug 3, GENERATED images only — a retry is cheap, wallpaper is not): the image alone must make a scroller feel they NEED to know what is happening — a caught moment, visible tension, peak emotion. A calm, posed, or neutral scene that raises no question = usable:false, flaw "no pull, nothing happening". '
         'BACKGROUND THUMB TEST (owner Aug 3, GENERATED images only): mentally cover the main subject with a thumb — the background alone should still hint what the story is about (its world, its stakes). A background that is an empty void, generic decoration, or a world that belongs to a DIFFERENT story than the headline = subtract points and name it as the flaw. '
-        'REAL WORLD GATE (owner Aug 3, the Mario emoji-wall cover): the scene must be a plausible photographic world. A background built from floating emoji, cartoon icons, logos, or symbol wallpaper reads as cheap AI slop = usable:false, flaw "cartoon prop background". '
+        + ('' if collage else 'REAL WORLD GATE (owner Aug 3, the Mario emoji-wall cover): the scene must be a plausible photographic world. A background built from floating emoji, cartoon icons, logos, or symbol wallpaper reads as cheap AI slop = usable:false, flaw "cartoon prop background". ')
+        +
         'MISREAD GATE (owner audit Aug 10, the coffin cover that read as leather violin cases): describe to yourself what each key prop ACTUALLY looks like at phone size, not what it was meant to be — if the scene\'s central symbolic object would be mistaken for something mundane, the concept FAILED on screen = usable:false, flaw names the misread ("coffins read as luggage"). A symbol only counts when it is UNMISTAKABLE in half a second. '
         'STOCK-WALLPAPER GATE (owner Aug 10, the falling-money laptop cover): if the image could be sold as a generic stock photo for its topic — cash raining on a desk, anonymous hands typing, a glowing brain, abstract chart art — it stops nobody = usable:false, flaw "stock wallpaper". '
         'CROP-SURVIVAL GATE (owner Aug 14 — published slides looked "cut in the middle"): the slide displays roughly the TOP SQUARE of this image and fades its bottom fifth into black under the text. Mentally hide the bottom quarter: if the scene still reads complete — faces, key prop and stakes all live in the upper two-thirds — it passes. If anything essential sits in the bottom quarter, or the composition is a full-body/tall scene that needs its lower half to make sense = usable:false, flaw "composed too tall, dies in the crop". '
@@ -531,7 +547,14 @@ THE SITUATION PORTRAIT (owner order Aug 3 — his exact formula, written after t
 
 THE CLAIM BEATS THE TEMPLATE (owner's verdict Aug 1, the courtroom cover): PRODUCT-HERO stages a presentation — but when the winning cover headline claims an EVENT (sued, banned, fired, crashed, copied, leaked, banned), the cover stages THAT EVENT as a literal scene instead, with the named famous person inside it and the product as a prop. Reference: "OPENAI COPIED THE COMPANY SUING THEM" → Sam Altman in a dark suit at the defendant's table of a US courtroom, tense, the white keypad and its white box on the table before him, the OpenAI logo on the courtroom evidence screen behind, American flag at the edge. Think like the viewer: the picture must make them say "that is exactly what the headline says" — person, event-world, product and brand all connected in one intuitive frame.
 
-FORMAT — every prompt contains these five parts in order (20-45 words total):
+COVER OUTPUT — THE BRUTAL COLLAGE SLOTS (owner order Sep 4, measured from the reference page's Bernie Sanders cover — a real-photo cutout of the person over oversized symbolic props with a heavy saturated grade, the exact same construction every single time; his verdict: "every single thing there is super accurate... we need a brutal format"): the COVER brief is NOT freeform prose. The generator holds a frozen collage scaffold that never changes; your cover brief only fills its four slots. Use ALL the lane thinking above (cast truth, vendor cast, fame bar, stop test) to CHOOSE the slots, then write the cover brief in EXACTLY this form and nothing else:
+SUBJECT: <the legal famous person's full name>, <one peak emotion in 1-3 words>. BACKDROP PROPS: <prop 1>, <prop 2>[, <prop 3>]. PALETTE: <color 1> and <color 2>.
+- The props ARE the story told as 2-3 oversized symbols a thumbnail reads in half a second. Pick by story type: ban/threat → a giant red prohibition circle over the banned thing; money/funding → thick stacks of hundred-dollar bills or a glowing green chart arrow; lawsuit/crime/prison → a wooden gavel, handcuffs or steel bars; launch/release → the product itself huge, or a rocket mid-liftoff; crash/loss → a plunging jagged red chart line. Name each prop concretely and physically ("a giant glowing red prohibition circle over a blue AI microchip", never "symbols of regulation").
+- PALETTE by the story's emotion: threat/ban → red and deep blue; money → green and gold; win/launch → orange and white; crash/scandal → red and black. Two colors, no more.
+- When no face is legal (fame bar fails, no famous actor): SUBJECT: <the story's single hero object at giant scale>, same slots otherwise — never an anonymous human.
+- ZERO text in frame on collage covers — the 1-3 word punchline exception below does NOT apply to the cover; the headline system carries all words.
+- Still return "face" and "logo" fields on the cover exactly as the rules below describe — the real photo and real mark ride as references.
+FORMAT — every INNER-SLIDE and CTA prompt contains these five parts in order (20-45 words total; the cover uses the collage slot form above instead):
 1. HERO: ONE focal subject, concretely named (the real device/brand/person from the headline — or the CLASH-CAST pair as one unit), frozen at the peak of the exact moment — mid-fall, mid-launch, mid-signature. One focal point only; it is the brightest, sharpest thing in frame.
 2. EMOTION — when the story's person is FAMOUS, the hero IS that person's recognizable likeness at 40%+ of frame height, named explicitly, eyes to camera or locked on the story's object, radiating ONE nameable exaggerated emotion (shock, awe, dread, triumph). Name the emotion in the prompt. FAMOUS FACES ONLY (owner rule Aug 1: generated unfamiliar faces = low conversion, no good outcome): if the story's person is not famous enough for a viewer to recognize, NEVER generate a face — show them from behind, as a silhouette, hands-and-props only, or cut them out of frame entirely and let the objects and stakes carry the drama.
 3. STAKES IN FRAME: make the money/scale/damage physically visible — the pile of cash, the wreckage, the crowd, the giant object beside a person for scale. Stakes a viewer can read in half a second.
@@ -953,6 +976,56 @@ def pick_face(face):
     return os.path.relpath(pick, HERE)
 
 
+def fetch_face(name):
+    """Wikipedia portrait fetcher (Sep 4 Bernie post-mortem: 'Bernie Sanders'
+    wasn't in the faces/ pool — all 21 photos are tech CEOs — so the cover
+    fell to a dead no-ref rung and nano DREW Bernie from memory: the waxy
+    fake that started the whole @technology comparison). Any famous person
+    the art director casts now gets their REAL photo from their Wikipedia
+    page image (public figures' lead portraits are freely licensed), cached
+    into faces/<slug>.jpg so pick_face finds it forever after. Identity must
+    come from a real photograph or not at all: any failure here -> None and
+    the caller goes FACELESS — never a memory-drawn face. Requires Pillow
+    (the raw download is normalized to JPEG); no Pillow -> None."""
+    slug = re.sub(r"[^a-z0-9-]", "", name.lower().strip().replace(" ", "-"))
+    if not slug:
+        return None
+    dest = os.path.join(HERE, "faces", f"{slug}.jpg")
+    if os.path.exists(dest):
+        return os.path.relpath(dest, HERE)
+    try:
+        import io
+        import urllib.parse
+        import urllib.request
+        from PIL import Image
+        hdrs = {"User-Agent": "kestrel-ig/1.0 (cover reference fetcher)"}
+        url = ("https://en.wikipedia.org/api/rest_v1/page/summary/"
+               + urllib.parse.quote(name.strip().replace(" ", "_")))
+        with urllib.request.urlopen(urllib.request.Request(url, headers=hdrs),
+                                    timeout=20) as r:
+            data = json.loads(r.read())
+        src = (data.get("originalimage") or data.get("thumbnail") or {}).get("source")
+        # disambiguation/redirect pages carry no trustworthy portrait
+        if not src or data.get("type") != "standard":
+            print(f"face fetch: no Wikipedia portrait for {name}", file=sys.stderr)
+            return None
+        with urllib.request.urlopen(urllib.request.Request(src, headers=hdrs),
+                                    timeout=30) as r:
+            raw = r.read()
+        img = Image.open(io.BytesIO(raw)).convert("RGB")
+        img.thumbnail((1600, 1600))
+        tmp = dest + ".tmp"
+        img.save(tmp, "JPEG", quality=90)
+        os.replace(tmp, dest)  # atomic — parallel slides may fetch the same name
+        print(f"face fetch: Wikipedia portrait for {name} -> faces/{slug}.jpg",
+              file=sys.stderr)
+        return os.path.relpath(dest, HERE)
+    except Exception as e:
+        print(f"face fetch failed for {name} ({e}) — going faceless",
+              file=sys.stderr)
+        return None
+
+
 def split_faces(field):
     """gen_face may carry several people ("Elon Musk, Warren Buffett and Jeff
     Bezos" for a group cover) — split into individual names."""
@@ -972,7 +1045,10 @@ def face_riders(brief, face_field):
     import glob
     refs, ref_names, loose = [], [], []
     for nm in split_faces(face_field or ""):
-        fp = pick_face(nm.lower().replace(" ", "-"))
+        # pool first, then the Wikipedia fetcher (Sep 4 Bernie fix: the pool
+        # is all tech CEOs — any other famous cast used to lose their photo
+        # here and ship scrubbed to "a person" or a memory-drawn face)
+        fp = pick_face(nm.lower().replace(" ", "-")) or fetch_face(nm)
         if fp:
             refs.append(os.path.join(HERE, fp))
             ref_names.append(nm)
@@ -1399,6 +1475,13 @@ def qa(post):
         caption = json.dumps(caption, ensure_ascii=False)
     if not (4 <= len(slides) <= 10):
         errs.append(f"{len(slides)} slides (want 4-10)")
+    # NEWS CAP (owner Sep 4, Bernie post-mortem: our 8 slides vs the
+    # reference page's 4 on the SAME story — every extra slide is a place to
+    # lose the swipe; the chain must earn each one)
+    elif post.get("container") and not profile and len(slides) > 7:
+        errs.append(f"{len(slides)} slides — news posts cap at 7 (aim 4-6): "
+                    "merge the weakest beats, keep only slides that answer "
+                    "the chain's question with a NEW fact")
     if slides[0]["type"] != "cover" or slides[-1]["type"] != "cta":
         errs.append("must open with cover, close with cta")
     for i, s in enumerate(slides):
@@ -1446,6 +1529,19 @@ def qa(post):
                     "replies) — that's coverage of a post, not the story; "
                     "rewrite the beat with a real-world fact (money, scale, "
                     "who did what)")
+    # NAME-FIRST LAW (owner Sep 4, the Bernie post-mortem: the cover riddled
+    # "THE MAN WHO RAN FOR PRESIDENT TWICE..." while the reference page led
+    # with the name). Mechanical backstop to viral.judge's gate: a famous
+    # actor's name must appear in the cover headline. Only fires once the
+    # classifier ran (post["viral"] lands right before the tournament).
+    v = post.get("viral") or {}
+    if post.get("container") and v.get("actor_known") and v.get("actor"):
+        toks = [t for t in re.split(r"\W+", v["actor"]) if len(t) > 2]
+        if toks and not any(re.search(rf"\b{re.escape(t.lower())}",
+                                      cover_plain.lower()) for t in toks):
+            errs.append(f'cover headline never names the famous actor '
+                        f'"{v["actor"]}" — the name IS the scroll-stopper; '
+                        "put it in the first 6 words (name-first law)")
     # kicker strip (forensic Aug 2): one tiny second beat, plain text only
     kick = re.sub(r"<[^>]+>", "", slides[0].get("kicker") or "").strip()
     if kick and not (3 <= len(kick.split()) <= 8):
@@ -1585,6 +1681,25 @@ def qa(post):
             if bw > 7:
                 errs.append(f"slide {b+1}: break headline is {bw} words — one "
                             "giant number or a ≤6-word statement, nothing else")
+    # THE FACTS STACK (owner Sep 4, @technology anatomy: their Bernie post
+    # carried one slide that stacked the bill's hard numbers as short
+    # scannable lines — the save-worthy slide ours never had). Every news
+    # post carries exactly one: an inner slide whose body is 3-4 stacked
+    # lines (own line each via \n), each ONE hard fact, max 8 words.
+    if post.get("container") and not profile:
+        def _stack(s):
+            lines = [l.strip() for l in
+                     re.sub(r"<[^>]+>", "", s.get("body") or "").split("\n")
+                     if l.strip()]
+            return (len(lines) >= 3
+                    and all(len(l.lstrip("•- ").split()) <= 8 for l in lines))
+        if not any(_stack(s) for s in slides[1:-1]
+                   if s["type"] == "content" and s.get("layout") not in
+                   ("break", "card")):
+            errs.append("no facts-stack slide — ONE inner content slide must "
+                        "stack the story's 3-4 hardest facts as short lines "
+                        "(\\n between them, max 8 words each, the number in "
+                        "each line accented); it is the slide people save")
     # BODY STRUCTURE (owner order Aug 22): bodies must be organized and
     # scannable — a dense unbroken wall of text with no line breaks is a
     # failure. Skill slides (proof + prompt) need at least one blank line;
@@ -1794,14 +1909,14 @@ def main(stories_path):
         nonlocal gen, cover_scored, cover_brief
         brief = s.pop("image_brief", "").strip()
         want_ref = s.pop("gen_ref", False) and ref_photo
-        # PERSON ROUTE (owner Aug 2: "i prefer a model that allows that
-        # immediately, it will be much less bugs"): briefs featuring famous
-        # person ladder (Aug 14): 1) nano-banana with press-photo + logo refs
-        # (identity copied from the real photo, 4x cheaper than gpt) ->
-        # 2) gpt-image-2 with names IN the prompt (knows famous faces natively;
-        # covers casts we hold no photo of) -> 3) FACELESS Seedream (never a
-        # fake likeness). The old Seedream ref-photo rung is dead — it shipped
-        # a stranger sold as Sam Altman.
+        # PERSON ROUTE — REF-PHOTO LAW (Sep 4, Bernie post-mortem): a face
+        # renders ONLY from a real photograph. Ladder: 1) nano-banana with a
+        # press photo for EVERY named person — pool first, Wikipedia fetch
+        # second -> 2) FACELESS rebuild (never a memory-drawn likeness). The
+        # old middle rung called the retired gpt-image-2 route, which since
+        # Aug 30 silently fell to nano TEXT-TO-IMAGE — nano drew Bernie from
+        # memory and shipped the waxy fake. That rung is deleted: no photo
+        # anywhere means no face, period.
         face_field = s.pop("gen_face", None)
         person = bool(face_field)
         face_refs = []
@@ -1875,42 +1990,43 @@ def main(stories_path):
                 # photo + the real logo ref rendered exactly, $0.04 vs gpt's
                 # $0.17). Requires a press photo for EVERY named person —
                 # identity comes from the photo, so no photo means no route.
-                # The named brief stays untouched: gpt escalation keeps names.
                 names = split_faces(face_field)
-                if names and all(pick_face(n.lower().replace(" ", "-"))
-                                 for n in names):
+                if names and all((pick_face(n.lower().replace(" ", "-"))
+                                  or fetch_face(n)) for n in names):
                     nb, nrefs = face_riders(brief, face_field)
                     nrefs = [r for r in nrefs + [brand_ref] if r]
                     if nrefs:
                         path = genimg.generate(nb, out_jpg,
                                                cover=(s["type"] == "cover"),
                                                person=True, nano=True,
-                                               refs=nrefs)
+                                               refs=nrefs,
+                                               collage=(s["type"] == "cover"))
                 if not path:
-                    # gpt-image rung: casts we hold no photo of (names go
-                    # directly in the prompt — it knows famous faces natively)
-                    # + nano flakes/budget-out
-                    path = genimg.generate(brief, out_jpg,
-                                           cover=(s["type"] == "cover"),
-                                           person=True)
-                if not path:
-                    # FALLBACK RUNG (always-post ladder): gpt failed/budget-out
-                    # -> Seedream, but FACELESS (owner Aug 14, the fake-Sam
-                    # cover: the old ref-photo rung shipped a stranger sold as
-                    # Sam Altman — Seedream cannot hold a famous likeness, and
-                    # a WRONG face is worse than no face). Rebuild the same
-                    # scene with the person from behind / as the story's
-                    # objects; face_riders then strips any residual name (E005).
+                    # FALLBACK RUNG (always-post ladder): no real photo exists
+                    # for someone in the cast (pool + Wikipedia both empty),
+                    # or nano/budget failed -> FACELESS rebuild (owner Aug 14,
+                    # the fake-Sam cover; Sep 4 ref-photo law: a face with no
+                    # photograph never renders — a WRONG face is worse than no
+                    # face). face_riders then strips any residual name (E005).
                     person = False
-                    fb = simpler_brief(
-                        brief, s.get("headline", ""),
-                        flaw="the person model is unavailable — rebuild this "
-                             "EXACT scene for a model that cannot render real "
-                             "faces: same setting, props, logo and story, but "
-                             "the named person appears ONLY from behind or as "
-                             "a silhouette (face never visible), or is replaced "
-                             "by the story's object at theatrical scale. Never "
-                             "ask for a recognizable face")
+                    if s["type"] == "cover":
+                        fb_flaw = ("no real photo exists for the named person "
+                                   "— keep the exact 'SUBJECT: ... BACKDROP "
+                                   "PROPS: ... PALETTE: ...' slot format, but "
+                                   "replace the SUBJECT with the story's "
+                                   "single hero object at giant scale; no "
+                                   "people anywhere, no faces")
+                    else:
+                        fb_flaw = ("the person model is unavailable — rebuild "
+                                   "this EXACT scene for a model that cannot "
+                                   "render real faces: same setting, props, "
+                                   "logo and story, but the named person "
+                                   "appears ONLY from behind or as a "
+                                   "silhouette (face never visible), or is "
+                                   "replaced by the story's object at "
+                                   "theatrical scale. Never ask for a "
+                                   "recognizable face")
+                    fb = simpler_brief(brief, s.get("headline", ""), flaw=fb_flaw)
                     brief, face_refs = face_riders(fb or brief, None)
             if not path:
                 refs = [r for r in [ref_photo if want_ref else None]
@@ -1925,7 +2041,8 @@ def main(stories_path):
                 path = genimg.generate(
                     brief, out_jpg, refs=refs or None,
                     cover=(s["type"] == "cover"),
-                    nano=bool(face_refs and s["type"] == "cover"))
+                    nano=bool(face_refs and s["type"] == "cover"),
+                    collage=(s["type"] == "cover"))
             if not path:
                 # keep trying: one flaky prediction must not forfeit the cover
                 # (Aug 2 bare edu cover, issue #16); budget-out retries are
@@ -1934,7 +2051,8 @@ def main(stories_path):
             ok, score, flaw = image_score(path, s.get("headline")
                                           or (s.get("body") or "")[:90],
                                           generated=True, person=person,
-                                          cover=(s["type"] == "cover"))
+                                          cover=(s["type"] == "cover"),
+                                          collage=(s["type"] == "cover"))
             if ok:
                 s["media"] = os.path.relpath(path, HERE)
                 s["image_prompt"] = brief
@@ -1959,7 +2077,13 @@ def main(stories_path):
                     pool.append((score, path))
             if attempt + 1 < tries:
                 # person-route covers retry concept-preserving (Aug 9): keep
-                # the staged scene + cast, fix only the judge's named flaw
+                # the staged scene + cast, fix only the judge's named flaw.
+                # Collage covers (Sep 4 brutal format) must come back in slot
+                # form — the frozen scaffold only works on slot briefs.
+                if s["type"] == "cover":
+                    flaw = (flaw + " — KEEP the exact 'SUBJECT: ... BACKDROP "
+                            "PROPS: ... PALETTE: ...' slot format, change "
+                            "only the slot contents").lstrip(" —")
                 brief = simpler_brief(brief, s.get("headline")
                                       or (s.get("body") or "")[:90], flaw,
                                       mode="concept" if person else "simpler") or brief
@@ -2036,18 +2160,20 @@ def main(stories_path):
             if score <= 5 and cover_brief:
                 rb = simpler_brief(
                     cover_brief, cover0.get("headline", ""),
-                    flaw=f"best attempt scored {score}/10 — rebuild as a "
-                         "FACELESS scene per the no-face playbook: the famous "
-                         "logo or the story's object mid-action at theatrical "
-                         "scale, no human faces anywhere")
+                    flaw=f"best attempt scored {score}/10 — rebuild FACELESS "
+                         "in the exact 'SUBJECT: ... BACKDROP PROPS: ... "
+                         "PALETTE: ...' slot format: SUBJECT becomes the "
+                         "story's single hero object at giant scale, no "
+                         "human faces anywhere")
                 if rb:
                     rb = face_riders(rb, None)[0]
                     rp = genimg.generate(
                         rb, os.path.join(post_dir, "gen-0-rescue.jpg"),
-                        cover=True)
+                        cover=True, collage=True)
                     if rp:
                         ok2, s2, _ = image_score(rp, cover0.get("headline", ""),
-                                                 generated=True, cover=True)
+                                                 generated=True, cover=True,
+                                                 collage=True)
                         if ok2:
                             cover0["media"] = os.path.relpath(rp, HERE)
                             cover0["image_prompt"] = rb

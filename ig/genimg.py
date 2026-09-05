@@ -48,6 +48,46 @@ URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 NANO_URL = "https://api.replicate.com/v1/models/google/nano-banana/predictions"
 NANO_COST = 0.04
 
+# BRUTAL COVER FORMAT (owner order Sep 4, Bernie post-mortem vs @technology):
+# news covers are no longer freeform scenes — they are a FROZEN collage
+# scaffold where only four slots vary (person+emotion, props, palette). The
+# reference cover anatomy: real-photo cutout subject + oversized symbolic
+# props behind + heavy saturated grade. Precision comes from the scaffold
+# never changing; the brief only fills slots. Square frame (nano 1:1, the
+# renderer's scrim owns the headline zone — never bake black bands in).
+COLLAGE_PERSON = (
+    " FORMAT LAW — photorealistic breaking-news collage cover, square frame. "
+    "SUBJECT: the person from the attached reference photo, cut-out style — "
+    "face, hair and clothing identical to the reference photograph, never "
+    "redrawn from memory — waist-up, one clear peak emotion as briefed, "
+    "centered, filling 50-60% of the frame height, razor-sharp cutout edges "
+    "with a subtle light rim; both upper corners of the frame stay clear of "
+    "the head, backdrop only there. "
+    "BACKDROP directly behind the subject, large and unmistakable: ONLY the "
+    "briefed props, oversized so each one reads at phone-thumbnail size, "
+    "partially overlapped by the subject for cutout depth. "
+    "GRADE: very high saturation, high contrast, crisp and sharpened, bright "
+    "key light on the subject, rich glowing backdrop unified in the briefed "
+    "two-color palette. "
+    "HARD BANS: no text or letters anywhere, no watermarks, no extra people, "
+    "no cartoon, no illustration, no 3D render — every element photorealistic "
+    "like a graded press-photo composite.")
+COLLAGE_FACELESS = (
+    " FORMAT LAW — photorealistic breaking-news collage cover, square frame. "
+    "SUBJECT: the single briefed hero object, cut-out style, centered, "
+    "filling 50-60% of the frame height, razor-sharp edges with a subtle "
+    "light rim; no people anywhere in the frame, not even silhouettes or "
+    "hands. "
+    "BACKDROP directly behind the subject, large and unmistakable: ONLY the "
+    "briefed props, oversized so each one reads at phone-thumbnail size, "
+    "partially overlapped by the subject for cutout depth. "
+    "GRADE: very high saturation, high contrast, crisp and sharpened, bright "
+    "key light on the subject, rich glowing backdrop unified in the briefed "
+    "two-color palette. "
+    "HARD BANS: no text or letters anywhere, no watermarks, no cartoon, no "
+    "illustration, no 3D render — every element photorealistic like a graded "
+    "press-photo composite.")
+
 
 def _key():
     if os.environ.get("REPLICATE_API_TOKEN"):
@@ -204,7 +244,25 @@ def _call_nano(key, prompt, refs):
     return None
 
 
-def generate(brief, out_path, refs=None, cover=False, person=False, nano=False):
+def _grade(path):
+    """Deterministic post-grade (brutal format, Sep 4): the @technology look
+    is half prompt, half GRADE — autocontrast + saturation + unsharp applied
+    in code so every cover ships punchy even when the model renders flat.
+    Pillow missing or failure -> the ungraded cover ships (never blocks)."""
+    try:
+        from PIL import Image, ImageEnhance, ImageFilter, ImageOps
+        img = Image.open(path).convert("RGB")
+        img = ImageOps.autocontrast(img, cutoff=1)
+        img = ImageEnhance.Color(img).enhance(1.22)
+        img = ImageEnhance.Contrast(img).enhance(1.06)
+        img = img.filter(ImageFilter.UnsharpMask(radius=2, percent=80, threshold=3))
+        img.save(path, "JPEG", quality=92)
+    except Exception as e:
+        print(f"genimg: grade skipped ({e})", file=sys.stderr)
+
+
+def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
+             collage=False):
     key = _key()
     if not key:
         return None
@@ -228,6 +286,36 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False):
     if not _book(cost, cover=True, floor=True):
         print("genimg: skipping (budget out)", file=sys.stderr)
         return None
+    live_refs = [r for r in (refs or []) if os.path.exists(r)]
+    if collage:
+        # BRUTAL FORMAT (owner Sep 4): frozen scaffold, brief fills slots only.
+        # Person scaffold ONLY when a real reference photo actually rides
+        # along — a named person with no photo must go faceless, never a
+        # memory-drawn face (the Bernie wax post-mortem).
+        scaffold = COLLAGE_PERSON if (person and live_refs) else COLLAGE_FACELESS
+        prompt = f"{brief}.{scaffold}"
+        try:
+            img = _call_nano(key, prompt, live_refs)
+            if not img:
+                _refund(cost, cover=True)
+                print("genimg: nano returned no image — retrying brief on "
+                      "Seedream", file=sys.stderr)
+                if not _book(COST, cover=True, floor=True):
+                    return None
+                cost = COST
+                img = _call(key, prompt, refs=live_refs or None)
+            if not img:
+                _refund(cost, cover=True)
+                print("genimg: model returned no image (failed/flagged "
+                      "prediction) — skipping", file=sys.stderr)
+                return None
+            open(out_path, "wb").write(img)
+            _grade(out_path)
+            return out_path
+        except Exception as e:
+            _refund(cost, cover=True)
+            print(f"genimg failed ({e})", file=sys.stderr)
+            return None
     # Seedream-optimal 5-part structure (subject/action/setting come from the
     # brief; we append composition -> lighting -> lens -> style in that order —
     # the model's documented preference; full doctrine in inspiration/visual.md)
@@ -274,7 +362,6 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False):
         prompt += (" Framing: the person is centered with their head in the "
                    "middle of the upper half; both upper corners of the frame "
                    "stay clear of the person — only background there.")
-    live_refs = [r for r in (refs or []) if os.path.exists(r)]
     if live_refs:
         # identity anchor (Aug 1, keypad post-mortem: from-scratch Altman and
         # an invented purple keypad both failed QA): the refs are REAL photos —

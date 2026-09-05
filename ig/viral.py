@@ -155,7 +155,12 @@ PLAYBOOK = {
                  'personally exposed AND know exactly what happened: [the '
                  'threat] JUST [reached your world], [the concrete scope]. '
                  'Model: "YOUR PRIVATE AI CHATS JUST SHOWED UP IN GOOGLE '
-                 'SEARCH RESULTS AND THOUSANDS ARE ALREADY READABLE".'),
+                 'SEARCH RESULTS AND THOUSANDS ARE ALREADY READABLE". '
+                 'FAMOUS-ACTOR OVERRIDE (Sep 4 Bernie post-mortem): when a '
+                 'household name DRIVES the threat, the NAME leads and the '
+                 'stake rides after — "BERNIE SANDERS JUST MOVED TO MAKE '
+                 'BUILDING SMARTER-THAN-HUMAN AI A FEDERAL CRIME, 20 YEARS '
+                 'IN PRISON" — never a riddle that hides who did it.'),
         "hook_rule": ('STAKE (0-2): a stranger instantly feels THEIR OWN '
                       'money/job/privacy is on the line and knows the real '
                       'scope. Abstract industry threats score 0.'),
@@ -201,7 +206,7 @@ PLAYBOOK = {
     },
 }
 
-ANCHOR_RULE = """ANCHOR RULE (hard): the hook may only anchor on a name a random 16-year-old instantly recognizes. This story's anchor: "{anchor}". Unknown brands are dead weight in the 4 words that decide the swipe — use the universal noun instead ("a self-checkout", "an AI", the famous counterparty)."""
+ANCHOR_RULE = """ANCHOR RULE (hard): the hook may only anchor on a name a random 16-year-old instantly recognizes. This story's anchor: "{anchor}". Unknown brands are dead weight in the 4 words that decide the swipe — use the universal noun instead ("a self-checkout", "an AI", the famous counterparty). THE INVERSE IS EQUALLY HARD (owner Sep 4, the Bernie Sanders post-mortem: our cover buried him under "THE MAN WHO RAN FOR PRESIDENT TWICE..." while the reference page led "BERNIE SANDERS INTRODUCES BILL..." and outperformed us with the same story): when the anchor IS a famous name, that name appears in the FIRST 6 WORDS of every candidate — the famous name is the scroll-stopper, and a riddle that hides it trades recognition for cleverness and loses. A candidate that buries a famous anchor is dropped by a code gate before judging; don't write one."""
 
 # Mined Aug 3 from ~35 reference covers (@technology-school pages) after the
 # owner killed a shipped hook as "hard to understand": every strong reference
@@ -224,6 +229,7 @@ SHARED_RULES = """- ONE IDEA (owner kill Aug 3, "hard to understand"): the hook 
 - LENGTH 12-25 words, aim 15-20: ONE complete sentence that SUMMARIZES the whole story with its wildest specifics ON the cover — the price, the count, the first-ever, the absurd detail. Model (owner Aug 1, the reference page): "OPENAI JUST LAUNCHED THEIR FIRST EVER HARDWARE PRODUCT, A $230 LIGHT UP KEYBOARD BUILT TO RUN YOUR AI CODING AGENTS".
 - WITHHOLD NOTHING (owner doctrine Aug 1, reverses the Jul 29 gap rule): a riddle only works for pages with authority; a growing page earns the follow by DELIVERING on the cover. The reader should get the full story from the cover alone — the swipe is for the photos, the details and the fallout, which the wild content makes them want automatically.
 - Structure: [ACTOR] JUST [charged verb + what happened], [the specific that makes it wild]. Front-load the actor and verb; the numbers ride in the second half.
+- FAMOUS NAME FIRST (owner Sep 4, the Bernie Sanders post-mortem — our riddle "THE MAN WHO RAN FOR PRESIDENT TWICE..." lost to the reference page's plain "BERNIE SANDERS INTRODUCES BILL..."): when the story's actor is a name a 16-year-old recognizes, that exact name goes in the FIRST 6 WORDS. Recognition beats cleverness every time; a code gate kills candidates that bury a famous name.
 - PERSON-FIRST (owner post-mortem Aug 1, the Situational-Awareness fund story): when ONE human drives the story, the PERSON is the actor — identity fact + rise + fall + the human scene ("THIS 24-YEAR-OLD BUILT A $45 BILLION AI FUND. THEN LOST 67% OF IT DURING HIS WEDDING" — the reference page's winner). Leading with the thing ("A $45 BILLION AI FUND COLLAPSED IN DAYS") is the failure model: people stop for people. A retellable human scene (a wedding, a courtroom) on the cover outranks any percentage.
 - Charged verbs when true: BET, FIRED, WENT ROGUE, BANNED, LEAKED, TRIED TO. Threat/loss framing beats triumph when both are true.
 - THE COLLISION: when two true facts contradict each other, put BOTH in the sentence joined by AND/YET/THEN ("A RECORD QUARTER AND THE STOCK STILL FELL 8%") — the contradiction is the reference page's strongest scroll-stopper.
@@ -333,6 +339,34 @@ def _drop_unknown_anchor(cands, ctx):
     if dropped:
         print(f"viral: dropped {dropped} candidate(s) anchored on unknown "
               f"brand '{ctx['actor']}'", file=sys.stderr)
+    return kept or cands
+
+
+def _require_famous_anchor(cands, ctx, lang="en"):
+    """NAME-FIRST GATE (owner Sep 4, the Bernie post-mortem): the tournament
+    HELD name-first candidates for the Sanders bill and the judge still
+    picked the riddle ("THE MAN WHO RAN FOR PRESIDENT TWICE...") — cleverness
+    outscored recognition, the exact inverse of the reference page, which led
+    "BERNIE SANDERS INTRODUCES BILL..." on the same story and beat us.
+    Deterministic mirror of _drop_unknown_anchor: when the actor IS famous,
+    a candidate that doesn't carry the actor's name in its first 6 words is
+    dropped before judging. English only (Hebrew transliterates names — a
+    Latin-token match would kill every native candidate). Falls open if it
+    would empty the list."""
+    if lang != "en" or not (ctx.get("actor_known") and ctx.get("actor")):
+        return cands
+    toks = [t for t in re.split(r"\W+", ctx["actor"]) if len(t) > 2]
+    if not toks:
+        return cands
+    def _leads(c):
+        head = " ".join(
+            re.sub(r"<[^>]+>", "", c["headline"]).split()[:6]).lower()
+        return any(re.search(rf"\b{re.escape(t.lower())}", head) for t in toks)
+    kept = [c for c in cands if _leads(c)]
+    dropped = len(cands) - len(kept)
+    if kept and dropped:
+        print(f"viral: dropped {dropped} candidate(s) burying famous actor "
+              f"'{ctx['actor']}' past the first 6 words", file=sys.stderr)
     return kept or cands
 
 
@@ -453,6 +487,7 @@ def judge(cands, ctx, lang="en"):
     judge's ONLY job is impact — would a stranger stop scrolling?). Returns
     (winner_dict, record) or (None, None)."""
     cands = _drop_unknown_anchor(cands, ctx)
+    cands = _require_famous_anchor(cands, ctx, lang=lang)
     # Hebrew packs prepositions/articles into words — a full summary can be
     # shorter, so the floor relaxes
     cands = _pre_filter(cands, ctx, lo=8 if lang == "he" else 10)
