@@ -24,7 +24,7 @@ from datetime import date
 
 from fetch import get
 from viral import law
-from write import call_claude, scrub_dashes, qa_repair
+from write import call_claude, scrub_dashes, qa_repair, image_score, CHEAP
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 N_CANDS = 12       # candidates offered to the writer
@@ -58,6 +58,35 @@ RECAP_SCHEMA = {
     },
     "required": ["slides", "caption", "pinned_comment"],
 }
+
+
+def is_photo(path):
+    """SCREENSHOT FILTER (owner Sep 5, Bernie-recap post-mortem: a raw text
+    screenshot shipped as half the cover — doctrine already said screenshots
+    are never a cover, but nothing ENFORCED it on downloaded tweet images).
+    True = a real photograph of people/places/things, legal on covers and
+    full-bleed. False = a screenshot of text/UI/a tweet/a chart — evidence
+    material only, framed small, never the face of anything. Fails open as
+    NOT-photo: an unclassifiable image must not become a cover."""
+    try:
+        r = call_claude(
+            "Classify the attached image (if none is attached to this "
+            f"message, use your Read tool on {path} to look at it). "
+            "PHOTOGRAPH = a camera picture of people, places or physical "
+            "things. SCREENSHOT = text, app UI, a tweet, a chat, a chart, "
+            "a webpage. An image that is mostly readable text or interface "
+            "is a SCREENSHOT even if it contains a small photo. Return "
+            'ONLY JSON: {"kind": "PHOTOGRAPH"} or {"kind": "SCREENSHOT"}',
+            images=[path], model=CHEAP,
+            schema={"type": "object", "properties": {"kind": {
+                        "type": "string",
+                        "enum": ["PHOTOGRAPH", "SCREENSHOT"]}},
+                    "required": ["kind"]})
+        return r.get("kind") == "PHOTOGRAPH"
+    except Exception as e:
+        print(f"  is_photo failed ({e}) — treating as screenshot",
+              file=sys.stderr)
+        return False
 
 
 def pick_candidates(stories):
@@ -156,6 +185,49 @@ def qa(post, n_cands, pre_render=True):
     return errs
 
 
+def build_cover(post_dir, photos):
+    """MONTAGE COVER (owner Sep 5, Bernie-recap post-mortem: raw tweet
+    images glued side by side by CSS shipped a text screenshot as half the
+    cover — "it looks SO SO bad"). The reference roundup cover is a composed
+    poster: each story's subject razor-cut from its real press photo,
+    arranged at varying scales on one loud backdrop, headline zone clean.
+    Ladder: nano-banana montage from the day's verified press PHOTOS (2
+    tries, judged) -> strongest single photo full-bleed -> bare art cover.
+    The CSS strip collage is dead — it can never ship again."""
+    import genimg
+    cover = dict(COVER)
+    if not photos:
+        return cover  # bare cover — render.py art_bg, never a screenshot
+    plain = lambda h: re.sub(r"<[^>]+>", "", h)
+    if len(photos) >= 2:
+        # 2 refs max: the Sep 5 smoke test with 3 face refs duplicated one
+        # identity and dropped another — two is nano's reliable ceiling
+        refs = [p for _, p in photos[:2]]
+        brief = ("Montage of today's biggest AI news stories, one subject "
+                 "cut from each attached photo. Stories in order of size: "
+                 + "; ".join(plain(h) for h, _ in photos[:2])
+                 + ". Backdrop palette: electric blue and orange, "
+                   "AI-datacenter energy")
+        out = os.path.join(post_dir, "cover-montage.jpg")
+        for attempt in range(2):
+            path = genimg.generate(brief, out, refs=refs, cover=True,
+                                   montage=True)
+            if not path:
+                break  # budget/model out — don't burn a second booking
+            ok, score, flaw = image_score(path, plain(COVER["headline"]),
+                                          generated=True, person=True,
+                                          cover=True, collage=True)
+            print(f"  montage try {attempt + 1}: ok={ok} score={score} "
+                  f"{flaw}", file=sys.stderr)
+            if ok:
+                cover["media"] = os.path.relpath(path, HERE)
+                return cover
+        print("  montage failed judge — falling back to strongest photo",
+              file=sys.stderr)
+    cover["media"] = os.path.relpath(photos[0][1], HERE)
+    return cover
+
+
 def main(stories_path):
     post_dir = os.path.join(HERE, "posts", f"{date.today()}-ai-recap")
     if os.path.exists(os.path.join(post_dir, "slide-1.jpg")):
@@ -181,7 +253,14 @@ def main(stories_path):
         raise SystemExit("QA gate failed after 3 attempts")
 
     os.makedirs(post_dir, exist_ok=True)
-    # press images from the tweets themselves, attached per slide
+    # press images from the tweets themselves, attached per slide.
+    # RECEIPT LAW (owner Sep 5, 18-slide reference audit): the reference
+    # roundup's inner slides are FULL-BLEED press photos of each slide's
+    # actor with the text over the darkened bottom. Every download is
+    # classified: a real photograph keeps the default full-bleed layout; a
+    # text/UI screenshot is evidence only — it renders framed on a card
+    # ("evidence" layout) and NEVER goes full-bleed or near the cover.
+    photos = []  # (headline, path) of verified photographs, slide order
     for n, s in enumerate(post["slides"]):
         s["media"] = None
         if s.get("type") != "content":
@@ -193,13 +272,14 @@ def main(stories_path):
             path = os.path.join(post_dir, f"media-{n}.jpg")
             open(path, "wb").write(get(img))
             s["media"] = os.path.relpath(path, HERE)
+            if is_photo(path):
+                photos.append((s.get("headline", ""), path))
+            else:
+                s["layout"] = "evidence"
         except Exception as e:
             print(f"  image failed ({e}) — big-type slide", file=sys.stderr)
 
-    cover = dict(COVER)
-    cover["media_list"] = [s["media"] for s in post["slides"]
-                           if s.get("media")][:3]
-    post["slides"].insert(0, cover)
+    post["slides"].insert(0, build_cover(post_dir, photos))
     post.update(handle="@yaffeai", container="daily_recap")
     scrub_dashes(post)  # owner rule: dashes never reach a published slide
 
@@ -264,6 +344,19 @@ def main(stories_path):
               file=sys.stderr)
 
     render()
+
+    # GATE R (owner order Sep 5): eyes on EVERY rendered slide before
+    # publish — the gate that would have caught the Bernie-recap cover.
+    # drop_image repairs apply mechanically + one re-render; the post ships
+    # regardless (always-post), flagged in post.json for the daily report.
+    fails = editor.gate_r(post, post_dir)
+    if fails:
+        if editor.apply_gate_r(post, fails):
+            render()
+        else:  # flag-only fails: persist the gate_r note for the report
+            json.dump(post, open(os.path.join(post_dir, "post.json"), "w"),
+                      indent=1)
+
     print("post ready:", post_dir)
     return post_dir
 

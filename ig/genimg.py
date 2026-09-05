@@ -57,7 +57,7 @@ NANO_COST = 0.04
 # never varies: real-photo raw material, razor cutouts, one dominant
 # subject, oversized props, brutal saturation. Square frame (nano 1:1, the
 # renderer's scrim owns the headline zone — never bake black bands in).
-_COLLAGE_SHARED = (
+_COLLAGE_LABELS = (
     "LABELS AND INSET (ONLY when the brief lists them — otherwise render "
     "zero text): each briefed LABEL is one small rectangular caption chip, "
     "bold clean sans-serif, exactly the quoted 1-3 words and no other "
@@ -67,7 +67,8 @@ _COLLAGE_SHARED = (
     "by a thin hand-drawn white arrow. A briefed INSET "
     "is one circular photo bubble with a thin white ring, placed in an upper "
     "corner over the backdrop, showing exactly the briefed detail, tied to "
-    "the scene by a thin white arrow. "
+    "the scene by a thin white arrow. ")
+_COLLAGE_TAIL = (
     "GRADE: very high saturation, high contrast, crisp and sharpened, bright "
     "key light on the subject, rich glowing backdrop unified in the briefed "
     "two-color palette. "
@@ -75,6 +76,7 @@ _COLLAGE_SHARED = (
     "chips and real brand logo marks, no invented words, no watermarks, no "
     "cartoon, no illustration, no 3D render — every element photorealistic "
     "like a graded press-photo composite.")
+_COLLAGE_SHARED = _COLLAGE_LABELS + _COLLAGE_TAIL
 COLLAGE_PERSON = (
     " FORMAT LAW — photorealistic breaking-news collage cover, square frame. "
     "SUBJECT: the person from the attached reference photo, cut-out style — "
@@ -98,6 +100,38 @@ COLLAGE_FACELESS = (
     "BACKDROP directly behind the subject, large and unmistakable: ONLY the "
     "briefed props, oversized so each one reads at phone-thumbnail size, "
     "partially overlapped by the subject for cutout depth. " + _COLLAGE_SHARED)
+# RECAP MONTAGE (owner Sep 5, Bernie-recap post-mortem: the roundup cover
+# shipped as two raw tweet images glued side by side by CSS — one a text
+# screenshot — "it looks SO SO bad"). The reference roundup cover is a
+# composed poster montage: every story's subject razor-cut from its real
+# press photo and arranged at VARYING scales on one loud backdrop.
+COLLAGE_MONTAGE = (
+    " FORMAT LAW — photorealistic breaking-news montage poster, square "
+    "frame, built ONLY from the attached reference photographs. SUBJECTS: "
+    "cut the main subject out of EACH attached photo — faces, hair and "
+    "clothing identical to their photographs, never redrawn from memory. "
+    "ONLY the person is copied from each photo: the photo's own background, "
+    "walls, signs, banners and any lettering behind them are DISCARDED and "
+    "never appear in the frame (smoke-test Sep 5: a rally banner leaked in "
+    "misspelled). Razor-sharp cutout edges with a subtle light rim, "
+    "arranged as an overlapping poster montage at VARYING scales: the first photo's "
+    "subject largest and most central, the second smaller beside it, every "
+    "subject readable at phone-thumbnail size. EACH attached photo's "
+    "subject appears EXACTLY ONCE — never mirrored, never duplicated, "
+    "never twice in the frame (smoke-test Sep 5: one ref rendered twice "
+    "while another vanished). Together they fill the upper two-thirds of "
+    "the frame; both upper corners stay clear of heads. "
+    "BACKDROP: one loud saturated environment from the biggest story's "
+    "world filling the frame edge to edge behind the cutouts; brand logos "
+    "of the briefed companies render as real marks, giant, glossy and "
+    "dimensional, partially overlapped by the subjects for depth. No "
+    "people beyond the attached photos' subjects. MONTAGE TEXT BAN "
+    "(smoke-test Sep 5: the story list got rendered as misspelled caption "
+    "chips): the briefed story lines exist ONLY to pick and size the "
+    "subjects — they are NEVER text to render. Zero caption chips, zero "
+    "labels, zero arrows, zero lettering or signage of any kind anywhere; "
+    "the ONLY legal text in the whole frame is a real brand logo mark. "
+    + _COLLAGE_TAIL)
 
 
 def _key():
@@ -273,7 +307,7 @@ def _grade(path):
 
 
 def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
-             collage=False):
+             collage=False, montage=False):
     key = _key()
     if not key:
         return None
@@ -298,12 +332,21 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
         print("genimg: skipping (budget out)", file=sys.stderr)
         return None
     live_refs = [r for r in (refs or []) if os.path.exists(r)]
-    if collage:
+    if montage and not live_refs:
+        # montage is DEFINED as cutouts of real press photos — with no refs
+        # it would memory-draw every face (the exact Bernie-wax failure)
+        _refund(cost, cover=True)
+        print("genimg: montage with no live refs — refusing", file=sys.stderr)
+        return None
+    if collage or montage:
         # BRUTAL FORMAT (owner Sep 4): frozen scaffold, brief fills slots only.
         # Person scaffold ONLY when a real reference photo actually rides
         # along — a named person with no photo must go faceless, never a
         # memory-drawn face (the Bernie wax post-mortem).
-        scaffold = COLLAGE_PERSON if (person and live_refs) else COLLAGE_FACELESS
+        if montage:
+            scaffold = COLLAGE_MONTAGE
+        else:
+            scaffold = COLLAGE_PERSON if (person and live_refs) else COLLAGE_FACELESS
         prompt = f"{brief}.{scaffold}"
         try:
             img = _call_nano(key, prompt, live_refs)

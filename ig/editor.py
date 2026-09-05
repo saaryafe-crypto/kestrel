@@ -236,3 +236,111 @@ Return JSON: {{"verdict": "APPROVE" or "REJECT", "reasons": ["..."]}} (reasons e
         print(f"editor gate B DOWN ({e}) — failing open", file=sys.stderr)
         post["editor_down"] = True  # daily report names it
         return True, []
+
+
+GATE_R_SCHEMA = {
+    "type": "object",
+    "properties": {"slides": {"type": "array", "items": {
+        "type": "object",
+        "properties": {
+            "n": {"type": "integer"},
+            "verdict": {"type": "string", "enum": ["PASS", "FAIL"]},
+            "action": {"type": "string",
+                       "enum": ["none", "drop_image", "retext"]},
+            "reason": {"type": "string"}},
+        "required": ["n", "verdict", "action", "reason"]}}},
+    "required": ["slides"],
+}
+
+
+def _shrink(jpg, out):
+    """Downscale a slide to 540px wide for judging — same verdict quality,
+    ~4x fewer image tokens (Gate R budget: cents per post, not dimes)."""
+    import subprocess
+    if sys.platform == "darwin":
+        subprocess.run(["sips", "--resampleWidth", "540", jpg, "--out", out],
+                       check=True, capture_output=True)
+    else:
+        from PIL import Image
+        im = Image.open(out if os.path.exists(out) else jpg)
+        im.thumbnail((540, 10000))
+        im.convert("RGB").save(out, quality=85)
+    return out
+
+
+def gate_r(post, post_dir):
+    """GATE R — reference-level review of the RENDERED slides (owner order
+    Sep 5, Bernie-recap post-mortem: a text screenshot shipped as half a
+    cover and NOBODY had ever looked at a finished inner slide — Gate B is
+    text + cover-only). Every slide JPEG goes to the vision judge, judged
+    against the owner's reference wall standard. Returns the list of FAIL
+    dicts ({n, action, reason}); callers apply drop_image/retext, re-render
+    once, and ship FLAGGED if still failing — a slot is never skipped.
+    Fail-open like every editor gate: a dead judge never blocks the page."""
+    from write import call_claude
+    jpgs = sorted(glob.glob(os.path.join(post_dir, "slide-*.jpg")),
+                  key=lambda p: int(p.split("-")[-1][:-4]))
+    if not jpgs:
+        return []
+    import tempfile
+    tmp = tempfile.mkdtemp()
+    small = []
+    for j in jpgs:
+        try:
+            small.append(_shrink(j, os.path.join(tmp, os.path.basename(j))))
+        except Exception:
+            small.append(j)  # judge full-size rather than skip the slide
+    prompt = f"""You are the visual quality gate of a top tech news Instagram page. Attached are ALL {len(small)} rendered slides of a finished carousel, in order (image 1 = slide 1 = the cover). If no images are attached to this message, use your Read tool to look at every one of these files in order: {json.dumps(small)}. The page's standard is @technology-level: every slide must look like it came from a professional news channel.
+
+JUDGE EVERY SLIDE against this rubric:
+- THE RECEIPT LAW: an inner slide's picture must PROVE that slide's own claim (real press moment of the slide's actor, source footage on a card, a typeset X card, or the story's object). A picture that is unrelated decoration for its slide's words is a FAIL.
+- SCREENSHOT LAW: a raw screenshot of text/UI/a webpage as a full-bleed background or as any part of the cover is an instant FAIL (action drop_image). A screenshot framed on a rounded card is legal.
+- LEGIBILITY: the headline and body must read clearly against the image. Text drowning in a busy or bright photo zone = FAIL.
+- PHOTO QUALITY: murky/dark/blurry photos, garbled AI text, cartoon or wax-figure faces, amputated heads = FAIL. Bright saturated press-photo energy = the standard.
+- EMOTIONAL REGISTER: the photo's mood must match the slide's claim (a grinning photo on a death/lawsuit slide = FAIL).
+- MOOD FLOOR: dark text-only slides are legal (big-type slides). Judge only what is actually wrong; a clean PASS is a valid verdict. Never invent nitpicks invisible at phone size.
+
+ACTIONS: drop_image = the slide reads better with no image (text-only) than with this image. retext = the image is fine, the TEXT placement/content is the problem. none = PASS.
+
+THE POST (container: {post.get('container')}): slide headlines in order:
+{json.dumps([{"n": i + 1, "type": s.get("type"), "headline": s.get("headline", "")[:80]} for i, s in enumerate(post.get("slides", []))], ensure_ascii=False)}
+
+Return JSON: {{"slides": [{{"n": <slide number>, "verdict": "PASS" or "FAIL", "action": "none"/"drop_image"/"retext", "reason": "<specific, one sentence>"}}]}} — one entry per slide, all {len(small)} of them."""
+    try:
+        r = call_claude(prompt, schema=GATE_R_SCHEMA, images=small)
+        fails = [x for x in r.get("slides", [])
+                 if x.get("verdict") == "FAIL"]
+        _log("R", post["slides"][0].get("headline") or "",
+             "FAIL" if fails else "PASS",
+             "; ".join(f"s{x['n']}: {x['reason']}" for x in fails)[:400])
+        print("editor gate R: " + ("PASS" if not fails else "FAIL — "
+              + "; ".join(f"slide {x['n']}: {x['reason']}" for x in fails)),
+              file=sys.stderr)
+        return fails
+    except Exception as e:
+        _log("R", post["slides"][0].get("headline") or "", "EDITOR_DOWN",
+             str(e)[:200])
+        print(f"editor gate R DOWN ({e}) — failing open", file=sys.stderr)
+        post["editor_down"] = True
+        return []
+
+
+def apply_gate_r(post, fails):
+    """Apply Gate R's mechanical repairs. drop_image strips the slide's
+    image (doctrine's own no-image-beats-bad-image rule — a clean big-type
+    slide beats a murky/garbled/wrong-mood picture). Everything else is
+    recorded on the post for the daily report — the slot always ships.
+    Returns True when a slide changed and the caller must re-render."""
+    changed = False
+    for f in fails:
+        i = f.get("n", 0) - 1
+        if f.get("action") == "drop_image" and 0 <= i < len(post["slides"]):
+            s = post["slides"][i]
+            s["media"] = None
+            for k in ("layout", "cutout", "person_layer"):
+                s.pop(k, None)
+            changed = True
+    if fails:
+        post["gate_r"] = "; ".join(
+            f"s{f['n']}: {f['reason']}" for f in fails)[:400]
+    return changed

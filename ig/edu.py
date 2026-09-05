@@ -664,6 +664,17 @@ def main():
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)
     subprocess.run([sys.executable, os.path.join(HERE, "render.py"),
                     os.path.join(post_dir, "post.json"), post_dir], check=True)
+
+    # GATE R (owner order Sep 5): eyes on EVERY rendered slide — drop_image
+    # repairs apply + one re-render; ships flagged, never skipped.
+    fails = editor.gate_r(post, post_dir)
+    if fails:
+        editor.apply_gate_r(post, fails)
+        json.dump(post, open(os.path.join(post_dir, "post.json"), "w"),
+                  indent=1)
+        subprocess.run([sys.executable, os.path.join(HERE, "render.py"),
+                        os.path.join(post_dir, "post.json"), post_dir],
+                       check=True)
     json.dump(used + [topic], open(USED, "w"), indent=1)
     print("post ready:", post_dir)
     return post_dir

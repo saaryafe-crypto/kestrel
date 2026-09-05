@@ -483,3 +483,41 @@ proves is a fail. Five receipt types, in preference order:
   avatar initial, formatted views, art_bg backdrop).
 - edu.py: THE SKILL RECEIPT law replaces "1-2 most visual slides"; gen cap
   3 → 5 (owner-ordered quality push, ~+$1.3/mo worst case, reported).
+
+## 9. THE RECAP LANE REBUILD + GATE R (Sep 5 2026 pm, owner Bernie-folder order)
+
+The owner put our shipped recap next to the reference Bernie cover: "look
+at the huge difference between us and them... it looks SO SO bad." Root
+cause: recap.py never went through ANY of the Sep 4-5 audits — its cover
+was raw tweet images glued side by side by CSS (one shipped as a text
+screenshot), its inner slides took any tweet file full-bleed.
+
+- **THE MONTAGE COVER**: the reference roundup cover is a composed poster —
+  each story's subject razor-cut from its real press photo at VARYING
+  scales on one loud backdrop (Trump coins + Messi + oil chart on flag).
+  recap.py now generates it on nano-banana: the day's verified press
+  photos ride as refs (2 MAX — the 3-ref smoke test duplicated one
+  identity and dropped another), COLLAGE_MONTAGE scaffold in genimg.py.
+  Montage prompt laws, each one smoke-test-earned: subjects appear EXACTLY
+  ONCE; ref photos' own backgrounds/signage DISCARDED (a rally banner
+  leaked in misspelled); story lines are subject-selection only, NEVER
+  text to render (they rendered as garbled chips); no LABELS clause at all
+  (_COLLAGE_TAIL, not _COLLAGE_SHARED). Judged by image_score collage
+  mode, 2 tries. Fallback: strongest single photo full-bleed. The CSS
+  strip collage (media_list) is DELETED from render.py — it can never
+  ship again.
+- **THE SCREENSHOT FILTER** (recap.is_photo): every downloaded tweet image
+  is classified by Haiku vision (PHOTOGRAPH vs SCREENSHOT, fails closed as
+  screenshot). Photographs go full-bleed inner + may ride the montage;
+  screenshots render framed on a rounded card (new "evidence" layout,
+  receipt-law R1 anatomy) and never touch a cover or a full bleed.
+- **GATE R** (editor.gate_r, wired into write.py + recap.py + edu.py after
+  final render): the first gate that ever LOOKS at finished slides — Gate
+  B is text + cover-only. Every slide JPEG (downscaled 540px, ~cents/post)
+  goes to the vision judge against the receipt law rubric: receipt match,
+  screenshot law, legibility, photo quality, emotional register. Actions:
+  drop_image (applied mechanically + one re-render — doctrine's own
+  no-image-beats-bad-image rule) or retext/flag. Ships FLAGGED on
+  unrepaired fails (post["gate_r"]) — always-post holds, the daily report
+  names it. Fails open like every editor gate. First live run caught a
+  garbled AI document image on a really-shipped Aug 19 post.

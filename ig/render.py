@@ -110,8 +110,6 @@ body.nophoto .logorow img{height:230px;max-width:480px}
        background-size:cover;background-position:center top;
        -webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 300px),rgba(0,0,0,0) 100%);
        mask-image:linear-gradient(180deg,#000 calc(100% - 300px),rgba(0,0,0,0) 100%)}
-.bleed.collage{display:flex;gap:6px}
-.bleed.collage .col{flex:1;background-size:cover;background-position:center top}
 /* cover: full-frame image — the photo extends to the bottom of the slide
    with a gentle fade so text reads on the colorful scene (Wealth-style
    thumbnail covers, owner order Aug 22) */
@@ -165,6 +163,19 @@ body.card .photocard{flex:1;min-height:0;border-radius:30px;
                      border:2px solid rgba(217,119,87,.45);
                      box-shadow:0 20px 60px rgba(0,0,0,.65)}
 body.card.nomedia .frame{justify-content:center;padding-top:120px}
+/* evidence slide (owner order Sep 5, Bernie-recap post-mortem: a raw text
+   screenshot went FULL-BLEED behind the words and read as garbage. A
+   screenshot is receipt evidence — it renders framed on a rounded card in
+   the top zone, headline + body below, receipt-law R1 anatomy). */
+body.evidence .frame{position:relative;z-index:2;height:1350px;display:flex;
+                     flex-direction:column;justify-content:flex-end;
+                     padding:150px 54px 56px}
+.evcard{flex:1;min-height:0;margin-bottom:44px;border-radius:28px;
+        background-size:cover;background-position:center top;
+        border:2px solid rgba(255,255,255,.14);background-color:#0b0b0d;
+        box-shadow:0 26px 80px rgba(0,0,0,.7)}
+body.evidence h1{margin-bottom:28px;text-shadow:0 4px 14px rgba(0,0,0,.9)}
+body.evidence .body{text-shadow:0 3px 12px rgba(0,0,0,.85)}
 /* reaction-receipt slide (owner order Sep 5, @technology Valve-post anatomy:
    mid-carousel the story's real viral post renders as an X card centered on
    a dark blurred backdrop — proof the internet is living the story, often
@@ -448,14 +459,11 @@ def slide_html(s, total):
             imgs = '<span class="vs">×</span>'.join(
                 f'<img src="{HERE}/logos/{l}.svg">' for l in s["logos"])
             logos = f'<div class="logorow">{imgs}</div>'
-        if s.get("media_list"):  # daily_recap collage: 2-3 press photos side by side
-            first = os.path.join(HERE, s["media_list"][0])
-            cols = "".join(f'<div class="col" style="background-image:url(\'{os.path.join(HERE, m)}\')"></div>'
-                           for m in s["media_list"])
-            bg = (f'<div class="bgblur" style="background-image:url(\'{first}\')"></div>'
-                  f'<div class="bleed collage">{cols}</div><div class="shade"></div>')
-            cls = "cover"
-        elif s.get("cutout") and os.path.exists(os.path.join(HERE, s["cutout"])):
+        # (the media_list strip collage died Sep 5 — owner Bernie-recap
+        # post-mortem: raw tweet files glued side by side shipped a text
+        # screenshot as half the cover. recap covers are now a composed
+        # nano montage attached as plain s["media"], full-bleed below.)
+        if s.get("cutout") and os.path.exists(os.path.join(HERE, s["cutout"])):
             # composed cover (@getintoai anatomy): backdrop < discs < cutout
             cut = os.path.join(HERE, s["cutout"])
             discs = discs_html(s)
@@ -562,6 +570,17 @@ def slide_html(s, total):
 <div><div class="tname">{handle}</div><div class="thandle">@{handle}</div></div></div>
 <p class="ttext">{text}</p>
 {meta_html}</div></div></body>'''
+
+    # evidence slide (Sep 5): a screenshot is a receipt, never a full-bleed
+    # backdrop — framed on a rounded card above the headline + body
+    if s["type"] == "content" and s.get("layout") == "evidence" and media:
+        return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
+<body class="evidence">{art_bg(s.get("headline", ""))}
+<div class="mast-top">{MASTHEAD}</div>
+<div class="frame">
+<div class="evcard" style="background-image:url('{media}')"></div>
+<h1>{s["headline"]}</h1>
+<p class="body">{s["body"].replace(chr(10), "<br>")}</p></div>{FIT_JS}</body>'''
 
     # profile-card content slide: story text on top, real photo in a rounded
     # card below (@techskills anatomy, owner example Aug 1) — no headline
