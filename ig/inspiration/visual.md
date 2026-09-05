@@ -415,3 +415,71 @@ Chosen by STORY TYPE — wrong archetype = concept failure:
 - Formulas seen: "X JUST launched/built/revealed", "HERE'S THE NEW", "MEET X,
   THE...", "A GUY/WOMAN USED X FOR N YEARS THINKING...", "THIS BILLIONAIRE/
   PROGRAMMER...", second-person "YOUR IPHONE HAS...".
+
+## 8. THE RECEIPT LAW — inner slides & CTA, the 18-slide forensic audit (Sep 5 2026, owner order)
+
+Owner order Sep 5: "the second slide and the rest are very important and also
+need to look good these are the highest converters." Audited every single
+inner slide of three full reference swipe-throughs from the "optimal 1"
+folder (Valve news post, 24-hours recap post, Gmail edu post) — 18 slides,
+each logged as story → picture → why it was chosen.
+
+### The one law
+
+**Every inner slide's picture is that slide's OWN claim staged as its most
+literal proof artifact.** Not the post's topic. Not a mood. The specific
+sentence on THIS slide, receipted. A picture that decorates instead of
+proves is a fail. Five receipt types, in preference order:
+
+- **R1. SOURCE FOOTAGE** — a video still / screenshot of the actual moment,
+  framed on a rounded card over the dark stage. Used when footage of the
+  claim exists (Valve slide 2: the exact video frame that answers the
+  cover's question). Screenshots live INSIDE the post as evidence, never as
+  the cover.
+- **R2. PRESS MOMENT** — a real photograph of THIS slide's actor mid-moment,
+  full-bleed with feathered edges. EMOTIONAL REGISTER MATCHED: the recap
+  post ran a black-and-white portrait on its death slide and grinning color
+  shots on win slides. The photo's mood = the claim's mood, always.
+- **R3. REACTION RECEIPT** — the real source post typeset as a clean X card
+  on the dark backdrop. It is proof AND the comedy beat at once (Valve ran
+  two). ANTI-FABRICATION: only pipeline-injected real data (handle, text,
+  views, date from radar_x) — the model never writes tweet content. This is
+  the ONE exception to the never-quote rule.
+- **R4. DATA MADE PHYSICAL** — no person available → the story's real object
+  + its chart fused into one physical scene, palette drawn from the object
+  (recap post: gold bars under golden candlestick columns glowing on a dark
+  wall). Never a floating graph, never a screenshot of a chart.
+- **R5. SKILL RECEIPT (edu)** — the EXACT feature mid-use on a real device
+  in a real evening workspace, one slide = one skill = one scene, scenes
+  varied across the post. GARBLE GUARD: exactly one crisp quoted 1-3-word
+  screen element (a toast reading "Undo"), everything else on the screen
+  soft-focus/bokeh — our generators die on long UI text (5 of 6 historic
+  fails were garble). Exception: full copy-paste prompt slides, where the
+  prompt text itself is the payload.
+
+### Edu inner-slide anatomy (Gmail post, 4 skill slides)
+
+- Numbered headlines ("3/ UNDO SENT EMAILS") — a progress ratchet.
+- Body in sentence case with the operative path bolded, arrow-notation steps
+  ("-> Settings -> General").
+- Every slide carries a skill-receipt image; none are text-only.
+
+### CTA anatomy (both reference CTAs)
+
+- The story's person, warm expression, story object held toward camera,
+  ghosted brand mark behind, page-identity line ("WE SHARE USEFUL TECH
+  FEATURES MOST PEOPLE NEVER FIND"). Our Aug 1 CTA closer already matches
+  the VISUAL. The identity-line TEXT conflicts with the owner's Aug 18
+  save-close law — flagged to owner Sep 5, not silently changed.
+
+### Where it lives in code
+
+- write.py: SLIDE_SCHEMA layout enum ["card","break","tweet"] (fixed the
+  latent bug where "break" was impossible under structured output), reaction
+  receipt prompt block + main() radar-data injection, emotional-register
+  bullet in IMAGE ASSIGNMENT, DATA MADE PHYSICAL in art_direct STAKES, six
+  qa() gates taught the tweet layout.
+- render.py: .tweetcard CSS + tweet branch in slide_html (X-style card,
+  avatar initial, formatted views, art_bg backdrop).
+- edu.py: THE SKILL RECEIPT law replaces "1-2 most visual slides"; gen cap
+  3 → 5 (owner-ordered quality push, ~+$1.3/mo worst case, reported).

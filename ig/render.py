@@ -165,6 +165,26 @@ body.card .photocard{flex:1;min-height:0;border-radius:30px;
                      border:2px solid rgba(217,119,87,.45);
                      box-shadow:0 20px 60px rgba(0,0,0,.65)}
 body.card.nomedia .frame{justify-content:center;padding-top:120px}
+/* reaction-receipt slide (owner order Sep 5, @technology Valve-post anatomy:
+   mid-carousel the story's real viral post renders as an X card centered on
+   a dark blurred backdrop — proof the internet is living the story, often
+   the comedy beat. Typeset here so nothing can garble; data injected by
+   write.py from the radar moment, never written by the model). */
+body.tweet .frame{position:relative;z-index:2;height:1350px;display:flex;
+                  align-items:center;justify-content:center;padding:0 64px}
+.tweetcard{width:100%;background:#080809;border:2px solid rgba(255,255,255,.14);
+           border-radius:28px;padding:46px 50px 40px;
+           box-shadow:0 30px 90px rgba(0,0,0,.75)}
+.tweetcard .thead{display:flex;align-items:center;gap:24px;margin-bottom:30px}
+.tweetcard .avatar{width:84px;height:84px;border-radius:50%;flex:none;
+           display:flex;align-items:center;justify-content:center;
+           font-family:Anton;font-size:44px;color:#fff;
+           background:radial-gradient(circle at 32% 28%,#3a3a44 0%,#141419 80%)}
+.tweetcard .tname{font-size:33px;font-weight:800;color:#fff;line-height:1.15}
+.tweetcard .thandle{font-size:28px;font-weight:600;color:#71767b}
+.tweetcard .ttext{font-size:41px;line-height:1.34;font-weight:600;color:#fff}
+.tweetcard .tmeta{margin-top:34px;font-size:27px;font-weight:600;color:#71767b}
+.tweetcard .tmeta b{color:#d6d9db;font-weight:800}
 /* pattern-break slide (owner order Aug 18): full visual interrupt mid-
    carousel — solid brand orange, huge dark type, ONE giant number or ≤6-word
    statement. The inversion IS the re-hook; no photo, no texture. */
@@ -517,6 +537,31 @@ def slide_html(s, total):
 <div class="mast-top">{MASTHEAD}</div>
 <div class="frame">
 <h1>{s["headline"]}</h1>{body}</div>{FIT_JS}</body>'''
+
+    # reaction-receipt slide (owner order Sep 5): the story's REAL source post
+    # typeset as an X card, centered on the dark art backdrop. write.py fills
+    # s["tweet"] from the radar moment; a tweet slide without data was already
+    # demoted upstream, so this branch only fires with real text.
+    if s["type"] == "content" and s.get("layout") == "tweet" and s.get("tweet"):
+        t = s["tweet"]
+        handle = html.escape(t.get("handle") or "")
+        text = html.escape(t.get("text") or "").replace(chr(10), "<br>")
+        views = int(t.get("views") or 0)
+        vfmt = (f"{views / 1e6:.1f}M" if views >= 1e6 else
+                f"{views / 1e3:.1f}K" if views >= 1000 else str(views))
+        meta = html.escape(t.get("when") or "")
+        if views:
+            meta += (" · " if meta else "") + f"<b>{vfmt}</b> Views"
+        meta_html = f'<div class="tmeta">{meta}</div>' if meta else ""
+        initial = html.escape((handle[:1] or "X").upper())
+        return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
+<body class="tweet">{art_bg(text, heavy=True)}
+<div class="mast-top">{MASTHEAD}</div>
+<div class="frame"><div class="tweetcard">
+<div class="thead"><div class="avatar">{initial}</div>
+<div><div class="tname">{handle}</div><div class="thandle">@{handle}</div></div></div>
+<p class="ttext">{text}</p>
+{meta_html}</div></div></body>'''
 
     # profile-card content slide: story text on top, real photo in a rounded
     # card below (@techskills anatomy, owner example Aug 1) — no headline

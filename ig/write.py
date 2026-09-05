@@ -46,7 +46,11 @@ SCHEMA = {
                     "media_idx": {"type": "integer"},
                     "product_shot": {"type": "boolean"},
                     "image_brief": {"type": "string"},
-                    "layout": {"type": "string", "enum": ["card"]},
+                    # "break" was missing from this enum while the prompt
+                    # mandated it — structured output silently forbade the
+                    # break slide on the API path (latent bug, fixed Sep 5)
+                    "layout": {"type": "string",
+                               "enum": ["card", "break", "tweet"]},
                     "discs": {
                         "type": "array", "maxItems": 2,
                         "items": {
@@ -569,7 +573,7 @@ SLOT RULES (all archetypes):
 FORMAT — every INNER-SLIDE and CTA prompt contains these five parts in order (20-45 words total; the cover uses the archetype slot form above instead):
 1. HERO: ONE focal subject, concretely named (the real device/brand/person from the headline — or the CLASH-CAST pair as one unit), frozen at the peak of the exact moment — mid-fall, mid-launch, mid-signature. One focal point only; it is the brightest, sharpest thing in frame.
 2. EMOTION — when the story's person is FAMOUS, the hero IS that person's recognizable likeness at 40%+ of frame height, named explicitly, eyes to camera or locked on the story's object, radiating ONE nameable exaggerated emotion (shock, awe, dread, triumph). Name the emotion in the prompt. FAMOUS FACES ONLY (owner rule Aug 1: generated unfamiliar faces = low conversion, no good outcome): if the story's person is not famous enough for a viewer to recognize, NEVER generate a face — show them from behind, as a silhouette, hands-and-props only, or cut them out of frame entirely and let the objects and stakes carry the drama.
-3. STAKES IN FRAME: make the money/scale/damage physically visible — the pile of cash, the wreckage, the crowd, the giant object beside a person for scale. Stakes a viewer can read in half a second.
+3. STAKES IN FRAME: make the money/scale/damage physically visible — the pile of cash, the wreckage, the crowd, the giant object beside a person for scale. Stakes a viewer can read in half a second. DATA MADE PHYSICAL (18-slide reference audit Sep 5, the gold-record slide: real gold bars stacked huge under a wall of glowing golden candlestick charts — object and data ONE scene): when the slide's claim IS a number or a market move and no person carries it, the environment ITSELF is the data — the chart as a glowing physical wall behind the story's real object, the palette pulled from the object (gold on gold, red on crashing red). Never a floating graph, never a screenshot of a chart.
 4. WORLD: the background is the story's real world (the factory floor, the launchpad, the brand's storefront) carrying context — softer and simpler than the hero, but COLORFUL AND WELL-LIT (the background must read as vibrant and alive, never dim or murky). Never an empty void, never white, never dark.
 5. ACCENT: end with ONE saturated accent color pulled from the subject, set against a rich complementary surround ("accent: signal red against vivid cobalt blue"). Warm saturated accents stop scrolls; whole-frame murk, dim surrounds, and pastels do not.
 
@@ -1107,6 +1111,7 @@ IMAGE ASSIGNMENT — every slide may set "media_idx": N (1-based, matching that 
 - LOOK at each candidate first. Reject any that is stock-looking, blurry, watermarked, a logo, or emotionally flat — a bad image is worse than none.
 - COVER: the most emotionally matching image — a human face or the product/scene in action. A face-only headshot is allowed only when the story IS about that person.
 - INNER slides — IMAGE-CLAIM LOCK (owner audit Aug 1, the Reddit post-mortem: slide 2 claimed "stock crashed 23%" but showed ANOTHER phone-with-logo, nearly identical to the cover): the image must show THAT slide's exact claim, never the story's topic again — the crash slide shows the crash, the lawsuit slide the courtroom, the payout slide the money. If no candidate depicts the slide's claim, do NOT assign one — write an image_brief that does. An image whose subject or composition repeats the cover's image is banned.
+- EMOTIONAL REGISTER MATCH (18-slide reference audit Sep 5: for a death story the page ran a black-and-white portrait of the person with her keepsake — the MOOD of the photo carried the slide): the photo's emotional temperature must match the slide's claim — grief gets somber, a win gets bright, a fight gets tense. A cheerful photo under a grim claim is a WRONG photo even when the subject matches.
 - MEDIA ON EVERY SLIDE (owner audit Aug 1 — the reference carousels carry real media on ALL slides; our shipped text-only slides were the visible gap): every content slide must end with media_idx OR an image_brief. A real photo always beats a generated scene; a naked text slide is a broken slide.
 - PERSON STORY (Situational-Awareness post-mortem Aug 1 — the reference page ran FOUR different real photos of the same man, one per story beat, while we showed his real face once and shipped two near-black slides): when the story has a protagonist, spread every DIFFERENT real photo of that person across the slides — podcast shot on the backstory slide, portrait on the bet slide — each matched to its beat. Same person, new photo each swipe.
 - Never assign the same image to two slides."""
@@ -1140,6 +1145,21 @@ IMAGE ASSIGNMENT — every slide may set "media_idx": N (1-based, matching that 
                   "someone's word and the footage doesn't show it, CUT the claim instead "
                   "of hedging it. The source gets credited once, in the caption's Sources "
                   "line, never on a slide.\n")
+        if m.get("selftext") and "on X" in (m.get("where") or ""):
+            proof += (
+                "\nTHE REACTION RECEIPT (owner order Sep 5, measured on the reference "
+                "page — mid-carousel it renders the story's viral post ITSELF as a real "
+                "X card on a dark backdrop: proof the internet is living this story "
+                "right now, and often the comedy beat): ONE mid-chain content slide "
+                "(never slide 2, never the last two) MAY set \"layout\": \"tweet\" with "
+                "\"headline\": \"\" and no body, no media_idx, no image_brief — the "
+                "pipeline typesets the REAL source post (its exact words, handle and "
+                "view count) as the whole slide; you never write the tweet text "
+                "yourself. Use it ONLY when the post's own words carry punch, absurdity "
+                "or comedy the retelling can't match — a dry tweet (a bare link, a "
+                "plain claim) makes a wasted slide, skip it. This card is the ONE "
+                "exception to the never-quote rule: the artifact renders whole, it is "
+                "never retyped into a body.\n")
     if retold:
         facts = "\n".join(f"- {f}" for f in retold["facts"])
         story_block = f"""THE STORY — as a 19-year-old told it to a friend. This is your REGISTER: the post must sound like this person talking, never like the news article underneath:
@@ -1509,6 +1529,13 @@ def qa(post):
                 errs.append(f"slide {i+1}: break slide headline has <em> — the "
                             "break slide's whole line is the accent, no <em>")
             continue
+        if s.get("layout") == "tweet":
+            # REACTION RECEIPT (owner Sep 5): the real source post typeset as
+            # an X card — no headline, no body; the pipeline injects the data
+            if i < 2 or i >= len(slides) - 2:
+                errs.append(f"slide {i+1}: tweet receipt must sit mid-chain — "
+                            "never slide 1-2, never the last two")
+            continue
         if "<em>" not in s["headline"]:
             errs.append(f"slide {i+1}: headline has no <em> accent")
     # summarizing cover (owner flip Aug 1, reference-page audit — REVERSES
@@ -1596,7 +1623,8 @@ def qa(post):
         # ship a naked text slide). image_brief counts — the gen ladder and
         # its budget guard decide later; a slide may still RENDER text-only
         # if generation fails, so the always-post rule is never at risk
-        if (s["type"] == "content" and s.get("layout") != "break"
+        if (s["type"] == "content"
+                and s.get("layout") not in ("break", "tweet")
                 and not s.get("media_idx")
                 and not (s.get("image_brief") or "").strip()):
             errs.append(f"slide {i+1}: no media_idx and no image_brief — every "
@@ -1641,7 +1669,7 @@ def qa(post):
             return out
         seen_nums = {}
         for i, s in enumerate(slides):
-            if s["type"] != "content" or s.get("layout") == "card":
+            if s["type"] != "content" or s.get("layout") in ("card", "tweet"):
                 continue
             dup = _nums(s.get("headline")) & _nums(s.get("body"))
             if dup:
@@ -1660,7 +1688,8 @@ def qa(post):
     # Story flow only (container key); card-format biographies exempt
     if post.get("container") and not profile:
         content = [(i, s) for i, s in enumerate(slides)
-                   if s["type"] == "content"]
+                   if s["type"] == "content"
+                   and s.get("layout") != "tweet"]  # card has no own text
         # "you" cadence: no 3 consecutive content slides without second person
         run = 0
         for i, s in content:
@@ -1707,7 +1736,7 @@ def qa(post):
                     and all(len(l.lstrip("•- ").split()) <= 8 for l in lines))
         if not any(_stack(s) for s in slides[1:-1]
                    if s["type"] == "content" and s.get("layout") not in
-                   ("break", "card")):
+                   ("break", "card", "tweet")):
             errs.append("no facts-stack slide — ONE inner content slide must "
                         "stack the story's 3-4 hardest facts as short lines "
                         "(\\n between them, max 8 words each, the number in "
@@ -1717,7 +1746,8 @@ def qa(post):
     # failure. Skill slides (proof + prompt) need at least one blank line;
     # story slides with 100+ chars of body need at least one line break.
     for i, s in enumerate(slides):
-        if s["type"] != "content" or s.get("layout") in ("break", "card"):
+        if s["type"] != "content" or s.get("layout") in ("break", "card",
+                                                         "tweet"):
             continue
         body = s.get("body") or ""
         if len(body) > 120 and "\n" not in body:
@@ -1896,6 +1926,27 @@ def main(stories_path):
             used.add(mi)
             s["media"] = os.path.relpath(media_files[mi - 1], HERE)
 
+    # REACTION RECEIPT (owner order Sep 5, the reference-page anatomy): the
+    # writer may flag ONE slide "layout": "tweet" — the PIPELINE injects the
+    # real source post's text/handle/views here, so nothing can be fabricated.
+    # No real X data -> the flag is stripped and the slide becomes a normal
+    # content slide (qa already required nothing tweet-specific of its text).
+    m = story.get("radar") or {}
+    for s in post["slides"]:
+        if s.get("layout") != "tweet":
+            continue
+        if m.get("selftext") and "on X" in (m.get("where") or ""):
+            posted = datetime.fromtimestamp(
+                time.time() - float(m.get("age_h") or 0) * 3600)
+            s["tweet"] = {"handle": m.get("sub") or "",
+                          "text": m["selftext"][:290],
+                          "views": int(m.get("views") or 0),
+                          "when": posted.strftime("%b %d, %Y")}
+            s.pop("image_brief", None)  # the card IS the visual — never gen
+            s["media"] = None
+        else:
+            s.pop("layout", None)
+
     # FLUX claim-visualization images (owner call Jul 28, $3/mo): the COVER is
     # always generated — it decides the swipe and generic press photos were the
     # weak point. Inner slides: real article image wins, generated fills gaps.
@@ -1919,6 +1970,8 @@ def main(stories_path):
 
     def render_slide(i, s):
         nonlocal gen, cover_scored, cover_brief
+        if s.get("layout") == "tweet":
+            return  # reaction receipt: typeset X card, no image ever
         brief = s.pop("image_brief", "").strip()
         want_ref = s.pop("gen_ref", False) and ref_photo
         # PERSON ROUTE — REF-PHOTO LAW (Sep 4, Bernie post-mortem): a face

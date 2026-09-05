@@ -197,6 +197,17 @@ INSTANT KILL — no other rule can save these:
   empty-top covers are failures.
 - Image proves the NOUN, headline carries the NUMBERS. Pointing hooks
   ("THIS GUY") only when the image shows the exact referent.
+- THE INNER SLIDE IS THE RECEIPT (owner order Sep 5, 18-slide reference
+  audit): every inner slide's picture is that slide's OWN claim staged as its
+  most literal proof artifact — a real press moment of THIS slide's actor
+  (emotional register matched to the claim: B&W portrait for a death, grin
+  for a win) > source footage/screenshot on a styled card > the real reaction
+  post typeset as an X card (pipeline-injected data only, never written by
+  the model) > a data-made-physical composite (the story's real object + its
+  chart as one physical scene, palette from the object). A picture that
+  merely decorates the slide instead of proving it is a FAIL. Edu inner
+  slides: the EXACT feature mid-use on a real device (skill receipt, garble
+  guard: one crisp 1-3-word quoted screen element, rest soft-focus).
 
 ## 4. STORYTELLING LAW — inside the carousel
 
