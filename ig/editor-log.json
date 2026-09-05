@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-01T14:06:25Z",
-  "gate": "A",
-  "subject": "Extremely severe extinction events happen every 100M years or so and just switching to sustainable energy will not be en",
-  "verdict": "KILL",
-  "reason": "Single-tweet prediction with no real-world event or consequence—this is pure climate/geology bolted with space-tech mentions, matching the rejected off-lens pattern, and would require heavy padding to build."
- },
- {
   "t": "2026-09-01T14:06:37Z",
   "gate": "A",
   "subject": "We need to talk about Anthropic. Its relationship with its power users appears to be collapsing in real time. A few week",
@@ -2098,5 +2091,12 @@
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "APPROVE",
   "reason": ""
+ },
+ {
+  "t": "2026-09-05T11:52:46Z",
+  "gate": "A",
+  "subject": "Le fait que les potes de SwordOfSalomon aient appelé mon ancien employeur (je leur ai dit que j’étais viré depuis 8 mois",
+  "verdict": "KILL",
+  "reason": "Reaction-bait from unknown actors: someone tried online intimidation, the author's anecdote is that their employer didn't care — no real consequence, no documented event, no famous names or universal angle, and off-topic for a tech/AI news page."
  }
 ]
