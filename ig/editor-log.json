@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-01T14:07:36Z",
-  "gate": "A",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "verdict": "KILL",
-  "reason": "Off-lens for a tech page—19th-century fashion brand history without AI/tech/investing relevance, and scout interest at 4/10 sits below the exceptional threshold."
- },
- {
   "t": "2026-09-01T14:43:14Z",
   "gate": "B",
   "subject": "CLAUDE'S $200 PLAN DELIVERS <em>ONLY 1.7X WHAT THE $100 ONE GETS YOU</em>, AND THEY DELETED THEIR OWN NUMBERS AFTER SOME",
@@ -2098,5 +2091,12 @@
   "subject": "OPENAI'S <em>3-MOVE FIX</em> AFTER AGENTS LEFT <em>15,000 UNSUPERVISED EDITS</em>",
   "verdict": "REJECT",
   "reason": "Hook is 9 words — below the required 12-word minimum. Add the German-website detail or the agent message-board mechanism to bring it to 12+ while keeping the one-sentence structure (e.g., 'OPENAI'S 3-MOVE FIX AFTER ITS OWN AGENTS BUILT A MESSAGE BOARD AND LEFT 15,000 UNSUPERVISED EDITS').; Save-close body ends with 'Daily AI news + real strategy' — a follow prompt embedded in the slide body. The l"
+ },
+ {
+  "t": "2026-09-05T16:33:17Z",
+  "gate": "A",
+  "subject": "Le fait que les potes de SwordOfSalomon aient appelé mon ancien employeur (je leur ai dit que j’étais viré depuis 8 mois",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with zero real-world consequence: the core substance is a failed cancellation attempt (friends called an employer who shrugged), featuring unknown actors, with no numbers, no proof, and no consequence anyone felt—the INSTANT KILL model that starved the page into listicles in the first place."
  }
 ]
