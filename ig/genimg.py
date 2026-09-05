@@ -48,13 +48,33 @@ URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 NANO_URL = "https://api.replicate.com/v1/models/google/nano-banana/predictions"
 NANO_COST = 0.04
 
-# BRUTAL COVER FORMAT (owner order Sep 4, Bernie post-mortem vs @technology):
-# news covers are no longer freeform scenes — they are a FROZEN collage
-# scaffold where only four slots vary (person+emotion, props, palette). The
-# reference cover anatomy: real-photo cutout subject + oversized symbolic
-# props behind + heavy saturated grade. Precision comes from the scaffold
-# never changing; the brief only fills slots. Square frame (nano 1:1, the
+# BRUTAL COVER FORMAT (owner Sep 4-5, measured across 30 @technology covers):
+# news covers are FROZEN-craft collages; the brief fills slots (SUBJECT /
+# BACKDROP PROPS / PALETTE + optional LABELS / INSET). The ARCHETYPE — who or
+# what fills the frame — varies by story type and is chosen upstream in
+# art_direct (policy collage / vendor cast / human moment / product hero /
+# labeled comparison / evidence+inset / symbolic drama). The CRAFT below
+# never varies: real-photo raw material, razor cutouts, one dominant
+# subject, oversized props, brutal saturation. Square frame (nano 1:1, the
 # renderer's scrim owns the headline zone — never bake black bands in).
+_COLLAGE_SHARED = (
+    "LABELS AND INSET (ONLY when the brief lists them — otherwise render "
+    "zero text): each briefed LABEL is one small rectangular caption chip, "
+    "bold clean sans-serif, exactly the quoted 1-3 words and no other "
+    "wording, white on black or on a brand color, pinned beside its target "
+    "in the UPPER two-thirds of the frame — never in the bottom quarter, "
+    "which the slide layout fades to black — optionally tied to its target "
+    "by a thin hand-drawn white arrow. A briefed INSET "
+    "is one circular photo bubble with a thin white ring, placed in an upper "
+    "corner over the backdrop, showing exactly the briefed detail, tied to "
+    "the scene by a thin white arrow. "
+    "GRADE: very high saturation, high contrast, crisp and sharpened, bright "
+    "key light on the subject, rich glowing backdrop unified in the briefed "
+    "two-color palette. "
+    "HARD BANS: no text or letters anywhere except the exact quoted LABEL "
+    "chips and real brand logo marks, no invented words, no watermarks, no "
+    "cartoon, no illustration, no 3D render — every element photorealistic "
+    "like a graded press-photo composite.")
 COLLAGE_PERSON = (
     " FORMAT LAW — photorealistic breaking-news collage cover, square frame. "
     "SUBJECT: the person from the attached reference photo, cut-out style — "
@@ -65,28 +85,19 @@ COLLAGE_PERSON = (
     "the head, backdrop only there. "
     "BACKDROP directly behind the subject, large and unmistakable: ONLY the "
     "briefed props, oversized so each one reads at phone-thumbnail size, "
-    "partially overlapped by the subject for cutout depth. "
-    "GRADE: very high saturation, high contrast, crisp and sharpened, bright "
-    "key light on the subject, rich glowing backdrop unified in the briefed "
-    "two-color palette. "
-    "HARD BANS: no text or letters anywhere, no watermarks, no extra people, "
-    "no cartoon, no illustration, no 3D render — every element photorealistic "
-    "like a graded press-photo composite.")
+    "partially overlapped by the subject for cutout depth; a prop that is a "
+    "brand logo renders as the real mark, giant, glossy and dimensional. "
+    "No extra people beyond the briefed subject. " + _COLLAGE_SHARED)
 COLLAGE_FACELESS = (
     " FORMAT LAW — photorealistic breaking-news collage cover, square frame. "
-    "SUBJECT: the single briefed hero object, cut-out style, centered, "
-    "filling 50-60% of the frame height, razor-sharp edges with a subtle "
-    "light rim; no people anywhere in the frame, not even silhouettes or "
-    "hands. "
+    "SUBJECT: the briefed hero object — or, when the brief stages a "
+    "comparison, the briefed 2-3 objects side by side at identical size and "
+    "angle — cut-out style, centered, filling 50-60% of the frame height, "
+    "razor-sharp edges with a subtle light rim; no people anywhere in the "
+    "frame, not even silhouettes or hands. "
     "BACKDROP directly behind the subject, large and unmistakable: ONLY the "
     "briefed props, oversized so each one reads at phone-thumbnail size, "
-    "partially overlapped by the subject for cutout depth. "
-    "GRADE: very high saturation, high contrast, crisp and sharpened, bright "
-    "key light on the subject, rich glowing backdrop unified in the briefed "
-    "two-color palette. "
-    "HARD BANS: no text or letters anywhere, no watermarks, no cartoon, no "
-    "illustration, no 3D render — every element photorealistic like a graded "
-    "press-photo composite.")
+    "partially overlapped by the subject for cutout depth. " + _COLLAGE_SHARED)
 
 
 def _key():

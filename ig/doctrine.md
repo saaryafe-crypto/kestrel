@@ -162,14 +162,27 @@ INSTANT KILL — no other rule can save these:
   The thumb test: seen once at feed size, a stranger guesses the story.
   Faces earn attention (+38% likes across 1.1M photos) — default to a human
   face when the story has one.
-- A PHOTOGRAPH OF THE PHYSICAL WORLD, ALWAYS (owner order Sep 3 — a cartoon
-  game-world background and a pure-illustration knight cover shipped the
-  same day; his verdict: "the baddest quality ever"): every cover reads as
-  a real press photo of a real place. Digital things (games, apps, videos,
-  AI outputs) appear only ON a real screen or as a real physical prop
-  inside the scene. A frame that reads as illustration, cartoon, game
-  render, or concept art — anywhere outside a depicted screen — is a
-  REJECT, whatever its concept.
+- THE COVER IS THE HEADLINE'S PROOF, BUILT AS ONE OF SEVEN ARCHETYPES
+  (owner Sep 4-5, measured across 30 reference covers): the picture answers
+  "what would prove this headline in half a second". Policy/ban → the famous
+  actor + the ban made physical (red circle over the banned thing); company/
+  product with a famous CEO or a builder → the person + giant glossy brand
+  mark + the real product; human moment → the person's single emotional
+  press photo, no props; product launch → the product huge in its world;
+  benchmark/leak → labeled side-by-side comparison; caught-on-camera → the
+  real evidence photo + one circular inset; abstract claim with no legal
+  face → one hero object mid-drama. Wrong archetype for the story type is a
+  concept failure even if the render is beautiful.
+- PHOTOREAL ELEMENTS, ALWAYS (owner order Sep 3, amended Sep 5 — the Sep 3
+  law said "a real place"; the 30-cover audit showed news covers are
+  photoreal COLLAGES: cutout subject over oversized floating props, boxed
+  1-3-word label chips, one circular inset bubble — a COMPOSITE is house
+  style, not a violation): every ELEMENT in the frame must read as
+  photographed — real skin, real product, real logo mark, real photo
+  fragments. A frame or any element that reads as illustration, cartoon,
+  game render, or concept art — anywhere outside a depicted screen — is a
+  REJECT, whatever its concept. Edu/guide covers additionally stay full
+  staged scenes in a real place (the Sep 3 law unamended).
 - A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER. Screenshots may
   appear INSIDE as receipt evidence on a styled card, never as the face of
   the post. (The Queen meme-screenshot cover dies here.)

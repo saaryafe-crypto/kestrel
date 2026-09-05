@@ -329,3 +329,89 @@ designed; a cropped photo reads broken. Inner-slide corollary: when a slide
 shows a real screenshot/UI, the reference treatment is the COMPLETE artifact
 as a floating card on dark, never an edge-to-edge crop (not wired yet — we
 generate photos, no real-screenshot lane).
+
+## 7. THE COVER ARCHETYPES — the 30-cover forensic audit (Sep 4-5 2026, owner order)
+
+The Sep 4 "brutal collage" was built from ONE reference cover (Bernie). The
+owner then dropped THIRTY covers from the reference page (3 grid screenshots
+in ~/Desktop/"optimal 1", tiles archived mentally here) and ordered the real
+principle extracted: **the page has no single image formula — it picks the
+picture by asking "what would PROVE this headline in half a second", then
+builds that proof as a saturated photoreal composite.** The picture is always
+the story's PROOF or its CONSEQUENCE staged, never decoration.
+
+### The story→picture map, cover by cover
+
+| Story | Picture | Why that picture |
+|---|---|---|
+| Nvidia DLSS 5 launches with NBA 2K27 | same game frame twice, chips "DLSS 5 Off/On" + arrows | before/after IS the product's whole claim |
+| Tesla Cybercab launches, undercuts Uber | real product photo, doors up, real street | the object itself is the shock; add nothing |
+| OpenAI builds AI "kill switch" | plain close-up of a worried Altman, dark grade | the story is fear at the top; the face carries it |
+| China puts scientists on billboards | real subway photo + round flag inset + arrow | "this is really happening" needs raw evidence |
+| DLSS 5 leaked, modders using it | game face vs game face, "DLSS 4.5"/"DLSS 5" labels | comparison — labels argue, eye spot-the-differences |
+| iPhone 18 Pro color lineup | exec cutout between two GIANT phones | person for trust + the products as the news |
+| GTA VI limited controllers | the game's own character holding the real controllers | product presented by its own famous world |
+| Dyson $499 AI toothbrush | products + circular zoom bubbles on each feature | a weird gadget sells on its features, zoomed |
+| OpenAI GPT-6 Astra | real Altman seated + one galaxy inset bubble | launch with nothing to show → face + one symbol |
+| Pixel vs iPhone vs Galaxy | three phones, flaming "VS" between | the VS poster — a fight, not a spec sheet |
+| Polymarket 20x leverage | DiCaprio Wolf of Wall Street + trading-UI bubble | culture cast: the domain's one iconic movie scene |
+| Quantum breaks Bitcoin in 9 min | giant cracking Bitcoin in flames + digital clock 09:00 | no face, no product → violent metaphor + the number as a physical prop |
+| Patagonia founder gave it away | Chouinard cutout + logo badge + young-him climbing photo | a life story = a biographical multi-photo collage |
+| NYC bans AI in schools | official at podium + red circle over "AI" + classroom inset | power + the banned thing + the affected, one frame |
+| New Apple CEO John Ternus | cutout + orbit of every Apple product + ghost logo | "meet the man who now owns ALL of this" |
+| Gmail hidden powers (guide) | Pichai + giant Gmail M + real UI + frustrated woman | vendor cast + the story's character + evidence |
+| AirPods hidden features (guide) | Tim Cook holding the case + chrome Apple mark | vendor cast holding the exact product |
+| Cook's last day as CEO | press photo of him wiping his eye — nothing else | when the story IS a feeling, props dilute it |
+| GTA VI vs GTA V | split of both games' art + both logos | comparison |
+| Sony: you don't own digital games | dark PS5 still-life, disc + controller | the objects in question, staged like evidence |
+| ChatGPT plans your trip (guide) | Altman relaxed on a beach + giant glowing ChatGPT logo | vendor CEO living the READER's scenario |
+| First-person Waldo game | raw game screenshot | the content itself is the hook — show it |
+| Flappy Bird creator story | Dong Nguyen cutout + name chip + his game world | builder + his creation + LABEL name chip |
+| Higgsfield recreates any video | "ORIGINAL" vs output, arrow between | before/after with labels |
+| F-22 vanishes in vapor cloud | the actual caught photo + photographer inset + arrow | the story is the photo; inset credits the moment |
+| GTA 6 made $450M pre-launch | game characters + flying money + "$5 MILLION in pre-orders" data chip | world + the number pinned as a chip |
+| iPhone worst-day features | Cook holding the phone out + chrome Apple mark | vendor cast, product to camera |
+| Things worth millions (listicle) | 4-photo grid (sneakers, watch, car, stamp) | list post = grid of the actual things |
+| Daily recaps ×2 | multi-story photo grid / one movie still | recap = collage of the day, or pure attention bait |
+
+### The seven archetypes (operative, coded into art_direct + genimg Sep 5)
+
+Chosen by STORY TYPE — wrong archetype = concept failure:
+- **A. POLICY/BAN collage** — famous actor + the ban made physical (red
+  prohibition circle over the banned thing, bars/gavel) + optional inset of
+  the affected. (~3 of 30 — the Bernie format is ONE lane, not the law.)
+- **B. VENDOR CAST / BUILDER** — the person + giant glossy dimensional brand
+  mark + the real product oversized. THE DOMINANT PERSON FORMAT (~7 of 30).
+- **C. HUMAN MOMENT** — one emotional real press photo, zero props, brand
+  mark ghosted at most.
+- **D. PRODUCT HERO** — the product giant in its real world; no person.
+- **E. LABELED COMPARISON / VS** — digital content compares as a FULL-BLEED
+  split (the imagery fills the frame edge-to-edge, thin dividing line, no
+  monitors/desk/room); physical products as the objects themselves huge,
+  flaming VS between. Mandatory 1-3-word boxed label chips either way; the
+  difference staged VIOLENT, never polite.
+- **F. EVIDENCE + INSET** — the real documentary photo + ONE circular bubble
+  (white ring, white hand-drawn arrow) with the secondary proof.
+- **G. SYMBOLIC DRAMA** — faceless hero object mid-violence; the headline's
+  number may appear as a physical prop (clock, odometer, price tag).
+
+### Craft constants (every archetype, frozen in genimg scaffolds)
+
+- ONE dominant subject; 2-3 props max, oversized to thumbnail-read.
+- Real photographs as raw material — people and products are cutouts of real
+  photos, never memory-drawn; AI composes and grades.
+- Razor cutout edges + light rim; upper corners clear of the head.
+- Brutal grade: very high saturation, high contrast, two-color palette.
+- In-image text: ONLY quoted label chips (1-3 words, boxed, max 3) and real
+  logo marks. Garbled or invented words = dead cover.
+- Bottom of frame stays simple — the renderer's scrim owns the headline zone.
+
+### Hook constants read off the same 30
+
+- Name/brand in the first words on ~90% (name-first law confirmed at scale).
+- A number on almost every cover: $499, 44%, $450M, 600,000, 20 years, 9 min.
+- The small white substrip (our kicker) rides on ~90% of covers carrying the
+  next-best fact — treat it as default-on for news.
+- Formulas seen: "X JUST launched/built/revealed", "HERE'S THE NEW", "MEET X,
+  THE...", "A GUY/WOMAN USED X FOR N YEARS THINKING...", "THIS BILLIONAIRE/
+  PROGRAMMER...", second-person "YOUR IPHONE HAS...".
