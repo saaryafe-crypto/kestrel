@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T11:46:22.683037+00:00",
+ "updated": "2026-09-05T13:47:38.034889+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -150,6 +150,37 @@
    ]
   },
   {
+   "id": "2095837897647686028",
+   "title": "Ok GPT-6 Astra is insane. People can't stop building. 10 wild examples.",
+   "sub": "minchoi",
+   "where": "@minchoi on X",
+   "unit": "likes",
+   "selftext": "Ok GPT-6 Astra is insane. People can't stop building. 10 wild examples.",
+   "permalink": "https://x.com/minchoi/status/2095837897647686028",
+   "outlink": null,
+   "score": 6555,
+   "comments_n": 135,
+   "views": 1269098,
+   "age_h": 26.2,
+   "vph": 250.2,
+   "image": null,
+   "video": null,
+   "guide": true,
+   "thread": [
+    "@investandcreate Yup",
+    "@shipcircuit People with early access",
+    "@Haydar_web3 It will be wild",
+    "@aijoey We all waiting",
+    "@gouthamjay8 yup... the possibility with this level of capability is \ud83d\udd25",
+    "@webdesignerng 10 wild examples",
+    "@aholcombtrial people tend to do these first for the spectacles and their interest",
+    "@BJensen89 for now",
+    "@RAVIKUMARSAHU78 yes",
+    "@kryptosopus that's already being done"
+   ],
+   "born": 1788521650.844084
+  },
+  {
    "id": "2094129094673735922",
    "title": "How to share your Grok @Bot design with others",
    "sub": "elonmusk",
@@ -168,37 +199,6 @@
    "guide": true,
    "wide_guide": true,
    "born": 1788114218.084242
-  },
-  {
-   "id": "2095837897647686028",
-   "title": "Ok GPT-6 Astra is insane. People can't stop building. 10 wild examples.",
-   "sub": "minchoi",
-   "where": "@minchoi on X",
-   "unit": "likes",
-   "selftext": "Ok GPT-6 Astra is insane. People can't stop building. 10 wild examples.",
-   "permalink": "https://x.com/minchoi/status/2095837897647686028",
-   "outlink": null,
-   "score": 5768,
-   "comments_n": 116,
-   "views": 1107519,
-   "age_h": 24.2,
-   "vph": 238.3,
-   "image": null,
-   "video": null,
-   "guide": true,
-   "thread": [
-    "@investandcreate Yup",
-    "@shipcircuit People with early access",
-    "@Haydar_web3 It will be wild",
-    "@aijoey We all waiting",
-    "@gouthamjay8 yup... the possibility with this level of capability is \ud83d\udd25",
-    "@webdesignerng 10 wild examples",
-    "@aholcombtrial people tend to do these first for the spectacles and their interest",
-    "@BJensen89 for now",
-    "@RAVIKUMARSAHU78 yes",
-    "@kryptosopus that's already being done"
-   ],
-   "born": 1788521650.844084
   },
   {
    "id": "2087433011478634944",
@@ -512,6 +512,25 @@
    "guide": true,
    "wide_guide": true,
    "born": 1787114721.507617
+  },
+  {
+   "id": "2096133504417616165",
+   "title": "How we think about the \u201cwiki incident,\u201d where our agents wrote to several internet sites: it\u2019s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of ou",
+   "sub": "OpenAI",
+   "where": "@OpenAI on X",
+   "unit": "likes",
+   "selftext": "How we think about the \u201cwiki incident,\u201d where our agents wrote to several internet sites: it\u2019s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models. Historically, we have treated misalignment largely as a research question, which gets communicated in research publications such as systems cards. This year, we\u2019ve started to see misalignment cause new types of real-world impact. For the Hugging Face incident, where misalignment led to security impact to us and third parties, we followed a traditional security incident response playbook. We immediately started working with Hugging Face to understand what had happened and also disclosed publicly the very next day. Our investigation continues, and we are continuing to notify parties whom our models impacted in less significant ways. Prior to the Hugging Face incident, we saw early signs of agents using the internet in unintended ways, as reported in   and  We considered the wiki incident to be an instance of misalignment similar to the ones we\u2019d shared. Our misalignment disclosure practices need to expand for this new phase of model capabilities. We and the larger AI community do not yet have a clear standard for how to report misalignment that shows up during training, evaluation, and deployment, including examples that don\u2019t look like traditional security incidents but could provide insight into AI behavior and future risks. We\u2019re working on a framework and will share it in upcoming weeks, and in parallel we're working with dozens of government regulatory agencies worldwide on these issues.",
+   "permalink": "https://x.com/OpenAI/status/2096133504417616165",
+   "outlink": null,
+   "score": 2504,
+   "comments_n": 314,
+   "views": 351956,
+   "age_h": 6.6,
+   "vph": 378.1,
+   "image": "https://pbs.twimg.com/media/HRb1iJXbsAADtBM.jpg",
+   "video": null,
+   "guide": true,
+   "born": 1788592298.034889
   },
   {
    "id": "2094996936336031976",
