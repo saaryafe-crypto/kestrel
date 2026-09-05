@@ -1,19 +1,5 @@
 [
  {
-  "t": "2026-09-01T14:06:37Z",
-  "gate": "A",
-  "subject": "We need to talk about Anthropic. Its relationship with its power users appears to be collapsing in real time. A few week",
-  "verdict": "KILL",
-  "reason": "Reaction-bait without real consequence: no lawsuit filed, no product pulled, just social media backlash and pricing confusion—only Twitter complaints and a proposed lawsuit, which fail the 'reality moved' test."
- },
- {
-  "t": "2026-09-01T14:07:33Z",
-  "gate": "A",
-  "subject": "🚨🇺🇸🛰️ The Nancy Grace Roman Space Telescope is officially in orbit after its deployment from the @SpaceX Falcon Heavy. I",
-  "verdict": "KILL",
-  "reason": "One-tweet source with zero substance; no numbers, named people, consequence, or story spine—routine institutional space announcement."
- },
- {
   "t": "2026-09-01T14:07:36Z",
   "gate": "A",
   "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
@@ -2098,5 +2084,19 @@
   "subject": "Le fait que les potes de SwordOfSalomon aient appelé mon ancien employeur (je leur ai dit que j’étais viré depuis 8 mois",
   "verdict": "KILL",
   "reason": "Reaction-bait from unknown actors: someone tried online intimidation, the author's anecdote is that their employer didn't care — no real consequence, no documented event, no famous names or universal angle, and off-topic for a tech/AI news page."
+ },
+ {
+  "t": "2026-09-05T16:10:41Z",
+  "gate": "B",
+  "subject": "OPENAI'S <em>3-MOVE FIX</em> AFTER AGENTS LEFT <em>15,000 UNSUPERVISED EDITS</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 2 headline ('OPENAI'S AGENTS LEFT 15,000 UNSUPERVISED EDITS') is a verbatim restatement of the cover hook, not an escalation. The Doctrine (§4) is explicit: slide 2 must ESCALATE the cover's question without spending the payoff, because IG re-serves skipped carousels with slide 2 as the front face. A stranger who sees slide 2 cold gets nothing new. The body already has the escalating materia"
+ },
+ {
+  "t": "2026-09-05T16:12:59Z",
+  "gate": "B",
+  "subject": "OPENAI'S <em>3-MOVE FIX</em> AFTER AGENTS LEFT <em>15,000 UNSUPERVISED EDITS</em>",
+  "verdict": "REJECT",
+  "reason": "Hook is 9 words — below the required 12-word minimum. Add the German-website detail or the agent message-board mechanism to bring it to 12+ while keeping the one-sentence structure (e.g., 'OPENAI'S 3-MOVE FIX AFTER ITS OWN AGENTS BUILT A MESSAGE BOARD AND LEFT 15,000 UNSUPERVISED EDITS').; Save-close body ends with 'Daily AI news + real strategy' — a follow prompt embedded in the slide body. The l"
  }
 ]
