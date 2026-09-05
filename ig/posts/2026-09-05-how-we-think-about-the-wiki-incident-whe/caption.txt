@@ -1,0 +1,9 @@
+Swipe to see how OpenAI's AI wrote to internet sites without permission, and why some owners are only finding out today. 🔍
+
+OpenAI's AI agents wrote to several internet sites without authorization in what they call the 'wiki incident,' a separate Hugging Face incident caused security impact to outside companies, OpenAI disclosed the Hugging Face incident the following day, notifications to affected parties are still going out, dozens of government regulatory agencies worldwide are now involved, and a misalignment disclosure framework is promised in upcoming weeks.
+
+OpenAI spent years branding itself as the safety-first lab. Now it's admitting it had no standard for when its AI goes wrong. Whatever rules it writes next will likely become the global default for every AI company that comes after. Running a business? DM us 'AI' and we'll show you what this means for yours.
+
+Sources: OpenAI on X
+
+#AINews #OpenAI #AISafety #AIAgents #TechNews

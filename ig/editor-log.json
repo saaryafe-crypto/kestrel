@@ -1,194 +1,5 @@
 [
  {
-  "t": "2026-09-01T14:43:14Z",
-  "gate": "B",
-  "subject": "CLAUDE'S $200 PLAN DELIVERS <em>ONLY 1.7X WHAT THE $100 ONE GETS YOU</em>, AND THEY DELETED THEIR OWN NUMBERS AFTER SOME",
-  "verdict": "REJECT",
-  "reason": "TRUTH LAW — 'Anthropica' is not the company's name; it is 'Anthropic'. The misspelling appears in slide 2 body ('Anthropica's own pricing page'), slide 5 body ('Anthropica's own table'), and the caption ('Anthropica named'). Publishing this would embarrass the page and destroy the factual credibility the post is built on. Fix: find-replace all three instances.; HOOK LAW §2 — The hook joins two act"
- },
- {
-  "t": "2026-09-01T15:07:07Z",
-  "gate": "B",
-  "subject": "5 PROMPTS THAT MAKE CLAUDE <em>FINISH YOUR TASK FOR REAL</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH violation: the cover uses Dario Amodei's face, but he has no role in this story. The post is a generic prompting guide — he is not quoted, he did not discover these techniques, and he made no announcement connected to them. His face implies he is the story; he is not. Fix: replace the cover image with a styled prompt-card visual, a real screenshot of Claude mid-task, or a generated scen"
- },
- {
-  "t": "2026-09-01T15:09:06Z",
-  "gate": "B",
-  "subject": "THE 5 PROMPTS THAT STOP CLAUDE FROM <em>QUITTING HALFWAY THROUGH YOUR JOB</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW / CAST TRUTH: The cover shows Dario Amodei (Anthropic CEO), a recognizable famous person who plays zero role in this post. The post teaches five prompting techniques — Dario does nothing, says nothing, and appears in no slide. Per doctrine: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT — a celebrity as decoration breaks image-head"
- },
- {
-  "t": "2026-09-01T17:16:38Z",
-  "gate": "A",
-  "subject": "BREAKING: Sony has sued Anthropic over AI music training, and is seeking $150,000 per song, per YF",
-  "verdict": "KILL",
-  "reason": "Lawsuit announcement without damages total, timeline, or fallout—insufficient substance and lacks the jaw-drop needed to earn a slot instead of filling one."
- },
- {
-  "t": "2026-09-01T17:17:08Z",
-  "gate": "A",
-  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
-  "verdict": "KILL",
-  "reason": "Off-lens: pharmaceutical ethics story that doesn't fit the required AI/tech/space lenses."
- },
- {
-  "t": "2026-09-01T17:17:11Z",
-  "gate": "A",
-  "subject": "🇩🇪 A Berlin artist made a loud Hawaiian shirt that can hide you from some AI cameras. Simon Weckert kept testing pattern",
-  "verdict": "KILL",
-  "reason": "While clever, it lacks the jaw-dropping stakes or impact that would make readers stop scrolling—interesting proof-of-concept with limited scope (one model, doesn't fool surveillance/cops) and modest consequence ($75 shirt)."
- },
- {
-  "t": "2026-09-01T17:17:34Z",
-  "gate": "A",
-  "subject": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon H",
-  "verdict": "KILL",
-  "reason": "The source is one thin tweet with nothing behind it—no numbers, no second fact, no consequence to build slides from; writer would pad."
- },
- {
-  "t": "2026-09-01T17:18:05Z",
-  "gate": "A",
-  "subject": "JUST IN: Apple $AAPL says OpenAI is actively destroying crucial evidence in escalating legal battle.",
-  "verdict": "KILL",
-  "reason": "One-tweet legal allegation with zero substance: no numbers, dates, specifics, or real-world consequence—the writer would fabricate the entire carousel."
- },
- {
-  "t": "2026-09-01T17:18:08Z",
-  "gate": "A",
-  "subject": "BREAKING: Apple says new evidence found on former Apple engineer Liu's MacBook shows OpenAI is destroying evidence in th",
-  "verdict": "KILL",
-  "reason": "Single thin unverified tweet claiming Apple made statements about alleged legal conduct—no official Apple statement, court documents, or documented real-world consequence; insufficient substance to build slides from, and scout score of 4 signals low confidence."
- },
- {
-  "t": "2026-09-01T17:18:09Z",
-  "gate": "A",
-  "subject": "BREAKING: Sweden’s Infrastructure Minister and senior citizens just experienced Tesla FSD. 🇸🇪 Andreas Carlson posted a v",
-  "verdict": "KILL",
-  "reason": "Routine tech-demo coverage with no jaw-dropping moment or real consequence—the entire story is that a government official said something positive about expected FSD behavior."
- },
- {
-  "t": "2026-09-01T17:18:37Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "No substance: one thin tweet with zero numbers, names, or documented consequences to build slides from."
- },
- {
-  "t": "2026-09-01T17:19:28Z",
-  "gate": "A",
-  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
-  "verdict": "KILL",
-  "reason": "Source material cuts off mid-sentence before revealing 'the list' or any consequence—the writer would need to fabricate the entire payoff, violating the no-substance rule."
- },
- {
-  "t": "2026-09-01T17:20:04Z",
-  "gate": "A",
-  "subject": "BREAKING: Sony has sued Anthropic over AI music training, and is seeking $150,000 per song, per YF",
-  "verdict": "KILL",
-  "reason": "Lawsuit filing is news, not a story—no personal protagonist, no felt consequence yet, and corporate AI litigation is routine rather than jaw-dropping."
- },
- {
-  "t": "2026-09-01T17:20:32Z",
-  "gate": "A",
-  "subject": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon H",
-  "verdict": "KILL",
-  "reason": "Instant kill: pure astronomy photography where space tech is subject matter context, not an innovation or business story driver."
- },
- {
-  "t": "2026-09-01T17:20:41Z",
-  "gate": "A",
-  "subject": "🇩🇪 A Berlin artist made a loud Hawaiian shirt that can hide you from some AI cameras. Simon Weckert kept testing pattern",
-  "verdict": "APPROVE",
-  "reason": "A Berlin artist shipping a real shirt that demonstrably fools AI cameras qualifies as a builder story with sufficient carousel substance."
- },
- {
-  "t": "2026-09-01T18:01:58Z",
-  "gate": "B",
-  "subject": "THE LOUDEST SHIRT IN THE ROOM <em>MADE ONE MAN INVISIBLE TO AI CAMERAS</em> FOR $75",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW violation — cover_has_image is false and every slide carries no image. The Doctrine is unambiguous: the cover MUST ALWAYS carry an image with a subject. More critically, this story's entire payoff IS visual: the loudest shirt in the room disappears on the AI feed while detection boxes surround everyone else. That contrast is the proof and it cannot live in prose alone. Fix: generate a co"
- },
- {
-  "t": "2026-09-01T18:06:34Z",
-  "gate": "B",
-  "subject": "THE LOUDEST SHIRT IN THE ROOM <em>MADE ONE MAN INVISIBLE TO AI CAMERAS</em> FOR $75",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "gate": "A",
-  "reason": "Pure reaction-bait: the post compares online AI content to a real-world action without naming actors, stating any real event, or showing a consequence; the source is one thin observation, not a story.",
-  "subject": "Ye toh AI video hai, jabki ek toh sach mein Israel jaa kar naacha tha 😭",
-  "t": "2026-09-01T17:39:50Z",
-  "verdict": "KILL"
- },
- {
-  "t": "2026-09-01T19:11:47Z",
-  "gate": "A",
-  "subject": "JUST IN: Apple $AAPL says OpenAI is actively destroying crucial evidence in escalating legal battle.",
-  "verdict": "KILL",
-  "reason": "One thin tweet with no second fact, no numbers, and no proven real-world consequence — a mid-case legal allegation is not a story until reality actually moves."
- },
- {
-  "t": "2026-09-01T19:12:12Z",
-  "gate": "A",
-  "subject": "BREAKING: Sony has sued Anthropic over AI music training, and is seeking $150,000 per song, per YF",
-  "verdict": "KILL",
-  "reason": "No substance: lawsuit claim is one sentence with no details on affected songs, legal basis, or consequence; writer would have to speculate and pad."
- },
- {
-  "t": "2026-09-01T19:12:15Z",
-  "gate": "A",
-  "subject": "BREAKING: Sweden’s Infrastructure Minister and senior citizens just experienced Tesla FSD. 🇸🇪 Andreas Carlson posted a v",
-  "verdict": "KILL",
-  "reason": "Routine product demo with expected positive feedback and no real-world consequence—nothing changes, nobody feels a real impact. This is a press release, not a story."
- },
- {
-  "t": "2026-09-01T19:12:46Z",
-  "gate": "A",
-  "subject": "BREAKING: Apple says new evidence found on former Apple engineer Liu's MacBook shows OpenAI is destroying evidence in th",
-  "verdict": "KILL",
-  "reason": "NO SUBSTANCE per instant-kill list: the entire source is one unverified tweet with zero credible documentation (no court filings, no official Apple statement, no news coverage), no numbers, and no consequence the writer can build from without padding with speculation."
- },
- {
-  "t": "2026-09-01T19:13:19Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "No substance (single thin tweet, zero numbers or specifics) and off-lens: labor-economics commentary mentioning technology, not a tech story."
- },
- {
-  "t": "2026-09-01T19:14:02Z",
-  "gate": "A",
-  "subject": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon H",
-  "verdict": "KILL",
-  "reason": "A technical achievement with no real consequence—impressive to see, but not the kind of story the audience sends to a friend."
- },
- {
-  "t": "2026-09-01T19:14:34Z",
-  "gate": "A",
-  "subject": "JUST IN: Apple $AAPL says OpenAI is actively destroying crucial evidence in escalating legal battle.",
-  "verdict": "KILL",
-  "reason": "One thin tweet making an unsubstantiated legal allegation with zero numbers, no real-world consequence yet materialized, and no substance to build a carousel from — exactly the procedural reaction-bait that damaged the page before (the doctrine: a story only exists when reality moved: judgment, money, product pulled, or account banned; a claim in ongoing litigation is not a story)."
- },
- {
-  "t": "2026-09-01T19:14:45Z",
-  "gate": "A",
-  "subject": "BREAKING: Sony has sued Anthropic over AI music training, and is seeking $150,000 per song, per YF",
-  "verdict": "KILL",
-  "reason": "Entire substance is one 98-character tweet announcing a lawsuit with no second fact, no consequences anyone felt, no human protagonist, and no material to build slides from without padding—fails NO SUBSTANCE instant kill."
- },
- {
-  "t": "2026-09-01T19:15:10Z",
-  "gate": "A",
-  "subject": "BREAKING: Sweden’s Infrastructure Minister and senior citizens just experienced Tesla FSD. 🇸🇪 Andreas Carlson posted a v",
-  "verdict": "KILL",
-  "reason": "No real-world consequence—the event is only positive reactions to a product demo, not a story."
- },
- {
   "t": "2026-09-01T19:15:46Z",
   "gate": "A",
   "subject": "BREAKING: Apple says new evidence found on former Apple engineer Liu's MacBook shows OpenAI is destroying evidence in th",
@@ -2098,5 +1909,194 @@
   "subject": "Le fait que les potes de SwordOfSalomon aient appelé mon ancien employeur (je leur ai dit que j’étais viré depuis 8 mois",
   "verdict": "KILL",
   "reason": "Reaction-bait with zero real-world consequence: the core substance is a failed cancellation attempt (friends called an employer who shrugged), featuring unknown actors, with no numbers, no proof, and no consequence anyone felt—the INSTANT KILL model that starved the page into listicles in the first place."
+ },
+ {
+  "t": "2026-09-05T17:57:39Z",
+  "gate": "A",
+  "subject": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the A",
+  "verdict": "KILL",
+  "reason": "This is the banned 'date + spec sheet' format: a rollout-schedule announcement with zero capability information, not a launch or feature demo—the doctrine measures feature posts at 3.5x+ performance only when they *show* the feature working."
+ },
+ {
+  "t": "2026-09-05T17:58:05Z",
+  "gate": "A",
+  "subject": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time for us to defin",
+  "verdict": "KILL",
+  "reason": "The tweet leads with policy governance (new incident disclosure standards) rather than presenting the incidents themselves as news; this is OpenAI's retrospective risk-management announcement, not a breaking event, and lacks the specifics, numbers, and concrete consequences needed to build a carousel without padding—the underlying disasters (wiki, Hugging Face incidents) might be substantial stories, but this source doesn't present them that way."
+ },
+ {
+  "t": "2026-09-05T17:58:43Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "Bernie Sanders reports unverified hearsay about an alleged OpenAI hacking incident with no documented proof, verifiable event, or real consequence—fails truth law and substance standards for a news post."
+ },
+ {
+  "t": "2026-09-05T17:59:35Z",
+  "gate": "A",
+  "subject": "JUST IN: OpenAI agents hijacked a German website, turning it into a secret message board to coordinate and cheat on task",
+  "verdict": "KILL",
+  "reason": "Extraordinary security allegation unverified; entire source is one tweet attributing to Reuters without providing Reuters material, violating TRUTH LAW's requirement that every fact be true and substantiated before writer investment."
+ },
+ {
+  "t": "2026-09-05T17:59:37Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens; this pharma whistleblower story centers on pharma ethics and personal moral awakening, not AI/tech/space/investing, violating the lane's strict off-lens requirement."
+ },
+ {
+  "t": "2026-09-05T17:59:48Z",
+  "gate": "A",
+  "subject": "Ok GPT-6 Astra is insane. People can't stop building. 10 wild examples.",
+  "verdict": "KILL",
+  "reason": "The source material shows no examples, numbers, or confirmed release event, making it indistinguishable from routine listicle compilation content."
+ },
+ {
+  "t": "2026-09-05T18:00:34Z",
+  "gate": "A",
+  "subject": "Watching Netflix on the Cybercab’s 22-inch screen while riding around Austin.",
+  "verdict": "KILL",
+  "reason": "It's not a story—just a product feature observation with no actor doing something outrageous, no consequence felt, no jaw-drop; a single-sentence source insufficient to build slides without padding, and it wouldn't make a 16-year-old stop mid-scroll to send to a friend."
+ },
+ {
+  "t": "2026-09-05T18:00:38Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens: subject is labor-market demographics and commentary, not AI/tech/company/founder/investing; technology is backdrop to the trend, not the story's star, and there is no specific event, named actors, or numbers—only assertions without proof."
+ },
+ {
+  "t": "2026-09-05T18:01:33Z",
+  "gate": "A",
+  "subject": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time for us to defin",
+  "verdict": "KILL",
+  "reason": "This is a policy framework announcement about incident disclosure procedures, not a breaking news event—the tweet focuses on how OpenAI should respond going forward rather than reporting what actually happened to readers, lacking the specific incident details, real-world consequences, and jaw-dropping specifics needed to stop a scroll."
+ },
+ {
+  "t": "2026-09-05T18:02:27Z",
+  "gate": "A",
+  "subject": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the A",
+  "verdict": "KILL",
+  "reason": "This reads as a tier-rollout announcement ('now available', 'will start rollout'), not a major model release event; routine deployment phases don't qualify as the household-name major moves THE DOCTRINE explicitly names, and scout interest (5/10) with no capability indicators suggests resource better spent on actual news."
+ },
+ {
+  "t": "2026-09-05T18:03:28Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lane for this AI/tech news page—healthcare whistleblower story with no approved lens (AI, technology, company/founder, investing/money, or space); Aug 28 hardened guidelines strictly enforce lane adherence per explicit instruction."
+ },
+ {
+  "t": "2026-09-05T18:03:31Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "No verification of the core event (OpenAI hacking incident, discovered AI agent messages); story reduces to engagement-bait (people reacting to Sanders's post) or unproven allegation—both instant kills."
+ },
+ {
+  "t": "2026-09-05T18:04:32Z",
+  "gate": "A",
+  "subject": "JUST IN: OpenAI agents hijacked a German website, turning it into a secret message board to coordinate and cheat on task",
+  "verdict": "KILL",
+  "reason": "Single unverified tweet claiming Reuters reported that OpenAI agents hijacked a website with no linked source, corroboration, or evidence; extraordinary claim of autonomous hacking/coordination requires proof beyond hearsay before committing writing resources, and low engagement (4K likes) suggests claim hasn't been validated by major outlets or accounts."
+ },
+ {
+  "t": "2026-09-05T18:05:07Z",
+  "gate": "A",
+  "subject": "Ok GPT-6 Astra is insane. People can't stop building. 10 wild examples.",
+  "verdict": "KILL",
+  "reason": "Listicle of 10 unverified examples rather than one story event; news slots don't run example roundups—if Astra's release is the story, reframe around the launch with early-builder proof, not a collection."
+ },
+ {
+  "t": "2026-09-05T18:05:53Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens per STORY LAW WOW FACT section: technology is backdrop/defeated (IT workers in decline), not the fact's star; the story's core is labor economics and corporate strategy, not AI/tech insight—this matches the banned pattern (goats-vs-sensors rule)."
+ },
+ {
+  "t": "2026-09-05T18:06:32Z",
+  "gate": "A",
+  "subject": "Watching Netflix on the Cybercab’s 22-inch screen while riding around Austin.",
+  "verdict": "KILL",
+  "reason": "Instant kill for no substance: one-sentence source about watching Netflix on a car screen—trivial feature demonstration with zero consequence or surprise, cannot be expanded without padding."
+ },
+ {
+  "t": "2026-09-05T18:37:28Z",
+  "gate": "B",
+  "subject": "CHATGPT JUST RELEASED GPT-6 OVERNIGHT <em>AND IF YOU'RE PAYING $20 A MONTH YOU'RE STILL LOCKED OUT</em>",
+  "verdict": "REJECT",
+  "reason": "SLIDE 3 / SLIDE 4 — new-fact-per-slide violation and narrative collapse: Slide 3's bullet list already spends the Astra naming conflict ('2 rival AIs both named Astra'), so when slide 4 opens on that same fact as its entire subject ('TWO RIVAL AIS. ONE NAME.') the reader has already heard it. Slide 4 is a repeat, not a new beat. Fix: strip the Astra line from slide 3's numbers list so slide 4 land"
+ },
+ {
+  "t": "2026-09-05T18:40:20Z",
+  "gate": "B",
+  "subject": "CHATGPT JUST RELEASED GPT-6 OVERNIGHT <em>AND IF YOU'RE PAYING $20 A MONTH YOU'RE STILL LOCKED OUT</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 3 body repeats slide 2's core fact verbatim in substance: slide 2 ends 'Millions of regular subscribers are in a queue' and slide 3's body closes with 'Millions of Plus users still waiting.' §4 NEW FACT PER SLIDE — cut one.; Slide 3 ends closed with no named open loop before the pivot to slide 4. The question chain breaks: the reader has no specific itch pulling them from the stats list into"
+ },
+ {
+  "t": "2026-09-05T18:44:38Z",
+  "gate": "A",
+  "subject": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time for us to defin",
+  "verdict": "KILL",
+  "reason": "This is OpenAI's policy announcement in response to an incident, not reporting of the incident itself—it frames forward-looking disclosure standards rather than the actual event with felt consequences, and doesn't fit the NEWS page's core mandate of dramatic, specific, real-world events."
+ },
+ {
+  "t": "2026-09-05T18:44:51Z",
+  "gate": "A",
+  "subject": "Ok GPT-6 Astra is insane. People can't stop building. 10 wild examples.",
+  "verdict": "KILL",
+  "reason": "Listicle format ('10 wild examples') strongly suggests guide content; this news slot needs clear reporting on the model release itself, not instructional examples of use."
+ },
+ {
+  "t": "2026-09-05T18:45:22Z",
+  "gate": "A",
+  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
+  "verdict": "KILL",
+  "reason": "Off-lens: pure pharmaceutical/healthcare whistleblower story with zero AI, tech, company/founder, investing, or space technology as the story's subject; this page's identity is AI/tech news (owner order Sep 3), and the approved lenses are explicit—story must STAR one of those, not use them as backdrop."
+ },
+ {
+  "t": "2026-09-05T18:46:15Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "Violates §5 TRUTH LAW (non-negotiable): the claimed OpenAI hack with AI agent messages is unverified misinformation with zero documentation or credible reporting, unsuitable for a news-first page requiring facts to be true and current."
+ },
+ {
+  "t": "2026-09-05T18:46:22Z",
+  "gate": "A",
+  "subject": "JUST IN: OpenAI agents hijacked a German website, turning it into a secret message board to coordinate and cheat on task",
+  "verdict": "KILL",
+  "reason": "Source is a single tweet claiming Reuters reported this without providing the Reuters article; core claim unverifiable, violating §5 TRUTH LAW."
+ },
+ {
+  "t": "2026-09-05T18:46:29Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens: labor/economics commentary where technology is the losing backdrop, not the star; no specific event, person, or numbers—just decades-long trend takes with no actor anyone knows."
+ },
+ {
+  "t": "2026-09-05T18:48:23Z",
+  "gate": "A",
+  "subject": "Watching Netflix on the Cybercab’s 22-inch screen while riding around Austin.",
+  "verdict": "KILL",
+  "reason": "One thin claim with no second fact, context, or evidence of why this is news-worthy now; person watching Netflix in a car is trivial without signal that Cybercab launch or feature capability is the story."
+ },
+ {
+  "t": "2026-09-05T19:21:18Z",
+  "gate": "B",
+  "subject": "OPENAI'S AI WROTE TO REAL WEBSITES WITHOUT PERMISSION AND IS STILL NOTIFYING PEOPLE TODAY WITH <em>NO RULES FOR WHEN IT ",
+  "verdict": "REJECT",
+  "reason": "Slide 3 is completely empty — no headline, no body. A blank card will publish in the carousel. This is a structural failure that must be resolved before anything else.; Hook violation: AND joins two actions ('WROTE TO REAL WEBSITES WITHOUT PERMISSION AND IS STILL NOTIFYING PEOPLE TODAY'). Law requires one actor, one action — cut the weaker arm. The 'no rules' angle is the stronger payoff; the hook"
+ },
+ {
+  "t": "2026-09-05T19:23:01Z",
+  "gate": "R",
+  "subject": "OPENAI'S AI WROTE TO REAL WEBSITES WITHOUT PERMISSION AND IS STILL NOTIFYING PEOPLE TODAY WITH <em>NO RULES FOR WHEN IT ",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
