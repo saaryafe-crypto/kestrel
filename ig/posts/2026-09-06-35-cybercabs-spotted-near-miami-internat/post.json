@@ -1,0 +1,130 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT <em>AND A STRANGER WALKING BY IS THE ONLY REASON WE KNOW</em>",
+   "hsize": 64,
+   "kicker": "ONE OF AMERICA'S 10 BUSIEST AIRPORTS",
+   "media": null,
+   "image_prompt": "SUBJECT: white Tesla Cybercab parked at airport curb. BACKDROP PROPS: empty open area, warning triangle symbol on ground. PALETTE: white vehicle, vivid orange curb stripe.",
+   "logos": [
+    "tesla"
+   ],
+   "video": true
+  },
+  {
+   "type": "content",
+   "headline": "YOUR AIRPORT JUST GOT NEW TAXIS. <em>NOBODY CALLED FIRST</em>",
+   "hsize": 88,
+   "body": "This is not how major rollouts go.\n\nEvery time something changed at <b>your airport</b>, they warned you first. Not this time.\n\nAnd how the world found out? Even stranger.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "SOMEONE WALKED PAST MIAMI AIRPORT <em>AND STOPPED COLD</em>",
+   "hsize": 88,
+   "body": "No gate announcement. No press release.\n\nJust a person near <b>Miami International</b> who suddenly saw a row of identical, driverless cars sitting there, silent, no explanation.\n\nYou'd have stopped too. They posted it.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "SPOTTED LIKE RARE WILDLIFE",
+   "hsize": 110,
+   "body": "Fully autonomous taxis at a major US airport. Nobody said a word",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MIAMI INTERNATIONAL <em>RANKS AMONG AMERICA'S BUSIEST</em>",
+   "hsize": 88,
+   "body": "<b>35</b> Cybercabs, zero official announcement\nPost reached <b>170,200</b> views\n<b>Top-10</b> busiest US airport as the site",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "YOUR COMPETITOR IS AUTOMATING <em>WITHOUT TELLING ANYONE</em>",
+   "hsize": 90,
+   "body": "Tesla didn't announce a thing.\n\nQuiet deployment is the new playbook. Your competitors aren't filing press releases. They are just moving.\n\nSee it coming first.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>35 CYBERCABS, MIAMI AIRPORT, ZERO ANNOUNCEMENT</em>",
+   "hsize": 58,
+   "body": "Cybercabs appeared, zero announcement\n<b>1</b> person spotted them, posted on X\n<b>170,200</b> views on that post\nAirport rideshare drivers compete with robots now\n\nSend this to your friend who still Ubers from the airport",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how 35 Tesla Cybercabs appeared at Miami Airport with zero announcement and why one random X post was the only way the world found out. \ud83d\udccd\n\n35 Tesla Cybercabs spotted at Miami International with no official word, the assumption that major deployments come with press releases, the cinematic moment a bystander stopped and saw them with no explanation, the absurdity of a top-10 US airport getting autonomous taxis with zero announcement, the hard numbers behind the quiet rollout, and what this means for airport rideshare drivers and businesses watching this unfold.\n\nAutonomous vehicles are deploying without press releases or permission. The people whose livelihoods depend on those routes are the last to know.\n\nRunning a business? DM us \"AI\" and we'll show you what quiet automation means for yours.\n\nSources: Sawyer Merritt on X\n\n#tesla #cybercab #autonomousvehicles #rideshare #aitech",
+ "pinned_comment": "Tesla launched at one of America's top-10 busiest airports and still didn't bother telling anyone. The question isn't whether this is happening. It's which airport is next.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT <em>AND A STRANGER WALKING BY IS THE ONLY REASON WE KNOW</em>",
+   "35 TESLA CYBERCABS APPEARED AT MIAMI AIRPORT WITH ZERO ANNOUNCEMENT <em>AND THE WHOLE WORLD FOUND OUT BECAUSE ONE PERSON SPOTTED THEM WALKING BY</em>",
+   "TESLA JUST SENT <em>35 DRIVERLESS TAXIS</em> TO MIAMI AIRPORT AND NOBODY TOLD THE DRIVERS WHO LIVE OFF THOSE FARES.",
+   "TESLA QUIETLY PLACED <em>35 ROBOT TAXIS</em> AT ONE OF AMERICA'S BUSIEST AIRPORTS AND MADE <em>ZERO OFFICIAL ANNOUNCEMENT</em>.",
+   "TESLA JUST PARKED <em>35 DRIVERLESS TAXIS AT MIAMI INTERNATIONAL AIRPORT</em> AND TOLD ABSOLUTELY NOBODY.",
+   "TESLA JUST DEPLOYED 35 DRIVERLESS TAXIS AT A TOP-10 US AIRPORT <em>AND THE WORLD ONLY FOUND OUT BECAUSE SOMEONE SPOTTED THEM</em>",
+   "TESLA SHOWED UP AT MIAMI AIRPORT WITH <em>35 DRIVERLESS CABS</em> AND THE ONLY ANNOUNCEMENT WAS <em>ONE RANDOM POST ON X</em>.",
+   "TESLA QUIETLY PARKED 35 DRIVERLESS TAXIS AT MIAMI AIRPORT <em>WITH NO WARNING AND NO PRESS RELEASE FROM ANYONE</em>",
+   "35 AUTONOMOUS TESLA TAXIS APPEARED AT ONE OF AMERICA'S BUSIEST AIRPORTS <em>WITH ZERO ANNOUNCEMENT</em>",
+   "TESLA ALREADY HAS <em>35 DRIVERLESS TAXIS AT MIAMI AIRPORT</em> AND MOST PEOPLE HAVE NO IDEA THEY'RE THERE."
+  ],
+  "scores": [
+   9,
+   8,
+   8,
+   7,
+   8,
+   8,
+   9,
+   6,
+   6,
+   0
+  ],
+  "winner": 0,
+  "why": "[0]'s image of a random stranger discovering them is way more visceral and surprising than [6]'s explanation of how news spread on X. The human discovery moment hits your 'wait what' reflex instantly while platform details feel like expected information."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "TESLA DEPLOYED 35 DRIVERLESS CABS AT MIAMI AIRPORT <em>AND A STRANGER'S X POST WAS THE ONLY ANNOUNCEMENT ANYONE GOT</em>",
+   "TESLA NEVER MADE AN ANNOUNCEMENT <em>BUT 35 DRIVERLESS CABS SHOWED UP AT MIAMI AIRPORT ANYWAY</em>",
+   "TESLA JUST SHOWED UP AT MIAMI AIRPORT WITH 35 DRIVERLESS CABS <em>AND DIDN'T TELL A SINGLE RIDESHARE DRIVER THEY WERE COMING</em>",
+   "TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT <em>AND A STRANGER WALKING BY IS THE ONLY REASON WE KNOW</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   5,
+   8
+  ],
+  "winner": 3,
+  "why": "'A stranger walking by is the only reason we know' creates maximum shock from pure accident\u2014this could've stayed hidden forever. [0] focuses on the X-post mechanism instead of emphasizing how shocking the accidental discovery was."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Tesla Cybercab",
+  "actor_known": true,
+  "anchor": "Tesla",
+  "specifics": [
+   "35 driverless taxis appeared at a major international airport with zero official announcement",
+   "The public only found out because someone spotted them and posted on X",
+   "Miami International Airport \u2014 one of the busiest in the US \u2014 is the deployment site",
+   "Airport runs are the longest, most lucrative fares for rideshare drivers"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "35 Cybercabs spotted near Miami international airport.",
+  "link": "https://x.com/SawyerMerritt/status/2096282460635943220",
+  "judge_interest": 5,
+  "scout_score": 58.1
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "HOOK AND VIOLATION (\u00a72): 'TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT AND A STRANGER WALKING BY IS THE ONLY REASON WE KNOW' has two actors (Tesla + a stranger). The law is ONE actor, ONE action \u2014 'AND joining two actions = cut the weaker one.' Cut the stranger clause; the hook survives as 'TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT WITH ZERO ANNOUNCEMENT AND NOBODY KNE",
+ "gate_r": "s1: The Tesla 'T' logo appears twice on the same slide \u2014 once as a large standalone floating badge in the upper center and again on the Cybercab's hood \u2014 a clear LOGO ONCE violation."
+}
