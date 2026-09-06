@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-02T00:23:47Z",
-  "gate": "A",
-  "subject": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon H",
-  "verdict": "KILL",
-  "reason": "Unknown photographer; no first/record/disaster/consequence; pure astronomy snapshot without established news event; story only works if reader knows A.J. McCarthy and why this particular photo matters."
- },
- {
-  "t": "2026-09-02T00:24:47Z",
-  "gate": "A",
-  "subject": "BREAKING: Apple says new evidence found on former Apple engineer Liu's MacBook shows OpenAI is destroying evidence in th",
-  "verdict": "KILL",
-  "reason": "Unverified allegations from single source with no confirmed lawsuit, official Apple statement, or documented real-world consequence—too thin to build slides."
- },
- {
-  "t": "2026-09-02T00:24:47Z",
-  "gate": "A",
-  "subject": "JUST IN: Apple $AAPL says OpenAI is actively destroying crucial evidence in escalating legal battle.",
-  "verdict": "KILL",
-  "reason": "Allegations within an ongoing legal dispute lack a visible real-world consequence or narrative specificity sufficient to carry a carousel; this is inside-legal-system news (Apple makes a claim about OpenAI's conduct), not a jaw-dropping real-world event a 16-year-old would send to a friend, and the low-boundary scout interest (5/10) with thin single-tweet sourcing leaves no clear story architecture."
- },
- {
   "t": "2026-09-02T00:24:56Z",
   "gate": "A",
   "subject": "BREAKING: Sweden’s Infrastructure Minister and senior citizens just experienced Tesla FSD. 🇸🇪 Andreas Carlson posted a v",
@@ -2098,5 +2077,26 @@
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "FAIL",
   "reason": "s2: Raw markdown asterisks are visibly rendered as literal characters in the body copy (**Elon Musk**), which reads as broken formatting on a professional slide.; s3: Raw markdown asterisks appear in the body (**Astra**, **12,399 people**), rendering as unparsed syntax rather than styled text.; s4: Body copy contains unrendered markdown (**Claude's**, **Plus and Business**) — literal asterisks are"
+ },
+ {
+  "t": "2026-09-06T16:49:39Z",
+  "gate": "B",
+  "subject": "<em>6 PROMPT RULES</em> THE CLAUDE CODE ENGINEER JUST GAVE AWAY",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — GENERATED UNKNOWN FACE: the cover shows a generated face of an unrecognizable person. Image law is explicit: 'Never a generated unknown face.' The Vendor Cast exception is the correct fix here — Dario Amodei as the delighted user of his own tool is explicitly legal for a Claude guide; use that, or shoot a faceless product-focused cover. The current face is a hard block.; COVER IMAGE "
+ },
+ {
+  "t": "2026-09-06T16:53:05Z",
+  "gate": "B",
+  "subject": "<em>6 PROMPT RULES</em> THE CLAUDE CODE ENGINEER JUST GAVE AWAY",
+  "verdict": "REJECT",
+  "reason": "Cover image shows a generated unknown face — not Dario Amodei or any recognizable public figure. The vendor-cast rule for a Claude guide requires Dario Amodei specifically; an unrecognizable generated person violates Image Law ('Never a generated unknown face'). Fix: regenerate cover with Dario Amodei named as the subject.; The sticky note prop in the cover image reads 'ultrartthink' — a visible g"
+ },
+ {
+  "t": "2026-09-06T16:54:00Z",
+  "gate": "R",
+  "subject": "<em>6 PROMPT RULES</em> THE CLAUDE CODE ENGINEER JUST GAVE AWAY",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

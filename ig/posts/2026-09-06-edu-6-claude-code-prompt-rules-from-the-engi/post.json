@@ -1,0 +1,89 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 PROMPT RULES</em> THE CLAUDE CODE ENGINEER JUST GAVE AWAY",
+   "kicker": "BEATS $300 COURSES",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-06-edu-6-claude-code-prompt-rules-from-the-engi/gen-0.jpg",
+   "image_prompt": "Dario Amodei in dark hoodie crouching tight at waist-up, hand extending blank yellow sticky note, wide conspiratorial grin, eyes locked on lens, simple glowing blue server backdrop. 35mm documentary, natural skin texture, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>CREATE A CLAUDE.MD FILE</em> AND IT NEVER FORGETS YOUR RULES",
+   "hsize": 88,
+   "body": "Your Claude session wastes 10 minutes re-explaining context. He shows one file that kills it.\n\n\"Create a CLAUDE.md in my project root. Add my stack, naming rules, and what to never touch.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>MAKE CLAUDE WRITE A PLAN</em> BEFORE IT TOUCHES YOUR CODE",
+   "hsize": 90,
+   "body": "He shows Claude rewriting 12 files when asked to fix one bug. One prompt stops this.\n\n\"Before writing any code, write a plan. List every file you'll change. Stop there.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>TELL CLAUDE EXACTLY WHICH FILES</em> IT IS ALLOWED TO CHANGE",
+   "hsize": 88,
+   "body": "He shows Claude editing the payment module when only the login was broken. Your code is next.\n\n\"Only edit files inside /src/auth. Do not touch /src/payments or any file I haven't listed.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) ULTRATHINK",
+   "hsize": 124,
+   "layout": "break",
+   "body": "One word triggers a deeper reasoning mode. He adds it to every hard problem. It works\n\n\"Ultrathink: why is my auth middleware failing silently on token expiry?\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>BUILD ONE PIECE AT A TIME</em> THEN WAIT FOR YOUR REVIEW",
+   "hsize": 84,
+   "body": "He builds features in chunks. Each piece gets reviewed before the next starts.\n\n\"Build only the database schema now. Stop when done. Wait for my review before the next step.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>PASTE THE WHOLE ERROR</em> PLUS WHAT YOU ALREADY TRIED",
+   "hsize": 96,
+   "body": "Short questions get short answers. He pastes the full error and what failed. One shot, every time.\n\n\"Here is the error: [paste]. Here is the file: [paste]. I already tried [X]. Fix it\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS: 6 PROMPTS</em> FROM THE CLAUDE CODE ENGINEER",
+   "hsize": 96,
+   "body": "Create CLAUDE.md for your project\nPlan before code starts\nLock files Claude can touch\nUltrathink for hard problems\nBuild one piece at a time\nPaste the full error\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 6. The engineer who built Claude Code released a video that beats $300 courses. Everything is free. \ud83d\udd16\n\nThis post covers creating a CLAUDE.md memory file your project reads every session, writing a plan before any code starts, locking exactly which files Claude can and cannot touch, the ultrathink command for harder reasoning problems, building one piece at a time with review stops, and giving Claude the full error plus what you already tried.\n\nMost people use Claude Code like a search engine and get thin answers. The engineer who built it shows that knowing these six rules is worth more than any $300 course. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: deanwperkins, Anthropic\n\n#claudecode #ai #aitools #coding #productivity",
+ "pinned_comment": "Which one are you trying tonight? The CLAUDE.md file on slide 2 is the one most people skip and then spend months wishing they hadn't.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 CLAUDE CODE TRICKS</em> THE ENGINEER TEACHES FOR FREE",
+   "<em>THE CLAUDE CODE ENGINEER</em> GIVES 6 RULES AWAY FREE",
+   "<em>6 FREE PROMPT RULES</em> FROM THE CLAUDE CODE ENGINEER",
+   "<em>6 PROMPT RULES</em> THE CLAUDE CODE ENGINEER JUST GAVE AWAY",
+   "<em>6 PROMPTS</em> FROM THE GUY WHO BUILT CLAUDE CODE"
+  ],
+  "scores": [
+   5,
+   6,
+   5,
+   7,
+   6
+  ],
+  "winner": 3,
+  "why": "JUST creates urgency and FOMO\u2014you feel like you'll miss out if you keep scrolling. The runner-up is solid but sounds evergreen and not time-sensitive."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "Cover image shows a generated unknown face \u2014 not Dario Amodei or any recognizable public figure. The vendor-cast rule for a Claude guide requires Dario Amodei specifically; an unrecognizable generated person violates Image Law ('Never a generated unknown face'). Fix: regenerate cover with Dario Amodei named as the subject.; The sticky note prop in the cover image reads 'ultrartthink' \u2014 a visible g"
+}

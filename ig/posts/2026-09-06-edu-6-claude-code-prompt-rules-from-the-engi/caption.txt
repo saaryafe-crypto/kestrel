@@ -1,0 +1,9 @@
+Swipe through all 6. The engineer who built Claude Code released a video that beats $300 courses. Everything is free. 🔖
+
+This post covers creating a CLAUDE.md memory file your project reads every session, writing a plan before any code starts, locking exactly which files Claude can and cannot touch, the ultrathink command for harder reasoning problems, building one piece at a time with review stops, and giving Claude the full error plus what you already tried.
+
+Most people use Claude Code like a search engine and get thin answers. The engineer who built it shows that knowing these six rules is worth more than any $300 course. Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: deanwperkins, Anthropic
+
+#claudecode #ai #aitools #coding #productivity
