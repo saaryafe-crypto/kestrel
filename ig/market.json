@@ -1,197 +1,133 @@
 {
- "updated": "2026-09-05T12:08:25+00:00",
+ "updated": "2026-09-06T14:55:27+00:00",
  "competitor_hits": [
   {
    "page": "wired",
-   "likes": 18000,
-   "ratio": 16.24,
+   "likes": 32000,
+   "ratio": 21.38,
    "tier": "mega",
-   "hook": "\"When the life simulation game Paralives was released in early access, Danielle Udogaranya\u2019s (@ebonixsims) hand ached at the thought of making new Black hairstyles for it. Udogaranya, better known as Ebonix, has spent ov",
-   "date": "2026-09-03"
+   "hook": "\"Ms. Rachel (@msrachelforlittles) visits WIRED to answer her most searched questions.\n\nMs. Rachel and Mr. Aron's debut children's album titled \u201cI'm So Happy\u201d will release on September 25, 2026.\".",
+   "date": "2026-09-05"
   },
   {
    "page": "wired",
-   "likes": 11000,
-   "ratio": 9.92,
+   "likes": 14000,
+   "ratio": 9.35,
    "tier": "mega",
    "hook": "\"Did you buy a beanie from REI recently? The Department of Homeland Security might be looking for you.\n\nNew court filings allege that Homeland Security Investigations agents subpoenaed the outdoor retailer in March, requ",
    "date": "2026-09-04"
   },
   {
    "page": "wired",
-   "likes": 5592,
-   "ratio": 5.04,
+   "likes": 7038,
+   "ratio": 4.7,
    "tier": "mega",
    "hook": "\"The world\u2019s leading weather organization is sounding the alarm about this year\u2019s super El Ni\u00f1o, issuing its most certain forecast in the history of the organization.\n\nIn an update issued early Thursday, the World Meteor",
    "date": "2026-09-04"
   },
   {
    "page": "wired",
-   "likes": 1514,
-   "ratio": 1.37,
-   "tier": "mega",
-   "hook": "\"Christopher Sweet, an affiliate of the so-called Department of Government Efficiency, requested college credit for his time in government, according to new documents obtained by a Freedom of Information Act request file",
-   "date": "2026-09-03"
-  },
-  {
-   "page": "technology",
-   "likes": 2677,
-   "ratio": 1.31,
-   "tier": "mega",
-   "hook": "\"Experimental DLSS 5 tests are giving GTA 5\u2019s characters dramatically different faces, with richer skin detail, lighting and materials making the 2013 game look surprisingly modern.\n\nNVIDIA\u2019s DLSS 5 uses real-time neural",
-   "date": "2026-09-05"
-  },
-  {
-   "page": "technology",
-   "likes": 2541,
-   "ratio": 1.25,
-   "tier": "mega",
-   "hook": "\"Pelican is a driving-focused navigation app that maps known security cameras nearby and estimates the areas they may cover, without showing camera footage to users. \n\nBuilt by Jeff Verkoeyen, a former Google Maps design",
-   "date": "2026-09-05"
-  },
-  {
-   "page": "wired",
-   "likes": 1237,
-   "ratio": 1.12,
+   "likes": 1839,
+   "ratio": 1.23,
    "tier": "mega",
    "hook": "\"As students head back to school, parents have all the usual worries about their kids, like remembering to pack lunch and making it to the bus stop on time. But parents of immunocompromised kids have a new one: How to de",
    "date": "2026-09-04"
   },
   {
-   "page": "wired",
-   "likes": 980,
-   "ratio": 0.88,
+   "page": "mashable",
+   "likes": 111,
+   "ratio": 1.04,
    "tier": "mega",
-   "hook": "\"OpenAI announced Thursday the launch of its next generation AI model, GPT-6 Astra, which the company claims is state of the art at navigating computers and web browsers, writing software, and solving difficult math prob",
-   "date": "2026-09-03"
+   "hook": "\"At this point, we should almost let the fans write on the show. \u2060\n\u2060\nHead to the link in bio for the full interview.\u2060\n#adults #adultsfx #adultshulu\".",
+   "date": "2026-09-05"
   },
   {
-   "page": "wired",
-   "likes": 843,
-   "ratio": 0.76,
+   "page": "techcrunch",
+   "likes": 108,
+   "ratio": 1.0,
    "tier": "mega",
-   "hook": "\"Since the dawn of Silicon Valley, there\u2019s been a widespread perception that San Francisco is, put gently, not exactly a dating mecca.\n\nThe city famously has a skewed male-to-female ratio (per census data, there are abou",
+   "hook": "\"Nvidia has the chips, the cash, and now a growing collection of bets across the AI stack from Hugging Face to MediaTek. So why does everyone keep sidling up to Nvidia?\n\nThe Equity podcast team digs into what the company",
    "date": "2026-09-04"
   },
   {
-   "page": "technology",
-   "likes": 1538,
-   "ratio": 0.75,
+   "page": "wired",
+   "likes": 1155,
+   "ratio": 0.77,
    "tier": "mega",
-   "hook": "\"A Chinese engineer took gaming immersion to another level by building a custom Call of Duty rig that physically reacts to what happens inside the game.\n\nThe setup uses game data to trigger effects such as recoil, wind, ",
+   "hook": "\"This summer, every meal feels like a risk.\n\nJust as the US is recovering from a major cyclospora outbreak stemming from tainted iceberg lettuce, salmonella has turned up in jalape\u00f1os, eggs, and even dog food. The jalape",
    "date": "2026-09-05"
   },
   {
    "page": "wired",
-   "likes": 811,
-   "ratio": 0.73,
+   "likes": 1110,
+   "ratio": 0.74,
    "tier": "mega",
    "hook": "\"A startup called Mostik has a wild new approach to combining the capabilities of AI models that could have huge implications for frontier labs like Anthropic or OpenAI.\n\nFor more like this, subscribe to Will Knight\u2019s \u201cA",
    "date": "2026-09-04"
   },
   {
    "page": "wired",
-   "likes": 743,
-   "ratio": 0.67,
+   "likes": 1070,
+   "ratio": 0.71,
    "tier": "mega",
-   "hook": "\"Flock Safety\u2019s latest search tools give police several ways to find people on camera, not just the license plates on their cars. The capabilities sit inside a suite of software now at the center of dozens of police-stal",
-   "date": "2026-09-03"
-  },
-  {
-   "page": "technology",
-   "likes": 1300,
-   "ratio": 0.64,
-   "tier": "mega",
-   "hook": "\"Shield AI\u2019s X-BAT is an AI piloted VTOL fighter aircraft designed to operate without relying on traditional runways or conventional airbase infrastructure.\n\nShield AI says the aircraft is designed for a range above 2,00",
-   "date": "2026-09-05"
-  },
-  {
-   "page": "techcrunch",
-   "likes": 81,
-   "ratio": 0.61,
-   "tier": "mega",
-   "hook": "\"Nvidia has the chips, the cash, and now a growing collection of bets across the AI stack from Hugging Face to MediaTek. So why does everyone keep sidling up to Nvidia?\n\nThe Equity podcast team digs into what the company",
+   "hook": "\"Since the dawn of Silicon Valley, there\u2019s been a widespread perception that San Francisco is, put gently, not exactly a dating mecca.\n\nThe city famously has a skewed male-to-female ratio (per census data, there are abou",
    "date": "2026-09-04"
-  },
-  {
-   "page": "futurism",
-   "likes": 1158,
-   "ratio": 0.53,
-   "tier": "mega",
-   "hook": "\"While most of the vandals ripping down automatic license plate readers prefer to go incognito, an Albuquerque character named Jevon Martinez isn\u2019t afraid to show his face.\n\nWeeks after Bernalillo County officials cancel",
-   "date": "2026-09-04"
-  },
-  {
-   "page": "technology",
-   "likes": 945,
-   "ratio": 0.46,
-   "tier": "mega",
-   "hook": "\"OpenAI\u2019s GPT-6 Astra pushes ChatGPT further toward operating a computer directly, handling complex tasks across computer use, browsing, coding and professional workflows.\n\nThe system can work through multi step tasks on",
-   "date": "2026-09-05"
   },
   {
    "page": "wired",
-   "likes": 508,
-   "ratio": 0.46,
+   "likes": 727,
+   "ratio": 0.49,
    "tier": "mega",
    "hook": "\"This week on Uncanny Valley, we dig into the latest prediction market buzz and examine how the former US representative George Santos was fined more than $71,000 for allegedly attempting to manipulate the prediction mar",
    "date": "2026-09-04"
   },
   {
-   "page": "futurism",
-   "likes": 876,
-   "ratio": 0.4,
+   "page": "techcrunch",
+   "likes": 37,
+   "ratio": 0.34,
    "tier": "mega",
-   "hook": "\"New York City just instituted a sweeping ban on schools using AI in the classroom through the start of high school, along with other restrictions on the technology.\n\nMayor Zohran Mamdani announced the one-year moratoriu",
-   "date": "2026-09-03"
+   "hook": "\"Tim Cook had the unenviable job of following Steve Jobs. Now John Ternus has to follow Cook, and he\u2019s taking over an Apple that looks very different from the one Cook inherited.\n\nEquity asks what Ternus\u2019 product backgro",
+   "date": "2026-09-04"
   },
   {
    "page": "techcrunch",
-   "likes": 53,
-   "ratio": 0.4,
+   "likes": 24,
+   "ratio": 0.22,
    "tier": "mega",
-   "hook": "\"What does AI say about your startup? \ud83d\udc40\n\nInvestors can ask an LLM about your company in seconds \u2014 and Dr. Eike Gerhardt says founders should be thinking about what answer they'll get.\n\nOn the latest episode of Build Mode",
-   "date": "2026-09-03"
+   "hook": "\"Your Q&A can\u2019t save a confusing pitch.\n\nDemetri Maxim knew he could shine when investors started asking detailed questions about Nephrogen\u2019s science. But first, he had to get them interested enough to ask.\n\nOn the lates",
+   "date": "2026-09-05"
+  },
+  {
+   "page": "mashable",
+   "likes": 7,
+   "ratio": 0.07,
+   "tier": "mega",
+   "hook": "\"No bad edits here. Jeremiah Brown's streams are 100% authenically him. \u2060\n\u2060\nHead to the link in bio for the full interview.\u2060\n#creatorplaybook\".",
+   "date": "2026-09-06"
   },
   {
    "page": "technology",
-   "likes": 709,
-   "ratio": 0.35,
+   "likes": 2277,
+   "ratio": 0.06,
    "tier": "mega",
-   "hook": "\"Red Bull turned Japan\u2019s Mount Iwaki into a celebration of drifting and JDM culture, with Kalle Rovanper\u00e4 taking on the mountain\u2019s famous 69 turns.\n\nThe production brought together cars including the Nissan Skyline R34, ",
-   "date": "2026-09-05"
+   "hook": "\"Apple Maps has a tiny detail at Apple Park that most people would probably scroll right past.\n\nZoom into the Apple Park Visitor Center and you can actually spot the miniature campus model inside.\n\nThat same model is use",
+   "date": "2026-09-06"
   },
   {
    "page": "technology",
-   "likes": 688,
-   "ratio": 0.34,
-   "tier": "mega",
-   "hook": "\"In 1938, Rudolf Caracciola drove the streamlined Mercedes-Benz W 125 Rekordwagen to 432.7 km/h on a public road, creating a record that survived for decades.\n\nThe purpose built machine combined extreme aerodynamics with",
-   "date": "2026-09-05"
-  },
-  {
-   "page": "mashable",
-   "likes": 98,
-   "ratio": 0.3,
-   "tier": "mega",
-   "hook": "\"We won an auction for a 20-year-old unsealed iPod just to see it in person. But it's not going on a shelf. We intend to put it to WORK. What songs should we put on it first?\".",
-   "date": "2026-09-03"
-  },
-  {
-   "page": "mashable",
-   "likes": 31,
-   "ratio": 0.1,
-   "tier": "mega",
-   "hook": "\"At this point, we should almost let the fans write on the show. \u2060\n\u2060\nHead to the link in bio for the full interview.\u2060\n#adults #adultsfx #adultshulu\".",
-   "date": "2026-09-05"
-  },
-  {
-   "page": "mashable",
-   "likes": 17,
+   "likes": 1792,
    "ratio": 0.05,
    "tier": "mega",
-   "hook": "\"You're telling me they did basic prep and then dropped the actors on a mountain???\u2060\n\u2060\nHead to the link in bio to watch the full interview (and learn if they had any extra training).\".",
-   "date": "2026-09-03"
+   "hook": "\"Grand Theft Auto: Vice City arrived in 2002 and transported players into a neon-soaked fictional take on 1980s Miami, becoming one of Rockstar\u2019s defining open-world games.\n\nSet in 1986, Vice City followed Tommy Vercetti",
+   "date": "2026-09-06"
+  },
+  {
+   "page": "wired",
+   "likes": 70,
+   "ratio": 0.05,
+   "tier": "mega",
+   "hook": "\"In 2025, AI deepfakes flooded Tinder. According to the company, 98 percent of the content-moderation actions on the app were focused on combating fake accounts, scamming, and spam, pushing the company to expand its mode",
+   "date": "2026-09-06"
   }
  ],
  "reddit_hot": []
