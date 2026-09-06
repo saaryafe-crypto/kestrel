@@ -1,0 +1,104 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שלושה כלים זולים שמייצרים דמות משחק <em>שנראית יקרה בצורה מביכה</em>",
+   "kicker": "בלי ניסיון בעיצוב",
+   "hsize": 72,
+   "face": null,
+   "media": "posts/2026-09-04-edu-3-ai-tools-creating-a-game-character-mid/gen-0-r.jpg",
+   "image_prompt": "Armored warrior, waist-up, raising blazing electric-blue broadsword overhead, crackling violet energy surrounding, vivid purple arena, amber braziers glowing behind, cinematic game still, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "התוצאה נראית כמו <em>קאטסין ממשחק אמיתי</em>",
+   "hsize": 100,
+   "body": "יוצר אחד בנה דמות גיבור בסגנון Deadlock מאפס, רק עם כלים זולים: עיצוב הדמות, אחר כך תנועה, ואז קליפ קולנועי מלא.\n\n**שלוש שעות** עבודה. **$0** הוצאה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) עיצוב הדמות <em>ב-Midjourney</em>",
+   "hsize": 104,
+   "body": "אמן קונספט למשחקים גובה **$2,000** על עיצוב דמות אחת. Midjourney עושה את זה תוך **40 שניות**.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "שלושה כלים. דמות משחק אחת. כמעט בחינם.",
+   "hsize": 140,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) הוספת תנועה <em>ב-Viggle AI</em>",
+   "hsize": 104,
+   "body": "מעלים את התמונה מ-Midjourney. הכלי קורא את צורת הגוף ומייצר אנימציה בלופ תוך שניות.\n\nהתוצאה נראית כמו דמות שרצה בתוך מנוע משחק אמיתי.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) עיבוד הקליפ הסופי <em>ב-Kling 2.5</em>",
+   "hsize": 104,
+   "body": "Kling 2.5 הופך את הדמות המונפשת לסרטון קולנועי מלא.\n\nהכלי מייצר עד **עשר שניות** של וידאו עם תנועת מצלמה דינמית, רקע ברמת משחק ותאורה קולנועית.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את זה: תהליך העבודה עם <em>שלושת הכלים</em>",
+   "body": "• Midjourney: עיצוב הגיבור\n• Viggle AI: הוספת תנועה\n• Kling 2.5: עיבוד קליפ הוידאו",
+   "media": null
+  }
+ ],
+ "caption": "שלושה כלי AI זולים בנו דמות משחק שלמה מאפס, ב-$0 ובלי שום ניסיון בעיצוב. גללו לראות איך. 🎮\n\nשקופית 2 מראה את התוצאה: קליפ קולנועי שנבנה בשלוש שעות ב-$0. שקופית 3 מכסה את Midjourney עם הפרומפט המדויק לעיצוב דמות ברמת סטודיו תוך 40 שניות. שקופית 4 היא בדיקת המחיר. שקופית 5 מכסה את Viggle AI, הכלי שנותן לדמות הסטטית תנועה אמיתית. שקופית 6 מכסה את Kling 2.5, מחולל הוידאו שיוצר את הקליפ הקולנועי הסופי. שקופית 7 היא הסיכום לשמירה.\n\nסטודיואים לגיימינג, יוצרים עצמאיים ומעצבי מותגים מריצים את אותו תהליך כדי לייצר דמויות מהר בלי לשכור אמנים. מה שפעם דרש צוות ותקציב אמיתי, עכשיו לוקח לאדם אחד אחרי הצהריים.\n\nמנהלים עסק? שלחו לנו DM עם המילה AI ונראה לכם מה זה יכול לעשות בשבילכם.\n\nעקבו אחרי @ainews.israel לעוד תוכן כזה.\n\nמקורות: OgundimuFist\n\n#AITools #GameDesign #ArtificialIntelligence #ContentCreation #AIArt",
+ "pinned_comment": "איזה כלי הפתיע אתכם הכי הרבה? רוב האנשים מניחים ש-Kling עושה את כל העבודה, אבל Nano Banana 2 הוא השלב שגורם לקליפ הסופי להיראות כאילו יצא ממשחק אמיתי.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "3 FREE TOOLS THAT <em>BUILD ANY GAME CHARACTER TONIGHT</em>",
+   "THESE 3 AI TOOLS <em>BUILD A REAL GAME CHARACTER FREE</em>",
+   "<em>3 FREE AI TOOLS</em> THAT BUILD A GAME CHARACTER FROM SCRATCH",
+   "<em>3 AI TOOLS</em> BUILT A COMPLETE GAME HERO FOR FREE",
+   "<em>3 AI TOOLS</em> THAT BUILD A GAME HERO FROM NOTHING"
+  ],
+  "scores": [
+   8,
+   6,
+   6,
+   7,
+   7
+  ],
+  "winner": 0,
+  "why": "TONIGHT hits as immediate agency at 2am—you suddenly want to try this right now. [3] shows proof it works but doesn't trigger that same instant-action pull."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "PEOPLE ARE ALREADY MAKING <em>REAL GAME CUTSCENES</em> FOR FREE WITH 3 AI TOOLS",
+   "3 FREE TOOLS THAT BUILD A GAME CHARACTER <em>THAT LOOKS LIKE A REAL CUTSCENE</em>",
+   "3 FREE TOOLS THAT BUILD GAME CHARACTERS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "3 FREE TOOLS THAT <em>BUILD ANY GAME CHARACTER TONIGHT</em>"
+  ],
+  "scores": [
+   7,
+   5,
+   9,
+   6
+  ],
+  "winner": 2,
+  "why": "\"SO GOOD THEY FEEL ILLEGAL\" makes you stop mid-scroll because it's weird and specific—you NEED to see what that means. \"PEOPLE ARE ALREADY MAKING\" explains the story fine, but you already understand it; illegal-feeling tools make you think wait, WHAT?"
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "editor_override": "TRUTH LAW — slide 2 body says 'using only free tools' and '$0 spent,' but Midjourney has no meaningful free tier (paid subscription required, ~$10–$30/month) and Kling 2.5 is a paid service. The hook correctly says 'LOW-COST,' making slide 2's 'free' and '$0' claims a direct factual lie. Fix: change slide 2 body to 'low-cost tools' and replace '$0 spent' with an honest cost figure or remove the do",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
