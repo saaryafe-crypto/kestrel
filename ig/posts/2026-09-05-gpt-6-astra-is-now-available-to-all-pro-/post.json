@@ -1,0 +1,119 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SAM ALTMAN DROPPED GPT-6 ASTRA FOR TOP SUBSCRIBERS AND TOLD EVERYONE ELSE <em>THANK YOU FOR THE PATIENCE</em>",
+   "kicker": "DEVELOPERS HAVE FULL API ACCESS NOW",
+   "hsize": 64,
+   "media": "posts/2026-09-05-gpt-6-astra-is-now-available-to-all-pro-/gen-0.jpg",
+   "image_prompt": "SUBJECT: Sam Altman chest-up, both hands holding a sleek glowing tablet screen-first toward camera, eyes to camera, triumphant. BACKDROP PROPS: the OpenAI flower-knot logo exactly as in the reference image as a large glowing warm-white neon sign centered on the vivid amber-orange wall behind him, blurred silhouetted audience below. PALETTE: vivid amber-orange and bright white. LABELS: \"GPT-6 ASTRA\" on the tablet screen. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain.",
+   "gen_person": true,
+   "person_layer": "posts/2026-09-05-gpt-6-astra-is-now-available-to-all-pro-/person-layer.png",
+   "discs": [
+    {
+     "logo": "openai"
+    },
+    {
+     "text": "ASTRA"
+    }
+   ]
+  },
+  {
+   "type": "content",
+   "headline": "THIS MORNING, <em>GPT-6 WAS STILL A PROMISE</em>",
+   "hsize": 96,
+   "body": "You opened ChatGPT the same way you have for months.\n\nThen <b>Sam Altman</b> posted four sentences, and everything shifted",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "tweet",
+   "headline": "",
+   "media": null,
+   "tweet": {
+    "handle": "sama",
+    "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API. We will start rollout to Plus and Business users next. Thank you for the patience.",
+    "views": 1660578,
+    "when": "Sep 04, 2026"
+   }
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "NO KEYNOTE. ONE TWEET.",
+   "hsize": 114,
+   "body": "1.9 million people watched. Most still couldn't open it",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "DEVELOPERS BUILT WITH GPT-6 ASTRA <em>BEFORE YOU COULD OPEN IT</em>",
+   "hsize": 82,
+   "body": "API access opened the same second he posted\n<b>1.9 million</b> people read a four-sentence tweet\nEnterprise in. Your Plus plan still out\nYour competitors on Enterprise are not waiting",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: GPT-6 ASTRA IS LIVE. <em>MOST USERS STILL LOCKED OUT</em>",
+   "hsize": 58,
+   "body": "GPT-6 named 'Astra,' launched <b>September 4, 2026</b>\n\u2022 Pro, Enterprise, Business Premium: live now\n\u2022 Plus and Business users: still waiting\n\nSend this to whoever handles AI tools at your company",
+   "face": "sam-altman-2",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. GPT-6 Astra is live. Sam Altman thanked paying users for their patience while most of them still can't open it \ud83d\udc40\n\nGPT-6 Astra went live on September 4, 2026, Pro and Enterprise and Business Premium got access immediately, API access opened to developers the same moment, Plus and Business users are next but still waiting, Sam Altman announced it in a four-sentence post on X, the post reached 1.9 million views, the post thanked paying users for their patience while most of them were still locked out.\n\nOpenAI is separating the people building products from the people using them, faster than anyone expected. The gap between what developers can ship with GPT-6 today and what regular users can even try is already here.\nRunning a business? DM us 'AI' and we'll show you what GPT-6 could do for yours.\n\nSources: Sam Altman on X, September 4, 2026\n\n#ChatGPT #GPT6 #OpenAI #ArtificialIntelligence #AINews",
+ "pinned_comment": "Is 'thank you for the patience' the smoothest CEO move of the year or the bluntest thing a paying customer has ever read? Either way, most of you read it from the waiting room.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "SAM ALTMAN PUBLICLY THANKED CHATGPT USERS FOR THEIR PATIENCE <em>WHILE THEY WERE STILL LOCKED OUT OF GPT-6 ASTRA</em>",
+   "SAM ALTMAN DROPPED GPT-6 ASTRA FOR TOP SUBSCRIBERS AND TOLD EVERYONE ELSE <em>THANK YOU FOR THE PATIENCE</em>"
+  ],
+  "scores": [
+   7,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] hits harder because it makes the class divide immediate and personal. [0] wraps the same facts in contradiction that requires a mental beat to parse, slowing the emotional punch."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "SAM ALTMAN JUST GAVE CHATGPT'S GPT-6 TO PRO USERS AND <em>IF YOU'RE ON PLUS, YOU'RE STILL WAITING</em>",
+   "SAM ALTMAN JUST LAUNCHED CHATGPT'S GPT-6 AND <em>MOST PAYING SUBSCRIBERS STILL CAN'T TOUCH IT</em>",
+   "SAM ALTMAN DROPPED GPT-6 ASTRA FOR TOP SUBSCRIBERS AND TOLD EVERYONE ELSE <em>THANK YOU FOR THE PATIENCE</em>",
+   "SAM ALTMAN JUST RELEASED CHATGPT'S GPT-6 AND <em>TOLD MOST PAYING USERS 'THANK YOU FOR THE PATIENCE'</em>"
+  ],
+  "scores": [
+   6.5,
+   7.5,
+   8.5,
+   8
+  ],
+  "winner": 2,
+  "why": "[2]'s 'DROPPED...TOLD EVERYONE ELSE THANK YOU FOR THE PATIENCE' lands like a real person's infuriated hot take with casual language, capturing the full tone-deaf irony in one arc that makes you stop. [3] has the same story but the quotes make it read formal and journalistic, which kills the outrage energy at 2am scrolling."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "OpenAI / Sam Altman",
+  "actor_known": true,
+  "anchor": "ChatGPT",
+  "specifics": [
+   "GPT-6 is real and it's called 'Astra'",
+   "Already live in the API \u2014 developers can build with it right now",
+   "1.9 million people saw the announcement tweet",
+   "Pro and Enterprise users get it immediately; Plus users still waiting",
+   "Sam Altman said 'thank you for the patience' while making most paying users keep waiting"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API. We will start rollout to Plus and Business users next. Thank you for the patience.",
+  "link": "https://x.com/sama/status/2095973658867171733",
+  "judge_interest": 5,
+  "scout_score": 99.8
+ },
+ "editor_override": "Slide 3 is completely empty \u2014 no headline, no body, no image. It breaks the question chain, kills narrative momentum, and wastes a slot. Either fill it with the next beat in the story spine or delete it entirely.; The 1.9 million figure appears twice: slide 4 body ('1.9 million people watched') and slide 5 body ('1.9 million people read a four-sentence tweet'). Section 4 NEW FACT PER SLIDE bans ca",
+ "gate_r": "s6: Each bullet item renders with both a checkmark icon and a stray bullet character (\u2713 \u2022 text), a visible double-marker formatting bug that needs to be stripped to one marker per line."
+}
