@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-02T00:21:54Z",
-  "gate": "A",
-  "subject": "JUST IN: Apple $AAPL says OpenAI is actively destroying crucial evidence in escalating legal battle.",
-  "verdict": "KILL",
-  "reason": "This is NO SUBSTANCE: a single unverified tweet with no source documentation, second fact, or numbers for building slides."
- },
- {
-  "t": "2026-09-02T00:21:56Z",
-  "gate": "A",
-  "subject": "BREAKING: Sweden’s Infrastructure Minister and senior citizens just experienced Tesla FSD. 🇸🇪 Andreas Carlson posted a v",
-  "verdict": "KILL",
-  "reason": "A routine FSD demonstration with positive feedback lacks the real-world consequence and jaw-dropping specificity that STORY LAW requires for a viral-specific event."
- },
- {
-  "t": "2026-09-02T00:22:44Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens: a labor-market/demographic observation where offshoring is the mechanism, not the star—the subject is sociological trend, not AI/tech/founder/investing/space; this is the goats-on-Etna model the doctrine forbids."
- },
- {
   "t": "2026-09-02T00:23:47Z",
   "gate": "A",
   "subject": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon H",
@@ -2098,5 +2077,26 @@
   "subject": "SAM ALTMAN DROPPED GPT-6 ASTRA FOR TOP SUBSCRIBERS AND TOLD EVERYONE ELSE <em>THANK YOU FOR THE PATIENCE</em>",
   "verdict": "FAIL",
   "reason": "s6: Each bullet item renders with both a checkmark icon and a stray bullet character (✓ • text), a visible double-marker formatting bug that needs to be stripped to one marker per line."
+ },
+ {
+  "t": "2026-09-06T06:12:30Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Slide 4 headline ('A Major AI Build Tool Just Opened to All Paying Users') and body never name the tool. 'Plus and Business tier' implies a specific product but it goes unnamed throughout — readers cannot tell if this is Claude, ChatGPT, or something else, making the story un-fact-checkable and unanchorable. The CTA bullet repeats the same gap ('A major AI build tool opened to all Plus and Busines"
+ },
+ {
+  "t": "2026-09-06T06:16:53Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Cover image fails IMAGE LAW on two counts: (1) it is a decorative particle/light-streak render on a near-black background — no photoreal subject, no human face, no product, no real photo fragment anywhere in the frame. The doctrine is explicit: 'Text-on-black or empty-top covers are failures' and 'every element must read as photographed.' An abstract CGI light burst is not a photographed element. "
+ },
+ {
+  "t": "2026-09-06T06:18:32Z",
+  "gate": "R",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "FAIL",
+  "reason": "s2: Raw markdown asterisks are visibly rendered as literal characters in the body copy (**Elon Musk**), which reads as broken formatting on a professional slide.; s3: Raw markdown asterisks appear in the body (**Astra**, **12,399 people**), rendering as unparsed syntax rather than styled text.; s4: Body copy contains unrendered markdown (**Claude's**, **Plus and Business**) — literal asterisks are"
  }
 ]

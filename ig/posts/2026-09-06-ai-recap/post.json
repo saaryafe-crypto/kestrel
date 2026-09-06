@@ -1,0 +1,58 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP"
+  },
+  {
+   "type": "content",
+   "hsize": 88,
+   "headline": "Tesla Just Turned Cybercab Owners Into <em>Passive Income Earners</em>",
+   "body": "**Elon Musk** broke it down: one tap in the Tesla app, your Cybercab joins the fleet and earns while you're away. You pick the window, a few hours, a few days, or a full week. Want it back? One tap",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "While You Scrolled, Someone <em>Had AI Build Them a Custom Game</em>",
+   "body": "They described the game they wanted to **Astra**, Google's AI assistant, and were playing it within minutes. No code, no design files, just a description in plain words. The person called it 'obviously trivial,' but **12,399 people** liked it anyway",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "Claude's Build Tool Just <em>Opened to All Paying Users</em>",
+   "body": "**Claude's** build tool went live for **Plus and Business** tier users today. The team's full launch message was four words: 'Happy building'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "A Private Rocket Just <em>Hit Orbit</em> on Its Second Attempt",
+   "body": "**Isar Aerospace's Spectrum** launched from And\u00f8ya Spaceport in Norway and reached orbit on attempt number two. That puts a privately built European rocket on the orbital map, launched from Norwegian soil",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 88,
+   "headline": "A $3 Item in 1913 <em>Costs $100 Today</em>",
+   "body": "The **US dollar** has lost **97%** of its purchasing power since the Federal Reserve launched in 1913. That's your money being worth three cents on the dollar, compounded quietly over a century",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "SAVE TODAY'S <em>AI BRIEFING</em>",
+   "body": "\u2022 Tesla's Cybercab earns money while you're away, one tap, Airbnb-style\n\u2022 Google's Astra builds any game you describe, within minutes\n\u2022 Claude's build tool opened to all Plus and Business users\n\u2022 Isar Aerospace's Spectrum hit orbit on its second attempt\n\u2022 The US dollar is down 97% in purchasing power since 1913",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2b05\ufe0f to see what happened in AI in the last 24 hours, from Tesla's Cybercab passive income model to a private rocket reaching orbit on its second try.\n\nTesla's Cybercab explained as an Airbnb-style fleet where owners tap once to earn while they're away, Google's Astra building any game a user describes in plain words and having them playing within minutes, a major AI build tool going live for all Plus and Business subscribers, Isar Aerospace's Spectrum rocket reaching orbit on its second launch from And\u00f8ya Spaceport in Norway, the US dollar having lost 97% of its purchasing power since the Federal Reserve launched in 1913.\n\nFrom cars earning on their own to AI building working games from a spoken request, the gap between describing what you want and having it built is down to minutes. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Elon Musk, Google, Isar Aerospace, Federal Reserve data\n\n#AI #Technology #Tesla #ArtificialIntelligence #TechNews",
+ "pinned_comment": "If Tesla's Cybercab model works exactly as Elon described, your car earning money while you're away with one tap, would you actually put it in the fleet? Or is the idea of strangers in your car a dealbreaker?",
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "Cover image fails IMAGE LAW on two counts: (1) it is a decorative particle/light-streak render on a near-black background \u2014 no photoreal subject, no human face, no product, no real photo fragment anywhere in the frame. The doctrine is explicit: 'Text-on-black or empty-top covers are failures' and 'every element must read as photographed.' An abstract CGI light burst is not a photographed element. ",
+ "gate_r": "s2: Raw markdown asterisks are visibly rendered as literal characters in the body copy (**Elon Musk**), which reads as broken formatting on a professional slide.; s3: Raw markdown asterisks appear in the body (**Astra**, **12,399 people**), rendering as unparsed syntax rather than styled text.; s4: Body copy contains unrendered markdown (**Claude's**, **Plus and Business**) \u2014 literal asterisks are"
+}
