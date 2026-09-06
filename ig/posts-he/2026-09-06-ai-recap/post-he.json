@@ -1,0 +1,65 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "מה קרה היום ב-<em>AI</em>?",
+   "kicker": "הסיכום היומי"
+  },
+  {
+   "type": "content",
+   "hsize": 88,
+   "headline": "Tesla: ה-Cybercab <em>מרוויח בשבילך</em> בזמן שאתה לא שם",
+   "body": "**אילון מאסק** הסביר: לחיצה אחת באפליקציית Tesla, ה-Cybercab שלך יוצא להסיע אנשים ומרוויח בזמן שאתה לא שם. אתה קובע מתי, כמה שעות, כמה ימים, שבוע שלם. רוצה אותו בחזרה? לחיצה אחת",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "בזמן שגללת, מישהו ביקש מ-AI <em>לבנות לו משחק</em>",
+   "body": "הוא תיאר ל-**Astra**, עוזרת ה-AI של Google, איזה משחק הוא רוצה, ותוך דקות כבר שיחק בו. בלי קוד, בלי קבצי עיצוב, רק מילים רגילות. הוא עצמו קרא לזה 'ברור מאליו', אבל **12,399 איש** נתנו לייק בכל זאת",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "כלי הבנייה של Claude <em>נפתח לכולם</em>",
+   "body": "כלי הבנייה של **Claude** עלה היום לכל מנויי **Plus ו-Business**. ההודעה שהצוות פרסם הייתה ארבע מילים: 'Happy building'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "בניסיון השני: טיל פרטי אירופאי <em>הגיע למסלול</em>",
+   "body": "**Isar Aerospace** שיגרה את ה-**Spectrum** מנמל החלל Andøya בנורווגיה ועלתה למסלול בניסיון השני. זה שם טיל אירופאי פרטי לראשונה על מפת שיגורי החלל",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 88,
+   "headline": "הדולר האמריקאי איבד <em>97% מהערך שלו</em> מאז 1913",
+   "body": "**הדולר האמריקאי** איבד **97%** מהערך שלו מאז שהפדרל ריזרב קם ב-1913. מה שהיה שווה דולר שלם, שווה היום שלושה סנט. בשקט, לאורך מאה שנה",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "שמור את <em>סיכום ה-AI</em> של היום",
+   "body": "• ה-Cybercab של Tesla מרוויח בזמן שאתה לא שם, לחיצה אחת, כמו Airbnb לרכב\n• Google Astra בונה כל משחק שמתארים לה, תוך דקות\n• כלי הבנייה של Claude נפתח לכל מנויי Plus ו-Business\n• ה-Spectrum של Isar Aerospace הגיע למסלול בניסיון השני\n• הדולר האמריקאי ירד 97% בכוח הקנייה מאז 1913",
+   "media": null
+  }
+ ],
+ "caption": "Cybercab מרוויח בזמן שאתה ישן, AI בנה משחק תוך דקות, וטיל פרטי הגיע לחלל ⬅️\n\nה-Cybercab של Tesla עובד כמו Airbnb לרכב: בעלים לוחצים פעם אחת, הרכב יוצא להסיע אנשים ומרוויח. Google Astra בנתה משחק מותאם אישית ממה שהמשתמש תיאר במילים, תוך דקות. כלי הבנייה של Claude נפתח לכל מנויי Plus ו-Business. Isar Aerospace שיגרה את ה-Spectrum בניסיון השני מנמל Andøya בנורווגיה ועלתה למסלול. הדולר האמריקאי איבד 97% מהערך שלו מאז 1913.\n\nמרכבים שמרוויחים לבד ועד AI שבונה משחקים ממה שאמרת, הפער בין לתאר מה אתה רוצה לבין שיהיה מוכן ירד לדקות. מנהל עסק? שלח לנו \"AI\" בהודעה ונראה לך מה זה יכול לעשות.\n\nעקוב אחרי @ainews.israel לעוד עדכונים יומיים.\n\nמקורות: Elon Musk, Google, Isar Aerospace, Federal Reserve data\n\n#AI #Technology #Tesla #ArtificialIntelligence #TechNews",
+ "pinned_comment": "אם ה-Cybercab של Tesla עובד בדיוק כמו שאילון מאסק תיאר, לחיצה אחת והרכב מרוויח בשבילך בזמן שאתה לא שם, היית שם אותו בצי? או שהרעיון של זרים ברכב שלך שובר את הדיל?",
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "Cover image fails IMAGE LAW on two counts: (1) it is a decorative particle/light-streak render on a near-black background — no photoreal subject, no human face, no product, no real photo fragment anywhere in the frame. The doctrine is explicit: 'Text-on-black or empty-top covers are failures' and 'every element must read as photographed.' An abstract CGI light burst is not a photographed element. ",
+ "gate_r": "s2: Raw markdown asterisks are visibly rendered as literal characters in the body copy (**Elon Musk**), which reads as broken formatting on a professional slide.; s3: Raw markdown asterisks appear in the body (**Astra**, **12,399 people**), rendering as unparsed syntax rather than styled text.; s4: Body copy contains unrendered markdown (**Claude's**, **Plus and Business**) — literal asterisks are",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
