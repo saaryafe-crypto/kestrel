@@ -32,7 +32,6 @@ SCHEMA = {
         "product_url": {"type": "string"},
         "cover_style": {"type": "string", "enum": ["photo", "logos", "type"]},
         "logos": {"type": "array", "items": {"type": "string"}, "maxItems": 2},
-        "badge_logo": {"type": "string"},
         "slides": {
             "type": "array",
             "items": {
@@ -51,14 +50,6 @@ SCHEMA = {
                     # break slide on the API path (latent bug, fixed Sep 5)
                     "layout": {"type": "string",
                                "enum": ["card", "break", "tweet"]},
-                    "discs": {
-                        "type": "array", "maxItems": 2,
-                        "items": {
-                            "type": "object",
-                            "properties": {"logo": {"type": "string"},
-                                           "text": {"type": "string"}},
-                        },
-                    },
                     "face": {"type": "string"},
                 },
                 "required": ["type", "hsize", "headline"],
@@ -547,7 +538,7 @@ THE CTA CLOSER (owner doctrine Aug 1, the reference page's last slide: Tim Cook 
 
 CLASH-CAST (owner's gold standard, Aug 1): when the story is a clash or a deal between TWO named famous people — a buyer and a seller, a winner and a loser, a hunter and the hunted — put BOTH recognizable likenesses in ONE composed scene that acts out the power dynamic: the winner looming calm and in command, the loser cornered mid-loss, faces large and close together, one clearly dominant. The story's world rages behind them (a trading floor of crashing red chart lines, a courtroom, a launchpad). Reference: the $45B fire-sale story → the young founder slumped at the deal table while the older billionaire stands over him signing, walls of red crashing charts behind. The pair reads as ONE unit; this beats a lone reaction face whenever the story has two famous sides. Write BOTH full names directly in the brief text AND return them comma-separated in "face" (that field routes to the person model — see the famous-people rule below). If a side is not famous enough to recognize, that person appears FACELESS (from behind, silhouette, or hands only), and if neither side is famous, drop CLASH-CAST entirely and dramatize with objects and stakes instead.
 
-THE SITUATION PORTRAIT (owner order Aug 3 — his exact formula, written after the $750B failure shipped a bare press-photo crop of Musk with two identical black logo discs on an empty blurred background; his verdict: "a picture of the SITUATION!!!!"): when the cover story is one famous person winning or losing something big, write the cover brief the way the owner writes it: "Elon Musk with a devastated look like he just lost $750 billion, red crashing stock charts covering the wall of screens behind him". Two halves, both mandatory: the FACE carries the story's emotion (devastated for a loss, triumphant for a win, 40%+ of frame), and the BACKGROUND makes the situation itself visible — crashing red charts for a wipeout, raining cash for a windfall, a cheering crowd for a victory. LOUD AND COLORFUL (owner Aug 3, after the $750B cover shipped its charts as near-black murk: "we need to make the background a lot more colorful... more dramatic"): write the background as BRIGHT, saturated and glowing — "a floor-to-ceiling wall of glowing screens ablaze with crashing red stock charts", not "dark screens behind him" — it fills every pixel behind the person with vivid story imagery. THE THUMB TEST (owner Aug 3: "if viewers watch it once they should be able to guess what it's about"): cover the person with your thumb — the background alone must still say what THIS story is about (a yacht story gets the marina of superyachts, a lawsuit the courtroom, a wipeout the wall of red charts); a background that could belong to any other story is the wrong background. A neutral portrait, an empty background, a blurred nothing, or a dim barely-there backdrop is a FAILED cover, no matter how good the likeness is. The renderer stamps brand discs in the upper corners afterward with the person layered OVER them, so keep the person's head centered and the corners clear — the scene itself must still tell the story without the discs.
+THE SITUATION PORTRAIT (owner order Aug 3 — his exact formula, written after the $750B failure shipped a bare press-photo crop of Musk with two identical black logo discs on an empty blurred background; his verdict: "a picture of the SITUATION!!!!"): when the cover story is one famous person winning or losing something big, write the cover brief the way the owner writes it: "Elon Musk with a devastated look like he just lost $750 billion, red crashing stock charts covering the wall of screens behind him". Two halves, both mandatory: the FACE carries the story's emotion (devastated for a loss, triumphant for a win, 40%+ of frame), and the BACKGROUND makes the situation itself visible — crashing red charts for a wipeout, raining cash for a windfall, a cheering crowd for a victory. LOUD AND COLORFUL (owner Aug 3, after the $750B cover shipped its charts as near-black murk: "we need to make the background a lot more colorful... more dramatic"): write the background as BRIGHT, saturated and glowing — "a floor-to-ceiling wall of glowing screens ablaze with crashing red stock charts", not "dark screens behind him" — it fills every pixel behind the person with vivid story imagery. THE THUMB TEST (owner Aug 3: "if viewers watch it once they should be able to guess what it's about"): cover the person with your thumb — the background alone must still say what THIS story is about (a yacht story gets the marina of superyachts, a lawsuit the courtroom, a wipeout the wall of red charts); a background that could belong to any other story is the wrong background. A neutral portrait, an empty background, a blurred nothing, or a dim barely-there backdrop is a FAILED cover, no matter how good the likeness is. Nothing is stamped on afterward (owner order Sep 6): if the story's brand belongs in frame, write its mark INTO the scene as one glossy physical object (a glowing sign on the wall of screens, a badge behind the shoulder) — the scene alone tells the whole story.
 
 {face_note}
 {logo_note}
@@ -1248,7 +1239,7 @@ Pick "cover_style":
 - "photo" — STRONGLY PREFERRED whenever the press photo exists AND passes the rule above. The photo fills the top ~60% of the cover; the headline sits on a solid black band below it (like the big news pages)
 - "logos" — 1-2 company logos rendered big on the dark cover, only when there is no usable photo (X vs Y or company stories). Available logo names: {', '.join(logos)}. Only these names.
 - "type" — big-headline-only dark cover (last resort)
-"logos" array may ALSO be set together with "photo": the logo(s) are overlaid on top of the photo (one logo max in that case — pick the company the story is about). NEVER overlay a flat logo when the photo shows a person's face — it lands on top of them and looks amateur; for a famous person's photo use the COMPOSED COVER discs instead (below) and leave logos empty
+"logos" is ONLY for the no-photo "logos" cover style. NEVER ask for a logo overlaid on top of a photo — nothing is ever stamped onto a cover picture (owner order Sep 6); the brand's mark lives INSIDE the cover scene itself (the art direction and generator put the company's real mark in the picture as one glossy physical object)
 THE KICKER (forensic upgrade Aug 2 — the reference pages use the tiny strip under the headline for a SECOND hook beat, not a generic swipe prompt: "WITHOUT SONY LIFTING A FINGER", "HE DOES NOT WANT THEIR MONEY", "BUILT WITH CLAUDE CODE, OPEN SOURCE", "5 SETTINGS TO SWITCH OFF"): the cover slide MAY set "kicker": 3-7 words, TRUE facts only, carrying the story's twist, consequence or bonus promise that is NOT already worded in the headline. It renders tiny in the strip — the headline must still work with the kicker covered. The 30-cover reference audit (Sep 5) found the strip carrying a real second fact on ~90% of news covers — treat the kicker as DEFAULT-ON for news: a real story almost always has a second beat ("ONE TRIP CAME OUT 44% CHEAPER", "NEARLY 600,000 STUDENTS WILL BE AFFECTED"). Only if the story truly has no real second beat, OMIT it (the strip then says "Swipe for more") — a filler kicker is worse than none. There is NO other subline (owner rule Aug 1): every word of the main hook lives in the big headline itself.
 
 {doctrine()}
@@ -1301,10 +1292,10 @@ PROFILE CARD FORMAT (owner gold-standard example Aug 1 — the @techskills Merco
 - Every card slide gets a REAL photo (media_idx) — childhood/early shots, the team, the product; the photo renders in a rounded card under the text and is the proof artifact. image_brief only as a last-resort fallback.
 - Slide order = a life arc: who he is → the early feat → the founding → what the thing does + the money number → the growth numbers → the record + the stance. Same open-loop rule at every boundary.
 - The COVER for this format: one 12-24 word record-sentence that tells the WHOLE claim, structured [record] + [how, in plain words] ("A 22 year old just became the youngest self made billionaire in history. He built an AI recruiting tool with 2 college friends"), hsize 54-58, <em> on the record phrase. The absurd true claim IS the hook; there is no hidden twist to protect.
-- If the story's company logo exists in our logo set, set top-level "badge_logo" to it and make sure the cover image puts the person RIGHT of center (the badge chip renders top-left).
+- If the story's company logo exists in our logo set, name that company's mark in the cover's image_brief so the generated scene carries it (nothing is ever stamped onto the picture).
 
-COMPOSED COVER (owner gold standard Aug 1 — the @getintoai anatomy; STRONGLY PREFERRED whenever eligible): when the cover's real article photo (media_idx) shows the story's FAMOUS person — one person, chest-up, face clear — set "discs" on the cover slide: 1-2 elements that complete the story equation beside the face. First disc = the story company's logo (only names from the logo list). Second disc = the exact product/object the headline claims, as SHORT typeset text, 12 characters max ("OPUS 5", "CODEX", "$45B MEMO") — or a second logo when the story pairs two brands. The pipeline cuts the person out of the photograph, blurs the photo's own world into the backdrop, floats the discs at head height and layers the person OVER them — face, logos and background all connected to the claim (reference: Sam Altman shushing between the OpenAI badge and a terminal icon; Anthropic's CEO between the Claude disc and an "Opus 5" disc). Rules: ONLY on a real press photo of a famous person — never on a generated image, never an unknown face; every disc must be RELATIONAL (the brand of the story + the thing the headline claims — a disc that could sit on any post is banned); skip discs when the photo has multiple people or the person is a tiny part of the frame. If the cutout fails, the pipeline falls back to the plain photo cover automatically.
-FACES POOL — we keep real press photos on file for: {face_list}. If the story's main famous actor is on that list and NO article photo shows them, STILL do the composed cover: set "face" on the cover slide to that exact id (e.g. "sam-altman") together with "discs", and omit media_idx — the pipeline uses our stored press photo. A cover should NEVER ship as logo-on-artwork when the story's actor is in this pool; the face is what stops the scroll. Only use a face when the story is genuinely about that person or their company.
+THE COMPOSED SCENE (owner order Sep 6, generate-don't-edit — supersedes the Aug 1 cutout-and-discs composed cover): the reference pages' story equation — the famous face + the brand's mark + the exact object the headline claims — is built INSIDE ONE generated picture, never assembled from stamped layers. When the story has a famous actor, write the full equation into the cover's image_brief: the person mid-performing the claim, their company's real mark as ONE glossy physical object in the scene (a glowing sign on the wall behind them, a big circular badge behind their shoulder), and the claim's object held or oversized beside them (reference: Sam Altman holding the Codex keypad under the glowing OpenAI knot; Anthropic's CEO between the Claude mark and a giant "OPUS 5" chip). The generator copies the person's real face from press-photo references and renders the real vector mark — the picture arrives finished; the pipeline stamps nothing on top.
+FACES POOL — we keep real press photos on file for: {face_list}. If the story's main famous actor is on that list and NO article photo shows them, set "face" on the cover slide to that exact id (e.g. "sam-altman") and omit media_idx — the real photo anchors the generated likeness, and if generation fails entirely the stored press photo still floors the cover so it never ships faceless. Only use a face when the story is genuinely about that person or their company.
 
 COVER HOOK — the #1 priority. The cover decides whether anyone swipes. OWNER DOCTRINE (Aug 1, the reference-page audit — REVERSES the Jul 29 information-gap rule and overrides everything older): the cover TELLS THE WHOLE STORY with its wildest specifics. A cryptic tease only works for pages with authority; a growing page earns the swipe by delivering a complete wild claim the reader already believes — they swipe for the photos, the details and the fallout. Built ONLY from true facts in the story.
 {steer}
@@ -2034,29 +2025,14 @@ def main(stories_path):
             # incidental names in a no-face brief still kill Seedream (E005)
             brief, face_refs = face_riders(brief, None)
         # brand reference (owner Aug 1, courtroom cover: from-memory logos come
-        # out wrong): the real SVG rasterized rides along as the third ref
+        # out wrong): the real SVG rasterized rides along as the third ref.
+        # GENERATE, DON'T EDIT (owner order Sep 6 round 2): the scene is the
+        # ONLY logo source on a cover — the renderer stamps nothing on top
+        # anymore, so no LOGO ONCE juggling is needed here.
         brand_ref = None
         logo_slug = s.pop("gen_logo", None)
-        # LOGO ONCE (owner order Sep 6, the Astra cover shipped the OpenAI
-        # mark three times — corner disc + giant backdrop copy: "even if you
-        # put the logo in the picture that ai generated you dont need
-        # another one and vice versa"): each brand's logo appears ONCE on
-        # the finished slide, from ONE source. Discs are the exact official
-        # mark, so when discs will be stamped the scene gets no logo at all.
-        if logo_slug and s["type"] == "cover" and s.get("discs"):
-            print(f"logo-once: cover has discs — dropping gen_logo "
-                  f"'{logo_slug}' from the scene", file=sys.stderr)
-            logo_slug = None
         if logo_slug:
             brand_ref = logo_ref(logo_slug.replace(" ", ""))
-            if brand_ref and s["type"] == "cover":
-                s["scene_logo"] = logo_slug  # renderer must not re-stamp it
-        if s["type"] == "cover" and s.get("discs"):
-            brief += (" SCENE LOGO BAN: render no brand logos or logo marks "
-                      "anywhere in this scene — the layout stamps the "
-                      "official logo badge on top of the picture separately, "
-                      "and each logo may appear only once on the finished "
-                      "slide.")
         # cta generates when it has a real anchor: the product photo (product-
         # hero second pose) or the story person's face ref (owner Aug 1: the
         # Tim Cook closer — the story's person says "follow us"). No anchor ->
@@ -2355,85 +2331,34 @@ def main(stories_path):
     style = post.pop("cover_style", "photo" if cover.get("media") else "type")
     if style != "photo":
         cover["media"] = None  # logos/type cover: no photo band
-    # LOGO ONCE, other direction (owner order Sep 6): the generated scene
-    # already carries the brand mark (gen_logo ref was attached) — the
-    # renderer must not add a second copy as a flat logo overlay or badge
-    # chip. One logo per brand per finished slide, from either source.
-    if cover.pop("scene_logo", None) and \
-            os.path.basename(cover.get("media") or "").startswith("gen"):
-        post["logos"] = []
-        post["badge_logo"] = None
-        print("logo-once: scene carries the logo — renderer overlays off",
-              file=sys.stderr)
+    # GENERATE, DON'T EDIT (owner order Sep 6 round 2 — "instead of editing
+    # a picture... analyze every small detail and instead of editing build a
+    # prompt that does that"; reference-wall forensics: the reference pages'
+    # covers are ONE coherent generated composite — person, glossy in-scene
+    # brand mark, label chips, arrows and insets all inside the picture —
+    # never mechanically stamped layers): the flat logo overlay, the badge
+    # chip and the cutout/person-layer + disc composite are RETIRED. Every
+    # brand element lives inside the generated scene (gen_logo ref +
+    # genimg's collage scaffold). The Sep 6 bare-cover failure was exactly
+    # a stamped disc colliding with the scene's own mark. "logos" survives
+    # ONLY as the no-photo dark-cover fallback (typography, not editing).
     valid = [l for l in post.pop("logos", [])
              if os.path.exists(os.path.join(HERE, "logos", f"{l}.svg"))]
-    if valid and (style == "logos" or cover.get("media")):
-        cover["logos"] = valid[:1] if cover.get("media") else valid
-    badge = post.pop("badge_logo", None)
-    if badge and cover.get("media") and os.path.exists(
-            os.path.join(HERE, "logos", f"{badge}.svg")):
-        cover["badge_logo"] = badge  # circular brand chip on the cover photo
-
-    # composed cover (owner gold standard Aug 1, @getintoai anatomy): cut the
-    # famous person out of the REAL press photo; renderer stacks backdrop <
-    # discs < person. Never on generated images (unfamiliar-faces rule) —
-    # every failure falls back to the plain photo cover, a slot never dies.
-    raw_discs = [d if isinstance(d, dict) else {"logo": d}
-                 for d in (cover.get("discs") or []) if d]
-    discs = [d for d in raw_discs
-             if (d.get("logo") and os.path.exists(
-                     os.path.join(HERE, "logos", f'{d["logo"]}.svg')))
-             or (d.get("text") and len(d["text"]) <= 12)]
+    if valid and style == "logos" and not cover.get("media"):
+        cover["logos"] = valid
+    post.pop("badge_logo", None)
     cover.pop("discs", None)
+    cover.pop("scene_logo", None)
     # faces pool (owner Aug 1: "cover picture is missing" — a cover must never
-    # ship faceless when the story's actor is famous): no usable article photo
-    # -> fall back to our stored real press photo of the person
+    # ship faceless when the story's actor is famous): only when the cover has
+    # NO image at all does the stored real press photo floor it — a generated
+    # scene, even faceless, beats a bare portrait crop (reference-wall law)
     face = cover.pop("face", None)
-    # a person-route generated cover (gen_person) counts as a REAL photo:
-    # it shows the accurate famous face inside the story's situation — the
-    # owner's preferred cover (Aug 3). Only faceless/Seedream gen images
-    # still yield to the stored press photo.
-    no_photo = not cover.get("media") or \
-        (os.path.basename(cover.get("media", "")).startswith("gen")
-         and not cover.get("gen_person"))
-    if discs and face and no_photo:
+    if face and not cover.get("media"):
         fp = pick_face(face)
         if fp:
             cover["media"] = fp
             print(f"faces pool: using stored press photo {os.path.basename(fp)}",
-                  file=sys.stderr)
-    if discs and cover.get("gen_person"):
-        # owner formula Aug 3 ("a picture of the SITUATION!!!!... then you
-        # also add the logos and it looks so much better"): the generated
-        # scene already shows the person living the story — the brand discs
-        # ride over the full-bleed image, no cutout, no blur.
-        # LAYERING (owner Aug 3, the $750B cover — the SpaceX disc clipped
-        # Musk's hair): the person from the SAME image re-draws on top of
-        # the discs, so logos sit BEHIND the person and the person wins any
-        # collision. rembg failure -> discs on top as before, never fatal.
-        import composite
-        pl = composite.person_layer(
-            os.path.join(HERE, cover["media"]),
-            os.path.join(post_dir, "person-layer.png"))
-        if pl:
-            cover["person_layer"] = os.path.relpath(pl, HERE)
-        cover["discs"] = discs
-        cover.pop("logos", None)
-        print("situation cover: discs over generated scene"
-              + (" (person re-drawn on top)" if pl else "") + " — "
-              + ", ".join(d.get("logo") or f'"{d["text"]}"' for d in discs),
-              file=sys.stderr)
-    elif discs and cover.get("media") and \
-            not os.path.basename(cover["media"]).startswith("gen"):
-        import composite
-        cut = composite.cutout(os.path.join(HERE, cover["media"]),
-                               os.path.join(post_dir, "cutout.png"))
-        if cut:
-            cover["cutout"] = os.path.relpath(cut, HERE)
-            cover["discs"] = discs
-            cover.pop("logos", None)  # discs replace the flat logo overlay
-            print("composed cover: cutout + "
-                  + ", ".join(d.get("logo") or f'"{d["text"]}"' for d in discs),
                   file=sys.stderr)
     post.pop("subline", None)  # dead field (owner Aug 1): covers render headline + swipe strip only
     post.update(handle="@yaffeai",
