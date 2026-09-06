@@ -1,0 +1,96 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>שישה כללי פרומפט</em> שמהנדס Claude Code חשף בחינם",
+   "kicker": "עדיף על קורסים ב-$300",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-06-edu-6-claude-code-prompt-rules-from-the-engi/gen-0.jpg",
+   "image_prompt": "Dario Amodei in dark hoodie crouching tight at waist-up, hand extending blank yellow sticky note, wide conspiratorial grin, eyes locked on lens, simple glowing blue server backdrop. 35mm documentary, natural skin texture, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>תיצור קובץ CLAUDE.MD</em> שישמור את הכללים שלך לתמיד",
+   "hsize": 88,
+   "body": "בכל סשן של Claude מבזבזים עשר דקות על הסברים. הוא מראה קובץ אחד שמסיים את זה.\n\n\"תיצור CLAUDE.md בתיקיית השורש של הפרויקט שלי. תוסיף את הסטאק שלי, כללי שמות, ומה שלא לגעת בו אף פעם.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>תגרום ל-Claude לכתוב תוכנית</em> לפני שהוא נוגע בקוד שלך",
+   "hsize": 90,
+   "body": "Claude שכתב 12 קבצים כשביקשו ממנו לתקן באג אחד. פרומפט אחד מסיים את זה.\n\n\"לפני שכותב קוד, תכתוב תוכנית. תרשום כל קובץ שתשנה. תעצור שם.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>תגדיר בדיוק אילו קבצים</em> מותר לו לשנות",
+   "hsize": 88,
+   "body": "בסרטון, Claude נגע במודול התשלומים כשרק הלוגין היה שבור. הקוד שלך הבא בתור.\n\n\"תערוך רק קבצים בתוך /src/auth. אל תגע ב-/src/payments או בקובץ שלא ציינתי.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) ULTRATHINK",
+   "hsize": 124,
+   "layout": "break",
+   "body": "מילה אחת מפעילה מצב חשיבה עמוקה יותר. הוא מוסיף אותה לכל בעיה קשה. זה עובד.\n\n\"Ultrathink: למה ה-auth middleware שלי נכשל בשקט כשהטוקן פג?\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>תבנה חלק אחד בכל פעם</em> ותעצור לבדיקה",
+   "hsize": 84,
+   "body": "הוא בונה פיצ'רים בחלקים. כל חלק עובר בדיקה לפני שמתחיל הבא.\n\n\"תבנה עכשיו רק את סכמת ה-database. תעצור כשגמרת. תחכה לבדיקה שלי לפני הצעד הבא.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) <em>תדביק את כל השגיאה</em> ומה שכבר ניסית",
+   "hsize": 96,
+   "body": "שאלות קצרות מקבלות תשובות קצרות. הוא מדביק את השגיאה המלאה ומה שלא עבד. פתרון בפעם הראשונה, כל פעם.\n\n\"הנה השגיאה: [הדבק]. הנה הקובץ: [הדבק]. כבר ניסיתי [X]. תתקן.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>תשמור: שישה פרומפטים</em> ממהנדס Claude Code",
+   "hsize": 96,
+   "body": "תיצור CLAUDE.md לפרויקט שלך\nתכתוב תוכנית לפני שמתחיל הקוד\nתנעל אילו קבצים Claude יכול לגעת בהם\nUltrathink לבעיות קשות\nתבנה חלק אחד בכל פעם\nתדביק את השגיאה המלאה\n\nחדשות AI יומיות ומיומנויות אמיתיות",
+   "media": null
+  }
+ ],
+ "caption": "המהנדס שבנה את Claude Code חשף שישה כללים שעדיפים על קורסים של $300. הכל בחינם. 🔖\n\nהפוסט עובר על: יצירת קובץ CLAUDE.md שהפרויקט שלך קורא בכל סשן, כתיבת תוכנית לפני שמתחיל קוד, נעילת אילו קבצים Claude יכול ולא יכול לגעת בהם, פקודת Ultrathink לבעיות שדורשות חשיבה עמוקה יותר, בנייה חלק אחד בכל פעם עם עצירות לבדיקה, ומסירת השגיאה המלאה ל-Claude ביחד עם מה שכבר ניסית.\n\nרוב האנשים משתמשים ב-Claude Code כמו במנוע חיפוש ומקבלים תשובות רדודות. המהנדס שבנה אותו מראה שהכללים האלה שווים יותר מכל קורס של $300. מנהל עסק? שלח לנו DM עם \"AI\" ונראה לך מה זה יכול לעשות אצלך. לעוד כזה כל יום: @ainews.israel.\n\nמקורות: deanwperkins, Anthropic\n\n#claudecode #ai #aitools #coding #productivity",
+ "pinned_comment": "איזה אחד מנסים הלילה? קובץ CLAUDE.md בשקופית השנייה הוא זה שרוב האנשים מדלגים עליו ומתחרטים עליו חודשים אחר כך.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 CLAUDE CODE TRICKS</em> THE ENGINEER TEACHES FOR FREE",
+   "<em>THE CLAUDE CODE ENGINEER</em> GIVES 6 RULES AWAY FREE",
+   "<em>6 FREE PROMPT RULES</em> FROM THE CLAUDE CODE ENGINEER",
+   "<em>6 PROMPT RULES</em> THE CLAUDE CODE ENGINEER JUST GAVE AWAY",
+   "<em>6 PROMPTS</em> FROM THE GUY WHO BUILT CLAUDE CODE"
+  ],
+  "scores": [
+   5,
+   6,
+   5,
+   7,
+   6
+  ],
+  "winner": 3,
+  "why": "JUST creates urgency and FOMO—you feel like you'll miss out if you keep scrolling. The runner-up is solid but sounds evergreen and not time-sensitive."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (3/10)",
+ "editor_override": "Cover image shows a generated unknown face — not Dario Amodei or any recognizable public figure. The vendor-cast rule for a Claude guide requires Dario Amodei specifically; an unrecognizable generated person violates Image Law ('Never a generated unknown face'). Fix: regenerate cover with Dario Amodei named as the subject.; The sticky note prop in the cover image reads 'ultrartthink' — a visible g",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
