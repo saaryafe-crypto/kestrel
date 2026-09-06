@@ -75,7 +75,13 @@ _COLLAGE_TAIL = (
     "HARD BANS: no text or letters anywhere except the exact quoted LABEL "
     "chips and real brand logo marks, no invented words, no watermarks, no "
     "cartoon, no illustration, no 3D render — every element photorealistic "
-    "like a graded press-photo composite.")
+    "like a graded press-photo composite. "
+    "LOGO ONCE (Sep 6 post-mortem: a cover shipped the same logo three "
+    "times — corner badge, giant backdrop copy, and a disc): each brand's "
+    "logo appears AT MOST ONCE in the whole frame, as one physical object "
+    "in the scene — NEVER blown up as the backdrop or wallpaper, never "
+    "repeated, never mirrored. The layout separately stamps small corner "
+    "logo discs on top, so the scene must not duplicate them.")
 _COLLAGE_SHARED = _COLLAGE_LABELS + _COLLAGE_TAIL
 COLLAGE_PERSON = (
     " FORMAT LAW — photorealistic breaking-news collage cover, square frame. "
@@ -88,7 +94,8 @@ COLLAGE_PERSON = (
     "BACKDROP directly behind the subject, large and unmistakable: ONLY the "
     "briefed props, oversized so each one reads at phone-thumbnail size, "
     "partially overlapped by the subject for cutout depth; a prop that is a "
-    "brand logo renders as the real mark, giant, glossy and dimensional. "
+    "brand logo renders as the real mark ONCE, glossy and dimensional, a "
+    "readable object in the scene — never the whole backdrop. "
     "No extra people beyond the briefed subject. " + _COLLAGE_SHARED)
 COLLAGE_FACELESS = (
     " FORMAT LAW — photorealistic breaking-news collage cover, square frame. "
@@ -123,8 +130,9 @@ COLLAGE_MONTAGE = (
     "the frame; both upper corners stay clear of heads. "
     "BACKDROP: one loud saturated environment from the biggest story's "
     "world filling the frame edge to edge behind the cutouts; brand logos "
-    "of the briefed companies render as real marks, giant, glossy and "
-    "dimensional, partially overlapped by the subjects for depth. No "
+    "of the briefed companies render as real marks, each ONE time only, "
+    "glossy and dimensional, partially overlapped by the subjects for "
+    "depth, never as wallpaper. No "
     "people beyond the attached photos' subjects. MONTAGE TEXT BAN "
     "(smoke-test Sep 5: the story list got rendered as misspelled caption "
     "chips): the briefed story lines exist ONLY to pick and size the "

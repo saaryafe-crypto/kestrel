@@ -887,20 +887,32 @@ def fix_numbered_lines(t):
     return re.sub(r"[ \t]+(\d{1,2}[.)]\s)", r"\n\1", t)
 
 
+def no_markdown(text, html=True):
+    """Writers sometimes emit markdown bold despite the <em>/<b> instruction
+    (Sep 6 recap: literal **Elon Musk** shipped on 5 slides — Gate R caught
+    it but retext is not auto-applied, so the mechanical scrub must kill it
+    before render). Slides speak HTML: convert to <b>. Captions and comments
+    are plain text: strip the markers."""
+    return re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>" if html else r"\1", text)
+
+
 def scrub_dashes(post):
-    """Applies no_dashes and fix_numbered_lines to every field that reaches
-    the published slides or caption.  Records (story title, tournament
-    candidates) stay untouched."""
+    """Applies no_dashes, no_markdown and fix_numbered_lines to every field
+    that reaches the published slides or caption.  Records (story title,
+    tournament candidates) stay untouched."""
     for s in post.get("slides", []):
         for k in ("headline", "body", "kicker"):
             if s.get(k):
                 s[k] = no_dashes(s[k])
+                s[k] = no_markdown(s[k])
                 s[k] = fix_numbered_lines(s[k])
     if post.get("caption"):
         post["caption"] = no_dashes(post["caption"])
+        post["caption"] = no_markdown(post["caption"], html=False)
         post["caption"] = fix_numbered_lines(post["caption"])
     if post.get("pinned_comment"):
         post["pinned_comment"] = no_dashes(post["pinned_comment"])
+        post["pinned_comment"] = no_markdown(post["pinned_comment"], html=False)
         post["pinned_comment"] = fix_numbered_lines(post["pinned_comment"])
     return post
 
@@ -2025,8 +2037,26 @@ def main(stories_path):
         # out wrong): the real SVG rasterized rides along as the third ref
         brand_ref = None
         logo_slug = s.pop("gen_logo", None)
+        # LOGO ONCE (owner order Sep 6, the Astra cover shipped the OpenAI
+        # mark three times — corner disc + giant backdrop copy: "even if you
+        # put the logo in the picture that ai generated you dont need
+        # another one and vice versa"): each brand's logo appears ONCE on
+        # the finished slide, from ONE source. Discs are the exact official
+        # mark, so when discs will be stamped the scene gets no logo at all.
+        if logo_slug and s["type"] == "cover" and s.get("discs"):
+            print(f"logo-once: cover has discs — dropping gen_logo "
+                  f"'{logo_slug}' from the scene", file=sys.stderr)
+            logo_slug = None
         if logo_slug:
             brand_ref = logo_ref(logo_slug.replace(" ", ""))
+            if brand_ref and s["type"] == "cover":
+                s["scene_logo"] = logo_slug  # renderer must not re-stamp it
+        if s["type"] == "cover" and s.get("discs"):
+            brief += (" SCENE LOGO BAN: render no brand logos or logo marks "
+                      "anywhere in this scene — the layout stamps the "
+                      "official logo badge on top of the picture separately, "
+                      "and each logo may appear only once on the finished "
+                      "slide.")
         # cta generates when it has a real anchor: the product photo (product-
         # hero second pose) or the story person's face ref (owner Aug 1: the
         # Tim Cook closer — the story's person says "follow us"). No anchor ->
@@ -2325,6 +2355,16 @@ def main(stories_path):
     style = post.pop("cover_style", "photo" if cover.get("media") else "type")
     if style != "photo":
         cover["media"] = None  # logos/type cover: no photo band
+    # LOGO ONCE, other direction (owner order Sep 6): the generated scene
+    # already carries the brand mark (gen_logo ref was attached) — the
+    # renderer must not add a second copy as a flat logo overlay or badge
+    # chip. One logo per brand per finished slide, from either source.
+    if cover.pop("scene_logo", None) and \
+            os.path.basename(cover.get("media") or "").startswith("gen"):
+        post["logos"] = []
+        post["badge_logo"] = None
+        print("logo-once: scene carries the logo — renderer overlays off",
+              file=sys.stderr)
     valid = [l for l in post.pop("logos", [])
              if os.path.exists(os.path.join(HERE, "logos", f"{l}.svg"))]
     if valid and (style == "logos" or cover.get("media")):

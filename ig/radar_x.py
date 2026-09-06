@@ -377,6 +377,13 @@ def _moment(t, now, max_age_h=MAX_AGE_H, floor=FLOOR_LIKES):
     img = next((m.get("media_url_https") for m in media
                 if m.get("type") == "photo"), None)
     vid = _video_url(media)
+    if not img and vid:
+        # video tweets carry their thumbnail frame in the same field — on a
+        # video-heavy news day (Sep 6: Cybercab, Isar launch) every picked
+        # story was imageless and the recap shipped 7 bare slides. The
+        # thumbnail is a real frame of the real footage: legal press media.
+        img = next((m.get("media_url_https") for m in media
+                    if m.get("type") in ("video", "animated_gif")), None)
     # junk gate: a bare link or a one-word take ("Cool") is a reaction,
     # not a moment — unless it carries its own media
     bare = re.sub(r"https?://\S+", "", text).strip()

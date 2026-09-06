@@ -298,6 +298,8 @@ JUDGE EVERY SLIDE against this rubric:
 - LEGIBILITY: the headline and body must read clearly against the image. Text drowning in a busy or bright photo zone = FAIL.
 - PHOTO QUALITY: murky/dark/blurry photos, garbled AI text, cartoon or wax-figure faces, amputated heads = FAIL. Bright saturated press-photo energy = the standard.
 - EMOTIONAL REGISTER: the photo's mood must match the slide's claim (a grinning photo on a death/lawsuit slide = FAIL).
+- LOGO ONCE: the same brand logo appearing more than once in a single slide (corner badge PLUS a giant background copy, duplicated discs, logo as wallpaper) = FAIL (action drop_image). One logo per brand per slide is the maximum.
+- BROKEN FORMATTING: literal markdown or code characters visible in the copy (**asterisks**, <tags>, \\n) = FAIL (action retext).
 - MOOD FLOOR: dark text-only slides are legal (big-type slides). Judge only what is actually wrong; a clean PASS is a valid verdict. Never invent nitpicks invisible at phone size.
 
 ACTIONS: drop_image = the slide reads better with no image (text-only) than with this image. retext = the image is fine, the TEXT placement/content is the problem. none = PASS.
