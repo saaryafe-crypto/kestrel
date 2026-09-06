@@ -91,6 +91,9 @@ jobs:
           # rembg: composed-cover person cutouts (composite.py). If it ever
           # fails to install, write.py falls back to plain photo covers.
           pip install pillow rembg onnxruntime
+          # video-in-carousel producer (vslide.py, Sep 6): ubuntu-latest
+          # ships ffmpeg preinstalled — this only pays apt on an image change
+          command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; }
 
       - name: Cache rembg model
         if: github.event.inputs.repost == ''

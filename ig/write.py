@@ -2511,6 +2511,18 @@ def main(stories_path):
             raise SystemExit("editor gate B rejected the post after repair: "
                              + "; ".join(reasons))
 
+    # VIDEO-IN-CAROUSEL (owner ask Sep 6; the publish pipe existed since
+    # Jul 31 unfed — post.py maps video-N.mp4 to a VIDEO child after slide N
+    # and render.py's cover strip says "Full video next" on video=True).
+    # The story's OWN tweet footage rides right after the cover as proof.
+    # <=8 slides only: IG caps a carousel at 10 children and post.py's trim
+    # would otherwise silently drop the CTA slide off the end.
+    vid_url = (story.get("radar") or {}).get("video")
+    if vid_url and len(post["slides"]) <= 8:
+        import vslide
+        if vslide.make(vid_url, os.path.join(post_dir, "video-1.mp4")):
+            post["slides"][0]["video"] = True
+
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)
     subprocess.run([sys.executable, os.path.join(HERE, "render.py"),
                     os.path.join(post_dir, "post.json"), post_dir], check=True)
