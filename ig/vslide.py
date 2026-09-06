@@ -8,17 +8,25 @@ carries video=True. This module is the missing producer: it turns the
 picked story's own tweet footage (radar "video" = highest-bitrate mp4,
 harvested by radar_x since day one) into a brand-fit 4:5 video slide.
 
-DESIGN (owner order Sep 6: "if you put words make sure not to cover the
-video and make the video smaller"): the @technology tweet-embed anatomy
-reel.py already uses, adapted to 4:5 — dark #050505 canvas, the slide
-masthead (wordmark + hairline rules) at the top, the footage SMALLER on a
-rounded card in the middle, and the swipe-strip label at the bottom. Words
-NEVER touch the footage. Inside the card the clip sits at its own aspect
-over a blurred fill of itself, so wide demos are never butchered by a
-crop. The frame renders as a transparent-holed PNG by the SAME Chrome +
-fonts + CSS values as render.py — pixel-matched to the jpg slides around
-it. Frame failure is never fatal: the clean blur-pad card ships alone.
-Audio is the clip's OWN sound only (owner rule Jul 29: never add music).
+DESIGN (owner order Sep 6, round 2 — "it should look like the examples of
+the pictures in my ig folder on desktop"): the reference @technology
+video slide is a TWEET EMBED — small brand mark up top, the source's X
+card centered on a near-black backdrop, footage flush inside the card
+below an avatar + name + @handle header. That is exactly render.py's R3
+tweetcard anatomy, so this frame copies its values verbatim (card #080809,
+2px rgba(255,255,255,.14) border, 28px radius, 84px avatar-initial circle,
+33px/800 name, 28px #71767b handle) plus the standard centered masthead —
+pixel-matched to the jpg slides around it. Words NEVER touch the footage.
+Backdrop = the clip's own image blurred and dimmed (render.py art_bg
+language). Inside the card the clip sits at its own aspect over a blurred
+fill, so wide demos are never butchered by a crop.
+
+The punched hole is reel.py's trick: a transparent rounded div whose
+box-shadow floods the rest of the canvas — here with a translucent dark
+flood so the blurred backdrop breathes through, the card header band and
+border ring drawn opaque on top. Frame failure is never fatal: the clean
+blur-pad video ships alone. Audio is the clip's OWN sound only (owner rule
+Jul 29: never add music).
 
 Accuracy law (owner Aug 18, relayed to this repo): no confusing partial
 clips — a short self-explanatory segment or skip. So: sources longer than
@@ -42,37 +50,55 @@ CHROME = os.environ.get("CHROME",
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 
 W, H = 1080, 1350          # 4:5, same as every slide jpg
-# video card geometry: masthead band ends ~120px, strip starts ~1260px
-HX, HY, HW, HH = 40, 150, 1000, 1040
+# X-card geometry: same 64px side margins as render.py's body.tweet frame;
+# 150px header band (84px avatar + padding), media flush to the card edges,
+# card centered vertically on the canvas
+CX, CW = 64, 952           # card x / width
+CY, CH = 190, 970          # card y / height
+HDR = 150                  # header band height
+HX, HY = CX, CY + HDR      # media hole position
+HW, HH = CW, CH - HDR      # media hole size
 MAX_CLIP_S = 30            # IG feed autoplay attention window
 MIN_SRC_S = 3              # under this it reads as a broken gif
 MAX_SRC_S = 90             # accuracy law: longer sources cut mid-thought
 UA = {"User-Agent": "Mozilla/5.0"}
 
-# frame PNG: #050505 everywhere except a rounded transparent hole for the
-# video card (the reel.py punched-hole trick: box-shadow floods the frame
-# color around a transparent rounded div). Masthead/strip CSS values are
-# copied from render.py so the slide before and after match exactly.
+# frame PNG layers, bottom to top: translucent dark flood (punched at the
+# media hole, so the blurred backdrop shows through like art_bg heavy),
+# opaque card header band, border ring around the whole card, masthead.
 FRAME_HTML = f"""<!doctype html><meta charset="utf-8"><style>
 @font-face{{font-family:Anton;src:url("{HERE}/fonts/Anton-Regular.ttf")}}
+@font-face{{font-family:Poppins;src:url("{HERE}/fonts/Poppins-SemiBold.ttf");font-weight:600}}
 @font-face{{font-family:Poppins;src:url("{HERE}/fonts/Poppins-ExtraBold.ttf");font-weight:800}}
 *{{margin:0;box-sizing:border-box}}
-html,body{{width:{W}px;height:{H}px;overflow:hidden;background:transparent}}
+html,body{{width:{W}px;height:{H}px;overflow:hidden;background:transparent;
+          font-family:Poppins}}
 .hole{{position:absolute;left:{HX}px;top:{HY}px;width:{HW}px;height:{HH}px;
-      border-radius:36px;box-shadow:0 0 0 4000px #050505}}
-.masthead{{position:absolute;top:44px;left:0;right:0;z-index:2;
+      border-radius:0 0 26px 26px;box-shadow:0 0 0 4000px rgba(5,5,6,.84)}}
+.thead{{position:absolute;left:{CX}px;top:{CY}px;width:{CW}px;height:{HDR}px;
+       background:#080809;border-radius:28px 28px 0 0;
+       display:flex;align-items:center;gap:24px;padding:0 44px}}
+.avatar{{width:84px;height:84px;border-radius:50%;flex:none;
+        display:flex;align-items:center;justify-content:center;
+        font-family:Anton;font-size:44px;color:#fff;
+        background:radial-gradient(circle at 32% 28%,#3a3a44 0%,#141419 80%)}}
+.tname{{font-size:33px;font-weight:800;color:#fff;line-height:1.15}}
+.thandle{{font-size:28px;font-weight:600;color:#71767b}}
+.ring{{position:absolute;left:{CX - 2}px;top:{CY - 2}px;
+      width:{CW + 4}px;height:{CH + 4}px;border-radius:30px;
+      border:2px solid rgba(255,255,255,.14);
+      box-shadow:0 30px 90px rgba(0,0,0,.55)}}
+.masthead{{position:absolute;top:44px;left:0;right:0;
           display:flex;align-items:center;justify-content:center;gap:30px}}
 .masthead img{{height:32px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.7))}}
 .masthead:before,.masthead:after{{content:"";height:2px;width:130px;
           background:rgba(255,255,255,.45)}}
-.ctastrip{{position:absolute;bottom:56px;left:0;right:0;z-index:2;text-align:center}}
-.swipe{{font-family:Poppins;font-weight:800;font-size:27px;letter-spacing:.18em;
-       color:#FFF;text-transform:uppercase;text-indent:.18em}}
-.swipe em{{font-style:normal;color:#D97757}}
 </style><body>
 <div class="hole"></div>
+<div class="thead"><div class="avatar">INITIAL</div>
+<div><div class="tname">NAME</div><div class="thandle">@HANDLE</div></div></div>
+<div class="ring"></div>
 <div class="masthead"><img src="{HERE}/art/wordmark.png"></div>
-<div class="ctastrip"><div class="swipe">LABEL</div></div>
 </body>"""
 
 
@@ -83,12 +109,15 @@ def _dur(path):
     return float(out.stdout.strip())
 
 
-def _frame(out_png, label):
-    """Render the brand frame PNG. Returns path or None (never fatal)."""
+def _frame(out_png, handle):
+    """Render the X-card frame PNG. Returns path or None (never fatal)."""
     try:
+        h = html.escape((handle or "").lstrip("@") or "source")
         hp = out_png.replace(".png", ".html")
-        open(hp, "w").write(FRAME_HTML.replace(
-            "LABEL", html.escape(label).upper() + ' <em>&rarr;</em>'))
+        open(hp, "w").write(FRAME_HTML
+                            .replace("INITIAL", h[:1].upper())
+                            .replace("NAME", h)
+                            .replace("HANDLE", h))
         subprocess.run(
             [CHROME, "--headless", "--disable-gpu",
              "--default-background-color=00000000",
@@ -102,9 +131,9 @@ def _frame(out_png, label):
         return None
 
 
-def make(video_url, out_path, label="The actual footage"):
+def make(video_url, out_path, handle=None):
     """Download the tweet's mp4, cut a <=30s opening segment, composite it
-    onto the framed 4:5 canvas. Returns out_path on success, None on any
+    into the X-card 4:5 canvas. Returns out_path on success, None on any
     failure."""
     src = out_path + ".src.mp4"
     frame = out_path + ".frame.png"
@@ -123,17 +152,26 @@ def make(video_url, out_path, label="The actual footage"):
                   f"{MIN_SRC_S}-{MAX_SRC_S}s self-contained window, skipping",
                   file=sys.stderr)
             return None
-        fp = _frame(frame, label)
-        # card: clip at its own aspect over a blurred fill of itself, padded
-        # onto the dark canvas at the hole's position, frame PNG on top
-        vf = (f"[0:v]split[a][b];"
-              f"[a]scale={HW}:{HH}:force_original_aspect_ratio=increase,"
-              f"crop={HW}:{HH},gblur=sigma=30,eq=brightness=-0.08[bg];"
-              f"[b]scale={HW}:{HH}:force_original_aspect_ratio=decrease[fg];"
-              f"[bg][fg]overlay=(W-w)/2:(H-h)/2[card];"
-              f"[card]pad={W}:{H}:{HX}:{HY}:color=0x050505[base];"
-              + ("[base][1:v]overlay=0:0,format=yuv420p[v]" if fp
-                 else "[base]format=yuv420p[v]"))
+        fp = _frame(frame, handle)
+        if fp:
+            # backdrop = the clip itself blurred/dimmed full-canvas (art_bg
+            # language; the frame's translucent flood adds the heavy dim);
+            # card media = clip at own aspect over a blurred fill of itself
+            vf = (f"[0:v]split=3[a][b][c];"
+                  f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,"
+                  f"crop={W}:{H},gblur=sigma=45[bd];"
+                  f"[b]scale={HW}:{HH}:force_original_aspect_ratio=increase,"
+                  f"crop={HW}:{HH},gblur=sigma=30,eq=brightness=-0.08[hg];"
+                  f"[c]scale={HW}:{HH}:force_original_aspect_ratio=decrease[fg];"
+                  f"[hg][fg]overlay=(W-w)/2:(H-h)/2[card];"
+                  f"[bd][card]overlay={HX}:{HY}[base];"
+                  f"[base][1:v]overlay=0:0,format=yuv420p[v]")
+        else:  # frame died — full-bleed blur-pad, still our measurements
+            vf = (f"[0:v]split[a][b];"
+                  f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,"
+                  f"crop={W}:{H},gblur=sigma=30,eq=brightness=-0.08[bg];"
+                  f"[b]scale={W}:{H}:force_original_aspect_ratio=decrease[fg];"
+                  f"[bg][fg]overlay=(W-w)/2:(H-h)/2,format=yuv420p[v]")
         cmd = (["ffmpeg", "-y", "-loglevel", "error", "-t", str(MAX_CLIP_S),
                 "-i", src] + (["-i", fp] if fp else [])
                + ["-filter_complex", vf, "-map", "[v]", "-map", "0:a?",
@@ -147,7 +185,7 @@ def make(video_url, out_path, label="The actual footage"):
                   file=sys.stderr)
             os.remove(out_path)
             return None
-        print(f"video slide: {min(dur, MAX_CLIP_S):.0f}s framed card at "
+        print(f"video slide: {min(dur, MAX_CLIP_S):.0f}s X-card at "
               f"{W}x{H} ({size // 1024}KB) -> {os.path.basename(out_path)}",
               file=sys.stderr)
         return out_path
@@ -162,4 +200,5 @@ def make(video_url, out_path, label="The actual footage"):
 
 
 if __name__ == "__main__":
-    make(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "video-1.mp4")
+    make(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "video-1.mp4",
+         handle=sys.argv[3] if len(sys.argv) > 3 else None)

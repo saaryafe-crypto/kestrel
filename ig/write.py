@@ -2520,7 +2520,8 @@ def main(stories_path):
     vid_url = (story.get("radar") or {}).get("video")
     if vid_url and len(post["slides"]) <= 8:
         import vslide
-        if vslide.make(vid_url, os.path.join(post_dir, "video-1.mp4")):
+        if vslide.make(vid_url, os.path.join(post_dir, "video-1.mp4"),
+                       handle=(story.get("radar") or {}).get("sub")):
             post["slides"][0]["video"] = True
 
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)
