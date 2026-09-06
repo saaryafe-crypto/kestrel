@@ -298,7 +298,7 @@ JUDGE EVERY SLIDE against this rubric:
 - LEGIBILITY: the headline and body must read clearly against the image. Text drowning in a busy or bright photo zone = FAIL.
 - PHOTO QUALITY: murky/dark/blurry photos, garbled AI text, cartoon or wax-figure faces, amputated heads = FAIL. Bright saturated press-photo energy = the standard.
 - EMOTIONAL REGISTER: the photo's mood must match the slide's claim (a grinning photo on a death/lawsuit slide = FAIL).
-- LOGO ONCE: the same brand logo appearing more than once in a single slide (corner badge PLUS a giant background copy, duplicated discs, logo as wallpaper) = FAIL (action drop_image). One logo per brand per slide is the maximum.
+- LOGO ONCE: the same brand logo appearing more than once as a GRAPHIC ELEMENT in a single slide (corner badge PLUS a giant background copy, duplicated discs, logo as wallpaper) = FAIL (action drop_image). A logo that is naturally part of the photographed product itself — the badge on a car's hood, the mark on a phone screen, a rocket's livery, a jersey — NEVER counts; products carry their own marks in every real press photo (Sep 6 post-mortem: flagging the Tesla T on the Cybercab's hood stripped the cover picture entirely).
 - BROKEN FORMATTING: literal markdown or code characters visible in the copy (**asterisks**, <tags>, \\n) = FAIL (action retext).
 - MOOD FLOOR: dark text-only slides are legal (big-type slides). Judge only what is actually wrong; a clean PASS is a valid verdict. Never invent nitpicks invisible at phone size.
 
@@ -338,6 +338,18 @@ def apply_gate_r(post, fails):
         i = f.get("n", 0) - 1
         if f.get("action") == "drop_image" and 0 <= i < len(post["slides"]):
             s = post["slides"][i]
+            if i == 0:
+                # NEVER bare the cover (Sep 6: a LOGO ONCE fail on the
+                # Tesla hood badge stripped the Cybercab cover and the
+                # carousel shipped pictureless — the exact disaster
+                # alert_bare_cover exists for). On a cover the picture is
+                # the scroll-stopper; the repair is dropping the stamped
+                # logo overlays (the usual duplicate source) and shipping
+                # flagged for the daily report.
+                for k in ("badge_logo", "discs", "logos"):
+                    if s.pop(k, None):
+                        changed = True
+                continue
             s["media"] = None
             for k in ("layout", "cutout", "person_layer"):
                 s.pop(k, None)

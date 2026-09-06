@@ -5,11 +5,8 @@
    "headline": "TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT <em>AND A STRANGER WALKING BY IS THE ONLY REASON WE KNOW</em>",
    "hsize": 64,
    "kicker": "ONE OF AMERICA'S 10 BUSIEST AIRPORTS",
-   "media": null,
+   "media": "posts/2026-09-06-35-cybercabs-spotted-near-miami-internat/gen-0-r-r.jpg",
    "image_prompt": "SUBJECT: white Tesla Cybercab parked at airport curb. BACKDROP PROPS: empty open area, warning triangle symbol on ground. PALETTE: white vehicle, vivid orange curb stripe.",
-   "logos": [
-    "tesla"
-   ],
    "video": true
   },
   {
@@ -126,5 +123,5 @@
  },
  "gate_a_relaxed": true,
  "editor_override": "HOOK AND VIOLATION (\u00a72): 'TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT AND A STRANGER WALKING BY IS THE ONLY REASON WE KNOW' has two actors (Tesla + a stranger). The law is ONE actor, ONE action \u2014 'AND joining two actions = cut the weaker one.' Cut the stranger clause; the hook survives as 'TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT WITH ZERO ANNOUNCEMENT AND NOBODY KNE",
- "gate_r": "s1: The Tesla 'T' logo appears twice on the same slide \u2014 once as a large standalone floating badge in the upper center and again on the Cybercab's hood \u2014 a clear LOGO ONCE violation."
+ "gate_r": "s1: The Tesla 'T' logo appears twice on the same slide \u2014 once as a large standalone floating badge in the upper center and again on the Cybercab's hood \u2014 a clear LOGO ONCE violation. | REPAIRED Sep 6: cover restored (hood badge is not a logo dupe), flat logo overlay dropped"
 }
