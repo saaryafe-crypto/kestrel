@@ -1,0 +1,125 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A FEDERAL JUDGE JUST RULED YOUR GOVERNMENT CAN POISON YOUR WATER AND LIE TO YOUR FACE <em>AND THE CONSTITUTION WON'T PROTECT YOU</em>",
+   "kicker": "BOTH PROTECTIONS STRIPPED AT ONCE",
+   "hsize": 60,
+   "media": null,
+   "image_prompt": "SUBJECT: A steel judge's gavel frozen mid-strike shattering a glass of murky brown tap water on a courthouse bench surface, glass shards and water droplets exploding outward in every direction at peak violent impact. BACKDROP PROPS: a worn printed US Constitution page with thick red X marks brutally slashed across its paragraphs; a corroded rusty water faucet dripping brown liquid at the frame edge. PALETTE: deep orange and dark navy blue. Documentary news photo, 35mm, harsh on-camera flash, real surface texture, slight film grain."
+  },
+  {
+   "type": "content",
+   "headline": "MOST PEOPLE ASSUMED THE CONSTITUTION <em>HAD YOUR BACK IF YOUR CITY POISONED YOUR WATER</em>",
+   "body": "Turns out that assumption had no legal foundation.\n\nThen a federal judge issued a ruling that rewrote the assumption entirely.",
+   "hsize": 80,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "WHAT THE RULING STRIPPED <em>IN ONE SHOT</em>",
+   "body": "No constitutional right to clean water\nNo right to honest government information\nBoth stripped in a single federal ruling\nEvery constitutional water lawsuit harder to win",
+   "hsize": 80,
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "DIRTY WATER. OFFICIAL LIES. BOTH CONSTITUTIONAL.",
+   "body": "The ruling strips both at once. And the fallout lands on you",
+   "hsize": 110,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EVERY WATER LAWSUIT ON CONSTITUTIONAL GROUNDS <em>JUST GOT HARDER TO WIN</em>",
+   "body": "No constitutional right to clean water\nNo right to accurate information from officials\nBoth protections stripped in a single ruling\nAny constitutional case against your city just got harder",
+   "hsize": 82,
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "YOUR GOVERNMENT OWES YOU NOTHING. <em>BUSINESSES THAT KNOW FIRST WIN.</em>",
+   "body": "If your business touches food, water, or anything regulated, you just lost the assumption that officials will warn you accurately.\n\nAn AI system flags regulatory shifts before they reach your operations.",
+   "hsize": 90,
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: THE RULING THAT STRIPPED YOUR RIGHT TO <em>CLEAN WATER</em>",
+   "body": "\u2022 No constitutional right to clean drinking water\n\u2022 No right to accurate information from officials\n\u2022 Both stripped in a single ruling\n\nSend this to the friend who still trusts their tap",
+   "hsize": 58,
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2193 A federal judge just ruled you have no constitutional right to clean water or honest answers from the government \ud83d\udca7\n\nThe belief most people held, the actual ruling, the Bloomberg BREAKING post reaching 2.7 million views, the twist stripping both protections at once, the fallout for anyone trying to sue their city on constitutional grounds, and what businesses can do when officials don't owe them the truth\n\nCourts are quietly redefining what constitutional protection actually covers. This ruling means any city that contaminates water and covers it up now faces a far lower constitutional bar. In a world where officials owe you less than you thought, the businesses that build their own information systems stop waiting to be told the truth.\n\nRunning a business? DM us 'AI' and we'll show you what that looks like for yours.\n\nSources: Bloomberg, unusual_whales on X\n\n#cleanwater #constitutional #publichealth #governmenttransparency #legalrights",
+ "pinned_comment": "The scarier part isn't the ruling itself. It's that no constitutional right to clean water was ever in those amendments to begin with, and most people are only finding that out right now.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "YOU HAVE NO CONSTITUTIONAL RIGHT TO CLEAN DRINKING WATER OR HONEST OFFICIALS, <em>A FEDERAL JUDGE JUST RULED BOTH IN ONE SHOT</em>",
+   "THE CONSTITUTION DOESN'T GUARANTEE YOUR CLEAN WATER OR YOUR GOVERNMENT'S HONESTY, <em>A FEDERAL JUDGE JUST MADE BOTH OFFICIAL</em>",
+   "YOUR CITY CAN PUMP POISON THROUGH YOUR PIPES AND LIE ABOUT IT, <em>AND A JUDGE JUST RULED THE CONSTITUTION WON'T PROTECT YOU</em>",
+   "A JUDGE JUST RULED YOUR CITY CAN LEGALLY PUMP POISON THROUGH YOUR PIPES AND DENY IT <em>WITH ZERO CONSTITUTIONAL PROTECTION FOR YOU</em>",
+   "A JUDGE JUST CONFIRMED CLEAN WATER WAS NEVER A CONSTITUTIONAL RIGHT, AND <em>NEITHER IS AN HONEST ANSWER FROM YOUR GOVERNMENT</em>",
+   "YOUR RIGHT TO CLEAN WATER JUST LOST IN COURT AND <em>A JUDGE RULED THE GOVERNMENT HAS ZERO OBLIGATION TO TELL YOU THE TRUTH</em>",
+   "YOU ASSUMED CLEAN DRINKING WATER WAS A CONSTITUTIONAL RIGHT AND <em>A JUDGE JUST RULED THE CONSTITUTION NEVER GUARANTEED IT</em>",
+   "A FEDERAL JUDGE JUST RULED YOUR GOVERNMENT CAN POISON YOUR WATER AND LIE TO YOUR FACE <em>AND THE CONSTITUTION WON'T PROTECT YOU</em>",
+   "A FEDERAL JUDGE JUST RULED THE CONSTITUTION GIVES YOU NO RIGHT TO CLEAN WATER <em>OR HONEST ANSWERS FROM YOUR GOVERNMENT</em>"
+  ],
+  "scores": [
+   7,
+   7,
+   8,
+   7,
+   7,
+   7,
+   7,
+   9,
+   7
+  ],
+  "winner": 7,
+  "why": "'Lie to your face' is confrontational betrayal that stops you cold because you feel directly attacked by authority. 'Lie about it' covers the same threat but lands softer\u2014it's passive deception rather than personal accusation."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "YOUR GOVERNMENT HAS NO CONSTITUTIONAL DUTY TO GIVE YOU CLEAN WATER OR TELL YOU THE TRUTH. <em>A JUDGE JUST RULED.</em>",
+   "A JUDGE JUST STRIPPED YOUR CONSTITUTIONAL RIGHT TO CLEAN WATER <em>AND THE TRUTH FROM YOUR GOVERNMENT</em>",
+   "A FEDERAL JUDGE JUST RULED YOUR GOVERNMENT CAN POISON YOUR WATER AND LIE TO YOUR FACE <em>AND THE CONSTITUTION WON'T PROTECT YOU</em>",
+   "YOU ASSUMED THE CONSTITUTION PROTECTED YOU FROM POISONED TAP WATER. <em>A JUDGE JUST RULED IT NEVER DID.</em>"
+  ],
+  "scores": [
+   6,
+   6.5,
+   8.5,
+   7.5
+  ],
+  "winner": 2,
+  "why": "[2] opens with specific horrors (poison your water, lie to your face) that make you gasp and stop scrolling instantly. [3] needs two sentences to build to its payoff, which is too slow for 2am."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "US federal judge",
+  "actor_known": false,
+  "anchor": "your tap water",
+  "specifics": [
+   "No constitutional right to clean drinking water \u2014 a judge just said so",
+   "No constitutional right to accurate information from public officials either",
+   "Government can poison your water and lie about it with no constitutional consequence",
+   "2.7 million views within 24 hours of the ruling dropping",
+   "Confirmed by Bloomberg reporting"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: A US judge has ruled that the US Constitution does not guarantee a right to clean drinking water or accurate information from public officials, per Bloomberg",
+  "link": "https://x.com/unusual_whales/status/2096289255060365632",
+  "judge_interest": 6,
+  "scout_score": 135.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "HOOK \u00a72 DOUBLE ACTION: 'CAN POISON YOUR WATER AND LIE TO YOUR FACE' joins two actions with AND \u2014 the law requires ONE actor, ONE action. Cut the weaker arm ('lie to your face') and make the single strongest claim the whole sentence.; SLIDES 3 AND 5 ARE NEAR-IDENTICAL \u00a74: both carry the same four bullet-point facts reworded ('No constitutional right to clean water / No right to honest government in",
+ "gate_r": "s1: The AI-generated Constitution prop displays visibly garbled, nonsense text ('the be Yeehye Yestice') at a size large enough to read on a phone, which fails the photo-quality standard for garbled AI text."
+}

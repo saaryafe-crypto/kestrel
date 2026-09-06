@@ -1,124 +1,5 @@
 [
  {
-  "t": "2026-09-02T00:24:56Z",
-  "gate": "A",
-  "subject": "BREAKING: Sweden’s Infrastructure Minister and senior citizens just experienced Tesla FSD. 🇸🇪 Andreas Carlson posted a v",
-  "verdict": "KILL",
-  "reason": "Routine product demonstration with no new feature, policy consequence, or real-world impact—this is a photo op, not a story a 16-year-old would send to a friend."
- },
- {
-  "t": "2026-09-02T00:25:09Z",
-  "gate": "A",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "verdict": "KILL",
-  "reason": "Off-lens — pure fashion/luxury goods history biography, unrelated to the page's specified lanes (AI, tech, investing, space). The doctrine explicitly kills history stories outside these domains regardless of strength."
- },
- {
-  "t": "2026-09-02T00:25:51Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens: labor-economics commentary where tech is backdrop rather than protagonist—fails the strict §1 requirement that AI/tech/founder/investing must be the story's STAR."
- },
- {
-  "t": "2026-09-02T00:52:56Z",
-  "gate": "B",
-  "subject": "THE DEFINING PHOTO FROM NASA'S FALCON HEAVY LAUNCH CAME FROM <em>A GUY IN A PARKING LOT WITH 3 CAMERAS</em>",
-  "verdict": "REJECT",
-  "reason": "Slide 6 breaks the cover contract with a bolted-on AI pivot that has no story logic connecting it to any prior slide. The cover promises a photographer story; slide 6 abruptly declares 'AI does exactly this for a small team' — the exact bolted-on moral the doctrine bans (Aug 28 goats-on-Etna post-mortem). AI is never mentioned until the penultimate slide. Either remove the pivot and replace with r"
- },
- {
-  "t": "2026-09-02T01:45:18Z",
-  "gate": "B",
-  "subject": "<em>5 FREE APPS</em> CLAUDE BUILDS INSIDE YOUR CHAT TONIGHT",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — HARD REJECT: The cover shows a generated unknown face. Image Law explicitly bans this ('Never a generated unknown face'). The Vendor Cast exception is legal ONLY for the named tool's famous CEO; this person is not Dario Amodei. Fix: regenerate the cover with Dario Amodei as the delighted user, or drop the face entirely and lead with the Claude brand mark + a laptop screen showing one o"
- },
- {
-  "gate": "A",
-  "reason": "Single unverified tweet with no court documents, official statements, or numbers—entire substance is the claim itself, not the event.",
-  "subject": "JUST IN: Apple $AAPL says OpenAI is actively destroying crucial evidence in escalating legal battle.",
-  "t": "2026-09-01T22:55:35Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Pure astronomy story (rare sun transit); space technology is the photographic subject, not the analytical lens required by Aug 28 order—off-brand.",
-  "subject": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon H",
-  "t": "2026-09-01T22:55:59Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Single unverified allegation from unknown account with no confirmed real-world consequence, official verification, or substance to build slides from.",
-  "subject": "BREAKING: Apple says new evidence found on former Apple engineer Liu's MacBook shows OpenAI is destroying evidence in th",
-  "t": "2026-09-01T22:56:35Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Routine corporate demo event, not a viral-specific story—no real-world consequence, just positive reactions to a scheduled product preview, which is exactly the banned 'on-topic but routine' category.",
-  "subject": "BREAKING: Sweden’s Infrastructure Minister and senior citizens just experienced Tesla FSD. 🇸🇪 Andreas Carlson posted a v",
-  "t": "2026-09-01T22:56:39Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: this is a labor market commentary where technology is backdrop only, not the subject—the goats/sensors case.",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "t": "2026-09-01T22:56:47Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "This is a pricing analysis about an existing lawsuit, not a viral-specific story with jaw-dropping real-world consequence that makes a reader stop scrolling.",
-  "subject": "I went down the rabbit hole: Anthropic is already being sued over exactly this. And the $200 plan really only provides o",
-  "t": "2026-09-01T22:57:45Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: one tweet with zero numbers, no second fact, and no consequence described—nothing here to build slides from.",
-  "subject": "JUST IN: Apple $AAPL says OpenAI is actively destroying crucial evidence in escalating legal battle.",
-  "t": "2026-09-01T22:58:34Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Source material too thin to verify substance—the tweet is truncated mid-sentence, and without the full explanation of 'how it was captured,' cannot confirm whether this is a technical achievement story or aesthetic photography lacking real-world consequence.",
-  "subject": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon H",
-  "t": "2026-09-01T22:58:55Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One unverified tweet making massive allegations (evidence destruction, trade-secret theft) with zero court documentation, official Apple statement, or independent sourcing — fits the banned reaction-bait/no-substance pattern exactly, and 5/10 interest offers no exception.",
-  "subject": "BREAKING: Apple says new evidence found on former Apple engineer Liu's MacBook shows OpenAI is destroying evidence in th",
-  "t": "2026-09-01T22:59:23Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "This is routine promotional demo feedback—a government official praising FSD at a scheduled event—with no jaw-dropping story, real consequence, or reason a 16-year-old stops mid-scroll to send to a friend; it reads like press coverage of a standard product demonstration, not a story worth the page's reputation.",
-  "subject": "BREAKING: Sweden’s Infrastructure Minister and senior citizens just experienced Tesla FSD. 🇸🇪 Andreas Carlson posted a v",
-  "t": "2026-09-01T22:59:35Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Political analysis of a macro-trend without a specific event, named protagonist, or sourced numbers—fails STORY LAW's requirement for 'a viral-SPECIFIC event' and TRUTH LAW on fact verification.",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "t": "2026-09-01T23:00:09Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "A confusing pricing observation with a proposed (uncertified) lawsuit—no felt consequence, doesn't survive the jaw-drop test.",
-  "subject": "I went down the rabbit hole: Anthropic is already being sued over exactly this. And the $200 plan really only provides o",
-  "t": "2026-09-01T23:01:45Z",
-  "verdict": "KILL"
- },
- {
   "gate": "B",
   "reason": "COVER CONTRACT BROKEN — SLIDE 6: The cover promises 'guy catches Falcon Heavy crossing the sun from a parking lot.' Slide 6 abandons that frame entirely and becomes a business-AI automation pitch ('Your competitors set up once and let AI do the waiting'). The story earned its awe on one frame; slide 6 is a different post wearing the same cover. A smart 16-year-old who swiped through the space stor",
   "subject": "A GUY CAUGHT FALCON HEAVY AS A TINY SILHOUETTE CROSSING THE SUN <em>FROM A RANDOM PARKING LOT WITH 3 CAMERAS</em>",
@@ -2098,5 +1979,124 @@
   "subject": "<em>6 PROMPT RULES</em> THE CLAUDE CODE ENGINEER JUST GAVE AWAY",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-06T18:00:50Z",
+  "gate": "A",
+  "subject": "Over 600 autonomous rocket landings so far",
+  "verdict": "KILL",
+  "reason": "A bare milestone metric with no temporal marker or consequence—lacks the built-in stakes that carry thin-tweet news events (lawsuit filed, CEO hired/fired, outage), and the writer would require substantial padding to build slides from one number, violating NO SUBSTANCE law even under the calibration exception."
+ },
+ {
+  "t": "2026-09-06T18:00:50Z",
+  "gate": "A",
+  "subject": "BREAKING: A US judge has ruled that the US Constitution does not guarantee a right to clean drinking water or accurate i",
+  "verdict": "KILL",
+  "reason": "Constitutional ruling with no AI/tech angle and insufficient details (no case, judge, or date) to justify coverage."
+ },
+ {
+  "t": "2026-09-06T18:00:52Z",
+  "gate": "A",
+  "subject": "I lost my sight 5 years ago. Cybercab gave me a glimpse of regaining my independence. — Gary Moss, @DavidMoss 's blind f",
+  "verdict": "APPROVE",
+  "reason": "Qualifies under 'people letting AI do X'—blind person entrusting autonomous driving with independence—with substantive details and real emotional consequence."
+ },
+ {
+  "t": "2026-09-06T18:55:37Z",
+  "gate": "B",
+  "subject": "A MAN WHO WENT BLIND 5 YEARS AGO RODE ALONE IN A DRIVERLESS CAR AND SAID <em>'OTHER PEOPLE'S DRIVING SCARES ME, BUT THES",
+  "verdict": "REJECT",
+  "reason": "COVER — WRONG VEHICLE, WRONG ARCHETYPE, NO FACE: The steering wheel in the car interior displays the Waymo logo, but every slide in this post names 'Cybercab' (Tesla). The image proves the wrong product. Separately, the headline's archetype is a human-moment story with a named protagonist (Gary Moss) — Image Law says default to a face; none exists here. Fix: replace with a photoreal composite of G"
+ },
+ {
+  "t": "2026-09-06T19:01:31Z",
+  "gate": "A",
+  "subject": "Over 600 autonomous rocket landings so far",
+  "verdict": "KILL",
+  "reason": "Milestone announcement without a specific event or consequence someone felt—just a cumulative number without substance to build slides from."
+ },
+ {
+  "t": "2026-09-06T19:01:46Z",
+  "gate": "A",
+  "subject": "BREAKING: A US judge has ruled that the US Constitution does not guarantee a right to clean drinking water or accurate i",
+  "verdict": "KILL",
+  "reason": "Off-lens — a constitutional rights ruling unrelated to AI/tech, lacking both a household-name actor and verifiable source details (judge/case/court unnamed), fails this page's NEWS mandate."
+ },
+ {
+  "t": "2026-09-06T19:02:44Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Off-lens: 19th-century fashion history lacks the AI, tech, tech-founder, or space focus this lane requires—the goats-example rule applies."
+ },
+ {
+  "t": "2026-09-06T19:02:55Z",
+  "gate": "A",
+  "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the 'event' is people's searches spiking, not a news event; no person, action, or real-world consequence to build from."
+ },
+ {
+  "t": "2026-09-06T19:03:11Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens: labor/economic narrative with tech as backdrop, not subject; no named event, actors, or figures."
+ },
+ {
+  "t": "2026-09-06T19:04:13Z",
+  "gate": "A",
+  "subject": "we got AGI and somehow, the world outside X barely seems to care.",
+  "verdict": "KILL",
+  "reason": "Reaction-bait masquerading as news: no named lab, no proof AGI was released, no consequence—just commentary on people's lack of reaction."
+ },
+ {
+  "t": "2026-09-06T19:41:45Z",
+  "gate": "B",
+  "subject": "SPACEX'S ROCKET JUST LANDED ITSELF <em>FOR THE 600TH TIME</em>, AND THE WHOLE THING RUNS ON <em>ZERO GENERATIVE AI</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK VIOLATES THE AND RULE: 'LANDED ITSELF FOR THE 600TH TIME, AND THE WHOLE THING RUNS ON ZERO GENERATIVE AI' joins two actions with AND — the doctrine requires one actor, one action, cut the weaker. The 'zero generative AI' angle IS the story's twist and the stronger claim; the hook should lead there and let '600' be the proof detail, not a co-equal sentence half.; SHUFFLE TEST FAILS mid-carouse"
+ },
+ {
+  "t": "2026-09-06T19:47:16Z",
+  "gate": "A",
+  "subject": "BREAKING: A US judge has ruled that the US Constitution does not guarantee a right to clean drinking water or accurate i",
+  "verdict": "KILL",
+  "reason": "Constitutional ruling on government information rights lacks the AI/tech/company/founder lens this page's brand requires per §1."
+ },
+ {
+  "t": "2026-09-06T19:48:13Z",
+  "gate": "A",
+  "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
+  "verdict": "KILL",
+  "reason": "Google searches are a sentiment indicator, not an event—no real-world consequence (money moved, someone fired, policy changed, lawsuit filed), no actor, and the underlying claim is too thin to expand into slides."
+ },
+ {
+  "t": "2026-09-06T19:48:31Z",
+  "gate": "A",
+  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
+  "verdict": "KILL",
+  "reason": "Off-lens: pure fashion/business history arc without AI, tech, or tech-founder focus; this page's identity is AI/tech NEWS, and a 1821 luxury-goods origin story doesn't land on any approved lens—the founder must BE a tech founder or company, not merely a founder in a different domain."
+ },
+ {
+  "t": "2026-09-06T19:48:44Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Off-lens: labor/demographics story where technology is backdrop, not subject—fails the strict off-lens kill rule this lane must apply."
+ },
+ {
+  "t": "2026-09-06T20:16:18Z",
+  "gate": "B",
+  "subject": "A FEDERAL JUDGE JUST RULED YOUR GOVERNMENT CAN POISON YOUR WATER AND LIE TO YOUR FACE <em>AND THE CONSTITUTION WON'T PRO",
+  "verdict": "REJECT",
+  "reason": "HOOK §2 DOUBLE ACTION: 'CAN POISON YOUR WATER AND LIE TO YOUR FACE' joins two actions with AND — the law requires ONE actor, ONE action. Cut the weaker arm ('lie to your face') and make the single strongest claim the whole sentence.; SLIDES 3 AND 5 ARE NEAR-IDENTICAL §4: both carry the same four bullet-point facts reworded ('No constitutional right to clean water / No right to honest government in"
+ },
+ {
+  "t": "2026-09-06T20:20:17Z",
+  "gate": "R",
+  "subject": "A FEDERAL JUDGE JUST RULED YOUR GOVERNMENT CAN POISON YOUR WATER AND LIE TO YOUR FACE <em>AND THE CONSTITUTION WON'T PRO",
+  "verdict": "FAIL",
+  "reason": "s1: The AI-generated Constitution prop displays visibly garbled, nonsense text ('the be Yeehye Yestice') at a size large enough to read on a phone, which fails the photo-quality standard for garbled AI text."
  }
 ]
