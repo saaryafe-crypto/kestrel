@@ -1,0 +1,123 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "JENSEN HUANG JUST MADE THE FIRST DECLARATION IN HISTORY: <em>AGI HAS ARRIVED</em>, AND HE OFFERED <em>NO PROOF.</em>",
+   "kicker": "No demo, no proof, just three words",
+   "hsize": 64,
+   "media": "posts/2026-09-07-breaking-nvidia-nvda-ceo-jensen-huang-sa/gen-0.jpg",
+   "image_prompt": "SUBJECT: Jensen Huang, chest-up, signature black leather jacket, one arm thrust forward in a bold declaration point, expression fierce and certain, eyes direct to camera. BACKDROP PROPS: the Nvidia logo exactly as in the reference image blazing as an oversized brilliant green neon sign on the stage wall, a colossal glowing green GPU chip tower at impossible scale to his left dwarfing his figure, a blurred sea of thousands of audience phone lights deep behind. PALETTE: Nvidia green and deep black. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain.",
+   "gen_person": true
+  },
+  {
+   "type": "content",
+   "headline": "EVERY EXPERT SAID AGI WAS <em>STILL YEARS AWAY</em>",
+   "hsize": 92,
+   "body": "That was the deal. The goalpost had been moved for <b>70 years</b>, always just out of reach.\n\nThen Jensen Huang posted a tweet.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "JENSEN HUANG TYPED THREE WORDS <em>WITH NO STAGE, NO DEMO, NO BENCHMARK</em>",
+   "hsize": 82,
+   "body": "He didn't call a press conference. No announcement stage, no demo, no benchmark.\n\nThe CEO who built the machine that powered the entire AI race posted it casually online.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "tweet",
+   "headline": "",
+   "media": null,
+   "tweet": {
+    "handle": "KobeissiLetter",
+    "text": "BREAKING: Nvidia, $NVDA, CEO Jensen Huang says Artificial General Intelligence (AGI) has arrived.",
+    "views": 187514,
+    "when": "Sep 07, 2026"
+   }
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "NO DEMO. NO PAPER. NO PROOF.",
+   "hsize": 108,
+   "body": "Your future was moved by the person who profits most.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE MAN SELLING THE CHIPS <em>HAD THE MOST TO GAIN</em>",
+   "hsize": 92,
+   "body": "Nvidia supplies <b>every</b> major AI lab on Earth\n<b>3 words</b> posted, no demo, no benchmark\nHis chips gain value as AI race escalates\nYour AI deadline was set without you",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: JENSEN HUANG SAID <em>AGI IS HERE</em>",
+   "hsize": 60,
+   "body": "Jensen Huang declared AGI arrived, <b>Sept 6, 2026</b>\nNo demo, no proof, just the statement\n<b>70 years</b> of research, one tweet\n\nSend this to the friend who keeps saying AI won't affect them.",
+   "face": "jensen-huang-2",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through this. Jensen Huang just declared human-level AI is here, and the man saying it supplies every chip that runs AI on Earth. \ud83e\udd16\n\nCover: Jensen Huang declares AGI has arrived, Slide 2: why the whole world assumed it was still years away, Slide 3: the moment he posted it and why it lands differently coming from him, Slide 4: exactly what he wrote, Slide 5: the catch, Slide 6: who stands to gain most from this statement, Slide 7: save this for the conversation you're about to have.\n\nFor 70 years, AGI was a moving goalpost. The CEO of the company powering the entire AI race just said it's been crossed. Whether he's right or making the most lucrative statement in tech history, the conversation about AI and your future just stopped being theoretical.\n\nRunning a business? DM us 'AI' and we'll show you what this means for yours.\n\nSources: The Kobeissi Letter on X, Jensen Huang on X\n\n#AI #AGI #Nvidia #JensenHuang #ArtificialIntelligence",
+ "pinned_comment": "The detail everyone's skipping: the man declaring AGI has arrived sells the chips that power every AI on Earth. He has more financial incentive to say this than anyone who has ever said it.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "JENSEN HUANG POSTED THREE WORDS RESEARCHERS ARGUED ABOUT <em>FOR 70 YEARS</em>",
+   "JENSEN HUANG DECLARED <em>AGI IS OFFICIALLY HERE.</em> NO DEMO, NO BENCHMARK \u2014 JUST THE STATEMENT.",
+   "JENSEN HUANG SAID AGI IS ALREADY HERE <em>AND HE PROFITS MORE THAN ANYONE FROM SAYING IT</em>",
+   "JENSEN HUANG JUST SAID THE WORDS THE ENTIRE TECH WORLD FEARED: <em>ARTIFICIAL GENERAL INTELLIGENCE IS HERE.</em>",
+   "JENSEN HUANG JUST MADE THE FIRST DECLARATION IN HISTORY: <em>AGI HAS ARRIVED</em> \u2014 AND HE OFFERED <em>NO PROOF.</em>",
+   "JENSEN HUANG JUST SAID <em>AGI HAS ARRIVED</em> IN PUBLIC \u2014 WITH NO DEMO, NO DATE, AND NOBODY ELSE BACKING IT UP."
+  ],
+  "scores": [
+   3,
+   8,
+   6.5,
+   6.5,
+   8.5,
+   4.5
+  ],
+  "winner": 4,
+  "why": "[4] delivers the complete story\u2014first-ever-declaration plus zero-proof\u2014in one explosive contradiction that makes you stop, while [1] lands the same core conflict but lacks the 'unprecedented moment' hook that actually stops scrolling at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "JENSEN HUANG, <em>THE MAN WHO SELLS THE CHIPS THAT RUN AI,</em> JUST DECLARED AGI IS HERE <em>WITH NO PROOF.</em>",
+   "JENSEN HUANG JUST BECAME <em>THE FIRST CEO IN HISTORY</em> TO DECLARE AGI IS HERE, <em>WITH ZERO EVIDENCE.</em>",
+   "JENSEN HUANG JUST MADE THE FIRST DECLARATION IN HISTORY: <em>AGI HAS ARRIVED</em> \u2014 AND HE OFFERED <em>NO PROOF.</em>"
+  ],
+  "scores": [
+   7,
+   7.5,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] isolates 'AGI has arrived' after a colon, making the claim the focal point, while [1] builds to it through the person's unprecedented status. For impact at 2am, the news itself hits harder than the meta-story of who said it."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Jensen Huang",
+  "actor_known": true,
+  "anchor": "Jensen Huang",
+  "specifics": [
+   "Nvidia CEO Jensen Huang said AGI \u2014 human-level AI \u2014 has officially arrived",
+   "Huang runs the company that makes the chips every major AI system runs on",
+   "The declaration was made September 6, 2026 and hit 500.8K views immediately",
+   "No evidence, demo, or benchmark was cited \u2014 just the statement itself",
+   "This is the first time a major tech CEO has flatly declared AGI is here, not coming"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Nvidia, $NVDA, CEO Jensen Huang says Artificial General Intelligence (AGI) has arrived.",
+  "link": "https://x.com/KobeissiLetter/status/2096740888592474359",
+  "judge_interest": 4,
+  "scout_score": 77.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Slide 4 is entirely blank \u2014 no headline, no body, no image. A dead slide cannot be published. This slot must either be cut or filled with the required pattern-break content (one giant number or a \u22646-word statement filling the frame, per \u00a74).; The cover image displays a '$230' label chip pointing at the Nvidia logo, but no slide in the post mentions $230 or explains what it refers to. The image mak"
+}

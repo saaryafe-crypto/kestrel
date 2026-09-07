@@ -1,103 +1,5 @@
 [
  {
-  "t": "2026-09-03T05:34:31Z",
-  "gate": "A",
-  "subject": "Re-shoot an existing video from a new angle 🤯 Truly insane work from @theworldlabs, this new model is a game-changer. Th",
-  "verdict": "KILL",
-  "reason": "Unknown brand, undemonstrated feature, no real-world consequence—this is the launch preview, not a story."
- },
- {
-  "t": "2026-09-03T05:34:34Z",
-  "gate": "A",
-  "subject": "JUST IN: 'Rich Dad Poor Dad' Robert Kiyosaki is $1,200,000,000 in debt.",
-  "verdict": "KILL",
-  "reason": "Single financial claim with no event details (timing, cause, or consequences stated); source establishes a debt figure but not what actually happened or what Kiyosaki faced as a result."
- },
- {
-  "t": "2026-09-03T05:35:09Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens: this is a labor-economics story that merely mentions technology as the field/backdrop, not the protagonist—it's the goats-and-sensors pattern, banned under §1 regardless of virality."
- },
- {
-  "t": "2026-09-03T05:35:33Z",
-  "gate": "A",
-  "subject": "JUST IN: Wall Street investment banks are pressuring large law firms to reduce their fees, saying that the traditional m",
-  "verdict": "KILL",
-  "reason": "On-topic but routine: structural-trend analysis without a discrete event, named actors, actual outcomes, or numbers—analyst commentary, not a jaw-dropping story."
- },
- {
-  "t": "2026-09-03T05:36:26Z",
-  "gate": "A",
-  "subject": "Re-shoot an existing video from a new angle 🤯 Truly insane work from @theworldlabs, this new model is a game-changer. Th",
-  "verdict": "KILL",
-  "reason": "Single-tweet launch preview describing a model capability with no real-world consequence, user adoption, or numbers to build slides from—would require padding and falls under the banned 'launch preview' category."
- },
- {
-  "t": "2026-09-03T05:36:32Z",
-  "gate": "A",
-  "subject": "We’re bringing agentic video understanding to our latest Gemini models. They can now analyze videos with better accuracy",
-  "verdict": "KILL",
-  "reason": "Launch preview without demonstration—feature posts require demos showing the thing working, but source is specs-only with no substance for slides."
- },
- {
-  "t": "2026-09-03T05:37:15Z",
-  "gate": "A",
-  "subject": "JUST IN: 'Rich Dad Poor Dad' Robert Kiyosaki is $1,200,000,000 in debt.",
-  "verdict": "KILL",
-  "reason": "This states he's in debt but doesn't establish what EVENT happened (bankruptcy filing, lawsuit, disclosure); unclear if reality actually moved."
- },
- {
-  "t": "2026-09-03T05:38:31Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens story: technology is backdrop to a labor-economics argument; the story's subject is demographic hiring patterns, not AI/tech/company/founder/investing/space."
- },
- {
-  "t": "2026-09-03T05:38:43Z",
-  "gate": "A",
-  "subject": "JUST IN: Wall Street investment banks are pressuring large law firms to reduce their fees, saying that the traditional m",
-  "verdict": "KILL",
-  "reason": "Fails story law: no specific event with consequence—abstract claim about business-model pressure without named actors, numbers, or proof of real impact."
- },
- {
-  "t": "2026-09-03T06:11:15Z",
-  "gate": "B",
-  "subject": "THE MAN WHO WROTE RICH DAD POOR DAD OWES SO MUCH DEBT A NORMAL WORKER WOULD NEED <em>12,000 YEARS</em> TO EARN IT",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — UNKNOWN FACE: The cover generates a Caucasian man in his mid-50s holding papers. Robert Kiyosaki is Japanese-Hawaiian, 79 years old, with a completely different face. The generated figure is not recognizable as Kiyosaki at any feed size. IMAGE LAW requires 'recognizable famous people' and explicitly bans 'a generated unknown face.' Regenerate with Kiyosaki's actual likeness or source a"
- },
- {
-  "t": "2026-09-03T06:53:14Z",
-  "gate": "B",
-  "subject": "YOUR NAME IS LEAKING <em>39 PROFILES</em> TO STRANGERS. THESE <em>7 STEPS</em> KILL THEM ALL.",
-  "verdict": "REJECT",
-  "reason": "Step 4 is missing its number. The hook promises '7 STEPS' and steps 1–3 and 5–7 all carry their '1)' … '7)' labels, but the pattern-break slide ('6 DETAILS. YOUR WHOLE LIFE EXPOSED.') holds step 4's content — the six dangerous details and ChatGPT prompt — without a '4)' label. A reader counting the promised seven steps will land on six numbered ones. This breaks the cover contract. Fix: add '4)' t"
- },
- {
-  "t": "2026-09-03T12:48:23Z",
-  "gate": "A",
-  "subject": "Israeli National Security Minister Itmar Ben-Gvir posted and then deleted an AI video of Palestinians being fed into an ",
-  "verdict": "KILL",
-  "reason": "The substance lives only in one thin tweet (posted/deleted); without reporting on what actually happened as consequence—removal by platform, investigation launched, fired, or official response—this reads as reaction to something rather than something that moved."
- },
- {
-  "t": "2026-09-03T17:04:01Z",
-  "gate": "A",
-  "subject": "https://t.co/37uaPmYBvg",
-  "verdict": "KILL",
-  "reason": "Candidate lacks story content — URL inaccessible and no event details provided for Story Law evaluation; cannot judge EVENT without knowing what happened."
- },
- {
-  "t": "2026-09-03T17:04:12Z",
-  "gate": "A",
-  "subject": "$1,000 invested 15 years ago today would be worth: • Bitcoin: $8,970,000 • Nvidia: $735,000 • Tesla: $231,000 • Apple: $",
-  "verdict": "KILL",
-  "reason": "Fails §1: no viral-specific event or real-world consequence—historical return data is listicle-routine comparison with no named actor or narrative, risking the Sep 1 content-repetition trap."
- },
- {
   "t": "2026-09-03T17:05:36Z",
   "gate": "A",
   "subject": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. ",
@@ -2098,5 +2000,103 @@
   "subject": "BITCOIN HIT $1 TRILLION IN <em>12 YEARS</em>. APPLE, THE STOCK YOUR PARENTS BOUGHT INSTEAD, NEEDED <em>42</em>.",
   "verdict": "FAIL",
   "reason": "s1: LOGO ONCE violation: the Bitcoin 'B' appears as three distinct graphic elements simultaneously — a corner chip badge (top-left), a large floating glowing B (top-center), and the coin face — which is logo-as-wallpaper territory beyond the single natural product-mark exemption."
+ },
+ {
+  "t": "2026-09-07T05:54:24Z",
+  "gate": "A",
+  "subject": "Cybercab luggage test. Plenty of room for larger items.",
+  "verdict": "KILL",
+  "reason": "Luggage capacity is ON-TOPIC BUT ROUTINE specification information; the source contains no numbers, dimensions, or consequence (scouts rated it 5/10 minimum), and the feature is not new or jaw-dropping—the writer would have to pad to fill slides, and a 16-year-old would not stop mid-scroll to learn that a car has luggage space."
+ },
+ {
+  "t": "2026-09-07T05:55:19Z",
+  "gate": "A",
+  "subject": "BREAKING: Nvidia, $NVDA, CEO Jensen Huang says Artificial General Intelligence (AGI) has arrived.",
+  "verdict": "KILL",
+  "reason": "Single unsourced claim with no supporting facts, dates, or consequence to build slides from—writer would need to pad, triggering NO SUBSTANCE killswitch."
+ },
+ {
+  "t": "2026-09-07T05:55:29Z",
+  "gate": "A",
+  "subject": "Women accounted for 98% of U.S. job gains in August, per FORTUNE",
+  "verdict": "KILL",
+  "reason": "No substance: single labor statistic with no person, cause, or secondary facts — only padding could build slides."
+ },
+ {
+  "t": "2026-09-07T05:57:33Z",
+  "gate": "A",
+  "subject": "There is an employment recession in the US Information sector. The Information industry shed -23,000 jobs in August, bri",
+  "verdict": "KILL",
+  "reason": "Scouts rated it 3/10: this is macro economic data without a specific person, company, or dramatic event—routine reporting the page avoids."
+ },
+ {
+  "t": "2026-09-07T05:58:45Z",
+  "gate": "A",
+  "subject": "Cybercab luggage test. Plenty of room for larger items.",
+  "verdict": "KILL",
+  "reason": "Luggage-capacity test is routine product spec without story spine or jaw-dropping moment—no concrete demonstration or consequence readers would share."
+ },
+ {
+  "t": "2026-09-07T05:59:55Z",
+  "gate": "A",
+  "subject": "BREAKING: Nvidia, $NVDA, CEO Jensen Huang says Artificial General Intelligence (AGI) has arrived.",
+  "verdict": "KILL",
+  "reason": "Sourced tweet provides zero context for when/where/consequence and no evidence reality moved; scout interest below threshold."
+ },
+ {
+  "t": "2026-09-07T06:00:31Z",
+  "gate": "A",
+  "subject": "Women accounted for 98% of U.S. job gains in August, per FORTUNE",
+  "verdict": "KILL",
+  "reason": "Routine monthly labor statistics with no tech angle or real-world consequence—equivalent to the specifically-banned 'stocks-rose-today' category this page excludes."
+ },
+ {
+  "t": "2026-09-07T06:01:50Z",
+  "gate": "A",
+  "subject": "There is an employment recession in the US Information sector. The Information industry shed -23,000 jobs in August, bri",
+  "verdict": "KILL",
+  "reason": "This is routine macro employment data, not a viral-specific story event—it lacks the named person, named event, or felt consequence story law requires."
+ },
+ {
+  "t": "2026-09-07T06:32:03Z",
+  "gate": "B",
+  "subject": "SOMEONE LOADED LUGGAGE INTO A TESLA CYBERCAB WITH ZERO HUMANS INSIDE AND <em>161,000 PEOPLE WATCHED LIKE IT WAS A CAR RE",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION — the cover shows a generated Elon Musk performing the luggage test, but the person who actually did this in the story is Sawyer Merritt. Musk has zero role in this specific event. This is a news post, not a guide, so the Vendor Cast exception does not apply. Remake the cover: show the actual Cybercab with an empty driver seat visible through the windshield (the 'zero driver' "
+ },
+ {
+  "t": "2026-09-07T06:35:35Z",
+  "gate": "A",
+  "subject": "BREAKING: Nvidia, $NVDA, CEO Jensen Huang says Artificial General Intelligence (AGI) has arrived.",
+  "verdict": "KILL",
+  "reason": "Single claim with no secondary facts, numbers, or real-world consequence—insufficient substance per §1; fails 'something happened in the real world' test, would become listicle filler or reaction-bait."
+ },
+ {
+  "t": "2026-09-07T06:36:06Z",
+  "gate": "A",
+  "subject": "Women accounted for 98% of U.S. job gains in August, per FORTUNE",
+  "verdict": "KILL",
+  "reason": "Labor statistics aren't the AI/tech news or person-driven stories this page covers—low scout interest (4/10) confirms it doesn't earn a slot."
+ },
+ {
+  "t": "2026-09-07T06:36:30Z",
+  "gate": "A",
+  "subject": "There is an employment recession in the US Information sector. The Information industry shed -23,000 jobs in August, bri",
+  "verdict": "KILL",
+  "reason": "Employment data isn't a viral-specific event with felt consequence; the AI-replacement angle is inference, not demonstrated fact; 3/10 interest lacks exceptional justification."
+ },
+ {
+  "t": "2026-09-07T07:12:44Z",
+  "gate": "B",
+  "subject": "JENSEN HUANG JUST MADE THE FIRST DECLARATION IN HISTORY: <em>AGI HAS ARRIVED</em>, AND HE OFFERED <em>NO PROOF.</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 4 is entirely blank — no headline, no body, no image. A dead slide cannot be published. This slot must either be cut or filled with the required pattern-break content (one giant number or a ≤6-word statement filling the frame, per §4).; The cover image displays a '$230' label chip pointing at the Nvidia logo, but no slide in the post mentions $230 or explains what it refers to. The image mak"
+ },
+ {
+  "t": "2026-09-07T07:17:05Z",
+  "gate": "R",
+  "subject": "JENSEN HUANG JUST MADE THE FIRST DECLARATION IN HISTORY: <em>AGI HAS ARRIVED</em>, AND HE OFFERED <em>NO PROOF.</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
