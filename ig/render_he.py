@@ -177,6 +177,26 @@ body.cta h1{margin-bottom:56px}
    (owner Aug 27: sends/reach = IG's top discovery signal per Mosseri —
    the follow ask is gone from the pill, both renderers) */
 body.ctaphoto .ctarow{text-align:center;margin-top:38px}
+/* reaction-receipt X card (Sep 5 anatomy, ported from render.py Sep 7 —
+   the layout:tweet slide crashed this renderer with KeyError 'body', run
+   34131468811). The quoted post is REAL English text, so the card is an
+   LTR island inside the RTL page. */
+body.tweet .frame{position:relative;z-index:2;height:1350px;display:flex;
+                  align-items:center;justify-content:center;padding:0 64px}
+.tweetcard{width:100%;background:#080809;border:2px solid rgba(255,255,255,.14);
+           border-radius:28px;padding:46px 50px 40px;
+           box-shadow:0 30px 90px rgba(0,0,0,.75);
+           direction:ltr;text-align:left}
+.tweetcard .thead{display:flex;align-items:center;gap:24px;margin-bottom:30px}
+.tweetcard .avatar{width:84px;height:84px;border-radius:50%;flex:none;
+           display:flex;align-items:center;justify-content:center;
+           font-family:HebHead;font-size:44px;color:#fff;
+           background:radial-gradient(circle at 32% 28%,#3a3a44 0%,#141419 80%)}
+.tweetcard .tname{font-size:33px;font-weight:800;color:#fff;line-height:1.15}
+.tweetcard .thandle{font-size:28px;font-weight:600;color:#71767b}
+.tweetcard .ttext{font-size:41px;line-height:1.34;font-weight:600;color:#fff}
+.tweetcard .tmeta{margin-top:34px;font-size:27px;font-weight:600;color:#71767b}
+.tweetcard .tmeta b{color:#d6d9db;font-weight:800}
 """
 
 def bidi(t):
@@ -457,6 +477,32 @@ def slide_html(s, total, fallback_media=None):
 <div><span class="pill">שלחו את זה לחבר</span></div>
 {sub}
 </div></body>'''
+
+    # reaction-receipt slide (Sep 5, ported from render.py Sep 7): the story's
+    # REAL source post typeset as an X card — authentic English text kept
+    # verbatim (a translated "quote" would be a fabrication), LTR island on
+    # the dark art backdrop. he.py's merge copies the EN skeleton, so
+    # s["tweet"] always carries real data when the layout survives.
+    if s["type"] == "content" and s.get("layout") == "tweet" and s.get("tweet"):
+        t = s["tweet"]
+        handle = html.escape(t.get("handle") or "")
+        text = html.escape(t.get("text") or "").replace(chr(10), "<br>")
+        views = int(t.get("views") or 0)
+        vfmt = (f"{views / 1e6:.1f}M" if views >= 1e6 else
+                f"{views / 1e3:.1f}K" if views >= 1000 else str(views))
+        meta = html.escape(t.get("when") or "")
+        if views:
+            meta += (" · " if meta else "") + f"<b>{vfmt}</b> Views"
+        meta_html = f'<div class="tmeta">{meta}</div>' if meta else ""
+        initial = html.escape((handle[:1] or "X").upper())
+        return f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
+<body class="tweet">{art_bg(text, heavy=True)}
+<div class="mast-top">{masthead()}</div>
+<div class="frame"><div class="tweetcard">
+<div class="thead"><div class="avatar">{initial}</div>
+<div><div class="tname">{handle}</div><div class="thandle">@{handle}</div></div></div>
+<p class="ttext">{text}</p>
+{meta_html}</div></div></body>'''
 
     # pattern-break slide (owner order Aug 18): solid orange, huge dark type
     if s["type"] == "content" and s.get("layout") == "break":
