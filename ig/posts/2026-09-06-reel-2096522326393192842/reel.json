@@ -1,0 +1,17 @@
+{
+ "pick": 11,
+ "title": "How Google Astra maps every book on a shelf from one snapshot",
+ "title_candidates": [
+  "What Google Astra built from a single photo of a bookshelf",
+  "How Google Astra maps every book on a shelf from one snapshot",
+  "Google Astra was shown a photo of a bookshelf and did this in real time",
+  "The thing Google Astra made from a single breakfast photo",
+  "Snap a photo of your bookshelf and Google Astra builds a 3D library around it"
+ ],
+ "caption": "Google Astra took one photo of a bookshelf and instantly built a searchable 3D model of every book on it, linked to Goodreads.\n\nNo scanning. No typing out titles. Astra read the spines, estimated the depth of each book, and mapped the whole shelf into a 3D space you can actually browse, all from a single snapshot. Something that used to take an afternoon of manual entry now takes one photo.\n\nEach book connects to your Goodreads account directly, showing your rating and reading history right there inside the 3D view.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: LinusEkenstam. DM for credit or removal\n\n#googleastra #ai #aitools #artificialintelligence #futuretech",
+ "start_s": 0,
+ "clip_s": 28,
+ "source": "https://video.twimg.com/amplify_video/2096520047988457474/vid/avc1/2708x1992/cBSIL_18YACd5yzE.mp4?tag=29",
+ "channel": "LinusEkenstam",
+ "publish": "bundle"
+}
