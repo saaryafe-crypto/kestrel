@@ -1,0 +1,115 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AMAZON, MICROSOFT, GOOGLE, AND META JUST BET <em>$1.5 TRILLION</em> ON DATA CENTERS THAT HAVEN'T BEEN POURED, AND THE TOTAL BILL HITS <em>$7 TRILLION</em> BY 2030.",
+   "hsize": 62,
+   "media": "posts/2026-09-07-the-us-ai-infrastructure-boom-is-making-/gen-0.jpg",
+   "image_prompt": "SUBJECT: Four colossal steel poles planted like moon-landing flags across a vast empty construction site at dusk \u2014 each bearing a giant illuminated company sign: the Microsoft logo exactly as in the reference image, the Google logo exactly as in the reference image, the Meta logo exactly as in the reference image, and the Amazon wordmark with its signature orange smile arrow \u2014 raw red earth with zero buildings anywhere, impossible scale and audacity. BACKDROP PROPS: miles of bare concrete foundation slabs and dirt stretching to the horizon, a fleet of orange construction cranes silhouetted against the sky. PALETTE: electric teal sky and deep amber orange earth. LABELS: \"$7T\" on a cracked concrete slab chip in the foreground. Documentary news photo, 35mm, harsh on-camera flash, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "EVERYONE THOUGHT <em>AI WAS JUST SOFTWARE</em>",
+   "hsize": 100,
+   "body": "No construction. No cranes. No rewiring of anything physical. Just code, quietly running in someone else's building.\n\nUntil four companies started signing contracts bigger than most countries' economies",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AMERICA'S DATA CENTER COUNT <em>WILL TRIPLE IN FIVE YEARS</em>",
+   "hsize": 88,
+   "body": "<b>90</b> data centers at 100+ MW: a record\n<b>280</b> projected by 2030 if plans complete\n<b>$1.5T</b> committed, your power bill follows",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$7,000,000,000,000 BY 2030",
+   "hsize": 110,
+   "body": "Roughly Japan's entire economy. For data centers",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>YOUR POWER BILL</em> IS NEXT IN LINE",
+   "hsize": 100,
+   "body": "Hundreds of data centers coming online means a massive new draw on US electricity grids.\n\nBut every one of those data centers draws from the same grid your home uses",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THEY SIGNED LEASES FOR <em>190 DATA CENTERS</em> THAT HAVEN'T BEEN POURED",
+   "hsize": 88,
+   "body": "Amazon, Google, Microsoft, and Meta locked in those leases since the AI boom began.\n\nThey're paying for a future they aren't certain will arrive.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>THE $7 TRILLION DATA CENTER BET</em>",
+   "hsize": 60,
+   "body": "<b>90</b> record-high US data centers running right now\nAmazon, Google, Microsoft, Meta: <b>$1.5T</b> in leases signed\nYour power grid will feel it first\n\nSend this to the friend who thinks AI is just code",
+   "media": null
+  }
+ ],
+ "caption": "Amazon, Google, Microsoft, and Meta signed $1.5T in AI data center leases, many for buildings not yet built. The total tab hits $7 trillion by 2030. Swipe to see what it means for you. \ud83d\udce1\n\nEveryone assumed AI was purely software with no physical footprint, four companies signed over $1.5 trillion in data center leases since the AI boom began, the US count of large-scale data centers is projected to triple from 90 to 280 by 2030, total industry spend is expected to hit $7 trillion which is roughly Japan's entire annual economy, power grids and electricity costs will feel the new demand first, and most businesses still haven't figured out how to use the AI those buildings will run.\n\nThe AI revolution isn't invisible code. It's the fastest physical infrastructure build in a generation, already underway across the US. Power grids, land prices, and electricity costs sit downstream of this spending. The companies writing the checks aren't even certain AI demand will hold at the level they need. They're paying for a future they're betting on, not one they've confirmed. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: The Kobeissi Letter on X\n\n#AI #DataCenters #TechInvesting #ArtificialIntelligence #BigTech",
+ "pinned_comment": "The part nobody talks about: Amazon, Google, Microsoft, and Meta are already committed to $1.5 trillion in lease payments for data centers that haven't been built yet. If AI demand cools, those contracts don't disappear.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "AMAZON, MICROSOFT, GOOGLE, AND META ARE LEADING <em>ONE OF THE LARGEST CAPITAL SPENDING CYCLES IN HISTORY</em>, TRIPLING THE COUNT OF MASSIVE US DATA CENTERS BY 2030",
+   "AMAZON, GOOGLE, MICROSOFT, AND META ARE SPENDING <em>$7 TRILLION ON AI DATA CENTERS</em>, AND YOUR ELECTRICITY BILL WILL FEEL IT",
+   "AMAZON, GOOGLE, MICROSOFT, AND META <em>WILL TRIPLE THE NUMBER OF MASSIVE US DATA CENTERS</em> BY 2030",
+   "AMAZON, MICROSOFT, GOOGLE, AND META JUST SIGNED <em>$1.5 TRILLION IN DATA CENTER LEASES</em>, MOSTLY FOR BUILDINGS THAT DON'T EXIST YET",
+   "AMAZON, GOOGLE, MICROSOFT, AND META ARE BETTING <em>$7 TRILLION ON AI DATA CENTERS BY 2030</em>, MORE THAN JAPAN'S ENTIRE ECONOMY",
+   "AMAZON, MICROSOFT, GOOGLE, AND META SIGNED <em>$1.5 TRILLION IN DATA CENTER LEASES</em>, MANY FOR BUILDINGS THAT DON'T EXIST YET"
+  ],
+  "scores": [
+   3,
+   0,
+   0,
+   8,
+   0,
+   6
+  ],
+  "winner": 3,
+  "why": "[3] hits you with JUST SIGNED and buildings that don't exist yet\u2014a weird angle that stops you mid-scroll with immediate curiosity. [5] has identical facts but reads stale without the urgency of JUST, so you swipe past it."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "AMAZON, MICROSOFT, GOOGLE, AND META JUST BET <em>$1.5 TRILLION</em> ON DATA CENTERS THAT DON'T EXIST. THE TOTAL BILL BY 2030: <em>$7 TRILLION</em>.",
+   "AMAZON, MICROSOFT, GOOGLE, AND META JUST SIGNED <em>$1.5 TRILLION IN DATA CENTER LEASES</em>, MOSTLY FOR BUILDINGS THAT DON'T EXIST YET",
+   "AMAZON, MICROSOFT, GOOGLE, AND META JUST SIGNED LEASES TO <em>TRIPLE AMERICA'S DATA CENTERS</em>. THE TAB: <em>$7 TRILLION BY 2030</em>."
+  ],
+  "scores": [
+   9,
+   6,
+   7
+  ],
+  "winner": 0,
+  "why": "[0]'s 'don't exist' hook creates instant cognitive dissonance\u2014a contradiction that makes you stop cold with 'wait, WHAT?'; [2]'s 'triple' and $7T numbers are impressive but land as facts, not shocks."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Amazon, Microsoft, Alphabet, Meta",
+  "actor_known": true,
+  "anchor": "Amazon, Microsoft, Google, and Meta",
+  "specifics": [
+   "$7 trillion expected to be spent on data centers by 2030 \u2014 roughly Japan's entire economy",
+   "Amazon, Microsoft, Google, and Meta have already signed $1.5 trillion in data center leases \u2014 much of it for buildings not yet built",
+   "The number of massive US data centers (100+ MW) will triple from ~90 to ~280 by 2030",
+   "90 data centers with 100+ megawatts of power currently operating \u2014 a record high",
+   "Called 'one of the largest capital spending cycles in history'"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "The US AI infrastructure boom is making history. There are now ~90 US data centers with more than 100 megawatts (MW) of power in operation, the highest count on record. This figure is set to more than triple by 2030, to ",
+  "link": "https://x.com/KobeissiLetter/status/2096737502140792958",
+  "judge_interest": 5,
+  "scout_score": 50.4
+ },
+ "editor_override": "Slide 4 truth error: '$7T = roughly Japan's entire economy' is factually wrong. Japan's nominal GDP is ~$4.2T; $7T is 65% larger than Japan's entire economy. Replace with a true comparison ('roughly one-third of the US economy' or 'more than Germany and France combined') \u2014 a false analogy on the pattern-break slide is a doctrine \u00a75 kill.; The $1.5T figure appears in the cover headline AND in slide",
+ "gate_r": "s3: The bar chart is a raw screenshot lifted from a news publication (article-header text and legend visible at the top), used as full-bleed background without a rounded-card frame \u2014 Screenshot Law violation."
+}

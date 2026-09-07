@@ -1,124 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "A government minister posted and deleted AI propaganda—a real person-action with real consequences on the AI lens, substantive per the calibration standard.",
-  "subject": "Israeli National Security Minister Itmar Ben-Gvir posted and then deleted an AI video of Palestinians being fed into an ",
-  "t": "2026-09-03T17:32:19Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW — CAST TRUTH VIOLATION: The cover shows three people — Netanyahu, Ben-Gvir, and Smotrich — in orange prison jumpsuits and handcuffs. Netanyahu and Smotrich play zero role in this story (the story is entirely about Ben-Gvir's deleted post). Two of the three cover faces are decorative celebrities with no connection to the event. The doctrine is explicit: a recognizable famous person as dec",
-  "subject": "ISRAEL'S NATIONAL SECURITY MINISTER POSTED AN AI VIDEO <em>OF PALESTINIANS BEING FED INTO A SLAUGHTERHOUSE</em> AND DELE",
-  "t": "2026-09-03T18:16:30Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "CAST TRUTH VIOLATION — CRITICAL: The cover shows Netanyahu and Smotrich in prison jumpsuits alongside Ben-Gvir. Neither Netanyahu nor Smotrich has any role in this story. The story is exclusively about Ben-Gvir's post. Two famous faces are on the cover as decoration, breaking the image-headline connection the doctrine prohibits. The cover must show only Ben-Gvir, or Ben-Gvir + a visual reference t",
-  "subject": "ISRAEL'S NATIONAL SECURITY MINISTER POSTED AN AI VIDEO <em>OF PALESTINIANS BEING FED INTO A SLAUGHTERHOUSE</em> AND DELE",
-  "t": "2026-09-03T18:22:27Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-09-03T20:33:14Z",
-  "gate": "A",
-  "subject": "Israeli National Security Minister Itmar Ben-Gvir posted and then deleted an AI video of Palestinians being fed into an ",
-  "verdict": "APPROVE",
-  "reason": "A government official posted and deleted an extreme AI-generated video — a real outrageous action by a real person worth researching for full context and consequences."
- },
- {
-  "t": "2026-09-03T21:06:57Z",
-  "gate": "B",
-  "subject": "ISRAEL'S NATIONAL SECURITY MINISTER POSTED AN AI VIDEO OF PALESTINIANS ON A <em>SLAUGHTERHOUSE CONVEYOR BELT</em>, THEN ",
-  "verdict": "REJECT",
-  "reason": "HOOK PAYOFF IS AN ENGAGEMENT METRIC — BANNED. The hook closes on '431,300 VIEWS', a view count, which is explicitly banned as a hook payoff ('THE SCREENSHOT HAS 40K LIKES is the failure model'). The 431,300 should move inside the slides as proof; the hook's closing punch must be the act or its consequence, e.g. '...POSTED AN AI VIDEO OF PALESTINIANS ON A SLAUGHTERHOUSE CONVEYOR BELT, THEN DELETED "
- },
- {
-  "gate": "A",
-  "reason": "No specific event—this is characterization without a real-world moment or consequence someone would feel.",
-  "subject": "Most people get rich so they can retire. Elon got rich and chose to work even harder. He could have chosen endless luxur",
-  "t": "2026-09-03T19:45:14Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One user's single-day price comparison lacks a story event or personal consequence; thin sourcing would require heavy creative padding to justify carousel publication, and the 'smelled' detail signals engagement-bait framing over substantive storytelling.",
-  "subject": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. ",
-  "t": "2026-09-03T19:45:20Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens per Aug 28 rule: labor-history story with IT as backdrop, not subject; no substance (vague demographic claim, zero numbers, names, or specific event).",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "t": "2026-09-03T19:46:12Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: it's a hypothetical musing with no real event, actor, or consequence—nothing actually happened.",
-  "subject": "Humans writing code as seen by future AI",
-  "t": "2026-09-03T19:46:15Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: historical fashion biography, not about AI, technology, markets, or space.",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "t": "2026-09-03T19:46:31Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Scout interest of 4/10 on a thin capability claim with no proof or adoption evidence—doesn't qualify as jaw-dropping.",
-  "subject": "Fable 5.1 is cracked. This was my first test with Fable 5.1. I asked it to create an F-35A Lightning II, and I honestly ",
-  "t": "2026-09-03T19:46:50Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No viral-specific event—this is a characterization of Elon's work ethic and priorities, not a reported happening with a concrete consequence or narrative arc.",
-  "subject": "Most people get rich so they can retire. Elon got rich and chose to work even harder. He could have chosen endless luxur",
-  "t": "2026-09-03T19:48:01Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Price comparison of a known product with no dramatic event or felt consequence—too thin and routine to meet the jaw-dropping threshold for stories the owner himself would post.",
-  "subject": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. ",
-  "t": "2026-09-03T19:48:38Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No real event occurred—this is a speculative observation with no substance, numbers, or consequences to build slides from, and cannot be reported as truth.",
-  "subject": "Humans writing code as seen by future AI",
-  "t": "2026-09-03T19:49:09Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens kill: labor-economic commentary, not a story about AI/tech/founder/investing/space—technology is the setting, not the star; also lacks a specific event, real names, real numbers, or real consequence.",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "t": "2026-09-03T19:49:19Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: pure 1800s fashion history with no AI, tech, investing, or space angle required by this lane.",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "t": "2026-09-03T19:49:52Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No real event with consequence — this is routine on-topic testimony that software performed well, with an unknown actor and no stakes or outcome for the reader.",
-  "subject": "Fable 5.1 is cracked. This was my first test with Fable 5.1. I asked it to create an F-35A Lightning II, and I honestly ",
-  "t": "2026-09-03T19:49:53Z",
-  "verdict": "KILL"
- },
- {
   "gate": "B",
   "reason": "HOOK VIOLATION (§2): The hook's climax is a view count — '124,000 PEOPLE SAW IT ON ELON MUSK'S OWN PLATFORM.' Engagement metrics as the payoff are explicitly banned ('THE SCREENSHOT HAS 40K LIKES' is the failure model). Rewrite so the payoff is the story's actual consequence (the guilt-culture message and who it was really aimed at), not the view number.; COVER CONTRACT VIOLATION (§4): Slide 6 hij",
   "subject": "<em>WANTING TO RETIRE SOMEDAY JUST BECAME A MORAL FAILING</em> AND 124,000 PEOPLE SAW IT ON ELON MUSK'S OWN PLATFORM",
@@ -2098,5 +1979,124 @@
   "subject": "YOUR ANALYST COSTS <em>333X MORE THAN AI</em>. 4 MOVES TO CLOSE THAT GAP THIS YEAR",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-07T19:35:30Z",
+  "gate": "A",
+  "subject": "New video of Tesla's revolutionary unboxed manufacturing process for the Cybercab from the launch event. The production ",
+  "verdict": "AUTO_APPROVE",
+  "reason": "scout interest 8/10 — news-first fast lane"
+ },
+ {
+  "t": "2026-09-07T19:36:03Z",
+  "gate": "A",
+  "subject": "Using GPT-6 Astra Max to make my wedding website",
+  "verdict": "KILL",
+  "reason": "Unknown actor (@venturetwins), 48-character source that repeats only the headline, describing routine AI tool usage with no consequence, numbers, or detail—not reality moving."
+ },
+ {
+  "t": "2026-09-07T19:36:33Z",
+  "gate": "A",
+  "subject": "JUST IN: 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack. The hacker is now communicating with ",
+  "verdict": "APPROVE",
+  "reason": "A $320M cryptocurrency hack where the hacker communicates through blockchain and promises to return the funds is a real news event with substance and unusual story potential—not reaction-bait—and killing legitimate stories exacerbates the page's documented listicle repetition problem."
+ },
+ {
+  "t": "2026-09-07T20:09:49Z",
+  "gate": "B",
+  "subject": "TESLA'S CYBERCAB LINE JUST ROLLED OFF ONE COMPLETE CAR EVERY 10 SECONDS, <em>ITS OWN MODEL Y TAKES THREE TIMES AS LONG</",
+  "verdict": "REJECT",
+  "reason": "Slide 3 pre-spends slide 4's only fact. Slide 3 already states 'Goal: 5 seconds, 12 cars per minute' as a bullet. Slide 4's entire content is then 'headline: 12 CARS PER MINUTE / body: Tesla's 5-second goal.' The big-number pattern-break lands flat because the reader already knows the number. Fix: strip the goal-speed bullet from slide 3's list so slide 4 is a genuine reveal. This also restores th"
+ },
+ {
+  "t": "2026-09-07T20:11:49Z",
+  "gate": "B",
+  "subject": "TESLA'S CYBERCAB LINE JUST ROLLED OFF ONE COMPLETE CAR EVERY 10 SECONDS, <em>ITS OWN MODEL Y TAKES THREE TIMES AS LONG</",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CGI elements: the factory production-line background and the circular Cybercab inset both read as 3D renders/CGI, not photographed elements. The doctrine requires every element in the frame to read as photographed; a generated render of a factory violates this even inside a composite. Fix: source real launch-event footage/photography of the Cybercab line for the background and inset.; "
+ },
+ {
+  "t": "2026-09-07T20:15:09Z",
+  "gate": "B",
+  "subject": "TESLA'S CYBERCAB LINE JUST ROLLED OFF ONE COMPLETE CAR EVERY 10 SECONDS, <em>ITS OWN MODEL Y TAKES THREE TIMES AS LONG</",
+  "verdict": "REJECT",
+  "reason": "Cover image photoreal violation: the factory background — yellow robotic arms and the Cybercab cars on the production line — reads as CGI/3D render, not photographed. The law requires every element in the frame to read as photographed. The composite concept, archetype (famous CEO + brand mark + product), and furniture (label chips, circular inset) are all correct; fix by replacing the background w"
+ },
+ {
+  "t": "2026-09-07T20:15:51Z",
+  "gate": "A",
+  "subject": "JUST IN: 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack. The hacker is now communicating with ",
+  "verdict": "KILL",
+  "reason": "The event is real but the actor fails: anonymous hacker + Liquid Network (unknown brand) violate the famous-actor requirement; the page covers AI/tech news from household-name labs (OpenAI tier), not crypto protocol hacks."
+ },
+ {
+  "t": "2026-09-07T20:16:05Z",
+  "gate": "A",
+  "subject": "Using GPT-6 Astra Max to make my wedding website",
+  "verdict": "KILL",
+  "reason": "Routine personal AI usage with a 48-character source containing no substance; the writer would have to pad to fill slides."
+ },
+ {
+  "t": "2026-09-07T20:17:02Z",
+  "gate": "A",
+  "subject": "If those 400,000 GPUs are Rubin, NVIDIA’s published NVFP4 specs imply roughly 14× the theoretical peak training performa",
+  "verdict": "KILL",
+  "reason": "Technical speculation from an unknown analyst on hypothetical GPU deployments lacks a confirmed real-world event and qualifies as routine analyst-opinion content, banned under STORY LAW §1."
+ },
+ {
+  "t": "2026-09-07T20:17:06Z",
+  "gate": "A",
+  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
+  "verdict": "KILL",
+  "reason": "Labor-economics commentary spanning 20-30 years with no specific event, no named actor, no numbers—off-lens per §1 (a history-and-labor fact that mentions technology as the backdrop or defeated party, not the star; goats-on-Etna precedent applies)."
+ },
+ {
+  "t": "2026-09-07T20:17:56Z",
+  "gate": "A",
+  "subject": "The US AI infrastructure boom is making history. There are now ~90 US data centers with more than 100 megawatts (MW) of ",
+  "verdict": "KILL",
+  "reason": "No event occurred; this is corporate infrastructure trend analysis and projections, which is exactly the 'on-topic but routine' content the owner flagged as the page's #1 content failure."
+ },
+ {
+  "t": "2026-09-07T20:58:20Z",
+  "gate": "B",
+  "subject": "A BITCOIN HACKER DRAINED <em>$320 MILLION</em> AND LEFT A NOTE IN THE BLOCKCHAIN: <em>FIX THE BUG AND YOU'LL GET IT BACK",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — PHOTOREAL VIOLATION: The cover is built entirely from 3D-CGI rendered elements — the split Bitcoin coin, the neon red crack, and the scattered coins all read as game-render / AI-generated composites, not as photographed objects. The doctrine is hard: 'any element that reads as… game render… is a REJECT, whatever its concept.' Fix: rebuild with a real photographed physical Bitcoin comme"
+ },
+ {
+  "t": "2026-09-07T21:00:32Z",
+  "gate": "A",
+  "subject": "Using GPT-6 Astra Max to make my wedding website",
+  "verdict": "KILL",
+  "reason": "Trivial event (routine AI tool usage), unknown actor, and no substance—the 48-character source offers no fact, number, or consequence."
+ },
+ {
+  "t": "2026-09-07T21:02:06Z",
+  "gate": "A",
+  "subject": "The US AI infrastructure boom is making history. There are now ~90 US data centers with more than 100 megawatts (MW) of ",
+  "verdict": "APPROVE",
+  "reason": "Record infrastructure milestone (90→280 data centers, $7T capex from Microsoft/Google/Amazon/Meta) has household-name actors and wild numbers; survives calibration as substantial event despite stat-based framing."
+ },
+ {
+  "t": "2026-09-07T21:36:13Z",
+  "gate": "B",
+  "subject": "AMAZON, MICROSOFT, GOOGLE, AND META JUST BET <em>$1.5 TRILLION</em> ON DATA CENTERS THAT DON'T EXIST. THE TOTAL BILL BY ",
+  "verdict": "REJECT",
+  "reason": "HOOK LAW — two sentences, not one. 'AMAZON, MICROSOFT, GOOGLE, AND META JUST BET $1.5 TRILLION ON DATA CENTERS THAT DON'T EXIST.' ends with a hard period; 'THE TOTAL BILL BY 2030: $7 TRILLION.' is a second sentence. The law mandates ONE complete sentence, 12-25 words. Fix: fold the $7T into the first clause — e.g., 'AMAZON, MICROSOFT, GOOGLE, AND META JUST BET $1.5 TRILLION ON DATA CENTERS THAT HA"
+ },
+ {
+  "t": "2026-09-07T21:39:16Z",
+  "gate": "B",
+  "subject": "AMAZON, MICROSOFT, GOOGLE, AND META JUST BET <em>$1.5 TRILLION</em> ON DATA CENTERS THAT HAVEN'T BEEN POURED, AND THE TO",
+  "verdict": "REJECT",
+  "reason": "Slide 4 truth error: '$7T = roughly Japan's entire economy' is factually wrong. Japan's nominal GDP is ~$4.2T; $7T is 65% larger than Japan's entire economy. Replace with a true comparison ('roughly one-third of the US economy' or 'more than Germany and France combined') — a false analogy on the pattern-break slide is a doctrine §5 kill.; The $1.5T figure appears in the cover headline AND in slide"
+ },
+ {
+  "t": "2026-09-07T21:43:09Z",
+  "gate": "R",
+  "subject": "AMAZON, MICROSOFT, GOOGLE, AND META JUST BET <em>$1.5 TRILLION</em> ON DATA CENTERS THAT HAVEN'T BEEN POURED, AND THE TO",
+  "verdict": "FAIL",
+  "reason": "s3: The bar chart is a raw screenshot lifted from a news publication (article-header text and legend visible at the top), used as full-bleed background without a rounded-card frame — Screenshot Law violation."
  }
 ]
