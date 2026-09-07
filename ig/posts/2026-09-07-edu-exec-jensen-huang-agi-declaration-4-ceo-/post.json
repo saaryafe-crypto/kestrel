@@ -1,0 +1,96 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR ANALYST COSTS <em>333X MORE THAN AI</em>. 4 MOVES TO CLOSE THAT GAP THIS YEAR",
+   "kicker": "JENSEN HUANG JUST CALLED IT",
+   "hsize": 72,
+   "face": "Jensen Huang",
+   "media": "posts/2026-09-07-edu-exec-jensen-huang-agi-declaration-4-ceo-/gen-0-r.jpg",
+   "image_prompt": "Casino card dealer, authoritative, eyes locked to camera with confident smile, placing four oversized electric-blue cards face-up on felt. Neon glow, golden spotlight. Electric blue and gold palette. Photoreal, 35mm, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "<em>YOUR ANALYST COSTS 333X MORE THAN AI RIGHT NOW</em>",
+   "hsize": 100,
+   "body": "Jensen Huang declared AGI arrived.\n\nYour analyst: <b>$80,000</b>. AI: <b>$240</b>. That's <b>333x</b> cheaper.\n\nMove 2 decides where that gap goes",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ONE SALARY FUNDS <em>330 AI SEATS FOR A YEAR</em>",
+   "hsize": 100,
+   "body": "The freeze frees <b>$80,000</b> immediately.\n\nThat buys <b>330</b> AI seats for <b>12 months</b>.\n\nMove 3 decides what those seats target",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>333x</em>",
+   "hsize": 66,
+   "body": "ONE ANALYST. 330 AI SEATS. SAME BUDGET",
+   "layout": "pattern_break",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>YOUR 3 BIGGEST COGNITIVE COSTS GO FIRST</em>",
+   "hsize": 100,
+   "body": "Research, analysis, and drafting are where your <b>$80,000</b> seats disappear.\n\nStart with those three.\n\nMove 4 locks the gain",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>YOUR PROPRIETARY DATA IS THE 12-MONTH MOAT</em>",
+   "hsize": 100,
+   "body": "Your proprietary data trains an AI competitors can never replicate after <b>12 months</b>.\n\nStart today.\n\nThat is the permanent moat",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>THE 4-MOVE AGI WINDOW</em>",
+   "hsize": 100,
+   "body": "Move 1: Freeze cognitive hires\nMove 2: Redirect $80K to AI seats\nMove 3: Audit 3 highest-cost processes\nMove 4: Train your data for 12 months\n\nDaily AI news + real executive strategy",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for 4 moves your board needs today. Nvidia's CEO declared AGI arrived, and every week you wait compounds the gap. \ud83d\udcc8\n\nMove 1 is the freeze, stopping cognitive hires while competitors keep posting; Move 2 is the redirect, converting one analyst's $80,000 salary into 330 AI seats for a year; Move 3 is the audit, finding your three most expensive cognitive processes and automating those first; Move 4 is the moat, training AI on your proprietary data for 12 months before a competitor makes that advantage impossible to replicate.\n\nJensen's declaration is backed by physical reality: 90 US data centers now carry over 100 megawatts each, a number tripling by 2030. Executives who treat today as the starting gun own the cost structure that wins the next decade.\nRunning a business? DM us \"AI\" and we'll show you what this means for yours.\n\nSources: Nvidia, US AI infrastructure data\n\n#AI #CEO #artificialintelligence #businessstrategy #futureofwork",
+ "pinned_comment": "Which move is your business furthest behind on? Most founders I talk to skip Move 3 entirely and wonder later why Move 4 never sticks.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>THE JENSEN DECLARATION:</em> 4 MOVES YOUR BOARD NEEDS",
+   "<em>THE AGI ARRIVAL PROTOCOL:</em> 4 MOVES FOR CEOS",
+   "THE <em>4-MOVE CAPITAL WINDOW</em> AGI JUST OPENED",
+   "<em>THE 4-MOVE AGI WINDOW</em>"
+  ],
+  "scores": [
+   2,
+   3,
+   5,
+   1
+  ],
+  "winner": 2,
+  "why": "'JUST OPENED' hits like breaking news and creates urgency\u2014you pause to understand. 'PROTOCOL' is just corporate advice; nobody clicks that at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>ONE SALARY FUNDS 330 AI SEATS.</em> 4 MOVES MOST COMPANIES HAVEN'T MADE YET",
+   "MOST COMPANIES STILL PAY <em>333X TOO MUCH</em> FOR ANALYSIS. THESE 4 AI MOVES END THAT",
+   "YOUR ANALYST COSTS <em>333X MORE THAN AI</em>. 4 MOVES TO CLOSE THAT GAP THIS YEAR"
+  ],
+  "scores": [
+   6,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] makes it personal ('YOUR ANALYST') and adds urgency ('THIS YEAR'), creating immediate alarm. [1] uses the same shock number but stays abstract ('MOST COMPANIES'), so it lands as business commentary, not a direct threat."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "COVER CONTRACT BROKEN \u2014 Move 1 ('Freeze cognitive hires') has no dedicated slide. The hook promises 4 moves; the slides deliver only 3 (Moves 2, 3, 4). Move 1 appears exclusively in the save-close CTA. An edu post titled '4 MOVES' must show all 4 moves in the carousel body. Fix: insert a Move 1 slide between the context slide (slide 2) and the current Move 2 slide, covering the cognitive-hire free",
+ "topic_source": "exec-news"
+}

@@ -1,19 +1,5 @@
 [
  {
-  "t": "2026-09-03T17:59:57Z",
-  "gate": "B",
-  "subject": "ELON MUSK POSTED <em>ZERO WORDS</em> AT 4:41 AM AND STILL PULLED <em>3.3 MILLION VIEWS</em> BEFORE YOUR ALARM",
-  "verdict": "REJECT",
-  "reason": "HOOK PAYOFF IS A BANNED ENGAGEMENT METRIC: the hook's punchline IS '3.3 MILLION VIEWS' — a view count. The doctrine names this exact pattern as the failure model ('THE SCREENSHOT HAS 40K LIKES'). Rewrite so the payoff is the zero-words-by-the-platform-owner behavior, not the view tally.; COVER IMAGE FAILS PROOF AND THUMB TESTS: the image shows a giant Tesla Optimus robot striding over a city in a "
- },
- {
-  "t": "2026-09-03T18:39:21Z",
-  "gate": "B",
-  "subject": "A GUY SPENT <em>$20 ON CLAUDE</em> AND MADE <em>$317,000</em> IN NINE DAYS. THESE ARE HIS 6 APPS.",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — NUMBER TYPO, HARD KILL: The image renders '$317,0000' — four zeros after the comma, making it look like $3,170,000 or a visible production error. The correct figure is $317,000. This is the single most prominent element on the cover and it is wrong. Cannot publish.; COVER IMAGE — GENERATED UNKNOWN FACE: IMAGE LAW bans generated unknown faces outright. This is a Claude guide, which tr"
- },
- {
   "gate": "A",
   "reason": "A government minister posted and deleted AI propaganda—a real person-action with real consequences on the AI lens, substantive per the calibration standard.",
   "subject": "Israeli National Security Minister Itmar Ben-Gvir posted and then deleted an AI video of Palestinians being fed into an ",
@@ -2098,5 +2084,19 @@
   "subject": "WOMEN JUST TOOK <em>98% OF ALL NEW U.S. JOBS</em> IN ONE MONTH, MEN GOT THE SCRAPS",
   "verdict": "FAIL",
   "reason": "s5: Receipt Law fail: the slide claims Fortune confirmed the split and 3.3M saw it on X, but the image is a generic pile of dollar bills that proves neither claim — a Fortune article card or a framed X post would be required."
+ },
+ {
+  "t": "2026-09-07T18:40:55Z",
+  "gate": "B",
+  "subject": "YOUR ANALYST COSTS <em>333X MORE THAN AI</em>. 4 MOVES TO CLOSE THAT GAP THIS YEAR",
+  "verdict": "REJECT",
+  "reason": "COVER CONTRACT BROKEN — Move 1 ('Freeze cognitive hires') has no dedicated slide. The hook promises 4 moves; the slides deliver only 3 (Moves 2, 3, 4). Move 1 appears exclusively in the save-close CTA. An edu post titled '4 MOVES' must show all 4 moves in the carousel body. Fix: insert a Move 1 slide between the context slide (slide 2) and the current Move 2 slide, covering the cognitive-hire free"
+ },
+ {
+  "t": "2026-09-07T18:43:09Z",
+  "gate": "R",
+  "subject": "YOUR ANALYST COSTS <em>333X MORE THAN AI</em>. 4 MOVES TO CLOSE THAT GAP THIS YEAR",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
