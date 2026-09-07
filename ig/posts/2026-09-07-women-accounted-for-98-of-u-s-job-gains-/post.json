@@ -1,0 +1,127 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "WOMEN JUST TOOK <em>98% OF ALL NEW U.S. JOBS</em> IN ONE MONTH, MEN GOT THE SCRAPS",
+   "kicker": "MEN CAPTURED ROUGHLY 2%",
+   "hsize": 64,
+   "media": "posts/2026-09-07-women-accounted-for-98-of-u-s-job-gains-/gen-0.jpg",
+   "image_prompt": "SUBJECT: Woman at office desk BACKDROP PROPS: Large dollar symbol, small warning triangle, plain desk, neutral background PALETTE: Deep amber orange and charcoal gray"
+  },
+  {
+   "type": "content",
+   "headline": "THE ASSUMPTION WAS: <em>GROWTH MEANS JOBS FOR EVERYONE</em>. AUGUST BROKE IT.",
+   "hsize": 80,
+   "body": "A growing economy was supposed to lift everyone.\n\nMore jobs meant more opportunity, roughly shared. That was the assumption.\n\nThen August's numbers came in",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>MEN COMPETED FOR SCRAPS</em> AS WOMEN FILLED EVERY NEW ROLE",
+   "hsize": 88,
+   "body": "In <b>August 2026</b>, if you were a man looking for work, the economy had almost nothing for you.\n\nWomen filled virtually every new position created.\n\nThe real number is harder to believe",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "98% WENT TO WOMEN",
+   "hsize": 110,
+   "body": "The economy added jobs. Almost none went to men",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "FORTUNE CONFIRMED THE SPLIT. <em>3.3M SAW IT</em> ON X.",
+   "hsize": 90,
+   "body": "FORTUNE magazine confirmed the August split\nMen: roughly <b>2%</b> of new positions\n<b>3.3M</b> views when it hit X\nMale unemployment now gets the spotlight",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>WHO THE ECONOMY BUILDS FOR</em> JUST CHANGED",
+   "hsize": 95,
+   "body": "The data just changed who the economy is building for.\n\nMale unemployment is about to face hard questions.\n\nIf your business is hiring, your applicant pool looks different than it did a year ago",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>WOMEN TOOK 98% OF U.S. JOBS IN AUGUST</em>",
+   "hsize": 58,
+   "body": "Women took <b>98%</b> of all U.S. job gains\nMen: roughly <b>2%</b>\nThe equal-growth assumption broke\nMale unemployment now under scrutiny\n\nSend this to the friend who thinks the job market is fair",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see who the U.S. economy actually worked for in August \ud83d\udcca\n\nWomen took 98% of all U.S. job gains in August 2026, the belief that job growth splits roughly between men and women, men competing for virtually nothing, the 98% twist, the hard numbers backed by FORTUNE magazine, what it means for male unemployment, and what your business should know about hiring right now\n\nOne month of data doesn't define a trend, but a number this lopsided doesn't appear quietly. Male unemployment is heading into a spotlight it hasn't faced before.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: FORTUNE magazine, unusual_whales on X\n\n#jobmarket #unemployment #economy #hiring #labormarket",
+ "pinned_comment": "The wild part: this isn't a story about women gaining ground. It's a story about men capturing almost none of August's growth. Those are two very different conversations.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "<em>98% OF ALL U.S. JOB GAINS IN AUGUST</em> WENT TO WOMEN, MEN WERE LEFT WITH 2%",
+   "WOMEN TOOK <em>98% OF ALL NEW U.S. JOBS IN AUGUST</em>. MEN GOT THE OTHER 2%.",
+   "THE U.S. ECONOMY ADDED JOBS IN AUGUST AND <em>MEN GOT ALMOST NONE OF THEM</em>, WOMEN TOOK 98%",
+   "WOMEN JUST TOOK <em>98% OF ALL NEW U.S. JOBS</em> IN ONE MONTH, MEN GOT THE SCRAPS",
+   "WOMEN CLAIMED <em>98% OF EVERY NEW JOB</em> ADDED IN THE U.S. LAST MONTH, AND MEN GOT THE OTHER 2%",
+   "WOMEN TOOK <em>98% OF ALL NEW U.S. JOBS</em> IN AUGUST AND LEFT MEN COMPETING FOR 2%",
+   "THE U.S. JOB MARKET JUST HANDED <em>98 OUT OF EVERY 100 NEW JOBS</em> TO WOMEN IN A SINGLE MONTH",
+   "IN AUGUST 2026, <em>WOMEN CAPTURED 98% OF EVERY NEW JOB</em> THE U.S. ECONOMY CREATED",
+   "THE U.S. ADDED NEW JOBS ALL OF AUGUST AND <em>98% WENT TO WOMEN</em>, WITH MEN TAKING JUST 2%",
+   "MEN TOOK JUST <em>2% OF ALL NEW U.S. JOBS IN AUGUST</em> WHILE WOMEN CLAIMED THE OTHER 98%"
+  ],
+  "scores": [
+   8,
+   8.5,
+   7,
+   9,
+   7,
+   8,
+   8,
+   7.5,
+   7,
+   7.5
+  ],
+  "winner": 3,
+  "why": "[3] hits with 'SCRAPS'\u2014one word that makes you feel how lopsided it is instead of just processing numbers. [1] delivers the facts cleanly but misses the emotional punch that makes you actually open the post."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "WOMEN JUST TOOK <em>98% OF ALL NEW U.S. JOBS IN AUGUST</em>. MEN GOT <em>2%</em>.",
+   "WOMEN JUST TOOK <em>98% OF ALL NEW U.S. JOBS</em> IN ONE MONTH, MEN GOT THE SCRAPS",
+   "MEN JUST GOT <em>2% OF ALL NEW U.S. JOBS IN AUGUST</em>. WOMEN TOOK THE OTHER 98%.",
+   "OF EVERY 100 NEW U.S. JOBS ADDED IN AUGUST, <em>98 WENT TO WOMEN</em>. MEN GOT <em>THE OTHER 2</em>."
+  ],
+  "scores": [
+   8,
+   9,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "'One month' and 'scraps' make you feel it; [0]'s numbers are equally shocking but less emotionally immediate."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "U.S. women workers",
+  "actor_known": false,
+  "anchor": "the job market",
+  "specifics": [
+   "Women took 98% of all U.S. job gains in August 2026",
+   "Men accounted for roughly 2% of new jobs added",
+   "Reported by FORTUNE, amplified to 3.3 million views on X",
+   "Data covers August 2026, reported September 5, 2026"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (4/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Women accounted for 98% of U.S. job gains in August, per FORTUNE",
+  "link": "https://x.com/unusual_whales/status/2096282460535558154",
+  "judge_interest": 3,
+  "scout_score": 56.8
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IMAGE \u2014 HARD REJECT: Every element in the frame (the towering folder stack, the tiny dark stack, the floating envelopes, the industrial room, the circular inset) reads as a 3D CGI render, not as photographed. Image Law is explicit: any element that reads as illustration, cartoon, or game render is a REJECT. The concept (giant stack vs. tiny stack, labeled WOMEN / MEN) is the correct 'data ma",
+ "gate_r": "s5: Receipt Law fail: the slide claims Fortune confirmed the split and 3.3M saw it on X, but the image is a generic pile of dollar bills that proves neither claim \u2014 a Fortune article card or a framed X post would be required."
+}

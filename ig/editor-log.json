@@ -1,103 +1,5 @@
 [
  {
-  "t": "2026-09-03T17:05:36Z",
-  "gate": "A",
-  "subject": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. ",
-  "verdict": "KILL",
-  "reason": "One person's cost comparison without market trend data or broader consequence is a thin personal anecdote, not a jaw-dropping event."
- },
- {
-  "t": "2026-09-03T17:05:51Z",
-  "gate": "A",
-  "subject": "🇷🇺 He shoved the store robot, then the robot came for him. It wasn't a cute glitch or a stumble, the staff LITERALLY had",
-  "verdict": "KILL",
-  "reason": "Reaction-bait framed as cultural-vibe-shift commentary ('used to be funny, now it's not') rather than a verifiable incident; unnamed robot, unnamed actor, and insufficient substance to build slides without speculative padding."
- },
- {
-  "t": "2026-09-03T17:06:00Z",
-  "gate": "A",
-  "subject": "Fable 5.1 is cracked. This was my first test with Fable 5.1. I asked it to create an F-35A Lightning II, and I honestly ",
-  "verdict": "KILL",
-  "reason": "At 6/10 scout interest, this lacks the news event or business consequence the DOCTRINE requires; it's an enthusiast demo of what Fable can do, not a story about something that happened in the world with impact someone felt."
- },
- {
-  "t": "2026-09-03T17:06:40Z",
-  "gate": "A",
-  "subject": "Gold and silver are now legal tender in Texas, per USA Today",
-  "verdict": "KILL",
-  "reason": "Routine legislative news with no felt consequence or tech angle—fails §1 story qualification and the thin 60-character source would require padding."
- },
- {
-  "t": "2026-09-03T17:06:43Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens: technology is backdrop to labor/demographic commentary, not the story's star; no named person, specific event, or money moved at felt scale."
- },
- {
-  "t": "2026-09-03T17:07:33Z",
-  "gate": "A",
-  "subject": "NASA’s Curiosity rover has reached an incredible milestone, spending more than 5,000 Martian days exploring Mars. It lan",
-  "verdict": "KILL",
-  "reason": "Technical milestone without dramatic arc or protagonist—impressive engineering, but not the jaw-dropping wild-but-true story readers send to friends."
- },
- {
-  "t": "2026-09-03T17:08:07Z",
-  "gate": "A",
-  "subject": "https://t.co/37uaPmYBvg",
-  "verdict": "KILL",
-  "reason": "No substance: the source is a single link with no information about what event occurred, who acted, or what consequence followed—cannot judge if a real story exists beneath it."
- },
- {
-  "t": "2026-09-03T17:08:45Z",
-  "gate": "A",
-  "subject": "$1,000 invested 15 years ago today would be worth: • Bitcoin: $8,970,000 • Nvidia: $735,000 • Tesla: $231,000 • Apple: $",
-  "verdict": "KILL",
-  "reason": "This is evergreen investment comparison data with no event, actor, or real-world consequence—fails §1 at the root (not a viral-specific event)."
- },
- {
-  "t": "2026-09-03T17:09:40Z",
-  "gate": "A",
-  "subject": "🇷🇺 He shoved the store robot, then the robot came for him. It wasn't a cute glitch or a stumble, the staff LITERALLY had",
-  "verdict": "KILL",
-  "reason": "Unidentified robot in unnamed store with no verifiable details, named actors, or clear consequence; fails the 'real names, real numbers, real proof' standard required to build a carousel."
- },
- {
-  "t": "2026-09-03T17:10:02Z",
-  "gate": "A",
-  "subject": "Fable 5.1 is cracked. This was my first test with Fable 5.1. I asked it to create an F-35A Lightning II, and I honestly ",
-  "verdict": "KILL",
-  "reason": "No real-world event or consequence; this is product testimony without a story of something happening that mattered."
- },
- {
-  "t": "2026-09-03T17:10:42Z",
-  "gate": "A",
-  "subject": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. ",
-  "verdict": "KILL",
-  "reason": "One person's price comparison lacks the second fact or real-world consequence to build a full carousel without padding—this is anecdotal consumer feedback (robotaxis are cheaper), not a story where something happened with felt impact."
- },
- {
-  "t": "2026-09-03T17:11:31Z",
-  "gate": "A",
-  "subject": "NASA’s Curiosity rover has reached an incredible milestone, spending more than 5,000 Martian days exploring Mars. It lan",
-  "verdict": "KILL",
-  "reason": "Routine milestone-marking without a dramatic event, actor, or consequence — a rover hitting an arbitrary orbital number is on-topic but fails the STANDARD's 'would the owner post this himself' test and Story Law's requirement for a jaw-dropping, consequence-felt specific event."
- },
- {
-  "t": "2026-09-03T17:11:56Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "No substance: one thin tweet with no second fact, numbers, specific people, or consequences to build slides from—vague demographic generalization about disputed historical labor trends."
- },
- {
-  "t": "2026-09-03T17:12:08Z",
-  "gate": "A",
-  "subject": "Gold and silver are now legal tender in Texas, per USA Today",
-  "verdict": "KILL",
-  "reason": "Scout interest of 3 is right — a policy change without felt consequence or real numbers isn't a story readers would share."
- },
- {
   "t": "2026-09-03T17:59:57Z",
   "gate": "B",
   "subject": "ELON MUSK POSTED <em>ZERO WORDS</em> AT 4:41 AM AND STILL PULLED <em>3.3 MILLION VIEWS</em> BEFORE YOUR ALARM",
@@ -2098,5 +2000,103 @@
   "subject": "JENSEN HUANG JUST MADE THE FIRST DECLARATION IN HISTORY: <em>AGI HAS ARRIVED</em>, AND HE OFFERED <em>NO PROOF.</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-07T10:48:42Z",
+  "gate": "A",
+  "subject": "Cybercab luggage test. Plenty of room for larger items.",
+  "verdict": "KILL",
+  "reason": "Trivial event—luggage-space observation is a car spec, not a news moment or consequence anyone felt."
+ },
+ {
+  "t": "2026-09-07T10:49:19Z",
+  "gate": "A",
+  "subject": "I’m back home. All of a sudden my car feels like the past with this steering wheel 😂",
+  "verdict": "KILL",
+  "reason": "The underlying event is trivial—a personal joke/vibe with no concrete happening, consequence, or substance; the tweet is a steering wheel observation, not a story, and offers nothing a writer could expand beyond padding."
+ },
+ {
+  "t": "2026-09-07T10:49:30Z",
+  "gate": "A",
+  "subject": "Using GPT-6 Astra Max to make my wedding website",
+  "verdict": "KILL",
+  "reason": "Routine personal use case from an unknown actor with no numbers, facts, or real consequence—a vibe, not the news event this page exists to cover."
+ },
+ {
+  "t": "2026-09-07T10:49:36Z",
+  "gate": "A",
+  "subject": "Women accounted for 98% of U.S. job gains in August, per FORTUNE",
+  "verdict": "KILL",
+  "reason": "Labor-market statistic with no event, actor, or consequence—off-lens for a tech/AI page and exactly the repetitive market-data filler the owner flagged as #1 content failure."
+ },
+ {
+  "t": "2026-09-07T10:50:33Z",
+  "gate": "A",
+  "subject": "Cybercab luggage test. Plenty of room for larger items.",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet with no second fact, numbers, or consequence to build slides from."
+ },
+ {
+  "t": "2026-09-07T10:51:27Z",
+  "gate": "A",
+  "subject": "I’m back home. All of a sudden my car feels like the past with this steering wheel 😂",
+  "verdict": "KILL",
+  "reason": "No reportable event per STORY LAW §1—this is a personal vibe comparing cars, not a story about something happening with a product, consequence, or detail a writer could build from."
+ },
+ {
+  "t": "2026-09-07T10:51:36Z",
+  "gate": "A",
+  "subject": "Women accounted for 98% of U.S. job gains in August, per FORTUNE",
+  "verdict": "KILL",
+  "reason": "No protagonist, event, or felt consequence—one labor statistic is data reporting, not a story, and would require padding to build slides."
+ },
+ {
+  "t": "2026-09-07T10:51:53Z",
+  "gate": "A",
+  "subject": "Using GPT-6 Astra Max to make my wedding website",
+  "verdict": "KILL",
+  "reason": "No substance: 48-character source with nothing to build from—routine product use does not constitute a story."
+ },
+ {
+  "t": "2026-09-07T11:17:40Z",
+  "gate": "B",
+  "subject": "TESLA'S ROBOTAXI JUST PROVED IT CAN FIT <em>A FULL AIRPORT SUITCASE</em>, AND THE LAST REASON TO KEEP AN UBER DRIVER <em",
+  "verdict": "REJECT",
+  "reason": "Slide 5 ('THE DRIVER'S SEAT WAS EMPTY / Full bags. No help. It still passed the airport test.') adds zero new fact — its headline is a word-for-word restate of slide 3's 'AN EMPTY DRIVER'S SEAT' and its body is a three-word compression of slide 3's body. This violates NEW FACT PER SLIDE explicitly. Fix: replace slide 5 entirely with a concrete new fact — e.g., Cybercab trunk capacity vs. a Toyota "
+ },
+ {
+  "t": "2026-09-07T11:20:35Z",
+  "gate": "A",
+  "subject": "Women accounted for 98% of U.S. job gains in August, per FORTUNE",
+  "verdict": "KILL",
+  "reason": "Routine labor data reporting with no AI/tech angle — explicitly banned per §1's ON-TOPIC BUT ROUTINE rule."
+ },
+ {
+  "t": "2026-09-07T11:21:10Z",
+  "gate": "A",
+  "subject": "Using GPT-6 Astra Max to make my wedding website",
+  "verdict": "KILL",
+  "reason": "The event is trivial—someone using an AI tool for its routine intended purpose—with no real consequence, numbers, outcome, or substance beyond the 48-character claim; unknown actor as the story."
+ },
+ {
+  "t": "2026-09-07T11:21:41Z",
+  "gate": "A",
+  "subject": "I’m back home. All of a sudden my car feels like the past with this steering wheel 😂",
+  "verdict": "KILL",
+  "reason": "No real event or consequence—it's a personal vibe about a steering wheel generating engagement, not a story where something actually happened."
+ },
+ {
+  "t": "2026-09-07T11:59:14Z",
+  "gate": "B",
+  "subject": "WOMEN JUST TOOK <em>98% OF ALL NEW U.S. JOBS</em> IN ONE MONTH, MEN GOT THE SCRAPS",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — HARD REJECT: Every element in the frame (the towering folder stack, the tiny dark stack, the floating envelopes, the industrial room, the circular inset) reads as a 3D CGI render, not as photographed. Image Law is explicit: any element that reads as illustration, cartoon, or game render is a REJECT. The concept (giant stack vs. tiny stack, labeled WOMEN / MEN) is the correct 'data ma"
+ },
+ {
+  "t": "2026-09-07T12:02:48Z",
+  "gate": "R",
+  "subject": "WOMEN JUST TOOK <em>98% OF ALL NEW U.S. JOBS</em> IN ONE MONTH, MEN GOT THE SCRAPS",
+  "verdict": "FAIL",
+  "reason": "s5: Receipt Law fail: the slide claims Fortune confirmed the split and 3.3M saw it on X, but the image is a generic pile of dollar bills that proves neither claim — a Fortune article card or a framed X post would be required."
  }
 ]
