@@ -1,0 +1,59 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP",
+   "media": "posts/2026-09-07-ai-recap/media-0.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 78,
+   "headline": "<em>Cybercab</em> Just Gave a Blind Man His Independence Back",
+   "body": "<b>Gary Moss</b> lost his sight <b>5 years ago</b>. He rode a Cybercab in Austin, talked to <b>Grok</b> mid-ride, and said: 'Other people's driving scares me, but these cars don't.' He praised the legroom and called it a glimpse of getting his independence back",
+   "media": "posts/2026-09-07-ai-recap/media-0.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "<em>Cybercab</em> Sets the All-Time <em>Efficiency Record</em> for Any Production Car",
+   "body": "The car gets over <b>6.1 miles per kWh</b>, the best efficiency number any production vehicle has ever recorded. One rider put in a full <b>5 hours</b> across Austin and came back talking about the numbers. 'Still can't believe this thing is real,' he said",
+   "media": "posts/2026-09-07-ai-recap/media-1.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 92,
+   "headline": "<em>SpaceX</em> Just Crossed <em>600</em> Autonomous Rocket Landings",
+   "body": "Six hundred times, a <b>SpaceX</b> booster has launched and guided itself back to the exact pad it left from, no human hand on the controls. The count crossed <b>600</b> this week. You probably missed the 599th",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 96,
+   "headline": "Trump: '<em>Whoever Wins AI, Wins</em>'",
+   "body": "<b>Donald Trump</b> said it flat out: 'Whoever wins AI, wins.' He called it bigger than the internet and a full revolution. The <b>US</b> has framed this race as the thing that determines the future",
+   "media": "posts/2026-09-07-ai-recap/media-3.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "Judge Rules: Americans Have No Right to <em>Accurate Information</em> from Officials",
+   "body": "A <b>US federal judge</b> ruled this week that the <b>Constitution</b> does not guarantee a right to accurate information from public officials. The same ruling covers clean drinking water. Both were argued in court, neither holds up as a constitutional guarantee",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "SAVE TODAY'S <em>AI</em> BRIEFING",
+   "body": "Cybercab gave a blind man his independence back in Austin\nCybercab posted the all-time production car efficiency record, 6.1 mi/kWh\nSpaceX crossed 600 autonomous landings\nTrump: 'Whoever wins AI, wins'\nUS court: no constitutional right to accurate information",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2b05\ufe0f to see what happened in AI in the last 24 hours, from a blind man getting his independence back in a Cybercab to SpaceX quietly crossing 600 autonomous rocket landings.\n\nA blind man rode Tesla's Cybercab in Austin and said it gave him his independence back, Cybercab set the all-time production car efficiency record at 6.1 miles per kWh, SpaceX crossed 600 autonomous rocket landings, Trump said 'whoever wins AI wins' and called it bigger than the internet, a US court ruled there is no constitutional right to accurate information from public officials.\n\nAutonomous vehicles are no longer promises, people are logging hours in them now. The AI race just got a clear geopolitical frame. And a court drew a line around information rights at the exact moment AI is reshaping what information means. Running a business? DM us \"AI\" and we'll show you what this week's tech could do for yours.\n\nSources: David Moss, SpaceX, Donald Trump, Bloomberg\n\n#AI #Tesla #SpaceX #Technology #AINews",
+ "pinned_comment": "If autonomous vehicles can give back independence to someone who lost their sight 5 years ago, what are we actually waiting for to roll these out everywhere? Or should access be left to whoever can afford the ride?",
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "Slide 6 is off-brand for this page with no AI/tech connection drawn. The court ruling that the Constitution doesn't guarantee a right to accurate information OR clean drinking water is a straight legal/political story \u2014 neither subject touches AI, technology, a company/founder, money, or space tech. The slide body never makes an AI/tech angle explicit (no mention of AI misinformation, government A"
+}
