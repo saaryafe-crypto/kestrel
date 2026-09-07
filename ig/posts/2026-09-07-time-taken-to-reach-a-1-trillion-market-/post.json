@@ -1,0 +1,121 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "BITCOIN HIT $1 TRILLION IN <em>12 YEARS</em>. APPLE, THE STOCK YOUR PARENTS BOUGHT INSTEAD, NEEDED <em>42</em>.",
+   "hsize": 62,
+   "kicker": "IT HAS NO EMPLOYEES OR OFFICE",
+   "hook_candidates": [
+    {
+     "headline": "BITCOIN REACHED $1 TRILLION IN 12 YEARS. MICROSOFT TOOK 44, AND <em>IT NOW RUNS MOST OF THE WORLD'S AI</em>."
+    },
+    {
+     "headline": "BITCOIN BEAT APPLE TO $1 TRILLION BY <em>30 YEARS</em>, WITH NO CEO, NO OFFICE, AND NO PRODUCT TO SELL"
+    },
+    {
+     "headline": "THE COIN EVERYONE CALLED A SCAM <em>OUTLAPPED EVERY TECH GIANT ON EARTH</em>, REACHING $1 TRILLION IN 12 YEARS"
+    },
+    {
+     "headline": "MICROSOFT TOOK <em>44 YEARS</em> TO HIT $1 TRILLION. BITCOIN DID IT IN 12 AND HAS ZERO EMPLOYEES."
+    },
+    {
+     "headline": "BITCOIN HIT $1 TRILLION FASTER THAN AMAZON, APPLE, GOOGLE, AND MICROSOFT, <em>WITHOUT A SINGLE EMPLOYEE OR OFFICE</em>"
+    }
+   ],
+   "media": "posts/2026-09-07-time-taken-to-reach-a-1-trillion-market-/gen-0-r-r.jpg",
+   "image_prompt": "SUBJECT: Gold Bitcoin coin towering beside small red Apple on dark surface. BACKDROP PROPS: Faint dollar sign and warning triangle. PALETTE: Deep orange and molten gold.",
+   "video": true
+  },
+  {
+   "type": "content",
+   "headline": "EVERYONE CALLED THE TECH GIANTS <em>THE SAFE, FAST PATH</em>",
+   "hsize": 88,
+   "body": "Apple. Microsoft. Amazon. The names your parents called the safe bet.\n\nThe assumption: boring, reliable tech was the fast lane to real money.\n\nBitcoin had none of that.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "BITCOIN LAPPED EVERY COMPANY ON THIS LIST <em>BY DECADES</em>",
+   "hsize": 80,
+   "body": "Bitcoin: $1T in <b>12 years</b>\nApple: <b>42 years</b> to reach it\nMeta: <b>17 years</b>\nBitcoin beat Apple by <b>30 years</b>",
+   "media": "posts/2026-09-07-time-taken-to-reach-a-1-trillion-market-/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "MICROSOFT TOOK 44 YEARS",
+   "hsize": 110,
+   "body": "The slowest to a trillion now runs most of your AI",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE BUSINESSES RUNNING AI TODAY <em>STOPPED WAITING</em> FOR IT TO FEEL SAFE",
+   "hsize": 80,
+   "body": "Most businesses are still waiting for AI to feel safe.\n\nBitcoin had no CEO, no office, no product. It beat Apple by a generation.\n\nDM us 'AI' and we'll show you.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: BITCOIN HIT $1 TRILLION IN 12 YEARS, <em>MICROSOFT NEEDED 44</em>",
+   "hsize": 58,
+   "body": "Bitcoin: $1T in <b>12 years</b>, fastest ever\nApple: <b>42 years</b>, Microsoft <b>44</b>\nBitcoin beat Apple by <b>30 years</b>\nNo CEO, no office, no product\n\nSend this to whoever calls Bitcoin a scam",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see why Bitcoin hit $1 trillion faster than every tech company alive, while Apple took 42 years and Microsoft took 44. \ud83d\udcca\n\nThe belief that boring tech giants were the safe, fast path, Bitcoin's 12-year record versus Apple's 42 and Microsoft's 44, the full ranked chart of all eight, the Microsoft twist that reframes the entire story, what it means for businesses moving on AI right now, and a save-ready recap of every number.\n\nEvery chart like this lands the same truth: the assets that looked risky moved fastest, and the 'safe' plays hid their cost in decades, not percentages. Bitcoin had no employees. It still won by a generation. Running a business? DM us 'AI' and we'll show you what moving early on AI looks like today.\n\nSources: Watcher.Guru on X, Sep 6, 2026\n\n#bitcoin #investing #technology #wealthbuilding #ai",
+ "pinned_comment": "The part that actually breaks your brain: Microsoft didn't just take the longest to hit a trillion. It now runs most of the world's AI infrastructure and cloud. The slowest company on this list is leading the next race.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "BITCOIN JUST HIT $1 TRILLION IN <em>12 YEARS</em>, 30 YEARS FASTER THAN APPLE, THE COIN YOUR PARENTS CALLED A SCAM.",
+   "BITCOIN JUST HIT $1 TRILLION IN <em>12 YEARS</em> WITH NO EMPLOYEES OR OFFICES, OUTRUNNING EVERY MAJOR TECH COMPANY ON EARTH.",
+   "BITCOIN JUST HIT $1 TRILLION FASTER THAN EVERY COMPANY EVER. MICROSOFT NEEDED <em>44 YEARS</em> TO DO THE SAME."
+  ],
+  "scores": [
+   7.5,
+   8.5,
+   9
+  ],
+  "winner": 2,
+  "why": "\"Every company ever\" hits harder than \"no employees\" because historical scope shocks instantly while structure requires explanation. Microsoft's 44-year proof provides one memorable number that stops scrolls faster than abstract details."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "BITCOIN HIT $1 TRILLION IN <em>12 YEARS</em>. MICROSOFT, WHICH NOW RUNS MOST OF THE WORLD'S AI, NEEDED <em>44</em>.",
+   "BITCOIN JUST HIT $1 TRILLION FASTER THAN ANY COMPANY IN HISTORY, DOING IT IN <em>12 YEARS</em> WHILE MICROSOFT NEEDED <em>44</em>.",
+   "BITCOIN HIT $1 TRILLION IN <em>12 YEARS</em>. APPLE, THE STOCK YOUR PARENTS BOUGHT INSTEAD, NEEDED <em>42</em>."
+  ],
+  "scores": [
+   6,
+   8,
+   9
+  ],
+  "winner": 2,
+  "why": "'Your parents bought instead' triggers personal FOMO that stops scrolls. Abstract history records don't hit as hard as personal regret at 2am."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Bitcoin",
+  "actor_known": true,
+  "anchor": "Bitcoin",
+  "specifics": [
+   "Bitcoin hit $1 trillion in 12 years \u2014 faster than every company ever",
+   "Microsoft took 44 years \u2014 the slowest on the list \u2014 and it now runs most of the world's AI",
+   "Apple took 42 years; Bitcoin beat it by 30 years",
+   "A coin with no employees or offices outran Amazon, Google, Tesla, and Meta"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Time taken to reach a $1 trillion market cap: Bitcoin: 12 years Meta: 17 years Tesla: 18 years Google: 21 years Amazon: 24 years Nvidia: 30 years Apple: 42 years Microsoft: 44 years",
+  "link": "https://x.com/WatcherGuru/status/2096728652704559124",
+  "judge_interest": 7,
+  "scout_score": 115.9
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IMAGE GHOST NUMBER: The cover's label chip reads '$200,000' \u2014 a figure that appears nowhere in the slides. The story is about $1 trillion market caps and years elapsed; a reader sees '$200,000' and has no anchor for it. Fix: replace the chip with '$1 TRILLION' or '12 YEARS' \u2014 the actual numbers the headline promises.; COVER IMAGE PHOTOREAL FAILURE: The Bitcoin coin is a CGI/3D render, not a ",
+ "gate_r": "s1: LOGO ONCE violation: the Bitcoin 'B' appears as three distinct graphic elements simultaneously \u2014 a corner chip badge (top-left), a large floating glowing B (top-center), and the coin face \u2014 which is logo-as-wallpaper territory beyond the single natural product-mark exemption."
+}
