@@ -1,5 +1,78 @@
 {
- "updated": "2026-09-07T12:30:59+00:00",
- "competitor_hits": [],
+ "updated": "2026-09-08T12:08:19+00:00",
+ "competitor_hits": [
+  {
+   "page": "wired",
+   "likes": 2427,
+   "ratio": 1.57,
+   "tier": "mega",
+   "hook": "\"Though AI has seeped into every step of the job hunt for both applicants and recruiters, it has taken time to catch on in interviews. Voice AI is infamously tricky to pull off, as agents get tripped up by accents or \u201cum",
+   "date": "2026-09-07"
+  },
+  {
+   "page": "wired",
+   "likes": 1516,
+   "ratio": 0.98,
+   "tier": "mega",
+   "hook": "\"This week, WIRED senior writer Kate Knibbs reported on how an alliance of tech startups, MAHA operatives, and actual medical experts made millennial women the new face of hormone therapy.\n\nThe article generated a lot of",
+   "date": "2026-09-06"
+  },
+  {
+   "page": "futurism",
+   "likes": 1598,
+   "ratio": 0.94,
+   "tier": "mega",
+   "hook": "\"A group of software engineers who say they were fired by their bosses because of AI are giving their former employers a taste of their own medicine.\n\nWith the powers of spite and friendship, they\u2019ve built \u201cOpenExecutive",
+   "date": "2026-09-06"
+  },
+  {
+   "page": "technology",
+   "likes": 26000,
+   "ratio": 0.7,
+   "tier": "mega",
+   "hook": "\"Someone has reportedly pushed NVIDIA\u2019s new DLSS 5 neural rendering technology into 2011\u2019s Battlefield 3, making the 15-year-old game look surprisingly cinematic \ud83c\udfae\ud83e\udd2f\n\nBattlefield 3 has no official DLSS 5 support, so this ",
+   "date": "2026-09-07"
+  },
+  {
+   "page": "technology",
+   "likes": 17000,
+   "ratio": 0.46,
+   "tier": "mega",
+   "hook": "\"A young student spent months cleaning polluted stretches of the Ajnar River, turning a personal mission into work that eventually caught global attention \ud83c\udf0a\ud83c\udf0d\n\nSurendra Singh Choudhary, known as Bittu, began the cleanup o",
+   "date": "2026-09-06"
+  },
+  {
+   "page": "mashable",
+   "likes": 54,
+   "ratio": 0.37,
+   "tier": "mega",
+   "hook": "\"How Apple lost its cool (And How It Can Get It Back) \ud83e\udd14\u2060\n#apple #iphone #iphone18\u2060\".",
+   "date": "2026-09-08"
+  },
+  {
+   "page": "techcrunch",
+   "likes": 38,
+   "ratio": 0.33,
+   "tier": "mega",
+   "hook": "\"How do you convince investors to take a brand-new startup seriously?\n\nDr. Eike Gerhardt calls the challenge the \u201cliability of newness\u201d: the earlier your company is, the fewer signals you have to establish credibility.\n\n",
+   "date": "2026-09-06"
+  },
+  {
+   "page": "wired",
+   "likes": 358,
+   "ratio": 0.23,
+   "tier": "mega",
+   "hook": "\"In 2025, AI deepfakes flooded Tinder. According to the company, 98 percent of the content-moderation actions on the app were focused on combating fake accounts, scamming, and spam, pushing the company to expand its mode",
+   "date": "2026-09-06"
+  },
+  {
+   "page": "technology",
+   "likes": 5640,
+   "ratio": 0.15,
+   "tier": "mega",
+   "hook": "\"The 22 year old Kick creator now has an always-on AI clone, built on GPT-6 Astra and Higgsfield, that can churn out content 24/7 even when the real N3on logs off. The Kick stream is titled \u201cFirst Ever Infinite AI Stream",
+   "date": "2026-09-07"
+  }
+ ],
  "reddit_hot": []
 }
