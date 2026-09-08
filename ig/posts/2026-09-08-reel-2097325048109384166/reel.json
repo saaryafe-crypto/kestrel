@@ -1,0 +1,17 @@
+{
+ "pick": 12,
+ "title": "See what any single DNA change does to your body",
+ "title_candidates": [
+  "What Google's AI found when it checked all 9 billion possible DNA mutations",
+  "Google's AI can now predict what any single DNA change does to your body",
+  "The AI database that tells you what every possible DNA mutation means",
+  "How Google DeepMind mapped the impact of 9 billion DNA changes in one tool",
+  "The moment Google's AI looked at every possible DNA mutation at once"
+ ],
+ "caption": "Google DeepMind just built an AI that maps all 9 billion ways a single DNA letter can change, and what each one does.\n\nAny researcher can now search a specific mutation and instantly see how it affects gene activity, protein binding, and cell behavior. Testing even one of those mutations in a lab used to take weeks. The Atlas covers every position in the human genome, all at once, for free.\n\nIt runs on the same biology engine that powers AlphaFold, the AI that already cracked the protein-folding problem science spent 50 years on.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: GoogleDeepMind. DM for credit or removal\n\n#AI #GoogleDeepMind #genetics #biotech #tech",
+ "start_s": 4,
+ "clip_s": 26,
+ "source": "https://video.twimg.com/amplify_video/2097322936709664768/vid/avc1/1080x1080/_UzVA-skyU02RUX5.mp4?tag=29",
+ "channel": "GoogleDeepMind",
+ "publish": "bundle"
+}
