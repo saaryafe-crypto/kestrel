@@ -71,8 +71,12 @@ _COLLAGE_LABELS = (
     "corner over the backdrop, showing exactly the briefed detail, tied to "
     "the scene by a thin white arrow. ")
 _COLLAGE_TAIL = (
-    "GRADE: very high saturation, high contrast, crisp and sharpened, bright "
-    "key light on the subject. COLOR LAW (owner Sep 7, GPT-6 cover shipped as "
+    "GRADE: very high saturation, high contrast, crisp and sharpened; either "
+    "a bright key light on the subject, or — when the brief stages a dark "
+    "scene — cinematic chiaroscuro: deep blacks, harsh 35mm flash, the two "
+    "briefed colors as glowing saturated accents cutting through the dark "
+    "(owner Sep 8: deep-black covers with punchy accents pattern-interrupt "
+    "the dark-mode feed). COLOR LAW (owner Sep 7, GPT-6 cover shipped as "
     "one flat orange wash — 'boring and cant understand'): the briefed "
     "palette colors the BACKDROP and accent props ONLY; the subject keeps "
     "true-to-life colors — real skin tones, real clothing colors, real "
@@ -124,7 +128,13 @@ COLLAGE_FACELESS = (
     "frame, not even silhouettes or hands. "
     "BACKDROP directly behind the subject, large and unmistakable: ONLY the "
     "briefed props, oversized so each one reads at phone-thumbnail size, "
-    "partially overlapped by the subject for cutout depth. " + _COLLAGE_SHARED)
+    "partially overlapped by the subject for cutout depth. "
+    "SCENE MODE (owner Sep 8): when the brief stages a real PLACE at a "
+    "moment (an emptied vault, a dark server room, a sealed-off street) "
+    "instead of a hero object, drop the cutout look entirely — render one "
+    "continuous documentary scene, camera INSIDE the place like a leaked "
+    "press photo, no cutout edges, no floating props; the briefed props "
+    "exist as physical objects standing in the scene. " + _COLLAGE_SHARED)
 # RECAP MONTAGE (owner Sep 5, Bernie-recap post-mortem: the roundup cover
 # shipped as two raw tweet images glued side by side by CSS — one a text
 # screenshot — "it looks SO SO bad"). The reference roundup cover is a
