@@ -1,27 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "39-character source with no context or consequence; writer would have to invent the story.",
-  "subject": "25 Cybercabs in a lot in Tampa, Florida",
-  "t": "2026-09-01T02:32:14Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: labor-market commentary where technology is backdrop, not a story with AI, tech, founders, investing, or space as the subject.",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "t": "2026-09-01T02:32:34Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens per §1 lens rule: pharmaceutical industry ethics is not an AI/tech/company/founder/investing/or space-tech story—the page's defined subject matter—and the DOCTRINE explicitly kills healthcare stories that merely mention technology rather than center it.",
-  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
-  "t": "2026-09-04T02:41:44Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Outages are explicit news (§1 lists them), but this tweet lacks scale, cause, or consequence—just 'down for some users'—and the 3/10 scout score suggests either the outage is minor or unverified; without clarity on impact, the writer builds a story spine on speculation, exactly the padding that killed the Queen Elizabeth post.",
   "subject": "JUST IN: Grok, ChatGPT, Gemini and Claude are all currently down for some users.",
   "t": "2026-09-04T02:41:44Z",
@@ -2098,5 +2077,26 @@
   "subject": "Is this all true, @grok? 140–200 Israelis detained March–Sept. 2001 in what reports called potentially the largest spy r",
   "verdict": "KILL",
   "reason": "Off-brand: pure geopolitical espionage history with no AI or tech lens—this is an AI/tech news page."
+ },
+ {
+  "t": "2026-09-08T18:24:16Z",
+  "gate": "B",
+  "subject": "5 AI TOOLS <em>THAT KILLED THE $10,000 VIDEO SHOOT</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — ELEMENT FAILS PHOTOREAL LAW: The camera in the cover reads as a 3D-rendered CGI prop, not a photographed real object. The fake 'BBE' logo on the body, the unnatural gold-trim industrial design, and the overly-clean geometry are tells. Image law states 'every ELEMENT in the frame must read as photographed … is a REJECT, whatever its concept.' The money, laptop, and video-wall backgrou"
+ },
+ {
+  "t": "2026-09-08T18:26:30Z",
+  "gate": "B",
+  "subject": "5 AI TOOLS <em>THAT KILLED THE $10,000 VIDEO SHOOT</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 2 body and the save-close checklist both cite '29 languages' for HeyGen — HeyGen supports 100+ languages; this figure is wrong and a user who knows HeyGen will spot it. ElevenLabs' '29 languages' in slide 7 is plausible for their voice-cloning feature. Fix: replace HeyGen's language count with its accurate figure (or a conservative rounded-down safe claim), so the two tools carry distinct, c"
+ },
+ {
+  "t": "2026-09-08T18:27:19Z",
+  "gate": "R",
+  "subject": "5 AI TOOLS <em>THAT KILLED THE $10,000 VIDEO SHOOT</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
