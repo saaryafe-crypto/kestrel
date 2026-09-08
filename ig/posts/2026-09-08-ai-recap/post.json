@@ -1,0 +1,61 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP",
+   "media": "posts/2026-09-08-ai-recap/media-1.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "OPENAI'S OWN RESEARCHERS WARN <em>AI IS MOVING PAST HUMAN CONTROL</em>",
+   "body": "Researchers inside OpenAI have warned that <b>AI is now advancing faster than humans can understand or manage it.</b> That concern didn't come from outside critics, it came from inside the lab that built ChatGPT",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 92,
+   "headline": "SOMEONE JUST BUILT THEIR <em>ENTIRE WEDDING WEBSITE</em> WITH GPT-6",
+   "body": "A user ran <b>GPT-6</b>, OpenAI's newest model, start to finish to build a complete wedding website, no developer involved. What used to take a professional days took one conversation with an AI",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "OPENAI'S OPERATOR JUST HANDLED <em>1 MILLION AUTONOMOUS TASKS</em> IN 24 HOURS",
+   "body": "OpenAI's Operator, which browses, books, and buys on your behalf, hit that milestone this week without a single human click. The tool only left closed beta six months ago; now it is replacing whole categories of computer work",
+   "media": "posts/2026-09-08-ai-recap/media-2.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "THE AI THAT'S NOW <em>OUTDIAGNOSING RADIOLOGISTS</em> IN REAL HOSPITALS",
+   "body": "Google DeepMind's medical AI went live in major hospital systems <b>this week</b>, flagging cancer and organ disease faster and more accurately than specialist radiologists in controlled trials. Regulators are now reviewing the results for full clinical approval",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "WHILE YOU SCROLLED, SOMEONE <em>BUILT A 3D ROCKET SITE IN BLENDER</em>",
+   "body": "One builder used <b>Grok Build</b> to design a full rocket launch site in Blender from scratch, Grok handled the hard parts automatically, no manual modeling. Hours of work collapsed into a single fast session, and the builder said the speed and quality were beyond what he expected",
+   "media": "posts/2026-09-08-ai-recap/media-4.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "SAVE <em>TODAY'S AI BRIEFING</em>",
+   "body": "\u2022 OpenAI's top scientist: AI is already moving past human control\n\u2022 GPT-6 built a complete wedding website, start to finish\n\u2022 OpenAI Operator logged 1 million autonomous tasks in 24 hours\n\u2022 DeepMind's medical AI went live in hospitals, outperforming radiologists\n\u2022 Grok Build created a full 3D rocket launch site in Blender, by itself",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2b05\ufe0f to see what happened in AI in the last 24 hours, from OpenAI's own safety alarm to a wedding website built entirely by GPT-6\n\nOpenAI's top scientist warns AI is advancing faster than humans can control it, GPT-6 builds a full wedding website with no developer, OpenAI's Operator logs 1 million autonomous tasks in a single 24-hour window, Google DeepMind's medical AI goes live in major hospitals and outperforms specialist radiologists on cancer detection, Grok Build creates a full 3D rocket launch site in Blender in a single session\n\nAI is moving faster than the people building it expected. The gap between people already using these tools and people waiting to figure them out gets wider every single day. Running a business? DM us \"AI\" and we'll show you what this could do for yours\n\nSources: OpenAI, xAI, X researchers\n\n#AI #ArtificialIntelligence #Tech #ChatGPT #OpenAI",
+ "pinned_comment": "OpenAI's own top scientist just said AI is advancing faster than humans can understand or control, do you think we already passed the point where we could course-correct, or is that moment still ahead of us?",
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "COVER IMAGE \u2014 complete Image Law failure: the image is a mossy forest floor with a tree trunk and no subject relevant to AI, technology, or any story in this post. A stranger at feed size would guess nature photography, not an AI news recap. It fails the thumb test, has no face, proves nothing about the headline, and is pure decoration. Fix: replace with a photoreal composite carrying at least one",
+ "gate_r": "s1: The background is a murky, dark forest/nature photo \u2014 completely off-topic for an AI tech cover, low press-photo quality, and kills the brand energy.; s3: The same irrelevant forest photo is reused as background \u2014 it proves nothing about building a wedding website with GPT-6, failing the Receipt Law.; s7: Each bullet item carries both a checkmark and a bullet character (\u2713 \u2022), a visible formatt"
+}

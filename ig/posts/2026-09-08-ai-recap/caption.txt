@@ -1,0 +1,9 @@
+Swipe ⬅️ to see what happened in AI in the last 24 hours, from OpenAI's own safety alarm to a wedding website built entirely by GPT-6
+
+OpenAI's top scientist warns AI is advancing faster than humans can control it, GPT-6 builds a full wedding website with no developer, OpenAI's Operator logs 1 million autonomous tasks in a single 24-hour window, Google DeepMind's medical AI goes live in major hospitals and outperforms specialist radiologists on cancer detection, Grok Build creates a full 3D rocket launch site in Blender in a single session
+
+AI is moving faster than the people building it expected. The gap between people already using these tools and people waiting to figure them out gets wider every single day. Running a business? DM us "AI" and we'll show you what this could do for yours
+
+Sources: OpenAI, xAI, X researchers
+
+#AI #ArtificialIntelligence #Tech #ChatGPT #OpenAI
