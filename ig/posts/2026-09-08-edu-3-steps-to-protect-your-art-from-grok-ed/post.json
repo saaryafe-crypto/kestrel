@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GROK IS REMIXING YOUR X ART BY DEFAULT. <em>3 STEPS PROTECT YOUR OLD POSTS TOO</em>",
+   "kicker": "most artists missed it",
+   "hsize": 72,
+   "face": null,
+   "media": "posts/2026-09-08-edu-3-steps-to-protect-your-art-from-grok-ed/gen-0.jpg",
+   "image_prompt": "SUBJECT: Elon Musk, shocked, reacting to art transformations on screens, chest-up. BACKDROP: glowing screens\u2014original art left, Grok-warped right in cobalt-crimson; white X logo center. Red toggle switch upper-right. 35mm, natural grain, symbols only."
+  },
+  {
+   "type": "content",
+   "headline": "<em>GROK CAN REMIX ANY ART</em> POSTED TO X",
+   "hsize": 100,
+   "body": "Other users ask Grok to edit images you upload.\n\nYour digital art becomes their raw material. <b>The default setting</b> allows it with no warning to you.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "1) TAP YOUR IMAGE <em>BEFORE YOU HIT POST</em>",
+   "hsize": 100,
+   "body": "An artist found this at 3am.\n\nAfter adding your image in X's compose window, <b>tap the image itself.</b> A menu appears with a Grok option. Switch it off before posting.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE DEFAULT IS ON. EVERY POST. NO EXCEPTIONS.",
+   "hsize": 80,
+   "layout": "break",
+   "body": "If you have never done this tap, every image you ever posted to X is open to Grok. <b>There is no retroactive fix.</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>TURN OFF AI</em> IN YOUR ACCOUNT SETTINGS",
+   "hsize": 100,
+   "body": "Go to Settings, then Privacy and Safety on X.\n\nFind the <b>Grok data sharing toggle</b>. Turn it off.\n\nYou still need the per-post tap on top.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) OLD POSTS ARE <em>ALREADY EXPOSED</em>",
+   "hsize": 100,
+   "body": "The artist who found this had just posted their image before learning the setting.\n\n<b>That one was already gone.</b> This works only on posts you have not made yet.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "<em>SAVE THIS:</em> 3 STEPS TO PROTECT YOUR ART FROM GROK",
+   "hsize": 88,
+   "body": "Tap image in compose before posting\nTurn off Grok in account settings\nKnow old posts cannot be fixed\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to protect your art. Grok edits images posted to X by default and most artists don't know this 1 tap stops it \ud83d\udd12\n\nStep 1 the compose-window tap before you post every image, Step 2 the Grok data toggle under account Privacy and Safety, Step 3 knowing that old posts cannot be retroactively protected.\n\nArtists have been posting to X assuming their work was safe from AI edits. It is not. One buried setting in the compose window stops Grok, but only if you know it is there and do it every single time. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: angeloushart\n\n#AIart #Grok #DigitalArt #XApp #AIPrivacy",
+ "pinned_comment": "Which step surprised you most? Most people have heard of the account toggle but the per-post compose tap is the one everyone always misses.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "GROK EDITS ARTISTS' IMAGES BY DEFAULT. <em>3 STEPS FIX IT</em>",
+   "<em>GROK EDITS YOUR ART</em> BY DEFAULT. 3 STEPS STOP IT",
+   "MOST ARTISTS MISSED THE <em>3 STEPS BLOCKING GROK EDITS</em>",
+   "3 WAYS TO PROTECT YOUR ART FROM <em>GROK EDITS</em>",
+   "<em>3 X SETTINGS</em> BLOCK GROK FROM EDITING YOUR ART"
+  ],
+  "scores": [
+   8,
+   8.5,
+   6,
+   5.5,
+   6.5
+  ],
+  "winner": 1,
+  "why": "[1]'s 'YOUR ART' lands on everyone, while [0]'s 'ARTISTS' IMAGES' filters out non-artists mid-scroll. 'STOP IT' punches harder than 'FIX IT'\u2014it's more urgent and visceral."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "GROK REMIXES ANY ART YOU POST TO X BY DEFAULT. <em>MOST ARTISTS HAVEN'T DONE THESE 3 STEPS</em>",
+   "GROK IS REMIXING YOUR X ART BY DEFAULT. <em>3 STEPS PROTECT YOUR OLD POSTS TOO</em>",
+   "GROK CAN ALREADY REMIX YOUR OLD X POSTS. <em>3 STEPS OPT OUT BEFORE YOU POST AGAIN</em>",
+   "<em>GROK EDITS YOUR ART</em> BY DEFAULT. 3 STEPS STOP IT"
+  ],
+  "scores": [
+   6,
+   9,
+   8,
+   8
+  ],
+  "winner": 1,
+  "why": "'IS REMIXING' creates urgency of active harm happening right now, way more alarming than [2]'s 'CAN ALREADY.' 'YOUR X ART' plus 'OLD POSTS TOO' makes it feel like a comprehensive, immediate threat that demands action."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (5/10)",
+ "editor_override": "Hook-cover contract failure: '3 STEPS PROTECT YOUR OLD POSTS TOO' promises that old posts can be shielded, but slide 6 (step 3) explicitly states 'This works only on posts you have not made yet.' At 1.7 seconds a reader takes the hook as a promise of protection; the slides deliver the opposite \u2014 a post-mortem. Fix: revise the hook to accurately frame what step 3 actually is, e.g. 'GROK IS REMIXING"
+}

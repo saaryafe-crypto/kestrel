@@ -1,60 +1,56 @@
 {
- "ts": 1788805887.7858553,
- "updated": "2026-09-07",
+ "ts": 1788900882.2380767,
+ "updated": "2026-09-08",
  "hot": [
   {
-   "name": "Olivia Rodrigo",
-   "why_hot_now": "The Unraveled Tour (86 dates, opens Sept 25) is the most-anticipated fall tour, powered by lead single 'drop dead' debuting at #1 — the first artist to do that with three consecutive album openers.",
-   "typical_scene": "belting heartbreak anthems to a sold-out arena in pink confetti"
-  },
-  {
-   "name": "Glen Powell",
-   "why_hot_now": "Chad Powers Season 2 dropped Sept 3 on Hulu and immediately became the platform's #1 most-watched show with a perfect 100% on Rotten Tomatoes.",
-   "typical_scene": "launching a spiral in a sloppy disguise on a college football field"
-  },
-  {
    "name": "Jeremy Allen White",
-   "why_hot_now": "His Bruce Springsteen biopic 'Deliver Me from Nowhere' world-premieres at NYFF Sept 28 with Springsteen attending, plus he's all over social media after a high-profile Emmy snub.",
-   "typical_scene": "brooding backstage with an acoustic guitar as a young Springsteen"
+   "why_hot_now": "The Bear continues dominating awards conversation and his Calvin Klein campaigns keep breaking the internet.",
+   "typical_scene": "sweat-soaked chef coat, cramped kitchen, screaming 'yes chef'"
   },
   {
-   "name": "Ayo Edebiri",
-   "why_hot_now": "Emmy nomination for The Bear Season 4 with the ceremony imminent, cementing her as TV's defining breakout of the era.",
-   "typical_scene": "plating a dish in controlled chaos, chef whites, hands moving fast"
+   "name": "Addison Rae",
+   "why_hot_now": "Debut album plus a globally sold-out skincare line launch have her at full 2026 cultural saturation.",
+   "typical_scene": "glowing promo selfie surrounded by pastel skincare bottles"
   },
   {
-   "name": "Brad Pitt",
-   "why_hot_now": "Trailers for survival thriller Heart of the Beast (releasing Sept 25) are flooding every platform, his biggest action role in years.",
-   "typical_scene": "trudging through snow-covered Alaskan wilderness with a combat dog"
+   "name": "Benson Boone",
+   "why_hot_now": "His TikTok-to-stadium arc keeps accelerating with back-flip stage clips going viral every week.",
+   "typical_scene": "sparkly jumpsuit, mid-air back-flip over a screaming arena crowd"
   },
   {
-   "name": "Sandra Bullock",
-   "why_hot_now": "Practical Magic 2 opens US theaters Sept 11 — her first major film comeback in years alongside Nicole Kidman, and it's a full cultural witchy-autumn moment.",
-   "typical_scene": "casting spells in a candlelit gothic New England house at night"
+   "name": "Karol G",
+   "why_hot_now": "Dominates global streaming charts and is the most-discussed female artist on social media right now.",
+   "typical_scene": "neon-lit stage, platinum-blonde hair, massive crowd singing every word"
   },
   {
-   "name": "Matthew McConaughey",
-   "why_hot_now": "Streaming comedy Brothers, co-starring Woody Harrelson, just launched this month to massive viewership and endless 'alright alright alright' quote remixes.",
-   "typical_scene": "bickering with Woody Harrelson on a cramped living-room couch"
+   "name": "GTA 6",
+   "why_hot_now": "Hacker group 'Cyberleek' is drip-feeding stolen Rockstar gameplay footage and demanding a public apology, breaking every gaming feed.",
+   "typical_scene": "grainy watermarked leak clip stitched next to Rockstar's total silence"
   },
   {
-   "name": "Zara Larsson",
-   "why_hot_now": "A resurfaced 2017 'Symphony' dance clip went massively viral again this week, sending her album Midnight Sun back up the charts.",
-   "typical_scene": "spinning in a throwback club-dance clip flooding every For You page"
+   "name": "Seattle Seahawks",
+   "why_hot_now": "Defending Super Bowl champs host the first Wednesday NFL season opener since 2012 on September 9.",
+   "typical_scene": "Lumen Field championship banner drop, prime-time Wednesday crowd going wild"
   },
   {
-   "name": "NFL",
-   "why_hot_now": "The 2026 season kicks off Wednesday Sept 9 with defending Super Bowl champion Seattle Seahawks hosting New England in a rematch — the single biggest cultural event of the week.",
-   "typical_scene": "Seahawks banner raised, stadium packed, first kickoff confetti flying"
+   "name": "Luke Bryan",
+   "why_hot_now": "'Down Goes the Whiskey' went viral because brands and fans are roasting it harder than anyone is listening to it.",
+   "typical_scene": "Southwest Airlines clowning in his YouTube comment section"
+  },
+  {
+   "name": "Apple Folding iPhone Ultra",
+   "why_hot_now": "Launching September 9 — same night as the NFL opener — flooding every feed with unboxing and crease-test content.",
+   "typical_scene": "slow-motion fold reveal, hinge close-up, creator gasp reaction"
   }
  ],
  "memes": [
-  "\"Kinda chic to\" — butter-yellow font overlaid on a photo or video of your most unhinged habit or niche prized possession",
-  "\"My American Girl Doll\" audio — using a resurfaced kid's breathless enthusiasm to reveal your adult equivalent of a treasured childhood thing",
-  "\"I try to act normal, I remain calm\" — audio dropped over whatever painfully specific nightmare scenario you've been silently dreading all week",
-  "\"Canon event\" posts — presenting a cringe memory or formative trauma as a pivotal life chapter, written with documentary-level gravity",
-  "\"Down Goes the Whiskey\" parodies — hijacking Luke Bryan's rhyme structure for absurd 'blank goes the blank' punchlines about anything",
-  "NFL opener watch-party POVs — filming your living-room pregame setup as if you're delivering an actual locker-room hype speech"
+  "'Saxophone Gets Louder' — video zooms into a disaster moment while a sax blares from soft to full chaos",
+  "'KitKat Heist' — imagining the criminal mastermind behind 400,000 stolen KitKat bars found missing across Europe",
+  "GTA 6 Cyberleek reactions — grainy watermarked gameplay clip stitched next to Rockstar's total silence",
+  "'My American Girl Doll' reveal — childhood-nostalgia format that pivots to a grown-up prized possession",
+  "'It's a Clock' — delayed-realization format where the punchline is something you completely missed as a kid",
+  "'The Ancestor Photo Prank' — showing parents a fake celebrity ancestor photo and filming their proud reaction",
+  "Tornado Squirrel resurgence — the iconic storm-photo squirrel photoshopped calmly into every current crisis"
  ],
  "ai_flagships": [
   "Claude Fable 5.1",

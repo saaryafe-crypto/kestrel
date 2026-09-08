@@ -1,131 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Outages are explicit news (§1 lists them), but this tweet lacks scale, cause, or consequence—just 'down for some users'—and the 3/10 scout score suggests either the outage is minor or unverified; without clarity on impact, the writer builds a story spine on speculation, exactly the padding that killed the Queen Elizabeth post.",
-  "subject": "JUST IN: Grok, ChatGPT, Gemini and Claude are all currently down for some users.",
-  "t": "2026-09-04T02:41:44Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Not a specific event with consequence—just consumer feedback comparing prices on an existing product.",
-  "subject": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. ",
-  "t": "2026-09-04T02:42:08Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Tesla's Cybercabs becoming visible in downtown Austin represents a major move by a household-name actor where reality moved, confirmed as real news by independent watchlist consensus.",
-  "subject": "I am currently in downtown Austin. There are @Tesla Cybercabs EVERYWHERE. All of the Cybercabs in these clips have no st",
-  "t": "2026-09-04T02:42:35Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE CONTRADICTS THE HOOK'S CORE TIME-PEG: The cover image is a daytime shot — natural ambient light, green leaves catching sun, no artificial street-lighting color cast, bright open sky. The hook, kicker ('FILMED AT MIDNIGHT ON CITY STREETS'), and slide 3 body all anchor the story in midnight. A stranger at feed size sees daylight and reads 'midnight' — the proof image actively undermines the cl",
-  "subject": "A GUY STEPPED OUTSIDE IN AUSTIN AT MIDNIGHT <em>AND FOUND TESLA ROBOT CABS EVERYWHERE, NOT A SINGLE STEERING WHEEL IN AN",
-  "t": "2026-09-04T03:11:29Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Slide 3 headline — 'THE GUY WHO FILMED IT JUST POSTED THE VIDEO, AND IT HIT 2.7 MILLION VIEWS BY MORNING' — lands on an engagement metric as its payoff. The view count IS the punchline of that sentence, which §2 bans explicitly ('engagement metrics as the payoff'). Fix: restructure the headline to land on what the footage shows (e.g., a street full of driverless Cybercabs moving at scale, no drive",
-  "subject": "A GUY STEPPED OUTSIDE IN AUSTIN OVERNIGHT <em>AND FOUND TESLA ROBOT CABS EVERYWHERE, NOT A SINGLE STEERING WHEEL IN ANY ",
-  "t": "2026-09-04T03:14:02Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "No real event occurred in the world—this is philosophical commentary on Elon's character and work preferences, not reporting of something that happened with a consequence someone felt, which violates Story Law §1's core requirement.",
-  "subject": "Most people get rich so they can retire. Elon got rich and chose to work even harder. He could have chosen endless luxur",
-  "t": "2026-09-04T03:15:51Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Unresolved operational status update, not a news event: 'currently down for some users' has no quantified consequence, no timeline, no resolution, and no second fact the writer could expand into slides without padding—if this story completes (with downtime duration, impact, root cause, financial loss), it becomes news then.",
-  "subject": "JUST IN: Grok, ChatGPT, Gemini and Claude are all currently down for some users.",
-  "t": "2026-09-04T03:15:51Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Tesla (household-name tier) deployed unsupervised robotaxi service and it's operating with real usage; this is a reality-moved event with money at felt scale ($27.25 for 4 rides vs $33 for 1 Uber trip), not a trivial vibe or photo op; the doctrine protects such famous-actor events from thinness kills, and killing it feeds the guide-repetition spiral the owner flagged as the page's #1 failure.",
-  "subject": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. ",
-  "t": "2026-09-04T03:16:34Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens—subject is healthcare/pharma whistleblowing, not AI/tech/company/founder/investing/space.",
-  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
-  "t": "2026-09-04T03:16:46Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "Hook is two sentences, not one (§2 requires a single complete sentence): 'FOUR DRIVERLESS TESLA ROBOTAXI RIDES COST $27 TOTAL. ONE UBER COST $33 AND IT SMELLED.' Fix: merge into one — e.g., 'FOUR DRIVERLESS TESLA ROBOTAXI RIDES COST $27 TOTAL, WHILE ONE UBER COST $33 AND IT SMELLED.' (Note: dashes are also banned in hooks, so use 'while' or a comma — not an em-dash.); No pattern-break slide at ~sl",
-  "subject": "FOUR DRIVERLESS TESLA ROBOTAXI RIDES COST <em>$27 TOTAL</em>. ONE UBER COST <em>$33 AND IT SMELLED</em>.",
-  "t": "2026-09-04T03:48:05Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Code archaeology and speculation masquerading as news—no confirmed event, no consequence, no announcement from OpenAI, just a 'could be here any minute now' hype whisper that fails the 'would the owner post this himself' test and violates the launch-preview ban (empty spec sheet, tune-in hype with nothing demonstrated).",
-  "subject": "Already two new models in Codex: GPT-6-Astra and GPT-6-Astra-Aeon Could be here any minute now.",
-  "t": "2026-09-04T03:50:53Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No underlying event—this is a personality characterization and values observation about Elon, not a story where something actually happened and someone felt a real consequence; the 210-character source is the entire substance, requiring padding to fill slides.",
-  "subject": "Most people get rich so they can retire. Elon got rich and chose to work even harder. He could have chosen endless luxur",
-  "t": "2026-09-04T03:51:09Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens kill: pharmaceutical ethics/whistleblower narrative lacks required AI, tech, company/founder, investing, or space component; @technology's brand is technology news first, and this story belongs to healthcare/medical ethics, not the page's approved lenses.",
-  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
-  "t": "2026-09-04T03:51:12Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Unverified third-party aggregator claim with no official confirmation, timeline, scope, or impact story to build slides from—insufficient substance for news reporting.",
-  "subject": "JUST IN: Grok, ChatGPT, Gemini and Claude are all currently down for some users.",
-  "t": "2026-09-04T03:51:25Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "HOOK IS TWO SENTENCES, NOT ONE (§2): 'CHATGPT CRASHED AND SO DID GEMINI, GROK AND CLAUDE AT THE SAME MOMENT.' is the hook. '1.4 MILLION PEOPLE SAW IT HAPPEN WITHIN HOURS.' is a second sentence bolted on. The doctrine requires one complete sentence that tells the whole story. Fix: either fold the 1.4M figure into the single sentence or cut it entirely.; HOOK PAYOFF IS AN ENGAGEMENT-STYLE METRIC (§2",
-  "subject": "CHATGPT CRASHED AND SO DID GEMINI, GROK AND CLAUDE AT THE SAME MOMENT. <em>1.4 MILLION PEOPLE</em> SAW IT HAPPEN WITHIN ",
-  "t": "2026-09-04T04:22:55Z",
-  "verdict": "REJECT"
- },
- {
-  "t": "2026-09-04T06:02:52Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Slide 5 body repeats the headline's core fact: the headline says 'no wheel and no pedals' and the body opens with 'The car has no steering wheel and no pedals, zero manual controls inside' — same claim, different words. The body must open with a new fact (first day of public service, fare, number of units on road, planned cities, etc.).; Slide 6 body closes on significance inflation: 'Google calls"
- },
- {
-  "t": "2026-09-04T06:05:26Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-04T12:13:14Z",
-  "gate": "A",
-  "subject": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast.",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
   "t": "2026-09-04T12:13:14Z",
   "gate": "A",
   "subject": "Tesla Cybercab with no steering wheel or pedals driving around Austin.",
@@ -2096,6 +1970,132 @@
   "t": "2026-09-08T18:27:19Z",
   "gate": "R",
   "subject": "5 AI TOOLS <em>THAT KILLED THE $10,000 VIDEO SHOOT</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-08T19:16:42Z",
+  "gate": "A",
+  "subject": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We (the researchers and the ",
+  "verdict": "KILL",
+  "reason": "This is OpenAI's defensive legal statement responding to an unspecified allegation, not a news event where reality moved—no lawsuit filed, scandal revealed, breach announced, or breakthrough demonstrated to give it substance beyond clarification."
+ },
+ {
+  "t": "2026-09-08T19:17:10Z",
+  "gate": "A",
+  "subject": "\"Students who don't use AI chatbots for schoolwork are scoring better grades than those who do,\" per Bloomberg",
+  "verdict": "KILL",
+  "reason": "Research finding presented without specific numbers, named researchers, or verified Bloomberg attribution; the underlying event is routine publication, not a jaw-dropping specific occurrence with the real names, real numbers, and real consequences this page requires."
+ },
+ {
+  "t": "2026-09-08T19:17:59Z",
+  "gate": "A",
+  "subject": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of m",
+  "verdict": "APPROVE",
+  "reason": "Solving a 90-year-old Millennium Prize Problem qualifies as a major record/first-ever event from a household-name lab, meeting the page's news coverage standard; verify during research."
+ },
+ {
+  "t": "2026-09-08T19:18:00Z",
+  "gate": "A",
+  "subject": "Holy cow, its official! OpenAI says its AI has solved the Navier–Stokes Millennium Prize Problem, a mathematical questio",
+  "verdict": "KILL",
+  "reason": "It's a scientific announcement without business impact or human consequence—not the business news or 'people doing' stories the page prioritizes."
+ },
+ {
+  "t": "2026-09-08T19:54:28Z",
+  "gate": "B",
+  "subject": "OPENAI JUST SOLVED THE MATH PROBLEM EVERY HUMAN FAILED FOR <em>90 YEARS</em>, AND THEY USED AN AI <em>THE WORLD HAS NEVE",
+  "verdict": "REJECT",
+  "reason": "Slide 4 is structurally empty — headline is blank, body is null, no image. The pattern-break slide must carry ONE giant number or a ≤6-word statement filling the frame. A null slide delivers nothing and breaks the narrative chain.; Zero 'You' cadence across all six content slides. The doctrine's explicit REJECT condition: three or more consecutive slides with no second-person sentence. Not one sli"
+ },
+ {
+  "t": "2026-09-08T20:09:09Z",
+  "gate": "B",
+  "subject": "OPENAI JUST SOLVED THE MATH PROBLEM EVERY HUMAN FAILED FOR <em>90 YEARS</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 4 headline ('4,686,284 VIEWS IN HOURS') is an engagement metric as the substance of a slide — this is the exact reaction-bait pattern §1 bans. The view count is not a story beat; replace it with a real fact about the proof, the prize, or how the agents worked.; Slide 4 body ('OpenAI posted proof in a single tweet.') adds zero new information — the kicker on the cover already says 'ANNOUNCED "
+ },
+ {
+  "t": "2026-09-08T20:13:18Z",
+  "gate": "B",
+  "subject": "OPENAI JUST SOLVED THE MATH PROBLEM EVERY HUMAN FAILED FOR <em>90 YEARS</em>",
+  "verdict": "REJECT",
+  "reason": "TRUTH VIOLATION — Slide 3 states 'Model used: beyond GPT-6, never shown to you' as a hard fact. If the only source is a tweet, the tweet names the model or it doesn't — 'beyond GPT-6, never shown to you' is invented intrigue the writer layered on to pad thin source material. Either name the actual model OpenAI identified or cut the claim entirely.; SLIDE 4 VIOLATES 1/3/1 AND OPEN LOOP LAW — The en"
+ },
+ {
+  "t": "2026-09-08T20:14:39Z",
+  "gate": "A",
+  "subject": "\"Students who don't use AI chatbots for schoolwork are scoring better grades than those who do,\" per Bloomberg",
+  "verdict": "KILL",
+  "reason": "The entire source is one thin tweet claiming 'per Bloomberg' with no link to the article, no publication date, no research methodology, and no actual numbers (grade differential, sample size, researcher name); insufficient substance to build slides—writer would have to research and pad rather than expand a substantial event."
+ },
+ {
+  "t": "2026-09-08T20:14:48Z",
+  "gate": "A",
+  "subject": "Canadian engineer John Tse has gone viral after unveiling a self-driving umbrella that autonomously follows its user.",
+  "verdict": "AUTO_APPROVE",
+  "reason": "scout interest 8/10 — news-first fast lane"
+ },
+ {
+  "t": "2026-09-08T21:03:53Z",
+  "gate": "B",
+  "subject": "SOMEONE FINALLY AUTOMATED THE UMBRELLA. <em>IT CHASES YOU THROUGH RAIN ON ITS OWN</em>, HANDS IN YOUR POCKETS.",
+  "verdict": "REJECT",
+  "reason": "YOU CADENCE VIOLATION — NAMED REJECT TRIGGER (§4): Slides 2, 3, and 4 run back-to-back with zero second-person address. The first 'you' appears only at slide 5. The doctrine is explicit: 'Three consecutive slides with zero second person = the reader is watching, not in the story — REJECT.' Fix: plant one 'you' sentence inside slide 2 or 3 body ('You've held one a thousand times' in slide 2 already"
+ },
+ {
+  "t": "2026-09-08T21:08:11Z",
+  "gate": "A",
+  "subject": "\"Students who don't use AI chatbots for schoolwork are scoring better grades than those who do,\" per Bloomberg",
+  "verdict": "KILL",
+  "reason": "No numbers, no link, no proof: 110-character source is one thin claim that requires heavy padding to fill carousel slides—fails no-substance rule. If true, provide the Bloomberg article and key data; as presented, there is nothing behind it for the writer to build from."
+ },
+ {
+  "t": "2026-09-08T21:08:58Z",
+  "gate": "A",
+  "subject": "Cybercab vs. whatever the hell those things are.",
+  "verdict": "KILL",
+  "reason": "One flippant sentence with no facts, consequence, or proof of any real event—no actor, action, or consequence visible; reads as reaction-bait or vague comparison without substance."
+ },
+ {
+  "t": "2026-09-08T21:09:21Z",
+  "gate": "A",
+  "subject": "It's absolutely insane that even Reddit's Claude subreddit is now full of people complaining about Opus and Fable. And I",
+  "verdict": "KILL",
+  "reason": "This is reaction-bait: the 'event' is a pile-on of Reddit complaints about model quality, not a real-world consequence that moved—no feature changed, no product pulled, no company announcement, nothing. It's the exact failure pattern (Queen Elizabeth/Mario Lopez) the doctrine learned from; a 3/10 scout score confirms it. Next candidate fills the slot."
+ },
+ {
+  "t": "2026-09-08T21:09:54Z",
+  "gate": "A",
+  "subject": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted with integrity and ge",
+  "verdict": "KILL",
+  "reason": "Sam explaining a behind-the-scenes plagiarism dispute is response-to-criticism, not a jaw-dropping event a 16-year-old would send to a friend; the underlying dispute was made public elsewhere, and this tweet clarifies it rather than announcing major news."
+ },
+ {
+  "t": "2026-09-08T21:10:35Z",
+  "gate": "A",
+  "subject": "New GTA 6 map details (previews): - Once you unlock free roam after some missions, you can go anywhere on the map withou",
+  "verdict": "KILL",
+  "reason": "Off-lens: video game features are entertainment content, not AI/tech/founder/investing/space news the page exists to cover."
+ },
+ {
+  "t": "2026-09-08T21:10:50Z",
+  "gate": "A",
+  "subject": "150 new GTA 6 details from previews by media outlets and creators who visited Rockstar North: 1. The game has been in de",
+  "verdict": "KILL",
+  "reason": "Gaming spec sheet from pre-release media visits (animations, map size, development timeline), not an AI/tech news story — the 'no generative AI used' detail is a sidenote, not the story's subject, leaving technology as backdrop rather than star per §1's off-lens rule. Scout interest 3/10 and 150-item listicle format confirm no viable carousel spine."
+ },
+ {
+  "t": "2026-09-08T22:27:18Z",
+  "gate": "B",
+  "subject": "GROK IS REMIXING YOUR X ART BY DEFAULT. <em>3 STEPS PROTECT YOUR OLD POSTS TOO</em>",
+  "verdict": "REJECT",
+  "reason": "Hook-cover contract failure: '3 STEPS PROTECT YOUR OLD POSTS TOO' promises that old posts can be shielded, but slide 6 (step 3) explicitly states 'This works only on posts you have not made yet.' At 1.7 seconds a reader takes the hook as a promise of protection; the slides deliver the opposite — a post-mortem. Fix: revise the hook to accurately frame what step 3 actually is, e.g. 'GROK IS REMIXING"
+ },
+ {
+  "t": "2026-09-08T22:29:26Z",
+  "gate": "R",
+  "subject": "GROK IS REMIXING YOUR X ART BY DEFAULT. <em>3 STEPS PROTECT YOUR OLD POSTS TOO</em>",
   "verdict": "PASS",
   "reason": ""
  }
