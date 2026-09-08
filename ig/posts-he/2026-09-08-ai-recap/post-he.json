@@ -1,0 +1,68 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "מה קרה ב-<em>AI</em> היום?",
+   "kicker": "הסיכום היומי",
+   "media": "posts/2026-09-08-ai-recap/media-1.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "חוקרי OpenAI מזהירים: <em>ה-AI כבר יצא משליטת האדם</em>",
+   "body": "חוקרים מתוך OpenAI אמרו ש<b>ה-AI כבר מתקדם מהר מדי בשביל שנוכל להבין אותו או לנהל אותו.</b> זה לא בא ממבקרים מבחוץ, זה בא מבפנים, מהמעבדה שבנתה את ChatGPT",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 92,
+   "headline": "GPT-6 בנה <em>אתר חתונה שלם</em>, בלי מפתח אחד",
+   "body": "משתמש אחד הריץ את <b>GPT-6</b>, המודל החדש של OpenAI, מתחילה עד סוף, ובנה אתר חתונה מלא. בלי מפתח. מה שלקח לאיש מקצוע ימים, נגמר בשיחה אחת עם AI",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "Operator של OpenAI ביצע <em>מיליון משימות בלי בן אדם</em> תוך 24 שעות",
+   "body": "Operator של OpenAI, שגולש, מזמין ורוכש בשמך, שבר את השיא הזה השבוע בלי אפילו קליק אחד של בן אדם. הכלי יצא מבטא לפני חצי שנה בלבד, ועכשיו הוא מחליף קטגוריות שלמות של עבודה על המחשב",
+   "media": "posts/2026-09-08-ai-recap/media-2.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "ה-AI של Google DeepMind נכנס לבתי חולים: <em>מאבחן סרטן טוב יותר מרדיולוגים</em>",
+   "body": "ה-AI הרפואי של Google DeepMind עלה לאוויר בבתי חולים גדולים <b>השבוע</b>, ומזהה סרטן ומחלות איברים מהר יותר ובדיוק גבוה יותר מרדיולוגים מומחים בניסויים מבוקרים. הרגולטורים כבר בוחנים את התוצאות לאישור קליני מלא",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "בזמן שגללת: מישהו <em>בנה סצנת שיגור רקטות תלת-ממדית ב-Blender</em>",
+   "body": "יוצר אחד השתמש ב<b>Grok Build</b> כדי לעצב סצנת שיגור רקטות מלאה ב-Blender מאפס. Grok טיפל בחלקים הקשים אוטומטית, בלי מידול ידני. שעות של עבודה התכווצו לסשן אחד מהיר, והוא אמר שהמהירות והאיכות עברו את הציפיות שלו",
+   "media": "posts/2026-09-08-ai-recap/media-4.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "שמור <em>את הסיכום של היום</em>",
+   "body": "• החוקר הבכיר של OpenAI: ה-AI כבר יצא משליטה\n• GPT-6 בנה אתר חתונה מלא, מתחילה עד סוף\n• Operator של OpenAI ביצע מיליון משימות עצמאיות תוך 24 שעות\n• ה-AI הרפואי של DeepMind עלה לאוויר בבתי חולים ומנצח רדיולוגים\n• Grok Build יצר סצנת שיגור רקטות תלת-ממדית מלאה ב-Blender, לבד",
+   "media": null
+  }
+ ],
+ "caption": "החלק שמאלה ⬅️ מה קרה ב-AI ב-24 השעות האחרונות, מאזהרת OpenAI ועד אתר חתונה שלם שבנה GPT-6\n\nהחוקר הבכיר של OpenAI מזהיר שה-AI מתקדם מהר מדי בשביל שבני אדם יוכלו לשלוט בו, GPT-6 בנה אתר חתונה מלא בלי מפתח, Operator של OpenAI ביצע מיליון משימות עצמאיות בחלון של 24 שעות, ה-AI הרפואי של Google DeepMind עלה לאוויר בבתי חולים גדולים ומנצח רדיולוגים מומחים בזיהוי סרטן, Grok Build יצר סצנת שיגור רקטות תלת-ממדית מלאה ב-Blender בסשן אחד\n\nה-AI מתקדם מהר יותר ממה שהאנשים שבונים אותו ציפו. הפער בין מי שכבר משתמש בכלים האלה לבין מי שמחכה להבין אותם גדל כל יום. מנהל עסק? שלח לנו \"AI\" בהודעה ונראה לך מה זה יכול לעשות אצלך\n\nעקוב אחרי @ainews.israel כדי לא לפספס שום דבר\n\nמקורות: OpenAI, xAI, חוקרי X\n\n#AI #ArtificialIntelligence #Tech #ChatGPT #OpenAI",
+ "pinned_comment": "החוקר הבכיר של OpenAI אמר שה-AI מתקדם מהר מדי בשביל שבני אדם יוכלו להבין אותו או לשלוט בו. לדעתך, כבר עברנו את הנקודה שממנה אפשר לתקן את הכיוון, או שהיא עדיין לפנינו?",
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "COVER IMAGE — complete Image Law failure: the image is a mossy forest floor with a tree trunk and no subject relevant to AI, technology, or any story in this post. A stranger at feed size would guess nature photography, not an AI news recap. It fails the thumb test, has no face, proves nothing about the headline, and is pure decoration. Fix: replace with a photoreal composite carrying at least one",
+ "gate_r": "s1: The background is a murky, dark forest/nature photo — completely off-topic for an AI tech cover, low press-photo quality, and kills the brand energy.; s3: The same irrelevant forest photo is reused as background — it proves nothing about building a wedding website with GPT-6, failing the Receipt Law.; s7: Each bullet item carries both a checkmark and a bullet character (✓ •), a visible formatt",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
