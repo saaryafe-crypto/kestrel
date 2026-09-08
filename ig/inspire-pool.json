@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08T14:45:02.051439+00:00",
+ "updated": "2026-09-08T18:57:53.722562+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -173,6 +173,25 @@
    "born": 1787141216.494238
   },
   {
+   "id": "2097374640582668336",
+   "title": "We\u2019re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model signi",
+   "sub": "OpenAI",
+   "where": "@OpenAI on X",
+   "unit": "likes",
+   "selftext": "We\u2019re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years.",
+   "permalink": "https://x.com/OpenAI/status/2097374640582668336",
+   "outlink": null,
+   "score": 31414,
+   "comments_n": 1780,
+   "views": 4686284,
+   "age_h": 1.6,
+   "vph": 19630.1,
+   "image": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1788888113.722562
+  },
+  {
    "id": "2094803511875907849",
    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Bank of America Vice President Erin Piacenti killed in Times Square stabbing.",
    "sub": "WatcherGuru",
@@ -190,6 +209,25 @@
    "video": null,
    "guide": false,
    "born": 1788275026.745911
+  },
+  {
+   "id": "2097187107651649543",
+   "title": "Say hi to Elasmotherium, the giant rhinoceros known as the \u2018Siberian unicorn,\u2019 which survived until at least 39,000 years ago\u201d",
+   "sub": "AMAZlNGNATURE",
+   "where": "@AMAZlNGNATURE on X",
+   "unit": "likes",
+   "selftext": "Say hi to Elasmotherium, the giant rhinoceros known as the \u2018Siberian unicorn,\u2019 which survived until at least 39,000 years ago\u201d",
+   "permalink": "https://x.com/AMAZlNGNATURE/status/2097187107651649543",
+   "outlink": null,
+   "score": 19047,
+   "comments_n": 184,
+   "views": 1022815,
+   "age_h": 14.0,
+   "vph": 1358.5,
+   "image": "https://pbs.twimg.com/media/HRq0ZcubgAAdNZ0.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1788843473.722562
   },
   {
    "id": "2092122298840912350",
@@ -722,44 +760,6 @@
    "video": null,
    "guide": false,
    "born": 1787848945.023882
-  },
-  {
-   "id": "2088591815796740354",
-   "title": "An 18 year old Belgian student uncovered gold coins, nuggets and bullion bars worth about $10 million hidden inside a cellar wall during sewer construction Authorities have secured the treasure and are investigating its ",
-   "sub": "PicturesFoIder",
-   "where": "@PicturesFoIder on X",
-   "unit": "likes",
-   "selftext": "An 18 year old Belgian student uncovered gold coins, nuggets and bullion bars worth about $10 million hidden inside a cellar wall during sewer construction Authorities have secured the treasure and are investigating its origin and rightful ownership",
-   "permalink": "https://x.com/PicturesFoIder/status/2088591815796740354",
-   "outlink": null,
-   "score": 9852,
-   "comments_n": 1049,
-   "views": 1800877,
-   "age_h": 32.1,
-   "vph": 306.9,
-   "image": "https://pbs.twimg.com/media/HPwrKftaAAAzQzn.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1786794170.572699
-  },
-  {
-   "id": "2087365957782327430",
-   "title": "How B.J. Novak\u2019s face ended up on random products around the world.. A few years ago, someone mistakenly uploaded a photo of B.J. Novak, best known for playing Ryan Howard on The Office, to a public-domain website. Becau",
-   "sub": "historyinmemes",
-   "where": "@historyinmemes on X",
-   "unit": "likes",
-   "selftext": "How B.J. Novak\u2019s face ended up on random products around the world.. A few years ago, someone mistakenly uploaded a photo of B.J. Novak, best known for playing Ryan Howard on The Office, to a public-domain website. Because the image was now freely available, it ended up being used on all kinds of random products around the world. When Novak eventually discovered what had happened, he reportedly found the situation more amusing than frustrating, saying, \u201cI am too amused to do anything about it.\u201d",
-   "permalink": "https://x.com/historyinmemes/status/2087365957782327430",
-   "outlink": null,
-   "score": 9480,
-   "comments_n": 70,
-   "views": 776082,
-   "age_h": 31.9,
-   "vph": 297.2,
-   "image": "https://pbs.twimg.com/media/HPcehBNWoAMexFK.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1786501754.334199
   }
  ]
 }
