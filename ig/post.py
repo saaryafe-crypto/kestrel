@@ -7,6 +7,8 @@ https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/<name>
 Payload: {"caption": str, "images": [url, ...]}  (slide order preserved)"""
 import json, os, re, sys, time, urllib.request
 
+GMAIL = "saaryafe@gmail.com"  # owner monitor address (order Sep 8)
+
 
 def urls_live(urls, min_bytes=15000):
     """Refuse to publish media Meta can't fetch (Jul 31 root-cause: posts went
@@ -73,6 +75,141 @@ def alert_bare_cover(post_dir):
         print(f"bare-cover alert failed ({e}) — publishing anyway", file=sys.stderr)
 
 
+def notify_owner(post_dir, base_url=None):
+    """Owner monitor email (owner order Sep 8: "everytime you post something
+    new i get an email... 1. what was posted? reel/carousel and what was the
+    prompt and the journey of why you did what you did", then "colorful and
+    easy to read" — color-coded HTML, banner first, the shipped cover
+    embedded). Sent AFTER a successful publish, to saaryafe@gmail.com via
+    Gmail SMTP. Fails open: a mail hiccup never fails a publish."""
+    try:
+        pw = re.sub(r"\s+", "", os.environ.get("GMAIL_APP_PASSWORD", ""))
+        if not pw:
+            print("notify: GMAIL_APP_PASSWORD not set, skipping", file=sys.stderr)
+            return
+        import html as H
+        name = os.path.basename(post_dir.rstrip("/"))
+        base = (base_url or "").rstrip("/")
+        # sections = (label, text, color); rendered as colored cards + plain text
+        sections, title = [], name
+        kind, img_url = "carousel", (f"{base}/slide-1.jpg" if base else None)
+        rj = os.path.join(post_dir, "reel.json")
+        if os.path.exists(rj):
+            r = json.load(open(rj))
+            kind, img_url = "reel", None
+            title = (r.get("caption") or "").split("\n")[0][:80]
+            sections.append(("CAPTION", (r.get("caption") or "")[:600], "#2563eb"))
+            sections.append(("SOURCE", str(r.get("source") or r.get("credit")
+                             or r.get("link") or "not recorded"), "#64748b"))
+            sections.append(("JOURNEY", "Clip picked from the viral X pool, "
+                             "cut and captioned by reel.py, published via "
+                             + ("native IG audio bundle" if r.get("publish") == "bundle"
+                                else "Make webhook") + ". Reels carry no "
+                             "generated image, so there is no image prompt.",
+                             "#16a34a"))
+        else:
+            pj = os.path.join(post_dir, "post.json")
+            if not os.path.exists(pj):
+                pj = os.path.join(post_dir, "post-he.json")
+            p = json.load(open(pj))
+            slides = p.get("items") or p.get("slides") or [{}]
+            cover = slides[0]
+            title = re.sub(r"<[^>]+>", "", cover.get("headline") or "")[:80]
+            kind = f"carousel ({p.get('container', '?')}, {len(slides)} slides)"
+            sections.append(("COVER HEADLINE", title, "#2563eb"))
+            story = p.get("story") or {}
+            if story:
+                sections.append(("SOURCE STORY",
+                                 str(story.get("title", ""))[:200] + "\n"
+                                 + str(story.get("link", "")), "#64748b"))
+            # the EXACT prompt sent to the model (genimg sidecar); the brief
+            # from post.json is the fallback for older posts
+            prompt = None
+            media = cover.get("media") or ""
+            sidecar = os.path.join(post_dir, os.path.basename(media) + ".prompt.txt")
+            if media and os.path.exists(sidecar):
+                prompt = open(sidecar).read()
+            if prompt:
+                sections.append(("FULL IMAGE PROMPT (exactly as sent to the "
+                                 "model)", prompt, "#7c3aed"))
+            elif cover.get("image_prompt"):
+                sections.append(("IMAGE BRIEF (writer's cover brief; the "
+                                 "frozen scaffold in genimg.py rides on top)",
+                                 cover["image_prompt"], "#7c3aed"))
+            else:
+                sections.append(("IMAGE PROMPT", "None. The cover is "
+                                 + ("a real article/press photo, not generated."
+                                    if media else "BARE (no picture). Check "
+                                    "the bare-cover alert issue."),
+                                 "#7c3aed" if media else "#dc2626"))
+            journey, clean = [], True
+            if p.get("cover_fallback"):
+                clean = False
+                journey.append("Cover fallback: " + str(p["cover_fallback"]))
+            if p.get("editor_override"):
+                clean = False
+                journey.append("Editor gate B rejected, but the never-skip "
+                               "floor shipped it flagged: "
+                               + str(p["editor_override"])[:500])
+            if p.get("gate_r"):
+                clean = False
+                journey.append("Vision gate R dropped or flagged images: "
+                               + str(p["gate_r"])[:500])
+            if clean:
+                journey.append("Clean run: passed the text gate and the "
+                               "vision gate with no overrides.")
+            sections.append(("JOURNEY", "\n".join(journey),
+                             "#16a34a" if clean else "#ea580c"))
+        # build both bodies from the same sections
+        text = f"POSTED: {kind}\n{title}\n\n" + "\n\n".join(
+            f"{label}:\n{body}" for label, body, _ in sections)
+        cards = "".join(
+            f'<div style="border-left:6px solid {c};background:#f8fafc;'
+            f'border-radius:8px;padding:12px 16px;margin:12px 0">'
+            f'<div style="font-weight:bold;color:{c};font-size:13px;'
+            f'letter-spacing:.5px">{H.escape(label)}</div>'
+            f'<div style="color:#0f172a;font-size:15px;white-space:pre-wrap;'
+            f'line-height:1.5">{H.escape(body)}</div></div>'
+            for label, body, c in sections)
+        img = (f'<img src="{H.escape(img_url)}" alt="cover" style="width:100%;'
+               'max-width:420px;border-radius:12px;display:block;margin:14px 0">'
+               if img_url else "")
+        htm = (f'<div style="font-family:Arial,Helvetica,sans-serif;'
+               f'max-width:640px;margin:auto">'
+               f'<div style="background:#16a34a;color:#fff;border-radius:10px;'
+               f'padding:14px 18px;font-size:18px;font-weight:bold">'
+               f'POSTED: {H.escape(kind)}</div>'
+               f'<div style="font-size:20px;font-weight:bold;color:#0f172a;'
+               f'margin:14px 0 4px">{H.escape(title)}</div>'
+               f'{img}{cards}</div>')
+        import smtplib
+        from email.mime.multipart import MIMEMultipart
+        from email.mime.text import MIMEText
+        msg = MIMEMultipart("alternative")
+        msg.attach(MIMEText(text))
+        msg.attach(MIMEText(htm, "html"))
+        msg["Subject"] = f"[yaffeai] posted: {title}"
+        msg["From"] = msg["To"] = GMAIL
+        last = None
+        for attempt in range(3):
+            try:
+                if attempt % 2 == 0:
+                    s = smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60)
+                else:
+                    s = smtplib.SMTP("smtp.gmail.com", 587, timeout=60)
+                    s.starttls()
+                with s:
+                    s.login(GMAIL, pw)
+                    s.send_message(msg)
+                print("notify: owner email sent", file=sys.stderr)
+                return
+            except Exception as e:
+                last = e
+        print(f"notify: email failed after retries ({last})", file=sys.stderr)
+    except Exception as e:
+        print(f"notify failed ({e}) — publish already succeeded", file=sys.stderr)
+
+
 def main(post_dir, base_url):
     reel = os.path.join(post_dir, "reel.json")
     if os.path.exists(reel):
@@ -86,6 +223,7 @@ def main(post_dir, base_url):
                                            f"{base_url.rstrip('/')}/reel.mp4",
                                            audio_id=r.get("audio_id"))
                 print("bundle post:", post.get("id"), "| audio:", r.get("audio_title"))
+                notify_owner(post_dir, base_url)
                 return
             except Exception as e:
                 print(f"bundle publish failed ({e}) — falling back to Make",
@@ -101,6 +239,7 @@ def main(post_dir, base_url):
             "thumb_offset": 0,
         }
         send(payload)
+        notify_owner(post_dir, base_url)
         return
     slides = sorted((f for f in os.listdir(post_dir)
                      if re.fullmatch(r"slide-\d+\.jpg", f)),
@@ -128,6 +267,7 @@ def main(post_dir, base_url):
         "files": files[:10],  # IG carousel hard cap
     }
     send(payload)
+    notify_owner(post_dir, base_url)
 
 
 def send(payload, tries=3):

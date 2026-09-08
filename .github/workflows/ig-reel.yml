@@ -30,6 +30,7 @@ jobs:
           MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
           MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
           BUNDLE_API_KEY: ${{ secrets.BUNDLE_API_KEY }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}  # owner monitor email
         run: |
           POST="${{ github.event.inputs.post }}"
           test -f "ig/posts/$POST/reel.json"

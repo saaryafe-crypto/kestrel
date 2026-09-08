@@ -223,19 +223,21 @@ def qa(post, n_cands, pre_render=True):
     return errs
 
 
-def build_cover(post_dir, photos):
+def build_cover(post_dir, photos, headlines):
     """MONTAGE COVER (owner Sep 5, Bernie-recap post-mortem: raw tweet
     images glued side by side by CSS shipped a text screenshot as half the
     cover — "it looks SO SO bad"). The reference roundup cover is a composed
     poster: each story's subject razor-cut from its real press photo,
-    arranged at varying scales on one loud backdrop, headline zone clean.
+    arranged at varying scales on one loud backdrop, headline zone clean
+    (golden example, owner Sep 8: the @technology aircraft-roundup cover —
+    the subjects of the list ARE the cover, headline accent color pulled
+    from the picture's own palette).
     Ladder: nano-banana montage from the day's verified press PHOTOS (2
-    tries, judged) -> strongest single photo full-bleed -> bare art cover.
-    The CSS strip collage is dead — it can never ship again."""
+    tries, judged) -> strongest single photo IF it passes the cover judge ->
+    generated faceless objects-montage from the day's headlines -> bare art
+    cover. The CSS strip collage is dead — it can never ship again."""
     import genimg
     cover = dict(COVER)
-    if not photos:
-        return cover  # bare cover — render.py art_bg, never a screenshot
     plain = lambda h: re.sub(r"<[^>]+>", "", h)
     if len(photos) >= 2:
         # 2 refs max: the Sep 5 smoke test with 3 face refs duplicated one
@@ -262,8 +264,45 @@ def build_cover(post_dir, photos):
                 return cover
         print("  montage failed judge — falling back to strongest photo",
               file=sys.stderr)
-    cover["media"] = os.path.relpath(photos[0][1], HERE)
-    return cover
+    # FALLBACK PHOTOS MUST PASS THE COVER JUDGE (owner Sep 8, forest-floor
+    # post-mortem: the day's only "photograph" was a mossy forest frame off
+    # a story tweet; it became the cover UNJUDGED, Gate B rejected it twice
+    # in plain words, but recap repairs are text-only and the never-skip
+    # floor shipped it — "we can not get any picture of green weird things
+    # from twitter as a cover picture"). is_photo() answers "is it a
+    # photograph", never "does it belong on THIS cover".
+    for h, p in photos[:2]:
+        ok, score, flaw = image_score(p, plain(COVER["headline"]), cover=True)
+        if ok:
+            cover["media"] = os.path.relpath(p, HERE)
+            return cover
+        print(f"  fallback photo rejected ({score}/10 {flaw})", file=sys.stderr)
+    # GENERATED OBJECTS MONTAGE — no usable press photo at all: stage the
+    # day's hero OBJECTS as one scene (faceless scaffold bans people, so
+    # nothing is memory-drawn) so the cover still SUMMARIZES the day the way
+    # the golden roundup reference does. Palette locked to the brand so the
+    # orange headline accent belongs to the picture.
+    heads = [plain(h) for h in headlines if plain(h).strip()][:2]
+    if heads:
+        brief = ("SUBJECT: the hero objects of today's biggest AI news "
+                 "stories staged together as one breaking-news scene, no "
+                 "people. The stories: " + "; ".join(heads)
+                 + ". BACKDROP PROPS: glowing AI datacenter server racks. "
+                   "PALETTE: electric blue and orange")
+        out = os.path.join(post_dir, "cover-gen.jpg")
+        for attempt in range(2):
+            path = genimg.generate(brief, out, cover=True, collage=True)
+            if not path:
+                break
+            ok, score, flaw = image_score(path, plain(COVER["headline"]),
+                                          generated=True, cover=True,
+                                          collage=True)
+            print(f"  objects-montage try {attempt + 1}: ok={ok} "
+                  f"score={score} {flaw}", file=sys.stderr)
+            if ok:
+                cover["media"] = os.path.relpath(path, HERE)
+                return cover
+    return cover  # bare art cover — never an off-topic photo, never a screenshot
 
 
 def main(stories_path):
@@ -317,7 +356,10 @@ def main(stories_path):
         except Exception as e:
             print(f"  image failed ({e}) — big-type slide", file=sys.stderr)
 
-    post["slides"].insert(0, build_cover(post_dir, photos))
+    post["slides"].insert(0, build_cover(
+        post_dir, photos,
+        [s.get("headline", "") for s in post["slides"]
+         if s.get("type") == "content"]))
     post.update(handle="@yaffeai", container="daily_recap")
     scrub_dashes(post)  # owner rule: dashes never reach a published slide
 

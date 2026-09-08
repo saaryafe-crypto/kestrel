@@ -64,13 +64,21 @@ _COLLAGE_LABELS = (
     "wording, appearing EXACTLY ONCE in the whole frame (smoke-test Sep 6: "
     "a \"$230\" chip rendered twice, once per product copy), white on black "
     "or on a brand color, pinned beside its target "
-    "in the UPPER two-thirds of the frame — never in the bottom quarter, "
-    "which the slide layout fades to black — optionally tied to its target "
+    "in the UPPER two-thirds of the frame — never in the bottom third, "
+    "which the layout darkens for the headline — optionally tied to its target "
     "by a thin hand-drawn white arrow. A briefed INSET "
     "is one circular photo bubble with a thin white ring, placed in an upper "
     "corner over the backdrop, showing exactly the briefed detail, tied to "
     "the scene by a thin white arrow. ")
 _COLLAGE_TAIL = (
+    "TITLE ZONE (owner Sep 8, measured from the reference roundup covers: "
+    "every one composes its subjects high because the page writes the "
+    "headline over the bottom): the BOTTOM THIRD of the frame is reserved "
+    "for the post's title — the layout darkens it and sets big type there. "
+    "Compose every face, subject, prop, logo and chip in the UPPER "
+    "TWO-THIRDS; the bottom third holds only simple ground, floor or "
+    "backdrop wash that still reads when darkened. Never a face or key "
+    "object in the bottom third. "
     "GRADE: very high saturation, high contrast, crisp and sharpened; either "
     "a bright key light on the subject, or — when the brief stages a dark "
     "scene — cinematic chiaroscuro: deep blacks, harsh 35mm flash, the two "
@@ -345,6 +353,17 @@ def _grade(path):
         print(f"genimg: grade skipped ({e})", file=sys.stderr)
 
 
+def _save_prompt(out_path, prompt):
+    """Owner monitor (Sep 8 order: "i want an email with the full prompt for
+    the image and i will gradually correct you"): the EXACT prompt sent to
+    the model rides beside the image as <image>.prompt.txt, committed with
+    the post dir, quoted in the publish email. Fails open."""
+    try:
+        open(out_path + ".prompt.txt", "w").write(prompt)
+    except Exception:
+        pass
+
+
 def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
              collage=False, montage=False):
     key = _key()
@@ -387,6 +406,7 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
         else:
             scaffold = COLLAGE_PERSON if (person and live_refs) else COLLAGE_FACELESS
         prompt = f"{brief}.{scaffold}"
+        _save_prompt(out_path, prompt)
         try:
             img = _call_nano(key, prompt, live_refs)
             if not img:
@@ -464,6 +484,7 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
                    "proportions from them, and keep any person's facial "
                    "identity exactly identical to their reference photo. "
                    "Never invent a different-looking device or face.")
+    _save_prompt(out_path, prompt)
     try:
         img = _call_nano(key, prompt, live_refs)
         if not img:

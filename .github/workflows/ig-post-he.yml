@@ -125,6 +125,7 @@ jobs:
         env:
           MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL_HE }}
           MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}  # owner monitor email
         run: |
           python ig/post.py "ig/posts-he/$POST_NAME" \
             "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/$POST_NAME-he"
