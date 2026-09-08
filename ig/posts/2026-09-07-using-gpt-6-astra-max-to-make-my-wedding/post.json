@@ -1,0 +1,120 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GPT-6 JUST KILLED THE WEDDING WEBSITE INDUSTRY IN 5 MINUTES 59 SECONDS, <em>AND 356,000 PEOPLE WERE WATCHING WHEN IT HAPPENED.</em>",
+   "kicker": "SHE FUNDS THE SOFTWARE SHE REPLACED",
+   "hsize": 64,
+   "media": "posts/2026-09-07-using-gpt-6-astra-max-to-make-my-wedding/gen-0.jpg",
+   "image_prompt": "SUBJECT: Sam Altman, triumphant grin, waist-up, both hands holding an open silver laptop angled toward camera, polished wedding website homepage visible on screen. BACKDROP PROPS: a large glowing analog stopwatch face frozen at \"5:59\" beside his right shoulder; scattered printed wedding website design certificates and floral-bordered template sheets with bold red \u00d7 marks strewn across the bright white desk below him; the OpenAI logo exactly as in the reference image as a large warm-white glowing neon sign on the wall behind. PALETTE: deep orange and white. LABELS: \"5:59\" on the stopwatch face. INSET: circular bubble upper-right corner of a densely packed mass of tiny crowd silhouettes. Documentary news photo, 35mm, harsh on-camera flash, natural skin texture, slight film grain.",
+   "gen_person": true,
+   "video": true
+  },
+  {
+   "type": "content",
+   "headline": "THE WEDDING WEBSITE INDUSTRY HAD ONE UNSPOKEN RULE: <em>SOMEONE ELSE BUILDS IT</em>",
+   "hsize": 80,
+   "body": "Squarespace. The Knot. Wix. Local designers. Every option existed to solve the same problem: you describe the wedding, someone else handles the technical work.\n\nThen a VC hit record.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE BLANK PAGE WAS A FINISHED WEDDING SITE <em>IN 5 MINUTES 59 SECONDS</em>",
+   "hsize": 80,
+   "body": "<b>Justine Moore</b> opened GPT-6 Astra Max. Described her wedding. Watched a complete website build itself in one single, uninterrupted session.\n\nThen a lot of people did something unexpected with the like button.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>356,000 PEOPLE</em> WATCHED IT HAPPEN IN REAL TIME",
+   "hsize": 96,
+   "body": "Your website builder subscription just became optional\n<b>66,700</b> likes in under 24 hours\n<b>771</b> reposts the same day",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "SIX MINUTES ENDED THE ARGUMENT",
+   "hsize": 110,
+   "body": "Not applause. Every like is someone doing the same math at the same time",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE VC WHO BUILT THIS IN 6 MINUTES FUNDS <em>THE SOFTWARE SHE JUST SHOWED EVERYONE HOW TO SKIP</em>",
+   "hsize": 76,
+   "body": "<b>Justine Moore</b>'s job is to find software companies and invest in them. She spent Sunday filming herself bypass all of them in under six minutes.\n\nIt got filmed declining.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: GPT-6 BUILT A WEDDING SITE <em>IN 6 MINUTES</em>",
+   "hsize": 60,
+   "body": "GPT-6 built a full site in <b>5 minutes 59 seconds</b>\n<b>66,700</b> likes. Not applause. Collective math.\nShe funds the software she just made irrelevant.\n\nSend this to the friend still paying Squarespace.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see a VC build a full wedding website with GPT-6 in under 6 minutes, and what 66,000 people figured out the second they watched it \ud83d\udcb8\n\nJustine Moore opened GPT-6 Astra Max, described her wedding, a complete website appeared in 5 minutes and 59 seconds with no edits or cuts, she posted the entire session unedited for anyone to watch and copy, 356,000 people watched it, 66,700 liked it in under 24 hours, 771 people reposted it the same day, those likes were not applause but 66,000 people calculating what they had already paid for the same result, and Moore is a venture capitalist whose job is to fund software companies, making her the last person you would expect to publicly show 356,000 people how to skip all of them\n\nGPT-6 didn't speed up web design. It removed the reason to pay for it. Every platform that charged couples for a complicated process now competes with a six-minute conversation.\n\nRunning a business? DM us \"AI\" and we'll show you what GPT-6 could replace in yours.\n\nSources: Justine Moore on X, September 6, 2026\n\n#AItools #GPT6 #WebDesign #WeddingWebsite #ArtificialIntelligence",
+ "pinned_comment": "The uncomfortable part: she's a VC whose job is to bet on software companies, and she just spent Sunday showing 356,000 people how to bypass all of them. Her portfolio might want a word.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "GPT-6 BUILT A VC'S WEDDING WEBSITE IN <em>UNDER 6 MINUTES</em>, AND SHE SPENT YEARS FUNDING THE INDUSTRY IT JUST REPLACED",
+   "GPT-6 BUILT A FULL WEDDING WEBSITE IN <em>UNDER 6 MINUTES</em>, AND ANYONE WHO EVER PAID A DESIGNER JUST REALIZED THEY WASTED IT",
+   "A VC USED GPT-6 TO BUILD HER WEDDING WEBSITE ON CAMERA IN <em>UNDER 6 MINUTES</em>, AND WEB DESIGNERS WATCHED THEIR JOBS DISAPPEAR",
+   "A VC USED GPT-6 TO BUILD HER FULL WEDDING WEBSITE <em>IN 6 MINUTES ON CAMERA AND 66,000 PEOPLE REALIZED THEY'D WASTED THEIR MONEY</em>",
+   "GPT-6 BUILT A COMPLETE WEDDING WEBSITE IN <em>5 MINUTES 59 SECONDS ON CAMERA</em> AND THE ENTIRE WEBSITE SUBSCRIPTION INDUSTRY LOST ITS ARGUMENT",
+   "GPT-6 JUST DID A WEDDING WEBSITE IN 6 MINUTES ON CAMERA <em>AND 66,000 PEOPLE IMMEDIATELY KNEW THEY DIDN'T NEED TO HIRE ANYONE</em>",
+   "A VC USED GPT-6 TO BUILD HER WEDDING WEBSITE IN 6 MINUTES. <em>SHE FUNDS THE SOFTWARE COMPANIES SHE JUST MADE IRRELEVANT.</em>",
+   "GPT-6 JUST BUILT IN <em>6 MINUTES</em> WHAT SQUARESPACE CHARGES YOU <em>HUNDREDS A YEAR</em> FOR, AND IT COST NOTHING"
+  ],
+  "scores": [
+   8,
+   7,
+   0,
+   8,
+   0,
+   7,
+   9,
+   8
+  ],
+  "winner": 6,
+  "why": "[6] lands as a narrative punchline with devastating irony\u2014the period break then 'MADE IRRELEVANT' stops you cold with 'wait, WHAT??'. [3] spreads its impact across VC irony plus the specific 66K detail, which tells a complete story but lands lighter than one sharp devastating line."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "A VC USED GPT-6 TO BUILD HER WEDDING WEBSITE IN 6 MINUTES. <em>SHE FUNDS THE SOFTWARE COMPANIES SHE JUST MADE IRRELEVANT.</em>",
+   "GPT-6 JUST KILLED THE WEDDING WEBSITE INDUSTRY IN 5 MINUTES 59 SECONDS, <em>AND 356,000 PEOPLE WERE WATCHING WHEN IT HAPPENED.</em>"
+  ],
+  "scores": [
+   7,
+   9
+  ],
+  "winner": 1,
+  "why": "[1] hits harder because 'killed the industry' plus 356K viewers delivers immediate visceral impact with massive social proof. [0] requires understanding what a VC does to land the irony and omits the one number that proves this was a viral moment."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Justine Moore",
+  "actor_known": false,
+  "anchor": "GPT-6",
+  "specifics": [
+   "Complete wedding website built on camera in under 6 minutes \u2014 for free",
+   "66.7K likes, meaning tens of thousands recognized they'd overpaid for the same thing",
+   "356K people watched it, making it one of the most-viewed AI demos of the week",
+   "The builder is a VC \u2014 someone whose job is funding the exact tools she just replaced",
+   "Tool: GPT-6 Astra Max, Sep 6, 2026"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Using GPT-6 Astra Max to make my wedding website",
+  "link": "https://x.com/venturetwins/status/2096659577660203436",
+  "judge_interest": 3,
+  "scout_score": 44.7
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "CAST TRUTH FAIL \u2014 the cover subject is Sam Altman, but he has zero role in this story. The actor is Justine Moore. The Vendor Cast exception is explicitly limited to 'a post teaching the use of a named famous tool' (guide/education covers); this is a daily_item news/story post about Justine Moore's demo, not a usage guide. Sam Altman as decoration is a cast-truth violation regardless of the GPT-6 "
+}
