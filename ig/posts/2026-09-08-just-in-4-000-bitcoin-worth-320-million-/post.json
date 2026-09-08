@@ -1,0 +1,121 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A HACKER WHO STOLE <em>4,000 BITCOIN</em> LEFT ONE MESSAGE THROUGH THE BLOCKCHAIN: FIX THE BUG <em>AND I'LL RETURN ALL $320 MILLION</em>",
+   "hsize": 64,
+   "media": "posts/2026-09-08-just-in-4-000-bitcoin-worth-320-million-/gen-0.jpg",
+   "image_prompt": "SUBJECT: A giant gold Bitcoin coin, 18 inches across on a real marble surface, mid-explosion as it cracks cleanly apart, smaller gold coins erupting outward in a frozen violent cascade, peak of the burst. BACKDROP PROPS: a blazing amber shockwave of cascading gold coins filling the upper frame; a single signal-blue glowing envelope the size of a hardback book floating calmly back toward the fractured coin \u2014 stillness against the chaos. PALETTE: blazing gold and signal orange. LABELS: \"$320M\" on a bold amber receipt-paper chip at the base of the cracked coin. Documentary news photo, 35mm, harsh on-camera flash, slight film grain. Real marble table surface, real physical coins \u2014 no digital renders, no sci-fi elements, bright saturated lighting throughout."
+  },
+  {
+   "type": "content",
+   "headline": "LIQUID NETWORK USERS WOKE UP THINKING THEIR BITCOIN <em>WAS UNTOUCHABLE</em>",
+   "hsize": 82,
+   "body": "The Liquid Network is a Bitcoin sidechain built for fast, private transfers.\n\nUsers trusted it. Their Bitcoin sat there like cash in a vault nobody thought to question. Until it wasn't",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ONE ATTACK HIT <em>EVERY NODE ON THE NETWORK</em>",
+   "hsize": 88,
+   "body": "Every wallet on the Liquid sidechain exposed\nAttacker found a crack nobody had patched\nYou wouldn't have had time to react\nThen they got a message back.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$320,000,000",
+   "hsize": 112,
+   "body": "Through the blockchain itself. And everyone could read it",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE MESSAGE IS PERMANENTLY WRITTEN <em>INTO THE BLOCKCHAIN ITSELF</em>",
+   "hsize": 82,
+   "body": "The hacker embedded a note into a Bitcoin transaction: fix the bug, patch every node, then the money comes back.\n\nYou can read it right now, the message is still live.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "UNTIL THE BUG IS PATCHED, <em>EVERY USER IS EXPOSED</em>",
+   "hsize": 82,
+   "body": "Businesses that hold crypto on platforms like this have zero warning when the floor drops.\n\nIf yours does, ask one question: when was it last audited",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: A HACKER STOLE $320M AND <em>TEXTED THE DEVS BACK</em>",
+   "hsize": 58,
+   "body": "Liquid Network hacked for <b>$320 million</b>\nAttacker drained <b>4,000</b> Bitcoin in one move\nHacker messaged developers through the blockchain\nMessage is public, permanent, on-chain\n\nSend to the friend with crypto in one place",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how a hacker stole $320 million in Bitcoin then wrote a message to the developers inside the blockchain itself \ud83d\udd10\n\nThe Liquid Network, a Bitcoin sidechain, was hit by a hack that drained 4,000 Bitcoin worth $320 million, the attacker used on-chain Bitcoin transactions to message the network's developers directly, the message demanded the vulnerability be patched before any funds are returned, the note is permanently embedded in the blockchain and visible to anyone, every user on the network remains exposed until the fix is deployed.\n\nBlockchain transparency cuts both ways. The same public ledger a hacker exploits becomes the only place they can negotiate. Crypto security is only as strong as the last audit.\nRunning a business with digital assets? DM us 'AI' and we'll show you what this means for yours.\n\nSources: Watcher.Guru on X\n\n#Bitcoin #CryptoHack #Blockchain #CryptoSecurity #Web3",
+ "pinned_comment": "The hacker's message is permanently on the blockchain right now. Exact words: 'Please fix the bug first. The chain is under risk. Make sure every node is patched. Then we will transfer the money back.'",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "A HACKER STOLE $320 MILLION IN BITCOIN THEN <em>TEXTED THE DEVELOPERS THROUGH THE BLOCKCHAIN</em>, PROMISING TO RETURN EVERY COIN",
+   "THE HACKER WHO TOOK <em>$320 MILLION FROM A BITCOIN NETWORK</em> IS NOW ACTING AS THEIR UNPAID SECURITY CONSULTANT <em>AND PROMISING TO RETURN EVERY COIN</em>",
+   "SOMEONE JUST ROBBED A BITCOIN NETWORK FOR <em>$320 MILLION</em> AND IS NOW WRITING OPEN LETTERS TO THE VICTIMS <em>DIRECTLY ON THE BLOCKCHAIN</em>",
+   "A HACKER STOLE <em>$320 MILLION IN BITCOIN</em>, THEN USED BITCOIN ITSELF TO MESSAGE THE VICTIMS: <em>I'LL GIVE IT ALL BACK</em>",
+   "A HACKER STOLE <em>$320 MILLION IN BITCOIN</em> AND IS NOW POLITELY ASKING THE NETWORK TO PATCH THEIR OWN VULNERABILITY <em>THROUGH BLOCKCHAIN MESSAGES</em>",
+   "A HACKER WALKED OFF WITH <em>4,000 BITCOIN</em> AND SENT ONE MESSAGE THROUGH THE BLOCKCHAIN: FIX THE BUG <em>AND I'LL RETURN ALL $320 MILLION</em>",
+   "SOMEONE DRAINED $320 MILLION FROM A BITCOIN NETWORK AND IS NOW <em>MESSAGING THE DEVELOPERS INSIDE THEIR OWN BLOCKCHAIN</em>",
+   "A BITCOIN HACKER TOOK $320 MILLION AND IS CONTACTING THE PEOPLE THEY ROBBED <em>USING THE VERY BLOCKCHAIN THEY EXPLOITED</em>"
+  ],
+  "scores": [
+   8,
+   0,
+   6,
+   9,
+   0,
+   10,
+   7,
+   8
+  ],
+  "winner": 5,
+  "why": "[5]'s direct quote 'FIX THE BUG AND I'LL RETURN ALL $320 MILLION' shows the complete threat-promise and leverage in one line with both numbers laid bare. [3] is clever with the irony but hides the condition\u2014'I'LL GIVE IT ALL BACK' alone makes you infer what wasn't said."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "A BITCOIN HACKER STOLE <em>$320 MILLION</em> AND WROTE THE DEVS A MESSAGE INSIDE THE TRANSACTIONS: <em>FIX THE BUG AND I'LL GIVE IT ALL BACK</em>",
+   "A BITCOIN HACKER DRAINED <em>$320 MILLION</em> AND SENT THE DEMAND INSIDE THE STOLEN TRANSACTIONS THEMSELVES: <em>FIX THE BUG AND YOU GET IT ALL BACK</em>",
+   "A HACKER WALKED OFF WITH <em>4,000 BITCOIN</em> AND SENT ONE MESSAGE THROUGH THE BLOCKCHAIN: FIX THE BUG <em>AND I'LL RETURN ALL $320 MILLION</em>",
+   "A BITCOIN THIEF EMBEDDED <em>A RANSOM NOTE INSIDE THE STOLEN TRANSACTIONS</em>: PATCH THE BUG AND THEY'LL RETURN <em>ALL $320 MILLION</em>"
+  ],
+  "scores": [
+   7.5,
+   8,
+   8.5,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] hits hardest with dual metrics (4,000 Bitcoin + $320 million) and the 'walked off with' casual tone that makes massive theft feel shockingly inevitable. [1] is clever but 'themselves' adds parsing friction that kills 2am momentum."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Liquid Network hacker",
+  "actor_known": false,
+  "anchor": "Bitcoin",
+  "specifics": [
+   "$320 million in Bitcoin drained in a single hack",
+   "Hacker is messaging victims through on-chain Bitcoin transactions \u2014 publicly visible to anyone",
+   "4,000 Bitcoin taken",
+   "Hacker promises to return all funds once the vulnerability is fixed",
+   "Hack hit the Liquid Network, a Bitcoin sidechain"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "JUST IN: 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack. The hacker is now communicating with network maintainers through on-chain Bitcoin transactions &amp; intends to return the $BTC after the",
+  "link": "https://x.com/WatcherGuru/status/2096826035736088800",
+  "judge_interest": 6,
+  "scout_score": 90.5
+ },
+ "editor_override": "Cover image fails IMAGE LAW: every element \u2014 the cracked Bitcoin coin, the fire/particle explosion, the scattered coins, and the glowing blue envelope \u2014 reads as a 3D CGI/game render, not a photographed element. The doctrine requires every element in the frame to read as photographed; this composite is entirely rendered, making it an unconditional reject regardless of concept strength.; Slide 3 bo",
+ "gate_r": "s5: The background is a raw full-bleed screenshot of a blockchain explorer UI (wallet addresses, transaction rows, raw PGP text visible), which violates the Screenshot Law; the slide is cleaner and more legible as a dark text-only card."
+}
