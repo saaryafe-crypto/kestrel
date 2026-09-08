@@ -72,13 +72,19 @@ _COLLAGE_LABELS = (
     "the scene by a thin white arrow. ")
 _COLLAGE_TAIL = (
     "GRADE: very high saturation, high contrast, crisp and sharpened, bright "
-    "key light on the subject, rich glowing backdrop unified in the briefed "
-    "two-color palette. "
+    "key light on the subject. COLOR LAW (owner Sep 7, GPT-6 cover shipped as "
+    "one flat orange wash — 'boring and cant understand'): the briefed "
+    "palette colors the BACKDROP and accent props ONLY; the subject keeps "
+    "true-to-life colors — real skin tones, real clothing colors, real "
+    "product colors — so it POPS against the toned backdrop. NEVER a "
+    "monochrome wash where subject, backdrop and props all share one hue; "
+    "if everything is the same color the picture is unreadable at "
+    "thumbnail size. "
     "HARD BANS: no text or letters anywhere except the exact quoted LABEL "
     "chips and real brand logo marks, no invented words, no watermarks, no "
     "cartoon, no illustration, no 3D render — every element photorealistic "
     "like a graded press-photo composite. FULL BLEED: the picture fills the "
-    "whole square edge to edge — never a black border, margin, frame or "
+    "whole frame edge to edge — never a black border, margin, frame or "
     "letterbox around it (smoke-test Sep 6: nano baked a black frame). "
     "LOGO ONCE (Sep 6 post-mortem: a cover shipped the same logo three "
     "times — corner badge, giant backdrop copy, and a disc): each brand's "
@@ -94,7 +100,8 @@ _COLLAGE_TAIL = (
     "never a flat pasted-on sticker.")
 _COLLAGE_SHARED = _COLLAGE_LABELS + _COLLAGE_TAIL
 COLLAGE_PERSON = (
-    " FORMAT LAW — photorealistic breaking-news collage cover, square frame. "
+    " FORMAT LAW — photorealistic breaking-news collage cover, vertical 4:5 "
+    "portrait frame. "
     "SUBJECT: the person from the attached reference photo, cut-out style — "
     "face, hair and clothing identical to the reference photograph, never "
     "redrawn from memory — waist-up, one clear peak emotion as briefed, "
@@ -108,7 +115,8 @@ COLLAGE_PERSON = (
     "readable object in the scene — never the whole backdrop. "
     "No extra people beyond the briefed subject. " + _COLLAGE_SHARED)
 COLLAGE_FACELESS = (
-    " FORMAT LAW — photorealistic breaking-news collage cover, square frame. "
+    " FORMAT LAW — photorealistic breaking-news collage cover, vertical 4:5 "
+    "portrait frame. "
     "SUBJECT: the briefed hero object — or, when the brief stages a "
     "comparison, the briefed 2-3 objects side by side at identical size and "
     "angle — cut-out style, centered, filling 50-60% of the frame height, "
@@ -123,8 +131,9 @@ COLLAGE_FACELESS = (
 # composed poster montage: every story's subject razor-cut from its real
 # press photo and arranged at VARYING scales on one loud backdrop.
 COLLAGE_MONTAGE = (
-    " FORMAT LAW — photorealistic breaking-news montage poster, square "
-    "frame, built ONLY from the attached reference photographs. SUBJECTS: "
+    " FORMAT LAW — photorealistic breaking-news montage poster, vertical "
+    "4:5 portrait frame, built ONLY from the attached reference "
+    "photographs. SUBJECTS: "
     "cut the main subject out of EACH attached photo — faces, hair and "
     "clothing identical to their photographs, never redrawn from memory. "
     "ONLY the person is copied from each photo: the photo's own background, "
@@ -244,12 +253,14 @@ def _data_uri(path):
 def _call(key, prompt, refs=None):
     # 2K, same flat price as 1K — the extra resolution is what keeps short
     # screen text crisp (1080-wide test garbled "Device Locked").
-    # SQUARE (owner Aug 14): slides show the image in a roughly square TOP
-    # window (~1080x900, feathered into black); the old 4:5 portrait meant
-    # the renderer beheaded every composition — ~35% of the picture thrown
-    # away and subjects cut mid-body. Generate the shape we actually display.
+    # 4:5 PORTRAIT (owner Sep 7): generation is covers-only since Aug 30 and
+    # covers display FULL-BLEED 1080x1350 (render.py .bleed cover). The Aug 14
+    # square decision was made for the old content-slide window; on covers a
+    # square gen lost ~20% of its width to the crop — the GPT-6 cover shipped
+    # with its stopwatch chip amputated to "…:59". Generate the shape we
+    # actually display.
     body = {"input": {"prompt": prompt, "size": "custom",
-                      "width": 2048, "height": 2048, "max_images": 1}}
+                      "width": 2048, "height": 2560, "max_images": 1}}
     if refs:
         # product-hero covers (owner Aug 1, @technology Codex Micro anatomy):
         # the REAL product photo rides along so the generated device matches
@@ -282,7 +293,7 @@ def _call_nano(key, prompt, refs):
     """google/nano-banana: identity-from-photo person model (Aug 14). The
     press photo(s) + real logo mark ride as image_input — likeness is copied
     from the actual photograph, not drawn from memory."""
-    body = {"input": {"prompt": prompt, "aspect_ratio": "1:1",
+    body = {"input": {"prompt": prompt, "aspect_ratio": "4:5",
                       "output_format": "jpg"}}
     if refs:  # no-ref briefs (faceless concepts) are plain text-to-image
         body["input"]["image_input"] = [_data_uri(r) for r in refs[:3]]
