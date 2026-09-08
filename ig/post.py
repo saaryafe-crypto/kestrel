@@ -76,37 +76,35 @@ def alert_bare_cover(post_dir):
 
 
 def notify_owner(post_dir, base_url=None):
-    """Owner monitor email (owner order Sep 8: "everytime you post something
-    new i get an email... 1. what was posted? reel/carousel and what was the
-    prompt and the journey of why you did what you did", then "colorful and
-    easy to read" — color-coded HTML, banner first, the shipped cover
-    embedded). Sent AFTER a successful publish, to saaryafe@gmail.com via
-    Gmail SMTP. Fails open: a mail hiccup never fails a publish."""
+    """Owner monitor email (owner orders Sep 8, three rounds: "everytime you
+    post something new i get an email... the prompt and the journey", then
+    "colorful and easy to read", then "most summerized and shorter to an adhd
+    person... i have adhd i work and read differently"). ADHD format, styled
+    like the badge-heavy README he pointed at: verdict banner, badge chips,
+    the picture, ONE short status line, source link. The full prompt sits
+    LAST in a small block for when he wants to correct it. Fails open: a
+    mail hiccup never fails a publish."""
     try:
         pw = re.sub(r"\s+", "", os.environ.get("GMAIL_APP_PASSWORD", ""))
         if not pw:
             print("notify: GMAIL_APP_PASSWORD not set, skipping", file=sys.stderr)
             return
         import html as H
-        name = os.path.basename(post_dir.rstrip("/"))
         base = (base_url or "").rstrip("/")
-        # sections = (label, text, color); rendered as colored cards + plain text
-        sections, title = [], name
-        kind, img_url = "carousel", (f"{base}/slide-1.jpg" if base else None)
+        title, img_url = "", (f"{base}/slide-1.jpg" if base else None)
+        chips = []            # (label, color) badge chips under the banner
+        status, s_color = "", "#16a34a"   # ONE short verdict line
+        link, prompt, p_label = None, None, "FULL IMAGE PROMPT"
         rj = os.path.join(post_dir, "reel.json")
         if os.path.exists(rj):
             r = json.load(open(rj))
-            kind, img_url = "reel", None
+            kind, img_url = "REEL", None
             title = (r.get("caption") or "").split("\n")[0][:80]
-            sections.append(("CAPTION", (r.get("caption") or "")[:600], "#2563eb"))
-            sections.append(("SOURCE", str(r.get("source") or r.get("credit")
-                             or r.get("link") or "not recorded"), "#64748b"))
-            sections.append(("JOURNEY", "Clip picked from the viral X pool, "
-                             "cut and captioned by reel.py, published via "
-                             + ("native IG audio bundle" if r.get("publish") == "bundle"
-                                else "Make webhook") + ". Reels carry no "
-                             "generated image, so there is no image prompt.",
-                             "#16a34a"))
+            chips = [("reel", "#7c3aed"),
+                     ("IG audio" if r.get("publish") == "bundle" else "Make",
+                      "#2563eb")]
+            status = "Viral X clip, cut and captioned. Reels have no image prompt."
+            link = r.get("source") or r.get("credit") or r.get("link")
         else:
             pj = os.path.join(post_dir, "post.json")
             if not os.path.exists(pj):
@@ -114,74 +112,78 @@ def notify_owner(post_dir, base_url=None):
             p = json.load(open(pj))
             slides = p.get("items") or p.get("slides") or [{}]
             cover = slides[0]
-            title = re.sub(r"<[^>]+>", "", cover.get("headline") or "")[:80]
-            kind = f"carousel ({p.get('container', '?')}, {len(slides)} slides)"
-            sections.append(("COVER HEADLINE", title, "#2563eb"))
-            story = p.get("story") or {}
-            if story:
-                sections.append(("SOURCE STORY",
-                                 str(story.get("title", ""))[:200] + "\n"
-                                 + str(story.get("link", "")), "#64748b"))
+            kind = "CAROUSEL"
+            title = re.sub(r"<[^>]+>", "", cover.get("headline") or "")[:90]
+            link = (p.get("story") or {}).get("link")
+            flags = []
+            if p.get("cover_fallback"):
+                flags.append("cover fallback: " + str(p["cover_fallback"])[:120])
+            if p.get("editor_override"):
+                flags.append("text gate said NO, shipped flagged: "
+                             + str(p["editor_override"])[:160])
+            if p.get("gate_r"):
+                flags.append("vision gate dropped an image: "
+                             + str(p["gate_r"])[:160])
+            if flags:
+                status, s_color = "\n".join(flags), "#ea580c"
+            else:
+                status = "Both quality gates passed. No overrides."
+            chips = [(str(p.get("container", "post")), "#7c3aed"),
+                     (f"{len(slides)} slides", "#2563eb"),
+                     ("CLEAN", "#16a34a") if not flags else ("FLAGGED", "#ea580c")]
             # the EXACT prompt sent to the model (genimg sidecar); the brief
             # from post.json is the fallback for older posts
-            prompt = None
             media = cover.get("media") or ""
-            sidecar = os.path.join(post_dir, os.path.basename(media) + ".prompt.txt")
+            sidecar = os.path.join(post_dir,
+                                   os.path.basename(media) + ".prompt.txt")
             if media and os.path.exists(sidecar):
                 prompt = open(sidecar).read()
-            if prompt:
-                sections.append(("FULL IMAGE PROMPT (exactly as sent to the "
-                                 "model)", prompt, "#7c3aed"))
             elif cover.get("image_prompt"):
-                sections.append(("IMAGE BRIEF (writer's cover brief; the "
-                                 "frozen scaffold in genimg.py rides on top)",
-                                 cover["image_prompt"], "#7c3aed"))
+                prompt, p_label = cover["image_prompt"], \
+                    "IMAGE BRIEF (scaffold rides on top)"
+            elif media:
+                prompt, p_label = "Real press photo, not generated.", "COVER IMAGE"
             else:
-                sections.append(("IMAGE PROMPT", "None. The cover is "
-                                 + ("a real article/press photo, not generated."
-                                    if media else "BARE (no picture). Check "
-                                    "the bare-cover alert issue."),
-                                 "#7c3aed" if media else "#dc2626"))
-            journey, clean = [], True
-            if p.get("cover_fallback"):
-                clean = False
-                journey.append("Cover fallback: " + str(p["cover_fallback"]))
-            if p.get("editor_override"):
-                clean = False
-                journey.append("Editor gate B rejected, but the never-skip "
-                               "floor shipped it flagged: "
-                               + str(p["editor_override"])[:500])
-            if p.get("gate_r"):
-                clean = False
-                journey.append("Vision gate R dropped or flagged images: "
-                               + str(p["gate_r"])[:500])
-            if clean:
-                journey.append("Clean run: passed the text gate and the "
-                               "vision gate with no overrides.")
-            sections.append(("JOURNEY", "\n".join(journey),
-                             "#16a34a" if clean else "#ea580c"))
-        # build both bodies from the same sections
-        text = f"POSTED: {kind}\n{title}\n\n" + "\n\n".join(
-            f"{label}:\n{body}" for label, body, _ in sections)
-        cards = "".join(
-            f'<div style="border-left:6px solid {c};background:#f8fafc;'
-            f'border-radius:8px;padding:12px 16px;margin:12px 0">'
-            f'<div style="font-weight:bold;color:{c};font-size:13px;'
-            f'letter-spacing:.5px">{H.escape(label)}</div>'
-            f'<div style="color:#0f172a;font-size:15px;white-space:pre-wrap;'
-            f'line-height:1.5">{H.escape(body)}</div></div>'
-            for label, body, c in sections)
-        img = (f'<img src="{H.escape(img_url)}" alt="cover" style="width:100%;'
-               'max-width:420px;border-radius:12px;display:block;margin:14px 0">'
-               if img_url else "")
+                prompt, p_label = "BARE cover, no picture at all.", "COVER IMAGE"
+                chips.append(("NO PICTURE", "#dc2626"))
+        # plain-text twin
+        text = (f"{kind}: {title}\n[" + " | ".join(c for c, _ in chips) + "]\n\n"
+                + f"STATUS: {status}\n"
+                + (f"SOURCE: {link}\n" if link else "")
+                + (f"\n{p_label}:\n{prompt}\n" if prompt else ""))
+        chip_html = "".join(
+            f'<span style="background:{c};color:#fff;border-radius:20px;'
+            f'padding:4px 12px;font-size:12px;font-weight:bold;'
+            f'margin-right:6px;display:inline-block">{H.escape(t)}</span>'
+            for t, c in chips)
+        img = (f'<a href="https://www.instagram.com/yaffeai/">'
+               f'<img src="{H.escape(img_url)}" alt="cover" style="width:100%;'
+               'max-width:400px;border-radius:14px;display:block;margin:14px 0">'
+               '</a>' if img_url else "")
+        src = (f'<div style="margin:10px 0;font-size:14px">🔗 '
+               f'<a href="{H.escape(str(link))}" style="color:#2563eb">'
+               f'{H.escape(str(link))[:70]}</a></div>' if link else "")
+        pr = (f'<div style="margin-top:22px;border-top:2px dashed #cbd5e1;'
+              f'padding-top:12px"><div style="font-weight:bold;color:#7c3aed;'
+              f'font-size:12px;letter-spacing:1px">🧠 {H.escape(p_label)} '
+              f'(for your corrections)</div>'
+              f'<div style="font-family:monospace;font-size:12px;color:#475569;'
+              f'background:#f1f5f9;border-radius:8px;padding:10px;'
+              f'white-space:pre-wrap;line-height:1.45">{H.escape(prompt)}'
+              '</div></div>' if prompt else "")
         htm = (f'<div style="font-family:Arial,Helvetica,sans-serif;'
-               f'max-width:640px;margin:auto">'
-               f'<div style="background:#16a34a;color:#fff;border-radius:10px;'
-               f'padding:14px 18px;font-size:18px;font-weight:bold">'
-               f'POSTED: {H.escape(kind)}</div>'
-               f'<div style="font-size:20px;font-weight:bold;color:#0f172a;'
-               f'margin:14px 0 4px">{H.escape(title)}</div>'
-               f'{img}{cards}</div>')
+               f'max-width:600px;margin:auto">'
+               f'<div style="background:{s_color};color:#fff;border-radius:12px;'
+               f'padding:14px 18px;font-size:19px;font-weight:bold">'
+               f'{"✅" if s_color == "#16a34a" else "🟠"} POSTED · {kind}</div>'
+               f'<div style="margin:12px 0 8px">{chip_html}</div>'
+               f'<div style="font-size:19px;font-weight:bold;color:#0f172a;'
+               f'line-height:1.3">{H.escape(title)}</div>'
+               f'{img}'
+               f'<div style="border-left:6px solid {s_color};background:#f8fafc;'
+               f'border-radius:8px;padding:10px 14px;margin:10px 0;font-size:15px;'
+               f'color:#0f172a;white-space:pre-wrap">{H.escape(status)}</div>'
+               f'{src}{pr}</div>')
         import smtplib
         from email.mime.multipart import MIMEMultipart
         from email.mime.text import MIMEText
