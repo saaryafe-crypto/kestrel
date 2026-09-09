@@ -1,0 +1,59 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP"
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "OpenAI's AI <em>solved</em> the math problem nobody cracked in <em>90 years</em>",
+   "body": "<b>10,000 AI agents</b> ran in parallel and cracked the <b>Navier-Stokes equations</b> in just <b>88 hours</b>. This is one of math's 7 Millennium Prize Problems with a <b>$1 million</b> bounty that has sat unclaimed for roughly 90 years",
+   "media": "posts/2026-09-09-ai-recap/media-0.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "A mathematician says <em>OpenAI built its breakthrough</em> on <em>his stolen work</em>",
+   "body": "<b>Tristan Buckmaster</b> spent a year working on Navier-Stokes with AI. He says his work leaked to <b>OpenAI</b>, who raced ahead, then pressured him to remove his co-author from the paper because that person works at <b>Anthropic</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 84,
+   "headline": "<em>Google</em> built an AI database mapping <em>9 billion DNA mutations</em>",
+   "body": "<b>AlphaGenome Atlas</b> predicts the impact of every possible single-letter change to human DNA, covering all <b>9 billion</b> variations. Researchers can now look up any mutation and get its predicted effect on biology, without running a single lab test",
+   "media": "posts/2026-09-09-ai-recap/media-2.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 92,
+   "headline": "Students <em>not using AI chatbots</em> are getting <em>better grades</em>",
+   "body": "A <b>Bloomberg</b> study found students who avoid <b>AI chatbots</b> for schoolwork are consistently scoring higher than those who use them. It's the opposite of what most people assumed, and it raises a sharp question about whether AI helps students learn or just helps them skip the thinking",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 84,
+   "headline": "The top <em>AI labs</em> are swapping <em>the crown</em> faster than ever",
+   "body": "Analysts had <b>OpenAI</b> pegged as falling behind in the AI race just weeks ago. The leapfrog between the top labs is now so fast that last month's laggard can become this month's leader before a benchmark even gets published",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "SAVE <em>TODAY'S AI BRIEFING</em>",
+   "body": "\u2022 OpenAI's AI cracked Navier-Stokes, a 90-year $1M math problem, in 88 hours\n\u2022 The mathematician who got there first says OpenAI used his stolen research\n\u2022 Google's AlphaGenome Atlas maps all 9 billion possible DNA mutations\n\u2022 Bloomberg: students avoiding AI chatbots score higher grades\n\u2022 The AI leapfrog between top labs is faster than any benchmark can track",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2b05\ufe0f to see what happened in AI in the last 24 hours, from OpenAI cracking a 90-year math mystery to students scoring worse with AI chatbots\n\nOpenAI says 10,000 AI agents cracked the Navier-Stokes equations in 88 hours, claiming a $1M Millennium Prize that sat open for roughly 90 years; mathematician Tristan Buckmaster says OpenAI used his private Codex sessions to build that breakthrough, then pressured him to drop his Anthropic co-author; Google launched AlphaGenome Atlas, an AI database predicting the impact of all 9 billion possible DNA mutations; Bloomberg reports students who avoid AI chatbots for schoolwork score higher grades than those who rely on them; the AI leapfrog between top labs is so fast that OpenAI went from laggard to front-runner in a matter of weeks\n\nAI is no longer just automating tasks. Today it cracked a 90-year math problem, mapped 9 billion DNA mutations, and sparked accusations of stolen research. The pace of change is outrunning how fast most people can adapt. Trying to figure out where AI fits in your business? DM us \"AI\" and we'll map it out for you.\n\nSources: OpenAI, TechCrunch, Google DeepMind, Bloomberg\n\n#AI #OpenAI #ArtificialIntelligence #TechNews #MachineLearning",
+ "pinned_comment": "If OpenAI's AI really solved Navier-Stokes, does that mean we've crossed into AGI territory, or is a machine solving one hard math problem still something different entirely?",
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "COVER IMAGE \u2014 text-on-black with CGI particle burst. Image Law is explicit: 'Text-on-black or empty-top covers are failures' and 'every ELEMENT in the frame must read as photographed... A frame or any element that reads as illustration, cartoon, game render, or concept art is a REJECT.' The orange particle streak reads as digital/CGI art, not a photographed element. There is no subject \u2014 no face, ",
+ "gate_r": "s7: The bullet point below the CTA button ('The AI leapfrog between top labs\u2026') is orphaned beneath 'SEND THIS TO A FRIEND' with no visual hierarchy, making the slide layout look broken and unprofessional."
+}

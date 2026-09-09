@@ -1,0 +1,9 @@
+Swipe ⬅️ to see what happened in AI in the last 24 hours, from OpenAI cracking a 90-year math mystery to students scoring worse with AI chatbots
+
+OpenAI says 10,000 AI agents cracked the Navier-Stokes equations in 88 hours, claiming a $1M Millennium Prize that sat open for roughly 90 years; mathematician Tristan Buckmaster says OpenAI used his private Codex sessions to build that breakthrough, then pressured him to drop his Anthropic co-author; Google launched AlphaGenome Atlas, an AI database predicting the impact of all 9 billion possible DNA mutations; Bloomberg reports students who avoid AI chatbots for schoolwork score higher grades than those who rely on them; the AI leapfrog between top labs is so fast that OpenAI went from laggard to front-runner in a matter of weeks
+
+AI is no longer just automating tasks. Today it cracked a 90-year math problem, mapped 9 billion DNA mutations, and sparked accusations of stolen research. The pace of change is outrunning how fast most people can adapt. Trying to figure out where AI fits in your business? DM us "AI" and we'll map it out for you.
+
+Sources: OpenAI, TechCrunch, Google DeepMind, Bloomberg
+
+#AI #OpenAI #ArtificialIntelligence #TechNews #MachineLearning
