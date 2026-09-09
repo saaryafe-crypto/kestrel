@@ -1,56 +1,66 @@
 {
- "ts": 1788900882.2380767,
+ "ts": 1788910114.6715245,
  "updated": "2026-09-08",
  "hot": [
   {
    "name": "Jeremy Allen White",
-   "why_hot_now": "The Bear continues dominating awards conversation and his Calvin Klein campaigns keep breaking the internet.",
-   "typical_scene": "sweat-soaked chef coat, cramped kitchen, screaming 'yes chef'"
+   "why_hot_now": "His shirtless Vanity Fair shoot went massively viral this week and he is being anointed Sexiest Man Alive 2026.",
+   "typical_scene": "shirtless on a beach, jawline catching the light"
   },
   {
-   "name": "Addison Rae",
-   "why_hot_now": "Debut album plus a globally sold-out skincare line launch have her at full 2026 cultural saturation.",
-   "typical_scene": "glowing promo selfie surrounded by pastel skincare bottles"
+   "name": "Olivia Rodrigo",
+   "why_hot_now": "Her 65-date Unraveled Tour launches September 25; ticket hysteria and album-teaser clips are flooding feeds right now.",
+   "typical_scene": "performing in a torn prom dress, crowd screaming every word"
   },
   {
-   "name": "Benson Boone",
-   "why_hot_now": "His TikTok-to-stadium arc keeps accelerating with back-flip stage clips going viral every week.",
-   "typical_scene": "sparkly jumpsuit, mid-air back-flip over a screaming arena crowd"
+   "name": "Jay-Z",
+   "why_hot_now": "HBO's eight-part docuseries 'JAŸ-Z in 8' covering his full career dropped this month and is the talk of streaming.",
+   "typical_scene": "rare archival footage in a tailored suit, early-career concert clips"
   },
   {
-   "name": "Karol G",
-   "why_hot_now": "Dominates global streaming charts and is the most-discussed female artist on social media right now.",
-   "typical_scene": "neon-lit stage, platinum-blonde hair, massive crowd singing every word"
+   "name": "The Pitt",
+   "why_hot_now": "The HBO medical drama leads all 2026 Emmy nominees with 25 nods as the main ceremony airs Monday September 14.",
+   "typical_scene": "Noah Wyle sprinting through a chaotic ER trauma bay"
   },
   {
-   "name": "GTA 6",
-   "why_hot_now": "Hacker group 'Cyberleek' is drip-feeding stolen Rockstar gameplay footage and demanding a public apology, breaking every gaming feed.",
-   "typical_scene": "grainy watermarked leak clip stitched next to Rockstar's total silence"
+   "name": "Hacks",
+   "why_hot_now": "Its final season set a comedy Emmy record with 24 nominations; countdown to the September 14 ceremony is everywhere.",
+   "typical_scene": "Jean Smart in a power blazer roasting someone backstage"
   },
   {
-   "name": "Seattle Seahawks",
-   "why_hot_now": "Defending Super Bowl champs host the first Wednesday NFL season opener since 2012 on September 9.",
-   "typical_scene": "Lumen Field championship banner drop, prime-time Wednesday crowd going wild"
+   "name": "The Gentlemen",
+   "why_hot_now": "Netflix dropped Season 2 on September 3 to massive viewership and instantly quotable clips are dominating TikTok.",
+   "typical_scene": "Theo James in a tailored suit inside a crumbling English manor"
   },
   {
-   "name": "Luke Bryan",
-   "why_hot_now": "'Down Goes the Whiskey' went viral because brands and fans are roasting it harder than anyone is listening to it.",
-   "typical_scene": "Southwest Airlines clowning in his YouTube comment section"
+   "name": "Celine Dion",
+   "why_hot_now": "Her Paris La Défense Arena residency opens September 12, her first concerts since her stiff-person syndrome battle.",
+   "typical_scene": "center stage in Paris, arms outstretched, audience in tears"
   },
   {
-   "name": "Apple Folding iPhone Ultra",
-   "why_hot_now": "Launching September 9 — same night as the NFL opener — flooding every feed with unboxing and crease-test content.",
-   "typical_scene": "slow-motion fold reveal, hinge close-up, creator gasp reaction"
+   "name": "NFL",
+   "why_hot_now": "The 2026 season opens Wednesday September 9 with the historic first Wednesday kickoff, Seahawks vs Patriots Super Bowl rematch.",
+   "typical_scene": "Seahawks raising a Super Bowl banner at Lumen Field, opening night fireworks"
+  },
+  {
+   "name": "Widow's Bay",
+   "why_hot_now": "The Apple TV+ dark comedy-horror swept eight Creative Arts Emmys this weekend and is the upset story heading into Sunday's main show.",
+   "typical_scene": "Betty Gilpin looking haunted in a foggy New England coastal town"
+  },
+  {
+   "name": "Mariska Hargitay",
+   "why_hot_now": "She hosts the September 14 Emmys — the first woman to host in 15 years — generating major buzz clips all week.",
+   "typical_scene": "center stage at Peacock Theater in a gown, delivering sharp one-liners"
   }
  ],
  "memes": [
-  "'Saxophone Gets Louder' — video zooms into a disaster moment while a sax blares from soft to full chaos",
-  "'KitKat Heist' — imagining the criminal mastermind behind 400,000 stolen KitKat bars found missing across Europe",
-  "GTA 6 Cyberleek reactions — grainy watermarked gameplay clip stitched next to Rockstar's total silence",
-  "'My American Girl Doll' reveal — childhood-nostalgia format that pivots to a grown-up prized possession",
-  "'It's a Clock' — delayed-realization format where the punchline is something you completely missed as a kid",
-  "'The Ancestor Photo Prank' — showing parents a fake celebrity ancestor photo and filming their proud reaction",
-  "Tornado Squirrel resurgence — the iconic storm-photo squirrel photoshopped calmly into every current crisis"
+  "'tfw you didn't agree to this' — a new DiCaprio reaction image from a ceremony, pasted onto every relatable inconvenience",
+  "'2026 is the new 2016' nostalgia wave: people reposting grainy mirror selfies and screenshots from long-dead apps",
+  "'No Further Questions' format — closing any argument with a judge's gavel gif to shut down scrutiny of your life choices",
+  "Ancestor Photo Prank: Photoshopping a celebrity headshot into a sepia-toned 'family heirloom' to fool relatives in the group chat",
+  "Baked Potato With Ski Goggles — absurdist visual dropped as the punchline to any 'wildly out of its element' situation",
+  "Tornado Squirrel resurgence: the spinning-squirrel video remixed onto every news clip about someone barely holding it together",
+  "'But Make It Make Sense' caption format pairing a completely surreal image with the most mundane complaint possible"
  ],
  "ai_flagships": [
   "Claude Fable 5.1",

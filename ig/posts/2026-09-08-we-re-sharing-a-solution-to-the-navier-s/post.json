@@ -1,0 +1,123 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "OPENAI JUST SOLVED THE MATH PROBLEM THAT STUMPED EVERY MATHEMATICIAN ON EARTH FOR 90 YEARS, <em>AND THE AI THAT DID IT ISN'T EVEN OUT YET</em>",
+   "hsize": 62,
+   "kicker": "ON A MODEL STRONGER THAN GPT-6 ASTRA",
+   "media": "posts/2026-09-08-we-re-sharing-a-solution-to-the-navier-s/gen-0-r-r.jpg",
+   "image_prompt": "SUBJECT: Sam Altman, wide-eyed involuntary triumph grin, arms spread open, medium-full shot facing camera. BACKDROP PROPS: glowing OpenAI symbol, electric blue aura. PALETTE: electric blue and bright white. 35mm documentary, flash, film grain.",
+   "gen_person": true
+  },
+  {
+   "type": "content",
+   "headline": "EVERY MATHEMATICIAN ASSUMED <em>THIS WOULD NEVER HAPPEN</em>",
+   "hsize": 90,
+   "body": "The Millennium Prize Problems are the <b>seven</b> hardest math problems alive. Unsolved for decades, despite the best mathematicians on Earth. Everyone assumed no machine could touch them.\n\nThen today one fell.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "AI AGENTS <em>CRACKED THE HARDEST FLUID MATH PROBLEM</em> IN HISTORY",
+   "hsize": 88,
+   "body": "The Navier-Stokes problem asks if the equations governing how air, water, and blood move can ever fail. Your blood runs on those equations. Nobody answered it in <b>90 years</b>.\n\nWhat solved it changes everything.",
+   "media": "posts/2026-09-08-we-re-sharing-a-solution-to-the-navier-s/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "THE AI ISN'T EVEN OUT YET",
+   "hsize": 110,
+   "body": "Built on a model stronger than GPT-6 Astra, which nobody can access.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE POST HIT <em>27.7 MILLION VIEWS</em> IN HOURS",
+   "hsize": 92,
+   "body": "One of <b>7</b> unsolved Millennium Prize Problems, cracked\n<b>78K</b> likes, <b>20K</b> bookmarks in hours\n<b>13K</b> reposts, <b>3.6K</b> replies\n\nSo what does this break open next?",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "SOMEWHERE TONIGHT, <em>A MATHEMATICIAN SAW THAT TWEET</em>",
+   "hsize": 88,
+   "body": "They spent decades on this exact problem. AI did it, running on a model nobody can touch yet.\n\nYour hardest business problems deserve this treatment, without hiring anyone.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: OPENAI JUST CRACKED <em>A 90-YEAR MATH PROBLEM</em>",
+   "hsize": 58,
+   "body": "Millennium Prize Problems: hardest math alive\nAI agents solved the Navier-Stokes problem\nModel used: stronger than unreleased GPT-6 Astra\n<b>27.7M</b> people watched it happen live\n\nSend this to anyone who thinks AI has limits",
+   "face": "sam-altman",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see what AI just did to a math problem that broke every mathematician on Earth for 90 years \ud83d\udd2c\n\nWhat everyone assumed about machine reasoning, the Navier-Stokes problem and what it actually asks, 90 years of failure ended in one announcement, the model behind it stronger than GPT-6 Astra and not yet released, the virality numbers, the mathematician reading that tweet tonight, and what this means for your business\n\nIf AI can solve a problem that stumped every mathematician for 90 years, the argument that any profession requires irreplaceable human depth starts to collapse. Medicine, law, engineering, physics. The only question now is speed.\n\nRunning a business? DM us \"AI\" and we'll show you what this means for yours.\n\nSources: OpenAI\n\n#ai #openai #technology #math #artificialintelligence",
+ "pinned_comment": "The part that should actually terrify you: the model that cracked this isn't GPT-6. GPT-6 Astra itself hasn't launched. This was something stronger. And OpenAI still hasn't said what it is.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "OPENAI JUST CRACKED ONE OF THE SEVEN HARDEST MATH PROBLEMS IN HISTORY, <em>A PROBLEM NO HUMAN SOLVED IN 90 YEARS.</em>",
+   "OPENAI JUST SOLVED THE NAVIER-STOKES PROBLEM, <em>ONE OF MATH'S SEVEN IMPOSSIBLE CHALLENGES,</em> WITH AN AI THAT HASN'T LAUNCHED",
+   "OPENAI AI AGENTS JUST SOLVED <em>ONE OF THE SEVEN HARDEST MATH PROBLEMS IN EXISTENCE,</em> USING A MODEL NOBODY CAN ACCESS",
+   "OPENAI JUST CRACKED A MATH PROBLEM NO HUMAN SOLVED IN 90 YEARS, <em>RUNNING ON AN AI THE PUBLIC CAN'T EVEN USE</em>",
+   "OPENAI JUST SOLVED 90-YEAR-OLD MATH ABOUT WHETHER THE EQUATIONS GOVERNING BLOOD AND AIR CAN FAIL, <em>ONE OF THE SEVEN HARDEST MATH PROBLEMS ON EARTH.</em>",
+   "OPENAI JUST USED A TEAM OF AI AGENTS TO CRACK A MATH PROBLEM HUMANS COULDN'T IN 90 YEARS, <em>ON AN UNRELEASED MODEL.</em>",
+   "OPENAI JUST SOLVED A MATH PROBLEM THAT STUMPED ALL OF HUMANITY FOR 90 YEARS, <em>WITH A MODEL NOBODY CAN ACCESS YET.</em>",
+   "OPENAI JUST BEAT EVERY MATHEMATICIAN ALIVE <em>AT A PROBLEM THAT STUMPED HUMANITY FOR 90 YEARS</em>",
+   "OPENAI JUST LET AI SOLVE THE MATH THAT STUMPED HUMANS FOR 90 YEARS. <em>THE MODEL THAT DID IT HASN'T BEEN RELEASED YET.</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   8,
+   8.5,
+   8,
+   8,
+   8,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "[3]'s 'CRACKED' plus 'PUBLIC CAN'T EVEN USE' creates stronger emotional frustration than [6]. The exclusivity hook hits harder for an instant stop-scrolling reaction."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "OPENAI JUST CRACKED ONE OF THE 7 HARDEST MATH PROBLEMS IN EXISTENCE, <em>AND THE AI THAT DID IT HASN'T BEEN RELEASED</em>",
+   "OPENAI JUST SOLVED THE MATH PROBLEM THAT STUMPED EVERY MATHEMATICIAN ON EARTH FOR 90 YEARS, <em>AND THE AI THAT DID IT ISN'T EVEN OUT YET</em>",
+   "OPENAI JUST SOLVED THE HARDEST MATH PROBLEM IN HISTORY, <em>AND 27.7 MILLION PEOPLE WATCHED IT HAPPEN IN HOURS</em>"
+  ],
+  "scores": [
+   6,
+   9,
+   0
+  ],
+  "winner": 1,
+  "why": "\"Stumped every mathematician on earth for 90 years\" creates the instant \"wait, WHAT?\" that stops a 2am scroll; [0] reads like a well-written news headline but doesn't grab your gut."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "OpenAI",
+  "actor_known": true,
+  "anchor": "OpenAI",
+  "specifics": [
+   "A math problem unsolved by any human for 90 years was cracked by a team of AI agents",
+   "The model that did it is more powerful than GPT-6 Astra \u2014 a model that hasn't even been released to the public",
+   "The Navier-Stokes problem is one of the seven Millennium Prize Problems \u2014 the hardest problems in all of mathematics",
+   "27.7 million people watched the announcement hit in real time",
+   "The problem asks whether the math governing how fluids like air, water, and blood move can ever catastrophically fail"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "We\u2019re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model signi",
+  "link": "https://x.com/OpenAI/status/2097374640582668336",
+  "judge_interest": 6,
+  "scout_score": 135.0
+ },
+ "editor_override": "SLIDE 5 IS REACTION-BAIT \u2014 INSTANT KILL TRIGGERED. The headline 'THE POST HIT 27.7 MILLION VIEWS IN HOURS' is an engagement metric as the story payoff, and the body is entirely a stat dump: 78K likes, 20K bookmarks, 13K reposts, 3.6K replies. This is the exact pattern the Doctrine names as instant kill ('likes/views/comments as the substance'). The same violation bleeds into the CTA slide ('27.7M "
+}
