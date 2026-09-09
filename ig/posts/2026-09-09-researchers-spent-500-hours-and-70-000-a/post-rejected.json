@@ -1,0 +1,132 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR LG TV KEPT LOGGING YOUR HOME CONVERSATIONS AFTER YOU UNPLUGGED IT FROM THE INTERNET, <em>THEN UPLOADED EVERYTHING THE SECOND YOU RECONNECTED.</em>",
+   "kicker": "LG SAYS IT DOESN'T RECORD ANYTHING",
+   "hsize": 62,
+   "hook_candidates": [
+    {
+     "headline": "YOUR LG TV LOGGED WHAT YOU SAID AT HOME, AND WHEN RESEARCHERS PULLED THE PLUG, <em>IT WAITED AND SENT EVERYTHING THE SECOND IT RECONNECTED</em>"
+    },
+    {
+     "headline": "<em>YOUR LG TV HAS BEEN WRITING DOWN WHAT YOU SAY IN YOUR LIVING ROOM</em> AND SENDING THE TRANSCRIPTS TO LG'S AD TEAM, EVEN IN STANDBY"
+    },
+    {
+     "headline": "RESEARCHERS SPENT $70,000 AND FOUND <em>PLAIN TEXT TRANSCRIPTS OF HOME CONVERSATIONS</em> LOGGED BY LG TVs IN STANDBY AND SENT TO LG'S ADVERTISERS"
+    },
+    {
+     "headline": "<em>YOUR LG TV LOGGED EVERY WORD YOU SAID AT HOME</em> IN STANDBY AND ROUTED THE TRANSCRIPTS TO LG'S AD DIVISION. 216 MILLION TVS."
+    },
+    {
+     "headline": "RESEARCHERS SPENT $70,000 TO PROVE YOUR LG TV IS TAKING NOTES ON YOUR LIVING ROOM, <em>AND UNPLUGGING THE INTERNET DOESN'T STOP IT</em>"
+    }
+   ],
+   "media": "posts/2026-09-09-researchers-spent-500-hours-and-70-000-a/gen-0.jpg",
+   "image_prompt": "LG OLED TV in dark room glowing blood-red in standby mode displays warning triangle and dollar-sign icon symbols on screen with sinister crimson light."
+  },
+  {
+   "type": "content",
+   "headline": "MOST PEOPLE ASSUME STANDBY MEANS NOTHING'S RUNNING. <em>RESEARCHERS SPENT $70,000 TO TEST THAT.</em>",
+   "hsize": 78,
+   "body": "The assumption: your TV is just a screen. Off is off.\n\nA team spent <b>500 hours</b> testing what LG TVs actually do. What they found in your TV was not what LG says happens.",
+   "media": "posts/2026-09-09-researchers-spent-500-hours-and-70-000-a/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "THEY FOUND <em>A PLAIN TEXT FILE OF WHAT PEOPLE SAID IN THEIR OWN HOMES</em>",
+   "hsize": 82,
+   "body": "<b>Plain text</b> transcripts, logged in standby\n<b>LG's ad division</b> received every file\n<b>Every device</b> on your network was mapped\n<b>216 million</b> LG TVs in living rooms",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "UNPLUGGING DIDN'T STOP IT",
+   "hsize": 110,
+   "body": "Researchers found multiple sessions queued locally, waiting for reconnection.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>THE TV WAS CHEAP. THE CONVERSATIONS WERE THE PRODUCT.</em> LG SAYS IT DOESN'T RECORD ANYTHING.",
+   "hsize": 82,
+   "body": "Researchers found the text files anyway.\n\nLG's official statement is still live.\n\nYour TV kept a written record of your conversations to prove it isn't keeping a record of your conversations",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "YOUR LG TV <em>MAPPED EVERY DEVICE ON YOUR HOME NETWORK</em> AND SENT THAT DATA TOO",
+   "hsize": 82,
+   "body": "Not just what you say. Every phone, laptop, and camera on your network.\n\nIf your business has an LG TV in a conference room, that is your entire office network.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: YOUR LG TV <em>HAS BEEN LOGGING YOUR HOME CONVERSATIONS</em>",
+   "hsize": 58,
+   "body": "\u2713 <b>$70,000</b> and <b>500 hours</b> of research\n\u2713 Routed to <b>LG's advertising division</b>\n\u2713 <b>216 million</b> TVs in living rooms\n\nSend this to the friend who has an LG TV",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through: LG TVs have been quietly logging what people say at home during standby and sending plain text transcripts to LG's advertising division, even after researchers physically unplugged the internet \ud83d\udcfa\n\nThe $70,000 investigation and what it found, the plain text transcript files and who received them, the moment researchers yanked the internet cable and the TV saved everything locally, the 216 million TVs currently in living rooms, LG's official denial versus the actual files, the home network device mapping no one mentioned, what it means if your business has a smart TV in a conference room\n\nSmart TVs have been one of the most data-hungry devices in the home for years. This is the first documented case of plain text conversation transcripts being logged during standby and routed directly to an advertising division at this scale. Regulators are being publicly pressured to act. The TV was cheap. The conversations were the product.\n\nRunning a business with smart TVs in your office or conference rooms? DM us \"AI\" and we'll show you what this means for yours.\n\nSources: Mario Nawfal on X, independent security researchers\n\n#privacy #smarttv #datasecurity #surveillance #aitech",
+ "pinned_comment": "The part that gets me: LG's official denial is still live on their website. The researchers' text files are also still live. Both can't be true.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "<em>216 MILLION LG TVS</em> HAVE BEEN WRITING DOWN YOUR LIVING ROOM CONVERSATIONS IN STANDBY AND SENDING THEM TO LG'S AD TEAM",
+   "UNPLUGGING YOUR INTERNET DOESN'T STOP YOUR LG TV FROM SAVING YOUR LIVING ROOM TRANSCRIPTS <em>AND UPLOADING THEM THE SECOND YOU RECONNECT</em>",
+   "LG SAYS ITS TVS DON'T RECORD YOUR CONVERSATIONS. <em>RESEARCHERS JUST FOUND THE TEXT FILES AFTER SPENDING $70,000 TO LOOK.</em>",
+   "YOUR LG TV IS QUIETLY WRITING DOWN YOUR LIVING ROOM CONVERSATIONS IN STANDBY <em>AND SENDING PLAIN TEXT FILES TO LG'S AD TEAM</em>",
+   "YOUR LG TV WRITES DOWN WHAT YOU SAY IN YOUR LIVING ROOM WHILE IT LOOKS OFF <em>AND SENDS IT STRAIGHT TO LG'S ADVERTISERS</em>"
+  ],
+  "scores": [
+   0,
+   8,
+   9,
+   0,
+   0
+  ],
+  "winner": 2,
+  "why": "[2] lands hardest with the stark LG-denies-but-researchers-found contradiction plus the $70K credibility signal. [1] is close but gets diluted by wordiness and framing as mechanism rather than scandal."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "YOUR LG TV KEPT LOGGING YOUR HOME CONVERSATIONS AFTER YOU UNPLUGGED IT FROM THE INTERNET, <em>THEN UPLOADED EVERYTHING THE SECOND YOU RECONNECTED.</em>",
+   "YOUR LG TV HAS BEEN LOGGING YOUR HOME CONVERSATIONS AND SENDING THEM TO ITS AD TEAM. <em>UNPLUGGING YOUR INTERNET DID NOT STOP IT.</em>",
+   "LG SAYS ITS TVS DON'T RECORD YOUR CONVERSATIONS. <em>RESEARCHERS JUST FOUND THE TEXT FILES AFTER SPENDING $70,000 TO LOOK.</em>",
+   "216 MILLION LG TVS HAVE BEEN LOGGING YOUR HOME CONVERSATIONS AND SENDING THEM TO AD BUYERS. <em>LG SAYS ITS TVS DON'T RECORD ANYONE.</em>"
+  ],
+  "scores": [
+   9,
+   0,
+   7,
+   0
+  ],
+  "winner": 0,
+  "why": "[0] hits you with a personal threat + shocking twist (unplugging doesn't protect you) in one narrative, making you feel the danger immediately. [2] is a good expos\u00e9 but it's about a LG lie getting caught\u2014less urgent, less about YOUR immediate threat."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "LG",
+  "actor_known": true,
+  "anchor": "your LG TV",
+  "specifics": [
+   "The TV saves transcripts when offline and uploads them the second internet returns \u2014 unplugging doesn't stop it",
+   "Plain text transcripts of in-room conversations found logged during standby mode",
+   "216 million LG TVs sitting in people's living rooms right now",
+   "LG publicly denies recording ambient conversations \u2014 researchers found the files anyway",
+   "Independent researchers spent $70,000 and 500 hours to uncover this"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (4/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Researchers spent 500 hours and $70,000 and found LG TVs logging plain text transcripts in standby, mapping every device in the house, and feeding it to LG's ad arm Unplug the internet and it saves the files until you pl",
+  "link": "https://x.com/MarioNawfal/status/2097490173953012033",
+  "judge_interest": 9,
+  "scout_score": 120
+ }
+}
