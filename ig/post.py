@@ -91,6 +91,11 @@ def notify_owner(post_dir, base_url=None):
             return
         import html as H
         base = (base_url or "").rstrip("/")
+        # WHICH account (owner Sep 9, after a Hebrew reel email with no
+        # account name sent him looking at the wrong page: "the hebrew goes
+        # only to ainews.israel"). Hebrew post dirs live under posts-he/.
+        acct = ("ainews.israel" if "posts-he" in os.path.abspath(post_dir)
+                else "yaffeai")
         title, img_url = "", (f"{base}/slide-1.jpg" if base else None)
         chips = []            # (label, color) badge chips under the banner
         status, s_color = "", "#16a34a"   # ONE short verdict line
@@ -146,8 +151,10 @@ def notify_owner(post_dir, base_url=None):
             else:
                 prompt, p_label = "BARE cover, no picture at all.", "COVER IMAGE"
                 chips.append(("NO PICTURE", "#dc2626"))
+        chips.insert(0, (f"@{acct}", "#0f172a"))
         # plain-text twin
-        text = (f"{kind}: {title}\n[" + " | ".join(c for c, _ in chips) + "]\n\n"
+        text = (f"{kind} on @{acct}: {title}\n["
+                + " | ".join(c for c, _ in chips) + "]\n\n"
                 + f"STATUS: {status}\n"
                 + (f"SOURCE: {link}\n" if link else "")
                 + (f"\n{p_label}:\n{prompt}\n" if prompt else ""))
@@ -156,7 +163,7 @@ def notify_owner(post_dir, base_url=None):
             f'padding:4px 12px;font-size:12px;font-weight:bold;'
             f'margin-right:6px;display:inline-block">{H.escape(t)}</span>'
             for t, c in chips)
-        img = (f'<a href="https://www.instagram.com/yaffeai/">'
+        img = (f'<a href="https://www.instagram.com/{acct}/">'
                f'<img src="{H.escape(img_url)}" alt="cover" style="width:100%;'
                'max-width:400px;border-radius:14px;display:block;margin:14px 0">'
                '</a>' if img_url else "")
@@ -175,7 +182,8 @@ def notify_owner(post_dir, base_url=None):
                f'max-width:600px;margin:auto">'
                f'<div style="background:{s_color};color:#fff;border-radius:12px;'
                f'padding:14px 18px;font-size:19px;font-weight:bold">'
-               f'{"✅" if s_color == "#16a34a" else "🟠"} POSTED · {kind}</div>'
+               f'{"✅" if s_color == "#16a34a" else "🟠"} POSTED · {kind} · '
+               f'@{acct}</div>'
                f'<div style="margin:12px 0 8px">{chip_html}</div>'
                f'<div style="font-size:19px;font-weight:bold;color:#0f172a;'
                f'line-height:1.3">{H.escape(title)}</div>'
@@ -190,7 +198,7 @@ def notify_owner(post_dir, base_url=None):
         msg = MIMEMultipart("alternative")
         msg.attach(MIMEText(text))
         msg.attach(MIMEText(htm, "html"))
-        msg["Subject"] = f"[yaffeai] posted: {title}"
+        msg["Subject"] = f"[{acct}] posted: {title}"
         msg["From"] = msg["To"] = GMAIL
         last = None
         for attempt in range(3):
