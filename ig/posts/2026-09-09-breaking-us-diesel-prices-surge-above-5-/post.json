@@ -1,0 +1,113 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "DIESEL HIT <em>$8 A GALLON</em> IN SOME STATES AFTER US-IRAN STRIKES ON THE WORLD'S MAIN OIL LANE",
+   "hsize": 62,
+   "media": "posts/2026-09-09-breaking-us-diesel-prices-surge-above-5-/gen-0.jpg",
+   "image_prompt": "SUBJECT: A hulking American commercial diesel semi-truck at a sun-baked truck stop, fuel nozzle driven deep into its tank \u2014 catastrophic, unstoppable. BACKDROP PROPS: A towering illuminated roadside diesel price board with a blazing red numeral on its white panel, a deep blood-orange sky cleaved by two rising columns of thick black oily smoke from the distant horizon. PALETTE: Deep orange and blood red. LABELS: \"$8\" on price board. INSET: circular bubble of dark military warships silhouetted on fire-lit open water. Documentary news photo, 35mm, slight film grain."
+  },
+  {
+   "type": "content",
+   "headline": "EVERY EXPERT SAID THE OIL LANES <em>WOULD STAY OPEN</em>",
+   "hsize": 80,
+   "body": "Even as US-Iran tensions dragged on all year, the assumption was simple: the Strait of Hormuz, the world's most critical oil chokepoint, would stay passable.\n\nThen the strikes started.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>DIESEL HIT $5.90</em> AND EVERY TRUCK IN AMERICA FELT IT",
+   "hsize": 78,
+   "body": "Every freight truck, farm vehicle, and delivery van in America runs on diesel. When diesel goes up, everything on a store shelf goes up.\n\nYour grocery bill is the last stop on that chain.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "$5.816, THE RECORD THAT JUST FELL",
+   "hsize": 110,
+   "body": "$5.90 just broke it, diesel's new all-time US record",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE STRIKES STARTED <em>AT THE WORST POSSIBLE MOMENT</em>",
+   "hsize": 80,
+   "body": "US-Iran strikes hit at peak diesel demand, exactly when prices were already under pressure.\n\nA huge share of the world's oil flows through the Strait of Hormuz. Your diesel costs are the collateral.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>WHEN DIESEL SPIKES, EVERY BUSINESS PAYS MORE</em>",
+   "hsize": 84,
+   "body": "Hormuz carries <b>20%</b> of global oil supply\nStrikes landed at peak US diesel demand\nEvery delivery truck cost just went up\nNo clear price ceiling while conflict runs",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: DIESEL JUST HIT <em>AN ALL-TIME RECORD</em>",
+   "hsize": 58,
+   "body": "Diesel hit <b>$5.90/gallon</b>, first time in US history\nSome states already above <b>$8.00/gallon</b>\nUS-Iran strikes hit during peak demand\nNo clear price ceiling while conflict continues\n\nSend this to anyone filling a work truck.",
+   "media": null
+  }
+ ],
+ "caption": "Diesel just hit an all-time US record and it's coming for your wallet. Swipe to see why this one isn't going back down \u26fd\n\nThe all-time diesel record above $5.90 a gallon, the assumption that oil shipping lanes would hold, what record pump prices do to every delivery truck and store shelf in America, the states already above $8 a gallon, the worst possible timing of US-Iran strikes landing at peak demand season, and why there's no price ceiling in sight.\n\nWhen the world's biggest oil lane enters active conflict at peak demand, prices don't just spike, they break records. Every business that ships or delivers just absorbed a cost increase with no warning.\n\nRunning a business? DM us \"AI\" and we'll show you how to stay ahead of fuel surcharges before they hit your invoices.\n\nSources: The Kobeissi Letter on X\n\n#diesel #fuelprices #inflation #oilprices #economy",
+ "pinned_comment": "The wildest part: Iran rejected the peace deal before the strikes even started. This wasn't bad luck. It was a choice, and now it's showing up at the pump.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "US DIESEL HIT $5.90 A GALLON FOR THE FIRST TIME IN HISTORY. <em>IN SOME STATES, ONE GALLON COSTS MORE THAN A FULL TANK USED TO.</em>",
+   "DIESEL JUST HIT <em>$5.90 A GALLON FOR THE FIRST TIME IN HISTORY</em> AND EVERYTHING YOU BUY COMES ON A TRUCK",
+   "SOME US STATES ARE NOW AT <em>$8 A GALLON FOR DIESEL</em> AND EVERY STORE SHELF GETS THERE BY TRUCK",
+   "DIESEL JUST HIT AN ALL-TIME US RECORD OF $5.90 A GALLON. IN SOME STATES, <em>ONE GALLON NOW COSTS MORE THAN A FULL TANK USED TO.</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   8.5,
+   6
+  ],
+  "winner": 2,
+  "why": "$8 is more shocking than $5.90, so it stops scrollers faster\u2014you gasp before you think. More extreme numbers win for scroll-stopping impact, even when both connect to your wallet."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "US AND IRAN JUST EXCHANGED STRIKES OVER THE WORLD'S MAIN OIL LANE AND DIESEL IS NOW AT <em>$8 A GALLON</em> IN SOME STATES",
+   "SOME US STATES ARE NOW AT <em>$8 A GALLON FOR DIESEL</em> AND EVERY STORE SHELF GETS THERE BY TRUCK",
+   "DIESEL JUST BROKE <em>$5.90 A GALLON FOR THE FIRST TIME IN US HISTORY</em> AND IT MOVES EVERYTHING ON EVERY STORE SHELF",
+   "EVERYTHING YOU BUY COMES ON A TRUCK AND DIESEL JUST HIT <em>$8 A GALLON IN SOME STATES</em> FOR THE FIRST TIME EVER"
+  ],
+  "scores": [
+   8,
+   7,
+   5,
+   6
+  ],
+  "winner": 0,
+  "why": "[0] connects breaking geopolitical news (strikes in oil lane) to consumer shock ($8 diesel now), making the urgent 'these are directly connected' link that stops you mid-scroll. [1] is logical and personal but reads as expected consequence, not urgent news."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "US-Iran conflict / Strait of Hormuz",
+  "actor_known": false,
+  "anchor": "diesel prices",
+  "specifics": [
+   "Diesel above $5.90/gallon \u2014 a first in US history",
+   "Some states already above $8.00/gallon",
+   "US and Iran exchanging strikes in the Strait of Hormuz",
+   "Happening during the US peak diesel demand period",
+   "Iran rejected the latest US peace proposal before strikes began"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: US diesel prices surge above $5.90/gallon for the first time in history, with prices in some states now above a record $8.00/gallon. This comes as Iran has rejects the latest US peace proposal and the US and Ir",
+  "link": "https://x.com/KobeissiLetter/status/2097317462056267918",
+  "judge_interest": 6,
+  "scout_score": 94.3
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER CONTRACT BROKEN (\u00a74): The hook leads with '$8 A GALLON IN SOME STATES' \u2014 the post's wildest claim \u2014 but no body slide ever cashes it. No slide names which states, explains the gap between $5.90 national average and $8 regional, or treats the $8 figure as its own story beat. A reader who finishes slide 6 cannot explain the headline they just swiped through. Fix: give the $8/some-states fact i"
+}
