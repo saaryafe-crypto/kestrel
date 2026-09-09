@@ -284,11 +284,11 @@ def build_cover(post_dir, photos, headlines):
     # orange headline accent belongs to the picture.
     heads = [plain(h) for h in headlines if plain(h).strip()][:2]
     if heads:
-        brief = ("SUBJECT: the hero objects of today's biggest AI news "
-                 "stories staged together as one breaking-news scene, no "
-                 "people. The stories: " + "; ".join(heads)
-                 + ". BACKDROP PROPS: glowing AI datacenter server racks. "
-                   "PALETTE: electric blue and orange")
+        brief = ("A picture of the hero objects of today's biggest AI news "
+                 "stories staged together in one breaking-news scene inside "
+                 "a glowing electric-blue-and-orange AI datacenter, no "
+                 "people, extremely realistic and shocking. The stories: "
+                 + "; ".join(heads))
         out = os.path.join(post_dir, "cover-gen.jpg")
         for attempt in range(2):
             path = genimg.generate(brief, out, cover=True, collage=True)

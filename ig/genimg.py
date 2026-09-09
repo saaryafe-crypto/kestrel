@@ -48,135 +48,62 @@ URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 NANO_URL = "https://api.replicate.com/v1/models/google/nano-banana/predictions"
 NANO_COST = 0.04
 
-# BRUTAL COVER FORMAT (owner Sep 4-5, measured across 30 @technology covers):
-# news covers are FROZEN-craft collages; the brief fills slots (SUBJECT /
-# BACKDROP PROPS / PALETTE + optional LABELS / INSET). The ARCHETYPE — who or
-# what fills the frame — varies by story type and is chosen upstream in
-# art_direct (policy collage / vendor cast / human moment / product hero /
-# labeled comparison / evidence+inset / symbolic drama). The CRAFT below
-# never varies: real-photo raw material, razor cutouts, one dominant
-# subject, oversized props, brutal saturation. Square frame (nano 1:1, the
-# renderer's scrim owns the headline zone — never bake black bands in).
-_COLLAGE_LABELS = (
-    "LABELS AND INSET (ONLY when the brief lists them — otherwise render "
-    "zero text): each briefed LABEL is one small rectangular caption chip, "
-    "bold clean sans-serif, exactly the quoted 1-3 words and no other "
-    "wording, appearing EXACTLY ONCE in the whole frame (smoke-test Sep 6: "
-    "a \"$230\" chip rendered twice, once per product copy), white on black "
-    "or on a brand color, pinned beside its target "
-    "in the UPPER two-thirds of the frame — never in the bottom third, "
-    "which the layout darkens for the headline — optionally tied to its target "
-    "by a thin hand-drawn white arrow. A briefed INSET "
-    "is one circular photo bubble with a thin white ring, placed in an upper "
-    "corner over the backdrop, showing exactly the briefed detail, tied to "
-    "the scene by a thin white arrow. ")
-_COLLAGE_TAIL = (
-    "TITLE ZONE (owner Sep 8, measured from the reference roundup covers: "
-    "every one composes its subjects high because the page writes the "
-    "headline over the bottom): the BOTTOM THIRD of the frame is reserved "
-    "for the post's title — the layout darkens it and sets big type there. "
-    "Compose every face, subject, prop, logo and chip in the UPPER "
-    "TWO-THIRDS; the bottom third holds only simple ground, floor or "
-    "backdrop wash that still reads when darkened. Never a face or key "
-    "object in the bottom third. "
-    "GRADE: very high saturation, high contrast, crisp and sharpened; either "
-    "a bright key light on the subject, or — when the brief stages a dark "
-    "scene — cinematic chiaroscuro: deep blacks, harsh 35mm flash, the two "
-    "briefed colors as glowing saturated accents cutting through the dark "
-    "(owner Sep 8: deep-black covers with punchy accents pattern-interrupt "
-    "the dark-mode feed). COLOR LAW (owner Sep 7, GPT-6 cover shipped as "
-    "one flat orange wash — 'boring and cant understand'): the briefed "
-    "palette colors the BACKDROP and accent props ONLY; the subject keeps "
-    "true-to-life colors — real skin tones, real clothing colors, real "
-    "product colors — so it POPS against the toned backdrop. NEVER a "
-    "monochrome wash where subject, backdrop and props all share one hue; "
-    "if everything is the same color the picture is unreadable at "
-    "thumbnail size. "
-    "HARD BANS: no text or letters anywhere except the exact quoted LABEL "
-    "chips and real brand logo marks, no invented words, no watermarks, no "
-    "cartoon, no illustration, no 3D render — every element photorealistic "
-    "like a graded press-photo composite. FULL BLEED: the picture fills the "
-    "whole frame edge to edge — never a black border, margin, frame or "
-    "letterbox around it (smoke-test Sep 6: nano baked a black frame). "
-    "LOGO ONCE (Sep 6 post-mortem: a cover shipped the same logo three "
-    "times — corner badge, giant backdrop copy, and a disc): each brand's "
-    "logo appears AT MOST ONCE in the whole frame, as one physical object "
-    "in the scene — NEVER blown up as the backdrop or wallpaper, never "
-    "repeated, never mirrored. THE SCENE OWNS THE BRAND (owner order Sep 6 "
-    "round 2, reference-wall forensics — nothing is stamped on afterward): "
-    "render the mark the way the reference pages do, as ONE dimensional "
-    "object lit by the scene's own light — a glowing sign on the wall "
-    "behind the subject (the Altman Codex cover), a big glossy circular "
-    "badge half-hidden behind their shoulder (the Musk Tesla-memo cover), "
-    "or a giant 3D letterform standing beside them (the Pichai Gmail M) — "
-    "never a flat pasted-on sticker.")
-_COLLAGE_SHARED = _COLLAGE_LABELS + _COLLAGE_TAIL
+# ONE SIMPLE PROMPT (owner order Sep 9, the umbrella post-mortem: the shipped
+# cover prompt was ~600 words of stacked rule boilerplate and the owner read
+# the sidecar — "Why the prompt is so complicated?... you are just ai
+# slopping every prompt. there is no thinking behind the prompt... think
+# like a viral youtube thumbnail creator. MRbeast for example". His spec,
+# shape verbatim: "a picture of a self driving umbrella following (someone
+# famous) without him holding it - showing a futuristic umbrella and make it
+# extremely realistic and shocking". So the BRIEF — one vivid sentence from
+# art_direct — IS the prompt, and the scaffold below is the only boilerplate
+# that survives. Every line kept earns its place with a shipped failure:
+# title zone (Sep 8: heads under the headline), color pop (Sep 7: flat
+# orange wash), text ban (Circle K: 5 of 6 images died to garbled text),
+# label-once (Sep 6: a "$230" chip rendered twice), logo-once (Sep 6: same
+# logo three times), full bleed (Sep 6: nano baked a black frame),
+# press-photo realism (Sep 3: cartoon covers). Everything else the old
+# 600-word scaffold policed (stop test, chiaroscuro recipes, cutout-edge
+# styling, cliche bans) is enforced by the image judge in write.image_score
+# instead — the judge catches flaws for free, prompt bloat causes them.
+_TAIL = (
+    " Compose everything important in the upper two-thirds of the frame; "
+    "the bottom third stays simple background, because the headline is "
+    "printed over it. Bright, loud, saturated colors true to the story; "
+    "the main subject keeps its natural real-life colors so it pops — "
+    "never one flat color wash over the whole picture. No words, text, "
+    "captions or lettering anywhere; only if the brief quotes exact label "
+    "words, render each quoted label exactly once as one small clean "
+    "caption chip in the upper two-thirds. A brand's real logo may appear "
+    "at most once, as one physical object inside the scene — never as "
+    "wallpaper. The picture fills the whole frame edge to edge, no "
+    "borders. Extremely realistic and shocking.")
 COLLAGE_PERSON = (
-    " FORMAT LAW — photorealistic breaking-news collage cover, vertical 4:5 "
-    "portrait frame. "
-    "SUBJECT: the person from the attached reference photo, cut-out style — "
-    "face, hair and clothing identical to the reference photograph, never "
-    "redrawn from memory — waist-up, one clear peak emotion as briefed, "
-    "centered, filling 50-60% of the frame height, razor-sharp cutout edges "
-    "with a subtle light rim; both upper corners of the frame stay clear of "
-    "the head, backdrop only there. "
-    "BACKDROP directly behind the subject, large and unmistakable: ONLY the "
-    "briefed props, oversized so each one reads at phone-thumbnail size, "
-    "partially overlapped by the subject for cutout depth; a prop that is a "
-    "brand logo renders as the real mark ONCE, glossy and dimensional, a "
-    "readable object in the scene — never the whole backdrop. "
-    "No extra people beyond the briefed subject. " + _COLLAGE_SHARED)
+    " Ultra-realistic vertical 4:5 photograph, shot like a real press "
+    "photo — never an illustration, cartoon or 3D render. The person is "
+    "the exact person in the attached reference photo: same face, same "
+    "hair, copied faithfully, never redrawn from memory." + _TAIL)
 COLLAGE_FACELESS = (
-    " FORMAT LAW — photorealistic breaking-news collage cover, vertical 4:5 "
-    "portrait frame. "
-    "SUBJECT: the briefed hero object — or, when the brief stages a "
-    "comparison, the briefed 2-3 objects side by side at identical size and "
-    "angle — cut-out style, centered, filling 50-60% of the frame height, "
-    "razor-sharp edges with a subtle light rim; no people anywhere in the "
-    "frame, not even silhouettes or hands. "
-    "BACKDROP directly behind the subject, large and unmistakable: ONLY the "
-    "briefed props, oversized so each one reads at phone-thumbnail size, "
-    "partially overlapped by the subject for cutout depth. "
-    "SCENE MODE (owner Sep 8): when the brief stages a real PLACE at a "
-    "moment (an emptied vault, a dark server room, a sealed-off street) "
-    "instead of a hero object, drop the cutout look entirely — render one "
-    "continuous documentary scene, camera INSIDE the place like a leaked "
-    "press photo, no cutout edges, no floating props; the briefed props "
-    "exist as physical objects standing in the scene. " + _COLLAGE_SHARED)
-# RECAP MONTAGE (owner Sep 5, Bernie-recap post-mortem: the roundup cover
-# shipped as two raw tweet images glued side by side by CSS — one a text
-# screenshot — "it looks SO SO bad"). The reference roundup cover is a
-# composed poster montage: every story's subject razor-cut from its real
-# press photo and arranged at VARYING scales on one loud backdrop.
+    " Ultra-realistic vertical 4:5 photograph, shot like a real press "
+    "photo — never an illustration, cartoon or 3D render. Any people "
+    "appear only from behind, as silhouettes or as hands — never a "
+    "visible recognizable face." + _TAIL)
+# RECAP MONTAGE (owner Sep 5, Bernie-recap post-mortem: raw tweet images
+# glued side by side by CSS — "it looks SO SO bad". Smoke-tests that shaped
+# the rules: a rally banner leaked in misspelled; one ref rendered twice
+# while another vanished; the story list rendered as misspelled chips.)
 COLLAGE_MONTAGE = (
-    " FORMAT LAW — photorealistic breaking-news montage poster, vertical "
-    "4:5 portrait frame, built ONLY from the attached reference "
-    "photographs. SUBJECTS: "
-    "cut the main subject out of EACH attached photo — faces, hair and "
-    "clothing identical to their photographs, never redrawn from memory. "
-    "ONLY the person is copied from each photo: the photo's own background, "
-    "walls, signs, banners and any lettering behind them are DISCARDED and "
-    "never appear in the frame (smoke-test Sep 5: a rally banner leaked in "
-    "misspelled). Razor-sharp cutout edges with a subtle light rim, "
-    "arranged as an overlapping poster montage at VARYING scales: the first photo's "
-    "subject largest and most central, the second smaller beside it, every "
-    "subject readable at phone-thumbnail size. EACH attached photo's "
-    "subject appears EXACTLY ONCE — never mirrored, never duplicated, "
-    "never twice in the frame (smoke-test Sep 5: one ref rendered twice "
-    "while another vanished). Together they fill the upper two-thirds of "
-    "the frame; both upper corners stay clear of heads. "
-    "BACKDROP: one loud saturated environment from the biggest story's "
-    "world filling the frame edge to edge behind the cutouts; brand logos "
-    "of the briefed companies render as real marks, each ONE time only, "
-    "glossy and dimensional, partially overlapped by the subjects for "
-    "depth, never as wallpaper. No "
-    "people beyond the attached photos' subjects. MONTAGE TEXT BAN "
-    "(smoke-test Sep 5: the story list got rendered as misspelled caption "
-    "chips): the briefed story lines exist ONLY to pick and size the "
-    "subjects — they are NEVER text to render. Zero caption chips, zero "
-    "labels, zero arrows, zero lettering or signage of any kind anywhere; "
-    "the ONLY legal text in the whole frame is a real brand logo mark. "
-    + _COLLAGE_TAIL)
+    " Photorealistic vertical 4:5 montage poster built ONLY from the "
+    "attached reference photographs: cut the main subject out of EACH "
+    "photo — faces, hair and clothing identical to their photographs, "
+    "never redrawn from memory — and completely discard each photo's own "
+    "background, signs and lettering. Arrange the cutouts as an "
+    "overlapping poster at varying scales, the first photo's subject "
+    "largest and most central, each photo's subject appearing exactly "
+    "once, all of them filling the upper two-thirds of the frame. Behind "
+    "them one loud saturated environment from the biggest story's world. "
+    "The briefed story lines exist only to pick and size the subjects — "
+    "never render them as text." + _TAIL)
 
 
 def _key():
