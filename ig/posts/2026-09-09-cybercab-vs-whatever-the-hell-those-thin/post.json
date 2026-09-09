@@ -1,0 +1,111 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TESLA'S TOP FAN REFUSED TO TYPE 'WAYMO' AND <em>6,900 PEOPLE SHOWED UP IN THE COMMENTS TO DO IT FOR HIM</em>",
+   "kicker": "131,000 WATCHED IT HAPPEN",
+   "hsize": 62,
+   "media": "posts/2026-09-09-cybercab-vs-whatever-the-hell-those-thin/cand-4.webp"
+  },
+  {
+   "type": "content",
+   "headline": "TESLA'S LOUDEST FAN ACCOUNT <em>WAS TOO RATTLED TO NAME THE RIVAL</em>",
+   "hsize": 88,
+   "body": "DogeDesigner runs one of Tesla's biggest hype pages on X.\n\nThey posted the <b>Cybercab</b> next to three rival robotaxis, then wrote 'whatever the hell those things are' instead of naming them.",
+   "media": "posts/2026-09-09-cybercab-vs-whatever-the-hell-those-thin/cand-5.webp"
+  },
+  {
+   "type": "content",
+   "headline": "BY THE <em>NUMBERS</em>",
+   "body": "DogeDesigner: Tesla's biggest hype account on X\n<b>131,000</b> views on the name-dodge post\n<b>6,900</b> rival fans flooded the comments\nYour next driverless ride already picks a side.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "HE NEVER ONCE TYPED 'WAYMO'",
+   "hsize": 110,
+   "body": "The rival's fans made sure everyone still knew the name",
+   "media": "posts/2026-09-09-cybercab-vs-whatever-the-hell-those-thin/cand-1.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "YOUR NEXT DRIVERLESS RIDE <em>IS ALREADY A POLITICAL STATEMENT</em>",
+   "hsize": 88,
+   "body": "Your customers are already hailing driverless rides. That market isn't coming, it's here.\n\nThe company whose fans <b>won't say the rival's name</b> just confirmed the fight is real.",
+   "media": "posts/2026-09-09-cybercab-vs-whatever-the-hell-those-thin/cand-2.webp"
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: TESLA'S FAN ACCOUNT CONFIRMED <em>THE ROBOTAXI WAR IS REAL</em>",
+   "hsize": 56,
+   "body": "DogeDesigner dodged the rival's name\nThe post hit <b>131,000</b> views\n<b>6,900</b> rival fans showed up in comments\n\nSend this to the friend who still uses Uber like it's 2020",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see the tweet that accidentally confirmed the robotaxi war is real. \ud83d\ude97\n\nThe Tesla hype account that refused to type the competitor's name, what DogeDesigner actually posted, the tweet itself, how 131,000 people watched the rival's fans show up, and what it means every time you call a driverless ride.\n\nWhen a Tesla booster can't bring itself to say 'Waymo,' that's not confidence. That's a tell. The robotaxi market just moved from something people talk about to something people actually fight over.\n\nRunning a business? DM us 'AI' and we'll show you what this shift could mean for yours.\n\nSources: cb_doge on X, September 8, 2026\n\n#Tesla #Cybercab #robotaxi #autonomousvehicles #Waymo",
+ "pinned_comment": "Would you actually get in a driverless Cybercab right now, or are you holding out for the other guys? Be honest.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "A TESLA HYPE ACCOUNT POSTED 'CYBERCAB VS. WHATEVER THE HELL THOSE THINGS ARE' AND <em>131,000 PEOPLE WATCHED THE RIVAL'S FANS SHOW UP</em>",
+   "A TESLA FAN ACCOUNT DUNKED ON RIVAL ROBOTAXIS AND REFUSED TO NAME THEM AND <em>THE RIVAL'S FANS TOOK OVER THE COMMENTS</em>",
+   "TESLA'S CYBERCAB HAS A RIVAL SO REAL THAT ITS OWN FAN ACCOUNTS <em>REFUSE TO SAY ITS NAME</em>",
+   "TESLA'S CYBERCAB JUST ENTERED <em>A REAL ROBOTAXI WAR</em> AND THE FAN RUNNING COVER STILL <em>WON'T SAY THE COMPETITION'S NAME</em>",
+   "A TESLA FAN ACCOUNT CALLED RIVAL ROBOTAXIS <em>'WHATEVER THE HELL THOSE THINGS ARE'</em> AND 6,900 PEOPLE IMMEDIATELY PROVED THEM WRONG",
+   "TESLA'S CYBERCAB HAS <em>A REAL COMPETITOR NOW</em> AND ITS BIGGEST FAN JUST CALLED THEM '<em>WHATEVER THE HELL THOSE THINGS ARE</em>'",
+   "THE TESLA ACCOUNT THAT WON'T TYPE 'WAYMO' JUST GOT <em>6,900 PEOPLE TO DO IT FOR THEM</em>",
+   "TESLA'S CYBERCAB NOW HAS <em>A RIVAL SERIOUS ENOUGH</em> THAT ITS BIGGEST BACKER <em>WON'T SAY THEIR NAME OUT LOUD</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   5,
+   7,
+   8,
+   6,
+   0,
+   6
+  ],
+  "winner": 0,
+  "why": "131K is a bigger, more immediately impressive number that stops tired scrolling. The runner-up has sharper narrative arc but sheer scale hits harder on a distracted viewer."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "TESLA'S TOP FAN REFUSED TO TYPE 'WAYMO' AND <em>6,900 PEOPLE SHOWED UP IN THE COMMENTS TO DO IT FOR HIM</em>",
+   "TESLA'S FAN CALLED YOUR POTENTIAL NEXT RIDE <em>'WHATEVER THE HELL THOSE THINGS ARE'</em> AND REFUSED TO EVEN TYPE 'WAYMO'",
+   "TESLA'S FAN ACCOUNT WAS TOO RATTLED TO TYPE 'WAYMO' <em>SO IT POSTED 'CYBERCAB VS. WHATEVER THE HELL THOSE THINGS ARE'</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   0
+  ],
+  "winner": 0,
+  "why": "[0] gives the full viral story with a specific number (6,900 people) that proves impact and makes you picture the moment. [1] just describes his post without showing any payoff\u2014it's a description, not a story."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "DogeDesigner",
+  "actor_known": false,
+  "anchor": "Tesla's Cybercab",
+  "specifics": [
+   "Tesla booster refused to name the competitor, writing only 'whatever the hell those things are'",
+   "Post exploded to 131.4K views and 6.9K comments \u2014 the opposition clearly showed up",
+   "September 2026: robotaxis are now a live consumer market you'll actually have to choose from",
+   "392 reposts means the dunk went viral \u2014 and probably boosted the rival's name recognition more than Tesla's"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Cybercab vs. whatever the hell those things are.",
+  "link": "https://x.com/cb_doge/status/2097145607991542043",
+  "judge_interest": 3,
+  "scout_score": 48.4
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "HOOK LAW \u00a72 \u2014 the hook's payoff IS an engagement metric: '6,900 PEOPLE SHOWED UP IN THE COMMENTS TO DO IT FOR HIM' is a comment count, which sits in the explicit banned list ('replies, reposts, followers \u2014 THE SCREENSHOT HAS 40K LIKES is the failure model'). The kicker '131,000 WATCHED IT HAPPEN' doubles down with a view count. The hook must be rebuilt around the actual event \u2014 a Tesla hype accoun",
+ "gate_r": "s1: Receipt Law fail: the cover images \u2014 a woman in a dental-brace contraption and an unrelated celebrity \u2014 are pure decoration with zero connection to a Tesla fan account, Waymo, or the Twitter/X post; neither qualifies as a press moment of the slide's actor or the story's object."
+}
