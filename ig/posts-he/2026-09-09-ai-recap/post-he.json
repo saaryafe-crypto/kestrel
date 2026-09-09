@@ -1,0 +1,66 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "מה קרה ב-<em>AI</em> היום?",
+   "kicker": "הסיכום היומי"
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "OpenAI <em>פצחה</em> בעיית מתמטיקה שלא נפתרה <em>90 שנה</em>",
+   "body": "<b>10,000 סוכני AI</b> רצו במקביל ופצחו את <b>משוואות Navier-Stokes</b> תוך <b>88 שעות</b>. זו אחת משבע בעיות <b>פרס המילניום</b> עם פרס של <b>מיליון דולר</b> שלא נתבע כבר כ-90 שנה",
+   "media": "posts/2026-09-09-ai-recap/media-0.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "מתמטיקאי טוען: OpenAI <em>בנתה את הפריצה שלה</em> על <em>עבודה שגנבה ממנו</em>",
+   "body": "<b>Tristan Buckmaster</b> עבד שנה על Navier-Stokes עם AI. הוא טוען שעבודתו דלפה ל-<b>OpenAI</b>, שרצה קדימה ואז לחצה עליו להוריד שותף לכתיבה מהמאמר כי אותו אדם עובד ב-<b>Anthropic</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 84,
+   "headline": "Google בנתה מסד נתוני AI שממפה <em>תשעה מיליארד מוטציות DNA</em>",
+   "body": "<b>AlphaGenome Atlas</b> חוזה את ההשפעה של כל שינוי אפשרי באות בודדת ב-DNA האנושי, מכסה את כל <b>תשעת המיליארד</b> הווריאציות. חוקרים יכולים עכשיו לחפש כל מוטציה ולקבל את ההשפעה הצפויה שלה על הביולוגיה, בלי לרוץ לשום מעבדה",
+   "media": "posts/2026-09-09-ai-recap/media-2.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 92,
+   "headline": "סטודנטים <em>שלא משתמשים בצ'אטבוטים של AI</em> מקבלים <em>ציונים גבוהים יותר</em>",
+   "body": "מחקר של <b>Bloomberg</b> מצא שסטודנטים שמתרחקים מ-<b>צ'אטבוטים של AI</b> בשיעורי הבית מצליחים יותר מאלה שמשתמשים בהם. זה ההפך ממה שרוב האנשים חשבו, וזה מעלה שאלה: AI עוזר לסטודנטים ללמוד, או רק עוזר להם לדלג על החשיבה?",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 84,
+   "headline": "מעבדות <em>ה-AI</em> המובילות מחליפות <em>את הכתר</em> מהר מתמיד",
+   "body": "לפני כמה שבועות, כולם חשבו ש-<b>OpenAI</b> נשארת מאחור במרוץ ה-AI. הקפיצות בין המעבדות המובילות מהירות כל כך שהמפסידה של החודש שעבר יכולה להפוך למובילה החודש הזה לפני שאפילו מספיקים לפרסם בנצ'מארק",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "שמרו את <em>סיכום ה-AI של היום</em>",
+   "body": "• OpenAI פצחה את משוואות Navier-Stokes, בעיית מתמטיקה בת 90 שנה עם פרס מיליון דולר, תוך 88 שעות\n• המתמטיקאי שהגיע לשם ראשון אומר ש-OpenAI השתמשה במחקר שגנבה ממנו\n• AlphaGenome Atlas של Google ממפה את כל תשעת המיליארד מוטציות ה-DNA האפשריות\n• Bloomberg: סטודנטים שמתרחקים מצ'אטבוטים של AI מקבלים ציונים גבוהים יותר\n• הקפיצות בין מעבדות ה-AI המובילות מהירות יותר מכל בנצ'מארק שיכול לעקוב אחריהן",
+   "media": null
+  }
+ ],
+ "caption": "החליקו ⬅️ לראות מה קרה ב-AI ב-24 השעות האחרונות, מ-OpenAI שפצחה תעלומת מתמטיקה בת 90 שנה ועד סטודנטים שמצליחים פחות עם צ'אטבוטים של AI\n\nOpenAI אומרת ש-10,000 סוכני AI פצחו את משוואות Navier-Stokes תוך 88 שעות ותובעים פרס מיליון דולר שהיה פתוח כ-90 שנה. המתמטיקאי Tristan Buckmaster טוען ש-OpenAI השתמשה בסשנים הפרטיים שלו ב-Codex כדי לבנות את הפריצה הזו, ואז לחצה עליו להוריד שותף לכתיבה שעובד ב-Anthropic. Google השיקה את AlphaGenome Atlas, מסד נתוני AI שחוזה את ההשפעה של כל תשעה מיליארד מוטציות ה-DNA האפשריות. Bloomberg מדווחת שסטודנטים שמתרחקים מצ'אטבוטים של AI בשיעורי הבית מקבלים ציונים גבוהים יותר מאלה שנסמכים עליהם. הקפיצות בין מעבדות ה-AI המובילות מהירות כל כך ש-OpenAI עברה ממפסידה למובילה תוך שבועות ספורים.\n\nAI כבר לא רק עושה משימות אוטומטיות. היום הוא פצח בעיית מתמטיקה בת 90 שנה, מיפה תשעה מיליארד מוטציות DNA, ועורר האשמות על גניבת מחקר. הקצב כל כך מהיר שרוב האנשים לא מספיקים להתעדכן. מנסים להבין איפה AI מתאים לעסק שלכם? שלחו לנו DM עם המילה 'AI' ונמפה את זה יחד.\n\nמקורות: OpenAI, TechCrunch, Google DeepMind, Bloomberg\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#AI #OpenAI #ArtificialIntelligence #TechNews #MachineLearning",
+ "pinned_comment": "אם OpenAI באמת פתרה את Navier-Stokes, האם חצינו לשטח ה-AGI, או שמכונה שפותרת בעיית מתמטיקה קשה היא עדיין משהו אחר לגמרי?",
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "COVER IMAGE — text-on-black with CGI particle burst. Image Law is explicit: 'Text-on-black or empty-top covers are failures' and 'every ELEMENT in the frame must read as photographed... A frame or any element that reads as illustration, cartoon, game render, or concept art is a REJECT.' The orange particle streak reads as digital/CGI art, not a photographed element. There is no subject — no face, ",
+ "gate_r": "s7: The bullet point below the CTA button ('The AI leapfrog between top labs…') is orphaned beneath 'SEND THIS TO A FRIEND' with no visual hierarchy, making the slide layout look broken and unprofessional.",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_16yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
