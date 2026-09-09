@@ -1,0 +1,86 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "4 GEMINI NOTEBOOK PROMPTS THAT <em>PREDICT EVERY OBJECTION</em> BEFORE YOUR NEXT MEETING",
+   "kicker": "MOST PEOPLE JUST ASK FOR SUMMARIES",
+   "hsize": 72,
+   "face": "Sundar Pichai",
+   "media": "posts/2026-09-09-edu-4-gemini-notebook-prompts-beyond-summari/gen-0-r.jpg",
+   "image_prompt": "SUBJECT: Sundar Pichai, arms wrapped around glowing research papers, delighted grin, sparkling eyes. BACKDROP: bright library shelves, white overhead light, Gemini logo backlit sign. PALETTE: bright Gemini blue, white. Documentary photo, 35mm, natural skin texture, film grain."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>CATCH EVERY CONFLICT HIDING ACROSS YOUR SOURCES</em>",
+   "hsize": 100,
+   "body": "A human research assistant flags where sources clash. This prompt does it in under a minute.\n\n\"Find every contradiction. For each conflict, name which argument has stronger evidence and why.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>TURN 50 PAGES OF RESEARCH INTO ONE BRIEFING</em>",
+   "hsize": 100,
+   "body": "A strategy consultant charges $300 an hour for this. This prompt gets it done in 90 seconds.\n\n\"Write a briefing: the 3 key facts, the biggest risk, and the one action to take first.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>MAKE IT PREDICT EVERY OBJECTION BEFORE YOUR MEETING</em>",
+   "hsize": 95,
+   "body": "A prep coach charges $200 an hour to stress-test your pitch. This prompt does it for free.\n\n\"List the 3 strongest arguments AGAINST my position, with evidence and a two-sentence counter-response for each.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>FIND EVERY HIDDEN CONNECTION ACROSS ALL YOUR DOCUMENTS</em>",
+   "hsize": 95,
+   "body": "You read documents one at a time and miss what connects them. Gemini reads all at once.\n\n\"Find the 5 most surprising connections: the two sources linked, what they share, and why it matters.\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>4 GEMINI NOTEBOOK PROMPTS</em> THAT BEAT SUMMARIES",
+   "hsize": 95,
+   "body": "Find conflicts across all your sources\nBuild a one-page decision briefing\nPredict every objection before your meeting\nFind hidden connections across all documents\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe and save. 4 Gemini Notebook prompts that turn your documents into a personal researcher. \ud83d\udccb\n\n1) Catch every conflict hiding across your sources,\n2) Turn 50 pages into a one-page decision briefing,\n3) Make it predict every objection before your meeting,\n4) Find hidden connections across all your documents at once.\n\nMost people type \"summarize this\" into Gemini Notebook and stop there. These 4 prompts treat it as a research analyst: finding conflicts, writing briefings, predicting objections, mapping hidden connections. The gap between how most people use this tool and how it can be used is enormous.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: googleespanol\n\n#GeminiNotebook #AITools #AIProductivity #NotebookLM #AIResearch",
+ "pinned_comment": "Which prompt are you trying first? The objection-finder on slide 4 is the one most people forget exists.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "4 PROMPTS THAT TURN <em>GEMINI NOTEBOOK INTO A PERSONAL RESEARCHER</em>",
+   "<em>4 GEMINI NOTEBOOK PROMPTS</em> MOST PEOPLE NEVER TRY",
+   "4 PROMPTS THAT MAKE <em>GEMINI NOTEBOOK YOUR PERSONAL RESEARCHER</em>",
+   "4 WAYS TO USE <em>GEMINI NOTEBOOK AS YOUR PERSONAL RESEARCHER</em>",
+   "<em>4 GEMINI NOTEBOOK PROMPTS</em> THAT GO WAY BEYOND SUMMARIES"
+  ],
+  "scores": [
+   5,
+   7,
+   5,
+   4,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] hits you with FOMO\u2014'most people never try' makes you stop and wonder 'wait, what am I missing?'\u2014while [4]'s 'beyond summaries' is curious but requires you to already know what summaries means to care."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "4 GEMINI NOTEBOOK PROMPTS THAT <em>PREDICT EVERY OBJECTION</em> BEFORE YOUR NEXT MEETING",
+   "<em>4 GEMINI NOTEBOOK PROMPTS</em> MOST PEOPLE NEVER TRY"
+  ],
+  "scores": [
+   6,
+   3
+  ],
+  "winner": 0,
+  "why": "[0] stops you cold with 'PREDICT EVERY OBJECTION'\u2014that wild claim makes you think 'wait, how?' even at 2am. [1] is just vague boilerplate that tells you nothing about why you should care."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "",
+ "cover_fallback": "best-of-rejected (5/10)"
+}
