@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09T00:58:03.298828+00:00",
+ "updated": "2026-09-09T03:00:34.723153+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -19,6 +19,25 @@
    "video": null,
    "guide": false,
    "born": 1788179358.922152
+  },
+  {
+   "id": "2097374640582668336",
+   "title": "We\u2019re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model signi",
+   "sub": "OpenAI",
+   "where": "@OpenAI on X",
+   "unit": "likes",
+   "selftext": "We\u2019re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years.",
+   "permalink": "https://x.com/OpenAI/status/2097374640582668336",
+   "outlink": null,
+   "score": 90444,
+   "comments_n": 4091,
+   "views": 36402604,
+   "age_h": 9.6,
+   "vph": 9402.1,
+   "image": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1788888113.722562
   },
   {
    "id": "2089342461357302179",
@@ -173,25 +192,6 @@
    "born": 1787141216.494238
   },
   {
-   "id": "2097374640582668336",
-   "title": "We\u2019re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model signi",
-   "sub": "OpenAI",
-   "where": "@OpenAI on X",
-   "unit": "likes",
-   "selftext": "We\u2019re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years.",
-   "permalink": "https://x.com/OpenAI/status/2097374640582668336",
-   "outlink": null,
-   "score": 31414,
-   "comments_n": 1780,
-   "views": 4686284,
-   "age_h": 7.6,
-   "vph": 4133.4,
-   "image": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1788888113.722562
-  },
-  {
    "id": "2094803511875907849",
    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Bank of America Vice President Erin Piacenti killed in Times Square stabbing.",
    "sub": "WatcherGuru",
@@ -219,11 +219,11 @@
    "selftext": "Say hi to Elasmotherium, the giant rhinoceros known as the \u2018Siberian unicorn,\u2019 which survived until at least 39,000 years ago\u201d",
    "permalink": "https://x.com/AMAZlNGNATURE/status/2097187107651649543",
    "outlink": null,
-   "score": 19047,
-   "comments_n": 184,
-   "views": 1022815,
-   "age_h": 20.0,
-   "vph": 952.4,
+   "score": 24438,
+   "comments_n": 255,
+   "views": 1293017,
+   "age_h": 22.0,
+   "vph": 1108.8,
    "image": "https://pbs.twimg.com/media/HRq0ZcubgAAdNZ0.jpg",
    "video": null,
    "guide": false,
