@@ -376,6 +376,38 @@ def image_ok(path, headline):
     return ok
 
 
+def emergency_cover(cover0, post_dir):
+    """LAST-RESORT rung before a bare cover (owner order Sep 9: "there was
+    another time that we uploaded with no image at all in the first slide.
+    this just cant happen. it happens all the time"). Every earlier rung
+    depends on the writer's brief, its refs, or the article's images — when
+    THOSE are the reason nothing generated (empty brief, E005-killed names,
+    flagged prediction), one dead-simple prompt built from the HEADLINE
+    alone can still land. Judged like every cover, accepted down to 4/10 —
+    a mediocre on-story picture beats a coverless post. Returns the media
+    relpath or None (true API/budget death still ships the type cover and
+    the bare-cover alert — always-fill intact)."""
+    eh = re.sub(r"<[^>]+>", "", cover0.get("headline", "")).strip()
+    if not eh:
+        return None
+    eb = face_riders(
+        "A dramatic ultra-realistic news photograph of exactly this "
+        f"happening: {eh}. No text anywhere, no faces, extremely realistic "
+        "and shocking", None)[0]
+    p = genimg.generate(eb, os.path.join(post_dir, "gen-0-emergency.jpg"),
+                        cover=True, collage=True)
+    if not p:
+        return None
+    ok, score, flaw = image_score(p, eh, generated=True, cover=True,
+                                  collage=True)
+    if ok or score >= 4:
+        print(f"EMERGENCY cover landed ({score}/10)", file=sys.stderr)
+        return os.path.relpath(p, HERE)
+    print(f"emergency cover also rejected ({score}/10): {flaw}",
+          file=sys.stderr)
+    return None
+
+
 BRIEF_SCHEMA = {"type": "object", "properties": {"brief": {"type": "string"}},
                 "required": ["brief"]}
 
@@ -2341,10 +2373,17 @@ def main(stories_path):
                   f"({os.path.basename(best)}, score {score}/10; flagged for "
                   "the daily report)", file=sys.stderr)
         elif not cover0.get("media"):
-            post["cover_fallback"] = "no-image"
-            print("COVER HAS NO IMAGE AT ALL — generation returned nothing "
-                  "(budget/API) and the article had no images; shipping a "
-                  "type cover (flagged for the daily report)", file=sys.stderr)
+            em = emergency_cover(cover0, post_dir)
+            if em:
+                cover0["media"] = em
+                post["cover_style"] = "photo"
+                post["cover_fallback"] = "emergency headline-only gen"
+            else:
+                post["cover_fallback"] = "no-image"
+                print("COVER HAS NO IMAGE AT ALL — generation returned "
+                      "nothing (budget/API) and the article had no images; "
+                      "shipping a type cover (flagged for the daily report)",
+                      file=sys.stderr)
 
     # every slide pictured, zero-budget version (owner Aug 1: "every post,
     # carousel or page should have a picture" — but caps stay at $9/mo until

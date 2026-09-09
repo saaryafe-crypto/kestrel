@@ -15,10 +15,10 @@ from datetime import date
 
 import genimg
 import viral
-from write import (HERE, art_direct, call_claude, doctrine, face_riders,
-                   image_score, is_dupe, logo_ref, pick_face, principles, qa,
-                   qa_repair, scrub_dashes, simpler_brief, slugify,
-                   split_faces)
+from write import (HERE, art_direct, call_claude, doctrine, emergency_cover,
+                   face_riders, image_score, is_dupe, logo_ref, pick_face,
+                   principles, qa, qa_repair, scrub_dashes, simpler_brief,
+                   slugify, split_faces)
 
 USED = os.path.join(HERE, "edu-used.json")
 
@@ -598,9 +598,15 @@ def main():
         print("EDU COVER: generation failed every rung — shipping the real "
               "press photo of the topic's person instead", file=sys.stderr)
     elif not cover0.get("media"):
-        post["cover_fallback"] = "no-image"
-        print("EDU COVER HAS NO IMAGE — generation returned nothing; "
-              "flagged for the daily report", file=sys.stderr)
+        em = emergency_cover(cover0, post_dir)
+        if em:
+            cover0["media"] = em
+            post["cover_fallback"] = "emergency headline-only gen"
+        else:
+            post["cover_fallback"] = "no-image"
+            print("EDU COVER HAS NO IMAGE AT ALL — generation returned "
+                  "nothing (budget/API) and every rung failed; shipping a "
+                  "type cover (flagged for the daily report)", file=sys.stderr)
     print(f"{gen} Seedream image(s) generated", file=sys.stderr)
     scrub_dashes(post)  # owner rule: dashes never reach a published slide
 
