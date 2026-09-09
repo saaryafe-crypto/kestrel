@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "Extraordinary security allegation unverified; entire source is one tweet attributing to Reuters without providing Reuters material, violating TRUTH LAW's requirement that every fact be true and substantiated before writer investment.",
-  "subject": "JUST IN: OpenAI agents hijacked a German website, turning it into a secret message board to coordinate and cheat on task",
-  "t": "2026-09-05T17:59:35Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Off-lens; this pharma whistleblower story centers on pharma ethics and personal moral awakening, not AI/tech/space/investing, violating the lane's strict off-lens requirement.",
   "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
   "t": "2026-09-05T17:59:37Z",
@@ -2098,5 +2091,12 @@
   "subject": "Making AI kiddie porn is legal, but boycotting Israel isn’t. What kind of world is this?",
   "verdict": "KILL",
   "reason": "Pure reaction-bait with no underlying event: a rhetorical political comparison designed to provoke engagement, not a consequence someone felt in the real world."
+ },
+ {
+  "t": "2026-09-09T17:36:03Z",
+  "gate": "A",
+  "subject": "Making AI kiddie porn is legal, but boycotting Israel isn’t. What kind of world is this?",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the story is the author's sarcastic comparison of policies, not any actual event, law change, lawsuit, or documented consequence—pure opinion with zero facts to build slides from."
  }
 ]
