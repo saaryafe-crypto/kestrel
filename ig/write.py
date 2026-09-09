@@ -283,6 +283,28 @@ def image_score(path, headline, generated=False, person=False, cover=False,
             print(f"genimg brightness gate: {brightness:.0f}/255 < {floor} — auto-reject",
                   file=sys.stderr)
             return False, 1, f"too dark (brightness {brightness:.0f}/255, need {floor}+)"
+    # GEOMETRY GATE (owner Sep 9 round 2, same Cybercab post: "it was not
+    # even in the size of the post... the picture didnt even fit in". The
+    # cover renders FULL-BLEED 1080x1350 portrait. The scraped 1200x1013
+    # LANDSCAPE meme could only fill that frame by zoom-cropping ~35% of
+    # itself — both heads shipped amputated. The Sep 8 4:5 fix covered
+    # GENERATED images only; scraped candidates arrive in any shape. A
+    # scraped image may compete for the cover ONLY if it is portrait-ish
+    # (w/h <= 0.9 keeps the crop loss under ~11%) and tall enough to fill
+    # 1350px without upscale blur. Free check, runs before the vision call.)
+    if cover and not generated:
+        try:
+            from PIL import Image as _Im
+            with _Im.open(path) as _im:
+                _w, _h = _im.size
+        except Exception:
+            _w = _h = 0
+        if _w and (_w / _h > 0.9 or _h < 1200):
+            print(f"cover geometry gate: {_w}x{_h} (ratio {_w/_h:.2f}) can't "
+                  "fill the 1080x1350 portrait frame — auto-reject",
+                  file=sys.stderr)
+            return False, 2, (f"scraped {_w}x{_h} can't fill the 4:5 cover "
+                              "frame without a destructive crop")
     clean = re.sub(r"</?em>", "", headline)
     # BRUTAL COLLAGE MODE (owner order Sep 4, measured from the reference
     # page's Bernie cover): news covers are graded breaking-news COLLAGES —

@@ -427,14 +427,20 @@ COMPREHEND_SCHEMA = {
 }
 
 
-def _comprehension(cands, lang="en"):
+def _comprehension(cands, lang="en", strict=False):
     """THE MISSING GATE (owner kill Aug 3: a shipped hook was "hard to
     understand" — every existing gate tested rules, none tested whether a
     stranger UNDERSTANDS the line). A blind reader model sees only the hooks
     and must repeat each one back: can't restate it simply on first read, or
     it reads as a fact list instead of one idea -> the hook dies no matter
-    how good its specifics are. Falls open (never empties the list; one
-    retry per the Aug 3 plumbing audit)."""
+    how good its specifics are. Falls open on judge ERROR (one retry per the
+    Aug 3 plumbing audit). strict (owner Sep 9, Cybercab-meme post-mortem —
+    "people cant understand anything from that hook"): when the judge RAN and
+    NO candidate even reached clear>=4, the story itself cannot be told
+    simply — the raw-pool fall-through shipped exactly that gibberish. On the
+    strict cover path the rung dies instead; the workflow ladder's next rung
+    or the edu floor fills the slot (always-post intact). Reel titles keep
+    the soft fall-open (their ladder skips per-clip, not per-run)."""
     if len(cands) < 2:
         return cands
     listing = "\n".join(
@@ -474,6 +480,12 @@ Return ONLY JSON: {{"results": [one object per headline, same order]}}"""
             # one anyway). Now: keepers first, then clear-but-stapled (a
             # reader at least understood them), and only then the raw pool.
             clear_only = [c for c, v in dead if int(v.get("clear", 0)) >= 4]
+            if strict and not (kept or clear_only):
+                raise SystemExit(
+                    "comprehension gate: a stranger understood NONE of the "
+                    "hook candidates — this story can't be told simply; "
+                    "failing the rung so the ladder falls to the next story "
+                    "or the edu floor (owner Sep 9)")
             return kept or clear_only or cands
         except Exception as e:
             print(f"comprehension gate failed ({e})"
@@ -491,7 +503,14 @@ def judge(cands, ctx, lang="en"):
     # Hebrew packs prepositions/articles into words — a full summary can be
     # shorter, so the floor relaxes
     cands = _pre_filter(cands, ctx, lo=8 if lang == "he" else 10)
-    cands = _comprehension(cands, lang=lang)
+    # strict on the English cover path only: the HE lane translates an
+    # already-approved hook, reel titles have their own per-clip ladder, and
+    # the EDU_FORCE floor must ALWAYS ship (edu.py calls this tournament too
+    # — a strict kill there would leave the slot empty, the one banned
+    # outcome)
+    cands = _comprehension(cands, lang=lang,
+                           strict=(lang == "en"
+                                   and not os.environ.get("EDU_FORCE")))
     if len(cands) < 2:
         return (cands[0] if cands else None), None
     order = list(range(len(cands)))
