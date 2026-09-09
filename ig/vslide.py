@@ -199,6 +199,70 @@ def make(video_url, out_path, handle=None):
                 os.remove(f)
 
 
+def cover(video_url, out_path, overlay_png):
+    """VIDEO-FIRST cover (owner order Sep 9: "show the video itself in the
+    main picture carousel... the video showing first and the titles
+    themselves that show up in the first slide. we can do both, just
+    instead of a picture - a video"): the story's own footage becomes the
+    FIRST carousel item with the real cover typography burned on —
+    overlay_png comes from render.cover_overlay, so frame 0 already reads
+    like a picture cover in the feed and the grid. The footage plays sharp
+    at its own aspect in the bright upper zone (the cover scrim keeps
+    ~0-830px bright, the headline owns the bottom), over a blurred fill of
+    itself. Same accuracy law and size floor as make(). Returns out_path
+    or None — never fatal, post.py keeps slide-1.jpg as the cover."""
+    src = out_path + ".src.mp4"
+    bright = 830  # cover headline top ~61.5% of 1350 (render.py geometry)
+    try:
+        if not (shutil.which("ffmpeg") and shutil.which("ffprobe")):
+            print("video cover: no ffmpeg on this machine — skipping",
+                  file=sys.stderr)
+            return None
+        if not (overlay_png and os.path.exists(overlay_png)):
+            return None
+        req = urllib.request.Request(video_url, headers=UA)
+        with urllib.request.urlopen(req, timeout=120) as r, \
+                open(src, "wb") as f:
+            shutil.copyfileobj(r, f)
+        dur = _dur(src)
+        if not MIN_SRC_S <= dur <= MAX_SRC_S:
+            print(f"video cover: source is {dur:.0f}s — outside the "
+                  f"{MIN_SRC_S}-{MAX_SRC_S}s self-contained window, skipping",
+                  file=sys.stderr)
+            return None
+        vf = (f"[0:v]split[a][b];"
+              f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,"
+              f"crop={W}:{H},gblur=sigma=45,eq=brightness=-0.12[bg];"
+              f"[b]scale={W}:{bright}:force_original_aspect_ratio=decrease[fg];"
+              f"[bg][fg]overlay=(W-w)/2:({bright}-h)/2[base];"
+              f"[base][1:v]overlay=0:0,format=yuv420p[v]")
+        subprocess.run(
+            ["ffmpeg", "-y", "-loglevel", "error", "-t", str(MAX_CLIP_S),
+             "-i", src, "-i", overlay_png,
+             "-filter_complex", vf, "-map", "[v]", "-map", "0:a?",
+             "-c:v", "libx264", "-preset", "medium", "-b:v", "5M",
+             "-r", "30", "-c:a", "aac", "-b:a", "128k",
+             "-movflags", "+faststart", out_path],
+            check=True, timeout=600)
+        size = os.path.getsize(out_path)
+        if size < 150_000:
+            print(f"video cover: output only {size}B — broken encode, "
+                  "skipping", file=sys.stderr)
+            os.remove(out_path)
+            return None
+        print(f"video cover: {min(dur, MAX_CLIP_S):.0f}s title-burned at "
+              f"{W}x{H} ({size // 1024}KB) -> {os.path.basename(out_path)}",
+              file=sys.stderr)
+        return out_path
+    except Exception as e:
+        print(f"video cover failed ({e}) — picture cover ships instead",
+              file=sys.stderr)
+        return None
+    finally:
+        if os.path.exists(src):
+            os.remove(src)
+
+
 if __name__ == "__main__":
     make(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "video-1.mp4",
          handle=sys.argv[3] if len(sys.argv) > 3 else None)

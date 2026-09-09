@@ -2479,17 +2479,31 @@ def main(stories_path):
             raise SystemExit("editor gate B rejected the post after repair: "
                              + "; ".join(reasons))
 
-    # VIDEO-IN-CAROUSEL (owner ask Sep 6; the publish pipe existed since
-    # Jul 31 unfed — post.py maps video-N.mp4 to a VIDEO child after slide N
-    # and render.py's cover strip says "Full video next" on video=True).
-    # The story's OWN tweet footage rides right after the cover as proof.
-    # <=8 slides only: IG caps a carousel at 10 children and post.py's trim
-    # would otherwise silently drop the CTA slide off the end.
+    # VIDEO-FIRST COVER (owner order Sep 9, the umbrella post-mortem: the
+    # story HAD real footage and we shipped it buried mid-carousel behind a
+    # generated umbrella picture — "why not just show the video itself in
+    # the main picture carousel?... the video showing first and the titles
+    # themselves that show up in the first slide. just instead of a picture
+    # - a video"). When the story has its own footage, it becomes the FIRST
+    # carousel item with the real cover typography burned on (render.
+    # cover_overlay + vslide.cover); post.py swaps it in for slide-1.jpg,
+    # which still renders below as the fallback and the HE lane's cover.
+    # If the cover burn fails, the Sep 6 mid-carousel X-card embed rides
+    # after the cover instead. <=8 slides only: IG caps a carousel at 10
+    # children and post.py's trim would otherwise drop the CTA slide.
     vid_url = (story.get("radar") or {}).get("video")
     if vid_url and len(post["slides"]) <= 8:
         import vslide
-        if vslide.make(vid_url, os.path.join(post_dir, "video-1.mp4"),
-                       handle=(story.get("radar") or {}).get("sub")):
+        import render as _render
+        json.dump(post, open(os.path.join(post_dir, "post.json"), "w"),
+                  indent=1)
+        ov = _render.cover_overlay(os.path.join(post_dir, "post.json"),
+                                   os.path.join(post_dir, "cover-overlay.png"))
+        if ov and vslide.cover(vid_url,
+                               os.path.join(post_dir, "video-0.mp4"), ov):
+            post["video_cover"] = True
+        elif vslide.make(vid_url, os.path.join(post_dir, "video-1.mp4"),
+                         handle=(story.get("radar") or {}).get("sub")):
             post["slides"][0]["video"] = True
 
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)

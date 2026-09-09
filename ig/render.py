@@ -624,6 +624,57 @@ def to_jpeg(png):
     return jpg
 
 
+def cover_overlay(post_path, out_png):
+    """Transparent cover-typography PNG for the VIDEO-FIRST cover (owner
+    Sep 9: "there will be the video showing first and the titles themselves
+    that show up in the first slide... just instead of a picture - a
+    video"). Renders the EXACT cover anatomy — masthead, edge-to-edge Anton
+    headline via FIT_JS, kicker strip, scrim — with a transparent photo
+    band, so vslide.cover() lays it over the story's own footage and the
+    video cover is typographically identical to every picture cover. The
+    empty .bleed div keeps scrim()'s cover branch alive (it anchors the
+    gradient to the masthead); the .videofade div replicates the darkness
+    the picture cover gets from body.cover .bleed's bottom mask over the
+    near-black body, which a transparent body no longer provides. Returns
+    out_png or None — never fatal, the caller keeps the picture cover."""
+    try:
+        s = json.load(open(post_path))["slides"][0]
+        css = (CSS.replace("FONTS", HERE + "/fonts")
+                  .replace("ARTPATH", HERE + "/art")
+                  .replace("SIZE", str(s.get("hsize", 100))))
+        css = css.replace(f"font-size:{s.get('hsize', 100)}px",
+                          f"font-size:{int(s.get('hsize', 100) * 1.7)}px", 1)
+        css += ("\nhtml,body{background:transparent !important}"
+                "\n.videofade{position:absolute;inset:0;z-index:0;background:"
+                "linear-gradient(180deg,rgba(5,5,6,0) 40%,rgba(5,5,6,.55) "
+                "75%,rgba(5,5,6,.78) 100%)}")
+        if (s.get("kicker") or "").strip():
+            kick = html.escape(re.sub(r"<[^>]+>", "",
+                                      s["kicker"]).strip().upper())
+            swipe = f'{kick} <em>→</em>'
+        else:
+            swipe = 'Swipe for more <em>→</em>'
+        page = f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
+<body class="cover"><div class="bleed"></div><div class="videofade"></div>
+<div class="shade"></div>
+<div class="frame">{MASTHEAD}<h1>{s["headline"]}</h1></div>
+<div class="ctastrip"><div class="swipe">{swipe}</div></div>{FIT_JS}</body>'''
+        with tempfile.NamedTemporaryFile("w", suffix=".html",
+                                         delete=False) as f:
+            f.write(page)
+        subprocess.run([CHROME, "--headless", "--disable-gpu",
+                        "--default-background-color=00000000",
+                        f"--screenshot={out_png}", "--window-size=1080,1350",
+                        "--hide-scrollbars", "--virtual-time-budget=4000",
+                        f"file://{f.name}"], check=True, capture_output=True)
+        os.unlink(f.name)
+        return out_png if os.path.exists(out_png) else None
+    except Exception as e:
+        print(f"cover overlay failed ({e}) — keeping the picture cover",
+              file=sys.stderr)
+        return None
+
+
 def render(post_path, out_dir):
     post = json.load(open(post_path))
     slides = post["slides"]

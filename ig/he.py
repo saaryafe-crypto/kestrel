@@ -480,10 +480,14 @@ def localize(post_dir):
     os.makedirs(out_dir, exist_ok=True)
     pj = os.path.join(out_dir, "post-he.json")
     json.dump(out, open(pj, "w"), ensure_ascii=False, indent=1)
-    # carousel videos travel with the post unchanged (video needs no translation)
+    # carousel videos travel with the post unchanged (video needs no
+    # translation) — EXCEPT video-0.mp4, the video-first cover (Sep 9): it
+    # has the ENGLISH cover typography burned into the pixels, so on the
+    # Hebrew account it would ship an English title slide. The HE post
+    # keeps its own rendered Hebrew picture cover instead.
     import shutil
     for f in os.listdir(post_dir):
-        if re.fullmatch(r"video-\d+\.mp4", f):
+        if re.fullmatch(r"video-[1-9]\d*\.mp4", f):
             shutil.copy(os.path.join(post_dir, f), os.path.join(out_dir, f))
     import render_he
     render_he.render(pj, out_dir)

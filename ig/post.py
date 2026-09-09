@@ -261,10 +261,28 @@ def main(post_dir, base_url):
     # video-in-carousel (owner Jul 31): a video-N.mp4 in the post dir becomes
     # a VIDEO child right after slide N (that slide's swipe hint says "Full
     # video next"). The Make scenario maps media_type per item.
+    # VIDEO-FIRST cover (owner Sep 9): video-0.mp4 is the title-burned story
+    # footage from vslide.cover — it REPLACES slide-1.jpg as the first
+    # carousel item ("just instead of a picture - a video"). Liveness is
+    # checked here, before the swap: if the CDN can't serve it, the picture
+    # cover ships exactly as before — the video cover must never be able to
+    # cost the slot its cover (always-fill).
     files, vids = [], []
+    video_cover = False
+    if os.path.exists(os.path.join(post_dir, "video-0.mp4")):
+        try:
+            urls_live([f"{base}/video-0.mp4"], min_bytes=100000)
+            files.append({"media_type": "VIDEO",
+                          "video_url": f"{base}/video-0.mp4"})
+            video_cover = True
+        except SystemExit as e:
+            print(f"video cover not live ({e}) — picture cover ships "
+                  "instead", file=sys.stderr)
     for f in slides:
-        files.append({"media_type": "IMAGE", "image_url": f"{base}/{f}"})
         n = int(re.search(r"\d+", f).group())
+        if video_cover and n == 1:
+            continue  # the video IS the cover; slide-1.jpg stays on disk
+        files.append({"media_type": "IMAGE", "image_url": f"{base}/{f}"})
         v = f"video-{n}.mp4"
         if os.path.exists(os.path.join(post_dir, v)) and len(files) < 10:
             files.append({"media_type": "VIDEO", "video_url": f"{base}/{v}"})
