@@ -1,0 +1,135 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A SELF-DRIVING UMBRELLA NOW ROLLS AFTER YOU <em>WITHOUT ANYONE HOLDING IT</em>, AND <em>IT BEAT MOST CARS TO SELF-DRIVING</em>",
+   "hsize": 64,
+   "kicker": "201K VIEWS IN ONE DAY",
+   "hook_candidates": [
+    {
+     "headline": "A CANADIAN ENGINEER BUILT AN UMBRELLA THAT FOLLOWS YOU BY ITSELF <em>BEFORE MOST CARS CAN DO THE SAME</em>"
+    },
+    {
+     "headline": "JOHN TSE BUILT A SELF-DRIVING UMBRELLA THAT CHASES ITS OWNER DOWN THE STREET <em>WITH NO HANDS AND NO REMOTE</em>"
+    },
+    {
+     "headline": "THE WORLD'S FIRST SELF-DRIVING UMBRELLA JUST WENT VIRAL <em>AND IT FOLLOWS YOU WITH NOBODY TOUCHING IT</em>"
+    },
+    {
+     "headline": "ONE CANADIAN ENGINEER BUILT AN UMBRELLA THAT DRIVES ITSELF <em>AND 201,000 PEOPLE WATCHED IT IN TWO DAYS</em>"
+    },
+    {
+     "headline": "AN UMBRELLA JUST WENT SELF-DRIVING BEFORE YOUR CAR DID <em>AND A CANADIAN ENGINEER BUILT IT ALONE</em>"
+    }
+   ],
+   "media": "posts/2026-09-09-canadian-engineer-john-tse-has-gone-vira/gen-0.jpg",
+   "image_prompt": "SUBJECT: electric blue umbrella rolling on wheels across wet pavement. BACKDROP PROPS: rain, warning sign. PALETTE: electric blue, charcoal.",
+   "video": true
+  },
+  {
+   "type": "content",
+   "headline": "AN UMBRELLA IS THE LAST TOOL <em>THAT SHOULD EVER NEED A MOTOR</em>",
+   "hsize": 88,
+   "body": "It's a stick. With fabric on top.\n\nFor thousands of years, that was enough. You hold it, it keeps you dry.\n\nThen John Tse changed that",
+   "media": "posts/2026-09-09-canadian-engineer-john-tse-has-gone-vira/cand-1.webp"
+  },
+  {
+   "type": "content",
+   "headline": "HIS UMBRELLA <em>ROLLS AFTER YOU ON ITS OWN</em>",
+   "hsize": 105,
+   "body": "The Canadian engineer built it to track and follow its user autonomously.\n\nNo hands. No holding. It just goes where you go.\n\nThe internet saw it on <b>Sep 7</b> and lost its mind",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "THE UMBRELLA MOVES BY ITSELF",
+   "hsize": 110,
+   "body": "Rolls after you. Nobody told it to stop",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>THE INTERNET SAW IT AND STOPPED</em>",
+   "hsize": 100,
+   "body": "<b>201K</b> views in under 48 hours\n<b>3.6K</b> reposts across X\n<b>2,876</b> likes and counting\n<b>705</b> replies in the first day\n\nYou've never seen an umbrella do this",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "IF ONE ENGINEER AUTOMATED AN UMBRELLA <em>YOUR FOLLOW-UPS HAVE NO EXCUSE</em>",
+   "hsize": 88,
+   "body": "One person built a machine that navigates by itself.\n\nYour customer replies, bookings, and follow-ups are the same problem.\n\nDM us \"AI\"",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: AN UMBRELLA <em>THAT DRIVES ITSELF EXISTS NOW</em>",
+   "hsize": 60,
+   "body": "John Tse built a self-driving umbrella\nFollows you with no hands\n<b>201K</b> watched in 2 days\nEvery object could be next\n\nSend this to the friend who thinks robotics is still decades away",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through: a Canadian engineer built an umbrella that follows you by itself, and the internet couldn't look away. \ud83c\udf02\n\nThe belief that umbrellas are too simple to automate, how John Tse built one that physically tracks and follows its user with no hands, the viral numbers it racked up in under two days, why every ordinary object is now fair game for autonomous robotics, and what that means if you run a business today.\n\nThe oldest tools on earth are getting autonomous upgrades before the cars we were promised. The gap between technically possible and actually shipped is closing.\n\nRunning a business? DM us \"AI\" and we'll show you what this looks like for yours.\n\nSources: Rainmaker1973 on X\n\n#AI #Technology #Robotics #Automation #Innovation",
+ "pinned_comment": "An umbrella figured out how to follow a person before most self-driving cars shipped. At this point the car industry should probably be embarrassed.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "THIS UMBRELLA ROLLS AFTER YOU IN THE RAIN <em>WITHOUT ANYONE TOUCHING IT</em>, AND IT ACTUALLY WORKS",
+   "A SELF-DRIVING UMBRELLA NOW EXISTS AND <em>PHYSICALLY TRACKS YOU IN THE RAIN ON ITS OWN</em>. MOST CARS STILL CAN'T DO THIS.",
+   "A GUY BUILT AN UMBRELLA THAT <em>FOLLOWS YOU AROUND BY ITSELF</em> AND YOU NEVER HAVE TO HOLD IT",
+   "SOMEONE JUST AUTOMATED THE SIMPLEST TOOL EVER MADE. AN UMBRELLA THAT <em>DRIVES ITSELF AND FOLLOWS YOU</em>.",
+   "AN UMBRELLA IS NOW <em>MORE AUTONOMOUS THAN MOST CARS</em>. IT FOLLOWS YOU WITHOUT BEING HELD."
+  ],
+  "scores": [
+   8,
+   7,
+   6,
+   7,
+   6
+  ],
+  "winner": 0,
+  "why": "[0]'s 'ROLLS' and 'AND IT ACTUALLY WORKS' create genuine 'wait, WHAT?' shock; [1]'s car comparison feels like over-explanation rather than amazement. [0] stops you immediately while [1] needs the reference to land."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "A SELF-DRIVING UMBRELLA NOW ROLLS AFTER YOU <em>WITHOUT ANYONE HOLDING IT</em>, AND <em>IT BEAT MOST CARS TO SELF-DRIVING</em>",
+   "A GUY BUILT AN UMBRELLA THAT FOLLOWS YOU ON ITS OWN, AND <em>AN UMBRELLA IS NOW SELF-DRIVING BEFORE MOST CARS ARE</em>",
+   "THIS UMBRELLA ROLLS AFTER YOU IN THE RAIN <em>WITHOUT ANYONE TOUCHING IT</em>, AND IT ACTUALLY WORKS",
+   "YOU'VE CARRIED AN UMBRELLA YOUR WHOLE LIFE. <em>A CANADIAN ENGINEER JUST BUILT ONE THAT FOLLOWS YOU WITHOUT BEING HELD</em>"
+  ],
+  "scores": [
+   9,
+   8,
+   7.5,
+   7.5
+  ],
+  "winner": 0,
+  "why": "[0] leads with 'SELF-DRIVING UMBRELLA ROLLS WITHOUT BEING HELD'\u2014instant impossibility that stops cold. [1] buries this hook under 'A GUY BUILT,' losing the crucial first-glance impact that makes [0] the winner."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "John Tse",
+  "actor_known": false,
+  "anchor": "a self-driving umbrella",
+  "specifics": [
+   "The umbrella physically follows you around on its own \u2014 no hands, no holding",
+   "201K views after going viral on X on Sep 7, 2026",
+   "Built by Canadian engineer John Tse",
+   "It autonomously tracks its user's movement",
+   "One of the oldest, simplest tools ever made \u2014 now self-driving"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (5/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Canadian engineer John Tse has gone viral after unveiling a self-driving umbrella that autonomously follows its user.",
+  "link": "https://x.com/Rainmaker1973/status/2097006992695177268",
+  "judge_interest": 5,
+  "scout_score": 49.3
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Cover image \u2014 photoreal law fail: the umbrella canopy reads as an illustrated/cartoon cutout (flat blue fill, white glow outline), not a photographed object. Every element must read as photographed. The background street is real; the umbrella subject is not. Fix: composite a photo of a real wheeled umbrella or a real product shot.; Cover label spells 'AUTOMOUS' \u2014 'AUTONOMOUS' is missing a syllable"
+}
