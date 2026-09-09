@@ -53,7 +53,7 @@ body{{width:1080px;height:1920px;background:transparent;font-family:Poppins;
   <div class=handle>@ainews.israel</div>
 </div></div>
 <div class=title>TITLE</div>
-</body>""".format(vx=reel.VID_X, vy=reel.VID_Y, vw=reel.VID_W, vh=reel.VID_H)
+</body>"""  # geometry formatted per-reel in make_overlay (adaptive hole, Sep 9)
 
 HE_SCHEMA = {"type": "object",
              "properties": {"title": {"type": "string"},
@@ -170,10 +170,16 @@ def qa(out):
     return errs
 
 
-def make_overlay(title, out_png):
-    page = (OVERLAY_HE.replace("FONTS", "file://" + os.path.join(HERE, "fonts"))
+def make_overlay(title, out_png, vh=reel.VID_H, vy=reel.VID_Y):
+    page = (OVERLAY_HE.format(vx=reel.VID_X, vy=vy, vw=reel.VID_W, vh=vh)
+                      .replace("FONTS", "file://" + os.path.join(HERE, "fonts"))
                       .replace("ART", "file://" + os.path.join(HERE, "art"))
                       .replace("TITLE", html.escape(title)))
+    # card+title ride down with a shorter hole (mirrors reel.make_overlay)
+    off = vy - reel.VID_Y
+    if off:
+        page = page.replace(
+            "</style>", f".card,.title{{transform:translateY({off}px)}}</style>")
     # TITLE CLAMP (mirrors reel.make_overlay, owner post-mortem Aug 10): a
     # 3-line title at 48px crosses into the video hole at y=545 — long
     # titles drop to 40px so they never touch the video.
@@ -258,10 +264,11 @@ def localize(post_dir, dry):
     os.makedirs(out_dir, exist_ok=True)
     src = "/tmp/reel-he-src.mp4"
     fetch_source(r["source"], src)
-    make_overlay(out["title"], os.path.join(out_dir, "overlay.png"))
+    vh, vy = reel.hole_geometry(src)
+    make_overlay(out["title"], os.path.join(out_dir, "overlay.png"), vh, vy)
     reel.build_video(src, os.path.join(out_dir, "overlay.png"),
                      os.path.join(out_dir, "reel.mp4"),
-                     r.get("start_s", 0), r["clip_s"])
+                     r.get("start_s", 0), r["clip_s"], vh, vy)
     os.remove(src)
     # output gate (Jul 31, same as reel.py): never push a broken encode
     mp4 = os.path.join(out_dir, "reel.mp4")

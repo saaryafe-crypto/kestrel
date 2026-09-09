@@ -30,11 +30,30 @@ MEDIA_REPO = "git@github.com:saaryafe-crypto/kestrel-media.git"
 RAW = "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main"
 
 # Video hole geometry — build_video() must place the clip exactly here.
-# 4:5 portrait container (owner spec Jul 29, matching the reference layout):
-# full width minus 60px margins, height = 960/0.8; 16:9 sources center-crop
-# into it (force_original_aspect_ratio=increase + crop), never letterboxed.
-# Content spans y 175-1745 -> centered with 175px top/bottom at 1080x1920.
+# ADAPTIVE HOLE (owner order Sep 9, iPhone Duo reel post-mortem: the 16:9
+# Apple clip was center-cropped into the fixed 4:5 hole, throwing away 55%
+# of the frame — "in ig the reel looks zoomed in"). The hole now takes the
+# SOURCE's aspect ratio like a real tweet embed: wide clips get a wide hole
+# (full footage visible, no crop, no letterbox bars), vertically centered in
+# the old 4:5 span. Portrait sources still cap at 4:5 (VID_H) as before.
 VID_X, VID_Y, VID_W, VID_H = 60, 545, 960, 1200
+
+
+def hole_geometry(src):
+    """(vh, vy) for this source's aspect ratio; falls back to the 4:5
+    defaults if ffprobe can't read the file (the old crop beats a crash)."""
+    try:
+        r = subprocess.run(
+            ["ffprobe", "-v", "error", "-select_streams", "v:0",
+             "-show_entries", "stream=width,height", "-of", "json", src],
+            capture_output=True, text=True, timeout=60)
+        s = json.loads(r.stdout)["streams"][0]
+        vh = min(VID_H, round(VID_W * int(s["height"]) / int(s["width"])))
+        vh -= vh % 2  # libx264 needs even dimensions
+        return vh, VID_Y + (VID_H - vh) // 2
+    except Exception as e:
+        print(f"hole_geometry({src}): {e} — 4:5 default", file=sys.stderr)
+        return VID_H, VID_Y
 
 OVERLAY = """<!doctype html><meta charset=utf-8><style>
 @font-face{{font-family:Poppins;src:url("FONTS/Poppins-SemiBold.ttf");font-weight:600}}
@@ -61,7 +80,7 @@ body{{width:1080px;height:1920px;background:transparent;font-family:Poppins;
   <div class=handle>@yaffeai</div>
 </div></div>
 <div class=title>TITLE</div>
-</body>""".format(vx=VID_X, vy=VID_Y, vw=VID_W, vh=VID_H)
+</body>"""  # geometry formatted per-reel in make_overlay (adaptive hole)
 
 
 def sh(*cmd, **kw):
@@ -296,10 +315,17 @@ def qa(r, cands):
     return errs
 
 
-def make_overlay(title, out_png):
-    page = (OVERLAY.replace("FONTS", "file://" + os.path.join(HERE, "fonts"))
+def make_overlay(title, out_png, vh=VID_H, vy=VID_Y):
+    page = (OVERLAY.format(vx=VID_X, vy=vy, vw=VID_W, vh=vh)
+                   .replace("FONTS", "file://" + os.path.join(HERE, "fonts"))
                    .replace("ART", "file://" + os.path.join(HERE, "art"))
                    .replace("TITLE", html.escape(title)))
+    # shorter hole = the card+title ride down WITH it, one cohesive tweet
+    # embed centered in the frame — never a floating gap under the title
+    off = vy - VID_Y
+    if off:
+        page = page.replace(
+            "</style>", f".card,.title{{transform:translateY({off}px)}}</style>")
     # TITLE CLAMP (owner post-mortem Aug 10, the Optimus reel: 76 chars at
     # 48px wrapped to 3 lines and crossed into the video hole at y=545 —
     # the title box only has 545-365=180px). ~33 chars fit a 950px line at
@@ -314,12 +340,13 @@ def make_overlay(title, out_png):
        f"--screenshot={out_png}", "--window-size=1080,1920", "file://" + hp)
 
 
-def build_video(src, overlay, out, start, clip):
-    # @technology tweet-embed layout: 4:5 video inside the black frame,
-    # center-cropped to fill the rounded hole punched in the overlay PNG.
+def build_video(src, overlay, out, start, clip, vh=VID_H, vy=VID_Y):
+    # tweet-embed layout: video at its OWN aspect ratio inside the black
+    # frame (adaptive hole, owner order Sep 9); increase+crop only trims
+    # rounding pixels now that the hole matches the source's shape.
     # Audio = the clip's OWN sound only (owner rule Jul 29: never add music).
-    vf = (f"[0:v]scale={VID_W}:{VID_H}:force_original_aspect_ratio=increase,"
-          f"crop={VID_W}:{VID_H},pad=1080:1920:{VID_X}:{VID_Y}:color=0x050505[base];"
+    vf = (f"[0:v]scale={VID_W}:{vh}:force_original_aspect_ratio=increase,"
+          f"crop={VID_W}:{vh},pad=1080:1920:{VID_X}:{vy}:color=0x050505[base];"
           "[base][1:v]overlay=0:0,format=yuv420p[v]")
     sh("ffmpeg", "-y", "-loglevel", "error", "-ss", str(start), "-t", str(clip),
        "-i", src, "-i", overlay, "-filter_complex", vf, "-map", "[v]", "-map", "0:a?",
@@ -714,10 +741,11 @@ def main():
     r["caption"] = no_dashes(r["caption"])
     r["caption"] = fix_numbered_lines(r["caption"])
 
-    make_overlay(r["title"], os.path.join(post_dir, "overlay.png"))
+    vh, vy = hole_geometry(src)
+    make_overlay(r["title"], os.path.join(post_dir, "overlay.png"), vh, vy)
     out_mp4 = os.path.join(post_dir, "reel.mp4")
     build_video(src, os.path.join(post_dir, "overlay.png"),
-                out_mp4, r.get("start_s", 0), r["clip_s"])
+                out_mp4, r.get("start_s", 0), r["clip_s"], vh, vy)
     os.remove(src)
     # output gate (Jul 31): a truncated/near-empty encode must never reach the
     # publish workflow — fall back to an extra carousel, the slot still fills
