@@ -306,11 +306,32 @@ def image_score(path, headline, generated=False, person=False, cover=False,
         'STOCK-WALLPAPER GATE (owner Aug 10, the falling-money laptop cover): if the image could be sold as a generic stock photo for its topic — cash raining on a desk, anonymous hands typing, a glowing brain, abstract chart art — it stops nobody = usable:false, flaw "stock wallpaper". '
         'CROP-SURVIVAL GATE (owner Aug 14 — published slides looked "cut in the middle"): the slide displays roughly the TOP SQUARE of this image and fades its bottom fifth into black under the text. Mentally hide the bottom quarter: if the scene still reads complete — faces, key prop and stakes all live in the upper two-thirds — it passes. If anything essential sits in the bottom quarter, or the composition is a full-body/tall scene that needs its lower half to make sense = usable:false, flaw "composed too tall, dies in the crop". '
         if generated else "")
+    # SCRAPED-COVER GATES (owner Sep 9, the Sydney Sweeney meme cover: every
+    # hard gate above is GENERATED-only, so a fan meme scraped from the X
+    # thread — headgear girl "WAYMO" vs Sweeney "CYBERCAB" — was judged by
+    # the soft base rubric alone, scored well on sharpness/relevance/big
+    # face, and shipped as the cover. Scraped candidates competing for the
+    # COVER get their own hard gates.)
+    scraped_gate = (
+        'SCRAPED-IMAGE GATES (this image was scraped from the story\'s web '
+        'page or X thread — it is someone else\'s content, judge it as such): '
+        'MEME BAN: an image-macro or joke meme — big baked-in caption or '
+        'label words, side-by-side joke comparison panels, fan-made humor or '
+        'fan-made AI renders from the replies = usable:false, flaw "fan '
+        'meme, not press material". Only real press photos, official product '
+        'shots, or the story\'s own primary image belong on a news cover. '
+        'CAST TRUTH: a recognizable celebrity or actor who has NO role in '
+        'this exact headline\'s story = usable:false, flaw "famous face '
+        'unrelated to the story". '
+        'ON-STORY: a scenic/nature/stock photo that does not show this '
+        'story\'s actor, object or place = usable:false, flaw "off-story '
+        'decoration". '
+        if (cover and not generated) else "")
     try:
         r = call_claude(
             f'An AI-generated image is attached (if not attached to this message, use your Read tool on {path} to look at it). It would fill the photo band of an Instagram news slide with this headline: "{clean}". Judge it AT PHONE FEED SIZE — a flaw a follower cannot see at that size does not count against it. '
             'SCORE against the scroll-stopper formula (each worth points): ONE dominant focal subject, brightest and sharpest thing in frame (no competing focal points); the image dramatizes THIS exact headline claim — moment, stakes or consequence visible in half a second (not generic topical art), and a deliberately STAGED SYMBOLIC scene that transmits the story\'s outcome in one look (a funeral for a discontinued product, a knockout between two brands, a famous logo cast in the story\'s role) COUNTS as dramatizing the claim — judge it on whether a stranger gets the story, not on literalness. BUT (owner law Aug 10): a correct concept earns ZERO points by itself — you are grading the RENDERED PICTURE, and the bar is SHOCK FACTOR: put this next to the best viral tech pages\' covers and ask if a stranger would physically stop scrolling; a clever idea rendered as a quiet, dark, or ambiguous scene is a FAILURE;THE PULL — the image alone makes you need to know what is happening (a caught moment, visible tension, peak emotion beats any calm posed scene); bright saturated colors with one punchy accent (not murky, not pastel, not white-dominant); if a person is central, the face is large and radiates one clear strong emotion; looks like a real press photo (texture, grain, candid light), not plastic AI art. '
-            + face_gate +
+            + face_gate + scraped_gate +
             'Score 0-10: 10 = a professional photo editor would run it AND it nails the formula; 7 = publishable; 4 = clearly flawed but recognizable and on-claim; 0 = unusable garbage. usable:true means publish as-is — set false for flaws a scrolling follower would actually notice: garbled text large enough to read, warped hands/faces, obvious AI plastic look, watermark, no connection to the claim, a dark/murky frame with no focal subject, or a SCREENSHOT of an app or social-media post (baked-in meme captions, interface elements like hearts, like counts, usernames, buttons — a screenshot is someone else\'s content and never our cover). flaw: the single biggest problem in 12 words or less (empty string if none). Return ONLY JSON: {{"usable": true/false, "score": 0-10, "flaw": "..."}}',
             # person AND cover judging runs on the WRITER model (owner audit
             # Aug 10): Haiku cannot verify famous likenesses (it called a
@@ -753,7 +774,14 @@ def pick_story(stories):
     and the slot."""
     direct = [s for s in stories if "news.google.com" not in s["link"]]
     fresh = [s for s in direct if not already_posted(slugify(s["title"]))]
-    # interest ladder (Aug 3 Queen post-mortem): low-interest stories stay in
+    # INTEREST FLOOR (owner Sep 9, cb_doge Cybercab-meme post-mortem: a
+    # judge_interest=3 joke post shipped as "news" — the hook had no event
+    # to narrate ("refused to type 'waymo'") and the only imagery was fan
+    # memes from the thread. A story the interest judge scores <=3 has no
+    # story; it never gets a turn, on ANY ladder rung. The slot still fills:
+    # the workflow ladder ends in the EDU_FORCE floor (always-post intact).
+    fresh = [s for s in fresh if s.get("interest", 5) > 3]
+    # interest ladder (Aug 3 Queen post-mortem): mid-interest stories stay in
     # the pool (always-post) but only get a turn after every interest>=5
     # candidate is exhausted.
     fresh = ([s for s in fresh if s.get("interest", 5) >= 5]
@@ -2058,7 +2086,10 @@ def main(stories_path):
                 and not os.path.basename(s["media"]).startswith("gen")
                 and not (want_ref and (face_refs or person))):
             cand = os.path.join(HERE, s["media"])
-            ok, score, flaw = image_score(cand, s.get("headline", ""))
+            # cover=True (Sep 9): this IS a cover judgment — without the flag
+            # the scraped-image gates (meme ban, cast truth) never run here
+            ok, score, flaw = image_score(cand, s.get("headline", ""),
+                                          cover=True)
             cover_scored = True
             if ok:
                 return
