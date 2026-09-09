@@ -1,11 +1,6 @@
 [
  {
   "page": "technology",
-  "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech, AI, gaming and space in the last 24 hours, from strange internet experiments to major hardware and infrastructure updates \ud83c\udf0d\u26a1\n\nA QR code tool turned links into interactive 3D tr",
-  "date": "2026-08-25"
- },
- {
-  "page": "technology",
   "hook": "\"A small humanoid robot takes on a 100m race at Beijing\u2019s World Humanoid Robot Games, continuing down the track despite its unstable, stop-start stride. \ud83e\udd16\ud83c\udfc3\n\nRunning requires a robot to repeatedly shift its centre of mass",
   "date": "2026-08-27"
  },
@@ -80,21 +75,6 @@
   "date": "2026-08-26"
  },
  {
-  "page": "wired",
-  "hook": "\"The amount of gas-fired power in development for data centers in the US has nearly doubled in less than a year, new research released Tuesday shows. The findings illustrate just how heavily tech companies are relying on",
-  "date": "2026-08-25"
- },
- {
-  "page": "wired",
-  "hook": "\"The US Supreme Court ruled on Monday that President Donald Trump\u2019s executive order imposing severe restrictions on voting by mail ahead of November\u2019s midterms can proceed. While a nationwide injunction preventing the US",
-  "date": "2026-08-25"
- },
- {
-  "page": "wired",
-  "hook": "\"Rolando Perez Samayoa had come to the US in 2023 seeking safety. Fleeing violence in Mexico, he\u2019d first planned to make a life in Alabama but had been told that Illinois would protect immigrants like him. \u201cThere\u2019s some ",
-  "date": "2026-08-25"
- },
- {
   "page": "technology",
   "hook": "\"Marco Wittmann produced a stunning DTM comeback at Zandvoort, charging his #11 BMW M4 GT3 from 14th on the grid into a fierce fight for victory.\n\nAfter the pit stops, Wittmann emerged ahead of Mirko Bortolotti\u2019s #92 Lam",
   "date": "2026-08-28"
@@ -120,11 +100,6 @@
   "date": "2026-08-26"
  },
  {
-  "page": "futurism",
-  "hook": "\"Last week, the European Central Bank issued a dire warning, warning that a \u201cmarket correction\u201d following years of AI hype and massive spending could be nigh \u2014 a crash that could have enormous international consequences.",
-  "date": "2026-08-25"
- },
- {
   "page": "mashable",
   "hook": "\"After multiple delays and a slew of leaks, we finally have our first official look at GTA 6. \u2060\n\u2060\nPremiering on Netflix, the footage gave us our most substantial look yet at Rockstar Games' return to Vice City, following",
   "date": "2026-08-27"
@@ -138,11 +113,6 @@
   "page": "mashable",
   "hook": "\"Chloe Radcliffe is a lot of things: comedian, writer, actor, are only a few of the many words that might be used to describe her. \u2060\n\u2060\nOne word she has used, especially in her hit solo show, is \"cheater.\"\u2060\n\u2060\n#comedy #sta",
   "date": "2026-08-26"
- },
- {
-  "page": "mashable",
-  "hook": "\"Despite the decentralized nature of our internet-driven culture, there are still moments that can make millions of netizens focus on the same thing at the same time.\n\nEven when everything feels like it\u2019s collapsing, soc",
-  "date": "2026-08-25"
  },
  {
   "page": "wired",
@@ -583,5 +553,80 @@
   "page": "wired",
   "hook": "\"This week, WIRED senior writer Kate Knibbs reported on how an alliance of tech startups, MAHA operatives, and actual medical experts made millennial women the new face of hormone therapy.\n\nThe article generated a lot of",
   "date": "2026-09-06"
+ },
+ {
+  "page": "technology",
+  "hook": "\"OpenAI\u2019s GPT-6 Astra completed all 48 levels of Neal Agarwal\u2019s \u201cI\u2019m Not a Robot,\u201d a browser game that turns human verification into increasingly difficult interactive challenges.\n\nOpenAI engineer Sharif Shameem shared t",
+  "date": "2026-09-09"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Andrew Garfield is playing OpenAI CEO Sam Altman in Luca Guadagnino\u2019s \u201cArtificial,\u201d a dramatization centered on the extraordinary leadership crisis that unfolded at OpenAI in November 2023.\n\nAltman was abruptly removed ",
+  "date": "2026-09-09"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Huawei\u2019s Mate XT 2 continues the company\u2019s unusual tri-fold approach, using 2 hinges and 3 connected sections to transform from a conventional phone shape into a much larger display.\n\nThe engineering challenge goes far ",
+  "date": "2026-09-09"
+ },
+ {
+  "page": "technology",
+  "hook": "\"GPT-6 Astra + the Higgsfield plugin just cooked the entire competition.\n\nA camera turns into a game console. A phone becomes a virtual camera inside Blender. A broken keyboard turns into a 3D printing project.\n\nThat\u2019s t",
+  "date": "2026-09-08"
+ },
+ {
+  "page": "technology",
+  "hook": "\"OpenAI\u2019s GPT-6 Astra has completed all 48 levels of the \u201cI\u2019m Not a Robot\u201d game, handling a series of increasingly unusual challenges on screen \ud83e\udd16\ud83d\udda5\n\nThe run was shared by OpenAI engineer Sharif Shameem and pushed Astra be",
+  "date": "2026-09-08"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Automakers are having an increasingly difficult time convincing their customers that more in-car screens \u2014 and the often dodgy software that accompanies them \u2014 are a compelling reason to pay a major premium.\n\nVirtually ",
+  "date": "2026-09-08"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Jeremiah Brown didn't leave Love Island USA with a master plan to become a full-time creator. In fact, before entering the villa, his social media presence was relatively sparse: a few book reviews, some funny videos, a",
+  "date": "2026-09-09"
+ },
+ {
+  "page": "wired",
+  "hook": "\"A report published by the US Census Bureau last month purported to uncover evidence backing up President Donald Trump\u2019s baseless claims that noncitizens voting cost him the 2020 election. It was the latest salvo in Trum",
+  "date": "2026-09-09"
+ },
+ {
+  "page": "wired",
+  "hook": "\"The success of a program linking zoos across the US has generated a wave of interest in how to protect the endangered great apes in the wild.\n\nTap the \ud83d\udd17 in bio for more.\".",
+  "date": "2026-09-09"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Over a decade ago, the Islamic State released a disturbing video that depicted its members lowering men locked in a cage into a swimming pool and drowning them. Today, that video has been reproduced as a SpongeBob Squar",
+  "date": "2026-09-08"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Once upon a time, you may have been living next to a data center and never heard anything about it. But now the great data center backlash of 2026 is here.\n\nFrom now until the midterms, senior writer Molly Taft will be ",
+  "date": "2026-09-08"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Meta needs you to trust its new personal AI agent. \n\nThe company announced Tuesday the release of Muse, which people can message to automate digital tasks in a secure cloud environment, all while relying on security and",
+  "date": "2026-09-08"
+ },
+ {
+  "page": "wired",
+  "hook": "\"In June, the UK government told Big Tech it had three months to make taking, viewing, or sharing images of child nudity on their devices impossible. \u201cI expect tech firms to make that happen,\u201d said then prime minister Ke",
+  "date": "2026-09-08"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Early last month, Meta deleted around 50 ads posted on Facebook, Instagram, and Threads that directly included child sexual abuse material (CSAM), following reporting by WIRED. At the time, the company said that most of",
+  "date": "2026-09-08"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Researchers from Australia\u2019s University of Queensland and the University of New South Wales embedded electrodes into live cockroaches, then outfitted them with cameras and injection devices to deliver medication via rem",
+  "date": "2026-09-08"
  }
 ]

@@ -1,77 +1,133 @@
 {
- "updated": "2026-09-08T12:08:19+00:00",
+ "updated": "2026-09-09T16:22:32+00:00",
  "competitor_hits": [
   {
    "page": "wired",
-   "likes": 2427,
-   "ratio": 1.57,
+   "likes": 3691,
+   "ratio": 4.47,
    "tier": "mega",
    "hook": "\"Though AI has seeped into every step of the job hunt for both applicants and recruiters, it has taken time to catch on in interviews. Voice AI is infamously tricky to pull off, as agents get tripped up by accents or \u201cum",
    "date": "2026-09-07"
   },
   {
    "page": "wired",
-   "likes": 1516,
-   "ratio": 0.98,
+   "likes": 2382,
+   "ratio": 2.88,
    "tier": "mega",
-   "hook": "\"This week, WIRED senior writer Kate Knibbs reported on how an alliance of tech startups, MAHA operatives, and actual medical experts made millennial women the new face of hormone therapy.\n\nThe article generated a lot of",
-   "date": "2026-09-06"
-  },
-  {
-   "page": "futurism",
-   "likes": 1598,
-   "ratio": 0.94,
-   "tier": "mega",
-   "hook": "\"A group of software engineers who say they were fired by their bosses because of AI are giving their former employers a taste of their own medicine.\n\nWith the powers of spite and friendship, they\u2019ve built \u201cOpenExecutive",
-   "date": "2026-09-06"
-  },
-  {
-   "page": "technology",
-   "likes": 26000,
-   "ratio": 0.7,
-   "tier": "mega",
-   "hook": "\"Someone has reportedly pushed NVIDIA\u2019s new DLSS 5 neural rendering technology into 2011\u2019s Battlefield 3, making the 15-year-old game look surprisingly cinematic \ud83c\udfae\ud83e\udd2f\n\nBattlefield 3 has no official DLSS 5 support, so this ",
-   "date": "2026-09-07"
-  },
-  {
-   "page": "technology",
-   "likes": 17000,
-   "ratio": 0.46,
-   "tier": "mega",
-   "hook": "\"A young student spent months cleaning polluted stretches of the Ajnar River, turning a personal mission into work that eventually caught global attention \ud83c\udf0a\ud83c\udf0d\n\nSurendra Singh Choudhary, known as Bittu, began the cleanup o",
-   "date": "2026-09-06"
-  },
-  {
-   "page": "mashable",
-   "likes": 54,
-   "ratio": 0.37,
-   "tier": "mega",
-   "hook": "\"How Apple lost its cool (And How It Can Get It Back) \ud83e\udd14\u2060\n#apple #iphone #iphone18\u2060\".",
+   "hook": "\"Early last month, Meta deleted around 50 ads posted on Facebook, Instagram, and Threads that directly included child sexual abuse material (CSAM), following reporting by WIRED. At the time, the company said that most of",
    "date": "2026-09-08"
   },
   {
-   "page": "techcrunch",
-   "likes": 38,
-   "ratio": 0.33,
-   "tier": "mega",
-   "hook": "\"How do you convince investors to take a brand-new startup seriously?\n\nDr. Eike Gerhardt calls the challenge the \u201cliability of newness\u201d: the earlier your company is, the fewer signals you have to establish credibility.\n\n",
-   "date": "2026-09-06"
-  },
-  {
    "page": "wired",
-   "likes": 358,
-   "ratio": 0.23,
+   "likes": 1729,
+   "ratio": 2.09,
    "tier": "mega",
-   "hook": "\"In 2025, AI deepfakes flooded Tinder. According to the company, 98 percent of the content-moderation actions on the app were focused on combating fake accounts, scamming, and spam, pushing the company to expand its mode",
-   "date": "2026-09-06"
+   "hook": "\"In June, the UK government told Big Tech it had three months to make taking, viewing, or sharing images of child nudity on their devices impossible. \u201cI expect tech firms to make that happen,\u201d said then prime minister Ke",
+   "date": "2026-09-08"
   },
   {
    "page": "technology",
-   "likes": 5640,
-   "ratio": 0.15,
+   "likes": 11000,
+   "ratio": 1.0,
    "tier": "mega",
-   "hook": "\"The 22 year old Kick creator now has an always-on AI clone, built on GPT-6 Astra and Higgsfield, that can churn out content 24/7 even when the real N3on logs off. The Kick stream is titled \u201cFirst Ever Infinite AI Stream",
-   "date": "2026-09-07"
+   "hook": "\"OpenAI\u2019s GPT-6 Astra has completed all 48 levels of the \u201cI\u2019m Not a Robot\u201d game, handling a series of increasingly unusual challenges on screen \ud83e\udd16\ud83d\udda5\n\nThe run was shared by OpenAI engineer Sharif Shameem and pushed Astra be",
+   "date": "2026-09-08"
+  },
+  {
+   "page": "wired",
+   "likes": 828,
+   "ratio": 1.0,
+   "tier": "mega",
+   "hook": "\"Over a decade ago, the Islamic State released a disturbing video that depicted its members lowering men locked in a cage into a swimming pool and drowning them. Today, that video has been reproduced as a SpongeBob Squar",
+   "date": "2026-09-08"
+  },
+  {
+   "page": "wired",
+   "likes": 809,
+   "ratio": 0.98,
+   "tier": "mega",
+   "hook": "\"A report published by the US Census Bureau last month purported to uncover evidence backing up President Donald Trump\u2019s baseless claims that noncitizens voting cost him the 2020 election. It was the latest salvo in Trum",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "technology",
+   "likes": 9990,
+   "ratio": 0.91,
+   "tier": "mega",
+   "hook": "\"GPT-6 Astra + the Higgsfield plugin just cooked the entire competition.\n\nA camera turns into a game console. A phone becomes a virtual camera inside Blender. A broken keyboard turns into a 3D printing project.\n\nThat\u2019s t",
+   "date": "2026-09-08"
+  },
+  {
+   "page": "wired",
+   "likes": 746,
+   "ratio": 0.9,
+   "tier": "mega",
+   "hook": "\"Once upon a time, you may have been living next to a data center and never heard anything about it. But now the great data center backlash of 2026 is here.\n\nFrom now until the midterms, senior writer Molly Taft will be ",
+   "date": "2026-09-08"
+  },
+  {
+   "page": "futurism",
+   "likes": 1557,
+   "ratio": 0.82,
+   "tier": "mega",
+   "hook": "\"Automakers are having an increasingly difficult time convincing their customers that more in-car screens \u2014 and the often dodgy software that accompanies them \u2014 are a compelling reason to pay a major premium.\n\nVirtually ",
+   "date": "2026-09-08"
+  },
+  {
+   "page": "mashable",
+   "likes": 25,
+   "ratio": 0.69,
+   "tier": "mega",
+   "hook": "\"Jeremiah Brown didn't leave Love Island USA with a master plan to become a full-time creator. In fact, before entering the villa, his social media presence was relatively sparse: a few book reviews, some funny videos, a",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "wired",
+   "likes": 466,
+   "ratio": 0.56,
+   "tier": "mega",
+   "hook": "\"Researchers from Australia\u2019s University of Queensland and the University of New South Wales embedded electrodes into live cockroaches, then outfitted them with cameras and injection devices to deliver medication via rem",
+   "date": "2026-09-08"
+  },
+  {
+   "page": "wired",
+   "likes": 302,
+   "ratio": 0.37,
+   "tier": "mega",
+   "hook": "\"Meta needs you to trust its new personal AI agent. \n\nThe company announced Tuesday the release of Muse, which people can message to automate digital tasks in a secure cloud environment, all while relying on security and",
+   "date": "2026-09-08"
+  },
+  {
+   "page": "wired",
+   "likes": 226,
+   "ratio": 0.27,
+   "tier": "mega",
+   "hook": "\"The success of a program linking zoos across the US has generated a wave of interest in how to protect the endangered great apes in the wild.\n\nTap the \ud83d\udd17 in bio for more.\".",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "technology",
+   "likes": 1491,
+   "ratio": 0.14,
+   "tier": "mega",
+   "hook": "\"Andrew Garfield is playing OpenAI CEO Sam Altman in Luca Guadagnino\u2019s \u201cArtificial,\u201d a dramatization centered on the extraordinary leadership crisis that unfolded at OpenAI in November 2023.\n\nAltman was abruptly removed ",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "technology",
+   "likes": 706,
+   "ratio": 0.06,
+   "tier": "mega",
+   "hook": "\"Huawei\u2019s Mate XT 2 continues the company\u2019s unusual tri-fold approach, using 2 hinges and 3 connected sections to transform from a conventional phone shape into a much larger display.\n\nThe engineering challenge goes far ",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "technology",
+   "likes": 402,
+   "ratio": 0.04,
+   "tier": "mega",
+   "hook": "\"OpenAI\u2019s GPT-6 Astra completed all 48 levels of Neal Agarwal\u2019s \u201cI\u2019m Not a Robot,\u201d a browser game that turns human verification into increasingly difficult interactive challenges.\n\nOpenAI engineer Sharif Shameem shared t",
+   "date": "2026-09-09"
   }
  ],
  "reddit_hot": []
