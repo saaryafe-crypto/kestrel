@@ -110,6 +110,14 @@ say out loud. If a literal translation sounds stiff, rewrite it Israeli-style.
 
 {he.doctrine()}
 
+{he.skill_refs()}
+
+WORD TEST (hard, owner Sep 9 — the קמט reel): for EVERY content word ask
+"would an Israeli 16-year-old type this word in WhatsApp?" If not, swap it
+for the word they would type, even if it is less precise. Never render an
+English tech metaphor with its dictionary twin — describe what the eye
+actually sees.
+
 STRUCTURE RULES (hard):
 - "title": the overlay line on the video. Max 80 characters, Hebrew, opens
   the same information gap the English title opens, never resolves it. Keep

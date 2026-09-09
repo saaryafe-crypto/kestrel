@@ -15,6 +15,14 @@ here with "-> distilled".
 
 ---
 
+## 2026-09-09 — iPhone Duo reel (owner)
+BAD:      "כך נראה הקמט בטלפון המתקפל" (+ הקמט x3 in the caption)
+OWNER/FIX: "why did you say the word 'קמט' there? this is like the worst
+          word... how can we fix it that the hebrew will be simple."
+RULE:     never dictionary-translate an English tech metaphor ("crease" ->
+          קמט = skin wrinkle). Say what the eye sees, in WhatsApp words:
+          "הפס באמצע המסך".
+
 ## 2026-08-10 — general (owner)
 BAD:      current Hebrew output register
 OWNER/FIX: "make it easy to understand for 18 year old or even 16"

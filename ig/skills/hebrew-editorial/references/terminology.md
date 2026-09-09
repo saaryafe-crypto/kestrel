@@ -27,6 +27,7 @@ Israeli tech media + teens actually use.
 | החליט | לקח החלטה | calque |
 | בשורה התחתונה | בסוף היום | calque |
 | כבר לא | לא יותר (as a punch ending) | calque, shipped 3.8 |
+| הפס באמצע המסך | קמט (foldable "crease") | קמט is a skin wrinkle; shipped Sep 9, owner: "the worst word" — say what the eye sees |
 
 ## Openers that mark AI writing (never open with)
 
