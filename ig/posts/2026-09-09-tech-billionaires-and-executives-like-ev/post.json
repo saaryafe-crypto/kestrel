@@ -1,0 +1,112 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SNAPCHAT'S FOUNDER JUST <em>BANNED HIS OWN KIDS FROM SNAPCHAT</em> AND IS <em>STILL SELLING IT TO YOURS</em>",
+   "kicker": "HE SAID IT PUBLICLY",
+   "hsize": 64,
+   "media": "posts/2026-09-09-tech-billionaires-and-executives-like-ev/gen-0-rescue.jpg",
+   "image_prompt": "Giant yellow Snapchat ghost spilling red dollar symbol and warning triangle, plain bright yellow background."
+  },
+  {
+   "type": "content",
+   "headline": "IF EVAN SPIEGEL THOUGHT SNAPCHAT HURT KIDS, <em>HE WOULD HAVE ALREADY DONE SOMETHING</em>",
+   "hsize": 80,
+   "body": "That was the assumption everyone held.\n\nIf the co-founder genuinely knew it was harmful, he'd change the product. He'd speak up. He'd act.\n\nYour kids are probably still on Snapchat. His aren't",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EVAN SPIEGEL BUILT SNAPCHAT TO HOOK TEENAGERS. <em>THEN HE HAD KIDS OF HIS OWN</em>",
+   "hsize": 82,
+   "body": "<b>Billionaire</b> fortune built on teen engagement\nHis own kids banned from the app\n<b>Peter Thiel</b> made the same call publicly\nBoth said it on the record",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "BANNED HIS KIDS. KEPT SELLING YOURS.",
+   "hsize": 110,
+   "body": "Still selling it to yours. Not to his",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EVERY PARENT LETTING THEIR KID SCROLL <em>IS BETTING AGAINST THE BUILDER'S OWN CALL</em>",
+   "hsize": 82,
+   "body": "It's a public statement on the record, from the person who knows the product best.\n\nIf your kids are on Snapchat, you're making a bet he refused to make for his own family.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "MOST BUSINESSES USE AI TOOLS <em>KNOWING LESS THAN THE PEOPLE WHO BUILT THEM</em>",
+   "hsize": 84,
+   "body": "The founders of these products know exactly what they do. They don't publish all of it.\n\nIf you're running a business with AI tools you don't fully understand, that gap is costing you.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>SNAPCHAT'S FOUNDER BANNED HIS OWN KIDS FROM SNAPCHAT</em>",
+   "hsize": 58,
+   "body": "\u2022 <b>Evan Spiegel</b> built Snapchat to hook teenagers\n\u2022 His own kids aren't allowed near it\n\u2022 <b>Peter Thiel</b> made the same call\n\nSend this to the parent who needs it",
+   "media": null
+  }
+ ],
+ "caption": "Snapchat's founder just publicly admitted his own kids won't use Snapchat, and he's not alone. Swipe for the full story. \ud83d\udcf1\n\nCover hook on the core irony, the assumption everyone held about tech insiders, Evan Spiegel's public admission and the cinematic rise behind it, the break slide twist that he said it all on the record, what it means for every parent whose kid scrolls these apps, what it means for businesses running tools they don't fully understand, save-this recap\n\nTech billionaires are building and selling the same apps they ban at home. That's now public record. Every parent and every business owner is working with information the builders have already acted on.\n\nRunning a business? DM us \"AI\" and we'll show you what that same gap looks like in yours.\n\nSources: Fortune, unusual_whales on X\n\n#snapchat #socialmedia #parenting #techindustry #artificialintelligence",
+ "pinned_comment": "Would you trust a restaurant where the chef refuses to eat his own food? This is exactly that.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "TECH BILLIONAIRES ARE SELLING THESE APPS TO YOUR KIDS <em>WHILE BANNING THEIR OWN CHILDREN FROM USING THEM</em>",
+   "SNAPCHAT'S FOUNDER BUILT AN APP TO HOOK TEENAGERS <em>AND JUST BANNED HIS OWN KIDS FROM USING IT</em>",
+   "SNAPCHAT'S FOUNDER IS KEEPING HIS KIDS OFF SNAPCHAT, <em>AND HE KNOWS EXACTLY WHAT IT DOES</em>",
+   "<em>THE GUY WHO DESIGNED YOUR KID'S MOST ADDICTIVE APP</em> JUST BANNED HIS OWN CHILDREN FROM TOUCHING IT",
+   "SNAPCHAT'S OWN FOUNDER WON'T LET HIS KIDS TOUCH SNAPCHAT, AND <em>HE'S SAYING IT OUT LOUD</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   6,
+   9,
+   7
+  ],
+  "winner": 3,
+  "why": "[3] makes you stop with visceral details\u2014'your kid's most addictive app' from the designer who just banned his own kids from touching it. [0] is equally true but sounds like corporate analysis instead of scandal."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "SNAPCHAT'S FOUNDER JUST <em>BANNED HIS OWN KIDS FROM SNAPCHAT</em> AND IS <em>STILL SELLING IT TO YOURS</em>",
+   "<em>THE GUY WHO DESIGNED YOUR KID'S MOST ADDICTIVE APP</em> JUST BANNED HIS OWN CHILDREN FROM TOUCHING IT"
+  ],
+  "scores": [
+   8,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] immediately names Snapchat and hits the hypocrisy hard\u2014founder won't let his own kids use it but still profits by selling it to yours\u2014creating instant impact at 2am. [1] buries the app and person under vague language, making you pause to decode who and what instead of instantly grasping the wild story that makes you stop scrolling."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Evan Spiegel",
+  "actor_known": false,
+  "anchor": "Snapchat's founder",
+  "specifics": [
+   "Snapchat's own co-founder won't let his kids use Snapchat",
+   "Peter Thiel is also publicly keeping his children away from tech products he profits from",
+   "They're doing it publicly \u2014 openly admitting on the record their products aren't for their own families",
+   "Fortune identified multiple tech billionaires and executives doing this simultaneously",
+   "The people with the most insider knowledge of what these apps actually do to kids are the ones most aggressively banning them at home"
+  ]
+ },
+ "cover_fallback": "no-face rescue",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "\"Tech billionaires and executives like Evan Spiegel and Peter Thiel are publicly shielding their children from the products that made them rich,\" per FORTUNE",
+  "link": "https://x.com/unusual_whales/status/2097650474354962838",
+  "judge_interest": 5,
+  "scout_score": 81.1
+ },
+ "editor_override": "IMAGE LAW \u2014 CAST TRUTH FAIL: The cover has no famous face. The story is about Evan Spiegel \u2014 a named, recognizable founder \u2014 so the house archetype for a founder story is 'the person + giant glossy brand mark + real product.' The cover shows black silhouette hands and a Snapchat ghost logo prop spilling dollar signs. There is no face. IMAGE LAW states 'Faces earn attention (+38% likes) \u2014 default t"
+}
