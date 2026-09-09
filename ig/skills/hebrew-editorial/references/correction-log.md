@@ -15,6 +15,16 @@ here with "-> distilled".
 
 ---
 
+## 2026-09-09 — general (owner)
+BAD:      the whole "localize/translate the English" framing
+OWNER/FIX: "why cant it just use claude brain where it speaks great hebrew
+          and not just physically transalet? we also used other words we
+          cant say. why just not tell a story as simple as possible so
+          everyone can understand even 12 year olds?"
+RULE:     the English post is a FACT SHEET, never a sentence template —
+          retell the story from scratch in native Hebrew; clarity bar is
+          now a 12-year-old (was 16), enforced in the editor gate.
+
 ## 2026-09-09 — iPhone Duo reel (owner)
 BAD:      "כך נראה הקמט בטלפון המתקפל" (+ הקמט x3 in the caption)
 OWNER/FIX: "why did you say the word 'קמט' there? this is like the worst

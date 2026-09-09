@@ -1,6 +1,7 @@
 # Terminology glossary — @ainews.israel
 
-Rule of thumb: the word an Israeli 16-18yo types in WhatsApp wins. Brand
+Rule of thumb: the word an Israeli teenager types in WhatsApp wins, and a
+12-year-old must understand it without slowing down (owner Sep 9). Brand
 names stay English. When both a Hebrew and English form exist, pick the one
 Israeli tech media + teens actually use.
 

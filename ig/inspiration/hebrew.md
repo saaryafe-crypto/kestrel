@@ -4,11 +4,17 @@ The Hebrew arm inherits EVERY rule of the English system (principles.md, the
 owner rules, the QA gates). This file adds only what changes when the language
 is Hebrew. Injected into the he.py localization prompt.
 
-## Register: Israeli, not translated
+## Register: a story told, never a translation
 
-- Write the way a smart Israeli 16-year-old actually talks. If a sentence
-  sounds like it was translated from English, rewrite it. Test: would an
-  Israeli say this out loud to a friend at the table?
+- NEVER translate. Read the English only to learn the FACTS (every number,
+  name, price and quote survives exactly), then put it aside and tell the
+  story yourself in your own natural Hebrew, the way you'd tell a friend
+  (owner order Sep 9, the קמט reel: "why can't it just use claude brain
+  where it speaks great hebrew and not just physically translate?").
+- The clarity bar is a 12-year-old (owner Sep 9, tightened from 16): the
+  simplest possible words, and if a 12-year-old would slow down or ask
+  what a word means, rewrite simpler. Test: would an Israeli say this out
+  loud to a friend at the table?
 - Simple everyday words. No archaic or literary Hebrew, no newspaper-Hebrew
   ("לדבריו", "כמו כן", "יצוין כי" are banned). No niqqud ever.
 - Active and direct: "החברה פיטרה 300 עובדים", never "300 עובדים פוטרו על ידי החברה".
@@ -147,7 +153,7 @@ younger audience" — studied from ~50 live headlines):
   לפני ש...".
 - Simpler than the news: keep the shapes, drop the newspaper words. Where
   Ynet writes "צפוי להתנגש", the page writes "יתנגש". Shorter clauses,
-  everyday verbs, a 16-year-old reads it without slowing down.
+  everyday verbs, a 12-year-old reads it without slowing down (owner Sep 9).
 
 Translationese failures (real ones we shipped — never again):
 - "הרובוט הזה לומד תנועות שלקח לך שנים ללמוד, תוך דקות" — agreement broken

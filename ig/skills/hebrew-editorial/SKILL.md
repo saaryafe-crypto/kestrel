@@ -46,13 +46,13 @@ never exaggerated claims.
 Every Hebrew post is scored 1-10 before publish:
 
 ```json
-{"hebrew_naturalness": 0, "grammar": 0, "clarity_16yo": 0,
+{"hebrew_naturalness": 0, "grammar": 0, "clarity_12yo": 0,
  "source_fidelity": 0, "brand_voice": 0, "issues": [],
  "corrected_slides": []}
 ```
 
 Publish thresholds: naturalness >= 8, grammar >= 9, fidelity >= 9,
-clarity_16yo >= 8, voice >= 8. Below threshold -> the editor's corrected
+clarity_12yo >= 8, voice >= 8. Below threshold -> the editor's corrected
 text ships (single pass, no loop). The gate fails OPEN on API error — a
 dead editor never kills a slot (always-post law).
 

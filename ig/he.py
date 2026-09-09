@@ -87,18 +87,22 @@ def backlog():
 
 
 def build_prompt(post):
-    """The ONE translation prompt (token diet Aug 8). In Hebrew — the polish
-    era proved a Hebrew-language prompt pushes the model into native mode —
-    and it shows the English post but bans word-for-word calques."""
+    """The ONE Hebrew call (token diet Aug 8 — still one call). RETELL, not
+    translate (owner order Sep 9, the קמט reel: "why can't it just use claude
+    brain where it speaks great hebrew and not just physically translate?...
+    why just not tell a story as simple as possible so everyone can
+    understand even 12 year olds?"). The English post is a fact sheet; the
+    Hebrew is written from scratch. In Hebrew — the polish era proved a
+    Hebrew-language prompt pushes the model into native mode."""
     src = {"slides": [{k: s.get(k) for k in ("type", "headline", "body", "kicker")
                        if s.get(k)} for s in post["slides"]],
            "caption": post["caption"],
            "pinned_comment": post.get("pinned_comment")}
-    return f"""אתה המתרגם והעורך של @ainews.israel, עמוד חדשות AI באינסטגרם לקהל ישראלי צעיר.
+    return f"""אתה עורך החדשות של @ainews.israel, עמוד חדשות AI באינסטגרם לקהל ישראלי צעיר. עברית היא שפת האם שלך.
 
-לפניך פוסט באנגלית שכבר פורסם. תרגם אותו לעברית טבעית: לא תרגום מילולי — ישראלי שקורא את התוצאה לא אמור לנחש שהמקור באנגלית. כל מספר, שם, מחיר וציטוט חייבים לשרוד במדויק. ניסוח שנשמע כמו אנגלית במילים עבריות ("עשה היסטוריה", "לא קיבל את ההודעה") פסול — כתוב איך שישראלי באמת אומר את זה.
+לפניך פוסט באנגלית שכבר פורסם. אל תתרגם אותו. קרא אותו רק כדי להבין את הסיפור והעובדות — כל מספר, שם, מחיר וציטוט חייבים לשרוד במדויק — ואז הנח אותו בצד וספר את הסיפור בעצמך, מאפס, בעברית שלך. כאילו אתה מספר לחבר ליד השולחן מה קרה. אם משפט בתוצאה מרגיש כמו אנגלית במילים עבריות, זה כישלון.
 
-הסגנון: עברית מדוברת של ישראלי חכם בן 16, כותרות בצורות של ynet ו-N12 אבל פשוטות יותר. אפס עברית של עיתון. המבחן הקשיח (הבעלים, 10.8): בן 16 קורא בלי להאט. אם הוא מאט, לכתוב פשוט יותר.
+הסגנון: הכי פשוט שאפשר. המבחן הקשיח (הבעלים, 9.9): ילד בן 12 מבין כל מילה בלי להאט ובלי לשאול. מילה שילד בן 12 לא היה מקליד בוואטסאפ — מוחלפת במילה שהוא כן. כותרות בצורות של ynet ו-N12 אבל פשוטות יותר. אפס עברית של עיתון, אפס מילון: מטאפורה טכנית באנגלית לא מקבלת את התאום המילוני שלה — תאר מה העין רואה.
 
 {doctrine()}
 
@@ -259,17 +263,17 @@ Return JSON only: {{"relevant": true/false, "why": "one short line"}}"""
 
 ED_SCHEMA = {"type": "object", "properties": {
     "hebrew_naturalness": {"type": "number"}, "grammar": {"type": "number"},
-    "clarity_16yo": {"type": "number"}, "source_fidelity": {"type": "number"},
+    "clarity_12yo": {"type": "number"}, "source_fidelity": {"type": "number"},
     "brand_voice": {"type": "number"},
     "issues": {"type": "array", "items": {"type": "string"}},
     "corrected_slides": {"type": "array", "items": {"type": "object",
         "properties": {"headline": {"type": "string"},
                        "body": {"type": "string"},
                        "kicker": {"type": "string"}}}}},
-    "required": ["hebrew_naturalness", "grammar", "clarity_16yo",
+    "required": ["hebrew_naturalness", "grammar", "clarity_12yo",
                  "source_fidelity", "brand_voice"]}
 
-ED_BAR = {"hebrew_naturalness": 8, "grammar": 9, "clarity_16yo": 8,
+ED_BAR = {"hebrew_naturalness": 8, "grammar": 9, "clarity_12yo": 8,
           "source_fidelity": 9, "brand_voice": 8}
 
 
@@ -289,7 +293,7 @@ def editor_pass(out, post):
 תן ציון 1 עד 10 לכל קטגוריה, בקשיחות של עורך אמיתי:
 - hebrew_naturalness: זו עברית שישראלי אומר בקול, או אנגלית במילים עבריות?
 - grammar: התאמות מין ומספר, זמנים, סמיכויות. טעות דקדוק אחת = מקסימום 7.
-- clarity_16yo: בן 16 קורא בלי להאט? מילה שהוא לא מכיר = להוריד ציון.
+- clarity_12yo: ילד בן 12 מבין כל מילה בלי להאט? מילה שהוא לא מכיר או לא היה מקליד בוואטסאפ = להוריד ציון (הבעלים, 9.9).
 - source_fidelity: כל מספר, שם ועובדה מהמקור שרדו במדויק?
 - brand_voice: חבר חכם שמספר חדשות בשולחן, לא סוכנות תרגום ולא צ'אטבוט.
 
