@@ -1368,6 +1368,7 @@ KEEP/CUT — what belongs in the story (owner directive Jul 31: "people want the
 KEEP: what physically happened, in order; the money and the numbers; the one consequence that touches the reader; names ONLY if a random 16-year-old already knows them (Musk, Apple, OpenAI) or the story is literally about that person becoming known.
 CUT: every other name (a researcher, a VP, a spokesperson — say "the engineers", "the company"); quotes from random internet users or commenters (NEVER quote a Reddit/X user on a slide); job titles; the outlet that reported it; how the news spread ("went viral", "the internet reacted"); anything a reader would skim. Every sentence must advance what HAPPENED — if it only adds who said it, cut it.
 FELT SCALE (owner directive Aug 1 — "millions of users must understand and it must be fun to read"): every number gets translated into what a PERSON feels, never what an index did. The moves: absolute dollars ("$3 billion gone by lunch"), the reader's own stake ("$1,000 of Reddit stock on Monday was $770 by dinner"), a record ("its worst day ever"), a comparison a teenager knows ("more than a Superbowl ad every hour"). Finance-wire vocabulary is BANNED on slides — index names (S&P 500, Nasdaq, Dow), tickers (RDDT, $RDDT), "shares", "the market", "market cap", "trading session", "intraday", "closed up/down X%". A 12-year-old never says those words, so we never write them.
+- ONE HARD NUMBER PER BODY (owner order Sep 10, forensic audit — @getintoai's winning digest: EVERY body carries exactly one hard number: $571, 38 hours, 166,700 neurons, 20×; @technology contextualizes every number for felt scale): each content body carries EXACTLY ONE hard number, translated per FELT SCALE above. Zero numbers is legal only when the beat is purely human (a resignation, a courtroom moment) — but if the story offers a true number for that beat, use it. TWO+ numbers in one body is a spec sheet, not a story beat: keep the wilder one, move or cut the other.
 The model to copy (updated Aug 1 for summarizing covers — the Visa story done right):
   Cover: "VISA JUST LAID OFF 2,600 WORKERS <em>TO GO ALL IN ON A TECHNOLOGY MOST BANKS REFUSE TO TOUCH</em>" — the WHOLE story, reader swipes for the details
   Slide 2: "THE <em>2,600 JOBS</em> WERE CUT IN ONE MORNING" — the human scale of the move → reader thinks: why so brutal?
@@ -1399,11 +1400,11 @@ FACES POOL — we keep real press photos on file for: {face_list}. If the story'
 COVER HOOK — the #1 priority. The cover decides whether anyone swipes. OWNER DOCTRINE (Aug 1, the reference-page audit — REVERSES the Jul 29 information-gap rule and overrides everything older): the cover TELLS THE WHOLE STORY with its wildest specifics. A cryptic tease only works for pages with authority; a growing page earns the swipe by delivering a complete wild claim the reader already believes — they swipe for the photos, the details and the fallout. Built ONLY from true facts in the story.
 {steer}
 General craft (the STORY TYPE formula above decides which specific leads; these rules shape it):
-- LENGTH 12-25 words, aim 15-20: ONE complete sentence summarizing the story — actor, what happened, and the numbers/specifics that make it wild. NOTHING is withheld.
-- Reference craft (the pages we model — @technology): "OPENAI JUST LAUNCHED THEIR FIRST EVER HARDWARE PRODUCT, A $230 LIGHT UP KEYBOARD BUILT TO RUN YOUR AI CODING AGENTS" (19 words, full story + price + first-ever); "APPLE'S FIRST HIGH END MACBOOK REDESIGN IN FIVE YEARS IS REPORTEDLY BRINGING 12 NEW FEATURES". The old style — "VISA JUST BET EVERYTHING" (4 words, total gap) — is now the FAILURE model: a riddle from an unknown page gets scrolled past.
+- LENGTH 8-14 words, aim 10-13 (owner diet Sep 10, forensic audit: the winners' covers are 3 huge lines — @technology's 90.5K-like cover is 11 words; our 12-25 law produced paragraph covers in small type): ONE complete claim — actor, what happened, and the SINGLE wildest number. Complete but LEAN: the claim holds nothing back, every SUPPORTING spec moves to the inner slides.
+- Reference craft: "WHAT JUST HAPPENED AROUND THE WORLD IN THE LAST 24 HOURS?" (11 words, their biggest post ever); the keyboard story done right — "OPENAI JUST LAUNCHED ITS FIRST HARDWARE: A $230 AI KEYBOARD" (10 words; "light up", "built to run your coding agents" move inside). TWO failure models: the 4-word riddle ("VISA JUST BET EVERYTHING" — total gap, scrolled past) and the 20-word paragraph cover (small type, nobody reads walls at thumbnail size).
 - Charged verbs and power words when true: BET, FIRED, DECLARED WAR, ROGUE, SECRET, QUIETLY, BANNED, LEAKED, EXPOSED, ON PURPOSE. Threat/loss framing beats triumph framing when both are true. Second person ("YOUR") when the story touches the reader. Simple 8th-grade words only.
 - Banned on covers: neutral news-title phrasing, hedging (may/could/reportedly), company-PR framing, and any brand name a random 16-year-old wouldn't recognize (use the universal noun the STORY TYPE block names instead).
-- Self-test before finalizing (all must pass): (1) does the headline follow THIS story type's formula above? (2) Does a stranger get the FULL story — who, what, the wild number — from the cover alone? If any specific got held back for slide 2, put it on the cover. (3) Is the claim wild enough that they'd swipe for proof and details? If the summary reads like a neutral newspaper headline, the problem is the angle, not the length — find the wilder true framing.
+- Self-test before finalizing (all must pass): (1) does the headline follow THIS story type's formula above? (2) Does a stranger get the FULL claim — who, what, the ONE wild number — from the cover alone? The claim is never withheld; supporting specifics (second numbers, feature lists, the how) belong to the inner slides. (3) Is the claim wild enough that they'd swipe for proof and details? If the summary reads like a neutral newspaper headline, the problem is the angle, not the length — find the wilder true framing.
 - HOOK TOURNAMENT (mandatory): write FIVE genuinely different cover candidates in "hook_candidates" — different angles (threat vs record vs money vs scarcity subject), not rewordings. Each: {{"headline": "... with <em> accents ..."}}. Put your best one on the cover slide AND include it among the five. A separate blind judge will pick the winner.
 
 RULES
@@ -1411,7 +1412,7 @@ RULES
 - THE FRIEND TEST (owner order Sep 10, the Anthropic-economics post-mortem: six slides said "model", "scenarios", "surveyed", "economic growth" — the source's official vocabulary — and never once what the thing IS for the reader): every THING in the story is named by what the reader SEES and DOES with it, never by its official noun. The shipped failure: "a model covering jobs, wages and economic growth through 2030 across three scenarios". The sentence a person says: "a website where you type in your job and see if AI takes it by 2030". The source material is a FACT SHEET, not a phrasebook — take its numbers and names, never its nouns. Before finalizing each slide, say it out loud to a friend at the table; any phrase you would never say out loud gets rewritten from what the friend would picture.
 - <em>...</em> in headlines marks the accent: ONE contiguous phrase, ideally a WHOLE LINE of the headline (two groups absolute max). Orange-on-entire-lines creates rhythm and a reading order; orange scattered across four single words is confetti — four competing focal points = zero focal points (owner verdict Jul 28). Connectives stay white. Every headline needs at least one <em>.
 - <b>...</b> in bodies marks facts (names, numbers). No <em> in bodies.
-- hsize: headline font px. Cover headlines (12-25 words) → 58-70 so the sentence breaks edge-to-edge into 4-6 tight condensed lines like the reference page (the renderer caps total block height, so oversizing just shrinks it back). Inner-slide headlines: short (≤5 words) → 110-124; medium → 90-105; long → 76-88.
+- hsize: headline font px. Cover headlines (8-14 words) → 64-78 so the claim breaks edge-to-edge into 3-4 HUGE condensed lines like the reference page (the renderer caps total block height, so oversizing just shrinks it back). Inner-slide headlines: short (≤5 words) → 110-124; medium → 90-105; long → 76-88.
 - Bodies never end with a period (house style). No emojis in slides.
 - Caption: all five blocks in order, separated by blank lines. Sources line names the actual outlet(s). Exactly five hashtags (topic keywords for search — hashtags don't add reach). The FIRST sentence carries the payoff AND the search keywords — IG is a search engine in 2026 and the first line drives Explore/search reach: name the company and the topic noun in plain words ("Visa is replacing 2,600 jobs with AI" — searchable; "They just bet everything 👀" — invisible). Only ~125 chars show before "...more". CTA must be utility ("save this", "send this to..."), NEVER reaction-bait ("tag a friend", "comment YES") — Meta penalizes bait.
 - "pinned_comment" (mandatory): the first comment we plant under the post the second it publishes — hour-one comment velocity is distribution fuel. ONE of: a debatable fault line from the story people must answer ("Would you let it run your payroll? Half of you are lying") or the juiciest fact that didn't fit the slides ("The part we couldn't fit: ..."). 1-2 sentences, no hashtags, no links, never a summary of the post.
@@ -1675,20 +1676,24 @@ def qa(post):
             continue
         if "<em>" not in s["headline"]:
             errs.append(f"slide {i+1}: headline has no <em> accent")
-    # summarizing cover (owner flip Aug 1, reference-page audit — REVERSES
-    # the Jul 29 information-gap cap): the cover tells the whole story with
-    # its specifics in 12-25 words. Profile covers were already there (12-24).
-    cover_cap = 24 if profile else 26
+    # cover headline diet (owner Sep 10, forensic audit — TIGHTENS the Aug 1
+    # 12-25 summarizing law: the winners' covers are 8-14 words in 3 huge
+    # lines; ours were paragraph covers in small type. The claim stays
+    # complete — actor + action + ONE wild number — the supporting specifics
+    # move inside). Profile covers keep their own 12-24 record-sentence law.
+    cover_cap = 24 if profile else 15
     cover_words = len(re.sub(r"<[^>]+>", "", slides[0]["headline"]).split())
     if cover_words > cover_cap:
         errs.append(f"cover headline is {cover_words} words (max {cover_cap}) — "
-                    "one complete sentence, cut connective fat, keep the numbers")
+                    "ONE lean complete claim (8-14 words): actor, what "
+                    "happened, the single wildest number; move every other "
+                    "spec to the inner slides")
     # floor only for news-story posts (container key) — edu N-promise covers
     # ("6 SERVICES AI REPLACES FOR FREE") are short by design
-    if post.get("container") and not profile and cover_words < 10:
-        errs.append(f"cover headline is only {cover_words} words — the cover "
-                    "SUMMARIZES the whole story (12-25 words: actor, what "
-                    "happened, and the wild numbers), it never withholds")
+    if post.get("container") and not profile and cover_words < 8:
+        errs.append(f"cover headline is only {cover_words} words — a riddle. "
+                    "The cover states the complete claim (8-14 words: actor, "
+                    "what happened, the wild number), it never withholds")
     if len(re.findall(r"<em>", slides[0]["headline"])) > 2:
         errs.append("cover has >2 <em> groups — accent ONE contiguous phrase or "
                     "whole line (two max), scattered single-word accents are "

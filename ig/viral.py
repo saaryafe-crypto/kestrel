@@ -215,7 +215,7 @@ ANCHOR_RULE = """ANCHOR RULE (hard): the hook may only anchor on a name a random
 SHAPES = """HOOK SHAPES (every reference-page hook fills ONE of these — pick the shape that fits this story, fill its slots with this story's facts):
 1. PERSON-BUILT-ABSURD (builder/person): [A GUY / THIS GUY / A 24-YEAR-OLD] [BUILT/MADE] [thing] THAT [wild outcome + number], [twist as trailing phrase]. Ref: "A GUY MADE AN APP THAT TEXTED 800 GIRLS ON INSTAGRAM WHILE HE SLEPT".
 2. RISE-THEN-FALL (results, person drama): [ACTOR] [record/win + number], THEN / AND STILL [loss + number] [during human scene]. Ref: "APPLE POSTED A RECORD $102.5 BILLION QUARTER AND THE STOCK STILL FELL 8% AFTER HOURS".
-3. FIRST-EVER-THEN-REVEAL (launches, corporate moves): [COMPANY] JUST [verb] THEIR FIRST EVER [category], A [$price] [plain-words description of the weird thing]. Ref: "OPENAI JUST LAUNCHED THEIR FIRST EVER HARDWARE PRODUCT, A $230 LIGHT UP KEYBOARD BUILT TO RUN YOUR AI CODING AGENTS".
+3. FIRST-EVER-THEN-REVEAL (launches, corporate moves): [COMPANY] JUST [verb] THEIR FIRST EVER [category], A [$price] [plain-words description of the weird thing]. Ref: "OPENAI JUST LAUNCHED ITS FIRST EVER HARDWARE: A $230 AI KEYBOARD".
 4. HUGE-YET-CLUELESS N-PROMISE (list/value): [TOOL] HAS [huge stat], YET MOST PEOPLE STILL DON'T [skill]. COPY THESE [N] [items] AND [outcome]. Two sentences: the gap, then the promise.
 5. QUIET-THREAT (threat): [POWER] IS QUIETLY [verb]ING YOUR [phone/money/battery], AND [scope / N-fix]. Ref: "IOS 26 IS QUIETLY DRAINING YOUR IPHONE BATTERY, AND 10 SETTINGS CAN FIX IT TODAY".
 6. LEAKED-FORBIDDEN (drama/insider): SOMEONE LEAKED / A LAWSUIT SAYS [famous name]'S [secret artifact], AND IT [verdict]. Ref: "SOMEONE LEAKED ELON MUSK'S 2018 INTERNAL TESLA MEMO, AND IT REMAINS ONE OF THE HARSHEST PRODUCTIVITY PLAYBOOKS EVER WRITTEN".
@@ -226,7 +226,7 @@ SHAPES = """HOOK SHAPES (every reference-page hook fills ONE of these — pick t
 THE GRAMMAR OF EVERY SHAPE (measured on the corpus, zero exceptions): ONE subject, ONE action, ONE twist. The twist rides as a TRAILING PHRASE ("while he slept", "during his wedding", "for free") or after ONE connective (AND / YET / THEN / STILL) — never as a third clause. Three facts stapled with commas is a LIST, not a hook — the reference pages never ship one (failure model, owner-killed Aug 3: "MUSK DELETES EVERY STEP HE DOESN'T NEED, BUFFETT KILLS 20 OF HIS 25 GOALS, 5 FRAMEWORKS AS FREE CHATGPT PROMPTS" — three subjects, no sentence). Max 2 commas total. Need more? Split into two short sentences ("...WITH AI. IT COST HIM $863 AND 1.2 BILLION TOKENS"). Read each sentence out loud in ONE BREATH — if you stumble, rewrite."""
 
 SHARED_RULES = """- ONE IDEA (owner kill Aug 3, "hard to understand"): the hook is ONE story tension a 12-year-old repeats to a friend after ONE read — never a summary that stacks separate facts. "Complete" means the ONE idea is fully told with its specifics; it never means listing everything the post contains.
-- LENGTH 12-25 words, aim 15-20: ONE complete sentence that SUMMARIZES the whole story with its wildest specifics ON the cover — the price, the count, the first-ever, the absurd detail. Model (owner Aug 1, the reference page): "OPENAI JUST LAUNCHED THEIR FIRST EVER HARDWARE PRODUCT, A $230 LIGHT UP KEYBOARD BUILT TO RUN YOUR AI CODING AGENTS".
+- LENGTH 8-14 words, aim 10-13 (owner diet Sep 10, forensic audit: the winners' covers run 3 huge lines — @technology's 90.5K cover is 11 words; 15+ word hooks render as paragraph covers in small type): ONE complete lean claim — actor, action, the SINGLE wildest number. Model: "OPENAI JUST LAUNCHED ITS FIRST HARDWARE: A $230 AI KEYBOARD" (10 words; every supporting spec moves to the inner slides).
 - WITHHOLD NOTHING (owner doctrine Aug 1, reverses the Jul 29 gap rule): a riddle only works for pages with authority; a growing page earns the follow by DELIVERING on the cover. The reader should get the full story from the cover alone — the swipe is for the photos, the details and the fallout, which the wild content makes them want automatically.
 - Structure: [ACTOR] JUST [charged verb + what happened], [the specific that makes it wild]. Front-load the actor and verb; the numbers ride in the second half.
 - FAMOUS NAME FIRST (owner Sep 4, the Bernie Sanders post-mortem — our riddle "THE MAN WHO RAN FOR PRESIDENT TWICE..." lost to the reference page's plain "BERNIE SANDERS INTRODUCES BILL..."): when the story's actor is a name a 16-year-old recognizes, that exact name goes in the FIRST 6 WORDS. Recognition beats cleverness every time; a code gate kills candidates that bury a famous name.
@@ -263,7 +263,7 @@ CAND_SCHEMA = {
     "required": ["hook_candidates"],
 }
 
-HE_INTRO = """You write cover hooks for @ainews.israel — the Hebrew Instagram page for Israeli AI news. Write NATIVELY in Hebrew a smart Israeli 12-year-old would say out loud (owner Sep 9) — never translate English phrasing. Keep brand/product names in their original Latin script (AI, ChatGPT, Visa). Hebrew is denser than English: the LENGTH rule below relaxes to 8-20 words — but the summary must still be COMPLETE, nothing withheld. GRAMMAR (kill rule): every line must be correct spoken Hebrew — read it aloud; nouns are not verbs ("הזיה עסקה" is broken, "המציא עסקה" is right). A line a native speaker would stumble on is disqualified."""
+HE_INTRO = """You write cover hooks for @ainews.israel — the Hebrew Instagram page for Israeli AI news. Write NATIVELY in Hebrew a smart Israeli 12-year-old would say out loud (owner Sep 9) — never translate English phrasing. Keep brand/product names in their original Latin script (AI, ChatGPT, Visa). Hebrew is denser than English, so the 8-14 word diet applies here too and fits a COMPLETE claim comfortably — nothing withheld. GRAMMAR (kill rule): every line must be correct spoken Hebrew — read it aloud; nouns are not verbs ("הזיה עסקה" is broken, "המציא עסקה" is right). A line a native speaker would stumble on is disqualified."""
 EN_INTRO = """You write cover hooks for @yaffeai — an AI/tech Instagram page in the style of @technology."""
 
 
@@ -376,21 +376,22 @@ def _pre_filter(cands, ctx=None, lo=10):
     craft floor. Falls open if it would empty the list."""
     def _words(c):
         return len(re.sub(r"<[^>]+>", "", c.get("headline", "")).split())
-    # summarizing-hook window (owner flip Aug 1: whole story on the cover —
-    # under the floor = old withholding style, over 26 = unreadable wall).
-    # edu N-promise hooks stay short by design ("6 SERVICES AI REPLACES FOR
-    # FREE"), so they skip the length gate.
+    # cover-diet window (owner Sep 10, forensic audit — tightens the Aug 1
+    # summarizing window: winners' covers are 8-14 words in 3 huge lines;
+    # under the floor = old withholding riddle, over 15 = paragraph cover in
+    # small type). edu N-promise hooks stay short by design ("6 SERVICES AI
+    # REPLACES FOR FREE"), so they skip the length gate.
     if (ctx or {}).get("story_type") == "edu_value":
         kept = cands
     else:
-        kept = [c for c in cands if lo <= _words(c) <= 26]
+        kept = [c for c in cands if lo <= _words(c) <= 15]
     if not kept:
         kept = cands  # fall open
     else:
         dropped = len(cands) - len(kept)
         if dropped:
             print(f"viral: dropped {dropped} candidate(s) outside the "
-                  "10-26 word window", file=sys.stderr)
+                  f"{lo}-15 word window", file=sys.stderr)
     # hedge gate (researched Aug 1; recalibrated Aug 2 to the reference page:
     # may/might/could/allegedly always die, but "reportedly" mid-sentence is
     # their standard license for leak/rumor stories — "XBOX REPORTEDLY
@@ -502,7 +503,7 @@ def judge(cands, ctx, lang="en"):
     cands = _require_famous_anchor(cands, ctx, lang=lang)
     # Hebrew packs prepositions/articles into words — a full summary can be
     # shorter, so the floor relaxes
-    cands = _pre_filter(cands, ctx, lo=8 if lang == "he" else 10)
+    cands = _pre_filter(cands, ctx, lo=8)  # diet Sep 10: 8-14 both languages
     # strict on the English cover path only: the HE lane translates an
     # already-approved hook, reel titles have their own per-clip ladder, and
     # the EDU_FORCE floor must ALWAYS ship (edu.py calls this tournament too
