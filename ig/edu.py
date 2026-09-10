@@ -16,9 +16,9 @@ from datetime import date
 import genimg
 import viral
 from write import (HERE, art_direct, call_claude, doctrine, emergency_cover,
-                   face_riders, image_score, is_dupe, logo_ref, pick_face,
-                   principles, qa, qa_repair, scrub_dashes, simpler_brief,
-                   slugify, split_faces)
+                   face_riders, fetch_face, image_score, is_dupe, logo_ref,
+                   pick_face, principles, qa, qa_repair, scrub_dashes,
+                   simpler_brief, slugify, split_faces)
 
 USED = os.path.join(HERE, "edu-used.json")
 
@@ -501,9 +501,13 @@ def main():
                 # Requires a photo for EVERY named person — no photo, no rung
                 # (face_riders would silently strip a photo-less name to
                 # "a person" and ship a stranger).
+                # fetch_face rung (Sep 10, the NYC-ban cover: Mamdani was the
+                # story's protagonist but edu could only see the local pool,
+                # so the cover went generic-object): Wikipedia portrait
+                # fetch, same as write.py's news lane
                 names = split_faces(face_field)
-                if names and all(pick_face(n.lower().replace(" ", "-"))
-                                 for n in names):
+                if names and all((pick_face(n.lower().replace(" ", "-"))
+                                  or fetch_face(n)) for n in names):
                     nb, nrefs = face_riders(brief, face_field)
                     nrefs = [r for r in nrefs + [brand_ref] if r]
                     if nrefs:

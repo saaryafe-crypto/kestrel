@@ -48,64 +48,43 @@ URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 NANO_URL = "https://api.replicate.com/v1/models/google/nano-banana/predictions"
 NANO_COST = 0.04
 
-# ONE SIMPLE PROMPT (owner order Sep 9, the umbrella post-mortem: the shipped
-# cover prompt was ~600 words of stacked rule boilerplate and the owner read
-# the sidecar — "Why the prompt is so complicated?... you are just ai
-# slopping every prompt. there is no thinking behind the prompt... think
-# like a viral youtube thumbnail creator. MRbeast for example". His spec,
-# shape verbatim: "a picture of a self driving umbrella following (someone
-# famous) without him holding it - showing a futuristic umbrella and make it
-# extremely realistic and shocking". So the BRIEF — one vivid sentence from
-# art_direct — IS the prompt, and the scaffold below is the only boilerplate
-# that survives. Every line kept earns its place with a shipped failure:
-# title zone (Sep 8: heads under the headline), color pop (Sep 7: flat
-# orange wash), text ban (Circle K: 5 of 6 images died to garbled text),
-# label-once (Sep 6: a "$230" chip rendered twice), logo-once (Sep 6: same
-# logo three times), full bleed (Sep 6: nano baked a black frame),
-# press-photo realism (Sep 3: cartoon covers). Everything else the old
-# 600-word scaffold policed (stop test, chiaroscuro recipes, cutout-edge
-# styling, cliche bans) is enforced by the image judge in write.image_score
-# instead — the judge catches flaws for free, prompt bloat causes them.
-_TAIL = (
-    " Compose EVERYTHING that matters — faces, key prop, stakes — in the "
-    "upper 60% of the frame; the bottom 40% is sacrificial background, a "
-    "solid headline band covers it completely, so anything placed there "
-    "is lost (owner Sep 9, getintoai anatomy). Bright, loud, saturated "
-    "colors true to the story; "
-    "the main subject keeps its natural real-life colors so it pops — "
-    "never one flat color wash over the whole picture. No words, text, "
-    "captions or lettering anywhere; only if the brief quotes exact label "
-    "words, render each quoted label exactly once as one small clean "
-    "caption chip in the upper two-thirds. A brand's real logo may appear "
-    "at most once, as one physical object inside the scene — never as "
-    "wallpaper. The picture fills the whole frame edge to edge, no "
-    "borders. Extremely realistic and shocking.")
-COLLAGE_PERSON = (
-    " Ultra-realistic vertical 4:5 photograph, shot like a real press "
-    "photo — never an illustration, cartoon or 3D render. The person is "
-    "the exact person in the attached reference photo: same face, same "
-    "hair, copied faithfully, never redrawn from memory." + _TAIL)
-COLLAGE_FACELESS = (
-    " Ultra-realistic vertical 4:5 photograph, shot like a real press "
-    "photo — never an illustration, cartoon or 3D render. Any people "
-    "appear only from behind, as silhouettes or as hands — never a "
-    "visible recognizable face." + _TAIL)
+# OWNER FORMAT (Sep 10, the Mamdani head-to-head: the owner briefed ChatGPT
+# in four plain conversational lines and beat our 300-word scaffold cold —
+# "i want us to do it as simple as possible... and with 60 percent less
+# words". The prompt now reads like a person briefing a designer: the story,
+# the act, conflict like a YouTube thumbnail, no words in the picture. ONE
+# path for every cover, every lane — the edu lane shipping the legacy
+# 300-word Seedream scaffold on the NYC-ban post is what triggered this.
+# Every surviving rule earned its place with a shipped failure: no-UI/no-
+# cartoon (Mamdani test 1 drew YouTube buttons and cartoon kids), text ban
+# (Circle K: 5 of 6 images died to garbled text), logo-once (Sep 6),
+# upper-60% (Sep 8: heads under the headline), full bleed (Sep 6: nano
+# baked a black frame), face-from-photo (Bernie wax). Everything else the
+# judge in write.image_score enforces for free — prompt bloat CAUSES flaws.
+INTRO = "I am going to post a story on Instagram about this: "
+GUARD = (
+    " Make it conflict and provocative, dramatic like a YouTube thumbnail, "
+    "but as ONE single real photograph covering the whole frame edge to "
+    "edge — no borders, no white margins, no bands or bars: no YouTube "
+    "buttons or icons, no cartoons. No words or text anywhere in the "
+    "picture, only logos, each at most once. Bright saturated colors. "
+    "Everything important stays in the upper 60% of the frame; the bottom "
+    "40% is plain background scenery, my app hides it under the headline.")
+PERSON_LINE = (
+    " The person in the attached reference photo is the story's "
+    "protagonist: copy the exact face and hair from the photo, never "
+    "redrawn from memory.")
+FACELESS_LINE = (
+    " Any people appear only from behind, as silhouettes or hands, never "
+    "a recognizable face.")
 # RECAP MONTAGE (owner Sep 5, Bernie-recap post-mortem: raw tweet images
-# glued side by side by CSS — "it looks SO SO bad". Smoke-tests that shaped
-# the rules: a rally banner leaked in misspelled; one ref rendered twice
-# while another vanished; the story list rendered as misspelled chips.)
-COLLAGE_MONTAGE = (
-    " Photorealistic vertical 4:5 montage poster built ONLY from the "
-    "attached reference photographs: cut the main subject out of EACH "
-    "photo — faces, hair and clothing identical to their photographs, "
-    "never redrawn from memory — and completely discard each photo's own "
-    "background, signs and lettering. Arrange the cutouts as an "
-    "overlapping poster at varying scales, the first photo's subject "
-    "largest and most central, each photo's subject appearing exactly "
-    "once, all of them filling the upper two-thirds of the frame. Behind "
-    "them one loud saturated environment from the biggest story's world. "
-    "The briefed story lines exist only to pick and size the subjects — "
-    "never render them as text." + _TAIL)
+# glued side by side by CSS — "it looks SO SO bad")
+MONTAGE_LINE = (
+    " Build the scene ONLY from the attached reference photos: cut each "
+    "photo's main subject out — faces and clothing copied exactly, each "
+    "photo's own background and lettering discarded — and overlap the "
+    "cutouts like a poster, the first photo's subject largest and most "
+    "central, each appearing exactly once.")
 
 
 def _key():
@@ -325,118 +304,36 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
         _refund(cost, cover=True)
         print("genimg: montage with no live refs — refusing", file=sys.stderr)
         return None
-    if collage or montage:
-        # BRUTAL FORMAT (owner Sep 4): frozen scaffold, brief fills slots only.
-        # Person scaffold ONLY when a real reference photo actually rides
-        # along — a named person with no photo must go faceless, never a
-        # memory-drawn face (the Bernie wax post-mortem).
-        if montage:
-            scaffold = COLLAGE_MONTAGE
-        else:
-            scaffold = COLLAGE_PERSON if (person and live_refs) else COLLAGE_FACELESS
-        prompt = f"{brief}.{scaffold}"
-        _save_prompt(out_path, prompt)
-        try:
-            img = _call_nano(key, prompt, live_refs)
-            if not img:
-                _refund(cost, cover=True)
-                print("genimg: nano returned no image — retrying brief on "
-                      "Seedream", file=sys.stderr)
-                if not _book(COST, cover=True, floor=True):
-                    return None
-                cost = COST
-                img = _call(key, prompt, refs=live_refs or None)
-            if not img:
-                _refund(cost, cover=True)
-                print("genimg: model returned no image (failed/flagged "
-                      "prediction) — skipping", file=sys.stderr)
-                return None
-            open(out_path, "wb").write(img)
-            _grade(out_path)
-            return out_path
-        except Exception as e:
-            _refund(cost, cover=True)
-            print(f"genimg failed ({e})", file=sys.stderr)
-            return None
-    # Seedream-optimal 5-part structure (subject/action/setting come from the
-    # brief; we append composition -> lighting -> lens -> style in that order —
-    # the model's documented preference; full doctrine in inspiration/visual.md)
-    # Jul 31 rebuild from the @technology reference set: their images are BRIGHT
-    # saturated news photos (sunlight, neon pops, vivid product color), never
-    # moody low-key dark. The renderer's scrim now does all darkening — the
-    # old "lower third falls into pure black" baked dead space into the image.
-    prompt = (f"{brief}. "
-              "Composition: vertical frame, the subject large, sharp and dominant "
-              "in the upper 60%; the bottom 40% stays simple and uncluttered — "
-              "a solid headline band covers it completely, so nothing that "
-              "matters may live there. Lighting: bright, high-contrast editorial lighting, "
-              "colors vivid and saturated with ONE punchy accent color echoing "
-              "the subject — energetic like a breaking-news press photo, never "
-              "murky, never moody-dark. Background (owner order Aug 3, the $750B "
-              "cover shipped near-black murk behind the face): the background is "
-              "LOUD and it TELLS THE STORY — it fills the frame edge to edge "
-              "with saturated, glowing, colorful imagery of exactly the world "
-              "this scene describes (never a different world, never generic "
-              "decoration), softly defocused so the subject stays the sharpest "
-              "thing in frame. A viewer covering the subject with a thumb must "
-              "still guess what the story is about from the background alone. "
-              "A dark empty wall, a black void, or a barely-visible backdrop "
-              "is a failure. Never white. "
-              "Realism: real documentary press photograph, "
-              "natural skin texture, slight film grain, ultra detailed — never "
-              "concept art, never a sci-fi render, never waxy AI-smooth plastic "
-              "skin, no purple-teal sci-fi glow. ONE single photographic frame "
-              "of the real physical world: never a comic strip, never multiple "
-              "panels, never a cartoon, drawing or illustration of any kind "
-              "(Sep 4: a comic-strip cover and a neon-render backdrop each "
-              "killed a full posting run at the editor gate). If the scene includes a "
-              "quoted phrase on a device screen, render that exact phrase crisply "
-              "in a clean system font, perfectly spelled; otherwise the image "
-              "contains no text anywhere. Documents, bills, letters, and chat "
-              "screens must never show readable text: any paperwork is blank, "
-              "turned away, or defocused beyond reading. No watermarks, no "
-              "captions, no logos beyond those on the real product.")
-    if person and cover:
-        # disc clearance (owner Aug 3, the $750B cover: the SpaceX disc
-        # clipped Musk's hair): the renderer stamps ~330px logo discs in the
-        # two upper corners — the head must never reach them. The person
-        # re-draws over the discs anyway (person_layer), but a clean frame
-        # beats a repaired one.
-        prompt += (" Framing: the person is centered with their head in the "
-                   "middle of the upper half; both upper corners of the frame "
-                   "stay clear of the person — only background there.")
-    if live_refs:
-        # identity anchor (Aug 1, keypad post-mortem: from-scratch Altman and
-        # an invented purple keypad both failed QA): the refs are REAL photos —
-        # the model must copy them, not improvise variants
-        prompt += (" The attached reference images are real photographs: "
-                   "reproduce the device's exact industrial design, colors and "
-                   "proportions from them, and keep any person's facial "
-                   "identity exactly identical to their reference photo. "
-                   "Never invent a different-looking device or face.")
+    # OWNER FORMAT (Sep 10): one prompt path for every cover, every lane.
+    # The collage flag no longer branches — the edu lane never passed it and
+    # shipped the old 300-word scaffold on the NYC-ban cover. Person line
+    # ONLY when a real reference photo actually rides along — a named person
+    # with no photo goes faceless, never a memory-drawn face (Bernie wax).
+    if montage:
+        tail = MONTAGE_LINE
+    else:
+        tail = PERSON_LINE if (person and live_refs) else FACELESS_LINE
+    prompt = f"{INTRO}{brief.strip().rstrip('.')}.{tail}{GUARD}"
     _save_prompt(out_path, prompt)
     try:
         img = _call_nano(key, prompt, live_refs)
         if not img:
-            # nano flaked: Seedream renders the same brief for $0.03 —
-            # always-post rung (E005 can still refuse real names; the outer
-            # ladder retries with a rewritten brief in that case)
             _refund(cost, cover=True)
-            print("genimg: nano returned no image — retrying brief on Seedream",
-                  file=sys.stderr)
+            print("genimg: nano returned no image — retrying brief on "
+                  "Seedream", file=sys.stderr)
             if not _book(COST, cover=True, floor=True):
                 return None
             cost = COST
             img = _call(key, prompt, refs=live_refs or None)
         if not img:
-            _refund(cost, cover=cover)
-            # was silent — the Aug 2 bare-cover post-mortem couldn't see WHY
-            print("genimg: model returned no image (failed/flagged prediction) "
-                  "— skipping", file=sys.stderr)
+            _refund(cost, cover=True)
+            print("genimg: model returned no image (failed/flagged "
+                  "prediction) — skipping", file=sys.stderr)
             return None
         open(out_path, "wb").write(img)
+        _grade(out_path)
         return out_path
     except Exception as e:
-        _refund(cost, cover=cover)
+        _refund(cost, cover=True)
         print(f"genimg failed ({e})", file=sys.stderr)
         return None
