@@ -1,61 +1,5 @@
 [
  {
-  "t": "2026-09-06T21:28:48Z",
-  "gate": "A",
-  "subject": "Over 600 autonomous rocket landings so far",
-  "verdict": "KILL",
-  "reason": "3/10 scout interest combined with routine-milestone framing without discrete major-move event or consequence fails the jaw-dropping standard required for news slots."
- },
- {
-  "t": "2026-09-06T22:23:16Z",
-  "gate": "B",
-  "subject": "TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT <em>AND A STRANGER WALKING BY IS THE ONLY REASON WE KNOW</em>",
-  "verdict": "REJECT",
-  "reason": "HOOK AND VIOLATION (§2): 'TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT AND A STRANGER WALKING BY IS THE ONLY REASON WE KNOW' has two actors (Tesla + a stranger). The law is ONE actor, ONE action — 'AND joining two actions = cut the weaker one.' Cut the stranger clause; the hook survives as 'TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT WITH ZERO ANNOUNCEMENT AND NOBODY KNE"
- },
- {
-  "t": "2026-09-06T22:27:08Z",
-  "gate": "R",
-  "subject": "TESLA SILENTLY PLACED 35 DRIVERLESS CABS AT MIAMI AIRPORT <em>AND A STRANGER WALKING BY IS THE ONLY REASON WE KNOW</em>",
-  "verdict": "FAIL",
-  "reason": "s1: The Tesla 'T' logo appears twice on the same slide — once as a large standalone floating badge in the upper center and again on the Cybercab's hood — a clear LOGO ONCE violation."
- },
- {
-  "gate": "A",
-  "reason": "A bare milestone metric with no temporal marker or consequence—lacks the built-in stakes that carry thin-tweet news events (lawsuit filed, CEO hired/fired, outage), and the writer would require substantial padding to build slides from one number, violating NO SUBSTANCE law even under the calibration exception.",
-  "subject": "Over 600 autonomous rocket landings so far",
-  "t": "2026-09-06T18:00:50Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Constitutional ruling with no AI/tech angle and insufficient details (no case, judge, or date) to justify coverage.",
-  "subject": "BREAKING: A US judge has ruled that the US Constitution does not guarantee a right to clean drinking water or accurate i",
-  "t": "2026-09-06T18:00:50Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Qualifies under 'people letting AI do X'—blind person entrusting autonomous driving with independence—with substantive details and real emotional consequence.",
-  "subject": "I lost my sight 5 years ago. Cybercab gave me a glimpse of regaining my independence. — Gary Moss, @DavidMoss 's blind f",
-  "t": "2026-09-06T18:00:52Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "B",
-  "reason": "COVER — WRONG VEHICLE, WRONG ARCHETYPE, NO FACE: The steering wheel in the car interior displays the Waymo logo, but every slide in this post names 'Cybercab' (Tesla). The image proves the wrong product. Separately, the headline's archetype is a human-moment story with a named protagonist (Gary Moss) — Image Law says default to a face; none exists here. Fix: replace with a photoreal composite of G",
-  "subject": "A MAN WHO WENT BLIND 5 YEARS AGO RODE ALONE IN A DRIVERLESS CAR AND SAID <em>'OTHER PEOPLE'S DRIVING SCARES ME, BUT THES",
-  "t": "2026-09-06T18:55:37Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Milestone announcement without a specific event or consequence someone felt—just a cumulative number without substance to build slides from.",
-  "subject": "Over 600 autonomous rocket landings so far",
-  "t": "2026-09-06T19:01:31Z",
-  "verdict": "KILL"
- },
- {
   "gate": "A",
   "reason": "Off-lens — a constitutional rights ruling unrelated to AI/tech, lacking both a household-name actor and verifiable source details (judge/case/court unnamed), fails this page's NEWS mandate.",
   "subject": "BREAKING: A US judge has ruled that the US Constitution does not guarantee a right to clean drinking water or accurate i",
@@ -2098,5 +2042,61 @@
   "subject": "What they're admitting is that Apple smart watches are recording people's conversations and behaviour without their know",
   "verdict": "KILL",
   "reason": "Reaction-bait: three stapled accusations (surveillance without evidence, known Israel AI operations, generic industry mineral sourcing) presented as Apple 'admissions' with zero sources, dates, or documented real-world event—nothing actually moved."
+ },
+ {
+  "t": "2026-09-10T19:20:54Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "A government space agency announcement with no technology innovation, business milestone, or technical substance—fundamentally a national pride moment using space tech as backdrop, not a space technology story; off-lens for a tech/AI page."
+ },
+ {
+  "t": "2026-09-10T19:21:17Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
+  "verdict": "KILL",
+  "reason": "Unverified claim with no source link to alleged Prospect reporting; Scout interest 4/10 and TRUTH LAW violation."
+ },
+ {
+  "t": "2026-09-10T19:22:24Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
+  "verdict": "KILL",
+  "reason": "No substance—single unverified tweet claiming extraordinary allegations with no link to The Prospect article, no independent verification, and no verifiable fact; truth law requires facts to be true and this fails both verification and evidence tests."
+ },
+ {
+  "t": "2026-09-10T19:22:31Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Space announcement without household-name lab status lacks the jaw-drop or protagonist required for a stop-and-share story."
+ },
+ {
+  "t": "2026-09-10T19:58:11Z",
+  "gate": "B",
+  "subject": "THE COMPANY THAT MAKES CLAUDE IS REPORTEDLY BUILDING A SYSTEM THAT <em>CALLS POLICE ON PEOPLE FOR THEIR AI OPINIONS</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW HARD VIOLATION — cover shows a generated unknown face (a non-famous man at a surveillance desk). Image Law is explicit: 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' The correct archetype for a story with no legal famous face is 'abstract claim with no legal face → one hero object mid-drama' — a real surveillance camera, a wall of"
+ },
+ {
+  "t": "2026-09-10T19:59:30Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Routine government satellite launch announcement from a non-household-name org—lacks jaw-dropping record, real consequence, or wow-fact substance; on-topic but fails THE STANDARD's 12-year-old test (would not stop mid-scroll for global audience)."
+ },
+ {
+  "t": "2026-09-10T22:04:34Z",
+  "gate": "B",
+  "subject": "NYC BANNED AI FROM <em>600,000 STUDENTS</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-10T22:05:32Z",
+  "gate": "R",
+  "subject": "NYC BANNED AI FROM <em>600,000 STUDENTS</em>",
+  "verdict": "FAIL",
+  "reason": "s1: Background contains clearly garbled AI-generated text ('TMESCH', 'AOW', 'Seicno') which fails the PHOTO QUALITY standard for garbled AI text.; s8: The sparkling fireworks light background is purely decorative and proves nothing about the slide's claim (AI tools banned by NYC schools), failing the Receipt Law."
  }
 ]

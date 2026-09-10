@@ -1,0 +1,77 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "NYC BANNED AI FROM <em>600,000 STUDENTS</em>",
+   "kicker": "5 FREE TOOLS YOU STILL HAVE",
+   "hsize": 72,
+   "hook_candidates": [
+    "NYC BANNED AI FROM <em>600,000 STUDENTS</em>. 5 FREE TOOLS YOU STILL HAVE.",
+    "<em>NYC JUST BANNED AI</em> IN ITS SCHOOLS. THESE 5 FREE TOOLS ARE STILL YOURS.",
+    "NYC PULLED <em>40 AI TOOLS</em> FROM 600,000 KIDS. EVERY ONE OF THESE IS FREE FOR YOU.",
+    "<em>600,000 STUDENTS</em> JUST LOST AI ACCESS. YOUR 5 FREE TOOLS ARE STILL HERE.",
+    "NYC BANNED AI FROM ITS SCHOOLS. <em>HERE ARE 5 FREE TOOLS</em> YOU STILL OWN."
+   ],
+   "media": "posts/2026-09-10-edu-5-free-ai-tools-nyc-schools-banned-ajeng/gen-0-rescue.jpg",
+   "image_prompt": "A white laptop sits on a bright yellow school desk, its screen showing only a red prohibition symbol, with blue-and-yellow classroom walls."
+  },
+  {
+   "type": "content",
+   "headline": "<em>1) TURN ONE SENTENCE</em> INTO A FULL CLIENT DECK",
+   "hsize": 100,
+   "body": "FREELANCERS CHARGE $500 TO $1,000 FOR A PITCH DECK. GAMMA BUILDS ONE IN UNDER 60 SECONDS FOR FREE.\n\n1. Go to gamma.app\n2. Click New AI Presentation\n3. Type your offer, pick a theme",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) RESEARCH <em>ANY COMPETITOR IN 90 SECONDS</em>",
+   "hsize": 104,
+   "body": "MARKET RESEARCH FIRMS CHARGE $2,000 TO $5,000 FOR A COMPETITOR REPORT. PERPLEXITY DOES IT FREE IN UNDER TWO MINUTES.\n\n1. Go to perplexity.ai\n2. Click New Thread, Focus: Web\n3. Ask for competitor complaints.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>3) LET AI JOIN YOUR MEETINGS</em> AND SEND YOU THE NOTES",
+   "hsize": 88,
+   "body": "SPENDING 40 MINUTES WRITING UP EVERY CLIENT CALL EATS HUNDREDS OF HOURS A YEAR. FIREFLIES HANDLES ALL OF IT FOR FREE.\n\n1. Go to fireflies.ai\n2. Connect Google or Outlook calendar\n3. Invite fred@fireflies.ai",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "600,000 STUDENTS. ONE YEAR. ZERO AI.",
+   "hsize": 76,
+   "layout": "break",
+   "body": "NYC's ban covers the entire 2026 to 2027 school year. <b>40 AI tools</b> are off-limits for every public school student in the largest school district. You face no such restriction today.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) TURN YOUR SCRIPT <em>INTO A STUDIO VOICE FOR FREE</em>",
+   "hsize": 92,
+   "body": "STUDIO VOICE ACTORS CHARGE $200 TO $500 AN HOUR. ELEVENLABS GIVES YOU <b>15 MINUTES</b> OF AUDIO FREE EVERY MONTH.\n\n1. Go to elevenlabs.io\n2. Click Speech Synthesis\n3. Paste your script, pick a voice",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "<em>5) DESCRIBE YOUR BUSINESS</em> AND GET A FULL WEBSITE IN 30 SECONDS",
+   "hsize": 80,
+   "body": "FREELANCE WEBSITE BUILDS START AT $1,500 AND TAKE THREE WEEKS. DURABLE DOES IT FREE IN UNDER 30 SECONDS.\n\n1. Go to durable.co\n2. Type one sentence describing your business\n3. Hit Build",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 5 FREE AI TOOLS</em> NYC SCHOOLS BANNED",
+   "hsize": 96,
+   "body": "1. Gamma: full deck from one sentence\n2. Perplexity: competitor research in 90 seconds\n3. Fireflies: AI joins every meeting\n4. ElevenLabs: studio voice from any text\n5. Durable: full website in 30 seconds",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5 before you lose them too. \ud83d\udeab NYC just banned 40 AI tools from 600,000 students, and every single one of these is still free for you tonight.\n\nGamma builds your full client deck from one typed sentence, Perplexity researches any competitor in under two minutes with live cited sources, Fireflies joins your Zoom calls and emails you a full summary before the call ends, ElevenLabs turns any written script into a professional voiceover in seconds, Durable builds a complete business website in under 30 seconds. All five are free to start tonight.\n\nNYC's ban on 40 AI tools in schools is the first clear signal that AI access will not stay this open forever. Business owners using these tools now are not just saving time. They are lapping everyone who waits.\n\nRunning a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: AJEnglish, Gamma, Perplexity, Fireflies, ElevenLabs, Durable\n\n#AItools #artificialintelligence #freetools #techforbusiness #productivity",
+ "pinned_comment": "Which one are you trying tonight? Most people go straight to Gamma on slide 2, but Fireflies on your next Zoom call might be the one that saves your entire week.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "gate_r": "s1: Background contains clearly garbled AI-generated text ('TMESCH', 'AOW', 'Seicno') which fails the PHOTO QUALITY standard for garbled AI text.; s8: The sparkling fireworks light background is purely decorative and proves nothing about the slide's claim (AI tools banned by NYC schools), failing the Receipt Law."
+}
