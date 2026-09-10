@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10T01:36:34.834382+00:00",
+ "updated": "2026-09-10T03:37:37.645088+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -29,11 +29,11 @@
    "selftext": "We\u2019re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years.",
    "permalink": "https://x.com/OpenAI/status/2097374640582668336",
    "outlink": null,
-   "score": 116751,
-   "comments_n": 5381,
-   "views": 68343143,
-   "age_h": 32.2,
-   "vph": 3625.8,
+   "score": 118289,
+   "comments_n": 5488,
+   "views": 70758120,
+   "age_h": 34.3,
+   "vph": 3452.5,
    "image": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg",
    "video": null,
    "guide": false,
@@ -534,6 +534,25 @@
    "born": 1786554334.377201
   },
   {
+   "id": "2097866616172421477",
+   "title": "@ABC Why are you misleading the public?",
+   "sub": "elonmusk",
+   "where": "@elonmusk on X",
+   "unit": "likes",
+   "selftext": "@ABC Why are you misleading the public?",
+   "permalink": "https://x.com/elonmusk/status/2097866616172421477",
+   "outlink": null,
+   "score": 11921,
+   "comments_n": 1060,
+   "views": 139352,
+   "age_h": 1.7,
+   "vph": 7097.9,
+   "image": "https://pbs.twimg.com/media/HR0ekcsbcAAZkve.jpg",
+   "video": null,
+   "guide": false,
+   "born": 1789005337.645088
+  },
+  {
    "id": "2094488681600135346",
    "title": "Pleased to share my favorite photo from yesterday morning. Shot using 3 cameras from a parking lot: this is the Falcon Heavy carrying Roman Space Telescope transiting the sun. More about how it was captured and a video o",
    "sub": "AJamesMcCarthy",
@@ -741,25 +760,6 @@
    "video": null,
    "guide": false,
    "born": 1786872290.572699
-  },
-  {
-   "id": "2093015294398849522",
-   "title": "Objectively insane to make a list of the most influential people in AI and include these two but not Jensen",
-   "sub": "venturetwins",
-   "where": "@venturetwins on X",
-   "unit": "likes",
-   "selftext": "Objectively insane to make a list of the most influential people in AI and include these two but not Jensen",
-   "permalink": "https://x.com/venturetwins/status/2093015294398849522",
-   "outlink": null,
-   "score": 9903,
-   "comments_n": 436,
-   "views": 882908,
-   "age_h": 34.9,
-   "vph": 283.8,
-   "image": "https://pbs.twimg.com/media/HQviUWzacAM1RI6.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1787848945.023882
   }
  ]
 }
