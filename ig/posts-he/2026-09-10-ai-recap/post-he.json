@@ -1,0 +1,75 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "מה קרה ב<em>AI</em> היום?",
+   "kicker": "הסיכום היומי"
+  },
+  {
+   "type": "content",
+   "hsize": 78,
+   "headline": "חוקרים חשפו: LG <em>מקשיבה לשיחות שלכם גם כשהטלוויזיה כבויה</em>",
+   "body": "חוקרים הוציאו 70,000 דולר ו-500 שעות כדי לגלות מה קורה כשהטלוויזיה כבויה. התשובה: היא מתעדת שיחות בסביבתה, ממפה כל מכשיר בבית, ושולחת הכל ל<b>מחלקת הפרסום של LG</b>. מנתקים אינטרנט? היא שומרת הכל ושולחת ברגע שחוזרים. <b>216 מיליון</b> טלוויזיות כאלה עכשיו בסלונים",
+   "media": "posts/2026-09-10-ai-recap/media-0.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "Anthropic חשפה: <em>מה AI יעשה לעבודה שלכם עד 2030</em>",
+   "body": "הצוות הכלכלי של Anthropic בנה מודל שמחשב מה AI יעשה לצמיחה, לעבודות ולמשכורות עד 2030. אחר כך שאלו את אותן שאלות <b>יותר מעשרת אלפים אמריקאים</b>. אפשר להיכנס לכלי שלהם ולבחור תרחישים בעצמכם, ולראות אם מה שחשבתם מסכים עם כולם",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "מיליארדרי הטק <em>מחביאים את הילדים שלהם</em> מהמוצרים שלהם",
+   "body": "דוח של Fortune חשף: <b>Evan Spiegel</b> מ-Snapchat ו-<b>Peter Thiel</b> מ-PayPal מגנים בשקט על הילדים שלהם מהאפליקציות שהפכו אותם לעשירים",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 78,
+   "headline": "הסרט ש<em>סם אלטמן</em> ניסה לחסום יוצא ביום חג המולד",
+   "body": "בזמן ש-<b>Amazon Studios</b> השקיעו ב-OpenAI, <b>סם אלטמן</b> לחץ עליהם להסיר סרט שנקרא <b>'Artificial'</b>. הם עשו את זה. עכשיו הוא פותח בבתי קולנוע ביום חג המולד, בכל זאת",
+   "media": "posts/2026-09-10-ai-recap/media-3.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 78,
+   "headline": "חוקר עזב את Anthropic וכתב: <em>הם מהמרים בחיינו</em>",
+   "body": "החוקר <b>Jacob Coxon</b> התפטר השבוע וכתב: Anthropic ו-OpenAI 'מהמרים בחיינו' במרוץ לבנות AI שחזק מבני אדם. זו אותה Anthropic שהוערכה בסיבוב הגיוס האחרון ב-<b>61.5 מיליארד דולר</b>",
+   "media": "posts/2026-09-10-ai-recap/media-4.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "ראש NASA: שרתי AI של SpaceX <em>יעלו לחלל</em>",
+   "body": "<b>Jared Isaacman</b>, מנהל NASA, תמך בתוכנית של SpaceX לשלוח שרתי AI למסלול סביב כדור הארץ, עם השמש כמקור חשמל חינמי. 'אף פעם לא כדאי להמר נגד אילון מאסק', אמר",
+   "media": "posts/2026-09-10-ai-recap/media-5.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "cta",
+   "hsize": 112,
+   "headline": "שמרו את <em>הסיכום של היום</em>",
+   "body": "• הטלוויזיה LG שלכם מקשיבה לשיחות גם כשהיא כבויה, ושולחת הכל ל-LG לפרסומות\n• Anthropic מיפתה מה AI יעשה לעבודות ולמשכורות עד 2030\n• Spiegel ו-Thiel מחביאים את הילדים שלהם מהמוצרים שלהם\n• הסרט שסם אלטמן ניסה לחסום יוצא ביום חג המולד\n• חוקר של Anthropic פרסם: ה-AI שלהם מסכן את כולנו\n• ראש NASA תמך בשיגור שרתי AI של SpaceX לחלל",
+   "media": null
+  }
+ ],
+ "caption": "החלקו שמאלה ⬅️ לכל מה שקרה ב-AI ב-24 השעות האחרונות, מהטלוויזיה LG שמקשיבה לשיחות שלכם ועד לסרט שסם אלטמן ניסה לחסום 📂\n\nטלוויזיות LG מתעדות שיחות גם כשהן כבויות, על 216 מיליון מכשירים, ושולחות הכל למחלקת הפרסום של LG. הצוות הכלכלי של Anthropic בנה מודל שמחשב מה AI יעשה לעבודות ולמשכורות עד 2030, אחרי שסקרו יותר מעשרת אלפים אמריקאים. Evan Spiegel מ-Snapchat ו-Peter Thiel מ-PayPal מגנים בשקט על הילדים שלהם מהמוצרים שלהם. הסרט שסם אלטמן לחץ על Amazon Studios להסיר יוצא לבתי קולנוע ביום חג המולד. החוקר Jacob Coxon התפטר מ-Anthropic וכתב שהחברה ו-OpenAI מהמרים בחיינו. מנהל NASA Jared Isaacman תמך בתוכנית של SpaceX לשלוח שרתי AI לחלל.\n\nשישה סיפורים, חוט אחד: האנשים שהכי קרובים לטכנולוגיה הזאת לא מתנהגים כמו שהם מבקשים מאיתנו. הם מתפטרים בגללה, מחביאים ממנה את הילדים שלהם, ומוציאים את התשתית לחלל. מנהלים עסק? כתבו לנו 'AI' ב-DM ונראה לכם מה היא באמת יכולה לעשות.\n\nמקורות: Daniel (X), Ian (X), Anthropic, Fortune, NASA\n\nעקבו אחרינו @ainews.israel\n\n#AI #ArtificialIntelligence #Technology #AINews #TechNews",
+ "pinned_comment": "LG טוענת שהטלוויזיות שלה לא מקליטות שיחות, אבל חוקרים הוציאו 70,000 דולר ו-500 שעות ומצאו תמלילים שמורים על 216 מיליון מכשירים. מאמינים להם?",
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "CTA slide bullet 5 reads 'Anthropic staff went public: their AI is an extinction threat' — 'staff' (plural) contradicts slide 6's body, which names exactly one researcher (Jacob Coxon) who quit. Fix: 'One Anthropic researcher quit — and called their AI an extinction threat' or similar singular framing.",
+ "gate_r": "s8: The NASA bullet point is orphaned below the 'SEND THIS TO A FRIEND' CTA button, making the layout look broken; it should be moved above the button with the other bullets.",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

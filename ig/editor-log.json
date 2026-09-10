@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-06T21:28:18Z",
-  "gate": "A",
-  "subject": "This is a fully AI-generated video, brought to you by Seedance 2.5. It's getting scarily good Writer: Mhedi",
-  "verdict": "KILL",
-  "reason": "No substance: unknown-tier product announcing routine iteration via empty teaser with no fact, demo, or consequence to build slides from."
- },
- {
   "t": "2026-09-06T21:28:48Z",
   "gate": "A",
   "subject": "Over 600 autonomous rocket landings so far",
@@ -2098,5 +2091,12 @@
   "subject": "Making AI kiddie porn is legal, but boycotting Israel isn’t. What kind of world is this?",
   "verdict": "KILL",
   "reason": "No actual event described—this is a rhetorical political hot-take designed for engagement, not a story where something happened; fails both REACTION-BAIT (substance is the provocation itself, not a real-world consequence) and NO SUBSTANCE (zero facts, actors, or consequences to build slides from)."
+ },
+ {
+  "t": "2026-09-10T17:35:42Z",
+  "gate": "A",
+  "subject": "What they're admitting is that Apple smart watches are recording people's conversations and behaviour without their know",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: three stapled accusations (surveillance without evidence, known Israel AI operations, generic industry mineral sourcing) presented as Apple 'admissions' with zero sources, dates, or documented real-world event—nothing actually moved."
  }
 ]
