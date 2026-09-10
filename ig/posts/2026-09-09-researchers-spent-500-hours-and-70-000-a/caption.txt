@@ -1,0 +1,11 @@
+Swipe through: LG TVs have been quietly logging what people say at home during standby and sending plain text transcripts to LG's advertising division, even after researchers physically unplugged the internet 📺
+
+The $70,000 investigation and what it found, the plain text transcript files and who received them, the moment researchers yanked the internet cable and the TV saved everything locally, the 216 million TVs currently in living rooms, LG's official denial versus the actual files, the home network device mapping no one mentioned, what it means if your business has a smart TV in a conference room
+
+Smart TVs have been one of the most data-hungry devices in the home for years. This is the first documented case of plain text conversation transcripts being logged during standby and routed directly to an advertising division at this scale. Regulators are being publicly pressured to act. The TV was cheap. The conversations were the product.
+
+Running a business with smart TVs in your office or conference rooms? DM us "AI" and we'll show you what this means for yours.
+
+Sources: Mario Nawfal on X, independent security researchers
+
+#privacy #smarttv #datasecurity #surveillance #aitech
