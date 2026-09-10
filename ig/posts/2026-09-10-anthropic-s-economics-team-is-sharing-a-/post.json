@@ -1,0 +1,101 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE COMPANY BUILDING AI JUST PUBLISHED A MODEL FOR YOUR JOB AND WAGES THROUGH 2030, <em>THEN ASKED 10,000 WORKERS TO PREDICT THEIR OWN FATE.</em>",
+   "hsize": 62,
+   "media": "posts/2026-09-10-anthropic-s-economics-team-is-sharing-a-/gen-0.jpg",
+   "image_prompt": "Screen on vivid orange wall displays three colored lines with symbols: green rising with $, blue flat with \u26a0, red falling with \u00d7."
+  },
+  {
+   "type": "content",
+   "headline": "EVERYONE ASSUMED <em>AI COMPANIES STAYED OUT OF THE JOBS FIGHT</em>",
+   "hsize": 88,
+   "body": "Build the model. Cash the checks. Let the economists argue about who loses their job.\n\nYour wages were never Anthropic's problem to explain. Until now.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "ANTHROPIC'S MODEL <em>MAPS YOUR JOB AND WAGES</em> THROUGH 2030",
+   "hsize": 90,
+   "body": "<b>3</b> scenarios: modest, substantial, and extreme\nCovers jobs, wages, and economic growth\n<b>10,000+</b> Americans surveyed on their predictions\nTool live and interactive at anthropic.com",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "8,800,000 PEOPLE CHECKED",
+   "hsize": 110,
+   "body": "That's how scared people already are",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE COMPANY <em>CAUSING THE ANXIETY</em> BUILT THE TOOL MEASURING IT",
+   "hsize": 88,
+   "body": "Workers now have an Anthropic-built model officially confirming AI's threat to jobs is real enough to map in detail, all the way to <b>2030</b>.\n\nNot a government study. The builder's own tool.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: ANTHROPIC JUST MODELED <em>WHAT AI DOES TO YOUR JOB BY 2030</em>",
+   "hsize": 58,
+   "body": "\u2022 <b>3</b> scenarios for jobs and wages through <b>2030</b>\n\u2022 <b>10,000+</b> Americans surveyed on their predictions\n\u2022 <b>8.8 million</b> have already checked it\n\nSend this to whoever asked if AI is taking their job",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see what Anthropic's own economic model says about your job by 2030. \ud83d\udc47\n\nThe model covers AI's impact on jobs, wages, and economic growth through 2030 across three scenarios, a survey of 10,000+ Americans on what they expect, and a live comparison tool at anthropic.com where you stack your prediction against everyone else's. 8.8 million people have already clicked, which is the number that makes the whole thing feel different.\n\nAnthropicbuilt the AI. Then they built the tool that maps out how it might hurt your paycheck. When the company causing the disruption starts modeling its own damage in detail, that's not a reassurance. That's a confirmation. The fear is real enough to quantify now.\n\nRunning a business? DM us \"AI\" and we'll show you what this means for your workforce before your competitors figure it out.\n\nSources: Anthropic, X (AnthropicAI)\n\n#artificialintelligence #aieconomics #futureofwork #aijobs #technology",
+ "pinned_comment": "Would you trust a model about AI job losses if the company building the AI made the model? That's exactly what 8.8 million people just did.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "THE COMPANY BUILDING AI LET 10,000 AMERICANS PREDICT WHAT IT DOES TO THEIR JOB BY 2030. <em>NOW YOU CAN SEE WHERE YOU LAND.</em>",
+   "THE COMPANY MAKING THE AI <em>ASKED YOU TO PREDICT YOUR OWN ECONOMIC FUTURE BECAUSE OF IT,</em> AND 8.8 MILLION DID",
+   "THE COMPANY BUILDING AI JUST PUBLISHED ITS OWN MODEL ON WHAT HAPPENS TO YOUR JOB BY 2030. <em>THEN IT ASKED 10,000 WORKERS IF THEY AGREE.</em>"
+  ],
+  "scores": [
+   7.5,
+   0,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] creates a two-act story (prediction published, workers respond) that makes you want to know what happens next, while [0] just promises a personal ranking. Stories hook harder than interactive quizzes for stop-scrolling."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "THE COMPANY BUILDING AI JUST PUBLISHED ITS OWN MODEL ON WHAT HAPPENS TO YOUR JOB BY 2030. <em>THEN IT ASKED 10,000 WORKERS IF THEY AGREE.</em>",
+   "THE COMPANY BUILDING AI JUST PUBLISHED A MODEL FOR YOUR JOB AND WAGES THROUGH 2030, <em>THEN ASKED 10,000 WORKERS TO PREDICT THEIR OWN FATE.</em>"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "\"PREDICT THEIR OWN FATE\" is ominous where \"agree\" is procedural. The word \"WAGES\" makes it concrete fear, not abstract model-talk."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Anthropic",
+  "actor_known": false,
+  "anchor": "the company building the AI",
+  "specifics": [
+   "The company building the AI asked 10,000+ people to predict if it will tank their wages by 2030",
+   "8.8 million people have already clicked \u2014 that's how scared people already are",
+   "The model covers jobs, wages, and economic growth all the way through 2030",
+   "You can compare your own fear level to 10,000 other Americans \u2014 essentially a poll run by the people causing the anxiety"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (5/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Anthropic\u2019s Economics team is sharing a new model of how AI might affect economic growth, jobs, wages, and more by 2030. Explore the scenarios, tell us what you think will happen, and see how your answers compare to more",
+  "link": "https://x.com/AnthropicAI/status/2097679796687769689",
+  "judge_interest": 6,
+  "scout_score": 121.3
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IMAGE \u2014 wrong archetype, no brand identity, no faces: The story is specifically about Anthropic publishing a tool, but the cover has zero Anthropic branding and zero visible faces (workers are pure silhouettes). A stranger at feed size reads 'AI threatens jobs' mood art, not 'Anthropic built this specific thing.' The Doctrine's archetype for a named-company story is: famous CEO + brand mark ",
+ "gate_r": "s3: The background is a raw full-bleed screenshot of Anthropic's webpage (visible paragraph text, chart axis labels, UI chrome) \u2014 an instant SCREENSHOT LAW fail; it is not framed on a rounded card."
+}
