@@ -24,7 +24,8 @@ from datetime import date, timedelta
 
 from fetch import get
 from viral import law
-from write import call_claude, scrub_dashes, qa_repair, image_score, is_dupe, CHEAP
+from write import (call_claude, scrub_dashes, qa_repair, image_score,
+                   is_dupe, emergency_cover, CHEAP)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 N_CANDS = 12       # candidates offered to the writer
@@ -302,6 +303,22 @@ def build_cover(post_dir, photos, headlines):
             if ok:
                 cover["media"] = os.path.relpath(path, HERE)
                 return cover
+    # EMERGENCY RUNG (owner Sep 10: the Sep 10 recap shipped bare AGAIN —
+    # the Sep 9 bare-cover ban wired write.py and edu.py but this lane
+    # builds its own cover and never got the rung). Built from the DAY'S
+    # BIGGEST STORY, not the container headline ("what happened in AI
+    # today?" generates exactly the stock wallpaper the judge kills —
+    # that day's gate B said it itself: "one of the day's named subjects
+    # must anchor the cover"). Judged, accepted down to 4/10. Only a true
+    # API/budget death still ships the bare art cover below.
+    for h in ([plain(x) for x in headlines if plain(x).strip()][:2]
+              or [plain(COVER["headline"])]):
+        em = emergency_cover({"headline": h}, post_dir)
+        if em:
+            cover["media"] = em
+            return cover
+    print("RECAP COVER HAS NO IMAGE AT ALL — every rung failed (flagged "
+          "for the daily report)", file=sys.stderr)
     return cover  # bare art cover — never an off-topic photo, never a screenshot
 
 

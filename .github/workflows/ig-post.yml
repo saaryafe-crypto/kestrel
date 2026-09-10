@@ -55,6 +55,10 @@ concurrency:
 
 jobs:
   post:
+    # 90-min kill switch (Sep 10: run 34504222814 hung 2.6h inside
+    # write.py and blocked the ig-autopost queue — a hung run must never
+    # eat the next slots; normal runs finish well under 60 min)
+    timeout-minutes: 90
     runs-on: ubuntu-latest
     permissions:
       contents: write

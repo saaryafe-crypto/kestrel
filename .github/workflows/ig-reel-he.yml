@@ -20,6 +20,7 @@ concurrency:
 
 jobs:
   publish:
+    timeout-minutes: 90  # hang guard, see ig-post.yml Sep 10
     runs-on: ubuntu-latest
     permissions:
       contents: read
