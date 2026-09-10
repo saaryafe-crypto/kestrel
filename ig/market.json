@@ -1,41 +1,81 @@
 {
- "updated": "2026-09-09T16:22:32+00:00",
+ "updated": "2026-09-10T14:51:27+00:00",
  "competitor_hits": [
   {
-   "page": "wired",
-   "likes": 3691,
-   "ratio": 4.47,
+   "page": "mashable",
+   "likes": 8289,
+   "ratio": 7.7,
    "tier": "mega",
-   "hook": "\"Though AI has seeped into every step of the job hunt for both applicants and recruiters, it has taken time to catch on in interviews. Voice AI is infamously tricky to pull off, as agents get tripped up by accents or \u201cum",
-   "date": "2026-09-07"
-  },
-  {
-   "page": "wired",
-   "likes": 2382,
-   "ratio": 2.88,
-   "tier": "mega",
-   "hook": "\"Early last month, Meta deleted around 50 ads posted on Facebook, Instagram, and Threads that directly included child sexual abuse material (CSAM), following reporting by WIRED. At the time, the company said that most of",
+   "hook": "\"A24 has released an intense teaser trailer for You Can See Everything, an upcoming documentary about Theranos founder Elizabeth Holmes, and the reaction to the teaser has sure been\u2026 something.\u2060\n\u2060\nDirected by Fielder (Th",
    "date": "2026-09-08"
   },
   {
    "page": "wired",
-   "likes": 1729,
-   "ratio": 2.09,
+   "likes": 5225,
+   "ratio": 5.07,
    "tier": "mega",
-   "hook": "\"In June, the UK government told Big Tech it had three months to make taking, viewing, or sharing images of child nudity on their devices impossible. \u201cI expect tech firms to make that happen,\u201d said then prime minister Ke",
-   "date": "2026-09-08"
+   "hook": "\"Artificial intelligence researcher Jacob Coxon sent shock waves through Silicon Valley and beyond on Tuesday by announcing his resignation from Anthropic and delivering a grave warning that the AI race was putting all o",
+   "date": "2026-09-09"
   },
   {
-   "page": "technology",
-   "likes": 11000,
+   "page": "wired",
+   "likes": 3781,
+   "ratio": 3.67,
+   "tier": "mega",
+   "hook": "\"A report published by the US Census Bureau last month purported to uncover evidence backing up President Donald Trump\u2019s baseless claims that noncitizens voting cost him the 2020 election. It was the latest salvo in Trum",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "mashable",
+   "likes": 3001,
+   "ratio": 2.79,
+   "tier": "mega",
+   "hook": "\"Welp, it\u2019s finally here: Apple\u2019s folding phone.\u2060\n\u2060\nThe iPhone Duo was announced today and the internet certainly had thoughts. From its $2k price tag to its shape (hello IMAX aspect ratio), people have started giving th",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "mashable",
+   "likes": 2019,
+   "ratio": 1.88,
+   "tier": "mega",
+   "hook": "\"Here\u2019s a close-up look at the all-new iPhone Duo. Will you be getting one? #AppleEvent #AllAccess\".",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "wired",
+   "likes": 1619,
+   "ratio": 1.57,
+   "tier": "mega",
+   "hook": "\"The Instagram post, precision-guided by sex and age, had zeroed in on its target. Yuchen Tu is a conservatory-trained viola player from Chongqing, China, a lover of science fiction, and an aspiring member of the US Army",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "mashable",
+   "likes": 1411,
+   "ratio": 1.31,
+   "tier": "mega",
+   "hook": "\"Apple finally announced its first foldable phone \u2014 the iPhone Duo \ud83d\udc40\n#Apple #AppleEvent #iphoneduo #allaccess\".",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "wired",
+   "likes": 1040,
+   "ratio": 1.01,
+   "tier": "mega",
+   "hook": "\"The success of a program linking zoos across the US has generated a wave of interest in how to protect the endangered great apes in the wild.\n\nTap the \ud83d\udd17 in bio for more.\".",
+   "date": "2026-09-09"
+  },
+  {
+   "page": "wired",
+   "likes": 1032,
    "ratio": 1.0,
    "tier": "mega",
-   "hook": "\"OpenAI\u2019s GPT-6 Astra has completed all 48 levels of the \u201cI\u2019m Not a Robot\u201d game, handling a series of increasingly unusual challenges on screen \ud83e\udd16\ud83d\udda5\n\nThe run was shared by OpenAI engineer Sharif Shameem and pushed Astra be",
-   "date": "2026-09-08"
+   "hook": "\"The new Apple Watch Series 12 and Ultra 4 come not just with better fitness tracking and upgraded noise reduction, but also a whole new way to listen.\n\nApple announced on Wednesday that the two smartwatches come with fo",
+   "date": "2026-09-09"
   },
   {
    "page": "wired",
-   "likes": 828,
+   "likes": 1028,
    "ratio": 1.0,
    "tier": "mega",
    "hook": "\"Over a decade ago, the Islamic State released a disturbing video that depicted its members lowering men locked in a cage into a swimming pool and drowning them. Today, that video has been reproduced as a SpongeBob Squar",
@@ -43,90 +83,66 @@
   },
   {
    "page": "wired",
-   "likes": 809,
-   "ratio": 0.98,
+   "likes": 910,
+   "ratio": 0.88,
    "tier": "mega",
-   "hook": "\"A report published by the US Census Bureau last month purported to uncover evidence backing up President Donald Trump\u2019s baseless claims that noncitizens voting cost him the 2020 election. It was the latest salvo in Trum",
-   "date": "2026-09-09"
-  },
-  {
-   "page": "technology",
-   "likes": 9990,
-   "ratio": 0.91,
-   "tier": "mega",
-   "hook": "\"GPT-6 Astra + the Higgsfield plugin just cooked the entire competition.\n\nA camera turns into a game console. A phone becomes a virtual camera inside Blender. A broken keyboard turns into a 3D printing project.\n\nThat\u2019s t",
-   "date": "2026-09-08"
+   "hook": "\"President Donald Trump on Wednesday said that he would pay $5,000 to every American if Republicans retained control of the U.S. House and Senate in the midterm elections, seemingly in an effort to incentivize votes for ",
+   "date": "2026-09-10"
   },
   {
    "page": "wired",
-   "likes": 746,
-   "ratio": 0.9,
+   "likes": 851,
+   "ratio": 0.83,
    "tier": "mega",
    "hook": "\"Once upon a time, you may have been living next to a data center and never heard anything about it. But now the great data center backlash of 2026 is here.\n\nFrom now until the midterms, senior writer Molly Taft will be ",
    "date": "2026-09-08"
   },
   {
-   "page": "futurism",
-   "likes": 1557,
-   "ratio": 0.82,
+   "page": "technology",
+   "likes": 34000,
+   "ratio": 0.81,
    "tier": "mega",
-   "hook": "\"Automakers are having an increasingly difficult time convincing their customers that more in-car screens \u2014 and the often dodgy software that accompanies them \u2014 are a compelling reason to pay a major premium.\n\nVirtually ",
-   "date": "2026-09-08"
+   "hook": "\"Apple\u2019s first foldable iPhone has finally arrived, and the internet is already split between people praising its polish and others questioning the hype around the launch \ud83d\udcf1\ud83e\udd2f\n\nThe iPhone Duo starts at $1,999 and opens fro",
+   "date": "2026-09-09"
   },
   {
-   "page": "mashable",
-   "likes": 25,
-   "ratio": 0.69,
+   "page": "technology",
+   "likes": 25000,
+   "ratio": 0.6,
    "tier": "mega",
-   "hook": "\"Jeremiah Brown didn't leave Love Island USA with a master plan to become a full-time creator. In fact, before entering the villa, his social media presence was relatively sparse: a few book reviews, some funny videos, a",
+   "hook": "\"Apple has unveiled the iPhone Duo, its first foldable smartphone and one of the biggest changes to the iPhone since its 2007 debut.\n\nStarting at $1,999, the Duo features a 5.4-inch outer screen that unfolds into a 7.6-i",
    "date": "2026-09-09"
   },
   {
    "page": "wired",
-   "likes": 466,
-   "ratio": 0.56,
+   "likes": 558,
+   "ratio": 0.54,
    "tier": "mega",
-   "hook": "\"Researchers from Australia\u2019s University of Queensland and the University of New South Wales embedded electrodes into live cockroaches, then outfitted them with cameras and injection devices to deliver medication via rem",
-   "date": "2026-09-08"
+   "hook": "\"The iPhone with a folding screen is the first radical redesign of Apple\u2019s flagship handset in years. The iPhone Duo will cost $1,999 when it arrives in October.\n\nTap the \ud83d\udd17 in bio for more.\".",
+   "date": "2026-09-10"
   },
   {
    "page": "wired",
-   "likes": 302,
-   "ratio": 0.37,
+   "likes": 331,
+   "ratio": 0.32,
    "tier": "mega",
    "hook": "\"Meta needs you to trust its new personal AI agent. \n\nThe company announced Tuesday the release of Muse, which people can message to automate digital tasks in a secure cloud environment, all while relying on security and",
    "date": "2026-09-08"
   },
   {
-   "page": "wired",
-   "likes": 226,
-   "ratio": 0.27,
+   "page": "mashable",
+   "likes": 304,
+   "ratio": 0.28,
    "tier": "mega",
-   "hook": "\"The success of a program linking zoos across the US has generated a wave of interest in how to protect the endangered great apes in the wild.\n\nTap the \ud83d\udd17 in bio for more.\".",
-   "date": "2026-09-09"
+   "hook": "\"How Apple lost its cool (And How It Can Get It Back) \ud83e\udd14\u2060\n#apple #iphone #iphone18\u2060\".",
+   "date": "2026-09-08"
   },
   {
-   "page": "technology",
-   "likes": 1491,
-   "ratio": 0.14,
+   "page": "mashable",
+   "likes": 71,
+   "ratio": 0.07,
    "tier": "mega",
-   "hook": "\"Andrew Garfield is playing OpenAI CEO Sam Altman in Luca Guadagnino\u2019s \u201cArtificial,\u201d a dramatization centered on the extraordinary leadership crisis that unfolded at OpenAI in November 2023.\n\nAltman was abruptly removed ",
-   "date": "2026-09-09"
-  },
-  {
-   "page": "technology",
-   "likes": 706,
-   "ratio": 0.06,
-   "tier": "mega",
-   "hook": "\"Huawei\u2019s Mate XT 2 continues the company\u2019s unusual tri-fold approach, using 2 hinges and 3 connected sections to transform from a conventional phone shape into a much larger display.\n\nThe engineering challenge goes far ",
-   "date": "2026-09-09"
-  },
-  {
-   "page": "technology",
-   "likes": 402,
-   "ratio": 0.04,
-   "tier": "mega",
-   "hook": "\"OpenAI\u2019s GPT-6 Astra completed all 48 levels of Neal Agarwal\u2019s \u201cI\u2019m Not a Robot,\u201d a browser game that turns human verification into increasingly difficult interactive challenges.\n\nOpenAI engineer Sharif Shameem shared t",
+   "hook": "\"Jeremiah Brown didn't leave Love Island USA with a master plan to become a full-time creator. In fact, before entering the villa, his social media presence was relatively sparse: a few book reviews, some funny videos, a",
    "date": "2026-09-09"
   }
  ],
