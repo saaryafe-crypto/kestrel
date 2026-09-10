@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-06T20:42:22Z",
-  "gate": "A",
-  "subject": "Over 600 autonomous rocket landings so far",
-  "verdict": "KILL",
-  "reason": "No news event or consequence—just a milestone stat about ongoing capability, not the reality-moving story the page exists to cover."
- },
- {
-  "t": "2026-09-06T20:43:27Z",
-  "gate": "A",
-  "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no real consequence: search volume is pure sentiment aggregation—people were anxious, they searched about it, end of story; off-brand market sentiment for an AI/tech news page."
- },
- {
-  "t": "2026-09-06T21:22:50Z",
-  "gate": "B",
-  "subject": "A BLIND MAN TOOK A SOLO CYBERCAB RIDE AND SAID <em>'OTHER PEOPLE'S DRIVING SCARES ME, BUT THESE CARS DON'T'</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH VIOLATION — HARD REJECT: The cover shows Elon Musk sitting in the Cybercab interior holding a blind person's white cane. Elon Musk has zero role in this story; the actor is Gary Moss. The vendor-cast exception is explicitly limited to guide/education posts ('the DEFAULT for every guide/education cover') — this is a story post about a named private individual's experience, not a Tesla us"
- },
- {
-  "t": "2026-09-06T21:26:49Z",
-  "gate": "A",
-  "subject": "35 Cybercabs spotted near Miami international airport.",
-  "verdict": "KILL",
-  "reason": "Source is a bare sighting with no news context, announcement, or stated consequence; insufficient to confirm whether this represents Waymo's official Miami expansion or routine operational activity—would require speculation to reach carousel depth."
- },
- {
-  "t": "2026-09-06T21:27:54Z",
-  "gate": "A",
-  "subject": "Anyone who thought the GPT-6 Astra release was all there was to it is sorely mistaken. Anthropic appears to be preparing",
-  "verdict": "KILL",
-  "reason": "Unverified speculation about unreleased products with no actual event or real-world consequence reported—nothing has happened in reality to build a story from."
- },
- {
   "t": "2026-09-06T21:28:00Z",
   "gate": "A",
   "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
@@ -2098,5 +2063,40 @@
   "subject": "THE COMPANY BUILDING AI JUST PUBLISHED A MODEL FOR YOUR JOB AND WAGES THROUGH 2030, <em>THEN ASKED 10,000 WORKERS TO PRE",
   "verdict": "FAIL",
   "reason": "s3: The background is a raw full-bleed screenshot of Anthropic's webpage (visible paragraph text, chart axis labels, UI chrome) — an instant SCREENSHOT LAW fail; it is not framed on a rounded card."
+ },
+ {
+  "t": "2026-09-10T06:05:37Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS IMAGE LAW: The slide-1.jpg is an orange CGI particle streak on a black field — a digital-art decoration, not a photoreal element. Image law requires every element in the frame to read as photographed, and explicitly bans text-on-black/empty-top covers. A stranger at feed size sees abstract light effects, not the story. Fix: replace with a photoreal collage anchored to the day's s"
+ },
+ {
+  "t": "2026-09-10T06:08:17Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS IMAGE LAW: The actual rendered cover is text-on-black with an abstract orange particle streak as the only visual — no story subject, no face, no proof. IMAGE LAW explicitly bans 'text-on-black or empty-top covers as failures' and requires every image to be PROOF of the story that a stranger identifies at feed size. Today's recap contains three famous faces (Sam Altman, Spiegel, T"
+ },
+ {
+  "t": "2026-09-10T06:11:37Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS IMAGE LAW ON THREE COUNTS: (1) The doctrine explicitly names 'text-on-black' as a failure — this cover is white text on a black background with a decorative particle streak, which is functionally the same thing. (2) 'PHOTOREAL ELEMENTS, ALWAYS — every ELEMENT in the frame must read as photographed': the orange particle/light-streak graphic is clearly a CGI digital-art render, not"
+ },
+ {
+  "t": "2026-09-10T06:14:06Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "CTA slide bullet 5 reads 'Anthropic staff went public: their AI is an extinction threat' — 'staff' (plural) contradicts slide 6's body, which names exactly one researcher (Jacob Coxon) who quit. Fix: 'One Anthropic researcher quit — and called their AI an extinction threat' or similar singular framing."
+ },
+ {
+  "t": "2026-09-10T06:15:13Z",
+  "gate": "R",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "FAIL",
+  "reason": "s8: The NASA bullet point is orphaned below the 'SEND THIS TO A FRIEND' CTA button, making the layout look broken; it should be moved above the button with the other bullets."
  }
 ]

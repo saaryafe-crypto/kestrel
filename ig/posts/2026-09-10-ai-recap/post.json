@@ -1,0 +1,68 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP"
+  },
+  {
+   "type": "content",
+   "hsize": 78,
+   "headline": "RESEARCHERS SPENT <em>$70,000</em> TO FIND WHAT'S INSIDE YOUR <em>LG TV</em>",
+   "body": "In standby, your LG TV logs plain-text transcripts of nearby conversations and maps every other device in your home, then ships it all to <b>LG's ad arm</b>. Unplug the internet and it saves those files locally until you reconnect. <b>216 million</b> of these TVs are sitting in living rooms right now",
+   "media": "posts/2026-09-10-ai-recap/media-0.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "ANTHROPIC MAPPED <em>HOW AI RESHAPES YOUR JOB AND PAY</em> BY 2030",
+   "body": "Anthropic's economics team built a model showing what AI does to growth, jobs, and wages through 2030, then ran the same questions past <b>more than 10,000 Americans</b>. You can step through their scenarios yourself and see whether your predictions match everyone else's",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "<em>SPIEGEL AND THIEL</em> ARE HIDING THEIR KIDS FROM THEIR OWN APPS",
+   "body": "A Fortune report found tech billionaires are quietly shielding their own children from the products that made them rich. <b>Evan Spiegel</b> of Snapchat and <b>Peter Thiel</b> of PayPal are both called out by name",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 78,
+   "headline": "THE MOVIE <em>SAM ALTMAN</em> TRIED TO KILL OPENS <em>CHRISTMAS DAY</em>",
+   "body": "When <b>Amazon Studios</b> was investing in OpenAI, Altman pressured them to pull a film called <b>'Artificial'</b>, and they dropped it. Now it opens in cinemas on Christmas Day regardless",
+   "media": "posts/2026-09-10-ai-recap/media-3.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 78,
+   "headline": "AN ANTHROPIC RESEARCHER QUIT AND CALLED THEIR <em>AI AN EXTINCTION THREAT</em>",
+   "body": "Researcher <b>Jacob Coxon</b> quit this week, writing that the company and OpenAI are 'gambling with our lives' in the race toward superintelligence. This is the same company that last raised at a confirmed <b>$61.5 billion</b> private valuation",
+   "media": "posts/2026-09-10-ai-recap/media-4.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "NASA'S CHIEF WANTS <em>AI DATA CENTERS</em> LAUNCHED INTO <em>ORBIT</em>",
+   "body": "NASA Administrator <b>Jared Isaacman</b> backed SpaceX's plan to put AI computing clusters in orbit, pointing to the sun as a free power source. 'You never want to bet against Elon Musk,' he said",
+   "media": "posts/2026-09-10-ai-recap/media-5.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "cta",
+   "hsize": 112,
+   "headline": "SAVE <em>TODAY'S AI BRIEFING</em>",
+   "body": "\u2022 Your LG TV logs conversations in standby and ships them to LG's ad arm\n\u2022 Anthropic mapped what AI does to jobs and wages by 2030\n\u2022 Spiegel and Thiel are hiding their kids from their own products\n\u2022 The movie Sam Altman tried to kill opens Christmas Day\n\u2022 Anthropic staff went public: their AI is an extinction threat\n\u2022 NASA's chief backed putting AI data centers into orbit",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2b05\ufe0f to see what happened in AI in the last 24 hours, from the LG TV secretly recording your family to the movie Sam Altman tried to kill \ud83d\udcc2\n\nLG TVs caught logging plain-text transcripts in standby on 216 million devices and sending them to LG's ad arm, Anthropic's economics team modeled how AI reshapes jobs and wages by 2030 using input from 10,000 Americans, tech founders Evan Spiegel and Peter Thiel are publicly shielding their kids from their own products, the film Sam Altman got Amazon Studios to pull opens in cinemas Christmas Day, Anthropic researcher Jacob Coxon quit saying the company and OpenAI are gambling with our lives, NASA Administrator Jared Isaacman backed SpaceX's plan to put AI data centers in orbit\n\nSix stories, one thread: the people closest to this technology don't behave the way they ask you to. They resign over it, hide their kids from it, and move the infrastructure off-planet. Running a business? DM us \"AI\" and we'll show you what it can actually do for yours.\n\nSources: Daniel (X), Ian (X), Anthropic, Fortune, NASA\n\n#AI #ArtificialIntelligence #Technology #AINews #TechNews",
+ "pinned_comment": "LG says its TVs don't record ambient audio, but researchers spent $70,000 and 500 hours finding plain-text transcripts saved on 216 million devices. Do you believe them?",
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "CTA slide bullet 5 reads 'Anthropic staff went public: their AI is an extinction threat' \u2014 'staff' (plural) contradicts slide 6's body, which names exactly one researcher (Jacob Coxon) who quit. Fix: 'One Anthropic researcher quit \u2014 and called their AI an extinction threat' or similar singular framing.",
+ "gate_r": "s8: The NASA bullet point is orphaned below the 'SEND THIS TO A FRIEND' CTA button, making the layout look broken; it should be moved above the button with the other bullets."
+}
