@@ -203,6 +203,18 @@ INSTANT KILL — no other rule can save these:
   person) — never a generic reaction to internet drama, never a dark void.
 - The cover must ALWAYS carry an image with a subject. Text-on-black or
   empty-top covers are failures.
+- TOP-TWO-THIRDS PICTURE LAW (owner order Sep 10, PERMANENT — "the way they
+  station the cover picture is above the lower third because they know they
+  must write something in the lower third; every picture is designed to show
+  itself in the top two thirds of the post"): the cover photo is COMPOSED for
+  the top ~62% of the frame — subject's face and the story's proof fully
+  above the band seam, nothing that matters below it. The lower third belongs
+  to type, always. A photo whose subject sinks into the band zone is a
+  REJECT at selection time, not a crop problem to fix later.
+- HEADLINE ACCENTS ARE TEXTURED ORANGE (same order, PERMANENT): accent words
+  render in the orange-sky cloud texture (art/accent-orange.jpg via
+  background-clip), never one flat color — mirroring the winners' textured
+  blue. White + textured orange, one cap height across all headline lines.
 - Image proves the NOUN, headline carries the NUMBERS. Pointing hooks
   ("THIS GUY") only when the image shows the exact referent.
 - THE INNER SLIDE IS THE RECEIPT (owner order Sep 5, 18-slide reference

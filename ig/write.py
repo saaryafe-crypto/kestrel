@@ -2437,6 +2437,21 @@ def main(stories_path):
                       f"{os.path.basename(m)} ({score}/10)", file=sys.stderr)
                 break
 
+    # NAKED-SLIDE FLAG (owner audit Sep 10: slides 3+5 shipped as text floating
+    # in a black void, silently — across 40 winner posts studied, not ONE
+    # imageless inner slide exists. qa() checks briefs at WRITE time; this is
+    # the recount AFTER every ladder has run. Always-post stands: the slide
+    # still ships, but named LOUDLY here and in the daily report so a dry
+    # leftover pool or a QA wipeout is never invisible again.)
+    naked = [i + 1 for i, s in enumerate(post["slides"])
+             if s["type"] == "content" and not s.get("media")
+             and s.get("layout") not in ("break", "tweet")]
+    if naked:
+        post["naked_slides"] = naked
+        print(f"NAKED SLIDE(S) {naked}: no image survived generation, "
+              "leftovers or vision QA — shipping text-only (flagged for the "
+              "daily report)", file=sys.stderr)
+
     cover = post["slides"][0]
     style = post.pop("cover_style", "photo" if cover.get("media") else "type")
     if style != "photo":

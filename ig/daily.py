@@ -373,6 +373,11 @@ def main():
                 elif p.get("cover_fallback"):
                     bare.append(f"- COVER FALLBACK "
                                 f"({p['cover_fallback']}): {name}")
+                if p.get("naked_slides"):
+                    # owner audit Sep 10: winners never ship an imageless
+                    # inner slide — every naked one gets named to the owner
+                    bare.append(f"- NAKED SLIDE(S) {p['naked_slides']} "
+                                f"(text in a void, no image): {name}")
                 if p.get("topic_source") == "self-invented":
                     # owner Aug 10: guide pool ran dry and the writer made
                     # up its own topic — unacceptable, must be named

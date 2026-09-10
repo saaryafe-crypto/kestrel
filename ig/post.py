@@ -129,6 +129,9 @@ def notify_owner(post_dir, base_url=None):
             if p.get("gate_r"):
                 flags.append("vision gate dropped an image: "
                              + str(p["gate_r"])[:160])
+            if p.get("naked_slides"):
+                flags.append(f"naked slide(s) {p['naked_slides']}: "
+                             "text-only, no image landed")
             if flags:
                 status, s_color = "\n".join(flags), "#ea580c"
             else:

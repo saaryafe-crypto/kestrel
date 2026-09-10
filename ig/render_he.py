@@ -47,7 +47,13 @@ body{background:#050505;font-family:HebBody,sans-serif;color:#FFF;position:relat
 .mast-top{position:absolute;top:38px;left:0;right:0;z-index:3}
 h1{font-family:HebHead;font-weight:400;font-size:SIZEpx;
    line-height:1.06;letter-spacing:0;color:#FFF}
-h1 em{font-style:normal;color:#D97757;
+/* accent words: TEXTURED brand orange (owner Sep 10, PERMANENT: the winners'
+   blue "is a blue sky, you can see a little bit cloud inside" — ours is an
+   orange sky with cloud light clipped inside the letters, never one flat
+   color; art/accent-orange.jpg is deterministic, the texture never drifts) */
+h1 em{font-style:normal;color:transparent;
+      background:url('ARTPATH/accent-orange.jpg') center/cover;
+      -webkit-background-clip:text;background-clip:text;
       text-shadow:none;filter:drop-shadow(0 4px 12px rgba(0,0,0,.95)) drop-shadow(0 0 3px rgba(0,0,0,.8))}
 .body{font-size:39px;line-height:1.42;font-weight:600;color:#FFF}
 .body b{font-weight:800}
@@ -261,15 +267,18 @@ function fitLines(h){
         &&width(lines[lines.length-1])<target*.55){
     lines[lines.length-1].unshift(lines[lines.length-2].pop());
   }
-  var scales=lines.map(function(ln){
-    return Math.max(.72,Math.min(1.18,target/width(ln)));
-  });
+  /* ONE size across ALL lines (owner Sep 10, matching @technology/@getintoai:
+     every line the same cap height — the old per-line stretch rendered a
+     short line as one giant word). Size to the WIDEST line, capped by the
+     block budget; short lines stay centered at the same size. */
+  var maxW=0;lines.forEach(function(ln){maxW=Math.max(maxW,width(ln))});
+  base=Math.min(base*Math.min(1.18,target/maxW),MAXH/(lines.length*LH));
   meas.remove();
   h.innerHTML='';
   var divs=lines.map(function(ln,i){
     var d=document.createElement('div');
     d.style.whiteSpace='nowrap';
-    d.style.fontSize=(base*scales[i])+'px';
+    d.style.fontSize=base+'px';
     d.innerHTML=ln.map(function(w){return w.em?'<em>'+w.t+'</em>':w.t}).join(' ');
     h.appendChild(d);
     return d;
@@ -380,6 +389,7 @@ def discs_html(s):
 
 def slide_html(s, total, fallback_media=None):
     css = (CSS.replace("FONTS", HERE + "/fonts")
+              .replace("ARTPATH", HERE + "/art")
               .replace("SIZE", str(s.get("hsize", 100))))
     media = os.path.join(HERE, s["media"]) if s.get("media") else None
 
@@ -564,6 +574,14 @@ def render(post_path, out_dir):
         if m and not os.path.exists(os.path.join(HERE, m)):
             raise SystemExit(f"slide {n} media missing on disk: {m} — refusing "
                              "to render a black slide; fix the upstream image step")
+        # naked-slide gate, render half (owner audit Sep 10, same as
+        # render.py): a content slide with no real image is named LOUD in the
+        # CI log — the blur fallback below is camouflage, not media.
+        if (s["type"] == "content" and not m
+                and s.get("layout") not in ("break", "tweet")):
+            print(f"WARNING: slide {n} renders NAKED — no real media, only "
+                  "the blur fallback; the winners never ship this",
+                  file=sys.stderr)
     # first available photo in the post backs imageless slides as a deep blur
     fallback = next((s.get("media") for s in slides if s.get("media")), None)
     for n, s in enumerate(slides, 1):
