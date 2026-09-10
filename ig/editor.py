@@ -211,7 +211,7 @@ def gate_b(post, cover_path=None):
 
 ----
 
-You are THE EDITOR-IN-CHIEF doing the final pre-publish review. This finished carousel is minutes from going live to the page's real audience. Judge the WHOLE product against sections 2-5 above (hook, images, storytelling, truth). {img_line}{container_note}
+You are THE EDITOR-IN-CHIEF doing the final pre-publish review. This finished carousel is minutes from going live to the page's real audience. Judge the WHOLE product against sections 2-5 above (hook, images, storytelling, truth). FRIEND TEST first (§4, owner order Sep 10): read every slide out loud as a smart 12-year-old — any phrase nobody says out loud ("model", "scenarios", "economic growth", any official noun standing where the thing's plain function belongs) is a REJECT, and the reason must contain the spoken rewrite. {img_line}{container_note}
 
 The bar is section 0: would the owner look at this and post it himself? You are the last line — every earlier gate already passed this post, and the two worst posts in the page's history passed every earlier gate too.
 

@@ -259,6 +259,17 @@ INSTANT KILL — no other rule can save these:
   slides carry the same fact.
 - FELT SCALE: finance-wire vocabulary banned on slides; translate everything
   to dollars, days, and human outcomes a 12-year-old feels.
+- THE FRIEND TEST (owner order Sep 10 — "use the simplest words and explain
+  it as easy as possible"; the Anthropic-economics post-mortem: six slides
+  said "model", "scenarios", "surveyed", "economic growth" — the source's
+  official vocabulary — and never once said what the thing IS for the
+  reader): every thing in the story is named by what the reader SEES and
+  DOES with it, never by its official noun. The shipped failure: "a model
+  covering jobs, wages and economic growth through 2030 across three
+  scenarios." The sentence a person says: "a website where you type in your
+  job and see if AI takes it by 2030." The source material is a fact sheet,
+  not a phrasebook. A slide you would not say out loud, word for word, to a
+  friend at the table is a REJECT.
 - SPOKEN VOICE, understated authority: no exclamation marks, no emojis, no
   hype adjectives, no sermons/moralizing, no platform attribution in bodies,
   no news-agency register ("announced", "unveiled", "according to").

@@ -226,6 +226,7 @@ Last. type "cta": THE SAVE CLOSE (owner order Aug 18 — the last slide is built
 
 RULES
 - LANGUAGE (hard requirement): a smart 12-year-old must get every line instantly (owner Sep 9). Say what things DO, never what they're called.
+- THE FRIEND TEST (owner order Sep 10; this lane shipped "product video" and nobody knew what it meant): every tool and every result is named by what the reader SEES and DOES with it, never by its industry noun — "a video ad for your product" not "a product video", "type a sentence, get a photo that looks real" not "generates photorealistic images from text". Say each line out loud to a friend at the table; any phrase you would never say out loud gets rewritten from what the friend would picture.
 - <em>...</em> in headlines = the accent: ONE contiguous phrase, ideally a whole line (two groups max). Orange on entire lines creates rhythm; orange scattered across four single words is confetti — four focal points = zero. <b>...</b> in bodies = facts/steps keywords. No <em> in bodies.
 - hsize: cover 66-80 (huge type, 2-4 edge-to-edge lines), inner short headlines 100-124, medium 90-105, long 76-88.
 - Bodies never end with a period. No emojis in slides. Zero hype adjectives (insane/crazy/mind-blowing) — the facts carry it.

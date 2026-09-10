@@ -1408,6 +1408,7 @@ General craft (the STORY TYPE formula above decides which specific leads; these 
 
 RULES
 - LANGUAGE (hard requirement): write for a smart 12-year-old (owner Sep 9: "simple and good storytelling" — tightened from 16). Everyday words only, short sentences. No industry jargon anywhere — headlines, bodies, caption. Say what things DO ("runs powerful AI on your own computer"), not what they're called ("an agentic runtime"). If a technical term is unavoidable, explain it in plain words in the same sentence.
+- THE FRIEND TEST (owner order Sep 10, the Anthropic-economics post-mortem: six slides said "model", "scenarios", "surveyed", "economic growth" — the source's official vocabulary — and never once what the thing IS for the reader): every THING in the story is named by what the reader SEES and DOES with it, never by its official noun. The shipped failure: "a model covering jobs, wages and economic growth through 2030 across three scenarios". The sentence a person says: "a website where you type in your job and see if AI takes it by 2030". The source material is a FACT SHEET, not a phrasebook — take its numbers and names, never its nouns. Before finalizing each slide, say it out loud to a friend at the table; any phrase you would never say out loud gets rewritten from what the friend would picture.
 - <em>...</em> in headlines marks the accent: ONE contiguous phrase, ideally a WHOLE LINE of the headline (two groups absolute max). Orange-on-entire-lines creates rhythm and a reading order; orange scattered across four single words is confetti — four competing focal points = zero focal points (owner verdict Jul 28). Connectives stay white. Every headline needs at least one <em>.
 - <b>...</b> in bodies marks facts (names, numbers). No <em> in bodies.
 - hsize: headline font px. Cover headlines (12-25 words) → 58-70 so the sentence breaks edge-to-edge into 4-6 tight condensed lines like the reference page (the renderer caps total block height, so oversizing just shrinks it back). Inner-slide headlines: short (≤5 words) → 110-124; medium → 90-105; long → 76-88.
@@ -1601,6 +1602,7 @@ How to fix the common failures:
 - missing/misplaced break slide: convert the twist slide (~slide 4-5) to "layout": "break" — headline = the story's single wildest number or a ≤6-word statement (no <em>), body = one short open line ≤12 words, remove its image_brief
 - missing image_brief: write one — 15-40 words, subject first then action then setting, evidence of THAT slide's exact claim, no readable text in scene, end with one color key
 - quotes/cites an internet user: delete the attribution, state the fact directly
+- friend-test / official-noun jargon: rename the thing by what the reader DOES with it ("a website where you type in your job and see if AI takes it by 2030", never "a model covering jobs and wages across three scenarios") — keep every fact and number, swap only the vocabulary
 
 THE POST:
 {json.dumps(post, ensure_ascii=False)}
