@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-06T21:28:00Z",
-  "gate": "A",
-  "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
-  "verdict": "KILL",
-  "reason": "Search-volume data is sentiment without a news actor or event; this is the market-wrap material §1 explicitly bans."
- },
- {
   "t": "2026-09-06T21:28:18Z",
   "gate": "A",
   "subject": "This is a fully AI-generated video, brought to you by Seedance 2.5. It's getting scarily good Writer: Mhedi",
@@ -2098,5 +2091,12 @@
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "FAIL",
   "reason": "s8: The NASA bullet point is orphaned below the 'SEND THIS TO A FRIEND' CTA button, making the layout look broken; it should be moved above the button with the other bullets."
+ },
+ {
+  "t": "2026-09-10T12:58:54Z",
+  "gate": "A",
+  "subject": "Making AI kiddie porn is legal, but boycotting Israel isn’t. What kind of world is this?",
+  "verdict": "KILL",
+  "reason": "No actual event described—this is a rhetorical political hot-take designed for engagement, not a story where something happened; fails both REACTION-BAIT (substance is the provocation itself, not a real-world consequence) and NO SUBSTANCE (zero facts, actors, or consequences to build slides from)."
  }
 ]

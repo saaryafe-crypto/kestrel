@@ -1,0 +1,108 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Anthropic פרסמה מודל שממפה מה יקרה לעבודה שלך, <em>ואז ביקשה מעשרת אלפים עובדים לנחש את גורלם</em>",
+   "hsize": 62,
+   "media": "posts/2026-09-10-anthropic-s-economics-team-is-sharing-a-/gen-0.jpg",
+   "image_prompt": "Screen on vivid orange wall displays three colored lines with symbols: green rising with $, blue flat with ⚠, red falling with ×."
+  },
+  {
+   "type": "content",
+   "headline": "כולם חשבו ש<em>חברות AI לא נוגעות בדיון על משרות</em>",
+   "hsize": 88,
+   "body": "בונים את ה-AI, גובים את הכסף, מניחים לכלכלנים להתווכח מי מפסיד עבודה.\n\nהמשכורת שלך לא הייתה הבעיה של Anthropic. עד עכשיו.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "המודל של Anthropic <em>ממפה את העבודה והמשכורת שלך</em>",
+   "hsize": 90,
+   "body": "<b>שלושה</b> תרחישים: קטן, גדול וקיצוני, עד 2030\nמשרות, שכר וצמיחה כלכלית, הכל בפנים\n<b>מעל לעשרת אלפים</b> אמריקאים נשאלו מה הם מצפים\nהכלי פתוח באתר anthropic.com",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "8.8 מיליון אנשים כבר בדקו",
+   "hsize": 110,
+   "body": "ככה נראה פחד אמיתי.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "החברה <em>שגרמה לחרדה על משרות</em> בנתה את הכלי שמודד אותה",
+   "hsize": 88,
+   "body": "עכשיו יש לעובדים מודל של Anthropic עצמה שמאשר: האיום של AI על משרות אמיתי מספיק כדי למפות אותו בפרטים, עד 2030.\n\nלא מחקר ממשלתי. הכלי של מי שיצר את הבעיה.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור: <em>Anthropic מיפתה מה יקרה לעבודה שלך</em>",
+   "hsize": 58,
+   "body": "• <b>שלושה</b> תרחישים למשרות ושכר עד 2030\n• <b>מעל לעשרת אלפים</b> אמריקאים נשאלו מה הם מצפים\n• <b>8.8 מיליון</b> כבר בדקו\n\nשלח את זה למי שתוהה אם AI ייקח לו את העבודה",
+   "media": null
+  }
+ ],
+ "caption": "Anthropic פרסמה מודל שממפה מה AI יעשה לעבודה ולמשכורת שלך עד 2030, וכבר 8.8 מיליון אנשים נכנסו לבדוק.\n\nהמודל כולל שלושה תרחישים, קטן גדול וקיצוני, ומכסה משרות, שכר וצמיחה כלכלית. חוץ מזה, Anthropic שאלה מעל לעשרת אלפים אמריקאים מה הם מצפים שיקרה להם, ויצרה כלי פתוח שאפשר להשתמש בו באתר anthropic.com כדי לראות איפה הניחוש שלך ביחס לשאר.\n\nמה שמוזר פה: זו אותה חברה שבנתה את ה-AI שמאיים על המשרות, ועכשיו היא זו שמחשבת כמה נזק הוא יעשה. זה לא ניסיון להרגיע. זה אישור שהפחד אמיתי מספיק כדי למדוד אותו.\n\nמקורות: Anthropic, X (AnthropicAI)\n\nעקבו אחרי @ainews.israel לעדכונים יומיים על AI\n\n#artificialintelligence #aieconomics #futureofwork #aijobs #technology",
+ "pinned_comment": "היית סומך על מודל שאומר לך מה AI יעשה למשרה שלך, אם מי שבנה את ה-AI הוא שיצר אותו? 8.8 מיליון אנשים עשו בדיוק את זה.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "THE COMPANY BUILDING AI LET 10,000 AMERICANS PREDICT WHAT IT DOES TO THEIR JOB BY 2030. <em>NOW YOU CAN SEE WHERE YOU LAND.</em>",
+   "THE COMPANY MAKING THE AI <em>ASKED YOU TO PREDICT YOUR OWN ECONOMIC FUTURE BECAUSE OF IT,</em> AND 8.8 MILLION DID",
+   "THE COMPANY BUILDING AI JUST PUBLISHED ITS OWN MODEL ON WHAT HAPPENS TO YOUR JOB BY 2030. <em>THEN IT ASKED 10,000 WORKERS IF THEY AGREE.</em>"
+  ],
+  "scores": [
+   7.5,
+   0,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] creates a two-act story (prediction published, workers respond) that makes you want to know what happens next, while [0] just promises a personal ranking. Stories hook harder than interactive quizzes for stop-scrolling."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "THE COMPANY BUILDING AI JUST PUBLISHED ITS OWN MODEL ON WHAT HAPPENS TO YOUR JOB BY 2030. <em>THEN IT ASKED 10,000 WORKERS IF THEY AGREE.</em>",
+   "THE COMPANY BUILDING AI JUST PUBLISHED A MODEL FOR YOUR JOB AND WAGES THROUGH 2030, <em>THEN ASKED 10,000 WORKERS TO PREDICT THEIR OWN FATE.</em>"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "\"PREDICT THEIR OWN FATE\" is ominous where \"agree\" is procedural. The word \"WAGES\" makes it concrete fear, not abstract model-talk."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Anthropic",
+  "actor_known": false,
+  "anchor": "the company building the AI",
+  "specifics": [
+   "The company building the AI asked 10,000+ people to predict if it will tank their wages by 2030",
+   "8.8 million people have already clicked — that's how scared people already are",
+   "The model covers jobs, wages, and economic growth all the way through 2030",
+   "You can compare your own fear level to 10,000 other Americans — essentially a poll run by the people causing the anxiety"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (5/10)",
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "Anthropic’s Economics team is sharing a new model of how AI might affect economic growth, jobs, wages, and more by 2030. Explore the scenarios, tell us what you think will happen, and see how your answers compare to more",
+  "link": "https://x.com/AnthropicAI/status/2097679796687769689",
+  "judge_interest": 6,
+  "scout_score": 121.3
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IMAGE — wrong archetype, no brand identity, no faces: The story is specifically about Anthropic publishing a tool, but the cover has zero Anthropic branding and zero visible faces (workers are pure silhouettes). A stranger at feed size reads 'AI threatens jobs' mood art, not 'Anthropic built this specific thing.' The Doctrine's archetype for a named-company story is: famous CEO + brand mark ",
+ "gate_r": "s3: The background is a raw full-bleed screenshot of Anthropic's webpage (visible paragraph text, chart axis labels, UI chrome) — an instant SCREENSHOT LAW fail; it is not framed on a rounded card.",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
