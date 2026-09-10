@@ -110,11 +110,14 @@ body.nophoto .logorow img{height:230px;max-width:480px}
        background-size:cover;background-position:center top;
        -webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 300px),rgba(0,0,0,0) 100%);
        mask-image:linear-gradient(180deg,#000 calc(100% - 300px),rgba(0,0,0,0) 100%)}
-/* cover: full-frame image — the photo extends to the bottom of the slide
-   with a gentle fade so text reads on the colorful scene (Wealth-style
-   thumbnail covers, owner order Aug 22) */
-body.cover .bleed{-webkit-mask-image:linear-gradient(180deg,#000 40%,rgba(0,0,0,.45) 75%,rgba(0,0,0,.25) 100%);
-                  mask-image:linear-gradient(180deg,#000 40%,rgba(0,0,0,.45) 75%,rgba(0,0,0,.25) 100%)}
+/* cover: getintoai anatomy (owner order Sep 9, Gemini post-mortem: "the
+   picture itself is half cutted because of our titles... look at getintoai
+   example" — the Aug 22 full-frame fade is REVERSED). The photo owns the
+   TOP of the frame at FULL visibility and melts into a SOLID black band
+   right above the masthead; the whole title block sits on solid black and
+   never prints over the picture. Photo window height set by scrim(). */
+body.cover .bleed{-webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 150px),rgba(0,0,0,0) 100%);
+                  mask-image:linear-gradient(180deg,#000 calc(100% - 150px),rgba(0,0,0,0) 100%)}
 .shade{position:absolute;inset:0;z-index:1;
        background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,0) 14%,
        rgba(0,0,0,0) 46%,rgba(5,5,5,.45) 62%,rgba(5,5,5,.68) 72%,rgba(5,5,5,.74) 100%)}
@@ -355,11 +358,15 @@ function scrim(){
   var mast=document.querySelector('body.cover .frame .masthead');
   if(mast){
     var edge=Math.max(420,Math.min(1350,Math.round(mast.getBoundingClientRect().top)+12));
-    if(bleed)setH(1350);
+    /* getintoai anatomy (owner Sep 9): the photo ends AT the masthead line
+       — its own mask feathers the last 150px, the shade finishes the melt,
+       and everything below the seam is SOLID #050505 so the headline never
+       prints over the picture */
+    if(bleed)setH(edge+20);
     if(cut)cut.style.height=(edge+24)+'px';
     shade.style.background='linear-gradient(180deg,rgba(0,0,0,.08) 0px,rgba(0,0,0,0) 140px,'
-      +'rgba(0,0,0,0) '+(edge-190)+'px,rgba(0,0,0,.3) '+(edge-70)+'px,'
-      +'rgba(0,0,0,.48) '+edge+'px,rgba(0,0,0,.52) 1350px)';
+      +'rgba(0,0,0,0) '+(edge-230)+'px,rgba(5,5,5,.55) '+(edge-90)+'px,'
+      +'#050505 '+edge+'px)';
     return;
   }
   var anchor=document.querySelector('body.content .frame h1');

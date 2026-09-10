@@ -15,6 +15,16 @@ here with "-> distilled".
 
 ---
 
+## 2026-09-09 — edu-5 free AI video tools, HE (owner; built 16:42, 16 min before the retell fix landed)
+BAD:      "חמישה כלי AI שמחקים את יום הצילום" / "סרטון מוצר שעלה 5,000 דולר" /
+          "מייצר צילום שנראה כמעט אמיתי ממשפט פשוט" / "פוטאג'" / "בפלאן החינמי"
+OWNER/FIX: "you can't write חמישה כלי AI שמחקים — מה זה שמחקים? יש דרך הרבה
+          יותר טובה לרשום את כל הכותרת הזו... מה זה סרטון מוצר? אין לי מושג
+          מה זה אומר... I can't understand anything from it"
+RULE:     never English-in-Hebrew-letters (פוטאג', פלאן) and never industry
+          jargon (סרטון מוצר, שמחקים) — say what the tool DOES for the reader
+          in words a 12yo types in WhatsApp; glossary rows added.
+
 ## 2026-09-09 — general (owner)
 BAD:      the whole "localize/translate the English" framing
 OWNER/FIX: "why cant it just use claude brain where it speaks great hebrew

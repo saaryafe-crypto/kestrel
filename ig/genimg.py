@@ -67,9 +67,11 @@ NANO_COST = 0.04
 # styling, cliche bans) is enforced by the image judge in write.image_score
 # instead — the judge catches flaws for free, prompt bloat causes them.
 _TAIL = (
-    " Compose everything important in the upper two-thirds of the frame; "
-    "the bottom third stays simple background, because the headline is "
-    "printed over it. Bright, loud, saturated colors true to the story; "
+    " Compose EVERYTHING that matters — faces, key prop, stakes — in the "
+    "upper 60% of the frame; the bottom 40% is sacrificial background, a "
+    "solid headline band covers it completely, so anything placed there "
+    "is lost (owner Sep 9, getintoai anatomy). Bright, loud, saturated "
+    "colors true to the story; "
     "the main subject keeps its natural real-life colors so it pops — "
     "never one flat color wash over the whole picture. No words, text, "
     "captions or lettering anywhere; only if the brief quotes exact label "
@@ -365,8 +367,9 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
     # old "lower third falls into pure black" baked dead space into the image.
     prompt = (f"{brief}. "
               "Composition: vertical frame, the subject large, sharp and dominant "
-              "in the upper two-thirds; the bottom third stays simple and "
-              "uncluttered. Lighting: bright, high-contrast editorial lighting, "
+              "in the upper 60%; the bottom 40% stays simple and uncluttered — "
+              "a solid headline band covers it completely, so nothing that "
+              "matters may live there. Lighting: bright, high-contrast editorial lighting, "
               "colors vivid and saturated with ONE punchy accent color echoing "
               "the subject — energetic like a breaking-news press photo, never "
               "murky, never moody-dark. Background (owner order Aug 3, the $750B "

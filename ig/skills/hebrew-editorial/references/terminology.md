@@ -29,6 +29,10 @@ Israeli tech media + teens actually use.
 | בשורה התחתונה | בסוף היום | calque |
 | כבר לא | לא יותר (as a punch ending) | calque, shipped 3.8 |
 | הפס באמצע המסך | קמט (foldable "crease") | קמט is a skin wrinkle; shipped Sep 9, owner: "the worst word" — say what the eye sees |
+| שעושים את העבודה של / שמחליפים | שמחקים ("tools that mimic X") | shipped Sep 9, owner: "מה זה שמחקים?" — say what the tool DOES for you, not what it imitates |
+| סרטון פרסומת למוצר / סרטון שמציג את המוצר | סרטון מוצר ("product video") | industry jargon; owner Sep 9: "אין לי מושג מה זה אומר" |
+| וידאו / צילומים | פוטאג' ("footage") | English word in Hebrew letters; a 12yo never types it |
+| בחינם / בגרסה החינמית | בפלאן החינמי ("free plan") | English word in Hebrew letters |
 
 ## Openers that mark AI writing (never open with)
 

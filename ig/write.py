@@ -326,7 +326,7 @@ def image_score(path, headline, generated=False, person=False, cover=False,
         +
         'MISREAD GATE (owner audit Aug 10, the coffin cover that read as leather violin cases): describe to yourself what each key prop ACTUALLY looks like at phone size, not what it was meant to be — if the scene\'s central symbolic object would be mistaken for something mundane, the concept FAILED on screen = usable:false, flaw names the misread ("coffins read as luggage"). A symbol only counts when it is UNMISTAKABLE in half a second. '
         'STOCK-WALLPAPER GATE (owner Aug 10, the falling-money laptop cover): if the image could be sold as a generic stock photo for its topic — cash raining on a desk, anonymous hands typing, a glowing brain, abstract chart art — it stops nobody = usable:false, flaw "stock wallpaper". '
-        'CROP-SURVIVAL GATE (owner Aug 14 — published slides looked "cut in the middle"): the slide displays roughly the TOP SQUARE of this image and fades its bottom fifth into black under the text. Mentally hide the bottom quarter: if the scene still reads complete — faces, key prop and stakes all live in the upper two-thirds — it passes. If anything essential sits in the bottom quarter, or the composition is a full-body/tall scene that needs its lower half to make sense = usable:false, flaw "composed too tall, dies in the crop". '
+        'CROP-SURVIVAL GATE (owner Aug 14 "cut in the middle"; tightened Sep 9, getintoai anatomy — a SOLID title band now covers the bottom ~40% of the slide, nothing shows through): mentally delete the bottom 40% of this image. If the scene still reads complete — faces, key prop and stakes all fully inside the top 60% — it passes. If anything essential sits below that line, or the composition is a full-body/tall scene that needs its lower half to make sense = usable:false, flaw "composed too tall, dies in the crop". '
         if generated else "")
     # SCRAPED-COVER GATES (owner Sep 9, the Sydney Sweeney meme cover: every
     # hard gate above is GENERATED-only, so a fan meme scraped from the X
@@ -504,6 +504,22 @@ def art_direct(post, story_title=""):
         'a fake "Aschenbrenner" shipped on the SA-fund cover and read '
         "instantly false) — show them from behind, silhouette, or rewrite to "
         "the story's objects/scene with no face in frame."
+        "\nTHE STORY'S OWN PROTAGONIST (owner order Sep 9, the Snapchat "
+        "post-mortem — the story was the FOUNDER banning his own kids and "
+        "the cover shipped an abstract ghost logo; owner: show \"Snapchat "
+        "founder with a kid saying no with a finger and Snapchat logo on "
+        "top\"): when the story IS one specific person — a founder or CEO "
+        "of a world-famous product doing the story's act — cast THEM even "
+        "if a 16-year-old couldn't name the face, and put them mid-ACT: "
+        "acting out the exact scene the headline describes, with their "
+        "world-famous brand mark in frame doing the recognizing (the logo "
+        "is the anchor, the face is the actor). Their identity comes from "
+        "a real photograph (the pipeline fetches their Wikipedia portrait), "
+        "so this is never an invented face — if no real photo exists the "
+        "faceless rules above take over automatically. The 16-year-old "
+        "fame test still gates everything else: invented celebrity "
+        "staging, hook name-drops, and any face that is NOT the story's "
+        "own protagonist."
         "\nNO GENERIC PEOPLE (hard rule Aug 9 — three cover-fallback days in "
         "a row: every image the judge killed as 'unfamiliar generated face' "
         "traced back to an unnamed person in the brief, and the slot shipped "
@@ -552,6 +568,16 @@ def art_direct(post, story_title=""):
         'brief — the real mark rides to the generator as a reference — and '
         'write into the brief: "the company logo exactly as in the reference '
         'image". Never let the model draw a listed brand\'s logo from memory. '
+        "LOGO PLACEMENT (owner Sep 9, the Gemini cover: a backlit \"GEMINI\" "
+        "letter-sign floated over a library and read instantly fake): the "
+        "mark is the brand's SYMBOL, never its name spelled out — never "
+        "write \"logo sign\", \"backlit sign\", \"neon sign\" or any "
+        "wall/floating signage into a brief. The symbol appears ONCE on the "
+        "thing that would really carry it: the product's own screen or "
+        "body, the phone running the app, the storefront only when the "
+        "story physically happens there. A brand NOT on the list gets no "
+        "logo and no lettering at all — carry it through its product's "
+        "real shape and colors instead. "
         "BRAND COLOR TRUTH (owner Aug 4): when a scene lives in a company's "
         "world, the color key and the brand's props use that company's REAL "
         "color from the list — a Telegram story is keyed to Telegram sky "
