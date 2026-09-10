@@ -374,8 +374,12 @@ def _moment(t, now, max_age_h=MAX_AGE_H, floor=FLOOR_LIKES):
         return None
     media = ((t.get("extendedEntities") or {}).get("media")
              or (t.get("entities") or {}).get("media") or [])
-    img = next((m.get("media_url_https") for m in media
-                if m.get("type") == "photo"), None)
+    # ALL photos, not just the first (owner order Sep 10, real-image-first:
+    # an X post carries up to 4 photos and they are the story's realest
+    # press media — write.py downloads every one into the candidate pool)
+    imgs = [m["media_url_https"] for m in media
+            if m.get("type") == "photo" and m.get("media_url_https")]
+    img = imgs[0] if imgs else None
     vid = _video_url(media)
     if not img and vid:
         # video tweets carry their thumbnail frame in the same field — on a
@@ -401,7 +405,7 @@ def _moment(t, now, max_age_h=MAX_AGE_H, floor=FLOOR_LIKES):
             "comments_n": int(t.get("replyCount") or 0),
             "views": int(t.get("viewCount") or 0),
             "age_h": round(age_h, 1), "vph": round(likes / age_h, 1),
-            "image": img, "video": vid,
+            "image": img, "images": imgs, "video": vid,
             "guide": _is_guide(bare or text)}
 
 

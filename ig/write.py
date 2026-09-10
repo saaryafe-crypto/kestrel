@@ -1954,6 +1954,47 @@ def main(stories_path):
         media_files.append(path)
     print(f"{len(media_files)} candidate images saved", file=sys.stderr)
 
+    # X-MEDIA RUNG (real-image-first, owner order Sep 10 — the forensic audit:
+    # the winners never ship an imageless inner slide, and our #1 supply hole
+    # was X-native stories: x.com is a login wall, so article_images() comes
+    # back EMPTY and every inner slide leaned on generation. The tweet's OWN
+    # photos and video thumbnail are the realest press media the story has —
+    # every one joins the candidate pool; the vision judge still gates use.)
+    rm = story.get("radar") or {}
+    xurls = list(rm.get("images") or ([rm["image"]] if rm.get("image") else []))
+    if story.get("image") and story["image"] not in xurls:
+        xurls.append(story["image"])
+    from fetch import jpeg_width
+    for u in xurls:
+        if len(media_files) >= 8:
+            break
+        try:  # pbs full-size variant first, the stored URL as fallback
+            data = get(u + ("?name=large" if "pbs.twimg.com" in u
+                            and "?" not in u else ""), timeout=10)
+        except Exception:
+            try:
+                data = get(u, timeout=10)
+            except Exception:
+                continue
+        w = (int.from_bytes(data[16:20], "big")
+             if data[:8] == b"\x89PNG\r\n\x1a\n"
+             else jpeg_width(data) if data[:3] == b"\xff\xd8\xff"
+             else 1000 if data[:4] == b"RIFF" and data[8:12] == b"WEBP"
+             and len(data) > 80_000 else 0)
+        # 600px floor, not article_images' 900: an X video thumb is 720 wide
+        # and a real frame of the real footage beats a naked slide every time
+        if w < 600 or len(data) > 8_000_000:
+            continue
+        if any(open(p, "rb").read() == data for p in media_files):
+            continue
+        ext = ("png" if data[:8] == b"\x89PNG\r\n\x1a\n"
+               else "webp" if data[8:12] == b"WEBP" else "jpg")
+        p = os.path.join(post_dir, f"cand-{len(media_files) + 1}.{ext}")
+        open(p, "wb").write(data)
+        media_files.append(p)
+        print(f"X/RSS media joined the pool ({w}px): {u[:90]}",
+              file=sys.stderr)
+
     # ONE merged prep call (token diet Aug 8): retell + spine + classify
     retold, spine, ctx = prep_story(story, body_text)
     if retold:
