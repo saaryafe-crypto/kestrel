@@ -14,7 +14,7 @@ definition, and every stage reads it.
 
 ## 0. THE STANDARD — the only question that matters
 
-A winning post makes a smart 16-year-old stop mid-scroll, read every slide,
+A winning post makes a smart 12-year-old stop mid-scroll (owner Sep 9, was 16), read every slide,
 and send it to a friend saying "look at this." The pages we model (@technology,
 @getintoai, @techskills) win because every post DELIVERS a wild-but-true story
 with real names, real numbers, and real proof. We never post to fill a slot's
@@ -154,7 +154,7 @@ INSTANT KILL — no other rule can save these:
 - BANNED IN ANY HOOK: engagement metrics as the payoff (likes, views, replies,
   reposts, followers — "THE SCREENSHOT HAS 40K LIKES" is the failure model);
   hedge words (may, might, could, allegedly; "reportedly" allowed once
-  mid-sentence only); dashes as punctuation; jargon a 16-year-old wouldn't
+  mid-sentence only); dashes as punctuation; jargon a 12-year-old wouldn't
   know; label/aphorism headlines; three stapled facts.
 - The hook must survive a blind reader: zero context, 1.7 seconds,
   understood instantly and repeatable to a friend.
@@ -258,7 +258,7 @@ INSTANT KILL — no other rule can save these:
 - NEW FACT PER SLIDE: a body never repeats its own headline's number; no two
   slides carry the same fact.
 - FELT SCALE: finance-wire vocabulary banned on slides; translate everything
-  to dollars, days, and human outcomes a 16-year-old feels.
+  to dollars, days, and human outcomes a 12-year-old feels.
 - SPOKEN VOICE, understated authority: no exclamation marks, no emojis, no
   hype adjectives, no sermons/moralizing, no platform attribution in bodies,
   no news-agency register ("announced", "unveiled", "according to").

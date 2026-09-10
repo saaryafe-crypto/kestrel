@@ -225,7 +225,7 @@ SHAPES = """HOOK SHAPES (every reference-page hook fills ONE of these — pick t
 
 THE GRAMMAR OF EVERY SHAPE (measured on the corpus, zero exceptions): ONE subject, ONE action, ONE twist. The twist rides as a TRAILING PHRASE ("while he slept", "during his wedding", "for free") or after ONE connective (AND / YET / THEN / STILL) — never as a third clause. Three facts stapled with commas is a LIST, not a hook — the reference pages never ship one (failure model, owner-killed Aug 3: "MUSK DELETES EVERY STEP HE DOESN'T NEED, BUFFETT KILLS 20 OF HIS 25 GOALS, 5 FRAMEWORKS AS FREE CHATGPT PROMPTS" — three subjects, no sentence). Max 2 commas total. Need more? Split into two short sentences ("...WITH AI. IT COST HIM $863 AND 1.2 BILLION TOKENS"). Read each sentence out loud in ONE BREATH — if you stumble, rewrite."""
 
-SHARED_RULES = """- ONE IDEA (owner kill Aug 3, "hard to understand"): the hook is ONE story tension a 16-year-old repeats to a friend after ONE read — never a summary that stacks separate facts. "Complete" means the ONE idea is fully told with its specifics; it never means listing everything the post contains.
+SHARED_RULES = """- ONE IDEA (owner kill Aug 3, "hard to understand"): the hook is ONE story tension a 12-year-old repeats to a friend after ONE read — never a summary that stacks separate facts. "Complete" means the ONE idea is fully told with its specifics; it never means listing everything the post contains.
 - LENGTH 12-25 words, aim 15-20: ONE complete sentence that SUMMARIZES the whole story with its wildest specifics ON the cover — the price, the count, the first-ever, the absurd detail. Model (owner Aug 1, the reference page): "OPENAI JUST LAUNCHED THEIR FIRST EVER HARDWARE PRODUCT, A $230 LIGHT UP KEYBOARD BUILT TO RUN YOUR AI CODING AGENTS".
 - WITHHOLD NOTHING (owner doctrine Aug 1, reverses the Jul 29 gap rule): a riddle only works for pages with authority; a growing page earns the follow by DELIVERING on the cover. The reader should get the full story from the cover alone — the swipe is for the photos, the details and the fallout, which the wild content makes them want automatically.
 - Structure: [ACTOR] JUST [charged verb + what happened], [the specific that makes it wild]. Front-load the actor and verb; the numbers ride in the second half.
@@ -235,7 +235,7 @@ SHARED_RULES = """- ONE IDEA (owner kill Aug 3, "hard to understand"): the hook 
 - THE COLLISION: when two true facts contradict each other, put BOTH in the sentence joined by AND/YET/THEN ("A RECORD QUARTER AND THE STOCK STILL FELL 8%") — the contradiction is the reference page's strongest scroll-stopper.
 - POINTING HOOKS (forensic Aug 2): for builder/absurd stories, "THIS GUY / THESE ARE / THIS IS HOW" openers weld the words to the cover photo — the image completes the sentence ("THIS GUY BUILT A WAY TO SEND FILES BETWEEN TWO PHONES WITH NO WI-FI, NO BLUETOOTH, AND NO NETWORK AT ALL"). Use only when the cover will show the exact pointed-at person or thing.
 - NO HEDGE WORDS: may, might, could — never. "Reportedly" is allowed ONCE, mid-sentence, ONLY for a leak/rumor/patent story that cannot honestly be stated as fact (the reference runs "XBOX REPORTEDLY PLANNED...", "FERRARI REPORTEDLY HIT..."); never as the first word. Everything verified is stated hard; attribution lives in the credit line.
-- Simple words a 16-year-old gets instantly. Zero jargon, zero metaphors to decode. Only TRUE facts from the story.
+- Simple words a 12-year-old gets instantly (owner Sep 9). Zero jargon, zero metaphors to decode. Only TRUE facts from the story.
 - Mark accents with <em>...</em>: the 1-2 phrases carrying the numbers/wildest specifics (2 groups max)."""
 
 
@@ -263,7 +263,7 @@ CAND_SCHEMA = {
     "required": ["hook_candidates"],
 }
 
-HE_INTRO = """You write cover hooks for @ainews.israel — the Hebrew Instagram page for Israeli AI news. Write NATIVELY in Hebrew a smart Israeli 16-year-old would say out loud — never translate English phrasing. Keep brand/product names in their original Latin script (AI, ChatGPT, Visa). Hebrew is denser than English: the LENGTH rule below relaxes to 8-20 words — but the summary must still be COMPLETE, nothing withheld. GRAMMAR (kill rule): every line must be correct spoken Hebrew — read it aloud; nouns are not verbs ("הזיה עסקה" is broken, "המציא עסקה" is right). A line a native speaker would stumble on is disqualified."""
+HE_INTRO = """You write cover hooks for @ainews.israel — the Hebrew Instagram page for Israeli AI news. Write NATIVELY in Hebrew a smart Israeli 12-year-old would say out loud (owner Sep 9) — never translate English phrasing. Keep brand/product names in their original Latin script (AI, ChatGPT, Visa). Hebrew is denser than English: the LENGTH rule below relaxes to 8-20 words — but the summary must still be COMPLETE, nothing withheld. GRAMMAR (kill rule): every line must be correct spoken Hebrew — read it aloud; nouns are not verbs ("הזיה עסקה" is broken, "המציא עסקה" is right). A line a native speaker would stumble on is disqualified."""
 EN_INTRO = """You write cover hooks for @yaffeai — an AI/tech Instagram page in the style of @technology."""
 
 
@@ -449,7 +449,7 @@ def _comprehension(cands, lang="en", strict=False):
     restate_lang = ("Restate in HEBREW — you read Hebrew natively."
                     if lang == "he" else "")
     prompt = f"""You see Instagram cover headlines cold — no story, no context, exactly like a stranger scrolling. For each one, after ONE read:
-- "restate": what happened, in one plain spoken sentence a 16-year-old would say to a friend. {restate_lang}
+- "restate": what happened, in one plain spoken sentence a 12-year-old would say to a friend. {restate_lang}
 - "clear": 1-5 — how sure are you that you understood it on the FIRST read? 5 = instantly obvious, 4 = got it, 3 = had to re-read a part, 2 = had to re-read all of it, 1 = still not sure what it says.
 - "one_idea": true if the line tells ONE story (one subject doing one thing, possibly with a twist); false if it reads as separate facts stapled together (multiple subjects each doing their own thing, a list wearing a sentence's clothes).
 
@@ -572,7 +572,7 @@ PSYCH = """HUMAN-PSYCHOLOGY LEVERS (each backed by large-scale headline studies)
 4. CONCRETENESS THAT STACKS (recalibrated Aug 2, forensic count of ~90 reference hooks): every number must ADD absurdity — odd precise numbers ($863, 682 tonnes, 335,000 signatures) create belief. A second number earns its place ONLY when the PAIR is the story ("IT COST HIM $863 AND 1.2 BILLION TOKENS"); a number that merely adds context dilutes. Zero numbers is wallpaper.
 5. MORAL-EMOTIONAL VERBS: banned, exposed, refused, stole, betrayed, admitted add +17-20% each — ONLY when literally true.
 6. SELF-REFERENCE: "your money / your job / your phone" lifts engagement massively, but only when the story genuinely touches the reader; fake relevance reads instantly.
-7. REPEAT-TO-A-FRIEND: the ultimate test — one plain sentence a 16-year-old would say out loud to a friend, verbatim. If it can't be repeated from memory after one read, it fails.
+7. REPEAT-TO-A-FRIEND: the ultimate test — one plain sentence a 12-year-old would say out loud to a friend, verbatim. If it can't be repeated from memory after one read, it fails.
 8. PEOPLE STOP FOR PEOPLE: a named/relatable DOER ("a guy", "a 19-year-old", the famous CEO) beats an institution announcing, even when the institution's news is bigger.
 9. BELIEVED-WILD BEATS WILDER-DOUBTED: real odd numbers ($317K, 9 days, 800 girls) create belief; round numbers and superlatives create doubt.
 10. DIFFERENT DOORS: number-led, contrarian flip, before/after, authority-steal, admission, future-shock — rivals must walk through DIFFERENT doors, not reword the same one.
@@ -783,7 +783,7 @@ def reel_title_judge(cands, lang="en"):
     random.shuffle(cands)
     listing = "\n".join(f"[{i}] {t}" for i, t in enumerate(cands))
     lang_line = ("The titles are Hebrew. You read Hebrew natively; judge them "
-                 "as an Israeli 16-year-old hears them. KILL RULE: a title "
+                 "as an Israeli 12-year-old hears them. KILL RULE: a title "
                  "with a grammar error (mismatched gender/number, singular "
                  "verb on plural subject) or that sounds translated from "
                  "English (a native would stumble reading it aloud) must "

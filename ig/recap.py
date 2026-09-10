@@ -158,7 +158,7 @@ Each payload slide: {{"type": "content", "idx": <candidate number>, "hsize": <px
 Last slide: {{"type": "cta", "hsize": 96, "headline": "...", "body": "..."}} — the SAVE CLOSE per section 4 of the law: headline is a save command restating the day ("SAVE TODAY'S AI BRIEFING"), body = the day's 3-5 beats as short checklist lines. NEVER a "follow us" ask — banned.
 
 RULES
-- LANGUAGE: write for a smart 16-year-old. Everyday words, short sentences, no jargon. Section 7 of the law fully applies. The editor's three most common kills, banned outright: hedge words (may/might/could/reportedly), news-agency verbs (announced/unveiled/revealed — say what happened in spoken words), and "-ing" consequence padding tacked onto a sentence (give the consequence its own short sentence).
+- LANGUAGE: write for a smart 12-year-old (owner Sep 9). Everyday words, short sentences, no jargon. Section 7 of the law fully applies. The editor's three most common kills, banned outright: hedge words (may/might/could/reportedly), news-agency verbs (announced/unveiled/revealed — say what happened in spoken words), and "-ing" consequence padding tacked onto a sentence (give the consequence its own short sentence).
 - Headline = the story's wild claim in 6-12 words. <em>...</em> marks the accent words — the minimum set that carries the claim standalone; every headline needs at least one <em>.
 - Each payload slide is a standalone mini-story: headline withholds exactly one detail that the body's FIRST sentence resolves. Body = 2-3 spoken sentences, concrete numbers/names in <b>...</b>. No <em> in bodies. Bodies never end with a period. No emojis, no exclamation marks.
 - hsize: short headline (≤5 words) 105-120; medium 88-100; long 76-86.

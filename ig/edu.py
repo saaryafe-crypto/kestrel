@@ -225,7 +225,7 @@ COVER IMAGE (mandatory): the cover MUST set "image_brief" — an empty dark cove
 Last. type "cta": THE SAVE CLOSE (owner order Aug 18 — the last slide is built to be SAVED, never a generic closer): headline = a save-command mirroring the cover's N-promise, 6-11 words ("SAVE THIS: ALL 6 SERVICES AI DOES FREE"). Body = the recap CHECKLIST: the N promised items as newline-separated lines, one per item, each ≤6 words (just the item's name/verb, no prompts), in slide order — this one-screen recap is WHY people tap save. Final line: the page-as-service line ("Daily AI news + real skills"). The renderer draws the checkmarks and a "Send this to a friend" pill — never write a follow or send ask into your text.
 
 RULES
-- LANGUAGE (hard requirement): a smart 16-year-old must get every line instantly. Say what things DO, never what they're called.
+- LANGUAGE (hard requirement): a smart 12-year-old must get every line instantly (owner Sep 9). Say what things DO, never what they're called.
 - <em>...</em> in headlines = the accent: ONE contiguous phrase, ideally a whole line (two groups max). Orange on entire lines creates rhythm; orange scattered across four single words is confetti — four focal points = zero. <b>...</b> in bodies = facts/steps keywords. No <em> in bodies.
 - hsize: cover 66-80 (huge type, 2-4 edge-to-edge lines), inner short headlines 100-124, medium 90-105, long 76-88.
 - Bodies never end with a period. No emojis in slides. Zero hype adjectives (insane/crazy/mind-blowing) — the facts carry it.

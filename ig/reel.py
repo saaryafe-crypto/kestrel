@@ -289,7 +289,7 @@ RULES
 - THE TITLE MUST EXPLAIN THE VIDEO (hard gate, Aug 1 Mad Max post-mortem): the viewer sees ONLY the footage + your line. If the clip is a MEME — a movie scene, game footage, or a skit standing in for a tech story — the line must carry the meme's framing so the metaphor lands (the source post's title usually holds the joke: "AI companies in 2028 after finding out that your grandma's diary is handwritten"). A factual news claim floating over footage it doesn't literally show is banned: "Your handwriting might be the last thing AI can't read" over a desert car chase reads as random chaos.
 - NAME THE TREND (owner rule Aug 1, the robots-rowing reel: the clip mirrored the Norwegian fans' viral rowing celebration and the title never said so): when the footage rides a trend/meme/celebration the audience already knows, the title NAMES it — recognition IS the hook ("robots doing the Norway row" beats any generic description of the same clip). Check the source title and crowd comments for the trend's name.
 - CONTEXT ANCHOR (owner rule Aug 8, hard gate): the viewer arrives COLD — they don't know what this footage is. Every title must name the subject in a couple of words (the actor or the thing: a famous name a 16-year-old knows, else a universal noun like "this robot" / "a rocket booster") AND keep the curiosity trigger. Two real post-mortems: "The part that looks fake is the real footage" — great trigger, but over rocket footage a cold viewer has no idea it's a SpaceX launch; fix: "The part of this SpaceX launch that looks fake is the real footage". "The plan to manufacture everything on Mars before humans arrive" — whose plan? what are we watching?; fix: "Inside the robot factory built to make everything on Mars before humans arrive". A title where the subject is only "this / the part / the plan" with no named actor or thing = FAIL.
-- LANGUAGE (hard requirement): title and caption written for a smart 16-year-old. Everyday words, short sentences, zero industry jargon — say what the thing DOES, not what it's called.
+- LANGUAGE (hard requirement): title and caption written for a smart 12-year-old (owner Sep 9). Everyday words, short sentences, zero industry jargon — say what the thing DOES, not what it's called.
 - The caption's FIRST sentence carries the payoff (~125 chars show before "...more"). Explainer commentary adds original context beyond the post title — this is also what makes the repost a transformation, not a raw repost.
 - start_s + clip_s must fit inside the clip's duration.
 - Never invent facts not in the post title. No emojis in the title."""
@@ -459,7 +459,7 @@ def title_fits(src, dur, title, source_title):
             "5-candidate contest, so fits:true whenever it plausibly frames "
             "the footage — never rewrite to 'improve' a line that works. When "
             "fits:false, write better_title: max 80 chars, sentence case, "
-            "simple words a 16-year-old gets, keeping the joke or framing "
+            "simple words a 12-year-old gets, keeping the joke or framing "
             "that connects the line to the footage, AND naming the subject "
             "(the actor or thing on screen) so a cold viewer knows what "
             "they're watching. The rewrite keeps the page's register: "
