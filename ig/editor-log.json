@@ -1,62 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "Google searches are a sentiment indicator, not an event—no real-world consequence (money moved, someone fired, policy changed, lawsuit filed), no actor, and the underlying claim is too thin to expand into slides.",
-  "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
-  "t": "2026-09-06T19:48:13Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: pure fashion/business history arc without AI, tech, or tech-founder focus; this page's identity is AI/tech NEWS, and a 1821 luxury-goods origin story doesn't land on any approved lens—the founder must BE a tech founder or company, not merely a founder in a different domain.",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "t": "2026-09-06T19:48:31Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: labor/demographics story where technology is backdrop, not subject—fails the strict off-lens kill rule this lane must apply.",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "t": "2026-09-06T19:48:44Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "HOOK §2 DOUBLE ACTION: 'CAN POISON YOUR WATER AND LIE TO YOUR FACE' joins two actions with AND — the law requires ONE actor, ONE action. Cut the weaker arm ('lie to your face') and make the single strongest claim the whole sentence.; SLIDES 3 AND 5 ARE NEAR-IDENTICAL §4: both carry the same four bullet-point facts reworded ('No constitutional right to clean water / No right to honest government in",
-  "subject": "A FEDERAL JUDGE JUST RULED YOUR GOVERNMENT CAN POISON YOUR WATER AND LIE TO YOUR FACE <em>AND THE CONSTITUTION WON'T PRO",
-  "t": "2026-09-06T20:16:18Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "s1: The AI-generated Constitution prop displays visibly garbled, nonsense text ('the be Yeehye Yestice') at a size large enough to read on a phone, which fails the photo-quality standard for garbled AI text.",
-  "subject": "A FEDERAL JUDGE JUST RULED YOUR GOVERNMENT CAN POISON YOUR WATER AND LIE TO YOUR FACE <em>AND THE CONSTITUTION WON'T PRO",
-  "t": "2026-09-06T20:20:17Z",
-  "verdict": "FAIL"
- },
- {
-  "t": "2026-09-07T01:23:02Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Slide 6 is off-brand for this page with no AI/tech connection drawn. The court ruling that the Constitution doesn't guarantee a right to accurate information OR clean drinking water is a straight legal/political story — neither subject touches AI, technology, a company/founder, money, or space tech. The slide body never makes an AI/tech angle explicit (no mention of AI misinformation, government A"
- },
- {
-  "t": "2026-09-07T01:24:48Z",
-  "gate": "R",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "gate": "A",
-  "reason": "scout interest 8/10 — news-first fast lane",
-  "subject": "I lost my sight 5 years ago. Cybercab gave me a glimpse of regaining my independence. — Gary Moss, @DavidMoss 's blind f",
-  "t": "2026-09-06T22:49:40Z",
-  "verdict": "AUTO_APPROVE"
- },
- {
-  "gate": "A",
   "reason": "Market metric trend, not a story — no actor or company move, off-brand housing data for an AI/tech page, and insufficient substance in one thin tweet to build a carousel.",
   "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
   "t": "2026-09-06T22:50:54Z",
@@ -2096,6 +2040,62 @@
   "t": "2026-09-11T01:11:12Z",
   "gate": "R",
   "subject": "5 FREE CHATGPT VOICE TRICKS THAT KILL <em>YOUR $300/HOUR COACHING BILL</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-11T02:11:08Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
+  "verdict": "KILL",
+  "reason": "Extraordinary surveillance allegation from a non-news financial account citing unverified second-hand reporting; the Prospect article is not presented or verifiable from the tweet, and a household-name company's alleged secretive system requires clear credible sourcing before committing resources."
+ },
+ {
+  "t": "2026-09-11T02:11:57Z",
+  "gate": "A",
+  "subject": "Former and current Anthropic employees are now posting that they “earnestly believe AI could kill all humans.” This comp",
+  "verdict": "KILL",
+  "reason": "Reaction-bait without real-world consequence: the substance is 'people noticed the irony of employees saying AI risks while the company IPOs at high valuation' — a social media pattern, not a story. No verification of which employees posted what, when, or what happened as a result (firing, Anthropic response, market movement). The IPO is speculative ('expected to'), not an event. This is exactly the Queen Elizabeth / Mario Lopez failure model — the payload is people reacting online, not reality moving."
+ },
+ {
+  "t": "2026-09-11T02:12:06Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
+  "verdict": "KILL",
+  "reason": "One thin tweet reporting an unverified allegation; no confirmation from Anthropic, no second source, no proof the system exists or has affected anyone—writer would have to speculate to fill slides, violating §1's NO SUBSTANCE rule and §5's TRUTH requirement."
+ },
+ {
+  "t": "2026-09-11T02:47:55Z",
+  "gate": "B",
+  "subject": "ANTHROPIC, THE 'SAFE AI' COMPANY, IS REPORTEDLY BUILDING <em>PRE-CRIME SURVEILLANCE</em> FOR AI CRITICS",
+  "verdict": "REJECT",
+  "reason": "TRUTH LAW — slides present the 'reportedly' claim as confirmed fact while the hook hedges it. Slide 3 states 'Anthropic is building a surveillance system that watches AI critics and alerts police before any law is broken' with zero hedge; slide 6 declares 'Anthropic isn't just building AI anymore. It's deciding who's allowed to disagree' as settled truth. The only cited source is a single tweet fr"
+ },
+ {
+  "t": "2026-09-11T02:57:08Z",
+  "gate": "A",
+  "subject": "Three Anthropic researchers went public last night say it could destroy humans this decade, per Axios",
+  "verdict": "KILL",
+  "reason": "Extraordinary claim ('destroy humans this decade') from single 101-character unverified tweet; cannot confirm Anthropic researchers' actual statements without access to original Axios article and verified quotes. TRUTH LAW requires every fact to be true and sanity-checked; this cannot be established from source material provided."
+ },
+ {
+  "t": "2026-09-11T04:09:41Z",
+  "gate": "B",
+  "subject": "5 GEMINI TRICKS THAT <em>REPLACE YOUR BUSINESS CONSULTANT</em> FOR FREE",
+  "verdict": "REJECT",
+  "reason": "Save-close headline (slide 8) reads '5 GEMINI ADVENTURES FOR YOUR BUSINESS' but the cover says '5 GEMINI TRICKS THAT REPLACE YOUR BUSINESS CONSULTANT FOR FREE.' The save-close law requires the headline to restate the cover's claim — 'Adventures' is not 'Tricks.' Fix: change slide 8's headline to 'SAVE THIS: 5 GEMINI TRICKS THAT REPLACE YOUR BUSINESS CONSULTANT FOR FREE' (or a tight compression of "
+ },
+ {
+  "t": "2026-09-11T04:12:06Z",
+  "gate": "B",
+  "subject": "5 GEMINI TRICKS THAT <em>REPLACE YOUR BUSINESS CONSULTANT</em> FOR FREE",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-11T04:12:46Z",
+  "gate": "R",
+  "subject": "5 GEMINI TRICKS THAT <em>REPLACE YOUR BUSINESS CONSULTANT</em> FOR FREE",
   "verdict": "PASS",
   "reason": ""
  }
