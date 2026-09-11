@@ -1,149 +1,101 @@
 {
- "updated": "2026-09-10T14:51:27+00:00",
+ "updated": "2026-09-11T15:40:48+00:00",
  "competitor_hits": [
   {
-   "page": "mashable",
-   "likes": 8289,
-   "ratio": 7.7,
-   "tier": "mega",
-   "hook": "\"A24 has released an intense teaser trailer for You Can See Everything, an upcoming documentary about Theranos founder Elizabeth Holmes, and the reaction to the teaser has sure been\u2026 something.\u2060\n\u2060\nDirected by Fielder (Th",
-   "date": "2026-09-08"
-  },
-  {
    "page": "wired",
-   "likes": 5225,
-   "ratio": 5.07,
+   "likes": 5842,
+   "ratio": 5.69,
    "tier": "mega",
    "hook": "\"Artificial intelligence researcher Jacob Coxon sent shock waves through Silicon Valley and beyond on Tuesday by announcing his resignation from Anthropic and delivering a grave warning that the AI race was putting all o",
    "date": "2026-09-09"
   },
   {
    "page": "wired",
-   "likes": 3781,
-   "ratio": 3.67,
+   "likes": 5110,
+   "ratio": 4.98,
    "tier": "mega",
-   "hook": "\"A report published by the US Census Bureau last month purported to uncover evidence backing up President Donald Trump\u2019s baseless claims that noncitizens voting cost him the 2020 election. It was the latest salvo in Trum",
-   "date": "2026-09-09"
-  },
-  {
-   "page": "mashable",
-   "likes": 3001,
-   "ratio": 2.79,
-   "tier": "mega",
-   "hook": "\"Welp, it\u2019s finally here: Apple\u2019s folding phone.\u2060\n\u2060\nThe iPhone Duo was announced today and the internet certainly had thoughts. From its $2k price tag to its shape (hello IMAX aspect ratio), people have started giving th",
-   "date": "2026-09-09"
-  },
-  {
-   "page": "mashable",
-   "likes": 2019,
-   "ratio": 1.88,
-   "tier": "mega",
-   "hook": "\"Here\u2019s a close-up look at the all-new iPhone Duo. Will you be getting one? #AppleEvent #AllAccess\".",
-   "date": "2026-09-09"
+   "hook": "\"An Australian teenage girl\u2019s death, suspected to be preceded by consensual \u201cchoking\u201d during sex, has renewed calls to ban showing the act in porn.\n\nThis latest tragedy, reportedly believed to involve sexual strangulatio",
+   "date": "2026-09-10"
   },
   {
    "page": "wired",
-   "likes": 1619,
-   "ratio": 1.57,
-   "tier": "mega",
-   "hook": "\"The Instagram post, precision-guided by sex and age, had zeroed in on its target. Yuchen Tu is a conservatory-trained viola player from Chongqing, China, a lover of science fiction, and an aspiring member of the US Army",
-   "date": "2026-09-09"
-  },
-  {
-   "page": "mashable",
-   "likes": 1411,
-   "ratio": 1.31,
-   "tier": "mega",
-   "hook": "\"Apple finally announced its first foldable phone \u2014 the iPhone Duo \ud83d\udc40\n#Apple #AppleEvent #iphoneduo #allaccess\".",
-   "date": "2026-09-09"
-  },
-  {
-   "page": "wired",
-   "likes": 1040,
-   "ratio": 1.01,
-   "tier": "mega",
-   "hook": "\"The success of a program linking zoos across the US has generated a wave of interest in how to protect the endangered great apes in the wild.\n\nTap the \ud83d\udd17 in bio for more.\".",
-   "date": "2026-09-09"
-  },
-  {
-   "page": "wired",
-   "likes": 1032,
-   "ratio": 1.0,
-   "tier": "mega",
-   "hook": "\"The new Apple Watch Series 12 and Ultra 4 come not just with better fitness tracking and upgraded noise reduction, but also a whole new way to listen.\n\nApple announced on Wednesday that the two smartwatches come with fo",
-   "date": "2026-09-09"
-  },
-  {
-   "page": "wired",
-   "likes": 1028,
-   "ratio": 1.0,
-   "tier": "mega",
-   "hook": "\"Over a decade ago, the Islamic State released a disturbing video that depicted its members lowering men locked in a cage into a swimming pool and drowning them. Today, that video has been reproduced as a SpongeBob Squar",
-   "date": "2026-09-08"
-  },
-  {
-   "page": "wired",
-   "likes": 910,
-   "ratio": 0.88,
+   "likes": 1817,
+   "ratio": 1.77,
    "tier": "mega",
    "hook": "\"President Donald Trump on Wednesday said that he would pay $5,000 to every American if Republicans retained control of the U.S. House and Senate in the midterm elections, seemingly in an effort to incentivize votes for ",
    "date": "2026-09-10"
   },
   {
    "page": "wired",
-   "likes": 851,
-   "ratio": 0.83,
+   "likes": 1359,
+   "ratio": 1.32,
    "tier": "mega",
-   "hook": "\"Once upon a time, you may have been living next to a data center and never heard anything about it. But now the great data center backlash of 2026 is here.\n\nFrom now until the midterms, senior writer Molly Taft will be ",
-   "date": "2026-09-08"
+   "hook": "\"This week, AI researcher Jacob Coxon\u2019s resignation from Anthropic went viral on social media after he claimed there's a real chance AI could wipe out humanity by decade's end. WIRED\u2019s Will Knight joins \u201cUncanny Valley\u201d ",
+   "date": "2026-09-10"
   },
   {
-   "page": "technology",
-   "likes": 34000,
-   "ratio": 0.81,
+   "page": "wired",
+   "likes": 1193,
+   "ratio": 1.16,
    "tier": "mega",
-   "hook": "\"Apple\u2019s first foldable iPhone has finally arrived, and the internet is already split between people praising its polish and others questioning the hype around the launch \ud83d\udcf1\ud83e\udd2f\n\nThe iPhone Duo starts at $1,999 and opens fro",
-   "date": "2026-09-09"
-  },
-  {
-   "page": "technology",
-   "likes": 25000,
-   "ratio": 0.6,
-   "tier": "mega",
-   "hook": "\"Apple has unveiled the iPhone Duo, its first foldable smartphone and one of the biggest changes to the iPhone since its 2007 debut.\n\nStarting at $1,999, the Duo features a 5.4-inch outer screen that unfolds into a 7.6-i",
+   "hook": "\"The new Apple Watch Series 12 and Ultra 4 come not just with better fitness tracking and upgraded noise reduction, but also a whole new way to listen.\n\nApple announced on Wednesday that the two smartwatches come with fo",
    "date": "2026-09-09"
   },
   {
    "page": "wired",
-   "likes": 558,
-   "ratio": 0.54,
+   "likes": 859,
+   "ratio": 0.84,
+   "tier": "mega",
+   "hook": "\"InquiryIQ, a previously unreported prototype, tested a model from xAI, maker of Grok, to surface associates, social accounts, and other information about people identified through Clearview.\n\nInquiryIQ\u2019s interface state",
+   "date": "2026-09-10"
+  },
+  {
+   "page": "wired",
+   "likes": 718,
+   "ratio": 0.7,
    "tier": "mega",
    "hook": "\"The iPhone with a folding screen is the first radical redesign of Apple\u2019s flagship handset in years. The iPhone Duo will cost $1,999 when it arrives in October.\n\nTap the \ud83d\udd17 in bio for more.\".",
    "date": "2026-09-10"
   },
   {
    "page": "wired",
-   "likes": 331,
-   "ratio": 0.32,
+   "likes": 580,
+   "ratio": 0.57,
    "tier": "mega",
-   "hook": "\"Meta needs you to trust its new personal AI agent. \n\nThe company announced Tuesday the release of Muse, which people can message to automate digital tasks in a secure cloud environment, all while relying on security and",
-   "date": "2026-09-08"
+   "hook": "\"The events and aftermath of 9/11 altered almost every aspect of American society: from the ever-present security theater of daily life\u2014the 3.4-ounce liquid bottles at airports, the defensive bollards that now dominate s",
+   "date": "2026-09-11"
   },
   {
-   "page": "mashable",
-   "likes": 304,
-   "ratio": 0.28,
+   "page": "wired",
+   "likes": 500,
+   "ratio": 0.49,
    "tier": "mega",
-   "hook": "\"How Apple lost its cool (And How It Can Get It Back) \ud83e\udd14\u2060\n#apple #iphone #iphone18\u2060\".",
-   "date": "2026-09-08"
+   "hook": "\"In the days after the assassination of conservative activist and Turning Point cofounder Charlie Kirk, the online reaction was a mess. Graphic videos of the shooting were everywhere within minutes of his death, far-righ",
+   "date": "2026-09-10"
   },
   {
-   "page": "mashable",
-   "likes": 71,
-   "ratio": 0.07,
+   "page": "futurism",
+   "likes": 844,
+   "ratio": 0.46,
    "tier": "mega",
-   "hook": "\"Jeremiah Brown didn't leave Love Island USA with a master plan to become a full-time creator. In fact, before entering the villa, his social media presence was relatively sparse: a few book reviews, some funny videos, a",
+   "hook": "\"In an affront to creeps everywhere, Meta has started remotely bricking the smart glasses of wearers who try to secretly record other people.\n\nEarlier this month, the Mark Zuckerberg-led company said it would crack down ",
    "date": "2026-09-09"
+  },
+  {
+   "page": "wired",
+   "likes": 337,
+   "ratio": 0.33,
+   "tier": "mega",
+   "hook": "\"Even if you\u2019re a casual consumer of MS NOW, formerly MSNBC, you know the names: anchors like Chris Hayes, Stephanie Ruhl, and yes, the one and only Rachel Maddow. The network has built a stable of talent who\u2019ve amassed ",
+   "date": "2026-09-10"
+  },
+  {
+   "page": "futurism",
+   "likes": 288,
+   "ratio": 0.16,
+   "tier": "mega",
+   "hook": "\"The surveillance state costs money, people! Well, tell that to president Trump. Last week, he slapped a 100 percent tariff \u2014 he sure loves round numbers and levying imports \u2014 on larger foreign-made drones.\n\nTrump claime",
+   "date": "2026-09-10"
   }
  ],
  "reddit_hot": []
