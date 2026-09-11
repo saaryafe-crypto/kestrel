@@ -1,54 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "CAST TRUTH VIOLATION — the cover shows Elon Musk holding a white blind-person's cane, staging him as the blind rider. Gary Moss is the story's protagonist; Musk has no role in the ride. The vendor-cast exception covers guides where a CEO is cast as a delighted user of their own tool — it does not extend to news stories where the CEO is staged as a fake physical stand-in for a non-famous story subj",
-  "subject": "A BLIND MAN RODE ALONE IN A DRIVERLESS CAR AND SAID <em>'OTHER PEOPLE'S DRIVING SCARES ME, BUT THESE CARS DON'T.'</em>",
-  "t": "2026-09-07T00:11:47Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens story: labor economics and employment history with technology as context, not the subject star an AI/tech news page covers.",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "t": "2026-09-07T00:12:51Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-brand for an AI/tech news page; the underlying event—a search metric crossing a threshold—is routine data without a specific cause, real actor, or consequence someone felt.",
-  "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
-  "t": "2026-09-07T00:12:55Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Pure reaction-bait with no underlying event: the story is that someone tweeted frustration about airline headrest technology, not that any real-world consequence occurred—no product launched, no airline moved, no fact established, and the source doesn't even identify what technology is being discussed.",
-  "subject": "🚨💺 I’m sorry… but is no one going to freak out about that INSANE HEADREST?! You’re telling me this technology exists and",
-  "t": "2026-09-07T00:13:33Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "Slide 6 breaks the cover contract entirely. The cover promises a housing despair data story; slide 6 pivots mid-carousel to a sales pitch for AI lead-response tools targeting real estate professionals ('every anxious buyer is a lead your competitors aren't chasing'). No element of that frame was planted on the cover or any prior slide. The question chain the reader is following — how did despair b",
-  "subject": "MORE PEOPLE ARE GOOGLING 'CAN'T AFFORD A HOME' TODAY <em>THAN AT ANY POINT IN RECORDED HISTORY</em>, INCLUDING 2008",
-  "t": "2026-09-07T00:55:17Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "s1: The background is a raw Google Trends screenshot used full-bleed (UI chrome, nav elements visible), and the slide carries two Google logos simultaneously — the 'G' favicon badge at top and the full 'Google' wordmark in the chart — violating both the Screenshot Law and the Logo Once rule.; s3: A raw Google Trends UI screenshot — including visible dropdown filter buttons ('Categories', 'Web Sear",
-  "subject": "MORE PEOPLE ARE GOOGLING 'CAN'T AFFORD A HOME' TODAY <em>THAN AT ANY POINT IN RECORDED HISTORY</em>, INCLUDING 2008",
-  "t": "2026-09-07T00:58:00Z",
-  "verdict": "FAIL"
- },
- {
-  "t": "2026-09-07T02:09:43Z",
-  "gate": "A",
-  "subject": "BREAKING: Nvidia, $NVDA, CEO Jensen Huang says Artificial General Intelligence (AGI) has arrived.",
-  "verdict": "KILL",
-  "reason": "No substance—entire source is one thin tweet with zero second fact, numbers, or real-world consequence."
- },
- {
   "t": "2026-09-07T02:10:23Z",
   "gate": "A",
   "subject": "Time taken to reach a $1 trillion market cap: Bitcoin: 12 years Meta: 17 years Tesla: 18 years Google: 21 years Amazon: ",
@@ -2098,5 +2049,54 @@
   "subject": "\"Santa Kirk isn't real, they made up Kirkmas to sell generative AI\" okay so explain why the blood transfusion I left out",
   "verdict": "KILL",
   "reason": "One incoherent tweet with no real event, no researchable facts, and no real-world consequence — reaction-bait (people reacting online to something absurd), not a news story."
+ },
+ {
+  "t": "2026-09-11T17:27:50Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
+  "verdict": "KILL",
+  "reason": "The entire sourcing chain is hedged speculation ('reportedly', 'potentially', quotes around 'predictive') with no clear reality-movement; the scout's 4/10 confidence signals the underlying claim itself lacks verification; this reads as reaction to unsubstantiated rumors about future intentions, not a concrete event where reality moved (lawsuit filed, product deployed, public acknowledgment), and resembles the reaction-bait failures that killed the page before."
+ },
+ {
+  "t": "2026-09-11T17:28:48Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Routine satellite-launch announcement lacking consequence, numbers, or story arc—would require padding into a listicle guide, the exact format the owner flagged as the page's #1 content failure."
+ },
+ {
+  "t": "2026-09-11T17:29:33Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
+  "verdict": "KILL",
+  "reason": "Fails INSTANT KILL on no real-world consequence: the alleged system is in development with zero felt impact (no lawsuit filed, no deployment, no user affected), and the entire source is a 190-char retweet of an unconfirmed Prospect claim — not the actual reporting — meaning the writer would pad to fill slides and we cannot meet TRUTH LAW."
+ },
+ {
+  "t": "2026-09-11T17:30:21Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Routine government satellite launch rather than household-name tech breakthrough; while a real first-ever event, lacks the jaw-dropping quality this news page requires to earn a slot."
+ },
+ {
+  "t": "2026-09-11T17:56:22Z",
+  "gate": "B",
+  "subject": "THE COMPANY BEHIND CLAUDE IS BUILDING A TOOL <em>TO ALERT POLICE ABOUT PEOPLE WHO OPPOSE AI</em>",
+  "verdict": "REJECT",
+  "reason": "SLIDE 6 IS FOREIGN CONTENT — the slide headlined 'AI-POWERED CUSTOMER SERVICE REPLIES IN UNDER A MINUTE, WITHOUT ONE NEW HIRE' and its body about 30-second replies, lead follow-up, and appointment booking has zero connection to the Anthropic surveillance story. The CTA slide that follows it ignores it entirely and snaps straight back to the Anthropic narrative. This is a contamination from a diffe"
+ },
+ {
+  "t": "2026-09-11T18:52:11Z",
+  "gate": "B",
+  "subject": "<em>5 AI SCAM TRICKS</em> MOST PEOPLE ONLY LEARN AFTER LOSING MONEY",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-11T18:52:33Z",
+  "gate": "R",
+  "subject": "<em>5 AI SCAM TRICKS</em> MOST PEOPLE ONLY LEARN AFTER LOSING MONEY",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
