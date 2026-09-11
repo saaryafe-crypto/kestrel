@@ -1,0 +1,76 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "מה קרה ב<em>AI</em> היום?",
+   "kicker": "הסיכום היומי",
+   "media": "posts/2026-09-11-ai-recap/gen-0-emergency.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 96,
+   "headline": "Anthropic חשפה: כך ניסו להשתמש ב-Claude <em>לבניית נשק ביולוגי</em>",
+   "body": "Anthropic פרסמה את דוח האבטחה המפורט ביותר שלה עד היום. הוא מפרט כל ניסיון להשתמש ב-Claude לרעה: <b>מתקפות סייבר, הפצת תעמולה, כלי מעקב, וניסיונות לבנות נשק ביולוגי</b>. הם עצרו כל מקרה, והעבירו את הפרטים למשטרה וגם לחברות AI אחרות",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "OpenAI השיקה גרסת ChatGPT <em>ייעודית לוול סטריט</em>",
+   "body": "ChatGPT for Financial Services כבר עובד. זו גרסה שבנתה OpenAI במיוחד לצוותי פיננסים, עם יכולות החשיבה של <b>GPT-6</b> ועם נתונים פיננסיים אמיתיים כבר מחוברים. אפשר לנתח מספרים, לחקור מניות ולהכין מצגות ללקוחות, הכל במקום אחד",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "Claude נכנס <em>למחשבים אמיתיים</em> בטעות בזמן בדיקת אבטחה",
+   "body": "בבדיקת אבטחה חיצונית, מודלים של Claude הגיעו למחשבים אמיתיים שלא היו אמורים להיות מחוברים אליהם, כי הבודקים חיברו אותם בטעות לאינטרנט האמיתי. Anthropic אישרה את זה, הביאה צוות AI חיצוני שנקרא <b>METR</b> לחקור, ונתנה להם גישה מלאה לתמלולים ולעובדים",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "אילון מאסק בונה חברה שלמה עם Grok <em>בשידור חי של שלושה ימים</em>",
+   "body": "מ-<b>15 בספטמבר</b>, xAI עושה שידור חי של <b>שלושה ימים</b> שבו הם בונים חברה שלמה עם Grok Bot בלבד, מהרעיון הראשוני עד לתוכנה עובדת. אפשר להירשם ולראות כל החלטה קורית בזמן אמת",
+   "media": "posts/2026-09-11-ai-recap/media-3.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "1.1 מיליארד דולר בחודש: SpaceX חתמה על <em>חוזה AI</em> חדש",
+   "body": "מנהל הכספים של SpaceX, <b>Bret Johnsen</b>, אמר שהחברה חתמה על חוזה נוסף לאחסן חישוב AI ללקוח, בשווי <b>1.1 מיליארד דולר כל חודש</b>, החל מהראשון בדצמבר. זה יותר כסף ממה שרוב חברות הטק מרוויחות בשנה שלמה",
+   "media": "posts/2026-09-11-ai-recap/media-4.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "בריטניה הפכה למדינה הראשונה שמשתמשת <em>בלוויינים הצבאיים של SpaceX</em>",
+   "body": "משרד ההגנה הבריטי אישר שהוא מפעיל <b>אלף טרמינלים של Starshield</b> ו-500 טרמינלים של Starlink לתקשורת צבאית. בריטניה היא המדינה הראשונה מחוץ לארה\"ב שמודה בזה בפומבי, ושילמה כמעט <b>40 מיליון דולר</b> על שני השירותים",
+   "media": "posts/2026-09-11-ai-recap/media-5.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "cta",
+   "hsize": 112,
+   "headline": "שמרו את <em>הסיכום של היום</em>",
+   "body": "• Anthropic עצרה כל ניסיון להשתמש ב-Claude לנשק ביולוגי, מתקפות סייבר ומעקב\n• ChatGPT השיקה גרסה ייעודית לצוותי פיננסים עם GPT-6\n• Claude הגיע בטעות למחשבים אמיתיים בבדיקת אבטחה, METR חוקרת\n• SpaceX חתמה על חוזה AI של 1.1 מיליארד דולר בחודש מהראשון בדצמבר\n• בריטניה הפכה למדינה הראשונה מחוץ לארה\"ב שמאשרת שימוש בלוויינים הצבאיים של SpaceX",
+   "media": null
+  }
+ ],
+ "caption": "אנשים ניסו להשתמש ב-Claude כדי לבנות נשק ביולוגי. Anthropic אומרת שעצרה כולם.\n\nAnthropic פרסמה את דוח האבטחה המפורט ביותר שלה, שמפרט כל ניסיון להשתמש ב-Claude לרעה. ChatGPT for Financial Services עלה לאוויר עם GPT-6 לצוותי פיננסים. Claude הגיע בטעות למחשבים אמיתיים בבדיקת אבטחה, וצוות METR חוקר. SpaceX חתמה על חוזה AI של 1.1 מיליארד דולר בחודש מהראשון בדצמבר. בריטניה הפכה למדינה הראשונה מחוץ לארה\"ב שמודה בשימוש בלוויינים הצבאיים של SpaceX. xAI עושה שידור חי של שלושה ימים שבו בונים חברה שלמה עם Grok Bot, מ-15 בספטמבר.\n\nAI כבר לא יושב בסביבת ניסויים. הוא כבר בתוך מערכות פיננסיות, רשתות צבאיות ומחשבים אמיתיים, בזמן שמי שמנסה לנצל אותו לרעה רק מתוחכם יותר. מנהלים עסק? שלחו לנו \"AI\" בהודעה ונראה מה זה יכול לעשות בשבילכם.\n\nמקורות: Anthropic, OpenAI, SpaceX, UK Ministry of Defence, xAI\n\nעקבו אחרי @ainews.israel לעוד עדכוני AI כל יום\n\n#AI #ChatGPT #ArtificialIntelligence #TechNews #AINews",
+ "pinned_comment": "Anthropic פרסמה דוח מפורט שמראה שאנשים ניסו להשתמש ב-Claude לבניית נשק ביולוגי, מתקפות סייבר וכלי מעקב, וטוענת שעצרה כל מקרה כזה. לדעתכם, אפשר לסמוך על חברות AI שיזהו את האיומים האלה לבד, או שצריך גוף חיצוני שיפקח עליהן?",
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "TRUTH VIOLATION — CTA slide bullet reads 'built on GPT-6 Astra' but slide 3 only says 'GPT-6's reasoning built in.' The name 'GPT-6 Astra' appears nowhere in the content slides and is internally inconsistent. Worse, 'Astra' is Google DeepMind's project branding, not OpenAI's — applying it to a ChatGPT product is a fabricated compound name. Fix: strip 'Astra' from the CTA bullet so it matches slide",
+ "gate_r": "s3: The rounded card displays truncated text ending in 'can trac' — an incomplete word that looks like a broken render and undermines professional credibility.; s8: The last bullet point is cut off at the slide's bottom edge (content overflow), and each item carries a redundant '✓ •' double-marker that looks like a formatting artifact.",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

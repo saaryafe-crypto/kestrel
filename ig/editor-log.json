@@ -1,13 +1,6 @@
 [
  {
   "gate": "B",
-  "reason": "CAST TRUTH FAIL — HARD REJECT: The cover shows Elon Musk holding a white cane next to a Tesla Cybercab. Musk is not the subject of this story; Gary Moss is. Musk has no role in this post's narrative. A famous face as decoration when that person is not the story's actor is an explicit REJECT under Image Law and Cast Truth rules. The Vendor Cast exception does not apply: this is not a guide teaching",
-  "subject": "A BLIND MAN RODE ALONE IN A DRIVERLESS CAR AND SAID <em>'OTHER PEOPLE'S DRIVING SCARES ME, BUT THESE CARS DON'T.'</em>",
-  "t": "2026-09-07T00:10:05Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
   "reason": "CAST TRUTH VIOLATION — the cover shows Elon Musk holding a white blind-person's cane, staging him as the blind rider. Gary Moss is the story's protagonist; Musk has no role in the ride. The vendor-cast exception covers guides where a CEO is cast as a delighted user of their own tool — it does not extend to news stories where the CEO is staged as a fake physical stand-in for a non-famous story subj",
   "subject": "A BLIND MAN RODE ALONE IN A DRIVERLESS CAR AND SAID <em>'OTHER PEOPLE'S DRIVING SCARES ME, BUT THESE CARS DON'T.'</em>",
   "t": "2026-09-07T00:11:47Z",
@@ -2098,5 +2091,12 @@
   "subject": "5 CHATGPT <em>FINANCE MOVES</em> SO GOOD THEY FEEL ILLEGAL",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-11T12:54:06Z",
+  "gate": "A",
+  "subject": "\"Santa Kirk isn't real, they made up Kirkmas to sell generative AI\" okay so explain why the blood transfusion I left out",
+  "verdict": "KILL",
+  "reason": "One incoherent tweet with no real event, no researchable facts, and no real-world consequence — reaction-bait (people reacting online to something absurd), not a news story."
  }
 ]
