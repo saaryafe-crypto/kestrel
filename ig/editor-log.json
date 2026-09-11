@@ -1,55 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "Off-lens — a constitutional rights ruling unrelated to AI/tech, lacking both a household-name actor and verifiable source details (judge/case/court unnamed), fails this page's NEWS mandate.",
-  "subject": "BREAKING: A US judge has ruled that the US Constitution does not guarantee a right to clean drinking water or accurate i",
-  "t": "2026-09-06T19:01:46Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: 19th-century fashion history lacks the AI, tech, tech-founder, or space focus this lane requires—the goats-example rule applies.",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "t": "2026-09-06T19:02:44Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait: the 'event' is people's searches spiking, not a news event; no person, action, or real-world consequence to build from.",
-  "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
-  "t": "2026-09-06T19:02:55Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: labor/economic narrative with tech as backdrop, not subject; no named event, actors, or figures.",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "t": "2026-09-06T19:03:11Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait masquerading as news: no named lab, no proof AGI was released, no consequence—just commentary on people's lack of reaction.",
-  "subject": "we got AGI and somehow, the world outside X barely seems to care.",
-  "t": "2026-09-06T19:04:13Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "HOOK VIOLATES THE AND RULE: 'LANDED ITSELF FOR THE 600TH TIME, AND THE WHOLE THING RUNS ON ZERO GENERATIVE AI' joins two actions with AND — the doctrine requires one actor, one action, cut the weaker. The 'zero generative AI' angle IS the story's twist and the stronger claim; the hook should lead there and let '600' be the proof detail, not a co-equal sentence half.; SHUFFLE TEST FAILS mid-carouse",
-  "subject": "SPACEX'S ROCKET JUST LANDED ITSELF <em>FOR THE 600TH TIME</em>, AND THE WHOLE THING RUNS ON <em>ZERO GENERATIVE AI</em>",
-  "t": "2026-09-06T19:41:45Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Constitutional ruling on government information rights lacks the AI/tech/company/founder lens this page's brand requires per §1.",
-  "subject": "BREAKING: A US judge has ruled that the US Constitution does not guarantee a right to clean drinking water or accurate i",
-  "t": "2026-09-06T19:47:16Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Google searches are a sentiment indicator, not an event—no real-world consequence (money moved, someone fired, policy changed, lawsuit filed), no actor, and the underlying claim is too thin to expand into slides.",
   "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
   "t": "2026-09-06T19:48:13Z",
@@ -2098,5 +2049,54 @@
   "subject": "NYC BANNED AI FROM <em>600,000 STUDENTS</em>",
   "verdict": "FAIL",
   "reason": "s1: Background contains clearly garbled AI-generated text ('TMESCH', 'AOW', 'Seicno') which fails the PHOTO QUALITY standard for garbled AI text.; s8: The sparkling fireworks light background is purely decorative and proves nothing about the slide's claim (AI tools banned by NYC schools), failing the Receipt Law."
+ },
+ {
+  "t": "2026-09-10T23:03:41Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
+  "verdict": "KILL",
+  "reason": "The story rests entirely on unverified reporting; without confirmation the Prospect actually published this claim about Anthropic's surveillance system, it violates the non-negotiable TRUTH LAW requirement that every fact be true and current."
+ },
+ {
+  "t": "2026-09-10T23:03:44Z",
+  "gate": "A",
+  "subject": "Holy, rumors are spreading everywhere that OpenAI is close to verifying a proof of the Hodge conjecture, while either Op",
+  "verdict": "KILL",
+  "reason": "Rumors about potential future work fail the core story requirement—nothing HAPPENED in the real world with felt consequence; this is reaction-bait (people spreading speculation online), not a confirmed event where reality moved."
+ },
+ {
+  "t": "2026-09-10T23:04:57Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
+  "verdict": "KILL",
+  "reason": "Unverified allegation with no linked source material, no Anthropic response, and only a 190-char tweet to source it; 'reportedly' signals unconfirmed claim that violates TRUTH LAW ('every fact true and current'), and the scout score of 6/10 does not justify investing writing resources in a misinformation-risk story."
+ },
+ {
+  "t": "2026-09-10T23:40:40Z",
+  "gate": "B",
+  "subject": "CLAUDE'S MAKER REPORTEDLY <em>CALLS POLICE ON AI CRITICS</em> BEFORE THEY BREAK ANY LAW",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — GENERATED UNKNOWN FACE: The cover shows an AI-generated unknown man at a surveillance console. The doctrine explicitly bans 'a generated unknown face; never a generated fake face standing in for a real non-famous person.' This story is about Anthropic, a household-name lab with a known CEO. The cover must either show Dario Amodei (real photo or named generation) alongside an Anthropic "
+ },
+ {
+  "t": "2026-09-11T01:08:55Z",
+  "gate": "B",
+  "subject": "5 FREE CHATGPT VOICE TRICKS THAT KILL <em>YOUR $300/HOUR COACHING BILL</em>",
+  "verdict": "REJECT",
+  "reason": "Cover image: the phone screen label reads 'ChatOPT' instead of 'ChatGPT' — the G has been generated as an O. The post's entire premise is ChatGPT voice mode; a misspelled brand name on the cover is a truth violation and a credibility killer. Regenerate the cover with the phone label corrected to 'ChatGPT'."
+ },
+ {
+  "t": "2026-09-11T01:10:49Z",
+  "gate": "B",
+  "subject": "5 FREE CHATGPT VOICE TRICKS THAT KILL <em>YOUR $300/HOUR COACHING BILL</em>",
+  "verdict": "REJECT",
+  "reason": "Cover image phone screen reads 'ChatOPT' — not 'ChatGPT.' The post teaches ChatGPT voice mode, the OpenAI neon logo is correct above, but the product name on the proof element (the phone) is misspelled. Truth law is absolute: the named product must be spelled correctly on every visible element. Fix: regenerate the cover with 'ChatGPT' on the phone screen. Everything else — vendor cast, composition"
+ },
+ {
+  "t": "2026-09-11T01:11:12Z",
+  "gate": "R",
+  "subject": "5 FREE CHATGPT VOICE TRICKS THAT KILL <em>YOUR $300/HOUR COACHING BILL</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

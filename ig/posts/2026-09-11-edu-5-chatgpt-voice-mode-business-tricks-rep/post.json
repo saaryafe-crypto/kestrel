@@ -1,0 +1,98 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 FREE CHATGPT VOICE TRICKS THAT KILL <em>YOUR $300/HOUR COACHING BILL</em>",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-09-11-edu-5-chatgpt-voice-mode-business-tricks-rep/gen-0.jpg",
+   "image_prompt": "Sam Altman at a diner table with both elbows down, white AirPod in ear, phone against coffee mug showing a white ChatGPT voice waveform, the OpenAI logo exactly as in the reference image glowing behind him, huge grin, warm amber light, extremely realistic and shocking."
+  },
+  {
+   "type": "content",
+   "headline": "1) PITCH YOUR STARTUP. <em>AN AI INVESTOR FIRES BACK IN REAL TIME</em>",
+   "hsize": 84,
+   "body": "Say: \"Be a skeptical seed investor. Stop me the moment you are not convinced and push back hard.\"\n\nWhen the questions hit the same spots twice, those are your real gaps.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) DESCRIBE AN ANGRY MESSAGE OUT LOUD. <em>GET THE REPLY IN 2 MINUTES</em>",
+   "hsize": 88,
+   "body": "Say: \"I am going to describe an angry message. Give me a 3-sentence reply that keeps them, names what went wrong, and sounds like a real person.\"\n\nDescribe it out loud. Done.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "$300/HOUR",
+   "hsize": 64,
+   "layout": "break",
+   "body": "That is what a business coach charges per session for exactly what ChatGPT's voice mode does free, at 2am, in your car, while your problem is still fresh.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) PRACTICE SAYING NO <em>WITHOUT LOSING THE CLIENT</em>",
+   "hsize": 96,
+   "body": "Say: \"Play a long-time client I need to turn down. I want to keep the relationship. Push back the way they would push back.\"\n\nHave the conversation out loud. Then make the real call.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) TALK THROUGH <em>THE DECISION YOU KEEP AVOIDING</em>",
+   "hsize": 96,
+   "body": "Say: \"I have a decision I keep avoiding. Do not let me be vague. Ask me the question I am dodging.\"\n\nDrive. Talk. Decide.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) DEBRIEF YOUR LAST SALES CALL. <em>FIND THE 3 MOMENTS YOU MISSED</em>",
+   "hsize": 84,
+   "body": "Say: \"I just got off a sales call. Tell me the three moments where I probably lost ground and what I should have said instead.\"\n\nDo it in the parking lot. Do not wait.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 CHATGPT VOICE TRICKS</em>",
+   "hsize": 100,
+   "body": "1. Investor pitch practice\n2. Angry customer reply\n3. Client 'no' rehearsal\n4. Drive-time decision talk\n5. Sales call debrief\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5. ChatGPT's voice mode does things most business owners are still paying coaches and consultants for \ud83c\udf99\n\nTrick 1 is pitching your startup out loud to a simulated tough investor, Trick 2 is getting a calm word-for-word reply to any angry customer message in under 2 minutes, Trick 3 is practicing saying no to a long-term client without losing them, Trick 4 is talking through a decision you keep avoiding during your commute, Trick 5 is debriefing a sales call the second you hang up and finding the exact moments you lost ground.\n\nMost people type into ChatGPT. The ones using voice mode get something closer to a real thinking partner. The feature is free, built into the app, and takes about 30 seconds to turn on. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: OpenAI\n\n#ChatGPT #AIForBusiness #BusinessOwner #ArtificialIntelligence #AITools",
+ "pinned_comment": "Which of these are you trying first? Trick 5 is the one that surprises people most once they actually use it.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>5 CHATGPT VOICE TRICKS</em> MOST BUSINESS OWNERS NEVER TRY",
+   "<em>5 FREE CHATGPT VOICE CONVERSATIONS</em> THAT REPLACE A $300 COACH",
+   "5 THINGS <em>CHATGPT'S VOICE MODE</em> DOES THAT COACHES CHARGE $300 FOR"
+  ],
+  "scores": [
+   3,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] hits you with FREE, REPLACE, and $300\u2014that 'wait, what?' moment makes you swipe. [2] is polished but expected; everyone knows AI does some coach-like things."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 FREE CHATGPT VOICE TRICKS THAT KILL <em>YOUR $300/HOUR COACHING BILL</em>",
+   "<em>5 FREE CHATGPT VOICE CONVERSATIONS</em> THAT REPLACE A $300 COACH"
+  ],
+  "scores": [
+   8,
+   6
+  ],
+  "winner": 0,
+  "why": "KILL YOUR $300/HOUR BILL with that specific hourly rate hits wallet anxiety harder at 2am than generic REPLACE language. The word TRICKS triggers curiosity about what you're missing; [1]'s plain CONVERSATIONS feels like a feature list, not a wake-up call."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "editor_override": "Cover image phone screen reads 'ChatOPT' \u2014 not 'ChatGPT.' The post teaches ChatGPT voice mode, the OpenAI neon logo is correct above, but the product name on the proof element (the phone) is misspelled. Truth law is absolute: the named product must be spelled correctly on every visible element. Fix: regenerate the cover with 'ChatGPT' on the phone screen. Everything else \u2014 vendor cast, composition",
+ "topic_source": "ignored-pool"
+}
