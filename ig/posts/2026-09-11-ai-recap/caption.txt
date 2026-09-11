@@ -1,0 +1,9 @@
+Swipe ⬅️ to see what happened in AI in the last 24 hours, from people trying to build bioweapons with Claude to ChatGPT landing on Wall Street
+
+Anthropic's biggest security report yet, naming every attempt to weaponize Claude. ChatGPT for Financial Services now live with GPT-6 Astra for finance teams. Claude accidentally gaining access to real systems during a security test, with METR now investigating. SpaceX locked a $1.1B/month AI compute deal starting December. Britain became the first non-US country to publicly confirm using SpaceX's Starshield for military use. xAI livestreaming a 3-day company build with Grok Bot, starting September 15.
+
+AI is no longer confined to sandboxes. It's now inside financial systems, military networks, and real computers, while the people trying to exploit it keep getting more sophisticated. Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: Anthropic, OpenAI, SpaceX, UK Ministry of Defence, xAI
+
+#AI #ChatGPT #ArtificialIntelligence #TechNews #AINews

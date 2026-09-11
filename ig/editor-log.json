@@ -1,40 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Market metric trend, not a story — no actor or company move, off-brand housing data for an AI/tech page, and insufficient substance in one thin tweet to build a carousel.",
-  "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
-  "t": "2026-09-06T22:50:54Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "A famous-actor milestone announcement (SpaceX's 600+ autonomous landings) qualifies under the news rule; the writer's research will verify whether this represents a newly announced record and the achievement's significance.",
-  "subject": "Over 600 autonomous rocket landings so far",
-  "t": "2026-09-06T22:51:35Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "A",
-  "reason": "One person's positive impression of a test drive lacks the substance to sustain a carousel—no announcement, release, record verified, or consequence; the tweet reports only enthusiasm, not a 'reality moved' event, and writer would pad with context to reach viable length.",
-  "subject": "That's a wrap in Austin! Rode in the Cybercab for a total of 5 hours. Still can't believe this thing is real. It really ",
-  "t": "2026-09-06T22:52:48Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "Pattern-break slide (slide 5) carries zero numbers. §4 requires it to hold 'the story's single wildest figure' — a ≤6-word statement or one giant number filling the frame. 'Somewhere a Falcon 9 just parked itself on a ship.' is atmospheric prose, not the required numerical interrupt. Fix: move the wildest figure (600 landings, or the 20-story/thousands-mph physical scale) into slide 5 as the overs",
-  "subject": "ROCKETS HAVE QUIETLY LANDED THEMSELVES <em>OVER 600 TIMES</em> ON A FLOATING SHIP IN THE OCEAN, AND MOST PEOPLE STILL HA",
-  "t": "2026-09-06T23:31:03Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Slide 4 ends settled. 'Your car's autopilot still asks you to grab the wheel.' closes the comparison — it's a complete, satisfied thought. The open-loop law requires the last line of every slide to plant a NAMED gap that the next headline scratches. Nothing here creates a specific itch toward slide 5's '600 LANDINGS. ZERO HUMANS.' Fix: append one short open line, e.g., 'Then someone counted.' or '",
-  "subject": "ROCKETS HAVE QUIETLY LANDED THEMSELVES <em>OVER 600 TIMES</em> ON A FLOATING SHIP IN THE OCEAN, AND MOST PEOPLE STILL HA",
-  "t": "2026-09-06T23:35:02Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "B",
   "reason": "Slide 2 body ends closed — 'The whole time, a rocket was already doing it. On a ship. In the ocean.' delivers the reveal inside the body and plants no open loop for slide 3. The law requires the body's LAST LINE to create a named itch that the next headline scratches. Fix: end slide 2 with a specific gap ('But nobody's asked how') so slide 3's headline is the answer, not a restatement of what slid",
   "subject": "ROCKETS HAVE QUIETLY LANDED THEMSELVES <em>OVER 600 TIMES</em> ON A FLOATING SHIP IN THE OCEAN, AND MOST PEOPLE STILL HA",
@@ -2098,5 +2063,40 @@
   "subject": "5 GEMINI TRICKS THAT <em>REPLACE YOUR BUSINESS CONSULTANT</em> FOR FREE",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-11T06:08:40Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Slide 5 headline ('WHILE YOU SCROLLED, A TEAM DECIDED TO BUILD A COMPANY WITH AI') anchors on 'a team' and 'the SpaceXAI team' — neither is a household name. Hook law requires the actor to be a name everyone knows or a universal noun. If 'SpaceXAI team' is a third-party creator channel rather than SpaceX or xAI itself, this is an unknown brand, and the story is a date-and-spec-sheet preview of a f"
+ },
+ {
+  "t": "2026-09-11T06:12:01Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Slide 3 body fails the Friend Test (§4, Sep 10 order): 'build financial models' and 'create client materials' are finance-industry jargon nobody says out loud. Spoken rewrite: 'Teams can crunch numbers, research stocks, and put together pitches for clients, all in one place.'"
+ },
+ {
+  "t": "2026-09-11T06:14:18Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "TRUTH LAW VIOLATION — Slide 3 calls OpenAI's model 'GPT-6 Astra.' 'Astra' is Google DeepMind's established brand (Project Astra, their multimodal AI assistant); an OpenAI product carrying that name is almost certainly wrong — a confused or fabricated model name. Fix: verify the actual name of the model powering ChatGPT for Financial Services and replace 'GPT-6 Astra's reasoning' with the correct d"
+ },
+ {
+  "t": "2026-09-11T06:17:17Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "TRUTH VIOLATION — CTA slide bullet reads 'built on GPT-6 Astra' but slide 3 only says 'GPT-6's reasoning built in.' The name 'GPT-6 Astra' appears nowhere in the content slides and is internally inconsistent. Worse, 'Astra' is Google DeepMind's project branding, not OpenAI's — applying it to a ChatGPT product is a fabricated compound name. Fix: strip 'Astra' from the CTA bullet so it matches slide"
+ },
+ {
+  "t": "2026-09-11T06:19:13Z",
+  "gate": "R",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "FAIL",
+  "reason": "s3: The rounded card displays truncated text ending in 'can trac' — an incomplete word that looks like a broken render and undermines professional credibility.; s8: The last bullet point is cut off at the slide's bottom edge (content overflow), and each item carries a redundant '✓ •' double-marker that looks like a formatting artifact."
  }
 ]

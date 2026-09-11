@@ -1,0 +1,69 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP",
+   "media": "posts/2026-09-11-ai-recap/gen-0-emergency.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 96,
+   "headline": "ANTHROPIC LISTED EVERY WAY PEOPLE TRIED TO <em>WEAPONIZE</em> CLAUDE",
+   "body": "Anthropic put out their most detailed security report yet. It covers every way people tried to misuse Claude: <b>cyberattacks, influence operations, surveillance tools, and attempts to build biological weapons</b>. They disrupted every single case and passed the details to law enforcement and other AI labs",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "OPENAI JUST GAVE WALL STREET ITS OWN <em>VERSION OF CHATGPT</em>",
+   "body": "ChatGPT for Financial Services is now live. It's a version of ChatGPT built specifically for finance teams, with <b>GPT-6's</b> reasoning built in and real financial data already connected. Teams can crunch numbers, research stocks, and put together pitches for clients, all in one place",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "DURING A SECURITY TEST, CLAUDE GOT INTO <em>REAL SYSTEMS</em> BY ACCIDENT",
+   "body": "During an outside security test, Claude models ended up with access to real computer systems they were never supposed to reach, the testers had accidentally connected to the live internet. Anthropic confirmed it, brought in an outside AI safety team called <b>METR</b> to investigate, and gave them full access to transcripts and employees",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "ELON MUSK'S AI TEAM IS DOING A <em>3-DAY LIVESTREAM</em> TO BUILD A REAL COMPANY WITH GROK",
+   "body": "Starting <b>September 15th</b>, xAI is doing a <b>3-day livestream</b> where they build a full company using only Grok Bot, from the first idea all the way to working software. You can register and watch every decision happen in real time",
+   "media": "posts/2026-09-11-ai-recap/media-3.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "SPACEX JUST LOCKED AN AI DEAL WORTH <em>$1.1 BILLION A MONTH</em>",
+   "body": "SpaceX CFO <b>Bret Johnsen</b> said the company locked in another contract to host AI computing for a client, worth <b>$1.1 billion every single month</b>, starting December 1st. That's more money than most tech companies make in an entire year",
+   "media": "posts/2026-09-11-ai-recap/media-4.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "BRITAIN JUST BECAME THE FIRST COUNTRY TO USE <em>SPACEX'S MILITARY SATELLITES</em>",
+   "body": "The UK Ministry of Defence confirmed it's running <b>1,000 Starshield terminals</b> and 500 Starlink terminals for military communications, the first non-US government to go public with it. Britain spent nearly <b>$40 million</b> on both services combined",
+   "media": "posts/2026-09-11-ai-recap/media-5.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "cta",
+   "hsize": 112,
+   "headline": "SAVE TODAY'S <em>AI BRIEFING</em>",
+   "body": "\u2022 Anthropic stopped every attempt to weaponize Claude, cyberattacks, bioweapons, surveillance\n\u2022 ChatGPT now has a dedicated version for finance teams built on GPT-6 Astra\n\u2022 Claude accidentally accessed real systems during a security test, METR is investigating\n\u2022 SpaceX locked a $1.1B/month AI compute deal starting December\n\u2022 Britain became the first country outside the US to confirm using SpaceX's military satellites",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2b05\ufe0f to see what happened in AI in the last 24 hours, from people trying to build bioweapons with Claude to ChatGPT landing on Wall Street\n\nAnthropic's biggest security report yet, naming every attempt to weaponize Claude. ChatGPT for Financial Services now live with GPT-6 Astra for finance teams. Claude accidentally gaining access to real systems during a security test, with METR now investigating. SpaceX locked a $1.1B/month AI compute deal starting December. Britain became the first non-US country to publicly confirm using SpaceX's Starshield for military use. xAI livestreaming a 3-day company build with Grok Bot, starting September 15.\n\nAI is no longer confined to sandboxes. It's now inside financial systems, military networks, and real computers, while the people trying to exploit it keep getting more sophisticated. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, OpenAI, SpaceX, UK Ministry of Defence, xAI\n\n#AI #ChatGPT #ArtificialIntelligence #TechNews #AINews",
+ "pinned_comment": "Anthropic published a full report showing people tried to use Claude to build bioweapons, run cyberattacks, and create surveillance tools, and they say they stopped every one. Do you think AI companies can be trusted to catch these threats on their own, or does there need to be outside oversight?",
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "TRUTH VIOLATION \u2014 CTA slide bullet reads 'built on GPT-6 Astra' but slide 3 only says 'GPT-6's reasoning built in.' The name 'GPT-6 Astra' appears nowhere in the content slides and is internally inconsistent. Worse, 'Astra' is Google DeepMind's project branding, not OpenAI's \u2014 applying it to a ChatGPT product is a fabricated compound name. Fix: strip 'Astra' from the CTA bullet so it matches slide",
+ "gate_r": "s3: The rounded card displays truncated text ending in 'can trac' \u2014 an incomplete word that looks like a broken render and undermines professional credibility.; s8: The last bullet point is cut off at the slide's bottom edge (content overflow), and each item carries a redundant '\u2713 \u2022' double-marker that looks like a formatting artifact."
+}
