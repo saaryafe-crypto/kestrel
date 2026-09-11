@@ -1,0 +1,95 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 CHATGPT <em>FINANCE MOVES</em> SO GOOD THEY FEEL ILLEGAL",
+   "kicker": "REPLACES $3,000 IN CONSULTANT FEES",
+   "hsize": 68,
+   "face": "Sam Altman",
+   "media": "posts/2026-09-11-edu-5-chatgpt-financial-services-powers-for-/gen-0.jpg",
+   "image_prompt": "Sam Altman with a wide conspiratorial grin at a real Wall Street trading desk, holding a thick printed financial report stamped with a giant red $ toward camera, floor-to-ceiling screens blazing gold and green stock charts behind him, a monitor showing the OpenAI logo exactly as in the reference image on the desk, extremely realistic and shocking."
+  },
+  {
+   "type": "content",
+   "headline": "1) BUILD A FULL <em>FINANCIAL MODEL</em> IN 2 MINUTES",
+   "hsize": 100,
+   "body": "Financial modeling firms charge <b>$2,000 to $5,000</b> to build a 3-year model.\n\nYou type your numbers and ChatGPT for Financial Services returns the whole thing, with real market benchmarks included.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) WRITE A RESEARCH REPORT <em>WITH REAL MARKET DATA</em>",
+   "hsize": 96,
+   "body": "Industry research reports cost <b>$500 to $1,500</b> from a consultant and take a week to arrive.\n\nYou paste your industry name and get a full report in under 10 minutes, with cited sources.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6 WEEKS FROM ZERO",
+   "hsize": 80,
+   "layout": "break",
+   "body": "Most business owners don't know their real cash runway. They find out when the overdraft notice arrives. The next prompt finds it in 3 minutes",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) RUN A <em>CASH FLOW</em> STRESS TEST",
+   "hsize": 100,
+   "body": "Accountants charge <b>$150 to $300 an hour</b> to model cash flow risk.\n\nYou paste your numbers and find the exact week you'd run out of money, and what to do about it.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) MAP YOUR <em>COMPETITOR'S</em> WEAK SPOTS",
+   "hsize": 100,
+   "body": "Competitor analysis firms charge <b>$1,000 to $2,000</b> for a market assessment that takes two weeks.\n\nYou type three names and get a comparison table in minutes, with every pricing gap visible.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD YOUR <em>INVESTOR DECK</em> OUTLINE TONIGHT",
+   "hsize": 100,
+   "body": "Pitch deck consultants charge <b>$3,000 to $7,000</b> to structure a fundraising deck.\n\nYou walk into your next investor meeting with the same outline ready, from one conversation.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 5 CHATGPT FINANCE POWERS</em>",
+   "hsize": 88,
+   "body": "1) Build a financial model\n2) Write a research report\n3) Run a cash flow stress test\n4) Map your competitor's weak spots\n5) Build your investor deck\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all\n5. ChatGPT just launched a finance version with built-in market data, and most businesses haven't found it yet. \ud83d\udd25\n\n1) Build a full financial model in 2 minutes using real market benchmarks,\n2) Write a research report with live cited data in under 10 minutes,\n3) Run a cash flow stress test that shows the exact week you would run out of money,\n4) Map your competitors' pricing gaps and customer complaints in a comparison table,\n5) Build a full investor deck outline for any raise in one conversation.\n\nChatGPT for Financial Services launched today with real financial data and GPT-6 Astra reasoning built in. Tasks that used to require $1,000 to $5,000 in consultant fees now run from the chat window in minutes.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: OpenAI\n\n#chatgpt #artificialintelligence #aibusiness #financialmodeling #aitools",
+ "pinned_comment": "Which one are you trying first? The cash flow stress test on slide 6 finds problems most accountants miss and takes 3 minutes to run.",
+ "hook_tournament": {
+  "candidates": [
+   "CHATGPT'S NEW <em>FINANCE TOOL</em> DOES 5 THINGS TONIGHT"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 CHATGPT <em>FINANCE MOVES</em> SO GOOD THEY FEEL ILLEGAL",
+   "5 CHATGPT FINANCE TRICKS <em>YOUR COMPETITORS</em> ARE ALREADY USING",
+   "CHATGPT'S NEW <em>FINANCE TOOL</em> DOES 5 THINGS TONIGHT",
+   "CHATGPT NOW DOES <em>5 FINANCE TASKS</em> MOST PEOPLE STILL PAY FOR"
+  ],
+  "scores": [
+   8.5,
+   8.0,
+   6.0,
+   7.0
+  ],
+  "winner": 0,
+  "why": "[0]'s 'feel illegal' hits instantly with absurdist humor that makes you stop scrolling, while [1] uses familiar FOMO formulas that land like marketing copy rather than an actual story."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "topic_source": "ignored-pool"
+}

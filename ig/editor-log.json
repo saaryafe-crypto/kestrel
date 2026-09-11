@@ -1,41 +1,6 @@
 [
  {
   "gate": "B",
-  "reason": "Slide 2 body ends closed — 'The whole time, a rocket was already doing it. On a ship. In the ocean.' delivers the reveal inside the body and plants no open loop for slide 3. The law requires the body's LAST LINE to create a named itch that the next headline scratches. Fix: end slide 2 with a specific gap ('But nobody's asked how') so slide 3's headline is the answer, not a restatement of what slid",
-  "subject": "ROCKETS HAVE QUIETLY LANDED THEMSELVES <em>OVER 600 TIMES</em> ON A FLOATING SHIP IN THE OCEAN, AND MOST PEOPLE STILL HA",
-  "t": "2026-09-06T23:37:44Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "scout interest 8/10 — news-first fast lane",
-  "subject": "I lost my sight 5 years ago. Cybercab gave me a glimpse of regaining my independence. — Gary Moss, @DavidMoss 's blind f",
-  "t": "2026-09-06T23:37:53Z",
-  "verdict": "AUTO_APPROVE"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait metric with no established real-world event or consequence — the 'event' is people's reaction (increased searching) absent any stated cause (policy change, price crash, earnings report) or felt consequence (money lost, layoffs, market move).",
-  "subject": "BREAKING 🚨: Housing Market Google Searches for \"Can't Afford Home\" soar to highest level in history, surpassing even the",
-  "t": "2026-09-06T23:39:00Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Personal testimonial, not news—a positive test-drive review without a launch announcement, substantive event, or real-world consequence fails story law.",
-  "subject": "That's a wrap in Austin! Rode in the Cybercab for a total of 5 hours. Still can't believe this thing is real. It really ",
-  "t": "2026-09-06T23:39:23Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "CAST TRUTH FAILURE: The cover shows Elon Musk holding a white cane in front of a Cybercab. Musk is not Gary Moss, is not blind, and is not the person who took the ride. The story's protagonist is Gary Moss — an unknown private individual. The doctrine's vendor-cast exception covers a famous CEO fronting a guide about THEIR OWN TOOL; this is not a guide, it is Gary Moss's personal story. Musk as a ",
-  "subject": "A BLIND MAN RODE ALONE IN A DRIVERLESS CAR AND SAID <em>'OTHER PEOPLE'S DRIVING SCARES ME, BUT THESE CARS DON'T.'</em>",
-  "t": "2026-09-07T00:08:55Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
   "reason": "CAST TRUTH FAIL — HARD REJECT: The cover shows Elon Musk holding a white cane next to a Tesla Cybercab. Musk is not the subject of this story; Gary Moss is. Musk has no role in this post's narrative. A famous face as decoration when that person is not the story's actor is an explicit REJECT under Image Law and Cast Truth rules. The Vendor Cast exception does not apply: this is not a guide teaching",
   "subject": "A BLIND MAN RODE ALONE IN A DRIVERLESS CAR AND SAID <em>'OTHER PEOPLE'S DRIVING SCARES ME, BUT THESE CARS DON'T.'</em>",
   "t": "2026-09-07T00:10:05Z",
@@ -2098,5 +2063,40 @@
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "FAIL",
   "reason": "s3: The rounded card displays truncated text ending in 'can trac' — an incomplete word that looks like a broken render and undermines professional credibility.; s8: The last bullet point is cut off at the slide's bottom edge (content overflow), and each item carries a redundant '✓ •' double-marker that looks like a formatting artifact."
+ },
+ {
+  "t": "2026-09-11T10:08:02Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
+  "verdict": "KILL",
+  "reason": "Unconfirmed reporting of an alleged development project with no verified real-world event where reality moved—fails §1 substance check (thin source material, no second facts, writer would pad), §5 truth law (fact not verified), and cannot establish the underlying EVENT itself is substantial enough to justify thin sourcing."
+ },
+ {
+  "t": "2026-09-11T10:09:55Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
+  "verdict": "KILL",
+  "reason": "Unverified reporting chain (tweet citing external magazine) with double hedge ('reportedly developing') violates TRUTH LAW requirement for confirmed facts; internal development without public implementation has no felt consequence."
+ },
+ {
+  "t": "2026-09-11T10:55:55Z",
+  "gate": "B",
+  "subject": "ANTHROPIC IS REPORTEDLY BUILDING A SYSTEM TO FLAG YOU TO POLICE. <em>NO CRIME REQUIRED.</em>",
+  "verdict": "REJECT",
+  "reason": "SLIDE 6 HEADLINE — FABRICATED PRESENT FACT: 'EVERYONE WHO POSTED AGAINST AI IS ALREADY ON THE LIST' states an active, populated list as current reality. The hook's own 'reportedly' framing means the system is reportedly being *built* — there is no list yet. This is an invented scarcity, a direct §5 violation. Fix: 'ANYONE WHO HAS POSTED AGAINST AI FITS EXACTLY THE PROFILE THIS SYSTEM WAS BUILT FOR"
+ },
+ {
+  "t": "2026-09-11T11:37:02Z",
+  "gate": "B",
+  "subject": "5 CHATGPT <em>FINANCE MOVES</em> SO GOOD THEY FEEL ILLEGAL",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-11T11:37:54Z",
+  "gate": "R",
+  "subject": "5 CHATGPT <em>FINANCE MOVES</em> SO GOOD THEY FEEL ILLEGAL",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
