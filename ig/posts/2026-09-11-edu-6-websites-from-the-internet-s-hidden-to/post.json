@@ -1,0 +1,107 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "6 FREE WEBSITES REPLACING TOOLS <em>YOU STILL PAY FOR</em>",
+   "kicker": "MOST PEOPLE HAVEN'T FOUND HALF OF THESE",
+   "hsize": 72,
+   "media": "posts/2026-09-11-edu-6-websites-from-the-internet-s-hidden-to/gen-0-r.jpg",
+   "image_prompt": "Open red metal toolbox on white table displays six glowing screens with dollar signs, warning triangles, and red crosses in bright daylight, shot from above."
+  },
+  {
+   "type": "content",
+   "headline": "1) USE PHOTOSHOP FOR FREE <em>IN YOUR BROWSER RIGHT NOW</em>",
+   "hsize": 80,
+   "body": "Adobe Photoshop costs <b>$276 a year</b>. Photopea does the same thing for free, in your browser, with no download.\n\nGo to <b>photopea.com</b>. Every tool is there: layers, masks, curves, the clone stamp.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) REMOVE ANY BACKGROUND <em>IN TWO SECONDS FLAT</em>",
+   "hsize": 96,
+   "body": "Product photographers used to spend <b>20 minutes</b> cutting out backgrounds by hand. Remove.bg does it the moment you drop the photo.\n\nGo to <b>remove.bg</b>. Drop your image. Download the PNG instantly.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "12 BILLION ACCOUNTS LEAKED ONLINE.",
+   "hsize": 72,
+   "body": "Most people find out their passwords were stolen months after the damage is done.\n\nGo to <b>haveibeenpwned.com</b>. Type your email. It shows every breach your account appeared in.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) GET ANY RESEARCH QUESTION <em>ANSWERED BY REAL PAPERS</em>",
+   "hsize": 90,
+   "body": "Instead of guessing what the science says, you can type any question and get an answer pulled from real science papers.\n\nGo to <b>consensus.app</b>. Every result links back to the actual paper.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) FIND EVERY SITE <em>USING YOUR PHOTOS WITHOUT PERMISSION</em>",
+   "hsize": 84,
+   "body": "TinEye has indexed over <b>60 billion images</b> to track exactly where your photos appear.\n\nGo to <b>tineye.com</b>. Upload a photo. If someone took your work, this finds them.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "6) DO EVERYTHING TO A PDF <em>WITHOUT PAYING ANYTHING</em>",
+   "hsize": 84,
+   "body": "Adobe Acrobat Pro costs <b>$240 a year</b> to merge, split, compress, and sign PDFs. ILovePDF does all of it free, no account needed.\n\nGo to <b>ilovepdf.com</b>. Done in under a minute.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>YOUR 6-WEBSITE HIDDEN TOOLBOX</em>",
+   "hsize": 96,
+   "body": "Photopea: free Photoshop in your browser\nRemove.bg: backgrounds vanish in 2 seconds\nHaveIBeenPwned: check if your data leaked\nConsensus: research questions answered instantly\nTinEye: find who stole your photos\nILovePDF: every PDF task, free",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to save all six \u2699\ufe0f Six free websites that together replace tools most people pay over $500 for every year.\n\n1) Photopea, the free browser Photoshop that does everything the paid version does,\n2) Remove.bg, which removes any background from a photo in two seconds,\n3) HaveIBeenPwned, which shows every data breach your email has appeared in,\n4) Consensus, which finds peer-reviewed research papers to answer any question you have,\n5) TinEye, which finds every site that has ever used your photos without permission,\n6) ILovePDF, which merges, splits, compresses, converts, and signs PDFs for free with no account needed.\n\nEvery one of these has been free for years. Most people skip them because they don't know they exist, and keep paying for the same jobs every month. None of them ask for an account to get started.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: zakiraicoder\n\n#ai #freetools #productivity #technology #digitaltools",
+ "pinned_comment": "Which one are you bookmarking tonight? Slide 5 (the photo theft finder) catches people off guard every single time.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "6 WEBSITES THAT FEEL LIKE THE <em>INTERNET'S HIDDEN TOOLBOX</em>",
+   "6 WEBSITES HIDING IN PLAIN SIGHT <em>MOST PEOPLE NEVER FIND</em>",
+   "THE <em>INTERNET'S HIDDEN TOOLBOX</em>: 6 WEBSITES MOST PEOPLE MISS",
+   "<em>6 HIDDEN WEBSITES</em> THAT DO THINGS YOU THOUGHT COST MONEY",
+   "<em>6 FREE WEBSITES</em> THE INTERNET IS HIDING FROM YOU"
+  ],
+  "scores": [
+   4,
+   5,
+   5,
+   8,
+   7
+  ],
+  "winner": 3,
+  "why": "[3] gives you the concrete hook\u2014free versions of paid software\u2014so you instantly want to know which specific tools instead of solving a riddle. [4] just says 'free' without explaining the value, making it feel like generic list-bait you've scrolled past a hundred times."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 HIDDEN WEBSITES</em> THAT DO THINGS YOU THOUGHT COST MONEY",
+   "6 FREE WEBSITES <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "6 FREE WEBSITES REPLACING TOOLS <em>YOU STILL PAY FOR</em>",
+   "6 FREE WEBSITES INCLUDING <em>PHOTOSHOP IN YOUR BROWSER</em>"
+  ],
+  "scores": [
+   6,
+   4,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] directly names your pain point (subscriptions you pay for) while [3] only intrigues people who know Photoshop. [2] tells the story completely\u2014replace paid tools\u2014while [3] makes you click to understand the value."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "TOP-TWO-THIRDS LAW VIOLATED: The briefcase \u2014 the story's only proof artifact \u2014 sits in the lower half of the frame. The top 62% of the image is filled with two featureless dark silhouettes and open sky. The law is explicit: 'A photo whose subject sinks into the band zone is a REJECT at selection time, not a crop problem to fix later.' Fix: re-compose so the open toolbox with its six lit compartmen",
+ "gate_r": "s8: ILovePDF (tool 6) is orphaned below the 'SEND THIS TO A FRIEND' CTA button rather than appearing as item 6 in the checklist, breaking the list hierarchy and making the final tool look like an afterthought caption."
+}
