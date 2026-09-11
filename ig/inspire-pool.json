@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11T04:14:12.417321+00:00",
+ "updated": "2026-09-11T18:45:42.342035+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -114,25 +114,6 @@
    "video": null,
    "guide": false,
    "born": 1788462672.085172
-  },
-  {
-   "id": "2087609785541660951",
-   "title": "Un. Real.",
-   "sub": "AJamesMcCarthy",
-   "where": "@AJamesMcCarthy on X",
-   "unit": "likes",
-   "selftext": null,
-   "permalink": "https://x.com/AJamesMcCarthy/status/2087609785541660951",
-   "outlink": null,
-   "score": 38715,
-   "comments_n": 685,
-   "views": 1003049,
-   "age_h": 15.7,
-   "vph": 2465.9,
-   "image": "https://pbs.twimg.com/media/HPiuAuuXEAAgrpF.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1786560086.388657
   },
   {
    "id": "2087672408190677355",
@@ -557,25 +538,6 @@
    "born": 1786807988.572006
   },
   {
-   "id": "2087586063682596905",
-   "title": "Grok 4.6 is objectively #1 when considering intelligence, speed &amp; cost",
-   "sub": "elonmusk",
-   "where": "@elonmusk on X",
-   "unit": "likes",
-   "selftext": "Grok 4.6 is objectively #1 when considering intelligence, speed &amp; cost",
-   "permalink": "https://x.com/elonmusk/status/2087586063682596905",
-   "outlink": null,
-   "score": 12162,
-   "comments_n": 783,
-   "views": 7179234,
-   "age_h": 32.0,
-   "vph": 380.1,
-   "image": "https://pbs.twimg.com/media/HPiYdmfa4AAJASU.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1786554334.377201
-  },
-  {
    "id": "2097866616172421477",
    "title": "@ABC Why are you misleading the public?",
    "sub": "elonmusk",
@@ -612,6 +574,29 @@
    "video": null,
    "guide": false,
    "born": 1788200208.674367
+  },
+  {
+   "id": "2098431473539788892",
+   "title": "JUST IN: Yemen's Houthis used Anthropic's Claude AI to build ballistic missiles.",
+   "sub": "WatcherGuru",
+   "where": "@WatcherGuru on X",
+   "unit": "likes",
+   "selftext": "JUST IN: Yemen's Houthis used Anthropic's Claude AI to build ballistic missiles.",
+   "permalink": "https://x.com/WatcherGuru/status/2098431473539788892",
+   "outlink": null,
+   "score": 11717,
+   "comments_n": 344,
+   "views": 740648,
+   "age_h": 3.4,
+   "vph": 3464.8,
+   "image": "https://pbs.twimg.com/media/HR8gTN1XEAIKzTH.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HR8gTN1XEAIKzTH.jpg",
+    "https://pbs.twimg.com/media/HR8gTOVa4AAr8MK.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1789140102.342035
   },
   {
    "id": "2091118029178552594",
@@ -764,6 +749,28 @@
    "video": null,
    "guide": false,
    "born": 1788267842.324127
+  },
+  {
+   "id": "2098169457914847277",
+   "title": "Next week, the SpaceXAI team will build a company from the ground and livestream it. \u201cWe'll use Grok Bot for every part of the build - from ideation and product development to real engineering work and deployment.\u201d",
+   "sub": "SawyerMerritt",
+   "where": "@SawyerMerritt on X",
+   "unit": "likes",
+   "selftext": "Next week, the SpaceXAI team will build a company from the ground and livestream it. \u201cWe'll use Grok Bot for every part of the build - from ideation and product development to real engineering work and deployment.\u201d",
+   "permalink": "https://x.com/SawyerMerritt/status/2098169457914847277",
+   "outlink": null,
+   "score": 6694,
+   "comments_n": 295,
+   "views": 1265501,
+   "age_h": 20.7,
+   "vph": 322.8,
+   "image": "https://pbs.twimg.com/media/HR4yAFZW0AUjB8l.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HR4yAFZW0AUjB8l.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1789077822.342035
   }
  ]
 }
