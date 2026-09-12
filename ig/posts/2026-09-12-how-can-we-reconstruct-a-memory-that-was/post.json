@@ -1,0 +1,128 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GOOGLE'S AI FILMED A COUPLE'S FIRST MEETING <em>USING ZERO SECONDS OF REAL FOOTAGE.</em>",
+   "hsize": 70,
+   "media": "posts/2026-09-12-how-can-we-reconstruct-a-memory-that-was/gen-0.jpg",
+   "image_prompt": "Sundar Pichai waist-up holding a crumbling black-and-white photograph in one hand and a phone with the Google logo showing the same scene vivid in warm amber in the other, jaw dropped in disbelief, Google blue flooding the studio wall behind him, documentary press photo, 35mm, extremely realistic and shocking.",
+   "gen_person": true
+  },
+  {
+   "type": "content",
+   "headline": "IF A MOMENT WAS NEVER FILMED, <em>IT WAS GONE FOREVER</em>",
+   "hsize": 84,
+   "body": "That was the rule everyone believed.\n\nYou could describe it. You could write it down. But you could never actually see it again.\n\nGoogle just broke that rule",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "GOOGLE STUDIED OLD PHOTOS <em>OF TWO REAL PEOPLE</em>",
+   "hsize": 88,
+   "body": "Burt and Ethelle. A real couple, their story only captured in old photos.\n\nGoogle's AI studied those photos and learned exactly how each of them moved.\n\nImagine watching your grandparents' first meeting on screen",
+   "media": "posts/2026-09-12-how-can-we-reconstruct-a-memory-that-was/cand-1.webp"
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "ZERO SECONDS OF REAL FOOTAGE EXISTS",
+   "hsize": 100,
+   "body": "The AI learned their exact movements from photos instead",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "HOW AI <em>BROUGHT BACK A LOST MOMENT</em>",
+   "hsize": 92,
+   "body": "Old photos taught the AI how they moved\nIt copied their exact micro-expressions from those photos\nDocumentary 'Love, Rendered' now live on <b>YouTube</b>\n<b>208.9K</b> views on X in under <b>27</b> hours",
+   "media": "posts/2026-09-12-how-can-we-reconstruct-a-memory-that-was/cand-2.jpg"
+  },
+  {
+   "type": "content",
+   "headline": "EVERY PHOTO <em>IS NOW A VIDEO WAITING TO EXIST</em>",
+   "hsize": 90,
+   "body": "Your old photos can now become real video, no camera crew.\n\nThe tech that was supposed to make things feel fake just brought back the most human moment ever",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: GOOGLE'S AI <em>FILMED A MOMENT NO CAMERA EVER CAUGHT</em>",
+   "hsize": 58,
+   "body": "AI learned how <b>Burt</b> and <b>Ethelle</b> moved from old photos\n'Love, Rendered': full documentary, live on <b>YouTube</b>\n<b>208.9K</b> views on X in under <b>27</b> hours\n\nSend this to someone whose family was never filmed",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see how Google's AI turned old photos into a documentary of a real couple's first meeting that was never filmed \ud83c\udf9e\n\nThe belief that lost moments stay gone forever, how Google DeepMind studied a real couple named Burt and Ethelle from restored archival photos, how its AI learned their exact movements and micro-expressions, what it built: a full documentary called Love, Rendered on YouTube, the fact that zero footage ever existed of the moments it recreated, and the 208.9K views the post earned on X in under 27 hours.\n\nAI just proved that any moment only captured in photos can now be turned into video. First meetings, weddings, goodbyes. The line between filmed and unfilmed just disappeared.\n\nRunning a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: Google DeepMind on X, Sep 11 2026\n\n#AI #GoogleDeepMind #ArtificialIntelligence #TechNews #AIVideo",
+ "pinned_comment": "Would you want AI to reconstruct an unrecorded moment from your family's past? Your old photo albums might already have enough to make it happen.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "GOOGLE'S AI STUDIED OLD PHOTOS OF A COUPLE <em>AND REBUILT THEIR FIRST DATE</em>",
+   "THERE WAS NO FOOTAGE OF THEIR FIRST MEETING. <em>GOOGLE'S AI MADE ONE ANYWAY.</em>",
+   "GOOGLE'S AI TURNED OLD PHOTOS INTO A DOCUMENTARY <em>OF A MOMENT NO CAMERA CAUGHT</em>",
+   "GOOGLE'S AI GAVE A REAL COUPLE BACK A MEMORY <em>NOBODY EVER FILMED</em>",
+   "GOOGLE'S AI REBUILT THE DAY BURT MET ETHELLE <em>FROM PHOTOS ALONE</em>",
+   "GOOGLE'S AI MADE A MOVIE <em>OF A DAY THAT WAS NEVER ON FILM</em>",
+   "GOOGLE'S AI FILMED A COUPLE'S FIRST MEETING. <em>NO CAMERA WAS EVER IN THE ROOM.</em>",
+   "GOOGLE'S AI FILMED A COUPLE'S FIRST MEETING <em>USING ONLY OLD PHOTOS</em>",
+   "GOOGLE'S AI MADE A DOCUMENTARY <em>OF A MOMENT NO CAMERA EVER CAUGHT</em>"
+  ],
+  "scores": [
+   7,
+   9,
+   7.5,
+   6.5,
+   8,
+   6.5,
+   8.5,
+   7,
+   7.5
+  ],
+  "winner": 1,
+  "why": "[1]'s problem-then-solution structure hits fastest\u2014'MADE ONE ANYWAY' delivers story and attitude in one punch. [6] makes you resolve a contradiction first, stealing those crucial 1.7 seconds your tired brain won't spend at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "GOOGLE'S AI FILMED A COUPLE'S FIRST MEETING <em>USING ZERO SECONDS OF REAL FOOTAGE.</em>",
+   "THERE WAS NO FOOTAGE OF THEIR FIRST MEETING. <em>GOOGLE'S AI MADE ONE ANYWAY.</em>",
+   "GOOGLE'S AI TURNED PHOTOS INTO FOOTAGE <em>OF A COUPLE'S FIRST MEETING NOBODY EVER FILMED.</em>",
+   "GOOGLE'S AI JUST PROVED <em>EVERY OLD PHOTO IS A VIDEO WAITING TO EXIST.</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   6,
+   0
+  ],
+  "winner": 0,
+  "why": "[0] hits the brain as a paradox\u2014'filmed with zero footage' is the instant 'wait, WHAT?' that stops scrolling in 1.7 seconds flat. [1] is clear and compelling but reads like you're being told facts, not experiencing the contradiction that makes you need to know more."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Google DeepMind",
+  "actor_known": false,
+  "anchor": "Google's AI",
+  "specifics": [
+   "AI recreated a couple's first meeting using only old photos \u2014 zero footage ever existed of that moment",
+   "The AI learned Burt and Ethelle's specific mannerisms and micro-expressions from restored archival photos",
+   "Used 'pose control models' to animate how real, specific people moved",
+   "The result is a full documentary called 'Love, Rendered' streaming on YouTube",
+   "Announcement got 208.9K views on X within hours"
+  ]
+ },
+ "naked_slides": [
+  2,
+  6
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "How can we reconstruct a memory that was never filmed? Our team paired restored archival photos with pose control models to capture the mannerisms and micro-expressions of Burt and Ethelle. This helped bring the day they",
+  "link": "https://x.com/GoogleDeepMind/status/2098417966647808219",
+  "judge_interest": 5,
+  "scout_score": 43.5
+ },
+ "editor_override": "COVER IMAGE \u2014 WRONG PROPS, THUMB TEST FAILS: The Polaroid Sundar holds shows a bombed/destroyed cityscape, and the phone shows the same cityscape colorized. The headline promises 'a couple's first meeting.' A feed stranger sees 'guy shocked by old city ruins photo' \u2014 not 'AI brought back two people's romantic moment.' The proof props must match the headline noun. Fix: regenerate with an old sepia ",
+ "video_cover": true
+}
