@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-07T10:48:42Z",
-  "gate": "A",
-  "subject": "Cybercab luggage test. Plenty of room for larger items.",
-  "verdict": "KILL",
-  "reason": "Trivial event—luggage-space observation is a car spec, not a news moment or consequence anyone felt."
- },
- {
   "t": "2026-09-07T10:49:19Z",
   "gate": "A",
   "subject": "I’m back home. All of a sudden my car feels like the past with this steering wheel 😂",
@@ -2098,5 +2091,12 @@
   "subject": "GOOGLE'S AI FILMED A COUPLE'S FIRST MEETING <em>USING ZERO SECONDS OF REAL FOOTAGE.</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-12T20:13:02Z",
+  "gate": "A",
+  "subject": "Yang ngebela Prabowo, MBG, AI, Juicy Luicy, Israel, kita hajar ditempat.",
+  "verdict": "KILL",
+  "reason": "This is a 72-character Indonesian political statement with no event, no consequence, no narrative structure, and no connection to AI/tech news—reaction-bait masquerading as a topic list, unsuitable for a global tech page regardless of scout activity."
  }
 ]
