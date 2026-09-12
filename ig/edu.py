@@ -290,8 +290,12 @@ def main():
     def edu_qa(p):  # shared qa + this container's own gate, one verdict
         e = qa(p)
         for i, s in enumerate(p.get("slides", [])):
+            # `or ""` not a .get default (run 34657081565, Sep 12: a slide
+            # arrived with body EXISTING but null — .get's default never
+            # fires, re.search got None, TypeError killed the EDU_FORCE
+            # floor and the slot shipped NOTHING)
             if re.search(r"(?i)\bhow to:|\bstep \d|\b(open|go to) (chatgpt|claude"
-                         r"|chat\.com|claude\.ai)", s.get("body", "")):
+                         r"|chat\.com|claude\.ai)", s.get("body") or ""):
                 e.append(f"slide {i+1}: app-navigation steps are banned — "
                          "give the self-contained prompt itself, in quotes")
         # COVER HARD CAP made mechanical (Aug 19 post-mortem: two 19-20 word
@@ -394,15 +398,22 @@ def main():
                 (s.get("headline", "") for s in post.get("slides", [])), ""))
             plain_topic = re.sub(r"\s*\[x:[^\]]+\]", "", post.get("topic", ""))
             if is_dupe(f"{plain_topic} — cover: {cover_h}"):
+                # record EVERY dupe, not just guide-tagged ones (run
+                # 34675665678, Sep 12: guide pool was EMPTY, the writer
+                # anchored on news and wrote the SAME already-published
+                # story 3 times in 4 rolls — nothing was recorded, so each
+                # re-roll re-picked the same top headline and the floor
+                # died on the dupe, skipping the slot)
+                used.append(f"(dupe suppressed) {post['topic']}")
+                json.dump(used, open(USED, "w"), indent=1)
                 if real_tag(post.get("topic"), guides):
-                    used.append(f"(dupe suppressed) {post['topic']}")
-                    json.dump(used, open(USED, "w"), indent=1)
                     guides = viral_guides(used)
                 errs.append(
-                    "DUPLICATE POST: this is the same underlying story/guide "
-                    "as one ALREADY PUBLISHED on the page (see ALREADY USED). "
-                    "Pick a DIFFERENT guide from the pool, or a different "
-                    "pillar angle, with a genuinely different promise")
+                    f"DUPLICATE POST: '{plain_topic}' is the same underlying "
+                    "story/guide as one ALREADY PUBLISHED on the page — that "
+                    "exact story is now BANNED (see ALREADY USED). Anchor on "
+                    "a DIFFERENT headline or guide with a genuinely "
+                    "different promise")
                 print("uniqueness gate: post duplicates an already-published "
                       "one — re-rolling", file=sys.stderr)
         if not errs:

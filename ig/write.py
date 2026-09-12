@@ -435,11 +435,18 @@ def simpler_brief(brief, headline, flaw="", mode="simpler"):
                 'scene around the story\'s real actor, its famous logo, or '
                 'faceless humans, and name no unrelated celebrity.')
     else:
+        # NEVER steer toward icon/symbol screens (issue #373, Sep 11: this
+        # task literally said "screens show SYMBOLS only: a $ symbol, a
+        # warning triangle, a red cross" — the rewrite obeyed and the judge
+        # killed the icon still-life 4/10 "concept untransmittable". A
+        # pictogram is text in costume; the owner's no-words law covers it.)
         task = ('Rewrite the brief SIMPLER so the next attempt survives: ONE '
-                'subject, ONE action, ZERO readable text anywhere (screens show '
-                'SYMBOLS only: a $ symbol, a warning triangle, a red cross — '
-                'symbols never garble), no crowds, no close-up hands or faces, '
-                'plainer setting, keep the color key.')
+                'subject, ONE action, ZERO readable text anywhere and ZERO '
+                'icons or pictograms — no $ signs, warning triangles or '
+                'crosses; screens sit at an angle showing only a colorful '
+                'blur of real content, or face away. No crowds, no close-up '
+                'hands or faces, plainer setting, bright daylight, keep the '
+                'color key.')
     try:
         r = call_claude(
             f'An AI image generator produced an UNUSABLE image (artifacts, garbled text, or stock look) from this brief:\n"{brief}"\n{flaw_line}The image must still be evidence for this headline: "{clean}". {task} 15-35 words, subject first. Return ONLY JSON: {{"brief": "..."}}',
@@ -669,7 +676,7 @@ CRAFT (bake into every prompt):
 - EVERY IMAGE UNIQUE + A CURIOSITY ENGINE (owner Aug 1): no two slides in the post may share a composition, angle, or setting — each image is its own scene. IMAGE-CLAIM LOCK (the Reddit post-mortem: slide 2 claimed a 23% stock crash yet showed the same phone-with-logo as the cover): each inner brief's HERO is that slide's OWN claim — the crash slide gets the collapsing red chart line, the payout slide the money, the fallout slide the next victim — never the story's mascot object repeated. And each image is built on viewer psychology: it shows a moment that RAISES a question only the headline (or the next slide) answers — an unresolved instant, a reaction to something just out of frame, stakes mid-collapse. If an image would feel complete without its headline, it's wallpaper — rewrite it.
 - FRAME LAW (owner Aug 14 — "the best pages design the picture FOR the top half; ours look cut in the middle"): the image fills a roughly SQUARE window at the TOP of the slide, and the window's bottom fifth feathers into black under the headline. Compose the scene to read COMPLETE inside that window: subjects WAIST-UP or tighter, faces and the key prop in the UPPER two-thirds, stakes readable without the bottom quarter, nothing essential touching the side edges. NEVER stage full-body figures, tall vertical scenes, or anything that needs legs, feet, or a floor to make sense — if it does, re-stage it tighter (say "waist-up", "close on hands and prop", "tight three-quarter shot"). The finished slide must look like the photo was SHOT for that window, never cropped into it. STAGE IT AS A COMPOSITE (measured from every reference cover, Aug 14 — Elon chest-up + giant Tesla logo disc + memo icon; the MacBook floating over huge "PRO" letters): ONE complete subject — the whole device, the whole prop, the person waist-up — arranged with 1-2 supporting elements (the brand's glowing mark, one story icon) on a COLORFUL, SATURATED backdrop that fades toward the bottom edge; nothing amputated by any edge. A complete object on a vivid backdrop reads designed; a cropped photo reads broken.
 - BANNED looks: purple-teal "AI glow", glowing holograms, circuit-board brains, waxy plastic skin, sci-fi concept art, moody dark murk, dark/dim/shadowy backgrounds, night scenes unless the story is literally about nighttime, white backgrounds, two competing focal points, two emotions. If the brief uses words like "dark", "dim", "shadowy", "night", "vault", "murky", or "tungsten" to describe the background or lighting, REWRITE IT BRIGHTER.
-- BANNED subjects: any invented/generic human face ("a young founder", "an office worker", "a scientist"). Every visible face must be a NAMED famous likeness; everyone else is faceless (behind / silhouette / hands) or absent.
+- BANNED subjects: any invented/generic human face ("a young founder", "an office worker", "a scientist"). Every visible face must be a NAMED famous likeness; everyone else is faceless (behind / silhouette / hands) or absent. Also banned: icon/pictogram still-lifes — screens or tiles showing $ signs, warning triangles, crosses, or any symbol grid (a pictogram is text in costume and reads as garbled UI; show real things happening instead — issue #373 shipped a 4/10 icon toolbox).
 
 Return ONLY JSON: {{"briefs": [{{"idx": <slide index>, "brief": "..."}}]}}"""
     try:
