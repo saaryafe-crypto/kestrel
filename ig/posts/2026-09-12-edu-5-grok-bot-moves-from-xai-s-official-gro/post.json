@@ -1,0 +1,106 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 GROK BOT MOVES THAT <em>BUILT 900 FOLLOWS OVERNIGHT</em>",
+   "kicker": "FROM XAI'S OFFICIAL STARTER GUIDE",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-09-12-edu-5-grok-bot-moves-from-xai-s-official-gro/gen-0-r.jpg",
+   "image_prompt": "Elon Musk in white bathrobe at 3am, shocked delight at phone showing soaring green chart, X and Grok symbols prominently placed, electric green and white aesthetic, minimalist hotel setting, extremely realistic."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>IT HAS ITS OWN COMPUTER</em> IN THE CLOUD",
+   "hsize": 104,
+   "body": "It has a full computer sitting in the cloud: a desktop, files, a browser, a code terminal.\n\nSend it a task from your phone. It finishes the job while you do other things.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>CREATE YOUR FIRST BOT</em> IN 15 MINUTES",
+   "hsize": 104,
+   "body": "XAI SAYS ANYONE CAN HAVE A WORKING BOT IN 10 TO 15 MINUTES, NO CODE.\n\n\"Check my Slack daily and send me a three-line summary every morning.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>SET TRIGGERS</em> SO IT RUNS WITHOUT YOU",
+   "hsize": 104,
+   "body": "YOU DO NOT HAVE TO MESSAGE IT EVERY TIME.\n\n\"Watch for new GitHub commits. When one arrives, pull the change log and post a three-line summary to Slack.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "900 FOLLOWS. ONE BOT. ONE CONTACT LIST.",
+   "hsize": 80,
+   "layout": "break",
+   "body": "<b>He followed 800 to 900 people on X. One Grok Bot pulled their public profiles and turned them into a searchable contact list. Zero copy-paste.</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>GIVE EACH BOT</em> ONE SPECIALIST JOB",
+   "hsize": 106,
+   "body": "YOU SET THIS UP ONCE AND EVERY PROJECT RUNS THE SAME CHAIN AUTOMATICALLY.\n\n\"You are a planning bot. Pull new Slack threads, write a brief, then hand it to the coding bot.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>SHIP SOFTWARE</em> BY DESCRIBING IT IN PLAIN ENGLISH",
+   "hsize": 100,
+   "body": "Grok Bot gathers <b>Slack messages, Notion pages, GitHub history</b>, writes a brief, and hands it to a coding bot.\n\nYou type what you want. The software is there in the morning.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>5 GROK BOT MOVES</em> FROM XAI'S STARTER GUIDE",
+   "hsize": 90,
+   "body": "It has its own cloud computer\nCreate a bot in 15 minutes\nSet it to run without you\nGive each bot one specialist job\nShip software in plain English\n\nAI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through. xAI just released the official Grok Bot 101 guide and five moves inside it change how you think about getting work done. \ud83e\udd16\n\nWhat Grok Bot actually is and why it works nothing like a regular chatbot, how to create your first one in 10 to 15 minutes with plain English, how to set three kinds of triggers so it runs without you sending a message, how the guide's author turned 900 X follows into a private searchable contact list using one bot, how to build teams of specialist bots that hand work to each other, and how to ship working software just by describing what you want.\n\nMost people use AI as a search engine. Grok Bot has its own cloud computer and keeps going after you log off. The contact list got built. Software shipped overnight. People are handing full workflows to bots. Running a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: cb_doge\n\n#GrokBot #xAI #AItools #AIautomation #artificialintelligence",
+ "pinned_comment": "Which one are you trying first? Slide 5 is the one people read twice.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 WAYS YOUR <em>GROK BOT KEEPS WORKING</em> WHILE YOU SLEEP",
+   "5 THINGS <em>GROK BOT HANDLES</em> AFTER YOUR LAPTOP SHUTS",
+   "5 GROK BOT TRICKS <em>RUNNING WHILE YOU SLEEP</em>",
+   "5 THINGS <em>GROK BOT DOES</em> AFTER YOU CLOSE YOUR LAPTOP",
+   "<em>5 GROK BOT MOVES</em> FROM XAI'S OFFICIAL STARTER GUIDE"
+  ],
+  "scores": [
+   8,
+   7,
+   6,
+   6,
+   3
+  ],
+  "winner": 0,
+  "why": "[0] makes you think 'wait, what's it doing?' while [1] just reads as a technical feature. 'Keeps working while you sleep' creates the genuine curiosity that stops a 2am scroller in a way 'handles after laptop shuts' never can."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 GROK BOT MOVES THAT <em>BUILT 900 FOLLOWS OVERNIGHT</em>",
+   "5 FREE GROK BOT MOVES <em>MOST PAID TOOLS CAN'T DO</em>",
+   "5 WAYS YOUR <em>GROK BOT KEEPS WORKING</em> WHILE YOU SLEEP",
+   "5 GROK BOT MOVES THAT <em>START WORKING IN 15 MINUTES</em>"
+  ],
+  "scores": [
+   9,
+   6,
+   3,
+   6.5
+  ],
+  "winner": 0,
+  "why": "900 followers overnight is specific and wild enough to make you stop cold and wonder how it's real. Just promising 15-minute setup without showing what actual payoff you get isn't as stopping."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "Hook misrepresents the core fact \u2014 TRUTH LAW + HOOK LAW: 'BUILT 900 FOLLOWS OVERNIGHT' reads as gaining 900 followers overnight. The actual story (slide 5) is that someone who was already following 800\u2013900 X accounts used a Grok Bot to pull those profiles into a searchable contact list. Gaining followers and organizing an existing follow-list are opposite things. The hook makes a promise the slide",
+ "gate_r": "s1: The cover photo is AI-generated with a wax-figure face and artificially perfect lighting \u2014 it does not meet the real press-photo standard required for a professional news cover."
+}
