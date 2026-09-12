@@ -152,8 +152,10 @@ jobs:
           git add ig/editor-log.json 2>/dev/null || true
           git add ig/culture.json 2>/dev/null || true      # daily culture radar must persist or every run re-pays the refresh
           git commit -m "IG post HE: $POST_NAME" || { echo "nothing to commit"; exit 0; }
-          git pull --rebase --autostash
-          git push || { git pull --rebase --autostash && git push; }  # retry once if a sibling pushed in between
+          # -X theirs: an add/add twin-post conflict must never kill the save
+          # after the publish already happened (EN run 34587074725, Sep 11)
+          git pull --rebase --autostash -X theirs
+          git push || { git pull --rebase --autostash -X theirs && git push; }  # retry once if a sibling pushed in between
 
       - name: Alert on failure (opens a GitHub issue -> email notification)
         if: failure() && env.SKIP != 'true'
