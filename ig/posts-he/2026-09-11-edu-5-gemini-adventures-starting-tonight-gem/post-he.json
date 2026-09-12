@@ -1,0 +1,110 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמישה דברים שGemini עושה <em>במקום יועץ עסקי, בחינם</em>",
+   "kicker": "הכל חינם ואפשר להתחיל עכשיו",
+   "hsize": 72,
+   "face": "Sundar Pichai",
+   "media": "posts/2026-09-11-edu-5-gemini-adventures-starting-tonight-gem/gen-0.jpg",
+   "image_prompt": "Sundar Pichai in a sharp suit grinning wide as he rips a fat blank invoice in half, a laptop with the Gemini diamond symbol on screen open beside him, sunlit glass boardroom, rich blue and white, extremely realistic and shocking."
+  },
+  {
+   "type": "content",
+   "headline": "1) Gemini עושה <em>שלוש שעות מחקר תוך 11 דקות</em>",
+   "hsize": 100,
+   "body": "בעל עסק ביקש מGemini למפות עשרה מתחרים, כולל מחירים, תלונות ופערים שאף אחד בשוק לא מכסה.\n\n<b>תוך 11 דקות קיבל דוח מלא.</b>\n\nמפעילים קודם את <b>Deep Research</b> ב-gemini.google.com.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) מעלים חוזה. <em>Gemini מגלה את הסעיפים שיעלו לך כסף</em>",
+   "hsize": 100,
+   "body": "בעלת עסק העלתה <b>חוזה ספק של 40 עמודים</b>. Gemini מצא <b>שלושה סעיפי חידוש אוטומטי</b> שהיו מוסיפים לה <b>$8,400 בשנה</b> בלי שיודיעו לה בכלל.\n\nגם בחוזים שלך יש כנראה כאלה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) כותבים @Gemini ב-Google Docs. <em>מקבלים הצעה מוכנה ללקוח</em>",
+   "hsize": 100,
+   "body": "ב-<b>Google Docs</b>, כותבים <b>@Gemini</b> בכל מקום במסמך. Gemini קורא את כל הקובץ והופך רשימות גסות להצעה מסודרת ללקוח, בלי לצאת מהמסמך בכלל.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "כל החוזים, המיילים והדוחות שלך בשיחה אחת",
+   "hsize": 80,
+   "body": "מדביקים הכל לGemini ושואלים מה שרוצים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) מצלמים את לוח המחירים של המתחרה. <em>Gemini מספר מה הוא עושה ולמה</em>",
+   "hsize": 100,
+   "body": "בעל חדר כושר צילם את לוח המחירים של המתחרה שלו באינסטגרם. Gemini הסביר שהמתחרה עבר לקהל יקר יותר, ועכשיו פונה ללקוחות שהוא מעולם לא ניסה לגייס.\n\n<b>תוך שבוע הוא שינה את המחירים שלו.</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) בונים צ'אטבוט <em>שעונה ללקוחות בשלוש בלילה, בחינם</em>",
+   "hsize": 100,
+   "body": "<b>Google AI Studio</b> (aistudio.google.com) הוא בחינם לגמרי. מדביקים תיאור של העסק ואת השאלות הנפוצות. Gemini בונה צ'אטבוט שעונה ללקוחות עם המידע שלך, תוך <b>ארבע דקות</b>.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את זה: <em>חמישה דברים שGemini עושה במקום יועץ עסקי, בחינם</em>",
+   "hsize": 90,
+   "body": "1) Deep Research: דוח תוך 11 דקות\n2) חוזה: מוצא עלויות נסתרות\n3) Google Docs: רשימות ← הצעה ללקוח\n4) צילום: מספר מה המתחרה עושה\n5) AI Studio: צ'אטבוט חינמי בשלוש בלילה",
+   "media": null
+  }
+ ],
+ "caption": "יועץ עסקי? Gemini עושה את אותה עבודה בחינם. עוברים על כל חמשת הטריקים הלילה.\n\nמחקר מתחרים שלם, ניתוח חוזים, הצעות ללקוחות, ניתוח אסטרטגיה, וצ'אטבוט שעובד בלילה. הכל דרך Gemini.\n\n1) Deep Research: מבקשים מGemini למפות את המתחרים ומקבלים דוח מלא תוך דקות.\n2) ניתוח חוזים: מעלים PDF ומוצאים את הסעיפים שיכולים לעלות לך כסף בשקט.\n3) הצעות ב-Google Docs: כותבים @Gemini בכל מסמך והופכים רשימות גסות להצעה ללקוח.\n4) צילום מתחרה: מצלמים דף מחירים ומקבלים ניתוח מה המתחרה עושה.\n5) AI Studio: מדביקים תיאור של העסק ב-Google AI Studio ובונים צ'אטבוט שעונה ללקוחות בשלוש בלילה, בחינם.\n\nGemini זוכר הכל בתוך שיחה אחת, גם אם הדבקת לו את כל המסמכים של העסק שלך. רוב כלי ה-AI לא מגיעים לזה. רוב בעלי העסקים עדיין משתמשים בו כמו גוגל. מי שמשתמש בו כמו אנליסט, מתקדם הרבה יותר מהר.\n\nמנהל עסק? שלח לנו הודעה עם המילה \"AI\" ונראה לך מה זה יכול לעשות.\n\nמקורות: Google, justalesky\n\nעוקבים אחרי @ainews.israel\n\n#Gemini #AITools #BusinessAI #ArtificialIntelligence #GoogleAI",
+ "pinned_comment": "באיזה אחד מתחילים? Deep Research בשקופית השנייה הוא הכי פחות בשימוש, ורוב האנשים לא יודעים שהוא לגמרי חינם.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 GEMINI ADVENTURES <em>THAT START YOUR BUSINESS TONIGHT</em>",
+   "<em>GEMINI STARTS YOUR WHOLE BUSINESS</em> OVERNIGHT. 5 WAYS",
+   "5 THINGS GEMINI <em>STARTS FOR YOUR BUSINESS WHILE YOU SLEEP</em>",
+   "5 GEMINI MISSIONS <em>ANYONE CAN START FREE TONIGHT</em>",
+   "5 OVERNIGHT GEMINI ADVENTURES <em>MOST OWNERS HAVEN'T FOUND</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   6,
+   6.5,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] stops your scrolling with an audacious claim ('whole business overnight') that makes you instinctively go 'wait, what?' while [3] is a professionally stacked value prop (free, anyone, tonight) that sounds formulaic. Shock beats structure for stopping power."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 GEMINI TRICKS THAT <em>REPLACE YOUR BUSINESS CONSULTANT</em> FOR FREE",
+   "<em>5 FREE GEMINI TRICKS</em> MOST BUSINESS OWNERS DON'T KNOW EXIST",
+   "<em>GEMINI STARTS YOUR WHOLE BUSINESS</em> OVERNIGHT. 5 WAYS"
+  ],
+  "scores": [
+   8,
+   3,
+   6
+  ],
+  "winner": 0,
+  "why": "[0] makes you swipe because it's bold but believable; [2] sounds fake enough that you'd scroll despite the drama."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

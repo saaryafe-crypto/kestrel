@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-07T03:05:53Z",
-  "gate": "A",
-  "subject": "ELON MUSK: The goal of SpaceX is to make Star Trek real. “We want to make Star Trek real, We want to make Starfleet Acad",
-  "verdict": "KILL",
-  "reason": "Elon expressing SpaceX's long-known aspirational goals is a vibe statement, not a real-world event—no consequence, no new information, no substance to build slides from."
- },
- {
   "t": "2026-09-07T03:49:17Z",
   "gate": "B",
   "subject": "BITCOIN HIT $1 TRILLION IN <em>12 YEARS</em>. APPLE, THE STOCK YOUR PARENTS BOUGHT INSTEAD, NEEDED <em>42</em>.",
@@ -2098,5 +2091,12 @@
   "subject": "Yang ngebela Prabowo, MBG, AI, Juicy Luicy, Israel, kita hajar ditempat.",
   "verdict": "KILL",
   "reason": "No real event—reaction-bait combining unrelated topics (Prabowo, AI, Juicy Luicy, Israel) with no discernible consequence or substance to build from."
+ },
+ {
+  "t": "2026-09-12T16:45:06Z",
+  "gate": "A",
+  "subject": "Yang ngebela Prabowo, MBG, AI, Juicy Luicy, Israel, kita hajar ditempat.",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait with zero substance: a string of disconnected nouns (political name + brands + countries + slang) with no event, no consequence, no action, and no verifiable fact — the writer would have to completely fabricate a narrative, failing the no-substance and no-real-world-happening rules."
  }
 ]
