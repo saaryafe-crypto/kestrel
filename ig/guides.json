@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11T18:45:42.342035+00:00",
+ "updated": "2026-09-12T15:42:10.401757+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -458,37 +458,6 @@
    "born": 1789079172.417321
   },
   {
-   "id": "2087926969333698743",
-   "title": "Less than 48 hours ago, SpaceXAI dropped Grok 4.6. People are already building crazy stuff with it. 10 wild examples:",
-   "sub": "minchoi",
-   "where": "@minchoi on X",
-   "unit": "likes",
-   "selftext": "Less than 48 hours ago, SpaceXAI dropped Grok 4.6. People are already building crazy stuff with it. 10 wild examples:",
-   "permalink": "https://x.com/minchoi/status/2087926969333698743",
-   "outlink": null,
-   "score": 3600,
-   "comments_n": 186,
-   "views": 1101472,
-   "age_h": 36.0,
-   "vph": 100.0,
-   "image": null,
-   "video": null,
-   "guide": true,
-   "thread": [
-    "2. Snowboarding game built from scratch",
-    "1. A complete Unity game... without touching Unity \ud83e\udd2f",
-    "5. Airbus H145 helicopter model recreated in 3D",
-    "4. The Office turned into a living AI simulation \ud83d\ude02",
-    "3. Interactive 3D simulation",
-    "7. Someone built a 4D holographic wedding website \ud83e\udd2f",
-    "6. Grok 4.6 is really impressive at its cost $1.80 vs $4.20 for the same task",
-    "9. Entire 3D world from one prompt",
-    "8. Queen Anne's Revenge recreated in 3D",
-    "10. Sketch to a polished website"
-   ],
-   "born": 1786635694.377201
-  },
-  {
    "id": "2091821230404059309",
    "title": "\ud83d\udea8 BREAKING: Google Gemini can now analyze any stock like a Wall Street analyst (for free). Here are 09 insane Gemini prompts that replace $4,000/month Bloomberg terminals: [ Save for later \ud83d\udd16 ]",
    "sub": "Kawsar_Ai",
@@ -661,6 +630,26 @@
     "@WellsGerbert thank you"
    ],
    "born": 1789001502.342035
+  },
+  {
+   "id": "2098446690806362589",
+   "title": "BREAKING: SpaceXAI has added a new guide called \u201cGrok Bot 101\u201d It explains how to create a personal AI teammate in just 10 to 15 minutes, teach it real workflows, connect apps, and build teams of specialized bots that co",
+   "sub": "cb_doge",
+   "where": "@cb_doge on X",
+   "unit": "likes",
+   "selftext": "BREAKING: SpaceXAI has added a new guide called \u201cGrok Bot 101\u201d It explains how to create a personal AI teammate in just 10 to 15 minutes, teach it real workflows, connect apps, and build teams of specialized bots that continue working in the cloud even after you close your laptop. Here is the full guide in simple terms: \u2022 What is Grok Bot Grok Bot is an AI agent with its own persistent computer in the cloud. It has a desktop, files, terminal, browser, and apps. It can browse the web, use software, write and run code, and complete tasks just like someone using a computer. You can access the same computer from your phone or desktop. When needed, Grok Bot can hand control back to you for a CAPTCHA, 2FA, or secure login. \u2022 Creating a bot Give the bot a name, title, and detailed instructions. You can explain the workflow through chat or record yourself completing the task. Once trained, the bot can repeat that workflow whenever needed. It can also use MCP servers, plugins, skills, and connected services such as Gmail, Google Calendar, Google Drive, and Slack. \u2022 Three ways to use Grok Bot Send it a message in chat. Create schedules or triggers, such as monitoring a Slack thread or GitHub PR. Allow bots to message and activate other bots. \u2022 Permissions and safety You can write rules in normal language explaining what the bot can and cannot do. A separate review agent checks proposed actions and can allow them, block them, or ask you for approval. Allow and block lists provide additional control, while the work runs inside an isolated environment. One important detail: if you log into a website with one bot, other bots using that shared cloud computer can also access it. \u2022 Multi-bot teams You can create specialist bots for different jobs and let them work together. One bot can ask another for help, several bots can work inside a group chat, and a scheduled routine can move a task through multiple specialists until the work is finished. \u2022 Personal CRM The author created a bot that turned the 800 to 900 people he follows on X into a private Notion CRM containing public profile information. It helps him find and reconnect with people when traveling. \u2022 Arnold, the fitness bot He replaced a complicated fitness app with a Grok Bot strength-training coach named Arnold. The bot uses MCP servers, plugins, and skills while requiring less maintenance. Its behavior can be updated simply by chatting with it. \u2022 Building software Grok Bot gathers information from Slack, Notion, GitHub, documentation, and other sources. It then creates a clean prompt and sends it to a specialized Cursor cloud agent that builds the software. Grok Bot handles the planning and coordination, while the coding agent handles the actual build. \u2022 Searching company knowledge Grok Bot can search across codebases, Slack conversations, Notion pages, GitHub, and internal documents to answer product or company questions. This helps people find information faster and reduces the need to interrupt coworkers. \u2022 The biggest takeaway Instead of repeatedly building scripts or complicated apps, you can describe a workflow to Grok Bot, improve it through chat, reuse it, and let it continue working in the cloud. Grok Bot is not just another chatbot. It is a real AI teammate with a computer that can use tools, coordinate specialists, and get actual work done. The future of work is becoming incredibly exciting.",
+   "permalink": "https://x.com/cb_doge/status/2098446690806362589",
+   "outlink": null,
+   "score": 2468,
+   "comments_n": 106,
+   "views": 111380,
+   "age_h": 23.3,
+   "vph": 105.9,
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2098446662767415296/img/JPpJGXKq7KgULMlE.jpg",
+   "images": [],
+   "video": "https://video.twimg.com/amplify_video/2098446662767415296/vid/avc1/1164x1080/CdVROoc-DYybXpzg.mp4?tag=29",
+   "guide": true,
+   "born": 1789143850.401757
   },
   {
    "id": "2094996936336031976",
@@ -871,6 +860,30 @@
     "@coldcaseloveeee I couldn\u2019t get over that\ud83d\udc80\ud83d\udc80"
    ],
    "born": 1788815904.878879
+  },
+  {
+   "id": "2097763235302662383",
+   "title": "Grok just learned how to Coinbase.",
+   "sub": "coinbase",
+   "where": "@coinbase on X",
+   "unit": "likes",
+   "selftext": "Grok just learned how to Coinbase.",
+   "permalink": "https://x.com/coinbase/status/2097763235302662383",
+   "outlink": null,
+   "score": 2057,
+   "comments_n": 190,
+   "views": 271750,
+   "age_h": 68.6,
+   "vph": 30.0,
+   "image": null,
+   "images": [],
+   "video": null,
+   "guide": true,
+   "wide_guide": true,
+   "thread": [
+    "Legal stuff: Informational only; not investment advice or recommendation. Trading involves risk of total loss. AI agents may fail. You direct all AI activity and assume full responsibility for your agent's trades and any third-party data use."
+   ],
+   "born": 1788980770.401757
   },
   {
    "id": "2092120477502460231",
