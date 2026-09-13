@@ -1,0 +1,114 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SAM ALTMAN JUST TOLD ANTHROPIC'S CEO <em>'I AGREE' ABOUT SLOWING DOWN AI</em>",
+   "kicker": "13 MILLION PEOPLE SAW IT HAPPEN",
+   "hsize": 72,
+   "media": "posts/2026-09-13-i-agree-with-dario-that-we-need-to-pace-/gen-0-r-r.jpg",
+   "image_prompt": "Sam Altman and Dario Amodei clasp hands across vivid orange-lit table mid-pact, faces brightly lit and clear, fierce rivals shocked by agreement, empty background, symbols only, extremely photorealistic and shocking.",
+   "gen_person": true
+  },
+  {
+   "type": "content",
+   "headline": "NOBODY PUT THESE TWO <em>ON THE SAME TEAM</em>",
+   "hsize": 84,
+   "body": "OpenAI and Anthropic were supposed to be racing each other. Your whole picture of AI was built around these two being enemies.\n\nThen Anthropic's CEO published an essay that changed the rules.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "BOTH LABS AGREED TO HAND OUTSIDERS <em>PERMANENT EMPLOYEE-LEVEL ACCESS</em>",
+   "hsize": 80,
+   "body": "On <b>September 12</b>, Dario Amodei published 'We Must Pace the Frontier': a call to slow the AI race and give outsiders permanent, employee-level access.\n\nSam Altman read every word of it.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "ALTMAN REPLIED: 'I AGREE'",
+   "hsize": 110,
+   "body": "<b>13.2 million</b> people read those two words",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "EVERY AI LAB JUST GOT <em>A QUESTION THEY CAN'T IGNORE</em>",
+   "hsize": 84,
+   "body": "You've watched these two companies race to build AI faster than anyone thought possible.\n\nIf the biggest labs stop racing, the rest have to answer why they're still running.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "BOTH LABS JUST LOCKED IN <em>PERMANENT OVERSIGHT</em>",
+   "hsize": 84,
+   "body": "<b>Sep 12</b>: Amodei's essay called for a slowdown\nAltman replied publicly: '<b>I agree</b>'\nAltman: OpenAI had the same plan for <b>weeks</b>\n<b>2</b> labs now allow permanent outside access",
+   "media": "posts/2026-09-13-i-agree-with-dario-that-we-need-to-pace-/cand-1.webp"
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: SAM ALTMAN <em>AGREED TO SLOW DOWN AI</em>",
+   "hsize": 58,
+   "body": "\u2022 Anthropic's CEO called for a slowdown\n\u2022 Altman replied 'I agree' for <b>13.2M</b> to see\n\u2022 Both labs committed to permanent outside oversight\n\nSend this to whoever thinks AI is only going faster",
+   "face": "sam-altman-3",
+   "media": null
+  }
+ ],
+ "caption": "Swipe to see the two biggest names in AI publicly agree to slow down the race they both started.\n\nSam Altman agreeing with Dario Amodei on AI pacing, Anthropic's 'We Must Pace the Frontier' essay, why OpenAI and Anthropic were expected to race each other, what permanent employee-level outside access actually means, Altman's public 'I agree' reply and its 13.2 million views, the pressure every other AI lab now faces, and what this stability signal means for businesses building on AI tools today.\n\nThe two people who launched the AI race just publicly called for slowing it down. That changes what every other lab must answer for, and signals that the AI tools businesses are building on today are here to stay.\n\nRunning a business? DM us 'AI' and we'll show you what this means for yours.\n\nSources: Sam Altman on X (Sep 12, 2026), Dario Amodei, 'We Must Pace the Frontier'\n\n#artificialintelligence #openai #anthropic #airegulation #technews",
+ "pinned_comment": "The wild part: Altman said slowing down has been a primary topic at OpenAI for weeks already. They were planning this before Dario even published the essay.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "SAM ALTMAN AGREED WITH ANTHROPIC <em>THAT THE AI RACE NEEDS TO SLOW DOWN</em>",
+   "SAM ALTMAN JUST TOLD ANTHROPIC'S CEO <em>'I AGREE' ABOUT SLOWING DOWN AI</em>"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "Candidate 1 uses 'JUST TOLD' and the direct quote 'I AGREE' to create urgency and feel like breaking news between rivals. Candidate 0 sounds corporate and flat despite being equally factual."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "SAM ALTMAN JUST SIDED WITH <em>HIS BIGGEST RIVAL</em> ON SLOWING DOWN AI",
+   "SAM ALTMAN JUST TOLD ANTHROPIC'S CEO <em>'I AGREE' ABOUT SLOWING DOWN AI</em>"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "'I AGREE' gives you concrete proof of what he said. Naming the CEO with the exact quote beats a vague story about rivals agreeing."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Sam Altman / OpenAI",
+  "actor_known": true,
+  "anchor": "ChatGPT",
+  "specifics": [
+   "Sam Altman publicly told his biggest rival 'I agree' about slowing down AI \u2014 on Twitter, in front of 13.2M viewers",
+   "Both companies promised to hand outsiders permanent, employee-level internal access to watch their AI work",
+   "Dario Amodei published an essay called 'We Must Pace the Frontier' calling for an industry slowdown",
+   "Altman says slowing down has been a 'primary topic' at OpenAI 'in recent weeks'",
+   "The tweet hit 58K likes and 13.2M views within hours"
+  ]
+ },
+ "naked_slides": [
+  2,
+  3,
+  5
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we've had at OpenAI in recent weeks. Committing to having independent evaluators with employee-like access is a great ide",
+  "link": "https://x.com/sama/status/2098811563415150910",
+  "judge_interest": 6,
+  "scout_score": 135.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Cover image archetype mismatch: arm-wrestling communicates rivalry and competition \u2014 the exact opposite of the story's premise. A stranger seeing this at feed size for 1.7 seconds guesses 'feud story,' not 'surprise agreement.' The headline says 'I AGREE'; the image screams 'I WILL CRUSH YOU.' Fix: replace with an image that proves the agreement moment \u2014 a handshake composite between the two faces",
+ "gate_r": "s7: Every bullet line renders a checkmark AND a stray '\u2022' dot (e.g. '\u2713 \u2022 Anthropic's CEO\u2026'), a broken-formatting artifact that must be stripped to one prefix per line."
+}

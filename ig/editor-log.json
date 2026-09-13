@@ -1,89 +1,5 @@
 [
  {
-  "t": "2026-09-07T19:36:03Z",
-  "gate": "A",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "verdict": "KILL",
-  "reason": "Unknown actor (@venturetwins), 48-character source that repeats only the headline, describing routine AI tool usage with no consequence, numbers, or detail—not reality moving."
- },
- {
-  "t": "2026-09-07T19:36:33Z",
-  "gate": "A",
-  "subject": "JUST IN: 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack. The hacker is now communicating with ",
-  "verdict": "APPROVE",
-  "reason": "A $320M cryptocurrency hack where the hacker communicates through blockchain and promises to return the funds is a real news event with substance and unusual story potential—not reaction-bait—and killing legitimate stories exacerbates the page's documented listicle repetition problem."
- },
- {
-  "t": "2026-09-07T20:09:49Z",
-  "gate": "B",
-  "subject": "TESLA'S CYBERCAB LINE JUST ROLLED OFF ONE COMPLETE CAR EVERY 10 SECONDS, <em>ITS OWN MODEL Y TAKES THREE TIMES AS LONG</",
-  "verdict": "REJECT",
-  "reason": "Slide 3 pre-spends slide 4's only fact. Slide 3 already states 'Goal: 5 seconds, 12 cars per minute' as a bullet. Slide 4's entire content is then 'headline: 12 CARS PER MINUTE / body: Tesla's 5-second goal.' The big-number pattern-break lands flat because the reader already knows the number. Fix: strip the goal-speed bullet from slide 3's list so slide 4 is a genuine reveal. This also restores th"
- },
- {
-  "t": "2026-09-07T20:11:49Z",
-  "gate": "B",
-  "subject": "TESLA'S CYBERCAB LINE JUST ROLLED OFF ONE COMPLETE CAR EVERY 10 SECONDS, <em>ITS OWN MODEL Y TAKES THREE TIMES AS LONG</",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — CGI elements: the factory production-line background and the circular Cybercab inset both read as 3D renders/CGI, not photographed elements. The doctrine requires every element in the frame to read as photographed; a generated render of a factory violates this even inside a composite. Fix: source real launch-event footage/photography of the Cybercab line for the background and inset.; "
- },
- {
-  "t": "2026-09-07T20:15:09Z",
-  "gate": "B",
-  "subject": "TESLA'S CYBERCAB LINE JUST ROLLED OFF ONE COMPLETE CAR EVERY 10 SECONDS, <em>ITS OWN MODEL Y TAKES THREE TIMES AS LONG</",
-  "verdict": "REJECT",
-  "reason": "Cover image photoreal violation: the factory background — yellow robotic arms and the Cybercab cars on the production line — reads as CGI/3D render, not photographed. The law requires every element in the frame to read as photographed. The composite concept, archetype (famous CEO + brand mark + product), and furniture (label chips, circular inset) are all correct; fix by replacing the background w"
- },
- {
-  "t": "2026-09-07T20:15:51Z",
-  "gate": "A",
-  "subject": "JUST IN: 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack. The hacker is now communicating with ",
-  "verdict": "KILL",
-  "reason": "The event is real but the actor fails: anonymous hacker + Liquid Network (unknown brand) violate the famous-actor requirement; the page covers AI/tech news from household-name labs (OpenAI tier), not crypto protocol hacks."
- },
- {
-  "t": "2026-09-07T20:16:05Z",
-  "gate": "A",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "verdict": "KILL",
-  "reason": "Routine personal AI usage with a 48-character source containing no substance; the writer would have to pad to fill slides."
- },
- {
-  "t": "2026-09-07T20:17:02Z",
-  "gate": "A",
-  "subject": "If those 400,000 GPUs are Rubin, NVIDIA’s published NVFP4 specs imply roughly 14× the theoretical peak training performa",
-  "verdict": "KILL",
-  "reason": "Technical speculation from an unknown analyst on hypothetical GPU deployments lacks a confirmed real-world event and qualifies as routine analyst-opinion content, banned under STORY LAW §1."
- },
- {
-  "t": "2026-09-07T20:17:06Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Labor-economics commentary spanning 20-30 years with no specific event, no named actor, no numbers—off-lens per §1 (a history-and-labor fact that mentions technology as the backdrop or defeated party, not the star; goats-on-Etna precedent applies)."
- },
- {
-  "t": "2026-09-07T20:17:56Z",
-  "gate": "A",
-  "subject": "The US AI infrastructure boom is making history. There are now ~90 US data centers with more than 100 megawatts (MW) of ",
-  "verdict": "KILL",
-  "reason": "No event occurred; this is corporate infrastructure trend analysis and projections, which is exactly the 'on-topic but routine' content the owner flagged as the page's #1 content failure."
- },
- {
-  "t": "2026-09-07T20:58:20Z",
-  "gate": "B",
-  "subject": "A BITCOIN HACKER DRAINED <em>$320 MILLION</em> AND LEFT A NOTE IN THE BLOCKCHAIN: <em>FIX THE BUG AND YOU'LL GET IT BACK",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — PHOTOREAL VIOLATION: The cover is built entirely from 3D-CGI rendered elements — the split Bitcoin coin, the neon red crack, and the scattered coins all read as game-render / AI-generated composites, not as photographed objects. The doctrine is hard: 'any element that reads as… game render… is a REJECT, whatever its concept.' Fix: rebuild with a real photographed physical Bitcoin comme"
- },
- {
-  "t": "2026-09-07T21:00:32Z",
-  "gate": "A",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "verdict": "KILL",
-  "reason": "Trivial event (routine AI tool usage), unknown actor, and no substance—the 48-character source offers no fact, number, or consequence."
- },
- {
   "t": "2026-09-07T21:02:06Z",
   "gate": "A",
   "subject": "The US AI infrastructure boom is making history. There are now ~90 US data centers with more than 100 megawatts (MW) of ",
@@ -2098,5 +2014,89 @@
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "FAIL",
   "reason": "s3: The upper half of the slide is a raw, fully legible screenshot of the bill's legislative text used as a full-bleed background rather than framed in a rounded card, violating the Screenshot Law.; s7: Each bullet item has both a checkmark design element and a literal '•' bullet character visible together (e.g., '✓ • AI agents…'), which is broken/doubled formatting that reads as a production erro"
+ },
+ {
+  "t": "2026-09-13T10:41:41Z",
+  "gate": "A",
+  "subject": "I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we've had at OpenAI i",
+  "verdict": "KILL",
+  "reason": "No substance: the source is a thin policy commitment with zero real-world consequence, numbers, or implementable detail—just 'we will do this, more to share soon'—and a writer would have to manufacture slides from a teaser. The event itself is trivial (a company promise, not a move); nothing happened yet."
+ },
+ {
+  "t": "2026-09-13T10:42:09Z",
+  "gate": "A",
+  "subject": "OpenAI just killed the awkward voice-agent pause. GPT-Live-1 listens + talks at the same time, handles interruptions, an",
+  "verdict": "APPROVE",
+  "reason": "OpenAI released a voice agent feature (real-time interruptions) — a household-name product release qualifies as NEWS per §1 despite the thin announcement tweet."
+ },
+ {
+  "t": "2026-09-13T10:42:15Z",
+  "gate": "A",
+  "subject": "Rumors are spreading like a wildfire that Google DeepMind has reached RSI. Lyra is part of the reliable and huge leaker ",
+  "verdict": "KILL",
+  "reason": "Speculative sourcing ('rumors spreading') and undefined subject (what is RSI, why does this pivot matter?) leave readers without the clarity needed to understand significance or consequence—too vague to build a post someone would send to a friend."
+ },
+ {
+  "t": "2026-09-13T10:42:18Z",
+  "gate": "A",
+  "subject": "JUST IN: OpenAI CEO Sam Altman backs Anthropic CEO Dario Amodei's call for the AI industry to slow down development.",
+  "verdict": "KILL",
+  "reason": "Just CEOs expressing agreement on development pace with no policy change, action, or real-world consequence."
+ },
+ {
+  "t": "2026-09-13T11:09:21Z",
+  "gate": "B",
+  "subject": "OPENAI'S VOICE AI TALKS AND LISTENS AT ONCE <em>FOR $3 AN HOUR</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 5 ends settled — 'You hang up with your problem solved' closes the scene with no named open loop into slide 6. The doctrine requires every non-final slide's last line to plant a specific itch. Fix: end slide 5 with a forward tension line, e.g. 'Then the bill came in.'; Slide 6 body repeats facts already established in slides 3–5: 'handles real back-and-forth' is shown in slide 5's scene; 'so"
+ },
+ {
+  "t": "2026-09-13T11:11:41Z",
+  "gate": "A",
+  "subject": "Rumors are spreading like a wildfire that Google DeepMind has reached RSI. Lyra is part of the reliable and huge leaker ",
+  "verdict": "KILL",
+  "reason": "Rumor-structured story with no confirmed real move—lacks concrete organizational change, announcement, or consequence to build slides from."
+ },
+ {
+  "t": "2026-09-13T11:12:22Z",
+  "gate": "A",
+  "subject": "JUST IN: OpenAI CEO Sam Altman backs Anthropic CEO Dario Amodei's call for the AI industry to slow down development.",
+  "verdict": "KILL",
+  "reason": "No substance — entire source is one statement with no second fact, numbers, or consequence to build from; two CEOs expressing agreement generates nothing to build slides without padding."
+ },
+ {
+  "t": "2026-09-13T11:54:11Z",
+  "gate": "B",
+  "subject": "SAM ALTMAN JUST SIDED WITH HIS BIGGEST RIVAL: <em>AI IS MOVING TOO FAST</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 6 headline ('1.1 MILLION PEOPLE SAW THIS IN HOURS. YOUR COMPETITORS DID TOO.') uses a view count as the payoff — §2 bans engagement metrics 'in any hook', and every inner-slide headline is a hook. The number is also unverifiable from the source material; if fabricated it is a §5 Truth Law violation. Fix: replace with the real-world consequence this creates, e.g. 'EVERY AI STARTUP IS NOW BEIN"
+ },
+ {
+  "t": "2026-09-13T11:55:38Z",
+  "gate": "A",
+  "subject": "Rumors are spreading like a wildfire that Google DeepMind has reached RSI. Lyra is part of the reliable and huge leaker ",
+  "verdict": "KILL",
+  "reason": "Strategic internal reorganization framed on leaker rumors—no clear major-move event (model released, lawsuit filed, CEO change, funding move) matching STORY LAW's qualified categories; 4/10 scout interest with no exceptional reason to override."
+ },
+ {
+  "t": "2026-09-13T11:55:50Z",
+  "gate": "A",
+  "subject": "I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we've had at OpenAI i",
+  "verdict": "KILL",
+  "reason": "This is a policy preview without substance or completed event—Sam saying 'we'll implement evaluators, details coming soon' is the empty-preview case the doctrine explicitly bans, not a jaw-dropping story."
+ },
+ {
+  "t": "2026-09-13T12:37:33Z",
+  "gate": "B",
+  "subject": "SAM ALTMAN JUST TOLD ANTHROPIC'S CEO <em>'I AGREE' ABOUT SLOWING DOWN AI</em>",
+  "verdict": "REJECT",
+  "reason": "Cover image archetype mismatch: arm-wrestling communicates rivalry and competition — the exact opposite of the story's premise. A stranger seeing this at feed size for 1.7 seconds guesses 'feud story,' not 'surprise agreement.' The headline says 'I AGREE'; the image screams 'I WILL CRUSH YOU.' Fix: replace with an image that proves the agreement moment — a handshake composite between the two faces"
+ },
+ {
+  "t": "2026-09-13T12:39:17Z",
+  "gate": "R",
+  "subject": "SAM ALTMAN JUST TOLD ANTHROPIC'S CEO <em>'I AGREE' ABOUT SLOWING DOWN AI</em>",
+  "verdict": "FAIL",
+  "reason": "s7: Every bullet line renders a checkmark AND a stray '•' dot (e.g. '✓ • Anthropic's CEO…'), a broken-formatting artifact that must be stripped to one prefix per line."
  }
 ]
