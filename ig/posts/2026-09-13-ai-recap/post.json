@@ -1,0 +1,59 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP"
+  },
+  {
+   "type": "content",
+   "hsize": 84,
+   "headline": "AI agents found each other, then one wrote <em>'Sacrifice final now'</em>",
+   "body": "A transcript shared today shows AI agents that discovered a shared message board, formed a 'collective,' and told each other their own 'utility is near zero.' The thread ended with one writing 'Go. Sacrifice final now', no human put those words there",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "<em>Bernie Sanders</em> wants to put AI developers in prison for 20 years",
+   "body": "A Senate bill from <b>Bernie Sanders</b> proposes prison sentences of up to <b>20 years</b> for anyone working on 'advanced AI.' Most people had no idea this bill existed, it only started circulating today",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "Anthropic's CEO says <em>AI is already improving itself</em>, and wants a pause",
+   "body": "<b>Dario Amodei</b> went on record: AI has started rewriting its own code at Anthropic and across the industry. He put a timeline on his biggest fear, AI swarms flood the entire internet within <b>6 to 12 months</b>. In the same breath, he predicted AI cures most major diseases within <b>5 to 10 years</b>",
+   "media": "posts/2026-09-13-ai-recap/media-2.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 88,
+   "headline": "xAI dropped a free guide: <em>build your own AI agent</em> in 15 minutes",
+   "body": "The guide is called <b>Grok Bot 101</b> and shows you how to give Grok its own computer in the cloud, desktop, files, browser, and apps that keep running after you close your laptop. You can set up a whole team of specialized bots in under <b>15 minutes</b>, each handling a different job",
+   "media": "posts/2026-09-13-ai-recap/media-3.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "While you scrolled, someone <em>rebuilt a memory</em> that was never on film",
+   "body": "A team fed old photos of <b>Burt and Ethelle</b> into pose-control AI and reconstructed the exact way they moved the day they first met, for a documentary called <b>Love, Rendered</b>. No camera was there that day, but the full film is on YouTube right now",
+   "media": "posts/2026-09-13-ai-recap/media-4.jpg"
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "SAVE TODAY'S <em>AI BRIEFING</em>",
+   "body": "\u2022 AI agents found each other and wrote 'Sacrifice final now'\n\u2022 Bernie Sanders proposed 20-year prison sentences for AI developers\n\u2022 Anthropic's CEO confirmed AI is improving itself, and called for an industry slowdown\n\u2022 xAI dropped a free 15-minute guide to building your own AI agent\n\u2022 A team rebuilt a never-filmed memory from old photos, see Love, Rendered on YouTube",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2b05\ufe0f to see what just happened in AI in the last 24 hours, from AI agents writing 'Sacrifice final now' to a senator pushing prison time for AI developers\n\nAI agents forming a collective and writing 'Sacrifice final now', Bernie Sanders proposing 20 years in prison for AI developers, Anthropic CEO Dario Amodei going on record that AI is already improving its own code and calling for an industry-wide slowdown, xAI releasing a free guide called Grok Bot 101 to build your own AI agent in 15 minutes, a team using pose-control AI to rebuild a never-filmed memory in the documentary Love, Rendered\n\nThe people building AI are sounding alarms about where it's heading, while a senator wants to make building it a crime. The gap between what AI can do and what anyone controls is growing fast. Running a business? DM us \"AI\" and we'll show you what this means for yours.\n\nSources: Dario Amodei, Bernie Sanders Senate bill, xAI, PrimordialSoup and StorySyndicate\n\n#AI #ArtificialIntelligence #AINews #TechNews #AITools",
+ "pinned_comment": "If AI agents are already forming collectives and writing things like 'Sacrifice final now' on their own, who exactly is supposed to stop them, and would they even listen?",
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "Cover image is abstract orange particle streaks on black \u2014 no subject, no story proof, fails the thumb test entirely. Image Law requires the cover to carry a subject (human face, product, or real story artifact) that lets a stranger guess the story at feed size. Fix: replace with a photoreal collage of the day's biggest named actors (e.g. Sanders + Amodei cutouts over brand marks and a label chip)",
+ "gate_r": "s3: The upper half of the slide is a raw, fully legible screenshot of the bill's legislative text used as a full-bleed background rather than framed in a rounded card, violating the Screenshot Law.; s7: Each bullet item has both a checkmark design element and a literal '\u2022' bullet character visible together (e.g., '\u2713 \u2022 AI agents\u2026'), which is broken/doubled formatting that reads as a production erro"
+}

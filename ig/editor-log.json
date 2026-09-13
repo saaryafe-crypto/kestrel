@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-07T18:40:55Z",
-  "gate": "B",
-  "subject": "YOUR ANALYST COSTS <em>333X MORE THAN AI</em>. 4 MOVES TO CLOSE THAT GAP THIS YEAR",
-  "verdict": "REJECT",
-  "reason": "COVER CONTRACT BROKEN — Move 1 ('Freeze cognitive hires') has no dedicated slide. The hook promises 4 moves; the slides deliver only 3 (Moves 2, 3, 4). Move 1 appears exclusively in the save-close CTA. An edu post titled '4 MOVES' must show all 4 moves in the carousel body. Fix: insert a Move 1 slide between the context slide (slide 2) and the current Move 2 slide, covering the cognitive-hire free"
- },
- {
-  "t": "2026-09-07T18:43:09Z",
-  "gate": "R",
-  "subject": "YOUR ANALYST COSTS <em>333X MORE THAN AI</em>. 4 MOVES TO CLOSE THAT GAP THIS YEAR",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-07T19:35:30Z",
-  "gate": "A",
-  "subject": "New video of Tesla's revolutionary unboxed manufacturing process for the Cybercab from the launch event. The production ",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
   "t": "2026-09-07T19:36:03Z",
   "gate": "A",
   "subject": "Using GPT-6 Astra Max to make my wedding website",
@@ -2098,5 +2077,26 @@
   "subject": "ANTHROPIC'S CEO PREDICTED AI CURES MOST DISEASES, <em>THEN BEGGED EVERYONE TO SLOW DOWN</em>",
   "verdict": "FAIL",
   "reason": "s1: The person shown is an AI-generated wax-figure rendering, not a real press photo of Dario Amodei — open-mouthed, artificial face, illustrated screen environment; fails PHOTO QUALITY.; s3: The background is a raw full-bleed screenshot of a webpage (visible hamburger menu, toggle UI elements, article body text) — instant FAIL under SCREENSHOT LAW.; s5: The background is a raw full-bleed screensh"
+ },
+ {
+  "t": "2026-09-13T06:09:12Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER — text-on-black: the cover image is a dark background with abstract orange particle decoration and no story subject anywhere in the frame. Image Law is explicit: 'Text-on-black or empty-top covers are failures' and 'every image is PROOF or a STAGED SCENE OF THE STORY — never decoration.' The particle burst decorates; it proves nothing about today's stories. The pipeline's own metadata (cover"
+ },
+ {
+  "t": "2026-09-13T06:11:32Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Cover image is abstract orange particle streaks on black — no subject, no story proof, fails the thumb test entirely. Image Law requires the cover to carry a subject (human face, product, or real story artifact) that lets a stranger guess the story at feed size. Fix: replace with a photoreal collage of the day's biggest named actors (e.g. Sanders + Amodei cutouts over brand marks and a label chip)"
+ },
+ {
+  "t": "2026-09-13T06:13:25Z",
+  "gate": "R",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "FAIL",
+  "reason": "s3: The upper half of the slide is a raw, fully legible screenshot of the bill's legislative text used as a full-bleed background rather than framed in a rounded card, violating the Screenshot Law.; s7: Each bullet item has both a checkmark design element and a literal '•' bullet character visible together (e.g., '✓ • AI agents…'), which is broken/doubled formatting that reads as a production erro"
  }
 ]
