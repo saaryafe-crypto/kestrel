@@ -1,96 +1,5 @@
 [
  {
-  "t": "2026-09-07T10:49:19Z",
-  "gate": "A",
-  "subject": "I’m back home. All of a sudden my car feels like the past with this steering wheel 😂",
-  "verdict": "KILL",
-  "reason": "The underlying event is trivial—a personal joke/vibe with no concrete happening, consequence, or substance; the tweet is a steering wheel observation, not a story, and offers nothing a writer could expand beyond padding."
- },
- {
-  "t": "2026-09-07T10:49:30Z",
-  "gate": "A",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "verdict": "KILL",
-  "reason": "Routine personal use case from an unknown actor with no numbers, facts, or real consequence—a vibe, not the news event this page exists to cover."
- },
- {
-  "t": "2026-09-07T10:49:36Z",
-  "gate": "A",
-  "subject": "Women accounted for 98% of U.S. job gains in August, per FORTUNE",
-  "verdict": "KILL",
-  "reason": "Labor-market statistic with no event, actor, or consequence—off-lens for a tech/AI page and exactly the repetitive market-data filler the owner flagged as #1 content failure."
- },
- {
-  "t": "2026-09-07T10:50:33Z",
-  "gate": "A",
-  "subject": "Cybercab luggage test. Plenty of room for larger items.",
-  "verdict": "KILL",
-  "reason": "No substance: one thin tweet with no second fact, numbers, or consequence to build slides from."
- },
- {
-  "t": "2026-09-07T10:51:27Z",
-  "gate": "A",
-  "subject": "I’m back home. All of a sudden my car feels like the past with this steering wheel 😂",
-  "verdict": "KILL",
-  "reason": "No reportable event per STORY LAW §1—this is a personal vibe comparing cars, not a story about something happening with a product, consequence, or detail a writer could build from."
- },
- {
-  "t": "2026-09-07T10:51:36Z",
-  "gate": "A",
-  "subject": "Women accounted for 98% of U.S. job gains in August, per FORTUNE",
-  "verdict": "KILL",
-  "reason": "No protagonist, event, or felt consequence—one labor statistic is data reporting, not a story, and would require padding to build slides."
- },
- {
-  "t": "2026-09-07T10:51:53Z",
-  "gate": "A",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "verdict": "KILL",
-  "reason": "No substance: 48-character source with nothing to build from—routine product use does not constitute a story."
- },
- {
-  "t": "2026-09-07T11:17:40Z",
-  "gate": "B",
-  "subject": "TESLA'S ROBOTAXI JUST PROVED IT CAN FIT <em>A FULL AIRPORT SUITCASE</em>, AND THE LAST REASON TO KEEP AN UBER DRIVER <em",
-  "verdict": "REJECT",
-  "reason": "Slide 5 ('THE DRIVER'S SEAT WAS EMPTY / Full bags. No help. It still passed the airport test.') adds zero new fact — its headline is a word-for-word restate of slide 3's 'AN EMPTY DRIVER'S SEAT' and its body is a three-word compression of slide 3's body. This violates NEW FACT PER SLIDE explicitly. Fix: replace slide 5 entirely with a concrete new fact — e.g., Cybercab trunk capacity vs. a Toyota "
- },
- {
-  "t": "2026-09-07T11:20:35Z",
-  "gate": "A",
-  "subject": "Women accounted for 98% of U.S. job gains in August, per FORTUNE",
-  "verdict": "KILL",
-  "reason": "Routine labor data reporting with no AI/tech angle — explicitly banned per §1's ON-TOPIC BUT ROUTINE rule."
- },
- {
-  "t": "2026-09-07T11:21:10Z",
-  "gate": "A",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "verdict": "KILL",
-  "reason": "The event is trivial—someone using an AI tool for its routine intended purpose—with no real consequence, numbers, outcome, or substance beyond the 48-character claim; unknown actor as the story."
- },
- {
-  "t": "2026-09-07T11:21:41Z",
-  "gate": "A",
-  "subject": "I’m back home. All of a sudden my car feels like the past with this steering wheel 😂",
-  "verdict": "KILL",
-  "reason": "No real event or consequence—it's a personal vibe about a steering wheel generating engagement, not a story where something actually happened."
- },
- {
-  "t": "2026-09-07T11:59:14Z",
-  "gate": "B",
-  "subject": "WOMEN JUST TOOK <em>98% OF ALL NEW U.S. JOBS</em> IN ONE MONTH, MEN GOT THE SCRAPS",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — HARD REJECT: Every element in the frame (the towering folder stack, the tiny dark stack, the floating envelopes, the industrial room, the circular inset) reads as a 3D CGI render, not as photographed. Image Law is explicit: any element that reads as illustration, cartoon, or game render is a REJECT. The concept (giant stack vs. tiny stack, labeled WOMEN / MEN) is the correct 'data ma"
- },
- {
-  "t": "2026-09-07T12:02:48Z",
-  "gate": "R",
-  "subject": "WOMEN JUST TOOK <em>98% OF ALL NEW U.S. JOBS</em> IN ONE MONTH, MEN GOT THE SCRAPS",
-  "verdict": "FAIL",
-  "reason": "s5: Receipt Law fail: the slide claims Fortune confirmed the split and 3.3M saw it on X, but the image is a generic pile of dollar bills that proves neither claim — a Fortune article card or a framed X post would be required."
- },
- {
   "t": "2026-09-07T18:40:55Z",
   "gate": "B",
   "subject": "YOUR ANALYST COSTS <em>333X MORE THAN AI</em>. 4 MOVES TO CLOSE THAT GAP THIS YEAR",
@@ -2098,5 +2007,96 @@
   "subject": "Yang ngebela Prabowo, MBG, AI, Juicy Luicy, Israel, kita hajar ditempat.",
   "verdict": "KILL",
   "reason": "This is a 72-character Indonesian political statement with no event, no consequence, no narrative structure, and no connection to AI/tech news—reaction-bait masquerading as a topic list, unsuitable for a global tech page regardless of scout activity."
+ },
+ {
+  "t": "2026-09-12T23:00:26Z",
+  "gate": "A",
+  "subject": "Dario Amodei officially says, that RSI is start to happen across the industry, including at Anthropic. So the rumors wer",
+  "verdict": "KILL",
+  "reason": "CEO's prediction about what might happen in 6-12 months is not an event where something happened with felt consequence; the vague source is too thin to build slides from."
+ },
+ {
+  "t": "2026-09-12T23:00:36Z",
+  "gate": "A",
+  "subject": "JUST IN: Anthropic CEO Dario Amodei says \"we must slow down\" the development of AI models.",
+  "verdict": "KILL",
+  "reason": "Amodei's opinion statement fails the 'reality moved' bar without reported action (model pulled, policy enforced, development halted); the 90-character source lacks a second fact, numbers, or consequences—the exact NO SUBSTANCE criteria this gate must kill."
+ },
+ {
+  "t": "2026-09-12T23:01:08Z",
+  "gate": "A",
+  "subject": "10 years ago today, Bitcoin was $608",
+  "verdict": "KILL",
+  "reason": "Anniversary of a decade-old price, not a story with a current event or consequence; fails STORY LAW §1 core test."
+ },
+ {
+  "t": "2026-09-12T23:03:09Z",
+  "gate": "A",
+  "subject": "The urgent call for slow down officially started. Dario Amodei demands and suggest a plan for unified slow-down. Very sa",
+  "verdict": "KILL",
+  "reason": "No substantive event — source is an unlinked tweet claiming a slowdown proposal without proof, and founder statements alone lack the real-world consequence (lawsuit, launch, action) required for news."
+ },
+ {
+  "t": "2026-09-12T23:04:02Z",
+  "gate": "A",
+  "subject": "JUST IN: Anthropic CEO Dario Amodei says \"we must slow down\" the development of AI models.",
+  "verdict": "KILL",
+  "reason": "The headline reports a CEO's statement/opinion about what should happen, not a concrete action, announced policy, or real-world consequence — a claim without an event fails the 'something HAPPENED' test, even with a famous actor."
+ },
+ {
+  "t": "2026-09-12T23:04:09Z",
+  "gate": "A",
+  "subject": "10 years ago today, Bitcoin was $608",
+  "verdict": "KILL",
+  "reason": "No substance: a single historical price observation with no second fact, actor, or consequence to build slides from."
+ },
+ {
+  "t": "2026-09-12T23:04:18Z",
+  "gate": "A",
+  "subject": "Dario Amodei officially says, that RSI is start to happen across the industry, including at Anthropic. So the rumors wer",
+  "verdict": "KILL",
+  "reason": "No source link, no official statement, no real consequence—this is reaction-bait commentary on rumors, not a news event."
+ },
+ {
+  "t": "2026-09-12T23:05:37Z",
+  "gate": "A",
+  "subject": "The urgent call for slow down officially started. Dario Amodei demands and suggest a plan for unified slow-down. Very sa",
+  "verdict": "KILL",
+  "reason": "No substance: the source is a single unverified tweet interpreting Amodei's views without his actual statements, dates, or the specific plan details needed to build a carousel."
+ },
+ {
+  "t": "2026-09-12T23:31:32Z",
+  "gate": "A",
+  "subject": "Dario Amodei officially says, that RSI is start to happen across the industry, including at Anthropic. So the rumors wer",
+  "verdict": "KILL",
+  "reason": "No verifiable source: the tweet claims an official Dario Amodei statement but provides no link, date, or evidence of where/when he said it; the broken English ('RSI is start to happen') suggests a garbled summary, not a reportable event; a writer cannot build slides from an unverified claim."
+ },
+ {
+  "t": "2026-09-12T23:31:33Z",
+  "gate": "A",
+  "subject": "JUST IN: Anthropic CEO Dario Amodei says \"we must slow down\" the development of AI models.",
+  "verdict": "KILL",
+  "reason": "A CEO's stated position without real-world consequence—no announced slowdown, product delay, or hiring freeze—is commentary, not an event; the 4/10 scout interest and 90-character source lack substance for carousel slides."
+ },
+ {
+  "t": "2026-09-12T23:32:06Z",
+  "gate": "A",
+  "subject": "The urgent call for slow down officially started. Dario Amodei demands and suggest a plan for unified slow-down. Very sa",
+  "verdict": "KILL",
+  "reason": "Single thin tweet with no reporting, documented plan, or clear event; writer would have to pad to build slides from this vague claim."
+ },
+ {
+  "t": "2026-09-13T00:28:11Z",
+  "gate": "B",
+  "subject": "ANTHROPIC'S CEO PREDICTED AI CURES MOST DISEASES, <em>THEN BEGGED EVERYONE TO SLOW DOWN</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 5 is a mid-carousel bullet dump that spends every remaining payoff before the story earns them. After the irony peak in slide 4, slide 5 lists all three big facts flat — AI teaching itself, 6-12 months, cure diseases, global pause — as bullets. Slide 6 then tries to dramatize the 6-month claim that slide 5 already summarized flatly. The swipe motivation for slide 6 is dead. Fix: remove slide"
+ },
+ {
+  "t": "2026-09-13T00:30:07Z",
+  "gate": "R",
+  "subject": "ANTHROPIC'S CEO PREDICTED AI CURES MOST DISEASES, <em>THEN BEGGED EVERYONE TO SLOW DOWN</em>",
+  "verdict": "FAIL",
+  "reason": "s1: The person shown is an AI-generated wax-figure rendering, not a real press photo of Dario Amodei — open-mouthed, artificial face, illustrated screen environment; fails PHOTO QUALITY.; s3: The background is a raw full-bleed screenshot of a webpage (visible hamburger menu, toggle UI elements, article body text) — instant FAIL under SCREENSHOT LAW.; s5: The background is a raw full-bleed screensh"
  }
 ]

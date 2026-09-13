@@ -1,0 +1,121 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ANTHROPIC'S CEO PREDICTED AI CURES MOST DISEASES, <em>THEN BEGGED EVERYONE TO SLOW DOWN</em>",
+   "kicker": "ALREADY RUNNING INSIDE HIS OWN LAB",
+   "hsize": 68,
+   "media": "posts/2026-09-12-dario-amodei-officially-says-that-rsi-is/gen-0.jpg",
+   "image_prompt": "Dario Amodei chest-up gripping podium, urgent dread, Anthropic logo on podium, coral-orange and red alert background, documentary film grain."
+  },
+  {
+   "type": "content",
+   "headline": "EVERYONE ASSUMED THE AI BUILDERS <em>HAD IT UNDER CONTROL</em>",
+   "hsize": 102,
+   "body": "That was the deal.\n\nEvery major AI lab promised safety came first, and nobody outside thought AI was secretly teaching itself to get smarter.\n\nThen one of those CEOs changed the story.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "DARIO AMODEI CONFIRMED AI IS <em>ALREADY TEACHING ITSELF TO GET SMARTER</em>",
+   "hsize": 82,
+   "body": "He put it in writing.\n\n<b>Anthropic</b> is one of the labs where AI is already building its next version.\n\nYour search results and your feed could be unrecognizable within a year.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "THE PAUSE IS ALREADY TOO LATE",
+   "hsize": 110,
+   "body": "He's calling for a global pause. It's already in his lab.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "DARIO ALSO SAID AI COULD CURE <em>MOST DISEASES</em>",
+   "hsize": 100,
+   "body": "AI teaching itself at <b>Anthropic</b> now\nAI swarms: internet takeover in <b>6-12 months</b>\nHe begged every AI lab to stop\nAI could cure most diseases in <b>5-10 years</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "THE INTERNET YOUR BUSINESS RUNS ON <em>HAS 6 MONTHS</em>",
+   "hsize": 96,
+   "body": "Your leads, your web presence, your customer replies all change if AI floods the internet in <b>6 months</b>.\n\nThe businesses building AI workflows now won't need to hire anyone to keep up.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "face": "dario-amodei-2",
+   "headline": "SAVE THIS: <em>DARIO AMODEI WARNED YOUR INTERNET HAS 6 MONTHS</em>",
+   "hsize": 58,
+   "body": "Dario Amodei confirmed AI is teaching itself now\nAI swarms: internet takeover in <b>6-12 months</b>\nAI could cure most diseases in <b>5-10 years</b>\n\nSend this to the friend who thinks AI is years away.",
+   "media": null
+  }
+ ],
+ "caption": "Swipe: Anthropic's CEO just confirmed AI is teaching itself and worries AI swarms could take over the entire internet within 6 months \ud83e\udd16\n\nWhy everyone trusted the AI builders had it controlled, Dario Amodei's public confirmation that AI is already teaching itself to get smarter including at Anthropic, the specific warning about AI swarms flooding the internet in 6 to 12 months, the irony that he's calling for a global slowdown while admitting it's already happening inside his own lab, the four hardest facts from his statement including his disease cure prediction, and what this means for every business that runs on the open internet.\n\nThe person running one of the most powerful AI labs on earth went public saying he's scared. That's the context your search results, your feed, and your entire online business is operating in right now.\n\nRunning a business? DM us \"AI\" and we'll show you what this means for yours.\n\nSources: Dario Amodei, kimmonismus on X\n\n#artificialintelligence #aitools #technews #futureofai #anthropic",
+ "pinned_comment": "He says AI could cure most diseases in 5-10 years and also flood the entire internet in 6 months. Both things he genuinely believes. Which one scares you more?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "ANTHROPIC'S CEO CONFIRMED <em>AI IS TEACHING ITSELF TO GET SMARTER</em> INSIDE HIS OWN LAB",
+   "ANTHROPIC'S CEO WARNS <em>AI SWARMS WILL FLOOD THE ENTIRE INTERNET</em> WITHIN 6 MONTHS",
+   "AI IS TEACHING ITSELF AND <em>THE CEO BUILDING IT JUST BEGGED EVERYONE TO STOP</em>",
+   "ANTHROPIC'S CEO SAYS YOUR INTERNET HAS <em>6 MONTHS BEFORE AI SWARMS TAKE IT OVER</em>"
+  ],
+  "scores": [
+   8,
+   0,
+   9,
+   0
+  ],
+  "winner": 2,
+  "why": "[2] hits harder with 'just begged everyone to stop'\u2014the urgency and human panic freeze your scroll instantly. [0]'s 'confirmed' is strong but verifies a fact; at 2am you stop for emotional dread, not data."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "ANTHROPIC'S CEO CONFIRMED AI IS TEACHING ITSELF, <em>THEN BEGGED THE WORLD TO STOP</em>",
+   "AI IS TEACHING ITSELF AND <em>THE CEO BUILDING IT JUST BEGGED EVERYONE TO STOP</em>",
+   "ANTHROPIC'S CEO JUST WARNED AI SWARMS <em>WILL FLOOD YOUR INTERNET IN 6 MONTHS</em>",
+   "ANTHROPIC'S CEO PREDICTED AI CURES MOST DISEASES, <em>THEN BEGGED EVERYONE TO SLOW DOWN</em>"
+  ],
+  "scores": [
+   0,
+   0,
+   0,
+   6
+  ],
+  "winner": 3,
+  "why": "All others violate the truth kill rule: [0] and [1] claim the CEO begged to 'stop' when facts say 'slow down,' [2] invents certainty ('will flood in 6 months') facts don't support ('could within 6-12 months'). [3] alone survives on accuracy, and its jarring juxtaposition of disease-cure predictions with urgent pleas to slow down has just enough intrigue to stop a scroll."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Dario Amodei",
+  "actor_known": false,
+  "anchor": "the internet",
+  "specifics": [
+   "AI swarms could take over the entire internet within 6-12 months",
+   "AI is already teaching itself to improve \u2014 confirmed happening now at one of the biggest AI labs",
+   "The CEO of that lab is now publicly begging the whole industry to slow down",
+   "He still predicts AI cures most major diseases within 5-10 years",
+   "453.5K views on the tweet breaking this news"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (5/10)",
+ "naked_slides": [
+  2,
+  6
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Dario Amodei officially says, that RSI is start to happen across the industry, including at Anthropic. So the rumors were true. He worries that in 6-12 months AI swarms could take over the whole internet. What is happeni",
+  "link": "https://x.com/kimmonismus/status/2098786231534362767",
+  "judge_interest": 5,
+  "scout_score": 71.4
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Slide 5 is a mid-carousel bullet dump that spends every remaining payoff before the story earns them. After the irony peak in slide 4, slide 5 lists all three big facts flat \u2014 AI teaching itself, 6-12 months, cure diseases, global pause \u2014 as bullets. Slide 6 then tries to dramatize the 6-month claim that slide 5 already summarized flatly. The swipe motivation for slide 6 is dead. Fix: remove slide",
+ "gate_r": "s1: The person shown is an AI-generated wax-figure rendering, not a real press photo of Dario Amodei \u2014 open-mouthed, artificial face, illustrated screen environment; fails PHOTO QUALITY.; s3: The background is a raw full-bleed screenshot of a webpage (visible hamburger menu, toggle UI elements, article body text) \u2014 instant FAIL under SCREENSHOT LAW.; s5: The background is a raw full-bleed screensh"
+}
