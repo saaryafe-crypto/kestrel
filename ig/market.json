@@ -1,37 +1,85 @@
 {
- "updated": "2026-09-12T14:43:17+00:00",
+ "updated": "2026-09-13T18:21:11+00:00",
  "competitor_hits": [
   {
-   "page": "mashable",
-   "likes": 4998,
-   "ratio": 4.95,
+   "page": "wired",
+   "likes": 2864,
+   "ratio": 2.12,
    "tier": "mega",
-   "hook": "\"Apple's iPhone Duo has drawn competitor sass.\u2060\n\u2060\nDuring yesterday\u2019s Apple event, the Duo folding phone was announced and a number of brands came to the internet to make their feelings known. The most notable were Samsun",
-   "date": "2026-09-10"
+   "hook": "\"For most of 2026, a rumor has consumed the world of UFOlogy: President Trump is sitting on a finished speech confirming humanity isn't alone. Whether the \u201cdisclosure speech\u201d actually exists is a topic of rabid discussio",
+   "date": "2026-09-11"
+  },
+  {
+   "page": "wired",
+   "likes": 2699,
+   "ratio": 2.0,
+   "tier": "mega",
+   "hook": "\"Panic over AI technology\u2019s dangers has intensified in recent weeks. Genuinely stunning advances in AI capabilities\u2014an OpenAI model solved a centuries-old math problem in a matter of hours\u2014have come amid a rash of securi",
+   "date": "2026-09-12"
+  },
+  {
+   "page": "wired",
+   "likes": 2510,
+   "ratio": 1.86,
+   "tier": "mega",
+   "hook": "\"WIRED reported in June that code for NameTag had been secretly embedded in the Meta glasses AI companion app, which had been downloaded more than 50 million times. While the feature had not been enabled for users of the",
+   "date": "2026-09-11"
+  },
+  {
+   "page": "futurism",
+   "likes": 3220,
+   "ratio": 1.69,
+   "tier": "mega",
+   "hook": "\"Generative AI has infiltrated almost every aspect of our daily lives, whether we like it or not.\n\nIt\u2019s nearly impossible to avoid on social media, and it\u2019s even showing up on dinner menus at the local diner. Some resear",
+   "date": "2026-09-11"
+  },
+  {
+   "page": "wired",
+   "likes": 1478,
+   "ratio": 1.1,
+   "tier": "mega",
+   "hook": "\"The events and aftermath of 9/11 altered almost every aspect of American society: from the ever-present security theater of daily life\u2014the 3.4-ounce liquid bottles at airports, the defensive bollards that now dominate s",
+   "date": "2026-09-11"
+  },
+  {
+   "page": "wired",
+   "likes": 517,
+   "ratio": 0.38,
+   "tier": "mega",
+   "hook": "\"Just a couple of years ago, hearing the term \u201cdata center\u201d wouldn\u2019t have struck a nerve with most Americans. Now, mention the noisy oversized warehouses and you\u2019ll spark a fierce debate. The infrastructure powering the ",
+   "date": "2026-09-11"
   },
   {
    "page": "mashable",
-   "likes": 560,
-   "ratio": 0.55,
-   "tier": "mega",
-   "hook": "\"A photo of Blackpink\u2019s Ros\u00e9 showing off a new iPhone 18 Pro is throwing the internet into a full spiral. \u2028\u2028Eagle-eyed fans are convinced the phone was photoshopped into her hand. What do you think? Is this a bad photosh",
-   "date": "2026-09-10"
-  },
-  {
-   "page": "mashable",
-   "likes": 194,
-   "ratio": 0.19,
+   "likes": 219,
+   "ratio": 0.21,
    "tier": "mega",
    "hook": "\"TV's buzziest friend group gives us the adulthood advice we so desperately need. #adults #adultsfx #streaming\".",
    "date": "2026-09-11"
   },
   {
+   "page": "wired",
+   "likes": 274,
+   "ratio": 0.2,
+   "tier": "mega",
+   "hook": "\"These days, a declaration of social media hatred isn\u2019t exactly a hot tech take. But NFL analyst and podcast host Mina Kimes is full of those too. For one, she thinks FaceTiming anyone outside of your family is \u201cinsane b",
+   "date": "2026-09-13"
+  },
+  {
    "page": "mashable",
-   "likes": 44,
-   "ratio": 0.04,
+   "likes": 178,
+   "ratio": 0.17,
    "tier": "mega",
    "hook": "\"Mashable Senior Editor Shannon Connellan sat down with Andrew Garfield, in the historic Charterhouse in London, to unpack the meaning of the 'no kings' lie in 'The Uprising.' \u2060\n#SayMore #TheUprising\".",
    "date": "2026-09-12"
+  },
+  {
+   "page": "wired",
+   "likes": 151,
+   "ratio": 0.11,
+   "tier": "mega",
+   "hook": "\"For one day in Wynwood, Miami, WIRED World Fair, presented by Chase Sapphire Reserve for Business, brings together the technologies, people, and ideas transforming our world. See you there!\n\nTap the \ud83d\udd17 in bio for ticket ",
+   "date": "2026-09-11"
   }
  ],
  "reddit_hot": []

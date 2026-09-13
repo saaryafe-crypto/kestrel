@@ -1,33 +1,13 @@
 [
  {
-  "page": "mashable",
-  "hook": "\"How Liz Plank created her dream job and keeps it real \u270c\ufe0f\u2060\n#creators #creatorplaybook\".",
-  "date": "2026-08-29"
- },
- {
-  "page": "wired",
-  "hook": "\"In the August 20 edition of his \u201cModel Behavior\u201d newsletter, Maxwell Zeff explored the divide between Silicon Valley\u2019s high hopes on AI tools and the reality of the public\u2019s profound distrust of the rapidly expanding te",
-  "date": "2026-08-29"
- },
- {
   "page": "technology",
   "hook": "\"Revenge of the Fallen arrived in 2009 with visual effects so ambitious that its massive robots, destruction and environmental interaction still make many sequences look remarkably convincing today.\n\nIndustrial Light & M",
   "date": "2026-08-30"
  },
  {
-  "page": "futurism",
-  "hook": "\"At this point, Flock automatic license plate readers are basically a 90-10 issue in the US. In fact, so many Americans hate these surveillance towers that hacking one down has become the quickest way to achieve national",
-  "date": "2026-08-29"
- },
- {
   "page": "mashable",
   "hook": "\"Will Forte, John Cena & Lana Condor draft the ultimate 'Coyote Vs. Acme' squad \ud83c\udfc6\u2060\n\u2060\n#coyotevsacme #johncena #wwe #movies\".",
   "date": "2026-08-30"
- },
- {
-  "page": "wired",
-  "hook": "\"Under the California Consumer Privacy Act, consumers have the legal right to request access to information from large companies that collect personal data. The law went into effect in 2020, and three of its key provisio",
-  "date": "2026-08-29"
  },
  {
   "page": "technology",
@@ -43,11 +23,6 @@
   "page": "technology",
   "hook": "\"Someone turned the classic Where\u2019s Waldo search into a first person browser game where you have to hunt for him inside a giant moving crowd \ud83d\udd0e\ud83c\udfae\n\nInstead of scanning a still picture, you can actually walk, sprint and jump",
   "date": "2026-08-30"
- },
- {
-  "page": "technology",
-  "hook": "\"A photographer captured the split second an F-22 became wrapped in a dramatic vapor cloud while performing a high-speed pass over Miami Beach \ud83d\udee9\ufe0f\u2601\ufe0f\n\nThe effect happens when pressure around parts of the aircraft drops rap",
-  "date": "2026-08-29"
  },
  {
   "page": "technology",
@@ -558,5 +533,65 @@
   "page": "mashable",
   "hook": "\"Apple's iPhone Duo has drawn competitor sass.\u2060\n\u2060\nDuring yesterday\u2019s Apple event, the Duo folding phone was announced and a number of brands came to the internet to make their feelings known. The most notable were Samsun",
   "date": "2026-09-10"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Generative AI has infiltrated almost every aspect of our daily lives, whether we like it or not.\n\nIt\u2019s nearly impossible to avoid on social media, and it\u2019s even showing up on dinner menus at the local diner. Some resear",
+  "date": "2026-09-11"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"There won\u2019t be a ChatGPT moment for robotics...at least according to Mbodi co-founder Xavier Chi.\nUnlike large language models, robotics doesn\u2019t have an internet-sized pool of data to learn from. Xavier says that means ",
+  "date": "2026-09-10"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"One more thing... Apple's first foldable iPhone, the iPhone Duo, is here.\".",
+  "date": "2026-09-09"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"The Ternus era is here\n\nTim Cook hands it off to John Ternus saying, \"that's your guy,\" to kick off the new CEO's first keynote, officially launching the Ternus-era.\".",
+  "date": "2026-09-09"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"Apple has entered the foldable arena with the iPhone Duo, which the company said was inspired by \u201cthe versatility of the iPad.\u201d The iPhone Duo starts at $1,999 with 256GB of storage and is available in two colors. Pre-o",
+  "date": "2026-09-09"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"Before becoming a scientist and founder, Demetri Maxim was a competitive skier. He says both experiences require the same mental shift: convincing yourself that the thing your brain is warning you about is actually some",
+  "date": "2026-09-08"
+ },
+ {
+  "page": "wired",
+  "hook": "\"These days, a declaration of social media hatred isn\u2019t exactly a hot tech take. But NFL analyst and podcast host Mina Kimes is full of those too. For one, she thinks FaceTiming anyone outside of your family is \u201cinsane b",
+  "date": "2026-09-13"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Panic over AI technology\u2019s dangers has intensified in recent weeks. Genuinely stunning advances in AI capabilities\u2014an OpenAI model solved a centuries-old math problem in a matter of hours\u2014have come amid a rash of securi",
+  "date": "2026-09-12"
+ },
+ {
+  "page": "wired",
+  "hook": "\"WIRED reported in June that code for NameTag had been secretly embedded in the Meta glasses AI companion app, which had been downloaded more than 50 million times. While the feature had not been enabled for users of the",
+  "date": "2026-09-11"
+ },
+ {
+  "page": "wired",
+  "hook": "\"For most of 2026, a rumor has consumed the world of UFOlogy: President Trump is sitting on a finished speech confirming humanity isn't alone. Whether the \u201cdisclosure speech\u201d actually exists is a topic of rabid discussio",
+  "date": "2026-09-11"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Just a couple of years ago, hearing the term \u201cdata center\u201d wouldn\u2019t have struck a nerve with most Americans. Now, mention the noisy oversized warehouses and you\u2019ll spark a fierce debate. The infrastructure powering the ",
+  "date": "2026-09-11"
+ },
+ {
+  "page": "wired",
+  "hook": "\"For one day in Wynwood, Miami, WIRED World Fair, presented by Chase Sapphire Reserve for Business, brings together the technologies, people, and ideas transforming our world. See you there!\n\nTap the \ud83d\udd17 in bio for ticket ",
+  "date": "2026-09-11"
  }
 ]
