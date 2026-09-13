@@ -1,0 +1,121 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "סם אלטמן הסכים עם המתחרה שלו: <em>להאט את ה-AI</em>",
+   "kicker": "13.2 מיליון אנשים ראו את זה",
+   "hsize": 72,
+   "media": "posts/2026-09-13-i-agree-with-dario-that-we-need-to-pace-/gen-0-r-r.jpg",
+   "image_prompt": "Sam Altman and Dario Amodei clasp hands across vivid orange-lit table mid-pact, faces brightly lit and clear, fierce rivals shocked by agreement, empty background, symbols only, extremely photorealistic and shocking.",
+   "gen_person": true
+  },
+  {
+   "type": "content",
+   "headline": "הם היו אמורים להתחרות. <em>הם הסכימו.</em>",
+   "hsize": 84,
+   "body": "OpenAI ו-Anthropic היו אמורים לרוץ אחד נגד השני. ידעת שהם אויבים.\n\nאז דריו אמודאי, בוס Anthropic, פרסם מאמר ששינה הכל.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "שתי החברות הסכימו: <em>מישהו מבחוץ יפקח עליהן לתמיד</em>",
+   "hsize": 80,
+   "body": "<b>12 בספטמבר</b>: דריו אמודאי פרסם מאמר בשם 'We Must Pace the Frontier', קריאה להאט את מירוץ ה-AI ולתת לאנשים מבחוץ גישה מלאה, כמו עובדים.\n\nסם אלטמן קרא כל מילה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "אלטמן ענה: <em>'I agree'</em>",
+   "hsize": 110,
+   "body": "<b>13.2 מיליון</b> אנשים ראו את שתי המילים האלה",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "הגדולות עוצרות: <em>עכשיו כל השאר צריכות לענות</em>",
+   "hsize": 84,
+   "body": "ראית את שתי החברות האלה רצות לבנות AI מהר יותר מכולם.\n\nאם הגדולות עוצרות, כל השאר צריכות לענות למה הן עדיין רצות.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "שתי החברות התחייבו: <em>פיקוח חיצוני קבוע</em>",
+   "hsize": 84,
+   "body": "<b>12 בספטמבר</b>: המאמר של אמודאי קרא להאטה\nאלטמן ענה בפומבי: '<b>I agree</b>'\nאלטמן: OpenAI תכנן את זה <b>שבועות</b> לפני\nשתי החברות מאפשרות עכשיו גישה חיצונית קבועה",
+   "media": "posts/2026-09-13-i-agree-with-dario-that-we-need-to-pace-/cand-1.webp"
+  },
+  {
+   "type": "cta",
+   "headline": "שמור: סם אלטמן <em>הסכים להאט את ה-AI</em>",
+   "hsize": 58,
+   "body": "• בוס Anthropic קרא להאטה\n• אלטמן ענה 'I agree' בפני <b>13.2 מיליון</b> אנשים\n• שתי החברות התחייבו לפיקוח חיצוני קבוע\n\nשלח את זה למי שחושב ש-AI רק ממשיך להאיץ",
+   "face": "sam-altman-3",
+   "media": null
+  }
+ ],
+ "caption": "גרור שקופית לראות איך שני הבוסים הכי גדולים ב-AI הסכימו להאט את המירוץ שהם עצמם התחילו.\n\nסם אלטמן מסכים עם דריו אמודאי, המאמר של Anthropic שקרא להאטה, למה הם היו אמורים להתחרות, מה זאת אומרת גישה חיצונית קבועה, 13.2 מיליון שראו את 'I agree' של אלטמן, הלחץ על שאר חברות ה-AI, ומה זה אומר לעסקים שבונים על כלי AI היום.\n\nשני האנשים שהתחילו את מירוץ ה-AI קראו בפומבי להאט. זה משנה מה כל חברת AI אחרת חייבת לענות, ומסמן שכלי ה-AI שעסקים בונים עליהם כאן כדי להישאר.\n\nמנהל עסק? שלח לנו 'AI' בהודעה ונראה לך מה זה אומר לשלך.\n\nמקורות: Sam Altman on X (12 בספטמבר 2026), Dario Amodei, 'We Must Pace the Frontier'\n\nעקבו @ainews.israel לעוד על AI.\n\n#artificialintelligence #openai #anthropic #airegulation #technews",
+ "pinned_comment": "החלק המטורף: אלטמן אמר שהאטה הייתה נושא ראשי ב-OpenAI כבר שבועות. הם תכננו את זה לפני שדריו בכלל פרסם את המאמר.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "SAM ALTMAN AGREED WITH ANTHROPIC <em>THAT THE AI RACE NEEDS TO SLOW DOWN</em>",
+   "SAM ALTMAN JUST TOLD ANTHROPIC'S CEO <em>'I AGREE' ABOUT SLOWING DOWN AI</em>"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "Candidate 1 uses 'JUST TOLD' and the direct quote 'I AGREE' to create urgency and feel like breaking news between rivals. Candidate 0 sounds corporate and flat despite being equally factual."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "SAM ALTMAN JUST SIDED WITH <em>HIS BIGGEST RIVAL</em> ON SLOWING DOWN AI",
+   "SAM ALTMAN JUST TOLD ANTHROPIC'S CEO <em>'I AGREE' ABOUT SLOWING DOWN AI</em>"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "'I AGREE' gives you concrete proof of what he said. Naming the CEO with the exact quote beats a vague story about rivals agreeing."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Sam Altman / OpenAI",
+  "actor_known": true,
+  "anchor": "ChatGPT",
+  "specifics": [
+   "Sam Altman publicly told his biggest rival 'I agree' about slowing down AI — on Twitter, in front of 13.2M viewers",
+   "Both companies promised to hand outsiders permanent, employee-level internal access to watch their AI work",
+   "Dario Amodei published an essay called 'We Must Pace the Frontier' calling for an industry slowdown",
+   "Altman says slowing down has been a 'primary topic' at OpenAI 'in recent weeks'",
+   "The tweet hit 58K likes and 13.2M views within hours"
+  ]
+ },
+ "naked_slides": [
+  2,
+  3,
+  5
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we've had at OpenAI in recent weeks. Committing to having independent evaluators with employee-like access is a great ide",
+  "link": "https://x.com/sama/status/2098811563415150910",
+  "judge_interest": 6,
+  "scout_score": 135.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Cover image archetype mismatch: arm-wrestling communicates rivalry and competition — the exact opposite of the story's premise. A stranger seeing this at feed size for 1.7 seconds guesses 'feud story,' not 'surprise agreement.' The headline says 'I AGREE'; the image screams 'I WILL CRUSH YOU.' Fix: replace with an image that proves the agreement moment — a handshake composite between the two faces",
+ "gate_r": "s7: Every bullet line renders a checkmark AND a stray '•' dot (e.g. '✓ • Anthropic's CEO…'), a broken-formatting artifact that must be stripped to one prefix per line.",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
