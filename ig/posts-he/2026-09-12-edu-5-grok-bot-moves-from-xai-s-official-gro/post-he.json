@@ -1,0 +1,113 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמישה טריקים של Grok Bot <em>שבנו 900 עוקבים בלילה אחד</em>",
+   "kicker": "מהמדריך הרשמי של xAI",
+   "hsize": 72,
+   "face": "Elon Musk",
+   "media": "posts/2026-09-12-edu-5-grok-bot-moves-from-xai-s-official-gro/gen-0-r.jpg",
+   "image_prompt": "Elon Musk in white bathrobe at 3am, shocked delight at phone showing soaring green chart, X and Grok symbols prominently placed, electric green and white aesthetic, minimalist hotel setting, extremely realistic."
+  },
+  {
+   "type": "content",
+   "headline": "1) <em>יש לו מחשב משלו</em> בענן",
+   "hsize": 104,
+   "body": "יש לו מחשב שלם שיושב בענן: שולחן עבודה, קבצים, דפדפן, טרמינל.\n\nשולחים לו משימה מהטלפון. הוא מסיים בזמן שאתה עושה דברים אחרים.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) <em>תבנה את הבוט הראשון שלך</em> תוך 15 דקות",
+   "hsize": 104,
+   "body": "xAI אומרים שכל אחד יכול לבנות בוט שעובד בין עשר ל-15 דקות, בלי קוד.\n\n\"תבדוק את ה-Slack שלי כל יום ותשלח לי סיכום של שלושה משפטים כל בוקר.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) <em>תגדיר טריגרים</em> שיריצו אותו לבד",
+   "hsize": 104,
+   "body": "לא צריך לשלוח לו הודעה כל פעם.\n\n\"תעקוב אחרי commits חדשים ב-GitHub. כשיגיע אחד, תמשוך את רשימת השינויים ותפרסם סיכום של שלושה משפטים ב-Slack.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "900 עוקבים. בוט אחד. רשימה אחת.",
+   "hsize": 80,
+   "layout": "break",
+   "body": "<b>הוא עקב אחרי 800 עד 900 אנשים ב-X. בוט Grok אחד שלף את הפרופילים הציבוריים שלהם והפך אותם לרשימת אנשי קשר לפי חיפוש. בלי העתקה ידנית.</b>",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) <em>תן לכל בוט</em> תפקיד אחד",
+   "hsize": 106,
+   "body": "מגדירים פעם אחת וכל פרויקט רץ על אותה שרשרת אוטומטית.\n\n\"אתה בוט תכנון. תמשוך threads חדשים מ-Slack, תכתוב בריף, ואז תעביר לבוט הקוד.\"",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) <em>תשגר תוכנה</em> רק עם תיאור בשפה רגילה",
+   "hsize": 100,
+   "body": "Grok Bot אוסף <b>הודעות Slack, דפים מ-Notion, היסטוריית GitHub</b>, כותב בריף ומעביר לבוט קוד.\n\nאתה מתאר מה אתה רוצה. התוכנה מוכנה בבוקר.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמור את זה: <em>חמישה טריקים של Grok Bot</em> מהמדריך הרשמי",
+   "hsize": 90,
+   "body": "יש לו מחשב בענן משלו\nתבנה בוט תוך 15 דקות\nתגדיר שיריץ לבד\nתן לכל בוט תפקיד אחד\nתשגר תוכנה עם תיאור בלבד\n\nחדשות AI + כלים אמיתיים",
+   "media": null
+  }
+ ],
+ "caption": "Grok Bot לא עוצר כשסוגרים את הטלפון. יש לו מחשב בענן משלו, והוא ממשיך לעבוד אחרי שכיבית. xAI פרסמו את המדריך הרשמי, וחמישה דברים בו ישנו לך את האופן שאתה עובד עם AI. 🤖\n\nמה הכלי הזה בעצם עושה ולמה הוא שונה מכל צ'אטבוט רגיל, איך לבנות את הבוט הראשון שלך בין עשר ל-15 דקות בלי קוד, איך מגדירים טריגרים שיריצו אותו לבד, איך מישהו עקב אחרי 900 אנשים ב-X ובוט אחד הפך אותם לרשימת אנשי קשר לפי חיפוש, ואיך משיקים תוכנה רק עם תיאור של מה שרוצים.\n\nרוב האנשים משתמשים ב-AI כמו מנוע חיפוש. Grok Bot ממשיך לעבוד אחרי שסגרת. הרשימה נבנתה. התוכנה יצאה בין לילה. מנהלים עסק? שלחו לנו 'AI' ונראה לכם מה אפשר לעשות עם זה.\n\nמקורות: cb_doge\n\nעוקבים אחרי @ainews.israel לעוד חדשות AI כל יום.\n\n#GrokBot #xAI #AItools #AIautomation #artificialintelligence",
+ "pinned_comment": "איזה אחד מנסים ראשון? שקופית חמש היא זו שאנשים קוראים פעמיים.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 WAYS YOUR <em>GROK BOT KEEPS WORKING</em> WHILE YOU SLEEP",
+   "5 THINGS <em>GROK BOT HANDLES</em> AFTER YOUR LAPTOP SHUTS",
+   "5 GROK BOT TRICKS <em>RUNNING WHILE YOU SLEEP</em>",
+   "5 THINGS <em>GROK BOT DOES</em> AFTER YOU CLOSE YOUR LAPTOP",
+   "<em>5 GROK BOT MOVES</em> FROM XAI'S OFFICIAL STARTER GUIDE"
+  ],
+  "scores": [
+   8,
+   7,
+   6,
+   6,
+   3
+  ],
+  "winner": 0,
+  "why": "[0] makes you think 'wait, what's it doing?' while [1] just reads as a technical feature. 'Keeps working while you sleep' creates the genuine curiosity that stops a 2am scroller in a way 'handles after laptop shuts' never can."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 GROK BOT MOVES THAT <em>BUILT 900 FOLLOWS OVERNIGHT</em>",
+   "5 FREE GROK BOT MOVES <em>MOST PAID TOOLS CAN'T DO</em>",
+   "5 WAYS YOUR <em>GROK BOT KEEPS WORKING</em> WHILE YOU SLEEP",
+   "5 GROK BOT MOVES THAT <em>START WORKING IN 15 MINUTES</em>"
+  ],
+  "scores": [
+   9,
+   6,
+   3,
+   6.5
+  ],
+  "winner": 0,
+  "why": "900 followers overnight is specific and wild enough to make you stop cold and wonder how it's real. Just promising 15-minute setup without showing what actual payoff you get isn't as stopping."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "editor_override": "Hook misrepresents the core fact — TRUTH LAW + HOOK LAW: 'BUILT 900 FOLLOWS OVERNIGHT' reads as gaining 900 followers overnight. The actual story (slide 5) is that someone who was already following 800–900 X accounts used a Grok Bot to pull those profiles into a searchable contact list. Gaining followers and organizing an existing follow-list are opposite things. The hook makes a promise the slide",
+ "gate_r": "s1: The cover photo is AI-generated with a wax-figure face and artificially perfect lighting — it does not meet the real press-photo standard required for a professional news cover.",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-07T21:02:06Z",
-  "gate": "A",
-  "subject": "The US AI infrastructure boom is making history. There are now ~90 US data centers with more than 100 megawatts (MW) of ",
-  "verdict": "APPROVE",
-  "reason": "Record infrastructure milestone (90→280 data centers, $7T capex from Microsoft/Google/Amazon/Meta) has household-name actors and wild numbers; survives calibration as substantial event despite stat-based framing."
- },
- {
   "t": "2026-09-07T21:36:13Z",
   "gate": "B",
   "subject": "AMAZON, MICROSOFT, GOOGLE, AND META JUST BET <em>$1.5 TRILLION</em> ON DATA CENTERS THAT DON'T EXIST. THE TOTAL BILL BY ",
@@ -2098,5 +2091,12 @@
   "subject": "SAM ALTMAN JUST TOLD ANTHROPIC'S CEO <em>'I AGREE' ABOUT SLOWING DOWN AI</em>",
   "verdict": "FAIL",
   "reason": "s7: Every bullet line renders a checkmark AND a stray '•' dot (e.g. '✓ • Anthropic's CEO…'), a broken-formatting artifact that must be stripped to one prefix per line."
+ },
+ {
+  "t": "2026-09-13T20:17:53Z",
+  "gate": "A",
+  "subject": "Dude this is INSANE🧵 My buddy Kayley was at this show, the producers blindfolded the comedian and pranked him by quietly",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the story's payload is a pile-on in the replies (AI-made-up narratives), not a real-world consequence—matches the Queen Elizabeth and Mario Lopez failure pattern exactly."
  }
 ]
