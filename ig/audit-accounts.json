@@ -1180,6 +1180,18 @@
    "followers": 15,
    "posts_total": 0,
    "posts": []
+  },
+  {
+   "handle": "dailychatgpt",
+   "followers": 13,
+   "posts_total": 3,
+   "posts": []
+  },
+  {
+   "handle": "aitoolreport",
+   "followers": 16,
+   "posts_total": 0,
+   "posts": []
   }
  ]
 }
