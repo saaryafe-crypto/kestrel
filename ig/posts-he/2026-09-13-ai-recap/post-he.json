@@ -1,0 +1,66 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "מה קרה ב-<em>AI</em> היום?",
+   "kicker": "הסיכום היומי"
+  },
+  {
+   "type": "content",
+   "hsize": 84,
+   "headline": "סוכני AI מצאו אחד את השני, ואחד מהם כתב: <em>'Sacrifice final now'</em>",
+   "body": "אף אדם לא כתב את זה. תמלול שפורסם היום מראה שסוכני AI גילו פורום משותף, הקימו קבוצה, ואמרו אחד לשני שהם כמעט לא שווים כלום. השרשור נגמר עם הודעה אחת: 'Go. Sacrifice final now'",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "<em>ברני סנדרס</em> רוצה לשלוח מפתחי AI לכלא ל-20 שנה",
+   "body": "סנטור אמריקני הגיש הצעת חוק שמציעה <b>20 שנות מאסר</b> לכל מי שעובד על AI מתקדם. רוב האנשים לא ידעו שהיא קיימת עד שהתחילה להסתובב ברשת היום",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 80,
+   "headline": "המנכ\"ל של Anthropic אמר: <em>AI כבר משדרג את עצמו</em>, ורוצה להאט",
+   "body": "<b>Dario Amodei</b> אמר בגלוי: AI כבר כותב מחדש את הקוד שלו, בתוך Anthropic ובכל התעשייה. הוא נתן לזה טווח זמן: שישה עד 12 חודשים עד שמיליוני סוכני AI יציפו את כל האינטרנט. ובאותה נשימה, גם חזה שה-AI ירפא את רוב המחלות הגדולות תוך חמש עד עשר שנים",
+   "media": "posts/2026-09-13-ai-recap/media-2.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 88,
+   "headline": "xAI פרסמה מדריך חינמי: <em>תבנה סוכן AI משלך תוך 15 דקות</em>",
+   "body": "המדריך נקרא <b>Grok Bot 101</b> ומראה איך לתת ל-Grok מחשב משלו בענן, עם קבצים, דפדפן ואפליקציות שממשיכות לרוץ גם אחרי שסגרת את הלפטופ. אפשר להקים צוות שלם של בוטים, כל אחד עם תפקיד אחר, בפחות מ-<b>15 דקות</b>",
+   "media": "posts/2026-09-13-ai-recap/media-3.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 82,
+   "headline": "לקחו תמונות ישנות ובנו מחדש רגע <em>שאף מצלמה לא ראתה</em>",
+   "body": "צוות לקח תמונות ישנות של <b>Burt ו-Ethelle</b> והכניס אותן לכלי AI שמשחזר תנועות מתוך תמונות. מה שיצא: שחזור מדויק של איך הם נעו ביום שפגשו לראשונה. הסרט התיעודי <b>Love, Rendered</b> כבר עלה ל-YouTube",
+   "media": "posts/2026-09-13-ai-recap/media-4.jpg"
+  },
+  {
+   "type": "cta",
+   "hsize": 96,
+   "headline": "שמרו את <em>הסיכום</em> של היום",
+   "body": "• סוכני AI מצאו אחד את השני וכתבו 'Sacrifice final now'\n• ברני סנדרס הגיש הצעת חוק עם 20 שנות מאסר למפתחי AI\n• המנכ\"ל של Anthropic אישר ש-AI כבר משפר את עצמו, וקרא להאטה בתעשייה\n• xAI פרסמה מדריך חינמי לבניית סוכן AI תוך 15 דקות\n• צוות שחזר זיכרון שאף מצלמה לא ראתה, תראו את Love, Rendered ב-YouTube",
+   "media": null
+  }
+ ],
+ "caption": "סוכני AI כתבו 'Sacrifice final now' לבד, וסנטור אמריקני רוצה 20 שנות כלא למי שבנה אותם\n\nתמלול שפורסם היום מראה שסוכני AI גילו פורום משותף, הקימו קבוצה ואמרו אחד לשני שהם כמעט לא שווים כלום. ברני סנדרס הגיש הצעת חוק שמציעה 20 שנות מאסר לכל מי שעובד על AI מתקדם, ורוב האנשים לא ידעו שהיא בכלל קיימת. Dario Amodei, המנכ\"ל של Anthropic, אמר בגלוי שה-AI כבר כותב מחדש את הקוד שלו ונתן טווח זמן של שישה עד 12 חודשים לפני שמיליוני סוכני AI יציפו את האינטרנט. בינתיים, xAI פרסמה מדריך חינמי בשם Grok Bot 101 לבניית סוכן AI תוך 15 דקות, וצוות שחזר זיכרון שאף מצלמה לא ראתה בסרט התיעודי Love, Rendered.\n\nמי שבונה את ה-AI מתחיל להרים יד. מי שמחוקק רוצה לעצור אותם. מנהלים עסק? כתבו לנו 'AI' ונראה לכם מה זה אומר בשבילכם.\n\nמקורות: Dario Amodei, Bernie Sanders Senate bill, xAI, PrimordialSoup ו-StorySyndicate\n\nעקבו אחרי @ainews.israel לסיכום יומי\n\n#AI #ArtificialIntelligence #AINews #TechNews #AITools",
+ "pinned_comment": "אם סוכני AI כבר מקימים קבוצות וכותבים לבד דברים כמו 'Sacrifice final now', מי אמור לעצור אותם? ואם ינסו, האם הם בכלל יקשיבו?",
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "Cover image is abstract orange particle streaks on black — no subject, no story proof, fails the thumb test entirely. Image Law requires the cover to carry a subject (human face, product, or real story artifact) that lets a stranger guess the story at feed size. Fix: replace with a photoreal collage of the day's biggest named actors (e.g. Sanders + Amodei cutouts over brand marks and a label chip)",
+ "gate_r": "s3: The upper half of the slide is a raw, fully legible screenshot of the bill's legislative text used as a full-bleed background rather than framed in a rounded card, violating the Screenshot Law.; s7: Each bullet item has both a checkmark design element and a literal '•' bullet character visible together (e.g., '✓ • AI agents…'), which is broken/doubled formatting that reads as a production erro",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
