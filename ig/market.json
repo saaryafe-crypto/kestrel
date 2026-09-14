@@ -1,85 +1,93 @@
 {
- "updated": "2026-09-13T18:21:11+00:00",
+ "updated": "2026-09-14T12:47:19+00:00",
  "competitor_hits": [
   {
    "page": "wired",
-   "likes": 2864,
-   "ratio": 2.12,
-   "tier": "mega",
-   "hook": "\"For most of 2026, a rumor has consumed the world of UFOlogy: President Trump is sitting on a finished speech confirming humanity isn't alone. Whether the \u201cdisclosure speech\u201d actually exists is a topic of rabid discussio",
-   "date": "2026-09-11"
-  },
-  {
-   "page": "wired",
-   "likes": 2699,
-   "ratio": 2.0,
+   "likes": 3063,
+   "ratio": 2.46,
    "tier": "mega",
    "hook": "\"Panic over AI technology\u2019s dangers has intensified in recent weeks. Genuinely stunning advances in AI capabilities\u2014an OpenAI model solved a centuries-old math problem in a matter of hours\u2014have come amid a rash of securi",
    "date": "2026-09-12"
   },
   {
-   "page": "wired",
-   "likes": 2510,
-   "ratio": 1.86,
-   "tier": "mega",
-   "hook": "\"WIRED reported in June that code for NameTag had been secretly embedded in the Meta glasses AI companion app, which had been downloaded more than 50 million times. While the feature had not been enabled for users of the",
-   "date": "2026-09-11"
-  },
-  {
    "page": "futurism",
-   "likes": 3220,
-   "ratio": 1.69,
+   "likes": 4653,
+   "ratio": 2.22,
    "tier": "mega",
-   "hook": "\"Generative AI has infiltrated almost every aspect of our daily lives, whether we like it or not.\n\nIt\u2019s nearly impossible to avoid on social media, and it\u2019s even showing up on dinner menus at the local diner. Some resear",
-   "date": "2026-09-11"
+   "hook": "\"The legendary German director Werner Herzog had a few choice words about other so-called \u201cfilmmakers\u201d who use AI to imitate their inspirations \u2014 one of those inspirations being himself.\n\nIn an interview with @indiewire,",
+   "date": "2026-09-13"
+  },
+  {
+   "page": "technology",
+   "likes": 30000,
+   "ratio": 1.22,
+   "tier": "mega",
+   "hook": "\"Swipe \u27a1\ufe0f to see 7 free alternatives to some of the biggest American software platforms, from Gmail and Google Search to Chrome, WhatsApp, Microsoft Office, and Google Maps \ud83d\udd10\n\nProton Mail and Proton Drive offer encrypted",
+   "date": "2026-09-13"
+  },
+  {
+   "page": "technology",
+   "likes": 19000,
+   "ratio": 0.78,
+   "tier": "mega",
+   "hook": "\"A 22-year-old game is suddenly showing what neural rendering can do, with GTA: San Andreas getting a surprisingly modern visual makeover through DLSS 5 \ud83c\udfae\ud83e\udd2f\n\nThe experiment uses an unofficial community implementation of N",
+   "date": "2026-09-13"
   },
   {
    "page": "wired",
-   "likes": 1478,
-   "ratio": 1.1,
+   "likes": 837,
+   "ratio": 0.67,
    "tier": "mega",
-   "hook": "\"The events and aftermath of 9/11 altered almost every aspect of American society: from the ever-present security theater of daily life\u2014the 3.4-ounce liquid bottles at airports, the defensive bollards that now dominate s",
-   "date": "2026-09-11"
+   "hook": "\"AI researcher Jacob Coxon sent shock waves through Silicon Valley and beyond on Tuesday by announcing his resignation from Anthropic and delivering a grave warning that the AI race is putting all of our lives at risk.\n\n",
+   "date": "2026-09-13"
+  },
+  {
+   "page": "technology",
+   "likes": 13000,
+   "ratio": 0.53,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to see how a newly mapped fruit fly brain became the internet\u2019s latest playground for some seriously unusual digital experiments \ud83e\udde0\ud83e\udeb0\n\nResearchers working with Google Research and HHMI Janelia mapped the adult ma",
+   "date": "2026-09-12"
   },
   {
    "page": "wired",
-   "likes": 517,
-   "ratio": 0.38,
-   "tier": "mega",
-   "hook": "\"Just a couple of years ago, hearing the term \u201cdata center\u201d wouldn\u2019t have struck a nerve with most Americans. Now, mention the noisy oversized warehouses and you\u2019ll spark a fierce debate. The infrastructure powering the ",
-   "date": "2026-09-11"
-  },
-  {
-   "page": "mashable",
-   "likes": 219,
-   "ratio": 0.21,
-   "tier": "mega",
-   "hook": "\"TV's buzziest friend group gives us the adulthood advice we so desperately need. #adults #adultsfx #streaming\".",
-   "date": "2026-09-11"
-  },
-  {
-   "page": "wired",
-   "likes": 274,
-   "ratio": 0.2,
+   "likes": 666,
+   "ratio": 0.53,
    "tier": "mega",
    "hook": "\"These days, a declaration of social media hatred isn\u2019t exactly a hot tech take. But NFL analyst and podcast host Mina Kimes is full of those too. For one, she thinks FaceTiming anyone outside of your family is \u201cinsane b",
    "date": "2026-09-13"
   },
   {
+   "page": "wired",
+   "likes": 447,
+   "ratio": 0.36,
+   "tier": "mega",
+   "hook": "\"In November of 2025, Maddie Kowalski, now 20, was targeted by the burnerverse, a community of anonymous social media accounts, that posted a non-consensual video of her performing sex acts which promptly went viral.\n\nKo",
+   "date": "2026-09-14"
+  },
+  {
+   "page": "technology",
+   "likes": 7037,
+   "ratio": 0.29,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from futuristic hardware and robotics to major industry announcements and experiments \ud83c\udf0d\ud83e\udd16\n\nAn iPod-style Apple Watch case brought back the scroll whe",
+   "date": "2026-09-13"
+  },
+  {
    "page": "mashable",
-   "likes": 178,
-   "ratio": 0.17,
+   "likes": 186,
+   "ratio": 0.1,
    "tier": "mega",
    "hook": "\"Mashable Senior Editor Shannon Connellan sat down with Andrew Garfield, in the historic Charterhouse in London, to unpack the meaning of the 'no kings' lie in 'The Uprising.' \u2060\n#SayMore #TheUprising\".",
    "date": "2026-09-12"
   },
   {
-   "page": "wired",
-   "likes": 151,
-   "ratio": 0.11,
+   "page": "technology",
+   "likes": 394,
+   "ratio": 0.02,
    "tier": "mega",
-   "hook": "\"For one day in Wynwood, Miami, WIRED World Fair, presented by Chase Sapphire Reserve for Business, brings together the technologies, people, and ideas transforming our world. See you there!\n\nTap the \ud83d\udd17 in bio for ticket ",
-   "date": "2026-09-11"
+   "hook": "\"The 1970 Plymouth Superbird gave Richard Petty a 426 Hemi-powered NASCAR machine whose radical aerodynamics helped bring the winged-car era to an early end in NASCAR. \n\nPlymouth\u2019s extended nose cone and towering rear wi",
+   "date": "2026-09-14"
   }
  ],
  "reddit_hot": []
