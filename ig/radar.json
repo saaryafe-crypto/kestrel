@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14T18:08:53.664674+00:00",
+ "updated": "2026-09-14T20:08:58.322941+00:00",
  "moments": [
   {
    "id": "2099548187245584550",
@@ -13,8 +13,8 @@
    "score": 5871,
    "comments_n": 1086,
    "views": 789304,
-   "age_h": 0.6,
-   "vph": 9980.3,
+   "age_h": 2.9,
+   "vph": 2024.5,
    "image": null,
    "images": [],
    "video": null,
@@ -32,8 +32,8 @@
    "score": 8378,
    "comments_n": 1062,
    "views": 1998723,
-   "age_h": 3.6,
-   "vph": 2346.8,
+   "age_h": 5.9,
+   "vph": 1420.0,
    "image": null,
    "images": [],
    "video": null,
@@ -51,32 +51,11 @@
    "score": 3330,
    "comments_n": 264,
    "views": 294478,
-   "age_h": 3.4,
-   "vph": 965.6,
+   "age_h": 5.7,
+   "vph": 584.2,
    "image": "https://pbs.twimg.com/media/HSLwFhBXYAEyetg.png",
    "images": [
     "https://pbs.twimg.com/media/HSLwFhBXYAEyetg.png"
-   ],
-   "video": null,
-   "guide": false
-  },
-  {
-   "id": "2099520050830971003",
-   "title": "BREAKING: President Trump doubles down on his rejection of AI safety concerns. \"Don't kill the Golden Goose,\" Trump says.",
-   "sub": "KobeissiLetter",
-   "where": "@KobeissiLetter on X",
-   "unit": "likes",
-   "selftext": "BREAKING: President Trump doubles down on his rejection of AI safety concerns. \"Don't kill the Golden Goose,\" Trump says.",
-   "permalink": "https://x.com/KobeissiLetter/status/2099520050830971003",
-   "outlink": null,
-   "score": 2234,
-   "comments_n": 131,
-   "views": 173803,
-   "age_h": 2.5,
-   "vph": 911.1,
-   "image": "https://pbs.twimg.com/media/HSL-MFuXMAABhGQ.png",
-   "images": [
-    "https://pbs.twimg.com/media/HSL-MFuXMAABhGQ.png"
    ],
    "video": null,
    "guide": false
@@ -93,11 +72,32 @@
    "score": 7988,
    "comments_n": 138,
    "views": 44928,
-   "age_h": 14.2,
-   "vph": 560.9,
+   "age_h": 16.5,
+   "vph": 484.1,
    "image": "https://pbs.twimg.com/media/HSJccBhbgAA5LU_.jpg",
    "images": [
     "https://pbs.twimg.com/media/HSJccBhbgAA5LU_.jpg"
+   ],
+   "video": null,
+   "guide": false
+  },
+  {
+   "id": "2099520050830971003",
+   "title": "BREAKING: President Trump doubles down on his rejection of AI safety concerns. \"Don't kill the Golden Goose,\" Trump says.",
+   "sub": "KobeissiLetter",
+   "where": "@KobeissiLetter on X",
+   "unit": "likes",
+   "selftext": "BREAKING: President Trump doubles down on his rejection of AI safety concerns. \"Don't kill the Golden Goose,\" Trump says.",
+   "permalink": "https://x.com/KobeissiLetter/status/2099520050830971003",
+   "outlink": null,
+   "score": 2234,
+   "comments_n": 131,
+   "views": 173803,
+   "age_h": 4.8,
+   "vph": 465.4,
+   "image": "https://pbs.twimg.com/media/HSL-MFuXMAABhGQ.png",
+   "images": [
+    "https://pbs.twimg.com/media/HSL-MFuXMAABhGQ.png"
    ],
    "video": null,
    "guide": false
@@ -114,8 +114,8 @@
    "score": 1136,
    "comments_n": 60,
    "views": 35018,
-   "age_h": 2.3,
-   "vph": 496.0,
+   "age_h": 4.6,
+   "vph": 247.0,
    "image": "https://pbs.twimg.com/amplify_video_thumb/2075653682059001856/img/N-waM-QrOUVWbYep.jpg",
    "images": [],
    "video": "https://video.twimg.com/amplify_video/2075653682059001856/vid/avc1/1726x1080/ML4_c1OCCg6bqTr7.mp4?tag=28",
@@ -140,8 +140,8 @@
    "score": 1332,
    "comments_n": 50,
    "views": 62574,
-   "age_h": 4.1,
-   "vph": 328.6,
+   "age_h": 6.4,
+   "vph": 208.1,
    "image": "https://pbs.twimg.com/media/HSLoO85a0AAzYDy.jpg",
    "images": [
     "https://pbs.twimg.com/media/HSLoO85a0AAzYDy.jpg"
@@ -161,8 +161,8 @@
    "score": 1820,
    "comments_n": 127,
    "views": 103754,
-   "age_h": 6.6,
-   "vph": 276.2,
+   "age_h": 8.9,
+   "vph": 204.5,
    "image": "https://pbs.twimg.com/media/HSLFaFFbAAAu4L9.jpg",
    "images": [
     "https://pbs.twimg.com/media/HSLFaFFbAAAu4L9.jpg",
@@ -183,8 +183,8 @@
    "score": 1633,
    "comments_n": 136,
    "views": 102154,
-   "age_h": 9.9,
-   "vph": 164.4,
+   "age_h": 12.2,
+   "vph": 133.9,
    "image": "https://pbs.twimg.com/amplify_video_thumb/2099406968591167488/img/zUmNM9wDZqk81VqV.jpg",
    "images": [],
    "video": "https://video.twimg.com/amplify_video/2099406968591167488/vid/avc1/2160x2160/dz7y0pTn4oiGO9KT.mp4?tag=29",
@@ -209,8 +209,8 @@
    "score": 2284,
    "comments_n": 41,
    "views": 161386,
-   "age_h": 15.9,
-   "vph": 143.8,
+   "age_h": 18.2,
+   "vph": 125.5,
    "image": "https://pbs.twimg.com/media/HSI8qlIa0AEx3zQ.jpg",
    "images": [
     "https://pbs.twimg.com/media/HSI8qlIa0AEx3zQ.jpg"
@@ -230,8 +230,8 @@
    "score": 1785,
    "comments_n": 113,
    "views": 50671,
-   "age_h": 17.3,
-   "vph": 103.4,
+   "age_h": 19.6,
+   "vph": 91.1,
    "image": "https://pbs.twimg.com/media/HSIy7NkaQAAFjEU.jpg",
    "images": [
     "https://pbs.twimg.com/media/HSIy7NkaQAAFjEU.jpg"
@@ -251,8 +251,8 @@
    "score": 1667,
    "comments_n": 30,
    "views": 230910,
-   "age_h": 25.9,
-   "vph": 64.4,
+   "age_h": 28.2,
+   "vph": 59.1,
    "image": "https://pbs.twimg.com/media/HSDVs01X0AMaJuK.jpg",
    "images": [
     "https://pbs.twimg.com/media/HSDVs01X0AMaJuK.jpg"
