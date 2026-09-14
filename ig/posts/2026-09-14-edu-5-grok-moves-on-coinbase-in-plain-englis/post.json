@@ -1,0 +1,79 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>5 THINGS GROK CAN DO</em> ON COINBASE NOW",
+   "kicker": "No trading experience needed",
+   "hsize": 70,
+   "hook_candidates": [
+    "<em>5 THINGS GROK CAN DO</em> ON COINBASE NOW",
+    "GROK JUST LEARNED <em>HOW TO COINBASE.</em> HERE ARE 5 MOVES",
+    "<em>5 COINBASE MOVES GROK NOW MAKES</em> IN PLAIN ENGLISH",
+    "<em>GROK NOW TRADES YOUR COINBASE</em> IN PLAIN ENGLISH",
+    "<em>5 WAYS GROK HANDLES YOUR COINBASE</em> WHILE YOU DO NOTHING"
+   ],
+   "face": "Elon Musk",
+   "media": "posts/2026-09-14-edu-5-grok-moves-on-coinbase-in-plain-englis/gen-0-r.jpg",
+   "image_prompt": "Elon Musk laughing wide, both hands thrusting phone with bright Coinbase logo toward camera, clean bright trading floor, extremely realistic and shocking."
+  },
+  {
+   "type": "content",
+   "headline": "1) BUY CRYPTO <em>BY TYPING ONE SENTENCE</em>",
+   "hsize": 100,
+   "body": "You type it. It executes. No app switching.\n\n\"Buy [$amount] of [coin] on Coinbase at market price.\"\n\nGrok connects to your wallet and the trade goes through.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) SEE YOUR FULL PORTFOLIO <em>IN 3 SECONDS</em>",
+   "hsize": 100,
+   "body": "Ask Grok what you own and it checks your Coinbase account live.\n\n\"Show me my Coinbase portfolio. List each coin I own, its current value, and today's gain or loss.\"\n\nNo tab switching.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) SET A PRICE ALERT <em>IN PLAIN WORDS</em>",
+   "hsize": 90,
+   "body": "Tell Grok in plain words and it monitors the price live.\n\n\"Alert me when Bitcoin drops below $[number] or rises above $[number]. Use my Coinbase data.\"\n\nYou get the notification when it hits.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "GROK TRADES.\nONE SENTENCE.",
+   "hsize": 85,
+   "body": "",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) SEND CRYPTO <em>FROM ONE LINE OF TEXT</em>",
+   "hsize": 104,
+   "body": "One Grok command. No manual steps, no copy-paste errors.\n\n\"Send [amount] of [coin] to this wallet: [wallet address]. Use my Coinbase account.\"\n\nPaste the address in once. Grok handles the rest.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) RESEARCH A COIN <em>AND BUY IN THE SAME WINDOW</em>",
+   "hsize": 88,
+   "body": "\"Look at what people on X are saying about [coin] right now. Check its Coinbase price. Tell me how much $[amount] would buy, then ask me to confirm before purchasing.\"\n\nThree jobs. One window.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: <em>ALL 5 GROK COINBASE MOVES</em>",
+   "hsize": 100,
+   "body": "1) Buy crypto in one sentence\n2) Check your portfolio live\n3) Set price alerts plainly\n4) Send crypto with one command\n5) Research, buy in one window\n\nDaily AI news + real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5. Grok just connected to Coinbase, and it changes how crypto works. \ud83e\udd16\n\nSlides 2 through 7 each cover one move and show you the exact prompt to try tonight, from buying a coin with one sentence all the way to researching X sentiment and buying without switching apps.\n\nWhat just happened: Grok gained access to Coinbase. AI now handles crypto the same way it handles writing and search. The gap between people who know this just got real wide. Informational only, not investment advice.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: coinbase\n\n#Grok #Coinbase #Crypto #AI #Bitcoin",
+ "pinned_comment": "Which one are you trying first? Slide 2 is the one most people can't believe actually works.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "editor_override": "Slide 4 (price alert) claims Grok 'monitors the price live' and 'you get the notification when it hits' \u2014 a proactive push-alert capability that is architecturally distinct from the on-demand query pattern every other slide describes. If the integration does not run a persistent background monitor and push a notification unprompted, this is a false claim that will break the reader's trust the mome",
+ "gate_r": "s1: The AI-generated face is a textbook wax-figure render \u2014 over-smoothed skin, hyperextended grin, glassy eyes \u2014 which fails the photo quality bar; the slide reads cleaner as a bold text cover."
+}
