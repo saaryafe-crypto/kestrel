@@ -3,59 +3,54 @@
  "updated": "2026-09-14",
  "hot": [
   {
-   "name": "Sandra Bullock",
-   "why_hot_now": "Practical Magic 2 opened at #1 this weekend with ~$30M, her biggest theatrical debut in years.",
-   "typical_scene": "moonlit cottage, witchy sister energy, Nicole Kidman at her side"
-  },
-  {
-   "name": "Nicole Kidman",
-   "why_hot_now": "Practical Magic 2 put her back at #1 at the box office this weekend alongside Bullock.",
-   "typical_scene": "flowing robes, gothic garden, casting a spell at midnight"
-  },
-  {
    "name": "Charli XCX",
-   "why_hot_now": "Her Music, Fashion, Film Tour is ripping through arenas right now as one of fall 2026's hottest runs.",
-   "typical_scene": "silver bodysuit, industrial strobe lights, crowd surfing mid-set"
+   "why_hot_now": "Her Music, Fashion, Film arena tour just launched September 11 in Philadelphia, with Barclays Center shows happening this exact weekend.",
+   "typical_scene": "strobe-lit stage in a silver bodysuit, crowd going full brat"
   },
   {
    "name": "Olivia Rodrigo",
-   "why_hot_now": "The Unraveled Tour promo is everywhere this week ahead of its September 25 launch.",
-   "typical_scene": "acoustic guitar under dim pink light, torn vintage dress"
+   "why_hot_now": "The Unraveled Tour launches September 25 behind her album 'You Seem Pretty Sad for a Girl So in Love,' with lead single 'Drop Dead' having gone #1 in the US and UK.",
+   "typical_scene": "purple stage lighting, front-row fans sobbing with signs"
   },
   {
-   "name": "Bruno Mars",
-   "why_hot_now": "The Romantic Tour kicks off September 19 at Hard Rock Stadium; ticket frenzy all week.",
-   "typical_scene": "fedora tilted, confetti rain, stadium crowd on its feet"
+   "name": "The Mandalorian & Grogu",
+   "why_hot_now": "Dropped on Disney+ September 2 and hit #1 in 70 countries within days despite a disappointing theatrical run.",
+   "typical_scene": "Mando and baby Grogu in a dusty alien cantina, big sad eyes"
   },
   {
-   "name": "Brad Pitt",
-   "why_hot_now": "Heart of the Beast — survival thriller with him and a combat dog — is in theaters this week.",
-   "typical_scene": "muddy jungle fatigues, loyal dog, ex-Special Forces lone survivor"
+   "name": "Alix Earle",
+   "why_hot_now": "Her Netflix reality show 'Earle Meets World' premiered September 4, turning her from TikTok it-girl to bonafide TV personality.",
+   "typical_scene": "ring-lit hotel bathroom counter GRWM, products everywhere"
+  },
+  {
+   "name": "Jeremy Allen White",
+   "why_hot_now": "The Bear leads tonight's Emmy Awards (September 14), capping a massive awards-season run for him and the show.",
+   "typical_scene": "chef whites, sweat-soaked, intense stare over a chaotic kitchen pass"
   },
   {
    "name": "Mariska Hargitay",
-   "why_hot_now": "Hosting the 78th Emmy Awards tonight, the first woman to host the show in 15 years.",
-   "typical_scene": "center stage at the Peacock Theater, gown, monologue mic"
+   "why_hot_now": "Hosting tonight's Emmy Awards — the first woman to host in 15 years — and already won an Emmy this week for documentary 'My Mom Jayne.'",
+   "typical_scene": "floor-length gown at the Emmy podium, clutching two gold statues"
   },
   {
-   "name": "Jean Smart",
-   "why_hot_now": "Hacks Season 5 earned a record 24 Emmy nominations; she's the sentimental favorite to win tonight.",
-   "typical_scene": "sharp blazer, killer one-liner, standing ovation mid-roast"
+   "name": "Monster",
+   "why_hot_now": "Netflix's Ryan Murphy anthology returned for a Lizzie Borden season that's dominating recommendation algorithms this week.",
+   "typical_scene": "candlelit Victorian parlour, true-crime Reddit thread open on the side"
   },
   {
-   "name": "Rhea Seehorn",
-   "why_hot_now": "Pluribus is the Emmy drama frontrunner tonight and she's tipped for Lead Actress in Drama.",
-   "typical_scene": "cold courthouse hallway, intense stare, legal files under arm"
+   "name": "The Pitt",
+   "why_hot_now": "Leads all shows heading into tonight's Emmys with a staggering 25 nominations.",
+   "typical_scene": "frantic ER hallway sprint, trauma team in scrubs, heart monitors beeping"
   },
   {
-   "name": "Shailene Woodley",
-   "why_hot_now": "Won her first Emmy this week for Guest Actress in a Drama Series for Paradise.",
-   "typical_scene": "tearful acceptance speech, Emmy clutched with both hands"
+   "name": "Luna Nightingale",
+   "why_hot_now": "TikTok-launched debut single 'Summer Breeze' crossed 100 million views and pushed her to mainstream attention at just 16.",
+   "typical_scene": "barefoot beach acoustic session, phone-flashlight crowd in the dark"
   },
   {
-   "name": "Meghan Markle",
-   "why_hot_now": "She and Harry's surprise relocation back to the UK with the kids went viral this week.",
-   "typical_scene": "English countryside estate, casual chic, kids running in the garden"
+   "name": "Industry",
+   "why_hot_now": "HBO's finance-world drama hit Season 4 and crossed from cult fave to mainstream must-watch according to every streaming roundup this month.",
+   "typical_scene": "London trading floor at 3 a.m., someone snorting something off a Bloomberg terminal"
   }
  ],
  "memes": [
@@ -70,7 +65,7 @@
  "ai_flagships": [
   "Claude Fable 5.1",
   "GPT-6 Astra",
-  "Gemini 3.8 Flash",
+  "Gemini 3.1 Pro",
   "Grok 4.6",
   "Muse Spark 1.3"
  ]

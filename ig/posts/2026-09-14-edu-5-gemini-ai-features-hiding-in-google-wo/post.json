@@ -1,0 +1,77 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 AI POWERS <em>HIDING IN YOUR GOOGLE APPS</em>",
+   "kicker": "ALMOST NOBODY HAS TURNED THEM ON",
+   "hsize": 72,
+   "hook_candidates": [
+    "5 AI POWERS <em>HIDING IN YOUR GOOGLE APPS</em>",
+    "<em>5 GOOGLE AI FEATURES</em> ALMOST NOBODY HAS TURNED ON",
+    "5 AI TOOLS <em>ALREADY INSIDE YOUR GOOGLE ACCOUNT</em>",
+    "<em>GOOGLE HID AI</em> IN 5 APPS MOST PEOPLE USE EVERY DAY",
+    "5 THINGS GOOGLE'S AI DOES <em>THAT MOST PEOPLE NEVER FIND</em>"
+   ],
+   "face": "Sundar Pichai",
+   "media": "posts/2026-09-14-edu-5-gemini-ai-features-hiding-in-google-wo/gen-0.jpg",
+   "image_prompt": "Sundar Pichai grinning behind a colorful outdoor market stall heaped with glowing Gmail envelopes and Google Doc pages, leaning across to hand one directly to camera, the Google logo exactly as in the reference image on the banner above, vivid blue red yellow green daylight, extremely realistic and shocking."
+  },
+  {
+   "type": "content",
+   "headline": "1) DRAFT ALL YOUR GMAIL REPLIES <em>IN YOUR OWN VOICE</em>",
+   "hsize": 100,
+   "body": "Find the <b>sparkle icon (\u2726)</b> at the bottom of any compose window.\n\nType one sentence about what to say, click <b>Generate</b>, and Gmail writes the full reply in your style.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) TURN <em>THREE BULLET POINTS</em> INTO A FOUR-PAGE PROPOSAL",
+   "hsize": 100,
+   "body": "Find the <b>AI pen icon</b> or 'Help me write' at the top of any blank Doc.\n\nDescribe what you need and press <b>Generate</b>.\n\nThree bullets in, a four-page proposal out in <b>45 seconds</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) ASK YOUR SPREADSHEET A QUESTION <em>IN PLAIN ENGLISH</em>",
+   "hsize": 100,
+   "body": "Find the <b>Explore</b> button in the bottom-right corner of any Sheets file.\n\nType your question, 'Which product made the most money last month?', and press Enter.\n\nSheets reads the whole file.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "YOU ALREADY HAVE ALL 5",
+   "hsize": 120,
+   "body": "Gmail. Docs. Sheets. Meet. Slides. Google built AI into every one. Almost nobody has switched it on",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) LET GOOGLE MEET <em>WRITE YOUR MEETING NOTES FOR YOU</em>",
+   "hsize": 100,
+   "body": "Click the <b>three-dot menu</b> at the bottom of any Google Meet call and select <b>'Take notes with Gemini'</b>.\n\nYou walk out of every call with the notes already done.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) BUILD A COMPLETE PRESENTATION <em>FROM ONE SENTENCE</em>",
+   "hsize": 100,
+   "body": "Look for the <b>Gemini or AI star icon</b> in the Google Slides toolbar.\n\nType one sentence about your topic and press <b>Generate</b>.\n\nA full deck out in about <b>30 seconds</b>.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: ALL 5 AI POWERS <em>IN YOUR GOOGLE APPS</em>",
+   "hsize": 100,
+   "body": "Gmail: Drafts replies in your voice\nDocs: Proposal from three bullets\nSheets: Answers questions in plain English\nMeet: Writes your meeting notes\nSlides: Full deck from one sentence\n\nDaily AI news and real skills",
+   "media": null
+  }
+ ],
+ "caption": "Swipe through all 5. \ud83d\udca1 These AI features are already inside the Google apps most businesses pay for every month and never touch.\n\nGmail's AI drafts full replies in your own voice, Google Docs turns three bullet points into a complete four-page proposal in 45 seconds, Google Sheets answers any question about your data in plain English without a formula, Google Meet writes and saves your meeting notes automatically when the call ends, Google Slides builds a full presentation from one sentence in about 30 seconds.\n\nGoogle built AI into the tools most businesses already use and pay for. Almost all of it sits switched off by default. Business owners who find these features are doing in 20 minutes what used to take a morning.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Google Workspace\n\n#ai #googleworkspace #artificialintelligence #productivity #business",
+ "pinned_comment": "Which one are you turning on first? The Meet notes one (slide 6) is the sleeper. People always say they had no idea it was sitting there.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "",
+ "topic_source": "ignored-pool"
+}
