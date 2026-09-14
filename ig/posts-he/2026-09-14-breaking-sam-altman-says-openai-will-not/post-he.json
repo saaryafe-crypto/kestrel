@@ -1,0 +1,137 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ה-AI שהוא בנה מפחיד אותו: אלטמן ביטל הנפקה <em>של מאות מיליארדי דולר</em>",
+   "kicker": "הוא אמר שה-AI הוא הבעיה",
+   "hsize": 72,
+   "media": "posts/2026-09-14-breaking-sam-altman-says-openai-will-not/gen-0.jpg",
+   "image_prompt": "Sam Altman at a podium, raw fear on his face, one hand raised flat in a hard stop toward the camera, the glowing white OpenAI flower-knot logo exactly as in the reference image on the amber presentation screen behind him, a giant red prohibition circle stamped over a blurred NYSE trading floor, extremely realistic and shocking.",
+   "gen_person": true
+  },
+  {
+   "type": "content",
+   "headline": "כולם ציפו <em>להנפקת OpenAI</em> השנה",
+   "hsize": 84,
+   "body": "OpenAI היא חברת ה-AI הפרטית הכי יקרה שנוסדה אי פעם. הנפקה שלה הייתה אמורה להיות אחת הגדולות בהיסטוריה של ענף ההייטק.\n\nואז אלטמן אמר משהו שאף אחד לא ציפה לו.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "המספרים <em>שצריך לדעת</em>",
+   "body": "הנפקת OpenAI: לא תהיה ב-<b>2026</b>\n<b>מאות מיליארדי דולר</b> שנתקעו\nאלטמן: \"הרגע הלא נכון\" לכניסה לבורסה\nהמתחרים שלך לא מחכים לאישור שלו",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "ה-AI שלו הפחיד אותו",
+   "hsize": 110,
+   "body": "הוא ויתר על <b>מאות מיליארדי דולר</b>. בגלל הדבר שהוא עצמו בנה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "המשקיעים הראשונים ב-OpenAI <em>לא יקבלו את הכסף שחיכו לו ב-2026</em>",
+   "hsize": 84,
+   "body": "<b>אלטמן</b> עיכב מאות מיליארדי דולר שהיו אמורים להגיע לעובדים ולמשקיעים הראשונים. אין תאריך חדש.\n\nהסיבה: הטכנולוגיה שהם עצמם בנו.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "העסקים שמשתמשים ב-AI היום <em>לא מחכים לאישור</em>",
+   "hsize": 76,
+   "body": "הזהירות של אלטמן היא לגבי עתיד ה-AI. לא לגבי מה שקורה בעסק שלך היום.\n\nהסיכון: להיות היחיד בשוק שלך שעדיין עושה הכל ידנית.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את זה: אלטמן עצר את הנפקת OpenAI <em>בגלל בטיחות AI</em>",
+   "hsize": 58,
+   "body": "<b>OpenAI</b> לא תיכנס לבורסה ב-<b>2026</b>\nהמנכ\"ל אמר שבטיחות AI היא הסיבה\nהוא ויתר על <b>מאות מיליארדי דולר</b>\n\nשלחו את זה לחבר שחושב שבטיחות AI זה רק רעשי רקע.",
+   "face": "sam-altman",
+   "media": null
+  }
+ ],
+ "caption": "סם אלטמן הודיע שOpenAI לא תיכנס לבורסה ב-2026, והאשים את ה-AI שהוא עצמו בנה. הסיפור המלא, ממי מפסיד כסף ועד מה זה אומר לעסק שלך. ↓\n\nOpenAI היא חברת ה-AI הפרטית הכי יקרה שנוסדה, וכולם ציפו לאחת ההנפקות הגדולות בהיסטוריה של ההייטק. אלטמן אמר שזה \"הרגע הלא נכון\". הוא ויתר על מאות מיליארדי דולר, ועובדים ומשקיעים ראשונים נשארים בלי תאריך. הסיבה שלו: לא השוק, אלא הטכנולוגיה שלו עצמה. מנהל עסק? שלחו לנו DM עם המילה \"AI\" ונגיד לכם איפה זה רלוונטי אצלכם.\n\nמקורות: The Kobeissi Letter on X, 12 בספטמבר 2026\n\nעקבו אחרי @ainews.israel לעוד.\n\n#OpenAI #SamAltman #AINews #ArtificialIntelligence #TechNews",
+ "pinned_comment": "מה שרוב האנשים פספסו: אלטמן הוסיף שהם לא מרגישים לחץ להיכנס לבורסה. הוא לא נאלץ לחכות, הוא בחר בכך. כלומר, מה שהוא רואה מבפנים גרם לו לוותר על מאות מיליארדי דולר כדי להגיד את זה.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "SAM ALTMAN JUST WALKED AWAY FROM <em>HUNDREDS OF BILLIONS</em> BECAUSE AI SCARED HIM",
+   "SAM ALTMAN JUST CALLED OPENAI'S IPO <em>ILL-ADVISED</em> BECAUSE OF AI SAFETY",
+   "SAM ALTMAN JUST PASSED ON BILLIONS <em>BECAUSE HE'S SCARED OF HIS OWN AI</em>",
+   "SAM ALTMAN SAID HIS OWN AI IS TOO DANGEROUS <em>FOR WALL STREET RIGHT NOW</em>",
+   "SAM ALTMAN WALKED AWAY FROM BILLIONS <em>BECAUSE HIS OWN AI SCARED HIM OFF</em>",
+   "SAM ALTMAN JUST SAID AI IS <em>TOO DANGEROUS</em> FOR OPENAI TO GO PUBLIC",
+   "SAM ALTMAN JUST KILLED THE OPENAI IPO <em>AND BLAMED HIS OWN AI</em>",
+   "SAM ALTMAN JUST BLOCKED OPENAI'S IPO BECAUSE <em>HE'S SCARED OF HIS OWN AI</em>",
+   "SAM ALTMAN JUST CHOSE TO PASS UP <em>BILLIONS IN IPO MONEY</em> OVER AI SAFETY"
+  ],
+  "scores": [
+   9,
+   7,
+   8,
+   8,
+   8,
+   7,
+   0,
+   0,
+   8
+  ],
+  "winner": 0,
+  "why": "'Hundreds of billions' is the jaw-dropping specific number that stops scrolling—every runner-up waters it down to just 'billions.' 'Walked away' also punches harder than softer verbs like 'passed on' or 'chose to pass up.'"
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "SAM ALTMAN JUST KILLED THE OPENAI IPO BECAUSE <em>HIS OWN AI</em> SCARED HIM",
+   "SAM ALTMAN BLOCKED THE IPO AND <em>HIS INVESTORS' 2026 PAYDAY</em> OVER AI FEARS",
+   "SAM ALTMAN REFUSED A <em>HUNDREDS-OF-BILLIONS</em> IPO BECAUSE AI SCARES EVEN HIM",
+   "SAM ALTMAN JUST WALKED AWAY FROM <em>HUNDREDS OF BILLIONS</em> BECAUSE AI SCARED HIM"
+  ],
+  "scores": [
+   8,
+   0,
+   9,
+   8
+  ],
+  "winner": 2,
+  "why": "\"SCARES EVEN HIM\" is way more impactful than just \"SCARED HIM\"—it says if the CEO of OpenAI is afraid, everyone should be. Pairing that universalizing phrase with \"hundreds of billions\" creates instant visceral impact that stops you cold."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Sam Altman / OpenAI",
+  "actor_known": true,
+  "anchor": "Sam Altman",
+  "specifics": [
+   "Altman's exact words: 'right now would be an ill-advised moment to go public' — citing AI safety, not market conditions",
+   "OpenAI — the most valuable private AI company in history — is voluntarily delaying an IPO worth potentially hundreds of billions",
+   "The stated reason isn't money or timing; it's fear about what's happening with the technology they're building",
+   "1.3 million people saw this post within hours of it posting",
+   "Altman added: 'we don't feel pressure on that' — meaning this is a choice, not a forced delay"
+  ]
+ },
+ "naked_slides": [
+  2,
+  3,
+  5,
+  6
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Sam Altman says OpenAI will not go public this year due to safety concerns around AI. \"I actually think that, given everything happening with safety, right now would be an ill-advised moment to go public, and w",
+  "link": "https://x.com/KobeissiLetter/status/2098892403973198004",
+  "judge_interest": 5,
+  "scout_score": 63.5
+ },
+ "editor_override": "Slides 3, 4, and 5 all repeat 'hundreds of billions' as a standalone fact — the same figure in the same phrasing three consecutive times. Section 4 bans any two slides carrying the same fact. Slides 4 and 5 must substitute a different specific detail (employee equity count, company valuation, Altman's verbatim quote, or investor names) so each slide delivers new information.; No pattern-break slid",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

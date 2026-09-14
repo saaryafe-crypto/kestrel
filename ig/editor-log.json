@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-08T06:03:37Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — COMPLETE IMAGE LAW FAILURE: The image is a forest floor with green moss and a tree trunk. It has zero connection to AI, technology, or any story in this recap. The thumb test fails completely — a stranger seeing this at feed size would guess a nature documentary, not an AI news roundup. Image Law requires the cover to be PROOF or a STAGED SCENE of the story. The correct cover for a d"
- },
- {
   "t": "2026-09-08T06:05:41Z",
   "gate": "B",
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
@@ -2098,5 +2091,12 @@
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-14T15:01:32Z",
+  "gate": "A",
+  "subject": "Jews are not nervous about AI safety, they are nervous about losing AI control. Thus they need the Jewish controlled gov",
+  "verdict": "KILL",
+  "reason": "Antisemitic conspiracy theory with no verifiable event, no real-world consequence, and no substance—pure ideology framed as allegation."
  }
 ]
