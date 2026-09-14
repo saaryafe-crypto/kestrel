@@ -1,40 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Unknown actor, 48-character source with zero consequence—someone used a tool as designed, not a jaw-dropping event anyone would share; pure routine padding.",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "t": "2026-09-07T23:21:07Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Infrastructure trend analysis without a specific news event; aggregate leasing data and future projections lack the viral-specific, jaw-dropping moment the standard requires—compare to the rule's own examples (founder made X, person lost Y, company just released Z) versus 'analysts note the buildout reached this aggregate milestone.'",
-  "subject": "The US AI infrastructure boom is making history. There are now ~90 US data centers with more than 100 megawatts (MW) of ",
-  "t": "2026-09-07T23:22:21Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "CAST TRUTH FAIL — the cover subject is Sam Altman, but he has zero role in this story. The actor is Justine Moore. The Vendor Cast exception is explicitly limited to 'a post teaching the use of a named famous tool' (guide/education covers); this is a daily_item news/story post about Justine Moore's demo, not a usage guide. Sam Altman as decoration is a cast-truth violation regardless of the GPT-6 ",
-  "subject": "GPT-6 JUST KILLED THE WEDDING WEBSITE INDUSTRY IN 5 MINUTES 59 SECONDS, <em>AND 356,000 PEOPLE WERE WATCHING WHEN IT HAP",
-  "t": "2026-09-08T00:01:07Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "GPT-6 JUST KILLED THE WEDDING WEBSITE INDUSTRY IN 5 MINUTES 59 SECONDS, <em>AND 356,000 PEOPLE WERE WATCHING WHEN IT HAP",
-  "t": "2026-09-08T00:05:47Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-09-08T05:57:17Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — complete concept failure: the image is a forest floor (green moss, fallen branches, a tree trunk) with zero connection to AI or tech. The thumb test fails instantly — a stranger sees nature content, not an AI news recap. Image Law requires every cover to be PROOF of the headline; this image proves nothing. Replace with a photoreal collage of today's biggest story visuals (e.g., the O"
- },
- {
   "t": "2026-09-08T06:03:37Z",
   "gate": "B",
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-14T04:08:47Z",
   "gate": "R",
   "subject": "TRUMP PERSONALLY <em>SHOT DOWN EVERY BRAKE ON AI</em>. YOUR JOB <em>IS OFFICIALLY UNPROTECTED</em>.",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-14T06:19:42Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Slide 6 body: 'the most powerful models in the world' — 'models' fails the FRIEND TEST (owner Sep 10 hard rule, explicitly named as a REJECT trigger). Rewrite: 'the companies building the most powerful AI in the world.'; Slide 6 body: the four labs are never named. 'All four' is an unverifiable vague claim — name them (e.g., OpenAI, Anthropic, Google DeepMind, Meta AI) so the reader can repeat it "
+ },
+ {
+  "t": "2026-09-14T06:23:36Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Slide 3 breaks the cover contract (§4): the hook promises 'WHAT JUST HAPPENED IN AI TODAY?' but the Tesla Roadster slide has zero AI content — it is a car-reveal countdown with no AI angle stated or implied. Fix: remove it and replace with an AI story, or reframe with an explicit Tesla AI/FSD connection if one is real and supported by the source.; Cover image shows 'OpenAi' (lowercase 'i') instead"
+ },
+ {
+  "t": "2026-09-14T06:28:56Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Slide 5 body fails the Friend Test: 'ISRO launched the GSLV-F17 rocket carrying EOS-05' stacks three technical designations nobody says out loud. GSLV-F17 and EOS-05 are meaningless to a 12-year-old. Spoken rewrite: 'India's space agency put a satellite into orbit that hovers over the same patch of Earth and never moves — most satellites loop overhead and disappear every few hours, this one stays."
+ },
+ {
+  "t": "2026-09-14T06:32:21Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Slide 3 headline breaks §2's one-action rule: 'TESLA'S ROADSTER SITE JUST WOKE UP, THE AI CAR COMPANY IS BACK' joins two actions with a comma — same problem as AND. 'THE AI CAR COMPANY IS BACK' is vague and the weaker clause; cut it. Fix to one concrete action, e.g. 'TESLA JUST STARTED A ROADSTER COUNTDOWN FOR THE FIRST TIME IN 9 YEARS.'; Slide 3 body fails the Friend Test (§4) and Human Voice law"
+ },
+ {
+  "t": "2026-09-14T06:32:45Z",
+  "gate": "R",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "PASS",
   "reason": ""
  }

@@ -1,0 +1,60 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP",
+   "media": "posts/2026-09-14-ai-recap/gen-0-emergency.jpg"
+  },
+  {
+   "type": "content",
+   "hsize": 88,
+   "headline": "<em>SAM ALTMAN</em> JUST PULLED OPENAI'S IPO",
+   "body": "Sam Altman said OpenAI won't list on any stock market this year, and he gave one reason: <b>AI safety</b>. \"Right now would be an ill-advised moment to go public,\" he said. The company behind ChatGPT stays private for now",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "TESLA'S ROADSTER SITE <em>JUST WOKE UP</em>, THE <em>AI</em> CAR COMPANY IS BACK",
+   "body": "Tesla, the company using <b>real-world AI</b> to train the world's largest self-driving fleet, updated the Roadster's website for the first time in nearly <b>9 years</b>. A countdown hits zero on <b>October 1</b> in <b>Waco, Texas</b>, and reservation holders already have their invites.",
+   "media": "posts/2026-09-14-ai-recap/media-1.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "content",
+   "hsize": 88,
+   "headline": "<em>ANTHROPIC</em> JUST PICKED ITS STOCK MARKET",
+   "body": "Claude's maker chose <b>Nasdaq</b> for its upcoming IPO. Same day Altman said OpenAI is sitting out, Anthropic is doing the exact opposite, and now the two biggest AI rivals have completely different plans for your money",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "INDIA JUST LAUNCHED ITS <em>FIRST-EVER</em> EYE IN THE SKY",
+   "body": "India's space agency (<b>ISRO</b>) put a satellite into orbit that hovers over the same patch of Earth and never moves. Most satellites loop overhead and disappear, this one parks over the same spot and never leaves, giving India continuous imaging coverage for the first time.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "hsize": 76,
+   "headline": "ALL <em>FOUR BIG AI COMPANIES</em> JUST CALLED FOR A SLOWDOWN",
+   "body": "<b>OpenAI</b>, <b>Anthropic</b>, <b>Google DeepMind</b>, and <b>Meta AI</b> all came out the same day asking the industry to <b>slow down</b>. The companies building the most powerful AI in the world are now saying out loud they're worried, and that has never happened before",
+   "media": "posts/2026-09-14-ai-recap/media-4.jpg",
+   "layout": "evidence"
+  },
+  {
+   "type": "cta",
+   "hsize": 110,
+   "headline": "SAVE <em>TODAY'S AI BRIEFING</em>",
+   "body": "\u2726 OpenAI staying private, Altman cited AI safety\n\u2726 Tesla Roadster countdown: Oct 1 reveal in Waco, TX\n\u2726 Anthropic picks Nasdaq for its IPO\n\u2726 India launches first geosynchronous imaging satellite\n\u2726 All four major AI labs call for a slowdown",
+   "media": null
+  }
+ ],
+ "caption": "Swipe \u2b05\ufe0f to see what happened in AI in the last 24 hours, from Sam Altman pulling OpenAI's IPO to all four major AI labs calling for a slowdown.\n\nSam Altman says OpenAI won't go public this year, citing AI safety. Tesla's Roadster website came back to life after 9 years with a countdown to an October 1 reveal in Waco, Texas. Anthropic picked Nasdaq for its IPO. India launched its first imaging satellite in geosynchronous orbit. All four frontier AI labs publicly called for a slowdown on the same day.\n\nIn one day: OpenAI paused its IPO, Anthropic picked a stock exchange, and all four major AI labs said the industry is moving too fast. The people building the most powerful AI are nervous, and the money keeps flowing. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: OpenAI, Tesla, Anthropic, ISRO\n\n#AI #tech #artificialintelligence #OpenAI #Tesla",
+ "pinned_comment": "Sam Altman says AI safety is the reason OpenAI won't go public, but Anthropic picked its stock exchange the same day. Do the biggest AI labs actually want to slow down, or is this something they say to buy themselves time?",
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "Slide 3 headline breaks \u00a72's one-action rule: 'TESLA'S ROADSTER SITE JUST WOKE UP, THE AI CAR COMPANY IS BACK' joins two actions with a comma \u2014 same problem as AND. 'THE AI CAR COMPANY IS BACK' is vague and the weaker clause; cut it. Fix to one concrete action, e.g. 'TESLA JUST STARTED A ROADSTER COUNTDOWN FOR THE FIRST TIME IN 9 YEARS.'; Slide 3 body fails the Friend Test (\u00a74) and Human Voice law"
+}
