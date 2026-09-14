@@ -459,9 +459,13 @@ def slide_html(s, total):
             swipe = 'Full video next <em>→</em>'
         elif (s.get("kicker") or "").strip():
             kick = html.escape(re.sub(r"<[^>]+>", "", s["kicker"]).strip().upper())
-            swipe = f'{kick} <em>→</em>'
+            # ↓ not → since Sep 14 single-picture posts: the arrow points
+            # at the caption, there is no next slide
+            swipe = f'{kick} <em>↓</em>'
         else:
-            swipe = 'Swipe for more <em>→</em>'
+            # single-picture posts (owner Sep 14): nothing to swipe — the
+            # story lives in the caption now, point there
+            swipe = 'Full story in the caption <em>↓</em>'
         logos = ""
         if s.get("badge_logo") and os.path.exists(
                 os.path.join(HERE, "logos", f'{s["badge_logo"]}.svg')):
@@ -663,9 +667,9 @@ def cover_overlay(post_path, out_png):
         if (s.get("kicker") or "").strip():
             kick = html.escape(re.sub(r"<[^>]+>", "",
                                       s["kicker"]).strip().upper())
-            swipe = f'{kick} <em>→</em>'
+            swipe = f'{kick} <em>↓</em>'
         else:
-            swipe = 'Swipe for more <em>→</em>'
+            swipe = 'Full story in the caption <em>↓</em>'
         page = f'''<!doctype html><meta charset="utf-8"><style>{css}</style>
 <body class="cover"><div class="bleed"></div><div class="videofade"></div>
 <div class="shade"></div>

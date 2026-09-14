@@ -45,8 +45,8 @@
     "reject": "stock-looking, watermarked, below 1000px wide, caption chips baked in, emotionally flat"
   },
   "caption_blocks": [
-    {"block": "hook", "spec": "Swipe instruction + one sentence naming the range of what's inside, exactly one emoji", "max_chars": 160},
-    {"block": "index", "spec": "Dense paragraph, every item named in sequence, comma separated, no line breaks", "max_chars": 600},
+    {"block": "hook", "spec": "First line = the story's payoff in plain searchable words + exactly one emoji. NEVER a swipe instruction — posts are one picture since Sep 14, there is nothing to swipe.", "max_chars": 160},
+    {"block": "story", "spec": "THE STORY ITSELF (owner order Sep 14, single-picture posts: the caption now tells what the slides used to tell) — the whole news summarized in a great and simple way: 2-4 short paragraphs, smart-12-year-old words, every key number and name kept, the twist, ending on one blunt take. For roundup posts: one short line per story instead. For guide posts (ai_education): the caption IS the guide — every skill the cover promised, numbered, each with its prompt in quotes, compressed to fit.", "max_chars": 1300},
     {"block": "trend", "spec": "Zoom-out paragraph: what it means collectively", "max_chars": 300},
     {"block": "sources", "spec": "'Sources:' + named organizations, comma separated. Mandatory.", "max_chars": 160},
     {"block": "hashtags", "spec": "Exactly five broad hashtags", "max_chars": 120}

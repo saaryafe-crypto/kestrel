@@ -409,9 +409,13 @@ def slide_html(s, total, fallback_media=None):
             swipe = '<span>הסרטון המלא בתמונה הבאה</span><em>&#8594;</em>'
         elif (s.get("kicker") or "").strip():
             kick = html.escape(re.sub(r"<[^>]+>", "", s["kicker"]).strip())
-            swipe = f'<span>{kick}</span><em>&#8594;</em>'
+            # &#8595; (down) since Sep 14 single-picture posts: points at
+            # the caption, there is no next slide
+            swipe = f'<span>{kick}</span><em>&#8595;</em>'
         else:
-            swipe = '<span>החליקו לעוד</span><em>&#8594;</em>'
+            # single-picture posts (owner Sep 14): the story lives in the
+            # caption — point down, not sideways
+            swipe = '<span>הסיפור המלא בתיאור</span><em>&#8595;</em>'
         logos = ""
         if s.get("badge_logo") and os.path.exists(
                 os.path.join(HERE, "logos", f'{s["badge_logo"]}.svg')):

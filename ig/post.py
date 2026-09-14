@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
-"""Sends a rendered post to the Make.com webhook, which publishes the
-carousel to Instagram (Make's approved Meta app does the Graph API work).
+"""Sends a rendered post to the Make.com webhook, which publishes it to
+Instagram (Make's approved Meta app does the Graph API work).
 Usage: MAKE_WEBHOOK_URL=... python3 post.py posts/<dir> <base_url>
 base_url = public URL prefix where the slide PNGs are reachable, e.g.
 https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/<name>
-Payload: {"caption": str, "images": [url, ...]}  (slide order preserved)"""
+
+SINGLE-PICTURE POSTS (owner order Sep 14: "i want only from now on to
+post one picture - not carousel... just delete and dont post the other
+picture"; his summary: "from carousel to one post news basically"):
+every feed post publishes ONLY the cover (slide-1.jpg) as a single photo
+— payload {"type": "photo", "caption", "image_url"} routed to the Make
+scenario's CreatePostPhoto branch. Inner slides still render on disk
+(their story now lives in the caption) but are never published.
+Reels unchanged: {"type": "reel", ...}."""
 import json, os, re, sys, time, urllib.request
 
 GMAIL = "saaryafe@gmail.com"  # owner monitor address (order Sep 8)
@@ -117,7 +125,7 @@ def notify_owner(post_dir, base_url=None):
             p = json.load(open(pj))
             slides = p.get("items") or p.get("slides") or [{}]
             cover = slides[0]
-            kind = "CAROUSEL"
+            kind = "PHOTO"  # single-picture posts (owner order Sep 14)
             title = re.sub(r"<[^>]+>", "", cover.get("headline") or "")[:90]
             link = (p.get("story") or {}).get("link")
             flags = []
@@ -137,7 +145,7 @@ def notify_owner(post_dir, base_url=None):
             else:
                 status = "Both quality gates passed. No overrides."
             chips = [(str(p.get("container", "post")), "#7c3aed"),
-                     (f"{len(slides)} slides", "#2563eb"),
+                     ("1 picture", "#2563eb"),
                      ("CLEAN", "#16a34a") if not flags else ("FLAGGED", "#ea580c")]
             # the EXACT prompt sent to the model (genimg sidecar); the brief
             # from post.json is the fallback for older posts
@@ -254,48 +262,20 @@ def main(post_dir, base_url):
         send(payload)
         notify_owner(post_dir, base_url)
         return
-    slides = sorted((f for f in os.listdir(post_dir)
-                     if re.fullmatch(r"slide-\d+\.jpg", f)),
-                    key=lambda f: int(re.search(r"\d+", f).group()))
-    if len(slides) < 2:  # IG carousels need >=2 — a lone/missing slide is a broken render
-        raise SystemExit(f"only {len(slides)} slide jpg(s) in {post_dir} — not publishing")
+    # SINGLE-PICTURE POSTS (owner order Sep 14): only the cover publishes.
+    # The old carousel machinery (video-in-carousel children, video-0 cover
+    # swap, 10-item cap) is retired with the carousel itself — the owner's
+    # order is one PICTURE, always.
+    cover = os.path.join(post_dir, "slide-1.jpg")
+    if not os.path.exists(cover):
+        raise SystemExit(f"no slide-1.jpg in {post_dir} — not publishing")
     alert_bare_cover(post_dir)
     base = base_url.rstrip("/")
-    # video-in-carousel (owner Jul 31): a video-N.mp4 in the post dir becomes
-    # a VIDEO child right after slide N (that slide's swipe hint says "Full
-    # video next"). The Make scenario maps media_type per item.
-    # VIDEO-FIRST cover (owner Sep 9): video-0.mp4 is the title-burned story
-    # footage from vslide.cover — it REPLACES slide-1.jpg as the first
-    # carousel item ("just instead of a picture - a video"). Liveness is
-    # checked here, before the swap: if the CDN can't serve it, the picture
-    # cover ships exactly as before — the video cover must never be able to
-    # cost the slot its cover (always-fill).
-    files, vids = [], []
-    video_cover = False
-    if os.path.exists(os.path.join(post_dir, "video-0.mp4")):
-        try:
-            urls_live([f"{base}/video-0.mp4"], min_bytes=100000)
-            files.append({"media_type": "VIDEO",
-                          "video_url": f"{base}/video-0.mp4"})
-            video_cover = True
-        except SystemExit as e:
-            print(f"video cover not live ({e}) — picture cover ships "
-                  "instead", file=sys.stderr)
-    for f in slides:
-        n = int(re.search(r"\d+", f).group())
-        if video_cover and n == 1:
-            continue  # the video IS the cover; slide-1.jpg stays on disk
-        files.append({"media_type": "IMAGE", "image_url": f"{base}/{f}"})
-        v = f"video-{n}.mp4"
-        if os.path.exists(os.path.join(post_dir, v)) and len(files) < 10:
-            files.append({"media_type": "VIDEO", "video_url": f"{base}/{v}"})
-            vids.append(f"{base}/{v}")
-    urls_live([f["image_url"] for f in files if "image_url" in f])
-    if vids:
-        urls_live(vids, min_bytes=100000)
+    urls_live([f"{base}/slide-1.jpg"])
     payload = {
+        "type": "photo",
         "caption": open(os.path.join(post_dir, "caption.txt")).read(),
-        "files": files[:10],  # IG carousel hard cap
+        "image_url": f"{base}/slide-1.jpg",
     }
     send(payload)
     notify_owner(post_dir, base_url)

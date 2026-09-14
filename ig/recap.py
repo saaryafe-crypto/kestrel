@@ -164,7 +164,7 @@ RULES
 - Each payload slide is a standalone mini-story: headline withholds exactly one detail that the body's FIRST sentence resolves. Body = 2-3 spoken sentences, concrete numbers/names in <b>...</b>. No <em> in bodies. Bodies never end with a period. No emojis, no exclamation marks.
 - hsize: short headline (≤5 words) 105-120; medium 88-100; long 76-86.
 - Never invent facts beyond the titles/tweet texts above.
-- Caption: first line copies the MEASURED winner formula (@technology's 67K-like roundup, ~2x their median; audit Aug 27): "Swipe ⬅️ to see what happened in AI in the last 24 hours, from <teaser A> to <teaser B>" — keep the swipe-left + last-24-hours + from-X-to-Y shape, vary the wording, teasers = the two wildest stories; then one line per story; the trend block's LAST line invites business owners to DM — pain + tiny ask. Register: "Running a business? DM us "AI" and we'll show you what this could do for yours". Vary the wording per post, keep the DM word exactly "AI" IN DOUBLE QUOTES. Sources line names the X accounts as plain names (never @). Exactly five hashtags.
+- Caption: first line keeps the MEASURED winner shape (@technology's 67K-like roundup, ~2x their median; audit Aug 27) MINUS the swipe (single-picture posts since Sep 14 — nothing to swipe): "Here's what happened in AI in the last 24 hours, from <teaser A> to <teaser B> 👇" — keep the last-24-hours + from-X-to-Y shape, vary the wording, teasers = the two wildest stories; then the story block: one short line per story — THE CAPTION IS THE POST NOW, the slides you write render but never reach Instagram, so the caption alone must deliver the whole day; the trend block's LAST line invites business owners to DM — pain + tiny ask. Register: "Running a business? DM us "AI" and we'll show you what this could do for yours". Vary the wording per post, keep the DM word exactly "AI" IN DOUBLE QUOTES. Sources line names the X accounts as plain names (never @). Exactly five hashtags.
 - pinned_comment: ONE debatable question about the day's biggest story, 1-2 sentences, no hashtags, no links.
 
 Return ONLY the JSON object."""
@@ -285,10 +285,10 @@ def build_cover(post_dir, photos, headlines):
     # orange headline accent belongs to the picture.
     heads = [plain(h) for h in headlines if plain(h).strip()][:2]
     if heads:
-        brief = ("A picture of the hero objects of today's biggest AI news "
-                 "stories staged together in one breaking-news scene inside "
-                 "a glowing electric-blue-and-orange AI datacenter, no "
-                 "people, extremely realistic and shocking. The stories: "
+        # genimg prefixes "a picture of " itself (owner format Sep 14) —
+        # the brief is just the plain statement, no scene dressing
+        brief = ("the hero objects of today's biggest AI news stories "
+                 "together in one scene, no people. The stories: "
                  + "; ".join(heads))
         out = os.path.join(post_dir, "cover-gen.jpg")
         for attempt in range(2):

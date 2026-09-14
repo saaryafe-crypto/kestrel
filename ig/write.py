@@ -394,10 +394,10 @@ def emergency_cover(cover0, post_dir):
     eh = re.sub(r"<[^>]+>", "", cover0.get("headline", "")).strip()
     if not eh:
         return None
-    # Just the headline: genimg wraps it as "Extremely realistic picture
-    # of {headline}." + faceless/person tail + no-text guard (Sep 14
-    # plain-line law — the old "dramatic ultra-realistic... shocking"
-    # flourish is exactly the bloat the owner banned).
+    # Just the headline: genimg wraps it as "a picture of {headline}." +
+    # no-text guard (Sep 14 plain-line law — the old "dramatic
+    # ultra-realistic... shocking" flourish is exactly the bloat the
+    # owner banned).
     eb = face_riders(eh, None)[0]
     p = genimg.generate(eb, os.path.join(post_dir, "gen-0-emergency.jpg"),
                         cover=True, collage=True)
@@ -658,7 +658,7 @@ THE SITUATION PORTRAIT (owner order Aug 3 — his exact formula, written after t
 
 THE CLAIM BEATS THE TEMPLATE (owner's verdict Aug 1, the courtroom cover): PRODUCT-HERO stages a presentation — but when the winning cover headline claims an EVENT (sued, banned, fired, crashed, copied, leaked, banned), the cover stages THAT EVENT as a literal scene instead, with the named famous person inside it and the product as a prop. Reference: "OPENAI COPIED THE COMPANY SUING THEM" → Sam Altman in a dark suit at the defendant's table of a US courtroom, tense, the white keypad and its white box on the table before him, the OpenAI logo on the courtroom evidence screen behind, American flag at the edge. Think like the viewer: the picture must make them say "that is exactly what the headline says" — person, event-world, product and brand all connected in one intuitive frame.
 
-COVER OUTPUT — THE OWNER'S PLAIN LINE (owner order Sep 14, the Mamdani and Altman-Dario head-to-heads: the owner typed "mamdani banning 600,000 students from using AI (use chatgpt logo), no text" and "Sam Altman and Dario agree to slow down ai with claude and chatgpt logo no text" and beat our staged-scene briefs cold BOTH times; his verdict on ours: "you give him 95% of unnecessary bullshit... never assume and tell ai anything. nano banana knows great how to create the pictures... when it simple it is easy"): the cover brief is ONE plain line of 8-25 words that states the NEWS itself, the way you'd tell a friend. SUPER CONDENSED (owner Sep 14: "something super condensed and summarized without hurting quality") — summarize the story down to its shortest complete statement; if a word can be cut without losing the news, cut it. Write it as a noun-plus-gerund phrase, never a full sentence, because the generator prefixes it with "Extremely realistic picture of": the owner's own example is "mamdani banning 600,000 students from using AI, with the ChatGPT logo". It carries exactly three things:
+COVER OUTPUT — THE OWNER'S PLAIN LINE (owner order Sep 14, the Mamdani and Altman-Dario head-to-heads: the owner typed "mamdani banning 600,000 students from using AI (use chatgpt logo), no text" and "Sam Altman and Dario agree to slow down ai with claude and chatgpt logo no text" and beat our staged-scene briefs cold BOTH times; his verdict on ours: "you give him 95% of unnecessary bullshit... never assume and tell ai anything. nano banana knows great how to create the pictures... when it simple it is easy"): the cover brief is ONE plain line of 8-25 words that states the NEWS itself, the way you'd tell a friend. SUPER CONDENSED (owner Sep 14: "something super condensed and summarized without hurting quality") — summarize the story down to its shortest complete statement; if a word can be cut without losing the news, cut it. Write it as a noun-plus-gerund phrase, never a full sentence, because the generator prefixes it with "a picture of": the owner's canonical example (his verbatim final prompt, Sep 14) is "zohran Mamdani banning 600,000 students from using AI in nyc, with the ChatGPT logo". Include the story's real place when it is part of the news ("in nyc"). It carries exactly three things:
 1. WHO/WHAT: the story's actor(s) by full name — every cast rule above still decides WHO, but only the name goes in the brief, never their pose, outfit, emotion or setting.
 2. THE ACT: what they did or what happened — stated as the news, not staged as a scene. Human psychology clicks on fear, chaos, conflict, rivals agreeing; if the story has that core, the plain statement of it IS the drama ("banning 600,000 students", "agree to slow down AI"). Never invent a scene to add drama the story doesn't have.
 3. THE LOGOS: "with the X logo" naming 1-2 famous marks (and return "logo" so the real mark rides as reference).
@@ -1351,7 +1351,7 @@ Pick "cover_style":
 - "logos" — 1-2 company logos rendered big on the dark cover, only when there is no usable photo (X vs Y or company stories). Available logo names: {', '.join(logos)}. Only these names.
 - "type" — big-headline-only dark cover (last resort)
 "logos" is ONLY for the no-photo "logos" cover style. NEVER ask for a logo overlaid on top of a photo — nothing is ever stamped onto a cover picture (owner order Sep 6); the brand's mark lives INSIDE the cover scene itself (the art direction and generator put the company's real mark in the picture as one glossy physical object)
-THE KICKER (forensic upgrade Aug 2 — the reference pages use the tiny strip under the headline for a SECOND hook beat, not a generic swipe prompt: "WITHOUT SONY LIFTING A FINGER", "HE DOES NOT WANT THEIR MONEY", "BUILT WITH CLAUDE CODE, OPEN SOURCE", "5 SETTINGS TO SWITCH OFF"): the cover slide MAY set "kicker": 3-7 words, TRUE facts only, carrying the story's twist, consequence or bonus promise that is NOT already worded in the headline. It renders tiny in the strip — the headline must still work with the kicker covered. The 30-cover reference audit (Sep 5) found the strip carrying a real second fact on ~90% of news covers — treat the kicker as DEFAULT-ON for news: a real story almost always has a second beat ("ONE TRIP CAME OUT 44% CHEAPER", "NEARLY 600,000 STUDENTS WILL BE AFFECTED"). Only if the story truly has no real second beat, OMIT it (the strip then says "Swipe for more") — a filler kicker is worse than none. There is NO other subline (owner rule Aug 1): every word of the main hook lives in the big headline itself.
+THE KICKER (forensic upgrade Aug 2 — the reference pages use the tiny strip under the headline for a SECOND hook beat, not a generic swipe prompt: "WITHOUT SONY LIFTING A FINGER", "HE DOES NOT WANT THEIR MONEY", "BUILT WITH CLAUDE CODE, OPEN SOURCE", "5 SETTINGS TO SWITCH OFF"): the cover slide MAY set "kicker": 3-7 words, TRUE facts only, carrying the story's twist, consequence or bonus promise that is NOT already worded in the headline. It renders tiny in the strip — the headline must still work with the kicker covered. The 30-cover reference audit (Sep 5) found the strip carrying a real second fact on ~90% of news covers — treat the kicker as DEFAULT-ON for news: a real story almost always has a second beat ("ONE TRIP CAME OUT 44% CHEAPER", "NEARLY 600,000 STUDENTS WILL BE AFFECTED"). Only if the story truly has no real second beat, OMIT it (the strip then says "Full story in the caption") — a filler kicker is worse than none. There is NO other subline (owner rule Aug 1): every word of the main hook lives in the big headline itself.
 
 {doctrine()}
 {principles()}
@@ -1426,7 +1426,7 @@ RULES
 - <b>...</b> in bodies marks facts (names, numbers). No <em> in bodies.
 - hsize: headline font px. Cover headlines (8-14 words) → 64-78 so the claim breaks edge-to-edge into 3-4 HUGE condensed lines like the reference page (the renderer caps total block height, so oversizing just shrinks it back). Inner-slide headlines: short (≤5 words) → 110-124; medium → 90-105; long → 76-88.
 - Bodies never end with a period (house style). No emojis in slides.
-- Caption: all five blocks in order, separated by blank lines. Sources line names the actual outlet(s). Exactly five hashtags (topic keywords for search — hashtags don't add reach). The FIRST sentence carries the payoff AND the search keywords — IG is a search engine in 2026 and the first line drives Explore/search reach: name the company and the topic noun in plain words ("Visa is replacing 2,600 jobs with AI" — searchable; "They just bet everything 👀" — invisible). Only ~125 chars show before "...more". CTA must be utility ("save this", "send this to..."), NEVER reaction-bait ("tag a friend", "comment YES") — Meta penalizes bait.
+- Caption: all five blocks in order, separated by blank lines. THE CAPTION IS THE POST NOW (owner order Sep 14: only the cover picture publishes — the slides you write render but never reach Instagram): the "story" block must tell the WHOLE story your slides tell, summarized in a great and simple way — 2-4 short paragraphs, smart-12-year-old words, every key number and name from the slides, the twist, ending on the same blunt take as your payoff slide. A reader who sees only the cover + caption gets the full story. Sources line names the actual outlet(s). Exactly five hashtags (topic keywords for search — hashtags don't add reach). The FIRST sentence carries the payoff AND the search keywords — IG is a search engine in 2026 and the first line drives Explore/search reach: name the company and the topic noun in plain words ("Visa is replacing 2,600 jobs with AI" — searchable; "They just bet everything 👀" — invisible). Only ~125 chars show before "...more". Never tell the reader to swipe — there is nothing to swipe. CTA must be utility ("save this", "send this to..."), NEVER reaction-bait ("tag a friend", "comment YES") — Meta penalizes bait.
 - "pinned_comment" (mandatory): the first comment we plant under the post the second it publishes — hour-one comment velocity is distribution fuel. ONE of: a debatable fault line from the story people must answer ("Would you let it run your payroll? Half of you are lying") or the juiciest fact that didn't fit the slides ("The part we couldn't fit: ..."). 1-2 sentences, no hashtags, no links, never a summary of the post.
 - Caption owner-CTA (mandatory): the LAST line of the trend block, on its own line, invites business owners to DM — pain + tiny ask, tied to this story's value. Register: "Running a business? DM us "AI" and we'll show you what this could do for yours". Vary the wording per post, keep the DM word exactly "AI"
 - Never invent facts not present in the STORY material above.
@@ -2619,32 +2619,11 @@ def main(stories_path):
             raise SystemExit("editor gate B rejected the post after repair: "
                              + "; ".join(reasons))
 
-    # VIDEO-FIRST COVER (owner order Sep 9, the umbrella post-mortem: the
-    # story HAD real footage and we shipped it buried mid-carousel behind a
-    # generated umbrella picture — "why not just show the video itself in
-    # the main picture carousel?... the video showing first and the titles
-    # themselves that show up in the first slide. just instead of a picture
-    # - a video"). When the story has its own footage, it becomes the FIRST
-    # carousel item with the real cover typography burned on (render.
-    # cover_overlay + vslide.cover); post.py swaps it in for slide-1.jpg,
-    # which still renders below as the fallback and the HE lane's cover.
-    # If the cover burn fails, the Sep 6 mid-carousel X-card embed rides
-    # after the cover instead. <=8 slides only: IG caps a carousel at 10
-    # children and post.py's trim would otherwise drop the CTA slide.
-    vid_url = (story.get("radar") or {}).get("video")
-    if vid_url and len(post["slides"]) <= 8:
-        import vslide
-        import render as _render
-        json.dump(post, open(os.path.join(post_dir, "post.json"), "w"),
-                  indent=1)
-        ov = _render.cover_overlay(os.path.join(post_dir, "post.json"),
-                                   os.path.join(post_dir, "cover-overlay.png"))
-        if ov and vslide.cover(vid_url,
-                               os.path.join(post_dir, "video-0.mp4"), ov):
-            post["video_cover"] = True
-        elif vslide.make(vid_url, os.path.join(post_dir, "video-1.mp4"),
-                         handle=(story.get("radar") or {}).get("sub")):
-            post["slides"][0]["video"] = True
+    # VIDEO-FIRST COVER RETIRED (owner order Sep 14, single-picture posts:
+    # "post one picture - not carousel"): the Sep 9 video-0/video-1
+    # carousel machinery has no destination anymore — post.py publishes
+    # ONLY slide-1.jpg. Story footage still reaches followers through the
+    # reel lane, which is untouched.
 
     json.dump(post, open(os.path.join(post_dir, "post.json"), "w"), indent=1)
     subprocess.run([sys.executable, os.path.join(HERE, "render.py"),
