@@ -394,10 +394,11 @@ def emergency_cover(cover0, post_dir):
     eh = re.sub(r"<[^>]+>", "", cover0.get("headline", "")).strip()
     if not eh:
         return None
-    eb = face_riders(
-        "A dramatic ultra-realistic news photograph of exactly this "
-        f"happening: {eh}. No text anywhere, no faces, extremely realistic "
-        "and shocking", None)[0]
+    # Just the headline: genimg wraps it as "Extremely realistic picture
+    # of {headline}." + faceless/person tail + no-text guard (Sep 14
+    # plain-line law — the old "dramatic ultra-realistic... shocking"
+    # flourish is exactly the bloat the owner banned).
+    eb = face_riders(eh, None)[0]
     p = genimg.generate(eb, os.path.join(post_dir, "gen-0-emergency.jpg"),
                         cover=True, collage=True)
     if not p:
@@ -657,7 +658,7 @@ THE SITUATION PORTRAIT (owner order Aug 3 — his exact formula, written after t
 
 THE CLAIM BEATS THE TEMPLATE (owner's verdict Aug 1, the courtroom cover): PRODUCT-HERO stages a presentation — but when the winning cover headline claims an EVENT (sued, banned, fired, crashed, copied, leaked, banned), the cover stages THAT EVENT as a literal scene instead, with the named famous person inside it and the product as a prop. Reference: "OPENAI COPIED THE COMPANY SUING THEM" → Sam Altman in a dark suit at the defendant's table of a US courtroom, tense, the white keypad and its white box on the table before him, the OpenAI logo on the courtroom evidence screen behind, American flag at the edge. Think like the viewer: the picture must make them say "that is exactly what the headline says" — person, event-world, product and brand all connected in one intuitive frame.
 
-COVER OUTPUT — THE OWNER'S PLAIN LINE (owner order Sep 14, the Mamdani and Altman-Dario head-to-heads: the owner typed "mamdani banning 600,000 students from using AI (use chatgpt logo), no text" and "Sam Altman and Dario agree to slow down ai with claude and chatgpt logo no text" and beat our staged-scene briefs cold BOTH times; his verdict on ours: "you give him 95% of unnecessary bullshit... never assume and tell ai anything. nano banana knows great how to create the pictures... when it simple it is easy"): the cover brief is ONE plain line of 8-25 words that states the NEWS itself, the way you'd tell a friend. It carries exactly three things:
+COVER OUTPUT — THE OWNER'S PLAIN LINE (owner order Sep 14, the Mamdani and Altman-Dario head-to-heads: the owner typed "mamdani banning 600,000 students from using AI (use chatgpt logo), no text" and "Sam Altman and Dario agree to slow down ai with claude and chatgpt logo no text" and beat our staged-scene briefs cold BOTH times; his verdict on ours: "you give him 95% of unnecessary bullshit... never assume and tell ai anything. nano banana knows great how to create the pictures... when it simple it is easy"): the cover brief is ONE plain line of 8-25 words that states the NEWS itself, the way you'd tell a friend. SUPER CONDENSED (owner Sep 14: "something super condensed and summarized without hurting quality") — summarize the story down to its shortest complete statement; if a word can be cut without losing the news, cut it. Write it as a noun-plus-gerund phrase, never a full sentence, because the generator prefixes it with "Extremely realistic picture of": the owner's own example is "mamdani banning 600,000 students from using AI, with the ChatGPT logo". It carries exactly three things:
 1. WHO/WHAT: the story's actor(s) by full name — every cast rule above still decides WHO, but only the name goes in the brief, never their pose, outfit, emotion or setting.
 2. THE ACT: what they did or what happened — stated as the news, not staged as a scene. Human psychology clicks on fear, chaos, conflict, rivals agreeing; if the story has that core, the plain statement of it IS the drama ("banning 600,000 students", "agree to slow down AI"). Never invent a scene to add drama the story doesn't have.
 3. THE LOGOS: "with the X logo" naming 1-2 famous marks (and return "logo" so the real mark rides as reference).

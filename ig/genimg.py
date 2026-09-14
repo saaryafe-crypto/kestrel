@@ -58,19 +58,20 @@ NANO_COST = 0.04
 # plus the bare survival rules, NOTHING about colors, drama, lighting or
 # composition — the model invents the scene better than we describe it.
 # Every surviving rule earned its place with a shipped failure: text ban
-# (Circle K: 5 of 6 images died to garbled text), logo-once (Sep 6),
-# full-bleed/no-borders (Sep 6: nano baked a black frame), realistic
-# photo (Sep 3-4: cartoon covers killed full runs), face-from-photo
-# (Bernie wax). The upper-60% rule is DEAD: covers now generate 4:3 to
-# match the photo window they actually display in (owner Sep 14, "we cut
-# it in half"), so nothing hides under the headline anymore. Everything
-# else the judge in write.image_score enforces for free — prompt bloat
-# CAUSES flaws.
-INTRO = "I am going to post a story on Instagram about this: "
+# (Circle K: 5 of 6 images died to garbled text), no-borders (Sep 6:
+# nano baked a black frame), no-cartoons (Sep 3-4: cartoon covers killed
+# full runs), face-from-photo (Bernie wax). Cut on the owner's Sep 14
+# order as "not necessary": the "I am going to post a story" preamble
+# (now just "Extremely realistic picture of"), "each at most once", and
+# the "ONE single real photograph filling the whole frame" flourish. The
+# upper-60% rule is DEAD: covers now generate 4:3 to match the photo
+# window they actually display in (owner Sep 14, "we cut it in half"),
+# so nothing hides under the headline anymore. Everything else the judge
+# in write.image_score enforces for free — prompt bloat CAUSES flaws.
+INTRO = "Extremely realistic picture of "
 GUARD = (
-    " Extremely realistic, ONE single real photograph filling the whole "
-    "frame, no borders, no cartoons. No words or text anywhere in the "
-    "picture, only logos, each at most once.")
+    " No text anywhere in the picture, only logos. No borders, no "
+    "cartoons.")
 PERSON_LINE = (
     " The person in the attached reference photo is the story's "
     "protagonist: copy the exact face and hair from the photo, never "
