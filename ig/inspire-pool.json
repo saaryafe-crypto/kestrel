@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14T08:09:11.120514+00:00",
+ "updated": "2026-09-14T18:08:53.664674+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -446,25 +446,6 @@
    "born": 1788626444.267859
   },
   {
-   "id": "2088650658090037666",
-   "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Number of US homebuyers falls to lowest level ever recorded.",
-   "sub": "WatcherGuru",
-   "where": "@WatcherGuru on X",
-   "unit": "likes",
-   "selftext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Number of US homebuyers falls to lowest level ever recorded.",
-   "permalink": "https://x.com/WatcherGuru/status/2088650658090037666",
-   "outlink": null,
-   "score": 12675,
-   "comments_n": 663,
-   "views": 3192253,
-   "age_h": 28.2,
-   "vph": 449.5,
-   "image": "https://pbs.twimg.com/media/HPxgtCsWwAAtVOs.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1786807988.572006
-  },
-  {
    "id": "2097866616172421477",
    "title": "@ABC Why are you misleading the public?",
    "sub": "elonmusk",
@@ -790,6 +771,28 @@
    "video": null,
    "guide": false,
    "born": 1789245759.039477
+  },
+  {
+   "id": "2099342017495228772",
+   "title": "IMPORTANT UPDATE Gregory is frolicking",
+   "sub": "AJamesMcCarthy",
+   "where": "@AJamesMcCarthy on X",
+   "unit": "likes",
+   "selftext": "IMPORTANT UPDATE Gregory is frolicking",
+   "permalink": "https://x.com/AJamesMcCarthy/status/2099342017495228772",
+   "outlink": null,
+   "score": 7988,
+   "comments_n": 138,
+   "views": 44928,
+   "age_h": 14.2,
+   "vph": 560.9,
+   "image": "https://pbs.twimg.com/media/HSJccBhbgAA5LU_.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HSJccBhbgAA5LU_.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1789358213.664674
   }
  ]
 }
