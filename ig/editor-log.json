@@ -1,145 +1,5 @@
 [
  {
-  "t": "2026-09-07T21:36:13Z",
-  "gate": "B",
-  "subject": "AMAZON, MICROSOFT, GOOGLE, AND META JUST BET <em>$1.5 TRILLION</em> ON DATA CENTERS THAT DON'T EXIST. THE TOTAL BILL BY ",
-  "verdict": "REJECT",
-  "reason": "HOOK LAW — two sentences, not one. 'AMAZON, MICROSOFT, GOOGLE, AND META JUST BET $1.5 TRILLION ON DATA CENTERS THAT DON'T EXIST.' ends with a hard period; 'THE TOTAL BILL BY 2030: $7 TRILLION.' is a second sentence. The law mandates ONE complete sentence, 12-25 words. Fix: fold the $7T into the first clause — e.g., 'AMAZON, MICROSOFT, GOOGLE, AND META JUST BET $1.5 TRILLION ON DATA CENTERS THAT HA"
- },
- {
-  "t": "2026-09-07T21:39:16Z",
-  "gate": "B",
-  "subject": "AMAZON, MICROSOFT, GOOGLE, AND META JUST BET <em>$1.5 TRILLION</em> ON DATA CENTERS THAT HAVEN'T BEEN POURED, AND THE TO",
-  "verdict": "REJECT",
-  "reason": "Slide 4 truth error: '$7T = roughly Japan's entire economy' is factually wrong. Japan's nominal GDP is ~$4.2T; $7T is 65% larger than Japan's entire economy. Replace with a true comparison ('roughly one-third of the US economy' or 'more than Germany and France combined') — a false analogy on the pattern-break slide is a doctrine §5 kill.; The $1.5T figure appears in the cover headline AND in slide"
- },
- {
-  "t": "2026-09-07T21:43:09Z",
-  "gate": "R",
-  "subject": "AMAZON, MICROSOFT, GOOGLE, AND META JUST BET <em>$1.5 TRILLION</em> ON DATA CENTERS THAT HAVEN'T BEEN POURED, AND THE TO",
-  "verdict": "FAIL",
-  "reason": "s3: The bar chart is a raw screenshot lifted from a news publication (article-header text and legend visible at the top), used as full-bleed background without a rounded-card frame — Screenshot Law violation."
- },
- {
-  "t": "2026-09-08T00:23:12Z",
-  "gate": "A",
-  "subject": "JUST IN: 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack. The hacker is now communicating with ",
-  "verdict": "KILL",
-  "reason": "Unknown hacker, niche blockchain platform, and cooperative resolution (funds returned) eliminate narrative stakes and fall off-brand for an AI/tech page—fails the 'would the owner post this himself' test."
- },
- {
-  "t": "2026-09-08T00:24:21Z",
-  "gate": "A",
-  "subject": "New video of Tesla's revolutionary unboxed manufacturing process for the Cybercab from the launch event. The production ",
-  "verdict": "KILL",
-  "reason": "Manufacturing cycle times are operational specifications without consumer consequence—reader needs confirmation this means cheaper Cybercabs, faster delivery, or actual industry record to share this."
- },
- {
-  "t": "2026-09-08T00:24:57Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "No specific news event—this is commentary on decades-long labor trends with no real numbers, named protagonist, or recent consequence; fails strict off-lens kill since technology is the backdrop to a labor-economics story, not the protagonist."
- },
- {
-  "t": "2026-09-08T00:25:10Z",
-  "gate": "A",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "verdict": "KILL",
-  "reason": "Off-lens: Louis Vuitton is a pure fashion/business history story with zero AI, tech, space, or investing element — the page is tech/AI NEWS first, and non-tech founder arcs do not qualify."
- },
- {
-  "t": "2026-09-08T00:25:25Z",
-  "gate": "A",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "verdict": "KILL",
-  "reason": "Routine tool use with no described outcome or consequence—the underlying event itself is trivial."
- },
- {
-  "t": "2026-09-08T00:26:35Z",
-  "gate": "A",
-  "subject": "JUST IN: 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack. The hacker is now communicating with ",
-  "verdict": "KILL",
-  "reason": "Unknown hacker and obscure Liquid Network fail the 'famous names only' standard; funds being returned immediately also kills any jaw-dropping consequence—this is routine crypto incident, not sharing-worthy news."
- },
- {
-  "t": "2026-09-08T00:26:56Z",
-  "gate": "A",
-  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
-  "verdict": "KILL",
-  "reason": "Off-lens per Aug 28 hardened rule: healthcare ethics is the narrative star; technology would be background at best, violating the requirement that the lens subject must be the star."
- },
- {
-  "t": "2026-09-08T00:27:55Z",
-  "gate": "A",
-  "subject": "New video of Tesla's revolutionary unboxed manufacturing process for the Cybercab from the launch event. The production ",
-  "verdict": "KILL",
-  "reason": "Operational manufacturing announcements fall outside the 'major move' categories (lawsuit, acquisition, CEO change, model release) that justify household-name coverage, and lack the consumer-facing feature appeal that makes feature demonstrations shareable; this risks the repetitive operational listicle risk the owner flagged as the page's #1 content failure."
- },
- {
-  "t": "2026-09-08T00:28:30Z",
-  "gate": "A",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "verdict": "KILL",
-  "reason": "One person claiming they used AI to build a wedding website has no event, outcome, consequence, or numbers—it's the routine 'how to use this tool' content the owner flagged as the page's #1 failure, and would never pass the owner-post test."
- },
- {
-  "t": "2026-09-08T00:28:30Z",
-  "gate": "A",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "verdict": "KILL",
-  "reason": "Off-lens kill: 19th-century fashion founder history lacks the AI/tech/modern business angle this page requires."
- },
- {
-  "t": "2026-09-08T00:29:28Z",
-  "gate": "A",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "verdict": "KILL",
-  "reason": "Off-lens: this is labor-economics commentary about historical offshoring, not technology-centered news; no substance (no event, named actors, numbers, or recent trigger)."
- },
- {
-  "t": "2026-09-08T01:18:33Z",
-  "gate": "B",
-  "subject": "TESLA'S ROBOTAXI FACTORY ALREADY SPITS OUT <em>ONE CAR EVERY 10 SECONDS</em>. THE GOAL IS ONE EVERY 5",
-  "verdict": "REJECT",
-  "reason": "HOOK IS TWO SENTENCES: §2 mandates one complete sentence. 'TESLA'S ROBOTAXI FACTORY ALREADY SPITS OUT ONE CAR EVERY 10 SECONDS. THE GOAL IS ONE EVERY 5' is two. Fix: collapse into one — e.g., 'TESLA'S CYBERCAB FACTORY IS ALREADY PRODUCING ONE ROBOTAXI EVERY 10 SECONDS, WITH A TARGET OF ONE EVERY FIVE.'; 7x/6.8x FACT TRIPLED — §4 NEW FACT PER SLIDE VIOLATION: the Model-Y-comparison appears in the k"
- },
- {
-  "t": "2026-09-08T01:21:09Z",
-  "gate": "B",
-  "subject": "TESLA'S CYBERCAB FACTORY IS ALREADY PRODUCING <em>ONE ROBOTAXI EVERY 10 SECONDS</em>, WITH A TARGET OF ONE EVERY FIVE",
-  "verdict": "REJECT",
-  "reason": "Slide 2 headline restates the cover claim instead of escalating it. 'ONE CYBERCAB ROLLED OFF THE LINE EVERY 10 SECONDS' is the same beat as the cover's 'PRODUCING ONE ROBOTAXI EVERY 10 SECONDS' — zero new information. The owner order (Aug 18) requires slide 2 to 'ESCALATE the cover's question without spending the payoff' so IG can re-serve it as a standalone hook. Fix: rewrite slide 2 headline to "
- },
- {
-  "t": "2026-09-08T01:22:32Z",
-  "gate": "A",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "verdict": "KILL",
-  "reason": "The underlying event is trivial—routine AI tool usage with zero real-world consequence, real outcome, or jaw-dropping specificity; 'someone made a website with an AI' lacks the viral-specific event this standard requires."
- },
- {
-  "t": "2026-09-08T01:23:51Z",
-  "gate": "A",
-  "subject": "JUST IN: 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack. The hacker is now communicating with ",
-  "verdict": "APPROVE",
-  "reason": "$320M security incident qualifies as money-moved-at-scale with real consequence, and the hacker's promise to return stolen funds adds send-to-a-friend appeal."
- },
- {
-  "t": "2026-09-08T02:06:11Z",
-  "gate": "B",
-  "subject": "A HACKER WALKED OFF WITH <em>4,000 BITCOIN</em> AND SENT ONE MESSAGE THROUGH THE BLOCKCHAIN: FIX THE BUG <em>AND I'LL RE",
-  "verdict": "REJECT",
-  "reason": "Cover image fails IMAGE LAW: every element — the cracked Bitcoin coin, the fire explosion, the glowing blue envelope — reads as a 3D CG render, not as photographed. The law is explicit: 'A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT.' The correct archetype for an abstract-claim/no-famous-face story is 'one"
- },
- {
-  "t": "2026-09-08T02:11:01Z",
-  "gate": "B",
-  "subject": "A HACKER WALKED OFF WITH <em>4,000 BITCOIN</em> AND SENT ONE MESSAGE THROUGH THE BLOCKCHAIN: FIX THE BUG <em>AND I'LL RE",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — cover is a full CGI/3D render: the cracked Bitcoin coin, the exploding coins, the fire blast, and the blue envelope all read as game-render or stock 3D assets, not photographed elements. The law requires every element in the frame to read as photographed; a frame where any element reads as illustration, cartoon, or game render is a REJECT. Fix: regenerate as a photoreal composite — a r"
- },
- {
   "t": "2026-09-08T02:13:14Z",
   "gate": "B",
   "subject": "A HACKER WHO STOLE <em>4,000 BITCOIN</em> LEFT ONE MESSAGE THROUGH THE BLOCKCHAIN: FIX THE BUG <em>AND I'LL RETURN ALL $",
@@ -2098,5 +1958,145 @@
   "subject": "Dude this is INSANE🧵 My buddy Kayley was at this show, the producers blindfolded the comedian and pranked him by quietly",
   "verdict": "KILL",
   "reason": "Reaction-bait: the story's payload is a pile-on in the replies (AI-made-up narratives), not a real-world consequence—matches the Queen Elizabeth and Mario Lopez failure pattern exactly."
+ },
+ {
+  "t": "2026-09-13T23:10:10Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 President Trump rejects calls to slow down AI development.",
+  "verdict": "KILL",
+  "reason": "Trump stated a political position without real-world consequence—no policy enacted, no action taken—and the 70-character source has zero substance to build slides from."
+ },
+ {
+  "t": "2026-09-13T23:10:40Z",
+  "gate": "A",
+  "subject": "JUST IN: Claude AI developer Anthropic selects Nasdaq for IPO listing.",
+  "verdict": "KILL",
+  "reason": "IPO exchange selection is procedural corporate process, not the consequence-driven dramatic event readers would share."
+ },
+ {
+  "t": "2026-09-13T23:10:47Z",
+  "gate": "A",
+  "subject": "BREAKING: Costco is now rationing motor oil for due to the Iranian war, limiting members to one transaction and a maximu",
+  "verdict": "KILL",
+  "reason": "Unverified scarcity claim with no official Costco sourcing; Truth Law requires facts verified before assignment."
+ },
+ {
+  "t": "2026-09-13T23:11:02Z",
+  "gate": "A",
+  "subject": "Invites for the next-gen @Tesla Roadster unveiling have officially been sent to reservation holders! The event will take",
+  "verdict": "KILL",
+  "reason": "Banned launch preview (date + hype, no specs or demo shown); kill it and post the October 1 unveiling if the Roadster proves remarkable."
+ },
+ {
+  "t": "2026-09-13T23:12:02Z",
+  "gate": "A",
+  "subject": "TRUMP ON AI: WE COULD PUT GUARDRAILS, BUT SOME VOICES ARE BEING OVERLY NEGATIVE",
+  "verdict": "KILL",
+  "reason": "No real-world event or consequence—Trump's opinion attracts engagement but no actual event happened (no policy, no announcement, no fallout) for the post to cover."
+ },
+ {
+  "t": "2026-09-13T23:12:05Z",
+  "gate": "A",
+  "subject": "Tesla has just updated their next-gen Roadster website for the first time in nearly 9 years. There is now a countdown cl",
+  "verdict": "KILL",
+  "reason": "Empty-form launch preview: countdown-only with no product shown, no story substance."
+ },
+ {
+  "t": "2026-09-13T23:12:25Z",
+  "gate": "A",
+  "subject": "BREAKING: Sam Altman says OpenAI will not go public this year due to safety concerns around AI. \"I actually think that, ",
+  "verdict": "KILL",
+  "reason": "One thin statement with no supporting numbers, facts, or real-world consequences; the writer would need to pad rather than report to fill slides."
+ },
+ {
+  "t": "2026-09-13T23:13:00Z",
+  "gate": "A",
+  "subject": "JUST IN: Claude AI developer Anthropic selects Nasdaq for IPO listing.",
+  "verdict": "APPROVE",
+  "reason": "Anthropic's Nasdaq IPO selection is a household-name AI lab's major valuation move (explicitly listed in story law) that qualifies despite the one-line announcement, per the CALIBRATION rule against killing famous-actor events where reality moved."
+ },
+ {
+  "t": "2026-09-13T23:13:14Z",
+  "gate": "A",
+  "subject": "Invites for the next-gen @Tesla Roadster unveiling have officially been sent to reservation holders! The event will take",
+  "verdict": "KILL",
+  "reason": "Launch preview with no substance: invites sent and a date are operational logistics, not the real-world consequence or shareable news this page requires."
+ },
+ {
+  "t": "2026-09-13T23:13:14Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 President Trump rejects calls to slow down AI development.",
+  "verdict": "KILL",
+  "reason": "Trump's statement on AI policy is on-topic but routine political commentary without a documented consequence—commentary on a stance, not a news event where reality moved (no policy enacted, no funding shifted, no regulatory action triggered)."
+ },
+ {
+  "t": "2026-09-13T23:14:28Z",
+  "gate": "A",
+  "subject": "BREAKING: Costco is now rationing motor oil for due to the Iranian war, limiting members to one transaction and a maximu",
+  "verdict": "KILL",
+  "reason": "Unverified supply-chain claim from an unusual source (financial/whale-tracking account) without confirmation of actual policy; the Iranian-war causality is asserted but undocumented, and the single thin tweet lacks the secondary facts or documentation needed for writing to verify and build slides from."
+ },
+ {
+  "t": "2026-09-14T00:06:57Z",
+  "gate": "B",
+  "subject": "CLAUDE AI JUST WENT PUBLIC, <em>EVERY DECISION IT MAKES</em> NOW HAS A <em>STOCK PRICE</em>",
+  "verdict": "REJECT",
+  "reason": "TRUTH LAW — Slide 3 body: 'Built its brand on refusing investors' is factually false. Anthropic raised billions in private funding — Google invested $300M+ and Amazon committed $4B before this IPO. Anthropic refused a PUBLIC LISTING, not investors. Every fact downstream that builds on this premise is poisoned. Fix: 'Built its brand on staying off public markets' or 'Kept its shares out of the stoc"
+ },
+ {
+  "t": "2026-09-14T00:09:22Z",
+  "gate": "A",
+  "subject": "Tesla has just updated their next-gen Roadster website for the first time in nearly 9 years. There is now a countdown cl",
+  "verdict": "KILL",
+  "reason": "Empty-form launch preview—countdown with no specs or demo shown—the banned 'tune in Thursday' hype format the doctrine identifies as listicle fuel; real story arrives Oct 1 when they actually unveil."
+ },
+ {
+  "t": "2026-09-14T00:09:25Z",
+  "gate": "A",
+  "subject": "Invites for the next-gen @Tesla Roadster unveiling have officially been sent to reservation holders! The event will take",
+  "verdict": "KILL",
+  "reason": "Launch preview in empty form: date-and-location announcement with nothing demonstrated, matching the doctrine's banned 'tune in Thursday' hype structure."
+ },
+ {
+  "t": "2026-09-14T00:09:32Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 President Trump rejects calls to slow down AI development.",
+  "verdict": "KILL",
+  "reason": "A 70-character political position statement with no real-world consequence—no policy enacted or action taken—offering no substance to develop into slides."
+ },
+ {
+  "t": "2026-09-14T00:10:10Z",
+  "gate": "A",
+  "subject": "BREAKING: Costco is now rationing motor oil for due to the Iranian war, limiting members to one transaction and a maximu",
+  "verdict": "KILL",
+  "reason": "The extraordinary supply-chain claim (Costco rationing due to Iranian war) combined with the grammatical error in source tweet ('for due to') and inability to independently verify this event suggests likely misinformation; spreading unverified supply-crisis rumors risks page credibility, and the verification burden is too high for social sourcing alone."
+ },
+ {
+  "t": "2026-09-14T00:11:07Z",
+  "gate": "A",
+  "subject": "TRUMP ON AI: WE COULD PUT GUARDRAILS, BUT SOME VOICES ARE BEING OVERLY NEGATIVE",
+  "verdict": "KILL",
+  "reason": "No event where reality moved: Trump voiced opinions on AI guardrails, but no policy change, lawsuit, hire/fire, product move, or real consequence occurred."
+ },
+ {
+  "t": "2026-09-14T00:12:58Z",
+  "gate": "A",
+  "subject": "BREAKING: Sam Altman says OpenAI will not go public this year due to safety concerns around AI. \"I actually think that, ",
+  "verdict": "APPROVE",
+  "reason": "Valid household-name tech news from CEO announcing company strategy change; this story type prevents the listicle repetition the owner wants to avoid."
+ },
+ {
+  "t": "2026-09-14T00:45:46Z",
+  "gate": "B",
+  "subject": "SAM ALTMAN REFUSED A <em>HUNDREDS-OF-BILLIONS</em> IPO BECAUSE AI SCARES EVEN HIM",
+  "verdict": "REJECT",
+  "reason": "Slides 3, 4, and 5 all repeat 'hundreds of billions' as a standalone fact — the same figure in the same phrasing three consecutive times. Section 4 bans any two slides carrying the same fact. Slides 4 and 5 must substitute a different specific detail (employee equity count, company valuation, Altman's verbatim quote, or investor names) so each slide delivers new information.; No pattern-break slid"
+ },
+ {
+  "t": "2026-09-14T00:48:15Z",
+  "gate": "R",
+  "subject": "SAM ALTMAN REFUSED A <em>HUNDREDS-OF-BILLIONS</em> IPO BECAUSE AI SCARES EVEN HIM",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
