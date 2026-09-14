@@ -1,0 +1,84 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמש יכולות של Google <em>שמסתתרות לכם מתחת לאף</em>",
+   "kicker": "כמעט אף אחד לא הפעיל אותן",
+   "hsize": 72,
+   "hook_candidates": [
+    "5 AI POWERS <em>HIDING IN YOUR GOOGLE APPS</em>",
+    "<em>5 GOOGLE AI FEATURES</em> ALMOST NOBODY HAS TURNED ON",
+    "5 AI TOOLS <em>ALREADY INSIDE YOUR GOOGLE ACCOUNT</em>",
+    "<em>GOOGLE HID AI</em> IN 5 APPS MOST PEOPLE USE EVERY DAY",
+    "5 THINGS GOOGLE'S AI DOES <em>THAT MOST PEOPLE NEVER FIND</em>"
+   ],
+   "face": "Sundar Pichai",
+   "media": "posts/2026-09-14-edu-5-gemini-ai-features-hiding-in-google-wo/gen-0.jpg",
+   "image_prompt": "Sundar Pichai grinning behind a colorful outdoor market stall heaped with glowing Gmail envelopes and Google Doc pages, leaning across to hand one directly to camera, the Google logo exactly as in the reference image on the banner above, vivid blue red yellow green daylight, extremely realistic and shocking."
+  },
+  {
+   "type": "content",
+   "headline": "1) Gmail כותב לכם תשובות <em>בסגנון שלכם</em>",
+   "hsize": 100,
+   "body": "מחפשים את <b>סמל הניצוץ (✦)</b> בתחתית חלון הכתיבה.\n\nכותבים משפט אחד על מה שרוצים לומר, לוחצים <b>Generate</b>, וGmail כותב את התשובה המלאה בסגנון שלכם.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "2) שלוש נקודות <em>נהפכות למסמך של ארבעה עמודים</em>",
+   "hsize": 100,
+   "body": "מחפשים את <b>סמל העט של AI</b> או 'Help me write' בראש כל מסמך ריק.\n\nמתארים מה צריך ולוחצים <b>Generate</b>.\n\nשלוש נקודות פנימה, מסמך של ארבעה עמודים החוצה, תוך <b>45 שניות</b>.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "3) שואלים את הגיליון שאלה <em>בלי נוסחאות</em>",
+   "hsize": 100,
+   "body": "מחפשים את כפתור <b>Explore</b> בפינה הימנית התחתונה של כל קובץ Sheets.\n\nכותבים 'איזה מוצר הכניס הכי הרבה כסף בחודש שעבר?' ולוחצים Enter.\n\nSheets קורא את כל הקובץ ועונה.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "כל חמשת היכולות כבר אצלכם",
+   "hsize": 120,
+   "body": "Gmail. Docs. Sheets. Meet. Slides. Google הכניסה AI לכל אחד מהם. כמעט אף אחד לא הפעיל.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "4) Google Meet <em>כותב לכם את סיכום הפגישה</em>",
+   "hsize": 100,
+   "body": "לוחצים על <b>שלוש הנקודות</b> בתחתית כל שיחת Google Meet ובוחרים <b>'Take notes with Gemini'</b>.\n\nיוצאים מכל פגישה עם הסיכום כבר מוכן.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "5) מצגת שלמה <em>ממשפט אחד</em>",
+   "hsize": 100,
+   "body": "מחפשים את <b>סמל הכוכב של Gemini</b> בסרגל Google Slides.\n\nכותבים משפט אחד על הנושא ולוחצים <b>Generate</b>.\n\nמצגת שלמה מוכנה תוך בערך <b>30 שניות</b>.",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "שמרו את זה: חמש יכולות AI <em>שכבר יש לכם</em>",
+   "hsize": 100,
+   "body": "Gmail: כותב תשובות בסגנון שלכם\nDocs: מסמך שלם משלוש נקודות\nSheets: עונה על שאלות במילים רגילות\nMeet: כותב סיכום פגישה לבד\nSlides: מצגת שלמה ממשפט אחד\n\nחדשות AI ומיומנויות אמיתיות כל יום",
+   "media": null
+  }
+ ],
+ "caption": "5 יכולות AI שכבר יש לכם בתוך Google, ואף אחד לא הפעיל אותן 💡\n\nGmail יכולה לכתוב לכם תשובות לאימיילים בסגנון שלכם. Google Docs הופך שלוש נקודות למסמך של ארבעה עמודים תוך 45 שניות. Google Sheets עונה על כל שאלה על הנתונים שלכם במילים רגילות, בלי נוסחאות. Google Meet כותב ושומר לכם את סיכום הפגישה ברגע שהשיחה נגמרת. Google Slides בונה מצגת שלמה ממשפט אחד תוך בערך 30 שניות.\n\nGoogle הכניסה AI לכל הכלים שרוב העסקים כבר משלמים עליהם. כמעט הכל כבוי כברירת מחדל. מי שמוצא את הפיצ'רים האלה עושה תוך 20 דקות מה שפעם לקח בוקר שלם.\n\nמנהלים עסק? שלחו לנו DM עם המילה \"AI\" ונראה לכם מה זה יכול לעשות בשבילכם.\n\nמקורות: Google Workspace\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#ai #googleworkspace #artificialintelligence #productivity #business",
+ "pinned_comment": "איזה אחד אתם מפעילים ראשון? הפיצ'ר של Meet (שקופית 6) הוא הכי מפתיע. כולם תמיד אומרים שלא ידעו שזה שם.",
+ "hook_fallback": "no-valid-winner",
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "",
+ "topic_source": "ignored-pool",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
