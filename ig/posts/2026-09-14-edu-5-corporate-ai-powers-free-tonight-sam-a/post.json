@@ -1,0 +1,52 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 PAID CONSULTANT JOBS <em>AI DOES FOR FREE</em>",
+   "kicker": "FORTUNE 500S PAY MONTHLY FOR THESE",
+   "hsize": 72,
+   "face": "Sam Altman",
+   "media": "posts/2026-09-14-edu-5-corporate-ai-powers-free-tonight-sam-a/gen-0-rescue.jpg",
+   "image_prompt": "Sam Altman's silhouette handing out five consultant jobs, OpenAI logo prominent, minimalist background, confident gesture"
+  }
+ ],
+ "caption": "OpenAI and Anthropic are at the world's biggest business conference this week, selling AI tools corporations pay millions for. Every one is free tonight. \ud83e\udd16\n\nSam Altman and Dario Amodei are at Dreamforce, where Salesforce sells these tools for hundreds per person per month. You have them free.\n\n1) Personalized sales email for each prospect\nOutreach charges $100+ per person monthly. \"I sell [what you sell]. My prospect is [name] at [company] and recently [one thing about them]. Write a 4-sentence email showing I know their situation, ending with one clear ask.\"\n\n2) Raw call notes into clean action points\nGong costs $100+ per person monthly. \"Here are my notes from a sales call today: [paste]. Pull out the client's real problem, what they want, what stops them, and my next step. Five bullets.\"\n\n3) Contract or proposal review\nLawyers charge $300+ per hour. \"Here is a contract I need to sign: [paste full text]. Tell me what I am agreeing to, flag anything unusual or risky, and list the changes I should ask for.\"\n\n4) Competitor gap report\nConsultants charge $5,000+. \"My product: [describe]. Competitors: [name them]. For each: where they beat me, where I win, the gap none of them fill.\"\n\n5) Customer complaint reply\nHelp desk tools cost $50+ per agent. \"A customer wrote: [paste their message]. I run a [type of business]. Reply under 100 words, say what went wrong and one real thing to fix it.\"\n\nSAVE THIS: 5 corporate AI tools, all free tonight.\n\nTrump called AI the golden goose this morning. China rejected any slowdown the same day. Both racing full speed means these tools get more capable every month. The gap between businesses using AI and businesses not using it grows weekly. Running a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: X (Dreamforce 2026, Trump AI statement Sep 14 2026), Anthropic, OpenAI\n\n#AI #BusinessAutomation #ChatGPT #Claude #Salesforce",
+ "pinned_comment": "Which one are you trying tonight? Drop the number below. Number 3 is the sleeper: most business owners never think to ask AI to review a contract before signing.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "CORPORATIONS PAY MILLIONS FOR 5 AI TOOLS <em>THAT ARE FREE</em>",
+   "AI DOES 5 SALES JOBS <em>YOUR TEAM STILL DOES MANUALLY</em>",
+   "5 PAID CONSULTANT JOBS <em>AI DOES FOR FREE</em>",
+   "5 CORPORATE AI TOOLS <em>YOU GET FREE TONIGHT</em>"
+  ],
+  "scores": [
+   8,
+   5,
+   9,
+   3
+  ],
+  "winner": 2,
+  "why": "[2] threatens all viewers directly (jobs displaced) while [0] creates surprise through contradiction. Personal threat motivates harder engagement than surprised curiosity."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 CONSULTANT SKILLS <em>SO GOOD THEY FEEL ILLEGAL</em> \u2014 ALL FREE WITH AI",
+   "5 PAID CONSULTANT JOBS <em>AI DOES FOR FREE</em>"
+  ],
+  "scores": [
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] nails the 'wait, WHAT?' with concrete stakes\u2014paid jobs being replaced\u2014while [0] sounds like generic productivity advice gussied up with 'illegal' as filler that doesn't land."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "TRUTH LAW \u2014 'free tonight' and 'all free tonight' in the save close are fake scarcity. ChatGPT and Claude have permanent free tiers; they are not free only tonight. The doctrine bans faking a scarcity or deadline. Fix: replace every instance of 'free tonight' with 'free to use' or 'free right now' \u2014 whichever is literally true.; IMAGE LAW \u2014 The cover is a CGI 3D-render of a mashup logo sculpture. ",
+ "topic_source": "news-anchored"
+}
