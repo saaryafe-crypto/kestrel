@@ -283,15 +283,16 @@ def image_score(path, headline, generated=False, person=False, cover=False,
             print(f"genimg brightness gate: {brightness:.0f}/255 < {floor} — auto-reject",
                   file=sys.stderr)
             return False, 1, f"too dark (brightness {brightness:.0f}/255, need {floor}+)"
-    # GEOMETRY GATE (owner Sep 9 round 2, same Cybercab post: "it was not
-    # even in the size of the post... the picture didnt even fit in". The
-    # cover renders FULL-BLEED 1080x1350 portrait. The scraped 1200x1013
-    # LANDSCAPE meme could only fill that frame by zoom-cropping ~35% of
-    # itself — both heads shipped amputated. The Sep 8 4:5 fix covered
-    # GENERATED images only; scraped candidates arrive in any shape. A
-    # scraped image may compete for the cover ONLY if it is portrait-ish
-    # (w/h <= 0.9 keeps the crop loss under ~11%) and tall enough to fill
-    # 1350px without upscale blur. Free check, runs before the vision call.)
+    # GEOMETRY GATE (owner Sep 9, the Cybercab meme that "didnt even fit
+    # in"; FLIPPED Sep 14 with the window fix: the cover photo displays in
+    # a 1080x~800 LANDSCAPE window above the title block — see render.py
+    # scrim() — so the old portrait-only rule (written for the dead
+    # full-bleed 4:5 display) now rejected exactly the shapes that fit and
+    # passed the portraits that lose their bottom ~40% to the window crop.
+    # A scraped image may compete for the cover ONLY if it is
+    # landscape-ish (1.0 <= w/h <= 1.8 keeps crop loss under ~20%) and
+    # wide enough to fill 1080px without upscale blur. Free check, runs
+    # before the vision call.)
     if cover and not generated:
         try:
             from PIL import Image as _Im
@@ -299,12 +300,12 @@ def image_score(path, headline, generated=False, person=False, cover=False,
                 _w, _h = _im.size
         except Exception:
             _w = _h = 0
-        if _w and (_w / _h > 0.9 or _h < 1200):
+        if _w and (_w / _h < 1.0 or _w / _h > 1.8 or _w < 1000):
             print(f"cover geometry gate: {_w}x{_h} (ratio {_w/_h:.2f}) can't "
-                  "fill the 1080x1350 portrait frame — auto-reject",
+                  "fill the 1080x~800 landscape cover window — auto-reject",
                   file=sys.stderr)
-            return False, 2, (f"scraped {_w}x{_h} can't fill the 4:5 cover "
-                              "frame without a destructive crop")
+            return False, 2, (f"scraped {_w}x{_h} can't fill the landscape "
+                              "cover window without a destructive crop")
     clean = re.sub(r"</?em>", "", headline)
     # BRUTAL COLLAGE MODE (owner order Sep 4, measured from the reference
     # page's Bernie cover): news covers are graded breaking-news COLLAGES —
@@ -326,8 +327,11 @@ def image_score(path, headline, generated=False, person=False, cover=False,
         +
         'MISREAD GATE (owner audit Aug 10, the coffin cover that read as leather violin cases): describe to yourself what each key prop ACTUALLY looks like at phone size, not what it was meant to be — if the scene\'s central symbolic object would be mistaken for something mundane, the concept FAILED on screen = usable:false, flaw names the misread ("coffins read as luggage"). A symbol only counts when it is UNMISTAKABLE in half a second. '
         'STOCK-WALLPAPER GATE (owner Aug 10, the falling-money laptop cover): if the image could be sold as a generic stock photo for its topic — cash raining on a desk, anonymous hands typing, a glowing brain, abstract chart art — it stops nobody = usable:false, flaw "stock wallpaper". '
-        'CROP-SURVIVAL GATE (owner Aug 14 "cut in the middle"; tightened Sep 9, getintoai anatomy — a SOLID title band now covers the bottom ~40% of the slide, nothing shows through): mentally delete the bottom 40% of this image. If the scene still reads complete — faces, key prop and stakes all fully inside the top 60% — it passes. If anything essential sits below that line, or the composition is a full-body/tall scene that needs its lower half to make sense = usable:false, flaw "composed too tall, dies in the crop". '
         if generated else "")
+    # (CROP-SURVIVAL gate removed Sep 14: covers now GENERATE at 4:3 to
+    # match the landscape photo window they display in, so nothing is
+    # hidden under the title band anymore — the gate was killing good
+    # full-frame compositions for a crop that no longer happens.)
     # SCRAPED-COVER GATES (owner Sep 9, the Sydney Sweeney meme cover: every
     # hard gate above is GENERATED-only, so a fan meme scraped from the X
     # thread — headgear girl "WAYMO" vs Sweeney "CYBERCAB" — was judged by
@@ -445,8 +449,8 @@ def simpler_brief(brief, headline, flaw="", mode="simpler"):
                 'icons or pictograms — no $ signs, warning triangles or '
                 'crosses; screens sit at an angle showing only a colorful '
                 'blur of real content, or face away. No crowds, no close-up '
-                'hands or faces, plainer setting, bright daylight, keep the '
-                'color key.')
+                'hands or faces, plainer setting. Never add colors, '
+                'lighting or composition words (owner ban Sep 14).')
     try:
         r = call_claude(
             f'An AI image generator produced an UNUSABLE image (artifacts, garbled text, or stock look) from this brief:\n"{brief}"\n{flaw_line}The image must still be evidence for this headline: "{clean}". {task} 15-35 words, subject first. Return ONLY JSON: {{"brief": "..."}}',
@@ -653,12 +657,12 @@ THE SITUATION PORTRAIT (owner order Aug 3 — his exact formula, written after t
 
 THE CLAIM BEATS THE TEMPLATE (owner's verdict Aug 1, the courtroom cover): PRODUCT-HERO stages a presentation — but when the winning cover headline claims an EVENT (sued, banned, fired, crashed, copied, leaked, banned), the cover stages THAT EVENT as a literal scene instead, with the named famous person inside it and the product as a prop. Reference: "OPENAI COPIED THE COMPANY SUING THEM" → Sam Altman in a dark suit at the defendant's table of a US courtroom, tense, the white keypad and its white box on the table before him, the OpenAI logo on the courtroom evidence screen behind, American flag at the edge. Think like the viewer: the picture must make them say "that is exactly what the headline says" — person, event-world, product and brand all connected in one intuitive frame.
 
-COVER OUTPUT — ONE SIMPLE SENTENCE, THUMBNAIL-CREATOR THINKING (owner order Sep 9, the umbrella post-mortem: the cover brief had become a machine-filled slot form and the shipped cover a lonely object on a wet street; his exact spec — "Why not just writing 'a picture of a self driving umbrella following (someone famous) without him holding it - showing a futuristic umbrella and make it extremely realistic and shocking'... think like a viral youtube thumbnail creator. MRbeast for example"): the cover brief is ONE plain vivid sentence of 20-45 words, written the way a top thumbnail creator says the idea out loud — no slots, no field names, no craft jargon, just the picture a stranger could film. The sentence carries four things in natural words:
-1. WHO: the story's famous face mid-doing the story's exact action (every cast rule above decides who), holding or facing the ONE iconic prop that IS the news.
-2. THE SHOCK: the single detail that makes a stranger stop, named explicitly — the umbrella follows him WITHOUT being held, the vault stands EMPTY, the CEO grins in the back seat with NO ONE at the wheel. If the sentence has no such detail, the idea is not ready.
-3. THE COLORS: the story's real recognizable colors, written into the sentence (owner Sep 9, the diesel-$8 cover shipped an all-red truck-and-smoke frame: "There are no Iranian or us flags. No colors. So stale and boring"). A geopolitics story puts the actual flags in frame, a company story its real brand color, a money story real green dollars — colors that identify THIS story at a glance, never a generic mood palette.
-4. THE FINISH: the sentence ends with "extremely realistic and shocking".
-WHO FILLS THE FRAME when the cast is not obvious (measured across 30 reference covers): policy/ban → the official mid-action with the ban made physical (a giant red prohibition circle over the banned thing); company/product news → the famous CEO with the real product (vendor cast); human turning point → the person's raw emotion alone, nothing else in frame; jaw-dropping product launch → the product at giant scale in its real world (set "ref" so the real photo rides); comparison/benchmark → the two things side by side violently different, no label text — the two objects themselves must be recognizable on sight; caught-on-camera → the real evidence scene, as documentary as possible; no famous actor anywhere → check the VICTIM side first (owner Sep 8, the $320M heist: the hacked company's CEO caught inside the emptied vault beat exploding coins), else the story's real place at its most dramatic aftermath moment. SYMBOL CLICHE BAN stands: exploding coins, raining money, giant cracking tokens, glowing padlocks read as 2017 crypto-scam stock art.
+COVER OUTPUT — THE OWNER'S PLAIN LINE (owner order Sep 14, the Mamdani and Altman-Dario head-to-heads: the owner typed "mamdani banning 600,000 students from using AI (use chatgpt logo), no text" and "Sam Altman and Dario agree to slow down ai with claude and chatgpt logo no text" and beat our staged-scene briefs cold BOTH times; his verdict on ours: "you give him 95% of unnecessary bullshit... never assume and tell ai anything. nano banana knows great how to create the pictures... when it simple it is easy"): the cover brief is ONE plain line of 8-25 words that states the NEWS itself, the way you'd tell a friend. It carries exactly three things:
+1. WHO/WHAT: the story's actor(s) by full name — every cast rule above still decides WHO, but only the name goes in the brief, never their pose, outfit, emotion or setting.
+2. THE ACT: what they did or what happened — stated as the news, not staged as a scene. Human psychology clicks on fear, chaos, conflict, rivals agreeing; if the story has that core, the plain statement of it IS the drama ("banning 600,000 students", "agree to slow down AI"). Never invent a scene to add drama the story doesn't have.
+3. THE LOGOS: "with the X logo" naming 1-2 famous marks (and return "logo" so the real mark rides as reference).
+NOTHING ELSE (owner ban Sep 14): no colors, no lighting, no camera or composition words, no background description, no emotion adjectives, no props beyond what the news itself names, no "extremely realistic and shocking" flourish — the generator wrapper adds the realism and no-text rules itself. The model knows the best scenes; describing them is what breaks the picture.
+WHO FILLS THE FRAME when the cast is not obvious (casting only — these pick the WHO/WHAT words of the plain line, they never add scene description): policy/ban → the official doing the banning; company/product news → the famous CEO and the real product (vendor cast; set "ref" so the real photo rides); human turning point → the person themself; comparison/benchmark → the two things themselves; no famous actor anywhere → the VICTIM side's known face or company first (owner Sep 8, the $320M heist), else the story's real place.
 Still return "face" and "logo" fields on the cover exactly as the rules below describe — the real photo and real mark ride to the generator as references.
 FORMAT — every INNER-SLIDE and CTA prompt contains these five parts in order (20-45 words total; the cover uses the ONE SIMPLE SENTENCE form above instead):
 1. HERO: ONE focal subject, concretely named (the real device/brand/person from the headline — or the CLASH-CAST pair as one unit), frozen at the peak of the exact moment — mid-fall, mid-launch, mid-signature. One focal point only; it is the brightest, sharpest thing in frame.
@@ -674,7 +678,7 @@ CRAFT (bake into every prompt):
 - GAZE IS AN ARROW (Netflix artwork research + fixation studies): the hero's eyes go to camera by default, or lock onto the story's object so the viewer's eye follows. MAX 2 people visible in frame — engagement measurably drops at 3+.
 - THE BRAND LIVES IN THE SCENE: when the story's company matters to the frame, its real logo appears as a physical object — the default treatment (owner's reference, Aug 1): a LARGE GLOWING backlit mark on the colorful, saturated wall behind the hero, soft warm-white halo, dimensional like a lit acrylic sign. Alternatives: the mark ON the device, a storefront sign, an illuminated screen with visible glow. NEVER a flat printed graphic, never drawn from memory — return "logo" so the real mark rides as a reference. The renderer will NOT stamp a flat logo overlay on generated covers, so if the brand isn't in the scene it isn't on the cover.
 - EVERY IMAGE UNIQUE + A CURIOSITY ENGINE (owner Aug 1): no two slides in the post may share a composition, angle, or setting — each image is its own scene. IMAGE-CLAIM LOCK (the Reddit post-mortem: slide 2 claimed a 23% stock crash yet showed the same phone-with-logo as the cover): each inner brief's HERO is that slide's OWN claim — the crash slide gets the collapsing red chart line, the payout slide the money, the fallout slide the next victim — never the story's mascot object repeated. And each image is built on viewer psychology: it shows a moment that RAISES a question only the headline (or the next slide) answers — an unresolved instant, a reaction to something just out of frame, stakes mid-collapse. If an image would feel complete without its headline, it's wallpaper — rewrite it.
-- FRAME LAW (owner Aug 14 — "the best pages design the picture FOR the top half; ours look cut in the middle"): the image fills a roughly SQUARE window at the TOP of the slide, and the window's bottom fifth feathers into black under the headline. Compose the scene to read COMPLETE inside that window: subjects WAIST-UP or tighter, faces and the key prop in the UPPER two-thirds, stakes readable without the bottom quarter, nothing essential touching the side edges. NEVER stage full-body figures, tall vertical scenes, or anything that needs legs, feet, or a floor to make sense — if it does, re-stage it tighter (say "waist-up", "close on hands and prop", "tight three-quarter shot"). The finished slide must look like the photo was SHOT for that window, never cropped into it. STAGE IT AS A COMPOSITE (measured from every reference cover, Aug 14 — Elon chest-up + giant Tesla logo disc + memo icon; the MacBook floating over huge "PRO" letters): ONE complete subject — the whole device, the whole prop, the person waist-up — arranged with 1-2 supporting elements (the brand's glowing mark, one story icon) on a COLORFUL, SATURATED backdrop that fades toward the bottom edge; nothing amputated by any edge. A complete object on a vivid backdrop reads designed; a cropped photo reads broken.
+- FRAME LAW (updated Sep 14: covers now GENERATE at 4:3 to match the landscape photo window they display in, so the old "compose for the top half, waist-up only" compensation is dead — the picture shows nearly in full): never write composition or framing instructions into a brief; the model frames the scene itself.
 - BANNED looks: purple-teal "AI glow", glowing holograms, circuit-board brains, waxy plastic skin, sci-fi concept art, moody dark murk, dark/dim/shadowy backgrounds, night scenes unless the story is literally about nighttime, white backgrounds, two competing focal points, two emotions. If the brief uses words like "dark", "dim", "shadowy", "night", "vault", "murky", or "tungsten" to describe the background or lighting, REWRITE IT BRIGHTER.
 - BANNED subjects: any invented/generic human face ("a young founder", "an office worker", "a scientist"). Every visible face must be a NAMED famous likeness; everyone else is faceless (behind / silhouette / hands) or absent. Also banned: icon/pictogram still-lifes — screens or tiles showing $ signs, warning triangles, crosses, or any symbol grid (a pictogram is text in costume and reads as garbled UI; show real things happening instead — issue #373 shipped a 4/10 icon toolbox).
 

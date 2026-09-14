@@ -48,28 +48,29 @@ URL = "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions"
 NANO_URL = "https://api.replicate.com/v1/models/google/nano-banana/predictions"
 NANO_COST = 0.04
 
-# OWNER FORMAT (Sep 10, the Mamdani head-to-head: the owner briefed ChatGPT
-# in four plain conversational lines and beat our 300-word scaffold cold —
-# "i want us to do it as simple as possible... and with 60 percent less
-# words". The prompt now reads like a person briefing a designer: the story,
-# the act, conflict like a YouTube thumbnail, no words in the picture. ONE
-# path for every cover, every lane — the edu lane shipping the legacy
-# 300-word Seedream scaffold on the NYC-ban post is what triggered this.
-# Every surviving rule earned its place with a shipped failure: no-UI/no-
-# cartoon (Mamdani test 1 drew YouTube buttons and cartoon kids), text ban
+# OWNER FORMAT (Sep 14, doubling down on Sep 10: the owner's own briefs —
+# "mamdani banning 600,000 students from using AI (use chatgpt logo), no
+# text" and "Sam Altman and Dario agree to slow down ai with claude and
+# chatgpt logo no text" — beat our staged-scene prompts cold BOTH times.
+# His verdict on our Altman-Dario prompt: "you give him 95% of unnecessary
+# bullshit... never assume and tell ai anything. nano banana knows great
+# how to create the pictures." So the prompt is the story in plain words
+# plus the bare survival rules, NOTHING about colors, drama, lighting or
+# composition — the model invents the scene better than we describe it.
+# Every surviving rule earned its place with a shipped failure: text ban
 # (Circle K: 5 of 6 images died to garbled text), logo-once (Sep 6),
-# upper-60% (Sep 8: heads under the headline), full bleed (Sep 6: nano
-# baked a black frame), face-from-photo (Bernie wax). Everything else the
-# judge in write.image_score enforces for free — prompt bloat CAUSES flaws.
+# full-bleed/no-borders (Sep 6: nano baked a black frame), realistic
+# photo (Sep 3-4: cartoon covers killed full runs), face-from-photo
+# (Bernie wax). The upper-60% rule is DEAD: covers now generate 4:3 to
+# match the photo window they actually display in (owner Sep 14, "we cut
+# it in half"), so nothing hides under the headline anymore. Everything
+# else the judge in write.image_score enforces for free — prompt bloat
+# CAUSES flaws.
 INTRO = "I am going to post a story on Instagram about this: "
 GUARD = (
-    " Make it conflict and provocative, dramatic like a YouTube thumbnail, "
-    "but as ONE single real photograph covering the whole frame edge to "
-    "edge — no borders, no white margins, no bands or bars: no YouTube "
-    "buttons or icons, no cartoons. No words or text anywhere in the "
-    "picture, only logos, each at most once. Bright saturated colors. "
-    "Everything important stays in the upper 60% of the frame; the bottom "
-    "40% is plain background scenery, my app hides it under the headline.")
+    " Extremely realistic, ONE single real photograph filling the whole "
+    "frame, no borders, no cartoons. No words or text anywhere in the "
+    "picture, only logos, each at most once.")
 PERSON_LINE = (
     " The person in the attached reference photo is the story's "
     "protagonist: copy the exact face and hair from the photo, never "
@@ -179,14 +180,15 @@ def _data_uri(path):
 def _call(key, prompt, refs=None):
     # 2K, same flat price as 1K — the extra resolution is what keeps short
     # screen text crisp (1080-wide test garbled "Device Locked").
-    # 4:5 PORTRAIT (owner Sep 7): generation is covers-only since Aug 30 and
-    # covers display FULL-BLEED 1080x1350 (render.py .bleed cover). The Aug 14
-    # square decision was made for the old content-slide window; on covers a
-    # square gen lost ~20% of its width to the crop — the GPT-6 cover shipped
-    # with its stopwatch chip amputated to "…:59". Generate the shape we
-    # actually display.
+    # 4:3 LANDSCAPE (owner Sep 14, "the way we post them most of the time
+    # followers cant really see the picture... where we cut it in half"):
+    # since the Sep 9 getintoai band the cover photo displays in a
+    # 1080x~800 LANDSCAPE window above the title block — but generation
+    # stayed 4:5 portrait (a Sep 7 decision made for the OLD full-bleed
+    # display), so every cover lost its bottom ~40% to the window crop.
+    # Generate the shape we actually display.
     body = {"input": {"prompt": prompt, "size": "custom",
-                      "width": 2048, "height": 2560, "max_images": 1}}
+                      "width": 2048, "height": 1536, "max_images": 1}}
     if refs:
         # product-hero covers (owner Aug 1, @technology Codex Micro anatomy):
         # the REAL product photo rides along so the generated device matches
@@ -219,7 +221,9 @@ def _call_nano(key, prompt, refs):
     """google/nano-banana: identity-from-photo person model (Aug 14). The
     press photo(s) + real logo mark ride as image_input — likeness is copied
     from the actual photograph, not drawn from memory."""
-    body = {"input": {"prompt": prompt, "aspect_ratio": "4:5",
+    # 4:3 landscape (owner Sep 14): covers display in the 1080x~800
+    # landscape photo window above the title block — see _call's comment
+    body = {"input": {"prompt": prompt, "aspect_ratio": "4:3",
                       "output_format": "jpg"}}
     if refs:  # no-ref briefs (faceless concepts) are plain text-to-image
         body["input"]["image_input"] = [_data_uri(r) for r in refs[:3]]
