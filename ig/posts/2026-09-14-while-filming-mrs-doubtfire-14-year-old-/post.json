@@ -1,0 +1,72 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ROBIN WILLIAMS WROTE TO SAVE A 14-YEAR-OLD AND LOST. <em>THE SCHOOL FRAMED THE LETTER.</em>",
+   "hsize": 72,
+   "kicker": "LISA JAKUB NEVER RETURNED",
+   "media": "posts/2026-09-14-while-filming-mrs-doubtfire-14-year-old-/cand-1.jpg",
+   "image_prompt": "Robin Williams at bare desk beside single window, face ravaged with desperation, writing urgent letter to save an expelled girl."
+  }
+ ],
+ "caption": "Robin Williams wrote a personal letter to a school principal begging them to readmit a girl they expelled for filming Mrs. Doubtfire. They framed it. \ud83c\udfac\n\nLisa Jakub was 14 when she landed a role in Mrs. Doubtfire alongside Robin Williams. Her Canadian school wasn't impressed. She'd missed too many days, and on-set tutoring didn't count. They expelled her.\n\nRobin Williams wrote directly to the principal, personally asking him to let her back in. One of the most famous actors alive, writing a letter for one kid at one school.\n\nThe school said no. Then they framed his letter and hung it in the principal's office. The girl that letter was written for never went back.\n\nPut yourself in that room: Robin Williams' personal appeal on the wall in a frame, and the student he wrote it for permanently kept out. The school said no to Robin Williams and hung his letter like a keepsake. That's not enforcing an attendance policy. That's ego.\n\nSome rules look firm in the moment and absurd forever. Lisa Jakub never returned, and this story is still being retold three decades later while nobody remembers the attendance policy.\n\nRunning a business? DM us \"AI\" and we'll show you what AI could do for yours.\n\nSources: historyinmemes on X\n\n#RobinWilliams #MrsDoubtfire #MovieHistory #LisaJakub #HollywoodStories",
+ "pinned_comment": "The principal said no to Robin Williams, kept the girl out, and hung the letter in a frame on his wall. Hard to think of a decision that aged worse.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ROBIN WILLIAMS BEGGED A SCHOOL TO KEEP A 14-YEAR-OLD. <em>THEY KEPT HIS LETTER INSTEAD.</em>",
+   "ROBIN WILLIAMS WROTE TO SAVE A 14-YEAR-OLD. <em>THE PRINCIPAL FRAMED THE LETTER INSTEAD.</em>",
+   "ROBIN WILLIAMS' 14-YEAR-OLD CO-STAR <em>GOT EXPELLED FROM SCHOOL</em> FOR FILMING <em>MRS. DOUBTFIRE</em>",
+   "A SCHOOL REJECTED <em>ROBIN WILLIAMS'</em> LETTER, THEN <em>FRAMED IT ON THE PRINCIPAL'S WALL</em>",
+   "ROBIN WILLIAMS TRIED TO GET A 14-YEAR-OLD BACK IN SCHOOL. <em>THEY STILL SAID NO.</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   7,
+   8,
+   5
+  ],
+  "winner": 1,
+  "why": "[1]'s upfront celebrity name and 'wrote to save' create immediate emotional investment, while 'framed instead' signals absurdity faster than [3]'s two-part sequence. The ironic 'instead' is a more powerful signal than 'then framed.'"
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ROBIN WILLIAMS WROTE TO SAVE A 14-YEAR-OLD AND LOST. <em>THE SCHOOL FRAMED THE LETTER.</em>",
+   "ROBIN WILLIAMS WROTE TO SAVE A 14-YEAR-OLD. <em>THE PRINCIPAL FRAMED THE LETTER INSTEAD.</em>",
+   "ROBIN WILLIAMS WROTE FOR A GIRL EXPELLED FOR ACTING. <em>THE SCHOOL FRAMED THE LETTER.</em>"
+  ],
+  "scores": [
+   9,
+   7,
+   8
+  ],
+  "winner": 0,
+  "why": "[0]'s 'AND LOST' is pure narrative compression\u2014try, fail, then insulted by framing\u2014a complete emotional arc in five words. [2] explains why she was expelled upfront, diluting the immediate jaw-drop impact when that context belongs in the caption."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Robin Williams",
+  "actor_known": true,
+  "anchor": "Robin Williams",
+  "specifics": [
+   "School rejected Robin Williams' personal letter \u2014 then framed it and put it on the wall",
+   "14-year-old expelled for being in a Hollywood movie",
+   "Williams wrote directly to the principal to advocate for her",
+   "School cited attendance requirements even though she had on-set tutoring",
+   "Lisa Jakub never got back in"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (3/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "While filming Mrs. Doubtfire, 14-year-old Lisa Jakub was expelled from her Canadian high school because her extended absence and on-set education conflicted with the school\u2019s attendance requirements. Seeing how upset she",
+  "link": "https://x.com/historyinmemes/status/2099166217848201580",
+  "judge_interest": 5,
+  "scout_score": 44.9
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "\u00a72 Hook AND violation: 'ROBIN WILLIAMS WROTE TO SAVE A 14-YEAR-OLD AND LOST' joins two actions with AND \u2014 per \u00a72, cut the weaker one. 'LOST' is load-bearing but 'WROTE TO SAVE' and 'LOST' are two distinct actions. Fix: strip 'AND LOST' from the hook sentence and let the italic kicker ('THE SCHOOL FRAMED THE LETTER') carry the ironic outcome \u2014 e.g., 'ROBIN WILLIAMS WROTE TO A SCHOOL PRINCIPAL TO SA"
+}
