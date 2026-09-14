@@ -76,9 +76,10 @@ PERSON_LINE = (
     " The person in the attached reference photo is the story's "
     "protagonist: copy the exact face and hair from the photo, never "
     "redrawn from memory.")
-FACELESS_LINE = (
-    " Any people appear only from behind, as silhouettes or hands, never "
-    "a recognizable face.")
+# FACELESS_LINE is DEAD (owner Sep 14: "this is unnecessary... stop
+# adding things"). With no reference photo the prompt gets NO tail — the
+# judge's face gates in write.image_score still reject wax faces.
+FACELESS_LINE = ""
 # RECAP MONTAGE (owner Sep 5, Bernie-recap post-mortem: raw tweet images
 # glued side by side by CSS — "it looks SO SO bad")
 MONTAGE_LINE = (
@@ -312,8 +313,8 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
     # OWNER FORMAT (Sep 10): one prompt path for every cover, every lane.
     # The collage flag no longer branches — the edu lane never passed it and
     # shipped the old 300-word scaffold on the NYC-ban cover. Person line
-    # ONLY when a real reference photo actually rides along — a named person
-    # with no photo goes faceless, never a memory-drawn face (Bernie wax).
+    # ONLY when a real reference photo actually rides along; with no photo
+    # the tail is EMPTY (owner Sep 14) — the judge still rejects wax faces.
     if montage:
         tail = MONTAGE_LINE
     else:
