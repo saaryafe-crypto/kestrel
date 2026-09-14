@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-08T22:49:19Z",
-  "gate": "A",
-  "subject": "\"Students who don't use AI chatbots for schoolwork are scoring better grades than those who do,\" per Bloomberg",
-  "verdict": "KILL",
-  "reason": "This is a research publication, not a viral-specific event — it lacks the real-world consequence or major-actor move required for this news-priority page."
- },
- {
   "t": "2026-09-08T22:50:02Z",
   "gate": "A",
   "subject": "It's absolutely insane that even Reddit's Claude subreddit is now full of people complaining about Opus and Fable. And I",
@@ -2098,5 +2091,12 @@
   "subject": "CHATGPT HAS <em>5 FREE TRICKS</em> SO GOOD THEY FEEL ILLEGAL",
   "verdict": "FAIL",
   "reason": "s1: LOGO ONCE violation: the ChatGPT logo appears as a corner badge graphic AND as four duplicated floating disc orbs composited into the image — 'duplicated discs' is explicitly called out in the rule.; s8: BROKEN FORMATTING: every bullet line renders two checkmarks side-by-side (e.g. '✓  ✓ Read and flag…') — a clear template double-render bug that must be fixed."
+ },
+ {
+  "t": "2026-09-14T21:32:00Z",
+  "gate": "A",
+  "subject": "Jews are not nervous about AI safety, they are nervous about losing AI control. Thus they need the Jewish controlled gov",
+  "verdict": "KILL",
+  "reason": "Reaction-bait (engagement on a conspiracy tweet) with no real-world event, and the source material is antisemitic conspiracy theory and Holocaust denial that fails Truth Law entirely."
  }
 ]
