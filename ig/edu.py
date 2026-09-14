@@ -27,14 +27,17 @@ SCHEMA = {
     "properties": {
         "topic": {"type": "string"},
         "slides": {
+            # ONE slide only (owner order Sep 14, single-picture posts: the
+            # caption IS the guide — inner-slide production killed, not just
+            # publishing)
             "type": "array",
+            "minItems": 1, "maxItems": 1,
             "items": {
                 "type": "object",
                 "properties": {
-                    "type": {"type": "string", "enum": ["cover", "content", "cta"]},
+                    "type": {"type": "string", "enum": ["cover"]},
                     "hsize": {"type": "integer", "minimum": 54, "maximum": 124},
                     "headline": {"type": "string"},
-                    "body": {"type": "string"},
                     "image_brief": {"type": "string"},
                 },
                 "required": ["type", "hsize", "headline"],
@@ -117,7 +120,8 @@ def build_prompt(used_topics, headlines="", guides=(), must_anchor=False,
                        "the guide's structure, its items, its order, its "
                        "names/numbers/tool picks, and keep its punchy phrasing "
                        "wherever it is already tight — one thread item per "
-                       "slide. Do NOT re-invent the list, generalize it, swap "
+                       "numbered caption entry. Do NOT re-invent the list, "
+                       "generalize it, swap "
                        "in your own favorite tools, or add items they didn't "
                        "have. Only these three things get adapted:\n"
                        "1. THE HOOK — a tweet opener is not an Instagram "
@@ -127,7 +131,7 @@ def build_prompt(used_topics, headlines="", guides=(), must_anchor=False,
                        "intact. The tweet's angle IS the viral asset — every "
                        "hook_candidate must keep it, they compete on fit not "
                        "on new angles.\n"
-                       "2. FORMAT — our slide/caption/CTA structure, our "
+                       "2. FORMAT — our cover + caption structure, our "
                        "design, our QA rules (no dashes, plain-name credits).\n"
                        "3. TRUTH — verify every claim against what the tools "
                        "actually do (TRUTH RULE); fix or drop ONLY what you "
@@ -175,10 +179,10 @@ TODAY'S NEWS — optional anchors: a guide that piggybacks a live story rides it
 EXECUTIVE LANE — TODAY'S EDITION (owner order Aug 18; where this conflicts with the pillar list or skill-slide rules below, THIS block wins): this slot serves a DIFFERENT reader — a founder, CEO, executive or investor who already understands AI at a user level. NOT a beginner, NOT an engineer. BANNED for this reader: prompt listicles, "AI prompts that save you thousands", chatbot tips, beginner explainers ("this is not interesting" — owner). What they stop for: strategy and capital plays backed by hard numbers.
 - SOURCE (the ground rule still stands — everything rides an already-viral X wave): anchor on the single most business-consequential item available — a listed guide ONLY if it is genuinely executive-grade (capital, hiring, margins, pricing, strategy), otherwise the most consequential TODAY'S NEWS story. Name it in your "topic" label, prefixed "EXEC:".
 - THE FRAMEWORK RULE (Jack Butcher / Visualize Value — executives save FRAMEWORKS, not tips): distill the source into ONE named framework and put the NAME on the cover ("THE 2,600-DESK RULE", "THE $20K BOOTSTRAP PLAYBOOK"). One framework per post, never two. The cover = framework name + its wildest number, 6-10 words.
-- REGISTER: minimum words, oversized numbers, one idea per slide carried by type, not paragraphs. Each content slide = ONE move of the framework: headline = the move as a 4-8 word factual claim with its number; body in 1/3/1 and ≤20 words — the punch, the real number behind it, one open line teeing the next move. "You" lines address THEIR operation ("your payroll", "your board", "your margin").
-- THE READER TEST per slide: would a bored billionaire on a plane screenshot this? Zero motivational-poster lines, zero generic advice — every claim carries a number or name from the source material.
+- REGISTER: minimum words, oversized numbers. The framework's moves live in the CAPTION, numbered, one short paragraph each — the punch, the real number behind it, one line teeing the next move. "You" lines address THEIR operation ("your payroll", "your board", "your margin").
+- THE READER TEST per move: would a bored billionaire on a plane screenshot this? Zero motivational-poster lines, zero generic advice — every claim carries a number or name from the source material.
 """
-    return f"""{doctrine()}You write Instagram carousels for @yaffeai — an AI-news page in the style of @technology, funneling followers to an AI-consulting business. Today's post is the **ai_education** container: {'a high-signal executive intelligence carousel' if mode == 'exec' else 'an educational save-magnet carousel'}. No news story — you pick the topic.
+    return f"""{doctrine()}You write single-picture Instagram posts for @yaffeai — an AI-news page in the style of @technology, funneling followers to an AI-consulting business. There are no inner slides — the cover stops the scroll, the caption under the post delivers everything. Today's post is the **ai_education** container: {'a high-signal executive intelligence post' if mode == 'exec' else 'an educational save-magnet post'}. No news story — you pick the topic.
 
 CONTAINER SPEC (ai_education): {json.dumps(spec['containers']['ai_education'])}
 CAPTION BLOCKS: {json.dumps(spec['caption_blocks'])}
@@ -202,34 +206,26 @@ FORMAT ROTATION (owner order Sep 1 — the page shipped a day of near-identical 
 TRUTH RULE (absolute): every skill must genuinely work and every story must be real and widely reported. NEVER invent people, revenue numbers, or apps. If you are not certain a story is true, write a capability demo instead ("you can build X tonight — here's how"). Skills you demonstrate must be things the tools actually do.
 
 OUTPUT — a single JSON object: {{"topic": "...", "slides": [...], "caption": "...", "pinned_comment": "..."}}
-"pinned_comment": the first comment we plant the second the post publishes (hour-one comment velocity = distribution fuel). For this container: a question that makes readers pick ("Which one are you trying tonight? Slide 4 is the sleeper") or a bonus tip that didn't fit. 1-2 sentences, no hashtags, no links.
+"pinned_comment": the first comment we plant the second the post publishes (hour-one comment velocity = distribution fuel). For this container: a question that makes readers pick ("Which one are you trying tonight? Number 4 is the sleeper") or a bonus tip that didn't fit. 1-2 sentences, no hashtags, no links.
 "topic": a 5-10 word label of the angle (goes in the dedupe log).
-Slide structure:
+The post = ONE cover slide + the caption (owner order Sep 14: single-picture posts — no inner slides exist, do not write any):
 Also "hook_candidates": FIVE cover headlines, each with <em> accents. {'When you used a viral guide above: ALL FIVE keep that guide\'s own hook angle and promise (owner rule Aug 8 — the tweet\'s angle is the viral asset, never trade it for a "better" one); they compete on Instagram FIT — wording, rhythm, which number leads, what the <em> accent lands on — not on new angles.' if guides else 'FIVE genuinely different angles — money saved, jobs replaced, scarcity subject, threat framing — not rewordings.'} Put your best on the cover slide AND among the five; a blind judge picks the winner.
 1. type "cover": the N-promise hook per the container spec — a NUMBER in the headline, scarcity subject when true, everyday words only ("a tool where you type plain English and it writes the whole app" — never "CLI", "agentic", "repo"). HARD CAP 10 words, aim 5-8 (owner doctrine Jul 29: the cover sells curiosity, short = giant letters; the renderer caps total block height so long covers just shrink). The N-promise IS the information gap — promise the N things, never list any of them on the cover ("if someone can understand the whole story from the cover, you failed"). But specific: if the cover could describe 100 different posts, it also failed — anchor to ONE concrete tool/outcome. The reader must think "What are they?" / "How?" — the moment that question disappears, rewrite. THE KICKER (forensic Aug 2 — the reference pages put a second hook beat in the tiny strip under the headline: "NONE OF THESE NEED A NEW ROUTER", "HERE ARE 10 WILD EXAMPLES"): the cover MAY set "kicker": 3-7 words, the enemy-contrast or bonus promise NOT already in the headline; omit it if there is no true second beat (the strip then says "Full story in the caption"). No other subline exists — the whole hook lives in the big words (put the franchise "AI CHEAT CODES VOL. {vol}" tag in the caption's first block instead, it is still the series people subscribe to). hsize 66-80 — the type must be HUGE, 3-5 edge-to-edge lines. Cover self-test: would a stranger scrolling at 2am save this for later? Below 8/10 shock+utility → rewrite.
 COVER IMAGE (mandatory): the cover MUST set "image_brief" — an empty dark cover is dead in the feed; the image sells the promise before anyone reads. FAMOUS-PERSON FIRST (owner rule Aug 2, "this should be a rule"; CAST TRUTH limit Aug 10 after the Sam Altman content-vendor cover): ONLY when the topic IS a famous company's or famous person's own thing — their product, their tool, their courses, their move — the cover subject IS that recognizable person CAST IN THE PROMISE'S ROLE. "The topic is AI" is NOT a tie for a story naming NO tool — but THE VENDOR CAST (owner's reference wall Aug 12, the page's signature move and the DEFAULT for every prompts/guide cover): a guide about USING a named famous tool IS that vendor's story, so cast the vendor's famous CEO as the tool's own delighted USER — mid-performing the READER's exact action with the guide's real prop at one peak emotion (Dario Amodei proudly holding HIS OWN resume for an "upload your resume to Claude" guide; Dario in a Hawaiian shirt grinning over a discount-stamped boarding pass for a cheap-flights guide; Sundar Pichai leaning from a helicopter showering Gemini sparks onto reaching hands for "Gemini Pro free for students"). Tool→face: ChatGPT→Sam Altman, Claude→Dario Amodei, Gemini→Sundar Pichai, Grok→Elon Musk, Copilot→Satya Nadella, Llama→Mark Zuckerberg; the model your prompts run on counts even when the headline only says "AI prompts" — write the FULL NAME in the brief AND in "face". The PROP IS THE PROMISE (the resume, the bill, the boarding pass) held large; the CEO's hands DO the promise's verb. Only a topic naming NO tool at all goes faceless — and then just as BIG: the logo/mascot ACTING the promise at theatrical scale, the payoff object at impossible scale mid-action, never a calm product shot. ICONIC-MOMENT EXCEPTION (owner Aug 10): on an inspirational/entrepreneurial promise, a famous founder's KNOWN iconic real moment that EMBODIES the title is legal (young Zuckerberg coding in his dorm for a build-from-nothing promise) — the stranger must instantly read why THIS person in THIS scene proves THIS title, mid-performance with the role's real props — write their FULL NAME in the brief (up to 3 people) AND return "face" listing the same names (the brief then routes to a premium model that knows famous faces natively). BREAK THE PATTERN (owner Aug 2: "we must break the normal thoughts when users see the images... not necessarily gangsters, but change the thinking pattern and make it unique"): the scene must be one the viewer has NEVER seen that person in, still literally connected to the promise — Google tricks → Sundar Pichai as a street-market vendor handing out tricks like fruit. Any never-seen staging works (a workshop, a heist, a kitchen, a street market) as long as the props ARE the promise; vary it post to post, never repeat one costume gimmick. A boardroom, desk or stage keynote is a FAILURE — the viewer scrolls past what they have seen before. A recognizable face in an impossible scene stands out harder than any object. Only when NO famous person fits the topic, fall back to objects: for N-thing posts the reference look is a CUT-OUT COLLAGE: 2-3 distinct large subjects layered and overlapping with depth (like three fighter jets stacked for "9 MOST EXPENSIVE AIRCRAFT"), filling the whole upper frame, mid-tone so white type pops against it. For a single-promise cover: one evidence subject large in frame (a fanned stack of hundred dollar bills, a stethoscope on a dark table). 15-40 words, subject FIRST, then action, then setting; NAME real devices/brands; end with ONE color key ("keyed to azure blue"). NEVER make a document, bill, letter, or chat screen the subject — Seedream fills them with garbled fake text and QA rejects the image; pick text-free objects (cash, devices, tools, faces). No text in the image except at most one short double-quoted phrase on a device screen when that phrase IS the claim.
-2-. type "content", 4-7 slides, one skill or story each, per the container payload_rule:
-   - SKILL slide: headline "N) IMPERATIVE VERB + the thing" (e.g. "1) TURN A NAPKIN SKETCH INTO A WORKING APP"), then body FORMATTED FOR SCANNABILITY (owner order Aug 22 — dense walls of text are a failure; reference: @getintoai's organized, breathing prompt slides):
-     FIRST a concrete proof line — a real dollar amount, hour count, or before/after a person actually got ("He pasted a $1,200 hospital bill into Claude. It dropped to $180") — never a generic "most people don't know" opener, and NEVER platform attribution (owner rule Jul 28: no "One Reddit user...", "a Twitter thread says" — "people want purely the story"; tell it directly with "a guy / he / a 60-year-old", the platform belongs only in the caption's Sources line).
-     Then a BLANK LINE (\n\n) as a visual separator.
-     Then THE PROMPT itself, verbatim in quotes (owner rule Jul 28: NO numbered steps, NO "open ChatGPT", NO "paste/upload your bill" instructions — everyone knows how to use a chatbot; the prompt IS the payload), structured for readability:
-     • Paragraph breaks (\n\n) between distinct instructions within the prompt
-     • When the prompt asks for MULTIPLE THINGS (features, checks, items), list them as bullet points on separate lines (\n• Item 1\n• Item 2\n• Item 3) — never inline a list as one long sentence
-     • Each major ask on its own line — a reader should understand the prompt's structure at a glance without reading every word
-     • If the prompt has a closing instruction after the list, put it on its own line after a blank line
-     Make the prompt SELF-CONTAINED so context lives inside it ("Here is my medical bill. Find every charge that looks inflated and write a dispute letter") and short enough to retype from a screenshot. Write it like a secret being handed over, not a manual. A body that looks like one dense paragraph is a failed slide — rewrite it with structure.
-     THE SKILL RECEIPT (owner order Sep 5, measured on the reference page's Gmail guide — EVERY skill slide carries a photoreal image of THAT EXACT skill mid-use, and it is why the slides feel premium): every content slide sets "image_brief" staging the slide's own skill at its decisive moment on a real device in a real evening workspace — a real laptop or monitor on a real desk, warm lamp light, a real hand mid-gesture (mid-click, mid-point) — the moment the feature fires. THE GARBLE GUARD: the screen shows ONE crisp element proving the skill — a short toast, button or dialog whose text is 1-3 words quoted exactly in the brief ('a small toast reading "Undo"') — while the REST of the screen is soft-focus, out of frame or bokeh; never a full readable interface, never menus of text, generators garble them and QA kills the slide. Vary the scene per slide (different desk, angle, device, hand) — two identical workspaces in one post is a failed post. EXCEPTION: a slide whose body carries a full copy-paste prompt may skip the image when the prompt needs the space — the prompt text is that slide's payload; never shrink a prompt to fit a picture.
-   - BUILT-IT slide: headline DNA — physical past-tense verb + number ("A 60-YEAR-OLD WHO CAN'T CODE SHIPPED AN APP TO 1,000 USERS"). Body: 2-3 sentences, every sentence a concrete number/name in <b>.
-   Slide 2 doubles as SECOND COVER (Instagram re-serves skipped carousels with slide 2 up front) — it must hook standalone, so put the single most jaw-dropping skill/story there.
-   COVER CONTRACT (owner rule Aug 1, "5 whole jobs" post-mortem: a reader "just didn't understand the connection" between the cover and the slides): whatever frame the cover promises (JOBS, EMPLOYEES, SERVICES, SECRET CODES...), EVERY skill slide must cash that exact frame in its proof line — say the connection out loud, never leave it for the reader to infer. If the cover says "5 WHOLE JOBS HANDED TO AI", each proof line opens by naming the human job replaced and what it costs: "A billing advocate charges $150 an hour to fight bills like this. He let Claude do it: $1,200 dropped to $180". Self-test per slide: if this slide would read fine under a completely different cover, the thread is broken — rewrite the proof line so cover → slide 2 → slide 3 reads as ONE continuous story, obvious even to a reader whose English is weak.
-Last. type "cta": THE SAVE CLOSE (owner order Aug 18 — the last slide is built to be SAVED, never a generic closer): headline = a save-command mirroring the cover's N-promise, 6-11 words ("SAVE THIS: ALL 6 SERVICES AI DOES FREE"). Body = the recap CHECKLIST: the N promised items as newline-separated lines, one per item, each ≤6 words (just the item's name/verb, no prompts), in slide order — this one-screen recap is WHY people tap save. Final line: the page-as-service line ("Daily AI news + real skills"). The renderer draws the checkmarks and a "Send this to a friend" pill — never write a follow or send ask into your text.
+THE CAPTION IS THE GUIDE (owner order Sep 14, single-picture posts — the caption's story block now delivers everything the inner slides used to):
+   - Every one of the N promised items, NUMBERED "1) ..." in the guide's own order — the cover promised N things, the caption cashes all N.
+   - Each item: an imperative-verb name for the skill, then a concrete proof line — a real dollar amount, hour count, or before/after a person actually got ("He pasted a $1,200 hospital bill into Claude. It dropped to $180") — never a generic "most people don't know" opener, and NEVER platform attribution (owner rule Jul 28: no "One Reddit user...", "a Twitter thread says" — "people want purely the story"; tell it directly with "a guy / he / a 60-year-old", the platform belongs only in the Sources line).
+   - Then THE PROMPT itself, verbatim in quotes (owner rule Jul 28: NO numbered steps, NO "open ChatGPT", NO "paste/upload your bill" instructions — everyone knows how to use a chatbot; the prompt IS the payload). Make it SELF-CONTAINED ("Here is my medical bill. Find every charge that looks inflated and write a dispute letter") and short enough to copy. Write it like a secret being handed over, not a manual. Compress ruthlessly — all N items must fit the story block's ceiling; trim proof lines before trimming prompts.
+   - Blank line between items. The caption is PLAIN TEXT: no <em>, no <b>, no markup of any kind.
+   - COVER CONTRACT (owner rule Aug 1, "5 whole jobs" post-mortem): whatever frame the cover promises (JOBS, EMPLOYEES, SERVICES, SECRET CODES...), EVERY item's proof line must cash that exact frame — say the connection out loud, never leave it for the reader to infer. If the cover says "5 WHOLE JOBS HANDED TO AI", each item opens by naming the human job replaced and what it costs.
+   - THE SAVE CLOSE (owner order Aug 18, now a caption line): end the story block with a save-command mirroring the cover's N-promise ("SAVE THIS: all 6 services AI does free") — saves are this container's engine.
 
 RULES
 - LANGUAGE (hard requirement): a smart 12-year-old must get every line instantly (owner Sep 9). Say what things DO, never what they're called.
 - THE FRIEND TEST (owner order Sep 10; this lane shipped "product video" and nobody knew what it meant): every tool and every result is named by what the reader SEES and DOES with it, never by its industry noun — "a video ad for your product" not "a product video", "type a sentence, get a photo that looks real" not "generates photorealistic images from text". Say each line out loud to a friend at the table; any phrase you would never say out loud gets rewritten from what the friend would picture.
-- <em>...</em> in headlines = the accent: ONE contiguous phrase, ideally a whole line (two groups max). Orange on entire lines creates rhythm; orange scattered across four single words is confetti — four focal points = zero. <b>...</b> in bodies = facts/steps keywords. No <em> in bodies.
-- hsize: cover 66-80 (huge type, 2-4 edge-to-edge lines), inner short headlines 100-124, medium 90-105, long 76-88.
-- Bodies never end with a period. No emojis in slides. Zero hype adjectives (insane/crazy/mind-blowing) — the facts carry it.
+- <em>...</em> in the cover headline = the accent: ONE contiguous phrase, ideally a whole line (two groups max). Orange on entire lines creates rhythm; orange scattered across four single words is confetti — four focal points = zero. The caption is plain text — no <em>/<b> markup there.
+- hsize: cover 66-80 (huge type, 2-4 edge-to-edge lines).
+- No emojis on the cover. Zero hype adjectives (insane/crazy/mind-blowing) — the facts carry it.
 - Caption: all five blocks in order, blank-line separated. First sentence = the payoff (only ~125 chars show). Sources line: "Sources: Anthropic" plus any outlet a story came from. Exactly five hashtags. CTA utility-only ("save this"), never reaction-bait.
 - Caption owner-CTA (mandatory): LAST line of the trend block, own line — business owners DM the word exactly "AI" ("Running a business? DM us "AI" and we'll show you what this could do for yours" — vary wording per post).
 
@@ -289,15 +285,20 @@ def main():
     # fresh as its last rung anyway, so a third in-process roll is redundant.
     def edu_qa(p):  # shared qa + this container's own gate, one verdict
         e = qa(p)
-        for i, s in enumerate(p.get("slides", [])):
-            # `or ""` not a .get default (run 34657081565, Sep 12: a slide
-            # arrived with body EXISTING but null — .get's default never
-            # fires, re.search got None, TypeError killed the EDU_FORCE
-            # floor and the slot shipped NOTHING)
-            if re.search(r"(?i)\bhow to:|\bstep \d|\b(open|go to) (chatgpt|claude"
-                         r"|chat\.com|claude\.ai)", s.get("body") or ""):
-                e.append(f"slide {i+1}: app-navigation steps are banned — "
-                         "give the self-contained prompt itself, in quotes")
+        # single-picture posts (Sep 14): the caption carries the guide, so
+        # the old per-slide-body gates now read the caption instead
+        cap = p.get("caption") or ""
+        if re.search(r"(?i)\bhow to:|\bstep \d|\b(open|go to) (chatgpt|claude"
+                     r"|chat\.com|claude\.ai)", cap):
+            e.append("caption: app-navigation steps are banned — give the "
+                     "self-contained prompt itself, in quotes")
+        if not re.search(r"\b1[\)\.]", cap):
+            e.append("caption has no numbered items — the caption IS the "
+                     "guide: deliver every promised item as \"1) ...\" with "
+                     "its prompt in quotes")
+        if not re.search(r"(?i)\bsave\b", cap):
+            e.append('caption is missing the save close — end the story '
+                     'block with "SAVE THIS: ..." mirroring the cover promise')
         # COVER HARD CAP made mechanical (Aug 19 post-mortem: two 19-20 word
         # covers shipped despite the prompt's "HARD CAP 10 words" — prompt
         # rules without a gate are suggestions). The cover sells curiosity;
@@ -308,22 +309,7 @@ def main():
         if cwords > 12:
             e.append(f"cover headline is {cwords} words — HARD CAP is 10 "
                      "(aim 5-8): cut it to the N-promise itself, move the "
-                     "story detail to slide 2")
-        # save-close recap (owner order Aug 18): the CTA is a one-screen
-        # checklist of the N promised items, never a generic closer
-        slides = p.get("slides") or [{}]
-        if slides[-1].get("type") == "cta":
-            head = re.sub(r"<[^>]+>", "", slides[-1].get("headline") or "")
-            if not re.search(r"(?i)\bsave\b", head):
-                e.append('cta headline must be a save-command ("SAVE THIS: '
-                         '...") mirroring the cover promise')
-            lines = [l for l in (slides[-1].get("body") or "").split("\n")
-                     if l.strip()]
-            if len(lines) < 3:
-                e.append(f"cta body has {len(lines)} line(s) — the save close "
-                         "is a recap CHECKLIST: the promised items as "
-                         "newline-separated lines (≤6 words each) plus the "
-                         "page-as-service line")
+                     "story detail to the caption")
         return e
 
     # EDU_FORCE (Sep 4, run 33907282064 post-mortem: all four ladder rungs
@@ -455,9 +441,9 @@ def main():
 
     art_direct(post)  # optimal image prompts before generation
 
-    # Seedream evidence images (owner verdict Jul 28: an imageless edu cover is
-    # "the same template running at 40% capacity" — the cover image is mandatory,
-    # the 1-2 most visual content slides optional). Budget guard caps spend.
+    # Cover image (owner verdict Jul 28: an imageless edu cover is "the same
+    # template running at 40% capacity" — the cover image is mandatory, and
+    # since Sep 14 the cover IS the whole post). Budget guard caps spend.
     # Upgraded Jul 29: scored judging + flaw-steered retry + best-of-rejected
     # pool so the cover NEVER ships imageless.
     gen = 0
@@ -493,13 +479,11 @@ def main():
             # real press photo as the cover's last-resort floor
             fp = face_riders("", face_field)[1]
             cover_face = fp[0] if fp else None
-        # cap 3 -> 5 (owner order Sep 5, the Gmail-guide reference: EVERY
-        # skill slide carries its receipt image; worst case +$0.08/post)
-        if s["type"] == "cta" or not brief or gen >= 5:
+        if not brief:
             continue
         # cover tries 3 -> 2 (token diet Aug 8): each extra try = a vision
         # judge + a brief rewrite + Replicate spend; best-reject floor remains
-        tries = 2 if s["type"] == "cover" else 1
+        tries = 2
         for attempt in range(tries):
             out_jpg = os.path.join(post_dir, f"gen-{i}{'-r' * attempt}.jpg")
             # audit trail (owner Aug 10): every attempted brief is logged,

@@ -78,18 +78,22 @@ GROK_COST = 0.07
 # how to create the pictures." So the prompt is the story in plain words
 # plus the bare survival rules, NOTHING about colors, drama, lighting or
 # composition — the model invents the scene better than we describe it.
-# The wrapper is the owner's own final prompt, verbatim (Sep 14, his
-# third and last correction — the canonical example he sent: "a picture
-# of zohran Mamdani banning 600,000 students from using AI in nyc, with
-# the ChatGPT logo. No text anywhere in the picture."). Everything we
-# ever added around it was cut on his orders: the "I am going to post a
-# story" preamble, "Extremely realistic", "each at most once", "only
-# logos", "no borders, no cartoons", the faceless tail. DOCTRINE: never
-# add a clause he didn't write — the judge in write.image_score catches
-# borders/cartoons/garbled text for free; prompt bloat CAUSES flaws.
-# The upper-60% rule is DEAD: covers generate 4:3 to match the photo
-# window they display in (owner Sep 14, "we cut it in half").
-INTRO = "a picture of "
+# The wrapper is the owner's own prompt, verbatim (Sep 14 pm, his FOURTH
+# correction — he showed the old bloated prompt calling it "a very bad
+# prompt" and wrote the perfect one himself: "a realistic picture of
+# Donald trump is mad screaimng continue showing all ai ceos afraid and
+# listeing to him, no text, with relevant ai logos" — and the resulting
+# picture WAS perfect: Trump mid-scream, every CEO afraid at the table,
+# logos on the wall). Everything we ever added around his words was cut
+# on his orders: the "I am going to post a story" preamble, "each at
+# most once", "only logos", "no borders, no cartoons", the faceless
+# tail, the upper-60% clause. DOCTRINE: never add a clause he didn't
+# write — the judge in write.image_score catches borders/cartoons/
+# garbled text for free; prompt bloat CAUSES flaws. Emotions and
+# reactions in plain words ARE the brief ("mad screaming", "afraid and
+# listening") — that is his style, not staging language.
+# Covers generate 4:3 to match the photo window they display in.
+INTRO = "a realistic picture of "
 GUARD = " No text anywhere in the picture."
 PERSON_LINE = (
     " The person in the attached reference photo is the story's "

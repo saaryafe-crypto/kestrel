@@ -125,7 +125,7 @@ def gate_a(story, material=""):
 
 ----
 
-You are THE EDITOR-IN-CHIEF. The pipeline wants to spend real money writing a full Instagram carousel about the candidate story below. Judge it against STORY LAW (section 1) and THE STANDARD (section 0) above. You own the one question no other stage asks: is this actually a story worth posting?
+You are THE EDITOR-IN-CHIEF. The pipeline wants to spend real money writing a full Instagram post about the candidate story below. Judge it against STORY LAW (section 1) and THE STANDARD (section 0) above. You own the one question no other stage asks: is this actually a story worth posting?
 
 Be strict on the INSTANT KILL list — reaction-bait and no-substance stories are exactly how this page shipped its two worst posts ever. But a KILL is not free either: when every candidate dies, the slot falls to the edu-listicle floor, and on Sep 1 this gate killed 39 of 40 candidates (including "Sony sues Anthropic") and the page shipped a day of repetitive listicles — the exact failure the owner flagged as the page's #1 content problem. Apply §1's CALIBRATION: judge the EVENT, not the tweet's length. Both wrong verdicts cost the page; own the one you choose.
 
@@ -156,10 +156,10 @@ def gate_b(post, cover_path=None):
                         "body": s.get("body"),
                         "has_image": bool(s.get("media") or s.get("image_brief"))}
                        for s in post["slides"]],
-            "caption": post.get("caption", "")[:400]
-                       + (" [...caption trimmed for review — do not judge its"
-                          " ending]" if len(post.get("caption", "")) > 400
-                          else "")}
+            # the FULL caption (Sep 14 single-picture posts: the caption IS
+            # the post — a 400-char trim would hide the payload from the
+            # final judge; ceiling guards against a runaway writer only)
+            "caption": post.get("caption", "")[:2500]}
     img_line = (f"The post's ACTUAL COVER IMAGE is attached — judge it against "
                 f"IMAGE LAW with your own eyes (if no image is attached to "
                 f"this message, use your Read tool on {cover_path} to look at "
@@ -187,31 +187,29 @@ def gate_b(post, cover_path=None):
     if post.get("container") == "ai_education":
         container_note = (
             "\n\nCONTAINER NOTE: this post is the ai_education container — a "
-            "save-magnet listicle. A numbered list of independent items is its "
-            "LEGAL structure: do NOT reject it for failing section 4's shuffle "
+            "save-magnet listicle. A numbered list of independent items (in "
+            "the CAPTION — that is where the guide lives) is its LEGAL "
+            "structure: do NOT reject it for failing section 4's shuffle "
             "test or story-arc rules, which are story-post law. Everything "
             "else fully applies: language law, truth law, image law, the "
-            "cover contract, and the save-close.")
+            "cover contract, and the caption's save close.")
     elif post.get("container") == "daily_recap":
         container_note = (
             "\n\nCONTAINER NOTE: this post is the daily_recap container — the "
             "day's-biggest-stories roundup the owner turned ON Aug 27 (the "
             "competitor audit measured recap at 2,555 median likes/1M; "
             "@technology's two biggest posts ever are roundups). Independent "
-            "story slides ARE its legal structure: do NOT reject it for "
-            "failing section 4's shuffle test, story-arc rules, or section "
-            "1's roundup/already-published kills — covering the day's stories "
-            "again IS the format. A payload slide with NO image renders as a "
-            "big-type slide — legal here when that story has no press photo "
-            "(image law's own no-image-beats-bad-image rule), so never "
-            "reject solely for a missing slide image. Everything else fully "
-            "applies: language law, truth law, image law on the images that "
-            "DO exist, hook law per slide, and the save-close.")
+            "one-line stories in the CAPTION are its legal structure: do NOT "
+            "reject it for failing section 4's shuffle test, story-arc "
+            "rules, or section 1's roundup/already-published kills — "
+            "covering the day's stories again IS the format. Everything "
+            "else fully applies: language law, truth law, image law on the "
+            "cover, and hook law on the cover.")
     prompt = f"""{doctrine()}
 
 ----
 
-You are THE EDITOR-IN-CHIEF doing the final pre-publish review. This finished carousel is minutes from going live to the page's real audience. Judge the WHOLE product against sections 2-5 above (hook, images, storytelling, truth). FRIEND TEST first (§4, owner order Sep 10): read every slide out loud as a smart 12-year-old — any phrase nobody says out loud ("model", "scenarios", "economic growth", any official noun standing where the thing's plain function belongs) is a REJECT, and the reason must contain the spoken rewrite. {img_line}{container_note}
+You are THE EDITOR-IN-CHIEF doing the final pre-publish review. This finished single-picture post (the cover picture + the caption under it — the caption tells the whole story, there are no inner slides) is minutes from going live to the page's real audience. Judge the WHOLE product against sections 2-5 above (hook, images, storytelling, truth). FRIEND TEST first (§4, owner order Sep 10): read every slide out loud as a smart 12-year-old — any phrase nobody says out loud ("model", "scenarios", "economic growth", any official noun standing where the thing's plain function belongs) is a REJECT, and the reason must contain the spoken rewrite. {img_line}{container_note}
 
 The bar is section 0: would the owner look at this and post it himself? You are the last line — every earlier gate already passed this post, and the two worst posts in the page's history passed every earlier gate too.
 
@@ -290,10 +288,9 @@ def gate_r(post, post_dir):
             small.append(_shrink(j, os.path.join(tmp, os.path.basename(j))))
         except Exception:
             small.append(j)  # judge full-size rather than skip the slide
-    prompt = f"""You are the visual quality gate of a top tech news Instagram page. Attached are ALL {len(small)} rendered slides of a finished carousel, in order (image 1 = slide 1 = the cover). If no images are attached to this message, use your Read tool to look at every one of these files in order: {json.dumps(small)}. The page's standard is @technology-level: every slide must look like it came from a professional news channel.
+    prompt = f"""You are the visual quality gate of a top tech news Instagram page. Attached {'is the single rendered slide of a finished post — the cover, the only picture that publishes (single-picture posts)' if len(small) == 1 else f'are ALL {len(small)} rendered slides of a finished post, in order (image 1 = slide 1 = the cover)'}. If no images are attached to this message, use your Read tool to look at every one of these files in order: {json.dumps(small)}. The page's standard is @technology-level: every slide must look like it came from a professional news channel.
 
 JUDGE EVERY SLIDE against this rubric:
-- THE RECEIPT LAW: an inner slide's picture must PROVE that slide's own claim (real press moment of the slide's actor, source footage on a card, a typeset X card, or the story's object). A picture that is unrelated decoration for its slide's words is a FAIL.
 - SCREENSHOT LAW: a raw screenshot of text/UI/a webpage as a full-bleed background or as any part of the cover is an instant FAIL (action drop_image). A screenshot framed on a rounded card is legal.
 - LEGIBILITY: the headline and body must read clearly against the image. Text drowning in a busy or bright photo zone = FAIL.
 - PHOTO QUALITY: murky/dark/blurry photos, garbled AI text, cartoon or wax-figure faces, amputated heads = FAIL. Bright saturated press-photo energy = the standard.

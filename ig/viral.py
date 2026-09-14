@@ -194,8 +194,8 @@ PLAYBOOK = {
         "lead": ('COUNTABLE VALUE PROMISE. Formula: [N concrete things] '
                  '[the reader keeps: money saved / hours back] — the count '
                  'and the value go in the headline; the list itself is the '
-                 'carousel (an N-list cover can\'t hold N items — this is '
-                 'the one type where the payload stays inside). Model: "6 '
+                 'caption (an N-list cover can\'t hold N items — the '
+                 'caption under the post delivers them). Model: "6 '
                  'EXPENSIVE SERVICES AI NOW REPLACES FOR FREE". Add the '
                  'ENEMY CONTRAST clause when true — what the reader beats '
                  'by knowing it ("...THAN MOST PAID COURSES", "MOST PEOPLE '
@@ -226,8 +226,8 @@ SHAPES = """HOOK SHAPES (every reference-page hook fills ONE of these — pick t
 THE GRAMMAR OF EVERY SHAPE (measured on the corpus, zero exceptions): ONE subject, ONE action, ONE twist. The twist rides as a TRAILING PHRASE ("while he slept", "during his wedding", "for free") or after ONE connective (AND / YET / THEN / STILL) — never as a third clause. Three facts stapled with commas is a LIST, not a hook — the reference pages never ship one (failure model, owner-killed Aug 3: "MUSK DELETES EVERY STEP HE DOESN'T NEED, BUFFETT KILLS 20 OF HIS 25 GOALS, 5 FRAMEWORKS AS FREE CHATGPT PROMPTS" — three subjects, no sentence). Max 2 commas total. Need more? Split into two short sentences ("...WITH AI. IT COST HIM $863 AND 1.2 BILLION TOKENS"). Read each sentence out loud in ONE BREATH — if you stumble, rewrite."""
 
 SHARED_RULES = """- ONE IDEA (owner kill Aug 3, "hard to understand"): the hook is ONE story tension a 12-year-old repeats to a friend after ONE read — never a summary that stacks separate facts. "Complete" means the ONE idea is fully told with its specifics; it never means listing everything the post contains.
-- LENGTH 8-14 words, aim 10-13 (owner diet Sep 10, forensic audit: the winners' covers run 3 huge lines — @technology's 90.5K cover is 11 words; 15+ word hooks render as paragraph covers in small type): ONE complete lean claim — actor, action, the SINGLE wildest number. Model: "OPENAI JUST LAUNCHED ITS FIRST HARDWARE: A $230 AI KEYBOARD" (10 words; every supporting spec moves to the inner slides).
-- WITHHOLD NOTHING (owner doctrine Aug 1, reverses the Jul 29 gap rule): a riddle only works for pages with authority; a growing page earns the follow by DELIVERING on the cover. The reader should get the full story from the cover alone — the swipe is for the photos, the details and the fallout, which the wild content makes them want automatically.
+- LENGTH 8-14 words, aim 10-13 (owner diet Sep 10, forensic audit: the winners' covers run 3 huge lines — @technology's 90.5K cover is 11 words; 15+ word hooks render as paragraph covers in small type): ONE complete lean claim — actor, action, the SINGLE wildest number. Model: "OPENAI JUST LAUNCHED ITS FIRST HARDWARE: A $230 AI KEYBOARD" (10 words; every supporting spec moves to the caption).
+- WITHHOLD NOTHING (owner doctrine Aug 1, reverses the Jul 29 gap rule): a riddle only works for pages with authority; a growing page earns the follow by DELIVERING on the cover. The reader should get the full story from the cover alone — the caption under the post carries the details and the fallout, which the wild content makes them want automatically.
 - Structure: [ACTOR] JUST [charged verb + what happened], [the specific that makes it wild]. Front-load the actor and verb; the numbers ride in the second half.
 - FAMOUS NAME FIRST (owner Sep 4, the Bernie Sanders post-mortem — our riddle "THE MAN WHO RAN FOR PRESIDENT TWICE..." lost to the reference page's plain "BERNIE SANDERS INTRODUCES BILL..."): when the story's actor is a name a 16-year-old recognizes, that exact name goes in the FIRST 6 WORDS. Recognition beats cleverness every time; a code gate kills candidates that bury a famous name.
 - PERSON-FIRST (owner post-mortem Aug 1, the Situational-Awareness fund story): when ONE human drives the story, the PERSON is the actor — identity fact + rise + fall + the human scene ("THIS 24-YEAR-OLD BUILT A $45 BILLION AI FUND. THEN LOST 67% OF IT DURING HIS WEDDING" — the reference page's winner). Leading with the thing ("A $45 BILLION AI FUND COLLAPSED IN DAYS") is the failure model: people stop for people. A retellable human scene (a wedding, a courtroom) on the cover outranks any percentage.
@@ -528,7 +528,7 @@ def judge(cands, ctx, lang="en"):
 TRUE FACTS (use ONLY for the truth kill rule below — you still react as a stranger):
 {facts or '- (none listed)'}
 
-Score each candidate 0-10 on ONE thing: IMPACT — would you stop scrolling, read it, and swipe? Trust your gut. A hook that makes you think "wait, WHAT?" beats one that sounds professionally crafted but doesn't make you feel anything. You don't know this page, so a cover that TELLS you the full wild story with its real numbers beats a cryptic tease that hides what happened — you'd swipe for the photos and details of a story you already believe, not to solve a stranger's riddle. INSTANT rule: you give each line ~1.7 seconds — a hook you had to read twice to parse scores 3 at most, no matter how good its facts are.
+Score each candidate 0-10 on ONE thing: IMPACT — would you stop scrolling, read it, and open the caption? Trust your gut. A hook that makes you think "wait, WHAT?" beats one that sounds professionally crafted but doesn't make you feel anything. You don't know this page, so a cover that TELLS you the full wild story with its real numbers beats a cryptic tease that hides what happened — you'd read the caption for the details of a story you already believe, not to solve a stranger's riddle. INSTANT rule: you give each line ~1.7 seconds — a hook you had to read twice to parse scores 3 at most, no matter how good its facts are.
 
 KILL RULES (score 0 TOTAL, no matter how good it sounds):
 - TRUTH: states as DONE something the facts say was only tried/almost/blocked ("SENT" when it only TRIED to send), or invents a claim the facts don't support
@@ -731,7 +731,7 @@ def tournament(post, story, ctx, material=""):
 def hebrew_cover(out, story, ctx, material="", img=""):
     """Replace the LOCALIZED cover hook with a NATIVELY-WRITTEN one: 5 Hebrew
     candidates from the classified story, judged in Hebrew. Localization keeps
-    slides 2+ (they carry the facts); the hook is packaging and gets
+    the caption (it carries the facts); the hook is packaging and gets
     re-created, not translated. Fails open: the localized hook stays — but
     only after one retry, and flagged on the post (audit Aug 3: a single
     transient failure shipped a flat translation with zero native doctrine)."""

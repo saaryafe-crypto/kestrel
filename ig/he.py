@@ -115,7 +115,7 @@ def build_prompt(post):
 - <em>...</em> נשאר סביב קבוצת המילים המקבילה בעברית (חובה בכותרת השער). <b>...</b> סביב אותן עובדות מפתח בכל body.
 - מספרים: אחת עד עשר תמיד במילים, בהתאמת מין נכונה לשם העצם (שש בעיות, חמישה כלים). כמה שפחות ספרות ומילים באנגלית; בכותרת השער מקסימום שני איי LTR ועדיף אחד. שמות מותגים נשארים באנגלית.
 - בלי מקף מכל סוג בטקסט המפורסם.
-- caption: שורה ראשונה עם השורה התחתונה של הסיפור, אחר כך הסיפור בקצרה, שורת המקורות מהמקור, וקריאה לעקוב אחרי {HANDLE}. בלי האשטגים — הם מתווספים אוטומטית.
+- caption: מאז 14.9 הפוסט הוא תמונה אחת בלבד והכיתוב מתחתיה הוא כל הסיפור — אין שקופיות פנימיות. שורה ראשונה עם השורה התחתונה, אחר כך הסיפור המלא בעברית שלך (כל מספר, שם ומחיר שורדים במדויק), שורת המקורות מהמקור, וקריאה לעקוב אחרי {HANDLE}. בלי האשטגים — הם מתווספים אוטומטית.
 - pinned_comment: תרגם אם קיים.
 
 הפוסט באנגלית:
@@ -241,6 +241,9 @@ def israel_relevant(post):
     the whole HE lane)."""
     txt = "\n".join(f"{s.get('headline', '')} — {(s.get('body') or '')[:150]}"
                     for s in post.get("slides", [])[:4])
+    # single-picture posts (Sep 14): the caption carries the story — the
+    # cover headline alone is too thin to judge relevance on
+    txt += "\n" + (post.get("caption") or "")[:400]
     prompt = f"""You gate what gets translated for @ainews.israel, an Instagram AI-news page for young Israelis.
 
 PASS (relevant=true):
