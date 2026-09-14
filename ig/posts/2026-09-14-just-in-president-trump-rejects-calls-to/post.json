@@ -1,0 +1,121 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TRUMP PERSONALLY <em>SHOT DOWN EVERY BRAKE ON AI</em>. YOUR JOB <em>IS OFFICIALLY UNPROTECTED</em>.",
+   "hsize": 76,
+   "kicker": "ZERO SPEED LIMITS FROM THE WHITE HOUSE",
+   "media": "posts/2026-09-14-just-in-president-trump-rejects-calls-to/gen-0.jpg",
+   "image_prompt": "Massive glowing green traffic signal burning bright in empty daylight plaza, flanked by red and white flagpoles, photorealistic, no people, extreme clarity."
+  },
+  {
+   "type": "content",
+   "headline": "MOST PEOPLE ASSUMED <em>A BRAKE WAS COMING ON AI</em>",
+   "hsize": 88,
+   "body": "For months, people made the case to slow AI down, real arguments about what this technology would do to jobs, including yours.\n\nThen September 13th happened",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "SOMEONE ASKED TRUMP TO SLOW AI. <em>HE SAID NO.</em>",
+   "hsize": 88,
+   "body": "Someone asked the most powerful person to slow AI down.\n\nHe heard them out. Then he said no, on the record.\n\nYour industry just lost its last shield.",
+   "media": null
+  },
+  {
+   "type": "content",
+   "layout": "break",
+   "headline": "NO SPEED LIMIT ON AI",
+   "hsize": 118,
+   "body": "Zero federal guardrails remain. Nobody is coming to fix this",
+   "media": null
+  },
+  {
+   "type": "content",
+   "headline": "YOUR FIELD JUST LOST <em>ITS LAST POLITICAL ALLY</em>",
+   "hsize": 94,
+   "body": "<b>Zero</b> federal brakes on AI remain\n<b>Every</b> AI lab now races unchecked\n<b>No</b> guardrail vote, no pause is coming\nYour field lost its last political cover",
+   "media": null
+  },
+  {
+   "type": "cta",
+   "headline": "SAVE THIS: TRUMP JUST REMOVED <em>THE LAST BRAKE ON AI</em>",
+   "hsize": 58,
+   "body": "Everyone assumed AI brakes were coming\n<b>Trump</b> rejected every slowdown on <b>Sept 13</b>\nEvery AI lab now races with presidential cover\n\nSend this to the friend still trusting Washington to protect their job",
+   "media": null
+  }
+ ],
+ "caption": "Swipe for the full story. Trump just rejected every call to slow AI on September 13, and every AI company now has a presidential green light.\n\nHere's what's inside: why this wasn't a surprise, the exact moment someone walked up to Trump and asked him personally to slow AI down, how he responded on the record, what no federal limits on AI actually means for your job and your industry, and what the businesses already running AI understand that everyone else is still figuring out.\n\nThe political window for slowing AI just closed. There is no guardrail vote coming, no federal pause, nothing. The companies already moving with AI are now racing with explicit backing from the top.\n\nRunning a business? DM us 'AI' and we'll show you what moving now looks like for your operation.\n\nSources: Watcher.Guru on X\n\n#AI #ArtificialIntelligence #Trump #Tech #FutureOfWork",
+ "pinned_comment": "Real question: does a government ever actually owe workers protection from technology, or did you always know you were on your own? How you answer that changes everything about the next five years.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "TRUMP JUST REMOVED THE LAST POLITICAL LIMIT ON AI. <em>YOUR JOB IS NEXT.</em>",
+   "TRUMP JUST KILLED <em>EVERY FEDERAL BRAKE ON AI</em> AND <em>YOUR JOB IS NEXT</em>",
+   "TRUMP JUST DROPPED <em>EVERY AI SPEED LIMIT</em> AND YOUR JOB IS ON ITS OWN",
+   "TRUMP KILLED EVERY BRAKE ON AI. <em>YOUR FIELD HAS NO PROTECTION NOW.</em>",
+   "TRUMP REJECTED EVERY AI SLOWDOWN <em>AND YOUR JOB JUST LOST ITS LAST COVER</em>",
+   "TRUMP JUST GAVE EVERY AI COMPANY <em>THE GREEN LIGHT AND WORKERS GOT NOTHING</em>",
+   "TRUMP JUST GAVE EVERY AI COMPANY <em>THE GREEN LIGHT TO REPLACE YOUR JOB</em>",
+   "TRUMP JUST REJECTED ALL AI SLOWDOWNS AND <em>YOUR JOB LOST ITS LAST PROTECTION</em>",
+   "TRUMP JUST SAID NO TO SLOWING AI. <em>YOUR JOB IS ON ITS OWN.</em>",
+   "TRUMP JUST SIDED WITH AI COMPANIES AND <em>EVERY WORKER IS NOW ON THEIR OWN</em>"
+  ],
+  "scores": [
+   7.0,
+   8.5,
+   7.5,
+   7.5,
+   8.3,
+   8.4,
+   0.0,
+   8.2,
+   6.5,
+   7.0
+  ],
+  "winner": 1,
+  "why": "KILLED EVERY FEDERAL BRAKE hits instantly with visceral shock that stops scrolling faster than any other verb\u2014'YOUR JOB IS NEXT' then makes it personal and scary. [5] is nearly as good with its complete story of who won and lost, but 'GAVE THE GREEN LIGHT' lacks the punch needed at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "TRUMP JUST ERASED <em>AI'S LAST SPEED LIMIT</em>. YOUR JOB <em>HAS NO COVER LEFT</em>.",
+   "TRUMP PERSONALLY <em>SHOT DOWN EVERY BRAKE ON AI</em>. YOUR JOB <em>IS OFFICIALLY UNPROTECTED</em>.",
+   "TRUMP JUST KILLED <em>EVERY FEDERAL BRAKE ON AI</em> AND <em>YOUR JOB IS NEXT</em>"
+  ],
+  "scores": [
+   7,
+   8.5,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] combines shock with clarity\u2014the two-sentence rhythm lets shock land, then hits you with the personal consequence that makes logical sense and drives clicks. [2] hits harder emotionally with 'YOUR JOB IS NEXT' but the compound structure feels slightly clickbaity, which makes tired, skeptical scrollers hesitate before committing to a click."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "President Trump",
+  "actor_known": true,
+  "anchor": "Trump",
+  "specifics": [
+   "Trump personally blocked any slowdown on AI \u2014 no guardrails, no pause, full speed",
+   "Decision announced September 13, 2026 \u2014 already 2.4 million views",
+   "Every AI company now has explicit presidential backing to accelerate with no federal pushback",
+   "Workers and regulators are now on defense with zero political cover from the top"
+  ]
+ },
+ "naked_slides": [
+  2,
+  3,
+  5
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump rejects calls to slow down AI development.",
+  "link": "https://x.com/WatcherGuru/status/2099166536246145089",
+  "judge_interest": 4,
+  "scout_score": 105.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IMAGE \u2014 CAST TRUTH + WRONG ARCHETYPE: The headline names Trump as the actor ('TRUMP PERSONALLY') but Trump is entirely absent from the cover. The image shows anonymous cloaked silhouettes and a floating green traffic light in a post-apocalyptic plaza. For a policy/rejection story, IMAGE LAW \u00a73 requires 'the famous actor + the ban made physical.' No famous face is present. The image also read"
+}

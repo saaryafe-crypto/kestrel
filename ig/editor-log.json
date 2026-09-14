@@ -1,110 +1,5 @@
 [
  {
-  "t": "2026-09-08T02:13:14Z",
-  "gate": "B",
-  "subject": "A HACKER WHO STOLE <em>4,000 BITCOIN</em> LEFT ONE MESSAGE THROUGH THE BLOCKCHAIN: FIX THE BUG <em>AND I'LL RETURN ALL $",
-  "verdict": "REJECT",
-  "reason": "Cover image fails IMAGE LAW: every element — the cracked Bitcoin coin, the fire/particle explosion, the scattered coins, and the glowing blue envelope — reads as a 3D CGI/game render, not a photographed element. The doctrine requires every element in the frame to read as photographed; this composite is entirely rendered, making it an unconditional reject regardless of concept strength.; Slide 3 bo"
- },
- {
-  "t": "2026-09-08T02:14:01Z",
-  "gate": "R",
-  "subject": "A HACKER WHO STOLE <em>4,000 BITCOIN</em> LEFT ONE MESSAGE THROUGH THE BLOCKCHAIN: FIX THE BUG <em>AND I'LL RETURN ALL $",
-  "verdict": "FAIL",
-  "reason": "s5: The background is a raw full-bleed screenshot of a blockchain explorer UI (wallet addresses, transaction rows, raw PGP text visible), which violates the Screenshot Law; the slide is cleaner and more legible as a dark text-only card."
- },
- {
-  "gate": "A",
-  "reason": "No viral-specific event—this is a characterization of Elon's work ethic and priorities, not a reported happening with a concrete consequence or narrative arc.",
-  "subject": "Most people get rich so they can retire. Elon got rich and chose to work even harder. He could have chosen endless luxur",
-  "t": "2026-09-03T19:48:01Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Price comparison of a known product with no dramatic event or felt consequence—too thin and routine to meet the jaw-dropping threshold for stories the owner himself would post.",
-  "subject": "I took four Unsupervised Model Y Robotaxi rides today, totaling 50 minutes and 8 miles of travel for a combined $27.25. ",
-  "t": "2026-09-03T19:48:38Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No real event occurred—this is a speculative observation with no substance, numbers, or consequences to build slides from, and cannot be reported as truth.",
-  "subject": "Humans writing code as seen by future AI",
-  "t": "2026-09-03T19:49:09Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens kill: labor-economic commentary, not a story about AI/tech/founder/investing/space—technology is the setting, not the star; also lacks a specific event, real names, real numbers, or real consequence.",
-  "subject": "White Americans used to do IT. Everyone with a corporate job 20-30 years ago can confirm. Then their jobs were offshored",
-  "t": "2026-09-03T19:49:19Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: pure 1800s fashion history with no AI, tech, investing, or space angle required by this lane.",
-  "subject": "Louis Vuitton was born in 1821 in a small village in eastern France. When he was just 13 years old, he ran away from hom",
-  "t": "2026-09-03T19:49:52Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No real event with consequence — this is routine on-topic testimony that software performed well, with an unknown actor and no stakes or outcome for the reader.",
-  "subject": "Fable 5.1 is cracked. This was my first test with Fable 5.1. I asked it to create an F-35A Lightning II, and I honestly ",
-  "t": "2026-09-03T19:49:53Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "scout interest 8/10 — news-first fast lane",
-  "subject": "JUST IN: 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack. The hacker is now communicating with ",
-  "t": "2026-09-07T21:53:30Z",
-  "verdict": "AUTO_APPROVE"
- },
- {
-  "gate": "A",
-  "reason": "scout interest 8/10 — news-first fast lane",
-  "subject": "New video of Tesla's revolutionary unboxed manufacturing process for the Cybercab from the launch event. The production ",
-  "t": "2026-09-07T21:53:34Z",
-  "verdict": "AUTO_APPROVE"
- },
- {
-  "gate": "B",
-  "reason": "Slide 6 is a full cover-contract violation: the post promises a Tesla manufacturing speed story, and slide 6 pivots to a completely unrelated AI business-automation pitch ('leads and follow-ups by hand', '24 hours a day, without a single new hire'). It has zero logical connection to Cybercab production, breaks the question chain dead (slide 5 ends on 'almost no human hands' — a clear next-question",
-  "subject": "TESLA JUST BUILT A FULL CYBERCAB <em>IN UNDER 10 SECONDS</em>, FASTER THAN YOU CAN TIE YOUR SHOES",
-  "t": "2026-09-07T22:26:42Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Slide 5 body closes its own claim with no open loop to slide 6. It ends on 'Built with almost no human hands' — a settled fact, a closed door. The doctrine requires every slide's last line to create a named gap the next headline scratches. Slide 6's cost angle ('THE FASTER THE LINE, THE CHEAPER EVERY ROBOTAXI GETS') is strong, but the reader has no itch to swipe there. Fix: replace the final bulle",
-  "subject": "TESLA JUST BUILT A FULL CYBERCAB <em>IN UNDER 10 SECONDS</em>, FASTER THAN YOU CAN TIE YOUR SHOES",
-  "t": "2026-09-07T22:29:18Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "scout interest 8/10 — news-first fast lane",
-  "subject": "JUST IN: 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack. The hacker is now communicating with ",
-  "t": "2026-09-07T22:30:11Z",
-  "verdict": "AUTO_APPROVE"
- },
- {
-  "gate": "A",
-  "reason": "No substance: source has no second fact, numbers, or consequence to build slides from; this is a personal anecdote about using a tool, not an event where anything happened.",
-  "subject": "Using GPT-6 Astra Max to make my wedding website",
-  "t": "2026-09-07T22:31:12Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW HARD FAIL — the cover is entirely a CGI/3D render: the Bitcoin coin pile, the chain link, the envelope, and the server-rack environment all read as game-engine assets, not photographed elements. Image Law requires every element to read as photographed. Fix: rebuild as a photoreal composite — a real macro photo of a physical Bitcoin coin + a styled blockchain-data terminal card as the ins",
-  "subject": "A HACKER STOLE <em>$320 MILLION IN BITCOIN</em> AND IS TEXTING THE DEVELOPERS THROUGH THE BLOCKCHAIN TO PROMISE EVERY CO",
-  "t": "2026-09-07T23:19:24Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "A",
   "reason": "Unknown actor, 48-character source with zero consequence—someone used a tool as designed, not a jaw-dropping event anyone would share; pure routine padding.",
   "subject": "Using GPT-6 Astra Max to make my wedding website",
@@ -2096,6 +1991,111 @@
   "t": "2026-09-14T00:48:15Z",
   "gate": "R",
   "subject": "SAM ALTMAN REFUSED A <em>HUNDREDS-OF-BILLIONS</em> IPO BECAUSE AI SCARES EVEN HIM",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-14T02:12:18Z",
+  "gate": "A",
+  "subject": "JUST IN: Claude AI developer Anthropic selects Nasdaq for IPO listing.",
+  "verdict": "AUTO_APPROVE",
+  "reason": "scout interest 8/10 — news-first fast lane"
+ },
+ {
+  "t": "2026-09-14T02:13:07Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "This is off-lens: space stories must center on SpaceX, Starlink, or commercial rocket companies per doctrine; ISRO as a government space agency doesn't fit, and routine satellite launches don't deliver the wild-but-true story with felt consequence required to stop a tech-focused reader."
+ },
+ {
+  "t": "2026-09-14T02:13:42Z",
+  "gate": "A",
+  "subject": "This is the best day in the history of AI safety. All four frontier AI companies are now publicly calling for a slow dow",
+  "verdict": "KILL",
+  "reason": "Entire source is one tweet from a meme account claiming company coordination with zero receipts—writer would have to fabricate all four companies' statements."
+ },
+ {
+  "t": "2026-09-14T02:48:27Z",
+  "gate": "A",
+  "subject": "BREAKING: Costco is now rationing motor oil for due to the Iranian war, limiting members to one transaction and a maximu",
+  "verdict": "KILL",
+  "reason": "Unverified claim — no news reporting or supply chain data confirms Costco motor oil rationing due to Iranian conflict; violates TRUTH LAW."
+ },
+ {
+  "t": "2026-09-14T02:48:44Z",
+  "gate": "A",
+  "subject": "This is the best day in the history of AI safety. All four frontier AI companies are now publicly calling for a slow dow",
+  "verdict": "KILL",
+  "reason": "Unverified claim without proof of concrete company statements; reads as editorial commentary about industry sentiment, not a reported event."
+ },
+ {
+  "t": "2026-09-14T02:48:46Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 President Trump rejects calls to slow down AI development.",
+  "verdict": "KILL",
+  "reason": "No substance—one-line political statement with no concrete action, numbers, or consequence to build slides from."
+ },
+ {
+  "t": "2026-09-14T02:48:51Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Space coverage only via tech/business lens (SpaceX/Starlink/rocket companies)—ISRO is a government agency, not a business player."
+ },
+ {
+  "t": "2026-09-14T02:49:39Z",
+  "gate": "A",
+  "subject": "Tesla has just updated their next-gen Roadster website for the first time in nearly 9 years. There is now a countdown cl",
+  "verdict": "KILL",
+  "reason": "Banned launch preview in its empty form: a date with nothing to demonstrate (just a countdown timer), not a real-world event with consequences someone felt."
+ },
+ {
+  "t": "2026-09-14T03:28:04Z",
+  "gate": "B",
+  "subject": "THE AI COMPANIES REPLACING YOUR JOB JUST <em>ASKED SOMEONE TO SLOW THEM DOWN</em>",
+  "verdict": "REJECT",
+  "reason": "Slide 5 ('WHAT JUST HAPPENED') fails the shuffle test hard: its four-bullet checklist repeats every key fact from slides 3-4 and could be read before any prior slide without confusion. It closes all open loops at once instead of one, killing the chain. Fix: cut slide 5 entirely — the save-close (slide 7) already carries the recap — OR replace it with the single pattern-break slide the post current"
+ },
+ {
+  "t": "2026-09-14T03:31:27Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 President Trump rejects calls to slow down AI development.",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet with no facts, numbers, or consequences to build slides from."
+ },
+ {
+  "t": "2026-09-14T03:31:28Z",
+  "gate": "A",
+  "subject": "BREAKING: Costco is now rationing motor oil for due to the Iranian war, limiting members to one transaction and a maximu",
+  "verdict": "KILL",
+  "reason": "Low scout interest (4/10) paired with a single unverified tweet and zero official Costco confirmation or corroborating evidence—an extraordinary claim of major retailer rationing requires independent verification before assignment."
+ },
+ {
+  "t": "2026-09-14T03:31:35Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Institutional achievement lacking the wild hook or felt consequence that would make readers DM to friends—does not meet THE STANDARD."
+ },
+ {
+  "t": "2026-09-14T03:31:52Z",
+  "gate": "A",
+  "subject": "Tesla has just updated their next-gen Roadster website for the first time in nearly 9 years. There is now a countdown cl",
+  "verdict": "KILL",
+  "reason": "Banned empty launch preview — date and countdown with nothing demonstrated."
+ },
+ {
+  "t": "2026-09-14T04:02:48Z",
+  "gate": "B",
+  "subject": "TRUMP PERSONALLY <em>SHOT DOWN EVERY BRAKE ON AI</em>. YOUR JOB <em>IS OFFICIALLY UNPROTECTED</em>.",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — CAST TRUTH + WRONG ARCHETYPE: The headline names Trump as the actor ('TRUMP PERSONALLY') but Trump is entirely absent from the cover. The image shows anonymous cloaked silhouettes and a floating green traffic light in a post-apocalyptic plaza. For a policy/rejection story, IMAGE LAW §3 requires 'the famous actor + the ban made physical.' No famous face is present. The image also read"
+ },
+ {
+  "t": "2026-09-14T04:08:47Z",
+  "gate": "R",
+  "subject": "TRUMP PERSONALLY <em>SHOT DOWN EVERY BRAKE ON AI</em>. YOUR JOB <em>IS OFFICIALLY UNPROTECTED</em>.",
   "verdict": "PASS",
   "reason": ""
  }
