@@ -192,7 +192,14 @@ def gate_b(post, cover_path=None):
             "structure: do NOT reject it for failing section 4's shuffle "
             "test or story-arc rules, which are story-post law. Everything "
             "else fully applies: language law, truth law, image law, the "
-            "cover contract, and the caption's save close.")
+            "cover contract, and the caption's save close. TEMPLATE-VOICE "
+            "GATE (owner correction Sep 15 — a shipped caption read 'so "
+            "robotic and boring': all 6 items wore the identical skeleton "
+            "'Tool.com, free. Type X, get Y. [Job] charges $N.'): read the "
+            "numbered items in a row — if three or more share the same "
+            "sentence skeleton (same order of tool/price/claim, "
+            "interchangeable phrasing), REJECT with the rewrite direction "
+            "'vary the item shapes — this reads like a spreadsheet'.")
     elif post.get("container") == "inspire":
         container_note = (
             "\n\nCONTAINER NOTE: this post is the inspire container (owner "
