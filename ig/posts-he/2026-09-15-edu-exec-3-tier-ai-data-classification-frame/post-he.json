@@ -1,0 +1,42 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "בני אדם קוראים את השיחות שלכם ב-ChatGPT: <em>הפתרון בשלוש שכבות</em>",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "posts/2026-09-15-edu-exec-3-tier-ai-data-classification-frame/gen-0.jpg",
+   "image_prompt": "Sam Altman with the OpenAI logo exactly as in the reference image and a giant magnifying glass"
+  }
+ ],
+ "caption": "OpenAI שכרה אנשים שיקראו שיחות אמיתיות של משתמשים. כל שיחה שהצוות שלכם עשה ב-ChatGPT החינמי, בני אדם יכולים לקרוא אותה. הנה מה שעושים עם זה. 🔐\n\nשכבה ראשונה: עבודה ציבורית\nדברים שתפרסמו ממילא, טיוטות, מחקרים כלליים, תוכן לסושיאל. ChatGPT החינמי מתאים כאן. אבל פתחו עכשיו את היסטוריית השיחות ותספרו כמה מהעבודה האמיתית של הצוות שלכם עוברת שם. רוב האנשים מופתעים לגלות שזה כמעט כלום.\n\nשכבה שנייה: עבודה פנימית\nאסטרטגיה, משאבי אנוש, כספים, משא ומתן עם ספקים. אלה צריכים חשבון enterprise עם חוזה כתוב שמבטיח שהמידע שלכם לא ישמש לאימון ולא יגיע לבני אדם. בלי חוזה כזה, אין לכם שום הגנה משפטית. שיחה אחת על משכורות ב-ChatGPT החינמי, ואנשים זרים כבר יודעים מה אתם מוכנים לשלם.\n\nשכבה שלישית: עבודה סודית\nמטרות רכישה, רשימות לקוחות, קוד מקור, נתוני שכר. אלה לא נכנסים לשום כלי AI בענן, בתשלום או חינם. Ollama מריץ מודלי AI חזקים ישירות על הלפטופ שלכם, בלי חיבור לאינטרנט. חינם. כמה שעות להתקנה. אחרי זה לכו להגדרות, בקרת מידע, ומחקו את כל השיחות בכל חשבון שהצוות שלכם משתמש בו. היום.\n\nשמרו את זה: שלוש שכבות האבטחה ל-AI לשיתוף עם עורך הדין שלכם השבוע.\n\nכל כלי AI בענן עובד אותו דבר: גרסה חינמית שבני אדם קוראים, גרסת enterprise מוגנת בחוזה, וגרסה מקומית שלא חושפת כלום. רוב החברות ברירת המחדל שלהן היא השכבה הלא נכונה לכמעט הכל.\n\nמנהלים עסק? שלחו לנו הודעה \"AI\" ונראה לכם באיזו שכבה הצוות שלכם עובד בפועל.\n\nמקורות: 404Media\nעקבו @ainews.israel לעוד עדכוני AI.\n\n#AI #DataPrivacy #ChatGPT #BusinessStrategy #AITools",
+ "pinned_comment": "באיזו שכבה נמצאת העבודה הכי רגישה שלכם עכשיו? רוב הצוותים שדיברנו איתם שמים מסמכי אסטרטגיה ב-ChatGPT החינמי. מהיום כבר לא.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THE <em>CHATGPT CONTRACTOR AUDIT</em>",
+   "<em>THE CHATGPT PRIVACY RULE</em>"
+  ],
+  "scores": [
+   5,
+   3
+  ],
+  "winner": 0,
+  "why": "\"Audit\" signals something was found or investigated—it makes me pause for a second. \"Privacy rule\" is just a neutral label that tells me nothing, so I keep scrolling."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "listicle_overflow": true,
+ "editor_override": "Caption opening 'Here is the fix. 🔐' contains an emoji — §4 SPOKEN VOICE bans emojis outright. Fix: delete the 🔐 character. The sentence stands fine without it.",
+ "topic_source": "exec-news",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
