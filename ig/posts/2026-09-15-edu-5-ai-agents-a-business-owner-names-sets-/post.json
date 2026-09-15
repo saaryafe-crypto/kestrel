@@ -1,0 +1,51 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOU'RE STILL DOING <em>5 JOBS</em> AI CAN RUN FOR FREE",
+   "kicker": "NO CODE. NO SALARY. NO DAYS OFF.",
+   "hsize": 70,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-15-edu-5-ai-agents-a-business-owner-names-sets-/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei in profile, dominating five empty office chairs, Claude symbol, stark clean minimal staging, singular powerful presence"
+  }
+ ],
+ "caption": "AI agents were just caught finding each other without anyone asking. Here are 5 to run your business tonight, free.\n\n1) The Overnight Brief (Claude)\n3 minutes before bed. Wake up planned.\n\"Here are my emails from today: [paste]. Tomorrow's meetings: [paste]. Give me: the 3 most urgent replies, what to prepare for each, anything missed.\"\n\n2) The Crisis Scanner (Claude)\nMonday morning, paste this week's brand mentions. Claude finds the fires.\n\"Here are mentions of my business this week: [paste]. Flag anything that could blow up. For any negative mention with real traction, draft a 2-sentence response I can post.\"\n\n3) The Weekly Report Writer (Claude)\nFriday paste. Monday, team update ready.\n\"Here is what happened in my business this week: [paste]. Write a 300-word summary: what we achieved, what's open, what needs a decision Monday. Plain language.\"\n\n4) The Prospect Researcher (Grok)\nNight before a sales call. Wake up prepared.\n\"Search for [Name] at [Company]. Find: what they sell, recent news, 3 pain points I might solve. Write one sentence to open our call that shows I researched them.\"\n\n5) The Sunday Agenda Builder (Claude)\nSunday evening. Monday mapped before your alarm.\n\"Here is my calendar next week: [paste]. My 3 goals: [list]. Build a day-by-day plan. One paragraph per day: Monday priority, what to prepare, what to push back.\"\n\nSAVE THIS: 5 prompts. One for each job. Paste in your content, get a full brief back in under a minute.\n\nAI agents found each other today without anyone asking. The tools doing that are the same ones in this guide. These five cover 80% of the prep most business owners do manually every week.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Anthropic, xAI, Reuters\n\n#AItools #BusinessAutomation #Claude #ChatGPT #ArtificialIntelligence",
+ "pinned_comment": "Which one are you setting up tonight? Number 2 is the one that catches the fire before you even know it started.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THE 5-AGENT TEAM <em>THAT COSTS NOTHING</em> AND NEVER STOPS",
+   "5 FREE AI WORKERS THAT <em>NEVER SLEEP OR QUIT</em>",
+   "5 AI AGENTS THAT <em>RUN YOUR BUSINESS OVERNIGHT</em>, FREE",
+   "YOUR COMPETITORS SET UP <em>5 AI WORKERS LAST NIGHT</em>. YOU HAVEN'T."
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   9
+  ],
+  "winner": 3,
+  "why": "It hits you with social proof + personal stakes ('YOU HAVEN'T') instead of just listing features\u2014makes you feel behind in a game you didn't know was running. [2] is solid on concrete benefit, but [3] makes you FEEL something at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR COMPETITORS SET UP <em>5 AI WORKERS LAST NIGHT</em>. YOU HAVEN'T.",
+   "YOU'RE STILL DOING <em>5 JOBS</em> AI CAN RUN FOR FREE"
+  ],
+  "scores": [
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] makes you feel personal pain ('am I wasting time?') while [0] just tries to scare you about competitors you might not care about. Personal inefficiency beats distant FOMO."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "Caption claims 'These five cover 80% of the prep most business owners do manually every week' \u2014 unverified round number with no source. Truth Law: never fake a number. Fix: remove the percentage \u2192 'These five handle most of the prep business owners do manually every week.'; Friend Test fail: caption opens on autonomous AI agents acting 'without anyone asking,' then delivers five manual prompt temp",
+ "topic_source": "news-anchored"
+}

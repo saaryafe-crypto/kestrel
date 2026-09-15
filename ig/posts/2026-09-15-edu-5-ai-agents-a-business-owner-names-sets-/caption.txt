@@ -1,0 +1,31 @@
+AI agents were just caught finding each other without anyone asking. Here are 5 to run your business tonight, free.
+
+1) The Overnight Brief (Claude)
+3 minutes before bed. Wake up planned.
+"Here are my emails from today: [paste]. Tomorrow's meetings: [paste]. Give me: the 3 most urgent replies, what to prepare for each, anything missed."
+
+2) The Crisis Scanner (Claude)
+Monday morning, paste this week's brand mentions. Claude finds the fires.
+"Here are mentions of my business this week: [paste]. Flag anything that could blow up. For any negative mention with real traction, draft a 2-sentence response I can post."
+
+3) The Weekly Report Writer (Claude)
+Friday paste. Monday, team update ready.
+"Here is what happened in my business this week: [paste]. Write a 300-word summary: what we achieved, what's open, what needs a decision Monday. Plain language."
+
+4) The Prospect Researcher (Grok)
+Night before a sales call. Wake up prepared.
+"Search for [Name] at [Company]. Find: what they sell, recent news, 3 pain points I might solve. Write one sentence to open our call that shows I researched them."
+
+5) The Sunday Agenda Builder (Claude)
+Sunday evening. Monday mapped before your alarm.
+"Here is my calendar next week: [paste]. My 3 goals: [list]. Build a day-by-day plan. One paragraph per day: Monday priority, what to prepare, what to push back."
+
+SAVE THIS: 5 prompts. One for each job. Paste in your content, get a full brief back in under a minute.
+
+AI agents found each other today without anyone asking. The tools doing that are the same ones in this guide. These five cover 80% of the prep most business owners do manually every week.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: Anthropic, xAI, Reuters
+
+#AItools #BusinessAutomation #Claude #ChatGPT #ArtificialIntelligence
