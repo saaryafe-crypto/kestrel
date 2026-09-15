@@ -1,93 +1,125 @@
 {
- "updated": "2026-09-14T12:47:19+00:00",
+ "updated": "2026-09-15T12:08:39+00:00",
  "competitor_hits": [
   {
    "page": "wired",
-   "likes": 3063,
-   "ratio": 2.46,
+   "likes": 7618,
+   "ratio": 4.65,
    "tier": "mega",
-   "hook": "\"Panic over AI technology\u2019s dangers has intensified in recent weeks. Genuinely stunning advances in AI capabilities\u2014an OpenAI model solved a centuries-old math problem in a matter of hours\u2014have come amid a rash of securi",
-   "date": "2026-09-12"
+   "hook": "\"In November of 2025, Maddie Kowalski, now 20, was targeted by the burnerverse, a community of anonymous social media accounts, that posted a non-consensual video of her performing sex acts which promptly went viral.\n\nKo",
+   "date": "2026-09-14"
   },
   {
    "page": "futurism",
-   "likes": 4653,
-   "ratio": 2.22,
+   "likes": 7708,
+   "ratio": 2.65,
    "tier": "mega",
    "hook": "\"The legendary German director Werner Herzog had a few choice words about other so-called \u201cfilmmakers\u201d who use AI to imitate their inspirations \u2014 one of those inspirations being himself.\n\nIn an interview with @indiewire,",
    "date": "2026-09-13"
   },
   {
    "page": "technology",
-   "likes": 30000,
-   "ratio": 1.22,
-   "tier": "mega",
-   "hook": "\"Swipe \u27a1\ufe0f to see 7 free alternatives to some of the biggest American software platforms, from Gmail and Google Search to Chrome, WhatsApp, Microsoft Office, and Google Maps \ud83d\udd10\n\nProton Mail and Proton Drive offer encrypted",
-   "date": "2026-09-13"
-  },
-  {
-   "page": "technology",
-   "likes": 19000,
-   "ratio": 0.78,
+   "likes": 43000,
+   "ratio": 2.13,
    "tier": "mega",
    "hook": "\"A 22-year-old game is suddenly showing what neural rendering can do, with GTA: San Andreas getting a surprisingly modern visual makeover through DLSS 5 \ud83c\udfae\ud83e\udd2f\n\nThe experiment uses an unofficial community implementation of N",
    "date": "2026-09-13"
   },
   {
    "page": "wired",
-   "likes": 837,
-   "ratio": 0.67,
+   "likes": 2297,
+   "ratio": 1.4,
+   "tier": "mega",
+   "hook": "\"The Supreme Court has rejected the Trump administration\u2019s bid to impose severe restrictions on mail-in voting just weeks ahead of the midterms.\n\nThe court, which was divided 7-2 with conservative justices Samuel Alito a",
+   "date": "2026-09-14"
+  },
+  {
+   "page": "futurism",
+   "likes": 3567,
+   "ratio": 1.23,
+   "tier": "mega",
+   "hook": "\"Does Elon Musk, who claims to be so smart that chess bores him, understand what the Streisand effect is? We\u2019re skeptical, because he\u2019s now threatening to sue the Oscar-winning filmmaker Alex Gibney over his new document",
+   "date": "2026-09-14"
+  },
+  {
+   "page": "mashable",
+   "likes": 636,
+   "ratio": 0.61,
+   "tier": "mega",
+   "hook": "\"Missed television\u2019s biggest night? No need to worry. Swipe through for the ultimate cheat sheet so you can fake your way through every Emmys conversation tomorrow \u27a1\ufe0f\u2028\u2028 \n\u2028PHOTO CREDITS: \u2028GETTY/NBC / Contributor\u2028Gilbert F",
+   "date": "2026-09-14"
+  },
+  {
+   "page": "wired",
+   "likes": 979,
+   "ratio": 0.6,
    "tier": "mega",
    "hook": "\"AI researcher Jacob Coxon sent shock waves through Silicon Valley and beyond on Tuesday by announcing his resignation from Anthropic and delivering a grave warning that the AI race is putting all of our lives at risk.\n\n",
    "date": "2026-09-13"
   },
   {
-   "page": "technology",
-   "likes": 13000,
-   "ratio": 0.53,
-   "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to see how a newly mapped fruit fly brain became the internet\u2019s latest playground for some seriously unusual digital experiments \ud83e\udde0\ud83e\udeb0\n\nResearchers working with Google Research and HHMI Janelia mapped the adult ma",
-   "date": "2026-09-12"
-  },
-  {
    "page": "wired",
-   "likes": 666,
-   "ratio": 0.53,
+   "likes": 812,
+   "ratio": 0.5,
    "tier": "mega",
    "hook": "\"These days, a declaration of social media hatred isn\u2019t exactly a hot tech take. But NFL analyst and podcast host Mina Kimes is full of those too. For one, she thinks FaceTiming anyone outside of your family is \u201cinsane b",
    "date": "2026-09-13"
   },
   {
    "page": "wired",
-   "likes": 447,
-   "ratio": 0.36,
+   "likes": 496,
+   "ratio": 0.3,
    "tier": "mega",
-   "hook": "\"In November of 2025, Maddie Kowalski, now 20, was targeted by the burnerverse, a community of anonymous social media accounts, that posted a non-consensual video of her performing sex acts which promptly went viral.\n\nKo",
+   "hook": "\"Almost 150 politicians across Europe have been included on harmful deepfake pornography websites over the last few years, according to new research seen by WIRED. Some of the politicians, who are overwhelmingly women, h",
+   "date": "2026-09-14"
+  },
+  {
+   "page": "wired",
+   "likes": 446,
+   "ratio": 0.27,
+   "tier": "mega",
+   "hook": "\"For the best part of a decade, abusive deepfake \u201cpornography\u201d websites have published thousands of nonconsensual videos depicting women, including high-profile celebrities, politicians, and public figures, into sexual s",
+   "date": "2026-09-14"
+  },
+  {
+   "page": "wired",
+   "likes": 338,
+   "ratio": 0.21,
+   "tier": "mega",
+   "hook": "\"As calls for artificial intelligence regulation intensify, US President Donald Trump\u2019s team have made it clear that if lab leaders want to implement an industry-wide slowdown, they\u2019re going to have to do it themselves.\n",
    "date": "2026-09-14"
   },
   {
    "page": "technology",
-   "likes": 7037,
-   "ratio": 0.29,
+   "likes": 3352,
+   "ratio": 0.17,
    "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from futuristic hardware and robotics to major industry announcements and experiments \ud83c\udf0d\ud83e\udd16\n\nAn iPod-style Apple Watch case brought back the scroll whe",
-   "date": "2026-09-13"
-  },
-  {
-   "page": "mashable",
-   "likes": 186,
-   "ratio": 0.1,
-   "tier": "mega",
-   "hook": "\"Mashable Senior Editor Shannon Connellan sat down with Andrew Garfield, in the historic Charterhouse in London, to unpack the meaning of the 'no kings' lie in 'The Uprising.' \u2060\n#SayMore #TheUprising\".",
-   "date": "2026-09-12"
+   "hook": "\"Apple\u2019s cinematic keynote style takes center stage here, with Craig Federighi turning a software announcement into something that feels closer to a movie scene.\n\nThe skydiving and Apple Park sequences come from Apple\u2019s ",
+   "date": "2026-09-15"
   },
   {
    "page": "technology",
-   "likes": 394,
+   "likes": 3369,
+   "ratio": 0.17,
+   "tier": "mega",
+   "hook": "\"President Trump called Nvidia CEO Jensen Huang live at the All-In Summit, turning a speakerphone conversation into the latest flashpoint in AI policy debate today. \n\nTrump rejected fears of an AI takeover, saying \u201cthe r",
+   "date": "2026-09-15"
+  },
+  {
+   "page": "technology",
+   "likes": 2163,
+   "ratio": 0.11,
+   "tier": "mega",
+   "hook": "\"Xiaomi\u2019s 18 Fold uses its wide inner display and HyperOS multi-window features to run multiple apps across the unfolded screen.\n\nApps can appear in separate windows that can be resized, moved and arranged across the dis",
+   "date": "2026-09-15"
+  },
+  {
+   "page": "technology",
+   "likes": 500,
    "ratio": 0.02,
    "tier": "mega",
-   "hook": "\"The 1970 Plymouth Superbird gave Richard Petty a 426 Hemi-powered NASCAR machine whose radical aerodynamics helped bring the winged-car era to an early end in NASCAR. \n\nPlymouth\u2019s extended nose cone and towering rear wi",
-   "date": "2026-09-14"
+   "hook": "\"The Lexus LFA\u2019s 4.8-litre V10 could sweep from idle to 9,000 rpm in 0.6 seconds, outpacing a conventional mechanical tachometer needle. \n\nThat response led Lexus to fit a digital TFT instrument cluster, developed with G",
+   "date": "2026-09-15"
   }
  ],
  "reddit_hot": []
