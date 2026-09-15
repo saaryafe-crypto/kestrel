@@ -1,0 +1,77 @@
+{
+ "image_brief": "Home electricity bill showing lower charges with a massive AI data center visible through the window outside",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE MACHINES BLAMED FOR SPIKING YOUR POWER BILL JUST SAVED GEORGIA CUSTOMERS <em>$180 A YEAR</em>.",
+   "kicker": "NEARLY $1 BILLION SAVED IN GEORGIA",
+   "hsize": 70,
+   "media": "posts/2026-09-14-ai-data-centers-resulting-in-lower-elect/gen-0.jpg",
+   "image_prompt": "AI data center continuously powering residential neighborhoods and homes via transmission cables and power infrastructure."
+  }
+ ],
+ "caption": "AI data centers are the reason your electric bill just got $180 cheaper\n\nEveryone assumed AI data centers would spike electricity costs. More demand on the grid means higher prices for everyone, right? Georgia Power just proved the opposite is true.\n\nWhen massive data centers sign huge electricity contracts, they absorb a giant chunk of the grid's fixed costs. Everyone sharing the grid pays less as a result. Georgia Power customers are saving about $180 a year, nearly $1 billion in total, because server farms are eating so much power that your slice of the bill got smaller.\n\nThat is the irony. The machines experts warned would strain the grid are the exact reason Georgia households are opening power bills $15 lighter every month. You did not change anything. A server farm moved in down the road and your costs dropped.\n\nOther states are watching. Attracting data centers could become a strategy for cutting residents' power bills rather than fighting them as an energy burden. The bigger these facilities get, the cheaper the grid becomes for everyone around them.\n\nThe entire narrative on AI's energy footprint just flipped.\n\nRunning a business? DM us \"AI\" and we'll show you what this shift could mean for your costs.\n\nSources: cremieuxrecueil on X, Georgia Power\n\n#AI #DataCenters #ElectricityBill #EnergyNews #Technology",
+ "pinned_comment": "The part we couldn't fit: Elon Musk reposted this finding on X and it hit 3.5 million views in hours, which means every state energy regulator is about to hear about it.",
+ "hook_tournament": {
+  "story_type": "money_win",
+  "candidates": [
+   "ELON MUSK SAYS AI DATA CENTERS JUST KNOCKED <em>$180</em> OFF YOUR POWER BILL",
+   "EVERYONE SAID AI WOULD RAISE YOUR POWER BILL. IT JUST CUT IT BY <em>$180</em>.",
+   "AI DATA CENTERS WERE SUPPOSED TO SPIKE YOUR POWER BILL. <em>THEY CUT IT $180 INSTEAD.</em>",
+   "AI WAS GOING TO DESTROY YOUR POWER GRID. <em>IT JUST MADE YOUR BILL $180 CHEAPER.</em>",
+   "YOUR ELECTRIC BILL JUST DROPPED <em>$180</em> BECAUSE AI DATA CENTERS PAID YOUR SHARE",
+   "THE MACHINES DRAINING THE GRID ARE THE REASON <em>YOUR ELECTRIC BILL DROPPED $180 THIS YEAR.</em>",
+   "AI IS QUIETLY CUTTING YOUR POWER BILL BY <em>$180 A YEAR</em>, AND NOBODY WARNED YOU"
+  ],
+  "scores": [
+   7,
+   9,
+   9,
+   0,
+   6,
+   8,
+   7
+  ],
+  "winner": 1,
+  "why": "[1]'s 'EVERYONE SAID' makes you feel personally included in a belief you got wrong\u2014it hits your gut. [2] has the same narrative flip but 'were supposed to' is passive and detached, telling you a story instead of making you realize *you* believed it."
+ },
+ "hook_sharpen": {
+  "story_type": "money_win",
+  "candidates": [
+   "EVERYONE SAID AI WOULD RAISE YOUR POWER BILL. IT JUST CUT IT BY <em>$180</em>.",
+   "AI DATA CENTERS ATE SO MUCH ELECTRICITY, YOUR POWER BILL JUST DROPPED <em>$180</em>.",
+   "AI WAS BLAMED FOR SPIKING YOUR POWER BILL. IT JUST SAVED YOU <em>$180</em>.",
+   "ELON MUSK JUST SHARED HOW AI DROPPED YOUR POWER BILL BY <em>$180</em>."
+  ],
+  "scores": [
+   8,
+   3,
+   8.5,
+   6
+  ],
+  "winner": 2,
+  "why": "The blamed-to-saved emotional arc with direct personal benefit (YOUR bill, SAVED YOU) creates sharper impact than expectation reversal. 'SAVED YOU' also has more emotional resonance and better flow than 'CUT IT.'"
+ },
+ "viral": {
+  "story_type": "money_win",
+  "actor": "Georgia Power / AI data centers",
+  "actor_known": false,
+  "anchor": "your electric bill",
+  "specifics": [
+   "$180 off each Georgia Power customer's annual electricity bill",
+   "Nearly $1 billion in total customer savings from data center contracts",
+   "Data centers \u2014 widely blamed for raising energy costs \u2014 are the reason bills dropped",
+   "Elon Musk amplified the finding to 3.5 million views"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (4/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "AI data centers resulting in lower electricity prices for consumers",
+  "link": "https://x.com/elonmusk/status/2099503167079674202",
+  "judge_interest": 6,
+  "scout_score": 135.0
+ },
+ "gate_a_relaxed": true
+}
