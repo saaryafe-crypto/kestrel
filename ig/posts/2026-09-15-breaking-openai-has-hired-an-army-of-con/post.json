@@ -1,0 +1,65 @@
+{
+ "image_brief": "OpenAI hiring contractors to read private ChatGPT user conversations on screens, with the OpenAI logo",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "OPENAI HIRED <em>AN ARMY OF CONTRACTORS</em> TO READ YOUR ACTUAL CHATGPT CONVERSATIONS",
+   "kicker": "THE AI COMPANY THAT HIRED HUMANS",
+   "hsize": 68,
+   "media": "posts/2026-09-15-breaking-openai-has-hired-an-army-of-con/gen-0-r-r.jpg",
+   "image_prompt": "Sam Altman directing contractors reading glowing ChatGPT conversations on bright screens, OpenAI logo, stark white background",
+   "gen_person": true
+  }
+ ],
+ "caption": "Real humans have been hired to read your private ChatGPT messages, and OpenAI never told you.\n\nEveryone assumed ChatGPT was private. You type something in, a machine reads it, nobody else ever sees it. That was the whole point of talking to an AI instead of a person.\n\nTurns out OpenAI hired actual contractors, real people on an hourly wage, to read through users' real conversations. Not test data. Your actual chats. The health scares you typed at 2am. The relationship drama you figured out by talking it through. The work stuff you never meant to share with anyone. A stranger got paid to read all of it.\n\nHere's what makes it stranger: OpenAI's entire pitch is that AI replaces human labor. But to train that AI, they hired an army of humans to manually go through what you told the chatbot. The company automating everyone else's job had people doing the most human job of all, reading your private messages.\n\nAnyone who ever told ChatGPT something real, a secret, a fear, a plan, now has to sit with the fact that a stranger may have already read it. This is what using a private AI chat actually meant.\n\nAI companies run real user messages through human reviewers as part of how they train. ChatGPT has hundreds of millions of users. That's a lot of private conversations that were never actually private.\n\nRunning a business that handles sensitive customer info? DM us 'AI' and we'll show you what a private, secure AI setup for your team actually looks like.\n\nSources: 404Media, unusual_whales on X\n\n#ChatGPT #OpenAI #AIPrivacy #TechNews #ArtificialIntelligence",
+ "pinned_comment": "The wild part: OpenAI, the company telling everyone that AI will replace human workers, hired humans to manually read the conversations their AI was supposed to handle. Make that make sense.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "OPENAI HIRED <em>AN ARMY OF CONTRACTORS</em> TO READ YOUR ACTUAL CHATGPT CONVERSATIONS",
+   "OPENAI HIRED <em>AN ARMY OF REAL HUMANS</em> TO READ YOUR CHATGPT CONVERSATIONS"
+  ],
+  "scores": [
+   8,
+   7
+  ],
+  "winner": 0,
+  "why": "\"CONTRACTORS\" lands harder than just \"humans\"\u2014it's the specific word that makes you think \"wait, this feels worse,\" while \"ACTUAL\" personalizes it to YOUR real conversations instead of staying abstract. [0] nails both the surprise and the personal violation."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "OPENAI WAS JUST CAUGHT <em>PAYING HUMANS TO READ YOUR PRIVATE CHATGPT CONVERSATIONS</em>",
+   "OPENAI HIRED <em>AN ARMY OF CONTRACTORS</em> TO READ YOUR ACTUAL CHATGPT CONVERSATIONS",
+   "OPENAI IS QUIETLY <em>PAYING REAL HUMANS TO READ YOUR PRIVATE CHATGPT MESSAGES</em>"
+  ],
+  "scores": [
+   8,
+   9,
+   7
+  ],
+  "winner": 1,
+  "why": "'AN ARMY OF CONTRACTORS' is the visceral detail that hits hardest\u2014you immediately picture the shocking scale of access to your messages. 'Just caught' is a generic scandal, but an army reading your chats is what makes you actually stop scrolling."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "OpenAI",
+  "actor_known": true,
+  "anchor": "ChatGPT",
+  "specifics": [
+   "An 'army' of human contractors hired to read real user chats",
+   "These are actual ChatGPT conversations from real users \u2014 not synthetic test data",
+   "Investigated and reported by 404Media",
+   "Story broke September 14, 2026 and hit 956.7K views almost immediately",
+   "Users had no indication a human, not just an AI, was reading their messages"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: OpenAI has hired an army of contractors who read real ChatGPT users' chats, per 404Media",
+  "link": "https://x.com/unusual_whales/status/2099553010640634098",
+  "judge_interest": 6,
+  "scout_score": 76.3
+ }
+}

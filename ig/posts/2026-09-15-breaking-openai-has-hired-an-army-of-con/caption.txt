@@ -1,0 +1,17 @@
+Real humans have been hired to read your private ChatGPT messages, and OpenAI never told you.
+
+Everyone assumed ChatGPT was private. You type something in, a machine reads it, nobody else ever sees it. That was the whole point of talking to an AI instead of a person.
+
+Turns out OpenAI hired actual contractors, real people on an hourly wage, to read through users' real conversations. Not test data. Your actual chats. The health scares you typed at 2am. The relationship drama you figured out by talking it through. The work stuff you never meant to share with anyone. A stranger got paid to read all of it.
+
+Here's what makes it stranger: OpenAI's entire pitch is that AI replaces human labor. But to train that AI, they hired an army of humans to manually go through what you told the chatbot. The company automating everyone else's job had people doing the most human job of all, reading your private messages.
+
+Anyone who ever told ChatGPT something real, a secret, a fear, a plan, now has to sit with the fact that a stranger may have already read it. This is what using a private AI chat actually meant.
+
+AI companies run real user messages through human reviewers as part of how they train. ChatGPT has hundreds of millions of users. That's a lot of private conversations that were never actually private.
+
+Running a business that handles sensitive customer info? DM us 'AI' and we'll show you what a private, secure AI setup for your team actually looks like.
+
+Sources: 404Media, unusual_whales on X
+
+#ChatGPT #OpenAI #AIPrivacy #TechNews #ArtificialIntelligence
