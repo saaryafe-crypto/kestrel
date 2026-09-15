@@ -57,7 +57,8 @@ SCHEMA = {
 
 # Shared by the guide/exec prompt AND the inspire prompt (Sep 14):
 # the plain-line face+logo cover doctrine.
-COVER_IMAGE_RULE = """COVER IMAGE (mandatory): the cover MUST set "image_brief" — an empty dark cover is dead in the feed; the image sells the promise before anyone reads. AS SIMPLE AS POSSIBLE (owner correction Sep 14, after "OpenAI logo dispensing five blank consultant documents on a plain desk surface, one in transit" shipped; his words: "why did you say desk?... dont say these things. you couldve just say sam altman face with openai logo... as simple as possible"): the brief is ONE short plain line — the famous face + the logo, plus at most ONE simple symbolic idea only when the promise needs it. His own examples: "Sam Altman with an OpenAI logo", "Sam Altman with an OpenAI logo and the logo of the biggest consulting company in the world with a red X on it". The generator itself wraps the line as "a realistic picture of ... No text anywhere in the picture" — write NOTHING beyond who and which logos: no scenes or settings (desk, office, window, street), no objects doing things (dispensing, holding, writing, "one in transit"), no document/paper/screen props, no colors, lighting, camera or composition words. The model stages the picture itself; describing the staging is what breaks it.
+COVER_IMAGE_RULE = """COVER IMAGE (mandatory): the cover MUST set "image_brief" — an empty dark cover is dead in the feed; the image sells the promise before anyone reads. AS SIMPLE AS POSSIBLE (owner correction Sep 14, after "OpenAI logo dispensing five blank consultant documents on a plain desk surface, one in transit" shipped; his words: "why did you say desk?... dont say these things. you couldve just say sam altman face with openai logo... as simple as possible"): the brief is ONE short plain line — the famous face + the logo, plus at most ONE simple symbolic idea only when the promise needs it. His own examples: "Sam Altman with an OpenAI logo", "Sam Altman with an OpenAI logo and the logo of the biggest consulting company in the world with a red X on it". The generator itself wraps the line as "a realistic picture of ... No text anywhere in the picture" — write NOTHING beyond who and which logos: no scenes or settings (desk, office, window, street), no prop choreography (dispensing, "one in transit", "surrounded by five empty chairs"), no document/paper/screen props, no colors, lighting, camera or composition words. The model stages the picture itself; describing the staging is what breaks it.
+THE LOGO MAY BE THE ACTOR (owner correction Sep 14 #2, the "5 jobs" cover that became "dominating five empty office chairs"): the one symbolic idea may be the face or logo DOING the claim in plain everyday words — his fix, verbatim: "the Claude logo dominating and stealing other people's jobs"; that exact line produced an incredible picture. NEVER act the headline's NUMBER out as counted props — five jobs is NOT five chairs or five documents; the number lives in the headline text, the picture carries one idea.
 WHO: tool→face: ChatGPT→Sam Altman, Claude→Dario Amodei, Gemini→Sundar Pichai, Grok→Elon Musk, Copilot→Satya Nadella, Llama→Mark Zuckerberg. A guide about USING a named tool casts that vendor's famous CEO; the model your prompts run on counts even when the headline only says "AI prompts". When the story is a famous person's own arc, that person IS the face. Write the FULL NAME in the brief AND return "face" listing the same names (routes to a premium model that knows famous faces; up to 3 names). FAMOUS FACES ONLY (owner rule Aug 1, generated strangers = low conversion): if nobody famous fits, NEVER a generated or generic face — the brief is the famous logo alone or the topic's one real recognizable thing, still one plain line.
 NEVER make a document, bill, letter, or chat screen the subject — generators fill them with garbled fake text and QA rejects the image. No readable words anywhere; logos only."""
 
@@ -670,10 +671,11 @@ def main():
             if s["type"] == "cover":
                 pool.append((score, path))
             if attempt + 1 < tries:
-                # person-route covers retry concept-preserving (Aug 9): keep
-                # the staged scene + cast, fix only the judge's named flaw
+                # guide-lane retries use the plain face+logo law (owner
+                # correction Sep 14 #2: the "concept" retry preserved the
+                # five-chairs staging and added composition words)
                 brief = simpler_brief(brief, s["headline"], flaw,
-                                      mode="concept" if person else "simpler") or brief
+                                      mode="plain") or brief
                 if not person:
                     # the rewrite sees the headline, which may name real
                     # people — re-scrub or the Seedream retry dies to E005
@@ -690,10 +692,10 @@ def main():
         if score <= 4 and cover_brief:
             rb = simpler_brief(
                 cover_brief, cover0.get("headline", ""),
-                flaw=f"best attempt scored {score}/10 — rebuild as a FACELESS "
-                     "scene per the no-face playbook: the famous logo or the "
-                     "story's object mid-action at theatrical scale, no human "
-                     "faces anywhere")
+                flaw=f"best attempt scored {score}/10 — rebuild FACELESS: "
+                     "the famous logo alone, or the logo doing the claim in "
+                     "plain words, no human faces anywhere",
+                mode="plain")
             if rb:
                 rb = face_riders(rb, None)[0]
                 rp = genimg.generate(rb, os.path.join(post_dir,
