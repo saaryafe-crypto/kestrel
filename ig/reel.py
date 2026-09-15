@@ -26,6 +26,25 @@ USED = os.path.join(HERE, "reels-used.json")
 # window a rejected monster stays at the top of the pool for months and
 # would burn picker tries every single slot if we forgot we banned it
 REJECTS = os.path.join(HERE, "reel-rejects.json")
+# VARIETY GATE (owner audit Sep 15: 16 of the last 30 reels were
+# SpaceX/Tesla/Elon — "check yourself from an objective perspective").
+# Root cause is structural, not one bug: (1) the watchlist's space lane is
+# 4/5 Musk-orbit accounts (cb_doge, SawyerMerritt, Erdayastronaut,
+# NASASpaceflight) plus elonmusk himself; (2) virality is the primary
+# ranking signal and X's engagement gravity puts Musk content on top;
+# (3) reels need spectacular VIDEO, and rockets/self-driving cars produce
+# it daily while AI-lab news is text. Every Musk company counts as ONE
+# subject; when it saturates recent reels, it sits a slot out.
+MUSK_RE = re.compile(
+    r"\b(spacex|starship|falcon|raptor|super heavy|tesla|cybercab|"
+    r"cybertruck|fsd|robotaxi|optimus|elon|musk|grok|xai|neuralink|"
+    r"boring company)\b", re.I)
+MUSK_CHANNELS = {"elonmusk", "cb_doge", "sawyermerritt", "teslaownerssv"}
+
+
+def is_musk(c):
+    return bool(MUSK_RE.search(c.get("title", ""))
+                or c.get("channel", "").lower() in MUSK_CHANNELS)
 MEDIA_REPO = "git@github.com:saaryafe-crypto/kestrel-media.git"
 RAW = "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main"
 
@@ -661,7 +680,27 @@ def main():
         except Exception as e:
             print(f"radar sourcing failed ({e})", file=sys.stderr)
             cands = []
+        # VARIETY GATE: 2+ of the last 5 posted reels Musk-world -> Musk
+        # candidates sit this slot out. Fail-open: if nothing else passes
+        # the judge, the bench returns (a Musk reel beats a lost slot).
+        benched = []
+        last5 = [u.get("title", "") for u in
+                 sorted(used, key=lambda u: u.get("date", ""))[-5:]]
+        musk_recent = sum(bool(MUSK_RE.search(t)) for t in last5)
+        if cands and musk_recent >= 2:
+            non_musk = [c for c in cands if not is_musk(c)]
+            if non_musk:
+                benched = [c for c in cands if is_musk(c)]
+                cands = non_musk
+                print(f"variety gate: {musk_recent}/5 recent reels are "
+                      f"Musk-world — benching {len(benched)} Musk candidates",
+                      file=sys.stderr)
         if cands:
+            r = pick(cands, recent)
+        if not r and benched:
+            print("variety gate: nothing else passed the judge — the bench "
+                  "returns", file=sys.stderr)
+            cands = cands + benched
             r = pick(cands, recent)
         if not r:
             print("no publishable reel from the X watchlist radar",
