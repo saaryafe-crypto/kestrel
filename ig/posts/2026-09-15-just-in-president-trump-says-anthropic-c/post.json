@@ -1,0 +1,80 @@
+{
+ "media_idx": 1,
+ "image_brief": "Trump publicly calls out the Anthropic CEO for wanting to slow down AI development",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
+   "kicker": "AND HE MEANT IT AS AN INSULT",
+   "hsize": 68,
+   "media": "posts/2026-09-15-just-in-president-trump-says-anthropic-c/gen-0.jpg",
+   "image_prompt": "Trump mocks Dario Amodei with bitter contempt, Dario's face sharply detailed and unmistakably recognizable, minimal background, Anthropic symbol, cutting mockery."
+  }
+ ],
+ "caption": "Trump called Anthropic CEO Dario Amodei a \"perfect little angel\" for wanting to slow down AI, and now no one will dare ask for a pause again.\n\nUp until yesterday, even the fastest AI companies at least pretended to care about safety in public. Nobody wanted to be the executive on record saying \"we don't care if this goes wrong.\"\n\nThen Trump changed that. He looked at Dario Amodei, the CEO of Anthropic, one of the most powerful AI companies on Earth, and called him \"pretending to be a perfect little angel\" for wanting to slow things down. Out loud. As president. The official White House position on AI caution is now: it's an act.\n\nHere's what makes it wild. Amodei didn't drift into this opinion. He quit his job at OpenAI specifically because he thought AI was already moving too fast, too dangerously. He then built Anthropic around that belief. Now the president is publicly calling him a fake for still believing it. The man who left to build safer AI just got mocked by the most powerful person on Earth for doing exactly that.\n\nEvery AI executive who watched this happen now knows the price of raising your hand and asking to slow down. So nobody will. You're now racing against a technology with no one left to ask for a pause. This is the moment AI safety stopped being a debate and became a punchline.\n\nEvery AI company watched. The US is officially flooring it on AI with no speed limit.\n\nRunning a business? DM us \"AI\" and we'll show you what an unregulated AI race means for yours.\n\nSources: Watcher.Guru on X\n\n#artificialintelligence #anthropic #trumpai #ainews #technology",
+ "pinned_comment": "The wildest part: Amodei left OpenAI because he thought it was already moving too dangerously fast. He built a whole company around that belief. The president just called that belief fake. So who exactly is left to ask for a slowdown?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "TRUMP MOCKED THE CEO WHO BUILT A SAFER AI COMPANY <em>FOR WANTING TO SLOW DOWN</em>",
+   "TRUMP JUST GREENLIT <em>FULL-SPEED AI</em> BY MOCKING THE ONE CEO ASKING FOR BRAKES",
+   "TRUMP JUST PUBLICLY MOCKED THE ONLY AI CEO <em>URGING A SLOWDOWN</em>",
+   "TRUMP CALLED THE AI SAFETY CEO <em>'A PERFECT LITTLE ANGEL'</em> FOR WANTING SLOWER AI",
+   "TRUMP JUST MOCKED <em>THE ONLY AI BOSS</em> TRYING TO SLOW IT DOWN",
+   "TRUMP JUST CALLED THE AI SAFETY CEO <em>A FAKE ANGEL FOR WANTING GUARDRAILS</em>",
+   "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
+   "TRUMP CALLED THE CEO WHO LEFT OPENAI OVER SAFETY <em>A PERFECT LITTLE ANGEL</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   6,
+   0,
+   6,
+   6.5,
+   8,
+   0
+  ],
+  "winner": 6,
+  "why": "[6] delivers immediate shock by showing Trump mocking someone who specifically quit OpenAI over safety\u2014you don't need to decode market signals. [1] is clever with 'greenlit' but requires you to think about causality rather than just feel the absurdity."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "TRUMP JUST MOCKED THE AI CEO BEGGING <em>TO SLOW DOWN THE THING HE BUILT</em>",
+   "TRUMP JUST CALLED THE ONLY AI BOSS PROTECTING YOUR JOB <em>A FAKE</em>",
+   "TRUMP JUST CALLED THE ONE CEO SLOWING AI DOWN <em>'A PERFECT LITTLE ANGEL'</em>",
+   "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>"
+  ],
+  "scores": [
+   6.5,
+   7.5,
+   4.5,
+   9
+  ],
+  "winner": 3,
+  "why": "[3] tells the complete story in one read (Trump mocking the AI safety advocate), creating instant irony with no decoding needed. [1] is punchier emotionally but adds interpretation about 'job protection'\u2014[3]'s plain facts create bigger impact."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Donald Trump",
+  "actor_known": true,
+  "anchor": "Trump",
+  "specifics": [
+   "Trump called the top AI safety advocate 'pretending to be a perfect little angel' \u2014 making caution itself the punchline",
+   "The man being mocked, Dario Amodei, quit OpenAI because he thought AI was already too dangerous \u2014 and built another powerful AI company anyway",
+   "The US president is now publicly shaming the only major AI CEO urging a slowdown, which is a green light to everyone else to race faster",
+   "801K people saw this in under 24 hours"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (5/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Anthropic CEO Dario Amodei is \"pretending to be a perfect little angel\" for wanting to slow down AI development.",
+  "link": "https://x.com/WatcherGuru/status/2099504936543228046",
+  "judge_interest": 5,
+  "scout_score": 68.7
+ },
+ "gate_a_relaxed": true
+}

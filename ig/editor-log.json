@@ -1,110 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "No specific event happened—this is vague market commentary (companies switching positions, planned future investment, an unverified AGI claim with no date or announcement) with zero named consequence, product launch, or transaction; it reads as a sermon about the state of AI, not a story where reality moved.",
-  "subject": "AI is much bigger than most people realize. We currently have multiple $1+ trillion companies switching spots as the \"be",
-  "t": "2026-09-09T04:57:18Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "COVER IMAGE — Anthropic's brand name is misspelled as 'anthrlipic' in the glowing logo on the right. This is visible at feed size to an AI-literate audience and destroys credibility instantly. Fix: regenerate with the correct spelling.; HOOK — two sentences, not one. §2 is explicit: one complete sentence. 'CHATGPT'S OWN ENGINEERS BELIEVE IT KILLS EVERYONE BY 2030 AND KEPT BUILDING IT ANYWAY. ONE J",
-  "subject": "CHATGPT'S OWN ENGINEERS BELIEVE IT KILLS EVERYONE BY 2030 <em>AND KEPT BUILDING IT ANYWAY.</em> ONE JUST QUIT.",
-  "t": "2026-09-09T05:29:52Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Geopolitical and commodity-market news with no AI or technology angle; violates the page's core identity as a tech/AI innovation page and falls under banned routine market content.",
-  "subject": "BREAKING: US diesel prices surge above $5.90/gallon for the first time in history, with prices in some states now above ",
-  "t": "2026-09-09T05:32:47Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Routine research finding without numbers, names, or consequence—too thin and predictable for a page that needs wild-but-true stories, and 6/10 scout interest doesn't justify assignment.",
-  "subject": "\"Students who don't use AI chatbots for schoolwork are scoring better grades than those who do,\" per Bloomberg",
-  "t": "2026-09-09T05:33:05Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Trivial event (routine YouTube milestone by unknown creator), zero real-world consequence, no substance — the entire story is an engagement metric, not a wild-but-true moment anyone would send to a friend.",
-  "subject": "My first 1 million view video on YouTube!",
-  "t": "2026-09-09T05:33:52Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Trend analysis without a specific event; if there's breaking news (OpenAI reaching AGI), it's neither dated nor sourced in the tweet, making it unverifiable substance.",
-  "subject": "AI is much bigger than most people realize. We currently have multiple $1+ trillion companies switching spots as the \"be",
-  "t": "2026-09-09T05:35:13Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "Slide 4 body is a false comparison: 'More per gallon than a full tank cost not long ago' does not hold mathematically — a full tank of gas has cost $30–60+ for decades; $8/gallon is never more than a full fill-up total. This is a TRUTH LAW violation. Replace with a verifiable specific fact (e.g., the previous all-time diesel record, or the last time it crossed $5).; Slide 4 delivers no new fact: t",
-  "subject": "US AND IRAN JUST EXCHANGED STRIKES OVER THE WORLD'S MAIN OIL LANE AND DIESEL IS NOW AT <em>$8 A GALLON</em> IN SOME STAT",
-  "t": "2026-09-09T06:07:25Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Slide 4 is broken: the headline ('$5.816, THE RECORD THAT JUST FELL') promises an explanation of the old price record being shattered, but the body delivers a single disconnected sentence about Iran rejecting a peace deal — no bridge between the two facts. A reader finishing that slide has no idea what $5.816 is or why it matters.; Three different diesel prices ($5.816, $5.90, $8) appear across th",
-  "subject": "DIESEL HIT <em>$8 A GALLON</em> IN SOME STATES AFTER US-IRAN STRIKES ON THE WORLD'S MAIN OIL LANE",
-  "t": "2026-09-09T06:12:14Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "COVER CONTRACT BROKEN (§4): The hook leads with '$8 A GALLON IN SOME STATES' — the post's wildest claim — but no body slide ever cashes it. No slide names which states, explains the gap between $5.90 national average and $8 regional, or treats the $8 figure as its own story beat. A reader who finishes slide 6 cannot explain the headline they just swiped through. Fix: give the $8/some-states fact i",
-  "subject": "DIESEL HIT <em>$8 A GALLON</em> IN SOME STATES AFTER US-IRAN STRIKES ON THE WORLD'S MAIN OIL LANE",
-  "t": "2026-09-09T06:15:14Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "DIESEL HIT <em>$8 A GALLON</em> IN SOME STATES AFTER US-IRAN STRIKES ON THE WORLD'S MAIN OIL LANE",
-  "t": "2026-09-09T06:15:42Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-09-09T12:57:33Z",
-  "gate": "A",
-  "subject": "Making AI kiddie porn is legal, but boycotting Israel isn’t. What kind of world is this?",
-  "verdict": "KILL",
-  "reason": "Pure reaction-bait with no underlying event: a rhetorical political comparison designed to provoke engagement, not a consequence someone felt in the real world."
- },
- {
-  "t": "2026-09-09T17:36:03Z",
-  "gate": "A",
-  "subject": "Making AI kiddie porn is legal, but boycotting Israel isn’t. What kind of world is this?",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: the story is the author's sarcastic comparison of policies, not any actual event, law change, lawsuit, or documented consequence—pure opinion with zero facts to build slides from."
- },
- {
-  "t": "2026-09-09T20:36:45Z",
-  "gate": "A",
-  "subject": "Researchers spent 500 hours and $70,000 and found LG TVs logging plain text transcripts in standby, mapping every device",
-  "verdict": "APPROVE",
-  "reason": "Household-name brand (LG), real research event with concrete findings (500h/$70K investment), documented privacy violation affecting 216M devices, and specific technical evidence—meets NEWS PAGE FIRST standard; 'did reality move?' is yes; owner would post this himself."
- },
- {
-  "t": "2026-09-09T20:36:50Z",
-  "gate": "A",
-  "subject": "AI+robots will more than double the global economy in less than 10 years",
-  "verdict": "KILL",
-  "reason": "A prediction about the future with no news event or real consequence—just speculation with no substance to build slides from."
- },
- {
-  "t": "2026-09-09T20:37:47Z",
-  "gate": "A",
-  "subject": "Three Anthropic researchers went public last night say it could destroy humans this decade, per Axios",
-  "verdict": "KILL",
-  "reason": "Scout interest at 6/10 combined with 101-character source material doesn't confirm whether this is bold news (researchers breaking ranks) or routine reporting—insufficient verification to assign to production with confidence."
- },
- {
   "t": "2026-09-09T21:17:46Z",
   "gate": "B",
   "subject": "YOUR LG TV TRANSCRIBES YOUR LIVING ROOM ON STANDBY AND SAVES THE FILES WHEN YOU UNPLUG IT, <em>UPLOADING EVERYTHING WHEN",
@@ -2096,6 +1991,111 @@
   "t": "2026-09-15T19:59:57Z",
   "gate": "R",
   "subject": "OPENAI HIRED <em>AN ARMY OF CONTRACTORS</em> TO READ YOUR ACTUAL CHATGPT CONVERSATIONS",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-15T20:11:49Z",
+  "gate": "A",
+  "subject": "i wonder if the first episode will ever dethrone the silly team rocket meme i did 4 years ago",
+  "verdict": "KILL",
+  "reason": "No substance—the entire source is one thin speculation with no facts, numbers, or real-world consequence to build slides from; the writer would have to pad."
+ },
+ {
+  "t": "2026-09-15T20:11:50Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 President Trump says Anthropic CEO Dario Amodei is \"pretending to be a perfect little angel\" for wanting to ",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the event is Trump's controversial comment and its engagement metrics, not a real-world consequence—no policy changed, no business moved, no one was fired or banned."
+ },
+ {
+  "t": "2026-09-15T20:12:10Z",
+  "gate": "A",
+  "subject": "BREAKING: NVIDIA, Palantir, Booz Allen Hamilton and the Pentagon have said will limit their use of Anthropic models.",
+  "verdict": "KILL",
+  "reason": "Unverified breaking news claim with single source, zero supporting detail (no statement link, official quote, timeline, or consequence), and ambiguous phrasing; cannot meet TRUTH LAW's requirement for verified facts without speculating."
+ },
+ {
+  "t": "2026-09-15T20:12:43Z",
+  "gate": "A",
+  "subject": "The world’s richest man is living in an Airstream trailer in Memphis. “This is Elon, by the way, doing what people don’t",
+  "verdict": "KILL",
+  "reason": "Scout interest too low (5/10), source too thin for a full carousel, and the underlying state (he lives in a trailer) is lifestyle trivia, not an event where reality moved; person-intrigue requires arc or a stronger contradiction to overcome minimal substance."
+ },
+ {
+  "t": "2026-09-15T20:13:32Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
+  "verdict": "KILL",
+  "reason": "Speculative proposal without consequence or uptake—Musk 'proposed' a system 'could begin' immediately, but nothing happened, no one committed, and no concrete outcome exists; the writer has no real facts to build slides from and would have to pad with tangential context (summit details, peer-review theory) rather than story spine; fails the mandate 'something HAPPENED in the real world, with a consequence someone felt.'"
+ },
+ {
+  "t": "2026-09-15T20:14:05Z",
+  "gate": "A",
+  "subject": "🇺🇸 JD Vance says he finds it strange that frontier AI companies keep coming to Washington and asking to be regulated. “𝘐",
+  "verdict": "KILL",
+  "reason": "JD Vance expressing an opinion that AI companies' regulation requests seem suspicious is a claim, not a news event where reality moved—no action occurred, no company responded, no policy consequence or real-world impact described."
+ },
+ {
+  "t": "2026-09-15T20:15:01Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 President Trump says Anthropic CEO Dario Amodei is \"pretending to be a perfect little angel\" for wanting to ",
+  "verdict": "KILL",
+  "reason": "Trump's statement is a political opinion with no real-world consequence (policy unchanged, no ban or appointment made)—not a viral-specific event where something happened in the real world."
+ },
+ {
+  "t": "2026-09-15T20:15:03Z",
+  "gate": "A",
+  "subject": "The world’s richest man is living in an Airstream trailer in Memphis. “This is Elon, by the way, doing what people don’t",
+  "verdict": "KILL",
+  "reason": "Single anecdote from one person with no quantified consequence, no major move (lawsuit, hire, product, funding), and no second fact; trivial vibe illustrating character, not a news event this page requires from household-name stories."
+ },
+ {
+  "t": "2026-09-15T20:16:12Z",
+  "gate": "A",
+  "subject": "BREAKING: NVIDIA, Palantir, Booz Allen Hamilton and the Pentagon have said will limit their use of Anthropic models.",
+  "verdict": "KILL",
+  "reason": "Pentagon, NVIDIA, and Palantir restricting Anthropic is a plausible major-actor event, but the announcement is too vague to confidently assign (awkward grammar 'have said will limit' lacks specifics on what was actually announced or when), the 6/10 scout score signals weak source confidence, and the writer cannot verify substantive details from 116 characters of ambiguous wording."
+ },
+ {
+  "t": "2026-09-15T20:17:09Z",
+  "gate": "A",
+  "subject": "🇺🇸 JD Vance says he finds it strange that frontier AI companies keep coming to Washington and asking to be regulated. “𝘐",
+  "verdict": "KILL",
+  "reason": "This is political commentary on AI regulation strategy, not a tech news event—the page's standard requires stories where something actually happened with real consequences, not a politician's opinion on company behavior."
+ },
+ {
+  "t": "2026-09-15T20:17:29Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
+  "verdict": "KILL",
+  "reason": "A policy proposal without real consequence or outcome fails the 'did reality move?' standard for news—it lacks substance to build slides from without padding."
+ },
+ {
+  "t": "2026-09-15T20:46:08Z",
+  "gate": "B",
+  "subject": "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
+  "verdict": "REJECT",
+  "reason": "Caption grammar error: 'Your job is racing against a technology with no one left to ask for a pause' — 'is racing against' doesn't work; fix to 'You're now racing against a technology with no one left to ask for a pause'; The consequence ('no one will push back on AI safety') is stated three times: once in the setup paragraph, once as 'So nobody will,' and again as 'When the president makes cautio"
+ },
+ {
+  "t": "2026-09-15T20:48:34Z",
+  "gate": "B",
+  "subject": "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
+  "verdict": "REJECT",
+  "reason": "EMOJI IN CAPTION (§7, fixable): The 🤯 on the first line of the caption is an explicit ban under Human Voice Law — 'no emojis.' Remove it. The sentence reads fine without it: '...and now no one will dare ask for a pause again.'"
+ },
+ {
+  "t": "2026-09-15T20:50:30Z",
+  "gate": "B",
+  "subject": "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-15T20:50:52Z",
+  "gate": "R",
+  "subject": "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
   "verdict": "PASS",
   "reason": ""
  }
