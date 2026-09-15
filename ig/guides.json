@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T00:09:07.316131+00:00",
+ "updated": "2026-09-15T02:11:18.012391+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -255,6 +255,32 @@
     "@RAVIKUMARSAHU78 yes",
     "@kryptosopus that's already being done"
    ]
+  },
+  {
+   "id": "2098800739665482003",
+   "title": "Anthropic just released a 37-minute guide on how to build AI agents that can automate an entire business. It\u2019s free, and it comes straight from the engineers who built Claude. Agents that actually work, delegate tasks, a",
+   "sub": "deanwperkins",
+   "where": "@deanwperkins on X",
+   "unit": "likes",
+   "selftext": "Anthropic just released a 37-minute guide on how to build AI agents that can automate an entire business. It\u2019s free, and it comes straight from the engineers who built Claude. Agents that actually work, delegate tasks, and get things done on their own. Save this post \ud83d\udd16",
+   "permalink": "https://x.com/deanwperkins/status/2098800739665482003",
+   "outlink": null,
+   "score": 6868,
+   "comments_n": 100,
+   "views": 3085063,
+   "age_h": 58.4,
+   "vph": 117.7,
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2098800380154974214/img/A7w7pmju63knM-fr.jpg",
+   "images": [],
+   "video": "https://video.twimg.com/amplify_video/2098800380154974214/vid/avc1/1280x720/MFFyRrwtSaK994xe.mp4?tag=29",
+   "guide": true,
+   "wide_guide": true,
+   "thread": [
+    "@Nexy200 I\u2019ll be posting GitHub repos soon that have everything available for free, bro",
+    "@maarcoofdezz that's honestly the hope",
+    "@brenzhills threads can describe a system but they can't show you one running"
+   ],
+   "born": 1789228038.012391
   },
   {
    "id": "2093928783913115785",
