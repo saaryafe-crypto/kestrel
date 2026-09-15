@@ -1,12 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "t": "2026-09-04T06:05:26Z",
-  "verdict": "APPROVE"
- },
- {
   "gate": "A",
   "reason": "scout interest 8/10 — news-first fast lane",
   "subject": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast.",
@@ -2098,5 +2091,12 @@
   "subject": "TESLA'S GROK CAN NOW TEXT <em>YOUR CONTACTS AS YOU</em>, FROM YOUR VOICE ALONE",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-15T13:34:30Z",
+  "gate": "A",
+  "subject": "Jews are not nervous about AI safety, they are nervous about losing AI control. Thus they need the Jewish controlled gov",
+  "verdict": "KILL",
+  "reason": "No-substance instant kill: unverifiable conspiracy allegations with zero documented events, no real numbers, no real consequences—fails STORY LAW's core requirement for a viral-specific event where reality moved."
  }
 ]

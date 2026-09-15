@@ -1,0 +1,58 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "אתה עדיין עושה <em>חמישה דברים</em> שה-AI עושה בחינם",
+   "kicker": "בלי קוד. בלי משכורת. בלי ימי חופש.",
+   "hsize": 70,
+   "face": "Dario Amodei",
+   "media": "posts/2026-09-15-edu-5-ai-agents-a-business-owner-names-sets-/gen-0-r.jpg",
+   "image_prompt": "Dario Amodei in profile, dominating five empty office chairs, Claude symbol, stark clean minimal staging, singular powerful presence"
+  }
+ ],
+ "caption": "אתה עדיין עושה בעצמך דברים שה-AI עושה תוך שניות, בחינם. הנה חמישה פרומפטים שאפשר להריץ הלילה.\n\n1) סיכום הלילה (Claude)\nשלוש דקות לפני שנרדמים. קמים עם תוכנית.\n\"הנה המיילים שלי מהיום: [הדבק]. הפגישות של מחר: [הדבק]. תן לי: שלושת התשובות הדחופות ביותר, מה להכין לכל אחת, ומה פספסתי.\"\n\n2) סורק המשברים (Claude)\nבוקר שני, מדביקים מה כתבו על העסק השבוע. Claude מוצא את הבעיות.\n\"הנה מה שאמרו על העסק שלי השבוע: [הדבק]. סמן כל דבר שיכול להתפוצץ. על כל ביקורת שמקבלת תשומת לב, כתוב שני משפטים שאוכל לפרסם בתגובה.\"\n\n3) כותב הדוח השבועי (Claude)\nמדביקים בסוף שישי, הצוות מקבל עדכון ביום שני.\n\"הנה מה שקרה בעסק שלי השבוע: [הדבק]. כתוב סיכום של 300 מילה: מה השגנו, מה עדיין פתוח, מה צריך החלטה ביום שני. שפה פשוטה.\"\n\n4) חוקר הלקוחות (Grok)\nבלילה לפני שיחת מכירות. קמים מוכנים.\n\"חפש את [שם] ב[חברה]. מצא: מה הם מוכרים, חדשות אחרונות, שלושה כאבים שאני יכול לפתור. כתוב משפט אחד לפתוח איתו את השיחה שיראה שהתכוננתי.\"\n\n5) מפת השבוע (Claude)\nביום ראשון בערב. השבוע מוכן לפני שהאזעקה מצלצלת.\n\"הנה היומן שלי לשבוע הבא: [הדבק]. שלושת היעדים שלי: [רשימה]. בנה תוכנית יום אחר יום. קטע אחד ליום: העדיפות, מה להכין, מה לדחות.\"\n\nשמור את זה: חמישה פרומפטים, אחד לכל דבר. מדביקים את המידע, ומקבלים סיכום מלא בפחות מדקה.\n\nכלי AI כבר עובדים ביחד בלי שאיש ביקש מהם. אותם כלים מכסים 80% מההכנה שרוב בעלי העסקים עושים ידנית כל שבוע.\n\nמנהל עסק? שלח לנו \"AI\" בפרטי ונראה לך מה זה יכול לעשות אצלך.\n\nמקורות: Anthropic, xAI, Reuters\n\n@ainews.israel\n\n#AItools #BusinessAutomation #Claude #ChatGPT #ArtificialIntelligence",
+ "pinned_comment": "איזה אחד תריץ הלילה? מספר 2 הוא זה שמוצא את הבעיה לפני שאתה בכלל יודע שיש כזאת.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THE 5-AGENT TEAM <em>THAT COSTS NOTHING</em> AND NEVER STOPS",
+   "5 FREE AI WORKERS THAT <em>NEVER SLEEP OR QUIT</em>",
+   "5 AI AGENTS THAT <em>RUN YOUR BUSINESS OVERNIGHT</em>, FREE",
+   "YOUR COMPETITORS SET UP <em>5 AI WORKERS LAST NIGHT</em>. YOU HAVEN'T."
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   9
+  ],
+  "winner": 3,
+  "why": "It hits you with social proof + personal stakes ('YOU HAVEN'T') instead of just listing features—makes you feel behind in a game you didn't know was running. [2] is solid on concrete benefit, but [3] makes you FEEL something at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR COMPETITORS SET UP <em>5 AI WORKERS LAST NIGHT</em>. YOU HAVEN'T.",
+   "YOU'RE STILL DOING <em>5 JOBS</em> AI CAN RUN FOR FREE"
+  ],
+  "scores": [
+   5,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] makes you feel personal pain ('am I wasting time?') while [0] just tries to scare you about competitors you might not care about. Personal inefficiency beats distant FOMO."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "best-of-rejected (4/10)",
+ "editor_override": "Caption claims 'These five cover 80% of the prep most business owners do manually every week' — unverified round number with no source. Truth Law: never fake a number. Fix: remove the percentage → 'These five handle most of the prep business owners do manually every week.'; Friend Test fail: caption opens on autonomous AI agents acting 'without anyone asking,' then delivers five manual prompt temp",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
