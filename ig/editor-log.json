@@ -1,48 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "Reaction-bait with no substance: one joke from an unknown account with no underlying event, real consequence, or material to build slides from.",
-  "subject": "Cybercab vs. whatever the hell those things are.",
-  "t": "2026-09-09T01:18:46Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Not a story—it's a statistical claim without named actors, a real-world event, or felt consequences; frames AI as the loser (off-lens per doctrine's explicit 'goats vs. sensors' rule); scout interest 3/10.",
-  "subject": "\"Students who don't use AI chatbots for schoolwork are scoring better grades than those who do,\" per Bloomberg",
-  "t": "2026-09-09T01:20:00Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "HOOK (§2): The hook's payoff is a view count — '200,000 PEOPLE JUST WATCHED IT HAPPEN' — which §2 explicitly bans: 'engagement metrics as the payoff.' The kicker '200K VIEWS IN TWO DAYS' doubles down. The real payoff is the invention itself (an umbrella that follows you with no hands); rewrite the hook to land on that fact, not the crowd reaction to it.; IMAGE (§3): The cover is a CGI concept rend",
-  "subject": "A CANADIAN ENGINEER BUILT AN UMBRELLA THAT DRIVES ITSELF IN THE RAIN, <em>AND 200,000 PEOPLE JUST WATCHED IT HAPPEN</em>",
-  "t": "2026-09-09T01:46:48Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Slides 3 and 5 carry contradictory view counts: Slide 3 states '200,000 views in under two days' and Slide 5 headline states 'CROSSED 194,000 VIEWS THAT DAY' (day one). A reader doing the math sees 194K on day 1 and only ~6K added on day 2 before hitting the already-stated 200K ceiling — the bigger round number is presented first, then undercut by the more precise daily figure. Pick one number and",
-  "subject": "A CANADIAN ENGINEER BUILT AN UMBRELLA <em>THAT DRIVES ITSELF AND STAYS OVER YOUR HEAD WITH ZERO HANDS</em>",
-  "t": "2026-09-09T01:51:02Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: space content without the tech/business angle required by the page's approved lenses — this is national pride in a space achievement, not a technology/company/founder/investing story, matching the goats-on-Etna kill pattern (space counts only through SpaceX, Starlink, rocket companies, valuations).",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "t": "2026-09-09T01:55:46Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Single unverified tweet claiming research with no Bloomberg link, numbers, or verifiable source—fails INSTANT KILL for no substance.",
-  "subject": "\"Students who don't use AI chatbots for schoolwork are scoring better grades than those who do,\" per Bloomberg",
-  "t": "2026-09-09T01:57:27Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "One vague dismissive tweet with no facts, numbers, or identified event—violates NO SUBSTANCE.",
   "subject": "Cybercab vs. whatever the hell those things are.",
   "t": "2026-09-09T01:57:34Z",
@@ -2096,6 +2054,48 @@
   "t": "2026-09-15T01:54:47Z",
   "gate": "R",
   "subject": "YOU'RE STILL DOING <em>5 JOBS</em> AI CAN RUN FOR FREE",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-15T02:17:23Z",
+  "gate": "A",
+  "subject": "Andrew Wimsatt spent his life figuring out how to make things last longer. Roads, bridges, tunnels, pavement, friendship",
+  "verdict": "KILL",
+  "reason": "Off-lens civil engineer story (infrastructure focus) without AI/tech/founder/investing or space technology as the story's star; source material truncated mid-sentence without establishing a specific event."
+ },
+ {
+  "t": "2026-09-15T02:18:13Z",
+  "gate": "A",
+  "subject": "Andrew Wimsatt spent his life figuring out how to make things last longer. Roads, bridges, tunnels, pavement, friendship",
+  "verdict": "KILL",
+  "reason": "Off-lens by strict lane mandate: infrastructure/engineering career story with unknown actor; no AI/tech/company/founder/investing/space angle."
+ },
+ {
+  "t": "2026-09-15T02:19:44Z",
+  "gate": "A",
+  "subject": "Andrew Wimsatt spent his life figuring out how to make things last longer. Roads, bridges, tunnels, pavement, friendship",
+  "verdict": "KILL",
+  "reason": "Off-lens: this is a civil engineer's career biography; technology is backdrop, not the required subject lens (AI, tech, founder, investing, or space as the story's star)."
+ },
+ {
+  "t": "2026-09-15T02:45:40Z",
+  "gate": "B",
+  "subject": "<em>6 JOBS</em> YOU'RE STILL PAYING FOR THAT FREE AI DOES",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — Generated unknown face + wrong brand: The cover shows a generated unknown face standing next to the OpenAI logo. The doctrine bans 'a generated unknown face' with no exception. Worse, the OpenAI logo is the wrong brand entirely — none of the six tools in this post (Gamma, Perplexity, Otter, ElevenLabs, Make, Chatbase) are OpenAI products. The vendor cast exception only legalizes a CEO'"
+ },
+ {
+  "t": "2026-09-15T02:47:29Z",
+  "gate": "B",
+  "subject": "<em>6 JOBS</em> YOU'RE STILL PAYING FOR THAT FREE AI DOES",
+  "verdict": "REJECT",
+  "reason": "IMAGE — GENERATED UNKNOWN FACE: The cover shows a photoreal but generated unknown man. Image Law is explicit: 'Never a generated unknown face.' The Vendor Cast exception requires the tool's OWN famous CEO (Sam Altman for ChatGPT, Dario Amodei for Claude, etc.) — a nameless generated face is banned regardless of context. Fix: remove the person entirely, or replace with a correctly identified famous"
+ },
+ {
+  "t": "2026-09-15T02:47:36Z",
+  "gate": "R",
+  "subject": "<em>6 JOBS</em> YOU'RE STILL PAYING FOR THAT FREE AI DOES",
   "verdict": "PASS",
   "reason": ""
  }

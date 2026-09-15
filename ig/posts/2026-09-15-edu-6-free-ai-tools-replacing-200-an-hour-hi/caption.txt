@@ -1,0 +1,33 @@
+6 free AI tools that do jobs most businesses pay $200 an hour for.
+
+1) Build a pitch deck in seconds
+Gamma.app, free. Type your idea, get a polished pitch deck. Designers charge $500 for this.
+"Pitch deck for [business]. We [do what]. Target: [customer]."
+
+2) Get a full competitor breakdown in 2 minutes
+Perplexity.ai, free. Type a competitor, get pricing, weak spots, top complaints.
+"Analyze [competitor]: pricing, weaknesses, top complaints."
+
+3) Get notes and action items from every meeting
+Otter.ai, free. Connect to Zoom. Every call gets a transcript and action items. Assistants charge $75/hr.
+"Summarize this call and list action items with who owns each."
+
+4) Turn a script into a real voice
+ElevenLabs.io, free. Paste text, pick a voice, get clean audio. Voice actors charge $200 for 60 seconds.
+"Hi, I'm [name], [business]. [Problem]? [Product] fixes it. Try free: [link]."
+
+5) End a daily task forever
+Make.com, free. Connect two apps. One trigger runs your workflow automatically. Developers charge $100/hr to build the same thing.
+"Trigger: [form filled]. Action: add to Sheet, send: 'Got it, reply in 24 hrs.'"
+
+6) Build a chatbot that knows your whole business
+Chatbase.co, free. Feed it your FAQs or website. It handles every customer question 24/7. Hiring someone for this costs $2,400 a month.
+"You are [business]'s assistant. Use only the uploaded files to answer questions. Be brief."
+
+SAVE THIS, 6 free tools doing $200/hr work: Gamma (pitch decks) · Perplexity (competitor intel) · Otter (meeting notes) · ElevenLabs (voice) · Make (automation) · Chatbase (chatbot).
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: Gamma Labs, Perplexity AI, Otter.ai, ElevenLabs, Make, Chatbase, Reuters
+
+#ai #artificialintelligence #aitools #businessowner #productivity

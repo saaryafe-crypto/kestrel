@@ -1,0 +1,59 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>6 JOBS</em> YOU'RE STILL PAYING FOR THAT FREE AI DOES",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "posts/2026-09-15-edu-6-free-ai-tools-replacing-200-an-hour-hi/gen-0.jpg",
+   "image_prompt": "Sam Altman holding OpenAI logo, minimal clean background, sharp face focus, confident expression, no text or clutter"
+  }
+ ],
+ "caption": "6 free AI tools that do jobs most businesses pay $200 an hour for.\n\n1) Build a pitch deck in seconds\nGamma.app, free. Type your idea, get a polished pitch deck. Designers charge $500 for this.\n\"Pitch deck for [business]. We [do what]. Target: [customer].\"\n\n2) Get a full competitor breakdown in 2 minutes\nPerplexity.ai, free. Type a competitor, get pricing, weak spots, top complaints.\n\"Analyze [competitor]: pricing, weaknesses, top complaints.\"\n\n3) Get notes and action items from every meeting\nOtter.ai, free. Connect to Zoom. Every call gets a transcript and action items. Assistants charge $75/hr.\n\"Summarize this call and list action items with who owns each.\"\n\n4) Turn a script into a real voice\nElevenLabs.io, free. Paste text, pick a voice, get clean audio. Voice actors charge $200 for 60 seconds.\n\"Hi, I'm [name], [business]. [Problem]? [Product] fixes it. Try free: [link].\"\n\n5) End a daily task forever\nMake.com, free. Connect two apps. One trigger runs your workflow automatically. Developers charge $100/hr to build the same thing.\n\"Trigger: [form filled]. Action: add to Sheet, send: 'Got it, reply in 24 hrs.'\"\n\n6) Build a chatbot that knows your whole business\nChatbase.co, free. Feed it your FAQs or website. It handles every customer question 24/7. Hiring someone for this costs $2,400 a month.\n\"You are [business]'s assistant. Use only the uploaded files to answer questions. Be brief.\"\n\nSAVE THIS, 6 free tools doing $200/hr work: Gamma (pitch decks) \u00b7 Perplexity (competitor intel) \u00b7 Otter (meeting notes) \u00b7 ElevenLabs (voice) \u00b7 Make (automation) \u00b7 Chatbase (chatbot).\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Gamma Labs, Perplexity AI, Otter.ai, ElevenLabs, Make, Chatbase, Reuters\n\n#ai #artificialintelligence #aitools #businessowner #productivity",
+ "pinned_comment": "Which one are you trying first? Number 5 is the one most people have never thought to use.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR COMPETITORS USE <em>THESE 6 FREE AI TOOLS</em>. DO YOU?",
+   "6 FREE AI TOOLS <em>REPLACING $200-AN-HOUR HIRES</em>",
+   "<em>6 WHOLE JOBS</em> FREE AI DOES WHILE YOU SLEEP",
+   "<em>6 FREE AI TOOLS</em> MOST BUSINESSES NEVER FIND",
+   "<em>6 JOBS</em> FREE AI DOES THAT BUSINESSES OVERPAY FOR"
+  ],
+  "scores": [
+   4,
+   7,
+   8,
+   2,
+   6
+  ],
+  "winner": 2,
+  "why": "[2] hits the 'wait WHAT?' moment with 'whole jobs' + 'while you sleep' \u2014 that automation-while-idle fantasy is what stops scrolling. [1] is credible with its $200/hour number, but [2] is more shocking."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 WHOLE JOBS</em> FREE AI DOES WHILE YOU SLEEP",
+   "<em>6 JOBS</em> YOU'RE STILL PAYING FOR THAT FREE AI DOES",
+   "<em>6 FREE AI TASKS</em> MOST PEOPLE OVERLOOK",
+   "<em>6 EXPENSIVE SERVICES</em> FREE AI NOW DOES FOR YOU"
+  ],
+  "scores": [
+   7,
+   8,
+   6,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hits you directly in the gut with 'YOU'RE STILL PAYING' \u2014 instant guilt, instant 'wait, am I wasting money RIGHT NOW?' \u2014 while [3] sounds like a pitch you've scrolled past before."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (2/10)",
+ "editor_override": "IMAGE \u2014 GENERATED UNKNOWN FACE: The cover shows a photoreal but generated unknown man. Image Law is explicit: 'Never a generated unknown face.' The Vendor Cast exception requires the tool's OWN famous CEO (Sam Altman for ChatGPT, Dario Amodei for Claude, etc.) \u2014 a nameless generated face is banned regardless of context. Fix: remove the person entirely, or replace with a correctly identified famous",
+ "topic_source": "news-anchored"
+}
