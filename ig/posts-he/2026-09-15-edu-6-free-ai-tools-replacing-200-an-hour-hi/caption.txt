@@ -1,0 +1,29 @@
+שישה כלים חינמיים שעושים עבודות שמשלמים עליהן $200 לשעה.
+
+1) Gamma.app, בחינם: כותבים לו את הרעיון, הוא בונה מצגת מוכנה בשניות. מעצבים לוקחים $500 על אותה עבודה.
+"Pitch deck for [business]. We [do what]. Target: [customer]."
+
+2) Perplexity.ai, בחינם: כותבים שם מתחרה, ותוך שתי דקות מקבלים את המחירים שלו, נקודות החולשה ואת התלונות הנפוצות.
+"Analyze [competitor]: pricing, weaknesses, top complaints."
+
+3) Otter.ai, בחינם: מחברים ל-Zoom וכל שיחה מקבלת תמלול ורשימת משימות. עוזרים אישיים לוקחים $75 לשעה על אותה עבודה.
+"Summarize this call and list action items with who owns each."
+
+4) ElevenLabs.io, בחינם: מדביקים טקסט, בוחרים קול ומקבלים הקלטה נקייה. שחקני קול לוקחים $200 על 60 שניות.
+"Hi, I'm [name], [business]. [Problem]? [Product] fixes it. Try free: [link]."
+
+5) Make.com, בחינם: מחברים שתי אפליקציות ומגדירים טריגר אחד, והתהליך רץ לבד. מפתחים לוקחים $100 לשעה לבנות אותו דבר.
+"Trigger: [form filled]. Action: add to Sheet, send: 'Got it, reply in 24 hrs.'"
+
+6) Chatbase.co, בחינם: מעלים שאלות נפוצות או כתובת האתר, והוא עונה לכל לקוח 24/7. לשכור מישהו לזה עולה $2,400 בחודש.
+"You are [business]'s assistant. Use only the uploaded files to answer questions. Be brief."
+
+שמרו את זה, שישה כלים חינמיים שעושים עבודה של $200 לשעה: Gamma (מצגות) · Perplexity (מחקר מתחרים) · Otter (תמלול פגישות) · ElevenLabs (קול) · Make (אוטומציה) · Chatbase (צ'אטבוט).
+
+מנהלים עסק? שלחו לנו DM "AI" ונראה לכם מה זה יכול לעשות אצלכם.
+
+מקורות: Gamma Labs, Perplexity AI, Otter.ai, ElevenLabs, Make, Chatbase, Reuters
+
+עקבו אחרי @ainews.israel
+
+#ai #artificialintelligence #aitools #businessowner #productivity

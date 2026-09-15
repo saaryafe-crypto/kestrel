@@ -1,0 +1,66 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "עדיין משלמים על זה: <em>שש עבודות שה-AI עושה בחינם</em>",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "posts/2026-09-15-edu-6-free-ai-tools-replacing-200-an-hour-hi/gen-0.jpg",
+   "image_prompt": "Sam Altman holding OpenAI logo, minimal clean background, sharp face focus, confident expression, no text or clutter"
+  }
+ ],
+ "caption": "שישה כלים חינמיים שעושים עבודות שמשלמים עליהן $200 לשעה.\n\n1) Gamma.app, בחינם: כותבים לו את הרעיון, הוא בונה מצגת מוכנה בשניות. מעצבים לוקחים $500 על אותה עבודה.\n\"Pitch deck for [business]. We [do what]. Target: [customer].\"\n\n2) Perplexity.ai, בחינם: כותבים שם מתחרה, ותוך שתי דקות מקבלים את המחירים שלו, נקודות החולשה ואת התלונות הנפוצות.\n\"Analyze [competitor]: pricing, weaknesses, top complaints.\"\n\n3) Otter.ai, בחינם: מחברים ל-Zoom וכל שיחה מקבלת תמלול ורשימת משימות. עוזרים אישיים לוקחים $75 לשעה על אותה עבודה.\n\"Summarize this call and list action items with who owns each.\"\n\n4) ElevenLabs.io, בחינם: מדביקים טקסט, בוחרים קול ומקבלים הקלטה נקייה. שחקני קול לוקחים $200 על 60 שניות.\n\"Hi, I'm [name], [business]. [Problem]? [Product] fixes it. Try free: [link].\"\n\n5) Make.com, בחינם: מחברים שתי אפליקציות ומגדירים טריגר אחד, והתהליך רץ לבד. מפתחים לוקחים $100 לשעה לבנות אותו דבר.\n\"Trigger: [form filled]. Action: add to Sheet, send: 'Got it, reply in 24 hrs.'\"\n\n6) Chatbase.co, בחינם: מעלים שאלות נפוצות או כתובת האתר, והוא עונה לכל לקוח 24/7. לשכור מישהו לזה עולה $2,400 בחודש.\n\"You are [business]'s assistant. Use only the uploaded files to answer questions. Be brief.\"\n\nשמרו את זה, שישה כלים חינמיים שעושים עבודה של $200 לשעה: Gamma (מצגות) · Perplexity (מחקר מתחרים) · Otter (תמלול פגישות) · ElevenLabs (קול) · Make (אוטומציה) · Chatbase (צ'אטבוט).\n\nמנהלים עסק? שלחו לנו DM \"AI\" ונראה לכם מה זה יכול לעשות אצלכם.\n\nמקורות: Gamma Labs, Perplexity AI, Otter.ai, ElevenLabs, Make, Chatbase, Reuters\n\nעקבו אחרי @ainews.israel\n\n#ai #artificialintelligence #aitools #businessowner #productivity",
+ "pinned_comment": "מה מנסים ראשון? מספר 5 הוא זה שרוב האנשים בכלל לא חשבו עליו.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR COMPETITORS USE <em>THESE 6 FREE AI TOOLS</em>. DO YOU?",
+   "6 FREE AI TOOLS <em>REPLACING $200-AN-HOUR HIRES</em>",
+   "<em>6 WHOLE JOBS</em> FREE AI DOES WHILE YOU SLEEP",
+   "<em>6 FREE AI TOOLS</em> MOST BUSINESSES NEVER FIND",
+   "<em>6 JOBS</em> FREE AI DOES THAT BUSINESSES OVERPAY FOR"
+  ],
+  "scores": [
+   4,
+   7,
+   8,
+   2,
+   6
+  ],
+  "winner": 2,
+  "why": "[2] hits the 'wait WHAT?' moment with 'whole jobs' + 'while you sleep' — that automation-while-idle fantasy is what stops scrolling. [1] is credible with its $200/hour number, but [2] is more shocking."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>6 WHOLE JOBS</em> FREE AI DOES WHILE YOU SLEEP",
+   "<em>6 JOBS</em> YOU'RE STILL PAYING FOR THAT FREE AI DOES",
+   "<em>6 FREE AI TASKS</em> MOST PEOPLE OVERLOOK",
+   "<em>6 EXPENSIVE SERVICES</em> FREE AI NOW DOES FOR YOU"
+  ],
+  "scores": [
+   7,
+   8,
+   6,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] hits you directly in the gut with 'YOU'RE STILL PAYING' — instant guilt, instant 'wait, am I wasting money RIGHT NOW?' — while [3] sounds like a pitch you've scrolled past before."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "best-of-rejected (2/10)",
+ "editor_override": "IMAGE — GENERATED UNKNOWN FACE: The cover shows a photoreal but generated unknown man. Image Law is explicit: 'Never a generated unknown face.' The Vendor Cast exception requires the tool's OWN famous CEO (Sam Altman for ChatGPT, Dario Amodei for Claude, etc.) — a nameless generated face is banned regardless of context. Fix: remove the person entirely, or replace with a correctly identified famous",
+ "topic_source": "news-anchored",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
