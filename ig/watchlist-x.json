@@ -11,11 +11,12 @@
    "AiBreakfast", "WesRothMoney", "dr_cintas"
   ],
   "robotics_summarizers": [
-   "TheHumanoidHub", "MachinePix", "IntEngineering", "engineers_feed"
+   "TheHumanoidHub", "MachinePix", "IntEngineering", "engineers_feed",
+   "BostonDynamics", "UnitreeRobotics"
   ],
   "space_summarizers": [
    "NASASpaceflight", "Erdayastronaut", "ajamesmccarthy", "SawyerMerritt",
-   "cb_doge"
+   "cb_doge", "RocketLab"
   ],
   "markets_summarizers": [
    "unusual_whales", "WatcherGuru", "DeItaone", "KobeissiLetter",
