@@ -1597,7 +1597,14 @@ def qa(post):
                     "other slide; their facts belong in the caption's story")
     if slides[0].get("type") != "cover":
         errs.append("the single slide must be type 'cover'")
-    if "<em>" not in slides[0].get("headline", ""):
+    # missing headline is a QA error for the repair pass, never a crash
+    # (run 34918229213, Sep 15: writer returned a cover with no "headline"
+    # key and the KeyError killed the whole ladder)
+    headline = slides[0].get("headline") or ""
+    if not headline.strip():
+        errs.append("cover has no 'headline' field — return the cover's "
+                    "headline as a string on the slide")
+    if "<em>" not in headline:
         errs.append("cover headline has no <em> accent")
     # the cover is the ONLY picture now — it needs a generation brief or a
     # real article image to stand on
@@ -1612,7 +1619,7 @@ def qa(post):
     # complete — actor + action + ONE wild number — the supporting specifics
     # move to the caption.)
     cover_cap = 15
-    cover_words = len(re.sub(r"<[^>]+>", "", slides[0]["headline"]).split())
+    cover_words = len(re.sub(r"<[^>]+>", "", headline).split())
     if cover_words > cover_cap:
         errs.append(f"cover headline is {cover_words} words (max {cover_cap}) — "
                     "ONE lean complete claim (8-14 words): actor, what "
@@ -1624,7 +1631,7 @@ def qa(post):
         errs.append(f"cover headline is only {cover_words} words — a riddle. "
                     "The cover states the complete claim (8-14 words: actor, "
                     "what happened, the wild number), it never withholds")
-    if len(re.findall(r"<em>", slides[0]["headline"])) > 2:
+    if len(re.findall(r"<em>", headline)) > 2:
         errs.append("cover has >2 <em> groups — accent ONE contiguous phrase or "
                     "whole line (two max), scattered single-word accents are "
                     "confetti with zero focal point")
@@ -1632,7 +1639,7 @@ def qa(post):
     # closed the cover with ", AND 40K LIKES" / "69K LIKES" — a like count
     # is coverage of a post, not a story; it also proves the story class is
     # reaction-bait). Mirrors the tournament intake filter in viral.py.
-    cover_plain = re.sub(r"<[^>]+>", "", slides[0]["headline"])
+    cover_plain = re.sub(r"<[^>]+>", "", headline)
     if re.search(r"(?i)\b\d[\d.,]*\s*(?:K|M|MILLION|THOUSAND)?\s*"
                  r"(?:LIKES?|REPLIES|RETWEETS?|REPOSTS?|UPVOTES?|SHARES|"
                  r"VIEWS|COMMENTS)\b", cover_plain):
