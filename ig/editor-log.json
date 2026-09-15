@@ -1,75 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "One vague dismissive tweet with no facts, numbers, or identified event—violates NO SUBSTANCE.",
-  "subject": "Cybercab vs. whatever the hell those things are.",
-  "t": "2026-09-09T01:57:34Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "HOOK LAW §2 — the hook's payoff IS an engagement metric: '6,900 PEOPLE SHOWED UP IN THE COMMENTS TO DO IT FOR HIM' is a comment count, which sits in the explicit banned list ('replies, reposts, followers — THE SCREENSHOT HAS 40K LIKES is the failure model'). The kicker '131,000 WATCHED IT HAPPEN' doubles down with a view count. The hook must be rebuilt around the actual event — a Tesla hype accoun",
-  "subject": "TESLA'S TOP FAN REFUSED TO TYPE 'WAYMO' AND <em>6,900 PEOPLE SHOWED UP IN THE COMMENTS TO DO IT FOR HIM</em>",
-  "t": "2026-09-09T02:32:46Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "s1: Receipt Law fail: the cover images — a woman in a dental-brace contraption and an unrelated celebrity — are pure decoration with zero connection to a Tesla fan account, Waymo, or the Twitter/X post; neither qualifies as a press moment of the slide's actor or the story's object.",
-  "subject": "TESLA'S TOP FAN REFUSED TO TYPE 'WAYMO' AND <em>6,900 PEOPLE SHOWED UP IN THE COMMENTS TO DO IT FOR HIM</em>",
-  "t": "2026-09-09T02:37:02Z",
-  "verdict": "FAIL"
- },
- {
-  "t": "2026-09-09T06:43:14Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — text-on-black with CGI particle burst. Image Law is explicit: 'Text-on-black or empty-top covers are failures' and 'every ELEMENT in the frame must read as photographed... A frame or any element that reads as illustration, cartoon, game render, or concept art is a REJECT.' The orange particle streak reads as digital/CGI art, not a photographed element. There is no subject — no face, "
- },
- {
-  "t": "2026-09-09T06:45:30Z",
-  "gate": "R",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "FAIL",
-  "reason": "s7: The bullet point below the CTA button ('The AI leapfrog between top labs…') is orphaned beneath 'SEND THIS TO A FRIEND' with no visual hierarchy, making the slide layout look broken and unprofessional."
- },
- {
-  "gate": "A",
-  "reason": "No underlying event—this is a personality characterization and values observation about Elon, not a story where something actually happened and someone felt a real consequence; the 210-character source is the entire substance, requiring padding to fill slides.",
-  "subject": "Most people get rich so they can retire. Elon got rich and chose to work even harder. He could have chosen endless luxur",
-  "t": "2026-09-04T03:51:09Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens kill: pharmaceutical ethics/whistleblower narrative lacks required AI, tech, company/founder, investing, or space component; @technology's brand is technology news first, and this story belongs to healthcare/medical ethics, not the page's approved lenses.",
-  "subject": "🔻 THE PHARMA REP WHO SAW THE LIST. \"I sold cancer drugs for 11 years. I made $340,000 a year convincing doctors to presc",
-  "t": "2026-09-04T03:51:12Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Unverified third-party aggregator claim with no official confirmation, timeline, scope, or impact story to build slides from—insufficient substance for news reporting.",
-  "subject": "JUST IN: Grok, ChatGPT, Gemini and Claude are all currently down for some users.",
-  "t": "2026-09-04T03:51:25Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "HOOK IS TWO SENTENCES, NOT ONE (§2): 'CHATGPT CRASHED AND SO DID GEMINI, GROK AND CLAUDE AT THE SAME MOMENT.' is the hook. '1.4 MILLION PEOPLE SAW IT HAPPEN WITHIN HOURS.' is a second sentence bolted on. The doctrine requires one complete sentence that tells the whole story. Fix: either fold the 1.4M figure into the single sentence or cut it entirely.; HOOK PAYOFF IS AN ENGAGEMENT-STYLE METRIC (§2",
-  "subject": "CHATGPT CRASHED AND SO DID GEMINI, GROK AND CLAUDE AT THE SAME MOMENT. <em>1.4 MILLION PEOPLE</em> SAW IT HAPPEN WITHIN ",
-  "t": "2026-09-04T04:22:55Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Slide 5 body repeats the headline's core fact: the headline says 'no wheel and no pedals' and the body opens with 'The car has no steering wheel and no pedals, zero manual controls inside' — same claim, different words. The body must open with a new fact (first day of public service, fare, number of units on road, planned cities, etc.).; Slide 6 body closes on significance inflation: 'Google calls",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "t": "2026-09-04T06:02:52Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "B",
   "reason": "",
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
@@ -2096,6 +2026,76 @@
   "t": "2026-09-15T02:47:36Z",
   "gate": "R",
   "subject": "<em>6 JOBS</em> YOU'RE STILL PAYING FOR THAT FREE AI DOES",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-15T06:09:38Z",
+  "gate": "A",
+  "subject": "Hi. 😊 Swedish dude here. When our children get sick, we have 60 paid days per year to stay home with them. Per parent. T",
+  "verdict": "KILL",
+  "reason": "Off-brand social policy (not AI/tech/space/business) and no news event—just a policy description with no real-world consequence or recent occurrence."
+ },
+ {
+  "t": "2026-09-15T06:09:58Z",
+  "gate": "A",
+  "subject": "BREAKING: Tesla drivers will soon be able to text using Grok. The updated Model Y owner manual says drivers will be able",
+  "verdict": "KILL",
+  "reason": "This is a launch preview without demo or release (manual note + 'will soon')—exactly the banned form for news slots."
+ },
+ {
+  "t": "2026-09-15T06:10:59Z",
+  "gate": "A",
+  "subject": "BREAKING: Tesla drivers will soon be able to text using Grok. The updated Model Y owner manual says drivers will be able",
+  "verdict": "KILL",
+  "reason": "Empty launch preview matching the explicitly banned category: a spec-sheet announcement ('will soon be able to') with no demo, numbers, or felt consequence—documentation, not a story."
+ },
+ {
+  "t": "2026-09-15T06:11:21Z",
+  "gate": "A",
+  "subject": "Hi. 😊 Swedish dude here. When our children get sick, we have 60 paid days per year to stay home with them. Per parent. T",
+  "verdict": "KILL",
+  "reason": "No news event; this is established Swedish law with no new real-world consequence, and it's off-brand for a tech/AI news page."
+ },
+ {
+  "t": "2026-09-15T06:41:36Z",
+  "gate": "B",
+  "subject": "SWEDEN GIVES PARENTS <em>60 PAID SICK-KID DAYS</em> A YEAR. HOSPITALIZED: UNLIMITED.",
+  "verdict": "REJECT",
+  "reason": "HOOK VIOLATES §2 — TWO SENTENCES, NOT ONE. 'SWEDEN GIVES PARENTS 60 PAID SICK-KID DAYS A YEAR. HOSPITALIZED: UNLIMITED.' is a sentence plus a fragment. The doctrine requires ONE complete sentence. Fix: 'SWEDEN GIVES PARENTS 60 PAID SICK-KID DAYS A YEAR, AND IF YOUR CHILD IS HOSPITALIZED THE DAYS ARE UNLIMITED.' (Note: dashes are banned in hooks, so restructure with a comma.); ENGAGEMENT METRIC AS "
+ },
+ {
+  "t": "2026-09-15T06:44:00Z",
+  "gate": "A",
+  "subject": "BREAKING: Tesla drivers will soon be able to text using Grok. The updated Model Y owner manual says drivers will be able",
+  "verdict": "KILL",
+  "reason": "It's a launch preview in empty form—a manual update describing a future feature with no date, demo, or substance—falling under the banned type despite the famous-name company."
+ },
+ {
+  "t": "2026-09-15T07:03:53Z",
+  "gate": "B",
+  "subject": "TESLA'S GROK CAN NOW TEXT <em>ANY PHONE NUMBER ON EARTH</em>, FROM YOUR VOICE ALONE",
+  "verdict": "REJECT",
+  "reason": "Hook says 'ANY PHONE NUMBER ON EARTH' — the feature texts contacts already saved in your phone, not any number on Earth. Truth Law §5 violation. Fix: rewrite hook to the accurate claim, e.g. 'TESLA'S GROK CAN NOW TEXT YOUR CONTACTS AS YOU, FROM YOUR VOICE ALONE — NO PHONE NEEDED'.; Emoji 📱 in caption body violates §4 spoken-voice rule. Delete it.; The Twitter/free-speech paragraph is political mor"
+ },
+ {
+  "t": "2026-09-15T07:07:24Z",
+  "gate": "B",
+  "subject": "TESLA'S GROK CAN NOW TEXT <em>YOUR CONTACTS AS YOU</em>, FROM YOUR VOICE ALONE",
+  "verdict": "REJECT",
+  "reason": "TRUTH VIOLATION — 'This is the first AI feature that could change a relationship before the driver even parks' contains a false 'first' claim: Siri and Google Assistant have sent voice-commanded texts on behalf of drivers for over a decade. The novelty here is specific — Grok silently AI-composes the message (not just dictation) with no public announcement — but that distinction is not in the line"
+ },
+ {
+  "t": "2026-09-15T07:09:33Z",
+  "gate": "B",
+  "subject": "TESLA'S GROK CAN NOW TEXT <em>YOUR CONTACTS AS YOU</em>, FROM YOUR VOICE ALONE",
+  "verdict": "REJECT",
+  "reason": "Caption sentence 'This is the first time a car's AI has been able to write and send a text as you, in your voice, without you ever announcing it as a feature' contains a Truth Law violation: the 'first ever' claim is too broad — Siri via CarPlay has sent voice-composed texts from cars for years. Scope it to what is actually new and verifiable: a car's built-in AI composing and sending texts in you"
+ },
+ {
+  "t": "2026-09-15T07:09:41Z",
+  "gate": "R",
+  "subject": "TESLA'S GROK CAN NOW TEXT <em>YOUR CONTACTS AS YOU</em>, FROM YOUR VOICE ALONE",
   "verdict": "PASS",
   "reason": ""
  }
