@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "OPENAI HIRED CONTRACTORS TO READ YOUR FREE CHATGPT CHATS. <em>THE 3-TIER FIX.</em>",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "posts/2026-09-15-edu-exec-3-tier-ai-data-classification-frame/gen-0.jpg",
+   "image_prompt": "Sam Altman with the OpenAI logo exactly as in the reference image and a giant magnifying glass"
+  }
+ ],
+ "caption": "OpenAI just hired contractors to read real user chats. Every free ChatGPT conversation your team has had is human-readable. Here is the fix. \ud83d\udd10\n\n1. TIER ONE: PUBLIC WORK\nAnything you'd publish anyway, drafts, generic research, social copy. Free ChatGPT is fine here. But open your chat history right now and count how much of what your team actually sends that way. Most people are surprised it's almost nothing.\n\n2. TIER TWO: INTERNAL WORK\nStrategy, HR, finances, supplier negotiations. These need enterprise accounts with a written contract saying your data won't train their models and won't reach human reviewers. Without that contract in writing you have zero legal protection. One salary negotiation in a free chat means strangers already know what you're willing to pay.\n\n3. TIER THREE: CONFIDENTIAL WORK\nM&A targets, client lists, source code, salary data. These never go into any cloud AI tool, paid or free. Ollama runs powerful AI models on your own laptop with no internet connection. Free. One afternoon to set up. Then go to Settings, Data Controls, and delete all conversations in every account your team uses. Today.\n\nSAVE THIS: the 3-tier AI data rule to share with your legal team this week.\n\nEvery cloud AI tool works the same way: free tier readable by humans, enterprise tier protected by contract, local with zero exposure. Most companies default to the wrong tier for almost everything.\n\nRunning a business? DM us \"AI\" and we'll show you which tier your team is actually operating in.\n\nSources: 404Media\n\n#AI #DataPrivacy #ChatGPT #BusinessStrategy #AITools",
+ "pinned_comment": "Which tier is your most sensitive work sitting in right now? Most teams we talk to are putting strategy documents into free ChatGPT. That changes today.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THE <em>CHATGPT CONTRACTOR AUDIT</em>",
+   "<em>THE CHATGPT PRIVACY RULE</em>"
+  ],
+  "scores": [
+   5,
+   3
+  ],
+  "winner": 0,
+  "why": "\"Audit\" signals something was found or investigated\u2014it makes me pause for a second. \"Privacy rule\" is just a neutral label that tells me nothing, so I keep scrolling."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "listicle_overflow": true,
+ "editor_override": "Caption opening 'Here is the fix. \ud83d\udd10' contains an emoji \u2014 \u00a74 SPOKEN VOICE bans emojis outright. Fix: delete the \ud83d\udd10 character. The sentence stands fine without it.",
+ "topic_source": "exec-news"
+}

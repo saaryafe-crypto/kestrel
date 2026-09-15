@@ -1,27 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "scout interest 8/10 — news-first fast lane",
-  "subject": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast.",
-  "t": "2026-09-04T12:13:14Z",
-  "verdict": "AUTO_APPROVE"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens for an AI/tech news page; geopolitical and financial story with no technology or AI driver.",
-  "subject": "BREAKING: US diesel prices surge above $5.90/gallon for the first time in history, with prices in some states now above ",
-  "t": "2026-09-09T04:49:38Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Scout interest (5/10) is too low and source material is fragmentary—doesn't establish what achievement, consequence, or jaw-dropping event drives the story.",
-  "subject": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted with integrity and ge",
-  "t": "2026-09-09T04:49:44Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Unknown creator's personal YouTube milestone — no public consequence, no news relevance, and insufficient substance to build slides from.",
   "subject": "My first 1 million view video on YouTube!",
   "t": "2026-09-09T04:50:58Z",
@@ -2098,5 +2077,26 @@
   "subject": "Jews are not nervous about AI safety, they are nervous about losing AI control. Thus they need the Jewish controlled gov",
   "verdict": "KILL",
   "reason": "No-substance instant kill: unverifiable conspiracy allegations with zero documented events, no real numbers, no real consequences—fails STORY LAW's core requirement for a viral-specific event where reality moved."
+ },
+ {
+  "t": "2026-09-15T17:51:35Z",
+  "gate": "B",
+  "subject": "CONTRACTORS CHARGE THOUSANDS. <em>CHATGPT AUDITS THE SAME WORK FREE.</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK-TO-CONTENT COVER CONTRACT VIOLATION (§4): The hook 'CONTRACTORS CHARGE THOUSANDS. CHATGPT AUDITS THE SAME WORK FREE.' frames ChatGPT as the solution that replaces expensive contractors. The caption immediately opens with the opposite frame: 'OpenAI just hired contractors to read real user chats' — meaning the contractors ARE the threat inside ChatGPT, not the thing ChatGPT replaces. A reader "
+ },
+ {
+  "t": "2026-09-15T17:53:33Z",
+  "gate": "B",
+  "subject": "OPENAI HIRED CONTRACTORS TO READ YOUR FREE CHATGPT CHATS. <em>THE 3-TIER FIX.</em>",
+  "verdict": "REJECT",
+  "reason": "Caption opening 'Here is the fix. 🔐' contains an emoji — §4 SPOKEN VOICE bans emojis outright. Fix: delete the 🔐 character. The sentence stands fine without it."
+ },
+ {
+  "t": "2026-09-15T17:53:42Z",
+  "gate": "R",
+  "subject": "OPENAI HIRED CONTRACTORS TO READ YOUR FREE CHATGPT CHATS. <em>THE 3-TIER FIX.</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

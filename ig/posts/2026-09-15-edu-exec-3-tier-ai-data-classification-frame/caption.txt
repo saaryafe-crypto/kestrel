@@ -1,0 +1,20 @@
+OpenAI just hired contractors to read real user chats. Every free ChatGPT conversation your team has had is human-readable. Here is the fix. 🔐
+
+1. TIER ONE: PUBLIC WORK
+Anything you'd publish anyway, drafts, generic research, social copy. Free ChatGPT is fine here. But open your chat history right now and count how much of what your team actually sends that way. Most people are surprised it's almost nothing.
+
+2. TIER TWO: INTERNAL WORK
+Strategy, HR, finances, supplier negotiations. These need enterprise accounts with a written contract saying your data won't train their models and won't reach human reviewers. Without that contract in writing you have zero legal protection. One salary negotiation in a free chat means strangers already know what you're willing to pay.
+
+3. TIER THREE: CONFIDENTIAL WORK
+M&A targets, client lists, source code, salary data. These never go into any cloud AI tool, paid or free. Ollama runs powerful AI models on your own laptop with no internet connection. Free. One afternoon to set up. Then go to Settings, Data Controls, and delete all conversations in every account your team uses. Today.
+
+SAVE THIS: the 3-tier AI data rule to share with your legal team this week.
+
+Every cloud AI tool works the same way: free tier readable by humans, enterprise tier protected by contract, local with zero exposure. Most companies default to the wrong tier for almost everything.
+
+Running a business? DM us "AI" and we'll show you which tier your team is actually operating in.
+
+Sources: 404Media
+
+#AI #DataPrivacy #ChatGPT #BusinessStrategy #AITools
