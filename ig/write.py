@@ -2004,11 +2004,15 @@ def main(stories_path):
                     nb, nrefs = face_riders(brief, face_field)
                     nrefs = [r for r in nrefs + [brand_ref] if r]
                     if nrefs:
+                        # named_brief: the grok rung takes no photos —
+                        # likeness comes from the full names (stranger-face
+                        # post-mortem, run 34920134374)
                         path = genimg.generate(nb, out_jpg,
                                                cover=(s["type"] == "cover"),
                                                person=True, nano=True,
                                                refs=nrefs,
-                                               collage=(s["type"] == "cover"))
+                                               collage=(s["type"] == "cover"),
+                                               named_brief=brief)
                 if not path:
                     # FALLBACK RUNG (always-post ladder): no real photo exists
                     # for someone in the cast (pool + Wikipedia both empty),

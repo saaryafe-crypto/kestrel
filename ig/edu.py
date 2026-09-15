@@ -635,10 +635,14 @@ def main():
                     nb, nrefs = face_riders(brief, face_field)
                     nrefs = [r for r in nrefs + [brand_ref] if r]
                     if nrefs:
+                        # named_brief: the grok rung takes no photos —
+                        # likeness comes from the full names (stranger-face
+                        # post-mortem, run 34920134374)
                         path = genimg.generate(nb, out_jpg,
                                                cover=(s["type"] == "cover"),
                                                person=True, nano=True,
-                                               refs=nrefs)
+                                               refs=nrefs,
+                                               named_brief=brief)
                 if not path:
                     # no photo held for this cast (or nano flaked): names in
                     # the prompt, from-memory rung

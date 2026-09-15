@@ -360,7 +360,7 @@ def _save_prompt(out_path, prompt):
 
 
 def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
-             collage=False, montage=False):
+             collage=False, montage=False, named_brief=None):
     key = _key()
     if not key:
         return None
@@ -396,8 +396,19 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
     core = f"{INTRO}{brief.strip().rstrip('.')}."
     bare = f"{core}{GUARD}"
     tailed = f"{core}{tail}{GUARD}"
-    rungs = [] if montage else [
-        ("grok", GROK_COST, lambda: _call_grok(key, bare), bare)]
+    # GROK NAME LAW (run 34920134374 post-mortem, Sep 15: a stranger-face
+    # 2/10 cover shipped): grok takes NO reference photos — its likeness
+    # comes ONLY from full names in the prompt (the owner's winning Trump
+    # config). Callers scrub names to "the person in the reference photo"
+    # for the E005/ref rungs, so grok must get the UNSCRUBBED brief via
+    # named_brief. A scrubbed brief that points at a photo grok can't see
+    # is a stranger factory — skip the grok rung entirely in that case.
+    if named_brief:
+        grok_prompt = f"{INTRO}{named_brief.strip().rstrip('.')}.{GUARD}"
+    else:
+        grok_prompt = bare if "reference photo" not in brief else None
+    rungs = [] if (montage or not grok_prompt) else [
+        ("grok", GROK_COST, lambda: _call_grok(key, grok_prompt), grok_prompt)]
     rungs += [
         ("sunburst", SUN_COST, lambda: _call_sunburst(key, tailed, live_refs),
          tailed),
