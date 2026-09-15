@@ -1,0 +1,50 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>600,000 HAND-MADE ANIMATIONS.</em> NO AI. ONE DECADE. ONE GAME.",
+   "kicker": "JOURNALISTS FLEW TO SCOTLAND TO SEE WHY",
+   "face": [],
+   "media": "posts/2026-09-14-inspire-rockstar-s-decade-long-no-ai-gta-6-bet-x/gen-0.jpg",
+   "image_prompt": "a mountain of hand-drawn animation papers towering over a studio desk with hands drawing one more frame"
+  }
+ ],
+ "caption": "Rockstar built GTA 6 for a decade without AI. 600,000 hand-crafted animations. Journalists flew to Scotland and left calling it unlike anything they'd seen. \ud83c\udfae\n\nRockstar started on GTA 6 more than ten years ago. At one point, they had four playable characters planned. They cut it back to two. Not because it was cheaper or easier. Because they were worried players wouldn't feel close to four different people at once. They made the harder call and kept building.\n\nWhile every other studio was using AI to speed up animation and cut costs, Rockstar went the other way. They hired more than 50 real street artists to paint murals inside the game world. They kept a team living in Miami for a decade, talking to ex-criminals, cops, and club promoters, just to make the city feel real. Then they built 600,000 animations. Every single one made by a human. That is 10 times more than GTA V.\n\nThis past July, Rockstar flew journalists to their studio in Scotland. Rob Nelson, who has been at the company for 23 years, picked up a controller and played in free roam for two and a half hours. No rehearsed demo. He told the journalists the game is so large that nobody on the team knows all of it.\n\nThe people in that room came out describing a world twice the size of GTA V, a map so detailed it shows what loot is inside each building before you rob it. Zero AI generation. Zero shortcuts. Just ten years of people doing the work, one frame at a time. Send this to someone who has been quietly building something for years and hasn't shown anyone yet.\n\nIn an industry where every studio uses AI to cut timelines and costs, Rockstar spent a decade doing the opposite. The journalists who saw it described something nobody had built before. Rockstar even skipped a physical disc release to buy themselves more time to keep refining right up to launch.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: GTAVI_Countdown, IGN, NY Times, Kinda Funny Games, Troiscouleurs, El Pa\u00eds, Famitsu\n\n#GTA6 #RockstarGames #Gaming #BusinessMindset #GameDevelopment",
+ "pinned_comment": "Rockstar skipped the physical disc release so they could keep refining until the last possible day before launch. They gave up guaranteed sales to protect the quality of what they'd spent ten years building.",
+ "hook_tournament": {
+  "story_type": "money_win",
+  "candidates": [
+   "ROCKSTAR BUILT GTA 6 <em>WITHOUT A SINGLE AI ANIMATION</em>",
+   "<em>600,000 HAND-MADE ANIMATIONS.</em> NO AI. ONE DECADE. ONE GAME.",
+   "ROCKSTAR BUILT <em>600,000 ANIMATIONS BY HAND</em> AND REFUSED AI",
+   "ROCKSTAR SPENT <em>10 YEARS</em> ON GTA 6 AND REFUSED AI",
+   "10 YEARS. ONE GAME. <em>NOT A SINGLE AI ANIMATION.</em>"
+  ],
+  "scores": [
+   5,
+   9,
+   7,
+   5,
+   6
+  ],
+  "winner": 1,
+  "why": "The staccato rhythm hits different\u2014each fragment (600,000, HAND-MADE, ONE DECADE) lands as a separate shock that stops the scroll. [1] punches through the noise; [2]'s natural phrasing lets you glide right past the same number."
+ },
+ "hook_sharpen": {
+  "story_type": "money_win",
+  "candidates": [
+   "<em>600,000 HAND-MADE ANIMATIONS.</em> NO AI. ONE DECADE. ONE GAME.",
+   "ONE GUY. <em>10 YEARS. 600,000 HAND-DRAWN ANIMATIONS.</em> HIS GAME JUST OUTSOLD [VERIFIED AI-MADE COMPARATOR]."
+  ],
+  "scores": [
+   9,
+   6
+  ],
+  "winner": 0,
+  "why": "[0] hits with an immediate 'wait WHAT?' moment\u2014one person, 600k animations, a decade of hand work\u2014that makes me stop scrolling and need to know what game. [1] sounds like a marketing press release ('verified,' placeholder text) and the unnamed AI game comparison doesn't land without knowing who it supposedly outsold."
+ },
+ "handle": "@yaffeai",
+ "container": "inspire",
+ "edu_mode": "inspire",
+ "editor_override": "HOOK VIOLATION (\u00a72): The cover headline is four staccato fragments \u2014 '600,000 HAND-MADE ANIMATIONS. NO AI. ONE DECADE. ONE GAME.' \u2014 not the required ONE complete sentence with a named actor. The actor (Rockstar) is absent; the game ('ONE GAME') is unnamed. Fix: something like 'ROCKSTAR SPENT A DECADE BUILDING GTA 6 BY HAND \u2014 600,000 ANIMATIONS, ZERO AI.' The kicker is a fine complete sentence but "
+}

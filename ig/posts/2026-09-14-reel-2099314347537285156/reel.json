@@ -1,0 +1,17 @@
+{
+ "pick": 9,
+ "title": "A Tesla drove itself along a cliff edge in Slovenia",
+ "title_candidates": [
+  "A Tesla drove itself along a cliff edge in Slovenia",
+  "This is what it looks like when a Tesla drives itself on the edge of a cliff",
+  "Tesla just got road-legal in Slovenia and someone took it straight to a cliff road",
+  "How Tesla's self-driving system reads a road with a sheer drop on one side",
+  "The cliff road in Slovenia that a self-driving Tesla just handled on its own"
+ ],
+ "caption": "Tesla's self-driving car navigated a cliff road in Slovenia with the driver's hands completely off the wheel.\n\nFSD (Supervised) means someone sits in the driver's seat ready to step in, but the car steers, brakes, and reads the road on its own. Slovenia only approved Tesla's full self-driving software last week, making it one of the first countries in Europe to allow it on public roads.\n\nThe drop on one side of that road is hard to look at.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: SawyerMerritt. DM for credit or removal\n\n#Tesla #FSD #SelfDriving #AI #ElectricVehicles",
+ "start_s": 0,
+ "clip_s": 25,
+ "source": "https://video.twimg.com/amplify_video/2099265408453013504/vid/avc1/3840x2160/MRg8eYSkbsVpzw0x.mp4?tag=29",
+ "channel": "SawyerMerritt",
+ "publish": "make"
+}
