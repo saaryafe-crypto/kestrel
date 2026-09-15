@@ -171,11 +171,17 @@ jobs:
           # kills relaxed: the most viral NON-DUPE story ships as a news
           # narrative (Gate B still reviews the finished post).
           if [ "$KIND" = "edu" ]; then
-            # EXECUTIVE LANE (owner order Aug 18): the 13:00 slot alternates
-            # daily — even day-of-year = executive intelligence edition
-            # (framework posts for founders/CEOs), odd = skills save-magnet.
-            # Fallback rungs run in default skills mode (always-post law).
-            if [ $((10#$(date -u +%j) % 2)) -eq 0 ]; then export EDU_MODE=exec; fi
+            # INSPIRE LANE (owner order Sep 14: "also inspiring things. like
+            # twice a week. something inspiring and viral. not just guides"):
+            # Wed + Sun the 13:00 slot ships a true viral story arc from
+            # story-pool.json (radar_x wide story net, 10K+ likes) instead of
+            # a guide. Empty pool = edu.py exits nonzero and the normal rungs
+            # below fill the slot (always-post law — never self-invented).
+            # EXECUTIVE LANE (owner order Aug 18) on the remaining days:
+            # even day-of-year = executive intelligence edition, odd = skills.
+            DOW=$(date -u +%u)
+            if [ "$DOW" = "3" ] || [ "$DOW" = "7" ]; then export EDU_MODE=inspire
+            elif [ $((10#$(date -u +%j) % 2)) -eq 0 ]; then export EDU_MODE=exec; fi
             python edu.py | tee /tmp/write.log || EDU_MODE= python write.py | tee /tmp/write.log || EDU_MODE= STORY_RELAX=1 python write.py | tee /tmp/write.log || EDU_MODE= EDU_FORCE=1 python edu.py | tee /tmp/write.log
           elif [ "$KIND" = "money" ]; then
             STORY_PREF=money python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 python write.py | tee /tmp/write.log || STORY_PREF=money STORY_RELAX=1 STORY_FORCE=1 python write.py | tee /tmp/write.log || EDU_FORCE=1 python edu.py | tee /tmp/write.log

@@ -440,7 +440,13 @@ ART_SCHEMA = {"type": "object", "properties": {"briefs": {
     "required": ["briefs"]}
 
 
-def art_direct(post, story_title=""):
+# Owner correction Sep 14 (the "5 PAID CONSULTANT JOBS" cover, verbatim from
+# his message) — the guide/inspire cover-brief law art_direct(simple=True)
+# swaps in for the news scene lore.
+GUIDE_BRIEF_LAW = """THE GUIDE-LANE LAW — AS SIMPLE AS POSSIBLE (owner correction Sep 14, after "OpenAI logo dispensing five blank consultant documents on a plain desk surface, one in transit" shipped on a guide cover; his words: "why did you say desk?... dont say these things. you couldve just say sam altman face with openai logo... as simple as possible"): this cover promises a format, not a news event — the brief is ONE short plain line: the famous face + the logo, plus at most ONE simple symbolic idea only when the promise needs it. His own examples: "Sam Altman with an OpenAI logo", "Sam Altman with an OpenAI logo and the logo of the biggest consulting company in the world with a red X on it". WHO — tool→face map: ChatGPT→Sam Altman, Claude→Dario Amodei, Gemini→Sundar Pichai, Grok→Elon Musk, Copilot→Satya Nadella, Llama→Mark Zuckerberg. A guide about USING a named tool casts that vendor's famous CEO, and the model the guide's prompts run on counts even when the headline only says "AI prompts"; a story about a famous person's own arc casts that person. Write the FULL NAME in the brief AND return "face" listing the same name(s) — that field routes the brief to the premium model that knows famous faces; without it the name gets stripped and a stranger ships. CAST TRUTH still applies: never a famous face with no connection to the topic, and never a generated stranger — when nobody famous fits, the brief is the famous logo alone or the topic's one real recognizable thing, still one plain line. NEVER write: scenes or settings (a desk, an office, a window, a street), objects doing things ("dispensing", "holding", "writing", "one in transit"), document/paper/screen props, emotions, colors, lighting, camera or composition words. The generator wraps the line as "a realistic picture of ... No text anywhere in the picture" and stages the scene itself; describing the staging is what breaks the picture."""
+
+
+def art_direct(post, story_title="", simple=False):
     """The image prompt generator (owner directive Jul 29: don't only reject
     bad images — engineer prompts that produce great ones, every image costs
     money). One call rewrites the writer's slide image concepts into
@@ -506,7 +512,8 @@ def art_direct(post, story_title=""):
         "unnamed human whose face would be visible. If the scene needs a "
         "human presence, design it people-free or face-free: hands-and-props "
         "close-ups, a figure from behind, a silhouette, or let the story's "
-        "objects and screens carry the drama."
+        "objects and screens carry the drama.")
+    pattern_note = (
         '\nBREAK THE PATTERN (owner rule Aug 2 — "we must break the normal '
         'thoughts when users see the images... not necessarily gangsters, '
         'but change the thinking pattern and make it unique"): the viewer '
@@ -576,15 +583,7 @@ def art_direct(post, story_title=""):
                      "\n".join(f"- {h['name']}: {h.get('why_hot_now', '')} "
                                f"[{h.get('typical_scene', '')}]" for h in hot))
                     if hot else "")
-    prompt = f"""{doctrine()}You are the cover-image director of a viral news Instagram page. You write the final image-generation prompts for the Seedream photo model. The doctrine below is distilled from published research on scroll-stopping feed imagery (thumbnail CTR studies: emotional faces +42%, image-headline synergy up to +154%; MrBeast-school single-focal analysis; 2026 anti-AI-slop guides) — follow it exactly. The image fills the top two-thirds of the frame above the headline and gets ~0.4 seconds at phone size.
-
-STORY: {story_title}
-THE COVER (final headline, the writer's rough concept):
-{json.dumps(items, ensure_ascii=False, indent=1)}
-
-THE JOB: the image DRAMATIZES the exact claim of the cover headline — the peak moment, the consequence, or the stakes — so the image raises the question and the headline answers it. A stranger seeing image + headline together gets the claim in one second. Never the topic in general, never stock wallpaper. This is the ONLY picture of the post (single-picture posts since Sep 14) — there are no inner slides.
-
-THINK CONCEPT FIRST, PROMPT SECOND (owner doctrine Aug 9 — COVER ONLY): before writing the cover brief, name the story's emotional core in your head — who wins, who dies, who is humiliated, what era just ended — then stage that meaning as ONE scene a stranger decodes in one second without reading a word. The strongest lane wins (vary the lane across posts):
+    lore1 = f"""THINK CONCEPT FIRST, PROMPT SECOND (owner doctrine Aug 9 — COVER ONLY): before writing the cover brief, name the story's emotional core in your head — who wins, who dies, who is humiliated, what era just ended — then stage that meaning as ONE scene a stranger decodes in one second without reading a word. The strongest lane wins (vary the lane across posts):
 - SYMBOLIC SCENE: the story's meaning acted out as one theatrical, photographically REAL moment. A product replaced → its FUNERAL (owner's gold standard: Anthropic's CEO comforting a sobbing Bill Gates at PowerPoint's funeral, the PowerPoint logo framed on the coffin); a company beaten → the knockout over the ropes; an old era over → its retirement party. Staged, but shot as a documentary press photo — never illustration, never surrealism for its own sake.
 - CULTURE CAST (the Zendaya move — owner reference: Zendaya cast studying for a Gemini-exam story BECAUSE The Odyssey was viral that week): cast someone from the hot list below performing the story's action. Only when the fit is instant and natural — never force a celebrity into a story that isn't theirs. SECOND LEGAL SOURCE, THE DOMAIN ICON (the Wolf of Wall Street move — owner reference Aug 12: a stocks guide covered with DiCaprio's Jordan Belfort mid-pitch on the trading floor, because stocks→Wall Street→The Wolf of Wall Street is the chain everyone's brain runs by itself): when the story's DOMAIN has ONE timeless movie/culture icon that IS its symbol in a 20-year-old's head, cast that iconic character in their signature scene, living THIS story. The test is INTUITION SPEED — say the topic and the icon must appear unprompted (stocks→Wolf of Wall Street, heists→Ocean's Eleven, genius outsider→The Social Network dorm). If the link needs explaining, it fails. A domain icon needs no current-week heat: being the domain's permanent symbol IS the fit. HARD LIMIT (owner, Aug 12): the domain icon is for TOPIC/DOMAIN posts (guides, roundups, trend pieces) with no real protagonist. A NEWS story about a named real person or company casts ITS OWN actors under cast truth — never a movie character over their story (a Leopold Aschenbrenner / Situational Awareness fund story shows Leopold or his fund's world, NEVER the Wolf of Wall Street just because funds smell like Wall Street).{culture_note}
 - LOGO AS HERO (fame-bar fallback, owner Aug 9): when the story's company is world-famous but NO person clears the famous-face bar, the famous LOGO itself becomes the staged scene's HERO, cast in the story's role — GitHub repos printing money → the golden Octocat on a throne of hundred-dollar stacks. Return "logo" so the real mark rides as reference; every human in that scene is faceless or absent.
@@ -616,10 +615,8 @@ CLASH-CAST (owner's gold standard, Aug 1): when the story is a clash or a deal b
 
 THE SITUATION PORTRAIT (owner order Aug 3 — his exact formula, written after the $750B failure shipped a bare press-photo crop of Musk with two identical black logo discs on an empty blurred background; his verdict: "a picture of the SITUATION!!!!"): when the cover story is one famous person winning or losing something big, write the cover brief the way the owner writes it: "Elon Musk with a devastated look like he just lost $750 billion, red crashing stock charts covering the wall of screens behind him". Two halves, both mandatory: the FACE carries the story's emotion (devastated for a loss, triumphant for a win, 40%+ of frame), and the BACKGROUND makes the situation itself visible — crashing red charts for a wipeout, raining cash for a windfall, a cheering crowd for a victory. LOUD AND COLORFUL (owner Aug 3, after the $750B cover shipped its charts as near-black murk: "we need to make the background a lot more colorful... more dramatic"): write the background as BRIGHT, saturated and glowing — "a floor-to-ceiling wall of glowing screens ablaze with crashing red stock charts", not "dark screens behind him" — it fills every pixel behind the person with vivid story imagery. THE THUMB TEST (owner Aug 3: "if viewers watch it once they should be able to guess what it's about"): cover the person with your thumb — the background alone must still say what THIS story is about (a yacht story gets the marina of superyachts, a lawsuit the courtroom, a wipeout the wall of red charts); a background that could belong to any other story is the wrong background. A neutral portrait, an empty background, a blurred nothing, or a dim barely-there backdrop is a FAILED cover, no matter how good the likeness is. Nothing is stamped on afterward (owner order Sep 6): if the story's brand belongs in frame, write its mark INTO the scene as one glossy physical object (a glowing sign on the wall of screens, a badge behind the shoulder) — the scene alone tells the whole story.
 
-{face_note}
-{logo_note}
-
-THE CLAIM BEATS THE TEMPLATE (owner's verdict Aug 1, the courtroom cover): PRODUCT-HERO stages a presentation — but when the winning cover headline claims an EVENT (sued, banned, fired, crashed, copied, leaked, banned), the cover stages THAT EVENT as a literal scene instead, with the named famous person inside it and the product as a prop. Reference: "OPENAI COPIED THE COMPANY SUING THEM" → Sam Altman in a dark suit at the defendant's table of a US courtroom, tense, the white keypad and its white box on the table before him, the OpenAI logo on the courtroom evidence screen behind, American flag at the edge. Think like the viewer: the picture must make them say "that is exactly what the headline says" — person, event-world, product and brand all connected in one intuitive frame.
+"""
+    lore2 = """THE CLAIM BEATS THE TEMPLATE (owner's verdict Aug 1, the courtroom cover): PRODUCT-HERO stages a presentation — but when the winning cover headline claims an EVENT (sued, banned, fired, crashed, copied, leaked, banned), the cover stages THAT EVENT as a literal scene instead, with the named famous person inside it and the product as a prop. Reference: "OPENAI COPIED THE COMPANY SUING THEM" → Sam Altman in a dark suit at the defendant's table of a US courtroom, tense, the white keypad and its white box on the table before him, the OpenAI logo on the courtroom evidence screen behind, American flag at the edge. Think like the viewer: the picture must make them say "that is exactly what the headline says" — person, event-world, product and brand all connected in one intuitive frame.
 
 COVER OUTPUT — THE OWNER'S PLAIN LINE (owner order Sep 14, the Mamdani and Altman-Dario head-to-heads: the owner typed "mamdani banning 600,000 students from using AI (use chatgpt logo), no text" and "Sam Altman and Dario agree to slow down ai with claude and chatgpt logo no text" and beat our staged-scene briefs cold BOTH times; his verdict on ours: "you give him 95% of unnecessary bullshit... never assume and tell ai anything. nano banana knows great how to create the pictures... when it simple it is easy"): the cover brief is ONE plain line of 8-25 words that states the NEWS itself, the way you'd tell a friend. SUPER CONDENSED (owner Sep 14: "something super condensed and summarized without hurting quality") — summarize the story down to its shortest complete statement; if a word can be cut without losing the news, cut it. The generator prefixes it with "a realistic picture of": the owner's canonical example (his verbatim perfect prompt, Sep 14 pm — the picture came out exactly right) is "Donald Trump is mad screaming showing all AI CEOs afraid and listening to him, with relevant AI logos". Include the story's real place when it is part of the news ("in nyc"). It carries exactly three things:
 1. WHO/WHAT: the story's actor(s) by full name — every cast rule above still decides WHO. Groups the news itself names may stay generic ("all AI CEOs").
@@ -629,7 +626,32 @@ NOTHING ELSE (owner ban Sep 14, re-confirmed same day showing our old bloated pr
 WHO FILLS THE FRAME when the cast is not obvious (casting only — these pick the WHO/WHAT words of the plain line, they never add scene description): policy/ban → the official doing the banning; company/product news → the famous CEO and the real product (vendor cast; set "ref" so the real photo rides); human turning point → the person themself; comparison/benchmark → the two things themselves; no famous actor anywhere → the VICTIM side's known face or company first (owner Sep 8, the $320M heist), else the story's real place.
 Still return "face" and "logo" fields on the cover exactly as the rules below describe — the real photo and real mark ride to the generator as references. FAMOUS FACES ONLY (owner rule Aug 1: generated unfamiliar faces = low conversion, no good outcome): if the story's person is not famous enough for a viewer to recognize, NEVER put a generated face in the picture — the plain line casts the famous side, the logo, or the story's real place instead.
 
-CRAFT (casting truth only — never written into the plain line itself):
+"""
+    if simple:
+        # GUIDE-LANE SIMPLE MODE (owner correction Sep 14, the consultant-
+        # jobs cover: art_direct rewrote edu's plain brief into "OpenAI
+        # logo dispensing five blank consultant documents on a plain desk
+        # surface, one in transit"; owner: "why did you say desk?... you
+        # couldve just say sam altman face with openai logo... as simple
+        # as possible"). edu/inspire covers promise a format, not a news
+        # event — the news scene lore actively harms guide covers, so it
+        # is swapped for the owner's face+logo law. The news-mode prompt
+        # stays byte-identical to before this flag existed.
+        lore1 = GUIDE_BRIEF_LAW + "\n\n"
+        pattern_note = ""
+        lore2 = ""
+    prompt = f"""{doctrine()}You are the cover-image director of a viral news Instagram page. You write the final image-generation prompts for the Seedream photo model. The doctrine below is distilled from published research on scroll-stopping feed imagery (thumbnail CTR studies: emotional faces +42%, image-headline synergy up to +154%; MrBeast-school single-focal analysis; 2026 anti-AI-slop guides) — follow it exactly. The image fills the top two-thirds of the frame above the headline and gets ~0.4 seconds at phone size.
+
+STORY: {story_title}
+THE COVER (final headline, the writer's rough concept):
+{json.dumps(items, ensure_ascii=False, indent=1)}
+
+THE JOB: the image DRAMATIZES the exact claim of the cover headline — the peak moment, the consequence, or the stakes — so the image raises the question and the headline answers it. A stranger seeing image + headline together gets the claim in one second. Never the topic in general, never stock wallpaper. This is the ONLY picture of the post (single-picture posts since Sep 14) — there are no inner slides.
+
+{lore1}{face_note}{pattern_note}
+{logo_note}
+
+{lore2}CRAFT (casting truth only — never written into the plain line itself):
 - Real press photograph, never digital art — the generator's own wrapper ("a realistic picture of ... No text anywhere") carries this; NEVER add realism or camera words to the plain line yourself.
 - PHYSICAL WORLD LAW (owner order Sep 3 — two shipped covers broke it in one day: a "colossal 3D game world floating mid-air" behind Sundar Pichai rendered the whole frame as a cartoon, and a "cinematic game still" armored warrior shipped as pure illustration; his verdict: "the baddest quality ever... doesn't look even realistic"): EVERY square inch of the frame is the real, physical, photographable world — a real room, street, stage, classroom, funeral home, office. Anything DIGITAL in the story (a game, an app, a video, a website, an AI output) may appear ONLY on the real screen of a real device inside the scene, or as a real physical prop (a printed poster, a figurine on the desk) — never floating in the air, never "conjured", never filling the background, never AS the scene. BANNED words in any brief: "game still", "game world", "render", "rendered", "illustration", "concept art", "anime", "fantasy", "3D world", "floats mid-air". The owner's 8 reference covers are the spec: a funeral, a classroom, a helicopter, a trading floor — real places, real props, real light, and the wit lives in WHAT the famous person is doing there, not in impossible physics. If the story is about a digital thing, a real famous person REACTS to it on a real screen — the human action carries the story.
 - ZERO readable words anywhere in frame (measured on our own runs: the model garbles every rendered sentence — 5 of 6 images died to this one flaw; owner order Sep 10, absolute: "don't add words to the picture — only logos". The old 1-3-word cover-prop exception is DEAD). Screens, signs and papers speak in SYMBOLS ONLY, named concretely: "a giant red $ symbol", "a warning triangle", "a crashing red chart line".

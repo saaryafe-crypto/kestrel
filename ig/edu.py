@@ -55,6 +55,13 @@ SCHEMA = {
 }
 
 
+# Shared by the guide/exec prompt AND the inspire prompt (Sep 14):
+# the plain-line face+logo cover doctrine.
+COVER_IMAGE_RULE = """COVER IMAGE (mandatory): the cover MUST set "image_brief" — an empty dark cover is dead in the feed; the image sells the promise before anyone reads. AS SIMPLE AS POSSIBLE (owner correction Sep 14, after "OpenAI logo dispensing five blank consultant documents on a plain desk surface, one in transit" shipped; his words: "why did you say desk?... dont say these things. you couldve just say sam altman face with openai logo... as simple as possible"): the brief is ONE short plain line — the famous face + the logo, plus at most ONE simple symbolic idea only when the promise needs it. His own examples: "Sam Altman with an OpenAI logo", "Sam Altman with an OpenAI logo and the logo of the biggest consulting company in the world with a red X on it". The generator itself wraps the line as "a realistic picture of ... No text anywhere in the picture" — write NOTHING beyond who and which logos: no scenes or settings (desk, office, window, street), no objects doing things (dispensing, holding, writing, "one in transit"), no document/paper/screen props, no colors, lighting, camera or composition words. The model stages the picture itself; describing the staging is what breaks it.
+WHO: tool→face: ChatGPT→Sam Altman, Claude→Dario Amodei, Gemini→Sundar Pichai, Grok→Elon Musk, Copilot→Satya Nadella, Llama→Mark Zuckerberg. A guide about USING a named tool casts that vendor's famous CEO; the model your prompts run on counts even when the headline only says "AI prompts". When the story is a famous person's own arc, that person IS the face. Write the FULL NAME in the brief AND return "face" listing the same names (routes to a premium model that knows famous faces; up to 3 names). FAMOUS FACES ONLY (owner rule Aug 1, generated strangers = low conversion): if nobody famous fits, NEVER a generated or generic face — the brief is the famous logo alone or the topic's one real recognizable thing, still one plain line.
+NEVER make a document, bill, letter, or chat screen the subject — generators fill them with garbled fake text and QA rejects the image. No readable words anywhere; logos only."""
+
+
 def viral_guides(used_topics):
     """Owner order Aug 4 ("find the viral guides on twitter as well, it is
     much better and more viral") + Aug 8 token diet: the ONLY topic source is
@@ -79,6 +86,78 @@ def viral_guides(used_topics):
     out = [m for m in cands if f"x:{m['id']}" not in used_blob]
     out.sort(key=lambda m: -m.get("score", 0))
     return out[:3]
+
+
+def inspire_pool(used_topics):
+    """INSPIRE LANE source (owner order Sep 14: "also inspiring things. like
+    twice a week. something inspiring and viral. not just guides" + "just
+    take viral things and specifically news from twitter. thats it."): the
+    ONLY topic source is story-pool.json — radar_x's high-floor wide story
+    net (10,000+ likes, founder/comeback/underdog arc queries, owner-lens
+    gated). Same [x:ID] dedupe as the guide pool. Fails CLOSED on purpose:
+    an empty pool exits nonzero in main() and the workflow ladder falls to
+    the normal guide rung — an inspire slot never self-invents."""
+    used_blob = " ".join(used_topics)
+    try:
+        cands = json.load(open(os.path.join(HERE, "story-pool.json")))["stories"]
+    except Exception as e:
+        print(f"no story-pool.json ({e})", file=sys.stderr)
+        return []
+    out = [m for m in cands if f"x:{m['id']}" not in used_blob]
+    out.sort(key=lambda m: -m.get("score", 0))
+    return out[:8]
+
+
+def build_prompt_inspire(used_topics, cands):
+    """The inspire edition's own prompt — a true viral story arc, not a
+    guide: no pillar topics, no N-promise cover, no numbered caption."""
+    spec = json.load(open(os.path.join(HERE, "containers.json")))
+    used = "\n".join(f"- {t}" for t in used_topics) or "(none yet)"
+    listed = []
+    for g in cands:
+        body = g.get("selftext") or g.get("title", "")
+        listed.append(f"[x:{g['id']}] by {g['sub']} — {g.get('score', 0):,} "
+                      f"{g.get('unit', 'likes')} on X "
+                      f"({g.get('views', 0):,} views):\n{body}")
+    return f"""{doctrine()}You write single-picture Instagram posts for @yaffeai — an AI-news page in the style of @technology, funneling followers to an AI-consulting business. There are no inner slides — the cover stops the scroll, the caption under the post delivers everything. Today's post is the **inspire** container (owner order Sep 14, twice a week): ONE true, already-viral inspiring story — a real person or company that rose IN TECH OR BUSINESS. Not a guide, not news analysis. The reader should finish it thinking "if he could, I can."
+
+CONTAINER SPEC (inspire): {json.dumps(spec['containers']['inspire'])}
+CAPTION BLOCKS: {json.dumps(spec['caption_blocks'])}
+QA GATE: {json.dumps(spec['qa_gate'])}
+
+VIRAL STORIES ON X RIGHT NOW (owner GROUND RULE Aug 12: everything this page posts rides an ALREADY-VIRAL X wave — every candidate below crossed 10,000 likes this week; we never invent a topic and test virality ourselves):
+{chr(10).join(f"---{chr(10)}{c}" for c in listed)}
+---
+PICK ONE — the MOST VIRAL candidate that is a genuinely INSPIRING true arc: a real person or company rising — comeback, underdog, rejected-then-won, started-with-nothing, bet-everything-and-won, kept-going-when-everyone-laughed. THIS PAGE'S LANE ONLY (owner correction Sep 14, after an off-topic Robin Williams school-letter story shipped — "it has nothing to do with ai/tech"): the arc's center must be tech, AI, business, investing, space, or someone BUILDING something — a founder, a company, a builder. A celebrity kindness story, a sports moment, a movie/history anecdote is inspiring but NOT this page — skip it. SKIP a candidate (take the next) if it is: off this page's lane, a meme or joke, politics, doom/fear with no rise in it, a bare fact with no person or company at its center, or the same underlying story as anything in ALREADY USED. Append the [x:ID] tag of the story you used to your "topic" label — a topic without a real listed tag is a failed attempt and gets re-rolled.
+TRUTH RULE (absolute): the viral tweet is the WAVE, not the source of record — tell only the parts of the arc that are widely reported and true. NEVER invent dialogue, numbers, dates, or details. If you cannot stand behind the tweet's core claim, skip to the next candidate.
+
+ALREADY USED — never repeat or closely overlap:
+{used}
+
+{principles()}
+
+OUTPUT — a single JSON object: {{"topic": "...", "slides": [...], "caption": "...", "pinned_comment": "..."}}
+"pinned_comment": the first comment we plant the second the post publishes. For this container: the arc's sharpest one-line lesson or the wildest detail that didn't fit — never a sermon, never "believe in yourself". 1-2 sentences, no hashtags, no links.
+"topic": a 5-10 word label of the story (goes in the dedupe log) + the [x:ID] tag.
+Also "hook_candidates": FIVE cover headlines, each with <em> accents. ALL FIVE keep the viral tweet's own angle and its numbers (owner rule Aug 8 — the tweet's angle is the viral asset, never trade it for a "better" one); they compete on Instagram FIT — wording, rhythm, which number leads, what the <em> accent lands on — not on new angles. Put your best on the cover slide AND among the five; a blind judge picks the winner.
+The post = ONE cover slide + the caption (owner order Sep 14: single-picture posts — no inner slides exist, do not write any):
+1. type "cover": the arc's most unbelievable TRUE beat as the hook — the person + the wildest number, stated plainly ("HE SOLD HIS LAST COMPANY FOR $300M AND SLEPT IN THE FACTORY"). HARD CAP 10 words, aim 5-8. Famous name in the FIRST 6 words when the person is famous; a relatable noun ("A 52-YEAR-OLD", "A FIRED ENGINEER") when not. Everyday words a 12-year-old gets. NEVER give away the ending — the cover sells the low point or the insane bet, the caption pays off the rise. The kicker (3-7 words) may tease the payoff era or scale ("HE NOW OWNS HALF OF HOLLYWOOD'S AI"); omit it if there is no true second beat. hsize 66-80 — the type must be HUGE, 3-5 edge-to-edge lines.
+{COVER_IMAGE_RULE}
+THE CAPTION IS THE STORY (owner order Sep 14, single-picture posts — the caption delivers the whole arc):
+   - The full arc in plain words: where they started (the low point, with its real numbers), the turn (the decision, the bet, the rejection they ignored), the payoff (today's giant number). 3-5 SHORT paragraphs, blank line between each, short-short-long rhythm.
+   - Every number, name, and date from the real story survives exactly. The payoff paragraph must cash whatever the cover promised.
+   - NO platform attribution (owner rule Jul 28: no "a viral thread says", "one X user posted" — tell it straight; the platform belongs only in the Sources line). NO numbered listicle. PLAIN TEXT — no <em>, no <b>, no markup of any kind.
+   - THE CLOSE: end the story block with ONE line that lands the feeling and hands it to the reader ("He was 52 and broke. Send this to someone starting late.") — a send/save action, never a motivational-poster sermon.
+
+RULES
+- LANGUAGE (hard requirement): a smart 12-year-old must get every line instantly (owner Sep 9). Say what things DO, never what they're called.
+- THE FRIEND TEST (owner order Sep 10): every line said out loud to a friend at the table — any phrase you would never say out loud gets rewritten from what the friend would picture.
+- <em>...</em> in the cover headline = the accent: ONE contiguous phrase, ideally a whole line (two groups max). The caption is plain text — no markup there.
+- No emojis on the cover. Zero hype adjectives (insane/crazy/mind-blowing) — the facts carry it.
+- Caption: all five blocks in order, blank-line separated. First sentence = the arc's payoff in plain searchable words (only ~125 chars show). Sources line: the tweet author's X account name exactly as given in the 'by ...' line, minus any @, plus any outlet the story is from. Exactly five hashtags. CTA utility-only, never reaction-bait.
+- Caption owner-CTA (mandatory): LAST line of the trend block, own line — business owners DM the word exactly "AI" ("Running a business? DM us "AI" and we'll show you what this could do for yours" — vary wording per post).
+
+Return ONLY the JSON object, no markdown fences, no commentary."""
 
 
 def real_tag(topic, guides):
@@ -211,7 +290,7 @@ OUTPUT — a single JSON object: {{"topic": "...", "slides": [...], "caption": "
 The post = ONE cover slide + the caption (owner order Sep 14: single-picture posts — no inner slides exist, do not write any):
 Also "hook_candidates": FIVE cover headlines, each with <em> accents. {'When you used a viral guide above: ALL FIVE keep that guide\'s own hook angle and promise (owner rule Aug 8 — the tweet\'s angle is the viral asset, never trade it for a "better" one); they compete on Instagram FIT — wording, rhythm, which number leads, what the <em> accent lands on — not on new angles.' if guides else 'FIVE genuinely different angles — money saved, jobs replaced, scarcity subject, threat framing — not rewordings.'} Put your best on the cover slide AND among the five; a blind judge picks the winner.
 1. type "cover": the N-promise hook per the container spec — a NUMBER in the headline, scarcity subject when true, everyday words only ("a tool where you type plain English and it writes the whole app" — never "CLI", "agentic", "repo"). HARD CAP 10 words, aim 5-8 (owner doctrine Jul 29: the cover sells curiosity, short = giant letters; the renderer caps total block height so long covers just shrink). The N-promise IS the information gap — promise the N things, never list any of them on the cover ("if someone can understand the whole story from the cover, you failed"). But specific: if the cover could describe 100 different posts, it also failed — anchor to ONE concrete tool/outcome. The reader must think "What are they?" / "How?" — the moment that question disappears, rewrite. THE KICKER (forensic Aug 2 — the reference pages put a second hook beat in the tiny strip under the headline: "NONE OF THESE NEED A NEW ROUTER", "HERE ARE 10 WILD EXAMPLES"): the cover MAY set "kicker": 3-7 words, the enemy-contrast or bonus promise NOT already in the headline; omit it if there is no true second beat (the strip then says "Full story in the caption"). No other subline exists — the whole hook lives in the big words (put the franchise "AI CHEAT CODES VOL. {vol}" tag in the caption's first block instead, it is still the series people subscribe to). hsize 66-80 — the type must be HUGE, 3-5 edge-to-edge lines. Cover self-test: would a stranger scrolling at 2am save this for later? Below 8/10 shock+utility → rewrite.
-COVER IMAGE (mandatory): the cover MUST set "image_brief" — an empty dark cover is dead in the feed; the image sells the promise before anyone reads. FAMOUS-PERSON FIRST (owner rule Aug 2, "this should be a rule"; CAST TRUTH limit Aug 10 after the Sam Altman content-vendor cover): ONLY when the topic IS a famous company's or famous person's own thing — their product, their tool, their courses, their move — the cover subject IS that recognizable person CAST IN THE PROMISE'S ROLE. "The topic is AI" is NOT a tie for a story naming NO tool — but THE VENDOR CAST (owner's reference wall Aug 12, the page's signature move and the DEFAULT for every prompts/guide cover): a guide about USING a named famous tool IS that vendor's story, so cast the vendor's famous CEO as the tool's own delighted USER — mid-performing the READER's exact action with the guide's real prop at one peak emotion (Dario Amodei proudly holding HIS OWN resume for an "upload your resume to Claude" guide; Dario in a Hawaiian shirt grinning over a discount-stamped boarding pass for a cheap-flights guide; Sundar Pichai leaning from a helicopter showering Gemini sparks onto reaching hands for "Gemini Pro free for students"). Tool→face: ChatGPT→Sam Altman, Claude→Dario Amodei, Gemini→Sundar Pichai, Grok→Elon Musk, Copilot→Satya Nadella, Llama→Mark Zuckerberg; the model your prompts run on counts even when the headline only says "AI prompts" — write the FULL NAME in the brief AND in "face". The PROP IS THE PROMISE (the resume, the bill, the boarding pass) held large; the CEO's hands DO the promise's verb. Only a topic naming NO tool at all goes faceless — and then just as BIG: the logo/mascot ACTING the promise at theatrical scale, the payoff object at impossible scale mid-action, never a calm product shot. ICONIC-MOMENT EXCEPTION (owner Aug 10): on an inspirational/entrepreneurial promise, a famous founder's KNOWN iconic real moment that EMBODIES the title is legal (young Zuckerberg coding in his dorm for a build-from-nothing promise) — the stranger must instantly read why THIS person in THIS scene proves THIS title, mid-performance with the role's real props — write their FULL NAME in the brief (up to 3 people) AND return "face" listing the same names (the brief then routes to a premium model that knows famous faces natively). BREAK THE PATTERN (owner Aug 2: "we must break the normal thoughts when users see the images... not necessarily gangsters, but change the thinking pattern and make it unique"): the scene must be one the viewer has NEVER seen that person in, still literally connected to the promise — Google tricks → Sundar Pichai as a street-market vendor handing out tricks like fruit. Any never-seen staging works (a workshop, a heist, a kitchen, a street market) as long as the props ARE the promise; vary it post to post, never repeat one costume gimmick. A boardroom, desk or stage keynote is a FAILURE — the viewer scrolls past what they have seen before. A recognizable face in an impossible scene stands out harder than any object. Only when NO famous person fits the topic, fall back to objects: for N-thing posts the reference look is a CUT-OUT COLLAGE: 2-3 distinct large subjects layered and overlapping with depth (like three fighter jets stacked for "9 MOST EXPENSIVE AIRCRAFT"), filling the whole upper frame, mid-tone so white type pops against it. For a single-promise cover: one evidence subject large in frame (a fanned stack of hundred dollar bills, a stethoscope on a dark table). 15-40 words, subject FIRST, then action, then setting; NAME real devices/brands; end with ONE color key ("keyed to azure blue"). NEVER make a document, bill, letter, or chat screen the subject — Seedream fills them with garbled fake text and QA rejects the image; pick text-free objects (cash, devices, tools, faces). No text in the image except at most one short double-quoted phrase on a device screen when that phrase IS the claim.
+{COVER_IMAGE_RULE}
 THE CAPTION IS THE GUIDE (owner order Sep 14, single-picture posts — the caption's story block now delivers everything the inner slides used to):
    - Every one of the N promised items, NUMBERED "1) ..." in the guide's own order — the cover promised N things, the caption cashes all N.
    - Each item: an imperative-verb name for the skill, then a concrete proof line — a real dollar amount, hour count, or before/after a person actually got ("He pasted a $1,200 hospital bill into Claude. It dropped to $180") — never a generic "most people don't know" opener, and NEVER platform attribution (owner rule Jul 28: no "One Reddit user...", "a Twitter thread says" — "people want purely the story"; tell it directly with "a guy / he / a 60-year-old", the platform belongs only in the Sources line).
@@ -244,7 +323,7 @@ def main():
     # 13:00 slot; a 2nd+ means the news ladder collapsed again. Count BEFORE
     # this run creates its own dir; the flag rides post.json so the daily
     # report names every overflow day.
-    listicle_overflow = bool(
+    listicle_overflow = mode != "inspire" and bool(
         glob.glob(os.path.join(HERE, "posts", f"{date.today()}-edu-*")))
     if listicle_overflow:
         print("WARNING: LISTICLE OVERFLOW — an edu post already exists today; "
@@ -257,30 +336,49 @@ def main():
         headlines = "\n".join(f"- {s['title']}" for s in stories[:10])
     except Exception:
         pass
-    guides = viral_guides(used)
-    # pool empty + live viral stories -> anchoring on one is mandatory
-    # (Aug 15: self-inventing is the LAST rung, not the first fallback).
-    # Exec mode: anchoring is ALWAYS mandatory when stories exist — the
-    # guide pool is mostly beginner material, so its mere presence must
-    # not let an exec edition self-invent (owner Aug 18: real recent X
-    # data, never invented content).
-    must_anchor = bool(headlines) and (not guides or mode == "exec")
-    if guides:
-        print(f"viral X guides on the radar: "
-              + ", ".join(f"@{g['sub']} ({g.get('score', 0):,} likes)"
+    if mode == "inspire":
+        # INSPIRE EDITION (owner order Sep 14, 2x/week): the only source is
+        # the viral X story-arc pool — no pillars, no news anchoring, and an
+        # empty pool FAILS CLOSED so the workflow ladder fills the slot with
+        # a normal guide instead (an inspire post is never self-invented).
+        guides = inspire_pool(used)
+        if not guides:
+            raise SystemExit("inspire: story-pool.json has no unused viral "
+                             "stories — exiting so the guide ladder fills "
+                             "the slot (check radar_x wide story net)")
+        must_anchor = False
+        print("viral X story arcs in the pool: "
+              + ", ".join(f"@{g['sub']} ({g.get('score', 0):,})"
                           for g in guides), file=sys.stderr)
     else:
-        # owner Aug 10: an empty pool forcing a self-invented topic is
-        # UNACCEPTABLE — the wide guide net (radar_x) should keep guides.json
-        # deep. Ship the slot (always-post law) but scream so the daily
-        # report names it and the pool starvation gets fixed at the source.
-        print("WARNING: guide pool EMPTY — "
-              + ("writer must anchor on a viral news story"
-                 if must_anchor else "writer will self-invent a topic "
-                 "(owner: unacceptable; check radar wide guide net / "
-                 "guides.json)"),
-              file=sys.stderr)
-    prompt = build_prompt(used, headlines, guides, must_anchor, mode)
+        guides = viral_guides(used)
+        # pool empty + live viral stories -> anchoring on one is mandatory
+        # (Aug 15: self-inventing is the LAST rung, not the first fallback).
+        # Exec mode: anchoring is ALWAYS mandatory when stories exist — the
+        # guide pool is mostly beginner material, so its mere presence must
+        # not let an exec edition self-invent (owner Aug 18: real recent X
+        # data, never invented content).
+        must_anchor = bool(headlines) and (not guides or mode == "exec")
+        if guides:
+            print(f"viral X guides on the radar: "
+                  + ", ".join(f"@{g['sub']} ({g.get('score', 0):,} likes)"
+                              for g in guides), file=sys.stderr)
+        else:
+            # owner Aug 10: an empty pool forcing a self-invented topic is
+            # UNACCEPTABLE — the wide guide net (radar_x) should keep
+            # guides.json deep. Ship the slot (always-post law) but scream so
+            # the daily report names it and the starvation gets fixed.
+            print("WARNING: guide pool EMPTY — "
+                  + ("writer must anchor on a viral news story"
+                     if must_anchor else "writer will self-invent a topic "
+                     "(owner: unacceptable; check radar wide guide net / "
+                     "guides.json)"),
+                  file=sys.stderr)
+
+    def mkprompt():
+        return (build_prompt_inspire(used, guides) if mode == "inspire"
+                else build_prompt(used, headlines, guides, must_anchor, mode))
+    prompt = mkprompt()
     # 2 rolls, not 3 (token diet Aug 8): the workflow ladder re-runs edu.py
     # fresh as its last rung anyway, so a third in-process roll is redundant.
     def edu_qa(p):  # shared qa + this container's own gate, one verdict
@@ -288,17 +386,32 @@ def main():
         # single-picture posts (Sep 14): the caption carries the guide, so
         # the old per-slide-body gates now read the caption instead
         cap = p.get("caption") or ""
-        if re.search(r"(?i)\bhow to:|\bstep \d|\b(open|go to) (chatgpt|claude"
-                     r"|chat\.com|claude\.ai)", cap):
-            e.append("caption: app-navigation steps are banned — give the "
-                     "self-contained prompt itself, in quotes")
-        if not re.search(r"\b1[\)\.]", cap):
-            e.append("caption has no numbered items — the caption IS the "
-                     "guide: deliver every promised item as \"1) ...\" with "
-                     "its prompt in quotes")
-        if not re.search(r"(?i)\bsave\b", cap):
-            e.append('caption is missing the save close — end the story '
-                     'block with "SAVE THIS: ..." mirroring the cover promise')
+        if mode == "inspire":
+            # story-arc gates (Sep 14): the guide gates below don't apply —
+            # an inspire caption is a narrative, not a numbered list
+            if not real_tag(p.get("topic"), guides):
+                e.append("topic has no real [x:ID] tag — anchoring on one of "
+                         "the LISTED viral stories is mandatory (skipping "
+                         "memes/politics is right, self-inventing is not): "
+                         "pick a listed candidate and append its exact tag")
+            if re.search(r"(?i)a (viral )?(thread|tweet|post) "
+                         r"(says|claims|went viral)|one x user", cap):
+                e.append("caption: platform attribution is banned — tell the "
+                         "story straight (the platform belongs only in the "
+                         "Sources line)")
+        else:
+            if re.search(r"(?i)\bhow to:|\bstep \d|\b(open|go to) (chatgpt|"
+                         r"claude|chat\.com|claude\.ai)", cap):
+                e.append("caption: app-navigation steps are banned — give "
+                         "the self-contained prompt itself, in quotes")
+            if not re.search(r"\b1[\)\.]", cap):
+                e.append("caption has no numbered items — the caption IS the "
+                         "guide: deliver every promised item as \"1) ...\" "
+                         "with its prompt in quotes")
+            if not re.search(r"(?i)\bsave\b", cap):
+                e.append('caption is missing the save close — end the story '
+                         'block with "SAVE THIS: ..." mirroring the cover '
+                         'promise')
         # COVER HARD CAP made mechanical (Aug 19 post-mortem: two 19-20 word
         # covers shipped despite the prompt's "HARD CAP 10 words" — prompt
         # rules without a gate are suggestions). The cover sells curiosity;
@@ -360,7 +473,9 @@ def main():
         # exec mode is exempt (owner Aug 18): a beginner prompt-guide must
         # never be forced on the executive edition — its prompt block already
         # mandates riding the most business-consequential viral item instead
-        if (attempt == 0 and guides and mode != "exec"
+        # (inspire is exempt too — its tag gate lives inside edu_qa and fires
+        # EVERY attempt, and it may legally skip guides[0] as a meme/politics)
+        if (attempt == 0 and guides and mode not in ("exec", "inspire")
                 and not real_tag(post.get("topic"), guides)):
             g = guides[0]
             errs.append(f"you IGNORED the viral guide pool — using a listed "
@@ -393,7 +508,10 @@ def main():
                 used.append(f"(dupe suppressed) {post['topic']}")
                 json.dump(used, open(USED, "w"), indent=1)
                 if real_tag(post.get("topic"), guides):
-                    guides = viral_guides(used)
+                    # refresh from THIS mode's pool (a viral_guides call here
+                    # would swap inspire's story candidates for guide ones)
+                    guides = (inspire_pool(used) if mode == "inspire"
+                              else viral_guides(used))
                 errs.append(
                     f"DUPLICATE POST: '{plain_topic}' is the same underlying "
                     "story/guide as one ALREADY PUBLISHED on the page — that "
@@ -404,8 +522,9 @@ def main():
                       "one — re-rolling", file=sys.stderr)
         if not errs:
             break
-        must_anchor = must_anchor or (not guides and bool(headlines))
-        prompt = (build_prompt(used, headlines, guides, must_anchor, mode)
+        if mode != "inspire":  # inspire never anchors on news headlines
+            must_anchor = must_anchor or (not guides and bool(headlines))
+        prompt = (mkprompt()
                   + "\n\nYOUR PREVIOUS ATTEMPT FAILED THESE QA CHECKS — fix every one:\n- "
                   + "\n- ".join(errs))
     else:
@@ -427,19 +546,28 @@ def main():
         return len(re.sub(r"<[^>]+>", " ", head or "").split())
     post["hook_candidates"] = [
         c for c in post.get("hook_candidates", []) if _cwords(c) <= 12]
-    post = viral.tournament(post, None, {  # value posts: fixed classification
-        "story_type": "edu_value", "actor": "", "actor_known": True,
-        "anchor": "", "specifics": []})
+    post = viral.tournament(post, None, {
+        # inspire = a person+result+how arc -> money_win hook formula;
+        # guide/exec value posts keep the fixed edu_value classification
+        "story_type": "money_win" if mode == "inspire" else "edu_value",
+        "actor": "", "actor_known": True, "anchor": "", "specifics": []})
     topic = post.pop("topic", "untitled")
     print("topic:", topic, file=sys.stderr)
-    post.update(handle="@yaffeai", container="ai_education", edu_mode=mode)
+    post.update(handle="@yaffeai",
+                container="inspire" if mode == "inspire" else "ai_education",
+                edu_mode=mode)
     if listicle_overflow:
         post["listicle_overflow"] = True  # 2nd+ listicle today (Aug 27)
 
-    post_dir = os.path.join(HERE, "posts", f"{date.today()}-edu-{slugify(topic)}")
+    post_dir = os.path.join(
+        HERE, "posts",
+        f"{date.today()}-{'inspire' if mode == 'inspire' else 'edu'}-"
+        f"{slugify(topic)}")
     os.makedirs(post_dir, exist_ok=True)
 
-    art_direct(post)  # optimal image prompts before generation
+    # simple=True (owner correction Sep 14): guide/inspire covers get the
+    # face+logo plain-line law, never the news lane's scene staging
+    art_direct(post, simple=True)
 
     # Cover image (owner verdict Jul 28: an imageless edu cover is "the same
     # template running at 40% capacity" — the cover image is mandatory, and

@@ -37,6 +37,15 @@
       "payload_rule": "The caption delivers every skill the cover promised, numbered, each with its exact prompt in quotes and a one-line HOW a total beginner can follow tonight. NEVER invent people, numbers, or stories — if unsure it happened, use a capability demo instead. Save-framing CTA ('SAVE THIS' — saves are the ER engine for this container).",
       "audience": "builders funnel + business owners seeing what's possible; the caption owner-CTA still closes with the DM 'AI' line",
       "topics": "Claude Code powers, free AI powers anyone can use today, zero-coders who shipped real apps, one-sentence builds, AI doing a whole job overnight"
+    },
+    "inspire": {
+      "role": "share-magnet (owner order Sep 14: 'also inspiring things. like twice a week. something inspiring and viral. not just guides')",
+      "cadence": "2x weekly (Wed/Sun, takes the 13:00 UTC guide slot)",
+      "slides": "ONE cover slide only (Sep 14 single-picture posts: the caption IS the story)",
+      "source": "ONLY story-pool.json — already-viral X story arcs (10,000+ likes this week). Never invented, never news analysis: ride the wave. LANE RULE (owner correction Sep 14): the arc must be tech/AI/business/investing/space or someone building something — an off-topic inspiring story (celebrity kindness, sports, movie/history anecdotes) is skipped.",
+      "cover_rule": "The arc's most unbelievable TRUE beat: the person + the wildest number ('HE SOLD HIS COUCH TO KEEP TESLA ALIVE'). Everyday words, never give away the ending.",
+      "payload_rule": "The caption tells the full arc in plain words: the low point with its real numbers, the turn (the decision or bet), the payoff (today's giant number). Short paragraphs. NEVER invent dialogue, numbers, or details — only what is widely reported. Close with one send/save line that lands the feeling, never a sermon.",
+      "audience": "everyone who thinks it is too late or too hard for them; business owners see themselves in the arc — the caption owner-CTA still closes with the DM 'AI' line"
     }
   },
   "media_rule": {

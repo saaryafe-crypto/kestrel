@@ -18,6 +18,7 @@ import json, os, re, sys, time
 from datetime import date, datetime
 
 from fetch import get  # shared HTTP helper (Google Trends booster only)
+from radar_x import STORY_CONTEXT_RE  # owner-lens gate (wow-lane filter below)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -185,13 +186,25 @@ def radar_boost(stories):
     except Exception as e:
         print(f"no watchlist-x.json ({e}) — radar pool EMPTY", file=sys.stderr)
         return
+    # OWNER-LENS GATE for the wow lane (owner correction Sep 14: a
+    # @historyinmemes Mrs. Doubtfire school-letter story shipped as a news
+    # post — "this shouldnt have been even posted it has nothing to do with
+    # ai/tech or whatever"). The wow_aggregators accounts were approved for
+    # viral CLIPS (reel.py reads radar.json directly and is untouched);
+    # their TEXT stories join the NEWS pool only when they land on an owner
+    # lens — same regex the wide story net already uses.
+    wow = {h.lower() for h in lanes.get("wow_aggregators", [])}
     moments = []
     for m in r.get("moments", []):
-        if m.get("sub", "").lower() in approved:
-            moments.append(m)
-        else:
+        if m.get("sub", "").lower() not in approved:
             print(f"radar boost: DROPPED unapproved @{m.get('sub')}: "
                   f"{m.get('title', '')[:55]}", file=sys.stderr)
+        elif (m.get("sub", "").lower() in wow
+                and not STORY_CONTEXT_RE.search(m.get("title", ""))):
+            print(f"radar boost: DROPPED off-lens wow story @{m.get('sub')}: "
+                  f"{m.get('title', '')[:55]}", file=sys.stderr)
+        else:
+            moments.append(m)
     sigs = [(sig(m["title"]), m) for m in moments]
     matched = added = 0
     for s in stories:

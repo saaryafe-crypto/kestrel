@@ -193,6 +193,24 @@ def gate_b(post, cover_path=None):
             "test or story-arc rules, which are story-post law. Everything "
             "else fully applies: language law, truth law, image law, the "
             "cover contract, and the caption's save close.")
+    elif post.get("container") == "inspire":
+        container_note = (
+            "\n\nCONTAINER NOTE: this post is the inspire container (owner "
+            "order Sep 14, twice a week: 'something inspiring and viral. not "
+            "just guides') — ONE true, already-viral story of a person or "
+            "company rising, sourced from a 10,000+ like X wave. The caption "
+            "tells the full arc: low point with real numbers, the turn, the "
+            "payoff. Do NOT reject it for lacking news-recency or a numbered "
+            "list — the arc IS the format, and the story it tells may be "
+            "years old (the TWEET's virality is current). REJECT if the arc "
+            "has no real numbers, reads like a motivational poster, or the "
+            "payoff never cashes the cover's setup. REJECT if the arc is "
+            "not about tech, AI, business, investing, space, or someone "
+            "BUILDING something (owner correction Sep 14: 'it has nothing "
+            "to do with ai/tech') — inspiring alone is not enough, it must "
+            "be this page's lane. Everything else fully "
+            "applies: language law, truth law, image law on the cover, and "
+            "hook law on the cover.")
     elif post.get("container") == "daily_recap":
         container_note = (
             "\n\nCONTAINER NOTE: this post is the daily_recap container — the "
