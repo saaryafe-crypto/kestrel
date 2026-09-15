@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T08:11:28.019326+00:00",
+ "updated": "2026-09-15T10:12:41.495388+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -728,6 +728,29 @@
    "born": 1789337351.120514
   },
   {
+   "id": "2099504936543228046",
+   "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Anthropic CEO Dario Amodei is \"pretending to be a perfect little angel\" for wanting to slow down AI development.",
+   "sub": "WatcherGuru",
+   "where": "@WatcherGuru on X",
+   "unit": "likes",
+   "selftext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Anthropic CEO Dario Amodei is \"pretending to be a perfect little angel\" for wanting to slow down AI development.",
+   "permalink": "https://x.com/WatcherGuru/status/2099504936543228046",
+   "outlink": null,
+   "score": 9439,
+   "comments_n": 402,
+   "views": 750886,
+   "age_h": 19.8,
+   "vph": 477.7,
+   "image": "https://pbs.twimg.com/media/HSLwm_MWEAAKJm3.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HSLwm_MWEAAKJm3.jpg",
+    "https://pbs.twimg.com/media/HSLwm_qaoAAHncw.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1789395881.495388
+  },
+  {
    "id": "2098817689976504435",
    "title": "Mathematicians",
    "sub": "venturetwins",
@@ -750,48 +773,26 @@
    "born": 1789235679.039477
   },
   {
-   "id": "2098894424788922556",
-   "title": "On February 17, 1996, Chris Farley stood there grinning from ear to ear, bragging that it was the biggest beaver he\u2019d ever seen. When someone told him it was average at best, he simply raised it higher and replied, \u201cShut",
-   "sub": "historyinmemes",
-   "where": "@historyinmemes on X",
+   "id": "2099504260886999509",
+   "title": "BREAKING: The 10Y Note Yield officially rises above 5.00% for the first time since October 2023. US mortgage rates are back above 7%.",
+   "sub": "KobeissiLetter",
+   "where": "@KobeissiLetter on X",
    "unit": "likes",
-   "selftext": "On February 17, 1996, Chris Farley stood there grinning from ear to ear, bragging that it was the biggest beaver he\u2019d ever seen. When someone told him it was average at best, he simply raised it higher and replied, \u201cShut the fuck up, Winchester, miss ya, fatty.\u201d",
-   "permalink": "https://x.com/historyinmemes/status/2098894424788922556",
+   "selftext": "BREAKING: The 10Y Note Yield officially rises above 5.00% for the first time since October 2023. US mortgage rates are back above 7%.",
+   "permalink": "https://x.com/KobeissiLetter/status/2099504260886999509",
    "outlink": null,
-   "score": 8801,
-   "comments_n": 81,
-   "views": 820854,
-   "age_h": 34.1,
-   "vph": 258.0,
-   "image": "https://pbs.twimg.com/media/HSCwoD2bUAA4KcW.jpg",
+   "score": 8858,
+   "comments_n": 266,
+   "views": 905795,
+   "age_h": 19.8,
+   "vph": 447.3,
+   "image": "https://pbs.twimg.com/media/HSLv3Xaa4AAip_k.png",
    "images": [
-    "https://pbs.twimg.com/media/HSCwoD2bUAA4KcW.jpg"
+    "https://pbs.twimg.com/media/HSLv3Xaa4AAip_k.png"
    ],
    "video": null,
    "guide": false,
-   "born": 1789250616.848389
-  },
-  {
-   "id": "2098679143030206735",
-   "title": "Rumors are spreading like a wildfire that Google DeepMind has reached RSI. Lyra is part of the reliable and huge leaker community. But Id say its more than just rumors: Google says Demis Hassabis will focus his \u201cfull att",
-   "sub": "kimmonismus",
-   "where": "@kimmonismus on X",
-   "unit": "likes",
-   "selftext": "Rumors are spreading like a wildfire that Google DeepMind has reached RSI. Lyra is part of the reliable and huge leaker community. But Id say its more than just rumors: Google says Demis Hassabis will focus his \u201cfull attention\u201d on shaping AGI. Reuters reports in August Sergey Brin is directing resources toward RSI, while DeepMind\u2019s strategy chief calls it key to the AI investment thesis.",
-   "permalink": "https://x.com/kimmonismus/status/2098679143030206735",
-   "outlink": null,
-   "score": 8775,
-   "comments_n": 335,
-   "views": 1816950,
-   "age_h": 34.6,
-   "vph": 253.6,
-   "image": "https://pbs.twimg.com/media/HSABixeXAAE8Xjb.png",
-   "images": [
-    "https://pbs.twimg.com/media/HSABixeXAAE8Xjb.png"
-   ],
-   "video": null,
-   "guide": false,
-   "born": 1789202559.039477
+   "born": 1789395881.495388
   }
  ]
 }
