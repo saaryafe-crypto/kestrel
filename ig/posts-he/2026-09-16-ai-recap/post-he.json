@@ -1,0 +1,39 @@
+{
+ "stories": [
+  {
+   "headline": "OpenAI hired humans to read private ChatGPT user chats"
+  },
+  {
+   "headline": "Elon needs live crowd to prove Tesla Roadster is not AI-generated"
+  },
+  {
+   "headline": "Google DeepMind AI safety researcher quit warning we might all die"
+  },
+  {
+   "headline": "Blizzard servers crashed on product launch day locking millions out"
+  },
+  {
+   "headline": "Solar power growing so fast every other energy source near irrelevant"
+  }
+ ],
+ "caption": "השיחות שלך ב-ChatGPT לא נשארות בינך לבין הבוט. OpenAI שכרה אנשים שיקראו אותן. וזה רק חלק ממה שקרה היום.\n\nOpenAI שכרה קבלני משנה שיקראו שיחות אמיתיות של משתמשי ChatGPT. לא סיכומים, לא נתונים אנונימיים. השיחות עצמן. 404Media פרסמה את הסיפור.\n\nאילון מאסק אמר שאירוע ה-Tesla Roadster ב-1 באוקטובר חייב להיות עם קהל חי, כדי שאנשים ידעו שהצילומים לא נוצרו על ידי AI.\n\nחוקר בטיחות AI ב-Google DeepMind התפטר, ואמר שאנחנו עלולים כולנו למות.\n\nהשרתים של Blizzard קרסו ממש ביום שהם השיקו מוצר חדש. מיליונים לא הצליחו להתחבר.\n\nאנרגיה סולארית גדלה כל כך מהר שתחזית אחת צופה שהיא תעקוף את כל מקורות האנרגיה האחרים ביחד.\n\nיום אחד: החברת ה-AI הכי גדולה בעולם משלמת לאנשים לקרוא את הצ'אטים הפרטיים שלך, מומחה עוזב את מעבדת ה-AI של Google ואומר שכולנו בסכנה, ואנרגיה סולארית צפויה לייתר את כל השאר. זה הקצב עכשיו. מנהל עסק? שלח לנו DM עם \"AI\" ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: 404Media, All-In Summit, Google DeepMind\n\nעוקבים אחרינו ב-@ainews.israel לסיכום ה-AI היומי.\n\n#AI #OpenAI #Tesla #GoogleDeepMind #Tech",
+ "pinned_comment": "אם OpenAI משלמת לאנשים לקרוא את השיחות שלך ב-ChatGPT, זה משנה את מה שאתה כותב שם? או שכבר הנחת שמישהו מסתכל?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "מה קרה ב<em>AI</em> היום?",
+   "kicker": "הסיכום היומי",
+   "media": "posts/2026-09-16-ai-recap/gen-0-emergency.jpg"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
