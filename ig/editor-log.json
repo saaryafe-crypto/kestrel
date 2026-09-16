@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-10T23:03:44Z",
-  "gate": "A",
-  "subject": "Holy, rumors are spreading everywhere that OpenAI is close to verifying a proof of the Hodge conjecture, while either Op",
-  "verdict": "KILL",
-  "reason": "Rumors about potential future work fail the core story requirement—nothing HAPPENED in the real world with felt consequence; this is reaction-bait (people spreading speculation online), not a confirmed event where reality moved."
- },
- {
   "t": "2026-09-10T23:04:57Z",
   "gate": "A",
   "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
@@ -2098,5 +2091,12 @@
   "subject": "MORTGAGE RATES JUST HIT A <em>19-YEAR HIGH</em>, ADDING <em>$700 A MONTH</em> TO YOUR PAYMENT",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-16T20:57:51Z",
+  "gate": "A",
+  "subject": "BREAKING: A single Israeli Effective Altruism firm is behind OpenAI, Anthropic, and Meta cyberattacks 🧵 with help from @",
+  "verdict": "KILL",
+  "reason": "Unverified cyberattack claim from a single X account without official confirmation from companies or security researchers fails the truth requirement."
  }
 ]

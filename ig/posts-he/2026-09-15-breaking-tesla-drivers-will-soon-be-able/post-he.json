@@ -1,0 +1,97 @@
+{
+ "image_brief": "Grok can text your phone contacts as you from inside a Tesla, with the Grok and Tesla logos",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Grok <em>שולח הודעות לכולם כאילו זה אתה</em>, מהקול שלך בלבד",
+   "kicker": "מצאו קבור בהוראות ההפעלה",
+   "hsize": 72,
+   "hook_candidates": [
+    {
+     "headline": "TESLA JUST LET <em>GROK TEXT ANYONE IN YOUR PHONE AS YOU</em>"
+    },
+    {
+     "headline": "<em>YOUR TESLA CAN NOW TEXT YOUR BOSS AND EX AS YOU</em> JUST BY TALKING"
+    },
+    {
+     "headline": "TESLA QUIETLY GAVE <em>GROK ACCESS TO YOUR FULL CONTACT LIST</em> BY VOICE"
+    },
+    {
+     "headline": "<em>ELON'S AI CAN NOW SEND TEXTS FROM YOUR TESLA AS YOU</em> TO ANYONE"
+    },
+    {
+     "headline": "TESLA SLIPPED <em>GROK INTO YOUR CONTACT LIST</em> IN A CAR MANUAL UPDATE"
+    }
+   ],
+   "media": "posts/2026-09-15-breaking-tesla-drivers-will-soon-be-able/gen-0.jpg",
+   "image_prompt": "Elon Musk in a Tesla speaking to Grok which texts for him, with the Tesla logo",
+   "gen_person": true
+  }
+ ],
+ "caption": "Grok של טסלה עכשיו יכול לשלוח הודעה לכל מי שיש לך בנייד, כאילו זה אתה, רק מהקול שלך בתוך הרכב. אף אחד לא הודיע על זה.\n\nעד השבוע, העוזר הקולי של טסלה הפעיל מוזיקה ונווט. אנשי הקשר שלך היו שלך בלבד. זה השתנה. Grok, ה-AI של אילון מאסק, עכשיו יכול להרכיב ולשלוח הודעה לכל מי שיש לך בנייד, בשמך, רק מהקול שלך. בלי להקליד. ובהוראות ההפעלה אין ולו מילה על שלב אישור.\n\nלא היה אירוע השקה. לא יצאה הודעה לעיתונות. מישהו מצא את זה קבור בתוך קובץ PDF מעודכן של הוראות ה-Model Y ופרסם ב-X. ככה העולם גילה ש-Grok יש לו עכשיו גישה מלאה לרשימת אנשי הקשר שלך.\n\nהבוס שלך, המשפחה שלך, האקס שלך, כולם נגישים עכשיו ל-AI שכותב ושולח הודעות בשמך. הפוסט שחשף את זה הגיע ל-99.7K צפיות תוך כמה שעות.\n\nזו הפעם הראשונה ש-AI של רכב כותב ושולח הודעה בשמך, בקולך, בלי שאיש הכריז על זה כפיצ'ר.\n\nטסלה לא אמרה כלום.\n\nמנהל עסק? שלח לנו DM עם המילה AI ונראה לך מה זה אומר עבורך.\n\nמקורות: cb_doge ב-X, Tesla Model Y Owner's Manual\n\nעוקבים אחרי @ainews.israel לא מפספסים.\n\n#Tesla #Grok #AI #ElonMusk #Technology",
+ "pinned_comment": "היית סומך על Grok שישלח הודעה לבוס שלך מהרכב? או שהעובדה שאף אחד לא הודיע על זה משנה לך את התשובה?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "TESLA BURIED A GROK TEXTING FEATURE IN THE OWNER'S MANUAL <em>AND NEVER TOLD YOU</em>",
+   "TESLA'S GROK NOW PUTS WORDS IN YOUR MOUTH <em>AND TEXTS THEM TO YOUR BOSS</em>",
+   "TESLA'S GROK NOW TEXTS YOUR CONTACTS <em>AS YOU</em>, WITH JUST YOUR VOICE",
+   "TESLA'S GROK CAN NOW TEXT <em>ANY PHONE NUMBER ON EARTH</em>, FROM YOUR VOICE ALONE"
+  ],
+  "scores": [
+   6,
+   0,
+   8,
+   9
+  ],
+  "winner": 3,
+  "why": "The phrase 'ANY PHONE NUMBER ON EARTH' makes you stop because it's not your problem—it's everyone's, instantly. [2] clearly explains the threat but 'your contacts' is too limited; [3]'s scope detail transforms this into a system-breaking nightmare."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "TESLA BURIED A GROK UPDATE IN YOUR OWNER'S MANUAL: <em>IT NOW TEXTS AS YOU</em>",
+   "TESLA'S GROK CAN NOW TEXT <em>ANY PHONE NUMBER ON EARTH</em>, FROM YOUR VOICE ALONE",
+   "ELON'S AI IN YOUR TESLA CAN NOW TEXT YOUR BOSS <em>AS YOU</em>, UNANNOUNCED",
+   "TESLA JUST LET GROK TEXT YOUR CONTACTS <em>AS YOU</em>, AND NOBODY TOLD YOU"
+  ],
+  "scores": [
+   6,
+   9.5,
+   9,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] states the complete, unlimited threat—any phone number on earth—while [2] focuses on one scenario; [1] tells the full story with real scope, not just a dramatic example, hitting harder as a revelation. [1] makes you stop scrolling because the universality of the threat is genuinely shocking."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Tesla / Grok",
+  "actor_known": true,
+  "anchor": "Tesla",
+  "specifics": [
+   "Grok can text ANY contact or phone number just from your voice — no typing, no confirmation screen mentioned",
+   "Feature was never officially announced — found hidden in an updated Model Y owner's manual",
+   "Elon Musk now owns the car, the AI inside it, AND the platform where it was 'announced'",
+   "Tesla Model Y specifically named in the updated manual",
+   "Post exposing it hit 99.7K views within hours"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Tesla drivers will soon be able to text using Grok. The updated Model Y owner manual says drivers will be able to ask Grok to text any contact or phone number by voice.",
+  "link": "https://x.com/cb_doge/status/2099492065919033779",
+  "judge_interest": 4,
+  "scout_score": 47.2
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Caption sentence 'This is the first time a car's AI has been able to write and send a text as you, in your voice, without you ever announcing it as a feature' contains a Truth Law violation: the 'first ever' claim is too broad — Siri via CarPlay has sent voice-composed texts from cars for years. Scope it to what is actually new and verifiable: a car's built-in AI composing and sending texts in you",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
