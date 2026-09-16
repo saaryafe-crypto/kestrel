@@ -1,33 +1,5 @@
 [
  {
-  "t": "2026-09-10T02:17:42Z",
-  "gate": "A",
-  "subject": "Three Anthropic researchers went public last night say it could destroy humans this decade, per Axios",
-  "verdict": "KILL",
-  "reason": "Researchers voicing AI risk concerns—while involving Anthropic—isn't a major lab move (model release, lawsuit, executive change, etc.); risks becoming routine 'experts warn' commentary without specifics on what makes this Axios statement newsworthy beyond existing AI-concern coverage."
- },
- {
-  "t": "2026-09-10T02:18:45Z",
-  "gate": "A",
-  "subject": "JUST IN: Anthropic's Lead AI Alignment researcher says he believes there is a &gt;10% chance \"AI could kill all humans\" ",
-  "verdict": "KILL",
-  "reason": "A researcher stating a belief/prediction about future AI risk is not a real-world event where reality moved—it's on-topic but routine commentary; Anthropic made no major move (no model released/killed, lawsuit, funding, CEO change, ban, acquisition, or outage), the researcher isn't even named in the source, and the tweet offers no substance beyond one unverified claim to build slides from."
- },
- {
-  "t": "2026-09-10T02:19:01Z",
-  "gate": "A",
-  "subject": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We (the researchers and the ",
-  "verdict": "KILL",
-  "reason": "Defensive clarification lacks the jaw-dropping consequence readers would share—routine institutional communication with 4/10 scout score too low without exceptional event."
- },
- {
-  "t": "2026-09-10T02:20:11Z",
-  "gate": "A",
-  "subject": "Former and current Anthropic employees are now posting that they “earnestly believe AI could kill all humans.” This comp",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: the event is employees' posts online with no confirmed real-world consequence, named sources, or clarity on whether the IPO is officially announced."
- },
- {
   "t": "2026-09-10T02:20:22Z",
   "gate": "A",
   "subject": "BREAKING: Brent crude oil prices surge above $100 per barrel after the US strikes Iranian oil tankers near the Strait of",
@@ -2098,5 +2070,33 @@
   "subject": "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
   "verdict": "FAIL",
   "reason": "s1: The AI-generated courtroom scene produces obvious wax-figure faces on both subjects, falling short of the press-photo realism standard the rubric requires."
+ },
+ {
+  "t": "2026-09-16T06:09:09Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "EMOJI VIOLATION (§4 HUMAN VOICE / STORYTELLING LAW): The caption contains '👇' after the opening line. §4 explicitly bans emojis in all copy. Fix: delete the emoji.; TRUTH LAW — SOLAR STAT FAILS SANITY CHECK (§5): 'one forecast puts every other energy source below 0.1% of global supply' implies solar reaches ~99.9%+ of all global energy supply, leaving every other source (wind, nuclear, gas, hydro)"
+ },
+ {
+  "t": "2026-09-16T06:11:05Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "TRUTH LAW — closing paragraph calls the OpenAI contractor story 'a privacy breach at the world's biggest AI company.' A breach means unauthorized access; what happened is OpenAI paying humans to read users' chats — a privacy policy revelation, not a security breach. The caption body gets it right ('OpenAI hired contractors to read real ChatGPT user conversations'); the summary recharacterizes it f"
+ },
+ {
+  "t": "2026-09-16T06:13:07Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-16T06:13:18Z",
+  "gate": "R",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

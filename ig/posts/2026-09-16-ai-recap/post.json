@@ -1,0 +1,32 @@
+{
+ "stories": [
+  {
+   "headline": "OpenAI hired humans to read private ChatGPT user chats"
+  },
+  {
+   "headline": "Elon needs live crowd to prove Tesla Roadster is not AI-generated"
+  },
+  {
+   "headline": "Google DeepMind AI safety researcher quit warning we might all die"
+  },
+  {
+   "headline": "Blizzard servers crashed on product launch day locking millions out"
+  },
+  {
+   "headline": "Solar power growing so fast every other energy source near irrelevant"
+  }
+ ],
+ "caption": "Here's what happened in AI and tech in the last 24 hours, from OpenAI hiring humans to read your ChatGPT chats to a DeepMind safety researcher walking out\n\nOpenAI hired contractors to read real ChatGPT user conversations. Your chats. Read by humans. 404Media broke the story.\n\nElon Musk said the Tesla Roadster event on October 1st needs a live audience, so people know the footage isn't AI-generated.\n\nA Google DeepMind AI safety researcher quit and said we might all be about to die.\n\nBlizzard's servers crashed on their own product launch day. Millions couldn't log in.\n\nSolar power is growing so fast that one forecast has solar outpacing every other energy source combined.\n\nIn one day: the world's biggest AI company paying humans to read your private chats, a safety expert walking out of Google's AI lab, and solar power projected to make everything else irrelevant. This is the pace now. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: 404Media, All-In Summit, Google DeepMind\n\n#AI #OpenAI #Tesla #GoogleDeepMind #Tech",
+ "pinned_comment": "If OpenAI is paying humans to read your ChatGPT conversations, does that change what you type, or did you already assume someone was watching?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP",
+   "media": "posts/2026-09-16-ai-recap/gen-0-emergency.jpg"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap"
+}
