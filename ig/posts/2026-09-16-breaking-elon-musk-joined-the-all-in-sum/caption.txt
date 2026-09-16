@@ -1,0 +1,17 @@
+Elon Musk proposed that AI companies let rivals review their unreleased AI before launch. His own company, xAI, would be one of those reviewers.
+
+Up until now, every AI company ran its own internal safety checks. Whatever happened inside those labs before a product launched stayed between the engineers and nobody else.
+
+Then Musk dialed into the All-In Summit on September 14 and said this out loud: every major AI company, OpenAI and Google included, should be required to share their unreleased AI with competitors before it ever goes public. Competitors flag anything dangerous. He said it could start this week.
+
+But here is the thing. Musk is actively suing OpenAI in court right now. Under his plan, xAI, the company he built to go head to head with OpenAI, would get to inspect OpenAI's unpublished AI before the rest of the world ever sees it. He called this a safety review.
+
+If something like this ever gets adopted, every AI tool you use could be delayed or quietly changed because a rival got to look at it first and flag it. That rival could be the same person currently in court with the company that built it.
+
+The fight over who gets to review AI before it goes public is getting real. Right now each company decides alone. Musk's plan would drag rivals into that room. Musk just proposed a rule where the lawsuit plaintiff gets first access to the defendant's unreleased work, and the label on it says "safety."
+
+Running a business? DM us "AI" and we will show you what this kind of AI access could mean for yours.
+
+Sources: cb_doge on X
+
+#ElonMusk #OpenAI #AINews #ArtificialIntelligence #TechNews

@@ -1,0 +1,84 @@
+{
+ "media_idx": 2,
+ "image_brief": "Elon Musk on giant conference screen at tech summit proposing rivals inspect each other's unreleased AI",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
+   "kicker": "Called it a safety review",
+   "hsize": 70,
+   "hook_candidates": [
+    {
+     "headline": "<em>ELON MUSK JUST ASKED TO INSPECT OPENAI'S UNRELEASED AI</em> WHILE SUING THEM IN COURT"
+    },
+    {
+     "headline": "ELON MUSK PROPOSED A RULE THAT GIVES HIM <em>ACCESS TO CHATGPT BEFORE YOU DO</em>"
+    },
+    {
+     "headline": "<em>ELON MUSK IS SUING OPENAI.</em> HE JUST PROPOSED THEY HAND HIM THEIR UNRELEASED AI."
+    },
+    {
+     "headline": "ELON MUSK CALLED ON AI COMPANIES TO LET <em>RIVALS INSPECT THEIR MODELS BEFORE LAUNCH</em>"
+    },
+    {
+     "headline": "ELON MUSK JUST PROPOSED HIS RIVALS SHARE UNRELEASED AI WITH HIM. <em>HE CALLED IT SAFETY.</em>"
+    }
+   ],
+   "media": "posts/2026-09-16-breaking-elon-musk-joined-the-all-in-sum/gen-0.jpg",
+   "image_prompt": "Elon Musk aggressively demanding Sam Altman hand over unreleased AI while suing him in court, with the OpenAI logo",
+   "gen_person": true
+  }
+ ],
+ "caption": "Elon Musk proposed that AI companies let rivals review their unreleased AI before launch. His own company, xAI, would be one of those reviewers.\n\nUp until now, every AI company ran its own internal safety checks. Whatever happened inside those labs before a product launched stayed between the engineers and nobody else.\n\nThen Musk dialed into the All-In Summit on September 14 and said this out loud: every major AI company, OpenAI and Google included, should be required to share their unreleased AI with competitors before it ever goes public. Competitors flag anything dangerous. He said it could start this week.\n\nBut here is the thing. Musk is actively suing OpenAI in court right now. Under his plan, xAI, the company he built to go head to head with OpenAI, would get to inspect OpenAI's unpublished AI before the rest of the world ever sees it. He called this a safety review.\n\nIf something like this ever gets adopted, every AI tool you use could be delayed or quietly changed because a rival got to look at it first and flag it. That rival could be the same person currently in court with the company that built it.\n\nThe fight over who gets to review AI before it goes public is getting real. Right now each company decides alone. Musk's plan would drag rivals into that room. Musk just proposed a rule where the lawsuit plaintiff gets first access to the defendant's unreleased work, and the label on it says \"safety.\"\n\nRunning a business? DM us \"AI\" and we will show you what this kind of AI access could mean for yours.\n\nSources: cb_doge on X\n\n#ElonMusk #OpenAI #AINews #ArtificialIntelligence #TechNews",
+ "pinned_comment": "The man filing the lawsuit against OpenAI just proposed a system that would put OpenAI's unreleased models in his hands before launch. The word he chose for it was \"safety.\"",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ELON MUSK CALLED IT <em>A SAFETY REVIEW</em>. IT GIVES HIM OPENAI'S UNRELEASED AI.",
+   "ELON MUSK WANTS TO SEE <em>OPENAI'S UNRELEASED AI</em> BEFORE YOU DO",
+   "ELON MUSK'S COMPANY WOULD GET <em>OPENAI'S UNRELEASED AI</em> UNDER HIS NEW SAFETY PLAN"
+  ],
+  "scores": [
+   0,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "[1]'s 'before you do' makes it personal and shady \u2014 you stop scrolling immediately. [2] sounds like corporate news with 'safety plan,' so you keep scrolling."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
+   "ELON MUSK WANTS TO SEE <em>OPENAI'S UNRELEASED AI</em> BEFORE YOU DO"
+  ],
+  "scores": [
+   8,
+   4
+  ],
+  "winner": 0,
+  "why": "[0] leads with 'while he's suing them'\u2014the contradiction that makes you stop scrolling. [1] hides the scandal and sounds like routine tech gossip, so you keep scrolling."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Elon Musk",
+  "actor_known": true,
+  "anchor": "Elon Musk",
+  "specifics": [
+   "Musk is currently suing OpenAI \u2014 and just proposed OpenAI let him review their AI before you can use it",
+   "Under his plan, xAI gets early access to competitors' unreleased models under the name 'safety review'",
+   "He said the system could begin immediately",
+   "Proposed this at the All-In Summit on September 14, 2026, joining virtually"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another\u2019s models before release, so competitors can flag safety concerns. Musk said this peer-review system cou",
+  "link": "https://x.com/cb_doge/status/2099647510553993579",
+  "judge_interest": 4,
+  "scout_score": 46.3
+ },
+ "gate_a_relaxed": true,
+ "gate_r": "s1: The AI-generated courtroom scene produces obvious wax-figure faces on both subjects, falling short of the press-photo realism standard the rubric requires."
+}

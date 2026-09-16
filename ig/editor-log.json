@@ -1,89 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "Cover image: the OpenAI neon sign reads 'OPEAII' — the N is missing or corrupted. Visible at feed size to anyone who knows the brand. This is a credibility-killing error on the cover. Fix: regenerate with correct 'OPENAI' spelling.; Slides 4 and 5 are redundant and slide 5 is critically thin. Slide 4's last bullet already delivers 'The ones who stayed believe it too'; slide 5 restates that same po",
-  "subject": "THE PEOPLE BUILDING AI EARNESTLY BELIEVE IT <em>WILL KILL US ALL BY 2030</em> AND ARE STILL BUILDING IT ANYWAY",
-  "t": "2026-09-09T18:18:30Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "COVER IMAGE — OpenAI neon sign reads 'OPENII' (the AI suffix is rendered as two capital I's). This is a garbled brand name on the face of the post: a truth violation and an image-law failure ('real logo mark' required). Regenerate with the correct 'OPENAI' lettering.; SLIDE 5 — Headline '710,000 PEOPLE SAW THIS' is an engagement metric used as a story beat. §2 bans engagement metrics (views, likes",
-  "subject": "THE PEOPLE BUILDING AI EARNESTLY BELIEVE IT <em>WILL KILL US ALL BY 2030</em> AND ARE STILL BUILDING IT ANYWAY",
-  "t": "2026-09-09T18:21:37Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Cover image: the OpenAI neon sign renders as 'OPEAII' — the brand name is garbled and immediately visible at feed size. A misspelled brand mark on the cover destroys credibility for a post whose entire premise rests on naming these two labs. Regenerate with corrected 'OpenAI' text.; Slide 4 ('WHAT THE INSIDER KNEW') is a bullet-point recap of facts already delivered in slides 2 and 3 — 'quit with ",
-  "subject": "THE PEOPLE BUILDING AI EARNESTLY BELIEVE <em>IT WILL KILL US ALL BY 2030</em>, NONE OF THEM STOPPED",
-  "t": "2026-09-09T18:25:10Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "",
-  "subject": "4 GEMINI NOTEBOOK PROMPTS THAT <em>PREDICT EVERY OBJECTION</em> BEFORE YOUR NEXT MEETING",
-  "t": "2026-09-09T20:25:47Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "4 GEMINI NOTEBOOK PROMPTS THAT <em>PREDICT EVERY OBJECTION</em> BEFORE YOUR NEXT MEETING",
-  "t": "2026-09-09T20:26:18Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-09-10T02:13:38Z",
-  "gate": "A",
-  "subject": "Anthropic’s Economics team is sharing a new model of how AI might affect economic growth, jobs, wages, and more by 2030.",
-  "verdict": "KILL",
-  "reason": "Research tool release with no major move (no new model, lawsuit, funding, CEO change, or record), no person story, and no concrete findings or consequence — routine lab output masquerading as engagement bait, not the news event this page exists to cover."
- },
- {
-  "t": "2026-09-10T02:13:56Z",
-  "gate": "A",
-  "subject": "Three Anthropic researchers went public last night say it could destroy humans this decade, per Axios",
-  "verdict": "KILL",
-  "reason": "Source is one vague 101-character sentence with no names of researchers, no specifics on what was actually said, no timeline, and no described consequence—writer would have to pad to build slides; cannot determine if this is substantial news or routine AI safety commentary that Anthropic researchers make routinely."
- },
- {
-  "t": "2026-09-10T02:14:48Z",
-  "gate": "A",
-  "subject": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We (the researchers and the ",
-  "verdict": "KILL",
-  "reason": "Defensive clarification from OpenAI with unknown actors (two unrecognizable mathematicians) and insufficient context about the actual event—scout interest too low (4/10) to justify the research required to extract a real story when the underlying controversy or achievement remains unstated."
- },
- {
-  "t": "2026-09-10T02:15:02Z",
-  "gate": "A",
-  "subject": "JUST IN: Anthropic's Lead AI Alignment researcher says he believes there is a &gt;10% chance \"AI could kill all humans\" ",
-  "verdict": "KILL",
-  "reason": "A researcher's opinion about future risk is not a story-event; nothing happened at Anthropic with real consequences, the actor is unnamed, and the substance doesn't extend beyond a single claim."
- },
- {
-  "t": "2026-09-10T02:15:37Z",
-  "gate": "A",
-  "subject": "Former and current Anthropic employees are now posting that they “earnestly believe AI could kill all humans.” This comp",
-  "verdict": "KILL",
-  "reason": "Reaction-bait with no real-world consequence—the event is people posting opinions online, not reality moving; the IPO is speculative, not an actual event."
- },
- {
-  "t": "2026-09-10T02:15:47Z",
-  "gate": "A",
-  "subject": "BREAKING: Brent crude oil prices surge above $100 per barrel after the US strikes Iranian oil tankers near the Strait of",
-  "verdict": "KILL",
-  "reason": "Routine commodity news with zero tech/AI angle, no human actor experiencing the consequence, and low scout interest (4/10)—belongs on a finance page, not this tech news vertical."
- },
- {
-  "t": "2026-09-10T02:17:30Z",
-  "gate": "A",
-  "subject": "Anthropic’s Economics team is sharing a new model of how AI might affect economic growth, jobs, wages, and more by 2030.",
-  "verdict": "KILL",
-  "reason": "No substance or story — Anthropic announced a tool, but the source provides no findings, consequence, or jaw-dropping element to build."
- },
- {
   "t": "2026-09-10T02:17:42Z",
   "gate": "A",
   "subject": "Three Anthropic researchers went public last night say it could destroy humans this decade, per Axios",
@@ -2098,5 +2014,89 @@
   "subject": "ELON MUSK SAYS SOLAR WILL KILL OIL <em>BEFORE YOUR GAS CAR LOAN IS PAID OFF</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-16T02:09:36Z",
+  "gate": "A",
+  "subject": "Hi. 😊 Swedish dude here again. When we have kids. we get 480 paid parental leave days. Per child. 390 days at ~80% of pa",
+  "verdict": "KILL",
+  "reason": "This is a policy explanation with no news event—exactly the listicle-flood problem the owner identified as the page's #1 content failure."
+ },
+ {
+  "t": "2026-09-16T02:09:53Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
+  "verdict": "KILL",
+  "reason": "Elon proposed an idea at a summit without adoption or real consequence; this is commentary, not the news event this page requires."
+ },
+ {
+  "t": "2026-09-16T02:10:34Z",
+  "gate": "A",
+  "subject": "Hi. 😊 Swedish dude here again. When we have kids. we get 480 paid parental leave days. Per child. 390 days at ~80% of pa",
+  "verdict": "KILL",
+  "reason": "Swedish social policy unrelated to AI, technology, founders, investing, money, or space—completely off-lens for an AI/tech news page."
+ },
+ {
+  "t": "2026-09-16T02:11:04Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
+  "verdict": "KILL",
+  "reason": "A proposal without adoption or implementation—no reality moved, and the 4/10 scout interest confirms it's thin."
+ },
+ {
+  "t": "2026-09-16T02:32:15Z",
+  "gate": "B",
+  "subject": "SWEDEN GIVES <em>480 PAID PARENTAL DAYS</em> AND THAT'S BEFORE COUNTING YOUR VACATION",
+  "verdict": "REJECT",
+  "reason": "§7 emoji ban: the 🇸🇪 emoji in caption line 1 is explicitly banned under Human Voice Law. Remove it — the sentence stands without it.; §5 truth: caption states '60 of those days' for simultaneous leave; Sweden's documented double-days provision is 30 days per child, not 60. Verify against the source tweet and correct to the confirmed number before publish."
+ },
+ {
+  "t": "2026-09-16T02:34:39Z",
+  "gate": "B",
+  "subject": "SWEDEN GIVES <em>480 PAID PARENTAL DAYS</em> AND THAT'S BEFORE COUNTING YOUR VACATION",
+  "verdict": "REJECT",
+  "reason": "TRUTH VIOLATION (§5): 'You can use any of the 480 days until your child turns 12' is factually wrong. Swedish parental benefit (föräldrapenning) must generally be used before the child turns 8 (or finishes first grade); only a limited number of flat-rate days may extend toward age 12. The follow-on line compounds it: 'take a paid month off when your kid starts middle school' — Swedish middle schoo"
+ },
+ {
+  "t": "2026-09-16T02:38:00Z",
+  "gate": "B",
+  "subject": "SWEDEN GIVES <em>480 PAID PARENTAL DAYS</em> AND THAT'S BEFORE COUNTING YOUR VACATION",
+  "verdict": "REJECT",
+  "reason": "§4/§7 HUMAN VOICE — The paragraph 'Running a business? DM us 'AI' and we'll show you what automation can do for yours.' is an off-topic commercial break tacked onto a Sweden labor-law story. No friend ends a story about 480 parental days by pivoting to an automation sales pitch. It breaks the spoken voice completely and sounds like a copy-pasted ad. Fix: replace with a save prompt or follow ask ti"
+ },
+ {
+  "t": "2026-09-16T02:38:45Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
+  "verdict": "KILL",
+  "reason": "Musk proposed a peer-review system but no real-world consequence occurred—a speech act at a summit proposing future action fails the doctrine's core requirement: 'something HAPPENED in the real world, with a consequence someone felt.'"
+ },
+ {
+  "t": "2026-09-16T02:56:02Z",
+  "gate": "B",
+  "subject": "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
+  "verdict": "REJECT",
+  "reason": "Emoji in caption body: '👀' after 'His own company, xAI, would be one of those reviewers' — §7 Human Voice Law bans emojis outright. Delete it.; Generic closer: 'Whether that is about safety or about strategy, we are about to find out.' is functionally identical to the banned 'time will tell' — §7 requires ending on the sharpest specific fact. The sharpest fact is already in the caption two paragra"
+ },
+ {
+  "t": "2026-09-16T02:58:10Z",
+  "gate": "B",
+  "subject": "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
+  "verdict": "REJECT",
+  "reason": "Friend Test fail — first caption sentence says 'let rivals review unreleased models before launch.' 'Models' is the AI industry's official noun, not what a person says out loud. The hook already uses the correct plain-language version: 'unreleased AI.' Fix: 'Elon Musk proposed that AI companies let rivals review their unreleased AI before launch.' One word change; the rest of the caption is clean."
+ },
+ {
+  "t": "2026-09-16T03:00:07Z",
+  "gate": "B",
+  "subject": "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-16T03:00:30Z",
+  "gate": "R",
+  "subject": "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
+  "verdict": "FAIL",
+  "reason": "s1: The AI-generated courtroom scene produces obvious wax-figure faces on both subjects, falling short of the press-photo realism standard the rubric requires."
  }
 ]
