@@ -1,0 +1,91 @@
+{
+ "media_idx": 2,
+ "image_brief": "Elon Musk on giant conference screen at tech summit proposing rivals inspect each other's unreleased AI",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "אילון מאסק תובע את OpenAI בבית משפט ועכשיו הציע שיעבירו לו <em>את הכלים שלהם לפני שיצאו לשוק</em>",
+   "kicker": "הוא קרא לזה בדיקת בטיחות",
+   "hsize": 70,
+   "hook_candidates": [
+    {
+     "headline": "<em>ELON MUSK JUST ASKED TO INSPECT OPENAI'S UNRELEASED AI</em> WHILE SUING THEM IN COURT"
+    },
+    {
+     "headline": "ELON MUSK PROPOSED A RULE THAT GIVES HIM <em>ACCESS TO CHATGPT BEFORE YOU DO</em>"
+    },
+    {
+     "headline": "<em>ELON MUSK IS SUING OPENAI.</em> HE JUST PROPOSED THEY HAND HIM THEIR UNRELEASED AI."
+    },
+    {
+     "headline": "ELON MUSK CALLED ON AI COMPANIES TO LET <em>RIVALS INSPECT THEIR MODELS BEFORE LAUNCH</em>"
+    },
+    {
+     "headline": "ELON MUSK JUST PROPOSED HIS RIVALS SHARE UNRELEASED AI WITH HIM. <em>HE CALLED IT SAFETY.</em>"
+    }
+   ],
+   "media": "posts/2026-09-16-breaking-elon-musk-joined-the-all-in-sum/gen-0.jpg",
+   "image_prompt": "Elon Musk aggressively demanding Sam Altman hand over unreleased AI while suing him in court, with the OpenAI logo",
+   "gen_person": true
+  }
+ ],
+ "caption": "אילון מאסק תובע את OpenAI בבית משפט עכשיו, ובמקביל הציע שיעבירו לו את הכלים שלהם לפני שיצאו לשוק.\n\nב-14 בספטמבר הוא עלה בכנס All-In ואמר את זה ישר: כל חברות ה-AI הגדולות, כולל OpenAI ו-Google, צריכות לשתף את הכלים שלהן עם מתחרות לפני כל השקה. המתחרות יסמנו מה מסוכן. הוא אמר שזה יכול להתחיל כבר השבוע.\n\nעד עכשיו כל חברת AI בדקה את עצמה לפני שהוציאה מוצר. מה שקרה אצלה לפני ההשקה, נשאר שם.\n\nתחת התוכנית שלו, xAI, שהוא בנה כדי להתחרות ב-OpenAI, תקבל גישה לכלים של OpenAI לפני שמישהו אחר בעולם רואה אותם.\n\nהוא קרא לזה בדיקת בטיחות.\n\nאם זה יאומץ, כל כלי AI שאתה משתמש בו יכול להתעכב או להשתנות בלי שתדע, כי מתחרה ראה אותו קודם. ואותה מתחרה יכולה להיות בדיוק מי שתובע בבית משפט את מי שבנה אותו.\n\nהשאלה מי מחליט מה AI מותר לשחרר הולכת ומסתבכת. מאסק בעצם מציע: מי שתובע, יראה ראשון. התווית: בטיחות.\n\nמנהל עסק? שלח לנו DM עם \"AI\" ונראה לך מה הגישה הזו לכלי AI יכולה להגיד על העסק שלך.\n\nמקורות: cb_doge on X\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#ElonMusk #OpenAI #AINews #ArtificialIntelligence #TechNews",
+ "pinned_comment": "מאסק תובע את OpenAI בבית משפט. ובאותה נשימה הציע שיעבירו לו את הכלים שלהם לפני שיצאו לשוק. שם לזה: בטיחות.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ELON MUSK CALLED IT <em>A SAFETY REVIEW</em>. IT GIVES HIM OPENAI'S UNRELEASED AI.",
+   "ELON MUSK WANTS TO SEE <em>OPENAI'S UNRELEASED AI</em> BEFORE YOU DO",
+   "ELON MUSK'S COMPANY WOULD GET <em>OPENAI'S UNRELEASED AI</em> UNDER HIS NEW SAFETY PLAN"
+  ],
+  "scores": [
+   0,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "[1]'s 'before you do' makes it personal and shady — you stop scrolling immediately. [2] sounds like corporate news with 'safety plan,' so you keep scrolling."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
+   "ELON MUSK WANTS TO SEE <em>OPENAI'S UNRELEASED AI</em> BEFORE YOU DO"
+  ],
+  "scores": [
+   8,
+   4
+  ],
+  "winner": 0,
+  "why": "[0] leads with 'while he's suing them'—the contradiction that makes you stop scrolling. [1] hides the scandal and sounds like routine tech gossip, so you keep scrolling."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Elon Musk",
+  "actor_known": true,
+  "anchor": "Elon Musk",
+  "specifics": [
+   "Musk is currently suing OpenAI — and just proposed OpenAI let him review their AI before you can use it",
+   "Under his plan, xAI gets early access to competitors' unreleased models under the name 'safety review'",
+   "He said the system could begin immediately",
+   "Proposed this at the All-In Summit on September 14, 2026, joining virtually"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s models before release, so competitors can flag safety concerns. Musk said this peer-review system cou",
+  "link": "https://x.com/cb_doge/status/2099647510553993579",
+  "judge_interest": 4,
+  "scout_score": 46.3
+ },
+ "gate_a_relaxed": true,
+ "gate_r": "s1: The AI-generated courtroom scene produces obvious wax-figure faces on both subjects, falling short of the press-photo realism standard the rubric requires.",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

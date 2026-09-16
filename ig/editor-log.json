@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-10T02:20:22Z",
-  "gate": "A",
-  "subject": "BREAKING: Brent crude oil prices surge above $100 per barrel after the US strikes Iranian oil tankers near the Strait of",
-  "verdict": "KILL",
-  "reason": "Commodity price movements are banned routine market reporting without a tech/AI/company lens on an AI/tech news page."
- },
- {
   "t": "2026-09-10T02:54:23Z",
   "gate": "B",
   "subject": "THE ONE LAB <em>BUILT TO KEEP AI SAFE</em> JUST HAD THREE OF ITS OWN RESEARCHERS BLOW THE WHISTLE",
@@ -2098,5 +2091,12 @@
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-16T13:32:14Z",
+  "gate": "A",
+  "subject": "BREAKING: A single Israeli Effective Altruism firm is behind OpenAI, Anthropic, and Meta cyberattacks 🧵 with help from @",
+  "verdict": "KILL",
+  "reason": "Unverified allegation with no verifiable facts, numbers, or official confirmation from the targeted companies—violates TRUTH LAW and NO SUBSTANCE; the bare claim would require the writer to pad significantly."
  }
 ]
