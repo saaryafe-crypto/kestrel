@@ -17,6 +17,7 @@ import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
 import bundle
+from radar_x import STORY_CONTEXT_RE  # owner-lens gate (wow-clip filter)
 from write import CHEAP, call_claude, doctrine, fix_numbered_lines, no_dashes, principles
 from render import CHROME
 
@@ -162,6 +163,7 @@ def radar_candidates(used):
     try:
         lanes = json.load(open(os.path.join(HERE, "watchlist-x.json")))["lanes"]
         approved = {h.lower() for lane in lanes.values() for h in lane}
+        wow = {h.lower() for h in lanes.get("wow_aggregators", [])}
     except Exception as e:
         print(f"no watchlist-x.json ({e}) — no reel candidates", file=sys.stderr)
         return []
@@ -202,6 +204,20 @@ def radar_candidates(used):
         if re.fullmatch(r"https?://\S+", (m.get("title") or "").strip()):
             continue
         author = m.get("sub", "").lower()
+        # OWNER-LENS GATE for wow-lane VIDEOS (owner audit Sep 16: "the
+        # videos we post... arent optimal at all"). The Sep 15 pool was 47%
+        # wow_aggregators — bobcats, whale song, moths, "🤣🤣" — and views-
+        # first ordering put nature monsters (The Moon 52M) above every
+        # real tech clip, so the judge picked among junk. Same
+        # STORY_CONTEXT_RE the news side has gated wow TEXT with since
+        # Sep 14: a wow clip enters the batch only when its title lands on
+        # an owner lens (AI/robots/tech/space-business...). Topical-lane
+        # clips (AI, robotics, space, markets) are untouched.
+        if author in wow and not STORY_CONTEXT_RE.search(
+                m.get("title") or ""):
+            print(f"  DROPPED off-lens wow clip @{m.get('sub')}: "
+                  f"{(m.get('title') or '')[:55]}", file=sys.stderr)
+            continue
         if per_author.get(author, 0) >= 3:
             continue
         # X: the moment carries a direct mp4 — ffprobe it and download it
