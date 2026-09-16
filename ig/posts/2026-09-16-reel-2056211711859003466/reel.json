@@ -1,0 +1,17 @@
+{
+ "pick": 5,
+ "title": "A man with a broken arm beat a robot at this job by 192 boxes",
+ "title_candidates": [
+  "The last time a human beat a robot at sorting packages",
+  "A man with a broken arm beat a robot at this job by 192 boxes",
+  "How close a robot got to taking over this warehouse job",
+  "The exact moment the gap between humans and robots almost closed",
+  "Watch a human win a package race against a robot, for the final time"
+ ],
+ "caption": "A man named Aime beat the F.03 sorting robot 12,924 to 12,732, with a broken left forearm. The robot is closing in.\n\nWarehouse sorting is one of the most common physical jobs on earth. The margin here was 192 packages. Aime finished one every 2.79 seconds. The robot did it every 2.83. That gap shrinks every time they run this test. The team behind F.03 says no human will win this again.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: adcock_brett. DM for credit or removal\n\n#robots #robotics #AI #automation #technology",
+ "start_s": 0,
+ "clip_s": 22,
+ "source": "https://video.twimg.com/amplify_video/2056211643424755712/vid/avc1/1258x720/EMpHxTHkAdCi7ZyJ.mp4?tag=14",
+ "channel": "adcock_brett",
+ "publish": "make"
+}
