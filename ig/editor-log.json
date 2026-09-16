@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-10T02:54:23Z",
-  "gate": "B",
-  "subject": "THE ONE LAB <em>BUILT TO KEEP AI SAFE</em> JUST HAD THREE OF ITS OWN RESEARCHERS BLOW THE WHISTLE",
-  "verdict": "REJECT",
-  "reason": "Hook withholds the specific claim — 'blow the whistle' never says WHAT they warned about. The doctrine requires 'nothing withheld' and 'the wild specifics.' The actual claim (AI could destroy humans this decade, per the caption) never appears on the cover or any slide. A reader who swipes all seven slides still doesn't know what the warning was.; Slide 4 body is an unfinished fragment with no pred"
- },
- {
-  "t": "2026-09-10T02:57:11Z",
-  "gate": "A",
-  "subject": "JUST IN: Anthropic's Lead AI Alignment researcher says he believes there is a &gt;10% chance \"AI could kill all humans\" ",
-  "verdict": "KILL",
-  "reason": "This is reaction-bait: a researcher expressed an opinion online, and the 'story' is that it gained engagement—not an event where reality moved or a consequence anyone felt."
- },
- {
-  "t": "2026-09-10T02:58:01Z",
-  "gate": "A",
-  "subject": "Anthropic’s Economics team is sharing a new model of how AI might affect economic growth, jobs, wages, and more by 2030.",
-  "verdict": "KILL",
-  "reason": "Routine tool announcement without jaw-dropping substance or major consequence—insufficient for THE STANDARD."
- },
- {
   "t": "2026-09-10T02:58:45Z",
   "gate": "A",
   "subject": "Former and current Anthropic employees are now posting that they “earnestly believe AI could kill all humans.” This comp",
@@ -2098,5 +2077,26 @@
   "subject": "BREAKING: A single Israeli Effective Altruism firm is behind OpenAI, Anthropic, and Meta cyberattacks 🧵 with help from @",
   "verdict": "KILL",
   "reason": "Unverified allegation with no verifiable facts, numbers, or official confirmation from the targeted companies—violates TRUTH LAW and NO SUBSTANCE; the bare claim would require the writer to pad significantly."
+ },
+ {
+  "t": "2026-09-16T17:55:07Z",
+  "gate": "B",
+  "subject": "INDIA REACHED MARS FOR <em>$74 MILLION</em>. THE MOVIE GRAVITY COST MORE TO MAKE.",
+  "verdict": "REJECT",
+  "reason": "§5 TRUTH LAW — 'This week, ISRO launched its first satellite that orbits high enough to watch a fixed part of Earth at all times' is factually false. India has operated geostationary satellites since 1983 (the APPLE satellite, then the INSAT series through every decade since). Whatever launched this week is not India's first geostationary satellite. A false 'first' on a verifiable 40-year record i"
+ },
+ {
+  "t": "2026-09-16T17:56:47Z",
+  "gate": "B",
+  "subject": "INDIA REACHED MARS FOR <em>$74 MILLION</em>. THE MOVIE GRAVITY COST MORE TO MAKE.",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-16T17:57:06Z",
+  "gate": "R",
+  "subject": "INDIA REACHED MARS FOR <em>$74 MILLION</em>. THE MOVIE GRAVITY COST MORE TO MAKE.",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

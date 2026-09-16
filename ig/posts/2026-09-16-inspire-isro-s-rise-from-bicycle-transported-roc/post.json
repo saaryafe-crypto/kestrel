@@ -1,0 +1,45 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "INDIA REACHED MARS FOR <em>$74 MILLION</em>. THE MOVIE GRAVITY COST MORE TO MAKE.",
+   "hsize": 72,
+   "face": "Narendra Modi",
+   "media": "posts/2026-09-16-inspire-isro-s-rise-from-bicycle-transported-roc/gen-0-r.jpg",
+   "image_prompt": "Narendra Modi representing India's success in Mars exploration done on a tight and limited budget"
+  }
+ ],
+ "caption": "India started with no rockets and bicycle parts. It became the first country to land near the moon's south pole. \ud83d\ude80\n\nIn 1963, a small team of scientists worked out of a fishing village on India's southern coast. They had no trucks, no facilities, and almost no money. Rocket parts were transported to the launchpad by bicycle and bullock cart. The nose cone was stored in the local church because there was no other building. That was the start of India's space program.\n\nFor the next five decades, India's space agency built everything from scratch. No borrowed technology, no massive budget, no guarantee of success. Just decades of work.\n\nIn 2013, India aimed for Mars. The whole mission cost $74 million. NASA launched its own Mars probe the same year for $671 million. India reached Mars on the very first try.\n\nIn August 2023, India landed a spacecraft near the moon's south pole. Russia had tried the same thing four days earlier and crashed. No country had ever landed there before. India did it first.\n\nThey built it all from a bicycle and a borrowed church. Send this to someone who thinks they do not have enough to start.\n\nWhen India started, the gap between them and the major space powers looked impossible. They crossed it by not stopping. Every builder working from a small budget or a late start is running the same race.\n\nRunning a business? DM us \"AI\" and we will show you what this could do for yours.\n\nSources: narendramodi, AmitShah, IndianTechGuide, ISRO\n\n#ISRO #SpaceTech #India #Innovation #Inspiration",
+ "pinned_comment": "ISRO's annual budget is less than 10% of what NASA spends each year. They still became the first to land near the moon's south pole.",
+ "hook_tournament": {
+  "story_type": "money_win",
+  "candidates": [
+   "A COUNTRY WITH NO ROCKETS DECIDED TO REACH <em>MARS</em>",
+   "INDIA LAUNCHED A MARS MISSION FOR <em>$74 MILLION</em>",
+   "THEY STORED INDIA'S FIRST ROCKETS INSIDE A <em>CHURCH</em>"
+  ],
+  "scores": [
+   0,
+   9,
+   1
+  ],
+  "winner": 1,
+  "why": "$74 million Mars mission is a genuine shockingly-cheap fact that stops you cold. The 'no rockets' claim is false (India had PSLV) and 'inside a church' sounds made up."
+ },
+ "hook_sharpen": {
+  "story_type": "money_win",
+  "candidates": [
+   "INDIA REACHED MARS FOR <em>$74 MILLION</em>. THE MOVIE GRAVITY COST MORE TO MAKE.",
+   "INDIA LAUNCHED A MARS MISSION FOR <em>$74 MILLION</em>"
+  ],
+  "scores": [
+   8,
+   5
+  ],
+  "winner": 0,
+  "why": "The Gravity comparison creates an instant 'wait, WHAT?' that stops scrolling. The Mars fact alone is interesting but doesn't pack enough punch to break feed fatigue."
+ },
+ "handle": "@yaffeai",
+ "container": "inspire",
+ "edu_mode": "inspire"
+}
