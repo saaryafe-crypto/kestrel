@@ -1,0 +1,84 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ELON MUSK SAYS SOLAR WILL KILL OIL <em>BEFORE YOUR GAS CAR LOAN IS PAID OFF</em>",
+   "kicker": "HE SELLS SOLAR AND EVS",
+   "hsize": 72,
+   "hook_candidates": [
+    {
+     "headline": "ELON MUSK DECLARED OIL AND GAS DEAD. <em>A BILLIONAIRE REPLIED 'PROBABLY NOTHING.'</em>"
+    },
+    {
+     "headline": "ELON MUSK SAYS SOLAR WIPES OUT <em>OIL, GAS, AND NUCLEAR</em> UNTIL THEY'RE BASICALLY NOTHING."
+    },
+    {
+     "headline": "ELON MUSK SAYS YOUR OIL STOCKS AND GAS CAR <em>ARE BOTH GOING TO ZERO.</em>"
+    },
+    {
+     "headline": "<em>ELON MUSK JUST CALLED THE DEATH OF ALL FOSSIL FUELS.</em> ANOTHER BILLIONAIRE: 'PROBABLY NOTHING.'"
+    },
+    {
+     "headline": "ELON MUSK SAYS OIL, GAS, AND NUCLEAR WILL FALL TO <em>UNDER 0.1% OF ALL ENERGY.</em>"
+    }
+   ],
+   "media": "posts/2026-09-16-the-solar-power-exponential-will-continu/gen-0-r.jpg",
+   "image_prompt": "Elon Musk laughing as a crushed gas car sits worthless and discarded in a junkyard",
+   "gen_person": true
+  }
+ ],
+ "caption": "Elon Musk says solar will wipe out oil, gas, and nuclear until they're basically nothing. A billionaire's response: 'Probably nothing.'\n\nEveryone assumed solar was growing fast but would always be one option among many. Oil kept the lights on. Gas heated your house. Nuclear was the long-term plan. That was the accepted story.\n\nThen Musk posted on X: solar will keep growing until oil, gas, coal, and nuclear together fall below 0.1% of total energy use. Not shrinking. Not declining. Effectively gone. The tweet got 1.9 million views.\n\nHere's the part that should stop you cold. Chamath Palihapitiya, a billionaire investor who has watched more energy money move than most people will ever see, read a prediction about the literal death of fossil fuels as industries. His public response was two words: 'Probably nothing.' That is not dismissal. That is what insiders say when something is already obvious to them and they want to look calm about it.\n\nIf Musk is even close to right, the gas car you're financing right now is on a path to worthless before the loan is paid off. Every oil stock sitting in a retirement account just got a target on its back. And the man making that prediction personally sells solar panels and electric cars. He profits billions if he's right. That doesn't make him wrong.\n\nThe world's richest man just called the death of fossil fuels. The only other billionaire who responded said 'probably nothing' and meant the opposite. Oil, gas, and nuclear below 0.1% of total energy. That is the whole story.\n\nRunning a business? DM us \"AI\" and we'll show you what a shift this size could mean for yours.\n\nSources: X (elonmusk, September 15, 2026)\n\n#solar #energy #elonmusk #investing #fossilfuels",
+ "pinned_comment": "'Probably nothing' from a billionaire investor is what people with real money say when they want to look calm about something they already see coming. The question is whether you're reading it the same way.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "ELON MUSK SAYS OIL GOES TO ZERO AND HE HAPPENS TO <em>SELL SOLAR PANELS</em>",
+   "ELON MUSK SAYS OIL STOCKS GO TO ZERO, <em>INCLUDING THE ONES IN YOUR 401K</em>",
+   "ELON MUSK SAYS YOUR GAS CAR BECOMES <em>WORTHLESS BEFORE YOU FINISH PAYING IT OFF</em>",
+   "ELON MUSK JUST SAID SOLAR PUSHES OIL, GAS, AND NUCLEAR <em>BELOW 0.1%</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   9,
+   4
+  ],
+  "winner": 2,
+  "why": "Your car becomes worthless while you're still paying for it\u2014hits everyone with a car payment immediately with visceral personal dread. Your 401K gets wiped out by zero oil stocks but that requires awareness most people don't actively track."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "ELON MUSK SAYS YOUR GAS CAR BECOMES <em>WORTHLESS BEFORE YOU FINISH PAYING IT OFF</em>",
+   "ELON MUSK SAYS OIL AND GAS DIE, AND A BILLIONAIRE REPLIED <em>\"PROBABLY NOTHING\"</em>"
+  ],
+  "scores": [
+   9,
+   6
+  ],
+  "winner": 0,
+  "why": "[0] attacks something deeply personal\u2014your car's value and your loan\u2014making you stop scrolling immediately. [1] is a clever meme setup but relies on abstract energy policy and a sarcastic billionaire quote that needs context to fully land."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Elon Musk",
+  "actor_known": true,
+  "anchor": "Elon Musk",
+  "specifics": [
+   "Musk says oil, gas, nuclear \u2014 ALL of it \u2014 falls below 0.1% of total energy use",
+   "Billionaire Chamath Palihapitiya's entire response: 'Probably nothing' (pure sarcasm)",
+   "1.9 million views on the tweet within hours of posting",
+   "If true, every gas car being financed today becomes worthless scrap before the loan is paid off",
+   "Musk personally profits if solar wins \u2014 he sells solar panels and EVs"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "The solar power exponential will continue until all other energy sources are &lt;&lt;0.1%",
+  "link": "https://x.com/elonmusk/status/2099959353004720393",
+  "judge_interest": 4,
+  "scout_score": 105.0
+ },
+ "gate_a_relaxed": true
+}
