@@ -1,0 +1,76 @@
+{
+ "image_brief": "A suburban starter home for sale with a giant padlock bolted across the front door, locked out of reach",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "MORTGAGE RATES JUST HIT A <em>19-YEAR HIGH</em>, ADDING <em>$700 A MONTH</em> TO YOUR PAYMENT",
+   "kicker": "LAST TIME: JULY 2007",
+   "hsize": 72,
+   "media": "posts/2026-09-16-breaking-the-10y-note-yield-rises-to-5-0/gen-0.jpg",
+   "image_prompt": "A house's front door locked with heavy chains and padlock, the door frame, wall, and window all visible"
+  }
+ ],
+ "caption": "Mortgage rates just hit 7.17%, the highest since July 2007, the year before the housing market collapsed. Homeownership is officially a luxury.\n\nEveryone assumed rates would eventually cool down and give first-time buyers a real shot at getting in. That assumption is officially dead.\n\nThe average 30-year mortgage rate hit 7.17% this week. If you try to buy a $400k house right now, you're paying roughly $700 more per month than someone who locked in four years ago. That's $8,400 a year extra, for the exact same house.\n\nHere's what makes this wild: the rate the US government pays to borrow money for 10 years just hit 5.04%, which is the exact level it was at in July 2007, the months right before the housing market collapsed and wiped out millions of people. We're back there now. Except home prices are far higher than they were then. There's no cheap correction waiting on the other side this time.\n\nRenters stay renters longer. First-time buyers get priced out permanently. Anyone on a variable rate is getting hit right now. Pending home sales just fell for the fifth straight month, hitting their lowest reading since records began in 2001. Owning a home used to be the baseline. Now it's the finish line nobody can reach.\n\nRates this high don't just slow home sales. They lock out an entire generation. Every person priced out today is a renter for years, a buyer never, and part of the reason under-35 homeownership just fell to 37%, its lowest share since 1965.\n\nRunning a business? DM us \"AI\" and we'll show you what this could mean for yours.\n\nSources: The Kobeissi Letter\n\n#mortgage #housingmarket #realestate #interestrates #personalfinance",
+ "pinned_comment": "The part we couldn't fit: that extra $700 a month adds up to $252,000 more over the life of the loan. Not extra equity. Extra interest. You don't own more house, you just pay more for it.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "HOMEOWNERSHIP IS OFFICIALLY A LUXURY AND <em>$700 A MONTH</em> IS WHY",
+   "YOUR MORTGAGE RATE IS AT <em>2007 LEVELS</em>, THE YEAR BEFORE THE HOUSING CRASH",
+   "RATES JUST HIT <em>7.17%</em>, ADDING <em>$700 A MONTH</em> TO YOUR MORTGAGE PAYMENT",
+   "MORTGAGE RATES HIT <em>7.17%, THE SAME LEVEL AS RIGHT BEFORE THE 2008 CRASH.</em>",
+   "YOUR MORTGAGE JUST HIT 7.17%. <em>HOMEOWNERSHIP IS OFFICIALLY A LUXURY.</em>",
+   "YOUR $400K HOME NOW COSTS <em>$700 MORE A MONTH</em> THAN FOUR YEARS AGO",
+   "A $400K HOME COSTS YOU <em>$700 MORE PER MONTH THAN IT DID FOUR YEARS AGO.</em>"
+  ],
+  "scores": [
+   8.5,
+   7,
+   9,
+   8,
+   7.5,
+   0,
+   0
+  ],
+  "winner": 2,
+  "why": "[2] leads with personal financial shock ($700/month) that stops scrolling instantly. [0] requires processing an abstract claim before the impact hits."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "RATES JUST HIT <em>7.17%</em>, ADDING <em>$700 A MONTH</em> TO YOUR MORTGAGE PAYMENT",
+   "YOUR MORTGAGE RATE JUST HIT <em>2007 LEVELS</em>, THE YEAR BEFORE HOUSING <em>COLLAPSED</em>",
+   "MORTGAGE RATES JUST HIT A <em>19-YEAR HIGH</em>, ADDING <em>$700 A MONTH</em> TO YOUR PAYMENT"
+  ],
+  "scores": [
+   8,
+   5,
+   9
+  ],
+  "winner": 2,
+  "why": "19-YEAR HIGH signals severity immediately without explanation, while $700/MONTH makes the threat personal. [0] has the same wallet impact but loses force by leading with a rate that doesn't obviously mean 'bad' to someone half-asleep."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "U.S. mortgage market / 10-Year Treasury yield",
+  "actor_known": false,
+  "anchor": "your mortgage",
+  "specifics": [
+   "7.17% average rate on a 30-year mortgage \u2014 adds ~$700/month vs. pandemic-era rates on a $400k loan",
+   "10-Year yield at 5.04%, highest since July 2007 \u2014 the year before the housing market collapsed",
+   "'Homeownership is officially a luxury' \u2014 1.3 million people saw that tweet in hours",
+   "We've returned to pre-2008-crash yield levels, but home prices are dramatically higher than they were then",
+   "The tweet posted September 15, 2026 went instantly viral with 13K likes"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (4/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: The 10Y Note Yield rises to 5.04%, its highest level since July 2007. This pushes the average interest rate on a 30Y mortgage up to 7.17%. Homeownership is officially a luxury.",
+  "link": "https://x.com/KobeissiLetter/status/2099805158641127777",
+  "judge_interest": 5,
+  "scout_score": 78.3
+ },
+ "gate_a_relaxed": true
+}
