@@ -563,9 +563,12 @@ def art_direct(post, story_title="", simple=False):
         "color: " + ", ".join(logo_list) + '. Whenever '
         'a brief places one of these brands\' marks in the scene, return '
         '"logo": "<exact name from that list, without the color>" on that '
-        'brief — the real mark rides to the generator as a reference — and '
-        'write into the brief: "the company logo exactly as in the reference '
-        'image". Never let the model draw a listed brand\'s logo from memory. '
+        'brief — the real mark rides to the generator as a reference '
+        'automatically — and in the brief itself name it plainly: "the '
+        'OpenAI logo", "the Tesla logo". NEVER write "exactly as in the '
+        'reference image", "as in the reference", or any reference-image '
+        'language into a brief (owner Sep 15: the reference riding along '
+        'is plumbing, the brief just names the logo). '
         "LOGO PLACEMENT (owner Sep 9, the Gemini cover: a backlit \"GEMINI\" "
         "letter-sign floated over a library and read instantly fake): the "
         "mark is the brand's SYMBOL, never its name spelled out — never "
@@ -1991,6 +1994,7 @@ def main(stories_path):
             print(f"slide {i+1} brief (attempt {attempt+1}): {brief}",
                   file=sys.stderr)
             path = None
+            named_fb = None
             if person:
                 # NANO ROUTE — PRIMARY person model (owner order Aug 14,
                 # "change to nano banana if its 4 times cheaper"; head-to-head
@@ -2039,22 +2043,22 @@ def main(stories_path):
                                    "theatrical scale. Never ask for a "
                                    "recognizable face")
                     fb = simpler_brief(brief, s.get("headline", ""), flaw=fb_flaw)
-                    brief, face_refs = face_riders(fb or brief, None)
+                    named_fb = fb or brief
+                    brief, face_refs = face_riders(named_fb, None)
             if not path:
                 refs = [r for r in [ref_photo if want_ref else None]
                         + face_refs + [brand_ref] if r]
-                # face_refs on a cover force the nano route (Aug 15 post-mortem,
-                # the paint-roller "Dario": art_direct named him in the brief
-                # text only, the E005 scrub rewrote it to "the person in the
-                # reference photo" + attached his real photo — then the cover
-                # went to gpt, which IGNORES reference photos, so it invented
-                # a stranger from that phrase. Only photo-capable models may
-                # render a brief that points at a reference person.)
+                # named_fb rides along so the rendering rungs speak names,
+                # never "the person in the reference photo" (owner Sep 15);
+                # only genimg's Seedream rung keeps the E005 scrub. (Aug 15
+                # paint-roller post-mortem: gpt IGNORES reference photos and
+                # invented a stranger from the scrubbed phrase.)
                 path = genimg.generate(
                     brief, out_jpg, refs=refs or None,
                     cover=(s["type"] == "cover"),
                     nano=bool(face_refs and s["type"] == "cover"),
-                    collage=(s["type"] == "cover"))
+                    collage=(s["type"] == "cover"),
+                    named_brief=named_fb)
             if not path:
                 # keep trying: one flaky prediction must not forfeit the cover
                 # (Aug 2 bare edu cover, issue #16); budget-out retries are

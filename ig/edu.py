@@ -621,6 +621,7 @@ def main():
             print(f"slide {i+1} brief (attempt {attempt+1}): {brief}",
                   file=sys.stderr)
             path = None
+            named_fb = None
             if person:
                 # nano-with-refs rung: identity comes from the press photo.
                 # Requires a photo for EVERY named person — no photo, no rung
@@ -651,13 +652,18 @@ def main():
                                            cover=(s["type"] == "cover"),
                                            person=True)
                 if not path:
-                    # FALLBACK RUNG: Seedream + ref photos, names stripped (E005)
+                    # FALLBACK RUNG: ref photos attached; the named brief
+                    # rides along so the rendering rungs speak names, never
+                    # "the person in the reference photo" (owner Sep 15) —
+                    # only genimg's Seedream rung keeps the E005 scrub
                     person = False
+                    named_fb = brief
                     brief, face_refs = face_riders(brief, face_field)
             if not path:
                 refs = face_refs + ([brand_ref] if brand_ref else [])
                 path = genimg.generate(brief, out_jpg, refs=refs or None,
-                                       cover=(s["type"] == "cover"))
+                                       cover=(s["type"] == "cover"),
+                                       named_brief=named_fb)
             if not path:
                 # keep trying: one flaky prediction must not forfeit the cover
                 # (Aug 2 bare cover, issue #16); budget-out retries are free

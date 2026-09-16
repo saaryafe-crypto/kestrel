@@ -396,24 +396,33 @@ def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
     core = f"{INTRO}{brief.strip().rstrip('.')}."
     bare = f"{core}{GUARD}"
     tailed = f"{core}{tail}{GUARD}"
-    # GROK NAME LAW (run 34920134374 post-mortem, Sep 15: a stranger-face
-    # 2/10 cover shipped): grok takes NO reference photos — its likeness
-    # comes ONLY from full names in the prompt (the owner's winning Trump
-    # config). Callers scrub names to "the person in the reference photo"
-    # for the E005/ref rungs, so grok must get the UNSCRUBBED brief via
-    # named_brief. A scrubbed brief that points at a photo grok can't see
-    # is a stranger factory — skip the grok rung entirely in that case.
+    # NAME LAW (owner Sep 15, twice in one day: "stop saying 'of the person
+    # in the reference photo'... it needs a name of a person"): every
+    # shipped prompt speaks in FULL NAMES, never in reference-photo
+    # pointers. grok takes no photos, so names are its ONLY likeness
+    # source (run 34920134374: a scrubbed brief on grok = stranger
+    # factory). sunburst and nano DO take the photos — they get the named
+    # prompt too, the refs ride along silently for likeness; the old
+    # scrubbed-prompt path was itself the Aug 15 paint-roller failure
+    # (gpt ignored the photo and invented a stranger from the phrase).
+    # The E005-scrubbed brief + PERSON_LINE survive ONLY on the final
+    # Seedream rung, which physically rejects any real name in the prompt
+    # (measured Aug 2: named alone/with photo/one or three = E005 always).
     if named_brief:
-        grok_prompt = f"{INTRO}{named_brief.strip().rstrip('.')}.{GUARD}"
+        named_prompt = f"{INTRO}{named_brief.strip().rstrip('.')}.{GUARD}"
     else:
-        grok_prompt = bare if "reference photo" not in brief else None
-    rungs = [] if (montage or not grok_prompt) else [
-        ("grok", GROK_COST, lambda: _call_grok(key, grok_prompt), grok_prompt)]
+        named_prompt = bare if "reference photo" not in brief else None
+    if montage:
+        named_prompt = None  # montages are DEFINED as cutouts of the photos
+    rungs = [] if not named_prompt else [
+        ("grok", GROK_COST, lambda: _call_grok(key, named_prompt),
+         named_prompt)]
+    ref_prompt = named_prompt or tailed
     rungs += [
-        ("sunburst", SUN_COST, lambda: _call_sunburst(key, tailed, live_refs),
-         tailed),
-        ("nano", NANO_COST, lambda: _call_nano(key, tailed, live_refs),
-         tailed)]
+        ("sunburst", SUN_COST,
+         lambda: _call_sunburst(key, ref_prompt, live_refs), ref_prompt),
+        ("nano", NANO_COST, lambda: _call_nano(key, ref_prompt, live_refs),
+         ref_prompt)]
     if not montage:
         rungs.append(("seedream", COST,
                       lambda: _call(key, tailed, refs=live_refs or None),
