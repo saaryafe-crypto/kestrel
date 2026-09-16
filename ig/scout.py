@@ -192,8 +192,11 @@ def radar_boost(stories):
     # ai/tech or whatever"). The wow_aggregators accounts were approved for
     # viral CLIPS (reel.py reads radar.json directly and is untouched);
     # their TEXT stories join the NEWS pool only when they land on an owner
-    # lens — same regex the wide story net already uses.
-    wow = {h.lower() for h in lanes.get("wow_aggregators", [])}
+    # lens — same regex the wide story net already uses. Sep 16: the new
+    # ai_video_natives lane (added in the owner's reel-supply audit) is also
+    # clip-first — its text rides the same lens gate.
+    wow = {h.lower() for ln in ("wow_aggregators", "ai_video_natives")
+           for h in lanes.get(ln, [])}
     moments = []
     for m in r.get("moments", []):
         if m.get("sub", "").lower() not in approved:

@@ -1,8 +1,12 @@
 {
- "_comment": "THE ONLY CONTENT SOURCE (owner order Aug 3): every post and reel comes from these X accounts and nowhere else - the wide-net topic searches, Reddit, news feeds and the platform scout are all DELETED. radar_x.py batches these handles into from:-OR searches with a min_faves floor, so we only pay for tweets that are ALREADY viral - adding accounts is nearly free. Edit freely, no code change needed; every layer (radar_x, scout, reel) re-checks this file as a hard allowlist. OWNER DOCTRINE (Aug 1, permanent): follow accounts that SUMMARIZE each world (AI, robotics, space, markets, breaking tech) - not company/CEO roll calls; company accounts earn a slot only if their OWN tweets go viral (sama/elonmusk/OpenAI-class). Markets lane added Aug 1 (owner: investment world - Citadel/Situational Awareness, Buffett, Wall St drama).",
+ "_comment": "THE ONLY CONTENT SOURCE (owner order Aug 3): every post and reel comes from these X accounts and nowhere else - the wide-net topic searches, Reddit, news feeds and the platform scout are all DELETED. radar_x.py batches these handles into from:-OR searches with a min_faves floor, so we only pay for tweets that are ALREADY viral - adding accounts is nearly free. Edit freely, no code change needed; every layer (radar_x, scout, reel) re-checks this file as a hard allowlist. OWNER DOCTRINE (Aug 1, permanent): follow accounts that SUMMARIZE each world (AI, robotics, space, markets, breaking tech) - not company/CEO roll calls; company accounts earn a slot only if their OWN tweets go viral (sama/elonmusk/OpenAI-class). Markets lane added Aug 1 (owner: investment world - Citadel/Situational Awareness, Buffett, Wall St drama). Sep 16 reel-supply audit (owner order 'follow better acounts'): every handle probed for real 30d viral-video supply; winners added (ai_video_natives lane + Figure_robot, adcock_brett, Waymo, NASA, Google, nvidia), duds skipped (PJaccetturo, testingcatalog, GeminiApp, pika_labs = 0 qualifying videos).",
  "lanes": {
   "ai_labs_founders": [
-   "sama", "elonmusk", "OpenAI", "AnthropicAI", "GoogleDeepMind", "karpathy"
+   "sama", "elonmusk", "OpenAI", "AnthropicAI", "GoogleDeepMind", "karpathy",
+   "Google", "nvidia"
+  ],
+  "ai_video_natives": [
+   "EHuanglu", "AngryTomtweets", "Dr_Singularity"
   ],
   "ai_news_summarizers": [
    "tsarnick", "kimmonismus", "rowancheung", "AISafetyMemes", "bindureddy",
@@ -12,11 +16,12 @@
   ],
   "robotics_summarizers": [
    "TheHumanoidHub", "MachinePix", "IntEngineering", "engineers_feed",
-   "BostonDynamics", "UnitreeRobotics"
+   "BostonDynamics", "UnitreeRobotics", "Figure_robot", "adcock_brett",
+   "Waymo"
   ],
   "space_summarizers": [
    "NASASpaceflight", "Erdayastronaut", "ajamesmccarthy", "SawyerMerritt",
-   "cb_doge", "RocketLab"
+   "cb_doge", "RocketLab", "NASA"
   ],
   "markets_summarizers": [
    "unusual_whales", "WatcherGuru", "DeItaone", "KobeissiLetter",

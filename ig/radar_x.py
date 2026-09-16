@@ -226,9 +226,14 @@ STORY_CONTEXT_RE = re.compile(
 # breakouts at a low floor; ARCHIVE sweeps 6 months for the all-time
 # monsters at a 5x floor — Top sort returns ~1 page per batch, so the
 # archive adds giants, not flood. reel.py frames >7d clips as evergreen,
-# never as news.
+# never as news. THIRD (middle) window since Sep 16 (owner reel-supply
+# audit): a clip 8-30 days old with 2K-10K faves was invisible — too old
+# for FRESH, too small for ARCHIVE. Measured: @TheHumanoidHub had 7
+# qualifying videos in 30d (top 1.7M views) yet 0 in the pool. MID closes
+# that hole at a 1.5x floor.
 VIDEO_SEARCH_EVERY_H = 12
 VIDEO_FRESH_AGE_D, VIDEO_FRESH_FLOOR = 7, 2000
+VIDEO_MID_AGE_D, VIDEO_MID_FLOOR = 30, 3000
 VIDEO_ARCH_AGE_D, VIDEO_ARCH_FLOOR = 180, 10000
 VIDEO_CACHE = os.path.join(HERE, "x-videos.json")
 
@@ -487,6 +492,7 @@ def video_pool():
         return cache["moments"] if cache else []
     pool, seen, req = [], set(), 0
     for age_d, floor in ((VIDEO_FRESH_AGE_D, VIDEO_FRESH_FLOOR),
+                         (VIDEO_MID_AGE_D, VIDEO_MID_FLOOR),
                          (VIDEO_ARCH_AGE_D, VIDEO_ARCH_FLOOR)):
         since = int(now - age_d * 86400)
         for i in range(0, len(handles), BATCH_SIZE):
@@ -517,7 +523,8 @@ def video_pool():
     json.dump(led, open(LEDGER, "w"), indent=1)
     json.dump({"at": now, "moments": pool}, open(VIDEO_CACHE, "w"), indent=1)
     print(f"x video scout: {len(pool)} viral watchlist videos "
-          f"({VIDEO_FRESH_AGE_D}d fresh + {VIDEO_ARCH_AGE_D}d archive, "
+          f"({VIDEO_FRESH_AGE_D}d fresh + {VIDEO_MID_AGE_D}d mid + "
+          f"{VIDEO_ARCH_AGE_D}d archive, "
           f"{led['reads']:,} reads this month)", file=sys.stderr)
     return pool
 
