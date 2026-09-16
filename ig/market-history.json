@@ -1,21 +1,6 @@
 [
  {
   "page": "technology",
-  "hook": "\"Before a luxury Mercedes interior becomes leather, wood and metal, designers can physically sculpt its dashboard, doors and controls in clay to refine the cabin\u2019s proportions and surfaces.\n\nClay gives designers somethin",
-  "date": "2026-09-01"
- },
- {
-  "page": "wired",
-  "hook": "\"The latest trend in women\u2019s health is hormone therapy. It was out of favor for years, after a 2002 study led women who might have otherwise asked for the treatment to overestimate potential cancer risks and doctors to p",
-  "date": "2026-09-01"
- },
- {
-  "page": "futurism",
-  "hook": "\"When president Donald Trump, in his latest paroxysm, declared that he would be renaming Lake Ontario to \u201cLake America,\u201d Google instantly capitulated. So eager was it to realize his will that it actually renamed the lake",
-  "date": "2026-09-01"
- },
- {
-  "page": "technology",
   "hook": "\"NVIDIA\u2019s DLSS 5 is already becoming a major talking point in PC gaming as modders test its neural rendering technology far beyond officially supported titles \ud83c\udfae\ud83e\udde0\n\nThe biggest change is that DLSS is moving beyond simply i",
   "date": "2026-09-03"
  },
@@ -30,24 +15,9 @@
   "date": "2026-09-02"
  },
  {
-  "page": "technology",
-  "hook": "\"Dyson has entered oral care with CameraJet, a $499.99 electric toothbrush that uses an internal camera and AI to target gaps while you brush \ud83e\udea5\ud83d\udcf8\n\nIts 100,000-pixel macro camera analyzes 28 images every second, while an A",
-  "date": "2026-09-01"
- },
- {
   "page": "mashable",
   "hook": "\"How do you handle working with a legend? Robert De Niro gives his best advice on beating imposter syndrome, even when sharing the screen with icons like him.\u2060\n\u2060\n#actors #hollywood #streaming #robertdeniro\".",
   "date": "2026-09-02"
- },
- {
-  "page": "mashable",
-  "hook": "\"We may be in 2026, but the internet\u2019s current favorite app is throwing it back to 2026. \u2060\n\u2060\nMapQuest has risen in the App Store rankings in response to the boycott of Google Maps. The mass downloads started after Trump ",
-  "date": "2026-09-01"
- },
- {
-  "page": "mashable",
-  "hook": "\"Yes, Kristy went right into the interview after this, with the harness and everything.\u2060\n\u2060\nHead to the link in bio to watch the full interview if you don't believe us.\".",
-  "date": "2026-09-01"
  },
  {
   "page": "wired",
@@ -73,16 +43,6 @@
   "page": "wired",
   "hook": "\"Pangram is an AI startup with 24 employees, headquartered above a Popeyes in Brooklyn. And, if it\u2019s to be believed, it\u2019s the one force standing in the way of a full machine takeover of the written word.\n\nPangram promise",
   "date": "2026-09-02"
- },
- {
-  "page": "wired",
-  "hook": "\"\u201cPushing AI to the point that you are asking humans not to use their thoughts and brains is such a turn off,\u201d reads one Glassdoor review. \u201cStop forcing AI onto everyone,\u201d reads another. And then there\u2019s this one: \u201cThe A",
-  "date": "2026-09-01"
- },
- {
-  "page": "wired",
-  "hook": "\"OpenAI announced Tuesday that its forthcoming AI model, Astra, is its first to reach the company\u2019s threshold for what it calls \u201ccritical\u201d cyber capabilities. OpenAI says it plans to publicly release a version of Astra \u201c",
-  "date": "2026-09-01"
  },
  {
   "page": "technology",
@@ -633,5 +593,35 @@
   "page": "wired",
   "hook": "\"Almost 150 politicians across Europe have been included on harmful deepfake pornography websites over the last few years, according to new research seen by WIRED. Some of the politicians, who are overwhelmingly women, h",
   "date": "2026-09-14"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"While the US appears to be further away from meaningful AI regulations than ever before, lawmakers certainly have plenty of ideas on how the country could go about setting meaningful rules.\n\nIt\u2019s a particularly precario",
+  "date": "2026-09-15"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"There are a few things you expect to see when a crowd of college students takes over a fraternity lawn in broad daylight. People stretching on yoga mats before a group run probably aren\u2019t among them. \n\nBut that\u2019s the se",
+  "date": "2026-09-15"
+ },
+ {
+  "page": "wired",
+  "hook": "\"The new WIRED app is here! Whether you're a reader, viewer, or listener, the app is the best way to experience WIRED. Here\u2019s what you can expect:\n\n\u2022 Make WIRED yours with a personalized Daily Digest built around the top",
+  "date": "2026-09-16"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Sam Altman said people are right to worry about AI companies and their models becoming too powerful, after a week in which AI leaders called for an industry-wide slowdown and the potential dangers of unregulated AI beca",
+  "date": "2026-09-16"
+ },
+ {
+  "page": "wired",
+  "hook": "\"WIRED tested samples of four types of peptides. The results show how lightly regulated the industry is, even as popularity surges.\n\nRead the full story at the \ud83d\udd17 in bio.\".",
+  "date": "2026-09-15"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Kash Patel, director of the Federal Bureau of Investigation, told confused members of the Senate judiciary committee on Thursday that new FBI hiring standards are aimed at protecting \u201cvictims of bestiality.\u201d\n\nPrior to t",
+  "date": "2026-09-15"
  }
 ]
