@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-16T15:33:26.629253+00:00",
+ "updated": "2026-09-16T19:27:59.113853+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -296,25 +296,6 @@
    "born": 1788663638.910901
   },
   {
-   "id": "2089387528012869974",
-   "title": "BREAKING: Nike stock, $NKE, collapses to its lowest level since September 2014, now down -78% from its all time high seen in 2021. The stock has now officially erased over -$200 billion in market cap since its record hig",
-   "sub": "KobeissiLetter",
-   "where": "@KobeissiLetter on X",
-   "unit": "likes",
-   "selftext": "BREAKING: Nike stock, $NKE, collapses to its lowest level since September 2014, now down -78% from its all time high seen in 2021. The stock has now officially erased over -$200 billion in market cap since its record high.",
-   "permalink": "https://x.com/KobeissiLetter/status/2089387528012869974",
-   "outlink": null,
-   "score": 17377,
-   "comments_n": 1568,
-   "views": 5819465,
-   "age_h": 26.6,
-   "vph": 653.3,
-   "image": "https://pbs.twimg.com/media/HP71mN2WYAAQti7.png",
-   "video": null,
-   "guide": false,
-   "born": 1786983894.023729
-  },
-  {
    "id": "2094896768525767120",
    "title": "JUST IN: 'Rich Dad Poor Dad' Robert Kiyosaki is $1,200,000,000 in debt.",
    "sub": "WatcherGuru",
@@ -406,8 +387,8 @@
    "score": 13441,
    "comments_n": 403,
    "views": 1347862,
-   "age_h": 29.2,
-   "vph": 460.2,
+   "age_h": 33.1,
+   "vph": 406.1,
    "image": "https://pbs.twimg.com/media/HSQBqbfXcAAYGj1.jpg",
    "images": [
     "https://pbs.twimg.com/media/HSQBqbfXcAAYGj1.jpg"
@@ -768,8 +749,8 @@
    "score": 9606,
    "comments_n": 302,
    "views": 531109,
-   "age_h": 2.7,
-   "vph": 3616.6,
+   "age_h": 6.6,
+   "vph": 1455.5,
    "image": "https://pbs.twimg.com/media/HSVuTGQWsAAaAEn.jpg",
    "images": [
     "https://pbs.twimg.com/media/HSVuTGQWsAAaAEn.jpg"
@@ -799,6 +780,28 @@
    "video": null,
    "guide": false,
    "born": 1789235679.039477
+  },
+  {
+   "id": "2100099212541051090",
+   "title": "So here's a crazy stat: Starship's upcoming 14th test flight next week, which will deliver 26 @Starlink V3 satellites to orbit for the first time, will increase the entire Starlink constellation capacity by 3%. It would ",
+   "sub": "SawyerMerritt",
+   "where": "@SawyerMerritt on X",
+   "unit": "likes",
+   "selftext": "So here's a crazy stat: Starship's upcoming 14th test flight next week, which will deliver 26 @Starlink V3 satellites to orbit for the first time, will increase the entire Starlink constellation capacity by 3%. It would take 10 Falcon 9 launches (277 V2 satellites) to add that same amount of capacity. Future Starship launches will eventually carry up to 60 next-gen Starlink V3 satellites, adding ~61,000 Gbps of network capacity in a single launch. That means each Starship launch will be able to deploy roughly as much Starlink capacity as 23 Falcon 9 launches combined - equivalent to about 640 V2 satellites.",
+   "permalink": "https://x.com/SawyerMerritt/status/2100099212541051090",
+   "outlink": null,
+   "score": 5183,
+   "comments_n": 130,
+   "views": 152146,
+   "age_h": 13.6,
+   "vph": 381.1,
+   "image": "https://pbs.twimg.com/media/HSULF8QXwAApwqX.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HSULF8QXwAApwqX.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1789537919.113853
   }
  ]
 }
