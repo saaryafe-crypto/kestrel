@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-11T04:12:46Z",
-  "gate": "R",
-  "subject": "5 GEMINI TRICKS THAT <em>REPLACE YOUR BUSINESS CONSULTANT</em> FOR FREE",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
   "t": "2026-09-11T06:08:40Z",
   "gate": "B",
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
@@ -2098,5 +2091,12 @@
   "subject": "THE SANDBOX WAS A PROP! OpenAI Turned Off the Guardrails, Left a Door to the Internet, and Then Sold the Hugging Face Br",
   "verdict": "KILL",
   "reason": "Unverified conspiracy claims from a single truncated X post with zero corroborating evidence, mainstream news coverage, or verifiable documentation."
+ },
+ {
+  "t": "2026-09-17T18:02:57Z",
+  "gate": "A",
+  "subject": "Israel is feeding Saudi Arabia intelligence on the Houthis, routed through Washington, a regional diplomat tells Kan New",
+  "verdict": "KILL",
+  "reason": "Geopolitical diplomacy story with zero tech/AI/business angle—completely off-brand for a page whose identity is 'AI/tech NEWS first' (owner order Sep 3)."
  }
 ]
