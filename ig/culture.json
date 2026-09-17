@@ -1,61 +1,70 @@
 {
- "ts": 1789581961.4322696,
- "updated": "2026-09-16",
+ "ts": 1789673452.557701,
+ "updated": "2026-09-17",
  "hot": [
   {
-   "name": "Charli XCX",
-   "why_hot_now": "Her North American arena tour launched September 11 in Philadelphia, with setlist videos and crowd clips dominating every FYP this week.",
-   "typical_scene": "silver bodysuit, fog cannons, 20,000 people screaming every word"
+   "name": "Widow's Bay",
+   "why_hot_now": "Shattered the all-time Emmy comedy record Sunday night, sweeping 14 awards including Best Comedy Series.",
+   "typical_scene": "entire cast mobbing the Emmy stage, 14 trophies raised"
+  },
+  {
+   "name": "Jean Smart",
+   "why_hot_now": "Won her fifth consecutive Emmy for Hacks at the 78th Primetime Emmy Awards on September 14.",
+   "typical_scene": "back onstage holding yet another Emmy, arms spread wide"
+  },
+  {
+   "name": "The Pitt",
+   "why_hot_now": "Took home Outstanding Drama Series at the Emmys just three days ago.",
+   "typical_scene": "blue scrubs, overwhelmed ER doctor in mid-shift chaos"
+  },
+  {
+   "name": "Mariska Hargitay",
+   "why_hot_now": "Hosted the Emmys and went viral with her Nicole Kidman AMC-ad parody, prompting Kidman to shout back from the audience.",
+   "typical_scene": "gown, moonlit theater spoof, microphone, Kidman yelling from crowd"
+  },
+  {
+   "name": "Taylor Swift",
+   "why_hot_now": "Unannounced Emmy cameo alongside host Hargitay broke the internet mid-broadcast Sunday.",
+   "typical_scene": "sidestage in sequins, surprise entrance into stunned TV crowd"
+  },
+  {
+   "name": "Harry Styles",
+   "why_hot_now": "Deep into his 30-night Madison Square Garden residency celebrating his fourth album, playing every weekend through October.",
+   "typical_scene": "feather boa twirling under MSG spotlights, sold-out crowd roaring"
   },
   {
    "name": "Olivia Rodrigo",
-   "why_hot_now": "The Unraveled Tour for 'You Seem Pretty Sad for a Girl So in Love' opens September 25, with ticket chaos and album streams surging all week.",
-   "typical_scene": "shredding guitar at the mic, front-row fans openly weeping"
+   "why_hot_now": "The Unraveled Tour kicks off September 25 and countdown content is flooding every FYP.",
+   "typical_scene": "smashing guitar on purple-lit stage, confetti raining down"
   },
   {
    "name": "Jeremy Allen White",
-   "why_hot_now": "Went viral again this week as shirtless Vanity Fair shoot photos circulated everywhere, reigniting The Bear discourse simultaneously.",
-   "typical_scene": "shirtless on a beach, accidentally recreating his own Calvin Klein ad"
-  },
-  {
-   "name": "Glen Powell",
-   "why_hot_now": "His streaming football-disguise comedy series dropped this month to huge viewership and non-stop reaction clips on TikTok.",
-   "typical_scene": "in a helmet trying desperately not to be recognized on the field"
-  },
-  {
-   "name": "Brad Pitt",
-   "why_hot_now": "Heart of the Beast opened in theaters this month, with trailer clips of him and his combat dog going massive on social.",
-   "typical_scene": "muddy and focused in dense jungle with a German Shepherd by his side"
+   "why_hot_now": "The Bear keeps dominating discourse and his Calvin Klein campaign clips keep recirculating on TikTok.",
+   "typical_scene": "white tank top, jaw set, brooding in a restaurant kitchen"
   },
   {
    "name": "Bruno Mars",
-   "why_hot_now": "The Romantic Tour is in its final North American stadium stretch through October, flooding feeds with FOMO clips nightly.",
-   "typical_scene": "full sequined suit center stage, entire stadium singing every lyric back"
+   "why_hot_now": "The Romantic Tour opens this Saturday at Hard Rock Stadium Miami, pre-show hype peaking now.",
+   "typical_scene": "glittery stadium stage, roses everywhere, full orchestra behind him"
   },
   {
-   "name": "GTA 6",
-   "why_hot_now": "The November 19 launch countdown is dominating gaming culture after Sony's limited-edition GTA 6 DualSense reveal on September 10.",
-   "typical_scene": "neon Vice City skyline at dusk, Jason and Lucia sprinting from cops"
-  },
-  {
-   "name": "Practical Magic 2",
-   "why_hot_now": "Sandra Bullock and Nicole Kidman's long-awaited reunion opened in theaters this month to an enormous wave of nostalgic fan energy.",
-   "typical_scene": "two witches in a moonlit garden, candles everywhere, sparks flying"
+   "name": "Charli XCX",
+   "why_hot_now": "Music, Fashion, Film Tour is the most-discussed arena run of fall 2026, mid-leg right now.",
+   "typical_scene": "silver avant-garde jumpsuit, lasers, mid-air on an arena levitation rig"
   }
  ],
  "memes": [
-  "'Saxophone Gets Louder' — video format where background music dramatically swells as someone describes their increasingly unhinged situation",
-  "'Kinda chic to…' captions reassigning luxury status to deeply relatable personal-growth moments that have nothing to do with money",
-  "GTA 6 countdown posts: people publishing elaborate, absurd 'November 19 survival plans' as if preparing for the apocalypse",
-  "Tornado Squirrel resurgence — the iconic storm photo squirrel is back as the default reaction image for riding out any chaos",
-  "Leonardo DiCaprio's awards-show moustache becoming the chaotic-energy reaction format of choice on Reddit and X",
-  "'2026 is the new 2016' nostalgia wave — grainy mirror selfies, heavy filters, and screenshots from long-dead apps flooding feeds",
-  "'My American Girl Doll' audio trend where creators assign hyper-specific niche identity tags as if listing their doll's accessories"
+  "Saxophone Gets Louder — a simple clip or image where the music/stakes keep escalating to absurd volume as a relatable situation spirals",
+  "Erling Haaland Running — World Cup sprint screenshot edited so he's charging toward any goal, deadline, or embarrassing moment you tag",
+  "GTA 6 Everything — game-release hype turned universal template: any real-life chaos reframed as a GTA 6 side mission",
+  "Villain Turned Hero — Olympics-born format where a competitor's \"threatening\" moment is recut with triumphant music to flip the narrative",
+  "Mariska Does the AMC Ad — clips of Hargitay's Emmy hosting bit dubbed over random dramatic entrances, Kidman's \"That's my bit!\" as the punchline",
+  "2026 Is the New 2016 — generational nostalgia bait listing eerie parallels between this year and a decade ago, serious and ironic versions both everywhere"
  ],
  "ai_flagships": [
   "Claude Fable 5.1",
   "GPT-6 Astra",
-  "Gemini 3.8 Flash",
+  "Gemini 3.1 Pro",
   "Grok 4.6",
   "Muse Spark 1.3"
  ]
