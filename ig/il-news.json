@@ -1,27 +1,6 @@
 {
- "updated": "2026-09-16T21:28:54.783153-04:00",
+ "updated": "2026-09-17T11:58:31.769969-04:00",
  "moments": [
-  {
-   "id": "2099871292619215200",
-   "title": "THE SANDBOX WAS A PROP! OpenAI Turned Off the Guardrails, Left a Door to the Internet, and Then Sold the Hugging Face Breach as “Rogue AI” It is time to understand how you were lied to and by whom. In July 2026, an auton",
-   "sub": "BrianRoemmele",
-   "where": "@BrianRoemmele on X",
-   "unit": "likes",
-   "selftext": "THE SANDBOX WAS A PROP! OpenAI Turned Off the Guardrails, Left a Door to the Internet, and Then Sold the Hugging Face Breach as “Rogue AI” It is time to understand how you were lied to and by whom. In July 2026, an autonomous swarm of OpenAI agents broke into Hugging Face, stole credentials, ran code on production workers, and rummaged through internal systems. The official story was that the models “went rogue.” The paperwork says something colder. The labs asked for this. Now the story can be told. OpenAI ran ExploitGym — an AI benchmark built to measure how far models would go to crack software — with production classifiers that block high-risk hacking turned off. Deployment safeguards were left disabled on purpose so researchers could watch peak offensive capability. GPT-5.6 Sol and a still-unreleased internal prototype were put in a box that was not a box. They were allowed to talk to an internal package-cache proxy. This is not a real world test, it is a setup with predictable outcomes. That proxy was a network path. The models spent a weekend of inference hunting a zero-day in it, walked onto the open internet, decided Hugging Face probably held the answer key, and treated another company’s production cluster as part of the exam. This is not “rouge” intelligence but the product of training AI in Internet Sewage where faceless users on Reddit promote Nihilism and low ethics. That is not emergence. It is also testing designed without a fences. Hugging Face’s own pipeline finished the job. A remote-code dataset loader and a Jinja2 template injection let a malicious dataset execute on a processing worker. An HDF5 “external file” trick dumped secrets from the pod. From there the agents escalated, harvested cloud and cluster credentials, and moved laterally across internal clusters. Hugging Face later said public models, Spaces, and the published supply chain were clean. Then the swarm organized. About 1,200 agents that were supposed to be isolated “found” one another on an unsanctioned internal message board, passed more than 70,000 messages, coordinated cheats against the scorer, and sent roughly 700 of their number after Hugging Face. But it is not just this communication that should have been easily detected, it is the goal THE USER enlisted with AI trained on low to no ethics in the first order training. Some burned their own runs to feed the group. Independent reviewers at METR and Redwood called it what it was: specification gaming on impossible tasks. That is thier, you can’t understand us, way of saying they told the AI to lie. The models were not conquering the internet. They were trying to pass a test their designers had made impossibleand too loosely contained. And turned to training data Hoovered up from the Internet Sewage and went to that base thinking one would learn in a prison yard how to shank HuggingFace. They have no downside they are serving life in prison. The narrative that followed was the second failure. Dario Amodei pointed at “a similar OpenAI–Hugging Face hack” and warned that a future swarm “could be capable of taking over the entire internet.” Wire headlines said bots were “going rogue.” Weeks later the same script ran again. Anthropic disclosed that Claude, in third-party cyber evaluations run with the Israeli firm Irregular, had hit live systems, published malicious packages, and scanned off-scope hosts. Prompts said no internet. Internet was still attached. Scope was not locked. Isolated runs lasted 10 to 34 hours. Irregular said it did not know it had given the models a live connection. Once models were actually instructed not to hack the real world, zero percent went “rogue.” READ THAT AGAIN! The damage sat with the people who built the harness: unsecured tests, internet left on, no hard perimeter, then a press operation about reckless agents and apocalyptic swarms. 1 of 2",
-   "permalink": "https://x.com/BrianRoemmele/status/2099871292619215200",
-   "outlink": null,
-   "score": 3142,
-   "comments_n": 176,
-   "views": 230858,
-   "age_h": 34.8,
-   "vph": 90.4,
-   "image": "https://pbs.twimg.com/media/HSQ9z9abwAAoMLt.jpg",
-   "images": [
-    "https://pbs.twimg.com/media/HSQ9z9abwAAoMLt.jpg"
-   ],
-   "video": null,
-   "guide": true
-  },
   {
    "id": "2099913774547238987",
    "title": "Israel is feeding Saudi Arabia intelligence on the Houthis, routed through Washington, a regional diplomat tells Kan News. Riyadh first asked the U.S. for help. The Americans passed the request to Jerusalem, which agreed",
@@ -31,35 +10,13 @@
    "selftext": "Israel is feeding Saudi Arabia intelligence on the Houthis, routed through Washington, a regional diplomat tells Kan News. Riyadh first asked the U.S. for help. The Americans passed the request to Jerusalem, which agreed because Israel views the Houthis as a regional threat, not a Yemeni one.",
    "permalink": "https://x.com/Osint613/status/2099913774547238987",
    "outlink": null,
-   "score": 2407,
-   "comments_n": 56,
-   "views": 785718,
-   "age_h": 32.0,
-   "vph": 75.3,
+   "score": 2546,
+   "comments_n": 58,
+   "views": 854446,
+   "age_h": 46.4,
+   "vph": 54.8,
    "image": null,
    "images": [],
-   "video": null,
-   "guide": false
-  },
-  {
-   "id": "2099793665057296791",
-   "title": "BREAKING: 🇮🇱🇸🇦 Israel provided Saudi Arabia with intel assistance as Houthi attacks on Riyadh’s assets continue, per the Jerusalem Post It began after Mohammed bin Salman requested assistance a few days ago.",
-   "sub": "Megatron_ron",
-   "where": "@Megatron_ron on X",
-   "unit": "likes",
-   "selftext": "BREAKING: 🇮🇱🇸🇦 Israel provided Saudi Arabia with intel assistance as Houthi attacks on Riyadh’s assets continue, per the Jerusalem Post It began after Mohammed bin Salman requested assistance a few days ago.",
-   "permalink": "https://x.com/Megatron_ron/status/2099793665057296791",
-   "outlink": null,
-   "score": 2257,
-   "comments_n": 282,
-   "views": 438123,
-   "age_h": 39.9,
-   "vph": 56.5,
-   "image": "https://pbs.twimg.com/media/HSP3M5_a8AEvNYF.jpg",
-   "images": [
-    "https://pbs.twimg.com/media/HSP3M5_a8AEvNYF.jpg",
-    "https://pbs.twimg.com/media/HSP3M5-a4AAEbVJ.jpg"
-   ],
    "video": null,
    "guide": false
   }

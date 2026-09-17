@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17T01:29:18.646247+00:00",
+ "updated": "2026-09-17T15:58:58.253671+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -782,26 +782,26 @@
    "born": 1789235679.039477
   },
   {
-   "id": "2100099212541051090",
-   "title": "So here's a crazy stat: Starship's upcoming 14th test flight next week, which will deliver 26 @Starlink V3 satellites to orbit for the first time, will increase the entire Starlink constellation capacity by 3%. It would ",
-   "sub": "SawyerMerritt",
-   "where": "@SawyerMerritt on X",
+   "id": "2100306604344132055",
+   "title": "This starry view is one of the largest images released to date from @NASAWebb \u2013 and it contains a surprise. Researchers found brown dwarfs twice the mass of Jupiter, which is small for this strange class of cosmic object",
+   "sub": "NASA",
+   "where": "@NASA on X",
    "unit": "likes",
-   "selftext": "So here's a crazy stat: Starship's upcoming 14th test flight next week, which will deliver 26 @Starlink V3 satellites to orbit for the first time, will increase the entire Starlink constellation capacity by 3%. It would take 10 Falcon 9 launches (277 V2 satellites) to add that same amount of capacity. Future Starship launches will eventually carry up to 60 next-gen Starlink V3 satellites, adding ~61,000 Gbps of network capacity in a single launch. That means each Starship launch will be able to deploy roughly as much Starlink capacity as 23 Falcon 9 launches combined - equivalent to about 640 V2 satellites.",
-   "permalink": "https://x.com/SawyerMerritt/status/2100099212541051090",
+   "selftext": "This starry view is one of the largest images released to date from @NASAWebb \u2013 and it contains a surprise. Researchers found brown dwarfs twice the mass of Jupiter, which is small for this strange class of cosmic object.",
+   "permalink": "https://x.com/NASA/status/2100306604344132055",
    "outlink": null,
-   "score": 6980,
-   "comments_n": 157,
-   "views": 290696,
-   "age_h": 19.7,
-   "vph": 354.7,
-   "image": "https://pbs.twimg.com/media/HSULF8QXwAApwqX.jpg",
+   "score": 8565,
+   "comments_n": 255,
+   "views": 1137871,
+   "age_h": 20.4,
+   "vph": 419.8,
+   "image": "https://pbs.twimg.com/media/HSXJuVPWoAEE5J9.jpg",
    "images": [
-    "https://pbs.twimg.com/media/HSULF8QXwAApwqX.jpg"
+    "https://pbs.twimg.com/media/HSXJuVPWoAEE5J9.jpg"
    ],
    "video": null,
    "guide": false,
-   "born": 1789537919.113853
+   "born": 1789587298.253671
   }
  ]
 }
