@@ -1,47 +1,5 @@
 [
  {
-  "t": "2026-09-10T23:04:57Z",
-  "gate": "A",
-  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
-  "verdict": "KILL",
-  "reason": "Unverified allegation with no linked source material, no Anthropic response, and only a 190-char tweet to source it; 'reportedly' signals unconfirmed claim that violates TRUTH LAW ('every fact true and current'), and the scout score of 6/10 does not justify investing writing resources in a misinformation-risk story."
- },
- {
-  "t": "2026-09-10T23:40:40Z",
-  "gate": "B",
-  "subject": "CLAUDE'S MAKER REPORTEDLY <em>CALLS POLICE ON AI CRITICS</em> BEFORE THEY BREAK ANY LAW",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — GENERATED UNKNOWN FACE: The cover shows an AI-generated unknown man at a surveillance console. The doctrine explicitly bans 'a generated unknown face; never a generated fake face standing in for a real non-famous person.' This story is about Anthropic, a household-name lab with a known CEO. The cover must either show Dario Amodei (real photo or named generation) alongside an Anthropic "
- },
- {
-  "t": "2026-09-11T01:08:55Z",
-  "gate": "B",
-  "subject": "5 FREE CHATGPT VOICE TRICKS THAT KILL <em>YOUR $300/HOUR COACHING BILL</em>",
-  "verdict": "REJECT",
-  "reason": "Cover image: the phone screen label reads 'ChatOPT' instead of 'ChatGPT' — the G has been generated as an O. The post's entire premise is ChatGPT voice mode; a misspelled brand name on the cover is a truth violation and a credibility killer. Regenerate the cover with the phone label corrected to 'ChatGPT'."
- },
- {
-  "t": "2026-09-11T01:10:49Z",
-  "gate": "B",
-  "subject": "5 FREE CHATGPT VOICE TRICKS THAT KILL <em>YOUR $300/HOUR COACHING BILL</em>",
-  "verdict": "REJECT",
-  "reason": "Cover image phone screen reads 'ChatOPT' — not 'ChatGPT.' The post teaches ChatGPT voice mode, the OpenAI neon logo is correct above, but the product name on the proof element (the phone) is misspelled. Truth law is absolute: the named product must be spelled correctly on every visible element. Fix: regenerate the cover with 'ChatGPT' on the phone screen. Everything else — vendor cast, composition"
- },
- {
-  "t": "2026-09-11T01:11:12Z",
-  "gate": "R",
-  "subject": "5 FREE CHATGPT VOICE TRICKS THAT KILL <em>YOUR $300/HOUR COACHING BILL</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-11T02:11:08Z",
-  "gate": "A",
-  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
-  "verdict": "KILL",
-  "reason": "Extraordinary surveillance allegation from a non-news financial account citing unverified second-hand reporting; the Prospect article is not presented or verifiable from the tweet, and a household-name company's alleged secretive system requires clear credible sourcing before committing resources."
- },
- {
   "t": "2026-09-11T02:11:57Z",
   "gate": "A",
   "subject": "Former and current Anthropic employees are now posting that they “earnestly believe AI could kill all humans.” This comp",
@@ -2098,5 +2056,47 @@
   "subject": "BREAKING: A single Israeli Effective Altruism firm is behind OpenAI, Anthropic, and Meta cyberattacks 🧵 with help from @",
   "verdict": "KILL",
   "reason": "Unverified cyberattack claim from a single X account without official confirmation from companies or security researchers fails the truth requirement."
+ },
+ {
+  "t": "2026-09-16T23:40:25Z",
+  "gate": "A",
+  "subject": "Thought this was a joke, but i double checked. US Gov Federal Register use distilled Qwen models in their search mode. T",
+  "verdict": "APPROVE",
+  "reason": "The underlying event is substantial (US government agency adopting specific technology) and fits the news-first mandate; it doesn't hit INSTANT KILL rules; calibration principle prioritizes real events over source length; writer's research stage will verify the claim."
+ },
+ {
+  "t": "2026-09-16T23:40:27Z",
+  "gate": "A",
+  "subject": "Blizzard’s inability to solve the login problem on their product launch day reminds me of the classic Forster essay: The",
+  "verdict": "KILL",
+  "reason": "One thin tweet containing no facts, numbers, or consequence—no substance to build slides from."
+ },
+ {
+  "t": "2026-09-16T23:56:00Z",
+  "gate": "B",
+  "subject": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH FAILURE: Trump is depicted personally staring at Chinese AI on a laptop, implying he ordered or is responsible for the Federal Register's Qwen implementation — but the story never names Trump. The Federal Register is administered by the National Archives; the technical decision to embed Qwen was made by agency staff with no established connection to Trump or any White House directive. H"
+ },
+ {
+  "t": "2026-09-16T23:58:12Z",
+  "gate": "B",
+  "subject": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
+  "verdict": "REJECT",
+  "reason": "TRUTH OVERSTATEMENT (§5): 'Every time your lawyer searched for a regulation affecting your permits, your taxes, or your business, that query ran through Chinese AI' is false. The source finding is that Qwen is listed as *one of several search options* in the Federal Register's search mode — not the default, not the only path. Not every search ran through it; users who selected it did. The alarming"
+ },
+ {
+  "t": "2026-09-17T00:00:30Z",
+  "gate": "B",
+  "subject": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-17T00:01:07Z",
+  "gate": "R",
+  "subject": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

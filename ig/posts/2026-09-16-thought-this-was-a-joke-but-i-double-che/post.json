@@ -1,0 +1,50 @@
+{
+ "image_brief": "The US Federal Register running a Chinese Qwen AI model in its official government search system",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
+   "kicker": "EVERY FEDERAL REGULATION RUNS THROUGH IT",
+   "hsize": 66,
+   "media": "posts/2026-09-16-thought-this-was-a-joke-but-i-double-che/gen-0.jpg",
+   "image_prompt": "Donald Trump embarrassed and caught using Chinese AI in the US government after banning TikTok",
+   "gen_person": true
+  }
+ ],
+ "caption": "The US government's official law database runs its AI-powered search on Chinese technology, and nobody publicly disclosed it.\n\nThe Federal Register is where every federal law and regulation lives. When a lawyer searches for rules that affect your business, or a lobbyist checks what the government just changed, they use this site. The assumption was always that something this official runs on American-built tools.\n\nSomeone on X posted that the Federal Register's search mode lists Qwen, a Chinese AI model, as one of its options. The person who found it assumed it was a fake screenshot, opened the actual site to prove it wrong, and found it right there in plain text. They said they double-checked before posting because they were sure it was a joke. If your lawyer hit AI search and picked the Qwen option, that query ran through Chinese servers, and there was nothing on the page that told them so.\n\nThis is the same government that spent years trying to ban TikTok on national security grounds. The Federal Register isn't just using a Chinese AI tool. It is running a Chinese AI model directly in the site, meaning someone made an active technical choice to build this in. The government that argued Chinese apps were a national security risk built Chinese AI into the official site where every American law lives.\n\nSources: kimmonismus on X, tleilax___ on X\n\n#AI #technology #government #AIPolicy #ChinaAI",
+ "pinned_comment": "The government will call Qwen open-source and say it's fine. The same people who banned TikTok will make that argument with a straight face.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
+   "<em>THE SAME GOVERNMENT BANNING TIKTOK</em> BUILT CHINESE AI INTO ITS OWN LAW DATABASE"
+  ],
+  "scores": [
+   8,
+   7
+  ],
+  "winner": 0,
+  "why": "[0] hits you with present-tense betrayal ('they RUN it NOW') while [1] lands softer with past-tense revelation, and 'THE SAME GOVERNMENT' adds interpretive friction when you need instant clarity. The snappier contradiction wins every time."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "US Federal Register",
+  "actor_known": false,
+  "anchor": "the US government's official law database",
+  "specifics": [
+   "The Federal Register \u2014 the official source for every US federal regulation \u2014 uses distilled Chinese AI (Qwen) for its search",
+   "The person who found it checked twice because they were sure it was a joke",
+   "The US has been banning Chinese tech apps while quietly running Chinese AI internally",
+   "Post hit 345.6K views within hours of being shared",
+   "Qwen is an open-source model, meaning the government distilled its own version rather than paying for it"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Thought this was a joke, but i double checked. US Gov Federal Register use distilled Qwen models in their search mode. The irony.",
+  "link": "https://x.com/kimmonismus/status/2100199254065295507",
+  "judge_interest": 7,
+  "scout_score": 68.1
+ }
+}
