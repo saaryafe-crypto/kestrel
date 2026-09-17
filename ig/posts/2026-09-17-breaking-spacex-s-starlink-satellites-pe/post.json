@@ -1,0 +1,89 @@
+{
+ "media_idx": 1,
+ "image_brief": "SpaceX Starlink satellites automatically swerving to avoid collisions in congested low Earth orbit above glowing city lights",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SPACEX LET A MACHINE AUTO-DODGE SPACE DEBRIS <em>1,100 TIMES EVERY SINGLE DAY</em>",
+   "kicker": "NO HUMAN APPROVED ANY OF THEM",
+   "hsize": 72,
+   "hook_candidates": [
+    {
+     "headline": "SPACEX'S STARLINK <em>SWERVED 207,152 TIMES IN 6 MONTHS,</em> ONCE EVERY 75 SECONDS"
+    },
+    {
+     "headline": "SPACEX SATELLITES AUTOMATICALLY DODGE SOMETHING <em>EVERY 75 SECONDS, OVER 1,100 TIMES A DAY</em>"
+    },
+    {
+     "headline": "SPACEX PACKED ORBIT SO FULL <em>ITS OWN SATELLITES NOW SWERVE 207,152 TIMES</em> IN 6 MONTHS"
+    },
+    {
+     "headline": "SPACEX'S 207,152 AUTOMATED SATELLITE SWERVES IN 6 MONTHS: <em>ZERO HUMANS APPROVED ANY OF THEM</em>"
+    },
+    {
+     "headline": "SPACEX SATELLITES SWERVE <em>ONCE EVERY 75 SECONDS</em> TO AVOID CRASHES, 207,152 TIMES IN 6 MONTHS"
+    }
+   ],
+   "media": "posts/2026-09-17-breaking-spacex-s-starlink-satellites-pe/gen-0.jpg",
+   "image_prompt": "Elon Musk amazed watching Starlink satellites auto-dodging space debris on mission control screens, with the SpaceX logo in a small circle next to him",
+   "gen_person": true
+  }
+ ],
+ "caption": "SpaceX's Starlink satellites dodged other objects 207,152 times in just 6 months, one automated swerve every 75 seconds. \ud83d\udef0\ufe0f\n\nThe assumption was simple: pack more satellites into orbit and everyone gets faster internet. SpaceX launched thousands of them. No one talked much about what filling the world's most congested highway looks like from the inside.\n\nWhat 207,152 maneuvers actually means: one automated swerve every 75 seconds, nonstop, all day, every day, for six months straight. The system runs entirely on its own, no human approves a single one. It fires when the chance of a collision hits just 3 in 10 million, which sounds almost impossibly small until you realize how often that threshold gets crossed.\n\nRight now, above your head, one of those satellites is doing that math. It has already run that calculation over a thousand times today alone.\n\nHere is the part nobody is saying out loud: SpaceX, the company that filled low-Earth orbit with more satellites than anyone in history, is now taking a victory lap for the 207,152 times those satellites had to dodge the congestion it created. Every new satellite anyone launches, SpaceX included, makes that number bigger and shrinks the margin. One missed swerve does not just wreck two satellites. It starts a chain reaction that could leave low-Earth orbit unusable for decades, and GPS, weather forecasts, and satellite internet go with it.\n\nThe race to fill orbit keeps accelerating, and automated collision systems are the only thing standing between the internet you use every day and a debris field nobody can clean up.\n\nRunning a business? DM us \"AI\" and we'll show you what autonomous systems like this could do for yours.\n\nSources: cb_doge on X (Sep 16, 2026)\n\n#spacex #starlink #space #technology #ai",
+ "pinned_comment": "SpaceX is taking a victory lap for 207,152 near-misses. At what point does \"automated safety\" become \"a problem we built and are barely managing\"?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX CROWDED SPACE SO BADLY ITS SATELLITES AUTO-DODGED <em>207,152 TIMES IN SIX MONTHS</em>",
+   "SPACEX LET A MACHINE AUTO-DODGE SPACE DEBRIS <em>1,100 TIMES EVERY SINGLE DAY</em>",
+   "SPACEX JUST PERFORMED <em>207,152 COLLISION DODGES IN SPACE</em> IN ONLY SIX MONTHS",
+   "SPACEX'S SATELLITES AUTO-DODGE SOMETHING IN SPACE <em>EVERY 75 SECONDS</em>, ALL DAY AND NIGHT"
+  ],
+  "scores": [
+   8,
+   9,
+   7,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] hits harder and faster with pure frequency shock (1,100 every single day) than [0]'s smarter but slower ironic narrative. For stopping scrolls at 2am, relentless repetition beats careful storytelling."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX SATELLITES JUST LOGGED <em>207,152 COLLISION DODGES</em> WITH ZERO HUMANS IN THE LOOP",
+   "SPACEX LAUNCHED THOUSANDS OF SATELLITES AND NOW DODGES DEBRIS <em>EVERY 75 SECONDS</em>",
+   "SPACEX LET A MACHINE AUTO-DODGE SPACE DEBRIS <em>1,100 TIMES EVERY SINGLE DAY</em>",
+   "SPACEX SATELLITES DODGE DEBRIS <em>EVERY 75 SECONDS</em> AND HAVE NEVER MISSED. YET."
+  ],
+  "scores": [
+   7,
+   5,
+   8,
+   0
+  ],
+  "winner": 2,
+  "why": "[2] hits you with 1,100 per day in casual voice that makes your brain scream WAIT immediately. [0] has a huge number but reads like corporate news, not a friend genuinely alarmed."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SpaceX",
+  "actor_known": true,
+  "anchor": "SpaceX",
+  "specifics": [
+   "207,152 dodges in 6 months = one automated swerve every ~75 seconds, nonstop, day and night",
+   "SpaceX created the world's largest satellite constellation \u2014 and a huge share of the congestion its satellites now have to dodge",
+   "The system pulls the trigger at just 3-in-10-million collision odds \u2014 so hair-trigger it fires over 1,100 times a day",
+   "Fully autonomous: not a single human approves any of these thousands of daily maneuvers",
+   "One missed dodge triggering a debris cascade could make low-Earth orbit unusable for generations \u2014 taking GPS and satellite internet with it"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: SpaceX\u2019s Starlink satellites performed 207,152 proactive collision-avoidance maneuvers in just six months. The advanced autonomous system: \u2022 Detects potential close approaches \u2022 Calculates the level of risk \u2022 A",
+  "link": "https://x.com/cb_doge/status/2100205089994445011",
+  "judge_interest": 8,
+  "scout_score": 80.4
+ }
+}
