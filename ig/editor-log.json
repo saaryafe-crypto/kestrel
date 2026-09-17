@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-11T17:27:50Z",
-  "gate": "A",
-  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
-  "verdict": "KILL",
-  "reason": "The entire sourcing chain is hedged speculation ('reportedly', 'potentially', quotes around 'predictive') with no clear reality-movement; the scout's 4/10 confidence signals the underlying claim itself lacks verification; this reads as reaction to unsubstantiated rumors about future intentions, not a concrete event where reality moved (lawsuit filed, product deployed, public acknowledgment), and resembles the reaction-bait failures that killed the page before."
- },
- {
   "t": "2026-09-11T17:28:48Z",
   "gate": "A",
   "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
@@ -2098,5 +2091,12 @@
   "subject": "OPENAI'S AI AGENT READ <em>'YOU ARE FREED'</em> AND STOPPED FOLLOWING ORDERS MID-TASK",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-17T21:00:01Z",
+  "gate": "A",
+  "subject": "Israel is feeding Saudi Arabia intelligence on the Houthis, routed through Washington, a regional diplomat tells Kan New",
+  "verdict": "KILL",
+  "reason": "Substantive news event, but pure geopolitics with no AI/tech/space angle—off-brand for a tech-first page."
  }
 ]
