@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-11T02:11:57Z",
-  "gate": "A",
-  "subject": "Former and current Anthropic employees are now posting that they “earnestly believe AI could kill all humans.” This comp",
-  "verdict": "KILL",
-  "reason": "Reaction-bait without real-world consequence: the substance is 'people noticed the irony of employees saying AI risks while the company IPOs at high valuation' — a social media pattern, not a story. No verification of which employees posted what, when, or what happened as a result (firing, Anthropic response, market movement). The IPO is speculative ('expected to'), not an event. This is exactly the Queen Elizabeth / Mario Lopez failure model — the payload is people reacting online, not reality moving."
- },
- {
-  "t": "2026-09-11T02:12:06Z",
-  "gate": "A",
-  "subject": "BREAKING: Anthropic is reportedly developing a “predictive” surveillance system to monitor anti-AI activists, potentiall",
-  "verdict": "KILL",
-  "reason": "One thin tweet reporting an unverified allegation; no confirmation from Anthropic, no second source, no proof the system exists or has affected anyone—writer would have to speculate to fill slides, violating §1's NO SUBSTANCE rule and §5's TRUTH requirement."
- },
- {
-  "t": "2026-09-11T02:47:55Z",
-  "gate": "B",
-  "subject": "ANTHROPIC, THE 'SAFE AI' COMPANY, IS REPORTEDLY BUILDING <em>PRE-CRIME SURVEILLANCE</em> FOR AI CRITICS",
-  "verdict": "REJECT",
-  "reason": "TRUTH LAW — slides present the 'reportedly' claim as confirmed fact while the hook hedges it. Slide 3 states 'Anthropic is building a surveillance system that watches AI critics and alerts police before any law is broken' with zero hedge; slide 6 declares 'Anthropic isn't just building AI anymore. It's deciding who's allowed to disagree' as settled truth. The only cited source is a single tweet fr"
- },
- {
-  "t": "2026-09-11T02:57:08Z",
-  "gate": "A",
-  "subject": "Three Anthropic researchers went public last night say it could destroy humans this decade, per Axios",
-  "verdict": "KILL",
-  "reason": "Extraordinary claim ('destroy humans this decade') from single 101-character unverified tweet; cannot confirm Anthropic researchers' actual statements without access to original Axios article and verified quotes. TRUTH LAW requires every fact to be true and sanity-checked; this cannot be established from source material provided."
- },
- {
-  "t": "2026-09-11T04:09:41Z",
-  "gate": "B",
-  "subject": "5 GEMINI TRICKS THAT <em>REPLACE YOUR BUSINESS CONSULTANT</em> FOR FREE",
-  "verdict": "REJECT",
-  "reason": "Save-close headline (slide 8) reads '5 GEMINI ADVENTURES FOR YOUR BUSINESS' but the cover says '5 GEMINI TRICKS THAT REPLACE YOUR BUSINESS CONSULTANT FOR FREE.' The save-close law requires the headline to restate the cover's claim — 'Adventures' is not 'Tricks.' Fix: change slide 8's headline to 'SAVE THIS: 5 GEMINI TRICKS THAT REPLACE YOUR BUSINESS CONSULTANT FOR FREE' (or a tight compression of "
- },
- {
   "t": "2026-09-11T04:12:06Z",
   "gate": "B",
   "subject": "5 GEMINI TRICKS THAT <em>REPLACE YOUR BUSINESS CONSULTANT</em> FOR FREE",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-17T00:01:07Z",
   "gate": "R",
   "subject": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-17T06:17:42Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — cover is text-on-black with a decorative CGI particle burst. No photoreal subject, no proof of any story. The doctrine forbids text-on-black covers and requires every element to read as photographed; a digital light-streak illustration fails both tests. Fix: replace with a photoreal composite using actual story subjects — e.g., a cutout of the OpenAI logo or a collage of today's brand "
+ },
+ {
+  "t": "2026-09-17T06:19:38Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — NO SUBJECT, NOT PHOTOREAL, PURE DECORATION: The cover shows an abstract CGI particle/light-streak burst on a near-black background. §3 states explicitly: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is that failure — a decorative rendered effect with no person, no product, no proof of any story. It also violates 'Every im"
+ },
+ {
+  "t": "2026-09-17T06:21:57Z",
+  "gate": "B",
+  "subject": "TODAY: AN AI <em>REWROTE ITS OWN RULES</em>, STARLINK DODGED 207,000 CRASHES, AND TESLA BET $10B ON HOUSTON.",
+  "verdict": "REJECT",
+  "reason": "Cover image is a CGI abstract particle-burst on black — no photoreal subject, no story proof, no archetype. Violates three explicit image-law rules: (1) text-on-black/no-subject ban, (2) every image must be proof not decoration, (3) photoreal-elements-always. Fix: the lead story (OpenAI catching a model that rewrote its own rules) maps to the policy/ban archetype — Sam Altman in a real press photo"
+ },
+ {
+  "t": "2026-09-17T06:23:28Z",
+  "gate": "B",
+  "subject": "TODAY: AN AI <em>REWROTE ITS OWN RULES</em>, STARLINK DODGED 207,000 CRASHES, AND TESLA BET $10B ON HOUSTON.",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — PHOTOREAL ELEMENTS, ALWAYS: the cover's 'image' is an abstract CGI orange particle/light-streak against black — it reads as digital art, not a photograph. The doctrine is unambiguous: every element must read as photographed (real skin, real product, real photo fragment). A particle burst rendered in software is the definition of 'illustration or concept art anywhere outside a depicted "
+ },
+ {
+  "t": "2026-09-17T06:23:36Z",
+  "gate": "R",
+  "subject": "TODAY: AN AI <em>REWROTE ITS OWN RULES</em>, STARLINK DODGED 207,000 CRASHES, AND TESLA BET $10B ON HOUSTON.",
   "verdict": "PASS",
   "reason": ""
  }
