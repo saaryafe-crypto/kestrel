@@ -1,68 +1,100 @@
 {
- "updated": "2026-09-16T14:55:31+00:00",
+ "updated": "2026-09-17T14:11:40+00:00",
  "competitor_hits": [
   {
    "page": "wired",
-   "likes": 9357,
-   "ratio": 5.23,
+   "likes": 13000,
+   "ratio": 14.46,
    "tier": "mega",
    "hook": "\"WIRED tested samples of four types of peptides. The results show how lightly regulated the industry is, even as popularity surges.\n\nRead the full story at the \ud83d\udd17 in bio.\".",
    "date": "2026-09-15"
   },
   {
-   "page": "futurism",
-   "likes": 5207,
-   "ratio": 1.77,
+   "page": "wired",
+   "likes": 5812,
+   "ratio": 6.46,
    "tier": "mega",
-   "hook": "\"Does Elon Musk, who claims to be so smart that chess bores him, understand what the Streisand effect is? We\u2019re skeptical, because he\u2019s now threatening to sue the Oscar-winning filmmaker Alex Gibney over his new document",
-   "date": "2026-09-14"
+   "hook": "\"Hackers ripped down a Flock camera above a roadway, made a near-complete copy of the data stored inside it, revealing in new detail how exactly Flock Safety\u2019s cameras track the movements of both vehicles and people. The",
+   "date": "2026-09-16"
   },
   {
    "page": "wired",
-   "likes": 2733,
-   "ratio": 1.53,
+   "likes": 3150,
+   "ratio": 3.5,
    "tier": "mega",
    "hook": "\"Kash Patel, director of the Federal Bureau of Investigation, told confused members of the Senate judiciary committee on Thursday that new FBI hiring standards are aimed at protecting \u201cvictims of bestiality.\u201d\n\nPrior to t",
    "date": "2026-09-15"
   },
   {
-   "page": "mashable",
-   "likes": 818,
-   "ratio": 0.72,
+   "page": "wired",
+   "likes": 1762,
+   "ratio": 1.96,
    "tier": "mega",
-   "hook": "\"Missed television\u2019s biggest night? No need to worry. Swipe through for the ultimate cheat sheet so you can fake your way through every Emmys conversation tomorrow \u27a1\ufe0f\u2028\u2028 \n\u2028PHOTO CREDITS: \u2028GETTY/NBC / Contributor\u2028Gilbert F",
-   "date": "2026-09-14"
-  },
-  {
-   "page": "mashable",
-   "likes": 722,
-   "ratio": 0.63,
-   "tier": "mega",
-   "hook": "\"There are a few things you expect to see when a crowd of college students takes over a fraternity lawn in broad daylight. People stretching on yoga mats before a group run probably aren\u2019t among them. \n\nBut that\u2019s the se",
-   "date": "2026-09-15"
-  },
-  {
-   "page": "futurism",
-   "likes": 553,
-   "ratio": 0.19,
-   "tier": "mega",
-   "hook": "\"While the US appears to be further away from meaningful AI regulations than ever before, lawmakers certainly have plenty of ideas on how the country could go about setting meaningful rules.\n\nIt\u2019s a particularly precario",
+   "hook": "\"Courtney McAnuff was out of a year-long relationship in the summer of 2024 and starting to date again when she agreed to grab drinks with a potential suitor.\n\nThey met at a bar in midtown Manhattan. He arrived wearing a",
    "date": "2026-09-15"
   },
   {
    "page": "wired",
-   "likes": 195,
-   "ratio": 0.11,
+   "likes": 948,
+   "ratio": 1.05,
+   "tier": "mega",
+   "hook": "\"Fast-casual burrito chain Chipotle is working with the data infrastructure giant Palantir.\n\nThe company is working on a \u201cfood safety risk platform\u201d hosted on Palantir\u2019s flagship software platform Foundry, according to s",
+   "date": "2026-09-16"
+  },
+  {
+   "page": "wired",
+   "likes": 783,
+   "ratio": 0.87,
+   "tier": "mega",
+   "hook": "\"For Hollywood stars, press junkets are an opportunity to promote new work while connecting with fans. They tell funny or embarrassing stories about one another, give us a glimpse into the film production process, and re",
+   "date": "2026-09-15"
+  },
+  {
+   "page": "wired",
+   "likes": 767,
+   "ratio": 0.85,
+   "tier": "mega",
+   "hook": "\"A bipartisan pair of US lawmakers tell WIRED they plan to introduce legislation today that would strip federal funding from states that fail to restrict the use of Flock cameras and other automated license plate readers",
+   "date": "2026-09-15"
+  },
+  {
+   "page": "wired",
+   "likes": 314,
+   "ratio": 0.35,
    "tier": "mega",
    "hook": "\"Sam Altman said people are right to worry about AI companies and their models becoming too powerful, after a week in which AI leaders called for an industry-wide slowdown and the potential dangers of unregulated AI beca",
    "date": "2026-09-16"
   },
   {
    "page": "wired",
-   "likes": 111,
-   "ratio": 0.06,
+   "likes": 253,
+   "ratio": 0.28,
    "tier": "mega",
    "hook": "\"The new WIRED app is here! Whether you're a reader, viewer, or listener, the app is the best way to experience WIRED. Here\u2019s what you can expect:\n\n\u2022 Make WIRED yours with a personalized Daily Digest built around the top",
+   "date": "2026-09-16"
+  },
+  {
+   "page": "futurism",
+   "likes": 714,
+   "ratio": 0.13,
+   "tier": "mega",
+   "hook": "\"While the US appears to be further away from meaningful AI regulations than ever before, lawmakers certainly have plenty of ideas on how the country could go about setting meaningful rules.\n\nIt\u2019s a particularly precario",
+   "date": "2026-09-15"
+  },
+  {
+   "page": "wired",
+   "likes": 72,
+   "ratio": 0.08,
+   "tier": "mega",
+   "hook": "\"Join WIRED in San Francisco on October 8 for a live-audience recording of the \u201cUncanny Valley\u201d podcast featuring a special conversation between Paulina Borsook, tech journalist and former WIRED writer, and WIRED global ",
+   "date": "2026-09-16"
+  },
+  {
+   "page": "futurism",
+   "likes": 260,
+   "ratio": 0.05,
+   "tier": "mega",
+   "hook": "\"AI is supposedly going to kill us all, but at least it\u2019s doing wonders for the stocks for a few multibillion-dollar companies.\n\nMounting fears over the technology\u2019s existential risks reached a fever pitch over the weeke",
    "date": "2026-09-16"
   }
  ],
