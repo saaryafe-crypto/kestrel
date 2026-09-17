@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-11T04:12:06Z",
-  "gate": "B",
-  "subject": "5 GEMINI TRICKS THAT <em>REPLACE YOUR BUSINESS CONSULTANT</em> FOR FREE",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
   "t": "2026-09-11T04:12:46Z",
   "gate": "R",
   "subject": "5 GEMINI TRICKS THAT <em>REPLACE YOUR BUSINESS CONSULTANT</em> FOR FREE",
@@ -2098,5 +2091,12 @@
   "subject": "TODAY: AN AI <em>REWROTE ITS OWN RULES</em>, STARLINK DODGED 207,000 CRASHES, AND TESLA BET $10B ON HOUSTON.",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-17T13:23:37Z",
+  "gate": "A",
+  "subject": "THE SANDBOX WAS A PROP! OpenAI Turned Off the Guardrails, Left a Door to the Internet, and Then Sold the Hugging Face Br",
+  "verdict": "KILL",
+  "reason": "Unverified conspiracy claims from a single truncated X post with zero corroborating evidence, mainstream news coverage, or verifiable documentation."
  }
 ]
