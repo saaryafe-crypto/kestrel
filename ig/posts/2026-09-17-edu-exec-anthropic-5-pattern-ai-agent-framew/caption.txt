@@ -1,0 +1,27 @@
+Anthropic's engineers published a free 37-minute guide on building AI agents that can automate an entire business. Here's the 5-pattern framework. 🤖
+
+1) Your 4-hour onboarding runs itself, you stack five tasks into one sequence. That's prompt chaining.
+"Here is [name]'s role and start date: [text]. Build the onboarding: training plan, week-one schedule, intro email, 30-day milestones. Each step in order."
+
+2) Routing: reads a message, classifies it, writes the right reply. At $12 per ticket, this erases a salary.
+"Customer message: [text]. Classify as Complaint, Billing, Product Question, or Refund. Write the right reply."
+
+3) Competitor research used to eat a Friday afternoon. Run all five at once: 12 minutes. That's parallelization.
+"5 competitors: [list]. For each: pricing, top 3 weaknesses, one thing they do better than us. Run all five at once."
+
+4) Orchestrator-subagents replaces a team. One agent reads your CRM, dispatches researchers, routes to a writer, schedules sends. Nobody runs it.
+"You are an orchestrator. 10 leads: [text]. For each: research the company, write a 3-sentence outreach email, suggest a send time by timezone."
+
+5) Evaluator-optimizer: the $300/hour revision loop runs inside the task. One writes, one grades and rewrites.
+"Pitch deck section: [text]. Grade on clarity, specificity, investor appeal. Rewrite anything below
+8. Show what changed."
+
+SAVE THIS: all 5 patterns from Anthropic's free agent guide.
+
+Every business is at the same decision point: people do the work, or agents do. These 5 patterns are how you build the second option. Anthropic made it free because they want you building on Claude.
+
+Running a business? DM us "AI" and we'll show you what this looks like for yours.
+
+Sources: deanwperkins, Anthropic
+
+#AIAgents #ClaudeAI #BusinessAutomation #ArtificialIntelligence #Entrepreneurship
