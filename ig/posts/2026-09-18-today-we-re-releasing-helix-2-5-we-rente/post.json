@@ -1,0 +1,75 @@
+{
+ "image_brief": "a humanoid robot doing household chores inside a stranger's real home with zero prior training",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
+   "hsize": 70,
+   "kicker": "EVERY HOME WAS RENTED FOR THE TEST",
+   "media": "posts/2026-09-18-today-we-re-releasing-helix-2-5-we-rente/gen-0.jpg",
+   "image_prompt": "A humanoid robot yanking a vacuum cleaner across a living room floor, power cord trailing behind."
+  }
+ ],
+ "caption": "Figure's Helix 2.5 robots moved into 30 Bay Area homes and started doing chores with zero training\n\nEveryone assumed home robots still needed weeks of setup before they could do anything useful in a house they'd never seen. Then Figure dropped their robots into 30 real Bay Area homes and let them loose.\n\nNo training. No instructions. No one walking them through where the kitchen was or how the furniture was arranged. The robots walked in and just started doing useful work. That's the part that's new, and it happened in real homes, not a lab.\n\nHere's the buried detail: Figure rented all 30 of those houses. Figure paid rent on all 30 of them just to run the test. If you pay someone to clean your house, a robot just did that job in 30 Bay Area homes without being trained on any of them.\n\nA company rented 30 homes and sent robots in cold, and the robots just worked. That's not a prototype. That's deployment.\n\nHome robots that work anywhere with zero training are a different problem than robots that need months of customization. The next barrier isn't capability. It's price. 30 homes, zero setup, 2.9 million people watched it happen on X the same day.\nRunning a business? DM us \"AI\" and we'll show you what this means for yours.\n\nSources: Figure on X\n\n#AI #robotics #technology #homeautomation #futureofwork",
+ "pinned_comment": "Would you let this robot into your house tomorrow? Most people say yes until they think about actually unlocking the door for it.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ROBOTS JUST MOVED INTO <em>30 BAY AREA HOMES</em> AND <em>STARTED DOING THE CHORES</em>",
+   "A ROBOT WALKED INTO A <em>STRANGER'S HOUSE</em> AND STARTED CLEANING WITH ZERO TRAINING",
+   "ROBOTS WITH <em>ZERO TRAINING</em> WALKED INTO <em>30 HOMES</em> AND STARTED DOING THE CHORES",
+   "ROBOTS SHOWED UP AT 30 REAL HOMES AND <em>STARTED WORKING WITHOUT ANY TRAINING</em>",
+   "ROBOTS ARE DOING HOUSEWORK IN 30 BAY AREA HOMES AND <em>NOBODY TRAINED THEM</em>",
+   "ROBOTS MOVED INTO 30 BAY AREA HOMES AND <em>DID CHORES NOBODY TAUGHT THEM</em>",
+   "ROBOTS WALKED INTO <em>30 STRANGERS' HOMES</em> AND STARTED DOING CHORES <em>THE SECOND THEY ARRIVED</em>"
+  ],
+  "scores": [
+   8,
+   5,
+   9,
+   8,
+   8,
+   7,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] front-loads 'ZERO TRAINING' for immediate shock that stops your scroll cold. [4] buries this same element after setup text, wasting critical milliseconds before the impact lands."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ROBOTS JUST WALKED INTO <em>30 HOMES</em> AND STARTED CLEANING. <em>NOBODY TRAINED THEM FIRST</em>.",
+   "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
+   "ROBOTS WITH <em>ZERO TRAINING</em> WALKED INTO <em>30 HOMES</em> AND STARTED DOING THE CHORES"
+  ],
+  "scores": [
+   8.5,
+   9,
+   8
+  ],
+  "winner": 1,
+  "why": "[1]'s 'UNSUPERVISED' word hits harder for a stranger than [0]'s training constraint, making the robot autonomy sound shocking and real. The 'MOVED INTO 30 REAL HOMES' framing also paints a more vivid, dramatic image that triggers 'wait, WHAT?' faster."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Figure",
+  "actor_known": false,
+  "anchor": "a robot",
+  "specifics": [
+   "Robots walked into 30 homes they'd never seen and started working with zero additional training",
+   "Figure rented 30 Bay Area homes just to test this",
+   "2.9 million people watched the announcement on X within hours",
+   "The robot is called Helix 2.5",
+   "Deployed September 17, 2026"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (3/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Today we\u2019re releasing Helix 2.5 We rented 30 homes in the Bay Area. The robots arrived with no additional training and started doing useful work",
+  "link": "https://x.com/Figure_robot/status/2100657350952779925",
+  "judge_interest": 7,
+  "scout_score": 108.0
+ }
+}

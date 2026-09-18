@@ -1,61 +1,5 @@
 [
  {
-  "t": "2026-09-13T20:17:53Z",
-  "gate": "A",
-  "subject": "Dude this is INSANE🧵 My buddy Kayley was at this show, the producers blindfolded the comedian and pranked him by quietly",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: the story's payload is a pile-on in the replies (AI-made-up narratives), not a real-world consequence—matches the Queen Elizabeth and Mario Lopez failure pattern exactly."
- },
- {
-  "t": "2026-09-13T23:10:10Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 President Trump rejects calls to slow down AI development.",
-  "verdict": "KILL",
-  "reason": "Trump stated a political position without real-world consequence—no policy enacted, no action taken—and the 70-character source has zero substance to build slides from."
- },
- {
-  "t": "2026-09-13T23:10:40Z",
-  "gate": "A",
-  "subject": "JUST IN: Claude AI developer Anthropic selects Nasdaq for IPO listing.",
-  "verdict": "KILL",
-  "reason": "IPO exchange selection is procedural corporate process, not the consequence-driven dramatic event readers would share."
- },
- {
-  "t": "2026-09-13T23:10:47Z",
-  "gate": "A",
-  "subject": "BREAKING: Costco is now rationing motor oil for due to the Iranian war, limiting members to one transaction and a maximu",
-  "verdict": "KILL",
-  "reason": "Unverified scarcity claim with no official Costco sourcing; Truth Law requires facts verified before assignment."
- },
- {
-  "t": "2026-09-13T23:11:02Z",
-  "gate": "A",
-  "subject": "Invites for the next-gen @Tesla Roadster unveiling have officially been sent to reservation holders! The event will take",
-  "verdict": "KILL",
-  "reason": "Banned launch preview (date + hype, no specs or demo shown); kill it and post the October 1 unveiling if the Roadster proves remarkable."
- },
- {
-  "t": "2026-09-13T23:12:02Z",
-  "gate": "A",
-  "subject": "TRUMP ON AI: WE COULD PUT GUARDRAILS, BUT SOME VOICES ARE BEING OVERLY NEGATIVE",
-  "verdict": "KILL",
-  "reason": "No real-world event or consequence—Trump's opinion attracts engagement but no actual event happened (no policy, no announcement, no fallout) for the post to cover."
- },
- {
-  "t": "2026-09-13T23:12:05Z",
-  "gate": "A",
-  "subject": "Tesla has just updated their next-gen Roadster website for the first time in nearly 9 years. There is now a countdown cl",
-  "verdict": "KILL",
-  "reason": "Empty-form launch preview: countdown-only with no product shown, no story substance."
- },
- {
-  "t": "2026-09-13T23:12:25Z",
-  "gate": "A",
-  "subject": "BREAKING: Sam Altman says OpenAI will not go public this year due to safety concerns around AI. \"I actually think that, ",
-  "verdict": "KILL",
-  "reason": "One thin statement with no supporting numbers, facts, or real-world consequences; the writer would need to pad rather than report to fill slides."
- },
- {
   "t": "2026-09-13T23:13:00Z",
   "gate": "A",
   "subject": "JUST IN: Claude AI developer Anthropic selects Nasdaq for IPO listing.",
@@ -2098,5 +2042,61 @@
   "subject": "We caught an \"elite\" Israeli propaganda company using an open Google Sheet to track an operation. Username? hjack5632@gm",
   "verdict": "KILL",
   "reason": "This is primarily a cybersecurity/geopolitics story where the tech angle (Google Sheets security failure) serves as proof of the central narrative (influence operations exposure), not as the story itself; the unknown central actor (BlackCore) and off-brand focus make it a better fit for a journalism or geopolitics page than a tech/AI news page."
+ },
+ {
+  "t": "2026-09-18T18:58:53Z",
+  "gate": "A",
+  "subject": "Today we’re releasing Helix 2.5 We rented 30 homes in the Bay Area. The robots arrived with no additional training and s",
+  "verdict": "APPROVE",
+  "reason": "Robots deployed in 30 real homes working without retraining is a genuine first-ever/record event from a known robotics lab with substance to build slides—fits the page's AI/tech news mandate and passes the 12-year-old stop-scroll test."
+ },
+ {
+  "t": "2026-09-18T18:59:17Z",
+  "gate": "A",
+  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
+  "verdict": "KILL",
+  "reason": "One-tweet product announcement with no release evidence, demonstration, or real consequence; the writer would have to pad significantly to build slides from vague feature claims."
+ },
+ {
+  "t": "2026-09-18T18:59:28Z",
+  "gate": "A",
+  "subject": "Starlink is now often more reliable than cable",
+  "verdict": "KILL",
+  "reason": "No numbers, proof, or consequence—just a bare product claim with nothing for the writer to build slides from except padding."
+ },
+ {
+  "t": "2026-09-18T19:00:07Z",
+  "gate": "A",
+  "subject": "JUST IN: Warren Buffet officially steps down as Chairman of Berkshire Hathaway.",
+  "verdict": "KILL",
+  "reason": "Off-brand: finance news about an investment company — the page is for AI/tech news (owner Sep 3)."
+ },
+ {
+  "t": "2026-09-18T19:28:54Z",
+  "gate": "B",
+  "subject": "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
+  "verdict": "REJECT",
+  "reason": "EMOJI IN CAPTION (§7): The opening line ends with 🤖. §7 bans emojis outright — remove it.; TRUTH/FRIEND TEST FAILURE — 'Real tenants paid rent so machines could practice living there': Figure is the tenant who paid rent; no 'real tenants' were paying so robots could practice. The sentence is backwards and misleading (§5). Rewrite to: 'Figure paid rent on all 30 of them just to run the test.'; GENE"
+ },
+ {
+  "t": "2026-09-18T19:31:00Z",
+  "gate": "B",
+  "subject": "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
+  "verdict": "REJECT",
+  "reason": "IMAGE — robot reads as CGI render, not photoreal: The white humanoid robot on the cover is clearly a 3D-generated graphic — smooth seams, machine-perfect joints, no photographed surface texture — not a photo of the actual Figure Helix 2.5 robot. §3 is explicit: any element that reads as a game render or concept art is a REJECT. Fix: replace with the real Figure Helix 2.5 press photo (or a photorea"
+ },
+ {
+  "t": "2026-09-18T19:32:53Z",
+  "gate": "B",
+  "subject": "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-18T19:33:06Z",
+  "gate": "R",
+  "subject": "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

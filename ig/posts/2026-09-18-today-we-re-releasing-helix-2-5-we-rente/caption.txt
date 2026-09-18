@@ -1,0 +1,16 @@
+Figure's Helix 2.5 robots moved into 30 Bay Area homes and started doing chores with zero training
+
+Everyone assumed home robots still needed weeks of setup before they could do anything useful in a house they'd never seen. Then Figure dropped their robots into 30 real Bay Area homes and let them loose.
+
+No training. No instructions. No one walking them through where the kitchen was or how the furniture was arranged. The robots walked in and just started doing useful work. That's the part that's new, and it happened in real homes, not a lab.
+
+Here's the buried detail: Figure rented all 30 of those houses. Figure paid rent on all 30 of them just to run the test. If you pay someone to clean your house, a robot just did that job in 30 Bay Area homes without being trained on any of them.
+
+A company rented 30 homes and sent robots in cold, and the robots just worked. That's not a prototype. That's deployment.
+
+Home robots that work anywhere with zero training are a different problem than robots that need months of customization. The next barrier isn't capability. It's price. 30 homes, zero setup, 2.9 million people watched it happen on X the same day.
+Running a business? DM us "AI" and we'll show you what this means for yours.
+
+Sources: Figure on X
+
+#AI #robotics #technology #homeautomation #futureofwork
