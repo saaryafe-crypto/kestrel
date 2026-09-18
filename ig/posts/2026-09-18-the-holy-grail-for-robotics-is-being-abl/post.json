@@ -1,0 +1,81 @@
+{
+ "media_idx": 1,
+ "image_brief": "humanoid robot working alone in an upscale Bay Area home kitchen completing a household task",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ROBOTS JUST WORKED IN <em>30 HOMES THEY HAD NEVER SEEN.</em> ZERO NEW TRAINING.",
+   "kicker": "THEY COMPLETED EVERY TASK",
+   "hsize": 70,
+   "media": "posts/2026-09-18-the-holy-grail-for-robotics-is-being-abl/gen-0-r.jpg",
+   "image_prompt": "Robot scrubbing dirty dishes in a messy kitchen sink with stacked plates and thick grease."
+  }
+ ],
+ "caption": "Robots just walked into 30 Bay Area homes they had never seen and completed every task with zero retraining.\n\nUp until this week, home robots had one hard limit: every new house needed fresh training. Your house was safe because it was yours. No robot had memorized your layout, your furniture, your hallways. That was the wall keeping them out of the real world.\n\nBrett Adcock rented 30 random homes across the Bay Area. Not a lab. Not a staged demo. Actual homes, 30 of them, with real living rooms and kitchens and hallways no robot had ever seen. He sent the robots in cold. They completed tasks. Zero new training.\n\nHere is the part worth telling tonight: to prove robots no longer need to know your home, they paid Bay Area rent for 30 places they did not live in. One of the most expensive rental markets on earth, rented just so a machine could unlock a door, walk in, and prove a point. Brett's post hit 1 million views in hours.\n\nThe last real technical argument against home robots is gone. If you know someone who cleans houses or does home care for a living, this is the story that changes their career.\n\nThe wall was always this: robots could not generalize. Now they can. A robot that works in any house it has never seen is a robot that scales to every house, fast.\n\nRunning a business? DM us 'AI' and we will show you what this shift means for yours.\n\nSources: Brett Adcock on X\n\n#robotics #AI #homerobots #futureofwork #technology",
+ "pinned_comment": "The part nobody is asking yet: if it can figure out 30 homes it has never seen, how many new houses can it handle in a week?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "A FOUNDER RENTED <em>30 BAY AREA HOMES</em> AND SENT ROBOTS IN WITH ZERO TRAINING",
+   "ROBOTS CAN NOW ENTER ANY HOME AND DO YOUR JOB WITH <em>ZERO TRAINING</em>",
+   "THE LAST THING STOPPING HOME ROBOTS EVERYWHERE JUST BROKE IN <em>30 REAL HOMES</em>",
+   "THE HOLY GRAIL OF ROBOTICS WAS JUST CRACKED IN <em>30 RENTED BAY AREA HOMES</em>",
+   "<em>THEY RENTED 30 BAY AREA HOMES.</em> ROBOTS WALKED IN COLD AND COMPLETED EVERY TASK.",
+   "<em>HOME ROBOTS JUST CRACKED</em> THE ONE THING KEEPING THEM OUT OF YOUR HOUSE",
+   "SOMEONE RENTED <em>30 HOMES</em> TO PROVE UNTRAINED ROBOTS CAN DO THE JOB ANYWHERE",
+   "ROBOTS JUST WORKED IN <em>30 HOMES THEY HAD NEVER SEEN.</em> ZERO NEW TRAINING.",
+   "ROBOTS JUST WORKED IN <em>30 HOMES THEY'D NEVER SEEN</em> WITH ZERO RETRAINING"
+  ],
+  "scores": [
+   8.5,
+   0,
+   7,
+   8,
+   8,
+   5,
+   0,
+   9,
+   8
+  ],
+  "winner": 7,
+  "why": "The two-sentence structure lets [7] land each fact hard\u2014action first, then stakes\u2014while [0] spreads the same information across one sentence, losing momentum. At 2am, rhythm matters."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "THE BARRIER KEEPING ROBOTS FROM YOUR HOME JUST BROKE IN <em>30 REAL HOUSES.</em>",
+   "ROBOTS JUST WORKED IN <em>30 HOMES THEY HAD NEVER SEEN.</em> ZERO NEW TRAINING.",
+   "ROBOTS JUST CRACKED <em>THE HOLY GRAIL OF ROBOTICS</em> IN 30 REAL HOMES.",
+   "ROBOTS ONLY WORKED WHERE THEY TRAINED. THEY JUST FINISHED TASKS IN <em>30 UNSEEN HOMES.</em>"
+  ],
+  "scores": [
+   7,
+   9,
+   7,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] stops you with 'never seen' and confirms it with 'zero training'\u2014immediate double-punch. [3] needs both sentences before the contrast creates impact."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Brett Adcock",
+  "actor_known": false,
+  "anchor": "robots",
+  "specifics": [
+   "30 real Bay Area homes rented just to test robots in places they'd never seen",
+   "Zero new training \u2014 robots walked in cold and completed tasks",
+   "1 million views on the announcement within hours",
+   "Called 'the holy grail for robotics' \u2014 and they're claiming it's solved",
+   "No lab, no controlled stage \u2014 actual rented homes, real-world test"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "The holy grail for robotics is being able to generalize: doing work in unseen places We rented 30 homes in the Bay Area and are doing tasks without any new training",
+  "link": "https://x.com/adcock_brett/status/2100657392056947066",
+  "judge_interest": 8,
+  "scout_score": 143.4
+ }
+}

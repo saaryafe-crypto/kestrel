@@ -1,0 +1,17 @@
+Robots just walked into 30 Bay Area homes they had never seen and completed every task with zero retraining.
+
+Up until this week, home robots had one hard limit: every new house needed fresh training. Your house was safe because it was yours. No robot had memorized your layout, your furniture, your hallways. That was the wall keeping them out of the real world.
+
+Brett Adcock rented 30 random homes across the Bay Area. Not a lab. Not a staged demo. Actual homes, 30 of them, with real living rooms and kitchens and hallways no robot had ever seen. He sent the robots in cold. They completed tasks. Zero new training.
+
+Here is the part worth telling tonight: to prove robots no longer need to know your home, they paid Bay Area rent for 30 places they did not live in. One of the most expensive rental markets on earth, rented just so a machine could unlock a door, walk in, and prove a point. Brett's post hit 1 million views in hours.
+
+The last real technical argument against home robots is gone. If you know someone who cleans houses or does home care for a living, this is the story that changes their career.
+
+The wall was always this: robots could not generalize. Now they can. A robot that works in any house it has never seen is a robot that scales to every house, fast.
+
+Running a business? DM us 'AI' and we will show you what this shift means for yours.
+
+Sources: Brett Adcock on X
+
+#robotics #AI #homerobots #futureofwork #technology
