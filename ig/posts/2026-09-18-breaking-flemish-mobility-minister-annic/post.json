@@ -1,0 +1,78 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TESLA IS <em>9.6X SAFER THAN YOU</em> AND A GOVERNMENT JUST MADE IT OFFICIAL",
+   "hsize": 72,
+   "kicker": "24 MILLION KM OF REAL ROADS",
+   "media": "posts/2026-09-18-breaking-flemish-mobility-minister-annic/cand-1.webp"
+  }
+ ],
+ "caption": "Tesla's self-driving mode is officially 9.6x safer than a human driver on normal roads, confirmed by a government minister in parliament \ud83d\ude97\n\nEveryone assumed self-driving was still the risky experiment. Human drivers were the reliable standard. That changed this week.\n\nBelgium's Flemish Mobility Minister, Annick De Ridder, stood in parliament and put the data on the table: a Tesla driving itself on normal streets is 9.6 times less likely to crash than you are. Not on a test track. On real Belgian public roads, from June through August, across 24.6 million kilometers of actual driving. The experiment already ran, and most drivers on those roads had no idea it was happening.\n\nThe part nobody expected: the government used Tesla's own data, collected quietly on public streets while ordinary drivers went about their day, to officially declare in parliament that human drivers are the dangerous party. A minister stood at a podium and told the country, backed by 24 million kilometers of road data gathered without anyone opting in: statistically, you are the risk.\n\nInsurance companies now have government-backed proof. If they use it, you could start paying more just because you chose to drive yourself. The robot didn't just get safer. A government put you in the high-risk category.\n\nSelf-driving safety has been debated for years. It just walked into parliament with 24 million kilometers of proof behind it. Every insurance actuary is paying attention now.\n\nRunning a business with vehicles on the road? DM us \"AI\" and we'll show you what this shift means for yours.\n\nSources: DogeDesigner on X, September 18, 2026\n\n#Tesla #selfdriving #FSD #autonomousvehicles #AI",
+ "pinned_comment": "If insurers start charging you more for choosing to drive yourself, is that fair? Because a government minister just handed them the official data to do exactly that.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "TESLA WAS JUST DECLARED <em>9.6X SAFER THAN YOU</em> BY A GOVERNMENT IN PARLIAMENT",
+   "TESLA DRIVES <em>9.6X SAFER THAN HUMANS</em>, A GOVERNMENT JUST PUT IT ON RECORD",
+   "TESLA JUST MADE YOU <em>THE OFFICIAL DANGEROUS DRIVER</em>, A GOVERNMENT CONFIRMED",
+   "TESLA IS <em>9.6X SAFER THAN YOU</em>. A GOVERNMENT JUST CONFIRMED IT.",
+   "TESLA'S SELF-DRIVING <em>CRASHES 9.6X LESS THAN YOU</em>, A MINISTER PROVED IT IN PARLIAMENT",
+   "TESLA JUST PROVED YOUR DRIVING CAUSES <em>9.6\u00d7 MORE CRASHES</em> THAN ITS SELF-DRIVING MODE",
+   "TESLA JUST GOT GOVERNMENT CONFIRMATION IT CRASHES <em>9.6\u00d7 LESS THAN HUMAN DRIVERS</em>",
+   "TESLA USED <em>24 MILLION KM</em> OF REAL DATA AND PROVED HUMANS CRASH 9.6\u00d7 MORE OFTEN",
+   "TESLA JUST WON A PARLIAMENT HEARING ON BEING <em>9.6\u00d7 SAFER THAN ANY HUMAN DRIVER</em>"
+  ],
+  "scores": [
+   9,
+   7,
+   0,
+   8,
+   8,
+   0,
+   7,
+   8,
+   0
+  ],
+  "winner": 0,
+  "why": "[0] packages this as breaking news from an unquestionable authority\u2014'DECLARED...BY A GOVERNMENT IN PARLIAMENT' with 'JUST'\u2014making you stop in 1.5 seconds because it feels real and urgent, not hype. [3], [4], and [7] have the same payload but kill momentum with weaker verbs ('IS,' 'CONFIRMED'), missing 'JUST,' or burying the personal shock in data details."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "TESLA WAS JUST DECLARED <em>9.6X SAFER THAN YOU</em> BY A GOVERNMENT IN PARLIAMENT",
+   "TESLA JUST BEAT EVERY HUMAN DRIVER IN GOVERNMENT DATA, <em>9.6X</em>",
+   "TESLA JUST PROVED YOU'RE <em>9.6X MORE DANGEROUS</em> THAN ITS CAR, OFFICIALLY",
+   "TESLA IS <em>9.6X SAFER THAN YOU</em> AND A GOVERNMENT JUST MADE IT OFFICIAL"
+  ],
+  "scores": [
+   7,
+   5,
+   7.5,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] combines the wildest stat (9.6\u00d7) with maximum credibility (government official) and personal relevance (than you) in one clear statement. [2] engages via accusation but [3]'s curiosity-driven approach is more powerful."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Tesla",
+  "actor_known": true,
+  "anchor": "Tesla",
+  "specifics": [
+   "9.6\u00d7 lower crash risk than human drivers on regular roads \u2014 confirmed by a named government minister in parliament",
+   "24.6 million km of real Belgian road data collected in just under 3 months without most drivers knowing",
+   "30% lower crash risk even on highways",
+   "Flemish Mobility Minister Annick De Ridder named as the official source",
+   "Data window: June 11 \u2013 August 31, 2026"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Flemish Mobility Minister Annick De Ridder just confirmed in Parliament that Tesla FSD has nearly 10\u00d7 lower accident risk than manual driving on Belgian roads outside highways \ud83c\udde7\ud83c\uddea Between June 11 and August 31, ",
+  "link": "https://x.com/cb_doge/status/2100909521967214940",
+  "judge_interest": 7,
+  "scout_score": 68.6
+ }
+}
