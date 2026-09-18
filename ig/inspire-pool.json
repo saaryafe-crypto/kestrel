@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T11:25:38.887603+00:00",
+ "updated": "2026-09-18T13:25:43.242143+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -139,25 +139,6 @@
    "video": null,
    "guide": false,
    "born": 1788410464.313697
-  },
-  {
-   "id": "2090048185859239959",
-   "title": "BREAKING: Moderna stock, $MRNA, surges over +110% after announcing the first ever positive Phase 3 results for a personalized cancer vaccine.",
-   "sub": "KobeissiLetter",
-   "where": "@KobeissiLetter on X",
-   "unit": "likes",
-   "selftext": "BREAKING: Moderna stock, $MRNA, surges over +110% after announcing the first ever positive Phase 3 results for a personalized cancer vaccine.",
-   "permalink": "https://x.com/KobeissiLetter/status/2090048185859239959",
-   "outlink": null,
-   "score": 33672,
-   "comments_n": 1120,
-   "views": 10511945,
-   "age_h": 34.8,
-   "vph": 967.6,
-   "image": "https://pbs.twimg.com/media/HQFXv6LW4AAI18_.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1787141216.494238
   },
   {
    "id": "2094803511875907849",
@@ -803,6 +784,28 @@
    "video": null,
    "guide": false,
    "born": 1789563086.629253
+  },
+  {
+   "id": "2100625948584616169",
+   "title": "After capturing over 100 hours worth of exposures, I'm pleased to share my latest \"Deep Field\" image, containing THOUSANDS of galaxies and a brand-new supernova that just kicked off ~2 weeks ago! Timelapse showing the su",
+   "sub": "AJamesMcCarthy",
+   "where": "@AJamesMcCarthy on X",
+   "unit": "likes",
+   "selftext": "After capturing over 100 hours worth of exposures, I'm pleased to share my latest \"Deep Field\" image, containing THOUSANDS of galaxies and a brand-new supernova that just kicked off ~2 weeks ago! Timelapse showing the supernova, prints, and more details in the thread \ud83d\udc47",
+   "permalink": "https://x.com/AJamesMcCarthy/status/2100625948584616169",
+   "outlink": null,
+   "score": 6579,
+   "comments_n": 210,
+   "views": 286117,
+   "age_h": 20.7,
+   "vph": 317.8,
+   "image": "https://pbs.twimg.com/media/HSbpqREbsAASMJt.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HSbpqREbsAASMJt.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1789663423.242143
   }
  ]
 }
