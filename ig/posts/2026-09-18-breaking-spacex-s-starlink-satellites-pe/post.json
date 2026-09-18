@@ -1,0 +1,78 @@
+{
+ "media_idx": 1,
+ "image_brief": "SpaceX Starlink satellites making 207,152 autonomous collision dodges in orbit with no humans involved",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SPACEX DODGED SPACE JUNK <em>207,152 TIMES</em> AND NOT ONE HUMAN APPROVED A SINGLE MOVE",
+   "kicker": "AT 3-IN-10-MILLION COLLISION ODDS",
+   "hsize": 70,
+   "media": "posts/2026-09-18-breaking-spacex-s-starlink-satellites-pe/gen-0.jpg",
+   "image_prompt": "Elon Musk hands raised up not touching anything, Starlink satellites autonomously dodging space junk in Earth orbit behind him, SpaceX logo in a small circle next to him",
+   "gen_person": true
+  }
+ ],
+ "caption": "SpaceX's satellites are dodging crashes in space more than 1,100 times a day, fully automated, zero humans involved.\n\nMost people assume space is so vast that satellites basically float around safely, crashes being some once-in-a-generation freak accident. That's not what's happening.\n\nA robot system is quietly steering SpaceX's satellites out of the way of junk and other objects more than 1,100 times every single day. Over six months, that's 207,152 automated dodges. No person reviews it, no human approves anything. The system detects something getting too close, calculates the danger, and moves the satellite out of the way on its own. You never heard a word about a single one of them.\n\nHere's the part that stops you cold: it doesn't wait for a near-miss. The threshold that triggers a dodge is a collision probability of just 3 in 10 million. That's not what most people would call a risk. SpaceX is swerving for dangers so small they'd never show up in a news alert.\n\nThe irony is right there in the numbers. SpaceX is celebrated for 207,152 automated dodges protecting its satellites from collisions. But SpaceX also launched the world's largest satellite constellation, which is most of the reason those dodges are needed. As more companies pile satellites into orbit, the daily count keeps climbing. And when this robot eventually makes the wrong call, nobody has figured out who answers for it.\n\nSpace is getting crowded fast, and the only thing standing between your internet connection and a chain-reaction crash is software making over 1,100 judgment calls a day with no human checking the work.\nRunning a business? DM us \"AI\" and we'll show you what autonomous systems like this could do for yours.\n\nSources: DogeDesigner on X, September 16, 2026\n\n#SpaceX #Starlink #Space #Technology #AI",
+ "pinned_comment": "SpaceX is celebrated for running 207,152 automated space dodges. The reason those dodges are needed is that SpaceX launched more satellites into orbit than anyone else on the planet.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX HAS THE BIGGEST SATELLITE FLEET AND STILL DODGED <em>207,152 CRASHES</em> IN SIX MONTHS",
+   "<em>SPACEX MADE 207,152 AUTOMATED SPACE DODGES</em> FOR A PROBLEM IT LARGELY CREATED",
+   "SPACEX DODGES SPACE JUNK <em>1,100 TIMES A DAY</em> SO YOUR INTERNET STAYS ON",
+   "SPACEX SATELLITES MADE <em>207,152 AUTOMATED SPACE DODGES</em>, AND NO HUMAN TOUCHED A THING",
+   "SPACEX IS QUIETLY <em>STEERING ITS SATELLITES AWAY FROM CRASHES</em> 1,100 TIMES EVERY DAY",
+   "SPACEX JUST DODGED SPACE JUNK <em>207,152 TIMES IN SIX MONTHS</em>, NO HUMAN TOUCHED ANYTHING",
+   "SPACEX FIRES AN AUTOMATIC DODGE WHEN CRASH ODDS HIT JUST <em>3 IN 10 MILLION</em>"
+  ],
+  "scores": [
+   6,
+   0,
+   8,
+   7,
+   7,
+   7,
+   6
+  ],
+  "winner": 2,
+  "why": "[2] ends with 'so your internet stays on'\u2014you immediately realize *you* depend on this 1,100 times daily, which is a gut punch. [4] has the same shocking number but stays abstract, so it's interesting but doesn't hit the stop-your-scrolling urgency."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX DODGED SPACE JUNK <em>207,152 TIMES</em> \u2014 NO HUMAN TOUCHED ANYTHING",
+   "SPACEX HAS AN AI QUIETLY STEERING YOUR INTERNET SATELLITES <em>1,100 TIMES A DAY</em>",
+   "SPACEX SATELLITES DODGE SPACE JUNK <em>EVERY 76 SECONDS</em> \u2014 YOUR PHONE DEPENDS ON IT",
+   "SPACEX DODGES SPACE JUNK <em>1,100 TIMES A DAY</em> SO YOUR INTERNET STAYS ON"
+  ],
+  "scores": [
+   9,
+   7,
+   7,
+   8
+  ],
+  "winner": 0,
+  "why": "207,152 hits harder than 1,100 or any frequency metric, and 'NO HUMAN TOUCHED ANYTHING' is the autonomy shock that makes this revolutionary. [3] beats [1] as runner-up because practical stakes ('internet stays on') outweigh creepiness."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SpaceX Starlink",
+  "actor_known": true,
+  "anchor": "SpaceX",
+  "specifics": [
+   "207,152 automated collision dodges in just six months \u2014 roughly 1,131 per day",
+   "The system acts at a collision probability of just 3 in 10 million",
+   "Fully autonomous \u2014 no human decides when to move the satellite",
+   "SpaceX runs the world's largest satellite constellation",
+   "Detects the threat, calculates the risk, and steers \u2014 all without a person"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: SpaceX\u2019s Starlink satellites performed 207,152 proactive collision-avoidance maneuvers in just six months. The advanced autonomous system: \u2022 Detects potential close approaches \u2022 Calculates the level of risk \u2022 A",
+  "link": "https://x.com/cb_doge/status/2100205089994445011",
+  "judge_interest": 9,
+  "scout_score": 86.1
+ }
+}
