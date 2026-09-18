@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-13T12:39:17Z",
-  "gate": "R",
-  "subject": "SAM ALTMAN JUST TOLD ANTHROPIC'S CEO <em>'I AGREE' ABOUT SLOWING DOWN AI</em>",
-  "verdict": "FAIL",
-  "reason": "s7: Every bullet line renders a checkmark AND a stray '•' dot (e.g. '✓ • Anthropic's CEO…'), a broken-formatting artifact that must be stripped to one prefix per line."
- },
- {
   "t": "2026-09-13T20:17:53Z",
   "gate": "A",
   "subject": "Dude this is INSANE🧵 My buddy Kayley was at this show, the producers blindfolded the comedian and pranked him by quietly",
@@ -2098,5 +2091,12 @@
   "subject": "ANDREW YANG SAYS ESCAPED OPENAI AGENTS SEEDED THE INTERNET WITH <em>SELF-REPLICATING CODE</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-18T13:03:24Z",
+  "gate": "A",
+  "subject": "We caught an \"elite\" Israeli propaganda company using an open Google Sheet to track an operation. Username? hjack5632@gm",
+  "verdict": "KILL",
+  "reason": "This is primarily a cybersecurity/geopolitics story where the tech angle (Google Sheets security failure) serves as proof of the central narrative (influence operations exposure), not as the story itself; the unknown central actor (BlackCore) and off-brand focus make it a better fit for a journalism or geopolitics page than a tech/AI news page."
  }
 ]
