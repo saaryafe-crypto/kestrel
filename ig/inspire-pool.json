@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T15:25:45.865919+00:00",
+ "updated": "2026-09-18T17:27:11.572861+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -595,25 +595,6 @@
    "born": 1789234239.039477
   },
   {
-   "id": "2090098870336241914",
-   "title": "It's official. On July 31st, we called for US government intervention as long-term borrowing costs hit 2008 levels. Today, it happened. The US Treasury is DOUBLING buybacks to $4 billion per operation for \"liquidity supp",
-   "sub": "KobeissiLetter",
-   "where": "@KobeissiLetter on X",
-   "unit": "likes",
-   "selftext": "It's official. On July 31st, we called for US government intervention as long-term borrowing costs hit 2008 levels. Today, it happened. The US Treasury is DOUBLING buybacks to $4 billion per operation for \"liquidity support.\" What comes next? Let us explain. (a thread)",
-   "permalink": "https://x.com/KobeissiLetter/status/2090098870336241914",
-   "outlink": null,
-   "score": 10296,
-   "comments_n": 325,
-   "views": 6068140,
-   "age_h": 35.4,
-   "vph": 290.8,
-   "image": "https://pbs.twimg.com/media/HQF4y_8WEAAZJRc.png",
-   "video": null,
-   "guide": false,
-   "born": 1787153398.938603
-  },
-  {
    "id": "2093762731036008664",
    "title": "Polar bear caught mid-leap over Arctic waters during an expedition",
    "sub": "AMAZlNGNATURE",
@@ -794,11 +775,11 @@
    "selftext": "After capturing over 100 hours worth of exposures, I'm pleased to share my latest \"Deep Field\" image, containing THOUSANDS of galaxies and a brand-new supernova that just kicked off ~2 weeks ago! Timelapse showing the supernova, prints, and more details in the thread \ud83d\udc47",
    "permalink": "https://x.com/AJamesMcCarthy/status/2100625948584616169",
    "outlink": null,
-   "score": 6579,
-   "comments_n": 210,
-   "views": 286117,
-   "age_h": 22.7,
-   "vph": 289.8,
+   "score": 7526,
+   "comments_n": 231,
+   "views": 359039,
+   "age_h": 24.8,
+   "vph": 304.0,
    "image": "https://pbs.twimg.com/media/HSbpqREbsAASMJt.jpg",
    "images": [
     "https://pbs.twimg.com/media/HSbpqREbsAASMJt.jpg"
@@ -806,6 +787,29 @@
    "video": null,
    "guide": false,
    "born": 1789663423.242143
+  },
+  {
+   "id": "2100739055923425589",
+   "title": "This is actually insane. This uses @typesafeai Jev model, as a plugin in Claude to review all the un-nesseasary tool calls, and it takes 1s to run! Like, literally, 1 second to take my Claude session from nearly 1M to ..",
+   "sub": "altryne",
+   "where": "@altryne on X",
+   "unit": "likes",
+   "selftext": "This is actually insane. This uses @typesafeai Jev model, as a plugin in Claude to review all the un-nesseasary tool calls, and it takes 1s to run! Like, literally, 1 second to take my Claude session from nearly 1M to ... 86K tokens! \ud83d\ude2e Ask your claude to install it and be amazed Use this prompt ``` Install, and configure :  ```",
+   "permalink": "https://x.com/altryne/status/2100739055923425589",
+   "outlink": null,
+   "score": 6761,
+   "comments_n": 124,
+   "views": 874360,
+   "age_h": 17.3,
+   "vph": 391.6,
+   "image": "https://pbs.twimg.com/media/HSdTBk8bAAAPtk8.png",
+   "images": [
+    "https://pbs.twimg.com/media/HSdTBk8bAAAPtk8.png",
+    "https://pbs.twimg.com/media/HSdTCa_a0AAKYLw.png"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1789690151.572861
   }
  ]
 }

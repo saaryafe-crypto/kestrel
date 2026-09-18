@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T15:25:45.865919+00:00",
+ "updated": "2026-09-18T17:27:11.572861+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -48,6 +48,39 @@
    "born": 1788572804.267859
   },
   {
+   "id": "2100679992720142459",
+   "title": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
+   "sub": "OpenAI",
+   "where": "@OpenAI on X",
+   "unit": "likes",
+   "selftext": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
+   "permalink": "https://x.com/OpenAI/status/2100679992720142459",
+   "outlink": null,
+   "score": 19945,
+   "comments_n": 830,
+   "views": 11378384,
+   "age_h": 21.2,
+   "vph": 941.8,
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2100676124544290816/img/gglnVPdOvZOY65g_.jpg",
+   "images": [],
+   "video": "https://video.twimg.com/amplify_video/2100676124544290816/vid/avc1/1920x1080/IccqGABbN0W6bezt.mp4?tag=29",
+   "guide": true,
+   "top_comments": [
+    "Sorry your honor my codex limit is out and I can\u2019t defend my client",
+    "Existential dread kicking in 3\u20262\u20261\u2026",
+    "better call sol",
+    "Dario Amodei seeing OpenAI finally not slowing down",
+    "should've called it louis smh"
+   ],
+   "thread": [
+    "We\u2019re also launching 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. Partners including @thomsonreuters, @harvey, @WeAreLegora, and @imanageinc connect specialist tools and knowledge. Community plugins built by lawyers and legal engineers give firms skills they can adapt and extend. The plugins bring more ways to build with the tools, knowledge, and people firms already rely on.",
+    "The people who know the work should shape the tools. With our engineers, Sullivan & Cromwell built an agreement analyzer, Ropes & Gray built an M&A diligence system, and Cooley built GO Public for IPO preparation. Each brings the firm\u2019s expertise into workflows its lawyers can review, challenge, and refine. We\u2019re also expanding privacy and governance controls for eligible firms through Trusted Access.",
+    "Astra for Law pairs GPT-6 Astra with instructions for legal analysis and writing, settings for thorough work, and a new Legal Search Index. The index searches U.S. case law, statutes, regulations, court rules, and administrative decisions across more than 230 million URLs\u2014with sources added daily. That helps lawyers move from the facts of a matter to relevant authorities and supporting passages they can examine themselves.",
+    "Astra for Law will initially be offered to selected firms through Trusted Access in ChatGPT and Codex, with API access coming soon. We\u2019ll maintain the legal configuration so builders can focus on their own products and workflows. We\u2019ll build the next chapter of Astra for Law alongside the lawyers and legal technology partners who put it into practice."
+   ],
+   "born": 1789676376.711449
+  },
+  {
    "id": "2096404234174431420",
    "title": "its 3 am but i just found out how to to protect your art from grok edits here!!!",
    "sub": "angeloushart",
@@ -71,39 +104,6 @@
     "@matsuudesu u need to click on ur pic before uploading ur tweet"
    ],
    "born": 1788656724.07806
-  },
-  {
-   "id": "2100679992720142459",
-   "title": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
-   "sub": "OpenAI",
-   "where": "@OpenAI on X",
-   "unit": "likes",
-   "selftext": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
-   "permalink": "https://x.com/OpenAI/status/2100679992720142459",
-   "outlink": null,
-   "score": 15071,
-   "comments_n": 650,
-   "views": 6355915,
-   "age_h": 19.1,
-   "vph": 789.1,
-   "image": "https://pbs.twimg.com/amplify_video_thumb/2100676124544290816/img/gglnVPdOvZOY65g_.jpg",
-   "images": [],
-   "video": "https://video.twimg.com/amplify_video/2100676124544290816/vid/avc1/1920x1080/IccqGABbN0W6bezt.mp4?tag=29",
-   "guide": true,
-   "top_comments": [
-    "Sorry your honor my codex limit is out and I can\u2019t defend my client",
-    "Existential dread kicking in 3\u20262\u20261\u2026",
-    "Dario Amodei seeing OpenAI finally not slowing down",
-    "should've called it louis smh",
-    "Last week: Let's slow down the AI development \nAnthropic: I agree\n\nThis week: me to you and Anthropic"
-   ],
-   "thread": [
-    "We\u2019re also launching 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. Partners including @thomsonreuters, @harvey, @WeAreLegora, and @imanageinc connect specialist tools and knowledge. Community plugins built by lawyers and legal engineers give firms skills they can adapt and extend. The plugins bring more ways to build with the tools, knowledge, and people firms already rely on.",
-    "The people who know the work should shape the tools. With our engineers, Sullivan & Cromwell built an agreement analyzer, Ropes & Gray built an M&A diligence system, and Cooley built GO Public for IPO preparation. Each brings the firm\u2019s expertise into workflows its lawyers can review, challenge, and refine. We\u2019re also expanding privacy and governance controls for eligible firms through Trusted Access.",
-    "Astra for Law pairs GPT-6 Astra with instructions for legal analysis and writing, settings for thorough work, and a new Legal Search Index. The index searches U.S. case law, statutes, regulations, court rules, and administrative decisions across more than 230 million URLs\u2014with sources added daily. That helps lawyers move from the facts of a matter to relevant authorities and supporting passages they can examine themselves.",
-    "Astra for Law will initially be offered to selected firms through Trusted Access in ChatGPT and Codex, with API access coming soon. We\u2019ll maintain the legal configuration so builders can focus on their own products and workflows. We\u2019ll build the next chapter of Astra for Law alongside the lawyers and legal technology partners who put it into practice."
-   ],
-   "born": 1789676376.711449
   },
   {
    "id": "2095117229100544450",
@@ -404,6 +404,26 @@
    "born": 1788264946.745911
   },
   {
+   "id": "2100684274114699295",
+   "title": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help tra",
+   "sub": "AnthropicAI",
+   "where": "@AnthropicAI on X",
+   "unit": "likes",
+   "selftext": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help track AI development: 1. How much AI R&D is done by AI. 2. How well AI agents are overseen. 3. How compute is allocated. We provide a snapshot of these metrics from inside Anthropic. Any frontier developer could publish the same measures, and third parties could verify them. As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows. This means better measuring the development of AI, publishing our findings, and giving society an opportunity to decide how to use this information. Read the full post and methodology:",
+   "permalink": "https://x.com/AnthropicAI/status/2100684274114699295",
+   "outlink": null,
+   "score": 4030,
+   "comments_n": 495,
+   "views": 1221917,
+   "age_h": 20.9,
+   "vph": 192.9,
+   "image": null,
+   "images": [],
+   "video": null,
+   "guide": true,
+   "born": 1789677096.711449
+  },
+  {
    "id": "2096133504417616165",
    "title": "How we think about the \u201cwiki incident,\u201d where our agents wrote to several internet sites: it\u2019s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of ou",
    "sub": "OpenAI",
@@ -493,26 +513,6 @@
     "8\ufe0f\u20e3 Bull vs Bear Debate Create a debate between two analysts about [TICKER]. One analyst is bullish. One analyst is bearish. Each must present data-backed arguments. End with a balanced conclusion."
    ],
    "born": 1787564007.474675
-  },
-  {
-   "id": "2100684274114699295",
-   "title": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help tra",
-   "sub": "AnthropicAI",
-   "where": "@AnthropicAI on X",
-   "unit": "likes",
-   "selftext": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help track AI development: 1. How much AI R&D is done by AI. 2. How well AI agents are overseen. 3. How compute is allocated. We provide a snapshot of these metrics from inside Anthropic. Any frontier developer could publish the same measures, and third parties could verify them. As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows. This means better measuring the development of AI, publishing our findings, and giving society an opportunity to decide how to use this information. Read the full post and methodology:",
-   "permalink": "https://x.com/AnthropicAI/status/2100684274114699295",
-   "outlink": null,
-   "score": 3394,
-   "comments_n": 398,
-   "views": 905361,
-   "age_h": 18.8,
-   "vph": 180.5,
-   "image": null,
-   "images": [],
-   "video": null,
-   "guide": true,
-   "born": 1789677096.711449
   },
   {
    "id": "2096536467539677533",
