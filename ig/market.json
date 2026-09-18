@@ -1,101 +1,165 @@
 {
- "updated": "2026-09-17T14:11:40+00:00",
+ "updated": "2026-09-18T12:08:40+00:00",
  "competitor_hits": [
   {
    "page": "wired",
-   "likes": 13000,
-   "ratio": 14.46,
-   "tier": "mega",
-   "hook": "\"WIRED tested samples of four types of peptides. The results show how lightly regulated the industry is, even as popularity surges.\n\nRead the full story at the \ud83d\udd17 in bio.\".",
-   "date": "2026-09-15"
-  },
-  {
-   "page": "wired",
-   "likes": 5812,
-   "ratio": 6.46,
+   "likes": 6373,
+   "ratio": 6.91,
    "tier": "mega",
    "hook": "\"Hackers ripped down a Flock camera above a roadway, made a near-complete copy of the data stored inside it, revealing in new detail how exactly Flock Safety\u2019s cameras track the movements of both vehicles and people. The",
    "date": "2026-09-16"
   },
   {
    "page": "wired",
-   "likes": 3150,
-   "ratio": 3.5,
+   "likes": 1706,
+   "ratio": 1.85,
    "tier": "mega",
-   "hook": "\"Kash Patel, director of the Federal Bureau of Investigation, told confused members of the Senate judiciary committee on Thursday that new FBI hiring standards are aimed at protecting \u201cvictims of bestiality.\u201d\n\nPrior to t",
-   "date": "2026-09-15"
+   "hook": "\"Maddie Kowalski is one of countless college-aged girls who\u2019ve had their lives destroyed by anonymous sports fan accounts. Now she\u2019s fighting back against the burnerverse.\n\nIf you or someone you know has been a victim of",
+   "date": "2026-09-17"
+  },
+  {
+   "page": "technology",
+   "likes": 48000,
+   "ratio": 1.6,
+   "tier": "mega",
+   "hook": "\"Pok\u00e9mon has transformed the Las Vegas Sphere into a giant Pok\u00e9mon Sleep experience, bringing some of its most recognizable characters across the massive Exosphere \u26a1\ufe0f\n\nThe animation turns the building into a giant Pok\u00e9 B",
+   "date": "2026-09-16"
   },
   {
    "page": "wired",
-   "likes": 1762,
-   "ratio": 1.96,
-   "tier": "mega",
-   "hook": "\"Courtney McAnuff was out of a year-long relationship in the summer of 2024 and starting to date again when she agreed to grab drinks with a potential suitor.\n\nThey met at a bar in midtown Manhattan. He arrived wearing a",
-   "date": "2026-09-15"
-  },
-  {
-   "page": "wired",
-   "likes": 948,
-   "ratio": 1.05,
+   "likes": 1141,
+   "ratio": 1.24,
    "tier": "mega",
    "hook": "\"Fast-casual burrito chain Chipotle is working with the data infrastructure giant Palantir.\n\nThe company is working on a \u201cfood safety risk platform\u201d hosted on Palantir\u2019s flagship software platform Foundry, according to s",
    "date": "2026-09-16"
   },
   {
    "page": "wired",
-   "likes": 783,
+   "likes": 990,
+   "ratio": 1.07,
+   "tier": "mega",
+   "hook": "\"On November 3, when voters across the US go to the polls, almost 200 election deniers will be on the ballot. Many of them have repeatedly undermined the very process they are participating in, and they will be looking t",
+   "date": "2026-09-17"
+  },
+  {
+   "page": "mashable",
+   "likes": 1064,
+   "ratio": 1.05,
+   "tier": "mega",
+   "hook": "\"No, these videos aren\u2019t aliens; they\u2019re teeny, tiny videos that capture the microscopic life in our world. \u2060\n\u2060\nThe Nikon Small World in Motion competition, now in its 16th year, lets people submit movies and timelapse p",
+   "date": "2026-09-16"
+  },
+  {
+   "page": "futurism",
+   "likes": 3721,
+   "ratio": 1.01,
+   "tier": "mega",
+   "hook": "\"As the USA\u2019s war with Iran shows no signs of letting up, strikes on data centers are putting not just human lives in peril, but even customer data.\n\nAccording to an Amazon Web Services update published Tuesday, Iranian ",
+   "date": "2026-09-17"
+  },
+  {
+   "page": "technology",
+   "likes": 30000,
+   "ratio": 1.0,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to discover 10 surprisingly useful websites from the older internet era that can still solve everyday problems without another subscription or complicated app \ud83c\udf10\n\nSome of these projects have existed since the la",
+   "date": "2026-09-16"
+  },
+  {
+   "page": "mashable",
+   "likes": 957,
+   "ratio": 0.95,
+   "tier": "mega",
+   "hook": "\"Taking leave from work for significant video game releases is a time-honoured tradition. Unsurprisingly, the highly anticipated launch of Grand Theft Auto VI (GTA 6) has fans eagerly planning to request time off to play",
+   "date": "2026-09-16"
+  },
+  {
+   "page": "technology",
+   "likes": 26000,
    "ratio": 0.87,
    "tier": "mega",
-   "hook": "\"For Hollywood stars, press junkets are an opportunity to promote new work while connecting with fans. They tell funny or embarrassing stories about one another, give us a glimpse into the film production process, and re",
-   "date": "2026-09-15"
+   "hook": "\"Max Verstappen took on 100 drivers at Silverstone in a wild karting challenge, starting dead last with one goal: overtake the entire field \ud83c\udfce\ufe0f\ud83d\udd25\n\nThe 4-time F1 world champion started 101st and was given a maximum of 30 la",
+   "date": "2026-09-16"
   },
   {
-   "page": "wired",
-   "likes": 767,
-   "ratio": 0.85,
+   "page": "techcrunch",
+   "likes": 62,
+   "ratio": 0.87,
    "tier": "mega",
-   "hook": "\"A bipartisan pair of US lawmakers tell WIRED they plan to introduce legislation today that would strip federal funding from states that fail to restrict the use of Flock cameras and other automated license plate readers",
-   "date": "2026-09-15"
+   "hook": "\"Flying taxis at the Olympics? \u2708\ufe0f\n\nArcherhas been named the exclusive air taxi provider for the 2028 Los Angeles Olympics.\nCEO Adam Goldstein says the Games could give the emerging industry a global showcase, similar to ",
+   "date": "2026-09-17"
   },
   {
    "page": "wired",
-   "likes": 314,
-   "ratio": 0.35,
+   "likes": 500,
+   "ratio": 0.54,
+   "tier": "mega",
+   "hook": "\"Flock CEO Garrett Langley has said the company made its first license plate cameras in his Atlanta home, permanently scratching his dining table with drill marks. A decade later, where the company assembles its signatur",
+   "date": "2026-09-17"
+  },
+  {
+   "page": "wired",
+   "likes": 470,
+   "ratio": 0.51,
+   "tier": "mega",
+   "hook": "\"By framing their efforts as a \u201cslowdown\u201d rather than an industry-wide push for better security standards, AI labs may have set themselves up for years of regulatory headaches. \nFollowing multiple reports of AI agent swa",
+   "date": "2026-09-17"
+  },
+  {
+   "page": "technology",
+   "likes": 15000,
+   "ratio": 0.5,
+   "tier": "mega",
+   "hook": "\"We used to buy technology. Now we\u2019re increasingly paying just to access it \ud83d\udcb3\ud83d\udd12\n\nCloud storage replaced memory cards. Streaming replaced DVDs. Software and digital purchases can now depend on subscriptions, licenses, and ",
+   "date": "2026-09-16"
+  },
+  {
+   "page": "wired",
+   "likes": 346,
+   "ratio": 0.38,
    "tier": "mega",
    "hook": "\"Sam Altman said people are right to worry about AI companies and their models becoming too powerful, after a week in which AI leaders called for an industry-wide slowdown and the potential dangers of unregulated AI beca",
    "date": "2026-09-16"
   },
   {
    "page": "wired",
-   "likes": 253,
-   "ratio": 0.28,
+   "likes": 267,
+   "ratio": 0.29,
    "tier": "mega",
    "hook": "\"The new WIRED app is here! Whether you're a reader, viewer, or listener, the app is the best way to experience WIRED. Here\u2019s what you can expect:\n\n\u2022 Make WIRED yours with a personalized Daily Digest built around the top",
    "date": "2026-09-16"
   },
   {
-   "page": "futurism",
-   "likes": 714,
-   "ratio": 0.13,
+   "page": "technology",
+   "likes": 6690,
+   "ratio": 0.22,
    "tier": "mega",
-   "hook": "\"While the US appears to be further away from meaningful AI regulations than ever before, lawmakers certainly have plenty of ideas on how the country could go about setting meaningful rules.\n\nIt\u2019s a particularly precario",
-   "date": "2026-09-15"
+   "hook": "\"A striking Pacific Airshow moment captured an F-22 Raptor surrounded by condensation, briefly turning normally invisible aerodynamic forces into something spectators could actually see \u2708\ufe0f\u2601\ufe0f\n\nThe effect is not smoke and ",
+   "date": "2026-09-17"
   },
   {
    "page": "wired",
-   "likes": 72,
-   "ratio": 0.08,
+   "likes": 84,
+   "ratio": 0.09,
    "tier": "mega",
    "hook": "\"Join WIRED in San Francisco on October 8 for a live-audience recording of the \u201cUncanny Valley\u201d podcast featuring a special conversation between Paulina Borsook, tech journalist and former WIRED writer, and WIRED global ",
    "date": "2026-09-16"
   },
   {
    "page": "futurism",
-   "likes": 260,
-   "ratio": 0.05,
+   "likes": 309,
+   "ratio": 0.08,
    "tier": "mega",
    "hook": "\"AI is supposedly going to kill us all, but at least it\u2019s doing wonders for the stocks for a few multibillion-dollar companies.\n\nMounting fears over the technology\u2019s existential risks reached a fever pitch over the weeke",
    "date": "2026-09-16"
+  },
+  {
+   "page": "technology",
+   "likes": 137,
+   "ratio": 0.0,
+   "tier": "mega",
+   "hook": "\"I, Robot imagined a world where intelligent machines could think, act and make decisions around humans, a question that now feels far more relevant. \n\nToday\u2019s AI can generate code, images, video, voices and text, while ",
+   "date": "2026-09-18"
   }
  ],
  "reddit_hot": []
