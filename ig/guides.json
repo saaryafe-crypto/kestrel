@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T07:22:44.536937+00:00",
+ "updated": "2026-09-18T09:25:29.907252+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -71,6 +71,39 @@
     "@matsuudesu u need to click on ur pic before uploading ur tweet"
    ],
    "born": 1788656724.07806
+  },
+  {
+   "id": "2100679992720142459",
+   "title": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
+   "sub": "OpenAI",
+   "where": "@OpenAI on X",
+   "unit": "likes",
+   "selftext": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
+   "permalink": "https://x.com/OpenAI/status/2100679992720142459",
+   "outlink": null,
+   "score": 15071,
+   "comments_n": 650,
+   "views": 6355915,
+   "age_h": 13.1,
+   "vph": 1148.1,
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2100676124544290816/img/gglnVPdOvZOY65g_.jpg",
+   "images": [],
+   "video": "https://video.twimg.com/amplify_video/2100676124544290816/vid/avc1/1920x1080/IccqGABbN0W6bezt.mp4?tag=29",
+   "guide": true,
+   "top_comments": [
+    "Sorry your honor my codex limit is out and I can\u2019t defend my client",
+    "Existential dread kicking in 3\u20262\u20261\u2026",
+    "Dario Amodei seeing OpenAI finally not slowing down",
+    "should've called it louis smh",
+    "Last week: Let's slow down the AI development \nAnthropic: I agree\n\nThis week: me to you and Anthropic"
+   ],
+   "thread": [
+    "We\u2019re also launching 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. Partners including @thomsonreuters, @harvey, @WeAreLegora, and @imanageinc connect specialist tools and knowledge. Community plugins built by lawyers and legal engineers give firms skills they can adapt and extend. The plugins bring more ways to build with the tools, knowledge, and people firms already rely on.",
+    "The people who know the work should shape the tools. With our engineers, Sullivan & Cromwell built an agreement analyzer, Ropes & Gray built an M&A diligence system, and Cooley built GO Public for IPO preparation. Each brings the firm\u2019s expertise into workflows its lawyers can review, challenge, and refine. We\u2019re also expanding privacy and governance controls for eligible firms through Trusted Access.",
+    "Astra for Law pairs GPT-6 Astra with instructions for legal analysis and writing, settings for thorough work, and a new Legal Search Index. The index searches U.S. case law, statutes, regulations, court rules, and administrative decisions across more than 230 million URLs\u2014with sources added daily. That helps lawyers move from the facts of a matter to relevant authorities and supporting passages they can examine themselves.",
+    "Astra for Law will initially be offered to selected firms through Trusted Access in ChatGPT and Codex, with API access coming soon. We\u2019ll maintain the legal configuration so builders can focus on their own products and workflows. We\u2019ll build the next chapter of Astra for Law alongside the lawyers and legal technology partners who put it into practice."
+   ],
+   "born": 1789676376.711449
   },
   {
    "id": "2095117229100544450",
@@ -179,39 +212,6 @@
    "video": null,
    "guide": true,
    "born": 1787957483.785659
-  },
-  {
-   "id": "2100679992720142459",
-   "title": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
-   "sub": "OpenAI",
-   "where": "@OpenAI on X",
-   "unit": "likes",
-   "selftext": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
-   "permalink": "https://x.com/OpenAI/status/2100679992720142459",
-   "outlink": null,
-   "score": 9651,
-   "comments_n": 431,
-   "views": 2365406,
-   "age_h": 11.1,
-   "vph": 869.5,
-   "image": "https://pbs.twimg.com/amplify_video_thumb/2100676124544290816/img/gglnVPdOvZOY65g_.jpg",
-   "images": [],
-   "video": "https://video.twimg.com/amplify_video/2100676124544290816/vid/avc1/1920x1080/IccqGABbN0W6bezt.mp4?tag=29",
-   "guide": true,
-   "top_comments": [
-    "Existential dread kicking in 3\u20262\u20261\u2026",
-    "Sorry your honor my codex limit is out and I can\u2019t defend my client",
-    "should've called it louis smh",
-    "Dario Amodei seeing OpenAI finally not slowing down",
-    "God help any clients who rely on this bullshit if they don't have enough usage from their pro-plan. You fuckers will be sending people to the gallows because of your token inefficiency."
-   ],
-   "thread": [
-    "We\u2019re also launching 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. Partners including @thomsonreuters, @harvey, @WeAreLegora, and @imanageinc connect specialist tools and knowledge. Community plugins built by lawyers and legal engineers give firms skills they can adapt and extend. The plugins bring more ways to build with the tools, knowledge, and people firms already rely on.",
-    "The people who know the work should shape the tools. With our engineers, Sullivan & Cromwell built an agreement analyzer, Ropes & Gray built an M&A diligence system, and Cooley built GO Public for IPO preparation. Each brings the firm\u2019s expertise into workflows its lawyers can review, challenge, and refine. We\u2019re also expanding privacy and governance controls for eligible firms through Trusted Access.",
-    "Astra for Law pairs GPT-6 Astra with instructions for legal analysis and writing, settings for thorough work, and a new Legal Search Index. The index searches U.S. case law, statutes, regulations, court rules, and administrative decisions across more than 230 million URLs\u2014with sources added daily. That helps lawyers move from the facts of a matter to relevant authorities and supporting passages they can examine themselves.",
-    "Astra for Law will initially be offered to selected firms through Trusted Access in ChatGPT and Codex, with API access coming soon. We\u2019ll maintain the legal configuration so builders can focus on their own products and workflows. We\u2019ll build the next chapter of Astra for Law alongside the lawyers and legal technology partners who put it into practice."
-   ],
-   "born": 1789676376.711449
   },
   {
    "id": "2091405604418171026",
@@ -495,6 +495,26 @@
    "born": 1787564007.474675
   },
   {
+   "id": "2100684274114699295",
+   "title": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help tra",
+   "sub": "AnthropicAI",
+   "where": "@AnthropicAI on X",
+   "unit": "likes",
+   "selftext": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help track AI development: 1. How much AI R&D is done by AI. 2. How well AI agents are overseen. 3. How compute is allocated. We provide a snapshot of these metrics from inside Anthropic. Any frontier developer could publish the same measures, and third parties could verify them. As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows. This means better measuring the development of AI, publishing our findings, and giving society an opportunity to decide how to use this information. Read the full post and methodology:",
+   "permalink": "https://x.com/AnthropicAI/status/2100684274114699295",
+   "outlink": null,
+   "score": 3394,
+   "comments_n": 398,
+   "views": 905361,
+   "age_h": 12.8,
+   "vph": 264.3,
+   "image": null,
+   "images": [],
+   "video": null,
+   "guide": true,
+   "born": 1789677096.711449
+  },
+  {
    "id": "2096536467539677533",
    "title": "50 websites that can turn a \u201cquick visit\u201d into hours of exploring \ud83c\udf0d 1.  \u2014 Live satellite views 2.  \u2014 Track planes worldwide 3.  \u2014 Track ships in real time 4.  \u2014 Live weather & storms 5.  \u2014 Live lightning strikes 6.  \u2014 Re",
    "sub": "Orion_Vers7x",
@@ -515,6 +535,30 @@
    "born": 1788688464.878879
   },
   {
+   "id": "2099908000924193124",
+   "title": "Introducing our most advanced Gemini Audio models yet \ud83d\udde3 Gemini 3.8 Live and 3.8 Live Extended Thinking let you speak, collaborate, and execute tasks seamlessly, meaning conversing with AI just got a lot more natural. So,",
+   "sub": "GoogleAI",
+   "where": "@GoogleAI on X",
+   "unit": "likes",
+   "selftext": "Introducing our most advanced Gemini Audio models yet \ud83d\udde3 Gemini 3.8 Live and 3.8 Live Extended Thinking let you speak, collaborate, and execute tasks seamlessly, meaning conversing with AI just got a lot more natural. So, what\u2019s the difference between these two models? Let\u2019s break it down: \u2014 Gemini 3.8 Live is built for scale, speed, and cost efficiency. It can handle mid-sentence interruptions, transitions across 97 languages on the fly, and understands visual context. Figure out how to fix a broken bike chain, or deal with a leaky pipe just by pointing your camera at the problem area in Search Live for step-by-step audio instructions. \u2014 Gemini 3.8 Live Extended Thinking goes one step further to bring increased intelligence to your most complex tasks. It reasons and speaks in parallel, even narrating its progress as it works. This lets it handle multi-step, behind-the-scenes projects, like planning an event, without ever losing the conversational flow. Watch how Gemini 3.8 Live combines real-time video and voice inputs in Search Live to tackle hands-on DIY plumbing tasks step by step \ud83d\udc47",
+   "permalink": "https://x.com/GoogleAI/status/2099908000924193124",
+   "outlink": null,
+   "score": 3048,
+   "comments_n": 165,
+   "views": 230847,
+   "age_h": 64.3,
+   "vph": 47.4,
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2099907494130728960/img/twMNJBtoCFNdmjLh.jpg",
+   "images": [],
+   "video": "https://video.twimg.com/amplify_video/2099907494130728960/vid/avc1/1920x1080/wpb9tWQENQo1_pMm.mp4?tag=29",
+   "guide": true,
+   "wide_guide": true,
+   "thread": [
+    "Gemini 3.8 Live is rolling out to: \u2014 Consumers: in Search Live \u2014 Developers: in public preview in the Gemini API via @googleaistudio \u2014 Enterprises: in private preview via Gemini Enterprise (coming soon to Gemini Enterprise Customer Experience) Gemini 3.8 Live Extended Thinking is rolling out to: \u2014 Consumers: in Gemini Live in the @GeminiApp, plus Google AI Pro and Ultra subscribers in @GoogleWorkspace in @GoogleDocs, and all Google AI subscribers in @gmail and Keep \u2014 Developers: in public preview in the Gemini API via @GoogleAIStudio \u2014 Enterprises: in private preview via Gemini Enterprise (com"
+   ],
+   "born": 1789492049.907252
+  },
+  {
    "id": "2093266142328422558",
    "title": "In this video, shows how to use AI to find high-quality Remote Job opportunities in less than 2 minutes.",
    "sub": "AramideOyekunle",
@@ -533,6 +577,29 @@
    "guide": true,
    "wide_guide": true,
    "born": 1787908523.785659
+  },
+  {
+   "id": "2100248465955537026",
+   "title": "12 YouTube Courses That Could Replace an MBA From Alex Hormozi, Naval Ravikant, Andrew Huberman & More You don't need 4 years of university to learn the skills that matter in business. In business, you need to know how t",
+   "sub": "natan_mohart",
+   "where": "@natan_mohart on X",
+   "unit": "likes",
+   "selftext": "12 YouTube Courses That Could Replace an MBA From Alex Hormozi, Naval Ravikant, Andrew Huberman & More You don't need 4 years of university to learn the skills that matter in business. In business, you need to know how to sell, communicate, think clearly, negotiate, manage your time, learn faster, use AI, manage money, and make better decisions. And you can start learning these skills for free. Here are 12 YouTube courses and masterclasses worth watching: 1. How to Sell Better than 99% Of People (@AlexHormozi)  2. How To Speak Like The 1% Elite (@nataliecdawson)  3. How To Think SO CLEARLY People Assume You're A Genius (Sandeep Swadia)  4. Give me 18min & I'll improve your storytelling skills by 183% (Philipp Humm)  5. Negotiation Skills for Life (Matthias Schranner / TEDx Talks)  6. How to Be So Productive it Feels ILLEGAL (@danmartell)  7. How I Study SMARTER, Not HARDER (@hubermanlab)  8. N8N COURSE (Build & Sell AI Automations + Agents) (@nicksaraev)  9. The Ultimate Beginner's Guide to Claude AI (Metics Media/Matt Ebso)  10. How To Manage Your Money Like The 1% (@marktilbury)  11. How To Unlock Insane Focus On Command (Rian Doris)  12. 44 Harsh Truths About The Game Of Life (@naval / @ChrisWillx )  \ud83d\udcac What YouTube course or channel would you add to this list? If you found this helpful, save this post and share it with someone who wants to build business, career, and life skills without spending thousands on an MBA. \u2014 @natan_mohart",
+   "permalink": "https://x.com/natan_mohart/status/2100248465955537026",
+   "outlink": null,
+   "score": 2985,
+   "comments_n": 17,
+   "views": 118498,
+   "age_h": 41.7,
+   "vph": 71.6,
+   "image": "https://pbs.twimg.com/media/HSWTyC3aQAABU5V.png",
+   "images": [
+    "https://pbs.twimg.com/media/HSWTyC3aQAABU5V.png"
+   ],
+   "video": null,
+   "guide": true,
+   "wide_guide": true,
+   "born": 1789573409.907252
   },
   {
    "id": "2097849953410490529",
@@ -630,26 +697,6 @@
    "guide": true,
    "wide_guide": true,
    "born": 1787399487.474675
-  },
-  {
-   "id": "2100684274114699295",
-   "title": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help tra",
-   "sub": "AnthropicAI",
-   "where": "@AnthropicAI on X",
-   "unit": "likes",
-   "selftext": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help track AI development: 1. How much AI R&D is done by AI. 2. How well AI agents are overseen. 3. How compute is allocated. We provide a snapshot of these metrics from inside Anthropic. Any frontier developer could publish the same measures, and third parties could verify them. As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows. This means better measuring the development of AI, publishing our findings, and giving society an opportunity to decide how to use this information. Read the full post and methodology:",
-   "permalink": "https://x.com/AnthropicAI/status/2100684274114699295",
-   "outlink": null,
-   "score": 2277,
-   "comments_n": 258,
-   "views": 471203,
-   "age_h": 10.9,
-   "vph": 208.9,
-   "image": null,
-   "images": [],
-   "video": null,
-   "guide": true,
-   "born": 1789677096.711449
   },
   {
    "id": "2095890206130094462",
