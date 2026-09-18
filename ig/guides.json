@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17T23:12:06.513097+00:00",
+ "updated": "2026-09-18T01:13:36.711449+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -179,6 +179,39 @@
    "video": null,
    "guide": true,
    "born": 1787957483.785659
+  },
+  {
+   "id": "2100679992720142459",
+   "title": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
+   "sub": "OpenAI",
+   "where": "@OpenAI on X",
+   "unit": "likes",
+   "selftext": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
+   "permalink": "https://x.com/OpenAI/status/2100679992720142459",
+   "outlink": null,
+   "score": 9651,
+   "comments_n": 431,
+   "views": 2365406,
+   "age_h": 4.9,
+   "vph": 1949.9,
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2100676124544290816/img/gglnVPdOvZOY65g_.jpg",
+   "images": [],
+   "video": "https://video.twimg.com/amplify_video/2100676124544290816/vid/avc1/1920x1080/IccqGABbN0W6bezt.mp4?tag=29",
+   "guide": true,
+   "top_comments": [
+    "Existential dread kicking in 3\u20262\u20261\u2026",
+    "Sorry your honor my codex limit is out and I can\u2019t defend my client",
+    "should've called it louis smh",
+    "Dario Amodei seeing OpenAI finally not slowing down",
+    "God help any clients who rely on this bullshit if they don't have enough usage from their pro-plan. You fuckers will be sending people to the gallows because of your token inefficiency."
+   ],
+   "thread": [
+    "We\u2019re also launching 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. Partners including @thomsonreuters, @harvey, @WeAreLegora, and @imanageinc connect specialist tools and knowledge. Community plugins built by lawyers and legal engineers give firms skills they can adapt and extend. The plugins bring more ways to build with the tools, knowledge, and people firms already rely on.",
+    "The people who know the work should shape the tools. With our engineers, Sullivan & Cromwell built an agreement analyzer, Ropes & Gray built an M&A diligence system, and Cooley built GO Public for IPO preparation. Each brings the firm\u2019s expertise into workflows its lawyers can review, challenge, and refine. We\u2019re also expanding privacy and governance controls for eligible firms through Trusted Access.",
+    "Astra for Law pairs GPT-6 Astra with instructions for legal analysis and writing, settings for thorough work, and a new Legal Search Index. The index searches U.S. case law, statutes, regulations, court rules, and administrative decisions across more than 230 million URLs\u2014with sources added daily. That helps lawyers move from the facts of a matter to relevant authorities and supporting passages they can examine themselves.",
+    "Astra for Law will initially be offered to selected firms through Trusted Access in ChatGPT and Codex, with API access coming soon. We\u2019ll maintain the legal configuration so builders can focus on their own products and workflows. We\u2019ll build the next chapter of Astra for Law alongside the lawyers and legal technology partners who put it into practice."
+   ],
+   "born": 1789676376.711449
   },
   {
    "id": "2091405604418171026",
@@ -617,6 +650,26 @@
    "guide": true,
    "wide_guide": true,
    "born": 1787399487.474675
+  },
+  {
+   "id": "2100684274114699295",
+   "title": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help tra",
+   "sub": "AnthropicAI",
+   "where": "@AnthropicAI on X",
+   "unit": "likes",
+   "selftext": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help track AI development: 1. How much AI R&D is done by AI. 2. How well AI agents are overseen. 3. How compute is allocated. We provide a snapshot of these metrics from inside Anthropic. Any frontier developer could publish the same measures, and third parties could verify them. As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows. This means better measuring the development of AI, publishing our findings, and giving society an opportunity to decide how to use this information. Read the full post and methodology:",
+   "permalink": "https://x.com/AnthropicAI/status/2100684274114699295",
+   "outlink": null,
+   "score": 2277,
+   "comments_n": 258,
+   "views": 471203,
+   "age_h": 4.7,
+   "vph": 488.0,
+   "image": null,
+   "images": [],
+   "video": null,
+   "guide": true,
+   "born": 1789677096.711449
   },
   {
    "id": "2095890206130094462",
