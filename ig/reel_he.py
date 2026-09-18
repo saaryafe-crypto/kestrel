@@ -151,8 +151,11 @@ def scrub(out, en_caption):
         # carousel run 30623475851 failure — qa checks title + caption)
         return write.no_dashes(t.replace("@yaffeai", HANDLE)
                                 .replace("\u05be", "-"))
-    out["title"] = clean(out["title"])
-    cap = clean(out["caption"])
+    # missing keys (model flake, issues #406/#409: KeyError 'title' killed
+    # the same backlog reel twice) become empty strings so qa() flags them
+    # and the retry-with-errors ladder gets its turn instead of a crash
+    out["title"] = clean(out.get("title") or "")
+    cap = clean(out.get("caption") or "")
     # published hashtags ARE the English ones (owner rule)
     en_tags = re.findall(r"#\w+", en_caption)
     cap = re.sub(r"#[\w\u0590-\u05FF]+", "", cap).rstrip()

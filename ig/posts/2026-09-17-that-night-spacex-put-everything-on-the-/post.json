@@ -1,0 +1,9 @@
+{
+ "recovered": "run 35274321789 published this post to Instagram on 2026-09-17 but the history-commit step died on a git checkout collision (issue #407) — this stub restores the folder so the dupe judge sees the story; slides live in kestrel-media under the same name",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SPACEX JUST STUCK THE FIRST ORBITAL ROCKET LANDING, NINE MINUTES AFTER LAUNCH"
+  }
+ ]
+}

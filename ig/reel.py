@@ -181,9 +181,13 @@ def radar_candidates(used):
     # 16-cand batch, not 8 (Aug 16 dry run: with the 6-month archive the top
     # 8 by views were ALL elon memes/bare links — every actual tech clip sat
     # below the cut and the topic judge rightly returned -1, starving the slot)
+    # 48 collected since Sep 17 (issues #405/#408/#410: THREE slots starved
+    # in one day on the identical top-16 wall — all dupes of already-posted
+    # stories — while fresh unposted clips sat at ranks 17+, never seen).
+    # The judge still sees 16 at a time; main() pages deeper on refusal.
     cands, per_author = [], {}
     for m in moments:
-        if not m.get("video") or len(cands) >= 16:
+        if not m.get("video") or len(cands) >= 48:
             continue
         vid = m.get("id") or m["video"].split("?")[0].rstrip("/").rsplit("/", 1)[-1]
         if vid in used:
@@ -711,12 +715,24 @@ def main():
                 print(f"variety gate: {musk_recent}/5 recent reels are "
                       f"Musk-world — benching {len(benched)} Musk candidates",
                       file=sys.stderr)
-        if cands:
-            r = pick(cands, recent)
+        # BATCH PAGING (Sep 17, issues #405/#408/#410: three slots starved
+        # in one day on the identical top-16 wall — every top clip a dupe
+        # of an already-posted story — while fresh unposted clips sat at
+        # ranks 17+ where the judge never saw them). The judge sees 16 at
+        # a time; a refused page hands the next 16 their turn.
+        for lo in range(0, len(cands), 16):
+            page = cands[lo:lo + 16]
+            if lo:
+                print(f"judge refused the top {lo} — offering candidates "
+                      f"[{lo}]-[{lo + len(page) - 1}]", file=sys.stderr)
+            r = pick(page, recent)
+            if r:
+                cands = page
+                break
         if not r and benched:
             print("variety gate: nothing else passed the judge — the bench "
                   "returns", file=sys.stderr)
-            cands = cands + benched
+            cands = (benched + cands)[:16]
             r = pick(cands, recent)
         if not r:
             print("no publishable reel from the X watchlist radar",
