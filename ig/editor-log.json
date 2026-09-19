@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-14T21:29:39Z",
-  "gate": "A",
-  "subject": "While filming Mrs. Doubtfire, 14-year-old Lisa Jakub was expelled from her Canadian high school because her extended abs",
-  "verdict": "KILL",
-  "reason": "Off-brand for a tech/AI page—this is pure celebrity entertainment history with no connection to technology, AI, business, investing, or space."
- },
- {
   "t": "2026-09-14T21:30:19Z",
   "gate": "A",
   "subject": "BREAKING: President Trump doubles down on his rejection of AI safety concerns. \"Don't kill the Golden Goose,\" Trump says",
@@ -2098,5 +2091,12 @@
   "subject": "WHAT JUST HAPPENED IN <em data-texture=\"art/accent-orange.jpg\">AI</em> TODAY?",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-19T12:34:58Z",
+  "gate": "A",
+  "subject": "Spectator Report: Britain’s rupture with Israel is reportedly costing it influence across the Gulf. Arab states rely on ",
+  "verdict": "KILL",
+  "reason": "Off-topic: geopolitics and intelligence analysis, not AI or technology news; the page's identity requires one of its approved lenses (AI, technology, company, money, space) and this has none."
  }
 ]
