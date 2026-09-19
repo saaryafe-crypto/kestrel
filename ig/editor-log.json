@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-14T21:32:33Z",
-  "gate": "A",
-  "subject": "i wonder if the first episode will ever dethrone the silly team rocket meme i did 4 years ago",
-  "verdict": "KILL",
-  "reason": "Off-lens: internet meme culture, not AI/tech/company/founder/space as required; no event occurred—only personal speculation about future viral comparison."
- },
- {
   "t": "2026-09-14T21:32:39Z",
   "gate": "A",
   "subject": "AI data centers resulting in lower electricity prices for consumers",
@@ -2098,5 +2091,12 @@
   "subject": "<em>3 PAID SERVICES</em> GOOGLE'S AI NOW REPLACES FOR FREE",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-19T17:11:16Z",
+  "gate": "A",
+  "subject": "Spectator Report: Britain’s rupture with Israel is reportedly costing it influence across the Gulf. Arab states rely on ",
+  "verdict": "KILL",
+  "reason": "Off-brand geopolitics with zero tech/AI/company/founder lens; 456-character thin source with no numbers, no specific event anchor, and nothing to build a post from."
  }
 ]
