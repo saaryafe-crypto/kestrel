@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-14T22:10:22Z",
-  "gate": "A",
-  "subject": "My girlfriend and I attended the Ed Sheeran concert last evening in our company suite at MetLife with a number of guests",
-  "verdict": "KILL",
-  "reason": "Off-lens (musician activism at a concert, zero AI/tech/founder/investing/space element) and the underlying event is routine—a performer's political speech—not the 'reality-moved' news this tech page covers."
- },
- {
   "t": "2026-09-14T22:10:47Z",
   "gate": "A",
   "subject": "While filming Mrs. Doubtfire, 14-year-old Lisa Jakub was expelled from her Canadian high school because her extended abs",
@@ -2098,5 +2091,12 @@
   "subject": "THE AI SAFETY COMPANY JUST FILED A $100 BILLION IPO <em>'DESPITE AI SAFETY CONCERNS'</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-19T20:04:23Z",
+  "gate": "A",
+  "subject": "Spectator Report: Britain’s rupture with Israel is reportedly costing it influence across the Gulf. Arab states rely on ",
+  "verdict": "KILL",
+  "reason": "Geopolitics story outside the page's AI/tech brand; lacks any of the approved lenses (AI, technology, company/founder, investing/money, or space tech) and violates the primary identity as a technology news page."
  }
 ]

@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Anthropic נכנסת לבורסה, ובהכרזה כתבו: <em>'למרות חששות בטיחות AI'</em>",
+   "kicker": "כבר מכניסה יותר מ-110 מיליארד דולר בשנה",
+   "hsize": 68,
+   "media": "posts/2026-09-19-breaking-anthropic-is-planning-to-launch/gen-0.jpg",
+   "image_prompt": "Dario Amodei rings the stock bell, arms raised in triumph, Claude logo glowing beside him, clean bright background."
+  }
+ ],
+ "caption": "Anthropic נכנסת לבורסה, ובהכרזה כתבו: 'למרות חששות בטיחות AI'. 🤯\n\nAnthropic הייתה החברה שאמורה הייתה לשמור עלינו. המייסדים שלה עזבו את OpenAI כי חשבו שהיא ממהרת יותר מדי עם AI. לא שורת שיווק. הסיבה שהחברה קמה בכלל.\n\nבנובמבר הם נכנסים לבורסה, בשווי של 2 טריליון דולר. הם מנסים לגייס עד 100 מיליארד דולר, שיהיה הגיוס הגדול בהיסטוריה בהנפקה אחת. ו-Wall Street Journal, שסיקר את כל זה, כתב: 'למרות חששות בטיחות AI'. על החברה שכל הזהות שלה בנויה על בטיחות AI. אף אחד לא מחק את השורה.\n\nמה שמסחרר עוד יותר: Anthropic כבר מכניסה יותר מ-110 מיליארד דולר בשנה. חברה שכמעט לא הייתה קיימת לפני שלוש שנים, עכשיו מרוויחה יותר מכמעט כל עסק בעולם. הם לא צריכים את הכסף כדי לשרוד. הם רוצים אותו כדי לגדול.\n\nכשלוקחים 100 מיליארד דולר ממשקיעים ששילמו 2 טריליון דולר, לא מאטים. Anthropic כבר לא יכולה לעשות את הדבר האחד שהיא נבנתה בשבילו.\n\nכל מעבדת AI גדולה התחילה עם הסיפור שהיא הזהירה. אחת אחת, הכסף שינה אותן. Anthropic הייתה האחרונה שעדיין החזיקה בסיפור הזה.\n\nמקורות: Wall Street Journal, The Kobeissi Letter\n\nעקבו אחרי @ainews.israel\n\n#anthropic #ipo #artificialintelligence #aiinvesting #technews",
+ "pinned_comment": "המייסדים של Anthropic עזבו את OpenAI כי חשבו שהיא לא מספיק זהירה עם AI. ועכשיו, בהכרזת ההנפקה שלהם עצמם, כתבו 'למרות חששות בטיחות AI'. עדיין קוראים לזה חברת בטיחות?",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "THE COMPANY BUILT TO STOP AI RECKLESSNESS JUST ANNOUNCED A <em>$100 BILLION IPO</em>",
+   "THE AI SAFETY COMPANY BARELY EXISTED THREE YEARS AGO AND IS NOW RAISING <em>$100 BILLION</em>",
+   "THE AI COMPANY FOUNDED BECAUSE OPENAI WAS TOO RECKLESS <em>JUST FILED THE BIGGEST IPO EVER</em>",
+   "THE COMPANY THAT LEFT OPENAI OVER SAFETY JUST ANNOUNCED A <em>$2 TRILLION IPO</em>",
+   "THE AI SAFETY COMPANY JUST ANNOUNCED AN IPO AT <em>$2 TRILLION</em>, DESPITE ITS OWN MISSION",
+   "THE COMPANY BUILT TO SLOW DOWN AI <em>JUST RAISED $100 BILLION</em> TO GO FASTER",
+   "THE AI SAFETY COMPANY JUST ANNOUNCED THE <em>BIGGEST IPO IN HISTORY AT $100 BILLION</em>",
+   "THE AI SAFETY COMPANY JUST FILED A $100 BILLION IPO <em>'DESPITE AI SAFETY CONCERNS'</em>"
+  ],
+  "scores": [
+   6,
+   6,
+   7,
+   0,
+   0,
+   0,
+   8,
+   9
+  ],
+  "winner": 7,
+  "why": "[7] makes the paradox explicit with 'despite AI safety concerns'—you get the 'wait WHAT?' instantly. [6] delivers 'biggest IPO in history' which is punchy, but you have to connect it to the safety angle yourself."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "THE AI SAFETY COMPANY BUILT TO SLOW AI DOWN JUST WENT PUBLIC AT <em>$2 TRILLION</em>",
+   "THE AI SAFETY COMPANY JUST FILED A $100 BILLION IPO <em>'DESPITE AI SAFETY CONCERNS'</em>",
+   "THE AI SAFETY COMPANY JUST RAISED <em>$100 BILLION</em> AND HANDED WALL STREET THE KEYS"
+  ],
+  "scores": [
+   0,
+   8,
+   0
+  ],
+  "winner": 1,
+  "why": "[1] is the only one truthful—the IPO is still in November, so [0] and [2] falsely claim it happened. $100 billion in an unprecedented single offering plus 'despite safety concerns' contradiction stops you from scrolling."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Anthropic",
+  "actor_known": false,
+  "anchor": "the AI safety company",
+  "specifics": [
+   "$100 billion raised in a single offering — a number no company has ever attempted in one IPO",
+   "$2 trillion valuation",
+   "IPO announced explicitly 'despite AI safety concerns' — by the company built entirely around AI safety concerns",
+   "$110 billion in annualized revenue by year-end from a company that barely existed three years ago",
+   "IPO planned for November 2026"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (5/10)",
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Anthropic is planning to launch its IPO in November despite AI safety concerns, per WSJ. The company is expected to IPO at a $2 trillion valuation and raise up to $100 billion in the offering. Anthropic is expe",
+  "link": "https://x.com/KobeissiLetter/status/2101062588360798513",
+  "judge_interest": 5,
+  "scout_score": 53.6
+ },
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
