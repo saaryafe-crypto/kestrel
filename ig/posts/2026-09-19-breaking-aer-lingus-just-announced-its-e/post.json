@@ -1,0 +1,73 @@
+{
+ "media_idx": 2,
+ "image_brief": "Starlink hardware unit held up inside an aircraft against its avionics panel with the Starlink logo visible on the device",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "STARLINK JUST MADE TRANSATLANTIC WIFI <em>FREE AND ACTUALLY FAST</em> ON AN ENTIRE FLEET",
+   "kicker": "REST OF FLEET BY YEAR'S END",
+   "hsize": 68,
+   "media": "posts/2026-09-19-breaking-aer-lingus-just-announced-its-e/gen-0-r.jpg",
+   "image_prompt": "Elon Musk hunched intensely over his laptop at plane window, Atlantic far below, Starlink connection burning bright, fierce determination etched in his face, symbols only.",
+   "gen_person": true
+  }
+ ],
+ "caption": "Aer Lingus just put free Starlink WiFi on every transatlantic flight, and the whole fleet is already done. \u2708\ufe0f\n\nUp until now, flying across the Atlantic meant either paying for slow WiFi or having none at all. Aer Lingus just changed that overnight.\n\nTheir entire A321 fleet is now equipped with Starlink. Not some planes. Not a test group. The whole fleet, already done, and the WiFi is free for every passenger on board.\n\nYou can be 35,000 feet over the middle of the Atlantic Ocean, open Netflix, and it just plays. No voucher from the flight attendant, no paywall, no buffering wheel. That is a sentence nobody could write about any major airline six months ago.\n\nThe rest of Aer Lingus's long-haul fleet is expected to be connected by the end of 2026. And the thing that finally made airline WiFi good enough to give away for free is Starlink, the satellite internet built by a rocket company. Every airline still charging you $30 for something slower just got embarrassed.\n\nAirlines have promised real in-flight WiFi for twenty years. Starlink is the first technology that actually delivers it, and Aer Lingus is the first major Atlantic carrier to make it free. Every other airline now has a problem.\n\nRunning a business? DM us 'AI' and we'll show you what this kind of shift means for yours.\n\nSources: cb_doge (DogeDesigner) on X, September 18, 2026\n\n#Starlink #AerLingus #InFlightWifi #Aviation #Tech",
+ "pinned_comment": "Every other transatlantic airline now has to answer why they're still charging passengers for slower WiFi.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "STARLINK JUST MADE FREE WIFI THE DEFAULT ON <em>AN ENTIRE TRANSATLANTIC FLEET</em>",
+   "STARLINK IS NOW BEAMING <em>FREE FAST WIFI</em> TO AN ENTIRE AIRLINE MID-ATLANTIC",
+   "STARLINK JUST REPLACED AN ENTIRE AIRLINE'S <em>GARBAGE WIFI</em> WITH FREE FAST INTERNET",
+   "STARLINK JUST PUT <em>FREE ULTRA-FAST WIFI</em> ON AN ENTIRE AIRLINE FLEET"
+  ],
+  "scores": [
+   8,
+   5,
+   0,
+   0
+  ],
+  "winner": 0,
+  "why": "[0] hits instantly with 'the default'\u2014you immediately grasp free replaces paid, creating genuine stop-scroll impact. [1] buries the hook in jargon ('beaming') and vague geography ('entire airline mid-atlantic') that forces re-reading you'd skip at 2am; [2\u20133] trigger truth kills by claiming 'entire airline/fleet' equipped when facts show only A321 fleet is currently done."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "STARLINK JUST MADE FREE WIFI THE DEFAULT ON <em>AN ENTIRE TRANSATLANTIC FLEET</em>",
+   "STARLINK JUST MADE TRANSATLANTIC WIFI <em>FREE AND ACTUALLY FAST</em> ON AN ENTIRE FLEET",
+   "STARLINK JUST WIRED AN ENTIRE TRANSATLANTIC FLEET FOR <em>FREE ULTRA-FAST WIFI</em>",
+   "STARLINK JUST MADE YOUR WIFI FREE <em>ON EVERY TRANSATLANTIC FLIGHT</em>"
+  ],
+  "scores": [
+   8,
+   9,
+   7,
+   0
+  ],
+  "winner": 1,
+  "why": "[1]'s 'ACTUALLY FAST' cuts right to the problem everyone complains about\u2014plane wifi doesn't work. [0]'s 'the default' is sophisticated but [1] wins by promising concrete relief that hits harder at 2am."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Aer Lingus",
+  "actor_known": false,
+  "anchor": "Starlink",
+  "specifics": [
+   "Free ultra-fast Starlink WiFi \u2014 entire A321 fleet already fully equipped",
+   "Works across the Atlantic, not just short hops",
+   "Full long-haul fleet connected by end of 2026",
+   "Tweet hit 297.6K views and 7.1K likes within hours of posting"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Aer Lingus just announced its entire A321 fleet is now equipped with @Starlink Passengers can enjoy free, ultra-fast Wi-Fi while flying across the Atlantic. The airline expects its full long-haul fleet to be co",
+  "link": "https://x.com/cb_doge/status/2101074880351666338",
+  "judge_interest": 6,
+  "scout_score": 76.6
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "HOOK ACTOR MISMATCH (Truth + Hook Law): 'STARLINK JUST MADE TRANSATLANTIC WIFI FREE AND ACTUALLY FAST ON AN ENTIRE FLEET' attributes the decision to Starlink, but Starlink only supplied the technology \u2014 Aer Lingus made it free on their planes. A reader stopping mid-scroll reads this as 'Starlink the company announced free WiFi across an airline fleet,' which is not what happened. The caption corre"
+}
