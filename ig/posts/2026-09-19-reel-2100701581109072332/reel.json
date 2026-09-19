@@ -1,0 +1,17 @@
+{
+ "pick": 15,
+ "title": "AI learns to predict how proteins fold inside your cells",
+ "title_candidates": [
+  "How Anthropic's AI is designing new drugs before they reach a lab",
+  "Anthropic built an AI that predicts what a gene mutation does to your body",
+  "The price of drug discovery just dropped because of Anthropic's AI",
+  "What biologists are now letting Anthropic's AI do inside their research",
+  "The AI your doctor's lab might already be using to design your next medicine"
+ ],
+ "caption": "Anthropic built an AI that helps scientists design new drugs and predict what gene mutations do to your body.\n\nThe tools that do this kind of work have always existed, but they were expensive and hard for most labs to afford to run at scale. Anthropic's version brings the same capabilities through Claude at a fraction of the cost, so a biology team can now test thousands of molecular combinations in an AI model before ever running a physical experiment.\n\nThe drug that treats something you haven't been diagnosed with yet might be designed this way first.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: AnthropicAI. DM for credit or removal\n\n#AI #artificialintelligence #anthropic #science #technology",
+ "start_s": 0,
+ "clip_s": 18,
+ "source": "https://video.twimg.com/amplify_video/2100698843335831552/vid/avc1/3800x1522/6lc5C43UrHJwOo15.mp4?tag=29",
+ "channel": "AnthropicAI",
+ "publish": "make"
+}

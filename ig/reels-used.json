@@ -458,5 +458,10 @@
   "id": "2094840325789430066",
   "date": "2026-09-18",
   "title": "We\u2019re introducing a new capability to our latest Gemini models: agentic video understanding. This allows developers to process long-form video content with more accuracy, while using up to 88% less tokens. See how it wor"
+ },
+ {
+  "id": "2100701581109072332",
+  "date": "2026-09-19",
+  "title": "Biologists use specialized open-source models for tasks like modeling the structure of molecular systems, designing drug-like molecules, and predicting the effects of genetic mutations. But these models are often expensi"
  }
 ]
