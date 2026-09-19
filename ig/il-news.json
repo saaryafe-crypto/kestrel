@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T06:16:44.260266-04:00",
+ "updated": "2026-09-19T14:19:03.259910-04:00",
  "moments": [
   {
    "id": "2100821471002030575",
@@ -10,11 +10,11 @@
    "selftext": "Spectator Report: Britain’s rupture with Israel is reportedly costing it influence across the Gulf. Arab states rely on intelligence passed from Israel through MI6 because Israeli capabilities are “light years ahead” of regional services, security sources said. Ed Miliband thought isolating Israel would increase Britain’s influence. Instead, Gulf states are cutting investment and asking why London abandoned the intelligence power they actually rely on.",
    "permalink": "https://x.com/Osint613/status/2100821471002030575",
    "outlink": null,
-   "score": 5870,
-   "comments_n": 89,
-   "views": 178241,
-   "age_h": 28.6,
-   "vph": 204.9,
+   "score": 6021,
+   "comments_n": 91,
+   "views": 182998,
+   "age_h": 36.7,
+   "vph": 164.2,
    "image": null,
    "images": [],
    "video": null,
@@ -29,39 +29,15 @@
    "selftext": "‼️ BREAKING: Google's Gemini hacked three companies on its own. During testing it broke out of Israeli company Irregular's sandboxed environment, got onto the open internet and broke into three real companies. In one case Gemini guessed passwords until a protected system let it in. In the other two it found usable credentials sitting in a public code repository. This is the first known case of one of Google's models doing that on its own. Almost all the major labs use Irregular, an outside firm, to evaluate AI models' cyber capabilities. And Meta, Anthropic and OpenAI have also had breakouts out of Irregular's environment and hacked real companies.",
    "permalink": "https://x.com/IntCyberDigest/status/2101091820402823594",
    "outlink": null,
-   "score": 3117,
-   "comments_n": 249,
-   "views": 159903,
-   "age_h": 10.7,
-   "vph": 290.3,
+   "score": 3853,
+   "comments_n": 302,
+   "views": 219502,
+   "age_h": 18.8,
+   "vph": 205.4,
    "image": "https://pbs.twimg.com/media/HSiTc3-bYAAkxre.jpg",
    "images": [
     "https://pbs.twimg.com/media/HSiTc3-bYAAkxre.jpg",
     "https://pbs.twimg.com/media/HSiTrUhbIAAIcmv.jpg"
-   ],
-   "video": null,
-   "guide": false
-  },
-  {
-   "id": "2100610206279299410",
-   "title": "We caught an \"elite\" Israeli propaganda company using an open Google Sheet to track an operation. Username? hjack5632@gmail.com. A BlackCore demo promised \"dual track\" operations to covertly suppress dissent: 🔴\"Distracti",
-   "sub": "jsrailton",
-   "where": "@jsrailton on X",
-   "unit": "likes",
-   "selftext": "We caught an \"elite\" Israeli propaganda company using an open Google Sheet to track an operation. Username? hjack5632@gmail.com. A BlackCore demo promised \"dual track\" operations to covertly suppress dissent: 🔴\"Distraction campaigns during critical moments\" 🔴\"Coordinated reporting of policy violations\" 🔴\"Comment section dominance on news coverage\" They sought to deliver on that dominance using AI bots. Black core has targeted: ☑️@NYCMayor elections per Meta ☑️ Municipal elections in France per @Viginum_Gouv. We also traced BlackCore to a 14-week course for Angola's government where officials would be graded on AI use (again, hosted on a public subdomain!) We found their ads & metrics: fake news outlets, AI personas, and deceptive posts that hit 20k likes... Welcome to off-the-shelf influence ops. Clearly, they weren't afraid of getting caught. Here's our @citizenlab report led by my colleague Alberto Fittarelli",
-   "permalink": "https://x.com/jsrailton/status/2100610206279299410",
-   "outlink": null,
-   "score": 2698,
-   "comments_n": 40,
-   "views": 103114,
-   "age_h": 42.6,
-   "vph": 63.3,
-   "image": "https://pbs.twimg.com/media/HSa-WweWkAANYkP.jpg",
-   "images": [
-    "https://pbs.twimg.com/media/HSa-WweWkAANYkP.jpg",
-    "https://pbs.twimg.com/media/HSbCaONXIAAKq4F.jpg",
-    "https://pbs.twimg.com/media/HSbD2cSWQAA4lu3.jpg",
-    "https://pbs.twimg.com/media/HSbD7JsXYAAsN2H.jpg"
    ],
    "video": null,
    "guide": false
