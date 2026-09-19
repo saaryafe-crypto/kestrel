@@ -1,0 +1,17 @@
+{
+ "pick": 14,
+ "title": "Google's Gemini cuts video analysis costs by 88 percent",
+ "title_candidates": [
+  "The Gemini feature that watches long videos so you don't have to",
+  "How Google's Gemini AI processes an entire long video in one go",
+  "What Gemini can do with long videos that most AI tools give up on",
+  "How Google cut the computing cost of AI video analysis by 88%",
+  "Inside Google's AI that can understand an entire film from start to finish"
+ ],
+ "caption": "Google's Gemini can now watch and understand long videos from start to finish, something most AI tools fall apart on. The company calls it agentic video understanding: the model doesn't just skim short clips. It reads the whole thing and figures out what actually happened, in order.\n\nThe same analysis now uses up to 88% fewer computing resources than before, which makes it practical for developers building video search tools, auto-summaries, or anything that needs AI to actually pay attention to footage.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: Google. DM for credit or removal\n\n#AI #Gemini #GoogleAI #ArtificialIntelligence #VideoAI",
+ "start_s": 4,
+ "clip_s": 22,
+ "source": "https://video.twimg.com/amplify_video/2094829723788419072/vid/avc1/1920x1080/PfsC3zYbzPytznON.mp4?tag=29",
+ "channel": "Google",
+ "publish": "make"
+}
