@@ -1,40 +1,5 @@
 [
  {
-  "gate": "R",
-  "reason": "s1: The AI-generated face is a textbook wax-figure render — over-smoothed skin, hyperextended grin, glassy eyes — which fails the photo quality bar; the slide reads cleaner as a bold text cover.",
-  "subject": "<em>5 THINGS GROK CAN DO</em> ON COINBASE NOW",
-  "t": "2026-09-14T19:07:41Z",
-  "verdict": "FAIL"
- },
- {
-  "t": "2026-09-14T21:28:12Z",
-  "gate": "A",
-  "subject": "i wonder if the first episode will ever dethrone the silly team rocket meme i did 4 years ago",
-  "verdict": "KILL",
-  "reason": "No real event occurred—just a personal wondering musing about engagement with insufficient substance (93 characters) and no proof of AI/tech involvement required for this lane."
- },
- {
-  "t": "2026-09-14T21:28:27Z",
-  "gate": "A",
-  "subject": "AI data centers resulting in lower electricity prices for consumers",
-  "verdict": "KILL",
-  "reason": "The source is a thin claim with no numbers, timeline, or specific event—just a vague assertion about a trend; without knowing whether Elon announced an actual consequence (a specific project's real impact) or is commentating on a forecast, the writer cannot build slides from facts the reader can feel."
- },
- {
-  "t": "2026-09-14T21:28:59Z",
-  "gate": "A",
-  "subject": "My girlfriend and I attended the Ed Sheeran concert last evening in our company suite at MetLife with a number of guests",
-  "verdict": "KILL",
-  "reason": "Off-lens: pure entertainment story about a musician's political statement at a concert—zero connection to AI, tech, companies, founders, investing, or space technology; the page's stated lens (per lane instructions) requires the subject BE one of these, not merely mention them."
- },
- {
-  "t": "2026-09-14T21:29:12Z",
-  "gate": "A",
-  "subject": "Andrew Wimsatt spent his life figuring out how to make things last longer. Roads, bridges, tunnels, pavement, friendship",
-  "verdict": "KILL",
-  "reason": "Off-lens per STORY LAW §1: the subject must BE AI, tech, a company/founder, investing, or space technology; civil engineering using tech tools as instruments doesn't qualify (same pattern as the Aug 28 goats-on-Etna post-mortem)."
- },
- {
   "t": "2026-09-14T21:29:39Z",
   "gate": "A",
   "subject": "While filming Mrs. Doubtfire, 14-year-old Lisa Jakub was expelled from her Canadian high school because her extended abs",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-19T01:08:36Z",
   "gate": "R",
   "subject": "OPENAI JUST LET YOUR LAWYER USE AI <em>AND STILL BILL YOU $400 AN HOUR</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-19T05:53:47Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "GDP entry fails the Friend Test and has no actor: 'A widely-shared prediction: AI doubles US GDP growth next year, from around 2% to 4%.' 'GDP growth' is exactly the official vocabulary the Sep 10 Friend Test post-mortem bans by name — nobody says 'GDP growth' to a friend at a table. Spoken rewrite: 'Goldman Sachs [or whoever] says the US economy could grow twice as fast next year because of AI, g"
+ },
+ {
+  "t": "2026-09-19T05:56:20Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Cover headline accent: 'AI' is rendered in a flat solid orange, not the cloud-texture orange (art/accent-orange.jpg via background-clip) required by the PERMANENT owner order (Sep 10). Fix: re-render the cover with the cloud-sky texture applied to 'AI' via background-clip — the difference is visible at feed size.; Emoji in caption body: the opening line ends with '👇' (\"...to Google's AI accidental"
+ },
+ {
+  "t": "2026-09-19T05:59:08Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em data-texture=\"art/accent-orange.jpg\">AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Cover 'AI' accent appears as flat solid orange with no visible cloud texture — PERMANENT rule requires orange-sky cloud texture via art/accent-orange.jpg, never one flat color; needs re-render to confirm texture is applied.; Gemini story line 'a security test, attack a fake company' is a broken fragment that fails the Friend Test — nobody says this sentence aloud; fix: use a colon ('a security tes"
+ },
+ {
+  "t": "2026-09-19T06:01:09Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em data-texture=\"art/accent-orange.jpg\">AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Builder pick line contains jargon a 12-year-old cannot parse: 'cuts a nearly 1-million-token session down to 86K' — 'token' and '86K' are technical units nobody says out loud. Rewrite to plain language, e.g. 'A developer built a plugin for Claude that shrinks a huge conversation file down to almost nothing in one second.'"
+ },
+ {
+  "t": "2026-09-19T06:01:16Z",
+  "gate": "R",
+  "subject": "WHAT JUST HAPPENED IN <em data-texture=\"art/accent-orange.jpg\">AI</em> TODAY?",
   "verdict": "PASS",
   "reason": ""
  }

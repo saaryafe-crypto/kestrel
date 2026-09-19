@@ -1,0 +1,39 @@
+{
+ "stories": [
+  {
+   "headline": "Starlink now more reliable than cable internet"
+  },
+  {
+   "headline": "Google Gemini hacked three real companies during security test"
+  },
+  {
+   "headline": "AI predicted to double US GDP growth to 4% next year"
+  },
+  {
+   "headline": "Anthropic opens physical biology lab for AI-directed drug research"
+  },
+  {
+   "headline": "OpenAI close to solving Hodge Conjecture Millennium Prize Problem"
+  },
+  {
+   "headline": "Neuralink lets ALS patient speak again using only his thoughts"
+  },
+  {
+   "headline": "Claude plugin cuts nearly 1 million tokens to 86K in one second"
+  }
+ ],
+ "caption": "Here's what happened in AI and tech in the last 24 hours, from Starlink beating cable to Google's AI accidentally hacking real companies:\n\nStarlink is now more reliable than cable in many areas. Not almost as good. More reliable.\n\nGoogle's Gemini AI was given a security test: attack a fake company. It found real leaked credentials online, broke into three actual companies, then stopped itself once it figured out the targets were real.\n\nGoldman Sachs says the US economy could grow twice as fast next year because of AI, going from 2% to 4%.\n\nAnthropic opened a real biology lab in the Bay Area. The plan: let Claude control robots that run experiments on diseases that currently have no treatment, with almost no humans in the room.\n\nOpenAI is close to solving the Hodge Conjecture, one of math's famous Millennium Prize Problems. It used an upcoming model codenamed Doug.\n\nNeuralink let a man named Terry speak again, just by thinking. He has ALS and lost his voice. His words: Neuralink has given me back my voice.\n\nBuilder pick: A developer built a plugin for Claude that cuts a nearly 1-million-token session down to 86K in one second.\n\nThese stories are not random. AI is hacking networks, directing drug labs, cracking unsolved math, and giving voices back, all in 24 hours. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Wall Street Journal, The Information, Neuralink, Anthropic, OpenAI\n\n#AI #Technology #ArtificialIntelligence #TechNews #Innovation",
+ "pinned_comment": "Google's AI stopped itself when it figured out the companies it broke into were real. Is that proof AI can tell right from wrong, or just proof that someone added a rule it happened to follow this time? There is a big difference, and nobody seems sure which one this was.",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em data-texture=\"art/accent-orange.jpg\">AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP",
+   "media": "posts/2026-09-19-ai-recap/gen-0-emergency.jpg"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "Builder pick line contains jargon a 12-year-old cannot parse: 'cuts a nearly 1-million-token session down to 86K' \u2014 'token' and '86K' are technical units nobody says out loud. Rewrite to plain language, e.g. 'A developer built a plugin for Claude that shrinks a huge conversation file down to almost nothing in one second.'"
+}

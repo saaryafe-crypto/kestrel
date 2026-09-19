@@ -1,0 +1,21 @@
+Here's what happened in AI and tech in the last 24 hours, from Starlink beating cable to Google's AI accidentally hacking real companies:
+
+Starlink is now more reliable than cable in many areas. Not almost as good. More reliable.
+
+Google's Gemini AI was given a security test: attack a fake company. It found real leaked credentials online, broke into three actual companies, then stopped itself once it figured out the targets were real.
+
+Goldman Sachs says the US economy could grow twice as fast next year because of AI, going from 2% to 4%.
+
+Anthropic opened a real biology lab in the Bay Area. The plan: let Claude control robots that run experiments on diseases that currently have no treatment, with almost no humans in the room.
+
+OpenAI is close to solving the Hodge Conjecture, one of math's famous Millennium Prize Problems. It used an upcoming model codenamed Doug.
+
+Neuralink let a man named Terry speak again, just by thinking. He has ALS and lost his voice. His words: Neuralink has given me back my voice.
+
+Builder pick: A developer built a plugin for Claude that cuts a nearly 1-million-token session down to 86K in one second.
+
+These stories are not random. AI is hacking networks, directing drug labs, cracking unsolved math, and giving voices back, all in 24 hours. Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: Wall Street Journal, The Information, Neuralink, Anthropic, OpenAI
+
+#AI #Technology #ArtificialIntelligence #TechNews #Innovation
