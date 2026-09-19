@@ -1,222 +1,5 @@
 [
  {
-  "t": "2026-09-14T00:12:58Z",
-  "gate": "A",
-  "subject": "BREAKING: Sam Altman says OpenAI will not go public this year due to safety concerns around AI. \"I actually think that, ",
-  "verdict": "APPROVE",
-  "reason": "Valid household-name tech news from CEO announcing company strategy change; this story type prevents the listicle repetition the owner wants to avoid."
- },
- {
-  "t": "2026-09-14T00:45:46Z",
-  "gate": "B",
-  "subject": "SAM ALTMAN REFUSED A <em>HUNDREDS-OF-BILLIONS</em> IPO BECAUSE AI SCARES EVEN HIM",
-  "verdict": "REJECT",
-  "reason": "Slides 3, 4, and 5 all repeat 'hundreds of billions' as a standalone fact — the same figure in the same phrasing three consecutive times. Section 4 bans any two slides carrying the same fact. Slides 4 and 5 must substitute a different specific detail (employee equity count, company valuation, Altman's verbatim quote, or investor names) so each slide delivers new information.; No pattern-break slid"
- },
- {
-  "t": "2026-09-14T00:48:15Z",
-  "gate": "R",
-  "subject": "SAM ALTMAN REFUSED A <em>HUNDREDS-OF-BILLIONS</em> IPO BECAUSE AI SCARES EVEN HIM",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-14T02:12:18Z",
-  "gate": "A",
-  "subject": "JUST IN: Claude AI developer Anthropic selects Nasdaq for IPO listing.",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-14T02:13:07Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "This is off-lens: space stories must center on SpaceX, Starlink, or commercial rocket companies per doctrine; ISRO as a government space agency doesn't fit, and routine satellite launches don't deliver the wild-but-true story with felt consequence required to stop a tech-focused reader."
- },
- {
-  "t": "2026-09-14T02:13:42Z",
-  "gate": "A",
-  "subject": "This is the best day in the history of AI safety. All four frontier AI companies are now publicly calling for a slow dow",
-  "verdict": "KILL",
-  "reason": "Entire source is one tweet from a meme account claiming company coordination with zero receipts—writer would have to fabricate all four companies' statements."
- },
- {
-  "t": "2026-09-14T02:48:27Z",
-  "gate": "A",
-  "subject": "BREAKING: Costco is now rationing motor oil for due to the Iranian war, limiting members to one transaction and a maximu",
-  "verdict": "KILL",
-  "reason": "Unverified claim — no news reporting or supply chain data confirms Costco motor oil rationing due to Iranian conflict; violates TRUTH LAW."
- },
- {
-  "t": "2026-09-14T02:48:44Z",
-  "gate": "A",
-  "subject": "This is the best day in the history of AI safety. All four frontier AI companies are now publicly calling for a slow dow",
-  "verdict": "KILL",
-  "reason": "Unverified claim without proof of concrete company statements; reads as editorial commentary about industry sentiment, not a reported event."
- },
- {
-  "t": "2026-09-14T02:48:46Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 President Trump rejects calls to slow down AI development.",
-  "verdict": "KILL",
-  "reason": "No substance—one-line political statement with no concrete action, numbers, or consequence to build slides from."
- },
- {
-  "t": "2026-09-14T02:48:51Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "Space coverage only via tech/business lens (SpaceX/Starlink/rocket companies)—ISRO is a government agency, not a business player."
- },
- {
-  "t": "2026-09-14T02:49:39Z",
-  "gate": "A",
-  "subject": "Tesla has just updated their next-gen Roadster website for the first time in nearly 9 years. There is now a countdown cl",
-  "verdict": "KILL",
-  "reason": "Banned launch preview in its empty form: a date with nothing to demonstrate (just a countdown timer), not a real-world event with consequences someone felt."
- },
- {
-  "t": "2026-09-14T03:28:04Z",
-  "gate": "B",
-  "subject": "THE AI COMPANIES REPLACING YOUR JOB JUST <em>ASKED SOMEONE TO SLOW THEM DOWN</em>",
-  "verdict": "REJECT",
-  "reason": "Slide 5 ('WHAT JUST HAPPENED') fails the shuffle test hard: its four-bullet checklist repeats every key fact from slides 3-4 and could be read before any prior slide without confusion. It closes all open loops at once instead of one, killing the chain. Fix: cut slide 5 entirely — the save-close (slide 7) already carries the recap — OR replace it with the single pattern-break slide the post current"
- },
- {
-  "t": "2026-09-14T03:31:27Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 President Trump rejects calls to slow down AI development.",
-  "verdict": "KILL",
-  "reason": "No substance: one thin tweet with no facts, numbers, or consequences to build slides from."
- },
- {
-  "t": "2026-09-14T03:31:28Z",
-  "gate": "A",
-  "subject": "BREAKING: Costco is now rationing motor oil for due to the Iranian war, limiting members to one transaction and a maximu",
-  "verdict": "KILL",
-  "reason": "Low scout interest (4/10) paired with a single unverified tweet and zero official Costco confirmation or corroborating evidence—an extraordinary claim of major retailer rationing requires independent verification before assignment."
- },
- {
-  "t": "2026-09-14T03:31:35Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "Institutional achievement lacking the wild hook or felt consequence that would make readers DM to friends—does not meet THE STANDARD."
- },
- {
-  "t": "2026-09-14T03:31:52Z",
-  "gate": "A",
-  "subject": "Tesla has just updated their next-gen Roadster website for the first time in nearly 9 years. There is now a countdown cl",
-  "verdict": "KILL",
-  "reason": "Banned empty launch preview — date and countdown with nothing demonstrated."
- },
- {
-  "t": "2026-09-14T04:02:48Z",
-  "gate": "B",
-  "subject": "TRUMP PERSONALLY <em>SHOT DOWN EVERY BRAKE ON AI</em>. YOUR JOB <em>IS OFFICIALLY UNPROTECTED</em>.",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — CAST TRUTH + WRONG ARCHETYPE: The headline names Trump as the actor ('TRUMP PERSONALLY') but Trump is entirely absent from the cover. The image shows anonymous cloaked silhouettes and a floating green traffic light in a post-apocalyptic plaza. For a policy/rejection story, IMAGE LAW §3 requires 'the famous actor + the ban made physical.' No famous face is present. The image also read"
- },
- {
-  "t": "2026-09-14T04:08:47Z",
-  "gate": "R",
-  "subject": "TRUMP PERSONALLY <em>SHOT DOWN EVERY BRAKE ON AI</em>. YOUR JOB <em>IS OFFICIALLY UNPROTECTED</em>.",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-14T06:19:42Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Slide 6 body: 'the most powerful models in the world' — 'models' fails the FRIEND TEST (owner Sep 10 hard rule, explicitly named as a REJECT trigger). Rewrite: 'the companies building the most powerful AI in the world.'; Slide 6 body: the four labs are never named. 'All four' is an unverifiable vague claim — name them (e.g., OpenAI, Anthropic, Google DeepMind, Meta AI) so the reader can repeat it "
- },
- {
-  "t": "2026-09-14T06:23:36Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Slide 3 breaks the cover contract (§4): the hook promises 'WHAT JUST HAPPENED IN AI TODAY?' but the Tesla Roadster slide has zero AI content — it is a car-reveal countdown with no AI angle stated or implied. Fix: remove it and replace with an AI story, or reframe with an explicit Tesla AI/FSD connection if one is real and supported by the source.; Cover image shows 'OpenAi' (lowercase 'i') instead"
- },
- {
-  "t": "2026-09-14T06:28:56Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Slide 5 body fails the Friend Test: 'ISRO launched the GSLV-F17 rocket carrying EOS-05' stacks three technical designations nobody says out loud. GSLV-F17 and EOS-05 are meaningless to a 12-year-old. Spoken rewrite: 'India's space agency put a satellite into orbit that hovers over the same patch of Earth and never moves — most satellites loop overhead and disappear every few hours, this one stays."
- },
- {
-  "t": "2026-09-14T06:32:21Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "Slide 3 headline breaks §2's one-action rule: 'TESLA'S ROADSTER SITE JUST WOKE UP, THE AI CAR COMPANY IS BACK' joins two actions with a comma — same problem as AND. 'THE AI CAR COMPANY IS BACK' is vague and the weaker clause; cut it. Fix to one concrete action, e.g. 'TESLA JUST STARTED A ROADSTER COUNTDOWN FOR THE FIRST TIME IN 9 YEARS.'; Slide 3 body fails the Friend Test (§4) and Human Voice law"
- },
- {
-  "t": "2026-09-14T06:32:45Z",
-  "gate": "R",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-14T14:12:17Z",
-  "gate": "A",
-  "subject": "16 years of relentless engineering in one video. From SpaceX’s first Falcon 9 launch in 2010 to the 700th Falcon launch ",
-  "verdict": "APPROVE",
-  "reason": "SpaceX's 700th Falcon launch from the same pad in 16 years is a record-category milestone with a clear narrative arc proving reusable rockets work at scale, fitting the approved space-tech and company lenses."
- },
- {
-  "t": "2026-09-14T14:49:38Z",
-  "gate": "B",
-  "subject": "SPACEX JUST SHOWED <em>LAUNCH 1 AND LAUNCH 700</em> SIDE BY SIDE, 16 YEARS APART",
-  "verdict": "REJECT",
-  "reason": "SLIDE 6 BREAKS THE COVER CONTRACT AND IS A SERMON (§4, §5): The hook promises a 16-year comparison story. Slide 6 pivots to 'YOUR BUSINESS CAN DO THE SAME / AI handles all of it on a schedule. One setup. It runs while you sleep.' — a productivity sales pitch that nobody says at a dinner table. The FRIEND TEST fails on every sentence of that body. The cover never promised an AI productivity lesson;"
- },
- {
-  "t": "2026-09-14T15:40:23Z",
-  "gate": "B",
-  "subject": "5 AI POWERS <em>HIDING IN YOUR GOOGLE APPS</em>",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-14T15:41:16Z",
-  "gate": "R",
-  "subject": "5 AI POWERS <em>HIDING IN YOUR GOOGLE APPS</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "gate": "A",
-  "reason": "Antisemitic conspiracy theory with no verifiable event, no real-world consequence, and no substance—pure ideology framed as allegation.",
-  "subject": "Jews are not nervous about AI safety, they are nervous about losing AI control. Thus they need the Jewish controlled gov",
-  "t": "2026-09-14T15:01:32Z",
-  "verdict": "KILL"
- },
- {
-  "t": "2026-09-14T19:08:28Z",
-  "gate": "A",
-  "subject": "Jews are not nervous about AI safety, they are nervous about losing AI control. Thus they need the Jewish controlled gov",
-  "verdict": "KILL",
-  "reason": "Antisemitic conspiracy theory with no real event, no factual substance, and no consequence—instant kill under reaction-bait rule and THE STANDARD."
- },
- {
-  "gate": "B",
-  "reason": "Slide 3 body friend-test failure: 'it queries your Coinbase account live' — nobody says 'queries' out loud. Fix: 'it checks your Coinbase account live.'; Slide 4 headline friend-test failure: 'THE WAY YOU THINK IN WORDS' is phrasing no person says. Fix: '3) SET A PRICE ALERT IN PLAIN WORDS' or 'BY JUST SAYING IT.'",
-  "subject": "<em>5 THINGS GROK CAN DO</em> ON COINBASE NOW",
-  "t": "2026-09-14T19:02:43Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Slide 4 (price alert) claims Grok 'monitors the price live' and 'you get the notification when it hits' — a proactive push-alert capability that is architecturally distinct from the on-demand query pattern every other slide describes. If the integration does not run a persistent background monitor and push a notification unprompted, this is a false claim that will break the reader's trust the mome",
-  "subject": "<em>5 THINGS GROK CAN DO</em> ON COINBASE NOW",
-  "t": "2026-09-14T19:06:42Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "R",
   "reason": "s1: The AI-generated face is a textbook wax-figure render — over-smoothed skin, hyperextended grin, glassy eyes — which fails the photo quality bar; the slide reads cleaner as a bold text cover.",
   "subject": "<em>5 THINGS GROK CAN DO</em> ON COINBASE NOW",
@@ -2098,5 +1881,222 @@
   "subject": "Spectator Report: Britain’s rupture with Israel is reportedly costing it influence across the Gulf. Arab states rely on ",
   "verdict": "KILL",
   "reason": "Pure geopolitics with no AI/tech/space angle—off-brand for this page's defined vertical (AI/tech news only)."
+ },
+ {
+  "t": "2026-09-18T23:11:02Z",
+  "gate": "A",
+  "subject": "This is actually insane. This uses @typesafeai Jev model, as a plugin in Claude to review all the un-nesseasary tool cal",
+  "verdict": "AUTO_APPROVE",
+  "reason": "scout interest 8/10 — news-first fast lane"
+ },
+ {
+  "t": "2026-09-18T23:11:16Z",
+  "gate": "A",
+  "subject": "Starlink is now often more reliable than cable",
+  "verdict": "KILL",
+  "reason": "Single unsupported claim with zero numbers, data, or real-world consequence—the writer would have to fabricate the entire post, and the underlying 'event' is just Elon tweeting a product marketing claim, not a news moment where reality moved."
+ },
+ {
+  "t": "2026-09-18T23:11:32Z",
+  "gate": "A",
+  "subject": "JUST IN: Warren Buffet officially steps down as Chairman of Berkshire Hathaway.",
+  "verdict": "KILL",
+  "reason": "Off-brand (no AI/tech angle) and no substance—one-line source lacks context, consequence, or outcome to build slides."
+ },
+ {
+  "t": "2026-09-18T23:12:20Z",
+  "gate": "A",
+  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
+  "verdict": "KILL",
+  "reason": "Empty-form launch preview with no demo, numbers, or substance — the type the doctrine bans."
+ },
+ {
+  "t": "2026-09-18T23:42:20Z",
+  "gate": "B",
+  "subject": "A BUILDER JUST SHRANK A CLAUDE BILL FROM <em>1 MILLION TOKENS TO 86K</em>",
+  "verdict": "REJECT",
+  "reason": "Generated unknown face on cover — IMAGE LAW HARD BAN. The man with the cleaver is a generated unknown person who has no role in the story. Tamara is the builder; this is not her, and he is not a recognizable famous person. Fix: source a real photo of Tamara from her X profile and build the cover around her as the subject, or drop the person entirely and make the proof the interface itself (see rea"
+ },
+ {
+  "t": "2026-09-18T23:43:50Z",
+  "gate": "B",
+  "subject": "A BUILDER JUST SHRANK A CLAUDE BILL FROM <em>1 MILLION TOKENS TO 86K</em>",
+  "verdict": "REJECT",
+  "reason": "Cover image: generated unknown face — hard IMAGE LAW ban. The man with the cleaver is a generated unknown face; Tamara (the builder) is not a famous person, and the law explicitly bans 'a generated fake face standing in for a real non-famous person.' Fix: replace with a photoreal composite using the Anthropic logo (the asterisk mark) large in frame + the 900K→86K numbers rendered as physical proof"
+ },
+ {
+  "t": "2026-09-18T23:45:40Z",
+  "gate": "B",
+  "subject": "A BUILDER JUST SHRANK A CLAUDE BILL FROM <em>1 MILLION TOKENS TO 86K</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW VIOLATION — GENERATED UNKNOWN FACE (§3, fatal): The cover shows a generated unknown man wielding a machete. The story's actual builder is Tamara — not famous, and not male. 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' The vendor-cast exception does not apply: this is not a guide teaching use of Claude, it is a news story about a "
+ },
+ {
+  "t": "2026-09-18T23:46:17Z",
+  "gate": "A",
+  "subject": "Starlink is now often more reliable than cable",
+  "verdict": "KILL",
+  "reason": "One-sentence claim with zero numbers, proof, or specifics; no event occurred and the writer would need to pad to reach story length."
+ },
+ {
+  "t": "2026-09-18T23:46:21Z",
+  "gate": "A",
+  "subject": "JUST IN: Warren Buffet officially steps down as Chairman of Berkshire Hathaway.",
+  "verdict": "KILL",
+  "reason": "Off-brand for an AI/tech news page: Berkshire Hathaway is not a tech company, and this is general finance news, not the AI/tech/founder-tier events this page exists to cover."
+ },
+ {
+  "t": "2026-09-18T23:46:36Z",
+  "gate": "A",
+  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
+  "verdict": "KILL",
+  "reason": "One-line product teaser with zero demonstration, no feature detail shown, and no utility a reader could use today—pure launch-preview spec sheet that requires padding, violating §1's NO SUBSTANCE rule."
+ },
+ {
+  "t": "2026-09-18T23:46:51Z",
+  "gate": "A",
+  "subject": "Tesla doing Cybercab and Model Y Robotaxi training with first responders. You can see them learning how to move the Cybe",
+  "verdict": "KILL",
+  "reason": "Operational/routine training activity with no major move, first-ever event, or consequence readers would feel; 5/10 scout interest and 203-char source provide insufficient substance to build a jaw-dropping post; fails the owner's test—would he post Tesla doing operational prep work on an unreleased product?"
+ },
+ {
+  "t": "2026-09-18T23:47:46Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 SEC approves limited trading of tokenized stocks on-chain under temporary exemption.",
+  "verdict": "KILL",
+  "reason": "A one-line regulatory tick with zero numbers, detail, or stated consequence—a writer would need substantial padding just to explain what this exemption enables and whether it matters."
+ },
+ {
+  "t": "2026-09-18T23:48:00Z",
+  "gate": "A",
+  "subject": "V2 of the @Starlink direct-to-phone satellite constellation is a giant improvement over V1 with 100 times more bandwidth",
+  "verdict": "KILL",
+  "reason": "It's a routine product specification claim with no jaw-dropping consequence for readers and insufficient source material—fits the banned launch-preview category."
+ },
+ {
+  "t": "2026-09-18T23:48:10Z",
+  "gate": "A",
+  "subject": "BREAKING: Starlink high speed internet is scaling rapidly across airline fleets. 🔥",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no specifics (airlines unnamed, scale unknown, no numbers given) and minimum scout interest—fails substance rule; writer cannot determine what actually happened or why it matters."
+ },
+ {
+  "t": "2026-09-18T23:48:15Z",
+  "gate": "A",
+  "subject": "NEWS: The FCC has officially granted SpaceX approval to provide international telecommunications services needed to supp",
+  "verdict": "KILL",
+  "reason": "Regulatory approval is procedural news, not a dramatic event—stories require releases, lawsuits, acquisitions, records, or founder moments; this reads routine and a 12-year-old would not stop mid-scroll to send it to a friend."
+ },
+ {
+  "t": "2026-09-18T23:50:26Z",
+  "gate": "A",
+  "subject": "ANTHROPIC BUILDS BIOLOGY LAB TO PUSH AI INTO DRUG DEVELOPMENT Anthropic has quietly established a Bay Area wet lab, movi",
+  "verdict": "KILL",
+  "reason": "Real event but 4/10 scout reflects it: quietly-discovered corporate initiative without announced event, significant money, named leader, or product demo—valid business news, below the threshold for thin sources."
+ },
+ {
+  "t": "2026-09-19T00:25:08Z",
+  "gate": "B",
+  "subject": "ELON MUSK GRADED HIS OWN HOMEWORK <em>AND 47.5 MILLION PEOPLE AGREED.</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK USES ENGAGEMENT METRIC AS PAYOFF (§2 ban): '47.5 MILLION PEOPLE AGREED' — the 47.5M is a view count, not an agreement count. The doctrine explicitly bans 'views' as the hook's payoff ('THE SCREENSHOT HAS 40K LIKES is the failure model'). The hook's entire dramatic weight rests on this number. Fix: restructure around the conflict-of-interest fact — e.g., 'ELON MUSK REVIEWED HIS OWN SATELLITE I"
+ },
+ {
+  "t": "2026-09-19T00:28:21Z",
+  "gate": "B",
+  "subject": "ELON MUSK GRADED HIS OWN HOMEWORK ON HIS OWN APP. <em>47.5 MILLION WATCHED.</em>",
+  "verdict": "REJECT",
+  "reason": "Caption opens with a 🛰️ emoji after the first paragraph — §4 and §7 both explicitly ban emojis in the writing. Remove it. One character, one second to fix."
+ },
+ {
+  "t": "2026-09-19T00:30:21Z",
+  "gate": "B",
+  "subject": "ELON MUSK GRADED HIS OWN HOMEWORK ON HIS OWN APP. <em>47.5 MILLION WATCHED.</em>",
+  "verdict": "REJECT",
+  "reason": "Hook's closing sentence ('47.5 MILLION WATCHED') uses a view count as a payoff beat — engagement metrics are banned in any hook per §2. Fix: drop it or replace with a real-world consequence ('CABLE COMPANIES SPENT THE WEEKEND WRITING REBUTTALS').; Caption paragraph 2 fails the Friend Test (§4): 'at least one of the sources isn't the person trying to sell you the thing' is logic-puzzle phrasing no "
+ },
+ {
+  "t": "2026-09-19T00:31:08Z",
+  "gate": "A",
+  "subject": "BREAKING: Starlink high speed internet is scaling rapidly across airline fleets. 🔥",
+  "verdict": "KILL",
+  "reason": "NO SUBSTANCE: the source contains zero specifics—no airlines named, no numbers, no announced milestone or date—and 'scaling rapidly' is vague corporate language that masks what actually happened; the writer would have to fabricate details to fill slides rather than building from a real story."
+ },
+ {
+  "t": "2026-09-19T00:31:26Z",
+  "gate": "A",
+  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
+  "verdict": "KILL",
+  "reason": "This is a launch preview in its empty form—a product announcement with no demo or consequence. Releasing a tool variant is routine business, not a major move the page exists to cover."
+ },
+ {
+  "t": "2026-09-19T00:31:26Z",
+  "gate": "A",
+  "subject": "JUST IN: Warren Buffet officially steps down as Chairman of Berkshire Hathaway.",
+  "verdict": "KILL",
+  "reason": "Off-brand: Berkshire Hathaway leadership is finance news, not tech/AI."
+ },
+ {
+  "t": "2026-09-19T00:32:01Z",
+  "gate": "A",
+  "subject": "Tesla doing Cybercab and Model Y Robotaxi training with first responders. You can see them learning how to move the Cybe",
+  "verdict": "KILL",
+  "reason": "Routine training activity without evidence this is a feature debut or unprecedented first-responder milestone; story qualifies only if Tesla is publicly demonstrating joystick control for the first time, but the thin source and 5/10 scout interest suggest procedural content, not news."
+ },
+ {
+  "t": "2026-09-19T00:33:06Z",
+  "gate": "A",
+  "subject": "V2 of the @Starlink direct-to-phone satellite constellation is a giant improvement over V1 with 100 times more bandwidth",
+  "verdict": "KILL",
+  "reason": "Specification claim with no demonstration, rollout date, or consequence — the banned empty launch preview that fails the 'did reality move' test required for news."
+ },
+ {
+  "t": "2026-09-19T00:33:09Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 SEC approves limited trading of tokenized stocks on-chain under temporary exemption.",
+  "verdict": "KILL",
+  "reason": "No substance—a regulatory exemption described only as 'limited' and 'temporary' with zero detail about impact, affected parties, or consequence, and 4/10 scout interest signals the underlying event itself isn't compelling."
+ },
+ {
+  "t": "2026-09-19T00:33:41Z",
+  "gate": "A",
+  "subject": "NEWS: The FCC has officially granted SpaceX approval to provide international telecommunications services needed to supp",
+  "verdict": "KILL",
+  "reason": "Regulatory approval without immediate consequence—scout interest 4/10 correctly signals this procedural news wouldn't make a 12-year-old send to a friend."
+ },
+ {
+  "t": "2026-09-19T00:33:53Z",
+  "gate": "A",
+  "subject": "ANTHROPIC BUILDS BIOLOGY LAB TO PUSH AI INTO DRUG DEVELOPMENT Anthropic has quietly established a Bay Area wet lab, movi",
+  "verdict": "KILL",
+  "reason": "Infrastructure announcement without outcome, consequence, or concrete numbers—fails the jaw-dropping standard."
+ },
+ {
+  "t": "2026-09-19T01:02:33Z",
+  "gate": "B",
+  "subject": "OPENAI JUST LET YOUR LAWYER USE AI <em>AND STILL BILL YOU $400 AN HOUR</em>",
+  "verdict": "REJECT",
+  "reason": "TRUTH LAW §5 — attribution at risk: 'Astra for Law' is Google's brand name (Project Astra), and the story's own folder slug includes 'frontier-intelligence,' which strongly signals the actual company behind this product is a startup called Frontier Intelligence — not OpenAI. If Frontier Intelligence is the real launcher and OpenAI's role is only that the product runs on their API, the hook and ent"
+ },
+ {
+  "t": "2026-09-19T01:06:15Z",
+  "gate": "B",
+  "subject": "OPENAI JUST LET YOUR LAWYER USE AI <em>AND STILL BILL YOU $400 AN HOUR</em>",
+  "verdict": "REJECT",
+  "reason": "FRIEND TEST FAIL (§4, Sep 10 order): 'built on GPT-6 Astra, their newest frontier model' uses the official industry noun nobody says out loud. Spoken rewrite: 'built on GPT-6 Astra, their most powerful AI.' One-word swap, one-second fix — but the rule is absolute."
+ },
+ {
+  "t": "2026-09-19T01:08:17Z",
+  "gate": "B",
+  "subject": "OPENAI JUST LET YOUR LAWYER USE AI <em>AND STILL BILL YOU $400 AN HOUR</em>",
+  "verdict": "REJECT",
+  "reason": "Caption line 'Your bill isn't going anywhere. ⚖️' contains an emoji — banned by §4 spoken voice law. Fix: delete ⚖️. The sentence stands without it."
+ },
+ {
+  "t": "2026-09-19T01:08:36Z",
+  "gate": "R",
+  "subject": "OPENAI JUST LET YOUR LAWYER USE AI <em>AND STILL BILL YOU $400 AN HOUR</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

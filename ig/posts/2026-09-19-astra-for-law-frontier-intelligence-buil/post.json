@@ -1,0 +1,80 @@
+{
+ "image_brief": "OpenAI releasing a legal AI sold directly to law firms that does casework in seconds, lawyers at a desk with the OpenAI logo prominent",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "OPENAI JUST LET YOUR LAWYER USE AI <em>AND STILL BILL YOU $400 AN HOUR</em>",
+   "hsize": 68,
+   "media": "posts/2026-09-19-astra-for-law-frontier-intelligence-buil/gen-0-r-r.jpg",
+   "image_prompt": "Sam Altman pitching AI legal tools to skeptical law firm executives, OpenAI logo burning bright, boardroom crackles with tension, saturated palette, high stakes.",
+   "gen_person": true
+  }
+ ],
+ "caption": "OpenAI just launched a legal AI built specifically for lawyers, not to replace them. Your bill isn't going anywhere. \u2696\ufe0f\n\nEveryone assumed the whole point of AI hitting law was cheaper legal fees. That was the deal.\n\nOpenAI just launched Astra for Law, their own product built on GPT-6 Astra, their most powerful AI, and sold directly to lawyers and law firms. Their exact description: it's built to \"support the expertise and judgment of lawyers.\" Not replace them. Support them. That one sentence tells you everything.\n\nNext time you're billed $400 an hour, your lawyer can run your entire case through this AI in seconds. The AI does the work. The clock keeps ticking at your rate. The time saved stays in their pocket, not yours. You're basically paying $400 an hour to subsidize their AI subscription.\n\nAstra for Law runs on GPT-6 Astra with custom tools, settings, and legal context built to handle the work inside a law firm. Everyone clocked what it meant. The company everyone was scared would eliminate lawyers just built a product designed to make lawyers more powerful. And more profitable. At your expense.\n\nThis isn't AI disrupting law. It's AI making sure the bill never changes.\n\nAI tools are being built FOR professionals, not against them. The firm captures the speed gains every time, and the client just keeps paying. Lawyers today, accountants next.\n\nRunning a business? DM us \"AI\" and we'll show you which side of that trade you want to be on.\n\nSources: OpenAI on X\n\n#AI #OpenAI #LegalTech #ArtificialIntelligence #Technology",
+ "pinned_comment": "Would you pay the same $400 an hour knowing your lawyer ran your case through AI in 30 seconds? Most people would, and that's exactly what they're counting on.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "OPENAI JUST ARMED YOUR LAWYER WITH AI <em>AND YOUR $400-AN-HOUR BILL DIDN'T MOVE</em>",
+   "OPENAI JUST MADE <em>YOUR LAWYER MORE POWERFUL</em> AND LEFT YOUR BILL EXACTLY WHERE IT IS",
+   "OPENAI JUST LAUNCHED AI FOR LAWYERS, <em>NOT FOR THE PEOPLE PAYING THEM $400</em>",
+   "OPENAI JUST GAVE EVERY LAWYER AI <em>AND NONE OF YOUR BILLS ARE GOING DOWN</em>",
+   "OPENAI JUST LET LAWYERS BILL $400 AN HOUR <em>FOR SECONDS OF AI WORK</em>",
+   "<em>OPENAI BUILT A LEGAL AI</em> AND SAID THE SAVINGS BELONG TO LAWYERS, NOT YOU",
+   "OPENAI LAUNCHED <em>AN AI FOR YOUR LAWYER</em> AND YOUR $400 HOURLY RATE ISN'T GOING ANYWHERE",
+   "OPENAI JUST BUILT AN AI FOR LAWYERS AND <em>YOUR $400 BILL ISN'T DROPPING</em>"
+  ],
+  "scores": [
+   9,
+   8,
+   6,
+   8.5,
+   0,
+   6,
+   8,
+   8
+  ],
+  "winner": 0,
+  "why": "'ARMED' is visceral where alternatives are neutral, and '$400-AN-HOUR' makes this YOUR immediate problem, not a general observation. You stop scrolling because the word choice feels shocking and personal at once."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "OPENAI JUST LET YOUR LAWYER USE AI <em>AND STILL BILL YOU $400 AN HOUR</em>",
+   "OPENAI JUST TURNED YOUR LAWYER'S HOURS INTO SECONDS <em>AND LEFT YOUR $400 UNTOUCHED</em>",
+   "OPENAI JUST GAVE LAWYERS AI <em>THAT DOES YOUR $400-AN-HOUR WORK IN SECONDS</em>",
+   "OPENAI JUST ARMED YOUR LAWYER WITH AI <em>AND YOUR $400-AN-HOUR BILL DIDN'T MOVE</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   4,
+   7
+  ],
+  "winner": 0,
+  "why": "[0]'s 'STILL BILL YOU $400' creates immediate confrontational tension\u2014making you stop to figure out if this is a deal or a ripoff. [3] runs close with natural language, but lacks the edge that creates that initial 'wait, WHAT?' pause."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "OpenAI",
+  "actor_known": true,
+  "anchor": "OpenAI",
+  "specifics": [
+   "13.2 million views in under 48 hours",
+   "Built FOR lawyers \u2014 not to replace them, to arm them",
+   "Runs on GPT-6 Astra, OpenAI's newest frontier model",
+   "Explicitly framed as supporting lawyers' 'expertise and judgment' \u2014 billing rates intact",
+   "21K likes signals legal industry is paying very close attention"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
+  "link": "https://x.com/OpenAI/status/2100679992720142459",
+  "judge_interest": 5,
+  "scout_score": 106.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Caption line 'Your bill isn't going anywhere. \u2696\ufe0f' contains an emoji \u2014 banned by \u00a74 spoken voice law. Fix: delete \u2696\ufe0f. The sentence stands without it."
+}
