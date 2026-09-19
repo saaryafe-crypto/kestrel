@@ -1,19 +1,5 @@
 [
  {
-  "t": "2026-09-14T21:30:19Z",
-  "gate": "A",
-  "subject": "BREAKING: President Trump doubles down on his rejection of AI safety concerns. \"Don't kill the Golden Goose,\" Trump says",
-  "verdict": "KILL",
-  "reason": "Reiterated political statement with no real-world consequence (no policy action, announcement, or changed outcome) fails to qualify as a news event; this is commentary, not the AI/tech news where reality moved."
- },
- {
-  "t": "2026-09-14T21:31:49Z",
-  "gate": "A",
-  "subject": "New GTA 6 map details (previews): - Once you unlock free roam after some missions, you can go anywhere on the map withou",
-  "verdict": "KILL",
-  "reason": "Off-lane gaming content unrelated to AI, tech company/founder moves, investing, or space technology per §1 off-lens kill rule."
- },
- {
   "t": "2026-09-14T21:32:33Z",
   "gate": "A",
   "subject": "i wonder if the first episode will ever dethrone the silly team rocket meme i did 4 years ago",
@@ -2098,5 +2084,19 @@
   "subject": "Spectator Report: Britain’s rupture with Israel is reportedly costing it influence across the Gulf. Arab states rely on ",
   "verdict": "KILL",
   "reason": "Off-topic: geopolitics and intelligence analysis, not AI or technology news; the page's identity requires one of its approved lenses (AI, technology, company, money, space) and this has none."
+ },
+ {
+  "t": "2026-09-19T16:42:15Z",
+  "gate": "B",
+  "subject": "<em>3 PAID SERVICES</em> GOOGLE'S AI NOW REPLACES FOR FREE",
+  "verdict": "REJECT",
+  "reason": "COVER CONTRACT FAILURE — hook and caption tell two different stories. The hook promises '3 PAID SERVICES GOOGLE'S AI NOW REPLACES FOR FREE,' which a reader reads as a guide to free tools. The caption delivers a security incident (Gemini accessed 3 real companies during a pentest) plus a 4-rule deployment checklist. These are unrelated frames. A reader who taps for free tool alternatives gets a bre"
+ },
+ {
+  "t": "2026-09-19T16:43:30Z",
+  "gate": "R",
+  "subject": "<em>3 PAID SERVICES</em> GOOGLE'S AI NOW REPLACES FOR FREE",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
