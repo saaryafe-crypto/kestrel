@@ -1,61 +1,5 @@
 [
  {
-  "t": "2026-09-14T21:32:39Z",
-  "gate": "A",
-  "subject": "AI data centers resulting in lower electricity prices for consumers",
-  "verdict": "KILL",
-  "reason": "A prediction about future market dynamics, not a real-world event where reality moved; insufficient facts to build slides from without padding into guide content (the page's #1 stated failure)."
- },
- {
-  "t": "2026-09-14T21:33:18Z",
-  "gate": "A",
-  "subject": "Andrew Wimsatt spent his life figuring out how to make things last longer. Roads, bridges, tunnels, pavement, friendship",
-  "verdict": "KILL",
-  "reason": "Off-lens story: the subject is civil engineering and infrastructure, not AI, technology, a company/founder, investing, or space technology. The LANE explicitly requires strict application of the off-lens kill rule; a story where civil engineering is the star, not the backdrop, fails regardless of viral score."
- },
- {
-  "t": "2026-09-14T21:33:44Z",
-  "gate": "A",
-  "subject": "My girlfriend and I attended the Ed Sheeran concert last evening in our company suite at MetLife with a number of guests",
-  "verdict": "KILL",
-  "reason": "Off-lens: personal concert complaint has no connection to AI, tech, companies, founders, investing, or space technology—this is entertainment drama, not technology news."
- },
- {
-  "t": "2026-09-14T21:34:13Z",
-  "gate": "A",
-  "subject": "While filming Mrs. Doubtfire, 14-year-old Lisa Jakub was expelled from her Canadian high school because her extended abs",
-  "verdict": "KILL",
-  "reason": "Off-brand: this is a Hollywood entertainment anecdote with no AI, tech, founder, or business angle — outside the page's AI/tech news identity and all approved lenses."
- },
- {
-  "t": "2026-09-14T21:35:30Z",
-  "gate": "A",
-  "subject": "New GTA 6 map details (previews): - Once you unlock free roam after some missions, you can go anywhere on the map withou",
-  "verdict": "KILL",
-  "reason": "Off-lens gaming content: subject must be AI/tech/founder/investing/space per lane rules."
- },
- {
-  "t": "2026-09-14T22:06:54Z",
-  "gate": "B",
-  "subject": "EVERYONE THOUGHT AI WOULD SPIKE YOUR ELECTRICITY BILL. IT JUST SAVED <em>$1 BILLION</em>.",
-  "verdict": "REJECT",
-  "reason": "Hook is two sentences ('EVERYONE THOUGHT AI WOULD SPIKE YOUR ELECTRICITY BILL. IT JUST SAVED $1 BILLION.') — §2 law is ONE complete sentence. Fix: merge into one, e.g. 'AI DATA CENTERS WERE SUPPOSED TO SPIKE YOUR ELECTRICITY BILL — GEORGIA POWER JUST SHOWED THEY SAVE CUSTOMERS $1 BILLION INSTEAD.' Named actor, named number, the flip, one read.; 'This flips the whole conversation' is significance i"
- },
- {
-  "t": "2026-09-14T22:09:06Z",
-  "gate": "A",
-  "subject": "Andrew Wimsatt spent his life figuring out how to make things last longer. Roads, bridges, tunnels, pavement, friendship",
-  "verdict": "KILL",
-  "reason": "Off-lens: Andrew Wimsatt's civil engineering career in infrastructure and pavement is not AI, tech, company/founder, investing, or space technology — the strict lane requirement."
- },
- {
-  "t": "2026-09-14T22:09:16Z",
-  "gate": "A",
-  "subject": "i wonder if the first episode will ever dethrone the silly team rocket meme i did 4 years ago",
-  "verdict": "KILL",
-  "reason": "Trivial event with no real consequence—unknown artist wondering if new content beats old content is a vibe, not a news story."
- },
- {
   "t": "2026-09-14T22:10:22Z",
   "gate": "A",
   "subject": "My girlfriend and I attended the Ed Sheeran concert last evening in our company suite at MetLife with a number of guests",
@@ -2098,5 +2042,61 @@
   "subject": "Spectator Report: Britain’s rupture with Israel is reportedly costing it influence across the Gulf. Arab states rely on ",
   "verdict": "KILL",
   "reason": "Off-brand geopolitics with zero tech/AI/company/founder lens; 456-character thin source with no numbers, no specific event anchor, and nothing to build a post from."
+ },
+ {
+  "t": "2026-09-19T18:27:15Z",
+  "gate": "A",
+  "subject": "Starlink is now often more reliable than cable",
+  "verdict": "KILL",
+  "reason": "One thin tweet with nothing behind it — no numbers, no proof, no incident; fails the no-substance rule."
+ },
+ {
+  "t": "2026-09-19T18:27:35Z",
+  "gate": "A",
+  "subject": "🚨 JENSEN HUANG: “2030 is not going to be the end of the world. There is zero percent chance that's going to be the end o",
+  "verdict": "KILL",
+  "reason": "No action or consequence—Jensen's opinion on AI safety doesn't meet 'earns a slot' criteria and would require padding to build slides."
+ },
+ {
+  "t": "2026-09-19T18:28:23Z",
+  "gate": "A",
+  "subject": "TLDR: Researchers found a \"pain\" signal in AI brains. > When they crank it up, the AIs will desperately try to make it s",
+  "verdict": "KILL",
+  "reason": "Research attributed to unnamed researchers and sourced from a meme account lacks the 'real names, real numbers, real proof' that TRUTH LAW requires; writer cannot establish institutional credibility or verify facts without fabricating attribution."
+ },
+ {
+  "t": "2026-09-19T18:29:45Z",
+  "gate": "A",
+  "subject": "A secretive Chinese AI startup backed by Tencent and valued at $1.42 billion is reportedly preparing to release its firs",
+  "verdict": "KILL",
+  "reason": "Unreleased product teaser from unknown startup—banned empty-form launch preview (nothing shown, nothing happened)."
+ },
+ {
+  "t": "2026-09-19T18:29:56Z",
+  "gate": "A",
+  "subject": "BREAKING: Anthropic is planning to launch its IPO in November despite AI safety concerns, per WSJ. The company is expect",
+  "verdict": "APPROVE",
+  "reason": "Anthropic's major IPO announcement ($2 trillion valuation, $100 billion raise) is a household-name major-move news event that §1 explicitly covers as news-page-first priority, regardless of source thinness; the underlying event is substantial, not speculative."
+ },
+ {
+  "t": "2026-09-19T18:30:22Z",
+  "gate": "A",
+  "subject": "Top Gear has released a new video of the production version @Tesla Semi. We get our first look at the full production li",
+  "verdict": "KILL",
+  "reason": "Production vehicle specs, while legitimate Tesla news, are vehicle engineering content—not the AI/tech/software/startup news core that defines this page; holding the slot for a stronger candidate avoids diluting into general tech coverage."
+ },
+ {
+  "t": "2026-09-19T19:03:43Z",
+  "gate": "B",
+  "subject": "THE AI SAFETY COMPANY JUST FILED A $100 BILLION IPO <em>'DESPITE AI SAFETY CONCERNS'</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-19T19:04:12Z",
+  "gate": "R",
+  "subject": "THE AI SAFETY COMPANY JUST FILED A $100 BILLION IPO <em>'DESPITE AI SAFETY CONCERNS'</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

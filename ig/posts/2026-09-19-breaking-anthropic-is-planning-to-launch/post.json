@@ -1,0 +1,76 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE AI SAFETY COMPANY JUST FILED A $100 BILLION IPO <em>'DESPITE AI SAFETY CONCERNS'</em>",
+   "kicker": "ALREADY MAKING $110 BILLION A YEAR",
+   "hsize": 68,
+   "media": "posts/2026-09-19-breaking-anthropic-is-planning-to-launch/gen-0.jpg",
+   "image_prompt": "Dario Amodei rings the stock bell, arms raised in triumph, Claude logo glowing beside him, clean bright background."
+  }
+ ],
+ "caption": "Anthropic is going public at $2 trillion, 'despite AI safety concerns' right in the announcement. \ud83e\udd2f\n\nAnthropic was the one AI company you were supposed to trust. Its founders left OpenAI because they thought OpenAI was being too reckless with safety. That was the entire reason the company existed. Not a marketing line. The reason.\n\nNow they are going public in November. The valuation is $2 trillion. The offering raises up to $100 billion, which would be the largest amount any company has ever raised in a single stock debut. And somewhere in the Wall Street Journal's story about all of this, a reporter wrote the phrase 'despite AI safety concerns.' About the company whose whole identity is AI safety. Nobody killed the line.\n\nHere is the part that should make your head spin: Anthropic is already on track to bring in more than $110 billion in revenue this year. A company that barely existed three years ago now makes more money annually than almost every business on Earth. They do not need the Wall Street money to survive. They want it to grow.\n\nIf you were counting on Anthropic to be the voice in the room saying 'let's slow down and be careful,' that voice just got bought. Once you take $100 billion from investors who paid $2 trillion for a piece of you, slowing down is off the table. Anthropic just became structurally unable to do the one thing it was built to do.\n\nEvery major AI lab started with a story about being the careful one. One by one, the money rewrites the story. Anthropic was the last one still telling it.\n\nRunning a business? DM us 'AI' and we'll show you what this shift means for yours.\n\nSources: Wall Street Journal, The Kobeissi Letter\n\n#anthropic #ipo #artificialintelligence #aiinvesting #technews",
+ "pinned_comment": "Anthropic's founders left OpenAI specifically because they said OpenAI wasn't taking safety seriously enough. Their own IPO announcement now uses 'AI safety concerns' as the name of the thing they're pushing past. Would you still call this a safety company?",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "THE COMPANY BUILT TO STOP AI RECKLESSNESS JUST ANNOUNCED A <em>$100 BILLION IPO</em>",
+   "THE AI SAFETY COMPANY BARELY EXISTED THREE YEARS AGO AND IS NOW RAISING <em>$100 BILLION</em>",
+   "THE AI COMPANY FOUNDED BECAUSE OPENAI WAS TOO RECKLESS <em>JUST FILED THE BIGGEST IPO EVER</em>",
+   "THE COMPANY THAT LEFT OPENAI OVER SAFETY JUST ANNOUNCED A <em>$2 TRILLION IPO</em>",
+   "THE AI SAFETY COMPANY JUST ANNOUNCED AN IPO AT <em>$2 TRILLION</em>, DESPITE ITS OWN MISSION",
+   "THE COMPANY BUILT TO SLOW DOWN AI <em>JUST RAISED $100 BILLION</em> TO GO FASTER",
+   "THE AI SAFETY COMPANY JUST ANNOUNCED THE <em>BIGGEST IPO IN HISTORY AT $100 BILLION</em>",
+   "THE AI SAFETY COMPANY JUST FILED A $100 BILLION IPO <em>'DESPITE AI SAFETY CONCERNS'</em>"
+  ],
+  "scores": [
+   6,
+   6,
+   7,
+   0,
+   0,
+   0,
+   8,
+   9
+  ],
+  "winner": 7,
+  "why": "[7] makes the paradox explicit with 'despite AI safety concerns'\u2014you get the 'wait WHAT?' instantly. [6] delivers 'biggest IPO in history' which is punchy, but you have to connect it to the safety angle yourself."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "THE AI SAFETY COMPANY BUILT TO SLOW AI DOWN JUST WENT PUBLIC AT <em>$2 TRILLION</em>",
+   "THE AI SAFETY COMPANY JUST FILED A $100 BILLION IPO <em>'DESPITE AI SAFETY CONCERNS'</em>",
+   "THE AI SAFETY COMPANY JUST RAISED <em>$100 BILLION</em> AND HANDED WALL STREET THE KEYS"
+  ],
+  "scores": [
+   0,
+   8,
+   0
+  ],
+  "winner": 1,
+  "why": "[1] is the only one truthful\u2014the IPO is still in November, so [0] and [2] falsely claim it happened. $100 billion in an unprecedented single offering plus 'despite safety concerns' contradiction stops you from scrolling."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Anthropic",
+  "actor_known": false,
+  "anchor": "the AI safety company",
+  "specifics": [
+   "$100 billion raised in a single offering \u2014 a number no company has ever attempted in one IPO",
+   "$2 trillion valuation",
+   "IPO announced explicitly 'despite AI safety concerns' \u2014 by the company built entirely around AI safety concerns",
+   "$110 billion in annualized revenue by year-end from a company that barely existed three years ago",
+   "IPO planned for November 2026"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (5/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Anthropic is planning to launch its IPO in November despite AI safety concerns, per WSJ. The company is expected to IPO at a $2 trillion valuation and raise up to $100 billion in the offering. Anthropic is expe",
+  "link": "https://x.com/KobeissiLetter/status/2101062588360798513",
+  "judge_interest": 5,
+  "scout_score": 53.6
+ }
+}
