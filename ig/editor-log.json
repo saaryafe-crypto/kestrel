@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-15T19:35:43Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 President Trump says Anthropic CEO Dario Amodei is \"pretending to be a perfect little angel\" for wanting to ",
-  "verdict": "KILL",
-  "reason": "Trump's political jab at Amodei has no real-world consequence—no policy enacted, hiring/firing, or impact documented—and the thin source requires heavy padding to build slides without substance."
- },
- {
   "t": "2026-09-15T19:35:47Z",
   "gate": "A",
   "subject": "The cost of hiring an oil tanker on the benchmark trade route has soared to $1 million per day for the first time in his",
@@ -2098,5 +2091,12 @@
   "subject": "TRUMP LAUNCHED AN \"AI FORCE\" AND RESEARCHERS FOUND A <em>PAIN SIGNAL INSIDE AI BRAINS</em>, PLUS 4 MORE THINGS THAT HAPP",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-20T13:05:31Z",
+  "gate": "A",
+  "subject": "Spectator Report: Britain’s rupture with Israel is reportedly costing it influence across the Gulf. Arab states rely on ",
+  "verdict": "KILL",
+  "reason": "Off-brand geopolitical analysis with no specific documented event—the page is AI/tech news; this is British foreign policy commentary citing unnamed sources' implied consequences, not a viral-specific event with visible fallout."
  }
 ]
