@@ -1,0 +1,78 @@
+{
+ "media_idx": 2,
+ "image_brief": "SpaceX Falcon 9 nose cone fairing shell mid-flight, the disposable rocket part that once sank in the ocean completing its 40th launch",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SPACEX FLEW THE ROCKET SHELL THEY USED TO DUMP IN THE OCEAN <em>40 TIMES</em>.",
+   "kicker": "A FIRST IN SPACEX HISTORY",
+   "hsize": 72,
+   "media": "posts/2026-09-20-breaking-spacex-has-set-a-new-reuse-reco/gen-0.jpg",
+   "image_prompt": "Elon Musk triumphant holding a SpaceX rocket fairing like a champion trophy, SpaceX logo in a big circle next to him",
+   "gen_person": true
+  }
+ ],
+ "caption": "SpaceX just flew a rocket nose cone for the 40th time ever, and it used to get thrown in the ocean after every single launch.\n\nEveryone treated rocket nose cones as single-use. After every launch they'd hit the ocean. One flight and they were gone.\n\nOne just flew for the 40th time. Same nose cone shell. 40 launches. Still flying. That has never happened to any nose cone in SpaceX history.\n\nHere's the part that gets you: this isn't the big booster. It's not the engines. It's the nose cone, the shell at the tip of the rocket that protects whatever's inside. The exact part everyone assumed was just disposable packaging. Your phone case gets more reuse than this thing used to. Now it's at 40.\n\nEvery time that shell flies again instead of sinking, a launch costs less. A Falcon 9 fairing costs roughly $6M new, 40 reuses on one shell means SpaceX avoided buying 39 replacements.\n\nSpaceX started by reusing boosters. Now a nose cone is at 40 flights.\n\nRunning a business? DM us \"AI\" and we'll show you what this kind of thinking could unlock for yours.\n\nSources: DogeDesigner on X\n\n#SpaceX #Falcon9 #SpaceExploration #RocketScience #Space",
+ "pinned_comment": "The nose cone that used to get thrown away after one launch just flew 40 times. At what point does the word disposable stop meaning anything?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX JUST FLEW <em>A NOSE CONE 40 TIMES,</em> THE FIRST EVER IN ROCKET HISTORY",
+   "SPACEX'S MOST DISPOSABLE ROCKET PART JUST FLEW <em>FOR THE 40TH TIME</em>",
+   "ONE SPACEX ROCKET NOSE CONE JUST FLEW <em>40 TIMES</em>, THE FIRST EVER IN HISTORY",
+   "SPACEX JUST REUSED A ROCKET NOSE CONE <em>40 TIMES</em>, A FIRST IN ROCKET HISTORY",
+   "SPACEX USED TO THROW THIS PART AWAY. IT JUST FLEW <em>40 TIMES</em>.",
+   "SPACEX JUST SET A REUSE RECORD: <em>ONE NOSE CONE, 40 FLIGHTS,</em> A FIRST IN HISTORY",
+   "SPACEX JUST FLEW A PART THEY USED TO DUMP IN THE OCEAN <em>40 TIMES</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   6,
+   8,
+   9,
+   8,
+   7
+  ],
+  "winner": 4,
+  "why": "[4] hits hardest because it tells an emotional story through contrast (threw it away, now flew 40 times) in two sentences that force engagement. [3] just announces an impressive fact; narrative always beats information for stopping a scroll."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX USED TO THROW THIS PART AWAY. IT JUST FLEW <em>40 TIMES</em>.",
+   "SPACEX USED TO DUMP ROCKET SHELLS AFTER <em>1 FLIGHT</em>. ONE JUST FLEW <em>40 TIMES</em>.",
+   "SPACEX JUST FLEW THE SAME NOSE CONE <em>40 TIMES</em>, <em>THE FIRST IN ROCKET HISTORY</em>.",
+   "SPACEX JUST FLEW THE ROCKET SHELL THEY ONCE TOSSED IN THE OCEAN <em>40 TIMES</em>."
+  ],
+  "scores": [
+   7,
+   9,
+   0,
+   8
+  ],
+  "winner": 1,
+  "why": "[1]'s contrast between '1 flight' and '40 times' hits instantly as pure math shock that needs zero context. [3]'s ocean imagery is stronger but takes more mental processing to land its impact."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SpaceX",
+  "actor_known": true,
+  "anchor": "SpaceX",
+  "specifics": [
+   "A single fairing half flew 40 times \u2014 a first in SpaceX history",
+   "These nose cones were once thrown into the ocean after every single launch",
+   "40 reuses on what was considered a disposable rocket part",
+   "Falcon 9 fairing half, announced September 20, 2026",
+   "61.5K views on the viral announcement post"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: SpaceX has set a new reuse record! A Falcon 9 fairing half has flown for the 40th time, the first ever in SpaceX history. The nose-cone shell, once discarded in the ocean after a single launch, has now flown 40",
+  "link": "https://x.com/cb_doge/status/2101501585134383332",
+  "judge_interest": 8,
+  "scout_score": 76.3
+ }
+}

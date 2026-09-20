@@ -1,61 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "EMOJI IN CAPTION (§7, fixable): The 🤯 on the first line of the caption is an explicit ban under Human Voice Law — 'no emojis.' Remove it. The sentence reads fine without it: '...and now no one will dare ask for a pause again.'",
-  "subject": "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
-  "t": "2026-09-15T20:48:34Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "",
-  "subject": "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
-  "t": "2026-09-15T20:50:30Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
-  "t": "2026-09-15T20:50:52Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-09-15T23:39:41Z",
-  "gate": "A",
-  "subject": "BREAKING: The 10Y Note Yield rises to 5.04%, its highest level since July 2007. This pushes the average interest rate on",
-  "verdict": "KILL",
-  "reason": "Market yield movement is explicitly banned 'market wraps, stocks-rose-today' routine content—not a real-world event with a felt consequence; no actor, no story spine, just a financial indicator; scout interest 4/10 falls below threshold and lacks exceptional cause."
- },
- {
-  "t": "2026-09-15T23:40:05Z",
-  "gate": "A",
-  "subject": "NVIDIA, Palantir and Booz Allen Hamilton will limit use of ANTHROPIC models",
-  "verdict": "APPROVE",
-  "reason": "Famous-actor business-policy news event (NVIDIA, Palantir, BAH limiting Anthropic); thin source passes per calibration—substantial events with major actors route to research stage, not gate-kill."
- },
- {
-  "t": "2026-09-15T23:40:25Z",
-  "gate": "A",
-  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
-  "verdict": "KILL",
-  "reason": "Musk proposed peer review at a summit, but proposals lack the real consequence (policy change, company action, implementation) the page requires — this is an announcement without outcome, not the hard news event like a release, lawsuit, or CEO change the page exists to cover."
- },
- {
-  "t": "2026-09-15T23:40:59Z",
-  "gate": "A",
-  "subject": "The solar power exponential will continue until all other energy sources are &lt;&lt;0.1%",
-  "verdict": "KILL",
-  "reason": "Bare prediction with no real event, consequence, or second fact—writer would need to pad it to fill slides, NO SUBSTANCE instant kill."
- },
- {
-  "t": "2026-09-16T00:02:17Z",
-  "gate": "B",
-  "subject": "NVIDIA JUST CUT CLAUDE AND <em>GAVE ZERO REASON</em>",
-  "verdict": "REJECT",
-  "reason": "Caption paragraph 1 ends with 🤯 — emojis are explicitly banned by Human Voice Law (§7, SPOKEN VOICE). Delete the emoji; the paragraph is strong without it.; Caption paragraph 4: 'That silence is often louder than any explanation' is an AI-generated aphorism standing where a specific fact belongs. Replace with the concrete reality: neither NVIDIA nor Anthropic issued a statement, no filing, no call"
- },
- {
   "t": "2026-09-16T00:04:40Z",
   "gate": "B",
   "subject": "NVIDIA JUST CUT CLAUDE AND <em>GAVE ZERO REASON</em>",
@@ -2096,6 +2040,62 @@
   "t": "2026-09-20T20:56:24Z",
   "gate": "R",
   "subject": "TERENCE TAO SAID AI IS MOVING AT <em>AN INSANE PACE WITH NO REASON</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-20T23:12:51Z",
+  "gate": "A",
+  "subject": "BREAKING: SpaceX has set a new reuse record! A Falcon 9 fairing half has flown for the 40th time, the first ever in Spac",
+  "verdict": "AUTO_APPROVE",
+  "reason": "scout interest 8/10 — news-first fast lane"
+ },
+ {
+  "t": "2026-09-20T23:13:00Z",
+  "gate": "A",
+  "subject": "\"A computer-science degree is no longer a golden ticket,\" per WSJ",
+  "verdict": "KILL",
+  "reason": "No substance — one article headline with no named actor, numbers, or real consequence; it's a trend claim, not an event, and the writer would have to pad it entirely."
+ },
+ {
+  "t": "2026-09-20T23:13:07Z",
+  "gate": "A",
+  "subject": "The last three fully new vehicles that @Tesla has launched don’t use a liquid paint shop: • Tesla Semi (Powder coated) •",
+  "verdict": "KILL",
+  "reason": "Manufacturing process observation without a viral-specific event or consequence anyone felt—this is technical trivia for engineers, not a story this page exists to tell."
+ },
+ {
+  "t": "2026-09-20T23:14:15Z",
+  "gate": "A",
+  "subject": "A Pentagon investigation report indicates that an overwhelming air assault order, severely outdated intelligence, and an",
+  "verdict": "KILL",
+  "reason": "Military/geopolitical news story where Palantir's Maven was one of several contributing factors (alongside outdated intelligence and overwhelming orders)—the AI tool is not the protagonist, OFF-LENS for an AI/tech page."
+ },
+ {
+  "t": "2026-09-20T23:33:11Z",
+  "gate": "B",
+  "subject": "SPACEX USED TO DUMP ROCKET SHELLS AFTER <em>1 FLIGHT</em>. ONE JUST FLEW <em>40 TIMES</em>.",
+  "verdict": "REJECT",
+  "reason": "EMOJI VIOLATION (§4): '🚀' appears in the caption's opening sentence. The law says no emojis. Remove it.; JARGON / FRIEND TEST (§4): 'That has never happened to any fairing half in SpaceX history.' Nobody says 'fairing half' to a friend. The caption already uses 'nose cone' throughout — fix to 'That has never happened to any nose cone in SpaceX history.'; SERMON CLOSE (§4 — 'no sermons/moralizing')"
+ },
+ {
+  "t": "2026-09-20T23:36:09Z",
+  "gate": "B",
+  "subject": "SPACEX USED TO DUMP ROCKET SHELLS AFTER <em>1 FLIGHT</em>. ONE JUST FLEW <em>40 TIMES</em>.",
+  "verdict": "REJECT",
+  "reason": "HOOK LAW (§2): The hook is two sentences — 'SPACEX USED TO DUMP ROCKET SHELLS AFTER 1 FLIGHT. ONE JUST FLEW 40 TIMES.' — and the doctrine requires ONE complete sentence. Fix: combine them into a single sentence, e.g. 'THE SPACEX NOSE CONE THAT USED TO GET DUMPED IN THE OCEAN AFTER EVERY LAUNCH JUST FLEW FOR THE 40TH TIME.' (18 words, one actor, one action, the wild specific, no dash)."
+ },
+ {
+  "t": "2026-09-20T23:37:51Z",
+  "gate": "B",
+  "subject": "SPACEX FLEW THE ROCKET SHELL THEY USED TO DUMP IN THE OCEAN <em>40 TIMES</em>.",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-20T23:38:09Z",
+  "gate": "R",
+  "subject": "SPACEX FLEW THE ROCKET SHELL THEY USED TO DUMP IN THE OCEAN <em>40 TIMES</em>.",
   "verdict": "PASS",
   "reason": ""
  }
