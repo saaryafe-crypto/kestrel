@@ -1,0 +1,49 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SHE GOT $2,100 AND BECAME <em>THE FIRST WOMAN TO WELD FOR AMERICA</em>",
+   "kicker": "SPACEX OFFERED BEFORE GRADUATION",
+   "hsize": 72,
+   "face": [],
+   "media": "posts/2026-09-20-inspire-mikala-sposito-first-woman-usa-welding-w/gen-0-rescue.jpg",
+   "image_prompt": "The Claude logo stealing and selling trainers' knowledge, taking their earnings while they sleep unaware"
+  }
+ ],
+ "caption": "She got $2,100 to learn to weld. Now she's the first woman to represent America at the world championships, and SpaceX is already calling.\n\nMikala Sposito was a teenager in Dexter, Michigan with one dream: learn to weld and build a life with her hands.\n\nShe applied for a work ethic scholarship and asked for $2,700. She got $2,100. They told her to find more money elsewhere. You could read that as a ceiling. She read it as a starting point.\n\nShe trained 60 to 80 hours a week for two years. Not talented. Just relentless. Senior year of high school she won first place in Michigan and placed 14th in the country. Freshman year of college she won Michigan again and finished 8th nationally. That earned her a spot at the USA Weld Trials in Huntsville, Alabama, where the top 16 welders in America competed for three spots on Team USA.\n\nMikala won the gold. She became the first woman in US history to represent America in welding at WorldSkills in Shanghai, the Olympics of skilled trades. She has not graduated yet. SpaceX already offered her a job.\n\nWhen people call her a natural, she corrects them: \"I'm not a natural. I worked and trained 60 to 80 hours a week for two years to get here.\"\n\nShe asked for $2,700. She got $2,100. Send this to someone who says they don't have enough to start.\n\nMost of the world writes off skilled trades as a backup plan. Mikala just beat every welder in America, earned a spot on the world stage, and got a call from SpaceX, all starting with $2,100 and a refusal to quit.\n\nSources: mikeroweworks, mikeroweWORKS Foundation, SkillsUSA, WorldSkills\n\n#AI #SpaceX #WorldSkills #SkilledTrades #Success",
+ "pinned_comment": "Mike Rowe is mailing her a check for the $600 he held back two years ago. He called it walking-around money for Shanghai.",
+ "hook_tournament": {
+  "story_type": "money_win",
+  "candidates": [
+   "A GIRL GOT <em>$2,100</em> TO LEARN TO WELD",
+   "SHE TRAINED <em>70 HOURS A WEEK</em> FOR $2,100"
+  ],
+  "scores": [
+   5,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] hits you with the disproportion instantly\u201470 hours/week plus $2,100 creates the 'wait, WHAT?' gut reaction that makes you stop. [0] is clear but feels like a neutral fact; $2,100 for training reads as a thing that happened, not a story that demands to be read."
+ },
+ "hook_sharpen": {
+  "story_type": "money_win",
+  "candidates": [
+   "SHE TRAINED <em>70 HOURS A WEEK</em> FOR $2,100. THEN SHE BUILT ONE AI TOOL.",
+   "SHE TRAINED <em>70 HOURS A WEEK</em> FOR $2,100",
+   "A TRAINER MAKING $2,100 JUST LET AI <em>SELL HER KNOWLEDGE WHILE SHE SLEEPS</em>"
+  ],
+  "scores": [
+   4,
+   3,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] tells the complete story (trainer \u2192 AI passive income while she sleeps) with visceral contrast that hits instantly, while [0] cryptically hides the outcome and makes you solve the riddle. You stop scrolling for the payoff, not the puzzle."
+ },
+ "handle": "@yaffeai",
+ "container": "inspire",
+ "edu_mode": "inspire",
+ "cover_fallback": "no-face rescue",
+ "editor_override": "COVER IMAGE IS CATASTROPHICALLY WRONG: The attached image shows a masked figure in a sun costume stealing cash from a bag beside two sleeping people, with a laptop on the nightstand \u2014 this is a leftover render from an entirely different post (financial scam / crypto theft story). It has zero connection to Mikala Sposito, welding, WorldSkills, or SpaceX. Thumb test fails completely: a stranger at f",
+ "gate_r": "s1: The AI-generated image \u2014 a masked burglar figure with a cartoon sun head rifling through a bag of cash beside sleeping people \u2014 has zero connection to the story of a woman becoming the first female welder in America, creating a deeply wrong emotional register that would confuse and mislead viewers."
+}

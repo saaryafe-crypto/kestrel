@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-15T19:35:47Z",
-  "gate": "A",
-  "subject": "The cost of hiring an oil tanker on the benchmark trade route has soared to $1 million per day for the first time in his",
-  "verdict": "KILL",
-  "reason": "Off-brand commodities statistic with no named actor or consequence—substance-free one-liner unsuitable for an AI/tech news page."
- },
- {
-  "t": "2026-09-15T19:36:38Z",
-  "gate": "A",
-  "subject": "BREAKING: OpenAI has hired an army of contractors who read real ChatGPT users' chats, per 404Media",
-  "verdict": "APPROVE",
-  "reason": "OpenAI contractor news is legitimate household-name-lab disclosure meeting STORY LAW; calibration warns against over-killing when page already shipped 3 listicles today."
- },
- {
-  "t": "2026-09-15T19:57:55Z",
-  "gate": "B",
-  "subject": "OPENAI HIRED <em>AN ARMY OF CONTRACTORS</em> TO READ YOUR ACTUAL CHATGPT CONVERSATIONS",
-  "verdict": "REJECT",
-  "reason": "Caption line 1 ends with the 👁️ emoji — §4 bans emojis in body copy ('no exclamation marks, no emojis, no hype adjectives'). Fix: delete the emoji. The sentence lands harder without it."
- },
- {
   "t": "2026-09-15T19:59:28Z",
   "gate": "B",
   "subject": "OPENAI HIRED <em>AN ARMY OF CONTRACTORS</em> TO READ YOUR ACTUAL CHATGPT CONVERSATIONS",
@@ -2098,5 +2077,26 @@
   "subject": "Spectator Report: Britain’s rupture with Israel is reportedly costing it influence across the Gulf. Arab states rely on ",
   "verdict": "KILL",
   "reason": "Off-brand geopolitical analysis with no specific documented event—the page is AI/tech news; this is British foreign policy commentary citing unnamed sources' implied consequences, not a viral-specific event with visible fallout."
+ },
+ {
+  "t": "2026-09-20T17:06:54Z",
+  "gate": "B",
+  "subject": "A TRAINER MAKING $2,100 JUST LET AI <em>SELL HER KNOWLEDGE WHILE SHE SLEEPS</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK IS A LIE — fatal mismatch. The hook says 'AI SELL HER KNOWLEDGE WHILE SHE SLEEPS' and implies AI passive income. The caption contains no AI, no knowledge product, no passive income. The $2,100 is a scholarship she received, not money AI earned her. A reader who taps in expecting an AI side-hustle story gets a welding competition story. That is not a reframe — it is a false promise. The hook m"
+ },
+ {
+  "t": "2026-09-20T17:08:58Z",
+  "gate": "B",
+  "subject": "SHE GOT $2,100 AND BECAME <em>THE FIRST WOMAN TO WELD FOR AMERICA</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE IS CATASTROPHICALLY WRONG: The attached image shows a masked figure in a sun costume stealing cash from a bag beside two sleeping people, with a laptop on the nightstand — this is a leftover render from an entirely different post (financial scam / crypto theft story). It has zero connection to Mikala Sposito, welding, WorldSkills, or SpaceX. Thumb test fails completely: a stranger at f"
+ },
+ {
+  "t": "2026-09-20T17:09:06Z",
+  "gate": "R",
+  "subject": "SHE GOT $2,100 AND BECAME <em>THE FIRST WOMAN TO WELD FOR AMERICA</em>",
+  "verdict": "FAIL",
+  "reason": "s1: The AI-generated image — a masked burglar figure with a cartoon sun head rifling through a bag of cash beside sleeping people — has zero connection to the story of a woman becoming the first female welder in America, creating a deeply wrong emotional register that would confuse and mislead viewers."
  }
 ]
