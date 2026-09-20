@@ -1,0 +1,81 @@
+{
+ "image_brief": "Warren Buffett stepping away from Berkshire Hathaway after 61 years, the company now worth $1.09 trillion",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "WARREN BUFFETT JUST RETIRED AFTER TURNING <em>A DYING T-SHIRT FACTORY INTO $1.09 TRILLION</em>",
+   "kicker": "BUILT FROM A DYING CLOTH FACTORY",
+   "hsize": 70,
+   "media": "posts/2026-09-19-today-warren-buffett-officially-stepped-/cand-1.jpg"
+  }
+ ],
+ "caption": "Warren Buffett just stepped down as chairman of Berkshire Hathaway after 61 years. The company is now worth $1.09 trillion. \ud83c\udfe6\n\nEveryone kind of assumed Buffett would just keep going. He'd been running Berkshire for so long that \"Warren Buffett retires\" genuinely sounded like a joke. Yesterday, it actually happened. On September 18, 2026, he officially stepped down as chairman after 61 consecutive years at the same company. 61 years is longer than most adults have been alive.\n\nHere's the part that doesn't get talked about enough. He didn't build this from a bank, a tech company, or some big invention. He bought a struggling textile company. A literal fabric mill that was heading toward the scrap heap. Over 61 years, that same company became worth $1.09 trillion, with total growth of over 7,700,000%. That number is real.\n\nWhoever runs Berkshire next has the portfolio but not the reputation he spent six decades building. If you have any savings or money in a retirement account, his way of thinking about which companies to own has quietly shaped how a lot of that gets managed.\n\n7,700,000% in 61 years started with a failing clothing factory, and it ended yesterday.\n\n61 consecutive years at one company is a record no one alive is even chasing. The question isn't just who fills the seat. It's whether anyone can match 7,700,000% in 61 years. No one alive is even close.\n\nSave this. 61 years and 7,700,000% at one company, that's the number.\n\nSources: WatcherGuru\n\n#WarrenBuffett #BerkshireHathaway #Investing #Finance #BusinessNews",
+ "pinned_comment": "The part that didn't fit: 7,700,000% growth in 61 years, and he did it without ever inventing a single product. Just bought the right companies and held them.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "WARREN BUFFETT RAN ONE COMPANY <em>61 YEARS STRAIGHT. IT'S NOW WORTH $1.09 TRILLION.</em>",
+   "WARREN BUFFETT JUST RETIRED AFTER <em>61 YEARS RUNNING A $1.09 TRILLION COMPANY</em>",
+   "<em>WARREN BUFFETT JUST STEPPED DOWN</em> AFTER 61 YEARS, LEAVING $1.09 TRILLION BEHIND",
+   "WARREN BUFFETT RAN ONE COMPANY FOR <em>61 YEARS</em> AND LEFT IT WORTH <em>$1.09 TRILLION</em>",
+   "<em>WARREN BUFFETT JUST WALKED AWAY</em> FROM $1.09 TRILLION AFTER 61 STRAIGHT YEARS",
+   "WARREN BUFFETT JUST RETIRED AND LEFT SOMEONE A <em>$1.09 TRILLION</em> COMPANY HE BUILT ALONE",
+   "WARREN BUFFETT JUST RETIRED AFTER TURNING <em>A DYING T-SHIRT FACTORY INTO $1.09 TRILLION</em>",
+   "WARREN BUFFETT RETIRED. <em>HE BUILT $1.09 TRILLION FROM A DYING FABRIC MILL IN 61 YEARS.</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   8,
+   6,
+   8,
+   0,
+   9,
+   7
+  ],
+  "winner": 6,
+  "why": "[6] delivers the complete transformation story in one line\u2014dying factory to trillion-dollar company\u2014making the remarkable achievement immediately clear and unmissable. [2] is emotionally compelling but cryptic; you'd need the caption to understand what he actually built, not just that he left."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "WARREN BUFFETT JUST RETIRED AFTER GROWING <em>A DYING FACTORY 7,700,000% IN 61 YEARS</em>",
+   "WARREN BUFFETT STARTED WITH A DYING SHIRT FACTORY AND LEFT <em>$1.09 TRILLION</em>",
+   "WARREN BUFFETT JUST RETIRED AFTER <em>61 YEARS TURNING ONE COMPANY INTO $1.09 TRILLION</em>",
+   "WARREN BUFFETT JUST RETIRED AFTER TURNING <em>A DYING T-SHIRT FACTORY INTO $1.09 TRILLION</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   7,
+   9
+  ],
+  "winner": 3,
+  "why": "[3] tells the complete transformation story (dying factory to $1.09 trillion) with urgent newness, making you instantly awed, while [0]'s shocking percentage is abstract and requires mental parsing. People stop scrolling for satisfying narratives they already believe over confusing numbers they need to contextualize."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Warren Buffett",
+  "actor_known": true,
+  "anchor": "Warren Buffett",
+  "specifics": [
+   "Started with a struggling textile company in 1965 \u2014 basically a dying T-shirt factory",
+   "61 years running the same company",
+   "Now worth $1.09 trillion",
+   "7,700,000% total growth",
+   "Stepped down September 18, 2026"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (0/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Today, Warren Buffett officially stepped down as Chairman of Berkshire Hathaway. He took control of $BRK in 1965, when it was a struggling textile company. 61 years later, Berkshire is worth $1.09 trillion, surging over ",
+  "link": "https://x.com/WatcherGuru/status/2101058016665837792",
+  "judge_interest": 5,
+  "scout_score": 52.9
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IS A SCREENSHOT \u2014 IMAGE LAW is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' The cover is literally a @WatcherGuru data-chart tweet. Fix: replace with a photoreal composite \u2014 a full Buffett press photo, oversized Berkshire shield/logo disc, and '$1.09T' large in frame, subject composited into the top two-thirds. That is the correct archetype for a famous-person retiremen",
+ "gate_r": "s1: The background is a raw screenshot of a stock-chart web UI (ticker, market cap, chart axes all visible), which is a full-bleed screenshot and an instant SCREENSHOT LAW fail."
+}
