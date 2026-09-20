@@ -1,110 +1,5 @@
 [
  {
-  "t": "2026-09-15T19:59:28Z",
-  "gate": "B",
-  "subject": "OPENAI HIRED <em>AN ARMY OF CONTRACTORS</em> TO READ YOUR ACTUAL CHATGPT CONVERSATIONS",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-15T19:59:57Z",
-  "gate": "R",
-  "subject": "OPENAI HIRED <em>AN ARMY OF CONTRACTORS</em> TO READ YOUR ACTUAL CHATGPT CONVERSATIONS",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-15T20:56:48Z",
-  "gate": "A",
-  "subject": "Jews are not nervous about AI safety, they are nervous about losing AI control. Thus they need the Jewish controlled gov",
-  "verdict": "KILL",
-  "reason": "Antisemitic conspiracy theory with no factual basis; violates TRUTH LAW (every fact must be true and sanity-checked) and STORY LAW's NO SUBSTANCE rule (no real event, no actor anyone knows, no consequence in the real world — only hateful falsehoods presented as commentary)."
- },
- {
-  "gate": "A",
-  "reason": "No substance—the entire source is one thin speculation with no facts, numbers, or real-world consequence to build slides from; the writer would have to pad.",
-  "subject": "i wonder if the first episode will ever dethrone the silly team rocket meme i did 4 years ago",
-  "t": "2026-09-15T20:11:49Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait: the event is Trump's controversial comment and its engagement metrics, not a real-world consequence—no policy changed, no business moved, no one was fired or banned.",
-  "subject": "JUST IN: 🇺🇸 President Trump says Anthropic CEO Dario Amodei is \"pretending to be a perfect little angel\" for wanting to ",
-  "t": "2026-09-15T20:11:50Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Unverified breaking news claim with single source, zero supporting detail (no statement link, official quote, timeline, or consequence), and ambiguous phrasing; cannot meet TRUTH LAW's requirement for verified facts without speculating.",
-  "subject": "BREAKING: NVIDIA, Palantir, Booz Allen Hamilton and the Pentagon have said will limit their use of Anthropic models.",
-  "t": "2026-09-15T20:12:10Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Scout interest too low (5/10), source too thin for a full carousel, and the underlying state (he lives in a trailer) is lifestyle trivia, not an event where reality moved; person-intrigue requires arc or a stronger contradiction to overcome minimal substance.",
-  "subject": "The world’s richest man is living in an Airstream trailer in Memphis. “This is Elon, by the way, doing what people don’t",
-  "t": "2026-09-15T20:12:43Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Speculative proposal without consequence or uptake—Musk 'proposed' a system 'could begin' immediately, but nothing happened, no one committed, and no concrete outcome exists; the writer has no real facts to build slides from and would have to pad with tangential context (summit details, peer-review theory) rather than story spine; fails the mandate 'something HAPPENED in the real world, with a consequence someone felt.'",
-  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
-  "t": "2026-09-15T20:13:32Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "JD Vance expressing an opinion that AI companies' regulation requests seem suspicious is a claim, not a news event where reality moved—no action occurred, no company responded, no policy consequence or real-world impact described.",
-  "subject": "🇺🇸 JD Vance says he finds it strange that frontier AI companies keep coming to Washington and asking to be regulated. “𝘐",
-  "t": "2026-09-15T20:14:05Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Trump's statement is a political opinion with no real-world consequence (policy unchanged, no ban or appointment made)—not a viral-specific event where something happened in the real world.",
-  "subject": "JUST IN: 🇺🇸 President Trump says Anthropic CEO Dario Amodei is \"pretending to be a perfect little angel\" for wanting to ",
-  "t": "2026-09-15T20:15:01Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Single anecdote from one person with no quantified consequence, no major move (lawsuit, hire, product, funding), and no second fact; trivial vibe illustrating character, not a news event this page requires from household-name stories.",
-  "subject": "The world’s richest man is living in an Airstream trailer in Memphis. “This is Elon, by the way, doing what people don’t",
-  "t": "2026-09-15T20:15:03Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Pentagon, NVIDIA, and Palantir restricting Anthropic is a plausible major-actor event, but the announcement is too vague to confidently assign (awkward grammar 'have said will limit' lacks specifics on what was actually announced or when), the 6/10 scout score signals weak source confidence, and the writer cannot verify substantive details from 116 characters of ambiguous wording.",
-  "subject": "BREAKING: NVIDIA, Palantir, Booz Allen Hamilton and the Pentagon have said will limit their use of Anthropic models.",
-  "t": "2026-09-15T20:16:12Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "This is political commentary on AI regulation strategy, not a tech news event—the page's standard requires stories where something actually happened with real consequences, not a politician's opinion on company behavior.",
-  "subject": "🇺🇸 JD Vance says he finds it strange that frontier AI companies keep coming to Washington and asking to be regulated. “𝘐",
-  "t": "2026-09-15T20:17:09Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "A policy proposal without real consequence or outcome fails the 'did reality move?' standard for news—it lacks substance to build slides from without padding.",
-  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
-  "t": "2026-09-15T20:17:29Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "Caption grammar error: 'Your job is racing against a technology with no one left to ask for a pause' — 'is racing against' doesn't work; fix to 'You're now racing against a technology with no one left to ask for a pause'; The consequence ('no one will push back on AI safety') is stated three times: once in the setup paragraph, once as 'So nobody will,' and again as 'When the president makes cautio",
-  "subject": "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
-  "t": "2026-09-15T20:46:08Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "B",
   "reason": "EMOJI IN CAPTION (§7, fixable): The 🤯 on the first line of the caption is an explicit ban under Human Voice Law — 'no emojis.' Remove it. The sentence reads fine without it: '...and now no one will dare ask for a pause again.'",
   "subject": "TRUMP JUST MOCKED THE MAN WHO QUIT OPENAI <em>BECAUSE HE THOUGHT AI WAS DANGEROUS</em>",
@@ -2098,5 +1993,110 @@
   "subject": "SHE GOT $2,100 AND BECAME <em>THE FIRST WOMAN TO WELD FOR AMERICA</em>",
   "verdict": "FAIL",
   "reason": "s1: The AI-generated image — a masked burglar figure with a cartoon sun head rifling through a bag of cash beside sleeping people — has zero connection to the story of a woman becoming the first female welder in America, creating a deeply wrong emotional register that would confuse and mislead viewers."
+ },
+ {
+  "t": "2026-09-20T19:55:48Z",
+  "gate": "A",
+  "subject": "I am losing respect for a lot of people lately, saying things like that: Terence Tao: \"We have to slow down AI. The pace",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the 'event' is @Dr_Singularity disagreeing with Terence Tao on X (1,622 likes) — pure online discourse with zero real-world consequence, no announcement, no lawsuit, no policy shift, no hiring, nothing that moved in the actual world."
+ },
+ {
+  "t": "2026-09-20T19:56:17Z",
+  "gate": "A",
+  "subject": "BREAKING: SpaceX has set a new reuse record! A Falcon 9 fairing half has flown for the 40th time, the first ever in Spac",
+  "verdict": "KILL",
+  "reason": "A SpaceX reuse milestone is real and on-brand, but incremental progress that doesn't meet the jaw-dropping 'wild-but-true' standard the owner prioritizes."
+ },
+ {
+  "t": "2026-09-20T19:57:25Z",
+  "gate": "A",
+  "subject": "Terence Tao: \"we have to slow down AI. the pace is insane, and there's no reason to be this fast\" I disagree. We have co",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: people reacting to Terence Tao's opinion on Twitter (1.1K likes) with no real-world consequence—nothing actually moved."
+ },
+ {
+  "t": "2026-09-20T19:58:01Z",
+  "gate": "A",
+  "subject": "I am losing respect for a lot of people lately, saying things like that: Terence Tao: \"We have to slow down AI. The pace",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with zero real-world consequence: the event is someone disagreeing with Terence Tao's opinion online; nothing happened in reality (no policy changed, no move made, no consequence felt), fails the story test."
+ },
+ {
+  "t": "2026-09-20T19:59:01Z",
+  "gate": "A",
+  "subject": "BREAKING: SpaceX has set a new reuse record! A Falcon 9 fairing half has flown for the 40th time, the first ever in Spac",
+  "verdict": "KILL",
+  "reason": "A SpaceX operational milestone (40x reuse) is routine optimization, not a famous-actor major move (model release, lawsuit, funding, hiring, outage, ban, acquisition); space-tech record insufficient to overcome middling scout interest (7/10) and weak viral signal (2,831 likes for SpaceX territory)."
+ },
+ {
+  "t": "2026-09-20T19:59:48Z",
+  "gate": "A",
+  "subject": "Terence Tao: \"we have to slow down AI. the pace is insane, and there's no reason to be this fast\" I disagree. We have co",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the event is an online opinion exchange (Tao's statement + disagreement) with no real-world consequence, policy change, or trigger where reality moved."
+ },
+ {
+  "t": "2026-09-20T20:21:29Z",
+  "gate": "B",
+  "subject": "SPACEX JUST FLEW THE SAME NOSE CONE <em>40 TIMES</em>, THE FIRST IN ROCKET HISTORY",
+  "verdict": "REJECT",
+  "reason": "EMOJI IN CAPTION: The 🚀 after 'It used to be ocean trash.' violates the explicit no-emojis rule (§4 Spoken Voice). Delete it.; HOOK/CAPTION SCOPE MISMATCH — TRUTH RISK: The hook claims 'THE FIRST IN ROCKET HISTORY' (a global first across all programs ever); the caption backs off to 'the first time any fairing has reached that number in SpaceX history' (a company record only). These must align. If "
+ },
+ {
+  "t": "2026-09-20T20:23:34Z",
+  "gate": "B",
+  "subject": "SPACEX JUST FLEW THE SAME NOSE CONE <em>40 TIMES</em>, THE FIRST IN ROCKET HISTORY",
+  "verdict": "REJECT",
+  "reason": "§7 GENERIC CLOSERS violation: the final story paragraph ('SpaceX keeps hitting reuse records that nobody thought were reachable. Every milestone like this means more missions become possible that couldn't afford to launch before, and the gap between space being a billionaire's game and something broadly accessible keeps closing.') is a soft inspirational close, not the sharpest specific fact. The "
+ },
+ {
+  "t": "2026-09-20T20:25:07Z",
+  "gate": "B",
+  "subject": "SPACEX JUST FLEW THE SAME NOSE CONE <em>40 TIMES</em>, THE FIRST IN ROCKET HISTORY",
+  "verdict": "REJECT",
+  "reason": "FRIEND TEST FAIL (§4): The caption switches from the plain, already-established 'nose cone' to the industry term 'fairing' in its two climactic factual lines — 'It's the first fairing in the history of spaceflight to fly 40 times' and 'the most-reused fairing SpaceX has ever built.' Nobody says 'fairing' to a friend at the table; they say 'nose cone.' These are the lines that need to land hardest,"
+ },
+ {
+  "t": "2026-09-20T20:25:33Z",
+  "gate": "A",
+  "subject": "Terence Tao: \"we have to slow down AI. the pace is insane, and there's no reason to be this fast\" I disagree. We have co",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: the event is a disagreement online between two opinions on AI pace, with no real-world consequence (no lawsuit, ban, product pull, or firing that reality moved)."
+ },
+ {
+  "t": "2026-09-20T20:25:36Z",
+  "gate": "A",
+  "subject": "I am losing respect for a lot of people lately, saying things like that: Terence Tao: \"We have to slow down AI. The pace",
+  "verdict": "KILL",
+  "reason": "This is reaction-bait: @Dr_Singularity disagreed with Terence Tao's argument on Twitter with no real-world consequence (no policy changed, no lawsuit, no product shift, no outcome anyone felt), and the entire substance is the online disagreement itself—exactly the failure mode that killed your two worst posts."
+ },
+ {
+  "t": "2026-09-20T20:49:48Z",
+  "gate": "B",
+  "subject": "TERENCE TAO SAID SLOW DOWN AI AND <em>GOT CALLED AN EGOTIST FOR IT</em>",
+  "verdict": "REJECT",
+  "reason": "§1 INSTANT KILL — REACTION-BAIT (also §0): The entire event is that an anonymous X account replied to Tao's post and that reply got 76,000 views. No money moved, nobody was fired, no product pulled, no ban, no lawsuit. The caption even cites '76,000 views within hours' as the proof of significance — engagement metrics as the substance of the story, the exact failure model the doctrine names. The h"
+ },
+ {
+  "t": "2026-09-20T20:54:13Z",
+  "gate": "B",
+  "subject": "TERENCE TAO SAID AI IS MOVING AT <em>AN INSANE PACE WITH NO REASON</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE — WRONG ARCHETYPE, NO FAMOUS FACE: The headline names Terence Tao as the actor. The cover must show Tao. §3 is explicit: 'FAMOUS FACES OR NO FACES — recognizable famous people (real photo or names-direct generation).' The cover shows an anonymous silhouette — a generated, unidentifiable figure that cannot be linked to Tao at feed size. The correct execution for a famous-person statement stor"
+ },
+ {
+  "t": "2026-09-20T20:56:16Z",
+  "gate": "B",
+  "subject": "TERENCE TAO SAID AI IS MOVING AT <em>AN INSANE PACE WITH NO REASON</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE: Wrong archetype — cover shows a generic silhouette stopping a train, which is a conceptual metaphor, not proof of the headline. The hook says 'TERENCE TAO SAID...' but nothing in the frame confirms this is Tao or references his specific claim. The thumb test fails completely: a stranger at feed size sees 'person vs. train' with no path to guessing this is about the world's greatest mathemat"
+ },
+ {
+  "t": "2026-09-20T20:56:24Z",
+  "gate": "R",
+  "subject": "TERENCE TAO SAID AI IS MOVING AT <em>AN INSANE PACE WITH NO REASON</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

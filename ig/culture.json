@@ -1,57 +1,69 @@
 {
- "ts": 1789848521.3223321,
- "updated": "2026-09-19",
+ "ts": 1789935465.5328405,
+ "updated": "2026-09-20",
  "hot": [
   {
-   "name": "Olivia Rodrigo",
-   "why_hot_now": "The Unraveled Tour — the #1 most in-demand tour in the world — kicks off September 25 in Hartford with all 86 dates sold out.",
-   "typical_scene": "belting on a sold-out arena stage in a torn black dress"
-  },
-  {
-   "name": "Ariana Grande",
-   "why_hot_now": "Her new single 'Petal' is TikTok's top trending sound this week, driving a wave of fan edits, fashion clips, and lip-syncs.",
-   "typical_scene": "high ponytail, slow-motion stroll through a sea of flower petals"
-  },
-  {
-   "name": "Jeremy Allen White",
-   "why_hot_now": "The Bear Season 4 is dominating streaming conversation and his Calvin Klein campaigns are plastered across every social feed.",
-   "typical_scene": "white chef's coat, jaw tight, staring down a chaotic kitchen pass"
+   "name": "Alix Earle",
+   "why_hot_now": "Her Netflix reality show 'Earle Meets World' just dropped and its season finale ignited a viral public feud with Alex Cooper.",
+   "typical_scene": "on camera with family, mid-story glam chaos unfolding"
   },
   {
    "name": "Charli XCX",
-   "why_hot_now": "Her Music, Fashion, Film Tour is hitting major US arenas this very week in September 2026.",
-   "typical_scene": "silver bodysuit under strobing lights, front row completely losing it"
+   "why_hot_now": "Her 'Music, Fashion, Film' North American arena tour launched September 11 in Philadelphia.",
+   "typical_scene": "silver bodysuit, arena strobes, crowd going absolutely feral"
   },
   {
-   "name": "Brad Pitt",
-   "why_hot_now": "His survival thriller Heart of the Beast — he plays a Special Forces vet stranded with his combat dog — just opened in theaters September 2026.",
-   "typical_scene": "bearded and mud-caked, crouching in dense jungle with a dog"
+   "name": "Bruno Mars",
+   "why_hot_now": "His Romantic Tour hit Hard Rock Stadium in Miami this week on September 19.",
+   "typical_scene": "bedazzled suit, stadium stage, doing the splits mid-song"
   },
   {
-   "name": "The Pitt",
-   "why_hot_now": "Won Outstanding Drama Series at the Emmys on September 14, with its lead taking home Lead Actor for the second consecutive year.",
-   "typical_scene": "overcrowded ER hallway, scrubs-clad doctors sprinting past gurneys"
+   "name": "Miley Cyrus",
+   "why_hot_now": "Received her Hollywood Walk of Fame star and dropped new album 'Bass Persuades' this month.",
+   "typical_scene": "kneeling at star ceremony, tongue out, fans swarming"
   },
   {
    "name": "Widow's Bay",
-   "why_hot_now": "The Apple TV+ comedy-horror swept this week's Emmys with a record 14 wins including Outstanding Comedy Series.",
-   "typical_scene": "deadpan women in a foggy gothic seaside town surrounded by supernatural chaos"
+   "why_hot_now": "Swept the September 14 Emmy Awards with 14 wins — the most ever for a comedy series.",
+   "typical_scene": "entire cast swarming the Emmy stage in total disbelief"
   },
   {
-   "name": "Practical Magic 2",
-   "why_hot_now": "The Sandra Bullock and Nicole Kidman sequel opened September 18, flooding timelines with millennial and younger nostalgia.",
-   "typical_scene": "two witches in a moonlit overgrown garden, casting spells side by side"
+   "name": "Jean Smart",
+   "why_hot_now": "Made Emmy history at the September 14 ceremony with a record-setting win.",
+   "typical_scene": "sharp, funny acceptance speech at the Emmy podium"
+  },
+  {
+   "name": "Ariana Grande",
+   "why_hot_now": "Her 'Hate That I Made You Love Me' is sitting at #1 on Billboard Pop Airplay this week.",
+   "typical_scene": "high ponytail, oversized crewneck, mic inches from her lips"
+  },
+  {
+   "name": "Olivia Rodrigo",
+   "why_hot_now": "Currently headlining one of the biggest North American fall arena tours of 2026.",
+   "typical_scene": "shredding guitar onstage in punk-edged two-piece costume"
+  },
+  {
+   "name": "Taylor Swift",
+   "why_hot_now": "Made a surprise appearance at the September 14 Emmy Awards, breaking the internet.",
+   "typical_scene": "emerging from backstage at Emmys to a crowd erupting"
+  },
+  {
+   "name": "GTA 6",
+   "why_hot_now": "Rockstar confirmed November 19 release date; pre-orders are open and countdown content is flooding every feed.",
+   "typical_scene": "Lucia and Jason in Vice City neon glow, controller in hand"
   }
  ],
  "memes": [
-  "Saxophone Gets Louder: someone narrates a situation spiraling out of control, then the music blasts to max volume while the video freeze-zooms into pure chaos",
-  "Superman Tornado Squirrel (aka Squirrel Waving Bye): Man of Steel tornado scene edited so a squirrel is calmly waving goodbye from inside the storm",
-  "'2026 is the new 2016': posting old 2015-16 photos completely straight-faced as if they are current, riding the full-on mid-2010s nostalgia wave",
-  "Down Goes the Whiskey blank-goes-the-blank: riffing on Luke Bryan's simple rhyme structure to narrate absurd personal situations and fails",
-  "Adéla 'Nicole Kidman' manifestation lip-sync: mouthing the lyrics while listing dream-life goals on camera as a half-joking prosperity ritual"
+  "\"Saxophone Gets Louder\" — video suddenly blasts music at full volume while dramatically zooming in, used to punctuate any chaotic or unhinged moment",
+  "Tornado Squirrel (Superman Squirrel) — squirrel edited into Man of Steel's tornado scene, waving goodbye mid-spin; major resurgence on X this month",
+  "GTA 6 countdown posts — clock-to-November-19 graphics, real-life 'Lucia cosplay' comparisons, and 'I waited 12 years for this' confession videos",
+  "\"Nicole Kidman\" outfit reveal — creators transition from loungewear to full glam while lip-syncing to Adéla's viral 'babygirl in control' anthem",
+  "Ancestor Photo Prank — sending vintage-filtered celebrity headshots (usually Kim K's bow-blouse editorial) to parents as fake 1800s ancestors",
+  "\"2026 is the new 2016\" — Gen Z nostalgia revival of mid-2010s aesthetics, fashion, and music blanketing TikTok and Instagram Reels",
+  "\"It's a Clock\" delayed-realization format — slow-burn videos where the creator demonstrates a situation they misunderstood, ending on an obvious reveal"
  ],
  "ai_flagships": [
-  "Claude Mythos 5.1",
+  "Claude Fable 5.1",
   "GPT-6 Astra",
   "Gemini 3.8 Flash",
   "Grok 4.6",

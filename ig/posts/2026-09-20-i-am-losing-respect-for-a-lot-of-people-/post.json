@@ -1,0 +1,55 @@
+{
+ "image_brief": "Terence Tao publicly warns AI is dangerously fast while anonymous account Dr Singularity calls it ego, with the X logo",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TERENCE TAO SAID AI IS MOVING AT <em>AN INSANE PACE WITH NO REASON</em>",
+   "kicker": "THE GREATEST MATHEMATICIAN ALIVE IS WORRIED",
+   "hsize": 72,
+   "media": "posts/2026-09-20-i-am-losing-respect-for-a-lot-of-people-/gen-0.jpg",
+   "image_prompt": "a lone silhouette from behind with arms spread wide stopping a speeding train covered in AI logos, with the X logo in a big circle"
+  }
+ ],
+ "caption": "Terence Tao said AI is moving dangerously fast. There is no reason for it, he said. Nobody understands where this ends.\n\nTerence Tao is widely considered the greatest living mathematician. Fields Medal winner. When he says something is dangerous, you would think people would listen.\n\nOn September 19, his words landed on X: AI is moving at an \"insane\" pace with \"no reason at all\" to be this fast. He had described it as \"extremely nonlinear dynamics,\" meaning nobody actually knows how this ends when you are rewriting civilization this quickly.\n\nThen @Dr_Singularity showed up. His argument: AI needs to move fast to cure cancer and save millions. His verdict on Tao: \"you clearly care more about your ego than the greater good for all humanity.\" The person who typed it literally named himself after the idea that AI will one day surpass all human intelligence. He accused the world's greatest mathematician of letting ego override reason.\n\nDr Singularity also said the world \"looks almost the same as it did in 2010.\" If you believe that, no expert warning will ever land. The people funding and building AI now have a script to dismiss anyone who says slow down. They just used it on the greatest living mathematician. That speed is shaping your job and your money right now.\n\nWhen the response to \"we don't understand the risks\" becomes \"you just want people to die of cancer,\" the argument is over. That is not a social media fight. That is the environment your decisions are being made in.\n\nRunning a business? DM us \"AI\" and we will show you what this means for yours.\n\nSources: Dr_Singularity on X, haider1 on X\n\n#AI #ArtificialIntelligence #TechNews #AIRisk #TerenceTao",
+ "pinned_comment": "The person who named themselves after AI transcending humanity called the world's greatest mathematician an egotist. That is now the argument for moving faster.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "TERENCE TAO SAID <em>\"THE PACE IS INSANE.\"</em> AN ANONYMOUS USER CALLED HIM SELFISH",
+   "<em>TERENCE TAO WARNED AI NEEDS TO SLOW DOWN.</em> AN ANONYMOUS PROPHET CALLED HIM SELFISH.",
+   "TERENCE TAO SAID AI IS TOO FAST. <em>THE REBUTTAL: \"WHAT ABOUT YOUR GRANDMA'S CANCER?\"</em>",
+   "TERENCE TAO SAID THE PACE IS INSANE. <em>AN ANONYMOUS USER REPLIED: \"WE'RE EXTREMELY EARLY\"</em>"
+  ],
+  "scores": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "winner": 0,
+  "why": "All four violate the truth kill rule. Candidate 0 is least bad\u2014just changing one word (egotist\u2192selfish) versus inventing entire quotes like the others."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Dr Singularity",
+  "actor_known": false,
+  "anchor": "Terence Tao",
+  "specifics": [
+   "Anonymous X user 'Dr Singularity' called Fields Medal winner Terence Tao an egotist for urging AI caution",
+   "Tao's exact words: 'the pace is insane, and there's no reason to be this fast \u2014 no reason at all'",
+   "Tao called AI development 'extremely nonlinear dynamics' with unknown consequences",
+   "Dr Singularity's rebuttal: 'The world looks almost the same as it did in 2010' \u2014 we're barely moving",
+   "Post hit 76.3K views within hours of going up on Sep 19, 2026"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "I am losing respect for a lot of people lately, saying things like that: Terence Tao: \"We have to slow down AI. The pace is insane, and there's no reason to be this fast \u2014 no reason at all\" who clearly care more about th",
+  "link": "https://x.com/Dr_Singularity/status/2101418402443391230",
+  "judge_interest": 4,
+  "scout_score": 40.7
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE: Wrong archetype \u2014 cover shows a generic silhouette stopping a train, which is a conceptual metaphor, not proof of the headline. The hook says 'TERENCE TAO SAID...' but nothing in the frame confirms this is Tao or references his specific claim. The thumb test fails completely: a stranger at feed size sees 'person vs. train' with no path to guessing this is about the world's greatest mathemat"
+}
