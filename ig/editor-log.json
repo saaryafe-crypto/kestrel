@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-15T17:59:03Z",
-  "gate": "A",
-  "subject": "Jews are not nervous about AI safety, they are nervous about losing AI control. Thus they need the Jewish controlled gov",
-  "verdict": "KILL",
-  "reason": "Antisemitic conspiracy theory with no factual basis, no real event, and no real-world consequence — fails TRUTH LAW and THE STANDARD's requirement for wild-but-true stories."
- },
- {
-  "gate": "B",
-  "reason": "HOOK-TO-CONTENT COVER CONTRACT VIOLATION (§4): The hook 'CONTRACTORS CHARGE THOUSANDS. CHATGPT AUDITS THE SAME WORK FREE.' frames ChatGPT as the solution that replaces expensive contractors. The caption immediately opens with the opposite frame: 'OpenAI just hired contractors to read real user chats' — meaning the contractors ARE the threat inside ChatGPT, not the thing ChatGPT replaces. A reader ",
-  "subject": "CONTRACTORS CHARGE THOUSANDS. <em>CHATGPT AUDITS THE SAME WORK FREE.</em>",
-  "t": "2026-09-15T17:51:35Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Caption opening 'Here is the fix. 🔐' contains an emoji — §4 SPOKEN VOICE bans emojis outright. Fix: delete the 🔐 character. The sentence stands fine without it.",
-  "subject": "OPENAI HIRED CONTRACTORS TO READ YOUR FREE CHATGPT CHATS. <em>THE 3-TIER FIX.</em>",
-  "t": "2026-09-15T17:53:33Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "OPENAI HIRED CONTRACTORS TO READ YOUR FREE CHATGPT CHATS. <em>THE 3-TIER FIX.</em>",
-  "t": "2026-09-15T17:53:42Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-09-15T19:35:12Z",
-  "gate": "A",
-  "subject": "BREAKING: NVIDIA, Palantir, Booz Allen Hamilton and the Pentagon have said will limit their use of Anthropic models.",
-  "verdict": "KILL",
-  "reason": "The source is too vague and thin to build slides—'have said will limit' is unconfirmed reporting, not announced policy; without knowing what triggered this, what 'limit' means, when, or consequences, the writer would have to pad significantly (the doctrine kill trigger), and we cannot validate the event is real."
- },
- {
   "t": "2026-09-15T19:35:43Z",
   "gate": "A",
   "subject": "JUST IN: 🇺🇸 President Trump says Anthropic CEO Dario Amodei is \"pretending to be a perfect little angel\" for wanting to ",
@@ -2098,5 +2063,40 @@
   "subject": "WARREN BUFFETT JUST RETIRED AFTER TURNING <em>A DYING T-SHIRT FACTORY INTO $1.09 TRILLION</em>",
   "verdict": "FAIL",
   "reason": "s1: The background is a raw screenshot of a stock-chart web UI (ticker, market cap, chart axes all visible), which is a full-bleed screenshot and an instant SCREENSHOT LAW fail."
+ },
+ {
+  "t": "2026-09-20T06:10:24Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Caption says 'Anthropologic' — the company is 'Anthropic'. Wrong proper noun, Truth Law §5. Fix: find-replace the one word.; 'per million input tokens' fails Friend Test §4 — 'input tokens' is the API spec sheet's noun, not plain speech. Fix: rewrite as '$3 for every million words you send it — about 5x cheaper than today's best AI models.'"
+ },
+ {
+  "t": "2026-09-20T06:12:46Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "Cover headline 'WHAT JUST HAPPENED IN AI TODAY?' is 7 words — under the explicit 12-word minimum — and withholds every specific. Hook law applies to the cover (container note) and requires actor + action + wild specifics, nothing withheld. Fix: lead the headline with the two wildest stories of today, e.g. 'TRUMP LAUNCHED AN \"AI FORCE\" AND RESEARCHERS FOUND A PAIN SIGNAL INSIDE AI BRAINS — PLUS 4 M"
+ },
+ {
+  "t": "2026-09-20T06:14:57Z",
+  "gate": "B",
+  "subject": "TRUMP LAUNCHED AN \"AI FORCE\" AND RESEARCHERS FOUND A <em>PAIN SIGNAL INSIDE AI BRAINS</em>, PLUS 4 MORE THINGS THAT HAPP",
+  "verdict": "REJECT",
+  "reason": "IMAGE-HOOK MISMATCH (§3 — cover is headline's proof): The hook's two named stories are 'Trump launched an AI Force' and 'researchers found a pain signal inside AI brains.' The cover shows Jensen Huang holding a GPU. Jensen is caption item #2, not one of the two hook-featured stories. A stranger seeing this cover at feed size guesses it is a Jensen Huang / Nvidia story, not a Trump-AI-Force + AI-co"
+ },
+ {
+  "t": "2026-09-20T06:17:22Z",
+  "gate": "B",
+  "subject": "TRUMP LAUNCHED AN \"AI FORCE\" AND RESEARCHERS FOUND A <em>PAIN SIGNAL INSIDE AI BRAINS</em>, PLUS 4 MORE THINGS THAT HAPP",
+  "verdict": "REJECT",
+  "reason": "Generic closer violates §7: 'the field moved hard today in every direction at once' is a vibe, not a fact. Delete the entire wrap sentence ('From a government AI branch...at once'). The Gemini 4 Pro line — '$3 for every million words you send it, about 5x cheaper than today's best AI models' — is the sharpest number of the day and should be the last story beat before the CTA.; Friend test fail on "
+ },
+ {
+  "t": "2026-09-20T06:17:29Z",
+  "gate": "R",
+  "subject": "TRUMP LAUNCHED AN \"AI FORCE\" AND RESEARCHERS FOUND A <em>PAIN SIGNAL INSIDE AI BRAINS</em>, PLUS 4 MORE THINGS THAT HAPP",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

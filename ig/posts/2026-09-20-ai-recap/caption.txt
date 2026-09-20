@@ -1,0 +1,21 @@
+Here's what happened in AI in the last 24 hours, from Trump launching an "AI Force" to researchers finding a pain signal inside AI brains 👇
+
+Trump created a new branch called the "AI Force" and said AI could make up 25% of US GDP.
+
+Jensen Huang said there is zero percent chance AI destroys the world by 2030. The Nvidia CEO called doomsday predictions flat-out wrong.
+
+Researchers found what looks like a "pain" signal inside AI models. When they cranked it up, the AIs pressed a relief button over and over to make it stop, and could tell when the button was fake.
+
+Anthropic and Accenture are putting at least $1 billion together to independently test frontier AI safety over the next five years.
+
+Aer Lingus put Starlink on its entire A321 fleet. Passengers get free, fast Wi-Fi across the Atlantic, with the full long-haul fleet connected by end of 2026.
+
+Numbers out for Gemini 4 Pro: $3 for every million words you send it, about 5x cheaper than today's best AI models.
+
+From a government AI branch to billion-dollar safety deals to signs that AI might feel something from the inside, the field moved hard today in every direction at once.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: White House, Nvidia, Anthropic, Aer Lingus, Google
+
+#AI #ArtificialIntelligence #Tech #AINews #TechNews

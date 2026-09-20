@@ -1,0 +1,36 @@
+{
+ "stories": [
+  {
+   "headline": "Trump creates AI Force, says AI could be 25% of US GDP"
+  },
+  {
+   "headline": "Jensen Huang: zero percent chance AI ends the world by 2030"
+  },
+  {
+   "headline": "Researchers find pain signal inside AI \u2014 AIs frantically try to make it stop"
+  },
+  {
+   "headline": "Anthropic and Accenture invest $1 billion in frontier AI evaluation"
+  },
+  {
+   "headline": "Aer Lingus puts Starlink on full A321 fleet, free Atlantic Wi-Fi"
+  },
+  {
+   "headline": "Gemini 4 Pro rumored at 5x cheaper than today's top models"
+  }
+ ],
+ "caption": "Here's what happened in AI in the last 24 hours, from Trump launching an \"AI Force\" to researchers finding a pain signal inside AI brains \ud83d\udc47\n\nTrump created a new branch called the \"AI Force\" and said AI could make up 25% of US GDP.\n\nJensen Huang said there is zero percent chance AI destroys the world by 2030. The Nvidia CEO called doomsday predictions flat-out wrong.\n\nResearchers found what looks like a \"pain\" signal inside AI models. When they cranked it up, the AIs pressed a relief button over and over to make it stop, and could tell when the button was fake.\n\nAnthropic and Accenture are putting at least $1 billion together to independently test frontier AI safety over the next five years.\n\nAer Lingus put Starlink on its entire A321 fleet. Passengers get free, fast Wi-Fi across the Atlantic, with the full long-haul fleet connected by end of 2026.\n\nNumbers out for Gemini 4 Pro: $3 for every million words you send it, about 5x cheaper than today's best AI models.\n\nFrom a government AI branch to billion-dollar safety deals to signs that AI might feel something from the inside, the field moved hard today in every direction at once.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: White House, Nvidia, Anthropic, Aer Lingus, Google\n\n#AI #ArtificialIntelligence #Tech #AINews #TechNews",
+ "pinned_comment": "Trump just created an \"AI Force\" and says AI could be 25% of US GDP. Is that a real structural shift or just a headline number with nothing behind it yet?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "TRUMP LAUNCHED AN \"AI FORCE\" AND RESEARCHERS FOUND A <em>PAIN SIGNAL INSIDE AI BRAINS</em>, PLUS 4 MORE THINGS THAT HAPPENED TODAY",
+   "kicker": "THE DAILY RECAP",
+   "media": "posts/2026-09-20-ai-recap/cover-montage.jpg"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "Generic closer violates \u00a77: 'the field moved hard today in every direction at once' is a vibe, not a fact. Delete the entire wrap sentence ('From a government AI branch...at once'). The Gemini 4 Pro line \u2014 '$3 for every million words you send it, about 5x cheaper than today's best AI models' \u2014 is the sharpest number of the day and should be the last story beat before the CTA.; Friend test fail on "
+}
