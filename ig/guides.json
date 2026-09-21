@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T07:04:58.016106+00:00",
+ "updated": "2026-09-21T17:48:05.174933+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -679,26 +679,6 @@
    ]
   },
   {
-   "id": "2091130779636285890",
-   "title": "the single greatest project you should do if you are trying to become better at ai systems is to take an open weights model and build the entire production system around it. do this by yourself and watching tutorials onl",
-   "sub": "karancl",
-   "where": "@karancl on X",
-   "unit": "likes",
-   "selftext": "the single greatest project you should do if you are trying to become better at ai systems is to take an open weights model and build the entire production system around it. do this by yourself and watching tutorials only when needed. 1. take a pretrained model and understand its inference path. this will help you learn what computational work happens for every token that is generated. 2. build an inference server. put your model behind something like vllm/sglang. then expose it through and api, handle multiple users 3. understand why inference is fast or slow. learn about batching, kv cache, quantization, gpu memory, scheduling, and the tradeoff between speed, cost, and quality. 4. build the backend around the model. add users, login, chat history, databases, caching, request limits, error handling, and basic security. 5. build a simple chat product around it. create a frontend where users can start conversations, send messages, receive streamed responses, and manage their chat history. 6. give the model access to outside knowledge. build a simple rag system that can load documents, retrieve relevant information, and give that information to the model before it answers. 7. give the model the ability to take actions. add tool calling so it can use apis, search, databases, or other functions. then build a simple agent loop around these tools. 8. build evaluation and monitoring. measure answer quality, retrieval quality, latency, errors, token usage, gpu usage, and cost. make sure you can tell when a change makes the system better or worse. 9. make the system reliable and safe. learn about authentication, rate limits, retries, timeouts, failures, data isolation, prompt injection, and safe tool use. 10. deploy the whole system. run it on a cloud gpu, containerize it, and learn how the different parts communicate with each other in production. 11. test it under real load. send many requests at the same time, find the bottlenecks, and learn how to improve throughput, latency, gpu usage, and cost. 12. scale it. move from one model server to multiple servers and eventually learn multi-gpu and distributed inference. 13. automate the whole lifecycle. add testing, model versions, evaluation before deployment, automatic deployment, monitoring, and rollback. 14. keep improving the system. whenever you find a bottleneck, don't immediately watch a tutorial. first understand the problem, form a hypothesis, test it, and only then look for outside help if you are stuck. this isn't meant to be built in two weeks and will take you months to build depending on your understanding of software engineering. but this has by far been my steepest learning curve in a project coming from a core ml background.",
-   "permalink": "https://x.com/karancl/status/2091130779636285890",
-   "outlink": null,
-   "score": 2281,
-   "comments_n": 42,
-   "views": 95591,
-   "age_h": 69.2,
-   "vph": 33.0,
-   "image": null,
-   "video": null,
-   "guide": true,
-   "wide_guide": true,
-   "born": 1787399487.474675
-  },
-  {
    "id": "2095890206130094462",
    "title": "How to be loved like this \ud83e\udd7a\u2639\ufe0f GEMINI START THE ADVENTURE #GeminiConcertD1 #GeminiFourth #\u0e40\u0e08\u0e21\u0e35\u0e44\u0e19\u0e19\u0e4c\u0e42\u0e1f\u0e23\u0e4c\u0e17 #Gemini_NT #Fourthnattawat",
    "sub": "justalesky",
@@ -820,26 +800,6 @@
    "guide": true,
    "wide_guide": true,
    "born": 1787650551.482273
-  },
-  {
-   "id": "2091213696748208545",
-   "title": "this guy tells grok how to drive his Tesla",
-   "sub": "AdrianDparody",
-   "where": "@AdrianDparody on X",
-   "unit": "likes",
-   "selftext": "this guy tells grok how to drive his Tesla",
-   "permalink": "https://x.com/AdrianDparody/status/2091213696748208545",
-   "outlink": null,
-   "score": 2083,
-   "comments_n": 73,
-   "views": 127301,
-   "age_h": 118.6,
-   "vph": 17.6,
-   "image": null,
-   "video": "https://video.twimg.com/amplify_video/2091213651353206784/vid/avc1/720x1280/EqUeqbyWAU248KpV.mp4?tag=29",
-   "guide": true,
-   "wide_guide": true,
-   "born": 1787419287.474675
   },
   {
    "id": "2097071438742040642",
