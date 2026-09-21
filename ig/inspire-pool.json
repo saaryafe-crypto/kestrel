@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T17:48:05.174933+00:00",
+ "updated": "2026-09-21T20:17:52.789398+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -235,8 +235,8 @@
    "score": 20511,
    "comments_n": 123,
    "views": 458512,
-   "age_h": 22.8,
-   "vph": 900.3,
+   "age_h": 25.5,
+   "vph": 804.4,
    "image": "https://pbs.twimg.com/media/HSqg-AHWoAAaefZ.png",
    "images": [
     "https://pbs.twimg.com/media/HSqg-AHWoAAaefZ.png",
@@ -445,25 +445,6 @@
    "video": null,
    "guide": false,
    "born": 1789467583.363382
-  },
-  {
-   "id": "2091236768142250035",
-   "title": "Honda chief engineer Shotaro Odate is a leading vehicle safety innovator, credited with more than 250 patents At 85, he reportedly still bench presses 170 kg and his striking, anime inspired hairstyle has become almost a",
-   "sub": "PicturesFoIder",
-   "where": "@PicturesFoIder on X",
-   "unit": "likes",
-   "selftext": "Honda chief engineer Shotaro Odate is a leading vehicle safety innovator, credited with more than 250 patents At 85, he reportedly still bench presses 170 kg and his striking, anime inspired hairstyle has become almost as famous as his engineering work",
-   "permalink": "https://x.com/PicturesFoIder/status/2091236768142250035",
-   "outlink": null,
-   "score": 13274,
-   "comments_n": 226,
-   "views": 1545469,
-   "age_h": 24.8,
-   "vph": 535.2,
-   "image": "https://pbs.twimg.com/media/HQWQm4QaoAAWurK.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1787424728.833285
   },
   {
    "id": "2096277198240199049",
@@ -817,6 +798,28 @@
    "video": null,
    "guide": false,
    "born": 1789563086.629253
+  },
+  {
+   "id": "2101865770523214250",
+   "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elon Musk says there are \"hundreds, maybe thousands, of fraud rings of almost every nationality stealing money from US taxpayers.\"",
+   "sub": "WatcherGuru",
+   "where": "@WatcherGuru on X",
+   "unit": "likes",
+   "selftext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elon Musk says there are \"hundreds, maybe thousands, of fraud rings of almost every nationality stealing money from US taxpayers.\"",
+   "permalink": "https://x.com/WatcherGuru/status/2101865770523214250",
+   "outlink": null,
+   "score": 5708,
+   "comments_n": 484,
+   "views": 369568,
+   "age_h": 17.5,
+   "vph": 326.2,
+   "image": "https://pbs.twimg.com/media/HStTx1pXQAASkpu.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HStTx1pXQAASkpu.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1789958872.789398
   }
  ]
 }
