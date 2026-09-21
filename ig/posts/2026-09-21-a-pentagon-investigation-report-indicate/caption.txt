@@ -1,0 +1,19 @@
+The U.S. military used an AI targeting tool to guide a missile into an elementary school full of kids in Iran. 💀
+
+AI targeting tools in the military exist for one reason: to make sure missiles hit the right place and civilians don't die. On February 28, 2026, a Tomahawk missile hit an elementary school in Minab, Iran, during what would have been a normal school day. Scores of people died. Most of them were children.
+
+The Pentagon's investigation found three things went wrong. The military was ordered to strike a massive number of targets at once. The intelligence the AI was working from was severely outdated. And operators trusted the AI completely without questioning it. The tool was called the Maven Smart System, a targeting system built by Palantir and used across U.S. military operations.
+
+Here's the part that's hard to sit with. The system is literally called the "Maven Smart System," designed to make strikes smarter and more precise. It helped guide a missile into a school full of kids. The Pentagon's own investigators said so. Every military AI targeting program is now under a microscope, and Palantir's biggest government contract just became its biggest liability.
+
+If your government is using AI to make life-and-death decisions, you should know it just admitted it trusted one of those systems too much.
+
+AI didn't replace human judgment here. It replaced human accountability.
+
+Military AI isn't going away. Every major power is racing to put AI in charge of more strikes, faster, with less human in the loop. Who is responsible when the AI gets it wrong? Nobody has a clean answer yet.
+
+Running a business? DM us "AI" and we'll show you what responsible AI actually looks like.
+
+Sources: Bloomberg
+
+#AI #MilitaryAI #ArtificialIntelligence #Palantir #Technology

@@ -1,103 +1,5 @@
 [
  {
-  "t": "2026-09-16T00:04:40Z",
-  "gate": "B",
-  "subject": "NVIDIA JUST CUT CLAUDE AND <em>GAVE ZERO REASON</em>",
-  "verdict": "REJECT",
-  "reason": "HOOK WORD COUNT + MISSING WILD SPECIFIC: 'NVIDIA JUST CUT CLAUDE AND GAVE ZERO REASON' is 8 words — below the 12-word minimum floor. Worse, the single most jaw-dropping fact in the entire post (NVIDIA makes the very chips that run every Claude model) is buried in caption paragraph 3 instead of the hook. The hook must tell the WHOLE story with the wild specific. Fix: build it around that irony — so"
- },
- {
-  "t": "2026-09-16T00:08:28Z",
-  "gate": "B",
-  "subject": "NVIDIA MAKES EVERY CHIP THAT RUNS CLAUDE AND <em>JUST STEPPED BACK WITH ZERO EXPLANATION</em>",
-  "verdict": "REJECT",
-  "reason": "Caption repeats the core irony twice. Para 1 already delivers the NVIDIA chip contradiction: 'NVIDIA is the company whose chips run every Anthropic model in existence.' Para 3 then re-explains the same fact from scratch — 'Here is the part that makes no sense on the surface. NVIDIA makes the chips that power every Claude model Anthropic builds. Every time Claude answers a question, it runs on NVID"
- },
- {
-  "t": "2026-09-16T00:09:10Z",
-  "gate": "A",
-  "subject": "BREAKING: The 10Y Note Yield rises to 5.04%, its highest level since July 2007. This pushes the average interest rate on",
-  "verdict": "KILL",
-  "reason": "Market data (yield rises) is explicitly banned as 'stocks-rose-today' content; lacks a specific event, actor, or person, and falls off-brand for an AI/tech page."
- },
- {
-  "t": "2026-09-16T00:09:16Z",
-  "gate": "A",
-  "subject": "Hi. 😊 Swedish dude here again. When we have kids. we get 480 paid parental leave days. Per child. 390 days at ~80% of pa",
-  "verdict": "KILL",
-  "reason": "Off-topic social policy with zero AI/tech connection; describes existing Swedish policy rather than a real-world event, and low scout interest (4/10) provides no exceptional reason to override."
- },
- {
-  "t": "2026-09-16T00:09:17Z",
-  "gate": "A",
-  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
-  "verdict": "KILL",
-  "reason": "A proposal is commentary, not a news event — 'reality moved' requires adoption, implementation, or concrete consequence, none shown here; the 241-char source material offers no story spine beyond explaining the proposal itself, which becomes listicle-format padding rather than the narrative arc the doctrine requires."
- },
- {
-  "t": "2026-09-16T00:09:29Z",
-  "gate": "A",
-  "subject": "The solar power exponential will continue until all other energy sources are &lt;&lt;0.1%",
-  "verdict": "KILL",
-  "reason": "This is a forward-looking prediction, not a specific event that happened—violates story law regardless of who tweeted it."
- },
- {
-  "t": "2026-09-16T00:10:11Z",
-  "gate": "A",
-  "subject": "🇺🇸 JD Vance says he finds it strange that frontier AI companies keep coming to Washington and asking to be regulated. “𝘐",
-  "verdict": "KILL",
-  "reason": "JD Vance gave a political opinion about AI lobbying strategy—no event happened, no consequence moved, no substance to build slides from; this is reaction-bait disguised as commentary, the exact failure model that buried the Queen Elizabeth and Mario Lopez posts, and the 4/10 scout score has no exceptional story underneath it."
- },
- {
-  "t": "2026-09-16T00:29:53Z",
-  "gate": "B",
-  "subject": "ELON MUSK JUST PROPOSED COMPETITORS INSPECT <em>EACH OTHER'S UNRELEASED MODELS</em>, AND HE'S A COMPETITOR.",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — generated unknown faces: four people sit around the table with fully visible faces. The doctrine is explicit: 'FAMOUS FACES OR NO FACES — never a generated unknown face.' These are not recognizable real people and their faces are clearly AI-generated. Fix: regenerate without peripheral people, or replace them with backs-of-heads / silhouettes so no unknown face is shown.; IMAGE LAW — C"
- },
- {
-  "t": "2026-09-16T00:32:28Z",
-  "gate": "B",
-  "subject": "ELON MUSK JUST PROPOSED COMPETITORS INSPECT <em>EACH OTHER'S UNRELEASED AI</em>, AND HE'S A COMPETITOR.",
-  "verdict": "REJECT",
-  "reason": "EMOJI IN CAPTION (§4 / §7): The 🔍 after the opening line violates the hard 'no emojis' rule. Remove it.; IMAGE — NON-PHOTOREAL ELEMENT (§3): The glowing holographic padlock-and-arrows blockchain graphic sitting on the meeting table reads as CGI concept art / game render, not a photographed element. The doctrine requires every element in the frame to read as photographed. The logos floating in the "
- },
- {
-  "t": "2026-09-16T00:34:29Z",
-  "gate": "B",
-  "subject": "ELON MUSK JUST PROPOSED COMPETITORS INSPECT <em>EACH OTHER'S UNRELEASED AI</em>, AND HE'S A COMPETITOR.",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW §3 — ILLUSTRATION ELEMENT: The glowing CGI lock-chain / blockchain graphic hovering over the conference table is rendered concept-art, not a photographed object. §3 is explicit: 'any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT, whatever its concept.' Rebuild the cover as a true photoreal composite: Musk at a "
- },
- {
-  "t": "2026-09-16T00:35:01Z",
-  "gate": "A",
-  "subject": "BREAKING: The 10Y Note Yield rises to 5.04%, its highest level since July 2007. This pushes the average interest rate on",
-  "verdict": "KILL",
-  "reason": "Market metrics are banned; this is financial news, not the AI/tech news this page is built to cover, and the 4/10 scout score with no person in the story gives no reason to override the explicit rule against market wraps."
- },
- {
-  "t": "2026-09-16T00:35:03Z",
-  "gate": "A",
-  "subject": "Hi. 😊 Swedish dude here again. When we have kids. we get 480 paid parental leave days. Per child. 390 days at ~80% of pa",
-  "verdict": "KILL",
-  "reason": "No event occurred—this describes an existing Swedish policy without news value, lacks the required lens (tech/AI/money/space), and violates the viral-specific-event requirement under §1; the 4/10 scout score confirms it."
- },
- {
-  "t": "2026-09-16T00:35:27Z",
-  "gate": "A",
-  "subject": "The solar power exponential will continue until all other energy sources are &lt;&lt;0.1%",
-  "verdict": "KILL",
-  "reason": "One thin prediction—no facts, numbers, events, or consequences; NO SUBSTANCE, requires padding."
- },
- {
-  "t": "2026-09-16T00:36:29Z",
-  "gate": "A",
-  "subject": "🇺🇸 JD Vance says he finds it strange that frontier AI companies keep coming to Washington and asking to be regulated. “𝘐",
-  "verdict": "KILL",
-  "reason": "A politician commenting on regulation policy is not a news event—§1 requires a real-world event where something happens with consequences, not a statement or opinion."
- },
- {
   "t": "2026-09-16T00:58:37Z",
   "gate": "B",
   "subject": "ELON MUSK SAYS YOUR GAS CAR BECOMES <em>WORTHLESS BEFORE YOU FINISH PAYING IT OFF</em>",
@@ -2096,6 +1998,104 @@
   "t": "2026-09-20T23:38:09Z",
   "gate": "R",
   "subject": "SPACEX FLEW THE ROCKET SHELL THEY USED TO DUMP IN THE OCEAN <em>40 TIMES</em>.",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-21T02:42:17Z",
+  "gate": "A",
+  "subject": "The last three fully new vehicles that @Tesla has launched don’t use a liquid paint shop: • Tesla Semi (Powder coated) •",
+  "verdict": "KILL",
+  "reason": "Manufacturing trivia about existing vehicles, not a news event—no consequence readers feel, no numbers behind the methods, no stakes or fallout; the writer would have to pad a thin fact into slides."
+ },
+ {
+  "t": "2026-09-21T02:42:37Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 President Trump announces creation of \"AI Force\" and says AI could make up 25% of US GDP.",
+  "verdict": "KILL",
+  "reason": "This is a political announcement of future action without detail or consequence—not a tech-industry event where reality has moved."
+ },
+ {
+  "t": "2026-09-21T02:43:21Z",
+  "gate": "A",
+  "subject": "A Pentagon investigation report indicates that an overwhelming air assault order, severely outdated intelligence, and an",
+  "verdict": "KILL",
+  "reason": "Military tragedy where AI is a supporting factor, not protagonist—fails brand lens test; 4/10 scout interest confirms no audience fit."
+ },
+ {
+  "t": "2026-09-21T02:44:16Z",
+  "gate": "A",
+  "subject": "\"Imagine you had $6 million in cash on a pallet flying through the air that's just going to smash into the ocean. Would ",
+  "verdict": "KILL",
+  "reason": "Source lacks clarity on event timing and what '40th milestone' represents; fairing recovery is established routine SpaceX procedure, and a counting milestone without fresh capability or consequence fails the substantive-event test at 4/10 scout interest."
+ },
+ {
+  "t": "2026-09-21T02:44:54Z",
+  "gate": "A",
+  "subject": "A Pentagon investigation report indicates that an overwhelming air assault order, severely outdated intelligence, and an",
+  "verdict": "KILL",
+  "reason": "This is a military tragedy story where AI is a contributing factor among several (not the star)—it fails the off-lens rule: 'a nature/animal/history fact that merely mentions or defeats technology... is OFF-lens,' and scout interest of 4/10 provides no exceptional justification to override it."
+ },
+ {
+  "t": "2026-09-21T02:45:10Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 President Trump announces creation of \"AI Force\" and says AI could make up 25% of US GDP.",
+  "verdict": "KILL",
+  "reason": "Government policy announcement outside this page's scope (§1 names household-name labs/founders making moves in the tech industry, not government actors); the 101-character source lacks substance to build slides—no detail on what the AI Force actually is, how it's funded, or what real consequence follows for readers today."
+ },
+ {
+  "t": "2026-09-21T02:45:11Z",
+  "gate": "A",
+  "subject": "The last three fully new vehicles that @Tesla has launched don’t use a liquid paint shop: • Tesla Semi (Powder coated) •",
+  "verdict": "KILL",
+  "reason": "Technical manufacturing detail about existing vehicles with no clear news peg, felt consequence, or breaking event; fails substance threshold at 4/10 scout interest."
+ },
+ {
+  "t": "2026-09-21T02:46:02Z",
+  "gate": "A",
+  "subject": "\"Imagine you had $6 million in cash on a pallet flying through the air that's just going to smash into the ocean. Would ",
+  "verdict": "KILL",
+  "reason": "Routine fairing reuse milestone without record status or major move; source material cuts off incomplete; scout interest 4/10 fails the threshold."
+ },
+ {
+  "t": "2026-09-21T03:14:02Z",
+  "gate": "B",
+  "subject": "TRUMP JUST GAVE AI <em>ITS OWN GOVERNMENT BRANCH</em> AND PREDICTED <em>25% OF THE ECONOMY</em>",
+  "verdict": "REJECT",
+  "reason": "§2 HOOK LAW — TWO actions joined by AND: 'TRUMP JUST GAVE AI ITS OWN GOVERNMENT BRANCH AND PREDICTED 25% OF THE ECONOMY' has two distinct actions ('gave AI its own branch' + 'predicted 25% of economy'). The doctrine is explicit: one actor, one action — cut the weaker one. The AI Force creation is the concrete, unprecedented act; the GDP prediction is the supporting color. Fix: 'TRUMP JUST CREATED "
+ },
+ {
+  "t": "2026-09-21T03:15:22Z",
+  "gate": "A",
+  "subject": "The last three fully new vehicles that @Tesla has launched don’t use a liquid paint shop: • Tesla Semi (Powder coated) •",
+  "verdict": "KILL",
+  "reason": "Technical observation about Tesla's existing vehicles with no news event or felt consequence — observing that three known vehicles use different finishing methods is manufacturing trivia, not a story."
+ },
+ {
+  "t": "2026-09-21T03:16:44Z",
+  "gate": "A",
+  "subject": "A Pentagon investigation report indicates that an overwhelming air assault order, severely outdated intelligence, and an",
+  "verdict": "KILL",
+  "reason": "Military tragedy is the story's center; AI tool role is explanatory, not a tech/AI development—off-brand for @technology despite genuine newsworthiness."
+ },
+ {
+  "t": "2026-09-21T03:17:21Z",
+  "gate": "A",
+  "subject": "\"Imagine you had $6 million in cash on a pallet flying through the air that's just going to smash into the ocean. Would ",
+  "verdict": "KILL",
+  "reason": "The source material is truncated mid-sentence ('with the 4'), leaving the actual event unreadable—the scout cannot judge what happened or when; separately, a 40th SpaceX fairing recovery is on-topic but routine, not a reality-moved event worth a news slot."
+ },
+ {
+  "t": "2026-09-21T03:35:49Z",
+  "gate": "B",
+  "subject": "MILITARY AI PICKED A BOMBING TARGET IN IRAN AND <em>KILLED SCORES OF CHILDREN</em>",
+  "verdict": "REJECT",
+  "reason": "SOURCE VIOLATION (§5, hard rule): 'Sources: Bloomberg' is listed as the sole source. §5 is explicit — 'Nothing outside X exists as a source.' Bloomberg is not the approved X watchlist and is not an X post. The story must trace to a watchlist account or a viral X search hit. Fix: replace with the specific X post(s) that surfaced this story, or kill and re-source from X.; EMOJI VIOLATION (§7, explic"
+ },
+ {
+  "t": "2026-09-21T03:36:29Z",
+  "gate": "R",
+  "subject": "MILITARY AI PICKED A BOMBING TARGET IN IRAN AND <em>KILLED SCORES OF CHILDREN</em>",
   "verdict": "PASS",
   "reason": ""
  }

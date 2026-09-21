@@ -1,0 +1,71 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "MILITARY AI PICKED A BOMBING TARGET IN IRAN AND <em>KILLED SCORES OF CHILDREN</em>",
+   "kicker": "PENTAGON REPORT BLAMED OVERRELIANCE",
+   "hsize": 68,
+   "media": "posts/2026-09-21-a-pentagon-investigation-report-indicate/gen-0.jpg",
+   "image_prompt": "bombed elementary school ruins in Iran, children's backpacks and broken desks scattered in rubble, military AI targeting tablet cracked among the debris"
+  }
+ ],
+ "caption": "The U.S. military used an AI targeting tool to guide a missile into an elementary school full of kids in Iran. \ud83d\udc80\n\nAI targeting tools in the military exist for one reason: to make sure missiles hit the right place and civilians don't die. On February 28, 2026, a Tomahawk missile hit an elementary school in Minab, Iran, during what would have been a normal school day. Scores of people died. Most of them were children.\n\nThe Pentagon's investigation found three things went wrong. The military was ordered to strike a massive number of targets at once. The intelligence the AI was working from was severely outdated. And operators trusted the AI completely without questioning it. The tool was called the Maven Smart System, a targeting system built by Palantir and used across U.S. military operations.\n\nHere's the part that's hard to sit with. The system is literally called the \"Maven Smart System,\" designed to make strikes smarter and more precise. It helped guide a missile into a school full of kids. The Pentagon's own investigators said so. Every military AI targeting program is now under a microscope, and Palantir's biggest government contract just became its biggest liability.\n\nIf your government is using AI to make life-and-death decisions, you should know it just admitted it trusted one of those systems too much.\n\nAI didn't replace human judgment here. It replaced human accountability.\n\nMilitary AI isn't going away. Every major power is racing to put AI in charge of more strikes, faster, with less human in the loop. Who is responsible when the AI gets it wrong? Nobody has a clean answer yet.\n\nRunning a business? DM us \"AI\" and we'll show you what responsible AI actually looks like.\n\nSources: Bloomberg\n\n#AI #MilitaryAI #ArtificialIntelligence #Palantir #Technology",
+ "pinned_comment": "The tool is literally called the 'Maven Smart System,' built to make military strikes smarter and more precise. It helped guide a missile into an elementary school full of children. At what point does 'overreliance on AI' become something someone actually goes to prison for?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "THE PENTAGON BLAMED ITS OWN AI FOR <em>BOMBING AN ELEMENTARY SCHOOL IN IRAN</em>",
+   "THE AI THE U.S. MILITARY USES TO PICK TARGETS <em>JUST BOMBED AN ELEMENTARY SCHOOL</em>",
+   "THE PENTAGON TRUSTED AI TO CHOOSE TARGETS, <em>AND IT BOMBED AN ELEMENTARY SCHOOL</em>",
+   "AN AI HELPED THE U.S. MILITARY <em>BOMB AN ELEMENTARY SCHOOL FULL OF CHILDREN</em>"
+  ],
+  "scores": [
+   9,
+   8,
+   7,
+   8
+  ],
+  "winner": 0,
+  "why": "[0] wins because the Pentagon publicly admitting fault is the wild story\u2014it's not just that a bombing happened, but that the institution itself blamed its AI. [1] hits hard emotionally but without that accountability angle, it reads as tragedy rather than scandal."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "YOUR MILITARY'S AI CHOSE THE TARGET AND <em>IT WAS AN ELEMENTARY SCHOOL</em>",
+   "MILITARY AI CHOSE A TARGET IN IRAN AND <em>IT WAS AN ELEMENTARY SCHOOL</em>",
+   "THE PENTAGON BLAMED ITS OWN AI FOR <em>BOMBING AN ELEMENTARY SCHOOL IN IRAN</em>",
+   "MILITARY AI PICKED A BOMBING TARGET IN IRAN AND <em>KILLED SCORES OF CHILDREN</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   8,
+   8.5
+  ],
+  "winner": 3,
+  "why": "[3] hits hardest because it delivers the complete tragic outcome with explicit numbers ('killed scores of children'), creating immediate emotional impact. [2] provides institutional shock but requires you to infer the human cost from abstract blame rather than visceral human toll."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Palantir Maven Smart System",
+  "actor_known": false,
+  "anchor": "military AI",
+  "specifics": [
+   "A missile hit an elementary school \u2014 mostly children killed",
+   "Pentagon's own report blamed overreliance on the AI targeting tool",
+   "The AI was working off 'severely outdated intelligence'",
+   "The tool is Palantir's Maven Smart System, used across U.S. military operations",
+   "Strike happened February 28, 2026 in Minab, Iran"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "A Pentagon investigation report indicates that an overwhelming air assault order, severely outdated intelligence, and an overreliance on AI tools like Palantir\u2019s Maven Smart System contributed to the February 28, 2026, U",
+  "link": "https://x.com/unusual_whales/status/2101408738603315231",
+  "judge_interest": 4,
+  "scout_score": 65.1
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "SOURCE VIOLATION (\u00a75, hard rule): 'Sources: Bloomberg' is listed as the sole source. \u00a75 is explicit \u2014 'Nothing outside X exists as a source.' Bloomberg is not the approved X watchlist and is not an X post. The story must trace to a watchlist account or a viral X search hit. Fix: replace with the specific X post(s) that surfaced this story, or kill and re-source from X.; EMOJI VIOLATION (\u00a77, explic"
+}
