@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-16T00:58:37Z",
-  "gate": "B",
-  "subject": "ELON MUSK SAYS YOUR GAS CAR BECOMES <em>WORTHLESS BEFORE YOU FINISH PAYING IT OFF</em>",
-  "verdict": "REJECT",
-  "reason": "TRUTH LAW violation on the hook: 'ELON MUSK SAYS YOUR GAS CAR BECOMES WORTHLESS BEFORE YOU FINISH PAYING IT OFF' — Musk's actual tweet (per the caption) predicted solar would reduce all fossil fuels to below 0.1% of total energy. He never said anything about gas cars losing value before loans are paid off. That is the writer's inference. The word 'SAYS' attributes a specific personal-finance claim"
- },
- {
-  "t": "2026-09-16T01:01:25Z",
-  "gate": "B",
-  "subject": "ELON MUSK IMPLIES YOUR GAS CAR BECOMES <em>WORTHLESS BEFORE YOU FINISH PAYING IT OFF</em>",
-  "verdict": "REJECT",
-  "reason": "EMOJI IN CAPTION (§4 hard ban): The ☀️ after the opening line is an explicit violation — §4 Spoken Voice rule bans emojis outright. Remove it.; GENERIC CLOSER (§7): The caption ends on 'This is no longer a fringe view' — exactly the kind of summary platitude §7 bans ('the future looks bright', 'time will tell' equivalents). It could close ANY story about a mainstream idea. Replace it with the shar"
- },
- {
-  "t": "2026-09-16T01:03:57Z",
-  "gate": "B",
-  "subject": "ELON MUSK SAYS SOLAR WILL KILL OIL <em>BEFORE YOUR GAS CAR LOAN IS PAID OFF</em>",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-16T01:04:07Z",
-  "gate": "R",
-  "subject": "ELON MUSK SAYS SOLAR WILL KILL OIL <em>BEFORE YOUR GAS CAR LOAN IS PAID OFF</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-16T02:09:36Z",
-  "gate": "A",
-  "subject": "Hi. 😊 Swedish dude here again. When we have kids. we get 480 paid parental leave days. Per child. 390 days at ~80% of pa",
-  "verdict": "KILL",
-  "reason": "This is a policy explanation with no news event—exactly the listicle-flood problem the owner identified as the page's #1 content failure."
- },
- {
   "t": "2026-09-16T02:09:53Z",
   "gate": "A",
   "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-21T03:36:29Z",
   "gate": "R",
   "subject": "MILITARY AI PICKED A BOMBING TARGET IN IRAN AND <em>KILLED SCORES OF CHILDREN</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-21T06:23:28Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS IMAGE LAW on three counts: (1) the background is a pure black void with abstract CGI particle streaks — not a single photoreal element in frame; IMAGE LAW requires every element to 'read as photographed' and explicitly bans 'illustration, cartoon, game render, or concept art'; (2) there is no subject — no person, no product, no proof of any story in the day's five bullets; the th"
+ },
+ {
+  "t": "2026-09-21T06:25:51Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — DECORATION, NOT PROOF: The cover is an abstract orange light-streak burst on a black void. There is no photoreal subject, no person, no product, no story artifact. The law is explicit: 'every image is PROOF or a STAGED SCENE OF THE STORY — never decoration.' This frame could run over any post on any page — it proves nothing from today's stories. Fix: replace with a photoreal cover buil"
+ },
+ {
+  "t": "2026-09-21T06:27:56Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW FAIL — cover has no subject. The orange particle-streak on black is abstract decoration; it proves nothing about today's news and passes the thumb test as 'generic tech page,' not as proof of any story. The law is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' Fix: replace with a photoreal composite built around today's mo"
+ },
+ {
+  "t": "2026-09-21T06:29:42Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — EMPTY-TOP/DECORATIVE COVER: The cover image is an abstract orange particle burst on a black background. There is no photoreal subject, no staged scene, no proof of any story in frame. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' and 'Every image is PROOF or a STAGED SCENE OF THE STORY — never decoration"
+ },
+ {
+  "t": "2026-09-21T06:29:50Z",
+  "gate": "R",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "PASS",
   "reason": ""
  }
