@@ -1,117 +1,5 @@
 [
  {
-  "t": "2026-09-16T02:09:53Z",
-  "gate": "A",
-  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
-  "verdict": "KILL",
-  "reason": "Elon proposed an idea at a summit without adoption or real consequence; this is commentary, not the news event this page requires."
- },
- {
-  "t": "2026-09-16T02:10:34Z",
-  "gate": "A",
-  "subject": "Hi. 😊 Swedish dude here again. When we have kids. we get 480 paid parental leave days. Per child. 390 days at ~80% of pa",
-  "verdict": "KILL",
-  "reason": "Swedish social policy unrelated to AI, technology, founders, investing, money, or space—completely off-lens for an AI/tech news page."
- },
- {
-  "t": "2026-09-16T02:11:04Z",
-  "gate": "A",
-  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
-  "verdict": "KILL",
-  "reason": "A proposal without adoption or implementation—no reality moved, and the 4/10 scout interest confirms it's thin."
- },
- {
-  "t": "2026-09-16T02:32:15Z",
-  "gate": "B",
-  "subject": "SWEDEN GIVES <em>480 PAID PARENTAL DAYS</em> AND THAT'S BEFORE COUNTING YOUR VACATION",
-  "verdict": "REJECT",
-  "reason": "§7 emoji ban: the 🇸🇪 emoji in caption line 1 is explicitly banned under Human Voice Law. Remove it — the sentence stands without it.; §5 truth: caption states '60 of those days' for simultaneous leave; Sweden's documented double-days provision is 30 days per child, not 60. Verify against the source tweet and correct to the confirmed number before publish."
- },
- {
-  "t": "2026-09-16T02:34:39Z",
-  "gate": "B",
-  "subject": "SWEDEN GIVES <em>480 PAID PARENTAL DAYS</em> AND THAT'S BEFORE COUNTING YOUR VACATION",
-  "verdict": "REJECT",
-  "reason": "TRUTH VIOLATION (§5): 'You can use any of the 480 days until your child turns 12' is factually wrong. Swedish parental benefit (föräldrapenning) must generally be used before the child turns 8 (or finishes first grade); only a limited number of flat-rate days may extend toward age 12. The follow-on line compounds it: 'take a paid month off when your kid starts middle school' — Swedish middle schoo"
- },
- {
-  "t": "2026-09-16T02:38:00Z",
-  "gate": "B",
-  "subject": "SWEDEN GIVES <em>480 PAID PARENTAL DAYS</em> AND THAT'S BEFORE COUNTING YOUR VACATION",
-  "verdict": "REJECT",
-  "reason": "§4/§7 HUMAN VOICE — The paragraph 'Running a business? DM us 'AI' and we'll show you what automation can do for yours.' is an off-topic commercial break tacked onto a Sweden labor-law story. No friend ends a story about 480 parental days by pivoting to an automation sales pitch. It breaks the spoken voice completely and sounds like a copy-pasted ad. Fix: replace with a save prompt or follow ask ti"
- },
- {
-  "t": "2026-09-16T02:38:45Z",
-  "gate": "A",
-  "subject": "BREAKING: Elon Musk joined the All-In Summit today virtually. He proposed that leading AI companies test one another’s m",
-  "verdict": "KILL",
-  "reason": "Musk proposed a peer-review system but no real-world consequence occurred—a speech act at a summit proposing future action fails the doctrine's core requirement: 'something HAPPENED in the real world, with a consequence someone felt.'"
- },
- {
-  "t": "2026-09-16T02:56:02Z",
-  "gate": "B",
-  "subject": "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
-  "verdict": "REJECT",
-  "reason": "Emoji in caption body: '👀' after 'His own company, xAI, would be one of those reviewers' — §7 Human Voice Law bans emojis outright. Delete it.; Generic closer: 'Whether that is about safety or about strategy, we are about to find out.' is functionally identical to the banned 'time will tell' — §7 requires ending on the sharpest specific fact. The sharpest fact is already in the caption two paragra"
- },
- {
-  "t": "2026-09-16T02:58:10Z",
-  "gate": "B",
-  "subject": "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
-  "verdict": "REJECT",
-  "reason": "Friend Test fail — first caption sentence says 'let rivals review unreleased models before launch.' 'Models' is the AI industry's official noun, not what a person says out loud. The hook already uses the correct plain-language version: 'unreleased AI.' Fix: 'Elon Musk proposed that AI companies let rivals review their unreleased AI before launch.' One word change; the rest of the caption is clean."
- },
- {
-  "t": "2026-09-16T03:00:07Z",
-  "gate": "B",
-  "subject": "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-16T03:00:30Z",
-  "gate": "R",
-  "subject": "ELON MUSK PROPOSED OPENAI <em>HAND HIM THEIR UNRELEASED AI</em> WHILE HE'S SUING THEM",
-  "verdict": "FAIL",
-  "reason": "s1: The AI-generated courtroom scene produces obvious wax-figure faces on both subjects, falling short of the press-photo realism standard the rubric requires."
- },
- {
-  "t": "2026-09-16T06:09:09Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "EMOJI VIOLATION (§4 HUMAN VOICE / STORYTELLING LAW): The caption contains '👇' after the opening line. §4 explicitly bans emojis in all copy. Fix: delete the emoji.; TRUTH LAW — SOLAR STAT FAILS SANITY CHECK (§5): 'one forecast puts every other energy source below 0.1% of global supply' implies solar reaches ~99.9%+ of all global energy supply, leaving every other source (wind, nuclear, gas, hydro)"
- },
- {
-  "t": "2026-09-16T06:11:05Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "TRUTH LAW — closing paragraph calls the OpenAI contractor story 'a privacy breach at the world's biggest AI company.' A breach means unauthorized access; what happened is OpenAI paying humans to read users' chats — a privacy policy revelation, not a security breach. The caption body gets it right ('OpenAI hired contractors to read real ChatGPT user conversations'); the summary recharacterizes it f"
- },
- {
-  "t": "2026-09-16T06:13:07Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-16T06:13:18Z",
-  "gate": "R",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-16T13:32:14Z",
-  "gate": "A",
-  "subject": "BREAKING: A single Israeli Effective Altruism firm is behind OpenAI, Anthropic, and Meta cyberattacks 🧵 with help from @",
-  "verdict": "KILL",
-  "reason": "Unverified allegation with no verifiable facts, numbers, or official confirmation from the targeted companies—violates TRUTH LAW and NO SUBSTANCE; the bare claim would require the writer to pad significantly."
- },
- {
   "t": "2026-09-16T18:04:30Z",
   "gate": "A",
   "subject": "BREAKING: A single Israeli Effective Altruism firm is behind OpenAI, Anthropic, and Meta cyberattacks 🧵 with help from @",
@@ -2096,6 +1984,118 @@
   "t": "2026-09-21T06:29:50Z",
   "gate": "R",
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-21T11:11:12Z",
+  "gate": "A",
+  "subject": "With 5.4 million views in the last 2 days, this video is on track to soon become @Neuralink's most viewed video on YouTu",
+  "verdict": "AUTO_APPROVE",
+  "reason": "scout interest 8/10 — news-first fast lane"
+ },
+ {
+  "t": "2026-09-21T11:12:13Z",
+  "gate": "A",
+  "subject": "A US household would need $124,674 a year to afford a median-priced home, 44% more than the current median income, per A",
+  "verdict": "KILL",
+  "reason": "Economic statistic, not an event—routine analyst-type data release the page explicitly bans; no AI/tech lens."
+ },
+ {
+  "t": "2026-09-21T11:13:01Z",
+  "gate": "A",
+  "subject": "YouTuber Logan Paul purchased this NFT for $635,000 in 2021. Today, it's worth $96.",
+  "verdict": "KILL",
+  "reason": "No current news hook—reads as trivia measurement of a 2021 purchase rather than a viral-specific event; contradicts the page's news-first mandate which demands substantive tech/AI stories, not celebrity investment schadenfreude."
+ },
+ {
+  "t": "2026-09-21T11:34:00Z",
+  "gate": "B",
+  "subject": "NEURALINK JUST LET AN ALS PATIENT THINK WORDS, <em>AND HIS OWN VOICE SPOKE THEM.</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION — HARD REJECT: The cover shows Elon Musk with a Neuralink chip composited onto his forehead. The story is about Terry, an ALS patient. Musk has no role in this story — he is not mentioned in the caption, he did not receive the implant, and the VOICE trial subject is a private individual named Terry. Musk as decoration breaks image-headline connection with zero vendor-cast exce"
+ },
+ {
+  "t": "2026-09-21T11:35:58Z",
+  "gate": "B",
+  "subject": "NEURALINK JUST LET AN ALS PATIENT THINK WORDS, <em>AND HIS OWN VOICE SPOKE THEM.</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — CAST TRUTH / FALSE VISUAL CLAIM: The image stages Elon Musk with a Neuralink chip composited onto his forehead, eyes closed, mouth open — visually declaring that HE is the ALS patient whose voice was restored. The headline says 'AN ALS PATIENT' and the caption names Terry. Musk is not the patient; he does not have the implant. A stranger seeing this cover at feed size reads 'Elon Mus"
+ },
+ {
+  "t": "2026-09-21T11:37:33Z",
+  "gate": "B",
+  "subject": "NEURALINK JUST LET AN ALS PATIENT THINK WORDS, <em>AND HIS OWN VOICE SPOKE THEM.</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH FAILURE — PRIMARY KILL. The cover shows Elon Musk with a Neuralink chip composited onto his forehead. The story's protagonist is Terry, an ALS patient. Musk has not had ALS, has not had a Neuralink implanted, and plays no role in this specific event. A scroller reads 'AN ALS PATIENT' while looking at Musk's face with a chip in his head — they conclude Musk has ALS and underwent the proc"
+ },
+ {
+  "t": "2026-09-21T11:39:04Z",
+  "gate": "A",
+  "subject": "A US household would need $124,674 a year to afford a median-priced home, 44% more than the current median income, per A",
+  "verdict": "KILL",
+  "reason": "Routine economic data release, not a viral-specific event; off-lens for an AI/tech page (housing policy, not technology/AI/founder-driven)."
+ },
+ {
+  "t": "2026-09-21T11:39:23Z",
+  "gate": "A",
+  "subject": "YouTuber Logan Paul purchased this NFT for $635,000 in 2021. Today, it's worth $96.",
+  "verdict": "KILL",
+  "reason": "Off-brand because this is a crypto/entertainment story about an entertainer, not the AI/tech news the page's identity requires (order Sep 3)."
+ },
+ {
+  "t": "2026-09-21T12:01:36Z",
+  "gate": "B",
+  "subject": "LOGAN PAUL TURNED <em>$635,000</em> INTO <em>$96</em> BUYING A DIGITAL PHOTO.",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CAST FAIL: The cover shows a generated blonde man who is not recognizably Logan Paul. Logan Paul has a famously distinct look (broad jaw, muscular build, specific facial structure); the man in frame is a generic AI-generated stranger. The doctrine bans 'a generated unknown face' and requires 'recognizable famous people (real photo or names-direct generation).' A viewer who doesn't alre"
+ },
+ {
+  "t": "2026-09-21T12:03:07Z",
+  "gate": "B",
+  "subject": "LOGAN PAUL TURNED <em>$635,000</em> INTO <em>$96</em> BUYING A DIGITAL PHOTO.",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — GENERATED UNKNOWN FACE: The man in the photo is a lean, curly-haired blonde with blue eyes. Logan Paul has dark brown hair, a distinctly heavy/square jaw, and a visibly muscular frame — this face matches none of those. A stranger at feed speed sees a random crying guy, not Logan Paul. IMAGE LAW is explicit: 'never a generated unknown face.' The concept (man crying while holding a Bor"
+ },
+ {
+  "t": "2026-09-21T12:04:25Z",
+  "gate": "B",
+  "subject": "LOGAN PAUL TURNED <em>$635,000</em> INTO <em>$96</em> BUYING A DIGITAL PHOTO.",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — Generated unknown face, not Logan Paul: The cover shows a generic crying blonde man who does not resemble Logan Paul. The doctrine requires 'recognizable famous people (real photo or names-direct generation)' and explicitly bans 'a generated unknown face.' This face does not read as Logan Paul to a cold viewer — the likeness is too generic to pass. Fix: regenerate with an accurate Loga"
+ },
+ {
+  "t": "2026-09-21T12:05:41Z",
+  "gate": "A",
+  "subject": "A US household would need $124,674 a year to afford a median-priced home, 44% more than the current median income, per A",
+  "verdict": "KILL",
+  "reason": "Off-brand; housing affordability is macro-economic data, not technology or AI news."
+ },
+ {
+  "t": "2026-09-21T12:32:58Z",
+  "gate": "B",
+  "subject": "YOU EARN $86,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
+  "verdict": "REJECT",
+  "reason": "TRUTH LAW — the three core numbers are arithmetically inconsistent. The hook states 'YOU EARN $86,000 AND STILL NEED $44,000 MORE', implying a needed income of $130,000. The caption states the needed income is $124,674 and the gap is 'roughly $44,000'. Those two cannot both be true: $124,674 − $86,000 = $38,674, not $44,000. The $44,000 gap is only correct if the earning baseline is ~$80,674 (the "
+ },
+ {
+  "t": "2026-09-21T12:35:52Z",
+  "gate": "B",
+  "subject": "YOU EARN $80,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
+  "verdict": "REJECT",
+  "reason": "FRIEND TEST FAIL — caption line 'They build no equity' uses financial jargon nobody says out loud to a friend. Spoken rewrite: 'They keep renting. Every month the money disappears and they own nothing.' One word swap carries the whole meaning without the real-estate term.; FRIEND TEST FAIL — 'that window is not growing' (final caption paragraph) is vague on first listen; a friend at the table asks"
+ },
+ {
+  "t": "2026-09-21T12:38:06Z",
+  "gate": "B",
+  "subject": "YOU EARN $80,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
+  "verdict": "REJECT",
+  "reason": "Hook AND-violation: 'YOU EARN $80,000 AND STILL NEED $44,000 MORE TO BUY AN AVERAGE HOME' joins two verb phrases with AND (EARN, NEED), breaking Hook Law §2's ONE actor / ONE action rule ('AND joining two actions = cut the weaker one'). The payoff is the gap — the earning clause is setup, not the story. Cut it and lead with the revelation: e.g., 'YOU NEED $44,000 MORE THAN YOU EARN TO BUY AN AVERA"
+ },
+ {
+  "t": "2026-09-21T12:38:21Z",
+  "gate": "R",
+  "subject": "YOU EARN $80,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
   "verdict": "PASS",
   "reason": ""
  }

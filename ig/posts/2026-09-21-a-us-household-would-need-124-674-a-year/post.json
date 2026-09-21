@@ -1,0 +1,79 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOU EARN $80,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
+   "kicker": "THE GAP IS $44,000 A YEAR",
+   "hsize": 72,
+   "media": "posts/2026-09-21-a-us-household-would-need-124-674-a-year/gen-0-r.jpg",
+   "image_prompt": "A person reaches toward a house on the far side of a gap on empty ground"
+  }
+ ],
+ "caption": "The average American family is roughly $44,000 a year short of being able to buy an average home. \ud83c\udfe0\n\nMost people grew up thinking that if you work hard and save up, buying a house is achievable. That was the whole plan.\n\nThe Atlanta Fed just ran the numbers. To afford a median-priced home right now, a household needs to earn $124,674 a year. The average American family falls roughly $44,000 short of that. Not a small stretch. An entire second income short.\n\nHere's the part that should bother you: to afford the average American home, you need to earn well above average. The median person is priced out of the median house. Same word. Completely different number.\n\nThe families getting locked out are exactly in the middle. Not the poor, who already knew this. Not the wealthy, who bought years ago. The ones making decent money but not quite enough. They keep renting. Every month the money disappears and they own nothing. They watch the gap between owners and renters grow wider every year. The homeownership path that built the middle class is closing.\n\nHome prices outpaced wages for years, and high interest rates made monthly payments even worse. The math only works now if you earn well above average, and for most families, that gap is only getting worse.\n\nRunning a business? DM us \"AI\" and we'll show you how this affects your team and your bottom line.\n\nSources: Atlanta Fed, unusual_whales on X\n\n#realestate #housingmarket #personalfinance #homebuying #economy",
+ "pinned_comment": "At some point 'just renting for now' quietly turns into renting forever. For most American families earning under six figures, that point already passed.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "IF YOU EARN THE AVERAGE INCOME, <em>YOU CANNOT AFFORD THE AVERAGE HOME</em>",
+   "ON AN AVERAGE INCOME, YOU CAN NO LONGER AFFORD <em>AN AVERAGE HOME</em>",
+   "THE AVERAGE FAMILY IS <em>$44,000 A YEAR SHORT</em> OF BUYING AN AVERAGE HOME",
+   "BUYING A HOME NOW REQUIRES <em>44% MORE INCOME</em> THAN YOU ACTUALLY EARN",
+   "THE AVERAGE AMERICAN NOW NEEDS <em>$125,000 A YEAR</em> TO AFFORD THE AVERAGE HOME",
+   "YOU EARN $86,000 BUT NEED <em>$125,000</em> TO BUY AN AVERAGE HOME",
+   "THE MEDIAN PERSON IS NOW <em>PRICED OUT OF THE MEDIAN HOUSE</em>",
+   "BUYING AN AVERAGE HOME NOW TAKES <em>44% MORE THAN THE AVERAGE AMERICAN EARNS</em>",
+   "YOU'RE <em>$44,000 SHORT</em> OF WHAT IT TAKES TO BUY AN AVERAGE HOME"
+  ],
+  "scores": [
+   6,
+   6.5,
+   8,
+   7.5,
+   5,
+   9,
+   7,
+   7,
+   8
+  ],
+  "winner": 5,
+  "why": "[5] wins because it shows both numbers\u2014what you earn ($86,000) and what you need ($125,000)\u2014making the gap visceral instantly. [8] only shows the shortfall ($44,000), which shocks but leaves the picture incomplete without those two reference points."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "YOU EARN $86,000 BUT NEED <em>$125,000</em> TO BUY AN AVERAGE HOME",
+   "YOU EARN $86,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
+   "YOU ARE <em>$44,000 A YEAR</em> SHORT OF AFFORDING AN AVERAGE HOME"
+  ],
+  "scores": [
+   8,
+   9,
+   7
+  ],
+  "winner": 1,
+  "why": "'STILL NEED $44K MORE' makes it personal\u2014you earn solid money but it's STILL not enough. Comparing two numbers doesn't hit as hard as that realization."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Atlanta Fed",
+  "actor_known": false,
+  "anchor": "buying a home",
+  "specifics": [
+   "You need $124,674/year to afford a median-priced home",
+   "That's 44% more than what the average US household actually earns",
+   "The gap between needed income and median income is roughly $44,000 per year",
+   "Data comes from the Atlanta Fed"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (4/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "A US household would need $124,674 a year to afford a median-priced home, 44% more than the current median income, per Atlanta Fed.",
+  "link": "https://x.com/unusual_whales/status/2101823974850351185",
+  "judge_interest": 7,
+  "scout_score": 109.6
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Hook AND-violation: 'YOU EARN $80,000 AND STILL NEED $44,000 MORE TO BUY AN AVERAGE HOME' joins two verb phrases with AND (EARN, NEED), breaking Hook Law \u00a72's ONE actor / ONE action rule ('AND joining two actions = cut the weaker one'). The payoff is the gap \u2014 the earning clause is setup, not the story. Cut it and lead with the revelation: e.g., 'YOU NEED $44,000 MORE THAN YOU EARN TO BUY AN AVERA"
+}
