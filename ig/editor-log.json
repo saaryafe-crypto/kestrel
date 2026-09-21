@@ -1,19 +1,5 @@
 [
  {
-  "t": "2026-09-16T18:04:30Z",
-  "gate": "A",
-  "subject": "BREAKING: A single Israeli Effective Altruism firm is behind OpenAI, Anthropic, and Meta cyberattacks 🧵 with help from @",
-  "verdict": "KILL",
-  "reason": "This is an unverified allegation—the source is a single person's claim that an unnamed Israeli firm conducted attacks, with no confirmation from OpenAI/Anthropic/Meta, no named defendant, no evidence mechanism, and zero substance to expand; writing unconfirmed attribution as news violates TRUTH LAW, and the event itself (the allegation existing online) is reaction-bait, not confirmed cyberattacks."
- },
- {
-  "gate": "B",
-  "reason": "§5 TRUTH LAW — 'This week, ISRO launched its first satellite that orbits high enough to watch a fixed part of Earth at all times' is factually false. India has operated geostationary satellites since 1983 (the APPLE satellite, then the INSAT series through every decade since). Whatever launched this week is not India's first geostationary satellite. A false 'first' on a verifiable 40-year record i",
-  "subject": "INDIA REACHED MARS FOR <em>$74 MILLION</em>. THE MOVIE GRAVITY COST MORE TO MAKE.",
-  "t": "2026-09-16T17:55:07Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "B",
   "reason": "",
   "subject": "INDIA REACHED MARS FOR <em>$74 MILLION</em>. THE MOVIE GRAVITY COST MORE TO MAKE.",
@@ -2096,6 +2082,20 @@
   "t": "2026-09-21T12:38:21Z",
   "gate": "R",
   "subject": "YOU EARN $80,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-21T18:59:26Z",
+  "gate": "B",
+  "subject": "PEOPLE FLED THESE AI-THREATENED JOBS. THE ONES WHO STAYED EARNED <em>46% MORE</em>.",
+  "verdict": "REJECT",
+  "reason": "HOOK IS TWO SENTENCES, NOT ONE. Hook law mandates 'ONE complete sentence that tells the WHOLE story.' 'PEOPLE FLED THESE AI-THREATENED JOBS. THE ONES WHO STAYED EARNED 46% MORE.' is two separate sentences. Fix: merge into one, e.g. 'THE WORKERS WHO STAYED IN AI-THREATENED JOBS ARE NOW EARNING 46% MORE THAN THEY DID BEFORE AI ARRIVED.'; FRIEND TEST FAIL — 'Moderately AI-exposed roles: +41%' is offi"
+ },
+ {
+  "t": "2026-09-21T19:00:29Z",
+  "gate": "R",
+  "subject": "PEOPLE FLED THESE AI-THREATENED JOBS. THE ONES WHO STAYED EARNED <em>46% MORE</em>.",
   "verdict": "PASS",
   "reason": ""
  }

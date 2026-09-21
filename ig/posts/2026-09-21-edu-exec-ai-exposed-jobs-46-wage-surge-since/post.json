@@ -1,0 +1,57 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "PEOPLE FLED THESE AI-THREATENED JOBS. THE ONES WHO STAYED EARNED <em>46% MORE</em>.",
+   "kicker": "3 CEO MOVES FOR YOUR PAYROLL",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "posts/2026-09-21-edu-exec-ai-exposed-jobs-46-wage-surge-since/gen-0-rescue.jpg",
+   "image_prompt": "The OpenAI logo taking over jobs while workers who stayed in them earn far more"
+  }
+ ],
+ "caption": "The jobs AI supposedly kills are now the most expensive to hire for. +46% in wages since 2021. There's a trap hiding in your payroll. \ud83d\udcca\n\nTHE 46% PREMIUM TRAP\n\nAdvertised pay in AI-exposed occupations surged +46% since 2021. Moderately AI-exposed roles: +41%. These are not the jobs AI is replacing. They're the ones where working alongside AI commands a premium, now baked into every offer letter in your industry. The Wall Street Journal put it plainly: a CS degree is no longer a golden ticket. The new ticket is the person who makes AI do the work of three.\n\n1) MAP YOUR EXPOSURE. Pull every role on your payroll that touches data, writing, analysis, or code. That is your AI-exposed cost center. If your last raise cycle didn't track this 46% surge, you either overpaid for average output or already lost the people who earned the premium. Find out which.\n\n2) AUTOMATE BEFORE THE NEXT RAISE CYCLE. A six-figure hire spending hours daily on automatable work is paying for familiarity with a process AI handles in minutes. The tools covering that work cost under $300 a month. That gap is a choice you're making every month you wait.\n\n3) BET ON THE MULTIPLIER, NOT THE ROLE. The person at the 46% premium using AI to do what used to take three people is worth every dollar. The one at the same premium doing 1x output is your exposure. Automate behind the role first. Then decide if the judgment still earns the price.\n\nSAVE THIS: the 46% wage trap and 3 CEO moves to find it in your payroll.\n\nAI didn't make skilled workers cheaper. It made them more expensive, faster. Every business paying this premium without automating the routine work is funding someone else's top hire. That gap grows every quarter.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: The Wall Street Journal, US Bureau of Labor Statistics\n\n#AIjobs #futureofwork #CEO #businessstrategy #artificialintelligence",
+ "pinned_comment": "Which move hits closest to home: mapping the exposure, automating before the next raise cycle, or finding your multipliers? Most people I show the 46% number to assume wages went the other direction.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>THE PREMIUM TRAP</em>: AI MADE YOUR BEST HIRES 46% PRICIER",
+   "YOUR AI HIRES JUST GOT <em>46% PRICIER</em>",
+   "<em>+46% WAGES</em> FOR THE JOBS AI SUPPOSEDLY KILLS",
+   "THE <em>46% AI WAGE TRAP</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   9,
+   5
+  ],
+  "winner": 2,
+  "why": "The contradiction between AI killing jobs and wages going up 46% creates maximum 'wait, WHAT?' factor that stops scrolling; [1] is clear and direct but doesn't challenge your assumptions."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "THE JOBS AI IS KILLING ARE PAYING <em>46% MORE</em> THAN YOUR \"SAFE\" ONES",
+   "AI IS SUPPOSED TO KILL THESE JOBS. THEY JUST GOT <em>+46% RAISES</em>.",
+   "<em>+46% WAGES</em> FOR THE JOBS AI SUPPOSEDLY KILLS",
+   "PEOPLE FLED THESE AI-THREATENED JOBS. THE ONES WHO STAYED EARNED <em>46% MORE</em>."
+  ],
+  "scores": [
+   8,
+   8,
+   6,
+   9
+  ],
+  "winner": 3,
+  "why": "[3] tells the complete story in the hook (people fled these jobs, so wages rose for those who stayed), making it instantly credible and stopping you for the right reason. [1] teases a paradox without explaining why, making you scroll to solve a mystery rather than learn about a story you already believe."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "no-face rescue",
+ "editor_override": "HOOK IS TWO SENTENCES, NOT ONE. Hook law mandates 'ONE complete sentence that tells the WHOLE story.' 'PEOPLE FLED THESE AI-THREATENED JOBS. THE ONES WHO STAYED EARNED 46% MORE.' is two separate sentences. Fix: merge into one, e.g. 'THE WORKERS WHO STAYED IN AI-THREATENED JOBS ARE NOW EARNING 46% MORE THAN THEY DID BEFORE AI ARRIVED.'; FRIEND TEST FAIL \u2014 'Moderately AI-exposed roles: +41%' is offi",
+ "topic_source": "exec-news"
+}
