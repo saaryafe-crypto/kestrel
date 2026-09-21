@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T17:54:03.812158+00:00",
+ "updated": "2026-09-21T00:42:04.109829+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -461,26 +461,6 @@
    "video": null,
    "guide": true,
    "born": 1788592298.034889
-  },
-  {
-   "id": "2090883994883645663",
-   "title": "Grok Bot by Elon Musk just replaced a $294,000 Wall Street research desk. Six AI agents, $200 a month, doing the work BlackRock pays people six figures for. The guy who built it published every prompt. What that desk cos",
-   "sub": "antpalkin",
-   "where": "@antpalkin on X",
-   "unit": "likes",
-   "selftext": "Grok Bot by Elon Musk just replaced a $294,000 Wall Street research desk. Six AI agents, $200 a month, doing the work BlackRock pays people six figures for. The guy who built it published every prompt. What that desk cost before the bots: > $27,000 a year for the Bloomberg terminal > $22,000 for Refinitiv > $50,000 for sell-side research > $15,000 for AlphaSense > $180,000 for the junior analyst who reads all of it until 2am so somebody senior can trade on it before the open $294,000 a year. The agents cost $2,400. Same brief, 122 times cheaper, and it is there before the open. Six agents split that desk. Each one gets its own computer in the cloud, and they all write into the same vault. > FILINGS reads every 10-K, 10-Q and 8-K on a 100-ticker watchlist overnight and flags the ugly parts: going concern language, auditor changes, restatements > EARNINGS reads the call transcript within 24 hours and tells you if the CFO got quieter than he was last quarter > SECTOR does one pass per sector and picks up the rule change nobody read > INSIDER catches Form 4 buys over $1 million and new positions from Two Sigma, Third Point and D.E. Shaw the day the 13Fs land > CHATTER counts mentions on X and flags any ticker three standard deviations louder than its own 30-day normal > CHIEF OF STAFF reads the other five at 5:30am, bins anything only one of them flagged, and emails you the ranked brief at 6 One analyst covers 30 names. Six agents cover 3,000 and finish before the open. You show them the job once. They repeat it every night with your laptop shut. Every research floor on Wall Street was priced on reading being slow and people being expensive. Both of those stopped being true this month. So you wake up, read for five minutes, and know what moved on every name you hold. That used to be somebody's entire job, and he got a bonus for it. The article below is the step by step guide to building the whole AI trading machine. Save & read it, you will want it open while you build.",
-   "permalink": "https://x.com/antpalkin/status/2090883994883645663",
-   "outlink": null,
-   "score": 3933,
-   "comments_n": 161,
-   "views": 770495,
-   "age_h": 111.9,
-   "vph": 35.2,
-   "image": null,
-   "video": "https://video.twimg.com/amplify_video/2090883364936986624/vid/avc1/1536x1920/82zsypbX1jqdmg7z.mp4?tag=29",
-   "guide": true,
-   "wide_guide": true,
-   "born": 1787340854.205828
   },
   {
    "id": "2098172199517712624",
