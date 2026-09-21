@@ -1,47 +1,5 @@
 [
  {
-  "t": "2026-09-16T19:24:26Z",
-  "gate": "A",
-  "subject": "Blizzard’s inability to solve the login problem on their product launch day reminds me of the classic Forster essay: The",
-  "verdict": "KILL",
-  "reason": "Login problems at a game launch are routine with no real consequence; the entire story is Elon's witty reaction to a non-event, not a genuine news story—this is reaction-bait dressed as commentary."
- },
- {
-  "t": "2026-09-16T19:25:31Z",
-  "gate": "A",
-  "subject": "Hi. 😊 Swedish dude here again. When we have kids. we get 480 paid parental leave days. Per child. 390 days at ~80% of pa",
-  "verdict": "KILL",
-  "reason": "Off-brand and no event: this describes existing Swedish social policy, not AI/tech news—the page is news-first, not lifestyle guides."
- },
- {
-  "t": "2026-09-16T19:26:48Z",
-  "gate": "A",
-  "subject": "We’re introducing Gemini 3.8 Live and 3.8 Live Extended Thinking – our best conversational AI. The models talk, think, a",
-  "verdict": "KILL",
-  "reason": "This is a thin marketing announcement of a feature update with no demo shown, no numbers, no consequence, and no major move—routine product news that doesn't meet the jaw-dropping standard, confirmed by the scout's already-low 4/10 rating."
- },
- {
-  "t": "2026-09-16T19:26:49Z",
-  "gate": "A",
-  "subject": "SpaceX President Gwynne Shotwell on data centers in space: “There is an expense to put data centers on the ground. You h",
-  "verdict": "KILL",
-  "reason": "Strategic commentary about potential plans, not a news event—the doctrine requires MAJOR MOVES where something concrete happened (product released, lawsuit filed, valuation announced, person hired/fired), and an executive's statements about future business directions are opinion, not news; the 4/10 scout score confirms this assessment."
- },
- {
-  "t": "2026-09-16T19:27:26Z",
-  "gate": "A",
-  "subject": "So here's a crazy stat: Starship's upcoming 14th test flight next week, which will deliver 26 @Starlink V3 satellites to",
-  "verdict": "KILL",
-  "reason": "Scheduled future event with very low scout interest (4/10); the page covers news where reality moved, not tests happening next week."
- },
- {
-  "t": "2026-09-16T19:28:29Z",
-  "gate": "A",
-  "subject": "U.S. Homes are now the most unaffordable in history 🚨 🚨",
-  "verdict": "KILL",
-  "reason": "One thin claim with zero numbers, no specific triggering event, and nothing for the writer to build from—textbook no-substance per §1's INSTANT KILL; requires padding to exist as a post."
- },
- {
   "t": "2026-09-16T19:28:35Z",
   "gate": "A",
   "subject": "BREAKING: The 10Y Note Yield rises to 5.04%, its highest level since July 2007. This pushes the average interest rate on",
@@ -2096,6 +2054,48 @@
   "t": "2026-09-21T20:45:27Z",
   "gate": "R",
   "subject": "OPENAI IS RUNNING ON JUNK BONDS, <em>$26 BILLION BORROWED</em> IN ONE YEAR",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-21T21:03:09Z",
+  "gate": "A",
+  "subject": "ELON MUSK: \"I have a company called The Boring Company, which sounds boring, but it literally bore tunnels to solve traf",
+  "verdict": "KILL",
+  "reason": "The Vegas tunnels are years-old completed infrastructure; this is Elon restating past work, not a current event or new consequence—fails §1's viral-specific-event requirement (something happened in the real world with a felt consequence), and at 4/10 scout interest, no exception applies."
+ },
+ {
+  "t": "2026-09-21T21:03:54Z",
+  "gate": "A",
+  "subject": "ELON MUSK: \"I have a company called The Boring Company, which sounds boring, but it literally bore tunnels to solve traf",
+  "verdict": "KILL",
+  "reason": "No event occurred—Musk is restating his existing company's purpose and years-old Vegas tunnels; the source is one thin quote with no new announcement, move, or consequence, requiring padding to fill slides."
+ },
+ {
+  "t": "2026-09-21T21:24:43Z",
+  "gate": "B",
+  "subject": "ELON MUSK SPENT <em>6 MINUTES</em> EXPLAINING HIS COMPANY'S DAD JOKE: <em>BORING MEANS DRILLING</em>",
+  "verdict": "REJECT",
+  "reason": "EMOJI BANNED (§7 SPOKEN VOICE): '😂' at the end of the opening sentence is explicitly prohibited. Delete it — the line lands harder without it.; DUPLICATE POINT IN CAPTION (§5 NEW FACT PER SLIDE): 'More cities are going to get pitched private car tunnels instead of new subway lines, with Vegas as proof it works' and 'Every city with bad traffic is now a potential Boring Company pitch. The Vegas Loo"
+ },
+ {
+  "t": "2026-09-21T21:27:17Z",
+  "gate": "B",
+  "subject": "ELON MUSK SPENT <em>6 MINUTES</em> EXPLAINING HIS COMPANY'S DAD JOKE: <em>BORING MEANS DRILLING</em>",
+  "verdict": "REJECT",
+  "reason": "Caption sentence 'declared the opposite' has a dangling antecedent — unclear in spoken speech. Fix: 'Musk sat in front of a camera and decided it needed explaining.'; Friend Test fail: 'the next transit dollar in your city' — nobody says this out loud. Fix: 'the next billion your city spends'.; Caption closes on '95.8K likes' as the final substantive beat — engagement metric as payoff, banned per "
+ },
+ {
+  "t": "2026-09-21T21:29:11Z",
+  "gate": "B",
+  "subject": "ELON MUSK SPENT <em>6 MINUTES</em> EXPLAINING HIS COMPANY'S DAD JOKE: <em>BORING MEANS DRILLING</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-21T21:29:42Z",
+  "gate": "R",
+  "subject": "ELON MUSK SPENT <em>6 MINUTES</em> EXPLAINING HIS COMPANY'S DAD JOKE: <em>BORING MEANS DRILLING</em>",
   "verdict": "PASS",
   "reason": ""
  }

@@ -1,0 +1,76 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ELON MUSK SPENT <em>6 MINUTES</em> EXPLAINING HIS COMPANY'S DAD JOKE: <em>BORING MEANS DRILLING</em>",
+   "hsize": 72,
+   "media": "posts/2026-09-21-elon-musk-i-have-a-company-called-the-bo/gen-0-r.jpg",
+   "image_prompt": "Elon Musk grins and points at tunnel boring machine underground, bright saturated palette, simple background",
+   "gen_person": true
+  }
+ ],
+ "caption": "Elon Musk explained The Boring Company's name is a pun about drilling tunnels, and he had to do it on camera.\n\nThe company never seemed worth explaining, until now. Musk sat in front of a camera and decided it needed explaining. He said tunnels are \"underappreciated.\" He pointed to Las Vegas, where the company has working tunnels, and said driving through them feels \"like teleporting from one point to another.\"\n\nThe catch is that he had to explain his own company name out loud. The Boring Company. Boring as in dull. Boring as in drilling holes. He built a tunnel startup, named it after a dad joke about drilling, then walked an audience through why that's funny. Six minutes, completely serious.\n\nTunneling is not a new technology. The pun is basically an admission that digging holes under cities for cars needs a joke to sound interesting.\n\nEvery city with bad traffic is now a potential Boring Company pitch. The Vegas Loop is the brochure. The real question is whether the next billion your city spends goes to a private car tunnel or an actual subway.\n\nSources: cb_doge on X (Sep 20, 2026)\n\n#elonmusk #theboringcompany #vegas #technology #tunnels",
+ "pinned_comment": "Would you actually take a Boring Company tunnel over a subway, or is this just a cool toy for people with cars? Be honest.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ELON MUSK <em>CALLED DRIVING THROUGH A TUNNEL</em> LIKE TELEPORTING",
+   "ELON MUSK <em>SAID TUNNELS ARE UNDERAPPRECIATED</em> AND POINTED TO VEGAS AS PROOF",
+   "ELON MUSK <em>WENT ON CAMERA TO EXPLAIN HIS COMPANY NAME IS A PUN</em>",
+   "ELON MUSK SPENT <em>6 MINUTES</em> EXPLAINING HIS COMPANY NAME IS A TUNNEL PUN.",
+   "ELON MUSK DECLARED <em>\"TUNNELS ARE UNDERAPPRECIATED\"</em> AFTER CENTURIES OF HUMANS BUILDING THEM.",
+   "ELON MUSK HAD TO EXPLAIN ON CAMERA THAT <em>\"BORING\" MEANS DRILLING</em>, NOT DULL.",
+   "ELON MUSK <em>HAD TO EXPLAIN HIS OWN COMPANY NAME</em> ON CAMERA"
+  ],
+  "scores": [
+   8,
+   6,
+   7,
+   8.5,
+   8,
+   0,
+   7
+  ],
+  "winner": 3,
+  "why": "The '6 MINUTES' detail makes it obviously absurd\u2014spending that long explaining a pun is inherently ridiculous. 'TELEPORTING' is wild but requires context; [3] lands the full joke in the headline."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "ELON MUSK HAD TO EXPLAIN FOR <em>6 MINUTES</em> THAT BORING MEANS DRILLING, NOT DULL",
+   "ELON MUSK SPENT <em>6 MINUTES</em> EXPLAINING HIS COMPANY NAME IS A TUNNEL PUN.",
+   "ELON MUSK JUST SPENT <em>6 MINUTES</em> EXPLAINING 'THE BORING COMPANY' <em>BORES TUNNELS, NOT PEOPLE</em>",
+   "ELON MUSK SPENT <em>6 MINUTES</em> EXPLAINING HIS COMPANY'S DAD JOKE: <em>BORING MEANS DRILLING</em>"
+  ],
+  "scores": [
+   7,
+   4,
+   5,
+   8
+  ],
+  "winner": 3,
+  "why": "'Dad joke' immediately signals this is funny and makes you want to watch; 'had to explain' just creates confusion rather than the instant appeal of a billionaire spending 6 minutes on a pun."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Elon Musk",
+  "actor_known": true,
+  "anchor": "Elon Musk",
+  "specifics": [
+   "Named a company 'The Boring Company' as a pun, then had to explain the pun on camera",
+   "Called driving through a tunnel 'like teleporting'",
+   "Declared 'tunnels are underappreciated' \u2014 a technology humans have used for over a century",
+   "Vegas Loop cited as proof the concept works",
+   "Clip got 95.8K likes \u2014 people watched a billionaire explain a dad joke for 6 minutes"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "ELON MUSK: \"I have a company called The Boring Company, which sounds boring, but it literally bore tunnels to solve traffic. We've already done this proof of concept in Vegas. There are working tunnels, like teleporting ",
+  "link": "https://x.com/cb_doge/status/2101740165089919168",
+  "judge_interest": 4,
+  "scout_score": 51.0
+ },
+ "gate_a_relaxed": true
+}
