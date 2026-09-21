@@ -1,0 +1,17 @@
+{
+ "pick": 11,
+ "title": "How Figure is manufacturing robots at scale",
+ "title_candidates": [
+  "Figure is spending $3.5 billion to put a robot in your home",
+  "Figure is spending $6 billion so that every home has its own robot",
+  "Figure's plan to manufacture enough robots to put one in every home",
+  "Figure locked 100,000 AI chips to make the home robot real",
+  "Figure's $3.5 billion bet that you will own a robot within a few years"
+ ],
+ "caption": "Figure has committed $3.5 billion to run 100,000 AI chips on NVIDIA's newest computing platform, with plans to scale that number beyond $6 billion. That is not a research budget. It is a manufacturing bet.\n\nThe logic is straightforward: getting a robot into every home requires a massive amount of computing power to train robots that can walk into a house they have never seen before and start working immediately. The chips are what make that possible at real scale.\n\nMost people assume home robots are still decades away. Figure's spending schedule says otherwise.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: Figure_robot. DM for credit or removal\n\n#robotics #AI #humanoidrobots #futuretech #AIrobots",
+ "start_s": 6,
+ "clip_s": 27,
+ "source": "https://video.twimg.com/amplify_video/2095499366857584641/vid/avc1/1920x1080/gjGHlb94aD6syzOA.mp4?tag=29",
+ "channel": "Figure_robot",
+ "publish": "make"
+}
