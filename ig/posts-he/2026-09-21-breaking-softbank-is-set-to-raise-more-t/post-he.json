@@ -1,0 +1,82 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "OpenAI שורדת על הלוואות זבל: <em>עשרים ושישה מיליארד דולר</em> כאלה השנה בלבד",
+   "hsize": 72,
+   "media": "posts/2026-09-21-breaking-softbank-is-set-to-raise-more-t/gen-0.jpg",
+   "image_prompt": "Sam Altman panicking buried under mountains of cash and debt papers, with the OpenAI logo in a big circle next to him",
+   "gen_person": true
+  }
+ ],
+ "caption": "OpenAI שורדת על הלוואות שבנקים נותנים לחברות שאולי לא יחזירו. 26 מיליארד דולר כאלה ב-2026 בלבד. 💸\n\nכולם חשבו שחברות ענק עם הרבה מזומנים הן שמממנות את כל הבום של AI. לא ממש. SoftBank כבר לוותה כ-15 מיליארד דולר בהלוואות הכי מסוכנות שיש ב-2026 בלבד, ועכשיו מגייסת עוד 11 מיליארד דולר כאלה, בדיוק באותן ריביות. ריביות שבנקים גובים מחברות שהם לא בטוחים שיחזירו.\n\nזה הופך את SoftBank ללווה הגדולה ביותר בדרגת הסיכון הזאת בכל שוקי החוב עכשיו. לא שניה. הגדולה ביותר. ועדיין לוקחת עוד 11 מיליארד דולר.\n\nכשהעסקה תיסגר, ל-SoftBank יהיה חוב של 26 מיליארד דולר עבור OpenAI השנה בלבד. כל ה-26 מיליארד דולר מהמרים על דבר אחד: שOpenAI תרוויח מספיק כסף, מהר מספיק, כדי להחזיר. אם לא, זה לא יישאר בעיה של הייטק. חוב בסדר גודל כזה מתפשט. אם יש לך חסכונות שהשקיעו חלק מהכסף בחוב כזה, גם אתה בהפסד.\n\nהטכנולוגיה שמוכרים לנו כהמצאה הכי חשובה שהייתה לציוויליזציה שורדת רק בזכות הלוואות שנותנים לחברות שאולי לא יחזירו. זה לא דעה. זה בדיוק מה שדירוג זבל אומר.\n\nההימורים הכי גדולים על AI עכשיו לא ממומנים מרווחים. הם ממומנים מחוב מסוכן. אם ההכנסות לא יגיעו בקרוב, הסיפור הזה יפסיק להיות על טכנולוגיה ויתחיל להיות על משבר פיננסי.\n\nמנהל עסק? שלח לנו \"AI\" בהודעה ונראה לך מה זה יכול לעשות לשלך.\n\nמקורות: Bloomberg, The Kobeissi Letter\n\nעקבו אחרינו @ainews.israel לעוד חדשות AI כל יום.\n\n#AI #OpenAI #SoftBank #investing #technology",
+ "pinned_comment": "Bloomberg תיארה את זה כפעילות חוב חסרת תקדים למימון AI. כדאי לדעת: ריביות זבל הן בדיוק הדרגה שמלווים שומרים לחברות שהם לא בטוחים שיחזירו להם. זה הבסיס הפיננסי שמשאיר את חברת ה-AI הכי שווה בהיסטוריה על הרגליים עכשיו.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "<em>OPENAI IS BEING KEPT ALIVE</em> BY $11 BILLION IN JUNK BONDS",
+   "OPENAI IS RUNNING ON JUNK BONDS, <em>$26 BILLION BORROWED</em> IN ONE YEAR",
+   "OPENAI JUST MADE ITS BACKER <em>THE BIGGEST JUNK BOND BORROWER ON EARTH</em>",
+   "OPENAI IS NOW BACKED BY <em>$26 BILLION IN JUNK BONDS</em> FROM ONE INVESTOR",
+   "OPENAI JUST GOT <em>$11 BILLION IN JUNK BONDS</em>, THE DEBT FOR COMPANIES BANKS DOUBT",
+   "OPENAI IS BACKED BY <em>$11 BILLION IN JUNK BONDS</em>, THE KIND THAT BLOWS UP",
+   "OPENAI JUST GOT <em>$11 BILLION IN JUNK BONDS</em>, ONE OF THE BIGGEST DEALS EVER"
+  ],
+  "scores": [
+   7,
+   9,
+   8,
+   0,
+   7,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "$26 BILLION IN ONE YEAR is the gut-punch number that stops scrolling—scale is instantly shocking to everyone. 'Blows up' from [5] has visceral punch, but raw numbers beat metaphors for stopping a 2am scroller."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "CHATGPT IS FUNDED BY <em>$26 BILLION IN JUNK BONDS</em>, WALL STREET'S RISKIEST DEBT",
+   "OPENAI IS RUNNING ON JUNK BONDS, <em>$26 BILLION BORROWED</em> IN ONE YEAR",
+   "OPENAI'S BACKER IS <em>2026'S BIGGEST JUNK BOND BORROWER</em>, AT <em>$26 BILLION</em> AND COUNTING",
+   "OPENAI IS BACKED BY <em>WALL STREET'S RISKIEST DEBT</em>, ALL <em>$26 BILLION</em> THIS YEAR"
+  ],
+  "scores": [
+   6,
+   8.5,
+   8,
+   7
+  ],
+  "winner": 1,
+  "why": "The one-year timeframe in [1] is impossible-sounding shock that stops you instantly. [2]'s 'biggest borrower' angle is wild but needs a beat to land, and impact is about speed."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SoftBank",
+  "actor_known": false,
+  "anchor": "OpenAI",
+  "specifics": [
+   "$11 billion+ junk bond deal — one of the biggest ever",
+   "Junk bonds = Wall Street's riskiest debt tier, priced for possible default",
+   "$15 billion already borrowed by SoftBank in 2026 alone",
+   "SoftBank is the single biggest junk-rated borrower in all of bond markets this year",
+   "All of it to fund OpenAI — the company behind ChatGPT"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: SoftBank is set to raise more than $11 billion, in what will be one of the biggest junk bond deals ever, to fund a follow-on investment in OpenAI, per Bloomberg. As part of its funding campaign this year, SoftB",
+  "link": "https://x.com/KobeissiLetter/status/2101858927574954232",
+  "judge_interest": 4,
+  "scout_score": 49.5
+ },
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

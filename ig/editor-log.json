@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-16T19:28:35Z",
-  "gate": "A",
-  "subject": "BREAKING: The 10Y Note Yield rises to 5.04%, its highest level since July 2007. This pushes the average interest rate on",
-  "verdict": "KILL",
-  "reason": "Market routine data with no tech/AI angle, actor, or story — this is the explicitly banned 'stocks-rose-today' category."
- },
- {
   "t": "2026-09-16T19:29:15Z",
   "gate": "A",
   "subject": "Hi. 😊 Swedish dude here again. When we have kids. we get 480 paid parental leave days. Per child. 390 days at ~80% of pa",
@@ -2098,5 +2091,12 @@
   "subject": "ELON MUSK SPENT <em>6 MINUTES</em> EXPLAINING HIS COMPANY'S DAD JOKE: <em>BORING MEANS DRILLING</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-21T21:45:42Z",
+  "gate": "A",
+  "subject": "Hey @Grok, YES or NO Did the Israeli government just pay TRUMP’S FORMER CAMPAIGN MANAGER MILLIONS for an operation expli",
+  "verdict": "KILL",
+  "reason": "Unconfirmed allegation with zero supporting facts, documentation, or verification—all three core claims (payment made, actor involved, operation executed) exist only as an unverified question to Grok, not as confirmed events reality moved upon."
  }
 ]
