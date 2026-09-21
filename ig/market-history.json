@@ -1,26 +1,6 @@
 [
  {
   "page": "technology",
-  "hook": "\"Grand Theft Auto: Vice City arrived in 2002 and transported players into a neon-soaked fictional take on 1980s Miami, becoming one of Rockstar\u2019s defining open-world games.\n\nSet in 1986, Vice City followed Tommy Vercetti",
-  "date": "2026-09-06"
- },
- {
-  "page": "technology",
-  "hook": "\"Apple Maps has a tiny detail at Apple Park that most people would probably scroll right past.\n\nZoom into the Apple Park Visitor Center and you can actually spot the miniature campus model inside.\n\nThat same model is use",
-  "date": "2026-09-06"
- },
- {
-  "page": "mashable",
-  "hook": "\"No bad edits here. Jeremiah Brown's streams are 100% authenically him. \u2060\n\u2060\nHead to the link in bio for the full interview.\u2060\n#creatorplaybook\".",
-  "date": "2026-09-06"
- },
- {
-  "page": "wired",
-  "hook": "\"In 2025, AI deepfakes flooded Tinder. According to the company, 98 percent of the content-moderation actions on the app were focused on combating fake accounts, scamming, and spam, pushing the company to expand its mode",
-  "date": "2026-09-06"
- },
- {
-  "page": "technology",
   "hook": "\"The 22 year old Kick creator now has an always-on AI clone, built on GPT-6 Astra and Higgsfield, that can churn out content 24/7 even when the real N3on logs off. The Kick stream is titled \u201cFirst Ever Infinite AI Stream",
   "date": "2026-09-07"
  },
@@ -30,34 +10,14 @@
   "date": "2026-09-07"
  },
  {
-  "page": "technology",
-  "hook": "\"A young student spent months cleaning polluted stretches of the Ajnar River, turning a personal mission into work that eventually caught global attention \ud83c\udf0a\ud83c\udf0d\n\nSurendra Singh Choudhary, known as Bittu, began the cleanup o",
-  "date": "2026-09-06"
- },
- {
-  "page": "futurism",
-  "hook": "\"A group of software engineers who say they were fired by their bosses because of AI are giving their former employers a taste of their own medicine.\n\nWith the powers of spite and friendship, they\u2019ve built \u201cOpenExecutive",
-  "date": "2026-09-06"
- },
- {
   "page": "mashable",
   "hook": "\"How Apple lost its cool (And How It Can Get It Back) \ud83e\udd14\u2060\n#apple #iphone #iphone18\u2060\".",
   "date": "2026-09-08"
  },
  {
-  "page": "techcrunch",
-  "hook": "\"How do you convince investors to take a brand-new startup seriously?\n\nDr. Eike Gerhardt calls the challenge the \u201cliability of newness\u201d: the earlier your company is, the fewer signals you have to establish credibility.\n\n",
-  "date": "2026-09-06"
- },
- {
   "page": "wired",
   "hook": "\"Though AI has seeped into every step of the job hunt for both applicants and recruiters, it has taken time to catch on in interviews. Voice AI is infamously tricky to pull off, as agents get tripped up by accents or \u201cum",
   "date": "2026-09-07"
- },
- {
-  "page": "wired",
-  "hook": "\"This week, WIRED senior writer Kate Knibbs reported on how an alliance of tech startups, MAHA operatives, and actual medical experts made millennial women the new face of hormone therapy.\n\nThe article generated a lot of",
-  "date": "2026-09-06"
  },
  {
   "page": "technology",
@@ -648,5 +608,35 @@
   "page": "wired",
   "hook": "\"A summer that started early across the US has no intention of quitting, even as the calendar turns to autumn.\n\nThe culprits? El Ni\u00f1o and climate change, which contributed to this summer\u2019s record-breaking warmth and are ",
   "date": "2026-09-19"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Developer Rik Arends has turned Chromium\u2019s enormous source tree into a navigable 3D environment, letting people move through roughly 51 million lines of code like a digital city.\n\nRather than placing the whole repositor",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "technology",
+  "hook": "\"LimX Dynamics\u2019 Tron 2 combines wheels and legs in one robot, allowing it to roll efficiently on flat surfaces before climbing stairs step by step.\n\nIts vision system helps the robot recognise the environment and plan it",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to explore major developments from the last 24 hours, spanning geopolitics, military activity, entertainment, technology, aviation and an exceptionally rare wildlife discovery \ud83c\udf0d\ud83d\udcf0\n\nThe latest developments includ",
+  "date": "2026-09-20"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"With anxiety over an AI doomsday reaching a fever pitch, some citizens of the world are no longer asking for regulations. Case in point: Earlier this week, the offices of two Canadian AI labs were ransacked by what poli",
+  "date": "2026-09-20"
+ },
+ {
+  "page": "wired",
+  "hook": "\"For our WIRED Women cover, Patti Harrison plays five (well, actually six) of the current masters of the universe\u2014Elon Musk, Sam Altman, Dario Amodei, Mark Zuckerberg, and Jeff Bezos (with Lauren S\u00e1nchez Bezos by his sid",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"On September 10, two days after researcher Jacob Coxon, who had recently quit his job at Anthropic, sounded the alarm about the industry potentially bringing about the end of humanity, the New York City Democratic Socia",
+  "date": "2026-09-20"
  }
 ]

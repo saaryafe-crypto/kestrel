@@ -1,165 +1,93 @@
 {
- "updated": "2026-09-20T17:28:36+00:00",
+ "updated": "2026-09-21T12:49:28+00:00",
  "competitor_hits": [
   {
-   "page": "mashable",
-   "likes": 4588,
-   "ratio": 4.66,
-   "tier": "mega",
-   "hook": "\"Happy Apple iPhone day to all who celebrate!\ud83d\udcf1\".",
-   "date": "2026-09-18"
-  },
-  {
    "page": "wired",
-   "likes": 3653,
-   "ratio": 4.26,
-   "tier": "mega",
-   "hook": "\"European lawmakers are calling for an investigation into Meta after the mass suspension of accounts posting about anti-government protests in Albania, in what observers believe is a coordinated brigading attack.\n\n\u201cWhat ",
-   "date": "2026-09-18"
-  },
-  {
-   "page": "wired",
-   "likes": 3581,
-   "ratio": 4.17,
-   "tier": "mega",
-   "hook": "\"Flock Safety announced a voluntary employee separation program on Friday, offering a \u201cgenerous\u201d severance package to those who want to leave amid growing backlash against the surveillance technology company, according t",
-   "date": "2026-09-18"
-  },
-  {
-   "page": "wired",
-   "likes": 3174,
-   "ratio": 3.7,
+   "likes": 17000,
+   "ratio": 20.57,
    "tier": "mega",
    "hook": "\"The free mobile app ZuckOff, built by 30-year-old Polish developer Pawel Szydlowski, uses a Bluetooth detection system to tell you whether there is a pair of smart glasses in the room with you.\n\nSince its launch in Augu",
    "date": "2026-09-20"
   },
   {
    "page": "wired",
-   "likes": 1317,
-   "ratio": 1.53,
-   "tier": "mega",
-   "hook": "\"The debate over whether AI can kill us has been everywhere lately, but what exactly would an actual AI catastrophe look like? This week, the \u201cUncanny Valley\u201d team went looking for answers and found the three real-world ",
-   "date": "2026-09-18"
-  },
-  {
-   "page": "technology",
-   "likes": 51000,
-   "ratio": 1.38,
-   "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from Apple\u2019s latest hardware to new experiments in drones, software and transportation \ud83c\udf0d\n\nApple\u2019s iPhone 18 Pro arrived with its first variable aper",
-   "date": "2026-09-18"
-  },
-  {
-   "page": "mashable",
-   "likes": 1047,
-   "ratio": 1.06,
-   "tier": "mega",
-   "hook": "\"iPhone 18 Pro Max in burgundy was the RIGHT choice. #apple #iphone18\".",
-   "date": "2026-09-18"
-  },
-  {
-   "page": "wired",
-   "likes": 859,
-   "ratio": 1.0,
+   "likes": 1030,
+   "ratio": 1.25,
    "tier": "mega",
    "hook": "\"An at-home wearable for the treatment of depression is now available by prescription in the US.\n\nWith roughly one in six American adults taking an antidepressant medication, Swedish firm Flow Neuroscience is positioning",
    "date": "2026-09-19"
   },
   {
-   "page": "techcrunch",
-   "likes": 52,
-   "ratio": 0.67,
+   "page": "wired",
+   "likes": 623,
+   "ratio": 0.75,
    "tier": "mega",
-   "hook": "\"AI leaders are suddenly talking about \"pacing the frontier,\" but the specifics are still pretty fuzzy.\n\nEquity breaks down why we're skeptical that the AI industry is actually headed for a slowdown, even as leaders at A",
-   "date": "2026-09-18"
+   "hook": "\"On September 10, two days after researcher Jacob Coxon, who had recently quit his job at Anthropic, sounded the alarm about the industry potentially bringing about the end of humanity, the New York City Democratic Socia",
+   "date": "2026-09-20"
   },
   {
    "page": "wired",
-   "likes": 548,
-   "ratio": 0.64,
+   "likes": 606,
+   "ratio": 0.73,
    "tier": "mega",
    "hook": "\"A summer that started early across the US has no intention of quitting, even as the calendar turns to autumn.\n\nThe culprits? El Ni\u00f1o and climate change, which contributed to this summer\u2019s record-breaking warmth and are ",
    "date": "2026-09-19"
   },
   {
-   "page": "wired",
-   "likes": 497,
-   "ratio": 0.58,
-   "tier": "mega",
-   "hook": "\"Concerns about an AI-induced apocalypse are reaching a fever pitch, from Silicon Valley to Washington, DC.\n\nOne of the top theories about how a rogue AI will wipe us out? Biological weapons.\n\nEarlier this summer, AI CEO",
-   "date": "2026-09-18"
-  },
-  {
-   "page": "wired",
-   "likes": 490,
-   "ratio": 0.57,
-   "tier": "mega",
-   "hook": "\"Before two of its alleged members were arrested and charged in Australia last month, the hacker group known as TeamPCP carried out a hacking spree unlike any other in history. It tainted hundreds of open-source programs",
-   "date": "2026-09-18"
-  },
-  {
-   "page": "wired",
-   "likes": 427,
-   "ratio": 0.5,
-   "tier": "mega",
-   "hook": "\"Many AI researchers seem to firmly believe that the technology they are developing could someday prove very dangerous. What\u2019s less clear\u2014even among AI\u2019s technical elite\u2014is precisely how to keep these mercurial algorithm",
-   "date": "2026-09-18"
-  },
-  {
-   "page": "futurism",
-   "likes": 2215,
-   "ratio": 0.47,
-   "tier": "mega",
-   "hook": "\"The threat of perjury has a funny way of forcing people to say the quiet parts out loud.\n\nAs a recently unsealed and unredacted motion in the ongoing legal battle between the New York Times and OpenAI and Microsoft show",
-   "date": "2026-09-18"
-  },
-  {
    "page": "technology",
-   "likes": 14000,
-   "ratio": 0.38,
-   "tier": "mega",
-   "hook": "\"Announced on X and LinkedIn by Carter Leffen, a developer at Bloomberg, Leffen says GPT-6 Astra took ten hours to break an unsolved, Enigma-encrypted message sent by a Nazi soldier on July 10, 1941. \n\nThe radio message ",
-   "date": "2026-09-18"
-  },
-  {
-   "page": "techcrunch",
-   "likes": 30,
-   "ratio": 0.38,
-   "tier": "mega",
-   "hook": "\"Would you take your startup public this early?\n\nArcher has raised nearly $4 billion, and CEO Adam Goldstein says going public was an \u201camazing decision\u201d he\u2019d make again every single time.\nBut there\u2019s a tradeoff: once you",
-   "date": "2026-09-18"
-  },
-  {
-   "page": "technology",
-   "likes": 10000,
-   "ratio": 0.27,
+   "likes": 19000,
+   "ratio": 0.68,
    "tier": "mega",
    "hook": "\"Swipe \u2b05\ufe0f to discover 9 websites that can make learning, editing, studying, content research, file management and online security surprisingly easier without installing complicated software \ud83d\udcbb\n\nLearn Anything maps topics ",
    "date": "2026-09-20"
   },
   {
    "page": "technology",
-   "likes": 7677,
-   "ratio": 0.21,
+   "likes": 10000,
+   "ratio": 0.36,
    "tier": "mega",
    "hook": "\"A modern PS5 has been connected to a black and white television from 1949, bringing more than 70 years of gaming and display technology together \ud83c\udfae\ud83d\udcfa\n\nSince the PS5 sends digital video through HDMI while the vintage telev",
    "date": "2026-09-19"
   },
   {
-   "page": "mashable",
-   "likes": 101,
-   "ratio": 0.1,
+   "page": "technology",
+   "likes": 9532,
+   "ratio": 0.34,
    "tier": "mega",
-   "hook": "\"Color \ud83d\udc4f of \ud83d\udc4f the \ud83d\udc4f season \ud83d\udc4f\u2060\n#iphone18pro\".",
-   "date": "2026-09-19"
+   "hook": "\"Swipe \u2b05\ufe0f to explore major developments from the last 24 hours, spanning geopolitics, military activity, entertainment, technology, aviation and an exceptionally rare wildlife discovery \ud83c\udf0d\ud83d\udcf0\n\nThe latest developments includ",
+   "date": "2026-09-20"
+  },
+  {
+   "page": "wired",
+   "likes": 256,
+   "ratio": 0.31,
+   "tier": "mega",
+   "hook": "\"For our WIRED Women cover, Patti Harrison plays five (well, actually six) of the current masters of the universe\u2014Elon Musk, Sam Altman, Dario Amodei, Mark Zuckerberg, and Jeff Bezos (with Lauren S\u00e1nchez Bezos by his sid",
+   "date": "2026-09-21"
+  },
+  {
+   "page": "futurism",
+   "likes": 413,
+   "ratio": 0.09,
+   "tier": "mega",
+   "hook": "\"With anxiety over an AI doomsday reaching a fever pitch, some citizens of the world are no longer asking for regulations. Case in point: Earlier this week, the offices of two Canadian AI labs were ransacked by what poli",
+   "date": "2026-09-20"
   },
   {
    "page": "technology",
-   "likes": 375,
-   "ratio": 0.01,
+   "likes": 1237,
+   "ratio": 0.04,
    "tier": "mega",
-   "hook": "\"MrBeast\u2019s latest philanthropy project helped build a nearly $10 million village in Ghana designed to tackle the conditions that can push children into cocoa farm labor \ud83c\udfd8\ud83c\udf92\n\nThe development includes a school for more than",
-   "date": "2026-09-20"
+   "hook": "\"LimX Dynamics\u2019 Tron 2 combines wheels and legs in one robot, allowing it to roll efficiently on flat surfaces before climbing stairs step by step.\n\nIts vision system helps the robot recognise the environment and plan it",
+   "date": "2026-09-21"
+  },
+  {
+   "page": "technology",
+   "likes": 975,
+   "ratio": 0.03,
+   "tier": "mega",
+   "hook": "\"Developer Rik Arends has turned Chromium\u2019s enormous source tree into a navigable 3D environment, letting people move through roughly 51 million lines of code like a digital city.\n\nRather than placing the whole repositor",
+   "date": "2026-09-21"
   }
  ],
  "reddit_hot": []
