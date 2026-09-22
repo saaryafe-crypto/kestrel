@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T09:19:35.326140+00:00",
+ "updated": "2026-09-22T11:20:57.907125+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -181,6 +181,28 @@
    "video": null,
    "guide": false,
    "born": 1788275026.745911
+  },
+  {
+   "id": "2102207241101144450",
+   "title": "Grok 4.7",
+   "sub": "elonmusk",
+   "where": "@elonmusk on X",
+   "unit": "likes",
+   "selftext": null,
+   "permalink": "https://x.com/elonmusk/status/2102207241101144450",
+   "outlink": null,
+   "score": 26731,
+   "comments_n": 1945,
+   "views": 19614984,
+   "age_h": 9.9,
+   "vph": 2692.2,
+   "image": "https://pbs.twimg.com/media/HSyKWCqW4AA5Ubh.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HSyKWCqW4AA5Ubh.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1790040417.907125
   },
   {
    "id": "2097187107651649543",
@@ -798,28 +820,6 @@
    "video": null,
    "guide": false,
    "born": 1789563086.629253
-  },
-  {
-   "id": "2102040642960425141",
-   "title": "BREAKING: Advanced Micro Devices stock, $AMD, officially crosses above $1 trillion in market cap for the first time in history. This puts the stock up +30,400% over the last 10 years. $10,000 invested in AMD in 2016 woul",
-   "sub": "KobeissiLetter",
-   "where": "@KobeissiLetter on X",
-   "unit": "likes",
-   "selftext": "BREAKING: Advanced Micro Devices stock, $AMD, officially crosses above $1 trillion in market cap for the first time in history. This puts the stock up +30,400% over the last 10 years. $10,000 invested in AMD in 2016 would be worth $3,050,000 today.",
-   "permalink": "https://x.com/KobeissiLetter/status/2102040642960425141",
-   "outlink": null,
-   "score": 7283,
-   "comments_n": 187,
-   "views": 1157107,
-   "age_h": 18.9,
-   "vph": 385.3,
-   "image": "https://pbs.twimg.com/media/HSvywkVWAAAn9oB.png",
-   "images": [
-    "https://pbs.twimg.com/media/HSvywkVWAAAn9oB.png"
-   ],
-   "video": null,
-   "guide": false,
-   "born": 1790000721.924921
   }
  ]
 }
