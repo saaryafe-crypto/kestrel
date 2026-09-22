@@ -1,23 +1,8 @@
 [
  {
-  "page": "technology",
-  "hook": "\"The 22 year old Kick creator now has an always-on AI clone, built on GPT-6 Astra and Higgsfield, that can churn out content 24/7 even when the real N3on logs off. The Kick stream is titled \u201cFirst Ever Infinite AI Stream",
-  "date": "2026-09-07"
- },
- {
-  "page": "technology",
-  "hook": "\"Someone has reportedly pushed NVIDIA\u2019s new DLSS 5 neural rendering technology into 2011\u2019s Battlefield 3, making the 15-year-old game look surprisingly cinematic \ud83c\udfae\ud83e\udd2f\n\nBattlefield 3 has no official DLSS 5 support, so this ",
-  "date": "2026-09-07"
- },
- {
   "page": "mashable",
   "hook": "\"How Apple lost its cool (And How It Can Get It Back) \ud83e\udd14\u2060\n#apple #iphone #iphone18\u2060\".",
   "date": "2026-09-08"
- },
- {
-  "page": "wired",
-  "hook": "\"Though AI has seeped into every step of the job hunt for both applicants and recruiters, it has taken time to catch on in interviews. Voice AI is infamously tricky to pull off, as agents get tripped up by accents or \u201cum",
-  "date": "2026-09-07"
  },
  {
   "page": "technology",
@@ -638,5 +623,70 @@
   "page": "wired",
   "hook": "\"On September 10, two days after researcher Jacob Coxon, who had recently quit his job at Anthropic, sounded the alarm about the industry potentially bringing about the end of humanity, the New York City Democratic Socia",
   "date": "2026-09-20"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Linkerbot is demonstrating a tendon-driven robotic hand designed for fast, dexterous manipulation, with individually articulated fingers capable of handling and repositioning relatively small objects.\n\nTendon-driven des",
+  "date": "2026-09-22"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Transparent LED film can turn existing glass surfaces into digital displays, using a thin adhesive layer containing tiny LEDs while allowing much of the background to remain visible.\n\nUnlike a conventional television pa",
+  "date": "2026-09-22"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Cactus is developing spatial AI that can measure which areas of a retail shelf receive customer attention using existing CCTV cameras connected to a digital twin of the store.\n\nThe 3D store model can be created with an ",
+  "date": "2026-09-22"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to compare the full charging times of 6 iPhone Pro Max generations, from the iPhone 13 Pro Max through the latest iPhone 18 Pro Max \ud83d\udd0b\u26a1\ufe0f\n\nIndependent wired charging tests show the iPhone 18 Pro Max reaching 100%",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Though the price to install new solar panels has been trending downward for a while, it\u2019s officially reached a new milestone: \u201coffensively cheap.\u201d\n\nProvocative new reporting by the @financialtimes highlighted the new pa",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Picking a judge on Game Changers is not a joke! #gamechangers #dropout\".",
+  "date": "2026-09-22"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Everyone knew it would be a success before it even officially came out \ud83d\udcaa\u2060\n#dropout #gamechanger #crowdcontrol #comedy\".",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Talks have begun between US and Chinese officials to propose a mechanism for the two countries to notify each other of artificial intelligence incidents which could threaten national security.\n\nThe framework, called the",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Ask who the most powerful man in tech is and many quickly say \u201cElon.\u201d Or \u201cJensen.\u201d Or \u201cSam.\u201d Wait a beat and you might hear the name of a billionaire VC whose financial capital has been broadly and ruthlessly deployed t",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"WIRED asked 634 women what they really think about working in tech. They told us about harassment, bias, unequal treatment, and the everyday indignities that still shape life in the industry.\n\nTap the \ud83d\udd17 in bio to read t",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Who is the most powerful woman in Silicon Valley? And why is this question so difficult to answer in 2026? \n\nFind out more at the \ud83d\udd17 in bio.\".",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Apple fans have long enjoyed seamless connectivity between their iPhones and Macs. Now, Google wants to bring that experience to Android.\".",
+  "date": "2026-09-21"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Here\u2019s how we transformed our cover star Patti Harrison (@party_harderson) into Elon Musk, Sam Altman, Dario Amodei, Mark Zuckerberg, and Jeff Bezos (with Lauren S\u00e1nchez Bezos by his side).\".",
+  "date": "2026-09-21"
  }
 ]
