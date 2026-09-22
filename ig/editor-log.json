@@ -1,96 +1,5 @@
 [
  {
-  "t": "2026-09-16T19:29:15Z",
-  "gate": "A",
-  "subject": "Hi. 😊 Swedish dude here again. When we have kids. we get 480 paid parental leave days. Per child. 390 days at ~80% of pa",
-  "verdict": "KILL",
-  "reason": "Off-brand: a social-policy fact with no AI/tech/company/finance/space lens, so it fails the wow-fact qualification despite strong numbers."
- },
- {
-  "t": "2026-09-16T19:29:24Z",
-  "gate": "A",
-  "subject": "Thought this was a joke, but i double checked. US Gov Federal Register use distilled Qwen models in their search mode. T",
-  "verdict": "KILL",
-  "reason": "Unconfirmed single-tweet claim with no supporting evidence, timeline, or consequence; the writer would have to pad substantially from zero confirmed facts."
- },
- {
-  "t": "2026-09-16T19:29:39Z",
-  "gate": "A",
-  "subject": "Blizzard’s inability to solve the login problem on their product launch day reminds me of the classic Forster essay: The",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: a literary comparison to routine launch problems with no product identified, scale, or real-world consequence to build slides from."
- },
- {
-  "t": "2026-09-16T19:30:47Z",
-  "gate": "A",
-  "subject": "We’re introducing Gemini 3.8 Live and 3.8 Live Extended Thinking – our best conversational AI. The models talk, think, a",
-  "verdict": "KILL",
-  "reason": "Empty launch preview with no demo shown and no substantive event—routine Google model update that cannot fill slides without padding."
- },
- {
-  "t": "2026-09-16T19:30:52Z",
-  "gate": "A",
-  "subject": "SpaceX President Gwynne Shotwell on data centers in space: “There is an expense to put data centers on the ground. You h",
-  "verdict": "KILL",
-  "reason": "This is Shotwell explaining SpaceX's strategic thinking about space data centers, not an announcement that something actually happened; no real-world event meets STORY LAW."
- },
- {
-  "t": "2026-09-16T19:31:24Z",
-  "gate": "A",
-  "subject": "So here's a crazy stat: Starship's upcoming 14th test flight next week, which will deliver 26 @Starlink V3 satellites to",
-  "verdict": "KILL",
-  "reason": "Routine Starship test without a major move or felt reader consequence—famous actor doesn't elevate technical progress to story bar."
- },
- {
-  "t": "2026-09-16T20:04:53Z",
-  "gate": "B",
-  "subject": "MORTGAGE RATES JUST HIT A <em>19-YEAR HIGH</em>, ADDING <em>$700 A MONTH</em> TO YOUR PAYMENT",
-  "verdict": "REJECT",
-  "reason": "EMOJI IN CAPTION BODY: The 🏠 emoji in the opening paragraph violates §4/§7's explicit ban on emojis. Remove it.; ENGAGEMENT METRIC AS SUBSTANCE IN BODY: 'The Kobeissi Letter tweeted ... and 1.3 million people clicked on it in hours' smuggles tweet traffic in as proof that the story matters. §2 bans engagement metrics as payoff in any hook; citing view counts in the body to validate significance is"
- },
- {
-  "t": "2026-09-16T20:07:00Z",
-  "gate": "B",
-  "subject": "MORTGAGE RATES JUST HIT A <em>19-YEAR HIGH</em>, ADDING <em>$700 A MONTH</em> TO YOUR PAYMENT",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-16T20:07:09Z",
-  "gate": "R",
-  "subject": "MORTGAGE RATES JUST HIT A <em>19-YEAR HIGH</em>, ADDING <em>$700 A MONTH</em> TO YOUR PAYMENT",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-16T20:57:51Z",
-  "gate": "A",
-  "subject": "BREAKING: A single Israeli Effective Altruism firm is behind OpenAI, Anthropic, and Meta cyberattacks 🧵 with help from @",
-  "verdict": "KILL",
-  "reason": "Unverified cyberattack claim from a single X account without official confirmation from companies or security researchers fails the truth requirement."
- },
- {
-  "t": "2026-09-16T23:40:25Z",
-  "gate": "A",
-  "subject": "Thought this was a joke, but i double checked. US Gov Federal Register use distilled Qwen models in their search mode. T",
-  "verdict": "APPROVE",
-  "reason": "The underlying event is substantial (US government agency adopting specific technology) and fits the news-first mandate; it doesn't hit INSTANT KILL rules; calibration principle prioritizes real events over source length; writer's research stage will verify the claim."
- },
- {
-  "t": "2026-09-16T23:40:27Z",
-  "gate": "A",
-  "subject": "Blizzard’s inability to solve the login problem on their product launch day reminds me of the classic Forster essay: The",
-  "verdict": "KILL",
-  "reason": "One thin tweet containing no facts, numbers, or consequence—no substance to build slides from."
- },
- {
-  "t": "2026-09-16T23:56:00Z",
-  "gate": "B",
-  "subject": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH FAILURE: Trump is depicted personally staring at Chinese AI on a laptop, implying he ordered or is responsible for the Federal Register's Qwen implementation — but the story never names Trump. The Federal Register is administered by the National Archives; the technical decision to embed Qwen was made by agency staff with no established connection to Trump or any White House directive. H"
- },
- {
   "t": "2026-09-16T23:58:12Z",
   "gate": "B",
   "subject": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
@@ -2098,5 +2007,96 @@
   "subject": "Hey @Grok, YES or NO Did the Israeli government just pay TRUMP’S FORMER CAMPAIGN MANAGER MILLIONS for an operation expli",
   "verdict": "KILL",
   "reason": "Unconfirmed allegation with zero supporting facts, documentation, or verification—all three core claims (payment made, actor involved, operation executed) exist only as an unverified question to Grok, not as confirmed events reality moved upon."
+ },
+ {
+  "t": "2026-09-22T00:03:06Z",
+  "gate": "A",
+  "subject": "Grok 4.7 is a strong combination of intelligence, speed &amp; low cost",
+  "verdict": "KILL",
+  "reason": "One-sentence value claim with no proof of release, benchmark data, or demonstrated real-world consequence — writer would pad rather than expand from substance."
+ },
+ {
+  "t": "2026-09-22T00:03:34Z",
+  "gate": "A",
+  "subject": "\"A computer-science degree is no longer a golden ticket,\" per WSJ",
+  "verdict": "KILL",
+  "reason": "One headline claim with no facts or consequence—a publication's opinion about a trend, not a substantive reportable event."
+ },
+ {
+  "t": "2026-09-22T00:04:55Z",
+  "gate": "A",
+  "subject": "Unitree Introducing: Unitree Dex5-S Dexterous Hand 22 Degrees of Freedom 1:1 Real-Hand Size👋 Precision biomimetic dexter",
+  "verdict": "KILL",
+  "reason": "Unknown brand's spec-sheet launch with no demonstration—banned empty-preview form (§1), routine event without real-world consequence anyone felt."
+ },
+ {
+  "t": "2026-09-22T00:05:46Z",
+  "gate": "A",
+  "subject": "\"A computer-science degree is no longer a golden ticket,\" per WSJ",
+  "verdict": "KILL",
+  "reason": "No specific event occurred—this is a WSJ opinion/trend piece with no actor, numbers, or felt consequence; fails the core requirement that 'something happened in the real world' and would force the writer to pad a listicle instead of building story slides."
+ },
+ {
+  "t": "2026-09-22T00:06:03Z",
+  "gate": "A",
+  "subject": "Grok 4.7 is a strong combination of intelligence, speed &amp; low cost",
+  "verdict": "KILL",
+  "reason": "No substance for slides—just three vague attribute claims (intelligent, fast, cheap) with no numbers, demonstration, or consequence; this is the banned launch-preview form; the writer would require heavy external padding."
+ },
+ {
+  "t": "2026-09-22T00:07:05Z",
+  "gate": "A",
+  "subject": "Unitree Introducing: Unitree Dex5-S Dexterous Hand 22 Degrees of Freedom 1:1 Real-Hand Size👋 Precision biomimetic dexter",
+  "verdict": "KILL",
+  "reason": "Routine product spec sheet from unknown brand—banned launch preview format (unknown brand teaser with no demonstration or consequence)."
+ },
+ {
+  "t": "2026-09-22T00:35:31Z",
+  "gate": "B",
+  "subject": "ELON MUSK SPENT YEARS ATTACKING AI SAFETY. <em>NOW HE'S SELLING IT.</em>",
+  "verdict": "REJECT",
+  "reason": "§7 EMOJI BAN — caption line 1 ends with 🤯. The doctrine bans emojis outright. Remove it; the sentence is punchy enough without it.; §3 IMAGE LAW — PHOTOREAL ELEMENTS REQUIRED: the four floating safety icons (green-checkmark shield, red warning triangle, green lock, blue biohazard shield) in the cover composite are clearly neon vector illustrations, not photographed elements. The doctrine states ev"
+ },
+ {
+  "t": "2026-09-22T00:37:07Z",
+  "gate": "B",
+  "subject": "ELON MUSK SPENT YEARS ATTACKING AI SAFETY. <em>NOW HE'S SELLING IT.</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK IS TWO SENTENCES (§2): 'ELON MUSK SPENT YEARS ATTACKING AI SAFETY. NOW HE'S SELLING IT.' — Hook Law requires ONE complete sentence. Fix: merge into one, e.g., 'ELON MUSK SPENT YEARS ATTACKING AI SAFETY AND IS NOW USING IT AS HIS TOP SELLING POINT FOR GROK 4.7.'; COVER IMAGE: ILLUSTRATED ICONS VIOLATE PHOTOREAL LAW (§3): The neon safety icons floating in the background — the shield with checkm"
+ },
+ {
+  "t": "2026-09-22T00:39:13Z",
+  "gate": "B",
+  "subject": "ELON MUSK ATTACKED AI SAFETY FOR YEARS <em>AND NOW HE'S SELLING IT.</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — non-photoreal elements: the four floating safety icons behind Musk (neon shield-with-checkmark, red warning triangle, glowing padlock, biohazard shield) read as digital illustrations/icon overlays, not as photographed objects. The law is unambiguous: 'every ELEMENT in the frame must read as photographed — real skin, real product, real logo mark, real photo fragments. A frame or any ele"
+ },
+ {
+  "t": "2026-09-22T00:40:00Z",
+  "gate": "A",
+  "subject": "\"A computer-science degree is no longer a golden ticket,\" per WSJ",
+  "verdict": "KILL",
+  "reason": "Trend observation with zero numbers, event, or protagonist — this is a WSJ claim without proof or consequence to build from; it's guide-lane listicle territory (the exact repetitive content the owner flagged as the page's #1 failure), not a story."
+ },
+ {
+  "t": "2026-09-22T00:40:14Z",
+  "gate": "A",
+  "subject": "Unitree Introducing: Unitree Dex5-S Dexterous Hand 22 Degrees of Freedom 1:1 Real-Hand Size👋 Precision biomimetic dexter",
+  "verdict": "KILL",
+  "reason": "Unknown-brand product announcement with routine specs, scout interest 4/10 below exception threshold, no real consequence or jaw-dropping event."
+ },
+ {
+  "t": "2026-09-22T00:58:30Z",
+  "gate": "B",
+  "subject": "WSJ JUST DECLARED YOUR CS DEGREE <em>IS NO LONGER A GOLDEN TICKET</em>",
+  "verdict": "REJECT",
+  "reason": "Hook is an aphorism with no wild specific — 'no longer a golden ticket' is a borrowed phrase, not a dinner detail. The doctrine requires actor + what happened + the wild specifics in the hook itself. No number, no concrete consequence. Fix: add the actual fact that makes the jaw drop — e.g., 'WSJ SAYS CS GRADS ARE NOW THE FIRST ONES PUSHED OUT BY THE AI THEY PAID $100,000 TO LEARN TO BUILD'.; 🎓 em"
+ },
+ {
+  "t": "2026-09-22T00:59:06Z",
+  "gate": "R",
+  "subject": "WSJ JUST DECLARED YOUR CS DEGREE <em>IS NO LONGER A GOLDEN TICKET</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

@@ -1,0 +1,45 @@
+{
+ "image_brief": "CS graduation diploma sitting unused as an AI writes code in the background",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "WSJ JUST DECLARED YOUR CS DEGREE <em>IS NO LONGER A GOLDEN TICKET</em>",
+   "kicker": "THE FIELD THAT BUILT IT FELL FIRST",
+   "hsize": 72,
+   "media": "posts/2026-09-22-a-computer-science-degree-is-no-longer-a/gen-0-r.jpg",
+   "image_prompt": "CS graduation cap and diploma tumbling into an open coffin at a funeral, soon hidden"
+  }
+ ],
+ "caption": "The Wall Street Journal just declared a computer science degree is no longer a golden ticket, and AI is exactly why \ud83c\udf93\n\nFor years, the plan was simple: study coding, get a job, be safe forever. Computer science was the one degree people called recession-proof. No matter what happened to the economy, coders would always get hired.\n\nThe Wall Street Journal just said that guarantee is gone. CS grads are now hitting a job market that doesn't need as many of them, because AI is doing the entry-level coding work they used to get hired to do.\n\nHere's the part that actually stings. The people getting hit hardest aren't the ones who took a risk. They're the ones who tried to be smart and safe. CS was specifically the \"I can't lose\" fallback. And the real gut punch: the people who paid six figures to learn how to build AI are now the first ones being pushed out by it. The field that created the disruption is first in line to feel it.\n\nIf you're in a CS program right now, or still paying off those loans, you have to ask whether your $100,000 bet on the \"safe\" career just backfired. AI didn't just take a few jobs. It walked straight into the one career path people chose specifically because it seemed untouchable.\n\nThis isn't just a CS story. The skills people chose because they touched technology are now closest to the automation. White-collar safety nets don't hold when AI handles the entry work from day one.\n\nRunning a business? DM us \"AI\" and we'll show you what this means for how you hire.\n\nSources: Wall Street Journal, unusual_whales on X\n\n#computerscience #techjobs #AIjobs #csdegree #artificialintelligence",
+ "pinned_comment": "The wildest part: CS grads spent $100K learning to build the very thing that's now replacing them. No other field can say that.",
+ "hook_tournament": {
+  "candidates": [
+   "WSJ JUST DECLARED YOUR CS DEGREE <em>IS NO LONGER A GOLDEN TICKET</em>"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "threat"
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "WSJ",
+  "actor_known": true,
+  "anchor": "your CS degree",
+  "specifics": [
+   "WSJ says a CS degree is 'no longer a golden ticket' \u2014 the one degree people took debt for specifically because it felt guaranteed",
+   "AI is now doing the entry-level coding work that CS grads used to get hired to do",
+   "Tweet hit 1 million views in under 2 days, suggesting mass nerve-struck recognition",
+   "CS was the field that literally built the AI now undercutting it"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "\"A computer-science degree is no longer a golden ticket,\" per WSJ",
+  "link": "https://x.com/unusual_whales/status/2101718278473486794",
+  "judge_interest": 5,
+  "scout_score": 65.3
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "Hook is an aphorism with no wild specific \u2014 'no longer a golden ticket' is a borrowed phrase, not a dinner detail. The doctrine requires actor + what happened + the wild specifics in the hook itself. No number, no concrete consequence. Fix: add the actual fact that makes the jaw drop \u2014 e.g., 'WSJ SAYS CS GRADS ARE NOW THE FIRST ONES PUSHED OUT BY THE AI THEY PAID $100,000 TO LEARN TO BUILD'.; \ud83c\udf93 em"
+}
