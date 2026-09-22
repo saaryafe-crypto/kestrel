@@ -1,0 +1,78 @@
+{
+ "media_idx": 1,
+ "image_brief": "Tesla Model 3 parked at an empty dealership lot with a sold-out sign on the windshield",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TESLA, <em>ONCE MOCKED FOR MISSING TARGETS,</em> JUST SOLD OUT OF NEW CARS FOR 2026",
+   "kicker": "NEW ORDERS SHIP IN 2027",
+   "hsize": 72,
+   "media": "posts/2026-09-22-teslas-sold-out-in-the-u-s-for-2026-new-/gen-0.jpg",
+   "image_prompt": "Elon Musk triumphant as Tesla sells out every 2026 car, with the Tesla logo in a big circle next to him",
+   "gen_person": true
+  }
+ ],
+ "caption": "Tesla is sold out for 2026 in the U.S. New orders won't arrive until 2027.\n\nSomeone sat down last night to finally order that Tesla they'd been putting off. Picked the color, picked the trim. Tesla's website told them: not this year.\n\nThe Model 3 RWD is completely gone for 2026 new orders in the U.S. So is the Model Y Launch Series. The Model Y RWD and Model Y AWD are almost gone too. That's nearly every new Tesla you can buy in America, wiped out before the year is even over. Anyone ordering today gets pushed to 2027 automatically.\n\nFor years, Tesla was the company that couldn't build cars fast enough. People mocked them constantly for missing targets and pushing delivery dates. Now they've run out of new cars to sell for the entire year. Your options today: wait until 2027, or pay extra on the used market.\n\nTesla's biggest problem used to be supply. Now it's the opposite.\n\nRunning a business? DM us \"AI\" and let's talk about what demand shifts like this one mean for yours.\n\nSources: Sawyer Merritt on X\n\n#Tesla #ElectricVehicles #ModelY #Model3 #EV",
+ "pinned_comment": "If you had to choose right now: wait until 2027 for a new one, or pay the premium on used? Most people end up doing the one they said they never would.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "TESLA IS <em>SOLD OUT IN THE U.S.</em> FOR ALL OF 2026",
+   "YOU CANNOT ORDER A NEW TESLA <em>AND GET IT THIS YEAR</em>",
+   "YOU CAN'T ORDER <em>A NEW TESLA</em> RIGHT NOW AND GET IT THIS YEAR",
+   "TESLA JUST <em>RAN OUT OF NEW CARS</em> TO SELL FOR 2026 IN THE U.S.",
+   "TESLA, <em>ONCE MOCKED FOR MISSING TARGETS,</em> JUST SOLD OUT OF NEW CARS FOR 2026",
+   "TESLA JUST SOLD OUT THE MODEL 3 <em>AND MODEL Y FOR 2026</em>",
+   "TESLA JUST SOLD OUT <em>EVERY 2026 NEW ORDER IN THE U.S.</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   8,
+   8,
+   9,
+   7,
+   0
+  ],
+  "winner": 4,
+  "why": "[4] has narrative irony\u2014mocked Tesla suddenly sold out\u2014that hooks curiosity instantly. [1-3] all deliver urgency but lack the story element that makes you stop scrolling."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "TESLA SOLD OUT <em>EVERY 2026 DELIVERY</em> \u2014 WANT ONE NOW? YOU'RE WAITING <em>UNTIL 2027</em>",
+   "TESLA JUST SOLD OUT <em>3 MONTHS EARLY</em> \u2014 NEW CAR ORDERS NOW GO TO <em>2027</em>",
+   "TESLA JUST SOLD OUT <em>ALL OF 2026</em> \u2014 ORDER TODAY AND WAIT <em>UNTIL 2027</em>",
+   "TESLA, <em>ONCE MOCKED FOR MISSING TARGETS,</em> JUST SOLD OUT OF NEW CARS FOR 2026"
+  ],
+  "scores": [
+   7,
+   8,
+   6,
+   8.5
+  ],
+  "winner": 3,
+  "why": "The redemption arc in [3]\u2014Tesla flipping from being mocked for delays to actually selling out\u2014hits with immediate narrative contrast that makes you think 'wait, WHAT?'; [1]'s timing specificity is impressive but less emotionally compelling than a story about reversal."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Tesla",
+  "actor_known": true,
+  "anchor": "Tesla",
+  "specifics": [
+   "You can no longer order a new Tesla Model 3 or Model Y for delivery in 2026 \u2014 they're sold out",
+   "Four models affected: Model 3 RWD, Model Y L Launch Series sold out; Model Y RWD and AWD nearly gone",
+   "New orders now push buyers into 2027",
+   "Reported September 21, 2026 with 693.8K views on X"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Teslas sold out in the U.S. for 2026 (new orders): \u2022 Model 3 RWD \u2022 Model Y L Launch Series Teslas almost sold out in the U.S. for 2026 (new orders): \u2022 Model Y RWD \u2022 Model Y AWD",
+  "link": "https://x.com/SawyerMerritt/status/2102152351515611445",
+  "judge_interest": 6,
+  "scout_score": 74.2
+ },
+ "gate_a_relaxed": true
+}

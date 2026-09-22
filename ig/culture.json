@@ -1,61 +1,61 @@
 {
- "ts": 1790023250.5428345,
- "updated": "2026-09-21",
+ "ts": 1790112657.5181637,
+ "updated": "2026-09-22",
  "hot": [
   {
    "name": "Olivia Rodrigo",
-   "why_hot_now": "The Unraveled Tour launches this Friday in Hartford—her biggest stadium run yet supporting her third album.",
-   "typical_scene": "opening-night mic drop in sparkly outfit, sold-out stadium losing its mind"
+   "why_hot_now": "The Unraveled Tour kicks off September 25 in Hartford, with 86 arena dates already selling out worldwide.",
+   "typical_scene": "belting tour anthems in crowd-crush arena, merch tees everywhere"
   },
   {
-   "name": "Glen Powell",
-   "why_hot_now": "Chad Powers Season 2 dropped on Hulu September 3 and immediately scored 100% on Rotten Tomatoes.",
-   "typical_scene": "on a college football field in a fake mustache doing a terrible Southern accent"
+   "name": "Charli XCX",
+   "why_hot_now": "Music, Fashion, Film Tour is mid-run — Toronto was Sunday, Boston is Wednesday.",
+   "typical_scene": "stage-diving in a metallic Y2K fit to a packed arena crowd"
   },
   {
-   "name": "Jeremy Allen White",
-   "why_hot_now": "Anointed the internet's unofficial 'Sexiest Man Alive 2026' after viral shirtless beach photos circulated in July, still dominating TikTok.",
-   "typical_scene": "shirtless on a boardwalk squinting in the sun, friends playing backgammon nearby"
+   "name": "Resident Evil",
+   "why_hot_now": "Zach Cregger's reboot shattered franchise records with a $60M opening weekend.",
+   "typical_scene": "dark corridors, R-rated monster chaos, sold-out theater screaming"
   },
   {
-   "name": "Jean Smart",
-   "why_hot_now": "Won her fifth consecutive Emmy for the final season of Hacks last week, tying the all-time record for most Emmy wins by any single performer.",
-   "typical_scene": "standing ovation on the Emmy stage, Zendaya handing her the trophy"
+   "name": "Taylor Swift",
+   "why_hot_now": "Her wedding went instantly viral after Ed Sheeran appeared as a surprise performer.",
+   "typical_scene": "bridal white, fairy-tale reception, internet collectively losing its mind"
   },
   {
-   "name": "The Pitt",
-   "why_hot_now": "Swept last week's Emmys—Best Drama Series plus Noah Wyle's second straight Best Actor win—cementing it as TV's reigning show.",
-   "typical_scene": "chaotic ER trauma bay under flickering fluorescent lights, doctors sprinting and shouting"
+   "name": "Ed Sheeran",
+   "why_hot_now": "Internet exploded after he showed up to perform a surprise set at Taylor Swift's wedding.",
+   "typical_scene": "acoustic guitar at a wedding reception, sheepish grin mid-song"
   },
   {
-   "name": "Matthew Rhys",
-   "why_hot_now": "Made Emmy history September 14—first actor ever to win two lead acting awards in the same night (comedy and limited series).",
-   "typical_scene": "standing onstage looking stunned, holding two Emmy trophies at once"
+   "name": "Rhea Seehorn",
+   "why_hot_now": "Won her first-ever Emmy for Pluribus, Vince Gilligan's Apple TV+ sci-fi thriller, on September 14.",
+   "typical_scene": "tearful Emmy acceptance speech in ballgown, trophy raised overhead"
   },
   {
-   "name": "Erling Haaland",
-   "why_hot_now": "His mid-sprint World Cup freeze-frame became the summer's defining sports meme and is still everywhere on social media.",
-   "typical_scene": "arms pumping at full speed across a World Cup pitch in Norway's white kit"
+   "name": "Noah Wyle",
+   "why_hot_now": "Won back-to-back Best Drama Actor Emmys for The Pitt, cementing the show's dominance.",
+   "typical_scene": "scrubs and stethoscope, tense sprint down an ER hallway"
   },
   {
-   "name": "Lamine Yamal",
-   "why_hot_now": "Led Spain to the 2026 World Cup title at 18 and emerged as the tournament's global breakout star.",
-   "typical_scene": "dropping to his knees kissing the turf after Spain's final whistle"
+   "name": "Widow's Bay",
+   "why_hot_now": "Set the all-time Emmy record with 14 wins in a single year, including Outstanding Comedy Series.",
+   "typical_scene": "darkly comic suburban Gothic aesthetic, moody Apple TV cinematic palette"
   }
  ],
  "memes": [
-  "\"Saxophone Gets Louder\" — video starts calm and mundane, then chaos erupts as a blaring 80s sax riff kicks in with a dramatic freeze-frame zoom",
-  "\"My American Girl Doll\" audio — creators reveal their adult equivalent of a prized childhood possession using a child's clip of unfiltered joy",
-  "Ancestor Photo Prank — slipping a random celebrity headshot into a picture frame and presenting it deadpan as a long-lost great-grandparent",
-  "\"Group 7\" — users frantically claim membership in a fictional exclusive TikTok club sparked by a creator's seven-lookalike viral series",
-  "\"2026 is the new 2016\" — celebrities posting grainy mirror selfies and heavy-filter throwbacks cosplaying peak mid-2010s internet aesthetics",
-  "KitKat Heist — jokes riffing on the real theft of 400,000 KitKat bars in Europe, imagining increasingly elaborate Ocean's-Eleven-style masterminds"
+  "\"Saxophone Gets Louder\" — any mundane situation escalated by increasingly deafening sax music dubbed over it",
+  "Erling Haaland's 2026 World Cup sprint photoshopped into random scenarios captioned as someone charging toward a deadline or cringe moment",
+  "\"Kinda Chic to…\" — pairing luxury/aspirational language with deeply unglamorous situations (e.g. 'kinda chic to cry in a Panera')",
+  "Half-face parent comparison videos blending your face seamlessly with a parent's to expose scary genetic overlap",
+  "\"2026 is the new 2016\" — posts framing this autumn's cultural chaos as a spiritual sequel to peak-disorder 2016",
+  "Annual September pumpkin spice performative meltdown — brands and creators theatrically losing their minds the moment fall arrives"
  ],
  "ai_flagships": [
-  "Claude Mythos 5.1",
+  "Claude Opus 5.5",
   "GPT-6 Astra",
-  "Gemini 3.8 Flash",
-  "Grok 4.6",
+  "Gemini 3.1 Pro",
+  "Grok 4.7",
   "Muse Spark 1.3"
  ]
 }
