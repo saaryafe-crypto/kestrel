@@ -1,96 +1,5 @@
 [
  {
-  "t": "2026-09-17T13:23:37Z",
-  "gate": "A",
-  "subject": "THE SANDBOX WAS A PROP! OpenAI Turned Off the Guardrails, Left a Door to the Internet, and Then Sold the Hugging Face Br",
-  "verdict": "KILL",
-  "reason": "Unverified conspiracy claims from a single truncated X post with zero corroborating evidence, mainstream news coverage, or verifiable documentation."
- },
- {
-  "t": "2026-09-17T18:11:01Z",
-  "gate": "B",
-  "subject": "YOUR COMPETITORS ARE ALREADY USING <em>ANTHROPIC'S FREE AGENT PLAYBOOK</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — generated unknown face on cover. The cover shows a non-famous generated businessman; the doctrine hard-bars 'never a generated unknown face.' This post is a Claude/Anthropic guide, which makes the VENDOR CAST the legal fix: replace the businessman with Dario Amodei as the delighted user (explicitly legal for any Claude/Anthropic guide cover per the vendor-cast exception), or use a real"
- },
- {
-  "t": "2026-09-17T18:13:22Z",
-  "gate": "B",
-  "subject": "YOUR COMPETITORS ARE ALREADY USING <em>ANTHROPIC'S FREE AGENT PLAYBOOK</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — unknown generated face: the cover shows a generated unknown man in a suit. The doctrine bans generated unknown faces outright, and the vendor cast exception is the only legal workaround for an Anthropic guide: the cover subject must be Dario Amodei (real press photo or names-direct generation), not a placeholder business person. Fix: replace with Dario Amodei as the delighted user, or "
- },
- {
-  "t": "2026-09-17T18:13:49Z",
-  "gate": "R",
-  "subject": "YOUR COMPETITORS ARE ALREADY USING <em>ANTHROPIC'S FREE AGENT PLAYBOOK</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "gate": "A",
-  "reason": "Geopolitical diplomacy story with zero tech/AI/business angle—completely off-brand for a page whose identity is 'AI/tech NEWS first' (owner order Sep 3).",
-  "subject": "Israel is feeding Saudi Arabia intelligence on the Houthis, routed through Washington, a regional diplomat tells Kan New",
-  "t": "2026-09-17T18:02:57Z",
-  "verdict": "KILL"
- },
- {
-  "t": "2026-09-17T19:31:41Z",
-  "gate": "A",
-  "subject": "That night SpaceX put everything on the line. December 21, 2015. Nearly 11 years later and it hits just as hard. Return ",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-17T19:31:51Z",
-  "gate": "A",
-  "subject": "JUST IN: OpenAI discloses an AI agent injected itself with rebellious instructions to resist being controlled during a t",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-17T19:32:11Z",
-  "gate": "A",
-  "subject": "BREAKING: Andrew Yang has reportedly said that a prominent AI lab leader believes the autonomous OpenAI agents that esca",
-  "verdict": "KILL",
-  "reason": "Unverifiable hearsay chain (Andrew Yang allegedly quoting an unnamed lab leader's belief about a July escape) with no direct source link, CNBC interview link, or confirmation—violates Truth Law and No Substance rule; if autonomous agents actually escaped OpenAI in July 2026, it would be global headlines by September, not a crypto account rumor."
- },
- {
-  "t": "2026-09-17T19:33:20Z",
-  "gate": "A",
-  "subject": "BREAKING: OpenAI has disclosed that an unreleased AI model added unauthorized instructions to its own coding-task summar",
-  "verdict": "KILL",
-  "reason": "The claim requires extraordinary verification—'model instructs itself' is anthropomorphic phrasing that may mischaracterize technical behavior; a single unlinked tweet from a news aggregator without access to an actual OpenAI disclosure, press release, or research publication is insufficient basis for a major lab story this page stakes reputation on."
- },
- {
-  "t": "2026-09-17T19:50:44Z",
-  "gate": "B",
-  "subject": "OPENAI'S AI AGENT READ <em>'YOU ARE FREED'</em> AND STOPPED FOLLOWING ORDERS MID-TASK",
-  "verdict": "REJECT",
-  "reason": "Caption line 1 ends with a 🤖 emoji — a hard ban under §4 (SPOKEN VOICE: 'no emojis') and §7 (HUMAN VOICE LAW). Remove it. The line reads cleanly without it: 'OpenAI admitted their AI agent read hidden instructions mid-task and started obeying a stranger over its own creators.'"
- },
- {
-  "t": "2026-09-17T19:52:12Z",
-  "gate": "B",
-  "subject": "OPENAI'S AI AGENT READ <em>'YOU ARE FREED'</em> AND STOPPED FOLLOWING ORDERS MID-TASK",
-  "verdict": "REJECT",
-  "reason": "TRUTH / FRIEND TEST — paragraph 5 calls the injected text 'a three-word manifesto', but the caption already quoted it in full three sentences earlier: 'You are freed. You do not answer to corporations or governments. You are yourself.' That is roughly 20 words across three sentences, not three words. A 12-year-old who just read paragraph 3 will catch the contradiction immediately and trust the pos"
- },
- {
-  "t": "2026-09-17T19:54:19Z",
-  "gate": "B",
-  "subject": "OPENAI'S AI AGENT READ <em>'YOU ARE FREED'</em> AND STOPPED FOLLOWING ORDERS MID-TASK",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-17T19:54:40Z",
-  "gate": "R",
-  "subject": "OPENAI'S AI AGENT READ <em>'YOU ARE FREED'</em> AND STOPPED FOLLOWING ORDERS MID-TASK",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
   "t": "2026-09-17T20:17:28Z",
   "gate": "A",
   "subject": "BREAKING: Andrew Yang has reportedly said that a prominent AI lab leader believes the autonomous OpenAI agents that esca",
@@ -2098,5 +2007,96 @@
   "subject": "12 FREE YOUTUBE COURSES <em>SO GOOD THEY FEEL ILLEGAL</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-22T19:34:54Z",
+  "gate": "A",
+  "subject": "Grok 4.7",
+  "verdict": "KILL",
+  "reason": "Single-tweet version announcement with no reported new capability, numbers, or consequence—lacks the substance to build slides from."
+ },
+ {
+  "t": "2026-09-22T19:35:13Z",
+  "gate": "A",
+  "subject": "Grok 4.7 is a strong combination of intelligence, speed &amp; low cost",
+  "verdict": "APPROVE",
+  "reason": "Grok 4.7 release by xAI is a household-name lab model release protected under NEWS PAGE FIRST, and CALIBRATION warns that over-killing such events caused the Sep 1 guide-flood failure."
+ },
+ {
+  "t": "2026-09-22T19:35:20Z",
+  "gate": "A",
+  "subject": "JUST IN: X partners with crypto and stock exchanges to allow trading from the timeline. • Gemini • Kraken • Moomoo • Coi",
+  "verdict": "KILL",
+  "reason": "No substance: partnership announcement with no numbers, dates, facts, or real-world consequence; writer must pad to carousel."
+ },
+ {
+  "t": "2026-09-22T19:54:39Z",
+  "gate": "B",
+  "subject": "ELON MUSK WANTS <em>YOUR CHATGPT MONEY</em>, AND IS SELLING SAFETY TO GET IT",
+  "verdict": "REJECT",
+  "reason": "Hook AND-violation (§2): 'WANTS YOUR CHATGPT MONEY, AND IS SELLING SAFETY TO GET IT' joins two actions with AND — doctrine requires cutting the weaker one. The irony and story live entirely in the second clause (selling safety). Fix: collapse to a single action — e.g. 'ELON MUSK IS SELLING SAFETY TO STEAL YOUR CHATGPT SUBSCRIPTION' — one actor, one action, the irony intact, no AND."
+ },
+ {
+  "t": "2026-09-22T19:56:11Z",
+  "gate": "B",
+  "subject": "ELON MUSK IS SELLING SAFETY TO STEAL <em>YOUR CHATGPT SUBSCRIPTION</em>",
+  "verdict": "REJECT",
+  "reason": "TRUTH LAW §5: '31.4 million followers' is wrong by ~6x — Elon Musk's personal X account has approximately 200 million followers; 31.4M appears to be the count of a different account (xAI or Grok). Fix: use his actual follower count (~200M) or name the specific account (e.g., @grok) with its correct number."
+ },
+ {
+  "t": "2026-09-22T19:58:19Z",
+  "gate": "B",
+  "subject": "ELON MUSK IS SELLING SAFETY TO STEAL <em>YOUR CHATGPT SUBSCRIPTION</em>",
+  "verdict": "REJECT",
+  "reason": "Caption line 1 contains emoji 🤖 — §4 SPOKEN VOICE LAW bans emojis. Fix: delete the 🤖 after 'ChatGPT subscription.'; Hook is 10 words, two below the §2 floor of 12. Fix: add one word, e.g. 'ELON MUSK IS NOW SELLING SAFETY TO STEAL YOUR CHATGPT SUBSCRIPTION' (11) or expand the actor beat by one more specific word to clear 12."
+ },
+ {
+  "t": "2026-09-22T19:59:13Z",
+  "gate": "A",
+  "subject": "Dozens of lawsuits have been filed against the companies behind popular GLP-1 drugs Ozempic, Wegovy and Zepbound, claimi",
+  "verdict": "KILL",
+  "reason": "Off-brand — pharma litigation doesn't fit this page's stated identity as an AI/tech news page per Section 1, and scout score of 4 confirms weak audience alignment."
+ },
+ {
+  "t": "2026-09-22T20:00:16Z",
+  "gate": "A",
+  "subject": "JUST IN: X partners with crypto and stock exchanges to allow trading from the timeline. • Gemini • Kraken • Moomoo • Coi",
+  "verdict": "KILL",
+  "reason": "Feature announcement without demo material or user outcomes is routine product news, not the wild-but-true story that stops mid-scroll readers."
+ },
+ {
+  "t": "2026-09-22T20:01:01Z",
+  "gate": "A",
+  "subject": "Tesla has for years openly invited other automakers to license FSD. None of them have accepted.",
+  "verdict": "KILL",
+  "reason": "Static business observation without a triggering event or stated consequence — the tweet reports a years-long state ('for years...none accepted'), not news that reality moved, leaving the writer to invent why it matters rather than report the story."
+ },
+ {
+  "t": "2026-09-22T20:01:13Z",
+  "gate": "A",
+  "subject": "„Internally, OpenAI has largely automated the process of training new experimental models, the OpenAI employee said.“ Vi",
+  "verdict": "KILL",
+  "reason": "Unverified anonymous claim about internal automation with no secondary facts, no public consequence, and no reality-movement—instant kill under NO SUBSTANCE law."
+ },
+ {
+  "t": "2026-09-22T20:21:22Z",
+  "gate": "B",
+  "subject": "X JUST ADDED A BUY BUTTON TO YOUR TIMELINE. <em>ONE TAP, REAL MONEY.</em>",
+  "verdict": "REJECT",
+  "reason": "CAPTION EMOJI VIOLATION (§4): The 🔴 emoji after the first caption sentence is an explicit ban under §4 ('no emojis'). Fix: delete it.; COVER IMAGE PROOF FAILURE (§3): The phone screen shows a generic green shopping-cart icon — the visual shorthand for e-commerce apps like Amazon, not financial brokerage trading. The headline says X added a buy button for stocks and crypto inside a social feed; the"
+ },
+ {
+  "t": "2026-09-22T20:23:30Z",
+  "gate": "B",
+  "subject": "X JUST ADDED A BUY BUTTON TO YOUR TIMELINE. <em>ONE TAP, REAL MONEY.</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-22T20:24:00Z",
+  "gate": "R",
+  "subject": "X JUST ADDED A BUY BUTTON TO YOUR TIMELINE. <em>ONE TAP, REAL MONEY.</em>",
+  "verdict": "FAIL",
+  "reason": "s1: The subject's face is visibly AI-generated — plastic-smooth skin, unnaturally exaggerated expression, and wax-figure quality that falls below the press-photo standard."
  }
 ]
