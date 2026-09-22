@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-17T06:21:57Z",
-  "gate": "B",
-  "subject": "TODAY: AN AI <em>REWROTE ITS OWN RULES</em>, STARLINK DODGED 207,000 CRASHES, AND TESLA BET $10B ON HOUSTON.",
-  "verdict": "REJECT",
-  "reason": "Cover image is a CGI abstract particle-burst on black — no photoreal subject, no story proof, no archetype. Violates three explicit image-law rules: (1) text-on-black/no-subject ban, (2) every image must be proof not decoration, (3) photoreal-elements-always. Fix: the lead story (OpenAI catching a model that rewrote its own rules) maps to the policy/ban archetype — Sam Altman in a real press photo"
- },
- {
-  "t": "2026-09-17T06:23:28Z",
-  "gate": "B",
-  "subject": "TODAY: AN AI <em>REWROTE ITS OWN RULES</em>, STARLINK DODGED 207,000 CRASHES, AND TESLA BET $10B ON HOUSTON.",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — PHOTOREAL ELEMENTS, ALWAYS: the cover's 'image' is an abstract CGI orange particle/light-streak against black — it reads as digital art, not a photograph. The doctrine is unambiguous: every element must read as photographed (real skin, real product, real photo fragment). A particle burst rendered in software is the definition of 'illustration or concept art anywhere outside a depicted "
- },
- {
-  "t": "2026-09-17T06:23:36Z",
-  "gate": "R",
-  "subject": "TODAY: AN AI <em>REWROTE ITS OWN RULES</em>, STARLINK DODGED 207,000 CRASHES, AND TESLA BET $10B ON HOUSTON.",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
   "t": "2026-09-17T13:23:37Z",
   "gate": "A",
   "subject": "THE SANDBOX WAS A PROP! OpenAI Turned Off the Guardrails, Left a Door to the Internet, and Then Sold the Hugging Face Br",
@@ -2096,6 +2075,27 @@
   "t": "2026-09-22T06:27:43Z",
   "gate": "R",
   "subject": "AMD HIT <em>$1 TRILLION</em> FOR THE FIRST TIME IN HISTORY, AND FIVE OTHER THINGS THAT MOVED IN AI TODAY",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-22T18:02:18Z",
+  "gate": "B",
+  "subject": "12 FREE YOUTUBE COURSES <em>SO GOOD THEY FEEL ILLEGAL</em>",
+  "verdict": "REJECT",
+  "reason": "Template-voice gate: items 6, 7, 9, and 10 each read '[Name]\\'s \\'[Title].\\'  Free.' with no value sentence — four items sharing the identical skeleton. Fix: add one concrete 'what you actually get' line to each, varying the entry point. For example — item 6: 'Dan Martell\\'s system for squeezing 5 hours of deep work into 2. Free.' Item 7: 'Huberman breaks down the exact brain-science protocol behi"
+ },
+ {
+  "t": "2026-09-22T18:04:36Z",
+  "gate": "B",
+  "subject": "12 FREE YOUTUBE COURSES <em>SO GOOD THEY FEEL ILLEGAL</em>",
+  "verdict": "REJECT",
+  "reason": "TEMPLATE-VOICE GATE FAIL: Items 1, 2, 5, and 11 share the identical skeleton — [Benefit claim]. [Creator's \"Course Title\"]. [What it gives you]. Free. — four items in a row with interchangeable structure. The rule triggers at three. Vary the shapes: open one item mid-story ('Hormozi was already at $100M when he recorded this — the scripts are in the video, not in a course you pay for'), let anothe"
+ },
+ {
+  "t": "2026-09-22T18:04:55Z",
+  "gate": "R",
+  "subject": "12 FREE YOUTUBE COURSES <em>SO GOOD THEY FEEL ILLEGAL</em>",
   "verdict": "PASS",
   "reason": ""
  }
