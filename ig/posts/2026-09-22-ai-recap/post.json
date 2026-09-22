@@ -1,0 +1,35 @@
+{
+ "stories": [
+  {
+   "headline": "AMD hits $1 trillion market cap for the first time ever"
+  },
+  {
+   "headline": "X lets you trade crypto and stocks inside the app now"
+  },
+  {
+   "headline": "xAI drops Grok 4.7, its strongest coding model yet"
+  },
+  {
+   "headline": "Tesla 2026 Model 3 and Model Y already sold out in U.S."
+  },
+  {
+   "headline": "Unitree's human-size robotic hand ships for $6,500"
+  },
+  {
+   "headline": "Developer shares full AI coding workflow using Grok tools"
+  }
+ ],
+ "caption": "Here's what happened in AI in the last 24 hours, from AMD hitting $1 trillion for the first time to X letting you trade crypto right from your feed\n\nAMD crossed $1 trillion in market cap today, the first time in the company's history. The stock is up 30,400% over the last ten years. A $10,000 bet in 2016 is worth $3,050,000 right now.\n\nX partnered with Gemini, Kraken, Coinbase, Moomoo, and Interactive Brokers. You can now buy and sell crypto and stocks inside X without ever opening another app.\n\nxAI dropped Grok 4.7, their strongest model for coding and hard knowledge work. It's built on a stronger AI underneath, runs longer on tough problems, and checks its own answers before giving them to you.\n\nTesla's 2026 Model 3 RWD and Model Y Launch Series are sold out in the U.S. Several other 2026 models are almost gone. New orders won't ship this year.\n\nUnitree shipped a robotic hand with 22 joints that matches the size and range of a real human hand. Starts at $6,500.\n\nA developer shared their full AI coding workflow, planning with Grok Bot, writing and testing code with Grok Build, shipping the frontend with ChatGPT. Every step handled by a different AI tool. The whole chain is one post long and worth saving if you build things.\n\nToday's pattern: AI is quietly replacing the tools people use every day, trading apps, coding environments, even buying a car. The people already inside this are moving fast.\n\nRun a business? DM us \"AI\" and we'll show you which of these to use first.\n\nSources: X Corp, AMD, xAI, Tesla, Unitree\n\n#AI #technology #artificialintelligence #tech #aitools",
+ "pinned_comment": "Should a social media app be where you trade your stocks and crypto? Mixing your timeline with your portfolio makes it very easy to act on emotion, or maybe that's exactly what they're counting on.",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "AMD HIT <em>$1 TRILLION</em> FOR THE FIRST TIME IN HISTORY, AND FIVE OTHER THINGS THAT MOVED IN AI TODAY",
+   "kicker": "THE DAILY RECAP"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW FAIL \u2014 the cover has no subject. The top two-thirds of the frame is black void with a CGI particle streak: no face, no AMD chip, no brand mark, no photoreal element, nothing that proves 'AMD hit $1 trillion.' The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' A particle effect is decoration, not proof. Fix: rep"
+}

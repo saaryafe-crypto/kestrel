@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-16T23:58:12Z",
-  "gate": "B",
-  "subject": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
-  "verdict": "REJECT",
-  "reason": "TRUTH OVERSTATEMENT (§5): 'Every time your lawyer searched for a regulation affecting your permits, your taxes, or your business, that query ran through Chinese AI' is false. The source finding is that Qwen is listed as *one of several search options* in the Federal Register's search mode — not the default, not the only path. Not every search ran through it; users who selected it did. The alarming"
- },
- {
-  "t": "2026-09-17T00:00:30Z",
-  "gate": "B",
-  "subject": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-17T00:01:07Z",
-  "gate": "R",
-  "subject": "THE GOVERNMENT THAT BANNED TIKTOK RUNS <em>CHINESE AI IN ITS OWN LAW DATABASE</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-17T06:17:42Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — cover is text-on-black with a decorative CGI particle burst. No photoreal subject, no proof of any story. The doctrine forbids text-on-black covers and requires every element to read as photographed; a digital light-streak illustration fails both tests. Fix: replace with a photoreal composite using actual story subjects — e.g., a cutout of the OpenAI logo or a collage of today's brand "
- },
- {
-  "t": "2026-09-17T06:19:38Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — NO SUBJECT, NOT PHOTOREAL, PURE DECORATION: The cover shows an abstract CGI particle/light-streak burst on a near-black background. §3 states explicitly: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is that failure — a decorative rendered effect with no person, no product, no proof of any story. It also violates 'Every im"
- },
- {
   "t": "2026-09-17T06:21:57Z",
   "gate": "B",
   "subject": "TODAY: AN AI <em>REWROTE ITS OWN RULES</em>, STARLINK DODGED 207,000 CRASHES, AND TESLA BET $10B ON HOUSTON.",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-22T00:59:06Z",
   "gate": "R",
   "subject": "WSJ JUST DECLARED YOUR CS DEGREE <em>IS NO LONGER A GOLDEN TICKET</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-22T06:21:55Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE IS DECORATION, NOT PROOF: The abstract orange particle burst proves nothing about any story in this recap. IMAGE LAW requires every cover image to be PROOF or a STAGED SCENE OF THE STORY — the thumb test fails completely: a stranger at feed size cannot guess a single story from this visual. Fix: replace with a photoreal collage built around the day's hardest story — AMD's stock chart g"
+ },
+ {
+  "t": "2026-09-22T06:24:17Z",
+  "gate": "B",
+  "subject": "AMD HIT <em>$1 TRILLION</em> FOR THE FIRST TIME IN HISTORY, AND FIVE OTHER THINGS THAT MOVED IN AI TODAY",
+  "verdict": "REJECT",
+  "reason": "Cover image has no subject and is pure decoration. An abstract particle-light streak on a black void proves nothing about AMD hitting $1 trillion — it is wallpaper. IMAGE LAW requires the cover to be story proof. The correct archetype for a company milestone is: recognizable subject (Lisa Su real press photo cutout) + oversized AMD logo disc + a '$1 TRILLION' label chip. Replace with a photoreal c"
+ },
+ {
+  "t": "2026-09-22T06:26:02Z",
+  "gate": "B",
+  "subject": "AMD HIT <em>$1 TRILLION</em> FOR THE FIRST TIME IN HISTORY, AND FIVE OTHER THINGS THAT MOVED IN AI TODAY",
+  "verdict": "REJECT",
+  "reason": "IMAGE — TEXT-ON-BLACK COVER, NO SUBJECT: The cover is headline type set over a solid black background with a decorative particle/light-streak graphic. The Doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The light-streak has zero story connection to AMD or any of the six items. A stranger at feed size cannot guess any stor"
+ },
+ {
+  "t": "2026-09-22T06:27:36Z",
+  "gate": "B",
+  "subject": "AMD HIT <em>$1 TRILLION</em> FOR THE FIRST TIME IN HISTORY, AND FIVE OTHER THINGS THAT MOVED IN AI TODAY",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW FAIL — the cover has no subject. The top two-thirds of the frame is black void with a CGI particle streak: no face, no AMD chip, no brand mark, no photoreal element, nothing that proves 'AMD hit $1 trillion.' The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' A particle effect is decoration, not proof. Fix: rep"
+ },
+ {
+  "t": "2026-09-22T06:27:43Z",
+  "gate": "R",
+  "subject": "AMD HIT <em>$1 TRILLION</em> FOR THE FIRST TIME IN HISTORY, AND FIVE OTHER THINGS THAT MOVED IN AI TODAY",
   "verdict": "PASS",
   "reason": ""
  }

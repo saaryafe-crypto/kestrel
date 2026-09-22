@@ -1,0 +1,21 @@
+Here's what happened in AI in the last 24 hours, from AMD hitting $1 trillion for the first time to X letting you trade crypto right from your feed
+
+AMD crossed $1 trillion in market cap today, the first time in the company's history. The stock is up 30,400% over the last ten years. A $10,000 bet in 2016 is worth $3,050,000 right now.
+
+X partnered with Gemini, Kraken, Coinbase, Moomoo, and Interactive Brokers. You can now buy and sell crypto and stocks inside X without ever opening another app.
+
+xAI dropped Grok 4.7, their strongest model for coding and hard knowledge work. It's built on a stronger AI underneath, runs longer on tough problems, and checks its own answers before giving them to you.
+
+Tesla's 2026 Model 3 RWD and Model Y Launch Series are sold out in the U.S. Several other 2026 models are almost gone. New orders won't ship this year.
+
+Unitree shipped a robotic hand with 22 joints that matches the size and range of a real human hand. Starts at $6,500.
+
+A developer shared their full AI coding workflow, planning with Grok Bot, writing and testing code with Grok Build, shipping the frontend with ChatGPT. Every step handled by a different AI tool. The whole chain is one post long and worth saving if you build things.
+
+Today's pattern: AI is quietly replacing the tools people use every day, trading apps, coding environments, even buying a car. The people already inside this are moving fast.
+
+Run a business? DM us "AI" and we'll show you which of these to use first.
+
+Sources: X Corp, AMD, xAI, Tesla, Unitree
+
+#AI #technology #artificialintelligence #tech #aitools
