@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T17:21:12.321897+00:00",
+ "updated": "2026-09-22T22:41:07.952903+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -164,6 +164,28 @@
    "born": 1788410464.313697
   },
   {
+   "id": "2102207241101144450",
+   "title": "Grok 4.7",
+   "sub": "elonmusk",
+   "where": "@elonmusk on X",
+   "unit": "likes",
+   "selftext": null,
+   "permalink": "https://x.com/elonmusk/status/2102207241101144450",
+   "outlink": null,
+   "score": 30216,
+   "comments_n": 2659,
+   "views": 21492227,
+   "age_h": 21.2,
+   "vph": 1422.3,
+   "image": "https://pbs.twimg.com/media/HSyKWCqW4AA5Ubh.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HSyKWCqW4AA5Ubh.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1790040417.907125
+  },
+  {
    "id": "2094803511875907849",
    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Bank of America Vice President Erin Piacenti killed in Times Square stabbing.",
    "sub": "WatcherGuru",
@@ -181,28 +203,6 @@
    "video": null,
    "guide": false,
    "born": 1788275026.745911
-  },
-  {
-   "id": "2102207241101144450",
-   "title": "Grok 4.7",
-   "sub": "elonmusk",
-   "where": "@elonmusk on X",
-   "unit": "likes",
-   "selftext": null,
-   "permalink": "https://x.com/elonmusk/status/2102207241101144450",
-   "outlink": null,
-   "score": 26731,
-   "comments_n": 1945,
-   "views": 19614984,
-   "age_h": 15.9,
-   "vph": 1681.2,
-   "image": "https://pbs.twimg.com/media/HSyKWCqW4AA5Ubh.jpg",
-   "images": [
-    "https://pbs.twimg.com/media/HSyKWCqW4AA5Ubh.jpg"
-   ],
-   "video": null,
-   "guide": false,
-   "born": 1790040417.907125
   },
   {
    "id": "2097187107651649543",
