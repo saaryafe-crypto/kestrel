@@ -1,0 +1,31 @@
+Google's free voice AI can now point at a leaking pipe and walk you through fixing it, step by step. 🎙️
+
+1) Interrupt it mid-sentence
+
+Gemini Live adjusts the instant you cut in. No waiting. Say "wait, back up" and it stops. Speak to it normally.
+
+2) Switch languages mid-sentence
+
+It knows 97 languages and follows when you switch, no command needed. Start in English, move to Spanish, come back. If you talk to clients who mix languages, this is worth testing today.
+
+3) Point your camera at anything broken
+
+Open Gemini in Search Live, tap the camera, hold your phone over the problem. It sees what you see and talks you through the fix. Say: "I'm looking at a leaky pipe under my sink. Walk me through fixing it step by step." Hands free.
+
+4) Make it think out loud (Google AI Pro)
+
+Extended Thinking narrates each step of its reasoning as it works. Not just the answer: the path to it, out loud. Say: "Think through this out loud. Walk me through each step before giving me the answer."
+
+5) Give it a whole project to run while you keep talking (Google AI Pro)
+
+Same Extended Thinking mode handles multi-step work in the background without dropping the conversation. Say: "Plan a work event for 15 people in December. Check in as you figure each part out. I'll keep talking."
+
+SAVE THIS: the first three are free in Search Live right now. The last two need Google AI Pro.
+
+Voice AI just crossed a line. The camera feature puts Gemini Live in a different category: it can watch what you are doing and coach you through it in real time. That is something no chatbot could do a year ago.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: GoogleAI
+
+#Gemini #GoogleAI #AITools #VoiceAI #ArtificialIntelligence

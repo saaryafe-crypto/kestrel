@@ -1,0 +1,52 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>5 GEMINI LIVE FEATURES</em> SO USEFUL THEY FEEL ILLEGAL",
+   "kicker": "one fixes your leaking pipe",
+   "hsize": 72,
+   "face": [
+    "Sundar Pichai"
+   ],
+   "media": "posts/2026-09-23-edu-5-gemini-3-8-live-voice-powers-googleai-/gen-0-r.jpg",
+   "image_prompt": "Sundar Pichai with the Gemini logo in a big circle next to him, running wild"
+  }
+ ],
+ "caption": "Google's free voice AI can now point at a leaking pipe and walk you through fixing it, step by step. \ud83c\udf99\ufe0f\n\n1) Interrupt it mid-sentence\n\nGemini Live adjusts the instant you cut in. No waiting. Say \"wait, back up\" and it stops. Speak to it normally.\n\n2) Switch languages mid-sentence\n\nIt knows 97 languages and follows when you switch, no command needed. Start in English, move to Spanish, come back. If you talk to clients who mix languages, this is worth testing today.\n\n3) Point your camera at anything broken\n\nOpen Gemini in Search Live, tap the camera, hold your phone over the problem. It sees what you see and talks you through the fix. Say: \"I'm looking at a leaky pipe under my sink. Walk me through fixing it step by step.\" Hands free.\n\n4) Make it think out loud (Google AI Pro)\n\nExtended Thinking narrates each step of its reasoning as it works. Not just the answer: the path to it, out loud. Say: \"Think through this out loud. Walk me through each step before giving me the answer.\"\n\n5) Give it a whole project to run while you keep talking (Google AI Pro)\n\nSame Extended Thinking mode handles multi-step work in the background without dropping the conversation. Say: \"Plan a work event for 15 people in December. Check in as you figure each part out. I'll keep talking.\"\n\nSAVE THIS: the first three are free in Search Live right now. The last two need Google AI Pro.\n\nVoice AI just crossed a line. The camera feature puts Gemini Live in a different category: it can watch what you are doing and coach you through it in real time. That is something no chatbot could do a year ago.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: GoogleAI\n\n#Gemini #GoogleAI #AITools #VoiceAI #ArtificialIntelligence",
+ "pinned_comment": "Which one are you trying tonight? Number 3 is the one most people have never seen before.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 FREE THINGS <em>GEMINI LIVE</em> DOES WITH YOUR VOICE",
+   "5 THINGS <em>GEMINI LIVE</em> DOES THAT FEEL IMPOSSIBLE",
+   "<em>5 POWERS</em> IN GEMINI LIVE NOBODY KNEW EXISTED"
+  ],
+  "scores": [
+   4,
+   6,
+   7
+  ],
+  "winner": 2,
+  "why": "'POWERS' and 'NOBODY KNEW' create sharper mystery than 'feel impossible.' At 2am, the promise of hidden abilities beats vague weirdness."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "MOST PEOPLE USE GEMINI LIVE WRONG. THESE <em>5 FREE FEATURES</em> FIX THAT TODAY.",
+   "<em>5 POWERS</em> IN GEMINI LIVE NOBODY KNEW EXISTED",
+   "<em>5 FREE GEMINI LIVE FEATURES</em> BETTER THAN APPS YOU PAY FOR",
+   "<em>5 GEMINI LIVE FEATURES</em> SO USEFUL THEY FEEL ILLEGAL"
+  ],
+  "scores": [
+   5,
+   4,
+   7,
+   8
+  ],
+  "winner": 3,
+  "why": "'Illegal' breaks your scrolling autopilot with absurdity and makes you feel something gut-level. [2]'s value comparison is smarter but sounds like every feature ad you've scrolled past without thinking."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": ""
+}

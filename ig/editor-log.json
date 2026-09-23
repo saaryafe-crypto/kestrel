@@ -1,61 +1,5 @@
 [
  {
-  "t": "2026-09-18T02:53:06Z",
-  "gate": "B",
-  "subject": "ROBOTS WALKED INTO <em>30 HOMES THEY'D NEVER SEEN</em> AND STARTED DOING CHORES WITH <em>ZERO TRAINING</em>",
-  "verdict": "REJECT",
-  "reason": "KICKER IS A BANNED ENGAGEMENT METRIC: '1.8M VIEWS IN HOURS' is a view count on the cover card — §2 explicitly bans engagement metrics (likes, views, replies, reposts, followers) from the hook. The law's own failure model is 'THE SCREENSHOT HAS 40K LIKES'; this kicker is structurally identical. The story is robots doing chores cold, not that a video got views. Fix: remove the kicker entirely or rep"
- },
- {
-  "t": "2026-09-18T02:56:17Z",
-  "gate": "B",
-  "subject": "ROBOTS WALKED INTO <em>30 HOMES THEY'D NEVER SEEN</em> AND STARTED DOING CHORES WITH <em>ZERO TRAINING</em>",
-  "verdict": "REJECT",
-  "reason": "TRUTH VIOLATION IN HOOK: The hook says 'ZERO TRAINING' but the robots were not un-trained — they had extensive standard training, just no additional preparation for these specific homes. The caption correctly says 'no additional training.' The hook as written implies Figure's robots have had zero machine learning, which is false and would look stupid to anyone who knows anything about robotics. Fi"
- },
- {
-  "t": "2026-09-18T02:58:14Z",
-  "gate": "A",
-  "subject": "The holy grail for robotics is being able to generalize: doing work in unseen places We rented 30 homes in the Bay Area ",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-18T02:58:55Z",
-  "gate": "A",
-  "subject": "College-educated workers ages 22 to 34 are experiencing one of their worst periods of unemployment in the past 20 years,",
-  "verdict": "KILL",
-  "reason": "This is macro-trend reporting with no person, no event, and no moment—just aggregate unemployment data that would require padding to build slides from; it lacks the real-world consequence or story spine this page exists to deliver, and has zero tech/AI angle."
- },
- {
-  "t": "2026-09-18T02:59:12Z",
-  "gate": "A",
-  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
-  "verdict": "KILL",
-  "reason": "This is a launch preview in empty form—a spec sheet with no demonstration, numbers, or substance to build slides from."
- },
- {
-  "t": "2026-09-18T03:24:18Z",
-  "gate": "B",
-  "subject": "ROBOTS JUST WORKED IN <em>30 HOMES THEY HAD NEVER SEEN.</em> ZERO NEW TRAINING.",
-  "verdict": "REJECT",
-  "reason": "Emoji in caption body (🤖 after the first sentence) — §4 bans emojis in body copy. Delete it.; \"The announcement hit 1 million views in hours\" uses news-agency register (\"announcement\", §4) and surfaces an engagement metric as supporting evidence. Rewrite: \"Brett's post hit 1 million views in hours.\""
- },
- {
-  "t": "2026-09-18T03:26:16Z",
-  "gate": "B",
-  "subject": "ROBOTS JUST WORKED IN <em>30 HOMES THEY HAD NEVER SEEN.</em> ZERO NEW TRAINING.",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-18T03:26:28Z",
-  "gate": "R",
-  "subject": "ROBOTS JUST WORKED IN <em>30 HOMES THEY HAD NEVER SEEN.</em> ZERO NEW TRAINING.",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
   "gate": "A",
   "reason": "Routine labor-market trend with no specific event, named person, or tech angle—banned as market-wrap tier.",
   "subject": "College-educated workers ages 22 to 34 are experiencing one of their worst periods of unemployment in the past 20 years,",
@@ -2098,5 +2042,61 @@
   "subject": "Lavender is an AI that Israel uses to kill Palestinians It gives kill scores based on multiple data points At a 70, they",
   "verdict": "KILL",
   "reason": "One thin tweet with no reportorial facts or consequences; unknown actor making a claim does not constitute reporting an event."
+ },
+ {
+  "t": "2026-09-23T18:04:07Z",
+  "gate": "A",
+  "subject": "Tesla in new drive unit video: “Cybercab is 40% more efficient than Model Y.”",
+  "verdict": "KILL",
+  "reason": "Tesla product specification claim is routine company marketing with no reality-moved event (no launch, no regulatory approval, no sales milestone)—a video claiming 40% efficiency over its own Model Y is a spec sheet, not a jaw-dropping story, and the low scout interest (5/10) plus thin 77-character source confirm this doesn't clear the bar."
+ },
+ {
+  "t": "2026-09-23T18:05:18Z",
+  "gate": "A",
+  "subject": "\"Even medical professionals are skipping health insurance because of high prices,\" per WaPo",
+  "verdict": "KILL",
+  "reason": "Off-brand healthcare trend with no AI/tech angle and insufficient substance: the source is just one unsourced claim with no figures or specifics."
+ },
+ {
+  "t": "2026-09-23T18:05:37Z",
+  "gate": "A",
+  "subject": "A group of the world's largest shippers has made the largest electric truck order in U.S. history, ordering 2,500 all-el",
+  "verdict": "KILL",
+  "reason": "This is real commercial news but not AI/tech news—fleet logistics specific; the page identity (Sep 3) is AI/tech, not general business; scout interest at 6/10 shows weak fit; hold for stronger Tesla/tech stories."
+ },
+ {
+  "t": "2026-09-23T18:06:49Z",
+  "gate": "A",
+  "subject": "Tesla in new drive unit video: “Cybercab is 40% more efficient than Model Y.”",
+  "verdict": "KILL",
+  "reason": "Product spec announcement with no story spine, human consequence, or jaw-drop factor—doesn't pass the 'send to friend' standard."
+ },
+ {
+  "t": "2026-09-23T18:06:59Z",
+  "gate": "A",
+  "subject": "GPT-6 Sol and Luna are big improvements on intelligence, alignment, work output, coding, computer use, and more over the",
+  "verdict": "APPROVE",
+  "reason": "This is a household-name lab (OpenAI) releasing new models with major improvements—explicitly the news the page exists to cover per the doctrine."
+ },
+ {
+  "t": "2026-09-23T18:26:04Z",
+  "gate": "B",
+  "subject": "CHATGPT JUST GOT SMARTER AND <em>HALF THE PRICE</em>. YOU'RE THE COST IT CUTS NEXT.",
+  "verdict": "REJECT",
+  "reason": "HOOK IS TWO SENTENCES. §2 law is explicit: '12-25 words, ONE complete sentence.' The cover carries 'CHATGPT JUST GOT SMARTER AND HALF THE PRICE. YOU'RE THE COST IT CUTS NEXT.' — a full stop splits it into two. The second sentence is the emotional payoff and should not be cut; collapse into one: e.g., 'CHATGPT JUST GOT SMARTER AND HALF THE PRICE, SO NOW YOU ARE THE COST IT CUTS NEXT.' (Dashes banne"
+ },
+ {
+  "t": "2026-09-23T18:46:16Z",
+  "gate": "B",
+  "subject": "<em>5 GEMINI LIVE FEATURES</em> SO USEFUL THEY FEEL ILLEGAL",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-23T18:46:23Z",
+  "gate": "R",
+  "subject": "<em>5 GEMINI LIVE FEATURES</em> SO USEFUL THEY FEEL ILLEGAL",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
