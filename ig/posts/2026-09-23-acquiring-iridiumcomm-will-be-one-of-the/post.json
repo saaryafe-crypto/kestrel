@@ -1,0 +1,63 @@
+{
+ "image_brief": "Rocket Lab rocket launching from launchpad with Iridium satellite grid glowing in orbit around Earth",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ONE PRIVATE COMPANY NOW DECIDES <em>WHO CAN COMMUNICATE WHEN MILITARIES LOSE ALL OTHER SIGNALS</em>",
+   "kicker": "HE SHOULD HAVE CALLED IT SPACE LAB",
+   "hsize": 74,
+   "hook_candidates": [
+    {
+     "headline": "ROCKET LAB'S FOUNDER BOUGHT THE MILITARY'S SATELLITE NETWORK. <em>HE SAYS HE NAMED IT WRONG.</em>"
+    },
+    {
+     "headline": "<em>THE FOUNDER JUST ADMITTED HE NAMED ROCKET LAB WRONG.</em> HE ALSO JUST BOUGHT A MILITARY SATELLITE NETWORK."
+    },
+    {
+     "headline": "ROCKET LAB JUST BOUGHT THE SATELLITE NETWORK <em>KEEPING ARMIES ALIVE WHEN ALL SIGNALS FAIL.</em> THE CEO SAYS HE NAMED IT WRONG."
+    },
+    {
+     "headline": "<em>ONE PRIVATE COMPANY NOW OWNS BOTH THE ROCKETS AND THE MILITARY'S SATELLITE NETWORK.</em> ITS CEO SAYS HE NAMED IT WRONG."
+    },
+    {
+     "headline": "ROCKET LAB'S FOUNDER BOUGHT THE MILITARY'S SATELLITE NETWORK. <em>THE ROCKETS WERE NEVER THE POINT.</em>"
+    }
+   ],
+   "media": "posts/2026-09-23-acquiring-iridiumcomm-will-be-one-of-the/gen-0-r-r.jpg",
+   "image_prompt": "Single control station screen displays one active private satellite network connection while other screens face away."
+  }
+ ],
+ "caption": "Rocket Lab is buying Iridium, the satellite network keeping militaries connected when all other signals fail. \ud83d\udef0\ufe0f\n\nEvery morning this week, Rocket Lab was just a rocket company. A scrappy, impressive one, but still. The whole identity was the rocket.\n\nThat changed September 22. Rocket Lab is buying Iridium, the network that soldiers, ships, planes, and emergency responders depend on when every other signal goes dark. One private company controlling the entire chain: the rockets that put satellites in orbit and the communications network those satellites run. If you have ever wondered what that kind of end-to-end control actually looks like, this is it.\n\nThen Peter Beck, the founder who named his company after the rocket, went on record: 'I probably shouldn't have called it Rocket Lab. I should have called it Space Lab. The rocket always steals the show.' He said that on the day he announced he was buying a global satellite network. The day the rocket became the least interesting part of what he built.\n\nNo other private company on Earth has ever owned both the vehicles that launch satellites and the communications backbone that militaries and emergency services worldwide depend on. The rocket was never the point. It was just the part that made noise.\n\nThe space industry has been consolidating for years, but this is a different kind of move. Not just buying a company. Owning the whole infrastructure end to end, from rocket engine to live signal in the field.\n\nRunning a business? DM us 'AI' and we'll show you what end-to-end control like this could unlock for yours.\n\nSources: Rocket Lab (RocketLab on X, September 22 2026)\n\n#rocketlab #satellites #space #technology #spaceindustry",
+ "pinned_comment": "One private company is about to control both the rockets that launch military satellites and the network those satellites run. Is that a feature or a warning?",
+ "hook_tournament": {
+  "candidates": [
+   "ONE PRIVATE COMPANY NOW DECIDES <em>WHO CAN COMMUNICATE WHEN MILITARIES LOSE ALL OTHER SIGNALS</em>"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "corporate_move"
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Rocket Lab",
+  "actor_known": false,
+  "anchor": "the satellite network militaries and ships use when all other signals fail",
+  "specifics": [
+   "CEO Peter Beck said 'I probably shouldn't have called it Rocket Lab. I should have called it Space Lab' \u2014 publicly declaring his own company name wrong",
+   "Rocket Lab is buying Iridium, the satellite network used by millions including military and remote emergency services worldwide",
+   "One private company will own both the rockets that launch satellites AND the communications network those satellites run",
+   "Called 'one of the most transformative deals in the space industry' by the company itself",
+   "Deal announced September 22, 2026"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (2/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Acquiring @IridiumComm will be one of the most transformative deals in the space industry, making Rocket Lab a fully-integrated, self-launching, tier-1 space power that delivers critical communications capability to mill",
+  "link": "https://x.com/RocketLab/status/2102210579343847595",
+  "judge_interest": 7,
+  "scout_score": 62.0
+ },
+ "editor_override": "IMAGE FAILS THUMB TEST \u2014 no Rocket Lab brand mark, no Iridium logo, no Peter Beck face, no real product. The cover is a generic military radar-screen render. A stranger at feed size sees 'satellite comms concept' and cannot connect it to Rocket Lab or the acquisition. The story archetype here is a named-founder company acquisition, which requires the person + giant glossy brand mark + real product"
+}
