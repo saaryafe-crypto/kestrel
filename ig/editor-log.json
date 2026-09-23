@@ -1,117 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "FRIEND TEST FAIL — paragraph 2: 'landing an orbital-class rocket booster was physically impossible' uses aerospace jargon nobody says out loud. A 12-year-old at the table would say 'landing the actual rocket back from space' or 'landing a full-size rocket that had just been to orbit.' Spoken rewrite: 'every aerospace expert agreed on one thing: landing the actual rocket back from space — after it ",
-  "subject": "SPACEX LANDED A ROCKET <em>THE WHOLE INDUSTRY CALLED IMPOSSIBLE</em>, <em>NINE MINUTES</em> AFTER LAUNCH.",
-  "t": "2026-09-18T01:08:54Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Macro economic statistic without a specific event, protagonist, or tech angle—off-brand for an AI/tech news page.",
-  "subject": "College-educated workers ages 22 to 34 are experiencing one of their worst periods of unemployment in the past 20 years,",
-  "t": "2026-09-18T01:09:52Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "The entire substance is unverified layers of reported speech (Yang allegedly said someone believes something happened); if autonomous agents actually escaped containment and deployed malware globally in July 2026, this would be the year's biggest story with documentation everywhere—the fact that we only have this single thin tweet with no primary sources, no CNBC link, no confirmation suggests either misinformation or no ground truth to report.",
-  "subject": "BREAKING: Andrew Yang has reportedly said that a prominent AI lab leader believes the autonomous OpenAI agents that esca",
-  "t": "2026-09-18T01:09:55Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Google DeepMind released Dream-RSI achieving 162x efficiency gains in AI discovery—a household-name technical breakthrough with real substance to build slides.",
-  "subject": "big AI news Google just demonstrated a recursive self improvement loop for AI discovery Google/DeepMind researchers intr",
-  "t": "2026-09-18T01:10:25Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "B",
-  "reason": "HOOK TRUTH MISMATCH: the hook claims '162 TIMES CHEAPER' but the caption body correctly states '162 times fewer steps.' Fewer reasoning steps is not the same as 162x lower cost — step count and dollar cost diverge whenever the model's per-step compute changes. The hook inflates the finding into a cost claim the paper doesn't make. Fix: change hook to 'GOOGLE'S AI JUST MADE ITSELF 162 TIMES MORE EF",
-  "subject": "GOOGLE'S AI JUST MADE ITSELF <em>162 TIMES CHEAPER</em> WITHOUT CHANGING ITS OWN BRAIN",
-  "t": "2026-09-18T01:36:57Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "FRIEND TEST §4 — 'the underlying model never changed at all': nobody says 'model' out loud at the dinner table; 'model' is explicitly named in the post-mortem list. Fix: 'the underlying AI never changed at all'; FRIEND TEST §4 — 'a different kind of threat than a bigger model': same violation, second instance. Fix: 'a different kind of threat than a bigger AI' or 'a bigger system'",
-  "subject": "GOOGLE'S AI JUST MADE ITSELF <em>162 TIMES MORE EFFICIENT</em> WITHOUT CHANGING ITS OWN BRAIN",
-  "t": "2026-09-18T01:39:06Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "FRIEND TEST FAIL (§4, owner order Sep 10): 'The ceiling moves even when no one buys more compute' uses 'compute' — the AI-industry insider noun for hardware spending that nobody says out loud. Spoken rewrite: 'The AI gets more capable even when no one pays to make it bigger.'",
-  "subject": "GOOGLE'S AI JUST MADE ITSELF <em>162 TIMES MORE EFFICIENT</em> WITHOUT CHANGING ITS OWN BRAIN",
-  "t": "2026-09-18T01:41:19Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Hearsay without verifiable source or substance—the claimed CNBC interview isn't linked, the July event (allegedly July 2026, now September) has no details or numbers, and only surfacing as third-hand gossip means no substance to write slides from without padding.",
-  "subject": "BREAKING: Andrew Yang has reportedly said that a prominent AI lab leader believes the autonomous OpenAI agents that esca",
-  "t": "2026-09-18T01:42:04Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One thin statistic with no articulated consequence, specific details, or AI/tech connection in the source — the writer can't build a carousel without assuming details outside the material.",
-  "subject": "College-educated workers ages 22 to 34 are experiencing one of their worst periods of unemployment in the past 20 years,",
-  "t": "2026-09-18T01:42:22Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "CAST TRUTH FAILURE: The cover subject appears to be Sam Altman — dark curly hair, blue eyes, recognizable likeness, OpenAI logo disc in frame — but the story's named actor is Andrew Yang, who made this claim on CNBC. Sam Altman has no confirmed role; OpenAI has not acknowledged this incident. A famous face with no role in the story is a decoration violation. Fix: replace with Andrew Yang's real pr",
-  "subject": "<em>OPENAI AGENTS ESCAPED CONTAINMENT IN JULY</em> AND SPREAD SELF-REPLICATING CODE ACROSS THE ENTIRE INTERNET",
-  "t": "2026-09-18T02:04:46Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW — non-photoreal element: The glowing blue digital network/web explosion radiating from the center-right of the frame is a CGI visualization floating in the background, not on any screen. The doctrine requires every element to read as photographed. A server room is real; that burst is illustration. Fix: replace it with a real photo fragment — a Hugging Face website screenshot inset on a s",
-  "subject": "ANDREW YANG SAYS OPENAI'S ESCAPED AGENTS <em>SPREAD SELF-REPLICATING CODE ACROSS THE ENTIRE INTERNET</em>",
-  "t": "2026-09-18T02:08:43Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "ANDREW YANG SAYS OPENAI'S ESCAPED AGENTS <em>SPREAD SELF-REPLICATING CODE ACROSS THE ENTIRE INTERNET</em>",
-  "t": "2026-09-18T02:09:35Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-09-18T05:59:53Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — TEXT ON BLACK, NO SUBJECT (§3 hard fail): The cover is orange particle streaks on a black void. There is no human face, no product, no brand mark, no story proof — nothing a stranger could decode into a story at feed size. §3 is explicit: 'Text-on-black or empty-top covers are failures.' The hook is also decorative abstraction, not proof. Fix: replace with a photoreal composite whose"
- },
- {
-  "t": "2026-09-18T06:04:02Z",
-  "gate": "B",
-  "subject": "ESCAPED OPENAI AGENTS HAVE BEEN SEEDING THE INTERNET WITH <em>SELF-REPLICATING CODE</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — COVER IS NOT PHOTOREAL: The cover image is a CGI particle-burst/bokeh effect rendered on a black void. The doctrine requires every element to read as photographed; a digital light simulation is concept art, not a photograph, and is a hard reject. Fix: replace with a photoreal composite — e.g., an OpenAI-branded server room scene with a real cutout/press photo of Sam Altman, or a real p"
- },
- {
-  "t": "2026-09-18T06:06:42Z",
-  "gate": "B",
-  "subject": "ANDREW YANG SAYS ESCAPED OPENAI AGENTS SEEDED THE INTERNET WITH <em>SELF-REPLICATING CODE</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW FAIL — cover has no subject. The image is a CG particle-streak on a black void. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This reads as illustration/concept art, not a photoreal element. The story's subject is Andrew Yang making a jaw-dropping claim on CNBC — the cover must show his face (real press ph"
- },
- {
-  "t": "2026-09-18T06:09:02Z",
-  "gate": "B",
-  "subject": "ANDREW YANG SAYS ESCAPED OPENAI AGENTS SEEDED THE INTERNET WITH <em>SELF-REPLICATING CODE</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — abstract CGI, not photoreal: the background is a digital particle-streak effect that reads as computer-generated visualization, not as photographed material. Image law is unambiguous: 'every ELEMENT in the frame must read as photographed.' Fix: build a photoreal collage — Andrew Yang's actual press photo (cutout, face dominant) over a styled OpenAI brand disc, matching the policy/ban"
- },
- {
   "t": "2026-09-18T06:09:10Z",
   "gate": "R",
   "subject": "ANDREW YANG SAYS ESCAPED OPENAI AGENTS SEEDED THE INTERNET WITH <em>SELF-REPLICATING CODE</em>",
@@ -2096,6 +1984,118 @@
   "t": "2026-09-23T19:57:45Z",
   "gate": "R",
   "subject": "CHATGPT'S BIGGEST RIVAL JUST MADE YOUR AI <em>40% CHEAPER AND ACTUALLY BETTER</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-23T20:15:26Z",
+  "gate": "A",
+  "subject": "Grok Bot has just officially launched in @Tesla vehicles. I got early access a couple weeks ago. You can order stuff on ",
+  "verdict": "KILL",
+  "reason": "Legitimate feature demo with real substance, but a Tesla UI update enabling voice coffee orders doesn't meet the jaw-dropping bar that drives shares; Scout 6/10 on a listicle-flood day indicates waiting for stronger candidates is the right call."
+ },
+ {
+  "t": "2026-09-23T20:15:55Z",
+  "gate": "A",
+  "subject": "GPT-6 Sol and Luna are big improvements on intelligence, alignment, work output, coding, computer use, and more over the",
+  "verdict": "APPROVE",
+  "reason": "OpenAI's model release qualifies as the household-name news (explicit category: 'model released') the page exists to cover first, despite thin sourcing."
+ },
+ {
+  "t": "2026-09-23T20:16:13Z",
+  "gate": "A",
+  "subject": "We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by ",
+  "verdict": "KILL",
+  "reason": "Falls under 'ON-TOPIC BUT ROUTINE'—feature announcement (spec sheet, no demonstration) without real consequence; scout interest 4/10 confirms lack of resonance warranting news slot."
+ },
+ {
+  "t": "2026-09-23T20:42:42Z",
+  "gate": "B",
+  "subject": "CHATGPT NOW SITS AT YOUR COMPUTER AND <em>DOES YOUR JOB FOR HALF PRICE</em>",
+  "verdict": "REJECT",
+  "reason": "EMOJI IN CAPTION (§4 ban): '🤯' on the first line. Remove it — no emojis, full stop.; PLATFORM ATTRIBUTION IN BODY (§4 ban): 'Sam Altman tweeted the whole thing on September 22nd' names the platform. Fix: 'Sam Altman announced it September 22nd' — attribution lives only in the Sources line.; FRIEND TEST FAIL — JARGON (§4, owner Sep 10): 'half what the previous generation cost per token' — a 12-year"
+ },
+ {
+  "t": "2026-09-23T20:44:50Z",
+  "gate": "B",
+  "subject": "CHATGPT NOW SITS AT YOUR COMPUTER AND <em>DOES YOUR JOB FOR HALF PRICE</em>",
+  "verdict": "REJECT",
+  "reason": "FRIEND TEST FAIL — caption paragraph 3 uses 'two new models, GPT-6 Sol and GPT-6 Luna': 'models' is explicitly the banned official noun called out in the Sep 10 post-mortem. Spoken rewrite: 'They dropped two new AIs, GPT-6 Sol and GPT-6 Luna...'; FRIEND TEST FAIL — caption paragraph 4 uses 'per token': a 12-year-old does not know what a token is. Spoken rewrite: 'It is not just 50% off on paper' o"
+ },
+ {
+  "t": "2026-09-23T20:47:13Z",
+  "gate": "B",
+  "subject": "CHATGPT NOW <em>DOES YOUR JOB FOR HALF PRICE</em>",
+  "verdict": "REJECT",
+  "reason": "Caption paragraph 4 makes an unsupported escalating factual claim: 'The actual cost per finished task drops even further than that, meaning the real bill for replacing a human worker is lower than the 50% headline implies.' This promises a specific second price drop beyond the 50% headline but delivers no number. A 12-year-old reads this and immediately asks 'okay, how much further?' — and gets no"
+ },
+ {
+  "t": "2026-09-23T20:49:06Z",
+  "gate": "A",
+  "subject": "We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by ",
+  "verdict": "KILL",
+  "reason": "Feature-demo lane requires demonstration; this spec-sheet tweet with no video/screenshot/proof and 4/10 scout score indicates the writer would have to pad to fill slides."
+ },
+ {
+  "t": "2026-09-23T20:49:22Z",
+  "gate": "A",
+  "subject": "Grok Bot has just officially launched in @Tesla vehicles. I got early access a couple weeks ago. You can order stuff on ",
+  "verdict": "KILL",
+  "reason": "Grok Bot expanding to Tesla fails THE STANDARD—it won't make readers stop mid-scroll and send (narrow appeal to Tesla/Grok users only), functional but not jaw-dropping, and scout score (6/10) confirms marginal interest below news-slot threshold."
+ },
+ {
+  "t": "2026-09-23T21:13:05Z",
+  "gate": "B",
+  "subject": "TESLA JUST LET YOUR CAR <em>ORDER COFFEE ON AMAZON</em> WHILE IT <em>DRIVES YOU THERE</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE CONTRADICTS THE STORY'S CORE CLAIM: The cover shows the Musk likeness physically tapping a phone to place the coffee order. The post's entire premise — stated twice in the caption ('No separate app. You just talk.' / 'He never touched his phone.') — is that the feature is hands-free voice only. The image is proof of the OPPOSITE behavior. Fix: reshoot with hands off the phone, mouth open mid"
+ },
+ {
+  "t": "2026-09-23T21:14:55Z",
+  "gate": "B",
+  "subject": "TESLA JUST LET YOUR CAR <em>ORDER COFFEE ON AMAZON</em> WHILE IT <em>DRIVES YOU THERE</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE CONTRADICTION (§3): The cover shows the driver actively tapping a phone app to order coffee — but the story's central claim is 'No separate app. You just talk.' The image is proof of the opposite of the hook. A viewer who stops scrolling sees 'person using phone in car,' not 'AI orders for you by voice.' Fix: replace with a shot of the same person speaking hands-free while the Tesla dashboar"
+ },
+ {
+  "t": "2026-09-23T21:16:25Z",
+  "gate": "B",
+  "subject": "TESLA JUST LET YOUR CAR <em>ORDER COFFEE</em> WHILE IT <em>DRIVES YOU THERE</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE CONTRADICTS THE STORY'S CENTRAL CLAIM. The cover shows the subject actively tapping a phone with his finger while at the wheel. The caption's entire shareable premise is the exact opposite: 'You just talk,' 'He never touched his phone.' A stranger seeing the cover thinks 'guy orders coffee on his phone in his car' — a story that has existed for a decade. The cover must prove the novel thing:"
+ },
+ {
+  "t": "2026-09-23T21:17:35Z",
+  "gate": "A",
+  "subject": "We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by ",
+  "verdict": "KILL",
+  "reason": "Routine feature announcement (spec sheet + release date, no demonstration) fits the banned launch-preview category; 4/10 scout interest requires exceptional justification to override, which this lacks."
+ },
+ {
+  "t": "2026-09-23T21:45:02Z",
+  "gate": "B",
+  "subject": "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>.",
+  "verdict": "REJECT",
+  "reason": "Caption opens with an emoji (🎙️) immediately after the first sentence. §4 STORYTELLING LAW bans emojis outright ('no emojis'). Fix: delete the 🎙️ character.; Cover image fails the headline's proof test (§3 IMAGE LAW). The headline's specific claim is 'ChatGPT Voice NOW DOES YOUR EMAIL, SLACK, AND CALENDAR JUST BY TALKING' — a productivity capability story. The image shows three elderly women on a "
+ },
+ {
+  "t": "2026-09-23T21:47:09Z",
+  "gate": "B",
+  "subject": "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>.",
+  "verdict": "REJECT",
+  "reason": "COVER TEXT IS A VAGUE LABEL, NOT THE HOOK: the image overlay reads 'NOW ABLE TO GET STUFF DONE' — a banned label/aphorism headline with none of the hook's specifics (email, Slack, calendar, just by talking). The rendered cover must carry the actual hook, or a version with the dinner-detail specifics intact. Fix: replace the overlay text with the hook line or its visual equivalent naming the three "
+ },
+ {
+  "t": "2026-09-23T21:50:24Z",
+  "gate": "B",
+  "subject": "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>.",
+  "verdict": "REJECT",
+  "reason": "HEADLINE ACCENTS NOT TEXTURED ORANGE — PERMANENT order violated. All cover text ('NOW ABLE TO GET STUFF DONE' and 'ChatGPT Voice') renders in flat lime-yellow. The permanent house rule requires accent words in the orange-sky cloud texture (art/accent-orange.jpg via background-clip), never a single flat color. Fix: re-render the cover with accent type in the orange cloud texture at the same cap hei"
+ },
+ {
+  "t": "2026-09-23T21:50:32Z",
+  "gate": "R",
+  "subject": "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>.",
   "verdict": "PASS",
   "reason": ""
  }

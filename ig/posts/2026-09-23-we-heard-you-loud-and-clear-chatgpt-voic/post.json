@@ -1,0 +1,80 @@
+{
+ "media_idx": 1,
+ "image_brief": "ChatGPT Voice app on a phone with email, calendar, and Slack icons responding hands-free on a commuter train",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>.",
+   "kicker": "RUNS ON GPT-6 TODAY",
+   "hsize": 72,
+   "media": "posts/2026-09-23-we-heard-you-loud-and-clear-chatgpt-voic/cand-1.webp"
+  }
+ ],
+ "caption": "ChatGPT Voice can now answer your emails, build slide decks, and manage your calendar, just by talking.\n\nUp until today, ChatGPT Voice was basically a smarter Siri. Quick questions, maybe a timer. Nobody really used it to do actual work.\n\nThat changed this morning. Open ChatGPT on your phone, start talking, and it answers your emails, clears your Slack, updates your calendar, and builds a full presentation deck without you touching the screen once. Someone riding the train home tonight could dictate their Monday morning report and have the whole thing written before their stop.\n\nHere is the part that makes it stranger: this all runs on GPT-6. Three versions of it, called Astra, Sol, and Luna. That is the most powerful AI OpenAI has ever shipped. The app people used to set timers and ask trivia now runs on the same brain as OpenAI's top models. The party trick became the job description.\n\nIt rolled out globally today. If your job is mostly writing emails, making slides, or managing a calendar, you now have to explain why you are slower than a voice command.\n\nVoice AI just crossed from convenience into capability. For years the gap between what it could do and what your job needed was the keyboard. That gap is gone.\n\nRunning a business? DM us \"AI\" and we will show you what voice-powered AI could handle for yours.\n\nSources: OpenAI\n\n#ChatGPT #OpenAI #AI #ArtificialIntelligence #Technology",
+ "pinned_comment": "If ChatGPT Voice can now build your slide deck just by talking, what exactly is your Monday morning for?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "CHATGPT VOICE JUST LEARNED TO DO <em>YOUR JOB</em> AND IT <em>WENT GLOBAL TODAY</em>",
+   "PEOPLE ARE ALREADY DICTATING FULL PRESENTATIONS ON THEIR COMMUTE <em>USING CHATGPT VOICE</em>",
+   "CHATGPT VOICE NOW RUNS ON <em>GPT-6</em> AND HANDLES <em>YOUR ENTIRE WORKDAY HANDS-FREE</em>",
+   "CHATGPT VOICE JUST CONNECTED TO <em>YOUR EMAIL, SLACK, AND CALENDAR</em> <em>TODAY</em>",
+   "PEOPLE ARE ALREADY USING <em>CHATGPT VOICE</em> TO DO <em>YOUR ENTIRE JOB HANDS-FREE</em>",
+   "CHATGPT VOICE JUST GOT GPT-6. <em>IT NOW BUILDS YOUR SLIDE DECK BY TALKING.</em>",
+   "CHATGPT VOICE NOW WRITES YOUR MONDAY REPORT ON THE TRAIN, <em>JUST BY TALKING</em>",
+   "<em>YOUR OFFICE WORK</em> CAN NOW BE DONE BY CHATGPT VOICE BEFORE YOU GET HOME TONIGHT",
+   "CHATGPT VOICE NOW BUILDS <em>YOUR DOCS, DECKS, AND EMAILS</em> <em>WHILE YOU TALK</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   7,
+   6,
+   5,
+   8,
+   7,
+   5,
+   6
+  ],
+  "winner": 5,
+  "why": "'Slide deck by talking' clicks instantly as something you'd try tomorrow; 'entire workday hands-free' sounds impressive but unbelievable. Concrete wins over ambitious for the stop-scroll moment."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "CHATGPT VOICE JUST GOT GPT-6 AND <em>NOW HANDLES YOUR FULL WORKDAY BY VOICE</em>.",
+   "CHATGPT VOICE IS <em>ON YOUR PHONE RIGHT NOW</em> AND HANDLES YOUR ENTIRE WORKDAY BY TALKING.",
+   "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>."
+  ],
+  "scores": [
+   7,
+   4,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] gives concrete, specific integrations (email, Slack, calendar) that immediately explain the value and signal what's new. [0] has the bigger GPT-6 headline but leaves 'full workday' too vague for a stranger to care."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "OpenAI",
+  "actor_known": true,
+  "anchor": "ChatGPT Voice",
+  "specifics": [
+   "GPT-6 \u2014 the newest, most powerful model \u2014 now runs ChatGPT Voice",
+   "Builds full docs, decks, spreadsheets, and websites just from talking",
+   "Connects live to your email, Slack, and calendar",
+   "Rolled out globally today, September 23, 2026",
+   "Announcement hit 1 million views within hours"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by GPT-6 Astra, Sol, and Luna. - Be used in ChatGPT Work on web and mobile, so you can create docs, dec",
+  "link": "https://x.com/OpenAI/status/2102808325742322002",
+  "judge_interest": 4,
+  "scout_score": 105.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "HEADLINE ACCENTS NOT TEXTURED ORANGE \u2014 PERMANENT order violated. All cover text ('NOW ABLE TO GET STUFF DONE' and 'ChatGPT Voice') renders in flat lime-yellow. The permanent house rule requires accent words in the orange-sky cloud texture (art/accent-orange.jpg via background-clip), never a single flat color. Fix: re-render the cover with accent type in the orange cloud texture at the same cap hei"
+}

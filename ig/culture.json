@@ -1,60 +1,59 @@
 {
- "ts": 1790112657.5181637,
- "updated": "2026-09-22",
+ "ts": 1790199699.4014482,
+ "updated": "2026-09-23",
  "hot": [
   {
-   "name": "Olivia Rodrigo",
-   "why_hot_now": "The Unraveled Tour kicks off September 25 in Hartford, with 86 arena dates already selling out worldwide.",
-   "typical_scene": "belting tour anthems in crowd-crush arena, merch tees everywhere"
+   "name": "Sadie Sink",
+   "why_hot_now": "Stars in Spider-Man: Brand New Day (2026's highest-grossing film at $2.46B) and is simultaneously the face of Calvin Klein's viral fall denim campaign.",
+   "typical_scene": "red curls, wet denim, staring down the camera"
   },
   {
-   "name": "Charli XCX",
-   "why_hot_now": "Music, Fashion, Film Tour is mid-run — Toronto was Sunday, Boston is Wednesday.",
-   "typical_scene": "stage-diving in a metallic Y2K fit to a packed arena crowd"
+   "name": "Zendaya",
+   "why_hot_now": "Plays a scene-stealing mythological role in Christopher Nolan's The Odyssey, which crossed $1.72B globally and has a 94% on Rotten Tomatoes.",
+   "typical_scene": "glowing as Circe amid Nolan's IMAX ancient epic"
   },
   {
-   "name": "Resident Evil",
-   "why_hot_now": "Zach Cregger's reboot shattered franchise records with a $60M opening weekend.",
-   "typical_scene": "dark corridors, R-rated monster chaos, sold-out theater screaming"
+   "name": "Tom Holland",
+   "why_hot_now": "Co-leads The Odyssey, cementing his status as a serious dramatic lead far beyond his Spider-Man identity.",
+   "typical_scene": "leather-armored on a storm-battered ancient Greek warship"
   },
   {
-   "name": "Taylor Swift",
-   "why_hot_now": "Her wedding went instantly viral after Ed Sheeran appeared as a surprise performer.",
-   "typical_scene": "bridal white, fairy-tale reception, internet collectively losing its mind"
+   "name": "Matt Damon",
+   "why_hot_now": "Plays Odysseus in The Odyssey, his biggest pop-culture moment in over a decade with a $1.72B blockbuster.",
+   "typical_scene": "salt-weathered Odysseus at the helm of his ship"
   },
   {
-   "name": "Ed Sheeran",
-   "why_hot_now": "Internet exploded after he showed up to perform a surprise set at Taylor Swift's wedding.",
-   "typical_scene": "acoustic guitar at a wedding reception, sheepish grin mid-song"
+   "name": "Robert Pattinson",
+   "why_hot_now": "His A24 film Primetime — playing Chris Hansen from To Catch a Predator — opens in theaters September 25, the real Chris Hansen called him 'overly dramatic'.",
+   "typical_scene": "awkwardly perched across a table from a caught predator"
   },
   {
-   "name": "Rhea Seehorn",
-   "why_hot_now": "Won her first-ever Emmy for Pluribus, Vince Gilligan's Apple TV+ sci-fi thriller, on September 14.",
-   "typical_scene": "tearful Emmy acceptance speech in ballgown, trophy raised overhead"
+   "name": "Jeremy Allen White",
+   "why_hot_now": "The Bear just confirmed it ends with Season 5, AND he's in active promo for The Social Reckoning (Social Network sequel) dropping October 9.",
+   "typical_scene": "intense in chef whites staring at a ruined dish"
   },
   {
-   "name": "Noah Wyle",
-   "why_hot_now": "Won back-to-back Best Drama Actor Emmys for The Pitt, cementing the show's dominance.",
-   "typical_scene": "scrubs and stethoscope, tense sprint down an ER hallway"
+   "name": "Tom Cruise",
+   "why_hot_now": "Attended the royal London premiere of his film Digger alongside Prince William and Kate Middleton this week.",
+   "typical_scene": "grinning on a red carpet flanked by the royals"
   },
   {
-   "name": "Widow's Bay",
-   "why_hot_now": "Set the all-time Emmy record with 14 wins in a single year, including Outstanding Comedy Series.",
-   "typical_scene": "darkly comic suburban Gothic aesthetic, moody Apple TV cinematic palette"
+   "name": "Katseye",
+   "why_hot_now": "Their Wildworld Tour — their first-ever arena headlining run — is live now, with North American dates imminent after sold-out European kick-off.",
+   "typical_scene": "six members in sync under arena lights, first world tour"
   }
  ],
  "memes": [
-  "\"Saxophone Gets Louder\" — any mundane situation escalated by increasingly deafening sax music dubbed over it",
-  "Erling Haaland's 2026 World Cup sprint photoshopped into random scenarios captioned as someone charging toward a deadline or cringe moment",
-  "\"Kinda Chic to…\" — pairing luxury/aspirational language with deeply unglamorous situations (e.g. 'kinda chic to cry in a Panera')",
-  "Half-face parent comparison videos blending your face seamlessly with a parent's to expose scary genetic overlap",
-  "\"2026 is the new 2016\" — posts framing this autumn's cultural chaos as a spiritual sequel to peak-disorder 2016",
-  "Annual September pumpkin spice performative meltdown — brands and creators theatrically losing their minds the moment fall arrives"
+  "Jimothy the raccoon: Seattle's famously chonky, unbothered raccoon photoshopped into increasingly unhinged situations",
+  "Saxophone Gets Louder: video/audio format where a sax progressively drowns everything else out for maximum dramatic escalation",
+  "'My American Girl Doll': using a childhood clip of kid Angelo introducing his doll with maximum joy to describe something completely mundane",
+  "Erling Haaland sprinting: FIFA World Cup 2026 screenshot of Haaland in full stride edited into random unrelated scenarios",
+  "'2026 is the new 2016': TikTok nostalgia wave recreating bottle flips, mannequin challenges, and dabbing as if rediscovering them fresh"
  ],
  "ai_flagships": [
   "Claude Opus 5.5",
   "GPT-6 Astra",
-  "Gemini 3.1 Pro",
+  "Gemini 3.8 Flash",
   "Grok 4.7",
   "Muse Spark 1.3"
  ]

@@ -1,0 +1,17 @@
+ChatGPT Voice can now answer your emails, build slide decks, and manage your calendar, just by talking.
+
+Up until today, ChatGPT Voice was basically a smarter Siri. Quick questions, maybe a timer. Nobody really used it to do actual work.
+
+That changed this morning. Open ChatGPT on your phone, start talking, and it answers your emails, clears your Slack, updates your calendar, and builds a full presentation deck without you touching the screen once. Someone riding the train home tonight could dictate their Monday morning report and have the whole thing written before their stop.
+
+Here is the part that makes it stranger: this all runs on GPT-6. Three versions of it, called Astra, Sol, and Luna. That is the most powerful AI OpenAI has ever shipped. The app people used to set timers and ask trivia now runs on the same brain as OpenAI's top models. The party trick became the job description.
+
+It rolled out globally today. If your job is mostly writing emails, making slides, or managing a calendar, you now have to explain why you are slower than a voice command.
+
+Voice AI just crossed from convenience into capability. For years the gap between what it could do and what your job needed was the keyboard. That gap is gone.
+
+Running a business? DM us "AI" and we will show you what voice-powered AI could handle for yours.
+
+Sources: OpenAI
+
+#ChatGPT #OpenAI #AI #ArtificialIntelligence #Technology
