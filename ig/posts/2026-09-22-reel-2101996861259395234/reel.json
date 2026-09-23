@@ -1,0 +1,17 @@
+{
+ "pick": 5,
+ "title": "A robot hand the same size as yours, with 22 moving joints",
+ "title_candidates": [
+  "A robot hand the same size as yours, with 22 moving joints",
+  "Unitree's new robot hand has 22 joints and starts at $6,500",
+  "This $6,500 robot hand moves like a real human hand",
+  "What it takes to give a robot hand the same range as a human hand",
+  "The robot hand that copies every joint in your fingers, for $6,500"
+ ],
+ "caption": "Unitree just built a robot hand the exact same size as a real human hand, with 22 separate joints that all move on their own.\n\nMost robot hands have three to five points of movement. This one replicates every joint in your hand, which lets it do the delicate gripping most robots miss: picking up small fragile objects, turning tools, and handling things that would break under a normal robot grip. It is already on sale starting at $6,500.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: UnitreeRobotics. DM for credit or removal\n\n#robots #robotics #AI #technology #futurism",
+ "start_s": 4,
+ "clip_s": 25,
+ "source": "https://video.twimg.com/amplify_video/2101992226356391936/vid/avc1/1920x1080/q36v4SkgtzE_BXO0.mp4?tag=29",
+ "channel": "UnitreeRobotics",
+ "publish": "make"
+}
