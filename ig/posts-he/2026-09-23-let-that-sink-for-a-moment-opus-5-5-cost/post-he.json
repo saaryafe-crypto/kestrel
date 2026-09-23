@@ -1,0 +1,88 @@
+{
+ "image_brief": "Anthropic making Claude 40% cheaper and smarter while OpenAI stays expensive, subscribers getting bonus free credits",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "שברו את החוק: Claude <em>נעשה יותר זול ועוד יותר חכם</em>",
+   "kicker": "40% זול יותר, 30% מהיר יותר, ומנויים קיבלו קרדיט בחינם",
+   "hsize": 72,
+   "media": "posts/2026-09-23-let-that-sink-for-a-moment-opus-5-5-cost/gen-0.jpg",
+   "image_prompt": "Dario Amodei triumphant and confident, Sam Altman looking shocked and worried, with the Claude logo and OpenAI logo in big circles next to them",
+   "gen_person": true
+  }
+ ],
+ "caption": "Claude עכשיו עולה 40% פחות, עובד 30% מהר יותר, וחכם יותר מהגרסה הקודמת. שלושתם ביחד. 🤯\n\nבטכנולוגיה תמיד היה חוק אחד: כל שדרוג עולה יותר כסף. מוצר טוב יותר, מחיר גבוה יותר. תמיד ככה.\n\nAnthropic שברה את החוק. הגרסה החדשה של Claude עולה 40% פחות, עובדת 30% מהר יותר, וחכמה יותר מהגרסה שהחליפה. לא אחד מהשלושה. כולם ביחד.\n\nאבל מה שאנשים מדברים עליו הכי הרבה זה הקרדיט החינמי. כל מנוי קיבל קרדיט שאפשר לשמור ולהשתמש בו מתי שרוצים. כמו למצוא 20 דולר בכיס של ג'קט שלא לבשתם מזמן, רק שהקרדיט הזה לא נעלם עד שמחליטים להשתמש בו. בשבוע שבאמת צריכים ש-Claude יתאמץ, שולפים אותו.\n\nעכשיו OpenAI צריכה להסביר למה המנויים המשלמים שלה צריכים להישאר. זו הפעם הראשונה שמנוי AI נעשה יותר זול, מהיר יותר, וחכם יותר. בבת אחת. ול-OpenAI אין תשובה טובה לזה.\n\nAI נעשה יותר זול. ובאותה נשימה, האיכות עלתה. כל מנוי AI בעולם צריך עכשיו לענות על אותה שאלה: למה מישהו ישלם יותר עבורך?\n\nמנהלים עסק? שלחו לנו הודעה עם המילה \"AI\" ונראה לכם מה השינוי הזה אומר לכלים שלכם.\n\nמקורות: Anthropic, kimmonismus on X\n\nעקבו @ainews.israel לעוד עדכוני AI.\n\n#AI #Claude #OpenAI #ArtificialIntelligence #Tech",
+ "pinned_comment": "מה שלא נכנס: Opus 5.5 עובד ברמה של Fable 5.1, המודל הכי חזק של Anthropic. אותה רמה, 40% פחות כסף.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "CHATGPT'S BIGGEST RIVAL JUST UPGRADED EVERY PAID PLAN AND CHARGED SUBSCRIBERS <em>40% LESS</em>",
+   "CHATGPT'S BIGGEST RIVAL JUST <em>CUT ITS AI'S PRICE 40%</em> WHILE MAKING IT FASTER AND BETTER",
+   "CLAUDE <em>JUST DECLARED WAR ON OPENAI</em> WITH A 40% PRICE CUT AND A BETTER AI",
+   "CHATGPT'S BIGGEST RIVAL JUST <em>GAVE YOU FREE CREDITS</em> AND CUT THE PRICE 40%",
+   "CLAUDE JUST MADE ITS AI <em>40% CHEAPER AND ACTUALLY SMARTER.</em> FREE BANKED CREDITS TOO.",
+   "CHATGPT'S BIGGEST RIVAL JUST CUT PRICES <em>40%</em> AND MADE THE MODEL BETTER",
+   "CLAUDE SUBSCRIBERS FOUND <em>FREE CREDITS WAITING.</em> THE AI ALSO JUST GOT 40% CHEAPER.",
+   "CHATGPT'S BIGGEST RIVAL JUST DECLARED WAR ON OPENAI AND CUT PRICES <em>40%</em>",
+   "CHATGPT'S BIGGEST RIVAL JUST GAVE SUBSCRIBERS <em>FREE BANKED CREDITS</em> AND CUT PRICES <em>40%</em>",
+   "CHATGPT'S BIGGEST RIVAL JUST GOT <em>30% FASTER AND 40% CHEAPER</em> AT THE SAME TIME"
+  ],
+  "scores": [
+   8,
+   7,
+   0,
+   7,
+   8,
+   6,
+   7,
+   0,
+   7,
+   9
+  ],
+  "winner": 9,
+  "why": "The '30% faster and 40% cheaper at the same time' is shocking because it breaks market logic that improvements cost extra. [0]'s cheaper upgrade is clever but less fundamentally contradictory."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "CHATGPT'S BIGGEST RIVAL JUST GOT <em>30% FASTER AND 40% CHEAPER</em> AT THE SAME TIME",
+   "CHATGPT'S BIGGEST RIVAL JUST OPENED A PRICE WAR: <em>40% CHEAPER AND 30% FASTER</em>",
+   "CHATGPT'S BIGGEST RIVAL JUST MADE YOUR AI <em>40% CHEAPER AND ACTUALLY BETTER</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   8.5
+  ],
+  "winner": 2,
+  "why": "'Actually better' creates genuine surprise (cheaper usually means worse) that stops scrolls harder than [1]'s 'price war' drama. 'YOUR AI' seals personal relevance that abstract market news can't match."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Anthropic (Claude)",
+  "actor_known": false,
+  "anchor": "ChatGPT's biggest rival",
+  "specifics": [
+   "40% price cut on a model that's actually BETTER than the one it replaced",
+   "30% faster output on top of the price drop",
+   "Free banked credits subscribers can hold and spend whenever they choose",
+   "Five-hour usage caps raised on Pro, Max, and Team plans simultaneously",
+   "Observer called it 'war with OpenAI' — September 22, 2026"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "Let that sink for a moment: - Opus 5.5 costs 40% less compared to Opus 5 - performs at Fable 5.1 level - is 30% faster in output - and you get a banked reset on top of that. They chose war with OpenAI. We are in such a w",
+  "link": "https://x.com/kimmonismus/status/2102438316323074367",
+  "judge_interest": 6,
+  "scout_score": 58.9
+ },
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
