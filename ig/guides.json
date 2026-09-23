@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23T05:24:34.813460+00:00",
+ "updated": "2026-09-23T07:26:07.846237+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -869,6 +869,33 @@
    "born": 1789055412.417321
   },
   {
+   "id": "2102448328638382234",
+   "title": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build. The update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent perfo",
+   "sub": "cb_doge",
+   "where": "@cb_doge on X",
+   "unit": "likes",
+   "selftext": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build. The update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent performance. It also adds new subagent controls, configurable request limits and long-reasoning reminders. Release Notes Version 1.0.41 \u2014 September 22, 2026 Features \u2022 Added a new sports_search tool that can look up live NFL scores, standings, schedules, player stats and team records directly from X data. \u2022 Added a subagent model inheritance setting to /settings. It persists in config.toml and respects managed and overlay layers. \u2022 Per-model request size limits can now be configured to match provider HTTP body caps and control inline image eviction. \u2022 A long-reasoning reminder can now be enabled through config to nudge the model after lengthy hidden-reasoning steps. Bug Fixes \u2022 Fixed the subagent fullscreen view so it no longer shows a stray [Dashboard] button in the header. \u2022 Fixed agent frontmatter mcpServers so headers and URLs from the active agent\u2019s agent.md correctly override config.toml and survive config reloads or agent switches. \u2022 Ctrl+P now opens the command palette immediately from the welcome screen. \u2022 The Dashboard now focuses the \u201c+ New Agent\u201d row instead of leaving the previous session selected. \u2022 Sessions interrupted by a crash now show a clear marker instead of silently dropping the turn. \u2022 Pressing Ctrl+Z immediately after stashing a prompt now restores it. \u2022 The collapsed edit blocks setting now correctly collapses edits even when expanded_by_default is pinned to true. \u2022 Interjections now receive a visible reply before the agent resumes its previous tasks. \u2022 Cancelling a turn blocked on spawn_subagent now tells the model that the child moved to the background instead of claiming it was never executed. \u2022 Saving a queued-prompt edit now returns focus to the composer so the next keystrokes type the next message. \u2022 Subagent activation is now consistent between the TUI and Grok Agent Studio. Tables that only set limits or models no longer disable subagents. \u2022 Effort-level selection now accepts menu labels in addition to IDs.",
+   "permalink": "https://x.com/cb_doge/status/2102448328638382234",
+   "outlink": null,
+   "score": 1407,
+   "comments_n": 94,
+   "views": 337778,
+   "age_h": 14.0,
+   "vph": 100.2,
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg",
+   "images": [],
+   "video": "https://video.twimg.com/amplify_video/2102448025805488128/vid/avc1/1284x1080/gvmCUPk-G1LTDpLr.mp4?tag=29",
+   "guide": true,
+   "top_comments": [
+    "Grok 4.7 out.  Always good news for Groklet.",
+    "Grok Build is moving fast. Anyone here actually using it daily yet?",
+    "Grok will dominate",
+    "\u041f\u043e\u0437\u0434\u0440\u0430\u0432\u043b\u044f\u044e. \u0416\u0434\u0443 \u043a\u0430\u043a \u043d\u0430\u043a\u0430\u0442\u0438\u0442\u0441\u044f \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0432 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430\u0445 \ud83d\ude2c",
+    "NFL scores directly from X? Grok really out here securing that fantasy football MVP status. That's wild."
+   ],
+   "born": 1790097787.952903
+  },
+  {
    "id": "2096249196663713957",
    "title": "GPT-6 Astra broke the Internet just 2 days ago. People can't believe how powerful and \"intelligent\" it is. Unlocking new possibilities. 10 wild examples:",
    "sub": "minchoi",
@@ -898,33 +925,6 @@
     "@JonnyJelinek Definitely getting there"
    ],
    "born": 1788620004.07806
-  },
-  {
-   "id": "2102448328638382234",
-   "title": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build. The update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent perfo",
-   "sub": "cb_doge",
-   "where": "@cb_doge on X",
-   "unit": "likes",
-   "selftext": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build. The update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent performance. It also adds new subagent controls, configurable request limits and long-reasoning reminders. Release Notes Version 1.0.41 \u2014 September 22, 2026 Features \u2022 Added a new sports_search tool that can look up live NFL scores, standings, schedules, player stats and team records directly from X data. \u2022 Added a subagent model inheritance setting to /settings. It persists in config.toml and respects managed and overlay layers. \u2022 Per-model request size limits can now be configured to match provider HTTP body caps and control inline image eviction. \u2022 A long-reasoning reminder can now be enabled through config to nudge the model after lengthy hidden-reasoning steps. Bug Fixes \u2022 Fixed the subagent fullscreen view so it no longer shows a stray [Dashboard] button in the header. \u2022 Fixed agent frontmatter mcpServers so headers and URLs from the active agent\u2019s agent.md correctly override config.toml and survive config reloads or agent switches. \u2022 Ctrl+P now opens the command palette immediately from the welcome screen. \u2022 The Dashboard now focuses the \u201c+ New Agent\u201d row instead of leaving the previous session selected. \u2022 Sessions interrupted by a crash now show a clear marker instead of silently dropping the turn. \u2022 Pressing Ctrl+Z immediately after stashing a prompt now restores it. \u2022 The collapsed edit blocks setting now correctly collapses edits even when expanded_by_default is pinned to true. \u2022 Interjections now receive a visible reply before the agent resumes its previous tasks. \u2022 Cancelling a turn blocked on spawn_subagent now tells the model that the child moved to the background instead of claiming it was never executed. \u2022 Saving a queued-prompt edit now returns focus to the composer so the next keystrokes type the next message. \u2022 Subagent activation is now consistent between the TUI and Grok Agent Studio. Tables that only set limits or models no longer disable subagents. \u2022 Effort-level selection now accepts menu labels in addition to IDs.",
-   "permalink": "https://x.com/cb_doge/status/2102448328638382234",
-   "outlink": null,
-   "score": 1080,
-   "comments_n": 81,
-   "views": 251570,
-   "age_h": 12.1,
-   "vph": 89.3,
-   "image": "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg",
-   "images": [],
-   "video": "https://video.twimg.com/amplify_video/2102448025805488128/vid/avc1/1284x1080/gvmCUPk-G1LTDpLr.mp4?tag=29",
-   "guide": true,
-   "top_comments": [
-    "Grok 4.7 out.  Always good news for Groklet.",
-    "Grok Build is moving fast. Anyone here actually using it daily yet?",
-    "Grok will dominate",
-    "NFL scores directly from X? Grok really out here securing that fantasy football MVP status. That's wild.",
-    "Still lacking some certain things though. Claude and Codex are still better. Maybe Grok 4.8 might be the one"
-   ],
-   "born": 1790097787.952903
   },
   {
    "id": "2093310125603774873",
