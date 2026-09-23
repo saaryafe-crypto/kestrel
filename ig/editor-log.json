@@ -1,40 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "",
-  "subject": "SPACEX LET A MACHINE AUTO-DODGE SPACE DEBRIS <em>1,100 TIMES EVERY SINGLE DAY</em>",
-  "t": "2026-09-17T23:26:45Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "SPACEX LET A MACHINE AUTO-DODGE SPACE DEBRIS <em>1,100 TIMES EVERY SINGLE DAY</em>",
-  "t": "2026-09-17T23:27:01Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-09-18T02:18:00Z",
-  "gate": "A",
-  "subject": "The holy grail for robotics is being able to generalize: doing work in unseen places We rented 30 homes in the Bay Area ",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-18T02:18:01Z",
-  "gate": "A",
-  "subject": "Today we’re releasing Helix 2.5 We rented 30 homes in the Bay Area. The robots arrived with no additional training and s",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-18T02:19:02Z",
-  "gate": "A",
-  "subject": "College-educated workers ages 22 to 34 are experiencing one of their worst periods of unemployment in the past 20 years,",
-  "verdict": "KILL",
-  "reason": "Labor-market statistic without a named actor or specific event — fails STORY LAW (requires something to HAPPEN in the real world) and THE STANDARD (a 12-year-old wouldn't DM 'unemployment is up' to a friend)."
- },
- {
   "t": "2026-09-18T02:19:27Z",
   "gate": "A",
   "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-23T01:24:06Z",
   "gate": "R",
   "subject": "ONE PRIVATE COMPANY NOW DECIDES <em>WHO CAN COMMUNICATE WHEN MILITARIES LOSE ALL OTHER SIGNALS</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-23T05:56:16Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "EMOJI VIOLATION (§7): The caption contains a 👇 emoji after the lede sentence. §7 bans emojis outright. Remove it — the sentence works without it: '...from an AI agent running your Tesla to Musk's deadline for AI beating every expert'; IMAGE LAW — CGI RENDERS, NOT PHOTOGRAPHS (§3): The cover shows two gold Cybercabs in a city street. Both cars are identically positioned with butterfly doors open at"
+ },
+ {
+  "t": "2026-09-23T05:58:30Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 — HEADLINE ACCENT TEXTURE VIOLATION (Sep 10 permanent order): The 'AI' accent word on the cover headline renders in flat solid orange, not the required orange-sky cloud texture (art/accent-orange.jpg via background-clip). The doctrine says 'never one flat color' and this rule is marked PERMANENT. Fix: apply the background-clip texture to the 'AI' text exactly as specified — white base"
+ },
+ {
+  "t": "2026-09-23T06:00:13Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em style=\"background-image:url(art/accent-orange.jpg);background-clip:text;-webkit-background-cli",
+  "verdict": "REJECT",
+  "reason": "Cover image vehicles read as CGI renders, not real photographs — the gold Cybercab cars have impossible surface uniformity, studio-perfect door angles, and zero real-world reflective variation. Image law requires every element to read as photographed. Fix: replace with a real Tesla Cybercab press photo.; The 'AI' headline accent in the delivered cover image is flat solid orange, violating the perm"
+ },
+ {
+  "t": "2026-09-23T06:02:13Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em style=\"background-image:url(art/accent-orange.jpg);background-clip:text;-webkit-background-cli",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW VIOLATION — PHOTOREAL ELEMENTS: The cover image shows two gold Cybercab-style vehicles that read unmistakably as CGI concept renders, not photographed cars. Tells: perfect mirror-symmetry of two identical vehicles with scissor doors open simultaneously on a pristine city street, flawless computer-lit gold paint with no real-world imperfections, and the door-script text is garbled ('CybRe"
+ },
+ {
+  "t": "2026-09-23T06:02:20Z",
+  "gate": "R",
+  "subject": "WHAT JUST HAPPENED IN <em style=\"background-image:url(art/accent-orange.jpg);background-clip:text;-webkit-background-cli",
   "verdict": "PASS",
   "reason": ""
  }

@@ -1,0 +1,33 @@
+{
+ "stories": [
+  {
+   "headline": "Grok Bot now live in Tesla, runs errands by voice"
+  },
+  {
+   "headline": "Musk says AI beats every field by end of 2027"
+  },
+  {
+   "headline": "Tesla Cybercab robotaxi fleet hits 67 cars in Texas"
+  },
+  {
+   "headline": "Rocket Lab buys Iridium in landmark space deal"
+  },
+  {
+   "headline": "SpaceX Booster 21 on pad ahead of next Starship test"
+  }
+ ],
+ "caption": "Here's what happened in AI and tech in the last 24 hours, from an AI agent running your Tesla to Musk's deadline for AI beating every expert\n\nGrok Bot is now live in Tesla vehicles, order from Amazon, manage your email and finances, all by voice, no separate app needed.\n\nElon Musk says AI will beat every field, medicine, engineering, science, by end of 2027. \"Or maybe 2028, at the latest.\"\n\nTesla's Cybercab robotaxi fleet in Texas hit 67 cars, up 9 more, per public DMV filings.\n\nRocket Lab is buying Iridium, one of the world's biggest satellite networks, to become a fully self-launching space company.\n\nSpaceX rolled Booster 21 to the launch pad in South Texas, the next Starship test is close.\n\nAI is leaving your phone and moving into your car, your sky, and your inbox. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Tesla, xAI, Texas DMV, Rocket Lab, SpaceX\n\n#AI #ArtificialIntelligence #Tech #Tesla #SpaceX",
+ "pinned_comment": "If AI really beats every expert field by 2028, medicine, law, engineering, what does that actually mean for the people who spent years training for those jobs?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "WHAT JUST HAPPENED IN <em style=\"background-image:url(art/accent-orange.jpg);background-clip:text;-webkit-background-clip:text;color:transparent\">AI</em> TODAY?",
+   "kicker": "THE DAILY RECAP",
+   "media": "posts/2026-09-23-ai-recap/media-2.jpg"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW VIOLATION \u2014 PHOTOREAL ELEMENTS: The cover image shows two gold Cybercab-style vehicles that read unmistakably as CGI concept renders, not photographed cars. Tells: perfect mirror-symmetry of two identical vehicles with scissor doors open simultaneously on a pristine city street, flawless computer-lit gold paint with no real-world imperfections, and the door-script text is garbled ('CybRe"
+}
