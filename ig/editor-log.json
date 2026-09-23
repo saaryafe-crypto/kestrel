@@ -1,47 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Routine labor-market trend with no specific event, named person, or tech angle—banned as market-wrap tier.",
-  "subject": "College-educated workers ages 22 to 34 are experiencing one of their worst periods of unemployment in the past 20 years,",
-  "t": "2026-09-18T00:46:52Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Sole source is an unverified hearsay tweet citing an unnamed lab leader, with no numbers, no independent reporting of the alleged incident despite months elapsed, and no way to verify extraordinary security breach claims before investigation.",
-  "subject": "BREAKING: Andrew Yang has reportedly said that a prominent AI lab leader believes the autonomous OpenAI agents that esca",
-  "t": "2026-09-18T00:47:11Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Research announcement without consumer/product/market/person consequence; the 162x number is academically significant but doesn't make reality move for general audiences or merit a friend send.",
-  "subject": "big AI news Google just demonstrated a recursive self improvement loop for AI discovery Google/DeepMind researchers intr",
-  "t": "2026-09-18T00:47:13Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "December 21, 2015 booster landing is a documented first-ever orbital-class landing that qualifies as a legal history arc (story spine: industry said impossible → SpaceX bet the company → historic proof via camera footage → changed spaceflight forever); SpaceX is a named on-brand actor; despite low scout interest, doctrine's Sep 1 calibration explicitly requires judging the EVENT not the tweet's length, and this event demonstrably moved reality—the source material has stakes, consequence, and visual proof.",
-  "subject": "That night SpaceX put everything on the line. December 21, 2015. Nearly 11 years later and it hits just as hard. Return ",
-  "t": "2026-09-18T00:48:18Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "B",
-  "reason": "Caption first sentence ends with a 🚀 emoji — §4 Spoken Voice bans all emojis. Delete it.",
-  "subject": "SPACEX LANDED A ROCKET <em>THE WHOLE INDUSTRY CALLED IMPOSSIBLE</em>, <em>NINE MINUTES</em> AFTER LAUNCH.",
-  "t": "2026-09-18T01:04:42Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "TRUTH LAW violation in caption body: 'The actual rocket, back from orbit' is factually wrong. The Falcon 9 first stage separates before the vehicle reaches orbital velocity — the booster never goes to orbit. Fix: replace 'back from orbit' with 'back from the upper atmosphere' (or delete the phrase entirely, since the surrounding sentences already establish what it was).",
-  "subject": "SPACEX LANDED A ROCKET <em>THE WHOLE INDUSTRY CALLED IMPOSSIBLE</em>, <em>NINE MINUTES</em> AFTER LAUNCH.",
-  "t": "2026-09-18T01:06:47Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "B",
   "reason": "FRIEND TEST FAIL — paragraph 2: 'landing an orbital-class rocket booster was physically impossible' uses aerospace jargon nobody says out loud. A 12-year-old at the table would say 'landing the actual rocket back from space' or 'landing a full-size rocket that had just been to orbit.' Spoken rewrite: 'every aerospace expert agreed on one thing: landing the actual rocket back from space — after it ",
   "subject": "SPACEX LANDED A ROCKET <em>THE WHOLE INDUSTRY CALLED IMPOSSIBLE</em>, <em>NINE MINUTES</em> AFTER LAUNCH.",
@@ -2096,6 +2054,48 @@
   "t": "2026-09-23T18:46:23Z",
   "gate": "R",
   "subject": "<em>5 GEMINI LIVE FEATURES</em> SO USEFUL THEY FEEL ILLEGAL",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-23T19:32:54Z",
+  "gate": "A",
+  "subject": "We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by ",
+  "verdict": "KILL",
+  "reason": "Feature announcement on existing product is on-topic but routine—explicitly banned by doctrine—and fails to meet jaw-drop threshold scouts at 5/10."
+ },
+ {
+  "t": "2026-09-23T19:33:48Z",
+  "gate": "A",
+  "subject": "BREAKING 🚨: Private Credit Apollo Global, one of the world's largest money managers, just limited withdrawals from its f",
+  "verdict": "KILL",
+  "reason": "Completely off-topic for an AI/tech news page: pure finance/private credit story with zero tech or AI angle, violating §1's core mandate that the page's identity is 'AI/tech NEWS'—better to hold the slot for on-brand news than publish off-brand content."
+ },
+ {
+  "t": "2026-09-23T19:34:26Z",
+  "gate": "A",
+  "subject": "Tesla in new drive unit video: “Cybercab is 40% more efficient than Model Y.”",
+  "verdict": "KILL",
+  "reason": "Single efficiency metric without secondary facts or real-world consequence; bare product specification would require substantial padding to sustain carousel."
+ },
+ {
+  "t": "2026-09-23T19:34:45Z",
+  "gate": "A",
+  "subject": "Let that sink for a moment: - Opus 5.5 costs 40% less compared to Opus 5 - performs at Fable 5.1 level - is 30% faster i",
+  "verdict": "APPROVE",
+  "reason": "A household-name lab (Anthropic) releasing a model is the news type §1 explicitly says to cover; concrete specs support writing, and killing necessary news invites the listicle-repetition drift flagged as the page's #1 failure."
+ },
+ {
+  "t": "2026-09-23T19:57:23Z",
+  "gate": "B",
+  "subject": "CHATGPT'S BIGGEST RIVAL JUST MADE YOUR AI <em>40% CHEAPER AND ACTUALLY BETTER</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-23T19:57:45Z",
+  "gate": "R",
+  "subject": "CHATGPT'S BIGGEST RIVAL JUST MADE YOUR AI <em>40% CHEAPER AND ACTUALLY BETTER</em>",
   "verdict": "PASS",
   "reason": ""
  }
