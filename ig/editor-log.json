@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-18T02:19:27Z",
-  "gate": "A",
-  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
-  "verdict": "KILL",
-  "reason": "Empty launch preview without demonstration or proof of availability—the banned form the doctrine explicitly rejects."
- },
- {
   "t": "2026-09-18T02:53:06Z",
   "gate": "B",
   "subject": "ROBOTS WALKED INTO <em>30 HOMES THEY'D NEVER SEEN</em> AND STARTED DOING CHORES WITH <em>ZERO TRAINING</em>",
@@ -2098,5 +2091,12 @@
   "subject": "WHAT JUST HAPPENED IN <em style=\"background-image:url(art/accent-orange.jpg);background-clip:text;-webkit-background-cli",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-23T13:39:44Z",
+  "gate": "A",
+  "subject": "Lavender is an AI that Israel uses to kill Palestinians It gives kill scores based on multiple data points At a 70, they",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no reportorial facts or consequences; unknown actor making a claim does not constitute reporting an event."
  }
 ]

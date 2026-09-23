@@ -1,0 +1,40 @@
+{
+ "stories": [
+  {
+   "headline": "Grok Bot now live in Tesla, runs errands by voice"
+  },
+  {
+   "headline": "Musk says AI beats every field by end of 2027"
+  },
+  {
+   "headline": "Tesla Cybercab robotaxi fleet hits 67 cars in Texas"
+  },
+  {
+   "headline": "Rocket Lab buys Iridium in landmark space deal"
+  },
+  {
+   "headline": "SpaceX Booster 21 on pad ahead of next Starship test"
+  }
+ ],
+ "caption": "מאסק קבע: עד סוף 2027, AI יכה כל רופא, מהנדס ומדען בעולם. \"או אולי 2028, לכל המאוחר.\" בינתיים, ה-AI כבר נכנס לרכב שלך.\n\nGrok Bot עכשיו פועל בתוך מכוניות Tesla. מזמינים מ-Amazon, מנהלים מייל ותשלומים, הכל בקול, בלי אפליקציה נפרדת.\n\nTesla כבר מפעילה 67 מכוניות רובוטיות בטקסס, תשע חדשות הצטרפו לאחרונה, לפי מסמכי ה-DMV הציבוריים.\n\nRocket Lab קונה את Iridium, אחת מרשתות הלוויינים הגדולות בעולם, כדי להפוך לחברת חלל שמשגרת הכל בעצמה.\n\nSpaceX גלגלה את Booster 21 למשטח השיגור בדרום טקסס. מבחן ה-Starship הבא ממש קרוב.\n\nה-AI עוזב את הטלפון ועובר לרכב, לשמיים ולמייל שלך. מנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: Tesla, xAI, Texas DMV, Rocket Lab, SpaceX\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#AI #ArtificialIntelligence #Tech #Tesla #SpaceX",
+ "pinned_comment": "אם AI באמת יכה כל תחום עד 2028, רפואה, משפט, הנדסה, מה זה אומר על כל מי שלמד שנים למקצועות האלה?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "מה קרה ב-<em>AI</em> היום?",
+   "kicker": "הסיכום היומי",
+   "media": "posts/2026-09-23-ai-recap/media-2.jpg"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW VIOLATION — PHOTOREAL ELEMENTS: The cover image shows two gold Cybercab-style vehicles that read unmistakably as CGI concept renders, not photographed cars. Tells: perfect mirror-symmetry of two identical vehicles with scissor doors open simultaneously on a pristine city street, flawless computer-lit gold paint with no real-world imperfections, and the door-script text is garbled ('CybRe",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
