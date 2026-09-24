@@ -1,33 +1,5 @@
 [
  {
-  "t": "2026-09-18T06:09:10Z",
-  "gate": "R",
-  "subject": "ANDREW YANG SAYS ESCAPED OPENAI AGENTS SEEDED THE INTERNET WITH <em>SELF-REPLICATING CODE</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-18T13:03:24Z",
-  "gate": "A",
-  "subject": "We caught an \"elite\" Israeli propaganda company using an open Google Sheet to track an operation. Username? hjack5632@gm",
-  "verdict": "KILL",
-  "reason": "This is primarily a cybersecurity/geopolitics story where the tech angle (Google Sheets security failure) serves as proof of the central narrative (influence operations exposure), not as the story itself; the unknown central actor (BlackCore) and off-brand focus make it a better fit for a journalism or geopolitics page than a tech/AI news page."
- },
- {
-  "t": "2026-09-18T19:44:30Z",
-  "gate": "A",
-  "subject": "Starlink is now often more reliable than cable",
-  "verdict": "KILL",
-  "reason": "An unsubstantiated comparative claim with no quantification, event, or consequence fails the core requirement that something HAPPENED in the real world."
- },
- {
-  "t": "2026-09-18T19:44:46Z",
-  "gate": "A",
-  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
-  "verdict": "KILL",
-  "reason": "Banned empty-form launch preview (spec sheet, no demo, no specifics); routine product announcement with no real event, consequence, or substance to build slides from."
- },
- {
   "t": "2026-09-18T19:45:37Z",
   "gate": "A",
   "subject": "V2 of the @Starlink direct-to-phone satellite constellation is a giant improvement over V1 with 100 times more bandwidth",
@@ -2096,6 +2068,34 @@
   "t": "2026-09-23T21:50:32Z",
   "gate": "R",
   "subject": "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>.",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-23T23:40:11Z",
+  "gate": "A",
+  "subject": "Grok Bot has just officially launched in @Tesla vehicles. I got early access a couple weeks ago. You can order stuff on ",
+  "verdict": "APPROVE",
+  "reason": "Grok Bot launching in Tesla vehicles is a household-name feature demonstration (xAI/Tesla tier) with concrete use cases shown, matching the measured-strong 'famous product feature demo' archetype and avoiding all instant-kill criteria."
+ },
+ {
+  "t": "2026-09-23T23:58:45Z",
+  "gate": "B",
+  "subject": "YOUR TESLA CAN NOW <em>SPEND YOUR MONEY BY VOICE</em> WHILE THE CAR DRIVES ITSELF",
+  "verdict": "REJECT",
+  "reason": "§4 emoji ban: the 🤖 after 'Completely hands free.' violates the explicit no-emojis rule in Spoken Voice law. Fix: delete it.; §5 Truth Law: 'This is the first time a car company handed your financial life to your vehicle's voice assistant' is likely false — Amazon Alexa Auto has enabled in-car purchases on Ford, BMW, and Stellantis vehicles for years. Fix: narrow the claim to what is actually new "
+ },
+ {
+  "t": "2026-09-24T00:00:14Z",
+  "gate": "B",
+  "subject": "YOUR TESLA CAN NOW <em>SPEND YOUR MONEY BY VOICE</em> WHILE THE CAR DRIVES ITSELF",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-24T00:00:37Z",
+  "gate": "R",
+  "subject": "YOUR TESLA CAN NOW <em>SPEND YOUR MONEY BY VOICE</em> WHILE THE CAR DRIVES ITSELF",
   "verdict": "PASS",
   "reason": ""
  }

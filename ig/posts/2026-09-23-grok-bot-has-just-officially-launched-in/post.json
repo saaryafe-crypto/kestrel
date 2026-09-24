@@ -1,0 +1,74 @@
+{
+ "media_idx": 1,
+ "image_brief": "Tesla dashboard touchscreen at night showing Grok AI voice interface with self-driving mode button active",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR TESLA CAN NOW <em>SPEND YOUR MONEY BY VOICE</em> WHILE THE CAR DRIVES ITSELF",
+   "kicker": "ORDER PAID BEFORE YOU ARRIVE",
+   "hsize": 68,
+   "media": "posts/2026-09-23-grok-bot-has-just-officially-launched-in/gen-0.jpg",
+   "image_prompt": "Elon Musk sitting in the back seat of a driverless Tesla with no one at the wheel, ordering things by voice, with the Tesla logo in a big circle next to him",
+   "gen_person": true
+  }
+ ],
+ "caption": "Tesla just connected your car's voice to your Amazon account, email, and bank. Completely hands free.\n\nUntil this week, your Tesla's voice assistant was for navigation and skipping songs. That's it. Then on September 22, Grok Bot officially launched inside Tesla cars, and now your car can place Amazon orders, read your email, manage your calendar, and handle your finances. All by voice, straight from the dashboard.\n\nHere's the part that sounds made up. You say \"order me a coffee\" to your Tesla. The car starts driving itself to the shop via self-driving mode. By the time you pull up, the order is already placed and paid for. You touched absolutely nothing the entire time.\n\nBut what Tesla quietly just did is bigger than the coffee trick. Your car key and your bank key are now the same thing. Whoever gets into your Tesla account has a live connection to your Amazon cart, your email, and your financial accounts. Every Tesla just became a new way into your wallet.\n\nRight now it's limited to SuperGrok Heavy subscribers, the most expensive Grok tier. But it's expanding to all Tesla owners. This is the first time a car's own built-in AI, not a third-party app, routes your Amazon cart, your email, and your bank through one voice command while the car drives itself.\n\nAI is taking over every screen you own, one voice command at a time. Tesla just connected its car, its AI, and your bank into one login.\n\nRunning a business? DM us \"AI\" and we'll show you what voice AI could automate for yours.\n\nSources: xAI, Sawyer Merritt on X\n\n#Tesla #GrokAI #AI #TechNews #ArtificialIntelligence",
+ "pinned_comment": "Your Tesla account now connects directly to your Amazon cart and your bank. Think about how many people already have your Tesla password.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "TESLA CARS NOW HAVE <em>LIVE ACCESS TO YOUR AMAZON, EMAIL, AND BANK</em> BY VOICE",
+   "TESLA JUST GAVE ITS CARS <em>VOICE ACCESS TO YOUR AMAZON AND YOUR BANK ACCOUNT</em>",
+   "TESLA JUST BECAME <em>THE MASTER KEY</em> TO YOUR AMAZON ACCOUNT AND BANK BY VOICE",
+   "TESLA GAVE ONE AI <em>ACCESS TO YOUR STEERING WHEEL AND YOUR BANK ACCOUNT</em>",
+   "YOUR TESLA CAN NOW <em>SPEND YOUR MONEY BY VOICE</em> WHILE THE CAR DRIVES ITSELF",
+   "TESLA JUST MADE <em>YOUR CAR KEY AND YOUR BANK KEY</em> THE SAME THING"
+  ],
+  "scores": [
+   7,
+   6,
+   7,
+   8,
+   9,
+   6
+  ],
+  "winner": 4,
+  "why": "[4] shows the active horror: your money spent by voice while the car drives itself and you're passive. [3] just states the access is linked, but [4] makes the danger immediately visceral."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "YOUR TESLA NOW <em>ORDERS YOUR COFFEE WHILE DRIVING YOU TO THE SHOP</em>",
+   "YOUR TESLA CAN NOW <em>SPEND YOUR MONEY BY VOICE</em> WHILE THE CAR DRIVES ITSELF",
+   "TESLA JUST BECAME <em>THE FIRST CAR THAT MANAGES YOUR BANK WHILE DRIVING YOU</em>"
+  ],
+  "scores": [
+   7,
+   9,
+   0
+  ],
+  "winner": 1,
+  "why": "[1] hits the core alarm\u2014your Tesla spending your money by voice\u2014that makes you stop scrolling immediately. [0] sounds cool but doesn't convey the financial danger, so the real story's impact gets lost."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Tesla / Grok",
+  "actor_known": true,
+  "anchor": "Tesla",
+  "specifics": [
+   "Your Tesla's voice assistant now has live access to your Amazon, email, and bank account simultaneously",
+   "The car drives itself while AI spends your money \u2014 you are fully passive for the entire trip",
+   "Compromise your Tesla login and you potentially compromise your finances",
+   "Currently gated to SuperGrok Heavy (the most expensive tier) but expanding to all owners",
+   "The entire demo: say 'order coffee,' car drives you there via self-driving, order is ready on arrival \u2014 zero human action taken"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Grok Bot has just officially launched in @Tesla vehicles. I got early access a couple weeks ago. You can order stuff on online (such as Amazon), manage your email, calendar, finances, or other tasks through Grok @Bot usi",
+  "link": "https://x.com/SawyerMerritt/status/2102432181666590951",
+  "judge_interest": 7,
+  "scout_score": 77.8
+ }
+}
