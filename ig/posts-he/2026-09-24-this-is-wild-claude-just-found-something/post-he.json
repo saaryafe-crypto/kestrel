@@ -1,0 +1,78 @@
+{
+ "image_brief": "Claude AI spotting a glowing hidden repeat pattern inside virus DNA with the Claude logo",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>Claude</em> סרק DNA של וירוסים ומצא אנזים שאף מדען ראה לפניו",
+   "kicker": "ואף אחד לא יודע מה הוא עושה",
+   "hsize": 72,
+   "media": "posts/2026-09-24-this-is-wild-claude-just-found-something/gen-0.jpg",
+   "image_prompt": "Dario Amodei triumphant discovering the hidden DNA enzyme human scientists all missed, with the Claude logo in a big circle next to him",
+   "gen_person": true
+  }
+ ],
+ "caption": "Claude מצא אנזים שאף אחד לא ידע שקיים. גם המפתחים שלו לא יכולים להסביר מה הוא עושה. 🧬\n\nClaude, כלי ה-AI של Anthropic, הריץ 950 עותקים של עצמו 21 שעות רצוף, סרק DNA של וירוסים, ומצא דפוס חוזר שכל מדען ראה ועבר הלאה.\n\nהדפוס הזה מסתבר שהוא מערכת אנזים שלמה שאף אחד בעולם לא ידע שקיימת. האנזים יושב ליד שרשרת DNA חוזרת עם אותו מבנה בדיוק שהפך את CRISPR למה שהוא.\n\nAnthropoc עצמם אומרים שאין להם מושג מה האנזים הזה עושה. ה-AI מצא אותו. המפתחים שלו לא יכולים להסביר אותו.\n\nCRISPR התחיל בדיוק ככה: דפוס מוזר שחוקרים כמעט התעלמו ממנו, שהפך לכלי עריכת גנים ששווה עשרות מיליארדי דולר ומשמש היום לטיפול בסרטן. אם האנזים הזה חשוב באותה מידה, הגילוי שייך למכונה. לא לאדם. וזה נוגע בכל מענק מחקר, כל פטנט, וכל קריירה בביולוגיה, כולל שלך.\n\n950 עותקים רצו במקביל, מצאו משהו שאף אדם לא מצא, ואיש עדיין לא יודע מה הם מצאו. זה לא כלי. זה סוג חדש של מדען.\n\nה-AI כבר לא רק עוזר למדענים. הוא הפך למדען. הכלי שכולם כותבים איתו מיילים, גילה עכשיו משהו שאולי יכנס לספרי לימוד בביולוגיה.\n\nמנהל עסק? שלח לנו DM עם המילה AI ונדבר איך זה קשור אליך.\n\nעקוב אחרינו: @ainews.israel\n\nמקורות: Anthropic, Min Choi on X\n\n#AI #CRISPR #Anthropic #Claude #Biotech",
+ "pinned_comment": "Anthropic אמרו בפירוש: מצאנו את זה, ועדיין אין לנו מושג מה זה עושה. אולי הטיפול הבא בסרטן כבר קיים. מה שגילה אותו לא יודע מה זה סרטן.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "<em>AI FOUND A CRISPR-LIKE ENZYME IN VIRUS DNA.</em> EVERY RESEARCHER HAD MISSED IT.",
+   "<em>AN AI JUST FOUND A CRISPR-LIKE ENZYME IN VIRUS DNA</em> THAT HUMANS NEVER NOTICED.",
+   "CRISPR JUST GOT A SECRET TWIN, FOUND BY <em>950 AI AGENTS</em> IN <em>21 HOURS</em>",
+   "AI FOUND A <em>CRISPR TWIN IN VIRUS DNA</em> AND NOBODY KNOWS <em>WHAT IT DOES</em>",
+   "CRISPR HAS A <em>HIDDEN TWIN IN VIRUS DNA</em>, AND <em>AI FOUND IT FIRST</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   8,
+   7,
+   6
+  ],
+  "winner": 2,
+  "why": "The specific, bizarre scale in [2] (950 AI agents, 21 hours) creates an immediate 'wait, what?' that makes you stop scrolling. [0]'s 'every researcher missed it' is solid but more expected as an AI-beats-humans narrative."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "CRISPR HAS A TWIN <em>EVERY HUMAN RESEARCHER MISSED</em>. AI FOUND IT IN <em>21 HOURS</em>.",
+   "CRISPR JUST GOT A SECRET TWIN, FOUND BY <em>950 AI AGENTS</em> IN <em>21 HOURS</em>",
+   "CRISPR HAS A TWIN. AI FOUND IT AND <em>NOBODY KNOWS IF IT CURES CANCER</em>."
+  ],
+  "scores": [
+   8,
+   9,
+   6
+  ],
+  "winner": 1,
+  "why": "[1]'s '950 AI AGENTS' is an absurdly specific number that stops your brain cold at 2am; [0]'s 'every researcher missed' is close but a concrete sci-fi detail hits harder than a qualitative claim."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Anthropic / Claude",
+  "actor_known": false,
+  "anchor": "CRISPR",
+  "specifics": [
+   "AI found a completely new enzyme system in virus DNA that every human researcher had missed",
+   "The structure looks like CRISPR — the gene-editing tool already used to treat cancer",
+   "Even Anthropic admits they have no idea what this enzyme does",
+   "950 AI agents ran simultaneously for 21 hours to find it",
+   "CRISPR itself was nearly dismissed when first found in bacteria — this could be the same moment repeating"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "This is wild. Claude just found something humans missed. It spotted a hidden repeat pattern in raw bacteriophage DNA… …and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. 🤯 950 ag",
+  "link": "https://x.com/minchoi/status/2102838725722198064",
+  "judge_interest": 6,
+  "scout_score": 121.4
+ },
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
