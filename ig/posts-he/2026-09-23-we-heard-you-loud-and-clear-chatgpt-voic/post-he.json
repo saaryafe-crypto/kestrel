@@ -1,0 +1,87 @@
+{
+ "media_idx": 1,
+ "image_brief": "ChatGPT Voice app on a phone with email, calendar, and Slack icons responding hands-free on a commuter train",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ChatGPT Voice עכשיו עובד בשבילך: <em>מיילים, מצגות ויומן, רק תדבר</em>",
+   "kicker": "GPT-6 מהיום",
+   "hsize": 72,
+   "media": "posts/2026-09-23-we-heard-you-loud-and-clear-chatgpt-voic/cand-1.webp"
+  }
+ ],
+ "caption": "ChatGPT Voice עכשיו עונה על המיילים שלך, מנהל את היומן ומכין מצגות שלמות, רק עם הקול.\n\nעד היום ChatGPT Voice היה בעצם Siri קצת יותר חכמה. שאלות מהירות, טיימרים, שום דבר שקשור לעבודה אמיתית.\n\nהבוקר זה השתנה. פותחים את ChatGPT בטלפון, מתחילים לדבר, והוא עונה על המיילים, מנקה את ה-Slack, מעדכן את היומן ומכין מצגת שלמה, בלי לגעת במסך פעם אחת. מי שרוכב ברכבת הביתה הערב יכול להכתיב את הדוח של יום שני ולהגיע לתחנה עם הכל כתוב.\n\nומה שעוד יותר מוזר: הכל רץ על GPT-6. שלוש גרסאות שלו: Astra, Sol ו-Luna. זה המודל הכי חזק ש-OpenAI שחררה אי פעם. הצ'אט שפעם השתמשת בו לשאלות טריוויה עכשיו רץ על אותו מוח כמו המודלים הכי חזקים של OpenAI.\n\nיצא לכל העולם מהיום. אם רוב העבודה שלך היא לכתוב מיילים, להכין שקופיות ולנהל יומן, תצטרך להסביר למה אתה איטי יותר מפקודת קול.\n\nמנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה ChatGPT Voice יכול לעשות בשבילך.\n\nמקורות: OpenAI\n\nעקבו אחרי @ainews.israel לעוד עדכוני AI\n\n#ChatGPT #OpenAI #AI #ArtificialIntelligence #Technology",
+ "pinned_comment": "ChatGPT Voice מכין לך מצגת שלמה רק כי דיברת, אז מה בדיוק אתה עושה ביום שני בבוקר?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "CHATGPT VOICE JUST LEARNED TO DO <em>YOUR JOB</em> AND IT <em>WENT GLOBAL TODAY</em>",
+   "PEOPLE ARE ALREADY DICTATING FULL PRESENTATIONS ON THEIR COMMUTE <em>USING CHATGPT VOICE</em>",
+   "CHATGPT VOICE NOW RUNS ON <em>GPT-6</em> AND HANDLES <em>YOUR ENTIRE WORKDAY HANDS-FREE</em>",
+   "CHATGPT VOICE JUST CONNECTED TO <em>YOUR EMAIL, SLACK, AND CALENDAR</em> <em>TODAY</em>",
+   "PEOPLE ARE ALREADY USING <em>CHATGPT VOICE</em> TO DO <em>YOUR ENTIRE JOB HANDS-FREE</em>",
+   "CHATGPT VOICE JUST GOT GPT-6. <em>IT NOW BUILDS YOUR SLIDE DECK BY TALKING.</em>",
+   "CHATGPT VOICE NOW WRITES YOUR MONDAY REPORT ON THE TRAIN, <em>JUST BY TALKING</em>",
+   "<em>YOUR OFFICE WORK</em> CAN NOW BE DONE BY CHATGPT VOICE BEFORE YOU GET HOME TONIGHT",
+   "CHATGPT VOICE NOW BUILDS <em>YOUR DOCS, DECKS, AND EMAILS</em> <em>WHILE YOU TALK</em>"
+  ],
+  "scores": [
+   6,
+   7,
+   7,
+   6,
+   5,
+   8,
+   7,
+   5,
+   6
+  ],
+  "winner": 5,
+  "why": "'Slide deck by talking' clicks instantly as something you'd try tomorrow; 'entire workday hands-free' sounds impressive but unbelievable. Concrete wins over ambitious for the stop-scroll moment."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "CHATGPT VOICE JUST GOT GPT-6 AND <em>NOW HANDLES YOUR FULL WORKDAY BY VOICE</em>.",
+   "CHATGPT VOICE IS <em>ON YOUR PHONE RIGHT NOW</em> AND HANDLES YOUR ENTIRE WORKDAY BY TALKING.",
+   "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>."
+  ],
+  "scores": [
+   7,
+   4,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] gives concrete, specific integrations (email, Slack, calendar) that immediately explain the value and signal what's new. [0] has the bigger GPT-6 headline but leaves 'full workday' too vague for a stranger to care."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "OpenAI",
+  "actor_known": true,
+  "anchor": "ChatGPT Voice",
+  "specifics": [
+   "GPT-6 — the newest, most powerful model — now runs ChatGPT Voice",
+   "Builds full docs, decks, spreadsheets, and websites just from talking",
+   "Connects live to your email, Slack, and calendar",
+   "Rolled out globally today, September 23, 2026",
+   "Announcement hit 1 million views within hours"
+  ]
+ },
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by GPT-6 Astra, Sol, and Luna. - Be used in ChatGPT Work on web and mobile, so you can create docs, dec",
+  "link": "https://x.com/OpenAI/status/2102808325742322002",
+  "judge_interest": 4,
+  "scout_score": 105.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "HEADLINE ACCENTS NOT TEXTURED ORANGE — PERMANENT order violated. All cover text ('NOW ABLE TO GET STUFF DONE' and 'ChatGPT Voice') renders in flat lime-yellow. The permanent house rule requires accent words in the orange-sky cloud texture (art/accent-orange.jpg via background-clip), never a single flat color. Fix: re-render the cover with accent type in the orange cloud texture at the same cap hei",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
