@@ -1,60 +1,5 @@
 [
  {
-  "page": "technology",
-  "hook": "\"OpenAI\u2019s GPT-6 Astra completed all 48 levels of Neal Agarwal\u2019s \u201cI\u2019m Not a Robot,\u201d a browser game that turns human verification into increasingly difficult interactive challenges.\n\nOpenAI engineer Sharif Shameem shared t",
-  "date": "2026-09-09"
- },
- {
-  "page": "technology",
-  "hook": "\"Andrew Garfield is playing OpenAI CEO Sam Altman in Luca Guadagnino\u2019s \u201cArtificial,\u201d a dramatization centered on the extraordinary leadership crisis that unfolded at OpenAI in November 2023.\n\nAltman was abruptly removed ",
-  "date": "2026-09-09"
- },
- {
-  "page": "technology",
-  "hook": "\"Huawei\u2019s Mate XT 2 continues the company\u2019s unusual tri-fold approach, using 2 hinges and 3 connected sections to transform from a conventional phone shape into a much larger display.\n\nThe engineering challenge goes far ",
-  "date": "2026-09-09"
- },
- {
-  "page": "mashable",
-  "hook": "\"Jeremiah Brown didn't leave Love Island USA with a master plan to become a full-time creator. In fact, before entering the villa, his social media presence was relatively sparse: a few book reviews, some funny videos, a",
-  "date": "2026-09-09"
- },
- {
-  "page": "wired",
-  "hook": "\"A report published by the US Census Bureau last month purported to uncover evidence backing up President Donald Trump\u2019s baseless claims that noncitizens voting cost him the 2020 election. It was the latest salvo in Trum",
-  "date": "2026-09-09"
- },
- {
-  "page": "wired",
-  "hook": "\"The success of a program linking zoos across the US has generated a wave of interest in how to protect the endangered great apes in the wild.\n\nTap the \ud83d\udd17 in bio for more.\".",
-  "date": "2026-09-09"
- },
- {
-  "page": "technology",
-  "hook": "\"Apple\u2019s first foldable iPhone has finally arrived, and the internet is already split between people praising its polish and others questioning the hype around the launch \ud83d\udcf1\ud83e\udd2f\n\nThe iPhone Duo starts at $1,999 and opens fro",
-  "date": "2026-09-09"
- },
- {
-  "page": "technology",
-  "hook": "\"Apple has unveiled the iPhone Duo, its first foldable smartphone and one of the biggest changes to the iPhone since its 2007 debut.\n\nStarting at $1,999, the Duo features a 5.4-inch outer screen that unfolds into a 7.6-i",
-  "date": "2026-09-09"
- },
- {
-  "page": "mashable",
-  "hook": "\"Welp, it\u2019s finally here: Apple\u2019s folding phone.\u2060\n\u2060\nThe iPhone Duo was announced today and the internet certainly had thoughts. From its $2k price tag to its shape (hello IMAX aspect ratio), people have started giving th",
-  "date": "2026-09-09"
- },
- {
-  "page": "mashable",
-  "hook": "\"Here\u2019s a close-up look at the all-new iPhone Duo. Will you be getting one? #AppleEvent #AllAccess\".",
-  "date": "2026-09-09"
- },
- {
-  "page": "mashable",
-  "hook": "\"Apple finally announced its first foldable phone \u2014 the iPhone Duo \ud83d\udc40\n#Apple #AppleEvent #iphoneduo #allaccess\".",
-  "date": "2026-09-09"
- },
- {
   "page": "wired",
   "hook": "\"President Donald Trump on Wednesday said that he would pay $5,000 to every American if Republicans retained control of the U.S. House and Senate in the midterm elections, seemingly in an effort to incentivize votes for ",
   "date": "2026-09-10"
@@ -65,29 +10,9 @@
   "date": "2026-09-10"
  },
  {
-  "page": "wired",
-  "hook": "\"Artificial intelligence researcher Jacob Coxon sent shock waves through Silicon Valley and beyond on Tuesday by announcing his resignation from Anthropic and delivering a grave warning that the AI race was putting all o",
-  "date": "2026-09-09"
- },
- {
-  "page": "wired",
-  "hook": "\"The new Apple Watch Series 12 and Ultra 4 come not just with better fitness tracking and upgraded noise reduction, but also a whole new way to listen.\n\nApple announced on Wednesday that the two smartwatches come with fo",
-  "date": "2026-09-09"
- },
- {
-  "page": "wired",
-  "hook": "\"The Instagram post, precision-guided by sex and age, had zeroed in on its target. Yuchen Tu is a conservatory-trained viola player from Chongqing, China, a lover of science fiction, and an aspiring member of the US Army",
-  "date": "2026-09-09"
- },
- {
   "page": "futurism",
   "hook": "\"The surveillance state costs money, people! Well, tell that to president Trump. Last week, he slapped a 100 percent tariff \u2014 he sure loves round numbers and levying imports \u2014 on larger foreign-made drones.\n\nTrump claime",
   "date": "2026-09-10"
- },
- {
-  "page": "futurism",
-  "hook": "\"In an affront to creeps everywhere, Meta has started remotely bricking the smart glasses of wearers who try to secretly record other people.\n\nEarlier this month, the Mark Zuckerberg-led company said it would crack down ",
-  "date": "2026-09-09"
  },
  {
   "page": "wired",
@@ -148,21 +73,6 @@
   "page": "techcrunch",
   "hook": "\"There won\u2019t be a ChatGPT moment for robotics...at least according to Mbodi co-founder Xavier Chi.\nUnlike large language models, robotics doesn\u2019t have an internet-sized pool of data to learn from. Xavier says that means ",
   "date": "2026-09-10"
- },
- {
-  "page": "techcrunch",
-  "hook": "\"One more thing... Apple's first foldable iPhone, the iPhone Duo, is here.\".",
-  "date": "2026-09-09"
- },
- {
-  "page": "techcrunch",
-  "hook": "\"The Ternus era is here\n\nTim Cook hands it off to John Ternus saying, \"that's your guy,\" to kick off the new CEO's first keynote, officially launching the Ternus-era.\".",
-  "date": "2026-09-09"
- },
- {
-  "page": "techcrunch",
-  "hook": "\"Apple has entered the foldable arena with the iPhone Duo, which the company said was inspired by \u201cthe versatility of the iPad.\u201d The iPhone Duo starts at $1,999 with 256GB of storage and is available in two colors. Pre-o",
-  "date": "2026-09-09"
  },
  {
   "page": "wired",
@@ -673,5 +583,70 @@
   "page": "wired",
   "hook": "\"Andy Burnham once kept Palantir out of Greater Manchester. His first test as prime minister is whether to cut the company\u2019s \u00a3330 million NHS contract\u2014and risk a rupture with Big Tech and Washington.\n\nReports circulated ",
   "date": "2026-09-22"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Meta just turned bulky VR into something that looks much closer to normal glasses \ud83e\udd2f At roughly 100 grams, they\u2019re about five times lighter than Quest 3\ud83d\udc53\n\nThe trick is that Meta moved the processor, battery and storage i",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see some of the wildest versions of the \u201cMigos AI\u201d trend currently spreading across TikTok, Instagram and X \ud83c\udfa4\ud83d\ude02\n\nThe trend recreates Quavo and Takeoff\u2019s 2022 COLORS performance of \u201cHOTEL LOBBY (Unc & Phew),\u201d ",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see some of the wildest things developers have already built with Claude Opus 5.5 in just 24 hours since the model dropped \ud83e\udd16\ud83d\udcbb\n\nThe early experiments stretch across JavaScript, Three.js, Blender and Unreal En",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Apple is experimenting with a screenless fitness band built around continuous health and activity tracking, giving the company a potentially simpler alternative to Apple Watch \u231a\n\nAccording to Bloomberg\u2019s Mark Gurman, Ap",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Pok\u00e9mon fans are taking \"gotta catch 'em all\" very seriously.\u2060\n\u2060\nThirty years ago, catching Pok\u00e9mon meant booting up a Game Boy. In 2026, apparently, it means getting to Target before sunrise and hoping the person in fr",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"How the Dropout cast ended up on network tv without even realizing it \ud83e\udee8\u2060\n#dropout #comedy #gamechanger\".",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Australia said an OpenAI agent hacked a data portal for its public health insurance system, in what\u2019s thought to be the first known instance of an AI agent infiltrating a government website.\n\nAustralian prime minister A",
+  "date": "2026-09-24"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Meta knows you probably have some privacy concerns about its smart glasses.\n\nAt its annual Meta Connect event today in Menlo Park, California, the company announced plans to incorporate its siloed AI processing scheme k",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "wired",
+  "hook": "\"WIRED dedicating an entire issue to women in 2026 might seem regressive, or obvious, or even unnecessary. We disagree.\n\nWIRED\u2019s global editorial director Katie Drummond laid out the reasoning behind the Women\u2019s Issue\u2014wh",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Bentley has taken the covers off its first-ever fully electric car, the Torcal, making it the automaker's fourth model line, joining the Continental GT, the Flying Spur sedan, and the Bentayga SUV. The luxury brand is c",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "wired",
+  "hook": "\"For our WIRED Women issue, we commissioned @mimles to create a stunning page spread. Here\u2019s a little behind-the-scenes look at how it came to life.\".",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "wired",
+  "hook": "\"In May, Apple agreed to pay out $250 million as part of a class action lawsuit over claims the company overhyped its Apple Intelligence tools, specifically the long-delayed Siri AI overhaul.\n\nAlthough the revamped Siri ",
+  "date": "2026-09-23"
+ },
+ {
+  "page": "wired",
+  "hook": "\"By 5 am every morning, Emma Waters is on the sofa with a blanket, plotting America\u2019s baby-making future. For two hours, she stays off her phone, inspired by Deep Work, the self-help bestseller. At 7:30, she does emails.",
+  "date": "2026-09-23"
  }
 ]
