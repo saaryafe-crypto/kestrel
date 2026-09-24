@@ -1,0 +1,38 @@
+{
+ "stories": [
+  {
+   "headline": "Claude found a CRISPR-like enzyme system in bacteriophage DNA"
+  },
+  {
+   "headline": "Grok Bot usage growing faster than anything xAI has ever built"
+  },
+  {
+   "headline": "Claude Opus 5.5 is live: 40% cheaper and 30% faster"
+  },
+  {
+   "headline": "GPT-6 Sol and Luna drop to half the price per token"
+  },
+  {
+   "headline": "ChatGPT Voice connects to email, calendar, and Slack"
+  },
+  {
+   "headline": "Meta VR glasses: 100 grams, micro-OLED, $1,299, Spring 2027"
+  },
+  {
+   "headline": "Builder made a 3-minute AI film with 7,400 lines of code"
+  }
+ ],
+ "caption": "Here's what happened in AI in the last 24 hours, from Claude finding a CRISPR-like enzyme in DNA to GPT-6 dropping its price in half \ud83d\udc47\n\nClaude found a new enzyme system hidden in bacteriophage DNA that looks exactly like CRISPR, the gene-editing tool that rewrote medicine, and scientists don't yet know what it does.\n\nGrok Bot usage is growing faster than anything xAI has ever built.\n\nClaude Opus 5.5 is live: 40% cheaper than Opus 5, 30% faster, and matching Fable 5.1 performance.\n\nGPT-6 Sol and Luna are out: better at coding and alignment than the 5.6 family, and half the cost to use.\n\nChatGPT Voice now links to your email, calendar, and Slack, and you can build docs and spreadsheets just by talking, running on GPT-6.\n\nMeta's new VR glasses weigh 100 grams, have micro-OLED displays, cost $1,299, and arrive Spring 2027.\n\nOne builder used Claude Opus 5.5 to make a 3-minute film about AI history, 7,400 lines of code, no stock footage, every frame drawn from scratch, done in about an hour.\n\nRunning a business? DM us \"AI\", we'll map out exactly what today's tools change for you.\n\nSources: Anthropic, OpenAI, Meta, xAI\n\n#AI #ChatGPT #Claude #ArtificialIntelligence #TechNews",
+ "pinned_comment": "Claude didn't just beat a benchmark today, it found something in bacteriophage DNA that looks like it can cut, copy, and paste genes. CRISPR started from a discovery exactly like this. What does it mean that AI is now the one making that kind of find?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "CLAUDE JUST FOUND <em>A CRISPR-LIKE ENZYME HIDING IN DNA</em> AND SCIENTISTS DON'T KNOW WHAT IT DOES, HERE'S TODAY IN AI",
+   "kicker": "THE DAILY RECAP"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW \u2014 Cover is abstract CGI decoration, not photoreal proof. The frame is an orange-particle burst on black: pure concept art, zero photographed elements. A stranger at feed size guesses 'sci-fi wallpaper', not 'Claude found a biological discovery.' IMAGE LAW requires every element to read as photographed \u2014 real skin, real product, real logo mark, real photo fragments. Fix: rebuild as a phot"
+}

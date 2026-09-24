@@ -1,0 +1,21 @@
+Here's what happened in AI in the last 24 hours, from Claude finding a CRISPR-like enzyme in DNA to GPT-6 dropping its price in half 👇
+
+Claude found a new enzyme system hidden in bacteriophage DNA that looks exactly like CRISPR, the gene-editing tool that rewrote medicine, and scientists don't yet know what it does.
+
+Grok Bot usage is growing faster than anything xAI has ever built.
+
+Claude Opus 5.5 is live: 40% cheaper than Opus 5, 30% faster, and matching Fable 5.1 performance.
+
+GPT-6 Sol and Luna are out: better at coding and alignment than the 5.6 family, and half the cost to use.
+
+ChatGPT Voice now links to your email, calendar, and Slack, and you can build docs and spreadsheets just by talking, running on GPT-6.
+
+Meta's new VR glasses weigh 100 grams, have micro-OLED displays, cost $1,299, and arrive Spring 2027.
+
+One builder used Claude Opus 5.5 to make a 3-minute film about AI history, 7,400 lines of code, no stock footage, every frame drawn from scratch, done in about an hour.
+
+Running a business? DM us "AI", we'll map out exactly what today's tools change for you.
+
+Sources: Anthropic, OpenAI, Meta, xAI
+
+#AI #ChatGPT #Claude #ArtificialIntelligence #TechNews

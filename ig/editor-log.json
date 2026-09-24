@@ -1,40 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "",
-  "subject": "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
-  "t": "2026-09-18T19:32:53Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
-  "t": "2026-09-18T19:33:06Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-09-18T20:27:40Z",
-  "gate": "A",
-  "subject": "Spectator Report: Britain’s rupture with Israel is reportedly costing it influence across the Gulf. Arab states rely on ",
-  "verdict": "KILL",
-  "reason": "Pure geopolitics with no AI/tech/space angle—off-brand for this page's defined vertical (AI/tech news only)."
- },
- {
-  "t": "2026-09-18T23:11:02Z",
-  "gate": "A",
-  "subject": "This is actually insane. This uses @typesafeai Jev model, as a plugin in Claude to review all the un-nesseasary tool cal",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-18T23:11:16Z",
-  "gate": "A",
-  "subject": "Starlink is now often more reliable than cable",
-  "verdict": "KILL",
-  "reason": "Single unsupported claim with zero numbers, data, or real-world consequence—the writer would have to fabricate the entire post, and the underlying 'event' is just Elon tweeting a product marketing claim, not a news moment where reality moved."
- },
- {
   "t": "2026-09-18T23:11:32Z",
   "gate": "A",
   "subject": "JUST IN: Warren Buffet officially steps down as Chairman of Berkshire Hathaway.",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-24T03:24:04Z",
   "gate": "R",
   "subject": "PATIENTS WHO TOOK OZEMPIC TO LOSE WEIGHT <em>ARE NOW SUING OVER GOING BLIND.</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-24T06:21:28Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW (§3) — COVER HAS NO SUBJECT. The rendered cover is a black void with a digital orange particle burst: pure decoration, not photoreal, no human face, no product, no proof of any story. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The particle streaks also fail the photoreal requirement — they read as compu"
+ },
+ {
+  "t": "2026-09-24T06:23:23Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — text-on-black with a CGI particle burst is explicitly named a failure: 'Text-on-black or empty-top covers are failures.' The orange light streak is a digital graphic, not a photoreal element. Fix: replace with a photoreal collage — e.g., cutout of Dario Amodei + Altman side by side over a real lab backdrop, with the day's two biggest stories as floating label chips (the CRISPR find and"
+ },
+ {
+  "t": "2026-09-24T06:25:29Z",
+  "gate": "B",
+  "subject": "CLAUDE FOUND <em>A CRISPR-LIKE ENZYME IN DNA</em> AND GPT-6 JUST HALVED ITS PRICE, HERE'S TODAY IN AI",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — Cover is text-on-black with an abstract CGI particle burst: no human face, no real product, no photoreal proof of any story element. The top two-thirds is an empty dark void with a glowing light trail that a stranger at feed size cannot connect to CRISPR, GPT-6, or any specific event. The Doctrine explicitly states 'Text-on-black or empty-top covers are failures' and 'every ELEMENT in "
+ },
+ {
+  "t": "2026-09-24T06:27:57Z",
+  "gate": "B",
+  "subject": "CLAUDE JUST FOUND <em>A CRISPR-LIKE ENZYME HIDING IN DNA</em> AND SCIENTISTS DON'T KNOW WHAT IT DOES, HERE'S TODAY IN AI",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — Cover is abstract CGI decoration, not photoreal proof. The frame is an orange-particle burst on black: pure concept art, zero photographed elements. A stranger at feed size guesses 'sci-fi wallpaper', not 'Claude found a biological discovery.' IMAGE LAW requires every element to read as photographed — real skin, real product, real logo mark, real photo fragments. Fix: rebuild as a phot"
+ },
+ {
+  "t": "2026-09-24T06:28:06Z",
+  "gate": "R",
+  "subject": "CLAUDE JUST FOUND <em>A CRISPR-LIKE ENZYME HIDING IN DNA</em> AND SCIENTISTS DON'T KNOW WHAT IT DOES, HERE'S TODAY IN AI",
   "verdict": "PASS",
   "reason": ""
  }
