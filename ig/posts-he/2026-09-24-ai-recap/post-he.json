@@ -1,0 +1,45 @@
+{
+ "stories": [
+  {
+   "headline": "Claude found a CRISPR-like enzyme system in bacteriophage DNA"
+  },
+  {
+   "headline": "Grok Bot usage growing faster than anything xAI has ever built"
+  },
+  {
+   "headline": "Claude Opus 5.5 is live: 40% cheaper and 30% faster"
+  },
+  {
+   "headline": "GPT-6 Sol and Luna drop to half the price per token"
+  },
+  {
+   "headline": "ChatGPT Voice connects to email, calendar, and Slack"
+  },
+  {
+   "headline": "Meta VR glasses: 100 grams, micro-OLED, $1,299, Spring 2027"
+  },
+  {
+   "headline": "Builder made a 3-minute AI film with 7,400 lines of code"
+  }
+ ],
+ "caption": "Claude גילה כלי עריכת גנים שמסתתר ב-DNA של חיידקים, ו-GPT-6 יצא בחצי מחיר 👇\n\nClaude גילה מערכת אנזימים שמסתתרת ב-DNA של בקטריופאג' (וירוס שחי בתוך חיידקים). היא נראית בדיוק כמו CRISPR, הכלי שאיתו מדענים חותכים ועורכים גנים ושינה את הרפואה. אף אחד עדיין לא יודע מה היא עושה.\n\nGrok Bot גדל מהר יותר מכל כלי ש-xAI בנתה אי פעם.\n\nClaude Opus 5.5 יצא: 40% זול יותר מ-Opus 5, 30% מהיר יותר, ועם ביצועים ברמת Fable 5.1.\n\nGPT-6 Sol ו-Luna יצאו: טובים יותר בקוד ובדיוק מה-5.6, ובחצי מחיר.\n\nChatGPT Voice עכשיו מתחבר לאימייל, ליומן ול-Slack שלך, ואפשר לבנות מסמכים וגיליוני Excel רק בדיבור. הכל רץ על GPT-6.\n\nמשקפי ה-VR של Meta שוקלים 100 גרם, עם מסך micro-OLED, עולים $1,299, ומגיעים באביב 2027.\n\nמישהו השתמש ב-Claude Opus 5.5 ועשה סרט של שלוש דקות על ההיסטוריה של AI: 7,400 שורות קוד, בלי קטעי וידאו מוכנים, כל פריים צויר מאפס. לקח בערך שעה.\n\nמנהלים עסק? שלחו לנו DM עם המילה \"AI\" ונמפה מה הכלים של היום משנים אצלכם.\n\nמקורות: Anthropic, OpenAI, Meta, xAI\n\nעקבו אחרי @ainews.israel\n\n#AI #ChatGPT #Claude #ArtificialIntelligence #TechNews",
+ "pinned_comment": "Claude לא רק עקף בנצ'מארק היום. הוא מצא משהו ב-DNA של חיידקים שנראה כאילו יכול לחתוך, להעתיק ולהדביק גנים. CRISPR התחיל בדיוק מגילוי כזה. מה זה אומר ש-AI עכשיו הוא זה שמוצא דברים כאלה?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "Claude גילה <em>כלי עריכת גנים שמסתתר בחיידקים</em> ואף מדען לא יודע מה הוא עושה",
+   "kicker": "הסיכום היומי"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW — Cover is abstract CGI decoration, not photoreal proof. The frame is an orange-particle burst on black: pure concept art, zero photographed elements. A stranger at feed size guesses 'sci-fi wallpaper', not 'Claude found a biological discovery.' IMAGE LAW requires every element to read as photographed — real skin, real product, real logo mark, real photo fragments. Fix: rebuild as a phot",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
