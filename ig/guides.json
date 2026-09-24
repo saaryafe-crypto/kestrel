@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24T08:05:39.752674+00:00",
+ "updated": "2026-09-24T17:08:04.900754+00:00",
  "guides": [
   {
    "id": "2092838320510287941",
@@ -222,11 +222,11 @@
    "selftext": "here's how i shipped 2,500 PRs last month to production this was originally supposed to be for Cursor Compile in London. i couldn't make it since i was livestreaming for Grok @Bot Galaxy so i'm making it available for free here on X! watch it on 2x speed, i talk slowly",
    "permalink": "https://x.com/poteto/status/2102050467505430555",
    "outlink": null,
-   "score": 8553,
-   "comments_n": 366,
-   "views": 1166480,
-   "age_h": 50.7,
-   "vph": 168.6,
+   "score": 8761,
+   "comments_n": 375,
+   "views": 1256441,
+   "age_h": 73.6,
+   "vph": 119.0,
    "image": "https://pbs.twimg.com/amplify_video_thumb/2101938030122868736/img/e-Vk06LcPlqFYO1q.jpg",
    "images": [],
    "video": "https://video.twimg.com/amplify_video/2101938030122868736/vid/avc1/3442x2160/BQlPlAZCEVPDemv1.mp4?tag=29",
@@ -708,26 +708,6 @@
    "guide": true,
    "wide_guide": true,
    "born": 1788563084.267859
-  },
-  {
-   "id": "2092183113132548331",
-   "title": "\ud83d\udea8 \u00daLTIMA HORA: Google Gemini ahora puede analizar cualquier acci\u00f3n como un analista de Wall Street (gratis) Aqu\u00ed tienes 8 incre\u00edbles prompts de Gemini que reemplazan las terminales de Bloomberg de 4.000\u20ac al mes: [Guardar",
-   "sub": "Raul_IA_Prod",
-   "where": "@Raul_IA_Prod on X",
-   "unit": "likes",
-   "selftext": "\ud83d\udea8 \u00daLTIMA HORA: Google Gemini ahora puede analizar cualquier acci\u00f3n como un analista de Wall Street (gratis) Aqu\u00ed tienes 8 incre\u00edbles prompts de Gemini que reemplazan las terminales de Bloomberg de 4.000\u20ac al mes: [Guardar para m\u00e1s tarde \ud83d\udd16]",
-   "permalink": "https://x.com/Raul_IA_Prod/status/2092183113132548331",
-   "outlink": null,
-   "score": 2095,
-   "comments_n": 32,
-   "views": 494703,
-   "age_h": 54.4,
-   "vph": 38.5,
-   "image": null,
-   "video": null,
-   "guide": true,
-   "wide_guide": true,
-   "born": 1787650551.482273
   },
   {
    "id": "2097071438742040642",

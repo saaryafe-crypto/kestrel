@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24T08:05:39.752674+00:00",
+ "updated": "2026-09-24T17:08:04.900754+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -803,26 +803,27 @@
    "born": 1789563086.629253
   },
   {
-   "id": "2102837574092161102",
-   "title": "We\u2019re demonstrating how frontier models have continued to improve in realistic mental health conversations with MentalHealthBench. This new open benchmark was built with input from more than 80 mental health clinicians. ",
-   "sub": "OpenAI",
-   "where": "@OpenAI on X",
+   "id": "2102922211237536221",
+   "title": "This Is the \u201cZen Monkey\u201d of Vietnam The red-shanked douc is a brilliantly colored monkey from Vietnam, recognizable by its golden face, white ruff, reddish legs and naturally powder-blue eyelids",
+   "sub": "AMAZlNGNATURE",
+   "where": "@AMAZlNGNATURE on X",
    "unit": "likes",
-   "selftext": "We\u2019re demonstrating how frontier models have continued to improve in realistic mental health conversations with MentalHealthBench. This new open benchmark was built with input from more than 80 mental health clinicians. We\u2019re releasing it openly so other researchers can examine the methods, run their own evaluations, and build on the work.",
-   "permalink": "https://x.com/OpenAI/status/2102837574092161102",
+   "selftext": "This Is the \u201cZen Monkey\u201d of Vietnam The red-shanked douc is a brilliantly colored monkey from Vietnam, recognizable by its golden face, white ruff, reddish legs and naturally powder-blue eyelids",
+   "permalink": "https://x.com/AMAZlNGNATURE/status/2102922211237536221",
    "outlink": null,
-   "score": 3200,
-   "comments_n": 284,
-   "views": 328393,
-   "age_h": 13.0,
-   "vph": 246.2,
-   "image": "https://pbs.twimg.com/media/HS7G-iaa8AAw6YK.jpg",
+   "score": 9550,
+   "comments_n": 123,
+   "views": 1094608,
+   "age_h": 15.9,
+   "vph": 602.0,
+   "image": "https://pbs.twimg.com/media/HS5Gqm0WAAA2bET.jpg",
    "images": [
-    "https://pbs.twimg.com/media/HS7G-iaa8AAw6YK.jpg"
+    "https://pbs.twimg.com/media/HS5Gqm0WAAA2bET.jpg",
+    "https://pbs.twimg.com/media/HS5GtrjWkAA1AgD.jpg"
    ],
    "video": null,
    "guide": false,
-   "born": 1790190339.752674
+   "born": 1790212444.900754
   }
  ]
 }
