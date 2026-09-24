@@ -1,0 +1,71 @@
+{
+ "image_brief": "Claude AI spotting a glowing hidden repeat pattern inside virus DNA with the Claude logo",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "CRISPR JUST GOT A SECRET TWIN, FOUND BY <em>950 AI AGENTS</em> IN <em>21 HOURS</em>",
+   "kicker": "NOBODY KNOWS WHAT IT DOES",
+   "hsize": 72,
+   "media": "posts/2026-09-24-this-is-wild-claude-just-found-something/gen-0.jpg",
+   "image_prompt": "Dario Amodei triumphant discovering the hidden DNA enzyme human scientists all missed, with the Claude logo in a big circle next to him",
+   "gen_person": true
+  }
+ ],
+ "caption": "An AI called Claude just found a hidden CRISPR-like enzyme in virus DNA that every human researcher had walked right past. \ud83e\uddec\n\nScientists have always assumed real discovery in biology needs a trained human mind and years of lab work. Claude ran 950 copies of itself for 21 hours, scanned raw virus DNA, and flagged a weird repeating pattern buried in the sequence. The kind of thing a researcher skims past and forgets. That throwaway pattern turned out to be a complete enzyme system nobody on earth had ever found.\n\nIt sits next to a long chain of repeating DNA with the exact structural signature that made CRISPR famous. Here is the part that should stop you: Anthropic admits they have no idea what this enzyme actually does. The AI found it. Its own creators cannot explain it.\n\nCRISPR started this way. A weird repeat pattern in bacteria, discovered and nearly dismissed, that eventually became the gene-editing tool now used to treat cancer and worth tens of billions. If this new enzyme turns out to matter the same way, the discovery credit belongs to a machine, not a scientist, and that touches every grant, every patent, and every biology career including yours.\n\n950 agents ran simultaneously, found something no human found, and nobody yet knows what they found. That is not a tool. That is a new kind of scientist.\n\nAI is moving from assisting science to doing it. The model most people use to write emails just found something that may end up in a biology textbook.\n\nRunning a business? DM us 'AI' and we'll show you what this could mean for yours.\n\nSources: Anthropic, Min Choi on X\n\n#AI #CRISPR #Anthropic #Claude #Biotech",
+ "pinned_comment": "Anthropic literally said they found it and still don't know what it does. The next cancer treatment might have been discovered by something that doesn't know what cancer is.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "<em>AI FOUND A CRISPR-LIKE ENZYME IN VIRUS DNA.</em> EVERY RESEARCHER HAD MISSED IT.",
+   "<em>AN AI JUST FOUND A CRISPR-LIKE ENZYME IN VIRUS DNA</em> THAT HUMANS NEVER NOTICED.",
+   "CRISPR JUST GOT A SECRET TWIN, FOUND BY <em>950 AI AGENTS</em> IN <em>21 HOURS</em>",
+   "AI FOUND A <em>CRISPR TWIN IN VIRUS DNA</em> AND NOBODY KNOWS <em>WHAT IT DOES</em>",
+   "CRISPR HAS A <em>HIDDEN TWIN IN VIRUS DNA</em>, AND <em>AI FOUND IT FIRST</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   8,
+   7,
+   6
+  ],
+  "winner": 2,
+  "why": "The specific, bizarre scale in [2] (950 AI agents, 21 hours) creates an immediate 'wait, what?' that makes you stop scrolling. [0]'s 'every researcher missed it' is solid but more expected as an AI-beats-humans narrative."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "CRISPR HAS A TWIN <em>EVERY HUMAN RESEARCHER MISSED</em>. AI FOUND IT IN <em>21 HOURS</em>.",
+   "CRISPR JUST GOT A SECRET TWIN, FOUND BY <em>950 AI AGENTS</em> IN <em>21 HOURS</em>",
+   "CRISPR HAS A TWIN. AI FOUND IT AND <em>NOBODY KNOWS IF IT CURES CANCER</em>."
+  ],
+  "scores": [
+   8,
+   9,
+   6
+  ],
+  "winner": 1,
+  "why": "[1]'s '950 AI AGENTS' is an absurdly specific number that stops your brain cold at 2am; [0]'s 'every researcher missed' is close but a concrete sci-fi detail hits harder than a qualitative claim."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Anthropic / Claude",
+  "actor_known": false,
+  "anchor": "CRISPR",
+  "specifics": [
+   "AI found a completely new enzyme system in virus DNA that every human researcher had missed",
+   "The structure looks like CRISPR \u2014 the gene-editing tool already used to treat cancer",
+   "Even Anthropic admits they have no idea what this enzyme does",
+   "950 AI agents ran simultaneously for 21 hours to find it",
+   "CRISPR itself was nearly dismissed when first found in bacteria \u2014 this could be the same moment repeating"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "This is wild. Claude just found something humans missed. It spotted a hidden repeat pattern in raw bacteriophage DNA\u2026 \u2026and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. \ud83e\udd2f 950 ag",
+  "link": "https://x.com/minchoi/status/2102838725722198064",
+  "judge_interest": 6,
+  "scout_score": 121.4
+ }
+}

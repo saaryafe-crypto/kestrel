@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-18T23:11:32Z",
-  "gate": "A",
-  "subject": "JUST IN: Warren Buffet officially steps down as Chairman of Berkshire Hathaway.",
-  "verdict": "KILL",
-  "reason": "Off-brand (no AI/tech angle) and no substance—one-line source lacks context, consequence, or outcome to build slides."
- },
- {
-  "t": "2026-09-18T23:12:20Z",
-  "gate": "A",
-  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
-  "verdict": "KILL",
-  "reason": "Empty-form launch preview with no demo, numbers, or substance — the type the doctrine bans."
- },
- {
-  "t": "2026-09-18T23:42:20Z",
-  "gate": "B",
-  "subject": "A BUILDER JUST SHRANK A CLAUDE BILL FROM <em>1 MILLION TOKENS TO 86K</em>",
-  "verdict": "REJECT",
-  "reason": "Generated unknown face on cover — IMAGE LAW HARD BAN. The man with the cleaver is a generated unknown person who has no role in the story. Tamara is the builder; this is not her, and he is not a recognizable famous person. Fix: source a real photo of Tamara from her X profile and build the cover around her as the subject, or drop the person entirely and make the proof the interface itself (see rea"
- },
- {
-  "t": "2026-09-18T23:43:50Z",
-  "gate": "B",
-  "subject": "A BUILDER JUST SHRANK A CLAUDE BILL FROM <em>1 MILLION TOKENS TO 86K</em>",
-  "verdict": "REJECT",
-  "reason": "Cover image: generated unknown face — hard IMAGE LAW ban. The man with the cleaver is a generated unknown face; Tamara (the builder) is not a famous person, and the law explicitly bans 'a generated fake face standing in for a real non-famous person.' Fix: replace with a photoreal composite using the Anthropic logo (the asterisk mark) large in frame + the 900K→86K numbers rendered as physical proof"
- },
- {
-  "t": "2026-09-18T23:45:40Z",
-  "gate": "B",
-  "subject": "A BUILDER JUST SHRANK A CLAUDE BILL FROM <em>1 MILLION TOKENS TO 86K</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW VIOLATION — GENERATED UNKNOWN FACE (§3, fatal): The cover shows a generated unknown man wielding a machete. The story's actual builder is Tamara — not famous, and not male. 'Never a generated unknown face; never a generated fake face standing in for a real non-famous person.' The vendor-cast exception does not apply: this is not a guide teaching use of Claude, it is a news story about a "
- },
- {
   "t": "2026-09-18T23:46:17Z",
   "gate": "A",
   "subject": "Starlink is now often more reliable than cable",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-24T06:28:06Z",
   "gate": "R",
   "subject": "CLAUDE JUST FOUND <em>A CRISPR-LIKE ENZYME HIDING IN DNA</em> AND SCIENTISTS DON'T KNOW WHAT IT DOES, HERE'S TODAY IN AI",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-24T19:49:57Z",
+  "gate": "A",
+  "subject": "This is wild. Claude just found something humans missed. It spotted a hidden repeat pattern in raw bacteriophage DNA… …a",
+  "verdict": "APPROVE",
+  "reason": "Claude (a household-name AI lab) discovered a first-ever enzyme system humans missed—a major scientific breakthrough with watchlist consensus, real specificity (bacteriophage DNA, CRISPR-like repeats, 950 agents, 21 hours, 210M tokens), and clear narrative spine for expansion into slides."
+ },
+ {
+  "t": "2026-09-24T19:51:01Z",
+  "gate": "A",
+  "subject": "Meta has just unveiled their new VR glasses. • Price: $1,299 • Available Spring 2027 • Weight: 100 grams, about the weig",
+  "verdict": "KILL",
+  "reason": "Empty launch preview form—Meta's specification sheet and Spring 2027 date with no demonstration of the product in use, which is the prohibited preview format."
+ },
+ {
+  "t": "2026-09-24T19:51:27Z",
+  "gate": "A",
+  "subject": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene s",
+  "verdict": "KILL",
+  "reason": "The story is a biology/genetics discovery with Claude as the method, not the subject—failing the lens test for wow facts, where AI/tech must be the star, not the backdrop."
+ },
+ {
+  "t": "2026-09-24T20:22:15Z",
+  "gate": "B",
+  "subject": "CRISPR JUST GOT A SECRET TWIN, FOUND BY <em>950 AI AGENTS</em> IN <em>21 HOURS</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-24T20:22:22Z",
+  "gate": "R",
+  "subject": "CRISPR JUST GOT A SECRET TWIN, FOUND BY <em>950 AI AGENTS</em> IN <em>21 HOURS</em>",
   "verdict": "PASS",
   "reason": ""
  }
