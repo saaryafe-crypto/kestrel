@@ -1,0 +1,90 @@
+{
+ "image_brief": "Ozempic injection pen and lawsuit papers next to a blurred vision eye chart",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "PATIENTS WHO TOOK OZEMPIC TO LOSE WEIGHT <em>ARE NOW SUING OVER GOING BLIND.</em>",
+   "kicker": "MILLIONS ARE STILL ON THE DRUG",
+   "hsize": 66,
+   "hook_candidates": [
+    {
+     "headline": "OZEMPIC USERS ARE LOSING THEIR SIGHT AND <em>SUING WHILE THE DRUG WAS STILL WORKING</em>"
+    },
+    {
+     "headline": "PEOPLE TAKING OZEMPIC TO GET HEALTHIER <em>ARE NOW LOSING THEIR SIGHT AND SUING</em>"
+    },
+    {
+     "headline": "<em>OZEMPIC IS BEING SUED</em> FOR SUDDEN VISION LOSS IN PATIENTS IT WAS HELPING"
+    },
+    {
+     "headline": "OZEMPIC PATIENTS ARE SUING OVER <em>SUDDEN VISION LOSS WHILE THE DRUG WAS WORKING</em>"
+    },
+    {
+     "headline": "GLP-1 DRUGS LIKE OZEMPIC <em>ARE NOW BEING SUED OVER SUDDEN VISION LOSS</em>"
+    }
+   ],
+   "media": "posts/2026-09-24-patients-are-suing-glp-1-drugmakers-over/gen-0.jpg",
+   "image_prompt": "close-up of hands injecting an Ozempic pen, eyes above them wrapped in a white medical bandage"
+  }
+ ],
+ "caption": "Ozempic patients are suing the drugmakers over sudden vision loss \ud83d\udc41\ufe0f\n\nA year ago, GLP-1 drugs like Ozempic could do no wrong. Millions of people prescribed them. Losing weight, controlling diabetes, feeling better. The side effects everyone talked about were nausea and some stomach issues. Nobody had sudden vision loss anywhere near the top of the worry list.\n\nNow there are lawsuits. Patients who took these drugs are in court claiming they caused sudden vision loss. Not a minor side effect. We're talking about people losing their sight. The Wall Street Journal has stories on the lawsuits, so this is past social media noise.\n\nHere's the part that makes this actually wild: the drugs weren't failing these people. In many of these cases, the drugs were working. The weight was coming off. And at the same time, the vision was going.\n\nAnyone taking Ozempic or one of these drugs right now has a new conversation to have with their doctor. The companies making these drugs are about to spend years in court defending a product that made them billions. You took it to get healthier. You lost your sight. That's the story in court.\n\nOzempic and drugs like it are among the most prescribed on the planet. When a side effect this serious shows up in court for a drug this popular, nobody comes out the same. Doctors, patients, and companies all have new questions to answer.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: unusual_whales on X\n\n#ozempic #glp1 #health #lawsuit #weightloss",
+ "pinned_comment": "Would you stay on Ozempic knowing this? Most people will say yes, then spend the next two hours Googling side effects.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "OZEMPIC LAWSUITS SAY THE DRUG IS <em>MAKING PATIENTS GO BLIND</em>",
+   "OZEMPIC PATIENTS ARE SUING OVER <em>SUDDEN VISION LOSS</em>, PER WSJ",
+   "IF YOU TAKE OZEMPIC, LAWSUITS SAY <em>IT TAKES YOUR SIGHT</em>",
+   "OZEMPIC PATIENTS WENT IN FOR WEIGHT LOSS AND CAME OUT <em>UNABLE TO SEE</em>",
+   "OZEMPIC WAS THE WEIGHT LOSS WIN, NOW LAWSUITS SAY <em>IT COST SOME THEIR SIGHT</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   8.5,
+   9,
+   8
+  ],
+  "winner": 3,
+  "why": "[3] shocks harder because it's a complete real story already experienced by actual people (weight loss turned to blindness), not just a hypothetical threat. The narrative's concrete shock value outpunches [2]'s conditional warning."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "OZEMPIC WAS FOR WEIGHT LOSS. <em>NOW PATIENTS ARE LOSING THEIR SIGHT.</em>",
+   "IF YOU'RE ON OZEMPIC, LAWSUITS SAY IT'S <em>TAKING PEOPLE'S SIGHT</em>",
+   "MILLIONS ARE ON OZEMPIC. <em>NOW THEY'RE SUING OVER GOING BLIND.</em>",
+   "OZEMPIC PATIENTS WENT IN FOR WEIGHT LOSS AND CAME OUT <em>UNABLE TO SEE</em>"
+  ],
+  "scores": [
+   0,
+   7,
+   8,
+   0
+  ],
+  "winner": 2,
+  "why": "[2] delivers scale and consequence in two punches that make you stop scrolling instantly; [1] is solid but the 'LAWSUITS SAY' qualifier makes it feel like news rather than shock."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "GLP-1 drugmakers",
+  "actor_known": false,
+  "anchor": "Ozempic",
+  "specifics": [
+   "Lawsuits claim GLP-1 drugs can cause sudden vision loss",
+   "Wall Street Journal is covering the litigation",
+   "GLP-1 drugs are among the most widely prescribed medications in the world right now",
+   "Tweet reporting the story hit 402.8K views within hours"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Patients are suing GLP-1 drugmakers over the risk of sudden vision loss, per WSJ",
+  "link": "https://x.com/unusual_whales/status/2102728937918882275",
+  "judge_interest": 4,
+  "scout_score": 43.1
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "CAPTION CLOSER IS GENERIC (\u00a77): The last story line \u2014 'Doctors, patients, and companies all have new questions to answer' \u2014 could end any lawsuit story about any product by swapping nouns. \u00a77 requires ending on the sharpest specific fact. Fixable: replace with something concrete that belongs only to this story, e.g. 'Novo Nordisk made over $6 billion from Ozempic last year. Now they're defending e"
+}

@@ -1,96 +1,5 @@
 [
  {
-  "t": "2026-09-18T19:45:37Z",
-  "gate": "A",
-  "subject": "V2 of the @Starlink direct-to-phone satellite constellation is a giant improvement over V1 with 100 times more bandwidth",
-  "verdict": "KILL",
-  "reason": "Routine product spec announcement without demonstration or human-scale consequence; insufficient substance for a compelling post."
- },
- {
-  "t": "2026-09-18T19:46:45Z",
-  "gate": "A",
-  "subject": "BREAKING: Starlink high speed internet is scaling rapidly across airline fleets. 🔥",
-  "verdict": "KILL",
-  "reason": "The 82-character source provides zero specifics (no airlines named, no deployment timeline, no numbers) to verify this as a distinct news event rather than vague corporate marketing language."
- },
- {
-  "t": "2026-09-18T19:46:52Z",
-  "gate": "A",
-  "subject": "JUST IN: Warren Buffet officially steps down as Chairman of Berkshire Hathaway.",
-  "verdict": "KILL",
-  "reason": "Off-brand: a pure finance/business story with no AI or tech angle for this page's identity as an AI/tech news outlet."
- },
- {
-  "t": "2026-09-18T19:47:16Z",
-  "gate": "A",
-  "subject": "This is actually insane. This uses @typesafeai Jev model, as a plugin in Claude to review all the un-nesseasary tool cal",
-  "verdict": "KILL",
-  "reason": "Unknown actor, no news event — this is a developer tool tip, not a story."
- },
- {
-  "t": "2026-09-18T19:48:11Z",
-  "gate": "A",
-  "subject": "BREAKING: Flemish Mobility Minister Annick De Ridder just confirmed in Parliament that Tesla FSD has nearly 10× lower ac",
-  "verdict": "APPROVE",
-  "reason": "Qualifies as WOW FACT lane: 9.6-10× accident reduction is a jaw-dropping statistic for household-name Tesla (technology lens) with named government official source."
- },
- {
-  "t": "2026-09-18T20:10:49Z",
-  "gate": "B",
-  "subject": "TESLA IS <em>9.6X SAFER THAN YOU</em> AND A GOVERNMENT JUST MADE IT OFFICIAL",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-18T20:10:59Z",
-  "gate": "R",
-  "subject": "TESLA IS <em>9.6X SAFER THAN YOU</em> AND A GOVERNMENT JUST MADE IT OFFICIAL",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "gate": "A",
-  "reason": "Robots deployed in 30 real homes working without retraining is a genuine first-ever/record event from a known robotics lab with substance to build slides—fits the page's AI/tech news mandate and passes the 12-year-old stop-scroll test.",
-  "subject": "Today we’re releasing Helix 2.5 We rented 30 homes in the Bay Area. The robots arrived with no additional training and s",
-  "t": "2026-09-18T18:58:53Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "A",
-  "reason": "One-tweet product announcement with no release evidence, demonstration, or real consequence; the writer would have to pad significantly to build slides from vague feature claims.",
-  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
-  "t": "2026-09-18T18:59:17Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No numbers, proof, or consequence—just a bare product claim with nothing for the writer to build slides from except padding.",
-  "subject": "Starlink is now often more reliable than cable",
-  "t": "2026-09-18T18:59:28Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-brand: finance news about an investment company — the page is for AI/tech news (owner Sep 3).",
-  "subject": "JUST IN: Warren Buffet officially steps down as Chairman of Berkshire Hathaway.",
-  "t": "2026-09-18T19:00:07Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "EMOJI IN CAPTION (§7): The opening line ends with 🤖. §7 bans emojis outright — remove it.; TRUTH/FRIEND TEST FAILURE — 'Real tenants paid rent so machines could practice living there': Figure is the tenant who paid rent; no 'real tenants' were paying so robots could practice. The sentence is backwards and misleading (§5). Rewrite to: 'Figure paid rent on all 30 of them just to run the test.'; GENE",
-  "subject": "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
-  "t": "2026-09-18T19:28:54Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE — robot reads as CGI render, not photoreal: The white humanoid robot on the cover is clearly a 3D-generated graphic — smooth seams, machine-perfect joints, no photographed surface texture — not a photo of the actual Figure Helix 2.5 robot. §3 is explicit: any element that reads as a game render or concept art is a REJECT. Fix: replace with the real Figure Helix 2.5 press photo (or a photorea",
-  "subject": "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
-  "t": "2026-09-18T19:31:00Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "B",
   "reason": "",
   "subject": "ROBOTS MOVED INTO <em>30 REAL HOMES</em> UNSUPERVISED AND IMMEDIATELY STARTED CLEANING. <em>ZERO TRAINING</em>.",
@@ -2096,6 +2005,97 @@
   "t": "2026-09-24T00:00:37Z",
   "gate": "R",
   "subject": "YOUR TESLA CAN NOW <em>SPEND YOUR MONEY BY VOICE</em> WHILE THE CAR DRIVES ITSELF",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-24T02:25:11Z",
+  "gate": "A",
+  "subject": "Tesla in new drive unit video: “Cybercab is 40% more efficient than Model Y.”",
+  "verdict": "KILL",
+  "reason": "Routine product marketing; Tesla announcing efficiency specs is company promotion without a major release, reality-moving event, or breakthrough demonstration to build a story."
+ },
+ {
+  "t": "2026-09-24T02:25:21Z",
+  "gate": "A",
+  "subject": "Patients are suing GLP-1 drugmakers over the risk of sudden vision loss, per WSJ",
+  "verdict": "KILL",
+  "reason": "Scout interest 4/10 (below threshold requiring exceptional reason) and source material shows no lawsuit details on scale, damages, or significance—too thin to build compelling slides."
+ },
+ {
+  "t": "2026-09-24T02:25:58Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Space is approved only through commercial operators (SpaceX, Starlink); this government announcement lacks that frame and the person/money/consequence story the page requires."
+ },
+ {
+  "t": "2026-09-24T02:26:41Z",
+  "gate": "A",
+  "subject": "Patients are suing GLP-1 drugmakers over the risk of sudden vision loss, per WSJ",
+  "verdict": "KILL",
+  "reason": "Pharmaceutical litigation is off-brand for an AI/tech news page; this story has no connection to the page's identity (AI, technology, founders, tech investing, or space tech) and the owner would not post it himself."
+ },
+ {
+  "t": "2026-09-24T02:27:40Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Routine government announcement without jaw-dropping facts, numbers, or consequence—on-topic space content but lacks story substance."
+ },
+ {
+  "t": "2026-09-24T02:27:48Z",
+  "gate": "A",
+  "subject": "Tesla in new drive unit video: “Cybercab is 40% more efficient than Model Y.”",
+  "verdict": "KILL",
+  "reason": "Household-name source but single spec claim with no evidence reality moved (no market impact, timeline shift, record, or fallout shown); fails substance test."
+ },
+ {
+  "t": "2026-09-24T02:59:07Z",
+  "gate": "B",
+  "subject": "TESLA SAYS <em>MODEL Y IS 40% LESS EFFICIENT</em> THAN THE TAXI YOU CAN'T BUY",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW VIOLATION — §3 PHOTOREAL ELEMENTS: The gold Cybercab in the foreground reads as a CGI concept render, not a photographed vehicle. The surface finish is too perfect, the gold colorway matches no real Cybercab prototype, and there are none of the micro-imperfections a real car carries. The doctrine is explicit: 'any element that reads as illustration, cartoon, game render, or concept art —"
+ },
+ {
+  "t": "2026-09-24T03:01:15Z",
+  "gate": "A",
+  "subject": "Patients are suing GLP-1 drugmakers over the risk of sudden vision loss, per WSJ",
+  "verdict": "KILL",
+  "reason": "Off-brand pharma litigation; page covers AI/tech/space news, not health sector reporting."
+ },
+ {
+  "t": "2026-09-24T03:01:23Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Real event but fails THE STANDARD: a satellite launch lacks the viral-shareability required—a 12-year-old won't stop mid-scroll or DM it to a friend, which is the owner's core engagement metric; source material too thin (480 chars of vague praise) to build slides that deliver consequence beyond 'India did something.'"
+ },
+ {
+  "t": "2026-09-24T03:19:14Z",
+  "gate": "B",
+  "subject": "MILLIONS ARE ON OZEMPIC. <em>NOW THEY'RE SUING OVER GOING BLIND.</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK — TWO SENTENCES, BELOW WORD MINIMUM: §2 requires ONE complete sentence of 12-25 words. The hook is two sentences ('MILLIONS ARE ON OZEMPIC. NOW THEY'RE SUING OVER GOING BLIND.') and only 10 words total — both violations. Fix: collapse into one sentence that carries the wild specific, e.g. 'PATIENTS WHO TOOK OZEMPIC TO LOSE WEIGHT ARE NOW SUING OVER GOING BLIND.'; CAPTION FRIEND TEST — 'litiga"
+ },
+ {
+  "t": "2026-09-24T03:21:29Z",
+  "gate": "B",
+  "subject": "PATIENTS WHO TOOK OZEMPIC TO LOSE WEIGHT <em>ARE NOW SUING OVER GOING BLIND.</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — unknown face, no brand mark: The cover shows a generated unknown person with eyes bandaged while injecting a generic-looking pen. Image Law requires one of three things: a recognizable famous face, the product with its brand mark clearly in frame, or real footage of the actual event. None are present — the pen has no Ozempic or Novo Nordisk branding visible, the person is not famous, a"
+ },
+ {
+  "t": "2026-09-24T03:23:40Z",
+  "gate": "B",
+  "subject": "PATIENTS WHO TOOK OZEMPIC TO LOSE WEIGHT <em>ARE NOW SUING OVER GOING BLIND.</em>",
+  "verdict": "REJECT",
+  "reason": "CAPTION CLOSER IS GENERIC (§7): The last story line — 'Doctors, patients, and companies all have new questions to answer' — could end any lawsuit story about any product by swapping nouns. §7 requires ending on the sharpest specific fact. Fixable: replace with something concrete that belongs only to this story, e.g. 'Novo Nordisk made over $6 billion from Ozempic last year. Now they're defending e"
+ },
+ {
+  "t": "2026-09-24T03:24:04Z",
+  "gate": "R",
+  "subject": "PATIENTS WHO TOOK OZEMPIC TO LOSE WEIGHT <em>ARE NOW SUING OVER GOING BLIND.</em>",
   "verdict": "PASS",
   "reason": ""
  }
