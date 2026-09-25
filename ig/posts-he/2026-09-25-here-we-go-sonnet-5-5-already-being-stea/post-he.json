@@ -1,0 +1,91 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Anthropic שתקו על מודל חדש: <em>מישהי גילתה אותו לפניהם</em>",
+   "kicker": "אותו מחיר בדיוק כמו OpenAI",
+   "hsize": 72,
+   "media": null,
+   "logos": [
+    "anthropic",
+    "openai"
+   ]
+  }
+ ],
+ "caption": "מישהי מצאה מודל AI חדש של Anthropic לפני שהם הספיקו להכריז עליו, ועם אותו מחיר כמו OpenAI בדיוק.\n\nאתמול, משתמשת בשם lyraxana בדקה את המערכות של Anthropic ומצאה מודל שאיש לא שמע עליו: claude-sonnet-5-5. הוא פשוט רץ ברקע, בלי הכרזה. היא פרסמה את זה, והסוד יצא.\n\nהמודל יכול להחזיק בזיכרון מיליון טוקן בבת אחת, מספיק כדי לטעון לתוכו את כל המסמכים, החוזים והמדיניות של חברה שלמה.\n\nואז הגיע הפרט המוזר: $2 לכל מיליון מילים שנכנסות, $10 לכל מיליון מילים שיוצאות. אותם מספרים בדיוק כמו GPT-6-Sol של OpenAI. לא בערך. לא קרוב. אותו מחיר, עד הסנט.\n\nשתי החברות הכי חזקות בתחום ה-AI בנו את התמחור שלהן כל אחת בעצמה, ושתיהן הגיעו לאותו מקום. זה או צירוף מקרים, או ששתיהן עוקבות אחת אחרי השנייה כל כך מקרוב שאף אחת לא מוכנה להיות ראשונה שמעלה מחיר.\n\nזה כבר לא מלחמת מחירים. שתיהן שופכות כסף כדי שתעבוד איתן, ועם אותו מחיר בדיוק קשה לדעת מי מנצח.\n\nמנהל עסק? שלח לנו הודעה עם המילה AI ונגיד לך מי מהשניים שווה לך יותר.\n\nמקורות: kimmonismus on X, lyraxana on X\n\nעקבו אחרינו @ainews.israel\n\n#AI #Claude #Anthropic #ChatGPT #ArtificialIntelligence",
+ "pinned_comment": "מה שקשה להסביר: שתי חברות פיתחו את התמחור שלהן כל אחת בעצמה, ושתיהן קבעו בדיוק אותו מחיר: $2 על מיליון מילים נכנסות, $10 על מיליון מילים יוצאות. מתי \"תחרות\" מתחילה להיראות כמו משהו אחר?",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "CHATGPT'S BIGGEST RIVAL GOT CAUGHT SECRETLY TESTING AN AI <em>WITH A 1-MILLION-WORD MEMORY</em>",
+   "A STRANGER CAUGHT <em>CHATGPT'S RIVAL</em> RUNNING AN UNANNOUNCED AI WITH A MILLION-WORD MEMORY",
+   "CHATGPT'S RIVAL GOT CAUGHT <em>TESTING A SECRET AI</em> THAT MATCHES OPENAI'S PRICE TO THE CENT",
+   "CHATGPT'S BIGGEST RIVAL FIRED BACK AT OPENAI <em>WITH AN IDENTICAL PRICE</em> — IN SECRET",
+   "CHATGPT'S BIGGEST RIVAL <em>SECRETLY TESTED ITS NEXT AI</em> AND GOT CAUGHT BEFORE SAYING A WORD",
+   "CHATGPT'S BIGGEST RIVAL JUST MATCHED OPENAI'S EXACT PRICING <em>AND LAUNCHED IT IN SECRET</em>",
+   "CHATGPT'S BIGGEST RIVAL HID A NEW AI IN THE CODE — <em>USERS FOUND IT FIRST</em>",
+   "CHATGPT'S BIGGEST RIVAL BUILT AN AI <em>THAT WRITES A FULL NOVEL IN ONE RESPONSE</em>",
+   "SOMEONE FOUND <em>CHATGPT'S BIGGEST RIVAL</em> HIDING A NEW AI IN ITS OWN SYSTEM"
+  ],
+  "scores": [
+   7,
+   8,
+   9,
+   7.5,
+   8,
+   8,
+   8.5,
+   6.5,
+   7
+  ],
+  "winner": 2,
+  "why": "[2]'s 'to the cent' is the most immediately shocking specific detail, creating an instant 'wait what?' moment that stops scrolling cold. [6] has a complete story with great human elements, but a technical discovery can't match the visceral impact of exact-match pricing that screams something's wrong."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "CHATGPT'S RIVAL GOT CAUGHT <em>TESTING A SECRET AI</em> THAT MATCHES OPENAI'S PRICE TO THE CENT",
+   "A STRANGER CAUGHT CHATGPT'S RIVAL HIDING A NEW AI <em>BEFORE THE ANNOUNCEMENT</em>",
+   "CHATGPT'S RIVAL SECRETLY TESTED AN AI THAT <em>HOLDS A MILLION WORDS AT ONCE</em>",
+   "CHATGPT'S RIVAL MATCHED OPENAI'S EXACT PRICE <em>ON AN AI NOBODY KNEW EXISTED</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   8.5,
+   7.5
+  ],
+  "winner": 2,
+  "why": "Million words at once delivers the shocking capability in one phrase—you immediately get the wow factor without context. Got caught drama is close, but a concrete, tangible spec number beats narrative intrigue for stopping the scroll."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Anthropic",
+  "actor_known": false,
+  "anchor": "ChatGPT's biggest rival",
+  "specifics": [
+   "1-million-token context window — enough to hold several full-length novels or an entire codebase at once",
+   "Pricing perfectly matches OpenAI's GPT-6-Sol: $2 input / $10 output per million tokens",
+   "Found secretly live in the API before any announcement — users caught it first",
+   "128K-token maximum output in a single response",
+   "Model ID already active: claude-sonnet-5-5"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "Here we go: Sonnet 5.5 already being stealth tested. The model has a 1M-token context window and a 128K-token maximum output. Pricing per 1M tokens: $2 input, $10 output. This reads to me as a direct response to GPT-6-So",
+  "link": "https://x.com/kimmonismus/status/2102972781495566455",
+  "judge_interest": 5,
+  "scout_score": 45.8
+ },
+ "editor_override": "COVER HAS NO IMAGE — direct violation of §3 IMAGE LAW: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a single-picture post; the picture IS the post. Fix: supply a photoreal cover built to the product/company archetype — Dario Amodei real press photo or the Claude logo mark oversized against a colorful story-world background, with a b",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
