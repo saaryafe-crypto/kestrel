@@ -1,0 +1,32 @@
+{
+ "stories": [
+  {
+   "headline": "Tesla made battery material inside Gigafactory Texas for the first time"
+  },
+  {
+   "headline": "Stanford confirms AI swapped a student's race in an official photo"
+  },
+  {
+   "headline": "US military used lasers to destroy drones in real combat"
+  },
+  {
+   "headline": "India launched its first imaging satellite to geosynchronous orbit"
+  },
+  {
+   "headline": "Builder used Grok 4.7 and Blender to model SpaceX Raptor engine in 3D"
+  }
+ ],
+ "caption": "Here's what happened in AI and tech in the last 24 hours, from AI swapping a student's face at Stanford to lasers taking down real drones in combat\n\nTesla produced nickel cathode, a key battery material, inside Gigafactory Texas for the first time.\n\nStanford confirmed AI was used to replace a student in an official photo with a person of a different race and gender.\n\nThe US Pentagon confirmed laser systems destroyed Iranian drones and cruise missiles in the Strait of Hormuz, the Army followed with a $500 million contract for war-ready lasers.\n\nIndia launched its first satellite that can photograph the entire country from a fixed point in high orbit.\n\nA builder used Grok 4.7 inside Blender to model SpaceX's Raptor engine in 3D, the quality jump from earlier AI versions was immediate, and it's still early.\n\nAI keeps showing up in places most people haven't thought about, faking school photos, shooting down drones, and letting one person model jet engines in 3D. Most of it happened today.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Tesla, Stanford University, Pentagon, ISRO, xAI\n\n#AI #Technology #Tesla #Innovation #ArtificialIntelligence",
+ "pinned_comment": "Stanford confirmed AI was used to swap a student's race in an official school photo, should universities ban AI from touching any official records or images entirely, or is the real problem just that no one was watching?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "STANFORD CAUGHT USING AI TO <em>SWAP A STUDENT'S RACE</em> IN AN OFFICIAL SCHOOL PHOTO",
+   "kicker": "THE DAILY RECAP"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW \u00a73 \u2014 cover is abstract CGI particle art, not photoreal. The doctrine requires every element to read as photographed (real skin, real product, real photo fragments). An orange light-burst on black reads as digital concept art. Fix: replace with a photoreal composite \u2014 the Stanford campus exterior + an AI-altered ID photo inset, both as photographic elements.; IMAGE LAW \u00a73 \u2014 cover has no s"
+}
