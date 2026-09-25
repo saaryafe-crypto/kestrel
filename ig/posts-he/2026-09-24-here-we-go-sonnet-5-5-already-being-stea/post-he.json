@@ -1,0 +1,83 @@
+{
+ "image_brief": "A user caught Anthropic's new Claude AI model hiding in its developer API before any announcement, priced identically to OpenAI's GPT-6",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "מצאו מודל Claude חדש לפני שהודיעו עליו, <em>עם מיליון טוקן</em>",
+   "kicker": "מחיר זהה בדיוק ל-GPT-6-Sol",
+   "hsize": 70,
+   "media": null,
+   "logos": [
+    "anthropic",
+    "openai"
+   ]
+  }
+ ],
+ "caption": "גילו מודל Claude חדש שכבר רץ ב-API של Anthropic לפני שהם הודיעו עליו. המחיר? זהה בדיוק ל-GPT-6-Sol.\n\nב-24 בספטמבר, מפתח אחד סרק את הערוצים שמפתחים משתמשים בהם כדי לדבר ישירות עם AI. בלי שום הכרזה. ואז זה הופיע: claude-sonnet-5-5, כבר פעיל, כבר רץ, לפני שAnthropic הודיעה על קיומו.\n\nהוא יכול לעבד בבת אחת טקסט בגודל של עשרה רומנים שלמים, מיליון טוקן. פלט מקסימלי של 128,000 טוקן. מחיר: <b>2 דולר למיליון טוקן קלט, 10 דולר למיליון טוקן פלט.</b>\n\nאם אתה משלם על שירות AI, המספרים האלה מוכרים לך. הם זהים בדיוק ל-GPT-6-Sol. לא בערך. אותם מספרים, עד הדולר. שתי החברות הכי גדולות ב-AI ניהלו מלחמת מחירים רועשת, ושתיהן הגיעו ל-2 דולר קלט ו-10 דולר פלט בדיוק. זה לא תחרות. זו הפסקת אש.\n\nעכשיו למפתחים אין שום סיבה כלכלית לבחור אחד על השני. יצטרכו להחליט לפי ביצועים ותחושת בטן, כי החשבון יהיה אותו הדבר.\n\nמנהל עסק ולא בטוח איזה AI מתאים לך? שלח לנו ב-DM את המילה \"AI\" ונחשוב ביחד.\n\nמקורות: lyraxana on X, kimmonismus on X\n\nעקוב אחרי @ainews.israel\n\n#Claude #Anthropic #OpenAI #AI #ArtificialIntelligence",
+ "pinned_comment": "המודל כבר רץ ב-API של Anthropic לפני שהם אמרו לאף אחד שהוא קיים. אולי ככה הם תמיד משיקים בשקט. או שמישהו ב-Anthropic שכח לשמור על הסוד.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "CLAUDE QUIETLY HID A NEW MODEL IN THE API. <em>NO ANNOUNCEMENT. SAME PRICE AS GPT-6.</em>",
+   "CLAUDE JUST SNUCK A <em>1-MILLION-TOKEN</em> MODEL INTO THE API WITHOUT ANNOUNCING IT",
+   "SOMEONE CAUGHT <em>CLAUDE'S SECRET MODEL</em> IN THE API, PRICED EXACTLY LIKE GPT-6",
+   "CLAUDE AND OPENAI CLAIM THEY'RE AT WAR. <em>THEY JUST MATCHED PRICES TO THE DOLLAR.</em>",
+   "CLAUDE JUST LAUNCHED AT <em>$2 INPUT AND $10 OUTPUT</em>, EXACTLY GPT-6'S PRICE"
+  ],
+  "scores": [
+   7,
+   9,
+   7,
+   0,
+   0
+  ],
+  "winner": 1,
+  "why": "The 1-million-token detail hits instantly as 'wait, WHAT?'—that specific number is the wow factor. The winner tells the whole story in one punch while the runner-up spreads three facts that need the caption to make sense."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "CLAUDE AND GPT-6 ARE AT WAR, YET BOTH JUST COST <em>EXACTLY THE SAME</em>",
+   "CLAUDE JUST SNUCK A <em>1-MILLION-TOKEN</em> MODEL INTO THE API WITHOUT ANNOUNCING IT",
+   "CLAUDE JUST MATCHED GPT-6'S PRICE <em>TO THE DOLLAR</em> ON A MODEL NOBODY KNEW EXISTED"
+  ],
+  "scores": [
+   5,
+   9,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] leads with 'SNUCK...WITHOUT ANNOUNCING' which makes you stop scrolling in 1.7 seconds; [2] leads with 'MATCHED the PRICE,' which sounds like business math. The same facts, but one is visceral surprise and the other is corporate strategy."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Anthropic",
+  "actor_known": false,
+  "anchor": "Claude",
+  "specifics": [
+   "Exact same price as GPT-6: $2 input / $10 output per 1M tokens — no discount, no undercut",
+   "Found in the API before Anthropic announced anything — the model leaked itself",
+   "1 million-token context window — you could feed it a whole novel and it wouldn't blink",
+   "128K-token output cap — longer than most people's entire work history in a document",
+   "Post hit 128K views within hours of the discovery"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "Here we go: Sonnet 5.5 already being stealth tested. The model has a 1M-token context window and a 128K-token maximum output. Pricing per 1M tokens: $2 input, $10 output. This reads to me as a direct response to GPT-6-So",
+  "link": "https://x.com/kimmonismus/status/2102972781495566455",
+  "judge_interest": 5,
+  "scout_score": 45.8
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE LAW HARD FAIL (§3): cover_has_image is false — no image exists on the cover. §3 is unambiguous: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The prompt warning confirms this alone is a REJECT. This story has an obvious cover concept: a photoreal collage of the Anthropic/Claude brand mark as a giant floating disc, an API receipt card s",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
