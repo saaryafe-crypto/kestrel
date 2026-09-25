@@ -1,0 +1,17 @@
+Google sent a satellite carrying its AI chips into orbit to test running AI from space. They named the mission 'Project Suncatcher.'
+
+Until now, every AI model on your phone, every Google search, every recommendation shaping what you buy ran through massive data centers on Earth. Governments could demand access. Countries could ban them. Laws applied.
+
+Google just strapped its AI chips, called TPUs, to a satellite and shot them into orbit. The goal: see if the chips survive up there, then eventually run AI from space. They named the whole thing 'Suncatcher.' Someone pitched that name in a meeting and everyone nodded.
+
+'Suncatcher' is not random. In space you get unlimited solar power, zero energy bills, and no country telling you what to do. The longer-term vision is AI that sits above every border, every regulator, every government that might want to limit it. One more thing: Google is calling this a 'moonshot' to find out if computers can handle space. We first sent computers to space sixty years ago.
+
+If this works, the AI deciding what you see, what jobs exist, and what information reaches you could one day run from orbit, where no law on Earth applies. That is not a prediction. That is where this logic leads.
+
+Every tech company is racing to make AI cheaper and faster. Google just moved the race off the planet entirely. The question nobody is answering yet: if the most powerful AI runs from space, who governs it?
+
+Running a business? DM us "AI" and we'll show you what that shift means for yours.
+
+Sources: Google
+
+#Google #AI #Space #Technology #Satellites

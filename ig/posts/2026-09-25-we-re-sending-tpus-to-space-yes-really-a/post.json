@@ -1,0 +1,81 @@
+{
+ "image_brief": "Google satellite carrying AI chips launching above Earth into orbit, with the Google logo on the hardware",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GOOGLE SHOT ITS AI CHIPS INTO ORBIT <em>TO TEST RUNNING AI FROM SPACE</em>",
+   "kicker": "THE GOAL: AI ABOVE EVERY REGULATOR",
+   "hsize": 72,
+   "media": "posts/2026-09-25-we-re-sending-tpus-to-space-yes-really-a/cand-1.webp",
+   "image_prompt": "A giant Google satellite carrying AI chips launching upward and away from Earth into space."
+  }
+ ],
+ "caption": "Google sent a satellite carrying its AI chips into orbit to test running AI from space. They named the mission 'Project Suncatcher.'\n\nUntil now, every AI model on your phone, every Google search, every recommendation shaping what you buy ran through massive data centers on Earth. Governments could demand access. Countries could ban them. Laws applied.\n\nGoogle just strapped its AI chips, called TPUs, to a satellite and shot them into orbit. The goal: see if the chips survive up there, then eventually run AI from space. They named the whole thing 'Suncatcher.' Someone pitched that name in a meeting and everyone nodded.\n\n'Suncatcher' is not random. In space you get unlimited solar power, zero energy bills, and no country telling you what to do. The longer-term vision is AI that sits above every border, every regulator, every government that might want to limit it. One more thing: Google is calling this a 'moonshot' to find out if computers can handle space. We first sent computers to space sixty years ago.\n\nIf this works, the AI deciding what you see, what jobs exist, and what information reaches you could one day run from orbit, where no law on Earth applies. That is not a prediction. That is where this logic leads.\n\nEvery tech company is racing to make AI cheaper and faster. Google just moved the race off the planet entirely. The question nobody is answering yet: if the most powerful AI runs from space, who governs it?\n\nRunning a business? DM us \"AI\" and we'll show you what that shift means for yours.\n\nSources: Google\n\n#Google #AI #Space #Technology #Satellites",
+ "pinned_comment": "The real question: if AI runs from orbit, which country's laws apply to it? Nobody has an answer, and that might be the whole point.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "GOOGLE JUST PUT ITS AI CHIPS IN SPACE ON A SATELLITE <em>CALLED 'SUNCATCHER'</em>",
+   "GOOGLE PUT ITS AI CHIPS IN ORBIT <em>WHERE NO GOVERNMENT CAN SHUT THEM DOWN</em>",
+   "GOOGLE JUST LAUNCHED A SATELLITE <em>TO TEST IF AI CAN RUN FROM ORBIT</em>",
+   "GOOGLE JUST PUT AI CHIPS IN SPACE. <em>THEY NAMED THE PROJECT 'SUNCATCHER.'</em>",
+   "GOOGLE LAUNCHED THE AI CHIPS BEHIND EVERY GOOGLE SEARCH <em>INTO SPACE</em>",
+   "GOOGLE JUST LAUNCHED A SATELLITE WITH AI CHIPS TO <em>RUN AI ABOVE ANY GOVERNMENT'S REACH</em>",
+   "GOOGLE ALREADY PUT AI CHIPS IN ORBIT. <em>THIS IS NOT SCIENCE FICTION.</em>",
+   "<em>GOOGLE JUST BOLTED ITS AI CHIPS TO A SATELLITE</em> AND SHOT THEM INTO ORBIT"
+  ],
+  "scores": [
+   7,
+   0,
+   6,
+   7,
+   0,
+   0,
+   8,
+   9
+  ],
+  "winner": 7,
+  "why": "'Bolted' and 'shot into orbit' trigger an immediate visceral 'WHAT???' that stops your scroll without thinking. [6]'s 'not science fiction' makes you pause and think, but kinetic verbs beat intellectual hooks at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "GOOGLE JUST PUT ITS AI IN SPACE <em>TO RUN ON UNLIMITED SUNLIGHT FOREVER</em>",
+   "<em>GOOGLE JUST BOLTED ITS AI CHIPS TO A SATELLITE</em> AND SHOT THEM INTO ORBIT",
+   "GOOGLE JUST LAUNCHED AI CHIPS INTO ORBIT <em>WHERE NO GOVERNMENT CAN REGULATE THEM</em>",
+   "GOOGLE JUST PUT AI CHIPS IN ORBIT <em>AND PLANS TO KEEP THEM THERE PERMANENTLY</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   9,
+   6
+  ],
+  "winner": 2,
+  "why": "[2]'s regulatory angle ('no government can regulate them') creates immediate alarm\u2014the 'wait, what?' moment that makes you read\u2014while [0]'s technical achievement is impressive but doesn't trigger that urgent need-to-know feeling."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Google",
+  "actor_known": true,
+  "anchor": "Google",
+  "specifics": [
+   "Google launched actual AI chips (TPUs) into orbit on a satellite",
+   "End goal: run machine learning infrastructure from space, potentially outside any government's reach",
+   "Project name 'Suncatcher' signals space-based solar power as the energy source \u2014 unlimited and unregulated",
+   "Announced Sep 24, 2026 \u2014 this already happened",
+   "710K people saw the tweet within hours"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (2/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "We\u2019re sending TPUs to space (yes, really). After years of research, we\u2019re launching a satellite to evaluate if and how Google Tensor Processing Units (TPUs) hold up in orbit. The test mission, as part of our latest moons",
+  "link": "https://x.com/Google/status/2103229008343126519",
+  "judge_interest": 7,
+  "scout_score": 69.2
+ },
+ "editor_override": "TOP-TWO-THIRDS PICTURE LAW VIOLATION (permanent owner order Sep 10): the two photoreal images \u2014 the chip close-up and the satellite-over-Earth photo \u2014 sit entirely in the bottom half of the frame. The top ~60% is text on a dark grid background. This is the literal inversion of the law: 'the cover photo is COMPOSED for the top ~62% of the frame \u2014 subject's face and the story's proof fully above the",
+ "gate_r": "s1: The upper portion of the slide is a raw screenshot of Google's Project Suncatcher webpage used as a full-bleed background element, violating the Screenshot Law."
+}
