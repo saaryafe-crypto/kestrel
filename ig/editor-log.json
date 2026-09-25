@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-19T19:22:10Z",
-  "gate": "A",
-  "subject": "BREAKING: Aer Lingus just announced its entire A321 fleet is now equipped with @Starlink Passengers can enjoy free, ultr",
-  "verdict": "KILL",
-  "reason": "Routine deployment announcement without a person, major move, or clear record claim—precisely the repetitive pattern the page must avoid despite slot pressure."
- },
- {
-  "t": "2026-09-19T19:23:12Z",
-  "gate": "A",
-  "subject": "ANTHROPIC BUILDS BIOLOGY LAB TO PUSH AI INTO DRUG DEVELOPMENT Anthropic has quietly established a Bay Area wet lab, movi",
-  "verdict": "APPROVE",
-  "reason": "A household-name lab establishing a drug-discovery lab is a major strategic move that qualifies as news this page exists to cover under NEWS PAGE FIRST."
- },
- {
-  "t": "2026-09-19T19:47:23Z",
-  "gate": "B",
-  "subject": "AN AI <em>NOW RUNS A REAL BIOLOGY LAB</em> FOR DISEASES <em>PHARMA ABANDONED</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE — RENDERS AS CGI, NOT PHOTOREAL: The entire cover is a 3D-rendered scene. The robot arms, sparks, glowing flasks, and lab environment all read as concept art / game render, which IMAGE LAW hard-bans. Every element must read as photographed. Fix: rebuild as a photoreal composite — a real press photo of Dario Amodei (or a real lab robot photo) + oversized Anthropic logo mark + the Anthropic as"
- },
- {
   "t": "2026-09-19T19:50:05Z",
   "gate": "B",
   "subject": "AN AI <em>NOW RUNS A REAL BIOLOGY LAB</em> FOR DISEASES <em>PHARMA ABANDONED</em>",
@@ -2096,6 +2075,27 @@
   "t": "2026-09-25T06:17:34Z",
   "gate": "R",
   "subject": "STANFORD CAUGHT USING AI TO <em>SWAP A STUDENT'S RACE</em> IN AN OFFICIAL SCHOOL PHOTO",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-25T18:07:18Z",
+  "gate": "B",
+  "subject": "<em>7 AI SKILLS</em> THAT TOOK SALARIES FROM $64K TO $151K IN 3 YEARS",
+  "verdict": "REJECT",
+  "reason": "COVER CONTRACT / HOOK FALSITY: The hook reads '$64K TO $151K' as salary figures and promises '7 AI SKILLS.' The caption immediately reveals those numbers are IQ scores — not salaries — and delivers 3 CEO moves, not 7 skills. A reader who clicked on a career-salary promise lands in a CEO strategy post about an IQ test. That is a bait-and-switch, not a cover contract. Fix: write the hook to match th"
+ },
+ {
+  "t": "2026-09-25T18:10:36Z",
+  "gate": "B",
+  "subject": "<em>AI JUST SCORED 151</em> ON MENSA'S IQ TEST, 3 CEO MOVES NOW",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION: Sam Altman fronts a post where the AI that scored 151 is never named anywhere in the caption or headline. The VENDOR CAST exception is narrow — it covers a post teaching the use of a named famous tool (Sam Altman for a ChatGPT guide). This post gives zero tool-specific instruction and never names OpenAI, ChatGPT, or any OpenAI product. The three CEO moves are generic prompts "
+ },
+ {
+  "t": "2026-09-25T18:10:44Z",
+  "gate": "R",
+  "subject": "<em>AI JUST SCORED 151</em> ON MENSA'S IQ TEST, 3 CEO MOVES NOW",
   "verdict": "PASS",
   "reason": ""
  }

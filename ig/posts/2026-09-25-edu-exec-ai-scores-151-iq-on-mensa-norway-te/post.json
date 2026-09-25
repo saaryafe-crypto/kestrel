@@ -1,0 +1,48 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>AI JUST SCORED 151</em> ON MENSA'S IQ TEST, 3 CEO MOVES NOW",
+   "kicker": "3 MOVES BEFORE YOUR BOARD ASKS",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "faces/sam-altman.jpg"
+  }
+ ],
+ "caption": "AI just scored 151 on the Mensa Norway IQ test. Three years ago it was\n64. Here are the 3 CEO moves. \ud83e\udde0\n\nTHE 151 WINDOW.\n\n1) The payroll math\n\nThree years ago, AI scored 64 on Mensa Norway's IQ test. Below the average human. One year later: average. The year after: genius. This week: 151, the highest score the test can produce. Your top analyst earns $120K to $180K a year. The thing that just broke the Mensa scale costs $20 a month. Which roles in your business are you still paying human-speed prices for?\n\n2) The 90-day gap\n\nEvery CEO in your market is reading this same headline today. The ones who move in the next 90 days enter 2027 with a hard structural cost edge. The ones who wait spend 2028 catching up to a gap that's already compounding. Pick three roles in your business where the output is a document, a recommendation, or a decision. Those three are your first moves.\n\n3) The decision layer\n\nMost owners use AI to write emails. That's a to-do list move, and it barely shows up in the numbers. The CEOs pulling ahead are running pricing, acquisition, and retention strategy through AI first. Tonight, run this: \"Here are my three biggest costs and three biggest revenue sources. What is the single most dangerous scenario for my margin over the next 12 months, and what should I do about it?\" That question used to cost $500 an hour to answer.\n\nSAVE THIS: the three moves before your board asks why you haven't made them yet.\n\nAI's IQ trajectory is only three years old. Every business is now competing against something that outscores the smartest person in any room on every standard cognitive test. The window to build this into your operations before your competition does is getting shorter every month.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Mensa Norway\n\n#AI #ArtificialIntelligence #CEOs #BusinessStrategy #AIBusiness",
+ "pinned_comment": "Which move is your business furthest behind on? Most founders I talk to haven't gotten to move 3 yet.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>64 TO 151 IN 3 YEARS.</em> THE WINDOW.",
+   "<em>THE 151 WINDOW.</em> AI JUST BROKE THE SCALE."
+  ],
+  "scores": [
+   7,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] tells you a complete story with real numbers (64 to 151 in 3 years) you believe happened from the cover alone. [1] cryptically hides what occurred and makes you click just to understand what you're even reading about."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>7 AI SKILLS.</em> THE DIFFERENCE BETWEEN A $64K JOB AND A $151K ONE.",
+   "<em>7 AI SKILLS</em> THAT TOOK SALARIES FROM $64K TO $151K IN 3 YEARS"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "1 tells the complete story with a real timeline\u2014$64K to $151K in 3 years\u2014so you believe it immediately. 0 just hints at a salary difference without the narrative that makes you want to open the caption."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "CAST TRUTH VIOLATION: Sam Altman fronts a post where the AI that scored 151 is never named anywhere in the caption or headline. The VENDOR CAST exception is narrow \u2014 it covers a post teaching the use of a named famous tool (Sam Altman for a ChatGPT guide). This post gives zero tool-specific instruction and never names OpenAI, ChatGPT, or any OpenAI product. The three CEO moves are generic prompts ",
+ "topic_source": "exec-news"
+}
