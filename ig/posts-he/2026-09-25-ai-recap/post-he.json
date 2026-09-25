@@ -1,0 +1,39 @@
+{
+ "stories": [
+  {
+   "headline": "Tesla made battery material inside Gigafactory Texas for the first time"
+  },
+  {
+   "headline": "Stanford confirms AI swapped a student's race in an official photo"
+  },
+  {
+   "headline": "US military used lasers to destroy drones in real combat"
+  },
+  {
+   "headline": "India launched its first imaging satellite to geosynchronous orbit"
+  },
+  {
+   "headline": "Builder used Grok 4.7 and Blender to model SpaceX Raptor engine in 3D"
+  }
+ ],
+ "caption": "סטנפורד אישרה שב-AI שינו תמונה רשמית של האוניברסיטה, והחליפו סטודנט אמיתי במישהו ממין ומוצא אחרים. וזה רק חלק ממה שקרה ב-24 השעות האחרונות.\n\nTesla ייצרה בפעם הראשונה קתודת ניקל, חומר גלם לסוללות, בתוך Gigafactory Texas.\n\nסטנפורד אישרה ש-AI שימש לשינוי תמונה רשמית של האוניברסיטה: הוציאו סטודנט אחד והכניסו במקומו מישהו ממין ומוצא שונים.\n\nהפנטגון האמריקאי אישר שמערכות לייזר הפילו כטב״מים וטילי שיוט איראניים במיצר הורמוז. הצבא חתם אחר כך על חוזה של 500 מיליון דולר על לייזרים מוכנים לקרב.\n\nהודו שיגרה את הלוויין הראשון שלה שמצלם את כל המדינה מנקודה קבועה בחלל.\n\nמישהו השתמש ב-Grok 4.7 בתוך Blender ובנה מודל תלת מימד של מנוע Raptor של SpaceX. הקפיצה באיכות לעומת גרסאות AI קודמות הייתה מיידית, וזה עדיין בהתחלה.\n\nAI ממשיך להופיע במקומות שאנשים לא חשבו עליהם. מזייף תמונות רשמיות של אוניברסיטאות, מפיל כטב״מים בים, ומאפשר לאדם אחד לבנות מנועי רקטה בתלת מימד. רוב זה קרה היום.\n\nמנהלים עסק? שלחו לנו DM עם \"AI\" ונראה מה זה יכול לעשות בשבילכם.\n\nעקבו @ainews.israel לעוד עדכוני AI.\n\nמקורות: Tesla, Stanford University, Pentagon, ISRO, xAI\n\n#AI #Technology #Tesla #Innovation #ArtificialIntelligence",
+ "pinned_comment": "סטנפורד אישרה שהשתמשו ב-AI כדי להחליף סטודנט בתמונה רשמית של האוניברסיטה, עם מישהו ממין ומוצא שונים. לדעתכם, אוניברסיטאות צריכות לאסור לחלוטין על AI לגעת בתמונות ומסמכים רשמיים, או שהבעיה האמיתית היא פשוט שאף אחד לא שמר?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "נחשף בסטנפורד: AI החליף סטודנט בתמונה רשמית <em>עם מישהו ממוצא ומין שונים</em>",
+   "kicker": "THE DAILY RECAP"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW §3 — cover is abstract CGI particle art, not photoreal. The doctrine requires every element to read as photographed (real skin, real product, real photo fragments). An orange light-burst on black reads as digital concept art. Fix: replace with a photoreal composite — the Stanford campus exterior + an AI-altered ID photo inset, both as photographic elements.; IMAGE LAW §3 — cover has no s",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
