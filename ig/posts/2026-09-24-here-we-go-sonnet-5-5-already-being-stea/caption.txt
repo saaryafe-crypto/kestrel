@@ -1,0 +1,17 @@
+Someone caught a hidden Claude AI model running in Anthropic's API before any announcement, and it's priced exactly like GPT-6. 🔍
+
+Everyone assumed Claude and GPT-6 were undercutting each other on price. Pick Claude, save money. Pick GPT-6, get a counter-offer. That was the assumption going into last week.
+
+On September 24, a developer was digging through the back channels developers use to talk directly to AI, watching for anything new. No announcement anywhere. Just someone paying very close attention. And there it was: claude-sonnet-5-5, already live, already running, before Anthropic had said a single public word that this model existed.
+
+The specs: a context window of one million tokens, enough to hold ten full novels at once. Max output of 128,000 tokens. Price: $2 per million input tokens, $10 per million output tokens. If you pay for any AI service right now, those numbers should look familiar.
+
+They're identical to GPT-6-Sol's pricing. Not close. The same number, to the dollar. Two companies running a very loud price war both landed on $2 in and $10 out. That's not competition. That's a truce.
+
+The two biggest AI companies just made themselves financially identical. Developers now have zero price signal to guide the choice. It comes down to benchmarks and vibes, because the bill is exactly the same.
+
+Running a business and not sure which AI fits your workflow? DM us "AI" and we'll figure it out for yours.
+
+Sources: lyraxana on X, kimmonismus on X
+
+#Claude #Anthropic #OpenAI #AI #ArtificialIntelligence

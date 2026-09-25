@@ -1,124 +1,5 @@
 [
  {
-  "t": "2026-09-18T23:46:17Z",
-  "gate": "A",
-  "subject": "Starlink is now often more reliable than cable",
-  "verdict": "KILL",
-  "reason": "One-sentence claim with zero numbers, proof, or specifics; no event occurred and the writer would need to pad to reach story length."
- },
- {
-  "t": "2026-09-18T23:46:21Z",
-  "gate": "A",
-  "subject": "JUST IN: Warren Buffet officially steps down as Chairman of Berkshire Hathaway.",
-  "verdict": "KILL",
-  "reason": "Off-brand for an AI/tech news page: Berkshire Hathaway is not a tech company, and this is general finance news, not the AI/tech/founder-tier events this page exists to cover."
- },
- {
-  "t": "2026-09-18T23:46:36Z",
-  "gate": "A",
-  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
-  "verdict": "KILL",
-  "reason": "One-line product teaser with zero demonstration, no feature detail shown, and no utility a reader could use today—pure launch-preview spec sheet that requires padding, violating §1's NO SUBSTANCE rule."
- },
- {
-  "t": "2026-09-18T23:46:51Z",
-  "gate": "A",
-  "subject": "Tesla doing Cybercab and Model Y Robotaxi training with first responders. You can see them learning how to move the Cybe",
-  "verdict": "KILL",
-  "reason": "Operational/routine training activity with no major move, first-ever event, or consequence readers would feel; 5/10 scout interest and 203-char source provide insufficient substance to build a jaw-dropping post; fails the owner's test—would he post Tesla doing operational prep work on an unreleased product?"
- },
- {
-  "t": "2026-09-18T23:47:46Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 SEC approves limited trading of tokenized stocks on-chain under temporary exemption.",
-  "verdict": "KILL",
-  "reason": "A one-line regulatory tick with zero numbers, detail, or stated consequence—a writer would need substantial padding just to explain what this exemption enables and whether it matters."
- },
- {
-  "t": "2026-09-18T23:48:00Z",
-  "gate": "A",
-  "subject": "V2 of the @Starlink direct-to-phone satellite constellation is a giant improvement over V1 with 100 times more bandwidth",
-  "verdict": "KILL",
-  "reason": "It's a routine product specification claim with no jaw-dropping consequence for readers and insufficient source material—fits the banned launch-preview category."
- },
- {
-  "t": "2026-09-18T23:48:10Z",
-  "gate": "A",
-  "subject": "BREAKING: Starlink high speed internet is scaling rapidly across airline fleets. 🔥",
-  "verdict": "KILL",
-  "reason": "One thin tweet with no specifics (airlines unnamed, scale unknown, no numbers given) and minimum scout interest—fails substance rule; writer cannot determine what actually happened or why it matters."
- },
- {
-  "t": "2026-09-18T23:48:15Z",
-  "gate": "A",
-  "subject": "NEWS: The FCC has officially granted SpaceX approval to provide international telecommunications services needed to supp",
-  "verdict": "KILL",
-  "reason": "Regulatory approval is procedural news, not a dramatic event—stories require releases, lawsuits, acquisitions, records, or founder moments; this reads routine and a 12-year-old would not stop mid-scroll to send it to a friend."
- },
- {
-  "t": "2026-09-18T23:50:26Z",
-  "gate": "A",
-  "subject": "ANTHROPIC BUILDS BIOLOGY LAB TO PUSH AI INTO DRUG DEVELOPMENT Anthropic has quietly established a Bay Area wet lab, movi",
-  "verdict": "KILL",
-  "reason": "Real event but 4/10 scout reflects it: quietly-discovered corporate initiative without announced event, significant money, named leader, or product demo—valid business news, below the threshold for thin sources."
- },
- {
-  "t": "2026-09-19T00:25:08Z",
-  "gate": "B",
-  "subject": "ELON MUSK GRADED HIS OWN HOMEWORK <em>AND 47.5 MILLION PEOPLE AGREED.</em>",
-  "verdict": "REJECT",
-  "reason": "HOOK USES ENGAGEMENT METRIC AS PAYOFF (§2 ban): '47.5 MILLION PEOPLE AGREED' — the 47.5M is a view count, not an agreement count. The doctrine explicitly bans 'views' as the hook's payoff ('THE SCREENSHOT HAS 40K LIKES is the failure model'). The hook's entire dramatic weight rests on this number. Fix: restructure around the conflict-of-interest fact — e.g., 'ELON MUSK REVIEWED HIS OWN SATELLITE I"
- },
- {
-  "t": "2026-09-19T00:28:21Z",
-  "gate": "B",
-  "subject": "ELON MUSK GRADED HIS OWN HOMEWORK ON HIS OWN APP. <em>47.5 MILLION WATCHED.</em>",
-  "verdict": "REJECT",
-  "reason": "Caption opens with a 🛰️ emoji after the first paragraph — §4 and §7 both explicitly ban emojis in the writing. Remove it. One character, one second to fix."
- },
- {
-  "t": "2026-09-19T00:30:21Z",
-  "gate": "B",
-  "subject": "ELON MUSK GRADED HIS OWN HOMEWORK ON HIS OWN APP. <em>47.5 MILLION WATCHED.</em>",
-  "verdict": "REJECT",
-  "reason": "Hook's closing sentence ('47.5 MILLION WATCHED') uses a view count as a payoff beat — engagement metrics are banned in any hook per §2. Fix: drop it or replace with a real-world consequence ('CABLE COMPANIES SPENT THE WEEKEND WRITING REBUTTALS').; Caption paragraph 2 fails the Friend Test (§4): 'at least one of the sources isn't the person trying to sell you the thing' is logic-puzzle phrasing no "
- },
- {
-  "t": "2026-09-19T00:31:08Z",
-  "gate": "A",
-  "subject": "BREAKING: Starlink high speed internet is scaling rapidly across airline fleets. 🔥",
-  "verdict": "KILL",
-  "reason": "NO SUBSTANCE: the source contains zero specifics—no airlines named, no numbers, no announced milestone or date—and 'scaling rapidly' is vague corporate language that masks what actually happened; the writer would have to fabricate details to fill slides rather than building from a real story."
- },
- {
-  "t": "2026-09-19T00:31:26Z",
-  "gate": "A",
-  "subject": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings",
-  "verdict": "KILL",
-  "reason": "This is a launch preview in its empty form—a product announcement with no demo or consequence. Releasing a tool variant is routine business, not a major move the page exists to cover."
- },
- {
-  "t": "2026-09-19T00:31:26Z",
-  "gate": "A",
-  "subject": "JUST IN: Warren Buffet officially steps down as Chairman of Berkshire Hathaway.",
-  "verdict": "KILL",
-  "reason": "Off-brand: Berkshire Hathaway leadership is finance news, not tech/AI."
- },
- {
-  "t": "2026-09-19T00:32:01Z",
-  "gate": "A",
-  "subject": "Tesla doing Cybercab and Model Y Robotaxi training with first responders. You can see them learning how to move the Cybe",
-  "verdict": "KILL",
-  "reason": "Routine training activity without evidence this is a feature debut or unprecedented first-responder milestone; story qualifies only if Tesla is publicly demonstrating joystick control for the first time, but the thin source and 5/10 scout interest suggest procedural content, not news."
- },
- {
-  "t": "2026-09-19T00:33:06Z",
-  "gate": "A",
-  "subject": "V2 of the @Starlink direct-to-phone satellite constellation is a giant improvement over V1 with 100 times more bandwidth",
-  "verdict": "KILL",
-  "reason": "Specification claim with no demonstration, rollout date, or consequence — the banned empty launch preview that fails the 'did reality move' test required for news."
- },
- {
   "t": "2026-09-19T00:33:09Z",
   "gate": "A",
   "subject": "JUST IN: 🇺🇸 SEC approves limited trading of tokenized stocks on-chain under temporary exemption.",
@@ -2096,6 +1977,125 @@
   "t": "2026-09-24T20:22:22Z",
   "gate": "R",
   "subject": "CRISPR JUST GOT A SECRET TWIN, FOUND BY <em>950 AI AGENTS</em> IN <em>21 HOURS</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-24T23:21:40Z",
+  "gate": "A",
+  "subject": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene s",
+  "verdict": "AUTO_APPROVE",
+  "reason": "scout interest 8/10 — news-first fast lane"
+ },
+ {
+  "t": "2026-09-24T23:23:09Z",
+  "gate": "A",
+  "subject": "Meta has just unveiled their new VR glasses. • Price: $1,299 • Available Spring 2027 • Weight: 100 grams, about the weig",
+  "verdict": "KILL",
+  "reason": "A specs-and-date launch preview for a future-date product fails the standard—product posts require actual release or demonstration."
+ },
+ {
+  "t": "2026-09-24T23:34:15Z",
+  "gate": "A",
+  "subject": "Here we go: Sonnet 5.5 already being stealth tested. The model has a 1M-token context window and a 128K-token maximum ou",
+  "verdict": "KILL",
+  "reason": "Stealth-test specs for an unreleased product with no demo shown match the banned launch-preview format; news only when officially released or demonstrated."
+ },
+ {
+  "t": "2026-09-24T23:34:52Z",
+  "gate": "A",
+  "subject": "Meta has just unveiled their new VR glasses. • Price: $1,299 • Available Spring 2027 • Weight: 100 grams, about the weig",
+  "verdict": "KILL",
+  "reason": "Launch preview (date + spec sheet for spring 2027 release) fits the banned empty-form category—the doctrine reserves slots for household-name announcements that are actually RELEASING or DEMONSTRATING with immediate impact; a future-date specs announcement lacks the jaw-dropping element that drives shares."
+ },
+ {
+  "t": "2026-09-24T23:35:27Z",
+  "gate": "A",
+  "subject": "Grok @Bot usage is growing faster than anything we’ve ever seen",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet with zero numbers, zero context, no verifiable fact, and no consequence; writer would pad to fill slides with unsubstantiated product PR."
+ },
+ {
+  "t": "2026-09-24T23:35:35Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "Bernie Sanders' secondhand, unverified claim about an alleged OpenAI hacking incident has no source confirmation or independent verification—this is reaction-bait (viral engagement around an unconfirmed story), not reality-moved news."
+ },
+ {
+  "t": "2026-09-24T23:36:07Z",
+  "gate": "A",
+  "subject": "Meta is on fire today 🔥 They just announced its new VR Glasses. Basically an Apple Vision Pro-like experience JAMMED int",
+  "verdict": "KILL",
+  "reason": "This is the banned form of launch preview—a future date (Spring 2027) and spec sheet (100g, Micro-OLED, $1,299) with no demo shown; household-name exception requires actual release or demonstration, not announcement."
+ },
+ {
+  "t": "2026-09-24T23:54:35Z",
+  "gate": "B",
+  "subject": "META'S NEW $1,299 VR GLASSES <em>WEIGH 100 GRAMS</em> AND DIE BEFORE AN NFL GAME ENDS",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — THUMB TEST FAIL: The image is an extreme macro of dark mesh/fabric texture shot in near-darkness. At feed size this reads as abstract shadow — a stranger cannot identify it as VR glasses, a tech product, or anything Meta-related. The correct archetype for this story is 'product huge in its world' (the actual glasses, clearly readable, with Meta branding in frame). The current image h"
+ },
+ {
+  "t": "2026-09-24T23:56:23Z",
+  "gate": "B",
+  "subject": "META'S NEW $1,299 VR GLASSES <em>DIE BEFORE AN NFL GAME ENDS</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS THE THUMB TEST — FATAL: The image is an extreme macro close-up of the glasses' mesh fabric shot in near-total darkness. At feed size, a scrolling stranger sees a shoe, a car seat, or a speaker grille — nothing tells them 'VR glasses' or 'Meta.' The image proves zero words of the headline. Per IMAGE LAW, the cover must be proof of the story seen in half a second; this is abstract "
+ },
+ {
+  "t": "2026-09-24T23:57:27Z",
+  "gate": "B",
+  "subject": "META'S NEW $1,299 VR GLASSES <em>DIE BEFORE AN NFL GAME ENDS</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS THE THUMB TEST — CATASTROPHICALLY. The image is a near-black macro close-up of dark mesh fabric. At feed size, a stranger sees abstract texture and dark tones. Nobody reads 'Meta VR glasses dying before an NFL game ends' from this. The doctrine's product-launch archetype requires 'the product huge in its world.' This image does not show the product in any recognizable form — no g"
+ },
+ {
+  "t": "2026-09-24T23:58:36Z",
+  "gate": "A",
+  "subject": "Here we go: Sonnet 5.5 already being stealth tested. The model has a 1M-token context window and a 128K-token maximum ou",
+  "verdict": "KILL",
+  "reason": "Launch preview with no demo or public release—stealth testing is internal development, not a consequential public event with real-world outcome."
+ },
+ {
+  "t": "2026-09-24T23:58:37Z",
+  "gate": "A",
+  "subject": "Grok @Bot usage is growing faster than anything we’ve ever seen",
+  "verdict": "KILL",
+  "reason": "A routine metric claim with zero numbers, specifics, or consequence—no actual event where something moved or changed."
+ },
+ {
+  "t": "2026-09-24T23:58:59Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "Misinformation with no verifiable event: the claim about AI agents discovered in an OpenAI hack appears fabricated, the source material is incomplete and terminates mid-sentence, and there are no verifiable facts, consequences, or second sources to build slides from."
+ },
+ {
+  "t": "2026-09-25T00:17:33Z",
+  "gate": "B",
+  "subject": "CLAUDE JUST SNUCK A <em>1-MILLION-TOKEN</em> MODEL INTO THE API WITHOUT ANNOUNCING IT",
+  "verdict": "REJECT",
+  "reason": "NO COVER IMAGE (IMAGE LAW, §3, absolute): cover_has_image is false. The Doctrine states 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' There is no exception clause. Fix: a cover image must be supplied before this post can go live — a photoreal composite of an Anthropic/Claude brand mark with a visually suggested hidden/unlisted element (e.g.,"
+ },
+ {
+  "t": "2026-09-25T00:19:30Z",
+  "gate": "B",
+  "subject": "CLAUDE JUST SNUCK A <em>1-MILLION-TOKEN</em> MODEL INTO THE API WITHOUT ANNOUNCING IT",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW FATAL: cover_has_image is false. The Doctrine is unambiguous — 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a single-picture post, so 'zero images existed anywhere' does not apply as an exception. Fix: generate a photoreal cover — e.g., a tight cutout of the Claude logo disc floating over an oversized API console screen sh"
+ },
+ {
+  "t": "2026-09-25T00:21:02Z",
+  "gate": "B",
+  "subject": "CLAUDE JUST SNUCK A <em>1-MILLION-TOKEN</em> MODEL INTO THE API WITHOUT ANNOUNCING IT",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW HARD FAIL (§3): cover_has_image is false — no image exists on the cover. §3 is unambiguous: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The prompt warning confirms this alone is a REJECT. This story has an obvious cover concept: a photoreal collage of the Anthropic/Claude brand mark as a giant floating disc, an API receipt card s"
+ },
+ {
+  "t": "2026-09-25T00:21:23Z",
+  "gate": "R",
+  "subject": "CLAUDE JUST SNUCK A <em>1-MILLION-TOKEN</em> MODEL INTO THE API WITHOUT ANNOUNCING IT",
   "verdict": "PASS",
   "reason": ""
  }

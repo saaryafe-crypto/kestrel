@@ -1,59 +1,59 @@
 {
- "ts": 1790199699.4014482,
- "updated": "2026-09-23",
+ "ts": 1790291964.0705087,
+ "updated": "2026-09-24",
  "hot": [
   {
-   "name": "Sadie Sink",
-   "why_hot_now": "Stars in Spider-Man: Brand New Day (2026's highest-grossing film at $2.46B) and is simultaneously the face of Calvin Klein's viral fall denim campaign.",
-   "typical_scene": "red curls, wet denim, staring down the camera"
+   "name": "Spider-Man: Brand New Day",
+   "why_hot_now": "Still the #1 film in its sixth weekend, having shattered the all-time domestic opening record and crossing $900M+ at the US box office.",
+   "typical_scene": "midnight screening crowd in Spidey suits, phones up filming"
   },
   {
-   "name": "Zendaya",
-   "why_hot_now": "Plays a scene-stealing mythological role in Christopher Nolan's The Odyssey, which crossed $1.72B globally and has a 94% on Rotten Tomatoes.",
-   "typical_scene": "glowing as Circe amid Nolan's IMAX ancient epic"
+   "name": "Charli XCX",
+   "why_hot_now": "Her Music, Fashion, Film North American arena tour launched September 11 in Philadelphia with sold-out dates through October.",
+   "typical_scene": "front row in silver minidress screaming brat lyrics under strobes"
   },
   {
-   "name": "Tom Holland",
-   "why_hot_now": "Co-leads The Odyssey, cementing his status as a serious dramatic lead far beyond his Spider-Man identity.",
-   "typical_scene": "leather-armored on a storm-battered ancient Greek warship"
-  },
-  {
-   "name": "Matt Damon",
-   "why_hot_now": "Plays Odysseus in The Odyssey, his biggest pop-culture moment in over a decade with a $1.72B blockbuster.",
-   "typical_scene": "salt-weathered Odysseus at the helm of his ship"
-  },
-  {
-   "name": "Robert Pattinson",
-   "why_hot_now": "His A24 film Primetime — playing Chris Hansen from To Catch a Predator — opens in theaters September 25, the real Chris Hansen called him 'overly dramatic'.",
-   "typical_scene": "awkwardly perched across a table from a caught predator"
+   "name": "Olivia Rodrigo",
+   "why_hot_now": "Her fall North American arena tour is selling out stadiums throughout September.",
+   "typical_scene": "entire crowd crying and singing every word under purple lights"
   },
   {
    "name": "Jeremy Allen White",
-   "why_hot_now": "The Bear just confirmed it ends with Season 5, AND he's in active promo for The Social Reckoning (Social Network sequel) dropping October 9.",
-   "typical_scene": "intense in chef whites staring at a ruined dish"
+   "why_hot_now": "The Bear's latest season is streaming now and his omnipresent Calvin Klein campaigns keep him in feeds.",
+   "typical_scene": "sweaty chef coat, shouting in a cramped restaurant kitchen"
   },
   {
-   "name": "Tom Cruise",
-   "why_hot_now": "Attended the royal London premiere of his film Digger alongside Prince William and Kate Middleton this week.",
-   "typical_scene": "grinning on a red carpet flanked by the royals"
+   "name": "Jay-Z",
+   "why_hot_now": "HBO's deep-dive docuseries JAŸ-Z in 8 premiered this month to massive cultural conversation.",
+   "typical_scene": "grainy archive footage in a recording booth, headphones around his neck"
   },
   {
-   "name": "Katseye",
-   "why_hot_now": "Their Wildworld Tour — their first-ever arena headlining run — is live now, with North American dates imminent after sold-out European kick-off.",
-   "typical_scene": "six members in sync under arena lights, first world tour"
+   "name": "Bruno Mars",
+   "why_hot_now": "Headlined a massive stadium event at Hard Rock Stadium in Miami on September 19.",
+   "typical_scene": "sequined suit spinning under a giant disco ball, 60,000 fans screaming"
+  },
+  {
+   "name": "Jools Lebron",
+   "why_hot_now": "Ongoing viral presence keeps her at the center of gen-Z culture and brand deals this fall.",
+   "typical_scene": "camera tilting up, very demure very mindful voiceover to camera"
+  },
+  {
+   "name": "Monster (Ryan Murphy)",
+   "why_hot_now": "Netflix's new Monster installment focused on Lizzie Borden dropped in September and is trending #1 on the platform.",
+   "typical_scene": "true-crime binge-watch on a laptop at 2am in the dark"
   }
  ],
  "memes": [
-  "Jimothy the raccoon: Seattle's famously chonky, unbothered raccoon photoshopped into increasingly unhinged situations",
-  "Saxophone Gets Louder: video/audio format where a sax progressively drowns everything else out for maximum dramatic escalation",
-  "'My American Girl Doll': using a childhood clip of kid Angelo introducing his doll with maximum joy to describe something completely mundane",
-  "Erling Haaland sprinting: FIFA World Cup 2026 screenshot of Haaland in full stride edited into random unrelated scenarios",
-  "'2026 is the new 2016': TikTok nostalgia wave recreating bottle flips, mannequin challenges, and dabbing as if rediscovering them fresh"
+  "Saxophone Gets Louder: video starts completely normal then a full-blast sax erupts while the frame zooms into total chaos",
+  "KitKat Heist: elaborate Ocean's Eleven-style fantasies about whoever masterminded stealing 400,000 KitKat bars across Europe",
+  "Jimothy the Raccoon: Seattle's famously wide, unbothered raccoon becomes an unlikely internet celebrity with fan edits and tribute accounts",
+  "Tornado Squirrel: the classic squirrel-in-a-storm image resurfaces in a massive September wave across X and TikTok",
+  "2026 is the new 2016: gen-Z ironic-nostalgia side-by-sides comparing 2016 chaos memes to equally unhinged 2026 equivalents"
  ],
  "ai_flagships": [
   "Claude Opus 5.5",
   "GPT-6 Astra",
-  "Gemini 3.8 Flash",
+  "Gemini 3.1 Pro Preview",
   "Grok 4.7",
   "Muse Spark 1.3"
  ]

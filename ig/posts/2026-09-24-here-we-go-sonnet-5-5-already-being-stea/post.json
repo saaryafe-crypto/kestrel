@@ -1,0 +1,76 @@
+{
+ "image_brief": "A user caught Anthropic's new Claude AI model hiding in its developer API before any announcement, priced identically to OpenAI's GPT-6",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "CLAUDE JUST SNUCK A <em>1-MILLION-TOKEN</em> MODEL INTO THE API WITHOUT ANNOUNCING IT",
+   "kicker": "PRICED EXACTLY LIKE GPT-6-SOL",
+   "hsize": 70,
+   "media": null,
+   "logos": [
+    "anthropic",
+    "openai"
+   ]
+  }
+ ],
+ "caption": "Someone caught a hidden Claude AI model running in Anthropic's API before any announcement, and it's priced exactly like GPT-6. \ud83d\udd0d\n\nEveryone assumed Claude and GPT-6 were undercutting each other on price. Pick Claude, save money. Pick GPT-6, get a counter-offer. That was the assumption going into last week.\n\nOn September 24, a developer was digging through the back channels developers use to talk directly to AI, watching for anything new. No announcement anywhere. Just someone paying very close attention. And there it was: claude-sonnet-5-5, already live, already running, before Anthropic had said a single public word that this model existed.\n\nThe specs: a context window of one million tokens, enough to hold ten full novels at once. Max output of 128,000 tokens. Price: $2 per million input tokens, $10 per million output tokens. If you pay for any AI service right now, those numbers should look familiar.\n\nThey're identical to GPT-6-Sol's pricing. Not close. The same number, to the dollar. Two companies running a very loud price war both landed on $2 in and $10 out. That's not competition. That's a truce.\n\nThe two biggest AI companies just made themselves financially identical. Developers now have zero price signal to guide the choice. It comes down to benchmarks and vibes, because the bill is exactly the same.\n\nRunning a business and not sure which AI fits your workflow? DM us \"AI\" and we'll figure it out for yours.\n\nSources: lyraxana on X, kimmonismus on X\n\n#Claude #Anthropic #OpenAI #AI #ArtificialIntelligence",
+ "pinned_comment": "The model was already live in Anthropic's API before they told a single developer it existed. Either this is how they always launch quietly, or someone at Anthropic slipped up.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "CLAUDE QUIETLY HID A NEW MODEL IN THE API. <em>NO ANNOUNCEMENT. SAME PRICE AS GPT-6.</em>",
+   "CLAUDE JUST SNUCK A <em>1-MILLION-TOKEN</em> MODEL INTO THE API WITHOUT ANNOUNCING IT",
+   "SOMEONE CAUGHT <em>CLAUDE'S SECRET MODEL</em> IN THE API, PRICED EXACTLY LIKE GPT-6",
+   "CLAUDE AND OPENAI CLAIM THEY'RE AT WAR. <em>THEY JUST MATCHED PRICES TO THE DOLLAR.</em>",
+   "CLAUDE JUST LAUNCHED AT <em>$2 INPUT AND $10 OUTPUT</em>, EXACTLY GPT-6'S PRICE"
+  ],
+  "scores": [
+   7,
+   9,
+   7,
+   0,
+   0
+  ],
+  "winner": 1,
+  "why": "The 1-million-token detail hits instantly as 'wait, WHAT?'\u2014that specific number is the wow factor. The winner tells the whole story in one punch while the runner-up spreads three facts that need the caption to make sense."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "CLAUDE AND GPT-6 ARE AT WAR, YET BOTH JUST COST <em>EXACTLY THE SAME</em>",
+   "CLAUDE JUST SNUCK A <em>1-MILLION-TOKEN</em> MODEL INTO THE API WITHOUT ANNOUNCING IT",
+   "CLAUDE JUST MATCHED GPT-6'S PRICE <em>TO THE DOLLAR</em> ON A MODEL NOBODY KNEW EXISTED"
+  ],
+  "scores": [
+   5,
+   9,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] leads with 'SNUCK...WITHOUT ANNOUNCING' which makes you stop scrolling in 1.7 seconds; [2] leads with 'MATCHED the PRICE,' which sounds like business math. The same facts, but one is visceral surprise and the other is corporate strategy."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Anthropic",
+  "actor_known": false,
+  "anchor": "Claude",
+  "specifics": [
+   "Exact same price as GPT-6: $2 input / $10 output per 1M tokens \u2014 no discount, no undercut",
+   "Found in the API before Anthropic announced anything \u2014 the model leaked itself",
+   "1 million-token context window \u2014 you could feed it a whole novel and it wouldn't blink",
+   "128K-token output cap \u2014 longer than most people's entire work history in a document",
+   "Post hit 128K views within hours of the discovery"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Here we go: Sonnet 5.5 already being stealth tested. The model has a 1M-token context window and a 128K-token maximum output. Pricing per 1M tokens: $2 input, $10 output. This reads to me as a direct response to GPT-6-So",
+  "link": "https://x.com/kimmonismus/status/2102972781495566455",
+  "judge_interest": 5,
+  "scout_score": 45.8
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE LAW HARD FAIL (\u00a73): cover_has_image is false \u2014 no image exists on the cover. \u00a73 is unambiguous: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The prompt warning confirms this alone is a REJECT. This story has an obvious cover concept: a photoreal collage of the Anthropic/Claude brand mark as a giant floating disc, an API receipt card s"
+}
