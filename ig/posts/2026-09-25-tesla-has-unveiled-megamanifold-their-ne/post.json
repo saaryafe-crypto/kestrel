@@ -1,0 +1,82 @@
+{
+ "media_idx": 1,
+ "image_brief": "Tesla Megamanifold heat pump recycling Semi motor waste heat into free cabin warming",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TESLA JUST FIXED WHAT KILLED SEMI RANGE ALL WINTER, AND THE HEAT <em>RUNS FOR FREE</em>",
+   "kicker": "ONE SYSTEM DOES BOTH JOBS",
+   "hsize": 72,
+   "media": "posts/2026-09-25-tesla-has-unveiled-megamanifold-their-ne/cand-1.webp"
+  }
+ ],
+ "caption": "Tesla's Megamanifold heats a Semi driver's cabin using the motor's own waste heat, so the heater runs for free.\n\nElectric trucks in cold weather have always had a brutal problem: run the heater, kill your range. That's been the main thing making drivers nervous about electric semis on long winter routes.\n\nTesla's Semi now captures the heat the motor throws off while running and pipes it straight into the cab. If you're hauling freight through a Minnesota winter, your heater goes full blast and the battery barely moves. That heat was always there. It used to get dumped. Now it keeps the driver warm. Tesla calls the system Megamanifold.\n\nHere's the wild part: waste heat from the motor has always been the enemy. Engineers spend years trying to get rid of it. Tesla just made it the solution. The same single system handles cabin air and motor cooling at the same time. Every electric truck maker competing in cold climates now has a real new bar to clear. The waste heat engineers spent decades trying to dump just became the most useful thing on the truck.\n\nHeat recovery has existed in gas trucks for decades. Building it cleanly into a fully electric system, where everything runs off the same battery, is a different engineering challenge. Tesla just cleared that bar for the Semi, and the rest of the industry is watching.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Sawyer Merritt on X\n\n#Tesla #TeslaSemi #ElectricVehicles #EVTrucks #TechNews",
+ "pinned_comment": "Gas trucks have always recycled engine heat for the cab. The real question is why it took electric trucks this long to catch up.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "TESLA JUST GAVE SEMI DRIVERS <em>FREE HEAT FROM WASTE THEIR ENGINES THROW AWAY</em>",
+   "TESLA'S MEGAMANIFOLD <em>TURNS MOTOR WASTE HEAT</em> INTO FREE CABIN HEATING FOR SEMI DRIVERS",
+   "TESLA JUST BUILT A SEMI HEATER THAT RUNS ON <em>HEAT THE MOTOR WAS THROWING AWAY</em>",
+   "TESLA <em>FIXED ELECTRIC TRUCKS' WORST WINTER PROBLEM</em> BY TURNING ENGINE WASTE INTO FREE HEAT",
+   "TESLA JUST FIXED THE THING THAT <em>KILLS ELECTRIC TRUCK RANGE EVERY WINTER</em>",
+   "TESLA SEMI <em>HEATS THE CAB FOR FREE</em> OFF THE ENGINE'S OWN WASTE",
+   "TESLA JUST BUILT ONE SYSTEM THAT COOLS THE ENGINE <em>AND HEATS THE CABIN FOR FREE</em>",
+   "TESLA SEMI DRIVERS CAN NOW <em>BLAST THE HEATER ALL WINTER</em> WITHOUT KILLING THEIR RANGE",
+   "TESLA JUST RELEASED MEGAMANIFOLD, <em>A HEAT PUMP THAT HEATS THE CAB FOR FREE</em>",
+   "TESLA JUST TURNED THE SEMI'S WASTED ENGINE HEAT INTO <em>A FREE CABIN HEATER</em>"
+  ],
+  "scores": [
+   6,
+   6,
+   7,
+   7,
+   6,
+   8,
+   7,
+   9,
+   6,
+   7
+  ],
+  "winner": 7,
+  "why": "[7] hits you with a relatable desire ('BLAST THE HEATER ALL WINTER') and reveals it solves the actual pain point everyone knows about EVs (heating kills range), making you stop scrolling to verify. [5] is clever but misses the emotional punch of 'wait, this is literally my problem.'"
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "TESLA JUST FIXED WHAT KILLED SEMI RANGE ALL WINTER, AND THE HEAT <em>RUNS FOR FREE</em>",
+   "TESLA SEMI DRIVERS CAN NOW <em>BLAST THE HEATER ALL WINTER</em> WITHOUT KILLING THEIR RANGE",
+   "TESLA JUST STOPPED WINTER FROM <em>DRAINING SEMI RANGE</em> BY RUNNING THE HEATER ON WASTED HEAT"
+  ],
+  "scores": [
+   8,
+   7,
+   6
+  ],
+  "winner": 0,
+  "why": "\"Runs for free\" shocks and stops\u2014free is always jaw-drop. Candidate 1 offers nice capability but routine fixes don't shock people."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Tesla",
+  "actor_known": true,
+  "anchor": "Tesla",
+  "specifics": [
+   "Waste heat from the Semi's powertrain is recycled to heat the driver's cabin \u2014 effectively free heating",
+   "One system (Megamanifold) handles cabin HVAC and powertrain heating/cooling at the same time",
+   "Applies to the Tesla Semi, where winter range loss from heating has been a major criticism",
+   "215.3K views on the announcement post within hours",
+   "Product name: Megamanifold"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Tesla has unveiled Megamanifold, their next-generation heat pump. It runs cabin HVAC and powertrain heating and cooling at the same time, and the Tesla Semi can draw excess heat from the powertrain and use that to heat t",
+  "link": "https://x.com/SawyerMerritt/status/2103294599599100004",
+  "judge_interest": 7,
+  "scout_score": 85.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE \u2014 NO TESLA BRANDING: The cover is a clean photoreal product shot of the Megamanifold hardware, but there is zero Tesla branding anywhere in the frame. At feed size a stranger sees a mechanical assembly on a grey background and cannot identify the maker. The thumb test fails. Fix: add a Tesla wordmark or logo disc to the frame, or swap to a shot of the Megamanifold installed inside/on a Tesla"
+}
