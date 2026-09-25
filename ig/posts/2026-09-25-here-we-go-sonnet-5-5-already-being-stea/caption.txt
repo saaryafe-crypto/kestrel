@@ -1,0 +1,17 @@
+Anthropic's next AI model was found hiding in its own live system before any announcement, and it costs exactly the same as OpenAI's.
+
+Everyone figured GPT-6-Sol had pulled ahead. It was already out there. Anthropic was quiet.
+
+Then a person named lyra was poking around Anthropic's live system on September 24 and found something Anthropic hadn't said a word about: a model called claude-sonnet-5-5. It was just there, running in the background. She posted it before anyone could say anything, and the secret was out.
+
+The model holds 1 million tokens of context at once. That's enough to load your entire company's documents, every email, every contract, every policy file, all at the same time. And then the price came into focus: $2 per million words going in, $10 per million words coming out. The exact same numbers as GPT-6-Sol. Not roughly the same. To the cent.
+
+Here's the weird part: two of the most powerful AI companies in the world apparently built their pricing completely independently and landed in the exact same spot. That's either a coincidence or the two companies are watching each other so closely neither dares to charge a penny more. Either way, if you pay for any AI tool right now, two well-funded giants are in a dead-heat race to give you more for less, and neither can afford to blink first.
+
+This isn't really a price war anymore. It's a mirror. Both companies are spending heavily to own your workflow, and the fact that they're charging the exact same amount makes it genuinely hard to know who's winning.
+
+Running a business? DM us "AI" and we'll show you which of these two is actually worth switching to for your use case.
+
+Sources: kimmonismus on X, lyraxana on X
+
+#AI #Claude #Anthropic #ChatGPT #ArtificialIntelligence

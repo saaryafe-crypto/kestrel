@@ -1,0 +1,84 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "CHATGPT'S RIVAL QUIETLY DEPLOYED AN AI THAT <em>HOLDS A MILLION TOKENS AT ONCE</em>",
+   "kicker": "PRICED EXACTLY LIKE ITS ENEMY",
+   "hsize": 72,
+   "media": null,
+   "logos": [
+    "anthropic",
+    "openai"
+   ]
+  }
+ ],
+ "caption": "Anthropic's next AI model was found hiding in its own live system before any announcement, and it costs exactly the same as OpenAI's.\n\nEveryone figured GPT-6-Sol had pulled ahead. It was already out there. Anthropic was quiet.\n\nThen a person named lyra was poking around Anthropic's live system on September 24 and found something Anthropic hadn't said a word about: a model called claude-sonnet-5-5. It was just there, running in the background. She posted it before anyone could say anything, and the secret was out.\n\nThe model holds 1 million tokens of context at once. That's enough to load your entire company's documents, every email, every contract, every policy file, all at the same time. And then the price came into focus: $2 per million words going in, $10 per million words coming out. The exact same numbers as GPT-6-Sol. Not roughly the same. To the cent.\n\nHere's the weird part: two of the most powerful AI companies in the world apparently built their pricing completely independently and landed in the exact same spot. That's either a coincidence or the two companies are watching each other so closely neither dares to charge a penny more. Either way, if you pay for any AI tool right now, two well-funded giants are in a dead-heat race to give you more for less, and neither can afford to blink first.\n\nThis isn't really a price war anymore. It's a mirror. Both companies are spending heavily to own your workflow, and the fact that they're charging the exact same amount makes it genuinely hard to know who's winning.\n\nRunning a business? DM us \"AI\" and we'll show you which of these two is actually worth switching to for your use case.\n\nSources: kimmonismus on X, lyraxana on X\n\n#AI #Claude #Anthropic #ChatGPT #ArtificialIntelligence",
+ "pinned_comment": "The part that's hard to explain: two companies built their entire pricing strategies completely independently and both landed on $2 in, $10 out per million words. At what point does 'competition' start looking like something else?",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "CHATGPT'S BIGGEST RIVAL GOT CAUGHT SECRETLY TESTING AN AI <em>WITH A 1-MILLION-WORD MEMORY</em>",
+   "A STRANGER CAUGHT <em>CHATGPT'S RIVAL</em> RUNNING AN UNANNOUNCED AI WITH A MILLION-WORD MEMORY",
+   "CHATGPT'S RIVAL GOT CAUGHT <em>TESTING A SECRET AI</em> THAT MATCHES OPENAI'S PRICE TO THE CENT",
+   "CHATGPT'S BIGGEST RIVAL FIRED BACK AT OPENAI <em>WITH AN IDENTICAL PRICE</em> \u2014 IN SECRET",
+   "CHATGPT'S BIGGEST RIVAL <em>SECRETLY TESTED ITS NEXT AI</em> AND GOT CAUGHT BEFORE SAYING A WORD",
+   "CHATGPT'S BIGGEST RIVAL JUST MATCHED OPENAI'S EXACT PRICING <em>AND LAUNCHED IT IN SECRET</em>",
+   "CHATGPT'S BIGGEST RIVAL HID A NEW AI IN THE CODE \u2014 <em>USERS FOUND IT FIRST</em>",
+   "CHATGPT'S BIGGEST RIVAL BUILT AN AI <em>THAT WRITES A FULL NOVEL IN ONE RESPONSE</em>",
+   "SOMEONE FOUND <em>CHATGPT'S BIGGEST RIVAL</em> HIDING A NEW AI IN ITS OWN SYSTEM"
+  ],
+  "scores": [
+   7,
+   8,
+   9,
+   7.5,
+   8,
+   8,
+   8.5,
+   6.5,
+   7
+  ],
+  "winner": 2,
+  "why": "[2]'s 'to the cent' is the most immediately shocking specific detail, creating an instant 'wait what?' moment that stops scrolling cold. [6] has a complete story with great human elements, but a technical discovery can't match the visceral impact of exact-match pricing that screams something's wrong."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "CHATGPT'S RIVAL GOT CAUGHT <em>TESTING A SECRET AI</em> THAT MATCHES OPENAI'S PRICE TO THE CENT",
+   "A STRANGER CAUGHT CHATGPT'S RIVAL HIDING A NEW AI <em>BEFORE THE ANNOUNCEMENT</em>",
+   "CHATGPT'S RIVAL SECRETLY TESTED AN AI THAT <em>HOLDS A MILLION WORDS AT ONCE</em>",
+   "CHATGPT'S RIVAL MATCHED OPENAI'S EXACT PRICE <em>ON AN AI NOBODY KNEW EXISTED</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   8.5,
+   7.5
+  ],
+  "winner": 2,
+  "why": "Million words at once delivers the shocking capability in one phrase\u2014you immediately get the wow factor without context. Got caught drama is close, but a concrete, tangible spec number beats narrative intrigue for stopping the scroll."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Anthropic",
+  "actor_known": false,
+  "anchor": "ChatGPT's biggest rival",
+  "specifics": [
+   "1-million-token context window \u2014 enough to hold several full-length novels or an entire codebase at once",
+   "Pricing perfectly matches OpenAI's GPT-6-Sol: $2 input / $10 output per million tokens",
+   "Found secretly live in the API before any announcement \u2014 users caught it first",
+   "128K-token maximum output in a single response",
+   "Model ID already active: claude-sonnet-5-5"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Here we go: Sonnet 5.5 already being stealth tested. The model has a 1M-token context window and a 128K-token maximum output. Pricing per 1M tokens: $2 input, $10 output. This reads to me as a direct response to GPT-6-So",
+  "link": "https://x.com/kimmonismus/status/2102972781495566455",
+  "judge_interest": 5,
+  "scout_score": 45.8
+ },
+ "editor_override": "COVER HAS NO IMAGE \u2014 direct violation of \u00a73 IMAGE LAW: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a single-picture post; the picture IS the post. Fix: supply a photoreal cover built to the product/company archetype \u2014 Dario Amodei real press photo or the Claude logo mark oversized against a colorful story-world background, with a b"
+}
