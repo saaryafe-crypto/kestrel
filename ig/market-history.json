@@ -1,23 +1,8 @@
 [
  {
-  "page": "wired",
-  "hook": "\"The events and aftermath of 9/11 altered almost every aspect of American society: from the ever-present security theater of daily life\u2014the 3.4-ounce liquid bottles at airports, the defensive bollards that now dominate s",
-  "date": "2026-09-11"
- },
- {
   "page": "mashable",
   "hook": "\"Mashable Senior Editor Shannon Connellan sat down with Andrew Garfield, in the historic Charterhouse in London, to unpack the meaning of the 'no kings' lie in 'The Uprising.' \u2060\n#SayMore #TheUprising\".",
   "date": "2026-09-12"
- },
- {
-  "page": "mashable",
-  "hook": "\"TV's buzziest friend group gives us the adulthood advice we so desperately need. #adults #adultsfx #streaming\".",
-  "date": "2026-09-11"
- },
- {
-  "page": "futurism",
-  "hook": "\"Generative AI has infiltrated almost every aspect of our daily lives, whether we like it or not.\n\nIt\u2019s nearly impossible to avoid on social media, and it\u2019s even showing up on dinner menus at the local diner. Some resear",
-  "date": "2026-09-11"
  },
  {
   "page": "wired",
@@ -28,26 +13,6 @@
   "page": "wired",
   "hook": "\"Panic over AI technology\u2019s dangers has intensified in recent weeks. Genuinely stunning advances in AI capabilities\u2014an OpenAI model solved a centuries-old math problem in a matter of hours\u2014have come amid a rash of securi",
   "date": "2026-09-12"
- },
- {
-  "page": "wired",
-  "hook": "\"WIRED reported in June that code for NameTag had been secretly embedded in the Meta glasses AI companion app, which had been downloaded more than 50 million times. While the feature had not been enabled for users of the",
-  "date": "2026-09-11"
- },
- {
-  "page": "wired",
-  "hook": "\"For most of 2026, a rumor has consumed the world of UFOlogy: President Trump is sitting on a finished speech confirming humanity isn't alone. Whether the \u201cdisclosure speech\u201d actually exists is a topic of rabid discussio",
-  "date": "2026-09-11"
- },
- {
-  "page": "wired",
-  "hook": "\"Just a couple of years ago, hearing the term \u201cdata center\u201d wouldn\u2019t have struck a nerve with most Americans. Now, mention the noisy oversized warehouses and you\u2019ll spark a fierce debate. The infrastructure powering the ",
-  "date": "2026-09-11"
- },
- {
-  "page": "wired",
-  "hook": "\"For one day in Wynwood, Miami, WIRED World Fair, presented by Chase Sapphire Reserve for Business, brings together the technologies, people, and ideas transforming our world. See you there!\n\nTap the \ud83d\udd17 in bio for ticket ",
-  "date": "2026-09-11"
  },
  {
   "page": "technology",
@@ -643,5 +608,30 @@
   "page": "wired",
   "hook": "\"Engaged in a flirtatious conversation at a bar in Manhattan, 23-year-old Gary stood with a Guinness in hand as he explained to a woman why he took an engineering job at Palantir, the data analytics company cofounded by ",
   "date": "2026-09-24"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Despite centuries of scientific research, the human brain remains an enigma. It\u2019s made up of tens of billions of neurons, each of which can form connections to its neighbors. It\u2019s easily the most complex part of the hum",
+  "date": "2026-09-25"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"How \"Your Mother Your Mother Your Mother\" came from Blade \u2060\n#YourMotherYourMotherYourMother #movies #newmovies\".",
+  "date": "2026-09-26"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"No matter how hard he tries not to, Zuck will always out himself as uncool.\n\nIf you\u2019ve ever played a game of beer pong, you know there\u2019s one important rule to remember: your elbow cannot cross the edge of the table duri",
+  "date": "2026-09-25"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"Founders: don\u2019t rush to outsource sales.\u2060\n\u2060\nFarmboxRx founder Ashley Tyrner-Dolce learned firsthand that sometimes customers need to hear directly from the person building the company.\u2060\n\u2060\nWatch the full episode of Build",
+  "date": "2026-09-26"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"Meta\u2019s AI agent Muse stole the spotlight this week, but would you trust Meta with your entire digital life? \u2060\n\u2060\nThe Equity crew looks at the company\u2019s consumer AI ambitions and why some users (like Sean) might prefer to",
+  "date": "2026-09-25"
  }
 ]
