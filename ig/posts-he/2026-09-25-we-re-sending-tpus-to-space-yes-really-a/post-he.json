@@ -1,0 +1,88 @@
+{
+ "image_brief": "Google satellite carrying AI chips launching above Earth into orbit, with the Google logo on the hardware",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Google שיגרה לחלל: <em>כי שם אף ממשלה לא יכולה לעצור אותה</em>",
+   "kicker": "Project Suncatcher: להפעיל AI מעל לכל גבול",
+   "hsize": 72,
+   "media": "posts/2026-09-25-we-re-sending-tpus-to-space-yes-really-a/cand-1.webp",
+   "image_prompt": "A giant Google satellite carrying AI chips launching upward and away from Earth into space."
+  }
+ ],
+ "caption": "Google שיגרה לחלל שבבי AI כי שם אף ממשלה לא יכולה לעצור אותם. הם קראו לזה \"Project Suncatcher.\"\n\nכרגע כל מה ש-AI עושה בשבילך, כל חיפוש ב-Google, כל המלצה שמגיעה אליך, רץ דרך שרתים ענקיים על פני האדמה. מדינות יכולות לדרוש גישה לשרתים האלה. מדינות יכולות לאסור אותם. חוקים חלים עליהם.\n\nאז Google לקחה את שבבי ה-AI שלה, שנקראים TPUs, חיברה אותם ללוויין ושיגרה לחלל. קודם כל, לבדוק אם השבבים שורדים שם למעלה. ואחר כך, אם הכל עובד, להפעיל AI ישירות מהחלל. מישהו הציע לקרוא לזה \"Suncatcher\" בפגישה, וכולם הנהנו.\n\nהשם לא אקראי. בחלל יש אנרגיית שמש בלי הגבלה, אפס חשבונות חשמל, ואף מדינה לא אומרת לך מה מותר. החזון: AI שיושב מעל כל גבול, מעל כל רגולטור, מעל כל ממשלה שרוצה להגביל אותו. עוד דבר אחד: Google קוראת לזה \"moonshot\" כדי לגלות אם מחשבים יכולים לשרוד בחלל. שלחנו מחשבים לחלל לפני שישים שנה.\n\nאם הניסוי יצליח, ה-AI שמחליט מה אתה רואה, אילו משרות קיימות ואיזה מידע מגיע אליך, יכול יום אחד לרוץ ממסלול בחלל, ושם אף חוק על פני האדמה לא חל עליו. זה לא ניחוש. לשם זה מוביל.\n\nכל חברת טק מנסה להפוך AI לזול ומהיר יותר. Google פשוט הוציאה את המירוץ מהפלנטה לגמרי. השאלה שאף אחד עוד לא עונה עליה: אם ה-AI החזק ביותר רץ מהחלל, מי מפקח עליו?\n\nיש לך עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה השינוי הזה אומר עבורך.\n\nמקורות: Google\n\nעקוב אחרי @ainews.israel לעוד עדכוני AI\n\n#Google #AI #Space #Technology #Satellites",
+ "pinned_comment": "השאלה האמיתית: אם AI רץ ממסלול בחלל, החוקים של איזו מדינה חלים עליו? לאף אחד אין תשובה, ואולי זו בדיוק הנקודה.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "GOOGLE JUST PUT ITS AI CHIPS IN SPACE ON A SATELLITE <em>CALLED 'SUNCATCHER'</em>",
+   "GOOGLE PUT ITS AI CHIPS IN ORBIT <em>WHERE NO GOVERNMENT CAN SHUT THEM DOWN</em>",
+   "GOOGLE JUST LAUNCHED A SATELLITE <em>TO TEST IF AI CAN RUN FROM ORBIT</em>",
+   "GOOGLE JUST PUT AI CHIPS IN SPACE. <em>THEY NAMED THE PROJECT 'SUNCATCHER.'</em>",
+   "GOOGLE LAUNCHED THE AI CHIPS BEHIND EVERY GOOGLE SEARCH <em>INTO SPACE</em>",
+   "GOOGLE JUST LAUNCHED A SATELLITE WITH AI CHIPS TO <em>RUN AI ABOVE ANY GOVERNMENT'S REACH</em>",
+   "GOOGLE ALREADY PUT AI CHIPS IN ORBIT. <em>THIS IS NOT SCIENCE FICTION.</em>",
+   "<em>GOOGLE JUST BOLTED ITS AI CHIPS TO A SATELLITE</em> AND SHOT THEM INTO ORBIT"
+  ],
+  "scores": [
+   7,
+   0,
+   6,
+   7,
+   0,
+   0,
+   8,
+   9
+  ],
+  "winner": 7,
+  "why": "'Bolted' and 'shot into orbit' trigger an immediate visceral 'WHAT???' that stops your scroll without thinking. [6]'s 'not science fiction' makes you pause and think, but kinetic verbs beat intellectual hooks at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "GOOGLE JUST PUT ITS AI IN SPACE <em>TO RUN ON UNLIMITED SUNLIGHT FOREVER</em>",
+   "<em>GOOGLE JUST BOLTED ITS AI CHIPS TO A SATELLITE</em> AND SHOT THEM INTO ORBIT",
+   "GOOGLE JUST LAUNCHED AI CHIPS INTO ORBIT <em>WHERE NO GOVERNMENT CAN REGULATE THEM</em>",
+   "GOOGLE JUST PUT AI CHIPS IN ORBIT <em>AND PLANS TO KEEP THEM THERE PERMANENTLY</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   9,
+   6
+  ],
+  "winner": 2,
+  "why": "[2]'s regulatory angle ('no government can regulate them') creates immediate alarm—the 'wait, what?' moment that makes you read—while [0]'s technical achievement is impressive but doesn't trigger that urgent need-to-know feeling."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Google",
+  "actor_known": true,
+  "anchor": "Google",
+  "specifics": [
+   "Google launched actual AI chips (TPUs) into orbit on a satellite",
+   "End goal: run machine learning infrastructure from space, potentially outside any government's reach",
+   "Project name 'Suncatcher' signals space-based solar power as the energy source — unlimited and unregulated",
+   "Announced Sep 24, 2026 — this already happened",
+   "710K people saw the tweet within hours"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (2/10)",
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "We’re sending TPUs to space (yes, really). After years of research, we’re launching a satellite to evaluate if and how Google Tensor Processing Units (TPUs) hold up in orbit. The test mission, as part of our latest moons",
+  "link": "https://x.com/Google/status/2103229008343126519",
+  "judge_interest": 7,
+  "scout_score": 69.2
+ },
+ "editor_override": "TOP-TWO-THIRDS PICTURE LAW VIOLATION (permanent owner order Sep 10): the two photoreal images — the chip close-up and the satellite-over-Earth photo — sit entirely in the bottom half of the frame. The top ~60% is text on a dark grid background. This is the literal inversion of the law: 'the cover photo is COMPOSED for the top ~62% of the frame — subject's face and the story's proof fully above the",
+ "gate_r": "s1: The upper portion of the slide is a raw screenshot of Google's Project Suncatcher webpage used as a full-bleed background element, violating the Screenshot Law.",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

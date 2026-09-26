@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-21T06:25:51Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — DECORATION, NOT PROOF: The cover is an abstract orange light-streak burst on a black void. There is no photoreal subject, no person, no product, no story artifact. The law is explicit: 'every image is PROOF or a STAGED SCENE OF THE STORY — never decoration.' This frame could run over any post on any page — it proves nothing from today's stories. Fix: replace with a photoreal cover buil"
- },
- {
   "t": "2026-09-21T06:27:56Z",
   "gate": "B",
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
@@ -2098,5 +2091,12 @@
   "subject": "<em>$1,100 IN FREE AI</em> YOUR STUDENT ID ALREADY UNLOCKS",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-26T17:39:42Z",
+  "gate": "A",
+  "subject": "Thank you, Prime Minister @JJansaSDS , for your friendship and steadfast support for Israel. 🇮🇱🇸🇮 It was great meeting w",
+  "verdict": "KILL",
+  "reason": "No substance and off-lens: vague diplomatic bilateral announcement with zero concrete AI/tech details, no numbers, no real outcome, and requires heavy padding to build slides from."
  }
 ]
