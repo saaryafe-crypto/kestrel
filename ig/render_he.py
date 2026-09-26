@@ -324,11 +324,12 @@ function scrim(){
     var edge=Math.max(420,Math.min(1350,Math.round(mast.getBoundingClientRect().top)+12));
     /* band anatomy ported from render.py (owner Sep 14): the photo ends AT
        the masthead line, everything below the seam is SOLID #050505 so the
-       headline never prints over the picture */
+       headline never prints over the picture. Sep 26 (owner order): the
+       whole photo gets a constant ~26% dim so the words always win the eye. */
     if(bleed)setH(edge+20);
     if(cut)cut.style.height=(edge+24)+'px';
-    shade.style.background='linear-gradient(180deg,rgba(0,0,0,.08) 0px,rgba(0,0,0,0) 140px,'
-      +'rgba(0,0,0,0) '+(edge-230)+'px,rgba(5,5,5,.55) '+(edge-90)+'px,'
+    shade.style.background='linear-gradient(180deg,rgba(0,0,0,.3) 0px,rgba(0,0,0,.26) 140px,'
+      +'rgba(0,0,0,.26) '+(edge-230)+'px,rgba(5,5,5,.62) '+(edge-90)+'px,'
       +'#050505 '+edge+'px)';
     return;
   }

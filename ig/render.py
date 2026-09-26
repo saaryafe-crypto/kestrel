@@ -366,11 +366,13 @@ function scrim(){
     /* getintoai anatomy (owner Sep 9): the photo ends AT the masthead line
        — its own mask feathers the last 150px, the shade finishes the melt,
        and everything below the seam is SOLID #050505 so the headline never
-       prints over the picture */
+       prints over the picture. Sep 26 (owner order): the whole photo gets
+       a constant ~26% dim so the white words always win the eye — "less
+       bright everytime and the words stronger". */
     if(bleed)setH(edge+20);
     if(cut)cut.style.height=(edge+24)+'px';
-    shade.style.background='linear-gradient(180deg,rgba(0,0,0,.08) 0px,rgba(0,0,0,0) 140px,'
-      +'rgba(0,0,0,0) '+(edge-230)+'px,rgba(5,5,5,.55) '+(edge-90)+'px,'
+    shade.style.background='linear-gradient(180deg,rgba(0,0,0,.3) 0px,rgba(0,0,0,.26) 140px,'
+      +'rgba(0,0,0,.26) '+(edge-230)+'px,rgba(5,5,5,.62) '+(edge-90)+'px,'
       +'#050505 '+edge+'px)';
     return;
   }
@@ -662,8 +664,8 @@ def cover_overlay(post_path, out_png):
                           f"font-size:{int(s.get('hsize', 100) * 1.7)}px", 1)
         css += ("\nhtml,body{background:transparent !important}"
                 "\n.videofade{position:absolute;inset:0;z-index:0;background:"
-                "linear-gradient(180deg,rgba(5,5,6,0) 40%,rgba(5,5,6,.55) "
-                "75%,rgba(5,5,6,.78) 100%)}")
+                "linear-gradient(180deg,rgba(5,5,6,.26) 0%,rgba(5,5,6,.26) 40%,"
+                "rgba(5,5,6,.55) 75%,rgba(5,5,6,.78) 100%)}")
         if (s.get("kicker") or "").strip():
             kick = html.escape(re.sub(r"<[^>]+>", "",
                                       s["kicker"]).strip().upper())
