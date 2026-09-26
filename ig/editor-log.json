@@ -1,110 +1,5 @@
 [
  {
-  "t": "2026-09-20T23:33:11Z",
-  "gate": "B",
-  "subject": "SPACEX USED TO DUMP ROCKET SHELLS AFTER <em>1 FLIGHT</em>. ONE JUST FLEW <em>40 TIMES</em>.",
-  "verdict": "REJECT",
-  "reason": "EMOJI VIOLATION (§4): '🚀' appears in the caption's opening sentence. The law says no emojis. Remove it.; JARGON / FRIEND TEST (§4): 'That has never happened to any fairing half in SpaceX history.' Nobody says 'fairing half' to a friend. The caption already uses 'nose cone' throughout — fix to 'That has never happened to any nose cone in SpaceX history.'; SERMON CLOSE (§4 — 'no sermons/moralizing')"
- },
- {
-  "t": "2026-09-20T23:36:09Z",
-  "gate": "B",
-  "subject": "SPACEX USED TO DUMP ROCKET SHELLS AFTER <em>1 FLIGHT</em>. ONE JUST FLEW <em>40 TIMES</em>.",
-  "verdict": "REJECT",
-  "reason": "HOOK LAW (§2): The hook is two sentences — 'SPACEX USED TO DUMP ROCKET SHELLS AFTER 1 FLIGHT. ONE JUST FLEW 40 TIMES.' — and the doctrine requires ONE complete sentence. Fix: combine them into a single sentence, e.g. 'THE SPACEX NOSE CONE THAT USED TO GET DUMPED IN THE OCEAN AFTER EVERY LAUNCH JUST FLEW FOR THE 40TH TIME.' (18 words, one actor, one action, the wild specific, no dash)."
- },
- {
-  "t": "2026-09-20T23:37:51Z",
-  "gate": "B",
-  "subject": "SPACEX FLEW THE ROCKET SHELL THEY USED TO DUMP IN THE OCEAN <em>40 TIMES</em>.",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-20T23:38:09Z",
-  "gate": "R",
-  "subject": "SPACEX FLEW THE ROCKET SHELL THEY USED TO DUMP IN THE OCEAN <em>40 TIMES</em>.",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-21T02:42:17Z",
-  "gate": "A",
-  "subject": "The last three fully new vehicles that @Tesla has launched don’t use a liquid paint shop: • Tesla Semi (Powder coated) •",
-  "verdict": "KILL",
-  "reason": "Manufacturing trivia about existing vehicles, not a news event—no consequence readers feel, no numbers behind the methods, no stakes or fallout; the writer would have to pad a thin fact into slides."
- },
- {
-  "t": "2026-09-21T02:42:37Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 President Trump announces creation of \"AI Force\" and says AI could make up 25% of US GDP.",
-  "verdict": "KILL",
-  "reason": "This is a political announcement of future action without detail or consequence—not a tech-industry event where reality has moved."
- },
- {
-  "t": "2026-09-21T02:43:21Z",
-  "gate": "A",
-  "subject": "A Pentagon investigation report indicates that an overwhelming air assault order, severely outdated intelligence, and an",
-  "verdict": "KILL",
-  "reason": "Military tragedy where AI is a supporting factor, not protagonist—fails brand lens test; 4/10 scout interest confirms no audience fit."
- },
- {
-  "t": "2026-09-21T02:44:16Z",
-  "gate": "A",
-  "subject": "\"Imagine you had $6 million in cash on a pallet flying through the air that's just going to smash into the ocean. Would ",
-  "verdict": "KILL",
-  "reason": "Source lacks clarity on event timing and what '40th milestone' represents; fairing recovery is established routine SpaceX procedure, and a counting milestone without fresh capability or consequence fails the substantive-event test at 4/10 scout interest."
- },
- {
-  "t": "2026-09-21T02:44:54Z",
-  "gate": "A",
-  "subject": "A Pentagon investigation report indicates that an overwhelming air assault order, severely outdated intelligence, and an",
-  "verdict": "KILL",
-  "reason": "This is a military tragedy story where AI is a contributing factor among several (not the star)—it fails the off-lens rule: 'a nature/animal/history fact that merely mentions or defeats technology... is OFF-lens,' and scout interest of 4/10 provides no exceptional justification to override it."
- },
- {
-  "t": "2026-09-21T02:45:10Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 President Trump announces creation of \"AI Force\" and says AI could make up 25% of US GDP.",
-  "verdict": "KILL",
-  "reason": "Government policy announcement outside this page's scope (§1 names household-name labs/founders making moves in the tech industry, not government actors); the 101-character source lacks substance to build slides—no detail on what the AI Force actually is, how it's funded, or what real consequence follows for readers today."
- },
- {
-  "t": "2026-09-21T02:45:11Z",
-  "gate": "A",
-  "subject": "The last three fully new vehicles that @Tesla has launched don’t use a liquid paint shop: • Tesla Semi (Powder coated) •",
-  "verdict": "KILL",
-  "reason": "Technical manufacturing detail about existing vehicles with no clear news peg, felt consequence, or breaking event; fails substance threshold at 4/10 scout interest."
- },
- {
-  "t": "2026-09-21T02:46:02Z",
-  "gate": "A",
-  "subject": "\"Imagine you had $6 million in cash on a pallet flying through the air that's just going to smash into the ocean. Would ",
-  "verdict": "KILL",
-  "reason": "Routine fairing reuse milestone without record status or major move; source material cuts off incomplete; scout interest 4/10 fails the threshold."
- },
- {
-  "t": "2026-09-21T03:14:02Z",
-  "gate": "B",
-  "subject": "TRUMP JUST GAVE AI <em>ITS OWN GOVERNMENT BRANCH</em> AND PREDICTED <em>25% OF THE ECONOMY</em>",
-  "verdict": "REJECT",
-  "reason": "§2 HOOK LAW — TWO actions joined by AND: 'TRUMP JUST GAVE AI ITS OWN GOVERNMENT BRANCH AND PREDICTED 25% OF THE ECONOMY' has two distinct actions ('gave AI its own branch' + 'predicted 25% of economy'). The doctrine is explicit: one actor, one action — cut the weaker one. The AI Force creation is the concrete, unprecedented act; the GDP prediction is the supporting color. Fix: 'TRUMP JUST CREATED "
- },
- {
-  "t": "2026-09-21T03:15:22Z",
-  "gate": "A",
-  "subject": "The last three fully new vehicles that @Tesla has launched don’t use a liquid paint shop: • Tesla Semi (Powder coated) •",
-  "verdict": "KILL",
-  "reason": "Technical observation about Tesla's existing vehicles with no news event or felt consequence — observing that three known vehicles use different finishing methods is manufacturing trivia, not a story."
- },
- {
-  "t": "2026-09-21T03:16:44Z",
-  "gate": "A",
-  "subject": "A Pentagon investigation report indicates that an overwhelming air assault order, severely outdated intelligence, and an",
-  "verdict": "KILL",
-  "reason": "Military tragedy is the story's center; AI tool role is explanatory, not a tech/AI development—off-brand for @technology despite genuine newsworthiness."
- },
- {
   "t": "2026-09-21T03:17:21Z",
   "gate": "A",
   "subject": "\"Imagine you had $6 million in cash on a pallet flying through the air that's just going to smash into the ocean. Would ",
@@ -2096,6 +1991,111 @@
   "t": "2026-09-26T06:19:28Z",
   "gate": "R",
   "subject": "AI JUST SCORED <em>151</em> ON THE HIGHEST POSSIBLE IQ TEST, THREE YEARS AGO IT SCORED 64",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-26T10:18:59Z",
+  "gate": "A",
+  "subject": "Wow! Tesla just registered another 37 Cybercabs for its robtoaxi fleet, bringing the total number of Cybercabs registere",
+  "verdict": "KILL",
+  "reason": "Routine fleet-building milestone with no customer consequence, regulatory breakthrough, or launch announcement—on-topic but lacks the jaw-drop event §1 requires; incremental progress that updates weekly is the on-topic-but-routine exclusion."
+ },
+ {
+  "t": "2026-09-26T10:20:09Z",
+  "gate": "A",
+  "subject": "New on the Science Blog: Yes, Claude can do Nine Loops. Theoretical physicists predict how particles behave using formul",
+  "verdict": "KILL",
+  "reason": "Anthropic's self-published capability announcement—Claude solved a math problem—lacks breaking-news impact, real-world consequence beyond demonstrating product ability, or felt-scale impact a general reader would share; routine company PR rather than viral-specific event, and scout interest is exactly threshold (5/10)."
+ },
+ {
+  "t": "2026-09-26T10:21:04Z",
+  "gate": "A",
+  "subject": "This is the ultimate form of @elonmusk's mantra \"The best part is no part\". Here's a deep dive on the genius reason why ",
+  "verdict": "KILL",
+  "reason": "No substance: entire source is one thin tweet with no facts, numbers, or consequences; writer must pad to create the 'deep dive' promised but not provided."
+ },
+ {
+  "t": "2026-09-26T10:21:07Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Routine execution of a planned government launch, not a jaw-dropping space tech story; scout interest (4/10) confirms low fit, and the source frames this as national pride/policy achievement, not technology innovation."
+ },
+ {
+  "t": "2026-09-26T10:21:51Z",
+  "gate": "A",
+  "subject": "SpaceX has introduced a new website for its AI training clusters in Tennessee/Mississippi. New info: • Tesla Megapacks w",
+  "verdict": "KILL",
+  "reason": "Website launch disclosing infrastructure details is routine corporate announcement without a real-world event or consequence readers would feel."
+ },
+ {
+  "t": "2026-09-26T10:22:53Z",
+  "gate": "A",
+  "subject": "Wow! Tesla just registered another 37 Cybercabs for its robtoaxi fleet, bringing the total number of Cybercabs registere",
+  "verdict": "KILL",
+  "reason": "Vehicle registration is routine operational progress—on-topic but lacking the major-move substance (model release, lawsuit, acquisition, etc.) that qualifies household-name company news coverage."
+ },
+ {
+  "t": "2026-09-26T10:24:07Z",
+  "gate": "A",
+  "subject": "New on the Science Blog: Yes, Claude can do Nine Loops. Theoretical physicists predict how particles behave using formul",
+  "verdict": "APPROVE",
+  "reason": "Record physics achievement by Anthropic meets multiple §1 qualifiers: first-ever/record, famous-product feature demo, and a documented narrative (physicist @4gravitons challenged it, Claude solved it) with real names and numbers."
+ },
+ {
+  "t": "2026-09-26T10:43:08Z",
+  "gate": "B",
+  "subject": "A PHYSICIST DARED AN AI TO BREAK THE WORLD PHYSICS RECORD. <em>IT DID.</em>",
+  "verdict": "REJECT",
+  "reason": "CRITICAL — IMAGE LAW §3 VIOLATION: cover_has_image is false. This is a single-picture post; the image IS the entire format. No image = unshippable, full stop. The doctrine is absolute: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The correct archetype here is: a photoreal composite of Claude's interface on a real laptop or monitor (screen s"
+ },
+ {
+  "t": "2026-09-26T10:45:03Z",
+  "gate": "B",
+  "subject": "A PHYSICIST DARED AN AI TO BREAK THE WORLD PHYSICS RECORD. <em>IT DID.</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW VIOLATION — cover_has_image is false. This is filed as a single-picture post; no image means it ships as text-on-black, which the Doctrine calls an explicit failure ('The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures'). Fix: provide a photoreal composite cover — e.g., a cutout of a physicist at a whiteboard or terminal, a floating oversiz"
+ },
+ {
+  "t": "2026-09-26T10:47:05Z",
+  "gate": "A",
+  "subject": "SpaceX has introduced a new website for its AI training clusters in Tennessee/Mississippi. New info: • Tesla Megapacks w",
+  "verdict": "KILL",
+  "reason": "Website disclosure of existing SpaceX infrastructure is routine corporate marketing, not a jaw-dropping news event or major move; the underlying TN/MS AI data center wasn't announced this week, just revealed in detail via a new site."
+ },
+ {
+  "t": "2026-09-26T10:47:23Z",
+  "gate": "A",
+  "subject": "Wow! Tesla just registered another 37 Cybercabs for its robtoaxi fleet, bringing the total number of Cybercabs registere",
+  "verdict": "KILL",
+  "reason": "Routine operational metrics (daily registration counts) on an ongoing Tesla initiative, not a transformative news moment—a 12-year-old wouldn't send this to a friend; real news breaks when regulatory approval arrives, deployment surpasses competitors, or commercial service launches, not when incrementally marching toward those future milestones."
+ },
+ {
+  "t": "2026-09-26T10:48:28Z",
+  "gate": "A",
+  "subject": "This is the ultimate form of @elonmusk's mantra \"The best part is no part\". Here's a deep dive on the genius reason why ",
+  "verdict": "KILL",
+  "reason": "No substance: a teaser tweet with no explanation, numbers, or consequence—just a promise to explain something unnamed; the writer would have to pad to build slides."
+ },
+ {
+  "t": "2026-09-26T10:49:00Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Routine government-space news, not a wow-fact or story-arc the lane requires, and scout interest (4/10) below the exceptional threshold thin-tweet events need."
+ },
+ {
+  "t": "2026-09-26T11:10:53Z",
+  "gate": "B",
+  "subject": "TESLA JUST REGISTERED <em>56 CARS WITH NO STEERING WHEEL</em> IN ONE DAY",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-26T11:11:01Z",
+  "gate": "R",
+  "subject": "TESLA JUST REGISTERED <em>56 CARS WITH NO STEERING WHEEL</em> IN ONE DAY",
   "verdict": "PASS",
   "reason": ""
  }

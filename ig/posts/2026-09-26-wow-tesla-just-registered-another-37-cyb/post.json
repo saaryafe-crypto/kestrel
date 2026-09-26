@@ -1,0 +1,80 @@
+{
+ "media_idx": 1,
+ "image_brief": "Tesla Cybercab fleet with no steering wheel being registered in Texas for driverless robotaxi service, biggest single day ever, with the Tesla logo",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TESLA JUST REGISTERED <em>56 CARS WITH NO STEERING WHEEL</em> IN ONE DAY",
+   "hsize": 72,
+   "media": "posts/2026-09-26-wow-tesla-just-registered-another-37-cyb/cand-3.jpg",
+   "image_prompt": "Cybercab interior, steering wheel completely absent, driver area vacant and barren, only seat and dashboard remain."
+  }
+ ],
+ "caption": "Tesla just had its biggest day ever for driverless car sign-ups: 56 Cybercabs registered in one day, pushing the all-time total to 125. \ud83d\ude97\n\nYesterday morning, the Cybercab was still basically a car on a stage. No steering wheel, no passengers, just hype and a promise about replacing Uber.\n\nThen someone spent Thursday night refreshing Texas DMV records in real time. One by one, Cybercab registrations ticked up. By the end of the day Tesla had filed 56 of them total, the most ever registered in a single day. The all-time count crossed 100 for the first time, landing at 125.\n\nHere's the part that stops you: 125 cars. That's smaller than the Hertz counter at Dallas airport. Tesla celebrated it like a massive milestone, and sure, it is one. But this is the fleet meant to replace every Uber driver in America, and right now all 125 would fit in one Walmart parking lot.\n\nThe numbers are accelerating fast though. If the daily filings keep climbing, you could see one of these no-steering-wheel cabs pull up for a real passenger in Texas soon. No demo, no invite-only test. Just a car with nobody in the front seat.\n\nThis is what replacing Uber starts as: 125 cars and one guy watching a DMV database on a Thursday night.\n\nRobotaxis have been \"coming soon\" for a decade. Tesla is actually filing them with the DMV one by one, and yesterday was the biggest day ever. The pace is clearly accelerating.\n\nRunning a business? DM us \"AI\" and we'll show you what this kind of automation could mean for yours.\n\nSources: Sawyer Merritt on X, Texas DMV\n\n#Tesla #Cybercab #Robotaxi #SelfDrivingCar #AI",
+ "pinned_comment": "The 'record-breaking' fleet meant to replace every Uber driver in America would need roughly 800,000 more cars just to match Uber's current US driver count. 125 is the starting pistol, not the win.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "TESLA NOW HAS <em>125 REGISTERED CARS WITH NO STEERING WHEEL</em>",
+   "TESLA JUST REGISTERED <em>56 DRIVERLESS CYBERCABS IN ONE DAY</em>, THE MOST EVER",
+   "TESLA JUST REGISTERED <em>37 DRIVERLESS CABS IN ONE BATCH</em> WITH THE TEXAS DMV",
+   "TESLA JUST REGISTERED <em>56 DRIVERLESS CABS IN ONE DAY</em>, THE MOST EVER",
+   "TESLA JUST SET A RECORD: <em>56 NO-STEERING-WHEEL ROBOTAXIS FILED IN A SINGLE DAY</em>",
+   "TESLA JUST HIT <em>125 REGISTERED ROBOTAXIS</em>, PAST 100 FOR THE FIRST TIME",
+   "<em>TESLA'S DRIVERLESS CAB FLEET JUST HIT 125 CARS</em>, 56 OF THEM REGISTERED YESTERDAY",
+   "TESLA IS QUIETLY BUILDING <em>A DRIVERLESS CAB FLEET IN TEXAS</em>, 125 REGISTERED"
+  ],
+  "scores": [
+   5,
+   9,
+   4,
+   9,
+   8,
+   7,
+   5,
+   2
+  ],
+  "winner": 1,
+  "why": "56 cars in ONE DAY plus 'most ever' is instant shock that stops scrolling. [4] adds visceral language but 'filed' and formal structure weaken the direct punch."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "TESLA JUST REGISTERED <em>56 CARS WITH NO STEERING WHEEL</em> IN ONE DAY",
+   "TESLA NOW HAS <em>125 CARS WITH NO STEERING WHEEL</em> LEGALLY DRIVING IN TEXAS",
+   "TESLA REGISTERED <em>56 CARS WITH NO STEERING WHEEL</em> YESTERDAY \u2014 ITS BIGGEST DAY EVER",
+   "TESLA JUST REGISTERED <em>56 DRIVERLESS CYBERCABS IN ONE DAY</em>, THE MOST EVER"
+  ],
+  "scores": [
+   9,
+   6,
+   8,
+   7
+  ],
+  "winner": 0,
+  "why": "'JUST REGISTERED' hits faster than 'YESTERDAY'\u2014immediate urgency stops you scrolling instantly. [0] wins despite [2] adding 'BIGGEST DAY EVER' because shock + urgency lands harder than shock + context."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Tesla",
+  "actor_known": true,
+  "anchor": "Tesla",
+  "specifics": [
+   "56 driverless Cybercabs registered in a single day \u2014 the most ever in one day",
+   "125 total Cybercabs now registered, first time past 100",
+   "37 new registrations added in one batch",
+   "All registered through the Texas DMV",
+   "The Cybercab has no steering wheel"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (4/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Wow! Tesla just registered another 37 Cybercabs for its robtoaxi fleet, bringing the total number of Cybercabs registered today to 56, the biggest day ever. Tesla has now registered 125 Cybercabs, surpassing the 100 mark",
+  "link": "https://x.com/SawyerMerritt/status/2103585799920861320",
+  "judge_interest": 5,
+  "scout_score": 86.3
+ },
+ "gate_a_relaxed": true
+}
