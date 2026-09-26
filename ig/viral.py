@@ -226,7 +226,8 @@ SHAPES = """HOOK SHAPES (every reference-page hook fills ONE of these — pick t
 THE GRAMMAR OF EVERY SHAPE (measured on the corpus, zero exceptions): ONE subject, ONE action, ONE twist. The twist rides as a TRAILING PHRASE ("while he slept", "during his wedding", "for free") or after ONE connective (AND / YET / THEN / STILL) — never as a third clause. Three facts stapled with commas is a LIST, not a hook — the reference pages never ship one (failure model, owner-killed Aug 3: "MUSK DELETES EVERY STEP HE DOESN'T NEED, BUFFETT KILLS 20 OF HIS 25 GOALS, 5 FRAMEWORKS AS FREE CHATGPT PROMPTS" — three subjects, no sentence). Max 2 commas total. Need more? Split into two short sentences ("...WITH AI. IT COST HIM $863 AND 1.2 BILLION TOKENS"). Read each sentence out loud in ONE BREATH — if you stumble, rewrite."""
 
 SHARED_RULES = """- ONE IDEA (owner kill Aug 3, "hard to understand"): the hook is ONE story tension a 12-year-old repeats to a friend after ONE read — never a summary that stacks separate facts. "Complete" means the ONE idea is fully told with its specifics; it never means listing everything the post contains.
-- LENGTH 8-14 words, aim 10-13 (owner diet Sep 10, forensic audit: the winners' covers run 3 huge lines — @technology's 90.5K cover is 11 words; 15+ word hooks render as paragraph covers in small type): ONE complete lean claim — actor, action, the SINGLE wildest number. Model: "OPENAI JUST LAUNCHED ITS FIRST HARDWARE: A $230 AI KEYBOARD" (10 words; every supporting spec moves to the caption).
+- LENGTH 5-10 words, aim 6-9 (owner order Sep 26, the PUSH reference — SUPERSEDES the Sep 10 8-14 diet): ONE plain news sentence — actor + what happened, the single wildest number only when it fits naturally. The cover PICTURE shows the news; the title states it the way a friend texts it. Model: "OPENAI JUST LAUNCHED A $230 AI KEYBOARD" (7 words). Every supporting spec moves to the caption.
+- THE SO-WHAT LAW (owner Sep 26, the Cybercab post-mortem — "TESLA JUST REGISTERED 56 CARS WITH NO STEERING WHEEL IN ONE DAY" shipped and he ruled it "doesnt give them anything"): the sentence states what CHANGES IN THE WORLD, never the procedure that made it official. Procedural verbs — registered, filed, submitted, signed, approved, unveiled a plan, announced plans — are dead words: rewrite to the consequence the reader pictures ("TESLA IS PUTTING 56 DRIVERLESS ROBOTAXIS ON PUBLIC ROADS"). Test after one read: does a stranger see the world change, or shrug "so what?" — a shrug means the angle is wrong, not the length.
 - WITHHOLD NOTHING (owner doctrine Aug 1, reverses the Jul 29 gap rule): a riddle only works for pages with authority; a growing page earns the follow by DELIVERING on the cover. The reader should get the full story from the cover alone — the caption under the post carries the details and the fallout, which the wild content makes them want automatically.
 - Structure: [ACTOR] JUST [charged verb + what happened], [the specific that makes it wild]. Front-load the actor and verb; the numbers ride in the second half.
 - FAMOUS NAME FIRST (owner Sep 4, the Bernie Sanders post-mortem — our riddle "THE MAN WHO RAN FOR PRESIDENT TWICE..." lost to the reference page's plain "BERNIE SANDERS INTRODUCES BILL..."): when the story's actor is a name a 16-year-old recognizes, that exact name goes in the FIRST 6 WORDS. Recognition beats cleverness every time; a code gate kills candidates that bury a famous name.
@@ -263,7 +264,7 @@ CAND_SCHEMA = {
     "required": ["hook_candidates"],
 }
 
-HE_INTRO = """You write cover hooks for @ainews.israel — the Hebrew Instagram page for Israeli AI news. Write NATIVELY in Hebrew a smart Israeli 12-year-old would say out loud (owner Sep 9) — never translate English phrasing. Keep brand/product names in their original Latin script (AI, ChatGPT, Visa). Hebrew is denser than English, so the 8-14 word diet applies here too and fits a COMPLETE claim comfortably — nothing withheld. GRAMMAR (kill rule): every line must be correct spoken Hebrew — read it aloud; nouns are not verbs ("הזיה עסקה" is broken, "המציא עסקה" is right). A line a native speaker would stumble on is disqualified."""
+HE_INTRO = """You write cover hooks for @ainews.israel — the Hebrew Instagram page for Israeli AI news. Write NATIVELY in Hebrew a smart Israeli 12-year-old would say out loud (owner Sep 9) — never translate English phrasing. Keep brand/product names in their original Latin script (AI, ChatGPT, Visa). Hebrew is denser than English, so the 5-10 word PUSH diet (owner Sep 26) applies here too and fits a COMPLETE claim comfortably — nothing withheld. GRAMMAR (kill rule): every line must be correct spoken Hebrew — read it aloud; nouns are not verbs ("הזיה עסקה" is broken, "המציא עסקה" is right). A line a native speaker would stumble on is disqualified."""
 EN_INTRO = """You write cover hooks for @yaffeai — an AI/tech Instagram page in the style of @technology."""
 
 
@@ -370,28 +371,29 @@ def _require_famous_anchor(cands, ctx, lang="en"):
     return kept or cands
 
 
-def _pre_filter(cands, ctx=None, lo=10):
+def _pre_filter(cands, ctx=None, lo=4):
     """Deterministic craft gates — rules that are yes/no checks, not taste.
     Run BEFORE the judge so it only sees candidates that already pass the
     craft floor. Falls open if it would empty the list."""
     def _words(c):
         return len(re.sub(r"<[^>]+>", "", c.get("headline", "")).split())
-    # cover-diet window (owner Sep 10, forensic audit — tightens the Aug 1
-    # summarizing window: winners' covers are 8-14 words in 3 huge lines;
-    # under the floor = old withholding riddle, over 15 = paragraph cover in
-    # small type). edu N-promise hooks stay short by design ("6 SERVICES AI
-    # REPLACES FOR FREE"), so they skip the length gate.
+    # PUSH window (owner Sep 26, supersedes the Sep 10 8-14 diet): the cover
+    # is one plain 5-10 word news sentence over a photo that shows the news;
+    # gate is 4-11 with slack on both ends, matching write.qa(). Under the
+    # floor = withholding riddle, over 11 = paragraph cover in small type.
+    # edu N-promise hooks stay short by design ("6 SERVICES AI REPLACES FOR
+    # FREE"), so they skip the length gate.
     if (ctx or {}).get("story_type") == "edu_value":
         kept = cands
     else:
-        kept = [c for c in cands if lo <= _words(c) <= 15]
+        kept = [c for c in cands if lo <= _words(c) <= 11]
     if not kept:
         kept = cands  # fall open
     else:
         dropped = len(cands) - len(kept)
         if dropped:
             print(f"viral: dropped {dropped} candidate(s) outside the "
-                  f"{lo}-15 word window", file=sys.stderr)
+                  f"{lo}-11 word window", file=sys.stderr)
     # hedge gate (researched Aug 1; recalibrated Aug 2 to the reference page:
     # may/might/could/allegedly always die, but "reportedly" mid-sentence is
     # their standard license for leak/rumor stories — "XBOX REPORTEDLY
@@ -501,9 +503,7 @@ def judge(cands, ctx, lang="en"):
     (winner_dict, record) or (None, None)."""
     cands = _drop_unknown_anchor(cands, ctx)
     cands = _require_famous_anchor(cands, ctx, lang=lang)
-    # Hebrew packs prepositions/articles into words — a full summary can be
-    # shorter, so the floor relaxes
-    cands = _pre_filter(cands, ctx, lo=8)  # diet Sep 10: 8-14 both languages
+    cands = _pre_filter(cands, ctx, lo=4)  # PUSH law Sep 26: 5-10 words, gate 4-11, both languages
     # strict on the English cover path only: the HE lane translates an
     # already-approved hook, reel titles have their own per-clip ladder, and
     # the EDU_FORCE floor must ALWAYS ship (edu.py calls this tournament too

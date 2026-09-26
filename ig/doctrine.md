@@ -154,7 +154,16 @@ INSTANT KILL — no other rule can save these:
   shape is legal. The PICTURE shows the news; the title states it the
   way a friend texts it. Still nothing withheld — short is compression,
   never a riddle, a tease, or a hype formula.
-  ONE actor, ONE action ("AND" joining two actions = cut the weaker one).
+- THE SO-WHAT LAW (owner Sep 26, the Cybercab post-mortem — "TESLA JUST
+  REGISTERED 56 CARS WITH NO STEERING WHEEL IN ONE DAY" shipped and he
+  ruled it "doesnt give them anything"): the sentence states what CHANGES
+  IN THE WORLD, never the procedure that made it official. Procedural
+  verbs — registered, filed, submitted, signed, approved, unveiled a
+  plan — are dead words: rewrite to the consequence the reader pictures
+  ("TESLA IS PUTTING 56 DRIVERLESS ROBOTAXIS ON PUBLIC ROADS"). Test
+  after one read: does a stranger see the world change, or shrug
+  "so what?" — a shrug means the angle is wrong, not the length.
+- ONE actor, ONE action ("AND" joining two actions = cut the weaker one).
 - PERSON-FIRST when a human drives it, with the dinner detail IN the hook
   ("...THEN LOST 67% OF IT DURING HIS WEDDING").
 - Anchor on names everyone knows or universal nouns ("a machine", "AI") —
