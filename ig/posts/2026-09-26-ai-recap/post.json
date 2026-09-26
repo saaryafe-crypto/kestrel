@@ -1,0 +1,35 @@
+{
+ "stories": [
+  {
+   "headline": "Elon Musk says SpaceX will beat OpenAI in AI in six months"
+  },
+  {
+   "headline": "AI hits perfect Mensa IQ score of 151 off the charts"
+  },
+  {
+   "headline": "Claude solves nine-loop physics calculation breaking world record"
+  },
+  {
+   "headline": "Google launches satellite to test AI chips in orbit"
+  },
+  {
+   "headline": "Tesla registers 125 Cybercabs with biggest single day ever"
+  },
+  {
+   "headline": "SpaceX builds Americas largest battery pack to power AI cluster"
+  }
+ ],
+ "caption": "Here's what happened in AI in the last 24 hours, from AI maxing out the IQ scale to SpaceX declaring war on OpenAI \ud83d\udc47\n\nElon Musk said SpaceX will beat OpenAI and Anthropic at AI within six months.\n\nAI just hit 151 on the Mensa Norway IQ test, the highest score possible. Three years ago it scored 64.\n\nClaude solved a 9-loop physics calculation. Most researchers stop at two or three loops. The previous record was 8.\n\nGoogle is launching a satellite to test its AI chips in orbit, to see if they survive space. The project is called Suncatcher.\n\nTesla registered 56 Cybercabs in a single day, a new record, bringing its total fleet to 125.\n\nSpaceX is building a 3.3 GWh battery pack in Tennessee to power its Colossus 2 AI cluster, enough to run the city of Memphis for two hours.\n\nThree years ago it scored 64. Now it scores 151, and the computers that run it are heading to orbit. Every major company is building at the same time, faster than most people realize.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Tesla, Anthropic, Google, SpaceX, Elon Musk\n\n#AI #ArtificialIntelligence #Tech #Tesla #SpaceX",
+ "pinned_comment": "Elon says SpaceX will beat OpenAI and Anthropic at AI within six months. Do you actually believe that, or is this just the Musk hype machine running hot?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "AI JUST SCORED <em>151</em> ON THE HIGHEST POSSIBLE IQ TEST, THREE YEARS AGO IT SCORED 64",
+   "kicker": "THE DAILY RECAP"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW HARD FAIL \u2014 TEXT ON BLACK: The cover is a text-on-black/abstract-particle background with no subject. Image Law states explicitly: 'Text-on-black or empty-top covers are failures.' The abstract orange light-streak graphic has no story subject visible \u2014 no person, no product, no proof artifact. A stranger seeing this at feed size cannot guess the story. The fix: replace with a photoreal c"
+}

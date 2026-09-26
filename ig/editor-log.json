@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-20T20:56:24Z",
-  "gate": "R",
-  "subject": "TERENCE TAO SAID AI IS MOVING AT <em>AN INSANE PACE WITH NO REASON</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-20T23:12:51Z",
-  "gate": "A",
-  "subject": "BREAKING: SpaceX has set a new reuse record! A Falcon 9 fairing half has flown for the 40th time, the first ever in Spac",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-20T23:13:00Z",
-  "gate": "A",
-  "subject": "\"A computer-science degree is no longer a golden ticket,\" per WSJ",
-  "verdict": "KILL",
-  "reason": "No substance — one article headline with no named actor, numbers, or real consequence; it's a trend claim, not an event, and the writer would have to pad it entirely."
- },
- {
-  "t": "2026-09-20T23:13:07Z",
-  "gate": "A",
-  "subject": "The last three fully new vehicles that @Tesla has launched don’t use a liquid paint shop: • Tesla Semi (Powder coated) •",
-  "verdict": "KILL",
-  "reason": "Manufacturing process observation without a viral-specific event or consequence anyone felt—this is technical trivia for engineers, not a story this page exists to tell."
- },
- {
-  "t": "2026-09-20T23:14:15Z",
-  "gate": "A",
-  "subject": "A Pentagon investigation report indicates that an overwhelming air assault order, severely outdated intelligence, and an",
-  "verdict": "KILL",
-  "reason": "Military/geopolitical news story where Palantir's Maven was one of several contributing factors (alongside outdated intelligence and overwhelming orders)—the AI tool is not the protagonist, OFF-LENS for an AI/tech page."
- },
- {
   "t": "2026-09-20T23:33:11Z",
   "gate": "B",
   "subject": "SPACEX USED TO DUMP ROCKET SHELLS AFTER <em>1 FLIGHT</em>. ONE JUST FLEW <em>40 TIMES</em>.",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-26T01:24:02Z",
   "gate": "R",
   "subject": "BILL GATES SAID ELECTRIC SEMIS WOULD <em>NEVER HAPPEN</em>. <em>HE WAS WRONG.</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-26T06:14:38Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 — TEXT-ON-BLACK COVER FAILURE: The cover is a black background with abstract CGI orange particle trails and headline text. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' There is no subject — no person, no product, no event. The particle burst is pure decoration, not proof of any story. Fix: replace with"
+ },
+ {
+  "t": "2026-09-26T06:16:22Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — TEXT ON BLACK WITH ABSTRACT DECORATION: the doctrine names 'text-on-black or empty-top covers' as explicit failures, and this cover is exactly that. The upper ~65% of the frame is empty dark space with scattered orange particle streaks that are pure decoration — they prove nothing, stage nothing, and reference no story in the recap. Fix: rebuild the cover around the day's single bigg"
+ },
+ {
+  "t": "2026-09-26T06:18:16Z",
+  "gate": "B",
+  "subject": "AI JUST SCORED <em>151</em> ON THE HIGHEST POSSIBLE IQ TEST, AND ELON MUSK SAYS SPACEX BEATS OPENAI IN SIX MONTHS",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — HARD REJECT: The cover is text-on-black with an abstract particle/light-streak graphic that reads as digital illustration, not a photoreal element. The doctrine bans this explicitly on two counts: (1) 'Text-on-black or empty-top covers are failures,' and (2) 'every ELEMENT in the frame must read as photographed — real skin, real product, real logo mark, real photo fragments. A frame or"
+ },
+ {
+  "t": "2026-09-26T06:19:21Z",
+  "gate": "B",
+  "subject": "AI JUST SCORED <em>151</em> ON THE HIGHEST POSSIBLE IQ TEST, THREE YEARS AGO IT SCORED 64",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW HARD FAIL — TEXT ON BLACK: The cover is a text-on-black/abstract-particle background with no subject. Image Law states explicitly: 'Text-on-black or empty-top covers are failures.' The abstract orange light-streak graphic has no story subject visible — no person, no product, no proof artifact. A stranger seeing this at feed size cannot guess the story. The fix: replace with a photoreal c"
+ },
+ {
+  "t": "2026-09-26T06:19:28Z",
+  "gate": "R",
+  "subject": "AI JUST SCORED <em>151</em> ON THE HIGHEST POSSIBLE IQ TEST, THREE YEARS AGO IT SCORED 64",
   "verdict": "PASS",
   "reason": ""
  }
