@@ -1,0 +1,42 @@
+{
+ "stories": [
+  {
+   "headline": "Elon Musk says SpaceX will beat OpenAI in AI in six months"
+  },
+  {
+   "headline": "AI hits perfect Mensa IQ score of 151 off the charts"
+  },
+  {
+   "headline": "Claude solves nine-loop physics calculation breaking world record"
+  },
+  {
+   "headline": "Google launches satellite to test AI chips in orbit"
+  },
+  {
+   "headline": "Tesla registers 125 Cybercabs with biggest single day ever"
+  },
+  {
+   "headline": "SpaceX builds Americas largest battery pack to power AI cluster"
+  }
+ ],
+ "caption": "מ-64 ל-151 בטסט IQ בשלוש שנים, SpaceX מכריזה מלחמה על OpenAI, וגוגל שולחת שבבי AI לחלל. כל מה שקרה ב-24 שעות.\n\nאילון מאסק אמר ש-SpaceX תנצח את OpenAI ו-Anthropic ב-AI תוך שישה חודשים.\n\nAI הגיע ל-151 בטסט ה-IQ של Mensa Norway, הציון הגבוה ביותר שאפשר לקבל. לפני שלוש שנים הוא קיבל 64.\n\nClaude פתר חישוב פיזיקה של תשע לולאות. רוב החוקרים עוצרים בשתיים או שלוש. השיא הקודם היה שמונה.\n\nגוגל משגרת לוויין לבדוק אם שבבי ה-AI שלה שורדים בחלל. הפרויקט נקרא Suncatcher.\n\nTesla רשמה 56 Cybercabs ביום אחד, שיא חדש. סך הכל יש לה עכשיו 125 במצי.\n\nSpaceX בונה מערך סוללות של 3.3 GWh בטנסי להפעלת אשכול ה-AI שלה Colossus 2, מספיק כדי להריץ את כל העיר ממפיס שעתיים.\n\nלפני שלוש שנים: 64. היום: 151. והמחשבים שמריצים את זה בדרך לחלל. כל החברות הגדולות בונות במקביל, מהר יותר ממה שרוב האנשים חושבים.\n\nמנהלים עסק? שלחו לנו DM עם המילה \"AI\" ונראה לכם מה זה יכול לעשות בשבילכם.\n\nמקורות: Tesla, Anthropic, Google, SpaceX, אילון מאסק\n\nעקבו אחרי @ainews.israel לעוד חדשות AI\n\n#AI #ArtificialIntelligence #Tech #Tesla #SpaceX",
+ "pinned_comment": "אילון מאסק אומר ש-SpaceX תנצח את OpenAI ו-Anthropic ב-AI תוך שישה חודשים. אתם באמת מאמינים לזה, או שמאסק פשוט מגזים כרגיל?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "AI סגר <em>151</em> בטסט האינטליגנציה, לפני שלוש שנים זה היה שישים וארבע",
+   "kicker": "הסיכום היומי"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW HARD FAIL — TEXT ON BLACK: The cover is a text-on-black/abstract-particle background with no subject. Image Law states explicitly: 'Text-on-black or empty-top covers are failures.' The abstract orange light-streak graphic has no story subject visible — no person, no product, no proof artifact. A stranger seeing this at feed size cannot guess the story. The fix: replace with a photoreal c",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

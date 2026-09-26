@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-21T03:17:21Z",
-  "gate": "A",
-  "subject": "\"Imagine you had $6 million in cash on a pallet flying through the air that's just going to smash into the ocean. Would ",
-  "verdict": "KILL",
-  "reason": "The source material is truncated mid-sentence ('with the 4'), leaving the actual event unreadable—the scout cannot judge what happened or when; separately, a 40th SpaceX fairing recovery is on-topic but routine, not a reality-moved event worth a news slot."
- },
- {
   "t": "2026-09-21T03:35:49Z",
   "gate": "B",
   "subject": "MILITARY AI PICKED A BOMBING TARGET IN IRAN AND <em>KILLED SCORES OF CHILDREN</em>",
@@ -2098,5 +2091,12 @@
   "subject": "TESLA JUST REGISTERED <em>56 CARS WITH NO STEERING WHEEL</em> IN ONE DAY",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-26T13:04:46Z",
+  "gate": "A",
+  "subject": "Thank you, Prime Minister @JJansaSDS , for your friendship and steadfast support for Israel. 🇮🇱🇸🇮 It was great meeting w",
+  "verdict": "KILL",
+  "reason": "Diplomatic photo op with zero measurable consequence—ceremonial thank-you language announcing vague future cooperation in abstract areas with no numbers, no proof, no real move someone felt."
  }
 ]
