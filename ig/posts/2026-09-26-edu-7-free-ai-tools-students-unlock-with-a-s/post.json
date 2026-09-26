@@ -1,0 +1,53 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>$1,100 IN FREE AI</em> YOUR STUDENT ID ALREADY UNLOCKS",
+   "kicker": "MOST NEVER CLAIM THEM",
+   "hsize": 72,
+   "face": [
+    "Satya Nadella"
+   ],
+   "media": "faces/satya-nadella.jpg"
+  }
+ ],
+ "caption": "A student ID unlocks over $1,100 in free AI tools. Most students never claim them. \ud83e\udd2f\n\n7 free AI tools your student card unlocks right now:\n\n1) Google Gemini Pro\nIf your school runs on Google Workspace, Gemini is already sitting in your account. Most students never look. Sign in with your school email at gemini.google.com.\n\n2) GitHub Copilot\nThe AI that writes code alongside you, inside your editor. Normally $10/month. Free through the GitHub Student Developer Pack. education.github.com. Use this one tonight.\n\n3) AWS Educate\nAmazon cloud credits, no credit card needed. Enough to build and deploy a real app for free. aws.amazon.com/education/awseducate.\n\n4) Microsoft Azure $100\nA hundred dollars in cloud credits, no credit card, no catch. Enough to run AI tools for months. It expires in a year, so actually use it. azure.microsoft.com/free/students.\n\n5) Vercel Pro\nMost devs deploy their first app here. Pro is $20/month; the GitHub Student Pack gives it to you free. Start at vercel.com.\n\n6) Cursor Pro\nEvery developer you follow is switching to this editor. It's free if you have a .edu address. cursor.com/students.\n\n7) Figma (the design app)\nEvery app you have ever used started as a Figma file. Normally $15/month. Free the moment your school email is verified. figma.com/education.\n\nSAVE THIS: 7 tools your student ID already unlocks.\n\nThese are the same tools startups pay hundreds a month for. A school email is a key most students never use. If you know a student sitting on these, send this to them.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: heygandharva\n\n#AI #FreeTools #StudentLife #Tech #GitHub",
+ "pinned_comment": "Which one are you trying tonight? Number 2 is the move to start with. GitHub Copilot free for a year is worth more than most people's whole side hustle setup.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "7 FREE AI TOOLS <em>MOST STUDENTS NEVER KNOW THEY HAVE</em>",
+   "YOUR STUDENT ID GIVES YOU <em>$1,100 IN FREE AI</em>",
+   "YOUR STUDENT ID UNLOCKS <em>7 FREE AI TOOLS</em>",
+   "<em>7 FREE AI TOOLS</em> YOUR STUDENT ID ALREADY PAYS FOR",
+   "STUDENTS ARE SITTING ON <em>$1,100 IN FREE AI TOOLS</em>"
+  ],
+  "scores": [
+   4,
+   9,
+   5,
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "$1,100 paired with YOUR makes you stop at 2am\u2014it's so specific and personal you need to read the caption. [4] has the same compelling number but loses impact by addressing STUDENTS generically instead of YOU directly."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "YOUR STUDENT ID GIVES YOU <em>$1,100 IN FREE AI</em>",
+   "<em>$1,100 IN FREE AI</em> YOUR STUDENT ID ALREADY UNLOCKS"
+  ],
+  "scores": [
+   7,
+   8
+  ],
+  "winner": 1,
+  "why": "The word 'ALREADY' in [1] makes you think you're discovering a hidden benefit\u2014that curiosity stops the scroll. [0] clearly delivers the benefit but sounds like a standard offer you can easily skip."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "TEMPLATE-VOICE GATE: Items 2, 5, and 7 share the identical sentence skeleton \u2014 'Normally $X/month \u2192 Free through [student program]' \u2014 with only the numbers and program name swapped. Item 2: 'Normally $10/month. Free through the GitHub Student Developer Pack.' Item 5: 'Pro is $20/month; the GitHub Student Pack gives it to you free.' Item 7: 'Normally $15/month. Free the moment your school email is "
+}

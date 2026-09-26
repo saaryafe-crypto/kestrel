@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-21T03:35:49Z",
-  "gate": "B",
-  "subject": "MILITARY AI PICKED A BOMBING TARGET IN IRAN AND <em>KILLED SCORES OF CHILDREN</em>",
-  "verdict": "REJECT",
-  "reason": "SOURCE VIOLATION (§5, hard rule): 'Sources: Bloomberg' is listed as the sole source. §5 is explicit — 'Nothing outside X exists as a source.' Bloomberg is not the approved X watchlist and is not an X post. The story must trace to a watchlist account or a viral X search hit. Fix: replace with the specific X post(s) that surfaced this story, or kill and re-source from X.; EMOJI VIOLATION (§7, explic"
- },
- {
-  "t": "2026-09-21T03:36:29Z",
-  "gate": "R",
-  "subject": "MILITARY AI PICKED A BOMBING TARGET IN IRAN AND <em>KILLED SCORES OF CHILDREN</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-21T06:23:28Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE FAILS IMAGE LAW on three counts: (1) the background is a pure black void with abstract CGI particle streaks — not a single photoreal element in frame; IMAGE LAW requires every element to 'read as photographed' and explicitly bans 'illustration, cartoon, game render, or concept art'; (2) there is no subject — no person, no product, no proof of any story in the day's five bullets; the th"
- },
- {
   "t": "2026-09-21T06:25:51Z",
   "gate": "B",
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
@@ -2098,5 +2077,26 @@
   "subject": "Thank you, Prime Minister @JJansaSDS , for your friendship and steadfast support for Israel. 🇮🇱🇸🇮 It was great meeting w",
   "verdict": "KILL",
   "reason": "Diplomatic photo op with zero measurable consequence—ceremonial thank-you language announcing vague future cooperation in abstract areas with no numbers, no proof, no real move someone felt."
+ },
+ {
+  "t": "2026-09-26T17:18:40Z",
+  "gate": "B",
+  "subject": "<em>$1,100 IN FREE AI</em> YOUR STUDENT ID ALREADY UNLOCKS",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH FAIL — the cover is a plain headshot of Satya Nadella, but this is a 7-tool guide spanning Google (Gemini), Amazon (AWS), Vercel, Cursor, and Figma. He is CEO of Microsoft, which provides two of the seven tools (Azure credits and GitHub Copilot). The Vendor Cast exception applies only to a post teaching a single named tool ('a Claude guide', 'ChatGPT'): Satya on the cover of a multi-com"
+ },
+ {
+  "t": "2026-09-26T17:21:40Z",
+  "gate": "B",
+  "subject": "<em>$1,100 IN FREE AI</em> YOUR STUDENT ID ALREADY UNLOCKS",
+  "verdict": "REJECT",
+  "reason": "TEMPLATE-VOICE GATE: Items 2, 5, and 7 share the identical sentence skeleton — 'Normally $X/month → Free through [student program]' — with only the numbers and program name swapped. Item 2: 'Normally $10/month. Free through the GitHub Student Developer Pack.' Item 5: 'Pro is $20/month; the GitHub Student Pack gives it to you free.' Item 7: 'Normally $15/month. Free the moment your school email is "
+ },
+ {
+  "t": "2026-09-26T17:21:48Z",
+  "gate": "R",
+  "subject": "<em>$1,100 IN FREE AI</em> YOUR STUDENT ID ALREADY UNLOCKS",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

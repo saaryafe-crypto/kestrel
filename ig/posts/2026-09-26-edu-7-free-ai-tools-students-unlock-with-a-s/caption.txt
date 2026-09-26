@@ -1,0 +1,34 @@
+A student ID unlocks over $1,100 in free AI tools. Most students never claim them. 🤯
+
+7 free AI tools your student card unlocks right now:
+
+1) Google Gemini Pro
+If your school runs on Google Workspace, Gemini is already sitting in your account. Most students never look. Sign in with your school email at gemini.google.com.
+
+2) GitHub Copilot
+The AI that writes code alongside you, inside your editor. Normally $10/month. Free through the GitHub Student Developer Pack. education.github.com. Use this one tonight.
+
+3) AWS Educate
+Amazon cloud credits, no credit card needed. Enough to build and deploy a real app for free. aws.amazon.com/education/awseducate.
+
+4) Microsoft Azure $100
+A hundred dollars in cloud credits, no credit card, no catch. Enough to run AI tools for months. It expires in a year, so actually use it. azure.microsoft.com/free/students.
+
+5) Vercel Pro
+Most devs deploy their first app here. Pro is $20/month; the GitHub Student Pack gives it to you free. Start at vercel.com.
+
+6) Cursor Pro
+Every developer you follow is switching to this editor. It's free if you have a .edu address. cursor.com/students.
+
+7) Figma (the design app)
+Every app you have ever used started as a Figma file. Normally $15/month. Free the moment your school email is verified. figma.com/education.
+
+SAVE THIS: 7 tools your student ID already unlocks.
+
+These are the same tools startups pay hundreds a month for. A school email is a key most students never use. If you know a student sitting on these, send this to them.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: heygandharva
+
+#AI #FreeTools #StudentLife #Tech #GitHub
