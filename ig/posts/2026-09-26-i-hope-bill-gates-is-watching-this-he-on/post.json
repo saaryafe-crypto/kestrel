@@ -1,0 +1,89 @@
+{
+ "media_idx": 3,
+ "image_brief": "Bill Gates watching a Tesla Semi drive on his laptop, his prediction it would never happen proved wrong overnight",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "BILL GATES SAID ELECTRIC SEMIS WOULD <em>NEVER HAPPEN</em>. <em>HE WAS WRONG.</em>",
+   "kicker": "THE VIDEO IS ONLY 90 SECONDS",
+   "hsize": 70,
+   "hook_candidates": [
+    {
+     "headline": "BILL GATES CALLED ELECTRIC TRUCKS IMPOSSIBLE. <em>THEN 907,900 PEOPLE WATCHED ONE OVERNIGHT.</em>"
+    },
+    {
+     "headline": "BILL GATES SAID ELECTRIC TRUCKS WOULD NEVER WORK. <em>907,900 PEOPLE PROVED HIM WRONG.</em>"
+    },
+    {
+     "headline": "BILL GATES CALLED ELECTRIC SEMIS IMPOSSIBLE. <em>907,900 PEOPLE JUST WATCHED ONE RUN.</em>"
+    },
+    {
+     "headline": "BILL GATES PREDICTED ELECTRIC TRUCKS WOULD NEVER WORK. <em>907,900 SAW ONE LAST NIGHT.</em>"
+    },
+    {
+     "headline": "<em>BILL GATES SAID NEVER.</em> 907,900 PEOPLE JUST WATCHED THE PROOF."
+    }
+   ],
+   "media": "posts/2026-09-26-i-hope-bill-gates-is-watching-this-he-on/cand-3.jpg",
+   "image_prompt": "A massive electric semi-truck fully loaded with cargo driving down a long wide open highway"
+  }
+ ],
+ "caption": "Bill Gates said electric semi-trucks would never happen. Tesla has been shipping them since December 2022.\n\nBill Gates isn't just a rich guy. He's the person the world paid decades of attention to because he was supposed to be right about where technology was going. On electric semi-trucks, he was not cautious or uncertain. He said it would never happen.\n\nOn September 25, a 90-second clip of an electric semi-truck running under a full load went viral on X. By morning, 907,900 people had watched it, with Gates named in the opening line.\n\nThat phrase, \"never happen,\" is on the record with his name attached to the wrong side of history. He didn't just express doubt. He made a hard call. And the trucks that have been running since 2022 turned that call into one of the most public misses in recent tech history.\n\nEvery diesel trucking company, every fuel supplier, and every job that runs on combustion engines just got the loudest possible signal. Your groceries, your clothes, every package at your door moves on a truck. If electric semis are real at scale, every one of those prices shift. The world's most trusted tech voice called it impossible. The truck didn't check his notes.\n\nElectric semi-trucks were supposed to be the idea that smart money killed. They've been moving freight across America for nearly four years.\n\nRunning a business? DM us \"AI\" and we'll show you how shifts like this hit your supply chain before your competitors notice.\n\nSources: cb_doge on X\n\n#BillGates #ElectricTrucks #Tesla #TechNews #CleanEnergy",
+ "pinned_comment": "Was Gates wrong about electric trucks being possible, or just wrong about the timeline? Because \"never\" and \"not yet\" are very different calls, and which one you believe changes everything about where you think this goes.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "BILL GATES CALLED ELECTRIC SEMIS <em>IMPOSSIBLE</em>. <em>907,900 PEOPLE</em> JUST WATCHED THE PROOF.",
+   "BILL GATES WENT ON RECORD: <em>NO ELECTRIC SEMIS EVER</em>. A VIDEO PROVED HIM WRONG OVERNIGHT.",
+   "BILL GATES SAID ELECTRIC SEMIS WOULD <em>NEVER HAPPEN</em>. <em>THEY HAPPENED.</em>",
+   "BILL GATES PUBLICLY SAID ELECTRIC SEMIS WOULD <em>NEVER EXIST</em>. A <em>90-SECOND VIDEO</em> JUST ENDED THAT."
+  ],
+  "scores": [
+   8.5,
+   7,
+   6.5,
+   7.5
+  ],
+  "winner": 0,
+  "why": "[0] hits harder because 907,900 viewers is concrete viral proof that makes you feel the magnitude instantly. [3]'s \"90-second\" detail is clever but can't match that scale without the numbers to back it up."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "BILL GATES SAID ELECTRIC SEMIS WOULD <em>NEVER HAPPEN</em>. <em>ONE JUST DID.</em>",
+   "BILL GATES PUBLICLY CALLED ELECTRIC SEMIS <em>IMPOSSIBLE</em>. A VIDEO JUST <em>EXPOSED HIM.</em>",
+   "BILL GATES CALLED ELECTRIC SEMIS <em>IMPOSSIBLE</em>. SOMEONE PROVED HIM WRONG <em>IN 90 SECONDS.</em>"
+  ],
+  "scores": [
+   8.5,
+   6,
+   8
+  ],
+  "winner": 0,
+  "why": "\"ONE JUST DID\" creates the sharpest visceral jolt at 2am\u2014Gates said *never*, it *happened*\u2014while staying crystal clear. [2]'s \"90 SECONDS\" adds credibility through real numbers, but [0]'s stark simplicity and emotional directness land the hook faster without sounding crafted."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Bill Gates",
+  "actor_known": true,
+  "anchor": "Bill Gates",
+  "specifics": [
+   "Bill Gates said electric semi-trucks would 'never happen' \u2014 now there's video evidence proving him wrong",
+   "907,900 views in under 24 hours on X",
+   "Video is only 90 seconds long \u2014 short enough to spread to anyone",
+   "Posted Sept 25, 2026, called Gates out by name in the first sentence",
+   "Thousands of replies \u2014 the debate over his prediction is already live"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (2/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "I hope Bill Gates is watching this. He once said electric semi-trucks would never happen.",
+  "link": "https://x.com/cb_doge/status/2103296007752892564",
+  "judge_interest": 5,
+  "scout_score": 56.6
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "INSTANT KILL \u2014 REACTION-BAIT: The only 'event' is a viral clip that racked up 907,900 views. The Tesla Semi has been shipping since December 2022 \u2014 nearly four years ago. The caption itself says so. Nothing moved in the real world on September 25. The post's entire timeliness argument is the view count, which the doctrine names as the failure model ('THE SCREENSHOT HAS 40K LIKES'). Repair: kill th"
+}

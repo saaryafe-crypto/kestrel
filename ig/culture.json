@@ -1,54 +1,54 @@
 {
- "ts": 1790296404.5964794,
- "updated": "2026-09-25",
+ "ts": 1790383665.8533812,
+ "updated": "2026-09-26",
  "hot": [
   {
-   "name": "Olivia Rodrigo",
-   "why_hot_now": "The Unraveled Tour opens TONIGHT (Sept 25) in Hartford — her first world tour in two years, 86 dates globally.",
-   "typical_scene": "pit crowd screaming every lyric back at her"
+   "name": "Ella Langley",
+   "why_hot_now": "\"Choosin' Texas\" just broke the all-time Billboard Hot 100 record this week with its 23rd week at #1, surpassing Mariah Carey.",
+   "typical_scene": "cowboy boots on stage, Texas flag, screaming stadium crowd"
+  },
+  {
+   "name": "Ariana Grande",
+   "why_hot_now": "\"Hate That I Made You Love Me\" is sitting at #4 on the Hot 100 this week after multiple weeks at #1 on Pop Airplay.",
+   "typical_scene": "high ponytail, solo spotlight, belting an impossible note"
+  },
+  {
+   "name": "JENNIE",
+   "why_hot_now": "Her \"Dracula\" collab with Tame Impala is charting at #5 on the Hot 100 this week.",
+   "typical_scene": "strobe-lit festival stage in an avant-garde designer fit"
+  },
+  {
+   "name": "Morgan Wallen",
+   "why_hot_now": "Sitting at #3 on this week's Hot 100, sustaining a months-long chart stranglehold.",
+   "typical_scene": "mullet, backward cap, mic stand at a sold-out arena"
+  },
+  {
+   "name": "Resident Evil",
+   "why_hot_now": "Zach Cregger's reboot opened at #1 this weekend with a franchise-record $60M, already at $108M worldwide.",
+   "typical_scene": "survivors sprinting through rain-soaked zombie-infested city streets"
+  },
+  {
+   "name": "Spider-Man: Brand New Day",
+   "why_hot_now": "Just ended a record-breaking 6-consecutive-week run at #1 at the US box office this month.",
+   "typical_scene": "new suit swinging above a neon-lit city skyline at night"
   },
   {
    "name": "Jeremy Allen White",
-   "why_hot_now": "Calvin Klein campaign still flooding feeds plus a loud Emmy snub controversy with fans declaring he was robbed.",
-   "typical_scene": "shirtless on a beach looking ripped and dramatically brooding"
+   "why_hot_now": "The Bear's latest season plus his inescapable Calvin Klein campaign keeping him everywhere on social media.",
+   "typical_scene": "sweat-drenched chef's apron, open kitchen, controlled chaos"
   },
   {
-   "name": "Ella Langley",
-   "why_hot_now": "'Choosin' Texas' just broke the all-time Billboard Hot 100 record with its 23rd consecutive week at #1.",
-   "typical_scene": "boots and acoustic guitar in golden-hour country light"
-  },
-  {
-   "name": "The Gentlemen",
-   "why_hot_now": "Season 2 just dropped on Netflix and is the most-talked-about binge this week across social.",
-   "typical_scene": "slick British criminals in tailored suits trading razor-sharp quips"
-  },
-  {
-   "name": "Monster: The Lizzie Borden Story",
-   "why_hot_now": "Ryan Murphy's latest Monster entry debuted at #1 on Netflix's English TV chart this week.",
-   "typical_scene": "gaslit Victorian parlor, true-crime dread, period-perfect gore"
-  },
-  {
-   "name": "Harry Styles",
-   "why_hot_now": "The Together Together world tour is mid-run with US arena nights generating wall-to-wall fan content.",
-   "typical_scene": "sequined jumpsuit, stadium singalong, crowd in matching outfits"
-  },
-  {
-   "name": "Katseye",
-   "why_hot_now": "The Wildworld Tour launched September 1 and US arena dates are selling out within minutes.",
-   "typical_scene": "five members in synced choreo under a pink stadium spotlight"
-  },
-  {
-   "name": "Jessie Murph",
-   "why_hot_now": "'I Like How I Look' is TikTok's defining audio of the moment, generating millions of three-slide glow-up videos.",
-   "typical_scene": "mirror selfie, confident smirk, unapologetic to-camera energy"
+   "name": "Practical Magic 2",
+   "why_hot_now": "Opened at #1 Sept. 13 with $30M, knocking Spider-Man off its streak and reigniting 90s witch-aesthetic nostalgia.",
+   "typical_scene": "two sisters casting spells in a candlelit Victorian kitchen"
   }
  ],
  "memes": [
-  "Saxophone Gets Louder: video starts completely normal then a full-blast sax erupts while the frame zooms into total chaos",
-  "KitKat Heist: elaborate Ocean's Eleven-style fantasies about whoever masterminded stealing 400,000 KitKat bars across Europe",
-  "Jimothy the Raccoon: Seattle's famously wide, unbothered raccoon becomes an unlikely internet celebrity with fan edits and tribute accounts",
-  "Tornado Squirrel: the classic squirrel-in-a-storm image resurfaces in a massive September wave across X and TikTok",
-  "2026 is the new 2016: gen-Z ironic-nostalgia side-by-sides comparing 2016 chaos memes to equally unhinged 2026 equivalents"
+  "\"Saxophone Gets Louder\" — video escalates a relatable disaster while a blasting sax signals the exact moment everything goes wrong",
+  "\"KitKat Heist\" — joking captions and fake heist plans riffing on the real European theft of 400,000 KitKat bars",
+  "\"Jimothy the Raccoon\" — famously unbothered, round Seattle raccoon used as a reaction image for not caring about drama",
+  "\"Tornado Squirrel\" — resurging viral animal clip used as a chaotic-entry template for any situation",
+  "\"2026 is the new 2016\" — nostalgia format declaring everything from exactly 10 years ago was peak culture and we must revisit it"
  ],
  "ai_flagships": [
   "Claude Opus 5.5",
