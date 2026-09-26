@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-21T20:19:13Z",
-  "gate": "A",
-  "subject": "\"A computer-science degree is no longer a golden ticket,\" per WSJ",
-  "verdict": "KILL",
-  "reason": "WSJ publishing a trend analysis is not a viral-specific event—no named person took action, no famous lab made a major move, no consequence someone felt. Source material (65 chars) is one quote with zero numbers, details, or specifics; the writer would have to pad significantly from editorial research rather than from a story that actually happened."
- },
- {
   "t": "2026-09-21T20:19:32Z",
   "gate": "A",
   "subject": "Unitree Introducing: Unitree Dex5-S Dexterous Hand 22 Degrees of Freedom 1:1 Real-Hand Size👋 Precision biomimetic dexter",
@@ -2098,5 +2091,12 @@
   "subject": "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>",
   "verdict": "FAIL",
   "reason": "s1: The photo shows men cheering and celebrating at a casino table — a winners' mood that directly contradicts the predatory/exploitation angle of the headline about targeting losing gamblers."
+ },
+ {
+  "t": "2026-09-26T20:42:52Z",
+  "gate": "A",
+  "subject": "Thank you, Prime Minister @JJansaSDS , for your friendship and steadfast support for Israel. 🇮🇱🇸🇮 It was great meeting w",
+  "verdict": "KILL",
+  "reason": "Government diplomatic relations announcement, not a tech/AI industry story—off-brand despite the AI mention in the bilateral cooperation list."
  }
 ]

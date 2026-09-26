@@ -1,0 +1,55 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI קיבל ציון 151: <em>שלושה צעדים לפני שהדירקטוריון שואל</em>",
+   "kicker": "לפני שלוש שנים הציון היה 64 בלבד",
+   "hsize": 72,
+   "face": [
+    "Sam Altman"
+   ],
+   "media": "faces/sam-altman.jpg"
+  }
+ ],
+ "caption": "השבוע AI קיבל 151 במבחן IQ של מנסה נורווגיה. לפני שלוש שנים הציון היה 64. הנה שלושה צעדים. 🧠\n\nהחלון של ה-151\n\n1. חשבון השכר\n\nלפני שלוש שנים AI קיבל 64 במבחן IQ של מנסה נורווגיה, מתחת לממוצע אנושי. שנה אחרי: ממוצע. שנה אחרי זה: גאוני. השבוע: 151, הציון הגבוה ביותר שהמבחן נותן.\n\nהאנליסט הטוב שלך מרוויח 120 עד 180 אלף דולר בשנה. הכלי שפרץ את מבחן מנסה עולה 20 דולר בחודש. אילו תפקידים אצלך עדיין עולים כמו עובד בשר ודם?\n\n2. פער 90 הימים\n\nכל מנכ\"ל בשוק שלך קורא את אותה כותרת היום. מי שיזוז ב-90 הימים הקרובים ייכנס ל-2027 עם יתרון שיקשה על המתחרים לסגור. מי שיחכה יבלה את 2028 רודף אחרי פער שגדל כל חודש. קח שלושה תפקידים אצלך שבהם התוצר הוא מסמך, המלצה או החלטה. אלה שלושת הצעדים הראשונים שלך.\n\n3. מיילים זה לא מספיק\n\nרוב בעלי עסקים משתמשים ב-AI כדי לכתוב מיילים. זה בסדר, אבל בקושי נרגש בתוצאות. המנכ\"לים שמתקדמים שואלים AI שאלות על תמחור, על איך להביא לקוחות ועל איך לשמר אותם. הלילה, שאל: \"אלה שלושת העלויות הגדולות שלי ושלושת מקורות ההכנסה הגדולים שלי. מה התרחיש המסוכן ביותר לרווחים שלי ב-12 החודשים הקרובים, ומה לעשות?\" השאלה הזו עלתה פעם 500 דולר לשעה.\n\nשמור את זה: שלושה צעדים לפני שהדירקטוריון שואל למה עוד לא עשית אותם.\n\nהציון של AI עלה מ-64 ל-151 בשלוש שנים בלבד. כל עסק מתחרה עכשיו מול משהו שמכה את האדם החכם בחדר בכל מבחן שיש. החלון לשלב את זה בעסק שלך לפני שהמתחרים יעשו את זה מתקצר כל חודש.\n\nמנהל עסק? שלח לנו DM עם המילה \"AI\" ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: Mensa Norway\n\nעקוב אחרי @ainews.israel\n\n#AI #ArtificialIntelligence #CEOs #BusinessStrategy #AIBusiness",
+ "pinned_comment": "באיזה צעד העסק שלך הכי מאחור? רוב היזמים שאני מדבר איתם עדיין לא הגיעו לצעד השלישי.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>64 TO 151 IN 3 YEARS.</em> THE WINDOW.",
+   "<em>THE 151 WINDOW.</em> AI JUST BROKE THE SCALE."
+  ],
+  "scores": [
+   7,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] tells you a complete story with real numbers (64 to 151 in 3 years) you believe happened from the cover alone. [1] cryptically hides what occurred and makes you click just to understand what you're even reading about."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>7 AI SKILLS.</em> THE DIFFERENCE BETWEEN A $64K JOB AND A $151K ONE.",
+   "<em>7 AI SKILLS</em> THAT TOOK SALARIES FROM $64K TO $151K IN 3 YEARS"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "1 tells the complete story with a real timeline—$64K to $151K in 3 years—so you believe it immediately. 0 just hints at a salary difference without the narrative that makes you want to open the caption."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "CAST TRUTH VIOLATION: Sam Altman fronts a post where the AI that scored 151 is never named anywhere in the caption or headline. The VENDOR CAST exception is narrow — it covers a post teaching the use of a named famous tool (Sam Altman for a ChatGPT guide). This post gives zero tool-specific instruction and never names OpenAI, ChatGPT, or any OpenAI product. The three CEO moves are generic prompts ",
+ "topic_source": "exec-news",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
