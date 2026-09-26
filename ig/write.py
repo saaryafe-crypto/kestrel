@@ -346,6 +346,45 @@ def image_ok(path, headline):
     return ok
 
 
+def fit_cover(path):
+    """PICTURE IS THE NEWS (owner order Sep 26, the PUSH reference: every
+    cover is the real photo of the event). With generation off (Replicate
+    dead + owner order) the story's real photo is the ONLY cover supply —
+    a portrait or narrow press photo gets blur-padded into the 1080x~800
+    landscape window instead of dying at the geometry gate. Returns the
+    fitted jpg's path, or the original when it already fits (or is junk
+    the gate should still kill). Fails open to the raw photo."""
+    try:
+        from PIL import Image, ImageEnhance, ImageFilter
+        with Image.open(path) as raw:
+            im = raw.convert("RGB")
+        w, h = im.size
+        if w < 640 or h < 480:  # real junk — the geometry gate kills it
+            return path
+        if 1.0 <= w / h <= 1.8 and w >= 1000:
+            return path  # already fills the window
+        W, H = 1620, 1200  # 4:3 ~ the window's 1.35, same as generated covers
+        # backdrop: the photo itself blown up to fill, blurred and dimmed
+        sc = max(W / w, H / h)
+        bg = im.resize((round(w * sc), round(h * sc)))
+        bx, by = (bg.width - W) // 2, (bg.height - H) // 2
+        bg = bg.crop((bx, by, bx + W, by + H))
+        bg = ImageEnhance.Brightness(
+            bg.filter(ImageFilter.GaussianBlur(40))).enhance(0.6)
+        # foreground: the photo whole, contained, centered
+        sc = min(W / w, H / h)
+        fg = im.resize((round(w * sc), round(h * sc)))
+        bg.paste(fg, ((W - fg.width) // 2, (H - fg.height) // 2))
+        out = os.path.splitext(path)[0] + "-fit.jpg"
+        bg.save(out, quality=90)
+        print(f"fit_cover: {w}x{h} blur-padded into the landscape window",
+              file=sys.stderr)
+        return out
+    except Exception as e:
+        print(f"fit_cover failed ({e}) — using the raw photo", file=sys.stderr)
+        return path
+
+
 def emergency_cover(cover0, post_dir):
     """LAST-RESORT rung before a bare cover (owner order Sep 9: "there was
     another time that we uploaded with no image at all in the first slide.
@@ -357,6 +396,8 @@ def emergency_cover(cover0, post_dir):
     a mediocre on-story picture beats a coverless post. Returns the media
     relpath or None (true API/budget death still ships the type cover and
     the bare-cover alert — always-fill intact)."""
+    if genimg.REPLICATE_OFF:
+        return None
     eh = re.sub(r"<[^>]+>", "", cover0.get("headline", "")).strip()
     if not eh:
         return None
@@ -1370,8 +1411,8 @@ FACES POOL — we keep real press photos on file for: {face_list}. If the story'
 COVER HOOK — the #1 priority. The cover decides whether anyone swipes. OWNER DOCTRINE (Aug 1, the reference-page audit — REVERSES the Jul 29 information-gap rule and overrides everything older): the cover TELLS THE WHOLE STORY with its wildest specifics. A cryptic tease only works for pages with authority; a growing page earns the swipe by delivering a complete wild claim the reader already believes — they swipe for the photos, the details and the fallout. Built ONLY from true facts in the story.
 {steer}
 General craft (the STORY TYPE formula above decides which specific leads; these rules shape it):
-- LENGTH 8-14 words, aim 10-13 (owner diet Sep 10, forensic audit: the winners' covers are 3 huge lines — @technology's 90.5K-like cover is 11 words; our 12-25 law produced paragraph covers in small type): ONE complete claim — actor, what happened, and the SINGLE wildest number. Complete but LEAN: the claim holds nothing back, every SUPPORTING spec moves to the caption.
-- Reference craft: "WHAT JUST HAPPENED AROUND THE WORLD IN THE LAST 24 HOURS?" (11 words, their biggest post ever); the keyboard story done right — "OPENAI JUST LAUNCHED ITS FIRST HARDWARE: A $230 AI KEYBOARD" (10 words; "light up", "built to run your coding agents" move inside). TWO failure models: the 4-word riddle ("VISA JUST BET EVERYTHING" — total gap, scrolled past) and the 20-word paragraph cover (small type, nobody reads walls at thumbnail size).
+- LENGTH 5-10 words, aim 6-9 (owner order Sep 26, the PUSH reference — a news page whose every cover is the real event photo + one short plain news sentence; his words: "the picture itself will be the news... the title i want it to be a lot shorter and summarized, right now it is super long and boring" — TIGHTENS the Sep 10 8-14 diet): ONE plain news sentence — actor + what happened, the single wildest number only when it fits naturally. The PICTURE shows the news; the title states it the way a friend texts it. Every SUPPORTING spec moves to the caption.
+- Reference craft: "OPENAI JUST LAUNCHED A $230 AI KEYBOARD" (7 words — the news, whole, short); a "Topic: what happened" colon shape is legal. TWO failure models: the 3-word riddle ("VISA BET EVERYTHING" — total gap, scrolled past) and anything over 10 words (a paragraph in small type — the exact "super long and boring" the owner killed Sep 26).
 - Charged verbs and power words when true: BET, FIRED, DECLARED WAR, ROGUE, SECRET, QUIETLY, BANNED, LEAKED, EXPOSED, ON PURPOSE. Threat/loss framing beats triumph framing when both are true. Second person ("YOUR") when the story touches the reader. Simple 8th-grade words only.
 - Banned on covers: neutral news-title phrasing, hedging (may/could/reportedly), company-PR framing, and any brand name a random 16-year-old wouldn't recognize (use the universal noun the STORY TYPE block names instead).
 - Self-test before finalizing (all must pass): (1) does the headline follow THIS story type's formula above? (2) Does a stranger get the FULL claim — who, what, the ONE wild number — from the cover alone? The claim is never withheld; supporting specifics (second numbers, feature lists, the how) belong to the caption. (3) Is the claim wild enough that they'd stop and read the caption for proof and details? If the summary reads like a neutral newspaper headline, the problem is the angle, not the length — find the wilder true framing.
@@ -1381,7 +1422,7 @@ RULES
 - LANGUAGE (hard requirement): write for a smart 12-year-old (owner Sep 9: "simple and good storytelling" — tightened from 16). Everyday words only, short sentences. No industry jargon anywhere — headlines, bodies, caption. Say what things DO ("runs powerful AI on your own computer"), not what they're called ("an agentic runtime"). If a technical term is unavoidable, explain it in plain words in the same sentence.
 - THE FRIEND TEST (owner order Sep 10, the Anthropic-economics post-mortem: six slides said "model", "scenarios", "surveyed", "economic growth" — the source's official vocabulary — and never once what the thing IS for the reader): every THING in the story is named by what the reader SEES and DOES with it, never by its official noun. The shipped failure: "a model covering jobs, wages and economic growth through 2030 across three scenarios". The sentence a person says: "a website where you type in your job and see if AI takes it by 2030". The source material is a FACT SHEET, not a phrasebook — take its numbers and names, never its nouns. Before finalizing the cover and each caption paragraph, say it out loud to a friend at the table; any phrase you would never say out loud gets rewritten from what the friend would picture.
 - <em>...</em> in the cover headline marks the accent: ONE contiguous phrase, ideally a WHOLE LINE of the headline (two groups absolute max). Orange-on-entire-lines creates rhythm and a reading order; orange scattered across four single words is confetti — four competing focal points = zero focal points (owner verdict Jul 28). Connectives stay white. The headline needs at least one <em>.
-- hsize: headline font px. Cover headlines (8-14 words) → 64-78 so the claim breaks edge-to-edge into 3-4 HUGE condensed lines like the reference page (the renderer caps total block height, so oversizing just shrinks it back).
+- hsize: headline font px. Cover headlines (5-10 words) → 72-84 so the short claim breaks edge-to-edge into 2-3 HUGE condensed lines like the reference page (the renderer caps total block height, so oversizing just shrinks it back).
 - No emojis on the cover. The caption is plain text — no <em>/<b> markup there.
 - Caption: all five blocks in order, separated by blank lines. THE CAPTION IS THE POST (owner order Sep 14: the cover picture is the only image, the caption tells the story under it): the "story" block tells the WHOLE story, summarized in a great and simple way — 2-4 short paragraphs, smart-12-year-old words, every key number and name, the twist, ending on the blunt take (see THE CAPTION'S STORY above). A reader who sees the cover + caption gets the full story. Sources line names the actual outlet(s). Exactly five hashtags (topic keywords for search — hashtags don't add reach). The FIRST sentence carries the payoff AND the search keywords — IG is a search engine in 2026 and the first line drives Explore/search reach: name the company and the topic noun in plain words ("Visa is replacing 2,600 jobs with AI" — searchable; "They just bet everything 👀" — invisible). Only ~125 chars show before "...more". Never tell the reader to swipe — there is nothing to swipe. CTA must be utility ("save this", "send this to..."), NEVER reaction-bait ("tag a friend", "comment YES") — Meta penalizes bait.
 - "pinned_comment" (mandatory): the first comment we plant under the post the second it publishes — hour-one comment velocity is distribution fuel. ONE of: a debatable fault line from the story people must answer ("Would you let it run your payroll? Half of you are lying") or the juiciest fact that didn't fit the caption ("The part we couldn't fit: ..."). 1-2 sentences, no hashtags, no links, never a summary of the post.
@@ -1630,24 +1671,22 @@ def qa(post):
         errs.append("cover has no image_brief, no media_idx and no face — "
                     "the cover is the only picture of the post; write an "
                     "image_brief (one plain 8-25 word line stating the news)")
-    # cover headline diet (owner Sep 10, forensic audit — TIGHTENS the Aug 1
-    # 12-25 summarizing law: the winners' covers are 8-14 words in 3 huge
-    # lines; ours were paragraph covers in small type. The claim stays
-    # complete — actor + action + ONE wild number — the supporting specifics
-    # move to the caption.)
-    cover_cap = 15
+    # cover headline diet (owner Sep 26, PUSH reference — TIGHTENS the Sep 10
+    # 8-14 law: "the title i want it to be a lot shorter and summarized,
+    # right now it is super long and boring". The picture shows the news;
+    # the title is ONE plain 5-10 word sentence stating it.)
+    cover_cap = 11
     cover_words = len(re.sub(r"<[^>]+>", "", headline).split())
     if cover_words > cover_cap:
         errs.append(f"cover headline is {cover_words} words (max {cover_cap}) — "
-                    "ONE lean complete claim (8-14 words): actor, what "
-                    "happened, the single wildest number; move every other "
-                    "spec to the caption")
+                    "ONE plain news sentence (5-10 words): actor + what "
+                    "happened; move every other spec to the caption")
     # floor only for news-story posts (container key) — edu N-promise covers
     # ("6 SERVICES AI REPLACES FOR FREE") are short by design
-    if post.get("container") and cover_words < 8:
+    if post.get("container") and cover_words < 4:
         errs.append(f"cover headline is only {cover_words} words — a riddle. "
-                    "The cover states the complete claim (8-14 words: actor, "
-                    "what happened, the wild number), it never withholds")
+                    "The cover states the whole news in one plain sentence "
+                    "(5-10 words: actor + what happened), it never withholds")
     if len(re.findall(r"<em>", headline)) > 2:
         errs.append("cover has >2 <em> groups — accent ONE contiguous phrase or "
                     "whole line (two max), scattered single-word accents are "
@@ -1887,7 +1926,12 @@ def main(stories_path):
     viral.drop_stale_kicker(post)
     post["viral"] = ctx  # he.py re-creates the Hebrew hook from this
 
-    art_direct(post, story["title"])  # optimal image prompts for the FINAL cover
+    # REPLICATE OFF (owner Sep 26): art_direct only crafts generation
+    # briefs — with no generator alive it is a dead full-Claude call.
+    # The writer's own image_brief/face fields stay for the qa gate and
+    # the press-photo floor.
+    if not genimg.REPLICATE_OFF:
+        art_direct(post, story["title"])  # optimal prompts for the FINAL cover
 
     # (product_screenshot proof-slide machinery retired Sep 14 with the
     # inner slides — the proof slide no longer exists)
@@ -1981,6 +2025,12 @@ def main(stories_path):
                 and not os.path.basename(s["media"]).startswith("gen")
                 and not (want_ref and (face_refs or person))):
             cand = os.path.join(HERE, s["media"])
+            # PICTURE IS THE NEWS (owner Sep 26): portrait press photos are
+            # blur-padded into the window, never thrown away by the gate
+            fit = fit_cover(cand)
+            if fit != cand:
+                s["media"] = os.path.relpath(fit, HERE)
+                cand = fit
             # cover=True (Sep 9): this IS a cover judgment — without the flag
             # the scraped-image gates (meme ban, cast truth) never run here
             ok, score, flaw = image_score(cand, s.get("headline", ""),
@@ -1993,6 +2043,14 @@ def main(stories_path):
             with genlock:
                 pool.append((score, cand))
             s["media"] = None
+        # REPLICATE OFF (owner Sep 26): the whole generation ladder below —
+        # face routes, simpler_brief rewrites, retries — exists only to feed
+        # a generator that is switched off. Skip it entirely: no wasted
+        # Claude rewrite calls, no dead API attempts. The real-photo rungs
+        # in main() (article-image fallback, press-photo floor,
+        # best-of-rejected) carry the cover.
+        if genimg.REPLICATE_OFF:
+            return
         # cover ladder (owner rules Jul 29: capped attempts — each image costs
         # money — the brief rewritten around the judge's named flaw between
         # attempts, and the post NEVER ships imageless: if nothing passes, the
@@ -2148,6 +2206,8 @@ def main(stories_path):
     # non-generated cover is judged exactly once before it may ship.
     if (cover0.get("media") and not cover_scored
             and not os.path.basename(cover0["media"]).startswith("gen")):
+        fit = fit_cover(os.path.join(HERE, cover0["media"]))
+        cover0["media"] = os.path.relpath(fit, HERE)
         ok, score, flaw = image_score(os.path.join(HERE, cover0["media"]),
                                       cover0.get("headline", ""), cover=True)
         if not ok:
@@ -2159,6 +2219,7 @@ def main(stories_path):
         for mi, m in enumerate(media_files, 1):
             if mi in used:
                 continue
+            m = fit_cover(m)
             ok, score, flaw = image_score(m, cover0["headline"], cover=True)
             if ok:
                 cover0["media"] = os.path.relpath(m, HERE)
@@ -2175,7 +2236,7 @@ def main(stories_path):
             # reject stays the floor if the rescue also fails. (Threshold was
             # 4; the Aug 14 fake-Sam cover shipped as a 5/10 best reject, one
             # point above the rescue — a wrong famous face must never win.)
-            if score <= 5 and cover_brief:
+            if score <= 5 and cover_brief and not genimg.REPLICATE_OFF:
                 rb = simpler_brief(
                     cover_brief, cover0.get("headline", ""),
                     flaw=f"best attempt scored {score}/10 — rebuild FACELESS "

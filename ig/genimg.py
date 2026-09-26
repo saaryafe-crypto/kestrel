@@ -42,6 +42,10 @@ USED = os.path.join(HERE, "genimg-used.json")
 # START: gpt-era ledger entries before this date don't count against the new
 # caps (August's $45.31 would otherwise block covers until Sep 1).
 START = "2026-08-30"
+# Owner order Sep 26: Replicate is OFF (account out of credit since ~Sep
+# 24; he is picking a new image solution). generate() returns None
+# immediately while this is True.
+REPLICATE_OFF = True
 MONTH_BUDGET, DAY_BUDGET = 100.00, 0.60
 COVER_DAY_BUDGET = 3.00  # only binds for non-floor bookings (none today)
 COST = 0.03  # Seedream: flat per output image, any size — last fallback rung
@@ -361,6 +365,16 @@ def _save_prompt(out_path, prompt):
 
 def generate(brief, out_path, refs=None, cover=False, person=False, nano=False,
              collage=False, montage=False, named_brief=None):
+    # REPLICATE OFF (owner order Sep 26: "dont use replicate anymore i am
+    # thinking on another solution for now") — the account died Sep 24
+    # (grok 402 Payment Required, every other rung 429) and every cover
+    # shipped bare after burning 4 dead API calls per attempt. Callers
+    # fall back to the story's real scraped/press photos. Flip to False
+    # when the owner picks the new image provider.
+    if REPLICATE_OFF:
+        print("genimg: Replicate disabled (owner order Sep 26)",
+              file=sys.stderr)
+        return None
     key = _key()
     if not key:
         return None

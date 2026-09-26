@@ -568,8 +568,12 @@ def main():
     os.makedirs(post_dir, exist_ok=True)
 
     # simple=True (owner correction Sep 14): guide/inspire covers get the
-    # face+logo plain-line law, never the news lane's scene staging
-    art_direct(post, simple=True)
+    # face+logo plain-line law, never the news lane's scene staging.
+    # REPLICATE OFF (owner Sep 26): with no generator alive art_direct is
+    # a dead full-Claude call — the writer's own "face" cast still feeds
+    # the press-photo floor below.
+    if not genimg.REPLICATE_OFF:
+        art_direct(post, simple=True)
 
     # Cover image (owner verdict Jul 28: an imageless edu cover is "the same
     # template running at 40% capacity" — the cover image is mandatory, and
@@ -610,6 +614,11 @@ def main():
             fp = face_riders("", face_field)[1]
             cover_face = fp[0] if fp else None
         if not brief:
+            continue
+        # REPLICATE OFF (owner Sep 26): skip the whole generation ladder —
+        # no dead API attempts, no simpler_brief rewrite calls. The
+        # cover_face press photo captured above floors the cover.
+        if genimg.REPLICATE_OFF:
             continue
         # cover tries 3 -> 2 (token diet Aug 8): each extra try = a vision
         # judge + a brief rewrite + Replicate spend; best-reject floor remains
@@ -700,7 +709,7 @@ def main():
         # RESCUE RUNG (owner audit Aug 10): a <=4/10 best reject is wallpaper —
         # one cheap faceless Seedream attempt via the no-face playbook before
         # settling for it. Always-post intact: best reject stays the floor.
-        if score <= 4 and cover_brief:
+        if score <= 4 and cover_brief and not genimg.REPLICATE_OFF:
             rb = simpler_brief(
                 cover_brief, cover0.get("headline", ""),
                 flaw=f"best attempt scored {score}/10 — rebuild FACELESS: "

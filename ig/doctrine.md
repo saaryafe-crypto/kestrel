@@ -144,8 +144,16 @@ INSTANT KILL — no other rule can save these:
 
 ## 2. HOOK LAW — the cover sentence
 
-- THE SUMMARIZING COVER: 12-25 words, ONE complete sentence that tells the
-  WHOLE story — actor + what happened + the wild specifics. Nothing withheld.
+- THE SHORT SUMMARIZING COVER (owner order Sep 26, PUSH reference — a
+  news page whose every cover is the real photo of the event + a short
+  plain news sentence; his words: "the picture itself will be the news...
+  the title i want it to be a lot shorter and summarized, right now it
+  is super long and boring" — SUPERSEDES the 12-25 word law): ONE plain
+  news sentence of 5-10 words — actor + what happened, the wildest
+  number only when it fits naturally; a "Topic: what happened" colon
+  shape is legal. The PICTURE shows the news; the title states it the
+  way a friend texts it. Still nothing withheld — short is compression,
+  never a riddle, a tease, or a hype formula.
   ONE actor, ONE action ("AND" joining two actions = cut the weaker one).
 - PERSON-FIRST when a human drives it, with the dinner detail IN the hook
   ("...THEN LOST 67% OF IT DURING HIS WEDDING").
