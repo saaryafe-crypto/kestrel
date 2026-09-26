@@ -1,0 +1,50 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ONE DEVELOPER SHIPPED <em>2,500 CODE UPDATES IN 30 DAYS</em>",
+   "kicker": "AI REVIEWED EVERY ONE ITSELF",
+   "hsize": 72,
+   "face": [
+    "Elon Musk"
+   ],
+   "media": "faces/elon-musk.jpg"
+  }
+ ],
+ "caption": "A developer just shipped 2,500 code updates in one month using AI bots that reviewed and approved their own work.\n\nPoteto shipped 2,500 code updates last month. Most developers push 10 to\n20. He did 2,500, using three AI tools running mostly on their own.\n\n1) Cursor\nType what you want in plain English. Cursor writes the code. Spot a bug, describe it in one sentence, and it's fixed.\nPrompt: \"Look at this function. Find what's breaking, fix it, and add a test so it can't break the same way again.\"\n\n2) Grok Bot\nBefore touching any code, brief Grok on your project. It figures out which changes matter most and why.\nPrompt: \"Here's what I'm building. What's the one change with the biggest impact on users? Write the code for it.\"\n\n3) tldraw\nSketch your system as boxes and arrows on a whiteboard. tldraw's AI reads the picture and builds a working layout from it.\nPrompt: \"Here's my system diagram. Build a working version of this.\"\n\n4) The move that made 2,500 possible\nHis bots submitted code AND approved it. You don't review a single change. The AI checked its own work, merged what looked clean, flagged anything genuinely risky.\nPrompt: \"Review this code as a senior developer who won't let anything break in production. Approve it yourself if it passes. Flag only genuine risks.\"\n\nSAVE THIS: the 3-tool workflow behind 2,500 code updates in one month.\n\nOne developer. Three AI tools. 2,500 shipped updates in a month. The part that used to take the longest, getting someone else to review your work, is now something the AI handles itself. The bottleneck moved.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: poteto\n\n#Cursor #GrokBot #AITools #BuildWithAI #CodeFaster",
+ "pinned_comment": "Which tool surprises you most? For most people it's number 4. The AI reviewing its own work and approving it is the part nobody expected to actually work.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "ONE DEVELOPER SHIPPED <em>2,500 CODE UPDATES IN 30 DAYS</em>",
+   "A GUY SUBMITTED <em>2,500 CODE CHANGES</em> IN ONE MONTH",
+   "2,500 CODE CHANGES IN 30 DAYS <em>FROM A SINGLE DEVELOPER</em>"
+  ],
+  "scores": [
+   9,
+   7,
+   6
+  ],
+  "winner": 0,
+  "why": "[0] uses 'SHIPPED'\u2014the strongest possible verb\u2014and hits my brain instantly as absurd (one person, thousands of updates, deployed). [1]'s 'SUBMITTED' leaves it hanging (accepted? rejected?) and [2] buries the wild claim in passive stats language."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>[N] AI PROMPTS</em> ONE DEVELOPER USED TO SHIP 2,500 CODE UPDATES IN 30 DAYS",
+   "ONE DEVELOPER SHIPPED <em>2,500 CODE UPDATES IN 30 DAYS</em>"
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] delivers pure 'WHAT?' impact with just the raw number and timeline, making you desperate to understand how it's possible. [0] reveals the AI prompts method upfront, removing the shock value and making it sound like a professional explainer rather than a jaw-dropping achievement that stops your scroll."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "Cover image archetype failure: the image shows Elon Musk as a plain press headshot (dark suit, blurred crowd background) with no brand marks, no product element, no story-world context. The required archetype for a 'company/product with famous CEO' cover is person + giant glossy brand mark + the real product. As composed, a stranger at feed size cannot connect this image to '2,500 code updates' or"
+}

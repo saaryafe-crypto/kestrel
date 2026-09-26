@@ -1,0 +1,30 @@
+A developer just shipped 2,500 code updates in one month using AI bots that reviewed and approved their own work.
+
+Poteto shipped 2,500 code updates last month. Most developers push 10 to
+20. He did 2,500, using three AI tools running mostly on their own.
+
+1) Cursor
+Type what you want in plain English. Cursor writes the code. Spot a bug, describe it in one sentence, and it's fixed.
+Prompt: "Look at this function. Find what's breaking, fix it, and add a test so it can't break the same way again."
+
+2) Grok Bot
+Before touching any code, brief Grok on your project. It figures out which changes matter most and why.
+Prompt: "Here's what I'm building. What's the one change with the biggest impact on users? Write the code for it."
+
+3) tldraw
+Sketch your system as boxes and arrows on a whiteboard. tldraw's AI reads the picture and builds a working layout from it.
+Prompt: "Here's my system diagram. Build a working version of this."
+
+4) The move that made 2,500 possible
+His bots submitted code AND approved it. You don't review a single change. The AI checked its own work, merged what looked clean, flagged anything genuinely risky.
+Prompt: "Review this code as a senior developer who won't let anything break in production. Approve it yourself if it passes. Flag only genuine risks."
+
+SAVE THIS: the 3-tool workflow behind 2,500 code updates in one month.
+
+One developer. Three AI tools. 2,500 shipped updates in a month. The part that used to take the longest, getting someone else to review your work, is now something the AI handles itself. The bottleneck moved.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: poteto
+
+#Cursor #GrokBot #AITools #BuildWithAI #CodeFaster
