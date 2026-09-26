@@ -1,0 +1,17 @@
+DraftKings' AI specifically targeted losing bettors with more prompts to keep them gambling, and Massachusetts just opened a formal investigation
+
+Everyone assumed the free-bet offers and promos from gambling apps were blasted to every user the same way. That's not how it worked. DraftKings' AI was quietly watching individual accounts, tracking who was on losing streaks, and using those losses as the trigger to send more bet prompts.
+
+Here's the part that flips it: the AI didn't go after winners or casual bettors. It specifically filtered for the people already in the hole. The worse your week was, the higher up the list you climbed. Your worst gambling weekend wasn't just bad luck. It was what made you their most important customer.
+
+So while DraftKings was running 'bet responsibly' disclaimers on every page, they were simultaneously running an AI whose entire job was to find people already bleeding money and push them to lose more. Drop $300 on a bad Sunday and the notification that shows up Monday isn't random. An AI saw that $300 loss and pulled the trigger.
+
+Massachusetts opened a formal investigation into DraftKings and other gambling sites for exactly this. Every loss you've ever had on a betting app is data that was used against you. A system that runs responsible gambling campaigns while hunting its most vulnerable users is not a side effect. It's the business model.
+
+Gambling apps have run responsible gambling campaigns for years while quietly building AI that does the opposite. This investigation will force every betting platform to answer for the same system.
+
+Running a business? DM us "AI" and we'll show you what ethical data targeting actually looks like.
+
+Sources: unusual_whales on X
+
+#DraftKings #SportsBetting #AI #GamblingRegulation #ResponsibleGambling

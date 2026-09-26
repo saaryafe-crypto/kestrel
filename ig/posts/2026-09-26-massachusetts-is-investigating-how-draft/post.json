@@ -1,0 +1,85 @@
+{
+ "image_brief": "DraftKings betting app on phone showing promo notification after a visible losing streak, with DraftKings logo",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>",
+   "kicker": "MASSACHUSETTS JUST OPENED AN INVESTIGATION",
+   "hsize": 72,
+   "media": "posts/2026-09-26-massachusetts-is-investigating-how-draft/cand-1.webp",
+   "image_prompt": "a phone with red gambling losses being locked on by cold AI targeting crosshairs"
+  }
+ ],
+ "caption": "DraftKings' AI specifically targeted losing bettors with more prompts to keep them gambling, and Massachusetts just opened a formal investigation\n\nEveryone assumed the free-bet offers and promos from gambling apps were blasted to every user the same way. That's not how it worked. DraftKings' AI was quietly watching individual accounts, tracking who was on losing streaks, and using those losses as the trigger to send more bet prompts.\n\nHere's the part that flips it: the AI didn't go after winners or casual bettors. It specifically filtered for the people already in the hole. The worse your week was, the higher up the list you climbed. Your worst gambling weekend wasn't just bad luck. It was what made you their most important customer.\n\nSo while DraftKings was running 'bet responsibly' disclaimers on every page, they were simultaneously running an AI whose entire job was to find people already bleeding money and push them to lose more. Drop $300 on a bad Sunday and the notification that shows up Monday isn't random. An AI saw that $300 loss and pulled the trigger.\n\nMassachusetts opened a formal investigation into DraftKings and other gambling sites for exactly this. Every loss you've ever had on a betting app is data that was used against you. A system that runs responsible gambling campaigns while hunting its most vulnerable users is not a side effect. It's the business model.\n\nGambling apps have run responsible gambling campaigns for years while quietly building AI that does the opposite. This investigation will force every betting platform to answer for the same system.\n\nRunning a business? DM us \"AI\" and we'll show you what ethical data targeting actually looks like.\n\nSources: unusual_whales on X\n\n#DraftKings #SportsBetting #AI #GamblingRegulation #ResponsibleGambling",
+ "pinned_comment": "The part that should bother you most: losing didn't flag you as someone who needed help. It moved you up the priority list. The more you lost, the more attention the AI gave you.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "THE MORE YOU LOST ON DRAFTKINGS <em>THE MORE THEIR AI CAME AFTER YOU</em>",
+   "DRAFTKINGS BUILT AI THAT <em>TARGETED YOU HARDER THE MORE YOU LOST</em>",
+   "DRAFTKINGS' AI <em>TARGETED YOU HARDER THE MORE MONEY YOU LOST</em>",
+   "MASSACHUSETTS JUST PROVED DRAFTKINGS AI <em>USED YOUR LOSING STREAKS AGAINST YOU</em>",
+   "DRAFTKINGS AND OTHER GAMBLING APPS USED AI TO <em>PREY ON YOUR LOSING STREAKS</em>",
+   "YOUR DRAFTKINGS LOSSES <em>MADE YOU THEIR HIGHEST-PRIORITY AI TARGET</em>",
+   "LOSING ON DRAFTKINGS <em>MADE YOU THE AI'S MOST VALUABLE CUSTOMER</em>",
+   "DRAFTKINGS BUILT AN AI THAT <em>FOUND LOSING BETTORS AND PUSHED THEM TO BET MORE</em>",
+   "LOSING ON DRAFTKINGS <em>MADE YOU THEIR AI'S HIGHEST-PRIORITY TARGET</em>",
+   "DRAFTKINGS' AI WAS <em>WATCHING YOU LOSE</em> AND PUSHING YOU TO BET MORE"
+  ],
+  "scores": [
+   8,
+   8,
+   7,
+   0,
+   8,
+   9,
+   7,
+   6,
+   9,
+   8
+  ],
+  "winner": 5,
+  "why": "It flips everything you assume about customer value, creating the 'WAIT, what?' moment that makes you stop scrolling. [8] lands the same hook but 'losing on' is less personal than 'your losses.'"
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "DRAFTKINGS' AI WAITED FOR YOU TO LOSE, <em>THEN PUSHED YOU TO BET MORE</em>",
+   "DRAFTKINGS GOT CAUGHT <em>USING AI TO HUNT YOU WHEN YOU WERE LOSING</em>",
+   "YOUR DRAFTKINGS LOSSES <em>MADE YOU THEIR HIGHEST-PRIORITY AI TARGET</em>",
+   "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   7.5,
+   8.5
+  ],
+  "winner": 3,
+  "why": "[3]'s 'harder the more you lost' reveals active escalation\u2014the AI increases manipulation pressure as your losses grow. [0]'s 'waited then pushed' is predatory but static; [3]'s dynamic cruelty is the ultimate shock."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "DraftKings",
+  "actor_known": true,
+  "anchor": "DraftKings",
+  "specifics": [
+   "AI specifically filtered for users who were LOSING \u2014 losing money made you the highest-priority target",
+   "Massachusetts opened a formal investigation, suggesting this may cross a legal line",
+   "Multiple gambling sites used this practice, not just DraftKings",
+   "Reported by the New York Times",
+   "The system turned your worst financial moments into a trigger for more manipulation"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (0/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Massachusetts is investigating how DraftKings and other gambling sites used AI to target losing bettors and encourage them to bet more, per NYT",
+  "link": "https://x.com/unusual_whales/status/2103847307427111078",
+  "judge_interest": 4,
+  "scout_score": 105.0
+ },
+ "editor_override": "CAST TRUTH VIOLATION \u2014 the cover image is a recognizable still from 'The Hangover' featuring Bradley Cooper, Zach Galifianakis, Ed Helms, Ken Jeong, and other cast members at a craps table. None of these people have any role in the DraftKings story. Famous faces used as gambling-scene decoration is exactly what Cast Truth prohibits: 'if a recognizable famous person is the cover subject but that pe",
+ "gate_r": "s1: The photo shows men cheering and celebrating at a casino table \u2014 a winners' mood that directly contradicts the predatory/exploitation angle of the headline about targeting losing gamblers."
+}

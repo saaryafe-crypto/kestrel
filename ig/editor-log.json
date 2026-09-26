@@ -1,152 +1,5 @@
 [
  {
-  "t": "2026-09-21T06:27:56Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW FAIL — cover has no subject. The orange particle-streak on black is abstract decoration; it proves nothing about today's news and passes the thumb test as 'generic tech page,' not as proof of any story. The law is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' Fix: replace with a photoreal composite built around today's mo"
- },
- {
-  "t": "2026-09-21T06:29:42Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — EMPTY-TOP/DECORATIVE COVER: The cover image is an abstract orange particle burst on a black background. There is no photoreal subject, no staged scene, no proof of any story in frame. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' and 'Every image is PROOF or a STAGED SCENE OF THE STORY — never decoration"
- },
- {
-  "t": "2026-09-21T06:29:50Z",
-  "gate": "R",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-21T11:11:12Z",
-  "gate": "A",
-  "subject": "With 5.4 million views in the last 2 days, this video is on track to soon become @Neuralink's most viewed video on YouTu",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-21T11:12:13Z",
-  "gate": "A",
-  "subject": "A US household would need $124,674 a year to afford a median-priced home, 44% more than the current median income, per A",
-  "verdict": "KILL",
-  "reason": "Economic statistic, not an event—routine analyst-type data release the page explicitly bans; no AI/tech lens."
- },
- {
-  "t": "2026-09-21T11:13:01Z",
-  "gate": "A",
-  "subject": "YouTuber Logan Paul purchased this NFT for $635,000 in 2021. Today, it's worth $96.",
-  "verdict": "KILL",
-  "reason": "No current news hook—reads as trivia measurement of a 2021 purchase rather than a viral-specific event; contradicts the page's news-first mandate which demands substantive tech/AI stories, not celebrity investment schadenfreude."
- },
- {
-  "t": "2026-09-21T11:34:00Z",
-  "gate": "B",
-  "subject": "NEURALINK JUST LET AN ALS PATIENT THINK WORDS, <em>AND HIS OWN VOICE SPOKE THEM.</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH VIOLATION — HARD REJECT: The cover shows Elon Musk with a Neuralink chip composited onto his forehead. The story is about Terry, an ALS patient. Musk has no role in this story — he is not mentioned in the caption, he did not receive the implant, and the VOICE trial subject is a private individual named Terry. Musk as decoration breaks image-headline connection with zero vendor-cast exce"
- },
- {
-  "t": "2026-09-21T11:35:58Z",
-  "gate": "B",
-  "subject": "NEURALINK JUST LET AN ALS PATIENT THINK WORDS, <em>AND HIS OWN VOICE SPOKE THEM.</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — CAST TRUTH / FALSE VISUAL CLAIM: The image stages Elon Musk with a Neuralink chip composited onto his forehead, eyes closed, mouth open — visually declaring that HE is the ALS patient whose voice was restored. The headline says 'AN ALS PATIENT' and the caption names Terry. Musk is not the patient; he does not have the implant. A stranger seeing this cover at feed size reads 'Elon Mus"
- },
- {
-  "t": "2026-09-21T11:37:33Z",
-  "gate": "B",
-  "subject": "NEURALINK JUST LET AN ALS PATIENT THINK WORDS, <em>AND HIS OWN VOICE SPOKE THEM.</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH FAILURE — PRIMARY KILL. The cover shows Elon Musk with a Neuralink chip composited onto his forehead. The story's protagonist is Terry, an ALS patient. Musk has not had ALS, has not had a Neuralink implanted, and plays no role in this specific event. A scroller reads 'AN ALS PATIENT' while looking at Musk's face with a chip in his head — they conclude Musk has ALS and underwent the proc"
- },
- {
-  "t": "2026-09-21T11:39:04Z",
-  "gate": "A",
-  "subject": "A US household would need $124,674 a year to afford a median-priced home, 44% more than the current median income, per A",
-  "verdict": "KILL",
-  "reason": "Routine economic data release, not a viral-specific event; off-lens for an AI/tech page (housing policy, not technology/AI/founder-driven)."
- },
- {
-  "t": "2026-09-21T11:39:23Z",
-  "gate": "A",
-  "subject": "YouTuber Logan Paul purchased this NFT for $635,000 in 2021. Today, it's worth $96.",
-  "verdict": "KILL",
-  "reason": "Off-brand because this is a crypto/entertainment story about an entertainer, not the AI/tech news the page's identity requires (order Sep 3)."
- },
- {
-  "t": "2026-09-21T12:01:36Z",
-  "gate": "B",
-  "subject": "LOGAN PAUL TURNED <em>$635,000</em> INTO <em>$96</em> BUYING A DIGITAL PHOTO.",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — CAST FAIL: The cover shows a generated blonde man who is not recognizably Logan Paul. Logan Paul has a famously distinct look (broad jaw, muscular build, specific facial structure); the man in frame is a generic AI-generated stranger. The doctrine bans 'a generated unknown face' and requires 'recognizable famous people (real photo or names-direct generation).' A viewer who doesn't alre"
- },
- {
-  "t": "2026-09-21T12:03:07Z",
-  "gate": "B",
-  "subject": "LOGAN PAUL TURNED <em>$635,000</em> INTO <em>$96</em> BUYING A DIGITAL PHOTO.",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — GENERATED UNKNOWN FACE: The man in the photo is a lean, curly-haired blonde with blue eyes. Logan Paul has dark brown hair, a distinctly heavy/square jaw, and a visibly muscular frame — this face matches none of those. A stranger at feed speed sees a random crying guy, not Logan Paul. IMAGE LAW is explicit: 'never a generated unknown face.' The concept (man crying while holding a Bor"
- },
- {
-  "t": "2026-09-21T12:04:25Z",
-  "gate": "B",
-  "subject": "LOGAN PAUL TURNED <em>$635,000</em> INTO <em>$96</em> BUYING A DIGITAL PHOTO.",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — Generated unknown face, not Logan Paul: The cover shows a generic crying blonde man who does not resemble Logan Paul. The doctrine requires 'recognizable famous people (real photo or names-direct generation)' and explicitly bans 'a generated unknown face.' This face does not read as Logan Paul to a cold viewer — the likeness is too generic to pass. Fix: regenerate with an accurate Loga"
- },
- {
-  "t": "2026-09-21T12:05:41Z",
-  "gate": "A",
-  "subject": "A US household would need $124,674 a year to afford a median-priced home, 44% more than the current median income, per A",
-  "verdict": "KILL",
-  "reason": "Off-brand; housing affordability is macro-economic data, not technology or AI news."
- },
- {
-  "t": "2026-09-21T12:32:58Z",
-  "gate": "B",
-  "subject": "YOU EARN $86,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
-  "verdict": "REJECT",
-  "reason": "TRUTH LAW — the three core numbers are arithmetically inconsistent. The hook states 'YOU EARN $86,000 AND STILL NEED $44,000 MORE', implying a needed income of $130,000. The caption states the needed income is $124,674 and the gap is 'roughly $44,000'. Those two cannot both be true: $124,674 − $86,000 = $38,674, not $44,000. The $44,000 gap is only correct if the earning baseline is ~$80,674 (the "
- },
- {
-  "t": "2026-09-21T12:35:52Z",
-  "gate": "B",
-  "subject": "YOU EARN $80,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
-  "verdict": "REJECT",
-  "reason": "FRIEND TEST FAIL — caption line 'They build no equity' uses financial jargon nobody says out loud to a friend. Spoken rewrite: 'They keep renting. Every month the money disappears and they own nothing.' One word swap carries the whole meaning without the real-estate term.; FRIEND TEST FAIL — 'that window is not growing' (final caption paragraph) is vague on first listen; a friend at the table asks"
- },
- {
-  "t": "2026-09-21T12:38:06Z",
-  "gate": "B",
-  "subject": "YOU EARN $80,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
-  "verdict": "REJECT",
-  "reason": "Hook AND-violation: 'YOU EARN $80,000 AND STILL NEED $44,000 MORE TO BUY AN AVERAGE HOME' joins two verb phrases with AND (EARN, NEED), breaking Hook Law §2's ONE actor / ONE action rule ('AND joining two actions = cut the weaker one'). The payoff is the gap — the earning clause is setup, not the story. Cut it and lead with the revelation: e.g., 'YOU NEED $44,000 MORE THAN YOU EARN TO BUY AN AVERA"
- },
- {
-  "t": "2026-09-21T12:38:21Z",
-  "gate": "R",
-  "subject": "YOU EARN $80,000 AND STILL NEED <em>$44,000 MORE</em> TO BUY AN AVERAGE HOME",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-21T18:59:26Z",
-  "gate": "B",
-  "subject": "PEOPLE FLED THESE AI-THREATENED JOBS. THE ONES WHO STAYED EARNED <em>46% MORE</em>.",
-  "verdict": "REJECT",
-  "reason": "HOOK IS TWO SENTENCES, NOT ONE. Hook law mandates 'ONE complete sentence that tells the WHOLE story.' 'PEOPLE FLED THESE AI-THREATENED JOBS. THE ONES WHO STAYED EARNED 46% MORE.' is two separate sentences. Fix: merge into one, e.g. 'THE WORKERS WHO STAYED IN AI-THREATENED JOBS ARE NOW EARNING 46% MORE THAN THEY DID BEFORE AI ARRIVED.'; FRIEND TEST FAIL — 'Moderately AI-exposed roles: +41%' is offi"
- },
- {
-  "t": "2026-09-21T19:00:29Z",
-  "gate": "R",
-  "subject": "PEOPLE FLED THESE AI-THREATENED JOBS. THE ONES WHO STAYED EARNED <em>46% MORE</em>.",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
   "t": "2026-09-21T20:19:13Z",
   "gate": "A",
   "subject": "\"A computer-science degree is no longer a golden ticket,\" per WSJ",
@@ -2098,5 +1951,152 @@
   "subject": "Thank you, Prime Minister @JJansaSDS , for your friendship and steadfast support for Israel. 🇮🇱🇸🇮 It was great meeting w",
   "verdict": "KILL",
   "reason": "No substance and off-lens: vague diplomatic bilateral announcement with zero concrete AI/tech details, no numbers, no real outcome, and requires heavy padding to build slides from."
+ },
+ {
+  "t": "2026-09-26T19:03:09Z",
+  "gate": "A",
+  "subject": "A friend in Sweden just asked me what skiing gear to get for this season… I only had one thing, this ofcourse 👇",
+  "verdict": "KILL",
+  "reason": "Reaction-bait with no substance: the source is a cryptic one-line teaser that ends mid-reveal ('this ofcourse 👇'), and the 115K likes are engagement with the mystery, not a real-world event; the writer has no facts, numbers, or consequence to build from—just padding guesswork about what was recommended and why."
+ },
+ {
+  "t": "2026-09-26T19:03:21Z",
+  "gate": "A",
+  "subject": "i wonder if the first episode will ever dethrone the silly team rocket meme i did 4 years ago",
+  "verdict": "KILL",
+  "reason": "One thin speculative tweet has no substance—no released project, no outcome, no numbers—and lacks confirmation the content involves AI/tech."
+ },
+ {
+  "t": "2026-09-26T19:03:53Z",
+  "gate": "A",
+  "subject": "Massachusetts is investigating how DraftKings and other gambling sites used AI to target losing bettors and encourage th",
+  "verdict": "APPROVE",
+  "reason": "A state investigation into AI-weaponized betting targeting is a real regulatory event with known actors (Massachusetts AG, DraftKings); it meets the calibration standard for 'reality moved' and is substantively expandable from NYT reporting, despite low scout interest."
+ },
+ {
+  "t": "2026-09-26T19:04:37Z",
+  "gate": "A",
+  "subject": "New on the Science Blog: Yes, Claude can do Nine Loops. Theoretical physicists predict how particles behave using formul",
+  "verdict": "APPROVE",
+  "reason": "Record-setting event from household-name lab Anthropic qualifies as 'first-ever/record' under EARNS A SLOT; writer can translate the physics achievement into accessible capability story, and killing it risks more listicle filler—the page's stated #1 content problem."
+ },
+ {
+  "t": "2026-09-26T19:22:32Z",
+  "gate": "B",
+  "subject": "AN AI JUST BROKE A PHYSICIST'S WORLD RECORD <em>USING HIS OWN METHODS AGAINST HIM</em>",
+  "verdict": "REJECT",
+  "reason": "NO COVER IMAGE — cover_has_image: false is an unconditional IMAGE LAW §3 failure: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a daily_item (single-picture post), so the cover IS the post's face; shipping it with no image is shipping nothing. Fix: produce a photoreal cover. The correct archetype for this story is 'benchmark/leak' or"
+ },
+ {
+  "t": "2026-09-26T19:24:01Z",
+  "gate": "B",
+  "subject": "AN AI JUST BROKE A PHYSICIST'S WORLD RECORD <em>USING HIS OWN METHODS AGAINST HIM</em>",
+  "verdict": "REJECT",
+  "reason": "cover_has_image: false — IMAGE LAW §3 is an unconditional rule: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This format is described as a single-picture post, so the single image is the cover. No image exists. Fix: attach a photoreal cover image. The correct archetype for this story type is 'famous actor + the proof made physical': a real "
+ },
+ {
+  "t": "2026-09-26T19:25:17Z",
+  "gate": "B",
+  "subject": "AN AI JUST BROKE A PHYSICIST'S WORLD RECORD <em>USING HIS OWN METHODS AGAINST HIM</em>",
+  "verdict": "REJECT",
+  "reason": "Cover has no image (`cover_has_image: false`). IMAGE LAW is absolute and has no exceptions: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' Fix: a cover image must be created and attached before this post can go live. For this story the correct archetype is human-moment or benchmark: Lance Dixon's real press photo (face in disbelief/confirmati"
+ },
+ {
+  "t": "2026-09-26T19:26:14Z",
+  "gate": "A",
+  "subject": "A friend in Sweden just asked me what skiing gear to get for this season… I only had one thing, this ofcourse 👇",
+  "verdict": "KILL",
+  "reason": "Pure engagement bait: the entire source is a teaser with zero substance revealed, forcing the writer to speculate about what 'this' is rather than report a described event with real consequence."
+ },
+ {
+  "t": "2026-09-26T19:26:20Z",
+  "gate": "A",
+  "subject": "i wonder if the first episode will ever dethrone the silly team rocket meme i did 4 years ago",
+  "verdict": "KILL",
+  "reason": "Off-lens (subject is artist's content strategy, not AI/tech as the story's star) plus no substance: pure speculation without real event, no consequence, just one thin tweet where the writer would have to pad or invent context."
+ },
+ {
+  "t": "2026-09-26T19:26:35Z",
+  "gate": "A",
+  "subject": "JUST IN: NVIDIA $NVDA CEO Jensen Huang says we're entering a \"low IQ era\" where children won't need to learn basic math.",
+  "verdict": "KILL",
+  "reason": "One unverified quote with no date, context, or documented real-world consequence—this is reaction-bait (the substance is online engagement to a claim), not a news event where reality moved."
+ },
+ {
+  "t": "2026-09-26T19:26:45Z",
+  "gate": "A",
+  "subject": "Massachusetts is investigating how DraftKings and other gambling sites used AI to target losing bettors and encourage th",
+  "verdict": "KILL",
+  "reason": "This fails THE STANDARD: regulatory investigations are important but lack the jaw-dropping, demonstrated consequence that stops mid-scroll and earns shares—it's process-news, not the wild-but-true event 12-year-olds send to friends, and scouts' 4/10 confirms weak viral potential."
+ },
+ {
+  "t": "2026-09-26T19:47:52Z",
+  "gate": "B",
+  "subject": "AN AI SCAM HIT <em>5.1 MILLION</em> PEOPLE BEFORE ANYONE FLAGGED IT AS FAKE",
+  "verdict": "REJECT",
+  "reason": "Caption contains a ski emoji (🎿) after the opening paragraph — §4 and §7 explicitly ban emojis. Remove it.; Cover image fails the thumb test: a stranger at feed size sees a person trying on ski gear and reads it as a product recommendation — the exact opposite signal of the story. It shows the bait, not the proof. For a 'caught-on-camera' scam story the cover must show the evidence: the community "
+ },
+ {
+  "t": "2026-09-26T19:49:29Z",
+  "gate": "B",
+  "subject": "AN AI SCAM HIT <em>5.1 MILLION</em> PEOPLE BEFORE ANYONE FLAGGED IT AS FAKE",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — thumb test fails. The cover is a playful lifestyle ski photo (masked person in a yellow Lego-face balaclava adjusting ski goggles). A stranger seeing it at feed size reads 'fun ski content' — not 'AI scam hit 5.1 million people.' The image is decoration, not proof. The Doctrine is explicit: 'seen once at feed size, a stranger guesses the story.' This one guesses wrong.\n\nFIX: The correc"
+ },
+ {
+  "t": "2026-09-26T19:51:07Z",
+  "gate": "B",
+  "subject": "AN AI SCAM HIT <em>5.1 MILLION</em> PEOPLE BEFORE ANYONE FLAGGED IT AS FAKE",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — thumb test failure: the cover shows a person in novelty ski gear (yellow cartoon-face balaclava, ski jacket, Alpine village background). At feed speed, a stranger sees 'fun ski content,' not 'AI scam reached 5.1 million people.' The image is decoration for the topic (ski gear recommendation) rather than proof of the story (AI-generated fraudulent storefront, community-note warning, mas"
+ },
+ {
+  "t": "2026-09-26T19:51:57Z",
+  "gate": "A",
+  "subject": "i wonder if the first episode will ever dethrone the silly team rocket meme i did 4 years ago",
+  "verdict": "KILL",
+  "reason": "One thin tweet of pure speculation from an unknown artist with no event, outcome, or AI/tech angle required by the lane—requires padding where none exists."
+ },
+ {
+  "t": "2026-09-26T19:52:11Z",
+  "gate": "A",
+  "subject": "JUST IN: NVIDIA $NVDA CEO Jensen Huang says we're entering a \"low IQ era\" where children won't need to learn basic math.",
+  "verdict": "KILL",
+  "reason": "One thin tweet with no verified context or consequence; a provocative statement generating reactions is reaction-bait, not a news event."
+ },
+ {
+  "t": "2026-09-26T19:52:14Z",
+  "gate": "A",
+  "subject": "Massachusetts is investigating how DraftKings and other gambling sites used AI to target losing bettors and encourage th",
+  "verdict": "APPROVE",
+  "reason": "A household-name regulatory action (DraftKings under state investigation) where government authority provably moved; fits §1 calibration warning against killing famous-actor events for short source tweets."
+ },
+ {
+  "t": "2026-09-26T20:07:59Z",
+  "gate": "B",
+  "subject": "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH FAIL (IMAGE LAW §3, hard REJECT): The cover is a still from The Hangover — recognizable actors (Bradley Cooper, Zach Galifianakis, Ed Helms, Ken Jeong) at a craps table. None of them appear in this story. Using famous people as decoration is explicitly prohibited: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Fix: replace with "
+ },
+ {
+  "t": "2026-09-26T20:09:07Z",
+  "gate": "B",
+  "subject": "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH FAIL — the cover image is a recognizable movie still of the cast of The Hangover (Bradley Cooper, Zach Galifianakis, Ed Helms, Ken Jeong, and others) at a casino craps table. None of these people have any role in the DraftKings story. This is textbook cast-truth rejection: famous faces used as decoration with zero connection to the actual story. Fix: replace with a composite that center"
+ },
+ {
+  "t": "2026-09-26T20:10:21Z",
+  "gate": "B",
+  "subject": "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION — the cover image is a recognizable still from 'The Hangover' featuring Bradley Cooper, Zach Galifianakis, Ed Helms, Ken Jeong, and other cast members at a craps table. None of these people have any role in the DraftKings story. Famous faces used as gambling-scene decoration is exactly what Cast Truth prohibits: 'if a recognizable famous person is the cover subject but that pe"
+ },
+ {
+  "t": "2026-09-26T20:10:30Z",
+  "gate": "R",
+  "subject": "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>",
+  "verdict": "FAIL",
+  "reason": "s1: The photo shows men cheering and celebrating at a casino table — a winners' mood that directly contradicts the predatory/exploitation angle of the headline about targeting losing gamblers."
  }
 ]
