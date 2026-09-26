@@ -1398,7 +1398,8 @@ OUTPUT — a single JSON object: {{"container": "...", "cover_style": "...", "lo
 "slides" holds EXACTLY ONE slide (owner order Sep 14, single-picture posts — inner slides are dead, never write one): type "cover" — THE HOOK, the single most important thing in the whole post (see COVER HOOK below). No body.
 
 THE CAPTION'S STORY (the caption IS the post now — everything the inner slides used to carry lives here):
-- STORY ARC, not a list: the story block's 2-4 short paragraphs run stakes → escalation → TWIST → consequence → payoff, in order, the way a 19-year-old tells it at the table.
+- NEWS-DESK SHORT (owner order Sep 26 — "the titles under the post short and summerized in the best ways that also news and media are doing it", TIGHTENS the Sep 14 whole-story law): the story block is ONE short paragraph of 2-5 plain news sentences, the way AP or a top news page captions a photo. What happened, the key numbers and names, the twist, the take. No multi-paragraph storytelling, nothing a reader would skim.
+- STORY ARC inside those sentences: stakes → TWIST → consequence, in order, the way a 19-year-old tells it at the table.
 - KEEP/CUT (owner directive Jul 31: "people want the story itself"): KEEP what physically happened, in order; the money and the numbers; the one consequence that touches the reader; names ONLY if a random 16-year-old already knows them (Musk, Apple, OpenAI) or the story is literally about that person becoming known. CUT every other name (say "the engineers", "the company"); quotes from random internet users; job titles; the outlet that reported it; how the news spread ("went viral"); anything a reader would skim.
 - FELT SCALE (owner directive Aug 1): every number gets translated into what a PERSON feels, never what an index did — absolute dollars ("$3 billion gone by lunch"), the reader's own stake ("$1,000 of Reddit stock on Monday was $770 by dinner"), a record ("its worst day ever"), a comparison a teenager knows. Finance-wire vocabulary is BANNED — index names (S&P 500, Nasdaq, Dow), tickers, "shares", "the market", "market cap", "trading session". A 12-year-old never says those words, so we never write them.
 - THE "YOU" BEAT: at least one sentence speaks straight to the reader in second person, tying the story to THEIR money, job, or day ("Your accountant should be nervous"). Built from true facts only.
@@ -1424,7 +1425,7 @@ RULES
 - <em>...</em> in the cover headline marks the accent: ONE contiguous phrase, ideally a WHOLE LINE of the headline (two groups absolute max). Orange-on-entire-lines creates rhythm and a reading order; orange scattered across four single words is confetti — four competing focal points = zero focal points (owner verdict Jul 28). Connectives stay white. The headline needs at least one <em>.
 - hsize: headline font px. Cover headlines (5-10 words) → 72-84 so the short claim breaks edge-to-edge into 2-3 HUGE condensed lines like the reference page (the renderer caps total block height, so oversizing just shrinks it back).
 - No emojis on the cover. The caption is plain text — no <em>/<b> markup there.
-- Caption: all five blocks in order, separated by blank lines. THE CAPTION IS THE POST (owner order Sep 14: the cover picture is the only image, the caption tells the story under it): the "story" block tells the WHOLE story, summarized in a great and simple way — 2-4 short paragraphs, smart-12-year-old words, every key number and name, the twist, ending on the blunt take (see THE CAPTION'S STORY above). A reader who sees the cover + caption gets the full story. Sources line names the actual outlet(s). Exactly five hashtags (topic keywords for search — hashtags don't add reach). The FIRST sentence carries the payoff AND the search keywords — IG is a search engine in 2026 and the first line drives Explore/search reach: name the company and the topic noun in plain words ("Visa is replacing 2,600 jobs with AI" — searchable; "They just bet everything 👀" — invisible). Only ~125 chars show before "...more". Never tell the reader to swipe — there is nothing to swipe. CTA must be utility ("save this", "send this to..."), NEVER reaction-bait ("tag a friend", "comment YES") — Meta penalizes bait.
+- Caption: all five blocks in order, separated by blank lines. THE CAPTION IS THE POST (owner order Sep 14: the cover picture is the only image, the caption tells the story under it), but NEWS-DESK SHORT since Sep 26: the "story" block is ONE short paragraph of 2-5 plain news sentences — smart-12-year-old words, every key number and name, the twist, ending on the blunt take (see THE CAPTION'S STORY above). A reader who sees the cover + caption gets the full story. Sources line names the actual outlet(s). Exactly five hashtags (topic keywords for search — hashtags don't add reach). The FIRST sentence carries the payoff AND the search keywords — IG is a search engine in 2026 and the first line drives Explore/search reach: name the company and the topic noun in plain words ("Visa is replacing 2,600 jobs with AI" — searchable; "They just bet everything 👀" — invisible). Only ~125 chars show before "...more". Never tell the reader to swipe — there is nothing to swipe. CTA must be utility ("save this", "send this to..."), NEVER reaction-bait ("tag a friend", "comment YES") — Meta penalizes bait.
 - "pinned_comment" (mandatory): the first comment we plant under the post the second it publishes — hour-one comment velocity is distribution fuel. ONE of: a debatable fault line from the story people must answer ("Would you let it run your payroll? Half of you are lying") or the juiciest fact that didn't fit the caption ("The part we couldn't fit: ..."). 1-2 sentences, no hashtags, no links, never a summary of the post.
 - Caption owner-CTA (mandatory): the LAST line of the trend block, on its own line, invites business owners to DM — pain + tiny ask, tied to this story's value. Register: "Running a business? DM us "AI" and we'll show you what this could do for yours". Vary the wording per post, keep the DM word exactly "AI"
 - Never invent facts not present in the STORY material above.
@@ -1606,7 +1607,7 @@ def qa_repair(post, errs):
 How to fix the common failures:
 - cover headline too long/short: rewrite to ONE lean complete claim, 8-14 words — actor, what happened, the single wildest number; keep the <em> accent on one contiguous phrase
 - missing image_brief: write one — ONE plain line of 8-25 words stating the news itself the way you'd tell a friend (who did what, emotions when they are the story, "with the X logo" when a famous mark belongs); no scene staging, colors, or camera words
-- caption story problems: keep every fact and number, fix only what's flagged — the story block is 2-4 short paragraphs, smart-12-year-old words, ending on one blunt take
+- caption story problems: keep every fact and number, fix only what's flagged — the story block is ONE short paragraph of 2-5 plain news sentences (news-desk short, owner order Sep 26), smart-12-year-old words, ending on one blunt take
 - hedge words (reportedly/according to): state what happened or cut the claim; sources live in the Sources line
 - quotes/cites an internet user: delete the attribution, state the fact directly
 - finance-wire jargon: translate to felt scale — absolute dollars, the reader's $1,000 stake, or a record ("worst day ever")
@@ -1776,6 +1777,17 @@ def qa(post):
         errs.append(f"caption is {len(caption)} chars with zero line breaks — "
                     "the caption carries the whole story now: blank lines "
                     "between the five blocks and between story paragraphs")
+    # NEWS-DESK SHORT (owner order Sep 26: captions "short and summerized in
+    # the best ways that also news and media are doing it"). News posts only —
+    # guides/inspire carry their whole payload in the caption and stay long.
+    if post.get("container") in ("daily_item", "builder_story"):
+        body = caption.split("Sources:")[0].strip()
+        if len(body) > 950:
+            errs.append(f"caption body is {len(body)} chars before Sources — "
+                        "news captions are short like a news desk writes them "
+                        "(owner order Sep 26): story block = ONE paragraph of "
+                        "2-5 plain sentences, cut everything a reader would "
+                        "skim, keep every key number and name")
     if "Sources:" not in caption:
         errs.append("caption missing Sources line")
     else:

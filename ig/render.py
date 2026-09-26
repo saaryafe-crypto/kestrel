@@ -87,6 +87,43 @@ body.cover h1{line-height:.87;letter-spacing:0;
        text-shadow:-1px -1px 0 rgba(0,0,0,.8),1px -1px 0 rgba(0,0,0,.8),
        -1px 1px 0 rgba(0,0,0,.8),1px 1px 0 rgba(0,0,0,.8),0 2px 10px rgba(0,0,0,.9)}
 .swipe em{font-style:normal;color:#D97757}
+/* BRAND BAND cover (owner order Sep 26: "create a good cover color for my
+   brand that will be in every picture and the news themselves and the
+   writing will be on top of that" — PUSH anatomy in our color): every cover
+   = the real news photo up top melting into a SOLID brand-orange band, the
+   wordmark + headline + kicker printed near-black ON the orange. #D97757 +
+   #0E0E10 is the break-slide pairing, already the brand's proven contrast
+   pair; accent words flip to WHITE (the orange-texture accent is invisible
+   on an orange canvas). scrim() lands the photo fade on the same #D97757. */
+body.cover{background:#D97757}
+body.cover h1{color:#0E0E10;text-shadow:none;-webkit-text-stroke:0}
+body.cover h1 em{background:none;color:#FFF;-webkit-text-fill-color:#FFF;
+                 filter:drop-shadow(0 3px 10px rgba(0,0,0,.22))}
+body.cover .masthead{color:#0E0E10;text-shadow:none}
+body.cover .masthead img{filter:brightness(0)}
+body.cover .masthead:before,body.cover .masthead:after{background:rgba(14,14,16,.55)}
+body.cover .ctastrip .swipe{color:#0E0E10;text-shadow:none}
+body.cover .ctastrip .swipe em{color:#FFF;text-shadow:none}
+/* nophoto/type covers have NO photo band — they sit on the dark art
+   backdrop, so the pre-Sep-26 white-type anatomy stays (a black headline
+   on the dark backdrop would vanish) */
+body.cover.nophoto{background:#050505}
+body.cover.nophoto h1{color:#FFF;
+              text-shadow:-2px -2px 0 rgba(0,0,0,.85),2px -2px 0 rgba(0,0,0,.85),
+              -2px 2px 0 rgba(0,0,0,.85),2px 2px 0 rgba(0,0,0,.85),
+              0 4px 20px rgba(0,0,0,.9),0 0 40px rgba(0,0,0,.5);
+              -webkit-text-stroke:2.5px rgba(0,0,0,.55)}
+body.cover.nophoto h1 em{color:transparent;-webkit-text-fill-color:transparent;
+      background:url('ARTPATH/accent-orange.jpg') center/cover;
+      -webkit-background-clip:text;background-clip:text;
+      filter:drop-shadow(0 4px 12px rgba(0,0,0,.95)) drop-shadow(0 0 3px rgba(0,0,0,.8))}
+body.cover.nophoto .masthead{color:#FFF}
+body.cover.nophoto .masthead img{filter:drop-shadow(0 2px 6px rgba(0,0,0,.7))}
+body.cover.nophoto .masthead:before,body.cover.nophoto .masthead:after{background:rgba(255,255,255,.9)}
+body.cover.nophoto .ctastrip .swipe{color:#FFF;
+       text-shadow:-1px -1px 0 rgba(0,0,0,.8),1px -1px 0 rgba(0,0,0,.8),
+       -1px 1px 0 rgba(0,0,0,.8),1px 1px 0 rgba(0,0,0,.8),0 2px 10px rgba(0,0,0,.9)}
+body.cover.nophoto .ctastrip .swipe em{color:#D97757}
 /* badge: the story-brand's logo as a big circular chip on the cover photo
    (owner example Aug 1, @techskills Mercor cover — the logo is a design
    element beside the person, not a watermark). Opt-in via "badge_logo";
@@ -364,14 +401,15 @@ function scrim(){
   if(mast){
     var edge=Math.max(420,Math.min(1350,Math.round(mast.getBoundingClientRect().top)+12));
     /* getintoai anatomy (owner Sep 9): the photo ends AT the masthead line
-       — its own mask feathers the last 150px, the shade finishes the melt,
-       and everything below the seam is SOLID #050505 so the headline never
-       prints over the picture */
+       — its own mask feathers the last 150px, the shade finishes the melt.
+       Since Sep 26 (BRAND BAND) everything below the seam is SOLID brand
+       orange #D97757 so the near-black headline never prints over the
+       picture and every cover carries the brand color. */
     if(bleed)setH(edge+20);
     if(cut)cut.style.height=(edge+24)+'px';
     shade.style.background='linear-gradient(180deg,rgba(0,0,0,.08) 0px,rgba(0,0,0,0) 140px,'
-      +'rgba(0,0,0,0) '+(edge-230)+'px,rgba(5,5,5,.55) '+(edge-90)+'px,'
-      +'#050505 '+edge+'px)';
+      +'rgba(0,0,0,0) '+(edge-230)+'px,rgba(217,119,87,.55) '+(edge-90)+'px,'
+      +'#D97757 '+edge+'px)';
     return;
   }
   var anchor=document.querySelector('body.content .frame h1');

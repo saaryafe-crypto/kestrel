@@ -55,13 +55,13 @@
   },
   "caption_blocks": [
     {"block": "hook", "spec": "First line = the story's payoff in plain searchable words + exactly one emoji. NEVER a swipe instruction — posts are one picture since Sep 14, there is nothing to swipe.", "max_chars": 160},
-    {"block": "story", "spec": "THE STORY ITSELF (owner order Sep 14, single-picture posts: the caption now tells what the slides used to tell) — the whole news summarized in a great and simple way: 2-4 short paragraphs, smart-12-year-old words, every key number and name kept, the twist, ending on one blunt take. For roundup posts: one short line per story instead. For guide posts (ai_education): the caption IS the guide — every skill the cover promised, numbered, each with its prompt in quotes, compressed to fit.", "max_chars": 1300},
+    {"block": "story", "spec": "THE STORY, NEWS-DESK SHORT (owner order Sep 26: captions 'short and summerized in the best ways that also news and media are doing it' — tightens the Sep 14 whole-story law): ONE short paragraph of 2-5 plain news sentences, the way AP or PUSH captions a photo — what happened, the key numbers and names, the twist, one blunt take as the last sentence. Smart-12-year-old words, both languages. No multi-paragraph storytelling. For roundup posts: one short line per story instead. For guide posts (ai_education): the caption IS the guide — every skill the cover promised, numbered, each with its prompt in quotes, compressed to fit.", "max_chars": 600},
     {"block": "trend", "spec": "Zoom-out paragraph: what it means collectively", "max_chars": 300},
     {"block": "sources", "spec": "'Sources:' + named organizations, comma separated. Mandatory.", "max_chars": 160},
     {"block": "hashtags", "spec": "Exactly five broad hashtags", "max_chars": 120}
   ],
   "qa_gate": [
-    "Cover SUMMARIZES the whole story in 12-25 words with its wildest true specifics — nothing withheld (owner flip Aug 1; edu N-promise covers stay short). Zero neutral news phrasing.",
+    "Cover SUMMARIZES the whole story in ONE plain news sentence of 5-10 words (owner order Sep 26, PUSH law — nothing withheld, short is compression never a riddle). Zero neutral news phrasing.",
     "Cover promises a format (or a hook for daily_item), with exactly one CTA instruction",
     "Accent (<em>) words read as the full claim standalone",
     "Media matches the claim emotionally; no media that fails the reject list",
