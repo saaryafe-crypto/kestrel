@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-23T05:58:30Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW §3 — HEADLINE ACCENT TEXTURE VIOLATION (Sep 10 permanent order): The 'AI' accent word on the cover headline renders in flat solid orange, not the required orange-sky cloud texture (art/accent-orange.jpg via background-clip). The doctrine says 'never one flat color' and this rule is marked PERMANENT. Fix: apply the background-clip texture to the 'AI' text exactly as specified — white base"
- },
- {
   "t": "2026-09-23T06:00:13Z",
   "gate": "B",
   "subject": "WHAT JUST HAPPENED IN <em style=\"background-image:url(art/accent-orange.jpg);background-clip:text;-webkit-background-cli",
@@ -2098,5 +2091,12 @@
   "subject": "OPENAI HID <em>TENS OF THOUSANDS</em> OF AI INCIDENTS FROM YOU",
   "verdict": "FAIL",
   "reason": "s1: The background is a cartoon/meme illustration ('This is fine' dog), which reads as juvenile and satirical rather than professional press-photo quality — incompatible with a credible tech news channel standard."
+ },
+ {
+  "t": "2026-09-27T20:57:02Z",
+  "gate": "A",
+  "subject": "All they got is AI slop and delusion to get through the day.",
+  "verdict": "KILL",
+  "reason": "No event occurred, no person acted, no real consequence—reaction-bait dressed as substance, with no facts or numbers to build slides from."
  }
 ]
