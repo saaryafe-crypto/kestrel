@@ -1,124 +1,5 @@
 [
  {
-  "t": "2026-09-22T23:44:10Z",
-  "gate": "A",
-  "subject": "Grok Bot has just officially launched in @Tesla vehicles. I got early access a couple weeks ago. You can order stuff on ",
-  "verdict": "APPROVE",
-  "reason": "Official household-name feature release with demonstration; the doctrine qualifies this as news."
- },
- {
-  "t": "2026-09-23T00:11:43Z",
-  "gate": "B",
-  "subject": "TELL YOUR TESLA TO ORDER COFFEE AND <em>ARRIVE TO FIND IT ALREADY PAID FOR</em>",
-  "verdict": "REJECT",
-  "reason": "Cover image — CGI/rendered elements violate the photoreal law. The humanoid robot in the driver's seat and the drone outside the window both read as 3D concept-art renders, not photographed objects. The Doctrine is explicit: 'any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT.' Every element must read as photographed; the"
- },
- {
-  "t": "2026-09-23T00:13:52Z",
-  "gate": "B",
-  "subject": "TELL YOUR TESLA TO ORDER COFFEE AND <em>ARRIVE TO FIND IT ALREADY PAID FOR</em>",
-  "verdict": "REJECT",
-  "reason": "PHOTOREAL ELEMENTS VIOLATION — the white humanoid robot sitting in the driver's seat reads as a CGI/rendered sci-fi figure (smooth plastic chassis, glowing blue eyes, video-game aesthetic), not a photographed element. The law is absolute: 'every ELEMENT in the frame must read as photographed — real skin, real product, real logo mark, real photo fragments. A frame or any element that reads as illus"
- },
- {
-  "t": "2026-09-23T00:15:36Z",
-  "gate": "B",
-  "subject": "TELL YOUR TESLA TO ORDER COFFEE AND <em>ARRIVE TO FIND IT ALREADY PAID FOR</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — CGI robot and drone violate PHOTOREAL ELEMENTS (§3): the white humanoid robot in the driver's seat and the drone outside the window both read unmistakably as game-render / concept-art elements, not photographed objects. The doctrine requires every element in the frame to read as photographed. Fix: rebuild the cover as a photoreal composite — Elon Musk (passenger seat, generated likenes"
- },
- {
-  "t": "2026-09-23T00:16:15Z",
-  "gate": "A",
-  "subject": "Look at this scary monster I let into my house",
-  "verdict": "KILL",
-  "reason": "One vague 46-character tweet from an unknown account with no clear event, numbers, or consequence—the writer would have to pad."
- },
- {
-  "t": "2026-09-23T00:16:51Z",
-  "gate": "A",
-  "subject": "Acquiring @IridiumComm will be one of the most transformative deals in the space industry, making Rocket Lab a fully-int",
-  "verdict": "KILL",
-  "reason": "Off-brand for an AI/tech page—this is space industry news with no AI/tech angle, and the announcement lacks concrete details (no deal value, specific outcomes, or timeline) to build slides from."
- },
- {
-  "t": "2026-09-23T00:17:57Z",
-  "gate": "A",
-  "subject": "Tesla has just added another 9 Cybercabs to its Robotaxi fleet, bringing the total up to 67, according to the Texas DMV.",
-  "verdict": "KILL",
-  "reason": "Routine operational progress with no consequence—adding 9 cars to a robotaxi fleet is expected scaling, not a major move or jaw-dropping event."
- },
- {
-  "t": "2026-09-23T00:18:03Z",
-  "gate": "A",
-  "subject": "Interesting. Grok 4.7 is performing fairly well for a smallish model.",
-  "verdict": "KILL",
-  "reason": "No event happened — it's commentary on an existing product with no specific numbers or consequence."
- },
- {
-  "t": "2026-09-23T00:18:08Z",
-  "gate": "A",
-  "subject": "Unitree Introducing: Unitree Dex5-S Dexterous Hand 22 Degrees of Freedom 1:1 Real-Hand Size👋 Precision biomimetic dexter",
-  "verdict": "KILL",
-  "reason": "Unknown-brand robotics announcement: story only resonates if reader knows Unitree, violating the explicit 'unknown actor as the story' rule."
- },
- {
-  "t": "2026-09-23T00:18:34Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "Real satellite launch but routine space industry news lacking jaw-dropping consequence, specific metrics, and visual proof required for high-shareability coverage."
- },
- {
-  "t": "2026-09-23T00:43:46Z",
-  "gate": "B",
-  "subject": "<em>A GUY LET A MONSTER IN AND NEVER SHOWED IT.</em> 4,400 PEOPLE LIKED IT ANYWAY.",
-  "verdict": "REJECT",
-  "reason": "INSTANT KILL — REACTION-BAIT (§1): The entire 'event' is that a tweet got 25,600 views and 4,400 likes. No real-world consequence — no money moved, nobody fired, no product pulled. Likes and views as the substance is the definition of reaction-bait. Nothing real happened.; HOOK VIOLATION (§2): '4,400 PEOPLE LIKED IT ANYWAY' is the explicit failure model named in the law — engagement metrics as the"
- },
- {
-  "t": "2026-09-23T00:51:24Z",
-  "gate": "B",
-  "subject": "<em>A GUY LET A MONSTER IN AND NEVER SHOWED IT.</em> NINE WORDS. NOTHING ELSE.",
-  "verdict": "REJECT",
-  "reason": "REACTION-BAIT INSTANT KILL (§1): The story's entire substance is engagement metrics on a tweet — '25,600 people had stopped to look,' '4,400 of them imagined well enough to like.' The Doctrine names this exact failure: 'THE SCREENSHOT HAS 40K LIKES is the failure model.' No reality moved: no money, no firing, no product pulled, no ban. A tweet getting views is not a story.; UNKNOWN ACTOR INSTANT K"
- },
- {
-  "t": "2026-09-23T00:55:16Z",
-  "gate": "A",
-  "subject": "Tesla has just added another 9 Cybercabs to its Robotaxi fleet, bringing the total up to 67, according to the Texas DMV.",
-  "verdict": "KILL",
-  "reason": "Routine fleet expansion with no major move, outrage, or consequence — Tesla adding vehicles to its existing Cybercab program is business-as-usual operations, not a reality-moving story."
- },
- {
-  "t": "2026-09-23T00:56:27Z",
-  "gate": "A",
-  "subject": "Acquiring @IridiumComm will be one of the most transformative deals in the space industry, making Rocket Lab a fully-int",
-  "verdict": "APPROVE",
-  "reason": "Household-name acquisition qualifies as NEWS-tier per doctrine despite thin source material; researcher can expand with public deal details, consistent with Sep 1's warning against over-killing legitimate events."
- },
- {
-  "t": "2026-09-23T01:22:25Z",
-  "gate": "B",
-  "subject": "ONE PRIVATE COMPANY NOW DECIDES <em>WHO CAN COMMUNICATE WHEN MILITARIES LOSE ALL OTHER SIGNALS</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE FAILS THUMB TEST — no Rocket Lab brand mark, no Iridium logo, no Peter Beck face, no real product. The cover is a generic military radar-screen render. A stranger at feed size sees 'satellite comms concept' and cannot connect it to Rocket Lab or the acquisition. The story archetype here is a named-founder company acquisition, which requires the person + giant glossy brand mark + real product"
- },
- {
-  "t": "2026-09-23T01:24:06Z",
-  "gate": "R",
-  "subject": "ONE PRIVATE COMPANY NOW DECIDES <em>WHO CAN COMMUNICATE WHEN MILITARIES LOSE ALL OTHER SIGNALS</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-23T05:56:16Z",
-  "gate": "B",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "verdict": "REJECT",
-  "reason": "EMOJI VIOLATION (§7): The caption contains a 👇 emoji after the lede sentence. §7 bans emojis outright. Remove it — the sentence works without it: '...from an AI agent running your Tesla to Musk's deadline for AI beating every expert'; IMAGE LAW — CGI RENDERS, NOT PHOTOGRAPHS (§3): The cover shows two gold Cybercabs in a city street. Both cars are identically positioned with butterfly doors open at"
- },
- {
   "t": "2026-09-23T05:58:30Z",
   "gate": "B",
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
@@ -2098,5 +1979,124 @@
   "subject": "All they got is AI slop and delusion to get through the day.",
   "verdict": "KILL",
   "reason": "One-line hot take with zero event, consequence, or substance — pure reaction-bait that would require padding to build slides from."
+ },
+ {
+  "t": "2026-09-27T19:37:37Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "Reaction-bait: Bernie Sanders tweeting unverified claims about AI logs is not an established OpenAI incident; no real-world consequence or verifiable facts to build from."
+ },
+ {
+  "t": "2026-09-27T19:37:51Z",
+  "gate": "A",
+  "subject": "Starship Flight 14 has its launch license! All go for Monday!",
+  "verdict": "KILL",
+  "reason": "No substance: one thin tweet (61 chars) with no second fact, no numbers, no consequence to build slides from."
+ },
+ {
+  "t": "2026-09-27T19:38:08Z",
+  "gate": "A",
+  "subject": "Tesla is sending this notification to people in Austin announcing that its Cybercab robotaxi fleet has doubled. This ali",
+  "verdict": "APPROVE",
+  "reason": "Tesla doubled its Cybercab fleet in one week (58 to 125 cars) with verified data and direct resident notifications—a major-move news story by a household-name company."
+ },
+ {
+  "t": "2026-09-27T19:50:52Z",
+  "gate": "B",
+  "subject": "TESLA JUST DOUBLED ITS ROBOTAXI FLEET IN <em>5 DAYS</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW: The cover is a screenshot of a smartphone push notification — explicitly banned ('A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER'). Fix: replace with a photoreal cover — a real Cybercab on an Austin road, or a Tesla-brand composite with the vehicle large in frame. The notification text can appear inside the caption or as a styled receipt card if this ever becomes a carousel, but "
+ },
+ {
+  "t": "2026-09-27T19:51:37Z",
+  "gate": "B",
+  "subject": "TESLA JUST DOUBLED ITS ROBOTAXI FLEET IN <em>5 DAYS</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW VIOLATION — SCREENSHOT AS COVER: The cover is a screenshot of a push notification UI. IMAGE LAW is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' This is a direct violation regardless of how good the notification text is as proof. The cover must be replaced with a photoreal collage — a Cybercab on an Austin road, or the real vehicle with the Tesla/RoboTaxi brand mark "
+ },
+ {
+  "t": "2026-09-27T19:57:12Z",
+  "gate": "B",
+  "subject": "TESLA NOW HAS <em>125 DRIVERLESS TAXIS</em> ON AUSTIN'S ROADS",
+  "verdict": "REJECT",
+  "reason": "COVER IS A SCREENSHOT — §3 IMAGE LAW explicit hard ban: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' The cover is literally a cropped phone push-notification screenshot from the RoboTaxi app. Screenshots may appear inside as a receipt on a styled card; they are never the face of the post. Fix: replace the cover with a photoreal composite — real photo of a Cybercab on an Austin street, "
+ },
+ {
+  "t": "2026-09-27T19:58:14Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "The alleged OpenAI hack is unverified and violates TRUTH LAW; the core event cannot be independently documented."
+ },
+ {
+  "t": "2026-09-27T19:58:21Z",
+  "gate": "A",
+  "subject": "Starship Flight 14 has its launch license! All go for Monday!",
+  "verdict": "KILL",
+  "reason": "Real event but lacks the information to build post substance: no detail on what Flight 14 tests, why this flight is significant, or what the payload/objectives are; writer would pad or produce generic spaceflight content without specifics that make it jaw-dropping for a general tech audience."
+ },
+ {
+  "t": "2026-09-27T19:59:16Z",
+  "gate": "A",
+  "subject": "This would take Pixar 2 years to make. With AI, it took me 2 hours. Script: Sherpa by Pocket FM Video: Seedance 2.5",
+  "verdict": "KILL",
+  "reason": "Unknown actor, no substance: one thin claim with no proof, outcome, or story spine to build from."
+ },
+ {
+  "t": "2026-09-27T20:19:28Z",
+  "gate": "B",
+  "subject": "STARSHIP JUST GOT <em>'ALL GO'</em> FOR MONDAY FLIGHT 14",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — DOCUMENT SCAN, NOT A PHOTOREAL IMAGE (§3, instant kill): The cover is a scan of the FAA Commercial Space Transportation License (VOL 23-129 Rev 9.0). Per §3, screenshots and document scans belong inside the post as styled receipt-evidence cards, never as the cover face. This image has zero photoreal elements — no skin, no product, no rocket, no face — and fails the thumb test complet"
+ },
+ {
+  "t": "2026-09-27T20:21:22Z",
+  "gate": "B",
+  "subject": "STARSHIP JUST GOT <em>'ALL GO'</em> FOR MONDAY FLIGHT 14",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE IS A GOVERNMENT DOCUMENT SCREENSHOT — HARD KILL. The cover is a scan of the FAA Commercial Space Transportation License (VOL 23-129 Rev 9.0). The doctrine is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' A reproduced official document is the same category violation. At feed size this renders as an unreadable wall of bureaucratic text — the thumb test fails complete"
+ },
+ {
+  "t": "2026-09-27T20:22:55Z",
+  "gate": "B",
+  "subject": "STARSHIP JUST GOT <em>'ALL GO'</em> FOR MONDAY FLIGHT 14",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE IS A DOCUMENT SCREENSHOT — banned as a cover by Image Law ('A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER'). The FAA license form is a text-on-white bureaucratic document with no face, no photoreal scene, and no Starship imagery. At feed size a stranger sees a government form, not a rocket launch — the thumb test fails completely. Fix: replace with a photoreal collage of Starsh"
+ },
+ {
+  "t": "2026-09-27T20:23:51Z",
+  "gate": "A",
+  "subject": "This would take Pixar 2 years to make. With AI, it took me 2 hours. Script: Sherpa by Pocket FM Video: Seedance 2.5",
+  "verdict": "KILL",
+  "reason": "One unsourced anecdote with no outcome—unknown creator, niche tool, no second fact or consequence to build slides from; writer would have to pad."
+ },
+ {
+  "t": "2026-09-27T20:24:02Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "Unverified third-hand claim presented without primary source documentation; Bernie Sanders reporting something he 'heard about' does not meet the standard for a reality-moved event when the underlying incident (OpenAI hack with AI agents communicating) lacks verifiable proof, and the source material itself cuts off mid-sentence."
+ },
+ {
+  "t": "2026-09-27T20:24:47Z",
+  "gate": "A",
+  "subject": "OpenAI and Anthropic are now investigating ***tens of thousands*** of incidents - not dozens. \"The total could grow well",
+  "verdict": "KILL",
+  "reason": "Cannot confirm this reflects an actual official company disclosure; sourcing to primary announcement needed."
+ },
+ {
+  "t": "2026-09-27T20:37:42Z",
+  "gate": "B",
+  "subject": "OPENAI HID <em>TENS OF THOUSANDS</em> OF AI INCIDENTS FROM YOU",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — ILLUSTRATION, NOT PHOTOREAL: the cover is a cartoon/comic illustration of the 'this is fine' dog meme. IMAGE LAW is unambiguous: 'every ELEMENT in the frame must read as photographed — real skin, real product, real logo mark, real photo fragments. A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT, "
+ },
+ {
+  "t": "2026-09-27T20:39:11Z",
+  "gate": "R",
+  "subject": "OPENAI HID <em>TENS OF THOUSANDS</em> OF AI INCIDENTS FROM YOU",
+  "verdict": "FAIL",
+  "reason": "s1: The background is a cartoon/meme illustration ('This is fine' dog), which reads as juvenile and satirical rather than professional press-photo quality — incompatible with a credible tech news channel standard."
  }
 ]
