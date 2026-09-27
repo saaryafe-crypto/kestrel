@@ -1,0 +1,86 @@
+{
+ "media_idx": 1,
+ "image_brief": "anonymous creator making a Pixar-quality animated film alone on a laptop with free AI tools in two hours",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "PIXAR SPENDS YEARS. <em>HE SPENT 2 HOURS.</em>",
+   "kicker": "500K VIEWS. ZERO ANIMATORS.",
+   "hsize": 78,
+   "media": "posts/2026-09-27-this-would-take-pixar-2-years-to-make-wi/cand-1.webp"
+  }
+ ],
+ "caption": "An anonymous X user just made a full AI animation in 2 hours that hit 500K views\n\nOn September 26, an anonymous creator posted a finished animated short that took two hours to make from scratch. They got a script from Pocket FM, a podcast app, fed it into Seedance 2.5, an AI video generator, and walked away with a finished film. They never touched a drawing tool. The short got 500.9K views and 811 people quoted it. If you're paying tuition to study animation right now, an anonymous guy on the internet just did your four-year degree before dinner.\n\nWhen one person with no studio and free AI tools can get half a million views overnight, the filmmaking industry has a real problem. 811 people quoted it the same night.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: AngryTomtweets on X\n\n#AI #AIAnimation #ArtificialIntelligence #Filmmaking #AITools",
+ "pinned_comment": "Honest question: if this took one person two hours with free tools, what exactly is an animation degree still teaching you that this doesn't?",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "PIXAR TAKES 2 YEARS. <em>THIS GUY TOOK 2 HOURS.</em>",
+   "AI JUST DID <em>PIXAR'S 2-YEAR JOB IN 2 HOURS</em>",
+   "ONE GUY JUST BEAT <em>PIXAR'S 2-YEAR SCHEDULE</em> WITH AI",
+   "A RANDOM GUY <em>REPLACED A WHOLE ANIMATION STUDIO</em> BEFORE DINNER",
+   "THIS GUY JUST MADE <em>PIXAR'S 2-YEAR FILM</em> IN 2 HOURS",
+   "A GUY <em>BEAT PIXAR'S 2-YEAR TIMELINE</em> IN 2 HOURS",
+   "AI JUST DID <em>WHAT PIXAR TAKES 2 YEARS</em> IN 2 HOURS",
+   "AN ANONYMOUS GUY <em>MADE A PIXAR-QUALITY FILM</em> IN 2 HOURS",
+   "AI JUST MADE <em>PIXAR-LEVEL ANIMATION</em> A <em>2-HOUR JOB</em>",
+   "<em>ONE PERSON MADE A FULL ANIMATED FILM</em> IN 2 HOURS"
+  ],
+  "scores": [
+   10,
+   9,
+   8,
+   0,
+   6,
+   7,
+   6,
+   0,
+   0,
+   6
+  ],
+  "winner": 0,
+  "why": "[0]'s two-sentence structure with explicit setup ('PIXAR TAKES 2 YEARS') creates more dramatic impact than [1]'s single sentence. Rhythm and pacing matter as much as the comparison itself."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "A GUY JUST DID PIXAR'S 2-YEAR JOB <em>BEFORE DINNER</em>",
+   "ONE GUY BEAT PIXAR <em>FOR FREE IN 2 HOURS</em>",
+   "PIXAR TAKES 2 YEARS. <em>THIS GUY TOOK 2 HOURS.</em>",
+   "AI JUST REPLACED ANIMATION SCHOOL <em>IN 2 HOURS</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   9,
+   0
+  ],
+  "winner": 2,
+  "why": "[2] delivers a pure factual contrast (Pixar: 2 years vs this guy: 2 hours) as a single undeniable shock that hits hardest. [1] spreads impact across three competing claims (beat, free, fast) instead of laser-focusing on the single most visceral fact\u2014the time compression."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Angry Tom",
+  "actor_known": false,
+  "anchor": "AI animation",
+  "specifics": [
+   "Full animated short made in 2 hours by one person with no studio",
+   "500.9K views on X within hours of posting",
+   "Zero frames hand-drawn \u2014 entirely AI-generated script and video",
+   "Tools used: Pocket FM (a podcast app) for script, Seedance 2.5 for video",
+   "Creator is completely anonymous, known only as 'Angry Tom'"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (3/10)",
+ "handle": "@yaffeai",
+ "container": "builder_story",
+ "story": {
+  "title": "This would take Pixar 2 years to make. With AI, it took me 2 hours. Script: Sherpa by Pocket FM Video: Seedance 2.5",
+  "link": "https://x.com/AngryTomtweets/status/2103881339946824094",
+  "judge_interest": 5,
+  "scout_score": 43.5
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE LAW \u2014 CARTOON RENDER ON COVER: The cover image is a 3D animated CGI koala character. It does not read as photographed \u2014 it reads as a game render or animation render. IMAGE LAW is unambiguous: 'A frame or any element that reads as illustration, cartoon, game render, or concept art \u2014 anywhere outside a depicted screen \u2014 is a REJECT.' The koala is not on a depicted screen; it fills the whole f",
+ "gate_r": "s1: The AI-generated Pixar-style koala is a cartoon/wax-figure aesthetic rather than a real press photo, and its source watermark 'YaffeAI' brands the slide for a third party rather than the page itself."
+}
