@@ -1,0 +1,54 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "HE HAS <em>$400 MILLION</em> AND REFUSED HIS KIDS A CENT",
+   "hsize": 72,
+   "face": [
+    "Shaquille O'Neal"
+   ],
+   "media": "faces/shaquille-oneal.jpg"
+  }
+ ],
+ "caption": "Shaquille O'Neal turned $400 million into a family rule: earn it yourself or go without. His kids are running with it.\n\nShaq grew up in Newark with almost nothing, used basketball to escape, and built a $400 million empire. When the money came, he told his 6 kids they couldn't touch a cent without two college degrees. He enforced it personally: son Myles wanted to be a DJ; Shaq made him write a full business plan before funding a single piece of equipment. Myles now holds a Las Vegas residency. His daughter Taahirah graduated Magna Cum Laude and went straight into corporate communications. He had $400 million and still made his son earn a DJ set. Send this to someone building something.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: DesireeAmerica4 on X\n\n#entrepreneur #business #investing #mindset #success",
+ "pinned_comment": "His son Myles had to write a full business plan just to get DJ equipment funded. He now holds a Las Vegas residency. The plan worked.",
+ "hook_tournament": {
+  "story_type": "money_win",
+  "candidates": [
+   "SHAQ MADE <em>$400M.</em> HIS KIDS EARN EVERY CENT OF IT.",
+   "SHAQ HAS <em>$400 MILLION.</em> HIS KIDS CAN'T TOUCH IT.",
+   "HE HAS <em>$400 MILLION</em> AND TOLD HIS KIDS: EARN IT.",
+   "SHAQ TOLD HIS KIDS: <em>WE AIN'T RICH. I'M RICH.</em>",
+   "SHAQ'S RULE FOR HIS <em>6 KIDS:</em> NO FREE MONEY, EVER."
+  ],
+  "scores": [
+   5,
+   7,
+   9,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "[2]'s direct quote 'EARN IT' is punchier and more personally compelling than [4]'s rule-like phrasing. Shaq's voice hits harder than a generic principle."
+ },
+ "hook_sharpen": {
+  "story_type": "money_win",
+  "candidates": [
+   "HE HAS <em>$400 MILLION</em> AND REFUSED HIS KIDS A CENT",
+   "HE HAS <em>$400 MILLION</em> AND TOLD HIS KIDS: EARN IT.",
+   "HIS KIDS ARE GETTING <em>NONE</em> OF HIS <em>$400 MILLION</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   7
+  ],
+  "winner": 0,
+  "why": "'REFUSED' packs the shock of deliberate rejection that makes you stop cold\u2014it feels extreme and intentional. 'Getting NONE' is stark but passive; it's a fact without the visceral sting of active refusal."
+ },
+ "handle": "@yaffeai",
+ "container": "inspire",
+ "edu_mode": "inspire",
+ "cover_fallback": "real-face-photo",
+ "gate_r": "s1: Shaquille O'Neal is broadly grinning in the photo, which clashes with the headline's serious tone about denying his kids money \u2014 emotional register mismatch."
+}
