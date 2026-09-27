@@ -1,40 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "TRUTH LAW §5: '31.4 million followers' is wrong by ~6x — Elon Musk's personal X account has approximately 200 million followers; 31.4M appears to be the count of a different account (xAI or Grok). Fix: use his actual follower count (~200M) or name the specific account (e.g., @grok) with its correct number.",
-  "subject": "ELON MUSK IS SELLING SAFETY TO STEAL <em>YOUR CHATGPT SUBSCRIPTION</em>",
-  "t": "2026-09-22T19:56:11Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Caption line 1 contains emoji 🤖 — §4 SPOKEN VOICE LAW bans emojis. Fix: delete the 🤖 after 'ChatGPT subscription.'; Hook is 10 words, two below the §2 floor of 12. Fix: add one word, e.g. 'ELON MUSK IS NOW SELLING SAFETY TO STEAL YOUR CHATGPT SUBSCRIPTION' (11) or expand the actor beat by one more specific word to clear 12.",
-  "subject": "ELON MUSK IS SELLING SAFETY TO STEAL <em>YOUR CHATGPT SUBSCRIPTION</em>",
-  "t": "2026-09-22T19:58:19Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Off-brand — pharma litigation doesn't fit this page's stated identity as an AI/tech news page per Section 1, and scout score of 4 confirms weak audience alignment.",
-  "subject": "Dozens of lawsuits have been filed against the companies behind popular GLP-1 drugs Ozempic, Wegovy and Zepbound, claimi",
-  "t": "2026-09-22T19:59:13Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Feature announcement without demo material or user outcomes is routine product news, not the wild-but-true story that stops mid-scroll readers.",
-  "subject": "JUST IN: X partners with crypto and stock exchanges to allow trading from the timeline. • Gemini • Kraken • Moomoo • Coi",
-  "t": "2026-09-22T20:00:16Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Static business observation without a triggering event or stated consequence — the tweet reports a years-long state ('for years...none accepted'), not news that reality moved, leaving the writer to invent why it matters rather than report the story.",
-  "subject": "Tesla has for years openly invited other automakers to license FSD. None of them have accepted.",
-  "t": "2026-09-22T20:01:01Z",
-  "verdict": "KILL"
- },
- {
   "gate": "A",
   "reason": "Unverified anonymous claim about internal automation with no secondary facts, no public consequence, and no reality-movement—instant kill under NO SUBSTANCE law.",
   "subject": "„Internally, OpenAI has largely automated the process of training new experimental models, the OpenAI employee said.“ Vi",
@@ -2098,5 +2063,40 @@
   "subject": "AI MADE A FAKE SKI VIDEO AND <em>NOBODY NOTICED</em>.",
   "verdict": "FAIL",
   "reason": "s1: The photo features AI-generated LEGO/cartoon toy heads on the skiers' bodies — classic wax-figure/non-human distortion that fails the photo quality standard."
+ },
+ {
+  "t": "2026-09-27T06:38:24Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — NOT PHOTOREAL, NO STORY SUBJECT: The cover is a CGI abstract orange particle burst on a black void. Image law is explicit: 'every ELEMENT in the frame must read as photographed... A frame or any element that reads as illustration, cartoon, game render, or concept art is a REJECT.' A digital particle streak fails this test on its own. Beyond that, the image proves nothing — 'Every ima"
+ },
+ {
+  "t": "2026-09-27T06:40:45Z",
+  "gate": "B",
+  "subject": "OPENAI HALTED TRAINING ON ITS <em>MOST POWERFUL MODEL</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — The cover is text-on-black with an abstract CGI particle burst as the only visual element. The doctrine is explicit: 'Text-on-black or empty-top covers are failures' and 'The cover must ALWAYS carry an image with a subject.' A glowing digital spark on a dark void is not a subject; a stranger at feed size cannot guess the story from this image. Fix: Build a photoreal composite — Sam Alt"
+ },
+ {
+  "t": "2026-09-27T06:42:05Z",
+  "gate": "B",
+  "subject": "OPENAI HALTED TRAINING ON ITS <em>MOST POWERFUL MODEL</em>",
+  "verdict": "REJECT",
+  "reason": "COVER — TEXT-ON-BLACK WITH NO SUBJECT: The cover is a dark void with an abstract orange particle streak and type. The Doctrine is explicit: 'Text-on-black or empty-top covers are failures' and 'The cover must ALWAYS carry an image with a subject.' The abstract particle graphic is decoration, not a subject. Fix: rebuild around Sam Altman (real press photo or named generation) + the OpenAI wordmark "
+ },
+ {
+  "t": "2026-09-27T06:43:52Z",
+  "gate": "B",
+  "subject": "OPENAI HALTED TRAINING ON ITS <em>MOST POWERFUL MODEL</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — COVER HAS NO SUBJECT AND NO PHOTOREAL ELEMENT: the cover is a CGI particle-burst abstract on a black background — decoration, not proof. The doctrine is explicit: 'every image is PROOF or a STAGED SCENE OF THE STORY — never decoration', 'PHOTOREAL ELEMENTS, ALWAYS', and 'The cover must ALWAYS carry an image with a subject.' A particle streak is none of those things. A stranger seeing t"
+ },
+ {
+  "t": "2026-09-27T06:43:59Z",
+  "gate": "R",
+  "subject": "OPENAI HALTED TRAINING ON ITS <em>MOST POWERFUL MODEL</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

@@ -1,0 +1,15 @@
+Here's what happened in AI in the last 24 hours, from gambling sites using AI to trap losing bettors to OpenAI quietly halting its most powerful model
+
+• DraftKings used AI to identify losing gamblers and push them to keep betting, Massachusetts is now investigating, per NYT.
+• OpenAI and Anthropic are quietly investigating tens of thousands of AI security incidents, far more serious than anything made public, per Axios.
+• OpenAI stopped training its most capable upcoming model after a new incident on September 20.
+• Elon Musk sat for a new full interview: Grok 4.7, Cybercab rollout, AI moving faster than he can track, and a prediction of 1 billion robots within 10 years.
+• A creator published a free 20-lesson Grok Bot course covering every feature, files, voice, calendar, privacy, with real exercises you can do today.
+
+The theme today: AI is already being used against ordinary people, not just for them. And the biggest labs are sitting on problems the public hasn't heard about yet. Both things are true at the same time.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: NYT, Axios, CMG
+
+#AI #Tech #OpenAI #ArtificialIntelligence #TechNews

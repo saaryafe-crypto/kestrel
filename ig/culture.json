@@ -1,59 +1,60 @@
 {
- "ts": 1790383665.8533812,
- "updated": "2026-09-26",
+ "ts": 1790490747.5533733,
+ "updated": "2026-09-27",
  "hot": [
   {
-   "name": "Ella Langley",
-   "why_hot_now": "\"Choosin' Texas\" just broke the all-time Billboard Hot 100 record this week with its 23rd week at #1, surpassing Mariah Carey.",
-   "typical_scene": "cowboy boots on stage, Texas flag, screaming stadium crowd"
+   "name": "Olivia Rodrigo",
+   "why_hot_now": "The Unraveled Tour kicked off September 25 in Hartford — her biggest tour yet, 86 dates for her third album.",
+   "typical_scene": "screaming new heartbreak anthems to a sold-out stadium"
   },
   {
-   "name": "Ariana Grande",
-   "why_hot_now": "\"Hate That I Made You Love Me\" is sitting at #4 on the Hot 100 this week after multiple weeks at #1 on Pop Airplay.",
-   "typical_scene": "high ponytail, solo spotlight, belting an impossible note"
+   "name": "The Pitt",
+   "why_hot_now": "Won Outstanding Drama Series at the Emmys for a second straight year, with Noah Wyle taking home another acting trophy.",
+   "typical_scene": "ER doctors sprinting through a single real-time brutal shift"
   },
   {
-   "name": "JENNIE",
-   "why_hot_now": "Her \"Dracula\" collab with Tame Impala is charting at #5 on the Hot 100 this week.",
-   "typical_scene": "strobe-lit festival stage in an avant-garde designer fit"
+   "name": "Widow's Bay",
+   "why_hot_now": "Set an all-time Emmy record with 14 wins this month, including Outstanding Comedy Series.",
+   "typical_scene": "chaotic ensemble cast buried under an avalanche of Emmy trophies"
   },
   {
-   "name": "Morgan Wallen",
-   "why_hot_now": "Sitting at #3 on this week's Hot 100, sustaining a months-long chart stranglehold.",
-   "typical_scene": "mullet, backward cap, mic stand at a sold-out arena"
+   "name": "Jean Smart",
+   "why_hot_now": "Made Emmy history this September with a landmark acting win for Widow's Bay.",
+   "typical_scene": "commanding the stage in a blazing acceptance speech"
   },
   {
-   "name": "Resident Evil",
-   "why_hot_now": "Zach Cregger's reboot opened at #1 this weekend with a franchise-record $60M, already at $108M worldwide.",
-   "typical_scene": "survivors sprinting through rain-soaked zombie-infested city streets"
+   "name": "Taylor Swift",
+   "why_hot_now": "Made a surprise cameo with Emmy host Mariska Hargitay that broke social media mid-show.",
+   "typical_scene": "photobombing an Emmys bit in a glittering unexpected appearance"
   },
   {
-   "name": "Spider-Man: Brand New Day",
-   "why_hot_now": "Just ended a record-breaking 6-consecutive-week run at #1 at the US box office this month.",
-   "typical_scene": "new suit swinging above a neon-lit city skyline at night"
+   "name": "Reacher",
+   "why_hot_now": "Season 4 on Prime Video has crossed a billion viewing minutes for five consecutive weeks.",
+   "typical_scene": "enormous guy methodically dismantling bad guys in a small town"
   },
   {
-   "name": "Jeremy Allen White",
-   "why_hot_now": "The Bear's latest season plus his inescapable Calvin Klein campaign keeping him everywhere on social media.",
-   "typical_scene": "sweat-drenched chef's apron, open kitchen, controlled chaos"
+   "name": "The Gentlemen",
+   "why_hot_now": "Season 2 dropped on Netflix and hit 881 million viewing minutes in its second week.",
+   "typical_scene": "slick criminals scheming in a wood-paneled English country manor"
   },
   {
-   "name": "Practical Magic 2",
-   "why_hot_now": "Opened at #1 Sept. 13 with $30M, knocking Spider-Man off its streak and reigniting 90s witch-aesthetic nostalgia.",
-   "typical_scene": "two sisters casting spells in a candlelit Victorian kitchen"
+   "name": "Phoebe Bridgers",
+   "why_hot_now": "Three sold-out nights at Barclays Center in Brooklyn this month drew massive fan-video floods online.",
+   "typical_scene": "skeleton onesie, bare stage, devastating quiet in a packed arena"
   }
  ],
  "memes": [
-  "\"Saxophone Gets Louder\" — video escalates a relatable disaster while a blasting sax signals the exact moment everything goes wrong",
-  "\"KitKat Heist\" — joking captions and fake heist plans riffing on the real European theft of 400,000 KitKat bars",
-  "\"Jimothy the Raccoon\" — famously unbothered, round Seattle raccoon used as a reaction image for not caring about drama",
-  "\"Tornado Squirrel\" — resurging viral animal clip used as a chaotic-entry template for any situation",
-  "\"2026 is the new 2016\" — nostalgia format declaring everything from exactly 10 years ago was peak culture and we must revisit it"
+  "Jean Phil: debating whether the perfectly symmetrical blond-mustachioed shadowboxing man is real or AI-generated — 'final boss' edits everywhere",
+  "Jimothy the Raccoon: Seattle's unbothered, oddly-shaped trash panda becoming a full parasocial celebrity with fan accounts",
+  "'My American Girl Doll' audio: creators hijack a kid's joyful childhood clip to reveal their prized adult obsessions with the same unfiltered energy",
+  "'Tfw you didn't agree to this': freshly-minted Leonardo DiCaprio reaction face stamped onto any situation that blindsided you",
+  "'2026 is the new 2016': recreating bottle flips, dabbing, Pokémon Go sightings, and 'catch me outside' as pure Gen Z nostalgia bait",
+  "Whispering Pigeon: AI-generated blue bird-person softly asking 'have you pooped yet' — now remixed into every TikTok audio format imaginable"
  ],
  "ai_flagships": [
   "Claude Opus 5.5",
   "GPT-6 Astra",
-  "Gemini 3.1 Pro Preview",
+  "Gemini 3.8 Flash",
   "Grok 4.7",
   "Muse Spark 1.3"
  ]
