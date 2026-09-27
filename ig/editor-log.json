@@ -1,12 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Unverified anonymous claim about internal automation with no secondary facts, no public consequence, and no reality-movement—instant kill under NO SUBSTANCE law.",
-  "subject": "„Internally, OpenAI has largely automated the process of training new experimental models, the OpenAI employee said.“ Vi",
-  "t": "2026-09-22T20:01:13Z",
-  "verdict": "KILL"
- },
- {
   "gate": "B",
   "reason": "CAPTION EMOJI VIOLATION (§4): The 🔴 emoji after the first caption sentence is an explicit ban under §4 ('no emojis'). Fix: delete it.; COVER IMAGE PROOF FAILURE (§3): The phone screen shows a generic green shopping-cart icon — the visual shorthand for e-commerce apps like Amazon, not financial brokerage trading. The headline says X added a buy button for stocks and crypto inside a social feed; the",
   "subject": "X JUST ADDED A BUY BUTTON TO YOUR TIMELINE. <em>ONE TAP, REAL MONEY.</em>",
@@ -2098,5 +2091,12 @@
   "subject": "OPENAI HALTED TRAINING ON ITS <em>MOST POWERFUL MODEL</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-27T13:53:51Z",
+  "gate": "A",
+  "subject": "All they got is AI slop and delusion to get through the day.",
+  "verdict": "KILL",
+  "reason": "The entire substance is one vague take with no event, actor, numbers, or real-world consequence — the definition of no-substance reaction-bait, exactly what this gate exists to screen."
  }
 ]
