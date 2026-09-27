@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-22T23:43:33Z",
-  "gate": "A",
-  "subject": "Look at this scary monster I let into my house",
-  "verdict": "KILL",
-  "reason": "No substance: 46-character cryptic tweet with no facts, numbers, or consequences to build from."
- },
- {
   "t": "2026-09-22T23:44:10Z",
   "gate": "A",
   "subject": "Grok Bot has just officially launched in @Tesla vehicles. I got early access a couple weeks ago. You can order stuff on ",
@@ -2098,5 +2091,12 @@
   "subject": "HE HAS <em>$400 MILLION</em> AND REFUSED HIS KIDS A CENT",
   "verdict": "FAIL",
   "reason": "s1: Shaquille O'Neal is broadly grinning in the photo, which clashes with the headline's serious tone about denying his kids money — emotional register mismatch."
+ },
+ {
+  "t": "2026-09-27T18:07:18Z",
+  "gate": "A",
+  "subject": "All they got is AI slop and delusion to get through the day.",
+  "verdict": "KILL",
+  "reason": "One-line hot take with zero event, consequence, or substance — pure reaction-bait that would require padding to build slides from."
  }
 ]
