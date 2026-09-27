@@ -1,18 +1,8 @@
 [
  {
-  "page": "mashable",
-  "hook": "\"Mashable Senior Editor Shannon Connellan sat down with Andrew Garfield, in the historic Charterhouse in London, to unpack the meaning of the 'no kings' lie in 'The Uprising.' \u2060\n#SayMore #TheUprising\".",
-  "date": "2026-09-12"
- },
- {
   "page": "wired",
   "hook": "\"These days, a declaration of social media hatred isn\u2019t exactly a hot tech take. But NFL analyst and podcast host Mina Kimes is full of those too. For one, she thinks FaceTiming anyone outside of your family is \u201cinsane b",
   "date": "2026-09-13"
- },
- {
-  "page": "wired",
-  "hook": "\"Panic over AI technology\u2019s dangers has intensified in recent weeks. Genuinely stunning advances in AI capabilities\u2014an OpenAI model solved a centuries-old math problem in a matter of hours\u2014have come amid a rash of securi",
-  "date": "2026-09-12"
  },
  {
   "page": "technology",
@@ -33,11 +23,6 @@
   "page": "technology",
   "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from futuristic hardware and robotics to major industry announcements and experiments \ud83c\udf0d\ud83e\udd16\n\nAn iPod-style Apple Watch case brought back the scroll whe",
   "date": "2026-09-13"
- },
- {
-  "page": "technology",
-  "hook": "\"Swipe \u2b05\ufe0f to see how a newly mapped fruit fly brain became the internet\u2019s latest playground for some seriously unusual digital experiments \ud83e\udde0\ud83e\udeb0\n\nResearchers working with Google Research and HHMI Janelia mapped the adult ma",
-  "date": "2026-09-12"
  },
  {
   "page": "futurism",
@@ -633,5 +618,20 @@
   "page": "techcrunch",
   "hook": "\"Meta\u2019s AI agent Muse stole the spotlight this week, but would you trust Meta with your entire digital life? \u2060\n\u2060\nThe Equity crew looks at the company\u2019s consumer AI ambitions and why some users (like Sean) might prefer to",
   "date": "2026-09-25"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Donald Trump\u2019s $500 billion AI infrastructure project is in major trouble in New Mexico, as a pivotal data center project appears to be shriveling on the vine.\n\nEarly on Thursday, the AI company Oracle sent out a notice",
+  "date": "2026-09-26"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Tubby Nugget may be a tiny animated blob, but he's built the kind of creator empire most humans would envy.\u2060\n\u2060\nWhat began as an inside joke between creators and real-life couple Jenine Pastores and Josh Jackson has grow",
+  "date": "2026-09-27"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"When Synthesiaio asked TechCrunch reporter Dominic-Madori Davis if she wanted to make a digital twin, she didn\u2019t hesitate.\u2060\n\u2060\nThe AI video company created two versions of Dominic: an interactive digital twin you can tal",
+  "date": "2026-09-26"
  }
 ]
