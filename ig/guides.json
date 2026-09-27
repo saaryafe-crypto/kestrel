@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27T01:32:58.145562+00:00",
+ "updated": "2026-09-27T03:34:14.999564+00:00",
  "guides": [
   {
    "id": "2096052072470704579",
@@ -361,6 +361,31 @@
    "born": 1788114218.084242
   },
   {
+   "id": "2103664821459685708",
+   "title": "I've created a new Grok Bot Tutorial template for anyone new to Grok @Bot. This hands-on course includes 20 lessons. It walks you through every feature step by step, with real exercises and tips so you get the most out o",
+   "sub": "SawyerMerritt",
+   "where": "@SawyerMerritt on X",
+   "unit": "likes",
+   "selftext": "I've created a new Grok Bot Tutorial template for anyone new to Grok @Bot. This hands-on course includes 20 lessons. It walks you through every feature step by step, with real exercises and tips so you get the most out of Grok Bot. Download:  The 20 lessons: 1) Talking to your assistant 2) Files, images, and voice 3) Research & writing 4) Connecting your apps 5) Calendar and scheduling 6) My own computer & browser 7) Working on your own computer 8) Routines 9) Staying in control 10) Privacy and security 11) Memory and preferences 12) Skills 13) Showing it how to do something 14) A team of assistants 15) Sharing and templates 16) Customizing, and fixing things 17) Using it for your job or business 18) Travel and everyday errands 19) Money and finances 20) Buying things for you",
+   "permalink": "https://x.com/SawyerMerritt/status/2103664821459685708",
+   "outlink": null,
+   "score": 4973,
+   "comments_n": 239,
+   "views": 571643,
+   "age_h": 25.6,
+   "vph": 194.1,
+   "image": "https://pbs.twimg.com/media/HTG3BCAWQAA5tYV.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HTG3BCAWQAA5tYV.jpg"
+   ],
+   "video": null,
+   "guide": true,
+   "thread": [
+    "@IamSvented @bot You have to install Grok Bot first before you can open the tutorial within grok bot. There should be a one-week free trial if it\u2019s your first time downloading it."
+   ],
+   "born": 1790388497.352102
+  },
+  {
    "id": "2100684274114699295",
    "title": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help tra",
    "sub": "AnthropicAI",
@@ -408,31 +433,6 @@
     "7/ Block what remains online Not all accounts need to be deleted. The accounts you keep should be harder to hijack and harder to connect to each other. Enable two-factor authentication, remove public email addresses, change weak passwords, unlink old applications, and review privacy settings."
    ],
    "born": 1788264946.745911
-  },
-  {
-   "id": "2103664821459685708",
-   "title": "I've created a new Grok Bot Tutorial template for anyone new to Grok @Bot. This hands-on course includes 20 lessons. It walks you through every feature step by step, with real exercises and tips so you get the most out o",
-   "sub": "SawyerMerritt",
-   "where": "@SawyerMerritt on X",
-   "unit": "likes",
-   "selftext": "I've created a new Grok Bot Tutorial template for anyone new to Grok @Bot. This hands-on course includes 20 lessons. It walks you through every feature step by step, with real exercises and tips so you get the most out of Grok Bot. Download:  The 20 lessons: 1) Talking to your assistant 2) Files, images, and voice 3) Research & writing 4) Connecting your apps 5) Calendar and scheduling 6) My own computer & browser 7) Working on your own computer 8) Routines 9) Staying in control 10) Privacy and security 11) Memory and preferences 12) Skills 13) Showing it how to do something 14) A team of assistants 15) Sharing and templates 16) Customizing, and fixing things 17) Using it for your job or business 18) Travel and everyday errands 19) Money and finances 20) Buying things for you",
-   "permalink": "https://x.com/SawyerMerritt/status/2103664821459685708",
-   "outlink": null,
-   "score": 4177,
-   "comments_n": 212,
-   "views": 491100,
-   "age_h": 23.6,
-   "vph": 177.0,
-   "image": "https://pbs.twimg.com/media/HTG3BCAWQAA5tYV.jpg",
-   "images": [
-    "https://pbs.twimg.com/media/HTG3BCAWQAA5tYV.jpg"
-   ],
-   "video": null,
-   "guide": true,
-   "thread": [
-    "@IamSvented @bot You have to install Grok Bot first before you can open the tutorial within grok bot. There should be a one-week free trial if it\u2019s your first time downloading it."
-   ],
-   "born": 1790388497.352102
   },
   {
    "id": "2103479340423848019",

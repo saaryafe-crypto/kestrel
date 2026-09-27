@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27T01:32:58.145562+00:00",
+ "updated": "2026-09-27T03:34:14.999564+00:00",
  "photos": [
   {
    "id": "2094401358585897316",
@@ -705,6 +705,29 @@
    "born": 1789234239.039477
   },
   {
+   "id": "2103869432342913327",
+   "title": "This is what winter looks like in a small town in India",
+   "sub": "PicturesFoIder",
+   "where": "@PicturesFoIder on X",
+   "unit": "likes",
+   "selftext": "This is what winter looks like in a small town in India",
+   "permalink": "https://x.com/PicturesFoIder/status/2103869432342913327",
+   "outlink": null,
+   "score": 10511,
+   "comments_n": 147,
+   "views": 290555,
+   "age_h": 12.1,
+   "vph": 870.9,
+   "image": "https://pbs.twimg.com/media/HTJx-2mbEAABq0A.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HTJx-2mbEAABq0A.jpg",
+    "https://pbs.twimg.com/media/HTJx-21aEAECDy0.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1790436494.999564
+  },
+  {
    "id": "2093762731036008664",
    "title": "Polar bear caught mid-leap over Arctic waters during an expedition",
    "sub": "AMAZlNGNATURE",
@@ -808,31 +831,6 @@
    "video": null,
    "guide": false,
    "born": 1789395881.495388
-  },
-  {
-   "id": "2103664821459685708",
-   "title": "I've created a new Grok Bot Tutorial template for anyone new to Grok @Bot. This hands-on course includes 20 lessons. It walks you through every feature step by step, with real exercises and tips so you get the most out o",
-   "sub": "SawyerMerritt",
-   "where": "@SawyerMerritt on X",
-   "unit": "likes",
-   "selftext": "I've created a new Grok Bot Tutorial template for anyone new to Grok @Bot. This hands-on course includes 20 lessons. It walks you through every feature step by step, with real exercises and tips so you get the most out of Grok Bot. Download:  The 20 lessons: 1) Talking to your assistant 2) Files, images, and voice 3) Research & writing 4) Connecting your apps 5) Calendar and scheduling 6) My own computer & browser 7) Working on your own computer 8) Routines 9) Staying in control 10) Privacy and security 11) Memory and preferences 12) Skills 13) Showing it how to do something 14) A team of assistants 15) Sharing and templates 16) Customizing, and fixing things 17) Using it for your job or business 18) Travel and everyday errands 19) Money and finances 20) Buying things for you",
-   "permalink": "https://x.com/SawyerMerritt/status/2103664821459685708",
-   "outlink": null,
-   "score": 4177,
-   "comments_n": 212,
-   "views": 491100,
-   "age_h": 23.6,
-   "vph": 177.0,
-   "image": "https://pbs.twimg.com/media/HTG3BCAWQAA5tYV.jpg",
-   "images": [
-    "https://pbs.twimg.com/media/HTG3BCAWQAA5tYV.jpg"
-   ],
-   "video": null,
-   "guide": true,
-   "thread": [
-    "@IamSvented @bot You have to install Grok Bot first before you can open the tutorial within grok bot. There should be a one-week free trial if it\u2019s your first time downloading it."
-   ],
-   "born": 1790387812.43664
   }
  ]
 }
