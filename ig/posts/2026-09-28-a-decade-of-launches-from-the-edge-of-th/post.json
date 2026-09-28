@@ -1,0 +1,52 @@
+{
+ "image_brief": "a private rocket launching from a New Zealand farm paddock, world's first private orbital launch site, nearly 100 missions in 10 years including one to the Moon",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A NEW ZEALAND FARM <em>IS NOW A SPACEPORT</em>",
+   "kicker": "NEARLY 100 ROCKETS IN 10 YEARS",
+   "hsize": 80,
+   "media": "posts/2026-09-28-a-decade-of-launches-from-the-edge-of-th/cand-1.jpg"
+  }
+ ],
+ "caption": "A sheep farm in New Zealand has launched nearly 100 rockets to orbit in 10 years, including one to the Moon. \ud83d\ude80\n\nTen years ago, Rocket Lab turned a sheep farm paddock in New Zealand into the world's first private orbital launch site. Nearly 100 rockets have lifted off from that same paddock, carrying commercial satellites, national security payloads, and one spacecraft all the way to the Moon. New Zealand is now one of the busiest launch countries on Earth, from a paddock where sheep used to graze.\n\nRunning a business? DM us \"AI\" and we'll show you what this kind of shift can do for yours.\n\nSources: Rocket Lab on X\n\n#space #rocketlaunch #rocketlab #spaceindustry #technology",
+ "pinned_comment": "They launched a Moon mission from a sheep farm. At what point does 'impossible location' stop meaning anything in this industry?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "A NEW ZEALAND FARM <em>IS NOW A SPACEPORT</em>",
+   "THIS FARM PADDOCK <em>SENT A SPACECRAFT TO THE MOON</em>"
+  ],
+  "scores": [
+   8,
+   0
+  ],
+  "winner": 0,
+  "why": "Candidate 0 stops scrolling with the core 'farm becomes spaceport' shock in crystal-clear language. Candidate 1 violates the truth rule by claiming the farm 'sent' a craft to the Moon when facts only mention launching\u2014conflating attempt with accomplishment."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Rocket Lab",
+  "actor_known": false,
+  "anchor": "the world's first private rocket launch site",
+  "specifics": [
+   "A mission to the Moon launched from a farm paddock in New Zealand",
+   "Almost 100 orbital rocket launches from a single farm site in 10 years",
+   "New Zealand is now one of the world's busiest rocket launch countries",
+   "Two launch pads built on what was originally farmland",
+   "World's first private orbital launch site, opened a decade ago"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (1/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "A decade of launches from the edge of the world \ud83d\ude80\ud83c\uddf3\ud83c\uddff Ten years ago, Launch Complex 1 was officially opened and became the world's first private orbital launch site. What seemed like a crazy idea - making dedicated launche",
+  "link": "https://x.com/RocketLab/status/2104301889848520726",
+  "judge_interest": 4,
+  "scout_score": 39.7
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE LAW \u2014 cover is text-on-black: the image is an almost completely dark frame with faint coastal terrain and the words '10 YEARS OF LAUNCHES' in white on black. The doctrine states explicitly 'Text-on-black or empty-top covers are failures.' The cover must carry a subject \u2014 a rocket mid-launch from the Mahia Peninsula paddock, or the launch site itself in full daylight \u2014 that proves the headlin",
+ "gate_r": "s1: The background contains ghosted text ('10 YEARS OF LAUNCHES') as a full-bleed design element, making it a raw text-as-background composition that violates the screenshot law."
+}
