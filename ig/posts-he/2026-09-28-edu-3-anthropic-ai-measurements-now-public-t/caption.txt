@@ -1,0 +1,9 @@
+שלושה מספרים על Claude שרוב המשתמשים מפספסים, ו-Anthropic פרסמה אותם לכולם.
+
+Claude 3.5 Sonnet תיקן לבד 49% מהבאגים האמיתיים בקוד שנלקח מ-GitHub, בלי עזרה אנושית. כל מודל של Claude מקבל ציון בטיחות בסולם 1 עד 4 לפני שיוצא לשוק, והנוכחי הוא ASL-2. לאמן את Claude עלה בערך 100 מיליון דולר ולקח חודשים. לענות על שאלה אחת שלך עולה שבריר של סנט. ההפרש: 10,000 ל-1.
+
+מקורות: Anthropic SWE-bench Verified blog post (יוני 2024); Anthropic Responsible Scaling Policy; Dario Amodei on AI training costs
+
+עקבו אחרי @ainews.israel
+
+#AI #Anthropic #AItools #ArtificialIntelligence #AIbusiness

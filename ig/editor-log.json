@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-24T03:23:40Z",
-  "gate": "B",
-  "subject": "PATIENTS WHO TOOK OZEMPIC TO LOSE WEIGHT <em>ARE NOW SUING OVER GOING BLIND.</em>",
-  "verdict": "REJECT",
-  "reason": "CAPTION CLOSER IS GENERIC (§7): The last story line — 'Doctors, patients, and companies all have new questions to answer' — could end any lawsuit story about any product by swapping nouns. §7 requires ending on the sharpest specific fact. Fixable: replace with something concrete that belongs only to this story, e.g. 'Novo Nordisk made over $6 billion from Ozempic last year. Now they're defending e"
- },
- {
   "t": "2026-09-24T03:24:04Z",
   "gate": "R",
   "subject": "PATIENTS WHO TOOK OZEMPIC TO LOSE WEIGHT <em>ARE NOW SUING OVER GOING BLIND.</em>",
@@ -2098,5 +2091,12 @@
   "subject": "A NEW ZEALAND FARM <em>IS NOW A SPACEPORT</em>",
   "verdict": "FAIL",
   "reason": "s1: The background contains ghosted text ('10 YEARS OF LAUNCHES') as a full-bleed design element, making it a raw text-as-background composition that violates the screenshot law."
+ },
+ {
+  "t": "2026-09-28T22:59:03Z",
+  "gate": "A",
+  "subject": "All they got is AI slop and delusion to get through the day.",
+  "verdict": "KILL",
+  "reason": "No event, no actor, no consequence—a vibe/opinion tweet with zero substance; thinness kills when the underlying event is trivial, and this is exactly that."
  }
 ]
