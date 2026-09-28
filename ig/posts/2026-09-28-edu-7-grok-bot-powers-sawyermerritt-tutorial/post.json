@@ -1,0 +1,55 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "7 <em>GROK</em> FEATURES THAT REPLACE YOUR PAID APPS",
+   "hsize": 70,
+   "kicker": "7-MOVE GUIDE IN CAPTION",
+   "face": [
+    "Elon Musk"
+   ],
+   "media": "faces/elon-musk-3.jpg"
+  }
+ ],
+ "caption": "7 Grok Bot powers most people never try \ud83e\udd16\n\n1) Link your apps. Your calendar stops double-booking itself, Grok flags clashes before they bite you.\n\n2) It controls your computer. Files older than 30 days archive themselves, your downloads folder stops being a graveyard.\n\n3) Drowning in email every morning? Set a weekday 8am routine and Grok surfaces only the urgent ones. Runs forever.\n\n4) Teach it once. \"Here's how I handle a client invoice. Do the same every time a new one comes in.\"\n\n5) Run two bots at once. \"One on client emails, one on research. Both tonight.\"\n\n6) Business owners: \"Here's what I do. What three tasks can you take over this week?\"\n\n7) For money. \"Scan my last month. Find what I'm not using.\" This one gets everyone.\n\nSAVE THIS: all 7 Grok Bot moves.\n\nGrok Bot was built to run your life, not just answer questions. The people who spend an hour on these features stop doing a lot of work by hand. The gap between them and everyone else is growing fast.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: SawyerMerritt, xAI\n\n#GrokBot #AIAssistant #AIForBusiness #ChatGPT #AITools",
+ "pinned_comment": "Which one are you trying tonight? Number 6 is where business owners should start.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "7 GROK BOT POWERS <em>NOBODY USES</em>",
+   "7 <em>GROK BOT</em> MOVES MOST PEOPLE MISS",
+   "7 THINGS <em>GROK BOT</em> CAN DO TONIGHT",
+   "7 GROK BOT FEATURES <em>YOU HAVEN'T FOUND</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "TONIGHT creates urgent clarity you can act on immediately\u2014you click to grab these before scrolling past. YOU HAVEN'T FOUND hits harder emotionally but hides what the features are, forcing you to read the caption first."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "7 <em>FREE GROK</em> FEATURES MOST PEOPLE MISS",
+   "7 THINGS <em>GROK BOT</em> CAN DO TONIGHT",
+   "7 <em>GROK</em> TRICKS SO GOOD THEY FEEL ILLEGAL",
+   "7 <em>GROK</em> FEATURES THAT REPLACE YOUR PAID APPS"
+  ],
+  "scores": [
+   4,
+   3,
+   6,
+   8
+  ],
+  "winner": 3,
+  "why": "At 2am, 'replaces your paid apps' stops you cold because you immediately understand the win (free alternatives to things you pay for)\u2014you read to see which ones. 'Feel illegal' is wittier but it's a mystery you'd only bother solving if you already followed this account."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW \u2014 COVER FAILS ARCHETYPE AND THUMB TEST: The cover is a plain grey headshot of Elon Musk with no Grok brand mark, no product, no colorful story-world background, and no brand discs behind him. The archetype for a CEO-as-vendor-cast guide cover is 'the person + giant glossy brand mark + the real product.' At feed size, a stranger sees a portrait of a man in a suit \u2014 nothing signals '7 Grok"
+}
