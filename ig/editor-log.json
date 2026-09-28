@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-23T23:40:11Z",
-  "gate": "A",
-  "subject": "Grok Bot has just officially launched in @Tesla vehicles. I got early access a couple weeks ago. You can order stuff on ",
-  "verdict": "APPROVE",
-  "reason": "Grok Bot launching in Tesla vehicles is a household-name feature demonstration (xAI/Tesla tier) with concrete use cases shown, matching the measured-strong 'famous product feature demo' archetype and avoiding all instant-kill criteria."
- },
- {
   "t": "2026-09-23T23:58:45Z",
   "gate": "B",
   "subject": "YOUR TESLA CAN NOW <em>SPEND YOUR MONEY BY VOICE</em> WHILE THE CAR DRIVES ITSELF",
@@ -2098,5 +2091,12 @@
   "subject": "TRUMP IS HAVING DINNER WITH <em>ANTHROPIC'S CEO</em> TONIGHT",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-28T20:24:04Z",
+  "gate": "A",
+  "subject": "All they got is AI slop and delusion to get through the day.",
+  "verdict": "KILL",
+  "reason": "One thin commentary tweet with zero underlying event, no named actor, no real consequence—pure engagement metrics as substance; instant kill under NO SUBSTANCE and REACTION-BAIT rules."
  }
 ]

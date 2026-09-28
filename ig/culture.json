@@ -1,60 +1,64 @@
 {
- "ts": 1790490747.5533733,
- "updated": "2026-09-27",
+ "ts": 1790627203.4094055,
+ "updated": "2026-09-28",
  "hot": [
   {
-   "name": "Olivia Rodrigo",
-   "why_hot_now": "The Unraveled Tour kicked off September 25 in Hartford — her biggest tour yet, 86 dates for her third album.",
-   "typical_scene": "screaming new heartbreak anthems to a sold-out stadium"
-  },
-  {
-   "name": "The Pitt",
-   "why_hot_now": "Won Outstanding Drama Series at the Emmys for a second straight year, with Noah Wyle taking home another acting trophy.",
-   "typical_scene": "ER doctors sprinting through a single real-time brutal shift"
-  },
-  {
-   "name": "Widow's Bay",
-   "why_hot_now": "Set an all-time Emmy record with 14 wins this month, including Outstanding Comedy Series.",
-   "typical_scene": "chaotic ensemble cast buried under an avalanche of Emmy trophies"
-  },
-  {
-   "name": "Jean Smart",
-   "why_hot_now": "Made Emmy history this September with a landmark acting win for Widow's Bay.",
-   "typical_scene": "commanding the stage in a blazing acceptance speech"
-  },
-  {
    "name": "Taylor Swift",
-   "why_hot_now": "Made a surprise cameo with Emmy host Mariska Hargitay that broke social media mid-show.",
-   "typical_scene": "photobombing an Emmys bit in a glittering unexpected appearance"
+   "why_hot_now": "Won Video of the Year at last night's VMAs (Sept 27) and premiered her self-directed horror video 'Patient Zero,' her first awards show as a married woman.",
+   "typical_scene": "debuting 'Patient Zero' horror video onstage at VMAs"
   },
   {
-   "name": "Reacher",
-   "why_hot_now": "Season 4 on Prime Video has crossed a billion viewing minutes for five consecutive weeks.",
-   "typical_scene": "enormous guy methodically dismantling bad guys in a small town"
+   "name": "Sabrina Carpenter",
+   "why_hot_now": "Went viral at last night's VMAs for her visibly shocked reaction during Madonna's rambling 'Bring Your Love' speech after their piano duet.",
+   "typical_scene": "shocked grin at piano while Madonna overshares onstage"
   },
   {
-   "name": "The Gentlemen",
-   "why_hot_now": "Season 2 dropped on Netflix and hit 881 million viewing minutes in its second week.",
-   "typical_scene": "slick criminals scheming in a wood-paneled English country manor"
+   "name": "Madonna",
+   "why_hot_now": "Opened the VMAs spread-eagle on a grand piano with Sabrina Carpenter and won Best Collaboration, generating massive clip traffic overnight.",
+   "typical_scene": "spread-eagle atop a black grand piano opening the VMAs"
   },
   {
-   "name": "Phoebe Bridgers",
-   "why_hot_now": "Three sold-out nights at Barclays Center in Brooklyn this month drew massive fan-video floods online.",
-   "typical_scene": "skeleton onesie, bare stage, devastating quiet in a packed arena"
+   "name": "BTS",
+   "why_hot_now": "Won Song of the Year at last night's MTV VMAs for 'Swim,' their first major US award since reuniting with the Arirang album.",
+   "typical_scene": "celebrating Song of the Year VMA win for 'Swim'"
+  },
+  {
+   "name": "Olivia Rodrigo",
+   "why_hot_now": "Launched the sold-out Unraveled Tour on September 25 to instant critical raves, her biggest production yet across 86 dates.",
+   "typical_scene": "commanding a stage buried in flowers across four-season set"
+  },
+  {
+   "name": "Charli XCX",
+   "why_hot_now": "Her Music, Fashion, Film arena tour is actively running mid-leg this week, supporting her second No. 1 album of 2026.",
+   "typical_scene": "headlining arenas with brat-energy on cinematic arena stage"
+  },
+  {
+   "name": "Glen Powell",
+   "why_hot_now": "Chad Powers Season 2 hit #1 on Hulu with a 92% Rotten Tomatoes score, his biggest streaming moment yet.",
+   "typical_scene": "disguised as walk-on quarterback in fake mustache and pads"
+  },
+  {
+   "name": "Monster: The Lizzie Borden Story",
+   "why_hot_now": "Ryan Murphy's Netflix anthology hit #1 globally with 12.1 million views in its first four days after dropping September 17.",
+   "typical_scene": "Victorian courtroom drama soaked in darkly comedic murder flashbacks"
+  },
+  {
+   "name": "Nicole Kidman",
+   "why_hot_now": "Posted her first-ever TikTok this week after ADÉLA's viral song 'Nicole Kidman' hit #1 on Spotify USA and spawned a massive dance trend.",
+   "typical_scene": "posting a delighted first TikTok to her own viral song"
   }
  ],
  "memes": [
-  "Jean Phil: debating whether the perfectly symmetrical blond-mustachioed shadowboxing man is real or AI-generated — 'final boss' edits everywhere",
-  "Jimothy the Raccoon: Seattle's unbothered, oddly-shaped trash panda becoming a full parasocial celebrity with fan accounts",
-  "'My American Girl Doll' audio: creators hijack a kid's joyful childhood clip to reveal their prized adult obsessions with the same unfiltered energy",
-  "'Tfw you didn't agree to this': freshly-minted Leonardo DiCaprio reaction face stamped onto any situation that blindsided you",
-  "'2026 is the new 2016': recreating bottle flips, dabbing, Pokémon Go sightings, and 'catch me outside' as pure Gen Z nostalgia bait",
-  "Whispering Pigeon: AI-generated blue bird-person softly asking 'have you pooped yet' — now remixed into every TikTok audio format imaginable"
+  "Jimothy the rotund Seattle raccoon waddling unbothered — captioned as 'me surviving the week' across every platform",
+  "'tfw you didn't agree to this' — fresh Leo DiCaprio awards-show reaction image already colonizing every complaint post",
+  "ADÉLA's 'Nicole Kidman' as the TikTok manifestation/it-girl sound — everyone lip-syncing it while looking effortlessly put-together",
+  "SpongeBob's comically oversized handcuffs sliding off his wrists resurfaced as the 'consequences simply do not apply to me' format",
+  "Tornado Squirrel footage looped under dramatic orchestral scores as the ultimate underdog comeback meme"
  ],
  "ai_flagships": [
   "Claude Opus 5.5",
   "GPT-6 Astra",
-  "Gemini 3.8 Flash",
+  "Gemini 3.1 Pro",
   "Grok 4.7",
   "Muse Spark 1.3"
  ]
