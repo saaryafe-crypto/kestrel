@@ -1,0 +1,74 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SPACEX STUCK <em>THE FLIP</em>",
+   "kicker": "THE OCEAN WAS THE WARM-UP",
+   "hsize": 80,
+   "media": "posts/2026-09-28-spacex-s-starship-rocket-just-performed-/cand-1.jpg"
+  }
+ ],
+ "caption": "SpaceX just nailed Starship's flip maneuver and hit the exact splashdown target.\n\nStarship flipped precisely and hit its exact target in the Pacific Ocean on flight 14. Within hours the engineers were already planning flight 15: skip the water, catch the rocket mid-air with robotic arms on the launch tower instead. You could watch a 40-story rocket get snatched from the sky on the very next launch. The ocean landing was the whole goal for years. SpaceX just called it the warm-up.\n\nEvery successful Starship test moves reusable rockets closer to being the industry standard, not SpaceX's party trick. A tower catch on flight 15 would put routine rocket recovery on every launch company's roadmap, not just SpaceX's.\n\nSources: X (SawyerMerritt)\n\n#SpaceX #Starship #Space #RocketLaunch #SpaceTech",
+ "pinned_comment": "Is it still a win if the team called it practice the same day? SpaceX was already planning the flight 15 tower catch before the water settled.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX JUST FLIPPED <em>THE WORLD'S BIGGEST ROCKET</em> IN MIDAIR",
+   "SPACEX IS ABOUT TO CATCH <em>A 40-STORY ROCKET</em> MID-AIR",
+   "SPACEX IS CATCHING <em>STARSHIP OUT OF THE SKY</em> NEXT",
+   "SPACEX NAILED <em>STARSHIP'S EXACT SPLASHDOWN ZONE</em> AFTER A MID-AIR FLIP",
+   "SPACEX JUST STUCK <em>THE WILDEST FLIP</em> IN ROCKET HISTORY"
+  ],
+  "scores": [
+   8,
+   0,
+   0,
+   9,
+   7
+  ],
+  "winner": 3,
+  "why": "[3] demonstrates both a wild maneuver and precise landing, showing complete mission success. [0] only shows the maneuver, missing the payoff that proves it actually worked."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX JUST BACKFLIPPED <em>A SKYSCRAPER IN MIDAIR</em>",
+   "SPACEX PLANS TO <em>SNATCH STARSHIP OUT OF THE SKY</em>",
+   "SPACEX STUCK THE FLIP. <em>NEXT THEY CATCH STARSHIP MID-AIR</em>",
+   "SPACEX NAILED <em>STARSHIP'S EXACT SPLASHDOWN ZONE</em> AFTER A MID-AIR FLIP"
+  ],
+  "scores": [
+   4,
+   6,
+   8,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] hits with momentum: stuck the flip, then 'next they catch it mid-air' makes you stop and read more. [3] impresses with the full story at once, so you've already got the gist."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SpaceX",
+  "actor_known": true,
+  "anchor": "SpaceX",
+  "specifics": [
+   "Starship nailed a mid-air flip maneuver before splashdown",
+   "Hit the target zone precisely in the Pacific Ocean",
+   "Tower catch \u2014 robotic arms snagging the rocket at the launch pad \u2014 being considered for flight 15",
+   "Tweet about it racked up 234.7K views within hours",
+   "This would be one of the most physically ambitious engineering feats ever attempted"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (2/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "SpaceX's Starship rocket just performed a flip maneuver and splashed down on target in the Pacific Ocean. Seems like tower catch could be a go for flight 15.",
+  "link": "https://x.com/SawyerMerritt/status/2104601729371390062",
+  "judge_interest": 6,
+  "scout_score": 93.1
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE LAW VIOLATION \u2014 the cover is a screenshot of the SpaceX livestream UI: it carries the 'LIVE | 2M views' badge, speed/altitude telemetry gauges, T+03:08:17 timer, and the SpaceX flight-14 label bar. \u00a73 is absolute: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Fix: replace with a real press photo of Starship mid-flip or splashdown (no UI chrome), or a photoreal collage of the rocke",
+ "gate_r": "s1: The background is a dark, blurry video-frame grab with a visible timestamp overlay \u2014 below press-photo quality standard and reads as a raw screenshot used as full-bleed background."
+}
