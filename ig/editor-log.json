@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-23T21:17:35Z",
-  "gate": "A",
-  "subject": "We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by ",
-  "verdict": "KILL",
-  "reason": "Routine feature announcement (spec sheet + release date, no demonstration) fits the banned launch-preview category; 4/10 scout interest requires exceptional justification to override, which this lacks."
- },
- {
-  "t": "2026-09-23T21:45:02Z",
-  "gate": "B",
-  "subject": "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>.",
-  "verdict": "REJECT",
-  "reason": "Caption opens with an emoji (🎙️) immediately after the first sentence. §4 STORYTELLING LAW bans emojis outright ('no emojis'). Fix: delete the 🎙️ character.; Cover image fails the headline's proof test (§3 IMAGE LAW). The headline's specific claim is 'ChatGPT Voice NOW DOES YOUR EMAIL, SLACK, AND CALENDAR JUST BY TALKING' — a productivity capability story. The image shows three elderly women on a "
- },
- {
-  "t": "2026-09-23T21:47:09Z",
-  "gate": "B",
-  "subject": "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>.",
-  "verdict": "REJECT",
-  "reason": "COVER TEXT IS A VAGUE LABEL, NOT THE HOOK: the image overlay reads 'NOW ABLE TO GET STUFF DONE' — a banned label/aphorism headline with none of the hook's specifics (email, Slack, calendar, just by talking). The rendered cover must carry the actual hook, or a version with the dinner-detail specifics intact. Fix: replace the overlay text with the hook line or its visual equivalent naming the three "
- },
- {
-  "t": "2026-09-23T21:50:24Z",
-  "gate": "B",
-  "subject": "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>.",
-  "verdict": "REJECT",
-  "reason": "HEADLINE ACCENTS NOT TEXTURED ORANGE — PERMANENT order violated. All cover text ('NOW ABLE TO GET STUFF DONE' and 'ChatGPT Voice') renders in flat lime-yellow. The permanent house rule requires accent words in the orange-sky cloud texture (art/accent-orange.jpg via background-clip), never a single flat color. Fix: re-render the cover with accent type in the orange cloud texture at the same cap hei"
- },
- {
-  "t": "2026-09-23T21:50:32Z",
-  "gate": "R",
-  "subject": "CHATGPT VOICE NOW DOES YOUR EMAIL, SLACK, AND CALENDAR <em>JUST BY TALKING</em>.",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
   "t": "2026-09-23T23:40:11Z",
   "gate": "A",
   "subject": "Grok Bot has just officially launched in @Tesla vehicles. I got early access a couple weeks ago. You can order stuff on ",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-28T00:55:09Z",
   "gate": "R",
   "subject": "7 <em>GROK</em> FEATURES THAT REPLACE YOUR PAID APPS",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-28T06:41:49Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — COVER IS DECORATION, NOT PROOF: The cover is a CGI orange particle burst on a black void. The doctrine is explicit: 'every ELEMENT in the frame must read as photographed — real skin, real product, real logo mark, real photo fragments. A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT.' A digital pa"
+ },
+ {
+  "t": "2026-09-28T06:44:00Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — TEXT-ON-BLACK COVER: The cover is a dark/black void with a CGI particle-light streak as decoration. The doctrine says explicitly 'Text-on-black or empty-top covers are failures' and 'every element in the frame must read as photographed — real skin, real product, real logo mark, real photo fragments.' A rendered digital particle burst is not a photoreal element; it reads as motion-graph"
+ },
+ {
+  "t": "2026-09-28T06:45:28Z",
+  "gate": "B",
+  "subject": "TRUMP IS HAVING DINNER WITH <em>ANTHROPIC'S CEO</em> TONIGHT",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — TEXT-ON-BLACK COVER: The doctrine explicitly names 'text-on-black or empty-top covers' as failures, and this is one. The top two-thirds of the frame is a dark field with an abstract orange particle burst — a CGI decorative effect, not a subject. The story is Trump and Dario Amodei at a private White House dinner; the correct archetype is 'human moment → the person's single emotional pr"
+ },
+ {
+  "t": "2026-09-28T06:46:59Z",
+  "gate": "B",
+  "subject": "TRUMP IS HAVING DINNER WITH <em>ANTHROPIC'S CEO</em> TONIGHT",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — COVER HAS NO PHOTOREAL SUBJECT: the entire upper two-thirds is a CGI particle burst on a pure black void. The law is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' An abstract light-streak graphic is not a subject.; IMAGE LAW — NO PHOTOREAL ELEMENTS: every element in the frame must read as photographed. The orange partic"
+ },
+ {
+  "t": "2026-09-28T06:47:08Z",
+  "gate": "R",
+  "subject": "TRUMP IS HAVING DINNER WITH <em>ANTHROPIC'S CEO</em> TONIGHT",
   "verdict": "PASS",
   "reason": ""
  }
