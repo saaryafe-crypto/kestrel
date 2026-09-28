@@ -1,53 +1,125 @@
 {
- "updated": "2026-09-27T14:30:26+00:00",
+ "updated": "2026-09-28T12:39:35+00:00",
  "competitor_hits": [
   {
+   "page": "wired",
+   "likes": 6531,
+   "ratio": 3.37,
+   "tier": "mega",
+   "hook": "\"If the United States collapses in the near future, you\u2019ll no doubt be tempted to point a few fingers. Just don\u2019t blame Emily St. John Mandel (@emilystjohnmandel).\n\nAs Covid tore across the planet, Mandel became somethin",
+   "date": "2026-09-27"
+  },
+  {
    "page": "techcrunch",
-   "likes": 100,
-   "ratio": 1.32,
+   "likes": 119,
+   "ratio": 1.37,
    "tier": "mega",
    "hook": "\"When Synthesiaio asked TechCrunch reporter Dominic-Madori Davis if she wanted to make a digital twin, she didn\u2019t hesitate.\u2060\n\u2060\nThe AI video company created two versions of Dominic: an interactive digital twin you can tal",
    "date": "2026-09-26"
   },
   {
-   "page": "techcrunch",
-   "likes": 88,
-   "ratio": 1.16,
+   "page": "wired",
+   "likes": 2346,
+   "ratio": 1.21,
    "tier": "mega",
-   "hook": "\"Meta\u2019s AI agent Muse stole the spotlight this week, but would you trust Meta with your entire digital life? \u2060\n\u2060\nThe Equity crew looks at the company\u2019s consumer AI ambitions and why some users (like Sean) might prefer to",
-   "date": "2026-09-25"
+   "hook": "\"No, it\u2019s not aliens, but a phenomenon caused by magnetic activity that astronomers have never before been able to pin on a specific planet.\n\nTap the \ud83d\udd17 in bio for more.\".",
+   "date": "2026-09-26"
+  },
+  {
+   "page": "wired",
+   "likes": 2088,
+   "ratio": 1.08,
+   "tier": "mega",
+   "hook": "\"Child predators are arguably the most reviled demographic in society.\n\nSo when someone like Chris Hansen, the former NBC Dateline journalist and host of the \u201cTo Catch a Predator\u201d series, decides to take up the mantle of",
+   "date": "2026-09-27"
+  },
+  {
+   "page": "technology",
+   "likes": 34000,
+   "ratio": 1.05,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech, AI and gaming in the last 24 hours, from Apple hardware clues and Sony patents to major Minecraft updates. \n\nSony filed a patent exploring AI matchmaking that could consider se",
+   "date": "2026-09-27"
   },
   {
    "page": "mashable",
-   "likes": 317,
-   "ratio": 1.0,
+   "likes": 336,
+   "ratio": 0.81,
    "tier": "mega",
    "hook": "\"How \"Your Mother Your Mother Your Mother\" came from Blade \u2060\n#YourMotherYourMotherYourMother #movies #newmovies\".",
    "date": "2026-09-26"
   },
   {
    "page": "techcrunch",
-   "likes": 61,
-   "ratio": 0.8,
+   "likes": 65,
+   "ratio": 0.75,
    "tier": "mega",
    "hook": "\"Founders: don\u2019t rush to outsource sales.\u2060\n\u2060\nFarmboxRx founder Ashley Tyrner-Dolce learned firsthand that sometimes customers need to hear directly from the person building the company.\u2060\n\u2060\nWatch the full episode of Build",
    "date": "2026-09-26"
   },
   {
+   "page": "wired",
+   "likes": 1263,
+   "ratio": 0.65,
+   "tier": "mega",
+   "hook": "\"Ebola hasn\u2019t gone away. In fact, the ongoing outbreak in Africa is among the most concerning epidemics the organization trying to tame it has ever seen.\n\n\u201cOther than Covid, which affected the whole world, this is the th",
+   "date": "2026-09-26"
+  },
+  {
+   "page": "wired",
+   "likes": 959,
+   "ratio": 0.5,
+   "tier": "mega",
+   "hook": "\"The Muse app continues Meta\u2019s trend of opting users into data collection for AI training. It also nudges you to share your bank account, email, and passport information.\n\nMeta\u2019s Muse is a mainstream version of AI agents",
+   "date": "2026-09-26"
+  },
+  {
+   "page": "futurism",
+   "likes": 506,
+   "ratio": 0.26,
+   "tier": "mega",
+   "hook": "\"Donald Trump\u2019s $500 billion AI infrastructure project is in major trouble in New Mexico, as a pivotal data center project appears to be shriveling on the vine.\n\nEarly on Thursday, the AI company Oracle sent out a notice",
+   "date": "2026-09-26"
+  },
+  {
    "page": "mashable",
-   "likes": 28,
-   "ratio": 0.09,
+   "likes": 97,
+   "ratio": 0.23,
    "tier": "mega",
    "hook": "\"Tubby Nugget may be a tiny animated blob, but he's built the kind of creator empire most humans would envy.\u2060\n\u2060\nWhat began as an inside joke between creators and real-life couple Jenine Pastores and Josh Jackson has grow",
    "date": "2026-09-27"
   },
   {
-   "page": "futurism",
-   "likes": 377,
-   "ratio": 0.03,
+   "page": "wired",
+   "likes": 419,
+   "ratio": 0.22,
    "tier": "mega",
-   "hook": "\"Donald Trump\u2019s $500 billion AI infrastructure project is in major trouble in New Mexico, as a pivotal data center project appears to be shriveling on the vine.\n\nEarly on Thursday, the AI company Oracle sent out a notice",
-   "date": "2026-09-26"
+   "hook": "\"A decade ago, text messages represented perhaps the most personal, sensitive data that most people shared from their devices, says cryptographer and software developer Moxie Marlinspike. The surveillance dangers invited",
+   "date": "2026-09-27"
+  },
+  {
+   "page": "technology",
+   "likes": 1534,
+   "ratio": 0.05,
+   "tier": "mega",
+   "hook": "\"GOOD BOY is a 51-minute post-apocalyptic film created by a single filmmaker using AI tools, with Seedance 2.0 and 2.5 handling most of the video generation.\n\nThe creator says the project required months of writing, gene",
+   "date": "2026-09-28"
+  },
+  {
+   "page": "wired",
+   "likes": 68,
+   "ratio": 0.04,
+   "tier": "mega",
+   "hook": "\"Amidst ongoing reports of AI agents wreaking havoc on online infrastructure, chipmaker Nvidia is rallying tech companies to use its new open-source tool for AI security.\n\nOver the last few months, frontier AI labs have ",
+   "date": "2026-09-28"
+  },
+  {
+   "page": "mashable",
+   "likes": 7,
+   "ratio": 0.02,
+   "tier": "mega",
+   "hook": "\"Dropout's Sam Reich tackles one of life's most existential questions: how would he like to die? #dropout #comedy\".",
+   "date": "2026-09-28"
   }
  ],
  "reddit_hot": []

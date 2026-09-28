@@ -1,43 +1,13 @@
 [
  {
-  "page": "wired",
-  "hook": "\"These days, a declaration of social media hatred isn\u2019t exactly a hot tech take. But NFL analyst and podcast host Mina Kimes is full of those too. For one, she thinks FaceTiming anyone outside of your family is \u201cinsane b",
-  "date": "2026-09-13"
- },
- {
   "page": "technology",
   "hook": "\"The 1970 Plymouth Superbird gave Richard Petty a 426 Hemi-powered NASCAR machine whose radical aerodynamics helped bring the winged-car era to an early end in NASCAR. \n\nPlymouth\u2019s extended nose cone and towering rear wi",
   "date": "2026-09-14"
  },
  {
-  "page": "technology",
-  "hook": "\"Swipe \u27a1\ufe0f to see 7 free alternatives to some of the biggest American software platforms, from Gmail and Google Search to Chrome, WhatsApp, Microsoft Office, and Google Maps \ud83d\udd10\n\nProton Mail and Proton Drive offer encrypted",
-  "date": "2026-09-13"
- },
- {
-  "page": "technology",
-  "hook": "\"A 22-year-old game is suddenly showing what neural rendering can do, with GTA: San Andreas getting a surprisingly modern visual makeover through DLSS 5 \ud83c\udfae\ud83e\udd2f\n\nThe experiment uses an unofficial community implementation of N",
-  "date": "2026-09-13"
- },
- {
-  "page": "technology",
-  "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech and AI in the last 24 hours, from futuristic hardware and robotics to major industry announcements and experiments \ud83c\udf0d\ud83e\udd16\n\nAn iPod-style Apple Watch case brought back the scroll whe",
-  "date": "2026-09-13"
- },
- {
-  "page": "futurism",
-  "hook": "\"The legendary German director Werner Herzog had a few choice words about other so-called \u201cfilmmakers\u201d who use AI to imitate their inspirations \u2014 one of those inspirations being himself.\n\nIn an interview with @indiewire,",
-  "date": "2026-09-13"
- },
- {
   "page": "wired",
   "hook": "\"In November of 2025, Maddie Kowalski, now 20, was targeted by the burnerverse, a community of anonymous social media accounts, that posted a non-consensual video of her performing sex acts which promptly went viral.\n\nKo",
   "date": "2026-09-14"
- },
- {
-  "page": "wired",
-  "hook": "\"AI researcher Jacob Coxon sent shock waves through Silicon Valley and beyond on Tuesday by announcing his resignation from Anthropic and delivering a grave warning that the AI race is putting all of our lives at risk.\n\n",
-  "date": "2026-09-13"
  },
  {
   "page": "technology",
@@ -633,5 +603,75 @@
   "page": "techcrunch",
   "hook": "\"When Synthesiaio asked TechCrunch reporter Dominic-Madori Davis if she wanted to make a digital twin, she didn\u2019t hesitate.\u2060\n\u2060\nThe AI video company created two versions of Dominic: an interactive digital twin you can tal",
   "date": "2026-09-26"
+ },
+ {
+  "page": "technology",
+  "hook": "\"GOOD BOY is a 51-minute post-apocalyptic film created by a single filmmaker using AI tools, with Seedance 2.0 and 2.5 handling most of the video generation.\n\nThe creator says the project required months of writing, gene",
+  "date": "2026-09-28"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech, AI and gaming in the last 24 hours, from Apple hardware clues and Sony patents to major Minecraft updates. \n\nSony filed a patent exploring AI matchmaking that could consider se",
+  "date": "2026-09-27"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Trump says he is open to Chinese automakers building cars inside the U.S., as long as they manufacture locally and employ American workers \ud83c\uddfa\ud83c\uddf8\n\nThe idea comes as Trump and Xi continue discussions around trade, tariffs an",
+  "date": "2026-09-25"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Dropout's Sam Reich tackles one of life's most existential questions: how would he like to die? #dropout #comedy\".",
+  "date": "2026-09-28"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Amidst ongoing reports of AI agents wreaking havoc on online infrastructure, chipmaker Nvidia is rallying tech companies to use its new open-source tool for AI security.\n\nOver the last few months, frontier AI labs have ",
+  "date": "2026-09-28"
+ },
+ {
+  "page": "wired",
+  "hook": "\"A decade ago, text messages represented perhaps the most personal, sensitive data that most people shared from their devices, says cryptographer and software developer Moxie Marlinspike. The surveillance dangers invited",
+  "date": "2026-09-27"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Child predators are arguably the most reviled demographic in society.\n\nSo when someone like Chris Hansen, the former NBC Dateline journalist and host of the \u201cTo Catch a Predator\u201d series, decides to take up the mantle of",
+  "date": "2026-09-27"
+ },
+ {
+  "page": "wired",
+  "hook": "\"If the United States collapses in the near future, you\u2019ll no doubt be tempted to point a few fingers. Just don\u2019t blame Emily St. John Mandel (@emilystjohnmandel).\n\nAs Covid tore across the planet, Mandel became somethin",
+  "date": "2026-09-27"
+ },
+ {
+  "page": "wired",
+  "hook": "\"The Muse app continues Meta\u2019s trend of opting users into data collection for AI training. It also nudges you to share your bank account, email, and passport information.\n\nMeta\u2019s Muse is a mainstream version of AI agents",
+  "date": "2026-09-26"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Ebola hasn\u2019t gone away. In fact, the ongoing outbreak in Africa is among the most concerning epidemics the organization trying to tame it has ever seen.\n\n\u201cOther than Covid, which affected the whole world, this is the th",
+  "date": "2026-09-26"
+ },
+ {
+  "page": "wired",
+  "hook": "\"No, it\u2019s not aliens, but a phenomenon caused by magnetic activity that astronomers have never before been able to pin on a specific planet.\n\nTap the \ud83d\udd17 in bio for more.\".",
+  "date": "2026-09-26"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Our survey of 634 women in tech reveals how AI is changing their work. They\u2019re using it, worrying about it, cleaning up after it, and watching it reshape their careers.\n\nTap the \ud83d\udd17 in bio to read the full survey.\n\n\ud83c\udfa8: @ma",
+  "date": "2026-09-25"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Why is Silicon Valley still a boys\u2019 club? In 2026, as DEI and woke were declared over, WIRED set out to investigate the state of gender in Silicon Valley. As tech titans embraced Trump and the right, as Mark Zuckerberg ",
+  "date": "2026-09-25"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Anthropic lost a legal battle to overturn one of the supply-chain risk labels that the US Department of Defense slapped on the company, as a federal appeals court in DC on Friday refused to second-guess the Trump admini",
+  "date": "2026-09-25"
  }
 ]
