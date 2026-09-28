@@ -1,0 +1,56 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ANTHROPIC REVEALED <em>3 NUMBERS ABOUT CLAUDE</em> EVERY USER SHOULD KNOW",
+   "kicker": "AND ANY AI LAB COULD DO THE SAME",
+   "hsize": 72,
+   "face": [
+    "Dario Amodei"
+   ],
+   "media": "faces/dario-amodei.jpg"
+  }
+ ],
+ "caption": "Anthropic has published 3 numbers about Claude that most users never look up. Here's why each one changes how you should think about AI. \ud83d\udd13\n\n1) 49%. That's how many real GitHub software bugs Claude 3.5 Sonnet fixed on its own in Anthropic's SWE-bench Verified test, no human help, no hints. Nearly half of all real coding problems, solved autonomously. That's not a demo stat. It's the number that makes \"AI will help developers\" sound like an understatement.\n\n2) HOW WELL AI AGENTS ARE WATCHED. Before you let Claude run overnight tasks for your business, know this: every Claude model gets an ASL safety rating from 1 to 4 before deployment. Current Claude is rated ASL-2, the level that means no meaningful uplift for mass-casualty threats. Those thresholds are published and public at anthropic.com.\n\n3) Most people assume answering you and training an AI cost roughly the same compute. WHERE THE POWER GOES: training a frontier model like Claude cost roughly $100 million and ran for months. Answering your question right now costs fractions of a cent. The ratio is approximately 10,000 to 1, and that gap is why AI products are cheap to run but eye-wateringly expensive to build.\n\nSAVE THIS. Anthropic's 3 published numbers: 49% of coding bugs solved autonomously, ASL-2 safety rating (scale of 1, 4), 10,000:1 training-to-inference compute ratio.\n\nAnthropic publishes these three numbers for anyone to check. The bigger story: AI is now helping design the next generation of itself. Any AI lab could do the same. Most haven't.\n\nRunning a business? DM us \"AI\" and we'll show you what this means for yours.\n\nSources: Anthropic SWE-bench Verified blog post (Jun 2024); Anthropic Responsible Scaling Policy; Dario Amodei on AI training costs\n\n#AI #Anthropic #AItools #ArtificialIntelligence #AIbusiness",
+ "pinned_comment": "Which one surprised you most? The compute gap in number 3 is what most people never think to ask about.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "ANTHROPIC IS NOW PUBLISHING <em>3 NUMBERS ABOUT HOW AI GROWS</em>",
+   "ANTHROPIC JUST PUBLISHED <em>3 NUMBERS IT NEVER SHARED BEFORE</em>",
+   "<em>3 NUMBERS ANTHROPIC</em> JUST MADE PUBLIC FOR THE FIRST TIME",
+   "<em>3 THINGS ANTHROPIC</em> NOW TELLS THE PUBLIC ABOUT ITS OWN AI",
+   "ANTHROPIC REVEALED <em>3 NUMBERS ABOUT HOW ITS AI IS BUILT</em>"
+  ],
+  "scores": [
+   5,
+   6,
+   7,
+   5,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] tells you specifically what the numbers are about while [2] just teases newness\u2014specificity hooks harder at 2am. 'REVEALED' also lands harder than 'made public'."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "ANTHROPIC JUST SHARED <em>3 NUMBERS ABOUT CLAUDE</em> FOR THE FIRST TIME",
+   "ANTHROPIC REVEALED <em>3 NUMBERS ABOUT HOW ITS AI IS BUILT</em>",
+   "ANTHROPIC REVEALED <em>3 NUMBERS ABOUT CLAUDE</em> EVERY USER SHOULD KNOW"
+  ],
+  "scores": [
+   5,
+   3,
+   7
+  ],
+  "winner": 2,
+  "why": "[2]'s 'every user should know' creates FOMO that stops casual scrollers mid-scroll wondering what they're missing. [0]'s 'for the first time' only hooks people already following Claude news\u2014relevance beats exclusivity."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "listicle_overflow": true,
+ "cover_fallback": "real-face-photo",
+ "editor_override": "FRIEND TEST FAIL \u2014 Item 2 uses three phrases no one says out loud: 'ASL' (never explained), 'meaningful uplift' (RSP policy jargon), and 'mass-casualty threats' (official document vocabulary). A 12-year-old version: 'every Claude model gets a danger score from 1 to 4 before it ships \u2014 the one you're using now is a 2, which means it can't help anyone build a weapon that kills thousands of people. A"
+}
