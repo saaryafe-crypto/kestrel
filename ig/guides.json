@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29T18:22:54.957512+00:00",
+ "updated": "2026-09-29T20:22:59.915213+00:00",
  "guides": [
   {
    "id": "2096052072470704579",
@@ -319,26 +319,6 @@
     "@brenzhills threads can describe a system but they can't show you one running"
    ],
    "born": 1789228038.012391
-  },
-  {
-   "id": "2094129094673735922",
-   "title": "How to share your Grok @Bot design with others",
-   "sub": "elonmusk",
-   "where": "@elonmusk on X",
-   "unit": "likes",
-   "selftext": "How to share your Grok @Bot design with others",
-   "permalink": "https://x.com/elonmusk/status/2094129094673735922",
-   "outlink": null,
-   "score": 5837,
-   "comments_n": 663,
-   "views": 5146559,
-   "age_h": 94.8,
-   "vph": 61.6,
-   "image": null,
-   "video": null,
-   "guide": true,
-   "wide_guide": true,
-   "born": 1788114218.084242
   },
   {
    "id": "2103664821459685708",
