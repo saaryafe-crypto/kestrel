@@ -1,0 +1,78 @@
+{
+ "media_idx": 1,
+ "image_brief": "Andrew McCarthy leaves camera at Starship launch pad, all 33 engines fire and trigger his shutter on first orbital flight",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "STARSHIP JUST REACHED ORBIT <em>FOR THE FIRST TIME EVER</em>",
+   "kicker": "ALL 33 ENGINES FIRED CLEAN",
+   "hsize": 78,
+   "media": "posts/2026-09-29-i-set-a-camera-really-close-to-the-launc/cand-1-fit.jpg"
+  }
+ ],
+ "caption": "Starship reached orbit for the first time, and the closest photo was taken by a camera left alone at the pad.\n\nOn September 28, 2026, Starship reached orbit for the first time with all 33 Raptor engines firing clean. Photographer Andrew McCarthy placed his camera right next to the launch pad, set a sound trigger, and walked away because standing there would have killed him. The roar of 33 engines pressed the shutter. His tweet got 587,700 views in hours. Starship is now an orbital rocket.\n\nRight now it costs around $2,000 to send one kilogram to orbit. If SpaceX gets that below $100, the satellites running your GPS, your weather app, and your phone signal all get cheaper to build and replace.\n\nRunning a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: Andrew McCarthy on X\n\n#Starship #SpaceX #RocketLaunch #Space #Technology",
+ "pinned_comment": "The part we couldn't fit: Andrew McCarthy walked away from his own camera because the blast would have ended him. The sound of 33 rocket engines, not him, triggered the shutter.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "STARSHIP REACHED ORBIT. <em>THE ROCKET TOOK ITS OWN PHOTO.</em>",
+   "STARSHIP MADE IT TO ORBIT. <em>THE PHOTO TOOK ITSELF.</em>",
+   "STARSHIP REACHED ORBIT. A CAMERA <em>LEFT ALONE</em> CAUGHT IT.",
+   "STARSHIP JUST REACHED ORBIT <em>FOR THE FIRST TIME EVER</em>",
+   "STARSHIP IS IN ORBIT. <em>ALL 33 ENGINES</em> FIRED PERFECTLY.",
+   "STARSHIP JUST REACHED ORBIT <em>FOR THE FIRST TIME EVER</em>",
+   "STARSHIP HIT ORBIT. ITS ROAR <em>TRIGGERED THIS PHOTO.</em>",
+   "<em>ALL 33 STARSHIP ENGINES FIRED.</em> IT REACHED ORBIT."
+  ],
+  "scores": [
+   0,
+   0,
+   5,
+   9,
+   7,
+   9,
+   8,
+   7
+  ],
+  "winner": 3,
+  "why": "'FOR THE FIRST TIME EVER' hits as pure historic magnitude that stops any scroller instantly. The roar-trigger in [6] is clever but secondary\u2014real impact flows from the achievement itself, not the mechanism of capturing it."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "STARSHIP JUST REACHED ORBIT AND <em>TOOK ITS OWN PHOTO</em>",
+   "STARSHIP JUST HIT ORBIT ON <em>ALL 33 ENGINES</em>",
+   "STARSHIP JUST REACHED ORBIT <em>FOR THE FIRST TIME EVER</em>",
+   "STARSHIP HIT ORBIT AND <em>THE ROAR PRESSED THE SHUTTER</em>"
+  ],
+  "scores": [
+   0,
+   5,
+   9,
+   7
+  ],
+  "winner": 2,
+  "why": "'First time ever' is an unstoppable historical milestone\u2014no one scrolls past. [3] buries the achievement under a poetic camera detail that muddies the real story."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SpaceX Starship",
+  "actor_known": true,
+  "anchor": "Starship",
+  "specifics": [
+   "All 33 Raptor engines fired nominally \u2014 Starship reached orbit for the first time ever",
+   "Camera was so close to the pad the photographer literally could not stand there",
+   "A sound-activated trigger let the roar of 33 engines press the shutter",
+   "587.7K views on the single tweet within hours",
+   "September 28, 2026 \u2014 first orbital Starship flight"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "I set a camera really close to the launch pad to get this shot. It was a sound activated trigger since it wasn\u2019t safe for me to stand here. That\u2019s all 33 Raptor engines performing nominally as Starship heads to orbit for",
+  "link": "https://x.com/AJamesMcCarthy/status/2104596891300253831",
+  "judge_interest": 8,
+  "scout_score": 135.6
+ }
+}
