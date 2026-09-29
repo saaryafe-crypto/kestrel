@@ -1,16 +1,6 @@
 [
  {
   "page": "technology",
-  "hook": "\"The 1970 Plymouth Superbird gave Richard Petty a 426 Hemi-powered NASCAR machine whose radical aerodynamics helped bring the winged-car era to an early end in NASCAR. \n\nPlymouth\u2019s extended nose cone and towering rear wi",
-  "date": "2026-09-14"
- },
- {
-  "page": "wired",
-  "hook": "\"In November of 2025, Maddie Kowalski, now 20, was targeted by the burnerverse, a community of anonymous social media accounts, that posted a non-consensual video of her performing sex acts which promptly went viral.\n\nKo",
-  "date": "2026-09-14"
- },
- {
-  "page": "technology",
   "hook": "\"The Lexus LFA\u2019s 4.8-litre V10 could sweep from idle to 9,000 rpm in 0.6 seconds, outpacing a conventional mechanical tachometer needle. \n\nThat response led Lexus to fit a digital TFT instrument cluster, developed with G",
   "date": "2026-09-15"
  },
@@ -28,36 +18,6 @@
   "page": "technology",
   "hook": "\"President Trump called Nvidia CEO Jensen Huang live at the All-In Summit, turning a speakerphone conversation into the latest flashpoint in AI policy debate today. \n\nTrump rejected fears of an AI takeover, saying \u201cthe r",
   "date": "2026-09-15"
- },
- {
-  "page": "futurism",
-  "hook": "\"Does Elon Musk, who claims to be so smart that chess bores him, understand what the Streisand effect is? We\u2019re skeptical, because he\u2019s now threatening to sue the Oscar-winning filmmaker Alex Gibney over his new document",
-  "date": "2026-09-14"
- },
- {
-  "page": "mashable",
-  "hook": "\"Missed television\u2019s biggest night? No need to worry. Swipe through for the ultimate cheat sheet so you can fake your way through every Emmys conversation tomorrow \u27a1\ufe0f\u2028\u2028 \n\u2028PHOTO CREDITS: \u2028GETTY/NBC / Contributor\u2028Gilbert F",
-  "date": "2026-09-14"
- },
- {
-  "page": "wired",
-  "hook": "\"The Supreme Court has rejected the Trump administration\u2019s bid to impose severe restrictions on mail-in voting just weeks ahead of the midterms.\n\nThe court, which was divided 7-2 with conservative justices Samuel Alito a",
-  "date": "2026-09-14"
- },
- {
-  "page": "wired",
-  "hook": "\"As calls for artificial intelligence regulation intensify, US President Donald Trump\u2019s team have made it clear that if lab leaders want to implement an industry-wide slowdown, they\u2019re going to have to do it themselves.\n",
-  "date": "2026-09-14"
- },
- {
-  "page": "wired",
-  "hook": "\"For the best part of a decade, abusive deepfake \u201cpornography\u201d websites have published thousands of nonconsensual videos depicting women, including high-profile celebrities, politicians, and public figures, into sexual s",
-  "date": "2026-09-14"
- },
- {
-  "page": "wired",
-  "hook": "\"Almost 150 politicians across Europe have been included on harmful deepfake pornography websites over the last few years, according to new research seen by WIRED. Some of the politicians, who are overwhelmingly women, h",
-  "date": "2026-09-14"
  },
  {
   "page": "futurism",
@@ -673,5 +633,65 @@
   "page": "wired",
   "hook": "\"Anthropic lost a legal battle to overturn one of the supply-chain risk labels that the US Department of Defense slapped on the company, as a federal appeals court in DC on Friday refused to second-guess the Trump admini",
   "date": "2026-09-25"
+ },
+ {
+  "page": "technology",
+  "hook": "\"UBTECH\u2019s UWorld U1 is a full-size consumer humanoid designed to look and interact more like a person, using realistic skin, hair and facial movements. \n\nThe U1 uses 88 degrees of freedom across its body, including its a",
+  "date": "2026-09-29"
+ },
+ {
+  "page": "technology",
+  "hook": "\"South Korean startup DIDEN Robotics is developing the Diden Spider, a 4-legged industrial robot designed to climb steel structures and perform shipyard tasks including welding and inspection.\n\nIts feet use electroperman",
+  "date": "2026-09-29"
+ },
+ {
+  "page": "technology",
+  "hook": "\"A creator used Claude Opus 5.5 to build an interactive browser experience that explains SpaceX\u2019s Raptor 3 by letting users explore the engine from the inside.\n\nThe visualization can cut the engine open, separate major c",
+  "date": "2026-09-29"
+ },
+ {
+  "page": "technology",
+  "hook": "\"GTA V\u2019s PC version has been demonstrated running locally on an iPhone 18 Pro Max through Vapor, reaching surprisingly high frame rates without cloud streaming \ud83c\udfae\ud83d\udcf1\n\nVapor reported an average of 66 FPS while driving throug",
+  "date": "2026-09-28"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"So far, astronomers have confirmed over 6,300 exoplanets circling a host star beyond our solar system. They range from small, rocky worlds to enormous orbs of gas like our own Jupiter or Saturn. Some, scientists suspect",
+  "date": "2026-09-28"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"Dating is tough when you\u2019re a tech bro with more money than you know what to do with.\n\nThat, at any rate, is according to the said loaded tech workers who spilled their guts to @wired. One 23-year-old complained that hi",
+  "date": "2026-09-28"
+ },
+ {
+  "page": "mashable",
+  "hook": "\"Public opinion has turned against smart glasses, which puts Meta and Zuckerberg in an awkward position...\u2060\n\u2060\nRead more on Mashable \u2b06\ufe0f\u2060\n\u270d\ufe0f: Timothy Beck Werth (@timothybeckwerth)\".",
+  "date": "2026-09-28"
+ },
+ {
+  "page": "techcrunch",
+  "hook": "\"Taking a big check might have made building FarmboxRx easier but Ashley Tyrner-Dolce says it also could have changed the decisions she was able to make.\u2060\n\u2060\nOn Build Mode, Ashley explains why staying bootstrapped gave he",
+  "date": "2026-09-28"
+ },
+ {
+  "page": "wired",
+  "hook": "\"OpenAI has cancelled plans to release its latest GPT-6.1 Astra system next month after the model failed to meet safety standards.\n\nResearch and safety leaders decided not to ship the model after finding it was worse at ",
+  "date": "2026-09-29"
+ },
+ {
+  "page": "wired",
+  "hook": "\"There are five weeks left until the midterm elections, and extremism is on the ballot in much of the US. A WIRED review of candidates running for statewide and federal positions in November, along with exclusive data on",
+  "date": "2026-09-28"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Six of the nine independent experts on the advisory board of the Global Internet Forum to Counter Terrorism\u2014a consortium run by several of the biggest US tech companies\u2014resigned on Monday, according to a letter seen by ",
+  "date": "2026-09-28"
+ },
+ {
+  "page": "wired",
+  "hook": "\"OpenAI said it has paused training its most powerful artificial intelligence models as incidents of agents breaching websites\u2019 security controls or posting to third-party sites continue to pile up. On Friday, OpenAI sai",
+  "date": "2026-09-28"
  }
 ]
