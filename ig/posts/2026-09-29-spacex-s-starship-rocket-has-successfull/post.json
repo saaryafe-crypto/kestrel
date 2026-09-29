@@ -1,0 +1,81 @@
+{
+ "media_idx": 2,
+ "image_brief": "Starship in orbit over Earth completing its first commercial satellite deployment mission",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "STARSHIP WENT FROM <em>BLOWING UP</em> TO <em>MAKING MONEY</em>",
+   "kicker": "IT USED TO JUST EXPLODE",
+   "hsize": 78,
+   "media": "posts/2026-09-29-spacex-s-starship-rocket-has-successfull/cand-2.webp"
+  }
+ ],
+ "caption": "Starship just flew its first paid mission, and your internet might get faster because of it. \ud83d\ude80\n\nOn September 28, 2026, Starship reached orbit and deployed V3 Starlink satellites, completing SpaceX's first ever revenue-generating Starship flight. V3 Starlinks are a new generation that Starship is the only rocket big enough to carry, opening a lane Falcon 9 can't touch. If you use Starlink, your service just got its first V3 upgrade. The rocket that went viral for exploding just quietly earned its first paycheck.\n\nRunning a business? DM us \"AI\" and we'll show you what shifts like this mean for yours.\n\nSources: Sawyer Merritt on X\n\n#SpaceX #Starship #Starlink #Space #Technology",
+ "pinned_comment": "The rocket that everyone called a glorified firework just got its first paycheck. Still think the test explosions were failures?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "STARSHIP WENT FROM EXPLODING TO <em>MAKING REAL MONEY</em>",
+   "STARSHIP DEPLOYED <em>THE FIRST V3 STARLINKS</em> FROM ORBIT",
+   "STARSHIP IS NOW <em>A WORKING ROCKET BUSINESS</em>",
+   "STARSHIP JUST FLEW <em>ITS FIRST PAYING MISSION</em>",
+   "STARSHIP JUST EARNED ITS <em>FIRST DOLLAR EVER</em> IN SPACE",
+   "STARSHIP JUST BECAME A <em>REAL COMMERCIAL ROCKET</em> OVERNIGHT",
+   "STARSHIP JUST LAUNCHED <em>BRAND-NEW STARLINK SATELLITES</em> AND GOT PAID",
+   "STARSHIP JUST UPGRADED <em>YOUR STARLINK INTERNET</em>",
+   "<em>STARSHIP JUST EARNED</em> ITS FIRST PAYCHECK"
+  ],
+  "scores": [
+   8,
+   6,
+   5,
+   7,
+   9,
+   7,
+   8,
+   0,
+   7
+  ],
+  "winner": 4,
+  "why": "'First dollar' is the specific milestone moment that stops any scroll\u2014it's the universal turning point everyone recognizes. Satellites is what happened; money earned is why the story actually matters."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "STARSHIP WENT FROM <em>BLOWING UP</em> TO <em>MAKING MONEY</em>",
+   "STARSHIP JUST EARNED ITS <em>FIRST DOLLAR EVER</em> IN SPACE",
+   "STARSHIP IS NOW <em>AN ACTUAL COMMERCIAL ROCKET</em>",
+   "STARSHIP JUST FLEW <em>ITS FIRST EVER PAID LAUNCH</em>"
+  ],
+  "scores": [
+   9,
+   5,
+   4,
+   7
+  ],
+  "winner": 0,
+  "why": "'Blowing up to making money' is a shocking narrative reversal that stops anyone scrolling. 'First paid launch' is just expected news after test flights."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SpaceX Starship",
+  "actor_known": true,
+  "anchor": "Starship",
+  "specifics": [
+   "Starship's first ever revenue-generating flight \u2014 after years of test explosions",
+   "First deployment of V3 Starlink satellites, a brand-new generation",
+   "Starship successfully reached orbit on September 28, 2026",
+   "Announcement hit 1.3M views on X within hours",
+   "Transforms Starship from test rocket to operational commercial vehicle overnight"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (3/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "SpaceX's Starship rocket has successfully reached orbit and deployed its V3 Starlink satellites into orbit for the first time, officially making this Starship's first revenue-generating flight, a major milestone for the ",
+  "link": "https://x.com/SawyerMerritt/status/2104563930752319513",
+  "judge_interest": 5,
+  "scout_score": 120.0
+ }
+}
