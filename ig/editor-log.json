@@ -1,27 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "A specs-and-date launch preview for a future-date product fails the standard—product posts require actual release or demonstration.",
-  "subject": "Meta has just unveiled their new VR glasses. • Price: $1,299 • Available Spring 2027 • Weight: 100 grams, about the weig",
-  "t": "2026-09-24T23:23:09Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Stealth-test specs for an unreleased product with no demo shown match the banned launch-preview format; news only when officially released or demonstrated.",
-  "subject": "Here we go: Sonnet 5.5 already being stealth tested. The model has a 1M-token context window and a 128K-token maximum ou",
-  "t": "2026-09-24T23:34:15Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Launch preview (date + spec sheet for spring 2027 release) fits the banned empty-form category—the doctrine reserves slots for household-name announcements that are actually RELEASING or DEMONSTRATING with immediate impact; a future-date specs announcement lacks the jaw-dropping element that drives shares.",
-  "subject": "Meta has just unveiled their new VR glasses. • Price: $1,299 • Available Spring 2027 • Weight: 100 grams, about the weig",
-  "t": "2026-09-24T23:34:52Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "No substance: one thin tweet with zero numbers, zero context, no verifiable fact, and no consequence; writer would pad to fill slides with unsubstantiated product PR.",
   "subject": "Grok @Bot usage is growing faster than anything we’ve ever seen",
   "t": "2026-09-24T23:35:27Z",
@@ -2096,6 +2075,27 @@
   "t": "2026-09-29T07:00:59Z",
   "gate": "R",
   "subject": "SPACEX STARSHIP REACHED ORBIT WITH <em>ALL 33 ENGINES FIRING</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-29T18:44:43Z",
+  "gate": "B",
+  "subject": "NVIDIA CHOSE <em>BUYBACKS OVER FACTORIES</em>",
+  "verdict": "REJECT",
+  "reason": "Item 5 is incomprehensible: 'The real number is $150B. Added this week alone.' — the reader has no idea what $150B was added to, or how it relates to the $235B figure already established. This needs to be stated plainly: e.g., 'The $235B is two programs. $85B already existed. They added $150B MORE just this week. That is the new conviction signal.'; Save close fails the friend test: 'the loudest i"
+ },
+ {
+  "t": "2026-09-29T18:47:45Z",
+  "gate": "B",
+  "subject": "NVIDIA CHOSE <em>BUYBACKS OVER FACTORIES</em>",
+  "verdict": "REJECT",
+  "reason": "EMOJI IN CAPTION (§7 Voice Law, explicit ban): '📊' after the opening sentence. Remove it. Emojis are banned regardless of placement.; FRIEND TEST FAIL — 'conviction signal' (§4, item 5 close: 'That is the new conviction signal'): financial-analyst jargon a 12-year-old at the table has never said out loud. Rewrite to plain speech — e.g. 'That is Nvidia putting money behind the bet that AI keeps run"
+ },
+ {
+  "t": "2026-09-29T18:48:03Z",
+  "gate": "R",
+  "subject": "NVIDIA CHOSE <em>BUYBACKS OVER FACTORIES</em>",
   "verdict": "PASS",
   "reason": ""
  }

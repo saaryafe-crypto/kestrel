@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "NVIDIA CHOSE <em>BUYBACKS OVER FACTORIES</em>",
+   "kicker": "5 MOVES EVERY CEO MAKES NOW",
+   "hsize": 72,
+   "face": "Jensen Huang",
+   "media": "faces/jensen-huang-2.jpg"
+  }
+ ],
+ "caption": "Nvidia just approved the largest stock buyback in history. $235 billion. Here is what that number is telling every CEO right now. \ud83d\udcca\n\n1) Lock compute contracts now. Nvidia earns $235B because hardware margins grow. Your next cloud AI contract costs more than today's.\n\n2) Raise prices on AI work. AI is still specialized enough for Nvidia-level margins. Price yours before it isn't.\n\n3) Hire AI builders now. The people building with Nvidia's chips are the most in-demand workers in tech. Wages follow.\n\n4) Budget for a long run. Nvidia picked $235B in buybacks over more factories. AI demand is durable. Your 3-year plan holds.\n\n5) The real number is $150B. The $235B is two programs. $85B already existed. They added $150B MORE just this week. That is the new conviction signal.\n\nSAVE THIS: The $235B Floor.\n\nNvidia sitting on $235B in surplus cash while most companies are still deciding whether to use AI at all is the clearest sign you can get that this runs for years. The businesses reading it today lock in advantages that take three years to close.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Nvidia\n\n#AI #CEO #Nvidia #investing #business",
+ "pinned_comment": "Which of these 5 moves is your board sleeping on? Move 4 is the one most CEOs get wrong.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "NVIDIA CHOSE <em>BUYBACKS OVER FACTORIES</em>",
+   "$235 BILLION SAYS <em>AI DEMAND DOESN'T PEAK</em>",
+   "LARGEST BUYBACK IN HISTORY IS <em>A CEO PLAYBOOK</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   5
+  ],
+  "winner": 0,
+  "why": "It makes a clear, confrontational claim about misaligned priorities that instantly stops your scroll. [1] has the big number but keeps you guessing what actually happened\u2014you'd read just to understand."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "EMOJI IN CAPTION (\u00a77 Voice Law, explicit ban): '\ud83d\udcca' after the opening sentence. Remove it. Emojis are banned regardless of placement.; FRIEND TEST FAIL \u2014 'conviction signal' (\u00a74, item 5 close: 'That is the new conviction signal'): financial-analyst jargon a 12-year-old at the table has never said out loud. Rewrite to plain speech \u2014 e.g. 'That is Nvidia putting money behind the bet that AI keeps run",
+ "topic_source": "exec-news"
+}
