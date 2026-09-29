@@ -1,0 +1,38 @@
+{
+ "stories": [
+  {
+   "headline": "Thieves stole Nvidia trucks and found 40,000 pounds of sand"
+  },
+  {
+   "headline": "SpaceX sent Starship to orbit with all 33 engines firing"
+  },
+  {
+   "headline": "Claude Sonnet 5.5 is live right now"
+  },
+  {
+   "headline": "Anthropic lost 42 billion dollars last year betting on AI"
+  },
+  {
+   "headline": "OpenAI cancelled GPT-6.1 Astra over safety concerns"
+  },
+  {
+   "headline": "AI needs 755 percent more power by 2029 than it uses today"
+  },
+  {
+   "headline": "NVIDIA put out a free platform to control what AI agents can do"
+  }
+ ],
+ "caption": "Here's what happened in AI in the last 24 hours, from crooks stealing Nvidia trucks full of sand to Starship flying to orbit with all 33 Raptor engines firing\n\nTwo thieves stole Nvidia-branded trailers expecting AI chips. They got 40,000 pounds of sand instead.\n\nSpaceX launched Starship with all 33 Raptor engines firing at once, the first time that has happened on an orbital flight.\n\nClaude Sonnet 5.5 is live now.\n\nAnthropic lost $42B in 2025. They plan to spend $518B on cloud and infrastructure next year, per WSJ, betting AI changes the world more than electricity and the internet did.\n\nOpenAI pulled GPT-6.1 Astra before launch over safety concerns.\n\nUS data centers will need 755% more power by 2029. Only 21 gigawatts are being built right now. That's a 57-gigawatt gap.\n\nNVIDIA has a new free tool that limits what AI agents can touch on your system, useful if you're building with agents.\n\nNew models dropping, old ones getting pulled, power grids under strain, and thieves robbing Nvidia trucks. AI is mainstream enough now that the criminals have noticed. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: SpaceX, Anthropic, NVIDIA, OpenAI, Reuters, The Wall Street Journal\n\n#AI #Technology #SpaceX #OpenAI #Anthropic",
+ "pinned_comment": "Anthropic lost $42 billion last year and is planning to spend $518 billion more, betting AI will change the world more than electricity and the internet combined. Is that the most ambitious bet in tech history, or just the most expensive one?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "SPACEX STARSHIP REACHED ORBIT WITH <em>ALL 33 ENGINES FIRING</em>",
+   "kicker": "THE DAILY RECAP"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "Cover image is decoration, not proof (\u00a73): The image shows abstract orange particle streams on a black background \u2014 digital art that could represent fireworks, a data visualization, or nothing specific. A stranger at feed size cannot guess 'Starship reached orbit.' The law requires the image to be proof: seen once, the story is guessed. Fix: replace with the real launch photograph of Starship mid-"
+}

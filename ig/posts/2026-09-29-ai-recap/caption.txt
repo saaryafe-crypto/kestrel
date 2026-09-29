@@ -1,0 +1,21 @@
+Here's what happened in AI in the last 24 hours, from crooks stealing Nvidia trucks full of sand to Starship flying to orbit with all 33 Raptor engines firing
+
+Two thieves stole Nvidia-branded trailers expecting AI chips. They got 40,000 pounds of sand instead.
+
+SpaceX launched Starship with all 33 Raptor engines firing at once, the first time that has happened on an orbital flight.
+
+Claude Sonnet 5.5 is live now.
+
+Anthropic lost $42B in 2025. They plan to spend $518B on cloud and infrastructure next year, per WSJ, betting AI changes the world more than electricity and the internet did.
+
+OpenAI pulled GPT-6.1 Astra before launch over safety concerns.
+
+US data centers will need 755% more power by 2029. Only 21 gigawatts are being built right now. That's a 57-gigawatt gap.
+
+NVIDIA has a new free tool that limits what AI agents can touch on your system, useful if you're building with agents.
+
+New models dropping, old ones getting pulled, power grids under strain, and thieves robbing Nvidia trucks. AI is mainstream enough now that the criminals have noticed. Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: SpaceX, Anthropic, NVIDIA, OpenAI, Reuters, The Wall Street Journal
+
+#AI #Technology #SpaceX #OpenAI #Anthropic

@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-25T01:37:31Z",
-  "gate": "B",
-  "subject": "CHATGPT'S RIVAL SECRETLY TESTED AN AI THAT <em>HOLDS A MILLION WORDS AT ONCE</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW §3 HARD VIOLATION: cover_has_image is false. The law is absolute — 'the cover must ALWAYS carry an image with a subject.' A single-picture post with no picture is not a post. Fix: generate a cover — photoreal composite: Claude logo or Anthropic wordmark as an oversized floating prop behind a cutout of the discoverer at her screen, with a labeled chip reading 'claude-sonnet-5-5', subject "
- },
- {
-  "t": "2026-09-25T01:40:23Z",
-  "gate": "B",
-  "subject": "CHATGPT'S RIVAL QUIETLY DEPLOYED AN AI THAT <em>HOLDS A MILLION TOKENS AT ONCE</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW §3 HARD VIOLATION: cover_has_image is false. The Doctrine states 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a single-picture post — the format's entire premise is one image + caption. With no image, the format collapses entirely. Fix: generate a cover image. Correct archetype for a household-name lab releasing a product:"
- },
- {
-  "t": "2026-09-25T01:42:15Z",
-  "gate": "B",
-  "subject": "CHATGPT'S RIVAL QUIETLY DEPLOYED AN AI THAT <em>HOLDS A MILLION TOKENS AT ONCE</em>",
-  "verdict": "REJECT",
-  "reason": "COVER HAS NO IMAGE — direct violation of §3 IMAGE LAW: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a single-picture post; the picture IS the post. Fix: supply a photoreal cover built to the product/company archetype — Dario Amodei real press photo or the Claude logo mark oversized against a colorful story-world background, with a b"
- },
- {
-  "t": "2026-09-25T01:42:21Z",
-  "gate": "R",
-  "subject": "CHATGPT'S RIVAL QUIETLY DEPLOYED AN AI THAT <em>HOLDS A MILLION TOKENS AT ONCE</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "gate": "A",
-  "reason": "scout interest 8/10 — news-first fast lane",
-  "subject": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene s",
-  "t": "2026-09-24T23:21:40Z",
-  "verdict": "AUTO_APPROVE"
- },
- {
   "gate": "A",
   "reason": "A specs-and-date launch preview for a future-date product fails the standard—product posts require actual release or demonstration.",
   "subject": "Meta has just unveiled their new VR glasses. • Price: $1,299 • Available Spring 2027 • Weight: 100 grams, about the weig",
@@ -2096,6 +2061,41 @@
   "t": "2026-09-29T01:37:12Z",
   "gate": "R",
   "subject": "STARSHIP WENT FROM <em>BLOWING UP</em> TO <em>MAKING MONEY</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-29T06:53:32Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "COVER — TEXT-ON-BLACK, NO SUBJECT (IMAGE LAW §3): The cover is an abstract CG particle-light-streak on a black void. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The orange bokeh is pure decoration — it proves none of the seven stories inside. Fix: replace with a photoreal composite — the Starship launch fireball, "
+ },
+ {
+  "t": "2026-09-29T06:56:13Z",
+  "gate": "B",
+  "subject": "AI TODAY: <em>STARSHIP ORBIT,</em> SAND TRUCKS, GPT PULLED",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — cover is abstract CGI decoration, not proof: the cover image is a computer-generated particle-burst on a black void. Nothing in the frame reads as photographed. Law requires every element to read as photographed; this reads as digital concept art. At feed size a stranger sees glowing sparks, not Starship, not a sand heist, not a pulled model. Fix: replace with a real press photo or pho"
+ },
+ {
+  "t": "2026-09-29T06:59:13Z",
+  "gate": "B",
+  "subject": "SPACEX STARSHIP REACHED ORBIT WITH <em>ALL 33 ENGINES FIRING</em>",
+  "verdict": "REJECT",
+  "reason": "Cover image is an abstract CGI particle-burst graphic on a near-black void — no photoreal subject, no story proof. Image Law requires every element to read as photographed and the cover to be the headline's proof; the hook promises Starship reaching orbit with 33 engines firing, so the cover needs the actual rocket launch photo with visible engine plumes. The doctrine explicitly names 'text-on-bla"
+ },
+ {
+  "t": "2026-09-29T07:00:52Z",
+  "gate": "B",
+  "subject": "SPACEX STARSHIP REACHED ORBIT WITH <em>ALL 33 ENGINES FIRING</em>",
+  "verdict": "REJECT",
+  "reason": "Cover image is decoration, not proof (§3): The image shows abstract orange particle streams on a black background — digital art that could represent fireworks, a data visualization, or nothing specific. A stranger at feed size cannot guess 'Starship reached orbit.' The law requires the image to be proof: seen once, the story is guessed. Fix: replace with the real launch photograph of Starship mid-"
+ },
+ {
+  "t": "2026-09-29T07:00:59Z",
+  "gate": "R",
+  "subject": "SPACEX STARSHIP REACHED ORBIT WITH <em>ALL 33 ENGINES FIRING</em>",
   "verdict": "PASS",
   "reason": ""
  }
