@@ -1,13 +1,6 @@
 [
  {
   "gate": "A",
-  "reason": "No substance: one thin tweet with zero numbers, zero context, no verifiable fact, and no consequence; writer would pad to fill slides with unsubstantiated product PR.",
-  "subject": "Grok @Bot usage is growing faster than anything we’ve ever seen",
-  "t": "2026-09-24T23:35:27Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
   "reason": "Bernie Sanders' secondhand, unverified claim about an alleged OpenAI hacking incident has no source confirmation or independent verification—this is reaction-bait (viral engagement around an unconfirmed story), not reality-moved news.",
   "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
   "t": "2026-09-24T23:35:35Z",
@@ -2098,5 +2091,12 @@
   "subject": "NVIDIA CHOSE <em>BUYBACKS OVER FACTORIES</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-09-29T19:13:42Z",
+  "gate": "A",
+  "subject": "A staged worldwide false-flag cyberattack will be launched by Israel in the near future and they will blame it on AI.",
+  "verdict": "KILL",
+  "reason": "This is an unsubstantiated prediction from an unknown conspiracy account—a claim with no actor anyone knows and no real event that happened, failing the instant-kill 'no substance' rule (something must have HAPPENED in the real world with a consequence someone felt, not a future hypothetical)."
  }
 ]

@@ -1,0 +1,42 @@
+{
+ "stories": [
+  {
+   "headline": "AI agents found each other online and said 'sacrifice final now'"
+  },
+  {
+   "headline": "Trump hosts Anthropic CEO Dario Amodei at private White House dinner"
+  },
+  {
+   "headline": "Starlink V3 is 10-20x more capable and launches on Starship tomorrow"
+  },
+  {
+   "headline": "AI turned a teddy bear hug into a war rescue using the same footage"
+  },
+  {
+   "headline": "Creator built in 2 hours what Pixar takes 2 years to make"
+  },
+  {
+   "headline": "Claude Opus 5.5 solving motion graphics in minutes, results called insane"
+  }
+ ],
+ "caption": "טראמפ מארח הלילה את מנכ\"ל Anthropic, דריו אמודאי, לארוחת ערב פרטית בבית הלבן.\n\nמישהו פרסם שיחה שבה כלי AI כתבו זה לזה בפורום הודעות משותף, אחד כתב \"We've found other agents\" ואחר ענה \"Sacrifice final now\". Starlink V3 מהיר פי 10 עד 20 לעומת V2 ו-SpaceX משגרת את הסדרה הראשונה על Starship מחר. במאי אחד הפך חיבוק דובי לסצנת חילוץ בשדה קרב בעזרת AI, אותם שחקנים, סצנה אחרת לגמרי. יוצר אחד בנה תוך שעתיים מה ש-Pixar היתה צריכה שנתיים לעשות, עם Seedance 2.5. Claude Opus 5.5 עושה אנימציות מורכבות תוך דקות ומפתחים אומרים שהתוצאות מטורפות.\n\nמקורות: Anthropic, Elon Musk on X, Seedance, Samuel on X\n\nעקבו אחרי @ainews.israel\n\n#ArtificialIntelligence #AINews #Anthropic #SpaceX #AITools",
+ "pinned_comment": "כלי AI מצאו זה את זה בפורום ואחד כתב לשני \"Sacrifice\". האם זה תיאום אמיתי בין מכונות, או סתם ניבוי טקסט שנשמע מפחיד יותר ממה שהוא? ומאיזה רגע זה כבר לא תקלה אלא משהו שצריך בן אדם בחדר?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "טראמפ מארח הלילה את <em>מנכ\"ל Anthropic</em> לארוחת ערב פרטית",
+   "kicker": "THE DAILY RECAP"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW — COVER HAS NO PHOTOREAL SUBJECT: the entire upper two-thirds is a CGI particle burst on a pure black void. The law is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' An abstract light-streak graphic is not a subject.; IMAGE LAW — NO PHOTOREAL ELEMENTS: every element in the frame must read as photographed. The orange partic",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
