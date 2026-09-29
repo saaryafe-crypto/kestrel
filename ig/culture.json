@@ -1,59 +1,60 @@
 {
- "ts": 1790627203.4094055,
- "updated": "2026-09-28",
+ "ts": 1790719427.537275,
+ "updated": "2026-09-29",
  "hot": [
   {
-   "name": "Taylor Swift",
-   "why_hot_now": "Won Video of the Year for 'The Fate of Ophelia' and the inaugural Artist Director Honors at the 2026 MTV VMAs on September 27.",
-   "typical_scene": "accepting VMA on stage in sequins holding director's trophy"
+   "name": "Karol G",
+   "why_hot_now": "\"BbY WOW\" is locked at #1 on the Billboard Global 200 for a third straight week.",
+   "typical_scene": "rhinestone bodysuit mid-chorus, stadium lights exploding behind her"
   },
   {
-   "name": "Madonna",
-   "why_hot_now": "Swept 7 VMAs including Artist of the Year and opened the September 27 show with a full Confessions II theatrical spectacle.",
-   "typical_scene": "center stage at VMAs in elaborate Confessions II costume"
+   "name": "Ella Langley",
+   "why_hot_now": "\"Dandelion\" became the biggest-streaming debut ever for a female country artist and is still #1 on the Billboard 200.",
+   "typical_scene": "boots-on-monitor at a sold-out country arena, crowd singing every word"
   },
   {
-   "name": "Sabrina Carpenter",
-   "why_hot_now": "Won Best Collaboration at the 2026 VMAs for her track with Madonna, days after the award show.",
-   "typical_scene": "holding VMA trophy under pink stage lights grinning"
+   "name": "Jhené Aiko",
+   "why_hot_now": "New album \"Westside Whimsy\" dropped September 26, flooding every R&B playlist this week.",
+   "typical_scene": "candlelit late-night setup, crystals and incense smoke in frame"
   },
   {
-   "name": "Tyla",
-   "why_hot_now": "Standout red-carpet and presenter moment at the 2026 VMAs this weekend, photographed catching up with Lisa.",
-   "typical_scene": "silver-gowned on the LA VMA red carpet"
+   "name": "Morgan Wallen",
+   "why_hot_now": "Dominating US streaming charts this fall alongside the Ella Langley wave.",
+   "typical_scene": "mullet blowing back at a packed outdoor amphitheater, beer cans raised"
   },
   {
-   "name": "Kacey Musgraves",
-   "why_hot_now": "Performed a widely praised Dolly Parton tribute at the 2026 VMAs on September 27.",
-   "typical_scene": "acoustic on VMA stage in western fringe honoring Dolly"
+   "name": "GTA 6",
+   "why_hot_now": "Today is exactly 50 days until the November 19 launch and Game Informer's special issue hit stands this morning.",
+   "typical_scene": "pausing the trailer frame-by-frame at 3 a.m. to decode Easter eggs"
   },
   {
-   "name": "Backrooms",
-   "why_hot_now": "A24's all-time highest-grossing film ($400M+ worldwide), directed by 20-year-old Kane Parsons, just hit HBO Max this month.",
-   "typical_scene": "wandering endless yellow-wallpapered fluorescent corridors alone"
+   "name": "Sandra Bullock",
+   "why_hot_now": "\"Practical Magic 2\" with her and Nicole Kidman was #1 at the US box office last weekend.",
+   "typical_scene": "mixing potions in a moonlit Victorian kitchen, full witchy-chic aesthetic"
   },
   {
-   "name": "Olivia Rodrigo",
-   "why_hot_now": "Just launched 'The Unraveled Tour' this month, her 65-date world arena tour behind her new album.",
-   "typical_scene": "mic in hand on massive arena stage opening The Unraveled Tour"
+   "name": "Resident Evil",
+   "why_hot_now": "Zach Cregger's reboot opened at $60M, earned $196M total, and sits at 96% on Rotten Tomatoes.",
+   "typical_scene": "sprinting a darkened hospital corridor, something wet on the floor"
   },
   {
-   "name": "Katseye",
-   "why_hot_now": "Currently mid-Wildworld Tour, their first-ever arena run spanning North America and Europe.",
-   "typical_scene": "synchronized choreography on arena stage during Wildworld Tour"
+   "name": "Don Toliver",
+   "why_hot_now": "Multiple tracks sitting in the US Top 40 as his sound defines the late-September TikTok soundtrack.",
+   "typical_scene": "falsetto echo bouncing off a neon-drenched arena crowd"
   }
  ],
  "memes": [
-  "Jimothy the rotund Seattle raccoon waddling unbothered — captioned as 'me surviving the week' across every platform",
-  "'tfw you didn't agree to this' — fresh Leo DiCaprio awards-show reaction image already colonizing every complaint post",
-  "ADÉLA's 'Nicole Kidman' as the TikTok manifestation/it-girl sound — everyone lip-syncing it while looking effortlessly put-together",
-  "SpongeBob's comically oversized handcuffs sliding off his wrists resurfaced as the 'consequences simply do not apply to me' format",
-  "Tornado Squirrel footage looped under dramatic orchestral scores as the ultimate underdog comeback meme"
+  "\"Kinda chic to…\": finish the phrase with something deeply unglamorous (e.g., \"kinda chic to meal-prep sadness\")",
+  "Jimothy the Raccoon: a Seattle raccoon's unbothered waddle memed as every Monday-morning commuter energy",
+  "\"Saxophone Gets Louder\": video format where background sax swells to unhinged volume while someone ignores mounting chaos",
+  "GTA 6 50-day countdown spliced onto mundane life tasks: \"50 days until I answer that email\"",
+  "\"My American Girl Doll\" reveal: a 2009 childhood clip cuts to the creator revealing their current prized possession",
+  "Ancestor Photo Prank: showing parents a \"family heirloom\" portrait that is actually a celebrity Photoshopped into Victorian dress"
  ],
  "ai_flagships": [
   "Claude Opus 5.5",
   "GPT-6 Astra",
-  "Gemini 3.1 Pro",
+  "Gemini 3.8 Flash",
   "Grok 4.7",
   "Muse Spark 1.3"
  ]
