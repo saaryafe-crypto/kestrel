@@ -1,55 +1,54 @@
 {
- "ts": 1790719427.537275,
+ "ts": 1790724148.3129034,
  "updated": "2026-09-29",
  "hot": [
   {
+   "name": "Alan Ritchson",
+   "why_hot_now": "Reacher Season 4 just wrapped on Prime Video as the world's #1 series, logging 66 million global viewers and earning an immediate Season 6 renewal announced this week.",
+   "typical_scene": "towering over suspects in a rain-soaked urban alley"
+  },
+  {
    "name": "Karol G",
-   "why_hot_now": "\"BbY WOW\" is locked at #1 on the Billboard Global 200 for a third straight week.",
-   "typical_scene": "rhinestone bodysuit mid-chorus, stadium lights exploding behind her"
+   "why_hot_now": "'BbY WOW' is sitting at #1 on the Billboard Global 200 and Spotify Weekly for three consecutive weeks.",
+   "typical_scene": "center stage in a glittering bodysuit with confetti raining down"
   },
   {
    "name": "Ella Langley",
-   "why_hot_now": "\"Dandelion\" became the biggest-streaming debut ever for a female country artist and is still #1 on the Billboard 200.",
-   "typical_scene": "boots-on-monitor at a sold-out country arena, crowd singing every word"
+   "why_hot_now": "'Choosin' Texas' just broke the all-time Billboard Hot 100 record with 23 weeks at number one.",
+   "typical_scene": "performing on a flatbed truck under open Texas night skies"
   },
   {
-   "name": "Jhené Aiko",
-   "why_hot_now": "New album \"Westside Whimsy\" dropped September 26, flooding every R&B playlist this week.",
-   "typical_scene": "candlelit late-night setup, crystals and incense smoke in frame"
+   "name": "Taylor Swift",
+   "why_hot_now": "Took home the inaugural VMA Artist Director Honors award at the 2026 MTV VMAs this month.",
+   "typical_scene": "clutching a moonperson trophy in a floor-length sequined gown"
   },
   {
    "name": "Morgan Wallen",
-   "why_hot_now": "Dominating US streaming charts this fall alongside the Ella Langley wave.",
-   "typical_scene": "mullet blowing back at a packed outdoor amphitheater, beer cans raised"
-  },
-  {
-   "name": "GTA 6",
-   "why_hot_now": "Today is exactly 50 days until the November 19 launch and Game Informer's special issue hit stands this morning.",
-   "typical_scene": "pausing the trailer frame-by-frame at 3 a.m. to decode Easter eggs"
-  },
-  {
-   "name": "Sandra Bullock",
-   "why_hot_now": "\"Practical Magic 2\" with her and Nicole Kidman was #1 at the US box office last weekend.",
-   "typical_scene": "mixing potions in a moonlit Victorian kitchen, full witchy-chic aesthetic"
+   "why_hot_now": "Dominating U.S. streaming charts alongside Ella Langley as country music's undisputed fall 2026 force.",
+   "typical_scene": "hat pulled low, acoustic guitar front and center on a packed festival stage"
   },
   {
    "name": "Resident Evil",
-   "why_hot_now": "Zach Cregger's reboot opened at $60M, earned $196M total, and sits at 96% on Rotten Tomatoes.",
-   "typical_scene": "sprinting a darkened hospital corridor, something wet on the floor"
+   "why_hot_now": "Zach Cregger's reboot opened to a franchise-record $60M weekend on Sept. 18 and is still in the top three this week.",
+   "typical_scene": "protagonist sprinting through a burning, monster-filled Raccoon City hospital"
   },
   {
-   "name": "Don Toliver",
-   "why_hot_now": "Multiple tracks sitting in the US Top 40 as his sound defines the late-September TikTok soundtrack.",
-   "typical_scene": "falsetto echo bouncing off a neon-drenched arena crowd"
+   "name": "Avengers: Endgame",
+   "why_hot_now": "The 'Encore' theatrical rerelease just hit #1 at the U.S. box office this weekend, the second-biggest worldwide rerelease in history.",
+   "typical_scene": "the full Avengers army charging across a smoldering crater battlefield"
+  },
+  {
+   "name": "Dua Lipa",
+   "why_hot_now": "String of late-September viral fashion moments and new music teases are keeping her at the top of social media feeds this week.",
+   "typical_scene": "striding a neon-lit stage in a retro-glam one-piece"
   }
  ],
  "memes": [
-  "\"Kinda chic to…\": finish the phrase with something deeply unglamorous (e.g., \"kinda chic to meal-prep sadness\")",
-  "Jimothy the Raccoon: a Seattle raccoon's unbothered waddle memed as every Monday-morning commuter energy",
-  "\"Saxophone Gets Louder\": video format where background sax swells to unhinged volume while someone ignores mounting chaos",
-  "GTA 6 50-day countdown spliced onto mundane life tasks: \"50 days until I answer that email\"",
-  "\"My American Girl Doll\" reveal: a 2009 childhood clip cuts to the creator revealing their current prized possession",
-  "Ancestor Photo Prank: showing parents a \"family heirloom\" portrait that is actually a celebrity Photoshopped into Victorian dress"
+  "Jimothy the Raccoon: a chubby Seattle raccoon's completely unbothered waddle gets captioned as every relatable mood — Monday morning, end-of-week survival, ignoring emails",
+  "SpongeBob handcuffs: a screenshot of comically oversized cuffs sliding right off SpongeBob's wrists, used to drag anyone who faces zero consequences for their behavior",
+  "Pretty Little Liars '-A' TikTok: creators write themselves a shady, passive-aggressive message signed '-A' then read it aloud over tense audio while doing something quietly embarrassing on camera",
+  "'lmk ima take a nap': catchall way to dodge any commitment or responsibility by announcing you're going offline indefinitely — used on everything from group chats to work Slack",
+  "'2026 is the new 2016' throwback: people ranking and recreating 2016 viral moments — Bottle Flip, Mannequin Challenge, dabbing — as a massive Gen Z nostalgia wave takes over FYPs"
  ],
  "ai_flagships": [
   "Claude Opus 5.5",

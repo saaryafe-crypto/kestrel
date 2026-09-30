@@ -1,0 +1,82 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ALL 26 OF ELON MUSK'S NEW SATELLITES <em>CAME ONLINE</em>",
+   "hsize": 80,
+   "kicker": "STARLINK V3 JUST SET THE NEW STANDARD.",
+   "media": "faces/elon-musk-2.jpg"
+  }
+ ],
+ "caption": "Elon Musk just confirmed all 26 of his next-generation Starlink satellites are working.\n\nSpaceX launched 26 Starlink V3 satellites on September 28, and every single one powered on and made contact. Musk confirmed it himself on X with one casual tweet, the way you'd check if the WiFi router is on, except his router is in orbit serving millions of people. V3 is a new generation, meaning the old version is already being left behind. Your cable company just lost more ground to a guy who owns the rockets, the satellites, and the platform he used to tell the world.\n\nEvery launch quietly takes more ground from internet providers that still need trucks, poles, and technicians to reach your door. One man now controls a growing piece of the internet above your house, no cable required. Running a business? DM us \"AI\" and we'll show you what this change means for yours.\n\nSources: Elon Musk on X, SpaceX\n\n#SpaceX #Starlink #ElonMusk #Space #Technology",
+ "pinned_comment": "Would you trust one person to control both your internet connection and the platform you used to find out about it? Because that is already the reality.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "ELON MUSK NOW HAS <em>26 MORE SATELLITES</em> OVER YOUR HEAD",
+   "ELON MUSK CHECKED ON HIS SATELLITES. <em>ALL 26 WORK.</em>",
+   "ELON MUSK JUST UPGRADED STARLINK TO <em>A NEW GENERATION</em>",
+   "ELON MUSK NOW CONTROLS <em>MORE OF YOUR INTERNET</em>",
+   "ELON MUSK LAUNCHED 26 SATELLITES AND <em>EVERY SINGLE ONE WORKS</em>",
+   "<em>ELON MUSK</em> JUST LAUNCHED 26 NEXT-GEN INTERNET SATELLITES",
+   "ELON MUSK IS QUIETLY KILLING <em>YOUR CABLE COMPANY</em> FROM SPACE",
+   "ELON MUSK NOW CONTROLS <em>EVEN MORE</em> OF THE WORLD'S INTERNET",
+   "ELON MUSK JUST PUT <em>26 SATELLITES OVER YOUR HOUSE</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   5,
+   8,
+   9,
+   5,
+   0,
+   7,
+   0
+  ],
+  "winner": 4,
+  "why": "'Every single one works' hits with emphatic surprise that makes you wonder why perfect success is rare; 'controls more of your internet' is direct but rides familiar billionaire-power anxiety."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "ELON MUSK JUST PUT <em>26 NEXT-GEN SATELLITES</em> OVER YOUR HEAD",
+   "ELON MUSK LAUNCHED 26 SATELLITES AND <em>EVERY SINGLE ONE WORKS</em>",
+   "ELON MUSK JUST GAVE CABLE <em>26 MORE PROBLEMS</em>",
+   "ELON MUSK NOW CONTROLS <em>MORE OF THE WORLD'S INTERNET</em>"
+  ],
+  "scores": [
+   7,
+   9,
+   6,
+   5
+  ],
+  "winner": 1,
+  "why": "Headline [1]'s 'every single one works' is a shocking, specific outcome that lands instantly\u2014you stop scrolling because you understand the news right now. Headline [0]'s 'over your head' requires interpretation when a 2am scroller just wants concrete impact delivered without metaphor."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "SpaceX / Elon Musk",
+  "actor_known": true,
+  "anchor": "Elon Musk",
+  "specifics": [
+   "One person now personally controls the satellite internet for millions \u2014 and just expanded it again",
+   "All 26 next-gen V3 Starlink satellites launched and confirmed working, zero failures",
+   "7.2 million people watched the announcement tweet within hours",
+   "Musk himself tweeted the all-clear, not a press release \u2014 just a guy checking on his satellites",
+   "V3 is a new generation, meaning the old version is already being outpaced from above"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "All 26 Starlink V3 operational satellites deployed and operating nominally",
+  "link": "https://x.com/elonmusk/status/2104572572067099102",
+  "judge_interest": 7,
+  "scout_score": 150.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IMAGE FAILS \u00a73 ARCHETYPE LAW: The image is a plain close-up portrait of Musk against a white background \u2014 no SpaceX/Starlink brand mark, no satellite, no space context. A stranger at feed size sees a man's face and cannot guess this story is about 26 satellites going live in orbit. The correct archetype for this story is 'company/product with a famous CEO' \u2192 person + giant glossy brand mark ",
+ "gate_r": "s1: The photo is a dim, low-resolution candid portrait that lacks press-photo quality and is visually irrelevant to a satellite launch milestone \u2014 the slide reads better as a text-only graphic."
+}
