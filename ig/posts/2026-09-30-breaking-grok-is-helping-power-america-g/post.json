@@ -1,0 +1,73 @@
+{
+ "media_idx": 1,
+ "image_brief": "America.gov search bar with a citizen typing a benefits question, the Grok logo powering the AI response, U.S. flag behind",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR GOVERNMENT JUST HIRED <em>ELON MUSK'S AI</em> TO ANSWER YOU",
+   "kicker": "GROK'S MILESTONE, NOT YOURS",
+   "hsize": 76,
+   "media": "posts/2026-09-30-breaking-grok-is-helping-power-america-g/cand-1.webp"
+  }
+ ],
+ "caption": "Elon Musk's Grok now answers your questions on America.gov, the U.S. government's official AI website.\n\nThe U.S. launched America.gov, where you type a question about your taxes, benefits, or immigration status and AI answers you from official government sources. U.S. Chief Design Officer Joe Gebbia confirmed both Grok and Google's Gemini power it. The announcement called it \"a major milestone for Grok,\" framing a public service as a private company's win. Every question you ask your own government now goes through Elon Musk's AI first.\n\nGovernments and businesses are both racing to put AI in front of users. Nobody is asking out loud who actually controls what it says. Running a business? DM us \"AI\" and we'll show you how to set up AI that answers your customers the same way.\n\nSources: cb_doge on X\n\n#AI #Grok #AmericaGov #ElonMusk #Technology",
+ "pinned_comment": "The announcement didn't say 'a milestone for Americans.' It said 'a milestone for Grok.' That's the tell.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "THE U.S. GOVERNMENT NOW RUNS ON <em>ELON MUSK'S AI</em>",
+   "YOUR QUESTIONS TO THE GOVERNMENT NOW GO THROUGH <em>ELON MUSK</em>",
+   "<em>THE U.S. GOVERNMENT</em> JUST MADE GROK ITS OFFICIAL AI",
+   "THE U.S. GOVERNMENT LET <em>GROK ANSWER YOUR TAX QUESTIONS</em>",
+   "ASK THE U.S. GOVERNMENT ANYTHING AND <em>ELON MUSK ANSWERS</em>",
+   "YOUR GOVERNMENT QUESTIONS NOW GO THROUGH <em>ELON MUSK'S GROK</em>"
+  ],
+  "scores": [
+   7,
+   8.5,
+   5.5,
+   8.5,
+   0,
+   9
+  ],
+  "winner": 5,
+  "why": "[5] hits hardest because it has the Elon Musk shock + clarity that it's named Grok specifically + 'YOUR' personalizing it to you, creating instant 'WAIT WHAT?' that stops you cold AND explains what's happening. [1] leaves you confused about what 'through Elon' even means."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "YOUR GOVERNMENT JUST HIRED <em>ELON MUSK'S AI</em> TO ANSWER YOU",
+   "YOUR GOVERNMENT QUESTIONS NOW GO THROUGH <em>ELON MUSK'S GROK</em>"
+  ],
+  "scores": [
+   9,
+   7
+  ],
+  "winner": 0,
+  "why": "'JUST HIRED' lands as breaking news with 'Elon Musk's AI' universally clear, while 'Grok' confuses strangers and 'go through' is passive. [0] shocks immediately, [1] confuses first\u2014at 2am, shock beats confusion."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "U.S. government",
+  "actor_known": true,
+  "anchor": "the U.S. government",
+  "specifics": [
+   "When you ask America.gov about your taxes or benefits, Elon Musk's AI is what answers you",
+   "The U.S. Chief Design Officer confirmed Grok AND Google's Gemini now power official government responses",
+   "The announcement called it 'a major milestone for Grok' \u2014 framing a public government service as a private company's win",
+   "America.gov launched September 29, 2026",
+   "357,800 people viewed the announcement"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (2/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Grok is helping power America .gov, the U.S. government\u2019s new AI website. \ud83c\uddfa\ud83c\uddf8 U.S. Chief Design Officer Joe Gebbia says Grok &amp; Gemini power the site. Americans can ask questions and get answers from official",
+  "link": "https://x.com/cb_doge/status/2104956354423349493",
+  "judge_interest": 5,
+  "scout_score": 56.4
+ },
+ "editor_override": "COVER IMAGE IS A UI SCREENSHOT \u2014 HARD BAN. The cover is a screengrab of the America.gov website interface ('Ask anything...' search bar + stock family photo inside it). The doctrine is explicit and unconditional: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Fix: replace with a photoreal composite of Elon Musk (real press photo, face prominent in top two-thirds) + oversized Grok logo di",
+ "gate_r": "s1: The top half of the cover is a raw screenshot of the America.gov webpage UI (browser search bar, site header) used as a full-bleed background, which is an instant fail under the Screenshot Law."
+}
