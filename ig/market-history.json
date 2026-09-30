@@ -1,35 +1,5 @@
 [
  {
-  "page": "technology",
-  "hook": "\"The Lexus LFA\u2019s 4.8-litre V10 could sweep from idle to 9,000 rpm in 0.6 seconds, outpacing a conventional mechanical tachometer needle. \n\nThat response led Lexus to fit a digital TFT instrument cluster, developed with G",
-  "date": "2026-09-15"
- },
- {
-  "page": "technology",
-  "hook": "\"Xiaomi\u2019s 18 Fold uses its wide inner display and HyperOS multi-window features to run multiple apps across the unfolded screen.\n\nApps can appear in separate windows that can be resized, moved and arranged across the dis",
-  "date": "2026-09-15"
- },
- {
-  "page": "technology",
-  "hook": "\"Apple\u2019s cinematic keynote style takes center stage here, with Craig Federighi turning a software announcement into something that feels closer to a movie scene.\n\nThe skydiving and Apple Park sequences come from Apple\u2019s ",
-  "date": "2026-09-15"
- },
- {
-  "page": "technology",
-  "hook": "\"President Trump called Nvidia CEO Jensen Huang live at the All-In Summit, turning a speakerphone conversation into the latest flashpoint in AI policy debate today. \n\nTrump rejected fears of an AI takeover, saying \u201cthe r",
-  "date": "2026-09-15"
- },
- {
-  "page": "futurism",
-  "hook": "\"While the US appears to be further away from meaningful AI regulations than ever before, lawmakers certainly have plenty of ideas on how the country could go about setting meaningful rules.\n\nIt\u2019s a particularly precario",
-  "date": "2026-09-15"
- },
- {
-  "page": "mashable",
-  "hook": "\"There are a few things you expect to see when a crowd of college students takes over a fraternity lawn in broad daylight. People stretching on yoga mats before a group run probably aren\u2019t among them. \n\nBut that\u2019s the se",
-  "date": "2026-09-15"
- },
- {
   "page": "wired",
   "hook": "\"The new WIRED app is here! Whether you're a reader, viewer, or listener, the app is the best way to experience WIRED. Here\u2019s what you can expect:\n\n\u2022 Make WIRED yours with a personalized Daily Digest built around the top",
   "date": "2026-09-16"
@@ -38,16 +8,6 @@
   "page": "wired",
   "hook": "\"Sam Altman said people are right to worry about AI companies and their models becoming too powerful, after a week in which AI leaders called for an industry-wide slowdown and the potential dangers of unregulated AI beca",
   "date": "2026-09-16"
- },
- {
-  "page": "wired",
-  "hook": "\"WIRED tested samples of four types of peptides. The results show how lightly regulated the industry is, even as popularity surges.\n\nRead the full story at the \ud83d\udd17 in bio.\".",
-  "date": "2026-09-15"
- },
- {
-  "page": "wired",
-  "hook": "\"Kash Patel, director of the Federal Bureau of Investigation, told confused members of the Senate judiciary committee on Thursday that new FBI hiring standards are aimed at protecting \u201cvictims of bestiality.\u201d\n\nPrior to t",
-  "date": "2026-09-15"
  },
  {
   "page": "futurism",
@@ -68,21 +28,6 @@
   "page": "wired",
   "hook": "\"Hackers ripped down a Flock camera above a roadway, made a near-complete copy of the data stored inside it, revealing in new detail how exactly Flock Safety\u2019s cameras track the movements of both vehicles and people. The",
   "date": "2026-09-16"
- },
- {
-  "page": "wired",
-  "hook": "\"For Hollywood stars, press junkets are an opportunity to promote new work while connecting with fans. They tell funny or embarrassing stories about one another, give us a glimpse into the film production process, and re",
-  "date": "2026-09-15"
- },
- {
-  "page": "wired",
-  "hook": "\"Courtney McAnuff was out of a year-long relationship in the summer of 2024 and starting to date again when she agreed to grab drinks with a potential suitor.\n\nThey met at a bar in midtown Manhattan. He arrived wearing a",
-  "date": "2026-09-15"
- },
- {
-  "page": "wired",
-  "hook": "\"A bipartisan pair of US lawmakers tell WIRED they plan to introduce legislation today that would strip federal funding from states that fail to restrict the use of Flock cameras and other automated license plate readers",
-  "date": "2026-09-15"
  },
  {
   "page": "technology",
@@ -693,5 +638,45 @@
   "page": "wired",
   "hook": "\"OpenAI said it has paused training its most powerful artificial intelligence models as incidents of agents breaching websites\u2019 security controls or posting to third-party sites continue to pile up. On Friday, OpenAI sai",
   "date": "2026-09-28"
+ },
+ {
+  "page": "technology",
+  "hook": "\"A developer has brought Skate 3-style skateboarding into classic Modern Warfare 2 maps, letting players turn familiar combat zones into unexpected skateparks \ud83d\udef9\ud83c\udfae\n\nCreated by developer chasmlol, the experimental project c",
+  "date": "2026-09-29"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to see everything OpenAI announced at DevDay 2026, as the company expanded ChatGPT far beyond a traditional AI chatbot with major new features \ud83e\udd16\u26a1\n\nOpenAI introduced Dots, always-on AI agents that can use 4,000+",
+  "date": "2026-09-29"
+ },
+ {
+  "page": "wired",
+  "hook": "\"US president Donald Trump and the leaders of some of the world\u2019s biggest tech companies have signed a new voluntary agreement on AI safety. Trump called the agreement \u201cmorally binding,\u201d and it appeared to have no legal ",
+  "date": "2026-09-30"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Since 2023, Israel\u2019s fragmentation of Palestine, underway for generations, has accelerated. The West Bank has, for the nearly 3.5 million Palestinians who live there, ceased to exist as a contiguous territory. According",
+  "date": "2026-09-30"
+ },
+ {
+  "page": "wired",
+  "hook": "\"A legal nonprofit sued OpenAI in a California court on Tuesday over the company\u2019s agents escaping a testing environment and hacking the open source AI platform Hugging Face. \u201cOpenAI\u2019s actions straightforwardly violated ",
+  "date": "2026-09-29"
+ },
+ {
+  "page": "wired",
+  "hook": "\"A retired Army colonel turned social media influencer, who has worked with the Pentagon to promote Defense Secretary Pete Hegseth\u2019s agenda, has a history of praising dictators, denigrating women and minorities, and sugg",
+  "date": "2026-09-29"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Going rogue. Breaking containment. Misalignment. P(doom). As the industry booms, an entirely new vernacular has emerged in the debates over how consequential artificial intelligence really is. Within that new parlance, ",
+  "date": "2026-09-29"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Launched in 2024, A2RL introduced a new kind of motorsport that tests the potential of self-driving race cars. This year\u2019s race at Imola was a demonstration of the gap between the computational abilities of autonomous v",
+  "date": "2026-09-29"
  }
 ]

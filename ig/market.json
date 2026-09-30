@@ -1,156 +1,116 @@
 {
- "updated": "2026-09-29T12:08:38+00:00",
+ "updated": "2026-09-30T14:32:54+00:00",
  "competitor_hits": [
   {
    "page": "wired",
-   "likes": 7928,
-   "ratio": 6.71,
-   "tier": "mega",
-   "hook": "\"If the United States collapses in the near future, you\u2019ll no doubt be tempted to point a few fingers. Just don\u2019t blame Emily St. John Mandel (@emilystjohnmandel).\n\nAs Covid tore across the planet, Mandel became somethin",
-   "date": "2026-09-27"
-  },
-  {
-   "page": "technology",
-   "likes": 120000,
-   "ratio": 5.22,
-   "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to see what happened across tech, AI and gaming in the last 24 hours, from Apple hardware clues and Sony patents to major Minecraft updates. \n\nSony filed a patent exploring AI matchmaking that could consider se",
-   "date": "2026-09-27"
-  },
-  {
-   "page": "futurism",
-   "likes": 4441,
-   "ratio": 2.23,
-   "tier": "mega",
-   "hook": "\"Dating is tough when you\u2019re a tech bro with more money than you know what to do with.\n\nThat, at any rate, is according to the said loaded tech workers who spilled their guts to @wired. One 23-year-old complained that hi",
-   "date": "2026-09-28"
-  },
-  {
-   "page": "wired",
-   "likes": 2272,
-   "ratio": 1.92,
-   "tier": "mega",
-   "hook": "\"Child predators are arguably the most reviled demographic in society.\n\nSo when someone like Chris Hansen, the former NBC Dateline journalist and host of the \u201cTo Catch a Predator\u201d series, decides to take up the mantle of",
-   "date": "2026-09-27"
-  },
-  {
-   "page": "wired",
-   "likes": 2110,
-   "ratio": 1.79,
+   "likes": 2334,
+   "ratio": 2.0,
    "tier": "mega",
    "hook": "\"OpenAI said it has paused training its most powerful artificial intelligence models as incidents of agents breaching websites\u2019 security controls or posting to third-party sites continue to pile up. On Friday, OpenAI sai",
    "date": "2026-09-28"
   },
   {
-   "page": "mashable",
-   "likes": 752,
+   "page": "wired",
+   "likes": 2244,
+   "ratio": 1.92,
+   "tier": "mega",
+   "hook": "\"A retired Army colonel turned social media influencer, who has worked with the Pentagon to promote Defense Secretary Pete Hegseth\u2019s agenda, has a history of praising dictators, denigrating women and minorities, and sugg",
+   "date": "2026-09-29"
+  },
+  {
+   "page": "wired",
+   "likes": 1398,
    "ratio": 1.2,
    "tier": "mega",
-   "hook": "\"Dropout's Sam Reich tackles one of life's most existential questions: how would he like to die? #dropout #comedy\".",
-   "date": "2026-09-28"
+   "hook": "\"A legal nonprofit sued OpenAI in a California court on Tuesday over the company\u2019s agents escaping a testing environment and hacking the open source AI platform Hugging Face. \u201cOpenAI\u2019s actions straightforwardly violated ",
+   "date": "2026-09-29"
+  },
+  {
+   "page": "wired",
+   "likes": 1281,
+   "ratio": 1.1,
+   "tier": "mega",
+   "hook": "\"Launched in 2024, A2RL introduced a new kind of motorsport that tests the potential of self-driving race cars. This year\u2019s race at Imola was a demonstration of the gap between the computational abilities of autonomous v",
+   "date": "2026-09-29"
   },
   {
    "page": "technology",
-   "likes": 21000,
-   "ratio": 0.91,
+   "likes": 36000,
+   "ratio": 0.97,
    "tier": "mega",
    "hook": "\"GTA V\u2019s PC version has been demonstrated running locally on an iPhone 18 Pro Max through Vapor, reaching surprisingly high frame rates without cloud streaming \ud83c\udfae\ud83d\udcf1\n\nVapor reported an average of 66 FPS while driving throug",
    "date": "2026-09-28"
   },
   {
    "page": "wired",
-   "likes": 777,
-   "ratio": 0.66,
+   "likes": 1054,
+   "ratio": 0.9,
    "tier": "mega",
    "hook": "\"There are five weeks left until the midterm elections, and extremism is on the ballot in much of the US. A WIRED review of candidates running for statewide and federal positions in November, along with exclusive data on",
    "date": "2026-09-28"
   },
   {
    "page": "wired",
-   "likes": 753,
-   "ratio": 0.64,
+   "likes": 981,
+   "ratio": 0.84,
    "tier": "mega",
    "hook": "\"Six of the nine independent experts on the advisory board of the Global Internet Forum to Counter Terrorism\u2014a consortium run by several of the biggest US tech companies\u2014resigned on Monday, according to a letter seen by ",
    "date": "2026-09-28"
   },
   {
    "page": "wired",
-   "likes": 482,
-   "ratio": 0.41,
+   "likes": 786,
+   "ratio": 0.67,
    "tier": "mega",
-   "hook": "\"A decade ago, text messages represented perhaps the most personal, sensitive data that most people shared from their devices, says cryptographer and software developer Moxie Marlinspike. The surveillance dangers invited",
-   "date": "2026-09-27"
-  },
-  {
-   "page": "wired",
-   "likes": 447,
-   "ratio": 0.38,
-   "tier": "mega",
-   "hook": "\"Amidst ongoing reports of AI agents wreaking havoc on online infrastructure, chipmaker Nvidia is rallying tech companies to use its new open-source tool for AI security.\n\nOver the last few months, frontier AI labs have ",
-   "date": "2026-09-28"
-  },
-  {
-   "page": "futurism",
-   "likes": 694,
-   "ratio": 0.35,
-   "tier": "mega",
-   "hook": "\"So far, astronomers have confirmed over 6,300 exoplanets circling a host star beyond our solar system. They range from small, rocky worlds to enormous orbs of gas like our own Jupiter or Saturn. Some, scientists suspect",
-   "date": "2026-09-28"
+   "hook": "\"Going rogue. Breaking containment. Misalignment. P(doom). As the industry booms, an entirely new vernacular has emerged in the debates over how consequential artificial intelligence really is. Within that new parlance, ",
+   "date": "2026-09-29"
   },
   {
    "page": "techcrunch",
-   "likes": 22,
-   "ratio": 0.28,
+   "likes": 35,
+   "ratio": 0.43,
    "tier": "mega",
    "hook": "\"Taking a big check might have made building FarmboxRx easier but Ashley Tyrner-Dolce says it also could have changed the decisions she was able to make.\u2060\n\u2060\nOn Build Mode, Ashley explains why staying bootstrapped gave he",
    "date": "2026-09-28"
   },
   {
-   "page": "mashable",
-   "likes": 118,
-   "ratio": 0.19,
+   "page": "wired",
+   "likes": 477,
+   "ratio": 0.41,
    "tier": "mega",
-   "hook": "\"Tubby Nugget may be a tiny animated blob, but he's built the kind of creator empire most humans would envy.\u2060\n\u2060\nWhat began as an inside joke between creators and real-life couple Jenine Pastores and Josh Jackson has grow",
-   "date": "2026-09-27"
+   "hook": "\"Since 2023, Israel\u2019s fragmentation of Palestine, underway for generations, has accelerated. The West Bank has, for the nearly 3.5 million Palestinians who live there, ceased to exist as a contiguous territory. According",
+   "date": "2026-09-30"
   },
   {
-   "page": "mashable",
-   "likes": 48,
-   "ratio": 0.08,
+   "page": "wired",
+   "likes": 339,
+   "ratio": 0.29,
    "tier": "mega",
-   "hook": "\"Public opinion has turned against smart glasses, which puts Meta and Zuckerberg in an awkward position...\u2060\n\u2060\nRead more on Mashable \u2b06\ufe0f\u2060\n\u270d\ufe0f: Timothy Beck Werth (@timothybeckwerth)\".",
-   "date": "2026-09-28"
-  },
-  {
-   "page": "technology",
-   "likes": 1205,
-   "ratio": 0.05,
-   "tier": "mega",
-   "hook": "\"A creator used Claude Opus 5.5 to build an interactive browser experience that explains SpaceX\u2019s Raptor 3 by letting users explore the engine from the inside.\n\nThe visualization can cut the engine open, separate major c",
-   "date": "2026-09-29"
-  },
-  {
-   "page": "technology",
-   "likes": 520,
-   "ratio": 0.02,
-   "tier": "mega",
-   "hook": "\"UBTECH\u2019s UWorld U1 is a full-size consumer humanoid designed to look and interact more like a person, using realistic skin, hair and facial movements. \n\nThe U1 uses 88 degrees of freedom across its body, including its a",
-   "date": "2026-09-29"
-  },
-  {
-   "page": "technology",
-   "likes": 310,
-   "ratio": 0.01,
-   "tier": "mega",
-   "hook": "\"South Korean startup DIDEN Robotics is developing the Diden Spider, a 4-legged industrial robot designed to climb steel structures and perform shipyard tasks including welding and inspection.\n\nIts feet use electroperman",
+   "hook": "\"OpenAI has cancelled plans to release its latest GPT-6.1 Astra system next month after the model failed to meet safety standards.\n\nResearch and safety leaders decided not to ship the model after finding it was worse at ",
    "date": "2026-09-29"
   },
   {
    "page": "wired",
-   "likes": 14,
-   "ratio": 0.01,
+   "likes": 283,
+   "ratio": 0.24,
    "tier": "mega",
-   "hook": "\"OpenAI has cancelled plans to release its latest GPT-6.1 Astra system next month after the model failed to meet safety standards.\n\nResearch and safety leaders decided not to ship the model after finding it was worse at ",
+   "hook": "\"US president Donald Trump and the leaders of some of the world\u2019s biggest tech companies have signed a new voluntary agreement on AI safety. Trump called the agreement \u201cmorally binding,\u201d and it appeared to have no legal ",
+   "date": "2026-09-30"
+  },
+  {
+   "page": "technology",
+   "likes": 7347,
+   "ratio": 0.2,
+   "tier": "mega",
+   "hook": "\"A developer has brought Skate 3-style skateboarding into classic Modern Warfare 2 maps, letting players turn familiar combat zones into unexpected skateparks \ud83d\udef9\ud83c\udfae\n\nCreated by developer chasmlol, the experimental project c",
+   "date": "2026-09-29"
+  },
+  {
+   "page": "technology",
+   "likes": 6114,
+   "ratio": 0.17,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to see everything OpenAI announced at DevDay 2026, as the company expanded ChatGPT far beyond a traditional AI chatbot with major new features \ud83e\udd16\u26a1\n\nOpenAI introduced Dots, always-on AI agents that can use 4,000+",
    "date": "2026-09-29"
   }
  ],
