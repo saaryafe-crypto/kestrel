@@ -1,0 +1,37 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ROCKSTAR MADE <em>$1B IN 3 DAYS.</em> REFUSED TO RUSH ANYWAY.",
+   "hsize": 72,
+   "face": [],
+   "media": null
+  }
+ ],
+ "caption": "Rockstar's GTA VI map is twice the size of GTA V and three times the playable area of Red Dead 2. Ten years of silence paid off. \ud83c\udfae\n\nGTA V launched in 2013, earned $1 billion in its first three days, and became one of the best-selling games in history. Then Rockstar went quiet and spent the next decade building the sequel. Now press preview details are out: the new map is twice the size of GTA V, three times the playable area of Red Dead Redemption 2, and the main city alone is double the size of Los Santos. They refused to rush. Send this to someone who keeps getting told to just ship it.\n\nEvery company is shipping fast and patching later. Rockstar went the other way: ten years, no shortcuts, then something that makes every other open world look small. Patience is still the cheat code.\n\nSources: GTAVI_Countdown\n\n#GTA6 #RockstarGames #Gaming #Entrepreneur #BusinessMindset",
+ "pinned_comment": "GTA V sold nearly 200 million copies, over a decade after launch. Rockstar spent another ten years building the sequel anyway. They had no reason to rush and still refused to.",
+ "hook_tournament": {
+  "story_type": "money_win",
+  "candidates": [
+   "ROCKSTAR TOOK <em>10 YEARS</em> WHILE EVERYONE SAID SHIP IT.",
+   "ROCKSTAR BUILT FOR <em>10 YEARS</em> WHILE EVERYONE KEPT WAITING.",
+   "THEY HAD <em>$1B IN 3 DAYS.</em> STILL REFUSED TO RUSH.",
+   "GTA V EARNED <em>$1B IN 3 DAYS.</em> THEN 10 MORE YEARS.",
+   "ROCKSTAR MADE <em>$1B IN 3 DAYS.</em> REFUSED TO RUSH ANYWAY."
+  ],
+  "scores": [
+   7,
+   6,
+   6,
+   6,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] leads with $1B in 3 days (pure shock) then lands the twist (refused to rush anyway) that makes you want details. [0]'s 10-year conflict is compelling but lacks the jaw-dropping headline that actually stops thumbs at 2am."
+ },
+ "handle": "@yaffeai",
+ "container": "inspire",
+ "edu_mode": "inspire",
+ "cover_fallback": "no-image",
+ "editor_override": "COVER HAS NO IMAGE \u2014 cover_has_image is false. This is defined as a single-picture post; the picture is the whole product and it does not exist. IMAGE LAW requires every cover to carry a subject. Fix: a real Rockstar press photo or official GTA VI key art showing the map scale or the studio.; ARC HAS NO LOW POINT \u2014 the inspire container law requires 'low point with real numbers, the turn, the payo"
+}

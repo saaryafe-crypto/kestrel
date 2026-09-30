@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-26T19:49:29Z",
-  "gate": "B",
-  "subject": "AN AI SCAM HIT <em>5.1 MILLION</em> PEOPLE BEFORE ANYONE FLAGGED IT AS FAKE",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — thumb test fails. The cover is a playful lifestyle ski photo (masked person in a yellow Lego-face balaclava adjusting ski goggles). A stranger seeing it at feed size reads 'fun ski content' — not 'AI scam hit 5.1 million people.' The image is decoration, not proof. The Doctrine is explicit: 'seen once at feed size, a stranger guesses the story.' This one guesses wrong.\n\nFIX: The correc"
- },
- {
-  "t": "2026-09-26T19:51:07Z",
-  "gate": "B",
-  "subject": "AN AI SCAM HIT <em>5.1 MILLION</em> PEOPLE BEFORE ANYONE FLAGGED IT AS FAKE",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — thumb test failure: the cover shows a person in novelty ski gear (yellow cartoon-face balaclava, ski jacket, Alpine village background). At feed speed, a stranger sees 'fun ski content,' not 'AI scam reached 5.1 million people.' The image is decoration for the topic (ski gear recommendation) rather than proof of the story (AI-generated fraudulent storefront, community-note warning, mas"
- },
- {
-  "t": "2026-09-26T19:51:57Z",
-  "gate": "A",
-  "subject": "i wonder if the first episode will ever dethrone the silly team rocket meme i did 4 years ago",
-  "verdict": "KILL",
-  "reason": "One thin tweet of pure speculation from an unknown artist with no event, outcome, or AI/tech angle required by the lane—requires padding where none exists."
- },
- {
   "t": "2026-09-26T19:52:11Z",
   "gate": "A",
   "subject": "JUST IN: NVIDIA $NVDA CEO Jensen Huang says we're entering a \"low IQ era\" where children won't need to learn basic math.",
@@ -2098,5 +2077,26 @@
   "subject": "A staged worldwide false-flag cyberattack will be launched by Israel in the near future and they will blame it on AI.",
   "verdict": "KILL",
   "reason": "This is a prediction about a future event with no current evidence or consequence—it's speculation, not the news-event this page covers."
+ },
+ {
+  "t": "2026-09-30T18:38:30Z",
+  "gate": "B",
+  "subject": "ROCKSTAR MADE <em>$1B IN 3 DAYS.</em> REFUSED TO RUSH ANYWAY.",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — HARD REJECT: cover_has_image is false. The Doctrine is unambiguous: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The prompt's own warning flags this as a standalone kill condition. Fix: attach a cover image built to the correct archetype for this story type — company/product with a famous brand = the product huge in its world. C"
+ },
+ {
+  "t": "2026-09-30T18:40:10Z",
+  "gate": "B",
+  "subject": "ROCKSTAR MADE <em>$1B IN 3 DAYS.</em> REFUSED TO RUSH ANYWAY.",
+  "verdict": "REJECT",
+  "reason": "COVER HAS NO IMAGE — cover_has_image is false. This is defined as a single-picture post; the picture is the whole product and it does not exist. IMAGE LAW requires every cover to carry a subject. Fix: a real Rockstar press photo or official GTA VI key art showing the map scale or the studio.; ARC HAS NO LOW POINT — the inspire container law requires 'low point with real numbers, the turn, the payo"
+ },
+ {
+  "t": "2026-09-30T18:40:28Z",
+  "gate": "R",
+  "subject": "ROCKSTAR MADE <em>$1B IN 3 DAYS.</em> REFUSED TO RUSH ANYWAY.",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
