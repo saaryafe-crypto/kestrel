@@ -1,0 +1,77 @@
+{
+ "image_brief": "glowing phone showing 5:35 AM on the lock screen in a dark bedroom, a hand scrolling in bed",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SHE POSTED <em>'GOING TO BED'</em> AT 5:35 AM. SHE WASN'T.",
+   "kicker": "She was still awake",
+   "hsize": 78,
+   "media": "posts/2026-09-30-going-to-bed-these-days/cand-2.jpg"
+  }
+ ],
+ "caption": "A VC posted 'Going to bed these days' at 5:35 in the morning. She was not going to bed. \ud83c\udf19\n\nOn September 29 at 5:35 AM, venture capitalist Justine Moore posted four words on X: 'Going to bed these days.' She was not going to bed. The post got 240,000 engagements. The person paid to bet on the future could not sleep.\n\nRunning a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: X (venturetwins)\n\n#AI #Tech #StartupLife #VentureCapital #SiliconValley",
+ "pinned_comment": "The 'hustle culture' read and the 'collective burnout' read are both possible here. Which one you believe probably says more about you than the tweet does.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "<em>POSTED 'GOING TO BED'</em> AT 5:35 IN THE MORNING",
+   "A VC POSTED <em>'GOING TO BED'</em> AT 5:35 AM",
+   "<em>240K PEOPLE</em> SAW A FOUR-WORD TWEET ABOUT SLEEP",
+   "A VC AWAKE AT <em>5 AM</em> GOT <em>240K PEOPLE</em> TO NOD",
+   "SHE TWEETED <em>'GOING TO BED'</em> AT 5 AM. 240K SAW IT.",
+   "NOBODY SLEEPS ANYMORE. A <em>5 AM TWEET</em> PROVED IT.",
+   "GOING TO BED WENT VIRAL AND NOBODY IS SURPRISED",
+   "A VC POSTED 'GOING TO BED' AT <em>5:35 AM</em>"
+  ],
+  "scores": [
+   8,
+   8,
+   0,
+   4,
+   9,
+   0,
+   3,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] delivers the hook (absurdity) plus the story (240K saw it), showing immediately that this is mass relatability, not just one person being funny. [0] is punchier but makes you read to find the scale; [4] gives you the complete story upfront."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "SHE POSTED <em>'GOING TO BED'</em> AT 5:35 AM. SHE WASN'T.",
+   "A VC POSTED <em>'GOING TO BED THESE DAYS'</em> AT 5:35 AM."
+  ],
+  "scores": [
+   8,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] leads with an immediate contradiction that makes you stop scrolling, while [1] requires knowing who @venturetwins is to care. For a stranger, the absurdity in [0] is instant catnip; [1] is just information."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Justine Moore",
+  "actor_known": false,
+  "anchor": "the tweet",
+  "specifics": [
+   "Posted at 5:35 AM \u2014 she was not going to bed",
+   "240,000 people saw a four-word tweet",
+   "18.1K engagements on a post that is literally 'Going to bed these days'",
+   "The mass relatability is the story: whatever is keeping people up right now is widespread",
+   "@venturetwins is a VC \u2014 someone paid to be optimistic about the future"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (2/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Going to bed these days",
+  "link": "https://x.com/venturetwins/status/2104807209007992835",
+  "judge_interest": 6,
+  "scout_score": 75.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IS A MEME \u2014 INSTANT KILL: the image is the 'I Bet He's Thinking About Other Women' viral meme template with overlaid joke text about an AI agent stuck on a tool approval. IMAGE LAW explicitly states 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER' and requires every element to 'read as photographed \u2014 real skin, real product, real logo mark, real photo fragments.' A recycled meme templ",
+ "gate_r": "s1: The background is a well-known internet meme template (the 'I Bet He's Thinking About Other Women' couple-in-bed meme) with its original joke text still partially visible, which reads as a raw screenshot/meme repost rather than professional news photography, failing the photo quality and @technology-level standard entirely."
+}
