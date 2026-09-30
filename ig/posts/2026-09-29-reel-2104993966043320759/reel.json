@@ -1,0 +1,17 @@
+{
+ "pick": 14,
+ "title": "The Ultrafast tier finishes work four times faster than Standard",
+ "title_candidates": [
+  "This is what AI text generation looks like at 8 times normal speed",
+  "OpenAI just made ChatGPT generate text faster than humans can read",
+  "OpenAI's new speed tier hits 300 tokens a second on its best model",
+  "Watch ChatGPT fill a screen of text in seconds with OpenAI's new mode",
+  "The speed of OpenAI's fastest model is hard to believe until you see it"
+ ],
+ "caption": "OpenAI just flipped on a speed setting that generates text 8 times faster than the standard version, and this clip shows it running live.\n\nIt's called Ultrafast, and it pushes 300 tokens per second through their Codex model. A token is roughly a word or part of one, so you're watching well over 200 words appear per second. That's faster than most people can read.\n\nFor now it's live in the OpenAI API, which means developers building apps on top of ChatGPT can already use it. Regular users are next.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: OpenAI. DM for credit or removal\n\n#openai #chatgpt #artificialintelligence #aitools #aitech",
+ "start_s": 0,
+ "clip_s": 30,
+ "source": "https://video.twimg.com/amplify_video/2104993936112779264/vid/avc1/1920x1080/b-lrt-VyRDdcfdQC.mp4?tag=29",
+ "channel": "OpenAI",
+ "publish": "make"
+}
