@@ -1,0 +1,81 @@
+{
+ "media_idx": 1,
+ "image_brief": "White House East Room packed with officials and tech leaders seated around a long formal table for a presidential superintelligence summit",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THE PRESIDENT JUST HELD AN OFFICIAL <em>SUPER INTELLIGENCE MEETING</em>",
+   "kicker": "THE FIRST OFFICIAL WHITE HOUSE SUPERINTELLIGENCE SUMMIT",
+   "hsize": 76,
+   "media": "posts/2026-09-30-super-intelligence/cand-1-fit.jpg"
+  }
+ ],
+ "caption": "The White House just held an official 'Super Intelligence' AI meeting\n\nOn September 29, 2026, the President held a White House meeting formally titled 'Super Intelligence,' putting the thing from sci-fi movies on his actual calendar. Elon Musk, who sued OpenAI and has warned that AI could destroy civilization, hyped the meeting. Your industry just got a new player at the table: the White House, now officially treating superintelligence as a real priority.\n\nMusk's amplifying post drew 7.2 million views. This is the first time a sitting U.S. president has put superintelligence on an official White House calendar.\nRunning a business? DM us 'AI' and we'll show you what this means for yours.\n\nSources: elonmusk on X, MargoMartin47 on X\n\n#AI #ArtificialIntelligence #WhiteHouse #SuperIntelligence #Technology",
+ "pinned_comment": "The same guy who sued OpenAI for moving too fast on AI just hyped the government's official 'Super Intelligence' summit. That contradiction alone tells you how fast things are moving.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "ELON MUSK JUST AMPLIFIED THE WHITE HOUSE <em>PLANNING FOR SUPERINTELLIGENCE</em>",
+   "ELON MUSK <em>JUST HYPED THE PRESIDENT'S SUPER INTELLIGENCE SUMMIT</em>",
+   "ELON MUSK JUST BACKED AMERICA'S FIRST <em>SUPER INTELLIGENCE SUMMIT</em>",
+   "ELON MUSK JUST CHEERED AS <em>SCI-FI BECAME WHITE HOUSE REALITY</em>",
+   "ELON MUSK <em>CHEERED THE PRESIDENT'S OFFICIAL SUPER INTELLIGENCE MEETING</em>",
+   "ELON MUSK: <em>THE WHITE HOUSE HELD A SUPER INTELLIGENCE MEETING</em>",
+   "ELON MUSK: <em>SUPER INTELLIGENCE IS NOW ON THE PRESIDENT'S AGENDA</em>",
+   "ELON MUSK: <em>THE PRESIDENT PUT SUPER INTELLIGENCE ON HIS CALENDAR</em>",
+   "ELON MUSK'S AI WARNINGS ARE <em>NOW OFFICIAL WHITE HOUSE BUSINESS</em>"
+  ],
+  "scores": [
+   4,
+   6,
+   7,
+   6,
+   7,
+   5,
+   6,
+   6,
+   8
+  ],
+  "winner": 8,
+  "why": "[8] leads with the core contradiction itself\u2014Musk's AI warnings are now official White House business\u2014making you stop because the 'wait, WHAT?' moment is literally in the headline. [2] has a solid 'FIRST' superlative, but it's just announcing good news without the narrative reversal that makes you actually curious."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "ELON MUSK WARNED ABOUT <em>SUPER INTELLIGENCE</em>. THE WHITE HOUSE LISTENED.",
+   "ELON MUSK: YOUR GOVERNMENT NOW <em>PLANS FOR SUPER INTELLIGENCE</em>",
+   "ELON MUSK: THE PRESIDENT RAN A MEETING CALLED <em>SUPER INTELLIGENCE</em>",
+   "ELON MUSK'S AI WARNINGS ARE <em>NOW OFFICIAL WHITE HOUSE BUSINESS</em>"
+  ],
+  "scores": [
+   5,
+   8,
+   0,
+   7
+  ],
+  "winner": 1,
+  "why": "[1] makes you think 'wait, WHAT?' because 'YOUR GOVERNMENT NOW' is personal and immediate. [3] just confirms they're taking AI seriously\u2014it's good governance, not an urgent revelation."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "POTUS / White House",
+  "actor_known": false,
+  "anchor": "Elon Musk",
+  "specifics": [
+   "The White House held an official meeting called 'Super Intelligence' on Sep 29, 2026",
+   "Elon Musk amplified it with a one-word post that got 7.2 million views",
+   "76,000 people liked the announcement tweet within hours",
+   "Musk has previously sued OpenAI and warned AI could destroy civilization \u2014 now he's hyping the government's AI summit"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (3/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Super Intelligence",
+  "link": "https://x.com/elonmusk/status/2105023642312601851",
+  "judge_interest": 5,
+  "scout_score": 120.0
+ },
+ "gate_a_relaxed": true
+}

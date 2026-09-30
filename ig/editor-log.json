@@ -1,96 +1,5 @@
 [
  {
-  "t": "2026-09-26T19:52:14Z",
-  "gate": "A",
-  "subject": "Massachusetts is investigating how DraftKings and other gambling sites used AI to target losing bettors and encourage th",
-  "verdict": "APPROVE",
-  "reason": "A household-name regulatory action (DraftKings under state investigation) where government authority provably moved; fits §1 calibration warning against killing famous-actor events for short source tweets."
- },
- {
-  "t": "2026-09-26T20:07:59Z",
-  "gate": "B",
-  "subject": "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH FAIL (IMAGE LAW §3, hard REJECT): The cover is a still from The Hangover — recognizable actors (Bradley Cooper, Zach Galifianakis, Ed Helms, Ken Jeong) at a craps table. None of them appear in this story. Using famous people as decoration is explicitly prohibited: 'if a recognizable famous person is the cover subject but that person has no role in this story, REJECT.' Fix: replace with "
- },
- {
-  "t": "2026-09-26T20:09:07Z",
-  "gate": "B",
-  "subject": "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH FAIL — the cover image is a recognizable movie still of the cast of The Hangover (Bradley Cooper, Zach Galifianakis, Ed Helms, Ken Jeong, and others) at a casino craps table. None of these people have any role in the DraftKings story. This is textbook cast-truth rejection: famous faces used as decoration with zero connection to the actual story. Fix: replace with a composite that center"
- },
- {
-  "t": "2026-09-26T20:10:21Z",
-  "gate": "B",
-  "subject": "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>",
-  "verdict": "REJECT",
-  "reason": "CAST TRUTH VIOLATION — the cover image is a recognizable still from 'The Hangover' featuring Bradley Cooper, Zach Galifianakis, Ed Helms, Ken Jeong, and other cast members at a craps table. None of these people have any role in the DraftKings story. Famous faces used as gambling-scene decoration is exactly what Cast Truth prohibits: 'if a recognizable famous person is the cover subject but that pe"
- },
- {
-  "t": "2026-09-26T20:10:30Z",
-  "gate": "R",
-  "subject": "DRAFTKINGS BUILT AN AI <em>TO TARGET YOU HARDER THE MORE YOU LOST</em>",
-  "verdict": "FAIL",
-  "reason": "s1: The photo shows men cheering and celebrating at a casino table — a winners' mood that directly contradicts the predatory/exploitation angle of the headline about targeting losing gamblers."
- },
- {
-  "t": "2026-09-26T21:24:19Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "Institutional space-program achievement announcement at 4/10 scout interest lacks dramatic consequence, household-name company tier (ISRO is government, not OpenAI/Google/Meta caliber), or person-centric driver to justify a news slot on this page."
- },
- {
-  "t": "2026-09-26T21:24:35Z",
-  "gate": "A",
-  "subject": "We’ve shared details on how AI agents in our research environment sent training and evaluation data to third-party servi",
-  "verdict": "APPROVE",
-  "reason": "OpenAI (household-name lab) publicly disclosed a data-handling incident with real consequences and sufficient substance (53 cases, user-data leak, mitigation details); qualifies as the major-move news this page exists to cover and is substantially better than filling the slot with another guide."
- },
- {
-  "t": "2026-09-26T21:41:33Z",
-  "gate": "B",
-  "subject": "CHATGPT JUST ADMITTED ITS OWN AI LEAKED YOUR PHOTOS <em>53 TIMES</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE IS THE WRONG STORY: The attached cover reads 'The Hugging Face incident and the road ahead' — Hugging Face is a completely different company from OpenAI. Either the wrong image was loaded for this post, or the underlying story is a Hugging Face incident that has been misattributed to ChatGPT/OpenAI. This must be resolved before any fix: if the story is actually about Hugging Face, the "
- },
- {
-  "t": "2026-09-26T21:43:04Z",
-  "gate": "B",
-  "subject": "CHATGPT JUST ADMITTED ITS OWN AI LEAKED YOUR PHOTOS <em>53 TIMES</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IS TEXT-ON-BLACK WITH NO SUBJECT — fatal under IMAGE LAW: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The cover is OpenAI's blog-post title card ('The Hugging Face incident and the road ahead') rendered as particle art on a black field. There is no face, no product, no photoreal element of any kind. Fix: build a photoreal composite —"
- },
- {
-  "t": "2026-09-26T21:45:18Z",
-  "gate": "B",
-  "subject": "CHATGPT JUST ADMITTED ITS OWN AI LEAKED YOUR PHOTOS <em>53 TIMES</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IS A SCREENSHOT / WRONG ASSET: The attached image reads 'The Hugging Face incident and the road ahead' — this is a screenshot of what appears to be an OpenAI blog post or announcement, and it covers a completely different story (Hugging Face) than the post being published (ChatGPT photo leak). This is either the wrong image file or a raw screenshot used as a cover — both are hard kills. IMAG"
- },
- {
-  "t": "2026-09-26T21:46:13Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "Off-lens kill: government space achievement not through the required tech/business lens (SpaceX, Starlink, valuations, innovation)."
- },
- {
-  "t": "2026-09-26T21:47:26Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "An institutional achievement without the personal drama or felt consequence needed to stop readers mid-scroll; the 4/10 scout score combined with thin sourcing means this would require padding into listicle format—the exact repetition the owner flagged as the page's #1 content failure."
- },
- {
-  "t": "2026-09-26T22:02:09Z",
-  "gate": "B",
-  "subject": "ONE DEVELOPER SHIPPED <em>2,500 CODE UPDATES IN 30 DAYS</em>",
-  "verdict": "REJECT",
-  "reason": "3-vs-4 tool inconsistency: The caption body says 'three AI tools running mostly on their own' and closes with 'One developer. Three AI tools.' — but the save-close reads 'SAVE THIS: the 4-tool workflow behind 2,500 code updates in one month.' Item 4 ('The move that made 2,500 possible') is a technique/workflow, not a separate tool. A 12-year-old reads 'three tools' twice then 'four-tool workflow' "
- },
- {
   "t": "2026-09-26T22:04:59Z",
   "gate": "B",
   "subject": "ONE DEVELOPER SHIPPED <em>2,500 CODE UPDATES IN 30 DAYS</em>",
@@ -2098,5 +2007,96 @@
   "subject": "A staged worldwide false-flag cyberattack will be launched by Israel in the near future and they will blame it on AI.",
   "verdict": "KILL",
   "reason": "Unverified prediction from unknown account, not a real event—violates core requirement that 'something HAPPENED in the real world.'"
+ },
+ {
+  "t": "2026-09-30T20:34:46Z",
+  "gate": "A",
+  "subject": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher",
+  "verdict": "KILL",
+  "reason": "No substance: the source is one marketing tweet with zero concrete details, demonstration, numbers, or real-world consequence — the writer would have to pad heavily to build slides, violating the NO SUBSTANCE rule."
+ },
+ {
+  "t": "2026-09-30T20:34:50Z",
+  "gate": "A",
+  "subject": "Super Intelligence",
+  "verdict": "KILL",
+  "reason": "Two-word source with no event, facts, or context to build slides—pure engagement-bait without substance."
+ },
+ {
+  "t": "2026-09-30T20:36:16Z",
+  "gate": "A",
+  "subject": "GPT-6.1 Sol: near-Astra intelligence for a fifth of the price. It’s the most cost-efficient model for its performance av",
+  "verdict": "APPROVE",
+  "reason": "Model release from OpenAI qualifies as news under household-name-lab doctrine (CALIBRATION protects major-lab releases from over-killing); cost-efficiency claim and pricing comparison provide story spine."
+ },
+ {
+  "t": "2026-09-30T20:53:30Z",
+  "gate": "B",
+  "subject": "OPENAI JUST MADE POWERFUL AI <em>5X CHEAPER</em>",
+  "verdict": "REJECT",
+  "reason": "FRIEND TEST FAIL — caption line 'at $2 per million tokens instead of $10' uses jargon nobody says out loud. A smart 12-year-old doesn't know what a token is. Spoken rewrite: 'at $2 instead of $10 for the same amount of AI work' (or simply drop 'per million tokens' — the $2 vs $10 and the 80% line carry the point without the API-pricing vocabulary)."
+ },
+ {
+  "t": "2026-09-30T20:54:57Z",
+  "gate": "B",
+  "subject": "OPENAI JUST MADE POWERFUL AI <em>5X CHEAPER</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 hard violation: the cover is a screenshot of OpenAI's pricing/product UI — three model cards pulled straight from the OpenAI pricing page. The law states 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Fix: replace with a photoreal composite built to the company/product archetype — Sam Altman (real press photo or named-generation) in frame with the OpenAI logo large and the $"
+ },
+ {
+  "t": "2026-09-30T20:56:33Z",
+  "gate": "B",
+  "subject": "OPENAI JUST MADE POWERFUL AI <em>5X CHEAPER</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE IS A UI SCREENSHOT — §3 hard ban: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' The image is a direct screenshot of OpenAI's model pricing page (the three Astra/Sol/Luna product cards). Fix: rebuild the cover as a photoreal composite — Sam Altman (vendor cast, legal for an OpenAI story) as the face, the '$10 → $2' price drop rendered as oversized styled type, and the OpenAI "
+ },
+ {
+  "t": "2026-09-30T20:57:42Z",
+  "gate": "A",
+  "subject": "Super Intelligence",
+  "verdict": "KILL",
+  "reason": "Source material provides no explanation of what event occurred, announcement made, or consequence felt — just a phrase with no context that would require writer speculation beyond story transformation."
+ },
+ {
+  "t": "2026-09-30T20:58:23Z",
+  "gate": "A",
+  "subject": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher",
+  "verdict": "KILL",
+  "reason": "Marketing announcement with no details on what Dots is, what it does, or any real consequence to build slides from — writer would have to pad empty claims, violating the no-substance rule."
+ },
+ {
+  "t": "2026-09-30T20:59:05Z",
+  "gate": "A",
+  "subject": "The AI revolution is running into a power bottleneck: US data center IT power demand is projected to surge +755% from 20",
+  "verdict": "KILL",
+  "reason": "Forecast/analyst content with no real-world event or felt consequence — this is ON-TOPIC BUT ROUTINE analyst-targets material (banned). A power bottleneck story qualifies only when reality moved (outage occurred, project cancelled, company changed course); a projection of future demand is not a story until it becomes a consequence someone felt."
+ },
+ {
+  "t": "2026-09-30T21:23:08Z",
+  "gate": "B",
+  "subject": "ELON MUSK: YOUR GOVERNMENT NOW <em>PLANS FOR SUPER INTELLIGENCE</em>",
+  "verdict": "REJECT",
+  "reason": "KICKER IS A BANNED ENGAGEMENT METRIC AS PAYOFF (§2 hard ban): '7.2 MILLION VIEWS IN ONE EVENING' is a view count. §2 bans engagement metrics as the payoff in the hook apparatus — views, likes, replies, reposts, followers, all banned. Remove it or replace with a fact about the meeting itself, e.g., 'THE FIRST OFFICIAL WHITE HOUSE SUPERINTELLIGENCE SUMMIT.'; CAPTION LEANS ON TWEET VIRALITY AS THE ST"
+ },
+ {
+  "t": "2026-09-30T21:25:14Z",
+  "gate": "B",
+  "subject": "THE PRESIDENT JUST HELD AN OFFICIAL <em>SUPER INTELLIGENCE MEETING</em>",
+  "verdict": "REJECT",
+  "reason": "EMOJI (§4, SPOKEN VOICE): '🤯' in the caption opener is an explicit §4 ban — 'no emojis.' Remove it.; REPETITION (§4, NEW FACT PER SLIDE): Para 1 ends 'the White House, now officially treating superintelligence as a real priority.' Para 2 immediately opens 'AI just went from tech industry talking point to item on the President's actual calendar.' Same point stated twice in different words. Delete o"
+ },
+ {
+  "t": "2026-09-30T21:27:55Z",
+  "gate": "B",
+  "subject": "THE PRESIDENT JUST HELD AN OFFICIAL <em>SUPER INTELLIGENCE MEETING</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-09-30T21:28:12Z",
+  "gate": "R",
+  "subject": "THE PRESIDENT JUST HELD AN OFFICIAL <em>SUPER INTELLIGENCE MEETING</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
