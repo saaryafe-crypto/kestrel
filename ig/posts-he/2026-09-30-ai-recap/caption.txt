@@ -1,0 +1,9 @@
+NVIDIA הימרה על עצמה 235 מיליארד דולר, שיא בכל ההיסטוריה האמריקאית.
+
+OpenAI השיקה את Dots, סוכני AI שפועלים 24 שעות ביממה ועושים משימות בשבילך, מבוססים על GPT-6 Astra. Anthropic תשלם לחברת SpaceX עד 84.5 מיליארד דולר על כוח מחשוב עד 2029. Grok וGemini מפעילים עכשיו את America.gov, האתר הממשלתי החדש של ארה"ב, שבו אפשר לקבל תשובות ישירות מגורמים רשמיים. SpaceX שיגרה את כל 26 לווייני Starlink V3, כולם עובדים כרגיל. מפתח אחד השיק סוכני AI אישיים לWhatsApp ולTelegram שלומדים איך אתה עובד ועושים את העבודה הכבדה בשבילך.
+
+מקורות: OpenAI, Anthropic, Nvidia, SpaceX, xAI
+
+עקוב אחרי @ainews.israel לעדכוני AI יומיים.
+
+#AI #ArtificialIntelligence #Tech #OpenAI #Nvidia

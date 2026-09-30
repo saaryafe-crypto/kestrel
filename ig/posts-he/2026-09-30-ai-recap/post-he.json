@@ -1,0 +1,42 @@
+{
+ "stories": [
+  {
+   "headline": "OpenAI launches Dots: always-on AI agents powered by GPT-6 Astra"
+  },
+  {
+   "headline": "Nvidia approves $235 billion buyback, largest in US history"
+  },
+  {
+   "headline": "Anthropic has agreements to pay SpaceX $84.5 billion for compute"
+  },
+  {
+   "headline": "Grok and Gemini now power the US government's official AI website"
+  },
+  {
+   "headline": "SpaceX deploys all 26 Starlink V3 satellites, all running normally"
+  },
+  {
+   "headline": "Builder ships self-improving AI agents for WhatsApp and Telegram"
+  }
+ ],
+ "caption": "NVIDIA הימרה על עצמה 235 מיליארד דולר, שיא בכל ההיסטוריה האמריקאית.\n\nOpenAI השיקה את Dots, סוכני AI שפועלים 24 שעות ביממה ועושים משימות בשבילך, מבוססים על GPT-6 Astra. Anthropic תשלם לחברת SpaceX עד 84.5 מיליארד דולר על כוח מחשוב עד 2029. Grok וGemini מפעילים עכשיו את America.gov, האתר הממשלתי החדש של ארה\"ב, שבו אפשר לקבל תשובות ישירות מגורמים רשמיים. SpaceX שיגרה את כל 26 לווייני Starlink V3, כולם עובדים כרגיל. מפתח אחד השיק סוכני AI אישיים לWhatsApp ולTelegram שלומדים איך אתה עובד ועושים את העבודה הכבדה בשבילך.\n\nמקורות: OpenAI, Anthropic, Nvidia, SpaceX, xAI\n\nעקוב אחרי @ainews.israel לעדכוני AI יומיים.\n\n#AI #ArtificialIntelligence #Tech #OpenAI #Nvidia",
+ "pinned_comment": "Anthropic תשלם לחברת SpaceX עד 84.5 מיליארד דולר על כוח מחשוב עד 2029. זה מחזק אותם, או ששמים הכל על קלף אחד?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "NVIDIA הימרה על עצמה: <em>235 מיליארד דולר</em>, שיא אמריקאי",
+   "kicker": "הסיכום היומי"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "COVER IMAGE — abstract CGI decoration, zero proof of the story. The image is an orange particle/light-streak effect on a black void: no subject, no face, no photoreal element, no Nvidia brand mark, nothing a stranger at feed size could connect to a $235B stock buyback. Violates three rules simultaneously: 'Every image is PROOF or a STAGED SCENE OF THE STORY — never decoration'; 'The cover must ALW",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
