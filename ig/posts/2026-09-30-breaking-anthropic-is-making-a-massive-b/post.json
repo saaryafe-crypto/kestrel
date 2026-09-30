@@ -1,0 +1,71 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ANTHROPIC LOST $42B, <em>WILL SELL YOU SHARES ANYWAY</em>",
+   "kicker": "$518 BILLION IN SPENDING NEXT YEAR",
+   "hsize": 78,
+   "media": "faces/dario-amodei-3.jpg"
+  }
+ ],
+ "caption": "Anthropic just disclosed a $42 billion loss in 2025 and is now going public.\n\nThe company behind Claude lost $42 billion in 2025. Anthropic projects the world will need $518 billion in AI infrastructure in the coming year alone. Both numbers came out when Anthropic opened its books to let regular investors in, along with a claim that AI will change the global economy more than electricity, industrialization, and the internet combined. $518 billion is more than the entire economy of most countries on Earth, and if you buy into this, you are helping fund it directly. A company that just posted a $42 billion loss is now asking the public for even more.\n\nThis is what it costs to build what they believe will be bigger than the internet. AI companies are burning money at a scale most industries never see, and now they want regular investors in the room too.\n\nRunning a business? DM us \"AI\" and we'll show you where this is actually headed.\n\nSources: unusual_whales on X\n\n#anthropic #ipo #artificialintelligence #aiinvesting #techinvesting",
+ "pinned_comment": "Would you invest in a company that lost $42 billion last year? You probably already trust it with your most personal conversations every single day.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "CLAUDE'S MAKER LOST $42B, <em>NOW WANTS YOUR INVESTMENT</em>",
+   "AN AI STARTUP LOST <em>$42 BILLION</em> AND WANTS YOUR MONEY",
+   "AN AI STARTUP LOST MORE THAN MOST <em>COUNTRIES' DEFENSE BUDGETS</em>",
+   "AN AI STARTUP IS SPENDING <em>$518 BILLION</em> NEXT YEAR",
+   "<em>THE COMPANY BEHIND CLAUDE</em> LOST $42 BILLION IN 2025"
+  ],
+  "scores": [
+   9,
+   8,
+   7,
+   8,
+   6
+  ],
+  "winner": 0,
+  "why": "[0] combines personal stakes ('your investment'), contradiction (massive loss + asking), and identity (Claude's maker) for maximum impact in 1.7 seconds. [1] has the same story but loses the identity hook, so it registers as generic startup news instead of a recognizable company making an audacious ask."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "AN AI STARTUP IS SPENDING <em>$518B ON SERVERS NEXT YEAR</em>",
+   "AN AI STARTUP LOST $42B, <em>WILL SELL YOU SHARES ANYWAY</em>",
+   "AN AI STARTUP LOST $42B AND <em>NEEDS $518B MORE</em>",
+   "CLAUDE'S MAKER LOST $42B, <em>NOW WANTS YOUR INVESTMENT</em>"
+  ],
+  "scores": [
+   6,
+   9,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] combines absurdity with personal stakes: they lost $42B but still want to sell *you* shares. [2] stacks bigger numbers but 'needs $518B' reads as corporate, while 'sell YOU shares' makes it feel like your problem specifically."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Anthropic",
+  "actor_known": false,
+  "anchor": "an AI startup",
+  "specifics": [
+   "$518 billion in planned spending in a single coming year",
+   "$42 billion net loss in 2025 alone",
+   "Now filing a prospectus to go public \u2014 asking regular investors in",
+   "Claims AI will be more transformative than electricity and industrialization combined"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Anthropic is making a massive bet that AI will transform the global economy more profoundly than industrialization, electricity and the internet, per Reuters. Anthropic reported a net \u200closs of $42 billion in 20",
+  "link": "https://x.com/unusual_whales/status/2104719961344348583",
+  "judge_interest": 8,
+  "scout_score": 90.2
+ },
+ "editor_override": "Cover image fails the archetype and thumb test. Dario Amodei's face is correct cast truth for an Anthropic story, but the image is a plain candid interview photo \u2014 navy suit, coffee mug, fireplace \u2014 with zero Anthropic branding and no story-world props. At feed size a stranger sees 'man smiling at a table'; nothing connects to a $42B loss or an IPO. The required archetype for a company/CEO financi"
+}
