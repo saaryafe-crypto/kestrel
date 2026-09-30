@@ -1,0 +1,14 @@
+Here's what happened in AI in the last 24 hours, from a new GPT-6 Astra agent to Nvidia's $235 billion buyback
+
+OpenAI launched Dots, always-on AI agents powered by GPT-6 Astra, built to handle tasks for you around the clock.
+Nvidia approved a $235 billion stock buyback, the biggest in US history, after adding $150 billion to its existing repurchase program.
+Anthropic has agreements to pay SpaceX up to $84.5 billion for NVIDIA-based computing power through 2029.
+Grok and Gemini now power America.gov, the US government's new AI site where anyone can get answers straight from official sources.
+SpaceX deployed all 26 Starlink V3 satellites, all operating normally.
+One builder launched AI personal agents for WhatsApp and Telegram that learn how you work and handle the heavy lifting for you.
+
+AI just moved in every direction at once. Labs are locking in hundreds of billions in computing deals, a new generation of always-on agents is live today, and AI is now wired into the US government. Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: OpenAI, Anthropic, Nvidia, SpaceX, xAI
+
+#AI #ArtificialIntelligence #Tech #OpenAI #Nvidia
