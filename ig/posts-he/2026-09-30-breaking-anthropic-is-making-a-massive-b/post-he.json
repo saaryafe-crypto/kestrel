@@ -1,0 +1,78 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Anthropic הפסידה 42 מיליארד דולר: <em>עכשיו רוצה את הכסף שלך</em>",
+   "kicker": "518 מיליארד דולר בתשתיות AI בשנה הבאה",
+   "hsize": 78,
+   "media": "faces/dario-amodei-3.jpg"
+  }
+ ],
+ "caption": "Anthropic הפסידה 42 מיליארד דולר ב-2025 ועכשיו מוכרת מניות לציבור.\n\nהחברה שמאחורי Claude חשפה את המספרים האלה כשפתחה את הדלת למשקיעים רגילים. לפי Anthropic, העולם יצטרך 518 מיליארד דולר בתשתיות AI בשנה הבאה בלבד, יותר מהכלכלה של רוב מדינות בעולם. החברה טוענת ש-AI ישנה את הכלכלה העולמית יותר מהחשמל, המהפכה התעשייתית והאינטרנט ביחד. חברה שהפסידה 42 מיליארד דולר בשנה אחת עכשיו מבקשת מהציבור לשלם על זה.\n\nמקורות: unusual_whales on X\n\nעוקבים אחרי @ainews.israel לעוד חדשות AI\n\n#anthropic #ipo #artificialintelligence #aiinvesting #techinvesting",
+ "pinned_comment": "היית משקיע בחברה שהפסידה 42 מיליארד דולר ב-2025? כנראה שכבר אתה מספר לה את הדברים הכי אישיים שלך כל יום.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "CLAUDE'S MAKER LOST $42B, <em>NOW WANTS YOUR INVESTMENT</em>",
+   "AN AI STARTUP LOST <em>$42 BILLION</em> AND WANTS YOUR MONEY",
+   "AN AI STARTUP LOST MORE THAN MOST <em>COUNTRIES' DEFENSE BUDGETS</em>",
+   "AN AI STARTUP IS SPENDING <em>$518 BILLION</em> NEXT YEAR",
+   "<em>THE COMPANY BEHIND CLAUDE</em> LOST $42 BILLION IN 2025"
+  ],
+  "scores": [
+   9,
+   8,
+   7,
+   8,
+   6
+  ],
+  "winner": 0,
+  "why": "[0] combines personal stakes ('your investment'), contradiction (massive loss + asking), and identity (Claude's maker) for maximum impact in 1.7 seconds. [1] has the same story but loses the identity hook, so it registers as generic startup news instead of a recognizable company making an audacious ask."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "AN AI STARTUP IS SPENDING <em>$518B ON SERVERS NEXT YEAR</em>",
+   "AN AI STARTUP LOST $42B, <em>WILL SELL YOU SHARES ANYWAY</em>",
+   "AN AI STARTUP LOST $42B AND <em>NEEDS $518B MORE</em>",
+   "CLAUDE'S MAKER LOST $42B, <em>NOW WANTS YOUR INVESTMENT</em>"
+  ],
+  "scores": [
+   6,
+   9,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] combines absurdity with personal stakes: they lost $42B but still want to sell *you* shares. [2] stacks bigger numbers but 'needs $518B' reads as corporate, while 'sell YOU shares' makes it feel like your problem specifically."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Anthropic",
+  "actor_known": false,
+  "anchor": "an AI startup",
+  "specifics": [
+   "$518 billion in planned spending in a single coming year",
+   "$42 billion net loss in 2025 alone",
+   "Now filing a prospectus to go public — asking regular investors in",
+   "Claims AI will be more transformative than electricity and industrialization combined"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Anthropic is making a massive bet that AI will transform the global economy more profoundly than industrialization, electricity and the internet, per Reuters. Anthropic reported a net ‌loss of $42 billion in 20",
+  "link": "https://x.com/unusual_whales/status/2104719961344348583",
+  "judge_interest": 8,
+  "scout_score": 90.2
+ },
+ "editor_override": "Cover image fails the archetype and thumb test. Dario Amodei's face is correct cast truth for an Anthropic story, but the image is a plain candid interview photo — navy suit, coffee mug, fireplace — with zero Anthropic branding and no story-world props. At feed size a stranger sees 'man smiling at a table'; nothing connects to a $42B loss or an IPO. The required archetype for a company/CEO financi",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

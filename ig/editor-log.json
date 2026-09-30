@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-26T19:47:52Z",
-  "gate": "B",
-  "subject": "AN AI SCAM HIT <em>5.1 MILLION</em> PEOPLE BEFORE ANYONE FLAGGED IT AS FAKE",
-  "verdict": "REJECT",
-  "reason": "Caption contains a ski emoji (🎿) after the opening paragraph — §4 and §7 explicitly ban emojis. Remove it.; Cover image fails the thumb test: a stranger at feed size sees a person trying on ski gear and reads it as a product recommendation — the exact opposite signal of the story. It shows the bait, not the proof. For a 'caught-on-camera' scam story the cover must show the evidence: the community "
- },
- {
   "t": "2026-09-26T19:49:29Z",
   "gate": "B",
   "subject": "AN AI SCAM HIT <em>5.1 MILLION</em> PEOPLE BEFORE ANYONE FLAGGED IT AS FAKE",
@@ -2098,5 +2091,12 @@
   "subject": "SHE POSTED <em>'GOING TO BED'</em> AT 5:35 AM. SHE WASN'T.",
   "verdict": "FAIL",
   "reason": "s1: The background is a well-known internet meme template (the 'I Bet He's Thinking About Other Women' couple-in-bed meme) with its original joke text still partially visible, which reads as a raw screenshot/meme repost rather than professional news photography, failing the photo quality and @technology-level standard entirely."
+ },
+ {
+  "t": "2026-09-30T14:52:35Z",
+  "gate": "A",
+  "subject": "A staged worldwide false-flag cyberattack will be launched by Israel in the near future and they will blame it on AI.",
+  "verdict": "KILL",
+  "reason": "This is a prediction about a future event with no current evidence or consequence—it's speculation, not the news-event this page covers."
  }
 ]
