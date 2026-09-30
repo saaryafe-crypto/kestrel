@@ -1,0 +1,10 @@
+OpenAI just launched always-on AI agents that run your tasks in the background without ever being asked. 🤖
+
+OpenAI launched dots, AI agents powered by GPT-6 Astra that run around the clock without being prompted. They handle your tasks, messages, and decisions in the background while you sleep. The announcement hit 12.6 million views in under a day: more people than live in New York City. OpenAI named its most sweeping, always-on AI 'dots,' the smallest, most dismissible word imaginable for the biggest claim yet. If your job is managing someone else's schedule, inbox, or calls, you now have a permanent competitor that never takes a break.
+
+Until now, every AI waited for you to open it. Dots doesn't. GPT-6 Astra is already two full model generations past what felt futuristic in 2024.
+Running a business? DM us 'AI' and we'll show you what always-on agents could do for yours.
+
+Sources: OpenAI on X
+
+#openai #aiagents #artificialintelligence #technology #futureofwork

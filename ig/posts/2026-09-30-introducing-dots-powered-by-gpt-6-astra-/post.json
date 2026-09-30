@@ -1,0 +1,80 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "OPENAI LAUNCHED AI THAT <em>RUNS YOUR LIFE</em>",
+   "hsize": 78,
+   "kicker": "RUNS 24/7 WITHOUT A SINGLE PROMPT",
+   "media": "posts/2026-09-30-introducing-dots-powered-by-gpt-6-astra-/cand-1.jpg"
+  }
+ ],
+ "caption": "OpenAI just launched always-on AI agents that run your tasks in the background without ever being asked. \ud83e\udd16\n\nOpenAI launched dots, AI agents powered by GPT-6 Astra that run around the clock without being prompted. They handle your tasks, messages, and decisions in the background while you sleep. The announcement hit 12.6 million views in under a day: more people than live in New York City. OpenAI named its most sweeping, always-on AI 'dots,' the smallest, most dismissible word imaginable for the biggest claim yet. If your job is managing someone else's schedule, inbox, or calls, you now have a permanent competitor that never takes a break.\n\nUntil now, every AI waited for you to open it. Dots doesn't. GPT-6 Astra is already two full model generations past what felt futuristic in 2024.\nRunning a business? DM us 'AI' and we'll show you what always-on agents could do for yours.\n\nSources: OpenAI on X\n\n#openai #aiagents #artificialintelligence #technology #futureofwork",
+ "pinned_comment": "Would you actually hand it your calendar and inbox without checking? Most people who said yes to Siri and Alexa still type every message themselves.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "OPENAI'S NEW AGENTS WORK <em>WHILE YOUR EMPLOYEES SLEEP</em>",
+   "OPENAI IS NOW RUNNING AGENTS <em>IN YOUR BACKGROUND</em>",
+   "OPENAI JUST BUILT AGENTS <em>TO HANDLE YOUR ENTIRE LIFE</em>",
+   "OPENAI NAMED ITS MOST POWERFUL AI <em>'DOTS'</em>",
+   "OPENAI JUST RELEASED AI <em>THAT ACTS WITHOUT YOUR PERMISSION</em>",
+   "OPENAI JUST BUILT AI <em>THAT NEVER WAITS TO BE ASKED</em>",
+   "OPENAI JUST TURNED ON AN AI <em>YOU CAN'T TURN OFF</em>",
+   "OPENAI JUST LAUNCHED AI THAT <em>RUNS YOUR LIFE</em>"
+  ],
+  "scores": [
+   6,
+   6,
+   8,
+   0,
+   0,
+   7,
+   0,
+   8
+  ],
+  "winner": 7,
+  "why": "\"Runs your life\" hits harder because it's punchier and more colloquial than \"handle your entire life.\" Active verb plus everyday phrasing beats formal language in a 2am scroll."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "OPENAI'S NEW AI IS RUNNING YOUR LIFE <em>WITHOUT BEING ASKED</em>",
+   "OPENAI JUST GAVE <em>GPT-6 AGENTS</em> CONTROL OF YOUR LIFE",
+   "OPENAI JUST LAUNCHED AI THAT <em>RUNS YOUR LIFE</em>",
+   "OPENAI JUST LAUNCHED AI <em>THAT ACTS WITHOUT ASKING YOU</em>"
+  ],
+  "scores": [
+   8.5,
+   8,
+   4,
+   6.5
+  ],
+  "winner": 0,
+  "why": "'RUNNING YOUR LIFE' in present tense is more immediately shocking than 'GAVE CONTROL,' and 'WITHOUT BEING ASKED' hits the violation harder than technical jargon. [1] has credibility but doesn't create the gut-level alarm of [0]."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "OpenAI",
+  "actor_known": true,
+  "anchor": "OpenAI",
+  "specifics": [
+   "Always-on agents that run 24/7 without being prompted \u2014 built to 'handle everything'",
+   "Powered by GPT-6 Astra \u2014 two full model generations past what felt cutting-edge in 2024",
+   "12.6 million views in under 24 hours",
+   "Product is named 'dots' \u2014 the tiniest name for the most sweeping AI claim yet",
+   "36K likes on the launch post within hours"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (1/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything.",
+  "link": "https://x.com/OpenAI/status/2104984504133918973",
+  "judge_interest": 5,
+  "scout_score": 120.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IMAGE IS A NEAR-BLACK VOID \u2014 the image is an almost entirely dark frame with two indistinct blurry shapes; no subject is identifiable, no OpenAI brand mark, no face, no product visible anywhere. Fails the thumb test completely: a stranger sees nothing at feed size and cannot guess the story. Violates 'Text-on-black or empty-top covers are failures,' the PHOTOREAL ELEMENTS law (nothing reads ",
+ "gate_r": "s1: The background photo is murky and nearly pitch-black with no discernible subject \u2014 it fails the photo quality standard of bright, press-photo energy required for professional news channel presentation."
+}
