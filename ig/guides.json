@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T18:28:36.753050+00:00",
+ "updated": "2026-10-01T20:31:01.155929+00:00",
  "guides": [
   {
    "id": "2096052072470704579",
@@ -492,6 +492,27 @@
    "born": 1789079172.417321
   },
   {
+   "id": "2104454360088326317",
+   "title": "fourth teaching gemini how to kiss will always be the cutest video on earth",
+   "sub": "barthtanrak",
+   "where": "@barthtanrak on X",
+   "unit": "likes",
+   "selftext": "fourth teaching gemini how to kiss will always be the cutest video on earth",
+   "permalink": "https://x.com/barthtanrak/status/2104454360088326317",
+   "outlink": null,
+   "score": 3407,
+   "comments_n": 0,
+   "views": 32772,
+   "age_h": 86.3,
+   "vph": 39.5,
+   "image": "https://pbs.twimg.com/ext_tw_video_thumb/1930681774579109888/pu/img/hcx2_kv-S8On1S3Y.jpg",
+   "images": [],
+   "video": "https://video.twimg.com/ext_tw_video/1930681774579109888/pu/vid/avc1/1024x576/Tp7551IUNjfsGbv0.mp4?tag=12",
+   "guide": true,
+   "wide_guide": true,
+   "born": 1790576129.255289
+  },
+  {
    "id": "2096536467539677533",
    "title": "50 websites that can turn a \u201cquick visit\u201d into hours of exploring \ud83c\udf0d 1.  \u2014 Live satellite views 2.  \u2014 Track planes worldwide 3.  \u2014 Track ships in real time 4.  \u2014 Live weather & storms 5.  \u2014 Live lightning strikes 6.  \u2014 Re",
    "sub": "Orion_Vers7x",
@@ -557,27 +578,6 @@
    "guide": true,
    "wide_guide": true,
    "born": 1789573409.907252
-  },
-  {
-   "id": "2104454360088326317",
-   "title": "fourth teaching gemini how to kiss will always be the cutest video on earth",
-   "sub": "barthtanrak",
-   "where": "@barthtanrak on X",
-   "unit": "likes",
-   "selftext": "fourth teaching gemini how to kiss will always be the cutest video on earth",
-   "permalink": "https://x.com/barthtanrak/status/2104454360088326317",
-   "outlink": null,
-   "score": 2874,
-   "comments_n": 0,
-   "views": 26753,
-   "age_h": 62.1,
-   "vph": 46.2,
-   "image": "https://pbs.twimg.com/ext_tw_video_thumb/1930681774579109888/pu/img/hcx2_kv-S8On1S3Y.jpg",
-   "images": [],
-   "video": "https://video.twimg.com/ext_tw_video/1930681774579109888/pu/vid/avc1/1024x576/Tp7551IUNjfsGbv0.mp4?tag=12",
-   "guide": true,
-   "wide_guide": true,
-   "born": 1790576129.255289
   },
   {
    "id": "2097849953410490529",
@@ -806,6 +806,31 @@
     "Legal stuff: Informational only; not investment advice or recommendation. Trading involves risk of total loss. AI agents may fail. You direct all AI activity and assume full responsibility for your agent's trades and any third-party data use."
    ],
    "born": 1788980770.401757
+  },
+  {
+   "id": "2104957026199900220",
+   "title": "I've spend 10+ hrs perfecting how to get the best out of Opus 5.5 for video generation workflow: - Use it with Claude Code, not the app. - Use OpenRouter API to access all the other models (image gen, video gen, audio ge",
+   "sub": "deedydas",
+   "where": "@deedydas on X",
+   "unit": "likes",
+   "selftext": "I've spend 10+ hrs perfecting how to get the best out of Opus 5.5 for video generation workflow: - Use it with Claude Code, not the app. - Use OpenRouter API to access all the other models (image gen, video gen, audio gen) with one key - Use Gemini 3.8 TTS and make it create a skill from the API to put emotion into the voice. - Use Manim, Hyperframes, Motion Canvas for motion graphics for HTML web grounded video - Use GPT 2.5 Image Sunburst for keyframes and Veo 3.1 / Seedance 2.5 for generation. Seedance does better with motion shots. Ensure you have reference images for consistency and generate an animatic before full video. - Add a script writing planning skill. Use OpenTimelineIO to assemble. - Explicitly tell it to avoid Claudisms like short punchy sentences and a lot of numbers. \u201cNarrate like a university professor.\u201d - Allow it to use yt-dlp with search to inject clips from real videos (creative commons) in composition - Use ElevenLabs for music gen in the background - Add a caption skill which uses any decent ASR model to get word-level timed subtitles on the final video - Add a critic skill which takes screenshots and uses transcription to validation the audio and video quality In the prompt, specify a) what you want b) aspect ratio c) length d) style preferences. ffmpeg handles most of the actual video manipulation tasks. Here's an example of a 4 minute Neocloud business explainer:",
+   "permalink": "https://x.com/deedydas/status/2104957026199900220",
+   "outlink": null,
+   "score": 2025,
+   "comments_n": 154,
+   "views": 140900,
+   "age_h": 53.0,
+   "vph": 38.2,
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2104956923028402176/img/lBEfj6AOLy3EcRSu.jpg",
+   "images": [],
+   "video": "https://video.twimg.com/amplify_video/2104956923028402176/vid/avc1/1920x1080/O8WF2ZwvIyssBAe0.mp4?tag=16",
+   "guide": true,
+   "wide_guide": true,
+   "thread": [
+    "Thread of things generated with this workflow",
+    "GitHub repo explainers with running code walkthrough"
+   ],
+   "born": 1790695861.155929
   },
   {
    "id": "2098071427836490130",
