@@ -1,0 +1,14 @@
+Here's what happened in AI in the last 24 hours, from Google's most powerful model yet to Elon Musk co-leading a military AI project
+
+• Google dropped Gemini 4 Argon today, its most powerful AI yet for coding, enterprise work, and cybersecurity defense, now rolling out to a first wave of trusted testers.
+• Elon Musk showed up at today's State of the Force address. War Secretary Pete Hegseth named him co-leader of Project Meridian, the program shaping how the US military fights with AI.
+• SpaceX says Starship will carry telescopes large enough to change physics research into orbit, and eventually place even bigger ones on the Moon.
+• Figure Robotics trained its F.02 robots to jump on their own, flew them to Finland, and filmed them leaping into molten steel to be melted down.
+• Gemini added Skills, type "/" in the prompt bar, pick a saved instruction, and it runs. Set it once, use it every time.
+• Starlink now covers over 40% of Alaska Airlines' fleet, including every Hawaiian Airlines long-haul plane and the full regional network.
+
+Figure's robots flew to Finland and jumped into molten steel, and Elon Musk is now officially co-leading the US military's AI program. Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: Google DeepMind, US Department of Defense, SpaceX, Figure Robotics, Alaska Air Group
+
+#ArtificialIntelligence #AINews #TechNews #MachineLearning #FutureOfWork

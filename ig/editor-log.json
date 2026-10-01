@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-27T21:04:07Z",
-  "gate": "B",
-  "subject": "TESLA JUST DOUBLED ITS ROBOTAXI FLEET <em>IN FIVE DAYS</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW VIOLATION — SCREENSHOT AS COVER: The cover image is a phone push notification screenshot, which IMAGE LAW §3 bans explicitly and without exception: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' This is the exact failure mode the rule was written for. The cover must be replaced with a photoreal composite — a Cybercab on an Austin road, or a real photo of the vehicle with a floa"
- },
- {
-  "t": "2026-09-27T21:05:45Z",
-  "gate": "A",
-  "subject": "OpenAI and Anthropic are now investigating ***tens of thousands*** of incidents - not dozens. \"The total could grow well",
-  "verdict": "KILL",
-  "reason": "Unattributed quotations and unclear sourcing prevent verification of the core event; story needs official confirmation of the investigations before committing a writer."
- },
- {
-  "t": "2026-09-27T21:06:59Z",
-  "gate": "A",
-  "subject": "More details on the incident behind OpenAI’s pause: a researcher acknowledged the alert within 3 minutes, but the traini",
-  "verdict": "KILL",
-  "reason": "This is explanation of an already-known incident with no documented real-world consequence; scout interest 4/10."
- },
- {
-  "t": "2026-09-27T21:23:30Z",
-  "gate": "B",
-  "subject": "OPENAI HID <em>TENS OF THOUSANDS</em> OF SAFETY BREAKS FROM YOU",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW VIOLATION — CARTOON/ILLUSTRATION COVER: The cover is a hand-drawn cartoon (the 'This Is Fine' dog meme riff) — every element reads as illustration, not photograph. IMAGE LAW is absolute: 'A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT, whatever its concept.' This fails on sight.; IMAGE LAW VIOLATI"
- },
- {
-  "t": "2026-09-27T21:25:05Z",
-  "gate": "B",
-  "subject": "OPENAI HID <em>TENS OF THOUSANDS</em> OF SAFETY BREAKS",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — CARTOON/ILLUSTRATION COVER: The image is a cartoon meme illustration (the 'This is Fine' dog with a green monster), not a photoreal element. IMAGE LAW is absolute: 'every ELEMENT in the frame must read as photographed — real skin, real product, real logo mark, real photo fragments. A frame or any element that reads as illustration, cartoon, game render, or concept art... is a REJECT, w"
- },
- {
   "t": "2026-09-27T21:26:51Z",
   "gate": "A",
   "subject": "This would take Pixar 2 years to make. With AI, it took me 2 hours. Script: Sherpa by Pocket FM Video: Seedance 2.5",
@@ -2096,6 +2061,41 @@
   "t": "2026-10-01T01:20:30Z",
   "gate": "R",
   "subject": "A SHELTER CAT MADE <em>$10,000</em> STARRING IN <em>HIS OWN CALENDAR</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-10-01T07:16:46Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — HARD REJECT: The cover is a dark/black field with abstract orange particle streaks and no real subject. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The particles carry no proof of any story; they are pure decoration and read as a digital graphic, not a photoreal element. Fix: replace with a photoreal c"
+ },
+ {
+  "t": "2026-10-01T07:19:27Z",
+  "gate": "B",
+  "subject": "ELON MUSK NOW CO-LEADS THE US MILITARY'S <em>AI PROGRAM</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — cover is a dark void with abstract orange particles: no subject, no face, no proof of anything. The hook names Elon Musk, one of the world's most recognizable faces, and the story is his appointment to co-lead a military program — the correct archetype is his press photo + a DoD or Project Meridian brand mark, not decorative light rays. The doctrine is explicit: 'The cover must ALWAYS "
+ },
+ {
+  "t": "2026-10-01T07:20:53Z",
+  "gate": "B",
+  "subject": "ELON MUSK NOW CO-LEADS THE US MILITARY'S <em>AI PROGRAM</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — EMPTY-TOP COVER: The cover is a black void with a generic orange particle-burst graphic and no human subject. The doctrine states explicitly 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The particle burst is decoration, not proof. Elon Musk is named in the headline; his face (real press photo or named-direct generation, emotiona"
+ },
+ {
+  "t": "2026-10-01T07:21:45Z",
+  "gate": "B",
+  "subject": "ELON MUSK NOW CO-LEADS THE US MILITARY'S <em>AI PROGRAM</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW FAIL — EMPTY TOP COVER: The cover is text-on-black with an abstract particle burst graphic. IMAGE LAW explicitly states 'Text-on-black or empty-top covers are failures.' There is no photoreal subject, no human face, no product, no brand mark — just decorative light streaks on a black void. The hook names Elon Musk as the story; the cover must show Musk (real photo or named-direct generat"
+ },
+ {
+  "t": "2026-10-01T07:21:52Z",
+  "gate": "R",
+  "subject": "ELON MUSK NOW CO-LEADS THE US MILITARY'S <em>AI PROGRAM</em>",
   "verdict": "PASS",
   "reason": ""
  }
