@@ -1,0 +1,59 @@
+{
+ "image_brief": "SpaceX buying OpenAI's web address and silently redirecting everyone to Grok, with SpaceX and OpenAI logos",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "כתבת OpenAI.com? <em>הגעת ל-Grok</em>",
+   "kicker": "SpaceX קנתה את הכתובת",
+   "hsize": 78,
+   "media": "posts/2026-09-30-lmao-spacex-bought-the-domain-so-every-t/cand-1.webp"
+  }
+ ],
+ "caption": "SpaceX קנתה את OpenAI.com והפנתה את כולם ישר ל-Grok, בלי הודעה.\n\nאם תכתוב עכשיו OpenAI.com בדפדפן, לא תגיע ל-ChatGPT. תגיע ל-Grok של אילון מאסק. זו לא xAI שקנתה את הכתובת, זו SpaceX, חברת הרקטות שלו. כל מי ששמר את הכתובת הזו עבר בשקט ל-Grok בלי לדעת. המלחמה בין מאסק ל-OpenAI עברה מבית המשפט לשורת הכתובת.\n\nמקורות: SawyerMerritt on X\n\nעקבו אחרינו @ainews.israel\n\n#openai #spacex #elonmusk #grok #ai",
+ "pinned_comment": "ביום שבו OpenAI.com הפנה את כולם ל-Grok, OpenAI השיקה מוצר חדש שנקרא dots. תזמון גרוע יותר לא ייתכן.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "<em>SPACEX BOUGHT OPENAI.COM</em> AND POINTED IT TO GROK",
+   "SPACEX NOW OWNS <em>OPENAI.COM</em> AND SENDS YOU TO <em>GROK</em>"
+  ],
+  "scores": [
+   9,
+   8
+  ],
+  "winner": 0,
+  "why": "BOUGHT and POINTED are explosive past-tense verbs that scream 'something wild just happened,' while NOW OWNS and SENDS describe an ongoing state matter-of-factly. The urgency of completed action beats the flatness of present tense every time."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "SpaceX",
+  "actor_known": true,
+  "anchor": "OpenAI",
+  "specifics": [
+   "Type OpenAI.com right now and you get Grok, not ChatGPT — zero warning",
+   "SpaceX, a rocket company, is the entity that bought and controls OpenAI's web address",
+   "The redirect is silent — nothing tells users they've been sent to a competitor",
+   "OpenAI announced GPT-6 Astra-powered agents called 'dots' the same day their domain was hijacked",
+   "466.9K people saw Sawyer Merritt's tweet exposing the redirect"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (0/10)",
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "Lmao. SpaceX bought the  domain, so every time you go there it just sends you to Grok Bot 😂",
+  "link": "https://x.com/SawyerMerritt/status/2105018405778792958",
+  "judge_interest": 6,
+  "scout_score": 61.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IMAGE IS CATASTROPHICALLY WRONG: The attached image shows colorful cartoon squishy toy figures in an egg carton with the text 'PICK THE ONE THAT ACTUALLY WORKS.' — this has zero connection to SpaceX, OpenAI, Elon Musk, Grok, or any element of this story. A stranger looking at this image at feed size would guess this is an AI chatbot comparison guide, not a domain-redirect story. This is not ",
+ "gate_r": "s1: The photo shows toy/clay emoji figurines in an egg carton — a whimsical, cartoonish image with no editorial connection to the SpaceX/OpenAI domain story, failing the emotional-register requirement for a professional tech-news cover.",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
