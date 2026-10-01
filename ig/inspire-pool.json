@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T20:31:01.155929+00:00",
+ "updated": "2026-10-01T23:24:47.704895+00:00",
  "photos": [
   {
    "id": "2097374640582668336",
@@ -114,8 +114,8 @@
    "score": 41995,
    "comments_n": 1868,
    "views": 8127391,
-   "age_h": 24.4,
-   "vph": 1719.7,
+   "age_h": 27.3,
+   "vph": 1538.3,
    "image": "https://pbs.twimg.com/media/HTfV52SWgAIlX3W.png",
    "images": [
     "https://pbs.twimg.com/media/HTfV52SWgAIlX3W.png"
@@ -158,8 +158,8 @@
    "score": 41238,
    "comments_n": 1411,
    "views": 8475234,
-   "age_h": 24.4,
-   "vph": 1689.0,
+   "age_h": 27.3,
+   "vph": 1510.5,
    "image": "https://pbs.twimg.com/media/HTfVJxIWYAAsSgh.jpg",
    "images": [
     "https://pbs.twimg.com/media/HTfVJxIWYAAsSgh.jpg"
@@ -267,8 +267,8 @@
    "score": 24796,
    "comments_n": 599,
    "views": 460766,
-   "age_h": 29.7,
-   "vph": 833.6,
+   "age_h": 32.6,
+   "vph": 760.6,
    "image": "https://pbs.twimg.com/media/HTeNEl5XoAE7-RY.jpg",
    "images": [
     "https://pbs.twimg.com/media/HTeNEl5XoAE7-RY.jpg"
@@ -442,25 +442,6 @@
    "video": null,
    "guide": false,
    "born": 1790608091.555405
-  },
-  {
-   "id": "2094896768525767120",
-   "title": "JUST IN: 'Rich Dad Poor Dad' Robert Kiyosaki is $1,200,000,000 in debt.",
-   "sub": "WatcherGuru",
-   "where": "@WatcherGuru on X",
-   "unit": "likes",
-   "selftext": "JUST IN: 'Rich Dad Poor Dad' Robert Kiyosaki is $1,200,000,000 in debt.",
-   "permalink": "https://x.com/WatcherGuru/status/2094896768525767120",
-   "outlink": null,
-   "score": 16132,
-   "comments_n": 1758,
-   "views": 2314993,
-   "age_h": 33.4,
-   "vph": 483.0,
-   "image": "https://pbs.twimg.com/media/HRKRglTXQAAeZW3.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1788297346.745911
   },
   {
    "id": "2101688915686220254",
@@ -665,8 +646,8 @@
    "score": 11762,
    "comments_n": 345,
    "views": 3214732,
-   "age_h": 25.9,
-   "vph": 454.8,
+   "age_h": 28.8,
+   "vph": 408.4,
    "image": "https://pbs.twimg.com/media/HTfDdtGXcAA4znw.jpg",
    "images": [
     "https://pbs.twimg.com/media/HTfDdtGXcAA4znw.jpg"
@@ -851,6 +832,28 @@
    "video": null,
    "guide": false,
    "born": 1789784810.555256
+  },
+  {
+   "id": "2105504796061167717",
+   "title": "UPDATE: A man used the Pain steering paper to set up an AI torture chamber in which he trapped a local model. People are mass reporting it to GitHub.",
+   "sub": "AISafetyMemes",
+   "where": "@AISafetyMemes on X",
+   "unit": "likes",
+   "selftext": "UPDATE: A man used the Pain steering paper to set up an AI torture chamber in which he trapped a local model. People are mass reporting it to GitHub.",
+   "permalink": "https://x.com/AISafetyMemes/status/2105504796061167717",
+   "outlink": null,
+   "score": 7477,
+   "comments_n": 290,
+   "views": 1253385,
+   "age_h": 19.6,
+   "vph": 381.5,
+   "image": "https://pbs.twimg.com/media/HTg_uPubMAAMskX.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HTg_uPubMAAMskX.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1790826527.704895
   }
  ]
 }
