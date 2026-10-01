@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-28T00:51:57Z",
-  "gate": "B",
-  "subject": "7 <em>GROK</em> FEATURES THAT REPLACE YOUR PAID APPS",
-  "verdict": "REJECT",
-  "reason": "TRUTH — kicker says 'FULL 20-LESSON GUIDE IN CAPTION' but the caption has 7 items, not 20. Fix: change kicker to '7-MOVE GUIDE IN CAPTION' or drop the count entirely.; TEMPLATE-VOICE GATE — items 1, 2, 3, 4, 5 all share the same skeleton: [capability phrase] + [quoted prompt example]. Five of seven items are interchangeable in shape. Fix: vary the item structures — some should lead with the outcom"
- },
- {
   "t": "2026-09-28T00:54:53Z",
   "gate": "B",
   "subject": "7 <em>GROK</em> FEATURES THAT REPLACE YOUR PAID APPS",
@@ -2098,5 +2091,12 @@
   "subject": "SPACEX AI1 SATELLITE <em>OUTPOWERS THE ENTIRE SPACE STATION BY 20%</em>",
   "verdict": "FAIL",
   "reason": "s1: The background is a raw size-comparison infographic from another source used as full-bleed — its own headline ('Starlink Through the Generations') and measurement labels are legible, making it an unframed screenshot of third-party UI/content."
+ },
+ {
+  "t": "2026-10-01T22:21:53Z",
+  "gate": "A",
+  "subject": "The last 20 hours have been insane. Got more hate than most people get in a lifetime. I want to say a few things clearly",
+  "verdict": "KILL",
+  "reason": "Reaction-bait (§1 instant kill): the 'event' is online hate received and a personal response to it; no real-world consequence stated (no product pulled, no ban, no firing), Adam Levi is not a household-name actor, and the precipitating incident is never explained."
  }
 ]

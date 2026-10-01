@@ -1,0 +1,40 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "חמש דקות מול חודש עבודה: <em>האבא התקשר לבן שלו בבכי</em>",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "faces/dario-amodei.jpg"
+  }
+ ],
+ "caption": "אבא לא-טכני עשה בחמש דקות את מה שהעובד שלו עבד עליו חודש, ואז התקשר לבן שלו בבכי.\n\nהכלי נקרא Claude Code. מקלידים משימה בשפה רגילה, והוא מבצע אותה. הכלל: אם משימה בעסק שלך מסתיימת במסמך או בקוד, נסה אותה קודם ב-Claude Code. אם היא נגמרת תוך שעה, לא צריך עובד לזה. רוב העסקים מוצאים שלוש עד חמש משימות כאלה, וגיוס עובד בדרג בינוני עולה בין 80,000 ל-120,000 דולר בשנה.\n\nמקורות: IterIntellectus\n\nעוקבים אחרי @ainews.israel\n\n#ClaudeCode #AIForBusiness #ArtificialIntelligence #BusinessOwner #AIProductivity",
+ "pinned_comment": "איזו משימה בעסק שלך היית מנסה ראשון ב-Claude Code? אם היא מסתיימת במסמך או בקוד, כנראה שהיא על הרשימה.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "A DAD TURNED <em>1 MONTH OF EMPLOYEE WORK</em> INTO 5 MINUTES",
+   "CLAUDE CODE DID <em>A MONTH OF WORK</em> IN 5 MINUTES FLAT",
+   "<em>ONE EMPLOYEE MONTH</em>: 5 MINUTES WITH CLAUDE CODE"
+  ],
+  "scores": [
+   8,
+   7,
+   5
+  ],
+  "winner": 0,
+  "why": "A dad is a relatable subject you get instantly; the clear verb \"turned\" plus the month-to-5-minutes shock makes you stop scrolling. Tool names and abstract phrasing slow you down—this one hits in under 2 seconds."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "COVER IMAGE FAILS IMAGE LAW: The cover is a plain headshot of Dario Amodei against a dark/black void background — no Claude or Anthropic brand mark visible, no product in frame, no story-world context, and no composite elements. The required archetype for a famous-tool CEO in a guide post is 'the person + giant glossy brand mark + the real product,' and house style requires a photoreal COLLAGE (cu",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
