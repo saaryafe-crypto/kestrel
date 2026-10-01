@@ -1,0 +1,52 @@
+{
+ "image_brief": "SpaceX buying OpenAI's web address and silently redirecting everyone to Grok, with SpaceX and OpenAI logos",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>SPACEX BOUGHT OPENAI.COM</em> AND POINTED IT TO GROK",
+   "kicker": "A ROCKET COMPANY DID IT",
+   "hsize": 78,
+   "media": "posts/2026-09-30-lmao-spacex-bought-the-domain-so-every-t/cand-1.webp"
+  }
+ ],
+ "caption": "SpaceX bought OpenAI.com and it now sends you straight to Grok.\n\nIf you type OpenAI.com right now, you don't land on ChatGPT. You land on Grok, Elon Musk's AI, with zero warning. The company that bought the domain wasn't xAI, his AI startup. It was SpaceX, his rocket company. Every person with OpenAI.com bookmarked is silently being handed to a competitor. The Musk vs OpenAI war just moved from the courtroom to the URL bar.\n\nThis is what AI wars look like in 2026. Not just lawsuits and press releases. A rocket company quietly buys your web address and redirects your users, forever, with no announcement.\n\nSources: SawyerMerritt on X\n\n#openai #spacex #elonmusk #grok #ai",
+ "pinned_comment": "OpenAI also launched a new product called 'dots' the same day their web address was sending everyone to Grok. Hard to imagine worse timing for a product launch.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "<em>SPACEX BOUGHT OPENAI.COM</em> AND POINTED IT TO GROK",
+   "SPACEX NOW OWNS <em>OPENAI.COM</em> AND SENDS YOU TO <em>GROK</em>"
+  ],
+  "scores": [
+   9,
+   8
+  ],
+  "winner": 0,
+  "why": "BOUGHT and POINTED are explosive past-tense verbs that scream 'something wild just happened,' while NOW OWNS and SENDS describe an ongoing state matter-of-factly. The urgency of completed action beats the flatness of present tense every time."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "SpaceX",
+  "actor_known": true,
+  "anchor": "OpenAI",
+  "specifics": [
+   "Type OpenAI.com right now and you get Grok, not ChatGPT \u2014 zero warning",
+   "SpaceX, a rocket company, is the entity that bought and controls OpenAI's web address",
+   "The redirect is silent \u2014 nothing tells users they've been sent to a competitor",
+   "OpenAI announced GPT-6 Astra-powered agents called 'dots' the same day their domain was hijacked",
+   "466.9K people saw Sawyer Merritt's tweet exposing the redirect"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (0/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Lmao. SpaceX bought the  domain, so every time you go there it just sends you to Grok Bot \ud83d\ude02",
+  "link": "https://x.com/SawyerMerritt/status/2105018405778792958",
+  "judge_interest": 6,
+  "scout_score": 61.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "COVER IMAGE IS CATASTROPHICALLY WRONG: The attached image shows colorful cartoon squishy toy figures in an egg carton with the text 'PICK THE ONE THAT ACTUALLY WORKS.' \u2014 this has zero connection to SpaceX, OpenAI, Elon Musk, Grok, or any element of this story. A stranger looking at this image at feed size would guess this is an AI chatbot comparison guide, not a domain-redirect story. This is not ",
+ "gate_r": "s1: The photo shows toy/clay emoji figurines in an egg carton \u2014 a whimsical, cartoonish image with no editorial connection to the SpaceX/OpenAI domain story, failing the emotional-register requirement for a professional tech-news cover."
+}
