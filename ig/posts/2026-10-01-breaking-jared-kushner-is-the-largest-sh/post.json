@@ -1,0 +1,72 @@
+{
+ "image_brief": "Gaza negotiation documents and Israeli military equipment investment contracts on a table, representing a conflict of interest between peace and profit",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "JARED KUSHNER PROFITS FROM <em>THE WAR HE IS NEGOTIATING</em>",
+   "kicker": "HE IS THE LARGEST SHAREHOLDER",
+   "hsize": 76,
+   "media": null
+  }
+ ],
+ "caption": "Jared Kushner, the biggest shareholder in an investment firm whose money flows into Israeli military suppliers, is also helping negotiate the Gaza deal. \ud83d\udea8\n\nEveryone assumed the Gaza negotiator had zero financial skin in the game. Kushner is simultaneously the largest shareholder in an Israeli investment firm that backs companies supplying equipment to the Israeli military, and helping shape Gaza's future at the negotiating table. He is not some minor investor. He is the biggest one. A ceasefire could literally cost him money.\n\nKushner made no public disclosure of his financial stake before beginning the Gaza talks. The ceasefire he helped negotiate covers every single person living in Gaza, over two million of them.\n\nRunning a business? DM us 'AI' and we'll show you what this could do for yours.\n\nSources: CNN; unusual_whales on X\n\n#JaredKushner #Gaza #Israel #ConflictOfInterest #Politics",
+ "pinned_comment": "Should Kushner have been anywhere near the Gaza negotiations? The man literally has financial stakes in what happens to Israel's military.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "JARED KUSHNER BROKERS <em>GAZA PEACE</em> AND PROFITS FROM <em>ISRAEL'S WAR</em>",
+   "JARED KUSHNER IS CAUGHT BETWEEN <em>ISRAEL'S WEAPONS</em> AND <em>GAZA'S PEACE</em>",
+   "JARED KUSHNER NEGOTIATES GAZA WHILE <em>PROFITING FROM ISRAELI WEAPONS</em>",
+   "JARED KUSHNER NEGOTIATES GAZA <em>WHILE OWNING ISRAELI MILITARY STAKES</em>"
+  ],
+  "scores": [
+   8,
+   4,
+   7,
+   6
+  ],
+  "winner": 0,
+  "why": "The parallel structure 'BROKERS PEACE AND PROFITS FROM ISRAEL'S WAR' is instantly visceral with opposite stakes that hit as scandal, while 'NEGOTIATES GAZA WHILE PROFITING FROM ISRAELI WEAPONS' reads more linear and less punchy. 'BROKERS' conveys orchestration and intent versus 'NEGOTIATES' passivity\u2014making his conflict feel more intentional and damning."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "JARED KUSHNER EXPOSED AS <em>ISRAEL'S MILITARY INVESTOR</em> WHILE BROKERING GAZA",
+   "JARED KUSHNER IS <em>ISRAEL'S TOP MILITARY INVESTOR</em> BROKERING GAZA",
+   "JARED KUSHNER BROKERS <em>GAZA PEACE</em> AND PROFITS FROM <em>ISRAEL'S WAR</em>",
+   "JARED KUSHNER IS THE PEACE NEGOTIATOR <em>PROFITING FROM THE WAR</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   9,
+   7
+  ],
+  "winner": 2,
+  "why": "[2] shows the conflict instantly\u2014peace vs. profit from war, no inference needed. [0] has 'EXPOSED' as a hook, but you still have to figure out why military investing conflicts with brokering Gaza."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Jared Kushner",
+  "actor_known": true,
+  "anchor": "Jared Kushner",
+  "specifics": [
+   "Kushner is the LARGEST shareholder \u2014 not just an investor, the top one",
+   "He is actively negotiating the Gaza deal at the same time",
+   "The firm he leads invests in Israeli military equipment suppliers",
+   "Reported by CNN on October 1, 2026",
+   "Tweet hit 401K views within hours of posting"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Jared Kushner is the largest shareholder in an Israeli firm investing in companies supplying equipment for the Israeli military. He is also negotiating a deal for Gaza, per CNN",
+  "link": "https://x.com/unusual_whales/status/2105705803088896339",
+  "judge_interest": 4,
+  "scout_score": 105.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "\u00a73 IMAGE LAW \u2014 cover_has_image is false. A single-image post with no image is a text-on-black card, and the doctrine is absolute: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' FIX: generate a Kushner cover using the policy/ban archetype \u2014 a real press photo of Kushner with a visual conflict-of-interest element (e.g., the firm's brand mark + "
+}
