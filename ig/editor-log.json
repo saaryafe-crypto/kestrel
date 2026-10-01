@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-27T21:27:46Z",
-  "gate": "A",
-  "subject": "More details on the incident behind OpenAI’s pause: a researcher acknowledged the alert within 3 minutes, but the traini",
-  "verdict": "KILL",
-  "reason": "Post-mortem technical disclosure; 4/10 scout interest signals it fails the core 'send-to-friend' test that drives algorithm performance."
- },
- {
-  "t": "2026-09-27T21:50:01Z",
-  "gate": "B",
-  "subject": "PIXAR TAKES 2 YEARS. <em>THIS GUY TOOK 2 HOURS.</em>",
-  "verdict": "REJECT",
-  "reason": "Hook states 'PIXAR TAKES 2 YEARS' as fact, but Pixar features take 4–7 years and their shorts take 1–3 years; the caption never establishes the 2-year figure (it uses 'four-year degree' instead). Fix: drop the Pixar timeline number entirely — rewrite as 'PIXAR SPENDS YEARS. HE SPENT 2 HOURS.' or anchor on the degree comparison the caption actually makes.; Emoji 🎬 in caption line 1 violates §4's ha"
- },
- {
-  "t": "2026-09-27T21:51:49Z",
-  "gate": "B",
-  "subject": "PIXAR SPENDS YEARS. <em>HE SPENT 2 HOURS.</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — CARTOON RENDER ON COVER: The cover image is a 3D animated CGI koala character. It does not read as photographed — it reads as a game render or animation render. IMAGE LAW is unambiguous: 'A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT.' The koala is not on a depicted screen; it fills the whole f"
- },
- {
   "t": "2026-09-27T21:52:51Z",
   "gate": "R",
   "subject": "PIXAR SPENDS YEARS. <em>HE SPENT 2 HOURS.</em>",
@@ -2098,5 +2077,26 @@
   "subject": "The last 20 hours have been insane. Got more hate than most people get in a lifetime. I want to say a few things clearly",
   "verdict": "KILL",
   "reason": "This is reaction-bait: an online pile-on with no real-world consequence (no account ban, lawsuit filed, product pulled, or dismissal), exactly matching the Queen Elizabeth and Mario Lopez failures the doctrine cites as the page's two worst posts."
+ },
+ {
+  "t": "2026-10-01T19:07:47Z",
+  "gate": "B",
+  "subject": "A DAD TURNED <em>1 MONTH OF EMPLOYEE WORK</em> INTO 5 MINUTES",
+  "verdict": "REJECT",
+  "reason": "HUMAN VOICE LAW §7 — emoji in caption body: '🤯' after the opening paragraph is explicitly banned ('no emojis'). Fix: delete the emoji.; TRUTH LAW §5 — fabricated numbers: '...you found a $5,000 monthly payroll swap' (item 2) and 'That is $80K to $120K per year' (item 3) are specific dollar figures stated as facts but not drawn from the IterIntellectus source event — they are the writer's invention"
+ },
+ {
+  "t": "2026-10-01T19:10:00Z",
+  "gate": "B",
+  "subject": "A DAD TURNED <em>1 MONTH OF EMPLOYEE WORK</em> INTO 5 MINUTES",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS IMAGE LAW: The cover is a plain headshot of Dario Amodei against a dark/black void background — no Claude or Anthropic brand mark visible, no product in frame, no story-world context, and no composite elements. The required archetype for a famous-tool CEO in a guide post is 'the person + giant glossy brand mark + the real product,' and house style requires a photoreal COLLAGE (cu"
+ },
+ {
+  "t": "2026-10-01T19:10:08Z",
+  "gate": "R",
+  "subject": "A DAD TURNED <em>1 MONTH OF EMPLOYEE WORK</em> INTO 5 MINUTES",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

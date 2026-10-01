@@ -1,0 +1,33 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A DAD TURNED <em>1 MONTH OF EMPLOYEE WORK</em> INTO 5 MINUTES",
+   "hsize": 72,
+   "face": "Dario Amodei",
+   "media": "faces/dario-amodei.jpg"
+  }
+ ],
+ "caption": "A non-technical dad tried Claude Code for the first time. His employee's month of work took him five minutes. He called his son crying.\n\nTHE 5-MINUTE EMPLOYEE RULE.\n\nHe used Claude Code, an AI tool that takes a plain-English task description and executes it.\n\n1. MAP IT. Monthly tasks that end in a document or code. Write three. Those are your Claude Code targets.\n\n2. TEST IT. Describe one to Claude Code in plain English. Finishes in under an hour? You found a task that belongs to Claude Code, not your payroll.\n\n3. HOLD THE HIRE. Run it through Claude Code for a week before headcount approval. Two passes, skip the hire. That is roughly one mid-level hire, $80K, $120K a year, depending on your market.\n\nSAVE THIS: the 5-minute employee rule.\n\nWhen a first-time user outperforms a month of employee work in five minutes, every founder asks the same question: which tasks in my payroll are actually Claude Code sessions? Most businesses have three to five. Running a business? DM us 'AI' and we'll find yours.\n\nSources: IterIntellectus\n\n#ClaudeCode #AIForBusiness #ArtificialIntelligence #BusinessOwner #AIProductivity",
+ "pinned_comment": "Which task in your business would you run through Claude Code first? If it ends in a document or code, it is almost certainly a candidate.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "A DAD TURNED <em>1 MONTH OF EMPLOYEE WORK</em> INTO 5 MINUTES",
+   "CLAUDE CODE DID <em>A MONTH OF WORK</em> IN 5 MINUTES FLAT",
+   "<em>ONE EMPLOYEE MONTH</em>: 5 MINUTES WITH CLAUDE CODE"
+  ],
+  "scores": [
+   8,
+   7,
+   5
+  ],
+  "winner": 0,
+  "why": "A dad is a relatable subject you get instantly; the clear verb \"turned\" plus the month-to-5-minutes shock makes you stop scrolling. Tool names and abstract phrasing slow you down\u2014this one hits in under 2 seconds."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "COVER IMAGE FAILS IMAGE LAW: The cover is a plain headshot of Dario Amodei against a dark/black void background \u2014 no Claude or Anthropic brand mark visible, no product in frame, no story-world context, and no composite elements. The required archetype for a famous-tool CEO in a guide post is 'the person + giant glossy brand mark + the real product,' and house style requires a photoreal COLLAGE (cu"
+}
