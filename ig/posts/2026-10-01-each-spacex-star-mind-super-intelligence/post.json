@@ -1,0 +1,91 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SPACEX AI1 SATELLITE <em>OUTPOWERS THE ENTIRE SPACE STATION BY 20%</em>",
+   "kicker": "BIGGER THAN A BOEING 747",
+   "hsize": 78,
+   "hook_candidates": [
+    {
+     "headline": "SPACEX'S SATELLITE <em>OUTPOWERS THE ENTIRE SPACE STATION</em>"
+    },
+    {
+     "headline": "SPACEX JUST PUT <em>AN AI SUPERCOMPUTER IN ORBIT</em>"
+    },
+    {
+     "headline": "SPACEX JUST MOVED <em>AI ABOVE ANY GOVERNMENT'S REACH</em>"
+    },
+    {
+     "headline": "SPACEX BUILT AN AI SATELLITE <em>BIGGER THAN A 747</em>"
+    },
+    {
+     "headline": "ONE SPACEX SATELLITE <em>NOW BEATS THE ENTIRE SPACE STATION</em>"
+    }
+   ],
+   "media": "posts/2026-10-01-each-spacex-star-mind-super-intelligence/cand-1.webp"
+  }
+ ],
+ "caption": "Each SpaceX AI1 satellite will outpower the entire International Space Station, and there's a fleet of them coming.\n\nSpaceX's AI1 satellites will each generate over 250kW of solar power, 20% more than the entire ISS, which took 16 countries and 30 years to build. These aren't communication satellites. They're orbital AI supercomputers. The newest one is 75 meters wide, bigger than a 747. The AI that might replace your job is being sent to orbit.\n\nAI computing has moved from data centers to orbit. SpaceX owns the rockets, the satellites, and now the AI fleet, putting a computing network no single country can shut down beyond any government's reach.\n\nRunning a business? DM us \"AI\" and we'll show you what this shift means for you.\n\nSources: Elon Musk on X\n\n#SpaceX #AI #Starlink #Space #Technology",
+ "pinned_comment": "The ISS took 16 countries and 30 years to build. One routine SpaceX satellite will outpower it by 20%. Should one person own that much infrastructure?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX JUST OUTPOWERED THE ENTIRE ISS WITH <em>ONE SATELLITE</em>",
+   "SPACEX IS SENDING THE AI REPLACING <em>YOUR JOB</em> TO SPACE",
+   "SPACEX SATELLITES GREW <em>7X BIGGER</em> IN JUST FIVE YEARS",
+   "SPACEX IS PUTTING AI IN ORBIT <em>BEYOND ANY GOVERNMENT</em>",
+   "SPACEX JUST LAUNCHED <em>THE FIRST AI SUPERCOMPUTER</em> IN ORBIT"
+  ],
+  "scores": [
+   0,
+   0,
+   7,
+   0,
+   0
+  ],
+  "winner": 2,
+  "why": "[2] wins because it's true and instantly grabs you\u20147x growth in 5 years tells the whole story. [0] would hit harder but falsely claims past action for something facts say will happen, which kills credibility."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX JUST LAUNCHED <em>THE FIRST AI SUPERCOMPUTER IN ORBIT</em>",
+   "ONE SPACEX SATELLITE NOW OUTPOWERS <em>THE ENTIRE SPACE STATION</em>",
+   "SPACEX SATELLITES GREW <em>7X BIGGER</em> IN JUST FIVE YEARS",
+   "SPACEX JUST PUT AN AI SUPERCOMPUTER <em>BEYOND ANY GOVERNMENT'S REACH</em>"
+  ],
+  "scores": [
+   4,
+   0,
+   8,
+   0
+  ],
+  "winner": 2,
+  "why": "[2] delivers a shocking concrete number (7x!) that tells the wild story immediately; [0] sounds professional but hides what happened\u2014requires reading the caption to understand why it matters."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SpaceX",
+  "actor_known": true,
+  "anchor": "SpaceX",
+  "specifics": [
+   "A single SpaceX satellite will outpower the entire International Space Station",
+   "250kW of solar power per spacecraft \u2014 20% more than the ISS",
+   "SpaceX satellites grew from 11 meters to 75 meters wingspan in ~5 years",
+   "The satellites are called 'Star Mind' and are classified as AI supercomputers in orbit",
+   "Elon Musk's announcement got 9.8 million views in under 24 hours"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (2/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Each @SpaceX Star Mind super intelligence spacecraft will have over 250kW of solar power, which is about 20% more than the International Space Station",
+  "link": "https://x.com/elonmusk/status/2105718806769512812",
+  "judge_interest": 6,
+  "scout_score": 135.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE LAW \u2014 COVER IS AN INFOGRAPHIC, NOT PHOTOREAL: The cover is a SpaceX promotional size-comparison chart ('Starlink Through the Generations') \u2014 every element (satellite renders, dimension labels, dark gradient background) reads as computer-generated illustration, not photographed. \u00a73 requires every element to read as photographed. Fix: replace with a photoreal composite \u2014 the AI1 satellite rend",
+ "gate_r": "s1: The background is a raw size-comparison infographic from another source used as full-bleed \u2014 its own headline ('Starlink Through the Generations') and measurement labels are legible, making it an unframed screenshot of third-party UI/content."
+}
