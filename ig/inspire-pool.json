@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T14:28:17.048590+00:00",
+ "updated": "2026-10-01T16:28:31.625407+00:00",
  "photos": [
   {
    "id": "2097374640582668336",
@@ -136,8 +136,8 @@
    "score": 40730,
    "comments_n": 1762,
    "views": 7247508,
-   "age_h": 18.4,
-   "vph": 2213.6,
+   "age_h": 20.4,
+   "vph": 1996.6,
    "image": "https://pbs.twimg.com/media/HTfV52SWgAIlX3W.png",
    "images": [
     "https://pbs.twimg.com/media/HTfV52SWgAIlX3W.png"
@@ -158,8 +158,8 @@
    "score": 37763,
    "comments_n": 1256,
    "views": 6841268,
-   "age_h": 18.4,
-   "vph": 2052.3,
+   "age_h": 20.4,
+   "vph": 1851.1,
    "image": "https://pbs.twimg.com/media/HTfVJxIWYAAsSgh.jpg",
    "images": [
     "https://pbs.twimg.com/media/HTfVJxIWYAAsSgh.jpg"
@@ -256,25 +256,6 @@
    "born": 1790040417.907125
   },
   {
-   "id": "2094803511875907849",
-   "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Bank of America Vice President Erin Piacenti killed in Times Square stabbing.",
-   "sub": "WatcherGuru",
-   "where": "@WatcherGuru on X",
-   "unit": "likes",
-   "selftext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Bank of America Vice President Erin Piacenti killed in Times Square stabbing.",
-   "permalink": "https://x.com/WatcherGuru/status/2094803511875907849",
-   "outlink": null,
-   "score": 28456,
-   "comments_n": 1423,
-   "views": 14374028,
-   "age_h": 35.6,
-   "vph": 799.3,
-   "image": "https://pbs.twimg.com/media/HRI8sCzaoAApDQ6.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1788275026.745911
-  },
-  {
    "id": "2097187107651649543",
    "title": "Say hi to Elasmotherium, the giant rhinoceros known as the \u2018Siberian unicorn,\u2019 which survived until at least 39,000 years ago\u201d",
    "sub": "AMAZlNGNATURE",
@@ -305,8 +286,8 @@
    "score": 23527,
    "comments_n": 580,
    "views": 428872,
-   "age_h": 23.7,
-   "vph": 992.7,
+   "age_h": 25.7,
+   "vph": 915.4,
    "image": "https://pbs.twimg.com/media/HTeNEl5XoAE7-RY.jpg",
    "images": [
     "https://pbs.twimg.com/media/HTeNEl5XoAE7-RY.jpg"
@@ -848,6 +829,28 @@
    "video": null,
    "guide": false,
    "born": 1789784810.555256
+  },
+  {
+   "id": "2105327662205972658",
+   "title": "Zero AI was used to create Gregory's calendar. Each image is from real astrophotos I took and composited together. I wanted each page to be a unique work of cosmic art, and poured my soul into each one. I hope each month",
+   "sub": "AJamesMcCarthy",
+   "where": "@AJamesMcCarthy on X",
+   "unit": "likes",
+   "selftext": "Zero AI was used to create Gregory's calendar. Each image is from real astrophotos I took and composited together. I wanted each page to be a unique work of cosmic art, and poured my soul into each one. I hope each month makes you smile!",
+   "permalink": "https://x.com/AJamesMcCarthy/status/2105327662205972658",
+   "outlink": null,
+   "score": 6602,
+   "comments_n": 102,
+   "views": 74188,
+   "age_h": 24.4,
+   "vph": 270.6,
+   "image": "https://pbs.twimg.com/media/HTefro5bEAAqX9h.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HTefro5bEAAqX9h.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1790784271.625407
   }
  ]
 }
