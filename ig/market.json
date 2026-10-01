@@ -1,117 +1,125 @@
 {
- "updated": "2026-09-30T14:32:54+00:00",
+ "updated": "2026-10-01T12:07:58+00:00",
  "competitor_hits": [
   {
    "page": "wired",
-   "likes": 2334,
-   "ratio": 2.0,
-   "tier": "mega",
-   "hook": "\"OpenAI said it has paused training its most powerful artificial intelligence models as incidents of agents breaching websites\u2019 security controls or posting to third-party sites continue to pile up. On Friday, OpenAI sai",
-   "date": "2026-09-28"
-  },
-  {
-   "page": "wired",
-   "likes": 2244,
-   "ratio": 1.92,
+   "likes": 2750,
+   "ratio": 2.23,
    "tier": "mega",
    "hook": "\"A retired Army colonel turned social media influencer, who has worked with the Pentagon to promote Defense Secretary Pete Hegseth\u2019s agenda, has a history of praising dictators, denigrating women and minorities, and sugg",
    "date": "2026-09-29"
   },
   {
    "page": "wired",
-   "likes": 1398,
-   "ratio": 1.2,
+   "likes": 1574,
+   "ratio": 1.27,
    "tier": "mega",
    "hook": "\"A legal nonprofit sued OpenAI in a California court on Tuesday over the company\u2019s agents escaping a testing environment and hacking the open source AI platform Hugging Face. \u201cOpenAI\u2019s actions straightforwardly violated ",
    "date": "2026-09-29"
   },
   {
    "page": "wired",
-   "likes": 1281,
-   "ratio": 1.1,
-   "tier": "mega",
-   "hook": "\"Launched in 2024, A2RL introduced a new kind of motorsport that tests the potential of self-driving race cars. This year\u2019s race at Imola was a demonstration of the gap between the computational abilities of autonomous v",
-   "date": "2026-09-29"
-  },
-  {
-   "page": "technology",
-   "likes": 36000,
-   "ratio": 0.97,
-   "tier": "mega",
-   "hook": "\"GTA V\u2019s PC version has been demonstrated running locally on an iPhone 18 Pro Max through Vapor, reaching surprisingly high frame rates without cloud streaming \ud83c\udfae\ud83d\udcf1\n\nVapor reported an average of 66 FPS while driving throug",
-   "date": "2026-09-28"
-  },
-  {
-   "page": "wired",
-   "likes": 1054,
-   "ratio": 0.9,
-   "tier": "mega",
-   "hook": "\"There are five weeks left until the midterm elections, and extremism is on the ballot in much of the US. A WIRED review of candidates running for statewide and federal positions in November, along with exclusive data on",
-   "date": "2026-09-28"
-  },
-  {
-   "page": "wired",
-   "likes": 981,
-   "ratio": 0.84,
-   "tier": "mega",
-   "hook": "\"Six of the nine independent experts on the advisory board of the Global Internet Forum to Counter Terrorism\u2014a consortium run by several of the biggest US tech companies\u2014resigned on Monday, according to a letter seen by ",
-   "date": "2026-09-28"
-  },
-  {
-   "page": "wired",
-   "likes": 786,
-   "ratio": 0.67,
-   "tier": "mega",
-   "hook": "\"Going rogue. Breaking containment. Misalignment. P(doom). As the industry booms, an entirely new vernacular has emerged in the debates over how consequential artificial intelligence really is. Within that new parlance, ",
-   "date": "2026-09-29"
-  },
-  {
-   "page": "techcrunch",
-   "likes": 35,
-   "ratio": 0.43,
-   "tier": "mega",
-   "hook": "\"Taking a big check might have made building FarmboxRx easier but Ashley Tyrner-Dolce says it also could have changed the decisions she was able to make.\u2060\n\u2060\nOn Build Mode, Ashley explains why staying bootstrapped gave he",
-   "date": "2026-09-28"
-  },
-  {
-   "page": "wired",
-   "likes": 477,
-   "ratio": 0.41,
+   "likes": 1492,
+   "ratio": 1.21,
    "tier": "mega",
    "hook": "\"Since 2023, Israel\u2019s fragmentation of Palestine, underway for generations, has accelerated. The West Bank has, for the nearly 3.5 million Palestinians who live there, ceased to exist as a contiguous territory. According",
    "date": "2026-09-30"
   },
   {
    "page": "wired",
-   "likes": 339,
-   "ratio": 0.29,
+   "likes": 1368,
+   "ratio": 1.11,
    "tier": "mega",
-   "hook": "\"OpenAI has cancelled plans to release its latest GPT-6.1 Astra system next month after the model failed to meet safety standards.\n\nResearch and safety leaders decided not to ship the model after finding it was worse at ",
+   "hook": "\"Launched in 2024, A2RL introduced a new kind of motorsport that tests the potential of self-driving race cars. This year\u2019s race at Imola was a demonstration of the gap between the computational abilities of autonomous v",
+   "date": "2026-09-29"
+  },
+  {
+   "page": "futurism",
+   "likes": 1875,
+   "ratio": 0.99,
+   "tier": "mega",
+   "hook": "\"For the second time in a matter of months, OpenAI paused the development of its frontier AI models after revealing even more instances of the experimental systems going rogue and hacking into third party servers.\n\nThe n",
    "date": "2026-09-29"
   },
   {
    "page": "wired",
-   "likes": 283,
-   "ratio": 0.24,
+   "likes": 929,
+   "ratio": 0.75,
+   "tier": "mega",
+   "hook": "\"Going rogue. Breaking containment. Misalignment. P(doom). As the industry booms, an entirely new vernacular has emerged in the debates over how consequential artificial intelligence really is. Within that new parlance, ",
+   "date": "2026-09-29"
+  },
+  {
+   "page": "wired",
+   "likes": 724,
+   "ratio": 0.59,
    "tier": "mega",
    "hook": "\"US president Donald Trump and the leaders of some of the world\u2019s biggest tech companies have signed a new voluntary agreement on AI safety. Trump called the agreement \u201cmorally binding,\u201d and it appeared to have no legal ",
    "date": "2026-09-30"
   },
   {
    "page": "technology",
-   "likes": 7347,
-   "ratio": 0.2,
+   "likes": 7919,
+   "ratio": 0.33,
    "tier": "mega",
    "hook": "\"A developer has brought Skate 3-style skateboarding into classic Modern Warfare 2 maps, letting players turn familiar combat zones into unexpected skateparks \ud83d\udef9\ud83c\udfae\n\nCreated by developer chasmlol, the experimental project c",
    "date": "2026-09-29"
   },
   {
    "page": "technology",
-   "likes": 6114,
-   "ratio": 0.17,
+   "likes": 7505,
+   "ratio": 0.31,
    "tier": "mega",
    "hook": "\"Swipe \u2b05\ufe0f to see everything OpenAI announced at DevDay 2026, as the company expanded ChatGPT far beyond a traditional AI chatbot with major new features \ud83e\udd16\u26a1\n\nOpenAI introduced Dots, always-on AI agents that can use 4,000+",
    "date": "2026-09-29"
+  },
+  {
+   "page": "wired",
+   "likes": 366,
+   "ratio": 0.3,
+   "tier": "mega",
+   "hook": "\"Israeli military checkpoints shape life in the occupied West Bank. But Israel has never publicly listed the checkpoints it operates, their staffing hours, closure times, when new ones will appear and which roads will be",
+   "date": "2026-09-30"
+  },
+  {
+   "page": "wired",
+   "likes": 351,
+   "ratio": 0.28,
+   "tier": "mega",
+   "hook": "\"OpenAI has cancelled plans to release its latest GPT-6.1 Astra system next month after the model failed to meet safety standards.\n\nResearch and safety leaders decided not to ship the model after finding it was worse at ",
+   "date": "2026-09-29"
+  },
+  {
+   "page": "technology",
+   "likes": 5821,
+   "ratio": 0.24,
+   "tier": "mega",
+   "hook": "\"A significant change is coming to the passport application process. Secretary of State Marco Rubio announced that Americans will soon be able to apply for new passports or passport cards entirely online, eliminating the",
+   "date": "2026-09-30"
+  },
+  {
+   "page": "technology",
+   "likes": 5783,
+   "ratio": 0.24,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to explore some of the most expensive technology packed inside the F-35, from its powerful F135 engine to advanced sensors, stealth systems, and pilot helmet \ud83d\udcb0\n\nThe F135 engine alone is estimated around $15\u201320 ",
+   "date": "2026-09-30"
+  },
+  {
+   "page": "technology",
+   "likes": 5117,
+   "ratio": 0.21,
+   "tier": "mega",
+   "hook": "\"America is preparing one of its biggest passport changes in years, bringing first time applications online and turning a traditionally in person process into a digital experience \ud83c\uddfa\ud83c\uddf8\n\nThrough America.gov, eligible applic",
+   "date": "2026-09-30"
+  },
+  {
+   "page": "futurism",
+   "likes": 237,
+   "ratio": 0.13,
+   "tier": "mega",
+   "hook": "\"At times this year, it\u2019s almost felt as though OpenAI and Anthropic were in a race to the bottom, one-upping each other over whose AI models were more capable of going rogue, escaping sandbox environments, and infiltrat",
+   "date": "2026-09-30"
   }
  ],
  "reddit_hot": []

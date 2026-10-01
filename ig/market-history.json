@@ -1,53 +1,8 @@
 [
  {
-  "page": "wired",
-  "hook": "\"The new WIRED app is here! Whether you're a reader, viewer, or listener, the app is the best way to experience WIRED. Here\u2019s what you can expect:\n\n\u2022 Make WIRED yours with a personalized Daily Digest built around the top",
-  "date": "2026-09-16"
- },
- {
-  "page": "wired",
-  "hook": "\"Sam Altman said people are right to worry about AI companies and their models becoming too powerful, after a week in which AI leaders called for an industry-wide slowdown and the potential dangers of unregulated AI beca",
-  "date": "2026-09-16"
- },
- {
-  "page": "futurism",
-  "hook": "\"AI is supposedly going to kill us all, but at least it\u2019s doing wonders for the stocks for a few multibillion-dollar companies.\n\nMounting fears over the technology\u2019s existential risks reached a fever pitch over the weeke",
-  "date": "2026-09-16"
- },
- {
-  "page": "wired",
-  "hook": "\"Join WIRED in San Francisco on October 8 for a live-audience recording of the \u201cUncanny Valley\u201d podcast featuring a special conversation between Paulina Borsook, tech journalist and former WIRED writer, and WIRED global ",
-  "date": "2026-09-16"
- },
- {
-  "page": "wired",
-  "hook": "\"Fast-casual burrito chain Chipotle is working with the data infrastructure giant Palantir.\n\nThe company is working on a \u201cfood safety risk platform\u201d hosted on Palantir\u2019s flagship software platform Foundry, according to s",
-  "date": "2026-09-16"
- },
- {
-  "page": "wired",
-  "hook": "\"Hackers ripped down a Flock camera above a roadway, made a near-complete copy of the data stored inside it, revealing in new detail how exactly Flock Safety\u2019s cameras track the movements of both vehicles and people. The",
-  "date": "2026-09-16"
- },
- {
   "page": "technology",
   "hook": "\"I, Robot imagined a world where intelligent machines could think, act and make decisions around humans, a question that now feels far more relevant. \n\nToday\u2019s AI can generate code, images, video, voices and text, while ",
   "date": "2026-09-18"
- },
- {
-  "page": "technology",
-  "hook": "\"Pok\u00e9mon has transformed the Las Vegas Sphere into a giant Pok\u00e9mon Sleep experience, bringing some of its most recognizable characters across the massive Exosphere \u26a1\ufe0f\n\nThe animation turns the building into a giant Pok\u00e9 B",
-  "date": "2026-09-16"
- },
- {
-  "page": "technology",
-  "hook": "\"Max Verstappen took on 100 drivers at Silverstone in a wild karting challenge, starting dead last with one goal: overtake the entire field \ud83c\udfce\ufe0f\ud83d\udd25\n\nThe 4-time F1 world champion started 101st and was given a maximum of 30 la",
-  "date": "2026-09-16"
- },
- {
-  "page": "technology",
-  "hook": "\"Swipe \u2b05\ufe0f to discover 10 surprisingly useful websites from the older internet era that can still solve everyday problems without another subscription or complicated app \ud83c\udf10\n\nSome of these projects have existed since the la",
-  "date": "2026-09-16"
  },
  {
   "page": "technology",
@@ -55,24 +10,9 @@
   "date": "2026-09-17"
  },
  {
-  "page": "technology",
-  "hook": "\"We used to buy technology. Now we\u2019re increasingly paying just to access it \ud83d\udcb3\ud83d\udd12\n\nCloud storage replaced memory cards. Streaming replaced DVDs. Software and digital purchases can now depend on subscriptions, licenses, and ",
-  "date": "2026-09-16"
- },
- {
   "page": "futurism",
   "hook": "\"As the USA\u2019s war with Iran shows no signs of letting up, strikes on data centers are putting not just human lives in peril, but even customer data.\n\nAccording to an Amazon Web Services update published Tuesday, Iranian ",
   "date": "2026-09-17"
- },
- {
-  "page": "mashable",
-  "hook": "\"Taking leave from work for significant video game releases is a time-honoured tradition. Unsurprisingly, the highly anticipated launch of Grand Theft Auto VI (GTA 6) has fans eagerly planning to request time off to play",
-  "date": "2026-09-16"
- },
- {
-  "page": "mashable",
-  "hook": "\"No, these videos aren\u2019t aliens; they\u2019re teeny, tiny videos that capture the microscopic life in our world. \u2060\n\u2060\nThe Nikon Small World in Motion competition, now in its 16th year, lets people submit movies and timelapse p",
-  "date": "2026-09-16"
  },
  {
   "page": "techcrunch",
@@ -678,5 +618,35 @@
   "page": "wired",
   "hook": "\"Launched in 2024, A2RL introduced a new kind of motorsport that tests the potential of self-driving race cars. This year\u2019s race at Imola was a demonstration of the gap between the computational abilities of autonomous v",
   "date": "2026-09-29"
+ },
+ {
+  "page": "technology",
+  "hook": "\"A significant change is coming to the passport application process. Secretary of State Marco Rubio announced that Americans will soon be able to apply for new passports or passport cards entirely online, eliminating the",
+  "date": "2026-09-30"
+ },
+ {
+  "page": "technology",
+  "hook": "\"Swipe \u2b05\ufe0f to explore some of the most expensive technology packed inside the F-35, from its powerful F135 engine to advanced sensors, stealth systems, and pilot helmet \ud83d\udcb0\n\nThe F135 engine alone is estimated around $15\u201320 ",
+  "date": "2026-09-30"
+ },
+ {
+  "page": "technology",
+  "hook": "\"America is preparing one of its biggest passport changes in years, bringing first time applications online and turning a traditionally in person process into a digital experience \ud83c\uddfa\ud83c\uddf8\n\nThrough America.gov, eligible applic",
+  "date": "2026-09-30"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"At times this year, it\u2019s almost felt as though OpenAI and Anthropic were in a race to the bottom, one-upping each other over whose AI models were more capable of going rogue, escaping sandbox environments, and infiltrat",
+  "date": "2026-09-30"
+ },
+ {
+  "page": "futurism",
+  "hook": "\"For the second time in a matter of months, OpenAI paused the development of its frontier AI models after revealing even more instances of the experimental systems going rogue and hacking into third party servers.\n\nThe n",
+  "date": "2026-09-29"
+ },
+ {
+  "page": "wired",
+  "hook": "\"Israeli military checkpoints shape life in the occupied West Bank. But Israel has never publicly listed the checkpoints it operates, their staffing hours, closure times, when new ones will appear and which roads will be",
+  "date": "2026-09-30"
  }
 ]
