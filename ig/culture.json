@@ -1,60 +1,71 @@
 {
- "ts": 1790724148.3129034,
- "updated": "2026-09-29",
+ "ts": 1790814790.6209974,
+ "updated": "2026-10-01",
  "hot": [
   {
-   "name": "Alan Ritchson",
-   "why_hot_now": "Reacher Season 4 just wrapped on Prime Video as the world's #1 series, logging 66 million global viewers and earning an immediate Season 6 renewal announced this week.",
-   "typical_scene": "towering over suspects in a rain-soaked urban alley"
+   "name": "Florence Pugh",
+   "why_hot_now": "East of Eden, her Netflix epic, drops all 7 episodes today, October 1.",
+   "typical_scene": "windswept in a sun-bleached Salinas Valley field, staring down the camera"
   },
   {
-   "name": "Karol G",
-   "why_hot_now": "'BbY WOW' is sitting at #1 on the Billboard Global 200 and Spotify Weekly for three consecutive weeks.",
-   "typical_scene": "center stage in a glittering bodysuit with confetti raining down"
+   "name": "Sabrina Carpenter",
+   "why_hot_now": "Still the Gen Z era-defining pop act of 2026 post-Coachella headline, 'House Tour' on every playlist.",
+   "typical_scene": "vintage-glam silhouette performing on a festival mega-stage"
   },
   {
-   "name": "Ella Langley",
-   "why_hot_now": "'Choosin' Texas' just broke the all-time Billboard Hot 100 record with 23 weeks at number one.",
-   "typical_scene": "performing on a flatbed truck under open Texas night skies"
+   "name": "Glen Powell",
+   "why_hot_now": "His presidential-looking GQ photoshoot spawned the exploding 'John Politics' meme this week.",
+   "typical_scene": "navy suit in front of an American flag, looking accidentally electable"
   },
   {
-   "name": "Taylor Swift",
-   "why_hot_now": "Took home the inaugural VMA Artist Director Honors award at the 2026 MTV VMAs this month.",
-   "typical_scene": "clutching a moonperson trophy in a floor-length sequined gown"
+   "name": "Ayo Edebiri",
+   "why_hot_now": "Gen Z's reigning it-girl, ongoing Emmy buzz and The Bear still the dominant prestige-TV obsession.",
+   "typical_scene": "deadpan face holding a restaurant order ticket, looking done with it"
   },
   {
-   "name": "Morgan Wallen",
-   "why_hot_now": "Dominating U.S. streaming charts alongside Ella Langley as country music's undisputed fall 2026 force.",
-   "typical_scene": "hat pulled low, acoustic guitar front and center on a packed festival stage"
+   "name": "Alix Earle",
+   "why_hot_now": "Her clip using Adéla's 'Nicole Kidman' audio became the catalyst for the #1 TikTok sound right now.",
+   "typical_scene": "ringlight mirror selfie recapping last night's chaos to camera"
   },
   {
-   "name": "Resident Evil",
-   "why_hot_now": "Zach Cregger's reboot opened to a franchise-record $60M weekend on Sept. 18 and is still in the top three this week.",
-   "typical_scene": "protagonist sprinting through a burning, monster-filled Raccoon City hospital"
+   "name": "Ice Spice",
+   "why_hot_now": "New music keeps her locked into Gen Z cultural dominance through fall 2026.",
+   "typical_scene": "oversized puffer, signature orange curls, completely unbothered pout"
+  },
+  {
+   "name": "Jenna Ortega",
+   "why_hot_now": "Wednesday franchise icon whose dark aesthetic permanently owns Gen Z fashion and social media.",
+   "typical_scene": "deadpan stare in head-to-toe black, doing nothing, somehow iconic"
+  },
+  {
+   "name": "Mike Faist",
+   "why_hot_now": "Co-stars in East of Eden dropping today and still riding massive Challengers/Challengers-sequel wave.",
+   "typical_scene": "period-era suit, jaw clenched, radiating repressed-emotion-core energy"
   },
   {
    "name": "Avengers: Endgame",
-   "why_hot_now": "The 'Encore' theatrical rerelease just hit #1 at the U.S. box office this weekend, the second-biggest worldwide rerelease in history.",
-   "typical_scene": "the full Avengers army charging across a smoldering crater battlefield"
+   "why_hot_now": "Re-release topped the US box office at $26.7M last weekend, triggering a massive nostalgia wave online.",
+   "typical_scene": "the portal scene — every hero stepping through simultaneously"
   },
   {
-   "name": "Dua Lipa",
-   "why_hot_now": "String of late-September viral fashion moments and new music teases are keeping her at the top of social media feeds this week.",
-   "typical_scene": "striding a neon-lit stage in a retro-glam one-piece"
+   "name": "The Diplomat",
+   "why_hot_now": "Season 4 drops on Netflix October 15; trailers flooding feeds and discourse peaking this week.",
+   "typical_scene": "power suit, tense phone call, glass-and-steel European capital at night"
   }
  ],
  "memes": [
-  "Jimothy the Raccoon: a chubby Seattle raccoon's completely unbothered waddle gets captioned as every relatable mood — Monday morning, end-of-week survival, ignoring emails",
-  "SpongeBob handcuffs: a screenshot of comically oversized cuffs sliding right off SpongeBob's wrists, used to drag anyone who faces zero consequences for their behavior",
-  "Pretty Little Liars '-A' TikTok: creators write themselves a shady, passive-aggressive message signed '-A' then read it aloud over tense audio while doing something quietly embarrassing on camera",
-  "'lmk ima take a nap': catchall way to dodge any commitment or responsibility by announcing you're going offline indefinitely — used on everything from group chats to work Slack",
-  "'2026 is the new 2016' throwback: people ranking and recreating 2016 viral moments — Bottle Flip, Mannequin Challenge, dabbing — as a massive Gen Z nostalgia wave takes over FYPs"
+  "'Kinda Chic' format: captioning embarrassing or mundane life situations as secretly elegant and intentional",
+  "'John Politics' meme: Glen Powell GQ flag photo — anyone can be photoshopped into a mock campaign poster",
+  "'Nothing Beats a Jet2 Holiday' audio paired with increasingly catastrophic, absolutely-not-relaxing situations",
+  "Adéla's 'Nicole Kidman' glow-up format: start plain, beat drops, cut to fully transformed and iconic",
+  "'2026 is the new 2016' nostalgia format: mapping current cultural chaos beat-for-beat onto the original cursed year",
+  "Hyperreal AI-generated celebrity 'leak' clips shared deadpan as real, then revealed as AI — the reveal IS the joke"
  ],
  "ai_flagships": [
   "Claude Opus 5.5",
   "GPT-6 Astra",
-  "Gemini 3.8 Flash",
+  "Gemini 3.1 Pro",
   "Grok 4.7",
-  "Muse Spark 1.3"
+  "Muse Spark"
  ]
 }

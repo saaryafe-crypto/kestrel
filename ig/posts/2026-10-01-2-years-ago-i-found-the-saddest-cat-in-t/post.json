@@ -1,0 +1,78 @@
+{
+ "media_idx": 1,
+ "image_brief": "Shelter cat Gregory raised $10,000 for his old shelter by starring in a space calendar",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "A SHELTER CAT MADE <em>$10,000</em> STARRING IN <em>HIS OWN CALENDAR</em>",
+   "hsize": 78,
+   "media": "posts/2026-10-01-2-years-ago-i-found-the-saddest-cat-in-t/cand-1.webp"
+  }
+ ],
+ "caption": "The saddest cat in the shelter raised $10,000 for the place he came from\n\nAndrew McCarthy walked into a shelter 2 years ago and chose the saddest cat there. That cat, Gregory, starred in a calendar and raised $10,000 for the exact shelter he came from. Preorders for the 2027 edition are already open on his 2-year adoption anniversary, and Andrew says this year will raise even more. If you've ever walked into a shelter, you know exactly which cat Gregory was. The saddest one in the room turned out to be its biggest fundraiser.\n\nMost people walk past the hard cases. Andrew didn't, and Gregory paid it back twice over.\n\nRunning a business? DM us \"AI\", we'll show you the exact playbook.\n\nSources: AJamesMcCarthy on X\n\n#sheltercat #adoption #cats #viral #heartwarming",
+ "pinned_comment": "The part we couldn't fit: the calendar is called Cosmic Gregory, and every photo shows him dressed as an astronaut. A shelter cat in a space suit fundraising for the place that once had him.",
+ "hook_tournament": {
+  "story_type": "money_win",
+  "candidates": [
+   "FROM <em>SADDEST CAT IN THE SHELTER</em> TO $10K FUNDRAISER",
+   "HE CHOSE <em>THE SADDEST CAT.</em> IT RAISED $10K FOR THEM.",
+   "<em>THE CAT NOBODY WANTED</em> RAISED $10,000 FOR HIS SHELTER",
+   "<em>THE SADDEST CAT IN THE SHELTER</em> RAISED $10,000",
+   "THE SADDEST SHELTER CAT RAISED <em>$10,000</em> WITH A CALENDAR",
+   "A CAT RAISED <em>$10,000</em> FOR THE SHELTER THAT SAVED HIM",
+   "A SHELTER CAT RAISED <em>$10K FOR HIS OWN SHELTER</em>",
+   "A SHELTER CAT MADE <em>$10,000</em> STARRING IN <em>HIS OWN CALENDAR</em>"
+  ],
+  "scores": [
+   7,
+   6,
+   8,
+   6,
+   8,
+   6,
+   6,
+   9
+  ],
+  "winner": 7,
+  "why": "[7] stops you hardest with the vivid image of 'starring in his own calendar'\u2014you immediately think 'WAIT, WHAT?' [4] is close by revealing the calendar method, but 'starring in his own' has more dynamism and personality than just 'with a calendar.'"
+ },
+ "hook_sharpen": {
+  "story_type": "money_win",
+  "candidates": [
+   "THIS CAT <em>RAISED $10,000</em> FOR THE SHELTER HE CAME FROM",
+   "THE CAT NO ONE WANTED <em>RAISED $10,000</em> FOR HIS SHELTER",
+   "A SHELTER CAT MADE <em>$10,000</em> STARRING IN <em>HIS OWN CALENDAR</em>",
+   "A SHELTER CAT <em>RAISED $10,000</em> FOR <em>HIS OWN SHELTER</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   9,
+   6
+  ],
+  "winner": 2,
+  "why": "'Starring in his own calendar' is weird and specific, making you stop to see proof immediately. 'The cat no one wanted' plays emotions but still leaves you guessing the method."
+ },
+ "viral": {
+  "story_type": "money_win",
+  "actor": "Gregory the cat",
+  "actor_known": false,
+  "anchor": "a shelter cat",
+  "specifics": [
+   "Raised $10,000 for the same shelter he was adopted from",
+   "Did it by starring in his own calendar",
+   "Was described as 'the saddest cat in the shelter' when found",
+   "Preorders already open for a 2027 edition on his 2-year gotcha day",
+   "19K likes on the announcement post"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "2 years ago, I found the saddest cat in the shelter and took him home. Last year, he raised $10k for that same shelter by starring in his own calendar. This year, we're going to do even better. Happy gotcha day, Gregory.",
+  "link": "https://x.com/AJamesMcCarthy/status/2105307665198907727",
+  "judge_interest": 7,
+  "scout_score": 150.0
+ },
+ "gate_a_relaxed": true
+}

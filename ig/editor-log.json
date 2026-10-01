@@ -1,96 +1,5 @@
 [
  {
-  "t": "2026-09-27T06:40:45Z",
-  "gate": "B",
-  "subject": "OPENAI HALTED TRAINING ON ITS <em>MOST POWERFUL MODEL</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — The cover is text-on-black with an abstract CGI particle burst as the only visual element. The doctrine is explicit: 'Text-on-black or empty-top covers are failures' and 'The cover must ALWAYS carry an image with a subject.' A glowing digital spark on a dark void is not a subject; a stranger at feed size cannot guess the story from this image. Fix: Build a photoreal composite — Sam Alt"
- },
- {
-  "t": "2026-09-27T06:42:05Z",
-  "gate": "B",
-  "subject": "OPENAI HALTED TRAINING ON ITS <em>MOST POWERFUL MODEL</em>",
-  "verdict": "REJECT",
-  "reason": "COVER — TEXT-ON-BLACK WITH NO SUBJECT: The cover is a dark void with an abstract orange particle streak and type. The Doctrine is explicit: 'Text-on-black or empty-top covers are failures' and 'The cover must ALWAYS carry an image with a subject.' The abstract particle graphic is decoration, not a subject. Fix: rebuild around Sam Altman (real press photo or named generation) + the OpenAI wordmark "
- },
- {
-  "t": "2026-09-27T06:43:52Z",
-  "gate": "B",
-  "subject": "OPENAI HALTED TRAINING ON ITS <em>MOST POWERFUL MODEL</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — COVER HAS NO SUBJECT AND NO PHOTOREAL ELEMENT: the cover is a CGI particle-burst abstract on a black background — decoration, not proof. The doctrine is explicit: 'every image is PROOF or a STAGED SCENE OF THE STORY — never decoration', 'PHOTOREAL ELEMENTS, ALWAYS', and 'The cover must ALWAYS carry an image with a subject.' A particle streak is none of those things. A stranger seeing t"
- },
- {
-  "t": "2026-09-27T06:43:59Z",
-  "gate": "R",
-  "subject": "OPENAI HALTED TRAINING ON ITS <em>MOST POWERFUL MODEL</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-09-27T13:53:51Z",
-  "gate": "A",
-  "subject": "All they got is AI slop and delusion to get through the day.",
-  "verdict": "KILL",
-  "reason": "The entire substance is one vague take with no event, actor, numbers, or real-world consequence — the definition of no-substance reaction-bait, exactly what this gate exists to screen."
- },
- {
-  "t": "2026-09-27T17:50:40Z",
-  "gate": "B",
-  "subject": "HE HAS <em>$400 MILLION</em> AND REFUSED HIS KIDS A CENT",
-  "verdict": "REJECT",
-  "reason": "MORALIZING PARAGRAPH — §4 explicitly bans sermons/moralizing. The paragraph 'The richest builders share one pattern: they treat their own kids the same way they treat any new hire. Not harshness. The belief that the struggle is the whole point.' is a textbook drawn moral — it abandons the specific story and delivers a universal life lesson, which is the exact register §4 bans. It also smells of AI"
- },
- {
-  "t": "2026-09-27T17:52:28Z",
-  "gate": "B",
-  "subject": "HE HAS <em>$400 MILLION</em> AND REFUSED HIS KIDS A CENT",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-09-27T17:52:40Z",
-  "gate": "R",
-  "subject": "HE HAS <em>$400 MILLION</em> AND REFUSED HIS KIDS A CENT",
-  "verdict": "FAIL",
-  "reason": "s1: Shaquille O'Neal is broadly grinning in the photo, which clashes with the headline's serious tone about denying his kids money — emotional register mismatch."
- },
- {
-  "t": "2026-09-27T18:07:18Z",
-  "gate": "A",
-  "subject": "All they got is AI slop and delusion to get through the day.",
-  "verdict": "KILL",
-  "reason": "One-line hot take with zero event, consequence, or substance — pure reaction-bait that would require padding to build slides from."
- },
- {
-  "t": "2026-09-27T20:46:27Z",
-  "gate": "A",
-  "subject": "Tesla is sending this notification to people in Austin announcing that its Cybercab robotaxi fleet has doubled. This ali",
-  "verdict": "APPROVE",
-  "reason": "Tesla scaling robotaxis by 115% in one week, verified by registration data and announced to consumers, is household-name tech news that meets the newspage-first standard."
- },
- {
-  "t": "2026-09-27T20:47:05Z",
-  "gate": "A",
-  "subject": "OpenAI and Anthropic are now investigating ***tens of thousands*** of incidents - not dozens. \"The total could grow well",
-  "verdict": "KILL",
-  "reason": "Unverified claim from low-credibility source; no official confirmation, lawsuit filed, ban, or disclosed consequence to establish news."
- },
- {
-  "t": "2026-09-27T21:01:11Z",
-  "gate": "B",
-  "subject": "TESLA JUST DOUBLED ITS ROBOTAXI FLEET <em>IN FIVE DAYS</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW §3 hard ban: the cover is a screenshot of a phone push notification. The Doctrine is explicit — 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' The notification can live as a styled inset receipt inside the image, but the cover itself must be a photoreal composite — a Cybercab on an Austin road, or an Elon Musk cutout + giant floating Cybercab + Tesla logo mark, with the notific"
- },
- {
-  "t": "2026-09-27T21:02:42Z",
-  "gate": "B",
-  "subject": "TESLA JUST DOUBLED ITS ROBOTAXI FLEET <em>IN FIVE DAYS</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — SCREENSHOT COVER: The cover image is literally a smartphone push notification screenshot ('Cybercab fleet has doubled / More rides available / 2h ago'). The doctrine is explicit and absolute: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER. Screenshots may appear INSIDE as receipt evidence on a styled card, never as the face of the post.' Fix: replace with a photoreal cover — a "
- },
- {
   "t": "2026-09-27T21:04:07Z",
   "gate": "B",
   "subject": "TESLA JUST DOUBLED ITS ROBOTAXI FLEET <em>IN FIVE DAYS</em>",
@@ -2098,5 +2007,96 @@
   "subject": "<em>SPACEX BOUGHT OPENAI.COM</em> AND POINTED IT TO GROK",
   "verdict": "FAIL",
   "reason": "s1: The photo shows toy/clay emoji figurines in an egg carton — a whimsical, cartoonish image with no editorial connection to the SpaceX/OpenAI domain story, failing the emotional-register requirement for a professional tech-news cover."
+ },
+ {
+  "t": "2026-10-01T00:33:06Z",
+  "gate": "A",
+  "subject": "2 years ago, I found the saddest cat in the shelter and took him home. Last year, he raised $10k for that same shelter b",
+  "verdict": "KILL",
+  "reason": "Not a tech/AI story — personal pet content with no approved lens (AI, technology, company/founder, investing/money, or space) is off-brand for a news page centered on tech/AI events."
+ },
+ {
+  "t": "2026-10-01T00:34:07Z",
+  "gate": "A",
+  "subject": "Today we’re introducing Gemini 4 Argon. It delivers frontier performance in complex workflows across real-world software",
+  "verdict": "APPROVE",
+  "reason": "Model release from Google qualifies as a MAJOR MOVE the doctrine protects under NEWS PAGE FIRST—never kill household-name lab model announcements despite thin source, to prevent listicle slot collapse."
+ },
+ {
+  "t": "2026-10-01T00:53:51Z",
+  "gate": "B",
+  "subject": "GOOGLE JUST MADE EVERYONE WHO TYPES FOR A LIVING <em>REPLACEABLE</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW FAIL — CRITICAL AND NON-NEGOTIABLE: The cover is Google's own product launch graphic: a blurred stylized '4' on a blue gradient with the 'Gemini 4 Argon' wordmark. Zero photoreal elements — no real skin, no real product photo, no photographic fragment of any kind. It reads as pure illustration/brand design. §3 requires every element to read as photographed. This is a wholesale reject on "
+ },
+ {
+  "t": "2026-10-01T00:55:47Z",
+  "gate": "B",
+  "subject": "GOOGLE JUST MADE EVERYONE WHO TYPES FOR A LIVING <em>REPLACEABLE</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS PHOTOREAL LAW: The image is a brand illustration — a stylized glowing '4' on a blue gradient with the Gemini logo. No photoreal element exists anywhere in the frame. IMAGE LAW requires every element to read as photographed (real skin, real product, real photo fragments); a concept-art graphic is a REJECT whatever its concept. The THUMB TEST also fails: a stranger seeing this at f"
+ },
+ {
+  "t": "2026-10-01T00:57:19Z",
+  "gate": "B",
+  "subject": "GOOGLE JUST MADE EVERYONE WHO TYPES FOR A LIVING <em>REPLACEABLE</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE — NOT PHOTOREAL (§3, hard law): The cover is Google's own press-release graphic — a stylized white '4' on a blue gradient. No element reads as photographed. IMAGE LAW says every element must read as photographed (real skin, real product, real photo fragments); a graphic that reads as illustration or concept art is a REJECT whatever its concept. Fix: replace with a photoreal composite — Sunda"
+ },
+ {
+  "t": "2026-10-01T00:58:04Z",
+  "gate": "A",
+  "subject": "BREAKING: The US 30Y Note Yield rises above 5.60% for the first time since June 2002. That’s another +36 basis points th",
+  "verdict": "KILL",
+  "reason": "Pure financial market data with no AI/tech angle; fits the banned 'market wraps, stocks-rose-today' category; 'will arrive next week' is a speculative projection, not a confirmed event with an actor or real-world consequence."
+ },
+ {
+  "t": "2026-10-01T00:58:23Z",
+  "gate": "A",
+  "subject": "2 years ago, I found the saddest cat in the shelter and took him home. Last year, he raised $10k for that same shelter b",
+  "verdict": "KILL",
+  "reason": "Off-brand animal story with unknown actor: this is a pet/shelter narrative, not AI/tech/business news, and the story depends on an obscure person (@AJamesMcCarthy) rather than a household name—exactly the pattern the doctrine flags to kill (the goats-on-Etna model)."
+ },
+ {
+  "t": "2026-10-01T00:59:43Z",
+  "gate": "A",
+  "subject": "Henry Malukas, co-founder of HMD Trucking, which operates a fleet of ~700 diesel semi trucks, says the company has order",
+  "verdict": "KILL",
+  "reason": "Unknown actor in routine announcement: HMD Trucking is not a household name, and a co-founder endorsing existing Tesla products is customer feedback, not news."
+ },
+ {
+  "t": "2026-10-01T01:00:38Z",
+  "gate": "A",
+  "subject": "\"Meta's Muse AI is stealing Apple Messages, past and present, and uploading the contents to its cloud, even if explicitl",
+  "verdict": "KILL",
+  "reason": "The entire story rests on one tweet attributing an extraordinary claim to an unconfirmed source; the writer would need to establish whether the Apple Insider article exists and substantiates the claim before expanding it, not after selection—this is sourcing verification, not story expansion."
+ },
+ {
+  "t": "2026-10-01T01:02:17Z",
+  "gate": "A",
+  "subject": "We're introducing skills in @GeminiApp to help you automate your most repetitive tasks. Now, you can now save your most-",
+  "verdict": "KILL",
+  "reason": "Feature announcements must be demonstrated with concrete proof (what it looks like, what it does, people using it); this bare announcement has no demo content and low scout interest (4/10)."
+ },
+ {
+  "t": "2026-10-01T01:17:57Z",
+  "gate": "B",
+  "subject": "A SHELTER CAT MADE <em>$10,000</em> STARRING IN <em>HIS OWN CALENDAR</em>",
+  "verdict": "REJECT",
+  "reason": "§4 SPOKEN VOICE — caption contains a 🐱 emoji. The rule bans emojis explicitly. Remove it.; §7 HUMAN VOICE LAW — the DM pitch sentence ('build the right system around something most people overlook') is generic AI-smell filler that could describe any story by swapping nouns. 'The right system' is jargon; 'something most people overlook' is significance inflation with no fact behind it. The spoken r"
+ },
+ {
+  "t": "2026-10-01T01:20:00Z",
+  "gate": "B",
+  "subject": "A SHELTER CAT MADE <em>$10,000</em> STARRING IN <em>HIS OWN CALENDAR</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-10-01T01:20:30Z",
+  "gate": "R",
+  "subject": "A SHELTER CAT MADE <em>$10,000</em> STARRING IN <em>HIS OWN CALENDAR</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
