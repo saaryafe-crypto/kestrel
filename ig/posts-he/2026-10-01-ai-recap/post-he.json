@@ -1,0 +1,42 @@
+{
+ "stories": [
+  {
+   "headline": "Google launched Gemini 4 Argon, its new frontier AI model"
+  },
+  {
+   "headline": "Elon Musk is now co-leading America's AI warfare project"
+  },
+  {
+   "headline": "SpaceX says Starship will put giant telescopes on the Moon"
+  },
+  {
+   "headline": "Figure trained robots to jump into molten steel and filmed it"
+  },
+  {
+   "headline": "Gemini now lets you save commands and run them with one tap"
+  },
+  {
+   "headline": "Starlink now covers 40 percent of Alaska Airlines entire fleet"
+  }
+ ],
+ "caption": "אילון מאסק עומד עכשיו רשמית בראש תוכנית ה-AI הצבאית של ארה\"ב, ו-Google שחררה היום את המודל החזק ביותר שלה.\n\nשר ההגנה פיט הגסת' הכריז שמאסק ינהל יחד איתו את Project Meridian, התוכנית שמחליטה איך הצבא האמריקאי ישתמש ב-AI בלחימה. Google שחררה את Gemini 4 Argon, מודל ה-AI החזק ביותר שלה לקידוד, עבודה עסקית והגנת סייבר, עכשיו אצל גל ראשון של בודקים. רובוטי Figure F.02 אומנו לקפוץ לבד, הועפו לפינלנד וצולמו קופצים לתוך פלדה מותכת. SpaceX אומרת ש-Starship יעביר לחלל טלסקופים גדולים מספיק כדי לשנות את מחקר הפיזיקה, ובעתיד גם יניח גדולים יותר על הירח. Starlink מכסה עכשיו יותר מ-40% מצי המטוסים של Alaska Airlines, כולל כל הטיסות הארוכות של Hawaiian Airlines.\n\nמנהל עסק? שלח לנו DM עם המילה AI ונראה לך מה זה יכול לעשות בשבילך.\n\nמקורות: Google DeepMind, US Department of Defense, SpaceX, Figure Robotics, Alaska Air Group\n\nעקבו אחרי @ainews.israel לעוד עדכוני AI.\n\n#ArtificialIntelligence #AINews #TechNews #MachineLearning #FutureOfWork",
+ "pinned_comment": "אילון מאסק מנהל עכשיו רשמית את תוכנית ה-AI הצבאית של ארה\"ב. לשים AI במרכז של איך אמריקה נלחמת זה צעד חכם לביטחון הלאומי, או קו שאסור לחצות?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "רשמי: אילון מאסק <em>מוביל את תוכנית ה-AI</em> הצבאית של ארה\"ב",
+   "kicker": "הסיכום היומי"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW FAIL — EMPTY TOP COVER: The cover is text-on-black with an abstract particle burst graphic. IMAGE LAW explicitly states 'Text-on-black or empty-top covers are failures.' There is no photoreal subject, no human face, no product, no brand mark — just decorative light streaks on a black void. The hook names Elon Musk as the story; the cover must show Musk (real photo or named-direct generat",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

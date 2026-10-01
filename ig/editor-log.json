@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-27T21:26:51Z",
-  "gate": "A",
-  "subject": "This would take Pixar 2 years to make. With AI, it took me 2 hours. Script: Sherpa by Pocket FM Video: Seedance 2.5",
-  "verdict": "KILL",
-  "reason": "One-line claim from an unknown actor with no shown artifact, outcome, or verifiable numbers—writer has only a brag to expand, not a story."
- },
- {
   "t": "2026-09-27T21:27:46Z",
   "gate": "A",
   "subject": "More details on the incident behind OpenAI’s pause: a researcher acknowledged the alert within 3 minutes, but the traini",
@@ -2098,5 +2091,12 @@
   "subject": "ELON MUSK NOW CO-LEADS THE US MILITARY'S <em>AI PROGRAM</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-10-01T15:24:29Z",
+  "gate": "A",
+  "subject": "The last 20 hours have been insane. Got more hate than most people get in a lifetime. I want to say a few things clearly",
+  "verdict": "KILL",
+  "reason": "This is reaction-bait: an online pile-on with no real-world consequence (no account ban, lawsuit filed, product pulled, or dismissal), exactly matching the Queen Elizabeth and Mario Lopez failures the doctrine cites as the page's two worst posts."
  }
 ]
