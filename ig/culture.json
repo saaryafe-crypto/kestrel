@@ -1,71 +1,62 @@
 {
- "ts": 1790814790.6209974,
- "updated": "2026-10-01",
+ "ts": 1790901625.0495942,
+ "updated": "2026-10-02",
  "hot": [
   {
    "name": "Florence Pugh",
-   "why_hot_now": "East of Eden, her Netflix epic, drops all 7 episodes today, October 1.",
-   "typical_scene": "windswept in a sun-bleached Salinas Valley field, staring down the camera"
-  },
-  {
-   "name": "Sabrina Carpenter",
-   "why_hot_now": "Still the Gen Z era-defining pop act of 2026 post-Coachella headline, 'House Tour' on every playlist.",
-   "typical_scene": "vintage-glam silhouette performing on a festival mega-stage"
-  },
-  {
-   "name": "Glen Powell",
-   "why_hot_now": "His presidential-looking GQ photoshoot spawned the exploding 'John Politics' meme this week.",
-   "typical_scene": "navy suit in front of an American flag, looking accidentally electable"
-  },
-  {
-   "name": "Ayo Edebiri",
-   "why_hot_now": "Gen Z's reigning it-girl, ongoing Emmy buzz and The Bear still the dominant prestige-TV obsession.",
-   "typical_scene": "deadpan face holding a restaurant order ticket, looking done with it"
-  },
-  {
-   "name": "Alix Earle",
-   "why_hot_now": "Her clip using Adéla's 'Nicole Kidman' audio became the catalyst for the #1 TikTok sound right now.",
-   "typical_scene": "ringlight mirror selfie recapping last night's chaos to camera"
-  },
-  {
-   "name": "Ice Spice",
-   "why_hot_now": "New music keeps her locked into Gen Z cultural dominance through fall 2026.",
-   "typical_scene": "oversized puffer, signature orange curls, completely unbothered pout"
-  },
-  {
-   "name": "Jenna Ortega",
-   "why_hot_now": "Wednesday franchise icon whose dark aesthetic permanently owns Gen Z fashion and social media.",
-   "typical_scene": "deadpan stare in head-to-toe black, doing nothing, somehow iconic"
+   "why_hot_now": "Her Netflix East of Eden adaptation premiered October 1, instantly dominating streaming charts as she plays villain Cathy Ames.",
+   "typical_scene": "snarling as a sinister femme fatale in golden California sunlight"
   },
   {
    "name": "Mike Faist",
-   "why_hot_now": "Co-stars in East of Eden dropping today and still riding massive Challengers/Challengers-sequel wave.",
-   "typical_scene": "period-era suit, jaw clenched, radiating repressed-emotion-core energy"
+   "why_hot_now": "East of Eden co-star opposite Pugh; his brooding performance broke the internet the moment the show dropped.",
+   "typical_scene": "brooding in dusty period costume on a Salinas Valley farm"
   },
   {
-   "name": "Avengers: Endgame",
-   "why_hot_now": "Re-release topped the US box office at $26.7M last weekend, triggering a massive nostalgia wave online.",
-   "typical_scene": "the portal scene — every hero stepping through simultaneously"
+   "name": "Sabrina Carpenter",
+   "why_hot_now": "Reigning pop queen with Manchild holding the charts and her headlining tour still selling out venues.",
+   "typical_scene": "performing in retro-glam sequins on a sold-out stadium stage"
   },
   {
-   "name": "The Diplomat",
-   "why_hot_now": "Season 4 drops on Netflix October 15; trailers flooding feeds and discourse peaking this week.",
-   "typical_scene": "power suit, tense phone call, glass-and-steel European capital at night"
+   "name": "Glen Powell",
+   "why_hot_now": "The John Politics meme — his presidential GQ photoshoot in a suit with an American flag — went massively viral this week.",
+   "typical_scene": "standing in front of an American flag in a sharp tailored suit"
+  },
+  {
+   "name": "Zayn",
+   "why_hot_now": "His Konnakol Tour is in its final North American dates this week, with every show selling out.",
+   "typical_scene": "performing moody R&B alone in a single spotlight to a screaming arena"
+  },
+  {
+   "name": "Ed Sheeran",
+   "why_hot_now": "His LOOP Tour kicked off in the US this week, opening with a stadium show at MetLife.",
+   "typical_scene": "looping guitar and vocal layers completely solo on a giant stadium stage"
+  },
+  {
+   "name": "Pussycat Dolls",
+   "why_hot_now": "Their PCD Forever Tour reunion is at peak US dates through October 30, selling out arenas 15 years after their breakup.",
+   "typical_scene": "iconic five-member formation routine in matching glam outfits"
+  },
+  {
+   "name": "Taylor Swift",
+   "why_hot_now": "Her new single is the soundtrack to the viral Patient Zero Wedding Day Edit trend flooding TikTok.",
+   "typical_scene": "new-era cinematic aesthetic soundtracking slow-burn wedding montage edits"
   }
  ],
  "memes": [
-  "'Kinda Chic' format: captioning embarrassing or mundane life situations as secretly elegant and intentional",
-  "'John Politics' meme: Glen Powell GQ flag photo — anyone can be photoshopped into a mock campaign poster",
-  "'Nothing Beats a Jet2 Holiday' audio paired with increasingly catastrophic, absolutely-not-relaxing situations",
-  "Adéla's 'Nicole Kidman' glow-up format: start plain, beat drops, cut to fully transformed and iconic",
-  "'2026 is the new 2016' nostalgia format: mapping current cultural chaos beat-for-beat onto the original cursed year",
-  "Hyperreal AI-generated celebrity 'leak' clips shared deadpan as real, then revealed as AI — the reveal IS the joke"
+  "Two Fishes: using Love Island USA Season 8's Corbin Mims calmly defending a take nobody asked for as audio for any unhinged online argument",
+  "Ramalama Costume Walk: camera stays low on your legs as you stalk forward dragging a weapon to Róisín Murphy's Ramalama (Bang Bang), then pulls back to reveal the full costume",
+  "Pumpkin Head Illusion: hold a real pumpkin up to the lens so it engulfs your friend's head, then let the headless body act out increasingly chaotic scenarios",
+  "Patient Zero Wedding Day Edit: cinematic slow-burn couple or wedding clips overlaid on Taylor Swift's new single in a tearjerker format",
+  "Kinda Chic: captioning totally mundane or healthy life choices — drinking water, going to bed early — as if they're aspirational high-fashion personality traits",
+  "John Politics: photoshopping Glen Powell's flag-and-suit GQ photo into absurd presidential or political contexts",
+  "2026 is the new 2016: nostalgia-spiral format matching every current pop-culture chaos beat to an exact 2016 parallel"
  ],
  "ai_flagships": [
   "Claude Opus 5.5",
   "GPT-6 Astra",
-  "Gemini 3.1 Pro",
+  "Gemini 3.8 Flash",
   "Grok 4.7",
-  "Muse Spark"
+  "Muse Spark 1.3"
  ]
 }

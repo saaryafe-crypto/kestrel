@@ -1,0 +1,84 @@
+{
+ "image_brief": "Google AI agents autonomously rewriting production server code inside a real data center, outperforming human engineers",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "GOOGLE AI JUST BEAT HUMANS AT CODING BY <em>2.7X</em>",
+   "kicker": "ALREADY IN PRODUCTION, NOT A DEMO",
+   "hsize": 80,
+   "media": "posts/2026-10-02-google-says-gemini-4-argon-agents-have-a/cand-1.webp"
+  }
+ ],
+ "caption": "Google's AI rewrote 32,000 lines of hand-tuned code and made it run 2.7x faster than the engineers' version.\n\nGoogle's Gemini 4 Argon agents migrated over 800,000 lines of real production code and freed over 300 terabytes of server memory, without a human writing a single line. Then they took Google's own video decoder, replaced every line of its hand-optimized code, and the AI rewrite ran 2.7 times faster than what the engineers built. The video output came out identical. If you're studying software engineering, the thing that should keep you up tonight just shipped.\n\nAI isn't assisting engineers anymore. It's finishing months of real work in production, with better results than the humans who wrote it first. Every software team now has to reckon with an AI that can redo what took engineers months, faster.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: kimmonismus on X, Google\n\n#AI #GoogleAI #SoftwareEngineering #Gemini #TechNews",
+ "pinned_comment": "The part we couldn't fit: Google engineers spent real time hand-tuning 32,000 lines of performance code to squeeze speed out of that video decoder. The AI rewrote the whole thing, and the new version ran 2.7x faster. At what point is 'hand-optimized' even a meaningful term anymore?",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "GOOGLE AI REWROTE <em>800,000 LINES OF REAL CODE</em> ALONE",
+   "GOOGLE'S AI FREED <em>300 TIB</em> OF SERVER MEMORY BY ITSELF",
+   "<em>GOOGLE AI</em> JUST OUTPERFORMED ITS OWN ENGINEERS",
+   "GOOGLE AI IS WRITING <em>BETTER CODE THAN ITS ENGINEERS</em>",
+   "GOOGLE AI <em>BEAT ITS OWN ENGINEERS BY 2.7X</em>",
+   "GOOGLE'S AI JUST REWROTE <em>800,000 LINES</em> OF LIVE CODE ALONE",
+   "GOOGLE'S AI IS REPLACING ENGINEERS IN PRODUCTION. <em>NOT DEMOS.</em>",
+   "GOOGLE'S AI JUST TOOK <em>YOUR CODING JOB</em> IN PRODUCTION",
+   "GOOGLE'S AI JUST OUT-CODED ITS ENGINEERS <em>BY 2.7 TIMES</em>",
+   "YOUR CODING JOB: <em>GOOGLE AI JUST DID IT BETTER</em>"
+  ],
+  "scores": [
+   6,
+   5,
+   7.5,
+   8,
+   8.5,
+   9,
+   6.5,
+   0,
+   8,
+   7.5
+  ],
+  "winner": 5,
+  "why": "[5] wins because 800K production lines rewritten autonomously by AI, right now, is way more shocking than any performance metric alone. [4] is specific (2.7X) but lower impact\u2014scale beats comparison numbers for stopping a 2am scroller."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "GOOGLE'S AI JUST REWROTE <em>800,000 LINES</em> OF LIVE CODE ALONE",
+   "GOOGLE'S AI REPLACED ITS CODERS AND WAS <em>2.7X FASTER</em>",
+   "GOOGLE AI JUST BEAT HUMANS AT CODING BY <em>2.7X</em>",
+   "GOOGLE AI JUST REPLACED YOUR CODING JOB, <em>2.7X FASTER</em>"
+  ],
+  "scores": [
+   0,
+   0,
+   8,
+   0
+  ],
+  "winner": 2,
+  "why": "[2] is the only candidate that doesn't violate truth rules\u2014[0] overstates 'migrated' as 'rewrote,' while [1] and [3] invent job-replacement claims. 'Beat humans by 2.7x' hits harder because it's emotionally resonant and grounded in data, not technically inflated."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Google Gemini 4 Argon",
+  "actor_known": true,
+  "anchor": "Google",
+  "specifics": [
+   "AI rewrote 32,000 lines of hand-optimized code and made it 2.7x faster than the human version",
+   "800,000+ lines of real kernel code migrated autonomously by AI agents",
+   "300 TiB of server memory freed by AI analyzing and fixing Google's own infrastructure",
+   "These are production changes already rolled out \u2014 not experiments or demos",
+   "1 million token output limit enables AI to handle entire codebases in one pass"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (0/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Google says Gemini 4 Argon agents have already freed over 300 TiB of memory across its data centers, with a 1 million token output limit and agents already optimizing its own infrastructure. The agents analyzed profiling",
+  "link": "https://x.com/kimmonismus/status/2105395385191776455",
+  "judge_interest": 7,
+  "scout_score": 67.4
+ },
+ "editor_override": "COVER IMAGE IS A SCREENSHOT \u2014 hard ban, \u00a73: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' The attached image is a plain screenshot of Google's internal blog page: white background, black body text, bullet points. Zero photoreal elements, zero visual subject, zero human face. At feed size this renders as an unreadable wall of tiny type \u2014 a stranger scrolling past has no idea what the sto",
+ "gate_r": "s1: The background is a raw full-bleed screenshot of a Google blog/document page, which violates the Screenshot Law regardless of the text overlay quality."
+}
