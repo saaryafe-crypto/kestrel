@@ -1,0 +1,17 @@
+{
+ "pick": 0,
+ "title": "How data centers cool their servers with hot liquid",
+ "title_candidates": [
+  "What AI data centers actually do to the water supply",
+  "How AI data centers manage water use at national scale",
+  "The number that changes how you think about AI and water",
+  "Why the loudest claims about AI water use keep getting it wrong",
+  "How NVIDIA tracked the real water cost of running AI"
+ ],
+ "caption": "AI data centers in the US use just 0.2% of the country's daily water supply, far less than most people assume.\n\nThe Manhattan Institute studied total daily water use across the country and found data centers barely register. The conversation around AI and water has been loud, but the actual numbers tell a much smaller story. The footprint has also been shrinking as cooling technology gets more efficient over time.\n\nNot zero. But a lot smaller than the headlines suggest.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: NVIDIA. DM for credit or removal\n\n#AI #DataCenters #ArtificialIntelligence #Tech #NVIDIA",
+ "start_s": 0,
+ "clip_s": 10,
+ "source": "https://video-s.twimg.com/amplify_video/2069147901339549696/vid/avc1/1280x720/EmxfmDRgxtJ4cQOj.mp4?tag=14",
+ "channel": "nvidia",
+ "publish": "bundle"
+}
