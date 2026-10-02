@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T10:27:40.549736+00:00",
+ "updated": "2026-10-02T12:27:45.352423+00:00",
  "guides": [
   {
    "id": "2096052072470704579",
@@ -84,30 +84,6 @@
     "@matsuudesu u need to click on ur pic before uploading ur tweet"
    ],
    "born": 1788656724.07806
-  },
-  {
-   "id": "2095117229100544450",
-   "title": "The engineer who built Claude Code just released a video on how to write prompts that actually work. I\u2019ve seen $300 courses that don\u2019t cover what he shows in the first 5 minutes. Everything in one video, completely free.",
-   "sub": "deanwperkins",
-   "where": "@deanwperkins on X",
-   "unit": "likes",
-   "selftext": "The engineer who built Claude Code just released a video on how to write prompts that actually work. I\u2019ve seen $300 courses that don\u2019t cover what he shows in the first 5 minutes. Everything in one video, completely free.",
-   "permalink": "https://x.com/deanwperkins/status/2095117229100544450",
-   "outlink": null,
-   "score": 13172,
-   "comments_n": 39,
-   "views": 1801196,
-   "age_h": 100.8,
-   "vph": 130.7,
-   "image": "https://pbs.twimg.com/amplify_video_thumb/2066154493633589248/img/emtPhVz6jqnLTc_-.jpg",
-   "video": "https://video.twimg.com/amplify_video/2066154493633589248/vid/avc1/1920x1080/Sblz5BobSuDeiMyN.mp4?tag=27",
-   "guide": true,
-   "wide_guide": true,
-   "thread": [
-    "@maarcoofdezz for me this is the best video about claude code",
-    "@zentalksai A talk by the creator of Claude Code will always be better than any course."
-   ],
-   "born": 1788349964.267859
   },
   {
    "id": "2098109777536807173",
