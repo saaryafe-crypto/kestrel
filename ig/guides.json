@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T14:30:08.442946+00:00",
+ "updated": "2026-10-02T16:35:01.768776+00:00",
  "guides": [
   {
    "id": "2096052072470704579",
@@ -636,29 +636,6 @@
    "guide": true,
    "wide_guide": true,
    "born": 1788473050.844084
-  },
-  {
-   "id": "2095175759606231439",
-   "title": "We\u2019re introducing Gemini 3.8 Flash \u26a1\ufe0f built to tackle complex agentic and multi-step tasks with even greater diligence. Our most intelligent workhorse model yet delivers significant improvements in reasoning, evolving to",
-   "sub": "GoogleAI",
-   "where": "@GoogleAI on X",
-   "unit": "likes",
-   "selftext": "We\u2019re introducing Gemini 3.8 Flash \u26a1\ufe0f built to tackle complex agentic and multi-step tasks with even greater diligence. Our most intelligent workhorse model yet delivers significant improvements in reasoning, evolving to an AI partner that doesn\u2019t just write code, but can also navigate complex projects. While solving ambiguous and high-friction tasks is immensely helpful, it can also be expensive. Fortunately, 3.8 Flash features the usual effort controls, ensuring that the amount of thinking required to accomplish the task at hand is proportional to the tokens spent. Watch Gemini 3.8 Flash combine native video understanding with advanced coding to autonomously build this 3D game, play it to find errors, and execute code changes in a seamless agentic loop in @antigravity.",
-   "permalink": "https://x.com/GoogleAI/status/2095175759606231439",
-   "outlink": null,
-   "score": 2186,
-   "comments_n": 124,
-   "views": 192979,
-   "age_h": 96.9,
-   "vph": 22.6,
-   "image": "https://pbs.twimg.com/amplify_video_thumb/2095175557256294404/img/sD68APNvyk_ljGlF.jpg",
-   "video": "https://video.twimg.com/amplify_video/2095175557256294404/vid/avc1/1920x1080/9ldFCTtVJZiJt0a4.mp4?tag=29",
-   "guide": true,
-   "wide_guide": true,
-   "born": 1788363970.904613,
-   "thread": [
-    "\u2014 Available to Google AI Pro and Ultra subscribers across the @GeminiApp, AI Mode in Google Search, and Google Sheets \u2014 Build in the Gemini API via @GoogleAIStudio and @AndroidStudio, explore agent-first workflows in @antigravity, and generate UIs with 3.8 Flash in @stitchbygoogle \u2014 Gemini Enterprise users by picking it from the drop down model menu or in Gemini Enterprise Agent Platform."
-   ]
   },
   {
    "id": "2096010420561539478",
