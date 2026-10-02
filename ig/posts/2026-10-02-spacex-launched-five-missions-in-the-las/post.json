@@ -1,0 +1,81 @@
+{
+ "media_idx": 2,
+ "image_brief": "SpaceX launches five rockets in six days, three on the same Thursday including a crewed mission with astronauts",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SPACEX JUST LAUNCHED <em>3 ROCKETS IN 13 HOURS</em>",
+   "kicker": "one carried actual astronauts",
+   "hsize": 80,
+   "media": "posts/2026-10-02-spacex-launched-five-missions-in-the-las/cand-2.jpg"
+  }
+ ],
+ "caption": "SpaceX launched 3 rockets in 13 hours on the same day, and one of them had real astronauts on board.\n\nSpaceX flew 5 missions in 6 days from Sep 26 to Oct 1, including 3 on the same Thursday within 13 hours: astronauts on Crew-13, a classified military satellite on the massive Falcon Heavy, and a rideshare rocket launching commercial satellites. If you still think a rocket launch is a rare, months-long event, SpaceX just ran three of them like a bus schedule. No other company on Earth does anything close to this, and the entire world's definition of a busy launch week just changed.\n\nSpaceX is lapping the rest of the world so fast it is starting to look like a different sport. The gap between them and every other space program is not shrinking. It is growing.\n\nRunning a business? DM us \"AI\" and we will show you what this kind of operational speed looks like in your industry.\n\nSources: cb_doge on X\n\n#SpaceX #Rockets #Space #Technology #Innovation",
+ "pinned_comment": "The wilder detail: all three Thursday launches were for completely different customers. Astronauts heading to orbit. A classified military mission. A stack of commercial satellites. SpaceX called it a Thursday.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX LAUNCHED ASTRONAUTS AND A <em>CLASSIFIED MILITARY SATELLITE</em> THE SAME DAY",
+   "SPACEX JUST LAUNCHED <em>3 ROCKETS IN 13 HOURS</em>",
+   "SPACEX JUST MADE <em>EVERY OTHER SPACE PROGRAM</em> LOOK SLOW",
+   "SPACEX JUST LAUNCHED <em>3 ROCKETS IN 13 HOURS</em>",
+   "SPACEX FLEW <em>5 MISSIONS IN 6 DAYS</em>",
+   "SPACEX JUST LAUNCHED <em>5 ROCKETS IN 6 DAYS</em>",
+   "SPACEX FLEW STARSHIP AND <em>4 OTHER ROCKETS</em> IN 6 DAYS",
+   "SPACEX JUST RAN <em>3 LAUNCHES IN ONE DAY</em>",
+   "SPACEX LAUNCHED ASTRONAUTS <em>AND TWO MORE ROCKETS</em> THAT SAME DAY"
+  ],
+  "scores": [
+   9,
+   9,
+   0,
+   9,
+   7,
+   5,
+   8,
+   7,
+   7
+  ],
+  "winner": 1,
+  "why": "The 13-hour window is an absurdly specific number that lands as pure shock with zero context needed, while astronauts+military is interesting but requires you to understand why that combo matters. The word 'JUST' cranks urgency and makes this one stick harder."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX LAUNCHED ASTRONAUTS, THEN <em>TWO MORE ROCKETS THAT DAY</em>",
+   "SPACEX LAUNCHED ASTRONAUTS <em>AND A CLASSIFIED MILITARY ROCKET</em> YESTERDAY",
+   "SPACEX JUST LAUNCHED <em>3 ROCKETS IN 13 HOURS</em>",
+   "SPACEX JUST LAUNCHED <em>5 ROCKETS IN 6 DAYS</em>"
+  ],
+  "scores": [
+   8,
+   7,
+   9,
+   8
+  ],
+  "winner": 2,
+  "why": "3 rockets in 13 hours is an immediately visceral 'wait what??' that stops you scrolling on pure shock. [0] tells a compelling escalation story that's wild but needs a beat to land once you parse it."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SpaceX",
+  "actor_known": true,
+  "anchor": "SpaceX",
+  "specifics": [
+   "3 rockets launched in under 13 hours on a single day",
+   "5 total missions in just 6 days",
+   "One of the same-day launches was Crew-13 \u2014 actual astronauts going to space",
+   "NROL-97 on the massive Falcon Heavy was also that same day \u2014 a classified military mission",
+   "Starship Flight 14 also flew that same week on Sep 28"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (3/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "SpaceX launched five missions in the last six days. \u2022 Sep 26 \u2014 USSF-385, Falcon 9 \u2022 Sep 28 \u2014 Starship Flight 14 \u2022 Oct 1 \u2014 Crew-13, Falcon 9 \u2022 Oct 1 \u2014 Transporter-18, Falcon 9 \u2022 Oct 1 \u2014 NROL-97, Falcon Heavy Three of them",
+  "link": "https://x.com/cb_doge/status/2106049422299934905",
+  "judge_interest": 7,
+  "scout_score": 108.9
+ }
+}
