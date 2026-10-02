@@ -1,0 +1,53 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 GOVERNMENT AI RULES <em>QUIETLY COSTING YOU HOURS</em>",
+   "kicker": "DO THE OPPOSITE OF ALL 5",
+   "hsize": 72,
+   "face": "Keir Starmer",
+   "media": "faces/keir-starmer.jpg"
+  }
+ ],
+ "caption": "The UK government just published 5 official AI rules for workers. Every one says to use it less. \ud83d\udccb\n\n1) Ask if you really need AI first.\nFlip it: \"What would AI do first on my list today?\"\n\n2) Check if a spreadsheet can do it.\nReal move: \"Here's my data. What would a human take 2 hours to find?\"\n\n3) Use the worst model to save energy.\nThis one gets me. \"What am I missing about this decision?\" Use the best free model.\n\n4) Keep prompts short for the planet.\nMore context wins: \"Full context: [your situation]. What would an expert do?\"\n\n5) Use AI only when necessary.\nTheir whole point. \"Run my weekly report. Where do I sign off?\"\n\nSAVE THIS: 5 government rules, 5 prompts that flip them.\n\nEvery government is writing AI rules right now. Most are written by people who have never used it seriously. The gap between official guidance and what actually works is growing. Close that gap and you stay ahead.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: eurofounder, UK Government\n\n#AI #ChatGPT #ArtificialIntelligence #AItools #AIbusiness",
+ "pinned_comment": "Which rule gets you the most? Number 3 is the one I genuinely cannot get over.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 UK AI RULES <em>NOBODY IS GOING TO FOLLOW</em>",
+   "THE UK TOLD WORKERS <em>5 AI RULES</em> TO FOLLOW",
+   "THE UK PUBLISHED <em>5 OFFICIAL AI RULES</em>",
+   "THE UK JUST GAVE WORKERS <em>5 AI RULES</em>",
+   "5 UK GOVERNMENT AI RULES <em>WORTH IGNORING</em>"
+  ],
+  "scores": [
+   6,
+   2,
+   2,
+   3,
+   8
+  ],
+  "winner": 4,
+  "why": "[4] hits harder because 'worth ignoring' is bolder than 'nobody will follow'\u2014it's active dismissal, not prediction. The contradiction (official rules / ignore them) creates instant 'wait, WHAT?' tension that makes you stop scrolling to find out why."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 AI RULES <em>MOST PEOPLE FOLLOW BLINDLY</em> AND LOSE HOURS",
+   "5 UK GOVERNMENT AI RULES <em>WORTH IGNORING</em>",
+   "5 GOVERNMENT AI RULES <em>QUIETLY COSTING YOU HOURS</em>"
+  ],
+  "scores": [
+   5,
+   7,
+   8
+  ],
+  "winner": 2,
+  "why": "It tells you something's secretly costing you time right now\u2014way more urgent than being told rules are worth ignoring. Personal threats at 2am hit harder than any advice."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "IMAGE LAW \u2014 Cover fails archetype and thumb test. The cover is a plain neutral headshot of Keir Starmer: no story staging, no document or rulebook, no UK government branding, no visual that proves 'rules costing you hours.' A stranger at thumb size sees a man in a suit and shrugs. The edu-post law additionally requires 'full staged scenes in a real place' \u2014 a portrait headshot is not a scene. Fix:"
+}

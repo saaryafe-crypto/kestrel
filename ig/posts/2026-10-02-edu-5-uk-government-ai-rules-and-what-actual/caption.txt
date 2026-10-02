@@ -1,0 +1,26 @@
+The UK government just published 5 official AI rules for workers. Every one says to use it less. 📋
+
+1) Ask if you really need AI first.
+Flip it: "What would AI do first on my list today?"
+
+2) Check if a spreadsheet can do it.
+Real move: "Here's my data. What would a human take 2 hours to find?"
+
+3) Use the worst model to save energy.
+This one gets me. "What am I missing about this decision?" Use the best free model.
+
+4) Keep prompts short for the planet.
+More context wins: "Full context: [your situation]. What would an expert do?"
+
+5) Use AI only when necessary.
+Their whole point. "Run my weekly report. Where do I sign off?"
+
+SAVE THIS: 5 government rules, 5 prompts that flip them.
+
+Every government is writing AI rules right now. Most are written by people who have never used it seriously. The gap between official guidance and what actually works is growing. Close that gap and you stay ahead.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: eurofounder, UK Government
+
+#AI #ChatGPT #ArtificialIntelligence #AItools #AIbusiness
