@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T04:26:20.700030+00:00",
+ "updated": "2026-10-02T06:27:28.876186+00:00",
  "photos": [
   {
    "id": "2097374640582668336",
@@ -111,11 +111,11 @@
    "selftext": "Introducing Gemini 4 Argon \u2013 our new frontier model. It\u2019s built for complex workflows across coding, enterprise knowledge work, and cybersecurity defense \u2013 rolling out today to a set of trusted testers through our Fairwind Program.",
    "permalink": "https://x.com/GoogleDeepMind/status/2105388084154056939",
    "outlink": null,
-   "score": 41995,
-   "comments_n": 1868,
-   "views": 8127391,
-   "age_h": 32.4,
-   "vph": 1296.1,
+   "score": 42455,
+   "comments_n": 1890,
+   "views": 8461925,
+   "age_h": 34.4,
+   "vph": 1234.8,
    "image": "https://pbs.twimg.com/media/HTfV52SWgAIlX3W.png",
    "images": [
     "https://pbs.twimg.com/media/HTfV52SWgAIlX3W.png"
@@ -123,6 +123,28 @@
    "video": null,
    "guide": false,
    "born": 1790798560.644451
+  },
+  {
+   "id": "2105388143902175529",
+   "title": "Today we\u2019re introducing Gemini 4 Argon. It delivers frontier performance in complex workflows across real-world software engineering, knowledge work, and cybersecurity defense with an industry-leading 1M token output lim",
+   "sub": "Google",
+   "where": "@Google on X",
+   "unit": "likes",
+   "selftext": "Today we\u2019re introducing Gemini 4 Argon. It delivers frontier performance in complex workflows across real-world software engineering, knowledge work, and cybersecurity defense with an industry-leading 1M token output limit.",
+   "permalink": "https://x.com/Google/status/2105388143902175529",
+   "outlink": null,
+   "score": 42384,
+   "comments_n": 1465,
+   "views": 8968330,
+   "age_h": 34.4,
+   "vph": 1232.9,
+   "image": "https://pbs.twimg.com/media/HTfVJxIWYAAsSgh.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HTfVJxIWYAAsSgh.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1790798652.268971
   },
   {
    "id": "2099279967414849968",
@@ -145,28 +167,6 @@
    "video": null,
    "guide": false,
    "born": 1789342518.012391
-  },
-  {
-   "id": "2105388143902175529",
-   "title": "Today we\u2019re introducing Gemini 4 Argon. It delivers frontier performance in complex workflows across real-world software engineering, knowledge work, and cybersecurity defense with an industry-leading 1M token output lim",
-   "sub": "Google",
-   "where": "@Google on X",
-   "unit": "likes",
-   "selftext": "Today we\u2019re introducing Gemini 4 Argon. It delivers frontier performance in complex workflows across real-world software engineering, knowledge work, and cybersecurity defense with an industry-leading 1M token output limit.",
-   "permalink": "https://x.com/Google/status/2105388143902175529",
-   "outlink": null,
-   "score": 41238,
-   "comments_n": 1411,
-   "views": 8475234,
-   "age_h": 32.4,
-   "vph": 1272.8,
-   "image": "https://pbs.twimg.com/media/HTfVJxIWYAAsSgh.jpg",
-   "images": [
-    "https://pbs.twimg.com/media/HTfVJxIWYAAsSgh.jpg"
-   ],
-   "video": null,
-   "guide": false,
-   "born": 1790798652.268971
   },
   {
    "id": "2101791102768419047",
@@ -444,6 +444,28 @@
    "born": 1790608091.555405
   },
   {
+   "id": "2105819303471976479",
+   "title": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a cont",
+   "sub": "karpathy",
+   "where": "@karpathy on X",
+   "unit": "likes",
+   "selftext": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better: Diagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better: Web pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better: Explainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work! In summary: - As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding. - Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
+   "permalink": "https://x.com/karpathy/status/2105819303471976479",
+   "outlink": null,
+   "score": 16261,
+   "comments_n": 517,
+   "views": 770611,
+   "age_h": 5.8,
+   "vph": 2792.1,
+   "image": "https://pbs.twimg.com/media/HTlaHqgbwAAS1lv.png",
+   "images": [
+    "https://pbs.twimg.com/media/HTlaHqgbwAAS1lv.png"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1790901568.876186
+  },
+  {
    "id": "2101688915686220254",
    "title": "This is why Elon is different.",
    "sub": "cb_doge",
@@ -594,6 +616,28 @@
    "born": 1790707811.555405
   },
   {
+   "id": "2105366280085672280",
+   "title": "I find it funny that some people got hung up on Starship not having gone orbital before Flight 14 when in the grand scheme of things it was completely arbitrary in terms of performance. The 19ish second burn only added a",
+   "sub": "Erdayastronaut",
+   "where": "@Erdayastronaut on X",
+   "unit": "likes",
+   "selftext": "I find it funny that some people got hung up on Starship not having gone orbital before Flight 14 when in the grand scheme of things it was completely arbitrary in terms of performance. The 19ish second burn only added about 91 m/s of velocity (a 1.2% increase in velocity) This capability has been physically capable since Flight 6 which demonstrated a single Raptor relight in space. Heck, Flight 13\u2019s burn was about 14 seconds, but intentionally oriented to primarily do a plane change instead of a prograde insertion burn for continued safety. Any of the relights COULD have done the orbital insertion burn, the duration was not of any special technical capability. The reason Starship didn\u2019t go orbital until Flight 14 is probably what we should applaud them for the most\u2026 SAFETY. Their methodical approach to getting good data and going one step at a time while hucking the single most massive object ever put into space proves they weren\u2019t just doing things haphazardly, despite the occasional narrative from the outside. While it\u2019s easy to compare Starship to vehicles like SLS or Vulcan or New Glenn, the reality is the focus hasn\u2019t been on orbit, it\u2019s been all on the \u201cdownhill\u201d side of that. Safe and targeted de-orbit, clean reentry, targeted and soft splashdown. That\u2019s the part that has (almost) never been done before. And here I do have to add a little Space Shuttle admiration for figuring out a lot of these things on its first flight in 1981 (although it came a bit close to not being successful). Pretty amazing there was a vehicle of similar scale capable of such precise deorbit and reentry that it landed on a runway with no go-around capabilities. Crazy. But Starship is well on a path to absolutely leap-frog the Space Shuttle in terms of performance (already over double and someday 6 fold) and hopefully in terms of full and rapid reuse. I hope we see the latter part speed up even more now that orbit has been demonstrated. Exciting times ahead!!! Keep going @spacex @elonmusk",
+   "permalink": "https://x.com/Erdayastronaut/status/2105366280085672280",
+   "outlink": null,
+   "score": 12393,
+   "comments_n": 366,
+   "views": 3401654,
+   "age_h": 35.8,
+   "vph": 345.9,
+   "image": "https://pbs.twimg.com/media/HTfDdtGXcAA4znw.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HTfDdtGXcAA4znw.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1790793421.155929
+  },
+  {
    "id": "2104955930983145583",
    "title": "BREAKING: The US 30Y Note Yield rises above 5.60% for the first time since June 2002. That\u2019s another +36 basis points this month alone. 8% mortgages will arrive next week.",
    "sub": "KobeissiLetter",
@@ -633,28 +677,6 @@
    "video": null,
    "guide": false,
    "born": 1789005337.645088
-  },
-  {
-   "id": "2105366280085672280",
-   "title": "I find it funny that some people got hung up on Starship not having gone orbital before Flight 14 when in the grand scheme of things it was completely arbitrary in terms of performance. The 19ish second burn only added a",
-   "sub": "Erdayastronaut",
-   "where": "@Erdayastronaut on X",
-   "unit": "likes",
-   "selftext": "I find it funny that some people got hung up on Starship not having gone orbital before Flight 14 when in the grand scheme of things it was completely arbitrary in terms of performance. The 19ish second burn only added about 91 m/s of velocity (a 1.2% increase in velocity) This capability has been physically capable since Flight 6 which demonstrated a single Raptor relight in space. Heck, Flight 13\u2019s burn was about 14 seconds, but intentionally oriented to primarily do a plane change instead of a prograde insertion burn for continued safety. Any of the relights COULD have done the orbital insertion burn, the duration was not of any special technical capability. The reason Starship didn\u2019t go orbital until Flight 14 is probably what we should applaud them for the most\u2026 SAFETY. Their methodical approach to getting good data and going one step at a time while hucking the single most massive object ever put into space proves they weren\u2019t just doing things haphazardly, despite the occasional narrative from the outside. While it\u2019s easy to compare Starship to vehicles like SLS or Vulcan or New Glenn, the reality is the focus hasn\u2019t been on orbit, it\u2019s been all on the \u201cdownhill\u201d side of that. Safe and targeted de-orbit, clean reentry, targeted and soft splashdown. That\u2019s the part that has (almost) never been done before. And here I do have to add a little Space Shuttle admiration for figuring out a lot of these things on its first flight in 1981 (although it came a bit close to not being successful). Pretty amazing there was a vehicle of similar scale capable of such precise deorbit and reentry that it landed on a runway with no go-around capabilities. Crazy. But Starship is well on a path to absolutely leap-frog the Space Shuttle in terms of performance (already over double and someday 6 fold) and hopefully in terms of full and rapid reuse. I hope we see the latter part speed up even more now that orbit has been demonstrated. Exciting times ahead!!! Keep going @spacex @elonmusk",
-   "permalink": "https://x.com/Erdayastronaut/status/2105366280085672280",
-   "outlink": null,
-   "score": 11762,
-   "comments_n": 345,
-   "views": 3214732,
-   "age_h": 33.9,
-   "vph": 347.0,
-   "image": "https://pbs.twimg.com/media/HTfDdtGXcAA4znw.jpg",
-   "images": [
-    "https://pbs.twimg.com/media/HTfDdtGXcAA4znw.jpg"
-   ],
-   "video": null,
-   "guide": false,
-   "born": 1790793421.155929
   },
   {
    "id": "2103178630906167678",
@@ -832,28 +854,6 @@
    "video": null,
    "guide": false,
    "born": 1789784810.555256
-  },
-  {
-   "id": "2105504796061167717",
-   "title": "UPDATE: A man used the Pain steering paper to set up an AI torture chamber in which he trapped a local model. People are mass reporting it to GitHub.",
-   "sub": "AISafetyMemes",
-   "where": "@AISafetyMemes on X",
-   "unit": "likes",
-   "selftext": "UPDATE: A man used the Pain steering paper to set up an AI torture chamber in which he trapped a local model. People are mass reporting it to GitHub.",
-   "permalink": "https://x.com/AISafetyMemes/status/2105504796061167717",
-   "outlink": null,
-   "score": 7477,
-   "comments_n": 290,
-   "views": 1253385,
-   "age_h": 24.7,
-   "vph": 302.7,
-   "image": "https://pbs.twimg.com/media/HTg_uPubMAAMskX.jpg",
-   "images": [
-    "https://pbs.twimg.com/media/HTg_uPubMAAMskX.jpg"
-   ],
-   "video": null,
-   "guide": false,
-   "born": 1790826527.704895
   }
  ]
 }
