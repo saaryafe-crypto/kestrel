@@ -1,0 +1,10 @@
+{
+ "title": "Ultrafast: הטקסט מופיע מהר ממה שתספיקו לקרוא",
+ "caption": "OpenAI הפעילה מצב מהירות חדש שנקרא Ultrafast, שמייצר טקסט מהיר פי שמונה מהרגיל, ובקליפ הזה אפשר לראות אותו עובד.\n\nהמודל שמריץ אותו נקרא Codex, והוא מגיע ל-300 טוקנים בשנייה. טוקן זה בערך מילה או חלק ממילה, אז אתם רואים יותר מ-200 מילים שמופיעות בשנייה. זה מהר יותר ממה שרוב האנשים מספיקים לקרוא.\n\nבינתיים זה פעיל ב-API של OpenAI, שזה הכלי שמפתחים משתמשים בו כשהם בונים אפליקציות על גבי ChatGPT. המשתמשים הרגילים יקבלו את זה בקרוב.\n\nאוהבים AI? עקבו אחרי @ainews.israel לחדשות AI יומיות\n\nCredits: OpenAI. לקרדיט או הסרה שלחו DM\n\n#openai #chatgpt #artificialintelligence #aitools #aitech",
+ "start_s": 0,
+ "clip_s": 30,
+ "source": "https://video.twimg.com/amplify_video/2104993936112779264/vid/avc1/1920x1080/b-lrt-VyRDdcfdQC.mp4?tag=29",
+ "channel": "OpenAI",
+ "publish": "make",
+ "localized_from": "2026-09-29-reel-2104993966043320759"
+}
