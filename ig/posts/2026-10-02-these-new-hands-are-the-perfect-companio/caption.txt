@@ -1,0 +1,10 @@
+Boston Dynamics gave Atlas robot hands that learned to grip inside a simulation before touching anything real.
+
+Atlas spent years going viral for backflips. Boston Dynamics just built it hands: 13 joints each, directly controlled, designed for real physical labor. The hands were trained entirely in a virtual world before ever gripping a single real object, like a surgeon who only ever practiced in a video game. Atlas could already move like a person. Now it can work like one, and any job that uses your hands all day just got a robot competitor.
+
+Robots already move, see, and navigate. Hands were the last missing piece for real physical labor. Boston Dynamics just closed that gap. Send this to someone in a hands-on job.
+Running a business that depends on physical work? DM us "AI" and we'll show you what this means for yours.
+
+Sources: Boston Dynamics
+
+#robotics #AI #BostonDynamics #Atlas #automation

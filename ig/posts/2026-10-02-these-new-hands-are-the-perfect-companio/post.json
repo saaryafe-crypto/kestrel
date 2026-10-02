@@ -1,0 +1,81 @@
+{
+ "media_idx": 1,
+ "image_brief": "Boston Dynamics Atlas robot hand with 13 joints trained in simulation now gripping real metal bolt for physical labor",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "BOSTON DYNAMICS JUST GAVE ATLAS <em>HANDS TRAINED ON NOTHING REAL</em>",
+   "kicker": "13 JOINTS, BUILT FOR REAL WORK",
+   "hsize": 80,
+   "media": "posts/2026-10-02-these-new-hands-are-the-perfect-companio/cand-1.jpg"
+  }
+ ],
+ "caption": "Boston Dynamics gave Atlas robot hands that learned to grip inside a simulation before touching anything real.\n\nAtlas spent years going viral for backflips. Boston Dynamics just built it hands: 13 joints each, directly controlled, designed for real physical labor. The hands were trained entirely in a virtual world before ever gripping a single real object, like a surgeon who only ever practiced in a video game. Atlas could already move like a person. Now it can work like one, and any job that uses your hands all day just got a robot competitor.\n\nRobots already move, see, and navigate. Hands were the last missing piece for real physical labor. Boston Dynamics just closed that gap. Send this to someone in a hands-on job.\nRunning a business that depends on physical work? DM us \"AI\" and we'll show you what this means for yours.\n\nSources: Boston Dynamics\n\n#robotics #AI #BostonDynamics #Atlas #automation",
+ "pinned_comment": "Atlas went viral doing backflips for years before it had hands that could do anything useful. At what point does a robot that practiced gripping in a simulation outwork a human on an assembly line?",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "BOSTON DYNAMICS TRAINED ATLAS' NEW HANDS <em>ENTIRELY IN SIMULATION</em>",
+   "BOSTON DYNAMICS JUST GAVE ATLAS <em>YOUR HANDS</em>",
+   "<em>BOSTON DYNAMICS</em> JUST GAVE ATLAS HANDS FOR REAL WORK",
+   "BOSTON DYNAMICS JUST GAVE ATLAS HANDS <em>BUILT FOR REAL WORK</em>",
+   "BOSTON DYNAMICS GAVE ATLAS <em>REAL HANDS FOR THE FIRST TIME</em>",
+   "BOSTON DYNAMICS GAVE ATLAS <em>HANDS THAT CAN DO YOUR JOB</em>",
+   "BOSTON DYNAMICS JUST MADE ATLAS <em>DANGEROUS TO HUMAN WORKERS</em>",
+   "BOSTON DYNAMICS GAVE ATLAS <em>HANDS WITH 13 JOINTS</em>",
+   "BOSTON DYNAMICS GAVE ATLAS <em>HANDS TRAINED IN A VIDEO GAME</em>",
+   "BOSTON DYNAMICS GAVE ATLAS HANDS WITH <em>13 JOINTS EACH</em>"
+  ],
+  "scores": [
+   4,
+   5,
+   3,
+   4,
+   0,
+   4,
+   0,
+   6,
+   8,
+   7
+  ],
+  "winner": 8,
+  "why": "\"Video game training\" creates the \"wait WHAT?\" reaction that stops scrolling\u2014the method seems impossible until you read why. \"13 joints each\" is objectively impressive but sounds technical; video game training is genuinely surprising to anyone."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "BOSTON DYNAMICS GAVE ATLAS <em>HANDS TRAINED IN A VIDEO GAME</em>",
+   "BOSTON DYNAMICS JUST GAVE ATLAS <em>HANDS TRAINED ON NOTHING REAL</em>",
+   "BOSTON DYNAMICS JUST GAVE ATLAS <em>13-JOINT HANDS</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   3
+  ],
+  "winner": 1,
+  "why": "[1]'s 'trained on nothing real' is a paradox that makes you stop\u2014it doesn't compute, so you have to read it. [0]'s video game training is logical and familiar, so it doesn't hit as hard."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Boston Dynamics",
+  "actor_known": true,
+  "anchor": "Boston Dynamics",
+  "specifics": [
+   "13 degrees of freedom per hand",
+   "Trained entirely in simulation before real-world deployment (sim-to-real RL)",
+   "Directly actuated \u2014 no cables or hydraulic tricks",
+   "Explicitly designed for 'dexterous physical work,' not demos",
+   "Announced October 1, 2026 for the Atlas humanoid robot"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "These new hands are the perfect companion for Atlas. With 13 degrees of freedom, they are directly actuated, built for high fidelity simulation to enable sim-to-real RL, and designed from the ground up for dexterous phys",
+  "link": "https://x.com/BostonDynamics/status/2105659276425298012",
+  "judge_interest": 5,
+  "scout_score": 45.1
+ },
+ "gate_a_relaxed": true
+}
