@@ -1,0 +1,35 @@
+{
+ "stories": [
+  {
+   "headline": "xAI launches Grokipedia to build a living AI encyclopedia"
+  },
+  {
+   "headline": "Judge approves Paramount buying Warner Bros for $110 billion"
+  },
+  {
+   "headline": "SpaceX AI spacecraft will carry 20 percent more power than the ISS"
+  },
+  {
+   "headline": "Boston Dynamics built 13-joint hands for the Atlas robot"
+  },
+  {
+   "headline": "Small businesses are handing real jobs to AI right now"
+  },
+  {
+   "headline": "Rocket Lab signs its biggest ever commercial launch deal"
+  }
+ ],
+ "caption": "Here's what happened in AI and tech in the last 24 hours, from xAI building a living encyclopedia to a $110 billion media deal\n\nxAI released Grokipedia v0.3, an AI-powered encyclopedia anyone can help build.\nA judge approved Paramount buying Warner Bros for $110 billion.\nSpaceX's Star Mind AI spacecraft will each carry 250kW of solar power, nearly three times the ISS's solar output.\nBoston Dynamics gave Atlas new hands: 13 degrees of freedom, built for real physical work.\nRocket Lab signed its biggest ever launch contract: 20 missions for Synspective, bringing their Electron total to 47.\n\nAI is showing up in spacecraft, encyclopedias, and small shops all at once. The tools aren't just for big companies anymore. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: xAI, SpaceX, Paramount, Boston Dynamics, Rocket Lab\n\n#ArtificialIntelligence #AINews #TechNews #Robotics #SpaceTech",
+ "pinned_comment": "xAI is asking the public to help build an AI-powered encyclopedia of everything. Does that make Wikipedia obsolete, or does human editing still matter more than AI at this scale?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "ATLAS JUST GOT <em>HUMAN HANDS</em>",
+   "kicker": "THE DAILY RECAP"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW \u2014 COVER IS DECORATION, NOT PROOF: The cover image is an abstract CGI particle/light-streak on a near-black void. It proves nothing about the headline 'ATLAS JUST GOT HUMAN HANDS.' A stranger scrolling the feed would guess 'energy', 'physics', 'space' \u2014 not 'robot hands.' Fix: replace with a photoreal Boston Dynamics press photo of the Atlas robot foregrounded with its new hands clearly v"
+}
