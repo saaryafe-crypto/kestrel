@@ -1,0 +1,74 @@
+{
+ "media_idx": 1,
+ "image_brief": "Tesla connected to Supercharger with charging cable still attached, car beginning to pull away urgently",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TESLA JUST LET YOU DRIVE AWAY <em>WHILE STILL PLUGGED IN</em>",
+   "kicker": "LIVE NOW, U.S. SUPERCHARGERS ONLY",
+   "hsize": 76,
+   "media": "posts/2026-10-02-tesla-has-just-introduced-a-new-supercha/cand-1.webp"
+  }
+ ],
+ "caption": "Tesla just pushed an update that lets you drive off a Supercharger while the cable is still plugged in. \u26a1\n\nTesla pushed a software update called 'Emergency Drive Away' that lets you drive off a Supercharger while the cable is still in the car. The feature is live now across U.S. Superchargers in update 2026.38.3, and pre-2021 Model S and Model X are not supported. Tesla built the Supercharger hardware to handle it, so the cable just releases on its own as you go. Your Tesla now has a built-in escape from any public charging stop, which quietly reframes every late-night charge as a place you might need to flee.\n\nTesla now has a purpose-built panic exit engineered into the charging cable itself. When a software update can change what a piece of hardware does overnight, the old rules about product safety change fast.\nOwn a business? DM us 'AI' and we'll show you how this kind of thinking could change what your product does too.\n\nSources: Tesla Charging on X, Sawyer Merritt on X\n\n#Tesla #Supercharger #ElectricVehicles #TeslaUpdate #EVSafety",
+ "pinned_comment": "The part most people are missing: Tesla had to build the Supercharger hardware itself to safely handle a car driving away mid-charge. This wasn't just a software tweak.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "TESLA'S CHARGING CABLE <em>NOW DISCONNECTS AS YOU DRIVE AWAY</em>",
+   "TESLA CARS NOW DRIVE OFF A CHARGER <em>WITHOUT UNPLUGGING</em>",
+   "TESLA CARS CAN NOW DRIVE AWAY <em>MID-CHARGE</em>",
+   "TESLA NOW LETS YOU <em>DRIVE AWAY WHILE STILL PLUGGED IN</em>",
+   "TESLA JUST LET YOU DRIVE AWAY <em>WHILE STILL PLUGGED IN</em>"
+  ],
+  "scores": [
+   0,
+   7,
+   6,
+   8,
+   9
+  ],
+  "winner": 4,
+  "why": "[4]'s 'JUST LET YOU' feels fresher than [3]'s 'NOW LETS YOU.' Both communicate the shocking fact, but urgency beats an official tone for stopping 2am scrollers."
+ },
+ "hook_sharpen": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "TESLA CARS NOW HAVE <em>EMERGENCY DRIVE AWAY</em> MODE",
+   "TESLA JUST LET YOU DRIVE AWAY <em>WHILE STILL PLUGGED IN</em>",
+   "TESLA CARS CAN NOW <em>ESCAPE A THREAT</em> WHILE STILL PLUGGED IN",
+   "YOUR TESLA CAN NOW <em>FLOOR IT WITHOUT UNPLUGGING</em>"
+  ],
+  "scores": [
+   3,
+   9,
+   7,
+   8
+  ],
+  "winner": 1,
+  "why": "\"DRIVE AWAY WHILE STILL PLUGGED IN\" hits the core contradiction directly and triggers the instant \"wait, how is that possible?\" reaction. \"FLOOR IT\" dramatizes the excitement but buries the more fundamentally shocking fact that makes you stop scrolling."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Tesla",
+  "actor_known": true,
+  "anchor": "Tesla",
+  "specifics": [
+   "'Emergency Drive Away' lets you drive off a Supercharger while still physically plugged in",
+   "Live now in OTA update 2026.38.3",
+   "Pre-2021 Model S and Model X are excluded",
+   "U.S. Superchargers only for now \u2014 no adapters needed",
+   "Announcement hit 1.5 million views within hours"
+  ]
+ },
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Tesla has just introduced a new Supercharging safety feature called \u201cEmergency Drive Away,\u201d which allows you to immediately drive away from a Supercharger for safety reasons while your vehicle is still plugged in. Now ro",
+  "link": "https://x.com/SawyerMerritt/status/2105795258256859177",
+  "judge_interest": 5,
+  "scout_score": 60.8
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "EMOJI: The \u26a1 after the opening line violates \u00a74's explicit ban on emojis. Remove it.; OPENER REPEATS THE BODY: The first caption sentence ('Tesla just pushed an update that lets you drive off a Supercharger while the cable is still plugged in') is restated almost word-for-word as the second paragraph's opening sentence ('Tesla pushed a software update called Emergency Drive Away that lets you driv"
+}
