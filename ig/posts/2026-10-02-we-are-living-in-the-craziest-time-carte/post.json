@@ -1,0 +1,81 @@
+{
+ "media_idx": 1,
+ "image_brief": "AI decoded a 217-year-old Napoleon military cipher from a single blurry scan in six hours",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "AI CRACKED NAPOLEON'S <em>217-YEAR-OLD CIPHER</em> FROM <em>ONE BLURRY PHOTO</em>",
+   "kicker": "THE HARD PART WAS THE HANDWRITING",
+   "hsize": 78,
+   "media": "posts/2026-10-02-we-are-living-in-the-craziest-time-carte/cand-1-fit.jpg"
+  }
+ ],
+ "caption": "An AI just decoded a 217-year-old Napoleon cipher that no human could crack, working from a single blurry photo.\n\nCarter Church handed GPT-6 Astra one bad scan of a coded letter written to one of Napoleon's generals, and six hours later had a fully decoded message. The AI transcribed 1,300 cipher symbols from a single image, found a partial key, wrote its own solver for the remaining symbols, and corrected the letter's date. The code had sat unsolved since 1809. The hard part was not breaking the cipher. It was the AI trying to read the terrible 200-year-old handwriting. A cipher that stumped cryptographers for 217 years fell to an AI that spent most of those six hours just squinting at the penmanship.\n\nEvery archive in the world has a drawer full of documents everyone gave up trying to read. You now have a six-hour fix for all of them.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Carter Church on X (Sep 30, 2026), Cryptiana\n\n#AI #History #Cryptography #Technology #GPT6",
+ "pinned_comment": "Cryptiana, the main database that tracks unsolved ciphers worldwide, officially listed this one as solved after Church posted his thread. 217 years open. Closed in one afternoon.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "A NAPOLEON CIPHER <em>UNSOLVED FOR 217 YEARS, CRACKED IN 6 HOURS</em>",
+   "AI DECODED <em>1,300 NAPOLEON SYMBOLS</em> NOBODY CRACKED IN <em>217 YEARS</em>",
+   "AI JUST CRACKED <em>NAPOLEON'S 217-YEAR-OLD MILITARY CIPHER</em>",
+   "AI DECODED A <em>217-YEAR-OLD NAPOLEON CODE</em> FROM <em>ONE BLURRY PHOTO</em>",
+   "A 217-YEAR-OLD NAPOLEON CIPHER, <em>CRACKED BY AI IN 6 HOURS</em>",
+   "AN AI JUST DECODED <em>NAPOLEON'S 217-YEAR-OLD SECRET CIPHER</em>",
+   "THE <em>217-YEAR-OLD NAPOLEON CIPHER</em> IS NOW <em>OFFICIALLY SOLVED</em>",
+   "AI CRACKED A <em>217-YEAR-OLD NAPOLEON CIPHER IN 6 HOURS</em>",
+   "AI JUST CRACKED A <em>217-YEAR-OLD NAPOLEON CIPHER</em> IN <em>6 HOURS</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   6,
+   6.5,
+   8,
+   5,
+   5,
+   8.5,
+   9
+  ],
+  "winner": 8,
+  "why": "\"JUST CRACKED\" adds perceived immediacy that stops exhausted 2am scrollers faster than plain \"CRACKED.\" The single-word urgency cue triggers reflexive shock, weaponizing identical facts more effectively."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "NAPOLEON'S <em>217-YEAR-OLD CODE</em> FELL TO AI IN <em>6 HOURS</em>",
+   "AI CRACKED NAPOLEON'S <em>217-YEAR-OLD CIPHER</em> FROM <em>ONE BLURRY PHOTO</em>",
+   "AI JUST CRACKED A <em>217-YEAR-OLD NAPOLEON CIPHER</em> IN <em>6 HOURS</em>",
+   "A GUY CRACKED <em>NAPOLEON'S 217-YEAR-OLD CODE</em> IN <em>6 HOURS</em>"
+  ],
+  "scores": [
+   8,
+   9,
+   8,
+   0
+  ],
+  "winner": 1,
+  "why": "The 'blurry photo' detail creates an instant 'wait, WHAT?'\u2014solving an impossible 217-year-old puzzle from degraded data is more mind-stopping than speed alone. [0] impresses but stays generic; [1] reveals the actual crux of why this is jaw-dropping."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Carter Church / GPT-6 Astra",
+  "actor_known": false,
+  "anchor": "a 217-year-old Napoleon cipher",
+  "specifics": [
+   "217 years unsolved \u2014 cracked in ~6 hours by one AI from a single photo",
+   "1,300 cipher units transcribed from a blurry historical scan",
+   "The bottleneck wasn't codebreaking \u2014 it was the AI struggling to read the handwriting at all",
+   "Astra found the partial key, wrote its own solver, AND corrected the letter's date",
+   "Cryptiana officially lists the cipher as solved now"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (3/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "We are living in the craziest time: Carter Church used GPT-6 Astra to decipher a 217-year-old letter to one of Napoleon\u2019s generals, reporting about six hours of model work. The difficulty lay primarily in extracting deci",
+  "link": "https://x.com/kimmonismus/status/2105547846288073183",
+  "judge_interest": 7,
+  "scout_score": 59.2
+ }
+}

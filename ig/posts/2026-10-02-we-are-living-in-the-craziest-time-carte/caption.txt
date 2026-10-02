@@ -1,0 +1,11 @@
+An AI just decoded a 217-year-old Napoleon cipher that no human could crack, working from a single blurry photo.
+
+Carter Church handed GPT-6 Astra one bad scan of a coded letter written to one of Napoleon's generals, and six hours later had a fully decoded message. The AI transcribed 1,300 cipher symbols from a single image, found a partial key, wrote its own solver for the remaining symbols, and corrected the letter's date. The code had sat unsolved since 1809. The hard part was not breaking the cipher. It was the AI trying to read the terrible 200-year-old handwriting. A cipher that stumped cryptographers for 217 years fell to an AI that spent most of those six hours just squinting at the penmanship.
+
+Every archive in the world has a drawer full of documents everyone gave up trying to read. You now have a six-hour fix for all of them.
+
+Running a business? DM us "AI" and we'll show you what this could do for yours.
+
+Sources: Carter Church on X (Sep 30, 2026), Cryptiana
+
+#AI #History #Cryptography #Technology #GPT6
