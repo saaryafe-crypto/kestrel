@@ -1,0 +1,42 @@
+{
+ "stories": [
+  {
+   "headline": "xAI launches Grokipedia to build a living AI encyclopedia"
+  },
+  {
+   "headline": "Judge approves Paramount buying Warner Bros for $110 billion"
+  },
+  {
+   "headline": "SpaceX AI spacecraft will carry 20 percent more power than the ISS"
+  },
+  {
+   "headline": "Boston Dynamics built 13-joint hands for the Atlas robot"
+  },
+  {
+   "headline": "Small businesses are handing real jobs to AI right now"
+  },
+  {
+   "headline": "Rocket Lab signs its biggest ever commercial launch deal"
+  }
+ ],
+ "caption": "ל-Atlas יש עכשיו ידיים של ממש: 13 צירי תנועה, בנויות לעבודה אמיתית.\n\nxAI הוציאה את Grokipedia v0.3, אנציקלופדיה AI שכל אחד יכול לעזור לבנות. שופט אישר ל-Paramount לקנות את Warner Bros ב-110 מיליארד דולר. חלליות ה-Star Mind AI של SpaceX ייצרו 250kW אנרגיה סולארית כל אחת, כמעט פי שלושה מתחנת החלל הבינלאומית. Rocket Lab חתמה על החוזה הגדול ביותר שלה: 20 שיגורים ל-Synspective, ו-47 שיגורי Electron בסך הכל.\n\nמקורות: xAI, SpaceX, Paramount, Boston Dynamics, Rocket Lab\n\nיש לך עסק? שלח לנו \"AI\" בDM ונראה לך מה זה יכול לעשות בשבילך. עקוב אחרי @ainews.israel.\n\n#ArtificialIntelligence #AINews #TechNews #Robotics #SpaceTech",
+ "pinned_comment": "xAI מזמינה את כולם לעזור לבנות אנציקלופדיה AI על הכל. זה הופך את Wikipedia למיותרת, או שצריך עדיין אנשים שיכתבו?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "ל-Atlas יש עכשיו <em>ידיים של ממש</em>",
+   "kicker": "תקציר יומי"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW — COVER IS DECORATION, NOT PROOF: The cover image is an abstract CGI particle/light-streak on a near-black void. It proves nothing about the headline 'ATLAS JUST GOT HUMAN HANDS.' A stranger scrolling the feed would guess 'energy', 'physics', 'space' — not 'robot hands.' Fix: replace with a photoreal Boston Dynamics press photo of the Atlas robot foregrounded with its new hands clearly v",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
