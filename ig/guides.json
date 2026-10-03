@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T20:40:31.903500+00:00",
+ "updated": "2026-10-03T22:42:41.384851+00:00",
  "guides": [
   {
    "id": "2096052072470704579",
@@ -639,26 +639,6 @@
    "born": 1788534284.267859
   },
   {
-   "id": "2095632938717090269",
-   "title": "New York City Mayor Zohran Mamdani has banned AI tools in elementary and middle school classrooms for one year. The moratorium ends the use of 40 educational AI tools and affects 600,000 students in the largest US school",
-   "sub": "AJEnglish",
-   "where": "@AJEnglish on X",
-   "unit": "likes",
-   "selftext": "New York City Mayor Zohran Mamdani has banned AI tools in elementary and middle school classrooms for one year. The moratorium ends the use of 40 educational AI tools and affects 600,000 students in the largest US school district. \ud83d\udd17",
-   "permalink": "https://x.com/AJEnglish/status/2095632938717090269",
-   "outlink": null,
-   "score": 2207,
-   "comments_n": 31,
-   "views": 123128,
-   "age_h": 31.7,
-   "vph": 69.6,
-   "image": "https://pbs.twimg.com/media/HRUuO1RaIAAqrFR.jpg",
-   "video": null,
-   "guide": true,
-   "wide_guide": true,
-   "born": 1788473050.844084
-  },
-  {
    "id": "2096010420561539478",
    "title": "Pedirle un simple \"resumen\" a Gemini Notebook es desaprovechar por completo la herramienta. \ud83d\uded1 No es un lector de PDFs, es tu investigador personal. Aqu\u00ed tienes 4 prompts para exprimir al m\u00e1ximo tus documentos: \ud83e\uddf5\ud83d\udc47",
    "sub": "googleespanol",
@@ -734,11 +714,11 @@
    "selftext": "I've spend 10+ hrs perfecting how to get the best out of Opus 5.5 for video generation workflow: - Use it with Claude Code, not the app. - Use OpenRouter API to access all the other models (image gen, video gen, audio gen) with one key - Use Gemini 3.8 TTS and make it create a skill from the API to put emotion into the voice. - Use Manim, Hyperframes, Motion Canvas for motion graphics for HTML web grounded video - Use GPT 2.5 Image Sunburst for keyframes and Veo 3.1 / Seedance 2.5 for generation. Seedance does better with motion shots. Ensure you have reference images for consistency and generate an animatic before full video. - Add a script writing planning skill. Use OpenTimelineIO to assemble. - Explicitly tell it to avoid Claudisms like short punchy sentences and a lot of numbers. \u201cNarrate like a university professor.\u201d - Allow it to use yt-dlp with search to inject clips from real videos (creative commons) in composition - Use ElevenLabs for music gen in the background - Add a caption skill which uses any decent ASR model to get word-level timed subtitles on the final video - Add a critic skill which takes screenshots and uses transcription to validation the audio and video quality In the prompt, specify a) what you want b) aspect ratio c) length d) style preferences. ffmpeg handles most of the actual video manipulation tasks. Here's an example of a 4 minute Neocloud business explainer:",
    "permalink": "https://x.com/deedydas/status/2104957026199900220",
    "outlink": null,
-   "score": 2033,
-   "comments_n": 156,
-   "views": 142342,
-   "age_h": 71.0,
-   "vph": 28.7,
+   "score": 2047,
+   "comments_n": 155,
+   "views": 145203,
+   "age_h": 103.2,
+   "vph": 19.8,
    "image": "https://pbs.twimg.com/amplify_video_thumb/2104956923028402176/img/lBEfj6AOLy3EcRSu.jpg",
    "images": [],
    "video": "https://video.twimg.com/amplify_video/2104956923028402176/vid/avc1/1920x1080/O8WF2ZwvIyssBAe0.mp4?tag=16",
