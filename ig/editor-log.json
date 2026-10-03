@@ -1,40 +1,5 @@
 [
  {
-  "t": "2026-09-30T02:51:38Z",
-  "gate": "A",
-  "subject": "Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything.",
-  "verdict": "KILL",
-  "reason": "This is a banned empty-form launch preview — no demonstration, no specifics, no proof of release — just a marketing teaser with insufficient substance to build slides from."
- },
- {
-  "t": "2026-09-30T02:53:07Z",
-  "gate": "A",
-  "subject": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher",
-  "verdict": "KILL",
-  "reason": "One thin marketing announcement with zero product specifications, capabilities, or details; writer cannot build slides demonstrating what Dots actually does or teaching how to use it (required for feature posts per §1) without external sources or speculation."
- },
- {
-  "t": "2026-09-30T02:53:49Z",
-  "gate": "A",
-  "subject": "🚨 Self Improving Personal Agents - chat with them on WhatsApp and Telegram - persistent memory - learns how you do work ",
-  "verdict": "KILL",
-  "reason": "Unknown founder pitching a product with zero proof it's live, users are adopting it, or any outcome to report—fails as story and violates UNKNOWN ACTOR rule."
- },
- {
-  "t": "2026-09-30T02:53:55Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "Off-lens: government space agency satellite launch lacks the tech-business angle (company, founder, valuation) required for space content; the doctrine reserves space stories for SpaceX-tier commercial entities, not nationalist government achievements."
- },
- {
-  "t": "2026-09-30T02:54:34Z",
-  "gate": "A",
-  "subject": "BREAKING: Grok is helping power America .gov, the U.S. government’s new AI website. 🇺🇸 U.S. Chief Design Officer Joe Geb",
-  "verdict": "APPROVE",
-  "reason": "xAI is an explicitly listed household-name lab; government-scale Grok deployment qualifies as a major-move NEWS event per §1 even from thin sourcing."
- },
- {
   "t": "2026-09-30T02:54:39Z",
   "gate": "A",
   "subject": "BREAKING — President Trump signs an executive order directing every federal agency to begin integrating with America(dot",
@@ -2098,5 +2063,40 @@
   "subject": "HACKERS JUST <em>REMOTELY KILLED</em> A US-BOUND OIL TANKER'S ENGINE",
   "verdict": "FAIL",
   "reason": "s1: The central subject is a cartoon/mascot frog figure, which is neither a real person nor a credible press photo, undermining the professional news standard required for the page."
+ },
+ {
+  "t": "2026-10-03T06:19:30Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — text-on-black cover is banned. The cover is abstract orange particle bokeh on a black void: no subject, no person, no proof, no story. §3 is explicit: 'Text-on-black or empty-top covers are failures.' The daily-recap container note confirms image law on the cover fully applies. Fix: photoreal composite anchored to the day's biggest story — Jensen Huang's face (emotional register: grinn"
+ },
+ {
+  "t": "2026-10-03T06:21:34Z",
+  "gate": "B",
+  "subject": "NVIDIA JUST HIT <em>$5.7 TRILLION</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — COVER HAS NO SUBJECT. The cover is text-on-black with an abstract orange digital particle/light-streak effect in the top two-thirds. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' A stranger scrolling at feed size sees a decorative light burst, not an Nvidia record. The thumb test fails entirely. Fix: rep"
+ },
+ {
+  "t": "2026-10-03T06:23:09Z",
+  "gate": "B",
+  "subject": "NVIDIA JUST HIT <em>$5.7 TRILLION</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — PHOTOREAL VIOLATION: The cover image is abstract CGI particle art (an orange light burst on pure black) — no element reads as photographed. The Doctrine is explicit: 'every ELEMENT in the frame must read as photographed — real skin, real product, real logo mark, real photo fragments. A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outs"
+ },
+ {
+  "t": "2026-10-03T06:24:15Z",
+  "gate": "B",
+  "subject": "NVIDIA JUST HIT <em>$5.7 TRILLION</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — cover has no proof subject. The background is an abstract orange particle burst over black: a digital illustration, not a photoreal element. The thumb test fails completely — a stranger at feed size sees a generic tech wallpaper, not 'Nvidia hit a record.' IMAGE LAW requires every element to read as photographed and the cover to prove the headline in half a second. For this story the a"
+ },
+ {
+  "t": "2026-10-03T06:24:21Z",
+  "gate": "R",
+  "subject": "NVIDIA JUST HIT <em>$5.7 TRILLION</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

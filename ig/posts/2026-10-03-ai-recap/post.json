@@ -1,0 +1,32 @@
+{
+ "stories": [
+  {
+   "headline": "Nvidia hits all-time record worth $5.7 trillion"
+  },
+  {
+   "headline": "AI is now acing accounting exams"
+  },
+  {
+   "headline": "AI drew a world map from 16,200 GPS questions"
+  },
+  {
+   "headline": "US-bound oil tanker had its propulsion system hacked"
+  },
+  {
+   "headline": "One prompt and music, Opus 5.5 finished a project overnight"
+  }
+ ],
+ "caption": "Here's what happened in AI in the last 24 hours, from Nvidia hitting a $5.7 trillion all-time high to AI passing accounting exams\n\nNvidia broke its all-time stock record. The company is now worth $5.7 trillion, the highest any chipmaker has ever been. $10,000 invested ten years ago is $1.58 million today.\n\nAI passed accounting exams, the same tests your accountant spent years studying for.\n\nResearchers asked an AI \"land or water?\" 16,200 times using GPS coordinates, then plotted the answers as an image. It drew an accurate map of Earth. It never studied geography, it just read the internet.\n\nA US-bound oil tanker had its propulsion system hacked mid-voyage.\n\nFour stories, one day. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: X (financial markets, AI research community, cybersecurity feeds)\n\n#AI #Nvidia #ArtificialIntelligence #Tech #AINews",
+ "pinned_comment": "Nvidia is now worth $5.7 trillion, more than most countries' entire stock markets combined. Is one AI chip company being this dominant a sign that AI is the real deal, or the biggest bubble of a generation?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "NVIDIA JUST HIT <em>$5.7 TRILLION</em>",
+   "kicker": "THE DAILY RECAP"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW \u2014 cover has no proof subject. The background is an abstract orange particle burst over black: a digital illustration, not a photoreal element. The thumb test fails completely \u2014 a stranger at feed size sees a generic tech wallpaper, not 'Nvidia hit a record.' IMAGE LAW requires every element to read as photographed and the cover to prove the headline in half a second. For this story the a"
+}
