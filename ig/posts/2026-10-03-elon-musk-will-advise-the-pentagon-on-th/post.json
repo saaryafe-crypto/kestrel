@@ -1,0 +1,66 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "ELON MUSK WILL NOW <em>SHAPE THE FUTURE OF WAR</em>",
+   "kicker": "HE NEVER SERVED IN UNIFORM",
+   "hsize": 76,
+   "media": "faces/elon-musk-2.jpg"
+  }
+ ],
+ "caption": "Elon Musk is now officially advising the Pentagon on the future of war.\n\nElon Musk, a man who has never served a single day in uniform, will now sit across from US generals and tell them how America's next wars should be fought. He owns SpaceX and Starlink, the rockets and satellite networks that armies around the world already use in active combat. He is now also the one advising on how those same armies should fight next. The guy who profits most from how wars are fought is now the one writing the playbook for the US military.\n\nTech billionaires have been creeping into national security for years. Now it's formal. Your defense strategy is being shaped by the same person whose rockets and satellites already run it. That line is gone.\n\nRunning a business? DM us \"AI\" and we'll show you what this kind of shift means for yours.\n\nSources: Washington Post\n\n#ElonMusk #Pentagon #AI #NationalSecurity #Technology",
+ "pinned_comment": "Would you want the person who already owns the rockets and satellites your military runs on to also decide how your next war gets fought? Because that just happened.",
+ "hook_tournament": {
+  "story_type": "corporate_move",
+  "candidates": [
+   "ELON MUSK IS NOW <em>THE PENTAGON'S OFFICIAL WAR ADVISER</em>",
+   "ELON MUSK WILL TELL US GENERALS <em>HOW AMERICA FIGHTS WARS</em>",
+   "ELON MUSK JUST BECAME <em>AMERICA'S CIVILIAN WAR STRATEGIST</em>",
+   "ELON MUSK WILL NOW <em>SHAPE THE FUTURE OF WAR</em>",
+   "THE PENTAGON JUST MADE ELON MUSK <em>ITS WAR ADVISOR</em>",
+   "<em>ELON MUSK</em> NOW SHAPES HOW AMERICA FIGHTS ITS WARS",
+   "ELON MUSK WILL TELL <em>THE PENTAGON HOW WARS GET FOUGHT</em>",
+   "ELON MUSK IS NOW <em>THE PENTAGON'S OFFICIAL WAR ADVISOR</em>",
+   "<em>ELON MUSK</em> JUST BECAME THE PENTAGON'S WAR PLANNER",
+   "ELON MUSK WILL <em>TELL THE US MILITARY HOW TO FIGHT</em>"
+  ],
+  "scores": [
+   0,
+   8,
+   0,
+   9,
+   0,
+   0,
+   7,
+   0,
+   0,
+   7
+  ],
+  "winner": 3,
+  "why": "'Shape the future of war' hits with undeniable scale that makes you stop cold. 'Tell us generals' is clear but sounds like a briefing, not a shock."
+ },
+ "viral": {
+  "story_type": "corporate_move",
+  "actor": "Elon Musk",
+  "actor_known": true,
+  "anchor": "Elon Musk",
+  "specifics": [
+   "Elon Musk will officially advise the Pentagon on the future of war",
+   "Story broken by the Washington Post",
+   "Reported October 2, 2026",
+   "Musk is a private citizen and tech CEO, not a military or government official",
+   "Tweet hit 374.9K views within hours of posting"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Elon Musk will advise the Pentagon on the future of war, per WaPo",
+  "link": "https://x.com/unusual_whales/status/2106046045620777304",
+  "judge_interest": 5,
+  "scout_score": 85.6
+ },
+ "editor_override": "COVER IMAGE FAILS PROOF/ARCHETYPE TEST: The image is a neutral close-up headshot of Musk in a Tesla sweatshirt against a plain white background. The thumb test fails \u2014 at feed size, a stranger sees Musk's face but cannot guess this story has anything to do with war, the Pentagon, or a military advisory role. IMAGE LAW requires the cover to answer 'what would prove this headline in half a second.' ",
+ "gate_r": "s1: The photo is a low-quality candid close-up with the top of Musk's head visibly amputated at the frame edge \u2014 it lacks the bright, saturated press-photo energy the standard requires."
+}

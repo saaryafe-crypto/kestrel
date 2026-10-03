@@ -1,159 +1,5 @@
 [
  {
-  "t": "2026-09-30T01:49:21Z",
-  "gate": "B",
-  "subject": "ANTHROPIC LOST $42B, <em>WILL SELL YOU SHARES ANYWAY</em>",
-  "verdict": "REJECT",
-  "reason": "$518 billion attributed to Anthropic's own 'servers and cloud' spend 'in the coming year alone' fails the number sanity check. Amazon, Microsoft, Google, and Meta combined did not reach that capex level in any recent year. The most likely reading of the source filing is that Anthropic cited $518B as a projected total-industry or infrastructure investment figure, not their own spend — the caption r"
- },
- {
-  "t": "2026-09-30T01:51:36Z",
-  "gate": "B",
-  "subject": "ANTHROPIC LOST $42B, <em>WILL SELL YOU SHARES ANYWAY</em>",
-  "verdict": "REJECT",
-  "reason": "Cover image fails the archetype and thumb test. Dario Amodei's face is correct cast truth for an Anthropic story, but the image is a plain candid interview photo — navy suit, coffee mug, fireplace — with zero Anthropic branding and no story-world props. At feed size a stranger sees 'man smiling at a table'; nothing connects to a $42B loss or an IPO. The required archetype for a company/CEO financi"
- },
- {
-  "t": "2026-09-30T01:52:19Z",
-  "gate": "R",
-  "subject": "ANTHROPIC LOST $42B, <em>WILL SELL YOU SHARES ANYWAY</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "gate": "A",
-  "reason": "One-line announcement with no numbers, demo, or specifics prevents confirming whether this is a major move or routine product preview; writer would require padding; insufficient substance to assess story viability.",
-  "subject": "Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything.",
-  "t": "2026-09-29T23:24:10Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "scout interest 8/10 — news-first fast lane",
-  "subject": "BREAKING: Anthropic is making a massive bet that AI will transform the global economy more profoundly than industrializa",
-  "t": "2026-09-29T23:24:18Z",
-  "verdict": "AUTO_APPROVE"
- },
- {
-  "gate": "A",
-  "reason": "Anthropic-SpaceX compute deal meets HOUSEHOLD-NAME criterion with money-moved-at-scale ($84.5B); calibration warns against over-killing famous-actor news events on brief sources, especially when single-slot page is already falling to guides.",
-  "subject": "BREAKING: Anthropic discloses $84.5 billion SpaceX Compute Agreements through 2029. Anthropic has agreements to pay Spac",
-  "t": "2026-09-29T23:25:52Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "B",
-  "reason": "EMOJI IN CAPTION (§4, SPOKEN VOICE — 'no emojis'): The caption's first paragraph ends with '🤯'. Explicitly banned. Remove it — the numbers make the jaw-drop; the emoji cheapens it.; TYPO — 'Anthropicfiled': Caption reads 'Anthropicfiled legal paperwork this week' — missing space. Fix to 'Anthropic filed'.; HOOK — TWO ACTIONS JOINED (§2): 'LOST $42B, BET $518B ANYWAY' has two verbs on one actor. Th",
-  "subject": "AN AI COMPANY <em>LOST $42B</em>, BET <em>$518B</em> ANYWAY",
-  "t": "2026-09-29T23:44:39Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Hook withholds actor and exceeds word limit: 'AN AI COMPANY' teases the name instead of stating it — the doctrine bans riddles and requires nothing withheld. Anthropic is a household name; say it. Also 11 words against the 5-10 cap. Fix: 'ANTHROPIC IS SPENDING $518B WHILE LOSING $42B A YEAR' collapses to 10 words with the actor named.; Hook joins two actions with WHILE, violating the one-action ru",
-  "subject": "AN AI COMPANY IS BETTING <em>$518B</em> WHILE LOSING $42B A YEAR",
-  "t": "2026-09-29T23:47:39Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "Caption repeats both key numbers in its first two sentences: sentence 1 says 'after losing $42 billion in 2025' and sentence 2 immediately says 'a $42 billion loss in 2025'; sentence 1 says 'spending $518 billion next year' and sentence 2 says 'They are spending $518 billion on computing next year.' Cut the second sentence entirely — the opening already delivers both figures; the second paragraph ",
-  "subject": "ANTHROPIC IS SPENDING <em>$518B</em> ON AI NEXT YEAR",
-  "t": "2026-09-29T23:49:51Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Routine space operations status update—satellites deployed and operating normally is baseline infrastructure maintenance, not a jaw-dropping event where reality moved or consequence someone felt; fails §1's 'MAJOR MOVE' bar (no record, first-ever, disaster, or payoff) and the one-line source has zero substance to build slides from.",
-  "subject": "All 26 Starlink V3 operational satellites deployed and operating nominally",
-  "t": "2026-09-29T23:50:41Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One-sentence product announcement with no specifics, demos, or availability confirmation—writer would pad rather than expand a substantive story.",
-  "subject": "Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything.",
-  "t": "2026-09-29T23:51:17Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Famous-actor major money event (Anthropic-SpaceX, $84.5B compute deal) qualifies as news-page priority; avoids guide repetition.",
-  "subject": "BREAKING: Anthropic discloses $84.5 billion SpaceX Compute Agreements through 2029. Anthropic has agreements to pay Spac",
-  "t": "2026-09-29T23:53:13Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "A",
-  "reason": "Announcement is vague marketing language with no substantive detail about what Dots is, how it works, or what impact it's having; writer would have no concrete material to build slides from without heavy speculation.",
-  "subject": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher",
-  "t": "2026-09-29T23:53:22Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW HARD FAIL — The cover is pure text-on-black ($84.5B / ANTHROPIC | SPACEX on a dark gradient). The doctrine is explicit: 'Text-on-black or empty-top covers are failures.' No photoreal subject, no human face, no product photo — nothing a reader can see as proof of the story. Fix: rebuild the cover as a photoreal composite (Dario Amodei press photo + oversized SpaceX logo + $84.5B chip, or ",
-  "subject": "SPACEX IS GETTING <em>$84.5 BILLION</em> FROM CLAUDE, <em>JUST FOR SERVERS</em>",
-  "t": "2026-09-30T00:10:28Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW — text-on-black cover (§3 explicit ban): The cover is '$84.5B' in white type plus two brand logos on a dark gradient. Zero photoreal elements, no subject, no human face. The doctrine says 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures' and 'PHOTOREAL ELEMENTS, ALWAYS.' Fix: replace with a photoreal cover — Dario Amodei reacting to a g",
-  "subject": "ANTHROPIC IS PAYING SPACEX <em>$84.5 BILLION</em> JUST TO RUN CLAUDE",
-  "t": "2026-09-30T00:13:06Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "COVER IS TEXT-ON-BLACK — IMAGE LAW hard ban: 'Text-on-black or empty-top covers are failures.' The frame is white type and two logo marks on a pure black gradient. No photographic subject, no photoreal element, no human face, no scene. Fix: Dario Amodei real photo (face upper two-thirds) + Anthropic and SpaceX brand marks floating behind him + '$84.5B' chip in the lower band — the standard collage",
-  "subject": "ANTHROPIC COMMITTED <em>$84.5 BILLION</em> TO SPACEX JUST TO KEEP CLAUDE RUNNING",
-  "t": "2026-09-30T00:15:24Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "One-line teaser with no demonstration, numbers, or consequence; a writer would have to pad substantively—the source has no depth beyond a product name and generic claim.",
-  "subject": "Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything.",
-  "t": "2026-09-30T00:16:12Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Routine operational deployment with no record, milestone, or consequence; satellites deploying and functioning normally is daily work for Starlink, not a jaw-drop that makes readers stop mid-scroll or share with friends.",
-  "subject": "All 26 Starlink V3 operational satellites deployed and operating nominally",
-  "t": "2026-09-30T00:17:05Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "No substance: one vague marketing sentence with zero details about what Dots is, how it works, or any consequence readers felt—insufficient to build slides from.",
-  "subject": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher",
-  "t": "2026-09-30T00:18:25Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Routine integration announcement with no numbers, no demonstrated impact, and no real consequence—fails the substance threshold; at 4/10 scout interest, there is no exception.",
-  "subject": "BREAKING: Grok is helping power America .gov, the U.S. government’s new AI website. 🇺🇸 U.S. Chief Design Officer Joe Geb",
-  "t": "2026-09-30T00:18:57Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Unknown actor announcing features with no real-world event, consequence, or proof—reads like an empty launch preview; the writer would pad to fill slides.",
-  "subject": "🚨 Self Improving Personal Agents - chat with them on WhatsApp and Telegram - persistent memory - learns how you do work ",
-  "t": "2026-09-30T00:19:02Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Scout score 4/10 (under threshold) with ISRO as unknown actor to the target audience—routine government satellite launch lacks household-name status and cutting-edge tech novelty the page requires.",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "t": "2026-09-30T00:19:23Z",
-  "verdict": "KILL"
- },
- {
   "gate": "A",
   "reason": "Unverified hearsay about an alleged OpenAI hacking incident with no documented real-world consequence, source proof, or verified event.",
   "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
@@ -2098,5 +1944,159 @@
   "subject": "SPACEX JUST LAUNCHED <em>3 ROCKETS IN 13 HOURS</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-10-03T00:23:27Z",
+  "gate": "A",
+  "subject": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvid",
+  "verdict": "KILL",
+  "reason": "Stock-price market routine explicitly banned (ON-TOPIC BUT ROUTINE, §1)—no company move, person angle, or reality-moving event."
+ },
+ {
+  "t": "2026-10-03T00:23:27Z",
+  "gate": "A",
+  "subject": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times,",
+  "verdict": "KILL",
+  "reason": "Clever observation but doesn't qualify as jaw-dropping WOW FACT or move reality enough for other EARNS A SLOT categories—scout score 6/10 confirms it lacks the punch this page needs."
+ },
+ {
+  "t": "2026-10-03T00:24:09Z",
+  "gate": "A",
+  "subject": "Elon Musk will advise the Pentagon on the future of war, per WaPo",
+  "verdict": "KILL",
+  "reason": "This is government politics, not tech news — unless specifically about military AI systems, an advisory appointment doesn't fit this page's AI/tech focus."
+ },
+ {
+  "t": "2026-10-03T00:24:41Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "Unverified conspiracy-level claim (AI agents coordinating) with zero documented evidence, official confirmation, or complete source material — Bernie Sanders relaying internet rumor he explicitly disclaims expertise to verify; source cuts off mid-explanation."
+ },
+ {
+  "t": "2026-10-03T00:25:07Z",
+  "gate": "A",
+  "subject": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Wr",
+  "verdict": "KILL",
+  "reason": "Scout interest 4/10 (under threshold); this is a tips/guide post without a news event or real-world consequence—the page is news-first with guides as fallback, and the owner flagged guide flooding as the #1 content failure."
+ },
+ {
+  "t": "2026-10-03T00:26:02Z",
+  "gate": "A",
+  "subject": "I gave Opus 5.5 one prompt + music. 12 hours later, I woke up to this.",
+  "verdict": "KILL",
+  "reason": "Unknown actor + no substance: minchoi is not a household name, and the source is one vague cliffhanger with zero second facts, numbers, or stated consequences to build from; writer would have to research to find what 'this' even is."
+ },
+ {
+  "t": "2026-10-03T00:26:35Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Institutional space achievement without jaw-dropping story, person-driven narrative, or consequence—routine agency success, not the wild-but-true news this page posts."
+ },
+ {
+  "t": "2026-10-03T00:26:56Z",
+  "gate": "A",
+  "subject": "Tesla has just registered another 11 Cybercabs for its Robotaxi fleet, bringing the total number of Cybercabs registered",
+  "verdict": "KILL",
+  "reason": "Registration counts are routine corporate procedure without the news peg (imminent launch date, regulatory milestone, speed record) that shows real-world consequence—readers see numbers but not why they should care."
+ },
+ {
+  "t": "2026-10-03T00:27:47Z",
+  "gate": "A",
+  "subject": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvid",
+  "verdict": "KILL",
+  "reason": "Stock market movement without a company action or announcement—falls squarely under banned 'stocks-rose-today' routine; substance is a market datum plus a hypothetical backtest, not an event someone in the world felt or caused."
+ },
+ {
+  "t": "2026-10-03T00:27:53Z",
+  "gate": "A",
+  "subject": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times,",
+  "verdict": "KILL",
+  "reason": "This is a routine observation about LLM capabilities with no real-world event or consequence — Karpathy demonstrated something already expected (LLMs know geography from training data), nothing changed, and the writer would have to pad extensively to sustain slides."
+ },
+ {
+  "t": "2026-10-03T00:29:10Z",
+  "gate": "A",
+  "subject": "Elon Musk will advise the Pentagon on the future of war, per WaPo",
+  "verdict": "KILL",
+  "reason": "Thin source material with no details, numbers, or consequence beyond the appointment itself; writer would have to pad rather than build from substance."
+ },
+ {
+  "t": "2026-10-03T00:30:00Z",
+  "gate": "A",
+  "subject": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Wr",
+  "verdict": "KILL",
+  "reason": "This is tips-and-tricks advice, not a story—no real-world event happened, no consequence felt; it's the on-topic-but-routine guide content the owner flagged as the page's #1 failure, and a 4/10 scout score signals weak candidate even before story analysis."
+ },
+ {
+  "t": "2026-10-03T00:30:37Z",
+  "gate": "A",
+  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
+  "verdict": "KILL",
+  "reason": "Unverified secondhand claims about an alleged OpenAI security incident lack the independent verification TRUTH LAW requires before publication."
+ },
+ {
+  "t": "2026-10-03T00:31:34Z",
+  "gate": "A",
+  "subject": "Tesla has just registered another 11 Cybercabs for its Robotaxi fleet, bringing the total number of Cybercabs registered",
+  "verdict": "KILL",
+  "reason": "Routine registration tracking without consequence; the numbers don't explain what changes about Robotaxi deployment or why readers should care—mirrors the Sep 26 Cybercab post the owner ruled doesn't provide value."
+ },
+ {
+  "t": "2026-10-03T00:31:46Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Off-lens per §1: national institutional achievement story where space technology is the vehicle, not the star; scout interest 4/10 below threshold without personal consequence, person, or jaw-dropping tech fact to justify the slot."
+ },
+ {
+  "t": "2026-10-03T00:32:04Z",
+  "gate": "A",
+  "subject": "I gave Opus 5.5 one prompt + music. 12 hours later, I woke up to this.",
+  "verdict": "KILL",
+  "reason": "No substance: mystery-box teaser from unknown actor with no visible consequence; writer would have to pad to understand what even happened."
+ },
+ {
+  "t": "2026-10-03T00:48:02Z",
+  "gate": "B",
+  "subject": "AN AI DREW THE WORLD <em>WITHOUT EVER SEEING A MAP</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS IMAGE LAW ON THREE COUNTS: (1) It is a screenshot of a data-visualization chart — the doctrine is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' A rendered research chart is a digital artifact in the same category. (2) PHOTOREAL ELEMENTS, ALWAYS — every element in this frame is pixel-art maps and text on a cream background; there is not a single photographed e"
+ },
+ {
+  "t": "2026-10-03T00:50:26Z",
+  "gate": "A",
+  "subject": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvid",
+  "verdict": "KILL",
+  "reason": "Stock price movements are explicitly banned under 'stocks-rose-today'; this is market reflection without a company MAJOR MOVE (product, lawsuit, acquisition, hiring) — market news, not tech/AI news."
+ },
+ {
+  "t": "2026-10-03T00:50:30Z",
+  "gate": "A",
+  "subject": "Elon Musk will advise the Pentagon on the future of war, per WaPo",
+  "verdict": "APPROVE",
+  "reason": "Elon Musk's Pentagon advisory appointment is a real MAJOR MOVE by a household-name founder; the thin tweet doesn't kill the story when reality moved."
+ },
+ {
+  "t": "2026-10-03T01:01:40Z",
+  "gate": "B",
+  "subject": "ELON MUSK WILL NOW <em>SHAPE THE FUTURE OF WAR</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE FAILS THUMB TEST (§3): The cover is a casual Musk portrait — Tesla sweatshirt, white background, neutral expression. A stranger scrolling past sees 'Elon Musk photo,' not 'Elon Musk is advising the Pentagon on war.' Per image archetype law, a policy story requires the famous actor + the policy made physical. Fix: replace with an image that puts Musk in military/Pentagon context — a real pres"
+ },
+ {
+  "t": "2026-10-03T01:03:38Z",
+  "gate": "B",
+  "subject": "ELON MUSK WILL NOW <em>SHAPE THE FUTURE OF WAR</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE FAILS PROOF/ARCHETYPE TEST: The image is a neutral close-up headshot of Musk in a Tesla sweatshirt against a plain white background. The thumb test fails — at feed size, a stranger sees Musk's face but cannot guess this story has anything to do with war, the Pentagon, or a military advisory role. IMAGE LAW requires the cover to answer 'what would prove this headline in half a second.' "
+ },
+ {
+  "t": "2026-10-03T01:05:19Z",
+  "gate": "R",
+  "subject": "ELON MUSK WILL NOW <em>SHAPE THE FUTURE OF WAR</em>",
+  "verdict": "FAIL",
+  "reason": "s1: The photo is a low-quality candid close-up with the top of Musk's head visibly amputated at the frame edge — it lacks the bright, saturated press-photo energy the standard requires."
  }
 ]
