@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T16:40:21.989352+00:00",
+ "updated": "2026-10-03T18:40:27.156282+00:00",
  "photos": [
   {
    "id": "2097374640582668336",
@@ -63,25 +63,6 @@
    "video": null,
    "guide": false,
    "born": 1789137010.401757
-  },
-  {
-   "id": "2095567788051984638",
-   "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Senator Bernie Sanders introduces bill to permanently ban AI that exceeds human intelligence. Violators would face up to 20 years in prison.",
-   "sub": "WatcherGuru",
-   "where": "@WatcherGuru on X",
-   "unit": "likes",
-   "selftext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Senator Bernie Sanders introduces bill to permanently ban AI that exceeds human intelligence. Violators would face up to 20 years in prison.",
-   "permalink": "https://x.com/WatcherGuru/status/2095567788051984638",
-   "outlink": null,
-   "score": 48132,
-   "comments_n": 4134,
-   "views": 2557743,
-   "age_h": 34.0,
-   "vph": 1415.6,
-   "image": "https://pbs.twimg.com/media/HRTzy78X0AAURqH.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1788457272.085172
   },
   {
    "id": "2095589575573839881",
@@ -863,6 +844,28 @@
    "video": null,
    "guide": false,
    "born": 1790916377.168845
+  },
+  {
+   "id": "2106242360695005379",
+   "title": "Don\u2019t worry, Gregory is thrilled I\u2019m back home (for a while now I hope!)",
+   "sub": "AJamesMcCarthy",
+   "where": "@AJamesMcCarthy on X",
+   "unit": "likes",
+   "selftext": "Don\u2019t worry, Gregory is thrilled I\u2019m back home (for a while now I hope!)",
+   "permalink": "https://x.com/AJamesMcCarthy/status/2106242360695005379",
+   "outlink": null,
+   "score": 3424,
+   "comments_n": 45,
+   "views": 19479,
+   "age_h": 14.0,
+   "vph": 244.6,
+   "image": "https://pbs.twimg.com/media/HTrgQ1SWsAANSjU.jpg",
+   "images": [
+    "https://pbs.twimg.com/media/HTrgQ1SWsAANSjU.jpg"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1791002427.156282
   }
  ]
 }
