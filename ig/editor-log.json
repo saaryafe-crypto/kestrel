@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-30T03:15:48Z",
-  "gate": "R",
-  "subject": "YOUR GOVERNMENT JUST HIRED <em>ELON MUSK'S AI</em> TO ANSWER YOU",
-  "verdict": "FAIL",
-  "reason": "s1: The top half of the cover is a raw screenshot of the America.gov webpage UI (browser search bar, site header) used as a full-bleed background, which is an instant fail under the Screenshot Law."
- },
- {
   "gate": "B",
   "reason": "IMAGE LAW — cover has no photoreal subject. The background is a near-black field of abstract CGI particle/bokeh streaks: nothing in the frame reads as photographed, there is no person, product, or news artifact, and the top two-thirds is essentially empty dark space. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures' and ",
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
@@ -2098,5 +2091,12 @@
   "subject": "<em>3 MOVES FORD MADE</em> WHEN ITS EV BET LOST 80%",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-10-03T17:50:44Z",
+  "gate": "A",
+  "subject": "Lmaooo Israel is creating full on AI reenactments of their false flags now.",
+  "verdict": "KILL",
+  "reason": "Unverified allegation in a single joking tweet with no documentation or proof of an underlying event — reaction-bait to a claim, not a reportable story."
  }
 ]

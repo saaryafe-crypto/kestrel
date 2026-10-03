@@ -1,0 +1,88 @@
+{
+ "media_idx": 1,
+ "image_brief": "AI decoded a 217-year-old Napoleon military cipher from a single blurry scan in six hours",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "217 שנה לא פצחו את הקוד של נפוליאון: <em>בינה מלאכותית עשתה את זה תוך שש שעות</em>",
+   "kicker": "הכי קשה? לקרוא את כתב היד.",
+   "hsize": 78,
+   "media": "posts/2026-10-02-we-are-living-in-the-craziest-time-carte/cand-1-fit.jpg"
+  }
+ ],
+ "caption": "AI פצח קוד של נפוליאון שאף אחד לא הצליח לפרוץ 217 שנה, מתמונה אחת מטושטשת.\n\nCarter Church הכניס ל-GPT-6 Astra סריקה גרועה של מכתב מוצפן שנפוליאון שלח לאחד הגנרלים שלו ב-1809. שש שעות אחר כך, המכתב היה פתוח לגמרי. ה-AI זיהה 1,300 סמלים מתמונה אחת, מצא מפתח חלקי, כתב לעצמו כלי לפיצוח שאר הסמלים ואפילו תיקן את התאריך שכתוב על המכתב. הכי קשה לא היה הקוד. הכי קשה היה לקרוא את כתב היד הנוראי מלפני 200 שנה.\n\nמקורות: Carter Church on X (Sep 30, 2026), Cryptiana\n\nעוקבים אחרי @ainews.israel לעוד חדשות AI?\n\n#AI #History #Cryptography #Technology #GPT6",
+ "pinned_comment": "Cryptiana, מאגר המידע שעוקב אחרי קודים סודיים שלא פוצחו בכל העולם, סימן אותו רשמית כ'פוצח' אחרי שChurch פרסם את הפוסט. 217 שנה פתוח. נסגר תוך שש שעות.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "A NAPOLEON CIPHER <em>UNSOLVED FOR 217 YEARS, CRACKED IN 6 HOURS</em>",
+   "AI DECODED <em>1,300 NAPOLEON SYMBOLS</em> NOBODY CRACKED IN <em>217 YEARS</em>",
+   "AI JUST CRACKED <em>NAPOLEON'S 217-YEAR-OLD MILITARY CIPHER</em>",
+   "AI DECODED A <em>217-YEAR-OLD NAPOLEON CODE</em> FROM <em>ONE BLURRY PHOTO</em>",
+   "A 217-YEAR-OLD NAPOLEON CIPHER, <em>CRACKED BY AI IN 6 HOURS</em>",
+   "AN AI JUST DECODED <em>NAPOLEON'S 217-YEAR-OLD SECRET CIPHER</em>",
+   "THE <em>217-YEAR-OLD NAPOLEON CIPHER</em> IS NOW <em>OFFICIALLY SOLVED</em>",
+   "AI CRACKED A <em>217-YEAR-OLD NAPOLEON CIPHER IN 6 HOURS</em>",
+   "AI JUST CRACKED A <em>217-YEAR-OLD NAPOLEON CIPHER</em> IN <em>6 HOURS</em>"
+  ],
+  "scores": [
+   8,
+   6,
+   6,
+   6.5,
+   8,
+   5,
+   5,
+   8.5,
+   9
+  ],
+  "winner": 8,
+  "why": "\"JUST CRACKED\" adds perceived immediacy that stops exhausted 2am scrollers faster than plain \"CRACKED.\" The single-word urgency cue triggers reflexive shock, weaponizing identical facts more effectively."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "NAPOLEON'S <em>217-YEAR-OLD CODE</em> FELL TO AI IN <em>6 HOURS</em>",
+   "AI CRACKED NAPOLEON'S <em>217-YEAR-OLD CIPHER</em> FROM <em>ONE BLURRY PHOTO</em>",
+   "AI JUST CRACKED A <em>217-YEAR-OLD NAPOLEON CIPHER</em> IN <em>6 HOURS</em>",
+   "A GUY CRACKED <em>NAPOLEON'S 217-YEAR-OLD CODE</em> IN <em>6 HOURS</em>"
+  ],
+  "scores": [
+   8,
+   9,
+   8,
+   0
+  ],
+  "winner": 1,
+  "why": "The 'blurry photo' detail creates an instant 'wait, WHAT?'—solving an impossible 217-year-old puzzle from degraded data is more mind-stopping than speed alone. [0] impresses but stays generic; [1] reveals the actual crux of why this is jaw-dropping."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Carter Church / GPT-6 Astra",
+  "actor_known": false,
+  "anchor": "a 217-year-old Napoleon cipher",
+  "specifics": [
+   "217 years unsolved — cracked in ~6 hours by one AI from a single photo",
+   "1,300 cipher units transcribed from a blurry historical scan",
+   "The bottleneck wasn't codebreaking — it was the AI struggling to read the handwriting at all",
+   "Astra found the partial key, wrote its own solver, AND corrected the letter's date",
+   "Cryptiana officially lists the cipher as solved now"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (3/10)",
+ "handle": "@ainews.israel",
+ "container": "daily_item",
+ "story": {
+  "title": "We are living in the craziest time: Carter Church used GPT-6 Astra to decipher a 217-year-old letter to one of Napoleon’s generals, reporting about six hours of model work. The difficulty lay primarily in extracting deci",
+  "link": "https://x.com/kimmonismus/status/2105547846288073183",
+  "judge_interest": 7,
+  "scout_score": 59.2
+ },
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
