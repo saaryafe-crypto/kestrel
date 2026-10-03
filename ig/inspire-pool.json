@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T12:38:58.607274+00:00",
+ "updated": "2026-10-03T14:40:17.168845+00:00",
  "photos": [
   {
    "id": "2097374640582668336",
@@ -827,11 +827,11 @@
    "selftext": "JUST IN: $86,000 Bitcoin",
    "permalink": "https://x.com/WatcherGuru/status/2105876584905523415",
    "outlink": null,
-   "score": 8013,
-   "comments_n": 371,
-   "views": 324697,
-   "age_h": 32.2,
-   "vph": 248.9,
+   "score": 8228,
+   "comments_n": 383,
+   "views": 333757,
+   "age_h": 34.2,
+   "vph": 240.3,
    "image": "https://pbs.twimg.com/media/HTmTl7ZXoAA83HL.jpg",
    "images": [
     "https://pbs.twimg.com/media/HTmTl7ZXoAA83HL.jpg"
@@ -841,26 +841,28 @@
    "born": 1790915206.096214
   },
   {
-   "id": "2106019413191254363",
-   "title": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvidia 10 years ago, you would now have $1,580,000.",
-   "sub": "KobeissiLetter",
-   "where": "@KobeissiLetter on X",
+   "id": "2105881376595550504",
+   "title": "We may have just witnessed the peak of the Falcon family of rockets. 3 missions, in less than 13 hours, 4 booster landings and a crew docking to station. Incredible! Falcon is winding down as Starship ramps up. Congrats ",
+   "sub": "Erdayastronaut",
+   "where": "@Erdayastronaut on X",
    "unit": "likes",
-   "selftext": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvidia 10 years ago, you would now have $1,580,000.",
-   "permalink": "https://x.com/KobeissiLetter/status/2106019413191254363",
+   "selftext": "We may have just witnessed the peak of the Falcon family of rockets. 3 missions, in less than 13 hours, 4 booster landings and a crew docking to station. Incredible! Falcon is winding down as Starship ramps up. Congrats on a HUGE day. Don't forget, Starship just launched Monday!",
+   "permalink": "https://x.com/Erdayastronaut/status/2105881376595550504",
    "outlink": null,
-   "score": 4057,
-   "comments_n": 213,
-   "views": 386371,
-   "age_h": 14.7,
-   "vph": 276.0,
-   "image": "https://pbs.twimg.com/media/HToVFlVXUAAPEH_.png",
+   "score": 5221,
+   "comments_n": 88,
+   "views": 75814,
+   "age_h": 33.9,
+   "vph": 153.9,
+   "image": "https://pbs.twimg.com/media/HTmW23nWMAAUjs0.jpg",
    "images": [
-    "https://pbs.twimg.com/media/HToVFlVXUAAPEH_.png"
+    "https://pbs.twimg.com/media/HTmW23nWMAAUjs0.jpg",
+    "https://pbs.twimg.com/media/HTmW5PLWMAAln3m.jpg",
+    "https://pbs.twimg.com/media/HTmXZNbWEAAiD4E.png"
    ],
    "video": null,
    "guide": false,
-   "born": 1790949264.36964
+   "born": 1790916377.168845
   }
  ]
 }
