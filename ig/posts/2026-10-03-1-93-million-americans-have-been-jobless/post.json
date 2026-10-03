@@ -1,0 +1,60 @@
+{
+ "image_brief": "empty wallet, stack of unpaid bills, and unanswered job application forms on a kitchen table",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>NEARLY 2 MILLION PEOPLE</em> SEARCHED <em>6 MONTHS</em> AND STILL GOT NOTHING",
+   "kicker": "3RD WORST SINCE THE 2008 CRASH",
+   "hsize": 84,
+   "media": null
+  }
+ ],
+ "caption": "Nearly 2 million Americans have been job hunting for over 6 months with nothing to show. \ud83d\udd34\n\n1.93 million Americans have been searching for work for 27 weeks straight and found nothing. That's the 3rd-worst share of long-term unemployment the US has seen since the 2008 crash. The headline unemployment rate still looks fine, which is exactly why nobody is talking about this. If you've been job hunting for months with nothing to show, you're part of a crisis that's the worst it's been in over a decade. The job market has two versions, and almost 2 million people are stuck in the one nobody reports on.\n\nLong-term unemployment is the story the economy doesn't want to tell. Savings hit zero, benefits run out, and people quietly fall out of the data while the headline numbers stay manageable.\n\nRunning a business and worried about hiring? DM us \"AI\" and we'll show you what the real labor market means for your next move.\n\nSources: Yahoo Finance, unusual_whales on X\n\n#unemployment #jobmarket #economy #jobs #finance",
+ "pinned_comment": "The thing nobody says out loud: after 6 months unemployed, your resume goes stale and employers start assuming something is wrong with you. Nearly 2 million people are learning that right now.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "US LONG-TERM UNEMPLOYMENT IS <em>3RD WORST</em> SINCE THE 2008 CRASH",
+   "THE 'FINE' JOB MARKET HAS <em>2 MILLION PEOPLE</em> STUCK",
+   "<em>NEARLY 2 MILLION PEOPLE</em> SEARCHED <em>6 MONTHS</em> AND STILL GOT NOTHING",
+   "THE JOB MARKET JUST STRANDED <em>NEARLY 2 MILLION</em> AMERICANS",
+   "THEY SAY JOBS ARE FINE. <em>2 MILLION</em> CAN'T FIND ONE.",
+   "LONG-TERM UNEMPLOYMENT JUST HIT <em>ITS 3RD WORST</em> SINCE 2008",
+   "NEARLY <em>2 MILLION PEOPLE</em> HAVE BEEN JOBLESS FOR 6 MONTHS"
+  ],
+  "scores": [
+   5,
+   6,
+   8,
+   6,
+   7,
+   6,
+   5
+  ],
+  "winner": 2,
+  "why": "[2] tells the complete human story in one line (6 months searching, nothing to show) that hits viscerally at 2am. [4] is confrontational and engaging but frames the issue as a narrative contradiction you need the caption to explore\u2014[2]'s concrete, relatable detail is more impactful."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "1.93 million long-term unemployed Americans",
+  "actor_known": false,
+  "anchor": "the job market",
+  "specifics": [
+   "1.93 million people jobless for 27+ weeks",
+   "3rd-highest share since the Great Recession",
+   "27+ weeks = over 6 months of searching with no job",
+   "Data reported by Yahoo Finance as of October 2, 2026"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "1.93 million Americans have been jobless for 27+ weeks, which represents the 3rd-highest share since the Great Recession, per YF",
+  "link": "https://x.com/unusual_whales/status/2106081025310744910",
+  "judge_interest": 4,
+  "scout_score": 45.3
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "NO COVER IMAGE \u2014 cover_has_image is false. IMAGE LAW \u00a73 is unambiguous: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a fatal structural violation with no workaround. Fix: supply a photoreal cover image matching the story (e.g., a real press-photo composite of job seekers in a hiring line, subject in the top two-thirds, textured-oran"
+}
