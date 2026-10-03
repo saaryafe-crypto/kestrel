@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-30T03:12:17Z",
-  "gate": "B",
-  "subject": "YOUR GOVERNMENT JUST HIRED <em>ELON MUSK'S AI</em> TO ANSWER YOU",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW §3 — SCREENSHOT AS COVER: The cover is a UI screenshot of the America.gov website interface. The doctrine is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' It doesn't matter that it's styled — it reads as a product screenshot, which is banned at the face of the post. Fix: Replace with a photoreal composite — a real photo cutout of Elon Musk (the story's named famous a"
- },
- {
-  "t": "2026-09-30T03:13:44Z",
-  "gate": "B",
-  "subject": "YOUR GOVERNMENT JUST HIRED <em>ELON MUSK'S AI</em> TO ANSWER YOU",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — COVER IS A UI SCREENSHOT, WHICH IS EXPLICITLY BANNED: The cover is a rendered mockup of the America.gov website interface (search bar, browser card, stock family photo inside). The Doctrine is unambiguous: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER. Screenshots may appear INSIDE as receipt evidence on a styled card, never as the face of the post.' Fix: replace with a photor"
- },
- {
-  "t": "2026-09-30T03:15:10Z",
-  "gate": "B",
-  "subject": "YOUR GOVERNMENT JUST HIRED <em>ELON MUSK'S AI</em> TO ANSWER YOU",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE IS A UI SCREENSHOT — HARD BAN. The cover is a screengrab of the America.gov website interface ('Ask anything...' search bar + stock family photo inside it). The doctrine is explicit and unconditional: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Fix: replace with a photoreal composite of Elon Musk (real press photo, face prominent in top two-thirds) + oversized Grok logo di"
- },
- {
   "t": "2026-09-30T03:15:48Z",
   "gate": "R",
   "subject": "YOUR GOVERNMENT JUST HIRED <em>ELON MUSK'S AI</em> TO ANSWER YOU",
@@ -2098,5 +2077,26 @@
   "subject": "I didn't even like this couple to begin with, but some of y'all are genuinely npc drones made in the most proficent AI f",
   "verdict": "KILL",
   "reason": "REACTION-BAIT with zero substance: the 'event' is crowd reaction to an unspecified couple, no names given, no real-world consequence described, and the source would require padding or fabrication to produce even one slide."
+ },
+ {
+  "t": "2026-10-03T17:13:19Z",
+  "gate": "B",
+  "subject": "<em>5 RULES</em> FORD BROKE AND LOST <em>$289K PER CAR</em>",
+  "verdict": "REJECT",
+  "reason": "NO IMAGE — Image Law §3 hard violation: cover_has_image is false and has_image is false. Every cover must carry a subject that proves the headline. Fix: a photoreal cover — the F-150 Lightning sitting on an empty dealership lot, or Jim Farley staring at a falling chart, built as a photoreal composite with the headline chip in the lower third.; HOOK-CAPTION COUNT MISMATCH — Cover Contract §4: the h"
+ },
+ {
+  "t": "2026-10-03T17:15:53Z",
+  "gate": "B",
+  "subject": "<em>3 MOVES FORD MADE</em> WHEN ITS EV BET LOST 80%",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW VIOLATION (§3) — cover_has_image: false. This is a single-picture post; the cover IS the entire visual product. 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The correct archetype for a company-bet-dies story is a photoreal composite: the F-150 Lightning (real press photo) + Ford oval logo mark large in frame + the number '289' or "
+ },
+ {
+  "t": "2026-10-03T17:16:00Z",
+  "gate": "R",
+  "subject": "<em>3 MOVES FORD MADE</em> WHEN ITS EV BET LOST 80%",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]

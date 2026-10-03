@@ -1,0 +1,41 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "<em>3 MOVES FORD MADE</em> WHEN ITS EV BET LOST 80%",
+   "kicker": "3 CEO moves when a bet dies",
+   "hsize": 70,
+   "face": [],
+   "media": null
+  }
+ ],
+ "caption": "Ford's EV bet just lost 80% in one quarter. The F-150 Lightning is dead. Here's the CEO playbook when your biggest bet starts dying. \ud83d\udcc9\n\n1) THE KILL. The F-150 Lightning: 289 units in Q3. Not 2,000. 289. Below the minimum units where a product earns its keep, keeping it on sale was hurting Ford's name more than the money coming in. Ford cut it. Most CEOs wait 12 months past that number.\n\n2) THE HOLD. Mach-E: 5,574 units, down 72%, still running. Ford kept it. Two failing lines need two different decisions. One gets killed fast. The other gets everything you have.\n\n3) THE READ. Ford's Q3 numbers were already written in Q1. Two straight quarters where your best truck sold fewer units each month is the 90-day warning. Pull your unit numbers by product line tonight.\n\nSAVE THIS: the 80% floor CEO playbook.\n\nFord is the loudest data point right now: companies that bet on AI in 2024 are gaining, companies that bet on EVs are explaining 289-unit quarters to their boards. The bet you make this quarter is in your 2027 numbers.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Ford Motor Company Q3 2026 U.S. sales\n\n#CEO #AI #business #strategy #investing",
+ "pinned_comment": "The 80% floor applies to any industry. What's your kill number, and do you actually know it right now?",
+ "hook_tournament": {
+  "candidates": [
+   "<em>THE 289 RULE</em>: FORD'S EV BET IS DEAD"
+  ],
+  "scores": [],
+  "winner": 0,
+  "story_type": "edu_value"
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "<em>THE 289 RULE</em>: FORD'S EV BET IS DEAD",
+   "<em>5 RULES</em> FORD BROKE AND LOST <em>$289K PER CAR</em>"
+  ],
+  "scores": [
+   2,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] stops you cold with a specific per-unit loss ($289K) that screams 'something went very wrong,' while [0]'s cryptic 'THE 289 RULE' takes mental work to parse at 2am and doesn't hit with the same gut impact."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "exec",
+ "cover_fallback": "no-image",
+ "editor_override": "IMAGE LAW VIOLATION (\u00a73) \u2014 cover_has_image: false. This is a single-picture post; the cover IS the entire visual product. 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The correct archetype for a company-bet-dies story is a photoreal composite: the F-150 Lightning (real press photo) + Ford oval logo mark large in frame + the number '289' or ",
+ "topic_source": "exec-news"
+}
