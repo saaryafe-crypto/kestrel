@@ -1,157 +1,181 @@
 {
- "updated": "2026-10-02T12:08:36+00:00",
+ "updated": "2026-10-03T12:08:36+00:00",
  "competitor_hits": [
   {
    "page": "wired",
-   "likes": 5872,
-   "ratio": 3.49,
+   "likes": 7515,
+   "ratio": 3.73,
    "tier": "mega",
    "hook": "\"Introducing the full-blue sapphire MRG-D5000, a crazy G-Shock from Casio that costs more than a Patek Philippe or Porsche Macan.\n\nTap the \ud83d\udd17 in bio for more.\".",
    "date": "2026-10-01"
   },
   {
    "page": "wired",
-   "likes": 3471,
-   "ratio": 2.06,
+   "likes": 7348,
+   "ratio": 3.64,
    "tier": "mega",
    "hook": "\"As satirical news outlet The Onion continued to wage a legal battle to acquire the assets of Infowars out of bankruptcy this summer, it launched a streaming program that spoofed the brand and its bellowing conspiracist ",
    "date": "2026-10-01"
   },
   {
+   "page": "wired",
+   "likes": 4754,
+   "ratio": 2.36,
+   "tier": "mega",
+   "hook": "\"An explosive and newly partially unsealed court filing alleges that the US Department of Homeland Security built up dossiers on ICE observers\u2014including their photos, license plate numbers, and other information\u2014and stor",
+   "date": "2026-10-02"
+  },
+  {
    "page": "mashable",
-   "likes": 597,
-   "ratio": 1.55,
+   "likes": 693,
+   "ratio": 1.88,
    "tier": "mega",
    "hook": "\"Listen, I don't NEED a new Kindle, but these new colors are making me think I do.\u2060\n\u2060\nHead to the link in bio to learn more about all of the new Kindles.\".",
    "date": "2026-10-01"
   },
   {
    "page": "techcrunch",
-   "likes": 96,
-   "ratio": 1.13,
+   "likes": 122,
+   "ratio": 1.44,
    "tier": "mega",
    "hook": "\"Kickstarter CEO @everette says founders should think carefully about what they\u2019re giving up when they take venture capital \u2014 because ownership and creative independence have value, too.\u2060\n\u2060\nOn the latest Build Mode, we\u2019r",
    "date": "2026-10-01"
   },
   {
    "page": "wired",
-   "likes": 1745,
-   "ratio": 1.04,
+   "likes": 2802,
+   "ratio": 1.39,
    "tier": "mega",
-   "hook": "\"Since 2023, Israel\u2019s fragmentation of Palestine, underway for generations, has accelerated. The West Bank has, for the nearly 3.5 million Palestinians who live there, ceased to exist as a contiguous territory. According",
-   "date": "2026-09-30"
-  },
-  {
-   "page": "mashable",
-   "likes": 390,
-   "ratio": 1.01,
-   "tier": "mega",
-   "hook": "\"ChatGPT is getting dumped. Repeatedly.\u2060\n\u2060\nThe breakups aren't real, of course, but there's a new ChatGPT prank taking over the internet: Users are opening the chatbot, announcing they're about to uninstall it for good, ",
-   "date": "2026-09-30"
+   "hook": "\"Tap the \ud83d\udd17 in bio to see what it\u2019s like to travel in the occupied West Bank, where your choices reflect the reality of nearly 3.5 million Palestinians who live there.\n\nOur interactive is grounded in 18 months of reportin",
+   "date": "2026-10-02"
   },
   {
    "page": "technology",
-   "likes": 18000,
+   "likes": 10000,
+   "ratio": 1.14,
+   "tier": "mega",
+   "hook": "\"Tesla has introduced Emergency Drive Away, a safety feature that lets drivers leave a Supercharger immediately without first disconnecting the charging cable. \n\nWhen needed, the driver can shift into Drive while plugged",
+   "date": "2026-10-01"
+  },
+  {
+   "page": "technology",
+   "likes": 7468,
+   "ratio": 0.86,
+   "tier": "mega",
+   "hook": "\"Swipe \u2b05\ufe0f to explore what\u2019s been trending around the world, from major space and military developments to political tensions, immigration changes, sports headlines, and unexpected global events \ud83c\udf0d\u26a1\ufe0f\n\nNASA\u2019s Crew-13 reache",
+   "date": "2026-10-02"
+  },
+  {
+   "page": "technology",
+   "likes": 5661,
    "ratio": 0.65,
    "tier": "mega",
-   "hook": "\"A significant change is coming to the passport application process. Secretary of State Marco Rubio announced that Americans will soon be able to apply for new passports or passport cards entirely online, eliminating the",
-   "date": "2026-09-30"
+   "hook": "\"Xbox CEO Asha Sharma laughed at the idea of apologizing to Sony after Microsoft secured publishing rights for Hideo Kojima\u2019s upcoming espionage game PHYSINT \ud83c\udfae\ud83e\udd1d\n\nSony originally partnered with Kojima Productions on PHYSI",
+   "date": "2026-10-02"
   },
   {
    "page": "wired",
-   "likes": 767,
-   "ratio": 0.46,
+   "likes": 1231,
+   "ratio": 0.61,
    "tier": "mega",
-   "hook": "\"US president Donald Trump and the leaders of some of the world\u2019s biggest tech companies have signed a new voluntary agreement on AI safety. Trump called the agreement \u201cmorally binding,\u201d and it appeared to have no legal ",
-   "date": "2026-09-30"
-  },
-  {
-   "page": "technology",
-   "likes": 11000,
-   "ratio": 0.4,
-   "tier": "mega",
-   "hook": "\"Swipe \u2b05\ufe0f to explore some of the most expensive technology packed inside the F-35, from its powerful F135 engine to advanced sensors, stealth systems, and pilot helmet \ud83d\udcb0\n\nThe F135 engine alone is estimated around $15\u201320 ",
-   "date": "2026-09-30"
+   "hook": "\"The attack on the Capitol on January 6, 2021, was not conducted mainly by extremists or fringe militia groups. It was, according to the data, the work of normal Americans.\n\nThat is the conclusion Robert A. Pape lays out",
+   "date": "2026-10-02"
   },
   {
    "page": "wired",
-   "likes": 606,
-   "ratio": 0.36,
+   "likes": 1040,
+   "ratio": 0.52,
+   "tier": "mega",
+   "hook": "\"Seventy years ago last summer, a group of scientists met at Dartmouth College to discuss a wild idea\u2014that machines might one day be capable of human-like thought processes. One of those scientists, John McCarthy, had su",
+   "date": "2026-10-02"
+  },
+  {
+   "page": "wired",
+   "likes": 756,
+   "ratio": 0.37,
    "tier": "mega",
    "hook": "\"The West Bank has, for the Palestinians who live there, ceased to exist as a contiguous territory. According to the most recent UN data from December 2025, at least 925 fixed and temporary checkpoints, metal gates, road",
    "date": "2026-10-01"
   },
   {
    "page": "wired",
-   "likes": 459,
-   "ratio": 0.27,
+   "likes": 651,
+   "ratio": 0.32,
    "tier": "mega",
-   "hook": "\"Israeli military checkpoints shape life in the occupied West Bank. But Israel has never publicly listed the checkpoints it operates, their staffing hours, closure times, when new ones will appear and which roads will be",
-   "date": "2026-09-30"
+   "hook": "\"Amazon has made a series of new public commitments to communities where it\u2019s building data centers, including making an official announcement that it no longer uses nondisclosure agreements in its arrangements with coun",
+   "date": "2026-10-02"
   },
   {
    "page": "wired",
-   "likes": 444,
-   "ratio": 0.26,
+   "likes": 505,
+   "ratio": 0.25,
    "tier": "mega",
    "hook": "\"Bruce Blakeman, the Republican nominee for New York governor, promised last November to erect a wall of spy gear, license plate readers, and biometric surveillance between the city and the suburbs. He has since received",
    "date": "2026-10-01"
   },
   {
    "page": "futurism",
-   "likes": 308,
-   "ratio": 0.18,
-   "tier": "mega",
-   "hook": "\"At times this year, it\u2019s almost felt as though OpenAI and Anthropic were in a race to the bottom, one-upping each other over whose AI models were more capable of going rogue, escaping sandbox environments, and infiltrat",
-   "date": "2026-09-30"
-  },
-  {
-   "page": "futurism",
-   "likes": 210,
-   "ratio": 0.12,
+   "likes": 277,
+   "ratio": 0.21,
    "tier": "mega",
    "hook": "\"The opposition to the wide proliferation of AI data centers has never been more palpable: Public sentiment has squarely turned against the construction boom of massive facilities that often torture surrounding communiti",
    "date": "2026-10-01"
   },
   {
-   "page": "technology",
-   "likes": 2661,
-   "ratio": 0.1,
-   "tier": "mega",
-   "hook": "\"This heavy semi-trailer uses a manually deployed hydraulic support to help manage extremely tight turns on narrow mountain roads and bridges. \n\nAt low speed, a long trailer can swing wide and place large sideways forces",
-   "date": "2026-10-02"
-  },
-  {
    "page": "mashable",
-   "likes": 35,
-   "ratio": 0.09,
+   "likes": 76,
+   "ratio": 0.21,
    "tier": "mega",
    "hook": "\"'War' stars Dominic West and Sienna Miller on episode 1's red carpet gone wrong #war #hbo #nowstreaming\".",
    "date": "2026-10-02"
   },
   {
+   "page": "technology",
+   "likes": 1648,
+   "ratio": 0.19,
+   "tier": "mega",
+   "hook": "\"A film studio building one of the highest-ranked video models is where this gets interesting.\n\n@Utopaistudios just launched Utopai X, currently #2 on Artificial Analysis\u2019 Text-to-Video Leaderboard (With Audio), alongsid",
+   "date": "2026-10-02"
+  },
+  {
+   "page": "technology",
+   "likes": 1468,
+   "ratio": 0.17,
+   "tier": "mega",
+   "hook": "\"Lunar Cargo is developing 2 mechanical systems called OPLONAS and MACEDONAS that aim to deliver cargo onto the Moon while reducing reliance on rocket-powered final deceleration.\n\nOPLONAS is a proposed 60-meter flexible ",
+   "date": "2026-10-03"
+  },
+  {
+   "page": "futurism",
+   "likes": 198,
+   "ratio": 0.15,
+   "tier": "mega",
+   "hook": "\"At its annual DevDay conference in San Francisco on Tuesday, OpenAI unveiled its new AI agent called Dots \u2014 which, like Meta\u2019s Muse, comes with a cute mascot. Powered by its GPT-6 Astra model, the agents are intended to",
+   "date": "2026-10-02"
+  },
+  {
+   "page": "wired",
+   "likes": 311,
+   "ratio": 0.15,
+   "tier": "mega",
+   "hook": "\"This week, President Donald Trump issued a new \u201cmorally binding\u201d AI accord after a lunch meeting with tech executives, which basically says the AI labs are going to regulate themselves. We get into how a non-binding acc",
+   "date": "2026-10-02"
+  },
+  {
+   "page": "technology",
+   "likes": 628,
+   "ratio": 0.07,
+   "tier": "mega",
+   "hook": "\"Cymatics makes sound visible by using vibration to arrange particles into changing geometric patterns, revealing the physical structure hidden inside different frequencies. \n\nWhen a plate, membrane or liquid is driven a",
+   "date": "2026-10-03"
+  },
+  {
    "page": "mashable",
-   "likes": 33,
-   "ratio": 0.09,
+   "likes": 17,
+   "ratio": 0.05,
    "tier": "mega",
-   "hook": "\"We test Jeremiah Brown's BookTok skills by making him recommend your next favorite read using only your favorite anime. #creatorplaybook #creator #anime\".",
-   "date": "2026-09-30"
-  },
-  {
-   "page": "technology",
-   "likes": 1011,
-   "ratio": 0.04,
-   "tier": "mega",
-   "hook": "\"Mercedes-Benz has put 140 years of its automotive history into one sequence, showing how its cars changed from early machines into the technology packed vehicles we know today.\n\nThe biggest changes go far beyond styling",
-   "date": "2026-10-02"
-  },
-  {
-   "page": "technology",
-   "likes": 841,
-   "ratio": 0.03,
-   "tier": "mega",
-   "hook": "\"Figure has retired most of its F.02 humanoid robots with a Terminator-inspired furnace stunt after Arnold Schwarzenegger suggested the company should melt them. \n\nRather than manually disassembling hardware packed with ",
-   "date": "2026-10-02"
+   "hook": "\"Looks like crispy audio and colorful windscreens are in our future!\u2060\n\u2060\nHead to the link in bio for our full review of the mics.\".",
+   "date": "2026-10-03"
   }
  ],
  "reddit_hot": []
