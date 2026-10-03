@@ -1,0 +1,17 @@
+{
+ "pick": 11,
+ "title": "Starlink satellites made 207,152 evasive moves without a single human pilot",
+ "title_candidates": [
+  "Starlink satellites made 207,152 evasive moves without a single human pilot",
+  "How Starlink's AI decides when to move a satellite out of the way",
+  "Every Starlink satellite in orbit is dodging debris on its own, right now",
+  "The invisible system stopping Starlink from crashing into itself",
+  "SpaceX built a system that runs 1,100 space dodges a day, fully automatic"
+ ],
+ "caption": "SpaceX's Starlink network made 207,152 autonomous collision-avoidance maneuvers in just six months. No human approved a single one.\n\nEach satellite runs its own system that detects a nearby object, calculates how dangerous it is, and fires thrusters to move out of the way, all without waiting for anyone on the ground. That process runs constantly, across hundreds of satellites at once, in a part of space that gets more crowded every year.\n\nWithout it, a constellation this big would eventually crash into itself and block everyone below from using that orbit at all.\n\nLove AI? Follow @yaffeai for daily AI news\n\nCredits: cb_doge. DM for credit or removal\n\n#SpaceX #Starlink #AI #Space #Tech",
+ "start_s": 2,
+ "clip_s": 22,
+ "source": "https://video-s.twimg.com/amplify_video/2100204886340333568/vid/avc1/2160x2160/uQWMpkiLBkGq9NQf.mp4?tag=29",
+ "channel": "cb_doge",
+ "publish": "bundle"
+}
