@@ -1,0 +1,71 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SAM ALTMAN WENT VIRAL <em>AT 1 AM.</em> OVER ROCKS.",
+   "kicker": "HE CALLED IT THE BEST THING EVER",
+   "hsize": 72,
+   "media": "faces/sam-altman-3.jpg"
+  }
+ ],
+ "caption": "Sam Altman, CEO of OpenAI, ends high-stakes AI calls past midnight and walks home to his kids. \ud83c\udf19\n\nAt 1:09 AM, Sam Altman posted about hanging up a high-stakes phone call and walking sixty seconds to small children who wanted to show him their discoveries. He called it 'the strangest and best thing I have ever experienced in life.' His last call of the day ends past midnight, not after dinner. A million people now picture the CEO most associated with AI changing your job being upstaged nightly by a child who doesn't know what he does.\n\nThe most powerful people in AI don't stop being human when they hang up. And sometimes the loudest reminder of that comes from someone who just wants to show you what they found on the floor.\n\nRunning a business? DM us 'AI' and we'll show you what AI could do for yours.\n\nSources: X (sama)\n\n#SamAltman #OpenAI #AI #Tech #Founder",
+ "pinned_comment": "Honest question: is this the most humanizing thing a tech CEO has ever posted, or is it strange that the man most responsible for reshaping the job market is doing it at 1 AM?",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "SAM ALTMAN ADMITS <em>HIS KIDS BEAT EVERYTHING</em>",
+   "SAM ALTMAN: WORLD-CHANGING CALLS UNTIL MIDNIGHT. <em>THEN A CHILD'S ROCK.</em>",
+   "SAM ALTMAN POSTED ABOUT HIS KIDS AT <em>1 AM</em>",
+   "<em>SAM ALTMAN</em> POSTED ABOUT HIS KIDS AT 1 AM.",
+   "SAM ALTMAN: <em>HIGH-STAKES CALLS</em>, THEN HIS KIDS",
+   "<em>SAM ALTMAN</em> SAYS HIS KIDS BEAT EVERY AI CALL."
+  ],
+  "scores": [
+   5,
+   8,
+   1,
+   1,
+   4,
+   7
+  ],
+  "winner": 1,
+  "why": "The rock detail gives [1] poetic specificity that makes you stop and wonder\u2014it tells a complete story visually. [5] makes a bigger claim but it reads like a headline, not the kind of mystery that actually stops a 2am scroller."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "SAM ALTMAN SAYS HIS KID'S ROCK <em>BEATS EVERYTHING HE'S BUILT.</em>",
+   "SAM ALTMAN WENT VIRAL <em>AT 1 AM.</em> OVER ROCKS."
+  ],
+  "scores": [
+   6,
+   8
+  ],
+  "winner": 1,
+  "why": "[1] stops your scroll with immediate 'wait what?' from the weird combo of 1 AM + viral + rocks. [0] is touching but generic without context on who Sam Altman is."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Sam Altman",
+  "actor_known": true,
+  "anchor": "Sam Altman",
+  "specifics": [
+   "Posted at 1:09 AM \u2014 his 'last call of the day' ends past midnight",
+   "1 million views",
+   "CEO of OpenAI, the company most associated with AI replacing jobs",
+   "Sixty seconds between a high-stakes call and a child showing him their day",
+   "Called it 'the strangest and best thing I have ever experienced in life'"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "The contrast between hanging up the last phone call of the day of high-stakes decisions and then a minute later walking in the door to the pure love of small children who want to laugh and play and show you every discove",
+  "link": "https://x.com/sama/status/2106189841813934140",
+  "judge_interest": 4,
+  "scout_score": 105.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "HOOK \u00a72 \u2014 engagement metric as payoff, explicitly banned: 'SAM ALTMAN WENT VIRAL AT 1 AM' makes the virality of a tweet the story. The Doctrine bans 'engagement metrics as the payoff' by name. Rewrite to the actual event: e.g. 'SAM ALTMAN GETS HOME AT 1 AM AND HIS KIDS SHOW HIM ROCKS' \u2014 that's the thing that happened, not the like count.; STORY \u00a71 \u2014 reaction-bait: the underlying event is a sentime"
+}

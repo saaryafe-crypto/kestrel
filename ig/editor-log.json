@@ -1,152 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "IMAGE LAW — cover has no photoreal subject. The background is a near-black field of abstract CGI particle/bokeh streaks: nothing in the frame reads as photographed, there is no person, product, or news artifact, and the top two-thirds is essentially empty dark space. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures' and ",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "t": "2026-09-30T02:05:02Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "COVER IMAGE FAILS IMAGE LAW: The cover is an abstract orange particle streak on a pure-black void — no subject, no human face, no product, no photographed element. IMAGE LAW is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' Additionally, the particle graphic reads as a digital render, not a photographed element ('every ELEMENT in th",
-  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
-  "t": "2026-09-30T02:06:53Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "HOOK SO-WHAT VIOLATION: 'APPROVES' is a procedural verb explicitly banned by the SO-WHAT LAW (same category as 'registered', 'filed', 'signed', 'approved'). The hook tells the reader what the board did internally, not what changes in the world. A stranger reads it and can shrug 'so what?' Fix: rewrite to the consequence — e.g. 'NVIDIA IS BUYING BACK $235 BILLION OF ITS OWN STOCK — THE BIGGEST IN U",
-  "subject": "NVIDIA APPROVES <em>$235 BILLION BUYBACK</em>, THE BIGGEST IN US HISTORY",
-  "t": "2026-09-30T02:08:53Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "COVER IMAGE — abstract CGI decoration, zero proof of the story. The image is an orange particle/light-streak effect on a black void: no subject, no face, no photoreal element, no Nvidia brand mark, nothing a stranger at feed size could connect to a $235B stock buyback. Violates three rules simultaneously: 'Every image is PROOF or a STAGED SCENE OF THE STORY — never decoration'; 'The cover must ALW",
-  "subject": "NVIDIA JUST BET <em>$235 BILLION</em> ON ITSELF, THE BIGGEST IN US HISTORY",
-  "t": "2026-09-30T02:11:30Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "NVIDIA JUST BET <em>$235 BILLION</em> ON ITSELF, THE BIGGEST IN US HISTORY",
-  "t": "2026-09-30T02:11:37Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-09-30T06:32:53Z",
-  "gate": "A",
-  "subject": "Going to bed these days",
-  "verdict": "KILL",
-  "reason": "No substance — the source is a vague vibe phrase with zero event, consequence, numbers, or proof; a writer would have to invent the entire story."
- },
- {
-  "t": "2026-09-30T06:33:24Z",
-  "gate": "A",
-  "subject": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher",
-  "verdict": "KILL",
-  "reason": "Banned launch preview: a vague product announcement with no demo, details, or substance — writer would have to pad from a 127-character marketing claim."
- },
- {
-  "t": "2026-09-30T06:34:51Z",
-  "gate": "A",
-  "subject": "GPT-6.1 Sol: near-Astra intelligence for a fifth of the price. It’s the most cost-efficient model for its performance av",
-  "verdict": "APPROVE",
-  "reason": "Model release by OpenAI is a MAJOR MOVE per NEWS PAGE FIRST and protected despite thin source; writer can verify pricing and benchmarks."
- },
- {
-  "t": "2026-09-30T06:51:19Z",
-  "gate": "B",
-  "subject": "OpenAI just made replacing you <em>5x cheaper</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW §3 hard kill: the cover is a screenshot of OpenAI's model-pricing UI (three product cards — Astra, Sol, Luna — with pricing listed). The doctrine is unconditional: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER. Screenshots may appear INSIDE as receipt evidence on a styled card, never as the face of the post.' Fix: replace with a photoreal composite — Sam Altman (vendor cast, ful"
- },
- {
-  "t": "2026-09-30T06:52:59Z",
-  "gate": "B",
-  "subject": "OpenAI just made replacing you <em>5x cheaper</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE IS A SCREENSHOT — hard rule violation (§3): the cover is OpenAI's pricing/model card page lifted directly as the face of the post. The law is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Fix: build a photoreal composite using Sam Altman's press photo (the company/famous-CEO archetype — person + giant glossy brand mark + the real product), with '5x' oversized in fr"
- },
- {
-  "t": "2026-09-30T06:54:58Z",
-  "gate": "B",
-  "subject": "OpenAI just made replacing you <em>5x cheaper</em>",
-  "verdict": "REJECT",
-  "reason": "Cover image is a screenshot of OpenAI's product-comparison UI — §3 bans screenshots as covers, full stop. Fix: replace with a photoreal composite. The Vendor Cast exception makes Sam Altman the default face here (OpenAI news = his face is legal); pair him with an oversized '5×' or '$10 vs $50' price-tag element and the OpenAI brand mark, so the cover proves the headline without showing a UI."
- },
- {
-  "t": "2026-09-30T06:55:34Z",
-  "gate": "A",
-  "subject": "Going to bed these days",
-  "verdict": "KILL",
-  "reason": "Cryptic vague observation with no identifiable real-world event, consequence, or substance — it's a joke/vibe from a non-famous account, not a story."
- },
- {
-  "t": "2026-09-30T06:55:44Z",
-  "gate": "A",
-  "subject": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher",
-  "verdict": "KILL",
-  "reason": "No substance—the source is a one-line product teaser with zero detail about what Dots actually does, how it works, or any numbers/facts; the writer cannot build a full carousel without padding or external research beyond the provided source."
- },
- {
-  "t": "2026-09-30T06:56:20Z",
-  "gate": "A",
-  "subject": "The AI revolution is running into a power bottleneck: US data center IT power demand is projected to surge +755% from 20",
-  "verdict": "KILL",
-  "reason": "Analyst projection about future power constraints, not a real-world event—fails core requirement: 'something HAPPENED in the real world, with a consequence someone felt'; this is forecast for 2029, not news."
- },
- {
-  "t": "2026-09-30T06:56:56Z",
-  "gate": "A",
-  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
-  "verdict": "KILL",
-  "reason": "One incomplete tweet of pure hearsay ('I heard,' 'I was told') with zero named sources, no verification of the alleged OpenAI incident, and no real-world consequence or confirmation — fails NO SUBSTANCE and reads as reaction-bait (the event is a famous person posting an alarming claim, not reality moving)."
- },
- {
-  "t": "2026-09-30T06:57:26Z",
-  "gate": "A",
-  "subject": "What a crazy timeline: Now it’s Meta taking the fight to OpenAI - and they even have a good chance of their always-on ag",
-  "verdict": "KILL",
-  "reason": "Source is unconfirmed speculation about future competition with no reported event, numbers, or concrete consequence—if Alexandr Wang was hired by Meta, that's a factual event, but this tweet doesn't report it clearly enough; the writer would have to fabricate substantive details rather than expand reporting."
- },
- {
-  "t": "2026-09-30T06:57:42Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "Scout's 4/10 rating (below exception threshold) correctly identifies this as organizational routine by non-household-name tier actor; space-agency launches, unlike OpenAI/Google moves, don't drive the felt consequence or dramatic news value this standard requires."
- },
- {
-  "t": "2026-09-30T07:17:27Z",
-  "gate": "B",
-  "subject": "<em>SAM ALTMAN</em> TYPED ONE SENTENCE. 1.4 MILLION PEOPLE STOPPED.",
-  "verdict": "REJECT",
-  "reason": "HOOK PAYOFF IS A BANNED ENGAGEMENT METRIC: '1.4 MILLION PEOPLE STOPPED' is a view count — exactly what the doctrine bans as hook payoff ('engagement metrics as the payoff: likes, views, replies, reposts, followers'). The kicker compounds it: '1.4M VIEWS, NO PRODUCT DEMO'. Rewrite the hook to the product's claim: e.g. 'OPENAI LAUNCHED AN AI THAT WORKS 24/7 FOR YOU — AND NOBODY KNOWS WHAT IT DOES YE"
- },
- {
-  "t": "2026-09-30T07:20:33Z",
-  "gate": "A",
-  "subject": "Going to bed these days",
-  "verdict": "KILL",
-  "reason": "No substance — the source material contains no identifiable event, fact, numbers, or consequence to expand; 'Going to bed these days' is a vibe phrase, not a story."
- },
- {
-  "t": "2026-09-30T07:20:42Z",
-  "gate": "A",
-  "subject": "The AI revolution is running into a power bottleneck: US data center IT power demand is projected to surge +755% from 20",
-  "verdict": "KILL",
-  "reason": "It's an analyst projection of future demand, not a real-world event where reality moved — the doctrine requires 'something HAPPENED in the real world, with a consequence someone felt.' Predictions about 2029 are speculative, not stories."
- },
- {
-  "t": "2026-09-30T07:21:27Z",
-  "gate": "A",
-  "subject": "The Pentagon has had its personnel database breached, exposing sensitive information belonging to nearly 3 million milit",
-  "verdict": "KILL",
-  "reason": "Government security incident, not technology/AI news; low scout interest (4/10) confirms brand misalignment for a tech-focused page."
- },
- {
   "t": "2026-09-30T07:21:55Z",
   "gate": "A",
   "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
@@ -2098,5 +1951,152 @@
   "subject": "Lmaooo Israel is creating full on AI reenactments of their false flags now.",
   "verdict": "KILL",
   "reason": "Unverified allegation in a single joking tweet with no documentation or proof of an underlying event — reaction-bait to a claim, not a reportable story."
+ },
+ {
+  "t": "2026-10-03T18:59:57Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens: a skilled-trades work-ethic scholarship story has no AI, tech, company/founder, investing, or space angle — wrong page entirely."
+ },
+ {
+  "t": "2026-10-03T19:00:19Z",
+  "gate": "A",
+  "subject": "I gave Opus 5.5 one prompt + music. 12 hours later, I woke up to this.",
+  "verdict": "KILL",
+  "reason": "Unknown actor and no substance: a 70-character vague claim about a personal AI experiment with no details about what 'this' is or why it matters."
+ },
+ {
+  "t": "2026-10-03T19:00:38Z",
+  "gate": "A",
+  "subject": "Robotaxi operating hours moved from 10pm to 11pm. The main thing we’re trying to solve is making sure that we don’t run ",
+  "verdict": "KILL",
+  "reason": "Operating hours adjustment is routine operations, not the material news events this page requires—launches, policy shifts, or major business changes."
+ },
+ {
+  "t": "2026-10-03T19:01:13Z",
+  "gate": "A",
+  "subject": "I am very uncomfortable about people trying to ascribe religious force or a surrender of human judgment to AI models, an",
+  "verdict": "KILL",
+  "reason": "One-line opinion statement with no real-world event or consequence; Altman is commenting on a trend, not reporting that something happened or that reality moved — no product change, no action taken, no outcome — which disqualifies it under 'no substance' for a news page whose identity is specific events, not safety commentary."
+ },
+ {
+  "t": "2026-10-03T19:01:27Z",
+  "gate": "A",
+  "subject": "The contrast between hanging up the last phone call of the day of high-stakes decisions and then a minute later walking ",
+  "verdict": "KILL",
+  "reason": "No real-world event or consequence—a personal reflection, not news; fails §1 core requirement that 'something HAPPENED in the real world, with a consequence someone felt.'"
+ },
+ {
+  "t": "2026-10-03T19:02:02Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "4/10 scout interest on thin source material; government announcement lacks technical detail, timeline, cost, or dramatic consequence needed to meet the 'send to friend' threshold for reader engagement."
+ },
+ {
+  "t": "2026-10-03T19:02:56Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens story—a personal work-ethic scholarship narrative with zero connection to AI, technology, companies, investing, or space technology; this page's brand is tech/AI news, not general inspiration."
+ },
+ {
+  "t": "2026-10-03T19:03:20Z",
+  "gate": "A",
+  "subject": "I gave Opus 5.5 one prompt + music. 12 hours later, I woke up to this.",
+  "verdict": "KILL",
+  "reason": "The source material is a pure teaser with zero substance—no outcome shown, no proof, no concrete facts to build slides from."
+ },
+ {
+  "t": "2026-10-03T19:03:43Z",
+  "gate": "A",
+  "subject": "Robotaxi operating hours moved from 10pm to 11pm. The main thing we’re trying to solve is making sure that we don’t run ",
+  "verdict": "KILL",
+  "reason": "Procedural operating adjustment without major consequence or substance—fails news-event threshold."
+ },
+ {
+  "t": "2026-10-03T19:04:27Z",
+  "gate": "A",
+  "subject": "I am very uncomfortable about people trying to ascribe religious force or a surrender of human judgment to AI models, an",
+  "verdict": "KILL",
+  "reason": "No event occurred—a founder tweeting an opinion about a phenomenon, with no real-world consequence, incident, or specifics a writer could expand into slides without padding."
+ },
+ {
+  "t": "2026-10-03T19:04:35Z",
+  "gate": "A",
+  "subject": "The contrast between hanging up the last phone call of the day of high-stakes decisions and then a minute later walking ",
+  "verdict": "KILL",
+  "reason": "No event or consequence — this is personal reflection, not a news story the page covers."
+ },
+ {
+  "t": "2026-10-03T19:05:10Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Off-lens for an AI/tech page — government satellite launch lacks the commercial/tech-business angle required by space stories (SpaceX, Starlink precedent); pure government space achievement."
+ },
+ {
+  "t": "2026-10-03T19:17:43Z",
+  "gate": "B",
+  "subject": "ELON MUSK'S ROBOTAXIS COULDN'T SEE <em>GREY KITTENS ON GREY ROADS</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 — PHOTOREAL ELEMENTS VIOLATED: The cover is a cartoon illustration. Tom and Jerry are drawn characters; the entire foreground subject reads as cartoon/animation art, not as photographed. §3 is explicit: 'A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT, whatever its concept.' The concept is cleve"
+ },
+ {
+  "t": "2026-10-03T19:19:12Z",
+  "gate": "B",
+  "subject": "ELON MUSK'S ROBOTAXIS COULDN'T SEE <em>GREY KITTENS ON GREY ROADS</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CARTOON ELEMENTS: Tom and Jerry are cartoon/illustrated characters. The doctrine is absolute: 'every ELEMENT in the frame must read as photographed — a frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT, whatever its concept.' The Tesla car reads photoreal; Tom and Jerry do not — they are the most rec"
+ },
+ {
+  "t": "2026-10-03T19:20:32Z",
+  "gate": "B",
+  "subject": "ELON MUSK'S ROBOTAXIS COULDN'T SEE <em>GREY KITTENS ON GREY ROADS</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — FATAL: The cover is cartoon illustration, not a photoreal composite. Tom and Jerry characters are hand-drawn animated figures placed in the scene — not photographs, not cutouts from real footage. The Doctrine is explicit: 'A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT, whatever its concept.' Th"
+ },
+ {
+  "t": "2026-10-03T19:21:59Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens per Story Law §1 — vocational-education story with zero connection to AI, technology, tech founders, investing, or space; belongs on a career/personal-development page, not a tech news page."
+ },
+ {
+  "t": "2026-10-03T19:22:42Z",
+  "gate": "A",
+  "subject": "The contrast between hanging up the last phone call of the day of high-stakes decisions and then a minute later walking ",
+  "verdict": "KILL",
+  "reason": "No real-world event or consequence—this is a personal life reflection from a famous person, not a news story; nothing happened in the world, no outcome anyone felt, and nothing to build slides from without massive padding."
+ },
+ {
+  "t": "2026-10-03T19:22:47Z",
+  "gate": "A",
+  "subject": "I am very uncomfortable about people trying to ascribe religious force or a surrender of human judgment to AI models, an",
+  "verdict": "KILL",
+  "reason": "Sam expressing a concern about a phenomenon is not an event—no reality moved, no incident reported, no numbers or proof offered; writer would require substantial padding to fill slides from one opinion statement."
+ },
+ {
+  "t": "2026-10-03T19:22:53Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Routine government satellite launch announcement without business angle or household-name tech actor; fails the requirement that space coverage must flow through tech-company/startup/valuation lens (SpaceX, Starlink style), not government agencies."
+ },
+ {
+  "t": "2026-10-03T19:45:03Z",
+  "gate": "B",
+  "subject": "SAM ALTMAN WENT VIRAL <em>AT 1 AM.</em> OVER ROCKS.",
+  "verdict": "REJECT",
+  "reason": "HOOK §2 — engagement metric as payoff, explicitly banned: 'SAM ALTMAN WENT VIRAL AT 1 AM' makes the virality of a tweet the story. The Doctrine bans 'engagement metrics as the payoff' by name. Rewrite to the actual event: e.g. 'SAM ALTMAN GETS HOME AT 1 AM AND HIS KIDS SHOW HIM ROCKS' — that's the thing that happened, not the like count.; STORY §1 — reaction-bait: the underlying event is a sentime"
+ },
+ {
+  "t": "2026-10-03T19:47:22Z",
+  "gate": "R",
+  "subject": "SAM ALTMAN WENT VIRAL <em>AT 1 AM.</em> OVER ROCKS.",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
