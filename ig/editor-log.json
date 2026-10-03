@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-30T02:54:39Z",
-  "gate": "A",
-  "subject": "BREAKING — President Trump signs an executive order directing every federal agency to begin integrating with America(dot",
-  "verdict": "KILL",
-  "reason": "No substance: 192-character source has no detail of actual consequence or timeline, and routine government policy announcements fall outside this page's tech/AI industry major-move scope."
- },
- {
   "t": "2026-09-30T03:12:17Z",
   "gate": "B",
   "subject": "YOUR GOVERNMENT JUST HIRED <em>ELON MUSK'S AI</em> TO ANSWER YOU",
@@ -2098,5 +2091,12 @@
   "subject": "NVIDIA JUST HIT <em>$5.7 TRILLION</em>",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-10-03T13:19:28Z",
+  "gate": "A",
+  "subject": "I didn't even like this couple to begin with, but some of y'all are genuinely npc drones made in the most proficent AI f",
+  "verdict": "KILL",
+  "reason": "REACTION-BAIT with zero substance: the 'event' is crowd reaction to an unspecified couple, no names given, no real-world consequence described, and the source would require padding or fabrication to produce even one slide."
  }
 ]

@@ -1,0 +1,39 @@
+{
+ "stories": [
+  {
+   "headline": "Nvidia hits all-time record worth $5.7 trillion"
+  },
+  {
+   "headline": "AI is now acing accounting exams"
+  },
+  {
+   "headline": "AI drew a world map from 16,200 GPS questions"
+  },
+  {
+   "headline": "US-bound oil tanker had its propulsion system hacked"
+  },
+  {
+   "headline": "One prompt and music, Opus 5.5 finished a project overnight"
+  }
+ ],
+ "caption": "NVIDIA שברה שיא עולמי: החברה עכשיו שווה 5.7 טריליון דולר, הכי גבוה שחברת שבבים אי פעם הגיעה.\n\n10,000 דולר שהשקעת לפני עשר שנים שווים היום 1.58 מיליון דולר. AI עבר את אותן בחינות שרואה החשבון שלך למד שנים. חוקרים שאלו AI \"יבשה או ים?\" 16,200 פעמים לפי קואורדינטות GPS, וה-AI צייר מהתשובות מפה מדויקת של כדור הארץ. הוא לא למד גאוגרפיה אף פעם, הוא סתם קרא את האינטרנט. מכלית נפט בדרך לארה\"ב עברה פריצה למערכת ההנעה שלה באמצע הים.\n\nמקורות: X (financial markets, AI research community, cybersecurity feeds)\n\nעוקבים אחרי @ainews.israel לכל מה שקורה ב-AI.\n\n#AI #Nvidia #ArtificialIntelligence #Tech #AINews",
+ "pinned_comment": "NVIDIA עכשיו שווה יותר מהבורסות של רוב מדינות העולם ביחד. זו חברת שבבים אחת. אז מה זה אומר? שה-AI הוא הדבר האמיתי, או שאנחנו בתוך הבועה הכי גדולה שהייתה אי פעם?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "NVIDIA שברה שיא: <em>5.7 טריליון דולר</em>",
+   "kicker": "הסיכום היומי"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW — cover has no proof subject. The background is an abstract orange particle burst over black: a digital illustration, not a photoreal element. The thumb test fails completely — a stranger at feed size sees a generic tech wallpaper, not 'Nvidia hit a record.' IMAGE LAW requires every element to read as photographed and the cover to prove the headline in half a second. For this story the a",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}
