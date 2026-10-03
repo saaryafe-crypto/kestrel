@@ -1,0 +1,11 @@
+Hackers remotely killed a US-bound oil tanker's propulsion system, leaving it dead in the water mid-ocean
+
+A tanker full of oil was heading to the US. Someone hacked its engine remotely on October 2 and killed it dead in the water. Not the cargo, not the GPS. The propulsion, the one system that makes the ship move. The cargo company is scrambling, the US port is waiting on oil that won't arrive on time, and a tow crew has to reach it in open water.
+
+Hacking ships is real now. The systems that move oil around the planet were built before anyone took cybersecurity seriously, and one stranded tanker ripples through fuel prices and ports. The propulsion went offline October 2, most commercial tankers still run engine software that's 30 years old, it was never meant to be online.
+
+Running a business? DM us "AI" and we'll show you what this could mean for yours.
+
+Sources: Watcher.Guru on X
+
+#cybersecurity #oiltanker #hacking #energysecurity #cyberthreat

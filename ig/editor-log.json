@@ -1,138 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Unverified hearsay about an alleged OpenAI hacking incident with no documented real-world consequence, source proof, or verified event.",
-  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
-  "t": "2026-09-30T00:19:31Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "KICKER IS A BANNED ENGAGEMENT METRIC (§2 hard rule): '7.2M PEOPLE WATCHED HIM TWEET IT' uses a view count as the payoff — the doctrine names this exact pattern ('THE SCREENSHOT HAS 40K LIKES') as the failure model. Cut the kicker entirely, or replace with a real-world consequence: 'STARLINK V3 IS ALREADY MAKING V2 OBSOLETE.'; HOOK 'AND' JOINS TWO ACTIONS (§2): 'LAUNCHED 26 SATELLITES AND EVERY SIN",
-  "subject": "ELON MUSK LAUNCHED 26 SATELLITES AND <em>EVERY SINGLE ONE WORKS</em>",
-  "t": "2026-09-30T00:38:39Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW — cover fails the proof test. The image is a plain neutral headshot of Musk in a Tesla sweatshirt against a white wall: no satellites in frame, no Starlink or SpaceX brand mark, no story-world background. The doctrine requires the company/famous-CEO archetype: 'the person + giant glossy brand mark + the real product.' A stranger at feed size sees a man in a Tesla shirt, not a satellite s",
-  "subject": "ALL 26 OF ELON MUSK'S NEW SATELLITES <em>CAME ONLINE</em>",
-  "t": "2026-09-30T00:40:19Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "COVER IMAGE FAILS §3 ARCHETYPE LAW: The image is a plain close-up portrait of Musk against a white background — no SpaceX/Starlink brand mark, no satellite, no space context. A stranger at feed size sees a man's face and cannot guess this story is about 26 satellites going live in orbit. The correct archetype for this story is 'company/product with a famous CEO' → person + giant glossy brand mark ",
-  "subject": "ALL 26 OF ELON MUSK'S NEW SATELLITES <em>CAME ONLINE</em>",
-  "t": "2026-09-30T00:41:57Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "s1: The photo is a dim, low-resolution candid portrait that lacks press-photo quality and is visually irrelevant to a satellite launch milestone — the slide reads better as a text-only graphic.",
-  "subject": "ALL 26 OF ELON MUSK'S NEW SATELLITES <em>CAME ONLINE</em>",
-  "t": "2026-09-30T00:42:06Z",
-  "verdict": "FAIL"
- },
- {
-  "t": "2026-09-30T02:21:21Z",
-  "gate": "A",
-  "subject": "Your dot is ready to meet you.",
-  "verdict": "KILL",
-  "reason": "The source is too cryptic to confirm a real event occurred; 'Your dot is ready to meet you' announces nothing specific and reads like empty launch-preview teasing, not news with proof of consequence."
- },
- {
-  "t": "2026-09-30T02:21:27Z",
-  "gate": "A",
-  "subject": "Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything.",
-  "verdict": "KILL",
-  "reason": "One-line announcement with zero details, numbers, consequences, or demo; weak scout interest (6/10) signals the writer would have to pad substantially to build slides, failing the 'no substance' rule—cannot verify whether this is an actual product release or an empty teaser."
- },
- {
-  "t": "2026-09-30T02:22:42Z",
-  "gate": "A",
-  "subject": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher",
-  "verdict": "KILL",
-  "reason": "Hype announcement with zero substance—reader won't know what Dots is or does, and writer cannot build slides without speculation rather than research."
- },
- {
-  "t": "2026-09-30T02:23:30Z",
-  "gate": "A",
-  "subject": "🚨 Self Improving Personal Agents - chat with them on WhatsApp and Telegram - persistent memory - learns how you do work ",
-  "verdict": "KILL",
-  "reason": "Unknown builder, no demonstration, and no real-world consequence—a product feature claim without the substance or proof Story Law requires."
- },
- {
-  "t": "2026-09-30T02:23:52Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "Routine satellite launch from a non-household-name agency—lacks jaw-drop, person-scale narrative, or felt consequence that makes a reader send it to a friend."
- },
- {
-  "t": "2026-09-30T02:24:27Z",
-  "gate": "A",
-  "subject": "BREAKING: Grok is helping power America .gov, the U.S. government’s new AI website. 🇺🇸 U.S. Chief Design Officer Joe Geb",
-  "verdict": "KILL",
-  "reason": "Thin source—routine government adoption of existing AI lacks numbers and consequence to build a multi-slide story."
- },
- {
-  "t": "2026-09-30T02:25:41Z",
-  "gate": "A",
-  "subject": "BREAKING — President Trump signs an executive order directing every federal agency to begin integrating with America(dot",
-  "verdict": "KILL",
-  "reason": "Bureaucratic government policy without felt reader consequence—not the AI/tech company news this page covers."
- },
- {
-  "t": "2026-09-30T02:26:14Z",
-  "gate": "A",
-  "subject": "BREAKING: Anthropic discloses $84.5 billion SpaceX Compute Agreements through 2029. Anthropic has agreements to pay Spac",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-30T02:27:02Z",
-  "gate": "A",
-  "subject": "Your dot is ready to meet you.",
-  "verdict": "KILL",
-  "reason": "Single sentence with no facts, specs, date, or availability—source provides nothing to build slides from without padding."
- },
- {
-  "t": "2026-09-30T02:27:21Z",
-  "gate": "A",
-  "subject": "Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything.",
-  "verdict": "KILL",
-  "reason": "One thin tweet with nothing behind it—no detail on what 'dots' is or does, no numbers, no consequence of the release; writer would have to pad to explain the product itself."
- },
- {
-  "t": "2026-09-30T02:46:20Z",
-  "gate": "B",
-  "subject": "SPACEX JUST LOCKED IN <em>$84.5 BILLION</em> FROM AI, NOT ROCKETS",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — COVER IS TEXT-ON-BLACK: The doctrine states explicitly 'Text-on-black or empty-top covers are failures.' The cover is exactly that: '$84.5B' and the two logos on a dark gradient, no photoreal element, no subject, no scene. This is a hard IMAGE LAW violation regardless of concept strength. Fix: rebuild the cover as a photoreal composite — e.g., Dario Amodei (Anthropic's face, correct VE"
- },
- {
-  "t": "2026-09-30T02:48:32Z",
-  "gate": "B",
-  "subject": "SPACEX JUST LOCKED IN <em>$84.5 BILLION</em> FROM AI, NOT ROCKETS",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — cover is text-on-black: $84.5B in white type on a dark gradient with two logo marks. The doctrine states explicitly 'Text-on-black or empty-top covers are failures' and 'PHOTOREAL ELEMENTS, ALWAYS.' There is no photograph, no face, no real-world scene anywhere in the frame. Fix: replace with a photoreal collage — Dario Amodei cutout (or a server hall photo) + SpaceX Falcon/Starship flo"
- },
- {
-  "t": "2026-09-30T02:50:36Z",
-  "gate": "B",
-  "subject": "ANTHROPIC OWES SPACEX <em>UP TO $84.5 BILLION</em> TO RUN CLAUDE",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — text-on-black cover is an explicit failure. The doctrine states 'Text-on-black or empty-top covers are failures' with no exceptions. The cover is pure white typography ($84.5B / ANTHROPIC | SPACEX) on a dark gradient — no photoreal element, no face, no photo artifact. Fix: replace with a photoreal collage — cutout of Dario Amodei (story has a real actor) over a SpaceX Starlink/rocket v"
- },
- {
-  "t": "2026-09-30T02:51:34Z",
-  "gate": "A",
-  "subject": "Your dot is ready to meet you.",
-  "verdict": "KILL",
-  "reason": "Source material is incomprehensibly cryptic—'Your dot is ready to meet you' reveals no event, no consequence, and no fact a writer could expand into slides without padding; even for a famous lab like OpenAI, this cryptic teaser (unlike 'Sony sues Anthropic,' which clearly states reality moved) leaves the underlying event itself unverifiable and likely insubstantial marketing hype, not a story."
- },
- {
   "t": "2026-09-30T02:51:38Z",
   "gate": "A",
   "subject": "Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything.",
@@ -2098,5 +1965,138 @@
   "subject": "ELON MUSK WILL NOW <em>SHAPE THE FUTURE OF WAR</em>",
   "verdict": "FAIL",
   "reason": "s1: The photo is a low-quality candid close-up with the top of Musk's head visibly amputated at the frame edge — it lacks the bright, saturated press-photo energy the standard requires."
+ },
+ {
+  "t": "2026-10-03T02:16:03Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens human-interest story with no AI, tech, founder, investing, or space technology subject — pure inspirational content about a welding scholarship, misaligned with this tech-news page's identity."
+ },
+ {
+  "t": "2026-10-03T02:16:19Z",
+  "gate": "A",
+  "subject": "Super Intelligence (fka AI) is now acing accounting tests",
+  "verdict": "KILL",
+  "reason": "INSTANT KILL (NO SUBSTANCE): one bare assertion with no numbers, context, or demonstrated consequence—writer must pad or invent outside the 57-character source."
+ },
+ {
+  "t": "2026-10-03T02:17:07Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 US-bound oil tanker's propulsion system has been hacked.",
+  "verdict": "KILL",
+  "reason": "No consequence stated and insufficient detail to build slides from; one thin unverified tweet hits NO SUBSTANCE rule."
+ },
+ {
+  "t": "2026-10-03T02:18:20Z",
+  "gate": "A",
+  "subject": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Wr",
+  "verdict": "KILL",
+  "reason": "Guide/tips content, not a story—the owner explicitly flagged 'repetitive guide flood' as the page's #1 content problem, and scout interest is only 4/10."
+ },
+ {
+  "t": "2026-10-03T02:19:04Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Off-lens per §1: the subject is India's national pride and achievement; space technology is the method, making this a geopolitics story, not a tech story."
+ },
+ {
+  "t": "2026-10-03T02:19:45Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens kill: welding scholarship story has no AI, tech, company/founder, investing, or space angle—this page is AI/tech news first, and personal-trades narratives violate the strict lens requirement."
+ },
+ {
+  "t": "2026-10-03T02:19:47Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 US-bound oil tanker's propulsion system has been hacked.",
+  "verdict": "KILL",
+  "reason": "Unverified claim from a market account with zero detail—ship unnamed, consequence unknown, no facts to build slides from; fails NO SUBSTANCE (§1 instant kill: 'entire source is one thin tweet with nothing behind it') and TRUTH LAW (unverified, unsourced)."
+ },
+ {
+  "t": "2026-10-03T02:19:54Z",
+  "gate": "A",
+  "subject": "Super Intelligence (fka AI) is now acing accounting tests",
+  "verdict": "KILL",
+  "reason": "One unproven capability claim with zero numbers, demonstration, or consequence—too thin even for a household-name's announcement; no clarity on what changed in the world or when the product is available, and the writer would have to invent substance to fill slides."
+ },
+ {
+  "t": "2026-10-03T02:20:45Z",
+  "gate": "A",
+  "subject": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Wr",
+  "verdict": "KILL",
+  "reason": "This is a tips-and-tricks guide (ask LLMs for ASD-STE100 format, ask for diagrams, ask for HTML)—exactly the 'repetitive guide flood' the owner flagged as the page's #1 content failure; no event happened, no 'wild-but-true story,' and scout interest is 4/10, below the exception threshold."
+ },
+ {
+  "t": "2026-10-03T02:21:14Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Government institutional space news without company or founder—off-brand for a tech page."
+ },
+ {
+  "t": "2026-10-03T02:37:49Z",
+  "gate": "B",
+  "subject": "AI ACES ACCOUNTING TESTS <em>RESEARCHERS WERE SCARED TO PUBLISH</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — SCREENSHOT BANNED AS COVER: The cover is a raw academic research scatter-plot, which is a screenshot of a study figure. The law is unambiguous: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' A research chart is a screenshot of a document, not a photoreal scene. Fix: build a styled composite — a real press photo of an accountant or a CPA exam hall (or the vendor-cast CEO of "
+ },
+ {
+  "t": "2026-10-03T02:39:24Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens: this is a skilled trades / personal ambition story with zero AI, technology, company, founder, investing, or space angle — beautiful as human interest, wrong page."
+ },
+ {
+  "t": "2026-10-03T02:39:54Z",
+  "gate": "A",
+  "subject": "JUST IN: 🇺🇸 US-bound oil tanker's propulsion system has been hacked.",
+  "verdict": "KILL",
+  "reason": "One unverified sentence from a non-news account with zero detail—no tanker name, date, evidence, or stated consequence; the writer would have to fabricate details to build slides, and no secondary source corroborates this claim."
+ },
+ {
+  "t": "2026-10-03T02:40:16Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Institutional space launch announcement—no jaw-dropping consequence, real numbers, or specific angle that makes a reader stop mid-scroll and send it forward; reads as routine government PR without the wild-but-true story The Standard requires."
+ },
+ {
+  "t": "2026-10-03T02:41:31Z",
+  "gate": "A",
+  "subject": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Wr",
+  "verdict": "KILL",
+  "reason": "Tips-and-tricks guide, not news; the page is NEWS-first and the owner flagged guide repetition as the top content failure."
+ },
+ {
+  "t": "2026-10-03T02:56:04Z",
+  "gate": "B",
+  "subject": "HACKERS JUST <em>REMOTELY KILLED</em> A US-BOUND OIL TANKER'S ENGINE",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CARTOON CHARACTER ON COVER: The central subject of the cover is Pepe the Frog, a cartoon/plush mascot. The doctrine is unambiguous: 'every ELEMENT in the frame must read as photographed — real skin, real product, real logo mark, real photo fragments. A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJEC"
+ },
+ {
+  "t": "2026-10-03T02:57:51Z",
+  "gate": "B",
+  "subject": "HACKERS JUST <em>REMOTELY KILLED</em> A US-BOUND OIL TANKER'S ENGINE",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — PHOTOREAL ELEMENTS VIOLATED: The cover subject is a cartoon/plush frog mascot (Pepe-style character) sitting at the hacking station. The doctrine is unconditional: 'every ELEMENT in the frame must read as photographed — real skin, real product, real logo mark, real photo fragments. A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outsid"
+ },
+ {
+  "t": "2026-10-03T03:00:06Z",
+  "gate": "B",
+  "subject": "HACKERS JUST <em>REMOTELY KILLED</em> A US-BOUND OIL TANKER'S ENGINE",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CARTOON SUBJECT, HARD REJECT: The cover's central figure is a green plush/cartoon frog mascot sitting at a hacking station. The doctrine states explicitly: 'A frame or any element that reads as illustration, cartoon, game render, or concept art — anywhere outside a depicted screen — is a REJECT, whatever its concept.' A stuffed cartoon frog is not a photoreal element. The correct arche"
+ },
+ {
+  "t": "2026-10-03T03:00:28Z",
+  "gate": "R",
+  "subject": "HACKERS JUST <em>REMOTELY KILLED</em> A US-BOUND OIL TANKER'S ENGINE",
+  "verdict": "FAIL",
+  "reason": "s1: The central subject is a cartoon/mascot frog figure, which is neither a real person nor a credible press photo, undermining the professional news standard required for the page."
  }
 ]

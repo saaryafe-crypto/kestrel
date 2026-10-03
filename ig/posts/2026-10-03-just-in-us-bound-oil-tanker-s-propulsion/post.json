@@ -1,0 +1,83 @@
+{
+ "media_idx": 1,
+ "image_brief": "dark ship control room with multiple screens showing an oil tanker stranded at sea, red warning alerts glowing",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "HACKERS JUST <em>REMOTELY KILLED</em> A US-BOUND OIL TANKER'S ENGINE",
+   "kicker": "DEAD IN THE WATER",
+   "hsize": 76,
+   "media": "posts/2026-10-03-just-in-us-bound-oil-tanker-s-propulsion/cand-1.webp"
+  }
+ ],
+ "caption": "Hackers remotely killed a US-bound oil tanker's propulsion system, leaving it dead in the water mid-ocean\n\nA tanker full of oil was heading to the US. Someone hacked its engine remotely on October 2 and killed it dead in the water. Not the cargo, not the GPS. The propulsion, the one system that makes the ship move. The cargo company is scrambling, the US port is waiting on oil that won't arrive on time, and a tow crew has to reach it in open water.\n\nHacking ships is real now. The systems that move oil around the planet were built before anyone took cybersecurity seriously, and one stranded tanker ripples through fuel prices and ports. The propulsion went offline October 2, most commercial tankers still run engine software that's 30 years old, it was never meant to be online.\n\nRunning a business? DM us \"AI\" and we'll show you what this could mean for yours.\n\nSources: Watcher.Guru on X\n\n#cybersecurity #oiltanker #hacking #energysecurity #cyberthreat",
+ "pinned_comment": "No pirates, no storm, no mechanical failure. A keyboard did this.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "HACKERS JUST <em>REMOTELY KILLED</em> A US-BOUND OIL TANKER'S ENGINE",
+   "A HACKER JUST STRANDED A <em>US-BOUND OIL TANKER</em> AT SEA",
+   "SOMEONE STOPPED <em>A MASSIVE OIL TANKER</em> WITH A KEYBOARD",
+   "YOUR OIL SUPPLY JUST GOT <em>REMOTELY HACKED AT SEA</em>",
+   "<em>HACKERS JUST KILLED</em> AN OIL TANKER'S ENGINE REMOTELY",
+   "<em>A US-BOUND OIL TANKER</em> WAS HACKED DEAD AT SEA",
+   "HACKERS REMOTELY STOPPED <em>A US-BOUND OIL TANKER</em> DEAD AT SEA",
+   "HACKERS JUST <em>KILLED AN OIL TANKER'S ENGINE</em> MID-OCEAN",
+   "HACKERS CAN NOW <em>REMOTELY KILL OIL TANKERS</em> MID-OCEAN",
+   "SOMEONE JUST <em>REMOTELY DISABLED</em> A US-BOUND OIL TANKER"
+  ],
+  "scores": [
+   9,
+   8,
+   7,
+   6,
+   8,
+   7,
+   7,
+   8,
+   6,
+   7
+  ],
+  "winner": 0,
+  "why": "'REMOTELY KILLED' tells the complete story instantly while 'STRANDED AT SEA' requires you to read the caption\u2014and 2am scrollers click for answers, not mysteries. 'US-BOUND' also makes it real (affects your oil) instead of just dramatic (event somewhere)."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "HACKERS JUST LEFT <em>AN OIL TANKER DEAD IN THE OCEAN</em>",
+   "HACKERS JUST <em>REMOTELY KILLED</em> A US-BOUND OIL TANKER'S ENGINE",
+   "A TANKER FULL OF OIL JUST GOT <em>KILLED BY HACKERS</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   6
+  ],
+  "winner": 1,
+  "why": "[1] hits hardest because it's the only one that tells you the complete story\u2014hackers, remote attack, *engine*, AND the stakes (US-bound)\u2014so you already believe it from the headline. [0] is more visceral but cryptic (what does 'dead' actually mean?), making it feel like a riddle instead of news."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Unknown hackers targeting a US-bound oil tanker",
+  "actor_known": false,
+  "anchor": "an oil tanker",
+  "specifics": [
+   "The propulsion system \u2014 the engine controls \u2014 was the specific target of the hack",
+   "The tanker was US-bound, meaning the oil never arrived",
+   "Reported October 2, 2026",
+   "Story exploded to 269.5K views within hours on X"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (2/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US-bound oil tanker's propulsion system has been hacked.",
+  "link": "https://x.com/WatcherGuru/status/2106098353532473359",
+  "judge_interest": 5,
+  "scout_score": 68.3
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE LAW \u2014 CARTOON SUBJECT, HARD REJECT: The cover's central figure is a green plush/cartoon frog mascot sitting at a hacking station. The doctrine states explicitly: 'A frame or any element that reads as illustration, cartoon, game render, or concept art \u2014 anywhere outside a depicted screen \u2014 is a REJECT, whatever its concept.' A stuffed cartoon frog is not a photoreal element. The correct arche",
+ "gate_r": "s1: The central subject is a cartoon/mascot frog figure, which is neither a real person nor a credible press photo, undermining the professional news standard required for the page."
+}
