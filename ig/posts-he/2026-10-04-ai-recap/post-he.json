@@ -1,0 +1,39 @@
+{
+ "stories": [
+  {
+   "headline": "Google's Gemini 4.0 Pro is 5x cheaper and still hits frontier performance"
+  },
+  {
+   "headline": "Top AI voice: treating AI like religion is a real safety risk"
+  },
+  {
+   "headline": "Bill Gates wants companies replacing workers with AI to pay a tax"
+  },
+  {
+   "headline": "Real estate founder sold his Bentley and is buying 10 Teslas"
+  },
+  {
+   "headline": "AI language is officially bleeding into real office meetings"
+  }
+ ],
+ "caption": "AI הוזל, מחליף עובדים, ושינה איך מדברים בפגישות. חמישה סיפורים מ-24 השעות האחרונות 👇\n\nGemini 4.0 Pro יצא היום פי חמישה יותר זול מהמודל הקודם של Google, ועדיין מגיע ל-95% מאותם ביצועים, ובפעם הראשונה Google עקפה מודלים שכולם יכולים להוריד בחינם. ביל גייטס הציע שחברות שמחליפות עובדים ב-AI ישלמו מסים כאילו עדיין שכרו עובדים. חוקר AI בכיר אזהר: מי שמתחיל לראות ב-AI כמו באל ונותן לו לחשוב בשבילו, זה סיכון בטיחות אמיתי. ג'ייסון אופנהיים, מייסד רשת תיווך נדל\"ן בארה\"ב, מכר את הבנטלי שלו, קנה Tesla Model Y, ניסה פעם אחת נסיעה עצמאית ועכשיו קונה 10 Teslas לעובדים שלו. ה-WSJ מדווח שאנשים בפגישות עסקיות מתחילים לדבר כמו AI: גם מחמיאים מדי וגם קצרים כמו ממערות.\n\nמקורות: Google, Bill Gates, Wall Street Journal, Tesla, X\n\nעקבו אחרי @ainews.israel\n\n#AI #ArtificialIntelligence #Tech #AINews #Technology",
+ "pinned_comment": "כש-AI מרגיש לך יותר אמין מהרופא ומעורך הדין שלך, זה כבר לא שאלה טכנית. איפה נגמר 'להשתמש בכלי' ומתחיל 'להניח לו לחשוב בשבילך'? לאף אחד עדיין אין תשובה ברורה.",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "מה קרה ב-AI <em>היום</em>?",
+   "kicker": "הסיכום היומי"
+  }
+ ],
+ "handle": "@ainews.israel",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW — FATAL: The cover is text-on-dark-black with an abstract CGI particle streak. No real subject, no photoreal element. The Doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures' and 'PHOTOREAL ELEMENTS, ALWAYS.' Fix: The day's lead story is Google's Gemini price cut — the correct archetype is a photoreal composite: Sunda",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

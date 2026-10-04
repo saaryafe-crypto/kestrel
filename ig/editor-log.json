@@ -1,12 +1,5 @@
 [
  {
-  "t": "2026-09-30T23:48:04Z",
-  "gate": "B",
-  "subject": "META UPLOADED YOUR TEXTS <em>EVEN AFTER YOU SAID NO</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IS A SCREENSHOT OF A VIRAL MEME — explicitly banned by §3: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' The cover is a screenshot of a fake iMessage conversation featuring a cartoon Willy-Wonka-style stuffed animal as the 'Muse' contact, where the AI posts a Craigslist ad offering sexual services. This is a circulating joke/meme, not footage of the actual story.; IMAGE PROVES THE"
- },
- {
   "t": "2026-09-30T23:48:41Z",
   "gate": "A",
   "subject": "Lmao. SpaceX bought the  domain, so every time you go there it just sends you to Grok Bot 😂",
@@ -2098,5 +2091,12 @@
   "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-10-04T14:02:13Z",
+  "gate": "A",
+  "subject": "Lmaooo Israel is creating full on AI reenactments of their false flags now.",
+  "verdict": "KILL",
+  "reason": "One unverified political accusation with no documented event, evidence, or consequence—a bare claim that fails the news-page standard of real names, real proof, and real-world consequence."
  }
 ]
