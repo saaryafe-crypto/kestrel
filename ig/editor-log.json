@@ -1,96 +1,5 @@
 [
  {
-  "t": "2026-10-01T07:19:27Z",
-  "gate": "B",
-  "subject": "ELON MUSK NOW CO-LEADS THE US MILITARY'S <em>AI PROGRAM</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — cover is a dark void with abstract orange particles: no subject, no face, no proof of anything. The hook names Elon Musk, one of the world's most recognizable faces, and the story is his appointment to co-lead a military program — the correct archetype is his press photo + a DoD or Project Meridian brand mark, not decorative light rays. The doctrine is explicit: 'The cover must ALWAYS "
- },
- {
-  "t": "2026-10-01T07:20:53Z",
-  "gate": "B",
-  "subject": "ELON MUSK NOW CO-LEADS THE US MILITARY'S <em>AI PROGRAM</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — EMPTY-TOP COVER: The cover is a black void with a generic orange particle-burst graphic and no human subject. The doctrine states explicitly 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The particle burst is decoration, not proof. Elon Musk is named in the headline; his face (real press photo or named-direct generation, emotiona"
- },
- {
-  "t": "2026-10-01T07:21:45Z",
-  "gate": "B",
-  "subject": "ELON MUSK NOW CO-LEADS THE US MILITARY'S <em>AI PROGRAM</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW FAIL — EMPTY TOP COVER: The cover is text-on-black with an abstract particle burst graphic. IMAGE LAW explicitly states 'Text-on-black or empty-top covers are failures.' There is no photoreal subject, no human face, no product, no brand mark — just decorative light streaks on a black void. The hook names Elon Musk as the story; the cover must show Musk (real photo or named-direct generat"
- },
- {
-  "t": "2026-10-01T07:21:52Z",
-  "gate": "R",
-  "subject": "ELON MUSK NOW CO-LEADS THE US MILITARY'S <em>AI PROGRAM</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-10-01T15:24:29Z",
-  "gate": "A",
-  "subject": "The last 20 hours have been insane. Got more hate than most people get in a lifetime. I want to say a few things clearly",
-  "verdict": "KILL",
-  "reason": "This is reaction-bait: an online pile-on with no real-world consequence (no account ban, lawsuit filed, product pulled, or dismissal), exactly matching the Queen Elizabeth and Mario Lopez failures the doctrine cites as the page's two worst posts."
- },
- {
-  "t": "2026-10-01T19:23:18Z",
-  "gate": "A",
-  "subject": "The last 20 hours have been insane. Got more hate than most people get in a lifetime. I want to say a few things clearly",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: online harassment with no real-world consequence (no ban, lawsuit, firing, or product impact); a personal response to a pile-on, not news."
- },
- {
-  "gate": "B",
-  "reason": "HUMAN VOICE LAW §7 — emoji in caption body: '🤯' after the opening paragraph is explicitly banned ('no emojis'). Fix: delete the emoji.; TRUTH LAW §5 — fabricated numbers: '...you found a $5,000 monthly payroll swap' (item 2) and 'That is $80K to $120K per year' (item 3) are specific dollar figures stated as facts but not drawn from the IterIntellectus source event — they are the writer's invention",
-  "subject": "A DAD TURNED <em>1 MONTH OF EMPLOYEE WORK</em> INTO 5 MINUTES",
-  "t": "2026-10-01T19:07:47Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "COVER IMAGE FAILS IMAGE LAW: The cover is a plain headshot of Dario Amodei against a dark/black void background — no Claude or Anthropic brand mark visible, no product in frame, no story-world context, and no composite elements. The required archetype for a famous-tool CEO in a guide post is 'the person + giant glossy brand mark + the real product,' and house style requires a photoreal COLLAGE (cu",
-  "subject": "A DAD TURNED <em>1 MONTH OF EMPLOYEE WORK</em> INTO 5 MINUTES",
-  "t": "2026-10-01T19:10:00Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "A DAD TURNED <em>1 MONTH OF EMPLOYEE WORK</em> INTO 5 MINUTES",
-  "t": "2026-10-01T19:10:08Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-10-01T22:19:30Z",
-  "gate": "A",
-  "subject": "UPDATE: A man used the Pain steering paper to set up an AI torture chamber in which he trapped a local model. People are",
-  "verdict": "KILL",
-  "reason": "Unknown actor (entire substance is 'a man' with no name, no proof, no verifiable consequence) + reaction-bait structure (the substance is people reporting, not reality moving) — reproduces the Queen Elizabeth / Mario Lopez failure pattern exactly."
- },
- {
-  "t": "2026-10-01T22:20:33Z",
-  "gate": "A",
-  "subject": "Introducing Gemini 4 Argon – our new frontier model. It’s built for complex workflows across coding, enterprise knowledg",
-  "verdict": "APPROVE",
-  "reason": "Google DeepMind releasing Gemini 4 Argon to trusted testers today is a household-name lab release; two independent watchlist confirmations and 41K engagement are the strongest available signals of substance—never kill it under NEWS PAGE FIRST."
- },
- {
-  "t": "2026-10-01T22:37:02Z",
-  "gate": "B",
-  "subject": "GOOGLE JUST BUILT AN AI THAT <em>CODES AND STOPS HACKERS</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE — NOT PHOTOREAL (§3, INSTANT REJECT): The cover is pure graphic design — a blue gradient background with a floating '4' numeral and the Gemini logo chip. Nothing in the frame reads as photographed. The law requires every element to read as photographed (real skin, real product, real photo fragments). A gradient and a giant typographic numeral are not photoreal elements. Fix: rebuild as a pho"
- },
- {
-  "t": "2026-10-01T22:38:44Z",
-  "gate": "B",
-  "subject": "GOOGLE JUST PUT A <em>HACKER BLOCKER</em> INSIDE YOUR CODING AI",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — PHOTOREAL FAILURE: The cover is a corporate product-announcement graphic: blue digital gradient, vector Gemini logo, typeset wordmark, and a giant blurred '4'. Zero photographed elements. The doctrine requires every element to read as photographed; a frame that reads as brand design or illustration is a REJECT regardless of concept. Fix: rebuild the cover as a photoreal collage — Sunda"
- },
- {
   "t": "2026-10-01T22:40:31Z",
   "gate": "A",
   "subject": "UPDATE: A man used the Pain steering paper to set up an AI torture chamber in which he trapped a local model. People are",
@@ -2096,6 +2005,97 @@
   "t": "2026-10-04T19:51:17Z",
   "gate": "R",
   "subject": "YOUR PHONE CHIP IS <em>TOO SMALL FOR NORMAL PHYSICS</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-10-04T20:06:21Z",
+  "gate": "A",
+  "subject": "Tesla has nearly quadrupled the number of registered Cybercabs and hasn’t had a single major issue since rides began a m",
+  "verdict": "AUTO_APPROVE",
+  "reason": "scout interest 8/10 — news-first fast lane"
+ },
+ {
+  "t": "2026-10-04T20:06:37Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens per §1 — personal scholarship/work-ethic story with no core AI, tech, company, founder, investing, or space element at its heart; this page is AI/tech news first."
+ },
+ {
+  "t": "2026-10-04T20:07:30Z",
+  "gate": "A",
+  "subject": "BREAKING: A federal judge has ruled that a Tulsa, Oklahoma sheriff’s deputy violated a woman’s Fourth Amendment rights w",
+  "verdict": "KILL",
+  "reason": "Abstract legal ruling without a person-first narrative or household-name actor; 4/10 scout interest signals gatekeepers correctly identified this as policy news, not the tech innovation stories readers send to friends."
+ },
+ {
+  "t": "2026-10-04T20:22:18Z",
+  "gate": "B",
+  "subject": "CNBC SAID ROCKY. TESLA'S FLEET JUST <em>QUADRUPLED IN 30 DAYS</em>.",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 hard violation: cover_has_image is false. This is a 'single-picture post' — there must be a picture. The Doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' Fix: supply a photoreal cover — Cybercab on an Austin street (subject in top two-thirds), or Elon Musk cutout + oversized Cybercab + Texas-plate inset bubble"
+ },
+ {
+  "t": "2026-10-04T20:24:29Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens: work ethic/welding scholarship story contains zero AI, tech, company/founder, investing, or space technology subject—page is AI/tech NEWS only."
+ },
+ {
+  "t": "2026-10-04T20:24:55Z",
+  "gate": "A",
+  "subject": "BREAKING: A federal judge has ruled that a Tulsa, Oklahoma sheriff’s deputy violated a woman’s Fourth Amendment rights w",
+  "verdict": "KILL",
+  "reason": "Routine legal ruling about a non-household-name company and unknown defendant—no identified precedent or major implications—doesn't match the household-name-actor profile at 4/10 scout interest."
+ },
+ {
+  "t": "2026-10-04T20:43:52Z",
+  "gate": "B",
+  "subject": "COPS JUST GOT CAUGHT TRACKING <em>YOUR LOCATION WITHOUT A WARRANT</em>",
+  "verdict": "REJECT",
+  "reason": "Cover image shows a surveillance drone, but the story is about a license plate camera network (Flock Safety — fixed roadside cameras that read plates and log driving history). The thumb test fails hard: a reader at feed size sees 'drone surveillance,' not 'cops pulled my plate history without a warrant.' These are different technologies with different legal and visual meanings. Fix: replace with t"
+ },
+ {
+  "t": "2026-10-04T20:45:12Z",
+  "gate": "B",
+  "subject": "COPS JUST GOT CAUGHT TRACKING <em>YOUR LOCATION WITHOUT A WARRANT</em>",
+  "verdict": "REJECT",
+  "reason": "Cover image is the wrong technology. Flock Safety is a fixed license plate reader camera mounted on poles — the cover shows a drone. A stranger sees this and thinks 'drone surveillance,' not 'cops pulling your driving routes from a private plate-reader database.' Fails the thumb test completely. Fix: regenerate with a Flock Safety-style pole-mounted plate camera on a real street, or a cop cruiser "
+ },
+ {
+  "t": "2026-10-04T20:46:07Z",
+  "gate": "B",
+  "subject": "COPS JUST GOT CAUGHT TRACKING <em>YOUR LOCATION WITHOUT A WARRANT</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE WRONG SUBJECT: The cover shows a surveillance drone on a plain white background. The story is about LICENSE PLATE CAMERAS (Flock Safety road cameras) and a court ruling — a drone is a completely different surveillance technology. A stranger seeing this image would guess the story is about drone surveillance, not plate tracking. The image fails the thumb test: it does not prove the headline. "
+ },
+ {
+  "t": "2026-10-04T20:46:25Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens story with zero AI/tech angle—a human-interest piece about trades and perseverance belongs on a careers page, not a tech/AI news feed; this is the 'goats-on-Etna' failure model the doctrine forbids."
+ },
+ {
+  "t": "2026-10-04T21:33:34Z",
+  "gate": "B",
+  "subject": "<em>5 AI SIDE HUSTLES</em> SO GOOD THEY FEEL ILLEGAL",
+  "verdict": "REJECT",
+  "reason": "TEMPLATE-VOICE GATE FAIL: All five numbered items share the identical skeleton — [hustle name] + [money figure] + [quoted prompt] — with no variation in shape. Item 1: 'Faceless YouTube channel, no camera. Some channels hit $2K/month. [prompt].' Item 2: 'T-shirts on Redbubble, free to list. [prompt].' Items 3–5: same pattern. Five of five match. The doctrine's threshold is three. Rewrite direction"
+ },
+ {
+  "t": "2026-10-04T21:37:12Z",
+  "gate": "B",
+  "subject": "<em>5 AI SIDE HUSTLES</em> SO GOOD THEY FEEL ILLEGAL",
+  "verdict": "REJECT",
+  "reason": "HOOK IS A HYPE FORMULA (§2 hard ban): 'SO GOOD THEY FEEL ILLEGAL' is the exact construction the doctrine prohibits — a generic quality superlative with zero information content. A 12-year-old DMing this to a friend sends them nothing: no number, no mechanism, no specific promise. The doctrine says hooks must never be 'a tease, or a hype formula.' This is both. Fix: compress the post's hardest conc"
+ },
+ {
+  "t": "2026-10-04T21:37:26Z",
+  "gate": "R",
+  "subject": "<em>5 AI SIDE HUSTLES</em> SO GOOD THEY FEEL ILLEGAL",
   "verdict": "PASS",
   "reason": ""
  }
