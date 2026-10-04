@@ -1,4 +1,24 @@
 {
- "updated": "2026-10-04T10:53:06.233219-04:00",
- "moments": []
+ "updated": "2026-10-04T18:54:48.460808-04:00",
+ "moments": [
+  {
+   "id": "2106212406343110741",
+   "title": "This is so immensely ironic! CBS leads with this headline 👇 but then, immediately in the article, writes that since the model in question (Alibaba's Qwen) is open source, an Israeli startup \"remove[d] the model's bias...",
+   "sub": "RnaudBertrand",
+   "where": "@RnaudBertrand on X",
+   "unit": "likes",
+   "selftext": "This is so immensely ironic! CBS leads with this headline 👇 but then, immediately in the article, writes that since the model in question (Alibaba's Qwen) is open source, an Israeli startup \"remove[d] the model's bias... and are now set to publish what they call a 'Westernized' version of [it].\" In other words, an article denouncing China for programming its AI with a political bias ends up describing an Israeli company programming that very same AI with its own bias, and calling it \"removing bias.\" You couldn't make it up... The obvious truth, of course, is that Chinese open source models - thanks to their openness - are the opposite of \"programmed for censorship,\" given that anyone is free to do exactly what that Israeli startup did and change it any way they want. You could even - and I'm sure it's partly what was done in that case, since we're speaking about \"Westernizing\" it - embed it with a lot of bias hostile to China. How is that even remotely a model \"programmed for censorship\"? China gave the world an AI so open that it can even be turned against China itself. This is, of course, the complete opposite of American AI: its makers decide what it can and can't say, and there's absolutely nothing you can do about it. That's the reality, and that's what CBS should have led with if they were honest: the freest AI in the world is Chinese.",
+   "permalink": "https://x.com/RnaudBertrand/status/2106212406343110741",
+   "outlink": null,
+   "score": 2010,
+   "comments_n": 27,
+   "views": 54317,
+   "age_h": 44.3,
+   "vph": 45.4,
+   "image": null,
+   "images": [],
+   "video": null,
+   "guide": false
+  }
+ ]
 }

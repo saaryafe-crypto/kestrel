@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T20:54:03.528037+00:00",
+ "updated": "2026-10-04T22:55:22.205093+00:00",
  "guides": [
   {
    "id": "2096052072470704579",
@@ -723,6 +723,29 @@
    "born": 1789055412.417321
   },
   {
+   "id": "2106481373997596984",
+   "title": "Wanted to share my Grok @Bot Tutorial again in case anyone missed it. I've also made some improvements to it. It's a hands-on, 20-lesson course for anyone new to Grok Bot, with real exercises and tips so you get the most",
+   "sub": "SawyerMerritt",
+   "where": "@SawyerMerritt on X",
+   "unit": "likes",
+   "selftext": "Wanted to share my Grok @Bot Tutorial again in case anyone missed it. I've also made some improvements to it. It's a hands-on, 20-lesson course for anyone new to Grok Bot, with real exercises and tips so you get the most out of it at home and at work.",
+   "permalink": "https://x.com/SawyerMerritt/status/2106481373997596984",
+   "outlink": null,
+   "score": 1654,
+   "comments_n": 69,
+   "views": 97151,
+   "age_h": 26.4,
+   "vph": 62.6,
+   "image": null,
+   "images": [],
+   "video": null,
+   "guide": true,
+   "thread": [
+    "@timmerenginerd @bot You want some credits to create that bot?"
+   ],
+   "born": 1791059390.658433
+  },
+  {
    "id": "2102448328638382234",
    "title": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build. The update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent perfo",
    "sub": "cb_doge",
@@ -741,26 +764,6 @@
    "video": "https://video.twimg.com/amplify_video/2102448025805488128/vid/avc1/1284x1080/gvmCUPk-G1LTDpLr.mp4?tag=29",
    "guide": true,
    "born": 1790097787.952903
-  },
-  {
-   "id": "2106481373997596984",
-   "title": "Wanted to share my Grok @Bot Tutorial again in case anyone missed it. I've also made some improvements to it. It's a hands-on, 20-lesson course for anyone new to Grok Bot, with real exercises and tips so you get the most",
-   "sub": "SawyerMerritt",
-   "where": "@SawyerMerritt on X",
-   "unit": "likes",
-   "selftext": "Wanted to share my Grok @Bot Tutorial again in case anyone missed it. I've also made some improvements to it. It's a hands-on, 20-lesson course for anyone new to Grok Bot, with real exercises and tips so you get the most out of it at home and at work.",
-   "permalink": "https://x.com/SawyerMerritt/status/2106481373997596984",
-   "outlink": null,
-   "score": 1447,
-   "comments_n": 67,
-   "views": 85194,
-   "age_h": 24.4,
-   "vph": 59.3,
-   "image": null,
-   "images": [],
-   "video": null,
-   "guide": true,
-   "born": 1791059390.658433
   },
   {
    "id": "2096249196663713957",
