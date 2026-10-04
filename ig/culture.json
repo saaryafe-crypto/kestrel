@@ -1,59 +1,61 @@
 {
- "ts": 1790993676.8272338,
- "updated": "2026-10-03",
+ "ts": 1791096476.5585291,
+ "updated": "2026-10-04",
  "hot": [
   {
    "name": "Taylor Swift",
-   "why_hot_now": "New single 'Patient Zero' dropped September 25 and its VMAs music video starring Colin Farrell spawned a wave of viral TikTok wedding-day edits.",
-   "typical_scene": "haunting a wealthy couple as a ghost in a candlelit manor"
+   "why_hot_now": "Dropped 'Patient Zero' single Sept 25, premiered its music video at the VMAs Sept 27, and became the most-awarded artist in VMA history.",
+   "typical_scene": "ghost haunting an affluent couple, bejeweled at the VMAs"
   },
   {
-   "name": "Jon Hamm",
-   "why_hot_now": "His gleeful solo club-dancing scene from Apple TV+'s 'Your Friends & Neighbors' exploded on TikTok as the 'dancing through the pain' meme format.",
-   "typical_scene": "dancing alone in a dark club, blissfully unbothered"
+   "name": "My Chemical Romance",
+   "why_hot_now": "Black Parade 20th-anniversary tour closes with five unprecedented nights at the Hollywood Bowl (Oct 21–31), expanded anniversary album drops Oct 23.",
+   "typical_scene": "marching in theatrical black funeral-band uniforms onstage"
   },
   {
    "name": "Sabrina Carpenter",
-   "why_hot_now": "TikTok's reigning Pop Queen of 2026 with back-to-back dominant singles dominating Spotify playlists and short-form audio trends.",
-   "typical_scene": "center stage in a sequined corset, crowd screaming every word"
+   "why_hot_now": "Reigning 'It-girl' of 2026 off Man's Best Friend album and the still-viral 'House Tour' video co-starring Margaret Qualley.",
+   "typical_scene": "driving a pink van in glam early-2000s styling"
+  },
+  {
+   "name": "Zendaya",
+   "why_hot_now": "Her Athena role in Nolan's The Odyssey ($1.75B box office) is the #1 Halloween costume search of 2026.",
+   "typical_scene": "draped in off-white linen robes as a commanding goddess"
+  },
+  {
+   "name": "Anne Hathaway",
+   "why_hot_now": "Verity, the Colleen Hoover adaptation she leads, debuted at #1 US box office this weekend with a $33.6M opening.",
+   "typical_scene": "rifling through a dangerous manuscript inside a gothic estate"
   },
   {
    "name": "Charli xcx",
-   "why_hot_now": "Brat aesthetic still inescapable and news of her marriage to George Daniel keeping her in every group chat this week.",
-   "typical_scene": "lime-green aesthetic shoot, oversized sunglasses, zero effort maximum impact"
+   "why_hot_now": "Her stone-faced, half-hearted VMA applause during Nirvana's Vanguard Award went viral as a universal reaction meme.",
+   "typical_scene": "blank-faced slow-clapping alone at a glittering awards ceremony"
   },
   {
-   "name": "Megan Thee Stallion",
-   "why_hot_now": "Her annual pumpkin-head Halloween reveal dropped right on October 1, going viral as a beloved fan-expected tradition.",
-   "typical_scene": "posing in full-body carved pumpkin costume, Instagram slaying"
+   "name": "Kacey Musgraves",
+   "why_hot_now": "Middle of Nowhere Tour is mid-run; the giant disco-ball stage prop from opening night has been everywhere online.",
+   "typical_scene": "spotlit beneath a massive glittering stage sculpture, cowboy-chic outfit"
   },
   {
-   "name": "Bruno Mars",
-   "why_hot_now": "Closed out 'The Romantic Tour' at SoFi Stadium on October 2, flooding TikTok with concert clips and setlist reactions.",
-   "typical_scene": "in a sequined suit belting to a sold-out stadium"
+   "name": "KPop Demon Hunters",
+   "why_hot_now": "Netflix animated series has stayed on the global Top 10 for 61 weeks straight and is dominating Halloween costumes and a sequel announcement.",
+   "typical_scene": "dragon-braided K-pop girl warriors clashing with a demon boy band"
   },
   {
-   "name": "Ed Sheeran",
-   "why_hot_now": "LOOP Tour hits Mercedes-Benz Stadium Atlanta on October 3, with solo live-looping clips going viral across platforms.",
-   "typical_scene": "alone onstage with an acoustic guitar and loop pedal, stadium going wild"
-  },
-  {
-   "name": "Avengers: Endgame",
-   "why_hot_now": "Re-release opened at #1 US box office this weekend with $26M, beating every new film and triggering nostalgia-posting across social media.",
-   "typical_scene": "packed theater crowd cheering and crying at the portal scene"
-  },
-  {
-   "name": "Post Malone",
-   "why_hot_now": "BIG ASS Stadium Tour Part 2 in full swing with October dates, stadium-crowd videos flooding TikTok and Instagram Reels.",
-   "typical_scene": "crowd-surfing over a sea of raised phones at a packed stadium"
+   "name": "Dakota Johnson",
+   "why_hot_now": "Stars in box office #1 Verity and appeared in Taylor Swift's 'Patient Zero' music video — two major cultural hits in the same week.",
+   "typical_scene": "uncovering dark secrets in a dim, elegant mansion"
   }
  ],
  "memes": [
-  "'Grr Mondays' format: slapping '#GrrMondays' over chaotic Monday morning content, sourced from a rediscovered throwaway line in Ted 2 that took hold on TikTok in early September",
-  "Jon Hamm dancing through the pain: using the Your Friends & Neighbors club scene to represent performing happiness while everything is falling apart",
-  "Capybara of Indifference: pairing intensely dramatic audio with footage of a capybara that simply sits there, completely unbothered",
-  "Parent split-face trend: morphing your face with a parent's to reveal the resemblance, now expanded to couples, siblings, and even pets",
-  "'Patient Zero' Wedding Day Edit: brides and grooms soundtracking first-dance or proposal clips with Taylor Swift's new Celtic-pop single"
+  "'2026 is the new 2016' — side-by-side throwback posts contrasting users' 2016 vs. 2026 selves, mourning the pre-algorithm internet",
+  "'Patient Zero Wedding Day' edits — Taylor Swift's new single synced to wedding vow videos flooding TikTok",
+  "Charli xcx VMA slow-clap — her inscrutable mid-applause face captioned over any underwhelming or reluctant reaction moment",
+  "'Two Fishes' — defending an unhinged relatable take using a specific Love Island USA audio clip as the format",
+  "'That's so you' identity carousels — hyper-specific preference lists (obscure scent, niche snack, weird hobby) as personality-reveal flex",
+  "Parent split-face — blending half your face with a parent's to show the likeness, now extended to couples and celebrity look-alikes",
+  "'Grr Mondays' — posting your real disaster Monday vs. dream Monday under #GrrMondays for comedic commiseration"
  ],
  "ai_flagships": [
   "Claude Opus 5.5",

@@ -1,19 +1,5 @@
 [
  {
-  "t": "2026-09-30T23:44:50Z",
-  "gate": "B",
-  "subject": "META UPLOADED YOUR TEXTS <em>EVEN AFTER YOU SAID NO</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE — SCREENSHOT COVER (§3, instant kill): The cover is a screenshot of a chat UI. Image Law is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Replace with a photoreal composite — e.g., a real-looking iPhone with iMessage bubbles, Meta's logo mark oversized in frame, policy-ban archetype (red circle or lock overlay) — something a stranger recognizes as 'Meta read my texts' in"
- },
- {
-  "t": "2026-09-30T23:46:14Z",
-  "gate": "B",
-  "subject": "META UPLOADED YOUR TEXTS <em>EVEN AFTER YOU SAID NO</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IS A SCREENSHOT — hard ban, §3 IMAGE LAW: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' The image is a phone screenshot of a Muse chat conversation. Full stop. Must be replaced with a photoreal composite (e.g., a real Meta/Zuckerberg visual + iMessage interface fragment as an inset element, not the cover itself).; IMAGE-HEADLINE MISMATCH — the cover screenshot shows a completely d"
- },
- {
   "t": "2026-09-30T23:48:04Z",
   "gate": "B",
   "subject": "META UPLOADED YOUR TEXTS <em>EVEN AFTER YOU SAID NO</em>",
@@ -2096,6 +2082,20 @@
   "t": "2026-10-04T02:57:59Z",
   "gate": "R",
   "subject": "SKIPPING NVIDIA 10 YEARS AGO COST YOU <em>$1.58 MILLION</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-10-04T06:53:46Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — FATAL: The cover is text-on-dark-black with an abstract CGI particle streak. No real subject, no photoreal element. The Doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures' and 'PHOTOREAL ELEMENTS, ALWAYS.' Fix: The day's lead story is Google's Gemini price cut — the correct archetype is a photoreal composite: Sunda"
+ },
+ {
+  "t": "2026-10-04T06:56:05Z",
+  "gate": "R",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
   "verdict": "PASS",
   "reason": ""
  }
