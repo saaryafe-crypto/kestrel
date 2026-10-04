@@ -1,0 +1,79 @@
+{
+ "media_idx": 3,
+ "image_brief": "Jason Oppenheim sells Bentley for Tesla Model Y after Tesla FSD self-driving blows his mind mid-drive",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "TESLA FSD JUST MADE EVERY HUMAN DRIVER <em>THE DANGEROUS ONE</em>",
+   "kicker": "NOW BUYING 10 FOR HIS TEAM",
+   "hsize": 80,
+   "media": "posts/2026-10-04-jason-oppenheim-founder-of-oppenheim-gro/cand-3-fit.jpg"
+  }
+ ],
+ "caption": "Jason Oppenheim, founder of the Oppenheim Group with $5B+ in real estate sales, sold his Bentley for a Tesla Model Y after Tesla FSD stunned him so hard mid-drive that he called his brother and talked until his brother bought a Tesla before they even hung up. He says FSD is 8x safer than the average human driver, and he's now ordering 10 more Teslas for his employees. When status buyers ditch Bentleys because software beats the badge, luxury carmakers have a problem no amount of leather can fix.\n\nRunning a business? DM us 'AI' and we'll show you what this kind of automation could do for yours.\n\nSources: Sawyer Merritt on X, Oct 3 2026\n\n#Tesla #FSD #SelfDriving #Technology #AI",
+ "pinned_comment": "If Tesla FSD is actually 8x safer than a human driver, you're now statistically choosing the more dangerous option every time you get behind the wheel. Would you let it drive you?",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "TESLA FSD JUST MADE A <em>$5B CEO</em> ABANDON HIS BENTLEY",
+   "TESLA FSD TALKED HIS BROTHER INTO BUYING ONE <em>MID-CALL</em>",
+   "<em>TESLA FSD</em> TALKED HIS BROTHER INTO BUYING ONE MID-CALL",
+   "<em>TESLA'S SELF-DRIVING</em> JUST CONVERTED A BENTLEY OWNER",
+   "TESLA FSD IS SO GOOD <em>HE DUMPED HIS BENTLEY</em>",
+   "TESLA FSD IS <em>8X SAFER</em> THAN DRIVING YOURSELF",
+   "HE SOLD HIS BENTLEY FOR <em>TESLA'S SELF-DRIVING</em>",
+   "TESLA FSD MADE A MAN <em>SELL HIS BENTLEY</em>",
+   "HE SOLD A BENTLEY <em>TO STOP DRIVING HIMSELF</em>"
+  ],
+  "scores": [
+   7,
+   9,
+   8,
+   6,
+   7.5,
+   5,
+   7,
+   6.5,
+   6.5
+  ],
+  "winner": 1,
+  "why": "[1] lands the unbelievable specific detail (convinced him to BUY before the call ENDED) that makes you stop cold; [2] buries that shock by leading with product name instead of the batshit timeline."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "TESLA FSD JUST MADE EVERY HUMAN DRIVER <em>THE DANGEROUS ONE</em>",
+   "TESLA FSD TALKED HIS BROTHER INTO BUYING ONE <em>MID-CALL</em>",
+   "TESLA FSD IS <em>8X SAFER</em> THAN DRIVING YOURSELF"
+  ],
+  "scores": [
+   8,
+   7,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] personally challenges readers on identity\u2014'you are the dangerous one'\u2014generating maximum cognitive dissonance that stops scrolling. [1] is absurd anecdote about someone else, and [2] is corporate stat copy with zero emotional punch."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "Jason Oppenheim",
+  "actor_known": false,
+  "anchor": "Tesla",
+  "specifics": [
+   "Tesla FSD claimed to be 8x safer than the average human driver \u2014 meaning driving yourself is now statistically the reckless choice",
+   "Sold a Bentley for a Tesla Model Y",
+   "Talked his brother into buying a Tesla mid-phone-call \u2014 brother bought it before they hung up",
+   "Now buying 10 Teslas with FSD for his employees",
+   "Oppenheim Group has done $5B+ in real estate sales"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (3/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Jason Oppenheim, founder of Oppenheim Group ($5B+ in real estate sales), just sold his Bentley for a @Tesla Model Y and is so blown away by FSD that he\u2019s buying Teslas for 10 employees: \"This is the most important video ",
+  "link": "https://x.com/SawyerMerritt/status/2106497205112545406",
+  "judge_interest": 7,
+  "scout_score": 150.0
+ }
+}
