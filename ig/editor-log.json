@@ -1,194 +1,5 @@
 [
  {
-  "t": "2026-09-30T22:38:02Z",
-  "gate": "A",
-  "subject": "Henry Malukas, co-founder of HMD Trucking, which operates a fleet of ~700 diesel semi trucks, says the company has order",
-  "verdict": "KILL",
-  "reason": "A trucking company ordering 50 Tesla Semis is routine business-news without a consequence or first-ever angle; the event is a customer purchase decision, not a Tesla move or industry turning point, and an unknown founder's testimonial doesn't earn a slot when the underlying EVENT itself is trivial."
- },
- {
-  "t": "2026-09-30T22:38:36Z",
-  "gate": "A",
-  "subject": "2 years ago, I found the saddest cat in the shelter and took him home. Last year, he raised $10k for that same shelter b",
-  "verdict": "KILL",
-  "reason": "Off-brand—it's a wholesome pet fundraiser with no AI or technology angle, despite real money moving."
- },
- {
-  "t": "2026-09-30T22:38:56Z",
-  "gate": "A",
-  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
-  "verdict": "KILL",
-  "reason": "No substance: incomplete source material, unverified second-hand claim, undocumented underlying event — writer has nothing to build substantive slides from per §1."
- },
- {
-  "t": "2026-09-30T22:39:32Z",
-  "gate": "A",
-  "subject": "Lmao. SpaceX bought the  domain, so every time you go there it just sends you to Grok Bot 😂",
-  "verdict": "KILL",
-  "reason": "Underlying event is a prank with no real consequence—the substance is 'Elon did something funny on the internet,' which is a joke, not news; no material outcome changed, no real decision altered, nothing to escalate through slides beyond repeating the punchline."
- },
- {
-  "t": "2026-09-30T22:40:42Z",
-  "gate": "A",
-  "subject": "🇺🇸 I’m not sure there has ever been a table quite like the one Trump assembled at the White House today. Elon on his lef",
-  "verdict": "KILL",
-  "reason": "A White House meeting with no reported policy, deal, or company announcement isn't an event where reality moved—just characterization of its potential significance."
- },
- {
-  "t": "2026-09-30T22:56:11Z",
-  "gate": "B",
-  "subject": "OPENAI'S NEW AI IS RUNNING YOUR LIFE <em>WITHOUT BEING ASKED</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE IS A NEAR-BLACK VOID: The image is almost entirely dark — two barely-visible blurry shapes against a black background with no identifiable subject, no face, no product, no proof of anything. The doctrine is explicit: 'Text-on-black or empty-top covers are failures' and 'the cover must ALWAYS carry an image with a subject.' A stranger scrolling at feed size cannot guess the story. Fix: "
- },
- {
-  "t": "2026-09-30T22:57:35Z",
-  "gate": "B",
-  "subject": "OPENAI'S NEW AI IS RUNNING YOUR LIFE <em>WITHOUT BEING ASKED</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE IS A BLACK VOID — IMAGE LAW HARD FAIL: the image is almost entirely pitch-black with two unidentifiable blurry shapes. No face, no OpenAI branding, no product, no story. The doctrine states explicitly 'Text-on-black or empty-top covers are failures' and 'seen once at feed size, a stranger guesses the story' — this image communicates nothing. A stranger scrolling past would not pause, l"
- },
- {
-  "t": "2026-09-30T22:59:22Z",
-  "gate": "B",
-  "subject": "OPENAI LAUNCHED AI THAT <em>RUNS YOUR LIFE</em>",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE IS A NEAR-BLACK VOID — the image is an almost entirely dark frame with two indistinct blurry shapes; no subject is identifiable, no OpenAI brand mark, no face, no product visible anywhere. Fails the thumb test completely: a stranger sees nothing at feed size and cannot guess the story. Violates 'Text-on-black or empty-top covers are failures,' the PHOTOREAL ELEMENTS law (nothing reads "
- },
- {
-  "t": "2026-09-30T22:59:36Z",
-  "gate": "R",
-  "subject": "OPENAI LAUNCHED AI THAT <em>RUNS YOUR LIFE</em>",
-  "verdict": "FAIL",
-  "reason": "s1: The background photo is murky and nearly pitch-black with no discernible subject — it fails the photo quality standard of bright, press-photo energy required for professional news channel presentation."
- },
- {
-  "gate": "A",
-  "reason": "No substance: the source is one marketing tweet with zero concrete details, demonstration, numbers, or real-world consequence — the writer would have to pad heavily to build slides, violating the NO SUBSTANCE rule.",
-  "subject": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher",
-  "t": "2026-09-30T20:34:46Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Two-word source with no event, facts, or context to build slides—pure engagement-bait without substance.",
-  "subject": "Super Intelligence",
-  "t": "2026-09-30T20:34:50Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Model release from OpenAI qualifies as news under household-name-lab doctrine (CALIBRATION protects major-lab releases from over-killing); cost-efficiency claim and pricing comparison provide story spine.",
-  "subject": "GPT-6.1 Sol: near-Astra intelligence for a fifth of the price. It’s the most cost-efficient model for its performance av",
-  "t": "2026-09-30T20:36:16Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "B",
-  "reason": "FRIEND TEST FAIL — caption line 'at $2 per million tokens instead of $10' uses jargon nobody says out loud. A smart 12-year-old doesn't know what a token is. Spoken rewrite: 'at $2 instead of $10 for the same amount of AI work' (or simply drop 'per million tokens' — the $2 vs $10 and the 80% line carry the point without the API-pricing vocabulary).",
-  "subject": "OPENAI JUST MADE POWERFUL AI <em>5X CHEAPER</em>",
-  "t": "2026-09-30T20:53:30Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW §3 hard violation: the cover is a screenshot of OpenAI's pricing/product UI — three model cards pulled straight from the OpenAI pricing page. The law states 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Fix: replace with a photoreal composite built to the company/product archetype — Sam Altman (real press photo or named-generation) in frame with the OpenAI logo large and the $",
-  "subject": "OPENAI JUST MADE POWERFUL AI <em>5X CHEAPER</em>",
-  "t": "2026-09-30T20:54:57Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "COVER IMAGE IS A UI SCREENSHOT — §3 hard ban: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' The image is a direct screenshot of OpenAI's model pricing page (the three Astra/Sol/Luna product cards). Fix: rebuild the cover as a photoreal composite — Sam Altman (vendor cast, legal for an OpenAI story) as the face, the '$10 → $2' price drop rendered as oversized styled type, and the OpenAI ",
-  "subject": "OPENAI JUST MADE POWERFUL AI <em>5X CHEAPER</em>",
-  "t": "2026-09-30T20:56:33Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Source material provides no explanation of what event occurred, announcement made, or consequence felt — just a phrase with no context that would require writer speculation beyond story transformation.",
-  "subject": "Super Intelligence",
-  "t": "2026-09-30T20:57:42Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Marketing announcement with no details on what Dots is, what it does, or any real consequence to build slides from — writer would have to pad empty claims, violating the no-substance rule.",
-  "subject": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher",
-  "t": "2026-09-30T20:58:23Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Forecast/analyst content with no real-world event or felt consequence — this is ON-TOPIC BUT ROUTINE analyst-targets material (banned). A power bottleneck story qualifies only when reality moved (outage occurred, project cancelled, company changed course); a projection of future demand is not a story until it becomes a consequence someone felt.",
-  "subject": "The AI revolution is running into a power bottleneck: US data center IT power demand is projected to surge +755% from 20",
-  "t": "2026-09-30T20:59:05Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "KICKER IS A BANNED ENGAGEMENT METRIC AS PAYOFF (§2 hard ban): '7.2 MILLION VIEWS IN ONE EVENING' is a view count. §2 bans engagement metrics as the payoff in the hook apparatus — views, likes, replies, reposts, followers, all banned. Remove it or replace with a fact about the meeting itself, e.g., 'THE FIRST OFFICIAL WHITE HOUSE SUPERINTELLIGENCE SUMMIT.'; CAPTION LEANS ON TWEET VIRALITY AS THE ST",
-  "subject": "ELON MUSK: YOUR GOVERNMENT NOW <em>PLANS FOR SUPER INTELLIGENCE</em>",
-  "t": "2026-09-30T21:23:08Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "EMOJI (§4, SPOKEN VOICE): '🤯' in the caption opener is an explicit §4 ban — 'no emojis.' Remove it.; REPETITION (§4, NEW FACT PER SLIDE): Para 1 ends 'the White House, now officially treating superintelligence as a real priority.' Para 2 immediately opens 'AI just went from tech industry talking point to item on the President's actual calendar.' Same point stated twice in different words. Delete o",
-  "subject": "THE PRESIDENT JUST HELD AN OFFICIAL <em>SUPER INTELLIGENCE MEETING</em>",
-  "t": "2026-09-30T21:25:14Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "",
-  "subject": "THE PRESIDENT JUST HELD AN OFFICIAL <em>SUPER INTELLIGENCE MEETING</em>",
-  "t": "2026-09-30T21:27:55Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "R",
-  "reason": "",
-  "subject": "THE PRESIDENT JUST HELD AN OFFICIAL <em>SUPER INTELLIGENCE MEETING</em>",
-  "t": "2026-09-30T21:28:12Z",
-  "verdict": "PASS"
- },
- {
-  "t": "2026-09-30T23:09:55Z",
-  "gate": "A",
-  "subject": "\"Meta's Muse AI is stealing Apple Messages, past and present, and uploading the contents to its cloud, even if explicitl",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
-  "t": "2026-09-30T23:10:47Z",
-  "gate": "A",
-  "subject": "Today we’re introducing Gemini 4 Argon. It delivers frontier performance in complex workflows across real-world software",
-  "verdict": "APPROVE",
-  "reason": "Household-name lab model release qualifies as NEWS PAGE FIRST; watchlist consensus confirms day's real news."
- },
- {
-  "t": "2026-09-30T23:29:38Z",
-  "gate": "B",
-  "subject": "GOOGLE'S NEW AI DOESN'T ASSIST YOU. <em>IT REPLACES YOU</em>.",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — cover is non-photoreal: the entire frame is a branded graphic design (gradient blue field + stylised white '4' + Gemini logo). §3 requires every element to read as photographed. This reads as a product-launch teaser from Google's own PR team, not a news post cover. For a household-name product release the correct archetype is 'the product huge in its world' as a photoreal collage — e.g"
- },
- {
-  "t": "2026-09-30T23:32:13Z",
-  "gate": "B",
-  "subject": "GOOGLE'S NEW AI DOESN'T ASSIST YOU. <em>IT REPLACES YOU</em>.",
-  "verdict": "REJECT",
-  "reason": "IMAGE — NOT PHOTOREAL, NO SUBJECT: The cover is a graphic-design treatment (stylized glowing '4' on a blue gradient with Gemini logo text) — no photographed elements, no human face, no real product. IMAGE LAW requires every element read as photographed, and the cover must always carry a subject. For a Google product story the correct archetype is Sundar Pichai (vendor cast) + oversized Gemini star"
- },
- {
-  "t": "2026-09-30T23:33:02Z",
-  "gate": "A",
-  "subject": "\"Meta's Muse AI is stealing Apple Messages, past and present, and uploading the contents to its cloud, even if explicitl",
-  "verdict": "AUTO_APPROVE",
-  "reason": "scout interest 8/10 — news-first fast lane"
- },
- {
   "t": "2026-09-30T23:44:50Z",
   "gate": "B",
   "subject": "META UPLOADED YOUR TEXTS <em>EVEN AFTER YOU SAID NO</em>",
@@ -2096,6 +1907,195 @@
   "t": "2026-10-04T00:31:13Z",
   "gate": "R",
   "subject": "TESLA FSD JUST MADE EVERY HUMAN DRIVER <em>THE DANGEROUS ONE</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-10-04T02:09:45Z",
+  "gate": "A",
+  "subject": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvid",
+  "verdict": "KILL",
+  "reason": "This is routine market reporting ('stocks-rose-today'), explicitly banned in §1. A stock-price milestone is a financial metric, not a business event; household-name events earn slots only for product releases, lawsuits, acquisitions, or leadership changes—not daily trading records."
+ },
+ {
+  "t": "2026-10-04T02:10:26Z",
+  "gate": "A",
+  "subject": "\"Humans are ingesting so much AI content that prompt language, fawning feedback and “caveman speak” are officially bleed",
+  "verdict": "KILL",
+  "reason": "Cultural observation with no named actor, event, or consequence — the writer would have to fabricate examples to build slides."
+ },
+ {
+  "t": "2026-10-04T02:11:18Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Government space program, not commercial tech disruptor; space coverage is restricted to the SpaceX/Starlink business lens—ISRO falls outside scope."
+ },
+ {
+  "t": "2026-10-04T02:11:20Z",
+  "gate": "A",
+  "subject": "U.S. Debt now exceeds 100% of GDP for the first time since World War 2 🤯👀",
+  "verdict": "KILL",
+  "reason": "Off-brand macro-economic data with no felt consequence, no actor, and no news-page event — exactly the listicle-slot filler the owner flagged as the #1 failure to avoid."
+ },
+ {
+  "t": "2026-10-04T02:11:35Z",
+  "gate": "A",
+  "subject": "Gemini 4.0 Pro is a BIG WIN for Google - It's 5x cheaper than Astra - even at 95% of Astra's performance, it's still fro",
+  "verdict": "KILL",
+  "reason": "Source is one analytical tweet offering product comparison commentary, not reporting a news event where reality moved—the underlying 'model released' is not established in the source material, and at 5/10 scout interest, too thin to justify approval under calibration rule."
+ },
+ {
+  "t": "2026-10-04T02:12:05Z",
+  "gate": "A",
+  "subject": "I gave Opus 5.5 one prompt + music. 12 hours later, I woke up to this.",
+  "verdict": "KILL",
+  "reason": "Cliffhanger structure with no detail on what was created; at 6/10 scout interest, cannot verify if substantial creator story or engagement-bait."
+ },
+ {
+  "t": "2026-10-04T02:13:03Z",
+  "gate": "A",
+  "subject": "👇 Here’s your recap of our biggest AI updates from September 👇",
+  "verdict": "KILL",
+  "reason": "Recap roundups are banned from news slots; this is a collection of updates, not a story event."
+ },
+ {
+  "t": "2026-10-04T02:13:11Z",
+  "gate": "A",
+  "subject": "Bill Gates has said that companies replacing human workers with physical robots or AI systems should pay a payroll tax e",
+  "verdict": "KILL",
+  "reason": "No real-world consequence—just a policy opinion requiring padding; the underlying claim isn't an EVENT where reality moved."
+ },
+ {
+  "t": "2026-10-04T02:13:58Z",
+  "gate": "A",
+  "subject": "\"Humans are ingesting so much AI content that prompt language, fawning feedback and “caveman speak” are officially bleed",
+  "verdict": "KILL",
+  "reason": "A trend observation without a specific event, person, or real-world consequence—requires padding."
+ },
+ {
+  "t": "2026-10-04T02:14:16Z",
+  "gate": "A",
+  "subject": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvid",
+  "verdict": "KILL",
+  "reason": "Routine market action ('stocks-rose-today' is explicitly banned) without an AI/tech NEWS trigger — a stock valuation milestone alone is not jaw-dropping; the retroactive investment stat is speculative, not a real consequence anyone felt, and the source gives no substance to build slides from."
+ },
+ {
+  "t": "2026-10-04T02:15:27Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "Announcement-only substance without market consequence, competitive angle, or narrative depth; governmental space achievement reads as national pride rather than jaw-dropping tech news for the target audience."
+ },
+ {
+  "t": "2026-10-04T02:15:33Z",
+  "gate": "A",
+  "subject": "Gemini 4.0 Pro is a BIG WIN for Google - It's 5x cheaper than Astra - even at 95% of Astra's performance, it's still fro",
+  "verdict": "KILL",
+  "reason": "Analyst's unverified comparative claim without official product announcement to confirm the launch event occurred."
+ },
+ {
+  "t": "2026-10-04T02:15:36Z",
+  "gate": "A",
+  "subject": "I gave Opus 5.5 one prompt + music. 12 hours later, I woke up to this.",
+  "verdict": "KILL",
+  "reason": "Unknown creator with 6/10 scout interest and a 70-character teaser give no evidence the artifact is jaw-dropping enough for this lane — writer would pad from nothing, and the underlying event risks being routine 'person used AI tool' without visible consequence or impact."
+ },
+ {
+  "t": "2026-10-04T02:15:48Z",
+  "gate": "A",
+  "subject": "U.S. Debt now exceeds 100% of GDP for the first time since World War 2 🤯👀",
+  "verdict": "KILL",
+  "reason": "Off-lens for an AI/tech page — macro-economic statistic without technology, company, or founder narrative; the page's identity is AI/tech news, not fiscal policy."
+ },
+ {
+  "t": "2026-10-04T02:16:52Z",
+  "gate": "A",
+  "subject": "Bill Gates has said that companies replacing human workers with physical robots or AI systems should pay a payroll tax e",
+  "verdict": "KILL",
+  "reason": "Bill Gates expressed an opinion about a proposed policy—no real-world event occurred, no consequence, no action with results; this is a statement, not a story the 12-year-old test or 'did reality move' standard would accept."
+ },
+ {
+  "t": "2026-10-04T02:29:59Z",
+  "gate": "B",
+  "subject": "CHATGPT HAS YOUR COWORKERS SAYING <em>'GREAT QUESTION!'</em> OUT LOUD",
+  "verdict": "REJECT",
+  "reason": "NO COVER IMAGE (§3, fatal): cover_has_image is false. Image Law is absolute — 'The cover must ALWAYS carry an image with a subject.' This post cannot publish without one. Fixable concept: a photoreal composite of a person in a boardroom, mouth open mid-sentence, with a floating chat-bubble showing 'Great question! Let me break this down for you' in ChatGPT's interface style — face in top two-third"
+ },
+ {
+  "t": "2026-10-04T02:33:34Z",
+  "gate": "B",
+  "subject": "CHATGPT HAS YOUR COWORKERS SAYING <em>'GREAT QUESTION!'</em> OUT LOUD",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 violation: cover_has_image is false. This is a single-picture post — the cover image IS the entire visual product. §3 is unambiguous: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' A post with no image at all cannot go live. Fix: generate a photoreal cover showing a person mid-meeting, mouth open, expression of robotically perfor"
+ },
+ {
+  "t": "2026-10-04T02:35:06Z",
+  "gate": "A",
+  "subject": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvid",
+  "verdict": "KILL",
+  "reason": "Stock market news (stocks-rose-today explicitly banned under ON-TOPIC BUT ROUTINE); the investor return is hypothetical, not a named protagonist's real outcome."
+ },
+ {
+  "t": "2026-10-04T02:35:42Z",
+  "gate": "A",
+  "subject": "U.S. Debt now exceeds 100% of GDP for the first time since World War 2 🤯👀",
+  "verdict": "KILL",
+  "reason": "U.S. fiscal policy is off-brand for this AI/tech news page (owner order Sep 3)."
+ },
+ {
+  "t": "2026-10-04T02:36:35Z",
+  "gate": "A",
+  "subject": "Bill Gates has said that companies replacing human workers with physical robots or AI systems should pay a payroll tax e",
+  "verdict": "KILL",
+  "reason": "No real-world event: Bill Gates expressing a policy position without implementation, supporting numbers, or consequence to build slides from."
+ },
+ {
+  "t": "2026-10-04T02:37:12Z",
+  "gate": "A",
+  "subject": "Gemini 4.0 Pro is a BIG WIN for Google - It's 5x cheaper than Astra - even at 95% of Astra's performance, it's still fro",
+  "verdict": "KILL",
+  "reason": "Google model releases are normally news, but this source is a feature specification without evidence of major significance, demonstrated consequences, or narrative angle—'it's cheaper' alone doesn't compel a story, and low scout interest (5/10) confirms the angle isn't resonating enough to justify writer assignment."
+ },
+ {
+  "t": "2026-10-04T02:37:13Z",
+  "gate": "A",
+  "subject": "I gave Opus 5.5 one prompt + music. 12 hours later, I woke up to this.",
+  "verdict": "KILL",
+  "reason": "No substance: suspense-only setup with zero described output or consequence; writer cannot build slides."
+ },
+ {
+  "t": "2026-10-04T02:37:43Z",
+  "gate": "A",
+  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
+  "verdict": "KILL",
+  "reason": "A genuine regional space milestone, but scout interest at 6/10 reflects what it lacks—the jaw-dropping global story or wild-but-true narrative a tech page owner would prioritize posting."
+ },
+ {
+  "t": "2026-10-04T02:55:12Z",
+  "gate": "B",
+  "subject": "SKIPPING NVIDIA 10 YEARS AGO COST YOU <em>$1.58 MILLION</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW hard violation: cover_has_image is false. The doctrine is unambiguous — 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a structural failure that no quality of writing can override. The fix is specific: the cover needs a photoreal image composed for the top two-thirds of the frame. Given the story's actor (Nvidia / Jensen Hua"
+ },
+ {
+  "t": "2026-10-04T02:56:45Z",
+  "gate": "B",
+  "subject": "SKIPPING NVIDIA 10 YEARS AGO COST YOU <em>$1.58 MILLION</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW (§3): cover_has_image is false. This is a single-picture post — the cover image IS the entire visual product. The Doctrine is absolute: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The 'zero images existed anywhere' exception does not save a format whose entire premise is one image. Fix: produce a photoreal cover — Jensen Huang in"
+ },
+ {
+  "t": "2026-10-04T02:57:39Z",
+  "gate": "B",
+  "subject": "SKIPPING NVIDIA 10 YEARS AGO COST YOU <em>$1.58 MILLION</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW VIOLATION — cover_has_image: false. This is a single-picture post whose entire format contract is cover image + caption. §3 is unambiguous: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' For an Nvidia record-valuation story the correct archetype is: Jensen Huang real press photo (or Nvidia GPU chip, photoreal) as the top-two-thirds "
+ },
+ {
+  "t": "2026-10-04T02:57:59Z",
+  "gate": "R",
+  "subject": "SKIPPING NVIDIA 10 YEARS AGO COST YOU <em>$1.58 MILLION</em>",
   "verdict": "PASS",
   "reason": ""
  }

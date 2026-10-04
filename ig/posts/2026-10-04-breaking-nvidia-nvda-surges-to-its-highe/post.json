@@ -1,0 +1,73 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SKIPPING NVIDIA 10 YEARS AGO COST YOU <em>$1.58 MILLION</em>",
+   "hsize": 76,
+   "kicker": "NOW WORTH MORE THAN GERMANY",
+   "media": null,
+   "logos": [
+    "nvidia"
+   ]
+  }
+ ],
+ "caption": "Nvidia just hit an all-time record, and $10,000 invested 10 years ago is worth $1,580,000 today.\n\nTen years ago, putting $10,000 into Nvidia instead of a savings account felt like gambling. Anyone who did it quietly has $1,580,000 today, while your cautious friend who played it safe has maybe $13,000. Nvidia is now worth $5.7 trillion. Someone is sitting at a table tonight doing the math on what they had $10,000 in ten years ago and quietly not finishing their food. The company that teens bought to make video games run smoother is now worth more than the entire economy of Germany.\n\nThis is what happens when one company ends up running the AI era. Nvidia went from gaming chips to powering every AI on earth, and the people who saw it a decade ago are now millionaires.\n\nRunning a business? DM us \"AI\" and we'll show you what the next decade could look like for yours.\n\nSources: The Kobeissi Letter on X, October 2, 2026\n\n#Nvidia #investing #stockmarket #AI #tech",
+ "pinned_comment": "Would you have held Nvidia for 10 years without selling, or would you have cashed out at a 5x or 10x somewhere along the way? Most people think they would have held. Most people are lying.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "NVIDIA JUST TURNED <em>$10,000 INTO $1.58 MILLION</em> IN 10 YEARS",
+   "NVIDIA IS NOW WORTH <em>MORE THAN GERMANY'S ENTIRE ECONOMY</em>",
+   "NVIDIA JUST HIT <em>$5.7 TRILLION</em>, A NEW RECORD",
+   "<em>NVIDIA</em> IS NOW WORTH MORE THAN GERMANY",
+   "NVIDIA JUST HIT <em>$5.7 TRILLION</em>, AN ALL-TIME RECORD"
+  ],
+  "scores": [
+   9,
+   8,
+   5,
+   7,
+   5
+  ],
+  "winner": 0,
+  "why": "[0] is a personal wealth story with visceral numbers ($10K\u2192$1.58M) that hits instantly; [1] is conceptually shocking but requires you to process comparing a company to Germany's entire economy."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "NVIDIA IS NOW WORTH <em>MORE THAN GERMANY'S ENTIRE ECONOMY</em>",
+   "NVIDIA JUST TURNED <em>$10,000 INTO $1.58 MILLION</em> IN 10 YEARS",
+   "SKIPPING NVIDIA 10 YEARS AGO COST YOU <em>$1.58 MILLION</em>"
+  ],
+  "scores": [
+   6,
+   8,
+   9
+  ],
+  "winner": 2,
+  "why": "It directly attacks your FOMO by personalizing the $1.58M as YOUR loss, not someone else's win. [1] has the same jaw-dropping number but frames it passively as what happened to the stock, missing the emotional kick that makes you actually stop scrolling."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "Nvidia",
+  "actor_known": true,
+  "anchor": "Nvidia",
+  "specifics": [
+   "$10,000 in Nvidia 10 years ago is now $1,580,000 \u2014 a 158x return",
+   "Nvidia hit $5.7 trillion market cap, bigger than Germany's entire GDP (~$4.5T)",
+   "New all-time record high as of October 2, 2026",
+   "A 'safe' savings account would have turned that same $10K into roughly $12,000\u2013$13,000"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvidia 10 years ago, you would now have $1,580,000.",
+  "link": "https://x.com/KobeissiLetter/status/2106019413191254363",
+  "judge_interest": 7,
+  "scout_score": 65.2
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE LAW VIOLATION \u2014 cover_has_image: false. This is a single-picture post whose entire format contract is cover image + caption. \u00a73 is unambiguous: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' For an Nvidia record-valuation story the correct archetype is: Jensen Huang real press photo (or Nvidia GPU chip, photoreal) as the top-two-thirds "
+}
