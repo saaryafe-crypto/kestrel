@@ -1,0 +1,81 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "YOUR PHONE CHIP IS <em>TOO SMALL FOR NORMAL PHYSICS</em>",
+   "kicker": "EACH ONE JUST A FEW ATOMS WIDE",
+   "hsize": 76,
+   "media": null
+  }
+ ],
+ "caption": "Transistors inside your phone are now literally a few atoms wide.\n\nToday's most advanced chips use transistors just 2 nanometres wide, inside a hair that's 70,000 nanometres wide, each one a few atoms across. Pull one hair from your head and 35,000 of those transistors would fit side by side across it. The weird quantum physics that used to break chip designs at that scale is now written into them on purpose.\n\nEvery chip generation from here goes deeper into atomic territory, and the strange physics at that scale is no longer a problem to avoid. It's a feature engineers now plan around.\n\nRunning a business? DM us \"AI\" and we'll show you how this shift in computing changes what AI can already do for you.\n\nSources: World of Engineering on X\n\n#technology #semiconductor #AI #engineering #chips",
+ "pinned_comment": "You're literally counting individual atoms at this scale, not just very small particles. How many more generations of this are left before physics says there is nowhere smaller to go?",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "TODAY'S CHIP PARTS ARE <em>JUST A FEW ATOMS WIDE</em>",
+   "CHIP ENGINEERS NOW <em>DESIGN WITH THE PHYSICS, NOT AGAINST IT</em>",
+   "PHONE CHIPS ARE NOW SO SMALL <em>THEY USE QUANTUM PHYSICS</em>",
+   "CHIP ENGINEERS NOW <em>DESIGN AROUND QUANTUM PHYSICS</em>",
+   "YOUR PHONE'S TRANSISTORS ARE <em>A FEW ATOMS WIDE</em>",
+   "<em>35,000 TRANSISTORS</em> FIT ACROSS ONE HUMAN HAIR",
+   "35,000 CHIP PARTS FIT ACROSS <em>ONE STRAND OF YOUR HAIR</em>",
+   "<em>YOUR HAIR</em> HOLDS 35,000 OF TODAY'S CHIP PARTS",
+   "A HUMAN HAIR CAN FIT <em>35,000 TRANSISTORS</em>",
+   "<em>THE CHIP IN YOUR PHONE</em> HAS PARTS JUST ATOMS WIDE"
+  ],
+  "scores": [
+   4,
+   2,
+   0,
+   0,
+   5,
+   8,
+   9,
+   8,
+   8,
+   6
+  ],
+  "winner": 6,
+  "why": "[6] personalizes the mind-bending fact\u2014'your hair' makes you stop scrolling because it's suddenly about YOUR body, not abstract transistors. [5] hits the same 'wait, WHAT?' factor but stays clinical and tech-focused, so it doesn't grab a 2am scroller as hard."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "35,000 CHIP PARTS FIT ACROSS <em>ONE STRAND OF YOUR HAIR</em>",
+   "YOUR PHONE CHIP STOPPED FIGHTING PHYSICS. <em>NOW PHYSICS IS THE FEATURE.</em>",
+   "YOUR PHONE'S CHIP HAS PARTS <em>A FEW ATOMS WIDE</em>",
+   "THE CHIP IN YOUR PHONE GOT <em>TOO SMALL FOR NORMAL PHYSICS</em>"
+  ],
+  "scores": [
+   8,
+   5,
+   6,
+   9
+  ],
+  "winner": 3,
+  "why": "[3] makes you think 'wait, WHAT? Physics stops working?' which is more gripping than [0]'s impressive number. [0] tells the story, but [3] violates your assumptions about reality itself, forcing you to read."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "commercial chipmakers",
+  "actor_known": false,
+  "anchor": "the chip in your phone",
+  "specifics": [
+   "35,000 transistors fit side by side across one human hair",
+   "2-nanometre process node \u2014 each transistor just a few atoms wide",
+   "Human hair is 70,000 nanometres wide",
+   "Atomic-scale physics is now designed in, not designed around"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "A human hair is approximately 70,000 nanometres in diameter; the most advanced commercial transistors are manufactured at a 2-nanometre process node - meaning roughly 35,000 transistors could be placed side by side acros",
+  "link": "https://x.com/engineers_feed/status/2106346022012059691",
+  "judge_interest": 7,
+  "scout_score": 54.1
+ },
+ "editor_override": "IMAGE LAW VIOLATION \u2014 fatal: this is filed as a single-picture post and cover_has_image is false. No image exists anywhere. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' A chip-physics wow-fact post without an image is dead on arrival. Fix: attach a photoreal cover \u2014 a macro photograph of a real silicon wafer or chi"
+}

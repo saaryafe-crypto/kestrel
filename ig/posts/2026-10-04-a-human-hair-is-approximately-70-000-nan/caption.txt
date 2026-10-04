@@ -1,0 +1,11 @@
+Transistors inside your phone are now literally a few atoms wide.
+
+Today's most advanced chips use transistors just 2 nanometres wide, inside a hair that's 70,000 nanometres wide, each one a few atoms across. Pull one hair from your head and 35,000 of those transistors would fit side by side across it. The weird quantum physics that used to break chip designs at that scale is now written into them on purpose.
+
+Every chip generation from here goes deeper into atomic territory, and the strange physics at that scale is no longer a problem to avoid. It's a feature engineers now plan around.
+
+Running a business? DM us "AI" and we'll show you how this shift in computing changes what AI can already do for you.
+
+Sources: World of Engineering on X
+
+#technology #semiconductor #AI #engineering #chips
