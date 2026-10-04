@@ -1,0 +1,37 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "MUSK BET $100M ON ROCKETS. THREE EXPLODED. <em>THE FOURTH FLEW.</em>",
+   "hsize": 72,
+   "face": [
+    "Elon Musk"
+   ],
+   "media": "faces/elon-musk-3.jpg"
+  }
+ ],
+ "caption": "The company that nearly went bankrupt after three failed rockets in 2008 just put the first Starlink V3 satellites into orbit.\n\nIn 2002, Musk put $100M of his own PayPal money into a rocket company nobody believed in. Three launches failed, in 2006, 2007, and 2008. He had enough left for one final attempt. On September 28, 2008, the fourth Falcon 1 became the first rocket a private company had ever sent to orbit. By year's end, NASA handed SpaceX a $1.6 billion contract. Send this to someone who's on their second or third failure right now.\n\nBefore SpaceX, only governments launched satellites. Musk put private money in, absorbed three straight failures, and refused to quit. SpaceX has since launched over 300 missions and is now worth more than $200 billion.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: cb_doge, SpaceX, NASA\n\n#SpaceX #ElonMusk #Starlink #TechHistory #Entrepreneurship",
+ "pinned_comment": "In 2008, Musk was running SpaceX and Tesla at the same time, both nearly bankrupt. He later said it was the worst year of his life.",
+ "hook_tournament": {
+  "story_type": "money_win",
+  "candidates": [
+   "MUSK PUT $100M IN. <em>THREE ROCKETS EXPLODED IN A ROW.</em>",
+   "MUSK'S THREE ROCKETS FAILED. <em>HE PAID FOR ONE MORE.</em>",
+   "ELON MUSK WATCHED THREE ROCKETS EXPLODE. <em>ONE SHOT LEFT.</em>",
+   "AFTER THREE EXPLOSIONS, <em>ELON MUSK BUILT A FOURTH ROCKET.</em>"
+  ],
+  "scores": [
+   8,
+   4,
+   7,
+   5
+  ],
+  "winner": 0,
+  "why": "The $100M + three consecutive explosions is concrete, visceral shock that stops you cold. 'One shot left' is dramatic but too vague\u2014you'd keep scrolling since you don't know what's really at stake."
+ },
+ "handle": "@yaffeai",
+ "container": "inspire",
+ "edu_mode": "inspire",
+ "cover_fallback": "real-face-photo",
+ "editor_override": "HOOK: Three sentences, not one. \u00a72 mandates ONE plain news sentence of 5-10 words. Current cover reads 'MUSK BET $100M ON ROCKETS. THREE EXPLODED. THE FOURTH FLEW.' \u2014 three hard stops, three sentences. Fix: collapse to a single arc sentence, e.g., 'MUSK BET $100M ON THREE ROCKETS \u2014 THE FOURTH FLEW.' (nine words, one sentence, same drama, compliant).; CAPTION REPETITION: Paragraph 3 restates what p"
+}

@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-09-30T23:48:41Z",
-  "gate": "A",
-  "subject": "Lmao. SpaceX bought the  domain, so every time you go there it just sends you to Grok Bot 😂",
-  "verdict": "KILL",
-  "reason": "The underlying event is trivial—a corporate prank (domain redirect)—not a major real-world move where reality moved; it fails §1's requirement that a story have a consequence someone felt, and qualifies as INSTANT KILL under 'a joke, a vibe, a photo op' when thinness exposes triviality."
- },
- {
-  "t": "2026-09-30T23:49:22Z",
-  "gate": "A",
-  "subject": "Pause AI Development NOW I want to share with you a conversation I heard about recently. Here are just a few lines that ",
-  "verdict": "KILL",
-  "reason": "Cannot verify the claimed OpenAI hacking incident with communicating AI agents as a documented real event; without grounding in verifiable fact, this fails both STORY LAW's 'something happened in the real world' test and the truth requirement—regardless of Bernie Sanders' posting it."
- },
- {
-  "t": "2026-09-30T23:49:33Z",
-  "gate": "A",
-  "subject": "Henry Malukas, co-founder of HMD Trucking, which operates a fleet of ~700 diesel semi trucks, says the company has order",
-  "verdict": "KILL",
-  "reason": "A routine product purchase announcement from an unknown actor with no real consequence, outcome, or felt-scale numbers — exactly the 'on-topic but routine' content the doctrine bans; a trucking company ordering vehicles is not a story that moves reality or makes readers want to share it."
- },
- {
   "t": "2026-09-30T23:50:17Z",
   "gate": "A",
   "subject": "We're introducing skills in @GeminiApp to help you automate your most repetitive tasks. Now, you can now save your most-",
@@ -2098,5 +2077,26 @@
   "subject": "Lmaooo Israel is creating full on AI reenactments of their false flags now.",
   "verdict": "KILL",
   "reason": "One unverified political accusation with no documented event, evidence, or consequence—a bare claim that fails the news-page standard of real names, real proof, and real-world consequence."
+ },
+ {
+  "t": "2026-10-04T17:30:16Z",
+  "gate": "B",
+  "subject": "MUSK BET $100M ON ROCKETS. THREE EXPLODED. <em>THE FOURTH FLEW.</em>",
+  "verdict": "REJECT",
+  "reason": "Emoji violation: the 🚀 in the caption opener is an explicit ban under Human Voice Law. Remove it.; Motivational-poster sentence: 'Every major AI company running today is using the same playbook' is vague, preachy, and fails the Friend Test — a 12-year-old asks 'what playbook?' and gets nothing. The inspire container explicitly rejects arcs that 'read like a motivational poster.' Replace with a spe"
+ },
+ {
+  "t": "2026-10-04T17:32:48Z",
+  "gate": "B",
+  "subject": "MUSK BET $100M ON ROCKETS. THREE EXPLODED. <em>THE FOURTH FLEW.</em>",
+  "verdict": "REJECT",
+  "reason": "HOOK: Three sentences, not one. §2 mandates ONE plain news sentence of 5-10 words. Current cover reads 'MUSK BET $100M ON ROCKETS. THREE EXPLODED. THE FOURTH FLEW.' — three hard stops, three sentences. Fix: collapse to a single arc sentence, e.g., 'MUSK BET $100M ON THREE ROCKETS — THE FOURTH FLEW.' (nine words, one sentence, same drama, compliant).; CAPTION REPETITION: Paragraph 3 restates what p"
+ },
+ {
+  "t": "2026-10-04T17:32:55Z",
+  "gate": "R",
+  "subject": "MUSK BET $100M ON ROCKETS. THREE EXPLODED. <em>THE FOURTH FLEW.</em>",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
