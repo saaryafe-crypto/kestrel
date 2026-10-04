@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T22:42:41.384851+00:00",
+ "updated": "2026-10-04T00:42:46.316236+00:00",
  "photos": [
   {
    "id": "2097374640582668336",
@@ -359,8 +359,8 @@
    "score": 18543,
    "comments_n": 1539,
    "views": 1553566,
-   "age_h": 4.0,
-   "vph": 4668.6,
+   "age_h": 6.0,
+   "vph": 3090.5,
    "image": "https://pbs.twimg.com/media/HTuhe-KXUAANxEg.jpg",
    "images": [
     "https://pbs.twimg.com/media/HTuhe-KXUAANxEg.jpg"
@@ -368,25 +368,6 @@
    "video": null,
    "guide": false,
    "born": 1791052961.384851
-  },
-  {
-   "id": "2095651327942459428",
-   "title": "\u201cNot to punish evil is equivalent to authorizing it.\u201d - Leonardo da Vinci",
-   "sub": "historyinmemes",
-   "where": "@historyinmemes on X",
-   "unit": "likes",
-   "selftext": "\u201cNot to punish evil is equivalent to authorizing it.\u201d - Leonardo da Vinci",
-   "permalink": "https://x.com/historyinmemes/status/2095651327942459428",
-   "outlink": null,
-   "score": 18054,
-   "comments_n": 126,
-   "views": 240087,
-   "age_h": 34.5,
-   "vph": 523.3,
-   "image": "https://pbs.twimg.com/media/HRU_xqeXYAMXcxk.jpg",
-   "video": null,
-   "guide": false,
-   "born": 1788477287.431829
   },
   {
    "id": "2096432921427296641",
@@ -836,8 +817,8 @@
    "score": 6744,
    "comments_n": 114,
    "views": 43506,
-   "age_h": 7.4,
-   "vph": 908.8,
+   "age_h": 9.4,
+   "vph": 717.4,
    "image": "https://pbs.twimg.com/media/HTtyHu2XQAAevMz.jpg",
    "images": [
     "https://pbs.twimg.com/media/HTtyHu2XQAAevMz.jpg"
@@ -858,8 +839,8 @@
    "score": 6003,
    "comments_n": 245,
    "views": 281263,
-   "age_h": 33.6,
-   "vph": 178.6,
+   "age_h": 35.6,
+   "vph": 168.6,
    "image": "https://pbs.twimg.com/media/HToKh5yasAAv5k3.jpg",
    "images": [
     "https://pbs.twimg.com/media/HToKh5yasAAv5k3.jpg",
@@ -868,6 +849,28 @@
    "video": null,
    "guide": false,
    "born": 1790946401.384851
+  },
+  {
+   "id": "2106019413191254363",
+   "title": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvidia 10 years ago, you would now have $1,580,000.",
+   "sub": "KobeissiLetter",
+   "where": "@KobeissiLetter on X",
+   "unit": "likes",
+   "selftext": "BREAKING: Nvidia, $NVDA, surges to its highest level on record, now worth $5.7 trillion. If you invested $10,000 in Nvidia 10 years ago, you would now have $1,580,000.",
+   "permalink": "https://x.com/KobeissiLetter/status/2106019413191254363",
+   "outlink": null,
+   "score": 5082,
+   "comments_n": 234,
+   "views": 482262,
+   "age_h": 34.8,
+   "vph": 146.0,
+   "image": "https://pbs.twimg.com/media/HToVFlVXUAAPEH_.png",
+   "images": [
+    "https://pbs.twimg.com/media/HToVFlVXUAAPEH_.png"
+   ],
+   "video": null,
+   "guide": false,
+   "born": 1790949286.316236
   }
  ]
 }
