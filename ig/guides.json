@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T02:55:28.919846+00:00",
+ "updated": "2026-10-05T13:55:47.472474+00:00",
  "guides": [
   {
    "id": "2100679992720142459",
@@ -313,36 +313,17 @@
    "selftext": "Wake up &amp; Learn how to use AI effectively because making money online is not always a scam!",
    "permalink": "https://x.com/wode_maya/status/2105597734111924575",
    "outlink": null,
-   "score": 4072,
+   "score": 4073,
    "comments_n": 38,
-   "views": 63715,
-   "age_h": 76.9,
-   "vph": 52.9,
+   "views": 63925,
+   "age_h": 99.9,
+   "vph": 40.8,
    "image": null,
    "images": [],
    "video": null,
    "guide": true,
    "wide_guide": true,
    "born": 1790848606.096214
-  },
-  {
-   "id": "2096133504417616165",
-   "title": "How we think about the \u201cwiki incident,\u201d where our agents wrote to several internet sites: it\u2019s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of ou",
-   "sub": "OpenAI",
-   "where": "@OpenAI on X",
-   "unit": "likes",
-   "selftext": "How we think about the \u201cwiki incident,\u201d where our agents wrote to several internet sites: it\u2019s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models. Historically, we have treated misalignment largely as a research question, which gets communicated in research publications such as systems cards. This year, we\u2019ve started to see misalignment cause new types of real-world impact. For the Hugging Face incident, where misalignment led to security impact to us and third parties, we followed a traditional security incident response playbook. We immediately started working with Hugging Face to understand what had happened and also disclosed publicly the very next day. Our investigation continues, and we are continuing to notify parties whom our models impacted in less significant ways. Prior to the Hugging Face incident, we saw early signs of agents using the internet in unintended ways, as reported in   and  We considered the wiki incident to be an instance of misalignment similar to the ones we\u2019d shared. Our misalignment disclosure practices need to expand for this new phase of model capabilities. We and the larger AI community do not yet have a clear standard for how to report misalignment that shows up during training, evaluation, and deployment, including examples that don\u2019t look like traditional security incidents but could provide insight into AI behavior and future risks. We\u2019re working on a framework and will share it in upcoming weeks, and in parallel we're working with dozens of government regulatory agencies worldwide on these issues.",
-   "permalink": "https://x.com/OpenAI/status/2096133504417616165",
-   "outlink": null,
-   "score": 3954,
-   "comments_n": 557,
-   "views": 1176537,
-   "age_h": 35.5,
-   "vph": 111.4,
-   "image": "https://pbs.twimg.com/media/HRb1iJXbsAADtBM.jpg",
-   "video": null,
-   "guide": true,
-   "born": 1788592298.034889
   },
   {
    "id": "2104454360088326317",
@@ -439,6 +420,30 @@
    "guide": true,
    "wide_guide": true,
    "born": 1788688464.878879
+  },
+  {
+   "id": "2106896992840671396",
+   "title": "AI won\u2019t take your job. Someone who knows how to use AI better than you, will take your job.",
+   "sub": "mcuban",
+   "where": "@mcuban on X",
+   "unit": "likes",
+   "selftext": "AI won\u2019t take your job. Someone who knows how to use AI better than you, will take your job.",
+   "permalink": "https://x.com/mcuban/status/2106896992840671396",
+   "outlink": null,
+   "score": 3248,
+   "comments_n": 555,
+   "views": 299775,
+   "age_h": 13.9,
+   "vph": 233.7,
+   "image": null,
+   "images": [],
+   "video": null,
+   "guide": true,
+   "wide_guide": true,
+   "thread": [
+    "@Chaelor @ModeledBehavior Just like healthcare jobs are mostly in home long term care. My point on knowing how to use AI stays the same"
+   ],
+   "born": 1791158507.472474
   },
   {
    "id": "2099908000924193124",
@@ -562,6 +567,30 @@
    "born": 1790339969.255289
   },
   {
+   "id": "2106675678896689592",
+   "title": "Some people really know how to use Ai man!! \ud83e\udd2f When Ai is used correctly it\u2019s bloody amazing. This is like a ghetto fabulous dream sequence \ud83d\udc4c\ud83c\udffe\u2764\ufe0f",
+   "sub": "FunkButcher",
+   "where": "@FunkButcher on X",
+   "unit": "likes",
+   "selftext": "Some people really know how to use Ai man!! \ud83e\udd2f When Ai is used correctly it\u2019s bloody amazing. This is like a ghetto fabulous dream sequence \ud83d\udc4c\ud83c\udffe\u2764\ufe0f",
+   "permalink": "https://x.com/FunkButcher/status/2106675678896689592",
+   "outlink": null,
+   "score": 2310,
+   "comments_n": 43,
+   "views": 85163,
+   "age_h": 28.6,
+   "vph": 80.9,
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2106675635619786752/img/seQlK1Z4xmK8K7UI.jpg",
+   "images": [],
+   "video": "https://video-s.twimg.com/amplify_video/2106675635619786752/vid/avc1/960x720/-sHJT43XYzCLEugI.mp4?tag=29",
+   "guide": true,
+   "wide_guide": true,
+   "thread": [
+    "@yocousinkenny I think it is."
+   ],
+   "born": 1791105587.472474
+  },
+  {
    "id": "2097071438742040642",
    "title": "oh great the scammers have figured out how to use AI. I can\u2019t \ud83e\udeea\ud83d\udc80",
    "sub": "KarmaisaCloda",
@@ -644,9 +673,9 @@
    "outlink": null,
    "score": 2043,
    "comments_n": 12,
-   "views": 48785,
-   "age_h": 34.7,
-   "vph": 58.8,
+   "views": 49333,
+   "age_h": 57.7,
+   "vph": 35.4,
    "image": "https://pbs.twimg.com/amplify_video_thumb/2106234901708316672/img/JrWwRVbFzXYTjniN.jpg",
    "images": [],
    "video": "https://video-s.twimg.com/amplify_video/2106234901708316672/vid/avc1/1280x720/kM4Xq8X2Fw5wuc08.mp4?tag=29",

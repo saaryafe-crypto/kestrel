@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T02:55:28.919846+00:00",
+ "updated": "2026-10-05T13:55:47.472474+00:00",
  "photos": [
   {
    "id": "2097374640582668336",
@@ -857,27 +857,26 @@
    "born": 1790946401.384851
   },
   {
-   "id": "2106752902203163081",
-   "title": "JUST IN: Elon Musk to rename SpaceXAI to SpaceXSI. \"SpaceX is a super intelligence company.\"",
-   "sub": "WatcherGuru",
-   "where": "@WatcherGuru on X",
+   "id": "2106804676150866212",
+   "title": "The most bizarre sunset I've ever witnessed.",
+   "sub": "AJamesMcCarthy",
+   "where": "@AJamesMcCarthy on X",
    "unit": "likes",
-   "selftext": "JUST IN: Elon Musk to rename SpaceXAI to SpaceXSI. \"SpaceX is a super intelligence company.\"",
-   "permalink": "https://x.com/WatcherGuru/status/2106752902203163081",
+   "selftext": "The most bizarre sunset I've ever witnessed.",
+   "permalink": "https://x.com/AJamesMcCarthy/status/2106804676150866212",
    "outlink": null,
-   "score": 5640,
-   "comments_n": 503,
-   "views": 429339,
-   "age_h": 12.5,
-   "vph": 451.2,
-   "image": "https://pbs.twimg.com/media/HTywmXMWkAALQz-.jpg",
+   "score": 5781,
+   "comments_n": 116,
+   "views": 54272,
+   "age_h": 20.0,
+   "vph": 288.9,
+   "image": "https://pbs.twimg.com/media/HTzfoufW4AAWsf1.jpg",
    "images": [
-    "https://pbs.twimg.com/media/HTywmXMWkAALQz-.jpg",
-    "https://pbs.twimg.com/media/HTywmXbXcAAEbuo.jpg"
+    "https://pbs.twimg.com/media/HTzfoufW4AAWsf1.jpg"
    ],
    "video": null,
    "guide": false,
-   "born": 1791123922.205093
+   "born": 1791136547.472474
   }
  ]
 }
