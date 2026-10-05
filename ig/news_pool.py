@@ -111,7 +111,9 @@ def harvest(window_h=WINDOW_H, videos=False, out=POOL):
                " " + w["tech_filter"] + vf, pages) for i in range(0, len(w["outlets"]), 10)]
     if not videos:
         plans += [("discovery", None, w["discovery_min_faves"], w["discovery"], 3)]
-    plans += [("discovery", None, w["video_discovery_min_faves"], w["video_discovery"], 1)]
+    plans += [("discovery", None, w["video_discovery_min_faves"], w["video_discovery"], 2 if videos else 1)]
+    if videos:
+        plans += [("discovery", None, w["video_discovery_min_faves"], w["ai_video_discovery"], 1)]
     raw, reads = {}, 0
     for lane, handles, floor, extra, pages in plans:
         frm = "(" + " OR ".join(f"from:{h}" for h in handles) + ")" if handles else ""

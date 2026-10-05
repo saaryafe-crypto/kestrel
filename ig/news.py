@@ -22,6 +22,8 @@ UA = {"User-Agent": "Mozilla/5.0 (Macintosh) AppleWebKit/537.36 Chrome/120 Safar
 ACRONYMS = {"AI", "CEO", "TASE", "IPO", "USA", "US", "UK", "EU", "GPU", "CPU", "FDA",
             "NASA", "IBM", "AMD", "TSMC", "OK", "TV", "VR", "AR", "IDF", "AGI", "LLM",
             "BYD", "API", "IOS", "NBA", "NFL", "FBI", "SEC", "FTC", "DOJ", "AWS", "HBO"}
+TECH = re.compile(r"\b(AI|robots?|humanoid|robotaxi|waymo|self-driving|driverless|openai|chatgpt|"
+                  r"claude|gemini|sora|veo|kling|nvidia|apple|google|tesla|optimus|unitree|figure 0\d)\b", re.I)
 BANNED = re.compile(r"\b(dm us|dm me|follow us|follow @|link in bio|feel illegal|"
                     r"you won'?t believe|insane|mind-?blowing|game-?changer|crazy|wild)\b", re.I)
 
@@ -56,6 +58,29 @@ def article(url):
     return meta("og:image"), (meta("og:title") + ". " + meta("og:description") + "\n" + body).strip()
 
 
+def gnews_url(link):
+    """Google News RSS links are redirects; resolve to the real article URL
+    (signature + timestamp from the article page, then Google's own
+    batchexecute call). None on any failure."""
+    try:
+        aid = link.split("/articles/")[1].split("?")[0]
+        h = get("https://news.google.com/articles/" + aid).decode("utf8", "ignore")
+        sg = re.search(r'data-n-a-sg="([^"]+)"', h).group(1)
+        ts = int(re.search(r'data-n-a-ts="([^"]+)"', h).group(1))
+        req = [[["Fbv4je", json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
+                 None, None, None, None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+                 aid, ts, sg]), None, "generic"]]]
+        body = urllib.parse.urlencode({"f.req": json.dumps(req)}).encode()
+        r = urllib.request.urlopen(urllib.request.Request(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute", data=body,
+            headers={**UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"}),
+            timeout=20).read().decode()
+        return re.search(r'garturlres\\",\\"(https?://[^"\\]+)', r).group(1)
+    except Exception as e:
+        log(f"  google news link not resolved: {e}")
+        return None
+
+
 # ---------- candidates ----------
 
 def en_candidates(reels):
@@ -70,6 +95,8 @@ def en_candidates(reels):
         if gates.POLITICS.search(r["text"]) or re.fullmatch(r"\S*https?://\S+", r["text"]):
             continue
         v = r.get("video")
+        if reels and r["lane"] == "discovery" and not TECH.search(r["text"]):
+            continue  # random viral clips: only when the post itself is about tech
         if reels:
             if not v or not v.get("ms") or not (8_000 <= v["ms"] <= 180_000):
                 continue
@@ -195,7 +222,7 @@ def caption(w, lang):
 
 PHOTO_PICK = """Candidate photos for a news card are attached (if not attached, use your Read tool on: FILES).
 The story: STORY
-Pick the best one to show under the headline, the way a news site would. Best: a photo of the actual event or product; next: the person the story is about; next: the company's building, sign or store. It must be a real photo (not a screenshot of text, not a slide, not a logo on a plain background, not a chart), not blurry, without big baked-in text or another news page's watermark. Never a photo of a different person or company than the story's. A photo filed under the story's company or person name IS that company or person (its building, sign, product or face), and that is fine. Return ONLY JSON: {"pick": <index from 0, or -1 if none qualifies>, "focus_y": <0.0-1.0, vertical position in the picked photo of the most important thing to keep visible (a person's FACE if there is one; 0 = top edge)>, "reason": "<short>"}"""
+Pick the best one to show under the headline, the way a news site would. Best: a photo of the actual event or product; next: the person the story is about; next: the company's building, sign or store. It must be a real photograph (not an AI-generated or rendered illustration, even if the article used one; not a screenshot of text, not a slide, not a logo on a plain background, not a chart), not blurry, without big baked-in text or another news page's watermark. Never a photo of a different person or company than the story's. A photo filed under the story's company or person name IS that company or person (its building, sign, product or face), and that is fine. Return ONLY JSON: {"pick": <index from 0, or -1 if none qualifies>, "focus_y": <0.0-1.0, vertical position in the picked photo of the most important thing to keep visible (a person's FACE if there is one; 0 = top edge)>, "reason": "<short>"}"""
 
 
 def wiki_images(name, n=2):
@@ -301,12 +328,42 @@ def clip_ok(src, story):
     return bool(r.get("usable")), r.get("shows") or r.get("reason") or ""
 
 
+def black_bars(src, dur_s):
+    """crop=W:H:X:Y that removes dark bars baked into the source (a vertical
+    phone clip inside a 16:9 frame), or "" when there are none. Scans three
+    frames: a row/column is a bar if it is dark in all of them."""
+    from PIL import Image, ImageStat
+    frames = []
+    for k, frac in enumerate((0.2, 0.5, 0.8)):
+        fp = f"{src}.bar{k}.png"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(dur_s * frac), "-i", src,
+                        "-frames:v", "1", fp])
+        if os.path.exists(fp):
+            frames.append(Image.open(fp).convert("L"))
+            os.remove(fp)
+    if not frames:
+        return ""
+    w, h = frames[0].size
+    dark_col = lambda x: all(ImageStat.Stat(f.crop((x, 0, x + 1, h))).mean[0] < 32 for f in frames)
+    x0 = next((x for x in range(0, w // 2, 2) if not dark_col(x)), 0)
+    x1 = next((x for x in range(w - 1, w // 2, -2) if not dark_col(x)), w - 1)
+    # rows are judged inside the picture's columns only (side bars would darken every row)
+    dark_row = lambda y: all(ImageStat.Stat(f.crop((x0, y, x1, y + 1))).mean[0] < 32 for f in frames)
+    y0 = next((y for y in range(0, h // 2, 2) if not dark_row(y)), 0)
+    y1 = next((y for y in range(h - 1, h // 2, -2) if not dark_row(y)), h - 1)
+    cw, ch = (x1 - x0 + 1) // 2 * 2, (y1 - y0 + 1) // 2 * 2
+    if cw * ch > 0.9 * w * h or cw < 200 or ch < 200:
+        return ""
+    return f"crop={cw}:{ch}:{x0}:{y0},"
+
+
 def build_reel_video(src, overlay_png, top, out, dur_s):
     """Clip fills the transparent area under the headline box: fit inside
-    (never zoomed/cropped), blurred copy of itself behind it."""
+    (never zoomed/cropped), blurred copy of itself behind it. Black bars
+    baked into the source are cropped off first."""
     ah = 1920 - top
     clip = min(dur_s, 59)
-    vf = (f"[0:v]split[a][b];"
+    vf = (f"[0:v]{black_bars(src, dur_s)}split[a][b];"
           f"[a]scale=1080:{ah}:force_original_aspect_ratio=increase,crop=1080:{ah},"
           f"boxblur=24:2,eq=brightness=-0.18[bg];"
           f"[b]scale=1080:{ah - 340}:force_original_aspect_ratio=decrease[fg];"
@@ -340,8 +397,20 @@ def build(kind, lang, day, out_root=None, extra_hist=()):
         s["members"] = [by_id[i] for i in s.get("ids", []) if i in by_id]
     ok = gates.apply(stories, cands, lang, recent, day, reels=reels, log=log)
     if lang == "he" and not reels:
+        # Hebrew virality = outlets: a global story needs 2+ Israeli outlets
+        thin = [s for s in ok if not s.get("israeli_angle") and len({m["outlet"] for m in s["members"]}) < 2]
+        for s in thin:
+            log(f"  kill (1 outlet, no Israeli angle) {s['story12']}")
+        ok = [s for s in ok if s not in thin]
         he_score(ok, recent, day)
         ok.sort(key=lambda s: -s["score"])
+        # hard quota (owner target ~half Israeli): the day's last card slot
+        # must be Israel-angle if none ran yet and one passed the gates
+        todays = [h for h in recent if h["date"][:10] == day and h["dir"].count("-reel-") == 0]
+        il = [s for s in ok if s.get("israeli_angle")]
+        if len(todays) >= 2 and not any(h.get("israeli") for h in todays) and il:
+            log("  Israeli quota: last card slot goes to an Israel-angle story")
+            ok = il
     root = out_root or os.path.join(HERE, PAGES[lang]["posts"])
     for s in ok[:4]:
         log(f"  building: {s['story12']}")
@@ -360,9 +429,13 @@ def build(kind, lang, day, out_root=None, extra_hist=()):
 def enrich(s):
     """Article text + main image for the writer and the photo pick."""
     links = [l for m in s["members"] for l in (m.get("links") or [m.get("link")]) if l]
-    for l in links[:2]:
-        if "news.google.com" in l:
-            continue
+    # direct article links first, then resolved Google News links
+    links = sorted(links, key=lambda l: "news.google." in l)
+    for l in links[:3]:
+        if "news.google." in l:
+            l = gnews_url(l)
+            if not l:
+                continue
         img, text = article(l)
         if text:
             s["article"], s["og_image"] = text, img

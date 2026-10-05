@@ -77,6 +77,7 @@
  "tech_filter": "(AI OR OpenAI OR ChatGPT OR Anthropic OR Claude OR Gemini OR Nvidia OR Apple OR iPhone OR Google OR Microsoft OR Meta OR robot OR humanoid OR chip OR Waymo OR Tesla OR SpaceX OR startup OR billion)",
  "discovery": "(OpenAI OR ChatGPT OR Anthropic OR Claude OR Gemini OR DeepMind OR Nvidia OR \"AI model\" OR humanoid OR robotaxi OR iPhone OR \"artificial intelligence\") lang:en",
  "discovery_min_faves": 3000,
- "video_discovery": "(robot OR humanoid OR robotaxi OR Waymo OR \"AI video\" OR \"self-driving\" OR \"AI glasses\" OR Figure OR Unitree) filter:videos lang:en -drone",
- "video_discovery_min_faves": 5000
+ "video_discovery": "(robot OR humanoid OR robotaxi OR Waymo OR \"self-driving\" OR \"AI glasses\" OR \"Figure 03\" OR Unitree OR Optimus) filter:videos lang:en -drone",
+ "video_discovery_min_faves": 5000,
+ "ai_video_discovery": "(Sora OR Veo OR \"Grok Imagine\" OR Kling OR \"AI generated\" OR \"made with AI\") filter:videos lang:en"
 }
