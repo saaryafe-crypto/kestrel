@@ -1,152 +1,5 @@
 [
  {
-  "t": "2026-10-02T06:57:57Z",
-  "gate": "A",
-  "subject": "These new hands are the perfect companion for Atlas. With 13 degrees of freedom, they are directly actuated, built for h",
-  "verdict": "KILL",
-  "reason": "Routine product feature announcement with no demonstration or consequence—does not earn a story slot."
- },
- {
-  "t": "2026-10-02T07:12:38Z",
-  "gate": "B",
-  "subject": "AI CRACKED NAPOLEON'S <em>217-YEAR-OLD CIPHER</em> FROM <em>ONE BLURRY PHOTO</em>",
-  "verdict": "REJECT",
-  "reason": "Caption opening line ends with 🔓 emoji — §4 bans emojis from the spoken voice explicitly. Delete it. The sentence is strong without decoration."
- },
- {
-  "t": "2026-10-02T07:14:11Z",
-  "gate": "B",
-  "subject": "AI CRACKED NAPOLEON'S <em>217-YEAR-OLD CIPHER</em> FROM <em>ONE BLURRY PHOTO</em>",
-  "verdict": "APPROVE",
-  "reason": ""
- },
- {
-  "t": "2026-10-02T07:14:54Z",
-  "gate": "R",
-  "subject": "AI CRACKED NAPOLEON'S <em>217-YEAR-OLD CIPHER</em> FROM <em>ONE BLURRY PHOTO</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "t": "2026-10-02T14:46:34Z",
-  "gate": "A",
-  "subject": "I didn't even like this couple to begin with, but some of y'all are genuinely npc drones made in the most proficent AI f",
-  "verdict": "KILL",
-  "reason": "Pure reaction-bait: the entire substance is someone complaining about OTHER PEOPLE's reactions to an unnamed couple's online drama, with no real event, named consequence, or consequence anyone felt in the world — exactly the category that killed the Queen Elizabeth and Mario Lopez posts."
- },
- {
-  "t": "2026-10-02T18:59:40Z",
-  "gate": "B",
-  "subject": "5 GOVERNMENT AI RULES <em>QUIETLY COSTING YOU HOURS</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — Cover fails archetype and thumb test. The cover is a plain neutral headshot of Keir Starmer: no story staging, no document or rulebook, no UK government branding, no visual that proves 'rules costing you hours.' A stranger at thumb size sees a man in a suit and shrugs. The edu-post law additionally requires 'full staged scenes in a real place' — a portrait headshot is not a scene. Fix:"
- },
- {
-  "t": "2026-10-02T19:02:00Z",
-  "gate": "R",
-  "subject": "5 GOVERNMENT AI RULES <em>QUIETLY COSTING YOU HOURS</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "gate": "A",
-  "reason": "Instant kill: reaction-bait. The entire substance is people reacting online to an unknown couple's unnamed situation; zero real-world consequence, zero real story beneath it.",
-  "subject": "I didn't even like this couple to begin with, but some of y'all are genuinely npc drones made in the most proficent AI f",
-  "t": "2026-10-02T19:00:17Z",
-  "verdict": "KILL"
- },
- {
-  "t": "2026-10-02T21:46:25Z",
-  "gate": "A",
-  "subject": "Delta CEO reportedly said no to Starlink because he did not want to work with Elon Musk. Meanwhile, Starlink adoption is",
-  "verdict": "APPROVE",
-  "reason": "Real founder-tension business event (Delta CEO refused Starlink; Musk's adoption surging at 48 airlines/7000+ aircraft) with documented market consequences; fits tech/founder/space lens with famous actors and measurable impact."
- },
- {
-  "t": "2026-10-02T21:46:46Z",
-  "gate": "A",
-  "subject": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Wr",
-  "verdict": "KILL",
-  "reason": "Tips/tricks content, not a news event where something HAPPENED in the real world with a real consequence someone felt—Karpathy sharing knowledge is fallback guide material, not news-first positioning, despite short-term slot cost."
- },
- {
-  "t": "2026-10-02T21:47:21Z",
-  "gate": "A",
-  "subject": "Tesla has just introduced a new Supercharging safety feature called “Emergency Drive Away,” which allows you to immediat",
-  "verdict": "KILL",
-  "reason": "Feature announcement without a major move, narrative arc, or real-world consequence at scale required to earn a slot."
- },
- {
-  "t": "2026-10-02T22:03:35Z",
-  "gate": "B",
-  "subject": "DELTA REPORTEDLY STUCK PASSENGERS WITH WORSE WIFI <em>OVER A GRUDGE</em>",
-  "verdict": "REJECT",
-  "reason": "HOOK §2 — 'reportedly' sits in position 2 of the hook, not mid-sentence. Doctrine says 'reportedly allowed once mid-sentence only.' Fix: restructure so the proven fact leads — e.g., 'DELTA IS THE ONLY MAJOR US AIRLINE WITHOUT STARLINK' — and demote the unverified grudge angle to mid-sentence or caption.; IMAGE §3 — Cover is a flat infographic grid of 40+ airline logos. It fails every archetype: no"
- },
- {
-  "t": "2026-10-02T22:07:21Z",
-  "gate": "B",
-  "subject": "DELTA IS THE ONLY MAJOR US AIRLINE <em>WITHOUT STARLINK</em>",
-  "verdict": "REJECT",
-  "reason": "TRUTH LAW (§5) — 'True or not' in the caption body is a direct violation: 'True or not, the Delta story gives your most loyal customers a grievance to repeat every time they book United instead.' The page is explicitly publishing material it acknowledges it cannot verify, sourced from a single pro-Musk X account with no journalistic or named-source backing. §5 requires every fact to be true; a cap"
- },
- {
-  "t": "2026-10-02T22:11:38Z",
-  "gate": "B",
-  "subject": "DELTA IS THE ONLY MAJOR US AIRLINE <em>WITHOUT STARLINK</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — COVER IS NOT PHOTOREAL: The cover is a graphic infographic (a grid of airline logo tiles under the Starlink mark) — no photography anywhere in the frame. The doctrine requires every element to read as photographed; a clean white-card logo grid is graphic design, not a photoreal composite. It also shows zero human faces, while the doctrine defaults to a face when the story has one (it d"
- },
- {
-  "t": "2026-10-02T22:13:03Z",
-  "gate": "A",
-  "subject": "These new hands are the perfect companion for Atlas. With 13 degrees of freedom, they are directly actuated, built for h",
-  "verdict": "KILL",
-  "reason": "Specification announcement from a household-name lab without demonstration or established consequence; reads as routine product development news rather than a story a reader would send to a friend."
- },
- {
-  "t": "2026-10-02T22:13:05Z",
-  "gate": "A",
-  "subject": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Wr",
-  "verdict": "KILL",
-  "reason": "Tips post, not a news event—fails STORY LAW's viral-specific-event requirement; evergreen educational content feeds the repetitive guide problem the owner flagged as the page's #1 failure."
- },
- {
-  "t": "2026-10-02T22:13:24Z",
-  "gate": "A",
-  "subject": "Tesla has just introduced a new Supercharging safety feature called “Emergency Drive Away,” which allows you to immediat",
-  "verdict": "KILL",
-  "reason": "Spec-sheet announcement with no story spine or consequence—thin substance per §1."
- },
- {
-  "t": "2026-10-02T22:14:22Z",
-  "gate": "A",
-  "subject": "Yet another outstanding achievement by ISRO and a proud moment for our nation. The successful launch of GSLV-F17 carryin",
-  "verdict": "KILL",
-  "reason": "Thin institutional PR with zero operational detail, dramatic consequence, or human element—writer would have to pad a generic progress celebration into slides, not the wild-but-true story this audience stops to share."
- },
- {
-  "t": "2026-10-02T22:14:26Z",
-  "gate": "A",
-  "subject": "In physics, an “impedance mismatch” occurs when two systems each work well but are poorly matched. In this Science Blog ",
-  "verdict": "KILL",
-  "reason": "External academic's toolkit announcement for Science Blog audience; no news event (no household-name actor driving action, no jaw-dropping outcome), routine guide content."
- },
- {
-  "t": "2026-10-02T22:14:57Z",
-  "gate": "A",
-  "subject": "AI is all that matters for markets right now. AI infrastructure companies now account for 40% of the S&P 500’s market ca",
-  "verdict": "KILL",
-  "reason": "Market analysis content, banned as 'ON-TOPIC BUT ROUTINE'—no specific event, actor, or real-world consequence; lacks the viral-specific happening this page requires."
- },
- {
-  "t": "2026-10-02T22:31:31Z",
-  "gate": "B",
-  "subject": "EVEN <em>AI'S OWN BUILDERS</em> CAN'T READ WHAT IT WRITES",
-  "verdict": "REJECT",
-  "reason": "COVER IMAGE — fails IMAGE LAW on three independent counts. (1) THUMB TEST: the image is a scan of the ASD-STE100 Simplified Technical English specification document — a wall of tables and text. At feed size a stranger sees a confusing tech manual and cannot guess the story. (2) NO FACE: the story has a named, recognizable person (Andrej Karpathy) — doctrine mandates 'default to a human face when t"
- },
- {
   "t": "2026-10-02T22:33:34Z",
   "gate": "B",
   "subject": "EVEN <em>AI'S OWN BUILDERS</em> CAN'T READ WHAT IT WRITES",
@@ -2098,5 +1951,152 @@
   "subject": "6 SERVICES TESLA'S GLOBAL DRIVERLESS CARS <em>WILL REPLACE FOR FREE</em>",
   "verdict": "FAIL",
   "reason": "s1: The photo is cropped so tightly that the top of the subject's head is amputated, violating the photo quality standard."
+ },
+ {
+  "t": "2026-10-05T22:22:15Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk is a trillionaire again. His estimated net worth is $1.022 trillion, up $41.5 billion today as Space",
+  "verdict": "KILL",
+  "reason": "Market movement creating a wealth number on paper, not something Elon did or a real-world consequence anyone felt—the doctrine requires both an actor and an action with impact, and stock-price-correlate-net-worth-goes-up fails both; no second fact, no catalyst, no substance to build slides from."
+ },
+ {
+  "t": "2026-10-05T22:23:25Z",
+  "gate": "A",
+  "subject": "Holy sh*t, Anthropic’s subscriptions offer so much more value, even compared to the new and efficient GPT-6.1 Sol. It’s ",
+  "verdict": "KILL",
+  "reason": "This is social-media commentary comparing existing products, not a news event."
+ },
+ {
+  "t": "2026-10-05T22:23:30Z",
+  "gate": "A",
+  "subject": "Chick-fil-A is turning down artificial intelligence in its drive-thru lanes, choosing human employee interaction over au",
+  "verdict": "KILL",
+  "reason": "On-topic but routine: corporate positioning statement without a major move or felt consequence; news page needs viral-specific events, not routine business decisions about non-deployment."
+ },
+ {
+  "t": "2026-10-05T22:24:24Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk says SpaceXAI will be renamed to \"SpaceXSI\" after President Trump changed the name of \"Artificial In",
+  "verdict": "KILL",
+  "reason": "A company rebrand announcement is administrative trivia with zero real consequence—it fails the 'jaw-dropping event' standard and would not be sent between friends; the page fills this slot with the next candidate, not by lowering standards to deadline."
+ },
+ {
+  "t": "2026-10-05T22:24:26Z",
+  "gate": "A",
+  "subject": "Hark launches this week. The first 100,000 sign-ups get a paid plan for free I don't do anything without Hark anymore. T",
+  "verdict": "KILL",
+  "reason": "Unknown-brand launch teaser with no substance or demo—exactly the banned empty-preview form."
+ },
+ {
+  "t": "2026-10-05T22:24:35Z",
+  "gate": "A",
+  "subject": "Taking my 76-year-old Mom on her first Cybercab ride later this week!",
+  "verdict": "KILL",
+  "reason": "A personal anecdote about a planned car ride by a non-famous person—no news value, consequence, or buildable substance."
+ },
+ {
+  "t": "2026-10-05T22:24:43Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens: work-ethic/vocational story with no AI, tech, company, founder, investing, or space angle—§1 bans this category regardless of quality or scout interest."
+ },
+ {
+  "t": "2026-10-05T22:25:35Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk is a trillionaire again. His estimated net worth is $1.022 trillion, up $41.5 billion today as Space",
+  "verdict": "KILL",
+  "reason": "Net worth fluctuations from stock movements are routine market events, not stories with real-world consequences—this fails 'something HAPPENED' (the event is just stocks going up, which happens daily) and would nobody send to a friend thinking 'look at this incredible thing.'"
+ },
+ {
+  "t": "2026-10-05T22:25:53Z",
+  "gate": "A",
+  "subject": "Chick-fil-A is turning down artificial intelligence in its drive-thru lanes, choosing human employee interaction over au",
+  "verdict": "KILL",
+  "reason": "Source material too thin to verify the event; can't determine what actually happened or whether a QSR's automation choice qualifies as substantive tech news."
+ },
+ {
+  "t": "2026-10-05T22:26:22Z",
+  "gate": "A",
+  "subject": "Holy sh*t, Anthropic’s subscriptions offer so much more value, even compared to the new and efficient GPT-6.1 Sol. It’s ",
+  "verdict": "APPROVE",
+  "reason": "Real event (OpenAI cut usage limits on $200 plan), real numbers (5x Anthropic advantage claimed via SemiAnalysis), real actors; household-name pricing action with money-moved consequence, not reaction-bait or thin."
+ },
+ {
+  "t": "2026-10-05T22:35:36Z",
+  "gate": "B",
+  "subject": "OPENAI QUIETLY <em>HALVED ITS $200 CHATGPT PLAN</em>",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — IMAGE LAW: the cover is a raw SemiAnalysis data-chart screenshot. The doctrine says 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER' and requires 'every ELEMENT in the frame must read as photographed.' A bar chart on a dark background fails on both counts. It also has no human face (faces earn +38%), no headline overlay with textured orange accents, and the dark-background cha"
+ },
+ {
+  "t": "2026-10-05T22:38:22Z",
+  "gate": "B",
+  "subject": "ANTHROPIC GIVES <em>5X MORE THAN OPENAI</em> FOR THE SAME $200",
+  "verdict": "REJECT",
+  "reason": "COVER IS A RAW SCREENSHOT — IMAGE LAW hard ban. The image is an untransformed SemiAnalysis chart export. IMAGE LAW states explicitly: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Fix: build a photoreal collage — Dario Amodei (vendor-cast legal here, Anthropic story) in front of a giant orange Claude logo disc, with the bar gap made physical (two oversized dollar figures floating beside"
+ },
+ {
+  "t": "2026-10-05T22:40:09Z",
+  "gate": "B",
+  "subject": "ANTHROPIC GIVES <em>5X MORE THAN OPENAI</em> FOR THE SAME $200",
+  "verdict": "REJECT",
+  "reason": "COVER IS A SCREENSHOT — instant kill (§3): the cover image is a raw SemiAnalysis bar chart screenshot, which the doctrine bans explicitly ('A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER'). Fix: rebuild as a photoreal composite in the benchmark/comparison archetype — e.g., a styled card with the two brand marks (Anthropic / OpenAI) flanking giant numerals ($11,726 vs $2,084), photoreal elem"
+ },
+ {
+  "t": "2026-10-05T22:41:09Z",
+  "gate": "A",
+  "subject": "Taking my 76-year-old Mom on her first Cybercab ride later this week!",
+  "verdict": "KILL",
+  "reason": "Personal anecdote with no outcome or consequence to report—the event hasn't happened yet and writer would have to speculate rather than deliver news."
+ },
+ {
+  "t": "2026-10-05T22:41:17Z",
+  "gate": "A",
+  "subject": "Chick-fil-A is turning down artificial intelligence in its drive-thru lanes, choosing human employee interaction over au",
+  "verdict": "KILL",
+  "reason": "Non-event: a company deciding not to adopt something is not a news story—nothing changed in the world, no consequence felt, just an operational choice to maintain status quo; 'did reality move?' is the test, and reality didn't."
+ },
+ {
+  "t": "2026-10-05T22:41:41Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk is a trillionaire again. His estimated net worth is $1.022 trillion, up $41.5 billion today as Space",
+  "verdict": "KILL",
+  "reason": "Net-worth milestones from stock appreciation are market-update content explicitly banned from news slots; this lacks the real-world event or felt consequence the doctrine requires regardless of the famous name or round number."
+ },
+ {
+  "t": "2026-10-05T22:42:38Z",
+  "gate": "A",
+  "subject": "BREAKING: Elon Musk says SpaceXAI will be renamed to \"SpaceXSI\" after President Trump changed the name of \"Artificial In",
+  "verdict": "KILL",
+  "reason": "A corporate rebrand based on terminology preference is procedure, not news—no real outcome, no consequence, no second facts; would require padding and fails the 'would the owner post it' standard despite the slots-filled pressure."
+ },
+ {
+  "t": "2026-10-05T22:42:45Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lane kill per §1: vocational training scholarships have no AI/tech/founder/investing/space angle required by the page's strict lens rules."
+ },
+ {
+  "t": "2026-10-05T22:43:18Z",
+  "gate": "A",
+  "subject": "Hark launches this week. The first 100,000 sign-ups get a paid plan for free I don't do anything without Hark anymore. T",
+  "verdict": "KILL",
+  "reason": "Unknown brand's empty launch preview with no product demonstration — explicitly banned teaser format in §1 (unknown-actor rule + launch-preview-teaser ban)."
+ },
+ {
+  "t": "2026-10-05T22:56:13Z",
+  "gate": "B",
+  "subject": "CHICK-FIL-A JUST SAVED <em>EVERY DRIVE-THRU WORKER</em> FROM AI",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 HARD VIOLATION — cover_has_image is false. This format is explicitly 'single-picture post (the cover picture + the caption)'; the image is the product. The doctrine warning is unambiguous: 'the cover has NO image file — that alone violates IMAGE LAW unless zero images existed anywhere.' No image exists here. Fix: generate and attach the cover image before publish.; TRUTH LAW §5 SOURCE"
+ },
+ {
+  "t": "2026-10-05T22:57:54Z",
+  "gate": "R",
+  "subject": "CHICK-FIL-A JUST SAVED <em>EVERY DRIVE-THRU WORKER</em> FROM AI",
+  "verdict": "PASS",
+  "reason": ""
  }
 ]
