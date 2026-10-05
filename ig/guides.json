@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T13:55:47.472474+00:00",
+ "updated": "2026-10-05T15:55:52.411339+00:00",
  "guides": [
   {
    "id": "2100679992720142459",
@@ -747,37 +747,6 @@
    "video": "https://video.twimg.com/amplify_video/2102448025805488128/vid/avc1/1284x1080/gvmCUPk-G1LTDpLr.mp4?tag=29",
    "guide": true,
    "born": 1790097787.952903
-  },
-  {
-   "id": "2096249196663713957",
-   "title": "GPT-6 Astra broke the Internet just 2 days ago. People can't believe how powerful and \"intelligent\" it is. Unlocking new possibilities. 10 wild examples:",
-   "sub": "minchoi",
-   "where": "@minchoi on X",
-   "unit": "likes",
-   "selftext": "GPT-6 Astra broke the Internet just 2 days ago. People can't believe how powerful and \"intelligent\" it is. Unlocking new possibilities. 10 wild examples:",
-   "permalink": "https://x.com/minchoi/status/2096249196663713957",
-   "outlink": null,
-   "score": 1276,
-   "comments_n": 49,
-   "views": 362319,
-   "age_h": 33.9,
-   "vph": 37.7,
-   "image": null,
-   "video": null,
-   "guide": true,
-   "thread": [
-    "10. GPT-6 Astra turned a portfolio into a playable Game Boy UI",
-    "@bonsaixbt is it here? AGI?",
-    "@Tech_p001 yes it is",
-    "@naveen_saradhi_ Appears so",
-    "@DevinSoto Grok 4.7 in a week",
-    "@websterweby It really is",
-    "@AI_NEWS_00 That too",
-    "@Haydar_web3 Game development just changed forever",
-    "@TheUltronAi Yes",
-    "@JonnyJelinek Definitely getting there"
-   ],
-   "born": 1788620004.07806
   }
  ]
 }
