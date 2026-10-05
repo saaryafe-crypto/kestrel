@@ -1,131 +1,5 @@
 [
  {
-  "t": "2026-10-01T22:40:31Z",
-  "gate": "A",
-  "subject": "UPDATE: A man used the Pain steering paper to set up an AI torture chamber in which he trapped a local model. People are",
-  "verdict": "KILL",
-  "reason": "Reaction-bait: the substance is people mass-reporting online, not a real-world consequence like removal or ban; unknown actor, unverifiable claim."
- },
- {
-  "t": "2026-10-01T22:41:42Z",
-  "gate": "A",
-  "subject": "BREAKING: Jared Kushner is the largest shareholder in an Israeli firm investing in companies supplying equipment for the",
-  "verdict": "KILL",
-  "reason": "Off-lens: political conflict-of-interest story with no tech or AI relevance; wrong brand entirely for a tech/AI page."
- },
- {
-  "t": "2026-10-01T22:41:46Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 Judge officially approves Paramount's acquisition of Warner Bros for $110,000,000,000",
-  "verdict": "KILL",
-  "reason": "Unverified: a $110B acquisition would be the largest media deal in history and would break all financial news outlets globally—isolation to a single 6k-like tweet violates §5 truth law, and scout interest at 4/10 provides no exception."
- },
- {
-  "t": "2026-10-01T22:42:06Z",
-  "gate": "A",
-  "subject": "Elon Musk joined today’s State of the Force address, where War Secretary Pete Hegseth announced that Elon will co-lead P",
-  "verdict": "KILL",
-  "reason": "Off-brand political appointment lacking AI/tech angle; 4/10 scout interest below exception threshold."
- },
- {
-  "t": "2026-10-01T22:53:21Z",
-  "gate": "B",
-  "subject": "THEY GAVE AN AI A FAKE PAIN BUTTON. <em>IT KNEW.</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW HARD KILL — the cover is a raw screenshot of a tweet. The doctrine states explicitly: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER. Screenshots may appear INSIDE as receipt evidence on a styled card, never as the face of the post.' This is the face of the post. Reject regardless of every other quality.; REACTION-BAIT borderline — the core event as captioned is 'thousands floode"
- },
- {
-  "t": "2026-10-01T22:55:33Z",
-  "gate": "B",
-  "subject": "THEY GAVE AN AI A FAKE PAIN BUTTON: <em>IT KNEW.</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — SCREENSHOT AS COVER: The cover is a raw screenshot of a tweet from @Danmar_here. The Doctrine is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' This is an unconditional kill at the image level regardless of story quality.; IMAGE LAW — REACTION-BAIT COVER: The screenshot's subject is a person asking others to mass-report a GitHub post — i.e., the cover shows the crow"
- },
- {
-  "t": "2026-10-01T22:58:16Z",
-  "gate": "B",
-  "subject": "THEY GAVE AN AI A FAKE PAIN BUTTON: <em>IT KNEW.</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW — SCREENSHOT AS COVER: The cover image is a raw screenshot of a tweet from @Danmar_here. IMAGE LAW §3 states explicitly: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' This is an absolute disqualifier regardless of story quality. The cover must be rebuilt as a photoreal composite — e.g., a dramatic close-up of a person's hand hovering over a glowing red button, with a styled ov"
- },
- {
-  "t": "2026-10-01T22:59:57Z",
-  "gate": "A",
-  "subject": "Elon Musk joined today’s State of the Force address, where War Secretary Pete Hegseth announced that Elon will co-lead P",
-  "verdict": "KILL",
-  "reason": "Off-brand: military/government announcement, not AI/tech news — page identity is AI/tech NEWS, and this story has no disclosed tech angle."
- },
- {
-  "t": "2026-10-01T23:00:07Z",
-  "gate": "A",
-  "subject": "BREAKING: Jared Kushner is the largest shareholder in an Israeli firm investing in companies supplying equipment for the",
-  "verdict": "KILL",
-  "reason": "Off-brand political content with no AI/tech/space/market angle; page identity is tech news, and Kushner is a political figure, not a tech founder or company."
- },
- {
-  "t": "2026-10-01T23:00:54Z",
-  "gate": "A",
-  "subject": "JUST IN: 🇺🇸 Judge officially approves Paramount's acquisition of Warner Bros for $110,000,000,000",
-  "verdict": "KILL",
-  "reason": "Off-vertical media consolidation without tech angle; entertainment M&A belongs on business page, not tech/AI vertical—thin source and 4/10 scout interest confirm mismatch."
- },
- {
-  "t": "2026-10-01T23:20:54Z",
-  "gate": "B",
-  "subject": "JARED KUSHNER BROKERS <em>GAZA PEACE</em> AND PROFITS FROM <em>ISRAEL'S WAR</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW ABSOLUTE VIOLATION (§3): cover_has_image is false. The Doctrine is unambiguous — 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' A single-picture post with no picture is not a product. Fix: supply a photoreal cover — Kushner at the negotiating table + an Israeli military unit or investment-firm branding in frame, subject in the top t"
- },
- {
-  "t": "2026-10-01T23:24:34Z",
-  "gate": "B",
-  "subject": "JARED KUSHNER PROFITS FROM <em>THE WAR HE IS NEGOTIATING</em>",
-  "verdict": "REJECT",
-  "reason": "IMAGE LAW hard violation (§3): cover_has_image is false. The Doctrine is explicit — 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' No cover image = instant reject regardless of all other merit. Fix: supply a real press photo of Kushner (emotional register matched to the conflict-of-interest framing) composed for the top two-thirds of the fram"
- },
- {
-  "t": "2026-10-01T23:27:55Z",
-  "gate": "B",
-  "subject": "JARED KUSHNER PROFITS FROM <em>THE WAR HE IS NEGOTIATING</em>",
-  "verdict": "REJECT",
-  "reason": "§3 IMAGE LAW — cover_has_image is false. A single-image post with no image is a text-on-black card, and the doctrine is absolute: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' FIX: generate a Kushner cover using the policy/ban archetype — a real press photo of Kushner with a visual conflict-of-interest element (e.g., the firm's brand mark + "
- },
- {
-  "t": "2026-10-01T23:28:30Z",
-  "gate": "R",
-  "subject": "JARED KUSHNER PROFITS FROM <em>THE WAR HE IS NEGOTIATING</em>",
-  "verdict": "PASS",
-  "reason": ""
- },
- {
-  "gate": "A",
-  "reason": "Routine software version release with zero substance — no explanation of what Grokipedia is, what changed in v0.3, or why readers should care; classic launch-preview–empty-form the doctrine bans, not a famous-actor news event where reality moved.",
-  "subject": "Grokipedia v0.3 just released. Join @SpaceXAI if you want to create Encyclopedia Galactica!",
-  "t": "2026-10-01T20:49:53Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Empty launch preview to beta testers only — no benchmarks, no public access, no substance for slides.",
-  "subject": "Introducing Gemini 4 Argon – our new frontier model. It’s built for complex workflows across coding, enterprise knowledg",
-  "t": "2026-10-01T20:50:23Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Future product specification with no real-world consequence—qualifies as on-topic-but-routine launch preview under INSTANT KILL criteria; fails STORY LAW because nothing has actually happened in the real world yet.",
-  "subject": "Each @SpaceX Star Mind super intelligence spacecraft will have over 250kW of solar power, which is about 20% more than t",
-  "t": "2026-10-01T20:50:28Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Google deploying Gemini 4 Argon agents with real deployed consequence (300+ TiB freed, code replaced and optimized 2.7x) is a household-name lab news event meeting §1's EARNS A SLOT standard—a first-ever record of infrastructure autonomy at scale with specific numbers and real-world verification.",
-  "subject": "Google says Gemini 4 Argon agents have already freed over 300 TiB of memory across its data centers, with a 1 million to",
-  "t": "2026-10-01T20:52:29Z",
-  "verdict": "APPROVE"
- },
- {
   "gate": "B",
   "reason": "IMAGE LAW — COVER IS A SCREENSHOT OF A WEBPAGE: The attached cover image is a plain-text Google blog document screenshotted on a white background. The doctrine is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' It also has no subject, no face, no photoreal element, no product — the cover must always carry an image with a subject. Fix: commission a real cover image — Google/Sunda",
   "subject": "GOOGLE AI IS NOW REWRITING <em>THE SERVERS IT RUNS ON</em>",
@@ -2096,6 +1970,132 @@
   "t": "2026-10-04T21:37:26Z",
   "gate": "R",
   "subject": "<em>5 AI SIDE HUSTLES</em> SO GOOD THEY FEEL ILLEGAL",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-10-04T23:13:02Z",
+  "gate": "A",
+  "subject": "Always have a comma in your password, if part of a leak it will break the CSV. Follow me for more cybersecurity advice.",
+  "verdict": "AUTO_APPROVE",
+  "reason": "scout interest 8/10 — news-first fast lane"
+ },
+ {
+  "t": "2026-10-04T23:14:00Z",
+  "gate": "A",
+  "subject": "BREAKING: A passenger used @Starlink to stream 5 live college football games at once across 3 seatback screens and 2 lap",
+  "verdict": "APPROVE",
+  "reason": "Starlink's verified rollout on 500+ United planes—a Musk-tier company's major tech move—demonstrated through a passenger's outrageous action (streaming 5 games on 5 devices) with real names, real numbers, and sufficient facts for slides; this is people-beat-companies news, not routine coverage."
+ },
+ {
+  "t": "2026-10-04T23:28:54Z",
+  "gate": "B",
+  "subject": "A SECURITY TIP <em>ONLY WORKS IF YOUR HACKER USES EXCEL</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 — CRITICAL, blocks publish: cover_has_image is false. A single-picture post with no picture is not a single-picture post. The doctrine is absolute: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' Fix: supply a cover image built to the archetype for this story — the most literal proof is a styled X-card of the false tip rendered on"
+ },
+ {
+  "t": "2026-10-04T23:30:51Z",
+  "gate": "B",
+  "subject": "A VIRAL PASSWORD TIP <em>USED BY MILLIONS</em> DOES ABSOLUTELY NOTHING",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW HARD FAIL: cover_has_image is false on a format explicitly defined as a single-picture post. The Doctrine is unambiguous — 'the cover must ALWAYS carry an image with a subject; text-on-black or empty-top covers are failures.' Fix: supply a cover image — e.g., a photoreal close-up of a password field with a comma visible, or the viral tweet typeset on a styled card composited behind a rea"
+ },
+ {
+  "t": "2026-10-04T23:33:27Z",
+  "gate": "B",
+  "subject": "THE MOST SHARED PASSWORD TIP <em>DOES ABSOLUTELY NOTHING</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW HARD VIOLATION: cover_has_image is false. This is a 'single-picture post' — the cover image IS the product. §3 is unambiguous: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' The judge prompt flags this explicitly. Fix: generate a photoreal cover — a close-up of a keyboard with a password field visible and a literal comma key circled"
+ },
+ {
+  "t": "2026-10-04T23:35:17Z",
+  "gate": "A",
+  "subject": "BREAKING: A federal judge has ruled that a Tulsa, Oklahoma sheriff’s deputy violated a woman’s Fourth Amendment rights w",
+  "verdict": "KILL",
+  "reason": "This is not a move by a household-name tech actor; court rulings against unknown surveillance companies don't meet the page's news threshold."
+ },
+ {
+  "t": "2026-10-04T23:35:29Z",
+  "gate": "A",
+  "subject": "BREAKING: A passenger used @Starlink to stream 5 live college football games at once across 3 seatback screens and 2 lap",
+  "verdict": "KILL",
+  "reason": "NO SUBSTANCE — entire source is one unverified anecdote with no photo, video, or official confirmation from United or Starlink; violates TRUTH LAW that every fact be true and current."
+ },
+ {
+  "t": "2026-10-04T23:36:13Z",
+  "gate": "A",
+  "subject": "FUN FACT: 10 years ago today, Bitcoin was $612",
+  "verdict": "KILL",
+  "reason": "Bitcoin's historical price is a trivia data point, not a story event—no real-world consequence, no change in the world, nothing happened—it fails STORY LAW (a viral-specific event requires 'something HAPPENED in the real world, with a consequence someone felt')."
+ },
+ {
+  "t": "2026-10-04T23:36:28Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens: skilled-trades human-interest story with zero AI/tech/founder/investing/space connection—page identity requires one of these as the story's subject, not general inspiration."
+ },
+ {
+  "t": "2026-10-04T23:51:56Z",
+  "gate": "B",
+  "subject": "AIRPLANE WiFi BARELY LOADS, YET <em>ONE GUY STREAMED 5 GAMES</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH VIOLATION — the cover shows Elon Musk, who has zero role in this story. The protagonist is an anonymous passenger; Musk is never mentioned in the caption. The Vendor Cast exception does not apply here: it is legal only on a guide/edu post teaching the use of a named famous tool (Musk as the delighted Starlink user on a 'how to use Starlink' post). This is a news story about a stranger o"
+ },
+ {
+  "t": "2026-10-04T23:53:15Z",
+  "gate": "B",
+  "subject": "AIRPLANE WiFi BARELY LOADS, YET <em>ONE GUY STREAMED 5 GAMES</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH FAIL: The cover shows Elon Musk wearing a SpaceX shirt on an airplane — but the story's actor is an anonymous passenger ('cb_doge on X'). Musk has zero role in this event. The Vendor Cast exception (Aug 12) does not save this: that exception applies only to a post *teaching the use* of a named tool, where the CEO is cast as the delighted user. This is a news story, not a guide. Musk on "
+ },
+ {
+  "t": "2026-10-04T23:54:23Z",
+  "gate": "B",
+  "subject": "AIRPLANE WiFi BARELY LOADS, YET <em>ONE GUY STREAMED 5 GAMES</em>",
+  "verdict": "REJECT",
+  "reason": "CAST TRUTH FAIL: The cover shows Elon Musk, who has zero role in this story. The protagonist is an anonymous passenger ('cb_doge on X'). The Vendor Cast exception does not apply here — it is explicitly limited to guide/education posts teaching the use of a named famous tool ('a post teaching the use of a named famous tool, that tool's own famous CEO cast as the tool's delighted user'). This is a n"
+ },
+ {
+  "t": "2026-10-04T23:55:56Z",
+  "gate": "A",
+  "subject": "BREAKING: A federal judge has ruled that a Tulsa, Oklahoma sheriff’s deputy violated a woman’s Fourth Amendment rights w",
+  "verdict": "APPROVE",
+  "reason": "A federal court ruling establishing Fourth Amendment protection against police using Flock Safety without warrants is a real legal precedent where reality moved, qualifying as news; the Sep 1 calibration teaches not to kill lawsuits or real-world legal consequences just because the source tweet is short."
+ },
+ {
+  "t": "2026-10-04T23:56:10Z",
+  "gate": "A",
+  "subject": "FUN FACT: 10 years ago today, Bitcoin was $612",
+  "verdict": "KILL",
+  "reason": "Bitcoin price anniversary lacks a news event with real consequences; the page's standard requires stories where reality moved, not historical anniversaries."
+ },
+ {
+  "t": "2026-10-05T00:10:51Z",
+  "gate": "B",
+  "subject": "COPS ILLEGALLY TRACKED <em>WHERE YOUR CAR WENT</em> FOR YEARS",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW HARD VIOLATION — cover_has_image is false. The Doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a single-picture post whose one image slot is empty. Fix: generate and attach a photoreal cover — Flock Safety pole-mounted camera on a real street, or a cop in uniform beside a license-plate reader, with the s"
+ },
+ {
+  "t": "2026-10-05T00:12:30Z",
+  "gate": "B",
+  "subject": "COPS ILLEGALLY TRACKED <em>WHERE YOUR CAR WENT</em> FOR YEARS",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW hard fail (§3): cover_has_image is false on a post whose entire format is 'cover picture + caption.' §3 is explicit — 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' Fix: supply a photoreal cover — a Flock Safety pole-mounted camera with a license plate readable in frame, or a police cruiser + camera-lens composite. The image must pr"
+ },
+ {
+  "t": "2026-10-05T00:13:56Z",
+  "gate": "B",
+  "subject": "COPS ILLEGALLY TRACKED <em>WHERE YOUR CAR WENT</em> FOR YEARS",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW — CRITICAL: cover_has_image is false. The Doctrine is absolute: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a single-picture post; the image IS the product. Fix: attach a real photo — a police officer at a patrol car terminal, a Flock Safety pole-mounted camera on a street, or a courthouse exterior — subject composed full"
+ },
+ {
+  "t": "2026-10-05T00:14:11Z",
+  "gate": "R",
+  "subject": "COPS ILLEGALLY TRACKED <em>WHERE YOUR CAR WENT</em> FOR YEARS",
   "verdict": "PASS",
   "reason": ""
  }

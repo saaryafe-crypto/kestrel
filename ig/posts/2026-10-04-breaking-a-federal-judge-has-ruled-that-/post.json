@@ -1,0 +1,83 @@
+{
+ "image_brief": "Automated license plate reader camera mounted on a street pole scanning the license plate of a passing car",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "COPS ILLEGALLY TRACKED <em>WHERE YOUR CAR WENT</em> FOR YEARS",
+   "kicker": "THOUSANDS OF CITIES USE THESE CAMERAS",
+   "hsize": 80,
+   "media": null
+  }
+ ],
+ "caption": "A federal judge just ruled police need a warrant to look up your license plate in surveillance cameras. \ud83d\ude97\n\nA Tulsa sheriff's deputy looked up a woman's license plate in the Flock Safety camera network without a warrant. A federal judge ruled that's unconstitutional, police cannot track your car without a warrant. Flock Safety cameras are in thousands of cities across America, which means your car's movements may have been tracked illegally every time a cop ran your plates without a warrant. Police bought these cameras to catch criminals, and a judge just ruled the cops were the ones breaking constitutional law the whole time.\n\nIf this holds, police nationwide will need warrants before any plate search, or risk cases getting thrown out.\n\nRunning a business? DM us 'AI' and we'll show you what this means for you.\n\nSources: unusual_whales on X\n\n#privacy #FourthAmendment #surveillance #AI #technology",
+ "pinned_comment": "The wild part: every cop who ran someone's plates in a Flock Safety database without a warrant may have been committing an unconstitutional search the whole time. That is thousands of cities worth of potentially invalid cases.",
+ "hook_tournament": {
+  "story_type": "threat",
+  "candidates": [
+   "POLICE RUNNING YOUR PLATE <em>WITHOUT A WARRANT JUST BECAME ILLEGAL</em>",
+   "COPS HAVE BEEN <em>VIOLATING YOUR RIGHTS</em> WITH PLATE CAMERAS FOR YEARS",
+   "POLICE CAMERAS IN <em>THOUSANDS OF CITIES</em> TRACKED YOUR DRIVES <em>ILLEGALLY</em>",
+   "YOUR CAR'S LOCATION DATA JUST BECAME <em>PROTECTED BY THE CONSTITUTION</em>",
+   "<em>YOUR LICENSE PLATE</em> JUST GOT FOURTH AMENDMENT PROTECTION",
+   "A JUDGE JUST RULED <em>YOUR LICENSE PLATE REQUIRES A WARRANT</em>",
+   "<em>A JUDGE JUST RULED</em> COPS NEED A WARRANT FOR YOUR PLATES",
+   "POLICE HAVE BEEN <em>TRACKING YOUR CAR WITHOUT A WARRANT</em>",
+   "<em>POLICE CAMERAS</em> JUST BECAME UNCONSTITUTIONAL WITHOUT A WARRANT",
+   "<em>POLICE JUST LOST THE RIGHT</em> TO TRACK YOUR PLATES"
+  ],
+  "scores": [
+   9,
+   6,
+   2,
+   8,
+   7,
+   8,
+   8,
+   5,
+   7,
+   9
+  ],
+  "winner": 0,
+  "why": "[0]'s 'became illegal' is more explicit and urgent than [9]'s 'lost the right.' Both hook instantly, but the specific legal action (plate searches without warrant now illegal) beats the abstract consequence for someone scrolling at 2am."
+ },
+ "hook_sharpen": {
+  "story_type": "threat",
+  "candidates": [
+   "A JUDGE JUST RULED COPS <em>CAN'T TRACK WHERE YOU DRIVE</em>",
+   "POLICE RUNNING YOUR PLATE <em>WITHOUT A WARRANT JUST BECAME ILLEGAL</em>",
+   "COPS ILLEGALLY TRACKED <em>WHERE YOUR CAR WENT</em> FOR YEARS",
+   "POLICE TRACKED YOUR CAR FOR YEARS <em>AND IT WAS ILLEGAL</em>"
+  ],
+  "scores": [
+   7,
+   8,
+   8.5,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] hits harder by revealing years of tracking as personal violation; [1]'s legal announcement about a specific practice feels procedurally important but lacks the shock that stops a 2am scroller."
+ },
+ "viral": {
+  "story_type": "threat",
+  "actor": "Tulsa County Sheriff's Deputy / Flock Safety",
+  "actor_known": false,
+  "anchor": "police license plate cameras",
+  "specifics": [
+   "Federal judge ruled the warrantless license plate search violated the Fourth Amendment",
+   "Flock Safety cameras are deployed in thousands of cities across the U.S.",
+   "A sheriff's deputy \u2014 not a detective, not federal law enforcement \u2014 triggered this constitutional ruling with a routine database check",
+   "The ruling sets a precedent that your car's movements tracked by private camera networks may require a warrant to access",
+   "234,400 people viewed the breaking post within hours of the ruling"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: A federal judge has ruled that a Tulsa, Oklahoma sheriff\u2019s deputy violated a woman\u2019s Fourth Amendment rights when using Flock Safety to search for her license plate without a warrant.",
+  "link": "https://x.com/unusual_whales/status/2106522516827386131",
+  "judge_interest": 7,
+  "scout_score": 79.6
+ },
+ "editor_override": "IMAGE LAW \u2014 CRITICAL: cover_has_image is false. The Doctrine is absolute: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' This is a single-picture post; the image IS the product. Fix: attach a real photo \u2014 a police officer at a patrol car terminal, a Flock Safety pole-mounted camera on a street, or a courthouse exterior \u2014 subject composed full"
+}
