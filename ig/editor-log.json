@@ -1,19 +1,5 @@
 [
  {
-  "t": "2026-10-02T06:57:13Z",
-  "gate": "A",
-  "subject": "We are living in the craziest time: Carter Church used GPT-6 Astra to decipher a 217-year-old letter to one of Napoleon’",
-  "verdict": "APPROVE",
-  "reason": "Real person solved a 217-year-old historical cipher using AI with verifiable outcome (Cryptiana listing); fits the 'people doing' archetype the page prioritizes, has substance and numbers, and passes the jaw-dropping test—this is the kind of 'look what AI actually accomplished in reality' story the page exists to tell."
- },
- {
-  "t": "2026-10-02T06:57:18Z",
-  "gate": "A",
-  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
-  "verdict": "KILL",
-  "reason": "Off-lens: Human-interest scholarship narrative with no AI, tech, founder, investing, or space angle."
- },
- {
   "t": "2026-10-02T06:57:57Z",
   "gate": "A",
   "subject": "These new hands are the perfect companion for Atlas. With 13 degrees of freedom, they are directly actuated, built for h",
@@ -2098,5 +2084,19 @@
   "subject": "SPACEX JUST REACHED THE ISS <em>FASTER THAN A LONDON FLIGHT</em>",
   "verdict": "FAIL",
   "reason": "s1: The bottom half of the split image is a near-black, murky interior shot of the Dragon capsule that obscures detail and kills the energy of the slide; the overall composition feels dark and underexposed rather than the bright, saturated press-photo standard required."
+ },
+ {
+  "t": "2026-10-05T21:21:59Z",
+  "gate": "B",
+  "subject": "6 SERVICES TESLA'S GLOBAL DRIVERLESS CARS <em>WILL REPLACE FOR FREE</em>",
+  "verdict": "REJECT",
+  "reason": "TRUTH VIOLATION IN HOOK — 'FOR FREE' is factually false. The caption itself states Robotaxi costs $27/ride. Calling a $27 ride 'free' is a fabricated claim, not a compressed one. Rewrite to the real angle: e.g., '6 SERVICES TESLA'S $27 DRIVERLESS CAR JUST UNDERCUT' or drop 'FOR FREE' entirely and anchor on the price gap.; HOOK-CONTENT MISMATCH / COVER CONTRACT BROKEN — The hook promises '6 SERVICE"
+ },
+ {
+  "t": "2026-10-05T21:22:54Z",
+  "gate": "R",
+  "subject": "6 SERVICES TESLA'S GLOBAL DRIVERLESS CARS <em>WILL REPLACE FOR FREE</em>",
+  "verdict": "FAIL",
+  "reason": "s1: The photo is cropped so tightly that the top of the subject's head is amputated, violating the photo quality standard."
  }
 ]
