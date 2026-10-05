@@ -1,40 +1,5 @@
 [
  {
-  "gate": "A",
-  "reason": "Google released Gemini 4 Argon today—household-name lab model release qualifies under NEWS PAGE FIRST protection; multiple sources confirm as day's real news.",
-  "subject": "Introducing Gemini 4 Argon – our new frontier model. It’s built for complex workflows across coding, enterprise knowledg",
-  "t": "2026-10-02T00:41:46Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW FAIL — the cover is a brand gradient design: blue blurred background, a stylized white '4', the Gemini logo lockup. Zero photoreal elements, zero human face, zero visual proof of 'fighting back against hackers.' The thumb test fails completely — a stranger at feed size sees a product announcement graphic, not an AI cybersecurity story. Per §3, every element must read as photographed. Rep",
-  "subject": "GOOGLE BUILT AN AI <em>FIGHTING BACK AGAINST AI HACKERS</em>",
-  "t": "2026-10-02T00:59:20Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "scout interest 8/10 — news-first fast lane",
-  "subject": "JUST IN: 🇺🇸 Judge officially approves Paramount's acquisition of Warner Bros for $110,000,000,000",
-  "t": "2026-10-02T01:01:25Z",
-  "verdict": "AUTO_APPROVE"
- },
- {
-  "gate": "A",
-  "reason": "The announcement is too vague to establish substance—without knowing what Project Meridian actually is or what the role specifically entails, there's no clear consequence to support a story or pass the so-what test.",
-  "subject": "Elon Musk joined today’s State of the Force address, where War Secretary Pete Hegseth announced that Elon will co-lead P",
-  "t": "2026-10-02T01:02:29Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW FAIL — cover doesn't prove the headline. The hook promises 'SWALLOWED WARNER BROS' but the cover shows only the Paramount mountain logo: no Warner Bros shield, no Batman, no HBO mark, nothing that says acquisition. A feed stranger sees a Paramount branded image, not a takeover. Fix: composite both brand marks in one frame — Paramount logo dominant, Warner Bros shield visibly absorbed ben",
-  "subject": "PARAMOUNT JUST SWALLOWED <em>WARNER BROS FOR $110 BILLION</em>",
-  "t": "2026-10-02T01:17:18Z",
-  "verdict": "REJECT"
- },
- {
   "gate": "B",
   "reason": "Caption repeats the franchise-consolidation fact three times across three paragraphs: P1 names Batman/HBO/Harry Potter under one owner, P2 lists Batman/Harry Potter/HBO/DC/SpongeBob/Mission Impossible under one company, and P3 lists DC/HBO/Harry Potter/SpongeBob/Mission Impossible again with 'no single entertainment company has ever owned before.' Every paragraph says the same thing in a different",
   "subject": "PARAMOUNT JUST SWALLOWED <em>WARNER BROS FOR $110 BILLION</em>",
@@ -2096,6 +2061,41 @@
   "t": "2026-10-05T03:30:06Z",
   "gate": "R",
   "subject": "5 FREE GEMINI CAMERA TRICKS <em>MOST PAID APPS CHARGE FOR</em>",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ {
+  "t": "2026-10-05T06:52:21Z",
+  "gate": "B",
+  "subject": "WHAT JUST HAPPENED IN <em>AI</em> TODAY?",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW FAILURE — the cover is an abstract orange particle-streak on a near-black background with no subject. The law is explicit on both counts: 'The cover must ALWAYS carry an image with a subject' and 'Text-on-black or empty-top covers are failures.' An abstract light-burst is decoration, not proof of any story on the page. Fix: replace with a photoreal news-collage proving one of today's lea"
+ },
+ {
+  "t": "2026-10-05T06:54:37Z",
+  "gate": "B",
+  "subject": "AI NEWS: COURTS, JOBS, AND A <em>SPACE RECORD</em>",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW FAIL — empty-top, no subject: The cover is text on near-black with a CGI particle burst in the upper half. That particle effect is a digital render, not a photograph — it has no human face, no real product, no story proof. The doctrine is explicit: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures,' and 'every ELEMENT in the frame must r"
+ },
+ {
+  "t": "2026-10-05T06:56:32Z",
+  "gate": "B",
+  "subject": "A JUDGE RULED <em>AI TRACKING WITHOUT A WARRANT</em> IS ILLEGAL",
+  "verdict": "REJECT",
+  "reason": "COVER IMAGE — not photoreal: the background subject is an abstract CGI/digital particle burst, which reads as digital art or a concept render, not a photograph. The doctrine requires every element in the frame to read as photographed. Replace it with a real photoreal element that proves the lead headline — a real courthouse exterior, a real Flock Safety license-plate camera mounted on a pole, or a"
+ },
+ {
+  "t": "2026-10-05T06:58:15Z",
+  "gate": "B",
+  "subject": "A JUDGE RULED <em>AI TRACKING WITHOUT A WARRANT</em> IS ILLEGAL",
+  "verdict": "REJECT",
+  "reason": "IMAGE LAW §3 — TEXT-ON-BLACK COVER IS AN EXPLICIT FAILURE: The cover is black void with a decorative orange particle burst and giant type. The doctrine names this directly: 'Text-on-black or empty-top covers are failures.' There is no subject, no person, no product, no scene — pure decoration over a dark void. Fix: replace with a photoreal composite matching the policy/ban archetype — a judge or c"
+ },
+ {
+  "t": "2026-10-05T06:58:23Z",
+  "gate": "R",
+  "subject": "A JUDGE RULED <em>AI TRACKING WITHOUT A WARRANT</em> IS ILLEGAL",
   "verdict": "PASS",
   "reason": ""
  }

@@ -1,0 +1,32 @@
+{
+ "stories": [
+  {
+   "headline": "Federal judge rules AI license plate scan violated Fourth Amendment"
+  },
+  {
+   "headline": "AI created 750,000 new US jobs since 2023 at 180K median salary"
+  },
+  {
+   "headline": "SpaceX docked at ISS in record 7 hours 55 minutes"
+  },
+  {
+   "headline": "Starlink now live on 500-plus United Airlines flights"
+  },
+  {
+   "headline": "US debt crossed 100 percent of GDP for first time since World War 2"
+  }
+ ],
+ "caption": "Here's what happened in AI and tech in the last 24 hours, from a court ruling against AI surveillance to 750,000 new jobs created by AI in the US \ud83d\udc47\n\nA federal judge ruled a Tulsa sheriff's deputy violated a woman's Fourth Amendment rights by using Flock Safety's AI license plate scanner to track her, no warrant.\nAI has created 750,000+ new US jobs since 2023, per LinkedIn. Data annotators lead at 282,000 new roles. Median AI salary: $180,000.\nSpaceX set a US record, Dragon docked at the ISS in 7 hours and 55 minutes with four Crew-13 astronauts. NASA called it the fastest US spacecraft docking in ISS history.\nUnited Airlines now runs Starlink on 500+ planes. One passenger streamed 5 live college football games at once from a single exit row.\nUS national debt crossed 100% of GDP for the first time since World War 2.\n\nCourts, jobs, and debt, AI is in all of it now. The law is only just starting to catch up to what the tools can already do. Running a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: Flock Safety court ruling, LinkedIn, NASA, SpaceX, US Treasury.\n\n#ArtificialIntelligence #AINews #Tech #TechNews #AI",
+ "pinned_comment": "Should police need a warrant before running your plate through an AI surveillance system, or does driving on a public road mean you've already given up that privacy?",
+ "slides": [
+  {
+   "type": "cover",
+   "hsize": 62,
+   "headline": "A JUDGE RULED <em>AI TRACKING WITHOUT A WARRANT</em> IS ILLEGAL",
+   "kicker": "THE DAILY RECAP"
+  }
+ ],
+ "handle": "@yaffeai",
+ "container": "daily_recap",
+ "editor_override": "IMAGE LAW \u00a73 \u2014 TEXT-ON-BLACK COVER IS AN EXPLICIT FAILURE: The cover is black void with a decorative orange particle burst and giant type. The doctrine names this directly: 'Text-on-black or empty-top covers are failures.' There is no subject, no person, no product, no scene \u2014 pure decoration over a dark void. Fix: replace with a photoreal composite matching the policy/ban archetype \u2014 a judge or c"
+}
