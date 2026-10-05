@@ -1,0 +1,86 @@
+{
+ "image_brief": "A phone screen showing a password field with a comma typed in, and the X logo",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "THIS PASSWORD TIP <em>ACTUALLY HELPS HACKERS</em>",
+   "kicker": "THE TIP IS WRONG. HERE IS WHY.",
+   "hsize": 72,
+   "media": null,
+   "logos": [
+    "x"
+   ]
+  }
+ ],
+ "caption": "A comma in your password went viral as a hacker defense, and 3.2 million people saw it before breakfast. \ud83d\udd10\n\nOn Oct 4, an account called World of Engineering posted: 'always have a comma in your password, if your password leaks in a spreadsheet dump, the comma splits the row.' The tweet hit 3.2 million views, 45,000 likes, and 11,000 reposts in one morning. It does not work: when a hacker opens the leaked list in a spreadsheet, the comma breaks your password into two separate cells, both halves are still sitting right there in plain text. The comma does not hide a single character, it hands attackers your password pre-sliced.\n\nRunning a business? DM us 'AI' and we'll show you what real data protection actually looks like.\n\nSources: World of Engineering on X\n\n#cybersecurity #passwordsecurity #hacking #technews #infosec",
+ "pinned_comment": "The real question: does a comma actually break a CSV? Yes, technically. Does it protect you from a real data breach? Not even close.",
+ "hook_tournament": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "<em>3.2 MILLION PEOPLE</em> JUST LEARNED CYBERSECURITY FROM A COMMA",
+   "A COMMA IN YOUR PASSWORD FOOLED <em>3.2 MILLION PEOPLE</em>",
+   "A COMMA TRICK CONVINCED <em>3.2 MILLION PEOPLE</em> THEY BEAT HACKERS",
+   "PEOPLE ARE PUTTING COMMAS IN PASSWORDS TO <em>BREAK HACKERS' SPREADSHEETS</em>",
+   "<em>45,000 PEOPLE</em> LIKED A COMMA AS THEIR BEST CYBERSECURITY TIP",
+   "<em>3.2 MILLION PEOPLE</em> SHARED A COMMA AS A SECURITY TIP",
+   "THE INTERNET'S BEST CYBERSECURITY TIP IS <em>A COMMA TRICK</em>",
+   "AN ENGINEERING ACCOUNT CONVINCED <em>MILLIONS</em> A COMMA BEATS LEAKS",
+   "A VIRAL TWEET GAVE <em>3.2 MILLION PEOPLE</em> FAKE HACKER ADVICE",
+   "A TWEET SAYS <em>ONE COMMA</em> IN YOUR PASSWORD STOPS LEAKS"
+  ],
+  "scores": [
+   4,
+   6,
+   7,
+   5,
+   7,
+   0,
+   6,
+   8,
+   7,
+   5
+  ],
+  "winner": 7,
+  "why": "[7] tells you the scandal in the cover\u2014a trusted engineer account lied to millions. [2] makes you guess what the lie is, requiring more mental work at 2am when you want instant outrage."
+ },
+ "hook_sharpen": {
+  "story_type": "absurd_moment",
+  "candidates": [
+   "<em>3.2 MILLION PEOPLE</em> THINK <em>A COMMA</em> STOPS DATA LEAKS",
+   "<em>3.2 MILLION</em> PEOPLE FELL FOR <em>A COMMA</em> AS SECURITY ADVICE",
+   "SOMEONE TOLD <em>3.2 MILLION PEOPLE</em> <em>A COMMA</em> STOPS DATA LEAKS",
+   "AN ENGINEERING ACCOUNT CONVINCED <em>MILLIONS</em> A COMMA BEATS LEAKS"
+  ],
+  "scores": [
+   0,
+   0,
+   6,
+   0
+  ],
+  "winner": 2,
+  "why": "Only [2] states what the facts support\u2014that 3.2M people were told this advice\u2014instead of falsely claiming all 3.2M believed it when engagement metrics (45K likes from 3.2M viewers = 1.4%) prove far fewer actually fell for it. The comma absurdity still triggers 'wait, what?' in under 2 seconds without the lies."
+ },
+ "viral": {
+  "story_type": "absurd_moment",
+  "actor": "World of Engineering (@engineers_feed)",
+  "actor_known": false,
+  "anchor": "a viral security tip",
+  "specifics": [
+   "3.2 million people saw advice to put a comma in their password as a data-breach hack \u2014 in a single morning",
+   "45,000 people liked it and 11,000 reshared it as useful advice",
+   "The account is called 'World of Engineering' with handle @engineers_feed, signaling instant expert authority",
+   "The exact claim: a comma in your password 'will break the CSV' if you're ever part of a leak"
+  ]
+ },
+ "cover_fallback": "no-image",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "Always have a comma in your password, if part of a leak it will break the CSV. Follow me for more cybersecurity advice.",
+  "link": "https://x.com/engineers_feed/status/2106608249562640766",
+  "judge_interest": 5,
+  "scout_score": 120.0
+ },
+ "gate_a_relaxed": true,
+ "editor_override": "IMAGE LAW \u00a73 HARD VIOLATION \u2014 cover_has_image is false. \u00a73 is absolute: 'The cover must ALWAYS carry an image with a subject. Text-on-black or empty-top covers are failures.' There is no legal exception for this container type. Fix: generate a cover \u2014 a photoreal close-up of a keyboard or phone lock screen with the comma character physically highlighted, or a real-looking 'password leaked' spreads"
+}

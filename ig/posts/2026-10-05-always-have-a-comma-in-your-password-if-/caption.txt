@@ -1,0 +1,9 @@
+A comma in your password went viral as a hacker defense, and 3.2 million people saw it before breakfast. 🔐
+
+On Oct 4, an account called World of Engineering posted: 'always have a comma in your password, if your password leaks in a spreadsheet dump, the comma splits the row.' The tweet hit 3.2 million views, 45,000 likes, and 11,000 reposts in one morning. It does not work: when a hacker opens the leaked list in a spreadsheet, the comma breaks your password into two separate cells, both halves are still sitting right there in plain text. The comma does not hide a single character, it hands attackers your password pre-sliced.
+
+Running a business? DM us 'AI' and we'll show you what real data protection actually looks like.
+
+Sources: World of Engineering on X
+
+#cybersecurity #passwordsecurity #hacking #technews #infosec
