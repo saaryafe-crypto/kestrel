@@ -1,89 +1,5 @@
 [
  {
-  "gate": "B",
-  "reason": "IMAGE FAILS THUMB TEST — the cover shows only the Paramount logo against a sunset mountain. The headline promises a TWO-company story ('Paramount swallowed WARNER BROS'), but a stranger scrolling at feed speed sees one company's branding with zero trace of Warner Bros. The Warner Bros shield must appear in the composite — being absorbed under the Paramount mountain, or the two marks side-by-side —",
-  "subject": "PARAMOUNT JUST SWALLOWED <em>WARNER BROS FOR $110 BILLION</em>",
-  "t": "2026-10-02T01:22:21Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "A",
-  "reason": "Reaction-bait with unknown actors and no stated consequence — the substance is 'people reported something online' rather than what actually happened or changed in the world, and a one-sentence source with no second fact, numbers, or outcome makes it impossible to build slides from.",
-  "subject": "UPDATE: A man used the Pain steering paper to set up an AI torture chamber in which he trapped a local model. People are",
-  "t": "2026-10-02T01:23:18Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Government appointment news, not tech/AI; falls outside the page's required lenses.",
-  "subject": "Elon Musk joined today’s State of the Force address, where War Secretary Pete Hegseth announced that Elon will co-lead P",
-  "t": "2026-10-02T01:23:32Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Off-lens: a vocational-training story with zero connection to AI, technology, a tech company/founder, investing, or space technology—the page's approved lens subjects.",
-  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
-  "t": "2026-10-02T01:24:00Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "One-line product announcement with no demonstration, numbers, or MAJOR MOVE event — fails to meet the household-name threshold that requires actual release/demonstration of significant impact, not a routine version bump.",
-  "subject": "Grokipedia v0.3 just released. Join @SpaceXAI if you want to create Encyclopedia Galactica!",
-  "t": "2026-10-02T01:24:41Z",
-  "verdict": "KILL"
- },
- {
-  "gate": "A",
-  "reason": "Google releasing agents actively optimizing production infrastructure with concrete measured results is substantive major-lab news where reality demonstrably moved.",
-  "subject": "Google says Gemini 4 Argon agents have already freed over 300 TiB of memory across its data centers, with a 1 million to",
-  "t": "2026-10-02T01:25:46Z",
-  "verdict": "APPROVE"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW — COVER IS A SCREENSHOT: The cover image is a screenshot of a Google blog/document page ('Changing how we work and build at Google' with bullet-point text on a white background). The doctrine is absolute: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' Replace with a photoreal cover — Sundar Pichai (vendor-cast legal for a Gemini story) against a Google/code-world background wit",
-  "subject": "GOOGLE AI JUST BEAT HUMANS AT CODING BY <em>2.7X</em>",
-  "t": "2026-10-02T01:42:04Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "IMAGE LAW — COVER IS A SCREENSHOT: The cover image is a plain white webpage screenshot of Google's blog post (bullet-point text on white background). The Doctrine is explicit: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' This is a hard rule with no exceptions. Fix: replace with a photoreal composite — Sundar Pichai (vendor-cast legal here as a Google/Gemini story) + oversized Google/Ge",
-  "subject": "GOOGLE AI JUST BEAT HUMANS AT CODING BY <em>2.7X</em>",
-  "t": "2026-10-02T01:43:12Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
-  "reason": "COVER IMAGE IS A SCREENSHOT — hard ban, §3: 'A SCREENSHOT OF AN APP/UI/TWEET/MEME IS NEVER A COVER.' The attached image is a plain screenshot of Google's internal blog page: white background, black body text, bullet points. Zero photoreal elements, zero visual subject, zero human face. At feed size this renders as an unreadable wall of tiny type — a stranger scrolling past has no idea what the sto",
-  "subject": "GOOGLE AI JUST BEAT HUMANS AT CODING BY <em>2.7X</em>",
-  "t": "2026-10-02T01:44:39Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "R",
-  "reason": "s1: The background is a raw full-bleed screenshot of a Google blog/document page, which violates the Screenshot Law regardless of the text overlay quality.",
-  "subject": "GOOGLE AI JUST BEAT HUMANS AT CODING BY <em>2.7X</em>",
-  "t": "2026-10-02T01:44:57Z",
-  "verdict": "FAIL"
- },
- {
-  "t": "2026-10-02T06:56:22Z",
-  "gate": "A",
-  "subject": "The nation owes a debt to @JGebbia and his excellent team. They worked incredibly hard, with no compensation, to make go",
-  "verdict": "KILL",
-  "reason": "Reaction-bait without a real event: Elon's praise tweet describes no actual work, no outcome, and no real-world consequence—just engagement metrics; the underlying action (if one exists) is unspecified and unsourced."
- },
- {
-  "t": "2026-10-02T06:56:31Z",
-  "gate": "A",
-  "subject": "Elon Musk joined today’s State of the Force address, where War Secretary Pete Hegseth announced that Elon will co-lead P",
-  "verdict": "KILL",
-  "reason": "Off-brand for AI/tech news page—military/political appointment story with no clear technology or AI substance; source too thin to build slides."
- },
- {
   "t": "2026-10-02T06:57:13Z",
   "gate": "A",
   "subject": "We are living in the craziest time: Carter Church used GPT-6 Astra to decipher a 217-year-old letter to one of Napoleon’",
@@ -2098,5 +2014,89 @@
   "subject": "Dear Hindus, I knew very little about your religion. I was so immersed in studying the Abrahamic faiths because I’m insa",
   "verdict": "KILL",
   "reason": "No news event—personal religious reflection from an unknown actor with no real-world consequence, completely off-brand for a tech/AI news page."
+ },
+ {
+  "t": "2026-10-05T19:13:03Z",
+  "gate": "A",
+  "subject": "Once in a while you stumble upon true weapons-grade autism that makes everyone else look like LARPers. Incredible work.",
+  "verdict": "KILL",
+  "reason": "No substance: the entire source is one thin tweet that doesn't name what work it's praising, who made it, or why it matters—just vague online praise with an unknown actor, failing §1's INSTANT KILL tests on 'no substance' and 'unknown actor as the story.'"
+ },
+ {
+  "t": "2026-10-05T19:13:20Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lens: a trades-scholarship human-interest story with zero connection to AI, tech, founder moves, investing, or space—the page's core identity is tech news first."
+ },
+ {
+  "t": "2026-10-05T19:13:37Z",
+  "gate": "A",
+  "subject": "Tesla’s Robotaxi app is now available to download on the Apple App Store and Google Play Store in many more countries ar",
+  "verdict": "KILL",
+  "reason": "Routine app-expansion announcement without a major move (model release, lawsuit, CEO change, acquisition, outage, ban) warranting news coverage — fits ON-TOPIC BUT ROUTINE kill criterion despite Tesla being household-name actor; 12-year-old would not stop mid-scroll or share to friend."
+ },
+ {
+  "t": "2026-10-05T19:14:31Z",
+  "gate": "A",
+  "subject": "BREAKING: SpaceX now holds all 5 fastest U.S. launch-to-docking times at the International Space Station. 🇺🇸 • Crew-13: ",
+  "verdict": "KILL",
+  "reason": "Routine speed record on existing capability; does not meet the jaw-dropping standard or constitute a reality-moved event."
+ },
+ {
+  "t": "2026-10-05T19:15:01Z",
+  "gate": "A",
+  "subject": "Once in a while you stumble upon true weapons-grade autism that makes everyone else look like LARPers. Incredible work.",
+  "verdict": "KILL",
+  "reason": "Pure reaction-bait: the entire 'story' is people liking a vague compliment tweet with no subject, no actor, no outcome, and no real-world consequence—the event is engagement metrics themselves, not anything that happened."
+ },
+ {
+  "t": "2026-10-05T19:15:16Z",
+  "gate": "A",
+  "subject": "A couple years ago, Mikala Sposito applied for a work ethic scholarship from my foundation. She asked for $2,700.00 to h",
+  "verdict": "KILL",
+  "reason": "Off-lane per strict rule: this is vocational-education inspiration with no AI, tech, company, founder, or investing angle—the page covers tech/AI news, not work-ethic stories."
+ },
+ {
+  "t": "2026-10-05T19:15:38Z",
+  "gate": "A",
+  "subject": "Tesla’s Robotaxi app is now available to download on the Apple App Store and Google Play Store in many more countries ar",
+  "verdict": "KILL",
+  "reason": "App store expansion without real consequence is routine operational news, not story."
+ },
+ {
+  "t": "2026-10-05T19:16:19Z",
+  "gate": "A",
+  "subject": "BREAKING: SpaceX now holds all 5 fastest U.S. launch-to-docking times at the International Space Station. 🇺🇸 • Crew-13: ",
+  "verdict": "APPROVE",
+  "reason": "SpaceX's monopoly on 5 fastest docking records meets §1 'record' criterion from household-name actor; operational-dominance angle (SpaceX owns the entire podium) is substantive."
+ },
+ {
+  "t": "2026-10-05T19:34:49Z",
+  "gate": "B",
+  "subject": "SPACEX JUST REACHED THE ISS <em>FASTER THAN A LONDON FLIGHT</em>",
+  "verdict": "REJECT",
+  "reason": "EMOJI IN CAPTION (§7 hard ban): The 🚀 after the first sentence is an explicit violation — 'no emojis' is listed verbatim in the Human Voice Law. Delete it.; TOP-TWO-THIRDS COMPOSITION FAILURE (§3, permanent law): The collage stacks launch pad (top 50%) over Dragon docking (bottom 50%). The docking footage is the story's primary proof — the moment the ISS record was set — and it sits squarely in th"
+ },
+ {
+  "t": "2026-10-05T19:37:42Z",
+  "gate": "B",
+  "subject": "SPACEX JUST REACHED THE ISS <em>FASTER THAN A LONDON FLIGHT</em>",
+  "verdict": "REJECT",
+  "reason": "Top-two-thirds law violation: the Dragon docking at ISS — the only image proof that the ship actually *arrived* in record time — sits in the bottom half of the two-panel split, squarely in the text-overlay band where the headline and kicker will render over it. The top two-thirds shows only the pre-launch rocket on the pad, which proves SpaceX launched but not that it broke a speed record to the s"
+ },
+ {
+  "t": "2026-10-05T19:39:47Z",
+  "gate": "B",
+  "subject": "SPACEX JUST REACHED THE ISS <em>FASTER THAN A LONDON FLIGHT</em>",
+  "verdict": "APPROVE",
+  "reason": ""
+ },
+ {
+  "t": "2026-10-05T19:40:03Z",
+  "gate": "R",
+  "subject": "SPACEX JUST REACHED THE ISS <em>FASTER THAN A LONDON FLIGHT</em>",
+  "verdict": "FAIL",
+  "reason": "s1: The bottom half of the split image is a near-black, murky interior shot of the Dragon capsule that obscures detail and kills the energy of the slide; the overall composition feels dark and underexposed rather than the bright, saturated press-photo standard required."
  }
 ]

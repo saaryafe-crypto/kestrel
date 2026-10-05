@@ -1,0 +1,80 @@
+{
+ "media_idx": 1,
+ "image_brief": "SpaceX Dragon capsule docking with the International Space Station above Earth",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "SPACEX JUST REACHED THE ISS <em>FASTER THAN A LONDON FLIGHT</em>",
+   "kicker": "CREW-13: 7 HOURS 55 MINUTES",
+   "hsize": 78,
+   "media": "posts/2026-10-05-breaking-spacex-now-holds-all-5-fastest-/cand-1.jpg"
+  }
+ ],
+ "caption": "SpaceX now holds all 5 fastest U.S. launch-to-docking times at the International Space Station, including a new record of 7 hours 55 minutes.\n\nNo other U.S. rocket has touched the top 5 fastest trips to the space station. All 5 belong to SpaceX's Dragon, which set the latest record with Crew-13 on October 1: 7 hours 55 minutes, shorter than a plane ride from New York to London. An astronaut left Earth and was floating inside the station before you'd finished a single workday. Any future competitor doesn't just need to catch up. They need to break an under-8-hour barrier that didn't exist last week.\n\nOne private company now controls every fast lane in American human spaceflight. NASA has no crew vehicle of its own anywhere close to these times. If SpaceX walks away, there is no plan B.\n\nRunning a business? DM us \"AI\" and we'll show you what this kind of speed could mean for yours.\n\nSources: cb_doge on X\n\n#SpaceX #NASA #Space #ISS #Astronauts",
+ "pinned_comment": "The gap between SpaceX's #1 and #2 record is over 4 hours. Nobody else is even in the same conversation.",
+ "hook_tournament": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX JUST CLAIMED <em>ALL 5</em> FASTEST ISS DOCKING RECORDS",
+   "SpaceX now owns <em>every speed record</em> to the space station",
+   "SpaceX <em>beat a New York-to-London flight</em> getting to orbit",
+   "<em>SpaceX got to the space station</em> in under 8 hours",
+   "SPACEX IS <em>THE ONLY NAME</em> ON THE ISS SPEED BOARD",
+   "SPACEX JUST REACHED THE ISS <em>FASTER THAN A LONDON FLIGHT</em>",
+   "SPACEX JUST BROKE THE ISS DOCKING RECORD: <em>7H 55M</em>",
+   "SpaceX <em>left no docking record</em> for anyone else to hold",
+   "SpaceX just swept <em>all 5 fastest trips</em> to the ISS"
+  ],
+  "scores": [
+   7.5,
+   7,
+   0,
+   4,
+   8,
+   8.5,
+   6,
+   5,
+   7
+  ],
+  "winner": 5,
+  "why": "[5] stops you cold with a concrete comparison your brain instantly understands (space in ~8 hours = London flight time), while [4] makes you pause to interpret what 'only name on the speed board' means. Real numbers beat poetic riddles."
+ },
+ "hook_sharpen": {
+  "story_type": "record",
+  "candidates": [
+   "SPACEX HOLDS <em>ALL 5 FASTEST TRIPS</em> TO THE ISS",
+   "SPACEX JUST REACHED THE ISS <em>FASTER THAN A LONDON FLIGHT</em>",
+   "SPACEX IS NOW <em>AMERICA'S ONLY WAY</em> TO THE ISS"
+  ],
+  "scores": [
+   7,
+   9,
+   5
+  ],
+  "winner": 1,
+  "why": "Comparing ISS to a London flight time hits instantly\u2014your brain breaks on the timescale comparison. Holding '5 fastest records' is abstract and needs you to already care about SpaceX."
+ },
+ "viral": {
+  "story_type": "record",
+  "actor": "SpaceX",
+  "actor_known": true,
+  "anchor": "SpaceX",
+  "specifics": [
+   "SpaceX owns ALL 5 fastest U.S. docking records \u2014 not just the top spot, every single one",
+   "Crew-13 docked in 7h 55m \u2014 shorter than a New York-to-London flight",
+   "The gap between #1 and #2 is over 4 hours (7h 55m vs 12h 23m)",
+   "Every record was set on Dragon spacecraft \u2014 no other U.S. vehicle appears anywhere",
+   "NASA has no crewed spacecraft competitor even close to these times"
+  ]
+ },
+ "cover_fallback": "best-of-rejected (3/10)",
+ "handle": "@yaffeai",
+ "container": "daily_item",
+ "story": {
+  "title": "BREAKING: SpaceX now holds all 5 fastest U.S. launch-to-docking times at the International Space Station. \ud83c\uddfa\ud83c\uddf8 \u2022 Crew-13: 7h 55m (Oct 1, 2026) \u2022 CRS-31: 12h 23m \u2022 Crew-11: 14h 43m \u2022 Ax-2: 15h 35m \u2022 Crew-4: 15h 44m All five",
+  "link": "https://x.com/cb_doge/status/2107060638505996601",
+  "judge_interest": 7,
+  "scout_score": 87.0
+ },
+ "gate_r": "s1: The bottom half of the split image is a near-black, murky interior shot of the Dragon capsule that obscures detail and kills the energy of the slide; the overall composition feels dark and underexposed rather than the bright, saturated press-photo standard required."
+}
