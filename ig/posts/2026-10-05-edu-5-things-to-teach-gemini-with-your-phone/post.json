@@ -1,0 +1,50 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "5 FREE GEMINI CAMERA TRICKS <em>MOST PAID APPS CHARGE FOR</em>",
+   "kicker": "MOST PEOPLE NEVER TRY THIS",
+   "hsize": 72,
+   "face": [
+    "Sundar Pichai"
+   ],
+   "media": "faces/sundar-pichai.jpg"
+  }
+ ],
+ "caption": "Teaching Gemini with your phone camera is the most underused move in AI right now.\n\n1) Skip the $150 service call. Point at anything broken.\n\"Walk me through fixing what my camera is showing you.\"\n\n2) Your form is probably wrong. Film yourself mid-workout.\n\"Watch me and tell me every mistake in my form.\"\n\n3) Open the fridge, hold the camera inside for 5 seconds.\n\"What can I cook tonight with only what you see in my fridge?\"\n\n4) Read any language. Sign, menu, anything.\n\"Translate everything visible in this image into plain English.\"\n\n5) Show it your sick plant. This one feels like cheating.\n\"What's wrong with this plant and what should I do?\"\n\nSAVE THIS: 5 Gemini camera moves.\n\nMost people use Gemini by typing. The camera makes it different. A video of someone pointing their camera at themselves while Gemini coached them hit 3,900 likes, because people didn't know the camera could do that. Almost nobody uses this yet.\n\nRunning a business? DM us \"AI\" and we'll show you what this could do for yours.\n\nSources: barthtanrak, Google\n\n#Gemini #AITools #GoogleAI #ArtificialIntelligence #TechTips",
+ "pinned_comment": "Which one are you trying tonight? Number 5 is the one people don't believe works until they actually try it.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 THINGS <em>YOUR CAMERA TEACHES GEMINI</em>",
+   "YOUR PHONE <em>TEACHES GEMINI</em>. 5 THINGS",
+   "<em>GEMINI LEARNS</em> FROM YOUR CAMERA. 5 THINGS"
+  ],
+  "scores": [
+   8,
+   7,
+   6
+  ],
+  "winner": 0,
+  "why": "[0] leads with 'YOUR CAMERA TEACHES' \u2014 active, specific, and immediately makes you think 'wait, how?' \u2014 while [1]'s phone is too broad and [2]'s 'learns from' is passive enough to slow your brain down just enough to keep scrolling."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 GEMINI CAMERA TRICKS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "5 FREE TOOLS <em>YOUR CAMERA UNLOCKS WITH GEMINI</em>",
+   "5 FREE GEMINI CAMERA TRICKS <em>MOST PAID APPS CHARGE FOR</em>"
+  ],
+  "scores": [
+   7,
+   4,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] tells you the real story upfront\u2014free tricks that paid apps charge for\u2014instead of making you solve a riddle. The free-vs-paid angle hits the 'wait, I need this' moment faster than exaggerated hyperbole at 2am."
+ },
+ "handle": "@yaffeai",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo"
+}
