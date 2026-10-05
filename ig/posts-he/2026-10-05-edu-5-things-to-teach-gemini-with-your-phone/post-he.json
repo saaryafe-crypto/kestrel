@@ -1,0 +1,57 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "headline": "Gemini בחינם: <em>חמישה דברים עם המצלמה שרוב האפליקציות גובות עליהם כסף</em>",
+   "kicker": "רוב האנשים לא יודעים שזה קיים",
+   "hsize": 72,
+   "face": [
+    "Sundar Pichai"
+   ],
+   "media": "faces/sundar-pichai.jpg"
+  }
+ ],
+ "caption": "Gemini יכולה לראות דרך המצלמה שלך ולעזור בדברים שאפליקציות אחרות גובות עליהם כסף.\n\nמצלם משהו שבור, טכניקה בספורט, מה שיש במקרר, שלט בשפה זרה, או צמח חולה, ומבקש עזרה. Gemini רואה ועונה. כמעט אף אחד לא משתמש בזה, וסרטון שהראה את זה קיבל 3,900 לייקים.\n\nמקורות: barthtanrak, Google\n\nעקבו אחרי @ainews.israel\n\n#Gemini #AITools #GoogleAI #ArtificialIntelligence #TechTips",
+ "pinned_comment": "איזה אחד תנסה הלילה? הטריק עם הצמח הוא זה שאנשים לא מאמינים שעובד עד שהם מנסים בעצמם.",
+ "hook_tournament": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 THINGS <em>YOUR CAMERA TEACHES GEMINI</em>",
+   "YOUR PHONE <em>TEACHES GEMINI</em>. 5 THINGS",
+   "<em>GEMINI LEARNS</em> FROM YOUR CAMERA. 5 THINGS"
+  ],
+  "scores": [
+   8,
+   7,
+   6
+  ],
+  "winner": 0,
+  "why": "[0] leads with 'YOUR CAMERA TEACHES' — active, specific, and immediately makes you think 'wait, how?' — while [1]'s phone is too broad and [2]'s 'learns from' is passive enough to slow your brain down just enough to keep scrolling."
+ },
+ "hook_sharpen": {
+  "story_type": "edu_value",
+  "candidates": [
+   "5 GEMINI CAMERA TRICKS <em>SO GOOD THEY FEEL ILLEGAL</em>",
+   "5 FREE TOOLS <em>YOUR CAMERA UNLOCKS WITH GEMINI</em>",
+   "5 FREE GEMINI CAMERA TRICKS <em>MOST PAID APPS CHARGE FOR</em>"
+  ],
+  "scores": [
+   7,
+   4,
+   8
+  ],
+  "winner": 2,
+  "why": "[2] tells you the real story upfront—free tricks that paid apps charge for—instead of making you solve a riddle. The free-vs-paid angle hits the 'wait, I need this' moment faster than exaggerated hyperbole at 2am."
+ },
+ "handle": "@ainews.israel",
+ "container": "ai_education",
+ "edu_mode": "skills",
+ "cover_fallback": "real-face-photo",
+ "he_editor": {
+  "hebrew_naturalness": 10,
+  "grammar": 10,
+  "clarity_12yo": 10,
+  "source_fidelity": 10,
+  "brand_voice": 10
+ }
+}

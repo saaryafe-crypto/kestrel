@@ -1,13 +1,6 @@
 [
  {
   "gate": "B",
-  "reason": "Caption repeats the franchise-consolidation fact three times across three paragraphs: P1 names Batman/HBO/Harry Potter under one owner, P2 lists Batman/Harry Potter/HBO/DC/SpongeBob/Mission Impossible under one company, and P3 lists DC/HBO/Harry Potter/SpongeBob/Mission Impossible again with 'no single entertainment company has ever owned before.' Every paragraph says the same thing in a different",
-  "subject": "PARAMOUNT JUST SWALLOWED <em>WARNER BROS FOR $110 BILLION</em>",
-  "t": "2026-10-02T01:20:10Z",
-  "verdict": "REJECT"
- },
- {
-  "gate": "B",
   "reason": "IMAGE FAILS THUMB TEST — the cover shows only the Paramount logo against a sunset mountain. The headline promises a TWO-company story ('Paramount swallowed WARNER BROS'), but a stranger scrolling at feed speed sees one company's branding with zero trace of Warner Bros. The Warner Bros shield must appear in the composite — being absorbed under the Paramount mountain, or the two marks side-by-side —",
   "subject": "PARAMOUNT JUST SWALLOWED <em>WARNER BROS FOR $110 BILLION</em>",
   "t": "2026-10-02T01:22:21Z",
@@ -2098,5 +2091,12 @@
   "subject": "A JUDGE RULED <em>AI TRACKING WITHOUT A WARRANT</em> IS ILLEGAL",
   "verdict": "PASS",
   "reason": ""
+ },
+ {
+  "t": "2026-10-05T17:11:00Z",
+  "gate": "A",
+  "subject": "Dear Hindus, I knew very little about your religion. I was so immersed in studying the Abrahamic faiths because I’m insa",
+  "verdict": "KILL",
+  "reason": "No news event—personal religious reflection from an unknown actor with no real-world consequence, completely off-brand for a tech/AI news page."
  }
 ]
