@@ -1,10 +1,9 @@
 name: IG health check
-# Runs every morning BEFORE the first posting slot: counts yesterday's
-# published post folders against the 7/day plan (5 carousel slots + 2 reels).
-# Shortfall -> triggers recovery carousel runs (7/day is a must) and opens
-# ONE issue naming exactly what was missed. Catches what per-run alerts
-# can't: hung Mac jobs that never exit, launchd slots skipped while the Mac
-# was asleep, and any alert that fired but went unread.
+# Runs every morning: paid-API budget watch, the insights truth loop, and a
+# count of yesterday's publishes per page (plan: 3 cards + 2 reels each).
+# Empty slots are allowed since the 2026-10-05 redesign (better skip than
+# filler), so there are NO recovery runs; an issue opens only when a page
+# published fewer than 2 things, which means something is broken.
 
 on:
   schedule:
@@ -35,14 +34,9 @@ jobs:
           import json, os, sys
           from datetime import date
           sys.path.insert(0, "ig")
-          from genimg import MONTH_BUDGET      # caps live in their modules
-          from radar_x import CAP_READS_MONTH  # (single source of truth)
+          from news_pool import CAP_READS_MONTH  # single source of truth
           m = str(date.today())[:7]
           over = []
-          used = json.load(open("ig/genimg-used.json")) if os.path.exists("ig/genimg-used.json") else []
-          img = sum(u["cost"] for u in used if u["date"][:7] == m)
-          print(f"Replicate image-gen: ${img:.2f} of ${MONTH_BUDGET:.2f} cap")
-          if img > MONTH_BUDGET: over.append("image-gen")
           led = json.load(open("ig/x-used.json")) if os.path.exists("ig/x-used.json") else {}
           xr = led.get("reads", 0) if led.get("month") == m else 0
           xcap = CAP_READS_MONTH * 0.15 / 1000
@@ -83,25 +77,20 @@ jobs:
             echo "no new insight data"
           fi
 
-      - name: Count yesterday's posts vs plan
+      - name: Count yesterday's publishes vs plan
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          git fetch --unshallow --quiet || true
           Y=$(date -u -d yesterday +%F)
-          total=$(ls -d ig/posts/$Y-* 2>/dev/null | wc -l)
-          reels=$(ls -d ig/posts/$Y-reel-* 2>/dev/null | wc -l)
-          echo "$Y: $total total ($reels reels, $((total-reels)) carousels) — plan is 7 (2 reels + 5 carousels)"
-          missing=$((7 - total))
-          if [ "$missing" -le 0 ]; then echo "plan met"; exit 0; fi
-          # recovery: fill the gap with extra carousels today (cap 2/day so a
-          # broken counter can never flood the page)
-          fill=$(( missing > 2 ? 2 : missing ))
-          for i in $(seq 1 $fill); do
-            gh workflow run ig-post.yml -f kind=auto
-            sleep 5
+          msg=""
+          for page in "EN:IG (post|reel): " "HE:IG (post|reel) HE: "; do
+            label=${page%%:*}; pat=${page#*:}
+            n=$(git log --since="$Y 00:00" --until="$Y 23:59" --format=%s origin/main | grep -cE "^$pat" || true)
+            echo "$label $Y: $n published (plan 5: 3 cards + 2 reels; empty slots allowed)"
+            [ "$n" -lt 2 ] && msg="$msg $label=$n"
           done
-          gh issue create \
-            --title "IG health: only $total/7 posts on $Y" \
-            --body "Yesterday $Y published $total posts ($reels of 2 reels, $((total-reels)) of 5 carousels).
-          Triggered $fill recovery carousel run(s) just now.
-          If reels were missed: check /tmp/ig-reel.log on the Mac (launchd skips slots while asleep; a hung yt-dlp never exits and never alerts)."
+          if [ -n "$msg" ]; then
+            gh issue create --title "IG health: low publish count on $Y:$msg" \
+              --body "Fewer than 2 publishes on a page usually means a broken lane, not just strict gates. Check the IG news card / IG reel workflow runs for $Y."
+          fi
