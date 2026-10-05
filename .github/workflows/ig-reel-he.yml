@@ -1,49 +1,39 @@
-name: IG reel publish HE
-# Hebrew arm (@ainews.israel): publishes an already-built Hebrew reel (video
-# in the media repo under <post>-he, reel.json in ig/posts-he/<post>) via the
-# Hebrew Make webhook's reel route. Triggered by reel_he.py on the Mac after
-# it pushes the video, or manually. The English system is frozen — this
-# workflow only ADDS (owner rule Jul 29).
-
+name: IG reel HE
+# Fires 2-3h before each slot (GitHub crons run late); _news.yml builds,
+# then waits until the slot's local time (pages.py) and publishes.
 on:
+  schedule:
+    - cron: "7 13 * * *"   # 0 slot 18:00 Israel
+    - cron: "7 17 * * *"   # 1 slot 22:00 Israel
   workflow_dispatch:
     inputs:
-      post:
-        description: "post dir name, e.g. 2026-07-29-reel-XXXXXXXX"
-        required: true
+      slot:
+        description: "slot index from pages.py, or now"
+        default: "now"
 
-# Serialize runs (Aug 3 race audit): parallel runs of the same lane
-# race on shared state; queued runs still fill every slot.
 concurrency:
   group: ig-reel-he
   cancel-in-progress: false
 
 jobs:
-  publish:
-    timeout-minutes: 90  # hang guard, see ig-post.yml Sep 10
+  slot:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      issues: write
+    outputs:
+      slot: ${{ steps.s.outputs.slot }}
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Publish Hebrew reel to Instagram (ainews.israel)
-        env:
-          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL_HE }}
-          MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}  # owner monitor email
+      - id: s
         run: |
-          POST="${{ github.event.inputs.post }}"
-          test -f "ig/posts-he/$POST/reel.json"
-          python3 ig/post.py "ig/posts-he/$POST" \
-            "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/$POST-he"
-
-      - name: Alert on failure
-        if: failure()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh issue create \
-            --title "IG HE reel publish FAILED $(date -u '+%Y-%m-%d %H:%M UTC')" \
-            --body "Post: ${{ github.event.inputs.post }} — logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          case "${{ github.event.schedule }}" in
+            "7 13 * * *") s=0 ;;
+            "7 17 * * *") s=1 ;;
+            *) s="${{ inputs.slot || 'now' }}" ;;
+          esac
+          echo "slot=$s" >> "$GITHUB_OUTPUT"
+  run:
+    needs: slot
+    uses: ./.github/workflows/_news.yml
+    with:
+      lang: he
+      kind: reel
+      slot: ${{ needs.slot.outputs.slot }}
+    secrets: inherit

@@ -1,174 +1,41 @@
-name: IG autopost HE
-# Hebrew arm (@ainews.israel): localizes the newest not-yet-localized English
-# carousel (it already survived judge/QA/tournament) into proper RTL Hebrew
-# and publishes it via the Hebrew Make scenario. The English system is frozen
-# — this workflow only ADDS (owner rule Jul 29).
-#
-# Required repo secrets (beyond the English set):
-#   MAKE_WEBHOOK_URL_HE - Make.com scenario webhook for @ainews.israel
-
+name: IG news card HE
+# Fires 2-3h before each slot (GitHub crons run late); _news.yml builds,
+# then waits until the slot's local time (pages.py) and publishes.
 on:
   schedule:
-    # TOKEN DIET (owner Aug 8): 3 Hebrew slots to mirror the 3 English
-    # carousels/day. Israel prime time (IDT = UTC+3): 11:00/17:00/21:00 IL.
-    - cron: "0 8 * * *"
-    - cron: "0 14 * * *"
-    - cron: "0 18 * * *"
+    - cron: "7 3 * * *"   # 0 slot 08:00 Israel
+    - cron: "7 8 * * *"   # 1 slot 13:00 Israel
+    - cron: "37 15 * * *"   # 2 slot 20:30 Israel
   workflow_dispatch:
     inputs:
-      post:
-        description: "posts/<name> to localize (default: newest un-localized)"
-        default: ""
+      slot:
+        description: "slot index from pages.py, or now"
+        default: "now"
 
-# Serialize runs (Aug 3 dup post-mortem, run 30810127648): a 35-min-late cron
-# raced a manual dispatch, both localized the SAME post and @ainews.israel got
-# it twice. The EN workflow got this fix Aug 2 (issue #17); this lane never
-# inherited it. Queued runs re-checkout fresh main, so they pick the NEXT
-# backlog post instead of duplicating.
 concurrency:
-  group: ig-autopost-he
+  group: ig-card-he
   cancel-in-progress: false
 
 jobs:
-  post-he:
-    timeout-minutes: 90  # hang guard, see ig-post.yml Sep 10
+  slot:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      issues: write
+    outputs:
+      slot: ${{ steps.s.outputs.slot }}
     steps:
-      - name: Jitter (0-8 min)
-        if: github.event_name == 'schedule'
-        run: sleep $((RANDOM % 480))
-
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          # pip download cache (run diet Aug 12), keyed on this workflow file
-          cache: pip
-          cache-dependency-path: .github/workflows/ig-post-he.yml
-
-      - name: Install Claude Code CLI + Pillow
+      - id: s
         run: |
-          npm install -g @anthropic-ai/claude-code
-          pip install pillow
-
-      - name: Localize to Hebrew + render RTL
-        # he.py owns the pick: IL viral news first (owner order Aug 10 —
-        # native build via write.py when il-news.json has a fresh unused
-        # Israel AI/tech story), then the un-localized backlog newest first,
-        # falling to the next post when one fails (Jul 31 audit — the old
-        # pick-one-name step let a single bad post kill the slot forever)
-        env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}  # IL native builds render gpt-image covers
-          CHROME: google-chrome
-          # run 32741313256 (Aug 24): a writer response blew past the CLI's
-          # default 32k output-token cap and the slot died. Cap, not a target.
-          CLAUDE_CODE_MAX_OUTPUT_TOKENS: "64000"
-        run: |
-          cd ig
-          # culture radar warm-up (run diet Aug 12, same as the EN workflow):
-          # IL native builds reach art_direct — the refresh must not sit on
-          # the critical path. No-op in <1s when culture.json is fresh.
-          python culture.py > /tmp/culture-refresh.log 2>&1 &
-          if [ -n "${{ github.event.inputs.post }}" ]; then
-            python he.py "${{ github.event.inputs.post }}" 2>&1 | tee /tmp/he.log
-          else
-            python he.py 2>&1 | tee /tmp/he.log || true
-          fi
-          if grep -q "no un-localized post found" /tmp/he.log; then
-            echo "backlog empty, skipping"
-            echo "SKIP=true" >> "$GITHUB_ENV"
-            exit 0
-          fi
-          # tail -1: an IL native build logs write.py's own "post ready:"
-          # (EN source dir) before he.py's — the HE dir is always last
-          POST_NAME=$(basename "$(sed -n 's/^post ready: //p' /tmp/he.log | tail -1)")
-          test -n "$POST_NAME"   # fail loudly if every backlog post failed
-          test -f "posts-he/$POST_NAME/slide-1.jpg"
-          echo "POST_NAME=$POST_NAME" >> "$GITHUB_ENV"
-
-      - name: Push slides to public media repo
-        if: env.SKIP != 'true'
-        env:
-          TOKEN: ${{ secrets.MEDIA_REPO_TOKEN }}
-        run: |
-          git clone --depth 1 "https://x-access-token:$TOKEN@github.com/saaryafe-crypto/kestrel-media.git" /tmp/media
-          mkdir -p "/tmp/media/$POST_NAME-he"
-          cp ig/posts-he/"$POST_NAME"/slide-*.jpg "/tmp/media/$POST_NAME-he/"
-          cp ig/posts-he/"$POST_NAME"/video-*.mp4 "/tmp/media/$POST_NAME-he/" 2>/dev/null || true
-          cd /tmp/media
-          git config user.name "ig-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add -A
-          git commit -m "$POST_NAME-he" || echo "slides already in media repo"
-          # push race (run 36035862386, Sep 24): a sibling lane can push in
-          # the seconds between one rebase and the push — retry the pair up
-          # to 5x instead of dying and losing the slot
-          for i in 1 2 3 4 5; do
-            git pull --rebase || true
-            git push && break
-            [ "$i" = 5 ] && exit 1
-            sleep $((RANDOM % 5 + 2))
-          done
-
-      - name: Duplicate guard (a sibling run may have published while we rendered)
-        # Aug 3: localization takes ~20 min; the pick happens at checkout. If
-        # another run committed this post-he dir to main in that window, it is
-        # already live — publishing again duplicates the feed. Defense in depth
-        # on top of the concurrency group.
-        if: env.SKIP != 'true'
-        run: |
-          git fetch origin main --quiet
-          if git cat-file -e "origin/main:ig/posts-he/$POST_NAME/post-he.json" 2>/dev/null; then
-            echo "posts-he/$POST_NAME is already on main — a sibling run published it. Skipping."
-            echo "SKIP=true" >> "$GITHUB_ENV"
-          fi
-
-      - name: Publish carousel to Instagram (ainews.israel)
-        if: env.SKIP != 'true'
-        env:
-          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL_HE }}
-          MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}  # owner monitor email
-        run: |
-          python ig/post.py "ig/posts-he/$POST_NAME" \
-            "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/$POST_NAME-he"
-
-      - name: Save Hebrew post to this repo
-        # Runs LAST on purpose (Aug 2, EN run 30759942650 lost a slot to a git
-        # race in its save step): if this fails the post is already live.
-        if: env.SKIP != 'true'
-        run: |
-          git config user.name "ig-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git config merge.ledger.driver "python ig/merge_ledgers.py %O %A %B"
-          # ONLY this run's post dir (Aug 4 EN post-mortem, run 30904399838:
-          # adding the whole tree sweeps half-built dirs from failed attempts
-          # into sibling commits -> add/add rebase conflicts kill save steps)
-          git add "ig/posts-he/$POST_NAME"
-          # IL native builds (Aug 10) create the EN source dir in THIS run —
-          # it must reach main or the dedupe/used checks forget the story.
-          # No-op for backlog posts (their EN dir is already on main).
-          git add "ig/posts/$POST_NAME" 2>/dev/null || true
-          git add ig/genimg-used.json 2>/dev/null || true  # image budget spent by IL builds must persist
-          git add ig/faces-used.json 2>/dev/null || true
-          git add ig/editor-log.json 2>/dev/null || true
-          git add ig/culture.json 2>/dev/null || true      # daily culture radar must persist or every run re-pays the refresh
-          git commit -m "IG post HE: $POST_NAME" || { echo "nothing to commit"; exit 0; }
-          # -X theirs: an add/add twin-post conflict must never kill the save
-          # after the publish already happened (EN run 34587074725, Sep 11)
-          git pull --rebase --autostash -X theirs
-          git push || { git pull --rebase --autostash -X theirs && git push; }  # retry once if a sibling pushed in between
-
-      - name: Alert on failure (opens a GitHub issue -> email notification)
-        if: failure() && env.SKIP != 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh issue create \
-            --title "IG HE autopost FAILED $(date -u '+%Y-%m-%d %H:%M UTC')" \
-            --body "No Hebrew post went out for this slot. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          case "${{ github.event.schedule }}" in
+            "7 3 * * *") s=0 ;;
+            "7 8 * * *") s=1 ;;
+            "37 15 * * *") s=2 ;;
+            *) s="${{ inputs.slot || 'now' }}" ;;
+          esac
+          echo "slot=$s" >> "$GITHUB_OUTPUT"
+  run:
+    needs: slot
+    uses: ./.github/workflows/_news.yml
+    with:
+      lang: he
+      kind: card
+      slot: ${{ needs.slot.outputs.slot }}
+    secrets: inherit

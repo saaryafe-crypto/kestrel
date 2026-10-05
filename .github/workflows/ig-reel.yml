@@ -1,48 +1,39 @@
-name: IG reel publish
-# Publishes an already-built reel (video in the media repo, reel.json in
-# ig/posts/<post>) to Instagram via the Make webhook's reel route.
-# Triggered by reel.py after it pushes the video, or manually.
-
+name: IG reel EN
+# Fires 2-3h before each slot (GitHub crons run late); _news.yml builds,
+# then waits until the slot's local time (pages.py) and publishes.
 on:
+  schedule:
+    - cron: "7 17 * * *"   # 0 slot 15:00 New York
+    - cron: "37 22 * * *"   # 1 slot 20:30 New York
   workflow_dispatch:
     inputs:
-      post:
-        description: "post dir name, e.g. 2026-07-26-reel-XXXXXXXX"
-        required: true
+      slot:
+        description: "slot index from pages.py, or now"
+        default: "now"
 
-# Serialize runs (Aug 3 race audit): parallel runs of the same lane
-# race on shared state; queued runs still fill every slot.
 concurrency:
-  group: ig-reel
+  group: ig-reel-en
   cancel-in-progress: false
 
 jobs:
-  publish:
-    timeout-minutes: 90  # hang guard, see ig-post.yml Sep 10
+  slot:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      issues: write
+    outputs:
+      slot: ${{ steps.s.outputs.slot }}
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Publish reel to Instagram
-        env:
-          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
-          MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
-          BUNDLE_API_KEY: ${{ secrets.BUNDLE_API_KEY }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}  # owner monitor email
+      - id: s
         run: |
-          POST="${{ github.event.inputs.post }}"
-          test -f "ig/posts/$POST/reel.json"
-          python3 ig/post.py "ig/posts/$POST" \
-            "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/$POST"
-
-      - name: Alert on failure
-        if: failure()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh issue create \
-            --title "IG reel publish FAILED $(date -u '+%Y-%m-%d %H:%M UTC')" \
-            --body "Post: ${{ github.event.inputs.post }} — logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          case "${{ github.event.schedule }}" in
+            "7 17 * * *") s=0 ;;
+            "37 22 * * *") s=1 ;;
+            *) s="${{ inputs.slot || 'now' }}" ;;
+          esac
+          echo "slot=$s" >> "$GITHUB_OUTPUT"
+  run:
+    needs: slot
+    uses: ./.github/workflows/_news.yml
+    with:
+      lang: en
+      kind: reel
+      slot: ${{ needs.slot.outputs.slot }}
+    secrets: inherit

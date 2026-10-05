@@ -22,13 +22,16 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import spy  # DESC_RE + meta() + n() — same parsing as the competitor scrape
 
-CHANNELS = {"yaffeai": {"carousels": 5, "reels": 2},      # Aug 27: 5 carousels
-            "ainews.israel": {"carousels": 5, "reels": 2}}  # (match-the-data)
+from pages import PAGES  # account names live there (EN rename = one line)
+EN, HE = PAGES["en"]["account"], PAGES["he"]["account"]
+# news redesign 2026-10-05: 3 news cards + 2 reels per page per day
+CHANNELS = {EN: {"carousels": 3, "reels": 2},
+            HE: {"carousels": 3, "reels": 2}}
 # + 2 reels/day (owner Aug 27 evening: reels drove the follower growth; the
 # followers-history delta above is the experiment that decides 1 vs 3)
 COMMIT_PATTERNS = {  # git subjects are the system's own publish ledger
-    "yaffeai": {"carousels": r"^IG post: ", "reels": r"^IG reel: "},
-    "ainews.israel": {"carousels": r"^IG post HE: ", "reels": r"^IG reel HE: "}}
+    EN: {"carousels": r"^IG post: ", "reels": r"^IG reel: "},
+    HE: {"carousels": r"^IG post HE: ", "reels": r"^IG reel HE: "}}
 FOLLOWERS_RE = re.compile(
     r"([\d.,KM]+)\s+Followers,\s*[\d.,KM]+\s+Following,\s*([\d.,KM]+)\s+Posts")
 GMAIL = "saaryafe@gmail.com"      # the courier: logs in and sends, gets no mail
@@ -107,7 +110,7 @@ BAD_RE = re.compile(r"NOT FOUND|NOT on Instagram|FAILED|MISSING|PROBLEM|"
 WARN_RE = re.compile(r"FALLBACK|possible|Account Status")
 GOOD_RE = re.compile(r"ALL GOOD|really (there|live)|real cover photo|"
                      r"connected|ARE flowing|no problems")
-ICONS = {"@yaffeai": "🇺🇸", "@ainews.israel": "🇮🇱", "X (Twitter)": "📡",
+ICONS = {"@" + EN: "🇺🇸", "@" + HE: "🇮🇱", "X (Twitter)": "📡",
          "Money": "💰", "Problems": "🚨"}
 
 
@@ -264,8 +267,7 @@ def scrape_channel(handle, cap=12, reel_cap=8):
 
 
 def budget_lines():
-    from genimg import MONTH_BUDGET       # caps live in their modules
-    from radar_x import CAP_READS_MONTH   # (single source of truth)
+    from news_pool import CAP_READS_MONTH   # single source of truth
     m = str(date.today())[:7]
 
     def ledger(name):
@@ -273,15 +275,6 @@ def budget_lines():
         return json.load(open(fp)) if os.path.exists(fp) else None
 
     lines = []
-    gen = ledger("genimg-used.json") or []
-    img = sum(u["cost"] for u in gen if u["date"][:7] == m)
-    img_today = sum(u["cost"] for u in gen if u["date"] == str(date.today()))
-    # owner ask (Aug 2): the mail must show today's spend, the month's spend,
-    # and how much room is left. Replicate's API has no balance endpoint, so
-    # "left" = room under OUR monthly cap, not the account balance.
-    lines.append(f"AI images we generated (Replicate): ${img_today:.2f} today, "
-                 f"${img:.2f} this month, ${max(MONTH_BUDGET - img, 0):.2f} "
-                 f"left of the ${MONTH_BUDGET:.2f} monthly limit")
     led = ledger("x-used.json") or {}
     xr = led.get("reads", 0) if led.get("month") == m else 0
     lines.append(f"X (Twitter) data (twitterapi.io): "
@@ -314,7 +307,7 @@ def main():
         y = date.fromisoformat(sys.argv[sys.argv.index("--day") + 1])
     body = []
     for handle, plan in CHANNELS.items():
-        he = handle != "yaffeai"
+        he = handle != EN
         pats = COMMIT_PATTERNS[handle]
         car = commits_on(y, pats["carousels"])
         reels = commits_on(y, pats["reels"])
@@ -435,47 +428,21 @@ def main():
 
     body.append("## X (Twitter) data feed — where our stories come from")
     try:
-        led = json.load(open(os.path.join(HERE, "x-used.json")))
-        age_h = (time.time() - led.get("last_poll", 0)) / 3600
-        r = json.load(open(os.path.join(HERE, "radar.json")))
-        xm = [m for m in r.get("moments", []) if "on X" in m.get("where", "")]
-        xv = [m for m in xm if m.get("video")]
+        p = json.load(open(os.path.join(HERE, "pool-en.json")))
+        age_h = (time.time() - p.get("updated", 0)) / 3600
+        rows = p.get("rows", [])
         body.append(f"- X account key: "
-                    f"{'connected' if env_key('TWITTER_API_KEY') else 'MISSING from ~/kestrel/.env'}"
-                    f" | last check of X: {age_h:.0f} hours ago"
-                    + (" — STALE, too long ago, the feed may be dead"
-                       if age_h > 26 else ""))
-        body.append(f"- {len(xm)} of the {len(r.get('moments', []))} hot "
-                    f"stories on our radar came from X ({len(xv)} of them "
-                    "have video we can turn into reels)")
+                    f"{'connected' if env_key('TWITTER_API_KEY') or env_key('TWITTERAPI_KEY') else 'MISSING'}"
+                    f" | last X harvest: {age_h:.0f} hours ago"
+                    + (" (STALE, the feed may be dead)" if age_h > 26 else ""))
+        body.append(f"- {len(rows)} posts in the news pool "
+                    f"({sum(1 for r in rows if r.get('video'))} with video)")
         body.append("- ALL GOOD: viral X stories ARE flowing into our posts"
-                    if xm and age_h <= 26 else
-                    "- PROBLEM: no X stories are flowing in — check the "
-                    "'X radar DEAD' alerts")
+                    if rows and age_h <= 26 else
+                    "- PROBLEM: no fresh X pool, check the IG news card runs")
     except Exception as e:
-        body.append(f"- PROBLEM: could not read the X feed status ({e}) — "
+        body.append(f"- PROBLEM: could not read the X feed status ({e}), "
                     "state UNKNOWN")
-    # editor gate A health (Sep 1 recalibration): 39/40 kills shipped a day
-    # of clone listicles; ~100% approves would ship junk. One free line so
-    # drift is visible in the owner's inbox without anyone digging.
-    try:
-        rows = json.load(open(os.path.join(HERE, "editor-log.json")))
-        day_ago = time.time() - 86400
-        import calendar
-        a = [r for r in rows if r.get("gate") == "A" and calendar.timegm(
-            time.strptime(r["t"], "%Y-%m-%dT%H:%M:%SZ")) > day_ago]
-        if a:
-            ap = sum(1 for r in a if r["verdict"] == "APPROVE")
-            pct = ap * 100 // len(a)
-            note = (" — TOO STRICT, story slots are falling to listicles"
-                    if pct <= 5 else
-                    " — TOO SOFT, junk stories may be shipping"
-                    if pct >= 90 else " — healthy range")
-        body.append(f"- Story editor (gate A) last 24h: approved {ap} of "
-                    f"{len(a)} candidates ({pct}%){note}" if a else
-                    "- Story editor (gate A): no verdicts in the last 24h")
-    except Exception as e:
-        body.append(f"- Story editor stats unreadable ({e})")
     body.append("")
     body.append("## Money spent this month (each tool vs its limit)")
     try:

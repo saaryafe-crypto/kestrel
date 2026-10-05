@@ -102,8 +102,8 @@ def notify_owner(post_dir, base_url=None):
         # WHICH account (owner Sep 9, after a Hebrew reel email with no
         # account name sent him looking at the wrong page: "the hebrew goes
         # only to ainews.israel"). Hebrew post dirs live under posts-he/.
-        acct = ("ainews.israel" if "posts-he" in os.path.abspath(post_dir)
-                else "yaffeai")
+        from pages import PAGES
+        acct = PAGES["he" if "posts-he" in os.path.abspath(post_dir) else "en"]["account"]
         title, img_url = "", (f"{base}/slide-1.jpg" if base else None)
         chips = []            # (label, color) badge chips under the banner
         status, s_color = "", "#16a34a"   # ONE short verdict line
@@ -232,6 +232,15 @@ def notify_owner(post_dir, base_url=None):
 
 
 def main(post_dir, base_url):
+    # PUBLISH ROUTES: make (default; bundle.social for EN reels) today.
+    # Graph API route (owner 2026-10-05): once the accounts are linked to the
+    # Meta app, add ig/graph.py with publish(post_dir, base_url) and set
+    # IG_PUBLISHER=graph in the workflow. Not built yet: no tokens exist.
+    if os.environ.get("IG_PUBLISHER") == "graph":
+        import graph
+        graph.publish(post_dir, base_url)
+        notify_owner(post_dir, base_url)
+        return
     reel = os.path.join(post_dir, "reel.json")
     if os.path.exists(reel):
         r = json.load(open(reel))

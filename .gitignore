@@ -6,3 +6,6 @@ __pycache__/
 .DS_Store
 ig/logos/_ref-*
 ig/.igprofile/
+
+# per-run Hebrew RSS pool (rebuilt every run)
+ig/pool-he.json
