@@ -1,0 +1,27 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Google releases Nano Banana 2.1 for better AI image editing",
+ "story12": "Google's new AI makes better images and lets you edit them precisely",
+ "entities": [
+  {
+   "name": "Google",
+   "aliases": [
+    "גוגל"
+   ]
+  }
+ ],
+ "company": "Google",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-06",
+ "slot": "2",
+ "sources": [
+  "https://x.com/GoogleAIStudio/status/2107501303890915550",
+  "https://x.com/Google/status/2107501209154204148"
+ ],
+ "story": {
+  "link": "https://x.com/GoogleAIStudio/status/2107501303890915550"
+ },
+ "photo_credit": "Wikimedia Commons"
+}

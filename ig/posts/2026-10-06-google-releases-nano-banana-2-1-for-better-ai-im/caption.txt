@@ -1,0 +1,8 @@
+Google releases Nano Banana 2.1, its latest image generation and editing model.
+
+The model outperforms its predecessors in visual design, mask-based editing, and subject consistency.
+Mask-based editing lets users make precise changes to specific areas of an image.
+Nano Banana 2.1 is available now in Google AI Studio.
+
+Source: Google
+#AI #ImageGeneration #Google
