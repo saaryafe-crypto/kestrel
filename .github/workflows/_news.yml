@@ -61,13 +61,35 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git config merge.ledger.driver "python ig/merge_ledgers.py %O %A %B"
           git add "$POST_DIR"
-          git add ig/pool-en.json ig/pool-video.json ig/x-used.json ig/bundle-used.json 2>/dev/null || true
+          # one path per add: a single missing file used to fail the whole add,
+          # so the X pool cache + read ledger were never saved (2026-10-06)
+          for f in ig/pool-en.json ig/pool-en-14d.json ig/pool-video.json ig/x-used.json ig/bundle-used.json; do
+            [ -f "$f" ] && git add "$f"
+          done
           git commit -m "IG build${HE}: $NAME"
           for i in 1 2 3 4 5; do
             git pull --rebase --autostash -X theirs && git push && break
             [ "$i" = 5 ] && exit 1
             sleep $((RANDOM % 5 + 2))
           done
+
+      - name: Save the X pool cache + read ledger on an empty slot
+        # without this every skipped run re-harvested X and its reads were
+        # never counted against the monthly cap (found 2026-10-06)
+        if: env.SKIP == 'true'
+        run: |
+          git config user.name "ig-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git config merge.ledger.driver "python ig/merge_ledgers.py %O %A %B"
+          for f in ig/pool-en.json ig/pool-en-14d.json ig/pool-video.json ig/x-used.json; do
+            [ -f "$f" ] && git add "$f"
+          done
+          git diff --cached --quiet && exit 0
+          git commit -m "X pool cache (${{ inputs.lang }} ${{ inputs.kind }} empty slot)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash -X theirs && git push && break
+            sleep $((RANDOM % 5 + 2))
+          done || true
 
       - name: Push media to the public media repo
         if: env.SKIP != 'true'

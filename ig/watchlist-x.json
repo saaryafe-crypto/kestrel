@@ -79,5 +79,8 @@
  "discovery_min_faves": 3000,
  "video_discovery": "(robot OR humanoid OR robotaxi OR Waymo OR \"self-driving\" OR \"AI glasses\" OR \"Figure 03\" OR Unitree OR Optimus) filter:videos lang:en -drone",
  "video_discovery_min_faves": 5000,
- "ai_video_discovery": "(Sora OR Veo OR \"Grok Imagine\" OR Kling OR \"AI generated\" OR \"made with AI\") filter:videos lang:en"
+ "ai_video_discovery": "(Sora OR Veo OR \"Grok Imagine\" OR Kling OR \"AI generated\" OR \"made with AI\") filter:videos lang:en",
+ "viral_discovery": "(\"artificial intelligence\" OR \"AI-generated\" OR \"AI video\" OR \"AI girlfriend\" OR \"AI boyfriend\" OR \"replaced by AI\" OR \"because of AI\" OR \"used ChatGPT\" OR \"asked ChatGPT\" OR deepfake OR \"AI slop\" OR \"AI scam\" OR \"robot dog\" OR humanoid) lang:en",
+ "viral_discovery_min_faves": 5000,
+ "_comment_viral": "viral_discovery (owner 2026-10-06): human-interest AI stories people share (jobs, money, celebrities, scams, weird or funny AI). Discovery only: needs an official/outlet/newsroom confirmation like the other discovery lane."
 }
