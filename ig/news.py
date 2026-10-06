@@ -106,6 +106,8 @@ def en_candidates(reels):
             continue
         if gates.POLITICS.search(r["text"]) or re.fullmatch(r"\S*https?://\S+", r["text"]):
             continue
+        if r["author"].lower() in gates.POLITICIANS:
+            continue
         v = r.get("video")
         if reels and r["lane"] == "discovery" and not TECH.search(r["text"]):
             continue  # random viral clips: only when the post itself is about tech

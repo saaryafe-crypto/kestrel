@@ -31,6 +31,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 POLITICS = re.compile(r"\b(trump|biden|newsom|white house|election|senat|congress|democrat|republican|"
                       r"immigra|deport|migrant|shooting|war|iran|gaza|ukraine|russia|"
                       r"usaid|regime)\b", re.I)
+# politicians' own accounts: their AI posts are politics (Newsom's "AI stays AI"
+# executive order troll reached the 2026-10-06 preview); lowercase handles
+POLITICIANS = {"gavinnewsom", "realdonaldtrump", "potus", "whitehouse", "jdvance", "vp",
+               "speakerjohnson", "senschumer", "aoc", "berniesanders", "kamalaharris"}
 TOPICS = ["ai_lab_or_model", "big_tech_product", "chips", "robots_or_self_driving",
           "major_launch", "big_deal_funding_ipo", "ai_law_or_lawsuit", "ai_and_people", "off"]
 X_ID = re.compile(r"(?:x|twitter)\.com/\w+/status/(\d+)|-reel-(\d{15,})")
