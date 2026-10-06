@@ -38,4 +38,4 @@ def main(lang, kind, idx):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:4])
+    main(*sys.argv[2:5])  # argv[1] is the "wait" subcommand
