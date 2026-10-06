@@ -1,0 +1,35 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "אלטמן: AI יגרום נזק, והעולם צריך להשלים עם זה",
+ "story12": "OpenAI CEO: AI will cause harm but we cannot stop it",
+ "entities": [
+  {
+   "name": "Sam Altman",
+   "aliases": [
+    "סם אלטמן"
+   ]
+  },
+  {
+   "name": "OpenAI",
+   "aliases": [
+    "OpenAI"
+   ]
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-06",
+ "sources": [
+  "https://www.ynet.co.il/digital/technews/article/s1yr9pgsme",
+  "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OT3M4NUJNOFUxVng2X21jMkZUZmY1QjZQN083RkZXaE1INDhqQjA1MVdFdm1mQ3ZsdzAxMzBNYU1LUE10VVdvTElYNFZYWXFWeFdmYVgxdG9KQTYxUy1zQTJicDY?oc=5",
+  "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVHFqMkNpUlJzUVd6V0MwdDJkaFZBZWp6dFdnOEI1eUdaVWpyWndEcF9FS0NBTjZSRE4xUmhjMF9peEhPNGJJQ0thazc4SklWZnJyX1NwZzNhMHg2X0UwN3JYbi1CM0llbjAyVjczcl9nbUxpQy1xU3ZrRFpfTXNEYjJ5ZnNfQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vOGlRMURIMVFobGppeUU5VUMwRzBpUV94R3p4MHliUjdxMVVxbEYwY3BtZHgzUDhyaXVLZ0VST2dCTE5YUXJ0Z2ZSWmRHZ0VqY3NPYnhZdEZkLWdNRUtLd3NZMGxlTnFm?oc=5",
+  "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOUmJTdnJVWTNDbU9EQURMczhTbE42aGVjX2FGLVpqZ0ZDR3lvSVZtaTdra2pQR3FTWEl2X3J1ZE5OYjBHN0pnM3ZBSEEtMHM5c2xBS2w3Q29qb1N2eHloSG1hMElGRDhfMnA0OW9WR0hDQVp1dzA3WmxBV09zaGlRY2pVM2dNU3g2YXNFMXMzZXd6QkNfM0kxejk5Y1BrdmRublNFQU1NR3hIZTI3ZmtSMjN5dzZkVXZXVlhvaVpTV3ZPYm81VHhDUjFyM1M4UTU5TG4wZ01zclVrRFVoS2VVclR0R09UUFB3bHZZRjR4MnltNUp5X044NGczR1djd0phMEtQOEVNaTBzQjliOHpGT3U5My12MHB2bW5pRmJ2QkNiWExsaHFLOTRfSEVRT01KWGQySHRzQVZkOHdXTGJQejVVb2FqSl9seG5EZzlXSF95OWhFdlRr?oc=5"
+ ],
+ "story": {
+  "link": "https://www.ynet.co.il/digital/technews/article/s1yr9pgsme"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
