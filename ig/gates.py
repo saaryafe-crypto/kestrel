@@ -186,3 +186,88 @@ def apply(stories, cands, lang, recent, today, reels=False, log=print):
         if not why:
             ok.append(s)
     return ok
+
+
+# ---------- reel hook (owner 2026-10-06) ----------
+# The on-screen reel hook describes the visual moment the viewer is about to
+# see, curious/shocking, max ~8 words. Company, country, place and source go
+# in the caption only; no "AI" jargon on screen.
+HOOK_MAX_WORDS = 9  # prompt asks for 8; one word of slack
+PLACES_EN = ("israel|usa|america|united states|china|japan|korea|taiwan|india|russia|ukraine|"
+             "germany|france|britain|uk|england|europe|eu|italy|spain|finland|sweden|norway|"
+             "denmark|netherlands|switzerland|canada|mexico|brazil|australia|singapore|dubai|uae|"
+             "saudi|iran|turkey|egypt|africa|asia|silicon valley|california|texas|new york|"
+             "san francisco|london|paris|berlin|tokyo|beijing|shanghai|shenzhen|seoul|"
+             "tel aviv|jerusalem|haifa|helsinki|moscow|washington")
+PLACES_HE = ("ישראל|ארה\"ב|ארצות הברית|אמריקה|סין|יפן|קוריאה|טייוואן|הודו|רוסיה|אוקראינה|"
+             "גרמניה|צרפת|בריטניה|אנגליה|אירופה|איטליה|ספרד|פינלנד|שוודיה|נורבגיה|דנמרק|הולנד|"
+             "שווייץ|קנדה|מקסיקו|ברזיל|אוסטרליה|סינגפור|דובאי|אמירויות|סעודיה|איראן|טורקיה|מצרים|"
+             "אפריקה|אסיה|עמק הסיליקון|קליפורניה|טקסס|ניו יורק|סן פרנסיסקו|לונדון|פריז|ברלין|"
+             "טוקיו|בייג'ינג|שנגחאי|סיאול|תל אביב|ירושלים|חיפה|הלסינקי|מוסקבה|וושינגטון")
+# plain "AI" is allowed when it IS the twist ("No engineer touched this");
+# jargon (model names are caught as names below) is not (owner 2026-10-06)
+JARGON = re.compile(r"\bAGI\b|\bLLMs?\b|\bGPT|\bbenchmark|\bparameters?\b|\btokens?\b|\bprompt engineering|"
+                    r"מודל שפה|בנצ'מרק|פרמטרים", re.I)
+
+
+STOP = set("with into from that this their them they what when where which while about after "
+           "before over under onto just very then than have been were will your into".split())
+
+
+def _stems(text):
+    """Content-word stems: Latin words >=4 letters (minus plural/verb endings),
+    Hebrew words >=3 letters with one leading prefix letter dropped."""
+    out = set()
+    for w in re.findall(r"[\w']+", text.lower()):
+        if re.match(r"^[a-z']+$", w):
+            if len(w) >= 4 and w not in STOP:
+                out.add(re.sub(r"(ing|ed|es|s)$", "", w)[:6])
+        elif re.search("[\u0590-\u05ff]", w) and len(w) >= 3:
+            out.add(w[1:] if w[0] in "בלמהושכ" and len(w) >= 4 else w)
+    return out
+
+
+def hook_errors(hook, story, payoff=""):
+    """Reasons a reel hook breaks the owner rules ([] = ok)."""
+    errs = []
+    if not payoff.strip():
+        errs.append('return "payoff" (the climax the hook hides)')
+    else:
+        hs = _stems(hook)
+        # hook word matches a payoff word (Hebrew: either contains the other, for prefixes)
+        leak = [p for p in _stems(payoff) if any(p == h or (len(p) >= 3 and len(h) >= 3 and
+                                                             re.search("[\u0590-\u05ff]", p) and (p in h or h in p))
+                                                 for h in hs)]
+        if leak:
+            errs.append(f"reel hook reveals the payoff ({leak}); build anticipation, never say what happens")
+    words = [w for w in re.split(r"\s+", hook.strip()) if w]
+    if len(words) > HOOK_MAX_WORDS:
+        errs.append(f"reel hook max 8 words (has {len(words)})")
+    names = [story.get("company") or ""]
+    for e in story.get("entities") or []:
+        names += [e.get("name") or "", *(e.get("aliases") or [])]
+    # "Figure AI" also catches a bare "Figure"; drop suffixes like AI / Inc / Labs
+    names += [re.sub(r"\s+(AI|Inc\.?|Labs?|Robotics|Technologies)$", "", n, flags=re.I) for n in names]
+    for n in {n.strip() for n in names if len(n.strip()) >= 3}:
+        latin = re.match(r"^[\x00-\x7f]+$", n)
+        # Hebrew takes one-letter prefixes (ב/ל/מ/ה/ו/ש/כ), so no word boundary there
+        pat = rf"(?<![\w]){re.escape(n)}(?![\w])" if latin else re.escape(n)
+        if re.search(pat, hook, re.I):
+            errs.append(f"reel hook names '{n}' (company/person names go in the caption only)")
+    # brand/product names the entity list missed (Claude, Optimus, Gemini):
+    # a capitalized word after the first one in English, any Latin word in Hebrew
+    if re.search("[\u0590-\u05ff]", hook):
+        latin = [w for w in re.findall(r"\b[A-Za-z][\w.'-]*", hook) if w != "AI"]
+    else:
+        # the first word of each sentence may be capitalized ("...by hand. Watch closely")
+        latin = [w for sent in re.split(r"[.!?:]\s+", hook)
+                 for w in re.findall(r"\b[A-Za-z][\w'-]*", sent)[1:]
+                 if w[0].isupper() and w not in ("I", "AI")]
+    if latin:
+        errs.append(f"reel hook has name-like words {latin} (names go in the caption only)")
+    place = (re.search(rf"\b({PLACES_EN})\b", hook, re.I) or re.search(rf"({PLACES_HE})", hook))
+    if place:
+        errs.append(f"reel hook names a place '{place.group(0)}' (places go in the caption only)")
+    if JARGON.search(hook):
+        errs.append(f"reel hook uses jargon '{JARGON.search(hook).group(0)}' (no AI jargon on screen)")
+    return errs

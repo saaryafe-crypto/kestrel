@@ -13,7 +13,7 @@ import html, json, os, re, shutil, subprocess, sys, tempfile, urllib.parse, urll
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-import gates, llm, news_card
+import gates, llm, news_card, reel_frame
 from pages import PAGES
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -154,6 +154,29 @@ Never repeat the lead in other words; if the material is thin, write just 2 line
 Each caption line is one short sentence (max 110 characters) stating a fact from the material. No commentary, no "one of the most", no predictions, nothing the material does not say."""
 
 
+# owner rules 2026-10-06: the reel's on-screen text is a HOOK for the clip,
+# not a headline. It builds anticipation (watch and wait for the moment) and
+# never reveals the payoff; names/places/source live only in the caption.
+REEL_HOOK = """THIS IS A REEL: "headline" is the ON-SCREEN HOOK over the video, not a news headline.
+The hook creates ANTICIPATION: the viewer must watch the video and wait for the moment.
+Describe the moment they are about to see in plain everyday words, and NEVER reveal the payoff
+(what actually happens at the climax). Examples of the style:
+  Hebrew: "הנה מה שעושים לרובוט שהפסיק לעבוד", "חכו לסוף", "תראו מה קורה כשהוא מגיע לקצה"
+  English: "Watch what happens to a retired robot", "Wait for the end", "Here's what they do with an old robot"
+Point the hook at the SURPRISE or the stakes: why this clip is crazy (who or what made it, what is
+unbelievable about it), and keep the anticipation ("Watch..."). NEVER just name the object; nobody
+cares about "a water wheel". For a full working 3D mill built from one AI prompt:
+  Good: "Nobody built this by hand. Watch closely", "No engineer touched this. Watch"
+  Hebrew good: "אף אחד לא בנה את זה ביד. תסתכלו", "שום מהנדס לא נגע בזה. חכו"
+  Bad (just names the object): "Watch this water wheel come to life"
+Bad (reveals the payoff): "Robot melts in molten steel". Bad (names): "Figure AI robot in Finland".
+Max 8 words. NO company, product, model, brand or person names. NO country, city or place names.
+Saying plain "AI" (or "בינה מלאכותית") is fine only when that IS the surprise; no tech jargon
+(model names, LLM, benchmark, parameters). Company, country and source go ONLY in "lead" and "lines" (the caption).
+"lead" stays the full news sentence (who did what, where); never repeat the hook in the caption.
+Also return "payoff": the climax the hook hides, 2-5 words, without the subject (e.g. "melted in molten steel")."""
+
+
 def write(story, lang, reel=False, extra=""):
     facts = []
     for m in story["members"][:5]:
@@ -170,12 +193,15 @@ SOURCE MATERIAL (the only facts you may use):
 {"The video credit is the ORIGINAL uploader: " + story['video']['orig_user'] + " on X. The headline must describe exactly what the clip shows." if reel else ""}
 {extra}
 {WRITE_HINT.replace('LIMIT', '55' if he else '70')}
+{REEL_HOOK if reel else ""}
 {"Hashtags in Hebrew (Latin brand names like #OpenAI are fine). Source line names the Israeli outlets." if he else ""}"""
     for attempt in range(3):
         w = llm.call(prompt)
         w = {k: (llm.clean(v) if isinstance(v, str) else [llm.clean(x) for x in v] if isinstance(v, list) else v)
              for k, v in w.items()}
         errs = qa(w, lang)
+        if reel and w.get("headline"):
+            errs += gates.hook_errors(w["headline"], story, w.get("payoff") or "")
         if not errs:
             return w
         log(f"  writer QA failed: {errs}")
@@ -380,21 +406,33 @@ def black_bars(src, dur_s):
     return f"crop={cw}:{ch}:{x0}:{y0},"
 
 
-def build_reel_video(src, overlay_png, top, out, dur_s):
-    """Clip fills the transparent area under the headline box: fit inside
-    (never zoomed/cropped), blurred copy of itself behind it. Black bars
-    baked into the source are cropped off first."""
-    ah = 1920 - top
+def src_size(src, crop):
+    """(w, h) of the clip after the black-bar crop."""
+    if crop:
+        cw, ch = crop[5:].split(":")[:2]
+        return int(cw), int(ch)
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                        "stream=width,height", "-of", "csv=p=0", src],
+                       capture_output=True, text=True, check=True)
+    w, h = r.stdout.strip().split(",")[:2]
+    return int(w), int(h)
+
+
+def build_reel_video(src, frame_png, hole, crop, out, dur_s):
+    """Tweet-style reel (owner 2026-10-06): the clip at its own aspect ratio
+    fills the frame's rounded hole (no blur, no zoom; clips taller than 4:5
+    are center-cropped to 4:5), the frame PNG on top. Black bars baked into
+    the source are cropped off first. 2px bleed so no seam shows at the
+    hole's anti-aliased edge."""
+    x, y, w, h = hole
+    bw, bh = w + 4, h + 4
     clip = min(dur_s, 59)
-    vf = (f"[0:v]{black_bars(src, dur_s)}split[a][b];"
-          f"[a]scale=1080:{ah}:force_original_aspect_ratio=increase,crop=1080:{ah},"
-          f"boxblur=24:2,eq=brightness=-0.18[bg];"
-          f"[b]scale=1080:{ah - 340}:force_original_aspect_ratio=decrease[fg];"
-          f"[bg][fg]overlay=(W-w)/2:max(0\\,({ah}-340-h)/2)[mid];"
-          f"[mid]pad=1080:1920:0:{top}:color=black[base];"
+    vf = (f"[0:v]{crop}scale={bw}:{bh}:force_original_aspect_ratio=increase,crop={bw}:{bh},setsar=1[fg];"
+          f"color=c=0x050505:s=1080x1920:r=30[bg];"
+          f"[bg][fg]overlay={x - 2}:{y - 2}:shortest=1[base];"
           f"[base][1:v]overlay=0:0,format=yuv420p[v]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-t", str(clip), "-i", src,
-                    "-i", overlay_png, "-filter_complex", vf, "-map", "[v]", "-map", "0:a?",
+                    "-i", frame_png, "-filter_complex", vf, "-map", "[v]", "-map", "0:a?",
                     "-c:v", "libx264", "-preset", "medium", "-b:v", "6M", "-r", "30",
                     "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", out], check=True)
 
@@ -561,12 +599,12 @@ def make_reel(s, lang, day, root, work):
         return None
     post_dir = os.path.join(root, f"{day}-reel-{slug(w['headline'] if lang == 'en' else s['story12'])}")
     os.makedirs(post_dir, exist_ok=True)
-    card = {"format": "reel", "lang": lang, "headline": w["headline"], "kicker": w.get("kicker") or "",
-            "credit": f"Video: {v['orig_user']} on X"}
+    crop = black_bars(src, v["ms"] / 1000)
+    sw, sh = src_size(src, crop)
     ov = os.path.join(post_dir, "overlay.png")
-    top = news_card.render_overlay(card, ov)
+    hole = reel_frame.render(lang, w["headline"], v["orig_user"], sw / sh, ov)
     out = os.path.join(post_dir, "reel.mp4")
-    build_reel_video(src, ov, top, out, v["ms"] / 1000)
+    build_reel_video(src, ov, hole, crop, out, v["ms"] / 1000)
     if os.path.getsize(out) < 200_000:
         shutil.rmtree(post_dir)
         return None
