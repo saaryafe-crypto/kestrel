@@ -204,7 +204,10 @@ PLACES_HE = ("ישראל|ארה\"ב|ארצות הברית|אמריקה|סין|י
              "שווייץ|קנדה|מקסיקו|ברזיל|אוסטרליה|סינגפור|דובאי|אמירויות|סעודיה|איראן|טורקיה|מצרים|"
              "אפריקה|אסיה|עמק הסיליקון|קליפורניה|טקסס|ניו יורק|סן פרנסיסקו|לונדון|פריז|ברלין|"
              "טוקיו|בייג'ינג|שנגחאי|סיאול|תל אביב|ירושלים|חיפה|הלסינקי|מוסקבה|וושינגטון")
-JARGON = re.compile(r"\bA\.?I\b|\bAGI\b|\bLLMs?\b|\bGPT|בינה מלאכותית|\bבינה\b", re.I)
+# plain "AI" is allowed when it IS the twist ("No engineer touched this");
+# jargon (model names are caught as names below) is not (owner 2026-10-06)
+JARGON = re.compile(r"\bAGI\b|\bLLMs?\b|\bGPT|\bbenchmark|\bparameters?\b|\btokens?\b|\bprompt engineering|"
+                    r"מודל שפה|בנצ'מרק|פרמטרים", re.I)
 
 
 STOP = set("with into from that this their them they what when where which while about after "
@@ -254,9 +257,12 @@ def hook_errors(hook, story, payoff=""):
     # brand/product names the entity list missed (Claude, Optimus, Gemini):
     # a capitalized word after the first one in English, any Latin word in Hebrew
     if re.search("[\u0590-\u05ff]", hook):
-        latin = re.findall(r"\b[A-Za-z][\w.'-]*", hook)
+        latin = [w for w in re.findall(r"\b[A-Za-z][\w.'-]*", hook) if w != "AI"]
     else:
-        latin = [w for w in re.findall(r"\b[A-Za-z][\w.'-]*", hook)[1:] if w[0].isupper() and w != "I"]
+        # the first word of each sentence may be capitalized ("...by hand. Watch closely")
+        latin = [w for sent in re.split(r"[.!?:]\s+", hook)
+                 for w in re.findall(r"\b[A-Za-z][\w'-]*", sent)[1:]
+                 if w[0].isupper() and w not in ("I", "AI")]
     if latin:
         errs.append(f"reel hook has name-like words {latin} (names go in the caption only)")
     place = (re.search(rf"\b({PLACES_EN})\b", hook, re.I) or re.search(rf"({PLACES_HE})", hook))

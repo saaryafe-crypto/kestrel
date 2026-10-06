@@ -163,9 +163,16 @@ Describe the moment they are about to see in plain everyday words, and NEVER rev
 (what actually happens at the climax). Examples of the style:
   Hebrew: "הנה מה שעושים לרובוט שהפסיק לעבוד", "חכו לסוף", "תראו מה קורה כשהוא מגיע לקצה"
   English: "Watch what happens to a retired robot", "Wait for the end", "Here's what they do with an old robot"
+Point the hook at the SURPRISE or the stakes: why this clip is crazy (who or what made it, what is
+unbelievable about it), and keep the anticipation ("Watch..."). NEVER just name the object; nobody
+cares about "a water wheel". For a full working 3D mill built from one AI prompt:
+  Good: "Nobody built this by hand. Watch closely", "No engineer touched this. Watch"
+  Hebrew good: "אף אחד לא בנה את זה ביד. תסתכלו", "שום מהנדס לא נגע בזה. חכו"
+  Bad (just names the object): "Watch this water wheel come to life"
 Bad (reveals the payoff): "Robot melts in molten steel". Bad (names): "Figure AI robot in Finland".
-Max 8 words. NO company, product, brand or person names. NO country, city or place names.
-No "AI" or tech jargon. Company, country and source go ONLY in "lead" and "lines" (the caption).
+Max 8 words. NO company, product, model, brand or person names. NO country, city or place names.
+Saying plain "AI" (or "בינה מלאכותית") is fine only when that IS the surprise; no tech jargon
+(model names, LLM, benchmark, parameters). Company, country and source go ONLY in "lead" and "lines" (the caption).
 "lead" stays the full news sentence (who did what, where); never repeat the hook in the caption.
 Also return "payoff": the climax the hook hides, 2-5 words, without the subject (e.g. "melted in molten steel")."""
 
