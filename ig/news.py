@@ -383,8 +383,34 @@ def slug(t):
     return s or "story"
 
 
-def build(kind, lang, day, out_root=None, extra_hist=()):
+def slot_taken(kind, lang, day, slot):
+    """Post dir already reserved for this page/kind/day/slot (by a cron run or
+    by the backup dispatch, backup_dispatch.py): never build a second one."""
+    root = os.path.join(HERE, PAGES[lang]["posts"])
+    for d in os.listdir(root) if os.path.isdir(root) else []:
+        pj = os.path.join(root, d, "post.json")
+        if d.startswith(day) and os.path.exists(pj):
+            try:
+                p = json.load(open(pj))
+            except Exception:
+                continue
+            if p.get("kind") == kind and p.get("slot_time") == day and str(p.get("slot")) == str(slot):
+                return d
+    return None
+
+
+def build(kind, lang, day, out_root=None, extra_hist=(), slot=None):
     reels = kind == "reel"
+    if slot not in (None, "now"):
+        taken = slot_taken(kind, lang, day, slot)
+        if taken:
+            print(f"SKIP: {lang} {kind} slot {slot} already has {taken}")
+            return None
+        import slot as slotmod
+        late = (datetime.now(ZoneInfo(PAGES[lang]["tz"])) - slotmod.target(lang, kind, slot)).total_seconds()
+        if late > slotmod.MAX_LATE_S or late < -5 * 3600:  # < -5h: the run crossed local midnight
+            print(f"SKIP: {lang} {kind} slot {slot} is {late / 60:.0f} min past (the next slot covers it)")
+            return None
     recent = gates.history(lang, extra_dirs=extra_hist)
     if lang == "he" and not reels:
         cands = he_candidates()
@@ -397,10 +423,15 @@ def build(kind, lang, day, out_root=None, extra_hist=()):
         s["members"] = [by_id[i] for i in s.get("ids", []) if i in by_id]
     ok = gates.apply(stories, cands, lang, recent, day, reels=reels, log=log)
     if lang == "he" and not reels:
-        # Hebrew virality = outlets: a global story needs 2+ Israeli outlets
-        thin = [s for s in ok if not s.get("israeli_angle") and len({m["outlet"] for m in s["members"]}) < 2]
+        # a global story needs one established Israeli newsroom (il_news.REPUTABLE)
+        # or 2+ outlets; small sites alone are not enough (2026-10-06: the old
+        # "2+ outlets" rule killed nearly every Hebrew slot)
+        from il_news import REPUTABLE
+        thin = [s for s in ok if not s.get("israeli_angle")
+                and len({m["outlet"] for m in s["members"]}) < 2
+                and not any(m["outlet"] in REPUTABLE for m in s["members"])]
         for s in thin:
-            log(f"  kill (1 outlet, no Israeli angle) {s['story12']}")
+            log(f"  kill (1 small outlet, no Israeli angle) {s['story12']}")
         ok = [s for s in ok if s not in thin]
         he_score(ok, recent, day)
         ok.sort(key=lambda s: -s["score"])
@@ -412,8 +443,9 @@ def build(kind, lang, day, out_root=None, extra_hist=()):
             log("  Israeli quota: last card slot goes to an Israel-angle story")
             ok = il
     root = out_root or os.path.join(HERE, PAGES[lang]["posts"])
-    for s in ok[:4]:
+    for s in ok[:6]:
         log(f"  building: {s['story12']}")
+        s["slot"] = slot
         work = tempfile.mkdtemp()
         try:
             res = (make_reel if reels else make_card)(s, lang, day, root, work)
@@ -431,24 +463,28 @@ def enrich(s):
     links = [l for m in s["members"] for l in (m.get("links") or [m.get("link")]) if l]
     # direct article links first, then resolved Google News links
     links = sorted(links, key=lambda l: "news.google." in l)
-    for l in links[:3]:
+    for l in links[:4]:
         if "news.google." in l:
             l = gnews_url(l)
             if not l:
                 continue
         img, text = article(l)
-        if text:
-            s["article"], s["og_image"] = text, img
-            s["article_outlet"] = next((m.get("outlet") for m in s["members"] if m.get("link") == l), None) \
-                or re.sub(r"^www\.", "", urllib.parse.urlparse(l).netloc)
-            break
+        # a bot-check page (ynet blocks CI runners) has no og tags and no
+        # paragraphs: text is just "." -> not an article, try the next link
+        if len(text) < 150:
+            log(f"  no article text at {l[:70]} (blocked?)")
+            continue
+        s["article"], s["og_image"] = text, img
+        s["article_outlet"] = next((m.get("outlet") for m in s["members"] if m.get("link") == l), None) \
+            or re.sub(r"^www\.", "", urllib.parse.urlparse(l).netloc)
+        break
 
 
 def finish(post_dir, w, s, lang, day, kind, extra):
     meta = {"lang": lang, "kind": kind, "headline": w["headline"], "story12": s["story12"],
             "entities": s.get("entities"), "company": s.get("company"),
             "musk": bool(s.get("musk_world")), "israeli": bool(s.get("israeli_angle")),
-            "slot_time": day, "sources": [m.get("url") or m.get("link") for m in s["members"]],
+            "slot_time": day, "slot": s.get("slot"), "sources": [m.get("url") or m.get("link") for m in s["members"]],
             "story": {"link": (s["members"][0].get("url") or s["members"][0].get("link"))}, **extra}
     json.dump(meta, open(os.path.join(post_dir, "post.json"), "w"), indent=1, ensure_ascii=False)
 
@@ -530,7 +566,8 @@ def main():
             if d:
                 made.append(d)
         return
-    if not build(kind, lang, day):
+    slot = a[a.index("--slot") + 1] if "--slot" in a else None
+    if not build(kind, lang, day, slot=slot):
         sys.exit(0)
 
 

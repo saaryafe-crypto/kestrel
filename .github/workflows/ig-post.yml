@@ -1,4 +1,5 @@
 name: IG news card EN
+run-name: "${{ github.workflow }} | ${{ github.event.schedule || format('slot {0}', inputs.slot) }}"
 # Fires 2-3h before each slot (GitHub crons run late); _news.yml builds,
 # then waits until the slot's local time (pages.py) and publishes.
 on:

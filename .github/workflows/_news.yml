@@ -42,7 +42,7 @@ jobs:
         run: |
           set -o pipefail
           cd ig
-          python news.py ${{ inputs.kind }} ${{ inputs.lang }} | tee /tmp/build.log
+          python news.py ${{ inputs.kind }} ${{ inputs.lang }} --slot ${{ inputs.slot }} | tee /tmp/build.log
           POST_DIR=$(sed -n 's/^post ready: //p' /tmp/build.log | tail -1)
           if [ -z "$POST_DIR" ]; then
             echo "nothing passed the gates: empty slot"

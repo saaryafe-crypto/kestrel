@@ -14,6 +14,10 @@ from zoneinfo import ZoneInfo
 
 from pages import PAGES
 
+# a run that starts more than this after its slot skips it: a 7h-late cron
+# (seen 2026-10-06) would otherwise post on top of the next slot
+MAX_LATE_S = 150 * 60
+
 
 def target(lang, kind, idx, now=None):
     p = PAGES[lang]
@@ -32,6 +36,9 @@ def main(lang, kind, idx):
           + (f"waiting {wait / 60:.0f} min" if wait > 0 else f"late by {-wait / 60:.0f} min, publishing now"))
     if wait > 5 * 3600:  # the run crossed local midnight: this slot is gone
         print("slot already passed yesterday, not publishing")
+        sys.exit(3)
+    if -wait > MAX_LATE_S + 3600:  # news.py checks MAX_LATE_S before building; +1h for the build
+        print("too late for this slot, not publishing (the next slot covers it)")
         sys.exit(3)
     if wait > 0:
         time.sleep(wait)

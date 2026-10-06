@@ -9,7 +9,8 @@ mechanical, in this order:
   4. 14-day dedupe (same entity + same event), unless a new hard fact
   5. Musk-world: max 1 per page per 7 days, and only if it moves >=3x faster
      than the best other story (the page is NOT about any person)
-  6. no person/company in more than 2 of the page's last 10 posts
+  6. the story's subject (main company / person in story12) not in 2+ of
+     the page's last 10 posts (headline + lead)
   7. max 1 story per company per day
 Nothing passes = the slot stays empty (better skip than filler)."""
 import json, os, re, sys
@@ -162,8 +163,15 @@ def apply(stories, cands, lang, recent, today, reels=False, log=print):
         elif reels and not s.get("video_is_news"):
             why = "video is not the news"
         else:
-            for e in s.get("entities") or []:
-                n = sum(mentions(h["text"], e) for h in last10)
+            # cap only the story's SUBJECT (its main company or a name in
+            # story12), counted in past headlines/leads: the editor also lists
+            # side entities, which killed an Anthropic story as "Nvidia already
+            # in 2 of the last 10" (2026-10-06)
+            co = s.get("company") or ""
+            subj = [e for e in s.get("entities") or []
+                    if (co and (e.get("name") or "").lower() == co.lower()) or mentions(s.get("story12") or "", e)]
+            for e in subj:
+                n = sum(mentions(h["text"][:300], e) for h in last10)
                 if n >= 2:
                     why = f"{e.get('name')} already in {n} of the last 10 posts"
                     break

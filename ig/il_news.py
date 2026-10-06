@@ -22,6 +22,15 @@ FEEDS = {
     "gnews_calcalist": "https://news.google.com/rss/search?q=site%3Acalcalist.co.il%20%28%D7%91%D7%99%D7%A0%D7%94%20%D7%9E%D7%9C%D7%90%D7%9B%D7%95%D7%AA%D7%99%D7%AA%20OR%20%D7%94%D7%99%D7%99%D7%98%D7%A7%20OR%20%D7%A1%D7%98%D7%90%D7%A8%D7%98%D7%90%D7%A4%20OR%20%D7%A1%D7%99%D7%99%D7%91%D7%A8%20OR%20%D7%90%D7%A4%D7%9C%20OR%20%D7%92%D7%95%D7%92%D7%9C%20OR%20%D7%A9%D7%91%D7%91%D7%99%D7%9D%20OR%20OpenAI%29%20when%3A2d&hl=he&gl=IL&ceid=IL:he",
 }
 BLOCK = {"Vietnam.vn"}  # Google News leaks machine-translated mirrors
+# one outlet, one name (Google News names ynet "ynet.co.il", the direct feed "ynet")
+CANON = {"ynet.co.il": "ynet", "calcalist": "כלכליסט", "www.calcalist.co.il": "כלכליסט",
+         "israelhayom.co.il": "ישראל היום", "globes.co.il": "גלובס", "themarker.com": "TheMarker",
+         "geektime.co.il": "גיקטיים", "haaretz.co.il": "הארץ", "maariv.co.il": "מעריב"}
+# established Israeli newsrooms: one of them carrying a global story is
+# enough for the Hebrew page (gates in news.py); small sites need a 2nd outlet
+REPUTABLE = {"גיקטיים", "ynet", "גלובס", "כלכליסט", "TheMarker", "הארץ", "מעריב", "mako",
+             "ישראל היום", "וואלה", "N12", "כאן", "i24NEWS", "ice (אייס)", "אנשים ומחשבים",
+             "ביזפורטל", "דבר", "davar1.co.il", "מקור ראשון", "The Times of Israel"}
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh) AppleWebKit/537.36 Chrome/120 Safari/537.36"}
 
 
@@ -51,12 +60,21 @@ def harvest():
                 src = it.find("source")
                 outlet = (src.text if src is not None else "").strip() or outlet
                 title = re.sub(r"\s+-\s+[^-]+$", "", title)
+            outlet = CANON.get(outlet, outlet)
             if outlet in BLOCK:
                 continue
             img = None
             for el in it:
                 if el.tag.endswith("content") or el.tag.endswith("thumbnail") or el.tag == "enclosure":
                     img = img or el.attrib.get("url")
+            if not img:
+                # ynet/Geektime put the article photo inside the description /
+                # content:encoded HTML (their pages block CI runners, so this
+                # is often the only photo a GitHub run can get)
+                body = g("description") + "".join(el.text or "" for el in it if el.tag.endswith("encoded"))
+                m = re.search(r"<img[^>]+src=[\"']([^\"']+)", html.unescape(body))
+                if m:
+                    img = m.group(1).replace("_medium.jpg", "_large.jpg")
             items.append({"id": f"he{len(items)}", "outlet": outlet, "title": title,
                           "link": g("link"), "age_h": round(age, 1), "img": img,
                           "desc": re.sub(r"<[^>]+>", "", html.unescape(g("description")))[:300]})
