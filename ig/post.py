@@ -62,6 +62,8 @@ def alert_bare_cover(post_dir):
         if not os.path.exists(pj):
             pj = os.path.join(post_dir, "post-he.json")
         p = json.load(open(pj))
+        if "photo_credit" in p:  # news-card format (2026-10-05): photo is baked into slide-1.jpg, never bare
+            return
         cover = (p.get("items") or p.get("slides") or [{}])[0]
         problem = ("no cover image at all" if not cover.get("media") else
                    f"cover fallback: {p['cover_fallback']}" if p.get("cover_fallback")
