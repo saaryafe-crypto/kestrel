@@ -105,7 +105,7 @@ def en_candidates(reels):
         tag = {"official": "[O]", "outlets": "[N]", "discovery": "[D]"}[r["lane"]]
         out.append({**r, "tag": tag + (" [V]" if v else "") + f" @{r['author']}",
                     "text": r["text"] + (f" (quoting: {r['quoted']})" if r.get("quoted") else "")})
-    return out[:25 if reels else 45]
+    return out[:40 if reels else 45]
 
 
 def he_candidates():
@@ -258,6 +258,29 @@ def wiki_images(name, n=2):
     except Exception as e:
         log(f"  wiki images failed for {name}: {e}")
     return out
+
+
+def logo(story, workdir):
+    """(path, credit, name) of the story's main company logo: the repo's own
+    ig/logos/<name>.svg, else the Wikipedia infobox image when it is a logo
+    file (Wikimedia Commons); (None, "", name) when there is none."""
+    names = [n for n in [story.get("company")] + [e.get("name") for e in story.get("entities") or []] if n]
+    for n in names[:2]:
+        local = os.path.join(HERE, "logos", re.sub(r"[^a-z0-9]", "", n.lower()) + ".svg")
+        if os.path.exists(local):
+            return local, "", n
+        try:
+            d = json.loads(get("https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(
+                {"action": "query", "format": "json", "titles": n, "prop": "pageimages",
+                 "piprop": "thumbnail|name", "pithumbsize": 900, "redirects": 1})))
+            for pg in d.get("query", {}).get("pages", {}).values():
+                if "logo" in (pg.get("pageimage") or "").lower() and pg.get("thumbnail"):
+                    p = os.path.join(workdir, "logo.png")
+                    open(p, "wb").write(get(pg["thumbnail"]["source"]))
+                    return p, "Logo: Wikimedia Commons", n
+        except Exception as e:
+            log(f"  logo lookup failed for {n}: {e}")
+    return None, "", (names[0] if names else "")
 
 
 def photo(story, workdir):
@@ -443,7 +466,7 @@ def build(kind, lang, day, out_root=None, extra_hist=(), slot=None):
             log("  Israeli quota: last card slot goes to an Israel-angle story")
             ok = il
     root = out_root or os.path.join(HERE, PAGES[lang]["posts"])
-    for s in ok[:6]:
+    for s in ok[:10]:  # owner 2026-10-06: keep going down the list (8+ tries)
         log(f"  building: {s['story12']}")
         s["slot"] = slot
         work = tempfile.mkdtemp()
@@ -493,7 +516,13 @@ def make_card(s, lang, day, root, work):
     enrich(s)
     ph = photo(s, work)
     if not ph:
-        return None
+        # owner 2026-10-06: never drop a passing story for lack of a photo;
+        # real photo first, else the company logo / typographic brand card
+        lg, credit, name = logo(s, work)
+        log(f"  photo fallback: {'logo ' + lg if lg else 'typographic card'} ({name})")
+        fb = news_card.render_fallback(lang, name or PAGES[lang]["handle"], lg,
+                                       os.path.join(work, "fallback.png"))
+        ph = {"path": fb, "who": "", "focus": (0.5, 0.5), "credit": credit}
     w = write(s, lang)
     if not w:
         log("  writer failed QA 3 times")
@@ -502,7 +531,7 @@ def make_card(s, lang, day, root, work):
     os.makedirs(post_dir, exist_ok=True)
     news_card.render_card({"lang": lang, "headline": w["headline"], "kicker": w.get("kicker") or "",
                            "photo": ph["path"], "focus": ph["focus"],
-                           "credit": f"Photo: {ph['who']}"},
+                           "credit": ph.get("credit", f"Photo: {ph['who']}")},
                           os.path.join(post_dir, "slide-1.jpg"))
     open(os.path.join(post_dir, "caption.txt"), "w").write(caption(w, lang))
     finish(post_dir, w, s, lang, day, "card", {"photo_credit": ph["who"]})

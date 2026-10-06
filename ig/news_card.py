@@ -162,5 +162,53 @@ def render_card(c, out_jpg):
     return out_jpg
 
 
+FALLBACK_HTML = """<!doctype html><meta charset="utf-8"><style>
+@font-face{font-family:Inter;src:url("FONTS/Inter.ttf")}
+@font-face{font-family:Heebo;src:url("FONTS/Heebo-Variable.ttf")}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:900px;overflow:hidden}
+body{background:radial-gradient(circle at 50% 45%,GLOW,BG 70%);display:flex;
+  align-items:center;justify-content:center;font-family:Inter,Heebo,sans-serif}
+.panel{background:#fff;border-radius:28px;padding:56px 72px;border-bottom:10px solid ACCENT;
+  box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.panel img{display:block;width:560px;height:240px;object-fit:contain}
+.mark{display:block;width:300px;height:300px;margin:0 auto 40px;object-fit:contain}
+.name.small{font-size:84px;border-bottom-width:10px}
+.name{color:#fff;font-weight:800;font-size:120px;letter-spacing:-2px;text-align:center;
+  max-width:960px;line-height:1.05;border-bottom:12px solid ACCENT;padding-bottom:16px}
+</style><body>BODY</body>"""
+
+
+def render_fallback(lang, name, logo, out_png):
+    """No usable real photo (owner 2026-10-06: never drop a passing story for
+    that): brand-colored background with the company's real logo on a white
+    panel, or the company name set in type when no logo exists. Same page
+    colors as the card (EN black/#00E676, HE blue/white). Returns out_png."""
+    bg, glow, accent = (("#050706", "#0d3b24", "#00E676") if lang == "en"
+                        else ("#0A3BA8", "#2f63d6", "#FFFFFF"))
+    # repo logos (ig/logos/*.svg) are white marks: shown on the background
+    # with the name under them; Wikimedia logos are colored: white panel
+    if logo and logo.endswith(".svg"):
+        body = (f'<div><img class="mark" src="file://{logo}"><div class="name small">'
+                f'{html.escape(name)}</div></div>')
+    elif logo:
+        body = f'<div class="panel"><img src="file://{logo}"></div>'
+    else:
+        body = f'<div class="name">{html.escape(name)}</div>'
+
+    page = FALLBACK_HTML.replace("FONTS", FONTS).replace("GLOW", glow).replace(
+        "BG", bg).replace("ACCENT", accent).replace("BODY", body)
+    with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f:
+        f.write(page)
+    try:
+        subprocess.run([CHROME, "--headless", "--disable-gpu", "--hide-scrollbars",
+                        "--allow-file-access-from-files", f"--screenshot={out_png}",
+                        f"--window-size={W},900", "--virtual-time-budget=4000",
+                        f"file://{f.name}"], check=True, capture_output=True, timeout=120)
+    finally:
+        os.unlink(f.name)
+    return out_png
+
+
 if __name__ == "__main__":
     render_card(json.load(open(sys.argv[1])), sys.argv[2])

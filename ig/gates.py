@@ -7,7 +7,7 @@ mechanical, in this order:
   3. discovery-only stories need an official or outlet post (two sources),
      or a real news organization's account among the discovery posts
   4. 14-day dedupe (same entity + same event), unless a new hard fact
-  5. Musk-world: max 1 per page per 7 days, and only if it moves >=3x faster
+  5. Musk-world (main subject only): max 1 per page per 7 days (new-system posts), and only if it moves >=3x faster
      than the best other story (the page is NOT about any person)
   6. the story's subject (main company / person in story12) not in 2+ of
      the page's last 10 posts (headline + lead)
@@ -20,9 +20,6 @@ import llm
 from pages import PAGES
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-MUSK = re.compile(r"\b(musk|elon|spacex|starship|falcon|tesla|cybercab|cybertruck|"
-                  r"fsd|robotaxi|optimus|grok|xai|spacexai|neuralink|starlink|"
-                  r"מאסק|אילון|טסלה|ספייס ?אקס|גרוק|סטארלינק)\b", re.I)
 POLITICS = re.compile(r"\b(trump|biden|election|senat|congress|democrat|republican|"
                       r"immigra|deport|migrant|shooting|war|iran|gaza|ukraine|russia|"
                       r"usaid|regime)\b", re.I)
@@ -42,7 +39,7 @@ def history(lang, days=14, extra_dirs=()):
         name = os.path.basename(d.rstrip("/"))
         if name[:10] < since or not os.path.isdir(d):
             continue
-        text, when, il = "", name[:10], False
+        text, when, il, musk = "", name[:10], False, False
         pj = os.path.join(d, "post.json")
         if os.path.exists(pj):
             try:
@@ -50,6 +47,10 @@ def history(lang, days=14, extra_dirs=()):
                 text = p.get("headline") or ""
                 when = p.get("slot_time") or when
                 il = bool(p.get("israeli"))
+                # Musk cap counts only NEW-system posts (post.json "kind",
+                # since 2026-10-05) whose story the editor marked musk_world;
+                # old posts and side mentions never block (owner 2026-10-06)
+                musk = bool(p.get("kind") and p.get("musk") and when >= "2026-10-05")
             except Exception:
                 pass
         for f in ("caption.txt",):
@@ -62,7 +63,7 @@ def history(lang, days=14, extra_dirs=()):
             except Exception:
                 pass
         if text.strip():
-            out.append({"date": when, "text": text.strip(), "dir": name, "israeli": il})
+            out.append({"date": when, "text": text.strip(), "dir": name, "israeli": il, "musk": musk})
     return sorted(out, key=lambda h: (h["date"], h["dir"]))
 
 
@@ -72,7 +73,7 @@ JUDGE_SCHEMA_HINT = """Return ONLY a JSON list, one object per ON-TOPIC STORY:
   "topic": "<one of: TOPICS>",
   "entities": [{"name": "<person or company named in the story, in ENGLISH spelling>", "aliases": ["<other spellings, including the Hebrew one>"]}],
   "company": "<the ONE main company, or null>",
-  "musk_world": <true if about Musk, Tesla, SpaceX, xAI, Grok, Starlink, Neuralink>,
+  "musk_world": <true only if the story's MAIN subject is Musk, Tesla, SpaceX, xAI, Grok, Starlink or Neuralink; false when one is only a side mention (another company's satellite rides a SpaceX rocket, an airline uses Starlink Wi-Fi)>,
   "dupe_of": <number of the RECENT POSTS line this repeats (same entity AND same event), or null>,
   "new_hard_fact": <true only if dupe_of is set AND this adds a new number, date or verdict>,
   "newsroom": <true only if one of the [D] posts on this story is from a real news organization's own account (a TV station, newspaper, wire service). Employees, fans, influencers and aggregators do NOT count>,
@@ -106,7 +107,7 @@ CANDIDATES (id, source tag, text). Tags: [O] official company/CEO account, [N] n
 RECENT POSTS on this page (last 14 days):
 {rec or "(none)"}
 
-Group the candidates into stories (several candidates can be one story). SKIP off-topic stories completely: list only stories that are on one of the topics below (fewer, shorter objects; anything you leave out is rejected). Judge each listed story honestly:
+Group the candidates into stories (several candidates can be one story). SKIP clearly off-topic stories (politics, war, crime, sports, memes) completely. List the best 12 to 15 stories, best first, when the candidates allow: include borderline tech stories too with honest fields (the mechanical gates after you decide; a short list leaves the slot empty). Judge each listed story honestly:
 - topic "off" for politics, war, crime and police cases (even when AI was the tool, unless a famous company is on trial), local incidents (a first-of-its-kind law or rule is NOT local), macro markets, culture-war, memes, jokes, random people's opinions, analysis or opinion columns ("X is nothing like Y", "why X matters"), vague teasers, personal musings, sports, nature, generic wow clips. A CEO's one-line joke or musing is "off". But a famous tech leader's notable statement in a real interview, hearing or announcement IS news (topic ai_lab_or_model or ai_law_or_lawsuit).
 - story12 must be a real news event (something happened or was announced), told in plain words AND accurately: never swap the real product for a more famous one (a coding-tool or API change is not "ChatGPT"). If it only matters to developers, or needs words like "tokens", "inference", "Codex", "API", "SI", "benchmarks", return null.
 - dupe_of: compare with RECENT POSTS. Same entity and same event = dupe, even from another angle.
@@ -136,7 +137,7 @@ def apply(stories, cands, lang, recent, today, reels=False, log=print):
     by_id = {c["id"]: c for c in cands}
     last10 = recent[-10:]
     week = str((datetime.fromisoformat(today) - timedelta(days=7)).date())
-    musk_week = any(h["date"][:10] >= week and MUSK.search(h["text"][:300]) for h in recent)
+    musk_week = any(h["date"][:10] >= week and h.get("musk") for h in recent)
     todays = [h for h in recent if h["date"][:10] == today]
     for s in stories:
         s["members"] = [by_id[i] for i in s.get("ids", []) if i in by_id]
