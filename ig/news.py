@@ -539,18 +539,21 @@ def make_card(s, lang, day, root, work):
 
 
 def make_reel(s, lang, day, root, work):
-    v = next((m["video"] for m in s["members"] if m.get("video")), None)
-    if not v:
-        return None
-    s["video"] = v
-    src = os.path.join(work, "src.mp4")
-    try:
-        open(src, "wb").write(get(v["mp4"], timeout=180))
-    except Exception as e:
-        log(f"  video download failed: {e}")
-        return None
-    ok, shows = clip_ok(src, s)
-    log(f"  clip QA: {ok} ({shows})")
+    # every distinct video on the story, best member first: one clip failing
+    # QA (e.g. a promo ad) falls back to the next one (owner 2026-10-06)
+    vids = list({m["video"]["mp4"]: m["video"] for m in s["members"] if m.get("video")}.values())
+    src, ok = os.path.join(work, "src.mp4"), False
+    for v in vids[:3]:
+        s["video"] = v
+        try:
+            open(src, "wb").write(get(v["mp4"], timeout=180))
+        except Exception as e:
+            log(f"  video download failed: {e}")
+            continue
+        ok, shows = clip_ok(src, s)
+        log(f"  clip QA: {ok} ({shows})")
+        if ok:
+            break
     if not ok:
         return None
     w = write(s, lang, reel=True, extra=f"WHAT THE CLIP LITERALLY SHOWS (checked by a viewer): {shows}")
