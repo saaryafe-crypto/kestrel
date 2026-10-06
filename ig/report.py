@@ -11,7 +11,7 @@ import spy
 from learn import norm, local_posts
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OWN = "yaffeai"
+OWN = "flashainews"  # was yaffeai (renamed 2026-10-06)
 HISTORY = os.path.join(HERE, "report-history.json")
 REPO = "saaryafe-crypto/kestrel"
 

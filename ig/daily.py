@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Daily owner report for BOTH pages (@yaffeai + @ainews.israel), ultra short
+"""Daily owner report for BOTH pages (@flashainews + @ainews.israel), ultra short
 (owner 2026-10-06: "even more simple, with colors or a nice visual").
 
 For yesterday, per page: every slot in pages.py (3 news cards + 2 reels) is
@@ -276,6 +276,10 @@ def record_followers(handle, n, today):
     except Exception:
         hist = {}
     rows = hist.get(handle) or []
+    for old in (p.get("former") or [] for p in PAGES.values() if p["account"] == handle):
+        for o in old:  # renamed page keeps its follower line (@yaffeai -> @flashainews)
+            if not rows and hist.get(o):
+                rows = hist.pop(o)
     if isinstance(rows, dict):  # old format: only the last reading
         rows = [rows]
     rows = [r for r in rows if r.get("date") != today]
