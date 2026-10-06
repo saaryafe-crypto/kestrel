@@ -1,0 +1,39 @@
+{
+ "lang": "he",
+ "kind": "reel",
+ "headline": "רובוט הומנואידי של Figure AI נמס בפלדה מותכת בפינלנד",
+ "story12": "Figure AI melted its retired robot in molten steel in Finland",
+ "entities": [
+  {
+   "name": "Figure AI",
+   "aliases": [
+    "פיגר AI"
+   ]
+  },
+  {
+   "name": "Brett Adcock",
+   "aliases": [
+    "ברט אדקוק"
+   ]
+  }
+ ],
+ "company": "Figure AI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-06",
+ "slot": "1",
+ "sources": [
+  "https://x.com/adcock_brett/status/2105356889974562983"
+ ],
+ "story": {
+  "link": "https://x.com/adcock_brett/status/2105356889974562983"
+ },
+ "video": {
+  "mp4": "https://video-s.twimg.com/amplify_video/2105356806780600322/vid/avc1/1920x1080/azVx6kOV3JyXkrhZ.mp4?tag=16",
+  "ms": 71509,
+  "w": 1920,
+  "h": 1080,
+  "orig_user": "adcock_brett",
+  "orig_url": null
+ }
+}
