@@ -1,0 +1,33 @@
+name: IG publish existing build
+# Manual: publish a post that was built and pushed to kestrel-media but never
+# published (e.g. a lane crashed after the build). Same publish + mark steps as _news.yml.
+on:
+  workflow_dispatch:
+    inputs:
+      post_dir: {description: "e.g. ig/posts-he/2026-10-06-some-name", required: true}
+      lang: {description: "en | he", required: true}
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Publish
+        env:
+          MAKE_WEBHOOK_URL: ${{ inputs.lang == 'he' && secrets.MAKE_WEBHOOK_URL_HE || secrets.MAKE_WEBHOOK_URL }}
+          MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          NAME=$(basename "${{ inputs.post_dir }}")
+          MEDIA=$([ "${{ inputs.lang }}" = he ] && echo "$NAME-he" || echo "$NAME")
+          python ig/post.py "${{ inputs.post_dir }}" "https://raw.githubusercontent.com/saaryafe-crypto/kestrel-media/main/$MEDIA"
+      - name: Mark published
+        run: |
+          git config user.name ig-bot; git config user.email bot@users.noreply.github.com
+          date -u +%FT%TZ > "${{ inputs.post_dir }}/published.txt"
+          git add "${{ inputs.post_dir }}"
+          git commit -m "IG post (republish): $(basename "${{ inputs.post_dir }}")"
+          git pull --rebase --autostash -X theirs && git push
