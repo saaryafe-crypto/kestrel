@@ -1,0 +1,9 @@
+OpenAI adds text watermarks in the EU to meet AI Act rules.
+
+ChatGPT and Codex will begin watermarking eligible text for EU users over the coming weeks.
+The watermark helps people identify when content was generated or edited with an OpenAI model.
+OpenAI says current text watermarking technology has significant limitations.
+API customers will also be able to turn on text watermarking.
+
+Source: OpenAI
+#OpenAI #ChatGPT #AIAct

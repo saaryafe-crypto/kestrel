@@ -1,0 +1,26 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "OpenAI adds text watermarks in the EU to meet AI Act rules",
+ "story12": "OpenAI is adding watermarks to AI-written text to comply with EU rules",
+ "entities": [
+  {
+   "name": "OpenAI",
+   "aliases": []
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-06",
+ "slot": "0",
+ "sources": [
+  "https://x.com/OpenAI/status/2107164650249101695",
+  "https://x.com/cgtwts/status/2107169550311817427",
+  "https://x.com/abhijitwt/status/2107295695342596155"
+ ],
+ "story": {
+  "link": "https://x.com/OpenAI/status/2107164650249101695"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
