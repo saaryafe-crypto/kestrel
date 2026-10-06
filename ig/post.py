@@ -94,6 +94,9 @@ def notify_owner(post_dir, base_url=None):
     the picture, ONE short status line, source link. The full prompt sits
     LAST in a small block for when he wants to correct it. Fails open: a
     mail hiccup never fails a publish."""
+    if os.environ.get("IG_PER_POST_EMAIL") != "1":  # owner 2026-10-06: one daily summary only, no email per post
+        return
+
     try:
         pw = re.sub(r"\s+", "", os.environ.get("GMAIL_APP_PASSWORD", ""))
         if not pw:
