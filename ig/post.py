@@ -15,6 +15,7 @@ scenario's CreatePostPhoto branch. Inner slides still render on disk
 Reels unchanged: {"type": "reel", ...}."""
 import json, os, re, sys, time, urllib.request
 
+ACCOUNT = None  # set in main() from the post folder
 GMAIL = "saaryafe@gmail.com"  # owner monitor address (order Sep 8)
 
 
@@ -237,6 +238,8 @@ def notify_owner(post_dir, base_url=None):
 
 
 def main(post_dir, base_url):
+    global ACCOUNT
+    ACCOUNT = "ainews.israel" if "posts-he" in post_dir else "yaffeai"
     # PUBLISH ROUTES: make (default; bundle.social for EN reels) today.
     # Graph API route (owner 2026-10-05): once the accounts are linked to the
     # Meta app, add ig/graph.py with publish(post_dir, base_url) and set
@@ -300,6 +303,9 @@ def send(payload, tries=3):
     died on transient IG-side errors at the carousel module). Safe to re-fire:
     the scenario's error branch only answers 500 when the IG module errored
     and rolled back — nothing was published. Non-5xx errors don't retry."""
+    # Account lock (owner 2026-10-06): every post names its account; each Make scenario only
+    # publishes when this matches its own account, so a post can never land on another page.
+    payload.setdefault("account", ACCOUNT)
     for attempt in range(tries):
         try:
             return _send_once(payload)
