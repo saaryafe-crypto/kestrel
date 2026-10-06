@@ -253,7 +253,8 @@ def main(post_dir, base_url):
     if os.path.exists(reel):
         r = json.load(open(reel))
         urls_live([f"{base_url.rstrip('/')}/reel.mp4"], min_bytes=100000)
-        if r.get("publish") == "bundle":  # native IG audio route
+        # owner 2026-10-06: all reels via Make (reliable, no IG music); IG_REEL_BUNDLE=1 re-enables bundle.social
+        if r.get("publish") == "bundle" and os.environ.get("IG_REEL_BUNDLE") == "1":  # native IG audio route
             sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
             import bundle
             try:
