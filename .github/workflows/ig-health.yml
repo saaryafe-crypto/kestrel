@@ -90,7 +90,5 @@ jobs:
             echo "$label $Y: $n published (plan 5: 3 cards + 2 reels; empty slots allowed)"
             [ "$n" -lt 2 ] && msg="$msg $label=$n"
           done
-          if [ -n "$msg" ]; then
-            gh issue create --title "IG health: low publish count on $Y:$msg" \
-              --body "Fewer than 2 publishes on a page usually means a broken lane, not just strict gates. Check the IG news card / IG reel workflow runs for $Y."
-          fi
+          # owner 2026-10-06: no separate alert emails; the 08:45 daily summary reports publish counts
+          [ -n "$msg" ] && echo "low publish count:$msg (reported in the daily summary)" || true
