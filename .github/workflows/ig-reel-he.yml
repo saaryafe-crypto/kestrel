@@ -31,6 +31,9 @@ jobs:
           echo "slot=$s" >> "$GITHUB_OUTPUT"
   run:
     needs: slot
+    permissions:
+      contents: write
+      issues: write
     uses: ./.github/workflows/_news.yml
     with:
       lang: he
