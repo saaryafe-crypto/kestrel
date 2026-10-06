@@ -1,46 +1,45 @@
 #!/usr/bin/env python3
-"""Daily owner report, BOTH channels (@yaffeai + @ainews.israel): every paid
-tool's spend against its cap, and yesterday's publishes VERIFIED against the
-live Instagram profiles (owner rule Jul 29: webhook "Accepted" is not posted —
-scrape reality, and if verification fails SAY SO, never assume). Owner spec
-Aug 1: emailed to saaryafe@gmail.com daily at the same time no matter what,
-and must cover (a) exactly what was posted, verified live — carousels AND the
-reels tab, (b) a cover photo present in every carousel, (c) Replicate budget,
-(d) X API token connected and data actually sourced from X. Delivery: Gmail
-SMTP (GMAIL_APP_PASSWORD in ~/kestrel/.env) + a GitHub issue as backup/history;
-older report issues get closed so only the newest stays open. Weekly deep-dive
-stays in report.py — this is the daily truth check.
+"""Daily owner report for BOTH pages (@yaffeai + @ainews.israel), ultra short
+(owner 2026-10-06: "even more simple, with colors or a nice visual").
 
-Runs on the Mac (IG scraping needs the residential IP + the .igprofile
-session spy.py already maintains). launchd: ai.yaffe.ig-daily, 08:45 local.
+For yesterday, per page: every slot in pages.py (3 news cards + 2 reels) is
+green (posted), grey (skipped by the gates: no strong story/video, NOT a
+problem) or red (failed / never ran / not on Instagram). Posted = post dir
+with published.txt on origin/main; skipped vs failed = how that slot's
+GitHub run ended. Posts are re-checked live on Instagram (owner rule Jul 29:
+"Accepted" is not posted), followers scraped and kept per day in
+followers-history.json (7-day sparkline in the email).
 
-Usage: .venv/bin/python daily.py [--dry]   (--dry: print only, no issue)"""
+Delivery: one email (plain text + one colorful HTML card with inline PNG
+sparklines). A GitHub issue ONLY when something needs the owner.
+Runs on the Mac (IG scraping needs the residential IP + spy.py's .igprofile
+session). launchd: ai.yaffe.ig-daily, 08:45 New York.
+
+Usage: .venv/bin/python daily.py [--dry] [--day YYYY-MM-DD] [--out DIR]
+  --dry: print only (no email, no issue); --out: also write email.html + PNGs"""
 import json, os, re, subprocess, sys, time
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import spy  # DESC_RE + meta() + n() — same parsing as the competitor scrape
 
-from pages import PAGES  # account names live there (EN rename = one line)
-EN, HE = PAGES["en"]["account"], PAGES["he"]["account"]
-# news redesign 2026-10-05: 3 news cards + 2 reels per page per day
-CHANNELS = {EN: {"carousels": 3, "reels": 2},
-            HE: {"carousels": 3, "reels": 2}}
-# + 2 reels/day (owner Aug 27 evening: reels drove the follower growth; the
-# followers-history delta above is the experiment that decides 1 vs 3)
-COMMIT_PATTERNS = {  # git subjects are the system's own publish ledger
-    EN: {"carousels": r"^IG post: ", "reels": r"^IG reel: "},
-    HE: {"carousels": r"^IG post HE: ", "reels": r"^IG reel HE: "}}
+from pages import PAGES  # account names + slot times live there
+REPO = "saaryafe-crypto/kestrel"
+WORKFLOWS = {("en", "card"): "ig-post.yml", ("he", "card"): "ig-post-he.yml",
+             ("en", "reel"): "ig-reel.yml", ("he", "reel"): "ig-reel-he.yml"}
+NAMES = {"en": ("🇺🇸", "English"), "he": ("🇮🇱", "Hebrew")}
 FOLLOWERS_RE = re.compile(
     r"([\d.,KM]+)\s+Followers,\s*[\d.,KM]+\s+Following,\s*([\d.,KM]+)\s+Posts")
+HISTORY = os.path.join(HERE, "followers-history.json")
 GMAIL = "saaryafe@gmail.com"      # the courier: logs in and sends, gets no mail
 RECIPIENTS = ["saar@yaffeai.com"]  # the report lands ONLY here (owner Aug 1)
+GREEN, GREY, RED, AMBER = "#1e8e3e", "#b0b6bd", "#d93025", "#e37400"
 
 
 def env_key(name):
-    """os.environ first, then ~/kestrel/.env (same file as the other paid
-    keys — never printed, never committed)."""
+    """os.environ first, then ~/kestrel/.env (never printed, never committed)."""
     if os.environ.get(name):
         return os.environ[name]
     try:
@@ -52,31 +51,33 @@ def env_key(name):
     return None
 
 
-def send_email(subject, text, html=None):
-    """Owner rule Aug 1: this report lands in the inbox every day no matter
-    what. Needs a Google app password (Google Account -> Security ->
-    2-Step Verification -> App passwords) saved as GMAIL_APP_PASSWORD in
-    ~/kestrel/.env. Returns False until the key exists — the gh-issue route
-    still delivers, and the missing key is named loudly in the report."""
+def send_email(subject, text, html=None, images=None):
+    """Plain text + HTML twin; `images` = {cid: png bytes} shown inline.
+    Needs GMAIL_APP_PASSWORD in ~/kestrel/.env; returns False without it."""
     pw = env_key("GMAIL_APP_PASSWORD")
     if not pw:
         return False
     import smtplib
     from email.mime.text import MIMEText
+    from email.mime.image import MIMEImage
     from email.mime.multipart import MIMEMultipart
-    if html:  # colored report + plain-text twin (owner Aug 1: readable, 14yo)
-        msg = MIMEMultipart("alternative")
-        msg.attach(MIMEText(text))
-        msg.attach(MIMEText(html, "html"))
+    if html:
+        alt = MIMEMultipart("alternative")
+        alt.attach(MIMEText(text, "plain", "utf-8"))
+        alt.attach(MIMEText(html, "html", "utf-8"))
+        msg = MIMEMultipart("related")
+        msg.attach(alt)
+        for cid, png in (images or {}).items():
+            img = MIMEImage(png, "png")
+            img.add_header("Content-ID", f"<{cid}>")
+            img.add_header("Content-Disposition", "inline", filename=f"{cid}.png")
+            msg.attach(img)
     else:
-        msg = MIMEText(text)
+        msg = MIMEText(text, "plain", "utf-8")
     msg["Subject"], msg["From"] = subject, GMAIL
     msg["To"] = ", ".join(RECIPIENTS)
-    # RETRY LADDER (Aug 3 audit: the email NEVER landed — Aug 2 gaierror,
-    # Aug 3 connection-reset, both at 08:45 while the Mac's Wi-Fi/DNS was
-    # still waking up; both ports tested fine minutes later). 5 attempts
-    # over ~8 minutes, alternating SSL:465 / STARTTLS:587, so one flaky
-    # wake-up moment can no longer cost the day's report.
+    # RETRY LADDER (Aug 3: the Mac's Wi-Fi/DNS is still waking up at 08:45):
+    # 5 attempts over ~8 minutes, alternating SSL:465 / STARTTLS:587
     last = None
     for attempt in range(5):
         if attempt:
@@ -88,9 +89,7 @@ def send_email(subject, text, html=None):
                 s = smtplib.SMTP("smtp.gmail.com", 587, timeout=60)
                 s.starttls()
             with s:
-                # Google's copy button pads app pws with regular AND
-                # non-breaking spaces (\xa0 — seen in the owner's first
-                # paste); strip all whitespace
+                # Google's copy button pads app pws with (non-breaking) spaces
                 s.login(GMAIL, re.sub(r"\s+", "", pw))
                 s.send_message(msg)
             return True
@@ -101,105 +100,109 @@ def send_email(subject, text, html=None):
     raise last
 
 
-# ---- colored HTML rendering (owner Aug 1: "easy to read and nice ... like i
-# am 14 yo and also with colors. dont miss information") — the HTML is built
-# FROM the exact same text lines, so nothing can be lost in the pretty view.
-BAD_RE = re.compile(r"NOT FOUND|NOT on Instagram|FAILED|MISSING|PROBLEM|"
-                    r"BARE COVER|DEAD|STALE|NOTHING went out|NOT SENT|"
-                    r"NOT flowing|UNKNOWN|NOT live")
-WARN_RE = re.compile(r"FALLBACK|possible|Account Status")
-GOOD_RE = re.compile(r"ALL GOOD|really (there|live)|real cover photo|"
-                     r"connected|ARE flowing|no problems")
-ICONS = {"@" + EN: "🇺🇸", "@" + HE: "🇮🇱", "X (Twitter)": "📡",
-         "Money": "💰", "Problems": "🚨"}
+# ---- what was published: origin/main is the ledger (posts are built and
+# published on GitHub runners, this Mac's checkout may lag behind)
+
+def git(*a):
+    return subprocess.run(["git", *a], capture_output=True, text=True,
+                          cwd=HERE).stdout
 
 
-def tone(ln):
-    if BAD_RE.search(ln):
-        return "#d93025"   # red
-    if WARN_RE.search(ln):
-        return "#e37400"   # orange
-    if GOOD_RE.search(ln):
-        return "#1e8e3e"   # green
-    return "#333333"
+def show(path):
+    return git("show", f"origin/main:ig/{path}")
 
 
-def render_html(day, lines):
-    ok = not any(tone(ln) == "#d93025" for ln in lines)
-    head = ("✅ ALL GOOD — everything checked out" if ok
-            else "❌ SOMETHING NEEDS YOUR ATTENTION")
-    out = [f'<div style="font-family:Arial,Helvetica,sans-serif;max-width:640px;'
-           f'margin:0 auto;background:#f5f5f5;padding:16px">'
-           f'<div style="background:{"#1e8e3e" if ok else "#d93025"};color:#fff;'
-           f'padding:18px 20px;border-radius:10px 10px 0 0;font-size:20px;'
-           f'font-weight:bold">{head}<div style="font-size:13px;font-weight:'
-           f'normal;margin-top:4px">Daily report for {day}</div></div>']
-    section_open = False
-    for ln in lines:
-        ln = ln.rstrip()
-        if not ln:
+def post_dirs(lang, day):
+    """{dir name: post.json dict + "published": bool} for dirs of `day`."""
+    root = PAGES[lang]["posts"]
+    files = git("ls-tree", "-r", "--name-only", "--full-tree", "origin/main",
+                f"ig/{root}/").splitlines()
+    out = {}
+    for f in files:
+        parts = f.split("/")
+        if len(parts) != 4 or not parts[2].startswith(str(day)):
             continue
-        if ln.startswith("## "):
-            if section_open:
-                out.append("</div>")
-            title = ln[3:]
-            icon = next((v for k, v in ICONS.items() if k in title), "📋")
-            out.append(f'<div style="background:#fff;margin-top:12px;padding:'
-                       f'14px 18px;border-radius:8px">'
-                       f'<div style="font-size:16px;font-weight:bold;'
-                       f'margin-bottom:8px">{icon} {title}</div>')
-            section_open = True
-            continue
-        c = tone(ln)
-        mark = ("❌" if c == "#d93025" else "⚠️" if c == "#e37400"
-                else "✅" if c == "#1e8e3e" else "•")
-        txt = ln[2:] if ln.startswith("- ") else ln
-        weight = ("bold" if c != "#333333" or txt.startswith(("ALL GOOD",
-                  "PROBLEM", "VERDICT")) else "normal")
-        out.append(f'<div style="color:{c};font-weight:{weight};font-size:14px;'
-                   f'line-height:1.6;margin:3px 0">{mark} {txt}</div>')
-    if section_open:
-        out.append("</div>")
-    out.append('<div style="color:#999;font-size:11px;padding:12px 4px">'
-               'Sent automatically every morning at 08:45 by the kestrel '
-               'system on your Mac. A copy lives in the GitHub issues as '
-               'backup.</div></div>')
-    return "\n".join(out)
-
-
-def commits_on(day, pattern):
-    """Post NAMES the system published on `day` (git subjects are the
-    system's own ledger; commit time ≈ publish time). Date filter happens
-    here in Python, NOT via git --since/--until: this history mixes CI-UTC
-    and local-tz commits out of order, and git's window traversal returned
-    only the init commit (found Aug 1 — the report claimed NOTHING went out
-    on a 10-post day)."""
-    out = subprocess.run(
-        ["git", "log", "-500", "--date=format-local:%Y-%m-%d",
-         "--pretty=%cd %s"], capture_output=True, text=True, cwd=HERE).stdout
-    names = []
-    for line in out.splitlines():
-        d, _, s = line.partition(" ")
-        if d == str(day) and re.match(pattern, s):
-            names.append(re.sub(pattern, "", s))
-    return names
+        if parts[3] == "post.json":
+            try:
+                out.setdefault(parts[2], {}).update(json.loads(show(f"{root}/{parts[2]}/post.json")))
+            except ValueError:
+                pass
+        elif parts[3] == "published.txt":
+            out.setdefault(parts[2], {})["published"] = True
+    return {k: v for k, v in out.items() if v.get("slot_time") == str(day)}
 
 
 def norm(t):
     """Caption-match normalization: IG's og:description wraps the caption in
     quotes and reflows whitespace."""
-    return re.sub(r"\s+", " ", (t or "").replace('"', "").replace("\u201c", "")
-                  .replace("\u201d", "")).strip().lower()
+    return re.sub(r"\s+", " ", (t or "").replace('"', "").replace("“", "")
+                  .replace("”", "")).strip().lower()
 
 
-def own_caption(name, he):
+def own_caption(lang, name):
     """First ~40 normalized chars of the caption the system published."""
-    root = os.path.join(HERE, "posts-he" if he else "posts", name)
-    rj = os.path.join(root, "reel.json")
-    if os.path.exists(rj):
-        return norm(json.load(open(rj)).get("caption", ""))[:40]
-    cp = os.path.join(root, "caption.txt")
-    return norm(open(cp).read() if os.path.exists(cp) else "")[:40]
+    root = f"{PAGES[lang]['posts']}/{name}"
+    try:
+        return norm(json.loads(show(f"{root}/reel.json")).get("caption", ""))[:40]
+    except ValueError:
+        return norm(show(f"{root}/caption.txt"))[:40]
+
+
+def runs(wf):
+    try:
+        return json.loads(subprocess.run(
+            ["gh", "run", "list", "-R", REPO, "--workflow", wf, "--limit", "60",
+             "--json", "displayTitle,createdAt,status,conclusion"],
+            capture_output=True, text=True, timeout=60).stdout)
+    except Exception:
+        return None
+
+
+def slot_states(lang, kind, day, posts, now):
+    """One entry per planned slot: {"time", "state": posted|skipped|failed|
+    later, "why", "name"}."""
+    p = PAGES[lang]
+    tz = ZoneInfo(p["tz"])
+    times = p["cards" if kind == "card" else "reels"]
+    crons = re.findall(r'cron: "([^"]+)"', open(os.path.join(
+        HERE, "..", ".github", "workflows", WORKFLOWS[(lang, kind)])).read())
+    slots = [{"time": t, "state": None, "why": "", "name": None} for t in times]
+    mine = {n: d for n, d in posts.items() if d.get("kind") == kind}
+    loose = []
+    for n, d in sorted(mine.items()):
+        i = str(d.get("slot"))
+        if i.isdigit() and int(i) < len(slots) and slots[int(i)]["state"] is None:
+            s = slots[int(i)]
+            s.update(name=n, state="posted" if d.get("published") else "failed",
+                     why="" if d.get("published") else "was built but never published")
+        elif d.get("published"):
+            loose.append(n)  # manual "now" runs fill the earliest open slot
+    for n in loose:
+        s = next((s for s in slots if s["state"] is None), None)
+        if s:
+            s.update(name=n, state="posted")
+    rl = None
+    for i, s in enumerate(slots):
+        if s["state"]:
+            continue
+        hh, mm = map(int, s["time"].split(":"))
+        t = datetime(day.year, day.month, day.day, hh, mm, tzinfo=tz)
+        if rl is None:
+            rl = runs(WORKFLOWS[(lang, kind)])
+        if rl is None:
+            s.update(state="failed", why="could not reach GitHub to check")
+            continue
+        cron = crons[i] if i < len(crons) else "-"
+        hit = [r for r in rl
+               if (r["displayTitle"].endswith(f"| slot {i}") or r["displayTitle"].endswith(f"| {cron}"))
+               and t - timedelta(hours=6) <= datetime.fromisoformat(r["createdAt"].replace("Z", "+00:00")) <= t + timedelta(hours=8)]
+        if any(r["conclusion"] == "success" for r in hit):
+            s["state"] = "skipped"
+        elif any(r["status"] != "completed" for r in hit) or (not hit and t > now):
+            s["state"] = "later"
+        else:
+            s.update(state="failed", why="failed" if hit else "never started")
+    return slots
 
 
 def scrape_channel(handle, cap=12, reel_cap=8):
@@ -266,232 +269,198 @@ def scrape_channel(handle, cap=12, reel_cap=8):
     return counts, posts, reels
 
 
-def budget_lines():
-    from news_pool import CAP_READS_MONTH   # single source of truth
-    m = str(date.today())[:7]
-
-    def ledger(name):
-        fp = os.path.join(HERE, name)
-        return json.load(open(fp)) if os.path.exists(fp) else None
-
-    lines = []
-    led = ledger("x-used.json") or {}
-    xr = led.get("reads", 0) if led.get("month") == m else 0
-    lines.append(f"X (Twitter) data (twitterapi.io): "
-                 f"${xr * 0.15 / 1000:.2f} spent, limit is "
-                 f"${CAP_READS_MONTH * 0.15 / 1000:.2f} a month")
-    bn = sum(1 for e in (ledger("bundle-used.json") or [])
-             if e.get("date", "")[:7] == m)
-    lines.append(f"bundle.social (reel uploads): {bn} of 20 free posts used")
-    lines.append("Everything else (Make.com, Claude, GitHub): fixed price, "
-                 "cannot surprise us")
-    return lines
-
-
-def open_alerts():
-    out = subprocess.run(
-        ["gh", "issue", "list", "--state", "open", "--limit", "30",
-         "--json", "number,title"], capture_output=True, text=True, cwd=HERE)
+def record_followers(handle, n, today):
+    """-> (change vs the last earlier day or None, last 7 daily values)."""
     try:
-        return [i for i in json.loads(out.stdout)
-                if re.search(r"FAILED|health|budget", i["title"], re.I)
-                and not i["title"].startswith("IG daily report")]
+        hist = json.load(open(HISTORY))
     except Exception:
-        return []
+        hist = {}
+    rows = hist.get(handle) or []
+    if isinstance(rows, dict):  # old format: only the last reading
+        rows = [rows]
+    rows = [r for r in rows if r.get("date") != today]
+    prev = rows[-1]["followers"] if rows else None
+    rows = (rows + [{"date": today, "followers": n}])[-60:]
+    hist[handle] = rows
+    json.dump(hist, open(HISTORY, "w"), indent=1)
+    return (None if prev is None else n - prev), [r["followers"] for r in rows[-7:]]
+
+
+def sparkline(values, color):
+    """Tiny 7-day follower line as PNG bytes (2x for phone screens)."""
+    from io import BytesIO
+    from PIL import Image, ImageDraw
+    W, H, P = 240, 64, 8
+    im = Image.new("RGB", (W, H), "white")
+    d = ImageDraw.Draw(im)
+    vals = values or [0]
+    lo, hi = min(vals), max(vals)
+    span = (hi - lo) or 1
+    pts = [(P + (W - 2 * P) * (i / max(len(vals) - 1, 1)),
+            H - P - (H - 2 * P) * ((v - lo) / span if hi > lo else 0.5))
+           for i, v in enumerate(vals)]
+    if len(pts) == 1:
+        pts = [(P, pts[0][1])] + pts
+        pts[1] = (W - P, pts[0][1])
+    d.line(pts, fill=color, width=4, joint="curve")
+    x, y = pts[-1]
+    d.ellipse([x - 6, y - 6, x + 6, y + 6], fill=color)
+    out = BytesIO()
+    im.save(out, "PNG")
+    return out.getvalue()
+
+
+def count_part(slots, noun):
+    posted = sum(s["state"] == "posted" for s in slots)
+    skipped = sum(s["state"] == "skipped" for s in slots)
+    failed = sum(s["state"] == "failed" for s in slots)
+    later = sum(s["state"] == "later" for s in slots)
+    icon = "❌" if failed else "⏭" if skipped and not posted else "✅"
+    txt = f"{icon} {posted} of {len(slots)} {noun}"
+    if skipped:
+        txt += f" ({skipped} skipped, no strong {'story' if noun == 'posts' else 'video'})"
+    if later:
+        txt += f" ({later} still to come)"
+    return txt
+
+
+def render_html(day, rows, followers, problems, color, headline):
+    dot = {"posted": GREEN, "skipped": GREY, "failed": RED, "later": "#e8eaed"}
+    out = [f'<div style="font-family:Arial,Helvetica,sans-serif;max-width:480px;margin:0 auto;'
+           f'background:#ffffff;border-radius:16px;overflow:hidden;border:1px solid #eee">'
+           f'<div style="background:{color};color:#fff;padding:22px 20px;font-size:26px;'
+           f'font-weight:bold;line-height:1.25">{headline}'
+           f'<div style="font-size:14px;font-weight:normal;opacity:.9;margin-top:4px">'
+           f'{day:%A %b %-d}</div></div>']
+    for lang, slots in rows.items():
+        flag, name = NAMES[lang]
+        n, delta = followers[lang]
+        dots = "".join(
+            f'<span style="display:inline-block;width:22px;height:22px;border-radius:11px;'
+            f'background:{dot[s["state"]]};margin-right:6px"></span>' for s in slots["card"])
+        dots += '<span style="display:inline-block;width:10px"></span>' + "".join(
+            f'<span style="display:inline-block;width:22px;height:22px;border-radius:5px;'
+            f'background:{dot[s["state"]]};margin-right:6px"></span>' for s in slots["reel"])
+        dtxt = "" if delta is None else f'{"+" if delta >= 0 else ""}{delta}'
+        dcol = GREEN if (delta or 0) > 0 else RED if (delta or 0) < 0 else "#666"
+        out.append(
+            f'<div style="padding:18px 20px;border-bottom:1px solid #f0f0f0">'
+            f'<div style="font-size:20px;font-weight:bold;margin-bottom:10px">{flag} {name}</div>'
+            f'<div>{dots}</div>'
+            f'<table cellpadding="0" cellspacing="0" style="margin-top:12px"><tr>'
+            f'<td style="font-size:30px;font-weight:bold;padding-right:10px">{n}</td>'
+            f'<td style="font-size:18px;font-weight:bold;color:{dcol};padding-right:14px">{dtxt}</td>'
+            f'<td><img src="cid:spark-{lang}" width="120" height="32" alt="" style="display:block"></td>'
+            f'</tr></table><div style="font-size:12px;color:#888">followers</div></div>')
+    need = "<br>".join(problems) if problems else "nothing"
+    out.append(f'<div style="padding:18px 20px;font-size:18px;line-height:1.4">'
+               f'👉 <b>Needs you:</b> {need}</div>'
+               f'<div style="padding:0 20px 14px;font-size:12px;color:#999">'
+               f'<span style="color:{GREEN}">●</span> posted &nbsp; <span style="color:{GREY}">●</span> skipped (no strong story) '
+               f'&nbsp; <span style="color:{RED}">●</span> failed &nbsp; ■ = reel</div></div>')
+    return "\n".join(out)
 
 
 def main():
     dry = "--dry" in sys.argv
     y = date.today() - timedelta(days=1)
-    if "--day" in sys.argv:  # test a specific day: daily.py --dry --day 2026-08-01
+    if "--day" in sys.argv:  # test a specific day: daily.py --dry --day 2026-10-06
         y = date.fromisoformat(sys.argv[sys.argv.index("--day") + 1])
-    body = []
-    for handle, plan in CHANNELS.items():
-        he = handle != EN
-        pats = COMMIT_PATTERNS[handle]
-        car = commits_on(y, pats["carousels"])
-        reels = commits_on(y, pats["reels"])
-        body.append(f"## @{handle} ({'Hebrew' if he else 'English'} account)")
-        body.append(f"Posted yesterday: {len(car)} of {plan['carousels']} "
-                    f"carousels, {len(reels)} of {plan['reels']} reels"
-                    + ("" if car or reels else " — NOTHING went out"))
+    git("fetch", "-q", "origin", "main")
+    today = str(date.today())
+    lines, problems, action, rows, followers, sparks = [], [], False, {}, {}, {}
+    for lang in ("en", "he"):
+        p = PAGES[lang]
+        flag, name = NAMES[lang]
+        now = datetime.now(ZoneInfo(p["tz"]))
+        posts = post_dirs(lang, y)
+        rows[lang] = {k: slot_states(lang, k, y, posts, now) for k in ("card", "reel")}
+        for kind, noun in (("card", "post"), ("reel", "reel")):
+            for s in rows[lang][kind]:
+                if s["state"] == "failed":
+                    problems.append(f"{name} {s['time']} {noun} {s['why']}. "
+                                    "Nothing to do, the next slots run as normal.")
+        lines.append(f"{flag} {name}: {count_part(rows[lang]['card'], 'posts')} · "
+                     f"{count_part(rows[lang]['reel'], 'reels')}")
         try:
-            counts, live, live_reels = scrape_channel(handle)
-            if counts:
-                # followers-per-day ledger (owner Aug 27 evening: reels vs
-                # carousels must be settled by FOLLOWER growth, not likes —
-                # this line is the experiment's readout, ~2 weeks decides)
-                hp = os.path.join(HERE, "followers-history.json")
-                try:
-                    hist = json.load(open(hp))
-                except Exception:
-                    hist = {}
-                prev = hist.get(handle) or {}
-                line = (f"Followers right now: {counts['followers']:,} "
-                        f"({counts['posts']:,} posts on the page)")
-                if prev.get("followers") is not None:
-                    diff = counts["followers"] - prev["followers"]
-                    line += (f" — {'+' if diff >= 0 else ''}{diff:,} since "
-                             f"{prev.get('date', 'last check')}")
-                body.append(line)
-                hist[handle] = {"date": str(date.today()),
-                                "followers": counts["followers"]}
-                json.dump(hist, open(hp, "w"), indent=1)
-            # truth check: each published carousel's caption must be findable
-            # among the newest grid posts (caption match beats date-bucket
-            # counting: no timezone wobble, names the exact missing post)
-            descs = " || ".join(norm(e["desc"]) for e in live)
-            missing = []
-            for name in car:
-                key = own_caption(name, he)
-                if not key or key not in descs:
-                    missing.append(name)
-            body.append(f"We just opened the Instagram page and checked: "
-                        f"{len(car) - len(missing)} of {len(car)} carousels "
-                        "are really there")
-            for name in missing:
-                body.append(f"- This post is NOT on Instagram: {name}")
-            # cover-photo check (owner Aug 1, Chrome-bugs post-mortem: every
-            # carousel MUST ship a real cover photo; a bare one gets named)
-            bare = []
-            for name in car:
-                pj = os.path.join(HERE, "posts-he" if he else "posts", name,
-                                  "post-he.json" if he else "post.json")
-                if not os.path.exists(pj):
-                    continue
-                p = json.load(open(pj))
-                cov = (p.get("items") or p.get("slides") or [{}])[0]
-                if not cov.get("media"):
-                    bare.append(f"- BARE COVER (no photo at all): {name}")
-                elif p.get("cover_fallback"):
-                    bare.append(f"- COVER FALLBACK "
-                                f"({p['cover_fallback']}): {name}")
-                if p.get("naked_slides"):
-                    # owner audit Sep 10: winners never ship an imageless
-                    # inner slide — every naked one gets named to the owner
-                    bare.append(f"- NAKED SLIDE(S) {p['naked_slides']} "
-                                f"(text in a void, no image): {name}")
-                if p.get("topic_source") == "self-invented":
-                    # owner Aug 10: guide pool ran dry and the writer made
-                    # up its own topic — unacceptable, must be named
-                    bare.append(f"- SELF-INVENTED TOPIC (guide pool was "
-                                f"empty): {name}")
-                elif p.get("topic_source") == "ignored-pool":
-                    # owner ground rule Aug 12: ride the viral X wave, never
-                    # invent — the writer dodged a live guide pool twice
-                    bare.append(f"- IGNORED GUIDE POOL (self-invented topic "
-                                f"while viral X guides waited): {name}")
-                if p.get("qa_override"):
-                    # Sep 4 final-floor rung: the edu floor shipped over
-                    # unresolved QA failures rather than skip the slot —
-                    # the owner must see exactly which post and why
-                    bare.append(f"- QA OVERRIDE (EDU_FORCE floor shipped over "
-                                f"QA failures — {p['qa_override'][:160]}): "
-                                f"{name}")
-            if car:
-                body += bare or ["Cover photos: every carousel has a real "
-                                 "cover photo"]
-            # reels truth check: the /reels/ tab is scraped live, same
-            # caption-match as the grid (a webhook 200 or even an IG media
-            # id is NOT proof — the Aug 1 handwriting reel vanished after
-            # publish)
-            if reels:
-                rdescs = " || ".join(norm(e["desc"]) for e in live_reels)
-                rmissing = [nm for nm in reels
-                            if not own_caption(nm, he)
-                            or own_caption(nm, he) not in rdescs]
-                body.append(f"We checked the reels tab too: "
-                            f"{len(reels) - len(rmissing)} of {len(reels)} "
-                            "reels are really there")
-                for nm in rmissing:
-                    body.append(f"- This reel is NOT on Instagram: {nm} "
-                                "(maybe Instagram removed it — check the "
-                                "app -> Account Status)")
-                missing += rmissing
-            liked = [e for e in live if e["likes"] > 0]
-            if liked:
-                body.append("Top recent: " + " | ".join(
-                    f'{e["likes"]:,} likes "{e["caption"][:50]}"'
-                    for e in sorted(liked, key=lambda e: -e["likes"])[:3]))
-            body.append("ALL GOOD: everything we posted yesterday is really "
-                        "live on Instagram."
-                        if not missing else
-                        f"PROBLEM: {len(missing)} thing(s) we posted are NOT "
-                        "on Instagram. Check the Make history and the "
-                        "problems section below.")
+            counts, live, live_reels = scrape_channel(p["account"])
+            delta, hist = record_followers(p["account"], counts["followers"], today)
+            followers[lang] = (counts["followers"], delta)
+            sparks[lang] = sparkline(hist, GREEN if hist[-1] >= hist[0] else RED)
+            # live truth check: each published caption must be on the profile
+            for kind, noun, pool in (("card", "post", live), ("reel", "reel", live_reels)):
+                descs = " || ".join(norm(e["desc"]) for e in pool)
+                for s in rows[lang][kind]:
+                    if s["state"] == "posted":
+                        key = own_caption(lang, s["name"])
+                        if not key or key not in descs:
+                            s["state"] = "failed"
+                            action = True
+                            problems.append(f"{name} {s['time']} {noun} is not showing on Instagram. "
+                                            "Open the app, check Account Status.")
         except Exception as e:
-            body.append(f"PROBLEM: could not open Instagram to check "
-                        f"({type(e).__name__}: {e}) — so what is live today "
-                        "is UNKNOWN. Re-run: cd ~/kestrel/ig && "
-                        ".venv/bin/python daily.py --dry")
-        body.append("")
+            print(f"instagram check {p['account']}: {type(e).__name__}: {e}", file=sys.stderr)
+            followers[lang] = ("?", None)
+            sparks[lang] = sparkline([], GREY)
+            problems.append(f"Could not open {name} Instagram to double-check. "
+                            "Nothing to do, I'll check again tomorrow.")
+        # counts may have changed after the live check
+        lines[-1] = (f"{flag} {name}: {count_part(rows[lang]['card'], 'posts')} · "
+                     f"{count_part(rows[lang]['reel'], 'reels')}")
 
-    body.append("## X (Twitter) data feed — where our stories come from")
-    try:
-        p = json.load(open(os.path.join(HERE, "pool-en.json")))
-        age_h = (time.time() - p.get("updated", 0)) / 3600
-        rows = p.get("rows", [])
-        body.append(f"- X account key: "
-                    f"{'connected' if env_key('TWITTER_API_KEY') or env_key('TWITTERAPI_KEY') else 'MISSING'}"
-                    f" | last X harvest: {age_h:.0f} hours ago"
-                    + (" (STALE, the feed may be dead)" if age_h > 26 else ""))
-        body.append(f"- {len(rows)} posts in the news pool "
-                    f"({sum(1 for r in rows if r.get('video'))} with video)")
-        body.append("- ALL GOOD: viral X stories ARE flowing into our posts"
-                    if rows and age_h <= 26 else
-                    "- PROBLEM: no fresh X pool, check the IG news card runs")
-    except Exception as e:
-        body.append(f"- PROBLEM: could not read the X feed status ({e}), "
-                    "state UNKNOWN")
-    body.append("")
-    body.append("## Money spent this month (each tool vs its limit)")
-    try:
-        body += [f"- {ln}" for ln in budget_lines()]
-    except Exception as e:
-        body.append(f"- PROBLEM: could not read the budgets: {e}")
-    body.append("")
-    body.append("## Problems that need your attention")
-    body += ([f"- #{i['number']} {i['title']}" for i in open_alerts()]
-             or ["- no problems 🎉"])
-
-    text = "\n".join(body)
-    print(text)
+    def fol(lang):
+        n, d = followers[lang]
+        return f"{n}" + ("" if d is None else f" ({'+' if d >= 0 else ''}{d})")
+    lines.append(f"👥 Followers: {fol('en')} · {fol('he')}")
+    lines.append("👉 Needs you: " + ("nothing" if not problems else
+                                     problems[0] if len(problems) == 1 else
+                                     "\n" + "\n".join(f"• {x}" for x in problems)))
+    n = len(problems)
+    subject = ("✅ AI pages: all good" if not n else
+               f"⚠️ AI pages: {n} thing{'s' if n > 1 else ''} need{'' if n > 1 else 's'} you")
+    text = "\n".join(lines)
+    color = GREEN if not n else RED if action else AMBER
+    headline = "All good ✅" if not n else f"{n} thing{'s' if n > 1 else ''} need{'' if n > 1 else 's'} you"
+    html = render_html(y, rows, followers, problems, color, headline)
+    images = {f"spark-{k}": v for k, v in sparks.items()}
+    print(subject + "\n\n" + text)
+    if "--out" in sys.argv:  # preview: email.html + PNGs side by side
+        od = sys.argv[sys.argv.index("--out") + 1]
+        os.makedirs(od, exist_ok=True)
+        for cid, png in images.items():
+            open(os.path.join(od, cid + ".png"), "wb").write(png)
+        open(os.path.join(od, "email.html"), "w").write(
+            '<meta charset="utf-8">' + re.sub(r'src="cid:([\w-]+)"', r'src="\1.png"', html))
     if dry:
         return
-    title = f"IG daily report {date.today()}"
-    try:  # primary delivery (owner Aug 1): straight to the inbox, in color
-        mailed = send_email(title, text, html=render_html(y, body))
-        note = (f"Emailed to {', '.join(RECIPIENTS)}." if mailed else
-                f"EMAIL NOT SENT — no GMAIL_APP_PASSWORD in ~/kestrel/.env. "
-                "Create a Google app password (Google Account -> Security -> "
-                "2-Step Verification -> App passwords) and add it there to "
-                f"get this report at {', '.join(RECIPIENTS)} daily.")
+    try:
+        mailed = send_email(subject, text, html=html, images=images)
+        note = "Emailed." if mailed else "EMAIL NOT SENT: no GMAIL_APP_PASSWORD in ~/kestrel/.env."
     except Exception as e:
-        note = f"EMAIL FAILED ({type(e).__name__}: {e}) — issue is the backup."
+        mailed, note = False, f"EMAIL FAILED ({type(e).__name__}: {e})."
     print(note, file=sys.stderr)
-    # gh issue rides along as backup + history, and carries the email status.
-    # Retries too (Aug 3 audit: on Aug 2 the SAME wake-up network blip killed
-    # this create with check=True and the whole day's report was lost).
+    # GitHub issue only when something needs the owner, or the email did not
+    # go out (then the issue is the only copy)
+    if not problems and mailed:
+        return
+    title = f"IG daily report {date.today()}"
     for attempt in range(3):
         if attempt:
             time.sleep(120)
-        r = subprocess.run(["gh", "issue", "create", "--title", title,
-                            "--body", note + "\n\n" + text], cwd=HERE)
+        r = subprocess.run(["gh", "issue", "create", "-R", REPO, "--title", title,
+                            "--body", f"{subject}\n\n{text}\n\n{note}"], cwd=HERE)
         if r.returncode == 0:
             break
-        print(f"gh issue create attempt {attempt + 1}/3 failed — retrying",
-              file=sys.stderr)
     else:
         raise RuntimeError("gh issue create failed after 3 attempts")
     out = subprocess.run(  # keep exactly one report issue open
-        ["gh", "issue", "list", "--state", "open", "--search",
+        ["gh", "issue", "list", "-R", REPO, "--state", "open", "--search",
          "IG daily report in:title", "--json", "number,title"],
         capture_output=True, text=True, cwd=HERE)
     try:
         for i in json.loads(out.stdout):
             if i["title"].startswith("IG daily report") and i["title"] != title:
-                subprocess.run(["gh", "issue", "close", str(i["number"])],
-                               cwd=HERE)
+                subprocess.run(["gh", "issue", "close", "-R", REPO, str(i["number"])], cwd=HERE)
     except Exception:
         pass
 
