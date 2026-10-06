@@ -7,6 +7,8 @@ PAGES = {
     "en": {
         "account": "yaffeai",            # IG username (no @)
         "handle": "@yaffeai",
+        "display": "Yaffe AI",           # reel tweet-frame name (reel_frame.py)
+        "avatar": "avatar.jpg",          # ig/art/
         "wordmark": "YAFFE<b>AI</b>",    # <b> part takes the accent color
         "tag": "AI &amp; TECH NEWS",
         "tz": "America/New_York",
@@ -17,6 +19,8 @@ PAGES = {
     "he": {
         "account": "ainews.israel",
         "handle": "@ainews.israel",
+        "display": "AI News Israel",
+        "avatar": "avatar-he.jpg",
         "wordmark": "AI NEWS <b>ISRAEL</b>",
         "tag": "חדשות בינה מלאכותית",
         "tz": "Asia/Jerusalem",

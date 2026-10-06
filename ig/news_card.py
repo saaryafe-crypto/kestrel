@@ -8,13 +8,11 @@ bottom of the photo near the credit line): Chrome no longer loads the photo
 at all. Chrome renders only the OVERLAY (bar, box, credit, handle) on a
 transparent canvas; Pillow pastes the photo underneath. There is no image
 load to race, and verify() refuses any overlay that is opaque where the
-photo should show. The same overlay is the persistent top layer of reels
-(the video plays in the transparent area).
+photo should show. (Reels use the tweet-style frame in reel_frame.py.)
 
 Usage: python3 news_card.py card.json out.jpg
 card.json: {"lang": "en"|"he", "headline": str, "kicker": str (optional),
-            "photo": path, "focus": [x, y] 0-1 (optional), "credit": str,
-            "format": "card"|"reel" (optional)}"""
+            "photo": path, "focus": [x, y] 0-1 (optional), "credit": str}"""
 import html, json, os, re, subprocess, sys, tempfile
 
 from PIL import Image, ImageStat
@@ -65,8 +63,6 @@ h1{font-weight:850;font-size:66px;line-height:1.13;color:INK;
   font-weight:700;font-family:Inter,sans-serif;background:rgba(0,0,0,.45);
   padding:6px 12px;border-radius:6px;direction:ltr}
 """
-# reel safe zones: IG's top bar covers ~110px, caption/buttons the bottom ~340px
-REEL_CSS = ".top{padding-top:120px}.credit,.handle{bottom:350px}"
 # shrink the headline until it fits in two lines (never more than 2)
 FIT_JS = """<script>
 const h=document.querySelector('h1');let s=66;
@@ -76,7 +72,7 @@ while(lines()>2&&s>40){s-=2;h.style.fontSize=s+'px'}
 
 
 def height(c):
-    return 1920 if c.get("format") == "reel" else 1350
+    return 1350
 
 
 def overlay_html(c):
@@ -86,7 +82,7 @@ def overlay_html(c):
                  ("TAGCLR", t["tagclr"]), ("BAR", t["bar"]), ("INK", t["ink"]),
                  ("ACCENT", t["accent"]), ("WM", t["wm"]), ("FONT", t["font"]),
                  ("DIR", t["dir"]), ("HEIGHT", str(height(c))),
-                 ("SHADE", "470" if c.get("format") == "reel" else "120"),
+                 ("SHADE", "120"),
                  ("LEFT", "left" if t["dir"] == "ltr" else "right"),
                  ("RIGHT", "right" if t["dir"] == "ltr" else "left")):
         css = css.replace(k, v)
@@ -95,7 +91,7 @@ def overlay_html(c):
     kicker = (f'<div class="kicker">{html.escape(c["kicker"])}</div><br>'
               if c.get("kicker") else "")
     return f"""<!doctype html><html lang="{c['lang']}"><meta charset="utf-8">
-<style>{css}{REEL_CSS if c.get("format") == "reel" else ""}</style><body>
+<style>{css}</style><body>
 <div class="top"><div class="brand"><div class="name">{p['wordmark']}</div>
 <div class="tag">{p['tag']}</div></div>
 <div class="box">{kicker}<h1>{headline}</h1></div></div>
