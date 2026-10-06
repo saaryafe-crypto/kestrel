@@ -1,0 +1,27 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Mistral releases Large 4, a 1-trillion-parameter open model",
+ "story12": "Mistral just released a free open AI model with 1 trillion parameters",
+ "entities": [
+  {
+   "name": "Mistral AI",
+   "aliases": [
+    "MistralAI",
+    "@MistralAI"
+   ]
+  }
+ ],
+ "company": "Mistral AI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-06",
+ "slot": "now",
+ "sources": [
+  "https://x.com/MistralAI/status/2107457414387622310"
+ ],
+ "story": {
+  "link": "https://x.com/MistralAI/status/2107457414387622310"
+ },
+ "photo_credit": ""
+}

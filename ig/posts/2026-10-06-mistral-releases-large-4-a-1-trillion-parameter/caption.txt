@@ -1,0 +1,9 @@
+Mistral releases Large 4, a 1-trillion-parameter open model.
+
+The model has 49 billion active parameters and is natively multimodal.
+Mistral says it is the best open-weights model from the US or Europe on aggregated benchmarks.
+It surpasses closed frontier models on visual grounding, according to Mistral.
+The model is available via API today; open weights are due at the end of October.
+
+Source: MistralAI
+#AI #OpenSource #Mistral
