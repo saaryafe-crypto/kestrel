@@ -431,11 +431,18 @@ def main():
             open(os.path.join(od, cid + ".png"), "wb").write(png)
         open(os.path.join(od, "email.html"), "w").write(
             '<meta charset="utf-8">' + re.sub(r'src="cid:([\w-]+)"', r'src="\1.png"', html))
+    if "--json" in sys.argv:  # combined report (~/ig-report) reads this; no email from here
+        with open(sys.argv[sys.argv.index("--json") + 1], "w") as f:
+            json.dump({"day": str(y), "rows": rows, "followers": followers,
+                       "problems": problems, "action": action}, f, ensure_ascii=False)
     if dry:
         return
     try:
-        mailed = send_email(subject, text, html=html, images=images)
-        note = "Emailed." if mailed else "EMAIL NOT SENT: no GMAIL_APP_PASSWORD in ~/kestrel/.env."
+        if "--json" in sys.argv:  # owner 2026-10-06: one combined report; issue only when needed
+            mailed, note = True, "Email goes out from the combined report (~/ig-report)."
+        else:
+            mailed = send_email(subject, text, html=html, images=images)
+            note = "Emailed." if mailed else "EMAIL NOT SENT: no GMAIL_APP_PASSWORD in ~/kestrel/.env."
     except Exception as e:
         mailed, note = False, f"EMAIL FAILED ({type(e).__name__}: {e})."
     print(note, file=sys.stderr)
