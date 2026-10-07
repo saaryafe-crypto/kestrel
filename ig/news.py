@@ -4,6 +4,7 @@
   python3 news.py card en|he [--date YYYY-MM-DD]   build one news card
   python3 news.py reel en|he [--date YYYY-MM-DD]   build one reel
   python3 news.py preview en|he --out DIR          dry-run day: 3 cards + 2 reels
+  python3 news.py picks en|he [--n 8]              dry-run picker: next n card stories (JSON)
 
 A build prints "post ready: <dir>" (cards: slide-1.jpg + caption.txt +
 post.json; reels: reel.mp4 + reel.json + post.json), or "SKIP: ..." when no
@@ -84,15 +85,28 @@ def gnews_url(link):
 # ---------- candidates ----------
 
 def en_candidates(reels):
+    """X posts for the EN editor, viral first (owner 2026-10-06): cards rank
+    the 14-day archive, reels the 48h pool + 7-day video pool, by heat
+    (absolute engagement + current pace). X posts any past post used are
+    dropped; max 2 posts per author so one big account cannot fill the list."""
     import news_pool
-    rows = news_pool.pool()["rows"]
     if reels:
+        rows = news_pool.pool()["rows"]
         seen = {r["id"] for r in rows}
-        rows = sorted(rows + [r for r in news_pool.pool(videos=True)["rows"] if r["id"] not in seen],
-                      key=lambda r: -r["score"])
-    out = []
+        rows = rows + [r for r in news_pool.pool(videos=True)["rows"] if r["id"] not in seen]
+        for r in rows:
+            r["heat"] = news_pool.heat(r)
+        rows.sort(key=lambda r: -r["heat"])
+    else:
+        rows = news_pool.archive()
+    used = gates.used_ids("en")
+    out, per_author = [], {}
     for r in rows:
+        if r["id"] in used:
+            continue
         if gates.POLITICS.search(r["text"]) or re.fullmatch(r"\S*https?://\S+", r["text"]):
+            continue
+        if r["author"].lower() in gates.POLITICIANS:
             continue
         v = r.get("video")
         if reels and r["lane"] == "discovery" and not TECH.search(r["text"]):
@@ -102,10 +116,17 @@ def en_candidates(reels):
                 continue
             if min(v.get("w") or 0, v.get("h") or 0) < 640:
                 continue
+        if per_author.get(r["author"], 0) >= 2:
+            continue
+        per_author[r["author"]] = per_author.get(r["author"], 0) + 1
         tag = {"official": "[O]", "outlets": "[N]", "discovery": "[D]"}[r["lane"]]
-        out.append({**r, "tag": tag + (" [V]" if v else "") + f" @{r['author']}",
+        days = r.get("age_h", 0) / 24
+        stats = (f" {days:.0f}d old, {r.get('likes', 0):,} likes"
+                 + (f", {r['views']:,} views" if r.get("views") else ""))
+        out.append({**r, "score": r["heat"],
+                    "tag": tag + (" [V]" if v else "") + f" @{r['author']}" + stats,
                     "text": r["text"] + (f" (quoting: {r['quoted']})" if r.get("quoted") else "")})
-    return out[:40 if reels else 45]
+    return out[:40 if reels else 45]  # 60 timed the editor out (2026-10-06)
 
 
 def he_candidates():
@@ -128,14 +149,25 @@ def he_candidates():
 
 
 def he_score(stories, recent, today):
-    """Hebrew virality = distinct Israeli outlets on the story. Mix rule:
-    about half Israeli-angle, so the angle the day is short of gets +1."""
+    """Hebrew virality = distinct Israeli outlets on the story (+1 when the
+    story's company is also among the 50 hottest EN X posts of the last 14
+    days, i.e. viral globally). Mix rule: about half Israeli-angle, so the
+    angle the day is short of gets +1. Then viral first (owner 2026-10-06):
+    times the editor's shareability multiplier, like EN."""
     todays = [h for h in recent if h["date"][:10] == today]
     il_today = sum(1 for h in todays if h.get("israeli"))
     want_il = il_today * 2 <= len(todays)
+    try:
+        import news_pool
+        hot = " ".join(r["text"] for r in json.load(open(news_pool.ARCHIVE))["rows"][:50])
+    except Exception:
+        hot = ""
     for s in stories:
         outlets = {m["outlet"] for m in s["members"]}
-        s["score"] = len(outlets) * 100 + (100 if bool(s.get("israeli_angle")) == want_il else 0)
+        co = s.get("company") or ""
+        glob = 100 if co and hot and gates.mentions(hot, {"name": co}) else 0
+        s["score"] = round((len(outlets) * 100 + glob
+                            + (100 if bool(s.get("israeli_angle")) == want_il else 0)) * gates.share_mult(s))
 
 
 # ---------- writing ----------
@@ -207,6 +239,16 @@ SOURCE MATERIAL (the only facts you may use):
         log(f"  writer QA failed: {errs}")
         prompt += "\n\nYOUR LAST ANSWER FAILED THESE CHECKS, fix them:\n- " + "\n- ".join(errs)
     return None
+
+
+def story_age_note(s):
+    """Stories can be up to 14 days old now: never call an old one new."""
+    ages = [m.get("age_h") for m in s["members"] if m.get("age_h") is not None and m.get("created")]
+    if not ages or min(ages) < 30:
+        return ""
+    when = datetime.fromtimestamp(min(m["created"] for m in s["members"] if m.get("created"))).strftime("%B %-d")
+    return (f"This story broke around {when} ({max(ages) / 24:.0f} days ago). Never write 'today', "
+            "'just', 'this morning' or 'breaking'; state the facts plainly.")
 
 
 def qa(w, lang):
@@ -472,7 +514,9 @@ def build(kind, lang, day, out_root=None, extra_hist=(), slot=None):
         if late > slotmod.MAX_LATE_S or late < -5 * 3600:  # < -5h: the run crossed local midnight
             print(f"SKIP: {lang} {kind} slot {slot} is {late / 60:.0f} min past (the next slot covers it)")
             return None
-    recent = gates.history(lang, extra_dirs=extra_hist)
+    # EN stories come from a 14-day pool: dedupe against 30 days, strictly
+    en = lang == "en"
+    recent = gates.history(lang, days=30 if en else 14, extra_dirs=extra_hist)
     if lang == "he" and not reels:
         cands = he_candidates()
     else:
@@ -482,7 +526,7 @@ def build(kind, lang, day, out_root=None, extra_hist=(), slot=None):
     by_id = {c["id"]: c for c in cands}
     for s in stories:
         s["members"] = [by_id[i] for i in s.get("ids", []) if i in by_id]
-    ok = gates.apply(stories, cands, lang, recent, day, reels=reels, log=log)
+    ok = gates.apply(stories, cands, lang, recent, day, reels=reels, log=log, strict=en)
     if lang == "he" and not reels:
         # a global story needs one established Israeli newsroom (il_news.REPUTABLE)
         # or 2+ outlets; small sites alone are not enough (2026-10-06: the old
@@ -561,7 +605,7 @@ def make_card(s, lang, day, root, work):
         fb = news_card.render_fallback(lang, name or PAGES[lang]["handle"], lg,
                                        os.path.join(work, "fallback.png"))
         ph = {"path": fb, "who": "", "focus": (0.5, 0.5), "credit": credit}
-    w = write(s, lang)
+    w = write(s, lang, extra=story_age_note(s))
     if not w:
         log("  writer failed QA 3 times")
         return None
@@ -622,12 +666,63 @@ def make_reel(s, lang, day, root, work):
     return post_dir
 
 
+def picks(lang, day, n=8, per_day=3):
+    """Dry run of the card picker (no writing, no rendering, nothing saved):
+    the next n stories the slots would take, per_day cards a day, each pick
+    added to the history so the name/company/Musk caps act as they would."""
+    en = lang == "en"
+    recent = gates.history(lang, days=30 if en else 14)
+    cands = en_candidates(False) if en else he_candidates()
+    log(f"picks {lang}: {len(cands)} candidates, {len(recent)} recent posts")
+    from datetime import timedelta
+    taken, judged, out, d0 = set(), 0, [], datetime.fromisoformat(day)
+    stories = []
+    for i in range(n):
+        cur = str((d0 + timedelta(days=i // per_day)).date())
+        ok = []
+        while True:
+            ok = gates.apply([dict(s) for s in stories], cands, lang, recent, cur, log=log, strict=en)
+            if not en:
+                he_score(ok, recent, cur)
+                ok.sort(key=lambda s: -s["score"])
+            if ok or judged >= 4:
+                break
+            # like the next real slot: a fresh editor call on what is left
+            # (production re-runs the editor every slot; used posts drop out)
+            left = [c for c in cands if c["id"] not in taken]
+            stories = gates.judge(left, lang, recent)
+            judged += 1
+            log("editor: " + json.dumps([{k: s.get(k) for k in ("story12", "share", "search", "topic")}
+                                         for s in stories], ensure_ascii=False))
+        if not ok:
+            break
+        s = ok[0]
+        stories = [x for x in stories if x.get("ids") != s.get("ids")]
+        taken.update(s.get("ids") or [])
+        recent = recent + [{"date": cur, "dir": f"{cur}-preview-{i}", "musk": bool(s.get("musk_world")),
+                            "israeli": bool(s.get("israeli_angle")),
+                            "text": f"{s['story12']} ({s.get('company') or ''})"}]
+        ms = s["members"]
+        created = min((m["created"] for m in ms if m.get("created")), default=None)
+        out.append({"slot_day": cur, "story": s["story12"], "share": s.get("share"), "why": s.get("why"),
+                    "topic": s.get("topic"), "score": s["score"],
+                    "date": datetime.fromtimestamp(created).strftime("%Y-%m-%d") if created else None,
+                    "likes": sum(m.get("likes") or 0 for m in ms),
+                    "views": sum(m.get("views") or 0 for m in ms),
+                    "posts": [m.get("url") or m.get("link") for m in ms][:3]})
+    return out
+
+
 def main():
     sys.stdout.reconfigure(line_buffering=True)
     a = sys.argv[1:]
     kind, lang = a[0], a[1]
     tz = ZoneInfo(PAGES[lang]["tz"])
     day = a[a.index("--date") + 1] if "--date" in a else str(datetime.now(tz).date())
+    if kind == "picks":
+        print(json.dumps(picks(lang, day, int(a[a.index("--n") + 1]) if "--n" in a else 8),
+                         indent=1, ensure_ascii=False))
+        return
     if kind == "preview":
         out = a[a.index("--out") + 1]
         made = []

@@ -23,7 +23,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 MARKET = os.path.join(HERE, "market.json")
 HISTORY = os.path.join(HERE, "market-history.json")
 SCOREBOARD = os.path.join(HERE, "scoreboard.json")
-OWN = "yaffeai"
+OWN = "flashainews"  # was yaffeai (renamed 2026-10-06)
 # big consumer-tech pages that post news daily = a free running focus group
 COMPETITORS = ["technology", "futurism", "mashable", "techcrunch", "wired"]
 # GOLD TIER (Module 1 Tier 4): fast-growing 10K-500K AI/tech pages. Mega

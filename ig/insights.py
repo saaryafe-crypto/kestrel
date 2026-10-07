@@ -76,7 +76,7 @@ def main():
     if snaps:
         cur = snaps[-1]
         prev = snaps[-2] if len(snaps) > 1 else {}
-        print(f"@yaffeai {cur.get('createdAt', '')[:10]}: "
+        print(f"@flashainews {cur.get('createdAt', '')[:10]}: "
               f"{cur.get('followers', 0)} followers "
               f"({cur.get('followers', 0) - prev.get('followers', 0):+d}), "
               f"{cur.get('impressions', 0):,} impressions 30d "

@@ -9,7 +9,7 @@
 import json, os, re, statistics, subprocess, sys, time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OWN = "yaffeai"
+OWN = "flashainews"  # was yaffeai (renamed 2026-10-06)
 LEARNED = os.path.join(HERE, "inspiration", "learned.md")
 MARK = ("<!-- data:begin -->", "<!-- data:end -->")
 

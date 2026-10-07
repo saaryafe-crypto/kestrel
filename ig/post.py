@@ -239,7 +239,9 @@ def notify_owner(post_dir, base_url=None):
 
 def main(post_dir, base_url):
     global ACCOUNT
-    ACCOUNT = "ainews.israel" if "posts-he" in post_dir else "yaffeai"
+    # account lock: must equal the Make route filter ({{1.account}}) of 6706257
+    from pages import PAGES
+    ACCOUNT = PAGES["he" if "posts-he" in post_dir else "en"]["account"]
     # PUBLISH ROUTES: make (default; bundle.social for EN reels) today.
     # Graph API route (owner 2026-10-05): once the accounts are linked to the
     # Meta app, add ig/graph.py with publish(post_dir, base_url) and set

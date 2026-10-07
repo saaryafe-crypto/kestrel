@@ -7,9 +7,15 @@ a post is moving, times how far above THAT author's own normal it is, so a lab
 post at 3x its usual beats an Elon post at 1x.
 
 Cost: ~150-250 reads per harvest (~$0.03). The pool is cached in pool-en.json
-for 4h; reels add a 7-day video-only harvest cached ~20h in pool-video.json.
-Expected ~28K reads/month, under CAP_READS_MONTH; every read is counted in
+for 5h; reels add a 7-day video-only harvest cached ~20h in pool-video.json.
+Expected ~25K reads/month, under CAP_READS_MONTH; every read is counted in
 x-used.json.
+
+14-day archive (owner 2026-10-06, "most viral story of the last 14 days"):
+every harvest is merged into pool-en-14d.json (newest metrics win, rows older
+than 14 days dropped), so cards pick from two weeks of X at NO extra reads.
+heat() = absolute engagement + one day of current velocity. A one-time
+--backfill harvests the last 14 days at high like floors (~400-600 reads).
 
 Usage: python3 news_pool.py [--force]   prints the ranked pool"""
 import json, os, statistics, sys, time, urllib.parse, urllib.request
@@ -20,7 +26,9 @@ WATCH = os.path.join(HERE, "watchlist-x.json")
 POOL = os.path.join(HERE, "pool-en.json")
 LEDGER = os.path.join(HERE, "x-used.json")
 CAP_READS_MONTH = 33_000   # ~= $5/mo at $0.15/1K reads (unchanged)
-TTL_H = 4
+TTL_H = 5   # was 4; the 14-day archive makes 5h-fresh enough and pays for the viral lane
+ARCHIVE = os.path.join(HERE, "pool-en-14d.json")
+ARCHIVE_DAYS = 14
 VIDEO_POOL = os.path.join(HERE, "pool-video.json")
 VIDEO_TTL_H = 20
 WINDOW_H = 48
@@ -98,19 +106,25 @@ def ledger(add=0):
     return led["reads"]
 
 
-def harvest(window_h=WINDOW_H, videos=False, out=POOL):
+def harvest(window_h=WINDOW_H, videos=False, out=POOL, floors=None, pages_override=None):
     w, k = json.load(open(WATCH)), key()
     if not k:
         raise SystemExit("no twitterapi.io key (TWITTERAPI_KEY)")
     now = time.time()
     since = int(now - window_h * 3600)
     vf, pages = (" filter:videos", 1) if videos else ("", 2)
-    plans = [("official", w["official"][i:i + 8], w["official_min_faves"], vf, pages)
+    pages = pages_override or pages
+    fl = {**{k: w[k] for k in ("official_min_faves", "outlets_min_faves", "discovery_min_faves",
+                               "viral_discovery_min_faves")}, **(floors or {})}
+    plans = [("official", w["official"][i:i + 8], fl["official_min_faves"], vf, pages)
              for i in range(0, len(w["official"]), 8)]
-    plans += [("outlets", w["outlets"][i:i + 10], w["outlets_min_faves"],
+    plans += [("outlets", w["outlets"][i:i + 10], fl["outlets_min_faves"],
                " " + w["tech_filter"] + vf, pages) for i in range(0, len(w["outlets"]), 10)]
     if not videos:
-        plans += [("discovery", None, w["discovery_min_faves"], w["discovery"], 3)]
+        # labs/brands net (was 3 pages) + the human-interest net (owner
+        # 2026-10-06: jobs, money, celebrities, scams, weird AI); same read budget +1 page
+        plans += [("discovery", None, fl["discovery_min_faves"], w["discovery"], pages)]
+        plans += [("discovery", None, fl["viral_discovery_min_faves"], w["viral_discovery"], pages)]
     plans += [("discovery", None, w["video_discovery_min_faves"], w["video_discovery"], 2 if videos else 1)]
     if videos:
         plans += [("discovery", None, w["video_discovery_min_faves"], w["ai_video_discovery"], 1)]
@@ -152,7 +166,8 @@ def harvest(window_h=WINDOW_H, videos=False, out=POOL):
             "id": str(t["id"]), "author": a, "name": t["author"].get("name"),
             "lane": t["_lane"], "text": text[:600], "likes": likes,
             "views": t.get("viewCount"), "age_h": round(age, 1),
-            "vel": round(eng / age), "rel": round(rel, 2),
+            "vel": round(eng / age), "rel": round(rel, 2), "eng": eng,
+            "created": round(now - age * 3600), "seen": round(now),
             "score": round(eng / age * min(rel, 10) ** 0.7),
             "img": next((m.get("media_url_https") for m in media if m.get("type") == "photo"), None)
                    or next((m.get("media_url_https") for m in media), None),
@@ -161,9 +176,66 @@ def harvest(window_h=WINDOW_H, videos=False, out=POOL):
             "url": f"https://x.com/{a}/status/{t['id']}"})
     rows.sort(key=lambda r: -r["score"])
     pool = {"updated": now, "reads": reads, "rows": rows}
-    json.dump(pool, open(out, "w"), indent=1, ensure_ascii=False)
+    if out:
+        json.dump(pool, open(out, "w"), indent=1, ensure_ascii=False)
+    if not videos:
+        merge_archive(rows)
     print(f"x pool: {len(rows)} posts, {reads} reads", file=sys.stderr)
     return pool
+
+
+def heat(r):
+    """Viral size of one X post: total engagement (likes + 2x reposts +
+    quotes) plus one more day at its current pace, so a story still moving
+    beats an equally big one that has stopped."""
+    eng = r.get("eng") or r.get("vel", 0) * r.get("age_h", 1)
+    return round(eng + 24 * r.get("vel", 0))
+
+
+def merge_archive(rows):
+    """Fold a harvest into the 14-day archive: newest metrics win per post,
+    posts older than ARCHIVE_DAYS drop out. No X reads."""
+    try:
+        arc = json.load(open(ARCHIVE))
+    except Exception:
+        arc = {"rows": []}
+    by = {r["id"]: r for r in arc["rows"]}
+    for r in rows:
+        old = by.get(r["id"])
+        if not old or r.get("seen", 0) >= old.get("seen", 0):
+            by[r["id"]] = r
+    cut = time.time() - ARCHIVE_DAYS * 86400
+    keep = [r for r in by.values() if r.get("created", r.get("seen", 0)) >= cut]
+    json.dump({"updated": time.time(), "rows": sorted(keep, key=lambda r: -heat(r))},
+              open(ARCHIVE, "w"), indent=1, ensure_ascii=False)
+
+
+def archive(force=False):
+    """The last 14 days of X posts (refreshing the 48h pool first when it is
+    stale), each with age_h recomputed to now and its heat."""
+    pool(force)
+    rows = json.load(open(ARCHIVE))["rows"]
+    now = time.time()
+    for r in rows:
+        r["age_h"] = round((now - r.get("created", now)) / 3600, 1)
+        r["heat"] = heat(r)
+    return sorted(rows, key=lambda r: -r["heat"])
+
+
+def backfill():
+    """One-time: the last 14 days of the most liked posts (high floors so
+    the Top results are the viral ones), merged into the archive."""
+    if ledger() + 800 > CAP_READS_MONTH:
+        raise SystemExit("backfill would cross the monthly X read cap; not running")
+    try:  # seed with the current 48h pool (rows from before the archive existed)
+        p = json.load(open(POOL))
+        merge_archive([{**r, "created": round(p["updated"] - r["age_h"] * 3600), "seen": round(p["updated"]),
+                        "eng": r.get("eng") or r["vel"] * r["age_h"]} for r in p["rows"]])
+    except Exception as e:
+        print(f"seed from {POOL} skipped ({e})", file=sys.stderr)
+    return harvest(ARCHIVE_DAYS * 24, out=None, pages_override=3,
+                   floors={"official_min_faves": 400, "outlets_min_faves": 300,
+                           "discovery_min_faves": 5000, "viral_discovery_min_faves": 8000})
 
 
 def pool(force=False, videos=False):
@@ -181,6 +253,9 @@ def pool(force=False, videos=False):
 
 
 if __name__ == "__main__":
+    if "--backfill" in sys.argv:
+        backfill()
+        raise SystemExit(0)
     p = pool("--force" in sys.argv)
     for r in p["rows"][:60]:
         print(f"{r['score']:>7} {r['vel']:>6}/h x{r['rel']:<5} {r['lane'][:4]} "

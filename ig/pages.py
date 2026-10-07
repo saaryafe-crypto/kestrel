@@ -1,16 +1,22 @@
-"""The two pages, in ONE place. Renaming the English page = edit its
-"wordmark" / "handle" / "account" here (owner 2026-10-05: EN rename is coming).
+"""The two pages, in ONE place. The English page was renamed Yaffe AI
+(@yaffeai) -> Flash AI News (@flashainews) on 2026-10-06; "account" is also
+the Make account lock (post.py sends it, scenario 6706257 filters on it).
 Slot times are LOCAL wall-clock times in the page's own timezone; slot.py
 converts them, so DST changes never move a post."""
 
+# lightning mark in front of the EN wordmark (inline SVG, accent color)
+BOLT = ('<svg viewBox="0 0 24 24" style="height:.9em;vertical-align:-.08em;margin-right:.18em">'
+        '<path fill="#00E676" d="M14.2 1 4 13.6h6.4L8.9 23 20 9.6h-6.6z"/></svg>')
+
 PAGES = {
     "en": {
-        "account": "yaffeai",            # IG username (no @)
-        "handle": "@yaffeai",
-        "display": "Yaffe AI",           # reel tweet-frame name (reel_frame.py)
-        "avatar": "avatar.jpg",          # ig/art/
-        "wordmark": "YAFFE<b>AI</b>",    # <b> part takes the accent color
-        "tag": "AI &amp; TECH NEWS",
+        "account": "flashainews",        # IG username (no @)
+        "handle": "@flashainews",
+        "former": ["yaffeai"],           # old usernames (follower history, dedupe)
+        "display": "Flash AI News",      # reel tweet-frame name (reel_frame.py)
+        "avatar": "avatar-flash.png",    # ig/art/ (made by art/make_avatar.py)
+        "wordmark": BOLT + "FLASH <b>AI NEWS</b>",  # <b> part takes the accent color
+        "tag": "AI &amp; TECH",
         "tz": "America/New_York",
         "cards": ["08:00", "12:30", "18:00"],
         "reels": ["15:00", "20:30"],
