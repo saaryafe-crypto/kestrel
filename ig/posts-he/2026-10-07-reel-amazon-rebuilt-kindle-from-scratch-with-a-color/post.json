@@ -1,0 +1,39 @@
+{
+ "lang": "he",
+ "kind": "reel",
+ "headline": "לא תזהו אותו. חכו לסוף",
+ "story12": "Amazon rebuilt Kindle from scratch with a color edge-to-edge screen",
+ "entities": [
+  {
+   "name": "Amazon",
+   "aliases": [
+    "אמזון"
+   ]
+  },
+  {
+   "name": "Kindle",
+   "aliases": [
+    "קינדל"
+   ]
+  }
+ ],
+ "company": "Amazon",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-07",
+ "slot": "0",
+ "sources": [
+  "https://x.com/amazon/status/2105645951079596459"
+ ],
+ "story": {
+  "link": "https://x.com/amazon/status/2105645951079596459"
+ },
+ "video": {
+  "mp4": "https://video-s.twimg.com/amplify_video/2105644889216106496/vid/avc1/1080x1920/-muYDbubKQaEJHzj.mp4?tag=29",
+  "ms": 11498,
+  "w": 1080,
+  "h": 1920,
+  "orig_user": "amazon",
+  "orig_url": null
+ }
+}
