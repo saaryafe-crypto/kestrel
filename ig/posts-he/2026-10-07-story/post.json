@@ -1,0 +1,19 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "אתר מוכר פרטים אישיים של כמעט כל ישראלי בכמה דולרים",
+ "story12": "אתר מוכר פרטים אישיים של כמעט כל ישראלי תמורת כמה דולרים",
+ "entities": [],
+ "company": null,
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-07",
+ "slot": "2",
+ "sources": [
+  "https://www.ynet.co.il/digital/technews/article/ryzwoqmifl"
+ ],
+ "story": {
+  "link": "https://www.ynet.co.il/digital/technews/article/ryzwoqmifl"
+ },
+ "photo_credit": ""
+}
