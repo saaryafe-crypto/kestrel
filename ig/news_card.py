@@ -30,7 +30,7 @@ THEMES = {
     "en": {"bar": "#050706", "accent": "#00E676", "wm": "#00E676",
            "ink": "#0A0A0A", "font": "Inter", "dir": "ltr",
            "tagclr": "#00E676", "tagborder": "#00E676"},
-    "he": {"bar": "#0A3BA8", "accent": "#0A3BA8", "wm": "#9EC1FF",
+    "he": {"bar": "#062A75", "accent": "#062A75", "wm": "#9EC1FF",
            "ink": "#0B1B3F", "font": "Heebo", "dir": "rtl",
            "tagclr": "#FFFFFF", "tagborder": "rgba(255,255,255,.55)"},
 }
@@ -190,7 +190,7 @@ def render_fallback(lang, name, logo, out_png):
     panel, or the company name set in type when no logo exists. Same page
     colors as the card (EN black/#00E676, HE blue/white). Returns out_png."""
     bg, glow, accent = (("#050706", "#0d3b24", "#00E676") if lang == "en"
-                        else ("#0A3BA8", "#2f63d6", "#FFFFFF"))
+                        else ("#062A75", "#2f63d6", "#FFFFFF"))
     # repo logos (ig/logos/*.svg) are white marks: shown on the background
     # with the name under them; Wikimedia logos are colored: white panel
     if logo and logo.endswith(".svg"):
