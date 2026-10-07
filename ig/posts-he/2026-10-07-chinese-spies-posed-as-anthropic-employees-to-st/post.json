@@ -1,0 +1,32 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "קבוצת ריגול סינית התחזתה לעובדי אנת'רופיק",
+ "story12": "Chinese spies posed as Anthropic employees to steal US AI secrets",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": [
+    "אנת'רופיק"
+   ]
+  },
+  {
+   "name": "China",
+   "aliases": [
+    "סין"
+   ]
+  }
+ ],
+ "company": "Anthropic",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-07",
+ "slot": "1",
+ "sources": [
+  "https://www.ynet.co.il/digital/technews/article/bkhfv0gjze"
+ ],
+ "story": {
+  "link": "https://www.ynet.co.il/digital/technews/article/bkhfv0gjze"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
