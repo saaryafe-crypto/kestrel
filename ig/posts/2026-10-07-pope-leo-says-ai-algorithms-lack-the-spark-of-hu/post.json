@@ -1,0 +1,27 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Pope Leo says AI algorithms lack the spark of humanity",
+ "story12": "Pope says AI lacks humanity's spark and can never make real art",
+ "entities": [
+  {
+   "name": "Pope Francis",
+   "aliases": [
+    "Pontifex"
+   ]
+  }
+ ],
+ "company": null,
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-07",
+ "slot": "0",
+ "sources": [
+  "https://x.com/Pontifex/status/2105983638147891490",
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EakpMNUtLelIxaENNOHFjdW5sR3pjSGowSWdQVWlrQkxlbHRSTEZhbkN3blk1Y1NBcXRwWW1BU0ZyejRjd0JDdmVIMEIxalUwMHMwY1BPVjJwOUZXNENQaHAtSlppYzBzMlFuS0VSdw?oc=5"
+ ],
+ "story": {
+  "link": "https://x.com/Pontifex/status/2105983638147891490"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
