@@ -1,0 +1,29 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "OpenAI's AI solved 370 of the hardest math problems ever made",
+ "story12": "OpenAI's AI just solved 370 of the hardest math problems ever made",
+ "entities": [
+  {
+   "name": "OpenAI",
+   "aliases": []
+  },
+  {
+   "name": "Institute for Advanced Study",
+   "aliases": []
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-07",
+ "slot": "2",
+ "sources": [
+  "https://x.com/OpenAI/status/2107596713791767021",
+  "https://x.com/ARanganathan72/status/2107765602714784010"
+ ],
+ "story": {
+  "link": "https://x.com/OpenAI/status/2107596713791767021"
+ },
+ "photo_credit": "Wikimedia Commons"
+}

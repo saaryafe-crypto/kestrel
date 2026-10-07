@@ -1,0 +1,7 @@
+OpenAI's AI solved 370 of the hardest math problems ever made.
+
+OpenAI published the results from an internal frontier model on its public GitHub.
+The company consulted with math experts at the Institute for Advanced Study.
+
+Source: OpenAI
+#AI #Math #OpenAI
