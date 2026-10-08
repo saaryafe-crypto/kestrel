@@ -1,0 +1,33 @@
+{
+ "lang": "he",
+ "kind": "reel",
+ "headline": "תראו מי בעצם נוהג כאן",
+ "story12": "Waymo's driverless cars are now on Detroit streets with no driver",
+ "entities": [
+  {
+   "name": "Waymo",
+   "aliases": [
+    "ווייימו"
+   ]
+  }
+ ],
+ "company": "Waymo",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-08",
+ "slot": "0",
+ "sources": [
+  "https://x.com/Waymo/status/2107531334876885499"
+ ],
+ "story": {
+  "link": "https://x.com/Waymo/status/2107531334876885499"
+ },
+ "video": {
+  "mp4": "https://video-s.twimg.com/amplify_video/2107522320235380736/vid/avc1/1080x1350/GaZbpqdr_IIfCwMp.mp4?tag=16",
+  "ms": 10033,
+  "w": 1080,
+  "h": 1350,
+  "orig_user": "Waymo",
+  "orig_url": null
+ }
+}
