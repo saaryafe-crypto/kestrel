@@ -1,0 +1,39 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "OpenAI פתרה 377 בעיות מתמטיות שלא נפתרו מעולם",
+ "story12": "AI solved hundreds of math problems no human ever cracked",
+ "entities": [
+  {
+   "name": "OpenAI",
+   "aliases": [
+    "אופן אי איי"
+   ]
+  },
+  {
+   "name": "doubleAI",
+   "aliases": [
+    "דאבל AI"
+   ]
+  },
+  {
+   "name": "Amnon Shashua",
+   "aliases": [
+    "אמנון שעשוע"
+   ]
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-08",
+ "slot": "0",
+ "sources": [
+  "https://www.globes.co.il/news/article.aspx?did=1001558786#utm_source=RSS",
+  "https://www.ynet.co.il/digital/technews/article/h1ehas7ifl"
+ ],
+ "story": {
+  "link": "https://www.globes.co.il/news/article.aspx?did=1001558786#utm_source=RSS"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
