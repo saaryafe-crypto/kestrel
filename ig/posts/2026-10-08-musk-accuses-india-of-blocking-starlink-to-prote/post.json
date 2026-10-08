@@ -1,0 +1,39 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Musk accuses India of blocking Starlink to protect Ambani",
+ "story12": "Elon Musk accuses India of protecting Ambani over Starlink license",
+ "entities": [
+  {
+   "name": "Elon Musk",
+   "aliases": [
+    "אילון מאסק"
+   ]
+  },
+  {
+   "name": "Mukesh Ambani",
+   "aliases": [
+    "מוקש אמבאני"
+   ]
+  },
+  {
+   "name": "Starlink",
+   "aliases": [
+    "סטארלינק"
+   ]
+  }
+ ],
+ "company": "SpaceX",
+ "musk": true,
+ "israeli": false,
+ "slot_time": "2026-10-08",
+ "slot": "2",
+ "sources": [
+  "https://x.com/elonmusk/status/2108187065687118261",
+  "https://x.com/elonmusk/status/2108221292788981881"
+ ],
+ "story": {
+  "link": "https://x.com/elonmusk/status/2108187065687118261"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
