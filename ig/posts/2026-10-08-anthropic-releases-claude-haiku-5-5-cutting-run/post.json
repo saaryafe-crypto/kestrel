@@ -1,0 +1,28 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Anthropic releases Claude Haiku 5.5, cutting run costs by 75%",
+ "story12": "Anthropic's small AI model just got 75% cheaper to run",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": []
+  },
+  {
+   "name": "Claude Haiku 5.5",
+   "aliases": []
+  }
+ ],
+ "company": "Anthropic",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-08",
+ "slot": "1",
+ "sources": [
+  "https://x.com/claudeai/status/2107894039626277339"
+ ],
+ "story": {
+  "link": "https://x.com/claudeai/status/2107894039626277339"
+ },
+ "photo_credit": "Wikimedia Commons"
+}

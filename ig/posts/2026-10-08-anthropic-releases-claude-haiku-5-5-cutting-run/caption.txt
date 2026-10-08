@@ -1,0 +1,7 @@
+Anthropic releases Claude Haiku 5.5, cutting run costs by 75%.
+
+Anthropic describes it as the fastest and most capable small model it has ever released.
+On average, it costs around 75% less to run than Claude Haiku 4.5.
+
+Source: Anthropic
+#Claude #Anthropic #AI
