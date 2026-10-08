@@ -1,0 +1,26 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "הודעות SMS מזויפות מתחזות לגוגל ומנסות לגנוב חשבונות",
+ "story12": "Fake Google security texts in Hebrew try to steal your account",
+ "entities": [
+  {
+   "name": "Google",
+   "aliases": [
+    "גוגל"
+   ]
+  }
+ ],
+ "company": "Google",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-08",
+ "slot": "2",
+ "sources": [
+  "https://www.globes.co.il/news/article.aspx?did=1001558817#utm_source=RSS"
+ ],
+ "story": {
+  "link": "https://www.globes.co.il/news/article.aspx?did=1001558817#utm_source=RSS"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
