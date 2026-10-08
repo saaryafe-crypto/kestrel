@@ -1,0 +1,38 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "מפתח שכפל את כל תוכנות אדובי עם AI ומשחרר אותן חינם",
+ "story12": "Developer rebuilt all Adobe apps with AI and released them free",
+ "entities": [
+  {
+   "name": "Adobe",
+   "aliases": [
+    "אדובי"
+   ]
+  },
+  {
+   "name": "Anthropic",
+   "aliases": [
+    "אנת'רופיק"
+   ]
+  },
+  {
+   "name": "Claude",
+   "aliases": [
+    "קלוד"
+   ]
+  }
+ ],
+ "company": "Adobe",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-08",
+ "slot": "1",
+ "sources": [
+  "https://www.geektime.co.il/adobe-creative-suite-has-an-open-source-clone/"
+ ],
+ "story": {
+  "link": "https://www.geektime.co.il/adobe-creative-suite-has-an-open-source-clone/"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
