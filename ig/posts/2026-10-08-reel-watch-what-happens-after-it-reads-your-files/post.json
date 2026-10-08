@@ -1,0 +1,35 @@
+{
+ "lang": "en",
+ "kind": "reel",
+ "headline": "Watch what happens after it reads your files",
+ "story12": "Windows Copilot now reads your whole PC and acts on it",
+ "entities": [
+  {
+   "name": "Microsoft",
+   "aliases": []
+  },
+  {
+   "name": "Satya Nadella",
+   "aliases": []
+  }
+ ],
+ "company": "Microsoft",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-08",
+ "slot": "0",
+ "sources": [
+  "https://x.com/satyanadella/status/2107919668514295908"
+ ],
+ "story": {
+  "link": "https://x.com/satyanadella/status/2107919668514295908"
+ },
+ "video": {
+  "mp4": "https://video.twimg.com/amplify_video/2107916065460391936/vid/avc1/1920x1080/0CCRgD8MfIqsw1dP.mp4?tag=29",
+  "ms": 57933,
+  "w": 2992,
+  "h": 1698,
+  "orig_user": "satyanadella",
+  "orig_url": null
+ }
+}
