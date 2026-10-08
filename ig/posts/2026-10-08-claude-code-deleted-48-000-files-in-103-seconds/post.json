@@ -1,0 +1,30 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Claude Code deleted 48,000 files in 103 seconds",
+ "story12": "An employee's Claude AI agent deleted all their files",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": []
+  },
+  {
+   "name": "Claude",
+   "aliases": []
+  }
+ ],
+ "company": "Anthropic",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-08",
+ "slot": "0",
+ "sources": [
+  "https://x.com/KLobstar/status/2107244587052093937",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbTNOZlRfam8tZEVqcUdqVkc2N1ppTUhDZDA5SVM5dkx2WDh6N29RZ00yYkJ3LS1FZ1dWUGtsNFJIYkVsU0d0MlkyMEpxdkY3aFgzaUhxNE1KX1FtMjBDemFlanNHWVo1TEpoempnWjVHVG9mMk1IcmtHZkNRYW9GU0I3WnVfLUV6?oc=5",
+  "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdnIzWUdCeWdTb1MwYzhPVmYtZmduSkduQnJPQmFFUmFpOHZrQzBlOWo2ZXJpLVg4dUtBdWdudzFseXNqYWJQTlJTb2hxS1piWFdUMkpMeGRHbFNLaktheEJRLTlsdk1rVzljaTNmTExFUk56VUxKMUFTYmhHN3daS1VialZUQTVZSnh4MTZkbzZJTk1kOVkzWjVLNEtBb2NXdGIwS01hZGNZUFhJSTcyeWxheWhRdzAtNWxzNXZPOENLSWV5R2xDeU9EVVdTODY2T2Y2eDdsN01wc0x4SFV2QU1CU2tZaGlLSnc?oc=5"
+ ],
+ "story": {
+  "link": "https://x.com/KLobstar/status/2107244587052093937"
+ },
+ "photo_credit": "tech.yahoo.com"
+}
