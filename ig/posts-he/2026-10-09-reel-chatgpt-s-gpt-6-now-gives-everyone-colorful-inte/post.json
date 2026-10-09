@@ -1,0 +1,40 @@
+{
+ "lang": "he",
+ "kind": "reel",
+ "headline": "לא ציפו לתשובה כזו. תסתכלו",
+ "story12": "ChatGPT's GPT-6 now gives everyone colorful interactive answers",
+ "entities": [
+  {
+   "name": "OpenAI",
+   "aliases": [
+    "אופן AI"
+   ]
+  },
+  {
+   "name": "ChatGPT",
+   "aliases": [
+    "צ'אטGPT"
+   ]
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-09",
+ "slot": "1",
+ "sources": [
+  "https://x.com/OpenAI/status/2107894997538525580",
+  "https://x.com/ChatGPT/status/2107933133635248145"
+ ],
+ "story": {
+  "link": "https://x.com/OpenAI/status/2107894997538525580"
+ },
+ "video": {
+  "mp4": "https://video.twimg.com/amplify_video/2107932540883607552/vid/avc1/1920x1080/VH-tZEc4T0TcXWPu.mp4?tag=29",
+  "ms": 17017,
+  "w": 1920,
+  "h": 1080,
+  "orig_user": "ChatGPT",
+  "orig_url": null
+ }
+}
