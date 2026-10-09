@@ -1,0 +1,32 @@
+{
+ "lang": "en",
+ "kind": "reel",
+ "headline": "Ask it anything. Watch what it builds.",
+ "story12": "ChatGPT upgraded to GPT-6 with visual interactive answers for everyone",
+ "entities": [
+  {
+   "name": "OpenAI",
+   "aliases": []
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-09",
+ "slot": "0",
+ "sources": [
+  "https://x.com/OpenAI/status/2107894997538525580",
+  "https://x.com/ChatGPT/status/2107933133635248145"
+ ],
+ "story": {
+  "link": "https://x.com/OpenAI/status/2107894997538525580"
+ },
+ "video": {
+  "mp4": "https://video.twimg.com/amplify_video/2107932540883607552/vid/avc1/1920x1080/VH-tZEc4T0TcXWPu.mp4?tag=29",
+  "ms": 17017,
+  "w": 1920,
+  "h": 1080,
+  "orig_user": "ChatGPT",
+  "orig_url": null
+ }
+}
