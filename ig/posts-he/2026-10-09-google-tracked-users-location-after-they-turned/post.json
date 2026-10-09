@@ -1,0 +1,26 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "גוגל תשלם 8 מיליון שקל על מעקב מיקום ללא הסכמה",
+ "story12": "Google tracked users' location after they turned it off, paying Israeli settlement",
+ "entities": [
+  {
+   "name": "Google",
+   "aliases": [
+    "גוגל"
+   ]
+  }
+ ],
+ "company": "Google",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-09",
+ "slot": "0",
+ "sources": [
+  "https://www.globes.co.il/news/article.aspx?did=1001558865#utm_source=RSS"
+ ],
+ "story": {
+  "link": "https://www.globes.co.il/news/article.aspx?did=1001558865#utm_source=RSS"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
