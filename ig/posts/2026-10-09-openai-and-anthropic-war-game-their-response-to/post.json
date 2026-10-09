@@ -1,0 +1,29 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "OpenAI and Anthropic war-game their response to a 2027 AI catastrophe",
+ "story12": "Top AI company bosses privately expect an AI catastrophe in 2027",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": []
+  },
+  {
+   "name": "OpenAI",
+   "aliases": []
+  }
+ ],
+ "company": null,
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-09",
+ "slot": "2",
+ "sources": [
+  "https://x.com/unusual_whales/status/2108559991636406581",
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcXVReDZlOUpaWTBfbndIa0gybThrOXEtU1hYUHZBT3I4TGNQM0NURVlTMzU0V0NCYThrZmcwRW1YLTJUTFBJN0JKaUYtc0FEamZ4amhNdVc5bGVzN1dOQ3RGaGdxWlE4YWJPaG00UTFEemlLX0pnei1XUEdtVHVOQXNOZktDZ3VDNjJoT2hieUp4YUNf?oc=5"
+ ],
+ "story": {
+  "link": "https://x.com/unusual_whales/status/2108559991636406581"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
