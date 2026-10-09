@@ -1,0 +1,33 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "מיקרוסופט ואנבידיה חשפו לפטופ שמריץ AI ללא ענן",
+ "story12": "Microsoft and NVIDIA launched a laptop that runs AI without any internet",
+ "entities": [
+  {
+   "name": "Microsoft",
+   "aliases": [
+    "מיקרוסופט"
+   ]
+  },
+  {
+   "name": "NVIDIA",
+   "aliases": [
+    "אנבידיה"
+   ]
+  }
+ ],
+ "company": "Microsoft",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-09",
+ "slot": "1",
+ "sources": [
+  "https://www.ynet.co.il/digital/technews/article/bjahwgsjzl",
+  "https://www.geektime.co.il/microsoft-surface-laptop-ultra-rtx-spark/"
+ ],
+ "story": {
+  "link": "https://www.ynet.co.il/digital/technews/article/bjahwgsjzl"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
