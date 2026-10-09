@@ -1,0 +1,29 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Anthropic tops Samsung in valuation despite 50x smaller revenue",
+ "story12": "Anthropic is worth more than Samsung but earns 50 times less",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": []
+  },
+  {
+   "name": "Samsung",
+   "aliases": []
+  }
+ ],
+ "company": "Anthropic",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-09",
+ "slot": "0",
+ "sources": [
+  "https://x.com/leshka_eth/status/2106686389861642693",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxQd3NlOEduREwwVGNDVlc2QThmMG5sX3Q0N1RCN2F5UC1yZ1BvWFpFVDhiU2swcWNjLWFOUnB4bHJkTTIzQWtJbGJWNnMxcVZTNHlEeHpaY2g2ZWtKX0VPc0t5V1RfNzM3dFBteUsxSm53ZTJwVkU2ZmJvSF93QzRIbjVVUVc3VTUtOHUxS1gyVmZaMHI1c1dZaE1zNk54dw?oc=5"
+ ],
+ "story": {
+  "link": "https://x.com/leshka_eth/status/2106686389861642693"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
