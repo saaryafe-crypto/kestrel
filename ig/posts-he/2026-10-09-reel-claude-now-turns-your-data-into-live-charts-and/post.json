@@ -1,0 +1,33 @@
+{
+ "lang": "he",
+ "kind": "reel",
+ "headline": "תראו מה קורה לטבלת נתונים רגילה",
+ "story12": "Claude now turns your data into live charts and ideas into animations",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": [
+    "אנת'רופיק"
+   ]
+  }
+ ],
+ "company": "Anthropic",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-09",
+ "slot": "0",
+ "sources": [
+  "https://x.com/claudeai/status/2108271552991252810"
+ ],
+ "story": {
+  "link": "https://x.com/claudeai/status/2108271552991252810"
+ },
+ "video": {
+  "mp4": "https://video-s.twimg.com/amplify_video/2108268464544661507/vid/avc1/1920x1080/2ox4n4hS5rv3zXUb.mp4?tag=29",
+  "ms": 81583,
+  "w": 1920,
+  "h": 1080,
+  "orig_user": "claudeai",
+  "orig_url": null
+ }
+}
