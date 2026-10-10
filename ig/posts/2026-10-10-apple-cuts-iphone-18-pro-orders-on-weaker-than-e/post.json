@@ -1,0 +1,26 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Apple cuts iPhone 18 Pro orders on weaker-than-expected demand",
+ "story12": "Apple cut iPhone 18 Pro orders after weaker-than-expected demand",
+ "entities": [
+  {
+   "name": "Apple",
+   "aliases": []
+  }
+ ],
+ "company": "Apple",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-10",
+ "slot": "0",
+ "sources": [
+  "https://x.com/burrytracker/status/2108613834634322034",
+  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdEtkYkhuQ2NtaWV1UV9EYzVlcjNNMncyQUJLT254ODhjZ2NtY2RremtRX21uMUtNdjlWZkQ1bHhlXzY4QnRMNkRDWWt6VEh4dThGYndQSVJMUXV5YVJ6WHkzbW1rSmw4Sl9aRXktbndoVktGU0pGb2VpcTNtc25QX2l4dUxjWHNuNmN3SHlvbER3WjhsRGhzNjB4bEozNE9RZ1BBU09RSm5YVVNGYTRISVJHQkNRdzYxNDhJQ0Nxamc0LVc4aWp2bW1iNA?oc=5",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQamt1SUhJZDJ6aUVtbW1tMzdscXFtaF8tWUFmRWotcFp3M3lkbUw0MElTWUVFN3ZNcnZ1RWk4NXA4V3NtUWc2NTBlYXlOdUdpNGtITEs4U2RTdVZ0V2dub09UcFFNampPal9sd0FLbzRHNkZ3NFdQZlpxZmc5N0JuZkl3U0tvSWZ3U2tHRU1KWQ?oc=5"
+ ],
+ "story": {
+  "link": "https://x.com/burrytracker/status/2108613834634322034"
+ },
+ "photo_credit": "finance.yahoo.com"
+}
