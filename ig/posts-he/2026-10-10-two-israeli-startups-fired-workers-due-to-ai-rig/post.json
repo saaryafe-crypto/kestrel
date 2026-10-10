@@ -1,0 +1,32 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "סילק והאניבוק פיטרו עשרות עובדים בגלל AI",
+ "story12": "Two Israeli startups fired workers due to AI right after raising millions",
+ "entities": [
+  {
+   "name": "Silk",
+   "aliases": [
+    "סילק"
+   ]
+  },
+  {
+   "name": "Hannibook",
+   "aliases": [
+    "האניבוק"
+   ]
+  }
+ ],
+ "company": null,
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-10",
+ "slot": "0",
+ "sources": [
+  "https://www.globes.co.il/news/article.aspx?did=1001558992#utm_source=RSS"
+ ],
+ "story": {
+  "link": "https://www.globes.co.il/news/article.aspx?did=1001558992#utm_source=RSS"
+ },
+ "photo_credit": ""
+}
