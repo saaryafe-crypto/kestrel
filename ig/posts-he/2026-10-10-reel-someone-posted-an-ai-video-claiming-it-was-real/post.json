@@ -1,0 +1,27 @@
+{
+ "lang": "he",
+ "kind": "reel",
+ "headline": "מה שרואים כאן לא קיים. תסתכלו",
+ "story12": "Someone posted an AI video claiming it was real AAA game footage",
+ "entities": [],
+ "company": null,
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-10",
+ "slot": "1",
+ "sources": [
+  "https://x.com/IsThisA3DModel/status/2108253662413815847",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxOYXg0bk85WUhQRWNuUk5STG9KSUQ0RGR6VnpmRklLWTJvaExUaEl4aVQ3RVVCQWRFRkozNE5xUnZKSEd3WXZLclRYME9helJYME5YSm5Qc21QU3VqWkpqUktJMk94M2o4eW5rR3FKY0tLYlIxVnNYTTl3dUJKalRBYTJxSkwwVHNaQzdsSE9hWnJZTkJsSEwwcldMQlItZ9IBowFBVV95cUxQNFU5ZXFIcTdsQUVMaThBN0IwWndzSnVxQ2RpN1RCd0RjMXNsaElGUVdITUJrWGdvbHRTRjg1c3prSTQ4QzNXa1hEejcwTHZXYTJiMF9pNGVtUFFwNHFlWXhaXzktMFFiYXBxZWhxY3dOY3l0dUU5MG82XzRYZ0Nad1VWU0M0SmxJTlVzcGV0UWJjdm9aOC02U2pPVnpORVpFU21z?oc=5"
+ ],
+ "story": {
+  "link": "https://x.com/IsThisA3DModel/status/2108253662413815847"
+ },
+ "video": {
+  "mp4": "https://video-s.twimg.com/amplify_video/2108253632286097408/vid/avc1/720x726/ItxB4SOGUnvMIKKX.mp4?tag=29",
+  "ms": 28845,
+  "w": 720,
+  "h": 726,
+  "orig_user": "IsThisA3DModel",
+  "orig_url": null
+ }
+}
