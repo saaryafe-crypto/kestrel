@@ -1,0 +1,31 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "Nuvacore שווה 2.5 מיליארד דולר בלי מוצר אחד",
+ "story12": "A chip startup hit $2.5B value before building any product",
+ "entities": [
+  {
+   "name": "Nuvacore",
+   "aliases": []
+  },
+  {
+   "name": "Sequoia",
+   "aliases": [
+    "סקוויה"
+   ]
+  }
+ ],
+ "company": "Nuvacore",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-10",
+ "slot": "2",
+ "sources": [
+  "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DNWxPWVhxdTltdnY2cWROYjY5QlRQWEdYNmlzYzRobUxRTVB3VjQ1YXplY0Q2OE1Ob3NiYThCandjWTVpZzJFbzViMHVlOHFVMWNNWDUydGFaVmJuaUZVdEt5WXFVb3FPMzk4?oc=5",
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTE1hM1hvMEppUGtra0RxTzdRRFluVTRJVUpNTTZYdlJqVEtsWW9mZVBnLTFoaS0xd1FvX0s0aU9KbmJYdGZMOGtzdFZMNldCZUttelZ2cXlOanFlNFlYS0FnZG95SXE5MkJDNkFIM2JtVQ?oc=5"
+ ],
+ "story": {
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DNWxPWVhxdTltdnY2cWROYjY5QlRQWEdYNmlzYzRobUxRTVB3VjQ1YXplY0Q2OE1Ob3NiYThCandjWTVpZzJFbzViMHVlOHFVMWNNWDUydGFaVmJuaUZVdEt5WXFVb3FPMzk4?oc=5"
+ },
+ "photo_credit": ""
+}
