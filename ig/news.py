@@ -295,7 +295,9 @@ Pick the best one to show under the headline, the way a news site would. Best: a
 
 def wiki_images(name, n=2):
     """Free-license photos of a person/company: the Wikipedia lead image plus
-    Commons search hits, JPEGs at least 900px wide, at most 1600px."""
+    Commons search hits, JPEG/PNG/WebP at least 600px wide (thumb at most 1600px).
+    PNG matters: many lead photos are PNG (Andrej_Karpathy,_OpenAI.png was
+    rejected as non-JPEG -> typographic card, 2026-10-11)."""
     out = []
     if not name:
         return out
@@ -319,7 +321,7 @@ def wiki_images(name, n=2):
                 if host.startswith("commons") and last not in p.get("title", "").lower():
                     continue  # search hits must be filed under the name itself
                 ii = (p.get("imageinfo") or [{}])[0]
-                if ii.get("mime") == "image/jpeg" and ii.get("width", 0) >= 900:
+                if ii.get("mime") in ("image/jpeg", "image/png", "image/webp") and ii.get("width", 0) >= 600:
                     out.append(ii.get("thumburl") or ii["url"])
                 if len(out) >= n:
                     return out
@@ -599,9 +601,13 @@ def make_card(s, lang, day, root, work):
     ph = photo(s, work)
     if not ph:
         # owner 2026-10-06: never drop a passing story for lack of a photo;
-        # real photo first, else the company logo / typographic brand card
+        # real photo first, else the company's real logo. Owner 2026-10-11: a
+        # name-only typographic card "looks bad" -> no logo = try the next story.
         lg, credit, name = logo(s, work)
-        log(f"  photo fallback: {'logo ' + lg if lg else 'typographic card'} ({name})")
+        if not lg:
+            log(f"  no photo and no logo ({name}): next story")
+            return None
+        log(f"  photo fallback: logo {lg} ({name})")
         fb = news_card.render_fallback(lang, name or PAGES[lang]["handle"], lg,
                                        os.path.join(work, "fallback.png"))
         ph = {"path": fb, "who": "", "focus": (0.5, 0.5), "credit": credit}
