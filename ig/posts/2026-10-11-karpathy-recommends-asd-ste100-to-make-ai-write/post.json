@@ -1,0 +1,24 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Karpathy recommends ASD-STE100 to make AI write more clearly",
+ "story12": "AI pioneer Karpathy's tips for making AI write much more clearly",
+ "entities": [
+  {
+   "name": "Andrej Karpathy",
+   "aliases": []
+  }
+ ],
+ "company": null,
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-11",
+ "slot": "0",
+ "sources": [
+  "https://x.com/karpathy/status/2105819303471976479"
+ ],
+ "story": {
+  "link": "https://x.com/karpathy/status/2105819303471976479"
+ },
+ "photo_credit": ""
+}

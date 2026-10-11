@@ -1,0 +1,9 @@
+Karpathy recommends ASD-STE100 to make AI write more clearly.
+
+ASD-STE100 is a controlled language spec originally made for aerospace maintenance docs.
+LLMs know this spec well and its strict rules produce cleaner, more readable text.
+Karpathy sometimes asks for '80% of the way to ASD-STE100' when the full spec is too strict.
+He noted that diagrams and images can work even better than the writing spec.
+
+Source: Andrej Karpathy
+#AI #LLM #Karpathy
