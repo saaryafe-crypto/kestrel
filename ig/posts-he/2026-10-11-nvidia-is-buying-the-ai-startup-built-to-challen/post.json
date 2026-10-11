@@ -1,0 +1,34 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "אנבידיה בשיחות לרכישת Reflection AI בשווי 25 מיליארד",
+ "story12": "Nvidia is buying the AI startup built to challenge DeepSeek",
+ "entities": [
+  {
+   "name": "Nvidia",
+   "aliases": [
+    "אנבידיה"
+   ]
+  },
+  {
+   "name": "Reflection AI",
+   "aliases": [
+    "Reflection AI"
+   ]
+  }
+ ],
+ "company": "Nvidia",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-11",
+ "slot": "0",
+ "sources": [
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lYngtNUd2eE1ab3FocGtkMzZZbWhacE80QldfMFBJTlYySDJ2ZlJtMGtkV0tURGRHbHZqTElReFkyTUt2aEFQTmNCcHM5OWNMcGZTRmt4Q1V6bHM4b2dWamkxOXVCZDJL?oc=5",
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BWUdMOEE5ajBfdmtUVmF5eFA3NmZYYTNuNHE1dkdWUkk2aFJRd05vd3I5eEEtVmtITDRfRld4QUhoTXlNMzI2MngxZGJoOFRGeHhad0Vud01Vb0J2amRPTGlxSks1QjVkRFdTQ1VPejI?oc=5",
+  "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0ZzRHdjZHaVZ0OWoyZ2c1ZTVSRUVtZ3kxUUJ4aGxZY1JzVDhGWVljMGlGLXRUanRTTTMtY09PWklKNE1NSTRDbGVmMlVvQkczR3pHTVRreFJMS0JLU21saGJzRl9XSHY2LU5hVQ?oc=5"
+ ],
+ "story": {
+  "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lYngtNUd2eE1ab3FocGtkMzZZbWhacE80QldfMFBJTlYySDJ2ZlJtMGtkV0tURGRHbHZqTElReFkyTUt2aEFQTmNCcHM5OWNMcGZTRmt4Q1V6bHM4b2dWamkxOXVCZDJL?oc=5"
+ },
+ "photo_credit": "bizportal.co.il"
+}
