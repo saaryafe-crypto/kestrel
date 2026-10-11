@@ -1,0 +1,35 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "OpenAI: איראן ניצלה ChatGPT להפצת כ-100 מאמרים כוזבים",
+ "story12": "Iran used ChatGPT to publish fake articles in real Western news outlets",
+ "entities": [
+  {
+   "name": "OpenAI",
+   "aliases": []
+  },
+  {
+   "name": "ChatGPT",
+   "aliases": []
+  },
+  {
+   "name": "Anthropic",
+   "aliases": [
+    "אנת'רופיק"
+   ]
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-11",
+ "slot": "2",
+ "sources": [
+  "https://www.ynet.co.il/digital/technews/article/hkn1ltdozx",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HOEF0RDdJY19VMVg1dTM1SUtSN18tU1B2YWZodHhvNVlWRjdsaG12LVB2Rkl5UUt3WFpldlo1SXhtQnlsVDE3c2YyNEl4MGlad0RmOGFscTAzV0g5TVhWY1lQQmNmUVJoOXVYTlNMTDBwd0UyQ2c?oc=5"
+ ],
+ "story": {
+  "link": "https://www.ynet.co.il/digital/technews/article/hkn1ltdozx"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
