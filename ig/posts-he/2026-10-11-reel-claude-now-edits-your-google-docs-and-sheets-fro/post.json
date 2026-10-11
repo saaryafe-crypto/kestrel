@@ -1,0 +1,40 @@
+{
+ "lang": "he",
+ "kind": "reel",
+ "headline": "חכו לרגע שה-AI נכנס לכלים שלכם",
+ "story12": "Claude now edits your Google Docs and Sheets from a sidebar",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": [
+    "אנת'רופיק",
+    "קלוד"
+   ]
+  },
+  {
+   "name": "Google",
+   "aliases": [
+    "גוגל"
+   ]
+  }
+ ],
+ "company": "Anthropic",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-11",
+ "slot": "0",
+ "sources": [
+  "https://x.com/claudeai/status/2107522596845822135"
+ ],
+ "story": {
+  "link": "https://x.com/claudeai/status/2107522596845822135"
+ },
+ "video": {
+  "mp4": "https://video.twimg.com/amplify_video/2107518306873745408/vid/avc1/1920x1080/S89PzW6JuH9oRm6k.mp4?tag=29",
+  "ms": 60000,
+  "w": 1920,
+  "h": 1080,
+  "orig_user": "claudeai",
+  "orig_url": null
+ }
+}
