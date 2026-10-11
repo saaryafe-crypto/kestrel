@@ -1,0 +1,8 @@
+Karpathy says 75% of the world has never used an AI chatbot.
+
+AI researcher Andrej Karpathy estimates about 6 billion people have barely encountered large language models.
+Another 1 to 2 billion use free tools like ChatGPT occasionally, mostly as a search engine or writing aid.
+Karpathy says the gap in understanding of what AI can do is widening, not closing.
+
+Source: Andrej Karpathy
+#AI #ChatGPT #LLM

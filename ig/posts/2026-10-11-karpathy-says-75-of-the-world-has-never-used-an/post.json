@@ -1,0 +1,24 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Karpathy says 75% of the world has never used an AI chatbot",
+ "story12": "Famous AI researcher says 75% of humanity has never tried AI",
+ "entities": [
+  {
+   "name": "Andrej Karpathy",
+   "aliases": []
+  }
+ ],
+ "company": null,
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-11",
+ "slot": "2",
+ "sources": [
+  "https://x.com/karpathy/status/2109361546505966046"
+ ],
+ "story": {
+  "link": "https://x.com/karpathy/status/2109361546505966046"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
