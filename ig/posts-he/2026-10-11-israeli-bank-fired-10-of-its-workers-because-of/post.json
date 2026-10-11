@@ -1,0 +1,30 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "בנק וואן זירו מפטר 10% מעובדיו בגלל AI",
+ "story12": "Israeli bank fired 10% of its workers because of AI",
+ "entities": [
+  {
+   "name": "One Zero",
+   "aliases": [
+    "וואן זירו",
+    "ONE ZERO"
+   ]
+  }
+ ],
+ "company": "One Zero",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-11",
+ "slot": "1",
+ "sources": [
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUcE81SFMweWZjN19HNmx5ZFA0WHBMb3pwdkZPZWR2a0piNDA0cmtiR0FoNlpBWWdQVURrMlpraHZKT2lCWjNESE9NU05wd1laU0dwbzZ2d29vaVc4WFNJ?oc=5",
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVFc0eVMxZ2VvZ2M2Q0ZSNGtlUzJZc25SUHZYNU0tR3l4cUpMTDZQS05teXh2YmFqUEM5RS1NdERnU3FyQi10RWkyN014Y2tfd0p0NGtvdDZvZUZOYVQxZ2F2V3l2dXF5LVZVM1hGaFlIMTlVRkdkSU1waXNsQkxzVkhaZ2cxN2NLUmFiZ01pWVhDektob0hN?oc=5",
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTE1QUVU4NlJIRU5ER3ktYko0QldTQ0l1QlFIdmc5MHhtcDZqcXN2cWE1MG5FRkdpM1B6ZWtjdDRDazVCWWxNU0tPOGM5TXJ4d3VnVjdhZ0F2QnB2cGdmS3N6UnI0QXJhUHJFOFhkczhBR2dJSlA2N0RVXzVWdkU?oc=5",
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YZlVWMXBuLTZ1RlJ0NC00WVdad3haanhiak5vQU53a0taanpsemhzLS05eXR0b2Y5QkIzQkRWYU1GdDF5Y0pmLUVRMnVlaTk3NV91OVF2UDh3OUxqZ0daSlk1VEVZRlhN?oc=5"
+ ],
+ "story": {
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUcE81SFMweWZjN19HNmx5ZFA0WHBMb3pwdkZPZWR2a0piNDA0cmtiR0FoNlpBWWdQVURrMlpraHZKT2lCWjNESE9NU05wd1laU0dwbzZ2d29vaVc4WFNJ?oc=5"
+ },
+ "photo_credit": ""
+}
