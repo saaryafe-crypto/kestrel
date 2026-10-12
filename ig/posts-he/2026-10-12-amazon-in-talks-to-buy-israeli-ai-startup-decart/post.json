@@ -1,0 +1,36 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "אמזון במגעים לרכישת דקארט הישראלית ב-7 מיליארד דולר",
+ "story12": "Amazon in talks to buy Israeli AI startup Decart for $7 billion",
+ "entities": [
+  {
+   "name": "Amazon",
+   "aliases": [
+    "אמזון"
+   ]
+  },
+  {
+   "name": "Decart",
+   "aliases": [
+    "דקארט"
+   ]
+  }
+ ],
+ "company": "Amazon",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-12",
+ "slot": "0",
+ "sources": [
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rQ29TTVk2QUdLWGJsMG9lSFJjM2tuQ0pLbFhHaGhGNUdfblBKOUY0VzlrelZjMkYxNG9nVGM4VkpsVUFhUUhuNVpQNi1TNk5qaVFmV3djMEU5d2xoemZTVWRBdGxjZEQt?oc=5",
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZQXZOSTZHQ0lyNXNxLWM4UFFTNXdCdGQwY1Y5Y0NnWDVxTVVzWDZ2dFZxT0cyamdRZVpRVjhUU2hJY05NMThIb3p6eWRVUTJ5MWFVTGl6aUo1ZWRLa3c?oc=5",
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SdnZhTy0zb1g2c3ZadjlTRkhjYUNUUG5TVjlpNnF5Yl9CUXFNMHJuUEcwd0lPdjJXZUZTOFA0VnBpNWtOU0hyNW5GNG5lYU5EbngwU1NmVWdIR2p5Mk9EUllRR3I2QkxwTVdQWThhSQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BajFFc2ExNHdRc0ZHYXJ0eklkUjNMS0RidWVxNnFYbjVYTGU4aWg3VVJOejd1SEs4eTZueVZWeDNwRllIWHZlX2diaVM1NE1UNlF2Y3BvVi10ZVhGQXBv?oc=5",
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oSDVXM1cyTGhtMUsyVHE2WHVRY3ZkM1NIOUp5UGFGc0NhUGExUzlVNUdfSl9NWjJlUXVJOHNndmJFSlRDTkdXVEZOb25qRkFKSzZkUjVteU1FV05xa0paNnNSUWl6Vkx0TWN2cmhn0gF2QVVfeXFMUFAyTFhLczF5cjlOTFpsbHN5emF1NVFaN3NRdzBDTHU2Skd3M2JPNmdJZWlfaTJ0X05yR3Jad0pXY0ZVWUZCOE9lMlpzTzd2YnhISGoxX081dzA3bEpTdnYxbTBsVk9WM1k2WlRINkwtSzlsV3VnQQ?oc=5"
+ ],
+ "story": {
+  "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rQ29TTVk2QUdLWGJsMG9lSFJjM2tuQ0pLbFhHaGhGNUdfblBKOUY0VzlrelZjMkYxNG9nVGM4VkpsVUFhUUhuNVpQNi1TNk5qaVFmV3djMEU5d2xoemZTVWRBdGxjZEQt?oc=5"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
