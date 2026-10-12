@@ -1,0 +1,32 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "בן אפלק מתכנת פייתון ומסביר טרנספורמרים בריאיון חדש",
+ "story12": "Ben Affleck secretly codes Python and knows AI models deeply",
+ "entities": [
+  {
+   "name": "Ben Affleck",
+   "aliases": [
+    "בן אפלק"
+   ]
+  },
+  {
+   "name": "Netflix",
+   "aliases": [
+    "נטפליקס"
+   ]
+  }
+ ],
+ "company": null,
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-12",
+ "slot": "1",
+ "sources": [
+  "https://www.geektime.co.il/ban-affleck-is-a-nerd/"
+ ],
+ "story": {
+  "link": "https://www.geektime.co.il/ban-affleck-is-a-nerd/"
+ },
+ "photo_credit": "גיקטיים"
+}
