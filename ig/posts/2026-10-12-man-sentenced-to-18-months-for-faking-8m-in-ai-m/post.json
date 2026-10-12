@@ -1,0 +1,24 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Man sentenced to 18 months for faking $8M in AI music streams",
+ "story12": "Man made $8M faking music streams with AI songs, sentenced 18 months",
+ "entities": [
+  {
+   "name": "Dexerto",
+   "aliases": []
+  }
+ ],
+ "company": null,
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-12",
+ "slot": "0",
+ "sources": [
+  "https://x.com/Dexerto/status/2109237596886823248"
+ ],
+ "story": {
+  "link": "https://x.com/Dexerto/status/2109237596886823248"
+ },
+ "photo_credit": ""
+}
