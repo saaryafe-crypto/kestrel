@@ -1,0 +1,28 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "מיקרוסופט מפטרת עשרות עובדים במרכז הפיתוח בישראל",
+ "story12": "Microsoft laid off dozens at its Israel research and development center",
+ "entities": [
+  {
+   "name": "Microsoft",
+   "aliases": [
+    "מיקרוסופט"
+   ]
+  }
+ ],
+ "company": "Microsoft",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-12",
+ "slot": "2",
+ "sources": [
+  "https://www.geektime.co.il/microsoft-layoffs-israel/",
+  "https://www.globes.co.il/news/article.aspx?did=1001559194#utm_source=RSS",
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NX2VlV21EMzVxOENTOGYxZ0gxU1U5ZzFUU3ZjVXdfc1NWUFdRVG1Rc3lDMGprOTRrTTFLdjc1OWdwQ2pBYnpVVmlYVFgxdHlXT3BvYVdDeUcyUUdhaXc?oc=5"
+ ],
+ "story": {
+  "link": "https://www.geektime.co.il/microsoft-layoffs-israel/"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
