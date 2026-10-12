@@ -1,0 +1,26 @@
+{
+ "lang": "en",
+ "kind": "reel",
+ "headline": "The patient is not in this room. Watch.",
+ "story12": "Chinese surgeons removed a lung tumor from 5,000 km away by robot",
+ "entities": [],
+ "company": null,
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-12",
+ "slot": "0",
+ "sources": [
+  "https://x.com/MarioNawfal/status/2109360887203352775"
+ ],
+ "story": {
+  "link": "https://x.com/MarioNawfal/status/2109360887203352775"
+ },
+ "video": {
+  "mp4": "https://video-s.twimg.com/amplify_video/2108857065657532416/vid/avc1/1920x1080/-lS8xGNu-nl_eSNN.mp4?tag=29",
+  "ms": 42033,
+  "w": 1920,
+  "h": 1080,
+  "orig_user": "sciencegirl",
+  "orig_url": "https://x.com/sciencegirl/status/2108857218598597117"
+ }
+}
