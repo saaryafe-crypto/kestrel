@@ -1,0 +1,28 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Microsoft shifts AI inference to its own Maia chips starting in 2027",
+ "story12": "Microsoft is replacing Nvidia GPUs with its own AI chips next year",
+ "entities": [
+  {
+   "name": "Microsoft",
+   "aliases": []
+  },
+  {
+   "name": "Satya Nadella",
+   "aliases": []
+  }
+ ],
+ "company": "Microsoft",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-12",
+ "slot": "2",
+ "sources": [
+  "https://x.com/satyanadella/status/2109631106404487523"
+ ],
+ "story": {
+  "link": "https://x.com/satyanadella/status/2109631106404487523"
+ },
+ "photo_credit": "Wikimedia Commons"
+}

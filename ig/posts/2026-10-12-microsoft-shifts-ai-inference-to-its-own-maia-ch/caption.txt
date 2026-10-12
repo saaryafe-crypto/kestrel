@@ -1,0 +1,8 @@
+Microsoft shifts AI inference to its own Maia chips starting in 2027.
+
+CEO Satya Nadella announced Microsoft will scale the Maia family to multi-gigawatt deployments next year.
+The new Maia 300 chip delivers 40% more tokens per watt than leading GPU-based systems.
+Maia 200 already runs Copilot and Teams in the US, Europe, and Australia at up to 1.7x more tokens per watt.
+
+Source: Microsoft
+#Microsoft #AI #Maia
