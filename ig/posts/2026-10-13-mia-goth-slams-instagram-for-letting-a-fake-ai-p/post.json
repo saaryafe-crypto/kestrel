@@ -1,0 +1,33 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Mia Goth slams Instagram for letting a fake AI photo of her spread",
+ "story12": "Mia Goth blasted Meta for spreading a fake AI photo of her",
+ "entities": [
+  {
+   "name": "Mia Goth",
+   "aliases": []
+  },
+  {
+   "name": "Meta",
+   "aliases": [
+    "Instagram"
+   ]
+  }
+ ],
+ "company": "Meta",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-13",
+ "slot": "2",
+ "sources": [
+  "https://x.com/PopCrave/status/2110085369463259474",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQndSLU1JYmw5dEhXWS1MeTdwTXNWUEk3QzZlcW9DSm90MnE4Q3drOE1FQnBTTUZ6eXdXNTlZdVBQYUZjSlNCbnpqN0tZYVpoMnJGaUdZalEwNThaTVRIZmN6QzQtVlNHZG1VOElXNUw3WjFjUWduYWUtYmFZWVpoQUZIS19uRW1LWE1fa3FvekpWTlJjU29KQ3lkMUxIeW0tT3NNZkJvWQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb0JIbXBabDJZYV92UjBRdE1NZmF1WHloQlhoc3pfWmhPM085b20yRmwzeGNlV0JZTlNpNFBZdlJlUnZTWnVEUVF3bWxmdDNvR2pJWkQxMDh0bXBTMlg5ZnZBQkJOZnpkS1ZrWUJSQ3dWdmc3SUNUYmhWb05yZ1RiUUQ2UUh3aHdSdEItMVowVDJUeUtVaUNHT1ltUTdwRkdEZkJtVUp5WUhjZw?oc=5",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jVU5FOXZWRlRNbHNFTV9PaEtDdy1lSERJWTg1YjhJanNjQ1NUZHNSUUItLXM0OEoxMXdIeWNweHVpaVlEUmwyUUU2dHhwNEZwS0tNQmVSdzZSRlprN0xkUXFoLU1vR3YwSV9MMkctUmNRSkU?oc=5"
+ ],
+ "story": {
+  "link": "https://x.com/PopCrave/status/2110085369463259474"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
