@@ -1,0 +1,33 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "אנתרופיק דרשה לסגור את ישראל, עסקת דקארט ב-6 מיליארד קרסה",
+ "story12": "Anthropic demanded Israeli startup close its Israel office — deal collapsed",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": [
+    "אנתרופיק"
+   ]
+  },
+  {
+   "name": "Decart",
+   "aliases": [
+    "דקארט"
+   ]
+  }
+ ],
+ "company": "Decart",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-13",
+ "slot": "0",
+ "sources": [
+  "https://www.globes.co.il/news/article.aspx?did=1001559164#utm_source=RSS",
+  "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTSHFYXzhnOEhJNzFfM2E4bjV5VHJhcnlpNTBYZVBxVzUzMGczLU0tVjdvVHhFZG81WXJSUTE5T1ViTzJQa3F6dUZwaEhwYy1uenFmOHpCcDh0RDA5UWRKLUJSMHVteDFsb2hB?oc=5"
+ ],
+ "story": {
+  "link": "https://www.globes.co.il/news/article.aspx?did=1001559164#utm_source=RSS"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
