@@ -1,0 +1,46 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "מטא חשפה מודלי AI שלטענתה מכים את ChatGPT וקלוד",
+ "story12": "Meta launched AI agents it claims beat ChatGPT and Claude",
+ "entities": [
+  {
+   "name": "Meta",
+   "aliases": [
+    "מטא"
+   ]
+  },
+  {
+   "name": "Mark Zuckerberg",
+   "aliases": [
+    "צוקרברג"
+   ]
+  },
+  {
+   "name": "OpenAI",
+   "aliases": [
+    "אופן-איי"
+   ]
+  },
+  {
+   "name": "Anthropic",
+   "aliases": [
+    "אנת'רופיק"
+   ]
+  }
+ ],
+ "company": "Meta",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-13",
+ "slot": "1",
+ "sources": [
+  "https://www.ynet.co.il/digital/technews/article/bklhgdsofl",
+  "https://www.geektime.co.il/meta-announces-muse-wonder-and-muse-wonder-fulll/",
+  "https://news.google.com/rss/articles/CBMia0FVX3lxTE92X2pNYXR1T3I5YWxLSHFZNVQ1NDVtbWN2TGRaOFN0S2k5ZkMwVDFqd3FsMUlQbFJJQ0FpNzNlMmFGM0dITkNlZkNwM1c1bExrbTExc2V0Zm1Jd085ekhIQmpZRWEwWlRXcGUw?oc=5"
+ ],
+ "story": {
+  "link": "https://www.ynet.co.il/digital/technews/article/bklhgdsofl"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
