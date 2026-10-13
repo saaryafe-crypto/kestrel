@@ -1,0 +1,31 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "אפל השיקה מסך חכם HomeView ורמקול HomePod mini 2",
+ "story12": "Apple launched HomeView smart screen and new home devices",
+ "entities": [
+  {
+   "name": "Apple",
+   "aliases": [
+    "אפל"
+   ]
+  }
+ ],
+ "company": "Apple",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-13",
+ "slot": "2",
+ "sources": [
+  "https://www.ynet.co.il/digital/technews/article/hymjmpoogl",
+  "https://www.geektime.co.il/apple-announces-home-collection-cameras-and-smart-locks/",
+  "https://www.geektime.co.il/apple-announces-apple-tv-4k-2026/",
+  "https://www.geektime.co.il/apple-announces-homeview-apple-tv-4k-homepod-mini-2026/",
+  "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rOEJ0Yl9qVWJGU2lBR2N6Vml5RmlBZDI1YU9UV3lrU29qeWp1dEdUb0Z5clZLd21wV2g1d0hEVVJqWTB6NFM4ZjdONTRTYkJjamdFa2JoV2pTRHp4V2Vqa0lLS3oydnRqSjRGOQ?oc=5",
+  "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0T0pyVldMejRaMzlOM1hIalQwdmJJcVhodS1Vc2c4bWRxVjI4ZW5hVHZienBNcTJ5XzNfRG84RTZxeEJPSURiUy1mUUMtdkpsR3FqN2hmbWJrVDRFb3ZZdGJwQThMYVhhTFBn?oc=5"
+ ],
+ "story": {
+  "link": "https://www.ynet.co.il/digital/technews/article/hymjmpoogl"
+ },
+ "photo_credit": ""
+}
