@@ -1,0 +1,35 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "מהנדס OpenAI נעצר על הטמנת מכשיר הקלטה בחדר הישיבות",
+ "story12": "OpenAI engineer arrested for hiding a recording device in meetings",
+ "entities": [
+  {
+   "name": "OpenAI",
+   "aliases": [
+    "OpenAI"
+   ]
+  },
+  {
+   "name": "Abdulrahman Alfouzan",
+   "aliases": [
+    "עבדולרחמן אלפוזאן"
+   ]
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-14",
+ "slot": "1",
+ "sources": [
+  "https://www.geektime.co.il/fbi-arrests-openai-employee/",
+  "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tNDNaSUx2VFFINUxNWjFlOVZ6SFByRlVOVWJnazRhaFpaN3IwV2VSWFlZcmZjVG5zWHE0dTA1Y2g3N2NDaGk4UVdkbURaNVR4OElpZmowMTBodXU1WmVVaHN2c3Bndw?oc=5",
+  "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5HdGl2ZnRaSFNIOEFjcnpjY2xCMWoydTJlNEMxNXFHUW50QmpZbW1RempoZGRhNVl3RkF4dlh2cGU3Q0NYbXNn?oc=5",
+  "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LcE5qQWd2VEg2YW90RXcydWVpQWRGRjViTDZZR3kwNlRRUUI1QmFCRU5LckpnWE92Q1lwRVpPSmI2eHlrTWZEN3UzRFpEQQ?oc=5"
+ ],
+ "story": {
+  "link": "https://www.geektime.co.il/fbi-arrests-openai-employee/"
+ },
+ "photo_credit": "גיקטיים"
+}
