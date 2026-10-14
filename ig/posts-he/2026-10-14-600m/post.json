@@ -1,0 +1,38 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "XM Cyber נמכרת לקראודסטרייק ב-600 מיליון דולר",
+ "story12": "חברת סייבר ישראלית של בכירי מוסד נמכרת לקראודסטרייק ב-600M דולר",
+ "entities": [
+  {
+   "name": "XM Cyber",
+   "aliases": [
+    "אקס אם סייבר"
+   ]
+  },
+  {
+   "name": "CrowdStrike",
+   "aliases": [
+    "קראודסטרייק"
+   ]
+  },
+  {
+   "name": "Tamir Pardo",
+   "aliases": [
+    "תמיר פרדו"
+   ]
+  }
+ ],
+ "company": "XM Cyber",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-14",
+ "slot": "0",
+ "sources": [
+  "https://www.globes.co.il/news/article.aspx?did=1001559307#utm_source=RSS"
+ ],
+ "story": {
+  "link": "https://www.globes.co.il/news/article.aspx?did=1001559307#utm_source=RSS"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
