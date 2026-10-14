@@ -1,0 +1,30 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "OpenAI employee arrested for hiding a recording device in its office",
+ "story12": "A spy planted a bug in OpenAI's office and got caught",
+ "entities": [
+  {
+   "name": "OpenAI",
+   "aliases": []
+  },
+  {
+   "name": "FBI",
+   "aliases": []
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-14",
+ "slot": "2",
+ "sources": [
+  "https://x.com/OpenAINewsroom/status/2110095403198849132",
+  "https://x.com/BNONews/status/2110095168179179692",
+  "https://x.com/pitdesi/status/2110122373793853812"
+ ],
+ "story": {
+  "link": "https://x.com/OpenAINewsroom/status/2110095403198849132"
+ },
+ "photo_credit": "Wikimedia Commons"
+}

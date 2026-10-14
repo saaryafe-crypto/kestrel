@@ -1,0 +1,9 @@
+OpenAI employee arrested for hiding a recording device in its office.
+
+The device was planted in OpenAI's executive conference room, according to the DOJ.
+OpenAI used its own AI models to identify the employee who hid it.
+The matter was referred to the FBI, which made an arrest.
+OpenAI says no model weights, source code, or customer data was accessed.
+
+Source: OpenAI, DOJ
+#OpenAI #AI #Espionage
