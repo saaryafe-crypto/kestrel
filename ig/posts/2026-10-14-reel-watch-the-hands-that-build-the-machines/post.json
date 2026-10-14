@@ -1,0 +1,35 @@
+{
+ "lang": "en",
+ "kind": "reel",
+ "headline": "Watch the hands that build the machines",
+ "story12": "See inside the factory where Boston Dynamics builds humanoid robots",
+ "entities": [
+  {
+   "name": "Boston Dynamics",
+   "aliases": []
+  },
+  {
+   "name": "Atlas",
+   "aliases": []
+  }
+ ],
+ "company": "Boston Dynamics",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-14",
+ "slot": "0",
+ "sources": [
+  "https://x.com/Polymarket/status/2109784465161724277"
+ ],
+ "story": {
+  "link": "https://x.com/Polymarket/status/2109784465161724277"
+ },
+ "video": {
+  "mp4": "https://video-s.twimg.com/amplify_video/2110392770414186496/vid/avc1/1080x1920/64cnrKNpnDJ3ezN2.mp4?tag=16",
+  "ms": 60074,
+  "w": 1080,
+  "h": 1920,
+  "orig_user": "BostonDynamics",
+  "orig_url": null
+ }
+}
