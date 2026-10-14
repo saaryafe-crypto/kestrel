@@ -1,0 +1,8 @@
+Claude now works inside Google Docs, Sheets, and Slides.
+
+The AI sits in a sidebar next to your file, reads it, and edits it in place.
+Google Workspace users can approve each edit before it takes effect.
+Files from Docs, Sheets, and Slides also open directly inside Claude.
+
+Source: Anthropic
+#Claude #GoogleWorkspace #AI

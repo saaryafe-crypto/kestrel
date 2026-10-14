@@ -1,0 +1,33 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Claude now works inside Google Docs, Sheets, and Slides",
+ "story12": "Claude AI now works inside Google Docs, Sheets, and Slides",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": []
+  },
+  {
+   "name": "Claude",
+   "aliases": []
+  },
+  {
+   "name": "Google",
+   "aliases": []
+  }
+ ],
+ "company": "Anthropic",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-14",
+ "slot": "0",
+ "sources": [
+  "https://x.com/claudeai/status/2107522596845822135",
+  "https://x.com/devops_nk/status/2107527872168759628"
+ ],
+ "story": {
+  "link": "https://x.com/claudeai/status/2107522596845822135"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
