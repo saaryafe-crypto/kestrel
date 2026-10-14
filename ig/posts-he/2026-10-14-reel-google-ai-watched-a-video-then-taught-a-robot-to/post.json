@@ -1,0 +1,37 @@
+{
+ "lang": "he",
+ "kind": "reel",
+ "headline": "שום מאמן לא לימד אותו. חכו",
+ "story12": "Google AI watched a video then taught a robot to play cornhole",
+ "entities": [
+  {
+   "name": "Google DeepMind",
+   "aliases": [
+    "גוגל דיפמיינד"
+   ]
+  },
+  {
+   "name": "Apptronik",
+   "aliases": []
+  }
+ ],
+ "company": "Google",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-14",
+ "slot": "1",
+ "sources": [
+  "https://x.com/GoogleDeepMind/status/2110078384617464201"
+ ],
+ "story": {
+  "link": "https://x.com/GoogleDeepMind/status/2110078384617464201"
+ },
+ "video": {
+  "mp4": "https://video.twimg.com/amplify_video/2110077622726037504/vid/avc1/1920x1080/kUbEYXSy9TAWoyTo.mp4?tag=29",
+  "ms": 103280,
+  "w": 3792,
+  "h": 2118,
+  "orig_user": "GoogleDeepMind",
+  "orig_url": null
+ }
+}
