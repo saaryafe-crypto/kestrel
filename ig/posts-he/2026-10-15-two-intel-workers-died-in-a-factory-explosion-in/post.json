@@ -1,0 +1,28 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "שני עובדים נהרגו בפיצוץ במפעל אינטל בקריית גת",
+ "story12": "Two Intel workers died in a factory explosion in Israel",
+ "entities": [
+  {
+   "name": "Intel",
+   "aliases": [
+    "אינטל"
+   ]
+  }
+ ],
+ "company": "Intel",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-15",
+ "slot": "2",
+ "sources": [
+  "https://www.globes.co.il/news/article.aspx?did=1001559762#utm_source=RSS",
+  "https://www.globes.co.il/news/article.aspx?did=1001559515#utm_source=RSS",
+  "https://www.geektime.co.il/intel-kiryat-gat-explosion/"
+ ],
+ "story": {
+  "link": "https://www.globes.co.il/news/article.aspx?did=1001559762#utm_source=RSS"
+ },
+ "photo_credit": "גיקטיים"
+}
