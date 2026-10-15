@@ -1,0 +1,29 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "TSMC רושמת רווח שיא לרבעון השישי ברציפות",
+ "story12": "TSMC records profit six quarters straight on booming AI chip demand",
+ "entities": [
+  {
+   "name": "TSMC",
+   "aliases": [
+    "טייוואן סמיקונדקטור",
+    "Taiwan Semiconductor Manufacturing"
+   ]
+  }
+ ],
+ "company": "TSMC",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-15",
+ "slot": "1",
+ "sources": [
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBidFpXaUM2cTB6bXItTXE2NkpnSGdmbUhqTkd4ZjVLTDFNQWNXSWFtSlJHcWFiczJURE1QUnpHNGNBUVAwRUF6NzVOb3c3Y19pSWRiUzFFZzBtYjlGZXk2ZXdjdWFjM0Zz?oc=5",
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PNlZZcjZOT05Tb21wM09RcHVKT2FsOEt6ZlVsT3BXQndZZV9UWGQ4bWxkLWd3R2Zfa2VvT1ZxZWZFUy01RDE5LWloeXlYMkZrWWJTRHExNVJqallSSXRkSUF6aw?oc=5",
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mMHo5MmN4eEtvODBiM1VmYTlaNUxvUnhhSWtpdldMLUFMZ2tsYTlZNUhwQzBJV3FGWldRLUVQcGVLY0x3djdLa2pnZ0J0VVFza3otT2hINk0wdGtGZzNMTmMwcw?oc=5"
+ ],
+ "story": {
+  "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBidFpXaUM2cTB6bXItTXE2NkpnSGdmbUhqTkd4ZjVLTDFNQWNXSWFtSlJHcWFiczJURE1QUnpHNGNBUVAwRUF6NzVOb3c3Y19pSWRiUzFFZzBtYjlGZXk2ZXdjdWFjM0Zz?oc=5"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
