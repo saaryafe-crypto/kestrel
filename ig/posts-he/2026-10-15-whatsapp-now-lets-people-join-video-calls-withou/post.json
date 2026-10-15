@@ -1,0 +1,32 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "וואטסאפ מאפשרת שיחות וידאו בלי להוריד את האפליקציה",
+ "story12": "WhatsApp now lets people join video calls without downloading the app",
+ "entities": [
+  {
+   "name": "Meta",
+   "aliases": [
+    "מטא"
+   ]
+  },
+  {
+   "name": "WhatsApp",
+   "aliases": [
+    "וואטסאפ"
+   ]
+  }
+ ],
+ "company": "WhatsApp",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-15",
+ "slot": "0",
+ "sources": [
+  "https://www.geektime.co.il/whatsapp-guest-calls-without-account/"
+ ],
+ "story": {
+  "link": "https://www.geektime.co.il/whatsapp-guest-calls-without-account/"
+ },
+ "photo_credit": ""
+}
