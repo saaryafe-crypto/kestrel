@@ -1,0 +1,39 @@
+{
+ "lang": "en",
+ "kind": "reel",
+ "headline": "It kept stopping to check itself. Watch.",
+ "story12": "ChatGPT voice got six new languages and stopped second-guessing itself",
+ "entities": [
+  {
+   "name": "OpenAI",
+   "aliases": [
+    "אופן אי אי"
+   ]
+  },
+  {
+   "name": "ChatGPT",
+   "aliases": [
+    "צ'אטג'יפיטי"
+   ]
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-15",
+ "slot": "1",
+ "sources": [
+  "https://x.com/OpenAI/status/2110797830361436604"
+ ],
+ "story": {
+  "link": "https://x.com/OpenAI/status/2110797830361436604"
+ },
+ "video": {
+  "mp4": "https://video-s.twimg.com/amplify_video/2110784796872024064/vid/avc1/1920x1080/8Vu0_v7N3caBHxH7.mp4?tag=29",
+  "ms": 40733,
+  "w": 3840,
+  "h": 2160,
+  "orig_user": "OpenAI",
+  "orig_url": null
+ }
+}
