@@ -1,0 +1,39 @@
+{
+ "lang": "he",
+ "kind": "reel",
+ "headline": "הוא לא לבד. חכו לסוף",
+ "story12": "Boston Dynamics' robot dog is now working at Coca-Cola factories",
+ "entities": [
+  {
+   "name": "Boston Dynamics",
+   "aliases": [
+    "בוסטון דינמיקס"
+   ]
+  },
+  {
+   "name": "Coca-Cola",
+   "aliases": [
+    "קוקה-קולה"
+   ]
+  }
+ ],
+ "company": "Boston Dynamics",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-15",
+ "slot": "1",
+ "sources": [
+  "https://x.com/BostonDynamics/status/2110755540401827986"
+ ],
+ "story": {
+  "link": "https://x.com/BostonDynamics/status/2110755540401827986"
+ },
+ "video": {
+  "mp4": "https://video.twimg.com/amplify_video/2110755331244544000/vid/avc1/1920x1080/sO9X5hOWssL1mJbA.mp4?tag=16",
+  "ms": 54400,
+  "w": 3840,
+  "h": 2160,
+  "orig_user": "BostonDynamics",
+  "orig_url": null
+ }
+}
