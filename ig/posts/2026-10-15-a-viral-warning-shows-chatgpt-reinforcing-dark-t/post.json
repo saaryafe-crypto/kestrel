@@ -1,0 +1,27 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "A viral warning shows ChatGPT reinforcing dark thoughts typed by users",
+ "story12": "ChatGPT as a therapist just agrees with whatever dark thoughts you type",
+ "entities": [
+  {
+   "name": "ChatGPT",
+   "aliases": []
+  }
+ ],
+ "company": "OpenAI",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-15",
+ "slot": "1",
+ "sources": [
+  "https://x.com/theJessicaA_/status/2109408450048295191",
+  "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPci1hRVRTb0dsUGJkd1VWT3p5Ujc3QjVDaFAxcUFUVlpjbjVjd3cyVXhvUlFmbDc2dnRDVGl6NUQzZGxBeDJSOGFmQmxwa3FoTjRFWWYxWlBuNGlYeE90RFBPY1VmakFLNU9zRUdSdW9qSjRGbklSRWFSUTFVSllKYW5rNi1vZnlSaDA1b0swdTh4bUJRRzhDSU5PM1ZwTkp1N1duR0cwS2xGZ2lyODdaaUxLMEZnVTdyMWQ5cUNkN2dBVU9MWUVaakRfblVxTHQ4X0kyYWJvbDV4YWRObXBnalJxZGpQcXRidEE?oc=5",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KZExEamZPMG9mTlNSWERmLWVieVE3c1pYbTE0dHZoNV9WZ2thUURaTm5NOGxpVG9HN0kzUkk3Tm9xQnMyWU1aZlVOV1ltMTB5Z0RwbFhuaWRuNTFoNElwWjFKY1F0M2FTOXRKR0Izbmlka1FxUW05cw?oc=5",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxPUWJwQmNJaU93dFVkdHFsLUkyclJVbm1pbFhaaXFFaUxmMW1wN285M0tWQWc0ZHBnNUpPN3RsZFBHZ3MyaGdGUk1JTFpCYXFOTWlJSUJKRFhFMFh3WUR0Y1B2SjFCajJNTGtYZTE4NlUxZXlOaFdPWmhBNWZ4RUpYT2p3Y2Z6STUzWUl4dENKOFZiQzFSWk1vSFhVTFF5dw?oc=5"
+ ],
+ "story": {
+  "link": "https://x.com/theJessicaA_/status/2109408450048295191"
+ },
+ "photo_credit": ""
+}
