@@ -1,0 +1,38 @@
+{
+ "lang": "en",
+ "kind": "reel",
+ "headline": "Nobody is switching between these. Watch.",
+ "story12": "Anthropic's AI coding tool is faster and runs many projects at once",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": [
+    "אנתרופיק"
+   ]
+  },
+  {
+   "name": "Claude Code",
+   "aliases": []
+  }
+ ],
+ "company": "Anthropic",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-16",
+ "slot": "0",
+ "sources": [
+  "https://x.com/ClaudeDevs/status/2110445844675838148",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ESnd0bjRSckZBWW4wMkhzQWRKUXZ2UVRMYnhHbkRJUlNoX2FWZU1iRzlLbFlNUF9IbG4zZ3plV016WHBiSlZPQjJ5dHc5TTVwbklod240Y3UtdUZwN1lkb2lIM2ZsN2RycENJQW5NblJTVVU?oc=5"
+ ],
+ "story": {
+  "link": "https://x.com/ClaudeDevs/status/2110445844675838148"
+ },
+ "video": {
+  "mp4": "https://video.twimg.com/amplify_video/2110444209673265152/vid/avc1/2398x1468/RJzqrRke9dq4bP3D.mp4?tag=29",
+  "ms": 9950,
+  "w": 2398,
+  "h": 1468,
+  "orig_user": "ClaudeDevs",
+  "orig_url": null
+ }
+}
