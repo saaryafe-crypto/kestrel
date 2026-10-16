@@ -1,0 +1,33 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "מייסדי Wiz מסתמן יזכו בזיכיון מקדונלד'ס בישראל",
+ "story12": "Wiz cybersecurity founders reportedly buying McDonald's franchise in Israel",
+ "entities": [
+  {
+   "name": "Wiz",
+   "aliases": [
+    "ויז"
+   ]
+  },
+  {
+   "name": "Assaf Rappaport",
+   "aliases": [
+    "אסף רפפורט"
+   ]
+  }
+ ],
+ "company": "Wiz",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-16",
+ "slot": "2",
+ "sources": [
+  "https://www.geektime.co.il/assaf-rappaport-wiz-founders-mcdonalds-israel-franchise/",
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4cG9LV3RHWlp3cFFlN3pia3lVSnpLV0N6M2NzaTZyUExBTVZ2dDdWSDNyYlhRM3RablpFWkZydVJYZGJJblBNMVRhcVpSaXBuU1Z4aVFYN19kelpBYnA4?oc=5"
+ ],
+ "story": {
+  "link": "https://www.geektime.co.il/assaf-rappaport-wiz-founders-mcdonalds-israel-franchise/"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
