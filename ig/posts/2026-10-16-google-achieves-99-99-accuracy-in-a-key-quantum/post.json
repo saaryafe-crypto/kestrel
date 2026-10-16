@@ -1,0 +1,24 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Google achieves 99.99% accuracy in a key quantum operation",
+ "story12": "Google hit 99.99% accuracy in a quantum computing breakthrough",
+ "entities": [
+  {
+   "name": "Google",
+   "aliases": []
+  }
+ ],
+ "company": "Google",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-16",
+ "slot": "1",
+ "sources": [
+  "https://x.com/Polymarket/status/2110815939939991805"
+ ],
+ "story": {
+  "link": "https://x.com/Polymarket/status/2110815939939991805"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
