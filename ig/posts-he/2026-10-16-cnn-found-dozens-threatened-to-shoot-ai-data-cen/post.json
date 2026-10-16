@@ -1,0 +1,24 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "CNN: עשרות איומי רצח ופצצות נגד עובדי חוות בינה מלאכותית",
+ "story12": "CNN found dozens threatened to shoot AI data center workers",
+ "entities": [
+  {
+   "name": "CNN",
+   "aliases": []
+  }
+ ],
+ "company": null,
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-16",
+ "slot": "1",
+ "sources": [
+  "https://www.ynet.co.il/digital/technews/article/bjrifb0izg"
+ ],
+ "story": {
+  "link": "https://www.ynet.co.il/digital/technews/article/bjrifb0izg"
+ },
+ "photo_credit": ""
+}
