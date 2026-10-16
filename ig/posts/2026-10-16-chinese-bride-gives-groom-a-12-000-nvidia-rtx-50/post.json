@@ -1,0 +1,26 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Chinese bride gives groom a $12,000 Nvidia RTX 5090 at their wedding",
+ "story12": "Chinese bride surprises groom with a $12,000 Nvidia GPU at wedding",
+ "entities": [
+  {
+   "name": "Nvidia",
+   "aliases": [
+    "אנבידיה"
+   ]
+  }
+ ],
+ "company": "Nvidia",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-16",
+ "slot": "2",
+ "sources": [
+  "https://x.com/Polymarket/status/2111101004242677791"
+ ],
+ "story": {
+  "link": "https://x.com/Polymarket/status/2111101004242677791"
+ },
+ "photo_credit": "Polymarket"
+}
