@@ -1,0 +1,34 @@
+{
+ "lang": "en",
+ "kind": "card",
+ "headline": "Elon Musk says the future does have flying cars, Tesla posts video",
+ "story12": "Tesla showed flying cars today and Elon said the future is here",
+ "entities": [
+  {
+   "name": "Tesla",
+   "aliases": [
+    "TSLA"
+   ]
+  },
+  {
+   "name": "Elon Musk",
+   "aliases": [
+    "@elonmusk"
+   ]
+  }
+ ],
+ "company": "Tesla",
+ "musk": true,
+ "israeli": false,
+ "slot_time": "2026-10-16",
+ "slot": "0",
+ "sources": [
+  "https://x.com/Tesla/status/2110913438293647789",
+  "https://x.com/elonmusk/status/2110913107094606330",
+  "https://x.com/Tesla/status/2110926164306931860"
+ ],
+ "story": {
+  "link": "https://x.com/Tesla/status/2110913438293647789"
+ },
+ "photo_credit": "Tesla"
+}
