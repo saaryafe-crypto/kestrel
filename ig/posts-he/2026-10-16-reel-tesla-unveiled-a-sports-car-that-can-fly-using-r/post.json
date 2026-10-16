@@ -1,0 +1,47 @@
+{
+ "lang": "he",
+ "kind": "reel",
+ "headline": "תחכו לרגע שתראו את האחורה",
+ "story12": "Tesla unveiled a sports car that can fly using rocket thrusters",
+ "entities": [
+  {
+   "name": "Tesla",
+   "aliases": [
+    "טסלה"
+   ]
+  },
+  {
+   "name": "Elon Musk",
+   "aliases": [
+    "אילון מאסק"
+   ]
+  }
+ ],
+ "company": "Tesla",
+ "musk": true,
+ "israeli": false,
+ "slot_time": "2026-10-16",
+ "slot": "0",
+ "sources": [
+  "https://x.com/Tesla/status/2110903770838384773",
+  "https://x.com/Tesla/status/2110905133785829671",
+  "https://x.com/Polymarket/status/2110902837685436515",
+  "https://x.com/TheInsiderPaper/status/2110902370234450271",
+  "https://x.com/Polymarket/status/2110903634309312840",
+  "https://x.com/TheInsiderPaper/status/2110903785078026340",
+  "https://x.com/MarioNawfal/status/2110953194066977078",
+  "https://x.com/MarioNawfal/status/2110936269291417750",
+  "https://x.com/Reuters/status/2111004216852722069"
+ ],
+ "story": {
+  "link": "https://x.com/Tesla/status/2110903770838384773"
+ },
+ "video": {
+  "mp4": "https://video.twimg.com/amplify_video/2110904702766579712/vid/avc1/3840x2160/uzUc-603MQ52103v.mp4?tag=29",
+  "ms": 34000,
+  "w": 3840,
+  "h": 2160,
+  "orig_user": "Tesla",
+  "orig_url": null
+ }
+}
