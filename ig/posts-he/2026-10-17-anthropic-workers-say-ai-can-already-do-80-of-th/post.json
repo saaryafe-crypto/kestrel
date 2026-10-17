@@ -1,0 +1,26 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "עובדי אנתרופיק: AI יבצע 80% מהעבודה שלהם עד 2030",
+ "story12": "Anthropic workers say AI can already do 80% of their jobs",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": [
+    "אנתרופיק"
+   ]
+  }
+ ],
+ "company": "Anthropic",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-17",
+ "slot": "2",
+ "sources": [
+  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uTUN4NjdNWEpyRGhkUjdyaXdlR1RrcFVDTUxMSERiLXBaSmlPMzdESHNuTWkwc2dtX2s1UHhKYldPdU1LSkc4Q2tUdWlZNlNmNFZOMUoydFpBTzdKSXBmT2NJU3I5SFE?oc=5"
+ ],
+ "story": {
+  "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uTUN4NjdNWEpyRGhkUjdyaXdlR1RrcFVDTUxMSERiLXBaSmlPMzdESHNuTWkwc2dtX2s1UHhKYldPdU1LSkc4Q2tUdWlZNlNmNFZOMUoydFpBTzdKSXBmT2NJU3I5SFE?oc=5"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
