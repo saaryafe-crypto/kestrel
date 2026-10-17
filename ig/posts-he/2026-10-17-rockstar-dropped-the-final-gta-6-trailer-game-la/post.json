@@ -1,0 +1,33 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "רוקסטאר פרסמה את הטריילר האחרון של GTA 6",
+ "story12": "Rockstar dropped the final GTA 6 trailer; game launches next month",
+ "entities": [
+  {
+   "name": "Rockstar Games",
+   "aliases": [
+    "רוקסטאר"
+   ]
+  },
+  {
+   "name": "GTA 6",
+   "aliases": [
+    "Grand Theft Auto VI"
+   ]
+  }
+ ],
+ "company": "Rockstar Games",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-17",
+ "slot": "1",
+ "sources": [
+  "https://www.ynet.co.il/digital/gaming/article/rjrgf8roge",
+  "https://www.geektime.co.il/gta-vi-launch-trailer-rockstar/"
+ ],
+ "story": {
+  "link": "https://www.ynet.co.il/digital/gaming/article/rjrgf8roge"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
