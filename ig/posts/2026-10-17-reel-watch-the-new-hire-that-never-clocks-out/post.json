@@ -1,0 +1,37 @@
+{
+ "lang": "en",
+ "kind": "reel",
+ "headline": "Watch the new hire that never clocks out",
+ "story12": "Coca-Cola is deploying Boston Dynamics robot dogs at its factories worldwide",
+ "entities": [
+  {
+   "name": "Boston Dynamics",
+   "aliases": []
+  },
+  {
+   "name": "Coca-Cola European Partners",
+   "aliases": [
+    "Coca-Cola EP"
+   ]
+  }
+ ],
+ "company": "Boston Dynamics",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-17",
+ "slot": "0",
+ "sources": [
+  "https://x.com/BostonDynamics/status/2110755540401827986"
+ ],
+ "story": {
+  "link": "https://x.com/BostonDynamics/status/2110755540401827986"
+ },
+ "video": {
+  "mp4": "https://video.twimg.com/amplify_video/2110755331244544000/vid/avc1/1920x1080/sO9X5hOWssL1mJbA.mp4?tag=16",
+  "ms": 54400,
+  "w": 3840,
+  "h": 2160,
+  "orig_user": "BostonDynamics",
+  "orig_url": null
+ }
+}
