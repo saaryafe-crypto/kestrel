@@ -1,0 +1,26 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "סופטבנק רוצה לקנות חברת אבטחה ב-30 מיליארד דולר",
+ "story12": "SoftBank wants to spend $30B to replace security guards with robots",
+ "entities": [
+  {
+   "name": "SoftBank",
+   "aliases": [
+    "סופטבנק"
+   ]
+  }
+ ],
+ "company": "SoftBank",
+ "musk": false,
+ "israeli": false,
+ "slot_time": "2026-10-18",
+ "slot": "0",
+ "sources": [
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE13cG5MZC1BNW5DLTlkS09oNG9sVTY5b29zWFlyTURqSXU1dGdkRU9oQnZOV1hJNGE2ZVRJa2dYem14R3FFNHpHTUh1NlQtWFJTOW1GSW5aQ254cDdlQnl0a1NyblZTZTdaMVdXNWQzY3M?oc=5"
+ ],
+ "story": {
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13cG5MZC1BNW5DLTlkS09oNG9sVTY5b29zWFlyTURqSXU1dGdkRU9oQnZOV1hJNGE2ZVRJa2dYem14R3FFNHpHTUh1NlQtWFJTOW1GSW5aQ254cDdlQnl0a1NyblZTZTdaMVdXNWQzY3M?oc=5"
+ },
+ "photo_credit": "Wikimedia Commons"
+}
