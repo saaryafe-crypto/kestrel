@@ -1,0 +1,33 @@
+{
+ "lang": "he",
+ "kind": "card",
+ "headline": "סטודנטים נוטשים מדמ\"ח: חוששים שה-AI ייתר אותם",
+ "story12": "Students quit computer science because AI already codes better",
+ "entities": [
+  {
+   "name": "Anthropic",
+   "aliases": [
+    "אנת'רופיק"
+   ]
+  },
+  {
+   "name": "Claude Code",
+   "aliases": [
+    "קלוד קוד"
+   ]
+  }
+ ],
+ "company": "Anthropic",
+ "musk": false,
+ "israeli": true,
+ "slot_time": "2026-10-18",
+ "slot": "1",
+ "sources": [
+  "https://www.geektime.co.il/cs-drop-electrical-engineering-jump/",
+  "https://www.globes.co.il/news/article.aspx?did=1001559734#utm_source=RSS"
+ ],
+ "story": {
+  "link": "https://www.geektime.co.il/cs-drop-electrical-engineering-jump/"
+ },
+ "photo_credit": "גיקטיים"
+}
